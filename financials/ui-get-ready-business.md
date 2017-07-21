@@ -1,6 +1,6 @@
 ---
 title: "Välkommen | Microsoft Docs"
-description: "Gör dig redo för affärer"
+description: "Översikt över assisterade installationer, videor, hjälpavsnitt och sidor och fönster du kan använda för att bli redo att göra affärer med Dynamics 365 for Financials."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
@@ -25,7 +25,8 @@ För att hjälpa dig att göra dig redo för affärer, kan du besöka fönstret 
 
 På startsidan, längst ned i navigeringsfönstret, hittar du menyn **inställningar och tillägg**. Expandera knappen **Start** för att visa navigeringsrutan. Här har du åtkomst till en lista med assisterade inställning som kan hjälpa dig att komma igång. När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av den assisterade inställningen. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Obs!** Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **paket**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **paket**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 I fönstret **Assisterad inställning** hittar du följande med **Grundläggande**-upplevelsen:
 
@@ -59,6 +60,6 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Så här hanterar du användare och behörigheter](ui-how-users-permissions.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Omsättningsskatt och momsgrupper i USA och Kanada | Microsoft Docs"
-description: "Lär dig mer om hur omsättningsskatt ställs in och hur skattegrupper, skatteområden, skattemyndigheter och skatteinformation fungerar."
+title: "Ställa in momsgrupper, områden och jurisdiktioner i USA och Kanada | Microsoft Docs"
+description: "Lär dig mer om hur omsättningsskatt ställs in och hur skattegrupper, skatteområden (stater, län, städer och orter), skattemyndigheter och skatteinformation fungerar."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Omsättningsskatt och momsgrupper i USA och Kanada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Momsrapportering i USA och Kanada
 När du först börjar att använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du köra en assisterad inställning för att snabbt och enkelt konfigurera information om omsättningsskatt för företaget, kunder och leverantörer. På några minuter är du klar att skapa försäljningsdokument och inköpsdokument med omsättningsskatt som beräknas korrekt. Det förklaras [i vårt blogginlägg](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Om du flyttar till det tomma Mitt företag, rekommenderar vi att du startar genom att använda alla guider för assisterad installation inklusive den för omsättningsskatt. Om du hellre vill ställa in omsättningsskatt själv förklarar detta inlägg vad du måste ta hänsyn till.  
 
@@ -43,5 +43,5 @@ I Förenta staterna när du säljer till en kund på en plats där du inte har e
 [Ställa in Finance](finance-setup-finance.md)  
 [Omsättningsskatt och moms på varor och tjänster i Kanada](ca-finance-tax.md)  
 [Enkel omsättningsskattinstallation](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

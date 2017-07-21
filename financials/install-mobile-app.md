@@ -1,6 +1,6 @@
 ---
-title: "Hämta Dynamics 365 for Financials på din mobila enhet | Microsoft Docs"
-description: "Få programmet för en mobil enhet."
+title: "Använd Financials på din mobila enhet | Microsoft Docs"
+description: "Du kan visa och redigera dina Financials-data på din telefon eller surfplatta."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8f81f266a796798c79b305896f501d84531d60a7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -32,6 +32,6 @@ Komma åt [!INCLUDE[d365fin](includes/d365fin_md.md)] från en mobil enhet. Du k
 Du bör nu ha tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)] och kunna visa och redigera data.
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

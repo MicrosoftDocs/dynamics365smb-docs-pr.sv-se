@@ -1,6 +1,6 @@
 ---
-title: "Så här hanterar du projektmaterial | Microsoft Docs"
-description: "Beskriver hur du anger material och tjänster till projekt."
+title: "Köpa artiklar eller tjänster för ett projekt och hantera leveranser | Microsoft Docs"
+description: "Beskriver hur du hanterar försörjning och inköp av material och tjänster för projekt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f52fa9545b50038c1d28daa164add07915ef2656
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,15 +28,15 @@ Om inköpsprocessen inte kräver att den fysiska transaktionen registreras separ
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Köpa artiklar eller tjänster till ett projekt
 Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa produkter till ett projekt. Samma steg gäller när du använder en inköpsorder.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Inköpsfakturor**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll i fälten efter behov. Mer information finns i [Så här registrerar du inköp](purchasing-how-record-purchases.md).
-3. I fälten **Projektnr **. och **Projektaktivitetsnr** väljer du informationen för det projekt som du vill köpa artiklar eller tjänster för. Använd funktionen **Välj kolumner** om fältet inte visas. Mer information finns i [Användaranpassning](ui-user-personalization.md).
+3. I fälten **Projektnr**. och **Projektaktivitetsnr** väljer du informationen för det projekt som du vill köpa artiklar eller tjänster för. Använd funktionen **Välj kolumner** om fältet inte visas. Mer information finns i [Användaranpassning](ui-user-personalization.md).
 
-    Värdet som du väljer i fältet **Projektradtyp** definierar om en planeringsrad skapas när du bokför artikelförbrukningen. Om fältet innehåller **Fakturerbart** skapas projektplaneringsrader som är klara att faktureras till kunden. (Mer information finns i [Så här skapar du fakturaprojekt](projects-how-invoice-jobs.md).)
+    Värdet som du väljer i fältet **Projektradtyp** definierar om en planeringsrad skapas när du bokför artikelförbrukningen. Om fältet innehåller **Fakturerbart** skapas projektplaneringsrader som är klara att faktureras till kunden. Mer information finns i [Så här skapar du fakturaprojekt](projects-how-invoice-jobs.md).
 4. Välj åtgärden **Bokföra**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Visa värdet på inköp till ett projekt
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.
 2. Öppna ett relevant projektkort.
 
     På snabbfliken **Uppgifter** visar fältet **Utestående order** det totala utestående beloppet, i lokal valuta, för lagerartiklar och tjänster för inköpsdokument för projektaktivitetsraden.  
@@ -47,7 +47,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
 ## <a name="to-post-a-job-related-expense"></a>Så här bokför du en projektrelaterad utgift
 Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du använda fönstret **Projektredovisningsjournal** för att bokföra dem direkt till det relevanta projektkontot.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projektredovisningsjournaler**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektredovisningsjournaler** och välj sedan relaterad länk.  
 2. Skapa en ny rad och registrera information om utgiften, bland annat information i fälten **Projektnr**. och **Projektaktivitetsnr**.  
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
@@ -56,5 +56,5 @@ Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du anvä
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

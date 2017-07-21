@@ -1,6 +1,6 @@
 ---
 title: "Inställning av bokföringsmall | Microsoft Docs"
-description: "Ger en översikt över bokföringsmallar"
+description: "Översikt av bokföringsmallar som du kan använda för att spara tid och för att undvika misstag när du bokför transaktioner."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Inställningar för bokföringsmall
+# <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
 Bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
 
 Bokföringsmallar omfattas av tre paraplyer:  
 
 * Allmänt - definiera vem du säljer till och köper från, och vad du säljer och vad du köper. Du kan också slå ihop mallar om du vill ange bland annat resultatkontona att bokföra till eller använda mallar för att filtrera rapporter.  
-* Specifik - Använda försäljningsdokument istället för att bokföra direkt till redovisningen. När du skapar transaktioner i kundreskontra används motsvarande transaktioner i redovisningen  
+* Specifik - Använda försäljningsdokument istället för att bokföra direkt till redovisningen. När du skapar transaktioner i kundreskontra används motsvarande transaktioner i redovisningen.  
 * Skatt – definiera skatteprocentsatser och beräkningstyper som gäller för vem du säljer till och köper från, och vad du säljer och vad du köper.
 
 I följande tabeller beskrivs bokföringsmallarna under varje paraply.  
@@ -79,5 +79,5 @@ Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du i 
 ## <a name="see-also"></a>Se även 
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

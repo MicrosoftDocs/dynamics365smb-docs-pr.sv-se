@@ -1,6 +1,6 @@
 ---
-title: "Så här överför du lager mellan olika lagerställen | Microsoft Docs"
-description: "Beskriver hur du överför lager från en plats eller ett lagerställe till en annan med grupperingsjournalen eller med överföringsorder."
+title: "Så här överför du artiklar mellan olika distributionslagerplatser | Microsoft Docs"
+description: "Beskriver hur du flytta lager från en plats eller ett lagerställe till en annan med grupperingsjournalen eller med överföringsorder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 43a60a6eb646de13ca9bf1458061f0bbefbeab12
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,17 +27,20 @@ Med överföringsorder kan du leverera en utgående överföring från ett lager
 
 Med grupperingsjournalen fyller du helt enkelt i fälten **Lagerställeskod** och **Ny Lagerställeskod**. När du bokför journalen, justeras artikeltransaktionerna på berörda lägerställen. På så sätt administreras inga lageraktiviteter.
 
-**Obs!** Om du har artiklar i lagret utan lagerställekod, till exempel från en tid när du bara hade ett lage, kan du inte överföra objekten med överföringsorder. I stället måste du använda grupperingsjournalen för att gruppera artiklar från en tom lagerställekod till en faktisk lagerställekod.  Mer information finns i steg 3 i avsnittet "Att överföra artiklar med artikelgrupperingsjournalen".
+> [!NOTE]  
+>   Om du har artiklar i lagret utan lagerställekod, till exempel från en tid när du bara hade ett lage, kan du inte överföra objekten med överföringsorder. I stället måste du använda grupperingsjournalen för att gruppera artiklar från en tom lagerställekod till en faktisk lagerställekod.  Mer information finns i steg 3 i avsnittet "Att överföra artiklar med artikelgrupperingsjournalen".
 
 Om du vill överföra artiklar måste lägerställen och överföringsflöden ställas in. Mer information finns i [Så här skapar du lägerställen](inventory-how-setup-locations.md).
 
-**Obs!** den här funktionen kräver att din upplevelse är inställd på **Paket **. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>För att överföra artiklar med en överföringsorder.
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Överföringsorder**, och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Överföringsorder** och välj sedan relaterad länk.
 2. I fönstret **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    **Obs!** Om du har fyllt i fälten **Transitkod**, **Speditörskod**, och **Speditörsservice** i fönstret **Överföringsflödesspec.** när du skapar överföringsflödet, kommer motsvarande fält på överföringsordern att fyllas i automatiskt.
+    > [!NOTE]  
+>   Om du har fyllt i fälten **Transitkod**, **Speditörskod** och **Speditörsservice** i fönstret **Överföringsflödesspec.** när du skapar överföringsflödet, kommer motsvarande fält på överföringsordern att fyllas i automatiskt.
 
     När du fyller i fältet **Speditörsservice** beräknas datum för inleverans till det aktuella lagerstället genom att speditörens leveranstid tillförs utleveransdatumet.
 
@@ -50,11 +53,12 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 4. Välj åtgärden **bokför**, välj alternativet **inleverera**, och välj sedan **OK**-knappen.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Så här överför du artiklar med artikelgrupperingsjournalen
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Artikelgrupperingsjournaler**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelgrupperingsjournaler** och välj sedan relaterad länk.
 2. I fönstret **Artikelgrupp.journal** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I fältet **Lagerställeskod** ställer du in det lagerställe där artiklarna lagras för tillfället.
 
-    **Obs!** För att överföra artiklar som inte har någon platskod, lämnar du fältet **lagerställekod** tomt.
+    > [!NOTE]  
+>   För att överföra artiklar som inte har någon platskod, lämnar du fältet **lagerställekod**.
 4. I fältet **Ny lagerställeskod** ställer du in det lagerställe som du vill överföra artiklarna till.
 5. Välj åtgärden **Bokföra**.
 
@@ -62,7 +66,7 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 [Hantera lager](inventory-manage-inventory.md)  
 [Så här skapar du lagerställen](inventory-how-setup-locations.md)  
 [Logistik](madeira-supply-chain.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

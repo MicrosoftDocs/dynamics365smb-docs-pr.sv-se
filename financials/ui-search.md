@@ -1,6 +1,6 @@
 ---
-title: "Söka efter en sida eller rapport | Microsoft Docs"
-description: "lär dig hur du använder sökning i Dynamics 365 for Financials."
+title: "Söka efter sidor och rapporter med hjälp av funktionen Sök efter sidan eller rapporten | Microsoft Docs"
+description: "Om du vill söka efter sidor och rapporter i Dynamics 365 for Financials, kan du använda funktionen Sök efter sidan eller rapporten."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae0814ab8c2412c67ae436441306ce14d4b40851
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c38f22bec1101a8373b7b5dab246942f49412afc
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,10 +27,12 @@ Du kan söka sidor och rapporter genom att välja ikonen **Sök efter sida eller
 
 När du börjar skriva tecken visar en listruta namnen som innehåller tecknen du skriver. Listrutan ändras allt eftersom du skriver fler tecken, och du kan välja rätt sida från listan när den visas. Den andra kolumnen i listrutan visar sökvägarna till de sidor som hittas. Det finns också en länk som låter dig söka efter hjälpavsnitt för de tecken som du skrev in.
 
-**Obs!** Tillgängliga sidor och rapporter beror på vilken användarupplevelse du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **paket**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_long_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Tillgängliga sidor och rapporter beror på vilken användarupplevelse du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **paket**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_long_md.md)] upplevelse](ui-experiences.md).
 
-**Obs**! Funktionen **Sök efter sida eller rapport** söker inte via data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja förstoringsglassymbolen i det högra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Ange villkor i filter](ui-enter-criteria-filters.md).
+> [!NOTE]  
+>   Funktionen **Sök efter sida eller rapport** söker inte via data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja förstoringsglassymbolen i det högra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Ange villkor i filter](ui-enter-criteria-filters.md).
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

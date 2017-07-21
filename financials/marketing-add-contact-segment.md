@@ -1,6 +1,6 @@
 ---
-title: "Lägg till kontakter i segment | Microsoft Docs"
-description: "Beskriver hur du lägger till kontakter i segment i Financials "
+title: Definiera kontakter i ett segment | Microsoft Docs
+description: "När du har skapat ett segment kan du kan lägga till kontakter i segmentet, exempelvis som en del av en marknadsföringskampanj där du riktar dig mot vissa kunder."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d9e72fc4f6f83534cabd36cfc66cfcf856a8b0d2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna i fönstret **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
-1. Välj åtgärden **Aktiva segment** på startsidan. Eller, i det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Segment**, och välj sedan relaterad länk.  
+1. Välj åtgärden **Aktiva segment** på startsidan. Eller välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.  
 2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Fönstret för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
 
@@ -58,5 +58,5 @@ Du kan reducera ett segment så många gånger som du vill. Klicka på åtgärde
 [Så här skapar du segment](marketing-how-create-segment.md)   
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

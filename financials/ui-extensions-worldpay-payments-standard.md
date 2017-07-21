@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Om du aktiverar tillägget och skickar en försäljningsfaktura eller försäljn
 Aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Så här aktiverar du kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se även
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]med tillägg](ui-extensions.md)  
-[Ställa in försäljning] (sales-setup-sales.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Konfigurera försäljning](sales-setup-sales.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

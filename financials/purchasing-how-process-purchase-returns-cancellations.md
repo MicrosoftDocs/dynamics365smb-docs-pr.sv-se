@@ -1,6 +1,6 @@
 ---
-title: "Så här behandlar du inköpsreturer eller annulleringar | Microsoft Docs "
-description: "Så här behandlar du inköpsreturer eller annulleringar"
+title: "Använd Inköpskreditnotor för att bearbeta returer eller annulleringar | Microsoft Docs"
+description: "Förklarar hur du skapar och bokför en inköpskreditnota när du returnerar artiklar till en leverantör eller avbryter köpta tjänster."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 03/29/2017
+ms.date: 06/21/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f87b51ac746c6586e4ebb3b09aaa8d5ee7ac391d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 887add30a1ec72b7de961e03161bfc34826980fc
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Så här behandlar du inköpsreturer eller annulleringar
 Om du vill returnera artiklar till leverantören eller annullera tjänster som du har köpt, kan du skapa och bokföra en inköpskreditnota som anger begärd ändring med hänsyn till den ursprungliga inköpfakturan. För att inkludera rätt uppgifter om inköpsfakturan kan du skapa inköpskreditnotan från den bokförda inköpsfakturan eller använda en kopieringsfunktion.
 
-**Obs!** Om en bokförd inköpsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda inköpsfakturan för att automatiskt återföra relevanta transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här rättar eller annullerar du obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+> [!NOTE]  
+>   Om en bokförd inköpsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda inköpsfakturan för att automatiskt återföra relevanta transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här rättar eller annullerar du obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Vanligtvis skapar du en inköpskreditnota som reaktion på en kreditnota som skickas till dig av en leverantör. Inköpskreditnotan fungerar som din interna dokumentation över kreditnotabearbetningen i redovisningssyfte.
 
@@ -31,8 +32,10 @@ Vanligtvis skapar du en inköpskreditnota som reaktion på en kreditnota som ski
 
 Förutom den ursprungliga bokförda inköpsfakturan kan du koppla inköpskreditnotan till andra inköpsdokument, t.ex en annan bokförd inköpsfaktura, eftersom du också returnerar artiklarna som har levererats med den fakturan.
 
+Bokföringen av kreditnota återställer även eventuella kostnader som har tilldelats det bokförda dokumentet så att artikelns värdetransaktioner är samma som innan artikelkostnaden har tilldelats.
+
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Skapa en ny inköpskreditnota från en bokförd inköpsfaktura.
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Inköpskreditnotor**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
 2. I fältet **Bokförda inköpsfakturor** väljer du den bokförda inköpsfakturan som du vill återföra och väljer sedan åtgärden **Skapa korrigerande kreditnota**.
 
     De flesta fält på inköpskreditnotans huvud fylls i med informationen från den bokförda inköpsfakturan. Du kan redigera alla fält, till exempel med ny information som behövs för returavtalet.
@@ -52,7 +55,7 @@ De bokförda inköpsfakturorna som du koppla kreditnotan till återförs nu. Om 
 Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bokförda inköpskreditnotor.
 
 ## <a name="to-create-a-purchase-credit-memo-from-scratch"></a>Så här skapar du inköpskreditnoto från börjanr:
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokförda inköpsfakturor**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpskreditnotor** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom inköpskreditnota.
 3. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
 4. Välj åtgärden **kopiera dokument**.
@@ -66,5 +69,5 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 [Inköp](purchasing-manage-purchasing.md)  
 [Så här registrerar du inköp](purchasing-how-record-purchases.md)  
 [Så här rättar eller makulerar du obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

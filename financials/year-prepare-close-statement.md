@@ -1,6 +1,6 @@
 ---
-title: "Förbereder årsbokslutsrapporter | Microsoft Docs"
-description: "Ger en översikt av rapporter som kan vara användbar när du har avslutat ett år."
+title: "Översikt över rapporter för att förbereda årsbokslutsmeddelanden | Microsoft Docs"
+description: "Ger en översikt över de rapporter du kan använda för att samla den information du behöver för att förbereda ditt företags bokslutsrapporte när du avslutar ett räkenskapsår."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,9 +35,10 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 | skriva ut en kontouppställning för att analysera siffror för redovisningskonton eller jämföra faktiska redovisningstransaktioner med redovisningsbudgettransaktioner. |Kontouppställning |
 | kontrollera om kund- och leverantörsreskontratransaktioner stämmer överens med motsvarande redovisningstransaktioner. |Avstäm kund- och lev.konton Tillgång |
 
-Om du vill se en rapport väljer du ikonen **Sök efter sida eller rapport** ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), anger du namnet som det visas i tabellen och väljer sedan relaterad länk.
+Om du vill se en rapport väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport") anger namnet som det visas i tabellen och väljer sedan relaterad länk.
 
 ## <a name="see-also"></a>Se även
 [Avsluta år och perioder](year-close-years-periods.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Affärsstöd](bi.md)
 

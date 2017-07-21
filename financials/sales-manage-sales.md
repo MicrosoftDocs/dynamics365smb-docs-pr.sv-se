@@ -1,5 +1,5 @@
 ---
-title: "Försäljning | Microsoft Docs"
+title: "Översikt över uppgifter för hantering av försäljning | Microsoft Docs"
 description: "Beskriver hur du hanterar försäljningsaktiviteter."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,6 +46,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Skapa en försäljningsoffert där du erbjuder produkter med förhandlingsbara villkor, innan du omvandlar offerten till en försäljningsfaktura. |[Så här gör du erbjudanden](sales-how-make-offers.md) |
 | Skapa en försäljningsfaktura för att registrera en överenskommelse med en kund om att sälja produkter till vissa leverans- och betalningsvillkor. |[Så här fakturerar du försäljning](sales-how-invoice-sales.md) |
 | Behandla en försäljningsorder som rör delvis leverans eller direktleverans. |[Så här säljer du produkter](sales-how-sell-products.md) |
+|Lägga upp standardförsäljnings- eller inköpsrader som du kan snabbt infoga i dokument, till exempel för återkommande påfyllningsorder.|[Så här: Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  
 | Länka en försäljningsorder till en inköpsorder för att sälja ett direktutleveransobjekt som ska levereras direkt från din leverantör till kunden. |[Så här utför du direktleveranser](sales-how-drop-shipment.md) |
 | Utför en åtgärd på en obetald bokförd försäljningsfaktura som automatiskt skapar en kreditnota och antingen annullerar försäljningsfakturan eller skapar den på nytt, så att du kan göra korrigeringar. |[Så här rättar eller makulera du obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md) |
 | Skapa en försäljningskreditnota för att återföra en särskild bokförd försäljningsfaktura för att visa produkter som kunden returnerar och vilka belopp som du ska återbetala. |[Så här behandlar du försäljningreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md) |
@@ -57,7 +58,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Hantera Leverantörsreskontra](payables-manage-payables.MD)  
 [Projekthantering](projects-manage-projects.md)    
 [Logistik](madeira-supply-chain.md)      
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

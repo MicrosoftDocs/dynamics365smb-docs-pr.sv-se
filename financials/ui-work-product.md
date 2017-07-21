@@ -1,6 +1,6 @@
 ---
-title: Arbeta med Financials | Microsoft Docs
-description: Arbeta med Dynamics 365 for Financials
+title: "Arbeta med allmänna funktioner i Dynamics 365 for Financials | Microsoft Docs"
+description: "Beskriver de allmänna funktionerna som du använder för att arbeta med data i Financials, ange värden, sortera data och ändra vyer."
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/12/2017
+ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9593131a1c0a18f5599ebbe8a253f007e4fc6c4b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0a50b92a952c0d4be2b68dc4278cedd9362348f0
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,14 +32,16 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 | Se vilka fält som måste fyllas i. |[Obligatoriska fält](ui-mandatory-fields.md) |
 | Använd Sök för att söka efter en viss sida eller rapport. |[Använda Sök efter sida eller rapport](ui-search.md) |
 | Lär dig mer om hur du sorterar data. |[Sortering](ui-sorting.md) |
-| Ändra hur du visar listor med till exempel kunder, leverantörer eller artiklar. |[Visar listor i olika vyer](across-display-lists-different-views.md) |
+| Ändra hur du visar listor med till exempel kunder, leverantörer eller artiklar. |[Visar listor på olika sätt](across-display-lists-different-views.md) |
 | Ändra den färgade indikatorn på stack-ikon. |[Så här skapar du en färglagd indikator på stack-ikoner](ui-how-setup-colored-indicator-cues.md) |
 | Ändra grundläggande inställningar som företag eller arbetsdatum. |[Ändra grundinställningar](ui-change-basic-settings.md) |
 | Ändra Rollcentret och den relaterade startsidan, så att de passar din roll. |[Så här ändrar du rollcentret](change-role.md) |
 | Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser. |[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md) |
+| Få rapporter om du vill visa data från specifika datumintervall. |[Ange datumintervall Dynamics 365 for Financials](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>Se även
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

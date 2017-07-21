@@ -1,6 +1,6 @@
 ---
-title: Smarta meddelanden | Microsoft Docs
-description: "Smarta meddelanden ger dig rådgivning och rekommendationer."
+title: "Arbeta med smarta meddelanden och ange när du ser den | Microsoft Docs"
+description: "Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,10 @@ När du först börjar med [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiveras
 Dessutom låter dig vissa meddelanden ange de villkor enligt vilka de ska skickas. Exempelvis om du vill få ett meddelande när lagret är slut, men endast för de artiklar du vill köpa från en viss leverantör.  
 Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för dig.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Mina meddelanden**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Mina meddelanden** och välj sedan relaterad länk.
 2. Om du vill aktivera och inaktivera meddelanden markerar eller avmarkerar du kryssrutan **aktiverad**.
 3. Ange villkor som ska utlösa meddelanden genom att välja länken **Visa filterdetaljer** och fyll sedan i fälten.  
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

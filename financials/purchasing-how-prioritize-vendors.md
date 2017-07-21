@@ -1,6 +1,6 @@
 ---
-title: "Så här prioriterar du leverantörer | Microsoft Docs"
-description: "Så här prioriterar du leverantörer"
+title: "Tilldela en leverantör till en prioritetsnivå | Microsoft Docs"
+description: "Du kan tilldela nummer till leverantörer eller för att prioritera dem och underlätta betalningsförslag i Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Först måste du prioritera leverantörerna genom att tilldela nummer till dem.
 
 ## <a name="to-prioritize-vendors"></a>Så här prioriterar du leverantörer:
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Leverantörer**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.
 2. Välj lämplig leverantör och sedan **Redigera**.
 3. Ange ett nummer i fältet **Prioritet**.
 
@@ -37,5 +37,5 @@ Om du inte vill prioritera en leverantör lämnar du fältet **Prioritet** tomt.
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

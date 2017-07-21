@@ -1,6 +1,6 @@
 ---
-title: Kontaktpersoner | Microsoft Docs
-description: "Du kan skapa kontaktpersoner utifrån befintliga kontaktföretag eller skapa oberoende kontaktpersoner i Financials."
+title: Skapa kontaktpersoner | Microsoft Docs
+description: "Beskriver uppgiften om du vill skapa ett kontaktkort för en person, t.ex. en potentiell kund eller leverantör som bidrar till att definiera relationen och skräddarsy kommunikationen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bfc992a09bfe3b93d682dd5c38cdab6c7dc1617b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="contact-persons"></a>Kontaktpersoner
+# <a name="creating-contact-persons"></a>Skapa kontaktpersoner
 Du skapar en kontakt genom att skapa ett kontaktkort för personen. Du kan skapa kontaktpersoner utifrån befintliga kontaktföretag eller skapa oberoende kontaktpersoner.
 
 När du till exempel har träffat ett prospektföretag, träffar du deras inköpare. Du skapar då ett kontaktkort för den här personen så att kommunikationen kan skräddarsys.
@@ -35,8 +35,8 @@ I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de 
 | --- | --- |
 | Ange information om en kontaktperson. |[Så här skapar du kontaktpersoner](marketing-how-create-contact-persons.md) |
 | Ange en alternativ adress för en kontakt. |[Så här tilldelar du alternativa adresser](marketing-how-assign-alternate-address.md) |
-| Beskriv affärsrelationen med en företagskontakt. |[Konfigurera arbetsansvar för kontakter](marketing-job-responsibilities.md) |
-| Beskriv kontakternas befattningsnivå. |[Skapa befattningsnivåer för kontaktpersoner](marketing-organizational-levels.md) |
+| Beskriv affärsrelationen med en företagskontakt. |[Så här: Konfigurera arbetsansvar för kontakter](marketing-job-responsibilities.md) |
+| Beskriv kontakternas befattningsnivå. |[Så här: Skapa befattningsnivåer för kontaktpersoner](marketing-organizational-levels.md) |
 | Tilldela utskicksgrupper till dina kontakter |[Tilldela utskicksgrupp till en kontakt](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Se även

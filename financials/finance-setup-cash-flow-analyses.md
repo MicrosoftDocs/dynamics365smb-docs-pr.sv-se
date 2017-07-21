@@ -1,6 +1,6 @@
 ---
 title: "Ställa in analysvy för kassaflöde | Microsoft Docs"
-description: "Beskriver hur du ställer in kontantcykel, intäkter och kostnader, kassaflöde och kassaflödesprognosdiagrammet för att analysera tidigare och framtida föflyttning av likvida medel från och till ditt företag."
+description: "Skapa diagram i rollcentret konton för att analysera flödet av pengar i företaget, inklusive utgifter och inkomster, likviditet och inbetalningar minus utbetalningar."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -49,7 +49,7 @@ Ange konton i fältet **Summeringsintervall** för **Totala intäkter**, **Total
 ## <a name="set-up-the-cash-flow-chart"></a>Konfigurera kassaflödesdiagrammet
 Kassaflödesdiagrammet baseras på följande:  
 
-* Ett diagram med kassaflödeskonton
+* Ett diagram med kassaflödeskonton.
 * En eller flera kassaflödeinstallationer. Dessa anger kontona som ska användas för redovisning, inköp, försäljning, tjänster och anläggningstillgångar.  
 
 För att hjälpa dig att komma igång, finns vissa konto- och kassaflödeinstallationer. Du kan lägga till, ändra eller ta bort dem.  
@@ -61,7 +61,8 @@ Diagrammet **kassaflödesprognos** använder kassaflödeskonton, kassaflödesins
 
 Kassaflödesprognoser kan använda Cortana Intelligence-dokument med förfallodatum senare ska inkluderas. Resultatet blir en mer omfattande prognos. Anslutningen till Cortana Intelligence har redan ställts in åt dig. Du måste aktivera den. När du loggar in i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], visas ett meddelande i en blå stapel och innehåller en länk till standardinställning för kassaflödesinställningen. Meddelandet visas endast en gång. Om du stänger den och bestämmer dig för att aktivera Cortana Intelligence använder du den assisterade inställningsguiden eller en manuell process.  
 
-**Obs:** du kan alternativt använda förebyggande webbtjänsten. Mer information finns i [skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser](#AnchorText).  
+> [!NOTE]  
+>   Du kan alternativt använda förebyggande webbtjänsten. Mer information finns i [skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser](#AnchorText).  
 
 Så här använder du guiden för assisterad installation:  
 
@@ -75,7 +76,8 @@ Så här använder du en manuell process:
 2. Expandera snabbfliken **Cortana Intelligence** och välj sedan kryssrutan **Cortana Intelligence aktiverad**.  
 3. På startsidan väljer du **kassaflödesprognos** ovanför diagrammet, och sedan **Omberäkna prognos**.  
 
-**Tips:** Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Cortana Intelligence inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  
+> [!TIP]  
+>   Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Cortana Intelligence inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  
 
 ## <a name="AnchorText"> </a>Skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser
 Du kan också skapa egna förebyggande webbtjänsten som bygger på en allmän modell med namnet **Prognosmodellen för Microsoft Dynamics 365 for Financials**. Den här förebyggande modellen finns online i galleriet Cortana Intelligence. För att använda modellen gör du följande:  
@@ -85,11 +87,11 @@ Du kan också skapa egna förebyggande webbtjänsten som bygger på en allmän m
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Kassaflödesinställningar** och väljer sedan relaterad länk.  
+6. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
 7. Expandera snabbfliken **Cortana Intelligence** och fyll sedan i fälten.  
 
 ## <a name="see-also"></a>Se även
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

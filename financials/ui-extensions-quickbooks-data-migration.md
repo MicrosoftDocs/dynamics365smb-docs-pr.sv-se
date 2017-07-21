@@ -1,6 +1,6 @@
 ---
-title: QuickBooks-datamigrering | Microsoft Docs
-description: "Innehåller information om tillägget QuickBooks datamigrering"
+title: "Använda tillägget QuickBooks-migrering | Microsoft Docs"
+description: "Beskriver hur du använder tillägget för att importera kunder, leverantörer, artiklar och konton från QuickBooks skrivbord till Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 860ee6b26071e8264deb68bec3b039f384c7be0f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 37d90316ea0be5489fb5abe33645de3fe0d3cf90
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,5 +37,5 @@ Exporterade data sparas som en IIF-fil som du sedan kan överföra [!INCLUDE[d36
 
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](upload-data.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]med tillägg](ui-extensions.md)  
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 

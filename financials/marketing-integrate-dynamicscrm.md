@@ -1,6 +1,6 @@
 ---
-title: "[Hantera kundrelationer med Dynamics 365 for Sales från insidan av Dynamics 365 for Financials | Microsoft Docs"
-description: "Om du använder Dynamics 365 for Sales för kundengagemang kan du använda Dynamics 365 for Financials för orderbehandling och ekonomi och har sömlös integrering i processen från kundämne till betalning"
+title: "Hantera kunder som använder Dynamics 365 for Sales| Microsoft Docs"
+description: "Du kan använda Dynamics 365 for Sales inne i Dynamics 365 for Financials för att mappa data och ha sömlös integration och synkronisering i processen från kundämne till betalning."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,30 +9,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Hantera kundrelationer med Dynamics 365 for Sales från insidan av Dynamics 365 for Financials
-Om du använder Dynamics 365 for Sales för kundengagemang kan du använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för orderbehandling och ekonomi och har sömlös integrering i processen från kundämne till betalning
+Om du använder Dynamics 365 for Sales för kundengagemang kan du använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för orderbehandling och ekonomi och har sömlös integrering i processen från kundämne till betalning.
 
 Om programmet har konfigurerats för integration med Dynamics 365 for Sales, har du åtkomst tillförsäljningsdata från [!INCLUDE[d365fin](includes/d365fin_md.md)]och tvärtom i vissa fall. Integrationen låter dig arbeta med och synkronisera datatyper som är gemensamma för båda tjänsterna, till exempel kunder, kontakter och försäljningsinformation och hålla informationen uppdaterad på båda platserna.  
 
-**Obs!** I den aktuella versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)], kallas Dynamics 365 for Sales kallas för Dynamics CRM. För enkelhetens skull kommer resten av den här artikeln använda den terminologi som används i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   I den aktuella versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)], kallas Dynamics 365 for Sales kallas för Dynamics CRM. För enkelhetens skull kommer resten av den här artikeln använda den terminologi som används i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Säljare i Dynamics CRM kan till exempel använda prislistor från [!INCLUDE[d365fin](includes/d365fin_md.md)] när de skapar en försäljningsorder. När de lägger till artikeln till försäljningsorderraden i Dynamics CRM kan de också visa lagernivån (tillgänglighet) av artikeln från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dessa data har publicerats som en del av de assisterade konfigurationsguiden **anslutningsinställningar för Dynamics CRM **.  
+Säljare i Dynamics CRM kan till exempel använda prislistor från [!INCLUDE[d365fin](includes/d365fin_md.md)] när de skapar en försäljningsorder. När de lägger till artikeln till försäljningsorderraden i Dynamics CRM kan de också visa lagernivån (tillgänglighet) av artikeln från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dessa data har publicerats som en del av de assisterade konfigurationsguiden **anslutningsinställningar för Dynamics CRM**.  
 
-**Obs!** den här funktionen kräver att din upplevelse är inställd på **Paket **. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).  
+> [!NOTE]  
+>   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Ställer in anslutning
 Hemifrån kan du öppna den assisterade konfigurationsguiden **anslutningsinställningar för Dynamics CRM** som hjälper dig att konfigurera anslutningen. När detta är klart får du en sömlös koppling av Dynamics CRM-poster med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
 
-**Obs!** följande förklarar de assisterade inställningarna, men du kan utföra samma aktiviteter manuellt i fönstret **installation av CRM-anslutning**.
+> [!NOTE]  
+>   Förklarar de assisterade inställningarna, men du kan utföra samma aktiviteter manuellt i fönstret **installation av CRM-anslutning**.
 
 I assisterade konfigurationsguiden, kan du välja vilka data som ska synkroniseras mellan två tjänster. Du kan också ange att du vill importera dina befintliga Dynamics CRM-lösning. I detta fall måste du ange behörigheter för ett användarkonto.
 
@@ -67,7 +70,8 @@ I vissa områden måste funktionen koppla vissa uppsättningar data innan andra 
 * Artiklar och resurspriser  
   * Koppla kundprisgrupper med Dynamics CRM priser först  
 
-**Obs!** Om du använder priser i utländska valutor, se till att du kopplar valutor till Dynamics CRM transaktionsvalutor.
+> [!NOTE]  
+>   Om du använder priser i utländska valutor, se till att du kopplar valutor till Dynamics CRM transaktionsvalutor.
 
 Försäljningsorder för Dynamics CRM beror på ytterligare information, till exempel kunder, enheter, valutor, kundprisgrupper, artiklar och/eller resurser. För att Dynamics CRM försäljningsorder ska fungera utan problem, måste du koppla kunder, enheter, valutor, kundprisgrupper, artiklar och/eller resurser först.
 
@@ -80,7 +84,7 @@ Från fönstret **Konfigurera anslutning till CRM** kan du få information om fu
 
 ## <a name="see-also"></a>Se även
 [Kundhantering](marketing-relationship-management.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 [Så här hanterar du användare och behörigheter](ui-how-users-permissions.md)    
 [Integrera organisationen och användare till Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  

@@ -1,6 +1,6 @@
 ---
-title: "Vanliga frågor och svar | Microsoft Docs"
-description: "Vanliga frågor och svar om att registrera sig och använda Dynamics 365 for Financials."
+title: "Fakta om att använda Financials | Microsoft Docs"
+description: "Svar på vanliga frågor om hur du registrerar dig för Financials och vad som ska ske när du vill börja."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,21 +35,21 @@ Nej. Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som helt
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är helt integrerad med Office 365, så att du kan navigera fritt mellan Office 365-programmen och [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av programmarstartbilden. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du t.ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jag avbryta min prenumeration?
-Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dina data tas bort eller bevaras. Mer information finns i [Avbryta [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
+Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dina data tas bort eller bevaras. Mer information finns i [Avbryter [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Vart vänder jag mig om jag har frågor?
-Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hittar svar för i denna dokumentation, kan du fråga communityn för Dynamics 365 for Financials. Mer information finns i [Dynamics 365, Business edition community ](https://community.dynamics.com/business). Supportteamet publicerar dessutom, tips och råd. Mer information finns i [supportblogg för Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hittar svar för i denna dokumentation, kan du fråga communityn för Dynamics 365 for Financials. Mer information finns i [Dynamics 365, Business edition community](https://community.dynamics.com/business). Supportteamet publicerar dessutom, tips och råd. Mer information finns i [supportblogg för Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Går det att utöka min testversion på 30 dagar för "Nytt företag"?
 Ja. Om du vill utöka din testversion kontaktar du Microsoft på 1-888-477-7989 (USA) och 1-800-741-9206 (Kanada). Obs! Det kan ta upp till 2 arbetsdagar att slutföra processen fr utökad testversion.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Vår administratör har flyttat mig till en annan plan för att ge mig en annan roll, men jag ser fortfarande samma startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Detta är lite komplicerat, men det verkar som om administratören inte ändrade ditt rollcenter och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta anger dina behörigheter och standardstartsidan Du kan ändra ditt rollcenter manuellt i Mina inställningar men om du har ändrat till en annan plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
+Detta är lite komplicerat, men det verkar som om administratören inte ändrade ditt rollcenter och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta anger dina behörigheter och standardstartsidan. Du kan ändra ditt rollcenter manuellt i Mina inställningar men om du har ändrat till en annan plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook](madeira-outlook.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] utan Outlook](madeira-no-outlook.md)  
-[Så här ändrar du rollcenter](change-role.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Så här ändrar du rollcentret](change-role.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: "Avsluta år och perioder | Microsoft Docs"
-description: "Beskriver hur du avslutar ett räkenskapsår och bokföringsperioder."
+title: "Översikt över arbetsuppgifter för att avsluta ett räkenskapsår och bokföringsperioder | Microsoft Docs"
+description: "Ger en översikt över om du vill avsluta ett räkenskapsår eller en bokföringsperiod, till exempel att se till att dokument och journaler är bokförda och verifiering av banksaldon."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,11 +31,12 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 | Få en översikt över aktiviteter som ofta utförs i samband med att du avslutar en period, till exempel bokföring av alla dokument och journaler, eller köra kontouppställningar. |[Avsluta perioder](year-how-complete-period-end-processes.md) |
 | uppdatera valutakurser och justera valutakurser för bokförda kund-, leverantörs- och bankkontotransaktioner. |[Så här uppdaterar du valutakurser](finance-how-update-currencies.md) |
 | fördela kostnader och intäkter på konton och dimensioner. |[Fördela kostnader och intäkter](year-allocate-costs-income.md) |
+| Förbereda rapportbelopp för moms som du har lagrat för försäljning till webbtjänst till skattemyndigheterna. |[Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
 | skriva ut rapporter för att kontrollera saldona för redovisnings-, kund-, leverantörs- och bankkonton. |[Förbereder rapporter före bokslut](year-prepare-preclose-reports.md) |
 | Avsluta bokföringsperioder och räkenskapsår, föra över resultaträkningssaldon till balansräkningskonton och bokföra årsavslutstransaktion för årsslut. |[Avsluta böcker](year-close-books.md) |
 | skriva ut rapporter som kan vara till hjälp när du skapar ekonomirapporter. |[Förbereda årsbokslutsrapporter](year-prepare-close-statement.md) |
 
 ## <a name="see-also"></a>Se även
 [Så här öppnar du ett nytt räkenskapsår](finance-how-open-new-fiscal-year.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

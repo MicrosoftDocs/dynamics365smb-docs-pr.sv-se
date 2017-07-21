@@ -1,6 +1,6 @@
 ---
-title: "Så här skapar du en färglagd indikator på stack-ikoner | Microsoft Docs"
-description: "Så här använder du en färglagd indikator på stack-ikoner i ditt rollcenter"
+title: "Ange färgindikatorer för att anpassa visuella signaler om en stack-ikons aktivitet | Microsoft Docs"
+description: "Skapa en färgindikator på en stack-ikon för att ge en anpassad visuell signal på stack-ikonens aktivitet."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c5aff53c522729a95763485eb79d13c0f051831
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0cb10770954f485d9c0a3474615e6c69411de321
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,12 +38,12 @@ Efterföljande tabeller listar de bakgrundsfärger som motsvarar alternativen f�
 
 | Alternativ | Färg |
 | --- | --- |
-| **Ingen** |Ingen färg (samma färg som stack-ikonen) |
+| **Ingen** |Ingen färg (samma färg som stack-ikonen |
 | **Positiv** |Grön |
 | **Negativ** |Röd |
 | **Tvetydigt** |Gul |
 | **Underordnad** |Grått |
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

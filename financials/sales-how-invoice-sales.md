@@ -1,6 +1,6 @@
 ---
-title: "Så här fakturerar du försäljning | Microsoft Docs"
-description: "Beskriver hur du använder försäljningsfakturor."
+title: "Skapa ett försäljningsfaktura eller försäljningsorder | Microsoft Docs"
+description: "Beskriver hur du skapar en pantförskrivning eller försäljningsfaktura eller försäljningsorder för att registrera ditt avtal med en kund om att sälja eller handla med produkter som omfattas av särskilda villkor."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Så här fakturerar du försäljning
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
 
-**Obs:** Det finns två situationer där du måste använda en försäljningsorder i stället för en faktura:  
+> [!NOTE]  
+>   Det finns två situationer där du måste använda en försäljningsorder i stället för en faktura:  
 
 * Om du behöver skicka en del av en orderkvantitet, till exempel eftersom den fullständiga kvantiteten inte är tillgänglig.  
 * Om du säljer artiklar som leverantören levererar direkt till kunden, kallat direktleverans. För mer information finns i [Så här gör du Direktleveranser](sales-how-drop-shipment.md).  
@@ -66,7 +67,8 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 
 11. I fältet **antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 
-    **Obs!** Om artikeln är av typen **Artikel - tjänst** eller **Resurs**, är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
+    > [!NOTE]  
+>   Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
 
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 
@@ -89,7 +91,8 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Lager](inventory-manage-inventory.md)  
+[Lagersaldo](inventory-manage-inventory.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Bulkfakturering från Microsoft Bookings i Dynamics 365 for Financials](finance-bookings.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

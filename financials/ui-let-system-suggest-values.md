@@ -1,6 +1,6 @@
 ---
-title: "Låta Dynamics 365 for Financials föreslå värden | Microsoft Docs"
-description: "Beskriver hur du gör att systemet fyller i markerade fält med värden som du vill beräkna och annars fylla i manuellt."
+title: "Konfigurera föreslagna fältvärden | Microsoft Docs"
+description: "Om du vill undvika manuella beräkningar, och genomför uppgifter snabbt och effektivt ställer du in automatisk datainmatning så att Financials fyller i fälten."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 03/15/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 785ad537f81b8388aa14654f375599a13b66e3c5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 99a76141f13efde3c7edb86037d6daaa0dbbb9d4
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Funktionen som matar in fältvärden åt dig, erbjuds vanligtvis för uppgifter 
 Om du till exempel vill ange redovisningsjournalrader för åtskilliga kostnader som alla måste bokföras till samma bankkontot, kan du när du varje gång anger en ny journalrad för en kostnad, låta fältet **Belopp** på bankkontoraden uppdateras automatiskt till beloppet som balanserar kostnaderna. Mer information om att arbeta med redovisningsjournaler finns i [arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Om du vill ha fältet **Belopp** på balanserande redovisningsjournalrader fyllas i automatiskt
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Redovisningsjournaler**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler** och välj sedan relaterad länk.
 2. På raden för din föredragna redovisningsjournal väljer kryssrutan **Föreslå saldobelopp**.
 3. Öppna redovisningsjournalen och fortsätt att registrera och bokföra transaktioner med den beskrivna funktionen för automatisk bokföring av ett fältvärde.       
 
@@ -40,12 +40,12 @@ Fönstret **Betalningsregistrering** visar utestående inkommande betalningar so
 Dina huvudåtgärder i fönstret är att fylla i kryssrutan **Utförd betalning** och fältet **Tillbaka datum**. Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] att automatiskt ange arbetsdatum i fältet **Tillbaka datum** när du markerar kryssrutan **Utförd betalning**.
 
 ### <a name="to-have-the-date-received-field-in-the-payment-registration-window-filled-automatically"></a>Att ha fältet **Fyll i Tillbaka datum automatiskt** i fönstret **Betalningregistrering** ifyllt automatiskt.
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Inställning av betalningsregistrering**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inställning av betalningsregistrering**, och välj sedan relaterad länk.
 2. Markera kryssrutan **Fyll i Tillbaka datum automatiskt**.
 3. Öppna fönstret **Betalningsregistrering** och fortsätt behandla inkommande kundbetalningar med hjälp av den beskrivna funktionen för automatisk bokföring av ett fältvärde.
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Ekonomi](Finance.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Finance](Finance.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Så här gör du offerter | Microsoft Docs"
-description: "Så här gör du erbjudanden"
+title: "Skapa ett försäljningserbjudande eller försäljningsoffert | Microsoft Docs"
+description: "Beskriver hur du skapar ett försäljningserbjudande eller begäran om förslag (Offertförfrågan) för att registrera ditt erbjudande till kunden att sälja produkter under vissa villkor."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e04af16b9fcd08217e2a3efc60288805a4db26f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -51,7 +51,8 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 
 11. I fältet **antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.
 
-    **Obs!** Om artikeln är av typen **Artikel - tjänst** eller **Resurs**, är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
+    > [!NOTE]  
+>   Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
 
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 
@@ -75,5 +76,5 @@ Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

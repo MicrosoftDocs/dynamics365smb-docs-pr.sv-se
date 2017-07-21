@@ -1,6 +1,6 @@
 ---
-title: "Ställa in Financials | Microsoft Docs"
-description: "Ställa in Financials"
+title: "Översikt över uppgifter för inställning av Dynamics 365 for Financials| Microsoft Docs"
+description: "Innehåller information om hur att lägga upp, initiera och konfigurera Dynamics 365 for Financials efter behov."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 | Konfigurera hur du försäkrar, underhåller och skriver av anläggningstillgångar och hur du registrerar kostnader för anläggningstillgångar i företagets redovisning. |[Ställa in anläggningstillgångar](fa-setup.md) |
 | Skapa unika identifieringskoder för poster, som till exempel kort, dokument och journalrader, för att spåra dem i systemet. |[Skapa nummerserier](ui-create-number-series.md) |
 | Ställ in fönstret **SMTP-postinställning** för att skicka och ta emot e-postmeddelanden från dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Så här konfigurerar du e-post](madeira-how-setup-email.md) |
+| Skapa unika ID-koder. |[Så här skapar du nummerserier](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Välkommen till [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

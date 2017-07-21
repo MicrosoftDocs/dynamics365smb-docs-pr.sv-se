@@ -1,6 +1,6 @@
 ---
 title: "Ställa in webbadresser för kontaktföretag | Microsoft Docs"
-description: "Beskriver hur du använder Webbadresser för kontakter i Financials "
+description: "Du kan definiera internet- eller webbadresser och tilldela dem till ett företag för att identifiera hur du vill söka efter information om kontakterna."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: internet
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8a452619aeeee907cf61fd5d1a8fce409ad2e42d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-web-sources-for-contact-companies"></a>Ställa in Webbadresser för kontaktföretag
+# <a name="how-to-set-up-web-sources-for-contact-companies"></a>Så här: Skapa Webbadresser för kontaktföretag
 Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
 Att använda webbadresser på kontakter är en två-stegsprocess. Först definierar du webbadresskoden. Du måste bara utföra den här steget en gång för varje webbadress. När du har en webbadresskod kan du börja koppla koden till kontaktpersoner.
 
 ## <a name="to-define-a-web-source-code"></a>för att definiera en webbadresskod
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Webbadresser** och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Webbadresser** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten **Kod**, **Beskrivning** och **URL**.
 
@@ -48,5 +48,5 @@ Webbadresser kan också tilldelas i fönstret  **Kontaktlista** på samma sätt.
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

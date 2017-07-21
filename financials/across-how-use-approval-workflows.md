@@ -1,6 +1,6 @@
 ---
-title: "Så här använder du godkännande av arbetsflöden | Microsoft Docs"
-description: "Så här använder du godkännande av arbetsflöden"
+title: "Godkänna eller avvisa dokument i arbetsflöden | Microsoft Docs"
+description: "Begära, avvisa eller delegera godkännande av, till exempel ett inköps- eller försäljningsdokument, som en del av ett arbetsflöde."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/25/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ed08fdb7f78c9f6c338e287cd4ef42d7ce0cb72c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,14 @@ Du kan ställa in godkännandearbetsflöden i fönstret **Arbetsflöde**.
 
 Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som assisterad installation. Mer information finns i [Välkommern till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
-**Obs!** den här funktionen kräver att din upplevelse är inställd på **Paket **. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Så här begära du godkännande av en post
 Efterföljande aktivitet utförs av en godkännaranvändare.
 
 1. I fönstret som visar posten väljer du åtgärden **Skicka godkännandebegäran**.
-2. Om du vill se alla dina godkännandebegäran väljer du ikonen **Sök efter sidan eller rapporten** i det övre högra hörnet ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger du **Transaktioner för godkännandebegäranden** och väljer sedan relaterad länk.
+2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Transaktioner för godkännandebegäranden**, och välj sedan relaterad länk för att se alla dina godkännandebegäran.To see the report topics in this section, choose the subentries in the table of contents.  
 
 Statusen på godkännandetransaktionen uppdateras från **Skapad** till **Öppen**. Statusen på posten, t.ex. en inköpsfaktura, uppdateras från **Öppen** till **Väntar på godkännande** och är låst för bearbetning tills alla godkännare har godkänt transaktionen.
 
@@ -63,7 +64,7 @@ Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten go
 
 Du kan bearbeta godkännandebegäran i fönstret **Begäranden att godkänna** till exempel att godkänna flera begäran i taget. Alternativt kan du behandla varje förfrågningsdokument på relaterade post, till exempel fönstret **inköpsfaktura** genom att välja länken i meddelandet som du får.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Begäranden att godkänna**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Begäranden att godkänna** och välj sedan relaterad länk.
 2. Markera en eller flera rader för posten eller posterna som du vill godkänna eller avvisa.
 3. Välj åtgärden **Godkänna**, **Avvisa**, eller **Delegera**.
 
@@ -78,7 +79,7 @@ Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten go
 
 För att förhindra att dokument staplas på hög eller blockerar arbetsflödet på något annat sätt kan godkännandeadministratören delegera en godkännandebegäran till en ersättare. Ersättaren kan vara antingen en utsedd ersättare, den direkta godkännaren eller godkännandeadministratören, i den prioritetsordningen. Du kan använda den här funktionen om en godkännare inte är tillgänglig för tillfället och inte kan godkänna begäranden före förfallodatumet.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Begäranden att godkänna**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Begäranden att godkänna** och välj sedan relaterad länk.
 2. Markera en eller flera rader för godkännandebegäran som du vill delegera till en ersättande godkännare och välj sedan åtgärden **Delegera**.
 
 Ett meddelande om att godkänna begäran skickas till den ersättande godkännaren.
@@ -90,12 +91,12 @@ Med jämna mellanrum måste du påminna godkännandearbetsflödesanvändare om f
 
 Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontroll för att hitta alla förfallna öppna godkännandetransaktioner. Varje godkännare som har minst en förfallen godkännandetransaktion får meddelande med en lista över alla förfallna godkännandebegäranden. Meddelandet skickas också till deras godkännare och alla som begärt de förfallna godkännandena. Detta är praktiskt om den förfallna godkännandetransaktionen behöver delegeras till en ersättare.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Förfallna begäranden om godkännande**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
 2. I fönstret **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)    
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
 

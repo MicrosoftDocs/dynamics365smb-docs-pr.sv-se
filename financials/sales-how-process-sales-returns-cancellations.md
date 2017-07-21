@@ -1,6 +1,6 @@
 ---
-title: "Så här behandlar du försäljningsreturer eller annulleringar | Microsoft Docs"
-description: "Så här behandlar du försäljningreturer eller annulleringar"
+title: "Använda en försäljningskreditnota för att behandla försäljningsreturer eller annulleringar | Microsoft Docs"
+description: "Beskriver hur du skapar en kreditnota om du vill bearbeta en retur, annullering eller ersättning för artiklar eller tjänster som du har blivit mottagen betalning för."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Så här behandlar du försäljningreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. För att inkludera rätt uppgifter om försäljningsfakturan kan du skapa försäljningkreditnotan från den bokförda försäljningsfakturan eller använda en kopieringsfunktion.  
 
-**Obs!**: Om en bokförd försäljningsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda försäljningsfakturan för att återföra transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här rättar eller annullerar du obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md).
+> [!NOTE]  
+>   Om en bokförd försäljningsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda försäljningsfakturan för att återföra transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här rättar eller annullerar du obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md).
 
 Förutom den ursprungliga bokförda försäljningsfakturan kan du koppla försäljningskreditnotan till andra försäljningsdokument, t.ex en annan bokförd försäljningfaktura, eftersom kunden också returnerar artiklarna som har levererats med den fakturan.
 
 En retur eller en återbetalning kan relatera till endast några av artiklarna eller tjänsterna på den ursprungliga försäljningsfakturan. I så fall måste du redigera information på raderna i försäljningskreditnotan. När du bokför försäljningskreditnotan, kan försäljningsdokumenten, som påverkas av ändringen återföras, och en återbetalning skapas för kunden.  
 
-Du kan skicka den bokförda försäljningskreditnotan till kunden för att bekräfta returen eller avbryt och att meddela att det relaterade värdet ska ersättas, till exempel när artiklar returneras.  
+Du kan skicka den bokförda försäljningskreditnotan till kunden för att bekräfta returen eller avbryt och att meddela att det relaterade värdet ska ersättas, till exempel när artiklar returneras.
+
+Bokföringen av kreditnota återställer även eventuella kostnader som har tilldelats det bokförda dokumentet så att artikelns värdetransaktioner är samma som innan artikelkostnaden har tilldelats.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Skapa en ny försäljningskreditnota från en bokförd försäljningsfaktura.
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokförda försäljningsfakturor**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
 2. I fältet **Bokförda försäljningsfakturor** väljer du den bokförda försäljningsfakturan som du vill återföra och väljer sedan åtgärden **Skapa korrigerande kreditnota**.
 
     Försäljningskreditnotans huvud innehåller information från den bokförda försäljningsfakturan. Du kan redigera detta, till exempel med ny information som behövs för returavtalet.  
@@ -54,7 +57,7 @@ Dialogrutan **Bekräftelse för bokför och utskick** öppnas och visar kundens 
 De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återförs nu, och en betalningsåterbetalning kan skapas för kunden. Försäljningskreditnotan tas bort och ersätts med ett nytt dokument i listan över bokförda försäljningskreditnotor.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>Så här skapar du försäljningskreditnoto från början:
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokförda försäljningsfakturor**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningskreditnotor** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom försäljningskreditnota.
 3. Ange namnet på en befintlig kund i fältet **Kund**.
 4. Välj åtgärden **kopiera dokument**.
@@ -68,5 +71,5 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

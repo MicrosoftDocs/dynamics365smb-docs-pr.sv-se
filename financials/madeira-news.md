@@ -1,6 +1,6 @@
 ---
 title: Nyheter i Dynamics 365 for Financials| Microsoft Docs
-description: Nyheter i Dynamics 365 for Financials
+description: "Beskriver de senaste nyheterna och uppdateringar för Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nyheter i Dynamics 365 for Financials
 Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)] Om du inte redan har gjort detta, registrera dig för förhandsgranskningen och låt oss gå igenom grunderna för vad du kan göra med [!INCLUDE[d365fin](includes/d365fin_md.md)] och försök sedan att ta reda på saker på egen hand. När du är klar kan du öppna upp ett tomt företaget och konfigurera de saker du vill ha.  
 
@@ -54,7 +54,7 @@ Uppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] lade till nya funkt
 ### <a name="more-flexibility-in-your-sales-processes"></a>Större flexibilitet i dina försäljningsprocesser
 Denna uppdatering lägger till mer flexibilitet i vad du säljer:
 - Du kan nu konfigurera ej lagerförd artikel - artiklar som du erbjuder till kunder, men inte håller i lager. Mer information finns i [Så här arbetar du med ej lagerförd artikel](inventory-how-work-nonstock-items.md).
-- Du kan nu markera en artikel för direktutleverans från en försäljningsorder och direkt skapa en inköpsorder för artikeln. På så sätt kan du sälja en artikel till en kund, köpa från leverantören och få den levererad direkt från leverantören till kunden. Mer information finns i [Så här köper du produkter för en försäljning](purchasing-how-purchase-products-sale.md).
+- Du kan nu markera en artikel för direktutleverans från en försäljningsorder och direkt skapa en inköpsorder för artikeln. På så sätt kan du sälja en artikel till en kund, köpa från leverantören och få den levererad direkt från leverantören till kunden. Mer information finns i [Så här köper du artiklar för en försäljning](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Kategorisera artiklar i lagret
 Med den här uppdateringen kan du skapa en hierarki av artikelkategorier och tilldela artikelattribut till varje artikelkategori. För mer information finns i [Så här kategoriserar du artiklar](inventory-how-categorize-items.md).
@@ -91,14 +91,14 @@ Denna uppdatering lägger till leverantörsinstrumentpanelen i Outlook-tillägge
 Outlook-tillägget gäller nu även för Outlook-kalender. Från ett kalendermöte kan du öppna den [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägget och få en översikt för den kund som är associerad med den avtalade tiden. Sedan kan du skapa och skicka en faktura för tjänsterna i mötet - allt detta händer direkt i Outlook-kalendern. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-marknadsplatsen för tillägg
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg är nu tillgängliga på AppSource-marknadsplatsen på [AppSource.microsoft.com ](https://appsource.microsoft.com/). Du kan söka efter och hitta tillägg på marknadsplatsen. Du kan visa information som till exempel marknadsföringsmaterial, skärmdumpar, videoklipp och länkar till ytterligare information. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg är nu tillgängliga på AppSource-marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan söka efter och hitta tillägg på marknadsplatsen. Du kan visa information som till exempel marknadsföringsmaterial, skärmdumpar, videoklipp och länkar till ytterligare information. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Speditörer och artikelattribut
 Du kan lägga till attribut till dina lagerartiklar som gör det mycket enkelt att hitta rätt produkt som passar kundens behov. Mer information finns i [Så här arbetar du med attribut](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nya tillägg finns tillgängliga
 Med denna uppdatering kan du välja mellan flera tillägg i fönstret **Tilläggshantering**.
-Mer information finns i avsnittet [[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg från andra leverantörer](ui-extensions-other.md).  
+Mer information finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg av andra leverantörer](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Hantera kundrelationer med Microsoft Dynamics CRM från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Vi har lagt till en ny assisterade konfigurationsguide till startsidan för Business Manager som hjälper dig genom inställningsprocessen för att ansluta till Dynamics CRM. När detta är klart får du en sömlös koppling av Dynamics CRM-poster med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Mer information finns i avsnittet [hantera dina kundrelationer med Microsoft Dynamics CRM från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
@@ -107,7 +107,7 @@ Vi har lagt till en ny assisterade konfigurationsguide till startsidan för Busi
 Uppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] lade till nya funktioner som [meddelas du om bloggen ](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Nya tillägg finns tillgängliga
-Se fönstret **Tilläggshantering**: uppdateringen lägger till nya tillägg, inklusive Sana Commerce för [!INCLUDE[d365fin](includes/d365fin_md.md)] som ger funktioner för B2B-handel och ChargeLogic-betalningar som utgör betalningen och bearbetningsfunktioner för kreditkort. Tilläggen installeras inte automatiskt, men fönstret **Tilläggshantering** hjälper dig att installera tillägg som du vill använda. Mer information finns i avsnittet [[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg från andra leverantörer](ui-extensions-other.md).  
+Se fönstret **Tilläggshantering**: uppdateringen lägger till nya tillägg, inklusive Sana Commerce för [!INCLUDE[d365fin](includes/d365fin_md.md)] som ger funktioner för B2B-handel och ChargeLogic-betalningar som utgör betalningen och bearbetningsfunktioner för kreditkort. Tilläggen installeras inte automatiskt, men fönstret **Tilläggshantering** hjälper dig att installera tillägg som du vill använda. Mer information finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg av andra leverantörer](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filter på obearbetade inkommande dokument
 Vi har också ändrat några grundläggande funktioner i denna månadsuppdatering: listan över inkommande dokument filtreras nu för att bara visa de transaktioner som inte har använts för att skapa bokförda dokument med. Mer information finns i [Hantera inkommande dokument](across-income-documents.md).  
@@ -116,19 +116,19 @@ Vi har också ändrat några grundläggande funktioner i denna månadsuppdaterin
 I övre högra hörnet bredvid inställningsmenyn, ser du klocksymbolen som du förmodligen redan känner till väl från andra Office-produkter: det är meddelandemenyn. Här får du meddelanden som t.ex. ny e-post och kalenderpåminnelser direkt när du arbetar i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="april-2016-preview"></a>April 2016 förhandsgranskning
-I april 2016 lanserade vi förhandsgranskning av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Allting var nytt och vi uppmuntrade dig att gå igenom guiden Komma igång starta i demonstrationsföretaget som du får tillgång till när du registrerar dig. Guiden Komma igång tar dig igenom de olika huvudscenarierna. Mer information finns i [Välkommern till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
+I april 2016 lanserade vi förhandsgranskning av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Allting var nytt och vi uppmuntrade dig att gå igenom guiden Komma igång starta i demonstrationsföretaget som du får tillgång till när du registrerar dig. Guiden Komma igång tar dig igenom de olika huvudscenarierna. Mer information finns i [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
 
 Huvudscenarier som du kan gå igenom på egen hand:  
 
-- [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook](madeira-no-outlook.md)  
-- [Hämta [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet] (install-mobile-app.md)  
+- [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](madeira-no-outlook.md)  
+- [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
 - [Aktivera affärsdata för Power BI](madeira-powerbi.md)  
 - [Ändra Rollcenter](change-role.md)  
 
 
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 - översikt](https://roadmap.dynamics.com/)  
 

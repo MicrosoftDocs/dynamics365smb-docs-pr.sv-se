@@ -1,6 +1,6 @@
 ---
-title: "Så här använder du resurser för projekt | Microsoft Docs"
-description: "Beskriver hur du använder tidrapporter för projekt."
+title: "Skapa och justera resursanvändning och priser | Microsoft Docs"
+description: "Beskriver hur du kan registrera resursförbrukning eller förbrukning för ett projekt för att hålla reda på och hantera kostnader, priser och arbetstyper."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 34d8b133a11324e1821780e3988158bb0989349b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 48692c9837007c6dd9c3891f0940b6f15b1d6541
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,28 +25,30 @@ Du registrerar förbrukning av resurser i projektjournalen för att hålla reda 
 
 Du kan även bokföra förbrukningen av en resurs i en resursjournal eller projektjournal. Transaktioner bokförda i resursjournaler påverkar inte redovisningen.
 
-**Obs!** den här funktionen kräver att din upplevelse är inställd på **Paket **. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 ## <a name="to-assign-resources-to-jobs"></a>Så här tilldelar du resurser till projekt
-Du tilldelar resurser till projekt genom att skapa planeringsrader för projektet. (Mer information finns i [Så här skapar du Projekt](projects-how-create-jobs.md).)
+Du tilldelar resurser till projekt genom att skapa planeringsrader för projektet. Mer information finns i [Så här skapar du Projekt](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Registrera resursförbrukning för ett projekt
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projektredovisningsjournaler**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.
 2. Öppna den relevanta projektjournalen och fyll sedan i fälten som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
 ## <a name="to-adjust-resource-prices"></a>Justera resurspriser
 Om du vill ändra kostnader eller priser för många resurser på en gång kan du använda ett batch-jobb .  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Justera kostnader/priser** och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Justera resurskost./-priser** och välj sedan relaterad länk.
 2. Fyll i fälten på en rad efter behov och välj sedan knappen **OK**.
 
-**Obs**! Batch-jobbet varken skapar eller justerar alternativa kostnader eller priser för resurser. Detta ändrar bara innehållet i fältet på resurskortet för fältet **Justeringsfält** som du har valt i batch-jobbet. Justeringarna börjar gälla direkt för resurser så kontrollera justeringsfaktorerna innan du kör batch-jobbet.
+> [!NOTE]  
+>   Batch-jobbet varken skapar eller justerar alternativa kostnader eller priser för resurser. Detta ändrar bara innehållet i fältet på resurskortet för fältet **Justeringsfält** som du har valt i batch-jobbet. Justeringarna börjar gälla direkt för resurser så kontrollera justeringsfaktorerna innan du kör batch-jobbet.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Så här får du förslag till resursprisändringar enligt befintliga alternativa priser:
 Om du redan har skapat alternativa priser för några resurser kan du använda batch-jobbet för att skapa flera alternativa resurspriser.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Resursprisändringar** och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resursprisändringar** och välj sedan relaterad länk.
 2. Välj åtgärden **Föreslå res.prisändring (pris)** och fyll sedan i fälten efter behov.
 3. Välj **OK**.  
 4. När batch-jobbet har avslutats visar fönstret **Resursprisändringar** resultatet av batch-jobbet.
@@ -54,7 +56,7 @@ Om du redan har skapat alternativa priser för några resurser kan du använda b
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Så här får du förslag till resursprisändringar enligt standardpriser
 Om du vill skapa flera alternativa resurspriser baserat på standardpriserna på resurskorten kan du använda ett batch-jobb .  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Resursprisändringar** och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resursprisändringar** och välj sedan relaterad länk.
 2. Välj åtgärden **Föreslå res.prisändring (res)** och fyll sedan i fälten efter behov.  
 3. Välj **OK**.  
 4. När batch-jobbet har avslutats öppnar du fönstret **Resursprisändringar** för att visa resultatet av batch-jobbet.
@@ -72,5 +74,5 @@ Om du redan har skapat alternativa priser för några resurser kan du använda b
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)     
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

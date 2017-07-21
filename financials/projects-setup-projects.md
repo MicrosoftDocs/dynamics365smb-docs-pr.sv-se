@@ -1,5 +1,5 @@
 ---
-title: "Ställ in projekthantering | Microsoft Docs"
+title: "Ställa in resurser, tidrapporter och jobb | Microsoft Docs"
 description: "Beskriver hur du ställer in resurser och tidrapporter och projekt för att hantera projekt."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1141df5600062da2dd4278668a1594efc4899d8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,5 +38,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)     
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: Redovisningen och kontoplanen | Microsoft Docs
+title: Mer information om redovisning och kontoplanen | Microsoft Docs
 description: Beskriver redovisningen, kontoplanen och kontokategorierna.
 services: project-madeira
 documentationcenter: 
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Redovisningen och kontoplanen
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Så här fungerar i redovisningen och kontoplanen
 Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som alla redovisningstransaktioner bokförs på. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Redovisningsinställning och bokföringingsinställning
@@ -64,5 +64,5 @@ Nästa gång du har genererat kontouppställningar kommer saldot visa ett totalt
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
-[Kontouppställningar](finance-account-schedule.md)  
+[Affärsstöd](bi.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: "Så här övervakar du projektets framsteg och resultat | Microsoft Docs"
-description: "Beskriver hur du skapar budget för ett projekt."
+title: "Definiera en PIA-metod och övervaka projektets framsteg | Microsoft Docs"
+descrition: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fb38a02bbf2dd99ce003d23c4a5f88f0e3cd593a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,33 +40,34 @@ Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen. N
 
 **Obs**. När du har använt den nya metoden för att skapa PIA-transaktioner kan du inte ta bort metoden eller ändra den.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Stäng fönstret.   
-4. För att göra denna nya metod till standard, välj i det övre högra hörnet ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Projektinställningar**, och välj sedan relaterad länk.  
+4. Om du vill ange den nya metoden som standard., välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Jobbinställningar** och välj sedan relaterad länk.  
 5. I fältet **Standard-PIA-metod** väljer du metoden i listan.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Så här definierar du en PIA-metod för ett projekt
 När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet som gäller. I vissa fall har metoden för PIA-redovisningstransaktioner för projekt, som du kan använda, ställts in för dig som standard.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt**, och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**. (Mer information finns i [Så här skapar du Projekt](projects-how-create-jobs.md).)  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.
+2. Välj åtgärden **Ny**. Mer information finns i [Så här skapar du Projekt](projects-how-create-jobs.md).  
 3. I fönstret **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan. Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.  
 
 ## <a name="to-calculate-wip"></a>Så här beräknar du PIA
 Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för periodslutsrapporteringen. Du kan använda batch-jobbet **Projekt - Beräkna PIA** om du vill göra detta.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt - Beräkna PIA**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
 2. Välj åtgärden **Beräkna PIA**.
 3. I fönstret **Projekt - Beräkna PIA** fyller du i fälten efter behov.
 4. Välj **OK**.  
 
-**OBS**! Batch-jobbet beräknar bara PIA. Detta bokförs inte i Redovisning. Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA. Mer information finns i följande procedur:
+> [!NOTE]  
+>   Batch-jobbet beräknar bara PIA. Detta bokförs inte i Redovisning. Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA. Mer information finns i följande procedur:
 
 ## <a name="to-post-wip"></a>Bokföra PIA
 När du har beräknat PIA kan du bokföra det på balansräkningskonton för rapportering vid periodens slut. Använd batch-jobbet **Projekt - Bokför PIA i redovisning** om du vill göra detta.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt - Bokför PIA i redovisning**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
 2. I fönstret **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.  
 3. Välj **OK**.
 
@@ -75,9 +76,10 @@ Du kan visa projektförbrukningen fram till projektet avslutas i ett steg. Det g
 
 Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt resultat och göra ändringar eller nya transaktioner efter behov. Du kanske till exempel har uppskattat att ett projekt kräver tio timmar, och fram till dagens datum har det tagit 15 timmar. Du kan lägga till dessa extra fem timmar på den befintliga journalraden eller skapa en ny journalrad om du vill rapportera dessa fem timmar som övertid, som är en annan arbetstyp. Rätt kostnad och pris beräknas, och du kan sedan bokföra detta i journalen.  
 
-**OBS**! Artikeltransaktioner skapar artikeltransaktioner och minskar lagerkvantiteten. Batch-jobbet **Bokför lagerkostnad i redov.** överför kostnaden från lagret till redovisningen. Resurstransaktioner skapar resurstransaktioner.  
+> [!NOTE]  
+>   Artikeltransaktioner skapar artikeltransaktioner och minskar lagerkvantiteten. Batch-jobbet **Bokför lagerkostnad i redov.** överför kostnaden från lagret till redovisningen. Resurstransaktioner skapar resurstransaktioner.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projektredovisningsjournaler**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2. Välj en relevant projektjournal och välj sedan åtgärden **Ber. återstående förbrukning**.  
 3. I fönstret **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.  
 4. Uppdatera journalen med eventuella ändringar som kan behövas.  
@@ -86,7 +88,7 @@ Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt re
 ## <a name="to-view-job-ledger-entries"></a>Så här visar du projekttransaktioner
 Alla projektrelaterade transaktioner registreras i bokförda projektjournaler och numreras i ordningsföljd med start från nummer ett. I den bokförda projektjournalen kan du få en överblick över alla projekttransaktioner.    
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokförda projektjournaler**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.
 2. Välj en relevant journal och välj sedan åtgärden **Projekttransaktioner**.
 
 I fönstret **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
@@ -96,5 +98,5 @@ I fönstret **Projekttransaktioner** kan du granska de transaktioner som är kop
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: "Länka kontakter med kunder, leverantörer och bankkonton | Microsoft Docs"
-description: "Beskriver hur du länkar kontakter med kunder, leverantörer och bankkonton i Financials"
+title: "Länka kontakter med kunder och leverantörer | Microsoft Docs"
+description: "Beskriver hur du kopplar kontakter till en kund, leverantör eller bankkonto från samma företag, så att du kan synkronisera gemensamma data."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 44dff830f293f4a33e6358d816635aa67e8a8de6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,5 +33,5 @@ Om du har kontakten och antingen en kund, en leverantör eller ett bankkonto fö
 ## <a name="see-also"></a>Se även
 [Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

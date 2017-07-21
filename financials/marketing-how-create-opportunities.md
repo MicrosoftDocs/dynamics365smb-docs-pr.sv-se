@@ -1,6 +1,6 @@
 ---
-title: "Så här skapar du affärsmöjligheter | Microsoft Docs"
-description: "Beskriver hur du skapar försäljningsmöjligheter för kontakter i Financials"
+title: "Skapa affärsmöjligheter | Microsoft Docs"
+description: "Beskriver hur du skapar försäljningsmöjligheter från en säljare eller kontakt i Financials."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 387f79fcdbc0aef9a8b920e9df008b60445bd622
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Du kan skapa affärsmöjligheter från fönstret **Affärsmöjlighetslista**. Me
 Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler. Mer information finns i [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Så här skapar du en affärsmöjlighet från en säljare
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **försäljningspersonal**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Säljare** och välj sedan relaterad länk.
 2. Markera den säljare i listan som du vill skapa en affärsmöjlighet för.
 3. Välj åtgärden **Affärsmöjligheter** och välj sedan **Lista**.
 4. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Så här skapar du en affärsmöjlighet från en kontakt
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Kontakter**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontakter** och välj sedan relaterad länk.
 2. Markera kontakten i listan som du vill skapa en affärsmöjlighet för.
 3. Gör något av följande:
    * Välj åtgärden **Skapa affärsmöjlighet**.

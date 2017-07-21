@@ -1,6 +1,6 @@
 ---
-title: "Felsöka registrering av Self Service | Microsoft Docs "
-description: "Felsök Azure AD-problem vid registrering."
+title: "Olika sätt att felsöka och lösa problem med registrering av självservice | Microsoft Docs"
+description: "Mer information om de vanligaste orsakerna till varför du inte kanske kan slutföra registreringen till Dynamics 365 for Financials och hur du åtgärdar dem."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,6 +40,6 @@ I många fall kan registrering för [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Så här öppnar du ett nytt räkenskapsår | Microsoft Docs"
-description: "Beskriver hur du öppnar räkenskapsperioder."
+title: "Öppna ett nytt räkenskapsår | Microsoft Docs"
+description: "Du måste öppna ett räkenskapsår och definiera redovisningsperioder innan du kan föra in ett räkenskapsår."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 02bd101bca987d30730766531687738f8e5f7d81
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Innan du kan föra in ett räkenskapsår måste du öppna räkenskapsåret och definiera dess bokföringsperioder.
 
 ## <a name="to-open-a-new-fiscal-year"></a>Så här öppnar du ett nytt räkenskapsår
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokföringsperioder**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.
 2. I fönstret **Bokföringsperioder** väljer du åtgärden **Skapa år**.
 3. Fyll i fälten för att definiera räkenskapsårets struktur.
 
@@ -37,5 +37,5 @@ Bokföringsperioderna läggs till på sidan. Fälten **Startdatum** och **Namn**
 [Så här anger du bokföringsperioder](finance-how-specify-posting-periods.md)  
 [Så här bokför du årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
 [Ekonomi](finance.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

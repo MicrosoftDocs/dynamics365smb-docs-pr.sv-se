@@ -1,6 +1,6 @@
 ---
-title: "Så här skriver du av eller amorterar anläggningstillgångar | Microsoft Docs"
-description: "Beskriver du hur du skriver av eller amorterar anläggningstillgångar."
+title: "Skriva av eller amortera anläggningstillgångar | Microsoft Docs"
+description: "Du måste definiera hur du ska skriva ner, skriva av eller amortera var och en av anläggningstillgångarna."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3ea185979c2339a578149259f53aa81c18e5161b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,18 +39,18 @@ Indexering används för att anpassa värden till den allmänna prisnivån. Du k
 ## <a name="to-calculate-depreciation-automatically"></a>Så här beräknar du avskrivning automatiskt
 En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna avskrivning**. Batch-jobbet ignorerar de anläggningstillgångar som har sålts, spärrats eller som använder den manuella avskrivningsmetoden.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Beräkna avskrivning**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Beräkna avskrivning**, och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj **OK**.  
 
     Batch-jobbet beräknar nedskrivningen och skapar rader i redovisningsjournalen för anläggningstillgångar.  
-4. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Redovisningsjournaler för anl.tillg.**, och välj sedan relaterad länk.  
+4. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 
     I fönstret **Anl.tillg. redovisningsjournal** i fältet **Antal avskrivningsdagar** kan du se hur många avskrivningsdagar som har beräknats.  
 5. Välj åtgärden **Bokföra**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Att bokföra en avskrivning manuellt från en redovisningsjournalen för anläggningstillgångar.
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Anl.tillg. redovisningsjournal**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl.tillg. redovisningsjournal** och välj sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.  
 3. Välj **Anskaffningskostnad** i fältet **Avskrivning**.  
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av avskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
@@ -61,7 +61,7 @@ Om du har skapat fördelningsnycklar för anläggningstillgångar, som fördelar
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Så här beräknar du fördelningar i redovisningsjournaler för anläggningstillgångar
 Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivning automatiskt fördelas på avdelningarna utifrån en användardefinierad fördelningstabell.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Anl.tillg. redovisningsjournal**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl.tillg. redovisningsjournal** och välj sedan relaterad länk.  
 2. Skapa en första rad och fyll i fälten efter behov.
 3. Välj **Anskaffningskostnad** i fältet **Fördelning**.  
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av fördelning.  
@@ -70,27 +70,30 @@ Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivn
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Använd dubblettlistor för att förbereda att bokföra åtskilliga avskrivningsregler
 När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan du kopiera raderna till en separat journal och bokföra dem enligt en annan avskrivningsregel. För mer information, se avsnittet "Så här bokför du transaktioner enligt olika avskrivningsregler".
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Avskrivningsregler**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningsregler**, och välj sedan relaterad länk.  
 2. Öppna avskrivningsregeln och markera sedan kryssrutan **Ingår i dubblettlista**.  
 
-**Viktigt!**: Om du har markerat fältet **Använd dubblettlista** ska du inte använda nummerserien för journalen. Anledningen är att nummerserien för redovisningsjournalen för anläggningstillgångar gör inte nummerserien för anläggningstillgångsjournalen.  
+> [!IMPORTANT]  
+>   Om du har markerat fältet **Använd dubblettlista** ska du inte använda nummerserien för journalen. Anledningen är att nummerserien för redovisningsjournalen för anläggningstillgångar gör inte nummerserien för anläggningstillgångsjournalen.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Så här bokför du transaktioner enligt olika avskrivningsregler
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Anl.tillg. redovisningsjournal**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl.tillg. redovisningsjournal** och välj sedan relaterad länk.  
 2. I journalen som du vill bokföra avskrivning med markerar du kryssrutan **Använd dubblettlista**.  
 3. Fyll i återstående fält om det behövs.  
 4. Välj åtgärden **Bokföra**.  
-5. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Anl.journaler**, och välj sedan relaterad länk.  
+5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl.journaler** och välj sedan relaterad länk.  
 
-    **Obs!** Fönstret ** Anlägg.tillg.journal** innehåller nya rader för olika avskrivningsregler enligt dublettlistan.  
+    > [!NOTE]  
+>   Fönstret **Anlägg.tillg.journal** innehåller nya rader för olika avskrivningsregler enligt dublettlistan.  
 6. Granska och redigera raderna och välj sedan åtgärden **bokför**.  
 
-    **Obs!**: Ett alternativt sätt att kopiera en transaktion enligt en annan regel är att ange en avskrivningsregelkod i fältet **Dubblett i avskrivningsregel** när du fyller i en journalrad.  
+    > [!NOTE]  
+>   Ett alternativt sätt att kopiera en transaktion enligt en annan regel är att ange en avskrivningsregelkod i fältet **Dubblett i avskrivningsregel** när du fyller i en journalrad.  
 
 Du kan kopiera transaktioner från en avskrivningsregel till en annan med hjälp av batch-jobbet **Kopiera avskrivningsregel**. Batch-jobbet skapar journalrader i den journal som du har angett i fönstret **Anl. journalinställningar** för den avskrivningsregel som du vill kopiera till. Mer information finns i följande procedur:  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Om du vill kopiera anläggningstillgångstransaktioner mellan avskrivningsregler
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Avskrivningsregler**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningsregler**, och välj sedan relaterad länk.  
 2. Öppna relevant avskrivningsregelkort och välj sedan åtgärden **Kopiera avskrivningsregel**.  
 3. I fönstret **Kopiera avskrivningsregelkort** fyller du i fälten efter behov.  
 4. Välj **OK**.  
@@ -101,5 +104,5 @@ De kopierade raderna skapas antingen i redovisningsjournalen för anläggningsti
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

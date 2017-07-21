@@ -1,6 +1,6 @@
 ---
-title: "Så här avslutar du bokföringsperioder | Microsoft Docs"
-description: "Förklarar hur du avslutar bokföringsperioder."
+title: "Avsluta bokföringsperioder för räkenskapsåret | Microsoft Docs"
+description: "Beskriver hur du avslutar bokföringsperioder som utgör räkenskapsåret."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 69bea225084f239523c4ed67471b52ad91e914d9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 859801a5e9d9b900aed6af5fe672f650932b2e79
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
 
 ## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokföringsperioder**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.
 2. I fönstret **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
     Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.
@@ -32,7 +32,8 @@ När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar
 
 Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras för samtliga perioder i året. Räkenskapsåret kan inte öppnas igen och du kan inte heller ta bort markeringen i fälten **Avslutat** eller **Låst datum**.
 
-**Obs!** Du kan inte avsluta ett räkenskapsår förrän du har upprättat ett nytt. Notera att du inte kan ändra startdatumet för det följande räkenskapsåret när räkenskapsåret är avslutat.
+> [!NOTE]  
+>   Du kan inte avsluta ett räkenskapsår förrän du har upprättat ett nytt. Notera att du inte kan ändra startdatumet för det följande räkenskapsåret när räkenskapsåret är avslutat.
 
 Även om ett räkenskapsår har avslutats kan du fortfarande bokföra redovisningstransaktioner på året. När du gör det markeras transaktionerna som bokförda på ett avslutat räkenskapsår och fältet **Föregående års transaktion** markeras.
 
@@ -42,5 +43,5 @@ När ett räkenskapsår har avslutats måste resultatkontona avslutas och årets
 [Avsluta böcker](year-close-books.md)  
 [Så här bokför du årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
 [Så här öppnar du ett nytt räkenskapsår](finance-how-open-new-fiscal-year.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

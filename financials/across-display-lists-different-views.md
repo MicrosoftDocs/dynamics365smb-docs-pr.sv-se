@@ -1,6 +1,6 @@
 ---
-title: Visar listor i olika vyer | Microsoft Docs
-description: Visar listor i olika vyer
+title: "Ändra hur mycket detaljer som visas i listor | Microsoft Docs"
+description: "Du kan visa listor i detaljerade vyer som innehåller mer information eller som paneler som är lätta att skanna visuellt."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 09/08/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0b5ce8ff631061dd2fafb685efb638947f8b6752
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="displaying-lists-in-different-views"></a>Visar listor i olika vyer
+# <a name="displaying-lists-in-different-ways"></a>Visar listor på olika sätt
 I högra hörnet i en lista i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta en ikon som gör att du kan växla vy i listan. En lista kan visas som en detaljerad lista, vilket är standardvyn. Men du kan även koppla till en panelvy, som kommer att visa mindre detaljer om den aktuella transaktionen och staplar transaktionerna som paneler. Den här vyn är mycket användbar för att få en översikt över flera transaktioner och är i synnerhet användbar i mindre enheter, eftersom varje transaktion är enklare att klicka på.
 
 ## <a name="items-list"></a>Artikellista
@@ -29,6 +29,6 @@ I artikellistan hjälper det att ha bilder för att få en snabb översikt över
 Du kan importera en bild för en viss artikel genom att gå till **artikelkortet** och till höger välja **Bild** och sedan **Importera**. På samma sätt kan du exportera en bild till en fil eller ta bort bilden för artikeln.  
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Så här registrerar du nya objekt](inventory-how-register-new-items.md)  
 

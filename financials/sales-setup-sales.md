@@ -1,6 +1,6 @@
 ---
-title: "Ställa in försäljning | Microsoft Docs"
-description: "Beskriver hur du ställer in försäljningsprocesser."
+title: "Översikt över proceduren för att konfigurera försäljningsprocesser | Microsoft Docs"
+description: "Innehåller information om hur du definierar regler och värden för att definiera dina försäljningspolicyer och -processer."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 03/29/2017
+ms.date: 06/01/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1c7625953d74d48e917a29b0d2748fa015527aa8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,12 +34,11 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 | Skapa ett kundkort för varje kund som du säljer till. |[Så här registrerar du nya kunder](sales-how-register-new-customers.md) |
 | Låt kunder betala via PayPal, genom att välja PayPal-logotypen på försäljningsdokument. |[Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md) |
 | Ange olika rabatter och specialpriser som du beviljar kunden beroende på artikel, antal och/eller datum. |[Så här registrerar du försäljningspris-, rabatt- och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Så här optimerar [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt din vinst på handel när du registrerar ett särskilt pris-/rabattavtal.|[Avancerad: Bästa prisberäkning](advanced-best-price-calculation.md) |
 | Skapa säljare så att du kan tilldela dem till kundkontakter eller mät säljares prestanda som grund för att beräkna deras försäljningprovision eller bonus. |[Så här skapar du säljare](sales-how-setup-salespeople.md) |
 | Ange hur försäljningsdokument ska skickas som standard för enskilda kunder eller för alla kunder när du väljer åtgärden **Bokför och skicka**. |[Så här konfigurerar du dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md) |
 | Konfigurera din e-post så att den innehåller en sammanfattning av informationen på försäljningsdokumentet som har skickats. |[Så här skickar du dokument som e-post](ui-how-send-documents-email.md). |
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

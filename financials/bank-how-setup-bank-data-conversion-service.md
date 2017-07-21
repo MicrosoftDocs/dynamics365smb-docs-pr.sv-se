@@ -1,6 +1,6 @@
 ---
-title: "Så här ställer du in tjänsten bankdatakonvertering | Microsoft Docs"
-description: "Så här ställer du in tjänsten bankdatakonvertering"
+title: "Så här skapar du bankdatakonvertering | Microsoft Docs"
+description: "Du kan ställa in bankkonton för att följa upp transaktioner och importera eller exportera bankfeeder, till exempel Yodlee."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 84834fab38217fb161ed16e3215a34978a4c6137
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,13 +31,15 @@ Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjäns
 
 Om du vill importera eller exportera bankfiler måste du ställa in ditt eget bankkonto och dina leverantörers bankkonton. Mer information finns i [Så här skapar du bankkonton](bank-how-setup-bank-accounts.md).
 
-**Obs!** Bankdatakonverteringstjänsten kan ha en gräns för antal rader som kan exporteras i en fil. Du får ett felmeddelande om gränsen överskrids. Vi rekommenderar att kontoutdragsfiler inte innehåller fler än 1 000 rader eftersom behandlingstiden i bankdatakonverteringstjänsten annars kan öka markant.
+> [!NOTE]  
+>   Bankdatakonverteringstjänsten kan ha en gräns för antal rader som kan exporteras i en fil. Du får ett felmeddelande om gränsen överskrids. Vi rekommenderar att kontoutdragsfiler inte innehåller fler än 1 000 rader eftersom behandlingstiden i bankdatakonverteringstjänsten annars kan öka markant.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Så här registrerar du ditt företag för tjänsten bankdatakonvertering.
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Serviceinställningar för bankdatakonv.**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
 2. Fönstret **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
 
-    **Obs!** I demodatabasen CRONUS International Ltd. har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för bankdatakonverteringen.
+    > [!NOTE]  
+>   I demodatabasen CRONUS International Ltd. har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för bankdatakonverteringen.
 3. I fältet **URL för registrering** väljer du webbläsarknappen för att öppna tjänstleverantörens inloggningssida.  
 4. På bankdatatjänstleverantörens registreringssida anger du användarnamnet och lösenord för ditt företags prenumeration på tjänsten, och slutför sedan inloggningen enligt tjänstleverantörens anvisningar.
 
@@ -52,18 +54,19 @@ Du rekommenderas att skydda de inloggningsuppgifter som du anger i fönstret **S
 2. Aktivera krypteringen av dina data i fönstret **Datakrypteringshantering**.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Så här visar eller uppdaterar du listan över bankdataformat som stöds för närvarande
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Serviceinställningar för bankdatakonv.**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.
 2. I fönstret **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Banknamn – datakonverteringslista** för att öppna listan med banknamn som representerar bankdataformat som stöds av konverteringstjänsten.
 3. På sidan **Banknamn – datakonverteringslista** väljer du åtgärden **Uppdatera lista med banknamn**.
 
 Listan över bankdataformat som stöds av tjänsten för bankdatakonvertering uppdateras nu. Det här är listan över banknamn, filtrerade efter landet/regionen, som du kan välja mellan i fältet **Banknamn – Datakonvertering** i fönstret **Bankkontokort**.
 
-**Obs!** Uppdatering av bankdataformat som stöds inträffar också när du väljer eller anger ett värde i fältet **Banknamn – Datakonvertering** på bankkontot.
+> [!NOTE]  
+>   Uppdatering av bankdataformat som stöds inträffar också när du väljer eller anger ett värde i fältet **Banknamn – Datakonvertering** på bankkontot.
 
 Du har nu registrerat dig för tjänsten bankdatakonvertering. Fortsätt för att visa inloggningsinformationen på varje bankkonto som ska användas tjänsten.
 
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

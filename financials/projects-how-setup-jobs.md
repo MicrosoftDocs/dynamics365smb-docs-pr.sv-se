@@ -1,6 +1,6 @@
 ---
-title: "Så här ställer du in projekt | Microsoft Docs"
-description: "Beskriver hur du förbereder systemet att använda projekt för att hantera projekt."
+title: "Ställ in projektpris projektbokföringsmallar | Microsoft Docs"
+description: "Beskriver hur du ställer in jobb för allmän information och ställer in priser för projektartiklar, resurser och redovisningskonton och projektbokföringsmallar."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f228e520f1140243a6fd305173200ff5637272a5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,10 +26,11 @@ I fönstret **Projektinställningar** måste du ange hur du vill använda vissa 
 På de individuella de projektkorten måste du lägga upp priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **projektinställningar** och väljer sedan relaterad länk.
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Obs**! Kryssrutan **Använd förbrukningslänk** är ganska komplex och förklaras därför i följande avsnitt.
+> [!NOTE]  
+>   Kryssrutan **Använd förbrukningslänk** är ganska komplex och förklaras därför i följande avsnitt.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Så här anger du projektförbrukningsspårning
 När du vill köra ett jobb, kan det hända att du vill veta hur förbrukningen spåras mot ditt plan. Det gör du enkelt genom att skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Detta gör att du kan spåra dina kostnader och enkelt visa hur mycket som återstår att göra. Som standard är projektplaneringsradtypen **Budget**, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
@@ -38,17 +39,19 @@ Om du väljer kryssrutan **Använd förbrukningslänken** kan du granska informa
 
 Om kryssrutan **Använd förbrukningslänk** är markerad och projektplaneringsraden är av typen **Fakturerbart** skapar Finansiell en projektplaneringsrad av typen **Budget** när du har bokfört journalraden.
 
-**Obs**! Om kryssrutan **Använd förbrukningslänk**  på arbetskortet är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas nya projektplaneringsrader av radtypen **Budget** när du bokför projektjournalrader. Om kryssrutan **Använd förbrukningslänk** på arbetskortet inte är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
+> [!NOTE]  
+>   Om kryssrutan **Använd förbrukningslänk** på arbetskortet är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas nya projektplaneringsrader av radtypen **Budget** när du bokför projektjournalrader. Om kryssrutan **Använd förbrukningslänk** på arbetskortet inte är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **projektinställningar** och väljer sedan relaterad länk.
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
 2. Markera eller avmarkera kryssrutan **Använd förbrukningslänk**.
 
-**Obs**! Du kan skapa en annan inställningen av **Använd förbrukningslänken** på de individuella arbetskorten. I så fall åsidosätter inställningen för det projektet den allmänna standardinställningen som beskrivs ovan.
+> [!NOTE]  
+>   Du kan skapa en annan inställning av **Använd förbrukningslänken** på de individuella arbetskorten. I så fall åsidosätter inställningen för det projektet den allmänna standardinställningen som beskrivs ovan.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Så här anger du priser för projektresurser
 Du kan lägga upp särskilda resurspriser för ett projekt. Du använder fönstret **Resurspriser för projekt** om du vill göra detta.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Resurs**.
 3. I fönstret **Resurspriser för projekt** fyller du i fälten efter behov.
 
@@ -56,12 +59,13 @@ Den valfria informationen i fälten **Projektaktivitetsnr**, **Arbetstyp**, **Va
 
 Värdet i fältet **Enhetspris** för resursen kommer att användas i projektjournalerna och projektets planeringsrader när den här resursen, en resurs tilldelad till resursgruppen eller valfri resurs anges.  
 
-**Obs**! Det här priset kommer alltid att åsidosätta eventuella priser som har angetts i det befintliga fönstret **Resurspris/Resursgruppris**.
+> [!NOTE]  
+>   Det här priset kommer alltid att åsidosätta eventuella priser som har angetts i det befintliga fönstret **Resurspris/Resursgruppriser**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Så här anger du priser för projektartiklar
 Du kan lägga upp särskilda artikelpriser för ett projekt. Använd fönstret **Artikelpriser** för projekt om du vill göra detta.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Artikel**.
 3. I fönstret **Artikelpriser för projekt** fyller du i fälten efter behov.
 
@@ -69,12 +73,13 @@ Den valfria informationen i fälten **Projektaktivitetsnr**, **Valutakod** och *
 
 Värdet i fältet **Enhetspris** för artikeln kommer att användas i projektplaneringsraderna och projektjournalerna när den här artikeln anges.  
 
-**Obs**! Det här priset kommer alltid att åsidosätta det vanliga kundpriset (bästa pris-mekanismen) för artiklar. Du bör inte skapa några artikelpriser för projektet om du vill använda mekanismerna för vanliga kundpriser.
+> [!NOTE]  
+>   Det här priset kommer alltid att åsidosätta det vanliga kundpriset (bästa pris-mekanismen) för artiklar. Du bör inte skapa några artikelpriser för projektet om du vill använda mekanismerna för vanliga kundpriser.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Så här lägger du upp priser för redovisningskonton för projekt
 Du kan lägga upp specifika priser för redovisningskostnader för ett projekt. Du använder fönstret **Redov.kontopriser för projekt** för att göra detta.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Projekt**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Redovisningskonto**.  
 3. I fönstret **Redov.kontopriser för projekt** fyller du i fälten efter behov.
 
@@ -85,9 +90,10 @@ Värdet i fältet **Enhetspris** för projektkostnaden för redovisningskontot k
 ## <a name="to-set-up-job-posting-groups"></a>Så här lägger du upp projektbokföringsmallar
 En aspekt av att planera projektet är att bestämma vilka bokföringskonton som ska användas för projektvärdering. Om du vill kunna bokföra projekt måste du lägga upp bokföringskonton för varje projektbokföringsmall. En bokföringsmall representerar en länk mellan projektet och hur det ska hanteras i redovisningen. När du skapar ett projekt anger du en bokföringsmall och, som standard, kopplar du varje aktivitet som du skapar för projektet till den här bokföringsmallen. Men medan du skapar aktiviteter kan du välja att åsidosätta standarden och välja en annan, mer lämplig, bokföringsmall.  
 
-**Obs**! De konton som behövs i kontoplanen måste anges innan du anger bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
+> [!NOTE]  
+>   Nödvändiga konton i kontoplanen måste registreras innan du registrerar bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **projektmallar** och väljer sedan relaterad länk.  
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i kontofälten enligt instruktionerna i följande tabell.  
 
 | Kontofält | Beskrivning |
@@ -114,5 +120,5 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

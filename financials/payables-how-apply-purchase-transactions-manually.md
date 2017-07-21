@@ -1,6 +1,6 @@
 ---
-title: "Så här stämmer du av leverantörsbetalningar manuellt | Microsoft Docs"
-description: "Så här stämmer du av leverantörsbetalningar manuellt"
+title: "Stämma av leverantörsbetalningar manuellt | Microsoft Docs"
+description: "Om du vill bearbeta, matcha eller stämma av leverantörsbetalningar eller återbetalningar manuellt, kopplar du beloppet till en eller flera öppna leverantörsreskontratransaktioner."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 86f59b54f0261f9aa835dc35db6f31cbb55e5d04
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Så här stämmer du av leverantörsbetalningar manuellt
 När du skickar ett betalningskvitto till, eller tar emot en återbetalning från, en leverantör måste du bestämma om du ska koppla betalningen eller återbetalningen till en eller flera öppna debet- eller kreditposter. Du kan ange det exakta beloppet som ska kopplas till betalningsinleveransen eller återbetalningen och därmed endast delvis koppla leverantörsreskontratransaktioner. Du måste koppla alla leverantörsreskontratransaktioner för att leverantörsstatistik och rapporter över kontoutdrag och ränteintäkter ska bli korrekta.
 
-**Obs!** Leverantörer föredrar ibland återbetalning framför en kreditnota som ska användas mot framtida fakturor, särskilt om du returnerar artiklar som du redan har betalt eller om du har betalat för mycket för en faktura.
+> [!NOTE]  
+>   Leverantörer föredrar ibland återbetalning framför en kreditnota som ska användas mot framtida fakturor, särskilt om du returnerar artiklar som du redan har betalt eller om du har betalat för mycket för en faktura.
 
 Du kan koppla leverantörsreskontratransaktioner på tre olika sätt:
 
@@ -31,14 +32,15 @@ Du kan koppla leverantörsreskontratransaktioner på tre olika sätt:
 * Från inköpskreditnotor.
 * Från leverantörsreskontratransaktioner efter att inköpsdokument har bokförts men inte har kopplats.
 
-**Obs!** Om fältet **Avräkningsmetod** på leverantörskortet innehåller **Koppla till äldsta faktura**, kommer betalningen att kopplas automatiskt till den äldsta öppna kredittransaktionen om du inte manuellt anger vilken transaktion som ska kopplas till. Om avräkningsmetoden för en kund är **Manuell** måste du koppla transaktioner manuellt.
+> [!NOTE]  
+>   Om fältet **Avräkningsmetod** på leverantörskortet innehåller **Koppla till äldsta faktura**, kommer betalningen att kopplas automatiskt till den äldsta öppna kredittransaktionen om du inte manuellt anger vilken transaktion som ska kopplas till. Om avräkningsmetoden för en kund är **Manuell** måste du koppla transaktioner manuellt.
 
 Du kan koppla leverantörsbetalningar manuellt till dess relaterade inköpsdokument, när du bokför utbetalningarna i fönstret **Utbetalningsjournal**. Mer information om att fylla i utbetalningsjournalen finns i [Så här gör du betalningar](payables-make-payments.md).
 
 Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetalningarna visas som negativa banktransaktioner på banken. I fönstret **Betalningsavstämningsjournal** kan du använda funktioner för import av kontoutdrag, automatisk koppling och bankkontoavstämning. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Så här kopplar du en betalning till en enskild eller flera leverantörsreskontratransaktioner
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Betalningsjournal**, och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
 2. Ange information om betalningstransaktionen på den första journalraden i fönstret **Utbetalningsjournal**.
 3. Så här kopplar du en enskild leverantörsreskontratransaktion:
    1. I fältet **Kopplas till ver.nr.** väljer du fältet för att öppna fönstret **Koppla leverantörstrans.**.
@@ -56,7 +58,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 6. Om du vill bokföra utbetalningsjournalen väljer du åtgärden **Bokför**.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Så här kopplar du en kreditnota till en enskild eller flera leverantörsreskontratransaktioner:
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Inköpskreditnota**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpskreditnotor** och välj sedan relaterad länk.
 2. Öppna den kreditnota som du vill koppla.
 3. Fyll i relevant information i huvudet.
 4. Om du vill tillämpa en enstaka leverantörsreskontratransaktion går du till snabbfliken **Koppling**på fältet **Kopplas till ver.nr.** och väljer transaktionen som du vill koppla krediten till och klickar sedan på fältet **Belopp att koppla** för att ange beloppet som ska kopplas till transaktionen.
@@ -73,7 +75,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 7. Klicka på knappen **Bokför** för att bokföra inköpskreditnotan.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Så här kopplar du bokförda leverantörsreskontratransaktioner:
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Leverantörer**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna relevant leverantör med poster som redan bokförts.
 3. Välj åtgärden **Transaktioner** och välj sedan åtgärden **Koppla transaktioner**.
 4. I fönstret **Koppla leverantörstrans.** visas leverantörens öppna transaktioner.
@@ -94,19 +96,20 @@ Om en valuta används vid inköp från en leverantör och en annan vid betalning
 
 Om du kopplar en post (post 1) i en valuta till en post (post 2) i en annan valuta används bokföringsdatumet för post 1 för att söka efter rätt valutakurs att omvandla belopp efter i post 2. Rätt valutakurs hittas i fönstret **Valutakurser**. I detta fall måste du aktivera koppling av leverantörsreskontratransaktioner i olika valutor. Mer information finns i [Så här aktiverar du koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Betalningsjournal**, och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
 2. Öppna den journal som du vill ha och fyll i första tomma journalrad med en valutakod.
 3. Välj åtgärden **Koppla transaktioner**.
 4. Välj raden med den post som du vill koppla till posten i utbetalningsjournalen. Klicka sedan på åtgärden **Koppla till ID** och välj den post som du vill koppla till.
 5. Välj knappen **OK** om du vill återvända till utbetalningsjournalen.
 6. Bokför utbetalningsjournalen.
 
-**Viktigt!** När du kopplar poster i olika valutor till varandra omvandlas posterna till USD. Även om valutakurserna är fasta för de två aktuella valutorna, t.ex. mellan USD och EUR, kan det uppstå ett litet restbelopp när beloppen i utländsk valuta omvandlas till USD. Dessa små restbelopp bokförs som vinster och förluster på kontot som har angetts i fältet **Kursvinster konstaterade** eller i fältet **Kursförluster konstaterade** i fönstret **Valutor**. Fältet **Belopp (USD)** justeras också i de aktuella leverantörsreskontratransaktionerna.
+> [!IMPORTANT]  
+>   När du kopplar poster i olika valutor till varandra omvandlas posterna till USD. Även om valutakurserna är fasta för de två aktuella valutorna, t.ex. mellan USD och EUR, kan det uppstå ett litet restbelopp när beloppen i utländsk valuta omvandlas till USD. Dessa små restbelopp bokförs som vinster och förluster på kontot som har angetts i fältet **Kursvinster konstaterade** eller i fältet **Kursförluster konstaterade** i fönstret **Valutor**. Fältet **Belopp (USD)** justeras också i de aktuella leverantörsreskontratransaktionerna.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Så här tar du bort en koppling av leverantörstransaktioner
 När du tar bort en felaktig koppling skapas och bokförs korrigeringstransaktioner som är identiska med den ursprungliga transaktionen, men med motsatt tecken i beloppsfältet för alla transaktioner, inklusive all redovisningsbokföring som gjorts i redovisningen till följd av kopplingen, t.ex. kassarabatter och valutakursvinster/-förluster. Alla transaktioner som stängdes av kopplingen öppnas på nytt.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Leverantörer**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna relevant leverantörskort.
 3. Välj åtgärden **Transaktioner**.
 4. Välj aktuell transaktion och klicka på åtgärden **Ta bort koppling på trans.**.
@@ -114,10 +117,11 @@ När du tar bort en felaktig koppling skapas och bokförs korrigeringstransaktio
 6. Välj aktuell koppling och klicka på åtgärden **Ta bort koppling på trans.**.
 7. Fyll i fälten i huvudet och välj sedan åtgärden **Ta bort koppling**.
 
-**Viktigt!** Om en post har använts i flera kopplingar måste du ta bort den senaste kopplingen först.
+> [!IMPORTANT]  
+>   Om en post har använts i flera kopplingar måste du ta bort den senaste kopplingen först.
 
 ## <a name="see-also"></a>Se även
 [Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

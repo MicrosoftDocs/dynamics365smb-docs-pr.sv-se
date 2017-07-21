@@ -1,6 +1,6 @@
 ---
-title: "Så här exporterar du Positive Pay-filer | Microsoft Docs"
-description: "Beskriver hur du ser till att banken bara godkänner validerade checkar och belopp genom att exportera Positive Pay-fil som innehåller information om leverantör betalning."
+title: Exportera du Positive Pay-filer | Microsoft Docs
+description: "Du kan se till att banken bara godkänner validerade checkar och belopp genom att exportera Positive Pay-fil som innehåller information om leverantör betalning."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 03/24/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ee93f8eb889ae1d635bca22ff133e1523fd1b825
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dfae1975a78c9380b5b6d4086569d63fe3793832
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,13 @@ För att se till att banken bara godkänner validerade checkar och belopp kan du
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är förkonfigurerat för att stödja Positive Pay-filer för Bank of America och City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Så här skapar du ett bankkonto för Positive Pay
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bankkonton**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Öppna kortet för den bank du vill använda Positive Pay för.
 3. I fältet **Positive Pay exportkod** anger du POSPAYBANK.
 4. Stäng fönstret.
 
 ## <a name="to-export-a-positive-pay-file"></a>För att exportera en Positive Pay-fil
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bankkonton**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det bankkonto som du vill exportera en Positive Pay-fil till.
 3. Välj åtgärden **Positive Pay-export**.
 
@@ -45,7 +45,7 @@ För att se till att banken bara godkänner validerade checkar och belopp kan du
 
 Så här visar du exporterade Positive Pay-poster
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bankkonton**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det bankkonto som du vill visa Positive Pay-exportposter för.
 3. Välj åtgärden **Positive Pay-transaktioner**.
 
@@ -55,7 +55,7 @@ Så här visar du exporterade Positive Pay-poster
 
 Att återexportera Positive Pay-filer
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bankkonton**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det bankkonto som du vill återexportera en Positive Pay-fil till.
 3. Välj åtgärden **Positive Pay-transaktioner**.
 4. Välj den rad för Positive Pay-exportfilen som du vill återexportera.
@@ -64,6 +64,6 @@ Att återexportera Positive Pay-filer
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Så här arbetar du med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

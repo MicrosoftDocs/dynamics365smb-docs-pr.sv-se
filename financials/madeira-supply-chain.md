@@ -1,6 +1,6 @@
 ---
-title: "Försörjningskedja | Microsoft Docs"
-description: "Lär dig mer om viktiga processer och begrepp i logistik"
+title: "Ange kedjan funktioner som stöds av Financials | Microsoft Docs"
+description: "Få en produktöversikt och lär dig mer om viktiga leveranskedjebegrepp och processer som ingår i ERP-lösningen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Logistik
+# <a name="overview-of-supply-chain-functionality"></a>Översikt över försörjningskedjefunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder vanliga logistikprocesser, dock begränsat till behoven hos grossist- och distributionsföretag utan administrerad lagerhantering.
 
 Utöver försäljningsorderdokument kan du även administrera ditt orderuppfyllande med försäljningsorder, vilket ger dig möjlighet att exempelvis leverera delar av ett orderantal när den fullständiga kvantiteten inte är tillgänglig på en gång. Du kan låta artiklar direktlevereras från leverantör till kund genom att länka försäljningsordern till den relaterade inköpsordern.
@@ -36,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Om du vill | Gå till |
 | --- | --- |
 | Registrera nya kunder, skapa försäljningserbjudanden, sälj produkter på order eller faktura, till exempel som direktleverans, samt administrera försäljningsreturer. |[Försäljning](sales-manage-sales.md) |
-| Registrera nya leverantörer, köp produkter på order eller fakturor, till exempel initierade från en försäljningsfaktura, samt administrera inköpsreturer. |[Inköp](purchasing-manage-purchasing.md) |
+| Registrera nya leverantörer, köp artiklar på order eller fakturor, till exempel initierade från en försäljningsfaktura, samt administrera inköpsreturer. |[Inköp](purchasing-manage-purchasing.md) |
 | Registrera nya fysiska produkter eller tjänsteprodukter, justera lagersaldon och administrera lagervärdet genom att bokföra justerade kostnader i redovisningen. |[Lager](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>Se även
@@ -44,6 +44,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Hantera kundreskontra](receivables-manage-receivables.md)     
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)    
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

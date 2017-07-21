@@ -1,6 +1,6 @@
 ---
-title: "Så här ändrar du vilken layout som används i en rapport | Microsoft Docs"
-description: "Lär dig hur du kan bestämma hur rapporten ska se ut."
+title: "Ändra hur rapporten ska se ut genom att välja en annan layout | Microsoft Docs"
+description: "Du kan använda olika layouter för en rapport och växla mellan layouter för att ändra utseendet på en rapport."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c35611a74e981367170bc487a107777d2ba240f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ En rapport kan ställas in med fler än en rapportlayout som du kan växla mella
 Beroende på layouterna som finns tillgängliga för en rapport kan du välja att använda en inbyggd RDLC-rapportlayout, en inbyggd Word-rapportlayout eller en anpassad layout. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Så här ändrar du layout som används i en rapport
-1. I det övre högra hörnet väljer du ikonen **Söka efter sida eller rapport** ![Söka efter sida eller rapport](media/ui-search/search_small.png "Search for Page or Report icon"), går till **Val av rapportlayout** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Search for Page or Report icon"), gå till **Val av rapportlayout** och välj sedan relaterad länk.  
    I fönstret **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet Företag högst upp i fönstret. Fältet Vald layout anger den layout som används i rapporten för närvarande.
 2. Ange fältet **Företag** fältet högst upp i fönstret till företaget som inkluderar rapporten.
 3. I raden för rapporten i listan och anger du fältet **Vald layout** till ett av följande alternativ för att ändra layouten som används för en rapport:
@@ -34,7 +34,8 @@ Beroende på layouterna som finns tillgängliga för en rapport kan du välja at
    * Word (inbyggd), använder den inbyggda Word-rapportlayouten i rapporten.
    * Anpassad använder en anpassad layout i rapporten.  
      Du kan se vilka anpassade layouter som är tillgängliga för rapporten i faktaboxen Rapportlayoutdelar. Om det inte finns några anpassade layouter för rapporten, måste du skapa en först. Om du väljer det här alternativet, gå vidare till nästa procedur för att ange den anpassade layout som du vill använda.
-     **Obs!** Om du väljer **RDLC (inbyggt)** eller **Word (inbyggt)** och du får ett felmeddelande att rapporten inte har en layout för den angivna typen, måste du välja ett annat layoutalternativ eller skapa en anpassad rapportlayout av den typ som du vill använda.
+     > [!NOTE]  
+>   Om du väljer **RDLC (inbyggt)** eller **Word (inbyggt)** och du får ett felmeddelande att rapporten inte har en layout för den angivna typen, måste du välja ett annat layoutalternativ eller skapa en anpassad rapportlayout av den typ som du vill använda.
 
 Om du har valt en inbyggd RDLC- eller Word-rapportlayout krävs ingen mer åtgärd och layouten används i när rapporten körs nästa gång.
 
@@ -46,5 +47,5 @@ Du återgår till fönstret **Val av rapportlayout**. Namnet på den valda anpas
 
 ## <a name="see-also"></a>Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

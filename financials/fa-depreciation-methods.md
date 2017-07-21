@@ -1,6 +1,6 @@
 ---
 title: Avskrivningsmetoder | Microsoft Docs
-description: "Beskriver de sju avskrivningsmetoder som du kan använda till att skriva av anläggningstillgångar."
+description: "Lär dig mer om de olika metoderna för avskrivning eller nedskrivning av anläggningstillgångar."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Det finns åtta avskrivningsmetoder att tillgå:
 * Användardefinierad  
 * Manuell  
 
-  **Obs!** Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.  
+  > [!NOTE]  
+>   Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.  
 * Halvårspraxis  
 
-  **Obs!** När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.  
+  > [!NOTE]  
+>    När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.  
 
 ## <a name="straight-line-depreciation"></a>Linjär avskrivning
 När du använder den linjära metoden måste du ange ett av följande alternativ i avskrivningsregeln för anläggningstillgångar:  
@@ -222,7 +224,7 @@ Med en användardefinierad metod använder du fönstret **Avskrivningstabeller**
 
 Beräkningsformeln för avskrivningsbelopp är:  
 
-Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas )/(100) X 360  
+Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas )/(100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Avskrivning baserad på antal enheter
 Den här användardefinierade metoden kan även användas för avskrivning baserad på enheter, till exempel när det gäller produktionsmaskiner med en fastställd livslängdskapacitet. I fönstret **Avskrivningstabeller** kan du ange det antal enheter som kan produceras under varje period (månad, kvartal, år eller bokföringsperiod).  
@@ -230,7 +232,7 @@ Den här användardefinierade metoden kan även användas för avskrivning baser
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Så här skapar du användardefinierade avskrivningsmetoder
 I fönstret **Avskrivning tabellkort** kan du skapa användardefinierad avskrivningsmetod. Du kan till exempel lägga upp avskrivning baserad på antalet enheter.  
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Avskrivningstabeller**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.  
 2. I fönstret **Avskrivning tabellista** väljer du åtgärden **Ny**.  
 3. I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Den här avskrivningsregeln kan användas tillsammans med följande avskrivnings
 
 När du använder Halvårspraxis kommer en avskrivning på sex månader att tillämpas det första räkenskapsåret, oavsett innehållet i fältet **Avskrivning startdatum**.  
 
-**Obs!** Den beräknade livslängd för en anläggningstillgång som återstår efter det första räkenskapsåret kommer alltid att innehålla ett halvår med hjälp av metoden Halvårspraxis. För att metoden Halvårspraxis ska användas på rätt sätt måste fältet **Avskrivning slutdatum** i fönstret **avskrivningsregel för anläggningstillgångar** måste alltid innehålla ett datum som infaller exakt sex månader före slutdatumet för det räkenskapsår då anläggningstillgången helt har avskrivits.  
+> [!NOTE]  
+>   Den beräknade livslängd för en anläggningstillgång som återstår efter det första räkenskapsåret kommer alltid att innehålla ett halvår med hjälp av metoden Halvårspraxis. För att metoden Halvårspraxis ska användas på rätt sätt måste fältet **Avskrivning slutdatum** i fönstret **avskrivningsregel för anläggningstillgångar** måste alltid innehålla ett datum som infaller exakt sex månader före slutdatumet för det räkenskapsår då anläggningstillgången helt har avskrivits.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Exempel: Avskrivning med metoden Halvårspraxis
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivningens startdatum** är 10-03-01. Den beräknade livslängden är fem år så **avskrivningens slutdatum** blir 15-06-30. Batch-jobbet **Beräkna avskrivning** körs en gång om året. Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.  
@@ -343,14 +346,16 @@ Om du har tre avskrivningsregler, B1, B2 och B3, och vill kopiera transaktioner 
 
 När du registrerar en transaktion i B1 i redovisningsjournalen för anläggningstillgångar och markerar fältet **Använd dubblettlista** kopieras transaktionen till regel B2 och B3 i journalen för anläggningstillgångar när transaktionen har bokförts.  
 
-**Obs!** Du kan inte kopiera till samma journal som du kopierar från. Om du bokför transaktioner i redovisningsjournalen för anläggningstillgångar kan du kopiera dem till journalen för anläggningstillgångar eller till redovisningsjournalen för anläggningstillgångar med hjälp av en annan journal.  
+> [!NOTE]  
+>   Du kan inte kopiera till samma journal som du kopierar från. Om du bokför transaktioner i redovisningsjournalen för anläggningstillgångar kan du kopiera dem till journalen för anläggningstillgångar eller till redovisningsjournalen för anläggningstillgångar med hjälp av en annan journal.  
 
-**Obs**: Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i Anl.tillg. redovisningsjournal måste du lämna fältet **Dokumentnr.** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
+> [!NOTE]  
+>   Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i Anl.tillg. redovisningsjournal måste du lämna fältet **Dokumentnr.** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
 
 ## <a name="see-also"></a>Se även
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

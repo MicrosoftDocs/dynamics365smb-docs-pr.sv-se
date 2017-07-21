@@ -1,6 +1,6 @@
 ---
 title: "Skapa kontaktföretag | Microsoft Docs"
-description: "Beskriver hur du skapar kontaktföretag i Financials "
+ddescription: Outlines the tasks to create contact companies, including assigning relevant data about prospects and defining the business relationships you have with companies.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9f1bd42ec4da43a16e9ba3f2519385bf914c8307
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="create-contact-companies"></a>Skapa kontaktföretag
+# <a name="creating-contact-companies"></a>Skapa kontaktföretag
 Ditt företag träffar regelbundet potentiella kunder som vanligtvis utvecklas till framtida affärsrelationer. När en ny kontakt skapas måste den här informationen registreras så att kommunikationen kan fortsätta.
 
 Genom att ange så mycket data som möjligt om ett visst företag ser du till att kommunikationen blir effektiv. Om du till exempel anger relevant branschgrupp ser du till att dessa specifika företag får all relevant kommunikation.
@@ -34,10 +34,10 @@ I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de 
 | Skapa en kontakt för ett nytt företag, antingen från noll eller från en kund, en leverantör eller ett bankkonto. |[Så här skapar du kontaktföretag](marketing-how-create-contact-companies.md) |
 | Synkronisera information i kontakter med vanlig information hos kunder, leverantörer och bankkonton. |[Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Beskriv affärsrelationen med en företagskontakt. |[Ställa in affärsrelationer på kontaktföretag](marketing-business-relations.md) |
-| Placera ett kontaktföretag i rätt branschgrupp, t.ex. Detaljhandel. |[Ställa in Branschgrupper för kontaktföretag](marketing-industry-groups.md) |
-| Ange utskicksgrupper som kan användas för att identifiera grupper av kontakter som ska få samma information. |[Ställa in utskicksgrupper på kontaktföretag](marketing-mailing-groups.md) |
+| Placera ett kontaktföretag i rätt branschgrupp, t.ex. Detaljhandel. |[Så här: Skapa branschgrupper på kontaktföretag](marketing-industry-groups.md) |
+| Ange utskicksgrupper som kan användas för att identifiera grupper av kontakter som ska få samma information. |[Så här skapar du utskicksgrupper på kontaktföretag](marketing-mailing-groups.md) |
 | Ange en alternativ adress för en kontakt. |[Så här tilldelar du alternativa adresser till en kontakt](marketing-how-assign-alternate-address.md) |
-| Tilldela webbadresser (sökmotorer och webbplatser) till dina kontakter för att ange var på Internet du tänker söka information om dem. |[Ställa in webbadresser på kontakter](marketing-web-sources.md) |
+| Tilldela webbadresser (sökmotorer och webbplatser) till dina kontakter för att ange var på Internet du tänker söka information om dem. |[Så här skapar du webbadresser på kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktpersoner](marketing-create-contact-persons.md)   

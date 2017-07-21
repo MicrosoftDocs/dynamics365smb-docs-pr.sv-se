@@ -1,6 +1,6 @@
 ---
-title: "Så här stämmer du av betalningar genom att använda automatisk koppling | Microsoft Docs "
-description: "Så här stämmer du av betalningar genom att använda automatisk koppling"
+title: "Använda automatisk koppling för att stämma av betalningar | Microsoft Docs "
+description: "Beskriver hur du använder funktionen automatisk koppling när du använder utbetalningar eller inbetalningar till deras relaterade öppna transaktioner och stämma av betalningar."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 423b141969c131688542cc10bb5361085f247a68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,10 +37,11 @@ På journalrader där en betalning har kopplats automatiskt till en eller flera 
 
 För varje journalrad som representerar en betalning i fönstret **Betalningsavstämningsjournal** kan du öppna fönstret **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information finns i [Så här granskar och kopplar du betalningar efter automatisk koppling](receivables-how-review-apply-payments-auto-application.md).
 
-**Obs!** Du kan starta banktransaktionsimporten samtidigt som du öppnar fönstret **Betalningsavstämningjournal** för en befintlig betalningsavstämningjournal i fönstret **Betalningsavstämningjournaler**. Följande procedurer beskriver hur du importerar banktransaktioner till fönstret **Betalningsavstämningsjournal** när du har skapat en ny journal.
+> [!NOTE]  
+>   Du kan starta banktransaktionsimporten samtidigt som du öppnar fönstret **Betalningsavstämningjournal** för en befintlig betalningsavstämningjournal i fönstret **Betalningsavstämningjournaler**. Följande procedurer beskriver hur du importerar banktransaktioner till fönstret **Betalningsavstämningsjournal** när du har skapat en ny journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Så här stämmer du av betalningar genom att använda automatisk koppling
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger du **Betalningsavstämningsjournaler** och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
 2. Om du vill arbeta i en ny betalningsavstämningsjournal väljer du åtgärden **Ny journal**.
 3. I fönstret **Betalningsbankkontolista** väljer du det bankkonto som du vill stämma av betalningar för och väljer sedan knappen **OK**.
    Fönstret **Betalningsavstämningsjournal** öppnas förberett för det valda bankkontot.
@@ -63,10 +64,11 @@ När du bokför betalningsavstämningsjournalen stängs de kopplade transaktions
 
 Du kan jämföra värdet i fältet **Saldo på bankkonto efter bokföring** tillsammans med värdet i fältet **Kontoutdragets slutsaldo** för att spåra när bankkontot har stämts av baserat på betalningar som du bokför.
 
-**Obs!** Om du inte vill stämma av bankkontot från fönstret **Betalningsavstämningsjournal** måste du använda fönstret **Bankkontoavstämning**. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md).
+> [!NOTE]  
+>   Om du inte vill stämma av bankkontot från **Betalningsavstämningsjournal** måste du använda fönstret **Bankkontoavstämning**. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

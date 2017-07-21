@@ -1,6 +1,6 @@
 ---
-title: "Med hjälp av innehållspaketet Dynamics 365 for Financials Power BI | Microsoft Docs"
-description: "Det är enkelt att få insikter om Financials-data med Power BI och innehållspaketet för Financials ."
+title: "Dynamics 365 for Financials och Power BI innehållspaket | Microsoft Docs"
+description: "Det är enkelt att få insikter, affärsstöd och KPI:er från dina Financials-data med Power BI och innehållspaketet för Financials ."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ Innehållspaketet är förkonfigurerat för att arbeta med försäljningsdata oc
 * Sätt fast den här vyn på instrumentbrädan om du vill fortsätta spårningen.  
   Instrumentbrädan och underliggande rapporter uppdateras dagligen. Du kan kontrollera uppdateringsschemat och ändra frekvens på datauppsättningen.  
 
-**Obs!** du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Mer information finns i [Använda Dynamics 365 for Financials som Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Mer information finns i [ansluta din affärsdata till Power BI ](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Om du vill se [!INCLUDE[d365fin](includes/d365fin_md.md)]-data in Power BI måste du ha följande:  
@@ -46,7 +47,7 @@ För att komma åt dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power
 | --- | --- |
 | **OData feed URL** |OData-URL så att Power BI kan få åtkomst till data från ditt företag som t.ex. https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
 | **Autentiseringsmetod** |Välj **grundläggande**. |
-| **Användarnamn** |Ditt namn som det visas för ditt konto i [!INCLUDE[d365fin](includes/d365fin_md.md)], såsom *John Smith *. |
+| **Användarnamn** |Ditt namn som det visas för ditt konto i [!INCLUDE[d365fin](includes/d365fin_md.md)], såsom *John Smith*. |
 | **Lösenord** |Detta är webbtjänståtkomstnyckel för ditt användarkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
 Detta innebär dock att du måste ha 3 enheter av information från Financials : OData-URL och webbtjänståtkomstnyckel för ditt användarkonto.  
@@ -74,7 +75,8 @@ Instrumentbrädan för [!INCLUDE[d365fin](includes/d365fin_md.md)] visar de vanl
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Obs!** Om du ändrar namnet på någon av dessa webbtjänster, kommer data inte att visas i Power BI.  
+> [!NOTE]  
+>   Om du ändrar namnet på någon av dessa webbtjänster, kommer data inte att visas i Power BI.  
 Om du vill lägga till i andra data i Power BI, måste du hitta tabellerna i [!INCLUDE[d365fin](includes/d365fin_md.md)], och exponera dem som webbtjänster och sedan lägga till dem i innehållspaketet. Detta är ett avancerat scenario och vi rekommenderar att du börjar med data som redan är tillgängliga i Power BI.  
 
 ## <a name="troubleshooting"></a>Felsökning
@@ -98,7 +100,8 @@ Om du får felet Inloggningen misslyckades när du loggar in på instrumentbräd
     Kontrollera ditt användarkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], och se till att du har använt rätt webbtjänståtkomstnyckel som lösenord och försök sedan igen.  
 * Instansen [!INCLUDE[d365fin](includes/d365fin_md.md)] som du försöker att ansluta till har inte ett giltigt SSL-certifikat. I så fall visas en mer detaljerat felmeddelande ("det går inte att upprätta betrott SSL-förhållande").
 
-    **Obs!**: Självsignerade certifikat stöds inte.  
+    > [!NOTE]  
+>   Självsignerade certifikat stöds inte.  
 
 **"Hoppsan"**  
 Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsakas den oftast av ett problem vid anslutning av data för innehållspaketet.
@@ -114,10 +117,10 @@ Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsa
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Migrera affärsdata från andra finansiella system](upload-data.md)  
-[Med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en Power BI-datakälla] (across-how-use-financials-data-source-powerbi.md)  
-[Med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
+[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]för Microsoft Flow](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

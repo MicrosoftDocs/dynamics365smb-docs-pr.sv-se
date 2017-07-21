@@ -1,6 +1,6 @@
 ---
-title: "Så här registrerar du nya leverantörer | Microsoft Docs"
-description: "Lär dig att lägga till leverantörer i ekonomin."
+title: "Skapa ett leverantörskort för att registrera en ny leverantör | Microsoft Docs"
+description: "Lär dig skapa ett leverantörskort för att registrera en ny leverantör."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Innan du kan registrera nya leverantörer, måste du lägga upp olika inköpskod
 
 Leverantörskort innehåller den information som behövs för att köpa produkter från leverantören. Mer information finns i [Så här bokför du inköp](purchasing-how-record-purchases.md), [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
 
-**Obs!** Om leverantörsmallar finns för olika leverantörstyper, visas ett fönster när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
+> [!NOTE]  
+>   Om leverantörsmallar finns för olika leverantörstyper, visas ett fönster när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
 
 ## <a name="to-create-a-new-vendor-card"></a>Skapa ett nytt leverantörskort.
 1. Välj **Leverantörer** på startsidan för att öppna listan över befintliga leverantörer.  
@@ -53,5 +54,5 @@ Om du vill använda detta leverantörskort som en mall när du skapar nya levera
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Så här registrerar du inköp](purchasing-how-record-purchases.md)   
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

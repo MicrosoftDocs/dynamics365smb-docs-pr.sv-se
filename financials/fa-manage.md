@@ -1,6 +1,6 @@
 ---
-title: "Anläggningstillgångar | Microsoft Docs"
-description: "Beskriver hur du hanterar anläggningstillgångar."
+title: "Hantera anläggningstillgångar | Microsoft Docs"
+description: "Lär dig mer om funktionen för anläggningstillgångar i Financials och få en översikt över hur du arbetar med anläggningstillgångar."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d57603202d9e2e5304c899eaf764dde8cfa6369d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,11 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 
 Varje anläggningstillgång kan kopplas till ett eller flera försäkringsbrev. Du kan på så sätt enkelt verifiera att försäkringsbrevsbeloppen stämmer överens med värdet på den tillgång som är kopplad till brevet. Det blir även enklare att bevaka årliga försäkringspremier.
 
-**Obs!**: Du kan bokföra in anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller i fönstret **Anlägg.tillg.journal**, beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder fönstret **Anl.tillg. redovisningsjournal**. Mer information finns i [Så här ställer du in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
+> [!NOTE]  
+>   Du kan bokföra in anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller i fönstret **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder fönstret **Anl.tillg. redovisningsjournal**. Mer information finns i [Så här ställer du in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
 
-**Obs!** den här funktionen kräver att din upplevelse är inställd på **Paket **. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 Innan du kan hantera anläggningstillgångar måste du skapa standardvärden, bokföring av anläggningstillgångar, bokföringsmallar, fördelningsnycklar, journaler och bokföringstyper. Mer information finns i [Konfigurera anläggningstillgångar](fa-setup.md).
 
@@ -54,7 +56,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 [Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

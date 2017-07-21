@@ -1,6 +1,6 @@
 ---
-title: Hantera rapportlayouter | Microsoft Docs
-description: "Läs om rapportlayouter."
+title: "Arbeta med anpassade och inbyggda layouts för rapporter och dokument | Microsoft Docs"
+description: "Använd rapportlayouter för att anpassa dokument, till exempel för att anpassa teckensnitt, logotyp eller inställningar för de PDF-filer som du skickar till kunder."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
 En rapportlayout kontrollerar rapportens format och innehåll, som vilka datafält i en rapportdatauppsättning som visas i rapporten och hur de ordnas, textstil, bilder och mycket annat. Från [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ändra vilken layout som används på en rapport, skapa en ny layout eller ändra befintliga layouter.
 
-**Obs!** I [!INCLUDE[d365fin](includes/d365fin_md.md)] omfattar termen "rapporter" även externa dokument som t.ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
+> [!NOTE]  
+>   I [!INCLUDE[d365fin](includes/d365fin_md.md)], omfattar termen "rapporter" även externa dokument som t.ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
 
 En rapportlayout ställer i synnerhet in följande:
 
@@ -57,7 +58,7 @@ Processen för att skapa Word-rapportlayouter och RDLC-rapportlayouter i rapport
 Information om hur du ändrar vilken layout som ska användas finns i [Så här ändrar du vilken layout som för närvarande används i en rapport](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Så här skapar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)
 

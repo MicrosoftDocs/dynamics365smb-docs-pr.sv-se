@@ -1,6 +1,6 @@
 ---
-title: Skapa och hantera kontakter | Microsoft Docs
-description: 'Beskriver hur du skapar och hanterar kontakter i Financials '
+title: "Skapa och hantera företagskontakter | Microsoft Docs"
+description: "Du kan ställa in alla externa enheter som du har affärsrelationer med (till exempel potentiella kunder, leverantörer och konsulter) för kontakter."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ I tabellen nedan beskrivs en rad olika uppgifter, med länkar till avsnitten dä
 
 | Om du vill | Gå till |
 | --- | --- |
-| Ställ in kontakthantering innan du lägger till kontakter. |[Förbered för att ställa in kontakter](marketing-setup-contacts.md) |
+| Ställ in kontakthantering innan du lägger till kontakter. |[Förbereder för att ställa in kontakter](marketing-setup-contacts.md) |
 | Skapa ett kontaktkort för varje nytt företag du har samröre med, t.ex. en kund eller en leverantör. |[Skapa kontaktföretag](marketing-create-contact-companies.md) |
 | Skapa ett kontaktkort för varje kontaktperson som arbetar på de företag som du har samröre med. |[Skapa kontaktpersoner](marketing-create-contact-persons.md) |
 

@@ -1,6 +1,6 @@
 ---
-title: Ange kriterier i filer | Microsoft Docs
-description: "Lär dig hur filter fungerar i Financials."
+title: "Ange sökkriterier i filer | Microsoft Docs"
+description: "Beskriver hur du arbetar med filter, till exempel snabbfiltret för att förfina resultaten när du söker efter data."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1a94e2ead59a40081920a0b11ed545a895d89910
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86ca45493081d9dbd229548f7c560e1df4e1c7c3
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,8 @@ När du vill söka efter data, till exempel kundnamn, adresser eller produktgrup
 ## <a name="searching-using-the-quick-filter"></a>Sök genom att använda snabbfiltret
 Du kan lägga till filter för alla sidor genom att använda snabbfiltret. Snabbfiltret aktiveras genom att välja ikonen med förstoringsglas i det övre högra hörnet av en sida. Filtrering av den här typen används för att snabbt ange kriterier.
 
-**Viktigt!** Snabbfiltret ger enkelt tillgång till filterdata genom att ange vanlig text, men ger även många alternativet för sökningkriterier. Beroende på om du anger vanlig text, eller text inklusive symboler, uppför sig snabbfiltret på olika sätt.  
+> [!IMPORTANT]  
+>   Snabbfiltret ger enkelt tillgång till filterdata genom att ange vanlig text, men ger även många alternativet för sökningkriterier. Beroende på om du anger vanlig text, eller text inklusive symboler, uppför sig snabbfiltret på olika sätt.  
 
 * Om du anger vanlig text i sökkriterierna tolkas sökkriterierna som en skiftlägesokänslig sökning som innehåller viss text.  
 * Om du anger en text inklusive symboler i sökkriterierna tolkas sökkriterierna exakt som du har angett den, och sökningen är skiftlägeskänslig.
@@ -71,8 +72,9 @@ Du kan lägga till filter för alla sidor genom att använda snabbfiltret. Snabb
   </TR>
 </TABLE>
 
-**Obs!** Du kan inte använda ett jokertecken när du filtrerar på uppräkningsfält, t.ex fältet **Status** på försäljningsorder. För att ange ett filter för den här typen av fält kan du ange det numeriska värdet som en filtreringsparameter. Använd till exempel värdena **0**, **1**, **2** och **3** för att filtrera för dessa alternativ i fältet **Status** på en försäljningsorder, som har värdena **Öppna**, **Släppt**, **Väntar på godkännande** och **Väntar på förskottsbetalning**.  
+> [!NOTE]  
+>   Du kan inte använda ett jokertecken när du filtrerar på uppräkningsfält, t.ex fältet **Status** på försäljningsorder. För att ange ett filter för den här typen av fält kan du ange det numeriska värdet som en filtreringsparameter. Använd till exempel värdena **0**, **1**, **2** och **3** för att filtrera för dessa alternativ i fältet **Status** på en försäljningsorder, som har värdena **Öppna**, **Släppt**, **Väntar på godkännande** och **Väntar på förskottsbetalning**.  
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

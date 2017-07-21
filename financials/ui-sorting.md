@@ -1,6 +1,6 @@
 ---
-title: Sortera | Microsoft Docs
-description: "Lär dig hur sortering fungerar."
+title: "Ordna data med hjälp av sorteringsfunktionen | Microsoft Docs"
+description: "Du kan använda sorteringsfunktionen för att får en översikt över dina data. Du kan till exempel sortera kunderna efter valutakod för att få ett urval utvalda kunder."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 284d03333af17e8c9bcf94cc20e40f87ee063e24
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,10 +24,11 @@ Med hjälp av sorteringsfunktionen kan du snabbt få en överblick över dina da
 
 Välj en kolumnrubrik och använd den lilla pilen för att sortera stigande eller fallande.  
 
-**Obs!** Sortering stöds inte på bilder, BLOB-fält, Flowfilter och fält som inte tillhör samma tabell.
+> [!NOTE]  
+>   Sortering stöds inte på bilder, BLOB-fält, Flowfilter och fält som inte tillhör samma tabell.
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ange villkor i filter](ui-enter-criteria-filters.md)
 
 

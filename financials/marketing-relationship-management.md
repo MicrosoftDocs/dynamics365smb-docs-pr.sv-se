@@ -1,6 +1,6 @@
 ---
 title: Kundhantering | Microsoft Docs
-description: 'Beskriver kundhantering i Financials '
+description: "Relationshanteringsfunktionerna i Financials ger stöd till din försäljning och låter dig komma åt information om kontakter och potentiella kunder så att du effektivt kan betjäna kunder."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4482d344d2bd456f5baa9b17d4aca7330a79106a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="relationship-management"></a>Kundhantering
+# <a name="managing-relationships"></a>Hantera relationer
 Kundhanteringsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.
 
 Effektiva metoder för försäljning och marknadsföring handlar om hur du fattar rätt beslut vid rätt tidpunkt. [!INCLUDE[d365fin](includes/d365fin_md.md)] ger en exakt överblick över din kontaktinformation när du behöver den, så att du kan arbeta effektivt med potentiella kunder och öka kundtillfredsställelsen.
@@ -37,5 +37,5 @@ När du vill börja, se följande avsnitt:
 [Försäljning](sales-manage-sales.md)  
 [Ställa in Kundhantering](marketing-setup-marketing.md)  
 [Hantera kundrelationer med Dynamics 365 for Sales från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

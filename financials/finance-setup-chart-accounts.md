@@ -1,6 +1,6 @@
 ---
 title: "Ställa in kontoplanen | Microsoft Docs"
-description: "Beskriver hur du kan ändra kontoplanen."
+description: "Du kan ändra standardkontona i kontoplanen och du kan lägga till nya konton."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 48202a9e9a763dcb22bed9975aa9c4a39d2dc4ae
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Du kan dock ändra standardkontona och du kan lägga till nya konton.
 ## <a name="adding-or-changing-accounts"></a>Lägga till eller ändra konton
 Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller ändra inställningar.
 
-**Obs!** Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande förutsättningar gälla:  
+> [!NOTE]  
+>   Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande förutsättningar gälla:  
 
 * Saldot på kontot måste vara noll.  
 * Fältet **Tillåt borttag. av redov.konto** måste anges i fönstret **Redovisningsinställningar** och kontot får inte ha några redovisningstransaktioner på eller efter det datumet.  
@@ -38,9 +39,9 @@ Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller änd
 ## <a name="see-also"></a>Se även
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
-[Dimensioner](finance-dimensions.md)  
+[Arbeta med dimensioner](finance-dimensions.md)  
 [Importera från andra finanssystem](upload-data.md)  
 [Så här arbetar du med GIFI-koder i Kanada](ca-finance-work-gifi-codes.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

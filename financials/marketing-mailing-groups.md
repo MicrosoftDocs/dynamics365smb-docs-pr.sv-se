@@ -1,6 +1,6 @@
 ---
 title: "Ställa in utskicksgrupper för kontakter | Microsoft Docs"
-description: "Beskriver utskicksgrupper för kontakter i Financials"
+description: "Du kan använda utskicksgrupper för att identifiera grupper av kontakter som ska få samma information, t.ex. för en marknadsföringskampanj."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fc29f5a6238373db3e862058eb327398e624882e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-mailing-groups-for-contacts"></a>Ställa in utskicksgrupper för kontakter
+# <a name="how-to-set-up-mailing-groups-for-contacts"></a>Så här: Skapa utskicksgrupper för kontakter
 Utskicksgrupper används för att definiera kontaktgrupper som du vill ge samma information. Du kan till exempel skapa en utskicksgrupp med de kontakter du vill skicka flyttkort till eller en annan grupp för att skicka julklappar.
 
 Att använda utskicksgrupper på kontakter är en två-stegsprocess. Först definierar du utskicksgruppkoden. Du måste bara utföra den här steget en gång för varje utskicksgrupp. När du har en utskicksgrupp kan du börja koppla koden till kontaktföretag.
 
-## <a name="defining-mailing-group-codes"></a>Definiera utskicksgruppkoder
+## <a name="to-define-mailing-group-codes"></a>Definiera utskicksgruppkoder
 Utskicksgruppkoden definierar typen eller kategorin för den gruppen, till exempel FLYTTA för kontorsflyttning eller GÅVA för julklappar. Du kan ha flera branschgruppkoder. För att definiera branschgrupperna använder du fönstret **utskicksgrupper**.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Utskicksgrupper** och väljer sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utskicksgrupper** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
 
 ## <a name="AssignMailGroupContact"></a> Så här tilldelar du utskicksgrupp till en kontakt

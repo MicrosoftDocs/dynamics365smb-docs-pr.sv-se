@@ -1,6 +1,6 @@
 ---
-title: "Ställa in inköp | Microsoft Docs"
-description: "Ställa in inköp"
+title: "Översikt över uppgifter för inställning av inköp | Microsoft Docs"
+description: "Beskriver uppgifterna för att definiera företagets inköppolicyer och registrerar inköpsprocesserna."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,11 +33,10 @@ Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i av
 | --- | --- |
 | Skapa ett leverantörskort för varje leverantör som du har köpt av. |[Så här registrerar du nya leverantörer](purchasing-how-register-new-vendors.md) |
 | Ange de olika rabatterna och specialpriserna som leverantörerna beviljar dig beroende på artikel, kvantitet och/eller datum. |[Så här registrerar du inköpspris, rabatt och betalningsavtal](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Så här optimerar [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt din vinst på handel när du registrerar ett särskilt pris-/rabattavtal.|[Avancerad: Bästa prisberäkning](advanced-best-price-calculation.md) |
 | Prioritera leverantörer. |[Så här prioriterar du leverantörer](purchasing-how-prioritize-vendors.md) |
 | Konfigurera inköpare. |[Så här skapar du inköpare](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

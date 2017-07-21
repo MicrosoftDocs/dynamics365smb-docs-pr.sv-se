@@ -1,6 +1,6 @@
 ---
 title: Bearbeta Inkommande dokument | Microsoft Docs
-description: Bearbeta inkommande dokument
+description: "Om du vill registrera ett externt dokument som t.ex. en PDF i Dynamics 365 for Financials, måste du först skapa eller slutföra en inkommande dokumentpost."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 93a3ba01e479ba8256f4a3628aae2b7838d8e5ad
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4d344c52bf6f10d00f2157fbdb45903402f6c55
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,12 +29,12 @@ Från PDF eller bildfiler som du får från dina handelspartner kan du låta en 
 | --- | --- |
 | Skapa inkommande dokumentposter manuellt eller automatiskt, genom att ta ett foto av t.ex. ett papperskvitto. |[Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md) |
 | Använd en OCR-tjänst för att göra PDF- och bildfiler till elektroniska dokument, som t.ex. kan omvandlas till inköpsfakturor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utbilda OCR-tjänsten för att undvika fel nästa gång som den bearbetar liknande information. |[Så här använder du OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md) |
-| Koppla eller ta bort inkommande dokumentposter för ett icke bokfört försäljnings- eller inköpsdokument och till en kund, leverantör eller redovisningstransaktion från dokumentet eller posten. |[Så här ansluter du och kopplar från inkommande dokumentposter från dokument och transaktioner](across-how-connect-disconnect-income-document-records.md) |
+| Koppla eller ta bort inkommande dokumentposter för ett icke bokfört försäljnings- eller inköpsdokument och till en kund, leverantör eller redovisningstransaktion från dokumentet eller posten. |[Så här skapar du inkommande dokumentposter direkt från dokument och transaktioner](across-how-connect-disconnect-income-document-records.md) |
 | Från fönstren **Kontoplan** och **Redovisningstransaktioner** kan du använda en sökfunktion för att hitta redovisningsposter för bokförda dokument som inte har inkommande dokumentposter och sedan länka dem till befintliga poster eller skapa nya centralt med bifogade dokumentfiler. |[Så här söker du efter bokförda dokument utan inkommande dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få en bättre översikt genom att ange inkommande dokumentposter som Bearbetade för att ta bort dem från standardvyn. |[Så här hanterar du många inkommande dokumentposter](across-how-manage-many-income-document-records.md) |
 
 ## <a name="see-also"></a>Se även
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

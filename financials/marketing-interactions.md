@@ -1,6 +1,6 @@
 ---
-title: Interaktioner | Microsoft Docs
-description: "Beskriver användning av interaktioner med kontakter i Financials "
+title: Hantera interaktioner med dina kontakter | Microsoft Docs
+description: "Du kan hantera all slags kommunikation eller interaktioner mellan ditt företag och kontakterna, till exempel för brev, telefonsamtal, sammanträden och så vidare."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a423f5581f6803b60a0351d0b91f2c08ebafeba7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,17 +29,17 @@ Modulen Affärsstöd gör att du kan registrera alla interaktioner som du har me
 * Så här skapar du interaktioner på kontakter och segment  
 * Visa och hantera registrerade interaktioner  
 
-##  <a name="set-up-interaction-templates"></a>Så här skapar du interaktionsmallar:
+##  <a name="setting-up-interaction-templates"></a>Skapa interaktionsmallar
 Innan du kan skapa och registrera interaktioner måste du skapa interaktionsmallar. När du skapar dem behöver du ange vilka interaktionsmallar de ska grundas på. En interaktionsmall en modell som definierar en interaktions grundläggande egenskaper.
 Du kan du skapa bilagor till interaktionsmallarna i fönstret**interaktionsmallar**.  
 
-## <a name="create-interactions"></a>Skapa interaktioner
+## <a name="creating-interactions"></a>Skapa interaktioner
 Det finns två sätt att registrera interaktioner:
 
 * Du kan manuellt skapa interaktioner som är länkade till en enda kontakt eller till ett segment. Mer information finns i [Så här skapar du interaktioner på kontakter och segment](marketing-how-create-interactions.md).  
 * När du utför uppgifter i , till exempel skriver ut fakturor eller offerter, kan interaktioner registreras automatiskt. Mer information finns i [automatiskt registrera interaktioner med kontakter](marketing-auto-record-interactions.md).
 
-## <a name="view-and-manage-recorded-interactions"></a>Visa och hantera registrerade interaktioner
+## <a name="viewing-and-managing-recorded-interactions"></a>Visa och hantera registrerade interaktioner
 Alla registrerade interaktioner och bilagor som inte har raderats kan visas i fönstret**Interaktionslogg**. Du kan öppna fönstret genom att:
 
 * Med hjälp av ikonen **Sök efter sida eller rapport** för att söka i **Interaktionslogg**.
@@ -51,7 +51,7 @@ I det här fönstret kan du:
 * Visa interaktionens status.
 * Markera interaktioner som makulerade.
 
-Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du i det övre högra hörnet ikonen **Sök efter sida eller rapport** ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), anger **Ta bort avbrutna interaktionsloggar**, och väljer sedan relaterade länken och fyller sedan i informationen.
+Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), ange **Ta bort avbrutna interaktionsloggtrans**.
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  

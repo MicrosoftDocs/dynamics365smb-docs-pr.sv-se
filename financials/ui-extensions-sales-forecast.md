@@ -1,6 +1,6 @@
 ---
-title: "Försäljnings- och lagerprognos | Microsoft Docs"
-description: "Innehåller information om tillägget för prognos för försäljning och lager."
+title: "Med hjälp av tillägget försäljning och lagerprognos för att hantera lager | Microsoft Docs"
+description: "Det här tillägget låter dig förutse försäljning, få en tydlig översikt över förväntat slut i lager och du kan till och med skapa återanskaffningsförfrågningar till leverantörer."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ebaea8b98264e981f9ad2e0abda592e2e4a72427
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,6 +33,6 @@ Du kan också använda tillägget för att föreslå när du ska fylla på lagre
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
-[Lager](inventory-manage-inventory.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]med tillägg](ui-extensions.md)  
+[Lagersaldo](inventory-manage-inventory.md)  
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 

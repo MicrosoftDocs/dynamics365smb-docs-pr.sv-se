@@ -1,6 +1,6 @@
 ---
 title: "Ställa in Arbetsansvar för kontakter | Microsoft Docs"
-description: "Beskriver arbetsansvar för kontakter i Financials "
+description: "Du kan definiera ett arbetsansvar och tilldela den till en kontakt för att ange vilka aktiviteter som kontakten ansvarar för i företaget, till exempel IT- eller produktionsorder."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 610ae314502e60b959f0e2ff705a48b936d79d68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-job-responsibilities-for-contact-persons"></a>Ställa in arbetsansvar för kontaktpersonerna.
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Så här: Ange arbetsansvar för kontaktpersonerna.
 Du kan lägga till information om arbetsansvar för kontaktpersoner för att ange vad kontaktpersonen ansvarar för i företaget, till exempel IT, ledning eller produktion. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
 
 Att använda arbetsansvar på kontakter är en två-stegsprocess. Först definierar du arbetsansvarkoden. Du måste bara utföra den här steget en gång för varje arbetsansvar. När du har en arbetsansvarkod kan du börja koppla koden till kontaktpersoner.
 
-## <a name="tp-define-a-job-responsibility-code"></a>så här definierar du arbetsansvarkod
+## <a name="to-define-a-job-responsibility-code"></a>så här definierar du arbetsansvarkod
 Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du fönstret **Arbetsansvar**.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Arbetsansvar**, och välj sedan relaterad länk.
+1. Välj ikonen ![söka efter sida eller rapport](media/ui-search/search_small.png "ikonen söka efter sida eller rapport"), ange **arbetsansvar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>så här tilldelar du arbetsansvaret till en kontaktperson

@@ -1,6 +1,6 @@
 ---
-title: "Logga ändringar i Dynamics 365 for Financials | Microsoft Docs"
-description: "Logga ändringar som görs av användare."
+title: "Spåra användaraktivitetet i en ändringslogg | Microsoft Docs"
+Description: "Du kan aktivera en användarlogg så att du har en historik över alla ändringar som gjorts i spårade tabeller."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 03/04/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 470931febc303ace8fa1e8015453c20b587762b0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,5 +36,5 @@ När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av d
 [Sortering](ui-sorting.md)  
 [Använda Sök efter sida eller rapport](ui-search.md)  
 [Så här hanterar du användare och behörigheter](ui-how-users-permissions.md)    
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

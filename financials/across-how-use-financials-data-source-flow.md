@@ -1,6 +1,6 @@
 ---
-title: Anpassa Dynamics 365 for Financials i Microsoft Flow | Microsoft Docs
-description: "Du kan göra dina Financials-data tillgängliga som underlag för datakälla i PowerApps."
+title: Koppla Data med | Microsoft Docs
+description: "Du kan göra dina Financials-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa ett automatiskt arbetsflöde."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 03/15/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 76d24ed80adb08083c6167040be8cc6a4bcc3167
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-in-microsoft-flow"></a>Anpassa Dynamics 365 for Financials i Microsoft Flow
+# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett automatiskt arbetsflöde
 Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del av ett arbetsflöde i Microsoft Flow.  
 
-**Obs!** Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Flow.  
+> [!NOTE]  
+>   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Flow.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>Att lägga till [!INCLUDE[d365fin](includes/d365fin_md.md)] som datakälla i Flow.
 1. I webbläsaren, går du till [flow.microsoft.com](https://flow.microsoft.com/en-us/), och loggar in.
@@ -46,8 +47,8 @@ Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del 
 Nu har du lyckats ansluta till dina Dynamics 365-data och är redo att börja skapa ditt flöde. Mer information finns i [Flow-dokumentation](https://flow.microsoft.com/documentation/getting-started/).
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Importerae affärsdata från andra finansiella system](upload-data.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Importera verksamhetsdata från andra finanssystem](upload-data.md)  
 [Så här hanterar du användare och behörigheter](ui-how-users-permissions.md)    
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Ekonomi](finance.md)  

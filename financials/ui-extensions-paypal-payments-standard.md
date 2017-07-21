@@ -1,6 +1,6 @@
 ---
-title: "Standard för PayPal-betalningar | Microsoft Docs"
-description: "Innehåller information om tillägget för PayPal-standardbetalning"
+title: "Med hjälp av tillägget PayPal-standardbetalning | Microsoft Docs"
+description: "Beskriver hur du kan använda tillägget får att låta kunderna betala med PayPal."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fdd5df534c0ffd1ae325e0959fe01b1d0f00974a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,7 @@ Tjänsten för PayPal-standardbetalning ger följande förmåner:
 Mer information finns i [Så här aktiverar du kundbetalning via PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se även
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]med tillägg](ui-extensions.md)  
-[Ställa in försäljning] (sales-setup-sales.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Konfigurera försäljning](sales-setup-sales.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

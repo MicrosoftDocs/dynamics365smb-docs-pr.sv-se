@@ -1,6 +1,6 @@
 ---
-title: "Ange skrivarval för rapporter | Microsoft Docs"
-description: "Ange skrivare för rapporter."
+title: "Skapa rapporter som ska skrivas ut på en viss skrivare | Microsoft Docs"
+description: "Lär dig att ange en skrivare för en rapport och använda fönstret Skrivarval."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,17 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="specify-printer-selection-for-reports"></a>Ange skrivarval för rapporter
 Den här sidan är tom eftersom du inte har lagt upp särskilda skrivare för specifika rapporter. Vi arbetar på att lösa detta.
 
-Under tiden när du vill skriva ut en rapport måste du hämta rapporten som ett PDF-dokument först genom att välja knappen **skicka till**. Sedan väljer du vilken typ av fil du vill ladda ner rapporten som, och här bör du välja **PDF-dokument **. Nu kan du antingen öppna det PDF-dokumentet på en gång och skriva ut det, eller spara det och skriva ut det senare.
+Under tiden när du vill skriva ut en rapport måste du hämta rapporten som ett PDF-dokument först genom att välja knappen **skicka till**. Sedan väljer du vilken typ av fil du vill ladda ner rapporten som, och här bör du välja **PDF-dokument**. Nu kan du antingen öppna det PDF-dokumentet på en gång och skriva ut det, eller spara det och skriva ut det senare.
 
 <!--
 
@@ -47,7 +47,7 @@ The following table describes the combination of values to specify when you set 
 -->
 
 ## <a name="see-also"></a>Se även
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Så här kör du batch-jobb](ui-how-run-batch-jobs.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
 

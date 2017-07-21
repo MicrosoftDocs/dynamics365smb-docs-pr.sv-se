@@ -1,6 +1,6 @@
 ---
-title: "Så här korrigerar eller annullerar du obetalda försäljningsfakturor | Microsoft Docs"
-description: "Så här rättar eller makulera du obetalda försäljningsfakturor"
+title: "Korrigera eller annullera bokförda försäljningsfakturor | Microsoft Docs"
+description: "Beskriver hur du korrigerar, raderar, eller annullerar en bokförd försäljningsfaktura och kopplar en försäljningskreditnota."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9289aeb9b44ec300646fbe6e6fdbf77e72cd7b08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3cfa755b60a7ea24cc992e32a8f10d967e383f0f
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-correct-or-cancel-unpaid-sales-invoices"></a>Så här rättar eller makulera du obetalda försäljningsfakturor
 Du kan korrigera eller annullera en bokförd försäljningsfaktura. Det är användbart om du gör ett fel, eller om kunden begär ett ändring.
 
-**Obs!** När en bokförd försäljningsfaktura har betalats helt eller delvis, kan du inte rätta eller avbryta den från själva den bokförda försäljningsfakturan. I stället måste du manuellt skapa en försäljningskreditnota för att makulera försäljningen och för att ersätta kunden. Mer information finns i [Så här behandlar du försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md).
+> [!NOTE]  
+>   När en bokförd försäljningsfaktura har betalts helt eller delvis, kan du inte rätta eller annullera den från själva den bokförda försäljningsfakturan. I stället måste du manuellt skapa en försäljningskreditnota för att makulera försäljningen och för att ersätta kunden. Mer information finns i [Så här behandlar du försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md).
 
 I fönstret **Bokförd försäljningsfaktura** kan du välja åtgärden **Korrigera** eller **Avbryt** för att utföra de åtgärder som beskrivs i följande tabell.
 
@@ -35,10 +36,11 @@ I fönstret **Bokförd försäljningsfaktura** kan du välja åtgärden **Korrig
 När du uppdaterar eller avbryter en bokförd försäljningsfaktura gäller den korrigerande försäljningskreditnotan för alla redovisnings- och inventeringstransaktioner som skapades när den ursprungliga försäljningsfakturan bokfördes. Det återför den bokförda försäljningsfakturan i dina ekonomiska transaktioner och lämnar bokförd korrigering av försäljningskreditnota för din verifieringskedja.
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Korrigera en bokförd försäljningsfaktura
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokförda försäljningsfakturor**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
 2. Markera den bokförda försäljningsfakturan som du vill korrigera.
 
-    **Obs!** Om kryssrutan **Avbruten** är markerad, kan du inte rätta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller avbrutits.
+    > [!NOTE]  
+>   Om kryssrutan **Avbruten** kan du inte rätta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller annullerats.
 3. I fönstret **Bokförd försäljningsfaktura** väljer du åtgärden **korrigera**.  
 4. En ny försäljningsfaktura med samma information skapas där du kan göra rättningen. Fältet **Avbruten** på den först bokförda försäljningsfakturan ändras till **Ja**.
 
@@ -46,10 +48,11 @@ När du uppdaterar eller avbryter en bokförd försäljningsfaktura gäller den 
 5. Välj åtgärden **Visa korrigerande kreditnota** för att visa de bokförda försäljningskreditnotorna som annullerar den ursprungliga bokförda försäljningsfakturan.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Avbryta en bokförd försäljningsfaktura
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Bokförda försäljningsfakturor**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
 2. Markera den bokförda försäljningsfakturan som du vill annullera.
 
-    **Obs!** Om kryssrutan **Avbruten** är markerad, kan du inte avbryta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller avbrutits.
+    > [!NOTE]  
+>   Om kryssrutan **Avbruten** kan du inte avbryta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller annullerats.
 3. I fönstret **Bokförd försäljningsfaktura** väljer du åtgärden **Avbryta**.
 
     En försäljningskreditnota skapas automatiskt och bokförs för att makulera den ursprungligt bokförda försäljningsfakturan. Fältet **Avbruten** på den först bokförda försäljningsfakturan ändras till **Ja**.
@@ -59,5 +62,5 @@ När du uppdaterar eller avbryter en bokförd försäljningsfaktura gäller den 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

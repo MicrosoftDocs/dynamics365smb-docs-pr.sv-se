@@ -1,6 +1,6 @@
 ---
 title: "Ställa in anläggningstillgångar | Microsoft Docs"
-description: "Beskriver hur du ställer in funktionen för anläggningstillgångar."
+description: "Få information om de åtgärder som du måste göra om du vill ställa in anläggningstillgångar, till exempel maskiner eller byggnader."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8cf5df0cb9e555f700e2f578a25e102cefe8baff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par sak
 
 I tabellen nedan finns länkar till mer information. När du har skapat detta kan du starta olika aktiviteter. Mer information finns i [Anläggningstillgångar](fa-manage.md).  
 
-**Obs!**: Du kan bokföra anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller i fönstret **Anlägg.tillg.journal**, beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder fönstret **Anl.tillg. redovisningsjournal**.  
+> [!NOTE]  
+>   Du kan bokföra anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder fönstret **Anl.tillg. redovisningsjournal**.  
 
 När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integration** i fönstret **Avskrivningsregelkort**, sedan kommer fönstret **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
 
@@ -45,6 +46,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Så här skapar du en tillgänglighetsöversikt | Microsoft Docs"
-description: "Beskriver hur du visar dispositionen av artiklar mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod eller efter artikelns placering på en struktur."
+title: "Skapa en tillgänglighetsöversikt | Microsoft Docs"
+description: "Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod eller efter artikelns placering på en struktur."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,36 +9,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47071e5e325de8a31663b8d5a59d1ce93e5d0111
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-get-an-availability-overview"></a>Så här skapa du en tillgänglighetsöversikt
+# <a name="how-to-view-the-availability-of-items"></a>Så här visar du artikeldisposition
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
 
 Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa varje artikels disposition per händelse, tid eller lagerställe. En händelse är alla planerade artikeltransaktioner, till exempel en utleverans eller en inleverans av ankommande överföring.
 
-**Obs**: Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Så här skapar du lägerställen](inventory-how-setup-locations.md).
+> [!NOTE]  
+>   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Så här skapar du lägerställen](inventory-how-setup-locations.md).
 
 I [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)], visas tillgänglighetssiffror i två olika fält, var och en med en annan definition:
 
 * Fältet **Lagersaldo** visar den faktiska mängden idag enligt bokförda artikeltransaktionsposter.
 * Fältet **Lagerutveckling över tid** beräknas och visar antalet i lager samt planenliga inleveranser minus bruttobehov. (I [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan planenliga inleveranser inkludera antal på inköpsorder och inkommande överföringsorder. Bruttobehov omfattar kvantiteter i försäljningsorder och avgående överföringsorder).
 
-**Tips**: Lagerutvecklingen över tid är särskilt relevant att visa i fönstren **Artikeldisp. per perioder** och **Artikeldisposition per händelse** eftersom dessa innehåller datumdimensionen.  
+> [!TIP]  
+>   Lagerutvecklingen över tid är särskilt relevant att visa i fönstren **Artikeldisp. per perioder** och **Artikeldisposition per händelse** eftersom dessa innehåller datumdimensionen.  
 
-**Obs**: I följande procedurer beskrivs hur du visar avancerad tillgänglighetsinformation från artikellistan och artikelkortet. Du kan också visa information för artikeln på raden via försäljningsdokumentraderna. Mer information finns i [Så här säljer du produkter](sales-how-sell-products.md).
+> [!NOTE]  
+>   I följande procedurer beskrivs hur du visar avancerad tillgänglighetsinformation från artikellistan och artikelkortet. Du kan också visa information för artikeln på raden via försäljningsdokumentraderna. Mer information finns i [Så här säljer du produkter](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
 Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktioner i fönstret **Artikeldisposition per händelse**.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Artikel**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per**, och välj sedan åtgärden **Händelse**.
 
@@ -48,7 +51,7 @@ Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Visa dispositionen för en artikel under olika perioder
 Du visar en artikels disposition över tid för angivna tidsperioder i fönstret **Artikeldisp. per perioder**.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Artikel**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Period**.
 
@@ -58,7 +61,7 @@ Du visar en artikels disposition över tid för angivna tidsperioder i fönstret
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Visa tillgängligheten för en artikel på de lägerställen där den lagras
 Du kan visa dispositionen av en artikel på de olika lägerställen där den lagras i fönstret **Artikeldisp. per lagerställe**.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Artikel**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Lagerställe**.
 
@@ -69,7 +72,7 @@ Du kan visa dispositionen av en artikel på de olika lägerställen där den lag
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
 Du kan visa disposition för alla artiklar på alla lägerställen i fönstret **Artiklar per lagerställe**.
 
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Artikel**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Välj åtgärden **Artiklar per lagerställe**.
 
     Fönstret **Artiklar per lagerställe** visar, för alla artiklar, hur många som är tillgängliga på respektive lagerställe.
@@ -89,7 +92,8 @@ På varje rad i fönstret för både den överordnade artikeln och underartiklar
 
 Fönstret **Artikeldisposition per strukturnivå** visar information för artikeln på kortet eller dokumentraden som fönstret har öppnats för. Artikeln visas alltid på den översta raden. Du kan visa information för andra artiklar eller alla artiklar genom att ändra värdet i fältet **Artikelfilter**.
 
-**Obs!** Som standard visar tillgänglighetssiffror på raderna en total disposition för alla artiklar under toppartikeln. Dessa siffror visas i fältet **Disponibelt antal** och är fokuserade på toppartikeln. Informationen om hur delmonteringar du kan göra kan emellertid snedfördelas. Om du vill få en indikation på exakt hur många överordnade artiklar du kan producera måste du rensa kryssrutan **Visa total disposition** och sedan visa siffran i fältet **Kan skapa överordnad**.
+> [!NOTE]  
+>   Som standard visar tillgänglighetssiffror på raderna en total disposition för alla artiklar under toppartikeln. Dessa siffror visas i fältet **Disponibelt antal** och är fokuserade på toppartikeln. Informationen om hur delmonteringar du kan göra kan emellertid snedfördelas. Om du vill få en indikation på exakt hur många överordnade artiklar du kan producera måste du rensa kryssrutan **Visa total disposition** och sedan visa siffran i fältet **Kan skapa överordnad**.
 
 Fältet **Flaskhals** anger vilken artikel i strukturen som begränsar dig från att kunna producera ett större antal än antalet som visas i fältet **Kan skapa toppartikel**. En flaskhalsartikel kan till exempel vara en inköpt komponent med ett förväntat inleveransdatum som är för sent för att skapa fler enheter av toppartikeln per datumet i fältet **Behövs den**.
 

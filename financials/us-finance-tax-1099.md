@@ -1,6 +1,6 @@
 ---
 title: Rapportering av 1099-transaktioner i USA | Microsoft Docs
-description: "I dina inköpsdokument kan du ställa in att dokumentet gäller under 1099, och du kan dessutom ställa in 1099-koden för leverantören."
+description: "IRS kräver skatteformuläret 1099 för betalning till leverantörer och du kan ange att ett inköpsdokument är 1099 skattepliktigt och ange koden 1099 för leverantören."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>Rapportering av 1099-transaktioner i USA
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Rapportering av skattepliktiga 1099-transaktioner i USA
+
 Det amerikanska skatteverket (IRS) kräver en eller flera versioner av 1099-skatteblanketten för betalningar till leverantörer. Kopior av dessa blanketter måste skickas årligen till leverantörer på eller före den sista dagen i januari. I dina inköpsdokument kan du ställa in att dokumentet gäller under 1099, och du kan dessutom ställa in 1099-koden för leverantören.  
 
 ## <a name="1099-codes"></a>1099-koder
@@ -55,5 +56,5 @@ Det kan vara till hjälp att köra rapporten **1099-information för leverantör
 ## <a name="see-also"></a>Se även
 [Så här registrerar du nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Så här registrerar du inköp](purchasing-how-record-purchases.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

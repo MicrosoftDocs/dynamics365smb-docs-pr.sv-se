@@ -1,5 +1,5 @@
 ---
-title: "Så här aktiverar du kundbetalningar via betalningstjänster | Microsoft Docs"
+title: "Aktivera kundbetalningar via betalningstjänster | Microsoft Docs"
 description: "Gör det enklare för kunderna att betala sina fakturor genom att aktivera betalningstjänster."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 769fd885e5c6070f8a4f6c9082900ea7f5f6ab8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 49e75c5f43b495bfc053c58b27e06feace62971c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ När du har aktiverat en betalningstjänst i [!INCLUDE[d365fin](includes/d365fin
 Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installerade i [!INCLUDE[d365fin](includes/d365fin_md.md)], och klara att aktiveras.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Så här aktiverar du en betalningstjänst i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten"), ange **Betalningstjänster**, och väljer sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningstjänster** och välj sedan relaterad länk.  
 2. I fönstret **Betalningstjänst** väljer du åtgärden **Ny**.  
 3. Välj betalningstjänsten och stäng sedan fönstret.  
 4. I fönstret **Betalningstjänst** väljer du åtgärden **Konfiguration**.  
@@ -40,11 +40,12 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
 2. Öppna den försäljningsorder som du vill betala med hjälp av betalningstjänsten.  
 3. I fältet **Betalningtjänst** väljer du betalningtjänsten.  
   
-    **Obs!** Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.  
+    > [!NOTE]  
+>   Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]med tillägg](ui-extensions.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

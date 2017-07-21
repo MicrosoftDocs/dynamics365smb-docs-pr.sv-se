@@ -1,6 +1,6 @@
 ---
-title: "Analysera kassaflödet i ditt företag | Microsoft Docs"
-description: "Beskriver hur du använder kontantcykel, intäkter och kostnader, kassaflöde och kassaflödesprognosdiagrammet för att analysera tidigare och framtida föflyttning av likvida medel från och till ditt företag."
+title: "Analysera kassaflöden | Microsoft Docs"
+description: "Beskriver hur du använder kontantcykel, intäkter och kostnader, kassaflöde och kassaflödesprognosdiagrammet för att analysera tidigare flöden av likvida medel från och till ditt företag."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9e2777bb50702df486a87ed1830f84f51a6434be
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,9 +42,9 @@ I Rollcentret Revisor under **finansiell prestanda**, erbjuder diagrammen **kont
 
 Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också titta på kassaflödeskalkylbladet. Du kan t.ex se hur prognosen:
 
-* Hanterar bekräftade försäljningar och inköp  
-* Subtraherar leverantörsreskontra och lägger till kundreskontra  
-* Hoppar över dubbla försäljningsorder och inköpsorder  
+* Hanterar bekräftade försäljningar och inköp.  
+* Subtraherar leverantörsreskontra och lägger till kundreskontra.  
+* Hoppar över dubbla försäljningsorder och inköpsorder.  
 
 ### <a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
 1. Sök efter **Kassaflödesprognoser** och välj sedan relaterad länk.  
@@ -53,6 +53,6 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 
 ## <a name="see-also"></a>Se även
 [Ställa in Finance](finance-setup-finance.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ställa in analysvy för kassaflöde](finance-setup-cash-flow-analyses.md)  
 
