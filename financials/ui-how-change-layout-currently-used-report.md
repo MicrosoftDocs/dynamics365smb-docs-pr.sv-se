@@ -18,7 +18,6 @@ ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: sv-se
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Så här ändrar du vilken layout som används i en rapport för närvarande
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
@@ -34,8 +33,9 @@ Beroende på layouterna som finns tillgängliga för en rapport kan du välja at
    * Word (inbyggd), använder den inbyggda Word-rapportlayouten i rapporten.
    * Anpassad använder en anpassad layout i rapporten.  
      Du kan se vilka anpassade layouter som är tillgängliga för rapporten i faktaboxen Rapportlayoutdelar. Om det inte finns några anpassade layouter för rapporten, måste du skapa en först. Om du väljer det här alternativet, gå vidare till nästa procedur för att ange den anpassade layout som du vill använda.
-     > [!NOTE]  
->   Om du väljer **RDLC (inbyggt)** eller **Word (inbyggt)** och du får ett felmeddelande att rapporten inte har en layout för den angivna typen, måste du välja ett annat layoutalternativ eller skapa en anpassad rapportlayout av den typ som du vill använda.
+
+    > [!NOTE]  
+    >   Om du väljer **RDLC (inbyggt)** eller **Word (inbyggt)** och du får ett felmeddelande att rapporten inte har en layout för den angivna typen, måste du välja ett annat layoutalternativ eller skapa en anpassad rapportlayout av den typ som du vill använda.
 
 Om du har valt en inbyggd RDLC- eller Word-rapportlayout krävs ingen mer åtgärd och layouten används i när rapporten körs nästa gång.
 
