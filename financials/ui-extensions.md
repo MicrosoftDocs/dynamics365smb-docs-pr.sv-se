@@ -15,63 +15,63 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Anpassa din Dynamics 365 for Financials med tillägg
-Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
-När du först startar först [!INCLUDE[d365fin](includes/d365fin_md.md)], har du dessutom några tillägg installerade. Med tiden kommer fler tillägg att göras tillgängliga till dig, och du kan då välja om du vill använda tillägg eller inte.
+# <a name="customizing-dynamics-365-for-financials-using-extensions"></a><span data-ttu-id="6de07-103">Anpassa din Dynamics 365 for Financials med tillägg</span><span class="sxs-lookup"><span data-stu-id="6de07-103">Customizing Dynamics 365 for Financials Using Extensions</span></span>
+<span data-ttu-id="6de07-104">Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.</span><span class="sxs-lookup"><span data-stu-id="6de07-104">You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.</span></span>
+<span data-ttu-id="6de07-105">När du först startar först [!INCLUDE[d365fin](includes/d365fin_md.md)], har du dessutom några tillägg installerade.</span><span class="sxs-lookup"><span data-stu-id="6de07-105">When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you.</span></span> <span data-ttu-id="6de07-106">Med tiden kommer fler tillägg att göras tillgängliga till dig, och du kan då välja om du vill använda tillägg eller inte.</span><span class="sxs-lookup"><span data-stu-id="6de07-106">Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.</span></span>
 
-Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard. Detta tillägg instalelras dessutom som standard.
-Men om ett annat tillägg är tillgängligt som erbjuder integrering med en annan utbetalningtjänst, kan du installera det nya tillägget och sedan välja vilka av de två tjänsterna som ska användas.  
+<span data-ttu-id="6de07-107">Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard.</span><span class="sxs-lookup"><span data-stu-id="6de07-107">For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.</span></span> <span data-ttu-id="6de07-108">Detta tillägg instalelras dessutom som standard.</span><span class="sxs-lookup"><span data-stu-id="6de07-108">This extension is installed by default.</span></span>
+<span data-ttu-id="6de07-109">Men om ett annat tillägg är tillgängligt som erbjuder integrering med en annan utbetalningtjänst, kan du installera det nya tillägget och sedan välja vilka av de två tjänsterna som ska användas.</span><span class="sxs-lookup"><span data-stu-id="6de07-109">But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.</span></span>  
 
-Du hanterar tilläggen i fönstret **Tilläggshantering**. Du kan öppna det här fönstret från startsidan. I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten") i det övre högra hörnet anger du **Underhåll, nästa service**, och välj sedan relaterad länk.  
-
-> [!NOTE]  
->   Om du tror att du borde ha åtkomst till ett tillägg, men dess funktioner inte går att hitta kontrollerar du fönstret **tilläggshantering** om tillägget inte finns, kan du installera det enligt vad som beskrivs i följande avsnitt.  
-
-## <a name="installing-an-extension"></a>Installerar tillägg
-Du kan skapa nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Här kan du se alla tillgängliga tillägg för [!INCLUDE[d365fin](includes/d365fin_md.md)], och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-> [!NOTE]  
->   Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av e-postkonto som du använder för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
-
-Du kan också komma till marknadsplatsen från [!INCLUDE[d365fin](includes/d365fin_md.md)]. I fönstret **Tilläggshantering** kan du se tilläggen som installeras för närvarande, och du kan öppna sidan **tilläggmarknadsplatsen** som visar tilläggen för [!INCLUDE[d365fin](includes/d365fin_md.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
-
-Om du väljer ett tillägg kan du läsa om vad tillägget används till och du kan få mer information om tillägget. När du väljer att få ett tillägg, måste du godkänna användningsvillkoret. Om du får tillägget från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[d365fin](includes/d365fin_md.md)] för att slutföra installationen.  
-
-När du installerar tillägget kanske du behöver måste konfigurera det, till exempel ange ett konto för användning med tillägget **PayPal-standardbetalning för [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
-Andra tillägg lägger bara till i fält på en befintlig sida, eller lägger till en ny sida, till exempel.   
-
-Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det på nytt. När du avinstallerar tillägg som du har använt, bevaras data så att de är tillgängliga om du installerar tillägget igen.  
-
-Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företag](ui-extensions-other.md). Alla tillägg testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om tillägget innan du väljer att installera det.  
-
-Microsoft ger även följande tillägg:  
-
-* [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee bankfeeder](ui-extensions-yodlee-bank-feeds.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
-* [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)  
-* [Ceridian löner](ui-extensions-ceridian-payroll.md)  
-* [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
-* [QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md)
-* [Revisorsportal](ui-extensions-accountant-portal.md)  
-* [Image Analyzer](ui-extensions-image-analyzer.md)
+<span data-ttu-id="6de07-110">Du hanterar tilläggen i fönstret **Tilläggshantering**.</span><span class="sxs-lookup"><span data-stu-id="6de07-110">You manage the extensions in the **Extension Management** window.</span></span> <span data-ttu-id="6de07-111">Du kan öppna det här fönstret från startsidan.</span><span class="sxs-lookup"><span data-stu-id="6de07-111">You can access this window from Home.</span></span> <span data-ttu-id="6de07-112">I det övre högra hörnet väljer du ikonen **Sök efter sidan eller rapporten** ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten") i det övre högra hörnet anger du **Underhåll, nästa service**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="6de07-112">Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.</span></span>  
 
 > [!NOTE]  
->  Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering. Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
+>   <span data-ttu-id="6de07-113">Om du tror att du borde ha åtkomst till ett tillägg, men dess funktioner inte går att hitta kontrollerar du fönstret **tilläggshantering** om tillägget inte finns, kan du installera det enligt vad som beskrivs i följande avsnitt.</span><span class="sxs-lookup"><span data-stu-id="6de07-113">If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.</span></span>  
 
-## <a name="see-also"></a>Se även
-[Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder](bank-how-setup-bank-statement-service.md)  
-[Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md)  
-[Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
-[Ställ in tillägget GetAddress.io för postnummer i Storbritannien](uk-setup-postal-code-service.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg från andra leverantörer](ui-extensions-other.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+## <a name="installing-an-extension"></a><span data-ttu-id="6de07-114">Installerar tillägg</span><span class="sxs-lookup"><span data-stu-id="6de07-114">Installing an Extension</span></span>
+<span data-ttu-id="6de07-115">Du kan skapa nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="6de07-115">You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span> <span data-ttu-id="6de07-116">Här kan du se alla tillgängliga tillägg för [!INCLUDE[d365fin](includes/d365fin_md.md)], och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter.</span><span class="sxs-lookup"><span data-stu-id="6de07-116">Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products.</span></span> <span data-ttu-id="6de07-117">Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6de07-117">Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+> [!NOTE]  
+>   <span data-ttu-id="6de07-118">Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av e-postkonto som du använder för [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6de07-118">Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="6de07-119">Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.</span><span class="sxs-lookup"><span data-stu-id="6de07-119">Use the same email account for other services and products for a smooth experience.</span></span>  
+
+<span data-ttu-id="6de07-120">Du kan också komma till marknadsplatsen från [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6de07-120">You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="6de07-121">I fönstret **Tilläggshantering** kan du se tilläggen som installeras för närvarande, och du kan öppna sidan **tilläggmarknadsplatsen** som visar tilläggen för [!INCLUDE[d365fin](includes/d365fin_md.md)] som för närvarande finns tillgängliga i AppSource.</span><span class="sxs-lookup"><span data-stu-id="6de07-121">In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource.</span></span> <span data-ttu-id="6de07-122">Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="6de07-122">If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>  
+
+<span data-ttu-id="6de07-123">Om du väljer ett tillägg kan du läsa om vad tillägget används till och du kan få mer information om tillägget.</span><span class="sxs-lookup"><span data-stu-id="6de07-123">If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more.</span></span> <span data-ttu-id="6de07-124">När du väljer att få ett tillägg, måste du godkänna användningsvillkoret.</span><span class="sxs-lookup"><span data-stu-id="6de07-124">When you choose to get an extension, you must agree to the terms of use.</span></span> <span data-ttu-id="6de07-125">Om du får tillägget från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[d365fin](includes/d365fin_md.md)] för att slutföra installationen.</span><span class="sxs-lookup"><span data-stu-id="6de07-125">If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.</span></span>  
+
+<span data-ttu-id="6de07-126">När du installerar tillägget kanske du behöver måste konfigurera det, till exempel ange ett konto för användning med tillägget **PayPal-standardbetalning för [!INCLUDE[d365fin](includes/d365fin_md.md)]**.</span><span class="sxs-lookup"><span data-stu-id="6de07-126">When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.</span></span>
+<span data-ttu-id="6de07-127">Andra tillägg lägger bara till i fält på en befintlig sida, eller lägger till en ny sida, till exempel.</span><span class="sxs-lookup"><span data-stu-id="6de07-127">Other extensions simply add fields to an existing page, or they add a new page, for example.</span></span>   
+
+<span data-ttu-id="6de07-128">Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det på nytt.</span><span class="sxs-lookup"><span data-stu-id="6de07-128">If you uninstall an extension, and you then change your mind, you can install it again.</span></span> <span data-ttu-id="6de07-129">När du avinstallerar tillägg som du har använt, bevaras data så att de är tillgängliga om du installerar tillägget igen.</span><span class="sxs-lookup"><span data-stu-id="6de07-129">When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.</span></span>  
+
+<span data-ttu-id="6de07-130">Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företag](ui-extensions-other.md).</span><span class="sxs-lookup"><span data-stu-id="6de07-130">Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md).</span></span> <span data-ttu-id="6de07-131">Alla tillägg testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om tillägget innan du väljer att installera det.</span><span class="sxs-lookup"><span data-stu-id="6de07-131">All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.</span></span>  
+
+<span data-ttu-id="6de07-132">Microsoft ger även följande tillägg:</span><span class="sxs-lookup"><span data-stu-id="6de07-132">Microsoft provides the following extensions:</span></span>  
+
+* [<span data-ttu-id="6de07-133">Dynamics GP Datamigrering</span><span class="sxs-lookup"><span data-stu-id="6de07-133">Dynamics GP Data Migration</span></span>](ui-extensions-dynamicsgp-data-migration.md)  
+* [<span data-ttu-id="6de07-134">Envestnet Yodlee bankfeeder</span><span class="sxs-lookup"><span data-stu-id="6de07-134">Envestnet Yodlee Bank Feeds</span></span>](ui-extensions-yodlee-bank-feeds.md)  
+* [<span data-ttu-id="6de07-135">PayPal Payments Standard</span><span class="sxs-lookup"><span data-stu-id="6de07-135">PayPal Payments Standard</span></span>](ui-extensions-paypal-payments-standard.md)  
+* [<span data-ttu-id="6de07-136">QuickBooks datamigrering</span><span class="sxs-lookup"><span data-stu-id="6de07-136">QuickBooks Data Migration</span></span>](ui-extensions-quickbooks-data-migration.md)  
+* [<span data-ttu-id="6de07-137">Försäljnings- och lagerprognos</span><span class="sxs-lookup"><span data-stu-id="6de07-137">Sales and Inventory Forecast</span></span>](ui-extensions-sales-forecast.md)  
+* [<span data-ttu-id="6de07-138">Ceridian löner</span><span class="sxs-lookup"><span data-stu-id="6de07-138">Ceridian Payroll</span></span>](ui-extensions-ceridian-payroll.md)  
+* [<span data-ttu-id="6de07-139">Importera QuickBooks-lönefil</span><span class="sxs-lookup"><span data-stu-id="6de07-139">Quickbooks Payroll File Import</span></span>](ui-extensions-quickbooks-payroll.md)  
+* [<span data-ttu-id="6de07-140">WorldPay Payments Standard</span><span class="sxs-lookup"><span data-stu-id="6de07-140">WorldPay Payments Standard</span></span>](ui-extensions-worldpay-payments-standard.md)
+* [<span data-ttu-id="6de07-141">GetAddress.io UK Postcodes</span><span class="sxs-lookup"><span data-stu-id="6de07-141">GetAddress.io UK Postcodes</span></span>](ui-extensions-getaddressio.md)
+* [<span data-ttu-id="6de07-142">QuickBooks Online datamigrering</span><span class="sxs-lookup"><span data-stu-id="6de07-142">QuickBooks Online Data Migration</span></span>](ui-extensions-quickbooks-online-data-migration.md)
+* [<span data-ttu-id="6de07-143">Revisorsportal</span><span class="sxs-lookup"><span data-stu-id="6de07-143">Accountant Portal</span></span>](ui-extensions-accountant-portal.md)  
+* [<span data-ttu-id="6de07-144">Image Analyzer</span><span class="sxs-lookup"><span data-stu-id="6de07-144">Image Analyzer</span></span>](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  <span data-ttu-id="6de07-145">Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering.</span><span class="sxs-lookup"><span data-stu-id="6de07-145">New extensions are not available in AppSource immediately after we announce an update.</span></span> <span data-ttu-id="6de07-146">Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="6de07-146">You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="6de07-147">Se även</span><span class="sxs-lookup"><span data-stu-id="6de07-147">See Also</span></span>
+[<span data-ttu-id="6de07-148">Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder</span><span class="sxs-lookup"><span data-stu-id="6de07-148">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md)  
+[<span data-ttu-id="6de07-149">Så här aktiverar du kundutbetalning via PayPal</span><span class="sxs-lookup"><span data-stu-id="6de07-149">How to: Enable Customer Payment Through PayPal</span></span>](sales-how-enable-payment-service-extensions.md)  
+[<span data-ttu-id="6de07-150">Migrera verksamhetsdata från andra finanssystem</span><span class="sxs-lookup"><span data-stu-id="6de07-150">Migrate Business Data from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="6de07-151">Ställ in tillägget GetAddress.io för postnummer i Storbritannien</span><span class="sxs-lookup"><span data-stu-id="6de07-151">Set up the GetAddress.io UK Postal Code extension</span></span>](uk-setup-postal-code-service.md)  
+<span data-ttu-id="6de07-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg från andra leverantörer](ui-extensions-other.md)</span><span class="sxs-lookup"><span data-stu-id="6de07-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)</span></span>  
+<span data-ttu-id="6de07-153">[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="6de07-153">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -16,87 +16,86 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Så här övervakar du projektets framsteg och resultat
-Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig. Mer information finns i [Förstå PIA-metoder](projects-understanding-wip.md).
+# <a name="how-to-monitor-job-progress-and-performance"></a><span data-ttu-id="7975e-102">Så här övervakar du projektets framsteg och resultat</span><span class="sxs-lookup"><span data-stu-id="7975e-102">How to: Monitor Job Progress and Performance</span></span>
+<span data-ttu-id="7975e-103">Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet.</span><span class="sxs-lookup"><span data-stu-id="7975e-103">As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job.</span></span> <span data-ttu-id="7975e-104">Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår.</span><span class="sxs-lookup"><span data-stu-id="7975e-104">Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing.</span></span> <span data-ttu-id="7975e-105">I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet.</span><span class="sxs-lookup"><span data-stu-id="7975e-105">In many cases, you might post expenses for a job before invoicing a job.</span></span> <span data-ttu-id="7975e-106">Om endast kostnader bokförts blir er finansiella rapport oriktig.</span><span class="sxs-lookup"><span data-stu-id="7975e-106">When only expenses have been posted, your financial statement will be inaccurate.</span></span> <span data-ttu-id="7975e-107">Mer information finns i [Förstå PIA-metoder](projects-understanding-wip.md).</span><span class="sxs-lookup"><span data-stu-id="7975e-107">For more information, see [Understanding WIP Methods](projects-understanding-wip.md).</span></span>
 
-Om du vill hålla reda på värdet i redovisningen kan du beräkna PIA (Produkter i arbete) och bokföra värdet i redovisningen.
+<span data-ttu-id="7975e-108">Om du vill hålla reda på värdet i redovisningen kan du beräkna PIA (Produkter i arbete) och bokföra värdet i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="7975e-108">To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.</span></span>
 
-Du kan beräkna PIA baserat på:
+<span data-ttu-id="7975e-109">Du kan beräkna PIA baserat på:</span><span class="sxs-lookup"><span data-stu-id="7975e-109">You can calculate WIP based on the following:</span></span>
 
-* Kostnadsvärde
-* Försäljningsvärde
-* Identifierbar kostnad
-* Färdigställningsgrad
-* Slutfört kontrakt
+* <span data-ttu-id="7975e-110">Kostnadsvärde</span><span class="sxs-lookup"><span data-stu-id="7975e-110">Cost Value</span></span>
+* <span data-ttu-id="7975e-111">Försäljningsvärde</span><span class="sxs-lookup"><span data-stu-id="7975e-111">Sales Value</span></span>
+* <span data-ttu-id="7975e-112">Identifierbar kostnad</span><span class="sxs-lookup"><span data-stu-id="7975e-112">Recognizable Cost</span></span>
+* <span data-ttu-id="7975e-113">Färdigställningsgrad</span><span class="sxs-lookup"><span data-stu-id="7975e-113">Percentage of Completion</span></span>
+* <span data-ttu-id="7975e-114">Slutfört kontrakt</span><span class="sxs-lookup"><span data-stu-id="7975e-114">Completed Contract</span></span>
 
-Om du vill visa resultatet med någon annan metod ändrar du metoden och beräknar om PIA. Det finns ingen gräns för hur många gånger du kan beräkna PIA. PIA beräknas bara, det bokförs inte i redovisningen. När du har beräknat PIA kan du bokföra det i redovisningen.
+<span data-ttu-id="7975e-115">Om du vill visa resultatet med någon annan metod ändrar du metoden och beräknar om PIA.</span><span class="sxs-lookup"><span data-stu-id="7975e-115">If you want to view the result using a different method, you can change the method and calculate WIP again.</span></span> <span data-ttu-id="7975e-116">Det finns ingen gräns för hur många gånger du kan beräkna PIA.</span><span class="sxs-lookup"><span data-stu-id="7975e-116">There is no limit to the number of times that you calculate WIP.</span></span> <span data-ttu-id="7975e-117">PIA beräknas bara, det bokförs inte i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="7975e-117">WIP is only calculated, it does not get posted to the general ledger.</span></span> <span data-ttu-id="7975e-118">När du har beräknat PIA kan du bokföra det i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="7975e-118">After you have calculated WIP, you can post to the general ledger.</span></span>
 
-## <a name="to-create-a-job-wip-method"></a>Så här kan du skapa en PIA-metod för projektet
-Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen. När du har skapat detta kan du ange vilken PIA-beräkningsmetod som ska användas som standard i organisationen.  
+## <a name="to-create-a-job-wip-method"></a><span data-ttu-id="7975e-119">Så här kan du skapa en PIA-metod för projektet</span><span class="sxs-lookup"><span data-stu-id="7975e-119">To create a job WIP method</span></span>
+<span data-ttu-id="7975e-120">Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen.</span><span class="sxs-lookup"><span data-stu-id="7975e-120">You can create a job WIP method that reflects the needs of your organization.</span></span> <span data-ttu-id="7975e-121">När du har skapat detta kan du ange vilken PIA-beräkningsmetod som ska användas som standard i organisationen.</span><span class="sxs-lookup"><span data-stu-id="7975e-121">After you have created it, you can set it as the default job WIP calculation method that will be used in your organization.</span></span>  
 
-**Obs**. När du har använt den nya metoden för att skapa PIA-transaktioner kan du inte ta bort metoden eller ändra den.  
+<span data-ttu-id="7975e-122">**Obs**.</span><span class="sxs-lookup"><span data-stu-id="7975e-122">**Note**.</span></span> <span data-ttu-id="7975e-123">När du har använt den nya metoden för att skapa PIA-transaktioner kan du inte ta bort metoden eller ändra den.</span><span class="sxs-lookup"><span data-stu-id="7975e-123">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Stäng fönstret.   
-4. Om du vill ange den nya metoden som standard., välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Jobbinställningar** och välj sedan relaterad länk.  
-5. I fältet **Standard-PIA-metod** väljer du metoden i listan.
+1. <span data-ttu-id="7975e-124">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7975e-125">Välj åtgärden **Ny** och fyll sedan i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="7975e-125">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="7975e-126">Stäng fönstret.</span><span class="sxs-lookup"><span data-stu-id="7975e-126">Close the window.</span></span>   
+4. <span data-ttu-id="7975e-127">Om du vill ange den nya metoden som standard., välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Jobbinställningar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-127">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="7975e-128">I fältet **Standard-PIA-metod** väljer du metoden i listan.</span><span class="sxs-lookup"><span data-stu-id="7975e-128">In the **Default WIP Method** field, choose the method from the list.</span></span>
 
-## <a name="to-define-a-wip-method-for-a-job"></a>Så här definierar du en PIA-metod för ett projekt
-När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet som gäller. I vissa fall har metoden för PIA-redovisningstransaktioner för projekt, som du kan använda, ställts in för dig som standard.
+## <a name="to-define-a-wip-method-for-a-job"></a><span data-ttu-id="7975e-129">Så här definierar du en PIA-metod för ett projekt</span><span class="sxs-lookup"><span data-stu-id="7975e-129">To define a WIP method for a job</span></span>
+<span data-ttu-id="7975e-130">När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet som gäller.</span><span class="sxs-lookup"><span data-stu-id="7975e-130">When you create a new job, you must specify which job WIP method that applies.</span></span> <span data-ttu-id="7975e-131">I vissa fall har metoden för PIA-redovisningstransaktioner för projekt, som du kan använda, ställts in för dig som standard.</span><span class="sxs-lookup"><span data-stu-id="7975e-131">In some cases, which Job WIP method that you can use has been set up for you as a default.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**. Mer information finns i [Så här skapar du Projekt](projects-how-create-jobs.md).  
-3. I fönstret **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan. Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.  
+1. <span data-ttu-id="7975e-132">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="7975e-133">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="7975e-133">Choose the **New** action.</span></span> <span data-ttu-id="7975e-134">Mer information finns i [Så här skapar du Projekt](projects-how-create-jobs.md).</span><span class="sxs-lookup"><span data-stu-id="7975e-134">For more information, see [How to: Create Jobs](projects-how-create-jobs.md).</span></span>  
+3. <span data-ttu-id="7975e-135">I fönstret **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan.</span><span class="sxs-lookup"><span data-stu-id="7975e-135">In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list.</span></span> <span data-ttu-id="7975e-136">Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.</span><span class="sxs-lookup"><span data-stu-id="7975e-136">If a default method has been defined, you can select another option if needed.</span></span>  
 
-## <a name="to-calculate-wip"></a>Så här beräknar du PIA
-Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för periodslutsrapporteringen. Du kan använda batch-jobbet **Projekt - Beräkna PIA** om du vill göra detta.  
+## <a name="to-calculate-wip"></a><span data-ttu-id="7975e-137">Så här beräknar du PIA</span><span class="sxs-lookup"><span data-stu-id="7975e-137">To calculate WIP</span></span>
+<span data-ttu-id="7975e-138">Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för periodslutsrapporteringen.</span><span class="sxs-lookup"><span data-stu-id="7975e-138">You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="7975e-139">Du kan använda batch-jobbet **Projekt - Beräkna PIA** om du vill göra detta.</span><span class="sxs-lookup"><span data-stu-id="7975e-139">You use the **Job Calculate WIP** batch job to do this.</span></span>  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
-2. Välj åtgärden **Beräkna PIA**.
-3. I fönstret **Projekt - Beräkna PIA** fyller du i fälten efter behov.
-4. Välj **OK**.  
-
-> [!NOTE]  
->   Batch-jobbet beräknar bara PIA. Detta bokförs inte i Redovisning. Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA. Mer information finns i följande procedur:
-
-## <a name="to-post-wip"></a>Bokföra PIA
-När du har beräknat PIA kan du bokföra det på balansräkningskonton för rapportering vid periodens slut. Använd batch-jobbet **Projekt - Bokför PIA i redovisning** om du vill göra detta.
-
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
-2. I fönstret **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.  
-3. Välj **OK**.
-
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar
-Du kan visa projektförbrukningen fram till projektet avslutas i ett steg. Det gör du genom att använda batch-jobbet **Projekt - Beräkna återstående förbrukning** för alla aktiviteter fram till och med projektets slut.  
-
-Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt resultat och göra ändringar eller nya transaktioner efter behov. Du kanske till exempel har uppskattat att ett projekt kräver tio timmar, och fram till dagens datum har det tagit 15 timmar. Du kan lägga till dessa extra fem timmar på den befintliga journalraden eller skapa en ny journalrad om du vill rapportera dessa fem timmar som övertid, som är en annan arbetstyp. Rätt kostnad och pris beräknas, och du kan sedan bokföra detta i journalen.  
+1. <span data-ttu-id="7975e-140">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Calculate WIP**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7975e-141">Välj åtgärden **Beräkna PIA**.</span><span class="sxs-lookup"><span data-stu-id="7975e-141">Choose the **Calculate WIP** action.</span></span>
+3. <span data-ttu-id="7975e-142">I fönstret **Projekt - Beräkna PIA** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="7975e-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="7975e-143">Välj **OK**.</span><span class="sxs-lookup"><span data-stu-id="7975e-143">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
->   Artikeltransaktioner skapar artikeltransaktioner och minskar lagerkvantiteten. Batch-jobbet **Bokför lagerkostnad i redov.** överför kostnaden från lagret till redovisningen. Resurstransaktioner skapar resurstransaktioner.  
+>   <span data-ttu-id="7975e-144">Batch-jobbet beräknar bara PIA.</span><span class="sxs-lookup"><span data-stu-id="7975e-144">The batch job only calculates the WIP.</span></span> <span data-ttu-id="7975e-145">Detta bokförs inte i Redovisning.</span><span class="sxs-lookup"><span data-stu-id="7975e-145">It is not posted to the general ledger.</span></span> <span data-ttu-id="7975e-146">Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA.</span><span class="sxs-lookup"><span data-stu-id="7975e-146">To do so, you must run the **Post WIP to G/L** batch job when you have calculated the WIP.</span></span> <span data-ttu-id="7975e-147">Mer information finns i följande procedur:</span><span class="sxs-lookup"><span data-stu-id="7975e-147">For more information, see the following procedure.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
-2. Välj en relevant projektjournal och välj sedan åtgärden **Ber. återstående förbrukning**.  
-3. I fönstret **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.  
-4. Uppdatera journalen med eventuella ändringar som kan behövas.  
-5. Välj **Bokföra**.
+## <a name="to-post-wip"></a><span data-ttu-id="7975e-148">Bokföra PIA</span><span class="sxs-lookup"><span data-stu-id="7975e-148">To post WIP</span></span>
+<span data-ttu-id="7975e-149">När du har beräknat PIA kan du bokföra det på balansräkningskonton för rapportering vid periodens slut.</span><span class="sxs-lookup"><span data-stu-id="7975e-149">When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="7975e-150">Använd batch-jobbet **Projekt - Bokför PIA i redovisning** om du vill göra detta.</span><span class="sxs-lookup"><span data-stu-id="7975e-150">You use the **Job Post WIP to G/L** batch job to do this.</span></span>
 
-## <a name="to-view-job-ledger-entries"></a>Så här visar du projekttransaktioner
-Alla projektrelaterade transaktioner registreras i bokförda projektjournaler och numreras i ordningsföljd med start från nummer ett. I den bokförda projektjournalen kan du få en överblick över alla projekttransaktioner.    
+1. <span data-ttu-id="7975e-151">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Post WIP to G/L**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7975e-152">I fönstret **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="7975e-152">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="7975e-153">Välj **OK**.</span><span class="sxs-lookup"><span data-stu-id="7975e-153">Choose the **OK** button.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.
-2. Välj en relevant journal och välj sedan åtgärden **Projekttransaktioner**.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><span data-ttu-id="7975e-154">Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar</span><span class="sxs-lookup"><span data-stu-id="7975e-154">To view job usage estimates and post updates</span></span>
+<span data-ttu-id="7975e-155">Du kan visa projektförbrukningen fram till projektet avslutas i ett steg.</span><span class="sxs-lookup"><span data-stu-id="7975e-155">You can view job usage up to the completion of a project in one step.</span></span> <span data-ttu-id="7975e-156">Det gör du genom att använda batch-jobbet **Projekt - Beräkna återstående förbrukning** för alla aktiviteter fram till och med projektets slut.</span><span class="sxs-lookup"><span data-stu-id="7975e-156">To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.</span></span>  
 
-I fönstret **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
+<span data-ttu-id="7975e-157">Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt resultat och göra ändringar eller nya transaktioner efter behov.</span><span class="sxs-lookup"><span data-stu-id="7975e-157">This lets you track and compare your original estimates against actual results and make modifications or new entries as needed.</span></span> <span data-ttu-id="7975e-158">Du kanske till exempel har uppskattat att ett projekt kräver tio timmar, och fram till dagens datum har det tagit 15 timmar.</span><span class="sxs-lookup"><span data-stu-id="7975e-158">For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours.</span></span> <span data-ttu-id="7975e-159">Du kan lägga till dessa extra fem timmar på den befintliga journalraden eller skapa en ny journalrad om du vill rapportera dessa fem timmar som övertid, som är en annan arbetstyp.</span><span class="sxs-lookup"><span data-stu-id="7975e-159">You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type.</span></span> <span data-ttu-id="7975e-160">Rätt kostnad och pris beräknas, och du kan sedan bokföra detta i journalen.</span><span class="sxs-lookup"><span data-stu-id="7975e-160">The appropriate cost and price are calculated, and you can then post to the journal.</span></span>  
 
-## <a name="see-also"></a>Se även
-[Hantera projekt](projects-manage-projects.md)  
-[Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+> [!NOTE]  
+>   <span data-ttu-id="7975e-161">Artikeltransaktioner skapar artikeltransaktioner och minskar lagerkvantiteten.</span><span class="sxs-lookup"><span data-stu-id="7975e-161">Item entries create item ledger entries and reduce the inventory quantity.</span></span> <span data-ttu-id="7975e-162">Batch-jobbet **Bokför lagerkostnad i redov.** överför kostnaden från lagret till redovisningen.</span><span class="sxs-lookup"><span data-stu-id="7975e-162">The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger.</span></span> <span data-ttu-id="7975e-163">Resurstransaktioner skapar resurstransaktioner.</span><span class="sxs-lookup"><span data-stu-id="7975e-163">Resource entries create resource ledger entries.</span></span>  
+
+1. <span data-ttu-id="7975e-164">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7975e-165">Välj en relevant projektjournal och välj sedan åtgärden **Ber. återstående förbrukning**.</span><span class="sxs-lookup"><span data-stu-id="7975e-165">Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.</span></span>  
+3. <span data-ttu-id="7975e-166">I fönstret **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="7975e-166">In the **Job Calc. Remaining Usage** window, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.</span></span>  
+4. <span data-ttu-id="7975e-167">Uppdatera journalen med eventuella ändringar som kan behövas.</span><span class="sxs-lookup"><span data-stu-id="7975e-167">Update the journal with any modifications that may be needed.</span></span>  
+5. <span data-ttu-id="7975e-168">Välj **Bokföra**.</span><span class="sxs-lookup"><span data-stu-id="7975e-168">Choose the **Post**.</span></span>
+
+## <a name="to-view-job-ledger-entries"></a><span data-ttu-id="7975e-169">Så här visar du projekttransaktioner</span><span class="sxs-lookup"><span data-stu-id="7975e-169">To view job ledger entries</span></span>
+<span data-ttu-id="7975e-170">Alla projektrelaterade transaktioner registreras i bokförda projektjournaler och numreras i ordningsföljd med start från nummer ett.</span><span class="sxs-lookup"><span data-stu-id="7975e-170">All job-related entries are recorded in job registers and are numbered sequentially, starting with 1.</span></span> <span data-ttu-id="7975e-171">I den bokförda projektjournalen kan du få en överblick över alla projekttransaktioner.</span><span class="sxs-lookup"><span data-stu-id="7975e-171">From the job register, you can get an overview of all job ledger entries.</span></span>    
+
+1. <span data-ttu-id="7975e-172">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7975e-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Registers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="7975e-173">Välj en relevant journal och välj sedan åtgärden **Projekttransaktioner**.</span><span class="sxs-lookup"><span data-stu-id="7975e-173">Select a relevant register, and then choose **Job Ledger** action.</span></span>
+
+<span data-ttu-id="7975e-174">I fönstret **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.</span><span class="sxs-lookup"><span data-stu-id="7975e-174">In the **Job Ledger Entries** window you can review the entries that are associated with any job.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="7975e-175">Se även</span><span class="sxs-lookup"><span data-stu-id="7975e-175">See Also</span></span>
+[<span data-ttu-id="7975e-176">Hantera projekt</span><span class="sxs-lookup"><span data-stu-id="7975e-176">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="7975e-177">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="7975e-177">Finance</span></span>](finance.md)  
+<span data-ttu-id="7975e-178">[Inköp](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="7975e-178">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="7975e-179">[Försäljning](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="7975e-179">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="7975e-180">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7975e-180">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

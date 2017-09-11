@@ -16,37 +16,36 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 146fc08f389a5c068044358c59b7d8911f0b3343
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-locations"></a>Så här skapar du lagerställen
-Om du köper, lagrar eller säljer artiklar på mer än en plats eller ett lager, måste du ställa in varje plats med ett lagerställeskort och definiera överföringsflöden.
+# <a name="how-to-set-up-locations"></a><span data-ttu-id="c0b57-103">Så här skapar du lagerställen</span><span class="sxs-lookup"><span data-stu-id="c0b57-103">How to: Set Up Locations</span></span>
+<span data-ttu-id="c0b57-104">Om du köper, lagrar eller säljer artiklar på mer än en plats eller ett lager, måste du ställa in varje plats med ett lagerställeskort och definiera överföringsflöden.</span><span class="sxs-lookup"><span data-stu-id="c0b57-104">If you buy, store, or sell items at more than one place or warehouse, you must set each location up with a location card and define transfer routes.</span></span>
 
-Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition per lagerställe och överföra lager mellan olika lagerställen. Mer information finns i [Administrera projekt](inventory-manage-inventory.md).
+<span data-ttu-id="c0b57-105">Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition per lagerställe och överföra lager mellan olika lagerställen.</span><span class="sxs-lookup"><span data-stu-id="c0b57-105">You can then create document lines for a specific location, view availability by location, and transfer inventory between locations.</span></span> <span data-ttu-id="c0b57-106">Mer information finns i [Administrera projekt](inventory-manage-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="c0b57-106">For more information, see [Manage Inventory](inventory-manage-inventory.md).</span></span>
 
 > [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+>   <span data-ttu-id="c0b57-107">Den här funktionen kräver att din upplevelse är inställd på **Paket**.</span><span class="sxs-lookup"><span data-stu-id="c0b57-107">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="c0b57-108">Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="c0b57-108">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-create-a-location-card"></a>Skapa ett nytt lagerställeskort
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**.
-3. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.
+## <a name="to-create-a-location-card"></a><span data-ttu-id="c0b57-109">Skapa ett nytt lagerställeskort</span><span class="sxs-lookup"><span data-stu-id="c0b57-109">To create a location card</span></span>
+1. <span data-ttu-id="c0b57-110">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="c0b57-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c0b57-111">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c0b57-111">Choose the **New** action.</span></span>
+3. <span data-ttu-id="c0b57-112">I fönstret **Lagerställeskort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="c0b57-112">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="c0b57-113">Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.</span><span class="sxs-lookup"><span data-stu-id="c0b57-113">Repeat steps 2 and 3 for every location where you want to keep inventory.</span></span>
 
-## <a name="to-create-a-transfer-route"></a>Så här skapar du ett överföringsflöde
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Överföringsflöden** och välj sedan relaterad länk.
-2. Alternativt kan du i fönstret **Lagerställekort** välja åtgärden **Överföringsflöden**.
-3. Välj åtgärden **Ny**.
-4. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-create-a-transfer-route"></a><span data-ttu-id="c0b57-114">Så här skapar du ett överföringsflöde</span><span class="sxs-lookup"><span data-stu-id="c0b57-114">To create a transfer route</span></span>
+1. <span data-ttu-id="c0b57-115">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Överföringsflöden** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="c0b57-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Routes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c0b57-116">Alternativt kan du i fönstret **Lagerställekort** välja åtgärden **Överföringsflöden**.</span><span class="sxs-lookup"><span data-stu-id="c0b57-116">Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.</span></span>
+3. <span data-ttu-id="c0b57-117">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c0b57-117">Choose the **New** action.</span></span>
+4. <span data-ttu-id="c0b57-118">I fönstret **Lagerställeskort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="c0b57-118">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Du kan nu överföra lagerartiklar mellan två lagerställen. Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).    
+<span data-ttu-id="c0b57-119">Du kan nu överföra lagerartiklar mellan två lagerställen.</span><span class="sxs-lookup"><span data-stu-id="c0b57-119">You can now transfer inventory items between two locations.</span></span> <span data-ttu-id="c0b57-120">Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).</span><span class="sxs-lookup"><span data-stu-id="c0b57-120">For more information, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).</span></span>    
 
-## <a name="see-also"></a>Se även
-[Hantera lager](inventory-manage-inventory.md)  
-[Logistik](madeira-supply-chain.md)  
-[Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)    
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
-[Allmänna affärsfunktioner](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="c0b57-121">Se även</span><span class="sxs-lookup"><span data-stu-id="c0b57-121">See Also</span></span>
+[<span data-ttu-id="c0b57-122">Hantera lager</span><span class="sxs-lookup"><span data-stu-id="c0b57-122">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="c0b57-123">Logistik</span><span class="sxs-lookup"><span data-stu-id="c0b57-123">Supply Chain</span></span>](madeira-supply-chain.md)  
+<span data-ttu-id="c0b57-124">[Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  </span><span class="sxs-lookup"><span data-stu-id="c0b57-124">[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  </span></span>  
+<span data-ttu-id="c0b57-125">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c0b57-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="c0b57-126">[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="c0b57-126">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>  
+[<span data-ttu-id="c0b57-127">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="c0b57-127">General Business Functionality</span></span>](ui-across-business-areas.md)
 

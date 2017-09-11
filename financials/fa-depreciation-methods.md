@@ -16,346 +16,346 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="depreciation-methods"></a>Avskrivningsmetoder
-Det finns åtta avskrivningsmetoder att tillgå:  
+# <a name="depreciation-methods"></a><span data-ttu-id="b2473-103">Avskrivningsmetoder</span><span class="sxs-lookup"><span data-stu-id="b2473-103">Depreciation Methods</span></span>
+<span data-ttu-id="b2473-104">Det finns åtta avskrivningsmetoder att tillgå:</span><span class="sxs-lookup"><span data-stu-id="b2473-104">There are eight methods of depreciation available:</span></span>  
 
-* Linjär  
-* Degressiv 1  
-* Degressiv 2  
-* DEG1/LIN  
-* DEG2/LIN  
-* Användardefinierad  
-* Manuell  
-
-  > [!NOTE]  
->   Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.  
-* Halvårspraxis  
+* <span data-ttu-id="b2473-105">Linjär</span><span class="sxs-lookup"><span data-stu-id="b2473-105">Straight-Line</span></span>  
+* <span data-ttu-id="b2473-106">Degressiv 1</span><span class="sxs-lookup"><span data-stu-id="b2473-106">Declining-Balance 1</span></span>  
+* <span data-ttu-id="b2473-107">Degressiv 2</span><span class="sxs-lookup"><span data-stu-id="b2473-107">Declining-Balance 2</span></span>  
+* <span data-ttu-id="b2473-108">DEG1/LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-108">DB1/SL</span></span>  
+* <span data-ttu-id="b2473-109">DEG2/LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-109">DB2/SL</span></span>  
+* <span data-ttu-id="b2473-110">Användardefinierad</span><span class="sxs-lookup"><span data-stu-id="b2473-110">User-defined</span></span>  
+* <span data-ttu-id="b2473-111">Manuell</span><span class="sxs-lookup"><span data-stu-id="b2473-111">Manual</span></span>  
 
   > [!NOTE]  
->    När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.  
+>   <span data-ttu-id="b2473-112">Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark.</span><span class="sxs-lookup"><span data-stu-id="b2473-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="b2473-113">Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar.</span><span class="sxs-lookup"><span data-stu-id="b2473-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="b2473-114">Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.</span><span class="sxs-lookup"><span data-stu-id="b2473-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+* <span data-ttu-id="b2473-115">Halvårspraxis</span><span class="sxs-lookup"><span data-stu-id="b2473-115">Half-Year Convention</span></span>  
 
-## <a name="straight-line-depreciation"></a>Linjär avskrivning
-När du använder den linjära metoden måste du ange ett av följande alternativ i avskrivningsregeln för anläggningstillgångar:  
+  > [!NOTE]  
+>    <span data-ttu-id="b2473-116">När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.</span><span class="sxs-lookup"><span data-stu-id="b2473-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
-* avskrivningsperiod (år eller månader) eller ett slutdatum för avskrivningen  
-* en fast årlig procentsats  
-* ett fast årligt belopp  
-* avskrivningsperiod  
+## <a name="straight-line-depreciation"></a><span data-ttu-id="b2473-117">Linjär avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-117">Straight-Line Depreciation</span></span>
+<span data-ttu-id="b2473-118">När du använder den linjära metoden måste du ange ett av följande alternativ i avskrivningsregeln för anläggningstillgångar:</span><span class="sxs-lookup"><span data-stu-id="b2473-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
 
-### <a name="depreciation-period"></a>Avskrivningsperiod
-Om du anger en avskrivningsperiod (antal avskrivningsår, antal avskrivningsmånader eller slutdatum för avskrivningen) används den här formeln vid beräkning av avskrivningsbeloppet:  
+* <span data-ttu-id="b2473-119">avskrivningsperiod (år eller månader) eller ett slutdatum för avskrivningen</span><span class="sxs-lookup"><span data-stu-id="b2473-119">The depreciation period (years or months) or a depreciation ending date</span></span>  
+* <span data-ttu-id="b2473-120">en fast årlig procentsats</span><span class="sxs-lookup"><span data-stu-id="b2473-120">A fixed yearly percentage</span></span>  
+* <span data-ttu-id="b2473-121">ett fast årligt belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-121">A fixed yearly amount</span></span>  
+* <span data-ttu-id="b2473-122">avskrivningsperiod</span><span class="sxs-lookup"><span data-stu-id="b2473-122">Depreciation period</span></span>  
 
-*Avskrivningsbelopp = ((Bokföringsvärde - Återanskaffningsvärde) × Antal avskrivningsdagar) / Återstående avskrivningsdagar*  
+### <a name="depreciation-period"></a><span data-ttu-id="b2473-123">Avskrivningsperiod</span><span class="sxs-lookup"><span data-stu-id="b2473-123">Depreciation Period</span></span>
+<span data-ttu-id="b2473-124">Om du anger en avskrivningsperiod (antal avskrivningsår, antal avskrivningsmånader eller slutdatum för avskrivningen) används den här formeln vid beräkning av avskrivningsbeloppet:</span><span class="sxs-lookup"><span data-stu-id="b2473-124">If you enter the depreciation period (the number of depreciation years, the number of depreciation months, or the depreciation ending date), the following formula calculates the depreciation amount:</span></span>  
 
-De återstående avskrivningsdagarna beräknas som antalet avskrivningsdagar minus antalet dagar mellan avskrivningens startdatum och den senaste anläggningstillgångstransaktionens datum.  
+<span data-ttu-id="b2473-125">*Avskrivningsbelopp = ((Bokföringsvärde - Återanskaffningsvärde) × Antal avskrivningsdagar) / Återstående avskrivningsdagar*</span><span class="sxs-lookup"><span data-stu-id="b2473-125">*Depreciation Amount = ((Book value - Salvage Value) x Number of Depreciation Days) / Remaining Depreciation Days*</span></span>  
 
-Bokföringsvärdet kan minskas genom bokförd uppskrivning, nedskrivning, val 1- eller val 2-belopp, om fältet **Ta med i avskrivningsberäkning** är inaktiverat och om fältet **Ingår i bokföringsvärde** är aktiverat i fönstret **Anl. inställning bokföring**. Genom den här beräkningen garanteras att anläggningstillgången helt är avskriven på slutdatum för avskrivningen.  
+<span data-ttu-id="b2473-126">De återstående avskrivningsdagarna beräknas som antalet avskrivningsdagar minus antalet dagar mellan avskrivningens startdatum och den senaste anläggningstillgångstransaktionens datum.</span><span class="sxs-lookup"><span data-stu-id="b2473-126">Remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.</span></span>  
 
-### <a name="fixed-yearly-percentage"></a>Fast årlig procentsats
-Om du anger en fast årlig procentsats används följande formel vid beräkning av avskrivningsbeloppet:  
+<span data-ttu-id="b2473-127">Bokföringsvärdet kan minskas genom bokförd uppskrivning, nedskrivning, val 1- eller val 2-belopp, om fältet **Ta med i avskrivningsberäkning** är inaktiverat och om fältet **Ingår i bokföringsvärde** är aktiverat i fönstret **Anl. inställning bokföring**.</span><span class="sxs-lookup"><span data-stu-id="b2473-127">Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated in the **FA Posting Type Setup** window.</span></span> <span data-ttu-id="b2473-128">Genom den här beräkningen garanteras att anläggningstillgången helt är avskriven på slutdatum för avskrivningen.</span><span class="sxs-lookup"><span data-stu-id="b2473-128">This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.</span></span>  
 
-Avskrivningsbelopp = (Linjär % × Avskrivningsbas × Antal avskr.dagar ) / (100 x 360)  
+### <a name="fixed-yearly-percentage"></a><span data-ttu-id="b2473-129">Fast årlig procentsats</span><span class="sxs-lookup"><span data-stu-id="b2473-129">Fixed Yearly Percentage</span></span>
+<span data-ttu-id="b2473-130">Om du anger en fast årlig procentsats används följande formel vid beräkning av avskrivningsbeloppet:</span><span class="sxs-lookup"><span data-stu-id="b2473-130">If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:</span></span>  
 
-### <a name="fixed-yearly-amount"></a>Fast årligt belopp
-Om du anger ett fast årligt belopp används följande formel vid beräkning av avskrivningsbeloppet:  
+<span data-ttu-id="b2473-131">Avskrivningsbelopp = (Linjär % × Avskrivningsbas × Antal avskr.dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-131">Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr.</span></span> <span data-ttu-id="b2473-132">) / (100 x 360)</span><span class="sxs-lookup"><span data-stu-id="b2473-132">Days) / (100 x 360)</span></span>  
 
-Avskrivningsbelopp = (Fast avskrivningsbelopp × Antal avskrivningsdagar) / 360  
+### <a name="fixed-yearly-amount"></a><span data-ttu-id="b2473-133">Fast årligt belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-133">Fixed Yearly Amount</span></span>
+<span data-ttu-id="b2473-134">Om du anger ett fast årligt belopp används följande formel vid beräkning av avskrivningsbeloppet:</span><span class="sxs-lookup"><span data-stu-id="b2473-134">If you enter a fixed yearly amount, the program uses this formula to calculate the depreciation amount:</span></span>  
 
-### <a name="example---straight-line-depreciation"></a>Exempel – linjär avskrivningsmetod
-Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Den beräknade livslängden är åtta år. Batch-jobbet **Beräkna avskrivning** körs två gånger per år.  
+<span data-ttu-id="b2473-135">Avskrivningsbelopp = (Fast avskrivningsbelopp × Antal avskrivningsdagar) / 360</span><span class="sxs-lookup"><span data-stu-id="b2473-135">Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360</span></span>  
 
-För detta exempel ser anläggningstillgångstransaktionen ut så här:  
+### <a name="example---straight-line-depreciation"></a><span data-ttu-id="b2473-136">Exempel – linjär avskrivningsmetod</span><span class="sxs-lookup"><span data-stu-id="b2473-136">Example - Straight-Line Depreciation</span></span>
+<span data-ttu-id="b2473-137">Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA.</span><span class="sxs-lookup"><span data-stu-id="b2473-137">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b2473-138">Den beräknade livslängden är åtta år.</span><span class="sxs-lookup"><span data-stu-id="b2473-138">The estimated life is eight years.</span></span> <span data-ttu-id="b2473-139">Batch-jobbet **Beräkna avskrivning** körs två gånger per år.</span><span class="sxs-lookup"><span data-stu-id="b2473-139">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+<span data-ttu-id="b2473-140">För detta exempel ser anläggningstillgångstransaktionen ut så här:</span><span class="sxs-lookup"><span data-stu-id="b2473-140">For this example, the fixed asset ledger entry looks like this:</span></span>  
+
+| <span data-ttu-id="b2473-141">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-141">Date</span></span> | <span data-ttu-id="b2473-142">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-142">FA Posting Type</span></span> | <span data-ttu-id="b2473-143">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-143">Days</span></span> | <span data-ttu-id="b2473-144">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-144">Amount</span></span> | <span data-ttu-id="b2473-145">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-145">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-01-01 |Anskaffningskostnad |* |100,000.00 |100,000.00 |
-| 10-06-30 |Avskrivning |180 |-6 250,00 |93,750.00 |
-| 10-12-31 |Avskrivning |180 |-6 250,00 |87,500.00 |
-| 11-06-30 |Avskrivning |180 |-6 250,00 |81,250.00 |
-| 11-12-31 |Avskrivning |180 |-6 250,00 |75,000.00 |
-| 17-06-30 |Avskrivning |180 |-6 250,00 |6,250.00 |
-| 17-12-31 |Avskrivning |180 |-6 250,00 |0 |
+| <span data-ttu-id="b2473-146">10-01-01</span><span class="sxs-lookup"><span data-stu-id="b2473-146">01/01/10</span></span> |<span data-ttu-id="b2473-147">Anskaffningskostnad</span><span class="sxs-lookup"><span data-stu-id="b2473-147">Acquisition Cost</span></span> |* |<span data-ttu-id="b2473-148">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-148">100,000.00</span></span> |<span data-ttu-id="b2473-149">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-149">100,000.00</span></span> |
+| <span data-ttu-id="b2473-150">10-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-150">06/30/10</span></span> |<span data-ttu-id="b2473-151">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-151">Depreciation</span></span> |<span data-ttu-id="b2473-152">180</span><span class="sxs-lookup"><span data-stu-id="b2473-152">180</span></span> |<span data-ttu-id="b2473-153">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-153">-6,250.00</span></span> |<span data-ttu-id="b2473-154">93,750.00</span><span class="sxs-lookup"><span data-stu-id="b2473-154">93,750.00</span></span> |
+| <span data-ttu-id="b2473-155">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-155">12/31/10</span></span> |<span data-ttu-id="b2473-156">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-156">Depreciation</span></span> |<span data-ttu-id="b2473-157">180</span><span class="sxs-lookup"><span data-stu-id="b2473-157">180</span></span> |<span data-ttu-id="b2473-158">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-158">-6,250.00</span></span> |<span data-ttu-id="b2473-159">87,500.00</span><span class="sxs-lookup"><span data-stu-id="b2473-159">87,500.00</span></span> |
+| <span data-ttu-id="b2473-160">11-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-160">06/30/11</span></span> |<span data-ttu-id="b2473-161">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-161">Depreciation</span></span> |<span data-ttu-id="b2473-162">180</span><span class="sxs-lookup"><span data-stu-id="b2473-162">180</span></span> |<span data-ttu-id="b2473-163">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-163">-6,250.00</span></span> |<span data-ttu-id="b2473-164">81,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-164">81,250.00</span></span> |
+| <span data-ttu-id="b2473-165">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-165">12/31/11</span></span> |<span data-ttu-id="b2473-166">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-166">Depreciation</span></span> |<span data-ttu-id="b2473-167">180</span><span class="sxs-lookup"><span data-stu-id="b2473-167">180</span></span> |<span data-ttu-id="b2473-168">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-168">-6,250.00</span></span> |<span data-ttu-id="b2473-169">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-169">75,000.00</span></span> |
+| <span data-ttu-id="b2473-170">17-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-170">06/30/17</span></span> |<span data-ttu-id="b2473-171">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-171">Depreciation</span></span> |<span data-ttu-id="b2473-172">180</span><span class="sxs-lookup"><span data-stu-id="b2473-172">180</span></span> |<span data-ttu-id="b2473-173">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-173">-6,250.00</span></span> |<span data-ttu-id="b2473-174">6,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-174">6,250.00</span></span> |
+| <span data-ttu-id="b2473-175">17-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-175">12/31/17</span></span> |<span data-ttu-id="b2473-176">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-176">Depreciation</span></span> |<span data-ttu-id="b2473-177">180</span><span class="sxs-lookup"><span data-stu-id="b2473-177">180</span></span> |<span data-ttu-id="b2473-178">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-178">-6,250.00</span></span> |<span data-ttu-id="b2473-179">0</span><span class="sxs-lookup"><span data-stu-id="b2473-179">0</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-180">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-180">Depreciation starting date</span></span>  
 
-## <a name="declining-balance-1-depreciation"></a>Degressiv 1, avskrivning
-Det här är en accelererande avskrivningsmetod som fördelar den största delen av kostnaden för en tillgång på de första åren av tillgångens livslängd. Om du använder den här metoden måste du ange en fast årlig procentsats.  
+## <a name="declining-balance-1-depreciation"></a><span data-ttu-id="b2473-181">Degressiv 1, avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-181">Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="b2473-182">Det här är en accelererande avskrivningsmetod som fördelar den största delen av kostnaden för en tillgång på de första åren av tillgångens livslängd.</span><span class="sxs-lookup"><span data-stu-id="b2473-182">This accelerated depreciation method allocates the largest portion of the cost of an asset to the early years of its useful lifetime.</span></span> <span data-ttu-id="b2473-183">Om du använder den här metoden måste du ange en fast årlig procentsats.</span><span class="sxs-lookup"><span data-stu-id="b2473-183">If you use this method, you must enter a fixed yearly percentage.</span></span>  
 
-Följande formel beräknar avskrivningsbelopp:  
+<span data-ttu-id="b2473-184">Följande formel beräknar avskrivningsbelopp:</span><span class="sxs-lookup"><span data-stu-id="b2473-184">The following formula calculates depreciation amounts:</span></span>  
 
-*Avskrivningsbelopp = (Degressiv % × Antal avskr.dagar × Avskrivningsbas) / (100 × 360)*  
+<span data-ttu-id="b2473-185">*Avskrivningsbelopp = (Degressiv % × Antal avskr.dagar × Avskrivningsbas) / (100 × 360)*</span><span class="sxs-lookup"><span data-stu-id="b2473-185">*Depreciation Amount = (Declining-Bal. % x Number of Depreciation Days x Depr. Basis) / (100 x 360)*</span></span>  
 
-Avskrivningsbasen beräknas som bokföringsvärdet för den lägsta bokförda avskrivningen sedan startdatumet för det aktuella räkenskapsåret.  
+<span data-ttu-id="b2473-186">Avskrivningsbasen beräknas som bokföringsvärdet för den lägsta bokförda avskrivningen sedan startdatumet för det aktuella räkenskapsåret.</span><span class="sxs-lookup"><span data-stu-id="b2473-186">The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.</span></span>  
 
-Det bokförda avskrivningsbeloppet kan innehålla transaktioner av olika bokföringstyper (nedskrivning, val 1 och val 2) som har bokförts efter startdatumet för det aktuella räkenskapsåret. De här bokföringstyperna inkluderas i det bokförda avskrivningsbeloppet om fälten **Avskrivningstyp** och **Ingår i bokföringsvärde** i fönstret **Anl. inställning bokföring**.  
+<span data-ttu-id="b2473-187">Det bokförda avskrivningsbeloppet kan innehålla transaktioner av olika bokföringstyper (nedskrivning, val 1 och val 2) som har bokförts efter startdatumet för det aktuella räkenskapsåret.</span><span class="sxs-lookup"><span data-stu-id="b2473-187">The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year.</span></span> <span data-ttu-id="b2473-188">De här bokföringstyperna inkluderas i det bokförda avskrivningsbeloppet om fälten **Avskrivningstyp** och **Ingår i bokföringsvärde** i fönstret **Anl. inställning bokföring**.</span><span class="sxs-lookup"><span data-stu-id="b2473-188">These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields in the **FA Posting Type Setup** window.</span></span>  
 
-### <a name="example---declining-balance-1-depreciation"></a>Exempel – Degressiv 1, avskrivning
-Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batch-jobbet **Beräkna avskrivning** körs två gånger per år.  
+### <a name="example---declining-balance-1-depreciation"></a><span data-ttu-id="b2473-189">Exempel – Degressiv 1, avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-189">Example - Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="b2473-190">Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA.</span><span class="sxs-lookup"><span data-stu-id="b2473-190">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b2473-191">Värdet i fältet **Degressiv %** är 25.</span><span class="sxs-lookup"><span data-stu-id="b2473-191">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="b2473-192">Batch-jobbet **Beräkna avskrivning** körs två gånger per år.</span><span class="sxs-lookup"><span data-stu-id="b2473-192">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Följande tabell visar hur anläggningstillgångstransaktionerna ser ut.  
+<span data-ttu-id="b2473-193">Följande tabell visar hur anläggningstillgångstransaktionerna ser ut.</span><span class="sxs-lookup"><span data-stu-id="b2473-193">The following table shows how the fixed asset ledger entries look.</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-194">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-194">Date</span></span> | <span data-ttu-id="b2473-195">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-195">FA Posting Type</span></span> | <span data-ttu-id="b2473-196">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-196">Days</span></span> | <span data-ttu-id="b2473-197">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-197">Amount</span></span> | <span data-ttu-id="b2473-198">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-198">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-01-01 |Anskaffningskostnader |* |100,000.00 |100,000.00 |
-| 10-06-30 |Avskrivning |180 |-12 500,00 |87,500.00 |
-| 10-12-31 |Avskrivning |180 |-12 500,00 |75,000.00 |
-| 11-06-30 |Avskrivning |180 |-9 375,00 |65,625.00 |
-| 11-12-31 |Avskrivning |180 |-9 375,00 |56,250.00 |
-| 12-06-30 |Avskrivning |180 |-7 031,25 |49,218.75 |
-| 12-12-31 |Avskrivning |180 |-7 031,25 |42,187.50 |
-| 13-06-30 |Avskrivning |180 |-5 273,44 |36,914.06 |
-| 13-12-31 |Avskrivning |180 |-5 273,44 |31,640.62 |
-| 14-06-30 |Avskrivning |180 |-3 955,08 |27,685.54 |
-| 14-12-31 |Avskrivning |180 |-3 955,08 |23,730.46 |
+| <span data-ttu-id="b2473-199">10-01-01</span><span class="sxs-lookup"><span data-stu-id="b2473-199">01/01/10</span></span> |<span data-ttu-id="b2473-200">Anskaffningskostnader</span><span class="sxs-lookup"><span data-stu-id="b2473-200">Acquisition Costs</span></span> |* |<span data-ttu-id="b2473-201">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-201">100,000.00</span></span> |<span data-ttu-id="b2473-202">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-202">100,000.00</span></span> |
+| <span data-ttu-id="b2473-203">10-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-203">06/30/10</span></span> |<span data-ttu-id="b2473-204">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-204">Depreciation</span></span> |<span data-ttu-id="b2473-205">180</span><span class="sxs-lookup"><span data-stu-id="b2473-205">180</span></span> |<span data-ttu-id="b2473-206">-12 500,00</span><span class="sxs-lookup"><span data-stu-id="b2473-206">-12,500.00</span></span> |<span data-ttu-id="b2473-207">87,500.00</span><span class="sxs-lookup"><span data-stu-id="b2473-207">87,500.00</span></span> |
+| <span data-ttu-id="b2473-208">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-208">12/31/10</span></span> |<span data-ttu-id="b2473-209">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-209">Depreciation</span></span> |<span data-ttu-id="b2473-210">180</span><span class="sxs-lookup"><span data-stu-id="b2473-210">180</span></span> |<span data-ttu-id="b2473-211">-12 500,00</span><span class="sxs-lookup"><span data-stu-id="b2473-211">-12,500.00</span></span> |<span data-ttu-id="b2473-212">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-212">75,000.00</span></span> |
+| <span data-ttu-id="b2473-213">11-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-213">06/30/11</span></span> |<span data-ttu-id="b2473-214">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-214">Depreciation</span></span> |<span data-ttu-id="b2473-215">180</span><span class="sxs-lookup"><span data-stu-id="b2473-215">180</span></span> |<span data-ttu-id="b2473-216">-9 375,00</span><span class="sxs-lookup"><span data-stu-id="b2473-216">-9,375.00</span></span> |<span data-ttu-id="b2473-217">65,625.00</span><span class="sxs-lookup"><span data-stu-id="b2473-217">65,625.00</span></span> |
+| <span data-ttu-id="b2473-218">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-218">12/31/11</span></span> |<span data-ttu-id="b2473-219">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-219">Depreciation</span></span> |<span data-ttu-id="b2473-220">180</span><span class="sxs-lookup"><span data-stu-id="b2473-220">180</span></span> |<span data-ttu-id="b2473-221">-9 375,00</span><span class="sxs-lookup"><span data-stu-id="b2473-221">-9,375.00</span></span> |<span data-ttu-id="b2473-222">56,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-222">56,250.00</span></span> |
+| <span data-ttu-id="b2473-223">12-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-223">06/30/12</span></span> |<span data-ttu-id="b2473-224">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-224">Depreciation</span></span> |<span data-ttu-id="b2473-225">180</span><span class="sxs-lookup"><span data-stu-id="b2473-225">180</span></span> |<span data-ttu-id="b2473-226">-7 031,25</span><span class="sxs-lookup"><span data-stu-id="b2473-226">-7,031.25</span></span> |<span data-ttu-id="b2473-227">49,218.75</span><span class="sxs-lookup"><span data-stu-id="b2473-227">49,218.75</span></span> |
+| <span data-ttu-id="b2473-228">12-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-228">12/31/12</span></span> |<span data-ttu-id="b2473-229">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-229">Depreciation</span></span> |<span data-ttu-id="b2473-230">180</span><span class="sxs-lookup"><span data-stu-id="b2473-230">180</span></span> |<span data-ttu-id="b2473-231">-7 031,25</span><span class="sxs-lookup"><span data-stu-id="b2473-231">-7,031.25</span></span> |<span data-ttu-id="b2473-232">42,187.50</span><span class="sxs-lookup"><span data-stu-id="b2473-232">42,187.50</span></span> |
+| <span data-ttu-id="b2473-233">13-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-233">06/30/13</span></span> |<span data-ttu-id="b2473-234">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-234">Depreciation</span></span> |<span data-ttu-id="b2473-235">180</span><span class="sxs-lookup"><span data-stu-id="b2473-235">180</span></span> |<span data-ttu-id="b2473-236">-5 273,44</span><span class="sxs-lookup"><span data-stu-id="b2473-236">-5,273.44</span></span> |<span data-ttu-id="b2473-237">36,914.06</span><span class="sxs-lookup"><span data-stu-id="b2473-237">36,914.06</span></span> |
+| <span data-ttu-id="b2473-238">13-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-238">12/31/13</span></span> |<span data-ttu-id="b2473-239">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-239">Depreciation</span></span> |<span data-ttu-id="b2473-240">180</span><span class="sxs-lookup"><span data-stu-id="b2473-240">180</span></span> |<span data-ttu-id="b2473-241">-5 273,44</span><span class="sxs-lookup"><span data-stu-id="b2473-241">-5,273.44</span></span> |<span data-ttu-id="b2473-242">31,640.62</span><span class="sxs-lookup"><span data-stu-id="b2473-242">31,640.62</span></span> |
+| <span data-ttu-id="b2473-243">14-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-243">06/30/14</span></span> |<span data-ttu-id="b2473-244">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-244">Depreciation</span></span> |<span data-ttu-id="b2473-245">180</span><span class="sxs-lookup"><span data-stu-id="b2473-245">180</span></span> |<span data-ttu-id="b2473-246">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-246">-3,955.08</span></span> |<span data-ttu-id="b2473-247">27,685.54</span><span class="sxs-lookup"><span data-stu-id="b2473-247">27,685.54</span></span> |
+| <span data-ttu-id="b2473-248">14-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-248">12/31/14</span></span> |<span data-ttu-id="b2473-249">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-249">Depreciation</span></span> |<span data-ttu-id="b2473-250">180</span><span class="sxs-lookup"><span data-stu-id="b2473-250">180</span></span> |<span data-ttu-id="b2473-251">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-251">-3,955.08</span></span> |<span data-ttu-id="b2473-252">23,730.46</span><span class="sxs-lookup"><span data-stu-id="b2473-252">23,730.46</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-253">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-253">Depreciation starting date</span></span>  
 
-    Beräkningsmetod:  
+    <span data-ttu-id="b2473-254">Beräkningsmetod:</span><span class="sxs-lookup"><span data-stu-id="b2473-254">Calculation Method:</span></span>  
 
-    *Första året: 25 % av 100 000 = 25 000 = 12 500 + 12 500*
+    <span data-ttu-id="b2473-255">*Första året: 25 % av 100 000 = 25 000 = 12 500 + 12 500*</span><span class="sxs-lookup"><span data-stu-id="b2473-255">*1st Year: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>
 
-    *Andra året: 25 % av 75 000 = 18 750 = 9 375 + 9 375*
+    <span data-ttu-id="b2473-256">*Andra året: 25 % av 75 000 = 18 750 = 9 375 + 9 375*</span><span class="sxs-lookup"><span data-stu-id="b2473-256">*2nd Year: 25% of 75,000 = 18,750 = 9,375 + 9,375*</span></span>
 
-    *Tredje året: 25 % av 56 250 = 14 062,50 = 7 031,25 + 7 031,25*
+    <span data-ttu-id="b2473-257">*Tredje året: 25 % av 56 250 = 14 062,50 = 7 031,25 + 7 031,25*</span><span class="sxs-lookup"><span data-stu-id="b2473-257">*3rd Year: 25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*</span></span>
 
-    Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.   
+    <span data-ttu-id="b2473-258">Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.</span><span class="sxs-lookup"><span data-stu-id="b2473-258">The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.</span></span>   
 
-## <a name="declining-balance-2-depreciation"></a>Degressiv 2, avskrivning
-Med metoderna Degressiv 1 och Degressiv 2 beräknas samma totala avskrivningsbelopp för varje år. Om du däremot vill köra batch-jobbet **Beräkna avskrivning** mer än en gång om året resulterar metoden Degressiv 1 i lika stora avskrivningsbelopp för varje avskrivningsperiod. Metoden Degressiv 2 resulterar däremot i avskrivningsbelopp som minskar för varje period.  
+## <a name="declining-balance-2-depreciation"></a><span data-ttu-id="b2473-259">Degressiv 2, avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-259">Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="b2473-260">Med metoderna Degressiv 1 och Degressiv 2 beräknas samma totala avskrivningsbelopp för varje år.</span><span class="sxs-lookup"><span data-stu-id="b2473-260">The Declining-Balance 1 and Declining-Balance 2 methods calculate the same total depreciation amount for each year.</span></span> <span data-ttu-id="b2473-261">Om du däremot vill köra batch-jobbet **Beräkna avskrivning** mer än en gång om året resulterar metoden Degressiv 1 i lika stora avskrivningsbelopp för varje avskrivningsperiod.</span><span class="sxs-lookup"><span data-stu-id="b2473-261">However, if you run the **Calculate Depreciation** batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period.</span></span> <span data-ttu-id="b2473-262">Metoden Degressiv 2 resulterar däremot i avskrivningsbelopp som minskar för varje period.</span><span class="sxs-lookup"><span data-stu-id="b2473-262">The Declining-Balance 2 method, on the other hand, will result in depreciation amounts that decline for each period.</span></span>  
 
-### <a name="example---declining-balance-2-depreciation"></a>Exempel – Degressiv 2, avskrivning
-Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batch-jobbet **Beräkna avskrivning** körs två gånger per år. Så här ser anläggningstillgångstransaktionerna ut:  
+### <a name="example---declining-balance-2-depreciation"></a><span data-ttu-id="b2473-263">Exempel – Degressiv 2, avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-263">Example - Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="b2473-264">Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA.</span><span class="sxs-lookup"><span data-stu-id="b2473-264">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b2473-265">Värdet i fältet **Degressiv %** är 25.</span><span class="sxs-lookup"><span data-stu-id="b2473-265">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="b2473-266">Batch-jobbet **Beräkna avskrivning** körs två gånger per år.</span><span class="sxs-lookup"><span data-stu-id="b2473-266">The **Calculate Depreciation** batch job is run biannually.</span></span> <span data-ttu-id="b2473-267">Så här ser anläggningstillgångstransaktionerna ut:</span><span class="sxs-lookup"><span data-stu-id="b2473-267">The fixed asset ledger entries look like this:</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-268">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-268">Date</span></span> | <span data-ttu-id="b2473-269">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-269">FA Posting Type</span></span> | <span data-ttu-id="b2473-270">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-270">Days</span></span> | <span data-ttu-id="b2473-271">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-271">Amount</span></span> | <span data-ttu-id="b2473-272">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-272">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-01-01 |Anskaffningskostnader |* |100,000.00 |100,000.00 |
-| 10-06-30 |Avskrivning |180 |–13 397,46 |86,602.54 |
-| 10-12-31 |Avskrivning |180 |–11 602,54 |75,000.00 |
-| 11-06-30 |Avskrivning |180 |–10 048,09 |64,951.91 |
-| 11-12-31 |Avskrivning |180 |–8 701,91 |56,250.00 |
+| <span data-ttu-id="b2473-273">10-01-01</span><span class="sxs-lookup"><span data-stu-id="b2473-273">01/01/10</span></span> |<span data-ttu-id="b2473-274">Anskaffningskostnader</span><span class="sxs-lookup"><span data-stu-id="b2473-274">Acquisition Costs</span></span> |* |<span data-ttu-id="b2473-275">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-275">100,000.00</span></span> |<span data-ttu-id="b2473-276">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-276">100,000.00</span></span> |
+| <span data-ttu-id="b2473-277">10-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-277">06/30/10</span></span> |<span data-ttu-id="b2473-278">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-278">Depreciation</span></span> |<span data-ttu-id="b2473-279">180</span><span class="sxs-lookup"><span data-stu-id="b2473-279">180</span></span> |<span data-ttu-id="b2473-280">–13 397,46</span><span class="sxs-lookup"><span data-stu-id="b2473-280">-13,397.46</span></span> |<span data-ttu-id="b2473-281">86,602.54</span><span class="sxs-lookup"><span data-stu-id="b2473-281">86,602.54</span></span> |
+| <span data-ttu-id="b2473-282">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-282">12/31/10</span></span> |<span data-ttu-id="b2473-283">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-283">Depreciation</span></span> |<span data-ttu-id="b2473-284">180</span><span class="sxs-lookup"><span data-stu-id="b2473-284">180</span></span> |<span data-ttu-id="b2473-285">–11 602,54</span><span class="sxs-lookup"><span data-stu-id="b2473-285">-11,602.54</span></span> |<span data-ttu-id="b2473-286">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-286">75,000.00</span></span> |
+| <span data-ttu-id="b2473-287">11-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-287">06/30/11</span></span> |<span data-ttu-id="b2473-288">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-288">Depreciation</span></span> |<span data-ttu-id="b2473-289">180</span><span class="sxs-lookup"><span data-stu-id="b2473-289">180</span></span> |<span data-ttu-id="b2473-290">–10 048,09</span><span class="sxs-lookup"><span data-stu-id="b2473-290">-10,048.09</span></span> |<span data-ttu-id="b2473-291">64,951.91</span><span class="sxs-lookup"><span data-stu-id="b2473-291">64,951.91</span></span> |
+| <span data-ttu-id="b2473-292">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-292">12/31/11</span></span> |<span data-ttu-id="b2473-293">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-293">Depreciation</span></span> |<span data-ttu-id="b2473-294">180</span><span class="sxs-lookup"><span data-stu-id="b2473-294">180</span></span> |<span data-ttu-id="b2473-295">–8 701,91</span><span class="sxs-lookup"><span data-stu-id="b2473-295">-8,701.91</span></span> |<span data-ttu-id="b2473-296">56,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-296">56,250.00</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-297">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-297">Depreciation starting date</span></span>  
 
-Beräkningsmetod:  
+<span data-ttu-id="b2473-298">Beräkningsmetod:</span><span class="sxs-lookup"><span data-stu-id="b2473-298">Calculation Method:</span></span>  
 
-* BV = Bokföringsvärde  
-* ND = Antal avskrivningsdagar  
-* DBP = Degressiv procent  
-* P = DBP/100  
-* D = ND/360  
+* <span data-ttu-id="b2473-299">BV = Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-299">BV = Book value</span></span>  
+* <span data-ttu-id="b2473-300">ND = Antal avskrivningsdagar</span><span class="sxs-lookup"><span data-stu-id="b2473-300">ND = Number of depreciation days</span></span>  
+* <span data-ttu-id="b2473-301">DBP = Degressiv procent</span><span class="sxs-lookup"><span data-stu-id="b2473-301">DBP = Declining-balance percent</span></span>  
+* <span data-ttu-id="b2473-302">P = DBP/100</span><span class="sxs-lookup"><span data-stu-id="b2473-302">P = DBP/100</span></span>  
+* <span data-ttu-id="b2473-303">D = ND/360</span><span class="sxs-lookup"><span data-stu-id="b2473-303">D = ND/360</span></span>  
 
-Beräkningsformeln för avskrivningsbelopp är:  
+<span data-ttu-id="b2473-304">Beräkningsformeln för avskrivningsbelopp är:</span><span class="sxs-lookup"><span data-stu-id="b2473-304">The formula for calculating the depreciation amounts is:</span></span>  
 
-*DA = BV x (1 – (1 –P)<sup>D<sup>*  
+<span data-ttu-id="b2473-305">*DA = BV x (1 – (1 –P)<sup>D<sup>*</span><span class="sxs-lookup"><span data-stu-id="b2473-305">*DA = BV x (1 – (1 –P)<sup>D<sup>*</span></span>  
 
-Avskrivningsvärdena är:  
+<span data-ttu-id="b2473-306">Avskrivningsvärdena är:</span><span class="sxs-lookup"><span data-stu-id="b2473-306">The depreciation values are:</span></span>  
 
-| Datum | Beräkning |
+| <span data-ttu-id="b2473-307">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-307">Date</span></span> | <span data-ttu-id="b2473-308">Beräkning</span><span class="sxs-lookup"><span data-stu-id="b2473-308">Calculation</span></span> |
 | --- | --- |
-| 10-06-30 |DA = 100 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 13 397,46 |
-| 10-12-31 |DA = 86 602,54 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 11 602,54 |
-| 11-06-30 |DA = 75 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 10 048,09 |
-| 11-12-31 |DA = 64 951,91 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 8 701,91 |
+| <span data-ttu-id="b2473-309">10-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-309">06/30/10</span></span> |<span data-ttu-id="b2473-310">DA = 100 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 13 397,46</span><span class="sxs-lookup"><span data-stu-id="b2473-310">DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46</span></span> |
+| <span data-ttu-id="b2473-311">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-311">12/31/10</span></span> |<span data-ttu-id="b2473-312">DA = 86 602,54 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 11 602,54</span><span class="sxs-lookup"><span data-stu-id="b2473-312">DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54</span></span> |
+| <span data-ttu-id="b2473-313">11-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-313">06/30/11</span></span> |<span data-ttu-id="b2473-314">DA = 75 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 10 048,09</span><span class="sxs-lookup"><span data-stu-id="b2473-314">DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09</span></span> |
+| <span data-ttu-id="b2473-315">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-315">12/31/11</span></span> |<span data-ttu-id="b2473-316">DA = 64 951,91 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 8 701,91</span><span class="sxs-lookup"><span data-stu-id="b2473-316">DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91</span></span> |
 
-## <a name="db1sl-depreciation"></a>DB1/SL Avskrivning
-DEG1/LIN är en förkortning av Degressiv 1 och Linjär. Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
+## <a name="db1sl-depreciation"></a><span data-ttu-id="b2473-317">DB1/SL Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-317">DB1/SL Depreciation</span></span>
+<span data-ttu-id="b2473-318">DEG1/LIN är en förkortning av Degressiv 1 och Linjär.</span><span class="sxs-lookup"><span data-stu-id="b2473-318">DB1/SL is an abbreviated combination of Declining-Balance 1 and Straight-Line.</span></span> <span data-ttu-id="b2473-319">Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.</span><span class="sxs-lookup"><span data-stu-id="b2473-319">The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.</span></span>  
 
-**Beräkna avskrivning** beräknar både ett linjärt belopp och ett degressivt belopp, men endast det större av beloppen förs över till journalen.  
+<span data-ttu-id="b2473-320">**Beräkna avskrivning** beräknar både ett linjärt belopp och ett degressivt belopp, men endast det större av beloppen förs över till journalen.</span><span class="sxs-lookup"><span data-stu-id="b2473-320">The **Calculate Depreciation** batch job calculates a straight-line amount and a declining balance amount, but only the greater of the two amounts is transferred to the journal.</span></span>  
 
-Du kan använda olika procentsatser för att beräkna degressiv.  
+<span data-ttu-id="b2473-321">Du kan använda olika procentsatser för att beräkna degressiv.</span><span class="sxs-lookup"><span data-stu-id="b2473-321">You can use various percentages to calculate declining-balance.</span></span>  
 
-Om du använder den här metoden måste du ange den beräknade livslängden och en degressiv procentsats i fönstret **Anl. avskrivningsregel**.  
+<span data-ttu-id="b2473-322">Om du använder den här metoden måste du ange den beräknade livslängden och en degressiv procentsats i fönstret **Anl. avskrivningsregel**.</span><span class="sxs-lookup"><span data-stu-id="b2473-322">If you use this method, you must enter the estimated useful lifetime and a declining balance percentage in the **FA Depreciation Books** window.</span></span>  
 
-### <a name="example---db1-sl-depreciation"></a>Exempel – DB1-SL-avskrivning
-Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet  **Degressiv %** i fönstret  **Anl.avskrivningsregel** är 25 och värdet i fältet  **Antal avskrivningsår** är 8. Batch-jobbet **Beräkna avskrivning** körs två gånger per år.  
+### <a name="example---db1-sl-depreciation"></a><span data-ttu-id="b2473-323">Exempel – DB1-SL-avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-323">Example - DB1-SL Depreciation</span></span>
+<span data-ttu-id="b2473-324">Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA.</span><span class="sxs-lookup"><span data-stu-id="b2473-324">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b2473-325">Värdet i fältet  **Degressiv %** i fönstret  **Anl.avskrivningsregel** är 25 och värdet i fältet  **Antal avskrivningsår** är 8.</span><span class="sxs-lookup"><span data-stu-id="b2473-325">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8.</span></span> <span data-ttu-id="b2473-326">Batch-jobbet **Beräkna avskrivning** körs två gånger per år.</span><span class="sxs-lookup"><span data-stu-id="b2473-326">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Så här ser anläggningstillgångstransaktionerna ut:  
+<span data-ttu-id="b2473-327">Så här ser anläggningstillgångstransaktionerna ut:</span><span class="sxs-lookup"><span data-stu-id="b2473-327">The fixed asset ledger entries look like this:</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-328">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-328">Date</span></span> | <span data-ttu-id="b2473-329">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-329">FA Posting Type</span></span> | <span data-ttu-id="b2473-330">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-330">Days</span></span> | <span data-ttu-id="b2473-331">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-331">Amount</span></span> | <span data-ttu-id="b2473-332">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-332">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-01-01 |Anskaffningskostnader |* |100,000.00 |100,000.00 |
-| 10-06-30 |Avskrivning |180 |-12 500,00 |87,500.00 |
-| 10-12-31 |Avskrivning |180 |-12 500,00 |75,000.00 |
-| 11-06-30 |Avskrivning |180 |-9 375,00 |65,625.00 |
-| 11-12-31 |Avskrivning |180 |-9 375,00 |56,250.00 |
-| 12-06-30 |Avskrivning |180 |-7 031,25 |49,218.75 |
-| 12-12-31 |Avskrivning |180 |-7 031,25 |42,187.50 |
-| 13-06-30 |Avskrivning |180 |-5 273,44 |36,914.06 |
-| 13-12-31 |Avskrivning |180 |-5 273,44 |31,640.62 |
-| 14-06-30 |Avskrivning |180 |-3 955,08 |27,685.54 |
-| 14-12-31 |Avskrivning |180 |-3 955,08 |23,730.46 |
-| 15-06-30 |Avskrivning |180 |-3 955,08 |19 775,38 LIN |
-| 15-12-31 |Avskrivning |180 |-3 955,08 |15 820,30 LIN |
-| 16-06-30 |Avskrivning |180 |-3 955,08 |11 865,22 LIN |
-| 16-12-31 |Avskrivning |180 |-3 955,07 |7 910,15 LIN |
-| 17-06-30 |Avskrivning |180 |-3 955,08 |3 955,07 LIN |
-| 17-12-31 |Avskrivning |180 |-3 955,07 |0,00 LIN |
+| <span data-ttu-id="b2473-333">10-01-01</span><span class="sxs-lookup"><span data-stu-id="b2473-333">01/01/10</span></span> |<span data-ttu-id="b2473-334">Anskaffningskostnader</span><span class="sxs-lookup"><span data-stu-id="b2473-334">Acquisition Costs</span></span> |* |<span data-ttu-id="b2473-335">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-335">100,000.00</span></span> |<span data-ttu-id="b2473-336">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-336">100,000.00</span></span> |
+| <span data-ttu-id="b2473-337">10-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-337">06/30/10</span></span> |<span data-ttu-id="b2473-338">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-338">Depreciation</span></span> |<span data-ttu-id="b2473-339">180</span><span class="sxs-lookup"><span data-stu-id="b2473-339">180</span></span> |<span data-ttu-id="b2473-340">-12 500,00</span><span class="sxs-lookup"><span data-stu-id="b2473-340">-12,500.00</span></span> |<span data-ttu-id="b2473-341">87,500.00</span><span class="sxs-lookup"><span data-stu-id="b2473-341">87,500.00</span></span> |
+| <span data-ttu-id="b2473-342">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-342">12/31/10</span></span> |<span data-ttu-id="b2473-343">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-343">Depreciation</span></span> |<span data-ttu-id="b2473-344">180</span><span class="sxs-lookup"><span data-stu-id="b2473-344">180</span></span> |<span data-ttu-id="b2473-345">-12 500,00</span><span class="sxs-lookup"><span data-stu-id="b2473-345">-12,500.00</span></span> |<span data-ttu-id="b2473-346">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-346">75,000.00</span></span> |
+| <span data-ttu-id="b2473-347">11-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-347">06/30/11</span></span> |<span data-ttu-id="b2473-348">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-348">Depreciation</span></span> |<span data-ttu-id="b2473-349">180</span><span class="sxs-lookup"><span data-stu-id="b2473-349">180</span></span> |<span data-ttu-id="b2473-350">-9 375,00</span><span class="sxs-lookup"><span data-stu-id="b2473-350">-9,375.00</span></span> |<span data-ttu-id="b2473-351">65,625.00</span><span class="sxs-lookup"><span data-stu-id="b2473-351">65,625.00</span></span> |
+| <span data-ttu-id="b2473-352">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-352">12/31/11</span></span> |<span data-ttu-id="b2473-353">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-353">Depreciation</span></span> |<span data-ttu-id="b2473-354">180</span><span class="sxs-lookup"><span data-stu-id="b2473-354">180</span></span> |<span data-ttu-id="b2473-355">-9 375,00</span><span class="sxs-lookup"><span data-stu-id="b2473-355">-9,375.00</span></span> |<span data-ttu-id="b2473-356">56,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-356">56,250.00</span></span> |
+| <span data-ttu-id="b2473-357">12-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-357">06/30/12</span></span> |<span data-ttu-id="b2473-358">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-358">Depreciation</span></span> |<span data-ttu-id="b2473-359">180</span><span class="sxs-lookup"><span data-stu-id="b2473-359">180</span></span> |<span data-ttu-id="b2473-360">-7 031,25</span><span class="sxs-lookup"><span data-stu-id="b2473-360">-7,031.25</span></span> |<span data-ttu-id="b2473-361">49,218.75</span><span class="sxs-lookup"><span data-stu-id="b2473-361">49,218.75</span></span> |
+| <span data-ttu-id="b2473-362">12-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-362">12/31/12</span></span> |<span data-ttu-id="b2473-363">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-363">Depreciation</span></span> |<span data-ttu-id="b2473-364">180</span><span class="sxs-lookup"><span data-stu-id="b2473-364">180</span></span> |<span data-ttu-id="b2473-365">-7 031,25</span><span class="sxs-lookup"><span data-stu-id="b2473-365">-7,031.25</span></span> |<span data-ttu-id="b2473-366">42,187.50</span><span class="sxs-lookup"><span data-stu-id="b2473-366">42,187.50</span></span> |
+| <span data-ttu-id="b2473-367">13-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-367">06/30/13</span></span> |<span data-ttu-id="b2473-368">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-368">Depreciation</span></span> |<span data-ttu-id="b2473-369">180</span><span class="sxs-lookup"><span data-stu-id="b2473-369">180</span></span> |<span data-ttu-id="b2473-370">-5 273,44</span><span class="sxs-lookup"><span data-stu-id="b2473-370">-5,273.44</span></span> |<span data-ttu-id="b2473-371">36,914.06</span><span class="sxs-lookup"><span data-stu-id="b2473-371">36,914.06</span></span> |
+| <span data-ttu-id="b2473-372">13-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-372">12/31/13</span></span> |<span data-ttu-id="b2473-373">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-373">Depreciation</span></span> |<span data-ttu-id="b2473-374">180</span><span class="sxs-lookup"><span data-stu-id="b2473-374">180</span></span> |<span data-ttu-id="b2473-375">-5 273,44</span><span class="sxs-lookup"><span data-stu-id="b2473-375">-5,273.44</span></span> |<span data-ttu-id="b2473-376">31,640.62</span><span class="sxs-lookup"><span data-stu-id="b2473-376">31,640.62</span></span> |
+| <span data-ttu-id="b2473-377">14-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-377">06/30/14</span></span> |<span data-ttu-id="b2473-378">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-378">Depreciation</span></span> |<span data-ttu-id="b2473-379">180</span><span class="sxs-lookup"><span data-stu-id="b2473-379">180</span></span> |<span data-ttu-id="b2473-380">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-380">-3,955.08</span></span> |<span data-ttu-id="b2473-381">27,685.54</span><span class="sxs-lookup"><span data-stu-id="b2473-381">27,685.54</span></span> |
+| <span data-ttu-id="b2473-382">14-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-382">12/31/14</span></span> |<span data-ttu-id="b2473-383">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-383">Depreciation</span></span> |<span data-ttu-id="b2473-384">180</span><span class="sxs-lookup"><span data-stu-id="b2473-384">180</span></span> |<span data-ttu-id="b2473-385">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-385">-3,955.08</span></span> |<span data-ttu-id="b2473-386">23,730.46</span><span class="sxs-lookup"><span data-stu-id="b2473-386">23,730.46</span></span> |
+| <span data-ttu-id="b2473-387">15-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-387">06/30/15</span></span> |<span data-ttu-id="b2473-388">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-388">Depreciation</span></span> |<span data-ttu-id="b2473-389">180</span><span class="sxs-lookup"><span data-stu-id="b2473-389">180</span></span> |<span data-ttu-id="b2473-390">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-390">-3,955.08</span></span> |<span data-ttu-id="b2473-391">19 775,38 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-391">19,775.38 SL</span></span> |
+| <span data-ttu-id="b2473-392">15-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-392">12/31/15</span></span> |<span data-ttu-id="b2473-393">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-393">Depreciation</span></span> |<span data-ttu-id="b2473-394">180</span><span class="sxs-lookup"><span data-stu-id="b2473-394">180</span></span> |<span data-ttu-id="b2473-395">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-395">-3,955.08</span></span> |<span data-ttu-id="b2473-396">15 820,30 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-396">15,820.30 SL</span></span> |
+| <span data-ttu-id="b2473-397">16-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-397">06/30/16</span></span> |<span data-ttu-id="b2473-398">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-398">Depreciation</span></span> |<span data-ttu-id="b2473-399">180</span><span class="sxs-lookup"><span data-stu-id="b2473-399">180</span></span> |<span data-ttu-id="b2473-400">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-400">-3,955.08</span></span> |<span data-ttu-id="b2473-401">11 865,22 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-401">11,865.22 SL</span></span> |
+| <span data-ttu-id="b2473-402">16-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-402">12/31/16</span></span> |<span data-ttu-id="b2473-403">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-403">Depreciation</span></span> |<span data-ttu-id="b2473-404">180</span><span class="sxs-lookup"><span data-stu-id="b2473-404">180</span></span> |<span data-ttu-id="b2473-405">-3 955,07</span><span class="sxs-lookup"><span data-stu-id="b2473-405">-3,955.07</span></span> |<span data-ttu-id="b2473-406">7 910,15 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-406">7,910.15 SL</span></span> |
+| <span data-ttu-id="b2473-407">17-06-30</span><span class="sxs-lookup"><span data-stu-id="b2473-407">06/30/17</span></span> |<span data-ttu-id="b2473-408">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-408">Depreciation</span></span> |<span data-ttu-id="b2473-409">180</span><span class="sxs-lookup"><span data-stu-id="b2473-409">180</span></span> |<span data-ttu-id="b2473-410">-3 955,08</span><span class="sxs-lookup"><span data-stu-id="b2473-410">-3,955.08</span></span> |<span data-ttu-id="b2473-411">3 955,07 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-411">3,955.07 SL</span></span> |
+| <span data-ttu-id="b2473-412">17-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-412">12/31/17</span></span> |<span data-ttu-id="b2473-413">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-413">Depreciation</span></span> |<span data-ttu-id="b2473-414">180</span><span class="sxs-lookup"><span data-stu-id="b2473-414">180</span></span> |<span data-ttu-id="b2473-415">-3 955,07</span><span class="sxs-lookup"><span data-stu-id="b2473-415">-3,955.07</span></span> |<span data-ttu-id="b2473-416">0,00 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-416">0.00 SL</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-417">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-417">Depreciation starting date</span></span>  
 
-"SL" efter bokföringsvärdet betyder att den linjära metoden har använts.  
+<span data-ttu-id="b2473-418">"SL" efter bokföringsvärdet betyder att den linjära metoden har använts.</span><span class="sxs-lookup"><span data-stu-id="b2473-418">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Beräkningsmetod:  
+<span data-ttu-id="b2473-419">Beräkningsmetod:</span><span class="sxs-lookup"><span data-stu-id="b2473-419">Calculation method:</span></span>  
 
-Första året:  
+<span data-ttu-id="b2473-420">Första året:</span><span class="sxs-lookup"><span data-stu-id="b2473-420">1st year:</span></span>  
 
-*Degressivt belopp: 25 % av 100 000 = 25 000 = 12 500 + 12 500*  
+<span data-ttu-id="b2473-421">*Degressivt belopp: 25 % av 100 000 = 25 000 = 12 500 + 12 500*</span><span class="sxs-lookup"><span data-stu-id="b2473-421">*Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>  
 
-*Linjärt belopp = 100 000 / 8 = 12 500 = 6 250 + 6 250*  
+<span data-ttu-id="b2473-422">*Linjärt belopp = 100 000 / 8 = 12 500 = 6 250 + 6 250*</span><span class="sxs-lookup"><span data-stu-id="b2473-422">*Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250*</span></span>  
 
-Det degressiva beloppet används eftersom det är det större beloppet.  
+<span data-ttu-id="b2473-423">Det degressiva beloppet används eftersom det är det större beloppet.</span><span class="sxs-lookup"><span data-stu-id="b2473-423">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-Sjätte året (2015):  
+<span data-ttu-id="b2473-424">Sjätte året (2015):</span><span class="sxs-lookup"><span data-stu-id="b2473-424">6th year (2015):</span></span>  
 
-*Degressivt belopp: 25 % av 23 730,46 = 4 943,85 = 2 471,92 + 2 471,92*  
+<span data-ttu-id="b2473-425">*Degressivt belopp: 25 % av 23 730,46 = 4 943,85 = 2 471,92 + 2 471,92*</span><span class="sxs-lookup"><span data-stu-id="b2473-425">*Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*</span></span>  
 
-*Linjärt värde = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*  
+<span data-ttu-id="b2473-426">*Linjärt värde = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*</span><span class="sxs-lookup"><span data-stu-id="b2473-426">*Straight-line amount = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*</span></span>  
 
-Det linjära beloppet används eftersom det är det större beloppet.  
+<span data-ttu-id="b2473-427">Det linjära beloppet används eftersom det är det större beloppet.</span><span class="sxs-lookup"><span data-stu-id="b2473-427">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="user-defined-depreciation"></a>Användardefinierad avskrivning
-I det här programmet finns en funktion som gör att du kan skapa användardefinierade avskrivningsmetoder.  
+## <a name="user-defined-depreciation"></a><span data-ttu-id="b2473-428">Användardefinierad avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-428">User-defined Depreciation</span></span>
+<span data-ttu-id="b2473-429">I det här programmet finns en funktion som gör att du kan skapa användardefinierade avskrivningsmetoder.</span><span class="sxs-lookup"><span data-stu-id="b2473-429">The program has a facility that allows you to set up user-defined depreciation methods.</span></span>  
 
-Med en användardefinierad metod använder du fönstret **Avskrivningstabeller**, där du måste ange en avskrivningsprocent för varje period (månad, kvartal, år eller bokföringsperiod).  
+<span data-ttu-id="b2473-430">Med en användardefinierad metod använder du fönstret **Avskrivningstabeller**, där du måste ange en avskrivningsprocent för varje period (månad, kvartal, år eller bokföringsperiod).</span><span class="sxs-lookup"><span data-stu-id="b2473-430">With a user-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).</span></span>  
 
-Beräkningsformeln för avskrivningsbelopp är:  
+<span data-ttu-id="b2473-431">Beräkningsformeln för avskrivningsbelopp är:</span><span class="sxs-lookup"><span data-stu-id="b2473-431">The formula for calculating the depreciation amounts is:</span></span>  
 
-Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas )/(100 x 360)  
+<span data-ttu-id="b2473-432">Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas</span><span class="sxs-lookup"><span data-stu-id="b2473-432">Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr.</span></span> <span data-ttu-id="b2473-433">)/(100 x 360)</span><span class="sxs-lookup"><span data-stu-id="b2473-433">Basis) / (100 x 360)</span></span>  
 
-### <a name="depreciation-based-on-number-of-units"></a>Avskrivning baserad på antal enheter
-Den här användardefinierade metoden kan även användas för avskrivning baserad på enheter, till exempel när det gäller produktionsmaskiner med en fastställd livslängdskapacitet. I fönstret **Avskrivningstabeller** kan du ange det antal enheter som kan produceras under varje period (månad, kvartal, år eller bokföringsperiod).  
+### <a name="depreciation-based-on-number-of-units"></a><span data-ttu-id="b2473-434">Avskrivning baserad på antal enheter</span><span class="sxs-lookup"><span data-stu-id="b2473-434">Depreciation Based on Number of Units</span></span>
+<span data-ttu-id="b2473-435">Den här användardefinierade metoden kan även användas för avskrivning baserad på enheter, till exempel när det gäller produktionsmaskiner med en fastställd livslängdskapacitet.</span><span class="sxs-lookup"><span data-stu-id="b2473-435">This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity.</span></span> <span data-ttu-id="b2473-436">I fönstret **Avskrivningstabeller** kan du ange det antal enheter som kan produceras under varje period (månad, kvartal, år eller bokföringsperiod).</span><span class="sxs-lookup"><span data-stu-id="b2473-436">In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).</span></span>  
 
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Så här skapar du användardefinierade avskrivningsmetoder
-I fönstret **Avskrivning tabellkort** kan du skapa användardefinierad avskrivningsmetod. Du kan till exempel lägga upp avskrivning baserad på antalet enheter.  
+### <a name="to-set-up-user-defined-depreciation-methods"></a><span data-ttu-id="b2473-437">Så här skapar du användardefinierade avskrivningsmetoder</span><span class="sxs-lookup"><span data-stu-id="b2473-437">To set up user-defined depreciation methods</span></span>
+<span data-ttu-id="b2473-438">I fönstret **Avskrivning tabellkort** kan du skapa användardefinierad avskrivningsmetod.</span><span class="sxs-lookup"><span data-stu-id="b2473-438">In the **Depreciation Table** window, you can set up user-defined depreciation methods.</span></span> <span data-ttu-id="b2473-439">Du kan till exempel lägga upp avskrivning baserad på antalet enheter.</span><span class="sxs-lookup"><span data-stu-id="b2473-439">For example, you can set up depreciation based on number of units.</span></span>  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.  
-2. I fönstret **Avskrivning tabellista** väljer du åtgärden **Ny**.  
-3. I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="b2473-440">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="b2473-440">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="b2473-441">I fönstret **Avskrivning tabellista** väljer du åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="b2473-441">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
+3. <span data-ttu-id="b2473-442">I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="b2473-442">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="example---user-defined-depreciation"></a>Exempel - Användardefinierad avskrivning
-Du kan använda en avskrivningsmetod som gör det möjligt att av skatteskäl skriva av tillgångar snabbare.  
+### <a name="example---user-defined-depreciation"></a><span data-ttu-id="b2473-443">Exempel - Användardefinierad avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-443">Example - User-defined Depreciation</span></span>
+<span data-ttu-id="b2473-444">Du kan använda en avskrivningsmetod som gör det möjligt att av skatteskäl skriva av tillgångar snabbare.</span><span class="sxs-lookup"><span data-stu-id="b2473-444">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  
 
-Du ska av skatteskäl använda följande avskrivningsgrad för en anläggningstillgång med en livslängd på tre år:  
+<span data-ttu-id="b2473-445">Du ska av skatteskäl använda följande avskrivningsgrad för en anläggningstillgång med en livslängd på tre år:</span><span class="sxs-lookup"><span data-stu-id="b2473-445">You would use the following depreciation rates for a fixed asset with a three-year lifetime for tax purposes:</span></span>  
 
-* År 1: 25%  
-* År 2: 38%  
-* År 3: 37%  
+* <span data-ttu-id="b2473-446">År 1: 25%</span><span class="sxs-lookup"><span data-stu-id="b2473-446">year 1: 25%</span></span>  
+* <span data-ttu-id="b2473-447">År 2: 38%</span><span class="sxs-lookup"><span data-stu-id="b2473-447">year 2: 38%</span></span>  
+* <span data-ttu-id="b2473-448">År 3: 37%</span><span class="sxs-lookup"><span data-stu-id="b2473-448">year 3: 37%</span></span>  
 
-Anskaffningskostnaden är 100 000 BVA och livslängden är fem år. Avskrivningen beräknas en gång om året.  
+<span data-ttu-id="b2473-449">Anskaffningskostnaden är 100 000 BVA och livslängden är fem år.</span><span class="sxs-lookup"><span data-stu-id="b2473-449">The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.</span></span> <span data-ttu-id="b2473-450">Avskrivningen beräknas en gång om året.</span><span class="sxs-lookup"><span data-stu-id="b2473-450">Depreciation is calculated annually.</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-451">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-451">Date</span></span> | <span data-ttu-id="b2473-452">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-452">FA Posting Type</span></span> | <span data-ttu-id="b2473-453">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-453">Days</span></span> | <span data-ttu-id="b2473-454">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-454">Amount</span></span> | <span data-ttu-id="b2473-455">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-455">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-01-01 |Anskaffningskostnad |* |100,000.00 |100,000.00 |
-| 10-12-31 |Avskrivning |360 |-25 000,00 |75,000.00 |
-| 11-12-31 |Avskrivning |360 |-38 000,00 |37,000.00 |
-| 12-12-31 |Avskrivning |360 |-37 000,00 |0 |
-| 13-12-31 |Avskrivning |Ingen |Ingen |0 |
-| 14-12-31 |Avskrivning |Ingen |Ingen |0 |
+| <span data-ttu-id="b2473-456">10-01-01</span><span class="sxs-lookup"><span data-stu-id="b2473-456">01/01/10</span></span> |<span data-ttu-id="b2473-457">Anskaffningskostnad</span><span class="sxs-lookup"><span data-stu-id="b2473-457">Acquisition Cost</span></span> |* |<span data-ttu-id="b2473-458">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-458">100,000.00</span></span> |<span data-ttu-id="b2473-459">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-459">100,000.00</span></span> |
+| <span data-ttu-id="b2473-460">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-460">12/31/10</span></span> |<span data-ttu-id="b2473-461">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-461">Depreciation</span></span> |<span data-ttu-id="b2473-462">360</span><span class="sxs-lookup"><span data-stu-id="b2473-462">360</span></span> |<span data-ttu-id="b2473-463">-25 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-463">-25,000.00</span></span> |<span data-ttu-id="b2473-464">75,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-464">75,000.00</span></span> |
+| <span data-ttu-id="b2473-465">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-465">12/31/11</span></span> |<span data-ttu-id="b2473-466">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-466">Depreciation</span></span> |<span data-ttu-id="b2473-467">360</span><span class="sxs-lookup"><span data-stu-id="b2473-467">360</span></span> |<span data-ttu-id="b2473-468">-38 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-468">-38,000.00</span></span> |<span data-ttu-id="b2473-469">37,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-469">37,000.00</span></span> |
+| <span data-ttu-id="b2473-470">12-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-470">12/31/12</span></span> |<span data-ttu-id="b2473-471">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-471">Depreciation</span></span> |<span data-ttu-id="b2473-472">360</span><span class="sxs-lookup"><span data-stu-id="b2473-472">360</span></span> |<span data-ttu-id="b2473-473">-37 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-473">-37,000.00</span></span> |<span data-ttu-id="b2473-474">0</span><span class="sxs-lookup"><span data-stu-id="b2473-474">0</span></span> |
+| <span data-ttu-id="b2473-475">13-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-475">12/31/13</span></span> |<span data-ttu-id="b2473-476">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-476">Depreciation</span></span> |<span data-ttu-id="b2473-477">Ingen</span><span class="sxs-lookup"><span data-stu-id="b2473-477">None</span></span> |<span data-ttu-id="b2473-478">Ingen</span><span class="sxs-lookup"><span data-stu-id="b2473-478">None</span></span> |<span data-ttu-id="b2473-479">0</span><span class="sxs-lookup"><span data-stu-id="b2473-479">0</span></span> |
+| <span data-ttu-id="b2473-480">14-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-480">12/31/14</span></span> |<span data-ttu-id="b2473-481">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-481">Depreciation</span></span> |<span data-ttu-id="b2473-482">Ingen</span><span class="sxs-lookup"><span data-stu-id="b2473-482">None</span></span> |<span data-ttu-id="b2473-483">Ingen</span><span class="sxs-lookup"><span data-stu-id="b2473-483">None</span></span> |<span data-ttu-id="b2473-484">0</span><span class="sxs-lookup"><span data-stu-id="b2473-484">0</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-485">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-485">Depreciation starting date</span></span>  
 
-Om du använder en användardefinierad metod, måste fälten **Startdatum använd.def. avskrv.** och **Avskrivning startdatum** fyllas i i fönstret **Anl. avskrivningsregler**. Fältet **Startdatum använd.def. avskrv.** och innehåller i fältet **Period** i fönstret **Avskrivningstabeller** används för att bestämma vilket tidsintervall som ska användas för beräkning av avskrivning. Detta garanterar att programmet ska påbörjas genom att använda den angivna procentsatsen på samma dag för alla tillgångar. Fältet **Avskrivning startdatum** används för att beräkna antalet avskrivningsdagar.  
+<span data-ttu-id="b2473-486">Om du använder en användardefinierad metod, måste fälten **Startdatum använd.def. avskrv.** och **Avskrivning startdatum** fyllas i i fönstret **Anl. avskrivningsregler**.</span><span class="sxs-lookup"><span data-stu-id="b2473-486">If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in in the **FA Depreciation Books** window.</span></span> <span data-ttu-id="b2473-487">Fältet **Startdatum använd.def. avskrv.** och innehåller i fältet **Period** i fönstret **Avskrivningstabeller** används för att bestämma vilket tidsintervall som ska användas för beräkning av avskrivning.</span><span class="sxs-lookup"><span data-stu-id="b2473-487">The **First User-Defined Depr. Date** field and the contents in the **Period Length** field in the **Depreciation Tables** window are used to determine the time intervals to be used for depreciation calculations.</span></span> <span data-ttu-id="b2473-488">Detta garanterar att programmet ska påbörjas genom att använda den angivna procentsatsen på samma dag för alla tillgångar.</span><span class="sxs-lookup"><span data-stu-id="b2473-488">This ensures that the program will start using the specified percentage on the same day for all assets.</span></span> <span data-ttu-id="b2473-489">Fältet **Avskrivning startdatum** används för att beräkna antalet avskrivningsdagar.</span><span class="sxs-lookup"><span data-stu-id="b2473-489">The **Depreciation Starting Date** field is used to calculate the number of depreciation days.</span></span>  
 
-I föregående exempel innehöll både **Startdatum använd.def. avskrv.** och **Avskrivning startdatum** 01-01-01. Om däremot **Startdatum använd.def. avskrv.** innehåller 10-01-01 och **Avskrivning startdatum** innehåller 11-01-04 blir resultatet:  
+<span data-ttu-id="b2473-490">I föregående exempel innehöll både **Startdatum använd.def. avskrv.** och **Avskrivning startdatum** 01-01-01.</span><span class="sxs-lookup"><span data-stu-id="b2473-490">In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01.</span></span> <span data-ttu-id="b2473-491">Om däremot **Startdatum använd.def. avskrv.** innehåller 10-01-01 och **Avskrivning startdatum** innehåller 11-01-04 blir resultatet:</span><span class="sxs-lookup"><span data-stu-id="b2473-491">If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-492">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-492">Date</span></span> | <span data-ttu-id="b2473-493">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-493">FA Posting Type</span></span> | <span data-ttu-id="b2473-494">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-494">Days</span></span> | <span data-ttu-id="b2473-495">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-495">Amount</span></span> | <span data-ttu-id="b2473-496">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-496">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-01-01 |Anskaffningskostnad |* |100,000.00 |100,000.00 |
-| 10-12-31 |Avskrivning |270 |-18 750,00 |81,250.00 |
-| 11-12-31 |Avskrivning |360 |-38 000,00 |42,250.00 |
-| 12-12-31 |Avskrivning |360 |-37 000,00 |6,250.00 |
-| 13-12-31 |Avskrivning |90 |-6 250,00 |0 |
-| 14-12-31 |Avskrivning |Ingen |Ingen |0 |
+| <span data-ttu-id="b2473-497">10-01-01</span><span class="sxs-lookup"><span data-stu-id="b2473-497">01/01/10</span></span> |<span data-ttu-id="b2473-498">Anskaffningskostnad</span><span class="sxs-lookup"><span data-stu-id="b2473-498">Acquisition Cost</span></span> |* |<span data-ttu-id="b2473-499">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-499">100,000.00</span></span> |<span data-ttu-id="b2473-500">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-500">100,000.00</span></span> |
+| <span data-ttu-id="b2473-501">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-501">12/31/10</span></span> |<span data-ttu-id="b2473-502">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-502">Depreciation</span></span> |<span data-ttu-id="b2473-503">270</span><span class="sxs-lookup"><span data-stu-id="b2473-503">270</span></span> |<span data-ttu-id="b2473-504">-18 750,00</span><span class="sxs-lookup"><span data-stu-id="b2473-504">-18,750.00</span></span> |<span data-ttu-id="b2473-505">81,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-505">81,250.00</span></span> |
+| <span data-ttu-id="b2473-506">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-506">12/31/11</span></span> |<span data-ttu-id="b2473-507">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-507">Depreciation</span></span> |<span data-ttu-id="b2473-508">360</span><span class="sxs-lookup"><span data-stu-id="b2473-508">360</span></span> |<span data-ttu-id="b2473-509">-38 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-509">-38,000.00</span></span> |<span data-ttu-id="b2473-510">42,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-510">42,250.00</span></span> |
+| <span data-ttu-id="b2473-511">12-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-511">12/31/12</span></span> |<span data-ttu-id="b2473-512">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-512">Depreciation</span></span> |<span data-ttu-id="b2473-513">360</span><span class="sxs-lookup"><span data-stu-id="b2473-513">360</span></span> |<span data-ttu-id="b2473-514">-37 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-514">-37,000.00</span></span> |<span data-ttu-id="b2473-515">6,250.00</span><span class="sxs-lookup"><span data-stu-id="b2473-515">6,250.00</span></span> |
+| <span data-ttu-id="b2473-516">13-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-516">12/31/13</span></span> |<span data-ttu-id="b2473-517">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-517">Depreciation</span></span> |<span data-ttu-id="b2473-518">90</span><span class="sxs-lookup"><span data-stu-id="b2473-518">90</span></span> |<span data-ttu-id="b2473-519">-6 250,00</span><span class="sxs-lookup"><span data-stu-id="b2473-519">-6,250.00</span></span> |<span data-ttu-id="b2473-520">0</span><span class="sxs-lookup"><span data-stu-id="b2473-520">0</span></span> |
+| <span data-ttu-id="b2473-521">14-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-521">12/31/14</span></span> |<span data-ttu-id="b2473-522">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-522">Depreciation</span></span> |<span data-ttu-id="b2473-523">Ingen</span><span class="sxs-lookup"><span data-stu-id="b2473-523">None</span></span> |<span data-ttu-id="b2473-524">Ingen</span><span class="sxs-lookup"><span data-stu-id="b2473-524">None</span></span> |<span data-ttu-id="b2473-525">0</span><span class="sxs-lookup"><span data-stu-id="b2473-525">0</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-526">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-526">Depreciation starting date</span></span>  
 
-## <a name="half-year-convention-depreciation"></a>Avskrivning med halvårspraxis
-Metoden Halvårspraxis kan endast användas om du har markerat fältet **Använd halvårsgammal** i fönstret **Avskrivningsregel för anl.tillg.**.  
+## <a name="half-year-convention-depreciation"></a><span data-ttu-id="b2473-527">Avskrivning med halvårspraxis</span><span class="sxs-lookup"><span data-stu-id="b2473-527">Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="b2473-528">Metoden Halvårspraxis kan endast användas om du har markerat fältet **Använd halvårsgammal** i fönstret **Avskrivningsregel för anl.tillg.**.</span><span class="sxs-lookup"><span data-stu-id="b2473-528">The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** window.</span></span>  
 
-Den här avskrivningsregeln kan användas tillsammans med följande avskrivningsmetoder i programmet:  
+<span data-ttu-id="b2473-529">Den här avskrivningsregeln kan användas tillsammans med följande avskrivningsmetoder i programmet:</span><span class="sxs-lookup"><span data-stu-id="b2473-529">This depreciation method can be used in conjunction with the following depreciation methods in the program:</span></span>  
 
-* Linjär  
-* Degressiv 1  
-* DEG1/LIN  
+* <span data-ttu-id="b2473-530">Linjär</span><span class="sxs-lookup"><span data-stu-id="b2473-530">Straight-Line</span></span>  
+* <span data-ttu-id="b2473-531">Degressiv 1</span><span class="sxs-lookup"><span data-stu-id="b2473-531">Declining-Balance 1</span></span>  
+* <span data-ttu-id="b2473-532">DEG1/LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-532">DB1/SL</span></span>  
 
-När du använder Halvårspraxis kommer en avskrivning på sex månader att tillämpas det första räkenskapsåret, oavsett innehållet i fältet **Avskrivning startdatum**.  
+<span data-ttu-id="b2473-533">När du använder Halvårspraxis kommer en avskrivning på sex månader att tillämpas det första räkenskapsåret, oavsett innehållet i fältet **Avskrivning startdatum**.</span><span class="sxs-lookup"><span data-stu-id="b2473-533">When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.</span></span>  
 
 > [!NOTE]  
->   Den beräknade livslängd för en anläggningstillgång som återstår efter det första räkenskapsåret kommer alltid att innehålla ett halvår med hjälp av metoden Halvårspraxis. För att metoden Halvårspraxis ska användas på rätt sätt måste fältet **Avskrivning slutdatum** i fönstret **avskrivningsregel för anläggningstillgångar** måste alltid innehålla ett datum som infaller exakt sex månader före slutdatumet för det räkenskapsår då anläggningstillgången helt har avskrivits.  
+>   <span data-ttu-id="b2473-534">Den beräknade livslängd för en anläggningstillgång som återstår efter det första räkenskapsåret kommer alltid att innehålla ett halvår med hjälp av metoden Halvårspraxis.</span><span class="sxs-lookup"><span data-stu-id="b2473-534">The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method.</span></span> <span data-ttu-id="b2473-535">För att metoden Halvårspraxis ska användas på rätt sätt måste fältet **Avskrivning slutdatum** i fönstret **avskrivningsregel för anläggningstillgångar** måste alltid innehålla ett datum som infaller exakt sex månader före slutdatumet för det räkenskapsår då anläggningstillgången helt har avskrivits.</span><span class="sxs-lookup"><span data-stu-id="b2473-535">Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.</span></span>  
 
-### <a name="example---half-year-convention-depreciation"></a>Exempel: Avskrivning med metoden Halvårspraxis
-Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivningens startdatum** är 10-03-01. Den beräknade livslängden är fem år så **avskrivningens slutdatum** blir 15-06-30. Batch-jobbet **Beräkna avskrivning** körs en gång om året. Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.  
+### <a name="example---half-year-convention-depreciation"></a><span data-ttu-id="b2473-536">Exempel: Avskrivning med metoden Halvårspraxis</span><span class="sxs-lookup"><span data-stu-id="b2473-536">Example - Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="b2473-537">Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA.</span><span class="sxs-lookup"><span data-stu-id="b2473-537">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b2473-538">**Avskrivningens startdatum** är 10-03-01.</span><span class="sxs-lookup"><span data-stu-id="b2473-538">The **Depreciation Starting Date** is 03/01/10.</span></span> <span data-ttu-id="b2473-539">Den beräknade livslängden är fem år så **avskrivningens slutdatum** blir 15-06-30.</span><span class="sxs-lookup"><span data-stu-id="b2473-539">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="b2473-540">Batch-jobbet **Beräkna avskrivning** körs en gång om året.</span><span class="sxs-lookup"><span data-stu-id="b2473-540">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="b2473-541">Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.</span><span class="sxs-lookup"><span data-stu-id="b2473-541">This example is based on a calendar fiscal year.</span></span>  
 
-Så här ser anläggningstillgångstransaktionerna ut:  
+<span data-ttu-id="b2473-542">Så här ser anläggningstillgångstransaktionerna ut:</span><span class="sxs-lookup"><span data-stu-id="b2473-542">The fixed asset ledger entries look like this:</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-543">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-543">Date</span></span> | <span data-ttu-id="b2473-544">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-544">FA Posting Type</span></span> | <span data-ttu-id="b2473-545">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-545">Days</span></span> | <span data-ttu-id="b2473-546">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-546">Amount</span></span> | <span data-ttu-id="b2473-547">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-547">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-03-01 |Anskaffningskostnad |* |100,000.00 |100,000.00 |
-| 10-12-31 |Avskrivning |270 |-10 000,00 |90,000.00 |
-| 11-12-31 |Avskrivning |360 |-20 000,00 |70,000.00 |
-| 12-12-31 |Avskrivning |360 |-20 000,00 |50,000.00 |
-| 13-12-31 |Avskrivning |360 |-20 000,00 |30,000.00 |
-| 14-12-31 |Avskrivning |360 |-20 000,00 |10,000.00 |
-| 15-12-31 |Avskrivning |180 |-10 000,00 |0.00 |
+| <span data-ttu-id="b2473-548">10-03-01</span><span class="sxs-lookup"><span data-stu-id="b2473-548">03/01/10</span></span> |<span data-ttu-id="b2473-549">Anskaffningskostnad</span><span class="sxs-lookup"><span data-stu-id="b2473-549">Acquisition Cost</span></span> |* |<span data-ttu-id="b2473-550">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-550">100,000.00</span></span> |<span data-ttu-id="b2473-551">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-551">100,000.00</span></span> |
+| <span data-ttu-id="b2473-552">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-552">12/31/10</span></span> |<span data-ttu-id="b2473-553">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-553">Depreciation</span></span> |<span data-ttu-id="b2473-554">270</span><span class="sxs-lookup"><span data-stu-id="b2473-554">270</span></span> |<span data-ttu-id="b2473-555">-10 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-555">-10,000.00</span></span> |<span data-ttu-id="b2473-556">90,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-556">90,000.00</span></span> |
+| <span data-ttu-id="b2473-557">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-557">12/31/11</span></span> |<span data-ttu-id="b2473-558">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-558">Depreciation</span></span> |<span data-ttu-id="b2473-559">360</span><span class="sxs-lookup"><span data-stu-id="b2473-559">360</span></span> |<span data-ttu-id="b2473-560">-20 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-560">-20,000.00</span></span> |<span data-ttu-id="b2473-561">70,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-561">70,000.00</span></span> |
+| <span data-ttu-id="b2473-562">12-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-562">12/31/12</span></span> |<span data-ttu-id="b2473-563">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-563">Depreciation</span></span> |<span data-ttu-id="b2473-564">360</span><span class="sxs-lookup"><span data-stu-id="b2473-564">360</span></span> |<span data-ttu-id="b2473-565">-20 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-565">-20,000.00</span></span> |<span data-ttu-id="b2473-566">50,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-566">50,000.00</span></span> |
+| <span data-ttu-id="b2473-567">13-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-567">12/31/13</span></span> |<span data-ttu-id="b2473-568">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-568">Depreciation</span></span> |<span data-ttu-id="b2473-569">360</span><span class="sxs-lookup"><span data-stu-id="b2473-569">360</span></span> |<span data-ttu-id="b2473-570">-20 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-570">-20,000.00</span></span> |<span data-ttu-id="b2473-571">30,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-571">30,000.00</span></span> |
+| <span data-ttu-id="b2473-572">14-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-572">12/31/14</span></span> |<span data-ttu-id="b2473-573">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-573">Depreciation</span></span> |<span data-ttu-id="b2473-574">360</span><span class="sxs-lookup"><span data-stu-id="b2473-574">360</span></span> |<span data-ttu-id="b2473-575">-20 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-575">-20,000.00</span></span> |<span data-ttu-id="b2473-576">10,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-576">10,000.00</span></span> |
+| <span data-ttu-id="b2473-577">15-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-577">12/31/15</span></span> |<span data-ttu-id="b2473-578">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-578">Depreciation</span></span> |<span data-ttu-id="b2473-579">180</span><span class="sxs-lookup"><span data-stu-id="b2473-579">180</span></span> |<span data-ttu-id="b2473-580">-10 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-580">-10,000.00</span></span> |<span data-ttu-id="b2473-581">0.00</span><span class="sxs-lookup"><span data-stu-id="b2473-581">0.00</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-582">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-582">Depreciation starting date</span></span>  
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Exempel: DEG1/LIN-avskrivning med metoden Halvårspraxis
-Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivningens startdatum** är 10-11-01. Den beräknade livslängden är fem år så **avskrivningens slutdatum** blir 15-06-30. I fönstret **Anl. avskrivningsregler** är värdet 40 i fältet **Degressiv %**. Batch-jobbet **Beräkna avskrivning** körs en gång om året. Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.  
+## <a name="example---db1sl-depreciation-using-half-year-convention"></a><span data-ttu-id="b2473-583">Exempel: DEG1/LIN-avskrivning med metoden Halvårspraxis</span><span class="sxs-lookup"><span data-stu-id="b2473-583">Example - DB1/SL Depreciation Using Half-Year Convention</span></span>
+<span data-ttu-id="b2473-584">Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA.</span><span class="sxs-lookup"><span data-stu-id="b2473-584">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="b2473-585">**Avskrivningens startdatum** är 10-11-01.</span><span class="sxs-lookup"><span data-stu-id="b2473-585">The **Depreciation Starting Date** is 11/01/10.</span></span> <span data-ttu-id="b2473-586">Den beräknade livslängden är fem år så **avskrivningens slutdatum** blir 15-06-30.</span><span class="sxs-lookup"><span data-stu-id="b2473-586">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="b2473-587">I fönstret **Anl. avskrivningsregler** är värdet 40 i fältet **Degressiv %**.</span><span class="sxs-lookup"><span data-stu-id="b2473-587">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 40.</span></span> <span data-ttu-id="b2473-588">Batch-jobbet **Beräkna avskrivning** körs en gång om året.</span><span class="sxs-lookup"><span data-stu-id="b2473-588">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="b2473-589">Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.</span><span class="sxs-lookup"><span data-stu-id="b2473-589">This example is based on a calendar fiscal year.</span></span>  
 
-Så här ser anläggningstillgångstransaktionerna ut:  
+<span data-ttu-id="b2473-590">Så här ser anläggningstillgångstransaktionerna ut:</span><span class="sxs-lookup"><span data-stu-id="b2473-590">The fixed asset ledger entries look like this:</span></span>  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| <span data-ttu-id="b2473-591">Datum</span><span class="sxs-lookup"><span data-stu-id="b2473-591">Date</span></span> | <span data-ttu-id="b2473-592">Anl. bokföringstyp</span><span class="sxs-lookup"><span data-stu-id="b2473-592">FA Posting Type</span></span> | <span data-ttu-id="b2473-593">Dagar</span><span class="sxs-lookup"><span data-stu-id="b2473-593">Days</span></span> | <span data-ttu-id="b2473-594">Belopp</span><span class="sxs-lookup"><span data-stu-id="b2473-594">Amount</span></span> | <span data-ttu-id="b2473-595">Bokföringsvärde</span><span class="sxs-lookup"><span data-stu-id="b2473-595">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 10-11-01 |Anskaffningskostnad |* |100,000.00 |100,000.00 |
-| 10-12-31 |Avskrivning |60 |-20 000,00 |80,000.00 |
-| 11-12-31 |Avskrivning |360 |-32 000,00 |48,000.00 |
-| 12-12-31 |Avskrivning |360 |-19 200,00 |28,800.00 |
-| 13-12-31 |Avskrivning |360 |-11 520,00 |17,280.00 |
-| 14-12-31 |Avskrivning |360 |-11 520,00 |5 760,00 LIN |
-| 15-12-31 |Avskrivning |180 |-5 760,00 |0,00 LIN |
+| <span data-ttu-id="b2473-596">10-11-01</span><span class="sxs-lookup"><span data-stu-id="b2473-596">11/01/10</span></span> |<span data-ttu-id="b2473-597">Anskaffningskostnad</span><span class="sxs-lookup"><span data-stu-id="b2473-597">Acquisition Cost</span></span> |* |<span data-ttu-id="b2473-598">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-598">100,000.00</span></span> |<span data-ttu-id="b2473-599">100,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-599">100,000.00</span></span> |
+| <span data-ttu-id="b2473-600">10-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-600">12/31/10</span></span> |<span data-ttu-id="b2473-601">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-601">Depreciation</span></span> |<span data-ttu-id="b2473-602">60</span><span class="sxs-lookup"><span data-stu-id="b2473-602">60</span></span> |<span data-ttu-id="b2473-603">-20 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-603">-20,000.00</span></span> |<span data-ttu-id="b2473-604">80,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-604">80,000.00</span></span> |
+| <span data-ttu-id="b2473-605">11-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-605">12/31/11</span></span> |<span data-ttu-id="b2473-606">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-606">Depreciation</span></span> |<span data-ttu-id="b2473-607">360</span><span class="sxs-lookup"><span data-stu-id="b2473-607">360</span></span> |<span data-ttu-id="b2473-608">-32 000,00</span><span class="sxs-lookup"><span data-stu-id="b2473-608">-32,000.00</span></span> |<span data-ttu-id="b2473-609">48,000.00</span><span class="sxs-lookup"><span data-stu-id="b2473-609">48,000.00</span></span> |
+| <span data-ttu-id="b2473-610">12-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-610">12/31/12</span></span> |<span data-ttu-id="b2473-611">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-611">Depreciation</span></span> |<span data-ttu-id="b2473-612">360</span><span class="sxs-lookup"><span data-stu-id="b2473-612">360</span></span> |<span data-ttu-id="b2473-613">-19 200,00</span><span class="sxs-lookup"><span data-stu-id="b2473-613">-19,200.00</span></span> |<span data-ttu-id="b2473-614">28,800.00</span><span class="sxs-lookup"><span data-stu-id="b2473-614">28,800.00</span></span> |
+| <span data-ttu-id="b2473-615">13-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-615">12/31/13</span></span> |<span data-ttu-id="b2473-616">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-616">Depreciation</span></span> |<span data-ttu-id="b2473-617">360</span><span class="sxs-lookup"><span data-stu-id="b2473-617">360</span></span> |<span data-ttu-id="b2473-618">-11 520,00</span><span class="sxs-lookup"><span data-stu-id="b2473-618">-11,520.00</span></span> |<span data-ttu-id="b2473-619">17,280.00</span><span class="sxs-lookup"><span data-stu-id="b2473-619">17,280.00</span></span> |
+| <span data-ttu-id="b2473-620">14-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-620">12/31/14</span></span> |<span data-ttu-id="b2473-621">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-621">Depreciation</span></span> |<span data-ttu-id="b2473-622">360</span><span class="sxs-lookup"><span data-stu-id="b2473-622">360</span></span> |<span data-ttu-id="b2473-623">-11 520,00</span><span class="sxs-lookup"><span data-stu-id="b2473-623">-11,520.00</span></span> |<span data-ttu-id="b2473-624">5 760,00 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-624">5,760.00 SL</span></span> |
+| <span data-ttu-id="b2473-625">15-12-31</span><span class="sxs-lookup"><span data-stu-id="b2473-625">12/31/15</span></span> |<span data-ttu-id="b2473-626">Avskrivning</span><span class="sxs-lookup"><span data-stu-id="b2473-626">Depreciation</span></span> |<span data-ttu-id="b2473-627">180</span><span class="sxs-lookup"><span data-stu-id="b2473-627">180</span></span> |<span data-ttu-id="b2473-628">-5 760,00</span><span class="sxs-lookup"><span data-stu-id="b2473-628">-5,760.00</span></span> |<span data-ttu-id="b2473-629">0,00 LIN</span><span class="sxs-lookup"><span data-stu-id="b2473-629">0.00 SL</span></span> |
 
-* Avskrivning startdatum  
+* <span data-ttu-id="b2473-630">Avskrivning startdatum</span><span class="sxs-lookup"><span data-stu-id="b2473-630">Depreciation starting date</span></span>  
 
-"SL" efter bokföringsvärdet betyder att den linjära metoden har använts.  
+<span data-ttu-id="b2473-631">"SL" efter bokföringsvärdet betyder att den linjära metoden har använts.</span><span class="sxs-lookup"><span data-stu-id="b2473-631">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Beräkningsmetod:  
+<span data-ttu-id="b2473-632">Beräkningsmetod:</span><span class="sxs-lookup"><span data-stu-id="b2473-632">Calculation method:</span></span>  
 
-Första året:  
+<span data-ttu-id="b2473-633">Första året:</span><span class="sxs-lookup"><span data-stu-id="b2473-633">1st year:</span></span>  
 
-*Degressivt belopp = Helårsbelopp = 40 % av 100 000 = 40 000. Halvår: 40 000 / 2 = 20 000*  
+<span data-ttu-id="b2473-634">*Degressivt belopp = Helårsbelopp = 40 % av 100 000 = 40 000. Halvår: 40 000 / 2 = 20 000*</span><span class="sxs-lookup"><span data-stu-id="b2473-634">*Declining-balance amount = Full year amount = 40% of 100,000 = 40,000. Thus, for half a year 40,000 / 2 = 20,000*</span></span>  
 
-*Linjärt belopp = Helårsbelopp = 100 000 / 5=20 000. Halvår: 20 000 / 2 = 10 000*  
+<span data-ttu-id="b2473-635">*Linjärt belopp = Helårsbelopp = 100 000 / 5=20 000. Halvår: 20 000 / 2 = 10 000*</span><span class="sxs-lookup"><span data-stu-id="b2473-635">*Straight-line amount = Full year amount = 100,000 / 5 = 20,000. Thus, for half a year = 20,000 / 2 = 10,000*</span></span>  
 
-Det degressiva beloppet används eftersom det är det större beloppet.  
+<span data-ttu-id="b2473-636">Det degressiva beloppet används eftersom det är det större beloppet.</span><span class="sxs-lookup"><span data-stu-id="b2473-636">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-Femte året (2004):  
+<span data-ttu-id="b2473-637">Femte året (2004):</span><span class="sxs-lookup"><span data-stu-id="b2473-637">5th year (2004):</span></span>  
 
-*Degressivt belopp = 40 % av 17 280,00 = 6 912,00*  
+<span data-ttu-id="b2473-638">*Degressivt belopp = 40 % av 17 280,00 = 6 912,00*</span><span class="sxs-lookup"><span data-stu-id="b2473-638">*Declining-balance amount = 40% of 17,280.00 = 6,912.00*</span></span>  
 
-*Linjärt belopp = 28 800 / 1,5 = 11 520,00*  
+<span data-ttu-id="b2473-639">*Linjärt belopp = 28 800 / 1,5 = 11 520,00*</span><span class="sxs-lookup"><span data-stu-id="b2473-639">*Straight-line amount = 28,800 / 1.5 = 11,520.00*</span></span>  
 
-Det linjära beloppet används eftersom det är det större beloppet.  
+<span data-ttu-id="b2473-640">Det linjära beloppet används eftersom det är det större beloppet.</span><span class="sxs-lookup"><span data-stu-id="b2473-640">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Kopiera transaktioner till fler avskrivningsregler
-Om du har tre avskrivningsregler, B1, B2 och B3, och vill kopiera transaktioner från B1 till B2 och B3 kan du markera fältet **Ingår i dubblettlista** på avskrivningsregelkorten för B2 och B3. Detta är praktiskt om avskrivningsregel B1 är integrerad med redovisningen samt använder redovisningsjournalen för anläggningstillgångar och om avskrivningsreglerna B2 och B3 inte är integrerade med redovisningen och använder journalen för anläggningstillgångar.  
+## <a name="duplicating-entries-to-more-depreciation-books"></a><span data-ttu-id="b2473-641">Kopiera transaktioner till fler avskrivningsregler</span><span class="sxs-lookup"><span data-stu-id="b2473-641">Duplicating Entries to More Depreciation Books</span></span>
+<span data-ttu-id="b2473-642">Om du har tre avskrivningsregler, B1, B2 och B3, och vill kopiera transaktioner från B1 till B2 och B3 kan du markera fältet **Ingår i dubblettlista** på avskrivningsregelkorten för B2 och B3.</span><span class="sxs-lookup"><span data-stu-id="b2473-642">If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can place a check mark in the **Part of Duplication List** field on the depreciation book cards for B2 and B3.</span></span> <span data-ttu-id="b2473-643">Detta är praktiskt om avskrivningsregel B1 är integrerad med redovisningen samt använder redovisningsjournalen för anläggningstillgångar och om avskrivningsreglerna B2 och B3 inte är integrerade med redovisningen och använder journalen för anläggningstillgångar.</span><span class="sxs-lookup"><span data-stu-id="b2473-643">This can be useful if depreciation book B1 is integrated with the general ledger and uses the fixed asset G/L journal, and depreciation books B2 and B3 are not integrated with the general ledger and use the fixed asset journal.</span></span>  
 
-När du registrerar en transaktion i B1 i redovisningsjournalen för anläggningstillgångar och markerar fältet **Använd dubblettlista** kopieras transaktionen till regel B2 och B3 i journalen för anläggningstillgångar när transaktionen har bokförts.  
+<span data-ttu-id="b2473-644">När du registrerar en transaktion i B1 i redovisningsjournalen för anläggningstillgångar och markerar fältet **Använd dubblettlista** kopieras transaktionen till regel B2 och B3 i journalen för anläggningstillgångar när transaktionen har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b2473-644">When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.</span></span>  
 
 > [!NOTE]  
->   Du kan inte kopiera till samma journal som du kopierar från. Om du bokför transaktioner i redovisningsjournalen för anläggningstillgångar kan du kopiera dem till journalen för anläggningstillgångar eller till redovisningsjournalen för anläggningstillgångar med hjälp av en annan journal.  
+>   <span data-ttu-id="b2473-645">Du kan inte kopiera till samma journal som du kopierar från.</span><span class="sxs-lookup"><span data-stu-id="b2473-645">You cannot duplicate in the same journal and journal batch as you are duplicating from.</span></span> <span data-ttu-id="b2473-646">Om du bokför transaktioner i redovisningsjournalen för anläggningstillgångar kan du kopiera dem till journalen för anläggningstillgångar eller till redovisningsjournalen för anläggningstillgångar med hjälp av en annan journal.</span><span class="sxs-lookup"><span data-stu-id="b2473-646">If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.</span></span>  
 
 > [!NOTE]  
->   Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i Anl.tillg. redovisningsjournal måste du lämna fältet **Dokumentnr.** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
+>   <span data-ttu-id="b2473-647">Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal.</span><span class="sxs-lookup"><span data-stu-id="b2473-647">You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal.</span></span> <span data-ttu-id="b2473-648">När du bokför transaktioner i Anl.tillg. redovisningsjournal måste du lämna fältet **Dokumentnr.**</span><span class="sxs-lookup"><span data-stu-id="b2473-648">When you post entries in the fixed asset G/L journal, you must leave the **Document No.**</span></span> <span data-ttu-id="b2473-649">tomt.</span><span class="sxs-lookup"><span data-stu-id="b2473-649">field empty.</span></span> <span data-ttu-id="b2473-650">Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen.</span><span class="sxs-lookup"><span data-stu-id="b2473-650">If you enter a number in the field, the the number is duplicated in the fixed asset journal.</span></span> <span data-ttu-id="b2473-651">Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.</span><span class="sxs-lookup"><span data-stu-id="b2473-651">You'll have to manually change the document number before you can post the journal.</span></span>  
 
-## <a name="see-also"></a>Se även
-[Anläggningstillgångar](fa-manage.md)  
-[Ställa in anläggningstillgångar](fa-setup.md)  
-[Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="b2473-652">Se även</span><span class="sxs-lookup"><span data-stu-id="b2473-652">See Also</span></span>
+[<span data-ttu-id="b2473-653">Anläggningstillgångar</span><span class="sxs-lookup"><span data-stu-id="b2473-653">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="b2473-654">Ställa in anläggningstillgångar</span><span class="sxs-lookup"><span data-stu-id="b2473-654">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="b2473-655">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="b2473-655">Finance</span></span>](finance.md)  
+<span data-ttu-id="b2473-656">[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="b2473-656">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="b2473-657">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b2473-657">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

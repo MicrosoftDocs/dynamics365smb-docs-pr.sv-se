@@ -15,31 +15,31 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="using-pre-closing-reports"></a>Använda rapporter före bokslut
-Det finns flera standardrapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period. Du kan till exempel använda rapporten **Kund - råbalans** för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum.
+# <a name="using-pre-closing-reports"></a><span data-ttu-id="af31b-103">Använda rapporter före bokslut</span><span class="sxs-lookup"><span data-stu-id="af31b-103">Using Pre-Closing Reports</span></span>
+<span data-ttu-id="af31b-104">Det finns flera standardrapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period.</span><span class="sxs-lookup"><span data-stu-id="af31b-104">There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period.</span></span> <span data-ttu-id="af31b-105">Du kan till exempel använda rapporten **Kund - råbalans** för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum.</span><span class="sxs-lookup"><span data-stu-id="af31b-105">For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.</span></span>
 
-I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den här processen.
+<span data-ttu-id="af31b-106">I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den här processen.</span><span class="sxs-lookup"><span data-stu-id="af31b-106">The following table describes a number of reports that may be useful in this process.</span></span>
 
-| Om du vill | Se den här rapporten |
+| <span data-ttu-id="af31b-107">Om du vill</span><span class="sxs-lookup"><span data-stu-id="af31b-107">To</span></span> | <span data-ttu-id="af31b-108">Se den här rapporten</span><span class="sxs-lookup"><span data-stu-id="af31b-108">See this report</span></span> |
 | --- | --- |
-| skriva ut en huvudboksrapport för ett eller flera bankkonton med ytterligare information om enskilda transaktioner. |Bankkonto - Detaljerad råbalans |
-| skriva ut en huvudbok för valda kunder. |Kund - råbalans |
-| skriva ut en huvudbok med detaljerad information om enskilda transaktioner, för valda kunder under en vald period. |Kunder - detaljerad råbalans |
-| skriva ut en huvudbok för valda leverantörer. |Leverantörsråbalans |
-| skriva ut en huvudbok med detaljerad information om enskilda transaktioner, för valda leverantörer under en vald period. |Lev. - huvudbok |
-| skriva ut en råbalans med innevarande års och föregående års siffror. |Bokslutsråbalans |
-| skriva ut en huvudboksrapport för redovisningskontosaldon. |Huvudbok |
-| skriva ut en råbalansrapport med saldon och nettoförändringar för redovisningskonton. |Råbalans |
-| skriva ut en råbalans för ett konsoliderat företag. |Konsoliderad råbalans |
+| <span data-ttu-id="af31b-109">skriva ut en huvudboksrapport för ett eller flera bankkonton med ytterligare information om enskilda transaktioner.</span><span class="sxs-lookup"><span data-stu-id="af31b-109">Print a detailed trial balance report for one or more bank accounts with additional information about individual entries.</span></span> |<span data-ttu-id="af31b-110">Bankkonto</span><span class="sxs-lookup"><span data-stu-id="af31b-110">Bank Acc.</span></span> <span data-ttu-id="af31b-111">- Detaljerad råbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-111">- Detail Trial Bal.</span></span> |
+| <span data-ttu-id="af31b-112">skriva ut en huvudbok för valda kunder.</span><span class="sxs-lookup"><span data-stu-id="af31b-112">Print a detail trial balance for selected customers.</span></span> |<span data-ttu-id="af31b-113">Kund - råbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-113">Customer - Trial Balance</span></span> |
+| <span data-ttu-id="af31b-114">skriva ut en huvudbok med detaljerad information om enskilda transaktioner, för valda kunder under en vald period.</span><span class="sxs-lookup"><span data-stu-id="af31b-114">Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period.</span></span> |<span data-ttu-id="af31b-115">Kunder - detaljerad råbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-115">Customer - Detail Trial Bal.</span></span> |
+| <span data-ttu-id="af31b-116">skriva ut en huvudbok för valda leverantörer.</span><span class="sxs-lookup"><span data-stu-id="af31b-116">Print a detail trial balance for selected vendors.</span></span> |<span data-ttu-id="af31b-117">Leverantörsråbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-117">Vendor - Trial Balance</span></span> |
+| <span data-ttu-id="af31b-118">skriva ut en huvudbok med detaljerad information om enskilda transaktioner, för valda leverantörer under en vald period.</span><span class="sxs-lookup"><span data-stu-id="af31b-118">Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period.</span></span> |<span data-ttu-id="af31b-119">Lev. - huvudbok</span><span class="sxs-lookup"><span data-stu-id="af31b-119">Vendor - Detail Trial Balance</span></span> |
+| <span data-ttu-id="af31b-120">skriva ut en råbalans med innevarande års och föregående års siffror.</span><span class="sxs-lookup"><span data-stu-id="af31b-120">Print a trial balance with the current year's and the previous year's figures.</span></span> |<span data-ttu-id="af31b-121">Bokslutsråbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-121">Closing Trial Balance</span></span> |
+| <span data-ttu-id="af31b-122">skriva ut en huvudboksrapport för redovisningskontosaldon.</span><span class="sxs-lookup"><span data-stu-id="af31b-122">Print a detailed trial balance report for general ledger account balances.</span></span> |<span data-ttu-id="af31b-123">Huvudbok</span><span class="sxs-lookup"><span data-stu-id="af31b-123">Detail Trial Balance</span></span> |
+| <span data-ttu-id="af31b-124">skriva ut en råbalansrapport med saldon och nettoförändringar för redovisningskonton.</span><span class="sxs-lookup"><span data-stu-id="af31b-124">Print a trial balance report with balances and net changes for general ledger accounts.</span></span> |<span data-ttu-id="af31b-125">Råbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-125">Trial Balance</span></span> |
+| <span data-ttu-id="af31b-126">skriva ut en råbalans för ett konsoliderat företag.</span><span class="sxs-lookup"><span data-stu-id="af31b-126">Print a trial balance for a consolidated company.</span></span> |<span data-ttu-id="af31b-127">Konsoliderad råbalans</span><span class="sxs-lookup"><span data-stu-id="af31b-127">Consolidated Trial Balance</span></span> |
 
-Om du vill se en rapport väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport") anger namnet som det visas i tabellen och väljer sedan relaterad länk.
+<span data-ttu-id="af31b-128">Om du vill se en rapport väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport") anger namnet som det visas i tabellen och väljer sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="af31b-128">To see a report, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, type the name as it appears in the table, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Se även
-[Avsluta år och perioder](year-close-years-periods.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="af31b-129">Se även</span><span class="sxs-lookup"><span data-stu-id="af31b-129">See Also</span></span>
+[<span data-ttu-id="af31b-130">Avsluta år och perioder</span><span class="sxs-lookup"><span data-stu-id="af31b-130">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="af31b-131">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="af31b-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 

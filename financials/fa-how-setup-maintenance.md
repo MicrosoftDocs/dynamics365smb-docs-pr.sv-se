@@ -16,39 +16,38 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>Så här skapar du underhåll av anläggningstillgångar
-Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.
+# <a name="how-to-set-up-fixed-asset-maintenance"></a><span data-ttu-id="88f72-103">Så här skapar du underhåll av anläggningstillgångar</span><span class="sxs-lookup"><span data-stu-id="88f72-103">How to: Set Up Fixed Asset Maintenance</span></span>
+<span data-ttu-id="88f72-104">Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.</span><span class="sxs-lookup"><span data-stu-id="88f72-104">To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.</span></span>
 
-## <a name="to-set-up-general-maintenance-information"></a>Så här ställer du in allmän underhållsinformation
-Om du skapar fält för underhåll kan du bokföra underhållskostnader från anläggningstillgångsjournalen.
+## <a name="to-set-up-general-maintenance-information"></a><span data-ttu-id="88f72-105">Så här ställer du in allmän underhållsinformation</span><span class="sxs-lookup"><span data-stu-id="88f72-105">To set up general maintenance information</span></span>
+<span data-ttu-id="88f72-106">Om du skapar fält för underhåll kan du bokföra underhållskostnader från anläggningstillgångsjournalen.</span><span class="sxs-lookup"><span data-stu-id="88f72-106">If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
-2. Markera den fasta anläggningstillgång som du definierar täckning av försäkring för välj sedan åtgärden **Redigera**.
-3. Fyll i så många fält som behövs på snabbfliken **Underhåll**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="88f72-107">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anläggningstillgångar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="88f72-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="88f72-108">Markera den fasta anläggningstillgång som du definierar täckning av försäkring för välj sedan åtgärden **Redigera**.</span><span class="sxs-lookup"><span data-stu-id="88f72-108">Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="88f72-109">Fyll i så många fält som behövs på snabbfliken **Underhåll**.</span><span class="sxs-lookup"><span data-stu-id="88f72-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-maintenance-codes"></a>Så här skapar du underhållskoder
-När du bokför underhållskostnader (från en redovisningsjournal eller en inköpsfaktura) fyller du i fältet **Underhållskod** för att ange vilken typ av underhåll som har utförts, t.ex. rutinservice eller reparation.
+## <a name="to-set-up-maintenance-codes"></a><span data-ttu-id="88f72-110">Så här skapar du underhållskoder</span><span class="sxs-lookup"><span data-stu-id="88f72-110">To set up maintenance codes</span></span>
+<span data-ttu-id="88f72-111">När du bokför underhållskostnader (från en redovisningsjournal eller en inköpsfaktura) fyller du i fältet **Underhållskod** för att ange vilken typ av underhåll som har utförts, t.ex. rutinservice eller reparation.</span><span class="sxs-lookup"><span data-stu-id="88f72-111">When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Underhåll** och välj sedan relaterad länk.
-2. Lägg upp koder för andra typer av underhållsarbete i fönstret **Underhåll**.
+1. <span data-ttu-id="88f72-112">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Underhåll** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="88f72-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="88f72-113">Lägg upp koder för andra typer av underhållsarbete i fönstret **Underhåll**.</span><span class="sxs-lookup"><span data-stu-id="88f72-113">In the **Maintenance** window, set up codes for different types of maintenance work.</span></span>
 
-## <a name="to-set-up-maintenance-expense-accounts"></a>Så här skapar du underhållskostnader
-Om du vill bokföra underhållskostnader måste du först ange ett kontonummer i fönstret **Anl. bokföringsmallar**.
+## <a name="to-set-up-maintenance-expense-accounts"></a><span data-ttu-id="88f72-114">Så här skapar du underhållskostnader</span><span class="sxs-lookup"><span data-stu-id="88f72-114">To set up maintenance expense accounts</span></span>
+<span data-ttu-id="88f72-115">Om du vill bokföra underhållskostnader måste du först ange ett kontonummer i fönstret **Anl. bokföringsmallar**.</span><span class="sxs-lookup"><span data-stu-id="88f72-115">To post maintenance costs, you must first enter an account number in the **FA Posting Groups** window.</span></span>
 
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl. bokföringsmallar** och välj sedan relaterad länk.
-2. Fyll i fältet **Underhållskostnader** för varje bokföringsmall.
+1. <span data-ttu-id="88f72-116">Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl. bokföringsmallar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="88f72-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>
+2. <span data-ttu-id="88f72-117">Fyll i fältet **Underhållskostnader** för varje bokföringsmall.</span><span class="sxs-lookup"><span data-stu-id="88f72-117">Fill in the **Maintenance Expense Account** field for each posting group.</span></span>
 
 > [!NOTE]  
->   Om du vill att underhållskostnaderna ska fördelas på avdelningar och/eller projekt måste du skapa en fördelningsnyckel Mer information finns i [Så här ställer du in allmänna funktioner för anläggningstillgångar](fa-how-setup-general.md).
+>   <span data-ttu-id="88f72-118">Om du vill att underhållskostnaderna ska fördelas på avdelningar och/eller projekt måste du skapa en fördelningsnyckel</span><span class="sxs-lookup"><span data-stu-id="88f72-118">To define that maintenance costs are allocated to departments or projects, set up an allocation keys.</span></span> <span data-ttu-id="88f72-119">Mer information finns i [Så här ställer du in allmänna funktioner för anläggningstillgångar](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="88f72-119">For more information, see [How to: Set Up General Fixed Assets Features](fa-how-setup-general.md).</span></span>
 
-## <a name="see-also"></a>Se även
-[Ställa in anläggningstillgångar](fa-setup.md)  
-[Anläggningstillgångar](fa-manage.md)  
-[Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="88f72-120">Se även</span><span class="sxs-lookup"><span data-stu-id="88f72-120">See Also</span></span>
+[<span data-ttu-id="88f72-121">Ställa in anläggningstillgångar</span><span class="sxs-lookup"><span data-stu-id="88f72-121">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="88f72-122">Anläggningstillgångar</span><span class="sxs-lookup"><span data-stu-id="88f72-122">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="88f72-123">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="88f72-123">Finance</span></span>](finance.md)  
+<span data-ttu-id="88f72-124">[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="88f72-124">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="88f72-125">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="88f72-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

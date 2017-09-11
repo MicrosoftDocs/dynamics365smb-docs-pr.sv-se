@@ -20,32 +20,32 @@ ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Översikt över uppgifter för att avsluta bokföringsperioder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tvingar dig inte att avsluta perioder, men det finns många periodslutsaktiviteter (månadsslut) som du kan göra. I det här avsnittet ges en översikt över valfria processer och aktiviteter för att avsluta perioder.  
+# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="e050f-103">Översikt över uppgifter för att avsluta bokföringsperioder</span><span class="sxs-lookup"><span data-stu-id="e050f-103">Overview of Tasks to Close Accounting Periods</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="e050f-104"> tvingar dig inte att avsluta perioder, men det finns många periodslutsaktiviteter (månadsslut) som du kan göra.</span><span class="sxs-lookup"><span data-stu-id="e050f-104"> does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="e050f-105">I det här avsnittet ges en översikt över valfria processer och aktiviteter för att avsluta perioder.</span><span class="sxs-lookup"><span data-stu-id="e050f-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
 
-## <a name="general-ledger"></a>Redovisning
-* Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik.  
+## <a name="general-ledger"></a><span data-ttu-id="e050f-106">Redovisning</span><span class="sxs-lookup"><span data-stu-id="e050f-106">General Ledger</span></span>
+* <span data-ttu-id="e050f-107">Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik.</span><span class="sxs-lookup"><span data-stu-id="e050f-107">Specify system-wide and user-specific posting periods.</span></span>  
 
-    Detta anger datumen som bokföring kan göras i. Beroende på vilka behov som finns i ditt företag kanske du vill tillåta bokföring i början av perioden eller mot slutet. Mer information finns [Så här anger du bokföringsperioder](finance-how-specify-posting-periods.md).  
-* Gör alla nödvändiga redovisningsjusteringar.  
-* Uppdatera och bokför återkommande journaler.  
+    <span data-ttu-id="e050f-108">Detta anger datumen som bokföring kan göras i.</span><span class="sxs-lookup"><span data-stu-id="e050f-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="e050f-109">Beroende på vilka behov som finns i ditt företag kanske du vill tillåta bokföring i början av perioden eller mot slutet.</span><span class="sxs-lookup"><span data-stu-id="e050f-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="e050f-110">Mer information finns [Så här anger du bokföringsperioder](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="e050f-110">For more information, see [How to: Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
+* <span data-ttu-id="e050f-111">Gör alla nödvändiga redovisningsjusteringar.</span><span class="sxs-lookup"><span data-stu-id="e050f-111">Make all necessary G/L adjustments.</span></span>  
+* <span data-ttu-id="e050f-112">Uppdatera och bokför återkommande journaler.</span><span class="sxs-lookup"><span data-stu-id="e050f-112">Update and post Recurring Journals.</span></span>  
   <!--* Process Consolidations-->
-* Kör kontouppställningar enligt följande:  
-  * Öppna fönstret **Kontouppställning** och klicka på **Skriv ut**.  
+* <span data-ttu-id="e050f-113">Kör kontouppställningar enligt följande:</span><span class="sxs-lookup"><span data-stu-id="e050f-113">Run account schedules as follows:</span></span>  
+  * <span data-ttu-id="e050f-114">Öppna fönstret **Kontouppställning** och klicka på **Skriv ut**.</span><span class="sxs-lookup"><span data-stu-id="e050f-114">Open the **Account Schedule** window, and then choose the **Print** action.</span></span>  
 
-## <a name="sales-and-receivables"></a>Försäljning
-* Bokför alla försäljningsorder, fakturor, kreditnotor och returorder.  
-* Bokför alla inbetalningsjournaler.  
-* Uppdatera och bokför återkommande journaler som hör till försäljning- och kundreskontra.  
-* Stäm av kundreskontra i redovisningen.  
-* Kör batch-jobbet **Ta bort fakturerade förs.order**  
+## <a name="sales-and-receivables"></a><span data-ttu-id="e050f-115">Försäljning</span><span class="sxs-lookup"><span data-stu-id="e050f-115">Sales and Receivables</span></span>
+* <span data-ttu-id="e050f-116">Bokför alla försäljningsorder, fakturor, kreditnotor och returorder.</span><span class="sxs-lookup"><span data-stu-id="e050f-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="e050f-117">Bokför alla inbetalningsjournaler.</span><span class="sxs-lookup"><span data-stu-id="e050f-117">Post all cash receipt journals.</span></span>  
+* <span data-ttu-id="e050f-118">Uppdatera och bokför återkommande journaler som hör till försäljning- och kundreskontra.</span><span class="sxs-lookup"><span data-stu-id="e050f-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
+* <span data-ttu-id="e050f-119">Stäm av kundreskontra i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="e050f-119">Reconcile accounts receivable to the general ledger.</span></span>  
+* <span data-ttu-id="e050f-120">Kör batch-jobbet **Ta bort fakturerade förs.order**</span><span class="sxs-lookup"><span data-stu-id="e050f-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
 
-## <a name="purchases-and-payables"></a>Inköp
-* Bokför alla inköps order, fakturor, kreditnotor och returorder.  
-* Bokför alla betalningsjournaler.  
-* Uppdatera och bokför återkommande journaler som relaterar till inköps- och leverantörsreskontra.  
-* Kör rapporten **Lev.skulder - ålder** och stäm av leverantörsskulder i redovisningen.  
-* Kör batch-jobbet **Ta bort fakturerade inköpsorder**  
+## <a name="purchases-and-payables"></a><span data-ttu-id="e050f-121">Inköp</span><span class="sxs-lookup"><span data-stu-id="e050f-121">Purchases and Payables</span></span>
+* <span data-ttu-id="e050f-122">Bokför alla inköps order, fakturor, kreditnotor och returorder.</span><span class="sxs-lookup"><span data-stu-id="e050f-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="e050f-123">Bokför alla betalningsjournaler.</span><span class="sxs-lookup"><span data-stu-id="e050f-123">Post all payment journals.</span></span>  
+* <span data-ttu-id="e050f-124">Uppdatera och bokför återkommande journaler som relaterar till inköps- och leverantörsreskontra.</span><span class="sxs-lookup"><span data-stu-id="e050f-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
+* <span data-ttu-id="e050f-125">Kör rapporten **Lev.skulder - ålder** och stäm av leverantörsskulder i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="e050f-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
+* <span data-ttu-id="e050f-126">Kör batch-jobbet **Ta bort fakturerade inköpsorder**</span><span class="sxs-lookup"><span data-stu-id="e050f-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
 
 <!-- ### Fixed Assets
 * Post all maintenance costs have been posted through the fixed asset journals or invoices.
@@ -57,11 +57,11 @@ ms.lasthandoff: 07/07/2017
 <!--### Intercompany
 * Process Intercompany Postings.-->
 
-## <a name="calculate-and-process-sales-tax"></a>Beräkna och bearbeta Omsättningsskatt
-* Fyll i skattmeddelanden.  
+## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="e050f-127">Beräkna och bearbeta Omsättningsskatt</span><span class="sxs-lookup"><span data-stu-id="e050f-127">Calculate and Process Sales Tax</span></span>
+* <span data-ttu-id="e050f-128">Fyll i skattmeddelanden.</span><span class="sxs-lookup"><span data-stu-id="e050f-128">Complete Tax Statements.</span></span>  
 
-## <a name="see-also"></a>Se även
-[Avsluta år och perioder](year-close-years-periods.md)  
-[Avsluta böcker](year-close-books.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="e050f-129">Se även</span><span class="sxs-lookup"><span data-stu-id="e050f-129">See Also</span></span>
+[<span data-ttu-id="e050f-130">Avsluta år och perioder</span><span class="sxs-lookup"><span data-stu-id="e050f-130">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="e050f-131">Avsluta böcker</span><span class="sxs-lookup"><span data-stu-id="e050f-131">Closing Books</span></span>](year-close-books.md)  
+<span data-ttu-id="e050f-132">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e050f-132">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

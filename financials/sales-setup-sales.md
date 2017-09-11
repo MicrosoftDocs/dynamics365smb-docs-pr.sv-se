@@ -16,29 +16,28 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-sales"></a>Konfigurera försäljning
-Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.
+# <a name="setting-up-sales"></a><span data-ttu-id="cbc73-103">Konfigurera försäljning</span><span class="sxs-lookup"><span data-stu-id="cbc73-103">Setting Up Sales</span></span>
+<span data-ttu-id="cbc73-104">Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.</span><span class="sxs-lookup"><span data-stu-id="cbc73-104">Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.</span></span>
 
-Först måste du definiera allmänna inställningar, till exempel vilka försäljningsdokument som krävs och hur deras värden bokförs. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
+<span data-ttu-id="cbc73-105">Först måste du definiera allmänna inställningar, till exempel vilka försäljningsdokument som krävs och hur deras värden bokförs.</span><span class="sxs-lookup"><span data-stu-id="cbc73-105">You must define the general setup, such as which sales documents are required and how their values are posted.</span></span> <span data-ttu-id="cbc73-106">Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.</span><span class="sxs-lookup"><span data-stu-id="cbc73-106">This general setup is typically performed once during the initial implementation.</span></span>
 
-En separat serie uppgifter relaterade till att registrera nya kunder är att registrera alla specialpriser eller rabattavtal som du har med varje kund.
+<span data-ttu-id="cbc73-107">En separat serie uppgifter relaterade till att registrera nya kunder är att registrera alla specialpriser eller rabattavtal som du har med varje kund.</span><span class="sxs-lookup"><span data-stu-id="cbc73-107">A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer.</span></span>
 
-Finansrelaterade försäljningar, till exempel betalningssätt och valutor, beskrivs i avsnittet Finans. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
+<span data-ttu-id="cbc73-108">Finansrelaterade försäljningar, till exempel betalningssätt och valutor, beskrivs i avsnittet Finans.</span><span class="sxs-lookup"><span data-stu-id="cbc73-108">Finance-related sales setup, such as payment methods and currencies, are covered in the Finance Setup section.</span></span> <span data-ttu-id="cbc73-109">Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="cbc73-109">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
 
-| Om du vill | Gå till |
+| <span data-ttu-id="cbc73-110">Om du vill</span><span class="sxs-lookup"><span data-stu-id="cbc73-110">To</span></span> | <span data-ttu-id="cbc73-111">Gå till</span><span class="sxs-lookup"><span data-stu-id="cbc73-111">See</span></span> |
 | --- | --- |
-| Skapa ett kundkort för varje kund som du säljer till. |[Så här registrerar du nya kunder](sales-how-register-new-customers.md) |
-| Låt kunder betala via PayPal, genom att välja PayPal-logotypen på försäljningsdokument. |[Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md) |
-| Ange olika rabatter och specialpriser som du beviljar kunden beroende på artikel, antal och/eller datum. |[Så här registrerar du försäljningspris-, rabatt- och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Skapa säljare så att du kan tilldela dem till kundkontakter eller mät säljares prestanda som grund för att beräkna deras försäljningprovision eller bonus. |[Så här skapar du säljare](sales-how-setup-salespeople.md) |
-| Ange hur försäljningsdokument ska skickas som standard för enskilda kunder eller för alla kunder när du väljer åtgärden **Bokför och skicka**. |[Så här konfigurerar du dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md) |
-| Konfigurera din e-post så att den innehåller en sammanfattning av informationen på försäljningsdokumentet som har skickats. |[Så här skickar du dokument som e-post](ui-how-send-documents-email.md). |
+| <span data-ttu-id="cbc73-112">Skapa ett kundkort för varje kund som du säljer till.</span><span class="sxs-lookup"><span data-stu-id="cbc73-112">Create a customer card for each customer that you sell to.</span></span> |[<span data-ttu-id="cbc73-113">Så här registrerar du nya kunder</span><span class="sxs-lookup"><span data-stu-id="cbc73-113">How to: Register New Customers</span></span>](sales-how-register-new-customers.md) |
+| <span data-ttu-id="cbc73-114">Låt kunder betala via PayPal, genom att välja PayPal-logotypen på försäljningsdokument.</span><span class="sxs-lookup"><span data-stu-id="cbc73-114">Enable customers to pay through PayPal by choosing the PayPal logo on sales documents.</span></span> |[<span data-ttu-id="cbc73-115">Så här aktiverar du kundutbetalning via PayPal</span><span class="sxs-lookup"><span data-stu-id="cbc73-115">How to: Enable Customer Payment Through PayPal</span></span>](sales-how-enable-payment-service-extensions.md) |
+| <span data-ttu-id="cbc73-116">Ange olika rabatter och specialpriser som du beviljar kunden beroende på artikel, antal och/eller datum.</span><span class="sxs-lookup"><span data-stu-id="cbc73-116">Enter the different discounts and special prices that you grant to customers depending on item, quantities, and/or date.</span></span> |[<span data-ttu-id="cbc73-117">Så här registrerar du försäljningspris-, rabatt- och betalningsavtal</span><span class="sxs-lookup"><span data-stu-id="cbc73-117">How to: Record Sales Price, Discount, and Payment Agreements</span></span>](sales-how-record-sales-price-discount-payment-agreements.md) |
+| <span data-ttu-id="cbc73-118">Skapa säljare så att du kan tilldela dem till kundkontakter eller mät säljares prestanda som grund för att beräkna deras försäljningprovision eller bonus.</span><span class="sxs-lookup"><span data-stu-id="cbc73-118">Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus.</span></span> |[<span data-ttu-id="cbc73-119">Så här skapar du säljare</span><span class="sxs-lookup"><span data-stu-id="cbc73-119">How to: Set Up Salespeople</span></span>](sales-how-setup-salespeople.md) |
+| <span data-ttu-id="cbc73-120">Ange hur försäljningsdokument ska skickas som standard för enskilda kunder eller för alla kunder när du väljer åtgärden **Bokför och skicka**.</span><span class="sxs-lookup"><span data-stu-id="cbc73-120">Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action.</span></span> |[<span data-ttu-id="cbc73-121">Så här konfigurerar du dokumentutskicksprofiler</span><span class="sxs-lookup"><span data-stu-id="cbc73-121">How to: Set Up Document Sending Profiles</span></span>](sales-how-setup-document-send-profiles.md) |
+| <span data-ttu-id="cbc73-122">Konfigurera din e-post så att den innehåller en sammanfattning av informationen på försäljningsdokumentet som har skickats.</span><span class="sxs-lookup"><span data-stu-id="cbc73-122">Set your email up to contain a summary of information in the sales document that is being sent.</span></span> |<span data-ttu-id="cbc73-123">[Så här skickar du dokument som e-post](ui-how-send-documents-email.md).</span><span class="sxs-lookup"><span data-stu-id="cbc73-123">[How to: Send Documents by Email](ui-how-send-documents-email.md).</span></span> |
 
-## <a name="see-also"></a>Se även
-[Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="cbc73-124">Se även</span><span class="sxs-lookup"><span data-stu-id="cbc73-124">See Also</span></span>
+[<span data-ttu-id="cbc73-125">Försäljning</span><span class="sxs-lookup"><span data-stu-id="cbc73-125">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="cbc73-126">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="cbc73-126">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

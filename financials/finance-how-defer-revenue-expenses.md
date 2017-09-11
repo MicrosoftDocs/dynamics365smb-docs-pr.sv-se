@@ -16,85 +16,85 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-defer-revenues-and-expenses"></a>Så här periodiserar du intäkter och kostnader
-För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över ett angivet schema.
+# <a name="how-to-defer-revenues-and-expenses"></a><span data-ttu-id="12fb6-103">Så här periodiserar du intäkter och kostnader</span><span class="sxs-lookup"><span data-stu-id="12fb6-103">How to: Defer Revenues and Expenses</span></span>
+<span data-ttu-id="12fb6-104">För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över ett angivet schema.</span><span class="sxs-lookup"><span data-stu-id="12fb6-104">To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.</span></span>
 
-Om du vill fördela kostnader eller intäkter i berörda bokföringsperioder kan du skapa en periodiseringsmall för resursen, artikeln eller redovisningskontot som kostnaden eller intäkten kommer att bokföras för. När du bokför relaterade försäljnings- eller inköpsdokument, periodiseras kostnaden eller intäkten till de relevanta bokföringsperioderna, enligt en periodiseringsschema som styrs av inställningarna i periodiseringsmallen och bokföringsdatumet.
+<span data-ttu-id="12fb6-105">Om du vill fördela kostnader eller intäkter i berörda bokföringsperioder kan du skapa en periodiseringsmall för resursen, artikeln eller redovisningskontot som kostnaden eller intäkten kommer att bokföras för.</span><span class="sxs-lookup"><span data-stu-id="12fb6-105">To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for.</span></span> <span data-ttu-id="12fb6-106">När du bokför relaterade försäljnings- eller inköpsdokument, periodiseras kostnaden eller intäkten till de relevanta bokföringsperioderna, enligt en periodiseringsschema som styrs av inställningarna i periodiseringsmallen och bokföringsdatumet.</span><span class="sxs-lookup"><span data-stu-id="12fb6-106">When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.</span></span>
 
 > [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+>   <span data-ttu-id="12fb6-107">Den här funktionen kräver att din upplevelse är inställd på **Paket**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-107">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="12fb6-108">Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="12fb6-108">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a>Så här anger du ett redovisningskonto för periodisering
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**.
-3. Fyll i fälten som behövs för att skapa ett redovisningskonto för periodiserade intäkter. Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).
-4. Upprepa steg 2 och 3 för att skapa ett nytt redovisningskonto för periodiserade kostnader.
+## <a name="to-set-up-a-gl-account-for-deferral"></a><span data-ttu-id="12fb6-109">Så här anger du ett redovisningskonto för periodisering</span><span class="sxs-lookup"><span data-stu-id="12fb6-109">To set up a G/L account for deferral</span></span>
+1. <span data-ttu-id="12fb6-110">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="12fb6-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12fb6-111">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-111">Choose the **New** action.</span></span>
+3. <span data-ttu-id="12fb6-112">Fyll i fälten som behövs för att skapa ett redovisningskonto för periodiserade intäkter.</span><span class="sxs-lookup"><span data-stu-id="12fb6-112">Fill in the fields as necessary to create a G/L account for deferred revenues.</span></span> <span data-ttu-id="12fb6-113">Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).</span><span class="sxs-lookup"><span data-stu-id="12fb6-113">For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).</span></span>
+4. <span data-ttu-id="12fb6-114">Upprepa steg 2 och 3 för att skapa ett nytt redovisningskonto för periodiserade kostnader.</span><span class="sxs-lookup"><span data-stu-id="12fb6-114">Repeat steps 2 and 3 to create a new G/L account for deferred expenses.</span></span>
 
-För båda typerna av periodisering väljer du **balansräkningen** i fältet **Typ** och namnger kontona på lämpligt sätt, till exempel ”förutbetald inkomst” för periodiserade intäkter och "obetalda kostnader" för periodiserade kostnader.
+<span data-ttu-id="12fb6-115">För båda typerna av periodisering väljer du **balansräkningen** i fältet **Typ** och namnger kontona på lämpligt sätt, till exempel ”förutbetald inkomst” för periodiserade intäkter och "obetalda kostnader" för periodiserade kostnader.</span><span class="sxs-lookup"><span data-stu-id="12fb6-115">For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.</span></span>
 
-## <a name="to-set-up-a-deferral-template"></a>Så här skapar du en periodiseringsmall
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Periodiseringsmallar** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**.
-3. Fyll i fälten om det behövs.
-4. I fältet **Beräkningsmetod** anger du hur fältet **Belopp** för varje period i fönstret **Periodiseringsschema** beräknas. Du kan välja mellan följande typer:
+## <a name="to-set-up-a-deferral-template"></a><span data-ttu-id="12fb6-116">Så här skapar du en periodiseringsmall</span><span class="sxs-lookup"><span data-stu-id="12fb6-116">To set up a deferral template</span></span>
+1. <span data-ttu-id="12fb6-117">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Periodiseringsmallar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="12fb6-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12fb6-118">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-118">Choose the **New** action.</span></span>
+3. <span data-ttu-id="12fb6-119">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="12fb6-119">Fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="12fb6-120">I fältet **Beräkningsmetod** anger du hur fältet **Belopp** för varje period i fönstret **Periodiseringsschema** beräknas.</span><span class="sxs-lookup"><span data-stu-id="12fb6-120">In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated.</span></span> <span data-ttu-id="12fb6-121">Du kan välja mellan följande typer:</span><span class="sxs-lookup"><span data-stu-id="12fb6-121">You can choose between the following options:</span></span>
 
-   * **Rak**: De periodiska periodiseringsbeloppen beräknas enligt antalet perioder som fördelas enligt periodlängd.
-   * **Linjär**: De periodiska periodiseringsbeloppen beräknas enligt antalet perioder som fördelas jämt över perioder.
-   * **Dagar per period**: De periodiska periodiseringsbeloppen beräknas enligt antalet dagar i perioden.
-   * **Användardefinierad**: De periodiska periodiseringsbeloppen beräknas inte. Du måste manuellt fylla i fältet **Belopp** för varje period i fönstret Periodiseringsschema. För mer information, se avsnittet “Så här ändrar du ett uppskjutandeschema från en försäljningsfaktura”.
-5. I fältet **Periodbesk.** anger du en beskrivning som visas i transaktioner för periodiseringsbokföringen. Du kan ange följande platshållarkoder för vanliga värden, som ska infogas automatiskt, när periodbeskrivningen visas.
+   * <span data-ttu-id="12fb6-122">**Rak**: De periodiska periodiseringsbeloppen beräknas enligt antalet perioder som fördelas enligt periodlängd.</span><span class="sxs-lookup"><span data-stu-id="12fb6-122">**Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.</span></span>
+   * <span data-ttu-id="12fb6-123">**Linjär**: De periodiska periodiseringsbeloppen beräknas enligt antalet perioder som fördelas jämt över perioder.</span><span class="sxs-lookup"><span data-stu-id="12fb6-123">**Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.</span></span>
+   * <span data-ttu-id="12fb6-124">**Dagar per period**: De periodiska periodiseringsbeloppen beräknas enligt antalet dagar i perioden.</span><span class="sxs-lookup"><span data-stu-id="12fb6-124">**Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.</span></span>
+   * <span data-ttu-id="12fb6-125">**Användardefinierad**: De periodiska periodiseringsbeloppen beräknas inte.</span><span class="sxs-lookup"><span data-stu-id="12fb6-125">**User-Defined**: The periodic deferral amounts are not calculated.</span></span> <span data-ttu-id="12fb6-126">Du måste manuellt fylla i fältet **Belopp** för varje period i fönstret Periodiseringsschema.</span><span class="sxs-lookup"><span data-stu-id="12fb6-126">You must manually fill the **Amount** field for each period in the Deferral Schedule window.</span></span> <span data-ttu-id="12fb6-127">För mer information, se avsnittet “Så här ändrar du ett uppskjutandeschema från en försäljningsfaktura”.</span><span class="sxs-lookup"><span data-stu-id="12fb6-127">For more information, see the “To change a deferral schedule from a sales invoice” section.</span></span>
+5. <span data-ttu-id="12fb6-128">I fältet **Periodbesk.**</span><span class="sxs-lookup"><span data-stu-id="12fb6-128">In the **Period Desc.**</span></span> <span data-ttu-id="12fb6-129">anger du en beskrivning som visas i transaktioner för periodiseringsbokföringen.</span><span class="sxs-lookup"><span data-stu-id="12fb6-129">field, specify a description that will be shown on entries for the deferral posting.</span></span> <span data-ttu-id="12fb6-130">Du kan ange följande platshållarkoder för vanliga värden, som ska infogas automatiskt, när periodbeskrivningen visas.</span><span class="sxs-lookup"><span data-stu-id="12fb6-130">You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.</span></span>
 
-   * %1 = Dagnumret för periodens bokföringsdatum
-   * %2 = Veckonumret för periodens bokföringsdatum
-   * %3 = Månadsnumret för periodens bokföringsdatum
-   * %4 = Månadsnamnet för periodens bokföringsdatum
-   * %5 = Bokföringsperiodnamnet för periodens bokföringsdatum
-   * %6 = Räkenskapsåret för periodens bokföringsdatum
+   * <span data-ttu-id="12fb6-131">%1 = Dagnumret för periodens bokföringsdatum</span><span class="sxs-lookup"><span data-stu-id="12fb6-131">%1 = The day number of the period posting date</span></span>
+   * <span data-ttu-id="12fb6-132">%2 = Veckonumret för periodens bokföringsdatum</span><span class="sxs-lookup"><span data-stu-id="12fb6-132">%2 = The week number of the period posting date</span></span>
+   * <span data-ttu-id="12fb6-133">%3 = Månadsnumret för periodens bokföringsdatum</span><span class="sxs-lookup"><span data-stu-id="12fb6-133">%3 = The month number of the period posting date</span></span>
+   * <span data-ttu-id="12fb6-134">%4 = Månadsnamnet för periodens bokföringsdatum</span><span class="sxs-lookup"><span data-stu-id="12fb6-134">%4 = The month name of the period posting date</span></span>
+   * <span data-ttu-id="12fb6-135">%5 = Bokföringsperiodnamnet för periodens bokföringsdatum</span><span class="sxs-lookup"><span data-stu-id="12fb6-135">%5 = The accounting period name of the period posting date</span></span>
+   * <span data-ttu-id="12fb6-136">%6 = Räkenskapsåret för periodens bokföringsdatum</span><span class="sxs-lookup"><span data-stu-id="12fb6-136">%6 = The fiscal year of the period posting date</span></span>
 
-Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodiserade för %4 %6" kommer beskrivningen som visas vara ”kostnader som periodiseras för februari 2016”.
+<span data-ttu-id="12fb6-137">Exempel: bokföringsdatumet är 2016-02-06.</span><span class="sxs-lookup"><span data-stu-id="12fb6-137">Example: The posting date is 02/06/2016.</span></span> <span data-ttu-id="12fb6-138">Om du anger ”kostnader periodiserade för %4 %6" kommer beskrivningen som visas vara ”kostnader som periodiseras för februari 2016”.</span><span class="sxs-lookup"><span data-stu-id="12fb6-138">If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".</span></span>
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a>Så här tilldelar du en periodiseringsmall till en artikel
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Periodiseringsmallar** och välj sedan relaterad länk.
-2. Öppna kortet för den artikel som intäkter och kostnader måste periodiseras för till de bokföringsperioder när artikeln såldes eller köptes.
-3. I fältet **Standardmall för periodisering** väljer du relevant periodiseringsmall.
+## <a name="to-assign-a-deferral-template-to-an-item"></a><span data-ttu-id="12fb6-139">Så här tilldelar du en periodiseringsmall till en artikel</span><span class="sxs-lookup"><span data-stu-id="12fb6-139">To assign a deferral template to an item</span></span>
+1. <span data-ttu-id="12fb6-140">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Periodiseringsmallar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="12fb6-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12fb6-141">Öppna kortet för den artikel som intäkter och kostnader måste periodiseras för till de bokföringsperioder när artikeln såldes eller köptes.</span><span class="sxs-lookup"><span data-stu-id="12fb6-141">Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.</span></span>
+3. <span data-ttu-id="12fb6-142">I fältet **Standardmall för periodisering** väljer du relevant periodiseringsmall.</span><span class="sxs-lookup"><span data-stu-id="12fb6-142">In the **Default Deferral Template** field, select the relevant deferral template.</span></span>
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Så här ändrar du en periodiseringsmall från en försäljningsfaktura
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><span data-ttu-id="12fb6-143">Så här ändrar du en periodiseringsmall från en försäljningsfaktura</span><span class="sxs-lookup"><span data-stu-id="12fb6-143">To change a deferral schedule from a sales invoice</span></span>
 > [!NOTE]  
->   Stegen i den här proceduren är samma som när du ändrar ett periodiseringsschema för kostnader från en inköpsfaktura.
+>   <span data-ttu-id="12fb6-144">Stegen i den här proceduren är samma som när du ändrar ett periodiseringsschema för kostnader från en inköpsfaktura.</span><span class="sxs-lookup"><span data-stu-id="12fb6-144">The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsfakturor** och välj sedan relaterad länk.
-2. Skapa en försäljningsfaktura för en artikel som har tilldelats en periodiseringsmall. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md).
+1. <span data-ttu-id="12fb6-145">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsfakturor** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="12fb6-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12fb6-146">Skapa en försäljningsfaktura för en artikel som har tilldelats en periodiseringsmall.</span><span class="sxs-lookup"><span data-stu-id="12fb6-146">Create a sales invoice for an item that has a deferral template assigned.</span></span> <span data-ttu-id="12fb6-147">Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md).</span><span class="sxs-lookup"><span data-stu-id="12fb6-147">For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).</span></span>
 
-    Observera att så snart du anger artikeln (eller resursen eller redovisningskontot) för fakturaraden kommer fältet **Periodiseringskod** att fyllas i med koden för den tilldelade periodiseringsmallen.
-3. Välj åtgärden **periodiseringsmall**.
-4. I fönstret **Periodiseringsschema** ändrar du inställningar i rubriken eller värden på raderna, till exempel för att periodisera beloppet till en ytterligare bokföringsperiod.
-5. Välj åtgärden **Beräkna schema**.
-6. Välj **OK**. Periodiseringsschemat uppdateras för försäljningsfakturan. Den relaterade periodiseringsmallen är oförändrad.
+    <span data-ttu-id="12fb6-148">Observera att så snart du anger artikeln (eller resursen eller redovisningskontot) för fakturaraden kommer fältet **Periodiseringskod** att fyllas i med koden för den tilldelade periodiseringsmallen.</span><span class="sxs-lookup"><span data-stu-id="12fb6-148">Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.</span></span>
+3. <span data-ttu-id="12fb6-149">Välj åtgärden **periodiseringsmall**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-149">Choose the **Deferral Schedule** action.</span></span>
+4. <span data-ttu-id="12fb6-150">I fönstret **Periodiseringsschema** ändrar du inställningar i rubriken eller värden på raderna, till exempel för att periodisera beloppet till en ytterligare bokföringsperiod.</span><span class="sxs-lookup"><span data-stu-id="12fb6-150">In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.</span></span>
+5. <span data-ttu-id="12fb6-151">Välj åtgärden **Beräkna schema**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-151">Choose the **Calculate Schedule** action.</span></span>
+6. <span data-ttu-id="12fb6-152">Välj **OK**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-152">Choose the **OK** button.</span></span> <span data-ttu-id="12fb6-153">Periodiseringsschemat uppdateras för försäljningsfakturan.</span><span class="sxs-lookup"><span data-stu-id="12fb6-153">The deferral schedule is updated for the sales invoice.</span></span> <span data-ttu-id="12fb6-154">Den relaterade periodiseringsmallen är oförändrad.</span><span class="sxs-lookup"><span data-stu-id="12fb6-154">The related deferral template is unchanged.</span></span>
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Om du vill förhandsgranska hur periodiserade intäkter eller kostnader ska bokföras i redovisningen
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><span data-ttu-id="12fb6-155">Om du vill förhandsgranska hur periodiserade intäkter eller kostnader ska bokföras i redovisningen</span><span class="sxs-lookup"><span data-stu-id="12fb6-155">To preview how deferred revenues or expenses will be posted to the general ledger</span></span>
 > [!NOTE]  
->   Stegen i den proceduren är samma som när du granskar hur kostnadsperiodiseringar bokförs.
+>   <span data-ttu-id="12fb6-156">Stegen i den proceduren är samma som när du granskar hur kostnadsperiodiseringar bokförs.</span><span class="sxs-lookup"><span data-stu-id="12fb6-156">The steps in this procedure are the same as when you preview how expense deferrals are posted.</span></span>
 
-1. I fönstret **Försäljningsfaktura** väljer du åtgärden **Förhandsgranska bokföring**.
-2. I fönstret **Förhandsgranska bokföring** väljer du åtgärden **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.
+1. <span data-ttu-id="12fb6-157">I fönstret **Försäljningsfaktura** väljer du åtgärden **Förhandsgranska bokföring**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-157">In the **Sales Invoice** window, choose the **Preview Posting** action.</span></span>
+2. <span data-ttu-id="12fb6-158">I fönstret **Förhandsgranska bokföring** väljer du åtgärden **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-158">In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.</span></span>
 
-Redovisningstransaktioner som kommer att bokföras på det angivna periodiseringskontot, till exempel förutbetald inkomst, anges med beskrivningen som du angav i fältet **Periodbesk.** i periodiseringsmallen till exempel "kostnader som periodiseras för februari 2016 ".
+<span data-ttu-id="12fb6-159">Redovisningstransaktioner som kommer att bokföras på det angivna periodiseringskontot, till exempel förutbetald inkomst, anges med beskrivningen som du angav i fältet **Periodbesk.**</span><span class="sxs-lookup"><span data-stu-id="12fb6-159">G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.**</span></span> <span data-ttu-id="12fb6-160">i periodiseringsmallen till exempel "kostnader som periodiseras för februari 2016 ".</span><span class="sxs-lookup"><span data-stu-id="12fb6-160">field in the deferral template, for example, "Expenses deferred for February 2016".</span></span>
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Om du vill förhandsgranska bokförda periodiseringar i rapporten Periodiseringssammanfattning för försäljning
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><span data-ttu-id="12fb6-161">Om du vill förhandsgranska bokförda periodiseringar i rapporten Periodiseringssammanfattning för försäljning</span><span class="sxs-lookup"><span data-stu-id="12fb6-161">To review posted deferrals in the Sales Deferral Summary report</span></span>
 > [!NOTE]  
->   Stegen i den proceduren är samma som när du granskar Periodiseringssammanfattning för försäljning.
+>   <span data-ttu-id="12fb6-162">Stegen i den proceduren är samma som när du granskar Periodiseringssammanfattning för försäljning.</span><span class="sxs-lookup"><span data-stu-id="12fb6-162">The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Periodiseringsmallar** och välj sedan relaterad länk.
-2. I fönstret **Periodiseringssammanfattning för försäljning** i fältet **Saldo fr.o.m.:** anger du datum fram till vilket du vill se periodiserade intäkter.
-3. Klicka på **Förhandsgranska**.
+1. <span data-ttu-id="12fb6-163">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Periodiseringsmallar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="12fb6-163">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Deferral Summary**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12fb6-164">I fönstret **Periodiseringssammanfattning för försäljning** i fältet **Saldo fr.o.m.:** anger du datum fram till vilket du vill se periodiserade intäkter.</span><span class="sxs-lookup"><span data-stu-id="12fb6-164">In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.</span></span>
+3. <span data-ttu-id="12fb6-165">Klicka på **Förhandsgranska**.</span><span class="sxs-lookup"><span data-stu-id="12fb6-165">Choose the **Preview** button.</span></span>
 
-## <a name="see-also"></a>Se även
-[Ekonomi](finance.md)  
-[Ställa in Finance](finance-setup-finance.md)  
-[Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="12fb6-166">Se även</span><span class="sxs-lookup"><span data-stu-id="12fb6-166">See Also</span></span>
+[<span data-ttu-id="12fb6-167">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="12fb6-167">Finance</span></span>](finance.md)  
+[<span data-ttu-id="12fb6-168">Ställa in Finance</span><span class="sxs-lookup"><span data-stu-id="12fb6-168">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="12fb6-169">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="12fb6-169">Working with General Journals</span></span>](ui-work-general-journals.md)  
+<span data-ttu-id="12fb6-170">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="12fb6-170">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

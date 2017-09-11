@@ -16,24 +16,23 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-banking"></a>Ställa in bank
-Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.
+# <a name="setting-up-banking"></a><span data-ttu-id="03045-103">Ställa in bank</span><span class="sxs-lookup"><span data-stu-id="03045-103">Setting Up Banking</span></span>
+<span data-ttu-id="03045-104">Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta.</span><span class="sxs-lookup"><span data-stu-id="03045-104">Using bank account cards, you can keep track of all your bank accounts, in any currency.</span></span> <span data-ttu-id="03045-105">När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.</span><span class="sxs-lookup"><span data-stu-id="03045-105">After you have set up the bank accounts, you can also use the check printing option.</span></span>
 
-Om du vill använda elektroniska banktjänster för att importera kontoutdrag och exportera betalningar måste du skapa och aktivera de relevanta tjänsterna.
+<span data-ttu-id="03045-106">Om du vill använda elektroniska banktjänster för att importera kontoutdrag och exportera betalningar måste du skapa och aktivera de relevanta tjänsterna.</span><span class="sxs-lookup"><span data-stu-id="03045-106">To use electronic banking services to import bank statements and  export payments, you must set up and enable the involved services.</span></span>
 
-| Om du vill | Gå till |
+| <span data-ttu-id="03045-107">Om du vill</span><span class="sxs-lookup"><span data-stu-id="03045-107">To</span></span> | <span data-ttu-id="03045-108">Gå till</span><span class="sxs-lookup"><span data-stu-id="03045-108">See</span></span> |
 | --- | --- |
-| skapa bankkontokort för vart och ett av dina bankkonton, så att du kan hålla reda på alla banktransaktioner. |[Så här skapar du bankkonton](bank-how-setup-bank-accounts.md) |
-| Konfigurera en extern tjänst som låter dig importera kontoutdrag som bankfeeds för betalningskoppling och bankkontoavstämning. |[Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder](bank-how-setup-bank-statement-service.md) |
-| Konfigurera en extern tjänst som låter dig exportera dina betalningar till banken för bearbetning och importera kontoutdrag som bankfiler för betalningskoppling och bankkontoavstämning. |[Så här ställer du in tjänsten bankdatakonvertering](bank-how-setup-bank-data-conversion-service.md) |
+| <span data-ttu-id="03045-109">skapa bankkontokort för vart och ett av dina bankkonton, så att du kan hålla reda på alla banktransaktioner.</span><span class="sxs-lookup"><span data-stu-id="03045-109">Set up bank account cards for each of your bank accounts, so you can keep track of banking transactions.</span></span> |[<span data-ttu-id="03045-110">Så här skapar du bankkonton</span><span class="sxs-lookup"><span data-stu-id="03045-110">How to: Set Up Bank Accounts</span></span>](bank-how-setup-bank-accounts.md) |
+| <span data-ttu-id="03045-111">Konfigurera en extern tjänst som låter dig importera kontoutdrag som bankfeeds för betalningskoppling och bankkontoavstämning.</span><span class="sxs-lookup"><span data-stu-id="03045-111">Set up an external service that enables you to import bank statements as bank feeds for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="03045-112">Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder</span><span class="sxs-lookup"><span data-stu-id="03045-112">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md) |
+| <span data-ttu-id="03045-113">Konfigurera en extern tjänst som låter dig exportera dina betalningar till banken för bearbetning och importera kontoutdrag som bankfiler för betalningskoppling och bankkontoavstämning.</span><span class="sxs-lookup"><span data-stu-id="03045-113">Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="03045-114">Så här ställer du in tjänsten bankdatakonvertering</span><span class="sxs-lookup"><span data-stu-id="03045-114">How to: Set Up the Bank Data Conversion Service</span></span>](bank-how-setup-bank-data-conversion-service.md) |
 
-## <a name="see-also"></a>Se även
-[Hantera bankkonton](bank-manage-bank-accounts.md)  
-[Hantera kundreskontra](receivables-manage-receivables.md)  
-[Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="03045-115">Se även</span><span class="sxs-lookup"><span data-stu-id="03045-115">See Also</span></span>
+[<span data-ttu-id="03045-116">Hantera bankkonton</span><span class="sxs-lookup"><span data-stu-id="03045-116">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="03045-117">Hantera kundreskontra</span><span class="sxs-lookup"><span data-stu-id="03045-117">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+[<span data-ttu-id="03045-118">Hantera Leverantörsreskontra</span><span class="sxs-lookup"><span data-stu-id="03045-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="03045-119">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="03045-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

@@ -16,72 +16,71 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0284e419280be2d1faba4ac2bf40dac6f78823ed
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-work-with-account-schedules"></a>Så här: Arbeta med kontouppställningar
-Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram på startsidan, till exempel diagram för kassaflöde.  
+# <a name="how-to-work-with-account-schedules"></a><span data-ttu-id="0b2a2-103">Så här: Arbeta med kontouppställningar</span><span class="sxs-lookup"><span data-stu-id="0b2a2-103">How to: Work with Account Schedules</span></span>
+<span data-ttu-id="0b2a2-104">Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-104">Use account schedules to get insight into the financial data stored in your chart of accounts.</span></span> <span data-ttu-id="0b2a2-105">Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-105">Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries.</span></span> <span data-ttu-id="0b2a2-106">Resultaten visas i diagram på startsidan, till exempel diagram för kassaflöde.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-106">The results display in charts on your Home page, such as the Cash Flow chart.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller några exempel på kontouppställningar som du kan använda direkt eller så kan du ange egna rader och kolumner för att jämföra siffrorna. Du kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Du kan skapa så många anpassade finansiella rapporter som du önskar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="0b2a2-107"> innehåller några exempel på kontouppställningar som du kan använda direkt eller så kan du ange egna rader och kolumner för att jämföra siffrorna.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-107"> provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare.</span></span> <span data-ttu-id="0b2a2-108">Du kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-108">For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups.</span></span> <span data-ttu-id="0b2a2-109">Du kan skapa så många anpassade finansiella rapporter som du önskar.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-109">You can create as many customized financial statements as you want.</span></span>  
 
-Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna. Detta kräver att budgetar som skapas. (Mer information finns i [Så här skapar du budgetar](finance-how-create-budgets.md).)
-
-> [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
-
-## <a name="account-categories-and-account-schedules"></a>Kontokategorier och kontouppställningar
-Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat din kontokategorier i fönstret **Redovisningskontokategorier** och du väljer åtgärden **Skapa kontouppställningar** uppdateras de underliggande kontouppställningarna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel kontoavstämning kommer nya summor och underposter att läggas till, baserat på ändringarna. Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).  
-
-## <a name="to-create-new-account-schedules"></a>Så här skapar du nya kontouppställningar  
- Du använder kontouppställningar för att analysera siffror för redovisningskonton eller jämföra redovisningstransaktioner med redovisningsbudgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
-
-1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **kontouppställningar**, och välj sedan relaterad länk.  
-2. I fönstret **Kontouppställningsnamn** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Välj åtgärden **Redigera kontouppställning**.
-5. I fönstret **Kontouppställning** fyller du i fälten.  
-
-    När du har skapat en ny kontouppställning och skapat raderna måste du skapa kolumner. Du kan skapa kolumnerna manuellt eller tilldela en fördefinierad kolumnlayout till kontouppställningen.
-6. Välj åtgärden **Redigera inställning av kolumnlayout**.
-7. I fönstret **Kolumnlayout** fyller du i fälten.
+<span data-ttu-id="0b2a2-110">Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-110">Setting up account schedules requires an understanding of the financial data in the chart of accounts.</span></span> <span data-ttu-id="0b2a2-111">Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-111">For example, you can view general ledger entries as percentages of budget entries.</span></span> <span data-ttu-id="0b2a2-112">Detta kräver att budgetar som skapas.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-112">This requires that budgets are created.</span></span> <span data-ttu-id="0b2a2-113">(Mer information finns i [Så här skapar du budgetar](finance-how-create-budgets.md).)</span><span class="sxs-lookup"><span data-stu-id="0b2a2-113">For more information, see [How to: Create Budgets](finance-how-create-budgets.md).</span></span>
 
 > [!NOTE]  
->   Om du inte tilldelar en standardkolumnlayout till kontouppställningen måste du  lägga upp kolumner manuellt.   
+>   <span data-ttu-id="0b2a2-114">Den här funktionen kräver att din upplevelse är inställd på **Paket**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="0b2a2-115">Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="0b2a2-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser  
-Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t.ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
+## <a name="account-categories-and-account-schedules"></a><span data-ttu-id="0b2a2-116">Kontokategorier och kontouppställningar</span><span class="sxs-lookup"><span data-stu-id="0b2a2-116">Account Categories and Account Schedules</span></span>
+<span data-ttu-id="0b2a2-117">Du kan använda kontokategorier för att ändra layout på din redovisning.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-117">You can use account categories to change the layout of your financial statements.</span></span> <span data-ttu-id="0b2a2-118">När du har upprättat din kontokategorier i fönstret **Redovisningskontokategorier** och du väljer åtgärden **Skapa kontouppställningar** uppdateras de underliggande kontouppställningarna för de centrala ekonomiska rapporterna.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-118">After you set up your account categories in the **G/L Account Categories** window, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated.</span></span> <span data-ttu-id="0b2a2-119">Nästa gång du kör någon av dessa rapporter, till exempel kontoavstämning kommer nya summor och underposter att läggas till, baserat på ändringarna.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-119">The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes.</span></span> <span data-ttu-id="0b2a2-120">Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).</span><span class="sxs-lookup"><span data-stu-id="0b2a2-120">For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).</span></span>  
 
-1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **kontouppställningar**, och välj sedan relaterad länk.
-2. Välj en kontouppställning i fönstret **Kontouppställningsnamn**.  
-3. Välj åtgärden **Redigera kontouppställning** för att skapa en kontouppställningsrad för att beräkna den summa som procentsatserna ska baseras på .  
-4. Infoga en rad direkt ovanför den första raden för vilken du vill visa en procentsats.  
-5. Fyll i fälten på raden på följande sätt: I fältet **summeringstyp** anger du **inställningsbas för procent**. I fältet **Summeringsintervall** anger du en formel för den summa som procentsatsen kommer att baseras på. Ange till exempel **11** om rad 11 innehåller den totala försäljningen.  
-6. Välj åtgärden **Redigera inställning av kolumnlayout** för att ange en kolumn.  
-7. Fyll i fälten på raden på följande sätt: I fältet **kolumntyp** väljer **formeln**. I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av %. Om till exempel kolumn N innehåller nettoförändringen anger du **N%**.  
-8. Upprepa steg 4-7 för varje grupp av kolumner som du vill dela upp per procentsats.
+## <a name="to-create-new-account-schedules"></a><span data-ttu-id="0b2a2-121">Så här skapar du nya kontouppställningar</span><span class="sxs-lookup"><span data-stu-id="0b2a2-121">To create new account schedules</span></span>  
+ <span data-ttu-id="0b2a2-122">Du använder kontouppställningar för att analysera siffror för redovisningskonton eller jämföra redovisningstransaktioner med redovisningsbudgettransaktioner.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-122">You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries.</span></span> <span data-ttu-id="0b2a2-123">Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-123">For example, you can view the general ledger entries as percentages of the budget entries.</span></span>
 
-## <a name="to-set-up-account-schedules-with-overviews"></a>Så här skapar du kontouppställningar med översikter  
-Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.
+1. <span data-ttu-id="0b2a2-124">Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **kontouppställningar**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="0b2a2-125">I fönstret **Kontouppställningsnamn** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-125">In the **Account Schedule Names** window, choose the **New** action to create a new account schedule name.</span></span>
+3. <span data-ttu-id="0b2a2-126">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-126">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="0b2a2-127">Välj åtgärden **Redigera kontouppställning**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-127">Choose the **Edit Account Schedule** action.</span></span>
+5. <span data-ttu-id="0b2a2-128">I fönstret **Kontouppställning** fyller du i fälten.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-128">In the **Account Schedule** window, fill in the fields as necessary.</span></span>  
 
-1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **kontouppställningar**, och välj sedan relaterad länk.
-2. Välj en kontouppställning i fönstret **Kontouppställningsnamn**.  
-3. Välj åtgärden **Redigera kontouppställning**.  
-4. I fönstret **Kontouppställning** väljer du önskat kontouppställningsnamn i fältet **Namn**.
-5. Välj åtgärden **Infoga konton**.  
-6. Markera de konton som du vill inkludera i utdraget och välj sedan **OK**.
+    <span data-ttu-id="0b2a2-129">När du har skapat en ny kontouppställning och skapat raderna måste du skapa kolumner.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-129">When you have created a new account schedule and set up the rows, you must set up columns.</span></span> <span data-ttu-id="0b2a2-130">Du kan skapa kolumnerna manuellt eller tilldela en fördefinierad kolumnlayout till kontouppställningen.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-130">You can either set them up manually or assign a predefined column layout to your account schedule.</span></span>
+6. <span data-ttu-id="0b2a2-131">Välj åtgärden **Redigera inställning av kolumnlayout**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-131">Choose the **Edit Column Layout Setup** action.</span></span>
+7. <span data-ttu-id="0b2a2-132">I fönstret **Kolumnlayout** fyller du i fälten.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-132">In the **Column Layout** window, fill in the fields as necessary.</span></span>
 
-    Kontona infogas i kontouppställningen. Om du vill kan du ändra kolumnens layout.  
-7. Välj åtgärden **Översikt**.  
-8. Klicka på snabbfliken **Dimensionsfilter** och ställ in budgetfiltret på önskat filternamn.  
-9. Välj **OK**.  
+> [!NOTE]  
+>   <span data-ttu-id="0b2a2-133">Om du inte tilldelar en standardkolumnlayout till kontouppställningen måste du  lägga upp kolumner manuellt.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-133">If you did not assign a default column layout to the account schedule, you must set the columns up manually.</span></span>   
 
-Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.
+### <a name="to-create-a-column-that-calculates-percentages"></a><span data-ttu-id="0b2a2-134">Så här skapar du en kolumn för att beräkna procentsatser</span><span class="sxs-lookup"><span data-stu-id="0b2a2-134">To create a column that calculates percentages</span></span>  
+<span data-ttu-id="0b2a2-135">Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-135">Sometimes you may want to include a column in an account schedule to calculate percentages of a total.</span></span> <span data-ttu-id="0b2a2-136">Om du t.ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-136">For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.</span></span>
 
-## <a name="see-also"></a>Se även
-[Affärsstöd](bi.md)  
-[Ekonomi](finance.md)  
-[Ställa in Finance](finance-setup-finance.md)  
-[Redovisningen och kontoplanen](finance-general-ledger.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+1. <span data-ttu-id="0b2a2-137">Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **kontouppställningar**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0b2a2-138">Välj en kontouppställning i fönstret **Kontouppställningsnamn**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-138">In the **Account Schedule Names** window, select an account schedule.</span></span>  
+3. <span data-ttu-id="0b2a2-139">Välj åtgärden **Redigera kontouppställning** för att skapa en kontouppställningsrad för att beräkna den summa som procentsatserna ska baseras på .</span><span class="sxs-lookup"><span data-stu-id="0b2a2-139">Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.</span></span>  
+4. <span data-ttu-id="0b2a2-140">Infoga en rad direkt ovanför den första raden för vilken du vill visa en procentsats.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-140">Insert a line immediately above the first row for which you want to display a percentage.</span></span>  
+5. <span data-ttu-id="0b2a2-141">Fyll i fälten på raden på följande sätt: I fältet **summeringstyp** anger du **inställningsbas för procent**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-141">Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent**.</span></span> <span data-ttu-id="0b2a2-142">I fältet **Summeringsintervall** anger du en formel för den summa som procentsatsen kommer att baseras på.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-142">In the **Totaling** field, enter a formula for the total that the percentage will be based on.</span></span> <span data-ttu-id="0b2a2-143">Ange till exempel **11** om rad 11 innehåller den totala försäljningen.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-143">For example, if row 11 contains the total sales, enter **11**.</span></span>  
+6. <span data-ttu-id="0b2a2-144">Välj åtgärden **Redigera inställning av kolumnlayout** för att ange en kolumn.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-144">Choose the **Edit Column Layout Setup** action to set up a column.</span></span>  
+7. <span data-ttu-id="0b2a2-145">Fyll i fälten på raden på följande sätt: I fältet **kolumntyp** väljer **formeln**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-145">Fill in the fields on the line as follows: In the **Column Type** field, select **Formula**.</span></span> <span data-ttu-id="0b2a2-146">I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av %.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-146">In the **Formula** field, enter a formula for the amount that you want to calculate a percentage for, followed by %.</span></span> <span data-ttu-id="0b2a2-147">Om till exempel kolumn N innehåller nettoförändringen anger du **N%**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-147">For example, if column number N contains the net change, enter **N%**.</span></span>  
+8. <span data-ttu-id="0b2a2-148">Upprepa steg 4-7 för varje grupp av kolumner som du vill dela upp per procentsats.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-148">Repeat steps 4 through 7 for each group of rows that you want to break down by percentage.</span></span>
+
+## <a name="to-set-up-account-schedules-with-overviews"></a><span data-ttu-id="0b2a2-149">Så här skapar du kontouppställningar med översikter</span><span class="sxs-lookup"><span data-stu-id="0b2a2-149">To set up account schedules with overviews</span></span>  
+<span data-ttu-id="0b2a2-150">Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-150">You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.</span></span>
+
+1. <span data-ttu-id="0b2a2-151">Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **kontouppställningar**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0b2a2-152">Välj en kontouppställning i fönstret **Kontouppställningsnamn**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-152">In the **Account Schedule Names** window, select an account schedule.</span></span>  
+3. <span data-ttu-id="0b2a2-153">Välj åtgärden **Redigera kontouppställning**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-153">Choose the **Edit Account Schedule** action</span></span>  
+4. <span data-ttu-id="0b2a2-154">I fönstret **Kontouppställning** väljer du önskat kontouppställningsnamn i fältet **Namn**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-154">In the **Account Schedule** window, in the **Name** field, select the default account schedule name.</span></span>
+5. <span data-ttu-id="0b2a2-155">Välj åtgärden **Infoga konton**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-155">Choose the **Insert Accounts** action.</span></span>  
+6. <span data-ttu-id="0b2a2-156">Markera de konton som du vill inkludera i utdraget och välj sedan **OK**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-156">Select the accounts that you want to include in your statement, and then choose the **OK** button.</span></span>
+
+    <span data-ttu-id="0b2a2-157">Kontona infogas i kontouppställningen.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-157">The accounts are now inserted into your account schedule.</span></span> <span data-ttu-id="0b2a2-158">Om du vill kan du ändra kolumnens layout.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-158">If you want you can also change the column layout.</span></span>  
+7. <span data-ttu-id="0b2a2-159">Välj åtgärden **Översikt**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-159">Choose the **Overview** action.</span></span>  
+8. <span data-ttu-id="0b2a2-160">Klicka på snabbfliken **Dimensionsfilter** och ställ in budgetfiltret på önskat filternamn.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-160">On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.</span></span>  
+9. <span data-ttu-id="0b2a2-161">Välj **OK**.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-161">Choose the **OK** button.</span></span>  
+
+<span data-ttu-id="0b2a2-162">Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.</span><span class="sxs-lookup"><span data-stu-id="0b2a2-162">Now you can copy and paste your budget statement into a spreadsheet.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="0b2a2-163">Se även</span><span class="sxs-lookup"><span data-stu-id="0b2a2-163">See Also</span></span>
+[<span data-ttu-id="0b2a2-164">Affärsstöd</span><span class="sxs-lookup"><span data-stu-id="0b2a2-164">Business Intelligence</span></span>](bi.md)  
+[<span data-ttu-id="0b2a2-165">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="0b2a2-165">Finance</span></span>](finance.md)  
+[<span data-ttu-id="0b2a2-166">Ställa in Finance</span><span class="sxs-lookup"><span data-stu-id="0b2a2-166">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="0b2a2-167">Redovisningen och kontoplanen</span><span class="sxs-lookup"><span data-stu-id="0b2a2-167">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+<span data-ttu-id="0b2a2-168">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0b2a2-168">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

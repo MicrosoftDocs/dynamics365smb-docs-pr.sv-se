@@ -16,37 +16,36 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-web-sources-for-contact-companies"></a>Så här: Skapa Webbadresser för kontaktföretag
-Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
+# <a name="how-to-set-up-web-sources-for-contact-companies"></a><span data-ttu-id="2f04a-103">Så här: Skapa Webbadresser för kontaktföretag</span><span class="sxs-lookup"><span data-stu-id="2f04a-103">How to: Set Up Web Sources for Contact Companies</span></span>
+<span data-ttu-id="2f04a-104">Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna.</span><span class="sxs-lookup"><span data-stu-id="2f04a-104">You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts.</span></span> <span data-ttu-id="2f04a-105">När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.</span><span class="sxs-lookup"><span data-stu-id="2f04a-105">When assigning web sources, you specify which search engine and search word the application will use to find the requested information.</span></span>
 
-Att använda webbadresser på kontakter är en två-stegsprocess. Först definierar du webbadresskoden. Du måste bara utföra den här steget en gång för varje webbadress. När du har en webbadresskod kan du börja koppla koden till kontaktpersoner.
+<span data-ttu-id="2f04a-106">Att använda webbadresser på kontakter är en två-stegsprocess.</span><span class="sxs-lookup"><span data-stu-id="2f04a-106">Using web sources on contacts is a two-step process.</span></span> <span data-ttu-id="2f04a-107">Först definierar du webbadresskoden.</span><span class="sxs-lookup"><span data-stu-id="2f04a-107">First, you define the web source code.</span></span> <span data-ttu-id="2f04a-108">Du måste bara utföra den här steget en gång för varje webbadress.</span><span class="sxs-lookup"><span data-stu-id="2f04a-108">You only have to perform this step one time for each web source.</span></span> <span data-ttu-id="2f04a-109">När du har en webbadresskod kan du börja koppla koden till kontaktpersoner.</span><span class="sxs-lookup"><span data-stu-id="2f04a-109">Once you have a web source code, you can start to assign the code to contact persons.</span></span>
 
-## <a name="to-define-a-web-source-code"></a>för att definiera en webbadresskod
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Webbadresser** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**.
-3. Fyll i fälten **Kod**, **Beskrivning** och **URL**.
+## <a name="to-define-a-web-source-code"></a><span data-ttu-id="2f04a-110">för att definiera en webbadresskod</span><span class="sxs-lookup"><span data-stu-id="2f04a-110">to define a web source code</span></span>
+1. <span data-ttu-id="2f04a-111">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Webbadresser** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="2f04a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Web Sources**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2f04a-112">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="2f04a-112">Choose the **New** actions.</span></span>
+3. <span data-ttu-id="2f04a-113">Fyll i fälten **Kod**, **Beskrivning** och **URL**.</span><span class="sxs-lookup"><span data-stu-id="2f04a-113">Fill in the **Code**, **Description**, and **URL** fields.</span></span>
 
-    Skriv %1 i fältet **URL** för att infoga en platshållare för ett sökord i URL:en. När du startar webbadress från en kontakt ersätts %1 med sökordet (till exempel namnet på företaget) som du har angett i fönstret **Kontakt webbadresser**.
+    <span data-ttu-id="2f04a-114">Skriv %1 i fältet **URL** för att infoga en platshållare för ett sökord i URL:en.</span><span class="sxs-lookup"><span data-stu-id="2f04a-114">Type %1 in the **URL** field to insert a placeholder for a search word in the URL.</span></span> <span data-ttu-id="2f04a-115">När du startar webbadress från en kontakt ersätts %1 med sökordet (till exempel namnet på företaget) som du har angett i fönstret **Kontakt webbadresser**.</span><span class="sxs-lookup"><span data-stu-id="2f04a-115">When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered in the **Contact Web Sources** window.</span></span>
 
-Upprepa stegen för varje webbkälla du vill skapa.
+<span data-ttu-id="2f04a-116">Upprepa stegen för varje webbkälla du vill skapa.</span><span class="sxs-lookup"><span data-stu-id="2f04a-116">Repeat these steps to set up as many web sources as you want.</span></span>
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>för att tilldela webbadresser till ett kontaktföretag
-När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
+## <a name="to-assign-web-sources-to-a-contact-company"></a><span data-ttu-id="2f04a-117">för att tilldela webbadresser till ett kontaktföretag</span><span class="sxs-lookup"><span data-stu-id="2f04a-117">to assign web sources to a contact company</span></span>
+<span data-ttu-id="2f04a-118">När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.</span><span class="sxs-lookup"><span data-stu-id="2f04a-118">When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.</span></span>
 
-1. Öppna kontakten .
-2. Välj åtgärden **företag** och sedan **webbadresser**. Fönstret **Kontakt webbadresser** öppnas.
-3. I fältet **webbadresskod**, välj webbadressen som du vill tilldela.
-4. Skriv i fältet **Sökord** det sökord som ska användas för att hitta informationen.
+1. <span data-ttu-id="2f04a-119">Öppna kontakten .</span><span class="sxs-lookup"><span data-stu-id="2f04a-119">Open the contact.</span></span>
+2. <span data-ttu-id="2f04a-120">Välj åtgärden **företag** och sedan **webbadresser**.</span><span class="sxs-lookup"><span data-stu-id="2f04a-120">Choose the **Company** action, and then choose the **Web Sources** action.</span></span> <span data-ttu-id="2f04a-121">Fönstret **Kontakt webbadresser** öppnas.</span><span class="sxs-lookup"><span data-stu-id="2f04a-121">The **Contact Web Sources** window opens.</span></span>
+3. <span data-ttu-id="2f04a-122">I fältet **webbadresskod**, välj webbadressen som du vill tilldela.</span><span class="sxs-lookup"><span data-stu-id="2f04a-122">In the **Web Source Code** field, choose the web source you want to assign.</span></span>
+4. <span data-ttu-id="2f04a-123">Skriv i fältet **Sökord** det sökord som ska användas för att hitta informationen.</span><span class="sxs-lookup"><span data-stu-id="2f04a-123">In the **Search Word** field, enter the search word that you want to use to find the information.</span></span>
 
-Upprepa stegen för varje webbkälla du vill skapa.
+<span data-ttu-id="2f04a-124">Upprepa stegen för varje webbkälla du vill skapa.</span><span class="sxs-lookup"><span data-stu-id="2f04a-124">Repeat these steps to assign as many web sources as you want.</span></span>
 
-Webbadresser kan också tilldelas i fönstret  **Kontaktlista** på samma sätt.
+<span data-ttu-id="2f04a-125">Webbadresser kan också tilldelas i fönstret  **Kontaktlista** på samma sätt.</span><span class="sxs-lookup"><span data-stu-id="2f04a-125">You can also assign web sources from the **Contact List** window by following the same procedure.</span></span>
 
-## <a name="see-also"></a>Se även
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="2f04a-126">Se även</span><span class="sxs-lookup"><span data-stu-id="2f04a-126">See Also</span></span>
+[<span data-ttu-id="2f04a-127">Skapa kontaktföretag</span><span class="sxs-lookup"><span data-stu-id="2f04a-127">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
+<span data-ttu-id="2f04a-128">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2f04a-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

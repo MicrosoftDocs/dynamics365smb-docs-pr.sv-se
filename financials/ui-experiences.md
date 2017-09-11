@@ -15,31 +15,30 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="customizing-your-dynamics-365-for-financials-experience"></a>Anpassa din Dynamics 365 for Financials-upplevelse
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad för att hjälpa dig att köra din verksamhet oavsett vilken verksamhet som du befinner dig i. I kärnan av [!INCLUDE[d365fin](includes/d365fin_md.md)] hittar du ekonomisk rapportering och försäljning-s och inköpsprocesser. Du lägger till lösningar som som din verksamhet behöver genom att lägga till tillägg från AppSource. Du kan också öka eller sänka volymen på användarupplevelsen och välja vad som passar ditt företag. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
+# <a name="customizing-your-dynamics-365-for-financials-experience"></a><span data-ttu-id="3d4c0-103">Anpassa din Dynamics 365 for Financials-upplevelse</span><span class="sxs-lookup"><span data-stu-id="3d4c0-103">Customizing Your Dynamics 365 for Financials Experience</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="3d4c0-104"> är utformad för att hjälpa dig att köra din verksamhet oavsett vilken verksamhet som du befinner dig i.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-104"> is designed to help you run your business, regardless which line of business you are in.</span></span> <span data-ttu-id="3d4c0-105">I kärnan av [!INCLUDE[d365fin](includes/d365fin_md.md)] hittar du ekonomisk rapportering och försäljning-s och inköpsprocesser.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-105">At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes.</span></span> <span data-ttu-id="3d4c0-106">Du lägger till lösningar som som din verksamhet behöver genom att lägga till tillägg från AppSource.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-106">You add experiences to that according to your business needs by adding extensions from AppSource.</span></span> <span data-ttu-id="3d4c0-107">Du kan också öka eller sänka volymen på användarupplevelsen och välja vad som passar ditt företag.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-107">You can also turn up and down the volume on the user experience and choose what's right for your company.</span></span> <span data-ttu-id="3d4c0-108">Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="3d4c0-108">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span></span>
 
-## <a name="choosing-a-user-experience"></a>Välja användarupplevelse
-Användarupplevelsen bestämmer hur mycket av kärnafunktionaliteten som finns när du och din kolleger använder [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan välja användarupplevelse för ditt företag i fönstret **företagsinformation** i fältet **upplevelse**.
+## <a name="choosing-a-user-experience"></a><span data-ttu-id="3d4c0-109">Välja användarupplevelse</span><span class="sxs-lookup"><span data-stu-id="3d4c0-109">Choosing a user experience</span></span>
+<span data-ttu-id="3d4c0-110">Användarupplevelsen bestämmer hur mycket av kärnafunktionaliteten som finns när du och din kolleger använder [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="3d4c0-110">The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="3d4c0-111">Du kan välja användarupplevelse för ditt företag i fönstret **företagsinformation** i fältet **upplevelse**.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-111">You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.</span></span>
 
 > [!NOTE]  
->   Den här inställningen gäller för alla användare i företaget.
+>   <span data-ttu-id="3d4c0-112">Den här inställningen gäller för alla användare i företaget.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-112">This setting applies to all users in your company.</span></span>
 
 ![Upplevelse](media/ui-experience/experience.gif)
 
-Följande tabell listar de upplevelser som finns tillgängliga.
+<span data-ttu-id="3d4c0-114">Följande tabell listar de upplevelser som finns tillgängliga.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-114">The following table lists the experiences that are currently available.</span></span>
 
-| Upplevelse | Inverkan på användargränssnitt |
+| <span data-ttu-id="3d4c0-115">Upplevelse</span><span class="sxs-lookup"><span data-stu-id="3d4c0-115">Experience</span></span> | <span data-ttu-id="3d4c0-116">Inverkan på användargränssnitt</span><span class="sxs-lookup"><span data-stu-id="3d4c0-116">Impact on User Interface</span></span> |
 | --- | --- |
-| Grundläggande |Visar endast grundläggande åtgärder och fält för grundläggande affärsområden, till exempel försäljning, inköp, ekonomi och hantering av affärsmöjligheter. |
-| Programsvit |Visar fler åtgärder och fält för grundläggande affärsområden och andra områden som projekthantering, anläggningstillgångar och analys per dimension. |
+| <span data-ttu-id="3d4c0-117">Grundläggande</span><span class="sxs-lookup"><span data-stu-id="3d4c0-117">Basic</span></span> |<span data-ttu-id="3d4c0-118">Visar endast grundläggande åtgärder och fält för grundläggande affärsområden, till exempel försäljning, inköp, ekonomi och hantering av affärsmöjligheter.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-118">Shows only core actions and fields for core business areas, such as sales, purchasing, finance, and opportunity management.</span></span> |
+| <span data-ttu-id="3d4c0-119">Programsvit</span><span class="sxs-lookup"><span data-stu-id="3d4c0-119">Suite</span></span> |<span data-ttu-id="3d4c0-120">Visar fler åtgärder och fält för grundläggande affärsområden och andra områden som projekthantering, anläggningstillgångar och analys per dimension.</span><span class="sxs-lookup"><span data-stu-id="3d4c0-120">Shows more actions and fields for core business areas and for other areas, such as project management, fixed asset management, and analysis by dimensions.</span></span> |
 
-## <a name="see-also"></a>Se även
-[Ändra grundinställningar](ui-change-basic-settings.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="3d4c0-121">Se även</span><span class="sxs-lookup"><span data-stu-id="3d4c0-121">See also</span></span>
+[<span data-ttu-id="3d4c0-122">Ändra grundinställningar</span><span class="sxs-lookup"><span data-stu-id="3d4c0-122">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
+<span data-ttu-id="3d4c0-123">[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="3d4c0-123">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
+<span data-ttu-id="3d4c0-124">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3d4c0-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

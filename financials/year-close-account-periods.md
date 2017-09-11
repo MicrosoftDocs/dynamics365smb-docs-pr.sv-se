@@ -16,32 +16,31 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 859801a5e9d9b900aed6af5fe672f650932b2e79
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
-När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
+# <a name="how-to-close-accounting-periods"></a><span data-ttu-id="bf492-103">Så här avslutar du bokföringsperioder</span><span class="sxs-lookup"><span data-stu-id="bf492-103">How to: Close Accounting Periods</span></span>
+<span data-ttu-id="bf492-104">När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.</span><span class="sxs-lookup"><span data-stu-id="bf492-104">When a fiscal year is over, you must close the periods that comprise it.</span></span>
 
-## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.
-2. I fönstret **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
+## <a name="to-close-accounting-periods"></a><span data-ttu-id="bf492-105">Så här avslutar du bokföringsperioder</span><span class="sxs-lookup"><span data-stu-id="bf492-105">To close accounting periods</span></span>
+1. <span data-ttu-id="bf492-106">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="bf492-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bf492-107">I fönstret **Bokföringsperioder** väljer du åtgärden **Avsluta år**.</span><span class="sxs-lookup"><span data-stu-id="bf492-107">In the **Accounting Periods** window, choose the **Close Year** action.</span></span>
 
-    Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.
-3. Välj **ja** för att stänga året.
+    <span data-ttu-id="bf492-108">Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt.</span><span class="sxs-lookup"><span data-stu-id="bf492-108">If more than one fiscal year is open, the earliest one is automatically selected to be closed.</span></span> <span data-ttu-id="bf492-109">Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.</span><span class="sxs-lookup"><span data-stu-id="bf492-109">A message displays identifying the year that will close and the consequences of closing the year.</span></span>
+3. <span data-ttu-id="bf492-110">Välj **ja** för att stänga året.</span><span class="sxs-lookup"><span data-stu-id="bf492-110">To close the year, choose the **Yes** button.</span></span>
 
-Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras för samtliga perioder i året. Räkenskapsåret kan inte öppnas igen och du kan inte heller ta bort markeringen i fälten **Avslutat** eller **Låst datum**.
+<span data-ttu-id="bf492-111">Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras för samtliga perioder i året.</span><span class="sxs-lookup"><span data-stu-id="bf492-111">The fiscal year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected.</span></span> <span data-ttu-id="bf492-112">Räkenskapsåret kan inte öppnas igen och du kan inte heller ta bort markeringen i fälten **Avslutat** eller **Låst datum**.</span><span class="sxs-lookup"><span data-stu-id="bf492-112">The fiscal year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.</span></span>
 
 > [!NOTE]  
->   Du kan inte avsluta ett räkenskapsår förrän du har upprättat ett nytt. Notera att du inte kan ändra startdatumet för det följande räkenskapsåret när räkenskapsåret är avslutat.
+>   <span data-ttu-id="bf492-113">Du kan inte avsluta ett räkenskapsår förrän du har upprättat ett nytt.</span><span class="sxs-lookup"><span data-stu-id="bf492-113">You cannot close a fiscal year before you create a new one.</span></span> <span data-ttu-id="bf492-114">Notera att du inte kan ändra startdatumet för det följande räkenskapsåret när räkenskapsåret är avslutat.</span><span class="sxs-lookup"><span data-stu-id="bf492-114">Notice that when a fiscal year has been closed, you cannot change the starting date of the following fiscal year.</span></span>
 
-Även om ett räkenskapsår har avslutats kan du fortfarande bokföra redovisningstransaktioner på året. När du gör det markeras transaktionerna som bokförda på ett avslutat räkenskapsår och fältet **Föregående års transaktion** markeras.
+<span data-ttu-id="bf492-115">Även om ett räkenskapsår har avslutats kan du fortfarande bokföra redovisningstransaktioner på året.</span><span class="sxs-lookup"><span data-stu-id="bf492-115">Even though a fiscal year has been closed, you can still post general ledger entries to it.</span></span> <span data-ttu-id="bf492-116">När du gör det markeras transaktionerna som bokförda på ett avslutat räkenskapsår och fältet **Föregående års transaktion** markeras.</span><span class="sxs-lookup"><span data-stu-id="bf492-116">When you do this, the entries will be marked as posted to a closed fiscal year and the **Prior-Year Entry** field will be selected.</span></span>
 
-När ett räkenskapsår har avslutats måste resultatkontona avslutas och årets resultat flyttas över till ett konto i balansräkningen. Du kan göra samma sak varje gång du bokför på det avslutade räkenskapsåret.
+<span data-ttu-id="bf492-117">När ett räkenskapsår har avslutats måste resultatkontona avslutas och årets resultat flyttas över till ett konto i balansräkningen.</span><span class="sxs-lookup"><span data-stu-id="bf492-117">After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet.</span></span> <span data-ttu-id="bf492-118">Du kan göra samma sak varje gång du bokför på det avslutade räkenskapsåret.</span><span class="sxs-lookup"><span data-stu-id="bf492-118">You can repeat this every time that you post to the closed fiscal year.</span></span>
 
-## <a name="see-also"></a>Se även
-[Avsluta böcker](year-close-books.md)  
-[Så här bokför du årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
-[Så här öppnar du ett nytt räkenskapsår](finance-how-open-new-fiscal-year.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="bf492-119">Se även</span><span class="sxs-lookup"><span data-stu-id="bf492-119">See Also</span></span>
+[<span data-ttu-id="bf492-120">Avsluta böcker</span><span class="sxs-lookup"><span data-stu-id="bf492-120">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="bf492-121">Så här bokför du årsslutstransaktionen</span><span class="sxs-lookup"><span data-stu-id="bf492-121">How to: Post the Year-End Closing Entry</span></span>](year-how-post-year-end-close-entry.md)  
+[<span data-ttu-id="bf492-122">Så här öppnar du ett nytt räkenskapsår</span><span class="sxs-lookup"><span data-stu-id="bf492-122">How to: Open a New Fiscal Year</span></span>](finance-how-open-new-fiscal-year.md)  
+<span data-ttu-id="bf492-123">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bf492-123">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

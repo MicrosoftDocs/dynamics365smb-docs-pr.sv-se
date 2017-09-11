@@ -16,68 +16,67 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-jobs"></a>Så här skapar du projekt
-När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
+# <a name="how-to-create-jobs"></a><span data-ttu-id="59661-103">Så här skapar du projekt</span><span class="sxs-lookup"><span data-stu-id="59661-103">How to: Create Jobs</span></span>
+<span data-ttu-id="59661-104">När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.</span><span class="sxs-lookup"><span data-stu-id="59661-104">When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.</span></span>  
 
-Det första lagret består av projektaktiviteter. Du måste skapa minst en projektaktivitet per projekt eftersom all bokföring refererar till en projektaktivitet. Med åtminstone en projektaktivitet i ditt projekt kan du lägga upp projektplaneringsrader och bokföra förbrukningen i projektet.
+<span data-ttu-id="59661-105">Det första lagret består av projektaktiviteter.</span><span class="sxs-lookup"><span data-stu-id="59661-105">The first layer consists of job tasks.</span></span> <span data-ttu-id="59661-106">Du måste skapa minst en projektaktivitet per projekt eftersom all bokföring refererar till en projektaktivitet.</span><span class="sxs-lookup"><span data-stu-id="59661-106">You must create at least one job task per job because all posting refers to a job task.</span></span> <span data-ttu-id="59661-107">Med åtminstone en projektaktivitet i ditt projekt kan du lägga upp projektplaneringsrader och bokföra förbrukningen i projektet.</span><span class="sxs-lookup"><span data-stu-id="59661-107">Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.</span></span>
 
-Det andra lagret består av projektplaneringsrader som specificerar detaljerad förbrukning av resurser, artiklar och diverse redovisningskostnader.
+<span data-ttu-id="59661-108">Det andra lagret består av projektplaneringsrader som specificerar detaljerad förbrukning av resurser, artiklar och diverse redovisningskostnader.</span><span class="sxs-lookup"><span data-stu-id="59661-108">The second layer consists of job planning lines, which specify the detailed use of resources, items and various general ledger expenses.</span></span>
 
-Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specificera budget, offerter och registrering mer i detalj. Dessutom att du får en inblick i hur ett projekt fortlöper. Du kan till exempel spåra om du uppfyller uppsatta milstolpar eller om du är i linje med mål för att uppfylla budget.
-
-> [!NOTE]  
->   Åtgärden **Nytt projekt** på Rollcentret **Projektchef** startar en guidad hjälp som guidar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt.
+<span data-ttu-id="59661-109">Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specificera budget, offerter och registrering mer i detalj.</span><span class="sxs-lookup"><span data-stu-id="59661-109">The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration.</span></span> <span data-ttu-id="59661-110">Dessutom att du får en inblick i hur ett projekt fortlöper.</span><span class="sxs-lookup"><span data-stu-id="59661-110">In addition, it gives you insight into how a job is progressing.</span></span> <span data-ttu-id="59661-111">Du kan till exempel spåra om du uppfyller uppsatta milstolpar eller om du är i linje med mål för att uppfylla budget.</span><span class="sxs-lookup"><span data-stu-id="59661-111">For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.</span></span>
 
 > [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
-
-## <a name="to-create-a-job-card"></a>Så här skapar du ett projektkort.
-Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
-
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Om du vill ange projektet med information om andra projekt väljer du åtgärden **Kopiera projekt**, fyller i fälten efter behov och väljer sedan knappen **OK**.
+>   <span data-ttu-id="59661-112">Åtgärden **Nytt projekt** på Rollcentret **Projektchef** startar en guidad hjälp som guidar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader.</span><span class="sxs-lookup"><span data-stu-id="59661-112">The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines.</span></span> <span data-ttu-id="59661-113">Efterföljande procedur beskriver hur du utför stegen manuellt.</span><span class="sxs-lookup"><span data-stu-id="59661-113">The following procedure describes how to perform the steps manually.</span></span>
 
 > [!NOTE]  
->   Om du använder tidrapporter i projektet måste du också ange en person som ansvarar. Denna person kan godkänna tidrapporter för anställdas aktiviteter som är kopplade till projektet. Mer information finns i [Så här skapar du tidrapporter](projects-how-setup-time-sheets.md).
+>   <span data-ttu-id="59661-114">Den här funktionen kräver att din upplevelse är inställd på **Paket**.</span><span class="sxs-lookup"><span data-stu-id="59661-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="59661-115">Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="59661-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-create-tasks-for-a-job"></a>Så här kan du skapa aktiviteter för ett projekt
-En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du gör detta genom att lägga till nya rader i snabbfliken **Uppgifter** i fönstret **Projektkort**, en aktivitet per rad. Varje projekt måste ha minst en aktivitet.
+## <a name="to-create-a-job-card"></a><span data-ttu-id="59661-116">Så här skapar du ett projektkort.</span><span class="sxs-lookup"><span data-stu-id="59661-116">To create a job card</span></span>
+<span data-ttu-id="59661-117">Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.</span><span class="sxs-lookup"><span data-stu-id="59661-117">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.
-2. Öppna projektkortet för ett relevant projekt.
-3. På snabbfliken **Uppgifter** fyller du i fälten efter behov på en ny rad.
-4. Om du vill dra in uppgifter och skapa en hierarki väljer du åtgärden **Uppgifter** och sedan väljer du åtgärden **Indrag för projektaktiviteter**.
-5. Upprepa steg 3 och 4 för alla de aktiviteter som du behöver för projektet.
-6. Om du vill ange projektaktiviteter med information om andra projektaktiviteter väljer du åtgärden **Kopiera projektaktiviteter från**, fyller i fälten efter behov och väljer sedan knappen **OK**.
+1. <span data-ttu-id="59661-118">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="59661-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="59661-119">Välj åtgärden **Ny** och fyll sedan i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="59661-119">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="59661-120">Om du vill ange projektet med information om andra projekt väljer du åtgärden **Kopiera projekt**, fyller i fälten efter behov och väljer sedan knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="59661-120">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
-## <a name="to-create-planning-lines-for-a-job"></a>Så här skapar du en planeringsrad för ett projekt
-Du kan förfina dina nya projektaktiviteter på projektplaneringsrader. En planeringsrad kan används för att samla in den information som du vill spåra för ett projekt. Med planeringsrader kan du lägga till information som vilka resurser som behövs eller för att samla in vilka artiklar som behövs för att utföra projektet. Du kan till exempel ha en aktivitet för att inhämta kundens godkännande av ett projekt, du kan associera den aktiviteten med planeringsrader för objekt som att träffa kunden och tilldela en resurs.  
+> [!NOTE]  
+>   <span data-ttu-id="59661-121">Om du använder tidrapporter i projektet måste du också ange en person som ansvarar.</span><span class="sxs-lookup"><span data-stu-id="59661-121">If you are using time sheets with your job, you must also designate a person responsible.</span></span> <span data-ttu-id="59661-122">Denna person kan godkänna tidrapporter för anställdas aktiviteter som är kopplade till projektet.</span><span class="sxs-lookup"><span data-stu-id="59661-122">This person can approve time sheets for the employee tasks associated with the job.</span></span> <span data-ttu-id="59661-123">Mer information finns i [Så här skapar du tidrapporter](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="59661-123">For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).</span></span>
 
-En projektplaneringsrad kan ha en av följande typer.  
+## <a name="to-create-tasks-for-a-job"></a><span data-ttu-id="59661-124">Så här kan du skapa aktiviteter för ett projekt</span><span class="sxs-lookup"><span data-stu-id="59661-124">To create tasks for a job</span></span>
+<span data-ttu-id="59661-125">En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet.</span><span class="sxs-lookup"><span data-stu-id="59661-125">A key part of creating a job is to specify the various tasks involved in the job.</span></span> <span data-ttu-id="59661-126">Du gör detta genom att lägga till nya rader i snabbfliken **Uppgifter** i fönstret **Projektkort**, en aktivitet per rad.</span><span class="sxs-lookup"><span data-stu-id="59661-126">You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line.</span></span> <span data-ttu-id="59661-127">Varje projekt måste ha minst en aktivitet.</span><span class="sxs-lookup"><span data-stu-id="59661-127">Every job must have at least one task.</span></span>
 
-| Kontakttyp | Beskrivning |
+1. <span data-ttu-id="59661-128">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="59661-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="59661-129">Öppna projektkortet för ett relevant projekt.</span><span class="sxs-lookup"><span data-stu-id="59661-129">Open the job card for a relevant job.</span></span>
+3. <span data-ttu-id="59661-130">På snabbfliken **Uppgifter** fyller du i fälten efter behov på en ny rad.</span><span class="sxs-lookup"><span data-stu-id="59661-130">On the **Tasks** FastTab, fill in the fields as necessary on a new line.</span></span>
+4. <span data-ttu-id="59661-131">Om du vill dra in uppgifter och skapa en hierarki väljer du åtgärden **Uppgifter** och sedan väljer du åtgärden **Indrag för projektaktiviteter**.</span><span class="sxs-lookup"><span data-stu-id="59661-131">To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.</span></span>
+5. <span data-ttu-id="59661-132">Upprepa steg 3 och 4 för alla de aktiviteter som du behöver för projektet.</span><span class="sxs-lookup"><span data-stu-id="59661-132">Repeat steps 3 and 4 for all the tasks that you need for the job.</span></span>
+6. <span data-ttu-id="59661-133">Om du vill ange projektaktiviteter med information om andra projektaktiviteter väljer du åtgärden **Kopiera projektaktiviteter från**, fyller i fälten efter behov och väljer sedan knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="59661-133">To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
+
+## <a name="to-create-planning-lines-for-a-job"></a><span data-ttu-id="59661-134">Så här skapar du en planeringsrad för ett projekt</span><span class="sxs-lookup"><span data-stu-id="59661-134">To create planning lines for a job</span></span>
+<span data-ttu-id="59661-135">Du kan förfina dina nya projektaktiviteter på projektplaneringsrader.</span><span class="sxs-lookup"><span data-stu-id="59661-135">You can refine your new job tasks on job planning lines.</span></span> <span data-ttu-id="59661-136">En planeringsrad kan används för att samla in den information som du vill spåra för ett projekt.</span><span class="sxs-lookup"><span data-stu-id="59661-136">A planning line can be used to capture any information that you want to track for a job.</span></span> <span data-ttu-id="59661-137">Med planeringsrader kan du lägga till information som vilka resurser som behövs eller för att samla in vilka artiklar som behövs för att utföra projektet.</span><span class="sxs-lookup"><span data-stu-id="59661-137">You can use planning lines to add information such as what resources are required or to capture what items are needed to perform the job.</span></span> <span data-ttu-id="59661-138">Du kan till exempel ha en aktivitet för att inhämta kundens godkännande av ett projekt, du kan associera den aktiviteten med planeringsrader för objekt som att träffa kunden och tilldela en resurs.</span><span class="sxs-lookup"><span data-stu-id="59661-138">For example, if you have a task to obtain customer approval of a job, you can associate that task with planning lines for items such as meeting with the customer and assigning a resource.</span></span>  
+
+<span data-ttu-id="59661-139">En projektplaneringsrad kan ha en av följande typer.</span><span class="sxs-lookup"><span data-stu-id="59661-139">A job planning line can have one of the following types.</span></span>  
+
+| <span data-ttu-id="59661-140">Kontakttyp</span><span class="sxs-lookup"><span data-stu-id="59661-140">Type</span></span> | <span data-ttu-id="59661-141">Beskrivning</span><span class="sxs-lookup"><span data-stu-id="59661-141">Description</span></span> |
 | --- | --- |
-| **Budget** |Anger uppskattad förbrukning och kostnader för projektet, vanligtvis i tids- och materialtypsprojekt. Planeringsrader av den här typen kan inte faktureras. |
-| **Fakturerbart** |Anger uppskattad fakturering till kunden, vanligtvis som ett fastprisprojekt. |
-| **Både Budget och Fakturerbart** |Anger budgeterad förbrukning som motsvarar vad du vill fakturera. |
+| <span data-ttu-id="59661-142">**Budget**</span><span class="sxs-lookup"><span data-stu-id="59661-142">**Budget**</span></span> |<span data-ttu-id="59661-143">Anger uppskattad förbrukning och kostnader för projektet, vanligtvis i tids- och materialtypsprojekt.</span><span class="sxs-lookup"><span data-stu-id="59661-143">Provides estimated usage and costs for the job, typically in a time and materials type project.</span></span> <span data-ttu-id="59661-144">Planeringsrader av den här typen kan inte faktureras.</span><span class="sxs-lookup"><span data-stu-id="59661-144">Planning lines of this type cannot be invoiced.</span></span> |
+| <span data-ttu-id="59661-145">**Fakturerbart**</span><span class="sxs-lookup"><span data-stu-id="59661-145">**Billable**</span></span> |<span data-ttu-id="59661-146">Anger uppskattad fakturering till kunden, vanligtvis som ett fastprisprojekt.</span><span class="sxs-lookup"><span data-stu-id="59661-146">Provides estimated invoicing to the customer, typically in a fixed price project.</span></span> |
+| <span data-ttu-id="59661-147">**Både Budget och Fakturerbart**</span><span class="sxs-lookup"><span data-stu-id="59661-147">**Both Budget and Billable**</span></span> |<span data-ttu-id="59661-148">Anger budgeterad förbrukning som motsvarar vad du vill fakturera.</span><span class="sxs-lookup"><span data-stu-id="59661-148">Provides budgeted usage equal to what you want to invoice.</span></span> |
 
-**Obs**. När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt. T.ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs- och artikelkort.
+<span data-ttu-id="59661-149">**Obs**.</span><span class="sxs-lookup"><span data-stu-id="59661-149">**Note**.</span></span> <span data-ttu-id="59661-150">När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt.</span><span class="sxs-lookup"><span data-stu-id="59661-150">As you enter information on job planning lines, cost information is automatically filled in.</span></span> <span data-ttu-id="59661-151">T.ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs- och artikelkort.</span><span class="sxs-lookup"><span data-stu-id="59661-151">For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.</span></span>
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.
-2. Öppna ett relevant projektkort.
-3. Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.  
-4. I fönstret **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
-5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
+1. <span data-ttu-id="59661-152">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="59661-152">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="59661-153">Öppna ett relevant projektkort.</span><span class="sxs-lookup"><span data-stu-id="59661-153">Open a relevant job card.</span></span>
+3. <span data-ttu-id="59661-154">Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.</span><span class="sxs-lookup"><span data-stu-id="59661-154">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span></span>  
+4. <span data-ttu-id="59661-155">I fönstret **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.</span><span class="sxs-lookup"><span data-stu-id="59661-155">In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.</span></span>
+5. <span data-ttu-id="59661-156">Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.</span><span class="sxs-lookup"><span data-stu-id="59661-156">Repeat steps 3 and 4 for all planning lines that you need for the job task.</span></span>
 
-## <a name="see-also"></a>Se även
-[Projekthantering](projects-manage-projects.md)  
-[Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="59661-157">Se även</span><span class="sxs-lookup"><span data-stu-id="59661-157">See Also</span></span>
+[<span data-ttu-id="59661-158">Projekthantering</span><span class="sxs-lookup"><span data-stu-id="59661-158">Project Management</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="59661-159">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="59661-159">Finance</span></span>](finance.md)  
+<span data-ttu-id="59661-160">[Inköp](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="59661-160">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="59661-161">[Försäljning](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="59661-161">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="59661-162">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="59661-162">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
