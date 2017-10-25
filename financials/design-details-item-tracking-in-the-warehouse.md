@@ -1,0 +1,48 @@
+---
+title: "Designdetaljer - Disposition av artikelspårning | Microsoft Docs"
+description: "Det här avsnittet beskriver hur du ser till att de personer som behandlar beställningar kan lita på tillgängligheten av serie- eller partinummer."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d196aa3c5176d040440be441e2573eac92891219
+ms.contentlocale: sv-se
+ms.lasthandoff: 09/22/2017
+
+---
+# <a name="design-details-item-tracking-availability"></a><span data-ttu-id="d3d10-103">Designdetaljer: Disposition av artikelspårning</span><span class="sxs-lookup"><span data-stu-id="d3d10-103">Design Details: Item Tracking Availability</span></span>
+<span data-ttu-id="d3d10-104">Fönstren **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynamisk dispositionsinformationen för serie- / partinummer.</span><span class="sxs-lookup"><span data-stu-id="d3d10-104">The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynamic availability information for serial or lot numbers.</span></span> <span data-ttu-id="d3d10-105">Avsikten med detta är att öka transparensen för användare på avgående dokument, t.ex. försäljningsorder, genom att visa dem vilka serienummer eller hur många enheter av partinumret som för närvarande tilldelas på andra öppna dokument.</span><span class="sxs-lookup"><span data-stu-id="d3d10-105">The purpose of this is to increase transparency for users on outbound documents, such as sales orders, by showing them which serial numbers or how many units of a lot number are currently assigned on other open documents.</span></span> <span data-ttu-id="d3d10-106">Det minskar osäkerhet som orsakas av dubbel fördelning, och gör att orderhandläggarna kan känna sig säkra på att artikelspårningsnumren och datumen som utlovas på försäljningsorder som inte har bokförts kan uppfyllas.</span><span class="sxs-lookup"><span data-stu-id="d3d10-106">This reduces uncertainty that is caused by double allocation and instills confidence in order processors that the item tracking numbers and dates that they are promising on unposted sales orders can be fulfilled.</span></span> <span data-ttu-id="d3d10-107">Mer information finns i [Designdetaljer:  Fönster för artikelspårningsrader](design-details-item-tracking-lines-window.md).</span><span class="sxs-lookup"><span data-stu-id="d3d10-107">For more information, see [Design Details: Item Tracking Lines Window](design-details-item-tracking-lines-window.md).</span></span>  
+  
+<span data-ttu-id="d3d10-108">När du öppnar fönstret **Artikelspårningsrader** hämtas tillgänglighetsdata från tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter.</span><span class="sxs-lookup"><span data-stu-id="d3d10-108">When you open the **Item Tracking Lines** window, availability data is retrieved from the **Item Ledger Entry** table and the **Reservation Entry** table, with no date filter.</span></span> <span data-ttu-id="d3d10-109">När du väljer fältet **Serienr** eller fältet **Partinr** öppnas fönstret **Artikelspårning sammandrag** och en översikt av informationen om artikelspårning visas i tabellen **Reservationstransaktion**.</span><span class="sxs-lookup"><span data-stu-id="d3d10-109">When you choose the **Serial No.** field or the **Lot No.** field, the **Item Tracking Summary** window opens and shows a summary of the item tracking information in the **Reservation Entry** table.</span></span> <span data-ttu-id="d3d10-110">Översikten innehåller följande information om varje serie- eller partinummer på artikelspårningsraden:</span><span class="sxs-lookup"><span data-stu-id="d3d10-110">The summary contains the following information about each serial or lot number on the item tracking line:</span></span>  
+  
+|<span data-ttu-id="d3d10-111">Fält</span><span class="sxs-lookup"><span data-stu-id="d3d10-111">Field</span></span>|<span data-ttu-id="d3d10-112">Description</span><span class="sxs-lookup"><span data-stu-id="d3d10-112">Description</span></span>|  
+|---------------------------------|---------------------------------------|  
+|<span data-ttu-id="d3d10-113">**Totalt antal**</span><span class="sxs-lookup"><span data-stu-id="d3d10-113">**Total Quantity**</span></span>|<span data-ttu-id="d3d10-114">Det totala antalet av det parti- eller serienummer som för närvarande finns i lager.</span><span class="sxs-lookup"><span data-stu-id="d3d10-114">The total quantity of the serial or lot number that is currently in inventory.</span></span>|  
+|<span data-ttu-id="d3d10-115">**Totalt begärt antal**</span><span class="sxs-lookup"><span data-stu-id="d3d10-115">**Total Requested Quantity**</span></span>|<span data-ttu-id="d3d10-116">Det totala antalet av det parti- eller serienummer som för närvarande har beställts i alla dokument.</span><span class="sxs-lookup"><span data-stu-id="d3d10-116">The total quantity of the serial or lot number that is currently requested in all documents.</span></span>|  
+|<span data-ttu-id="d3d10-117">**Aktuellt pågående antal**</span><span class="sxs-lookup"><span data-stu-id="d3d10-117">**Current Pending Quantity**</span></span>|<span data-ttu-id="d3d10-118">Antalet som anges i aktuell instans av fönstret **Artikelspårningsrader** mens som inte ännu har skickats till databasen.</span><span class="sxs-lookup"><span data-stu-id="d3d10-118">The quantity that is entered in the current instance of the **Item Tracking Lines** window but is not yet committed to the database.</span></span>|  
+|<span data-ttu-id="d3d10-119">**Totalt disponibelt antal**</span><span class="sxs-lookup"><span data-stu-id="d3d10-119">**Total Available Quantity**</span></span>|<span data-ttu-id="d3d10-120">Antalet av serie- eller partinumret som är tillgängligt för användaren att begära.</span><span class="sxs-lookup"><span data-stu-id="d3d10-120">The quantity of the serial or lot number that is available for the user to request.</span></span><br /><br /> <span data-ttu-id="d3d10-121">Antalet beräknas från andra fält i fönstret enligt följande:</span><span class="sxs-lookup"><span data-stu-id="d3d10-121">This quantity is calculated from other fields in the window as follows:</span></span><br /><br /> <span data-ttu-id="d3d10-122">totalt antal – (totalt begärt antal + aktuellt pågående antal).</span><span class="sxs-lookup"><span data-stu-id="d3d10-122">total quantity – (total requested quantity + current pending quantity).</span></span>|  
+  
+> [!NOTE]  
+>  <span data-ttu-id="d3d10-123">Du kan också se information i den föregående tabellen med hjälp av funktionen **Markera transaktioner** i fönstret **Artikelspårningsrader**.</span><span class="sxs-lookup"><span data-stu-id="d3d10-123">You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** window.</span></span>  
+  
+<span data-ttu-id="d3d10-124">För att bevara databasprestanda hämtas tillgänglighetsdata bara en gång från databasen när du öppnar fönstret **Artikelspårningsrader** och använder funktionen **Uppdatera tillgänglighet** i fönstret.</span><span class="sxs-lookup"><span data-stu-id="d3d10-124">To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and use the **Refresh Availability** function in the window.</span></span>  
+  
+## <a name="calculation-formula"></a><span data-ttu-id="d3d10-125">Beräkning</span><span class="sxs-lookup"><span data-stu-id="d3d10-125">Calculation Formula</span></span>  
+<span data-ttu-id="d3d10-126">Som beskrivs i föregående tabell beräknas tillgängligheten av ett visst serie- eller partinummer så här:</span><span class="sxs-lookup"><span data-stu-id="d3d10-126">As described in the preceding table, the availability of a given serial or lot number is calculated as follows:</span></span>  
+  
+* <span data-ttu-id="d3d10-127">totalt disponibelt antal = antal i lager – (alla behov + antal som ännu inte allokerats till databasen)</span><span class="sxs-lookup"><span data-stu-id="d3d10-127">total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)</span></span>  
+  
+> [!IMPORTANT]  
+>  <span data-ttu-id="d3d10-128">Följande formel betyder att dispositionsberäkningar för serie- eller partinummer endast beaktar lager och ignorerar planerade inleveranser.</span><span class="sxs-lookup"><span data-stu-id="d3d10-128">This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts.</span></span> <span data-ttu-id="d3d10-129">Leveranser som inte ännu har bokförts till lagret påverkar inte artikelspårningsdisposition, i motsats till vanlig artikeldispositionen där planerade inleveranser inkluderas.</span><span class="sxs-lookup"><span data-stu-id="d3d10-129">Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="d3d10-130">Se även</span><span class="sxs-lookup"><span data-stu-id="d3d10-130">See Also</span></span>  
+[<span data-ttu-id="d3d10-131">Designdetaljer: Objektspårning</span><span class="sxs-lookup"><span data-stu-id="d3d10-131">Design Details: Item Tracking</span></span>](design-details-item-tracking.md)

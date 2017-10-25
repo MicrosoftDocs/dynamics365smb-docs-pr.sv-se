@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="42c82-103">Automatiskt registrering av interaktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="42c82-103">Recording Interactions with Contacts Automatically</span></span>
-<span data-ttu-id="42c82-104">Du kan ställa in programmet att automatiskt registrera interaktioner för försäljning, inköp och servicedokument, omslagsblad, e-post, telefonsamtal som till exempel:</span><span class="sxs-lookup"><span data-stu-id="42c82-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="0a2fd-103">Automatiskt registrering av interaktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="0a2fd-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="0a2fd-104">Du kan ställa in programmet att automatiskt registrera interaktioner för försäljning, inköp och servicedokument, omslagsblad, e-post, telefonsamtal som till exempel:</span><span class="sxs-lookup"><span data-stu-id="0a2fd-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* <span data-ttu-id="42c82-105">Skriva ut försäljnings- eller inköpsofferter, beställningar, fakturor, kreditnotor, omslagsblad.</span><span class="sxs-lookup"><span data-stu-id="42c82-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
-* <span data-ttu-id="42c82-106">Skapa försäljningsserviceorder.</span><span class="sxs-lookup"><span data-stu-id="42c82-106">Create sales service orders.</span></span>
-* <span data-ttu-id="42c82-107">Bokföra försäljningsserviceorder.</span><span class="sxs-lookup"><span data-stu-id="42c82-107">Post sales service orders.</span></span>
-* <span data-ttu-id="42c82-108">Skicka e-post till kontakterna.</span><span class="sxs-lookup"><span data-stu-id="42c82-108">Send e-mails to your contacts.</span></span>
-* <span data-ttu-id="42c82-109">Ringa till kontakterna om du har TAPI-anpassad telefon och rätt installering.</span><span class="sxs-lookup"><span data-stu-id="42c82-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
+* <span data-ttu-id="0a2fd-105">Skriva ut försäljnings- eller inköpsofferter, beställningar, fakturor, kreditnotor, omslagsblad.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="0a2fd-106">Skapa försäljningsserviceorder.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-106">Create sales service orders.</span></span>
+* <span data-ttu-id="0a2fd-107">Bokföra försäljningsserviceorder.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-107">Post sales service orders.</span></span>
+* <span data-ttu-id="0a2fd-108">Skicka e-post till kontakterna.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="0a2fd-109">Ringa till kontakterna om du har TAPI-anpassad telefon och rätt installering.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-<span data-ttu-id="42c82-110">För att definiera automatisk registrering av dessa interaktioner anger du interaktionsmallar för dessa dokument och åtgärder, genom att använda fönstret **Interaktionsmall inställningar**.</span><span class="sxs-lookup"><span data-stu-id="42c82-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
-<span data-ttu-id="42c82-111">Om du vill öppna fönstret **Interaktionsmall inställningar**, välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Search for Page or Report icon"), anger **Interaktionsmall inställningar** och sedan väljer relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="42c82-111">To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
+<span data-ttu-id="0a2fd-110">För att definiera automatisk registrering av dessa interaktioner anger du interaktionsmallar för dessa dokument och åtgärder, genom att använda fönstret **Interaktionsmall inställningar**.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
+<span data-ttu-id="0a2fd-111">För att öppna fönstret **Interaktionsmall inställningar** väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), ange **Interaktionsmall inställningar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="0a2fd-111">To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="42c82-112">Se även</span><span class="sxs-lookup"><span data-stu-id="42c82-112">See Also</span></span>
-[<span data-ttu-id="42c82-113">Inspelningsinteraktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="42c82-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
-<span data-ttu-id="42c82-114">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="42c82-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="0a2fd-112">Se även</span><span class="sxs-lookup"><span data-stu-id="0a2fd-112">See Also</span></span>
+[<span data-ttu-id="0a2fd-113">Inspelningsinteraktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="0a2fd-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="0a2fd-114">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0a2fd-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
