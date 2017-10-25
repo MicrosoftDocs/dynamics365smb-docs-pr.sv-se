@@ -1,5 +1,5 @@
 ---
-title: Anpassa Dynamics 365 Financials | Microsoft Docs
+title: Anpassa Dynamics 365 for Financials | Microsoft Docs
 description: "Skapa, presentera och marknadsför dina appar och tillägg för Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utökning av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -48,6 +47,9 @@ Att bara ange appens egenskaper och funktioner kommer inte att konvertera potent
 + Publicera din app  
 Innan vi publicerar samarbetar vi med dig och ser till att din app sticker ut på Microsoft AppSource och din egen landningssida. Vi måste validera din app för att se till att den marknadsförs är säker och uppdaterad.
 Mer information om valideringen och hur du publicerar din app finns i dokumentet [Publicera din app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) från Download Center.
+
+## <a name="learn-more-about-extensions-v20"></a>Få mer information om tillägg v2.0
+De nya utvecklingsverktygen som gör det möjligt för dig att skapa tillägg v2.0 är för närvarande i förhandsgranskning och aktiveras snart i Dynamics 365 for Financials-tjänsten. Om du redan vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Behöver du hjälp?
 Om du vill ha hjälp kan du kontakta du en app-expert från följande lista:

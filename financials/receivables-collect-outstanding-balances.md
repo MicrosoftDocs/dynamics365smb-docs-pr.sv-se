@@ -1,8 +1,6 @@
 ---
 title: "Påminna eller bötfälla kunder med förfallna betalningar | Microsoft Docs"
 description: "Beskriver hur du skickar en påminnelse till en kund om en betalning förfaller och lägger till avgifter på grund av förseningen."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Så här kräver du in utestående saldon
@@ -99,7 +96,7 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 |%11|Företagsnamnet|  
 |%12|Innehållet i fältet **Avgift per rad** i betalningspåminnelsens huvud|  
 
-Om du skriver exempelvis **du är skyldig %7 %9 på %2.**, innehållar den resulterande betalningspåminnelsen följande text: **du är skyldig 1.200,50 BVA på 02\-02\-2014.**.
+Om du skriver exempelvis **du är skyldig %9 %7 som förfaller %2.**, innehåller den resulterande betalningspåminnelsen följande text: **du är skyldig 1 200,50 som förfaller 2014-02-02**.
 
 När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Så här registrerar du nya kunder](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Du måste upprätta en kod, som representerar respektive beräkningssätt av dr�
 
 Dröjsmålsräntor kan antingen beräknas med metoden genomsnittligt saldo per dag eller metoden förfallet saldo.
 
-Metoden förfallet saldo innebär helt enkelt att en dröjsmålsränta utgör en viss procent av det förfallna beloppet.
-**Metoden förfallet saldo** -Räntefakturor = förfallet belopp x (räntesats/100)
+Metoden förfallet saldo innebär helt enkelt att en dröjsmålsränta utgör en viss procent av det förfallna beloppet:  
 
-Enligt principen genomsnittligt saldo per dag, tar programmet hänsyn till hur många dagar betalningen har varit förfallen till betalning.
-**Genomsnittligt saldo per dag**-metod - Räntefakturor = förfallet belopp x (förfallna dagar/ränteperiod/ränteperiod) x (räntesats/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Enligt principen genomsnittligt saldo per dag, tar programmet hänsyn till hur många dagar betalningen har varit förfallen till betalning:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Dessutom är varje kod i tabellen Räntevillkor kopplad till en undertabell, nämligen Räntetext. För respektive uppsättning av räntevillkor kan du definiera en inledande och/eller avslutande text som kan tas med i räntefakturan.
 
@@ -204,10 +203,8 @@ En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuel
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Räntefakturor** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov.  
 3. Välj åtgärden **Föreslå räntefakturarader**.
-4. I fönstret **Föreslå Räntefakturerader  
-6.  Definiera ett filter på snabbfliken **Kundreskontratransaktion** om du bara vill skapa räntefakturor för särskilda transaktioner.  
-
-7.  Klicka på **OK** för att starta batchjobbet.  
+4. I fönstret **Föreslå räntefakturaraderna** anger du ett filter på snabbfliken **Kundreskontratransaktion** om du bara vill skapa räntefakturor för särskilda transaktioner.  
+5.  Klicka på **OK** för att starta batchjobbet.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Så här uppdaterar du räntefakturatexter  
 I vissa fall kan det hända att du behöver ändra den inledande och avslutande text som angetts för räntevillkoren. Om du gör detta när du har skapat, men ännu inte skickat ut, räntefakturor kan du uppdatera fakturorna med den ändrade texten.

@@ -1,6 +1,6 @@
 ---
-title: "Minimikrav för att använda Dynamics 365 for Financials | Microsoft Docs"
-description: "Systemkrav för att använda Dynamics 365 for Financials"
+title: "Minimikrav för att använda Financials | Microsoft Docs"
+description: "Mer information om minimikrav för systemet och version för Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fad8d80a94971c5ad73d76175e0a31ba5dc4f29a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Minimumkrav för att använda Dynamics 365 for Financials
@@ -32,7 +31,7 @@ Innan du öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)], bör du kontroller
 ## <a name="mobile-devices"></a>Mobila enheter
 **Windows:**[!INCLUDE[d365fin](includes/d365fin_md.md)] för Windows kan installeras på enheter med minst 1 GB RAM-minne och Windows 10 Phone, Home, Pro, Enterprise, eller Education (32- och 64-bitars versioner).  
 **iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för iPad och iPhone kräver iOS 9.0 eller senare.  
-**Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för Android surfplatta och Android telefon kan installeras på enheter med minst 1GB av RAM och Android 5.0 eller högre.  
+**Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för Android surfplatta och Android telefon kan installeras på enheter med minst 1GB av RAM och Android eller högre.  
 **Enhetens storlek:** [!INCLUDE[d365fin](includes/d365fin_md.md)] som stöds på smartphones med ett lägsta skärmstorlek på 4” och surfplattor med en lägsta skärmstorlek på 7”.  
 
 ## <a name="outlook"></a>Outlook
@@ -41,5 +40,5 @@ Innan du öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)], bör du kontroller
 **Plattformar:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In i OWA för iPhone, OWA för iPad och OWA för Android, kräver tilläggsprogrammet att den mobila enheten kör någon av de angivna mobila enheter som stöds för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

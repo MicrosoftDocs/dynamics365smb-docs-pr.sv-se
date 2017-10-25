@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
@@ -30,7 +29,6 @@ Som de säger - kontanter är det som styr. Diagrammen i rollcentret Revisor ger
 | Verkar siffrorna fel för en period?</br> Bör jag ta undersöka saken? |Inkomst och utgift |
 | När kan ett överskott eller underskott av kontanter ske?</br> Bör jag betala av skulder eller låna för att täcka kommande utgifter? |Kassaflödesprognoser |
 
-## <a name="dig-into-the-numbers"></a>Gräv ner dig i siffrorna
 I Rollcentret Revisor under **finansiell prestanda**, erbjuder diagrammen **kontantcykel**, **kassaflöde**, och **inkomster och utgifter** olika sätt att analysera kassaflöde:  
 
 * Visa siffrorna för en period med hjälp av skjutreglaget för tidslinje.  
@@ -46,7 +44,7 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 * Subtraherar leverantörsreskontra och lägger till kundreskontra.  
 * Hoppar över dubbla försäljningsorder och inköpsorder.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
+## <a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
 1. Sök efter **Kassaflödesprognoser** och välj sedan relaterad länk.  
 2. Välj en kassaflödesprognos och välj sedan åtgärden **kassaflödeskalkylblad**.  
 3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå förslagsrader**.  

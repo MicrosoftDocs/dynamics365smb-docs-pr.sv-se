@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 06/16/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: d53dfb26a3fea663e68a3b558579a59184e9de26
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-import-payroll-transactions"></a>Så här Importera du lönetransaktioner 
@@ -32,7 +31,7 @@ För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste d
 3. Följ anvisningarna i fönstret **Importera lönetransaktioner**.
 
     > [!TIP]  
->   I steget som berör mappning av externa löneposter till dina redovisningskonton kommer mappningarna som du skapar att sparas till nästa gång samma poster importeras. Detta besparar dig tid eftersom du inte behöver fylla i fältet **Kontonummer** manuellt varje gång du importerar återkommande lönetransaktioner.   
+>   I steget som berör mappning av externa löneposter till dina redovisningskonton kommer mappningarna som du skapar att sparas till nästa gång samma poster importeras. Detta sparar tid samtidigt som du inte behöver fylla i fältet **Kontonr** manuellt i redovisningsjournalen när du har importerat återkommande lönetransaktioner.   
 
     När du väljer knappen **OK** i den assisterade inställningsguiden, fylls fönstret **Redovisningsjournal** med rader som representerar de transaktioner som lönefilen innehåller, samt med relevanta konton redan ifyllda i fälten **Redovisningsjournal** i enlighet med de mappningar som du har gjort i guiden.
 4. Ändra eller bokför journalrader som för alla andra redovisningtransaktioner. Mer information finns i [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).   

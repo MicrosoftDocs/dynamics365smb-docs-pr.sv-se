@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Skapa kontaktpersoner
@@ -29,9 +28,9 @@ Du kanske också behöver få några publikationer om produkterna översatta och
 
 Om du registrerar så många uppgifter som möjligt om en kontaktperson kan alla grupper i företaget hitta relevant information.
 
-I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de avsnitt där de beskrivs. Uppgifterna anges i den ordning de vanligen utförs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
 | Ange information om en kontaktperson. |[Så här skapar du kontaktpersoner](marketing-how-create-contact-persons.md) |
 | Ange en alternativ adress för en kontakt. |[Så här tilldelar du alternativa adresser](marketing-how-assign-alternate-address.md) |
@@ -41,6 +40,6 @@ I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de 
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  
-[Skapa och hantera kontakter](marketing-create-contact-persons.md)  
+[Skapa och hantera kontakter]()  
 [Arbeta med Financials](ui-work-product.md)
 

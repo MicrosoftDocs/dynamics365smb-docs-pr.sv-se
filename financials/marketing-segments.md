@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Hantera segment
@@ -28,9 +27,9 @@ Det finns två huvuduppgifter i ett segment:
 * Ange allmän information om segmentet. Innan du kan välja kontakter i segmentet måste du först skapa segmentet.
 * Välj vilka kontakter som ska ingå i segmentet.
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. Uppgifterna står i den ordning de normalt utförs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
 | Skapa segment som gör att du kan välja en grupp kontakter. Till exempel direktutskick. |[Så här skapar du segment](marketing-how-create-segment.md) |
 | Hantera de kontakter som har tilldelats segment. |[Så här lägger du till kontakter i segment](marketing-add-contact-segment.md) |

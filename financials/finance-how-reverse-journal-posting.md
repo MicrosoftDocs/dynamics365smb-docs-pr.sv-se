@@ -1,5 +1,5 @@
 ---
-title: "Ångra en redovisningsjournal genom att bokföra en mottransaktion | Microsoft Docs"
+title: "Ångra en bokföring genom att bokföra en mottransaktion | Microsoft Docs"
 description: "Om du har bokfört en felaktig bokföring i den allmänna journalen, kan du använda funktionen Återför transaktion för att ångra bokföringen med ett korrekt redovisningsspårning."
 services: project-madeira
 documentationcenter: 
@@ -10,30 +10,62 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 06/15/2017
+ms.date: 08/03/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8126a53d59e72276eb1558fd65fe3c0cd53600cc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 802171d4f421270cb7e9b4f9dfedec9b9fe5ddc6
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="how-to-reverse-journal-posting"></a>Så här: Återföra en journalbokning
+# <a name="how-to-reverse-postings"></a>Så här: Återföra en bokning
 För att kunna återföra (ångra) en felaktig bokföring markerar du posten och skapar en korrigeringspost (transaktioner som är identiska med den ursprungliga transaktionen, men har ett motsatt tecken i beloppsfältet) med samma dokumentnummer och bokföringsdatum som den ursprungliga posten automatiskt. När du har återfört en post måste du skapa en korrekt post.
 
 Du kan endast återföra poster som har bokförts från en redovisningsjournalrad. En transaktion kan endast återföras en gång.
 
 Läs mer om hur du bokför från en redovisningsjournal, [så här: bokföra transaktioner direkt till redovisningsmodulen ](finance-how-post-transactions-directly.md).
 
-Du kan återföra poster från alla fönster **Transaktioner**. Följande procedur baseras fönstret **redovisningstransaktioner**.
+Om du har bokfört fel negativt antal, till exempel om en inköpsorder med fel antal artiklar och bokfört den som inlevererad men inte fakturerad, kan du ångra bokföringen.
+
+Om du har bokfört fel positivt antal, till exempel om en inköpsreturorder med fel antal artiklar och bokfört den som levererad men inte fakturerad, kan du ångra bokföringen.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Att återföra bokföringen av en redovisningstransaktion journal
+Du kan återföra poster från alla fönster **Transaktioner**. Följande procedur baseras fönstret **redovisningstransaktioner**.
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningstransaktioner** och välj sedan relaterad länk.
 2. Markera den transaktion som du vill återföra och välj sedan åtgärden **återföringstransaktion**. Observera att det måste komma från en journalbokföring.
 3. I fönstret **Återför transaktionsposter** väljer du önskad post och klickar på åtgärden **Återför**.
 4. Välj knappen **Ja** på bekräftelsemeddelandet.
+
+## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Så här ångrar du ett bokfört antal i en bokförd inköspleverans  
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda inköpsinleveranser** och välj sedan relaterad länk.  
+2.  Öppna den bokförda inleveransen som du vill ångra.  
+3.  Markera de rader som du vill ångra.  
+4.  Välj åtgärden **Ångra inleverans**.
+
+    En rättningsrad infogas under den valda inleveransraden.  
+
+    Om antalet har inlevererats i en lagerinleverans infogas en rättningsrad i den bokförda lagerinleveransen.  
+
+    Fälten **Inlevererat antal** och **Inlevrd. antal ej faktrd.** på den relaterade inköpsordern är nollställda.
+
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Så här ångrar du ett bokfört antal i bokförda returleveranser
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda returutleveranser** och välj sedan relaterad länk.  
+2.  Öppna den bokförda returutleveranser som du vill ångra.
+3. Markera de rader som du vill ångra.  
+
+4.  Välj åtgärden **Ångra returutleverans**.  
+
+    En rättningsrad införs nu i det bokförda dokumentet och fälten **Returant. levererat** och **Retur levererat ej faktrd** på returordern ändras till noll.  
+
+    Gå nu tillbaka till inköpsreturordern som är klar att bokföras.  
+
+5.  Observera antalet i fältet **Returordernr** i fönstret **Returordernr**. .  
+6.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsreturorder** och välj sedan relaterad länk.  
+7.  Öppna returordern i fråga och välj åtgärden **öppna igen**.  
+8.  Korrigera värdet i fältet **Antal** och bokför inköpsreturordern igen.  
 
 ## <a name="see-also"></a>Se även
 [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  

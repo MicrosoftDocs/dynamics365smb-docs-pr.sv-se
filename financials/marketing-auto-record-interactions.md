@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Automatiskt registrering av interaktioner med kontakter
@@ -30,7 +29,7 @@ Du kan ställa in programmet att automatiskt registrera interaktioner för förs
 * Ringa till kontakterna om du har TAPI-anpassad telefon och rätt installering.
 
 För att definiera automatisk registrering av dessa interaktioner anger du interaktionsmallar för dessa dokument och åtgärder, genom att använda fönstret **Interaktionsmall inställningar**.  
-Om du vill öppna fönstret **Interaktionsmall inställningar**, välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Search for Page or Report icon"), anger **Interaktionsmall inställningar** och sedan väljer relaterad länk.
+För att öppna fönstret **Interaktionsmall inställningar** väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), ange **Interaktionsmall inställningar** och välj sedan relaterad länk.
 
 ## <a name="see-also"></a>Se även
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  

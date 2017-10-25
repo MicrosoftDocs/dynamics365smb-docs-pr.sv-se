@@ -12,20 +12,19 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/07/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="closing-years-and-periods"></a>Avsluta år och perioder
 Vid slutet av ett räkenskapsår finns ett antal administrativa uppgifter som du måste utföra, som t.ex. att se till att alla dokument och journaler är bokförda och se till att valutadata är aktuell och avsluta böckerna mm. De faktiska uppgifterna beror på ditt företag.
 
-Följande tabell innehåller en översikt över uppgifter som du vanligtvis utför för att avsluta ett år och en period. Uppgifterna anges i den ordning de vanligen utförs.
+Följande tabell innehåller en översikt över uppgifter som du vanligtvis utför för att avsluta ett år och en period. 
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
 | Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik. Beroende på vilka behov som finns i ditt företag kanske du vill begränsa användares intervall för bokföringsdatum i början av periodslutsprocessen eller efter den. |[Så här anger du bokföringsperioder](finance-how-specify-posting-periods.md) |
 | Få en översikt över aktiviteter som ofta utförs i samband med att du avslutar en period, till exempel bokföring av alla dokument och journaler, eller köra kontouppställningar. |[Avsluta perioder](year-how-complete-period-end-processes.md) |

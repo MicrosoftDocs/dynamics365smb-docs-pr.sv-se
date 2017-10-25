@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>SÅ här överför, delar eller kombinerar du anläggningstillgångar.
@@ -28,7 +27,7 @@ Du kan behöva överföra en anläggningstillgång till en annan avdelning, du t
 1. Skapa en ny anläggningstillgång. Ange den nya avdelningen i fältet **Avdelningskod**.
 2. Tilldela en avskrivningsregel för anläggningstillgång till den nya anläggningstillgången. Mer information finns i [Så här skaffar du anläggningstillgångar](fa-how-acquire.md).
 3. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl. grupperingsjournaler** och välj sedan relaterad länk.
-4. Skapa en grupperingsjournal där fältet **Anl.nr.** innehåller den ursprungliga anläggningstillgången och fältet **Nytt anl.nr.** innehåller den nya anläggningstillgången som ska flyttas.  
+4. Skapa en grupperingsjournal där fältet **Anl.nr.** innehåller den ursprungliga anläggningstillgången och fältet **Nytt anl.nr** innehåller den nya anläggningstillgången som ska flyttas.  
 5. Välj åtgärden **Gruppera**.
 
     Två rader skapas nu i redovisningsjournalen för anläggningstillgångar med mallen och journalen som du har angett i fönstret **Anl. journalinställningar** för den angivna avskrivningsregeln. Mer information finns i [Så här ställer du in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
@@ -44,8 +43,8 @@ Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgånga
 2. Tilldela en avskrivningsregel för anläggningstillgång till den nya anläggningstillgången. Mer information finns i [Så här skaffar du anläggningstillgångar](fa-how-acquire.md).
 3. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl. grupperingsjournaler** och välj sedan relaterad länk.
 4. Skapa två grupperingsjournalrader, en för varje ny anläggningstillgång.
-5. På den första raden anger du den andra anläggningstillgången i fältet **Nytt anl.nr.** 25 i fältet **Gruppera anskaff.kost. %**.
-6. På den andra raden anger du den tredje anläggningstillgången i fältet **Nytt anl.nr.** 40 i fältet **Gruppera anskaff.kost. %**.
+5. På den första raden anger du den andra anläggningstillgången i fältet **Nytt anl.nr** och 25 i fältet **Gruppera anskaff.kost. %**.
+6. På den andra raden anger du den tredje anläggningstillgången i fältet **Nytt anl.nr** och 40 i fältet **Gruppera anskaff.kost. %**.
 7. På båda rader markerar du kryssrutorna **Gruppera anskaff.kost.** och **Gruppera avskrivning**.   
 8. Välj åtgärden **Gruppera**.
 
@@ -57,7 +56,7 @@ Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgånga
 Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, till exempel när du vill flytta distribuerade anläggningstillgångar till en avdelning. Om du har bokfört anskaffningskostnader och avskrivning anläggningstillgång som ska flyttas, kombineras dessa värden i en enda anläggningstillgång.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anl. grupperingsjournaler** och välj sedan relaterad länk.
-2. Skapa en grupperingsjournal där fältet **Anl.nr.** innehåller den ursprungliga anläggningstillgången som ska flyttas/kombineras och fältet **Nytt anl.nr.** innehåller den anläggningstillgång som den ska kombineras med.
+2. Skapa en grupperingsjournal där fältet **Anl.nr.** innehåller den anläggningstillgången som ska flyttas/kombineras och fältet **Nytt anl.nr** innehåller den nya anläggningstillgången som ska kombineras med.
 3. Lämna fältet **Gruppera anskaff.kost. %** tomt om du vill flytta/kombinera den totala anskaffningskostnaden.    
 4. Välj kryssrutorna **Gruppera anskaff.kost.** och **Gruppera avskrivning**.
 5. Välj **Gruppering**på fliken **Åtgärder**.

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Så här registrerar du inköp
@@ -58,7 +57,7 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 
     > [!NOTE]  
 >   Om du har ställt in återkommande inköpsrader för leverantöre, till exempel en månatlig återanskaffningsorder, kan du infoga dessa rader på fakturan, genom att välja knappen **Hämta återkommande inköpsrader**.
-10. På snabbfliken **rader** i fältet **Artikelnr.** anger du ett nummer för en lagerartikel eller tjänst.
+10. Ange numret på en lagerförd artikel eller service på snabbfliken **Rader** Snabbfliken, i **Artikelnr** fältet.
 11. Ange hur många artiklar som ska införskaffas i fältet **Antal**.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ Inköpet visas nu i lager och ekonomiska transaktioner, och leverantörsbetalnin
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
+[Så här begär du offerter](purchasing-how-request-quotes.md)  
 [Så här köper du artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  
 [Så här registrerar du nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Så här förbereder du direktutleveranser](sales-how-drop-shipment.md)  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 41804dc183f9fa05ec1599db34c2b4f76a790a72
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-inventory-between-locations"></a>Så här överför du lager mellan olika lagerställen
@@ -40,7 +39,7 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 2. I fönstret **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Om du har fyllt i fälten **Transitkod**, **Speditörskod** och **Speditörsservice** i fönstret **Överföringsflödesspec.** när du skapar överföringsflödet, kommer motsvarande fält på överföringsordern att fyllas i automatiskt.
+>   Om du har fyllt i fälten **Transitkod**, **Speditörkod** och **Speditör servicekod** i fönstret **Överföringsflödespec.** när du lade upp överföringsflödet, fylls motsvarande fält i automatiskt på överföringsordern.
 
     När du fyller i fältet **Speditörsservice** beräknas datum för inleverans till det aktuella lagerstället genom att speditörens leveranstid tillförs utleveransdatumet.
 
@@ -65,7 +64,7 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 ## <a name="see-also"></a>Se även
 [Hantera lager](inventory-manage-inventory.md)  
 [Så här skapar du lagerställen](inventory-how-setup-locations.md)  
-[Logistik](madeira-supply-chain.md)  
+  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)

@@ -11,16 +11,15 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Använda Dynamics 365 for Financials utan Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Office 365, och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Office 365 och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
 
 ## <a name="sending-email"></a>Skicka e-post
 Du kan skicka dokumentet som till exempel fakturor som e-post med ditt företags e-postadress. Från din Startsida kan du använda en assisterad installation som hjälper dig att konfigurera e-post. Om du inte använder ett e-postkonto i Office 365 måste du ange teknisk information om e-postservern. Om du inte har den tillgängliga informationen, kontaktar du din IT-support.  

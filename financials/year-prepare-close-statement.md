@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Förbereda årsbokslutsrapporter
@@ -33,7 +32,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 | jämföra råbalansen med en budget. |Råbalans/Budget |
 | skriva ut en råbalansrapport med saldon och nettoförändringar för redovisningskonton beräknade för de perioder du valt. |Råbalans per period |
 | skriva ut en kontouppställning för att analysera siffror för redovisningskonton eller jämföra faktiska redovisningstransaktioner med redovisningsbudgettransaktioner. |Kontouppställning |
-| kontrollera om kund- och leverantörsreskontratransaktioner stämmer överens med motsvarande redovisningstransaktioner. |Avstäm kund- och lev.konton Tillgång |
+| kontrollera om kund- och leverantörsreskontratransaktioner stämmer överens med motsvarande redovisningstransaktioner. |Stäm av kund- och lev.konton |
 
 Om du vill se en rapport väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport") anger namnet som det visas i tabellen och väljer sedan relaterad länk.
 

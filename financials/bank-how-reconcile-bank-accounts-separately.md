@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 0e6fbc829f80b9fe5e1b2f9b4645d53f4334a696
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Så här stämmer du av bankkonton separat
@@ -45,7 +44,7 @@ När värdet i fältet **Totalt saldo** i rutan **Bankutdragsrader** är lika me
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Så här fyller du i bankavstämningrader genom att importera ett kontoutdrag
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkontoavstämningar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. I **Bankkontonr.** markera önskat bankkonto. Bankkontotransaktionerna som finns på bankkonto, visas i rutan **Bankkontotransaktioner**.
+3. Välj ett bankkonto i fältet **Bankkontonr**. Bankkontotransaktionerna som finns på bankkonto, visas i rutan **Bankkontotransaktioner**.
 4. Ange datumet på kontoutdraget från banken i fältet **Kontoutdragets datum**.
 5. Ange saldot på kontoutdraget från banken i fältet **Kontoutdragets slutsaldo**.
 6. Om du har en bankutdragsfil väljer du åtgärden **Importera bankutdrag**.
@@ -62,15 +61,15 @@ När värdet i fältet **Totalt saldo** i rutan **Bankutdragsrader** är lika me
 1. I fönstret **Bankkontoavstämning** väljer du åtgärden **Matcha automatiskt**. Fönstret **Matcha banktransaktioner** öppnas.
 2. Ange antalet dagar före och efter bankkontotransaktionbokföringsdatumet som funktionen ska söka i för att matcha bokföringsdatum i bankkontoutdraget i fältet **Bokföringsdatumtolerans (dagar)**.
 
-    Om du anger 0 eller lämnar fältet tomt kommer funktionen **Matcha automatiskt** endast söka efter matchande bokföringsdatum på bankkontotransaktionbokföringsdatumet.  
-3. Välj **OK**.  
+    Om du anger 0 eller lämnar fältet tomt kommer funktionen **Matcha automatiskt** endast söka efter matchande bokföringsdatum på bankkontotransaktionbokföringsdatumet.
+3. Välj **OK**.
 
     Alla kontoutdragrader och bankkontotransaktioner som kan matchas ändrar till grönt teckensnitt och **Kopplat** kryssrutan markeras.
 4. Markera kontoutdragraden och välj sedan åtgärden **Ta bort matchning**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Så här matchar du manuellt bankutdragsrader med bankkontotransaktioner
 1. I fönstret **Bankkontoavstämning** markerar du en okopplad rad i rutan **Kontoutdragrader**.
-2. I rutan **Bankkontotransaktioner** markerar du en eller flera bankkontotransaktioner som kan matchas med den valda kontoutdragraden. Om du vill välja flera rader, tryck och håll ned CTRL-tangenten.  
+2. I rutan **Bankkontotransaktioner** markerar du en eller flera bankkontotransaktioner som kan matchas med den valda kontoutdragraden. Om du vill välja flera rader, tryck och håll ned CTRL-tangenten.
 3. Välj åtgärden **Matcha manuellt**.
 
     Den valda kontoutdragraden och de valda bankkontotransaktionerna ändrar till grönt teckensnitt och **Kopplat** kryssrutan i det högra fönstret markeras.
@@ -81,7 +80,7 @@ När värdet i fältet **Totalt saldo** i rutan **Bankutdragsrader** är lika me
 Ibland kan det hända att ett kontoutdrag från banken innehåller belopp som motsvarar en avgift eller räntekostnad. Sådana banktransaktioner kan inte matchas, eftersom inga relaterade transaktioner finns i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du måste sedan bokföra en journalrad för varje transaktion för att skapa en artikelrelaterad transaktion som den kan matchas med.
 
 1. I fönstret **Bankkontoavstämning** väljer du åtgärden **Överföring till redovisningsjournal**.  
-2. I fönstret **Bankavst. trans. åt redov.jnl.** anger du vilken redovisningsjournal som ska användas och trycker sedan på knappen **OK**.
+2. I fönstret **Bankavst. trans. åt redov.jnl** anger du vilka redovisningsjournalen om du vill använda och klickar på knappen **OK**.
 
     Fönstret **Redovisningsjournal** öppnas med nya journalrader för alla bankrapportrader med saknade transaktioner.
 3. Fyll i journalraden med information, till exempel motkonton. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  

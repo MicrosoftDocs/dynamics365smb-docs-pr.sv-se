@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 035f4c0e98e3b7ba308319c2017568de832e26c5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6379aea58ab7943b117e5b19b22f71193290c2cb
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-enable-application-of-ledger-entries-in-different-currencies"></a>Så här aktiverar du koppling av kundreskontratransaktioner till olika valutor
@@ -39,6 +38,17 @@ Efterföljande proceduren beskriver hur du ställer in detta för leverantörsre
 | Ingen |Koppling mellan valutor är inte tillåten. |
 | EMU |Koppling mellan EMU-valutor är tillåten. |
 | Alla |Koppling mellan alla valutor är tillåten. |
+
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser vid valutakoppling  
+Om du kopplar transaktioner till olika valutor måste du ange de redovisningskonton som du vill bokföra avrundningsdifferenserna på.  
+  
+> [!NOTE]  
+>  Du måste skapa redovisningskonton innan du slutför uppgiften. Mer information finns i [Förstå redovisning och kontoplan](finance-general-ledger.md). 
+  
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kundbokningsgruppen** och välj sedan relaterad länk.  
+2. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
+3. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Leverantörsbokföringsmallar** och välj sedan relaterad länk.  
+4. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
 
 ## <a name="see-also"></a>Se även
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

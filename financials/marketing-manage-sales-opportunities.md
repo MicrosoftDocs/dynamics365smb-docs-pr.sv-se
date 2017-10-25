@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Hantera Försäljningsmöjligheter
@@ -25,9 +24,9 @@ En inkommande lead kan betraktas som en affärsmöjlighet. Du kan skapa affärsm
 
 Innan du börjar använda affärsmöjlighetshanteringen måste du skapa försäljningscykler och försäljningscykeletapper. När du skapar affärsmöjligheter ska du ange information om kontaktperson, säljare, försäljningscykel och datum samt uppskattat försäljningsvärde för affärsmöjligheten och sannolikheten för att försäljningen genomförs.
 
-I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de avsnitt där de beskrivs. Uppgifterna anges i den ordning de vanligen utförs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
 | Ange de försäljningscykler du brukar följa och de olika etapper i varje försäljningscykel för affärsmöjligheter. |[Så här skapar du cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Skapa försäljningsmöjligheter från dina kontakter. |[Så här skapar du affärsmöjligheter](marketing-how-create-opportunities.md) |

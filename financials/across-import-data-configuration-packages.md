@@ -1,6 +1,6 @@
 ---
 title: "Använda Excel för att importera data till Financials | Microsoft Docs"
-description: "Använda standardkonfigurationspaketet för att lägga till kundinformation i Excel och importera data till 365 Dynamics for Financials."
+description: "Använda standardkonfigurationspaketet för att lägga till kundinformation i Excel och importera data till Dynamics 365 for Financials."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 07/05/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
 ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importera data från äldre redovisningsprogrammet med ett konfigurationspaket.

@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 147ce327e3a30f27166fb44226fa60c1e15721c4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 10484680910a9012e58a333ab3a854cf4af0d09b
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-extended-item-text"></a>Så här skapar du utökad objekttext
@@ -33,6 +32,6 @@ Du kan utöka en standardtext för artiklar genom att lägga till extrarader och
 8. Stäng fönstret.
 
 ## <a name="see-also"></a>Se även
+[Ställa in lager](inventory-setup-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

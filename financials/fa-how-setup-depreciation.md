@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-depreciation"></a>Så här skapar du avskrivning av anläggningstillgångar
@@ -54,7 +53,7 @@ Om du vill tilldela en avskrivningsregel till flera anläggningstillgångar kan 
 2. Markera den anläggningstillgång som du vill tilldela en avskrivningsregel till och välj sedan åtgärden **Redigera**.
 3. I fönstret **Avskrivningsregelkort** väljer du åtgärden **Skapa avskrivningsregler för anl.tillg.**.
 4. I fönstret **Välj Avskrivningsregler för anl.tillg.** fyller du i fältet **Avskrivningsregler**.
-5. Välj fältet **Kopiera från anl.nr.** och välj sedan det anläggningstillgångsnummer du vill använda som bas för att skapa nya avskrivningsregler för anläggningstillgångar.
+5. Välj fältet **Kopiera från anl.nr** och välj sedan det anläggningstillgångsnummer som du vill använda som bas för att skapa nya avskrivningsregler för anläggningstillgångar.
 
     Om du fyller i det här fältet kommer avskrivningsfälten i anläggningstillgångarnas nya avskrivningsregler att innehålla samma information som motsvarande fält i den avskrivningsregel för anläggningstillgång som du kopierar från. Lämna fältet tomt om du vill skapa nya avskrivningsregler för anläggningstillgångar med tomma avskrivningsfält.  
 6. På snabbfliken **Anläggningstillgång** kan du ange ett filter så att du kan välja vilka tillgångar du vill skapa avskrivningsregler för anläggningstillgång .

@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Smarta meddelanden
@@ -27,8 +26,10 @@ Om du väljer att visa detaljer för ett meddelande, kan du vidta vill att lösa
 Meddelandena hjälper otränade användare att slutföra obekanta uppgifter och minskar inte produktiviteten för den mer tränade användaren.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Aktivera eller inaktivera meddelanden och kontrollera när de skickas
-När du först börjar med [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiveras alla meddelanden, men du kan aktivera dem eller inaktivera dem, till exempel om du inte är intresserad av en viss händelse eller status.   
+När du först börjar med [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiveras alla meddelanden, men du kan aktivera dem eller inaktivera dem, till exempel om du inte är intresserad av en viss händelse eller status.  
+  
 Dessutom låter dig vissa meddelanden ange de villkor enligt vilka de ska skickas. Exempelvis om du vill få ett meddelande när lagret är slut, men endast för de artiklar du vill köpa från en viss leverantör.  
+  
 Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för dig.  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Mina meddelanden** och välj sedan relaterad länk.

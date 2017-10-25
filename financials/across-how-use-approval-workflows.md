@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Så här använder du godkännande av arbetsflöden
 När en post som till exempel ett inköpsdokument eller ett kundkort måste godkännas av någon i organisationen, skickar du en godkännandebegäran som en del av ett arbetsflöde. Beroende på hur arbetsflödet konfigureras meddelas sedan den lämpliga godkännaren om att posten kräver godkännande.
 
-Du kan ställa in godkännandearbetsflöden i fönstret **Arbetsflöde**.
+Du kan ställa in godkännandearbetsflöden i fönstret **Arbetsflöde**. Mer information finns i [Konfigurera arbetsflöden](across-set-up-workflows.md).
+
+Förutom arbetsflöden för godkännande som beskrivs i det här avsnittet, kan du utföra olika andra arbetsflödesuppgifter. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
 
 Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som assisterad installation. Mer information finns i [Välkommern till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
@@ -47,17 +48,6 @@ Det kan hända att en kund vill göra ändringar i en order efter att den har sk
 - I fönstret som visar posten väljer du åtgärden **Avbryt godkännandebegäran**.
 
 När godkännandebegäran har annullerats, ändras statusen på den relaterade godkännandeposten till **Annullerad**. Statusen på posten uppdateras från **Väntar på godkännande** till **Öppen**. Godkännandeprocessen kan sedan starta från början igen.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Så här kan du göra mindre ändringar av godkända poster
-Om du vill göra en mindre ändring av en transaktion, när den har godkänts kan du öppna en post igen, ändra den och sedan släppa den. För mindre ändringar gör du detta med knapparna **Öppna igen** och **Släpp**.
-
-1. Öppna fönstret som visar posten, till exempel en inköpsfaktura och välj sedan åtgärden **Öppna igen**.
-
-    Värdet i fältet **Dokumentstatus** ändras till **Öppen**.
-2. Gör de nödvändiga ändringarna i posten, t.ex leverantörens adress.
-3. Välj åtgärden **Släppa**.
-
-När du öppnar källposten igen är statusen för den relaterade godkännandetransaktionen fortfarande Godkänd i fönstret **Godkännandetransaktioner**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Så här godkänner eller avvisar du begäranden om godkännande
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
@@ -98,5 +88,5 @@ Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontr
 [Försäljning](sales-manage-sales.md)    
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

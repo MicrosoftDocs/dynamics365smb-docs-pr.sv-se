@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Så här skapar du inkommande dokumentposter
@@ -44,7 +43,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 3. I fönstret **Inkommande dokument** väljer du ellipsknappen och sedan **Skapa från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
 4. Ta ett foto av ett dokument, t.ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
 
-En ny inkommande dokumentpost skapas med bilden bifogad.
+    En ny inkommande dokumentpost skapas med bilden bifogad.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Så här bifogar du en bild till en inkommande dokumentpost genom att ta ett foto
 > [!NOTE]  
@@ -55,14 +54,12 @@ En ny inkommande dokumentpost skapas med bilden bifogad.
 3. I fönstret **Inkommande dokument** väljer du ellipsknappen och sedan **Bifoga fil från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
 4. Ta ett foto av ett dokument, t.ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
 
-Bilden har bifogats till den inkommande dokumentposten.
+    Bilden har bifogats till den inkommande dokumentposten.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Så här skapar du en inkommande dokumentpost manuellt
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Välj åtgärden **Skapa från fil**.  
-3. Välj en fil och välj sedan **Öppna** i fönstret **Infoga fil**.
-
-    Filen kopplas automatiskt.
+3. Välj en fil och välj sedan **Öppna** i fönstret **Infoga fil**. Filen kopplas automatiskt.
 4. Välj alternativt åtgärden **Ny**.
 5. För att bifoga en fil väljer du åtgärden **Bifoga fil**.
 6. Markera filen som representerar det inkommande dokumentet i fråga och välj sedan knappen **Öppna** i fönstret **Infoga fil**.

@@ -1,6 +1,6 @@
 ---
 title: "Ställa in datumintervall i Dynamics 365 for Financials | Microsoft Docs"
-description: "Lära dig hur du får en rapport med data från specifika tidsperioder med datumintervall i Dynamics 365  for Financials."
+description: "Lära dig hur du får en rapport med data från specifika tidsperioder med datumintervall i Dynamics 365 for Financials."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: dc7cd392843ce7c39200bb2331c09cc44c7a394a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="entering-date-ranges-in-dynamics-365-for-financials"></a>Ange datumintervall Dynamics 365 for Financials

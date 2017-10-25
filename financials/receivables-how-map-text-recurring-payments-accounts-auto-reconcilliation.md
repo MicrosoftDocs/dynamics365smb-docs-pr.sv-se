@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
@@ -33,7 +32,7 @@ Betalningar som bokförts baserat på text-till-konto-mappning kopplas inte till
 > [!NOTE]  
 >   Betalningar på avstämningsjournalrader anges endast för att bokföra enligt text-till-kontomappning om den automatiska kopplingsfunktionen bara kan ange matchningssäkerheten **Låg** eller **Medium**. Om funktionen för automatisk koppling ger matchningssäkerheten Hög kopplas betalningen automatiskt till en eller flera öppna transaktioner och betalningen bokförs inte på de konton som angetts i fönstret **Mappa text till konto**. Med andra ord åsidosätter en matchningssäkerhet på **Hög** en text-till-konto-mappning.
 
-På en rad i en utbetalningsavstämningsjournal där betalningen har angetts för bokföring enligt text-till-kontomappning innehåller fältet **Matchningssäkerhet** innehåller **Hög – mappa text till konto** och **Kontotyp** och **Kontonr.** innehåller de tilldelade kontona.
+På en rad i en utbetalningsavstämningsjournal där betalningen har angetts för bokföring enligt text-till-kontomappning innehåller fältet **Matchningssäkerhet** innehåller **Hög – mappa text till konto** och fälten **Kontotyp** och **Kontonr.** innehåller de mappade kontona.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
@@ -43,19 +42,19 @@ På en rad i en utbetalningsavstämningsjournal där betalningen har angetts fö
 
     > [!NOTE]  
 >   Om inga andra utbetalningar eller inkommande dokument finns med mappningstexten i fråga kommer Mappa text till konto att uppstå, även om endast en del av texten på utbetalningen eller det inkommande dokumentet finns som en mappningtext.
-5. I fältet **Leverantörsnr.** anges leverantören som inkommande dokument som innehåller mappningstexten ska skapas för, eller som betalningar ska bokföras på. Mer information [Så här använder du OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).      
-6. I fältet **Debetkontonr.** anger du det konto som betalningar som innehåller mappningstexten ska bokföras till om de är inkommande betalningar i fältet . För inkommande betalningar är tecken på värdet i fältet **Transaktionsbelopp** positivt.
-7. I fältet **Kreditkontonr.** anger du det konto som betalningar som innehåller mappningstexten ska bokföras till om de är utgående betalningar i fältet . För utgående betalningar är tecken på värdet i fältet **Transaktionsbelopp** negativt.
+5. På fältet **Leverantörsnr.** anger du numret på de inkommande dokument som innehåller mappningstexten ska skapas för, eller som betalningar ska bokföras på. Mer information [Så här använder du OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).      
+6. På fältet **Debetkontonr.** anger du det konto som betalningar som innehåller mappningstexten ska bokföras till om de är inkommande betalningar. För inkommande betalningar är tecken på värdet i fältet **Transaktionsbelopp** positivt.
+7. På fältet **Kreditkontonr.** anger du det konto som betalningar som innehåller mappningstexten ska bokföras till om de är utgående betalningar. För utgående betalningar är tecken på värdet i fältet **Transaktionsbelopp** negativt.
 8. Ange om betalningen ska bokföras på ett redovisningskonto eller till ett kund- eller leverantörskonto i fältet **Ursprungstyp för motkonto**.
-9. I fältet **Ursprungsnr för motkonto** anger du det konto som betalningen ska bokföras på, beroende på ditt val i fältet **Ursprungstyp för motkonto**.
+9. På fältet **Ursprungsnr för motkonto** anger du det konto som betalningen ska bokföras på, beroende på ditt val i fältet **Ursprungstyp för motkonto**.
 10. Upprepa moment 4 till och med 8 för all text på betalningar som du vill mappa till konton för direkt bokföring utan koppling.
 
-Nästa gång importerar en bankutdragsfil eller väljer funktionen **Koppla automatiskt** i fönstret **Betalningsavstämningsjournal** innehåller journalrader för betalningar som innehåller den angivna mappningstexten de mappade kontona i fälten **Kontotyp** och **Kontonr.**. . Fältet **Matchningssäkerhet** ska innehålla **Hög – mappa text till konto**. Det sker på villkoret att den automatiska kopplingsfunktionen endast kan tillhandahålla matchningssäkerheten **Låg** eller **Medium**.
+Nästa gång importerar en bankutdragsfil eller väljer funktionen **Koppla automatiskt** i fönstret **Betalningsavstämningsjournal** innehåller journalrader för betalningar som innehåller den angivna mappningstexten de mappade kontona i fälten **Kontotyp** och **Kontonr.**. Fältet **Matchningssäkerhet** ska innehålla **Hög – mappa text till konto**. Det sker på villkoret att den automatiska kopplingsfunktionen endast kan tillhandahålla matchningssäkerheten **Låg** eller **Medium**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Exempel – Text-till-konto-mappning för bränslekostnad
 Om du alltid vill bokföra bränslekostnader upplupna på Shell-bensinmackar i redovisningen för bensin (konto 8510) fyller du i en rad i fönstret **Mappa text till konto** så här.
 
-| Mappningstext | Debetkonto Nr | Kreditkont Nr | Saldo Ursprungstyp | Saldo Ursprungsnr |
+| Mappningstext | Debetkontonr | Kreditkontonr | Ursprungstyp för motkonto | Ursprungsnr för motkonto |
 | --- | --- | --- | --- | --- |
 | Gränssnitt |TOM |8510 |Redovisningskonto |TOM |
 

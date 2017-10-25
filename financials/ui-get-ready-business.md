@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
@@ -39,7 +39,7 @@ I fönstret **Assisterad inställning** hittar du följande med **Grundläggande
 | Konfigurera Office-tillägg |Ställs in förmågan att använda och starta [!INCLUDE[d365fin](includes/d365fin_md.md)] från Outlook. |
 | Konfigurera arbetsflöde för godk. |Ställ in förmågan att automatiskt meddela en godkännare när en användare försöker att skapa eller ändra vissa värden i dokument, journalrader eller kort, till exempel ett belopp över en angiven gräns. |
 | Konfigurera e-postloggning |Ställ in kapaciteten att logga e-post i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att följa upp på interaktioner. |
-| Konfigurera anslutning för Dynamics CRM |Ställer in en anslutning till Dynamics CRM som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
+| Konfigurera anslutning för Dynamics 365 |Ställer in en anslutning till Dynamics 365 for Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
 
 När du har kört en assisterad inställningar, väljs den som **slutfört**. För att köra den assisterade inställningen väljer du de tre prickarna som även kallas snabbmenyn, och sedan väljer du **Starta inställningen**.
 
@@ -51,7 +51,7 @@ Använd pilarna för att minska en del av sidan och för att få mer plats för 
 Under **företaginställningar** kan du visa och redigera in inställningsinformation om det aktuella företaget. Mycket av detta fylldes i om du slutförde den assisterade installationen **Konfigurera företag** när du regsitrerade dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill ändra företaglogotypen, kontaktinformation, bankinställningarna eller information om fältet, kan du göra det i fönstret.    
 
 ## <a name="adding-users-and-permissions"></a>Lägga till användare och behörigheter
-Om du behöver lägga till fler användare kan du göra detta du i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). När användare skapas i Office 365, kan de importeras till fönstret **användare** med åtgärden **Få användare från Office 365**. Sedan kan du fortsätta med att tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Så här hanterar du användare och behörigheter](ui-how-users-permissions.md).  
+Om du behöver lägga till fler användare kan du göra detta du i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) När användare skapas i Office 365, kan de importeras till fönstret **Användare** med åtgärden **Få användare från Office 365**. Sedan kan du fortsätta med att tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Så här hanterar du användare och behörigheter](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Få hjälp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta knappbeskrivningar som kan hjälpa dig genom de olika affärsprocesserna. I varje knappbeskrivning kan du hitta en länk kallad **Läs mer** som tar dig till produkthjälp. Frågetecknet i det övre högra hörnet visar dig också till produkthjälp.

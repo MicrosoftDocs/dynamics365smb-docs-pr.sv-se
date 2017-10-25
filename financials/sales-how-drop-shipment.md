@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>Så här utför du direktleveranser
@@ -60,6 +59,7 @@ När leverantören har levererat artiklarna kan du bokföra försäljningsordern
 5. Markera antingen alternativet **Leverera** för att fakturera senare eller alternativet **Leverera och fakturera** för att fakturera omedelbart.
 
 ## <a name="see-also"></a>Se även
+[Så här skapar du specialorder](sales-how-to-create-special-orders.md)|  
 [Så här säljer du produkter](sales-how-sell-products.md)  
 [Så här registrerar du inköp](purchasing-how-record-purchases.md)  
 [Försäljning](sales-manage-sales.md)  

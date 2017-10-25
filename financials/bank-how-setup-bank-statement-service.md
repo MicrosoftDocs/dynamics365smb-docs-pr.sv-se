@@ -10,20 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/02/2017
+ms.date: 09/14/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i fönstret **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Tjänsten Envestnet Yodlee bankfeeder har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] och är klar att aktiveras. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
+
+> [!NOTE]
+> Tjänsten Envestnet Yodlee bankfeeder stöds bara i USA, Kanada och Storbritannien.
 
 När du har aktiverat bankfeedtjänsten måste du länka det involverade bankkontot till det onlinebankkonto som feeden ska komma från. Du länkar bankkonton till onlinebankkonton i följande olika scenarier:
 
@@ -58,7 +60,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
     > [!NOTE]  
 >   Om du har fler än ett onlinebankkonto på banken, måste du skapa ytterligare bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för dem. Se steg 8 till 10.  
 
-    När processen är slutförd kommer bankens namn att visas i rutan **Mina konton** på fliken **Länkad**. Numret i hakparenteser anger hur många onlinebankkonton som länkades.  
+    När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Siffran inom parentes visar hur många online bankkonton som länkades.  
 7. Välj **OK**.
 
     Om du bara länkar ett onlinebankkonto, öppnas fönstret **bankkontokort** och visar namnet på onlinebankkontot. I det här fallet är bankkontolänkninguppgiften slutförd. Allt som återstår är att skapa bankkontot. Mer information finns i [Så här skapar du bankkonton](bank-how-setup-bank-accounts.md).
@@ -80,7 +82,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 
     Bankfeedtjänsten förbereder dig på att länka ditt bankkontot bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] till det relaterade onlinebankkontot.  
 
-    När processen är korrekt slutförd kommer bankens namn att visas i rutan **Mina konton** på fliken **Länkad**. Om banken har fler än ett bankkonto, länkas endast det bankkonto som du valde i steg 2.  
+    När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Om banken har mer än ett bankkonto kan endast det bankkonto som du valde i steg 2 länkas.  
 5. Välj **OK**.
 
 I fönstret **Bankkontolista** markeras kryssrutan **Länkad**.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Så här definierar du checklayouter
@@ -27,7 +26,7 @@ Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska c
 
 ## <a name="to-define-check-layouts"></a>Om du vill definiera checklayouter
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Rapportval - bankkonto** och välj sedan relaterad länk.
-2. I fönstret **Rapportval - bankkonto.** i fältet **Användning** markerar du **Check**.
+2. I fönstret **Rapportval - bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
 | Rapport-ID | Rapportnamn | Beskrivning |

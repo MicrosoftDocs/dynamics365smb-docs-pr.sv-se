@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
@@ -54,13 +53,10 @@ Mer information finns i [Så här synkroniserar du kontakter med kunder, leveran
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tilldela en nummerserie för kontakter och affärsmöjligheter
 Du kan ange nummerserier för kontakter, kampanjemöjligheterer, segment och affärsmöjligheter. Om du har angett nummerserie för kontakter, kan du när du skapar en kontakt trycka på  RETUR i fältet Nr på kontaktkortet. på kontaktkortet så skriver programmet in nästa lediga kontaktnummer automatiskt.
 
-Mer information om nummerserier finns i [Skapa nummerserier](ui-create-number-series.md).
+Mer information om nummerserier finns i [Så här: Skapa nummerserier](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Söka efter dubbelkontakter, när kontakter skapas
 Du kan välja automatisk sökning efter kopior varje gång du skapar kontaktföretag eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior.
-
-## <a name="setting-up-email-logging"></a>Ställa in e-postloggning
-Du kan utbyta e-post med kontakter, kunder, leverantörer och så vidare. Du kan skicka och ta emot e-post från programmet eller Outlook. Innan du kan utbyta meddelanden på detta sätt och låta e-post lagras och placeras i kö måste du definiera vissa parametrar, till exempel hur ofta det ska kontrolleras om e-post väntar på att behandlas och namnet på profilen för e-postloggning.
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  

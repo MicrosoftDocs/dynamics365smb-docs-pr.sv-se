@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Så här exporterar du betalningar till en bankfil
-När du är redo att göra betalningar till leverantörer med hjälp av **Betalningsjournal** fönster, kan du exportera en fil med betalningsinformation på journalraderna. Du kan sedan överföra filen till den elektroniska banken att bearbeta relaterade pengaöverföringar.
+När du är redo att göra betalningar till dina leverantörer eller återföringar till dina anställda kan du exportera en fil med betalningsinformatio på raderna i fönstret **Betalningsjournal**. Du kan sedan överföra filen till banken för att bearbeta relaterade pengaöverföringar.
 
 I den generiska versionen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma tjänst användas för att skicka betalningsfiler som elektronisk överföring (EFT), men med en något annorlunda process. Se steg 6 i avsnittet "att exportera betalningar till en bankfil".    
 
@@ -35,10 +34,8 @@ Du använder fönstret **Kreditöverföringsregister** för att visa de betalnin
 2. Fyll i betalningsjournalen med relevanta utbetalningar, till exempel genom att använda funktionen **Betalningsförslag för lev.**. Mer information finns i [Så här föreslår du leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 3. Fyll i fälten på utbetalningsjournalraderna vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Om du använder EFT kan du välja mellan **elektronisk betalning** eller **elektronisk betalning – IAT** i fältet **Bankbetalningstyp**.
-
-    Andra filexporttjänster och deras format kräver olika inställningsvärden i fönstren**Bankkontokort** och **Leverantörsbankkontokort**. Du får information om vilka inställningsvärden som är fel eller saknas när du försöker exportera filen.
+> [!NOTE]  
+>   Om du använder EFT kan du välja mellan **elektronisk betalning** eller **elektronisk betalning – IAT** i fältet **Bankbetalningstyp**. Andra filexporttjänster och deras format kräver olika inställningsvärden i fönstren**Bankkontokort** och **Leverantörsbankkontokort**. Du får information om vilka inställningsvärden som är fel eller saknas när du försöker exportera filen.
 
 4. När du har gjort alla betalningsjournalrader, väljer du åtgärden **Exportera**.
 5. I fönstret **Exportera elektronisk betalning** fyller du i fälten efter behov.
@@ -46,7 +43,7 @@ Du använder fönstret **Kreditöverföringsregister** för att visa de betalnin
     Felmeddelanden visas i faktaboxen **Fel i betalningsfil** där du kan även välja ett felmeddelande om du vill se detaljerad information. Du måste lösa alla fel innan betalningsfilen kan exporteras.
 
     > [!TIP]  
->   När du använder tjänsten för bankdatakonvertering visas ett vanligt felmeddelande som berättar att bankkontonumret inte har den längd som din bank kräver. För att undvika eller åtgärda felet, måste du ta bort värdet i fältet **IBAN** i fönstret **Bankkontokort** och sedan i **Bankkontonr.** anger du ett bankkonto i formatet som din bank krävs.
+>   När du använder tjänsten för bankdatakonvertering visas ett vanligt felmeddelande som berättar att bankkontonumret inte har den längd som din bank kräver. För att undvika eller lösa felet måste du ta bort värdet i fältet **IBAN** i fönstret **Bankkontokort** och sedan i fältet **Bankkontonr** ange ett bankkontonummer i formatet som din bank kräver.
 
 6. I fönstret **Spara som** anger du var filen ska exporteras till och välj sedan **Spara**.
 
@@ -94,3 +91,4 @@ Du kan återexportera betalningsfiler till en bankfil från fönstret **Kreditö
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

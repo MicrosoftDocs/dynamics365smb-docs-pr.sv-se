@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Så här skapar du nummerserier
@@ -27,7 +26,7 @@ För varje företag som du lägger upp måste du tilldela unika ID-koder till ex
 
 Du skapar ett numreringssystem genom att skapa en eller flera koder för varje typ av huvuddata eller dokument. Du kan till exempel skapa en kod för numrering av kunder, en annan för numrering av försäljningsfakturor och en annan för numrering av dokument i redovisningsjournaler. När du har skapat en kod måste du skapa minst en nummerserierad. Nummerserieraden innehåller information som första och sista nummer i serien och startdatum. Du kan registrera flera nummerserierader per nummerseriekod, med olika startdatum på varje rad. Nummerserierna används löpande, med början på respektive startdatum.
 
-Du ställer normalt in nummerserier till att automatiskt infoga nästa nummer på nya kort eller dokument som du skapar. Men kan du också skapa en nummerserie för att manuellt ange det nya numret. Du anger detta med **Manuell numrering.** .
+Du ställer normalt in nummerserier till att automatiskt infoga nästa nummer på nya kort eller dokument som du skapar. Men kan du också skapa en nummerserie för att manuellt ange det nya numret. Du anger detta med kryssrytan **Manuell numrering.**
 
 Om du vill använda mer än en nummerseriekod för en typ av huvuddata, till exempel om du vill använda olika nummerserier för olika kategorier med artiklar, kan du använda nummerseriesamband.
 
@@ -36,7 +35,7 @@ Om du vill använda mer än en nummerseriekod för en typ av huvuddata, till exe
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten på en ny rad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Tips**: för att ange ett nummer på nytt kort eller dokument manuellt måste du avmarkera den **standard nr.** Markera kryssrutan och markera **Manuell numrering.** .
+**Tips**: för att manuellt ange ett nummer på nya kort eller dokument måste du avmarkera kryssrutan **Nr-automatik** kryssrutan och markerar kryssrutan **Manuell numrering**.
 
 Nu när du skapar ett nytt kort eller dokument som har konfigurerats till att använda den aktuella nummerserien, kan du manuellt fylla i fältet **nr.** med något värde.  
 

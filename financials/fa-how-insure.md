@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-insure-fixed-assets"></a>Så här försäkrar du anläggningstillgångar.
@@ -50,7 +49,7 @@ Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manue
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäkringsjournaler** och välj sedan relaterad länk.  
 2. Öppna den relevanta journalen och fyll i journalraderna som behövs.  
-3. För att skapa flera anläggningstillgångar till ett försäkringsbrev skapar du journalrader med samma värdet i fältet **Försäkringsnr.** och andra värden i **Anl.nr.** .  
+3. För att skapa flera anläggningstillgångar till ett försäkringsbrev skapar du journalrader med samma värdet i fältet**Försäkringsnr.** och olika värden i fältet **Anl.nr**.  
 4. Välj åtgärden **Bokföra**.  
 
     > [!NOTE]  

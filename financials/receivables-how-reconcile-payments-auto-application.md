@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Så här stämmer du av betalningar genom att använda automatisk koppling
@@ -33,7 +32,7 @@ Liknande funktioner finns för att stämma av överskottbelopp på Betalningsavs
 
 Du använder funktionen **Koppla automatiskt**, antingen automatiskt när du importerar en bankfil eller feed med betalningstransaktioner eller när du aktiverar den, för att koppla betalningar till deras motsvarande öppna transaktioner vid en matchning av data på en journalrad med data i en eller flera öppna transaktioner.
 
-På journalrader där en betalning har kopplats automatiskt till en eller flera öppna transaktioner har fältet **Matchningssäkerhet** ett värde mellan Låg och Hög som anger kvaliteten för de data som matchar dem som den föreslagna betalningskopplingen baseras på. Dessutom är fälten **kontotyp** och **kontonr.** ifyllda med information om kunden eller leverantören som betalningen gällde. Om du har ställt in en text-till-konto-mappning kan den automatiska kopplingen ge ett matchningssäkerhetsvärde på **Hög – text-till-konto-mappning**.
+På journalrader där en betalning har kopplats automatiskt till en eller flera öppna transaktioner har fältet **Matchningssäkerhet** ett värde mellan Låg och Hög som anger kvaliteten för de data som matchar dem som den föreslagna betalningskopplingen baseras på. Dessutom fylls fälten **Kontotyp** och **Kontonr.** med information om den kund eller leverantör som betalningen gäller. Om du har ställt in en text-till-konto-mappning kan den automatiska kopplingen ge ett matchningssäkerhetsvärde på **Hög – text-till-konto-mappning**.
 
 För varje journalrad som representerar en betalning i fönstret **Betalningsavstämningsjournal** kan du öppna fönstret **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information finns i [Så här granskar och kopplar du betalningar efter automatisk koppling](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ För varje journalrad som representerar en betalning i fönstret **Betalningsavs
 
     Fönstret **Betalningsavstämningsjournal** fylls i med rader för betalningar som representerar banktransaktioner i det importerade bankkontoutdraget.
 
-    På rader för betalningar som har kopplats automatiskt till sina relaterade öppna transaktioner har fältet **Matchningssäkerhet** har ett värde mellan **Låg** och **Hög** som anger kvaliteten för de data som matchar de som den föreslagna betalningskopplingen baseras på. Dessutom är fälten **kontotyp** och **kontonr.** ifyllda med information om kunden eller leverantören som betalningen gällde.
+    På rader för betalningar som har kopplats automatiskt till sina relaterade öppna transaktioner har fältet **Matchningssäkerhet** har ett värde mellan **Låg** och **Hög** som anger kvaliteten för de data som matchar de som den föreslagna betalningskopplingen baseras på. Dessutom fylls fälten **Kontotyp** och **Kontonr.** med information om den kund eller leverantör som betalningen gäller.
 7. Välj en journalrad och välj sedan åtgärden **Koppla manuellt** för att granska, koppla om eller koppla betalningen manuellt i fönstret **Betalningskoppling**. Mer information finns i [Så här granskar och kopplar du betalningar efter automatisk koppling](receivables-how-review-apply-payments-auto-application.md).
 
     När du har slutfört en manuell koppling innehåller fältet **Matchningssäkerhet** på journalraden som du har bearbetat manuellt **Accepterat**.

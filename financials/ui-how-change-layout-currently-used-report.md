@@ -3,7 +3,7 @@ title: "Ändra hur rapporten ska se ut genom att välja en annan layout | Micros
 description: "Du kan använda olika layouter för en rapport och växla mellan layouter för att ändra utseendet på en rapport."
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
-ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 677b7319baff476671c4c8ade4afed843f936c36
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Så här ändrar du vilken layout som används i en rapport för närvarande
@@ -25,7 +25,7 @@ En rapport kan ställas in med fler än en rapportlayout som du kan växla mella
 Beroende på layouterna som finns tillgängliga för en rapport kan du välja att använda en inbyggd RDLC-rapportlayout, en inbyggd Word-rapportlayout eller en anpassad layout. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Så här ändrar du layout som används i en rapport
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Search for Page or Report icon"), gå till **Val av rapportlayout** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
    I fönstret **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet Företag högst upp i fönstret. Fältet Vald layout anger den layout som används i rapporten för närvarande.
 2. Ange fältet **Företag** fältet högst upp i fönstret till företaget som inkluderar rapporten.
 3. I raden för rapporten i listan och anger du fältet **Vald layout** till ett av följande alternativ för att ändra layouten som används för en rapport:

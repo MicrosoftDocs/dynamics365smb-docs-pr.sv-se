@@ -1,8 +1,6 @@
 ---
 title: "Koppla kundreskontratransaktioner för att manuellt stämma av kundbetalningar | Microsoft Docs"
 description: "Beskriver hur du använder inbetalningar eller återbetalningar för kunder till en eller flera öppna kundreskontratransaktioner och stämma av kundbetalningar."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Så här stämmer du av kundbetalningar rabatter manuellt
@@ -45,13 +43,13 @@ Du kan också tillämpa kundbetalningar och leverantörsbetalningar i fönstret 
 4. Fyll i fältet **Bokföringsdatum**.  
 5. I fältet **Dokumenttyp** väljer du **Betalning**.
 
-    **Verifikationsnr** fältet fylls i av den nummerserie som har tilldelats batchen.  
-6. Använd **Externt dokumentnr** för att lagra ett ID, t.ex kundens checknummer.
+    Fältet **Dokumentnr** fylls i av den nummerserie som har tilldelats journalen.  
+6. Använd fältet **Externt verifikationsnr** om du lagrat ett ID t.ex kundens checknummer.
 7. I fältet **Kontotyp** väljer du **Kund**.
-8. I fältet **Bankkontonr.** markera önskat redovisningskonto.
+8. I fältet **bankkontonr.** väljer du relevant redovisningskonto.
 9. Gör något av följande om du vill bokföra kopplingen samtidigt som du bokför journalen.
 10. I fältet **Motkontotyp** väljer du **Redovisningskonto** för kontantbetalningar eller **Bankkonto** för andra typer av betalningar.
-11. I **balanskontonr.** välj kontantkontot för kontantbetalningar eller rätt bankkonto för andra typer av betalningar.
+11. Välj kontantkontot för kontantbetalningar eller rätt bankkonto för andra typer av betalningar i fältet **Motkonto**.
 12. Bokför journalen.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Så här kopplar du en betalning till en enskild kundreskontratransaktion
@@ -61,12 +59,12 @@ Du kan också tillämpa kundbetalningar och leverantörsbetalningar i fönstret 
 4. I fältet **Dokumenttyp** anger du **Betalning**.
 5. I fältet **Kontotyp** anger du **Kund**.
 6. I fältet **Motkontotyp** anger du **Bankkonto.**
-7. I fältet **Kopplas till ver.nr.** väljer du fältet för att öppna fönstret **Koppla kundtransaktioner**.
+7. I fältet **Kopplas till ver.nr** väljer du fältet för att öppna fönstret **Koppla kundtransaktioner**.
 8. I fönstret **Koppla kundtransaktioner** markerar du transaktionen som du vill koppla betalningen till.
 9. I fältet **Belopp att koppla** anger du det belopp som du vill koppla till transaktionen. Om du inte anger något belopp kopplas det maximala beloppet.
 
     Längst ned i fönstret **Koppla kundtransaktioner** kan du se beloppet i fältet **Kopplat belopp** och om kopplingen balanserar.  
-10. Välj **OK**. I fönstret **Inbetalningsjournal** visas nu transaktionen som du har valt i **Kopplas till dokumenttyp** och **Kopplas till ver.nr.** .
+10. Välj **OK**. I fönstret **Inbetalningsjournal** visas nu transaktionen som du har valt i fälten **Kopplas till dokumenttyp** och **Kopplas till ver.nr.**
 11. Bokför inbetalningsjournalen.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Så här kopplar du en betalning till flera kundreskontratransaktioner
@@ -77,8 +75,8 @@ Du kan också tillämpa kundbetalningar och leverantörsbetalningar i fönstret 
 5. I fältet **Kontotyp** anger du **Kund**.
 6. I fältet **Motkontotyp** anger du **Bankkonto.**
 7. I fältet **Belopp** anger du den fullständiga betalningen som ett negativt belopp.
-8. Om du vill koppla betalningen till flera kundreskontratransaktioner vid bokföringen väljer du åtgärden **Koppla transaktioner**.
-9. Markera raderna med de poster som du vill koppla transaktionen till och väljer sedan åtgärden **Koppla till ID**.
+8. Om du vill koppla betalningen till flera kundreskontratransaktioner vid bokföringen väljer du åtgärden **Koppla transaktioner**.  
+9. Markera raderna med de poster som du vill koppla transaktionen till och väljer sedan åtgärden **Koppla till ID**.  
 10. På varje rad i fältet **Belopp att koppla** anger du det belopp som du vill koppla till posten. Om du inte anger något belopp kopplas det maximala beloppet.
 
     Längst ned i fönstret **Koppla kundtransaktioner** kan du se beloppet i fältet **Kopplat belopp** och om kopplingen balanserar.  
@@ -88,11 +86,11 @@ Du kan också tillämpa kundbetalningar och leverantörsbetalningar i fönstret 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Så här kopplar du en kreditnota till en enskild kundreskontratransaktion
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningskreditnotor** och välj sedan relaterad länk.
 2. Öppna relevant försäljningskreditnota.
-3. Om du vill koppla kreditnotan till en enkel kundreskontratransaktion vid bokföringen väljer du i fältet **Kopplas till ver.nr.** den transaktion som du vill koppla betalningen till.
+3. Om du vill koppla kreditnotan till en enskild kundreskontratransaktion vid bokföring klickar du på snabbfliken **Kopplas till ver.nr** och väljer den transaktion som du vill koppla betalningen till.
 4. På raden i fältet **Belopp att koppla** anger du det belopp som du vill koppla till posten.  
 
     Om du inte anger något belopp kopplas automatiskt det maximala beloppet. Längst ned i fönstret **Koppla kundtransaktioner** kan du se beloppet i fältet **Kopplat belopp** och om kopplingen balanserar.    
-5. Välj **OK**. I fönstret **Försäljningskreditnota** visas nu transaktionen som du har valt i **Kopplas till dokumenttyp** och **Kopplas till ver.nr.** . Och beloppet på den kreditnota som ska bokföras justerat för eventuell kassarabatt.
+5. Välj **OK**. I fönstret **Försäljningskreditnota** visas nu transaktionen som du har valt i fälten **Kopplas till dokumenttyp** och **Kopplas till ver.nr.** Och beloppet på den kreditnota som ska bokföras justerat för eventuell kassarabatt.
 6. Bokför kreditnotan.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Så här kopplar du en kreditnota till flera kundreskontratransaktioner

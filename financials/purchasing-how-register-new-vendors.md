@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 82089770524e6fb6614f86cada7c5792bedf162f
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-vendors"></a>Så här registrerar du nya leverantörer
@@ -38,6 +37,9 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 3. Välj den mall som du vill använda för den nya leverantörskortet i fönstret **Välj en mall för en ny leverantör**.
 4. Välj **OK**. Ett nytt leverantörskort öppnas med några ifyllda fält med information från mallen.
 5. Fortsätt att fylla i eller ändra fält på leverantörskortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]  
+>   Om du inte känner till den faktureringsadress som kommer att användas för alla fakturor från en leverantör fyller du inte i fältet **Betalningsleverantörsnr**. Välj i stället betalningsleverantörens nummer när du har skapat en inköpsoffert, order eller ett inköpshuvud.
 
 Leverantören är nu registrerad, och leverantörskortet är klart att användas i inköpsdokument.
 

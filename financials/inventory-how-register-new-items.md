@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/02/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-items"></a>Så här registrerar du nya objekt
@@ -26,10 +25,12 @@ Artikelkort innehåller den information som behövs för att köpa, lagra, sälj
 
 Artikelkortet kan vara av typen **Lager** eller **Service** för att ange om artikeln är en fysisk enhet eller en arbetstidsenhet. Förutom vissa fält som är knutna till de fysiska aspekterna av en artikel, fungerar alla fält på ett artikelkort på samma sätt för lagerartiklar och tjänster. Mer information om att sälja en artikel finns i [Så här säljer du produkter](sales-how-sell-products.md) eller [Så här fakturerar du försäljning](sales-how-invoice-sales.md).
 
-En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. I [!INCLUDE[d365fin](includes/d365fin_md.md)],  är en struktur en monteringsstruktur. Använd monteringsstrukturer för att strukturera de överordnade artiklar som du säljer som satser som består av komponenter som du monterar till order eller lager. Mer information finns i [Så här arbetar du med strukturer](inventory-how-work-BOMs.md).
+En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en strukturlista vara antingen en monteringsstruktur eller en produktionsstruktur, beroende på dess användning. Mer information finns i [Så här arbetar du med strukturer](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Om artikelmallar finns för olika artikeltyper, visas ett fönster när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
+
+Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Leverantörer visas sedan i fönstret **Artikelleverantörskatalog** så att du enkelt kan välja en annan leverantör.
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
 1. På startsidan väljer du åtgärden **Artiklar** för att öppna listan över befintliga artiklar.  
@@ -39,6 +40,11 @@ En artikel kan struktureras som en överordnad artikel med underliggande underor
 3. Välj den mall som du vill använda för den nya artikelkortet i fönstret **Välj en mall för en ny artikel**.
 4. Välj **OK**. Ett nytt artikelkort öppnas med ifyllda fält med information från mallen.
 5. Fortsätt att fylla i eller ändra fält på artikelkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> I fältet **värderingsprincip** anger du hur artikelns styckkostnad beräknas genom att anta hur flödet av fysiska artiklar sker i företaget. Fem metoder är tillgängliga, beroende på typen av objekt. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).
+>
+> Om du använder **Genomsnitt** beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att i fönstret **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
 På snabbfliken **Pris och bokföring** ser du specialpriser eller rabatter som du beviljar för artikeln om vissa kriterier uppfylls, till exempel kund, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,6 +61,18 @@ Om du vill använda detta artikelkort som en mall när du skapar nya artikelkort
 
 Artikelmallen läggs till listan över artikelmallar, så att du kan använda det för att skapa nya artikelkort.
 
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Så här lägger du upp flera leverantörer för artiklar  
+Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t.ex. priser, ledtid och rabatter.  
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+2.  Välj relevant artikel och välj sedan åtgärden **Artikel**.  
+3.  Välj åtgärden **Leverantörer**.  
+4.  Välj fältet **Leverantörsnr** och välj sedan leverantör som du vill lägga upp för artikeln.  
+5.  Det är frivilligt att fylla i övriga fält.  
+6.  Upprepa moment 2 till 5 för varje leverantör som du vill köpa artikeln från.
+
+Leverantörer visas nu i fönstret **Artikelleverantörskatalog** som du kan öppna från artikelkortet så att du enkelt kan välja en annan leverantör.
+
 ## <a name="see-also"></a>Se även
   [Lagersaldo](inventory-manage-inventory.md)  
   [Inköp](purchasing-manage-purchasing.md)  
@@ -62,3 +80,4 @@ Artikelmallen läggs till listan över artikelmallar, så att du kan använda de
   [Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

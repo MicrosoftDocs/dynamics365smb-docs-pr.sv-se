@@ -1,5 +1,5 @@
 ---
-title: "Skapa ett försäljningserbjudande eller försäljningsoffert | Microsoft Docs"
+title: "Skapa ett försäljningserbjudande till en kund | Microsoft Docs"
 description: "Beskriver hur du skapar ett försäljningserbjudande eller begäran om förslag (Offertförfrågan) för att registrera ditt erbjudande till kunden att sälja produkter under vissa villkor."
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Så här gör du erbjudanden
@@ -70,7 +69,7 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 16. I fönstret **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Så här skickar du dokument via e-post](ui-how-send-documents-email.md).
 17. Om kunden accepterar offerten väljer du åtgärden **Gör faktura** eller **Gör order**.
 
-Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller försäljningsorder har skapats baserat på informationen i försäljningsofferten där du kan bearbeta försäljningen. I fältet **Offertnr.** på försäljningsfakturan eller försäljningsordern kan du ange numret på försäljningsofferten som den har skapats från. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md), [Så här säljer du produkter](sales-how-sell-products.md).
+Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller försäljningsorder har skapats baserat på informationen i försäljningsofferten där du kan bearbeta försäljningen. I fältet **Offertnr** på försäljningsfakturan eller försäljningsordern kan du ange numret på försäljningsofferten som den har skapats från. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md), [Så här säljer du produkter](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

@@ -1,8 +1,6 @@
 ---
 title: "Dynamics 365 for Financials och Power BI innehållspaket | Microsoft Docs"
 description: "Det är enkelt att få insikter, affärsstöd och KPI:er från dina Financials-data med Power BI och innehållspaketet för Financials ."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,25 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 06/02/2017
+ms.date: 09/05/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
 Det är enkelt att få insikter om [!INCLUDE[d365fin](includes/d365fin_md.md)]-data med Power BI och innehållspaketet för  [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI hämtar dina data och bygger en förinstallerad instrumentbräda och rapporter baserade på den data.  
 
-Innehållspaketet är förkonfigurerat för att arbeta med försäljningsdata och ekonomiska data från demonstrationsföretaget som du får när du registrerar dig på förhandsgranskningen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
+Microsoft har publicerat följande innehållspaket:
 
-* Välj något visuellt på instrumentbrädan för att få upp en av sju underliggande rapporter.  
+| App | Description |
+| --- | --- |
+| Microsoft Dynamics 365 for Financials | Ger en instrumentpanel med viktiga ekonomiska data över tid, till exempel intäkter och kostnader, rörelsemarginal och kontantcykeln.|
+| Microsoft Dynamics 365 for Financials - CRM | Ger en instrumentpanel med viktig information om potentiella kunder och kontakter.  |
+| Microsoft Dynamics 365 for Financials - Sales | Ger en instrumentpanel med viktig information om försäljning och lager. |
+
+## <a name="using-the-dashboards"></a>Använda instrumentpanelerna
+Varje innehållspaket ger rapporter som du kan söka i:
+
+* Välj något visuellt på instrumentbrädan för att få upp en av de underliggande rapporterna.  
 * Filtrera rapporten eller lägg till fält som du vill övervaka.  
 * Sätt fast den här vyn på instrumentbrädan om du vill fortsätta spårningen.  
-  Instrumentbrädan och underliggande rapporter uppdateras dagligen. Du kan kontrollera uppdateringsschemat och ändra frekvens på datauppsättningen.  
+  Du kan uppdatera data manuellt och du kan ställa in ett schema för uppdatering. Mer information finns i [konfigurera schemalagd uppdatering](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
+
+Innehållspaketet är förkonfigurerat för att arbeta med data från demonstrationsföretaget som du får när du registrerar dig på förhandsgranskningen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. När du installerar appar i Power BI och du ansluter till dina egna data, fungerar inte vissa rapporter eftersom de använder data som företaget inte har. I så fall kan du bara ta bort rapporten från instrumentpanelen.  
 
 > [!NOTE]  
 >   Du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Mer information finns i [ansluta din affärsdata till Power BI ](across-how-use-financials-data-source-powerbi.md).  
@@ -50,13 +58,13 @@ För att komma åt dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power
 | **Användarnamn** |Ditt namn som det visas för ditt konto i [!INCLUDE[d365fin](includes/d365fin_md.md)], såsom *John Smith*. |
 | **Lösenord** |Detta är webbtjänståtkomstnyckel för ditt användarkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-Detta innebär dock att du måste ha 3 enheter av information från Financials : OData-URL och webbtjänståtkomstnyckel för ditt användarkonto.  
+Detta innebär dock att du måste ha 2 enheter av information från [!INCLUDE[d365fin](includes/d365fin_md.md)]: *OData-URL* och *webbtjänståtkomstnyckel* för ditt användarkonto.  
 
 ### <a name="getting-the-url"></a>Få URL:en
 När du lägger till [!INCLUDE[d365fin](includes/d365fin_md.md)] till Power BI måste du ange en URL, så att Power BI kan komma åt data från företaget. I anslutningsfönstret kommer URL:en att hänvisas till som **OData Feed URL** och måste ha följande format:
 
          https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-I det här exemplet är *mybusiness* namnet på din Financials-tjänst och *CRONUS US* är namnet på demonstrationsföretaget med *%20* som representerar utrymmet i namnet.   
+I det här exemplet är *mybusiness* namnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjänst och *CRONUS US* är namnet på demonstrationsföretaget med *%20* som representerar utrymmet i namnet.   
 Om du vill få URL:en söker du efter och öppnar i [!INCLUDE[d365fin](includes/d365fin_md.md)], fönstret **Webbtjänster**. I det här fönstret visas webbtjänsterna som för närvarande finns tillgängliga och du kan kopiera länken från fältet **OData-URL** för en av de standardinställda OData-webbtjänsterna.  
 
 ### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Hämtar användarnamnet och åtkomstnyckeln för webbtjänst
@@ -65,15 +73,7 @@ Om du vill använda data från [!INCLUDE[d365fin](includes/d365fin_md.md)]i Powe
 För att hitta denna information i [!INCLUDE[d365fin](includes/d365fin_md.md)], söker du efter fönstret **användare** och öppnar kortet för ditt användarkonto. På snabbfliken **allmänt** kopierar du innehållet i fältet **användarnamn** och på snabbfliken **Webbtjänståtkomst** kopierar du innehållet i fältet **Webbtjänståtkomstnyckel**. Om fältet **Webbtjänståtkomstnyckel** är tomt väljer du **Ändra webbtjänståtkomstnyckel** i menyfliken, väljer fältet **Nyckeln upphör aldrig att gälla** och trycker sedan på OK-knappen. Du kan sedan kopiera nyckeln.  
 
 ## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Hämta data från [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Instrumentbrädan för [!INCLUDE[d365fin](includes/d365fin_md.md)] visar de vanligaste rapporterna som du kommer att behöva använda för att spåra verksamheten. Data extraheras från ditt [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag med webbtjänster för att läsa realtidsdata. I [!INCLUDE[d365fin](includes/d365fin_md.md)], anger fönstret **Webbtjänster** webbtjänsterna som har konfigurerats för dig, inklusive följande som förbrukas av innehållspaketet i Power BI:  
-
-* ItemSalesAndProfit  
-* ItemSalesByCustomer  
-* powerbifinance  
-* SalesDashboard  
-* SalesOpportunities  
-* SalesOrdersBySalesPerson  
-* TopCustomerOverview  
+Instrumentbrädan för [!INCLUDE[d365fin](includes/d365fin_md.md)] visar de vanligaste rapporterna som du kommer att behöva använda för att spåra verksamheten. Data extraheras från ditt [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag med webbtjänster för att läsa realtidsdata. I [!INCLUDE[d365fin](includes/d365fin_md.md)] listar fönstret **webbtjänster** de webbtjänster som har ställts in för dig.
 
 > [!NOTE]  
 >   Om du ändrar namnet på någon av dessa webbtjänster, kommer data inte att visas i Power BI.  
@@ -108,19 +108,21 @@ Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsa
 
 * Kontrollera att URL:en följer mönstret som angavs tidigare:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
 * Ett vanligt fel är att ange den fullständiga URL:en för en viss webbtjänst:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
 * Eller så har du glömt att ange företagsnamnet:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## <a name="see-also"></a>Se även
+[Affärsstöd](bi.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
 [Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]för Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]för Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

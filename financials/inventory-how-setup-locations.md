@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 146fc08f389a5c068044358c59b7d8911f0b3343
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7d82b1c63bb1da367736f8dd044640b583493af8
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-locations"></a>Så här skapar du lagerställen
@@ -34,6 +33,9 @@ Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition p
 3. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.
 
+> [!NOTE]  
+> Många fält på lagerställekortet hänvisar till hanteringen av artiklar i ingående och utgående lagerprocesser. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md). 
+
 ## <a name="to-create-a-transfer-route"></a>Så här skapar du ett överföringsflöde
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Överföringsflöden** och välj sedan relaterad länk.
 2. Alternativt kan du i fönstret **Lagerställekort** välja åtgärden **Överföringsflöden**.
@@ -44,7 +46,6 @@ Du kan nu överföra lagerartiklar mellan två lagerställen. Mer information fi
 
 ## <a name="see-also"></a>Se även
 [Hantera lager](inventory-manage-inventory.md)  
-[Logistik](madeira-supply-chain.md)  
 [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  

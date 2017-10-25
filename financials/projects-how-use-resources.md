@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 48692c9837007c6dd9c3891f0940b6f15b1d6541
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-resources-for-jobs"></a>Så här använder du resurser för projekt
@@ -64,7 +63,7 @@ Om du vill skapa flera alternativa resurspriser baserat på standardpriserna på
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Så här får du förslag till resursprisändringar baserat på alternativa priser
 Om du redan har skapat alternativa priser för några resurser kan du använda batch-jobbet för att skapa flera alternativa resurspriser.
 
-1. I rutan **Sök** anger du **Föreslå res.prisändring (pris)** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Föreslå res.prisändring (pris)** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 3. Välj **OK**.  
 4. När batch-jobbet har avslutats öppnar du fönstret **Resursprisändringar** för att visa resultatet av batch-jobbet.

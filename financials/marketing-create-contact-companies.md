@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Skapa kontaktföretag
@@ -27,9 +26,9 @@ Genom att ange så mycket data som möjligt om ett visst företag ser du till at
 
 Du kan också definiera vilken affärsrelation du har med en kontakt. En kontakt kan till exempel vara en potentiell kund, bank eller underleverantör.
 
-I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de avsnitt där de beskrivs. Uppgifterna anges i den ordning de vanligen utförs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
 | Skapa en kontakt för ett nytt företag, antingen från noll eller från en kund, en leverantör eller ett bankkonto. |[Så här skapar du kontaktföretag](marketing-how-create-contact-companies.md) |
 | Synkronisera information i kontakter med vanlig information hos kunder, leverantörer och bankkonton. |[Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |

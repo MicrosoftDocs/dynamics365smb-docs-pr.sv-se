@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Så här anskaffar du anläggningstillgångar.
@@ -53,7 +52,7 @@ Både huvudtillgången och dess komponenter måste skapas som enskilda anläggni
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den anläggningstillgång som är huvudtillgången och välj sedan åtgärden **Huvudtillgångskomponenter**.
-3. I fönstret **Huvudtillgångskomponenter** väljer du fältet **Anl.nr.**. och markerar sedan den anläggningstillgång som du vill lägga till som en komponent av huvudtillgången.
+3. I fönstret **Huvudtillgångskomponenter** väljer du fältet **Anl.nr** och väljer den anläggningstillgång som du vill lägga till som en komponent i huvudtillgången.
 4. Stäng fönstret.
 5. Upprepa steg 3 och 4 för varje tillgångskomponent som du vill lägga till.
 6. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inställning av anläggningstillgångar** och välj sedan relaterad länk.
@@ -71,7 +70,7 @@ Efterföljande procedur beskriver hur du anskaffar en anläggningstillgång manu
 4. Välj åtgärden **Bokföra**.  
 
 > [!TIP]  
->   Om du fyller i fälten **Försäkringsnr.** i redovisningsjournalen för anläggningstillgångar när du bokför en anskaffningskostnad kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] även att bokföra anskaffningskostnaden för anläggningstillgången i försäkringstransaktionerna. Mer information finns i [Så här försäkrar du anläggningstillgångar](fa-how-insure.md).
+>   Om du fyller i fältet **Försäkringsnr.** i journalen när du bokför en anskaffningskostnad bokför [!INCLUDE[d365fin](includes/d365fin_md.md)] även anskaffningskostnaden för anläggningstillgången i försäkringstransaktionerna. Mer information finns i [Så här försäkrar du anläggningstillgångar](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Att rätta en bokföring av anskaffningskostnad för en anläggningstillgång,
 Om du gör ett fel när du bokför en anskaffningskostnad kan du flytta transaktionen med batch-jobbet **Rätta anl.trans.** och sedan bokföra rätt anskaffningstransaktion. De felaktiga transaktionerna överförs till fönstret **Anl. felaktiga transaktioner**.

@@ -1,6 +1,6 @@
 ---
 title: "Ställa in marknadsföringskampanjer i Financials | Microsoft Docs"
-description: "Beskriver hur du kan skapa och genomföra kampanjer i Dynamics 365 for Financials"
+description: "Beskriver hur du kan skapa och genomföra kampanjer i Dynamics 365 for Financials för att identifiera och attrahera prospekt och bibehålla kunder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/31/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Hantera marknadsföringskampanjer
@@ -39,7 +38,9 @@ När du har skapat din kampanj, bestämt vilka segment som du vill att kampanjen
 
  När du har angett försäljningspriser/radrabatter och segment på kampanjkortet måste du aktivera dem så att kampanjpriserna/rabatterna avspeglas på raderna.
 
-**Obs!**: För att försäljningspriserna/radrabatterna ska aktiveras måste du ange om hela segmentet eller om bara några kontakter är kampanjens mål. Om försäljningspriserna/radrabatterna omfattar alla kontakter i segmentet markerar du fältet **Kampanjmål** på snabbfliken **Kampanj** på kortet **Segment**.
+> [!NOTE]  
+>   För att försäljningspriserna/radrabatterna ska aktiveras måste du ange om hela segmentet eller om bara några kontakter är kampanjens mål. Om försäljningspriserna/radrabatterna omfattar alla kontakter i segmentet markerar du fältet **Kampanjmål** på snabbfliken **Kampanj** på kortet **Segment**.
+
 Om försäljningspriserna/radrabatterna inte erbjuds alla kontakter i segmentet kan du ta bort markeringen från fältet **Kampanjmål** för de relevanta kontakterna. Om fältet inte visas kan du lägga till det i din vy. Mer information finns i [Användaranpassning](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Genomföra kampanjer

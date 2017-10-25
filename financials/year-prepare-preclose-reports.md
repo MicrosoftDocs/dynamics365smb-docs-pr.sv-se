@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Använda rapporter före bokslut
@@ -26,7 +25,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 
 | Om du vill | Se den här rapporten |
 | --- | --- |
-| skriva ut en huvudboksrapport för ett eller flera bankkonton med ytterligare information om enskilda transaktioner. |Bankkonto - Detaljerad råbalans |
+| skriva ut en huvudboksrapport för ett eller flera bankkonton med ytterligare information om enskilda transaktioner. |Bankkonto - det. råbalans |
 | skriva ut en huvudbok för valda kunder. |Kund - råbalans |
 | skriva ut en huvudbok med detaljerad information om enskilda transaktioner, för valda kunder under en vald period. |Kunder - detaljerad råbalans |
 | skriva ut en huvudbok för valda leverantörer. |Leverantörsråbalans |

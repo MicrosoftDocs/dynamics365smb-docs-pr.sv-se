@@ -8,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 07/05/2017
+ms.date: 09/25/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c5571a6d5dcb7a228ce0debd9aa3bcf18607e8a4
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
@@ -31,7 +30,7 @@ Om till exempel din fil innehåller kunder och leverantörer, kan du välja att 
 
 Guiden för assisterad installation omfattar ett alternativ för att ändra standardkonfigurationen för överföring, men vi rekommenderar att du bara gör den avancerade inställningen om du är van vid databastabeller. I de flesta företag kommer standardmappningen från QuickBooks till [!INCLUDE[d365fin](includes/d365fin_md.md)] överföra den information som du vill.  
 
-Mer information finns i [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md) eller [Dynamics GP datamigrering ](ui-extensions-dynamicsgp-data-migration.md).
+Mer information finns i [QuickBooks Desktop datamigrering](ui-extensions-quickbooks-data-migration.md), [QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md), eller [Dynamics GP datamigrering](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Importera data från ett konfigurationspaket
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett konfigurationpaket som du kan exportera till Excel och ange dina data där. Sedan kan du importera datan från Excel igen. Paketet består av 27 register, inklusive huvuddata som t.ex. kunder, leverantörer, artiklar och konton, andra grundläggande inställningstabeller, som till exempel leveransmetoder och transaktionstabeller som t.ex. rubrik och rader.  
@@ -42,7 +41,8 @@ Mer information finns i [QuickBooks datamigrering](ui-extensions-quickbooks-data
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Importera data från äldre redovisningsprogrammet med ett konfigurationspaket](across-import-data-configuration-packages.md).  
-[QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks Desktop datamigrering](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md)  
 [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)   
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

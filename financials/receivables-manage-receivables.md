@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/01/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 79b64e3cacdf582d4c1737b46dc197929b8a1450
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a7944daaa0b07336361a03a9f46097f346481e66
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-receivables"></a>Hantera kundreskontra
@@ -42,6 +41,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Bokföring av inbetalningar eller återbetalningar för kunder i inbetalningsjournalen och koppla till kundreskontratransaktioner, antingen från journalen eller från bokförda transaktioner. |[Så här stämmer du av kundbetalningar rabatter manuellt](receivables-how-apply-sales-transactions-manually.md) |
 | påminna kunder om förfallna belopp, beräkna dröjsmålsränta och hantera kundreskontra. |[Så här kräver du in utestående saldon](receivables-collect-outstanding-balances.md) |
 |Säkerställ att du vet kostnaden för levererade artiklar genom att tilldela extra artikelkostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer efter försäljning.|[Så här: Använd artikelomkostnader till kontot för ytterligare kostnader](payables-how-assign-item-charges.md)|
+|Ställ in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Så här: arbeta med betalningstoleranser och kassarabattstolerans](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

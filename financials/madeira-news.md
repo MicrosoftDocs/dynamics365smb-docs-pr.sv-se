@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nyheter i Dynamics 365 for Financials
@@ -91,7 +90,7 @@ Denna uppdatering lägger till leverantörsinstrumentpanelen i Outlook-tillägge
 Outlook-tillägget gäller nu även för Outlook-kalender. Från ett kalendermöte kan du öppna den [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägget och få en översikt för den kund som är associerad med den avtalade tiden. Sedan kan du skapa och skicka en faktura för tjänsterna i mötet - allt detta händer direkt i Outlook-kalendern. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-marknadsplatsen för tillägg
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg är nu tillgängliga på AppSource-marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan söka efter och hitta tillägg på marknadsplatsen. Du kan visa information som till exempel marknadsföringsmaterial, skärmdumpar, videoklipp och länkar till ytterligare information. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg är nu tillgängliga på AppSource-marknadsplatsen i [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan söka efter och hitta tillägg på marknadsplatsen. Du kan visa information som till exempel marknadsföringsmaterial, skärmdumpar, videoklipp och länkar till ytterligare information. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Speditörer och artikelattribut
 Du kan lägga till attribut till dina lagerartiklar som gör det mycket enkelt att hitta rätt produkt som passar kundens behov. Mer information finns i [Så här arbetar du med attribut](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Du kan lägga till attribut till dina lagerartiklar som gör det mycket enkelt a
 Med denna uppdatering kan du välja mellan flera tillägg i fönstret **Tilläggshantering**.
 Mer information finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg av andra leverantörer](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Hantera kundrelationer med Microsoft Dynamics CRM från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Vi har lagt till en ny assisterade konfigurationsguide till startsidan för Business Manager som hjälper dig genom inställningsprocessen för att ansluta till Dynamics CRM. När detta är klart får du en sömlös koppling av Dynamics CRM-poster med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Mer information finns i avsnittet [hantera dina kundrelationer med Microsoft Dynamics CRM från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Hantera kundrelationer med Microsoft Dynamics 365 for Sales från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Vi har lagt till en ny assisterade konfigurationsguide till startsidan för Business Manager som hjälper dig genom inställningsprocessen för att ansluta till Dynamics 365 for Sales. När detta är klart får du en sömlös koppling av Dynamics 365 for Sales-poster med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Mer information finns i avsnittet [hantera dina kundrelationer med Microsoft Dynamics 365 for Sales från insidan av [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Maj 2016 uppdatering
 Uppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] lade till nya funktioner som [meddelas du om bloggen ](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

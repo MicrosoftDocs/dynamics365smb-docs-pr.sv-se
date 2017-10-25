@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Så här skapr du allmän information för anläggningstillgångar
@@ -106,7 +105,7 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
 2. Skapa ett anläggningstillgångskort för de befintliga tillgångarna.  
 3. Skapa avskrivningsregler för anläggningstillgångar.  
 4. Aktivera redovisningintegration, genom att följa stegen.
-5. I rutan **Sök**, ange **Avskrivningsregler** och välj sedan relaterad länk.  
+5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningsregler**, och välj sedan relaterad länk.  
 6. Välj den relevanta avskrivningsregeln. Välj **Redigera** för att öppna fönstret **Avskrivningsregelkort** på fliken **Start** i gruppen **Hantera**.
 7. Kontrollera att alla fält är ofyllda (ta bort markeringar) på snabbfliken **Integration**. Om du har fler än en avskrivningsregel ska du aktivera redovisningsintegrationen för alla reglerna.  
 8. Ange följande rader för varje anläggningstillgång i anläggningsjournalen:
@@ -114,7 +113,7 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
    * En rad med den ackumulerade avskrivningen till slutet på föregående räkenskapsår.
    * En rad med den ackumulerade avskrivningen från början av det innevarande räkenskapsåret till det datum då [!INCLUDE[d365fin](includes/d365fin_md.md)] anges för att starta beräkningen av avskrivningen.
 
-Om du har andra ingående saldon kan du även ange dessa nu, t.ex. nedskrivning\-uppskrivning.  
+Om du har andra ingående saldon kan du även ange dessa nu, t.ex. nedskrivning, uppskrivning o.s.v.  
 
 Om anläggningstillgången inte är integrerad med redovisningen hoppar du över steg 4 till 7.
 

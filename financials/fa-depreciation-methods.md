@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Avskrivningsmetoder
@@ -58,7 +57,7 @@ Bokföringsvärdet kan minskas genom bokförd uppskrivning, nedskrivning, val 1
 ### <a name="fixed-yearly-percentage"></a>Fast årlig procentsats
 Om du anger en fast årlig procentsats används följande formel vid beräkning av avskrivningsbeloppet:  
 
-Avskrivningsbelopp = (Linjär % × Avskrivningsbas × Antal avskr.dagar ) / (100 x 360)  
+Avskrivningsbelopp = (Linjär % × Avskrivningsbas × Antal avskr.dagar) / (100 × 360)  
 
 ### <a name="fixed-yearly-amount"></a>Fast årligt belopp
 Om du anger ett fast årligt belopp används följande formel vid beräkning av avskrivningsbeloppet:  
@@ -224,7 +223,7 @@ Med en användardefinierad metod använder du fönstret **Avskrivningstabeller**
 
 Beräkningsformeln för avskrivningsbelopp är:  
 
-Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas )/(100 x 360)  
+Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas) / (100 × 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Avskrivning baserad på antal enheter
 Den här användardefinierade metoden kan även användas för avskrivning baserad på enheter, till exempel när det gäller produktionsmaskiner med en fastställd livslängdskapacitet. I fönstret **Avskrivningstabeller** kan du ange det antal enheter som kan produceras under varje period (månad, kvartal, år eller bokföringsperiod).  
@@ -350,7 +349,7 @@ När du registrerar en transaktion i B1 i redovisningsjournalen för anläggning
 >   Du kan inte kopiera till samma journal som du kopierar från. Om du bokför transaktioner i redovisningsjournalen för anläggningstillgångar kan du kopiera dem till journalen för anläggningstillgångar eller till redovisningsjournalen för anläggningstillgångar med hjälp av en annan journal.  
 
 > [!NOTE]  
->   Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i Anl.tillg. redovisningsjournal måste du lämna fältet **Dokumentnr.** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
+>   Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i redovisningsjournalen för anläggningstillgångar måste du lämna fältet **Dokumentnr** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
 
 ## <a name="see-also"></a>Se även
 [Anläggningstillgångar](fa-manage.md)  

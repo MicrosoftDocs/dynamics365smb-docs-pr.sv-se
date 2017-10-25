@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-supplies"></a>Så här hanterar du projektleveranser
@@ -30,7 +29,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll i fälten efter behov. Mer information finns i [Så här registrerar du inköp](purchasing-how-record-purchases.md).
-3. I fälten **Projektnr**. och **Projektaktivitetsnr** väljer du informationen för det projekt som du vill köpa artiklar eller tjänster för. Använd funktionen **Välj kolumner** om fältet inte visas. Mer information finns i [Användaranpassning](ui-user-personalization.md).
+3. I fälten **Projektnr.** och **Projektaktivitetsnr.** väljer du informationen för det projekt som du vill köpa artiklar eller tjänster för. Använd funktionen **Välj kolumner** om fältet inte visas. Mer information finns i [Användaranpassning](ui-user-personalization.md).
 
     Värdet som du väljer i fältet **Projektradtyp** definierar om en planeringsrad skapas när du bokför artikelförbrukningen. Om fältet innehåller **Fakturerbart** skapas projektplaneringsrader som är klara att faktureras till kunden. Mer information finns i [Så här skapar du fakturaprojekt](projects-how-invoice-jobs.md).
 4. Välj åtgärden **Bokföra**.
@@ -48,7 +47,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
 Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du använda fönstret **Projektredovisningsjournal** för att bokföra dem direkt till det relevanta projektkontot.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektredovisningsjournaler** och välj sedan relaterad länk.  
-2. Skapa en ny rad och registrera information om utgiften, bland annat information i fälten **Projektnr**. och **Projektaktivitetsnr**.  
+2. Skapa en ny rad och registrera information om utgiften, bland annat information i fälten **Projektnr** och **Projektaktivitetsnr**.  
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
 ## <a name="see-also"></a>Se även

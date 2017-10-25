@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Så här: Skapa befattningsnivåer för kontaktpersoner
@@ -25,13 +24,13 @@ Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befatt
 
 Att använda befattningsnivåer på kontakter är en två-stegsprocess. Först definierar du befattningsnivåkoden. Du måste bara utföra den här steget en gång för varje befattningsnivå. När du har en befattningsnivåkod kan du börja koppla koden till kontaktpersoner.
 
-## <a name="to-define-an-organizational-level-code"></a>för att definiera en befattningsnivåkod
+## <a name="to-define-an-organizational-level-code"></a>För att definiera en befattningsnivåkod
 Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t.ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du fönstret **Befattningsnivåer**.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), gå till **Befattningsnivåer** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>för att tilldela befattningsnivåer till en kontaktperson
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a>För att tilldela befattningsnivåer till en kontaktperson
 Du kan endast tilldela befattningsnivåer till kontaktpersoner, inte kontaktföretag. Du kan endast tilldela en befattningsnivå per kontakt.
 
 1. Öppna kontakten .

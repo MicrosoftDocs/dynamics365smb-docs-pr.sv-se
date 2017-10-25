@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-web-sources-for-contact-companies"></a>Så här: Skapa Webbadresser för kontaktföretag
@@ -25,7 +24,7 @@ Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera
 
 Att använda webbadresser på kontakter är en två-stegsprocess. Först definierar du webbadresskoden. Du måste bara utföra den här steget en gång för varje webbadress. När du har en webbadresskod kan du börja koppla koden till kontaktpersoner.
 
-## <a name="to-define-a-web-source-code"></a>för att definiera en webbadresskod
+## <a name="to-define-a-web-source-code"></a>För att definiera en webbadresskod
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Webbadresser** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten **Kod**, **Beskrivning** och **URL**.
@@ -34,7 +33,7 @@ Att använda webbadresser på kontakter är en två-stegsprocess. Först definie
 
 Upprepa stegen för varje webbkälla du vill skapa.
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>för att tilldela webbadresser till ett kontaktföretag
+## <a name="to-assign-web-sources-to-a-contact-company"></a>För att tilldela webbadresser till ett kontaktföretag
 När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
 1. Öppna kontakten .

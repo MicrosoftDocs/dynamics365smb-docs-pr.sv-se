@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument
@@ -74,7 +73,7 @@ Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkont
 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
-Om en betalning i banken inte representeras av raden i fönstret **Betalningsregistrering** kan det bero på att det relaterade dokumentet inte har bokförts. I så fall kan du använda en sökfunktion för att snabbt hitta dokument och bokföra det för att behandla betalningen. Mer information finns i avsnittet Så här hittar du obetalda dokumentet under manuell betalningsavstämning.  
+Om en betalning i banken inte representeras av raden i fönstret **Betalningsregistrering** kan det bero på att det relaterade dokumentet inte har bokförts. I så fall kan du använda en sökfunktion för att snabbt hitta dokument och bokföra det för att behandla betalningen. Mer information finns i avsnittet ”Att söka efter ett visst försäljningsdokument som inte har fakturerats helt”.  
 
 Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från fönstret **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts. Mer information finns i avsnittet "Så här registrerar eller bokför du en betalning utan ett relaterat dokument".  
 
@@ -151,7 +150,7 @@ Följande procedurer beskriver hur du hittar ett visst dokument, genom att anvä
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.
 2. Välj avsnittet **Sök dokument** med pekaren på någon av raderna.
-3. I fönstret **Dokumentsökning** anger du ett sökvärde i **Dokumentnr.** .  
+3. I fönstret **Dokumentsökning** anger du ett sökvärde i fältet **Dokumentnr.**  
 
     > [!NOTE]  
 >   Värdet som du anger i detta fält, omsluts i gömda jokertecken. Det betyder att funktionen söker efter alla verifikationsnummer som innehåller det angivna värdet.    

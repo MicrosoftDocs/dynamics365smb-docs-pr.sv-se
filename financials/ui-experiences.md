@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Anpassa din Dynamics 365 for Financials-upplevelse
@@ -34,8 +33,8 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 
 | Upplevelse | Inverkan på användargränssnitt |
 | --- | --- |
-| Grundläggande |Visar endast grundläggande åtgärder och fält för grundläggande affärsområden, till exempel försäljning, inköp, ekonomi och hantering av affärsmöjligheter. |
-| Programsvit |Visar fler åtgärder och fält för grundläggande affärsområden och andra områden som projekthantering, anläggningstillgångar och analys per dimension. |
+| Grundläggande |Visar endast grundläggande åtgärder och fält inom de vanligaste affärsfunktionerna, till exempel försäljning, inköp, lager och ekonomi. |
+| Suite |Visar alla åtgärder och fält för alla tillgängliga affärsfunktioner.|
 
 ## <a name="see-also"></a>Se även
 [Ändra grundinställningar](ui-change-basic-settings.md)  
@@ -43,3 +42,4 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

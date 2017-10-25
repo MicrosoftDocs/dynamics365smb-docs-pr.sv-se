@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Så här: Skapa återkommande försäljnings- och inköpsrader
@@ -39,12 +38,12 @@ I följande procedur beskrivs hur du arbetar med in standardförsäljningsrader.
 5. Välj **OK** för att infoga standardförsäljningsraderna på fakturan, där du kan använda eller redigera informationen.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Så här: skapa flera försäljningsfakturor utifrån standardförsäljningskoder
-Du kan även använda **Skapa återkommande försäljningsfakt.** batch-jobb för att skapa försäljningsfakturor enligt de standardförsäljningsrader som har tilldelats kunder och med bokföringsdatum som faller inom det giltiga-från- och giltiga-till-datum som du anger på standardförsäljningskoden.
+Du kan använda batch-jobbet **Skapa återkommande försäljningsfakt.** för att skapa försäljningsfakturor enligt standardförsäljningsrader som tilldelats till kunderna och med bokföringsdatum som infaller inom de giltighetsdatum som du anger på standardförsäljningskoden.
 
-I fönstret **Återkommande försäljningsrader** kan du också ange en metod för autogirobetalning och medgivande för autogiro. De fakturor som skapas med **Skapa återkommande försäljningsfaktura** batch-jobbet kommer därefter att inkludera information som krävs för att kräva betalning för försäljningsfakturor med SEPA autogiro. Mer information finns i kräva in betalningar med SEPA direktdebitering.
+I fönstret **Återkommande försäljningsrader** kan du också ange en metod för autogirobetalning och medgivande för autogiro. De försäljningsfakturor som skapas med batch-jobbet **Skapa återkommande försäljningsfakt.** tar sedan med information som krävs för att kräva betalning för försäljningsfakturorna med SEPA-autogiro. Mer information finns i [Kräva in betalningar med SEPA direktdebitering](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Välj ikonen ![söka efter sida eller rapport](media/ui-search/search_small.png "ikonen söka efter sida eller rapport"), ange **Skapa återkommande försäljningsfakturor** och välj sedan relaterad länk.
-2. I **Skapa återkommande försäljningsfakt.** fyller du i fälten efter behov.
+2. I fönstret **Skapa återkommande försäljningsfakt.** fyller du i de fälten efter behov.
 3. I fältet **kod** anger du koden för standardförsäljningsrader som tilldelats kunden som du vill skapa fakturor för.
 4. Välj **OK**.
 

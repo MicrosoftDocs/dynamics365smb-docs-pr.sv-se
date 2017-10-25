@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Så här granskar och kopplar du betalningar manuellt efter automatisk koppling
@@ -26,7 +25,7 @@ För varje journalrad som representerar en betalning i fönstret **Betalningsavs
 > [!IMPORTANT]  
 >   När bankkontot som du stämmer av betalningar för ställs in för lokal valuta kommer fönstret **Betalningskoppling** att visa alla öppna transaktioner i lokal valuta, inklusive öppna transaktioner för dokument som fakturerats ursprungligen i utländsk valuta. Betalningar som kopplas till transaktioner med konverterade valutor kan därför bokföras med olika belopp än på originaldokumentet på grund av de eventuellt olika valutakurserna som används av banken och [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Därför bör du söka efter utländska valutakoder i fältet **Valutakod**i fönstret **Betalningskoppling** för att kontrollera om kopplingar baseras på konverterade valutor. Om du vill granska originaldokumentets belopp i utländsk valuta och se den använda valutakursen väljer du **Kopplas till löpnr.** och sedan på snabbmenyn, väljer du knappen Specificera för att öppna fönstret **Kundreskontratransaktioner** eller **Lev.reskontratransaktioner**.
+Därför bör du söka efter utländska valutakoder i fältet **Valutakod**i fönstret **Betalningskoppling** för att kontrollera om kopplingar baseras på konverterade valutor. Om du vill förhandsgranska belopp i det ursprungliga dokumentet i utländsk valuta och för att se den valutakursen som används, välj fältet **Kopplas till löpnr.** och sedan, på snabbmenyn, väljer du knappen för att öppna fönstren **Kundreskontratransaktioner** eller **Lev.reskontratransaktioner**.
 
 Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hanteras inte automatiskt i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

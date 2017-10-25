@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Förbereder för att ställa in kontakter
@@ -27,9 +26,9 @@ Innan du skapar kontakter och registrerar uppgifter om affärsrelationerna, mås
 
 Om du ställer in den här information kan du skapa kontakterna på ett mer organiserat sätt och att söka efter kontakterna utifrån en viss grupp blir mer effektivt. Varje grupp på företaget kan hitta den här informationen och därför blir kommunikationen med kontakterna mer framgångsrik.
 
-I tabellen nedan beskrivs en rad uppgifter i ordningsföljd med länkar till de avsnitt där de beskrivs. Uppgifterna står i den ordning de normalt utförs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
 | Ange de affärsrelationer du har med kontakterna, t.ex. presumtiv kund, bank, konsult eller tjänstleverantör. |[Ställa in affärsrelationer på kontaktföretag](marketing-business-relations.md) |
 | Ange vilken bransch dina kontakter tillhör, t.ex. detaljhandel eller bilindustri. |[Så här: Skapa branschgrupper på kontaktföretag](marketing-industry-groups.md) |

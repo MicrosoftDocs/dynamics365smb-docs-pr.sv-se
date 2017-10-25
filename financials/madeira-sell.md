@@ -1,5 +1,5 @@
 ---
-title: "Sälja Dynamics 365 Financials | Microsoft Docs"
+title: "Sälja Dynamics 365 for Financials | Microsoft Docs"
 description: "Ta reda på hur du kan expandera dina affärsmöjligheter och bli en Microsoft-partner och återförsäljare av Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Bli en återförsäljare av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expandera affärsmöjligheten med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Om du specialiserar dig på molnlösningar, Office 365, SharePoint, branschlösningar, analytics, ERP, CRM, redovisningsprogram och programvara/tjänste för optimering av affärsprocesser är Financials en ny affärsmöjlighet.   
+Om du specialiserar dig på molnlösningar Office 365, SharePoint, branschlösningar, analytics, ERP, CRM, redovisningsprogram och programvara/tjänste för optimering av affärsprocesser är Financials en ny affärsmöjlighet.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hjälper dig att skilja på och fördjupa kundrelationer genom att ge dig möjlighet att ge en lösning för verksamhetssystem som ansluter personer och procedurer som aldrig förr, helt inbäddad i välbekanta Microsoft Office-verktyg som små och medelstora företag använder varje dag.  
 

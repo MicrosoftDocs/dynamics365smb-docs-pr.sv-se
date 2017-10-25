@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2185a1fc40ddae772e20994f6531b02d7e703e17
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-budgets-for-fixed-assets"></a>Så här hanterar du budgetar för anläggningstillgångar
@@ -31,7 +30,7 @@ Om du vill förbereda den budgeterade resultaträkningen, balansräkningen och l
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>För att budgetera anskaffningskostnaden för en anläggningstillgång
 När du förbereder en budget måste du skapa anläggningstillgångskort för de anläggningstillgångar som du avser att införskaffa i framtiden. De budgeterade anläggningstillgångarna ställs in som vanliga anläggningstillgångar, men de måste ställas in för att inte bokföras i redovisningen.
 
-När du bokför anskaffningskostnaden, anger du numret på den budgeterade fasta anläggningstillgången i **Budgeterat anl.nr.** . På så sätt bokförs en anskaffningskostnad med ett motsatt tecken för den budgeterade tillgången. Detta innebär att den totala anskaffningskostnaden för den budgeterade tillgången är mellanskillnaden mellan den budgeterade och den verkliga anskaffningskostnaden.
+När du bokför anskaffningskostnaden, anger du numret på den budgeterade fasta anläggningstillgången i fältet **Budgeterat anl.nr.** På så sätt bokförs en anskaffningskostnad med ett motsatt tecken för den budgeterade tillgången. Detta innebär att den totala anskaffningskostnaden för den budgeterade tillgången är mellanskillnaden mellan den budgeterade och den verkliga anskaffningskostnaden.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att skapa ett nytt anläggningstillgångskort för den budgeterade anläggningstillgången.

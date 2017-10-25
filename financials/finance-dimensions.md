@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b7b69b3419520c482cbe6a84494bbac7ef35bea1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
@@ -38,6 +37,9 @@ Ju fler dimensioner du använder, desto mer detaljerade rapporter kan du baseras
 
 ## <a name="analyzing-by-dimensions"></a>Analys per dimension
 Funktionen dimensioner spelar en viktig roll i affärsstöd, exempelvis när du definierar analysvyer. Mer information finns i [Så här analyserar dy data efter dimension](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna i alla fönstrer för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
 
 ## <a name="dimension-sets"></a>Dimensionsuppsättningar
 En dimensionsuppsättning en är en unik kombination av dimensionsvärden. Den lagras som dimensionsuppsättningstransaktioner i databasen. Varje dimensionsuppsättningstransaktion representerar ett enstaka dimensionsvärde. Dimensionsuppsättningen identifieras av ett gemensamt dimensionsuppsättnings-ID som tilldelats varje dimensionsuppsättningstransaktion som tillhör dimensionsuppsättningen.  
@@ -104,10 +106,11 @@ I ett dokument som t.ex. en försäljningsorder kan du lägga till dimensionsinf
 
 Om du istället arbetar med en journal kan du lägga till dimensionsinformation i en transaktion om du har lagt upp genvägsdimensioner som fält direkt på journalraderna.  
 
-Du kan ställa in standarddimensioner för konton eller kontotyper, så att dimensioner och dimensionsvärden fylls i automatiskt.  
+Du kan ställa in standarddimensioner för konton eller kontotyper, så att dimensioner och dimensionsvärden fylls i automatiskt.
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  
 [Ekonomi](finance.md)  
+[Så här: Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

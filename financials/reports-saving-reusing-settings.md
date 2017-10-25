@@ -1,8 +1,6 @@
 ---
 title: "Använda och ändra inställningarna i rapporter | Microsoft Docs"
 description: "Beskriver hur du använder fördefinierade alternativ och filter för att anpassa en rapport och för att generera korrekta data."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,17 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 06/02/2017
+ms.date: 09/08/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e5f7417579a5ba0629032cf9fa664e0060b9cbf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2783c3a80beed5de6b7f7a63ff6811648ef48df3
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="saved-settings-on-reports"></a>Sparade inställningar i rapporter
+# <a name="managing-saved-settings-on-reports"></a>Hantering av sparade inställningar i rapporter
 Beroende på rapporten som körs, kan du presenteras med en sida som gör att du kan ange vissa alternativ och filter för att ändra data som ingår i den skapade rapporten. Den här sidan är känd som sidan för rapportbegäran. En rapport kan innehålla en eller flera *sparade inställningar* som du kan tillämpa till rapporten från sidan för begäran. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och pålitligt sätt att konsekvent skapa rapporter som innehåller korrekta data.
 
 Du kan se de sparade inställningar som är tillgängliga för dig för en rapport i avsnittet **Sparade inställningar** på sidan för rapportbegäran.  
@@ -40,11 +37,12 @@ Du hanterar sparade inställningar från sidan 1506 **rapportinställningar**. F
 
 Från sidan **Rapporinställningar** kan du skapa nya inställningar från noll, eller så kan du göra en kopia och ändra befintliga inställningar. För att ändra alternativ och filter för inställningar väljer du åtgärden **Redigera**.
 
-**Anteckningar**:
+> [!NOTE]
+> Funktionen för sparade inställningar i rapporter är bara relevant när egenskapen SaveValues på sidan för begäran är inställd på Ja. Egenskapen SaveValues anges i utvecklingsmiljön.  
 
-* Funktionen för sparade inställningar i rapporter är bara relevant när egenskapen SaveValues på sidan för begäran är inställd på Ja. Egenskapen SaveValues anges i utvecklingsmiljön.
-* Om du skapar en artikel med sparade inställningar för alla användare och denna artikel har samma namn som befintliga sparade inställningar för en viss användare, kan den användaren inte använda de sparade inställningar som har tilldelats alla.  I fältet Sparade inställningar på sidan för rapportbegäran visas två alternativ för sparade inställningar med samma namn. Oavsett vilket alternativ användaren väljer kommer de användarspecifika sparade inställningarna att tillämpas.
+> [!Important]
+> Om du skapar en artikel med sparade inställningar för alla användare och denna artikel har samma namn som befintliga sparade inställningar för en viss användare, kan den användaren inte använda de sparade inställningar som har tilldelats alla.  I fältet Sparade inställningar på sidan för rapportbegäran visas två alternativ för sparade inställningar med samma namn. Oavsett vilket alternativ användaren väljer kommer de användarspecifika sparade inställningarna att tillämpas.
 
 ## <a name="see-also"></a>Se även
-[Så här schemalägger du en rapportkörning](ui-schedule-report.md)  
+[Arbeta med rapporter](ui-work-report.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: Projekthantering | Microsoft Docs
+title: "Projektaktiviteter som använder resurser och tidrapporter | Microsoft Docs"
 description: "Beskriver hur du använder resurser och tidrapporter och projekt för att hantera projekt."
 services: project-madeira
 documentationcenter: 
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Projekthantering
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utföra vanliga projekthanteringsuppgifter som t.ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
 
-Innan du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt. Mer information finns i [Ställa in Projekthantering](projects-setup-projects.md).)  
+Innan du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt. Mer information finns i [Ställa in Projekthantering](projects-setup-projects.md).  
 
-**Obs!** den här funktionen kräver att din upplevelse är inställd på **Paket **. Mer information finns i avsnittet [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
@@ -44,8 +44,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Ställ in projekthantering](projects-setup-projects.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)      
-[Köpa](purchasing-manage-purchasing.md)         
+[Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)    
 [Ekonomi](finance.md)  
-[Arbetar med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

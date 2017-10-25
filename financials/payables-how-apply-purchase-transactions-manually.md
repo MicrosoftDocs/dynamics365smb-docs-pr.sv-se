@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Så här stämmer du av leverantörsbetalningar manuellt
@@ -35,7 +34,7 @@ Du kan koppla leverantörsreskontratransaktioner på tre olika sätt:
 > [!NOTE]  
 >   Om fältet **Avräkningsmetod** på leverantörskortet innehåller **Koppla till äldsta faktura**, kommer betalningen att kopplas automatiskt till den äldsta öppna kredittransaktionen om du inte manuellt anger vilken transaktion som ska kopplas till. Om avräkningsmetoden för en kund är **Manuell** måste du koppla transaktioner manuellt.
 
-Du kan koppla leverantörsbetalningar manuellt till dess relaterade inköpsdokument, när du bokför utbetalningarna i fönstret **Utbetalningsjournal**. Mer information om att fylla i utbetalningsjournalen finns i [Så här gör du betalningar](payables-make-payments.md).
+Du kan koppla leverantörsbetalningar manuellt till dess relaterade inköpsdokument, när du bokför utbetalningarna i fönstret **Utbetalningsjournal**. Mer information om att fylla i utbetalningsjournalen finns i [Göra delbetalningar](payables-make-payments.md).
 
 Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetalningarna visas som negativa banktransaktioner på banken. I fönstret **Betalningsavstämningsjournal** kan du använda funktioner för import av kontoutdrag, automatisk koppling och bankkontoavstämning. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
@@ -43,7 +42,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
 2. Ange information om betalningstransaktionen på den första journalraden i fönstret **Utbetalningsjournal**.
 3. Så här kopplar du en enskild leverantörsreskontratransaktion:
-   1. I fältet **Kopplas till ver.nr.** väljer du fältet för att öppna fönstret **Koppla leverantörstrans.**.
+   1. I fältet **Kopplas till ver.nr** väljer du fältet för att öppna fönstret **Koppla leverantörstrans.**.
    2. I fönstret **Koppla leverantörstrans.** markerar du transaktionen som du vill koppla betalningen till.
    3. På raden i fältet **Belopp att koppla** anger du det belopp som du vill koppla till posten.
 4. Eller så här kopplar du flera leverantörsreskontratransaktioner:
@@ -61,7 +60,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpskreditnotor** och välj sedan relaterad länk.
 2. Öppna den kreditnota som du vill koppla.
 3. Fyll i relevant information i huvudet.
-4. Om du vill tillämpa en enstaka leverantörsreskontratransaktion går du till snabbfliken **Koppling**på fältet **Kopplas till ver.nr.** och väljer transaktionen som du vill koppla krediten till och klickar sedan på fältet **Belopp att koppla** för att ange beloppet som ska kopplas till transaktionen.
+4. För att koppla en enstaka leverantörsreskontratransaktion väljer du på snabbfliken **Koppling** i fältet **Kopplas till ver.nr** den transaktion som krediten kopplas till och sedan i fältet **Belopp att koppla** anger du beloppet som ska kopplas till transaktionen.
 5. Eller så här kopplar du flera leverantörsreskontratransaktioner:
 
    1. Välj åtgärden **Koppla transaktioner**.
@@ -71,7 +70,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 
        Om du inte anger något belopp kopplas automatiskt det maximala beloppet. Längst ned i fönstret **Koppla leverantörstransaktioner** kan du se beloppet i fältet **Kopplat belopp** och om kopplingen balanserar.
 6. Välj **OK**.  
-   I fönstret **Inköpskreditnota** visas nu transaktionen som du har valt i fältet **Kopplas till dokumenttyp** och **Kopplas till ver.nr.** . Fönstret innehåller nu också beloppet på den kreditnota som ska bokföras justerat med eventuell kassarabatt.
+   I fönstret **Inköpskreditnota** visas nu transaktionen som du har valt i fältet **Kopplas till dokumenttyp** och fältet **Kopplas till ver.nr.** Fönstret innehåller nu också beloppet på den kreditnota som ska bokföras justerat med eventuell kassarabatt.
 7. Klicka på knappen **Bokför** för att bokföra inköpskreditnotan.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Så här kopplar du bokförda leverantörsreskontratransaktioner:

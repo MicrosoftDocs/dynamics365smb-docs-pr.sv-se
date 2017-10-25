@@ -1,8 +1,6 @@
 ---
 title: "Fakta om att använda Financials | Microsoft Docs"
 description: "Svar på vanliga frågor om hur du registrerar dig för Financials och vad som ska ske när du vill börja."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/02/2017
+ms.date: 07/27/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
@@ -29,10 +26,10 @@ Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och anv
 Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola. Mer information finns i [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Måste jag köpa Office 365?
-Nej. Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som helt integrerad med Office 365, kan du prova Office 365 1 månad gratis [här](https://products.office.com/try).  
+Nummer Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som helt integrerad med Office 365, kan du prova Office 365 i 1 månad gratis [här](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Vad handlar integrationen med Office 365 om?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är helt integrerad med Office 365, så att du kan navigera fritt mellan Office 365-programmen och [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av programmarstartbilden. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du t.ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] är helt integrerad med Office 365 så att du kan navigera fritt mellan Office 365-programmen och [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av programmarstartbilden. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du t.ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jag avbryta min prenumeration?
 Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dina data tas bort eller bevaras. Mer information finns i [Avbryter [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -45,6 +42,9 @@ Ja. Om du vill utöka din testversion kontaktar du Microsoft på 1-888-477-7989 
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Vår administratör har flyttat mig till en annan plan för att ge mig en annan roll, men jag ser fortfarande samma startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Detta är lite komplicerat, men det verkar som om administratören inte ändrade ditt rollcenter och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta anger dina behörigheter och standardstartsidan. Du kan ändra ditt rollcenter manuellt i Mina inställningar men om du har ändrat till en annan plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
+
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Har du läst om en ny funktion i översikten eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

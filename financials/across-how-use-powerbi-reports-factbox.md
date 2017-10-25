@@ -12,22 +12,21 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Visa listdata i Power BI-rapporter i Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
 
 > [!NOTE]  
->   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom måste du hämta [Power BI skrivbord ](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).  
+>   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatauppsättning
-När du skapar rapporten i Power BI för skrivbordet, anger du dattakällan eller webbtjänsten som innehåller de data som är relaterade till listan som du vill associera med rapporten. Om du vill skapa en rapport för försäljningslistan ser du till att datauppsättningen innehåller information om försäljning.  
+När du skapar rapporten i Power BI Desktop, anger du dattakällan eller webbtjänsten som innehåller de data som är relaterade till listan som du vill associera med rapporten. Om du vill skapa en rapport för försäljningslistan ser du till att datauppsättningen innehåller information om försäljning.  
 
 För att filtrera data i rapporter baserat på den post som valts från listsidan, måste primärnyckeln användas som ett rapportfilter. Primärnycklar måste ingå i datauppsättningen för rapporterna du ska filtrera. Oftast är primärnyckeln för en lista **nr.** .  
 
@@ -64,7 +63,7 @@ Det här avsnittet beskriver en lösning för de vanligaste problemen som kan up
 
 **Användaren ser inte en rapport på sidan Välj rapport som de vill markera** Om du inte kan välja en rapport, är en möjlig lösning att kontrollera namnet på rapporten så att den innehåller namnet på listsidan. Du kan också ta bort filtret om du vill ha en fullständig lista över Power BI-rapporter som är tillgängliga.  
 
-**Rapporten är laddad men tom. inte filtrerad eller felaktigt filtrerad** Kontrollera att rapportfiltret innehåller rätt primärnyckel. I de flesta fall är detta fältet **nr.** men i tabellen **Redovisningstransaktion**, till exempel måste du använda fältet **Löpnr** .
+**Rapporten är laddad men tom. inte filtrerad eller felaktigt filtrerad** Kontrollera att rapportfiltret innehåller rätt primärnyckel. I de flesta fall är detta fältet **nr.** men i tabellen **Redovisningstransaktion**, till exempel måste du använda fältet **Löpnr**.
 
 **Rapporten laddas och visas inte på sidan som förväntat** Kontrollera att sidan som du vill visa är den första sidan i rapporten.  
 
