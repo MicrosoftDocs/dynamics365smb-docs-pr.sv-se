@@ -50,13 +50,12 @@ Sedan kan du lägga upp kolumner så här:
 
 Baserat på de rader och kolumner du har lagt upp sammanställs resultatet i rapporten i fönstret **Analysrapport** med hjälp av en matris som kan se ut så här:  
 
-|||||  
+| |Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
 |-|-|-|-|  
-||Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
-|Datorer||||  
-|Bildskärmar||||  
-|Reservdelar||||  
-|Summa||||  
+|Datorer| | | |  
+|Bildskärmar| | | |  
+|Reservdelar| | | |  
+|Summa| | | |  
 
  Du kan till exempel lägga upp en uppsättning rader och flera uppsättningar kolumnlayouter om du vill visa månadsrapporter respektive årsrapporter.
 

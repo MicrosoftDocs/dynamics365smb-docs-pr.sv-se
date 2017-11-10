@@ -67,7 +67,6 @@ För att verkställa planändringar för leverans måste du följa de resulteran
  |Grön cirkel med en ikon formad som en skiva som har ett rött kors|Föreslagen leveransorder med åtgärdsmeddelandet *Avbryt*.<br /><br /> -   Kan inte ändras.<br />-   Visas när fältet **Ta med planeringsförslag** markeras (grönt diagram).|  
  |Grön cirkel med en ikon formad som en skiva med en stjärna|Föreslagna leveransordrar med åtgärdsmeddelandet *Nytt*.<br /><br /> -   Kan ändras.<br />-   Visas när fältet **Ta med planeringsförslag** markeras (grönt diagram).|  
  |Grön cirkel med en ikon formad som en skiva med en eller två pilar|De föreslagna leveransorderna med åtgärdsmeddelandet *Omplanera*, *Ändra antal* eller *Planera & ändra antal*<br /><br /> -   Kan ändras.<br />-   Visas när fältet **Ta med planeringsförslag** markeras (grönt diagram).<br /><br /> Pilarna återspeglar riktningen i planeringsförslaget. Till exempel återspeglar en vänsterpil med en uppåtpil ett åtgärdsmeddelande *Planera & ändra antal* som består av en bakåtomplanering och en ökning av antalet.|  
- ||  
 
 När du öppnar listrutan för snabbfliken **tidslinje** visas följande funktioner beroende på vad du väljer  
 
