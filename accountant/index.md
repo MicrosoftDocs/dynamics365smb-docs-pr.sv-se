@@ -1,28 +1,35 @@
 ---
-title: Hantera klienterna i Dynamics 365 - Accountant Hub| Microsoft Docs
-description: "Dynamics 365 — Accountant Hub ger dig en bättre översikt över dina klienter så att du kan växla från klient till klient."
+title: Hantera dina klienter i Dynamics 365 | Microsoft Docs
+description: "Accountant Hub ger dig en bättre översikt över dina klienter så att du kan växla från klient till klient."
 author: edupont04
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard, accountant
-ms.date: 08/15/2017
+ms.date: 10/23/2017
 ms.author: edupont
-ROBOTS: NOINDEX,NOFOLLOW
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 7aa7e46acf2e060cb2956b550696b89a8c4c0e99
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 021ca5cebb5de3357a36c802a725d806c592e40f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
+# <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a><span data-ttu-id="3c061-103">Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="3c061-103">Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]</span></span>
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-## <a name="see-also"></a>Se även
-[Dokumentation för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+<span data-ttu-id="3c061-104">Om du är en revisor med flera klienter, använd [!INCLUDE[d365acc](includes/d365acc_md.md)] som din instrumentpanel för en bättre överblick över dina kunder.</span><span class="sxs-lookup"><span data-stu-id="3c061-104">If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.</span></span> <span data-ttu-id="3c061-105">Härifrån hittar du data för varje klient.</span><span class="sxs-lookup"><span data-stu-id="3c061-105">From there, you can access each client's data.</span></span>  
+
+![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
+
+<span data-ttu-id="3c061-107">Du kan få tillgång till [!INCLUDE[d365acc](includes/d365acc_md.md)] genom att logga in från [Dynamics 365 - Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Det är gratis och det går snabbt att komma igång och lägga till dina kunder på instrumentpanelen.</span><span class="sxs-lookup"><span data-stu-id="3c061-107">You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). It's free of charge, and it's quick to get started and add your clients to the dashboard.</span></span> <span data-ttu-id="3c061-108">Mer information finns i [Komma igång med Accountant Hub](get-started.md).</span><span class="sxs-lookup"><span data-stu-id="3c061-108">For more information, see [Get Started with Accountant Hub](get-started.md).</span></span>  
+
+<span data-ttu-id="3c061-109">I den aktuella versionen av [!INCLUDE[d365acc](includes/d365acc_md.md)] kan du lägga till användare som använder [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] för att sköta verksamheten.</span><span class="sxs-lookup"><span data-stu-id="3c061-109">In the current version of [!INCLUDE[d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to run their business.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="3c061-110">Se även</span><span class="sxs-lookup"><span data-stu-id="3c061-110">See Also</span></span>
+[<span data-ttu-id="3c061-111">Dokumentation för Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3c061-111">Microsoft Dynamics 365 documentation</span></span>](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[<span data-ttu-id="3c061-112">roadmap.dynamics.com</span><span class="sxs-lookup"><span data-stu-id="3c061-112">roadmap.dynamics.com</span></span>](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[<span data-ttu-id="3c061-113">Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3c061-113">Microsoft Dynamics 365</span></span>](https://go.microsoft.com/fwlink/?linkid=828707)  
 
