@@ -1,6 +1,6 @@
 ---
 title: "Ställ in SEPA Autogiro | Microsoft Docs"
-description: "Lär dig ställa in SEPA Autogiro i Dynamics 365 for Financials."
+description: "Lär dig ställa in SEPA Autogiro i Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: fea703b804fbc88e5c39f52f72bbda5699237b6b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Så här: Konfigurera SEPA Autogiro
@@ -38,7 +38,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 2. Välj åtgärden **Ny**.  
 3. Så här anger du betalningssätt. Fyll i de specifika fälten för autogiro enligt beskrivningen i följande tabell.  
 
-    |Fält|[Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Autogiro**|Ange om betalningsmetoden används för SEPA-autogiroinsamling.|  
     |**Betalningsvillkorskod för autogiro**|Ange betalningsvillkor, till exempel Betala inte, som visas på försäljningsfakturor som betalas med SEPA-autogiro för att visa kunden att betalningen kommer att samlas in automatiskt. Du kan även lämna fältet tomt.|  
@@ -59,7 +59,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 4. I **Kund bankkontolista**-fönstret väljer du det kundbankkonto som använder autogiro och väljer sedan, på fliken **Hem** i gruppen **Process**, **Medgivande av autogiro**.  
 5. I fönstret **SEPA Autogiromedgivanden** fyller du i fälten enligt instruktionerna i följande tabell.  
 
-    |[Fält|Beskrivning]|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Kund bankkontokod**|Anger det bankkonto som direktdebiteringsbetalningar samlas in från. Detta fält fylls i automatiskt.|  
     |**Giltig från**|Ange det datum när medgivande för autogiro startar.|  

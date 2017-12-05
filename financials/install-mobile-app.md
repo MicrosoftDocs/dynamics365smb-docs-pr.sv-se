@@ -1,6 +1,6 @@
 ---
-title: "Använd Financials på din mobila enhet | Microsoft Docs"
-description: "Du kan visa och redigera dina Financials-data på din telefon eller surfplatta."
+title: "Använd Dynamics 365 på din mobila enhet | Microsoft Docs"
+description: "Du kan visa och redigera dina Dynamics 365-data på din telefon eller surfplatta."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Hämta Dynamics 365 for Financials på din mobila enhet
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Hämta Dynamics 365 for Finance and Operations på din mobila enhet
 Komma åt [!INCLUDE[d365fin](includes/d365fin_md.md)] från en mobil enhet. Du kan navigera genom dina affärsdata, använda funktioner som till exempel skicka till Excel eller Office 365, visa aktuella diagram och KPI-er, e-posta försäljningsofferter och fakturor och ta och bifoga bilder med din kamera. Följ stegen nedan för att hämta programmet och komma igång.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>För att få programmet på en mobil enhet.

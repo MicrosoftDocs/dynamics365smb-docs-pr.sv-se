@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Så här: arbeta med betalningstoleranser och kassarabattstolerans
@@ -31,7 +31,7 @@ Ett enskilt dokument har samma betalningstolerans oavsett om det används som de
 
 *kassarabattsdatum < betalningsdatum för fokustransaktionen <= betalningstoleransdatum*  
 
-Denna regel gäller även när du vill bestämma om du vill visa varningar när du kopplar betalningstolerans till flera dokument. Varningen för kassarabattstoleransen visas för varje transaktion som uppfyller villkoren. Mer information finns i avsnittet ”exempel 2 – toleransberäkningar för flera dokument”. 
+Denna regel gäller även när du vill bestämma om du vill visa varningar när du kopplar betalningstolerans till flera dokument. Varningen för kassarabattstoleransen visas för varje transaktion som uppfyller villkoren. Mer information finns i avsnittet ”exempel 2 – toleransberäkningar för flera dokument”.
 
 Du kan välja att visa ett varningsmeddelande som baseras på olika toleranssituationer.  
 
@@ -95,7 +95,8 @@ Scenarier med alternativ A och B motsvarar dessa följande:
 - **A** I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför saldo som betalningstolerans).  
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt (Lämna saldo som återstående belopp).  
 
-|—|Fakturering|Kassarabatt|Max<br /><br /> Bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet.|Toleranstyp|Alla poster stängda|Betal.tol.rabatt <br /> GL/CL|Bet.<br /><br /> Tol.<br /><br /> Redovisning|  
+[!div class="mx-tdBreakAll"]  
+|—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet.|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1 000|20|5|03-01-15|03-01-20|<=03-01-15|985|Bet.tol.|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**03-01-15**|**03-01-20**|**<=03-01-15**|**980**|**Ingen**|**Ja**|**0**|**0**|  
@@ -166,7 +167,9 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 - **C** - I det här fallet har användaren kopplat på varningen och valt att tillåta sen kassarabatt på den första fakturan men inte på den andra.  
 - **D** - I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt på den första fakturan men däremot på den andra.  
 
-|—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet|Toleranstyp|Alla poster stängda|Betal.tol.rabatt <br /> GL/CL|Bet. tol.<br /><br /> Redovisning|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|<=03-01-15|1920|Bet.tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**<=03-01-15**|**1910**|**Ingen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  

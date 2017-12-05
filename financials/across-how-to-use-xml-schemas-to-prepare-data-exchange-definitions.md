@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: d44e4f55dc43e4ad6b8e8bc1742eed3c966eb918
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Så här använder du XML-scheman för att förbereda datautbytesdefinitioner
@@ -46,7 +46,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 4.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
-    |Fält|[Beskrivning]|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Kod**|Ange en kod som identifierar XML-schemat.|  
     |**Beskrivning**|Ange beskrivningen av XML-schemat.|  
@@ -66,7 +66,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 2.  Fyll i fälten i huvudet enligt beskrivningen i följande tabell.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**XML-schemakod**|Ange den XML schemafil som du läste in i steg 5 i avsnittet ”Ladda XML-schemafilen”.|  
     |**Nytt XML-portnr**|Ange numret på den XMLport som skapas från XML-schemat när du väljer åtgärden **Generera XMLport** i fönstret .|  
@@ -79,7 +79,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 4.  På fliken **Hem** i gruppen **Visa** väljer du någon av följande åtgärder för att ändra vilka noder som visas.  
 
-    |**Åtgärd**|Description|  
+    |**Åtgärd**|Beskrivning|  
     |----------------|---------------------------------------|  
     |**Visa alla**|Alla noder visas.|  
     |**Dölj ej obligatoriska**|Endast noder som representerar element som krävs enligt XML-schemat visas. Dessa noder har anges vanligtvis med **1** i fältet **MinOccurs**.<br /><br /> Välj **Visa alla** för att återföra vyn.|  

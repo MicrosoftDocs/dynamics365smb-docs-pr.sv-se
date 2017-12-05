@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
@@ -26,7 +26,7 @@ Det finns dock några saker som du måste konfigurera själv. Om du till exempel
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Till | Gå till |
+| Om du vill | Gå till |
 | --- | --- |
 | Välj hur du betalar leverantörerna. |[Definiera betalningssätt](finance-payment-methods.md) |
 | Ange bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. |[Ställa in bokföringsmallar](finance-posting-groups.md)|
@@ -40,7 +40,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Ställa in Intrastat-rapporten och skicka rapporten till en myndighet | [Så här: Skapa och rapportera Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Se även
-[Ekonomi](finance.md)]  
+[Ekonomi](finance.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Importera verksamhetsdata från andra finanssystem](upload-data.md)  

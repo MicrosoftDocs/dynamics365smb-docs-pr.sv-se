@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-persons"></a>Skapa kontaktpersoner
@@ -28,9 +28,9 @@ Du kanske också behöver få några publikationer om produkterna översatta och
 
 Om du registrerar så många uppgifter som möjligt om en kontaktperson kan alla grupper i företaget hitta relevant information.
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Till | Gå till |
+| Om du vill | Gå till |
 | --- | --- |
 | Ange information om en kontaktperson. |[Så här skapar du kontaktpersoner](marketing-how-create-contact-persons.md) |
 | Ange en alternativ adress för en kontakt. |[Så här tilldelar du alternativa adresser](marketing-how-assign-alternate-address.md) |
@@ -41,5 +41,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  
 [Skapa och hantera kontakter]()  
-[Arbeta med Financials](ui-work-product.md)
+[Arbeta med Dynamics 365](ui-work-product.md)
 

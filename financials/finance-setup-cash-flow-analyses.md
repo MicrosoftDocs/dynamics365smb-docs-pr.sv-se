@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
@@ -79,10 +79,10 @@ Så här använder du en manuell process:
 >   Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Cortana Intelligence inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  
 
 ## <a name="AnchorText"> </a>Skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser
-Du kan också skapa egna förebyggande webbtjänsten som bygger på en allmän modell med namnet **Prognosmodellen för Microsoft Dynamics 365 for Financials**. Den här förebyggande modellen finns online i galleriet Cortana Intelligence. För att använda modellen gör du följande:  
+Du kan också skapa egna förebyggande webbtjänsten som bygger på en allmän modell med namnet **Prognosmodellen för Microsoft Dynamics 365 Business edition**. Den här förebyggande modellen finns online i galleriet Cortana Intelligence. För att använda modellen gör du följande:  
 
 1. Öppna en webbläsare och gå du till [Cortana Intelligence-galleriet](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Sök efter **Prognosmodellen för Microsoft Dynamics 365 for Financials** och öppna sedan modellen i Azure Machine Learning Studio.  
+2. Sök efter **Prognosmodellen för Microsoft Dynamics 365 Business edition** och öppna sedan modellen i Azure Machine Learning Studio.  
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  

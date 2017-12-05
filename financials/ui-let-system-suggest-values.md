@@ -1,8 +1,6 @@
 ---
 title: "Konfigurera föreslagna fältvärden | Microsoft Docs"
-description: "Om du vill undvika manuella beräkningar, och genomför uppgifter snabbt och effektivt ställer du in automatisk datainmatning så att Financials fyller i fälten."
-services: project-madeira
-documentationcenter: 
+description: "Om du vill undvika manuella beräkningar, och genomför uppgifter snabbt och effektivt ställer du in automatisk datainmatning så att Dynamics 365 fyller i fälten."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,13 +10,13 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ca73c8298101eb02aac397894f87f7a5f58a5c2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden
+# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>Låta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] föreslå värden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjälpa dig att avsluta uppgifter som är snabbare och korrektare genom att fylla i fält eller färdigställa rader med data som du annars måste annars beräkna och ange själv. Även om sådana automatiska datainmatningar inte alltid är korrekta kan du ändra den efteråt om du vill.
 
 Funktionen som matar in fältvärden åt dig, erbjuds vanligtvis för uppgifter där du anger stora volymer av transaktionsdata och vill undvika fel och spara tid. Det här avsnittet innehåller ett urval av sådana funktioner. Mer avsnitt ska läggas till i framtida uppdateringar av [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -44,6 +42,6 @@ Dina huvudåtgärder i fönstret är att fylla i kryssrutan **Utförd betalning*
 3. Öppna fönstret **Betalningsregistrering** och fortsätt behandla inkommande kundbetalningar med hjälp av den beskrivna funktionen för automatisk bokföring av ett fältvärde.
 
 ## <a name="see-also"></a>Se även
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Ekonomi](finance.md)
 

@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c826ab2f82b2fb0d53339690a2da4978d79ab643
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-for-financials"></a>QuickBooks tillägg för import av lönefil till Dynamics 365 for Financials
+# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-business-edition"></a>QuickBooks tillägg för import av lönefil till Dynamics 365 Business edition 
 För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste du importera och bokföra finansiella transaktioner som gjorts av ditt lönesystem i redovisningen.
 
 För att göra detta måste du först importera en fil som du får från lönelistleverantören till fönstret **Redovisningsjournal**. Sedan mappar du de externa kontona i lönefilen till det relevanta redovisningskontot. Slutligen bokför du lönetransaktioner enligt kontomappningen. Mer information finns i [Så här importerar du lönetransaktioner](finance-how-import-payroll-transactions.md).

@@ -1,6 +1,6 @@
 ---
 title: "Skapa affärsmöjligheter | Microsoft Docs"
-description: "Beskriver hur du skapar försäljningsmöjligheter från en säljare eller kontakt i Financials."
+description: "Beskriver hur du skapar försäljningsmöjligheter från en säljare eller kontakt i Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Så här skapar du affärsmöjligheter
@@ -45,5 +45,5 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
-[Arbeta med Financials](ui-work-product.md)
+[Arbeta med Dynamics 365](ui-work-product.md)
 

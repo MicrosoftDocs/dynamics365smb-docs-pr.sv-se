@@ -1,6 +1,6 @@
 ---
 title: "Lägga till en extern revisor till Financials | Microsoft Docs"
-description: "Lär dig hur du kan bjuda in dina externa revisorn till din Dynamics 365 for Financials."
+description: "Lär dig hur du kan bjuda in dina externa revisorn till din Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,7 @@ Om du använder en extern revisor för att hantera böcker och redovisning kan d
 När din revisorn har fått tillgång till din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan de använda rollcenter **revisorn** som ger enkel åtkomst till de mest relevanta fönster för att kunna arbeta.  
 
 > [!NOTE]  
->  Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [anpassa din Financials-upplevelse](ui-experiences.md).  
+>  Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [anpassa din Dynamics 365-upplevelse](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I den senaste versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] har vi gjort det lätt för dig att bjuda in en extern revisor. Öppna bara fönstret **Användare** och välj åtgärden **Bjuda in extern revisor** i menyfliksområdet. Ett e-postmeddelande är redo för dig, lägg bara till din revisors e-postadress för arbete och skicka inbjudan.  
@@ -31,18 +31,21 @@ I den senaste versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] har vi gj
 ![Bjud in din revisor](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Detta kräver att du har installerat SMTP-e-post. Du kan göra det själv eller fråga din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Dessutom måste du vara inloggad i [!INCLUDE[d365fin](includes/d365fin_md.md)]som en användaradministratör och inte som ansvarig chef eller andra användare.  
+>  Detta kräver att du har installerat SMTP-e-post. Du kan göra det själv eller fråga din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Dessutom måste du vara inloggad i [!INCLUDE[d365fin](includes/d365fin_md.md)] som en användaradministratör och inte som ansvarig chef eller andra användare. Slutligen kan ha du lämnat testföretaget så att du får en Azure Active Directory-administratör.  
+
+> [!IMPORTANT]  
+>  Revisorns e-postadress måste vara en arbetsadress som baseras på ett Active Directory. Om revisorn har en annan typ av e-post kan inte inbjudan skickas.  
 
 ### <a name="separate-license"></a>Separera licens
 I bakgrunden läggs revisorn till i din Active Directory-innehavare. Administratören kan verifiera att revisorn har accepterat din inbjudan och tilldelas rätt licens. Stegen för att göra detta beror på vilken typ av konto som du använde när du registrerade dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det här avsnittet baseras på användning av ett Office 365-konto som använder Microsoft Azure Active Directory.  
 
-Om du har aktiverat prenumerationen av [!INCLUDE[d365fin](includes/d365fin_md.md)] och är inte längre med utvärderingen företaget kan du har en Azure Active Directory för klientorganisation. Administratören eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner hanterar den här klientorganisationen i [Azure portal](https://portal.azure.com). Det är där nya användare läggs till och licenser används och tas bort. Mer information finns på [Microsoft Azure portal översikt ](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
+Om du har aktiverat prenumerationen av [!INCLUDE[d365fin](includes/d365fin_md.md)] och är inte längre med utvärderingen företaget kan du har en Azure Active Directory för klientorganisation. Administratören eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner hanterar den här klientorganisationen i [Azure portal](https://portal.azure.com). Det är där nya användare läggs till och licenser används och tas bort. Mer information finns på [Microsoft Azure portal översikt](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
 
 En av licenstyperna för [!INCLUDE[d365fin](includes/d365fin_md.md)] är licens *externa revisorn*. Den här typen av licens är avsedd att användas av användare, till exempel externa revisorer. Detta innebär att du inte behöver köpa ett extra säte i den aktuella Active Directory eller använda en av dina befintliga [!INCLUDE[d365fin](includes/d365fin_md.md)]-konton på en extern revisor. Om din aktuella prenumeration i Office 365 omfattar 10 användare för exempelvis [!INCLUDE[d365fin](includes/d365fin_md.md)], och du använder 10 *fullständiga användare*-licenser kan din administratör bara lägga till en extern revisor som gästanvändare i Azure portalen och tilldela användaren licensen *extern revisor* utan extra kostnad. Du kan dock endast ha en användare med licensen *extern revisor*. Om du vill lägga till fler användare, måste du uppdatera prenumerationen på Office 365 i enlighet med detta.  
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Så här: Konfigurera e-post manuellt eller med hjälp av Assisterad konfiguration](madeira-how-setup-email.md)  
-[Revisorupplevelse i Dynamics 365 for Financials](finance-accounting.md)  
-[Financials for Accountants på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Revisorupplevelse i Dynamics 365 Business edition](finance-accounting.md)  
+[Dynamics 365 for Accountants på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

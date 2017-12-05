@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Genomgång: Spåra serienummer/partinummer
@@ -141,9 +141,8 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 2.  Välj gruppen **Ny**.  
 3.  Skapa en ny släppt produktionsorder genom att fylla i följande fält.  
 
-    ||||  
     |-|-|-|  
-    |Ursprungsnr|Antal|Serienr|  
+    |Källnr|Antal|Serienr|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
@@ -189,7 +188,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     |Kund|Artikel|Ant.|Serienr|  
     |--------------|----------|----------|----------------|  
-    |Service AB|1002|0|SN1|  
+    |Service AB|1002|1|SN1|  
 
 3.  Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** i fönstret **Artikelspårningsrader**.  
 4.  Välj åtgärden **bokför**, välj alternativet **Leverera och fakturera**, och välj sedan **OK**-knappen.  
@@ -201,7 +200,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     |Kund|Artikel|Ant.|Serienr|  
     |--------------|----------|----------|----------------|  
-    |Fotograferna AB.|1002|0|SN2|  
+    |Fotograferna AB.|1002|1|SN2|  
 
 7.  Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** i fönstret **Artikelspårningsrader**.  
 8.  Välj åtgärden **bokför**, välj alternativet **Leverera och fakturera**, och välj sedan **OK**-knappen.  

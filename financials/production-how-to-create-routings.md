@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Så här skapar du operationsföljder
@@ -28,7 +28,7 @@ För produktionsstrukturer kopplas operationsföljderna till produktionens sluta
 
 Innan du kan skapa en operationsföljd måste följande vara på plats:  
 
-- Artikelkort kan skapas för överordnade artiklar som ingår i produktionen. Mer information finns i [Så här registrerar du nya produkter](inventory-how-register-new-items.md).
+- Artikelkort kan skapas för överordnade artiklar som ingår i produktionen. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
 - Produktionsresurser har ställts in. Mer information finns i [Så här skapar du en Produktionsgrupp och Maskingrupp](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Så här skapar du en operationsföljd  
@@ -53,7 +53,7 @@ Innan du kan skapa en operationsföljd måste följande vara på plats:
 12.  Fortsätt att fylla i rader för alla operationer som krävs för att producera den aktuella artikeln.  
 13.  Om du vill kopiera rader från en befintlig operationsföljd klickar du på åtgärden **Kopiera operationsföljd** och väljer de befintliga raderna.  
 14. Godkänn operationsföljden.  
-15. Nu kan du koppla den nya operationsföljden till kortet för den aktuella produktionsartikeln genom att fylla i **operationsföljdnr.**. Mer information finns i [Så här registrerar du nya produkter](inventory-how-register-new-items.md).  
+15. Nu kan du koppla den nya operationsföljden till kortet för den aktuella produktionsartikeln genom att fylla i **operationsföljdnr.**. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Kom också ihåg att om du vill beräkna om standardkostnaden för artikeln från kortet **Artikel**: välj åtgärden **Produktion**, välj åtgärden **Beräkna standardkostnad** och välj sedan åtgärden **Alla nivåer**.  

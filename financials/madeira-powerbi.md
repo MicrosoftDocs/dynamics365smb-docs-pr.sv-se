@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Financials och Power BI innehållspaket | Microsoft Docs"
-description: "Det är enkelt att få insikter, affärsstöd och KPI:er från dina Financials-data med Power BI och innehållspaketet för Financials ."
+title: "Dynamics 365 Business edition och Power BI innehållspaket | Microsoft Docs"
+description: "Det är enkelt att få insikter, affärsstöd och KPI:er från dina Dynamics 365-data med Power BI och Dynamics 365 content packs."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
-Det är enkelt att få insikter om [!INCLUDE[d365fin](includes/d365fin_md.md)]-data med Power BI och innehållspaketet för  [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI hämtar dina data och bygger en förinstallerad instrumentbräda och rapporter baserade på den data.  
+Det är enkelt att få insikter om [!INCLUDE[d365fin](includes/d365fin_md.md)]-data med Power BI och innehållspaketet för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI hämtar dina data och bygger en förinstallerad instrumentbräda och rapporter baserade på den data.  
 
 Microsoft har publicerat följande innehållspaket:
 
-| App | Description |
+| App | Beskrivning |
 | --- | --- |
 | Microsoft Dynamics 365 for Financials | Ger en instrumentpanel med viktiga ekonomiska data över tid, till exempel intäkter och kostnader, rörelsemarginal och kontantcykeln.|
 | Microsoft Dynamics 365 for Financials - CRM | Ger en instrumentpanel med viktig information om potentiella kunder och kontakter.  |
@@ -39,12 +39,12 @@ Varje innehållspaket ger rapporter som du kan söka i:
 Innehållspaketet är förkonfigurerat för att arbeta med data från demonstrationsföretaget som du får när du registrerar dig på förhandsgranskningen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. När du installerar appar i Power BI och du ansluter till dina egna data, fungerar inte vissa rapporter eftersom de använder data som företaget inte har. I så fall kan du bara ta bort rapporten från instrumentpanelen.  
 
 > [!NOTE]  
->   Du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Mer information finns i [ansluta din affärsdata till Power BI ](across-how-use-financials-data-source-powerbi.md).  
+>   Du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Mer information finns i [ansluta din affärsdata till Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Om du vill se [!INCLUDE[d365fin](includes/d365fin_md.md)]-data in Power BI måste du ha följande:  
 
-* Åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Åtkomst till Power BI. Mer information finns i [Power BI](https://powerbi.microsoft.com).
 
 Du hittar ytterligare information på webbplatsen för Power BI om [ansluta till tjänster med innehållspaket för Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -68,7 +68,7 @@ I det här exemplet är *mybusiness* namnet på din [!INCLUDE[d365fin](includes/
 Om du vill få URL:en söker du efter och öppnar i [!INCLUDE[d365fin](includes/d365fin_md.md)], fönstret **Webbtjänster**. I det här fönstret visas webbtjänsterna som för närvarande finns tillgängliga och du kan kopiera länken från fältet **OData-URL** för en av de standardinställda OData-webbtjänsterna.  
 
 ### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Hämtar användarnamnet och åtkomstnyckeln för webbtjänst
-Om du vill använda data från [!INCLUDE[d365fin](includes/d365fin_md.md)]i Power BI, måste du i fönstret **Anslut till Financials** ange ett användarnamn och ett lösenord. Användarnamnet är ditt namn som visas för ditt konto i [!INCLUDE[d365fin](includes/d365fin_md.md)] så att Power BI kan logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lösenordet är webbtjänståtkomstnyckeln som är konfigurerad för ditt användarkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Om du vill använda data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI, måste du i fönstret **Anslut till Financials** ange ett användarnamn och ett lösenord. Användarnamnet är ditt namn som visas för ditt konto i [!INCLUDE[d365fin](includes/d365fin_md.md)] så att Power BI kan logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lösenordet är webbtjänståtkomstnyckeln som är konfigurerad för ditt användarkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 För att hitta denna information i [!INCLUDE[d365fin](includes/d365fin_md.md)], söker du efter fönstret **användare** och öppnar kortet för ditt användarkonto. På snabbfliken **allmänt** kopierar du innehållet i fältet **användarnamn** och på snabbfliken **Webbtjänståtkomst** kopierar du innehållet i fältet **Webbtjänståtkomstnyckel**. Om fältet **Webbtjänståtkomstnyckel** är tomt väljer du **Ändra webbtjänståtkomstnyckel** i menyfliken, väljer fältet **Nyckeln upphör aldrig att gälla** och trycker sedan på OK-knappen. Du kan sedan kopiera nyckeln.  
 
@@ -122,7 +122,7 @@ Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsa
 [Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
 [Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]för Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] för Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

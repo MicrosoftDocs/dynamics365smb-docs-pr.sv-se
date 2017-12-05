@@ -1,6 +1,6 @@
 ---
-title: "Installera tillägg för att anpassa Dynamics 365 for Financials | Microsoft Docs"
-description: "Lär dig mer om att lägga till funktioner och anpassa Dynamics 365 for Financials genom att installera tillägg."
+title: "Installera tillägg för att anpassa Dynamics 365 Business edition | Microsoft Docs"
+description: "Lär dig mer om att lägga till funktioner och anpassa Dynamics 365 Business edition genom att installera tillägg."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Anpassa din Dynamics 365 for Financials med tillägg
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Anpassa Dynamics 365, Business edition med hjälp av tillägg
 Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
 När du först startar först [!INCLUDE[d365fin](includes/d365fin_md.md)], har du dessutom några tillägg installerade. Med tiden kommer fler tillägg att göras tillgängliga till dig, och du kan då välja om du vill använda tillägg eller inte.
 
@@ -61,6 +61,8 @@ Microsoft ger även följande tillägg:
 * [QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 * [Revisorsportal](ui-extensions-accountant-portal.md)  
 * [Image Analyzer](ui-extensions-image-analyzer.md)
+* [Betalningar och betalningsavstämningar (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [C5 datamigrering](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering. Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

@@ -1,6 +1,6 @@
 ---
 title: "Använda allmänna funktioner över affärsområden | Microsoft Docs"
-description: "Lär dig om funktioner som används över affärsområden i Dynamics 365 for Financials."
+description: "Lär dig om funktioner som används över affärsområden i Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: bd035a6fa6dc86dcea12783c6d7684e6ffbae4a3
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/27/2017
 
 I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitten där de beskrivs.
 
-| Till | Gå till |
+| Om du vill | Gå till |
 | --- | --- |
 | Skapa standardtextkoder så att du kan utöka standardtexten genom att lägga till extra rader, och skapa villkor för hur extraraderna kan användas. |[Så här definierar du extratexter](ui-how-define-ext-text.md) |
 | Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |

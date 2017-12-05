@@ -1,8 +1,6 @@
 ---
-title: Avsluta Dynamics 365 for Financials | Microsoft Docs
-description: Beskriver hur du tar bort eller avslutar en Dynamics 365 for Financials-upplevelse.
-services: project-madeira
-documentationcenter: 
+title: Avbryta Dynamics 365 Business edition | Microsoft Docs
+description: Beskriver hur du tar bort eller avslutar en Dynamics 365 Business edition-upplevelse.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,21 +11,21 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 384131512a815743db7ae654542b0e7ee70bf64a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin](includes/d365fin_md.md)]
-När du har registrerat dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du välja om du vill avbryta din prenumeration när som helst. På liknande sätt kan du välja att återställa det företag som du har använt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. En snabb översikt finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)]blogg ](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+# <a name="unsubscribe-remove-or-reset-included365finlongincludesd365finlongmdmd"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+När du har registrerat dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du välja om du vill avbryta din prenumeration när som helst. På liknande sätt kan du välja att återställa det företag som du har använt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. En snabb översikt finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)] blogg](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt Office 365-miljö
 Om du har registrerat dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av ett befintligt Office 365-konto, måste du be din Office 365-administratör att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt konto.  
 Användarkonton och licenser hanteras i [Office-portalen](https://portal.office.com). Endast administratörer kan ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licenser från användarkonton. Office 365-administratören kan ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt eller ta bort abonnemanget från ditt företag. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och andra människor från företaget fortsätter prenumerationen, kommer de fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Säga upp prenumerationen från [!INCLUDE[d365fin](includes/d365fin_md.md)] utan Office 365
-Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Office 365-företagskonto, har du inte en Office 365-administratör. I stället måste du avbryta prenumerationen genom att kontakta annulleringsteamet för [!INCLUDE[d365fin](includes/d365fin_md.md)]. För närvarande måste du kontakta teamet genom att skicka ett e-postmeddelande till cancel-madeira@microsoft.com. Du inkludera namnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehavaradministration så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
+Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Office 365 -företagskonto, har du inte en Office 365-administratör. I stället måste du avbryta prenumerationen genom att kontakta annulleringsteamet för [!INCLUDE[d365fin](includes/d365fin_md.md)]. För närvarande måste du kontakta teamet genom att skicka ett e-postmeddelande till cancel-madeira@microsoft.com. Du inkludera namnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehavaradministration så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Återställa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljö
 Om du har lagt till data till [!INCLUDE[d365fin](includes/d365fin_md.md)]-förhandsgranskningen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt företag och sedan återställa det första företaget. Om du öppnar sidan **företag** kan du skapa en kopia av det aktuella företaget, logga ut och sedan logga in på ditt nya företag och sedan återställa det ursprungliga företaget.  

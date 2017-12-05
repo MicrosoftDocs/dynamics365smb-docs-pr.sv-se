@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Skapa och hantera kontakter
@@ -26,9 +26,9 @@ Alla externa enheter som du har affärsrelationer med (till exempel kunder, pote
 
 Du kan registrera information baserat på företag eller person på det företaget. Du kan också skapa en oberoende kontaktperson för människor som inte arbetar för ett visst företag, men som arbetar oberoende eller som frilansare.
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Till | Gå till |
+| Om du vill | Gå till |
 | --- | --- |
 | Ställ in kontakthantering innan du lägger till kontakter. |[Förbereder för att ställa in kontakter](marketing-setup-contacts.md) |
 | Skapa ett kontaktkort för varje nytt företag du har samröre med, t.ex. en kund eller en leverantör. |[Skapa kontaktföretag](marketing-create-contact-companies.md) |
@@ -37,5 +37,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Ställa in Kundhantering](marketing-setup-marketing.md)  
-[Arbeta med Financials](ui-work-product.md)  
+[Arbeta med Dynamics 365](ui-work-product.md)  
 

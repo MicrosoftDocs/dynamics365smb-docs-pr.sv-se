@@ -1,5 +1,5 @@
 ---
-title: Elektroniska dokument i Dynamics 365 for Financials| Microsoft Docs
+title: Elektroniska dokument i Dynamics 365 Business edition | Microsoft Docs
 description: Introduktion till att skicka och ta emot elektroniska dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,12 +11,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: dac82da00a2f4afe16bc784641abea8f6a29c537
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
+
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegration för att utbyta affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
@@ -49,7 +50,7 @@ För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställnin
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
-|Till|Gå till|  
+|Om du vill|Gå till|  
 |--------|---------|  
 |Lär dig hur den ramverket för datautbyte fungerar.|[Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)|  
 |Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Konfigurera datautbytesdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  

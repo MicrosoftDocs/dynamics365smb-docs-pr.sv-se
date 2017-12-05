@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interna distributionslagerflöden
@@ -46,7 +46,7 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
 
  Följande monteringsflöden finns.  
 
-|Arbetsflöde|Description|  
+|Arbetsflöde|Beskrivning|  
 |----------|---------------------------------------|  
 |Montering mot lager|Komponenterna är nödvändiga på en monteringsorder där utflödet lagras i distributionslagret.<br /><br /> Det här distributionslagerflödet hanteras i fönstret **Lagertransport**. En ta-rad anger var att komponenter ska tas. En placeringsrad anger var att komponenter ska placeras.|  
 |Montering mot kundorder|Komponenterna är nödvändiga på en monteringsorder som är kopplad till en försäljningsorder som ska levereras när den sålda artikeln har monterats.|  

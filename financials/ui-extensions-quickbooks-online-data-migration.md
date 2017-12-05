@@ -1,8 +1,6 @@
 ---
 title: "Använda tillägget QuickBooks-migrering | Microsoft Docs"
-description: "Beskriver hur du använder tillägget för att migrera kunder, leverantörer, artiklar och konton från QuickBooks Online till Financials."
-services: project-madeira
-documentationcenter: 
+description: "Beskriver hur du använder tillägget för att migrera kunder, leverantörer, artiklar och konton från QuickBooks Online till Dynamics 365."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Tillägget QuickBooks Online datamigrering för Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Tillägget QuickBooks Online datamigrering för Dynamics 365 Business edition
 Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Vilka data kan jag importera från QuickBooks Online?
@@ -29,7 +27,7 @@ Du kan importera följande data från QuickBooks Online till [!INCLUDE[d365fin](
 * Kunder
 * Leverantör
 * Artiklar
-* Kontoplan 
+* Kontoplan
 * Transaktion för ingående saldo i redovisningen
 * Tillgängliga kvantiteter för lagerartiklar
 * Öppna dokument för kunder och leverantörer, till exempel fakturor, kreditnotor och betalningar
@@ -41,7 +39,7 @@ Vi migrerar endast hela belopp på försäljnings- och inköpsdokument. Vi uppda
 
 ## <a name="before-you-start"></a>Innan du börjar
 En viktig del av är att ange konton för att migrera transaktionerna till. Det är praktiskt att planera den här mappningen innan du migrerar data. Exempelvis konton där du bokför transaktioner för:  
-  
+
 * Försäljning av artiklar eller tjänster till kunder.
 * Köp av varor eller tjänster från en leverantör.  
 * Justeringar i redovisningen.  

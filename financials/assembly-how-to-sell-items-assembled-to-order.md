@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Så här säljer du en artikel som monterats mot kundorder
@@ -50,7 +50,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
     Du kan också anpassa ordern genom att öka antalet av en standardartikel i den monterade artikeln. Du kan göra det om du ökar värdet i fältet **Antal per** på den specifika monteringsorderraden.  
 
     > [!NOTE]  
-    >  Fönstret **Montering mot kundorderrader** innehåller bara de grundläggande fält som en säljare förväntas använda för att anpassa komponentlistan, lägga till artikelspårningsnummer eller lösa problem med komponenttillgänglighet. Om du vill se mer information om monteringsorder, t.ex. startdatum, ska du på fliken **Start**, i gruppen **Process**, välja **Visa dokument**. Då öppnas en fullständig vy av monteringsordern som är kopplad till försäljningsorderraden. Du kan inte ändra innehållet av de flesta fält på monteringsorderhuvudet, och du kan inte bokföra monteringsutflöde därifrån, eftersom du måste använda leveransbokföring av försäljningsorderraden.  
+    >  Fönstret **Montering mot kundorderrader** innehåller bara de grundläggande fält som en säljare förväntas använda för att anpassa komponentlistan, lägga till artikelspårningsnummer eller lösa problem med komponenttillgänglighet. Om du vill se mer information om monteringsorder, t.ex. startdatum, ska du välja åtgärden **Visa dokument**. Då öppnas en fullständig vy av monteringsordern som är kopplad till försäljningsorderraden. Du kan inte ändra innehållet av de flesta fält på monteringsorderhuvudet, och du kan inte bokföra monteringsutflöde därifrån, eftersom du måste använda leveransbokföring av försäljningsorderraden.  
     >   
     >  På huvudet av de kopplade monteringsorderna kan bara fältet **Startdatum** ändras så att det snabbt gör det möjligt för monteringsarbetare att ange ett datum som är tidigare än förfallodatumet, när de ska påbörja processen. Alla fält på raderna i den kopplade monteringsordern kan ändras så att lagerarbetare kan ange förbrukningssiffror under processen.  
 

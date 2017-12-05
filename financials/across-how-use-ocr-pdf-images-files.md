@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Så här använder du OCR för att omvandla PDF- och bildfiler till elektroniska dokument
@@ -70,23 +70,34 @@ Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokum
 Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroniska dokumenten i [!INCLUDE[d365fin](includes/d365fin_md.md)], manuellt eller automatiskt. Mer information finns i nästa procedur: Du kan också koppla den nya inkommande dokumentposten till det bokförda eller icke bokförda befintliga dokumentet så att källfilen är lättillgänglig i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Bearbeta inkommande dokument](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Så här skapar du en inköpsfaktura från ett elektroniskt dokument som har tagits emot från OCR-servicen
-Efterföljande procedur beskriver hur du skapar en inköpsfakturatransaktion från en leverantörsfaktura som tas emot som ett elektroniskt dokument från OCR-servicen. Proceduren är samma när du skapar, till exempel, en redovisningsjournalrad från ett kostnadskvitto.
+Efterföljande procedur beskriver hur du skapar en inköpsfakturatransaktion från en leverantörsfaktura som tas emot som ett elektroniskt dokument från OCR-servicen. Proceduren är samma när du skapar, till exempel, en redovisningsjournalrad från ett kostnadskvitto eller från en försäljningsreturorder.
 
 > [!NOTE]  
->   Fälten **Beskrivning** och **Nr.** på de nya dokumentraderna kommer endast att fyllas i om du först har mappat text som finns på OCR-dokumentet till de två fälten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan göra det antingen som artikelkorsreferenser, för dokumentrader av typartikel eller som text-till-konto-mappning för dokument eller journalrader av typen redovisningskonto. För mer information, se verktygstipset för åtgärden**Korsreferenser**på artikelkort och relaterade procedurer[Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   Fälten **Beskrivning** och **Nr.** på de nya dokumentraderna kommer endast att fyllas i om du först har mappat text som finns på OCR-dokumentet till de två fälten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan göra den här mappningen som korsreferenser till artikel, för dokumentrader av typartikel. Du kan också använda mappningsfunktionen Text-till-konto. Mer information finns i avsnittet ”Mappa ett inkommande dokument till en viss leverantör, redovisning eller adress”.
 
+För att mappa artikelnumren på dokumentet till dina beskrivningar av leverantörens artiklar, öppna kortet för varje artikel och välj sedan åtgärden**Krossreferens**för att ställa in korsreferenser mellan dina artikelbeskrivningar och leverantörens. Mer information finns i beskrivningen för åtgärden **Tvärreferenser** på artikelkort.
+
+1. Markera raden för inkommande dokument och välj sedan åtgärden **skapa dokument**.
+
+En inköpsfaktura kommer att skapas av [!INCLUDE[d365fin](includes/d365fin_md.md)] utifrån informationen i det elektroniska leverantördokumentet som du fick av OCR-servicen. Informationen infogas i den nya inköpsfakturan, baserat på mappningen som du har definierat som en tvärreferens eller mappningen text-till-konto.
+
+Eventuella valideringsfel som vanligtvis beror på fel eller saknade huvuddata [!INCLUDE[d365fin](includes/d365fin_md.md)], visas på snabbfliken **Fel och varningar**. För mer information, se avsnittet "Hantera fel när du tar emot ett elektroniskt dokument".
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Du mappar ett inkommande dokument till ett särskilt leverantörskonto
 För inkommande dokument använder du vanligtvis åtgärden**Mappa text till konto** för att definiera att en viss text på en leverantörsfaktura som har tagits emot från OCR-servicen mappas till en viss leverantörskonto. Framöver kommer alla delar av det inkommande dokumentets beskrivning som existerar som en mappningstext innebära att fältet**Nr.** på resulterande dokument- eller journalrader av typen redovisningskonto fylls i med leverantören i fråga.
 
 Förutom tilldelning eller mappning till ett leverantörskonto eller redovisningskonton kan du också mappa till ett bankkonto. Det är praktiskt, till exempel, för elektroniska dokument för kostnader som redan har betalts, där du vill skapa en redovisningsjournalrad som är klar för bokföring på ett bankkonto.
 
-1. Markera den inkommande dokumentraden för det elektroniska leverantördokument som har tagits emot från OCR-servicen.
-2. För att mappa text i dokumentet till säljarens konto, ett debiteringskonto , välj åtgärden **Mappa text till konto** och fyll sedan i fönstret **Text-till-konto-mappning** med information som gäller leverantören framöver. Mer information finns i [Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
-3. För att mappa artikelnumren på dokumentet till dina beskrivningar av leverantörens artiklar, öppna kortet för varje artikel och välj sedan åtgärden**Krossreferens**för att ställa in korsreferenser mellan dina artikelbeskrivningar och leverantörens.
-4. I fönstret **Inkommande dokument** väljer du åtgärden **Skapa dokument**.
+1. Välj relevant dokumentrad för inkommande och välj åtgärden **Mappa Text till kontot**. Fönstret **Mappa text till konto** öppnas.
+3. I fältet **Mappa text** anger du en text som förekommer på leverantörsfakturor som du vill skapa inköpsdokument eller journalrader för. Du kan ange upp till 50 tecken.
+4. I fältet **Leverantörsnr** anger du den leverantör som det resulterande inköpsdokumentet eller journalraden skapas för.
+5. I fältet **debetkontonr** anger du den typ av debetkonto som ska skrivas in på färdiga dokument- eller journalrader av typen Redovisningskonto.
+6. I fältet **kreditkontonr** anger du den typ av kreditkonto som ska skrivas in på färdiga dokument- eller journalrader av typen Redovisningskonto.
 
-En inköpsfaktura kommer att skapas av [!INCLUDE[d365fin](includes/d365fin_md.md)] utifrån informationen i det elektroniska leverantördokumentet som du fick av OCR-servicen.
+    > [!NOTE]
+    > Använd inte fälten **Ursprungstyp för motkonto** och **Ursprungsnr för motkonto** fält i samband med inkommande dokument. De används endast för automatisk betalningsavstämning. Mer information finns i [Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-Eventuella valideringsfel som vanligtvis beror på fel eller saknade huvuddata [!INCLUDE[d365fin](includes/d365fin_md.md)], visas på snabbfliken **Fel och varningar**. För mer information, se avsnittet "Hantera fel när du tar emot ett elektroniskt dokument".
+7. Upprepa steg 2 till 5 för all text på inkommande dokument som du vill automatiskt vill skapa dokument för.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Så här hanterar du fel vid mottagning av elektroniska dokument
 1. I fönstret**inkommande dokument** markerar du raden för ett elektroniskt dokument som har tagits emot från OCR-service med fel. Detta indikeras av felvärdet i fältet**OCR-status**.

@@ -1,6 +1,6 @@
 ---
 title: "Tilldela användarbehörigheter och skapa eller ändra behörighetsgrupper | Microsoft Docs"
-description: "Beskriver hur du lägger till Office 365-användare till Financials och tilldelar dem behörigheter, åtkomstbehörigheter och säkerhetsinställningar."
+description: "Beskriver hur du lägger till Office 365-användare till Dynamics 365 Business edition och tilldelar dem behörigheter, åtkomstbehörigheter och säkerhetsinställningar."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/27/2017
+ms.date: 10/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Så här hanterar du användare och behörigheter
@@ -31,7 +31,7 @@ Du kan lägga till användare i användargrupper. Detta gör det enklare att til
 Administratörer kan använda fönstret **Användarinställningar** för att definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad.
 
 > [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på Paket. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+>   Den här funktionen kräver att din upplevelse är inställd på Suite. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Så här tilldelar du behörigheter till en användare
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
@@ -54,53 +54,8 @@ Du kan skapa användargrupper för att hantera behörighetsuppsättningar för g
 7. Om du villl lägga till ytterligare behörighetsuppsättningar väljer du i fönstret **Användargrupp** åtgärden **Behörighetsuppsättningar för användargrupp**.
 8. I fönstret **Behörighetsuppsättningar för användargrupp** på en ny rad fyller du i fälten efter behov genom att välja från befintliga behörighetsuppsättningar.
 
-## <a name="to-create-or-modify-permission-sets"></a>Skapa eller ändra behörighetsuppsättningar
-Om standardbehörighetsuppsättningarna, som tillhandahålls av [!INCLUDE[d365fin](includes/d365fin_md.md)] inte är tillräckliga eller inte lämpliga för organisationen, kan du skapa nya behörighetsuppsättningar. Och om enskilda objektbehörigheter, som definierar en behörighetsuppsättning, inte är lämplig, kan du ändra en behörighetsuppsättning. Du kan skapa en behörighetsuppsättning manuellt eller använda en registreringsfunktion som registrerar dina åtgärder när du navigerar genom ett scenario och sedan skapar den krävda behörighetsuppsättningen.
-
-### <a name="to-create-or-modify-permission-sets-manually"></a>Skapa eller ändra behörighetsuppsättningar manuellt
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
-2. I fönstret **Användare** väljer du åtgärden **Behörighetsuppsättningar**.
-3. I fönstret **Behörighetsuppsättningar** väljer du åtgärden **Ny**.
-4. Fyll i fälten på en ny rad efter behov.
-5. Välj åtgärden **Behörigheter**.
-6. I fönstret **Behörigheter** fyller du i fälten på rubriken efter behov.
-7. På en ny rad fyller du i de fem fälten för de olika behörighetstyperna enligt beskrivningen i följande tabell.
-
-    |Alternativ|Beskrivning|
-    |------|-----------|
-    |Tomt|Anger vilken behörighetstyp som inte beviljas för objektet.|
-    |**Ja**|Anger vilken behörighetstyp som inte beviljas med direkt åtkomst till objektet.|
-    |**Indirekt**|Anger vilken behörighetstyp som inte beviljas med indirekt åtkomst till objektet.|
-
-    Indirekt behörighet till en tabell innebär att du inte kan öppna tabellen och läsa från den, men du kan visa informationen i tabellen genom ett annat objekt, som till exempel en sida som du har direkt åtkomst till. Mer information finns i avsnittet “Exempel - indirekta behörigheter” i den här artikeln.
-
-8. I fältet **säkerhetsfilter** anger du ett filter som du vill koppla till behörigheten genom att markera fältet när du vill begränsa en användares behörighet.
-
-    Om du till exempel vill skapa ett säkerhetsfilter så att en användare endast kan visa försäljning med en viss säljarkod väljer du fältnumret för fälet **Säljarkod**. Sedan i fältet **Fältfilter** anger du värdet som du vill använda för att begränsa åtkomsten. Om du till exemepl vill begränsa en användares behörighet till endast Annette Hill försäljning, anger du AH.
-9. Upprepa steg 7 och 8 om du vill lägga till behörigheter för extra objekt i behörighetsuppsättningen.
-
-### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Om du vill skapa eller ändra behörighet när du registrerar dina åtgärder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
-2. I fönstret **Användare** väljer du åtgärden **Behörighetsuppsättningar**.
-3. I fönstret **Behörighetsuppsättningar** väljer du åtgärden **Ny**.
-4. Fyll i fälten på en ny rad efter behov.
-5. Välj åtgärden **Behörigheter**.
-6. I fönstret **Behörigheter** väljer du åtgärden **Starta**.
-
-    En registreringsprocess börjar fånga in dina åtgärder i användargränssnittet.
-7. Gå till olika fönster och aktiviteter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
-8. Om du vill avsluta registreringen går du tillbaka till fönstret **behörigheter** och väljer åtgärden **stoppa**.
-9. Välj knappen **Ja** om du vill lägga till registrerade behörigheter till den nya behörighetsuppsättningen.
-10. För varje objekt i den registrerade listan anger du om användarna ska kunna infoga, ändra eller ta bort poster i de registrerade tabellerna. Se steg 7 i "Att skapa eller ändra behörighetsupsättningar manuellt".
-
-### <a name="example---indirect-permission"></a>Exempel - Indirekt behörighet
-Du kan tilldela en indirekt behörighet för att använda en objekt endast via en annan objekt.
-en användare kan till exempel har behörighet att köra Kodmodul 80 **försäljningspost**. Kodmodulen **försäljningspost** utför många uppgifter, inklusive ändra tabell 37 **inköpsrad**. När användaren bokför ett försäljningsdokument, kontrollerar kodmodulen**försäljningspost**, [!INCLUDE[d365fin](includes/d365fin_md.md)] om användaren har behörighet att ändra tabellen **inköpsrad**. Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
-
-Användaren behöver dock inte ha fullständig åtkomst till tabellen **inköpsrad** för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen **inköpsrad** körs kodmodulen **försäljningspost** korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen **inköpsrad** genom att köra kodmodulen **försäljningspost** eller ett annat objekt som har behörighet att ändra tabellen **inköpsrad**. Användaren kan endast ändra tabellen **inköpsrad** när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
-
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare
-Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare.
+Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Så här: arbeta med Ansvarsenheter](inventory-responsibility-centers.md).
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resursinställningar** och välj sedan relaterad länk.
 2. I fönstret **Användarinställningar** väljer du åtgärden **Ny**.
@@ -109,7 +64,7 @@ Administratörer kan definiera tidsperioder som anger när användare kan bokfö
 
 ## <a name="see-also"></a>Se även
 [Gör dig redo för affärer](ui-get-ready-business.md)  
-[Installation och administration i Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Installation och administration i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

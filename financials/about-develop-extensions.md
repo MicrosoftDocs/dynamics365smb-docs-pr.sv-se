@@ -1,6 +1,6 @@
 ---
-title: Anpassa Dynamics 365 for Financials | Microsoft Docs
-description: "Skapa, presentera och marknadsför dina appar och tillägg för Dynamics 365 for Financials."
+title: Anpassa Dynamics 365 Business edition | Microsoft Docs
+description: "Skapa, presentera och marknadsför dina appar och tillägg för Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
-ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utökning av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Det finns många fördelar med att använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]som en plattform för programverktyg:
+Det finns många fördelar med att använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en plattform för programverktyg:
 
 * Utöka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], en beprövad Microsoft online-lösning med dina kunskaper  
 * Dra nytta av varumärket Dynamics 365 – ett varumärke som miljontals användare känner till och litar på  
@@ -49,7 +49,7 @@ Innan vi publicerar samarbetar vi med dig och ser till att din app sticker ut p�
 Mer information om valideringen och hur du publicerar din app finns i dokumentet [Publicera din app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) från Download Center.
 
 ## <a name="learn-more-about-extensions-v20"></a>Få mer information om tillägg v2.0
-De nya utvecklingsverktygen som gör det möjligt för dig att skapa tillägg v2.0 är för närvarande i förhandsgranskning och aktiveras snart i Dynamics 365 for Financials-tjänsten. Om du redan vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+De nya utvecklingsverktygen som gör det möjligt för dig att skapa tillägg v2.0 är för närvarande i förhandsgranskning och aktiveras snart i Dynamics 365 Business edition-tjänsten. Om du redan vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Behöver du hjälp?
 Om du vill ha hjälp kan du kontakta du en app-expert från följande lista:
@@ -66,11 +66,11 @@ Partner i den här listan:
 Om du anser att du bör finnas med på listan som enn app-servicepartner kan du kontakta [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
 
 ## <a name="questions"></a>Frågor?
-Dessa [vanliga frågor](https://go.microsoft.com/fwlink/?linkid=841520) svarar på de vanligaste frågorna som du kanske har om appar för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Om du har fler frågor får du gärna kontakta en lokal Microsoft-representant eller e-posta[d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+Dessa [vanliga frågor](https://go.microsoft.com/fwlink/?linkid=841520) svarar på de vanligaste frågorna som du kanske har om appar för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Om du har fler frågor får du gärna kontakta en lokal Microsoft-representant eller e-posta [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
 
 ## <a name="further-resources"></a>Övriga resurser
 Du hittar ytterligare resurser för utveckling av appar i vår [DLP-ämnessida](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-ämnessida. Det finns några markerade kommentarer nedan:
--   [Användarregistrering och efterföljande fakturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Användarregistrering och efterföljande fakturering](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

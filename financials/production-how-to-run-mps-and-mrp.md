@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Så här kör du en fullständig planering, nettobehov och produktionsplan
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Så här kör du en fullständig planering, nettobehov och produktionsplan
 Begreppen "beräkna planeringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.  
 
--   *Nettobehov* är beräkningen av en produktionsplan baserat på faktiskt behov och produktionsprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
--   *Nettobehov* är beräkningen av materialbehov baserat på faktiskt behov av komponenter och produktionsprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
+-   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och produktionsprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
+-   Produktionsplan är beräkningen av materialbehov baserat på faktiskt behov av komponenter och produktionsprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
 
 De planeringsalgoritmer som används för både nettobehov och produktionsplanen är identiska. Planeringsalgoritmerna berör nettobehovsberäkning, återanvändning av befintliga återanskaffningsorder och åtgärdsmeddelanden. Planeringssystemprocessen används för att söka efter vad som behövs eller kommer att behövas (efterfrågan) och vad som finns i lager eller förväntas finnas i lager (tillgång). Åtgärdsmeddelanden skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] när dessa kvantiteter kvittas mot varandra. Åtgärdsmeddelanden innehåller förslag om att skapa en ny order, ändra en orderorder (antal eller datum) eller annullera en order som redan är lagd. Begreppet "order" inbegriper inköpsorder, monteringsorder, produktionsorder och överföringsorder.
 
@@ -51,7 +51,7 @@ Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 2.  Välj åtgärden **Beräkna fullständig plan** för att öppna fönstret **Skapa inköpsförslag**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Prod.program**|Välj att initiera beräkningen av ett produktionsprogram. Artiklar med öppna försäljningsorder eller produktionsprognoser tas med i beräkningen.|  
     |**Nettobehov**|Välj att initiera beräkningen av materialbehovsplaneringen. Artiklar med beroende behov tas med i den här beräkningen. Prod.program och Nettobehov körs normalt samtidigt. Om du vill köra produktionsplanen och nettobehovet samtidigt, måste du markera fältet **Prod.plan./nettobehov** på snabbfliken **Planering** i fönstret **Produktionsinställningar**.|  
@@ -69,7 +69,7 @@ Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 1.  I fönstret **Planeringsförslag** väljer du åtgärden **Verkställ åtgärdsmeddelande**.  
 2.  Ange hur du skapar leveranser på snabbfliken **Alternativ**. Fyll i fälten enligt beskrivningen i följande tabell.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Produktionsorder**|Ange hur du vill skapa produktionsorder. Du kan göra detta direkt från planeringsradförslagen. Du kan skapa antingen planerade eller fast planerade produktionsorder.|  
     |**Monteringsorder**|Ange hur du vill skapa monteringsorder. Du kan göra detta direkt från planeringsradförslagen.|  
@@ -97,7 +97,7 @@ När du har granskat åtgärdsmeddelandena och bestämt om du vill acceptera vis
 
 Följande åtgärdsmeddelanden genereras som svar på obalans i tillgång/efterfrågan.  
 
-|Åtgärdsmeddelande|Description|  
+|Åtgärdsmeddelande|Beskrivning|  
 |--------------------|---------------------------------------|  
 |**Ny**|Om en efterfrågan inte kan tillgodoses genom åtgärdsmeddelanden med förslag om att **Ändra antal**, **Omplanera** eller **Omplanera och ändra** i befintliga order, genereras åtgärdsmeddelandet **Ny**, vilket ger förslag om en ny order. Dessutom skickas åtgärdsmeddelandet **Ny** om det inte finns några befintliga leveransorder inom beställningscykeln för artikeln i fråga. Med den här parametern fastställs antalet perioder framåt och bakåt i tillgänglighetsprofilen vid sökning efter en order att omplanera.|  
 |**Ändra antal**|När det inträffar en kvantitetsförändring för efterfrågan som spåras till en leveransorder, genereras åtgärdsmeddelandet **Ändra antal**, vilket anger att relaterad tillgång ska ändras så att det motsvarar förändringen i efterfrågan. Om det uppstår ny efterfrågan söker [!INCLUDE[d365fin](includes/d365fin_md.md)] efter närmast befintliga icke reserverade leveransorder inom beställningscykeln, och skickar ett åtgärdsmeddelande om ändring för ordern.|  

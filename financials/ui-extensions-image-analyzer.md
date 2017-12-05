@@ -1,6 +1,6 @@
 ---
 title: "Använda tillägget Image Analyzer | Microsoft Docs"
-description: "Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tilldela dem i Financials."
+description: "Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tilldela dem i Dynamics 365."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c981c5528c7a622f9d78ed6a77c27e2ceeba44e3
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-for-financials"></a>Image Analyzer-tillägget för Microsoft Dynamics 365 for Financials
+# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Image Analyzer-tillägget för Microsoft Dynamics 365 Business edition
 Tillägget Image Analyzer använder kraftfulla bildanalyser från Computer Vision API för Microsoft Cognitive Services för att identifiera attribut i bilder du importerar för artiklar och kontaktpersoner, så att du lätt kan gå igenom och tilldela dem. För artiklar, kan attribut vara om artikel är en tabell eller en bil eller om den är röd eller blå. För kontaktpersoner kan attribut vara kön och ålder.
 
 Image Analyzer föreslår attribut baserat på etiketter som  Computer Vision API hittar och konfidensnivå. Som standard föreslås attribut endast om det är minst 80 % till att attributet är korrekt. Du kan ange en annan konfidensintervall, om det behövs. Mer information om hur etiketter och konfidensnivå fastställs finns [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -48,12 +48,12 @@ Tillägget Image Analyzer är inbyggt i [!INCLUDE[d365fin](includes/d365fin_md.m
 > Om du vill aktivera tillägget Image Analyzer, måste du vara administratör. Kontrollera att du har tilldelats användarbehörighetsuppsättning **SUPER**.
 
 1. Om du vill aktivera tillägget Image Analyzer, gör du något av följande:
-  
+
 * Öppna en artikel eller kontaktkort. I meddelandefältet, välj **analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
 * Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **Anslutningar till tjänst** och sedan **Inställningar för bildanalys**. Markera kryssrutan **Aktivera analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
 
 >   [!TIP]  
->   Sidan **inställningar för analys av bilden** låter dig också öppna där du kan ändra graden av säkerhet för attributförslag. Om du till exempel kräver en högre grad av säkerhet anger du en högre procentandel. 
+>   Sidan **inställningar för analys av bilden** låter dig också öppna där du kan ändra graden av säkerhet för attributförslag. Om du till exempel kräver en högre grad av säkerhet anger du en högre procentandel.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Så här analyserar du en bild av en artikel
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
@@ -74,16 +74,16 @@ Följande steg beskriver hur du analyserar en bild som har hämtats innan du val
 
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Använda ditt konto för Computer Vision API
 Använd även ditt eget konto för Computer Vision API, till exempel om du vill analysera mer bilder än vad vi kan.  
-  
+
 1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten") ange **Image Analyzer-inställningar** och sedan relevant länk..  
 2. Ange **API-URI** och **API-nyckeln** som du har fått för Computer Vision API.  
-  
+
 >   [!NOTE]  
 >   Du måste lägga till **/analysera** i slutet av API-URI, om den inte redan finns där. Som exempel: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Om du vill se hur många analyser som du har kvar i den aktuella perioden
 Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra, under den aktuella perioden.  
-  
+
 1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten") ange **Image Analyzer-inställningar** och sedan relevant länk..  
 2. **Gränstyp**, **begränsa värde**, och **Utförda analyser** ger användarinformation.  
 
@@ -94,6 +94,5 @@ Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra
 ## <a name="see-also"></a>Se även
 [Så här arbetar du med Artikelattribut](inventory-how-work-item-attributes.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-[Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

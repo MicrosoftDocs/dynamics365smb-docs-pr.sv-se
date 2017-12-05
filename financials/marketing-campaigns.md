@@ -1,8 +1,6 @@
 ---
-title: "Ställa in marknadsföringskampanjer i Financials | Microsoft Docs"
-description: "Beskriver hur du kan skapa och genomföra kampanjer i Dynamics 365 for Financials för att identifiera och attrahera prospekt och bibehålla kunder."
-services: project-madeira
-documentationcenter: 
+title: "Ställa in marknadsföringskampanjer i Dynamics 365 | Microsoft Docs"
+description: "Beskriver hur du kan skapa och genomföra marknadsföringskampanjer i Dynamics 365 för att identifiera och attrahera prospekt och bibehålla kunder."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Hantera marknadsföringskampanjer
@@ -52,5 +50,5 @@ Kampanjer utförs av säljare och du måste skapa aktiviteter för att represent
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
-[Arbeta med Financials](ui-work-product.md)  
+[Arbeta med Dynamics 365](ui-work-product.md)  
 

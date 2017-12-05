@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Genomsnittskostnad
@@ -25,7 +25,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 ## <a name="setting-up-average-cost-calculation"></a>Ställa in beräkning av genomsnittskostnad  
  Följande tabell beskriver de två fälten i fönstret **Lagerinställningar** som måste fyllas för att aktivera beräkning av genomsnittskostnader.  
 
-|Fält|Description|  
+|Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
 |**Period för genomsnittskostnad**|Anger vilken period genomsnittskostnaden beräknas i. Följande alternativ finns:<br /><br /> -   **Dag**<br />-   **Vecka**<br />-   **Månad**<br />-   **Bokföringsperiod**<br /><br /> Genomsnittskostnaden beräknas för aktuell period för alla lagerminskningar som bokfördes inom den angivna genomsnittskostnadsperioden.|  
 |**Genoms. kost.ber.typ**|Anger hur genomsnittskostnaden beräknas. Följande alternativ finns:<br /><br /> -   **Artikel**<br />-   **Artikel, Variant och Lagerställe**<br />     Med det här alternativet beräknas genomsnittskostnaden för varje artikel, för varje lagerställe och för varje variant av artikeln. Det innebär att genomsnittskostnaden för den här artikeln styrs av var den lagras och vilken variant av artikeln du har valt, som färg.|  
@@ -57,8 +57,8 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|0|20.00|0|  
-|01-01-20|Inköp|0|40.00|2|  
+|01-01-20|Inköp|1|20.00|1|  
+|01-01-20|Inköp|1|40.00|2|  
 |01-01-20|Försäljning|-1|-20.00|3|  
 |02-01-20|Försäljning|-1|-40.00|4|  
 |02-02-20|Inköp|1|100,00|5|  
@@ -71,8 +71,8 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |**Artikelnr**|**Variantkod**|**Platskod**|**Värderingsdatum**|**Kostnaden är justerad**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTIKEL1||BLÅ|01-01-20|Nr|  
-|ARTIKEL1||BLÅ|02-01-20|Nr|  
+|ARTIKEL1||BLÅ|01-01-20|Nej|  
+|ARTIKEL1||BLÅ|02-01-20|Nej|  
 |ARTIKEL1||BLÅ|02-02-20|Nej|  
 |ARTIKEL1||BLÅ|02-03-20|Nej|  
 
@@ -80,8 +80,8 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|0|20.00|0|  
-|01-01-20|Inköp|0|40.00|2|  
+|01-01-20|Inköp|1|20.00|1|  
+|01-01-20|Inköp|1|40.00|2|  
 |01-01-20|Försäljning|-1|-30.00|3|  
 |02-01-20|Försäljning|-1|-30.00|4|  
 |02-02-20|Inköp|1|100,00|5|  
@@ -96,8 +96,8 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|0|20.00|0|  
-|01-01-20|Inköp|0|40.00|2|  
+|01-01-20|Inköp|1|20.00|1|  
+|01-01-20|Inköp|1|40.00|2|  
 |01-01-20|Försäljning|-1|-20.00|3|  
 |02-01-20|Försäljning|-1|-40.00|4|  
 |02-02-20|Inköp|1|100,00|5|  
@@ -108,10 +108,10 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
  Följande tabell visar de transaktioner i tabellen **Ingångspunkt för genomsn.kostn.justering** som gäller för värdetransaktionenerna som härrör från artikeltransaktionerna i föregående tabell.  
 
-|**Artikelnr**|**Variantkod)**|**Platskod**|**Värderingsdatum**|**Kostnaden är justerad**|  
+|**Artikelnr**|**Variantkod**|**Platskod**|**Värderingsdatum**|**Kostnaden är justerad**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTIKEL1||BLÅ|01-31-20|Nr|  
-|ARTIKEL1||BLÅ|02-28-20|Nr|  
+|ARTIKEL1||BLÅ|01-31-20|Nej|  
+|ARTIKEL1||BLÅ|02-28-20|Nej|  
 
 > [!NOTE]  
 >  Värderingsdatum anges till den sista dagen i genomsnittskostnadsperioden, som i det här fallet är den sista dagen i månaden.  
@@ -120,8 +120,8 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|0|20.00|0|  
-|01-01-20|Inköp|0|40.00|2|  
+|01-01-20|Inköp|1|20.00|1|  
+|01-01-20|Inköp|1|40.00|2|  
 |01-01-20|Försäljning|-1|-30.00|3|  
 |02-01-20|Försäljning|-1|-65.00|4|  
 |02-02-20|Inköp|1|100,00|5|  
@@ -138,7 +138,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |Scenario|Bokföringsdatum|Antal|Omvärdering|Värderingsdatum|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Positiv|Nr|Bokföringsdatum på artikeltransaktionen|  
+|1||Positiv|Nej|Bokföringsdatum på artikeltransaktionen|  
 |2|Senare än det senaste värderingsdatumet för kopplade värdetransaktioner|Negativt|Nej|Bokföringsdatum på artikeltransaktionen|  
 |3|Tidigare än det senaste värderingsdatumet för kopplade värdetransaktioner|Positiv|Nej|Det senaste värderingsdatumet för de kopplade värdetransaktionerna|  
 |4||Negativt|Ja|Bokföringsdatum för omvärderingsvärdetransaktionen.|  
@@ -148,7 +148,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |Scenario|Bokföringsdatum|Artikeltransaktionstyp|Värderingsdatum|Antal|Kost.belopp (aktuellt)|Artikeltrans.löpnr|Löpnr|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Inköp|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Inköp|01-01-20|2|20.00|1|1|  
 |2|01-15-20|(Artikelomkostnad)|01-01-20|2|8,00|1|2|  
 |3|02-01-20|Försäljning|02-01-20|-1|-14.00|2|3|  
 |4|03-01-20|(Omvärdering)|03-01-20|1|-.4.00|1|4|  
@@ -187,8 +187,8 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |Värderingsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
 |02-15-20|-1|-15.00|3|  
 |02-16-20|-1|-15.00|4|  
 
@@ -198,9 +198,9 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
 |Värderingsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
-|01-03-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
+|01-03-20|1|21.00|5|  
 |02-15-20|-1|-17.00|3|  
 |02-16-20|-1|-17.00|4|  
 

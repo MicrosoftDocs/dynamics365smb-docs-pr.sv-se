@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -26,14 +26,15 @@ Lagerökningar och lagerminskningar registreras även naturligtvis när du bokf�
 
 För att öka en översikt av artiklar och för att söka efter dem kan du kategorisera artiklar och ge dem attribut för att söka och sortera förbi.
 
-> []!Observera] Den fysiska hanteringen av artiklar kallas lageraktiviteter. Mer information finns i [Lagerhantering](warehouse-manage-warehouse.md).
+> [!NOTE]
+> Den fysiska hanteringen av artiklar kallas lageraktiviteter. Mer information finns i [Lagerhantering](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Lageravstämning
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen. Mer information finns i [Så här kan du Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade avgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Så här justerar du artikelkostnader](inventory-how-adjust-item-costs.md).
 
-|Till |Gå till |
+|Om du vill |Gå till |
 |---|----|
 |Skapa artikelkort för lagerartiklar som du handlar med.|[Så här registrerar du nya objekt](inventory-how-register-new-items.md)|
 |Strukturera de överordnade artiklar som du säljer som satser som består av komponenter som du monterar till order eller lager.|[Så här arbetar du med strukturer](inventory-how-work-BOMs.md)|

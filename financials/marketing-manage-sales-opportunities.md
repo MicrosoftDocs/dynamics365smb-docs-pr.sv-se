@@ -1,6 +1,6 @@
 ---
 title: "Hantera affärsmöjligheter och leads | Microsoft Docs"
-description: "Beskriver hantering av alla inkommande lead eller affärsmöjligheter i Financials och associera affärsmöjligheten med en säljare för att följa upp potentiell försäljning."
+description: "Beskriver hantering av alla inkommande lead eller affärsmöjligheter i Dynamics 365 och associera affärsmöjligheten med en säljare för att följa upp potentiell försäljning."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Hantera Försäljningsmöjligheter
@@ -24,9 +24,9 @@ En inkommande lead kan betraktas som en affärsmöjlighet. Du kan skapa affärsm
 
 Innan du börjar använda affärsmöjlighetshanteringen måste du skapa försäljningscykler och försäljningscykeletapper. När du skapar affärsmöjligheter ska du ange information om kontaktperson, säljare, försäljningscykel och datum samt uppskattat försäljningsvärde för affärsmöjligheten och sannolikheten för att försäljningen genomförs.
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Till | Gå till |
+| Om du vill | Gå till |
 | --- | --- |
 | Ange de försäljningscykler du brukar följa och de olika etapper i varje försäljningscykel för affärsmöjligheter. |[Så här skapar du cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Skapa försäljningsmöjligheter från dina kontakter. |[Så här skapar du affärsmöjligheter](marketing-how-create-opportunities.md) |

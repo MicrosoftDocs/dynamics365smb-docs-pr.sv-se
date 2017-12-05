@@ -1,6 +1,6 @@
 ---
-title: "Översikt över uppgifter för inställning av Dynamics 365 for Financials| Microsoft Docs"
-description: "Innehåller information om hur att lägga upp, initiera och konfigurera Dynamics 365 for Financials efter behov."
+title: "Översikt över uppgifter för inställning av Dynamics 365 Business edition | Microsoft Docs"
+description: "Innehåller information om hur att lägga upp, initiera och konfigurera Dynamics 365 Business edition efter behov."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Ställa in Dynamics 365 for Financials
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Ställa in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar företagets behov.
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
@@ -41,7 +41,7 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 | Ställ in fönstret **SMTP-postinställning** för att skicka och ta emot e-postmeddelanden från dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Så här konfigurerar du e-post](madeira-how-setup-email.md) |
 | Skapa unika ID-koder. |[Så här skapar du nummerserier](ui-create-number-series.md) |
 
-Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Inställning och administration i Dynamics 365 for Financials](admin-setup-and-administration.md).  
+Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Konfiguration och administration i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
@@ -54,7 +54,7 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includ
 [Produktion](production-manage-manufacturing.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Installation och administration i Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Installation och administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

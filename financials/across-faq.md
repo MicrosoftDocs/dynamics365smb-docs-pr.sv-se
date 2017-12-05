@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
@@ -26,7 +26,7 @@ Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och anv
 Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola. Mer information finns i [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Måste jag köpa Office 365?
-Nummer Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som helt integrerad med Office 365, kan du prova Office 365 i 1 månad gratis [här](https://products.office.com/try).  
+Nej. Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som helt integrerad med Office 365, kan du prova Office 365 i 1 månad gratis [här](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Vad handlar integrationen med Office 365 om?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är helt integrerad med Office 365 så att du kan navigera fritt mellan Office 365-programmen och [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av programmarstartbilden. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du t.ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
@@ -35,7 +35,7 @@ Nummer Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som he
 Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dina data tas bort eller bevaras. Mer information finns i [Avbryter [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Vart vänder jag mig om jag har frågor?
-Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hittar svar för i denna dokumentation, kan du fråga communityn för Dynamics 365 for Financials. Mer information finns i [Dynamics 365, Business edition community](https://community.dynamics.com/business). Supportteamet publicerar dessutom, tips och råd. Mer information finns i [supportblogg för Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hittar svar för i denna dokumentation, kan du fråga communityn för Dynamics 365 Business edition. Mer information finns i [Dynamics 365, Business edition community](https://community.dynamics.com/business). Supportteamet publicerar dessutom, tips och råd. Mer information finns i [Dynamics 365 Business edition supportblogg](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Går det att utöka min testversion på 30 dagar för "Nytt företag"?
 Ja. Om du vill utöka din testversion kontaktar du Microsoft på 1-888-477-7989 (USA) och 1-800-741-9206 (Kanada). Obs! Det kan ta upp till 2 arbetsdagar att slutföra processen fr utökad testversion.  
@@ -51,5 +51,5 @@ Har du läst om en ny funktion i översikten eller på vårt blogginlägg nylige
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] utan Outlook](madeira-no-outlook.md)  
 [Så här ändrar du rollcentret](change-role.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

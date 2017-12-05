@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 32bf6cfb54a78f0b19334e1e46f7620979d64b01
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Så här konfigurerar du datautbytesdefinitioner
@@ -71,9 +71,9 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
     >   
     >  För export av betalningar kan du skapa en rad för varje betalningstyp som du vill exportera. I så fall visar snabbfliken **Kolumndefinitioner** olika kolumner för varje betalningstyp.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**Kod)**|Ange en kod som identifierar raden i filen.|  
+    |**Kod**|Ange en kod som identifierar raden i filen.|  
     |**Namn**|Ange ett namn som beskriver raden i filen.|  
     |**Kolumnantal**|Ange hur många kolumner raden i datafilen har. **Obs:**  Fältet är endast relevant för import.|  
     |**Dataradstagg**|Ange positionen i det relaterade XML-schemat för element som representerar datafilens huvudtransaktion. **Obs:**  Fältet är endast relevant för import.|  
@@ -87,7 +87,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 7. I fönstret **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan knappen **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
 8. Redigera eller fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Kolumndefinitioner**.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Kolumnnr**|Ange numret som återspeglar kolumnens position på raden i filen.<br /><br /> För XML-filer anger du numret som återspeglar typen av element i filen som innehåller data.|  
     |**Namn**|Ange namnet på kolumnen.<br /><br /> För XML-filer anger du de pålägg som markerar att data ska utbytas.|  
@@ -102,16 +102,16 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 
 9. Upprepa moment 8 för varje kolumn eller XML-element i datafilen som har data som du vill att utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- Nästa steget i att skapa en definition för datautbyte är att avgöra vilka kolumner eller XML-element i datafilöversikten som ska mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]].  
+ Nästa steget i att skapa en definition för datautbyte är att avgöra vilka kolumner eller XML-element i datafilöversikten som ska mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** i fönstret **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer ](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** i fönstret **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Så här mappar du kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. På snabbfliken **Raddefinitioner** markerar du raden som du vill mappa kolumner till fält för och väljer sedan **Fältmappning**. Fönstret **Datautbytesmappning** öppnas.  
 2. På snabbfliken **Allmänt** anger du mappningskonfigurationen genom att fylla i fälten enligit beskrivningen i följande tabell.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Tabell-ID**|Ange tabellen som innehåller fälten som data utbyts till eller från enligt mappningen.|  
     |**Använd som cachelagringstabell**|Ange att tabellen som du väljer i fältet **Tabell-ID** är en cachelagringstabell där importerade data lagras innan de mappas till måltabellen.<br /><br /> Du kan använda den här cachelagringstabellen när definitionen för datautbyte används för att importera och konvertera elektroniska dokument, till exempel från leverantörsfakturor till inköpsfakturor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).|  
@@ -122,7 +122,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 
 3.  På Snabbfliken **Fältmappning** anger du vilka kolumner som mappas mot vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att fylla i fälten som beskrivs i följande tabell.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Kolumnnr**|Ange vilken kolumn i datafilen som du vill definiera en översikt för.<br /><br /> Du kan bara välja kolumner som representeras av rader på snabbfliken **Kolumndefinitioner** i fönstret **datautbytesdefinition**.|  
     |**Fält-ID**|Ange vilka fält kolumnen i fältet **Kolumnnr.** mappas till.<br /><br /> Du kan bara välja från fält som finns i tabellen som du har angett i fältet **Tabell** på snabbfliken **Allmänt**.|  
@@ -133,7 +133,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
     |**Målfältsrubrik**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange namnet på fältet i måltabellen som värdet i fältet **Kolumnrubrik** mappas till när du använder en cachelagringstabell för dataimport.|  
     |**Valfri**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange om mappningen ska hoppas över när fältet är tomt. Om du inte markerar den här kryssrutan så inträffar ett exportfel om fältet är tomt.|  
 
- Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Så här konfigurerar du utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Så här: Skapar SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md), [så här: ställa in SEPA direktdebitering](finance-how-to-set-up-sepa-direct-debit.md), och [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring ](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Så här konfigurerar du utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Så här: Skapar SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md), [så här: ställa in SEPA direktdebitering](finance-how-to-set-up-sepa-direct-debit.md), och [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     När du har skapat definitionem för datautbyte för en viss datafil kan du exportera definitionen för datautbyte som en XML-fil som kan användas för att snabbt kan importera datafilen i fråga. Detta beskrivs i följande procedur. Beskriv i följande procedur.  
 

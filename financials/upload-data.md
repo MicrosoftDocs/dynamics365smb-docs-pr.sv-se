@@ -1,20 +1,20 @@
 ---
-title: "Importera affärsdata äldre till Financials | Microsoft Docs"
-description: "Du kan migrera data för kunder, leverantörer och lager, till exempel Excel, QuickBooks eller Dynamics GP till Financials."
+title: "Importera affärsdata äldre till Dynamics 365 | Microsoft Docs"
+description: "Du kan migrera data för kunder, leverantörer och lager, till exempel Excel, QuickBooks eller Dynamics GP till Dynamics 365."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migrate, initialize, implement
+ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
 ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c5571a6d5dcb7a228ce0debd9aa3bcf18607e8a4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
@@ -24,7 +24,7 @@ Från startsidan kan du starta en guide för assisterad installation som hjälpe
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar mallar förkonton, kunder, leverantörer och lagerartiklar som du kan välja att koppla, när du importerar dina data.  
 
-## <a name="importing-data-from-quickbooks-or-dynamics-gp"></a>Importera data från QuickBooks eller Dynamics GP
+## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Importera data från QuickBooks Desktop, QuickBooks Online eller Dynamics GP
 Om ditt arbete använder QuickBooks eller Dynamics GP i dag, kan du exportera den relevanta informationen till en fil. Därefter kan du öppna guiden för assisterad installation och överföra data.
 Om till exempel din fil innehåller kunder och leverantörer, kan du välja att överföra endast kunddatan. Därefter kan du överföra resten av den senare.  
 

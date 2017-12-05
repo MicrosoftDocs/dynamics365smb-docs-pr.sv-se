@@ -1,6 +1,6 @@
 ---
-title: "Träffa Dynamics 365 for Financials | Microsoft Docs"
-description: "Lär dig mer om funktioner och fungerar scenarier i Dynamics 365 for Financials, som är ett verksamhetssystem för små och medelstora företag."
+title: "Träffa Dynamics 365 Business edition | Microsoft Docs"
+description: "Lär dig mer om funktioner och fungerar scenarier i Dynamics 365 Business edition, som är ett verksamhetssystem för små och medelstora företag."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ För några snabba tips, se:
 
 Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-När du är redo att göra en större insats och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se [verksamhetsfunktioner ](madeira-business-functionality.md). För en översikt över aktuell kapacitet och det som komme, se vår översikt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+När du är redo att göra en större insats och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se [verksamhetsfunktioner](madeira-business-functionality.md). För en översikt över aktuell kapacitet och det som komme, se vår översikt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Startsidorna
 Startsidor använder en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och intelligence-verktygen som behövs för att utföra ditt projekt. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Se olika startsidor genom att välja ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "ikonen Inställningar för rollcenter") i det övre högra hörnet, välja **Mina inställningar**, och sedan Rollcentret att utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra rollcentret](change-role.md).  
@@ -40,7 +40,7 @@ Startsidor använder en rollcentrerad design som ger dig snabb åtkomst till ver
 Varje startsida tillhandahåller knappen **inställningar och tillägg**. Här har du tillgång till en lista över assisterad konfiguration som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **paket**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).  
+>   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **Suite**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).  
 
 I fönstret **Assisterad inställning** hittar du följande med **Paket**-upplevelsen:
 
@@ -66,10 +66,12 @@ Funderar du på att prenumerera? Du kan enkelt byta från demonstrationsföretag
 Om du vill skapa ett företag för att testa saker går du till menyn **Mina inställningar** i det övre högra hörnet och ändrar företag till **mitt företag**. Logga ut från [!INCLUDE[d365fin](includes/d365fin_md.md)] och logga sedan in igen för att ändringen ska börja gälla. En assisterade konfigurationsguide hjälper dig att ange grundläggande information om företaget. När det är klart kan du titta närmare på sidan och söka efter åtgärden **Assisterad konfiguration**.  
 
 ## <a name="ready-to-subscribe"></a>Klar att prenumerera?
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, använder du länken i meddelandet för att kontakta Microsoft. Du kan även kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] försäljningsenhet i [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, använder du länken i meddelandet för att kontakta Microsoft. Du kan även kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] försäljningsenhet i [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
-Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 webbplats](https://www.microsoft.com/en-us/dynamics365/).
+Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 webbplats](https://www.microsoft.com/en-us/dynamics365/).  
+
+Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 - Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +82,7 @@ Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365]
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
 [Dokumentation för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

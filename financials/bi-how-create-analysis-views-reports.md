@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Så här skapar du nya försäljningsanalysrapporter
@@ -43,7 +43,7 @@ Sedan kan du lägga upp kolumner så här:
 - Försäljning i procent av förra månaden  
 
 > [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+>   Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Lägga upp rad- och kolumnlayout  
  I fönstret **Analysrapport** kan du visa olika rad- och kolumnlayouter efter vad du har lagt upp. Du lägger upp rader eller radmallar i fönstret **Analysradmallar**. I det här fönstret kan du definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner i fönstret **Analyskolumnmallar**. I det här fönstret kan du definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. I fönstret **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  

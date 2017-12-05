@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c06f828b50d217404bcdd3caafeb8843b40faffc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Så här: ställa in produktionsgrupper och maskingrupper
@@ -50,7 +50,7 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
 10.  Markera fältet **Specifik styckkostnad** om du vill definiera styckkostnaden för produktionsgruppen på den operationsföljdrad där den används. Detta kan vara användbart för operationer där kapacitetskostnaden skiljer sig markant från vad som är normalt för produktionsgruppen.  
 11.  I fältet **Bokföringsmetod** anger du om bokföring av utflöde i produktionsgruppen ska beräknas och bokföras manuellt eller om det ska ske automatiskt med någon av följande metoder.  
 
-    |Alternativ|Description|  
+    |Alternativ|Beskrivning|  
     |----------------------------------|---------------------------------------|  
     |**Manuell**|Förbrukning bokförs manuellt i utflödesjournalen eller produktionsjournal.|
     |**Framåt**|Förbrukning beräkna och bokförs automatiskt när produktionsordern släpps.|  
@@ -63,9 +63,9 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
     För att kunna övervaka kapacitetsförbrukningen kontinuerligt måste du först ange en mätmetod. Enheterna som du anger är grundläggande enheter. Exempelvis mäts bearbetningstiden i timmar och minuter.
 
     > [!NOTE]  
-    >  Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar - inte 8 (arbetstimmar).
+    > Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar - inte 8 (arbetstimmar).
 
-13.  I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. Om din **Produktnamn**-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**).  
+13.  I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. (Om din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**.)  
 14.  I fältet **Effektivitet** anger du den procentandel av förväntade standardutdata som faktiskt uppnås av produktionsgruppen. Genom att ange **100** kan du ange att produktionsgruppens faktiska utdata är samma som standardutdata.  
 15. Markera kryssrutan **Konsoliderad kalender** om du också använder maskingrupper. På så sätt uppsummeras kalendertransaktioner maskingruppkalender.  
 16.  I fältet **Fabrikskalenderkod** väljer du en fabrikskalender. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  

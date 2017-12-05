@@ -1,8 +1,6 @@
 ---
 title: "Olika sätt att felsöka och lösa problem med registrering av självservice | Microsoft Docs"
-description: "Mer information om de vanligaste orsakerna till varför du inte kanske kan slutföra registreringen till Dynamics 365 for Financials och hur du åtgärdar dem."
-services: project-madeira
-documentationcenter: 
+description: "Mer information om de vanligaste orsakerna till varför du inte kanske kan slutföra registreringen till Dynamics 365 Business edition och hur du åtgärdar dem."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Felsöka registrering av Self Service
 Det går enkelt och snabbt att registrera sig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan skapa ett gratis konto, även om du är en befintlig organisation. Detta inlägg tar upp frågor som du kan ha under registreringen.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Vilken e-postadress kan jag använda med Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Vilken e-postadress kan jag använda med Dynamics 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kräver att du använder en e-postadress från ditt arbete eller skola för att registrera dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..
 
 Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola.
@@ -40,5 +38,4 @@ I många fall kan registrering för [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

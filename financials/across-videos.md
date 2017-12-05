@@ -1,5 +1,5 @@
 ---
-title: "Så här gör du videor med Dynamics 365 for Financials | Microsoft Docs"
+title: "Så här gör du videor med Dynamics 365 Business edition | Microsoft Docs"
 description: "Du får tillgång till komma igång-videor som visar hur du utför vanliga uppgifter."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Besök vårt videobibliotek
@@ -35,10 +35,12 @@ Du kan komma åt videor på flera olika sätt. Om du redan arbetar i [!INCLUDE[d
 * Från rollcenter **Business Manager** genom att välja **företagsstöd**, och sedan **Visa inställningar och hjälpresurser**.  
 
 > [!Tip]  
-> Förutom videor inkluderar **företagsstöd** resurser som till exempel länkar till avsnitt och assisterade installationer som gör det enklare att upprätta saker. De här resurserna ersätter diagram i Rollcentret. När du tittar på resurser, kan du gå tillbaka till diagrammet i menyn **företagsstöd** genom att välja **Visa diagram**.  
+> Filmer i biblioteket visas i en ram som kan verka lite mindre. Välj ikonen dubbelpil längst upp till höger i fältet om du vill göra ramen större. Därefter visas videor i ramen större tills du gör den mindre igen.  
+
+Förutom videor inkluderar **företagsstöd** resurser som till exempel länkar till avsnitt och assisterade installationer som gör det enklare att upprätta saker. De här resurserna ersätter diagram i Rollcentret. När du tittar på resurser, kan du gå tillbaka till diagrammet i menyn **företagsstöd** genom att välja **Visa diagram**.  
   
-Du kan visa vår ”så här”-videor och mycket annat innehåll på YouTube-kanalen som vi har skapat för Microsoft Dynamics 365. Besök kanalen nu [Klicka här ](https://go.microsoft.com/fwlink/?linkid=851533).
+Du kan visa vår ”så här”-videor och mycket annat innehåll på YouTube-kanalen som vi har skapat för Microsoft Dynamics 365. Besök kanalen nu [Klicka här](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="see-also"></a>Se även
-[Välkommen till[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

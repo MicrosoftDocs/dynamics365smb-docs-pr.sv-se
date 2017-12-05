@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Så här kan du ändra planeringsförslag i en grafisk översikt över serviceverksamheten
@@ -47,7 +47,7 @@ I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och 
 5.  Tryck på och håll ned musknappen samtidigt som du drar du pekaren uppåt eller nedåt för att ändra antal. Tryck på och håll ned musknappen samtidigt som du drar du pekaren till vänster eller höger för att ändra förfallodatum.  
 6.  Förutom att flytta element genom att dra och släppa kan du ändra planeringsförslag genom att använda funktionerna i den nedrullningsbara menyn. Gå till den nedrullningsbara menyn på den gröna cirkeln i ett föreslaget leveranselement och välja en av följande funktioner  
 
-    |Funktion|Description|  
+    |Funktion|Beskrivning|  
     |--------------|---------------------------------------|  
     |**Skapa ny leverans**|Skapa ett nytt element på punkten där du går till nedrullningsbara menyn som representerar en ny föreslagen leveransorder. Det blir en ny rad i planeringsförslaget, när du väljer **Spara ändringar**.<br /><br /> **OBS!** Om fälten **Lagerställefilter** eller **Variantfilter** på snabbfliken **Alternativ** är tomma, eller har fler än en filtervärde, skapas den nya tillgången, och senare sparas till planering eller inköpsförslaget med följande koder:<br /><br /> * Om fältet är tomt kommer den nya tillgången skapas utan lagerställe eller en variantkod.<br /><br /> * Om fler än en filtervärde definieras, skapas den nya tillgången för den första filtervärdet enligt sorteringsmetoden.<br /><br /> Om du vill ha en annan variant eller lagerställekod, måste du ändra numret manuellt på den nya planeringsraden.|  
     |**Autojustera tillgång**|Optimerar en ny efterfrågan som du har skapat i diagrammet genom att kontrollera att den resulterar i noll i lagret före nästa leverans.|  
@@ -59,7 +59,7 @@ I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och 
 För att verkställa planändringar för leverans måste du följa de resulterande åtgärdsmeddelandena från planering eller inköpsförslaget. Mer information finns i Skapa order från planering.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler och ikoner på snabbfliken Tidslinje
- |Symbol/ikon|Description|  
+ |Symbol/ikon|Beskrivning|  
  |------------------|---------------------------------------|  
  |Svart kors|Order (både efterfrågan och tillgång).<br /><br /> -   Kan inte ändras.<br />-   Visas när fältet **Visa planerat lagersaldo** markerats (orange diagram).|  
  |Röd cirkel|Befintliga leveransordrar som inte finns i planeringsförslag.<br /><br /> -   Kan inte ändras.<br />-   Visas när fältet **Visa planerat lagersaldo** markerats (orange diagram).|  
@@ -70,7 +70,7 @@ För att verkställa planändringar för leverans måste du följa de resulteran
 
 När du öppnar listrutan för snabbfliken **tidslinje** visas följande funktioner beroende på vad du väljer  
 
- |Funktion|Description|  
+ |Funktion|Beskrivning|  
  |--------------|---------------------------------------|  
  |**Skapa ny leverans**|Skapa ett nytt element på punkten där du går till nedrullningsbara menyn som representerar en ny föreslagen leveransorder. Det blir en ny rad i planeringsförslaget när du väljer **Spara ändringar** på fliken **Process**.<br /><br /> Eventuella filtervärden, som definieras i fälten **Lagerställefilter** eller **Variantfilter** på Snabbfliken **Alternativ**, ska kopplas till den nya leveransordern. **Obs!** Om fältet är tomt eller har fler än ett filtervärde skapas den nya leveransordern med hjälp av följande koder: <ul><li>Om fältet är tomt kommer den nya tillgången skapas utan lagerställe eller en variantkod.</li><li>Om fler än en filtervärde definieras skapas den nya tillgången genom att den första filtervärdet enligt sorteringsordningen används.</li></ul> Om du vill ha en annan variant eller lagerställekod i den nya leveransordern måste du ändra numret manuellt på den nya planeringsraden.|  
  |**Autojustera tillgång**|Optimerar en ny efterfrågan som du har skapat i diagrammet genom att kontrollera att den resulterar i noll i lagret före nästa leverans.|  
@@ -82,7 +82,7 @@ När du öppnar listrutan för snabbfliken **tidslinje** visas följande funktio
 
 Förutom de kortkommmandon som nämndes tidigare kan du också använda följande kortkommmandon på snabbfliken **Tidslinje** .  
 
- |Kortkommmando|Description|  
+ |Kortkommmando|Beskrivning|  
  |---------------------|---------------------------------------|  
  |Ctrl + rulla med mushjulet|Ändrar skala på x-axeln.|  
  |Markera ett element och tryck sedan på Skift+pil|Flyttar elementet i pilens riktning.|  

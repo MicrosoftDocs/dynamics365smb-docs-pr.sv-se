@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>Så här fakturerar du försäljning
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
 
-> [!NOTE]  
->   Det finns två situationer där du måste använda en försäljningsorder i stället för en faktura:  
+Det finns två situationer där du måste använda en försäljningsorder i stället för en faktura:  
 
 * Om du behöver skicka en del av en orderkvantitet, till exempel eftersom den fullständiga kvantiteten inte är tillgänglig.  
 * Om du säljer artiklar som leverantören levererar direkt till kunden, kallat direktleverans. För mer information finns i [Så här gör du Direktleveranser](sales-how-drop-shipment.md).  
@@ -37,7 +36,7 @@ I affärsmiljöer där kunden måste betala för produkter i förväg måste du 
 
 Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, innan den betalas. Det är användbart om du vill rätta till ett skrivfel eller om du kunden göra en ändring tidigt i orderprocessen. Mer information finns i [Så här rättar eller annullerar du obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md). Om den bokförda försäljningsfakturan betalas, måste du skapa en försäljningskreditnota för att återföra försäljningen. Mer information finns i [Så här behandlar du försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md).
 
-Artiklar kan vara både lagerartiklar och tjänster, betecknade med typerna **objekt - lager** och **objekt - tjänst** på försäljningsraderna. Försäljningsfakturaprocessen är samma för båda artikeltyper. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
+Artiklar kan vara både lagerartiklar och tjänster, betecknade med typerna **Lager** och **Tjänst** på artikelkortet. Försäljningsfakturaprocessen är samma för båda artikeltyper. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
 
 Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
 
@@ -67,7 +66,7 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 11. I fältet **antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 
     > [!NOTE]  
->   Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
+>   Om artikeln är av typen **Tjänst**, eller fältet **Typ** innehåller **Resurs**, är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
 
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 
@@ -92,6 +91,6 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
-[Bulkfakturering från Microsoft Bookings i Dynamics 365 for Financials](finance-bookings.md)  
+[Bulkfakturering från Microsoft Bookings i Dynamics 365 Business edition](finance-bookings.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

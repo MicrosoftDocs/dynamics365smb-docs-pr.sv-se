@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Skapa kontaktföretag
@@ -26,9 +26,9 @@ Genom att ange så mycket data som möjligt om ett visst företag ser du till at
 
 Du kan också definiera vilken affärsrelation du har med en kontakt. En kontakt kan till exempel vara en potentiell kund, bank eller underleverantör.
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs. 
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Till | Gå till |
+| Om du vill | Gå till |
 | --- | --- |
 | Skapa en kontakt för ett nytt företag, antingen från noll eller från en kund, en leverantör eller ett bankkonto. |[Så här skapar du kontaktföretag](marketing-how-create-contact-companies.md) |
 | Synkronisera information i kontakter med vanlig information hos kunder, leverantörer och bankkonton. |[Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
@@ -40,5 +40,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktpersoner](marketing-create-contact-persons.md)   
-[Arbeta med Financials](ui-work-product.md)
+[Arbeta med Dynamics 365](ui-work-product.md)
 

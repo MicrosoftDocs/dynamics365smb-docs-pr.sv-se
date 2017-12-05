@@ -1,6 +1,6 @@
 ---
 title: "Skapa nya företag med en assisterad konfiguration | Microsoft Docs"
-description: "Det är enkelt att skapa ett nytt, tomt företag i Dynamics 365 for Financials. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina befintliga affärsdata."
+description: "Det är enkelt att skapa ett nytt, tomt företag i Dynamics 365 Business edition. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina befintliga affärsdata."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Skapa nya företag i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ När du loggar in på ett nytt företag körs guiden **företagsinställningar**
 
 Till exempel din företagsadress ingår i fakturor och andra dokument, din bankinformation används i betalningar och värderingsprincipen används för att beräkna priser och även lagervärdering.  
 
-När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t.ex. kunder och leverantörer. Mer information finns i [Lägga upp för Dynamics 365 for Financials](setup.md).  
+När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t.ex. kunder och leverantörer. Mer information finns i [Konfigurera Dynamics 365 Business edition](setup.md).  
 
 ## <a name="see-also"></a>Se även
-[Ställa in Dynamics 365 for Financials](setup.md)  
+[Konfigurera Dynamics 365 Business edition](setup.md)  
 [Importera verksamhetsdata från andra finanssystem](upload-data.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

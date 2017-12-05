@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Så här visar du artikeldisposition
@@ -26,10 +26,10 @@ Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa v
 > [!NOTE]  
 >   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Så här skapar du lägerställen](inventory-how-setup-locations.md).
 
-I [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)], visas tillgänglighetssiffror i två olika fält, var och en med en annan definition:
+I [!INCLUDE[d365fin](includes/d365fin_md.md)], visas dispositionssiffror i två olika fält, var och en med en annan definition:
 
 * Fältet **Lagersaldo** visar den faktiska mängden idag enligt bokförda artikeltransaktionsposter.
-* Fältet **Lagerutveckling över tid** beräknas och visar antalet i lager samt planenliga inleveranser minus bruttobehov. (I [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan planenliga inleveranser inkludera antal på inköpsorder och inkommande överföringsorder. Bruttobehov omfattar kvantiteter i försäljningsorder och avgående överföringsorder).
+* Fältet **Lagerutveckling över tid** beräknas och visar antalet i lager samt planenliga inleveranser minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan planenliga inleveranser inkludera antal på inköpsorder och inkommande överföringsorder. Bruttobehov omfattar kvantiteter i försäljningsorder och avgående överföringsorder.)
 
 > [!TIP]  
 >   Lagerutvecklingen över tid är särskilt relevant att visa i fönstren **Artikeldisp. per perioder** och **Artikeldisposition per händelse** eftersom dessa innehåller datumdimensionen.  
@@ -119,6 +119,6 @@ Om en eller flera monteringskomponenter inte är tillgänglig, visas det i **Mö
 [Så här skapar du lagerställen](inventory-how-setup-locations.md)  
 [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  
 [Så här säljer du produkter](sales-how-sell-products.md)      
-[Arbeta med Financials](ui-work-product.md)  
+[Arbeta med Dynamics 365](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

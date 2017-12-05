@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Så här skapar du kontaktföretag
@@ -59,5 +59,5 @@ Om du redan har lagt upp flera kunder, leverantörer eller bankkonton kan du ska
 [Så här tilldelar du industrigrupper till en kontakt](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Tilldela utskicksgrupp till en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Så här skapar du kontaktpersoner](marketing-create-contact-persons.md)  
-[Arbeta med Financials](ui-work-product.md)
+[Arbeta med Dynamics 365](ui-work-product.md)
 
