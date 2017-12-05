@@ -1,1 +1,0 @@
-Detta är en funktion för tidiga versionen som vi fortfarande arbetar med. Funktionerna och innehållet på den här sidan kan komma att ändras. Information om vad finns på [översikt över Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=842139).
