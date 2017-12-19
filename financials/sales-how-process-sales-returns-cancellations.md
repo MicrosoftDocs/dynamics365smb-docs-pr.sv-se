@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Så här behandlar du försäljningreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.
 
-Om du behöver mer kontroll över försäljningsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du returnerar artiklar från flera försäljningsdokument till en retur kan du skapa försäljningsreturorder. En försäljningsreturorder utför automatiskt den relaterade försäljningskreditnotan och andra returrelaterade dokument, till exempel en ersättningsförsäljningsorder, om detta behövs. Mer information finns i avsnittet ”Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument”.
+Om du behöver mer kontroll över försäljningsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du tar emot artiklar från flera försäljningsdokument med en försäljningsretur, kan du skapa försäljningsreturorder. En försäljningsreturorder utför automatiskt den relaterade försäljningskreditnotan och andra returrelaterade dokument, till exempel en ersättningsförsäljningsorder, om detta behövs. Mer information finns i avsnittet ”Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument”.
 
 > [!NOTE]  
 >   Om en bokförd försäljningsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda försäljningsfakturan för att återföra transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här rättar eller annullerar du obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md).
@@ -38,7 +38,7 @@ Om du vill behålla rätt lagervärdering vill du vanligtvis föra tillbaka de r
 
 Två funktioner finns för att fördela exakt kostnadsåterföring automatiskt.   
 
-|Funktion|Description|  
+|Funktion|Beskrivning|  
 |------------------|---------------------------------------|  
 |Funktionen **Hämta bokförda dokumentrader som ska återföras** i fönstret **Försäljningsreturorder**|Kopiera rader för en eller flera bokförda dokument som ska återföras till försäljningsreturorden. Mer information finns i avsnittet ”Att skapa en försäljningsreturorder och relaterad försäljningskreditnota på minst en bokförd försäljningsfaktura”.|  
 |Funktionen **Kopiera dokument** i fönstret **Försäljningskreditnota** och **Försäljningsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad i fönstret **Försäljningsinställningar**.|
@@ -142,7 +142,7 @@ Du kan skapa ersättningsförsäljningsorder, inköpsreturorder och ersättnings
 
 1. I fönstret **Förs.returorder** för en aktiv returprocess, väljer du åtgärden **Skapa returrelaterade dokument**.
 2. I fältet **Leverantörsnr** anger du numret på en leverantör om du vill skapa leverantörsdokument automatiskt.
-3. Om en returnerad artikel måste returneras till leverantören markerar du kryssrutan  **Skapa inköpsreturorder**.
+3. Om en returnerad artikel måste returneras till leverantören markerar du kryssrutan **Skapa inköpsreturorder**.
 4. Om returnerad en artikel måste beställas från leverantören markerar du kryssrutan **Skapa inköpsorder**.
 5. Om du måste skapa en ersättningsförsäljningsorder markerar du kryssrutan **Skapa förs.order**.
 
@@ -180,7 +180,7 @@ När artiklarna tas emot i lagret bokför du aktuella förs.returorder som motta
 
 När du är klar att fakturera kunden kan du, i stället för att fakturera varje förs.returorder separat, skapa en försäljningskreditnota och automatiskt kopiera de bokförda returinleveransraderna till detta dokument. Därefter kan du bokföra försäljningskreditnotan och på vanligt sätt fakturera alla öppna förs.returorder omgående.  
 
-Om du vill kombinera inleveranser måste kryssrutan**Samlingsfakturering** markeras i fönstret **Kundkort**.  
+Om du vill kombinera inleveranser måste kryssrutan **Samlingsfakturering** markeras i fönstret **Kundkort**.  
 
 ### <a name="to-manually-combine-return-receipts"></a>Så här kombinerar du returinleveranser manuellt  
 

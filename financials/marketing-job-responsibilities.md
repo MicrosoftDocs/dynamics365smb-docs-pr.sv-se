@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Så här: Ange arbetsansvar för kontaktpersonerna.
@@ -24,13 +24,13 @@ Du kan lägga till information om arbetsansvar för kontaktpersoner för att ang
 
 Att använda arbetsansvar på kontakter är en två-stegsprocess. Först definierar du arbetsansvarkoden. Du måste bara utföra den här steget en gång för varje arbetsansvar. När du har en arbetsansvarkod kan du börja koppla koden till kontaktpersoner.
 
-## <a name="to-define-a-job-responsibility-code"></a>så här definierar du arbetsansvarkod
+## <a name="to-define-a-job-responsibility-code"></a>Så här definierar du en arbetsansvarskod
 Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du fönstret **Arbetsansvar**.
 
 1. Välj ikonen ![söka efter sida eller rapport](media/ui-search/search_small.png "ikonen söka efter sida eller rapport"), ange **arbetsansvar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>så här tilldelar du arbetsansvaret till en kontaktperson
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Så här tilldelar du arbetsansvar till en kontaktperson
 Du kan inte tilldela arbetsansvar till kontaktföretag.
 
 1. Öppna kontaktperson.

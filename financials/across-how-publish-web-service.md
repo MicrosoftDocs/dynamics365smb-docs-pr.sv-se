@@ -1,6 +1,6 @@
 ---
 title: "Visa objekt som webbtjänster | Microsoft Docs"
-description: "Publicera [!INCLUDE[d365fin](includes/d365fin_md.md)]-objekt som webbtjänster, de är tillgängliga direkt i nätverket."
+description: "Publicera objekt som webbtjänster i syfte att göra dem omedelbart tillgängliga i nätverket."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 0ffce108abbe24ec70f31c8a8447e3b6a379b32c
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Så här: Publicerar du en webbtjänst
@@ -23,12 +23,11 @@ Webbtjänster är en enklare sätt att göra applikationfunktioner tillgängliga
 Du kan ställa in en webbtjänst i Windows-klienten eller i webbklienten. Sedan måste Du publicerar webbtjänsten för att göra den tillgänglig att serva förfrågningar över nätverket. Användare kan upptäcka webbtjänster, genom att styra en webbläsare på serverplatsen och begär en lista över tillgängliga tjänster. När du publicerar en webbtjänst, blir den direkt tillgänglig i nätverket för autentiserade användare. Alla behöriga användare kan komma åt metadata för webbtjänster, men endast användare, som har tillräcklig behörighet kan komma åt faktiska data.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Skapa och publicera en webbtjänst  
- Följande Moment beskriver hur du skapar och publicerar en webbtjänst.  
+Följande Moment beskriver hur du skapar och publicerar en webbtjänst.  
 
-#### <a name="to-create-and-publish-a-web-service"></a>Så här Skapa och publicera en webbtjänst  
+### <a name="to-create-and-publish-a-web-service"></a>Så här Skapa och publicera en webbtjänst  
 
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Webbtjänster** och välj sedan relaterad länk.  
-
 2.  Välj **Nytt** på **Webbtjänster** sidan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -38,23 +37,22 @@ Du kan ställa in en webbtjänst i Windows-klienten eller i webbklienten. Sedan 
 
 3.  Markera kryssrutan i kolumnen **Publicerat**.  
 
-     När du publicerar webbtjänsten kan du, i fälten **OData-URL** och **SOAP-URL**, se URL som genereras för webbtjänsten. Du kan testa webbtjänsten omedelbart, genom att välja länkarna i de fälten **OData-URL** och **SOAP-URL**. Om du vill kan du kopiera värdet i fältet och spara det för senare användning.  
+När du publicerar webbtjänsten kan du, i fälten **OData-URL** och **SOAP-URL**, se URL som genereras för webbtjänsten. Du kan testa webbtjänsten omedelbart, genom att välja länkarna i de fälten **OData-URL** och **SOAP-URL**. Om du vill kan du kopiera värdet i fältet och spara det för senare användning.  
 
 När du publicerar en webbtjänst, är den tillgänglig för externa parter. Du kan kontrollera tillgängligheten för den webbtjänsten, genom att använda en webbläsare, eller så kan du välja länken i fälten **OData-URL** och **SOAP-URL** i fönstret **Webbtjänster**. Följande tillvägagångssätt visar hur du kan kontrollera tillgängligheten av webbtjänsten för senare användning.  
 
-#### <a name="to-verify-the-availability-of-a-web-service"></a>Om du vill kontrollera tillgängligheten av en webbtjänst  
+### <a name="to-verify-the-availability-of-a-web-service"></a>Om du vill kontrollera tillgängligheten av en webbtjänst  
 
-1.  Ange den relevanta URL.en i din webbläsare. Följande tabell visar de olika typerna av URL:er som du kan ange.  
-
-    >    [!div class="mx-tdBreakAll"]
-    >    |Webbtjänsttyp|Syntax|Exempel|  
-    >    |----------------|------|-------|
-    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
-    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Företagsnamnsfältet är skiftlägeskänsligt.|
+1.  Ange den relevanta URL.en i din webbläsare. Följande tabell visar vilka olika typer av URL som du kan ange för olika webbtjänsttyper.  
+> [!div class="mx-tdBreakAll"]
+> |Kontakttyp|Syntax|Exempel|
+> |----------------|------|-------|
+> |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
+> |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Företagsnamnsfältet är skiftlägeskänsligt.|
 
 2.  Granska informationen som visas i webbläsaren. Kontrollera att du kan visa namnet på webbtjänsten som du har skapat.  
 
- När du öppnar en webbtjänst, och du vill skriva data tillbaka till [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du ange företagsnamn. Du kan skriva in företaget som en del av URI som visas i exempel, eller så kan du skriva in företaget som en del av frågaparametrarna. Till exempel pekar följande URI.er på samma OData-webbtjänst och båda är giltiga URI:er.  
+När du öppnar en webbtjänst, och du vill skriva data tillbaka till [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du ange företagsnamn. Du kan skriva in företaget som en del av URI som visas i exempel, eller så kan du skriva in företaget som en del av frågaparametrarna. Till exempel pekar följande URI.er på samma OData-webbtjänst och båda är giltiga URI:er.  
 
 ```  
 https://localhost:7048/server/OData/Company('CRONUS International Ltd.')/Customer  
@@ -65,5 +63,5 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 ```  
 
 ## <a name="see-also"></a>Se även  
-[Installation och administration i Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Installation och administration](admin-setup-and-administration.md)  
 

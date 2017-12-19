@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Ställa in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -45,10 +45,10 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includ
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
-[Försäljning](sales-manage-sales.md)
-[inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
+[Inköp](purchasing-manage-purchasing.md)  
 [Lagersaldo](inventory-manage-inventory.md)    
-[Projekthantering](projects-manage-projects.md)
+[Projekthantering](projects-manage-projects.md)  
 [Anläggningstillgångar](fa-manage.md)    
 [Monteringshantering](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  

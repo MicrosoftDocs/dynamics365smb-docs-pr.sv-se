@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Så här: Analysera faktiska belopp kontra budgeterade belopp
 Som en del av att samla in, analysera och dela dina företagsdata, kan du visa faktiska belopp och budgeterade belopp för alla konton och för flera perioder.
 
-Om du vill analysera budgeterade belopp, måste du först skapa budgetar. (Mer information finns i [Så här skapar du budgetar](finance-how-create-budgets.md).)
+Om du vill analysera budgeterade belopp måste du först skapa redovisningsbudgetar. Mer information finns i [Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md)
 
 > [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+>   Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>Så här visar du en budget
+## <a name="to-view-a-gl-budget"></a>Så här visar du en redovisningsbudget
 Om du vill kan du filtrera transaktionerna i en budget med dimensioner och på så sätt visa vissa bestämda budgetar.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.
@@ -35,7 +35,7 @@ Om du vill kan du filtrera transaktionerna i en budget med dimensioner och på s
 3. Högst upp i fönstret fyller du i fälten för att definiera vad som ska visas. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Om du har valt **Period** i antingen **Visa som rader** eller **Visa som kolumner**  måste du fylla i fältet **Visa efter**. Om du inte har valt **Period** i antingen **Visa som rader** eller i **Visa som kolumner** anger du önskad period i fältet **Datumfilter**.  
+>   Om du har valt **Period** i antingen **Visa som rader** eller **Visa som kolumner** måste du fylla i fältet **Visa efter**. Om du inte har valt **Period** i antingen **Visa som rader** eller i **Visa som kolumner** anger du önskad period i fältet **Datumfilter**.  
 
 > [!NOTE]  
 >   Endast transaktioner från redovisningsbudgeten med de filterkoder som du anger på snabbfliken **Filter** tas med i beräkningen. Budgettransaktioner med andra filterkoder eller utan filterkoder inkluderas inte. Så länge filtret finns kvar i fönstret visas endast budgettransaktionerna med dessa filterkoder i budgeten.  
@@ -68,8 +68,8 @@ I stället för att visa de faktiska och budgeterade beloppen för alla konton u
 4. Välj fältet om du vill visa en specifikation av ett visat belopp.  
 
 ## <a name="see-also"></a>Se även
-[Affärsstöd](bi.md)
-[Så här: arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
+[Affärsstöd](bi.md)  
+[Så här: Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Redovisningen och kontoplanen](finance-general-ledger.md)  

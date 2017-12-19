@@ -13,16 +13,16 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa964bd7ef61454892a574c04db890b32ab338c1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Så här behandlar du inköpsreturer eller annulleringar
 Om du vill returnera artiklar till leverantören eller annullera tjänster som du har köpt, kan du skapa och bokföra en inköpskreditnota som anger begärd ändring med hänsyn till den ursprungliga inköpfakturan. Du kan skapa inköpskreditnotan direkt från den bokförda inköpsfakturan med rätt fakturainformation, eller skapa en ny inköpskreditnota med kopierad fakturainformation.
 
-Om du behöver mer kontroll över inköpsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du returnerade artiklar inlevereras från flera inköpsdokument till en retur kan du skapa inköpsreturorder. En inköpsreturordern utfärdar automatiskt relaterad inköpskreditnota. Mer information finns i avsnittet ”Att skapa en inköpsreturorder baserat på minst ett bokfört inköpsdokument”.
+Om du behöver mer kontroll över inköpsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du returnerar artiklar från flera inköpsdokument med en inköpsretur, kan du skapa inköpsreturorder. En inköpsreturordern utfärdar automatiskt relaterad inköpskreditnota. Mer information finns i avsnittet ”Att skapa en inköpsreturorder baserat på minst ett bokfört inköpsdokument”.
 
 > [!NOTE]  
 >   Om en bokförd inköpsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda inköpsfakturan för att automatiskt återföra relevanta transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här rättar eller annullerar du obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -40,7 +40,7 @@ Om du vill behålla rätt lagervärdering vill du vanligtvis plocka returartikla
 
 Två funktioner finns för att fördela exakt kostnadsåterföring automatiskt.  
 
-|Funktion|Description|  
+|Funktion|Beskrivning|  
 |------------------|---------------------------------------|  
 |Funktionen **Hämta bokförda dokumentrader som ska återföras** i fönstret **Inköpsreturorder**|Kopiera rader för en eller flera bokförda dokument som ska återföras till inköpsreturorden. Mer information finns i avsnittet ”Att skapa en inköpsreturorder och relaterad inköpskreditnota på minst en bokförd inköpsfaktura”.|  
 |Funktionen **Kopiera dokument** i fönstret **inköpskreditnota** och **inköpsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad i fönstret **Inköpsinställningar**.|

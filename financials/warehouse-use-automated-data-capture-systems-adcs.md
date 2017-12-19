@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Så här: Aktivera automatiskt datainsamlingssystem (ADCS)
@@ -28,7 +28,7 @@ Baserat på behovsnivån i lagret definierar du den mängd information som ska v
 - Textinformation.  
 - Meddelanden som innehåller bekräftelser eller fel om aktiviteter som utförts och registrerats av handenheter användaren.
 
-Mer information finns i [konfigurera ett automatiskt datainsamlingssystem](https://msdn.microsoft.com/en-us/library/dd338742.aspx) på MSDN.
+Mer information finns i [Konfigurera ett automatiserat dataregistreringssystem](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjälpen för utvecklare och IT-proffs.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Så här konfigurerar ett lager att använda ADCS  
 Om du ska använda ADCS måste du ange vilka distributionslagerplatser som använder teknologin.  
@@ -107,7 +107,7 @@ När du har skapat en miniformulär, nästa steg är att skapa operationer och a
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, redigera koden för fältet **Hantera kodmodul** om du vill skapa eller ändra kod för att utföra lämplig åtgärd eller svar.
 
-Mer information finns i [konfigurera ett automatiskt datainsamlingssystem](https://msdn.microsoft.com/en-us/library/dd338742.aspx) på MSDN.
+Mer information finns i [Konfigurera ett automatiserat dataregistreringssystem](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjälpen för utvecklare och IT-proffs.
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

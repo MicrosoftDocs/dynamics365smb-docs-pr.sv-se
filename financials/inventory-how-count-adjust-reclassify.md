@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Så här: Inventera, justera och gruppera lager
@@ -26,7 +26,7 @@ Minst en gång per räkenskapsår måste du utföra en inventering (d.v.s. räkn
 
 Om du behöver justera det registrerade lagerantalet, kan du i samband med inventeringen använda en artikeljournal för att ändra inventeringstransaktionerna direkt utan att bokföra affärstransaktioner. Du kan också justera för en enskild artikel på artikelkortet.
 
-Om du behöver ändra attribut i artikeltransaktioner samt antalet, kan du använda artikelgrupperingsjournalen. Vanliga attribut när du grupperar är serie-/partinummer, utgångsdatum och dimensioner.
+Om du måste ändra attribut i artikeltransaktionsposter kan du använda artikelgrupperingsjournalen. Vanliga attribut när du omgrupperar är dimensioner och försäljningskampanjkoder, men du utför även ”systemöverföringar” genom att omgruppera lagerplats- och lagerställekoder. Särskilda åtgärder gäller när du vill omgruppera serie- eller partinummer och deras utgångsdatum. Mer information finns i [Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > I avancerad lagerkonfiguration registreras artiklar på lagerplatser som lagertransaktioner, inte som artikeltransaktioner. Därför utför du inventering, justering och gruppera i särskilda distributionslagerjournaler som stöder lagerplatser. Därefter kan använda du särskilda funktionerna för att synkronisera de nya eller ändrade lagertransaktionerna med de associerade artikeltransaktionerna och ändringarna i kvantiteter och värden. Detta beskrivs i nedanstående procedurer vid behov.
@@ -209,13 +209,19 @@ Enligt de intervall som har angetts i företagets principer måste du bokföra d
 6.  Bokför journalraderna för att ange kvantitetsavvikelserna i artikeltransaktionerna. Lagersaldot på lagerplatserna stämmer nu exakt med det som står i artikeltransaktionerna.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Gruppera om en artikels partinummer
+Om du måste ändra attribut i artikeltransaktionsposter kan du använda artikelgrupperingsjournalen. Vanliga attribut när du omgrupperar är dimensioner och försäljningskampanjkoder, men du utför även ”systemöverföringar” genom att omgruppera lagerplats- och lagerställekoder.
+
+Särskilda åtgärder gäller när du vill omgruppera serie- eller partinummer och deras utgångsdatum. Mer information finns i [Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md).
+
+Följande exempel baseras på en lagerställekod. Åtgärderna är liknande för andra typer av artikelattribut.
+
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelgrupperingsjournaler** och välj sedan relaterad länk.
 2. I fönstret **Artikelgrupp.journal** fyller du i fälten efter behov.
-3. I fältet **Partinr.** ange artikelns aktuella partinummer.
-4. I fältet **Nytt partinr.** ange artikelns nya partinummer.
+3. I fältet **Lagerställekod** anger du artikelns aktuella lagerställekod.
+4. I fältet **Ny lagerställekod** anger du artikelns nya lagerställekod.
 5. Välj åtgärden **Bokföra**.
 
-Speciella åtgärder gäller när du vill omgruppera serie-/partinummer. Mer information finns i [Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md).
+Information om överföring av artiklar med full kontroll över kvantiteter som levererats och tagits emot finns i [Så här överför du lager mellan lagerställen](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Se även
 [Lager](inventory-manage-inventory.md)

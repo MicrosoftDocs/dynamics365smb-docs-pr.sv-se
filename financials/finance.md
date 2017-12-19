@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finans
@@ -37,7 +37,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |hantera lager- och produktionskostnader, rapportera kostnader och stämma av kostnader med redovisningen.|[Hantera lagerkostnader](finance-manage-inventory-costs.md)|
 | Förstå redovisningen och kontoplanen. |[Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md) |
 | Lägga till dimensioner för rikare business intelligence. |[Arbeta med dimensioner](finance-dimensions.md) |
-| Skapa budgetar för att förutse olika ekonomiska aktiviteter och koppla dimensionerna för affärssystemet. |[Så här skapar du budgetar](finance-how-create-budgets.md) |
+| Skapa redovisningsbudgetar för att förutse olika ekonomiska aktiviteter och koppla dimensioner för affärssystemet. |[Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md) |
 |Registrera intäkter och utgifter direkt i redovisningen utan att bokföra dedikerade affärsdokument.|[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)|
 |Bokföra transaktioner som ska återföras om du vill ångra bokförda värdetransaktioner i redovisningsjournal eller bokföringar på inköps- och försäljningsdokument. |[Så här: Återföra en bokning](finance-how-reverse-journal-posting.md)|
 |fördela en transaktion i en redovisningsjournal på olika konton när du bokför journalen. |[Förklarar hur du fördelar kostnader och intäkter.](year-allocate-costs-income.md) |

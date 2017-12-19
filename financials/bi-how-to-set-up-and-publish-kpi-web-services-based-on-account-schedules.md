@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0f2f91a9813b07b0868043a4a2a3ed0b3f838536
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Så här: Skapar och publicerar du KPI-webbtjänster som är baserade på kontouppställningar
@@ -27,9 +27,9 @@ I fönstret **Installation av webbtjänst för KPI för kontouppställning** kan
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Installation av webbtjänst för KPI för kontouppställning** och välj sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**Start för prognostiserade värden**|Ange vid vilken tidpunkt i prognosen som värden visas på kontouppställning-kpi-grafiken.<br /><br /> De prognostiserade värdena hämtas från redovisningsbudgeten som du väljer i fältet **Redov.budgetnamn**. **Obs!**Om du vill få KPI:er att visar prognossiffror efter ett visst datum och den verkliga siffror före datumet, kan du ändra fältet **Tillåt bokföring fr.o.m.** i fönstret **Redovisningsinställningar**. Mer information finns också i Tillåt bokföring fr.o.m..|  
+    |**Start för prognostiserade värden**|Ange vid vilken tidpunkt i prognosen som värden visas på kontouppställning-kpi-grafiken.<br /><br /> De prognostiserade värdena hämtas från redovisningsbudgeten som du väljer i fältet **Redov.budgetnamn**. **Obs!**  Om du vill få KPI:er att visar prognossiffror efter ett visst datum och den verkliga siffror före datumet, kan du ändra fältet **Tillåt bokföring fr.o.m.** i fönstret **Redovisningsinställningar**. Mer information finns också i Tillåt bokföring fr.o.m..|  
     |**Redov.budgetnamn**|Ange namnet på den redovisningsbudget som ger prognostiserade värden till kontouppställning-kpi-webbtjänsten.|  
     |**Period**|Ange perioden som kontouppställning-KPI-webbtjänsten baseras på.|  
     |**Visa per**|Ange vid vilket tidsintervall kontouppställning-KPI visas i.|  
@@ -39,7 +39,7 @@ I fönstret **Installation av webbtjänst för KPI för kontouppställning** kan
 
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **kontouppställningar**.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Kontouppställningsnamn**|Ange kontouppställningen som KPI-webbtjänsten baseras på.|  
     |**Beskrivning av kontouppställning**|Ange beskrivningen av kontouppställningen som KPI webbtjänsten baseras på.|  
@@ -49,8 +49,8 @@ I fönstret **Installation av webbtjänst för KPI för kontouppställning** kan
 6.  Om du vill visa kontouppställning-kpi-data som du har upprättat väljer du åtgärden **Webbtjänst för KPI för kontouppställning**.  
 7.  Om du vill publicera kontouppställningens KPI-webbtjänst väljer du åtgärden **Publicera webbtjänst**. Webbtjänsten läggs till i listan över publicerade webbtjänster i fönstret **Webbtjänster**.  
 
-    > [!NOTE]  
-    >  Du kan också publicera KPI webbtjänsten genom att peka på sidobjektet **KPI Web Service kontouppställningsinställning** från fönstret **Webbtjänster**. Mer information finns i [Så här: Publicerar du en webbtjänst](https://msdn.microsoft.com/en-us/library/dd338978.aspx) på MSDN.  
+> [!NOTE]  
+>  Du kan också publicera KPI webbtjänsten genom att peka på sidobjektet **KPI Web Service kontouppställningsinställning** från fönstret **Webbtjänster**. Mer information finns i [Så här: Publicerar du en webbtjänst](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Se även  
 [Affärsstöd](bi.md)  

@@ -1,8 +1,6 @@
 ---
 title: "Designdetaljer - Lagerstyrningsinställning | Microsoft Docs"
-description: "Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller olika nivåer av komplexitet, enligt definitionen av licensbehörigheter i de offererade partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen."
-services: project-madeira
-documentationcenter: 
+description: "Distributionslagerfunktion i Dynamics 365 innehåller olika nivåer av komplexitet enligt definitionen av licensbehörigheter i de offererade partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
@@ -35,13 +33,13 @@ Följande lagerrelaterade partiklar finns:
 -   Automated Data Capture System (4640)  
 -   Lagerplatsinställning (4660)  
 
-Läs mer om varje partikel i [[!INCLUDE[d365fin](includes/d365fin_md.md)]prislistor](http://go.microsoft.com/fwlink/?LinkId=238341) (kräver ett PartnerSource-konto).  
+Läs mer om varje partikel i [[!INCLUDE[d365fin](includes/d365fin_md.md)] prislistor](http://go.microsoft.com/fwlink/?LinkId=238341) (kräver ett PartnerSource-konto).  
 
 Efterföljande tabell visar vilka partiklar som krävs för att definiera olika komplexitetsnivåer för distributionslager, vilka användargränssnittsdokument som stöder varje nivå och vilka lagerställekoder som avspeglar dessa nivåer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrationsdatabas.  
 
-|Komplexitetsnivå|Description|Användargränssnittsdokument|CRONUS-plats|Lägsta partikelkrav|  
+|Komplexitetsnivå|Beskrivning|Användargränssnittsdokument|CRONUS-plats|Lägsta partikelkrav|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|Ingen tilldelad distributionslageraktivitet.<br /><br /> Ta emot/leverera från order.|Order|BLÅ|Grundläggande lager|  
+|1|Ingen tilldelad distributionslageraktivitet.<br /><br /> Ta emot/leverera från order.|Order|BLÅ|Grundläggande lager|  
 |2|Ingen tilldelad distributionslageraktivitet.<br /><br /> Ta emot/leverera från order.<br /><br /> Lagerplatskoden krävs.|Order med lagerplatskod|SILVER|Grundläggande lager/Lagerplats|  
 |3 <br /><br /> **Observera**: även om inställningarna kallas **Begär plockning** och **Begär artikelinförsel** kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor.|Grundläggande distributionslageraktivitet, en order i taget.<br /><br /> Ta emot/leverera bokföring från lagerartikelinförsel/plockdokument. <br /><br /> Lagerplatskoden krävs.|Lagerartikelinförsel/lagerförflyttning/lagerplockning med lagerplatskod|(SILVER + Kräver artikelinförsel eller Kräver artikelinförsel)|Grundläggande lager/Lagerplats/Artikelinförsel/Plockning|  
 |4|Avancerad lageraktivitet, för flera order.<br /><br /> Konsoliderad inleverans-/leveransbokföring baserat på artikelinförsel-/plockregistreringar för distributionslager.|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Distributionslagerutleverans/Plockningsförslag|GRÖN|Grundläggande lager/Distributionslager inleverans/Artikelinförsel/Plockning/Distributionslager utleverans|  
@@ -69,14 +67,14 @@ Det kan bara finnas en standardlagerplats per artikel per lagerställe.
 ## <a name="bin-type"></a>Lagerplatstyp  
 I WMS-installationer kan du begränsa distributionslageraktiviteter som tillåts för en lagerplats genom tilldela en lagerplatstyp till den. Följande typer av lagerplatser förekommer:  
 
-|Lagerplatstyp|Description|  
+|Lagerplatstyp|Beskrivning|  
 |------------------|---------------------------------------|  
 |INLEVNS|Artiklar som har bokförts som inleveranser, men som ännu inte har förts in.|  
 |UTLEVNS|Artiklar som har plockats till utleveransrader, men som ännu inte har bokförts som levererade.|  
 |ARTIKELINFÖRSEL|Artiklar som normalt ska lagras i stora enheter, men som du inte vill att programmet ska använda vid plockning. Eftersom de här lagerplatserna inte används för plockning, varken för produktionsorder eller utleveranser, kan användningen av en lagerplats av typen Artikelinförsel vara begränsad, men den är användbar om du har köpt ett stort antal artiklar. Lagerplatser av den här typen bör alltid ha en låg lagerplatsordning, så att när mottagna artiklar förs in, görs det först med andra högprioriterade ARTINFPLOC-lagerplatser som är kopplade till artikeln. Om du använder den här typen av lagerplats måste du regelbundet utföra återanskaffningar för lagerplatsen, så att de artiklar som lagras där också är tillgängliga på lagerplatser av typen ARTINFPLOC och PLOCKA.|  
 |PLOCKA|Artikel som endast ska användas för plockning. Återanskaffningen för de här lagerplatserna kan bara utföras med transport, inte av artikelinförsel.|  
 |ARTINFPLOC|Artiklar på lagerplatser som föreslås för både artikelinförsel- och plockningsfunktioner. Lagerplatser av den här typen har förmodligen olika lagerplatsordning. Du kan skapa volymlagerplatser av den här typen med låg lagerplatsordning jämfört med de vanliga plocklagerplatserna eller lagerplatserna för framåtplockning.|  
-|KS|Den här lagerplatsen används för lagerjusteringar om du anger lagerplatsen i fältet **Justering lagerplatskod** på lagerställekortet. Du kan även skapa lagerplatser av den här typen för felaktiga artiklar och artiklar om ska kontrolleras. Du kan flytta artiklar till den här lagerplatstypen om du vill isolera dem från det vanliga artikelflödet. **OBS:** Till skillnad från andra lagerplatstyper har **KS** lagerplatstypen inga av artikelhanteringskryssrutorna markerade som standard. Det betyder att lagerplatsinnehåll som du placerar i en KS lagerplats undantas från artikelflöden.|  
+|KS|Den här lagerplatsen används för lagerjusteringar om du anger lagerplatsen i fältet **Justering lagerplatskod** på lagerställekortet. Du kan även skapa lagerplatser av den här typen för felaktiga artiklar och artiklar om ska kontrolleras. Du kan flytta artiklar till den här lagerplatstypen om du vill isolera dem från det vanliga artikelflödet. **OBS:**  Till skillnad från andra lagerplatstyper har **KS** lagerplatstypen inga av artikelhanteringskryssrutorna markerade som standard. Det betyder att lagerplatsinnehåll som du placerar i en KS lagerplats undantas från artikelflöden.|  
 
 För alla lagerplatser utom PLOCKA, ARTINFPLOC och ARTINFÖRS tillåts inga andra aktivitet för lagerplatsen än vad som definieras av dess lagerplatstyp. En lagerplats av typen **Inleverera** kan endast användas för att ta emot artiklar i eller plocka artiklar från.  
 

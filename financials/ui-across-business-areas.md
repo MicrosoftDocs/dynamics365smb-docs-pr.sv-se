@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Och för att stödja områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t.ex. att definiera extratext för dokumentrader och organisera kopplade uppgifter i arbetsflöden.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](madeira-business-functionality.md).
+
+För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t.ex. att definiera extratext för dokumentrader och organisera kopplade affärsuppgifter i arbetsflöden.
+
+
 
 I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitten där de beskrivs.
 
@@ -29,7 +33,7 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 | Skapa standardtextkoder så att du kan utöka standardtexten genom att lägga till extra rader, och skapa villkor för hur extraraderna kan användas. |[Så här definierar du extratexter](ui-how-define-ext-text.md) |
 | Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
 | Förmedla innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder. |[Så här skickar du dokument som e-post](ui-how-send-documents-email.md) |
-| Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Så här schemalägger du en rapportkörning](ui-work-report.md#ScheduleReport) |
+| Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Schemalägga en rapportkörning](ui-work-report.md#ScheduleReport) |
 | Hantera andra typer av rapportlayouter. |[Hantera rapportlayouter](ui-manage-report-layouts.md) |
 | Spåra användares aktiviteter.|[Logga ändringar i Financials](across-log-changes.md)|
 |Tilldela behörigheter till användare, ändra behörighetsgrupper och gruppera användare per behörigheter.|[Så här hanterar du användare och behörigheter](ui-how-users-permissions.md)|

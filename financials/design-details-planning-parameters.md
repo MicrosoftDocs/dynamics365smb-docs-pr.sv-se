@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Planeringsparametrar | Microsoft Docs
-description: "Det här avsnittet beskriver de olika planeringsparametrar som du kan använda i [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
@@ -64,7 +62,7 @@ Oberoende av partiformningsmetoden följer planeringssystemet vanligtvis den hä
 ### <a name="reordering-policies"></a>Partiformningsmetoder  
 Följande partiformningsmetoder påverkar den kvantitet som ska beställas.  
 
-|Partiformningsmetod|Description|  
+|Partiformningsmetod|Beskrivning|  
 |-----------------------|---------------------------------------|  
 |**Fast orderkvantitet**|Orderantalet är minst lika med orderkvantiteten. Den kan ökas så att den uppfyller efterfrågan eller önskad lagernivå. Den här partiformningsmetoden används vanligtvis med en beställningspunkt.|  
 |**Maximalt antal**|Partistorlek beräknas för att uppfylla det maximal lagret. Om antalsändringar används kanske det maximala lagret överträds. Vi rekommenderar att du inte använder tidsenheten tillsammans med maximalt antal. Tidsenheten åsidosätts ofta. Den här partiformningsmetoden används vanligtvis med en beställningspunkt.|  
@@ -74,7 +72,7 @@ Följande partiformningsmetoder påverkar den kvantitet som ska beställas.
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimera när och hur mycket som ska beställas  
 För att få en rationell tillförselplan finjusterar en planerare planeringsparametrar för att begränsa omplaneringsförslag, ackumulera efterfrågan (dynamiskt beställningsantal) eller för att undvika oviktiga planeringsåtgärder. Följande periodfält för beställningscykel hjälper till att optimera när och hur mycket som ska beställas.  
 
-|Fält|Description|  
+|Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
 |**Omplaneringsperiod**|Detta fält används för att bestämma om åtgärdsmeddelande ska ändra tidpunkten för en befintlig order eller avbryta den och skapa en ny order. Den befintliga ordern omplaneras i en omplaneringsperiod före den aktuella leveransen och till en omplaneringsperiod efter den aktuella leveransen.|  
 |**Partiackumuleringsperiod**|Med partiformningsmetoden Parti-för-parti används detta fält för att ackumulera flera leveransbehov till en leveransorder. Från den första planerade tillgången samlas alla tillgångsbehov i den följande partiackumuleringsperioden i en tillgång, som placeras på datumet för den första tillgången. Efterfrågan utanför partiackumuleringsperioden omfattas inte av den här leveransen.|  

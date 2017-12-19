@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ För några snabba tips, se:
 
 Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-När du är redo att göra en större insats och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se [verksamhetsfunktioner](madeira-business-functionality.md). För en översikt över aktuell kapacitet och det som komme, se vår översikt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](madeira-business-functionality.md). För en översikt över aktuell kapacitet och det som komme, se vår översikt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Startsidorna
 Startsidor använder en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och intelligence-verktygen som behövs för att utföra ditt projekt. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Se olika startsidor genom att välja ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "ikonen Inställningar för rollcenter") i det övre högra hörnet, välja **Mina inställningar**, och sedan Rollcentret att utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra rollcentret](change-role.md).  
@@ -42,7 +42,7 @@ Varje startsida tillhandahåller knappen **inställningar och tillägg**. Här h
 > [!NOTE]  
 >   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **Suite**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).  
 
-I fönstret **Assisterad inställning** hittar du följande med **Paket**-upplevelsen:
+I fönstret **Assisterad inställning** hittar du följande med **Suite**-upplevelsen:
 
 | Assisterad konfiguration | Beskrivning |
 | --- | --- |

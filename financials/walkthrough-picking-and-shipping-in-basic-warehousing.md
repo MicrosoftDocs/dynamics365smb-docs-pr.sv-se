@@ -1,8 +1,6 @@
 ---
 title: "Genomgång: Plockning och leverans i grundläggande lagerkonfiguration | Microsoft Docs"
-description: "I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån."
-services: project-madeira
-documentationcenter: 
+description: "I Dynamics 365 kan de avgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
@@ -69,8 +67,8 @@ För att kunna utföra den här genomgången behöver du:
 
         |Transaktionstyp|Artikelnummer|Platskod|Lagerplatskod|Antal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positiv antalsjust.|LS-81|SILVER|S-01-0001 **Obs!**  Artikelns standardlagerplats i CRONUS|2.0|  
-        |Positiv antalsjust.|LS-81|SILVER|S-01-0002|2.0|  
+        |Positiv antalsjust.|LS-81|SILVER|S-01-0001 **Obs!**  Artikelns standardlagerplats i CRONUS|20|  
+        |Positiv antalsjust.|LS-81|SILVER|S-01-0002|20|  
 
     3.  Välj åtgärden **Bokföra** och sedan knappen **Ja**.  
 

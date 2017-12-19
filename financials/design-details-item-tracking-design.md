@@ -1,8 +1,6 @@
 ---
 title: "Designdetaljer - Design av artikelspårning | Microsoft Docs"
-description: "Det här avsnittet beskriver designen bakom artikelspårning i [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "Det här avsnittet beskriver designen bakom artikelspårningen i Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetaljer: Artikelspårningsdesign
@@ -38,7 +36,7 @@ Det centrala bokföringsobjektet omformas för att hantera den unika underklassi
 
 Kodenhet 22, **Artikeljournal – bokför rad**, delar nu bokföringen enligt de artikelspårningsnummer som anges på dokumentraden. Varje unikt artikelspårningsnummer på raden skapar en egen artikeltransaktion för artikeln. Det betyder att länken från den bokförda dokumentraden till de associerade artikeltransaktionerna nu är en-till-flera-relation. Relationen hanteras av följande relationstabeller för artikelspårning.  
 
-|Fält|Description|  
+|Fält|Beskrivning|  
 |---------------|---------------------------------------|  
 |**Artikeltrans. relation** (T6507)|Relaterar levererade eller inlevererade rader till artikeltransaktioner|  
 |**Värdetrans. relation** (T6508)|Relaterar fakturerade rader till värdetransaktioner|  
