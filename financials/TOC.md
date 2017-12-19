@@ -24,6 +24,7 @@
 ## [Låta Dynamics 365 föreslå värden](ui-let-system-suggest-values.md)
 ## [Skriva ut en rapport](ui-work-report.md#PrintReport)
 ## [Videofilmer om vanliga uppgifter](across-videos.md)
+## [Hjälpmedel och kortkommandon](ui-accessibility.md)
 ## [Språk och språkvarianter](about-locale-language.md)  
 ## [Språk för Docs](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Bjud in din externa revisorn till Dynamics 365](finance-invite-external-accountant.md)  
 ## [Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md)
 ## [Arbeta med dimensioner](finance-dimensions.md)
-## [Så här skapar du budgetar](finance-how-create-budgets.md)
+## [Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md)
 ## [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
 ## [Så här: Återföra en bokning](finance-how-reverse-journal-posting.md)
 ## [Så här: Fördela kostnader och intäkter.](year-allocate-costs-income.md)
