@@ -12,29 +12,29 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f389fb58252100eb1302d4b546bef58902f3208
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="post-documents-and-journals"></a><span data-ttu-id="1a85c-103">Bokför dokument och journaler</span><span class="sxs-lookup"><span data-stu-id="1a85c-103">Post Documents and Journals</span></span>
-<span data-ttu-id="1a85c-104">Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.</span><span class="sxs-lookup"><span data-stu-id="1a85c-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span></span>
+# <a name="post-documents-and-journals"></a><span data-ttu-id="b7e57-103">Bokför dokument och journaler</span><span class="sxs-lookup"><span data-stu-id="b7e57-103">Post Documents and Journals</span></span>
+<span data-ttu-id="b7e57-104">Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.</span><span class="sxs-lookup"><span data-stu-id="b7e57-104">Posting represents the accounting action of recording business transactions in the various company ledgers.</span></span>
 
-<span data-ttu-id="1a85c-105">Praktiskt taget alla dokument och journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en **Bokföringsmall** där du kan välja mellan olika bokföringsåtgärder, till exempel **Bokföra**, **Förhandsgranska bokföring**, **Bokför och skicka**, **Bokför och e-posta**.</span><span class="sxs-lookup"><span data-stu-id="1a85c-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span></span>
+<span data-ttu-id="b7e57-105">Praktiskt taget alla dokument och journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en **Bokföringsmall** där du kan välja mellan olika bokföringsåtgärder, till exempel **Bokföra**, **Förhandsgranska bokföring**, **Bokför och skicka**, **Bokför och e-posta**.</span><span class="sxs-lookup"><span data-stu-id="b7e57-105">Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.</span></span>
 
-<span data-ttu-id="1a85c-106">I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="1a85c-106">The following table describes related tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="b7e57-106">I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="b7e57-106">The following table describes related tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="1a85c-107">Om du vill</span><span class="sxs-lookup"><span data-stu-id="1a85c-107">To</span></span> | <span data-ttu-id="1a85c-108">Gå till</span><span class="sxs-lookup"><span data-stu-id="1a85c-108">See</span></span> |
+| <span data-ttu-id="b7e57-107">Om du vill</span><span class="sxs-lookup"><span data-stu-id="b7e57-107">To</span></span> | <span data-ttu-id="b7e57-108">Gå till</span><span class="sxs-lookup"><span data-stu-id="b7e57-108">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="1a85c-109">Lär dig mer om att bokföra inköpsdokument.</span><span class="sxs-lookup"><span data-stu-id="1a85c-109">Learn about posting purchase documents.</span></span> |[<span data-ttu-id="1a85c-110">Bokföra inköp</span><span class="sxs-lookup"><span data-stu-id="1a85c-110">Posting Purchases</span></span>](ui-post-purchases.md) |
-| <span data-ttu-id="1a85c-111">Lär dig mer om att bokföra försäljningsdokument.</span><span class="sxs-lookup"><span data-stu-id="1a85c-111">Learn about posting sales documents.</span></span> |[<span data-ttu-id="1a85c-112">Bokföra försäljning</span><span class="sxs-lookup"><span data-stu-id="1a85c-112">Posting Sales</span></span>](ui-post-sales.md) |
-| <span data-ttu-id="1a85c-113">Lär dig mer om att bokföra redovisningsjournaler.</span><span class="sxs-lookup"><span data-stu-id="1a85c-113">Learn about posting general journals.</span></span> |[<span data-ttu-id="1a85c-114">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="1a85c-114">Working with General Journals</span></span>](ui-work-general-journals.md) |
-| <span data-ttu-id="1a85c-115">Förhandsgranska i ett fönster, de transaktioner som skapas när du bokför.</span><span class="sxs-lookup"><span data-stu-id="1a85c-115">Preview, in a window, the entries that will be created when you post.</span></span> |[<span data-ttu-id="1a85c-116">Så här förhandsgranskar du resultat</span><span class="sxs-lookup"><span data-stu-id="1a85c-116">How to: Preview Posting Results</span></span>](ui-how-preview-post-results.md) |
-| <span data-ttu-id="1a85c-117">Förhandsgranska i en rapport, de transaktioner som skapas när du bokför.</span><span class="sxs-lookup"><span data-stu-id="1a85c-117">Preview, in a report, the entries that will be created when you post.</span></span> |[<span data-ttu-id="1a85c-118">Så här visar du testrapporter före bokföring</span><span class="sxs-lookup"><span data-stu-id="1a85c-118">How to: View Test Reports Before Posting</span></span>](ui-how-view-test-reports-posting.md) |
+| <span data-ttu-id="b7e57-109">Lär dig mer om att bokföra inköpsdokument.</span><span class="sxs-lookup"><span data-stu-id="b7e57-109">Learn about posting purchase documents.</span></span> |[<span data-ttu-id="b7e57-110">Bokföra inköp</span><span class="sxs-lookup"><span data-stu-id="b7e57-110">Posting Purchases</span></span>](ui-post-purchases.md) |
+| <span data-ttu-id="b7e57-111">Lär dig mer om att bokföra försäljningsdokument.</span><span class="sxs-lookup"><span data-stu-id="b7e57-111">Learn about posting sales documents.</span></span> |[<span data-ttu-id="b7e57-112">Bokföra försäljning</span><span class="sxs-lookup"><span data-stu-id="b7e57-112">Posting Sales</span></span>](ui-post-sales.md) |
+| <span data-ttu-id="b7e57-113">Lär dig mer om att bokföra redovisningsjournaler.</span><span class="sxs-lookup"><span data-stu-id="b7e57-113">Learn about posting general journals.</span></span> |[<span data-ttu-id="b7e57-114">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="b7e57-114">Working with General Journals</span></span>](ui-work-general-journals.md) |
+| <span data-ttu-id="b7e57-115">Förhandsgranska i ett fönster, de transaktioner som skapas när du bokför.</span><span class="sxs-lookup"><span data-stu-id="b7e57-115">Preview, in a window, the entries that will be created when you post.</span></span> |[<span data-ttu-id="b7e57-116">Förhandsgranska resultat</span><span class="sxs-lookup"><span data-stu-id="b7e57-116">Preview Posting Results</span></span>](ui-how-preview-post-results.md) |
+| <span data-ttu-id="b7e57-117">Förhandsgranska i en rapport, de transaktioner som skapas när du bokför.</span><span class="sxs-lookup"><span data-stu-id="b7e57-117">Preview, in a report, the entries that will be created when you post.</span></span> |[<span data-ttu-id="b7e57-118">Visa testrapporter före bokföring</span><span class="sxs-lookup"><span data-stu-id="b7e57-118">View Test Reports Before Posting</span></span>](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a><span data-ttu-id="1a85c-119">Se även</span><span class="sxs-lookup"><span data-stu-id="1a85c-119">See Also</span></span>
-[<span data-ttu-id="1a85c-120">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="1a85c-120">General Business Functionality</span></span>](ui-across-business-areas.md)  
-<span data-ttu-id="1a85c-121">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1a85c-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="b7e57-119">Se även</span><span class="sxs-lookup"><span data-stu-id="b7e57-119">See Also</span></span>
+[<span data-ttu-id="b7e57-120">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="b7e57-120">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="b7e57-121">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b7e57-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 

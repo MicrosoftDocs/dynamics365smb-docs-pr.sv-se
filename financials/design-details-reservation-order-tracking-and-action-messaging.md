@@ -16,20 +16,20 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ec506a5d6abbb2e7626462bc66567248019e0311
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="design-details-reordering-policies"></a><span data-ttu-id="59e0b-103">Designdetaljer: Partiformningsmetoder</span><span class="sxs-lookup"><span data-stu-id="59e0b-103">Design Details: Reordering Policies</span></span>
-<span data-ttu-id="59e0b-104">Partiformningsmetoder anger hur mycket som ska beställas när artikeln behöver fyllas på.</span><span class="sxs-lookup"><span data-stu-id="59e0b-104">Reordering policies define how much to order when the item needs to be replenished.</span></span> <span data-ttu-id="59e0b-105">Fyra olika partiformningsmetoder finns.</span><span class="sxs-lookup"><span data-stu-id="59e0b-105">Four different reordering policies exist.</span></span>  
+# <a name="design-details-reordering-policies"></a><span data-ttu-id="b5fcf-103">Designdetaljer: Partiformningsmetoder</span><span class="sxs-lookup"><span data-stu-id="b5fcf-103">Design Details: Reordering Policies</span></span>
+<span data-ttu-id="b5fcf-104">Partiformningsmetoder anger hur mycket som ska beställas när artikeln behöver fyllas på.</span><span class="sxs-lookup"><span data-stu-id="b5fcf-104">Reordering policies define how much to order when the item needs to be replenished.</span></span> <span data-ttu-id="b5fcf-105">Fyra olika partiformningsmetoder finns.</span><span class="sxs-lookup"><span data-stu-id="b5fcf-105">Four different reordering policies exist.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="59e0b-106">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="59e0b-106">In This Section</span></span>  
-[<span data-ttu-id="59e0b-107">Designdetaljer: Fast orderkvantitet</span><span class="sxs-lookup"><span data-stu-id="59e0b-107">Design Details: Fixed Reorder Qty.</span></span>](design-details-fixed-reorder-qty.md)  
-[<span data-ttu-id="59e0b-108">Designdetaljer: Maximalt antal</span><span class="sxs-lookup"><span data-stu-id="59e0b-108">Design Details: Maximum Qty.</span></span>](design-details-maximum-qty.md)  
-[<span data-ttu-id="59e0b-109">Designdetaljer: Order</span><span class="sxs-lookup"><span data-stu-id="59e0b-109">Design Details: Order</span></span>](design-details-order.md)  
-[<span data-ttu-id="59e0b-110">Designdetaljer: Parti-för-parti</span><span class="sxs-lookup"><span data-stu-id="59e0b-110">Design Details: Lot-for-Lot</span></span>](design-details-lot-for-lot.md)  
+## <a name="in-this-section"></a><span data-ttu-id="b5fcf-106">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="b5fcf-106">In This Section</span></span>  
+[<span data-ttu-id="b5fcf-107">Designdetaljer: Fast orderkvantitet</span><span class="sxs-lookup"><span data-stu-id="b5fcf-107">Design Details: Fixed Reorder Qty.</span></span>](design-details-fixed-reorder-qty.md)  
+[<span data-ttu-id="b5fcf-108">Designdetaljer: Maximalt antal</span><span class="sxs-lookup"><span data-stu-id="b5fcf-108">Design Details: Maximum Qty.</span></span>](design-details-maximum-qty.md)  
+[<span data-ttu-id="b5fcf-109">Designdetaljer: Order</span><span class="sxs-lookup"><span data-stu-id="b5fcf-109">Design Details: Order</span></span>](design-details-order.md)  
+[<span data-ttu-id="b5fcf-110">Designdetaljer: Parti-för-parti</span><span class="sxs-lookup"><span data-stu-id="b5fcf-110">Design Details: Lot-for-Lot</span></span>](design-details-lot-for-lot.md)  
 
-## <a name="see-also"></a><span data-ttu-id="59e0b-111">Se även</span><span class="sxs-lookup"><span data-stu-id="59e0b-111">See Also</span></span>  
-<span data-ttu-id="59e0b-112">[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="59e0b-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
-<span data-ttu-id="59e0b-113">[Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="59e0b-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
-[<span data-ttu-id="59e0b-114">Designdetaljer: Leveransplanering</span><span class="sxs-lookup"><span data-stu-id="59e0b-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+## <a name="see-also"></a><span data-ttu-id="b5fcf-111">Se även</span><span class="sxs-lookup"><span data-stu-id="b5fcf-111">See Also</span></span>  
+<span data-ttu-id="b5fcf-112">[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="b5fcf-112">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
+<span data-ttu-id="b5fcf-113">[Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="b5fcf-113">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
+[<span data-ttu-id="b5fcf-114">Designdetaljer: Leveransplanering</span><span class="sxs-lookup"><span data-stu-id="b5fcf-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
 
