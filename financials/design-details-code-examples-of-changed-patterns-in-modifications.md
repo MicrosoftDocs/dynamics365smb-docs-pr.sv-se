@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: f682e2fdaa5be20ae8e6f3ff6ee2ff4769b48545
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Designdetaljer: Stänga efterfrågan och tillgång
@@ -35,9 +35,9 @@ När tillgångsbalanseringen har utförts finns det tre möjliga slutlägen:
 
  För att minska databasåtkomsten när du hanterar produktionsorder kan planeringsraden underhållas i tre nivåer, med målet att utföra den minst fordrande underhållsnivån:  
 
--   Skapa endast planeringsraden med det aktuella förfallodatumet och antalet men utan operationsföljden och komponenterna.  
+-   Skapa endast planeringsraden med det aktuella förfallodatumet och antalet men utan verksamhetsföljden och komponenterna.  
 
--   Inkludera operationsföljd: den planerade operationsföljden läggs ut inklusive beräkning av start- och slutdatum och tidpunkter. Det är fordrande i termer av databasåtkomster. För att fastställa slut- och förfallodatum kan det vara nödvändigt att beräkna detta även om tillförselhändelsen inte har stängts (om det gäller framåtplanering).  
+-   Inkludera verksamhetsföljd: den planerade verksamhetsföljden läggs ut inklusive beräkning av start- och slutdatum och tidpunkter. Det är fordrande i termer av databasåtkomster. För att fastställa slut- och förfallodatum kan det vara nödvändigt att beräkna detta även om tillförselhändelsen inte har stängts (om det gäller framåtplanering).  
 
 -   Ta med strukturexpansion: det kan vänta tills precis före tillgångshändelsen är avslutad.  
 

@@ -13,19 +13,19 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 677b7319baff476671c4c8ade4afed843f936c36
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0cf867dc453b01b074010ee47c7c4c6560195361
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Så här ändrar du vilken layout som används i en rapport för närvarande
+# <a name="change-which-layout-is-currently-used-on-a-report"></a>Ändra den layout som används i en rapport för närvarande
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
 
 Beroende på layouterna som finns tillgängliga för en rapport kan du välja att använda en inbyggd RDLC-rapportlayout, en inbyggd Word-rapportlayout eller en anpassad layout. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Så här ändrar du layout som används i en rapport
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
    I fönstret **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet Företag högst upp i fönstret. Fältet Vald layout anger den layout som används i rapporten för närvarande.
 2. Ange fältet **Företag** fältet högst upp i fönstret till företaget som inkluderar rapporten.
 3. I raden för rapporten i listan och anger du fältet **Vald layout** till ett av följande alternativ för att ändra layouten som används för en rapport:

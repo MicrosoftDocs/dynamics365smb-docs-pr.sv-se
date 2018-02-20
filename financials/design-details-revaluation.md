@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
@@ -76,7 +76,7 @@ Värderingsdatum anges till datumet för förbrukningsbokföringen (02-01-20), s
 
 |Bokföringsdatum|Artikel|Transaktionstyp|Antal|Löpnr|  
 |------------------|----------|----------------|--------------|---------------|  
-|02-15-20|KEDJA|Utflöde|0|3|  
+|02-15-20|KEDJA|Utflöde|1|3|  
 
 **3V**: Användare kör batch-jobbet **Justera kost. - artikeltran.** som bokför kedjan som fakturerad för att ange att all materialförbrukning har förbrukats helt. Från en ekonomisk synvinkel är länkarna inte längre en del av PIA-lagret när utflödet faktureras och justeras fullständigt. Följande tabell visar de resulterande värdetransaktionerna.  
 

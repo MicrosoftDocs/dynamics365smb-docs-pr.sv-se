@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: sv-se
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>Så här kör du en fullständig planering, nettobehov och produktionsplan
+# <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov och produktionsplan
 Begreppen "beräkna planeringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.  
 
 -   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och produktionsprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
@@ -27,16 +27,16 @@ Begreppen "beräkna planeringsförslag" eller "beräkna nettobehov" syftar på b
 
 De planeringsalgoritmer som används för både nettobehov och produktionsplanen är identiska. Planeringsalgoritmerna berör nettobehovsberäkning, återanvändning av befintliga återanskaffningsorder och åtgärdsmeddelanden. Planeringssystemprocessen används för att söka efter vad som behövs eller kommer att behövas (efterfrågan) och vad som finns i lager eller förväntas finnas i lager (tillgång). Åtgärdsmeddelanden skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] när dessa kvantiteter kvittas mot varandra. Åtgärdsmeddelanden innehåller förslag om att skapa en ny order, ändra en orderorder (antal eller datum) eller annullera en order som redan är lagd. Begreppet "order" inbegriper inköpsorder, monteringsorder, produktionsorder och överföringsorder.
 
-Länkar som skapas med planeringsmotorn mellan ett behov och dess relaterade tillgång kan spåras i fönstret **Orderspårning**. Mer information finns i [Så här spårar du relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md).   
+Länkar som skapas med planeringsmotorn mellan ett behov och dess relaterade tillgång kan spåras i fönstret **Orderspårning**. Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md).   
 
-Inställningen av artikelkort, monteringsstrukturer, produktionsstrukturer och operationsföljder påverkar i hög grad att planeringsresultaten blir rätt.  
+Inställningen av artikelkort, monteringsstrukturer, produktionsstrukturer och verksamhetsföljder påverkar i hög grad att planeringsresultaten blir rätt.  
 
 ## <a name="methods-for-generating-a-plan"></a>Metoder för att skapa en plan  
 
 -   **Beräkna fullständig plan**: Med den här funktionen bearbetas eller förnyas materialplanen. Den här processen startar när du tar bort alla planerade leveransorder som för närvarande har laddats. Alla poster i databasen planeras på nytt.  
 -   **Beräkna nettoförändringsplan**: Med den här funktionen bearbetas en nettoförändringsplan. Artiklar tas med i nettoförändringsplaneringen från två typer av förändringar:  
     - **Förändringar i tillgång/efterfrågan:** Dessa omfattar förändringar i kvantiteter i försäljningsorder, produktionsprognoser, monteringsorder, produktionsorder eller inköpsorder. En oplanerad förändring av lagernivån betraktas också som en kvantitetsförändring.  
-    - **Förändringar av planeringsparameter:** Dessa omfattar förändringar i säkerhetslager, beställningspunkt, operationsföljd, strukturlista och förändringar i beräkningen av tidsenhet eller ledtid.  
+    - **Förändringar av planeringsparameter:** Dessa omfattar förändringar i säkerhetslager, beställningspunkt, verksamhetsföljd, strukturlista och förändringar i beräkningen av tidsenhet eller ledtid.  
 -   **Hämta åtgärdsmeddelanden:** Den här funktionen fungerar som ett verktyg för planering på kort sikt genom att utfärda åtgärdsmeddelanden för att uppmärksamma användaren om eventuella ändringar som har genomförts sedan den senaste fullständiga planen eller nettoförändringsplanen beräknades.  
 
 Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] förslagstransaktioner med förmodad oändlig kapacitet. Produkktionsgruppers och maskingruppers kapacitet beaktas inte när du utvecklar scheman.  
@@ -47,7 +47,7 @@ Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 >  Planen för funktionen Hämta åtgärdsmeddelanden kan köras mellan körningarna av nettoförändringsplanen och den fullständiga planen för att hämta en ögonblicksbild av den påverkan som planförändringarna har. Den är däremot inte tänkt som en ersättning till nettoförändringsplanen eller den fullständiga planen.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Så här beräknar du planeringsförslaget  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Planeringsförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan** för att öppna fönstret **Skapa inköpsförslag**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 

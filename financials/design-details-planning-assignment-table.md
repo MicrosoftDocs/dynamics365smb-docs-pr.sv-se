@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e7591196c3335f7640d37151054b22dd687b36e8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetaljer: Planeringstilldelningstabell
@@ -43,7 +43,7 @@ Följande ändringar av huvuddata kan också orsaka en planeringsobalans:
   
 * Ändring av status till Certifierat i produktionsstrukturhuvudet (för alla artiklar som använder huvudet).  
 * Tagit bort rad (underordnat objekt).  
-* Ändring av status till Certifierat i operationsföljdhuvudet (för alla artiklar som använder operationsföljden).  
+* Ändring av status till Certifierat i verksamhetsföljdhuvudet (för alla artiklar som använder verksamhetsföljden).  
 * Ändringar i följande artikelkortfält.  
 * Säkerhetslager eller säkerhetsledtid.  
 * Ledtidsberäkning.  

@@ -1,6 +1,6 @@
 ---
 title: "Översikt över bokföring av rad i redovisningsjournalen | Microsoft Docs"
-description: "Det här ämnet introducerar ändringar i Kodmodul 12, **Redovisningsjnl.bokför rad** är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas."
+description: "Detta avsnitt introducerar ändringar i Kodmodul 12, **Gen. Jnl.-Post Line**, som utgör det huvudsakliga programobjektet för redovisningstransaktioner och är den enda plats där transaktioner för redovisning, moms samt kund- och leverantörsreskontra kan föras in."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 77fa52505dc586dc11ca89e53f6eec75042d3606
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen

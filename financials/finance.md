@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 
 Standardinställningkonfigurationen innehåller en kontoplan och standardbokföringsmallar som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.  
 
@@ -37,19 +37,19 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |hantera lager- och produktionskostnader, rapportera kostnader och stämma av kostnader med redovisningen.|[Hantera lagerkostnader](finance-manage-inventory-costs.md)|
 | Förstå redovisningen och kontoplanen. |[Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md) |
 | Lägga till dimensioner för rikare business intelligence. |[Arbeta med dimensioner](finance-dimensions.md) |
-| Skapa redovisningsbudgetar för att förutse olika ekonomiska aktiviteter och koppla dimensioner för affärssystemet. |[Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md) |
+| Skapa redovisningsbudgetar för att förutse olika ekonomiska aktiviteter och koppla dimensioner för affärssystemet. |[Skapa redovisningsbudgetar](finance-how-create-budgets.md) |
 |Registrera intäkter och utgifter direkt i redovisningen utan att bokföra dedikerade affärsdokument.|[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)|
-|Bokföra transaktioner som ska återföras om du vill ångra bokförda värdetransaktioner i redovisningsjournal eller bokföringar på inköps- och försäljningsdokument. |[Så här: Återföra en bokning](finance-how-reverse-journal-posting.md)|
-|fördela en transaktion i en redovisningsjournal på olika konton när du bokför journalen. |[Förklarar hur du fördelar kostnader och intäkter.](year-allocate-costs-income.md) |
-| Tilldela extra kostnader, till exempel frakt- och fysisk hantering som förekommer vid handel med artiklar så att kostnaderna återspeglas i lagervärderingen. |[Så här: Använd artikelomkostnader till kontot för ytterligare kostnader](payables-how-assign-item-charges.md) |
-|Bokföra anställdas privata utgifter för affärsrelaterade aktiviteter och återbetala anställda genom att göra betalningen till dennes bankkonto.|[Så här: skapa och återbetala anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
-| Känner igen intäkter och kostnader i andra perioder än när transaktionerna bokfördes. |[Så här periodiserar du intäkter och kostnader](finance-how-defer-revenue-expenses.md)|
-|Lär dig använda ytterligare valutor och uppdatera valutakurser automatiskt. |[Så här uppdaterar du valutakurser](finance-how-update-currencies.md)|
-| Importera löntransaktioner från ditt lönesystem till redovisningen. |[Så här Importera du lönetransaktioner](finance-how-import-payroll-transactions.md)|
+|Bokföra transaktioner som ska återföras om du vill ångra bokförda värdetransaktioner i redovisningsjournal eller bokföringar på inköps- och försäljningsdokument. |[Återföra bokningar](finance-how-reverse-journal-posting.md)|
+|fördela en transaktion i en redovisningsjournal på olika konton när du bokför journalen. |[Fördela kostnader och intäkter](year-allocate-costs-income.md) |
+| Tilldela extra kostnader, till exempel frakt- och fysisk hantering som förekommer vid handel med artiklar så att kostnaderna återspeglas i lagervärderingen. |[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md) |
+|Bokföra anställdas privata utgifter för affärsrelaterade aktiviteter och återbetala anställda genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
+| Känner igen intäkter och kostnader i andra perioder än när transaktionerna bokfördes. |[Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)|
+|Lär dig använda ytterligare valutor och uppdatera valutakurser automatiskt. |[Uppdatera valutakurser](finance-how-update-currencies.md)|
+| Importera löntransaktioner från ditt lönesystem till redovisningen. |[Importera lönetransaktioner](finance-how-import-payroll-transactions.md)|
 | Övervaka kassaflödet till och från ditt företag. |[Analysera transaktioner i företaget](finance-analyze-cash-flow.md) |
 | Arbeta med finansiella rapporter och översikter i Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
 | Förbereda att avsluta ett räkenskapsår eller en period. |[Avsluta år och perioder](year-close-years-periods.md) |
-|Förbereda en rapport över moms från försäljning och skicka rapporten till en skattemyndighet inom EU. | [Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
+|Förbereda en rapport över moms från försäljning och skicka rapporten till en skattemyndighet inom EU. | [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Se även
 [Ställa in Finance](finance-setup-finance.md)  
@@ -61,5 +61,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

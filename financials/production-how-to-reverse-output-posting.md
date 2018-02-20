@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ac453ff87d78e6be0567ba93b58c0f8938f4052
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 73d90f585b86785b9bdb1355a52a682612488182
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reverse-output-posting"></a>Så här återför du en utflödesbokföring
+# <a name="reverse-output-posting"></a>Återföra bokföring av utflöde
 Det finns tillfällen när bokföring av utflöde måste återföras. Ett exempel på detta är om det inträffar ett informationsregistreringsfel och ett felaktigt utflödesbelopp bokförs i en produktionsorder.  
 
 ## <a name="to-reverse-an-output-posting"></a>Så här återför du en utflödesbokföring  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utflödesjournal** och välj sedan relaterad länk. Välj din batch.  
-2. Fyll i fälten om det behövs. Mer information finns i [Så här: batch-bokför utflöde och körtider](production-how-to-post-output-quantity.md).
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utflödesjournal** och välj sedan relaterad länk. Välj din batch.  
+2. Fyll i fälten om det behövs. Mer information finns i [Batch-bokför utflöde och körtider](production-how-to-post-output-quantity.md).
 3.  I fältet **Kopplas till löpnr** väljer du den tillhörande artikeltransaktionen. Kapaciteten och artikeltransaktionerna återförs.  
 4. Bokför återföringen genom att bokföra journalen.  
 

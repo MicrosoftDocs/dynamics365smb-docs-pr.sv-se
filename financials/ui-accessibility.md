@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Hjälpmedel och kortkommandon i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
 -   Stöd för vanliga hjälpmedel  
 
 ##  <a name="Keyboard"></a> Kortkommandon i webbläsaren
- [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder de kortkommandon som stöds av de flesta webbläsare. Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  stöder de kortkommandon som stöds av de flesta webbläsare. Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.  
 
 |Om du vill|Tryck|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
  En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
 
 ##  <a name="AssistiveTech"></a> Hjälpmedel  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
 
 ## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel  
 Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
 

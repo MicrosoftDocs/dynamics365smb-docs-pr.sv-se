@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e4cc14212f30c7b42aaf9d08c848488ab65444f6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6effbb7bd316eed24b20943e71f4e0bf8e9e8a3e
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -26,7 +26,7 @@ Financials kan erbjuda en del statistik som kan användas för att analysera ser
 ## <a name="viewing-statistics-for-service-orders"></a>Så här visar du serviceorderstatistik:
 Med hjälp av serviceorderstatistiken får du en snabb översikt över innehållet i hela serviceordern, detaljerad information om de specifika serviceraderna och information rörande fakturering, leverans och förbrukning samt kundens saldo.  
 
-Statistikinformationen för en serviceorder visas i fönstret **Serviceorderstatistik** för den önskade ordern. Du kan öppna statistikfönstret från en serviceorder. I fönstret **Serviceorder** väljer du **Statistik**. På snabbflikarna i fönstret visas information om t.ex. antal, belopp, moms, kostnad, vinst och kundkreditlimit. Beloppen i fönstret visas i den valuta som används på serviceordern om inget annat anges.  
+Statistikinformationen för en serviceorder visas i fönstret **Tjänsteorderstatistik** för den önskade ordern. Du kan öppna statistikfönstret från en serviceorder. I fönstret **Tjänsteorder** väljer du **Statistik**. På snabbflikarna i fönstret visas information om t.ex. antal, belopp, moms, kostnad, vinst och kundkreditlimit. Beloppen i fönstret visas i den valuta som används på serviceordern om inget annat anges.  
 
 ### <a name="view-totals-for-a-service-order"></a>Visa summor för en serviceorder  
 Du kan visa det totala beloppet på serviceraderna (inkl. och exkl. moms), momsandel, kostnad och TB på serviceraderna. I fönstret visas också artikelspecifik information, till exempel vikt, volym och antalet förpackningar.  
@@ -112,7 +112,7 @@ I fönstret **Statistik för servicekreditnota** visas en statistisk översikt �
 * Allmän information om kunden, d.v.s. kundens kreditlimit och saldo för kontot.  
 
 ## <a name="see-also"></a>Se även  
-[Så här skapar du serviceorder](service-how-to-create-service-orders.md)   
-[Så här skapar du serviceartiklar](service-how-to-create-service-items.md)   
+[Skapa tjänsteorder](service-how-to-create-service-orders.md)   
+[Skapa tjänsteartiklar](service-how-to-create-service-items.md)   
 [Planera service](service-plan-service.md)  
 

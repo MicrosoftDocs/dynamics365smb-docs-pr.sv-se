@@ -1,5 +1,5 @@
 ---
-title: "Så här kan du avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen | Microsoft Docs"
+title: "Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen | Microsoft Docs"
 description: "Du kan använda fältet **Kopplas från löpnr** i fönstret **Artikeljournal** för att skapa en fast koppling mellan en inkommande transaktion och den ursprungliga utgående transaktionen. Till exempel, för att korrigera utgående transaktion eller bearbeta dess retur."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d30a1316b48bd1b80ab4658ee99b14f0a0217478
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1553b5f85cd9f00f9de15b59bcf258fba412967b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Så här kan du avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen
+# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Stäng öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen
 Du kan använda fältet **Kopplas från löpnr** i fönstret **Artikeljournal** för att skapa en fast koppling mellan en inkommande transaktion och den ursprungliga utgående transaktionen. Till exempel, för att korrigera utgående transaktion eller bearbeta dess retur. Mer information finns i Kopplas från löpnr.  
 
 > [!IMPORTANT]  
@@ -35,8 +35,8 @@ I följande procedur beskrivs hur du avslutar sådana transaktioner genom att ut
 2.  Använd fältet **Kopplas till löpnr** om du vill bokföra en negativ justering. Denna åtgärd stänger den korrigerande positiva transaktionen med en fast koppling.  
 
 ## <a name="see-also"></a>Se även  
-[ Så här kan du ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)  
- [Så här behandlar du försäljningreturer och annulleringar](sales-how-process-sales-returns-cancellations.md)   
+[ Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)  
+ [Behandla försäljningsreturer och annulleringar](sales-how-process-sales-returns-cancellations.md)   
  [Ställa in lagervärdering och lagerkostnad](finance-set-up-inventory-valuation-and-costing.md)   
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)

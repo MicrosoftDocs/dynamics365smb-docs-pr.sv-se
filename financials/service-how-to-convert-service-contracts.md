@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Så här: omvandla servicekontrakt som innehåller momsbelopp
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du tjänstekontrakt som innehåller momsbelopp
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
 
 > [!NOTE]  
@@ -29,7 +29,7 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 >  För det här exemplet måste du ändra arbetsdatum till 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Så här korrigerar du en faktura för ett förskottsbetalt servicekontrakt  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontraktshantering** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontraktshantering** och välj sedan relaterad länk.  
 2. Välj **Servicekontrakt** under **Listor**.  
 3. Skapa ett nytt förutbetalt servicekontrakt. Ange startdatumet **01.01.2017** och fakturaperiodåret för kunden **20000**.  
 4. Det kontrakt måste undertecknas. På fliken **Start** i gruppen **Process** väljer du **Signera kontrakt**.  
@@ -41,7 +41,7 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 >  Ändra inte den ej bokförda servicefakturan. Eftersom servicetransaktioner skapas när fakturan skapas, ändrar en ändring av den ej bokförda fakturan inte de redan skapade servicetransaktionerna. Dock skapas momstransaktionerna när fakturan bokförs. Detta gör att du kan ändra den allmänna produktbokföringsmallen och GSP-produktbokföringsmallen på den ej bokförda servicefakturan.  
 
 ### <a name="to-create-a-credit-memo-for-vat-difference"></a>Så här skapar du en kreditnota för momsdifferens  
-Nedan beskrivs hur du skapar en kreditnota som bara innehåller momsavvikelsen för den redan fakturerade perioden som börjar **01.07.2017**. I det här exemplet bokförs momsbeloppet endast i modulen för ekonomihantering, inte i modulen för servicehantering. Momstransaktionerna som är kopplade till servicetransaktionen kommer inte rättas.  
+Nedan beskrivs hur du skapar en kreditnota som bara innehåller momsavvikelsen för den redan fakturerade perioden som börjar **01.07.2017**. I det här exemplet bokförs momsbeloppet endast i modulen för ekonomihantering, inte i modulen för tjänstehantering. Momstransaktionerna som är kopplade till servicetransaktionen kommer inte rättas.  
 
 1. Skapa ett nytt redovisningskonto för momsdifferensen. Det här kontot ska användas för direkt bokföring av momsrättningstransaktion.  
 2. Lägg till en ny rad i momsbokföringsinställningen.  
@@ -64,8 +64,8 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 6. Efter konverteringen rättas moms- och servicetransaktioner.  
 
 ## <a name="see-also"></a>Se även  
-[Så här arbetar du med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Så här arbetar du med tjänstekontrakt och tjänstekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ekonomi](finance.md)  
-[Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
-[Så här arbetar du med moms på försäljning och inköp](finance-work-with-vat.md)  
+[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
+[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 

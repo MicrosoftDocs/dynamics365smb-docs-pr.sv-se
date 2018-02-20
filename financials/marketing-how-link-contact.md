@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 094ba95f46d13c5861087bedbe52fb18da9270e9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-link-contacts-with-customers-vendors-and-bank-accounts"></a>Så här länkar du kontakter med kunder, leverantörer och bankkonton
+# <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Koppla kontakter till kunder, leverantörer och bankkonton
 Om du har kontakten och antingen en kund, en leverantör eller ett bankkonto för samma företag, kan du länka de två enheterna. När du länkar de tillgängliga enheterna aktiverar synkronisering av data som är gemensam så att den är samma på båda platser.
 
 ## <a name="link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Länka en kontakt till en befintlig kund, leverantör eller bankkonto

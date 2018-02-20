@@ -1,6 +1,6 @@
 ---
 title: "Designdetaljer - Bokföring av rad i redovisningsjournalen | Microsoft Docs"
-description: "Detta avsnitt ger en inblick i de koncept och principer som används för att omdesigna funktionen för bokföring av rader i redovisningsjournalen i Dynamics 365."
+description: "Detta avsnitt ger en inblick i de begrepp och principer som används för att designa om funktionen för bokföring av rader i redovisningsjournalen i Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: c8e2072ad2b9f93a0817b14a6556bc1d44367676
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d26d477b6223d6e53745a8dfd65844a1c3f5e5a
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetaljer: Bokföring av rad i redovisningsjournalen

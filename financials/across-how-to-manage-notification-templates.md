@@ -1,6 +1,6 @@
 ---
 title: "Så här hanterar du meddelandemallar | Microsoft Docs"
-description: "Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren. Mer information finns i [ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)."
+description: "Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren. Mer information finns i [Ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Så här hanterar du meddelandemallar
+# <a name="manage-notification-templates"></a>Hantera meddelandemallar
 Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren. Mer information finns i [Ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md).  
 
  Meddelanden baseras på mallar som definierar innehåll och layout på meddelandet. Du kan exportera innehållet i en meddelandemall, redigerar det och importera det till samma eller en ny meddelandemall. Beskrivs i följande procedurer.  
@@ -27,7 +27,7 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
  Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller tre meddelandemallar, en för meddelande om godkännandebegäran, en för meddelande om nya transaktioner och en för e-postmeddelande om förfallna godkännandebegäranden. De tre fördefinierade meddelandemallarna stöder meddelandemetoderna med **E-post** och **Notering**. Se avsnittet ”Innehåll i meddelandemallar” om du vill visa innehållet i de tre meddelandemallarna.
 
 ## <a name="to-create-a-new-notification-template"></a>Så här skapar du en ny meddelandemall  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") ange **meddelandemallar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **meddelandemallar** och välj sedan relaterad länk.  
 2.  I fönstret **meddelandemallar** väljer du åtgärden **Ny**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
@@ -40,9 +40,9 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
     |**Standard**|Ange om meddelandemallen ska användas som standard.|  
 
 ## <a name="to-modify-a-notification-template"></a>Så här ändrar du en meddelandemall  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") ange **meddelandemallar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **meddelandemallar** och välj sedan relaterad länk.  
 2.  I fönstret **meddelandemallar** väljer du meddelandemallen som du vill ändra.  
-3.  Välj åtgärd **Exportera mallinnehåll**.  
+3.  Välj åtgärden **Exportera mallinnehåll**.  
 4.  Klicka på **Spara** i fönstret **Exportera fil** och ange sedan namn och plats för HTML-filen.  
 5.  Högerklicka på filen, välj **Öppna med**och välj sedan relevant program.  
 
@@ -54,7 +54,7 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
 7.  Om du vill ändra meddelandemallen som du exporterade markerar du mallen som du valde i steg 2 i fönstret **Meddelandemallar**.  
 
     Alternativt kan du följa proceduren i ”Så här skapar du en ny meddelandemall” och välja den nya meddelandemallen för att importera det ändrade mallinnehållet till en ny meddelandemall.  
-8.  Välj åtgärd **Importera mallinnehåll**.  
+8.  Välj åtgärden **Importera mallinnehåll**.  
 9. Om du ändrar en befintlig meddelandemall väljer du knappen **Ja** i meddelandet om överskrivning av den befintliga mallen.  
 10. Välj HTML-filen som du ändrade i steg 6 och välj sedan knappen **Öppna** i fönstret **Välj en fil att importera**.  
 
@@ -76,10 +76,10 @@ Parametervärden infogas automatiskt i meddelandena i enlighet med meddelandemal
 
 ## <a name="see-also"></a>Se även  
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
- [Så här konfigurerar du e-post](madeira-how-setup-email.md)   
- [Så här konfigurerar du arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)   
- [Så här konfigurerar du godkännandeanvändare](across-how-to-set-up-approval-users.md)   
- [Så här skapar du arbetsflöden](across-how-to-create-workflows.md)   
- [Använd jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)   
+ [Konfigurera e-post](madeira-how-setup-email.md)   
+ [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)   
+ [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)   
+ [Skapa arbetsflöden](across-how-to-create-workflows.md)   
+ [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)   
  [Arbetsflöde](across-workflow.md)   
 

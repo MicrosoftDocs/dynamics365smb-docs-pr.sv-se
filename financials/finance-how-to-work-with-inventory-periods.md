@@ -13,13 +13,13 @@ ms.search.keywords: inventory, periods
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8f9c289f4fef06ef0b684dd7176630d29b2fc5d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f3d24dda00e3234dfcf7538c7f4fb7fbc008221
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-inventory-periods"></a>Så här kan du arbeta med lagerperioder
+# <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
 Under en lagerperiod går det att bokföra ändringar i lagret. Lagerperioden definieras utifrån slutdatumet. När en lagerperiod stängs kan inga ändringar bokföras i lagret, oavsett om de är förväntade eller rör faktureringen, före det här slutdatumet. Det går inte heller att bokföra nya värden i lagret före slutdatumet. Om det finns öppna artikeltransaktioner i den stängda perioden, d.v.s. positiva antal som ännu inte har kopplats till avgående transaktioner, går det fortfarande att koppla avgående antal till de här transaktionerna även om perioden är stängd.  
 
 I följande avsnitt finns beskrivningar om att:  
@@ -29,7 +29,7 @@ I följande avsnitt finns beskrivningar om att:
 * Öppna lagerperioder igen.  
 
 ## <a name="to-create-an-inventory-period"></a>Skapa en lagerperiod  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerperioder** och välj sedan relaterad länk.  
 2. Skapa en ny rad.  
 3. Ange det sista datumet för lagerperioden som definieras i fältet **Slutdatum**. När perioden har stängts går det inte längre att bokföra lagerändringar före det här datumet.  
 4. Ange ett beskrivande namn i fältet **Namn**. Välj **OK**.  
@@ -61,7 +61,7 @@ Detta innebär att alla avgående transaktionsantal (till exempel antalen från 
 När lagerperioden har stängts en gång går det inte längre att ta bort den. Det går däremot att öppna lagerperioden igen om bokföring före lagerperiodens slutdatum ska tillåtas. Om en period öppnas igen, öppnas även de lagerperioder som innehåller slutdatum som infaller efter slutdatumet för perioden som öppnas igen.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Öppna en lagerperiod igen  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerperioder** och välj sedan relaterad länk.  
 2. Välj den lagerperiod som du vill öppna igen.  
 3. Välj åtgärdenden **Öppna period igen**. Bekräfta att du vill öppna perioden igen.  
 4. Alla lagerperioder med slutdatum efter perioden som du har valt öppnas igen.  

@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Så här tar du emot och omvandlar elektroniska dokument
+# <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
 Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet i fönstret Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Förutom att ta emot elektroniska dokument direkt från handelspartners kan du ta emot elektroniska dokument från en ocr-service som har omvandlat dina PDF eller bildfiler till elektroniska dokument.  
 
- Innan du kan ta emot elektroniska dokument via dokumentutbytestjänsten, måste du lägga upp olika huvuddata, som företagsinformation, leverantörer, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i element i den utgående dokumentfilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du en dokumentväxlingstjänst](across-how-to-set-up-a-document-exchange-service.md).  
+ Innan du kan ta emot elektroniska dokument via dokumentutbytestjänsten, måste du lägga upp olika huvuddata, som företagsinformation, leverantörer, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i element i den utgående dokumentfilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Konfigurera en dokumentväxlingstjänst](across-how-to-set-up-a-document-exchange-service.md).  
 
- Innan du kan ta emot elektroniska dokument genom OCR-servicen, måste du skapa och aktivera den förkonfigurerade serviceanslutningen. Mer information finns i [Så här skapar du inkommande dokument](across-how-setup-income-documents.md).  
+ Innan du kan ta emot elektroniska dokument genom OCR-servicen, måste du skapa och aktivera den förkonfigurerade serviceanslutningen. Mer information finns i [Skapa inkommande dokument](across-how-setup-income-documents.md).  
 
  Trafiken av elektroniska dokument in och ut ur [!INCLUDE[d365fin](includes/d365fin_md.md)] hanteras av jobbköfunktionen. Innan du kan ta emot elektroniska dokument, måste den relevanta jobbkön startas.  
 
@@ -41,7 +41,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inkommande dokument** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inkommande dokument** och välj sedan relaterad länk.  
 
 2.  Välj raden för den inkommande dokumentposten som representerar en ny inkommande elektronisk faktura och välj sedan **Redigera** på fliken **Start** i gruppen **Hantera**.  
 
@@ -60,7 +60,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 ## <a name="see-also"></a>Se även  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inkommande dokument](across-income-documents.md)  
-[Så här konfigurerar du utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Utbyta data elektroniskt.](across-data-exchange.md)   
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 

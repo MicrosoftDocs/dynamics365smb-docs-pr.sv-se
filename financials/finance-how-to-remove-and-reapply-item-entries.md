@@ -1,5 +1,5 @@
 ---
-title: "Så här kan du ta bort och koppla om artikeltransaktioner | Microsoft Docs"
+title: Ta bort och koppla om artikeltransaktioner | Microsoft Docs
 description: "Du kan visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Så här kan du ta bort och koppla om artikeltransaktioner
+# <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 I fönstret **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
 
 När du bokför en lagertransaktion som innebär att artiklar tas in i eller ut ur lagret, skapas en artikelkoppling mellan varje lagerökning och lagerminskning. Genom de här kopplingarna fastställs kostnadsflödet från varorna som tas emot i lagret till varorna som lämnar lagret. På grund av sättet som styckkostnaden beräknas på kan en felaktig artikelkoppling medföra att genomsnittskostnaden och styckkostnaden får oriktiga resultat. Mer information finns i Designdetaljer: Artikelspårning.
@@ -43,7 +43,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
     - I följande fall kan ingen koppling utföras i kopplingsformuläret: Om det inte finns tillräckligt med antal i lager för kopplingen, utförs ingen koppling i kopplingsformuläret när användaren försöker att koppla en transaktion för en lagerminskning utan artikelspårningsinformation till en transaktion för en lagerökning med artikelspårningsinformation.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kopplingsformulär**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kopplingsformulär**, och välj sedan relaterad länk.  
 2.  Fönstret **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Ange filter på Snabbfliken **Allmänt** för att göra det enklare att hitta den artikeltransaktion för vilken kopplingen ska ändras.  
 4.  Välj aktuell artikeltransaktion och klicka på åtgärden **Kopplade transaktioner**. Fönstret **Visa kopplade transaktioner – Kopplade transaktioner** öppnas och visar de artikeltransaktioner som för närvarande är kopplade till den valda transaktionen.  
@@ -59,7 +59,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 >  **Det går inte att utföra åtgärden eftersom kopplingar för transaktionerna för artikel <item> har tagits bort i Kopplingsformuläret av användaren <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kopplingsformulär**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kopplingsformulär**, och välj sedan relaterad länk.  
 2.  Fönstret **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Om du vill koppla om transaktioner som tagits bort sedan förslaget öppnades markerar du den artikeltransaktion som du vill koppla om. På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Omkoppla**.  
 
@@ -75,8 +75,8 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 6.  Om fältet **Automatisk kostnadsjustering** har värdet **Alltid** i **Lagerinställningar**, körs batch-jobbet för kostnadsjustering automatiskt i programmet när en omkoppling har gjorts. Kör annars batch-jobbet **Justera kost. - artikeltrans** för att säkerställa att samtliga kostnader är aktuella.  
 
 ## <a name="see-also"></a>Se även  
-[Så här kan du avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  
+[Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Objektkoppling](design-details-item-application.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

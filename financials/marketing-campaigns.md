@@ -1,6 +1,6 @@
 ---
-title: "Ställa in marknadsföringskampanjer i Dynamics 365 | Microsoft Docs"
-description: "Beskriver hur du kan skapa och genomföra marknadsföringskampanjer i Dynamics 365 för att identifiera och attrahera prospekt och bibehålla kunder."
+title: "Konfigurera marknadsföringskampanjer i Finance and Operations, Business edition | Microsoft Docs"
+description: "Beskriver hur du kan skapa och genomföra marknadsföringskampanjer i Finance and Operations, Business edition för att identifiera och attrahera presumtiva kunder och bibehålla befintliga."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Hantera marknadsföringskampanjer
@@ -39,7 +39,7 @@ När du har skapat din kampanj, bestämt vilka segment som du vill att kampanjen
 > [!NOTE]  
 >   För att försäljningspriserna/radrabatterna ska aktiveras måste du ange om hela segmentet eller om bara några kontakter är kampanjens mål. Om försäljningspriserna/radrabatterna omfattar alla kontakter i segmentet markerar du fältet **Kampanjmål** på snabbfliken **Kampanj** på kortet **Segment**.
 
-Om försäljningspriserna/radrabatterna inte erbjuds alla kontakter i segmentet kan du ta bort markeringen från fältet **Kampanjmål** för de relevanta kontakterna. Om fältet inte visas kan du lägga till det i din vy. Mer information finns i [Användaranpassning](ui-user-personalization.md).
+Om försäljningspriserna/radrabatterna inte erbjuds alla kontakter i segmentet kan du ta bort markeringen från fältet **Kampanjmål** för de relevanta kontakterna. Om fältet inte visas kan du lägga till det i din vy. Mer information finns i [Anpassa arbetsytan](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Genomföra kampanjer
 Medan kampanjen pågår registreras alla interaktioner med kontakterna, eller segmentet. Då kan du få fram statistik och annan information om kostnader och hur väl kampanjen lyckats.
@@ -50,5 +50,5 @@ Kampanjer utförs av säljare och du måste skapa aktiviteter för att represent
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
-[Arbeta med Dynamics 365](ui-work-product.md)  
+[Arbeta med Finance and Operations, Business edition](ui-work-product.md)  
 

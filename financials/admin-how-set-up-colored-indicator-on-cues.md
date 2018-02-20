@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3576b9780e64fde7744b987f5af5faf4d939dfca
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 17daf9dfa367907d10dd5101f1001ac2aaf7ea03
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Så här skapar du en färglagd indikator på stack-ikoner för företaget eller enskilda användare
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Skapa en färglagd indikator på stack-ikoner för företaget eller enskilda användare
 Som administratör kan du skapa stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.  
   
 Indikatorn visas som en kulört stapel längs den övre kanten på stack-ikon-panelen. Den ger en visuell signal över statusen för stack-ikonaktivitet, som kan ange gynnsamma eller ofördelaktiga förhållanden för att meddela användaren att vidta åtgärd. Om t.ex. en stack-ikon visar pågående försäljningsfakturor kan du ställa in indikatorn för att visa grönt (positivt) när totala antalet pågående försäljningsfakturor är under 10, och röd (negativt) när antalet är större än 20.  
@@ -29,7 +29,7 @@ Från fönstret **Inställning av stack-ikon** ställer du in indikatorer för a
 För att ställa in indikatorn, anger du upp till två tröskelvärden som definierar tre intervall av datavärden (låg, medel och hög) som du kan koppla en annan färg (eller stil).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Så här ställer du in kulörta indikatorer på stack-ikoner  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inställning av stack-ikon** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inställning av stack-ikon** och välj sedan relaterad länk.  
   
      Fönstret **Inställning av stack-ikon** visas. Fönstret anger indikatorerna som närvarande är inställda på stack-ikoner. Indikatorer som gäller för alla användare i företaget har ett tomt **Användarnamn**-fält. Indikatorer som är kopplade till en viss användare innehåller användarens namn i **Användarnamn**-fältet.  
   
@@ -66,4 +66,4 @@ För att ställa in indikatorn, anger du upp till två tröskelvärden som defin
     |**Underordnad**|Grått|  
   
 ## <a name="see-also"></a>Se även  
-[Så här skapar du en färglagd indikator på stack-ikoner i din arbetsyta](ui-how-setup-colored-indicator-cues.md)  
+[Skapa en färglagd indikator på stack-ikoner i din arbetsyta](ui-how-setup-colored-indicator-cues.md)  

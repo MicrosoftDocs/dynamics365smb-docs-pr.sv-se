@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb165c8ccb196f687c11f4cb4353d88c71de3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b2607dce0b62a3a1433362491692687d4c868d06
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-price-management"></a>Serviceprishantering
@@ -67,6 +67,6 @@ Beräkningarna beskrivs i tabellen nedan.
 |**Minimal**|Detta innebär att du anger en undre gräns för avgiften till kunden, oavsett faktiska kostnader eller andra avgifter. Om du väljer det här alternativet innebär det att serviceprisjusteringen bara utförs om det totala priset är lägre än det belopp som anges i serviceprisgruppen.|  
   
 ## <a name="see-also"></a>Se även  
-[Så här: registrera prissättning och alternativa kostnader för service](service-how-setup-service-costs-pricing.md)  
-[Ställa in servicehantering](service-setup-service.md)  
+[Registrera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
+[Ställa in tjänstehantering](service-setup-service.md)  
 

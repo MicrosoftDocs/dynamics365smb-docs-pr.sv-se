@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Så här registrerar du nya objekt
+# <a name="register-new-items"></a>Registrera nya artiklar
 Artiklar, bland andra produkter, utgör basen för ditt arbete, varorna eller tjänster som du handlar med. Varje artiklar måste registreras som ett artikelkort.
 
 Artikelkort innehåller den information som behövs för att köpa, lagra, sälja, leverera och informera om artiklar.
 
 Artikelkortet kan vara av typen **Lager** eller **Service** för att ange om artikeln är en fysisk enhet eller en arbetstidsenhet. Förutom vissa fält som är knutna till de fysiska aspekterna av en artikel, fungerar alla fält på ett artikelkort på samma sätt för lagerartiklar och tjänster. Mer information om att sälja en artikel finns i [Så här säljer du produkter](sales-how-sell-products.md) eller [Så här fakturerar du försäljning](sales-how-invoice-sales.md).
 
-En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en strukturlista vara antingen en monteringsstruktur eller en produktionsstruktur, beroende på dess användning. Mer information finns i [Så här arbetar du med strukturer](inventory-how-work-BOMs.md).
+En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en strukturlista vara antingen en monteringsstruktur eller en produktionsstruktur, beroende på dess användning. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Om artikelmallar finns för olika artikeltyper, visas ett fönster när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
@@ -64,7 +64,7 @@ Artikelmallen läggs till listan över artikelmallar, så att du kan använda de
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Så här lägger du upp flera leverantörer för artiklar  
 Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t.ex. priser, ledtid och rabatter.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
 2.  Välj relevant artikel och välj sedan åtgärden **Artikel**.  
 3.  Välj åtgärden **Leverantörer**.  
 4.  Välj fältet **Leverantörsnr** och välj sedan leverantör som du vill lägga upp för artikeln.  
@@ -77,7 +77,5 @@ Leverantörer visas nu i fönstret **Artikelleverantörskatalog** som du kan öp
   [Lagersaldo](inventory-manage-inventory.md)  
   [Inköp](purchasing-manage-purchasing.md)  
   [Försäljning](sales-manage-sales.md)  
-  [Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

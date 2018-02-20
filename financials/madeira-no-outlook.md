@@ -1,6 +1,6 @@
 ---
-title: "Använda Dynamics 365 Business edition utan Outlook | Microsoft Docs"
-description: "Du kan använda Dynamics 365 Business edition som företagsinkorg i Outlook eftersom det är integrerat med Office 365, men du kan även arbeta utan Outlook i en webbläsare eller på en mobil enhet."
+title: "Använda Finance and Operations, Business edition utan Outlook | Microsoft Docs"
+description: "Du kan använda Finance and Operations, Business edition som företagsinkorg i Outlook eftersom det är integrerat med Office 365, men du kan även arbeta utan Outlook i en webbläsare eller på en mobil enhet."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 357e7b637d2c67417bf8f3b2a640b97e65d2947a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-without-outlook"></a>Använda Dynamics 365 for Finance and Operations, Business edition utan Outlook.
+# <a name="using-finance-and-operations-business-edition-without-outlook"></a>Använda Finance and Operations, Business edition utan Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Office 365 och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
 
 ## <a name="sending-email"></a>Skicka e-post
@@ -27,7 +27,7 @@ Du kan skicka dokumentet som till exempel fakturor som e-post med ditt företags
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Använda Dynamics 365 som en företagsinkorg i Outlook](madeira-outlook.md)  
-[Få Dynamics 365 på min mobila enhet](install-mobile-app.md)  
-[Så här skickar du dokument som e-post](ui-how-send-documents-email.md)
+[Använda Finance and Operations, Business edition som din företagsinkorg i Outlook](madeira-outlook.md)  
+[Hämta Finance and Operations, Business edition på min mobila enhet](install-mobile-app.md)  
+[Skicka dokument som e-post](ui-how-send-documents-email.md)
 

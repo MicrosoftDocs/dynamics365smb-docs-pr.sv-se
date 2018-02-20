@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84a5d9eb8757dc82834c17327ffbb510cd15fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b6ab539048f3f802cc4575e023c43632025dccf5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shipping-agents"></a>Så här lägger du upp speditörer
+# <a name="set-up-shipping-agents"></a>Så här konfigurerar du speditörer
 Du kan lägga upp en kod för och ange information om var och en av dina speditörer.  
 
-Om du anger en Internet-adress för speditören och denne tillhandahåller godsupplysningstjänster på Internet kan du använda den automatiska funktionen för godsupplysning. Mer information finns i [Så här spårar du godspaket](sales-how-track-packages.md).
+Om du anger en Internet-adress för speditören och denne tillhandahåller godsupplysningstjänster på Internet kan du använda den automatiska funktionen för godsupplysning. Mer information finns i [Så här spårar du paket](sales-how-track-packages.md).
 
 När du anger speditörer på dina försäljningsorder kan du också ange vilken typ av service varje speditör erbjuder.  
 Du kan ange obegränsat antal tjänster för varje speditör, samt ange leveranstid för varje service.  
 
-När en speditörsservice har kopplats till en försäljningsorderrad inkluderas leveranstiden för tjänsten i orderlöftesberäkningen för den raden. Mer information finnsi [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).
+När en speditörsservice har kopplats till en försäljningsorderrad inkluderas leveranstiden för tjänsten i orderlöftesberäkningen för den raden. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Så här lägger du upp en speditör  
 1.  Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **Sspeditörer** och välj sedan relaterad länk.  
@@ -39,7 +39,7 @@ När en speditörsservice har kopplats till en försäljningsorderrad inkluderas
 >  Om du tar bort en speditör på orderraden tas även speditörsservicekoden bort. Därefter omberäknas innehållet i fält som delvis baserats på speditörsservicen.  
 
 ## <a name="see-also"></a>Se även
-[Så här spårar du godspaket](sales-how-track-packages.md)    
+[Spåra paket](sales-how-track-packages.md)    
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     

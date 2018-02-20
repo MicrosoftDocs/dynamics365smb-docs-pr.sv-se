@@ -1,5 +1,5 @@
 ---
-title: "Ställ in projektpris projektbokföringsmallar | Microsoft Docs"
+title: "Ställa in projektpris projektbokföringsmallar | Microsoft Docs"
 description: "Beskriver hur du ställer in jobb för allmän information och ställer in priser för projektartiklar, resurser och redovisningskonton och projektbokföringsmallar."
 services: project-madeira
 documentationcenter: 
@@ -13,19 +13,19 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-jobs"></a>Så här skapar du projekt
+# <a name="set-up-jobs"></a>Konfigurera projekt
 I fönstret **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
 
 På de individuella de projektkorten måste du lägga upp priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -41,7 +41,7 @@ Om kryssrutan **Använd förbrukningslänk** är markerad och projektplaneringsr
 > [!NOTE]  
 >   Om kryssrutan **Använd förbrukningslänk** på arbetskortet är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas nya projektplaneringsrader av radtypen **Budget** när du bokför projektjournalrader. Om kryssrutan **Använd förbrukningslänk** på arbetskortet inte är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
 2. Markera eller avmarkera kryssrutan **Använd förbrukningslänk**.
 
 > [!NOTE]  
@@ -50,7 +50,7 @@ Om kryssrutan **Använd förbrukningslänk** är markerad och projektplaneringsr
 ## <a name="to-set-up-prices-for-job-resources"></a>Så här anger du priser för projektresurser
 Du kan lägga upp särskilda resurspriser för ett projekt. Du använder fönstret **Resurspriser för projekt** om du vill göra detta.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Resurs**.
 3. I fönstret **Resurspriser för projekt** fyller du i fälten efter behov.
 
@@ -64,7 +64,7 @@ Värdet i fältet **Enhetspris** för resursen kommer att användas i projektjou
 ## <a name="to-set-up-prices-for-job-items"></a>Så här anger du priser för projektartiklar
 Du kan lägga upp särskilda artikelpriser för ett projekt. Använd fönstret **Artikelpriser** för projekt om du vill göra detta.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Artikel**.
 3. I fönstret **Artikelpriser för projekt** fyller du i fälten efter behov.
 
@@ -78,7 +78,7 @@ Värdet i fältet **Enhetspris** för artikeln kommer att användas i projektpla
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Så här lägger du upp priser för redovisningskonton för projekt
 Du kan lägga upp specifika priser för redovisningskostnader för ett projekt. Du använder fönstret **Redov.kontopriser för projekt** för att göra detta.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Redovisningskonto**.  
 3. I fönstret **Redov.kontopriser för projekt** fyller du i fälten efter behov.
 
@@ -92,7 +92,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 > [!NOTE]  
 >   Nödvändiga konton i kontoplanen måste registreras innan du registrerar bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.  
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i kontofälten enligt instruktionerna i följande tabell.  
 
 | Kontofält | Beskrivning |

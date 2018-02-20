@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer | Microsoft Docs
-description: "Innehållet består av detaljerad teknisk information om komplexa programfunktioner i Dynamics 365."
+description: "Detta innehållet innehåller detaljerad teknisk information om komplexa funktioner i Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 385a9593da2149bea96fa314826f267640b2a2e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9edcf4c588a8a91e55f62867e663e8035a367ae5
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details"></a>Designdetaljer
@@ -37,4 +37,7 @@ Innehållet består av detaljerad teknisk information om komplexa programfunktio
  [Lagerstyrning](warehouse-manage-warehouse.md)   
  [Ställa in komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+ ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

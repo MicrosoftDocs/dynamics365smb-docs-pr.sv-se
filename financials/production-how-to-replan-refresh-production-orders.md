@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 147163d0b75853914e5b4bd3417c3525d29caefc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-replan-or-refresh-production-orders-directly"></a>Omplanera eller uppdatera produktionsorder direkt
-Funktionen **Omplanera** på produktionsorder används vanligtvis när du har lagt till eller ändrat komponenter som utgör underliggande produktionsorder. Funktionen beräknar de ändringar som gjorts på komponent- och operationsföljdsrader, och artiklar på lägre produktionsstrukturnivåer beaktas. Detta innebär att nya produktionsorder kan skapas för dessa artiklar.  
+# <a name="replan-or-refresh-production-orders-directly"></a>Omplanera eller uppdatera produktionsorder direkt
+Funktionen **Omplanera** på produktionsorder används vanligtvis när du har lagt till eller ändrat komponenter som utgör underliggande produktionsorder. Funktionen beräknar de ändringar som gjorts på komponent- och verksamhetsföljdsrader, och artiklar på lägre produktionsstrukturnivåer beaktas. Detta innebär att nya produktionsorder kan skapas för dessa artiklar.  
 
-Funktionen Omplanera utgår ifrån de ändringar som du har gjort på komponent- och operationsföljdsrader, och beräknar och planerar för eventuella nya behov för produktionsordern.  
+Funktionen Omplanera utgår ifrån de ändringar som du har gjort på komponent- och verksamhetsföljdsrader, och beräknar och planerar för eventuella nya behov för produktionsordern.  
 
 Funktioen **uppdatera** för produktionsorder används vanligtvis när du har gjort något av följande:
 
 - Skapat ett produktionsorderhuvud manuellt för att beräkna och skapa radinformation för första gången.
 - Gjort ändringar i produktionsorderhuvudet för att beräkna om all radinformation.
 
-Uppdateringsfunktionen beräknar de ändringar som gjorts i ett produktionsorderhuvud, och produktionsstrukturnivåer beaktas inte. Funktionen beräknar och initierar värdena på komponent- och operationsföljdsrader utifrån de standarduppgifter som har angetts i den tilldelade produktionsstrukturen och operationsföljden, och enligt den orderkvantitet och förfallodatum som har angetts i produktionsorderhuvudet.
+Uppdateringsfunktionen beräknar de ändringar som gjorts i ett produktionsorderhuvud, och produktionsstrukturnivåer beaktas inte. Funktionen beräknar och initierar värdena på komponent- och verksamhetsföljdsrader utifrån de standarduppgifter som har angetts i den tilldelade produktionsstrukturen och verksamhetsföljden, och enligt den orderkvantitet och förfallodatum som har angetts i produktionsorderhuvudet.
 
 Du kan antingen infoga produktionsorderraderna manuellt eller använda en funktion som beräknar produktionsorderraderna från huvudet.  
 
@@ -37,7 +37,7 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
  Om du använder funktionen Uppdatera för att omberäkna produktionsorderraderna kommer de gamla produktionsorderraderna tas bort och nya beräknas.  
 
 ## <a name="to-replan-a-production-order"></a>Så här planerar du om en produktionsorder  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
 2.  Öppna den produktionsorder som du vill omplanera.  
 3.  På snabbfliken **Rader** väljer du åtgärden **Rader** och väljer sedan åtgärden **Komponenter**.  
 4.  Lägg till en komponent som är en producerad artikel eller halvfabrikat.  
@@ -48,8 +48,8 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 
     |Alternativ|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Tillbaka**|Beräknar operationssekvensen baklänges från det tidigaste möjliga slutdatumet, som definieras genom förfallodatumet och/eller andra planerade ordrar, till det senaste möjliga startdatumet. **Obs!**  Det här är standardalternativet, som fungerar i de flesta situationer.|  
-    |**Framåt**|Beräknar operationssekvensen framåt från det senaste möjliga startdatumet, som definieras genom förfallodatumet och/eller andra planerade ordrar, till det tidigaste möjliga slutdatumet. **Obs!**  Detta alternativ fungerar endast för snabborder.|  
+    |**Tillbaka**|Beräknar verksamhetssekvensen baklänges från det tidigaste möjliga slutdatumet, som definieras genom förfallodatumet och/eller andra planerade ordrar, till det senaste möjliga startdatumet. **Obs!**  Det här är standardalternativet, som fungerar i de flesta situationer.|  
+    |**Framåt**|Beräknar verksamhetssekvensen framåt från det senaste möjliga startdatumet, som definieras genom förfallodatumet och/eller andra planerade ordrar, till det tidigaste möjliga slutdatumet. **Obs!**  Detta alternativ fungerar endast för snabborder.|  
 
 7.  I fältet **Planera** anger du om produktionsbehov för producerade artiklar i produktionsstrukturen ska beräknas:  
 
@@ -65,10 +65,10 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 >  De ändringar som genomförs via funktionen **Omplanering** ändrar förmodligen kapacitetsbehovet i produktionsordern, och du kan därför behöva planera om operationer när du har uppdaterat.  
 
 ## <a name="to-refresh-a-production-order"></a>Så här uppdaterar du en produktionsorder  
-Om du har ändrat produktionsorderrader, komponenter eller operationsföljdrader måste du också uppdatera informationen i produktionsordern. I följande procedur beräknas komponenterna för en fast planerad produktionsorder. Momenten är liknande för operationsföljdsrader.
+Om du har ändrat produktionsorderrader, komponenter eller verksamhetsföljdrader måste du också uppdatera informationen i produktionsordern. I följande procedur beräknas komponenterna för en fast planerad produktionsorder. Momenten är liknande för verksamhetsföljdsrader.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Ny**. Mer information finnsi [Så här skapar du ett produktionsorder](production-how-to-create-production-orders.md).  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+2.  Välj åtgärden **Ny**. För mer information, se [Skapa produktionsorder](production-how-to-create-production-orders.md).  
 3.  Välj åtgärden **Uppdatera**.
 4. Du kan välja en av följande alternativ i fönstret **Uppdatera produktionsorder**:
 

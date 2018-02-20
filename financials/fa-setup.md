@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 08/15/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
@@ -31,17 +31,14 @@ I tabellen nedan finns länkar till mer information. När du har skapat detta ka
 
 När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integration** i fönstret **Avskrivningsregelkort**, sedan kommer fönstret **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
 
-> [!NOTE]  
->  Den här funktionen kräver att din upplevelse är inställd på **Paket**. Mer information finns i [anpassa din Financials-upplevelse](ui-experiences.md).  
-
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 | Om du vill | Gå till |
 | --- | --- |
-| Skapa standardredovisningskonton, fördelningsnycklar, journalmallar och batcher för fasta anläggningstillgångar och ställ in indelningar och underklasser för fasta anläggningstillgångar som till exempel Materiella och Immateriella. |[Så här skapar du allmän information för anläggningstillgångar](fa-how-setup-general.md) |
-| Skapa avskrivningsregler, definiera avskrivningsmetoder, integrera med redovisningen och tillåta att transaktioner kan kopieras till flera avskrivningsregler. |[Så här skapar du avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md) |
-| Aktivera försäkringsskydd för anläggningstillgångar, ange allmän försäkringsinformation, ett försäkringskort per brev och förbered journaler för att bokföra försäkringkostnader. |[Så här skapar du försäkring för anläggningstillgångar](fa-how-setup-insurance.md) |
-| Aktivera underhåll av anläggningstillgångar, ange allmän underhållsinformation, skapa konton för bokföring av underhåll och definiera typer av underhållsarbete. |[Så här skapar du underhåll av anläggningstillgångar](fa-how-setup-maintenance.md) |
+| Skapa standardredovisningskonton, fördelningsnycklar, journalmallar och batcher för fasta anläggningstillgångar och ställ in indelningar och underklasser för fasta anläggningstillgångar som till exempel Materiella och Immateriella. |[Skapa allmän information om anläggningstillgångar](fa-how-setup-general.md) |
+| Skapa avskrivningsregler, definiera avskrivningsmetoder, integrera med redovisningen och tillåta att transaktioner kan kopieras till flera avskrivningsregler. |[Skapa avskrivning för anläggningstillgång](fa-how-setup-depreciation.md) |
+| Aktivera försäkringsskydd för anläggningstillgångar, ange allmän försäkringsinformation, ett försäkringskort per brev och förbered journaler för att bokföra försäkringkostnader. |[Skapa försäkring för anläggningstillgångar](fa-how-setup-insurance.md) |
+| Aktivera underhåll av anläggningstillgångar, ange allmän underhållsinformation, skapa konton för bokföring av underhåll och definiera typer av underhållsarbete. |[Skapa underhåll för anläggningstillgångar](fa-how-setup-maintenance.md) |
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Se även

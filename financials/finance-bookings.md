@@ -1,6 +1,6 @@
 ---
-title: Fakturera din bokningar i Dynamics 365 | Microsoft Docs
-description: "Lär dig hur du bulkfakturerar från Microsoft Bookings i Dynamics 365 Business edition."
+title: Fakturera dina bokningar i Finance and Operations, Business edition | Microsoft Docs
+description: "Lär dig hur du bulkfakturerar från Microsoft Bookings i Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Bulkfakturering för Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,11 +28,11 @@ Till exempel om du vill synkronisera kunder mellan Bookings och [!INCLUDE[d365fi
 ## <a name="invoice-appointments"></a>Fakturera möten
 När det är dags att skicka fakturor för slutförda bokningar kan du gå till sidan **Ofakturerade bokningar**. Beroende på hur ofta informationen är synkroniserad, är listan lång eller kort. Du kan skapa fakturor för alla bokningar i listan eller en bokning i taget. Du kan markera en eller flera poster i listan och fakturera sådana.  
 
-Stöd för faktureringsmöten från Bookings är enklare än det fullständiga arbetsflödet för att arbeta med offerter, försäljningsorder och försäljningsfakturor. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md). Du kan välja att sälja tjänsterna med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] eller använda Bookings, beroende på dina behov.  
+Stöd för faktureringsmöten från Bookings är enklare än det fullständiga arbetsflödet för att arbeta med offerter, försäljningsorder och försäljningsfakturor. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md). Du kan välja att sälja tjänsterna med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] eller använda Bookings, beroende på dina behov.  
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
-[Så här fakturerar du försäljning](sales-how-invoice-sales.md)  
+[Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

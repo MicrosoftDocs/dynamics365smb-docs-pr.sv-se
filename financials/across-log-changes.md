@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Logga ändringar i Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Logga förändringar i Finance and Operations, Business edition 
 Du kan aktivera ändringsloggen i [!INCLUDE[d365fin](includes/d365fin_md.md)] så att du får en historik över aktiviteter. Loggen är baserad på ändringar av data i tabeller som du spårar. I ändringsloggen sorteras poster kronologiskt och visar de ändringar som har gjorts i fälten i de angivna posterna. I ändringsloggen samlas alla ändringar som gjorts i tabellen.  
 
 ## <a name="working-with-the-change-log"></a>Arbeta med ändringsloggen
@@ -33,7 +33,7 @@ När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av d
 ## <a name="see-also"></a>Se även
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Använda Sök efter sida eller rapport](ui-search.md)  
-[Så här hanterar du användare och behörigheter](ui-how-users-permissions.md)    
+[Söka efter sida eller rapport](ui-search.md)  
+[Hantera användare och behörigheter](ui-how-users-permissions.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

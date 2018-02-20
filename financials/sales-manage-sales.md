@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 95f235e743ed97b1ac90a6e0583b9bd19dcb7ead
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e01885548d02ce9cd8dd347726a6b18c77837f63
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="sales"></a>FÖRS
@@ -28,9 +28,9 @@ Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, 
 
 Effektiva metoder för försäljning och marknadsföring handlar om hur du fattar rätt beslut vid rätt tidpunkt. Marknadsföringsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)] ger en exakt överblick över din kontaktinformation när du behöver den, så att du kan arbeta effektivt med potentiella kunder och öka kundtillfredsställelsen. Mer information finns i [Kundhantering](marketing-relationship-management.md).
 
-I affärsmiljöer där kunden måste betala för produkter i förväg måste du vänta på kvittot på betalning innan du levererar produkterna. I de flesta fall behandlar du inkommande betalningar några veckor efter leverans, genom att koppla betalningarna till dess relaterade obetalda bokförda försäljningsfakturor. Mer information finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+I affärsmiljöer där kunden måste betala för produkter i förväg måste du vänta på kvittot på betalning innan du levererar produkterna. I de flesta fall behandlar du inkommande betalningar några veckor efter leverans, detta genom att koppla betalningarna till dessas relaterade, obetalda och bokförda försäljningsfakturor. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
-Försäljningsdokument kan skickas som PDF-filer kopplade till e-postmeddelande. Brödtexten för e-post ska innehålla ett utdrag av försäljningsdokumentet, till exempel produkter, totalt belopp och en länk till webbplatsen för PayPal. Mer information finns i [Så här skickar du dokument via e-post](ui-how-send-documents-email.md).
+Försäljningsdokument kan skickas som PDF-filer kopplade till e-postmeddelande. Brödtexten för e-post ska innehålla ett utdrag av försäljningsdokumentet, till exempel produkter, totalt belopp och en länk till webbplatsen för PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
 För alla försäljningsprocesser kan du t.ex. inkludera ett arbetsflöde för godkännande för att kräva att stora försäljningar till vissa kunder godkänns av redovisningschefen. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
 
@@ -38,27 +38,28 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 | Om du vill | Gå till |
 | --- | --- |
-| Skapa en försäljningsoffert där du erbjuder produkter med förhandlingsbara villkor, innan du omvandlar offerten till en försäljningsfaktura. |[Så här gör du erbjudanden](sales-how-make-offers.md) |
-| Skapa en försäljningsfaktura för att registrera en överenskommelse med en kund om att sälja produkter till vissa leverans- och betalningsvillkor. |[Så här fakturerar du försäljning](sales-how-invoice-sales.md) |
-| Behandla en försäljningsorder som rör delvis leverans eller direktleverans. |[Så här säljer du produkter](sales-how-sell-products.md) |
-|Lägga upp standardförsäljnings- eller inköpsrader som du kan snabbt infoga i dokument, till exempel för återkommande påfyllningsorder.|[Så här: Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  
-| Länka en försäljningsorder till en inköpsorder för att sälja ett direktutleveransobjekt som ska levereras direkt från din leverantör till kunden. |[Så här utför du direktleveranser](sales-how-drop-shipment.md) |
-|Har en ej lagerförd artikel levererad från en leverantör till distributionslagret så att du kan leverera den till kunden.|[Så här skapar du specialorder](sales-how-to-create-special-orders.md)|
-| Utför en åtgärd på en obetald bokförd försäljningsfaktura som automatiskt skapar en kreditnota och antingen annullerar försäljningsfakturan eller skapar den på nytt, så att du kan göra korrigeringar. |[Så här rättar eller makulera du obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md) |
-| Skapa en försäljningskreditnota för att återföra en särskild bokförd försäljningsfaktura för att visa produkter som kunden returnerar och vilka belopp som du ska återbetala. |[Så här behandlar du försäljningreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md) |
-|Hantera kundens engagemang att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Så här: Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
-|Sälj monteringsartiklar som inte är tillgängliga genom att skapa en länkad monteringsorder för att tillhandahålla hela eller delvisa försäljningsorderantal.|[Så här säljer du en artikel som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)|
-|Fakturera kunder en gång för flera utleveranser genom att kombinera leveranser på en faktura.|[Så här kombinerar du leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
-|Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
+| Skapa en försäljningsoffert där du erbjuder produkter med förhandlingsbara villkor, innan du omvandlar offerten till en försäljningsfaktura. |[Skapa offerter](sales-how-make-offers.md) |
+| Skapa en försäljningsfaktura för att registrera en överenskommelse med en kund om att sälja produkter till vissa leverans- och betalningsvillkor. |[Fakturaförsäljning](sales-how-invoice-sales.md) |
+| Behandla en försäljningsorder som rör delvis leverans eller direktleverans. |[Sälja produkter](sales-how-sell-products.md) |
+|Lägga upp standardförsäljnings- eller inköpsrader som du kan snabbt infoga i dokument, till exempel för återkommande påfyllningsorder.|[Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  
+| Länka en försäljningsorder till en inköpsorder för att sälja ett direktutleveransobjekt som ska levereras direkt från din leverantör till kunden. |[Skapa direktleveranser](sales-how-drop-shipment.md) |
+|Har en ej lagerförd artikel levererad från en leverantör till distributionslagret så att du kan leverera den till kunden.|[Skapa specialorder](sales-how-to-create-special-orders.md)|
+| Utför en åtgärd på en obetald bokförd försäljningsfaktura som automatiskt skapar en kreditnota och antingen annullerar försäljningsfakturan eller skapar den på nytt, så att du kan göra korrigeringar. |[Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md) |
+| Skapa en försäljningskreditnota för att återföra en särskild bokförd försäljningsfaktura för att visa produkter som kunden returnerar och vilka belopp som du ska återbetala. |[Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md) |
+|Hantera kundens engagemang att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
+|Du kan sälja monteringsartiklar som inte är tillgängliga genom att skapa en länkad monteringsorder för att tillhandahålla hela eller delvisa försäljningsorderantal.|[Sälja en artikel som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)|
+|Fakturera kunder en gång för flera utleveranser genom att kombinera leveranser på en faktura.|[Kombinera leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
+|Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
 
 ## <a name="see-also"></a>Se även
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Så här registrerar du nya kunder](sales-how-register-new-customers.md)  
+[Registrera nya kunder](sales-how-register-new-customers.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Projekthantering](projects-manage-projects.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

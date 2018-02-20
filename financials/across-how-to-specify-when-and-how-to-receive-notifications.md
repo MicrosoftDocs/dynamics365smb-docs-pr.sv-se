@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Så här anger du när och hur användare ska meddelas
+# <a name="specify-when-and-how-to-receive-notifications"></a>Ange när och hur meddelanden ska tas emot
 När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg i fönstret **Konfigurera meddelanden** och **Meddelandeschema**. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
 
- Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Mer information finns i [Så här konfigurerar du godkännandeanvändare](across-how-to-set-up-approval-users.md).  
+ Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
 
- Du kan definiera layout och innehåll i meddelanden genom att konfiguera meddelandemallar. Mer information finns i [Så här hanterar du meddelandemallar](across-how-to-manage-notification-templates.md).  
+ Du kan definiera layout och innehåll i meddelanden genom att konfiguera meddelandemallar. Mer information finns i [Hantera meddelandemallar](across-how-to-manage-notification-templates.md).  
 
  Många arbetsflödessvar för godkännande handlar om att meddela användare om att en händelse har skett som de måste agera på. Till exempel ett arbetsflödessteg kan vara att en händelse där användare 1 begär godkännande av en ny post. Det relaterade svaret är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten. Det relaterade svaret är att ett meddelande skickas till användare 3 om att starta en process med den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Mer information finns i [Arbetsflöden](across-workflow.md).  
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Ange när och hur användare ska meddelas  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
 2.  Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
 3.  I fönstret **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
@@ -59,8 +59,8 @@ När du konfigurerar användare i godkännandearbetsflöden måste du ange hur o
 2.  Ändra dina meddelandeinställningar så som beskrivs i föregående steg i fönstret **Konfigurera meddelanden**.  
 
 ## <a name="see-also"></a>Se även  
- [Så här konfigurerar du godkännandeanvändare](across-how-to-set-up-approval-users.md)   
- [Så här hanterar du meddelandemallar](across-how-to-manage-notification-templates.md)   
+ [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)   
+ [Hantera meddelandemallar](across-how-to-manage-notification-templates.md)   
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)

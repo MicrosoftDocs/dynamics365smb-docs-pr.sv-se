@@ -1,6 +1,6 @@
 ---
 title: "Arbeta med finansiella rapporter och översikter i Excel | Microsoft Docs"
-description: "Lär dig mer om hur du öppnar de ekonomiska rapporterna i Microsoft Excel från Dynamics 365 Business edition för bättre analyser."
+description: "Lär dig mer om hur du öppnar de ekonomiska rapporterna i Microsoft Excel från Finance and Operations, Business edition för bättre analyser."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 23ac4cc6df1841c1cd37159b98e71d063a3c8f9d
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysera finansiella rapporter i Microsoft Excel
@@ -44,6 +44,6 @@ Med tillägget, kan du uppdatera data från [!INCLUDE[d365fin](includes/d365fin_
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
-[Arbeta med Dynamics 365](ui-work-product.md)  
+[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Arbeta med Finance and Operations, Business edition](ui-work-product.md)  
 

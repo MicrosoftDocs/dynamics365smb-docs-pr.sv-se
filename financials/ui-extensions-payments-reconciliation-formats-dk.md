@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 09/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0718012c9278b337409805d95870d22dac4675ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2daa9854f371660dd9096c54d85812466dfe46e
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -55,7 +55,7 @@ Det finns några steg för att komma igång.
 Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokföringsmall** och en **Leverantörsbokföringsmall**. Inställningen av Land/Region måste för leverantören vara Danmark (DK). Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
   
 ### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
 2. I fönstret **Redigera betalningsjournal**, välj journalen **Bank**.  
 3. Markera kryssrutan **Tillåt betalningsexport**.  
 
@@ -68,17 +68,17 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 |Tillåta meddelande till mottagare? | Ja |Nej |Nej | Ja |
 |Innehåller betalningsreferensnummer? | Nej | Ja, 16 siffror. | Ja, 15 siffror. | Nej|
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.  
 2. Öppna kortet, expandera fliken **betalningar** i fältet **betalningssätt** och välj betalningssätt.  
 3. I vissa fall måste du fylla i andra fält. Se tabellen ovan för mer information om kombinationer.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Ange formaten som ska användas för ett bankkonto
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.  
 2. Öppna kortet för bankkontokort.  
 3. I fältet **Format för betalningsexport**, välj format för exportfilen.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Välja FIK eller Giro betalningsinformation för leverantörsfakturor
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.
 2. Välj Leverantören. Kom ihåg att detta måste en dansk leverantör med adress i Danmark.
 3. Skapa en faktura. Fälten **betalningssätt** och **leverantörsnummer** fylls i baserat på inställningarna på leverantörskortet. Du kan ändra dem om du vill.
 4. I fältet **betalningsreferens** anger du det 15-siffriga numret på leverantörens faktura.  
@@ -89,7 +89,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 5. Bokföra fakturan
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Du använder tillägget för att exportera betalningsdata
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
 2. Välj åtgärden **Föreslå betalningsjournaler för leverantör**.  
   
     > [!Tip]
@@ -100,9 +100,9 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 5. Välj åtgärden **Exportera**.  
 
 ## <a name="see-also"></a>Se även
-[Anpassa din Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-[Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[Så här: Konfigurera SEPA Autogiro](finance-how-to-set-up-sepa-direct-debit.md)  
+[Anpassa Finance and Operations, Business edition för [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av tillägg](ui-extensions.md)  
+[Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
+[Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)  
 [Så här bokför du betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

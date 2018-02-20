@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: de00ca393b5d2c28292ae3deba743ce3447b6145
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
@@ -65,7 +65,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
 ### <a name="to-use-the-order-planning-window"></a>Så här använder du fönstret Orderplanering  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Orderplanering** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Orderplanering** och välj sedan relaterad länk.  
 
      När fönstret **Orderplanering** har öppnats måste en plan beräknas för att visa den nya efterfrågan sedan den senaste beräkningen.  
 
@@ -223,7 +223,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
      Meddelandet tyder på att alla artiklar som behövs nu är levererade. Kontrollera de fast planerade produktionsorder som skapas.  
 
-13. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
+13. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
 
      Stäng fönstret **Fasta planerade prod.order** för att se hur starttider och sluttider för enskilda order har planerats enligt produktstrukturen. Komponenterna på den lägsta nivån tillverkas först. Därför måste du planera order i flera nivåer, vilket framgår av den här planeringsprocessen.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Skapa kontaktföretag
@@ -30,15 +30,15 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 | Om du vill | Gå till |
 | --- | --- |
-| Skapa en kontakt för ett nytt företag, antingen från noll eller från en kund, en leverantör eller ett bankkonto. |[Så här skapar du kontaktföretag](marketing-how-create-contact-companies.md) |
+| Skapa en kontakt för ett nytt företag, antingen från noll eller från en kund, en leverantör eller ett bankkonto. |[Skapa kontaktföretag](marketing-how-create-contact-companies.md) |
 | Synkronisera information i kontakter med vanlig information hos kunder, leverantörer och bankkonton. |[Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Beskriv affärsrelationen med en företagskontakt. |[Ställa in affärsrelationer på kontaktföretag](marketing-business-relations.md) |
-| Placera ett kontaktföretag i rätt branschgrupp, t.ex. Detaljhandel. |[Så här: Skapa branschgrupper på kontaktföretag](marketing-industry-groups.md) |
-| Ange utskicksgrupper som kan användas för att identifiera grupper av kontakter som ska få samma information. |[Så här skapar du utskicksgrupper på kontaktföretag](marketing-mailing-groups.md) |
-| Ange en alternativ adress för en kontakt. |[Så här tilldelar du alternativa adresser till en kontakt](marketing-how-assign-alternate-address.md) |
+| Placera ett kontaktföretag i rätt branschgrupp, t.ex. Detaljhandel. |[Skapa branschgrupper på kontaktföretag](marketing-industry-groups.md) |
+| Ange utskicksgrupper som kan användas för att identifiera grupper av kontakter som ska få samma information. |[Skapa utskicksgrupper på kontaktföretag](marketing-mailing-groups.md) |
+| Ange en alternativ adress för en kontakt. |[Tilldela alternativa adresser till en kontakt](marketing-how-assign-alternate-address.md) |
 | Tilldela webbadresser (sökmotorer och webbplatser) till dina kontakter för att ange var på Internet du tänker söka information om dem. |[Så här skapar du webbadresser på kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktpersoner](marketing-create-contact-persons.md)   
-[Arbeta med Dynamics 365](ui-work-product.md)
+[Arbeta med Finance and Operations, Business edition](ui-work-product.md)
 

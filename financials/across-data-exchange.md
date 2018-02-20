@@ -1,6 +1,6 @@
 ---
-title: Elektroniska dokument i Dynamics 365 Business edition | Microsoft Docs
-description: Introduktion till att skicka och ta emot elektroniska dokument i Dynamics 365.
+title: Elektriska dokument i Finance and Operations, Business edition | Microsoft Docs
+description: Introduktion till att skicka och ta emot elektroniska dokument i Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -53,12 +53,12 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Om du vill|Gå till|  
 |--------|---------|  
 |Lär dig hur den ramverket för datautbyte fungerar.|[Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)|  
-|Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Konfigurera datautbytesdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
+|Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegrationsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
 |Använd definitioner för datautbyte och skicka PEPPOL-fakturor, ta emot PEPPOL-fakturor, importera bankkontoutdrag och exportera bankbetalningfiler.|[Utbyta data](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Se även  
 [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)  
-[Så här använder du XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Utbyta data](across-exchange-data.md)  
 [Inkommande dokument](across-income-documents.md)  

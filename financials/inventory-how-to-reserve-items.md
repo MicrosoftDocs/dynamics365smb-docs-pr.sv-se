@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Så här reserverar du artiklar
+# <a name="reserve-items"></a>Reservera artiklar
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokument eller journalrader. Du utför arbetet i fönstret **Reservation**.
 
 Varje rad i fönstret **Reservation** som du öppnar för att reservera artiklar visar information om en viss typ av rad (försäljning, inköp, journal) eller lagerpost. Raderna beskriver hur många artiklar som är disponibla för reservation för varje radtyp eller post.
 
 ## <a name="to-reserve-items-for-sales"></a>Så här reserverar du artiklar för försäljning
 Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet är liknande för inköp, service och monteringsorder.  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  På en föräljningsorder, på snabbfliken **Rader** väljer du åtgärden **Reservera**. Fönstret **Reservation** öppnas.  
 3. Välj den rad som du vill reservera artiklarna från.  
 4. Välj något av följande åtgärder:  
@@ -44,7 +44,7 @@ Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
 I det följande procedur används en fast planerad produktionsorder.   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
 2. Öppna den fast planerade produktionsorder som du vill reservera överordnade artiklar för.  
 3. Markera relevant produktionsorderrad.  
 4. På snabbfliken **rader** i fältet **Reservera.**
@@ -56,7 +56,7 @@ Det antal som du angett på raden för den fast planerade produktionsorden har n
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
 I det följande procedur används en fast planerad produktionsorder.    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
 2. Öppna den fast planerade produktionsorder som du vill reservera komponentartiklar för.  
 3. Markera relevant produktionsorderrad.  
 4. Välj **Rad**och sedan **Koppla trans.** på snabbfliken **Komponenter**.  
@@ -81,14 +81,14 @@ Någon gång kan du behöva avbeställa en artikelreservation.
 4.  Bekräfta meddelandet som visas, genom att välja **OK**-knappen.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Om du vill reservera ett visst serie- eller partinummer  
-Från utgående dokument för spårade artiklar t.ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Detta kan vara användbart till exempel om du behöver produktionskomponenter från ett visst parti för att kontrollera överensstämmelse med tidigare produktionsbatcher eller därför att en kund har begärt ett specifikt serienummer. Mer information finns i [Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md).
+Från utgående dokument för spårade artiklar t.ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Detta kan vara användbart till exempel om du behöver produktionskomponenter från ett visst parti för att kontrollera överensstämmelse med tidigare produktionsbatcher eller därför att en kund har begärt ett specifikt serienummer. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
 
 Detta kallas för en specifik reservation, eftersom du reserverar från antalet av artikeln X som tillhör parti X. Om du enbart reserverar från antal av artikeln X, är det en helt vanlig, icke-specifik reservation. Mer information finns i  [Designdetaljer: Artikelspårning och reservationer](design-details-item-tracking-and-reservations.md).
 
 Följande procedur är baserad på en försäljningsorder.    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2. Skapa försäljningsorderrader för en artikelspårad artikel.  
-3. Fortsätt med att tilldela serie- och partinummer på försäljningsorderraden. Mer information finns i [Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md).
+3. Fortsätt med att tilldela serie- och partinummer på försäljningsorderraden. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
 4. På försäljningsorderraden väljer du åtgärden **Reservera**.  
 5. Välj knappen **Ja** för att reservera specifika serie- eller partinummer.  
 6. I fönstret **Artikelspårningslista**, välj serie- och partinummerkombinationen som du precis har tilldelats.  
@@ -99,6 +99,6 @@ Följande procedur är baserad på en försäljningsorder.
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designdetaljer: Artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
-[Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md)  
+[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

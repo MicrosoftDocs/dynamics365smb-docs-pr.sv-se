@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f52353ec74b10983b0acfd04169d6b146c70eb84
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b8ddfc5e255dbaf20027c27c9c0210e4479a681
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="moving-items"></a>Flytta artiklar
@@ -32,12 +32,12 @@ Andra transportuppgifter är att regelbundet göra återanskaffningar för plock
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Flytta artiklar mellan lagerplatser i grundläggande distributionslagerkonfigurationer när som helst och utan källdokument.|[Så här flyttar du artiklar i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Använd dist.lagertransportförslaget för att flytta artiklar i avancerad distributionslagerkonfiguration, både för källdokument och för ad hoc.|[Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Ta med komponentartiklarna till interna operationer i grundläggande distributionslagerkonfigurationer, som begärs av källdokument för dessa operationer.|[Så här: Flytta komponenter till ett operationsområde i grundläggande lagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Planera vilka lagerplatser som ska fyllas på eller tömmas för att uppnå ett effektivt flöde, till exempel tömma ett volymlager före en stor inleverans.|[Så här: Planera lagertransporter i förslag](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|Uppdatera vilken frekvens lagerplatser, till exempel plockningslagerplatser, måste återfyllas med på grund av fluktuation i efterfrågan.|[Så här Beräkna du lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)|
-|Omstrukturera distributionslagret med nya lagerplatskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Så här: Omstrukturera distributionslager](warehouse-how-to-restructure-warehouses.md)|  
+|Flytta artiklar mellan lagerplatser i grundläggande distributionslagerkonfigurationer när som helst och utan källdokument.|[Flytta artiklar i grundläggande distributionslagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
+|Använd dist.lagertransportförslaget för att flytta artiklar i avancerad distributionslagerkonfiguration, både för källdokument och för ad hoc.|[Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
+|Ta med komponentartiklarna till interna operationer i grundläggande distributionslagerkonfigurationer, som begärs av källdokument för dessa operationer.|[Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
+|Planera vilka lagerplatser som ska fyllas på eller tömmas för att uppnå ett effektivt flöde, till exempel tömma ett volymlager före en stor inleverans.|[Planera lagertransporter i förslag](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
+|Uppdatera vilken frekvens lagerplatser, till exempel plockningslagerplatser, måste återfyllas med på grund av fluktuation i efterfrågan.|[Beräkna lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)|
+|Omstrukturera distributionslagret med nya lagerplatskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Så här konfigurerar du datautbytesdefinitioner
+# <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
 Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
-Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet ”Så här beskriver du formateringen av rader och kolumner i filen”. Mer information finns i [Så här använder du XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet ”Så här beskriver du formateringen av rader och kolumner i filen”. Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Du skapar normalt definitioner för datautbyte i fönstret **datautbytesdefinitioner**. Men när du skapat en datautbytesdefinitioner för tjänsten med uppdatering av valutakurser startar du processen i det förenklade fönstret **Inställning valutakursuppdatering**.  
 
@@ -81,7 +81,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 
 5. Upprepa moment 4 för att skapa en rad för varje typ av fildata som du vill exportera.  
 
-     Sedan beskriver du formateringen av kolumner i datafilen genom att fylla i fälten på snabbfliken **Kolumndefinitioner** så som beskrivs i följande tabell. Du kan använda strukturfilen, till exempel en XSD-fil, för att datafilen ska autofylla snabbfliken med de relevanta elementen. Mer information finns i [Så här använder du XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Sedan beskriver du formateringen av kolumner i datafilen genom att fylla i fälten på snabbfliken **Kolumndefinitioner** så som beskrivs i följande tabell. Du kan använda strukturfilen, till exempel en XSD-fil, för att datafilen ska autofylla snabbfliken med de relevanta elementen. Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Välj **Hämta filstruktur**på snabbfliken **Kolumndefinitioner**.  
 7. I fönstret **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan knappen **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
@@ -133,7 +133,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
     |**Målfältsrubrik**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange namnet på fältet i måltabellen som värdet i fältet **Kolumnrubrik** mappas till när du använder en cachelagringstabell för dataimport.|  
     |**Valfri**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange om mappningen ska hoppas över när fältet är tomt. Om du inte markerar den här kryssrutan så inträffar ett exportfel om fältet är tomt.|  
 
- Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Så här konfigurerar du utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Så här: Skapar SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md), [så här: ställa in SEPA direktdebitering](finance-how-to-set-up-sepa-direct-debit.md), och [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Skapa SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md), [Skapa SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md) och [Utför betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     När du har skapat definitionem för datautbyte för en viss datafil kan du exportera definitionen för datautbyte som en XML-fil som kan användas för att snabbt kan importera datafilen i fråga. Detta beskrivs i följande procedur. Beskriv i följande procedur.  
 
@@ -154,9 +154,9 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
-[Så här konfigurerar du utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Så här: Skapar SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Så här: Konfigurera SEPA Autogiro](finance-how-to-set-up-sepa-direct-debit.md)  
+[Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Konfigurera SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)  
 [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  

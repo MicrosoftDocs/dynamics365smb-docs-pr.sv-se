@@ -1,6 +1,6 @@
 ---
 title: "Överföra Data från en QuickBooks-App | Microsoft Docs"
-description: "Du kan migrera data som till exempel kunder, leverantörer, lagerartiklar och redovisningskonton från QuickBooks appar till Dynamics 365, Business edition."
+description: "Du kan migrera data som till exempel kunder, leverantörer, lagerartiklar och redovisningskonton från QuickBooks program till Finance and Operations, Business edition."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,15 +12,15 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 09/25/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 05266cf4ae039caac2dcd42bfa45f8100e9a5852
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a5a9d2270c63899318d5e9d5cde861cefc0ca550
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-microsoft-dynamics-365-business-edition"></a>Om du ändrar från en QuickBooks-App till Microsoft Dynamics 365, Business edition
+# <a name="changing-from-a-quickbooks-app-to-microsoft-finance-and-operations-business-edition"></a>Byta från ett QuickBooks-program till Microsoft Finance and Operations, Business edition
 Allt fler företag ändrar från ekonomiappar som t.ex. QuickBooks Desktop och QuickBooks Online som är utformade för startups och andra mindre företag till [!INCLUDE[d365fin](includes/d365fin_md.md)], som också stöder större, komplexare organisationer. 
 
 När de flyttar vill företag vanligtvis ta med sina affärsdata så att de inte måste börja om från början. För att överföra data erbjuder [!INCLUDE[d365fin](includes/d365fin_md.md)] inbyggda tillägg som migrerar data, till exempel kunder, leverantörer, lagerartiklar och redovisningskonton. Följande tillägg är installerade och klara som en integrerad del av guiden för assisterad konfiguration av **Datamigrering**:
@@ -38,5 +38,5 @@ Om du är redo att sätta igång nu, väljer du ikonen ![Sök efter sidan eller 
 
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](upload-data.md)  
-[Anpassa Dynamics 365, Business edition med hjälp av tillägg](ui-extensions.md)   
+[Anpassa Finance and Operations, Business edition med hjälp av tillägg](ui-extensions.md)   
 

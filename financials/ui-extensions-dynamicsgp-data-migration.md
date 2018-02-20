@@ -1,6 +1,6 @@
 ---
 title: "Migrera Data från Dynamics GP med tillägget Data Migration | Microsoft Docs"
-description: "Filnamnstillägget Dynamics GP datamigrering används för att flytta över kunder, leverantörer, lagerartiklar och konton från Dynamics GP till Dynamics 365 Business edition."
+description: "Använda tillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, lagerartiklar och konton från Dynamics GP till Finance and Operations, Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b97c074b1283a981522b7a9651fcc7c552f1f930
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bfd3ca3e28b6eb3efa2a16cc131b508db6bd1590
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-business-edition"></a>Tillägget Dynamics GP datamigrering för Dynamics 365 Business edition 
+# <a name="the-dynamics-gp-data-migration-extension-for-finance-and-operations-business-edition"></a>Tillägget Dynamics GP-datamigrering för Finance and Operations, Business edition 
 Detta tillägg gör det enkelt att migrera kunder, leverantörer, lagerartiklar och konton från Dynamics GP till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om ditt företag använder Dynamics GP i dag, kan du exportera nödvändiga huvudposter och sedan öppna guiden för assisterad installation för att överföra data till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Migrera företagsdata från ett annat finanssystem](upload-data.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportera data från Dynamics GP

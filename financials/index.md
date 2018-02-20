@@ -1,6 +1,6 @@
 ---
-title: "Träffa Dynamics 365 Business edition | Microsoft Docs"
-description: "Lär dig mer om funktioner och fungerar scenarier i Dynamics 365 Business edition, som är ett verksamhetssystem för små och medelstora företag."
+title: "Lär känna Finance and Operations, Business edition | Microsoft Docs"
+description: "Lär dig mer om funktioner och arbetsscenarier i Finance and Operations, Business edition, ett affärshanteringssystem för små och medelstora företag."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är ett verksamhetssystem för små och medelstora organisationer, vilket automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  är ett verksamhetssystem för små och medelstora organisationer, vilket automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.
 När du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]-förhandsgranskningen har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa egna försäljningsdokument, eller skapa ett bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -53,11 +53,11 @@ I fönstret **Assisterad inställning** hittar du följande med **Suite**-upplev
 | Konfigurera arbetsflöde för kundgodkännande |Ställer in förmågan att skapa arbetsflöden för godkännande som automatiskt meddelar en godkännare när en användare försöker skapa eller ändra ett kundkort. |
 | Konfigurera e-post |Gör dig klar för att skicka e-postmeddelande direkt från, till exempel försäljningsorder, eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Konfigurera e-postloggning |Ställ in kapaciteten att logga e-post i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att följa upp på interaktioner. |
-| Konfigurera Outlook för [!INCLUDE[d365fin](includes/d365fin_md.md)] |Ställs in förmågan att använda och starta [!INCLUDE[d365fin](includes/d365fin_md.md)] från Outlook. |
+| Konfigurera Outlook för  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Ställs in förmågan att använda och starta [!INCLUDE[d365fin](includes/d365fin_md.md)] från Outlook. |
 | Konfigurera rapportering |Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t.ex. |
 | Konfigurera ett arbetsflöde för artikelgodkännande |Konfigurerar möjligheten att skicka ett meddelande till en godkännare när en användare ändrar eller skapar ett objekt. |
 | Konfigurera arbetsflöde för godkännande av utbetalningsjournal |Konfigurerar förmågan att skicka ett meddelande till en godkännare när en användare skickar utbetalningsjournalrader för godkännande. |
-| Konfigurera anslutning för Dynamics 365 |Ställer in en anslutning till Dynamics 365 for Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
+| Skapa koppling till Finance and Operations, Business edition Connector |Ställer in en anslutning till Dynamics 365 for Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
 | Ställa in omsättningsskatt |Låter dig komma igång med standardmomsgrupper och tilldela momsområdeskoder som du kan tilldela till kunder och leverantörer för att automatiskt beräkna omsättningsskatt i försäljningar eller inköpsdokument. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Testar saker i ditt företag
@@ -66,22 +66,21 @@ Funderar du på att prenumerera? Du kan enkelt byta från demonstrationsföretag
 Om du vill skapa ett företag för att testa saker går du till menyn **Mina inställningar** i det övre högra hörnet och ändrar företag till **mitt företag**. Logga ut från [!INCLUDE[d365fin](includes/d365fin_md.md)] och logga sedan in igen för att ändringen ska börja gälla. En assisterade konfigurationsguide hjälper dig att ange grundläggande information om företaget. När det är klart kan du titta närmare på sidan och söka efter åtgärden **Assisterad konfiguration**.  
 
 ## <a name="ready-to-subscribe"></a>Klar att prenumerera?
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, använder du länken i meddelandet för att kontakta Microsoft. Du kan även kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] försäljningsenhet i [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, använder du länken i meddelandet för att kontakta Microsoft. Du kan även kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)]-säljteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
-Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 webbplats](https://www.microsoft.com/en-us/dynamics365/).  
+## <a name="other-finance-and-operations-business-edition-apps"></a>Övriga Finance and Operations, Business edition-program
+Gå till information om andra Finance and Operations, Business edition-program genom att välja länken [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) i den blå banderollen längst upp på sidan. Du kan även läsa mer på [webbplatsen för Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
 
 Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 - Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Ekonomi](finance.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](madeira-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
-[Dokumentation för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Dynamics 365-dokumentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Översikt för Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

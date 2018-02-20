@@ -13,14 +13,14 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Visa listdata i Power BI-rapporter i Dynamics 365 Business edition 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
+# <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Visa listdata i Power BI-rapporter i Finance and Operations, Business edition 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
 
 > [!NOTE]  
 >   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).  

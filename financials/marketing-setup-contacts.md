@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Förbereder för att ställa in kontakter
@@ -31,10 +31,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Till | Gå till |
 | --- | --- |
 | Ange de affärsrelationer du har med kontakterna, t.ex. presumtiv kund, bank, konsult eller tjänstleverantör. |[Ställa in affärsrelationer på kontaktföretag](marketing-business-relations.md) |
-| Ange vilken bransch dina kontakter tillhör, t.ex. detaljhandel eller bilindustri. |[Så här: Skapa branschgrupper på kontaktföretag](marketing-industry-groups.md) |
-| Ange utskicksgrupper som kan användas för att identifiera grupper av kontakter som ska få samma information. |[Så här skapar du utskicksgrupper på kontaktföretag](marketing-mailing-groups.md) |
+| Ange vilken bransch dina kontakter tillhör, t.ex. detaljhandel eller bilindustri. |[Skapa branschgrupper på kontaktföretag](marketing-industry-groups.md) |
+| Ange utskicksgrupper som kan användas för att identifiera grupper av kontakter som ska få samma information. |[Skapa utskicksgrupper på kontaktföretag](marketing-mailing-groups.md) |
 | Ange arbetsansvar för kontaktpersonerna. |[Konfigurera arbetsansvar för kontakter](marketing-job-responsibilities.md) |
-| Ange de befattningsnivåer du vill använda för dina kontakter. |[Så här: Skapa befattningsnivåer för kontakter](marketing-organizational-levels.md) |
+| Ange de befattningsnivåer du vill använda för dina kontakter. |[Skapa befattningsnivåer för kontakter](marketing-organizational-levels.md) |
 | Ange webbkällor (sökmotorer och webbplatser) som du kan använda när du söker information om dina kontakter på Internet. |[Så här skapar du webbadresser på kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se även

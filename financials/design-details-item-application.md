@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Objektkoppling
@@ -70,7 +70,7 @@ Följande tabell visar den artikeltransaktion som skapas när du bokför en inle
 
 |Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Lagerminskning  
 När en lagerminskning bokförs skapas en artikelkopplingstransaktion som kopplar lagerminskningen till en lagerökning. Länken har skapats med artikelns värderingsprincip som riktlinje. För artiklar som använder värderingsprinciperna FIFO, Standard och Genomsnitt baseras kopplingen på FIFO-principen. Lagerminskningen kopplas till lagerökningen med det tidigaste bokföringsdatumet. För artiklar som använder värderingsprinciperna LIFO baseras kopplingen på LIFO-principen. Lagerminskningen kopplas till lagerökningen med det senaste bokföringsdatumet.  
@@ -84,8 +84,8 @@ Följande tabell visar de två artikelkopplingstransaktionerna som är resultate
 
 |Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|01-03-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|01-03-20|1|2|-5|2|  
 
 ## <a name="fixed-application"></a>Fast koppling  
 När kostnaden för en lagerökning ska kopplas till en specifik lagerminskning (eller vice versa) skapas en fast koppling. Den fasta kopplingen påverkar transaktionernas återstående antal, men den fasta kopplingen återför också den exakt kostnaden för den ursprungliga transaktionen som kopplingen utförs till, eller från.  
@@ -103,7 +103,7 @@ Följande tabell visar artikeltransaktioner som är resultatet av scenariot.
 
 |**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Artikeltrans.löpnr**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|01-04-20|Inköp|10|10.00|0|  
+|01-04-20|Inköp|10|10.00|1|  
 |01-05-20|Inköp|10|20.00|2|  
 |01-06-20|Inköps(retur)|-10|-20.00|3|  
 
@@ -113,7 +113,7 @@ Följande tabell visar den artikelkopplingstransaktion som härrör från den fa
 
 |Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|0|3|10|3|  
+|01-06-20|1|3|10|3|  
 
 Kostnaden för det andra inköpet, 20,00 BVA, överförs då på ett korrekt sätt till inköpsreturen.  
 
@@ -130,8 +130,8 @@ Följande tabell visar resultatet av scenariot på artikelns värdetransaktioner
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla till artikellöpnr|Genomsnittligt|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|0|200.00||Nr|0|0|  
-|01-01-20|Inköp|0|1000.00||Nej|2|2|  
+|01-01-20|Inköp|1|200.00||Nr|1|1|  
+|01-01-20|Inköp|1|1000.00||Nej|2|2|  
 |01-01-20|Inköp|-1|-1 000|2|Nej|3|3|  
 |01-01-20|Inköp|1|100,00||Nej|4|4|  
 |01-01-20|Försäljning|-2|-300.00||Ja|5|5|  
@@ -142,8 +142,8 @@ Följande tabell visar resultatet på artikelns värdetransaktioner om moment 2 
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla till artikellöpnr|Genomsnittligt|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|0|200.00||Nr|0|0|  
-|01-01-20|Inköp|0|1000.00||Nej|2|2|  
+|01-01-20|Inköp|1|200.00||Nr|1|1|  
+|01-01-20|Inköp|1|1000.00||Nej|2|2|  
 |01-01-20|Inköp|-1|433,33||Ja|3|3|  
 |01-01-20|Inköp|1|100,00||Nej|4|4|  
 |01-01-20|Försäljning|-2|866,67||Ja|5|5|  
@@ -169,7 +169,7 @@ Följande tabell visar resultatet av scenariomoment 1 till 3 på artikelns värd
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla från artikellöpnr|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|0|1000.00||0|0|  
+|01-01-20|Inköp|1|1000.00||1|1|  
 |02-01-20|Försäljning|-1|1000.00||2|2|  
 |03-01-20|Försäljning (kreditnota)|1|1000|2|3|3|  
 
@@ -177,16 +177,16 @@ Följande tabell visar värdetransaktionen som härrör från scenariomoment 4 s
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla från artikellöpnr|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Artikelomkostnad)|0|100.00||0|4|  
+|04-01-20|(Artikelomkostnad)|1|100.00||1|4|  
 
 Följande tabell visar effekten av den exakta kostnadsåterföringen på artikelns värdetransaktioner.  
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla från artikellöpnr|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|0|1000.00||0|0|  
+|01-01-20|Inköp|1|1000.00||1|1|  
 |02-01-20|Försäljning|-1|1100.00||2|2|  
 |03-01-20|Försäljning (kreditnota)|1|1100.00|2|3|3|  
-|04-01-20|(Artikelomkostnad)|0|100.00||0|4|  
+|04-01-20|(Artikelomkostnad)|1|100.00||1|4|  
 
 När du kör batchjobbet **Justera kostnader - artikeltrans** vidarebefordras den ökade kostnaden för inköpstransaktionen, på grund av artikelomkostnaden, till försäljningstransaktionen (löpnummer 2). Försäljningsposten flyttar sedan fram den ökade kostnaden till försäljningskredittransaktionen (löpnummer 3). Det sista resultatet är att kostnaden återförs korrekt.  
 
@@ -210,8 +210,8 @@ Följande tabell visar effekten av den överföringen på artikelns värdetransa
 
 |Bokföringsdatum|Artikeltransaktionstyp|Platskod|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|BLÅ|0|10.00|0|  
-|01-01-20|Inköp|BLÅ|0|20.00|2|  
+|01-01-20|Inköp|BLÅ|1|10.00|1|  
+|01-01-20|Inköp|BLÅ|1|20.00|2|  
 |02-01-20|Överföring:|BLÅ|-1|15,00|3|  
 |02-01-20|Överföring:|RÖD|1|15,00|4|  
 
@@ -225,7 +225,7 @@ Följande tabell visar effekten av den överföringen på artikelns värdetransa
 
 |Bokföringsdatum|Artikeltransaktionstyp|Platskod|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|BLÅ|0|10.00|0|  
+|01-01-20|Inköp|BLÅ|1|10.00|1|  
 |02-01-20|Överföring|BLÅ|-1|10,00|2|  
 |02-01-20|Överföring:|RÖD|1|10,00|3|  
 

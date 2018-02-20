@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Så här arbetar du med strukturer
+# <a name="work-with-bills-of-material"></a>Arbeta med strukturer
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras eller tillverkas av resurser eller maskin resurserna från komponenter. En monteringsstruktur kan också användas för att sälja en överordnad artikel som byggsatser bestående av dess komponenter.
 
 ## <a name="assembly-boms-or-production-boms"></a>Monteringsstrukturer eller produktionsstrukturer
@@ -27,11 +27,11 @@ En monteringsstruktur är mycket viktigt som definierar vilka komponentartiklarn
 
 I det här avsnittet beskrivs monteringsstrukturer.
 
-Du använder produktionsorder för att slutboka artiklar från komponenter i en komplex behandling som kräver en operationsföljd och en produktions- eller maskingrupper, som representerar produktionskapaciteterna. Det kan till exempel vara att en produktionsprocess klippa ut stålplattor i en operation, svetsar dem i nästa operation och färga slutartikeln i den senaste operationen. Mer information finns i [Tillverkning](production-manage-manufacturing.md).  
+Du använder produktionsorder för att slutboka artiklar från komponenter i en komplex behandling som kräver en verksamhetsföljd och en produktions- eller maskingrupper, som representerar produktionskapaciteterna. Det kan till exempel vara att en produktionsprocess klippa ut stålplattor i en operation, svetsar dem i nästa operation och färga slutartikeln i den senaste operationen. Mer information finns i [Tillverkning](production-manage-manufacturing.md).  
 
-En produktionsstruktur är huvuddata som definierar en produktionsartikel och komponenter som ingår i den. För monteringsartiklar måste produktionsstrukturen godkännas och tilldelas produktionsartikeln innan den kan användas i en produktionsorder. När du anger produktionsartikeln på en produktionsorderrad, antingen manuellt eller genom att uppdatera order, då blir produktionsstrukturinnehållet produktionsorderkomponenterna. För mer information, se [Så här skapar du produktionsstrukturer](production-how-to-create-production-boms.md).  
+En produktionsstruktur är huvuddata som definierar en produktionsartikel och komponenter som ingår i den. För monteringsartiklar måste produktionsstrukturen godkännas och tilldelas produktionsartikeln innan den kan användas i en produktionsorder. När du anger produktionsartikeln på en produktionsorderrad, antingen manuellt eller genom att uppdatera order, då blir produktionsstrukturinnehållet produktionsorderkomponenterna. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-production-boms.md).  
 
-Begreppet av resurser i produktionen är mycket mer avancerad än i monteringshantering. Produktionsgrupper och maskingrupper fungerar som resurser, och produktionssteg representeras av operationer som tilldelas resurser i produktionsstrukturer. (Mer information finns i [Så här skapar du operationsföljder](production-how-to-create-routings.md).)
+Begreppet av resurser i produktionen är mycket mer avancerad än i monteringshantering. Produktionsgrupper och maskingrupper fungerar som resurser, och produktionssteg representeras av operationer som tilldelas resurser i produktionsstrukturer. Mer information finns i [Skapa verksamhetsföljder](production-how-to-create-routings.md).
 
 Både monteringsorder och produktionsorder kan kopplas direkt till försäljningsorder. Du kan dock endast använda monteringsorder att anpassa slutartikeln direkt för en kundförfråga med försäljningsordern.
 
@@ -42,13 +42,13 @@ Monteringsstrukturer innehåller vanligtvis artiklar men kan också innehålla e
 
 Monteringsstrukturer kan ha flera nivåer, vilket innebär att en komponent på monteringsstruktur kan vara en monteringsartikel själv. I så fall innehåller fältet **Monteringsstruktur** på monteringsstrukturraden **Ja**.
 
-Särskilda krav gäller artiklarna på moneringsstrukturer med avseende på tillgängligheten. Mer information finns i avsnittet "För att visa tillgängligheten för en artikel med dess användning i monteringsstrukturer" i [så här visar du artikeldisposition](inventory-how-availability-overview.md).
+Särskilda krav gäller artiklarna på moneringsstrukturer med avseende på tillgängligheten. Mer information finns i avsnittet "För att visa tillgängligheten för en artikel efter dess användning i monteringsstrukturer" i [Visa artikeldisposition](inventory-how-availability-overview.md).
 
 Det finns två delar för att skapa en monteringsstruktur:
 - Skapa en ny artikel
 - Ange strukturem för monteringsartikeln.
 
-1. Skapa en ny artikel. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
+1. Skapa en ny artikel. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
     Fortsätt med att ange komponenter eller resurser i monteringsstrukturen.  
 2. I fönstret **artikelkort** för en monteringsartikel väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
@@ -57,7 +57,7 @@ Det finns två delar för att skapa en monteringsstruktur:
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Att visa komponenter i en monteringsartikel som dras in enligt strukturen
 Från fönstret **Monteringsstruktur** kan du öppna ett separat fönster som visar komponenterna och resurserna med indrag enligt deras strukturplats under monteringsartikeln.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för monteringsartikeln. (Fältet **Monteringsstruktur** i fönstret **artiklar** innehåller **Ja**.)
 3. I fönstret **artikelkort** väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
 4. I fönstret **Monteringsstruktur** väljer du åtgärden **visa struktur**.
@@ -80,7 +80,7 @@ Alla fält på försäljningsfakturaraden för den monterade artikeln avmarkeras
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Beräkna standardkostnaden för monteringsartikel
 Du beräknar styckkostnaden för en monteringsartikel genom att summera styckkostnaden för varje komponent och resurs i artikelns monteringsstruktur.
 
-Du kan även beräkna och uppdatera standardkostnaden för en eller flera artiklar i fönstret **Standardkostnadsformulär**. För mer information, se [Så här uppdaterar du standardkostnader](finance-how-to-update-standard-costs.md).  
+Du kan även beräkna och uppdatera standardkostnaden för en eller flera artiklar i fönstret **Standardkostnadsformulär**. För mer information, se [Uppdateras standardkostnader](finance-how-to-update-standard-costs.md).  
 
 Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda styckkostnaderna för komponenterna, inklusive andra monterinhsstrukturer och resurser.
 
@@ -100,8 +100,8 @@ Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda sty
 Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komponentens artikelkort. Kostnaden för varje artikel multipliceras med det aktuella antalet, och totalkostnaden visas i fältet **Styckkostnad** på artikelkortet för monteringsartikeln.
 
 ## <a name="see-also"></a>Se även
-[Så här registrerar du nya objekt](inventory-how-register-new-items.md)  
-[Så här visar du artikeldisposition](inventory-how-availability-overview.md)     
+[Registrera nya artiklar](inventory-how-register-new-items.md)  
+[Visa artikeldisposition](inventory-how-availability-overview.md)     
 [Lagersaldo](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

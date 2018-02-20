@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f3ba7676ec2312c78b9d3cc7883f79db936cb2d7
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visar listor på olika sätt
@@ -28,6 +28,6 @@ I artikellistan hjälper det att ha bilder för att få en snabb översikt över
 Du kan importera en bild för en viss artikel genom att gå till **artikelkortet** och till höger välja **Bild** och sedan **Importera**. På samma sätt kan du exportera en bild till en fil eller ta bort bilden för artikeln.  
 
 ## <a name="see-also"></a>Se även
-[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Så här registrerar du nya objekt](inventory-how-register-new-items.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Registrera nya artiklar](inventory-how-register-new-items.md)  
 

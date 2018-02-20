@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
@@ -77,7 +77,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
 |Löpnr|Artikeltrans.löpnr|Internt artikeltrans.nr|Externt artikeltrans.nr|Antal|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i redov** för att stämma av de här lagertransaktionerna med redovisningen.  
 

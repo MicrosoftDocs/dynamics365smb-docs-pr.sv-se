@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 936c6a429f2b8c60499d7b2b5f1f8fba800a4e8b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
@@ -60,7 +60,7 @@ I det här exemplet kommer planeringssystemet starta på kundefterfrågan och ar
 ## <a name="transfer-level-code"></a>Överföringsnivåkod  
 Sekvensen som lagerställena som behandlas i inom planeringssystemet bestäms av överföringsnivåkoden för lagerställeenheten.  
   
-Överföringsnivåkoden är ett internt fält som beräknas automatiskt och lagras på lagerställeenheter, när lagerställeenheten registreras eller ändras. Beräkningen körs för alla lagerställeenheter för en viss kombination av artikeln/variant, och använder lagerställekoden och överföring-från-koden för att fastställa operationsföljden som planeringen måste använda när den korsar lagerställeenheterna för att se till att alla behov behandlas.  
+Överföringsnivåkoden är ett internt fält som beräknas automatiskt och lagras på lagerställeenheter, när lagerställeenheten registreras eller ändras. Beräkningen körs för alla lagerställeenheter för en viss kombination av artikeln/variant, och använder lagerställekoden och överföring-från-koden för att fastställa verksamhetsföljden som planeringen måste använda när den korsar lagerställeenheterna för att se till att alla behov behandlas.  
   
 Överföringsnivåkoden ska vara 0 för lagerställeenhet med påfyllningssystem Inköp eller Pryd.order och ska vara -1 för den första överföringsnivån, -2 för den andra, o.s.v. I överföringskedjan som beskrevs ovan skulle nivåerna därför vara -1 för RÖD och -2 för GRÖN, som visas i följande illustration.  
   

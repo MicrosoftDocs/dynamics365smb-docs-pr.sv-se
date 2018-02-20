@@ -1,5 +1,5 @@
 ---
-title: "Ställa in felrapportering i servicehantering | Microsoft Docs"
+title: "Ställa in felrapportering i tjänstehantering | Microsoft Docs"
 description: "Så här: Skapa felrapportering"
 services: project-madeira
 documentationcenter: 
@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Så här: Skapa felrapportering
+# <a name="set-up-fault-reporting"></a>Konfigurera felrapportering
 Felrapportering låter dig upprätta standarder för att registrera felinformation för serviceartiklar. Exempelvis kan du ange problemet, vilka problem som uppstår, orsaken till problemet och hur du löser det.  
 
-Felkoder identifierar de olika serviceartikelfelen eller de åtgärder som vidtas för serviceartiklar. Beroende på felrapporteringsnivån på företaget kanske du måste skapa feltypskoder och symptomkoder innan du skapar felkoder. Felområden identifierar fel hos serviceartiklar. Felorsakskoder identifierar orsaken till serviceartikelfel och vid behov utesluter garanti- och kontraktsrabatter. Du kanske till exempel vill utesluta garanti- och kontraktsrabatt om kunden är ansvarig för felet på serviceartikeln. Du kan tilldela felorsakskoder för serviceorder. Mer information finns i [Så här arbetar du med serviceuppgifter](service-how-to-work-on-service-tasks.md).  
+Felkoder identifierar de olika serviceartikelfelen eller de åtgärder som vidtas för serviceartiklar. Beroende på felrapporteringsnivån på företaget kanske du måste skapa feltypskoder och symptomkoder innan du skapar felkoder. Felområden identifierar fel hos serviceartiklar. Felorsakskoder identifierar orsaken till serviceartikelfel och vid behov utesluter garanti- och kontraktsrabatter. Du kanske till exempel vill utesluta garanti- och kontraktsrabatt om kunden är ansvarig för felet på serviceartikeln. Du kan tilldela felorsakskoder för serviceorder. Mer information finns i [Så här arbetar du med tjänsteuppgifter](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Ange övergripandenivå av felrapportering som ska användas
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk. 
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk. 
 2. I fältet **Felrapporteringsnivå**, välj ett av alternativen som beskrivs i följande tabell.  
   
     |**Felnivå**|**Beskrivning**|  
@@ -42,12 +42,12 @@ När du gör inställningar för felhantering kan du också ange vilka reparatio
 <!--this needs to go in a working with topic-->
 Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför Service på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem på sidan **Fel-/åtgärdssambandskoder**. 
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Infoga fel-/åtgårdssambandskoder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Infoga fel-/åtgårdssambandskoder** och välj sedan relaterad länk.  
 2. Ange datum för att definiera den period som du vill inkludera i batch-jobbet.  
 3. Markera kryssrutan **Relation baserad på serviceartikelgrupp** om du vill att relationen ska grupperas efter serviceartikelgrupp.  
 4. Markera kryssrutan **Bibehåll manuellt infogade poster** om du vill behålla uppgifterna som du redan har infogat manuellt i fönstret **Fel- och åtgärdssamband koder**.  
 
 ## <a name="see-also"></a>Se även
-[Ställa in servicehantering](service-setup-service.md)  
+[Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
 

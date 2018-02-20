@@ -12,19 +12,19 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3fe5eca9c26380248471facbd945838b1bf47a1d
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-request-quotes"></a>Så här begär du offerter
+# <a name="request-quotes"></a>Begär offerter
 En inköpsoffert kan användas som ett preliminärt utkast för en inköpsorder, som sedan kan göras om till en inköpsfaktura eller en order.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Så här skapar du en inköpsoffert:
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsofferter** och välj sedan relaterad länk.
-2. Skapa ett nytt dokument på samma sätt som du gör en inköpsorder. Mer information finns i [Så här registrerar du inköp](purchasing-how-record-purchases.md).
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsofferter** och välj sedan relaterad länk.
+2. Skapa ett nytt dokument på samma sätt som du gör en inköpsorder. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Så här gör du om inköpsofferter till inköpsorder:
 När du har accepterat leverantörens offert kan du omvandla den till en inköpsfaktura eller en order för att behandla inköpet.
@@ -36,6 +36,6 @@ Inköpsofferten tas bort från databasen. En inköpsfaktura eller försäljnings
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
-[Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
+[Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

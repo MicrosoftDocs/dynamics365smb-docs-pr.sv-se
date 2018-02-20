@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb9a8366dbce67f7fdf3f32d55d7c5a289b9db4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c46e446c4af97e9699b1e454ff0d63173322f81e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-picks-in-worksheets"></a>Så här planerar du plockningar i förslaget
+# <a name="plan-picks-in-worksheets"></a>Planera plockningar i förslag
 Om distributionslagret kräver både plocknings- och utleveransbearbetning kan du välja att raderna i utleveransdokument inte automatiskt ska omvandlas till plockningsinstruktioner, utan i stället göras tillgängliga i plockningsförslaget.  
 
 > [!NOTE]  
@@ -36,14 +36,14 @@ Om du sorterar efter förfallodatum kan du välja att ta bort alla rader i förs
 >   
 >  Mer information finns i ”Hantera artiklar för montering mot kundorder i distributionslagerutleveranser” i Dist.lager utleverans.  
 >   
->  Information om hur du plockar komponenter för monteringsorder, inklusive lagerställen, där monteringsartikeln inte ska betalas på en utleverans, se [så här: Plocka för montering eller produktion i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+>  Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för montering eller produktion i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Så här planerar du plockningar i förslaget  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Plockningsförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningsförslag**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument**.  
 3.  Välj de utleveranser som du vill förbereda en plockning för. Du kan nu sortera raderna i viss mån, men den sortering som du gör här överförs inte till plockningsinstruktionen. Du kan också ta bort en del rader för att skapa en effektivare plockning. Om det till exempel finns rader med artiklar på lagerplatser för direktutleveranser kanske du vill skapa en plockning för alla rader som är kopplade till dessa. Artiklarna för direktutleverans utlevereras, tillsammans med övriga artiklar i utleveransen, och lagerplatserna för direktutleveranser får därmed plats för fler inkommande artiklar.  
 4.  Välj åtgärden **Skapa plockning** och fyll i fönstret för begäran om **Skapa plockning**. De plockningsrader som du skapar ordnas enligt den sortering som du väljer här. Du kan till exempel skapa en plockning för varje zon och sortera raderna efter lagerplatsordning i varje plockning.  
-5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk. Fönstret **Plockningar** öppnas.  
+5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk. Fönstret **Plockningar** öppnas.  
 6.  Nu kan du visa den plockningstilldelning som du just skapade genom att välja plockningen med det högsta numret.  
 7.  I plockningen kan du fortfarande modifiera det tilldelade användar-ID:t och hur raderna sorteras om det behövs.  
 8.  Välj åtgärden **Skriv ut** när du vill skriva ut instruktioner.  

@@ -11,13 +11,13 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: ff6fc3af28273545781fc96b811f3c164eaa6fd8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40e4a90329fc7fc7241b570fd641a0d83b06842e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil
 För instruktioner till banken för att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto, skapa en autogiroinsamling som innehåller information om kundens bankkonto, de berörda försäljningsfakturorna och medgivande för autogiro. Från direktdebitering-insamlingsposten som skapas kan du sedan exportera en XML-fil som du skickar eller överför till din elektroniska bank för bearbetning. Alla betalningar som inte kunde behandlas av banken meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
 
 > [!NOTE]  
@@ -61,10 +61,10 @@ Om den exporterade filen inte kan behandlas, till exempel eftersom kunden är in
 
      Relaterade direktdebitering-insamlingen är stängd.  
 
-Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, som i fönstret **Betalningsregistrering** eller du kan bokföra de relaterade betalningsinleveranser direkt från **Transaktioner för samlingar med autogiro**. Mer information finns i [så här: Bokför betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, till exempel i fönstret **Betalningsregistrering**, eller också kan du bokföra relaterade betalningsinleveranser direkt från fönstret **Transaktioner för samlingar med autogiro**. Mer information finns i [Bokför betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Se även  
-[Så här: Konfigurera SEPA Autogiro](finance-how-to-set-up-sepa-direct-debit.md)   
+[Konfigurera SEPA Autogiro](finance-how-to-set-up-sepa-direct-debit.md)   
 [Så här bokför du betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
 

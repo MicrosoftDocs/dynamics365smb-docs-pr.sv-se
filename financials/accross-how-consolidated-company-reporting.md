@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 9739f89c45dd63d03235fef4204b2adeb48ac4d3
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -53,7 +53,7 @@ Om du behöver mer avancerade inställningar för en konsolidering kan du konfig
 [!INCLUDE[d365fin](includes/d365fin_md.md)] låter dig lägga upp en lista över företag som ska konsolideras, verifiera redovisningsinformation innan du konsoliderar den, importera filer och generera konsolideringsrapporter.  
 
 1. Logga in på det konsoliderade företaget.
-2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Affärsenheter** och välj sedan relaterad länk.  
+2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Affärsenheter** och välj sedan relaterad länk.  
 3. Välj **Ny** och fyll sedan i relevanta fält.  
 
 Om en utländsk valuta används för koncernföretaget måste du ange vilken valutakurs som ska användas vid konsolideringen. Dessutom måste du ange konsolideringsinformation på koncernföretagets redovisningskonton. De här processerna beskrivs i följande avsnitt.
@@ -61,7 +61,7 @@ Om en utländsk valuta används för koncernföretaget måste du ange vilken val
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Så här förbereder du redovisningskonton för konsolidering
 Om kontoplanen i affärsenheten skiljer sig från det konsoliderade företaget måste du förbereda redovisningskonton för konsolidering. Du kan ange vilka konton som ska bokföra debet- och kreditbelopp och metoden du använder för att översätta valutor i det konsoliderade företaget. Detta är till exempel användbart om du kör rapporten ofta.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
 2. Öppna kortet för kontot och fyll sedan i fälten på snabbfliken **konsolidering**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Så här anger du valutakurs för konsolidering
@@ -80,7 +80,7 @@ Följande tabell beskriver valutakursmetoderna som du kan använda för konton.
 
 Om du vill ange valutakurs för affärsenheter gör du följande:
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Affärsenheter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Affärsenheter** och välj sedan relaterad länk.  
 2. På sidan **Affärsenhetslista** väljer du affärsenhet och sedan åtgärden **Genomsnittskurs (manuell)**.   
 3. På sidan **Ändra valutakurser** har innehållet i fältet **Relationsvalutakurs** kopierats från tabellen **Valutakurs**, men det går att ändra värdet. Stäng sidan.  
 4. Välj åtgärden **Slutkurs**.  
@@ -106,7 +106,7 @@ Om du bara äger en del av ett företag kan inkludera en procentandel av varje t
 Du kan testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[d365fin](includes/d365fin_md.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Du måste åtgärda felen innan du kan köra rapporten. Du kan testa en databas, eller om du importerar data från en XML-fil kan du testa filen.   
 
 1. Öppna det konsoliderade företaget.  
-2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Affärsenheter** och välj sedan relaterad länk.  
+2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Affärsenheter** och välj sedan relaterad länk.  
 3. Gör något av följande:  
 
     * Testa en fil genom att välja åtgärden **testa fil**, ange namnet på filen och välj sedan **Skriv ut**.  

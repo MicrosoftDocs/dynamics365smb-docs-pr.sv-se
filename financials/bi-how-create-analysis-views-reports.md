@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Så här skapar du nya försäljningsanalysrapporter
+#  <a name="create-analysis-reports"></a>Skapa analysrapporter
 Försäljningschefer behöver regelbundet analysera omsättning, bruttovinst och andra viktiga indikatorer på försäljningen. Inköpare är mer intresserade av dynamiken i inköpsvolymer, leverantörens kapacitet och inköpspriser. Logistik- och lagerchefer behöver i sin tur information om lageromsättning, analyser av lagerrörelser och statistik över lagervärdet.  
 
 Du kan använda analysrapporterna när du vill skapa anpassade rapporter baserade på posterna för bokförda transaktioner, till exempel försäljning, inköp, överföringar och lagerjusteringar. I en anpassningsbar rapport kan källdata, som hämtas från artikeltransaktionerna (med tillhörande värdeposter), kombineras, jämföras och presenteras på ett meningsfullt och användardefinierat sätt. På detta sätt påminner analysrapporter om pivottabellrapporter i Microsoft Excel.  
@@ -28,7 +28,7 @@ Du kan skapa personanpassade rapporter som fokuserar på dina nyckelkonton utifr
 
 Analysrapporten består av de objekt du vill analysera (till exempel kunder, kundgrupper, säljare, och så vidare) som visas som rader, samt analysparametrar, det vill säga hur du vill analysera objektet. Dessa visas som kolumner (till exempel vinstberäkningar, periodiska jämförelser av försäljningssiffror och volymer eller periodiska jämförelser av utfall och budgeterade siffror).
 
-Förutom analysrapporter, kan du skapa och visa liknande information i analys, som baseras på dimensioner. Mer information finns i [Så här analyserar dy data efter dimension](bi-how-analyze-data-dimension.md).
+Förutom analysrapporter, kan du skapa och visa liknande information i analys, som baseras på dimensioner. Mer information finns i [Analysera data efter dimension](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Exempel  
 Du kan lägga upp rader så här:  
@@ -41,9 +41,6 @@ Sedan kan du lägga upp kolumner så här:
 - Försäljning innevarande månad  
 - Försäljning förra månaden  
 - Försäljning i procent av förra månaden  
-
-> [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Lägga upp rad- och kolumnlayout  
  I fönstret **Analysrapport** kan du visa olika rad- och kolumnlayouter efter vad du har lagt upp. Du lägger upp rader eller radmallar i fönstret **Analysradmallar**. I det här fönstret kan du definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner i fönstret **Analyskolumnmallar**. I det här fönstret kan du definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. I fönstret **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  
@@ -66,7 +63,7 @@ I en analysrapport visas analysparametrarna som kolumner. Du kan definiera vilka
 
 En mall innehåller en uppsättning rader där var och en representerar de analyskolumner som finns i analysrapporten. När du definierar en kolumn måste du tilldela en analystypkod till en rad. Denna analystypkod bestämmer typen av källdata i artikeltransaktioner som analysen ska baseras på. Källdata inkluderar kostnad, försäljningsbelopp eller antal och deras tillhörande värdeposter. Du kan lägga upp ett valfritt antal kolumnmallar och sedan skapa nya analysrapporter utifrån dem.    
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
 2. Välj den första tomma raden och fyll sedan i fälten efter behov.
 3. Välj åtgärden **Kolumner**.  
 4. I fönstret **Analyskolumner** fyller du sedan i fälten för att ange vilka kolumner som ska ingå i analysrapporten.  
@@ -84,7 +81,7 @@ I en analysrapport visas analysobjekten på raderna. Du kan definiera vilka rade
 
 En mall innehåller en uppsättning rader som representerar de analysrader som finns i analysrapporten. En rad kan ange en eller ett intervall med artiklar, kunder, leverantörer eller grupper. Du kan också skapa en formel i en rad om du vill summera andra rader. Du kan lägga upp ett valfritt antal radmallar och sedan skapa nya analysrapporter utifrån dem.    
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
 2. Välj den första tomma raden och fyll sedan i fälten efter behov.
 3. Välj åtgärden **Rader**.  
 4. I fönstret **Analysrader** skapar du rader för artiklar, kunder, leverantörer eller säljare som du vill visa siffror för i analysrapporten. Du måste fylla i fälten **Typ**, **Intervall** och **Beskrivning**.  
@@ -97,7 +94,7 @@ Följande procedur är baserad på en analysrapport för försäljning. Momentet
 
 Du använder analysrapporter för att analysera försäljningsdynamiken efter nyckeltal för försäljning som du själv väljer, till exempel omsättning i både belopp och kvantitet, vinstmarginal eller utfall jämfört med budget. Du kan också använda rapporten för att analysera genomsnittliga försäljningspriser och utvärdera säljarnas resultat.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
 2. I fönstret **Analysrapportförsäljning** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Redigera analysrapport**.

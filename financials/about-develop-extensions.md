@@ -1,6 +1,6 @@
 ---
-title: Anpassa Dynamics 365 Business edition | Microsoft Docs
-description: "Skapa, presentera och marknadsför dina appar och tillägg för Dynamics 365 Business edition."
+title: Anpassa Dynamics 365 for Finance and Operations, Business edition | Microsoft Docs
+description: "Skapa, presentera och marknadsföra dina program och tillägg för Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,17 +13,17 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8c8f01a97fa215932fff0adc6baff2be13621585
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utökning av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Det finns många fördelar med att använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en plattform för programverktyg:
 
 * Utöka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], en beprövad Microsoft online-lösning med dina kunskaper  
-* Dra nytta av varumärket Dynamics 365 – ett varumärke som miljontals användare känner till och litar på  
+* Utnyttja varumärket Finance and Operations, Business edition - ett varumärke som miljontals användare känner till och litar på  
 * Nå fler kunder till dina affärsprogram med [Microsoft AppSource](https://appsource.microsoft.com/)  
 * Uppnå mer med en plattform som ger en modern upplevelse och erbjuder skalning  
 * Samla intelligent business-program som t.ex. PowerApps, Flow, Power BI, Cortana Intelligence och mycket mer  
@@ -49,7 +49,7 @@ Innan vi publicerar samarbetar vi med dig och ser till att din app sticker ut p�
 Mer information om valideringen och hur du publicerar din app finns i dokumentet [Publicera din app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) från Download Center.
 
 ## <a name="learn-more-about-extensions-v20"></a>Få mer information om tillägg v2.0
-De nya utvecklingsverktygen som gör det möjligt för dig att skapa tillägg v2.0 är för närvarande i förhandsgranskning och aktiveras snart i Dynamics 365 Business edition-tjänsten. Om du redan vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+De nya utvecklingsverktygen som gör det möjligt för dig att skapa tillägg v2.0 granskas för närvarande, och aktiveras snart i tjänsten Finance and Operations, Business edition. Om du redan vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Behöver du hjälp?
 Om du vill ha hjälp kan du kontakta du en app-expert från följande lista:
@@ -70,7 +70,7 @@ Dessa [vanliga frågor](https://go.microsoft.com/fwlink/?linkid=841520) svarar p
 
 ## <a name="further-resources"></a>Övriga resurser
 Du hittar ytterligare resurser för utveckling av appar i vår [DLP-ämnessida](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-ämnessida. Det finns några markerade kommentarer nedan:
--   [Användarregistrering och efterföljande fakturering](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
+-   [Användarregistrering och efterföljande fakturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
@@ -79,4 +79,6 @@ Du hittar ytterligare resurser för utveckling av appar i vår [DLP-ämnessida](
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

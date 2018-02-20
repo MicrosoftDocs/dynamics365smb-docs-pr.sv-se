@@ -1,6 +1,6 @@
 ---
 title: Exportera dina Financials-data till Excel | Microsoft Docs
-description: "Du kan exportera egna finansiella rapporter och affärsstöd-data från Dynamics 365 Business edition till Excel eller öppna dina Financials-data i Excel."
+description: "Du kan exportera dina finansiella rapporter och affärsinformationsdata från Finance and Operations, Business edition till Excel, eller också öppna dina Financials-data i Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
-Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
+Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
 
 ## <a name="opening-lists-in-excel"></a>Öppna listor i Excel
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
@@ -60,12 +60,12 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 * Säljare  
 
 > [!NOTE]  
->   Om du har ställt in flera företag i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] måste du exportera aktuella data från båda företagen.
+>   Om du har ställt in flera företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du exportera aktuella data från båda företagen.
 
 ## <a name="see-also"></a>Se även
-[Avbryta prenumerationen på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Importera verksamhetsdata från andra finanssystem](upload-data.md)  
 [Ekonomi](finance.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

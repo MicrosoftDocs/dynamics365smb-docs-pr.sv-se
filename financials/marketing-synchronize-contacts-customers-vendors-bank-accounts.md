@@ -13,10 +13,10 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b85c52378a351dbc1a0809ec540b1f53c8074ef
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisera kontakter med kunder, leverantörer och bankkonton
@@ -27,7 +27,7 @@ Innan du kan synkronisera kontakterna med kund-, leverantörs- och/eller bankkon
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Olika sätt att synkronisera kontakter med kunder, leverantörer och bankkonton
 Du kan synkronisera kontakterna med kunder, leverantörer eller bankkonton på tre olika sätt:
 
-* Länka kontakterna till befintliga kunder, leverantörer eller bankkonton från kontaktkortet. Mer information finns i [Så här länkar du kontakter med kunder, leverantörer och bankkonton](marketing-how-link-contact.md).
+* Länka kontakterna till befintliga kunder, leverantörer eller bankkonton från kontaktkortet. Mer information finns i [Länka kontakter med kunder, leverantörer och bankkonton](marketing-how-link-contact.md).
 * Skapa kunder, leverantörer och bankkonton från kontakten. Mer information finns i [Skapa en företagskontakt från kund, leverantör eller bankkonto från en kontakt](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 * Skapa kontakter från kunder, leverantörer eller bankkonton. Mer information finns i [Skapa en företagskontakt från kund, leverantör eller bankkonto](marketing-how-create-contact-companies.md).
 

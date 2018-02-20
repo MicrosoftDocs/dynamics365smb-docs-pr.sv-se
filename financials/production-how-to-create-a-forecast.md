@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5dea483395e64eb0635879b5c8821428512481ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-production-forecast"></a>Så här skapar du en produktionsprognos
+# <a name="create-a-production-forecast"></a>Skapa en produktionsprognos
 Du kan skapa försäljnings- och produktionsprognoser i fönstret **Produktionsprognos**.  
 
 Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings - och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings - och produktionsorder. Alternativet *Komponent* på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en försäljningsartikel, nettoberäknas endast försäljningsorder för prognosen. Om den är för komponenter, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
@@ -53,9 +53,9 @@ Detta kan anges i produktionsinställningarna. Observera dock att den övergripa
 
 ## <a name="to-create-a-production-forecast"></a>Så här skapar du en produktionsprognos
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **produktionsprognos** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **produktionsprognos** och välj sedan relaterad länk.  
 2.  Gå till snabbfliken **Allmänt** och markera fältet **Produktionsprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
-3.  Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.  
+3.  Gå till fältet **Lagerställefilter**och markera den plats som den här prognosen ska gälla för.  
 4.  Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska produktionsprognostransaktionerna.  
 5.  Ange ett **datumfilter** om du vill begränsa mängden information som visas.  
 6.  Gå till snabbfliken **Matris för produktionsprognos** och ange prognosantalet för **Försäljningsartikel** eller **Komponent** för olika perioder.  

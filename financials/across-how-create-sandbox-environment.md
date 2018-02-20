@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Så här: Skapa miljö för begränsat läge.
+# <a name="create-a-sandbox-environment"></a>Skapa en miljö för begränsat läge
 Begränsat läge (förhandsgranskning) är en instans av [!INCLUDE[d365fin](includes/d365fin_md.md)] utanför produktionsmiljön. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.
 
 ## <a name="to-create-a-sandbox-environment"></a>Skapa miljö för begränsat läge.
@@ -44,7 +44,7 @@ I begränsat läge, har en helt ny innehavare skapats. Den här innehavaren ladd
 > [!NOTE]  
 >  Återställa begränsat läge tar bort den helt och skapar den sedan igen med standarddemonstrationsdata.  
 
-8.  Du kan använda Microsoft Dynamics 365 programmarstartbild om du vill växla mellan miljö för produktion och begränsat läge.
+8.  Du kan använda programmarstartbilden för Finance and Operations, Business edition om du vill växla mellan miljöerna för produktion och begränsat läge.
 ![Begränsat läge Dynamics365 meny](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Det är möjligt för en administratör eller en annan användare att begränsa eller även spärra åtkomsten för vissa användare till begränsat läge. Detta kan göras med hjälp av produktens standardsäkerhetsfunktioner som användarkort, användargrupper och behörighetsgrupper.

@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 19fbfd60beb973dc65a09b7bfeee95b976a89905
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25094427b1e87002de11afad487ecd09a8af2e30
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Skapa kostnadsbudgetar
 Budgetering för kostnadsredovisning liknar budgetering i redovisningen. En kostnadsbudget skapas baserat på kostnadstyper, precis som en budget för redovisningen skapas baserat på redovisningskonton.  
 
-En kostnadsbudget skapas för en viss tidsperiod, till exempel ett räkenskapsår. Du kan skapa kostnadsbudgetar efter behov. Du kan skapa en ny kostnadsbudget manuellt eller genom att importera en kostnadsbudget eller genom att kopiera en befintlig kostnadsbudget som budgetbas. Mer information finns i [Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md)
+En kostnadsbudget skapas för en viss tidsperiod, till exempel ett räkenskapsår. Du kan skapa kostnadsbudgetar efter behov. Du kan skapa en ny kostnadsbudget manuellt eller genom att importera en kostnadsbudget eller genom att kopiera en befintlig kostnadsbudget som budgetbas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
-Du kan använda följande fönster för att skapa och analysera kostnadsbudgetar. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") för att hitta ett fönster och sedan läsa knappbeskrivningen för varje.
+Du kan använda följande fönster för att skapa och analysera kostnadsbudgetar. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") för att hitta ett fönster och sedan läsa knappbeskrivningen för varje.
 
 |Om du vill|Gå till|  
 |--------|---------|  
@@ -36,7 +36,7 @@ Du kan använda följande fönster för att skapa och analysera kostnadsbudgetar
 
 ## <a name="see-also"></a>Se även  
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
-[Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md)  
+[Skapa redovisningsbudgetar](finance-how-create-budgets.md)  
 [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
 [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

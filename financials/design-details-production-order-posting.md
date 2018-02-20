@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: bd25ed0204ee0e96e258974dc03d29aea44b67e6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
@@ -79,7 +79,7 @@ En värdetransaktion som beskriver PIA-lagervärdet kan kopplas till en av följ
 För mer information om hur kostnader från produktion och montering bokförs i redovisningen, se [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md).  
 
 ## <a name="capacity-posting"></a>Kapacitetsbokföring  
-Bokföring av utflöde från den sista produktionsorderns operationsföljdsrad resulterar i en kapacitetstransaktion för slutobjektet, förutom dess lagerökning.  
+Bokföring av utflöde från den sista produktionsorderns verksamhetsföljdsrad resulterar i en kapacitetstransaktion för slutobjektet, förutom dess lagerökning.  
 
  Kapacitetstransaktionen är en post för den tid som spenderades för att producera artikeln. Den relaterade värdetransaktionen beskriver ökningen av PIA-lagervärdet, som är värdet för konverteringkostnaden. Mer information finns i ”från fönstret kapacitetstransaktioner” i [Designdetaljer: konton i redovisningen](design-details-accounts-in-the-general-ledger.md).  
 
@@ -99,7 +99,7 @@ De här faktiska kostnaderna bokförs i produktionsordern och jämförs med stan
 
 I standardkostnadmiljöer baseras värderingen av en produktionsorder på följande mekanism:  
 
-1.  När den sista operationsföljden har bokförts, bokförs produktionsorderkostnaden i artikeltransaktionen och anges till den förväntade kostnaden.  
+1.  När den sista verksamhetsföljden har bokförts, bokförs produktionsorderkostnaden i artikeltransaktionen och anges till den förväntade kostnaden.  
 
     Kostnaden är lika med utflödesantalet som bokförs i utflödesjournalen multiplicerat med standardkostnaden som kopieras från artikelkortet. Kostnaden behandlas som förväntade kostnader tills produktionsordern är färdig. Mer information finns i [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
 

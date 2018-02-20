@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: sv-se
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurera bankfeedtjänsten Envestnet Yodlee
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i fönstret **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Tjänsten Envestnet Yodlee bankfeeder har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] och är klar att aktiveras. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
@@ -40,14 +40,14 @@ När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att autom
 >   Om du använder den assisterade inställningen Konfigurera företag kommer några av stegen i följande procedurer att utföras automatiskt när du kommer till inställningen av företagets bankkonto. Mer information finns i [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Så här aktiverar du bankfeedtjänsten
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Öppna det bankkonto som du ska använda för bankfeedtjänsten.
 3. I fönstret **Bankkonto** i fältet **Format för bankutdragsimport** väljer du YODLEEBANKFEED.  
 
 Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade onlinebankkonto. Visa nästa procedur.  
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Så här skapar du ett nytt länkat bankkonto
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan **Skapa nytt länkat bakkonto**. Fönstret **Länkning av bankkonto** öppnas efter några ögonblick.
 
     > [!NOTE]  
@@ -63,7 +63,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
     När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Siffran inom parentes visar hur många online bankkonton som länkades.  
 7. Välj **OK**.
 
-    Om du bara länkar ett onlinebankkonto, öppnas fönstret **bankkontokort** och visar namnet på onlinebankkontot. I det här fallet är bankkontolänkninguppgiften slutförd. Allt som återstår är att skapa bankkontot. Mer information finns i [Så här skapar du bankkonton](bank-how-setup-bank-accounts.md).
+    Om du bara länkar ett onlinebankkonto, öppnas fönstret **bankkontokort** och visar namnet på onlinebankkontot. I det här fallet är bankkontolänkninguppgiften slutförd. Allt som återstår är att skapa bankkontot. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
     Om fler än ett bankkonto länkades kommer fönstret **Länkning av bankkonto** att öppnas med det ytterligare onlinebankkonton som inte ännu är länkade till bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I detta fall, följ nästa steg.  
 8. I fönstret **Länkning av bankkonto** väljer du raden för ett onlinebankkonto och väljer sedan åtgärden **Länka till nytt bankkonto**.  
@@ -75,7 +75,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 10. I fönstret **Bankkontolista** väljer du det bankkonto som du vill länka till och väljer sedan knappen **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Så här länkar du ett bankkonto till ett onlinebankkonto
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj raden för ett bankkonto som inte är kopplad till ett onlinebankkonto och välj sedan åtgärden **Länka till onlinebankkonto**. Fönstret **Länka till onlinebankkonto** öppnas med bankens namn ifyllt i rutan **Länka konto**.
 3. Välj bankens namn. Rutan **Inloggning** öppnas.
 4. Ange användarnamnet och lösenordet som du använder för att logga in på onlinebanken och tryck sedan på knappen **Nästa**.  
@@ -88,20 +88,20 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 I fönstret **Bankkontolista** markeras kryssrutan **Länkad**.
 
 ## <a name="to-unlink-a-bank-account"></a>Så här tar du bort länk till bankkonto
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.  
 2. Välj raden för ett länkat bankkonto som du vill ta bort länken till dess relaterade onlinebankkonto för och välj sedan åtgärden **Ta bort länk till onlinebankkonto**.
 
 > [!NOTE]  
 >   Om du väljer **Ja** i bekräftelsedialogrutan, tas länken till onlinebankkontot bort och inloggningsdetaljerna avmarkeras. Om du vill länka bankkontot till onlinebankkonto igen måste du logga in i banken igen. Mer information finns i avsnittet “Så här länkar du ett bankkonto till ett onlinebankkonto“.
 
 ## <a name="to-update-bank-account-linking"></a>Så här uppdaterar du länkning till bankkonto
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan åtgärden **Uppdatera länkning av bankkonto**.
 
 Om problem finns för någon av de länkade bankkontona i fönstret **Bankkontolista** kommer fönstret **Länkning av bankkonto** med information om vilka bankkonton som har problem. Problemen kan bäst lösas genom att ta bort länken till onlinebankkontot och sedan återskapa länken. Mer information finns i avsnittet “Så här länkar du ett bankkonto till ett onlinebankkonto“.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Om du vill aktivera automatisk import av bankutdrag
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Markera raden för ett länkat bankkonto och välj sedan åtgärden **Inställningar för automatisk import av bankutdrag**.
 3. I fönstret **Inställningar för automatisk import av bankutdrag** i fältet **Antal dagar som ingår** anger du hur långt tillbaka i tiden som du får nya banktransaktioner för.
 

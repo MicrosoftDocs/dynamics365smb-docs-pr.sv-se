@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/13/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: ad073c6958584c31c1dda8470ccb160a49d61911
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec3210e019da3369971d3aef6a4e38f4dcf1f530
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-analyze-data-by-dimensions"></a>Så här: Analysera data efter dimensioner
+#  <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
 Inom ekonomisk analys är en dimension data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Dimensioner kan användas på transaktioner i journaler, dokument och budgetar. Termen dimension används för att beskriva hur analyser utförs. Ett exempel på en tvådimensionell analys är försäljning per område. Om du använder fler än två dimensioner när du skapar en transaktion kan du utföra mer komplexa analyser, exempelvis försäljning per försäljningskampanj per kundgrupp per område. Mer information finns i [Arbeta med](finance-dimensions.md).
 
 Att analyera data efter dimensioner ger dig bättre inblick i din verksamhet, så att du kan utvärdera information, till exempel hur väl verksamheten fungerar, inom vilka områden det går riktigt bra och inom vilka det går sämre samt var det krävs mer resurser.
@@ -27,13 +27,10 @@ Att analyera data efter dimensioner ger dig bättre inblick i din verksamhet, s�
 > [!TIP]
 > Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna i alla fönstrer för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
 
-> [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
-
 ## <a name="to-set-up-an-analysis-view"></a>Så här definierar du en analysvy  
 En analys per dimension visar en vald kombination av dimensioner. Du kan lagra och hämta alla analyser som har definierats. Informationen som används för att skapa en analys lagras på **analysvykortet** för att underlätta framtida analyser.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
 2. I fönstret **Analysvylista** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Om du vill lägga till ytterligare dimensionskoder förutom de fyra koderna väljer du på snabbfliken **Dimensioner**, åtgärden **Filter**, fyller i fälten och klickar på **OK**.  
@@ -45,7 +42,7 @@ Du kan använda matrisen **Analys per dimension** för att visa beloppen i redov
 - Kolumnen till vänster innehåller information baserad på vad du valt i fältet **Visa som rader** i huvudet.  
 - Kolumnen till höger innehåller information baserad på vad du valt i fältet **Visa som kolumner** i huvudet.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
 2. Välj lämplig analysvy och klicka på **Redigera analysvy**.
 3. Högst upp i fönstret **Analys efter dimensioner** fyller du i fälten för att definiera vad som ska visas.
 4. 5. Om du vill visa en specifikation av ett belopp som visas i matrisfönstret väljer du beloppet.  
@@ -64,7 +61,7 @@ Beloppen som visas i fönstret **Analys per dimension** ger dig en bild av före
 
 Nedanstående procedur beskriver hur du uppdaterar en analysvy från fönstret **Analys per dimension**. Momentet är liknande från den **Analysvykort** och **Analysvylista** windows.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
 2. I fönstret **analys per dimension** väljer du fältet **Analysvykod** för att visa alternativen.  
 3. Välj raden med önskad analysvy.  
 4. Välj åtgärden **Uppdatera**.  

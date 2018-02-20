@@ -1,6 +1,6 @@
 ---
-title: "Sälja Dynamics 365 Business edition | Microsoft Docs"
-description: "Ta reda på hur du kan expandera dina affärsmöjligheter och bli en Microsoft-partner och återförsäljare av Dynamics 365 Business edition."
+title: "Sälja Finance and Operations, Business edition | Microsoft Docs"
+description: "Ta reda på hur du kan expandera dina affärsmöjligheter och bli en Microsoft-partner och återförsäljare av Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,18 +13,18 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Bli en återförsäljare av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expandera affärsmöjligheten med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Om du specialiserar dig på molnlösningar Office 365, SharePoint, branschlösningar, analytics, ERP, CRM, redovisningsprogram och programvara/tjänste för optimering av affärsprocesser är Dynamics 365 en ny affärsmöjlighet.   
+Om du specialiserar dig på molnlösningar, Office 365, SharePoint, branschlösningar, analytics, ERP, CRM, redovisningsprogram och/eller programvaror/tjänster för optimering av affärsprocesser, är Finance and Operations, Business edition en ny affärsmöjlighet för dig.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] hjälper dig att skilja på och fördjupa kundrelationer genom att ge dig möjlighet att ge en lösning för verksamhetssystem som ansluter personer och procedurer som aldrig förr, helt inbäddad i välbekanta Microsoft Office-verktyg som små och medelstora företag använder varje dag.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  hjälper dig att skilja på och fördjupa kundrelationer genom att ge dig möjlighet att ge en lösning för verksamhetssystem som ansluter personer och procedurer som aldrig förr, helt inbäddad i välbekanta Microsoft Office-verktyg som små och medelstora företag använder varje dag.  
 
 ## <a name="get-started"></a>Kom igång
 Registrera dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] Förhandsgranska på [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  

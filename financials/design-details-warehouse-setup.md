@@ -1,6 +1,6 @@
 ---
 title: "Designdetaljer - Lagerstyrningsinställning | Microsoft Docs"
-description: "Distributionslagerfunktion i Dynamics 365 innehåller olika nivåer av komplexitet enligt definitionen av licensbehörigheter i de offererade partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen."
+description: "Distributionslagerfunktionen i Finance and Operations, Business edition innehåller olika nivåer av komplexitet enligt definierat av licensbehörigheterna i de offererade underavdelningarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77b601fed0f7eac77ff5a87ba9bc04150325927c
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar

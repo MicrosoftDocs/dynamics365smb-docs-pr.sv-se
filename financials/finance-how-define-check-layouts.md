@@ -13,19 +13,19 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Så här definierar du checklayouter
+# <a name="define-check-layouts"></a>Definiera checklayouter
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
 
 Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska checkbildformat i antingen check-checktalong-check-format eller checktalong-checktalong-check-format.
 
 ## <a name="to-define-check-layouts"></a>Om du vill definiera checklayouter
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Rapportval - bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Rapportval - bankkonto** och välj sedan relaterad länk.
 2. I fönstret **Rapportval - bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
@@ -35,7 +35,7 @@ Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska c
 | 10401 |Check (checktalong/checktalong/check) |Den här rapporten är utformad för att skriva ut checkar i formatet checktalong/checktalong/check. |
 | 10411 |Check (checktalong/check/checktalong) |Den här rapporten är utformad för att skriva ut checkar i formatet check/checktalong/check. |
 
-När du har upprättat checklayouter, kan du skriva ut checkar från fönstret **utbetalningsjournal**. Mer information finns i [Så här arbetar du med checkar](payables-how-work-checks.md).
+När du har upprättat checklayouter, kan du skriva ut checkar från fönstret **utbetalningsjournal**. Mer information finns i [Arbeta med checkar](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Se även
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

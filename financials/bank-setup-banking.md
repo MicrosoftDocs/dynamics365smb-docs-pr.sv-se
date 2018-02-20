@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef549db1af519084b79f85d8815fa89ff707067d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31fec531df5e601355442c7bf7c6e3e99b8362d8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-banking"></a>Ställa in bank
@@ -26,9 +26,9 @@ Om du vill använda elektroniska banktjänster för att importera kontoutdrag oc
 
 | Om du vill | Gå till |
 | --- | --- |
-| skapa bankkontokort för vart och ett av dina bankkonton, så att du kan hålla reda på alla banktransaktioner. |[Så här skapar du bankkonton](bank-how-setup-bank-accounts.md) |
-| Konfigurera en extern tjänst som låter dig importera kontoutdrag som bankfeeds för betalningskoppling och bankkontoavstämning. |[Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder](bank-how-setup-bank-statement-service.md) |
-| Konfigurera en extern tjänst som låter dig exportera dina betalningar till banken för bearbetning och importera kontoutdrag som bankfiler för betalningskoppling och bankkontoavstämning. |[Så här ställer du in tjänsten bankdatakonvertering](bank-how-setup-bank-data-conversion-service.md) |
+| skapa bankkontokort för vart och ett av dina bankkonton, så att du kan hålla reda på alla banktransaktioner. |[Skapa bankkonton](bank-how-setup-bank-accounts.md) |
+| Konfigurera en extern tjänst som låter dig importera kontoutdrag som bankfeeds för betalningskoppling och bankkontoavstämning. |[Konfigurera bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md) |
+| Konfigurera en extern tjänst som låter dig exportera dina betalningar till banken för bearbetning och importera kontoutdrag som bankfiler för betalningskoppling och bankkontoavstämning. |[Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md) |
 
 ## <a name="see-also"></a>Se även
 [Hantera bankkonton](bank-manage-bank-accounts.md)  

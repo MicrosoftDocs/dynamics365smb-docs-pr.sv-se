@@ -1,6 +1,6 @@
 ---
 title: "Lägga till en extern revisor till Financials | Microsoft Docs"
-description: "Lär dig hur du kan bjuda in dina externa revisorn till din Dynamics 365 Business edition."
+description: "Lär dig hur du kan bjuda in din externa revisor till Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till dina [!INCLUDE[d365fin](includes/d365fin_md.md)] så att de kan arbeta med dig med räkenskapsårets informationen.
 
 När din revisorn har fått tillgång till din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan de använda rollcenter **revisorn** som ger enkel åtkomst till de mest relevanta fönster för att kunna arbeta.  
-
-> [!NOTE]  
->  Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [anpassa din Dynamics 365-upplevelse](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I den senaste versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] har vi gjort det lätt för dig att bjuda in en extern revisor. Öppna bara fönstret **Användare** och välj åtgärden **Bjuda in extern revisor** i menyfliksområdet. Ett e-postmeddelande är redo för dig, lägg bara till din revisors e-postadress för arbete och skicka inbjudan.  
@@ -45,7 +42,7 @@ En av licenstyperna för [!INCLUDE[d365fin](includes/d365fin_md.md)] är licens 
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
-[Så här: Konfigurera e-post manuellt eller med hjälp av Assisterad konfiguration](madeira-how-setup-email.md)  
-[Revisorupplevelse i Dynamics 365 Business edition](finance-accounting.md)  
-[Dynamics 365 for Accountants på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration](madeira-how-setup-email.md)  
+[Revisorupplevelser i Finance and Operations, Business edition ](finance-accounting.md)  
+[Finance and Operations, Business edition för revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

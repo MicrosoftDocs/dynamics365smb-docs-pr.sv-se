@@ -12,13 +12,13 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument
+# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument
 När kunderna har gjort betalningar till ditt elektroniska bankkonto, måste du koppla varje betalt belopp till det relaterade försäljningsdokumentet och sedan bokföra betalningen för att uppdatera kund-, redovisnings- och banktransaktioner.
 
 > [!NOTE]  
@@ -31,13 +31,13 @@ Betalningar för olika kunder som har olika betalningsdatum, ska bokföras som i
 ## <a name="to-set-up-the-payment-registration-journal"></a>Så här lägger du upp betalningsregistreringjournal
 Eftersom du kan bokföra olika betalningstyper till olika motkonton måste du välja ett motkonto i fönstret **Inställning av betalningsregistrering** innan du börjar att behandla kundbetalningar. Om du alltid bokför samma motkonto, kan du ange det konto som standard och undvika detta steg varje gång som du öppnar fönstret **Betalningsregistrering**.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inställning av betalningsregistrering**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inställning av betalningsregistrering**, och välj sedan relaterad länk.
 
     Alternativt kan du i fönstret **Betalningsregistrering** välja åtgärden **Inställning**.    
 2. Fyll i fälten i fönstret **Inställning av betalningsregistrering**. Välj ett fält om du vill få en kort beskrivning av fältet eller länken till relaterad information.  
 
 ## <a name="to-reconcile-payments-individually"></a>Så här stämmer du av betalningar individuellt
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
 2. Markera kryssrutan **Utförd betalning** på raden som representerar bokfört dokument som en betalning har gjorts för.
 
     Om kryssrutan **Fyll i Tillbaka datum automatiskt** är markerad i fönstret **Inställning av betalningsregistrering** anges arbetsdatumet i fältet **Tillbaka datum**.  
@@ -53,7 +53,7 @@ Den angivna betalningsinformationen bokförs för de dokument som representeras 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
 ## <a name="to-reconcile-lump-payments"></a>Stämma av betalning av klumpsumma
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.
 2. Markera kryssrutan **Utförd betalning** på raderna som representerar bokförda dokument för samma kund som en klumpbetalning har gjorts för.  
 
     > [!NOTE]  
@@ -88,7 +88,7 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 * Betalningsbeloppet är högre än återstående rabatterade beloppet. Du bokför betalningar som är. Endast det återstående beloppet bokförs. Det extra belopp krediteras till kunden.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Processa ett betalningsbelopp som är lika med det rabatterade beloppet, och där betalningsdatumet infaller före kassarabattsdatum.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lika med beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.    
@@ -97,7 +97,7 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 5. Välj åtgärden **Bokför betalningar** för att bokföra den fullständiga betalningen på redovisningskonto bankkontot eller kundkontot.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Processa ett betalningsbelopp som är lika med det rabatterade beloppet, men där betalningsdatumet infaller efter kassarabattsdatumet
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lika med beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.
@@ -115,7 +115,7 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 Det relaterade dokument förblir öppen.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Processa en betalning som är lägre än återstående rabatterade beloppet
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lägre än beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.  
@@ -126,7 +126,7 @@ Det relaterade dokument förblir öppen.
 Det relaterade dokument förblir öppen.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Processa en betalning som är högre än återstående rabatterade beloppet
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är högre än beloppet i fältet **Återstående belopp efter rabatt**.  
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.    
@@ -148,7 +148,7 @@ I fönstret **Dokumentsökning** kan du söka bland dokument som inte har faktur
 
 Följande procedurer beskriver hur du hittar ett visst dokument, genom att använda både sökkriterier.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.
 2. Välj avsnittet **Sök dokument** med pekaren på någon av raderna.
 3. I fönstret **Dokumentsökning** anger du ett sökvärde i fältet **Dokumentnr.**  
 
@@ -169,14 +169,14 @@ Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin]
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Så här registrerar eller bokför du en betalning utan ett relaterat dokument
 Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från fönstret **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har klargjorts.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.  
 
 Fortsätt med att registrera en odokumenterad betalning.  
 
 1. Välj åtgärden **Redovisningsjournal**.  
 
     Fönstret **Redovisningsjournal** öppnas med en förifylld rad med motkonton i journalen som ställs in i fönstret **Inställning av betalningsregistrering**.  
-2. Fyll i de återstående fälten på redovisningsjournalraden, till exempel kundnummer eller belopp och annan information från kontoutdraget. Mer information finns i [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
+2. Fyll i de återstående fälten på redovisningsjournalraden, till exempel kundnummer eller belopp och annan information från kontoutdraget. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
 
 Du kan bokföra journalraden för att uppdatera summan på motkontot. Alternativt kan du lämna journalraden obokförd och eventuellt koppla den till en kommentar om att betalningen behöver mer analys.  
 

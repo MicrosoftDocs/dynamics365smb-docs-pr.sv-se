@@ -1,6 +1,6 @@
 ---
 title: "Ställa in betalningssätt | Microsoft Docs"
-Description: "Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur en faktura ska betalas."
+Description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0c76b481d4a4c49b9cf0db353edaf1e2885fd4d6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="defining-payment-methods"></a>Definiera betalningssätt
@@ -25,7 +25,7 @@ Betalningssätt länkas till leverantörer för att ange hur en faktura från de
 
 ## <a name="to-set-up-a-payment-methods"></a>Så här definierar du betalningssätt
 Flera vanliga betalningssätt är redan definierade i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan definiera nya betalningssätten i fönstret **betalningssätt** som du kan söka efter med hjälp av sökfunktionen eller öppna från fältet **betalningssätt** på ett kort för en leverantör eller kund.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Betalningssätt**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningssätt**, och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se även

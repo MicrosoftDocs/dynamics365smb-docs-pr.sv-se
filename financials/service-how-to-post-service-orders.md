@@ -1,5 +1,5 @@
 ---
-title: "Så här bokför du Serviceorder | Microsoft Docs"
+title: "Så här bokför du Tjänsteorder | Microsoft Docs"
 description: "När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Så här bokför du serviceorder och kreditnotor
+# <a name="post-service-orders-and-credit-memos"></a>Bokföra tjänsteorder och kreditnotor
 När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt.  
 
 Om du har ett stort antal serviceorder kan spara du tid genom att använda ett batch-jobb för att bokföra dem samtidigt. Du kan köra batch-jobbet från en serviceorder.
@@ -28,7 +28,7 @@ Om du har ett stort antal serviceorder kan spara du tid genom att använda ett b
 > Innan du bokför ett servicedokument kan det vara praktiskt att använda åtgärden **Testrapport** om du vill kontrollera om några fel eller någon bristfällig information. Om det finns fel, måste du korrigera det. Du kan sedan skriva ut en ny testrapport för att verifiera åtgärdningen och bokföra dokumentet.
   
 ## <a name="to-post-a-service-order"></a>Så här bokför du serviceorder    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
 3. På sidan **serviceordern** väljer du något av följande.  
   
@@ -53,7 +53,7 @@ Du kan bokföra förbrukningen endast om raden innehåller ett antal som inte ha
 När ordern bokförs skapas motsvarande transaktioner och bokförda dokument automatiskt. Dessutom uppdateras alla relevanta fält i serviceorderdokumentet.  
 
 ## <a name="to-batch-post-service-orders"></a>Så här batch-bokför du serviceorder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Bokför batch**.  
 3.  Du kan skapa ett filter för att välja ut vissa ordernummer eller intervaller av ordernummer för det batch-jobb som ska köras.  
 4.  Välj **OK** när du vill starta batchjobbet.  
@@ -61,7 +61,7 @@ När ordern bokförs skapas motsvarande transaktioner och bokförda dokument aut
 ## <a name="to-post-a-service-credit-memo"></a>Så här bokför du servicekreditnotor  
 När du har skapat en servicekreditnota och fyllt i den, kan du bokföra kreditnotan. Om fel eller saknad information upptäcks i kreditnotan under bokföringen avbryts processen och ett felmeddelande visas.  
    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekreditnotor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekreditnotor** och välj sedan relaterad länk.  
 2. Skapa en ny servicekreditnota. På fliken **Start** i gruppen **Ny** väljer du **Ny**.  
 3. Fyll i följande obligatoriska fält.  
 4. På fliken **Åtgärder** i gruppen **Bokföring** väljer du **Bokför**. Om du vill skriva ut kreditnotan samtidigt som du bokför den klickar du på **Bokför och skriv ut** i stället.  
@@ -74,7 +74,7 @@ När du har skapat en servicekreditnota och fyllt i den, kan du bokföra kreditn
 ## <a name="to-post-consumption-from-a-service-order"></a>Så här bokför du förbrukning från en serviceorder  
 Nedan beskrivs hur du bokför artiklar, resurstimmar och/eller kostnader som har använts för en specifik serviceoperation som du inte debiterar kunden för. Observera att du bara kan bokföra förbrukade artiklar, timmar och/eller kostnader för en bokförd leverans som inte innehåller några bokförda fakturor eller bokförd förbrukning.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Öppna serviceorder som du vill bokföra förbrukning för.  
 3. Välj serviceartikel. Välj **Åtgärder**, välj **Order**, och sedan **Servicerader**.  
 4. Leta upp transaktionerna och ange antal förbrukning som ska bokföras för kunden i fältet **Ant. att förbruka**. Antalet kan inte vara större än det antal som redan har levererats och återstående antal som fortfarande inte har fakturerats efter delfakturering av leveransen.  
@@ -91,7 +91,7 @@ När du har angett detaljerad information för en service kan du justera och bok
   
 I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar på lagerställen som inte kräver lagerhantering.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceorder** och välj sedan relaterad länk. 2. I fönstret för den markerade serviceordern klickar du på  **Åtgärder**,  **Order**,  **Servicerader**.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk. 2. I fönstret för den markerade serviceordern klickar du på  **Åtgärder**,  **Order**,  **Servicerader**.  
 3. I fönstret **Servicerader** letar du upp transaktionerna och anger det antal som ska bokföras i fältet **Ant. att utleverera**.  
   
    > [!NOTE]  
@@ -99,7 +99,7 @@ I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar p�
   
 4. Klicka på **Åtgärder**, **Bokföring**, **Bokför**. I fönstret som visas väljer du **Leverera**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
   
 Om lagerstället kräver distributionslagerhantering sker leverans och flytt av serviceradartiklar på samma sätt som övriga källdokument. Den enda skillnaden är att serviceradartiklar kan förbrukas antingen externt eller internt och därför kräver två olika släppfunktioner.  
   
@@ -108,7 +108,7 @@ För mer information om leverans av serviceradartiklar i avancerade distribution
 ## <a name="to-undo-posted-consumption"></a>Så här ångrar du bokförd förbrukning  
 Du kan ångra förbrukning på en serviceorder. Till exempel om den bokförs av misstag.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda serviceutleveranser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokförda serviceutleveranser** och välj sedan relaterad länk.  
 2. Öppna den bokförda serviceutleverans som den felaktiga förbrukningen har bokförts för.  
 3. Välj **Åtgärder**, välj **Utleverans**, och sedan **Serviceutleveransrader**.  
 4. Välj de rader som innehåller den felaktiga förbrukningen och välj sedan åtgärden **ångra förbrukning**.  
@@ -118,7 +118,7 @@ Du kan ångra förbrukning på en serviceorder. Till exempel om den bokförs av 
 > [!NOTE]  
 >  Du kan inte ångra serviceförbrukning om:  
 
->    * Serviceordern har stängts.  
+>    * Tjänsteordern har stängts.  
 >    * Den har bokförts i modulen projekt, så att det finns projekttransaktioner som är kopplade till artikeln.  
   
 ## <a name="to-post-service-lines"></a>Så här bokför du servicerader  
@@ -126,12 +126,12 @@ Om du behöver arbeta med en serviceorder under en längre period utan att bokf�
   
 Nedan beskrivs hur du bokför leveransen direkt från en serviceorder i lagerställen utan lagerhantering. Om lagerstället är inställt på lagerhantering görs leveransbokföringen i ett annat distributionslagerdokument, beroende på inställningen av lagerställe.
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Öppna serviceordern och välj sedan åtgärden **Servicerader**.  
 4. På de rader som du vill bokföra fyller du i fälten **Ant. att utleverera**, **Ant. att fakturera** och/eller **Ant. att förbruka**, beroende på hur du ska bokföra raden/raderna.  
 5. Välj åtgärden **Bokföra**.
   
 ## <a name="see-also"></a>Se även  
-[Bokföra servicehantering](service-service-posting.md)  
-[Så här skapar du en serviceorder:](service-how-to-create-service-orders.md)  
+[Bokföra tjänstehantering](service-service-posting.md)  
+[Skapa en tjänsteorder](service-how-to-create-service-orders.md)  
 

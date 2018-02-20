@@ -1,8 +1,6 @@
 ---
-title: "Använda Dynamics 365 Business edition med Outlook | Microsoft Docs"
-description: "Dynamics 365 Business edition har långtgående integrering med Office 365 så att du kan hantera alla dina kontakter och skicka e-post till kunder och leverantörer direkt i Outlook."
-services: project-madeira
-documentationcenter: 
+title: "Använda Finance and Operations, Business edition med Outlook | Microsoft Docs"
+description: "Denna tjänst har långtgående integrering med Office 365 så att du kan hantera alla dina affärskontakter och din e-post till kunder och leverantörer direkt i Outlook."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Använda Dynamics 365 for Finance and Operations, Business edition som din företagsinkorg i Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Använda Finance and Operations, Business edition som din företagsinkorg i Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
 
 ## <a name="getting-the-add-in"></a>Skaffa tillägget
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] är ett av stegen i den assisterade installationen Komma igång i fönstret **Sköt din verksamhet i Office 365**. I fönstret, när du väljer knappen Konfigurera i Outlook måste du ange ditt användarnamn och lösenord för **Ställ in i Outlook** måste du ange ditt användarnamn och lösenord för Office 365. Tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs sedan till automatiskt till Outlook.  
 
-När du sedam öppnar Outlook visas ett e-postmeddelanden från Dynamics 365 Admin. Den nya tilläggsprogrammet läggs till på Outlooks menyflik i Outlooks webbåtkomst. Du kan se den i menyfliken för tillägg omedelbart ovanför e-postmeddelandets brödtext. Själva tillägget uppdateras regelbundet och du får ett meddelande att det finns en ny version för dig i Outlook.  
+När du sedan öppnar Outlook visas ett e-postmeddelanden från Finance and Operations, Business edition. Det nya tilläggsprogrammet läggs till på Outlooks menyflik i Outlooks webbåtkomst. Du kan se det i menyfliken för tillägg omedelbart ovanför e-postmeddelandets brödtext. Själva tillägget uppdateras regelbundet och du får ett meddelande att det finns en ny version för dig i Outlook.  
 
 Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Så bör du kontrollera att du har en Office 365-prenumeration som innehåller e-post och låter dig distribuera tillägg. Om du vill testa tillägget i alla fall kan du [prova Office 365 gratis](https://products.office.com/try).  
 

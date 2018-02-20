@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Business edition och Power BI innehållspaket | Microsoft Docs"
-description: "Det är enkelt att få insikter, affärsstöd och KPI:er från dina Dynamics 365-data med Power BI och Dynamics 365 content packs."
+title: "Finance and Operations, Business edition och innehållspaket för Power BI| Microsoft Docs"
+description: "Att få insyn, affärslogik och KPI:er från dina Finance and Operations, Business edition-data är enkelt med Power BI och innehållspaketen för Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
@@ -22,11 +22,11 @@ Det är enkelt att få insikter om [!INCLUDE[d365fin](includes/d365fin_md.md)]-d
 
 Microsoft har publicerat följande innehållspaket:
 
-| App | Beskrivning |
+| App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Ger en instrumentpanel med viktiga ekonomiska data över tid, till exempel intäkter och kostnader, rörelsemarginal och kontantcykeln.|
-| Microsoft Dynamics 365 for Financials - CRM | Ger en instrumentpanel med viktig information om potentiella kunder och kontakter.  |
-| Microsoft Dynamics 365 for Financials - Sales | Ger en instrumentpanel med viktig information om försäljning och lager. |
+| Microsoft Finance and Operations, Business edition | Ger en instrumentpanel med viktiga ekonomiska data över tid, till exempel intäkter och kostnader, rörelsemarginal och kontantcykeln.|
+| Microsoft Finance and Operations, Business edition - CRM | Ger en instrumentpanel med viktig information om potentiella kunder och kontakter.  |
+| Microsoft Finance and Operations, Business edition - Sales | Ger en instrumentpanel med viktig information om försäljning och lager. |
 
 ## <a name="using-the-dashboards"></a>Använda instrumentpanelerna
 Varje innehållspaket ger rapporter som du kan söka i:
@@ -44,7 +44,7 @@ Innehållspaketet är förkonfigurerat för att arbeta med data från demonstrat
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Om du vill se [!INCLUDE[d365fin](includes/d365fin_md.md)]-data in Power BI måste du ha följande:  
 
-* Åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Åtkomst till Power BI. Mer information finns i [Power BI](https://powerbi.microsoft.com).
 
 Du hittar ytterligare information på webbplatsen för Power BI om [ansluta till tjänster med innehållspaket för Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsa
 [Affärsstöd](bi.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
-[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Med hjälp av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] för Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] för Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

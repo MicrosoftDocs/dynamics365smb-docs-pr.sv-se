@@ -10,27 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Så här: Analysera faktiska belopp kontra budgeterade belopp
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysera faktiska belopp kontra budgeterade belopp
 Som en del av att samla in, analysera och dela dina företagsdata, kan du visa faktiska belopp och budgeterade belopp för alla konton och för flera perioder.
 
-Om du vill analysera budgeterade belopp måste du först skapa redovisningsbudgetar. Mer information finns i [Så här skapar du redovisningsbudgetar](finance-how-create-budgets.md)
-
-> [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på **Suite**. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+Om du vill analysera budgeterade belopp måste du först skapa redovisningsbudgetar. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
 ## <a name="to-view-a-gl-budget"></a>Så här visar du en redovisningsbudget
 Om du vill kan du filtrera transaktionerna i en budget med dimensioner och på så sätt visa vissa bestämda budgetar.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.
 2. I fönstret **Redovisningsbudgetar** öppnar du budgeten du vill visa.  
 3. Högst upp i fönstret fyller du i fälten för att definiera vad som ska visas. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -46,7 +43,7 @@ Om du vill kan du filtrera transaktionerna i en budget med dimensioner och på s
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Så här visar du faktiska och budgeterade belopp för alla konton  
 Du kan visa redovisningsbudgetar och jämföra dem med faktiska belopp i flera olika moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
 2. I fönstret **kontoplan** kan du välja åtgärden **Redovisningssaldo/Budget**.
 3. Högst upp i fönstret fyller du i fälten för att definiera vad som ska visas.  
 4. Välj fältet om du vill visa en specifikation av ett visat belopp.  
@@ -62,14 +59,14 @@ Kolumnerna till vänster innehåller kontoplanen. Av de fem kolumnerna till hög
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Så här visar du faktiska och budgeterade belopp för flera perioder  
 I stället för att visa de faktiska och budgeterade beloppen för alla konton under en enstaka period kan du visa ett antal perioder för ett enskilt konto.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
 2. I fönstretden **kontoplan** markerar du relevant redovisningskonto, och välj sedan åtgärden **konto saldo/budget**.  
 3. Högst upp i fönstret fyller du i fälten för att definiera vad som ska visas.   
 4. Välj fältet om du vill visa en specifikation av ett visat belopp.  
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  
-[Så här: Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
+[Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Redovisningen och kontoplanen](finance-general-ledger.md)  

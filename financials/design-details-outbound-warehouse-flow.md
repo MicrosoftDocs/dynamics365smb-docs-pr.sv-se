@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 54489c23a34e409ccb22faff77da41acdaf065b3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Avgående distributionslagerflöde
@@ -27,14 +27,14 @@ Det avgående artikelflödet i distributionslagret inleds med en förfrågan fr�
 - Försäljningsorder  
 - Avgående överföringsorder  
 - Inköpsreturorder  
-- Serviceorder  
+- Tjänsteorder  
 
 Dessutom finns följande interna källdokument som fungerar som avgående källor:  
 
 - Produktionsorder med komponentbehov  
 - Monteringsorder med komponentbehov  
 
- De två sista dokumenten motsvarar utgående flöden från distributionslagret till interna operationsområden. Se [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md) för mer information om lagerhantering för interna ankommande och utgående processer.  
+ De två sista dokumenten motsvarar utgående flöden från distributionslagret till interna verksamhetsområden. Se [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md) för mer information om lagerhantering för interna ankommande och utgående processer.  
 
  Processer och användargränssnittsdokument i avgående distributionslagerflöden är olika för grundläggande och avancerad lagerkonfigurationer. Den huvudsakliga skillnaden är att aktiviteter utförs order-för-order i grundläggande distributionslagerkonfiguration, och att de konsolideras för flera order i avancerad distributionslagerkonfiguration. Mer information om olika lagerkomplexitetsnivåer finns i [Designdetaljer: översikt över lagret](design-details-warehouse-setup.md).  
 
@@ -62,7 +62,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
  När en användare som är ansvarig för källdokument, t.ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerplatserna. Användaren kan också skapa lagerplocknings- eller transportdokument för de individuella orderraderna, med en push-metod, baserat på vissa lagerplatser och antal att hantera.  
 
 > [!NOTE]  
->  Lagerförflyttningar används för att flytta artiklar till interna operationsområden i grundläggande lagerkonfigurationer, baserat på källdokument eller på ad hoc-bas.  
+>  Lagerförflyttningar används för att flytta artiklar till interna verksamhetsområden i grundläggande lagerkonfigurationer, baserat på källdokument eller på ad hoc-bas.  
 
 ### <a name="2-create-outbound-request"></a>2: Skapa avgående rekvisition  
  När det avgående källdokumentet släpps skapas en avgående distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  
@@ -103,7 +103,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
  När det avgående källdokumentet släpps skapas en lagerplockförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren. Beroende på inställningarna skapar förbrukning från en produktions- och monteringsorder även en plockförfrågan att plocka de nödvändiga komponenterna från lagret.  
 
 ### <a name="7-generate-pick-worksheet-lines"></a>7: Generera plockningsförslagsrader  
- Användaren som är ansvarig för att koordinera plockningar hämtar den lagerplockningsraderna i **Plockningsförslag** baserat på plockförfrågningar från utleveranser från distributionslager eller interna operationer med komponentförbrukning. Användaren väljer raderna som ska plockas och förbereder plockningarna genom att ange vilka lagerplatser som de ska tas från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller operationsresursen.  
+ Användaren som är ansvarig för att koordinera plockningar hämtar den lagerplockningsraderna i **Plockningsförslag** baserat på plockförfrågningar från utleveranser från distributionslager eller interna operationer med komponentförbrukning. Användaren väljer raderna som ska plockas och förbereder plockningarna genom att ange vilka lagerplatser som de ska tas från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
 
  Användaren anger plockningsmetoder för optimerad lagerhantering och använder sedan en funktion för att skapa motsvarande den distributionslagerplockningsdokument, som tilldelats olika lagerarbetare som utför distributionslagerplockningarna. När distributionslagerplockningar är fullständigt tilldelade tas **Plockningsförslag** bort.  
 

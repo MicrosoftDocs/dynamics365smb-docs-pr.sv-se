@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Införa utflöde från artiklar
@@ -32,14 +32,14 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Bokför inleveransen av artiklar direkt från det ankommande orderdokumentet och därmed registrera införseln, eftersom det finns någon lagerkonfiguration.|[Så här inlevererar du artiklar](warehouse-how-receive-items.md)|  
-|Införa artiklar order för order och bokföra inleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Så här: Införa artiklar med lagerartikelinförslar](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Införa artiklar för flera order i en avancerad lagerkonfiguration.|[Så här: Införa artiklar med dist.lager artikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Införa producerade eller monterade artiklar i engrundläggande eller avancerad lagerkonfiguration.|[Så här för du in Produktions- eller monteringsutflöde](warehouse-how-to-put-away-production-output.md)|
-|Planera optimerade införselinstruktioner för ett antal bokförda lagerinleveranser i stället för att lagerarbetare agerar direkt på inleveranser.|[Så här: Planera artikelinförsel i förslaget](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Lägga tillbaka artiklar som har plockats tekniskt med en intern plockning, till exempel för en produktionsorder som inte förbrukat det förväntade antalet.|[Så här: plockning och artikelinförsel utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Dela upp en införselrad för att placera en del av införselantalet på tillgängliga lagerplatser eftersom den bestämda lagerplatsen är full.|[Så här: Dela Dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få direkt tillgång till införslar som tilldelats dig som lagerarbetare.|[Så här: Hitta distributionslagertilldelningar](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Bokför inleveransen av artiklar direkt från det ankommande orderdokumentet och därmed registrera införseln, eftersom det finns någon lagerkonfiguration.|[Ta emot artiklar](warehouse-how-receive-items.md)|  
+|Införa artiklar order för order och bokföra inleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Införa artiklar för flera order i en avancerad lagerkonfiguration.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Införa producerade eller monterade artiklar i engrundläggande eller avancerad lagerkonfiguration.|[Föra in produktions- eller monteringsutflöde](warehouse-how-to-put-away-production-output.md)|
+|Planera optimerade införselinstruktioner för ett antal bokförda lagerinleveranser i stället för att lagerarbetare agerar direkt på inleveranser.|[Planera artikelinförsel i förslag](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Lägga tillbaka artiklar som har plockats tekniskt med en intern plockning, till exempel för en produktionsorder som inte förbrukat det förväntade antalet.|[Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Dela upp en införselrad för att placera en del av införselantalet på tillgängliga lagerplatser eftersom den bestämda lagerplatsen är full.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Få direkt tillgång till införslar som tilldelats dig som lagerarbetare.|[Hitta distributionslagertilldelningar](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

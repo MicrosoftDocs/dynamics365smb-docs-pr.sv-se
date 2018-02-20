@@ -1,5 +1,5 @@
 ---
-title: "Så här kan du spåra artiklar med artikelspårningar | Microsoft Docs"
+title: "Spåra artiklar med artikelspårningar | Microsoft Docs"
 description: "Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna för artikelspårning och analys."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c9944bc25131a5cb51015483511bd7d4854f4c1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cc24989d2cf770cd88bbde23d483e3859ff4a68a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-trace-item-tracked-items"></a>Så här kan du spåra artiklar med artikelspårningar
+# <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna för artikelspårning och analys.  
 
  Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen i följande fall: när användaren vill få information om vilka kunder som tog emot produkter med ett visst partinummer eller när användaren vill få information om vilket parti en defekt komponent har sitt ursprung i.  
@@ -32,7 +32,7 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 
 ## <a name="to-trace-item-tracked-items"></a>Se spårade artiklar  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelspårning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelspårning** och välj sedan relaterad länk.  
 2.  I filterfälten längst upp i fönstret ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
 3.  I fältet **Visa komponenter** väljer om ursprunget för artiklarnas komponenter dessutom ska visas. Dina alternativ i det här fältet är följande.  
 
@@ -61,7 +61,7 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Så här hittar du spårade artiklar med Analysera  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Navigera** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Navigera** och välj sedan relaterad länk.  
 2.  På Snabbfliken **Artikelspårning**, i fälten **Serienr** och **Partinr**, anger du artikelspårningsnumren som du vill spåra.  
 3.  Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 
@@ -69,7 +69,7 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 [Lagersaldo](inventory-manage-inventory.md)  
 [Detaljer: Artikelspårning](design-details-item-tracking.md)
 [Designdetaljer - artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
-[Så här reserverar du artiklar](inventory-how-to-reserve-items.md)  
+[Reservera artiklar](inventory-how-to-reserve-items.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)
 

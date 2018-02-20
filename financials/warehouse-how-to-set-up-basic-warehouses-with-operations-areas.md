@@ -1,6 +1,6 @@
 ---
-title: "Så här: Ställa in grundläggande dist.lager med operationsområden | Microsoft Docs"
-description: "Om internt operationsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt operationsområde:"
+title: "Så här: Ställa in grundläggande dist.lager med verksamhetsområden | Microsoft Docs"
+description: "Om ett internt verksamhetsområde - till exempel produktion eller montering - finns i grundläggande distributionslagerkonfigurationer där lagerställen använder inställningsfältet **Lagerplats obligatorik** samt eventuellt fälten **Begär plockning** och **Begär artikelinförsel** kan du använda tre grundläggande lagerdokument för att registrera lageraktiviteter för interna verksamhetsområden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8fa067c5a6d96d0d992c1488f31aa2929efc6dcc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31f057f862b72cd21ecb2c1fb59674c6485a960d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-basic-warehouses-with-operations-areas"></a>Så här: Ställa in grundläggande dist.lager med operationsområden
-Om internt operationsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt operationsområde:  
+# <a name="set-up-basic-warehouses-with-operations-areas"></a>Ställa in grundläggande dist.lager med verksamhetsområden
+Om internt verksamhetsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt verksamhetsområde:  
 
 - **lagerförflyttning** fönster.  
 - Fönstret **Lagerplockning**.  
@@ -37,25 +37,25 @@ Att använda dessa fönster med intern operation t.ex för att plocka komponente
 
 Lagerplatskoder som definierats på lagerställekort anger ett standardlagerflöde för vissa aktiviteter, till exempel komponenter i en monteringsavdelning. Ytterligare funktioner finns för att se till att artiklar inte kan plockas eller flyttas till andra aktiviteter när de placerats på en viss lagerplats. Mer information finns i avsnittet ”Så här skapar du särskilda komponentlagerplatser”.
 
-Procedurerna baseras på att ställa in grundläggande av lageraktiviteter kring en produktionsområde. Momentet är liknande för andra operationsområden, t.ex montering, servicehantering och projekt.  
+Procedurerna baseras på att ställa in grundläggande av lageraktiviteter kring en produktionsområde. Momentet är liknande för andra verksamhetsområden, t.ex montering, tjänstehantering och projekt.  
 
 > [!NOTE]  
 >  I följande procedur här fältet **Lagerplats ska finnas** på lagerställekort markeras som ett villkor, eftersom det betraktas som grund för en nivå i lagerstyrningen.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Om du vill aktivera lagerdokument för intern operation aktiviteter  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Öppna lagerställekortet som du vill ställa in.  
 3.  Välj kryssrutan **Dist.lager**, fältet **Begär artikelinförsel** för att visa att när ett ankommande eller en internt källdokument med en lagerplatskod släpps, en lagerartikelinförsel eller en lagertransportdokument kan skapas.  
 4.  Välj **Begär plockning** för att visa att när ett utgående eller en internt källdokument med en lagerplatskod skapas, en lagerplockning eller en lagertransportdokument måste skapas.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Så här definierar du en standardlagerplatsstruktur i produktionsområdet  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Öppna lagerstället som du vill ställa in.  
 3.  På Snabbfliken **Lagerplatser** , i **Öppen prod.lagerplats kod** fältet, ange koden för lagerplatsen i produktionsområdet med överflöd av komponenter som maskinoperatören kan använda utan att begära en lageraktivitet om att ta dem till lagerplatsen. Artiklar som placeras på denna lagerplats, används vanligtvis för automatisk bokföring. Det innebär att **Bokföringsmetod** fältet, innehåller **Framåt** eller **Bakåt**.  
 4. I fältet **Till prod.-lagerplats - kod** anger du koden för lagerstället i produktionen där komponenter, som plockas för produktion i denna plats, placeras som standard, innan de kan förbrukas. Artiklar som placeras på denna lagerplats, används vanligtvis för förbrukningsbokföring. Det innebär att **Bokföringsmetod** fältet innehåller **Manuell** eller **Plocka + framåt** eller **Plocka + bakåt** för dist.lager plockning och lagerförflyttningar.  
 
     > [!NOTE]  
-    >  Om du använder lagerplockningar definierar fältet **Lagerplatskod** på en produktionsorderkomponentrad lagerplatsen *ta* från vilken antalet komponenter minskas när konsumtionen bokförs. Om du använder lagerförflyttningar definierar fältet **Lagerplatskod** på en produktionsorderkomponentrad, lagerplatsen *plats* i operationsområdet från vilken antalet lagerarbetare måste placera komponenter.  
+    >  Om du använder lagerplockningar definierar fältet **Lagerplatskod** på en produktionsorderkomponentrad lagerplatsen *ta* från vilken antalet komponenter minskas när konsumtionen bokförs. Om du använder lagerförflyttningar definierar fältet **Lagerplatskod** på en produktionsorderkomponentrad, lagerplatsen *plats* i verksamhetsområdet från vilken antalet lagerarbetare måste placera komponenter.  
 
 5. På Snabbfliken **Lagerplatser** , i **Från prod.lagerplats - kod** fältet, ange koden för lagerplatsen i produktionsområdet där färdiga slutartiklar tas från som standard, när processen omfattar lageraktiviteter. I grundläggande lagerkonfigurationer registreras aktiviteten som en lagerartikelinförsel eller en lagerförflyttning.  
 
@@ -66,20 +66,20 @@ Diagrammet visar hur **Lagerplatskod** på produktionsorderkomponentraderna fyll
 ![Flödesschema för lagerplats](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Så här definierar du en standardlagerplatsstruktur i monteringsområdet
-Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Med **lagerförflyttning** fönstret. För mer informatio, se [Så här: Flytta komponenter till ett operationsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Använda istället fönstret **Lagertransport**. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
-Om plockning- och leveransförsäljningsradantal läggs till i order ska du följa vissa regler när du skapar lagerplockningsraderna. Mer information finns i avsnittet ”hantera artiklar för montering mot kundorder i lagerplockningar” i [Så här plockar du artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
+Om plockning- och leveransförsäljningsradantal läggs till i order ska du följa vissa regler när du skapar lagerplockningsraderna. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder i lagerplockningar” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Mer information finns i [Monteringshantering](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>För att ställa in automatiskt skapa en lagertransport, när monteringsartikeln för lagerplockningen skapas.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Monteringsinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Monteringsinställningar** och välj sedan relaterad länk.
 2. Markera kryssrutan **Skapa transporter automatiskt**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Anger lagerplatsen i monteringsområdet där komponenter placeras som standard innan de kan förbrukas vid montering.
 Värdet i det här fältet infogas automatiskt i fältet **Lagerplatskod** på monteringsorderrader när lagerstället anges i fältet **Platskod** på monteringsorderraden.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Öppna lagerstället som du vill ställa in.
 3. Fyll i fältet **Till monteringsplats - kod**.
 
@@ -91,7 +91,7 @@ Lagerplatskoder som definierats på lagerställekort anger ett standardlagerflö
 > [!NOTE]
 > Den här konfigurationen är endast möjlig för lagerplatser där fältet Lagerplats ska finnas är markerat.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Öppna lagerstället som du vill ställa in.
 3. Fyll i fältet **Från monteringsplats - kod**.
 
@@ -110,9 +110,9 @@ Värdet i fältet infogas automatiskt i fältet Lagerplatskod på försäljnings
 
 Om **Lagerpl.kod för mont. mot lev.** är tomt, används fältet **från monteringsplats-kod** i stället. Om båda konfigurationsfälten är tomma används den sista använda lagerplatsen med innehåll i fältet **Lagerplatskod** på försäljningsorderrader.
 
-Samma lagerplatskod kopieras i sin tur till fältet **Lagerplatskod** på lagerplockningsraden som hanterar utleveransen av antalet för montering mot kundorder. Mer information finns i avsnittet ”hantera artiklar för montering mot kundorder i lagerplockningar” i [Så här plockar du artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
+Samma lagerplatskod kopieras i sin tur till fältet **Lagerplatskod** på lagerplockningsraden som hanterar utleveransen av antalet för montering mot kundorder. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder i lagerplockningar” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Öppna lagerstället som du vill ställa in.
 3. Fyll i fältet **Lagerpl.kod för mont. mot lev.**.
 
@@ -123,12 +123,12 @@ Antalet i lagerplatserna kan fortfarande reserveras. Därmed ingår antalet i de
 
 Till exempel skapas en produktionsgrupp med en lagerplatskod i fältet **Till prod.-lagerplats - kod**. Produktionsorderkomponentrader med den här lagerplatskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerplatsen eftersom de är fortfarande tillgängligt lagerplatsinnehåll. Se till att lagerplatsinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerplatskoden i **Lagerplatser**-fönstret som du öppnar från lagerställekortet.
 
-Att dedikera en lagerplats påminner om funktionen att använda lagerplatstyper, som endast finns i avancerade distributionslager. (Mer information finns i [Så här: Skapa Lagerplatstyper](warehouse-how-to-set-up-bin-types.md).)
+Att dedikera en lagerplats påminner om funktionen att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerplatser](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
 > Artiklar på dedikerade lagerplatser skyddas inte när de plockas och förbrukas som produktionskomponenter med fönstret Lagerplockning.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk. Välj lagerstället som du vill uppdatera.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk. Välj lagerstället som du vill uppdatera.  
 2.  Välj åtgärden **Lagerplatser**.  
 3.  Välj **Dedikerad**-fältet för varje Lagerplats som du vill använda exklusivt för vissa interna operationer och där kvantiteten på lagerplatsen ska reserveras för den interna åtgärd som placerats där.  
 

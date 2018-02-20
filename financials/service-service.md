@@ -31,13 +31,13 @@ Löpande kundservice är en viktig del av all affärsverksamhet. Det bidrar till
 
 Dessutom kan du standardisera kodning, lägga upp kontrakt, införa en rabattpolicy och skapa vägkartor för servicepersonal.  
 
-I allmänhet finns det två aspekter av servicehantering: Konfigurera och ställa in systemet samt använda det för prissättning, kontrakt, order, beordra ut servicepersonal och finplanera.  
+I allmänhet finns det två aspekter av tjänstehantering: Konfigurera och ställa in systemet samt använda det för prissättning, kontrakt, order, beordra ut servicepersonal och finplanera.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Ställa in Servicehantering, bland annat felkoder, policies, standarddokument och mallar.|[Ställa in servicehantering](service-setup-service.md)|  
+|Ställa in Servicehantering, bland annat felkoder, policies, standarddokument och mallar.|[Ställa in tjänstehantering](service-setup-service.md)|  
 |Hantera serviceprissättningen, skapa serviceartiklar och förstå hur du övervakar framsteg.|[Planera service](service-plan-service.md)|  
 |Skapa och hantera avtal mellan dig och kunderna.|[Uppfylla servicekontrakt](service-fulfill-service-contracts.md)|  
 |Ge kunder service och fakturera serviceorder.|[Leverera service](service-deliver-service.md)|  

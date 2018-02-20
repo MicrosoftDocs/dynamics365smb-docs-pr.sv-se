@@ -1,6 +1,6 @@
 ---
 title: "Genomgång: Plockning och leverans i grundläggande lagerkonfiguration | Microsoft Docs"
-description: "I Dynamics 365 kan de avgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån."
+description: "I Finance and Operations, Business edition kan de utgående processerna för plockning och utleverans utföras på olika fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivån."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 41a23df0e19bda1262dafbfaf89df7518b2b40b6
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
@@ -55,14 +55,14 @@ För att kunna utföra den här genomgången behöver du:
 -   CRONUS Sverige AB installerad  
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
-    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
     2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
     3.  Ange SILVER i fältet **Lagerställekod**.  
     4.  Välj fältet **Standard**.  
 
 -   Gör artikeln LS-81 tillgänglig på platsen SILVER, genom att följa nedanstående steg:  
 
-    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.  
     2.  Öppna standardjournalen och skapa sedan två artikeljournalrader med följande information om arbetsdatumet (23 januari).  
 
         |Transaktionstyp|Artikelnummer|Platskod|Lagerplatskod|Antal|  
@@ -79,7 +79,7 @@ Ellen, lagerchefen i CRONUS ställer in lagret SILVER för grundläggande plockn
 Inställningen av fönstret **Lagerställekort** definierar företagets lagerflöden.  
 
 ### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet SILVER.  
 3.  Markera kryssrutan **Begär plockning**.  
 
@@ -87,7 +87,7 @@ Inställningen av fönstret **Lagerställekort** definierar företagets lagerfl�
 Försäljningsorder är den vanligaste typen för utgående källdokumentet.  
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en försäljningsorder för kund 10000 på arbetsdatumet (23 januari) med följande försäljningsorderrad.  
 
@@ -105,7 +105,7 @@ Försäljningsorder är den vanligaste typen för utgående källdokumentet.
 I fönstret **Lagerplockning** kan du hantera alla utgående distributionslageraktiviteter för ett särskilt källdokument, t.ex en försäljningsorder.  
 
 ### <a name="to-pick-and-ship-items"></a>Plocka och utleverera artiklar så här  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerplockningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerplockningar** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Välj fältet **Källdokument** och sedan **Försäljningsorder**.  
 4.  Välj fältet **Ursprungsnr.**, markera raden för försäljningen till kund 10000 och välj sedan knappen **OK**.  
@@ -119,12 +119,12 @@ I fönstret **Lagerplockning** kan du hantera alla utgående distributionslagera
     De 30 högtalarna har nu registrerats som plockade från lagerplatser S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
 
 ## <a name="see-also"></a>Se även  
- [Så här plockar du artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [Så här: plocka artiklar för Dist.lager utleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Så här: Ställa in grundläggande dist.lager med operationsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Så här: Flytta komponenter till ett operationsområde i grundläggande lagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Så här: Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)   
- [Så här flyttar du artiklar ad hoc i grundläggande lagerkonfiguration](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)   
+ [Plocka artiklar för utleverans från dist.lager](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Ställa in grundläggande dist.lager med verksamhetsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Flytta komponenter till ett verksamhetsområde i en grundläggande lagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)   
+ [Flytta artiklar ad hoc i grundläggande lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

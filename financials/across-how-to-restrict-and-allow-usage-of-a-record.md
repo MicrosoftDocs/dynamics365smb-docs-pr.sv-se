@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0dc8b3eeecfbf3f4a96985f4e4adaf0b3a5a21d0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4636cdedc2c99d1aa7cfc2dc361f7135aa3c4199
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restrict-and-allow-usage-of-a-record"></a>Så här begränsar och tillåter du användning av en post
+# <a name="restrict-and-allow-usage-of-a-record"></a>Begränsa och tillåt användningen av en post
 Om du vill begränsa en post från att användas i vissa aktiviteter, till exempel tills posten har godkänts, kan du inkorporera två arbetsflödessvar i ett arbetsflöde som kontrollerar användningen av posten. Ett arbetsflödessvar ska begränsa användningen av posten enligt definitionen i arbetsflödeshändelsen och villkoren. Ett annat arbetsflödessvar ska tillåta användning av posten enligt definitionen i arbetsflödeshändelsen och villkoren. Två svar finns i den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] för detta ändamål: **Tillåt användning av en post** och **tillåt användningen av en post.**.
 
 > [!NOTE]  
@@ -32,8 +32,8 @@ Följande procedur beskriver hur du begränsar inköpsorder från att bokföras 
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Så här skapar du ett arbetsflödessteg som begränsar bokföring av icke godkända inköpsorder  
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Söka efter sida eller rapport") gå till **Arbetsflöden** och välj sedan relaterad länk.  
-2. I fönstret **Arbetsflöden** skapar du ett nytt arbetsflöde som kallas Arbetsflöde för godkännande av inköpsfaktura. (Mer information finns i [Så här skapar du arbetsflöde](across-how-to-create-workflows.md).)  
-3. Välj åtgärd **Kopiera från arbetsflödesmallen**.  
+2. I fönstret **Arbetsflöden** skapar du ett nytt arbetsflöde som kallas Arbetsflöde för godkännande av inköpsfaktura. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
+3. Välj åtgärden **Kopiera från arbetsflödesmallen**.  
 4. Välj fältet **Källarbetsflödekod** och välj sedan i fönstret **arbetsflödesmallen**, välj arbetsflödesmallen Arbetsflöde för godkännande av inköpsfaktura.  
 
      Lägg märke till att de första två arbetsflödesstegen är om du vill begränsa och sedan tillåta användning av inköpsfakturor. Fortsätt genom att ändra händelsevillkoret i det första steget i det nya arbetsflödet för att ange att det gäller inköpsorder.  
@@ -41,6 +41,6 @@ Följande procedur beskriver hur du begränsar inköpsorder från att bokföras 
 6. Fortsätt med att redigera, ta bort eller lägga till andra arbetsflödessteg så att de passar en affärsprocess som börjar med att begränsa så att icke godkända inköpsorder bokförs.  
 
 ## <a name="see-also"></a>Se även  
-[Så här skapar du arbetsflöden](across-how-to-create-workflows.md)   
+[Skapa arbetsflöden](across-how-to-create-workflows.md)   
 [Arbetsflöde](across-workflow.md)   
 

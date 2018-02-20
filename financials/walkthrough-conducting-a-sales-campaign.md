@@ -1,6 +1,6 @@
 ---
 title: "Genomgång: Genomföra en försäljningskampanj | Microsoft Docs"
-description: "En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment, eller en grupp med kontakter, med hjälp av filter i Dynamics 365."
+description: "En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du i Finance and Operations, Business edition ett segment eller en grupp med kontakter med hjälp av filter."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e933115531f9adb0296ad8983be00da480f11f25
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
@@ -62,7 +62,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-set-up-a-campaign"></a>Så här lägger du upp en kampanj  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Kampanjer**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") , ange **Kampanjer**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **nytt** för att skapa en ny kampanj. På kampanjkortet trycker du på retur för att ett kampanjnummer automatiskt ska infogas.  
 3.  I fältet **Beskrivning** anger du en beskrivning av kampanjen, till exempel **FUTURUS-mässa**.  
 4.  Välj fältet **Statuskod** och en statuskod från listan som öppnas i fönstret **Kampanjstatus**.  
@@ -148,11 +148,11 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 9. Bilagorna skickas. När processen är klar för väljer du knappen **OK** för meddelandet som anger att segmentet har loggats.  
 
-     Breven skrivs ut automatiskt och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan flyttas till listan över loggade segment. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Loggade segment** och välj sedan relaterad länk för att se den listan.  
+     Breven skrivs ut automatiskt och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan flyttas till listan över loggade segment. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Loggade segment** och välj sedan relaterad länk för att se den listan.  
 
 10. När segmentet har loggats registreras varje brev som skickas som en interaktion, som du kan visa i loggen.  
 
-     Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Interaktionslogg** och välj sedan relaterad länk. Det finns en transaktion för varje skickat brev.  
+     Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Interaktionslogg** och välj sedan relaterad länk. Det finns en transaktion för varje skickat brev.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Så här skickar du ett e-postmeddelande till en kontakt  
 
@@ -165,7 +165,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 7.  Markera kryssrutan **Skapa uppföljningssegment**.  
 8.  Välj knappen **OK**.  
 
-     Breven skickas automatiskt med e-post och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan sparas i listan över loggade segment. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Loggade segment** och välj sedan relaterad länk för att se den listan.  
+     Breven skickas automatiskt med e-post och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan sparas i listan över loggade segment. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Loggade segment** och välj sedan relaterad länk för att se den listan.  
 
 ## <a name="registering-campaign-responses"></a>Registrera kampanjsvar  
  Under de närmaste veckorna svarar de potentiella kunderna på brevet. Marknadsföringschefen vill hålla ordning på svaren och registrerar korrespondensen.  

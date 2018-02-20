@@ -1,6 +1,6 @@
 ---
 title: "Hantera affärsmöjligheter och leads | Microsoft Docs"
-description: "Beskriver hantering av alla inkommande lead eller affärsmöjligheter i Dynamics 365 och associera affärsmöjligheten med en säljare för att följa upp potentiell försäljning."
+description: "Beskriver hur du hanterar alla inkommande leads eller affärsmöjligheter i Finance and Operations, Business edition, samt hur du associerar affärsmöjligheten med en säljare för att följa upp potentiell försäljning."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Hantera Försäljningsmöjligheter
@@ -28,8 +28,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 | Om du vill | Gå till |
 | --- | --- |
-| Ange de försäljningscykler du brukar följa och de olika etapper i varje försäljningscykel för affärsmöjligheter. |[Så här skapar du cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Skapa försäljningsmöjligheter från dina kontakter. |[Så här skapar du affärsmöjligheter](marketing-how-create-opportunities.md) |
+| Ange de försäljningscykler du brukar följa och de olika etapper i varje försäljningscykel för affärsmöjligheter. |[Skapa cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Skapa försäljningsmöjligheter från dina kontakter. |[Skapa affärsmöjligheter](marketing-how-create-opportunities.md) |
 | Flytta en försäljningsmöjlighet via försäljningcykeln till färdigställande. |[Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Se även

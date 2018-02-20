@@ -12,13 +12,13 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Så här arbetar du med Ej lagerförda artiklar
+# <a name="work-with-nonstock-items"></a>Arbeta med ej lagerförda artiklar
 Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du inte vill hålla i lager, tills du börjar sälja dem. När du vill börja hålla sådana artiklar i lager, kan du konvertera dem till vanliga artikelkort på två sätt.
 
 * Från en ej lagerförd artikel skapar du ett nytt lagerkort baserat på en mall.
@@ -29,29 +29,29 @@ Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du 
 
 En ej lagerförd artikel har vanligtvis artikelnumret från den leverantör som levererar den. Om du vill aktivera konvertering av ett kort för en ej lagerförd artikel till ett vanligt artikelkort måste du först ställa in hur leverantörens artikelnumrering konverteras till din egen artikelnumrering.   
 
-## Så här skapar du en ej lagerförd artikel
+## <a name="to-create-a-nonstock-item"></a>Så här skapar du en ej lagerförd artikel
 Kort för ej lagerförd artikel har mycket mindre information än normala artikelkort, eftersom du bara använder dem för att erbjuda på offerter och på andra sätt. Därför måste de konverteras till normala artikelkort, innan du kan bokföra försäljningstransaktioner för dem.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Ej lagerförda artiklar**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Ej lagerförda artiklar**, och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Så här ställer du in hur ej lagerförda artikelnummer konverteras till ditt eget nummer
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Så här ställer du in hur ej lagerförda artikelnummer konverteras till ditt eget nummer
 Om du vill aktivera konvertering av ett kort för en ej lagerförd artikel till ett vanligt artikelkort måste du först ställa in hur leverantörens artikelnumrering konverteras till dit eget nummerformat.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inställningar för ej lagerförda artiklar**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inställningar för ej lagerförda artiklar**, och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
-## Om du vill omvandla en ej lagerförd artikel till en normal artikel
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Ej lagerförda artiklar**, och välj sedan relaterad länk.
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Om du vill omvandla en ej lagerförd artikel till en normal artikel
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Ej lagerförda artiklar**, och välj sedan relaterad länk.
 2. Öppna kortet för den ej lagerförda artikeln som du vill konvertera till en normalt artikel.
 3. I fönstret **Ej lagerförd artikelkort** väljer du åtgärden **Skapa artikel**.
 
-Ett nytt artikelkort förifyllt med information från den ej lagerförda artikeln och en relevant artikelmall skapas. Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
+Ett nytt artikelkort förifyllt med information från den ej lagerförda artikeln och en relevant artikelmall skapas. Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-## Om du vill sälja en ej lagerförd artikel och konvertera den till en normal artikel
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**. Fyll i övriga fält på snabbfliken **Allmänt** som för alla andra försäljningsorder. Mer information finns i [Så här säljer du produkter](sales-how-sell-products.md).
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Om du vill sälja en ej lagerförd artikel och konvertera den till en normal artikel
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
+2. Välj åtgärden **Ny**. Fyll i övriga fält på snabbfliken **Allmänt** som för alla andra försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3. På en ny försäljningsrad i fältet **Typ** väljer du **Artikel**, men lämnar **Nr.** tomt.
 4. Välj åtgärden **Rad** och välj sedan åtgärden **Välj Ej lagerförda artiklar**.
 
@@ -59,14 +59,14 @@ Ett nytt artikelkort förifyllt med information från den ej lagerförda artikel
 5. Markera den ej lagerförda artikel som du vill visa i fönstret **Ej lagerförda artiklar** och klicka på **OK**.
 6. När försäljningsordern är slutförd väljer du åtgärden **Bokföra**.
 
-Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
+Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 > [!NOTE]  
 >   En korsreferenspost för artikel skapas automatiskt för den leverantör som levererar artikeln mellan leverantörens artikelnummer och det nya artikelnumret.
 
-## Se även
-[Så här registrerar du nya objekt](inventory-how-register-new-items.md)  
-[Så här skapar du specialorder](sales-how-to-create-special-orders.md)|  
+## <a name="see-also"></a>Se även
+[Registrera nya artiklar](inventory-how-register-new-items.md)  
+[Skapa specialorder](sales-how-to-create-special-orders.md)|  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

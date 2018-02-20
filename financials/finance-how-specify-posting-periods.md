@@ -15,21 +15,21 @@ ms.search.keywords: user setup
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86114cd184a7a9f10ae28fbb28fb3049e8e8f2d2
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-posting-periods"></a>Så här anger du bokföringsperioder
+# <a name="specify-posting-periods"></a>Så här anger du bokföringsperioder
 Använd bokföringsperioder för att ange om användare kan bokföra i redovisningen.  
 
 ## <a name="to-specify-posting-periods"></a>Så här anger du bokföringsperioder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. I fönstret **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
 
 > [!NOTE]  
->   Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare i fönstret **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges i fönstret **Redovisningsinställningar**. Mer information finns i avsnittet ”Ställa in tidsbegränsningar för användare” i [så här: hantera användare och behörigheter ](ui-how-users-permissions.md).
+>   Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare i fönstret **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges i fönstret **Redovisningsinställningar**. Mer information finns i avsnittet ”Ställa in tidsbegränsningar för användare” i [Hantera användare och behörigheter](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  

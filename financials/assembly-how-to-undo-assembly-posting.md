@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Så här: Ångra monteringbokning
-Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas, eller eftersom det inte bör både ha bokförts i första omgången och måste återställas.
+# <a name="undo-assembly-posting"></a>Ångra monteringsboking
+Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas till, eller eftersom den inte borde både ha bokförts allts och därför måste återställas.
 
 När du återställer en bokförd monteringsorder, skapas en uppsättning korrigerande artikeltransaktioner för att återföra de ursprungliga transaktionerna. Varje positivt utflödestransaktion för monteringsartikeln återförs av en negativ utflödestransaktion. Varje negativ förbrukningstransaktion för en monteringskomponent återförs av en positiv förbrukningstransaktion. Fast kostnad-koppling skapas automatiskt mellan korrigerande och ursprungliga transaktionerna som visas för att garantera exakt kostnadsåterställning.  
 
@@ -39,7 +39,7 @@ Dessutom kan befintliga monteringsorder endast återställs, om antalet rader oc
 > [!TIP]  
 >  För att lösa konflikter på grund av radändringar, kan du manuellt återföra ändringar på raderna i fråga, innan du återställer den relaterade bokförda monteringsorder. Alternativt kan du bokföra monteringsorder fullständigt och sedan välja att skapa den på nytt, när du ångra bokföringen.  
 
-Nedan beskrivs hur du återställ bokförda monteringsorder där artiklar monteras mot lager. Om du vill ångra bokförda monteringsorder där artiklar monteras till en försäljningsorder, måste du använda **Återställ utleverans** funktionen på en bokförd utleverans som avser bokförda monteringsorder. Mer information finns i [Så hör: Återföra bokföringar](finance-how-reverse-journal-posting.md). Ångra av den bokförda monteringsordern sker sedan automatiskt på samma sätt som beskrivs i det här avsnittet.  
+Nedan beskrivs hur du återställ bokförda monteringsorder där artiklar monteras mot lager. Om du vill ångra bokförda monteringsorder där artiklar monteras till en försäljningsorder, måste du använda **Återställ utleverans** funktionen på en bokförd utleverans som avser bokförda monteringsorder. Mer information finns i [Återföra bokföringar](finance-how-reverse-journal-posting.md). Ångra av den bokförda monteringsordern sker sedan automatiskt på samma sätt som beskrivs i det här avsnittet.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Om du vill ångra bokföring av en monteringsorder  
 1.  Om du vill ångra en helt eller delvis bokförd monteringsorder, väljer du ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), anger **Bokförda monteringsorder** och väljer sedan relaterad länk.  
@@ -57,9 +57,9 @@ Fältet **Återförd** på monteringsorderhuvudet ändras till **Ja**. Montering
 
 ## <a name="see-also"></a>Se även  
 [Monteringshantering](assembly-assemble-items.md)  
-[Så här: Återföra en bokning](finance-how-reverse-journal-posting.md)  
-[Så här behandlar du försäljningreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)    
-[Så här arbetar du med strukturer](inventory-how-work-BOMs.md)  
+[Återföra bokningar](finance-how-reverse-journal-posting.md)  
+[Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)    
+[Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

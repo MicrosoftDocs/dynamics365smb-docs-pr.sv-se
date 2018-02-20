@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0ea4ec611a9b66f192a9b311d878591085c31c03
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Ankommande distributionslagerflöde
@@ -33,7 +33,7 @@ Dessutom finns följande interna källdokument som fungerar som ankommande käll
 - Produktionsorder med bokföring av utflöde  
 - Monteringsorder med bokföring av utflöde  
 
-De två sista motsvarar ankommande flöden till distributionslagret från interna operationsområden. Se [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md) för mer information om lagerhantering för interna ankommande och utgående processer.  
+De två sista motsvarar ankommande flöden till distributionslagret från interna verksamhetsområden. Se [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md) för mer information om lagerhantering för interna ankommande och utgående processer.  
 
 Processer och användargränssnittsdokument i ankommande distributionslagerflöden är olika för grundläggande och avancerad lagerkonfigurationer. Den huvudsakliga skillnaden är att aktiviteter utförs order-för-order i grundläggande distributionslagerkonfiguration, och att de konsolideras för flera order i avancerad distributionslagerkonfiguration. Mer information om olika lagerkomplexitetsnivåer finns i [Designdetaljer: översikt över lagret](design-details-warehouse-setup.md).  
 
@@ -95,7 +95,7 @@ Användaren som är ansvarig för artikelinförsel från interna operationer ska
 När det ankommande källdokumentet bokförs skapas en förfrågan om lagerartikelinförsel automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren. Beroende på inställningarna skapar utflöde från en produktionsorder också en förfrågan om artikelinförsel att föra in de färdiga produkterna i lagret.  
 
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generera rader med artikelinförselförslag (valfritt)  
-Användaren som är ansvarig för att koordinera artikelinförsel hämtar artikelinförselraderna för distributionslager i **Artikelinförsel förslag** baserat på bokförda distributionslagerinleveranser eller interna operationer med utförsel. Användaren väljer raderna som ska artikelinföras och förbereder artikelinförseln genom att ange vilka lagerplatser att ta från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller operationsresursen.  
+Användaren som är ansvarig för att koordinera artikelinförsel hämtar artikelinförselraderna för distributionslager i **Artikelinförsel förslag** baserat på bokförda distributionslagerinleveranser eller interna operationer med utförsel. Användaren väljer raderna som ska artikelinföras och förbereder artikelinförseln genom att ange vilka lagerplatser att ta från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
 
 När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader  tas bort från **Artikelinförsel förslag**.  
 

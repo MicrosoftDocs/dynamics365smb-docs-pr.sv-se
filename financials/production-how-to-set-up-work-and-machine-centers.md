@@ -1,6 +1,6 @@
 ---
 title: "Så här ställer du in produktions- och maskingrupper | Microsoft Docs"
-description: "På ett **Produktionsgrupp**-kort ordnar du fasta värden och behov för produktionsresursen. På så sätt kan du styra utdata från den produktion som utförs i produktionsgruppen."
+description: "På ett **Produktionsgruppkort** ordnar du fasta värden och behov för produktionsresursen. På så sätt kan du styra utdata från den produktion som utförs i produktionsgruppen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Så här: ställa in produktionsgrupper och maskingrupper
+# <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
 Programmet skiljer mellan tre typer av kapaciteter. Dessa är ordnade i hierarkisk ordning. Varje nivå innehåller underordnade nivåer.  
 
 Den översta nivån är produktionsavdelningen. Till produktionsavdelningarna är produktionsgrupper kopplade. Varje produktionsgrupp kan endast tillhöra en produktionsavdelning.
@@ -31,15 +31,15 @@ En produktionsgrupps planerade kapacitet består av motsvarande maskingrupps dis
 Dispositionen lagras i kalendertransaktioner. Innan du ställer in produktions- eller maskingrupper, måste du lägga upp fabrikskalendrar. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Så här skapar du produktionsgrupper:
-Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in maskingruppkalender är liknande förutom snabbfliken **operationsföljdinställningar**.  
+Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in maskingruppkalender är liknande förutom snabbfliken **verksamhetsföljdinställningar**.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  I fältet **Produktionsavdelning** väljer du den resursgrupp på högre nivå som produktionsgruppen är underordnad. Välj åtgärden **Ny** i listrutan.  
-5.  Välj fältet **Spärrad** om du vill förhindra att produktionsgruppen används i någon behandling. Detta innebär att produktionen inte kan bokföras för en artikel som produceras i produktionsgruppen. För mer information, se [Så här bokför du produktionsutflödet](production-how-to-post-output-quantity.md).
+5.  Välj fältet **Spärrad** om du vill förhindra att produktionsgruppen används i någon behandling. Detta innebär att produktionen inte kan bokföras för en artikel som produceras i produktionsgruppen. För mer information, se [Så här bokför du produktionsutflöde](production-how-to-post-output-quantity.md).
 6.  I fältet **Inköpspris** anger du kostnaden för att producera en enhet i denna produktionsgrupp, exklusive alla andra kostnadselement. Denna kostnad kallas ofta för *direkt arbetskostnad*.  
-7.  I fältet **Indirekt kostnad %** anger du de allmänna operationskostnaderna för att använda produktionsgruppen som en procentandel av inköpspriset. Denna procentandel läggs till inköpspriset vid beräkningen av styckkostnaden.  
+7.  I fältet **Indirekt kostnad %** anger du de allmänna verksamhetskostnaderna för att använda produktionsgruppen som en procentandel av inköpspriset. Denna procentandel läggs till inköpspriset vid beräkningen av styckkostnaden.  
 8.  I fältet **Omkostnad** anger du icke-operationella kostnader för produktionsgruppen, till exempel underhållsutgifter, som ett absolut belopp.  
 
     I fältet **Styckkostnad** visas den beräknade styckkostnaden för att producera en enhet i denna produktionsgrupp, inklusive alla kostnadselement.  
@@ -47,7 +47,7 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
     Styckkostnad = Inköpspris + (Inköpspris x Indirekt kostnad %) + Omkostnad.  
 
 9.  I fältet **Styckkost. beräkningstyp** anger du om beräkningen ovan ska bygga på mängden tid som använts: **Tid** eller antalet enheter som har producerats: **Enheter**.  
-10.  Markera fältet **Specifik styckkostnad** om du vill definiera styckkostnaden för produktionsgruppen på den operationsföljdrad där den används. Detta kan vara användbart för operationer där kapacitetskostnaden skiljer sig markant från vad som är normalt för produktionsgruppen.  
+10.  Markera fältet **Specifik styckkostnad** om du vill definiera styckkostnaden för produktionsgruppen på den verksamhetsföljdrad där den används. Detta kan vara användbart för operationer där kapacitetskostnaden skiljer sig markant från vad som är normalt för produktionsgruppen.  
 11.  I fältet **Bokföringsmetod** anger du om bokföring av utflöde i produktionsgruppen ska beräknas och bokföras manuellt eller om det ska ske automatiskt med någon av följande metoder.  
 
     |Alternativ|Beskrivning|  
@@ -57,7 +57,7 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
     |**Bakåt**|Förbrukning beräkna och bokförs automatiskt när produktionsordern är färdig.|  
 
     > [!NOTE]  
-    >  Om det behövs kan bokföringsmetoden som markeras här och på **artikelkortet** åsidosättas för enskilda operationer genom att inställningen för en operationsföljdrad ändras.
+    >  Om det behövs kan bokföringsmetoden som markeras här och på **artikelkortet** åsidosättas för enskilda operationer genom att inställningen för en verksamhetsföljdrad ändras.
 
 12.  I fältet **Enhetskod** anger du den tidsenhet som ska användas för beräkning av kostnad och kapacitetsplanering för produktionsgruppen.
     För att kunna övervaka kapacitetsförbrukningen kontinuerligt måste du först ange en mätmetod. Enheterna som du anger är grundläggande enheter. Exempelvis mäts bearbetningstiden i timmar och minuter.
@@ -69,7 +69,7 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
 14.  I fältet **Effektivitet** anger du den procentandel av förväntade standardutdata som faktiskt uppnås av produktionsgruppen. Genom att ange **100** kan du ange att produktionsgruppens faktiska utdata är samma som standardutdata.  
 15. Markera kryssrutan **Konsoliderad kalender** om du också använder maskingrupper. På så sätt uppsummeras kalendertransaktioner maskingruppkalender.  
 16.  I fältet **Fabrikskalenderkod** väljer du en fabrikskalender. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  
-17.  I fältet **Kötid** anger du ett tidsintervall som måste gå innan tilldelat arbete kan påbörjas i produktionsgruppen. Observera att värdet för Kötid läggs till utöver andra icke-produktiva tidselement som till exempel Väntetid och Transporttid, som du kan ange på operationsföljdrader som använder produktionsgruppen.  
+17.  I fältet **Kötid** anger du ett tidsintervall som måste gå innan tilldelat arbete kan påbörjas i produktionsgruppen. Observera att värdet för Kötid läggs till utöver andra icke-produktiva tidselement som till exempel Väntetid och Transporttid, som du kan ange på verksamhetsföljdrader som använder produktionsgruppen.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Exempel – Olika maskingrupper kan kopplas till en produktionsgrupp
 Det är viktigt att planera vad som ska utgöra den totala kapaciteten när maskin- och produktionsgrupper skapas.
@@ -83,13 +83,13 @@ Om produktionsgruppernas kapacitet inte ska läggas till i den totala kapacitete
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Om du vill ställa in en kapacitetsbegränsad maskin- eller produktionsgrupp
 Du måste skapa produktionsresurser som du anser är kritiska och markera dem för att acceptera en bestämd beläggning i stället för den obestämda beläggning som är standard och som andra produktionsresurser accepterar. Ett kapacitetsbegränsad resurs kan vara en produktions- eller maskingrupp som du har identifierat som en flaskhals och för vilken du vill skapa en begränsad (bestämd) beläggning.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har inte stöd för detaljerad fabrikskontroll. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  har inte stöd för detaljerad fabrikskontroll. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.
 
 I fönstret **kapacitetsbegränsade resurser** kan du göra inställningar som undviker överbelastning av specifika resurser och säkerställa att ingen kapacitet blir ej fördelad om den kan öka produktionstiden för en produktionsorder. I fältet **Dämpare (% totalkapacitet)** kan du lägga till dämpartiden för resurser för att minimera åtgärdsdelning. Det gör att systemet kan schemalägga laddning till den sista möjliga dagen genom att överskrida den kritiska beläggningsprocenten något om det kan minska antalet operationer som delas.
 
 När du ska planera med kapacitetsbegränsade resurser ser systemet till att ingen resurs beläggs över sin definierade kapacitet (kritisk beläggning). Det ske genom att tilldela varje operation till den närmaste tillgängliga tidsluckan. Om tidsluckan inte är tillräckligt stor för att slutföra hela åtgärden kommer åtgärden att uppdelas i två eller flera delar som placeras i de närmaste tidsluckorna.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kap.begränsning för resurs** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kap.begränsning för resurs** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
 
@@ -99,7 +99,7 @@ När du ska planera med kapacitetsbegränsade resurser ser systemet till att ing
 > I händelse av åtgärdsdelning tilldelas inställningstiden bara en gång, eftersom det antas att vissa manuella justeringen sker för att optimera schemat.
 
 ## <a name="see-also"></a>Se även  
-[Så här skapar du fabrikskalendrar](production-how-to-create-work-center-calendars.md)  
+[Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planerad](production-planning.md)   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflows"></a>Konfigurera arbetsflöden
@@ -32,15 +32,15 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 
 |**För att**|**Gå till**|  
 |------------|-------------|  
-|Konfigurera arbetsflödesanvändare och användargrupper|[Så här konfigurerar du arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)|  
-|Konfigurera arbetsflödesanvändare som ingår i godkännandearbetsflöden.|[Så här konfigurerar du godkännandeanvändare](across-how-to-set-up-approval-users.md)|  
+|Konfigurera arbetsflödesanvändare och användargrupper|[Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)|  
+|Konfigurera arbetsflödesanvändare som ingår i godkännandearbetsflöden.|[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)|  
 |Ange hur arbetsflödesanvändare får meddelanden om arbetsflödessteg, inklusive godkännandebegäranden.|[Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)|  
-|Ange när användaren ska få meddelanden och om meddelanden ska samlas in under en period för att minska antalet meddelanden.|[Så här anger du när och hur användare ska meddelas](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Konfigurera layout och allmänt innehåll i e-post med nya meddelanden om arbetsflöden eller exportera, ändra och återimportera befintliga mallar.|[Så här hanterar du meddelandemallar](across-how-to-manage-notification-templates.md)|  
-|Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Så här konfigurerar du e-post](madeira-how-setup-email.md)|
-|Ange de olika stegen för ett arbetsflöde genom att koppla arbetsflödeshändelser till arbetsflödessvar.|[Så här skapar du arbetsflöden](across-how-to-create-workflows.md)|  
-|Använd arbetsflödesmallar till att skapa nya arbetsflöden|[Så här skapar du arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Dela arbetsflöden med andra [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Gör så här: Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)|  
+|Ange när användaren ska få meddelanden och om meddelanden ska samlas in under en period för att minska antalet meddelanden.|[Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
+|Konfigurera layout och allmänt innehåll i e-post med nya meddelanden om arbetsflöden eller exportera, ändra och återimportera befintliga mallar.|[Hantera meddelandemallar](across-how-to-manage-notification-templates.md)|  
+|Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför . [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Konfigurera e-post](madeira-how-setup-email.md)|
+|Ange de olika stegen för ett arbetsflöde genom att koppla arbetsflödeshändelser till arbetsflödessvar.|[Skapa arbetsflöden](across-how-to-create-workflows.md)|  
+|Använd arbetsflödesmallar till att skapa nya arbetsflöden|[Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Dela arbetsflöden med andra [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)|  
 |Se information om hur du konfigurerar ett arbetsflöde för godkännande av försäljningsdokument genom att följa en procedur från slutpunkt till slutpunkt.|[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Lägg till stöd för ett affärsscenario som kräver nya arbetsflödeshändelser eller svar genom att anpassa applikationskoden.|[Genomgång: Implementera nya arbetsflödeshändelser och svar](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 

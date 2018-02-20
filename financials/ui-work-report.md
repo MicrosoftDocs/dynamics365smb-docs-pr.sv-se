@@ -13,16 +13,16 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeta med rapporter
 En rapport samlar in information som baseras på en viss uppsättning kriterier och ordnar och visar informationen i ett format som är lätt att läsa, och kan skrivas ut. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
 
-Du kan visa rapporter i fliken **rapporter** på markerade sidor eller du kan använda sökning för att hitta rapporter efter namn. När du öppnar en rapport visas en sida att vi ska ange information (alternativ och filter) som du bestämmer ska ingå i rapporten. Beroende på vilken rapport anger du till exempel ett datumintervall, en viss post, till exempel en kund eller sorteringsordning. Nedan finns ett exempel:
+Du kan visa rapporter i fliken **rapporter** på markerade sidor eller också kan du använda sökning för att hitta rapporter efter namn. När du öppnar en rapport visas en sida att vi ska ange information (alternativ och filter) som du bestämmer ska ingå i rapporten. Beroende på vilken rapport anger du till exempel ett datumintervall, en viss post, till exempel en kund eller sorteringsordning. Nedan finns ett exempel:
 
 ![Rapportalternativ](media/report_options.png "Rapportalternativ")
 
@@ -67,10 +67,10 @@ Posten vid namn **Senast använda alternativ och filter** med sparade inställni
 >Som administratör kan du skapa och hantera de sparade inställningarna för rapporter för alla användare. Mer information finns i [Hantera sparade inställningar i rapporter](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Ändra layout och utseende på en rapport
-En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Om du vill växla till en annan layout kan du se [så här: ändra vilken layout som för närvarande används i en rapport](ui-how-change-layout-currently-used-report.md). Om du vill anpassa rapportens layout se [så här: skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).
+En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Om du vill växla till en annan layout, se [Ändra vilken layout som för närvarande används i en rapport](ui-how-change-layout-currently-used-report.md). Om du vill anpassa rapportens layout, se [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se även
 [Ange skrivarval för rapporter](ui-specify-printer-selection-reports.md)  
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
-[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

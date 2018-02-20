@@ -13,29 +13,29 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a057da05d6b63ee60e29de70900ffae917d0fee3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3c1771ecc9c63afc0fab335d37684fc4263cc993
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-workflows"></a>Så här skapar du arbetsflöden
+# <a name="create-workflows"></a>Skapa arbetsflöden
 Du kan skapa arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
 I fönstret **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar med svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
 
-När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden för arbetsflödesmallar som läggas till av Microsoft har prefixet ”MS-”, till exempel "MS-PIW”. Mer information finns i [Så här skapar du arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
+När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden för arbetsflödesmallar som läggas till av Microsoft har prefixet ”MS-”, till exempel "MS-PIW”. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte stöds måste en Microsoft-partner implementera dem genom att anpassa applikationskoden.  
   
 > [!NOTE]  
->  Alla meddelanden om arbetsflödessteg skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödemeddelanden och att kryssrutan **Starta automatiskt från NAS** är markerad. Mer information finns i [Använd jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
+>  Alla meddelanden om arbetsflödessteg skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödemeddelanden och att kryssrutan **Starta automatiskt från NAS** är markerad. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Skapa ett arbetsflöde  
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Söka efter sida eller rapport") gå till **Arbetsflöden** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Fönstret **arbetsflöde** öppnas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
-4. Så här skapar du arbetsflödet från en arbetsflödesmall **Arbetsflöden**, välj åtgärden **Så här skapar du arbetsflödet från en arbetsflödesmall**. Mer information finns i [Så här skapar du arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Så här skapar du arbetsflödet från en arbetsflödesmall **Arbetsflöden**, välj åtgärden **Så här skapar du arbetsflödet från en arbetsflödesmall**. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Beskriv arbetsflödet i fältet **Beskrivning**.  
 6. I fältet **kategorin** ange kategorin som arbetsflödet tillhör.  
 7. I fältet **När händelse** ange den händelse som måste uppstå för att starta arbetsflödessteget.  
@@ -67,7 +67,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
         |----------------------------------|---------------------------------------|  
         |**Formel för förfallodatum**|Ange hur många dagar det är kvar tills godkännandebegäran måste lösas från datumet då det skickades.|  
         |**Delegera efter**|Ange om och när en godkännandebegäran delegeras automatiskt till den relevanta ersättaren. Du kan välja att automatiskt delegera en, två eller fem dagar efter datumet när godkännandet begärdes.|  
-        |**Godkännartyp**|Ange vem godkännaren är, enligt inställningarna av godkännandeanvändare och arbetsflödesanvändare.<br /><br /> Följande alternativ finns:<br /><br /> -   **Säljare/Inköpare** anger att användaren som ställs in i fältet **Säljare/inköpare kod** i fönstret **Användarinställningar för godkännande** fastställer godkännaren. Godkännandebegäranposter skapas sedan enligt värdet i fältet **Gränstyp för godkännare**.<br />     Mer information finns i [Så här konfigurerar du godkännandeanvändare](across-how-to-set-up-workflow-users.md).|  
+        |**Godkännartyp**|Ange vem godkännaren är, enligt inställningarna av godkännandeanvändare och arbetsflödesanvändare.<br /><br /> Följande alternativ finns:<br /><br /> -   **Säljare/Inköpare** anger att användaren som ställs in i fältet **Säljare/inköpare kod** i fönstret **Användarinställningar för godkännande** fastställer godkännaren. Godkännandebegäranposter skapas sedan enligt värdet i fältet **Gränstyp för godkännare**.<br />     Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-workflow-users.md).|  
         |**Visa bekräftelsemeddelande**|Ange om ett bekräftelsemeddelande visas för användarna när de har begärt ett godkännande.|  
         |**Gränstyp för godkännare**|Ange hur godkännares godkännandegränser påverkas när godkännandebegärandeposter skapas för dem. En kvalificerad godkännare är en godkännare vars godkännandegräns är högre än värdet på begäran.<br /><br /> Följande alternativ finns:<br /><br /> 1. **Godkännarkedja** anger att godkännandebegärandeposter skapas för alla begärandens godkännare upp till och med den första kvalificerade godkännaren.<br />2. **Direkt godkännare** anger att en godkännandebegärandepost skapas endast för begärandens omedelbara godkännare, oberoende av godkännarens godkännandegräns.<br />3. **Första kvalificerade godkännare** anger att en godkännandebegärandepost skapas endast för begärandens första kvalificerade godkännare.<br />|  
     3.  Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa journalrader.  
@@ -94,11 +94,11 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 >  För att visa relationer mellan tabeller som används i arbetsflöden, välj ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten") och ange **arbetsflöde – tabellrelationer**.  
 
 ## <a name="see-also"></a>Se även  
-[Så här skapar du arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)   
-[Så här konfigurerar du godkännandeanvändare](across-how-to-set-up-approval-users.md)   
+[Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)   
+[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)   
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
-[Så här visar du arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)   
-[Så här tar du bort arbetsflöden](across-how-to-delete-workflows.md)   
+[Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)   
+[Ta bort arbetsflöden](across-how-to-delete-workflows.md)   
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Konfigurera arbetsflöden](across-set-up-workflows.md)   
 [Använda arbetsflöden](across-use-workflows.md)   

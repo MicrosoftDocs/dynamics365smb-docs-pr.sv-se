@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Så här kan du ändra planeringsförslag i en grafisk översikt över serviceverksamheten
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
 En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.
 
 I fönstret **Artikeldisposition per tidslinje** kan du ändra vissa leveransorder och förslag genom att dra element längs x-axeln för att ändra antalet eller längs y-axeln för att ändra förfallodatumet.  
@@ -37,7 +37,7 @@ När du väljer **Spara ändringar** i fönstret **Artikeldisposition per tidsli
 I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och släppa. Som alternativ kan du ändra fälten **Förfallodatum** och **Antal** på snabbfliken **Händelseändringar** och se mötesändringarna grafiskt direkt på snabbfliken **Tidslinje** i fönstret **Planeringsförslag**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Om du vill ändra de föreslagna leveransordrarna i den grafiska översikten  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikeldisposition per tidslinje** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikeldisposition per tidslinje** och välj sedan relaterad länk.  
 
     Fönstret **Artikeldisposition per tidslinje** öppnas med artikelnummer, lagerstället och varianten av artikeln på den aktuella planeringsraden förifyllda i fälten på snabbfliken **Alternativ**. Snabbfliken **Tidslinje** visar en grafisk återgivning av artikelns planerade lager, inklusive planeringsförslag.  
 

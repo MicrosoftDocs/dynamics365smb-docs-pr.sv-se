@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Förbereda för beräknings- och bokföringsmetoder för moms
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Förbereda beräknings- och bokföringsmetoder för moms
 Konsumenter och företag betalar moms när de köper varor eller tjänster. Momsbeloppet att betala kan variera beroende på flera faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] ställer du in moms för att ange de satser som ska användas för beräkning av momsbelopp baserat på följande: 
 
 * Vem du säljer till  
@@ -40,7 +40,20 @@ Vi rekommenderar att du använder den assisterade konfigurationsguiden för att 
 
 Så här startar du den assisterade konfigurationsguiden:
 1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten") och ange **Assisterad konfiguration**.  
-2. Välj **momsinställning**.
+2. Välj **Ställa in moms**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Så här skapar du momsregistreringsnummer för land / region
+För att garantera att användaren anger ett giltigt momsregistreringsnummer kan du ange format för momsregistreringsnummer som används i de länder eller regioner där du bedriver verksamhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] visar ett felmeddelande när någon gör fel eller använder ett format som är felaktigt för landet / regionen.
+
+Om du vill skapa momsregistreringsnummer, gör då så här:
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") och ange **Länder/regioner**.
+2. Välj land eller region, och välj sedan åtgärden **Format för momsreg.nr.**.
+3. I fältet **Format** anger du formatet genom att ange ett eller flera av följande tecken:  
+  
+    |----|----| | # | Kräver ett tal med en enda siffra. | | @ | Kräver en bokstav. Dessa är inte skiftlägeskänsliga. | | ? | Alla tecken tillåtna. |
+  
+    > [!Tip]
+    > Du kan använda andra tecken förutsatt att dessa förekommer i landets/regionens format. Om du till exempel behöver inkludera en punkt eller ett bindestreck mellan olika uppsättningar siffror kan du exempelvis definiera formatet som ##. ####. ### eller @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Så här skapar du rörelsebokföringsmallar för moms
 Rörelsebokföringsmallar för moms representerar de marknader där du gör affärer med kunder och leverantörer och definierar hur moms beräknas och bokförs på varje marknad. Exempel på momsrörelsebokföringsmallar är **Inhemsk** och **Europeiska unionen (EU)**.  
@@ -64,7 +77,7 @@ Om du vill konfigurera rörelsebokföringsmall för moms, gör du följande steg
 2. Fyll i fälten om det behövs.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinera momsbokföringsmallar i momsbokföringsinställningar
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar momsbeloppen på försäljning och inköp utifrån momsbokföringsinställningar som är kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms. För varje kombination kan du fylla i momsprocent,  momsberäkningstyp och redovisningskonton för bokföring av moms som relaterar till försäljning, inköp och omvänd moms. Du kan också ange om momsbelopp ska omberäknas när en kassarabatt används eller tas emot.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  beräknar momsbeloppen på försäljning och inköp utifrån momsbokföringsinställningar som är kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms. För varje kombination kan du fylla i momsprocent,  momsberäkningstyp och redovisningskonton för bokföring av moms som relaterar till försäljning, inköp och omvänd moms. Du kan också ange om momsbelopp ska omberäknas när en kassarabatt används eller tas emot.  
 
 Du kan registrera så många kombinationer som du vill. Om du vill gruppera kombinationer av momsbokföringsinställningar med liknande attribut kan du ange ett **Moms-ID** för varje grupp och tilldela ID:t till gruppmedlemmarna.
 
@@ -85,7 +98,7 @@ Rörelsebokföringsmallen eller produktbokföringsmallen för moms tilldelas nä
 I följande avsnitt beskrivs hur du tilldelar momsbokföringsmallar till enskilda enheter.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Så här tilldelar du momsbokföringsmallar till individuella redovisningskonton 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
 2. Öppna kortet **redovisningskontokortet** för det kontot.  
 3. På snabbfliken **bokföring** i fältet **Typ av bokföring** väljer du antingen **försäljning** eller **inköp**.  
 5. Välj momsbokföringsmallar för försäljnings- eller inköpskontot.  
@@ -235,4 +248,4 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 ## <a name="see-also"></a>Se även  
 [Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  
 [Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
-[Så här arbetar du med moms på försäljning och inköp](finance-work-with-vat.md)  
+[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  

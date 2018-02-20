@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: d196aa3c5176d040440be441e2573eac92891219
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetaljer: Disposition av artikelspårning
@@ -24,7 +24,7 @@ Fönstren **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dyn
   
 När du öppnar fönstret **Artikelspårningsrader** hämtas tillgänglighetsdata från tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. När du väljer fältet **Serienr** eller fältet **Partinr** öppnas fönstret **Artikelspårning sammandrag** och en översikt av informationen om artikelspårning visas i tabellen **Reservationstransaktion**. Översikten innehåller följande information om varje serie- eller partinummer på artikelspårningsraden:  
   
-|Fält|Description|  
+|Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
 |**Totalt antal**|Det totala antalet av det parti- eller serienummer som för närvarande finns i lager.|  
 |**Totalt begärt antal**|Det totala antalet av det parti- eller serienummer som för närvarande har beställts i alla dokument.|  

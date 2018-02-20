@@ -1,6 +1,6 @@
 ---
 title: "Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner | Microsoft Docs"
-description: "Det är viktigt att förstå kriterier för överföring av redovisningstransaktioner mot kostnadstransaktioner. Under överföringen använder batchjobbet **Överför redovisningstransaktioner** till kostnadsredovisning följande kriterier för att bestämma om och hur redovisningstransaktionerna överförs."
+description: "Det är viktigt att förstå kriterier för överföring av redovisningstransaktioner mot kostnadstransaktioner. Under överföringen använder batchjobbet **Överför redovisningstransaktioner till kostnadsredovisning** följande kriterier för att bestämma om och hur redovisningstransaktionerna överförs."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59faad50504bff05e6cdb1c78d00553e85faf47e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67cc593691b4d3fe6a13cd960dce150c1e552da0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner
@@ -41,7 +41,7 @@ Redovisningstransaktioner överförs inte om:
 
 ## <a name="see-also"></a>Se även  
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
- [Så här: Överföra redovisningstransaktioner till kostnadstransaktioner](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Överföra redovisningstransaktioner till kostnadstransaktioner](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

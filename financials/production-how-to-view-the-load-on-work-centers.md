@@ -1,6 +1,6 @@
 ---
 title: "Så här visar du beläggning på produktions- och maskingrupper | Microsoft Docs"
-description: "Från kortet **produktionsgrupp** kan du se beläggningen på produktionsgrupper till följd av släppta produktionsorder."
+description: "Från kortet **Produktionsgrupp** kan du se beläggningen på produktionsgrupper till följd av utsläppta produktionsorder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4832ef9268629e2f0d82ecb6e7f08e0dc3cdbf0c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d95f31dd102997ce52f71f06ee9e5356acb8b42
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-load-on-work-and-machine-centers"></a>Så här visar du beläggning på produktions- och maskingrupper
+# <a name="view-load-on-work-and-machine-centers"></a>Så här visar du beläggning på produktions- och maskingrupper
 I fönstren **produktionsgruppkort** och **maskingruppkort** kan du se beläggningen på fabriken till följd av planerade och släppta produktionsorder.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Så här visar du produktionsgruppsbeläggningen  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
 2.  Öppna relevant **produktionsgrupp**kort i listan och klicka på åtgärden **beläggning**.  
 
 Använd fälten **Visa efter** och **Visa som** på snabbfliken **Alternativ** för att välja lämplig period.  

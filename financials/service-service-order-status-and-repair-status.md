@@ -1,6 +1,6 @@
 ---
-title: Serviceorderstatus och reparationsstatus | Microsoft Docs
-description: "Fältet **Status** i fönstret **Serviceorder** och serviceartikelns reparationsstatus som visas i fältet **Reparationsstatuskod** i fönstret **Serviceorder** har ett visst samband i modulen Servicehantering. Serviceorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern."
+title: "Tjänsteorderstatus och reparationsstatus | Microsoft Docs"
+description: "Fältet **Status** i fönstret **Tjänsteorder** och serviceartikelns reparationsstatus som visas i fältet **Reparationsstatuskod** i fönstret **Tjänsteorder** har ett visst samband i modulen Service. Tjänsteorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a1d2177ab417eb932110ea610474b969acf7a26b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="service-order-status-and-repair-status"></a>Serviceorderstatus och reparationsstatus
-Fältet **Status** i fönstret **Serviceorder** och serviceartikelns reparationsstatus som visas i fältet **Reparationsstatuskod** i fönstret **Serviceorder** har ett visst samband i modulen Service. Serviceorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern.  
+# <a name="service-order-status-and-repair-status"></a>Tjänsteorderstatus och reparationsstatus
+Fältet **Status** i fönstret **Tjänsteorder** och serviceartikelns reparationsstatus som visas i fältet **Reparationsstatuskod** i fönstret **Tjänsteorder** har ett visst samband i modulen Service. Tjänsteorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern.  
   
 > [!NOTE]  
 >  De två statusfälten är inte kopplade till fältet **Släppningsstatus** i huvudet på serviceordern, som styr lagerhanteringen av serviceartiklar.  
   
  När du ändrar en serviceartikels reparationsstatus på serviceordern uppdateras serviceorderns status. För att se den status som anger den generella reparationsstatusen för enskilda serviceartiklar måste du ange följande:  
   
-* Den serviceorderstatus som respektive reparationsstatus är länkad till. Mer information finns i Serviceorderstatus.  
+* Den serviceorderstatus som respektive reparationsstatus är länkad till. Mer information finns i Tjänsteorderstatus.  
 * Prioritetsnivå för varje serverorderstatusalternativ. Mer information finns i Prioritet.  
   
  När du omvandlar en serviceoffert till en serviceorder ändras reparationsstatus för alla serviceartiklar i ordern till **Initial** och serviceorderstatusen till **Förestående**.  
@@ -36,16 +36,16 @@ Fältet **Status** i fönstret **Serviceorder** och serviceartikelns reparations
 Varje reparationsstatus är länkad till en viss serviceorderstatus. Alternativen för serviceorderstatus är **Förestående**, **På gång**, **Stoppad** och **Avslutad**. Det finns nio olika alternativ för reparationsstatus: **Initial**, **På gång**, **Hänvisad**, **Delvis servad**, **Offert avslutad**, **Väntar på kund**, **Beställt reservdelar**, **Reservdelar inlevererade** och **Avslutad**.  
   
 ### <a name="pending"></a>Förestående  
-Serviceorderstatusen **Förestående** anger att servicen kan inledas eller fortsätta när som helst. Därför kan fyra av alternativen för reparationsstatus, nämligen **Initial**, **Hänvisad**, **Delvis servad** och **Reservdelar inlevererade**, alla länkas till den här serviceorderstatusen.  
+Tjänsteorderstatusen **Förestående** anger att servicen kan inledas eller fortsätta när som helst. Därför kan fyra av alternativen för reparationsstatus, nämligen **Initial**, **Hänvisad**, **Delvis servad** och **Reservdelar inlevererade**, alla länkas till den här serviceorderstatusen.  
   
 ### <a name="in-process"></a>Pågående  
-Serviceorderstatusen **På gång** anger att servicen pågår. Därför kan två av alternativen för reparationsstatus, nämligen **På gång** och **Beställt reservdelar**, länkas till den här serviceorderstatusen. Om du länkar statusen **Beställt reservdelar** till servicestatusen **På gång** måste du även länka statusen **Beställt reservdelar** till den här serviceorderstatusen.  
+Tjänsteorderstatusen **På gång** anger att servicen pågår. Därför kan två av alternativen för reparationsstatus, nämligen **På gång** och **Beställt reservdelar**, länkas till den här serviceorderstatusen. Om du länkar statusen **Beställt reservdelar** till servicestatusen **På gång** måste du även länka statusen **Beställt reservdelar** till den här serviceorderstatusen.  
   
 ### <a name="on-hold"></a>Stoppad  
-Serviceorderstatusen **Stoppad** anger att servicen tillfälligt har stoppats i väntan på svar från kunden eller reservdelar innan servicen kan inledas. Därför kan tre av alternativen för reparationsstatus, nämligen **Offert avslutad**, **Beställt reservdelar** och **Väntar på kund**, alla länkas till den här serviceorderstatusen.  
+Tjänsteorderstatusen **Stoppad** anger att servicen tillfälligt har stoppats i väntan på svar från kunden eller reservdelar innan servicen kan inledas. Därför kan tre av alternativen för reparationsstatus, nämligen **Offert avslutad**, **Beställt reservdelar** och **Väntar på kund**, alla länkas till den här serviceorderstatusen.  
   
 ### <a name="finished"></a>Avslutad  
-Serviceorderstatusen **Avslutad** anger att servicen har slutförts. Därför är reparationsstatusen **Avslutad** länkad till den här statusen.  
+Tjänsteorderstatusen **Avslutad** anger att servicen har slutförts. Därför är reparationsstatusen **Avslutad** länkad till den här statusen.  
   
 ## <a name="assigning-priority-to-service-order-status"></a>Tilldela en serviceorderstatus prioritet  
 När du ändrar reparationsstatus för en serviceartikel identifieras de serviceorderstatusalternativ som är länkade till olika reparationsstatusalternativ för alla serviceartiklar i ordern. Om serviceartiklarna är kopplade till två eller fler serviceorderstatusalternativ väljs den serviceorderstatus som har högst prioritet.  
@@ -63,6 +63,6 @@ En typisk tilldelning av prioritetsnivå kan se ut så här:
 Om t.ex. en serviceartikel har reparationsstatus **Initial**, länkad till serviceorderstatus **Förestående**, en annan har **På gång**, länkad till servicestatus **På gång**, och en tredje har **Beställt reservdelar**, länkad till servicestatus **Stoppad**, blir den resulterande serviceorderstatus **På gång** eftersom den har högst prioritet.  
   
 ## <a name="see-also"></a>Se även  
-[Så här: ställa in status för serviceorder och reparationer](service-order-repair-status.md)  
-[Ställa in servicehantering](service-setup-service.md)  
+[Ställ in status för tjänsteorder och reparationer](service-order-repair-status.md)  
+[Ställa in tjänstehantering](service-setup-service.md)  
 

@@ -13,26 +13,26 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a60e63e9741f81aa6efcf8b6a4780b5b464fe440
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 493c6e24a42229bc6e5223319ca66c103ee08f96
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad.
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
 
 > [!NOTE]  
->  Eftersom förbrukningsinformation hanteras tillsammans med utdata kan du i den här journalen visa länkade komponenter och operationer i en logisk processtruktur. komponenterna visas på indragna rader under respektive operation. Detta kan ske under förutsättning att du använder operationsföljdslänkkoder.  
+>  Eftersom förbrukningsinformation hanteras tillsammans med utdata kan du i den här journalen visa länkade komponenter och operationer i en logisk processtruktur. komponenterna visas på indragna rader under respektive operation. Detta kan ske under förutsättning att du använder verksamhetsföljdslänkkoder.  
 
 > [!NOTE]  
->  Komponenter som saknar operationsföljdslänkkoder visas först i listan i journalen.  
+>  Komponenter som saknar verksamhetsföljdslänkkoder visas först i listan i journalen.  
 
 ## <a name="to-register-consumption-and-output"></a>Så här registrerar du förbrukning och utdata  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Släppta prod.order** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppta prod.order** och välj sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
-    Fönstret **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt fönstren **Prod.orderkomponent** och **Prod.orderoperationsföljd**. Dessa rader kommer från den produktionsstruktur och operationsföljd som tilldelats artikeln som produceras. För mer information, se [Så här skapar du produktionsstrukturer](production-how-to-create-routings.md).  
+    Fönstret **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt fönstren **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  
 
 3.  I fältet **Bokföringsdatum** högst upp i journalen anger du ett bokföringsdatum som gäller för alla rader. Arbetsdatumet anges som standard. Fältet gör att du snabbt kan samordna bokföringsdatum för alla rader, om det behövs.  
 
@@ -52,7 +52,7 @@ Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen komb
     > [!NOTE]  
     >  Bara utflödesantalet på den sista journalraden av transaktionstypen **Utflöde** kommer att justera lagernivån när journalen bokförs. Du bör därför inte bokföra journalen (med den förväntade utdatakvantiteten förinställd på den sista utflödesraden) förrän alla slutartiklar faktiskt har producerats.  
 
-6.  Markera fältet **Avslutad** för utdatarader för att visa att operationen är avslutad. Det här fältet är kopplat till fältet **Flödesstatus** på en operationsföljdrad för en produktionsorder.  
+6.  Markera fältet **Avslutad** för utdatarader för att visa att operationen är avslutad. Det här fältet är kopplat till fältet **Flödesstatus** på en verksamhetsföljdrad för en produktionsorder.  
 7.  Välj åtgärden **Bokföra** när du vill registrera de kvantiteter som du har angett och stänga journalen.  
 
 Om värdena som återstår ska bokföras kommer journalen att innehåller dessa återstående värden nästa gång den öppnas. Bokfört värde visas som faktiskt värde längst ned i journalen.  

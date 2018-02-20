@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bd80d0a7a701256dfdae3346e899b84eeb990a40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f4796d9796788d2fbbf5706688aec75a4ed9a6d8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Automatisk överföring och kombinerade transaktioner
@@ -32,7 +32,7 @@ I kostnadsredovisningen kan du överföra redovisningstransaktioner till en kost
 >  Om du har markerat kryssrutan **Automatisk överföring från redovisning** i fönstret **Inställningar för kostnadsredovisning**, [!INCLUDE[d365fin](includes/d365fin_md.md)] uppdaterar kostnadsredovisningen efter varje bokföring i redovisningen. Kombinerade transaktioner är inte möjliga.  
 
 ## <a name="see-also"></a>Se även  
- [Så här: Överföra redovisningstransaktioner till kostnadstransaktioner](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Överföra redovisningstransaktioner till kostnadstransaktioner](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Resultat av överföringen](finance-results-of-the-transfer.md)   
  [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)  

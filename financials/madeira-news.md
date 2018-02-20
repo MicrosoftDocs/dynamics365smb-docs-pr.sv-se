@@ -1,6 +1,6 @@
 ---
-title: Nyheter i Dynamics 365 Business edition | Microsoft Docs
-description: "Beskriver de senaste nyheterna och uppdateringar för Dynamics 365 Business edition."
+title: Nyheter i Finance and Operations, Business edition | Microsoft Docs
+description: "Beskriver de senaste nyheterna och uppdateringar för Finance and Operations, Business edition"
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nyheter i Dynamics 365 for Finance and Operations, Business edition
 Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Om du inte redan har gjort detta, registrera dig för förhandsgranskningen och låt oss gå igenom grunderna för vad du kan göra med [!INCLUDE[d365fin](includes/d365fin_md.md)] och försök sedan att ta reda på saker på egen hand. När du är klar kan du öppna upp ett tomt företaget och konfigurera de saker du vill ha.  
 
-Vi uppdaterar regelbundet, [!INCLUDE[d365fin](includes/d365fin_md.md)] med ytterligare funktioner i det grundläggande programmet och med nya [tillägg](ui-extensions.md). En översikt över vad och vad som finns tillgängligt, finns på [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - och glöm inte att filtrera efter [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vi uppdaterar regelbundet, [!INCLUDE[d365fin](includes/d365fin_md.md)] med ytterligare funktioner i det grundläggande programmet och med nya [tillägg](ui-extensions.md). En översikt över vad som finns och kommer att finnas tillgängligt finns i [Översikt för Finance and Operations, Business edition](https://roadmap.dynamics.com/) - och glöm inte att filtrera efter [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-På den här sidan ser du vilka områden som blev tillgängliga, även om vi fortfarande är i förhandsgranskningen. Sök efter uppdateringar i [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+På den här sidan ser du vilka områden som blev tillgängliga, även om vi fortfarande är i förhandsgranskningen. Framöver hittar du uppdateringarna i [Översikt för Finance and Operations, Business edition](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>November 2016 lanseringen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Såsom angivits i bloggen är vi nu en tjänst som du använder i ditt företag. Men den här uppdateringen lägger också till nya funktioner och ett nytt tillägg.
 
 ### <a name="project-management"></a>Projekthantering
-Om du växlar till Suite-upplevelsen kan du hantera projekt och arbeta med resurser, tidrapporter och projekt. Första gången som du loggar in som Projektledare, hjälper den assisterade konfigurationsguiden dig att konfigurera hur projekten hanteras. Du kan arbeta med till exempel konton, projekt, resurser, etc i demonstrationsföretaget för att bekanta dig med funktionerna. Mer information finns i [Hantera projekt](projects-manage-projects.md).
+Du kan hantera projekt och arbeta med resurser, tidrapporter och projekt. Första gången som du loggar in som Projektledare, hjälper den assisterade konfigurationsguiden dig att konfigurera hur projekten hanteras. Du kan arbeta med till exempel konton, projekt, resurser, etc i demonstrationsföretaget för att bekanta dig med funktionerna. Mer information finns i [Hantera projekt](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Anläggningstillgångar
-Om du växlar till Suite-upplevelse kan du hantera fasta tillgångar, inklusive avskrivningar och försäkring. En standardprofil tillhandahålls men du kan ändra den om du vill när du vill. Du kan registrera inköp av anläggningstillgångar för särskilda anläggningstillgångsjournaler där du också kan avyttra anläggningstillgångar. Korrekta bokföringsposter skapas automatiskt. Mer information finns i [Anläggningstillgångar](fa-manage.md).
+Du kan hantera anläggningstillgångar, inklusive avskrivning och försäkring. En standardprofil tillhandahålls men du kan ändra den om du vill när du vill. Du kan registrera inköp av anläggningstillgångar för särskilda anläggningstillgångsjournaler där du också kan avyttra anläggningstillgångar. Korrekta bokföringsposter skapas automatiskt. Mer information finns i [Anläggningstillgångar](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Nytt tillägg för att migrera data från Dynamics GP
 Om ditt företag använder Dynamics GP idag kan du använda en assisterad konfigurationsguide för att migrera huvudposter till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du måste ha exporterat dina befintliga kunder, leverantörer, lagerartiklar och konton med hjälp av funktionen exportera data i Dynamics GP. Tillägget Datamigrering för Dynamics GP mappas automatiskt den exporterade informationen så att du snabbt din information i det nya företaget i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Dynamics GP datamigrering](ui-extensions-dynamicsgp-data-migration.md).
@@ -52,17 +52,17 @@ Uppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] lade till nya funkt
 
 ### <a name="more-flexibility-in-your-sales-processes"></a>Större flexibilitet i dina försäljningsprocesser
 Denna uppdatering lägger till mer flexibilitet i vad du säljer:
-- Du kan nu konfigurera ej lagerförd artikel - artiklar som du erbjuder till kunder, men inte håller i lager. Mer information finns i [Så här arbetar du med ej lagerförd artikel](inventory-how-work-nonstock-items.md).
-- Du kan nu markera en artikel för direktutleverans från en försäljningsorder och direkt skapa en inköpsorder för artikeln. På så sätt kan du sälja en artikel till en kund, köpa från leverantören och få den levererad direkt från leverantören till kunden. Mer information finns i [Så här köper du artiklar för en försäljning](purchasing-how-purchase-products-sale.md).
+- Du kan nu konfigurera ej lagerförd artikel - artiklar som du erbjuder till kunder, men inte håller i lager. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
+- Du kan nu markera en artikel för direktutleverans från en försäljningsorder och direkt skapa en inköpsorder för artikeln. På så sätt kan du sälja en artikel till en kund, köpa från leverantören och få den levererad direkt från leverantören till kunden. Mer information finns i [Köpa in artiklar för en försäljning](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Kategorisera artiklar i lagret
-Med den här uppdateringen kan du skapa en hierarki av artikelkategorier och tilldela artikelattribut till varje artikelkategori. För mer information finns i [Så här kategoriserar du artiklar](inventory-how-categorize-items.md).
+Med den här uppdateringen kan du skapa en hierarki av artikelkategorier och tilldela artikelattribut till varje artikelkategori. Mer information finns i [Kategorisera artiklar](inventory-how-categorize-items.md).
 
 ### <a name="send-purchase-orders-to-vendors"></a>Skicka inköpsorder till leverantörer
-Nu kan du skriva in inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här registrerar du inköp](purchasing-how-record-purchases.md).
+Nu kan du skriva in inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Inkommande dokument med bättre kvalitet
-Nu kan du enkelt korrigera fel i skannade dokument innan du får det resulterande dokumentet - på detta sätt kan du träna tjänsten för att undvika att felen fortsätter. Mer information [Så här använder du OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).
+Nu kan du enkelt korrigera fel i skannade dokument innan du får det resulterande dokumentet - på detta sätt kan du träna tjänsten för att undvika att felen fortsätter. Mer information finns i [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).
 
 ## <a name="august-2016-update"></a>Augusti 2016 uppdatering
 Uppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] lade till nya funktioner som [meddelas du om bloggen](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -90,7 +90,7 @@ Denna uppdatering lägger till leverantörsinstrumentpanelen i Outlook-tillägge
 Outlook-tillägget gäller nu även för Outlook-kalender. Från ett kalendermöte kan du öppna den [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägget och få en översikt för den kund som är associerad med den avtalade tiden. Sedan kan du skapa och skicka en faktura för tjänsterna i mötet - allt detta händer direkt i Outlook-kalendern. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-marknadsplatsen för tillägg
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-tillägg är nu tillgängliga på AppSource-marknadsplatsen i [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan söka efter och hitta tillägg på marknadsplatsen. Du kan visa information som till exempel marknadsföringsmaterial, skärmdumpar, videoklipp och länkar till ytterligare information. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -tillägg är nu tillgängliga på AppSource-marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan söka efter och hitta tillägg på marknadsplatsen. Du kan visa information som till exempel marknadsföringsmaterial, skärmdumpar, videoklipp och länkar till ytterligare information. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Speditörer och artikelattribut
 Du kan lägga till attribut till dina lagerartiklar som gör det mycket enkelt att hitta rätt produkt som passar kundens behov. Mer information finns i [Så här arbetar du med attribut](inventory-how-work-item-attributes.md).  
@@ -129,5 +129,5 @@ Huvudscenarier som du kan gå igenom på egen hand:
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Översikt för Finance and Operations, Business edition](https://roadmap.dynamics.com/)  
 

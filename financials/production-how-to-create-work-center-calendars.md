@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
+# <a name="set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
 I en produktionsgrupp- eller maskingruppkalender anger du de arbetsdagar/arbetstimmar, skift, helgdagar och frånvaro som avgör den tillgängliga bruttokapaciteten för produktionsgruppen (mätt i tidsenheter) utifrån de effektivitets- och kapacitetsvärden som har definierats för gruppen.
 
 Om du vill beräkna en specifik produktionsgrupp- eller maskingruppkalender måste du först skapa en eller flera allmänna fabrikskalendrar. En fabrikskalender innehåller en standardarbetsvecka med start- och sluttider för varje arbetsdag samt en översikt över arbetsskiften. Dessutom kan du i fabrikskalendern se de fasta helgdagarna under året.  
@@ -27,7 +27,7 @@ Om du vill beräkna en specifik produktionsgrupp- eller maskingruppkalender mås
 Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är liknande när du ställer in maksingruppkalender.  
 
 ## <a name="to-create-work-shifts"></a>Så här skapar du arbetsskift  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera arbetsskiftet (till exempel **1**).  
 3.  Beskriv arbetsskiftet i fältet **Beskrivning**, till exempel **1:a skift**.  
 4.  Fyll i raderna för ett andra eller tredje skift, om du vill.  
@@ -35,7 +35,7 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 Även om dina produktionsgrupper inte arbetar i olika skift måste du ange minst en arbetsskiftkod.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Så här skapar du en fabrikskalender  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera fabrikskalendern.  
 3.  Beskriv fabrikskalendern i fältet **Beskrivning**.  
 4.  Välj åtgärden **arbetsdagar**.
@@ -66,11 +66,11 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 
 De angivna helgdagarna får värdet noll för tillgänglig kapacitet i alla produktionsgruppkalendrar.  
 
-Fabrikskalendern kan nu tilldelas en produktionsgrupp så att den produktionsgruppkalender som styr all operationstidsplanering för produktionsgruppen kan beräknas.  
+Fabrikskalendern kan nu tilldelas en produktionsgrupp så att den produktionsgruppkalender som styr all verksamhetstidsplanering för produktionsgruppen kan beräknas.  
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Så här beräknar du en produktionsgruppkalender  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.
 2. Öppna produktionsgruppen som du vill uppdatera.  
 3. I fältet **Fabrikskalenderkod** väljer du vilken fabrikskalender som ska användas som grund för en produktionsgruppkalender.  
 4. Välj åtgärden **Kalender**.  
@@ -108,8 +108,8 @@ Den beräknade produktionsgruppkalendern definierar nu när, och hur mycket, som
 Kapaciteten för den markerade dagen minskas med den registrerade frånvarotiden.  
 
 ## <a name="see-also"></a>Se även  
-[Så här lägger du upp baskalendrar](across-how-to-assign-base-calendars.md)  
-[Så här: ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)  
+[Skapa baskalendrar](across-how-to-assign-base-calendars.md)  
+[Ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

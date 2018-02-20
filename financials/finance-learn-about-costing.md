@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>Om Lagerkostnad
@@ -36,8 +36,8 @@ Hantering av Lagerkostnad används vid registrering och rapportering av rörelse
 |förstå kostnadsjusteringsmekanismen, som säkerställer att kostnader flyttas fram även om lagertransaktioner sker slumpmässigt.|[Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)|  
 |veta varför standardkostnader ofta används av produktionsföretag som värderingsbas för komponenter och slutartiklar.|[Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)|  
 |förstå hur lagervärdet återspeglas i redovisningen.|[Rapportera kostnader och stämma av med redovisningen](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|lära dig hur artikelomkostnader, till exempel frakt och försäkring, kan tilldela ytterligare kostnadskomponenter till en artikels styckkostnad.|[Så här: Använd artikelomkostnader till kontot för ytterligare kostnader](payables-how-assign-item-charges.md)|  
-|läsa om hur ett företag kan använda lagerperioder för att kontrollera lagervärdet över tid genom att definiera kortare perioder som kan stängas för bokföring under räkenskapsårets gång.|[Så här kan du arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
+|lära dig hur artikelomkostnader, till exempel frakt och försäkring, kan tilldela ytterligare kostnadskomponenter till en artikels styckkostnad.|[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)|  
+|läsa om hur ett företag kan använda lagerperioder för att kontrollera lagervärdet över tid genom att definiera kortare perioder som kan stängas för bokföring under räkenskapsårets gång.|[Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Förstå alla funktioner i kostnadsmotorn, inklusive vad som händer när du bokför transaktioner för montering och produktionsorder.|[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>Se även

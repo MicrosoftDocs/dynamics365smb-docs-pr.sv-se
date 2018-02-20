@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4b0bb12f86a8984ca4a87d679bc22a0e34e51c88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a30e62bf2bf62c547398d733fcfe80b0204805cf
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-capacities"></a>Så här bokför du kapaciteter
+# <a name="post-capacities"></a>Bokför kapaciteter
 I kapacitetsjournalen bokför du förbrukade kapaciteter som inte kopplats till produktionsordern. Underhållsarbete måste till exempel kopplas till kapacitet, men inte till en produktionsorder.  
 
 ## <a name="to-post-capacities"></a>Så här bokför du kapaciteter  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kapacitetsjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kapacitetsjournaler** och välj sedan relaterad länk.  
 2.  Fyll i fälten **Bokföringsdatum** och **Verifikationsnummer** .  
 3.  I fältet **Typ** anger du kapacitetstypen, endera **Maskingrupp** eller **Produktionsgrupp**, som du bokför.  
 4.  I fältet **Nr.** skriv numret på den artikel som har beställts.  
@@ -32,7 +32,7 @@ I kapacitetsjournalen bokför du förbrukade kapaciteter som inte kopplats till 
 
 ## <a name="to-view-work-center-ledger-entries"></a>Så här visar du produktionsgruppstransaktioner  
 I fönstren **produktionsgruppkort** och **maskingruppkort** kan du se bokförd kapacitet till följd av avslutade produktionsorder.    
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Arbetsskift** och välj sedan relaterad länk.  
 2.  Öppna relevant **produktionsgrupp**kort i listan och klicka på åtgärden **Kapacitetstransaktioner**.  
 
 I fönstret **Kapacitetstransaktioner** visas de transaktioner som bokförts från produktionsgruppen i den ordning de bokförts i.   

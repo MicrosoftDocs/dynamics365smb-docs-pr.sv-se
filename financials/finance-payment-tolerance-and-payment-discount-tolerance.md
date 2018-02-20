@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Så här: arbeta med betalningstoleranser och kassarabattstolerans
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
 
 Du kan använda betalningstolerans så att alla utestående belopp anger ett maximum som medger betalningstolerans. Om betalningstoleransen uppfylls analyseras betalningsbeloppet. Om beloppet är en underbetalning stängs det utestående beloppet helt av underbetalningen. En detaljerad redovisningstransaktion har bokförts på betalningstransaktionen så att det inte finns något belopp kvar på fakturaposten. Om beloppet är en överbetalning bokförs en ny detaljerad reskontratransaktion på betalningstransaktionen så att det inte finns något belopp kvar på betalningstransaktionen.
@@ -44,16 +44,16 @@ Mer information finns i så här: aktivera eller inaktivera betalningstoleransva
 Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktura även om betalningen inte täcker hela fakturabeloppet, oavsett om det beror på att förfallodatumet för kassarabatten har passerats, att varorna har dragits av eller att ett mindre fel har begåtts. Det gäller även återbetalningar och kreditnotor.  
 
 Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokföringsmetoder för både kassarabattstolerans och betalningstolerans samt köra batch-jobbet **Ändra betalningstolerans**.  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2. I fönstret **Bokföringsinställningar** anger du ett debet- och ett kreditkonto för försäljningsbetalningstolerans och ett debet- och ett kreditkonto för inköpsbetalningstolerans.  
-3. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kundbokningsgruppen** och välj sedan relaterad länk.    
+3. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kundbokningsgruppen** och välj sedan relaterad länk.    
 4. I fönstret **Kundbokföringsmallar** anger du ett debetkonto och ett kreditkonto för betalningstolerans. Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
-5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 6. I fönstret **Leverantörsbokföringsmallar** anger du ett debetkonto och ett kreditkonto för betalningstolerans.  
-7. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+7. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 8. Öppna fönstret **Redovisningsinställningar**.  
 9. På snabbfliken **Program**, fyll i fälten **Kassarabattolerans bokf.**, **Kassarabattfrist** och **Betalningstolerans bokföring**.   
-10. Välj åtgärd **Ändra betalningstolerans**.
+10. Välj åtgärden **Ändra betalningstolerans**.
 11. I fönstret **Ändra betalningstolerans** genom att fylla i fälten **Betalningstolerans %** och **Max.belopp betalningstolerans** samt välja **OK**.
 
 > [!IMPORTANT]  
@@ -68,7 +68,7 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. I fönstret **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att avmarkera kryssrutan.  
 
 > [!NOTE]  

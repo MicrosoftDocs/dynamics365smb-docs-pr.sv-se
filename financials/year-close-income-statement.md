@@ -13,18 +13,18 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 237c03e2ba6408bde65aba5f652468a3b700fa0a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-income-statement-accounts"></a>Så här: avslut av resultatkonton
+# <a name="close-income-statement-accounts"></a>Avsluta resultatkonton
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar. Använd batch-jobbet **Avslut av resultatkonton** för detta ändamål. Detta jobb överför årets resultat till ett konto i balansräkningen och avslutar resultatkonton. Du gör detta genom att skapa rader i en journal, som du sedan kan bokföra.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>För att använda batch-jobbet Avslut av resultatkonton
-1. Avsluta räkenskapsår. Räkenskapsåret måste vara avslutat innan batch-jobbet kan köras. Mer information finns [Så här avslutar du bokföringsperioder](year-close-account-periods.md).
-2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Avslut av resultatkonton** och välj sedan relaterad länk.
+1. Avsluta räkenskapsår. Räkenskapsåret måste vara avslutat innan batch-jobbet kan köras. Mer information finns i [Så här avslutar du bokföringsperioder](year-close-account-periods.md).
+2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Avslut av resultatkonton** och välj sedan relaterad länk.
 3. Klicka på **OK** för att köra batchjobbet.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Om batch-jobbet Avslut av resultatkonton
@@ -38,7 +38,7 @@ Batch-jobbet **Avslut av resultatkonton** kan användas upprepade gånger. Du ka
 
 ## <a name="see-also"></a>Se även
 [Avsluta böcker](year-close-books.md)  
-[Så här bokför du årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
-[Så här öppnar du ett nytt räkenskapsår](finance-how-open-new-fiscal-year.md)  
+[Bokför årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
+[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

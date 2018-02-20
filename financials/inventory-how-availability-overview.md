@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Så här visar du artikeldisposition
+# <a name="view-the-availability-of-items"></a>Visa artikeldisposition
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
 
 Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa varje artikels disposition per händelse, tid eller lagerställe. En händelse är alla planerade artikeltransaktioner, till exempel en utleverans eller en inleverans av ankommande överföring.
 
 > [!NOTE]  
->   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Så här skapar du lägerställen](inventory-how-setup-locations.md).
+>   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], visas dispositionssiffror i två olika fält, var och en med en annan definition:
 
@@ -35,12 +35,12 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)], visas dispositionssiffror i två 
 >   Lagerutvecklingen över tid är särskilt relevant att visa i fönstren **Artikeldisp. per perioder** och **Artikeldisposition per händelse** eftersom dessa innehåller datumdimensionen.  
 
 > [!NOTE]  
->   I följande procedurer beskrivs hur du visar avancerad tillgänglighetsinformation från artikellistan och artikelkortet. Du kan också visa information för artikeln på raden via försäljningsdokumentraderna. Mer information finns i [Så här säljer du produkter](sales-how-sell-products.md).
+>   I följande procedurer beskrivs hur du visar avancerad tillgänglighetsinformation från artikellistan och artikelkortet. Du kan också visa information för artikeln på raden via försäljningsdokumentraderna. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
 Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktioner i fönstret **Artikeldisposition per händelse**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per**, och välj sedan åtgärden **Händelse**.
 
@@ -50,7 +50,7 @@ Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Visa dispositionen för en artikel under olika perioder
 Du visar en artikels disposition över tid för angivna tidsperioder i fönstret **Artikeldisp. per perioder**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Period**.
 
@@ -60,7 +60,7 @@ Du visar en artikels disposition över tid för angivna tidsperioder i fönstret
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Visa tillgängligheten för en artikel på de lägerställen där den lagras
 Du kan visa dispositionen av en artikel på de olika lägerställen där den lagras i fönstret **Artikeldisp. per lagerställe**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Lagerställe**.
 
@@ -71,7 +71,7 @@ Du kan visa dispositionen av en artikel på de olika lägerställen där den lag
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
 Du kan visa disposition för alla artiklar på alla lägerställen i fönstret **Artiklar per lagerställe**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
 2. Välj åtgärden **Artiklar per lagerställe**.
 
     Fönstret **Artiklar per lagerställe** visar, för alla artiklar, hur många som är tillgängliga på respektive lagerställe.
@@ -115,10 +115,10 @@ Om en eller flera monteringskomponenter inte är tillgänglig, visas det i **Mö
 ## <a name="see-also"></a>Se även
 [Hantera lager](inventory-manage-inventory.md)  
 [Monteringshantering](assembly-assemble-items.md)  
-[Så här arbetar du med strukturer](inventory-how-work-BOMs.md)    
-[Så här skapar du lagerställen](inventory-how-setup-locations.md)  
-[Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  
-[Så här säljer du produkter](sales-how-sell-products.md)      
-[Arbeta med Dynamics 365](ui-work-product.md)  
+[Arbeta med strukturer](inventory-how-work-BOMs.md)    
+[Konfigurera platser](inventory-how-setup-locations.md)  
+[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  
+[Sälja produkter](sales-how-sell-products.md)      
+[Arbeta med Finance and Operations, Business edition](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Servicebokföring
@@ -23,7 +23,7 @@ Funktionen för servicebokföring gör att du kan behandla dokumenten mer effekt
 > [!NOTE]  
 >  Nedan beskrivs servicebokföring oavsett hur artiklar ska hanteras fysiskt i distributionslagret.  
 >   
->  I ett lagerställe som inte har konfigurerats med krav på lagerhantering, utför du bokföringsåtgärder direkt från fönstret **Servicerader**. I lagerställen som omfattar lagerhantering utförs de beskrivna bokföringsåtgärderna, utom förbrukning, indirekt via varierande lagerleveransfunktioner beroende på konfiguration. För mer information, se [så här: Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  I ett lagerställe som inte har konfigurerats med krav på lagerhantering, utför du bokföringsåtgärder direkt från fönstret **Servicerader**. I lagerställen som omfattar lagerhantering utförs de beskrivna bokföringsåtgärderna, utom förbrukning, indirekt via varierande lagerleveransfunktioner beroende på konfiguration. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Leverera  
 Med det här leveransalternativet kan du registrera alla relevanta artiklar och tidpunkter som har angetts på raderna i en serviceorder efter att servicen har slutförts. En bokförd utleverans skapas och uppdateringar sker i modulen Lager och i andra moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att visa att artiklarna har tagits från lagret och skickats till kunden. Mer specifikt skapas artikeltransaktioner, värdetransaktioner, servicetransaktioner och garantitransaktioner.  
@@ -49,13 +49,13 @@ När du bokför en servicefaktura, en serviceleverans eller en servicekreditnota
 
 I proceduren nedan används en bokförd servicefaktura som exempel, men samma procedur kan koppla till den bokförda serviceleveransen och bokförda kreditnotor.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda försäljningsfaktura** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokförda försäljningsfaktura** och välj sedan relaterad länk.  
 2. Öppna den bokförda servicefaktura som du vill visa.  
 3. Om du vill få en översikt över den bokförda fakturan, väljer du åtgärden **statistik**.  
 
-    Fönstret **Serviceorderstatistik** öppnas. Här visas information som antal, belopp, moms, kostnad, TB och kundkreditlimit för det bokförda dokumentet.
+    Fönstret **Tjänsteorderstatistik** öppnas. Här visas information som antal, belopp, moms, kostnad, TB och kundkreditlimit för det bokförda dokumentet.
 
 ## <a name="see-also"></a>Se även  
-[Så här bokför du serviceorder](service-how-to-post-service-orders.md)   
-[Så här skapar du serviceorder](service-how-to-create-service-orders.md)
+[Bokför tjänsteorder](service-how-to-post-service-orders.md)   
+[Skapa tjänsteorder](service-how-to-create-service-orders.md)
 

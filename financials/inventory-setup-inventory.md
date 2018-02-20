@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 01/12/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 022cd32a11546913e74aeccdd74772e6e01755d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a667f28bd50bbd1149526e08e0d786da83bc8a6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-inventory"></a>Ställa in lager
@@ -28,12 +28,13 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 
 | Till | Gå till |
 | --- | --- |
-| Definiera dina allmänna lagerinställningar, till exempel nummerserier och hur du använder lägerställen. |[Så här ställer du in allmän lagerinformation](inventory-how-setup-general.md) |
-|Konfigurera en effektiv distributionsmodell med en kombination av olika lagerställen och ansvarsenheter som tilldelas affärspartners eller anställda.|[Så här: Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
-| Organisera ditt lager på flera lägerställen, inklusive överföringsflöden. |[Så här skapar du lagerställen](inventory-how-register-new-items.md) |
-| Skapa artikelkort för lagerartiklar som du handlar med. |[Så här registrerar du nya objekt](inventory-how-register-new-items.md) |
-|Som ett tillägg till artikelkort kan du registrera artikelinformation i ett visst lagerställe eller en viss variant.|[Så här skapar du lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)|
-| Tilldela objekt till kategorier och ge dem attribut som hjälper dig och kunderna att hitta objekt. |[Så här kategoriserar du artiklar](inventory-how-categorize-items.md) |
+| Definiera dina allmänna lagerinställningar, till exempel nummerserier och hur du använder lägerställen. |[Ställa in allmän lagerinformation](inventory-how-setup-general.md) |
+|Konfigurera en effektiv distributionsmodell med en kombination av olika lagerställen och ansvarsenheter som tilldelas affärspartners eller anställda.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
+| Organisera ditt lager på flera lägerställen, inklusive överföringsflöden. |[Konfigurera platser](inventory-how-register-new-items.md) |
+| Skapa artikelkort för lagerartiklar som du handlar med. |[Registrera nya artiklar](inventory-how-register-new-items.md) |
+|Ange flera måttenheter för en artikel som kan användas som alternativa enheter till exempel för försäljning, inköp eller produkttransaktioner.|[Ställa in måttenheter för artikel](inventory-how-setup-units-of-measure.md)|
+|Som ett tillägg till artikelkort kan du registrera artikelinformation i ett visst lagerställe eller en viss variant.|[Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)|
+| Tilldela objekt till kategorier och ge dem attribut som hjälper dig och kunderna att hitta objekt. |[Kategorisera artiklar](inventory-how-categorize-items.md) |
 
 ## <a name="see-also"></a>Se även
 [Hantera lager](inventory-manage-inventory.md)  

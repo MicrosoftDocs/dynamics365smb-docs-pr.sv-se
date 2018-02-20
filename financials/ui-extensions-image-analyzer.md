@@ -1,6 +1,6 @@
 ---
 title: "Använda tillägget Image Analyzer | Microsoft Docs"
-description: "Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tilldela dem i Dynamics 365."
+description: "Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tillsätta dem i Finance and Operations, Business edition."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Image Analyzer-tillägget för Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>Tillägget Image Analyzer i Microsoft Finance and Operations, Business edition
 Tillägget Image Analyzer använder kraftfulla bildanalyser från Computer Vision API för Microsoft Cognitive Services för att identifiera attribut i bilder du importerar för artiklar och kontaktpersoner, så att du lätt kan gå igenom och tilldela dem. För artiklar, kan attribut vara om artikel är en tabell eller en bil eller om den är röd eller blå. För kontaktpersoner kan attribut vara kön och ålder.
 
 Image Analyzer föreslår attribut baserat på etiketter som  Computer Vision API hittar och konfidensnivå. Som standard föreslås attribut endast om det är minst 80 % till att attributet är korrekt. Du kan ange en annan konfidensintervall, om det behövs. Mer information om hur etiketter och konfidensnivå fastställs finns [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -58,7 +58,7 @@ Tillägget Image Analyzer är inbyggt i [!INCLUDE[d365fin](includes/d365fin_md.m
 ## <a name="to-analyze-an-image-of-an-item"></a>Så här analyserar du en bild av en artikel
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
 2. Välj artikel och välj sedan åtgärden **analysera bild**.  
 3. Sidan **Image Analyzer-attribut** visar identifierade attribut, konfidensintervall och annan information om attributet. Använd alternativet **åtgärd att utföra** för att ange vad som ska ske med attributet.  
 
@@ -68,7 +68,7 @@ Följande steg beskriver hur du analyserar en bild som har hämtats innan du val
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Så här analyserar du en bild av en kontaktperson
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontakter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontakter** och välj sedan relaterad länk.  
 2. Välj kontaktperson och välj sedan åtgärden **analysera bild**.  
 3. På snabbfliken **profilfrågeformulär** granska förslagen och gör ändringar om det behövs.  
 
@@ -92,7 +92,7 @@ Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra
 2. Avmarkera kryssrutan **Aktivera Image Analyzer**.  
 
 ## <a name="see-also"></a>Se även
-[Så här arbetar du med Artikelattribut](inventory-how-work-item-attributes.md)  
+[Arbeta med artikelattribut](inventory-how-work-item-attributes.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

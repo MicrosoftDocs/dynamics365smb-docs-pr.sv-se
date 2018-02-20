@@ -13,25 +13,25 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Så här: Skapa återkommande försäljnings- och inköpsrader
+# <a name="create-recurring-sales-and-purchase-lines"></a>Skapa återkommande försäljnings- och inköpsrader
 Om du ofta behöver skapa försäljnings- och inköpsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande försäljning och inköpsdokument, till exempel för återkommande påfyllningsorder.  
 
 I följande procedur beskrivs hur du arbetar med in standardförsäljningsrader. Det fungerar på liknande sätt för standardstandardinköpsrader.  
 
 ## <a name="to-set-up-standard-sales-lines"></a>Så här skapar du standardförsäljningsrader  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Standardtextkoder**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Standardtextkoder**, och välj sedan relaterad länk.  
 2. I fönstret **Standard förs.rader** väljer du åtgärden **Ny**.  
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I snabbfliken **Rader** ange information i fälten för att förbereda försäljningsrader som återspeglar de standardrader som du förväntar dig att använda som återkommande rader på försäljningsdokument.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Infoga standardförsäljningsrader i en försäljningsfaktura
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Standardtextkoder**, och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Standardtextkoder**, och välj sedan relaterad länk.
 2. Öppna den försäljningsfaktura du vill infoga en eller flera standardförsäljningsrader på.
 3. Välj åtgärden **få återkommande förs.rader**.
 4. I fönstret **återkommande försäljningsrader** välj sökknappen i fältet **kod** och välj sedan en uppsättning standardförsäljningsrader.

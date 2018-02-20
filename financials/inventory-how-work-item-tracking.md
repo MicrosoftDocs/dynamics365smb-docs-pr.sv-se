@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Så här arbetar du med serienummer och partinummer
+# <a name="work-with-serial-and-lot-numbers"></a>Arbeta med serienummer och partinummer
 Du kan tilldela serie- och partinummer till alla avgående och ankommande dokument och visa de bokförda artikelspårningstransaktionerna i de associerade artikeltransaktionerna. Du utför arbetet i fönstret **Artikelspårningsrader**.
 
 I matrisen med antalsfält längst upp i fönstret **Artikelspårningsrader** visas antalen och summorna för artikelspårningsnummer som anges på raderna i fönstret. Antalen måste stämma överens med antalen på dokumentraden, som anges med 0 i fälten **Odefinierad**.
 
 För att ge bättre prestanda samlas tillgänglighetsinformationen i fönstret **Artikelspårningsrader** endast in en enda gång när du öppnar fönstret. Detta innebär att informationen om tillgänglighet inte uppdateras under tiden som fönstret är öppet, även om ändringar sker i lagret eller i andra dokument.
 
-Artiklar med serienr eller partinr som kan spåras, antingen framåt eller bakåt i en försörjningskedja. Detta är användbart för allmän kvalitetssäkring och återkallade produkter. Mer information finns i [Så här kan du spåra artiklar med artikelspårningar](inventory-how-to-trace-item-tracked-items.md).
+Artiklar med serienr eller partinr som kan spåras, antingen framåt eller bakåt i en försörjningskedja. Detta är användbart för allmän kvalitetssäkring och återkallade produkter. Mer information finns i [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Så här plockar du specifika serie-/partinummer i distributionslagret
 Avgående hantering av serie- eller partinummer är en vanlig uppgift i olika lagerprocesser.  
@@ -57,7 +57,7 @@ Om du arbetar i fönstret **Artikelspårningsrader** under en lång tidsperiod e
 ## <a name="to-set-up-item-tracking-codes"></a>Så här skapar du en artikelspårningskoder
 Artikelspårningskoden reflekterar ett företags olika regler i samband med användningen av serie- och partinummer för artiklar som flyttas i lagret.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelspårningskoder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelspårningskoder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. På snabbflikarna **Serienr** och **Partinr** definieras principer för artikelspårning efter serie- respektive partinummer.  
@@ -75,7 +75,7 @@ För vissa artiklar kanske du vill definiera särskilda förfallodatum och -regl
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Så här skapar du garantier för serie-/partinummer  
 För vissa artiklar kanske du vill definiera specifika garantier i artikelspårningskoden. På så sätt kan du hålla reda på när garantierna för särskilda serie- eller partinummer i lagret går ut.        
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelspårningskoder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelspårningskoder** och välj sedan relaterad länk.  
 
 1. Välj en befintlig artikelspårningskod och välj sedan åtgärden **redigera**.  
 2.  Fyll i fältet **Garanti datumformel** och markera kryssrutorna på snabbfliken **Diverse** .  
@@ -98,7 +98,7 @@ Om du behöver koppla särskild information till ett visst artikelspårningsnumm
 6. Markera kryssrutan **Spärrad** om du vill utesluta serie- eller partinummer från alla transaktioner.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Så här ändras befintlig information om serie-/partinummer  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
 2. Markera en artikel som har en artikelspårningskod och serienr eller partinr information.
 3. Från fönstret **artikelkort** väljer du åtgärden **transaktioner** och väljer **transaktioner**.
 4. Välj fältet **Partinr** , eller **Serienr**. Om information för artikelspårningsnumret finns öppnas fönstret **Lista med partinr.information** eller **Lista med serienr.information**.  
@@ -115,7 +115,7 @@ De exakta reglerna för hantering av artikelspårningsnummer i företaget avgör
 > [!NOTE]  
 >  För att kunna använda artikelspårningsnummer i distributionslageraktiviteter måste inställningsfälten **Parti dist.lager spårning** och **SN dist.lager spårning** väljas eftersom de definierar vilka regler som ska gälla för serienummer eller partinummer för distributionslageraktiviteterna.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
 2.  Markera önskad dokumentrad och klicka på snabbfliken **Rader**, välj åtgärden **Rad** och sedan åtgärden **Artikelspårningsrader**.  
 
     Du kan tilldela serie- eller partinummer på följande sätt:  
@@ -197,7 +197,7 @@ Rutinerna för hantering av serie- och partinummer som överförs mellan olika l
 Överföringsordern är emellertid unik eftersom både utleveransen och inleveransen utförs från samma överföringsrad, vilket innebär att samma instans i fönstret **Artikelspårningsrader** används. Detta innebär också att artikelspårningsnummer som levereras från ett lagerställe måste inlevereras oförändrade till det andra lagerstället.  
 
  De exakta reglerna för hantering av artikelspårningsnummer i företaget avgörs av inställningarna för tabellen  **Artikelspårningskod**.    
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Överföringsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Överföringsorder** och välj sedan relaterad länk.  
 2.  Öppna den order som du vill bearbeta. På snabbfliken **Rader** välj åtgärden **Rad**, **Artikelspårningsrader** och sedan **Utleverans**.  
 3.  I fönstret **Artikelspårningsrader** tilldelar eller väljer du serie- eller partinummer för eventuella övriga avgående artikeltransaktioner.  
 
@@ -220,7 +220,7 @@ Funktionen stöder följande processer för avgående:
 
 I de här situationerna kopieras befintliga artikelspårningsrader automatiskt till fakturan eller kreditnotan, men i fönstret **Artikelspårningsrader** tillåts inga ändringar av serienummer eller partinummer. Endast kvantiteter kan ändras.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
 2.  Öppna en inköpsfaktura för artiklar som är inköp med serie- eller partinummer.  
 3.  Från en inköpsfaktura på snabbfliken **Rader** väljer du **Hämta inleveransrader**.  
 4.  Välj inleveransrader, som har artikelspårningsrader, och välj sedan **OK** i fönstret **Hämta inleveransrader**.  
@@ -235,8 +235,8 @@ Innehållet i fälten **Serienr** Och **Partinr** går inte att redigera. Du kan
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Gruppera parti- eller serienummer  
 Att gruppera artikelspårningen för en artikel innebär att ett parti- eller serienummer ändras till ett nytt parti- eller serienummer eller att utgångsdatumet ändras till ett nytt utgångsdatum. Vid arbete med partier går det även att koppla flera partier till ett enda. De här aktiviteterna utförs med hjälp av artikelgrupperingsjournalen.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelgrupperingsjournal** och välj sedan relaterad länk.  
-2.  Fyll i raden med relevant information. Mer information finns i [så här: Inventera, justera och gruppera lager](inventory-how-count-adjust-reclassify.md).
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelgrupperingsjournal** och välj sedan relaterad länk.  
+2.  Fyll i raden med relevant information. Mer information finns i [Inventera, justera och gruppera om lager](inventory-how-count-adjust-reclassify.md).
 3.  Välj åtgärden **artikelspårningsrader**.  
 4.  I fälten **Serienr** eller **Partinr** väljer du aktuellt serie- eller partinummer.  
 5.  Om ett nytt artikelspårningsnummer behöver anges kan fälten **Nytt serienr** eller **Nytt partinr** användas. Det går även att koppla ett eller flera partier till ett nytt parti eller ett befintligt parti.  
@@ -259,10 +259,10 @@ Att gruppera artikelspårningen för en artikel innebär att ett parti- eller se
 8.  Bokför journalen för att koppla de nya artikelspårningsnumren eller utgångsdatumen till den associerade artikeltransaktionen.
 
 ## <a name="see-also"></a>Se även
-[Så här kan du spåra artiklar med artikelspårningar](inventory-how-to-trace-item-tracked-items.md)   
+[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)   
 [Lagersaldo](inventory-manage-inventory.md)  
 [Detaljer: Artikelspårning](design-details-item-tracking.md)
 [Designdetaljer - artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
-[Så här reserverar du artiklar](inventory-how-to-reserve-items.md)  
+[Reservera artiklar](inventory-how-to-reserve-items.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

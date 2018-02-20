@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Så här lägger du till fält i en Word-rapportlayout
+# <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
   
 > [!NOTE]  
@@ -29,15 +29,15 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
 1.  Öppna sedan Word-rapportlayoutdokumentet i Word, om inte redan har öppnats.  
   
-     Mer information finns i [så här skapar du och ändrar en anpassad rapportlayout](ui-how-create-custom-report-layout.md).  
+     Mer information finns i [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).  
   
 2.  Visa fliken **Utvecklare** på menyfliken i Microsoft Word.  
   
-     Som standard visas fliken **Utvecklare** inte på menyfliken. Mer information finns i [Så här visar du fliken Utvecklare på menyfliken](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Som standard visas fliken **Utvecklare** inte på menyfliken. Mer information finns i [Visa fliken Utvecklare på menyfliken](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  På fliken **Utvecklare** väljer du **XML-mappningsruta**.  
   
-4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-rapport, som vanligtvis är sist i listan. Namnet på den anpassade XML-delen har följande format:  
+4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-rapport, som vanligtvis är sist i listan. Namnet på den anpassade XML-delen har följande format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
  Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storleksändras automatiskt i förhållande för att passa gränsen för innehållskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-klienten.  
+>  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-klienten.  
   
 #### <a name="to-add-an-image"></a>Så här lägger du till en bild  
   
@@ -107,7 +107,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Bokslutselement.|  
   
 ### <a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word  
- I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Så här visar du fliken Utvecklare på menyfliken](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter deras namn som har definierats av egenskapen Namn i datauppsättnings-designern för rapporten i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -124,4 +124,4 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 -   Rubrikens språk som visas när du kör rapporten beror på språkinställningen för rapportobjektet. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Se även  
- [Så här skapar du och ändrar en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
+ [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   

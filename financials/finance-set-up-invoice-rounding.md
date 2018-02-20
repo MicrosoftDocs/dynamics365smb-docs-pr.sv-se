@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f56e94d0914aaacc722381790688faedbb75ffda
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ceebeeac325c00d6aef25d8ca51fcfee1ab4e1d5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Ställa in överavrundning
@@ -34,34 +34,34 @@ För att kunna använda den automatiska fakturaavrundningen måste du:
 > [!NOTE]  
 >  Förutom fakturaavrundningsfunktionen kan belopp på fakturor rundas av med funktionerna A-pris avrundning och Belopp avrundning.  
  
-## <a name="how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Så här: Skapa redovisningskonton för avrundningsdifferenser av fakturor
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor
 Om du vill använda programmets funktion för automatisk avrundning av fakturabelopp måste du först upprätta redovisningskonton eller konton där avrundningsskillnaderna bokförs. Innan du kan göra detta måste du definiera produktbokföringsmallar för moms. Mer information finns i [Ange moms](finance-setup-vat.md).  
   
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
 2. På sidan **Kontoplan** ställer du in kontot och kallar det för **Faktura avrundning** eller något liknande. [!INCLUDE[d365fin](includes/d365fin_md.md)] använder kontonamnet som text för de fakturor som avrundas.  
 3. Beroende på om du använder moms eller omsättningsskatt väljer du i fälten **Omsättn. skatt produktbokföringsmall** eller **Moms produktbokföringsmal** och väljer en bokföringsmall för avrundade belopp. Du vill kanske skapa en ny gruppkod som kan användas för fakturaavrundning.
 4. Lämna fälten **Typ av bokföring**, och antingen **Omsättn. skatt rörelsebokföringsmall** eller **Moms rörelsebokföringsmall** tomma. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
   
 Nu kan du koppla fakturaavrundningskontot till bokföringsmallar på sidan **Leverantörsbokföringsmallar**.  <!-- Why only the vendor posting groups? -->
 
-## <a name="how-to-set-up-rounding-for-foreign-and-local-currencies"></a>Så här: Ange avrundningsregler för utländska valutor
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Så här anger du avrundningsregler för utländska valutor
 Innan du kan använda den automatiska fakturaavrundningsfunktionenmåste du ställa in avrundningsregler för utländsk och lokal valuta.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Så här anger du avrundningsregler för utländska valutor:  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Valutor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Valutor** och välj sedan relaterad länk.  
 2. På sidan **valutor** väljer du valutan för att öppna **valutakort**, och fyller sedan i fälten **Belopp avrundning**, **A-pris avrundning**, **Faktura avrundning** och **Avrundningstyp**.
   
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Så här anger du avrundningsregler för den lokala valutan:
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** på snabbfliken **Allmänt** fyller du i fälten **Faktura avrundning** och **Avrundningstyp**.  
 
-## <a name="how-to-activate-the-invoice-rounding-function"></a>Så här aktiverar du funktionen Avrunda fakturabelopp:  
+## <a name="activate-the-invoice-rounding-function"></a>Så här aktiverar du funktionen Avrunda fakturabelopp  
 För att se till att försäljnings- och inköpsfakturor avrundas automatiskt aktiverar du funktionen Avrunda fakturabelopp. Du kan aktivera fakturaavrundningen separat för försäljnings- och inköpsfakturor.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsinställningar** eller **Inköpsinställningar** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsinställningar** eller **Inköpsinställningar** och väljer sedan relaterad länk.  
 2. På snabbfliken **Allmänt**, välj kryssrutan **Öresutjämning**.  
   
 ## <a name="see-also"></a>Se även  
-[Så här fakturerar du försäljning](sales-how-invoice-sales.md)  
-[Så här registrerar du inköp](purchasing-how-record-purchases.md)
+[Fakturaförsäljning](sales-how-invoice-sales.md)  
+[Registrera inköp](purchasing-how-record-purchases.md)

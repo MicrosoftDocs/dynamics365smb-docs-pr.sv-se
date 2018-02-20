@@ -1,6 +1,6 @@
 ---
 title: "Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer | Microsoft Docs"
-description: "I Dynamics 365 kan de ankommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån."
+description: "I Finance and Operations, Business edition kan de ankommande processerna för mottagande och införsel utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivån."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 52b017591b389c883e8a0bbeb35c1e3a3a9e7377
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b420bc1cc0707824385cda832ac905c016cdd706
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
@@ -62,7 +62,7 @@ För att kunna utföra den här genomgången behöver du:
 -   CRONUS Sverige AB installerad  
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
-    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
     2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
     3.  Ange SILVER i fältet **Lagerställekod**.  
     4.  Välj fältet **Standard**.  
@@ -75,7 +75,7 @@ Alicia, inköpsagenten i CRONUS, skapar en inköpsorder för 10 enheter av artik
 
 ### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet SILVER.  
 3.  Markera kryssrutan **Begär artikelinförsel**.  
 
@@ -95,7 +95,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 
 ### <a name="to-create-the-purchase-order"></a>Skapa inköpsordern  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en inköpsorder för leverantör 10000 på arbetsdatumet (23 januari) med följande inköpsorderrader.  
 
@@ -118,7 +118,7 @@ I fönstret **Lagerinförsel** kan du hantera alla ingående distributionslagera
 
 ### <a name="to-receive-and-put-the-items-away"></a>Så här tar du emot och för in artiklar  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerinförslar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerinförslar** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Välj fältet **Källdokument** och sedan **Inköpsorder**.  
 4.  Välj fältet **Källnr.** markera raden för köpet från leverantör 10000 och välj sedan knappen **OK**.  
@@ -134,11 +134,11 @@ I fönstret **Lagerinförsel** kan du hantera alla ingående distributionslagera
     De 40 högtalarna har nu registrerats som införda på lagerplatser S-01-0001 och en positiv artikeltransaktion skapas som återspeglar den bokförda inköpsinleveransraden.  
 
 ## <a name="see-also"></a>Se även  
- [Så här: Införa artiklar med lagerartikelinförslar](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
- [Så här: Ställa in grundläggande dist.lager med operationsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Så här: Flytta komponenter till ett operationsområde i grundläggande lagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Så här: Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)   
- [Så här flyttar du artiklar ad hoc i grundläggande lagerkonfiguration](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
+ [Ställa in grundläggande dist.lager med verksamhetsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Flytta komponenter till ett verksamhetsområde i en grundläggande lagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)   
+ [Flytta artiklar ad hoc i grundläggande lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designdetaljer: Ankommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 106102d07761673461bc28bbf6452ed05f926112
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f0ba4e8bb0770f612594e6af8a47838852a3d25
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
@@ -44,7 +44,7 @@ När bokföringen är slutförd tas de bokförda försäljningsraderna bort frå
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
-[Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
+[Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

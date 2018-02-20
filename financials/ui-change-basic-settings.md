@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändra grundinställningar
@@ -29,7 +29,7 @@ I mitten hittar du panelen Aktiviteter. Aktiviteter visar data och kan klickas p
 
 Du kan också att upprätta en lista över favoritkunder på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet till. Använd pilarna för att minska en del av sidan och för att få mer plats för att visa specifika data. Högst upp på startsidan hittar du alla åtgärder som kan kopplas till det aktuella innehållet. Detta kan också reduceras, och du behöver endast klicka inom det reducerade området för att visa det på nytt.
 
-Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål. Mer information finns i [Så här ändrar du rollcentret](change-role.md).
+Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål. Mer information finns i [Ändra rollcenter](change-role.md).
 
 ## <a name="company"></a>Företag
 Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
@@ -56,6 +56,6 @@ Välj den här länken för att visa eller ändra meddelandena som du får om vi
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Så här ändrar du rollcentret](change-role.md)  
+[Ändra Rollcenter](change-role.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 

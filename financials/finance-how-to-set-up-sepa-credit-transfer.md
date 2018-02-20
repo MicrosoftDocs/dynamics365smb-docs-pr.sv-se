@@ -1,6 +1,6 @@
 ---
 title: "Ställ in SEPA Kreditöverföringar | Microsoft Docs"
-description: "Lär dig ställa in SEPA kreditöverföringar i Dynamics 365 Business edition."
+description: "Lär dig ställa in SEPA kreditöverföringar i Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66f24ea238eed97ffe7f76f3c979cc2843875860
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-credit-transfer"></a>Så här: Skapar SEPA-kreditöverföring
+# <a name="set-up-sepa-credit-transfer"></a>Konfigurera SEPA-kreditöverföring
 Från fönstret **Betalningsjournal** kan du exportera betalningar till en fil för överföring till din elektroniska bank för behandling av de relaterade pengaöverföringarna. [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer SEPA kreditöverföringar-format, men andra format för elektroniska betalningar i ditt land/din region kan finnas.  
 
-Om du vill aktivera export av bankfilformat som inte stöds från början i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurera en datautbytesdefinition med ramverket för datautbyte. Mer information finns i [Så här konfigurerar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+Om du vill aktivera export av bankfilformat som inte stöds från början i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurera en datautbytesdefinition med ramverket för datautbyte. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalningsfiler i formatet SEPA Krediteringsöverföring, måste du utföra följande inställningssteg:  
 
@@ -57,13 +57,13 @@ Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalni
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Så här kan du ansluta datautbytesdefinitionen för en eller flera betalningstyper till lämpliga betalningsmetoder  
 1. I rutan **Sök**, ange **Betalningssätt** och välj sedan relaterad länk.  
 2. I fönstret **Betalningsmetoder** väljer du det betalningssätt som används att exportera betalningar från och väljer sedan fältet **Definition för bet.exportrad**.  
-3. I fönstret **Definition för bet.exportrad** väljer du den kod som du har angett i **kod** på snabbfliken **definitioner för raden** i steg 4 i avsnittet ”Beskriva layouten för rader och kolumner i filen” i [Så här konfigurerar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+3. I fönstret **Definition för bet.exportrad** väljer du den kod som du har angett i fältet **Kod** på snabbfliken **Definitioner för rad** i steg 4 i avsnittet ”Beskriva layouten för rader och kolumner i filen” i förfarandet [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
-    Medgivande för autogiro infogas automatiskt i fältet **Medgivande-ID för autogiro** när du skapar en försäljningsfaktura för den kund som du valde i steg 2. Mer information finns i [så här: Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md).  
+    Medgivande för autogiro infogas automatiskt i fältet **Medgivande-ID för autogiro** när du skapar en försäljningsfaktura för den kund som du valde i steg 2. Mer information finns i [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Se även  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
-[Så här konfigurerar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
-[Så här: Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)  
+[Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
+[Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)  
 [Utbyta data elektroniskt](across-data-exchange.md).  
 

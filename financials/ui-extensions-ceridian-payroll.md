@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c67d6bd4d24d5b58462fa05168f2ac764b2c695
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 442459e82ebeb6b5b767b443e49c62ff0d4364d1
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-ceridian-payroll-extension-to-dynamics-365-business-edition"></a>Tillägget Ceridian lön till Dynamics 365 Business edition. 
+# <a name="the-ceridian-payroll-extension-to-finance-and-operations-business-edition"></a>Lönefilstillägget Ceridian för Finance and Operations, Business edition 
 För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste du importera och bokföra finansiella transaktioner som gjorts av ditt lönesystem i redovisningen.
 
 För att göra detta måste du först importera en fil som du får från lönelistleverantören till fönstret **Redovisningsjournal**. Sedan mappar du de externa kontona i lönefilen till det relevanta redovisningskontot. Slutligen bokför du lönetransaktioner enligt kontomappningen. Mer information finns i [Så här importerar du lönetransaktioner](finance-how-import-payroll-transactions.md).

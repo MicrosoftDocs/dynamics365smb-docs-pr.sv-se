@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
@@ -58,7 +58,7 @@ Du anger dessa inställningar genom att söka efter **kassaflödeskonton**, väl
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurera kassaflödesprognoser.
 Diagrammet **kassaflödesprognos** använder kassaflödeskonton, kassaflödesinställningar för kassaflödesprognoser. Vissa tillhandahålls, men du kan ställa in egna med hjälp av en assisterade konfigurationsguiden. Guiden hjälper dig att ange saker som till exempel hur ofta du uppdaterar prognosen, kontona som du vill basera den på, information om när du betalar skatter och om du ska använda [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
 
-Kassaflödesprognoser kan använda Cortana Intelligence-dokument med förfallodatum senare ska inkluderas. Resultatet blir en mer omfattande prognos. Anslutningen till Cortana Intelligence har redan ställts in åt dig. Du måste aktivera den. När du loggar in i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], visas ett meddelande i en blå stapel och innehåller en länk till standardinställning för kassaflödesinställningen. Meddelandet visas endast en gång. Om du stänger den och bestämmer dig för att aktivera Cortana Intelligence använder du den assisterade inställningsguiden eller en manuell process.  
+Kassaflödesprognoser kan använda Cortana Intelligence-dokument med förfallodatum senare ska inkluderas. Resultatet blir en mer omfattande prognos. Anslutningen till Cortana Intelligence har redan ställts in åt dig. Du måste aktivera den. När du loggar in i [!INCLUDE[d365fin](includes/d365fin_md.md)], visas ett meddelande i en blå stapel och innehåller en länk till standardinställning för kassaflödesinställningen. Meddelandet visas endast en gång. Om du stänger den och bestämmer dig för att aktivera Cortana Intelligence använder du den assisterade inställningsguiden eller en manuell process.  
 
 > [!NOTE]  
 >   Du kan alternativt använda förebyggande webbtjänsten. Mer information finns i [skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser](#AnchorText).  
@@ -79,14 +79,14 @@ Så här använder du en manuell process:
 >   Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Cortana Intelligence inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  
 
 ## <a name="AnchorText"> </a>Skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser
-Du kan också skapa egna förebyggande webbtjänsten som bygger på en allmän modell med namnet **Prognosmodellen för Microsoft Dynamics 365 Business edition**. Den här förebyggande modellen finns online i galleriet Cortana Intelligence. För att använda modellen gör du följande:  
+Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän modell med namnet **Prognosmodell för Microsoft Finance and Operations, Business edition**. Den här förebyggande modellen finns online i galleriet Cortana Intelligence. För att använda modellen gör du följande:  
 
 1. Öppna en webbläsare och gå du till [Cortana Intelligence-galleriet](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Sök efter **Prognosmodellen för Microsoft Dynamics 365 Business edition** och öppna sedan modellen i Azure Machine Learning Studio.  
+2. Söka efter **Prognosmodellen för Microsoft Finance and Operations, Business edition** och öppna sedan modellen i Azure Machine Learning Studio.  
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
+6. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
 7. Expandera snabbfliken **Cortana Intelligence** och fyll sedan i fälten.  
 
 ## <a name="see-also"></a>Se även

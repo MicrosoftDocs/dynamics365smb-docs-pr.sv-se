@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d37170cabe2b03200e3d3f5f7b5c2a679eb8f46c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-base-calendars"></a>Så här lägger du upp baskalendrar
+# <a name="set-up-base-calendars"></a>Skapa baskalendrar
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Baskalender** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Baskalender** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fältet **Kod**.  
 4. Välj åtgärden **Bibehåll baskalenderändringar**.
@@ -66,10 +66,10 @@ I en baskalender visas exempelvis alla lördagar normalt som lediga dagar, medan
 
 I proceduren nedan används fallet med lagerstället som exempel: Lägg märke till att du i det här skedet redan har fördelat en baskalender till lagerstället.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Öppna den plats som du vill uppdatera och välj sedan fältet **anpassad kalender**. Observera att en kalender måste markeras i fältet **Baskalenderkod**.
-3. I fönstret **Anpassade kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
-4. I **Anpassade kalenderändringar** lägg till rader för anpassade kalendertransaktioner.
+3. I fönstret **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
+4. I **Anpassa kalenderändringar** lägger du till rader för anpassade kalendertransaktioner.
 
     När du registrerar en rad, är kryssrutan **Ej arbetsdag** markerat. Du kan ta bort markeringen om du vill ändra status till en arbetsdag.
 
@@ -79,7 +79,7 @@ I proceduren nedan används fallet med lagerstället som exempel: Lägg märke t
 
 5. Välj **OK**.
 
-I fönstret **Anpassade kalendertrans.** kan du lägga märke till att de ändringar som du har gjort har uppdaterats dynamiskt.
+I fönstret **Anpassa kalendertrans.** kan du lägga märke till att de ändringar som du har gjort har uppdaterats dynamiskt.
 
 Observera också, när du öppnar lagerställekortet, att fältet **Anpassad kalender** har värdet **Ja**, vilket indikerar att en anpassad kalender har definierats.
 
@@ -102,7 +102,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 -   På kortet **Lagerställe** tilldelas baskalendern på snabbfliken **Lager**.  
 -   I fönstret **Speditörer** fördelats baskalendern i fönstret **Speditörsservice**.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kunder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kunder** och välj sedan relaterad länk.  
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  
 3.  På Snabbfliken **Leverans**, i fältet **Baskalenderkod**, markera den baskalender som du vill tilldela.  
 

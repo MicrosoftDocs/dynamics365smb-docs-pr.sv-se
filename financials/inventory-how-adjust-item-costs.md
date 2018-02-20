@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Så här justerar du artikelkostnader
+# <a name="adjust-item-costs"></a>Justera artikelkostnader
 Kostnaden för en artikel (lagervärde) som du köper och senare säljer kan ändras under dess livstid, eftersom till exempel en fraktkostnad läggs till dess inköpkostnad när du har sålt artikeln. Kostnadsjustering är speciellt relevant i situationer där du säljer varor, innan du fakturerar inköpet av dessa varor. För att alltid ha rätt lagervärde måste artikelkostnader därför regelbundet justeras. Detta säkerställer att försäljnings- och vinststatistiken är aktuell och ekonomiska KPI-er är korrekta. Mer information finns i [Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md).
 
 Som regel beräknas värdet i fältet **Styckkostnad** på artikelkortet enligt standardkostnaden för artiklar där värderingsprincipen Standard används. För artiklar där någon annan värderingsprincip används, beräknas värdet baserat på beräkningen av lagersaldot (fakturerade kostnader och förväntade kostnader) dividerat med lagersaldot. Mer information finns i avsnittet "Förstå Styckkost. beräkningstyp".
@@ -28,7 +28,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] justera artikelkostnaderna automat
 
 Du kan också använda en funktion för att justera kostnaderna för en eller flera artiklar. Detta är användbart när du vet att artikelkostnader har ändrats av andra orsaker än artikeltransaktioner.
 
-Artikelkostnaderna justeras av FIFO eller metoden Genomsnittskostnad beroende på ditt val i assisterad konfiguration för **Konfigurera mitt företag** på fältet **Värderingsprincip** på artikelkortet. Mer information finns i [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
+Artikelkostnaderna justeras av FIFO eller metoden Genomsnittskostnad beroende på ditt val i assisterad konfiguration för **Konfigurera mitt företag** på fältet **Värderingsprincip** på artikelkortet. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).  
 
 Om du använder en FIFO-kostnadsmetod är artikelns enhetskostnad det verkliga värdet på en inleverans av artikeln. Lager värders genom att anta att de första artiklarna in i lagret säljs först.
 
@@ -37,7 +37,7 @@ Om du använder metoden Genomsnittskostnad beräknas en artikels enhetskostnad s
 Funktionen Kostnadsjustering bearbetar endast värdetransaktioner som inte ännu har justerats. Om en funktion påträffas där ankommande kostnader behöver flyttas fram till kopplade avgående kostnader, görs detta genom att nya justeringsvärdetransaktioner skapas som baseras på informationen i de ursprungliga värdetransaktionerna, men som innehåller justeringsbeloppet. Funktionen Kostnadsjustering använder bokföringsdatumet för den ursprungliga värdetransaktionen om inte det datumet infaller i en avslutad lagerperiod. Om så är fallet används startdatumet för nästa öppna lagerperiod. Om lagerperioder inte används definieras datumet i fältet **Tillåt bokföring fr.o.m.** i fönstret **Redovisningsinställningar** när justeringstransaktionerna bokförs.
 
 ## <a name="to-adjust-item-costs-manually"></a>Så här justerar du artikelkostnader manuellt
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Justera kost. - artikeltrans** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Justera kost. - artikeltrans** och välj sedan relaterad länk.
 2. I fönstret **Justera kost. - artikeltrans** kan du ange vilka artiklar som du vill justera kostnader för.
 3. Välj knappen **OK**.
 
@@ -46,7 +46,7 @@ Om du vill ändra inköpspriset för flera olika artiklar kan du använda batchj
 
  När batch-jobbet körs ändras innehållet i fältet **Inköpspris** på artikelkortet. Innehållet i fältet ändras på samma sätt för alla artiklar eller för de artiklar du valt. Värdet i fältet multipliceras med en justeringsfaktor som du anger.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Justera artikelkost./-priser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Justera artikelkost./-priser** och välj sedan relaterad länk.  
 2. I fältet **Justeringsfält** anger du vilket artikelfält eller lagerställeskortfält du vill justera.  
 3. I fältet **Justeringsfaktor** anger du den faktor som ska justera värdet. Ange t.ex. **1,5** för att minska värdet med 50 %.  
 4. På snabbfliken **Artikel** ställer du in filter för att ange till exempel vilka artiklar som ska hanteras med batch-jobbet.  
@@ -63,7 +63,7 @@ Som regel beräknas värdet i fältet **Styckkostnad** på artikelkortet enligt 
  Ditt val i fältet **Värderingsprincip** påverkar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad** på raderna.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Värderingsprincip FIFO, LIFO, Serienr eller Genomsnitt  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad (BVA)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad (LCY)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:  
 
  Styckkostnad (BVA) = (Inköpspris – (Rabattbelopp/Antal)) x (1 + Indirekt kostnad %/100) + Overheadkostnad  
 

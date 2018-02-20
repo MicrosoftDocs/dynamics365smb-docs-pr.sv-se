@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06e0de9409fa26d18f051d84b39d021227a55191
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Så här använder du XML-scheman för att förbereda datautbytesdefinitioner
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använda XML-scheman för att förbereda dataintegrationsdefinitioner
 Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet i fönstret **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initiera antingen en definition för datautbyte eller en XMLport.  
 
  När du har definierat vilka dataelement som ska ingå baserat på XML-schemat, kan du använda åtgärden **Generera XMLPort** för att skapa ett XMLport-objekt.  
 
- Alternativt kan du använda åtgärden **Generera datautbytesdefinition** för att initiera en definition för datautbyte som baseras på de valda dataelementen, som du sedan fyller i i ramverket för datautbyte. Det skapar en post i fönstret **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Alternativt kan du använda åtgärden **Generera datautbytesdefinition** för att initiera en definition för datautbyte som baseras på de valda dataelementen, som du sedan fyller i i ramverket för datautbyte. Det skapar en post i fönstret **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
  Det här avsnittet innehåller följande procedurer:  
 
@@ -108,7 +108,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 4.  I fönstret **Visningsprogram för XML-schema** på fliken **Start** i gruppen **Process** väljer du **Generera datautbytesdefinition**.  
 
- Datautbytesdefinitionen skapas i fönstret **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Datautbytesdefinitionen skapas i fönstret **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 >  Du kan också använda funktionen **Hämta filstruktur** från fönstret **Definitioner för bokföringsbyte** som använder funktionen i fönstret **Visningsprogram för XML-schema** för att autofylla snabbfliken **Kolumndefinitioner**.  
@@ -128,8 +128,8 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 6. Importera nya XML-porten till den [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment och kompilera.
 
 ## <a name="see-also"></a>Se även  
-[Så här konfigurerar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
-[Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md)   
+[Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
+[Exportera betalningar till en bankfil](payables-how-export-payments-bank-file.md)   
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
 [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)
 

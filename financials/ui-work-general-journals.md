@@ -12,23 +12,23 @@ ms.workload: na
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b573bb55c29de329e5d9a804b49a91687dc369ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
-De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. För verksamhet som inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], till exempel mindre utgifter eller inbetalningar kan du skapa relaterade transaktioner genom att bokföra journalrader i fönstret **redovisningsjournal**. Mer information finns i [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).
+De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. För verksamhet som inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], till exempel mindre utgifter eller inbetalningar kan du skapa relaterade transaktioner genom att bokföra journalrader i fönstret **redovisningsjournal**. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).
 
-Du kan till exempel bokföra anställdas utgifter med egna pengar för affärsrelaterade utgifter för senare återbetalning. Mer information finns i [Så här registrerar du och återbetalar anställdas utgifter](finance-how-record-reimburse-employee-expenses.md).
+Du kan till exempel bokföra anställdas utgifter med egna pengar för affärsrelaterade utgifter för senare återbetalning. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 Du använder Redovisningsjournaler för att bokföra ekonomiska transaktioner direkt på redovisningskonton och andra konton, till exempel bank-, leverantörs- och personalkonton. När du bokför med en redovisningsjournal skapas alltid transaktioner på redovisningskonton. Så sker till exempel även när en journalrad bokförs på ett kundkonto, eftersom en transaktion bokförs på ett kundfordringskonto i redovisningen via en bokföringsmall.
 
-Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på enskilda konton, där den inte kan ändras. Du kan emellertid ta bort kopplingar från bokförda transaktioner och bokföra återförande eller rättande transaktioner. Mer information finns i [Så hör: Återföra bokföringar](finance-how-reverse-journal-posting.md).
+Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på enskilda konton, där den inte kan ändras. Du kan emellertid ta bort kopplingar från bokförda transaktioner och bokföra återförande eller rättande transaktioner. Mer information finns i [Återföra bokföringar](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Använda Journalmallar och journaler
-Det finns flera redovisningsjournalmallar. Varje journalmall representeras av ett dedikerat fönster med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel fönstret **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och fönstret **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [göra betalningar](payables-make-payments.md) och [så här: stämma av kundens betalningar manuellt ](receivables-how-apply-sales-transactions-manually.md).
+Det finns flera redovisningsjournalmallar. Varje journalmall representeras av ett dedikerat fönster med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel fönstret **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och fönstret **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [Göra betalningar](payables-make-payments.md) och [Stämma av kundens betalningar manuellt](receivables-how-apply-sales-transactions-manually.md).
 
 För varje journalmall kan du skapa din egen personliga journal som en journal. Du kan till exempel ange din egen journal för betalningsjournalen som har din personliga layout och inställningar. Följande tips är ett exempel på hur du anpassar en journal.
 
@@ -51,7 +51,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 >   Följande procedur gäller för artikeljournalen, men informationen kan också tillämpas på redovisningsjournalen.
 
 ### <a name="to-save-a-standard-journal"></a>Så här sparar du som en standardjournal
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.
 2. Mata på en eller flera journalrader.
 3. Markera de journalrader som du vill återanvända.
 4. Välj åtgärden **Spara som standardjournal**.
@@ -66,7 +66,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 När du har sparat standardartikeljournalen visas fönstret Artikeljournal så att du kan fortsätta att bokföra den, samtidigt som du vet att den lätt kan återskapas nästa gång du bokför samma eller likartade rader.
 
 ### <a name="to-reuse-a-standard-journal"></a>Så här återanvänder du standardjournaler
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.
 2. Välj åtgärden **Få standardjournal**.
 
     Fönstret Standardartikeljournaler visas med koder och beskrivningar för alla befintliga standardartikeljournaler.
@@ -100,15 +100,15 @@ Alla omnumreringen av verifikationsnummer skall respektera relaterade tillämpni
 
 Följande procedur är baserad på fönstret **Redovisningsjournal**, men gäller för alla andra journaler som baseras på den redovisningsjournalen, t.ex. fönstret **Utbetalningsjournal**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler** och välj sedan relaterad länk.
 2. När du är klar att bokföra journalraderna väljer du **Numrera om dokumentnummer**.
 
 Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. När dokument numreras kan du fortsätta att bokföra journalen.
 
 ## <a name="see-also"></a>Se även
 [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
-[Så här: Återföra en bokning](finance-how-reverse-journal-posting.md)  
-[Så här: Fördela kostnader och intäkter.](year-allocate-costs-income.md)  
+[Återföra bokningar](finance-how-reverse-journal-posting.md)  
+[Fördela kostnader och intäkter](year-allocate-costs-income.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

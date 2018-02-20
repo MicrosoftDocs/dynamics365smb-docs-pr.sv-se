@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interna distributionslagerflöden
@@ -97,11 +97,11 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
  En produktionsorder för 15 STYCK av artikeln LS-100 finns. Några av artiklarna på komponentlistan måste bokföras manuellt i en förbrukningsjournal, och andra artiklar på listan kan plockas och bokföras automatiskt med hjälp av bokföringsmetoden **Plocka + bakåt**.  
 
 > [!NOTE]  
->  **Plocka + framåt** fungerar bara om den andra produktionsoperationsföljdsradens operation använder en routningslänkkod. När du släpper en planerad produktionsorder aktiverar bokföring framåt av komponenter som har värdet **Plocka + framåt**. Bokföringen kan inte göras förrän plockningen av komponenterna är registrerad,vilket endast kan göras när ordern släpps.  
+>  **Plocka + framåt** fungerar bara om den andra produktionsverksamhetsföljdsradens operation använder en routningslänkkod. När du släpper en planerad produktionsorder aktiverar bokföring framåt av komponenter som har värdet **Plocka + framåt**. Bokföringen kan inte göras förrän plockningen av komponenterna är registrerad,vilket endast kan göras när ordern släpps.  
 
  Följande moment beskriver de ingående åtgärderna från olika användare och det relaterade svaret:  
 
-1.  Produktionsledaren släpper produktionsordern. Artiklar med bokföringsmetoden **Framåt** och utan operationsföljdlänkkod dras av från den öppna fabrikslagerplatsen.  
+1.  Produktionsledaren släpper produktionsordern. Artiklar med bokföringsmetoden **Framåt** och utan verksamhetsföljdlänkkod dras av från den öppna fabrikslagerplatsen.  
 2.  Produktionsledare väljer knappen **Skapa dist.lagerplockning** på produktionsordern. Ett plockningdokument för dist.lager skapas för plockning av artiklar med bokföringsmetoderna **Manuell**, **Plocka + bakåt**och **Plocka + framåt**. Dessa artiklar placeras i Till produktion-lagerplatsen.  
 3.  Lagerchefen tilldelar plockningar till lagerarbetare.  
 4.  Lagerarbetaren plockar artiklarna från lämpliga lagerplatser och placerar dem i Till produktion-lagerplatsen eller lagerplatsen som anges på distributionslagerplockningen, som kan vara en produktionsgrupp eller maskingrupplagerplats.  
@@ -111,7 +111,7 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
     >  Endast det antal som plockas kan förbrukas.  
 
 6.  Maskinoperatorn informerar produktionschefen att slutartiklarna är klara.  
-7.  Produktionsledaren använder förbrukningsjournalen eller produktionsjournalen för att bokföra förbrukningen av komponentartiklarna som använder bokföringsmetoden **Manuell** eller **Framåt** eller **Plocka + framåt** tillsammans med koderna för operationsföljdslänkar.  
+7.  Produktionsledaren använder förbrukningsjournalen eller produktionsjournalen för att bokföra förbrukningen av komponentartiklarna som använder bokföringsmetoden **Manuell** eller **Framåt** eller **Plocka + framåt** tillsammans med koderna för verksamhetsföljdslänkar.  
 8.  Produktionschefen bokför utflödet av produktionsorder och ändrar status till **Avslutad**. Antalet av komponentartiklarna som använder bokföringsmetoden **Bakåt** dras av från öppna fabrikslagerplatser, och antalet av komponentartiklarna som använder bokföringsmetoden **Plocka + bakåt** dras av från till produktion-lagerplatsen.  
 
  Följande illustration visas när fältet **Lagerplatskod** på komponentlistan fylls enligt inställningen för lagerstället eller maskin-/produktionsgruppen.  

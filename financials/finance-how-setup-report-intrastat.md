@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Så här: Skapa och rapportera Intrastat
@@ -44,7 +44,7 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 >  [!Note]
 > Vi rekommenderar att du skapar en intrastatjournal varje månad.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder.  
 3. Om du vill skapa journaler, välj fliken **analysera** och välj sedan **journaler**.  
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder.  
@@ -55,26 +55,26 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 ### <a name="to-set-up-commodity-codes"></a>Så här skapar du artikelkoder
 Alla artiklar som du köper eller säljer måste ha en artikelkod.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **artikelkoder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **artikelkoder** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Om du vill tilldela en artikel en artikelkod, går du till sidan **artikelkort**, expanderar snabbfliken **kostnader och bokföring**och anger koden i fältet **Artikelkod**.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Så här skapar du koder av transaktionstyp
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **artikelkoder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **artikelkoder** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Om du ofta använder en kod av transaktionstyp kan göra du den till standard. Gör detta genom att gå till sidan **Intrastatinställningar** och välja koden.
 
 ### <a name="to-set-up-transport-methods"></a>Så här ställer du in transportsätt
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Transportsätt**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportsätt**, och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-report-intrastat"></a>Att rapportera intrastat
 När du har fyllt i intrastatjournalen kan du skriva ut rapporten **checklista** när du vill kontrollera att all information i journalen är korrekt. Därefter kan du skriva ut en intrastatrapport som ett formulär eller skapa en fil som ska skickas till skattemyndigheten i Sverige.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Så här fyller du i intrastatjournaler  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
 2. På sidan **Intrastatjournal** i fältet **Journalnamn** väljer du relevant journal och sedan knappen **OK**.  
 3. Välj åtgärden **Föreslå rader**. Fälten **Startdatum** och **Slutdatum** innehåller redan de datum som angavs för statistikperioden i journalen.  
 4. I fältet **Omkostnad reglering %** kan du ange ett värde i procent som täcker transport och försäkring. Om du gör detta är innehållet i fältet **Statistiskt värde** i journalen proportionellt sett högre.  
@@ -85,20 +85,20 @@ När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperiod
 > [!IMPORTANT]  
 >  Med batch-jobbet hämtas endast de transaktioner som innehåller en lands-/regionkod som en intrastatkod har angetts för på sidan **Länder/regioner**. Därför måste du ange intrastatkoder för de lands-/regionkoder som du vill köra batch-jobbet för.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Så här: rapportera Intrastat på ett formulär eller en fil
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportera intrastat på ett formulär eller en fil
 Du måste skriva ut rapporten **Intrastat - formulär** för att erhålla den information som behövs i INTRASTAT-formuläret från de statistiska myndigheterna. Innan du kan göra detta måste du lägga upp intrastatjournalen och fylla i den. Om du både har försäljnings- och inköpstransaktioner måste du fylla i ett separat formulär för varje typ, vilket innebär att du måste skriva ut rapporten två gånger.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
 2. På sidan **Intrastatjournal** väljer du den relevanta journalen i fältet **Journalnamn**.  
 3. Om du inte redan har fyllt i journalen gör du det nu, antingen manuellt eller genom att välja **Föreslå rader**.  
 4. Välj åtgärden **skriver ut intrastatjournal**.  
 5. På snabbfliken **Intrastatjournalrad** lägger du till filtret **Typ** och anger om det är **Inleverans** eller **Utleverans**.  
 6. Välj **skicka till** för att skriva ut rapporten.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Så här: rapportera Intrastat i en fil
+### <a name="report-intrastat-in-a-file"></a>Rapportera intrastat i en fil
 Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriva ut en kontrollrapport som innehåller samma information som filen.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
 2. I fönstret **Intrastatjournal** markerar du den relevanta journalen i fältet **Journalnamn**.  
 3. Om du inte redan har fyllt i journalen gör du det nu, antingen manuellt eller genom att välja **Föreslå rader**.  
 4. Välj åtgärden **Skapa fil**.  
@@ -106,15 +106,13 @@ Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriv
 6. Välj **Spara**.  
 7. Bläddra till den plats där du vill spara filen och skriv filnamnet. Klicka på  **Spara**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Så här: Ordna om intrastatjournaler
+## <a name="reorganize-intrastat-journals"></a>Omorganisera intrastatjournaler
 Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny journal för varje rapport kommer det sannolikt att finnas många journaler. Journalraderna tas inte bort automatiskt. Om du vill kan du ordna om journalnamnen med jämna mellanrum. Du gör detta genom att ta bort de journaler som inte längre behövs. Även journalraderna i de här journalerna tas bort.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Intrastatjournal** och välj sedan relaterad länk.  
 2. Om du vill visa alternativen väljer du fältet **Journalnamn**.  
 3. Välj journalerna som tas bort, och välj sedan **Ta bort**.  
 
 ## <a name="see-also"></a>Se även
 [Ekonomihantering](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

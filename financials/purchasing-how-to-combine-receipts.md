@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b3599a3f1a2cfc53d682a153eda8395e892305b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2176baf2947a08785fdf6327b2ebebf35686d04a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-receipts-on-a-single-invoice"></a>Så här kombinerar du inleveranser på en enda faktura
+# <a name="combine-receipts-on-a-single-invoice"></a>Kombinera inleveranser på en enda faktura
 Om du vill fakturera mer än en inleverans i taget kan du använda funktionen **Kombinera inleveranser**.  
 
 Innan du kan skapa en kombinerad inleverans måste du bokföra mer än en inköpsinleverans från samma leverantör i samma valuta. Med andra ord måste du ha fyllt i två eller flera inköpsorder och bokfört dem som inlevererade (men inte fakturerade).  
@@ -27,8 +27,8 @@ Innan du kan skapa en kombinerad inleverans måste du bokföra mer än en inköp
 När inleveranser kombineras på en faktura och bokförs, skapas en bokförd inköpsfaktura för de fakturerade raderna. Fältet **Fakturerat antal** på den ursprungliga inköpsordern eller inköpsavropsordern uppdateras utifrån det fakturerade antalet. Emellertid tas det ursprungliga inköpsdokumentet inte bort, även om det är helt inlevererat och fakturerat, och därför måste du ta bort inköpsdokumentet.  
 
 ## <a name="to-combine-receipts"></a>Så här kombinerar du inleveranser:  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny**. Mer information finns i [Så här registrerar du inköp](purchasing-how-record-purchases.md).  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
+2. Välj åtgärden **Ny**. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).  
 3. På snabbfliken **Rader** klickar du på åtgärden **Hämta inleveransrader**.  
 4. Välj flera inleveransrader som du vill inkludera på fakturan.  
 
@@ -36,7 +36,7 @@ När inleveranser kombineras på en faktura och bokförs, skapas en bokförd ink
 5. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Så här tar du bort öppna inköpsorder efter kombinerad inleveransbokföring  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Ta bort fakturerade inköpsorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Ta bort fakturerade inköpsorder** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Välj knappen **OK**.  
 

@@ -13,14 +13,14 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>SÅ här: Konfigurera serviceprocesser
-Här följer några exempel på de inställningar som du kan använda i servicehanteringsprocesser:  
+# <a name="configure-service-processes"></a>Konfigurera serviceprocesser
+Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
   
 * En del allmänna inställningar för olika processer, till exempel varningar, nästa serviceberäkningar för serviceartiklar, bedöma uppstartskostnader, felrapporteringsnivån och så vidare.  
 * Typerna av information som en tekniker måste ange på servicedokument. Du kan till exempel kräva att de anger vilken typ av order, start och/eller slutdatum för arbete och vilken typ av arbete som har utförts.  
@@ -29,14 +29,14 @@ Här följer några exempel på de inställningar som du kan använda i serviceh
 * Nummerserierna som ska användas för servicerelaterade dokument och artiklar.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se även  
-[Så här: Skapa felrapportering](service-how-setup-fault-reporting.md)  
-[Så här kan du ställa in resursfördelningar](service-how-setup-resource-allocation.md)  
-[Så här skapar du koder för standardservice](service-how-setup-service-coding.md)  
-[Så här: registrera alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
-[Så här skapar du felsökning:](service-how-setup-troubleshooting.md)  
+[Konfigurera felrapportering](service-how-setup-fault-reporting.md)  
+[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
+[Skapa koder för standardtjänster](service-how-setup-service-coding.md)  
+[Registrera alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
+[Ställa in felsökning](service-how-setup-troubleshooting.md)  
 [Servicehantering](service-service.md)  
 

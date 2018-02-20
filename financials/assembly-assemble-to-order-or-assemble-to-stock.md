@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5be31ebb84542e1762ffda9bc76a3aa38485095
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a263eb848556c60702124b37fc62e250b8a954a0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Förstå montering mot kundorder och montering mot lager
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
 
 -   Montering mot order.  
 -   Montering mot lager.  
 
-## Montering mot kundorder  
+## <a name="assemble-to-order"></a>Montering mot kundorder  
 Du använder vanligtvis *montering mot kundorder* för de artiklar som du inte vill att tillverka, eftersom du förväntar dig att anpassa dem till kundförfrågningar, eller eftersom du vill att minska den bärande kostnaden för lagret. Den andra funktionen är:  
 
 -   Kapacitet för att anpassa monteringsartiklar, när ta en försäljningsorder.  
@@ -38,17 +38,17 @@ Du använder vanligtvis *montering mot kundorder* för de artiklar som du inte v
 
 I montering mot kundorderprocessen är artikel satt samman som svar på en försäljningsorder och med ett ett-till-ett-länk mellan monteringsorder och försäljningsorder.  
 
-När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader, som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda **Montering mot kundorderrader** fönstret för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [så här: sälja artiklar monterde mot order](assembly-how-to-sell-items-assembled-to-order.md).  
+När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader, som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda **Montering mot kundorderrader** fönstret för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
->  Även om detta inte är en del av standard processen, kan du sälja lagerkvantiteten med antalet för montering mot kundorder. Mer information finns i Så här säljer du lagerartiklar i flöde för montering mot kundorder [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+>  Även om detta inte är en del av standard processen, kan du sälja lagerkvantiteten med antalet för montering mot kundorder. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
  Om du vill aktivera den här processen, måste fältet **Monteringsmetod** på artikelkortet vara **Montering mot kundorder**.  
 
-## Montering mot lager  
+## <a name="assemble-to-stock"></a>Montering mot lager  
  Du kan använda den för *montering mot lager* för de artiklar som du vill att sammanställa framåt av försäljning, till exempel att förbereda för en satskampanj och hålla lagret tills de beställs. Dessa artiklar är vanligtvis standardobjekt som emballerade satser, som du inte erbjuder för att anpassa till kundförfrågningar.  
 
- I montering mot lager monteras artiklar utan direkt försäljningsbehov och i lagras som en lagerartikel i distributionslagret för senare försäljning eller förbrukning som ett detaljmontage. För mer information finns i [Så här monterar du artiklar](assembly-how-to-assemble-items.md). I det här läget plockas artikel och bearbetas som ett enstaka artikel och är hanterade som en avslutad produktionsartikel.  
+ I montering mot lager monteras artiklar utan direkt försäljningsbehov och i lagras som en lagerartikel i distributionslagret för senare försäljning eller förbrukning som ett detaljmontage. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md). I det här läget plockas artikel och bearbetas som ett enstaka artikel och är hanterade som en avslutad produktionsartikel.  
 
  När du anger ett montering mot lager artikel på en försäljningsrad, den är som alla andra sålda artiklar från lagret. Till exempel kontrolleras tillgänglighet för monteringsartikeln endast.  
 
@@ -57,10 +57,10 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Om du vill aktivera den här processen, måste fältet **Monteringsmetod** på artikelkortet vara **Montering mot lager**.  
 
-## Kombinationsscenarion  
+## <a name="combination-scenarios"></a>Kombinationsscenarion  
  En allmän princip i monteringshantering är att montering mot kundorder, när de kombineras på en försäljningsorderrad, måste levereras innan och lagerkvantiteten.  
 
- Om en monteringsorder är kopplad till en försäljningsorderrad, uppdateras värdet i fältet i **Antal att montera mot kundorder** på försäljningsorderraden, **Antal att montera** via **Antal** på monteringsorderhuvudet. Mer information finns i [så här: sälja artiklar monterde mot order](assembly-how-to-sell-items-assembled-to-order.md).  
+ Om en monteringsorder är kopplad till en försäljningsorderrad, uppdateras värdet i fältet i **Antal att montera mot kundorder** på försäljningsorderraden, **Antal att montera** via **Antal** på monteringsorderhuvudet. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
  Dessutom värdet i fältet fält **Antal att montera** är relaterat till fältet **Ant. att utleverera** på försäljningsorderraden och kopplingen hanterar utleveransbokning för montering mot kundorder mängder, både delvis och helt. Detta gäller både när hela antalet på försäljningsraden monteras mot kundorder, och i kombinationsscenarion där en del av försäljningsradantalet monteras mot kundorder och en annan del skickas från lagret. Men i kombinationsscenariot har du ytterligare möjligheter vid delleverans, då du kan ändra fältet **Antal att montera** inom fördefinierade regler, och anger hur många enheter som ska levereras delvis från lagret, samt hur många som ska levereras delvis genom att montera till order.  
 
@@ -85,9 +85,9 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 -   Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
 -   Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
 
-## Se även  
+## <a name="see-also"></a>Se även  
 [Monteringshantering](assembly-assemble-items.md)  
-[Så här arbetar du med strukturer](inventory-how-work-BOMs.md)  
+[Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

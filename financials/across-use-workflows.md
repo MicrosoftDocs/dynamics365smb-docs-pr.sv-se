@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Använda arbetsflöden
@@ -32,10 +32,10 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 |**För att**|**Gå till**|  
 |------------|-------------|  
 |Ange ett arbetsflöde för att starta när den första instegshändelsen inträffar.|[Så här aktiverar du arbetsflöden](across-how-to-enable-workflows.md)|  
-|Begär godkännande för en aktivitet, som en godkännare, acceptera, avvisa eller delegera godkännanden och skicka eller visa godkännandemeddelanden.|[Så här använder du godkännande av arbetsflöden](across-how-use-approval-workflows.md)|  
-|Skapa arbetsflödessteg som begränsar en viss posttyp från att användas innan en viss händelse uppstår, till exempel att posten godkänns.|[Så här begränsar och tillåter du användning av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Visa avslutade arbetsflödessteginstanser med statusen Avslutat.|[Så här visar du arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)|  
-|Ta bort ett arbetsflöde som du vet inte ska användas längre.|[Så här tar du bort arbetsflöden](across-how-to-delete-workflows.md)|  
+|Begär godkännande för en aktivitet, som en godkännare, acceptera, avvisa eller delegera godkännanden och skicka eller visa godkännandemeddelanden.|[Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)|  
+|Skapa arbetsflödessteg som begränsar en viss posttyp från att användas innan en viss händelse uppstår, till exempel att posten godkänns.|[Begränsa och tillåt användningen av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Visa avslutade arbetsflödessteginstanser med statusen Avslutat.|[Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)|  
+|Ta bort ett arbetsflöde som du vet inte ska användas längre.|[Ta bort arbetsflöden](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera arbetsflöden](across-set-up-workflows.md)   

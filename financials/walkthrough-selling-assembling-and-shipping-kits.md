@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
@@ -36,7 +36,7 @@ Monteringsartiklar karakteriseras av sitt återanskaffningssystem och sin monter
 -   Skapa en monteringsstruktur som anger monteringskomponenterna och resursen som ingår i monteringsartikeln.  
 
 ### <a name="selling-customized-assembly-items"></a>Sälja anpassade monteringsartiklar  
-Med [!INCLUDE[d365fin](includes/d365fin_md.md)] blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Med  blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
 
 -   Skapa en ren ATO-försäljningsorderrad där hela kvantiteten är inaktiverad och måste monteras före leverans.  
 -   Anpassa ATO-objekt.  
@@ -81,14 +81,14 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 -   Installera [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Ange dig själv som distributionslageranvändare på lagerstället WHITE i följande steg:  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
 2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
 
 Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet för lagerstället WHITE.  
 3.  På snabbfliken **lagerplatser** anger du **V-10-0001** i fältet **Till monteringsplats - kod**.  
 
@@ -100,7 +100,7 @@ Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:
 
 Ta bort standardledtiden för interna processer genom att följa dessa steg:  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Produktionsinställningar**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Produktionsinställningar**, och välj sedan relaterad länk.  
 2.  I fänstret **Produktionsinställningar** klickar du på snabbfliken **planering**, tar bort värdet i fältet **Standard säkerhetsledtid**.  
 
 Skapa lagret för monteringskomponenter genom att följa avsnittet "Förbereda exempeldata" i den här genomgången.  
@@ -134,7 +134,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ## <a name="setting-up-the-sample-data"></a>Ställa in exempeldata  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
 2.  Välj fältet **Journalnamn** och välj sedan standardjournalen.  
 3.  Skapa positiva lagerjusteringar på lagerstället WHITE på arbetsdatumet, den 23 januari, genom att ange följande information.  
 
@@ -151,14 +151,14 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Sedan synkroniserar du de nya distributionslagertransaktionerna med lagret.  
 
-5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk. Fönstret  **Artikeljournal** öppnas.  
+5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk. Fönstret  **Artikeljournal** öppnas.  
 6.  Välj **Beräkna dist.lager justering** i gruppen **Funktioner** på fliken **Åtgärder**.  
 7.  I fönstret **Beräkna dist.lager justering** för att köra funktionen **OK**.  
 8.  I fönstret **Artikeljournal** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Bokför** och sedan knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Skapa monteringsartiklarna  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
 2.  På fliken **Start** i gruppen **Hantera** väljer du **Nytt**.  
 3.  Skapa den första monteringsartikeln utifrån följande information.  
 
@@ -179,10 +179,10 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     |**Typ**|**Nr**|**Antal per**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Artikel|80001|0|  
-    |Artikel|80011|0|  
-    |Artikel|80209|0|  
-    |Resurs|Karin|0|  
+    |Artikel|80001|1|  
+    |Artikel|80011|1|  
+    |Artikel|80209|1|  
+    |Resurs|Karin|1|  
 
 6.  Skapa den andra monteringsartikeln utifrån följande information.  
 
@@ -202,14 +202,14 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     |**Typ**|**Nr**|**Antal per**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Artikel|80005|0|  
-    |Artikel|80014|0|  
-    |Artikel|80210|0|  
-    |Resurs|Karin|0|  
+    |Artikel|80005|1|  
+    |Artikel|80014|1|  
+    |Artikel|80210|1|  
+    |Resurs|Karin|1|  
 
 ### <a name="selling-the-assembly-items"></a>Sälja monteringsartiklarna  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  På fliken **Start** i gruppen **Hantera** väljer du **Nytt**.  
 3.  Skapa två försäljningsorderrader för kund 62000, The Device Shop, på arbetsdatumet med följande information.  
 
@@ -237,7 +237,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     |Kontakttyp|Nummer|Antal per|  
     |----------|---------|------------------|  
-    |Artikel|80203|0|  
+    |Artikel|80203|1|  
 
 9. Stäng fönstret **Montering mot kundorderrader**.  
 
@@ -262,7 +262,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planering för de ATS-artiklar som inte är tillgängliga  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj **Beräkna fullständig plan** i gruppen **Funktioner** på fliken **Åtgärder**.  
 3.  Ange följande filter i fönstret **Skapa inköpsförslag**.  
 
@@ -280,7 +280,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Sammanställa och leverera det första ATO-antalet  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
 
     > [!NOTE]  
     >  I detta avsnitt ska personen som ansvarar för leveransen registrera det avslutade ATO-monteringsarbetet på utleveransraden. Detta arbetsflöde kan uppstå i miljöer där monteringsarbetet ska utföras av personen som ansvarar för leverans, eller av monteringsarbetare i utleveransområdet.  
@@ -299,7 +299,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Utför sedan plockarens uppgift.  
 
-4.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
+4.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
 5.  Öppna plockningsdokumentet som du skapade i steg 3 i det här avsnittet.  
 
     Observera värdet i fältet **Källdokument** och att alla plockningsrader avser monteringkomponenter.  
@@ -340,7 +340,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Sammanställa och registrera det andra ATO-antalet  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Monteringsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Monteringsorder** och välj sedan relaterad länk.  
 
     Observera att ATO-ordern för levererade enheter av sats B fortfarande finns i listan, även om **Återstående antal** är tomt. Det beror på att den kopplade försäljningsordern fortfarande inte har fakturerats helt.  
 
@@ -364,7 +364,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="assembling-the-ats-quantity"></a>Montering av ATS-antalet  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Monteringsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Monteringsorder** och välj sedan relaterad länk.  
 2.  Öppna monteringsordern för tio enheter av sats A.  
 
     Observera att fältet **Antal att montera** fylls i med det förväntade antalet.  
@@ -376,7 +376,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Utför sedan plockarens uppgift.  
 
-5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
+5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
 6.  Öppna plockningsdokumentet som du skapade i steg 4 i det här avsnittet.  
 
      Fortsätt med att registrera plockningen, utan att ändra standardinformationen.  
@@ -392,7 +392,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Leverera de återstående artiklarna, delvis från materiel och delvis från montering mot kundorder  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
 2.  Öppna den senaste distributionslagerutleveransen som har skapats på lagerstället WHITE.  
 
     Observera att på raden för de tio enheterna för sats A är fälten **Ant. att utleverera** och **Plockat antal** är tomma.  
@@ -403,7 +403,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Utför sedan plockarens senaste uppgift för den här utleveransen från lager.  
 
-4.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
+4.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
 5.  Öppna plockningsdokumentet som du skapade i steg 3 i det här avsnittet.  
 
     Observera att detta plockningsdokument avser monteringsartikeln och inte monteringkomponenterna.  
@@ -423,7 +423,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Distributionslagerutleveransdokumentet tas bort, vilket anger att de berörda lageraktiviteterna är slutförda. I nästa steg verifierar du att försäljningsordern har behandlats.  
 
-10. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+10. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 11. Öppna försäljningsordern för The Device Shop.  
 
     Observera att fältet **Utlevererat antal** innehåller hela kvantiteten på båda raderna.  
@@ -432,10 +432,10 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ## <a name="see-also"></a>Se även  
  [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Så här: Artiklar monteras](assembly-how-to-assemble-items.md)   
- [Så här: plocka artiklar för Dist.lager utleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Så här säljer du en artikel som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)   
- [Så här: Artiklar monteras](assembly-how-to-assemble-items.md)   
+ [Montera Artiklar](assembly-how-to-assemble-items.md)   
+ [Plocka artiklar för utleverans från dist.lager](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Sälja en artikel som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Montera Artiklar](assembly-how-to-assemble-items.md)   
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)   
  [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   

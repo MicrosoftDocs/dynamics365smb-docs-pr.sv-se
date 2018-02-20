@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
@@ -76,7 +76,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-prepare-the-sample-data"></a>Så här förbereder du exempeldata  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resurser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Resurser** och välj sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt resurskort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 
@@ -99,7 +99,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-create-a-job-journal-batch"></a>Skapa en ny journal  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2.  Välj fältet **Journalnamn** i fönstret **Projektjournal**. Fönstret **Projektjournaler** öppnas.  
 3.  Välj åtgärden **Ny** för att skapa en rad med följande information:  
 
@@ -114,7 +114,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-set-up-a-job"></a>Så här lägger du upp ett projekt:  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt kort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 
@@ -132,7 +132,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
  Du kan anpassa serviceprissättningen för kunder på projektbasis, beroende på vilka avtal som du har skapat. I nästa procedur anger projektchefen en kostnad för Tricias tid, priset för den obligatoriska programvaran och resekostnader som kunden har avtalat att betala.  
 
-### <a name="to-customize-pricing"></a>Så här kan du anpassa prissättning  
+### <a name="to-customize-pricing"></a>Anpassa prissättning  
 
 1.  Från projektkortet kan du välja åtgärden **resurs**.  
 2.  I fönstret **Resurspriser för projekt** anger du följande information:  
@@ -235,7 +235,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-calculate-remaining-usage"></a>Så här beräknar du återstående förbrukning  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2.  I fönstret **Projektjournal**, i fältet **Journalnamn**, öppnar du listan **Projektjournaler**. Välj projektjournalen **Tricia**.  
 3.  Välj åtgärden **Ber. återstående förbrukning**.  
 4.  Välj fältet **Projektnr** och välj relevant projektnummer, vanligtvis projekt J00010, i fönstret **Projekt - Beräkna återstående förbrukning** på snabbfliken **Projektaktivitet**.  
@@ -251,7 +251,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-create-a-job-sales-invoice"></a>Så här skapar du en projektförsäljningsfaktura  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj det projekt som du skapade tidigare och klicka på åtgärd **Skapa försäljningsfaktura för projekt**.  
 3.  På snabbfliken **Projektaktivitet** rensar du alla filter för **Projektaktivitetsnr** för att kunna fakturera projektet. I fältet **Nr** väljer du önskat projekt.  
 4.  På snabbfliken **Alternativ** fyller du i bokföringsdatumet och anger om du vill skapa en faktura per aktivitet eller en enda faktura för samtliga aktiviteter.  
@@ -261,7 +261,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-post-a-new-sales-invoice"></a>Så här bokför du en ny försäljningsfaktura  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2.  Öppna fakturan för kund nr. 01445544. Du kan se den information som registrerades från planeringsraderna.  
 3.  Välj åtgärden **Bokföra**. Klicka på knappen **Ja** för att bokföra.  
 
@@ -275,7 +275,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-open-the-statistics-window"></a>Så här öppnar du fönstret Statistik  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Statistik**. Du kan granska detaljerad information om projektets priser, kostnader och vinster i både lokala och utländska valutor.  
 3.  Välj **Stäng** för att stänga fönstret **Projektstatistik**.  
 
@@ -284,7 +284,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Så här hanterar du fast prissättning i projekt  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Markera projektnummer **Nyström** och välj sedan åtgärd **Projektaktivitetsrader**.  
 3.  Markera rad 1120 och i fältet **Planerat (totalkostnad)** högerklickar du på beloppet och väljer **Specificera**.  
 
@@ -306,7 +306,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Så här registrerar du timmar i projektjournalen  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2.  På den nya raden anger du följande information:  
 
     -   **Typ av rad**: **(tom)**  
@@ -365,7 +365,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-copy-a-job"></a>Så här kopierar du ett projekt  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt projekt. Ange följande information:  
 
     -   **Beskrivning**: **Inreda tio konferensrum**  
@@ -390,7 +390,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ### <a name="to-set-up-a-new-account"></a>Så här lägger du upp ett nytt konto  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontoplan** och välj sedan relaterad länk.  
 2.  I fönstret **Kontoplan** på fliken **Ny** för att skapa ett nytt kort.  
 3.  På det nya **redovisningskontokortet** anger du följande information:  
 
@@ -425,7 +425,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
     |Rad|Projektaktivitetsnr|Description|Typ av projektaktivitet|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |0|1000|Betalning - handpenning|Bokföring|  
+    |1|1000|Betalning - handpenning|Bokföring|  
     |2|2000|Användning|Bokföring|  
     |3|3000|Betalning - halvvägs|Bokföring|  
     |4|4000|Betalning - slutförande|Bokföring|  
@@ -480,9 +480,9 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 ## <a name="see-also"></a>Se även  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
- [Ställ in projekthantering](projects-setup-projects.md)   
- [Så här använder du resurser](projects-how-use-resources.md)   
- [Så här: Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)   
- [Så här fakturerar du projekt](projects-how-invoice-jobs.md)  
+ [Ställa in projekthantering](projects-setup-projects.md)   
+ [Använda resurser](projects-how-use-resources.md)   
+ [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)   
+ [Fakturera projekt](projects-how-invoice-jobs.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 626cd19b6d4ed553d740964f1530b581e22b45a6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-purchasing"></a>Ställa in inköp
@@ -30,10 +30,10 @@ Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i av
 
 | Om du vill | Gå till |
 | --- | --- |
-| Skapa ett leverantörskort för varje leverantör som du har köpt av|[Så här registrerar du nya leverantörer](purchasing-how-register-new-vendors.md) |
-| Ange de olika rabatterna och specialpriserna som leverantörerna beviljar dig beroende på artikel, kvantitet och/eller datum |[Så här registrerar du inköpspris, rabatt och betalningsavtal](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Prioritera leverantörer |[Så här prioriterar du leverantörer](purchasing-how-prioritize-vendors.md) |
-| Konfigurera inköpare |[Så här skapar du inköpare](purchasing-how-setup-purchasers.md) |
+| Skapa ett leverantörskort för varje leverantör som du har köpt av|[Registrera nya leverantörer](purchasing-how-register-new-vendors.md) |
+| Ange de olika rabatterna och specialpriserna som leverantörerna beviljar dig beroende på artikel, kvantitet och/eller datum |[Registrera inköpspris, rabatt och betalningsavtal](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Prioritera leverantörer |[Prioritera leverantörer](purchasing-how-prioritize-vendors.md) |
+| Konfigurera inköpare |[Konfigurera inköpare](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  

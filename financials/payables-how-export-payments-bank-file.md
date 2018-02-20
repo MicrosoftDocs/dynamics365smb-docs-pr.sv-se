@@ -13,25 +13,25 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Så här exporterar du betalningar till en bankfil
+# <a name="export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
 När du är redo att göra betalningar till dina leverantörer eller återföringar till dina anställda kan du exportera en fil med betalningsinformatio på raderna i fönstret **Betalningsjournal**. Du kan sedan överföra filen till banken för att bearbeta relaterade pengaöverföringar.
 
-I den generiska versionen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma tjänst användas för att skicka betalningsfiler som elektronisk överföring (EFT), men med en något annorlunda process. Se steg 6 i avsnittet "att exportera betalningar till en bankfil".    
+I den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma tjänst användas för att skicka betalningsfiler som elektronisk överföring (EFT), men med en något annorlunda process. Se steg 6 i avsnittet "att exportera betalningar till en bankfil".    
 
 > [!NOTE]  
->   Innan du kan exportera betalningsfiler från betalningsjournalen måste du ange elektroniskt format för berörda adress och du måste aktivera tjänsten för bankdatakonvertering. Mer information finns i [Så här ställer du in bankkonton](bank-how-setup-bank-accounts.md) och [Så här ställer du in tjänsten bankdatakonvertering](bank-how-setup-bank-data-conversion-service.md). Dessutom måste du välja kryssrutan **Tillåt betalningsexport betalning** i fönstret **redovisningsjournaler**. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
+>   Innan du kan exportera betalningsfiler från betalningsjournalen måste du ange elektroniskt format för berörda adress och du måste aktivera tjänsten för bankdatakonvertering. Mer information finns i [Så här ställer du in bankkonton](bank-how-setup-bank-accounts.md) och [Så här ställer du in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md). Dessutom måste du välja kryssrutan **Tillåt betalningsexport betalning** i fönstret **redovisningsjournaler**. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
 
 Du använder fönstret **Kreditöverföringsregister** för att visa de betalningsfiler som har exporterats från betalningsjournalen. I det här fönstret kan du också återexportera betalningfiler i händelse av tekniska fel, eller om filen ändras. Tänk på att exporterade EFT-filer inte visas i det här fönstret och kan inte återexporteras.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
-2. Fyll i betalningsjournalen med relevanta utbetalningar, till exempel genom att använda funktionen **Betalningsförslag för lev.**. Mer information finns i [Så här föreslår du leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
+2. Fyll i betalningsjournalen med relevanta utbetalningar, till exempel genom att använda funktionen **Betalningsförslag för lev.**. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 3. Fyll i fälten på utbetalningsjournalraderna vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ Nedan beskrivs en problemlösning för export av elektroniska återbetalningar.
 
 > [!CAUTION]  
 >   Den resulterande betalningjournalraden kan inte bokföras, raderas eller annulleras.
-1. Konfigurera kunden som leverantör. Kalla den "Kunden X för återbetalning", t.ex. Mer information finns i [Så här registrerar du nya leverantörer](purchasing-how-register-new-vendors.md).
+1. Konfigurera kunden som leverantör. Kalla den "Kunden X för återbetalning", t.ex. Mer information finns i [Registrera nya leverantörer](purchasing-how-register-new-vendors.md).
 2. På utbetalningsjournalraden för kunden anger du fältet **kontotyp** till **kund**, och fältet **dokumenttyp** till **Återbetala**.
 3. Utför de vanliga stegen för betalningsexport som beskrivs i avsnittet "Exportera betalningar till en bankfil".
 
@@ -82,13 +82,11 @@ Du kan återexportera betalningsfiler till en bankfil från fönstret **Kreditö
 > [!NOTE]  
 >   Exporterade EFT-filer visas inte i fönstret **Kreditöverföringsregister** och kan inte återexporteras.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.
 2. Välj en betalningsexport som du vill återexportera och välj sedan åtgärden **Återexportera betalningar till fil**.
 
 ## <a name="see-also"></a>Se även
 [Leverantörsreskontra](payables-manage-payables.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

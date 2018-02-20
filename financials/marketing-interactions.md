@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Inspelningsinteraktioner med kontakter
-I [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] är interaktioner all slags kommunikation mellan företaget och dina kontakter. Exempelvis kommunikation kan ske via brev, fax, e-post, telefon, möten och så vidare.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] är interaktioner all slags kommunikation mellan företaget och dina kontakter. Exempelvis kommunikation kan ske via brev, fax, e-post, telefon, möten och så vidare.
 
 Modulen Affärsstöd gör att du kan registrera alla interaktioner som du har med kontakterna för att hålla reda på vilka försäljnings- och marknadsföringsåtgärder som du har riktat mot dem och för att förbättra dina kommande affärsinteraktioner med dem. Ställ in ditt program att registrera interaktioner består av dessa uppgifter:
 
@@ -35,7 +35,7 @@ Du kan du skapa bilagor till interaktionsmallarna i fönstret**interaktionsmalla
 ## <a name="creating-interactions"></a>Skapa interaktioner
 Det finns två sätt att registrera interaktioner:
 
-* Du kan manuellt skapa interaktioner som är länkade till en enda kontakt eller till ett segment. Mer information finns i [Så här skapar du interaktioner på kontakter och segment](marketing-how-create-interactions.md).  
+* Du kan manuellt skapa interaktioner som är länkade till en enda kontakt eller till ett segment. Mer information finns i [Skapa interaktioner på kontakter och segment](marketing-how-create-interactions.md).  
 * När du utför uppgifter i , till exempel skriver ut fakturor eller offerter, kan interaktioner registreras automatiskt. Mer information finns i [automatiskt registrera interaktioner med kontakter](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Visa och hantera registrerade interaktioner

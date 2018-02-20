@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c94729c84470267421207a6edaa413116718f715
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0395cf37d56282684c2a6e4c2066fd9b249f16f0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Uppdatera rapport- eller dokumentlayouter
@@ -30,7 +30,7 @@ Alla rapportdatauppsättningsändringar kan inte uppdateras automatiskt i rappor
   
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Så här uppdaterar du en eller flera anpassade rapportlayouter  
   
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Rapportlayouter** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Rapportlayouter** och välj sedan relaterad länk.  
   
 2.  I fönstret **rapportlayouter**, om du vill uppdatera in en viss layout i listan, väljer du layouten från listan och sedan åtgärden **uppdatera layouten**. Eller, om du vill uppdatera alla standardrapportlayouter för företaget, klickar du på åtgärden **uppdatera alla layouter**.  
 
@@ -38,7 +38,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 ## <a name="to-test-custom-report-layout-updates"></a>Så här testar du uppdateringar för en anpassade rapportlayout  
   
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
   
 2.  I fönstret **Val av rapportlayout** väljer du åtgärden **Testlayoutuppdateringar**.  
   
@@ -60,7 +60,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
   
  De mest vanliga problemet inträffar när ett fält som användes på layout har tagits bort från rapportdatauppsättningen. I det här fallet visas en rad i felmeddelandet som anger att en artikel har tagits bort. För att lösa problemet måste du ändra layouten och ta bort fältet i fråga.  
   
- Mer information finns i [så här skapar du och ändrar en anpassad rapportlayout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
+ Mer information finns i [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
   
  Försök att uppdatera layouten på nytt när du har ändrat layouten.  
   

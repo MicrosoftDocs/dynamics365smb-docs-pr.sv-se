@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 2783c3a80beed5de6b7f7a63ff6811648ef48df3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Hantering av sparade inställningar i rapporter
@@ -33,7 +33,7 @@ Du kan se de sparade inställningar som är tillgängliga för dig för en rappo
 ## <a name="administer-saved-report-settings-for-users"></a>Administrera sparade rapportinställningar för användare
 Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställningarna för alla rapporter för alla användare i företaget. Du kan tilldela sparade inställningar för en rapport till individuella användare eller alla användare i företaget.
 
-Du hanterar sparade inställningar från sidan 1506 **rapportinställningar**. För att öppna denna sida väljer du ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rappor"), ange **Rapporinställningar**, och väljer sedan relaterad länk.
+Du hanterar sparade inställningar från sidan 1506 **rapportinställningar**. För att öppna denna sida väljer du ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rappor"), ange **Rapporinställningar**, och väljer sedan relaterad länk.
 
 Från sidan **Rapporinställningar** kan du skapa nya inställningar från noll, eller så kan du göra en kopia och ändra befintliga inställningar. För att ändra alternativ och filter för inställningar väljer du åtgärden **Redigera**.
 

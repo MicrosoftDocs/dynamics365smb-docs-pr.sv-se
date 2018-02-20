@@ -1,6 +1,6 @@
 ---
-title: "Minimikrav för att använda Dynamics 365 Business edition| Microsoft Docs"
-description: "Mer information om minimikrav för systemet och version för Dynamics 365 Business edition."
+title: "Minimikrav för att använda Finance and Operations, Business edition | Microsoft Docs"
+description: "Mer information om minimikrav för systemet och version för att kunna använda Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,13 +11,13 @@ ms.search.keywords: version
 ms.date: 09/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: fb17aada5494bb700edc005599ff8cbc764abe83
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b6f374f409645d3b91dbc11ab66a97ec57de7d7
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="minimum-requirements-for-using-dynamics-365-business-edition"></a>Minimikrav för att använda Dynamics 365 Business edition
+# <a name="minimum-requirements-for-using-finance-and-operations-business-edition"></a>Minimikrav för att använda Finance and Operations, Business edition | Microsoft Docs
 Innan du öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)], bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
 
 ## <a name="browsers"></a>Webbläsare

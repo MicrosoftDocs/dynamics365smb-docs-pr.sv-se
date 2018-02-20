@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -26,7 +26,7 @@ Du kan använda följande rapporter:
 * **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
 * Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder i alla länder som använder moms.
 
-Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Redovisningstransaktioner** och välj sedan relaterad länk för att momstransaktioner.
+Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningstransaktioner** och välj sedan relaterad länk för att momstransaktioner.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten med EU-försäljningslista
 I Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder i inom Europeiska unionen (EU) lämna in en elektronisk version av rapporten i XML-format via webbplatserna Her Majesty's Revenue och Customs. EG-försäljningslisterapporten fungerar bara för länder inom EU.
@@ -52,11 +52,11 @@ För momsreturen kan du ange transaktionerna som ska inkluderas:
 * Skicka bara transaktioner i de angivna perioderna, eller inkludera också transaktioner från tidigare perioder. Detta är användbart när du uppdaterar en momsretur som du har redan skickat, till exempel om en leverantör skickar en faktura för sent.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Ansluta till webbtjänsten för lokal skattemyndighet
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ger tjänstanslutningar som ansluter till skattemyndighetens webbplatser. Till exempel om du befinner dig i Storbritannien kan du aktivera serviceanslutningen **GovTalk** för att skicka rapporterna EU-försäljningslista och momsreturen elektroniskt. Om du vill skicka rapporten manuellt, till exempel genom att ange data på skattemyndighetens webbplats krävs inte detta.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  ger tjänstanslutningar som ansluter till skattemyndighetens webbplatser. Till exempel om du befinner dig i Storbritannien kan du aktivera serviceanslutningen **GovTalk** för att skicka rapporterna EU-försäljningslista och momsreturen elektroniskt. Om du vill skicka rapporten manuellt, till exempel genom att ange data på skattemyndighetens webbplats krävs inte detta.   
 
 Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] till den skattemyndighetens webbplats. Detta kräver att du upprättar ett konto med skattemyndigheten. Om du har ett konto kan du aktivera en service-anslutning som finns i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Anslutningar till tjänst** och välj sedan lämplig länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Anslutningar till tjänst** och välj sedan lämplig länk.
 2. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -77,7 +77,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
 4. När du validerar och förbereder rapporten för att skicka den, välj åtgärden **Frisläpp**.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
 5. Om du vill skicka rapporten, väljer du åtgärden **skicka**.  
 
 När du skickar rapporten, övervakar [!INCLUDE[d365fin](includes/d365fin_md.md)] tjänsten och håller reda på dina meddelanden. Fältet **Status** indikerar var rapporten finns i processen. Till exempel när myndigheterna bearbetar rapporten, ändras rapportens status till **lyckades**. Om fel hittas i rapporten som du har skickat in till skattemyndigheten visar status för rapporten **misslyckad**. Du kan visa fel under **fel och varningar**, rätta till dem och sedan skicka rapporten igen. Om du vill visa en lista över alla EG-försäljningslisterapporter, går du till sidan **EG försäljningsrapporter**.  
@@ -114,7 +114,7 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 
 ## <a name="see-also"></a>Se även
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
-[Så här arbetar du med moms på försäljning och inköp](finance-work-with-vat.md)  
+[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Så här fakturerar du försäljning](sales-setup-sales.md)  
+[Fakturaförsäljning](sales-setup-sales.md)  
 

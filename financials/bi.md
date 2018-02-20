@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e41dcb709ad865ab6cb102834e9d99dc3346a840
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bb4fcd8aa08fb172ed26620dd0bd416c9e84897d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-intelligence"></a>Affärsstöd
@@ -31,12 +31,12 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 | Till | Gå till |
 | --- | --- |
-|Visa faktiska belopp i jämförelse med budgeterade belopp för alla konton och för flera perioder.|[Så här: Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)|
-|Skapa nya kontouppställningar för att ange finansiella rapporter för att rapportera eller för att visa som diagram.|[Så här: Arbeta med kontouppställningar](bi-how-work-account-schedule.md)|
-|Analysera den ekonomiska kapacitet, genom att ställa in KPIs baserat på kontouppställningar, som du sedan publicerar som webbtjänster. De publicerade kontouppställnings-KPI:erna kan visas på en webbplats eller importeras till Microsoft Excel med hjälp av OData webbtjänster.|[Så här: Skapar och publicerar du KPI-webbtjänster som är baserade på kontouppställningar](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Skapa aktiviteter för att analysera data med dimensioner.|[Så här: Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)|
-|skapa nya analysrapporter för försäljning, inköp och lager, och skapa analysmallar.|[Så här skapar du nya försäljningsanalysrapporter](bi-how-create-analysis-views-reports.md)|
-|Aktivera global ekonomisk rapportering som står till internationella organisationer i redovisning med standarden eXtensible Business Reporting Language.|[Så här skapar du rapporter med XBRL](bi-create-reports-with-xbrl.md)|
+|Visa faktiska belopp i jämförelse med budgeterade belopp för alla konton och för flera perioder.|[Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)|
+|Skapa nya kontouppställningar för att ange finansiella rapporter för att rapportera eller för att visa som diagram.|[Arbeta med kontouppställningar](bi-how-work-account-schedule.md)|
+|Analysera den ekonomiska kapacitet, genom att ställa in KPIs baserat på kontouppställningar, som du sedan publicerar som webbtjänster. De publicerade kontouppställnings-KPI:erna kan visas på en webbplats eller importeras till Microsoft Excel med hjälp av OData webbtjänster.|[Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Skapa aktiviteter för att analysera data med dimensioner.|[Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)|
+|skapa nya analysrapporter för försäljning, inköp och lager, och skapa analysmallar.|[Skapa analysrapporter](bi-how-create-analysis-views-reports.md)|
+|Aktivera global ekonomisk rapportering som står till internationella organisationer i redovisning med standarden eXtensible Business Reporting Language.|[Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)    
@@ -44,4 +44,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Stänga räkenskapsperioder](year-close-years-periods.md)  
 [Importera från andra finanssystem](upload-data.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

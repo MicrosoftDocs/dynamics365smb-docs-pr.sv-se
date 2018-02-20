@@ -1,6 +1,6 @@
 ---
 title: "Så här skapar du nummerserier | Microsoft Docs"
-description: "Lära dig hur du anger nummerserier, som tilldelar unika ID-koder till konton och dokument i Dynamics 365 Business edition."
+description: "Lära dig hur du anger nummerserier som tilldelar unika ID-koder till konton och dokument i Finance and Operations, Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f50bc1153ccd6b58bc502974c042626ce696078
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-number-series"></a>Så här skapar du nummerserier
+# <a name="create-number-series"></a>Skapa nummerserier
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
 
 > [!NOTE]  
@@ -31,7 +31,7 @@ Du ställer normalt in nummerserier till att automatiskt infoga nästa nummer p�
 Om du vill använda mer än en nummerseriekod för en typ av huvuddata, till exempel om du vill använda olika nummerserier för olika kategorier med artiklar, kan du använda nummerseriesamband.
 
 ## <a name="to-create-a-new-number-series"></a>Så här skapar du nummerserier
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Nr-serier** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Nr-serier** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten på en ny rad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ Nu när du skapar ett nytt kort eller dokument som har konfigurerats till att an
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Om du vill konfigurera var en nummerserie används
 I följande procedur beskrivs hur du ställer in nummerserier för området Försäljning. Stegen är liknande för andra områden.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljning & kundreskontra** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljning & kundreskontra** och välj sedan relaterad länk.
 2. I fönstret **försäljning** klickar du på snabbfliken **nr-serier** och väljer önskade nummerserier för varje försäljningskort och dokument.
 
 Det markerade numret kommer nu att användas för att fylla i fältet **nr.** på kortet eller dokumentet i fråga enligt de inställningar du har gjort på nummerserieraden.
@@ -49,7 +49,7 @@ Det markerade numret kommer nu att användas för att fylla i fältet **nr.** p�
 ## <a name="to-create-relationships-between-number-series"></a>Så här skapar du samband mellan nummerserier
 Om du har definierat mer än en nummerseriekod för samma typ av allmän information eller transaktioner kan du skapa samband mellan koderna. Den här funktionen gör det enklare för dig att välja bland koderna när du använder ett nummer.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Nr-serier** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Nr-serier** och välj sedan relaterad länk.
 2. Markera raden med de nummerserier som du vill skapa relationer för och välj sedan **Relationer**.
 3. I fältet **Seriekod** anger du koden för nummerserien som du vill koppla till serien du valde i steg 2.
 4. Lägg till en rad för varje kod som du vill koppla till den valda nummerserien.

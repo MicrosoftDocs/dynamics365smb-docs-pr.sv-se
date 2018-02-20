@@ -1,6 +1,6 @@
 ---
 title: "Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer | Microsoft Docs"
-description: "I Dynamics 365 kan de ankommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån."
+description: "I Finance and Operations, Business edition kan de ankommande processerna för mottagande och införsel utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivån."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer
@@ -55,7 +55,7 @@ För att kunna utföra den här genomgången behöver du:
 -   CRONUS Sverige AB installerad  
 -   Om du vill Ange dig själv som distributionslagerpersonal på lagerstället VIT följer du de här stegen:  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
 2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
@@ -68,7 +68,7 @@ Inställningen av fönstret **Lagerställekort** definierar företagets lagerfl�
 
 ### <a name="to-review-the-location-setup"></a>Om du vill granska lagerställekonfigurationen  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet VIT.  
 3.  Observera på snabbfliken **Dist.lager** att kryssrutan **dirigerad artikelinförsel och plockning** är markerad.  
 
@@ -83,7 +83,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 
 ### <a name="to-create-the-purchase-orders"></a>Så här Skapa inköpsorder  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en inköpsorder för leverantör 10000 på arbetsdatumet (23 januari) med följande inköpsorderrader.  
 
@@ -114,7 +114,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 I fönstret **Dist.lager inleverans** kan du hantera flera inkommande order för källdokument, t.ex en inköpsorder.  
 
 ### <a name="to-receive-the-items"></a>Så här inlevererar du artiklarna  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Dist.lager inleverans**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager inleverans**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj åtgärden **Filter för att hämta urspr.dok.**.  
@@ -132,7 +132,7 @@ I fönstret **Dist.lager inleverans** kan du hantera flera inkommande order för
 I fönstret **Dist.lager artikelinförsel** kan du hantera artikelinförslar för ett specifikt distributionslagerinleveransdokument som täcker flera källdokument. Som alla dist.lageraktivitetdokument representeras varje artikel på dist.lager artikelinförsel av en taganderad och en platsrad. I följande procedur är lagerplatskoden på hämtningsraderna standardlagerplatsen för inleveranser vid lagerställe VIT, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Så här för du in artiklarna  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelinförslar**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelinförslar**, och välj sedan relaterad länk.  
 2.  Välj det enda distributionslagerinförseldokumentet i listan, och sedan, på **Startsida** fliken, i **Hantera** grupp, välj **Redigera**.  
 
     Distributionslagerinförseldokumentet öppnas med totalt åtta Ta- eller Placerarader för de fyra inköpsorderrader.
@@ -151,8 +151,8 @@ I fönstret **Dist.lager artikelinförsel** kan du hantera artikelinförslar fö
     Mottagna tillbehör är nu införda i artikelns standardlagerplatser, och 40 gångjärn placeras i monteringavdelningen. De inlevererade artiklarna är nu tillgängliga för plockning till intern efterfrågan, till exempel monteringsorder eller till extern efterfrågan, till exempel försäljningsutleveranser.  
 
 ## <a name="see-also"></a>Se även  
- [Så här: Införa artiklar med dist.lager artikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
- [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md)   
+ [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designdetaljer: Ankommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
  [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)

@@ -1,5 +1,5 @@
 ---
-title: "Så här: Flytta komponenter till ett operationsområde i grundläggande lagerkonfiguration | Microsoft Docs"
+title: "Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration | Microsoft Docs"
 description: "Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället."
 services: project-madeira
 documentationcenter: 
@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Så här: Flytta komponenter till ett operationsområde i grundläggande lagerkonfiguration
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer
 Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.  
 
 > [!NOTE]  
 >  Visa Interntransport för information om att flytta artiklar mellan lagerplatser utan källdokument.  
 
-I avancerad distributionslagerkonfigurationer som är lagerställen som använder inställningsfältet **Dirigerad art.inf. och plock** kan du använda fönstret **Transportförslag** och flytta artiklar mellan lagerplatserna. Mer information finns i [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+I avancerade distributionslagerkonfigurationer, som är lagerställen som använder inställningsfältet **Dirigerad art.inf. och plock**, kan du använda fönstret **Transportförslag** och flytta artiklar mellan lagerplatserna. Mer information finns i [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
-I grundläggande distributionslagerkonfiguration, dvs lagerställen som använder **Lagerplats ska finnas** inställningsfältet, och **Begär plockning** inställningsfältet, kan du registrera transport av artiklar till interna operationsområden baserade på interna källdokument på följande sätt:  
+I grundläggande distributionslagerkonfiguration, dvs lagerställen som använder **Lagerplats ska finnas** inställningsfältet, och **Begär plockning** inställningsfältet, kan du registrera transport av artiklar till interna verksamhetsområden baserade på interna källdokument på följande sätt:  
 
 -   Med **lagerförflyttning** fönstret.  
 -   med fönstret **Lagerplockning**.  
@@ -44,12 +44,12 @@ En lagerarbetare kan också skapa den, genom att peka på den släppta montering
 > [!NOTE]  
 >  Om transporten är för en monteringsorder där artikeln är satt samman till en försäljningsorder, kan du ange att lagertransportdokumentet skapas automatiskt, när du skapar lagerplockningsdokument som tar den färdiga monteringsartikeln och bokför leveransen. Du anger dessa inställningar genom att välja fältet **skapa transporter automatiskt** i fönstret **Monteringsinställningar**  
 >   
->  Mer information om monteringsorder och grundläggande konfigurationer finns i avsnittet ”Hantera artiklar för montering mot kundorderartiklar med lagerplockning” i [så här: Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).  
+>  Mer information om monteringsorder och grundläggande konfigurationer för distributionslager finns i avsnittet ”Hantera artiklar för montering mot kundorderartiklar med lagerplockning” i [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).  
 
 Nedan beskrivs proceduren för att skapa en lagerförflyttning från det **Lagertransport** fönstret, genom att referera en släppt monteringsorder som ett källdokument. Proceduren är samma när du vill flytta komponenter för produktionsorder och serviceordern.  
 
-## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Så här: Flytta komponenter till ett operationsområde i grundläggande lagerkonfiguration  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerförflyttning** och välj sedan relevant länk.  
+## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerförflyttning** och välj sedan relevant länk.  
 2.  Fyll i fältet **Nr** på snabbfliken **Allmänt** . . Du kan trycka på RETUR för att välja mellan nummerserier.  
 3.  I **Lagerställekod** fältet, ange det lagerställe där transporten utförs.  
 4.  Välj åtgärden **Hämta källdokument**. Eller Fyll **Källdokument** fältet och välj sedan **AssistEdit** sökknappen i **Ursprungsnr** fältet.  

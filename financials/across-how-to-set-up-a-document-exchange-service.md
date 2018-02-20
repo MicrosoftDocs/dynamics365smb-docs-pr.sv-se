@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac95d7b05eefdb71e9a7da9025c83e50466ad13a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-document-exchange-service"></a>Så här konfigurerar du en dokumentväxlingstjänst
+# <a name="set-up-a-document-exchange-service"></a>Konfigurera en tjänst för dokumentutbyte
 Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Konfigurera en dokumentväxlingstjänst  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för dok.väx.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för dok.väx.** och välj sedan relaterad länk.  
 2. Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  

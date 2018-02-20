@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa3569037e79f79b0a644511361901d0844e58a3
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Fältmappning vid export av betalningsfiler via bankdatakonverteringstjänst
@@ -69,7 +69,7 @@ Följande tabell visar de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] fr
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
-[Utbyta data elektroniskt](across-data-exchange.md)
-[Så här konfigurerar du bankdatakonverteringstjänsten](bank-how-setup-bank-data-conversion-service.md)   
+[Byta data elektroniskt](across-data-exchange.md)
+[Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md)   
 [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>Avsluta böckerna
@@ -31,7 +31,7 @@ Processen för att avsluta boken innehåller dessa huvuduppgifter:
 
     Ett räkenskapsår defineras som en eller flera öppna perioder som definieras i fönstret **Bokföringsperioder**. Ett typiskt räkenskapsår består av 12 perioder på vardera en månad, men du kan välja att definiera det enligt någon annan metod.
 
-    Mer information finns [Så här avslutar du bokföringsperioder](year-close-account-periods.md).
+    Mer information finns i [Så här avslutar du bokföringsperioder](year-close-account-periods.md).
 2. Registrera transaktioner från föregående år.
 
     När du avslutar ett räkenskapsår måste du ange ett antal administrativa transaktioner (till exempel förutbetalda och upplupna poster). Dessa transaktioner kallas justeringstransaktioner. Det finns inga särskilda regler för bokföring av dessa transaktioner och de (liksom andra transaktioner) har en markering i fältet **Föregående års transaktion** om de bokförs på ett datum i ett avslutat räkenskapsår. Även om ett räkenskapsår har avslutats kan du fortfarande bokföra redovisningstransaktioner på året.
@@ -54,6 +54,6 @@ Sedan genereras en årsavslutstransaktion, men transaktionen bokförs inte autom
 Du kan bokföra i ett föregående räkenskapsår även efter att resultatkontona har avslutats om du kör batch-jobbet Avslut av resultatkonton igen efteråt.
 
 ## <a name="see-also"></a>Se även
-[Så här öppnar du ett nytt räkenskapsår](finance-how-open-new-fiscal-year.md)  
+[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

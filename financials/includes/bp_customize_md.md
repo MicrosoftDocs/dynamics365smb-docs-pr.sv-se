@@ -1,1 +1,1 @@
-Du kan ändra visningen av vissa element i användargränssnittet. Mer information finns i [Användaranpassning](../ui-user-personalization.md).
+Du kan ändra visningen av vissa element i användargränssnittet. Mer information finns i [Anpassa arbetsytan](../ui-personalization-user.md).

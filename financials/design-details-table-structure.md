@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: a1d7337abcb538ef310ea6f87312934d01540b00
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
@@ -130,7 +130,7 @@ För att förstå hur lagringen och bokföringen av dimensionstransaktioner har 
 |5832|**Kapacitetstrans.**|  
 |5907|**Servicetransaktion**|  
 |5908|**Servicehuvud**|  
-|5933|**Serviceorder bokf.buffer**|  
+|5933|**Tjänsteorder bokf.buffer**|  
 |5970|**Arkiverat serv.kontrakt huvud**|  
 |5990|**Serviceutleveranshuvud**|  
 |5991|**Serviceutleveransrader**|  

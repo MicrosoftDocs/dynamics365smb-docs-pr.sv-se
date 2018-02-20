@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med servicekontrakt och servicekontraktsofferter
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med tjänstekontrakt och tjänstekontraktsofferter
 Du kan skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert. Du kan använda en servicekontraktsoffert som förslag till ett servicekontrakt, där ditt företag lämnar en offert till kunden och får kundens godkännande innan du kan omvandla den till ett servicekontrakt. Det fungerar ungefär likadant om du vill skapa ett servicekontrakt eller en servicekontraktsoffert.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Så här skapar du ett servicekontrakt eller en servicekontraktsoffert  
@@ -48,7 +48,7 @@ För kontrakt som inte är detaljerade beräknas fakturabeloppet så här:
 * Fakturerat belopp = (årsbelopp ÷ antalet dagar under året) × antalet dagar under startperioden.  
 * Om kontraktet utgår innan startperioden avslutas blir utgångsdatumet slutdatum för startperioden.    
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
 2. Öppna den servicekontraktsoffert som du vill omvandla till ett servicekontrakt.  
 3. Välj åtgärden **Skapa kontrakt**.  
 4. Du kan skapa en faktura för kontraktets startperiod om kontraktets startdatum är före början av nästa faktureringsperiod. Välj **Ja**.  
@@ -58,7 +58,7 @@ För kontrakt som inte är detaljerade beräknas fakturabeloppet så här:
 ## <a name="to-create-contract-service-credit-memos"></a>Så här skapar du servicekreditnotor för kontrakt:
 Du kan använda servicekreditnotor för kontrakt då en kund avbeställer ett förutbetalt servicekontrakt eller tar bort en serviceartikel från ett förutbetalt kontrakt. Du kan också använda det för att korrigera en felaktig servicefaktura  
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekreditnotor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekreditnotor** och välj sedan relaterad länk.  
 2. Skapa en ny servicekreditnota.  
 3. Fyll i fälten **Nr.** .  
 4. I fältet **Kundnr.** anger du numret på kunden i servicekontraktet.  
@@ -66,7 +66,7 @@ Du kan använda servicekreditnotor för kontrakt då en kund avbeställer ett f�
      På snabbfliken **Fakturering** kan du se information som har kopierats från kortet **Kund**. Om du vill bokföra kreditnotan till en annan kund än den som angetts på snabbfliken **Allmänt** anger du den kundens nummer i fältet **Faktureringskundnr** . .  
   
     > [!NOTE]  
-    >  Du kan jämföra kreditnotan med det bokförda originaldokumentet i fönstret **Bokförda servicefakturor**. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokförda servicefakturor** och välj sedan relaterad länk.  
+    >  Du kan jämföra kreditnotan med det bokförda originaldokumentet i fönstret **Bokförda servicefakturor**. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokförda servicefakturor** och välj sedan relaterad länk.  
   
 5. Fyll i fälten **Bokföringsdatum** och **Dokumentdatum** .  
 6. Ange information om artiklarna som har returnerats eller flyttats, eller ersättning som ska skickas, på kreditnoteraderna. Du kan även använda batch-jobbet **Hämta förutbetalda kont.trans**.  
@@ -83,7 +83,7 @@ Du kan ändra status för kontraktet, som från början ställts in som **Låst*
 ## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>Så här lägger du till en kontraktsrad i ett servicekontrakt eller en kontraktsoffert  
 När en kund köper en ny artikel och vill ha med den i ett befintligt servicekontrakt eller en kontraktsoffert, kan du registrera artikeln som serviceartikel och sedan lägga till den som en ny kontraktsrad i kontraktet eller kontraktsofferten.  
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk.  
 2. Öppna önskat servicekontrakt eller servicekontraktsoffert där du vill lägga till en ny kontraktsrad.  
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera servicekontraktet eller servicekontraktsofferten.  
 4. Gå till snabbfliken **Fakturadetaljer** och markera fältet **Tillåt ej balanserade belopp** om du vill ändra det årliga beloppet och distribuera differensen för det årliga beloppet manuellt på kontraktsraderna. Annars kan du avmarkera kryssrutan i fältet **Tillåt ej balanserade belopp**. Då distribueras differensen för det årliga beloppet automatiskt på kontraktsraderna efter att du ändrat det årliga beloppet.  
@@ -93,7 +93,7 @@ När en kund köper en ny artikel och vill ha med den i ett befintligt serviceko
 ## <a name="to-remove-contract-lines"></a>Så här tar du bort kontraktsrader  
 Du kanske måste ta bort kontraktsraderna från servicekontraktet när du tar bort motsvarande serviceartiklar från servicekontraktet. För det mesta tar du bort kontraktsrader som har utgått eller som motsvarar serviceartikeln som har delats upp.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk.  
 2. Öppna det servicekontrakt som du vill ta bort kontraktsrader från.  
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera servicekontraktet eller servicekontraktsofferten.  
 4. Välj den kontraktsrad som du vill ta bort. Fyll i fältet **Kontrakt utgångsdatum** med datumet då du vill ta bort raden. Det kan till exempel vara den dag då serviceartikeln delades upp.  
@@ -124,7 +124,7 @@ På servicekontraktsraderna beräknas beloppen i **Radkostnad** och **Radvärde*
 ## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>Så här lägger du till kontraktsrabatter för servicekontraktsofferter  
 Du kan lägga till kontraktsrabatt på service för kontraktsofferter och servicekontrakt. Rabatterna kan gälla reservdelar till enskilda serviceartikelgrupper, resurstimmar för enskilda resursgrupper eller enskilda servicekostnader. 
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
 2. Välj den offert som du vill lägga till rabatter för.  
 3. Välj åtgärden **Servicerabatter**. Fönstret **Kontrakt/service rabatter** öppnas.  
 4. Välj **Ny** för att ange en ny kontraktsrabatt.  
@@ -144,7 +144,7 @@ Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i
 >   
 >  Serviceartikel nr 8 ingår till exempel i flera kontrakt, SC00003 och SC00015. Kontrakt SC00015 innehåller också serviceartikel nr 15, som också ingår i kontrakt SC00080. I det här fallet ändras ägaren för alla tre kontrakt och serviceartiklarna.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk. Öppna relevant servicekontrakt där du vill ändra ägare.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk. Öppna relevant servicekontrakt där du vill ändra ägare.  
 2. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera kontraktet.  
 3. Välj åtgärden **Ändra kund**. Fönstret **Ändra kund i kontrakt** visas.  
 4. I fältet **Kontraktnr.** och **Serviceartikelnr** visas numren för de kontrakt och serviceartiklar som ägs av den valda kunden. Om kunden äger flera kontrakt med flera serviceartiklar, blir värdet av dessa fält **Flera**. Om du vill se listan över relaterade kontrakt eller serviceartiklar väljer du dessa fältvärden.  
@@ -156,7 +156,7 @@ Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i
 ## <a name="to-update-a-service-contract-price"></a>Så här uppdaterar du ett servicekontraktspris  
 Du kan uppdatera priserna i servicekontrakt genom att ange ett procenttal för prisuppdatering.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk. 
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk. 
 2. Välj servicekontraktet.  
 3. Skriv datum i fältet **Uppdatera till datum**. I batch-jobbet uppdateras priserna i kontraktet med datum för nästa prisuppdatering, på eller före detta datum.  
 4. I fältet **Prisuppd. %** anger du det procenttal som du vill uppdatera priserna med.  
@@ -167,7 +167,7 @@ Om du arbetar med förutbetalda servicekontrakt måste du regelbundet bokföra f
   
 Innan du kan bokföra förutbetalda kontraktstransaktioner måste du ange en nummerserie i fältet **Förutbet. bokf.dok. nr-serie** i fönstret **Serviceinställningar**.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Bokför förutbet. kont.trans.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokför förutbet. kont.trans.** och välj sedan relaterad länk.  
 2. Ange ett datum i fältet **Bokför tills datum**. Batch-jobbet bokför förutbetalda kontraktstransaktioner med bokföringsdatum fram till det här datumet.  
 4. I fältet **Bokföringsdatum** anger du det datum som du vill använda som bokföringsdatum på den allmänna journalraden.  
 5. I fältet **Åtgärd** klickar du på **Bokför förutbet. kont.trans.**  
@@ -185,7 +185,7 @@ Du kanske måste makulera ett servicekontrakt i programmet när detta kontrakt h
 > [!NOTE]  
 >  Du kan inte öppna ett kontrakt efter att det har annullerats.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontrakt** och välj sedan relaterad länk.  
 2. Öppna relevant servicekontrakt som du vill makulera.  
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera servicekontraktet eller servicekontraktsofferten.  
 4. Välj önskad uppföljningskod i fältet **Uppföljningskod för avbryt**. Om du vill lägga till fler uppföljningskoder, väljer du åtgärden **Avancerat**.  
@@ -199,7 +199,7 @@ Du kanske måste makulera ett servicekontrakt i programmet när detta kontrakt h
 Du kan arkivera servicekontrakt och kontraktsofferter när som helst för att registrera och arkivera en kopia av kontraktet eller kontraktsofferten. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filernas servicekontrakt arkiveras automatiskt när du omvandlar kontraktsofferter till servicekontrakt eller makulerar kontrakt. Du kan arkivera ett kontrakt eller offert själv genom att välja åtgärden **Arkivera kontrakt** på sidorna **avseende** eller **servicekontraktsofferter**. Om du vill visa arkiverade kontrakt eller offerter söker du efter **arkiverade kontrakt**.
 
 ## <a name="see-also"></a>Se även  
-[Så här skapar du servicekontrakt](service-how-setup-service-contracts.md)  
+[Skapa tjänstekontrakt](service-how-setup-service-contracts.md)  
 [Servicehantering](service-service.md)  
-[Så här: omvandla servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)  
+[Så här omvandlar du tjänstekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)  
 

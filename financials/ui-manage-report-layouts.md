@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
@@ -32,7 +32,7 @@ En rapportlayout ställer i synnerhet in följande:
 * Företagslogotypen och dess position.
 * Allmänna sidinställningar, till exempel marginaler och bakgrundbilder.
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapport kan ställas in med åtskilliga rapportlayouter, som du kan växla mellan. Du kan använda en av de inbyggda rapportlayouterna, eller så kan du skapa anpassade rapportlayouter och tilldela dem till dina rapporter efter behov. Mer information finns i [så här skapar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).
+En [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapport kan ställas in med åtskilliga rapportlayouter, som du kan växla mellan. Du kan använda en av de inbyggda rapportlayouterna, eller så kan du skapa anpassade rapportlayouter och tilldela dem till dina rapporter efter behov. Mer information finns i [Så här skapar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).
 
 Det finns två typer av rapportlayouter som du kan använda i rapporter, Word och RDLC.
 
@@ -45,9 +45,9 @@ En Word-rapportlayout är baserad på Word-dokument (filtypen .docx). Word-rappo
 RDLC-layouter baseras på layouter för klientrapportdefinition (.rdlc- eller .rdl-filtyper). Dessa layouter skapas och ändras genom att använda SQL Server Report Builder. Designbegreppet för RDLC-layouter liknar Word-layouter, där layouten definierar det allmänna formatet på rapporten och bestämmer vilka fält från datauppsättningen som ska inkluderas. Att utforma RDLC-layouter är mer avancerat än Word-layouter. Mer information finns i [Designa RDLC rapportlayouter](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Inbyggda och anpassade rapportlayouter
-[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller flera inbyggda layouter. Inbyggda layouter är fördefinierade layouter som har utformats för särskilda rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporter ska ha en inbyggd layout som antingen en RDLC-rapportlayout, Word-rapportlayout eller i vissa fall både och. Du kan inte ändra en inbyggd rapportlayout från [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, men du kan använda dem som utgångspunkt för att skapa egna anpassade rapportlayouter.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  innehåller flera inbyggda layouter. Inbyggda layouter är fördefinierade layouter som har utformats för särskilda rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporter ska ha en inbyggd layout som antingen en RDLC-rapportlayout, Word-rapportlayout eller i vissa fall både och. Du kan inte ändra en inbyggd rapportlayout från [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, men du kan använda dem som utgångspunkt för att skapa egna anpassade rapportlayouter.
 
-Anpassade layouter är rapportlayouter som du designar för att ändra utseendet på en rapport. Du skapar vanligtvis en anpassad layout baserad på en inbyggd layouten, men du kan skapa dem från noll eller från en kopia av en befintligt anpassad layout. Anpassade layouter göra att du kan ha flera layouter för samma rapport som du kan växla mellan när det behövs. Du kan till exempel ha olika layouter för varje [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag, eller så kan du ha olika layouter för samma företag för vissa tillfällen eller händelser, som en viss kampanj eller semesterperiod.
+Anpassa layouter är rapportlayouter som du designar för att ändra utseendet på en rapport. Du skapar vanligtvis en anpassad layout baserad på en inbyggd layouten, men du kan skapa dem från noll eller från en kopia av en befintligt anpassad layout. Anpassa layouter göra att du kan ha flera layouter för samma rapport som du kan växla mellan när det behövs. Du kan till exempel ha olika layouter för varje [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag, eller så kan du ha olika layouter för samma företag för vissa tillfällen eller händelser, som en viss kampanj eller semesterperiod.
 
 ## <a name="deciding-whether-to-use-a-word-or-rdlc-report-layout"></a>Avgöra om du ska använda en Word- eller RDLC-rapportlayout
 En rapportlayout kan baseras på antingen ett Word-dokument eller en RDLC-fil. Att bestämma om du vill använda en Word-rapportlayout eller RDLC-rapportlayout beror på hur du vill att den genererade rapporten ska se ut, och din kunskap om Word och SQL Server Report Builder.
@@ -61,8 +61,8 @@ Information om hur du ändrar vilken layout som ska användas finns i [Så här 
 ## <a name="see-also"></a>Se även
 [Uppdatera rapport- eller dokumentlayouter](ui-update-report-layouts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Så här skapar du och ändrar en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)  
+[Så här skapar och ändrar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)  
 [Så här importerar och exporterar du en anpassad rapport eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
-[Så här skickar du dokument som e-post](ui-how-send-documents-email.md)  
+[Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med rapporter](ui-work-report.md)  
 

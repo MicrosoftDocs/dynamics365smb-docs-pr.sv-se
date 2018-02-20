@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Så här skapar du lagerställeenheter
+# <a name="set-up-stockkeeping-units"></a>Ställa in lagerställeenheter
 Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.  
 
  Lagerplatsenheter fungerar som komplement till artikelkort. De ersätter dem inte även om de är relaterade till dem. Med lagerställeenheter kan du ha olika information om en artikel på ett visst lagerställe (t.ex. ett distributionslager eller ett distributionscenter) eller om en särskild variant, (t.ex. olika hyllnummer och olika återanskaffningsinformation) av samma artikel.  
 
-## Så här skapar du lagerställeenheter  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Så här skapar du lagerställeenheter  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställeenheter**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställeenheter**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten på kortet. Följande fält är obligatoriska: **Artikelnr**, **Lagerställekod**och/eller **Variantkod**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -37,8 +37,8 @@ Om du vill skapa flera lagerställeenheter för en artikel, kan du använda batc
 > [!NOTE]  
 >  Informationen på **lagerställeenhetskortet** har högre prioritet än informationen på **artikelkortet**.  
 
-## Se även  
-[Så här registrerar du nya objekt](inventory-how-register-new-items.md)  
+## <a name="see-also"></a>Se även  
+[Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ae0d22fa5384edef167e5ba473977079c6473673
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 826e1392143b166566619c5aef8c28ac2b09bc22
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assign-default-bins-to-items"></a>Så här: Tilldela standardlagerplatser till artiklar
+# <a name="assign-default-bins-to-items"></a>Tilldela standardlagerplatser till artiklar
 Om du använder lagerplatser för ett lagerställe blir det mycket enklare för dig att leverera, inleverera och flytta artiklar om du tilldelar dem standardlagerplatser. När en artikel tilldelas en standardlagerplats kommer denna lagerplats att föreslås varje gång du påbörjar en transaktion för artikeln. Standardlagerplatser definieras i fönstret **Lagerplatsinnehåll**.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>Så här tilldelar du en standardlagerplats till en artikel
@@ -32,7 +32,7 @@ Om du använder lagerplatser för ett lagerställe blir det mycket enklare för 
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>Så här ändrar du standardlagerplatser en artikel  
 Ibland kan det bli nödvändigt att ändra tilldelningen av standardlagerplats för en viss artikel, eller tilldela en ny artikel en standardlagerplats.    
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerplatsinnehåll** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerplatsinnehåll** och välj sedan relaterad länk.  
 2.  Välj tillämplig lagerställekod i fältet **Lagerställefilter**.  
 3.  Sök efter aktuell post för standardlagerplatsinnehåll för artikeln och avmarkera kryssrutan **Standardlagerplats**.  
 4.  Sök efter raden för lagerplatsinnehåll för den lagerplats som du vill använda som ny standardlagerplats. Markera kryssrutan **Standardlagerplats**.  

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-for-warehouse-shipment"></a>Så här: plocka artiklar för Dist.lager utleverans
+# <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
 När Lagerställe är inställt på att begära plockningsbearbetning så väl som utleveransbearbetning använder du plockningsdokumenten för att skapa och bearbeta plockningsinformationen innan du bokför Lagerutleveransen.  
 
 Du kan inte skapa ett dokument för dist.lager plockning från grunden, eftersom en plockningsaktivitet alltid ingår i ett arbetsflöde, i ett pull-/pushscenario.  
 
 Du kan skapa dokumentet för dist.lager plockning med ett pullmetod genom att öppna ett tomt distributionslagerdokumentet, hitta källdokument som släpps till leveransen, och sedan skapa plockningsraderna för de utleveranser. Du kan använda **Hämta källdokument** , eller **Filter för att hämta urspr.dok.** funktioner för att undersöka källdokument som är klara för utleverans.
 
-Du kan också använda **Plockningsförslag** fönstret för att flytta plockningsrader i batchläge. Mer information finns i [Så här planerar du plockningar i förslaget](warehouse-how-to-plan-picks-in-worksheets.md).  
+Du kan också använda **Plockningsförslag** fönstret för att flytta plockningsrader i batchläge. Mer information finns i [Planera plockningar i förslag](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 Du kan också skapa dokument för dist.lager plockning med pushmetod från **Dist.lager utleverans** fönstret, genom att välja **Skapa plockning**.  
 
@@ -37,10 +37,10 @@ Du kan också skapa dokument för dist.lager plockning med pushmetod från **Dis
 >   
 >  Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder i distributionslagerutleveranser”.  
 >   
->  Information om hur du plockar komponenter för monteringsorder, inklusive lagerställen, där monteringsartikeln inte ska betalas på en utleverans, se [så här: Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).  
+>  Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Så här plocka artiklar för utleverans  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk.  
 
     Om du vill arbeta med en viss plockning väljer du plockningen från listan eller filtrerar listan för att söka efter de plockningar som specifikt har tilldelats dig. Öppna plockningskortet.  
 2.  Om **Tilldelat användar-ID** är tomt, anger du ID för att identifiera själv om det behövs.  
@@ -52,9 +52,9 @@ Du kan också skapa dokument för dist.lager plockning med pushmetod från **Dis
 
 4.  När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerplatsen för utleveranser väljer du åtgärden **Registrera plockning**.  
 
-Den person som ansvarar för utleverans kan nu få artiklarna till ett leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, i fönstret **Dist.lager utleverans**. För mer information finns i [Så här levererar du artiklar](warehouse-how-ship-items.md).   
+Den person som ansvarar för utleverans kan nu få artiklarna till ett leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, i fönstret **Dist.lager utleverans**. Mer information finns i [Leverera artiklar](warehouse-how-ship-items.md).   
 
-Förutom plockning för källdokument, som beskrivs i det här avsnittet, kan du ta och placera artiklar mellan lagerplatser, utan att referera till källdokument. Mer information finns i [så här: Plocka och föra in utan ett källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+Förutom plockning för källdokument, som beskrivs i det här avsnittet, kan du ta och placera artiklar mellan lagerplatser, utan att referera till källdokument. Mer information finns i [Plocka och föra in utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Hantera artiklar för montering mot kundorder i distributionslagerutleveranser
 I montering mot kundorder-scenarier är fältet **Ant. att utleverera** på distributionslagerutleveransrader använt för att notera hur många enheter som monteras. Det angivna antalet bokförs sedan som monteringsutflöde när distributionslagerutleveransen bokförs.

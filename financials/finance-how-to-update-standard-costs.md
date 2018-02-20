@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1c23e82736060670673e630f5eaa9de484083872
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 53716a78d7538e034c097506205a840b1243c4cf
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-standard-costs"></a>Så här kan du uppdatera standardkostnader
+# <a name="update-standard-costs"></a>Uppdatera standardkostnader
 Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln. Processen består typiskt av följande fyra steg:  
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobbet **Föreslå artikelstandardkostnad**.  
 2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala produktions- eller monteringskostnaden för artiklarna.  
 3.  Använd standardkostnaderna som angavs när du körde de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Mer information finns i Implementera standardkostnadsändringar.  
-4.  Inför ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lageromvärderingen. Mer information finns i [Så här omvärderar du lager](inventory-how-revalue-inventory.md).  
+4.  Inför ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lageromvärderingen. Mer information finns i [Omvärdera lager](inventory-how-revalue-inventory.md).  
 
 Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).  
 ## <a name="to-update-standard-costs"></a>Uppdatera standardkostnader  

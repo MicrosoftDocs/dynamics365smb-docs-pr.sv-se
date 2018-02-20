@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Konfigurera försäljning
@@ -30,14 +30,14 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 
 | Om du vill | Gå till |
 | --- | --- |
-| Skapa ett kundkort för varje kund som du säljer till. |[Så här registrerar du nya kunder](sales-how-register-new-customers.md) |
+| Skapa ett kundkort för varje kund som du säljer till. |[Registrera nya kunder](sales-how-register-new-customers.md) |
 | Låt kunder betala via PayPal, genom att välja PayPal-logotypen på försäljningsdokument. |[Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md) |
-| Ange olika rabatter och specialpriser som du beviljar kunden beroende på artikel, antal och/eller datum. |[Så här registrerar du försäljningspris-, rabatt- och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Skapa säljare så att du kan tilldela dem till kundkontakter eller mät säljares prestanda som grund för att beräkna deras försäljningprovision eller bonus. |[Så här skapar du säljare](sales-how-setup-salespeople.md) |
-| Ange hur försäljningsdokument ska skickas som standard för enskilda kunder eller för alla kunder när du väljer åtgärden **Bokför och skicka**. |[Så här konfigurerar du dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md) |
-| Konfigurera din e-post så att den innehåller en sammanfattning av informationen på försäljningsdokumentet som har skickats. |[Så här skickar du dokument som e-post](ui-how-send-documents-email.md). |
-|Du kan använda en EU-webbtjänst för att kontrollera kundens momsregistreringsnummer.|[Gör så här: Kontrollera momsregistreringsnummer](finance-setup-vat.md)|
-|Ange information om de olika transportleverantörerna som du använder, bland annat en länk till deras godsupplysningstjänst.|[Så här lägger du upp speditörer](sales-how-to-set-up-shipping-agents.md)|
+| Ange olika rabatter och specialpriser som du beviljar kunden beroende på artikel, antal och/eller datum. |[Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Skapa säljare så att du kan tilldela dem till kundkontakter eller mät säljares prestanda som grund för att beräkna deras försäljningprovision eller bonus. |[Skapa säljare](sales-how-setup-salespeople.md) |
+| Ange hur försäljningsdokument ska skickas som standard för enskilda kunder eller för alla kunder när du väljer åtgärden **Bokför och skicka**. |[Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md) |
+| Konfigurera din e-post så att den innehåller en sammanfattning av informationen på försäljningsdokumentet som har skickats. |[Skicka dokument som e-post](ui-how-send-documents-email.md). |
+|Du kan använda en EU-webbtjänst för att kontrollera kundens momsregistreringsnummer.|[Kontrollera momsregistreringsnummer](finance-setup-vat.md)|
+|Ange information om de olika transportleverantörerna som du använder, bland annat en länk till deras godsupplysningstjänst.|[Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

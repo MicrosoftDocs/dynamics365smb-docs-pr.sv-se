@@ -1,6 +1,6 @@
 ---
 title: "Tilldela användarbehörigheter och skapa eller ändra behörighetsgrupper | Microsoft Docs"
-description: "Beskriver hur du lägger till Office 365-användare till Dynamics 365 Business edition och tilldelar dem behörigheter, åtkomstbehörigheter och säkerhetsinställningar."
+description: "Beskriver hur du lägger till Office 365-användare i Finance and Operations, Business edition och tilldelar dem behörigheter, åtkomstbehörigheter och säkerhetsinställningar."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-users-and-permissions"></a>Så här hanterar du användare och behörigheter
+# <a name="manage-users-and-permissions"></a>Hantera användare och behörigheter
 Om du vill lägga till användare i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste företagets Office 365-administratör först skapa användare i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 När användare skapas i Office 365, kan de importeras till fönstret **Användare** med åtgärden **Få användare från Office 365**. Användare tilldelas behörighetsuppsättningar beroende på planen som tilldelats användaren i Office 365.
@@ -30,11 +30,8 @@ Du kan lägga till användare i användargrupper. Detta gör det enklare att til
 
 Administratörer kan använda fönstret **Användarinställningar** för att definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad.
 
-> [!NOTE]  
->   Den här funktionen kräver att din upplevelse är inställd på Suite. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
-
 ## <a name="to-assign-permissions-to-a-user"></a>Så här tilldelar du behörigheter till en användare
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
 2. Markera den användare som du vill tilldela behörighet till.
 Eventuella behörighetsuppsättningar som redan har tilldelats till användaren visas i faktaboxen **Behörighetsuppsättningar**.
 3. I fönstret **Inkommande dokument** väljer du åtgärden **Användarkort**.
@@ -43,7 +40,7 @@ Eventuella behörighetsuppsättningar som redan har tilldelats till användaren 
 ## <a name="to-group-users-in-user-groups"></a>Gruppera användare i användargrupper
 Du kan skapa användargrupper för att hantera behörighetsuppsättningar för grupper av användare i företaget. Du kan använda en funktion för att kopiera alla behörighetsuppsättningar från en befintlig grupp i den nya användargruppen. Användargruppmedlemmar kopieras emellertid inte.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
 2. Alternativt kan du i fönstret **Användare** välja åtgärden **Användargrupper**.
 3. I fönstret **användargrupper** väljer du en befintlig grupp som du vill kopiera och väljer sedan åtgärden **kopiera användargrupp** åtgärd.
 4. I fältet **Ny användarkod** anger du namnet på den nya gruppen och väljer sedan knappen **OK**.
@@ -55,16 +52,16 @@ Du kan skapa användargrupper för att hantera behörighetsuppsättningar för g
 8. I fönstret **Behörighetsuppsättningar för användargrupp** på en ny rad fyller du i fälten efter behov genom att välja från befintliga behörighetsuppsättningar.
 
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare
-Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Så här: arbeta med Ansvarsenheter](inventory-responsibility-centers.md).
+Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resursinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Resursinställningar** och välj sedan relaterad länk.
 2. I fönstret **Användarinställningar** väljer du åtgärden **Ny**.
 3. I den **Användar-ID** anger du ID för en användare, och väljer fältet för att se alla aktuella Windows-användare i systemet.
 4. Fyll i fälten om det behövs.
 
 ## <a name="see-also"></a>Se även
 [Gör dig redo för affärer](ui-get-ready-business.md)  
-[Installation och administration i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Installation och administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 80071e9fd584ad3232b8ae55169948f9a05d22be
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 068d141ee8490cc34e8b2092b7dcfda36139660d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-service-items-and-service-item-components"></a>Så här ställer du in serviceartiklar och serviceartikelkomponenter
+# <a name="set-up-service-items-and-service-item-components"></a>Ställa in tjänsteartiklar och tjänsteartikelkomponenter
 Om du vill arbeta med serviceartiklar måste du ställa in följande
 
 * Serviceartikelgrupper 
@@ -30,7 +30,7 @@ Du anger grupper med artiklar som hör ihop med avseende på reparation och unde
   
 Du tilldelar serviceartikelgrupper till artiklar på **Artikelkortet** och till serviceartiklar på **serviceartikelkortet**.  
   
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceartikelgrupper** och välj sedan relaterad länk.  
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceartikelgrupper** och välj sedan relaterad länk.  
 2. Skapa en ny serviceartikelgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **Standard kontraktsrabatt %** anger du standardrabatten i procent för kontrakt som du vill att serviceartiklarna i gruppen ska ha.  
@@ -41,7 +41,7 @@ Du tilldelar serviceartikelgrupper till artiklar på **Artikelkortet** och till 
 ## <a name="to-set-up-service-item-components"></a>Så här ställer du in serviceartikelkomponenter
 En serviceartikel kan bestå av flera komponenter, som kan ersättas med reservdelar då artikeln är servad. Komponenterna läggs upp på sidan **Serviceartikelkomponent lista**. Om du vill skapa komponenter för serviceartiklar som är strukturer kan du låta kopiera strukturartiklarna automatiskt och skapa dem som serviceartikelkomponenter. 
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceartiklar**, och välj sedan relaterad länk. 
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceartiklar**, och välj sedan relaterad länk. 
 2. Öppna serviceartikeln som du vill skapa komponenter för.  
 3. Välj åtgärden **Komponenter**. Fönstret **Serviceartikelkomponent lista** öppnas.  
 4. Lägg till en ny komponent.  
@@ -49,7 +49,7 @@ En serviceartikel kan bestå av flera komponenter, som kan ersättas med reservd
 6. I fältet **Nr.** väljer du den artikel eller serviceartikel som utgör en serviceartikelkomponent.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Så här ställer du in serviceartikelkomponenter från en struktur
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceartiklar**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceartiklar**, och välj sedan relaterad länk.  
 2. Öppna den serviceartikel som du vill skapa komponenter från en struktur för.  
 3. Välj åtgärden **Komponenter**. Fönstret **Serviceartikelkomponent lista** öppnas.  
 4. Välj fältet **Kopiera från struktur**  
@@ -57,11 +57,11 @@ En serviceartikel kan bestå av flera komponenter, som kan ersättas med reservd
     Om artikeln som serviceartikeln är kopplad till är en struktur skapas automatiskt komponenter för alla artiklarna i strukturen.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Så här skapar du en servicehylla
-Du kan lägga upp servicehyllor som hjälper till att identifiera där du lagrar dina serviceartiklar. Du tilldelar servicehyllor till serviceartiklar på sidan **Serviceorder** och i fönstret **Serviceartikel arbetsblad**.  
+Du kan lägga upp servicehyllor som hjälper till att identifiera där du lagrar dina serviceartiklar. Du tilldelar servicehyllor till serviceartiklar på sidan **Tjänsteorder** och i fönstret **Serviceartikel arbetsblad**.  
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicehyllor** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicehyllor** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
 ## <a name="see-also"></a>Se även
-[Så här skapar du koder för standardservice](service-how-setup-service-coding.md)   
-[Så här skapar du felsökning:](service-how-setup-troubleshooting.md)
+[Skapa koder för standardtjänst](service-how-setup-service-coding.md)   
+[Ställa in felsökning](service-how-setup-troubleshooting.md)

@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 37a79ad08113b16bf0240d4c92eac6464015db07
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bins"></a>Så här: Skapa lagerplatser
+# <a name="create-bins"></a>Skapa lagerplatser
 Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är att generera grupper med liknande lagerplatser i lagerplatsuppläggningsförslaget, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion i fönstret **Lagerplatsuppläggning förslag** för att skapa lagerplatserna automatiskt.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerplatser**  
 3. Välj åtgärden **Ny**.
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerplatser i Lagerplatsuppläggning förslag:  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
 2.  På varje rad fyller du i de fält som är nödvändiga för att namnge och ange egenskaper för de lagerplatser som du skapar.  
 3.  Välj åtgärden **Skapa lagerplatser**.  
 
@@ -39,9 +39,9 @@ Innan du börjar skapa lagerplatser automatiskt i förslaget bör du bestämma v
 > [!NOTE]  
 >  När du använder en lagerplats inte kan du ta bort den om den inte är tom. Om du vill använda ett annat namngivningssystem för lagerplatser kan du dock använda grupperingsjournalen för att flytta artiklarna till ett nytt lagerplatssystem. Det här måste göras manuellt och är tidskrävande, så det är bättre att skapa lagerplatserna rätt från början.  
 
-Om du vill arbeta i fönstret **Lagerplatsuppläggning förslag** måste du ställas in som en lageranställd på det lagerställe där lagerplatserna finns. Mer information finns i [Så här skapar du Dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
+Om du vill arbeta i fönstret **Lagerplatsuppläggning förslag** måste du ställas in som en lageranställd på det lagerställe där lagerplatserna finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerplatser**.
 3. Klicka på **Beräkna lagerplatser** i fältet **Lagerplatsmall kod** och välj den lagerplatsmall som du vill använda som modell när du skapar lagerplatser.
 4.  Fyll i en beskrivning av de lagerplatser som du håller på att skapa.  

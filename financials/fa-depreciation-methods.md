@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="depreciation-methods"></a>Avskrivningsmetoder
@@ -231,7 +231,7 @@ Den här användardefinierade metoden kan även användas för avskrivning baser
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Så här skapar du användardefinierade avskrivningsmetoder
 I fönstret **Avskrivning tabellkort** kan du skapa användardefinierad avskrivningsmetod. Du kan till exempel lägga upp avskrivning baserad på antalet enheter.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.  
 2. I fönstret **Avskrivning tabellista** väljer du åtgärden **Ny**.  
 3. I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

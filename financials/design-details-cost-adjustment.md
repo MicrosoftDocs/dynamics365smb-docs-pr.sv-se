@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
@@ -171,7 +171,7 @@ Om du har ställt in automatisk kostnadsjustering som ska kopplas till bokförin
 Om du har ställt in automatisk kostnadsjustering som ska kopplas till bokföringar som uppstår under en dag eller en vecka från datumet för aktuellt arbetsdatum, körs den automatiska kostnadsjusteringen inte och kostnaden för köpet speditioneras inte till försäljningen förrän du kör batch-jobbet **Justera kost. - artikeltrans.**.  
 
 ## <a name="see-also"></a>Se även
-[Så här justerar du artikelkostnader](inventory-how-adjust-item-costs.md)   
+[Justera artikelkostnader](inventory-how-adjust-item-costs.md)   
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
 [Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)   
 [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)   

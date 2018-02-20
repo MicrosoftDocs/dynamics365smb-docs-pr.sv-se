@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40f8d00c8ee064fdee4b676e4863279ec9e50d6d
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Ansluta till dina Financials-data och skapa en företagsapp med hjälp av PowerApps
@@ -32,7 +32,7 @@ Du kan göra din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tillgänglig s
 
    PowerApps Studio för Windows är ett program för att skapa och publicera PowerApps. PowerApps Studio för webb är en online-lösning som används för att skapa och publicera PowerApps.
 4. Nästa steg för att skapa en PowerApp är att välja data. Välj pilikonen och välj sedan alternativet **ny anslutning** i det övre vänstra delen på sidan.
-5. Välj i listan över tillgängliga anslutningar, välj **Dynamics 365 Business edition**.
+5. Välj **Dynamics 365 for Finance and Operations, Business edition** i listan över tillgängliga anslutningar.
 6. PowerApps visar en anslutningssida som uppmanar dig till att ge den information som behövs för att ansluta till din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Du måste ange en OData-URL, användarnamn, lösenord och företagsnamn för att ansluta.
 
    För den *OData-URL*, kan du kopiera OData V4-URL för någon av webbtjänsterna som finns på sidan **webbtjänster** i [!INCLUDE[d365fin](includes/d365fin_md.md)], som t.ex. `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
@@ -44,14 +44,14 @@ Du kan göra din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tillgänglig s
 
    PowerApps visar en lista över tabeller som finns på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dessa listor eller slutpunkter motsvarar de webbtjänster som du har publicerat från ditt [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-   Du kan också skapa en ny webbtjänst-URL i [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av åtgärden **skapa datauppsättning** på sidan **webbtjänster** med hjälp av den assisterade inställningsguiden **Ställ in rapportering**  eller genom att välja åtgärden **redigera i Excel** i någon lista.
+   Du kan också skapa en ny webbtjänst-URL i [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av åtgärden **skapa datauppsättning** på sidan **webbtjänster** med hjälp av den assisterade inställningsguiden **Ställa in rapportering**  eller genom att välja åtgärden **redigera i Excel** i någon lista.
 8. Välj den tabell som du vill använda för din PowerApp och välj knappen **Anslut**.
 9. Upprepa stegen för att lägga till ytterligare [!INCLUDE[d365fin](includes/d365fin_md.md)]-data till Power BI-datamodellen.
 
    > [!NOTE]  
 >    När du har anslutit till [!INCLUDE[d365fin](includes/d365fin_md.md)], kommer du inte att uppmanas till att ge OData-URL, användarnamn och lösenord.
 
-Nu har du lyckats ansluta till dina Dynamics 365-data och är redo att börja skapa din PowerApp. Mer information finns i [ PowerApp-dokumentation](https://powerapps.microsoft.com/tutorials/getting-started/).
+Du har nu lyckats ansluta till dina Finance and Operations, Business edition-data och är redo att börja skapa din PowerApp. Mer information finns i [ PowerApp-dokumentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

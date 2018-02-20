@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 433526fbd2a13f32e64be94cc1936151445c19f5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38b6ce01e48f1b32c28b1883875a566d19f02ea3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-centers"></a>Så här: Skapa kostnadsställen
+# <a name="set-up-cost-centers"></a>Skapa kostnadsgrupper
 Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Planen för kostnadsställen liknar dimensionsinformationen för redovisningen. Du kan definiera planen för kostnadsställen på följande sätt:  
 
 -   Överför dimensionsvärden i redovisningen till företagets plan för kostnadsställen. Du kan göra nödvändiga justeringar efter överföringen.  
@@ -27,7 +27,7 @@ Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Plan
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Överföra dimensionsvärden i redovisningen till planen för kostnadsställen  
 1.  Skapa en dimension som ska vara kostnadsställesdimensionen i fönstret **Uppdatera kostnadsredovisningsdimensioner**. Endast värdena från dimensionen överförs.  
-2.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lista över kostnadsställen** och välj sedan relaterad länk.  
+2.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lista över kostnadsställen** och välj sedan relaterad länk.  
 3.  Välj **Hämta kostnadsställen från dimension** för att överföra dimensionsvärden till planen för kostnadsställen på fliken **Åtgärder** i gruppen **Funktioner**. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
     > [!NOTE]  

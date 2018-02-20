@@ -13,28 +13,28 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cdbe4f8680dad6dcf605dd98f88bc7750ed8077f
 ms.contentlocale: sv-se
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-bank-data-conversion-service"></a>Så här ställer du in tjänsten bankdatakonvertering
+# <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
 
 Du kan exportera betalningsrader från fönstret **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md).
 
 Du kan importera bankutdragsfiler i fönstret **Betalningsavstämningsjournal** med hjälp av bankdatakonverteringstjänsten för att konvertera en fil som du får från banken till en dataström som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjänsten kan du använda tjänsten Envestnet Yodlee bankfeeder. Mer information finns i [Så här konfigurerar du tjänsten Envestnet Yodlee bankfeeder](bank-how-setup-bank-statement-service.md).
+Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjänsten kan du använda tjänsten Envestnet Yodlee bankfeeder. Mer information finns i [Konfigurera du bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
 
-Om du vill importera eller exportera bankfiler måste du ställa in ditt eget bankkonto och dina leverantörers bankkonton. Mer information finns i [Så här skapar du bankkonton](bank-how-setup-bank-accounts.md).
+Om du vill importera eller exportera bankfiler måste du ställa in ditt eget bankkonto och dina leverantörers bankkonton. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
 >   Bankdatakonverteringstjänsten kan ha en gräns för antal rader som kan exporteras i en fil. Du får ett felmeddelande om gränsen överskrids. Vi rekommenderar att kontoutdragsfiler inte innehåller fler än 1 000 rader eftersom behandlingstiden i bankdatakonverteringstjänsten annars kan öka markant.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Så här registrerar du ditt företag för tjänsten bankdatakonvertering.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
 2. Fönstret **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
 
     > [!NOTE]  
@@ -53,7 +53,7 @@ Du rekommenderas att skydda de inloggningsuppgifter som du anger i fönstret **S
 2. Aktivera krypteringen av dina data i fönstret **Datakrypteringshantering**.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Så här visar eller uppdaterar du listan över bankdataformat som stöds för närvarande
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.
 2. I fönstret **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Banknamn – datakonverteringslista** för att öppna listan med banknamn som representerar bankdataformat som stöds av konverteringstjänsten.
 3. På sidan **Banknamn – datakonverteringslista** väljer du åtgärden **Uppdatera lista med banknamn**.
 

@@ -13,14 +13,14 @@ ms.search.keywords: service, cost, service order
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d0f0fcdff4a67df7542c5acb6d44f804997d1a2c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 151b63b0f68a6605ae5c935f2331803277766452
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-pricing-and-additional-costs-for-services"></a>Så här: registrera prissättning och alternativa kostnader för service
+# <a name="set-up-pricing-and-additional-costs-for-services"></a>Registrera prissättning och alternativa kostnader för tjänster
 Med prissättningsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du göra inställningar i och anpassa programmet så att du tillämpar och justerar priser för serviceartiklar, reparationer och order. Dessa beslut om prissättning överförs sedan till faktureringsprocessen.  
   
 Om det behövs kan du skapa prisgrupper och mappa dem till specifika tidsperioder, kunder eller valutor. Du kan lägga upp fast, minsta eller högsta pris beroende på servicekontrakten som du har med kunderna. När du har justerat priserna kan du visa och godkänna ändringarna innan du sparar dem i redovisningen.  
@@ -28,7 +28,7 @@ Om det behövs kan du skapa prisgrupper och mappa dem till specifika tidsperiode
 ## <a name="to-set-up-a-service-price-group"></a>Så här skapar du en serviceprisgrupp
 Du kan lägga upp grupper med serviceartiklar om du vill ha samma speciella serviceprissättning. Du tilldelar serviceprisgrupper till serviceartiklar på serviceartikelrader. Du kan även tilldela serviceprisgrupper till serviceartikelgrupper.  
 
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceprisgrupper** och välj sedan relaterad länk.  
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceprisgrupper** och välj sedan relaterad länk.  
 2. Skapa en ny serviceprisgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. Välj åtgärden **Installation**.  
@@ -40,7 +40,7 @@ Du kan lägga upp grupper med serviceartiklar om du vill ha samma speciella serv
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Så här skapar du serviceprisjusteringsgrupper  
 Du kan ställa in prisjusteringsgrupper för att justera servicepriset för serviceartiklar. skapa en prisjusteringsgrupp som justerar priset för frakt eller reservdelar.  
   
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceprisgrupper** och välj sedan relaterad länk.  
+1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceprisgrupper** och välj sedan relaterad länk.  
 2. Skapa en ny serviceprisjusteringsgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **Typ** anger du den transaktionstyp som du vill justera.  
@@ -58,14 +58,14 @@ Du kan ställa in prisjusteringsgrupper för att justera servicepriset för serv
 När du arbetar med serviceartiklar och serviceorder kanske du behöver registrera ytterligare kostnader, till exempel resekostnader för vissa service zoner eller uppstartskostnader. När du skapar en serviceorder kan du infoga kostnaderna och en rad med typen **kostnad** läggs till i ordern. Om du vill koppla kostnader till alla serviceorder kan du ställa in standardkostnaden. Till exempel om du alltid vill använda en uppstartskostnad.
   
 ### <a name="to-set-up-service-costs"></a>Så här skapar du servicekostnader:
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Servicekostnader** och välj sedan relaterad länk. 
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekostnader** och välj sedan relaterad länk. 
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Ange standardkostnaden för serviceorder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk. 
-2. I fältet **Serviceorder uppstartskostnad**, välj lämplig servicekostnad.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk. 
+2. I fältet **Tjänsteorder uppstartskostnad**, välj lämplig servicekostnad.
 
 ## <a name="see-also"></a>Se även
-[Ställa in servicehantering](service-setup-service.md)  
+[Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
 

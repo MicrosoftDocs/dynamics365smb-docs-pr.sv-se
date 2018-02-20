@@ -1,6 +1,6 @@
 ---
 title: "Så här kombinerar du leveranser på en enda faktura | Microsoft Docs"
-description: "Om du vill fakturera mer än en leverans åt gången kan du använda funktionen kombinerade leveranser."
+description: "Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e6be50119da5c617ce6dbf603903266f9ced821e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du leveranser på en enda faktura
-Om du vill fakturera mer än en leverans åt gången kan du använda funktionen kombinerade leveranser.  
+# <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
+Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
 
  Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha fyllt i minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. Om du vill kombinera utleveranser måste du markera kryssrutan **Samlingsfakturering** på snabbfliken **Leverans** på **Kund**-kortet.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny**. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md).
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+2. Välj åtgärden **Ny**. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
 3. I fältet **Förs.kundnr.** Ange den kund som ska få fakturan för de levererade artiklarna, i fältet.  
 4. På snabbfliken **Rader** klickar du på åtgärden **Hämta utleveransrader**.  
 5. Markera den leveransrad som ska inkluderas på fakturan:  
@@ -38,7 +38,7 @@ Om du vill fakturera mer än en leverans åt gången kan du använda funktionen 
 7. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Samlingsfakturering** och välj sedan relaterad länk. Beställningsfönstret för batch-jobbet  öppnas.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Samlingsfakturering** och välj sedan relaterad länk. Beställningsfönstret för batch-jobbet  öppnas.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markera kryssrutan **Bokför fakturor**.  
 4.  Välj knappen **OK**.  
@@ -51,7 +51,7 @@ När utleveranser kombineras på en faktura och bokförs, skapas en bokförd fö
 
 När du fakturerar leveranser på det här sättet finns de order som leveranserna bokfördes från kvar, även om de har levererats och fakturerats i sin helhet.   
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Ta bort fakturerade förs.order** och välj sedan länken.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Ta bort fakturerade förs.order** och välj sedan länken.  
 2. Fälten **Serienr** . vilka försäljningsorder som ska tas bort.  
 3. Välj **OK**.  
 

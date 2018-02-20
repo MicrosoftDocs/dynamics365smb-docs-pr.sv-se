@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Hantera interaktioner för segment
@@ -45,8 +45,8 @@ I fönstret **Segment** när du väljer **Logg**, registrerar programmet interak
 I fönstret **Segmentlogg** kan du skapa ett nytt segment som innehåller ett uppföljningssegment med samma kontakter som det loggade segmentet.
 
 ## <a name="see-also"></a>Se även
-[Så här skapar du segment](marketing-how-create-segment.md)  
-[Så här skapar du interaktioner för segment](marketing-how-create-interactions.md)  
+[Skapa segment](marketing-how-create-segment.md)  
+[Skapa interaktioner för segment](marketing-how-create-interactions.md)  
 [Hantera segment](marketing-segments.md)  
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  

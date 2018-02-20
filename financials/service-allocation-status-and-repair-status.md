@@ -13,10 +13,10 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dcfd5bc10bfd4474b795e9f45c7e219b9936a790
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4020910008e47fdf5a7e4626aa84e0f64cf0905f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
@@ -36,7 +36,7 @@ Fördelningsstatusen visar därmed när serviceprocessen är avslutad eller när
 När du omvandlar en serviceoffert till en serviceorder uppdateras serviceordern, serviceartiklarna i ordern och deras fördelningsposter så här:  
   
 * Serviceartiklarnas reparationsstatus ändras till **Initial**.  
-* Serviceorderstatus ändras till **Förestående**.  
+* Tjänsteorderstatus ändras till **Förestående**.  
 * En sökning görs efter fördelningstransaktioner för alla serviceartiklar i serviceordern som har statusen **Aktiv**. Om sådana fördelningsposter hittas ändras deras fördelningsstatus från **Aktiv** till **Omfördelning nödvändig**.  
   
 ## <a name="canceling-allocations"></a>Rätta fördelningar  
@@ -69,7 +69,7 @@ När du omfördelar en serviceartikel i en fördelningspost med statusen **Omfö
 En ny fördelningspost skapas som innehåller den nya resursen med statusen **Aktiv**.  
   
 ## <a name="see-also"></a>Se även  
-[Så här kan du ställa in resursfördelningar](service-how-setup-resource-allocation.md)  
-[Så här fördelar du resurser:](service-how-to-allocate-resources.md)  
+[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
+[Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
 
 

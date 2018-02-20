@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78f9235e0115b75c3c479f789c76710b97a216c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61c40317e2c45d2978118a7a6459c6a1b04ddd8f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-opportunities"></a>Så här bearbetar du affärsmöjligheter
+# <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
 
 ## <a name="to-view-opportunities"></a>Visa affärsmöjligheter.
@@ -27,9 +27,9 @@ De befintliga försäljningsmöjligheterna finns i fönstret **Affärsmöjlighet
 
 | Visa affärsmöjligheter för | Då |
 | --- | --- |
-| Alla säljare och kontakter |Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk. |
-| En viss säljare |Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Säljare** och välj sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
-| En viss kontakt |Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Kontakter** och välj sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
+| Alla säljare och kontakter |Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk. |
+| En viss säljare |Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Säljare** och välj sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
+| En viss kontakt |Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontakter** och välj sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
 
 Var och en av dessa uppgifter öppnar fönstret **Affärsmöjlighetslista**.
 
@@ -65,7 +65,7 @@ Om du vill ta bort avslutade affärsmöjligheter från fönstret **Affärsmöjli
 
 Gör följande steg om du vill ta bort avslutade affärsmöjligheter med batch-jobbet **Ta bort avslutade affärsmöjligheter**:
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk.
 2. I avsnittet **Affärsmöjlighet** ställer du in de filter som anger den avslutade affärsmöjligheten som ska tas bort.
 3. Välj **OK**.
 

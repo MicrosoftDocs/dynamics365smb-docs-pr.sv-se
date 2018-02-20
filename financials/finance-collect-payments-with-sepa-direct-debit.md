@@ -1,5 +1,5 @@
 ---
-title: SEPA direkt debet i Dynamics 365 | Microsoft Docs
+title: SEPA Autogiro i Finance and Operations, Business edition | Microsoft Docs
 description: "Du kan samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
@@ -35,9 +35,9 @@ Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto 
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Förbered bankkontoformat, betalningssätt och kundavtal för SEPA-autogiro.|[Så här: Konfigurera SEPA Autogiro](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Be din bank att överföra betalningsbeloppen från kunders bankkonton till företagets konto enligt inställningarna för SEPA-autogiro.|[Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Ställ in standardiserade kundförsäljningskoder för direktdebetfakturor och generera försäljningsfakturor med direktdebiteringsinformation om fakturorna som har förfallit till betalning.|[Så här: Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  
+|Förbered bankkontoformat, betalningssätt och kundavtal för SEPA autogiro.|[Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Be din bank att överföra betalningsbeloppen från kunders bankkonton till företagets konto enligt inställningarna för SEPA-autogiro.|[Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Ställ in standardiserade kundförsäljningskoder för direktdebetfakturor och generera försäljningsfakturor med direktdebiteringsinformation om fakturorna som har förfallit till betalning.|[Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  
 |Bokföra betalningar som SEPA-autogiro.|[Så här bokför du betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>Se även  

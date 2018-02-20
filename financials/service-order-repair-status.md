@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 36925a08f7fdfffedf13902a5c6feaaa8b0929a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ffd5d6893b2b6c8ce7b7377c586f4f5414279b5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-statuses-for-service-orders-and-repairs"></a>Så här: ställa in status för serviceorder och reparationer
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Ställ in status för serviceorder och reparationer
 Du måste ställa in olika alternativ för reparationsstatus som anger hur reparationen och underhållet av serviceartiklarna på serviceorder framskrider. Du måste skapa åtminstone nio reparationsstatusalternativ som identifierar situationer eller åtgärder som vidtagits då serviceartiklar servas.  
 
 Du kan ange prioriteringsnivåer för alternativen för serviceorderstatus. Det finns fyra prioriteter: Hög, medelhög, medellåg och låg.  
@@ -27,7 +27,7 @@ Du kan ange prioriteringsnivåer för alternativen för serviceorderstatus. Det 
 När du ändrar en serviceartikels reparationsstatus på serviceordern uppdateras serviceorderns status. Varje serviceartikels reparationsstatus är kopplad till serviceorderstatusen. Om serviceartiklarna är kopplade till två eller fler serviceorderstatusalternativ väljs den serviceorderstatus som har högst prioritet.  
 
 ## <a name="to-set-up-a-repair-status"></a>Så här skapar du en reparationsstatus  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Reparationsstatus** och välj sedan relaterad länk. 2. Skapa en ny reparationsstatus.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Reparationsstatus** och välj sedan relaterad länk. 2. Skapa en ny reparationsstatus.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **serviceorderstatus** väljer du orderstatus att länka reparationsstatusen till. Fältet **Prioritet** visar prioriteten för den serviceorderstatus som du har valt.  
 5. Välj en reparationsstatus Du kan bara välja en.  
@@ -36,11 +36,11 @@ När du ändrar en serviceartikels reparationsstatus på serviceordern uppdatera
 8. Markera kryssrutorna **Pågående status tillåten**, **Färdig status tillåten** och **Stoppad status tillåten** på samma sätt.
   
 ## <a name="to-set-up-service-status-priorities"></a>Så här skapar du servicestatusprioriteter  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Serviceorderstatus** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorderstatus** och välj sedan relaterad länk.  
 2. Välj den serviceorderstatus som du vill ange prioritet för.  
 3. I fältet **Prioritet** väljer du önskad prioritet för aktuell serviceorderstatus. Upprepa det här steget för varje status.  
   
 ## <a name="see-also"></a>Se även  
 [Förstå serviceorderstatus och reparationsstatus]()  
-[Ställa in servicehantering](service-setup-service.md)  
+[Ställa in tjänstehantering](service-setup-service.md)  
 

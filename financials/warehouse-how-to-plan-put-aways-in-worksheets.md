@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Så här: Planera artikelinförsel i förslaget
+# <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i förslag
 Du kan använda artikelinförselförslaget om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.  
 
 Om du vill lägga upp distributionslagret så att inleveransrader visas i artikelinförselförslaget så snart de har bokförts, markerar du fältet **Använd artikelinförselförslag** på snabbfliken **Dist.lager** på lagerställekortet. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
@@ -33,7 +33,7 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 > 2.  Fortsätt med det i så många artikelinförslar som du vill, tills du har tagit bort de rader om du vill arbeta med i förslaget. Välj nu **Artikelinförselförslag** och fortsätt planeringen.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Så här planerar du instruktioner i artikelinförselförslaget  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Artikelinförselförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelinförselförslag**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument**. Fönstret **Artikelinförselval** öppnas.  
 
     Alla bokförda inleveranser och registrerade interna artikelinförslar som har vidarebefordrats till artikelinförselfunktionen visas, däribland de som artikelinförselinstruktioner redan har skapats för. Dokument med artikelinförselrader som är klara och registrerade visas inte i den här listan.  
@@ -58,7 +58,7 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 
     -   Du kan fördela artikelinförseln till en särskild anställd.  
     -   Du kan sortera instruktionsraderna för artikelinförsel som du gjorde i förslaget eller genom att använda funktionen Lagerplatsordning. När du sorterar enligt lagerplatsordningen visas hämtningsraderna först eftersom de flesta inleveranslagerplatser har lagerplatsordning 0, och placeringsraderna visas sist, med de lagerplatser som har lägst lagerplatsordning högst upp i listan. Om du har strukturerat distributionslagret så att lagerplatser med liknande lagerplatsordning ligger bredvid varandra slipper personalen gå så mycket om du sorterar raderna på det här sättet.  
-    -   Du kan välja att inte visa de övergångsrader som skapas när en större enhet bryts ned till mindre enheter, genom att markera fältet **Sätt brytenhetsfilter**. Mer information finns i [så här: Aktivera Automatisk bryta ned volym med dirigerad artikelinförsel och plockning] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Du kan välja att inte visa de övergångsrader som skapas när en större enhet bryts ned till mindre enheter, genom att markera fältet **Sätt brytenhetsfilter**. Mer information finns i [Aktivera Automatisk volymnedbrytning med dirigerad artikelinförsel och plockning] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Du kan välja att inte låta fältet **Ant. att hantera** fyllas i automatiskt för artikelinförselinstruktionerna.  
     -   Du kan välja att skriva ut dokumentet omedelbart.  
 

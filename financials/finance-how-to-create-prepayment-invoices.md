@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 04d7703df0c1b5e4da8996f00b5f1eed293cbf56
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd090720943d0d7271200e087642a80157cbdbbd
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-prepayment-invoices"></a>Så här skapar du förskottsfakturor
+# <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 Om du vill att dina kunder ska betala innan du levererar en order till dem eller om en leverantör kräver att du betalar innan de levererar en order till dig, kan du använda funktionen för förskottsbetalning.  
 
 När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Till exempel, en totalsumma för hela ordern.  
@@ -27,8 +27,8 @@ När du har skapat en försäljnings- eller inköpsorder kan du skapa en försko
 I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en försäljningsorder. Momenten är liknande för en inköpsorder.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
-2. Skapa en ny försäljningsorder. Mer information finns i [Så här säljer du produkter](sales-how-sell-products.md).  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+2. Skapa en ny försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 
     På snabbfliken **Förskottsbetalning** fylls fältet **Förskottsbetalning %** fylls i automatiskt om det finns en standardprocentandel för förskottsbetalning på kundkortet. Du kan ändra innehållet i fältet. Procentandelen för förskottsbetalning kopieras bara från huvudet till de rader där standardprocentandelen inte kopieras från artikeln.  
 

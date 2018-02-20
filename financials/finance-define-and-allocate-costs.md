@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 050b0bd997629ca189cfbe035e361de7a252d079
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04e5a95b7a926528cc26c254390d08e3bce6ad8a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Definiera och fördela kostnader
@@ -38,7 +38,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |Till|Gå till|  
 |--------|---------|  
-|Skapa fördelningskälla och dess mål.|[Så här: ställa in fördelningskälla och mål](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Skapa fördelningskälla och dess mål.|[Skapa fördelningskälla och mål](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Skapa olika filter för dynamiska fördelningsbaser.|[Skapa filter för dynamiska fördelningsbaser](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |Visa ett exempel på hur du definierar en fast distribution.|[Scenarioexempel: Definiera fast distribution beräknad på fördelningskvot](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |Visa ett exempel på hur du definierar en dynamisk distribution.|[Scenarioexempel: Definiera dynamisk distribution beräknad på sålda artiklar](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  

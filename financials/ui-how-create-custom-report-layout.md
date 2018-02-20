@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Så här skapar du och ändrar en anpassad rapport eller dokumentlayout
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Så här skapar och ändrar du en anpassad rapport eller dokumentlayout
 Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter. Du kan skapa egna anpassade layouter som du kan använda för att ändra utseendet på rapporten när den visas, skrivs ut eller sparas. Du kan skapa flera anpassade rapportlayouter för samma rapport, och sedan byta layout som används av en rapport efter behov.
 
 > [!NOTE]  
@@ -28,20 +28,20 @@ Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Wo
 Om du vill skapa en anpassad layout kan du antingen skapa en kopia av en befintlig anpassad layout eller lägga till en ny anpassad layout, som baseras i de flesta fall på en inbyggd layout. När du lägger till en ny anpassad layout kan du välja att lägga till en RDLC-rapportlayout, Word-rapportlayout eller både och. Den nya anpassade layouten baseras automatiskt på den inbyggda layouten för rapporten, om en är tillgänglig. Om det inte finns någon inbyggd layout för typen, skapas en ny tom layout som du måste ändra och utforma från noll. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Så här skapar du en anpassad layout
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.
 
     I fönstret **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företag** högst upp i fönstret.
 2. Ange fältet **Företag** till företaget som du vill skapa rapportlayouten i.
-3. Markera raden för rapporten som du skapa layouten för och välj sedan **Anpassade layouter**.  
-   i fönstret **Anpassade rapportlayouter** visas alla anpassade layouter som är tillgängliga för den valda rapporten.
+3. Markera raden för rapporten som du skapa layouten för och välj sedan **Anpassa layouter**.  
+   i fönstret **Anpassa rapportlayouter** visas alla anpassade layouter som är tillgängliga för den valda rapporten.
 4. Om du vill skapa en kopia av en befintlig anpassad layout, markera den befintliga anpassade layouten i listan och välj sedan **Kopiera**.  
-   Kopian av den anpassade layouten visas i fönstret **Anpassade rapportlayouter** och har orden *Kopia av* i fältet **Beskrivning**.
+   Kopian av den anpassade layouten visas i fönstret **Anpassa rapportlayouter** och har orden *Kopia av* i fältet **Beskrivning**.
 5. Om du vill lägga till en ny anpassad layout som baseras på en inbyggd layout gör du följande:  
    1. Välj åtgärden **Ny**. Fönstret **Infoga inbyggd layout för en rapport** visas. Fälten **ID** och **Namn** fylls i automatiskt.
    2. Om du vill lägga till en anpassad Word-rapportlayouttyp markerar du kryssrutan **Infoga Word-layout**.
    3. Om du vill lägga till en anpassad RDLC-rapportlayouttyp markerar du kryssrutan **Infoga RDLC-layout**.
    4. Välj **OK**.  
-      De nya anpassade layouterna visas i fönstret **Anpassade rapportlayouter**. Om en ny layout baseras på en inbyggd layout får den orden **Kopia av en inbyggd layout** i fältet **Beskrivning**. Om det inte fanns en inbyggd layout för rapporten, får den nya layouten orden **Ny layout** i fältet **Beskrivning**, vilket anger att den anpassade layouten är tom.
+      De nya anpassade layouterna visas i fönstret **Anpassa rapportlayouter**. Om en ny layout baseras på en inbyggd layout får den orden **Kopia av en inbyggd layout** i fältet **Beskrivning**. Om det inte fanns en inbyggd layout för rapporten, får den nya layouten orden **Ny layout** i fältet **Beskrivning**, vilket anger att den anpassade layouten är tom.
 6. Som standard är fältet **Företagsnamn** tomt, vilket betyder att den anpassade layouten är tillgänglig för rapporten i alla företag. För att du ska kunna göra den anpassade layouten tillgänglig väljer du **Redigera** och ställer sedan in fältet **Företagsnamn** till företaget som du vill ha.
 
 Den anpassade layouten har skapats. Du kan nu ändra den anpassade layouten efter behov.
@@ -89,12 +89,12 @@ Om du designar en Word-rapportlayout från noll eller lägger till nya datafält
 2.  Ta bort den återstående texten efter behov.  
 
 ### <a name="adding-data-fields"></a>Lägga till datafält
-Lägga till datafält från en -rapportdatauppsättning är mer avancerat och kräver viss kunskap om rapportdatauppsättningen. Information om att lägga till fält för data, etiketter, data och bilder finns i [så här: lägga till fält till en Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
+Lägga till datafält från en -rapportdatauppsättning är mer avancerat och kräver viss kunskap om rapportdatauppsättningen. Information om att lägga till fält för data, etiketter, data och bilder finns i [Lägga till fält till en Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
-[Så här ändrar du vilken layout som används i en rapport för närvarande](ui-how-change-layout-currently-used-report.md)  
+[Ändra den layout som används i en rapport för närvarande](ui-how-change-layout-currently-used-report.md)  
 [Så här importerar och exporterar du en anpassad rapport eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Arbeta med rapporter](ui-work-report.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

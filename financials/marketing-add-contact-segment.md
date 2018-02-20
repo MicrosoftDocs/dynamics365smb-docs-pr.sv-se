@@ -13,17 +13,17 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Så här lägger du till kontakter i segment
+# <a name="add-contacts-to-segments"></a>Lägga till kontakter i segment
 När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna i fönstret **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
-1. Välj åtgärden **Aktiva segment** på startsidan. Eller välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.  
+1. Välj åtgärden **Aktiva segment** på startsidan. Eller välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.  
 2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Fönstret för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
 
@@ -54,7 +54,7 @@ När du har valt kontakter i ett segment kanske du vill ta bort några av dem. D
 Du kan reducera ett segment så många gånger som du vill. Klicka på åtgärden **Gå tillbaka** om du har förfinat ett segment av misstag och vill gå tillbaka till föregående steg.
 
 ## <a name="see-also"></a>Se även
-[Så här skapar du segment](marketing-how-create-segment.md)   
+[Skapa ett segment](marketing-how-create-segment.md)   
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Så här skapar du lagerplatsinnehåll
+# <a name="create-bin-contents"></a>Skapa lagerplatsinnehåll
 När du har skapat lagerplatserna kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerplatsen ska fyllas med en viss artikel. Du kan göra detta manuellt i fönstret **lagerplatsinnehåll** eller automatiskt med fönstret **skapa lagerplatsinnehåll i förslaget**.
 
 ## <a name="to-create-bin-content-manually"></a>Så här skapar du lagerplatsinnehåll manuellt  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
 2.  Markera platsen där du vill skapa lagerplatsinnehållet och väljer åtgärden **Lagerplatser**.  
 3.  Markera lagerplatsen där du vill skapa lagerplatsinnehållet och väljer åtgärden **Innehåll**.  
 4.  För varje artikel som du vill lagra på lagerplatsen fyller du i en rad i fönstret **Lagerplatsinnehåll** med tillämplig information. Vissa av fälten har redan fyllts i med information om lagerplatsen.  
@@ -56,7 +56,7 @@ När du har skapat lagerplatserna kan du skapa det lagerplatsinnehåll som du vi
 I det här förslaget kan du arbeta med flera lagerplatsinnehållsrader för flera lagerplatser och på så sätt få en bra översikt över vad du placerar på olika lagerplatser i en viss zon, gång eller ställning.  
 
 ## <a name="see-also"></a>Se även
-[Så här Beräkna du lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)    
+[Beräkna lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)    
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     

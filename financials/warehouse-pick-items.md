@@ -1,6 +1,6 @@
 ---
 title: Plocka artiklar | Microsoft Docs
-description: "Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa [setup](../configure-warehouse-processes.md)-inställningarna är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med hantering av order för order i en eller flera aktiviteter samt avancerade konfigurationer där alla lageraktiviteter måste utförs i ett dirigerat arbetsflöde."
+description: "Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa [inställningarna](../configure-warehouse-processes.md) är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med enbart hantering av order för order i en eller flera aktiviteter och vidare till avancerade konfigurationer där alla lageraktiviteter måste utföras i ett dirigerat arbetsflöde."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Plocka artiklar
@@ -35,15 +35,15 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |**Om du vill**|**Gå till**|
 |------------|-------------|  
-|Bokföra utleveransen av artiklar direkt på det avgående orderdokumentet eftersom det inte finns några lagerfunktioner. (Fungerar på samma sätt för en försäljningsorder, en utgående överföringsorder och returutleveranser.)|[Så här levererar du artiklar](warehouse-how-ship-items.md)|  
-|Plocka artiklar order för order och bokföra utleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Så här plockar du artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Plocka artiklar för flera order i en avancerad lagerkonfiguration.|[Så här plockar du artiklar med lagerplockning](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Plocka komponenter för produktion eller montering i en grundläggande eller avancerad lagerkonfiguration.|[Så här: Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)|  
-|Planera optimerade plockinstruktioner för ett antal utleveranser i stället för att låta lagerarbetare agera direkt på bokförda utleveranser.|[Så här planerar du plockningar i förslaget](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Plocka artiklar tekniskt för ett visst syfte, till exempel en produktionsenhet som behöver extra komponenter, så att artiklarna inte lämnar distributionslagret tekniskt.|[Så här: plockning och artikelinförsel utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Bokföra utleveransen av artiklar direkt på det avgående orderdokumentet eftersom det inte finns några lagerfunktioner. (Fungerar på samma sätt för en försäljningsorder, en utgående överföringsorder och returutleveranser.)|[Leverera artiklar](warehouse-how-ship-items.md)|  
+|Plocka artiklar order för order och bokföra utleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Plocka artiklar för flera order i en avancerad lagerkonfiguration.|[Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Plocka komponenter för produktion eller montering i en grundläggande eller avancerad lagerkonfiguration.|[Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)|  
+|Planera optimerade plockinstruktioner för ett antal utleveranser i stället för att låta lagerarbetare agera direkt på bokförda utleveranser.|[Planera plockningar i förslag](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Plocka artiklar tekniskt för ett visst syfte, till exempel en produktionsenhet som behöver extra komponenter, så att artiklarna inte lämnar distributionslagret tekniskt.|[Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Förstå hur du automatiskt plockar artiklar enligt deras utgångsdatum, till exempel ömtåliga varor.|[Plockning med FEFO](warehouse-picking-by-fefo.md)|
-|En plockningsrad delas upp i flera rader, till exempel eftersom det inte finns tillräckligt många artiklar som ska tas från den bestämda lagerplatsen.|[Så här: Dela Dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få direkt tillgång till plockningar som tilldelats dig som lagerarbetare.|[Så här: Hitta distributionslagertilldelningar](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|En plockningsrad delas upp i flera rader, till exempel eftersom det inte finns tillräckligt många artiklar som ska tas från den bestämda lagerplatsen.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Få direkt tillgång till plockningar som tilldelats dig som lagerarbetare.|[Hitta distributionslagertilldelningar](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

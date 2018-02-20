@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d126a89064c3e899f864e63647e76f5e59e1666
 ms.contentlocale: sv-se
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Hantera bankkonton
@@ -31,8 +31,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Om du vill | Gå till |
 | --- | --- |
 | Stämma av bankkonton i samband med betalningsbehandling i fönstret **Betalningsavstämningsjournal**. |[Koppla utbetalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Du kan stämma av bankkonton inklusive checktransaktioner som en separat aktivitet i fönstret **Bankkontoavstämning**. |[Så här stämmer du av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md) |
-| bokföra överföringar mellan bankkonton i samma valuta eller olika valutor. |[Så här överför du banktillgångar](bank-how-transfer-bank-funds.md) |
+| Du kan stämma av bankkonton inklusive checktransaktioner som en separat aktivitet i fönstret **Bankkontoavstämning**. |[Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md) |
+| bokföra överföringar mellan bankkonton i samma valuta eller olika valutor. |[Överföra banktillgångar](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  
@@ -40,4 +40,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Hantera Leverantörsreskontra](payables-manage-payables.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

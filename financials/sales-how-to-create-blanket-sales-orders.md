@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>Så här: Arbeta med försäljningsavropsorder
+# <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.
 
 En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att de antal som anges på en avropsorder inte påverkar artikeldispositionen och därmed kan användas som ett förslag för övervakning, prognostisering och planering.
@@ -30,7 +30,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 > Inköpsavropsorder fungerar på samma sätt som en försäljningsavropsorder. Denna dokumentation täcker inte inköpsavropsorder.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Så här skapar du en avropsorder  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **försäljningsavropsorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **försäljningsavropsorder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Låt fältet **Orderdatum** vara tomt. När separata försäljningsorder skapas från avropsordern anges orderdatum för försäljningsordern som det aktuella arbetsdatumet.
@@ -58,7 +58,7 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Så här visar du status för avropsorder:  
 Du kan visa statusen för en försäljningsavropsordern i fönstret **Inköpsorderstatistik**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån avropsordern.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **försäljningsavropsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **försäljningsavropsorder** och välj sedan relaterad länk.  
 2.  Markera en inköpsavropsorder och välj åtgärden **statistik**.  
 3.  På snabbfliken **Allmänt** i fönstret **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
 
@@ -70,7 +70,7 @@ Du kan visa statusen för en försäljningsavropsordern i fönstret **Inköpsord
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader   
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **försäljningsavropsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **försäljningsavropsorder** och välj sedan relaterad länk.
 2. Öppna den avropsorder för försäljning som du vill visa.
 3. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** ocgh sedan **Ej bokförda rader**. Välj något av följande alternativ:  
 

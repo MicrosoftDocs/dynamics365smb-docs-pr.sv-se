@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportera kostnader och stämma av med redovisningen
@@ -30,9 +30,9 @@ I slutet av bokföringsperioden varje månad, år eller annat – måste en seri
 |visa lagervärdet för valda produktionsorder i ditt PIA-lager (produkter i arbete), till exempel kvantiteterna och värdena på förbrukning, kapacitetsförbrukning och utflöde i pågående produktionsorder.|**Lagervärdering - WIP**-rapport|  
 |visa lagervärdet på valda artiklar, inklusive deras faktiska och förväntade kostnad på det angivna datumet.|**Lagervärdering - kost.spec.**-rapport|  
 |använda en rapport för att analysera orsakerna till kostnadsvariationer eller för att få information om kostnadsandelarna för sålda artiklar (KSV).|**Kostnadsandelar - analys**-rapport|  
-|regelbundet bokföra värdetransaktionerna för artikeltransaktioner från inventeringen till relaterade redovisningskonton för att stämma av de båda bokföringsböckerna.|[Så här kan du Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|använda ett fönster för att granska avstämningen mellan inventeringen och redovisningen.|[Så här kan du Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|fastställa PIA-beloppet som måste bokföras på balansräkningskonton för periodslutsrapportering.|[Så här övervakar du projektets framsteg och resultat](projects-how-monitor-progress-performance.md)|
+|regelbundet bokföra värdetransaktionerna för artikeltransaktioner från inventeringen till relaterade redovisningskonton för att stämma av de båda bokföringsböckerna.|[Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|använda ett fönster för att granska avstämningen mellan inventeringen och redovisningen.|[Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|fastställa PIA-beloppet som måste bokföras på balansräkningskonton för periodslutsrapportering.|[Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Se även  
 [Ställa in lagervärdering och lagerkostnad](finance-set-up-inventory-valuation-and-costing.md)  
