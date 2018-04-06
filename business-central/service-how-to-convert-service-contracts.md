@@ -1,0 +1,71 @@
+---
+title: "Så här: Omvandla servicekontrakt | Microsoft Docs"
+description: "Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt."
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 09/08/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 64f3f214d014faff6ee0e71180b1cb928bb15d86
+ms.contentlocale: sv-se
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="convert-service-contracts-that-include-vat-amounts"></a><span data-ttu-id="0751a-104">Så här omvandlar du servicekontrakt som innehåller momsbelopp</span><span class="sxs-lookup"><span data-stu-id="0751a-104">Convert Service Contracts that Include VAT Amounts</span></span>
+<span data-ttu-id="0751a-105">Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt.</span><span class="sxs-lookup"><span data-stu-id="0751a-105">Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually.</span></span> <span data-ttu-id="0751a-106">I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.</span><span class="sxs-lookup"><span data-stu-id="0751a-106">This topic describes several alternative methods that you can use for service contract conversion.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="0751a-107">Det här avsnittet innehåller arbetsflöde på hög nivå.</span><span class="sxs-lookup"><span data-stu-id="0751a-107">This topic provides a high-level workflow.</span></span>  
+
+ <span data-ttu-id="0751a-108">Nedan beskrivs hur du uppdaterar en faktura för ett förutbetalt servicekontakt som har skapats ett år i förväg.</span><span class="sxs-lookup"><span data-stu-id="0751a-108">The following procedure describes how to correct an invoice for a prepaid service contract that has been created a year in advance.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="0751a-109">För det här exemplet måste du ändra arbetsdatum till 01.01.2017.</span><span class="sxs-lookup"><span data-stu-id="0751a-109">For this example, you must change your work date to 01.01.2017.</span></span>  
+
+### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a><span data-ttu-id="0751a-110">Så här korrigerar du en faktura för ett förskottsbetalt servicekontrakt</span><span class="sxs-lookup"><span data-stu-id="0751a-110">To correct an invoice for a prepaid service contract</span></span>  
+1. <span data-ttu-id="0751a-111">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontraktshantering** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="0751a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contract Management**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="0751a-112">Välj **Servicekontrakt** under **Listor**.</span><span class="sxs-lookup"><span data-stu-id="0751a-112">Under **Lists**, choose **Service Contracts**.</span></span>  
+3. <span data-ttu-id="0751a-113">Skapa ett nytt förutbetalt servicekontrakt.</span><span class="sxs-lookup"><span data-stu-id="0751a-113">Create a new prepaid service contract.</span></span> <span data-ttu-id="0751a-114">Ange startdatumet **01.01.2017** och fakturaperiodåret för kunden **20000**.</span><span class="sxs-lookup"><span data-stu-id="0751a-114">Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.</span></span>  
+4. <span data-ttu-id="0751a-115">Det kontrakt måste undertecknas.</span><span class="sxs-lookup"><span data-stu-id="0751a-115">This contract must be signed.</span></span> <span data-ttu-id="0751a-116">På fliken **Start** i gruppen **Process** väljer du **Signera kontrakt**.</span><span class="sxs-lookup"><span data-stu-id="0751a-116">On the **Home** tab, in the **Process** group, choose **Sign Contract**.</span></span>  
+5. <span data-ttu-id="0751a-117">Skapa en servicefaktura.</span><span class="sxs-lookup"><span data-stu-id="0751a-117">Create a service invoice.</span></span>
+6. <span data-ttu-id="0751a-118">Fakturera anges som en ej bokförda servicefaktura.</span><span class="sxs-lookup"><span data-stu-id="0751a-118">The invoice is listed as an unposted service invoice.</span></span> <span data-ttu-id="0751a-119">Välj **Service**, välj **Kontraktshantering**och välj sedan **Servicefakturor** för att visa servicefakturan.</span><span class="sxs-lookup"><span data-stu-id="0751a-119">To view the service invoice, choose **Service**, choose **Contract Management**, and then choose **Service Invoices**.</span></span>  
+7. <span data-ttu-id="0751a-120">Bokför servicefakturan.</span><span class="sxs-lookup"><span data-stu-id="0751a-120">Post the service invoice.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="0751a-121">Ändra inte den ej bokförda servicefakturan.</span><span class="sxs-lookup"><span data-stu-id="0751a-121">Do not change the unposted service invoice.</span></span> <span data-ttu-id="0751a-122">Eftersom servicetransaktioner skapas när fakturan skapas, ändrar en ändring av den ej bokförda fakturan inte de redan skapade servicetransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="0751a-122">Since the service ledger entries are created when the invoice is created, a change in the unposted invoice will not change the already created service ledger entries.</span></span> <span data-ttu-id="0751a-123">Dock skapas momstransaktionerna när fakturan bokförs.</span><span class="sxs-lookup"><span data-stu-id="0751a-123">However, the VAT entries are created when the invoice is posted.</span></span> <span data-ttu-id="0751a-124">Detta gör att du kan ändra den allmänna produktbokföringsmallen och GSP-produktbokföringsmallen på den ej bokförda servicefakturan.</span><span class="sxs-lookup"><span data-stu-id="0751a-124">This lets you change the general product posting group and the GSP product posting group on the unposted service invoice.</span></span>  
+
+### <a name="to-create-a-credit-memo-for-vat-difference"></a><span data-ttu-id="0751a-125">Så här skapar du en kreditnota för momsdifferens</span><span class="sxs-lookup"><span data-stu-id="0751a-125">To create a credit memo for VAT difference</span></span>  
+<span data-ttu-id="0751a-126">Nedan beskrivs hur du skapar en kreditnota som bara innehåller momsavvikelsen för den redan fakturerade perioden som börjar **01.07.2017**.</span><span class="sxs-lookup"><span data-stu-id="0751a-126">The following procedure describes how to create a credit memo that only includes the VAT difference for the already invoiced period starting on **01.07.2017**.</span></span> <span data-ttu-id="0751a-127">I det här exemplet bokförs momsbeloppet endast i modulen för ekonomihantering, inte i modulen för tjänstehantering.</span><span class="sxs-lookup"><span data-stu-id="0751a-127">In this example, the VAT amount is only posted to the Financial Management module, not to the Service Management module.</span></span> <span data-ttu-id="0751a-128">Momstransaktionerna som är kopplade till servicetransaktionen kommer inte rättas.</span><span class="sxs-lookup"><span data-stu-id="0751a-128">The VAT entries that are linked to the service ledger entry will not be corrected.</span></span>  
+
+1. <span data-ttu-id="0751a-129">Skapa ett nytt redovisningskonto för momsdifferensen.</span><span class="sxs-lookup"><span data-stu-id="0751a-129">Create a new general ledger account for the VAT difference.</span></span> <span data-ttu-id="0751a-130">Det här kontot ska användas för direkt bokföring av momsrättningstransaktion.</span><span class="sxs-lookup"><span data-stu-id="0751a-130">This account will be used for direct posting of the VAT correction.</span></span>  
+2. <span data-ttu-id="0751a-131">Lägg till en ny rad i momsbokföringsinställningen.</span><span class="sxs-lookup"><span data-stu-id="0751a-131">Add a new line to the VAT posting setup.</span></span>  
+
+### <a name="to-create-contract-expiration-dates-in-contract-lines"></a><span data-ttu-id="0751a-132">Så här skapar du utgångsdatum på kontraktsrader</span><span class="sxs-lookup"><span data-stu-id="0751a-132">To create contract expiration dates in contract lines</span></span>  
+<span data-ttu-id="0751a-133">Nedan beskrivs hur du skapar nya kontrakt genom att arbeta med kontaktsutgångsdatum på servicekontraktsrader.</span><span class="sxs-lookup"><span data-stu-id="0751a-133">The following procedure describes how to create new contracts by working with contract expiration dates in service contract lines.</span></span>  
+
+1. <span data-ttu-id="0751a-134">I fönstret **Servicekontrakt** anger du kontraktsutgångsdatumet till **30.06.2017**.</span><span class="sxs-lookup"><span data-stu-id="0751a-134">In the **Service Contract** window, set the contract expiration date to **30.06.2017**.</span></span>  
+2. <span data-ttu-id="0751a-135">Välj åtgärden **Skapa kreditnota** för att automatiskt skapa en kreditnota för juli 2017 till december 2017.</span><span class="sxs-lookup"><span data-stu-id="0751a-135">Choose the **Create Credit Memo** action to automatically create a credit memo for July 2017 to December 2017.</span></span>  
+3. <span data-ttu-id="0751a-136">Eftersom kontraktet har löpt ut, måste du skapa ett nytt kontrakt för perioden med den nya momssatsen för 1 juli 2017 till 31 december 2017.</span><span class="sxs-lookup"><span data-stu-id="0751a-136">Because the contract has expired, you need to create a new contract for the period with the new VAT rate for July 1, 2017 to December 31, 2017.</span></span>  
+
+### <a name="to-create-a-new-credit-memo"></a><span data-ttu-id="0751a-137">Så är skapar du en ny kreditnota</span><span class="sxs-lookup"><span data-stu-id="0751a-137">To create a new credit memo</span></span>  
+<span data-ttu-id="0751a-138">Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta förutbetalda kont.trans.**.</span><span class="sxs-lookup"><span data-stu-id="0751a-138">The following procedure describes how to create a new credit memo using the **Get Prepaid Contract Entries** batch job.</span></span> <span data-ttu-id="0751a-139">Transaktioner som du inte vill korrigera från januari 2017 till juni 2017 kommer att tas bort.</span><span class="sxs-lookup"><span data-stu-id="0751a-139">Entries that you do not want to correct from January 2017 to June 2017 will be deleted.</span></span>  
+
+1. <span data-ttu-id="0751a-140">Kör ändringsverktyget för momssats på 1 juli 2017.</span><span class="sxs-lookup"><span data-stu-id="0751a-140">Run the VAT rate change tool on July 1, 2017.</span></span> <span data-ttu-id="0751a-141">Allmän produktbokföringsmall eller momsproduktbokföringsmallen ändras.</span><span class="sxs-lookup"><span data-stu-id="0751a-141">The general product posting group or the VAT product posting group is changed.</span></span> <span data-ttu-id="0751a-142">För mer information, se [Så här arbetar du med moms för försäljning och inköp](finance-work-with-vat.md).</span><span class="sxs-lookup"><span data-stu-id="0751a-142">For more information, see [Work with VAT on Sales and Purchases](finance-work-with-vat.md).</span></span>  
+2. <span data-ttu-id="0751a-143">När du har kört ändringsverktyget för momssats, anger du ett utgångsdatum för servicekontraktet.</span><span class="sxs-lookup"><span data-stu-id="0751a-143">After running the VAT rate change tool, enter a contract expiration date for the service contract.</span></span> <span data-ttu-id="0751a-144">Nu kan du ta bort servicekontraktsraden och skapa en ny rad som är identisk med den gamla.</span><span class="sxs-lookup"><span data-stu-id="0751a-144">You can now delete the service contract line and create a new line that is identical to the old one.</span></span>  
+3. <span data-ttu-id="0751a-145">Skapa en ny faktura för perioden för januari 2017 till december 2012 med den nya momssatsen.</span><span class="sxs-lookup"><span data-stu-id="0751a-145">Create a new invoice for the period of January 2017 to December 2012 using the new VAT rate.</span></span>  
+4. <span data-ttu-id="0751a-146">Skapa en annan kreditnota genom att, i fönstret **Servicekreditnotor**, välja **Ny** för att skapa en ny servicekreditnota.</span><span class="sxs-lookup"><span data-stu-id="0751a-146">To create another credit memo, in the **Service Credit Memos** window, choose **New** to create a new service credit memo.</span></span>  
+5. <span data-ttu-id="0751a-147">Välj åtgärden **Hämta förutbetalda kont.trans**.</span><span class="sxs-lookup"><span data-stu-id="0751a-147">Choose the **Get Prepaid Contract Entries** action.</span></span>  
+6. <span data-ttu-id="0751a-148">Efter konverteringen rättas moms- och servicetransaktioner.</span><span class="sxs-lookup"><span data-stu-id="0751a-148">After the conversion is complete, VAT and service ledger entries will be correct.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="0751a-149">Se även</span><span class="sxs-lookup"><span data-stu-id="0751a-149">See Also</span></span>  
+[<span data-ttu-id="0751a-150">Så här arbetar du med servicekontrakt och servicekontraktsofferter</span><span class="sxs-lookup"><span data-stu-id="0751a-150">Work with Service Contracts and Service Contract Quotes</span></span>](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[<span data-ttu-id="0751a-151">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="0751a-151">Finance</span></span>](finance.md)  
+[<span data-ttu-id="0751a-152">Rapportera moms till skattemyndigheterna</span><span class="sxs-lookup"><span data-stu-id="0751a-152">Report VAT to Tax Authorities</span></span>](finance-how-report-vat.md)  
+[<span data-ttu-id="0751a-153">Arbeta med moms på försäljning och inköp</span><span class="sxs-lookup"><span data-stu-id="0751a-153">Work with VAT on Sales and Purchases</span></span>](finance-work-with-vat.md)  
+

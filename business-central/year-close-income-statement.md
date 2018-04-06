@@ -1,0 +1,44 @@
+---
+title: Avlsuta resultatkonton | Microsoft Docs
+description: "Vid årsslut måste du köra batch-jobbet Avslut av resultatkonton för att avsluta bokföringsperioder som utgör räkenskapsåret."
+services: project-madeira
+documentationcenter: 
+author: jswymer
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 06/02/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 3cea438b7d3dc1b14baaf76ae1b7ff97195f2191
+ms.contentlocale: sv-se
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="close-income-statement-accounts"></a><span data-ttu-id="8be22-103">Avsluta resultatkonton</span><span class="sxs-lookup"><span data-stu-id="8be22-103">Close Income Statement Accounts</span></span>
+<span data-ttu-id="8be22-104">När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.</span><span class="sxs-lookup"><span data-stu-id="8be22-104">When a fiscal year is over, you must close the periods that comprise it.</span></span> <span data-ttu-id="8be22-105">Använd batch-jobbet **Avslut av resultatkonton** för detta ändamål.</span><span class="sxs-lookup"><span data-stu-id="8be22-105">To do this, you run the **Close Income Statement** batch job.</span></span> <span data-ttu-id="8be22-106">Detta jobb överför årets resultat till ett konto i balansräkningen och avslutar resultatkonton.</span><span class="sxs-lookup"><span data-stu-id="8be22-106">This job transfers the year's result to an account in the balance sheet and closes the income statement accounts.</span></span> <span data-ttu-id="8be22-107">Du gör detta genom att skapa rader i en journal, som du sedan kan bokföra.</span><span class="sxs-lookup"><span data-stu-id="8be22-107">You do this by creating lines in a journal, which you then can post.</span></span>
+
+## <a name="to-run-the-close-income-statement-batch-job"></a><span data-ttu-id="8be22-108">För att använda batch-jobbet Avslut av resultatkonton</span><span class="sxs-lookup"><span data-stu-id="8be22-108">To run the Close Income Statement batch job</span></span>
+1. <span data-ttu-id="8be22-109">Avsluta räkenskapsår.</span><span class="sxs-lookup"><span data-stu-id="8be22-109">Close the fiscal year.</span></span> <span data-ttu-id="8be22-110">Räkenskapsåret måste vara avslutat innan batch-jobbet kan köras.</span><span class="sxs-lookup"><span data-stu-id="8be22-110">The fiscal year must closed before the batch job can be run.</span></span> <span data-ttu-id="8be22-111">Mer information finns i [Så här avslutar du bokföringsperioder](year-close-account-periods.md).</span><span class="sxs-lookup"><span data-stu-id="8be22-111">For more information, see [Close Accounting Periods](year-close-account-periods.md).</span></span>
+2. <span data-ttu-id="8be22-112">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Avslut av resultatkonton** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="8be22-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the related link.</span></span>
+3. <span data-ttu-id="8be22-113">Klicka på **OK** för att köra batchjobbet.</span><span class="sxs-lookup"><span data-stu-id="8be22-113">Choose the **OK** button to run the batch job.</span></span>
+
+## <a name="about-the-close-income-statement-batch-job"></a><span data-ttu-id="8be22-114">Om batch-jobbet Avslut av resultatkonton</span><span class="sxs-lookup"><span data-stu-id="8be22-114">About the Close Income Statement Batch Job</span></span>
+<span data-ttu-id="8be22-115">Batchjobbet bearbetar alla redovisningskonton av typen resultaträkning och skapar transaktioner som upphäver respektive saldo.</span><span class="sxs-lookup"><span data-stu-id="8be22-115">The batch job processes all general accounts of the income statement type and creates entries that cancel out their respective balances.</span></span> <span data-ttu-id="8be22-116">Varje transaktion är summan av alla redovisningstransaktioner på kontot i räkenskapsåret.</span><span class="sxs-lookup"><span data-stu-id="8be22-116">That is, each entry is the sum of all the general ledger entries on the account in the fiscal year.</span></span> <span data-ttu-id="8be22-117">Dessa nya transaktioner placeras i en journal där du måste specificera ett motkonto och ett konto för balanserad vinst eller förlust i balansräkningen innan du bokför.</span><span class="sxs-lookup"><span data-stu-id="8be22-117">These new entries are placed in a journal in which you must specify a balancing account and retained earnings account in the balance sheet before you post.</span></span> <span data-ttu-id="8be22-118">När du bokför journalen bokförs en transaktion på varje resultatkonto så att saldot blir noll och samtidigt överförs årets resultat till balansräkningen.</span><span class="sxs-lookup"><span data-stu-id="8be22-118">When you post the journal, an entry is posted to each income statement account so that its balance becomes zero and at the same time the year's result is transferred to the balance sheet.</span></span>
+
+<span data-ttu-id="8be22-119">Du måste själv bokföra journalen.</span><span class="sxs-lookup"><span data-stu-id="8be22-119">You must post the journal yourself.</span></span> <span data-ttu-id="8be22-120">Transaktionerna bokförs inte automatiskt med batchjobbet utom när en alternativ rapporteringsvaluta används.</span><span class="sxs-lookup"><span data-stu-id="8be22-120">The batch job does not post the entries automatically, except when an additional reporting currency is being used.</span></span> <span data-ttu-id="8be22-121">När en alternativ rapporteringsvaluta används bokförs transaktionerna direkt i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="8be22-121">When an additional reporting currency is being used, the batch job posts entries directly to the general ledger.</span></span>
+
+<span data-ttu-id="8be22-122">Datumet på raderna, som batch-jobbet skriver in i journalen, kommer alltid att vara årets avslutsdatum.</span><span class="sxs-lookup"><span data-stu-id="8be22-122">The date on the lines that the batch job inserts in the journal is always a closing date for the fiscal year.</span></span> <span data-ttu-id="8be22-123">Avslutsdatumet är ett fiktivt datum mellan den sista dagen i räkenskapsåret och den första dagen i följande räkenskapsår.</span><span class="sxs-lookup"><span data-stu-id="8be22-123">The closing date is a fictitious date between the last day of the old fiscal year and the first day of the new year.</span></span> <span data-ttu-id="8be22-124">Fördelen med att bokföra på ett avslutsdatum är att du behåller rätta saldon på räkenskapsårets vanliga datum.</span><span class="sxs-lookup"><span data-stu-id="8be22-124">The advantage of posting on a closing date is that you maintain the correct balances for the ordinary dates of the fiscal year.</span></span>
+
+<span data-ttu-id="8be22-125">Batch-jobbet **Avslut av resultatkonton** kan användas upprepade gånger.</span><span class="sxs-lookup"><span data-stu-id="8be22-125">The **Close Income Statement** batch job can be used several times.</span></span> <span data-ttu-id="8be22-126">Du kan bokföra på föregående räkenskapsår även efter det att resultatkontona har avslutats, om du kör batch-jobbet igen.</span><span class="sxs-lookup"><span data-stu-id="8be22-126">You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the batch job again.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="8be22-127">Se även</span><span class="sxs-lookup"><span data-stu-id="8be22-127">See Also</span></span>
+[<span data-ttu-id="8be22-128">Avsluta böcker</span><span class="sxs-lookup"><span data-stu-id="8be22-128">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="8be22-129">Bokför årsslutstransaktionen</span><span class="sxs-lookup"><span data-stu-id="8be22-129">Post the Year-End Closing Entry</span></span>](year-how-post-year-end-close-entry.md)  
+[<span data-ttu-id="8be22-130">Så här öppnar du ett nytt räkenskapsår:</span><span class="sxs-lookup"><span data-stu-id="8be22-130">Open a New Fiscal Year</span></span>](finance-how-open-new-fiscal-year.md)  
+<span data-ttu-id="8be22-131">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8be22-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

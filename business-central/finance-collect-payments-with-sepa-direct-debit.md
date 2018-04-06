@@ -1,0 +1,45 @@
+---
+title: SEPA-autogiro i Business Central | Microsoft Docs
+description: "Du kan samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet."
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/21/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 557d6411540cc778a8f6810e747d4113fccd8f4c
+ms.contentlocale: sv-se
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="collecting-payments-with-sepa-direct-debit"></a><span data-ttu-id="291b2-103">Samla in betalningar med SEPA-autogiro</span><span class="sxs-lookup"><span data-stu-id="291b2-103">Collecting Payments with SEPA Direct Debit</span></span>
+<span data-ttu-id="291b2-104">Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.</span><span class="sxs-lookup"><span data-stu-id="291b2-104">With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.</span></span>  
+
+ <span data-ttu-id="291b2-105">Först ställer du in exportformat för bankfilen som används av din bank för att utföra en autogiro.</span><span class="sxs-lookup"><span data-stu-id="291b2-105">First, set up the export format of the bank file that instructs your bank to perform a direct debit.</span></span> <span data-ttu-id="291b2-106">Sedan ställer du in kundens betalningsmetod.</span><span class="sxs-lookup"><span data-stu-id="291b2-106">Then, set up the customer’s payment method.</span></span> <span data-ttu-id="291b2-107">Till sist ställ in medgivande för autogiro att återspegla ditt avtal med kunden för att samla in sina betalningar under en viss avtalsperiod.</span><span class="sxs-lookup"><span data-stu-id="291b2-107">Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.</span></span>  
+
+ <span data-ttu-id="291b2-108">För instruktioner till banken för att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto, skapa en autogiroinsamlingpost som innehåller information om bankkonton, de berörda försäljningsfakturorna och medgivande för autogiro.</span><span class="sxs-lookup"><span data-stu-id="291b2-108">To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate.</span></span> <span data-ttu-id="291b2-109">Sedan kan du exportera en XML-fil som baseras på samlingstransaktionen som du skickar till din bank för bearbetning.</span><span class="sxs-lookup"><span data-stu-id="291b2-109">You then export an XML file that is based on the collection entry, which you send to your bank for processing.</span></span> <span data-ttu-id="291b2-110">Alla betalningar som inte kunde behandlas meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.</span><span class="sxs-lookup"><span data-stu-id="291b2-110">Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.</span></span>  
+
+ <span data-ttu-id="291b2-111">Du kan ställa in standardiserade kundförsäljningskoder med metoden för autogirobetalning och obligatorisk information.</span><span class="sxs-lookup"><span data-stu-id="291b2-111">You can set up standard customer sales codes with the direct-debit payment method and mandate information.</span></span> <span data-ttu-id="291b2-112">Du kan sedan använda batch-jobbet **Skapa standard kundfakturor** för att generera flera försäljningsfakturor med direktdebiteringsinformationen ifylld automatiskt.</span><span class="sxs-lookup"><span data-stu-id="291b2-112">You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct-debit information prefilled.</span></span> <span data-ttu-id="291b2-113">Detta kan göras manuellt eller automatiskt enligt betalningens förfallodatum.</span><span class="sxs-lookup"><span data-stu-id="291b2-113">This is can be done manually or automatically, according to the payment due date.</span></span>  
+
+ <span data-ttu-id="291b2-114">När betalningar har behandlas enligt din bank, kan du bokföra betalningsinleveranser antingen direkt från **Transaktioner för samlingar med autogiro** eller genom att flytta betalningsraderna i journalen när du bokför betalningsinleveranser, såsom fönstret **Inbetalningsjournal**.</span><span class="sxs-lookup"><span data-stu-id="291b2-114">When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** window or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="291b2-115">Beroende på processen för hantering av kontanter, kan du också vänta och använda betalningarna som en del av bankavstämning.</span><span class="sxs-lookup"><span data-stu-id="291b2-115">Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="291b2-116">För att samla in betalningar med hjälp av SEPA Autogiro måste valutan på försäljningsfakturan är EURO.</span><span class="sxs-lookup"><span data-stu-id="291b2-116">To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.</span></span>  
+
+ <span data-ttu-id="291b2-117">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="291b2-117">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+
+|<span data-ttu-id="291b2-118">**Om du vill**</span><span class="sxs-lookup"><span data-stu-id="291b2-118">**To**</span></span>|<span data-ttu-id="291b2-119">**Gå till**</span><span class="sxs-lookup"><span data-stu-id="291b2-119">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="291b2-120">Förbered bankkontoformat, betalningssätt och kundavtal för SEPA autogiro.</span><span class="sxs-lookup"><span data-stu-id="291b2-120">Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.</span></span>|[<span data-ttu-id="291b2-121">Konfigurera SEPA autogiro</span><span class="sxs-lookup"><span data-stu-id="291b2-121">Set Up SEPA Direct Debit</span></span>](finance-how-to-set-up-sepa-direct-debit.md)|  
+|<span data-ttu-id="291b2-122">Be din bank att överföra betalningsbeloppen från kunders bankkonton till företagets konto enligt inställningarna för SEPA-autogiro.</span><span class="sxs-lookup"><span data-stu-id="291b2-122">Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.</span></span>|[<span data-ttu-id="291b2-123">Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil</span><span class="sxs-lookup"><span data-stu-id="291b2-123">Create SEPA Direct Debit Collection Entries and Export to a Bank File</span></span>](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|<span data-ttu-id="291b2-124">Ställ in standardiserade kundförsäljningskoder för direktdebetfakturor och generera försäljningsfakturor med direktdebiteringsinformation om fakturorna som har förfallit till betalning.</span><span class="sxs-lookup"><span data-stu-id="291b2-124">Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.</span></span>|[<span data-ttu-id="291b2-125">Skapa återkommande försäljnings- och inköpsrader</span><span class="sxs-lookup"><span data-stu-id="291b2-125">Create Recurring Sales and Purchase Lines</span></span>](sales-how-work-standard-lines.md)|  
+|<span data-ttu-id="291b2-126">Bokföra betalningar som SEPA-autogiro.</span><span class="sxs-lookup"><span data-stu-id="291b2-126">Post payments made as SEPA direct debits.</span></span>|[<span data-ttu-id="291b2-127">Så här bokför du betalningsinleveranser för SEPA Autogiro</span><span class="sxs-lookup"><span data-stu-id="291b2-127">Post SEPA Direct Debit Payment Receipts</span></span>](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+
+## <a name="see-also"></a><span data-ttu-id="291b2-128">Se även</span><span class="sxs-lookup"><span data-stu-id="291b2-128">See Also</span></span>  
+[<span data-ttu-id="291b2-129">Hantera kundreskontra</span><span class="sxs-lookup"><span data-stu-id="291b2-129">Managing Receivables</span></span>](receivables-manage-receivables.md)
+

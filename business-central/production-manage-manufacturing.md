@@ -1,0 +1,55 @@
+---
+title: "Utföra produktion | Microsoft Docs"
+description: "När behov har planerats och material har tagits utt enligt produktionsstrukturerna kan de faktiska produktionsoperationerna inledas och sedan genomföras i den ordning som definieras av verksamhetsföljden för produktionsorder."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 09/26/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c97cdafceb5fbf8df403309dddda0faeac7a26b6
+ms.contentlocale: sv-se
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="manufacturing"></a><span data-ttu-id="788dc-103">Produktion</span><span class="sxs-lookup"><span data-stu-id="788dc-103">Manufacturing</span></span>
+<span data-ttu-id="788dc-104">När behov har planerats och material har tagits utt enligt produktionsstrukturerna kan de faktiska produktionsoperationerna inledas och sedan genomföras i den ordning som definieras av verksamhetsföljden för produktionsorder.</span><span class="sxs-lookup"><span data-stu-id="788dc-104">When demand is planned for and the materials have been issued according to production BOMs, then the actual production operations can start and be executed in the sequence defined by the production order routing.</span></span>  
+
+<span data-ttu-id="788dc-105">En viktig del i att genomföra produktionen, ur systemsynvinkel, är att bokföra produktionsutflöde i databasen för att rapportera förlopp och uppdatera lagret med färdiga artiklar.</span><span class="sxs-lookup"><span data-stu-id="788dc-105">An important part of executing production, from a system point of view, is to post production output to the database to report progress and to update inventory with the finished items.</span></span> <span data-ttu-id="788dc-106">Du kan bokföra utflöde manuellt genom att fylla i och bokföra journalrader efter produktionsoperationerna.</span><span class="sxs-lookup"><span data-stu-id="788dc-106">Output posting can be done manually, by filling and posting journal lines after production operations.</span></span> <span data-ttu-id="788dc-107">Du kan också göra det automatiskt genom bokföra framåt.</span><span class="sxs-lookup"><span data-stu-id="788dc-107">Or, it can be done automatically with the use of backward flushing.</span></span> <span data-ttu-id="788dc-108">I så fall bokförs materialförbrukning automatiskt tillsammans med utflödet när produktionsordern ändras eller slutförs.</span><span class="sxs-lookup"><span data-stu-id="788dc-108">In that case material consumption is automatically posted along with output when the production order changes to finished.</span></span>  
+
+<span data-ttu-id="788dc-109">I stället för att använda batch-journalen för utflödesbokföring för flera produktionsorder, kan du använda fönstret **Produktionsjournal** när du bokför förbrukning och/eller utflöde för en produktionsorderrad.</span><span class="sxs-lookup"><span data-stu-id="788dc-109">As an alternative to the batch journal for output posting for multiple production orders, you can use the **Production Journal** window to post consumption and/or output for one production order line.</span></span>
+
+<span data-ttu-id="788dc-110">Innan du kan skapa artiklar måste du göra olika inställningar, till exempel för produktionsgrupper, verksamhetsföljder och produktionsstrukturer.</span><span class="sxs-lookup"><span data-stu-id="788dc-110">Before you can begin to produce items, you must make various setup, such as work centers, routings, and production BOMs.</span></span> <span data-ttu-id="788dc-111">Mer information finns i [Konfigurera tillverkning](production-configure-production-processes.md).</span><span class="sxs-lookup"><span data-stu-id="788dc-111">For more information, see [Setting Up Manufacturing](production-configure-production-processes.md).</span></span>
+
+<span data-ttu-id="788dc-112">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="788dc-112">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+
+|<span data-ttu-id="788dc-113">**Om du vill**</span><span class="sxs-lookup"><span data-stu-id="788dc-113">**To**</span></span>|<span data-ttu-id="788dc-114">**Gå till**</span><span class="sxs-lookup"><span data-stu-id="788dc-114">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="788dc-115">Förstå hur produktionsorder fungerar.</span><span class="sxs-lookup"><span data-stu-id="788dc-115">Understand how production orders work.</span></span>|[<span data-ttu-id="788dc-116">Om produktionsorder</span><span class="sxs-lookup"><span data-stu-id="788dc-116">About Production Orders</span></span>](production-about-production-orders.md)|
+|<span data-ttu-id="788dc-117">Skapa produktionsorder manuellt.</span><span class="sxs-lookup"><span data-stu-id="788dc-117">Create production orders manually.</span></span>|[<span data-ttu-id="788dc-118">Skapa produktionsorder</span><span class="sxs-lookup"><span data-stu-id="788dc-118">Create Production Orders</span></span>](production-how-to-create-production-orders.md)|
+|<span data-ttu-id="788dc-119">Lägga ut alla eller valda operationer i en produktionsorder på en underleverantör.</span><span class="sxs-lookup"><span data-stu-id="788dc-119">Outsource all or selected operations in a production order to a subcontractor.</span></span>|[<span data-ttu-id="788dc-120">Lägga ut legotillverkning för produktion</span><span class="sxs-lookup"><span data-stu-id="788dc-120">Subcontract Manufacturing</span></span>](production-how-to-subcontract-manufacturing.md)|
+|<span data-ttu-id="788dc-121">Registrera och bokföra produktionsutflödet, tillsammans med material- och tidsförbrukningen, för en enskild släppt produktionsorderrad.</span><span class="sxs-lookup"><span data-stu-id="788dc-121">Record and post production output along with material and time consumption for a single released production order line.</span></span>|[<span data-ttu-id="788dc-122">Bokför förbrukning och utflöde för en utsläppt produktionsorderrad</span><span class="sxs-lookup"><span data-stu-id="788dc-122">Post Consumption and Output for One Released Production Order Line</span></span>](production-how-to-register-consumption-and-output.md)|  
+|<span data-ttu-id="788dc-123">Batch-bokföra komponentkvantiteten som används per operation i en journal som kan behandla flera planerade produktionsorder.</span><span class="sxs-lookup"><span data-stu-id="788dc-123">Batch post the quantity of components used per operation in a journal that can processes multiple planned production orders.</span></span>|[<span data-ttu-id="788dc-124">Batch-bokför förbrukning</span><span class="sxs-lookup"><span data-stu-id="788dc-124">Batch Post Consumption</span></span>](production-how-to-post-consumption.md)|
+|<span data-ttu-id="788dc-125">Bokför kvantiteten för färdiga artiklar och tiden som spenderats per operation i en journal som kan behandla flera släppta produktionsorder.</span><span class="sxs-lookup"><span data-stu-id="788dc-125">Post the quantity of finished items and the time spent per operation in a journal that can processes multiple released production orders.</span></span>|[<span data-ttu-id="788dc-126">Batch-bokför utflöde och körtider</span><span class="sxs-lookup"><span data-stu-id="788dc-126">Batch Post Output and Run Times</span></span>](production-how-to-post-output-quantity.md)|  
+|<span data-ttu-id="788dc-127">Bokföra det antal artiklar som producerats i varje slutförd operation, men som inte räknas som färdigt utflöde utan som kasserat material.</span><span class="sxs-lookup"><span data-stu-id="788dc-127">Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.</span></span>|[<span data-ttu-id="788dc-128">Bokför kassation</span><span class="sxs-lookup"><span data-stu-id="788dc-128">Post Scrap</span></span>](production-how-to-post-scrap.md)|
+|<span data-ttu-id="788dc-129">Visa beläggningen på fabriken till följd av planerade och släppta produktionsorder.</span><span class="sxs-lookup"><span data-stu-id="788dc-129">View the shop floor load as a result of planned and released production orders.</span></span>|[<span data-ttu-id="788dc-130">Visa beläggning på produktions- och maskingrupper</span><span class="sxs-lookup"><span data-stu-id="788dc-130">View the Load in Work and Machine Centers</span></span>](production-how-to-view-the-load-on-work-centers.md)|      
+|<span data-ttu-id="788dc-131">Använda fönstret **Kapacitetsjournal** för att bokföra förbrukade kapaciteter som inte tilldelats en produktionsorder, till exempel underhållsarbete.</span><span class="sxs-lookup"><span data-stu-id="788dc-131">Use the **Capacity Journal** window to post consumed capacities that are not assigned to a production order, such as maintenance work.</span></span>|[<span data-ttu-id="788dc-132">Bokför kapaciteter</span><span class="sxs-lookup"><span data-stu-id="788dc-132">Post Capacities</span></span>](production-how-to-post-capacities.md)|  
+|<span data-ttu-id="788dc-133">Beräkna och justera kostnaden för färdiga produktionsartiklar och förbrukade komponenter för avstämning.</span><span class="sxs-lookup"><span data-stu-id="788dc-133">Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.</span></span>|[<span data-ttu-id="788dc-134">Om kostnader för färdiga produktionsorder</span><span class="sxs-lookup"><span data-stu-id="788dc-134">About Finished Production Order Costs</span></span>](finance-about-finished-production-order-costs.md)|  
+
+## <a name="see-also"></a><span data-ttu-id="788dc-135">Se även</span><span class="sxs-lookup"><span data-stu-id="788dc-135">See Also</span></span>  
+[<span data-ttu-id="788dc-136">Ställa in Produktion</span><span class="sxs-lookup"><span data-stu-id="788dc-136">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="788dc-137">[Planerad](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="788dc-137">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="788dc-138">Lagersaldo</span><span class="sxs-lookup"><span data-stu-id="788dc-138">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="788dc-139">Inköp</span><span class="sxs-lookup"><span data-stu-id="788dc-139">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="788dc-140">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="788dc-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+
