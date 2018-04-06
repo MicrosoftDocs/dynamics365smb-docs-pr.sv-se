@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -52,7 +52,7 @@ För momsreturen kan du ange transaktionerna som ska inkluderas:
 * Skicka bara transaktioner i de angivna perioderna, eller inkludera också transaktioner från tidigare perioder. Detta är användbart när du uppdaterar en momsretur som du har redan skickat, till exempel om en leverantör skickar en faktura för sent.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Ansluta till webbtjänsten för lokal skattemyndighet
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  ger tjänstanslutningar som ansluter till skattemyndighetens webbplatser. Till exempel om du befinner dig i Storbritannien kan du aktivera serviceanslutningen **GovTalk** för att skicka rapporterna EU-försäljningslista och momsreturen elektroniskt. Om du vill skicka rapporten manuellt, till exempel genom att ange data på skattemyndighetens webbplats krävs inte detta.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ger tjänstanslutningar som ansluter till skattemyndighetens webbplatser. Till exempel om du befinner dig i Storbritannien kan du aktivera serviceanslutningen **GovTalk** för att skicka rapporterna EU-försäljningslista och momsreturen elektroniskt. Om du vill skicka rapporten manuellt, till exempel genom att ange data på skattemyndighetens webbplats krävs inte detta.   
 
 Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] till den skattemyndighetens webbplats. Detta kräver att du upprättar ett konto med skattemyndigheten. Om du har ett konto kan du aktivera en service-anslutning som finns i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
 4. När du validerar och förbereder rapporten för att skicka den, välj åtgärden **Frisläpp**.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
 5. Om du vill skicka rapporten, väljer du åtgärden **skicka**.  
 
 När du skickar rapporten, övervakar [!INCLUDE[d365fin](includes/d365fin_md.md)] tjänsten och håller reda på dina meddelanden. Fältet **Status** indikerar var rapporten finns i processen. Till exempel när myndigheterna bearbetar rapporten, ändras rapportens status till **lyckades**. Om fel hittas i rapporten som du har skickat in till skattemyndigheten visar status för rapporten **misslyckad**. Du kan visa fel under **fel och varningar**, rätta till dem och sedan skicka rapporten igen. Om du vill visa en lista över alla EG-försäljningslisterapporter, går du till sidan **EG försäljningsrapporter**.  

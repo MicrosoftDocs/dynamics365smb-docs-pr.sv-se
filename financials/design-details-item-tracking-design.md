@@ -14,10 +14,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 05a08fff7b3897a528f84dedd6da67cdbd2cd798
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetaljer: Artikelspårningsdesign
+# <a name="design-details-item-tracking-design"></a>Designdetaljer: Artikelkopplingsdesign
 I den första versionen av artikelspårning i [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 registrerades serienummer eller partinummer direkt i artikeltransaktioner. Designen gav fullständig tillgänglighetsinformation och enkel spårning av historiska transaktioner, men den saknade flexibilitet och funktioner.  
 
 Från [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00 där artikelspårningsfunktion fanns i en separat objektstruktur med invecklade länkar till bokförda dokument och artikeltransaktioner. Design var flexibel och rik på funktioner, men artikelspårningstransaktioner var ingick inte helt i dispositionsberäkningarna.  
@@ -44,5 +44,5 @@ Kodenhet 22, **Artikeljournal – bokför rad**, delar nu bokföringen enligt de
 Mer information finns i [Designdetaljer: Bokföringsstruktur för artikelspårning](design-details-item-tracking-posting-structure.md).  
 
 ## <a name="see-also"></a>Se även  
-[Designdetaljer: Artikelspårning](design-details-item-tracking.md)
+[Designdetaljer: Artikelkoppling](design-details-item-tracking.md)
 

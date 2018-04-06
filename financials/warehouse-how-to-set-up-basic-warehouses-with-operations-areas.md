@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 31f057f862b72cd21ecb2c1fb59674c6485a960d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Ställa in grundläggande dist.lager med verksamhetsområden
@@ -66,7 +66,7 @@ Diagrammet visar hur **Lagerplatskod** på produktionsorderkomponentraderna fyll
 ![Flödesschema för lagerplats](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Så här definierar du en standardlagerplatsstruktur i monteringsområdet
-Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Använda istället fönstret **Lagertransport**. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Med **lagerförflyttning** fönstret. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Om plockning- och leveransförsäljningsradantal läggs till i order ska du följa vissa regler när du skapar lagerplockningsraderna. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder i lagerplockningar” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
 

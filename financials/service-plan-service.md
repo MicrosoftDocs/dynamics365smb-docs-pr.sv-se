@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Planera service
 Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
   
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
   

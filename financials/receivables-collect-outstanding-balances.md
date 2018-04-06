@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 310cad43853f347ac7ab74e186edd82e7c54727e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
@@ -39,7 +39,7 @@ Om en kund inte har betalat på förfallodatumet kan du låta beräkna dröjsmå
 > [!NOTE]  
 > Du använder räntefakturor för att beräkna dröjsmålsränta och informera dina kunder om dröjsmålsräntor utan att påminna dem om förfallna betalningar. Ett alternativ är att du i stället beräknar ränta på förfallna betalningar när du skapar betalningspåminnelser.  
 
-Du kan manuellt skapa en räntefaktura för en enskild kund och fylla i raderna automatiskt. Som alternativ kan du använda funktionsjobbet **Skapa räntefakturor** för att skapa räntefakturor för alla eller valda kunder med förfallna betalningar.  
+Du kan manuellt skapa en räntefaktura för en enskild kund och fylla i raderna automatiskt. Som Alternativt kan du använda funktionsjobbet **Skapa räntefakturor** för att skapa räntefakturor för alla eller valda kunder med förfallna betalningar.  
 
 När du skapat räntefakturorna kan du ändra dem. Texten som visas i början och i slutet av räntefakturan bestäms av räntevillkoren och visas i kolumnen **Beskrivning** på raderna. Om ett beräknat belopp har infogats automatiskt i den inledande eller avslutande texten justeras inte texten om du tar bort rader. Då måste du använda funktionen **Uppdatera räntefakturatext**.  
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-a-production-forecast"></a>Skapa en produktionsprognos
@@ -55,7 +55,7 @@ Detta kan anges i produktionsinställningarna. Observera dock att den övergripa
 
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **produktionsprognos** och välj sedan relaterad länk.  
 2.  Gå till snabbfliken **Allmänt** och markera fältet **Produktionsprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
-3.  Gå till fältet **Lagerställefilter**och markera den plats som den här prognosen ska gälla för.  
+3.  Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.  
 4.  Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska produktionsprognostransaktionerna.  
 5.  Ange ett **datumfilter** om du vill begränsa mängden information som visas.  
 6.  Gå till snabbfliken **Matris för produktionsprognos** och ange prognosantalet för **Försäljningsartikel** eller **Komponent** för olika perioder.  

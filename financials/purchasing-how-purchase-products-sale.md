@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Köpa artiklar för en försäljning
@@ -29,7 +29,7 @@ Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvan
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Så här skapar du inköpsorder för en eller flera serviceorder från en försäljningsorder
 Om du vill skapa en inköpsorder för varje artikelkvantitet som inte är tillgängliga på försäljningsordern, använd funktion **skapa inköpsorder**.
 
-1. Välj panelen **Pågående försäljningsorder** på startsidan.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
 2. Öppna en försäljningsorder som du vill köpa in artiklar för.
 3. Välj åtgärden **Skapa inköpsorder**.
 
@@ -52,7 +52,7 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 > [!NOTE]  
 >   Den här funktionen skapar en inköpsfaktura för antalet exakt i det valda försäljningsdokumentet. Om du vill ändra antalet inköp, måste du redigera journalen skapas.  
 
-1. Välj panelen **Pågående försäljningsfakturor** på startsidan.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
 2. Öppna en försäljningfaktura som du vill köpa in artiklar för.
 3. Markera en eller flera försäljningsfakturarader som du vill använda i inköpsfakturan. För att använda alla försäljningsfakturarader väljer du antingen all rader eller inga rader alls.
 4. Välj åtgärden **Skapa inköpsfaktura**.

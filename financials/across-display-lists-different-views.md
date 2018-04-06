@@ -16,10 +16,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f3ba7676ec2312c78b9d3cc7883f79db936cb2d7
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="displaying-lists-in-different-ways"></a>Visar listor på olika sätt
+# <a name="displaying-lists-in-different-ways"></a>Visa listor på olika sätt
 I högra hörnet i en lista i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta en ikon som gör att du kan växla vy i listan. En lista kan visas som en detaljerad lista, vilket är standardvyn. Men du kan även koppla till en panelvy, som kommer att visa mindre detaljer om den aktuella transaktionen och staplar transaktionerna som paneler. Den här vyn är mycket användbar för att få en översikt över flera transaktioner och är i synnerhet användbar i mindre enheter, eftersom varje transaktion är enklare att klicka på.
 
 ## <a name="items-list"></a>Artikellista

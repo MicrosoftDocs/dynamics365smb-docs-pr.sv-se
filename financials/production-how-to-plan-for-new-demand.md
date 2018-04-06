@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planera ny behovsorder efter order
@@ -27,7 +27,7 @@ Du kan gå till fönstret **Orderplanering** på två sätt beroende på vad dit
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Så här planerar du för ett nytt produktionsorderbehov  
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planerade produktionsorder** och välj sedan relaterad länk. (Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder).
-2.  Öppna produktionsordern som du vill planera för och välj sedan den **Planering** åtgärd.  
+2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  I fönstret **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.  
 
 I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs komponentrader med ouppfyllda behov från alla befintliga produktionsorder. Behov för endast en produktionsorder visas inte eftersom det är nödvändigt att planera för en produktionsorder med en översikt över behoven för möjliga tidigare komponentrader. Planeringsraderna för produktionsorder som du öppnade fönstret från expanderas.  
@@ -86,7 +86,7 @@ I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, d
 
 ## <a name="to-make-supply-orders"></a>Så här skapar du leveransorder  
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planerade produktionsorder** och välj sedan relaterad länk. Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder.  
-2.  Öppna produktionsordern som du vill planera för och välj sedan den **Planering** åtgärd.  
+2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  Placera markören på en planeringsrad och klicka på åtgärder **Skapa order**.  
 4.  I fönstret **Skapa leveransorder** på snabbfliken **Orderplanering** , i fältet **Skapa order för**, markera ett av följande alternativ.  
 
@@ -96,12 +96,12 @@ I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, d
     |**den aktiva ordern**|Skapa en leveransorder för alla rader i ordern där markören finns.|  
     |**Alla rader**|Skapa leveransorder för alla rader i fönstret **Orderplanering**.|  
 
-5.  På snabbfliken **Alternativ** anger du vilken typ av leveransorder, eller inköpsförslagsrader, som ska skapas.  
+5.  På snabbfliken **Alternativ** anger du vilken typ av leveransorder, eller inköpskalkylarksrader, som ska skapas.  
 
     > [!NOTE]  
     >  De inställningar som du gör i fönstret **Skapa leveransorder** sparas under ditt användar-ID, och de visas igen nästa gång du öppnar fönstret.  
 
-6.  Klicka på **OK** när du vill skapa angivna leveransorder eller inköpsförslagsrader.  
+6.  Klicka på **OK** när du vill skapa angivna leveransorder eller inköpskalkylarksrader.  
 
 Nu har du planerat för de ouppfyllda behoven genom att skapa motsvarande leveransorder. Exakt hur du ska arbeta med fönstret **Orderplanering** beror på vad som gäller i just ditt företag.  
 

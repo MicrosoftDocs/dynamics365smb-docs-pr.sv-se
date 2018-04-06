@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
@@ -45,7 +45,7 @@ En Word-rapportlayout är baserad på Word-dokument (filtypen .docx). Word-rappo
 RDLC-layouter baseras på layouter för klientrapportdefinition (.rdlc- eller .rdl-filtyper). Dessa layouter skapas och ändras genom att använda SQL Server Report Builder. Designbegreppet för RDLC-layouter liknar Word-layouter, där layouten definierar det allmänna formatet på rapporten och bestämmer vilka fält från datauppsättningen som ska inkluderas. Att utforma RDLC-layouter är mer avancerat än Word-layouter. Mer information finns i [Designa RDLC rapportlayouter](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Inbyggda och anpassade rapportlayouter
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  innehåller flera inbyggda layouter. Inbyggda layouter är fördefinierade layouter som har utformats för särskilda rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporter ska ha en inbyggd layout som antingen en RDLC-rapportlayout, Word-rapportlayout eller i vissa fall både och. Du kan inte ändra en inbyggd rapportlayout från [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, men du kan använda dem som utgångspunkt för att skapa egna anpassade rapportlayouter.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller flera inbyggda layouter. Inbyggda layouter är fördefinierade layouter som har utformats för särskilda rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporter ska ha en inbyggd layout som antingen en RDLC-rapportlayout, Word-rapportlayout eller i vissa fall både och. Du kan inte ändra en inbyggd rapportlayout från [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, men du kan använda dem som utgångspunkt för att skapa egna anpassade rapportlayouter.
 
 Anpassa layouter är rapportlayouter som du designar för att ändra utseendet på en rapport. Du skapar vanligtvis en anpassad layout baserad på en inbyggd layouten, men du kan skapa dem från noll eller från en kopia av en befintligt anpassad layout. Anpassa layouter göra att du kan ha flera layouter för samma rapport som du kan växla mellan när det behövs. Du kan till exempel ha olika layouter för varje [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag, eller så kan du ha olika layouter för samma företag för vissa tillfällen eller händelser, som en viss kampanj eller semesterperiod.
 

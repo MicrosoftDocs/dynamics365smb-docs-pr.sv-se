@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 61ee0eaccea5bfb3511537d825b2a0cb8948dee8
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Så här skapar du interaktioner på kontakter och segment
@@ -35,10 +35,10 @@ Innan du skapar interaktioner måste du lägga upp interaktionsmallar. Mer infor
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Så här slutför du och tar bort senarelagda åtgärder
 1. Öppna kontakten, säljaren eller interaktionsloggtransaktionen.
 2. Välj **Senarelagda interaktioner**.
-3. Markera den åtgärd som du vill slutföra och klicka på **Åtgärder**, Fortsätt.
+3. Markera den åtgärd som du vill slutföra och klicka på åtgärden **Fortsätt**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Så här skapar du interaktioner för segment
-1. På startsidan väljer du **Aktiva segment** eller väljer ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Söka efter sida eller rapport") anger **Segment**, och sedan väljer relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.
 2. I fönstret **Segment**, i avsnittet **Interaktion**, fyller du i fälten för att specificera vilken interaktion som du vill tilldela segmentet.
 
     När du har tilldelat segmentet en interaktion kan du anpassa interaktionen till respektive kontakt i segmentet, exempelvis genom att välja en annan interaktionsmall på raderna i fönstret **Segment**.  

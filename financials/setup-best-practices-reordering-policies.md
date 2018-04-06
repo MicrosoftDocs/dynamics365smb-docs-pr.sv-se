@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0041dcd1e1c7b4eda2d000c8c387bc8b751d4212
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
@@ -50,6 +50,6 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
  [Designdetaljer: Parti-för-parti](design-details-lot-for-lot.md)   
  [Designdetaljer: Fast orderkvantitet](design-details-fixed-reorder-qty.md)   
  [Designdetaljer: Maximalt antal](design-details-maximum-qty.md)   
- [Skapa komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)  
+ [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

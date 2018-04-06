@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
@@ -36,7 +36,7 @@ För försäljningsorder, inköpsreturorder och ingående överföringsorder och
 
     För produktionsorder skapar du distributionslagerkravet genom att skapa ett ankommande krav från den släppta produktionsordern.  
 3.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppta produktionsorder** och välj sedan relaterad länk.  
-4. Välj åtgärden **Skapa ankommande dist.lagerförslag**.  
+4. Välj åtgärden **Skapa ankommande dist.lagerkalkylark**.  
 
 > [!NOTE]  
 >  Du kan också skapa ankommande distributionslagerkrav genom att markera kryssrutan **Skapa ankommande begäran** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  

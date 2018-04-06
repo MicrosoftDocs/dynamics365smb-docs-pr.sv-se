@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Hantera Leverantörsreskontra
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  har vad du behöver för att effektivt hantera leverantörsreskontra.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har vad du behöver för att effektivt hantera leverantörsreskontra.  
 
 ## <a name="payments"></a>Betalningar
 Det är enkelt att prioritera betalningar, beräkna avgifter för förfallna betalningar och hantera rabatter för tidiga betalningar.
@@ -32,10 +32,10 @@ Du kan registrera betalningar i en redovisningsjournal och sedan skriva ut check
 Du kan koppla en betalning för att stänga fakturan när du bokför betalningen eller när du har bokfört den. Den **Avräkningsmetod** som anges för leverantören (på **leverantörskortet**) bestämmer om du måste göra en manuell betalning eller om det görs automatiskt. Du kan alltid koppla transaktioner manuellt. Om avräkningsmetoden för leverantören är **Koppla till äldsta faktura** och du inte anger ett dokument som betalningen ska kopplas till, kopplas den emellertid till den äldsta öppna transaktionen för leverantören.
 
 ## <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  används för att ta fram olika betalningsförslag, t.ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Du kan ange att belopp som specificerats som tillgängliga betalningsmedel och berättigade kassarabatter ska beaktas i betalningsförslaget.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] används för att ta fram olika betalningsförslag, t.ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Du kan ange att belopp som specificerats som tillgängliga betalningsmedel och berättigade kassarabatter ska beaktas i betalningsförslaget.
 
 ## <a name="issue-checks"></a>Utfärda checkar
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  låter dig utfärda checkar till leverantörer elektroniskt och manuellt. Du kan utföra båda i fönstret **betalningsjournaler**, där du kan även makulera checkar och granska checktransaktioner.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] låter dig utfärda checkar till leverantörer elektroniskt och manuellt. Du kan utföra båda i fönstret **betalningsjournaler**, där du kan även makulera checkar och granska checktransaktioner.
 
 ## <a name="export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
 När du är redo att göra betalningar till leverantörer med hjälp av fönstret **Betalningsjournal**, kan du exportera en fil med betalningsinformation från journalraderna. Du kan sedan överföra filen till den elektroniska banken att bearbeta pengaöverföringar.

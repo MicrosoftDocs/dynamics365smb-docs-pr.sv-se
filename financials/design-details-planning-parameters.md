@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 335063984ab5d8ef1cbc9187352aa12287f6ade0
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
@@ -35,7 +35,7 @@ Det sätt som planeringssystemet styr artikeltillgång bestäms av olika instäl
 För att ta med en artikel/lagerställeenhet i planeringsprocessen måste den ha en partiformningsmetod, annars måste den planeras manuellt, till exempel funktionen med Orderplanering.  
 
 ## <a name="define-when-to-reorder"></a>Definiera när du ska beställa  
-Beställningsförslag släpps allmänt endast när den planerade tillgängliga kvantiteten har fallit till eller under ett visst antal. Antalet definieras av beställningspunkten. Annars kommer det att vara noll. Noll kan justeras genom att ange ett säkerhetslager. Om användaren har definierat en säkerhetsledtid kommer den att orsaka förslaget ska levereras under perioden för det förfallodatum som krävs.  
+Beställningsförslag släpps allmänt endast när den planerade tillgängliga kvantiteten har fallit till eller under ett visst antal. Antalet definieras av beställningspunkten. Annars kommer det att vara noll. Noll kan justeras genom att ange ett säkerhetslager. Om användaren har definierat en säkerhetsledtid kommer den att orsaka kalkylarket ska levereras under perioden för det förfallodatum som krävs.  
 
 Fältet **Tidsenhet** används i partiformningsmetoder (**Fast orderkvantitet** och **Maximalt antal**), där lagernivån kontrolleras efter varje tidsenhet. Den första tidsenheten börjar på planeringsstartdatumet.  
 
@@ -51,10 +51,10 @@ Om planeringssystemet identifierar behovet att beställa om används den angivna
 
 Oberoende av partiformningsmetoden följer planeringssystemet vanligtvis den här logiken:  
 
-1. Antalet i orderförslaget beräknas av för att uppfylla den angivna lägsta lagernivån för artikeln, vanligtvis säkerhetslagret. Om inget har angetts är den minsta lagernivån noll.  
+1. Antalet i orderkalkylarket beräknas av för att uppfylla den angivna lägsta lagernivån för artikeln, vanligtvis säkerhetslagret. Om inget har angetts är den minsta lagernivån noll.  
 2. Om det planerade tillgängliga lagret är lägre än säkerhetslagret föreslås bakåtplanerad leveransorder. Partistorlek fyller minst säkerhetslagret och kan ökas med icke-härledd efterfrågan inom tidsenheten genom partiformningsmetoden och per ordermodifierarna.  
 3. Om det planerade lagret är på eller under beställningspunkten (som beräknas från ackumulerade ändringar inom tidsenheten) och över säkerhetslagrets antal, föreslås en framåtplanerad undantagsorder. Både bruttobehovet som ska uppfyllas och partiformningsmetoden fastställer partistorleken. Orderantalet uppfyller minst orderpunkten.  
-4. Om det finns mer bruttobehov som förfaller före slutdatumet för det framåtplanerade orderförslaget, och det här behovet gör att det aktuella beräknade planerade tillgängliga lagret hamnar lägre än säkerhetslagret, ökas partistorleken för att fylla upp underskottet. Leveransorderförslaget schemaläggs sedan bakåt från förfallodatumet för den icke-härledda efterfrågan som skulle ha överskridit säkerhetslagret.  
+4. Om det finns mer bruttobehov som förfaller före slutdatumet för det framåtplanerade orderkalkylarket, och det här behovet gör att det aktuella beräknade planerade tillgängliga lagret hamnar lägre än säkerhetslagret, ökas partistorleken för att fylla upp underskottet. Leveransorderkalkylarket schemaläggs sedan bakåt från förfallodatumet för den icke-härledda efterfrågan som skulle ha överskridit säkerhetslagret.  
 5. Om fältet **Tidsenhet** inte är ifyllt kommer bara bruttoefterfrågan på samma förfallodatum att läggas till.  
 
      Ytterligare periodfält för beställningscykel spellar också en roll när man definierar hur mycket som ska beställa om: **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**. Mer information finns i avsnittet "Optimera när och hur mycket som ska beställas".  
@@ -103,7 +103,7 @@ I följande exempel representerar de svarta pilarna befintlig tillgång (upp) oc
 **Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** i fönstret **Produktionsinställningar**.  
 
 ## <a name="modify-the-supply-orders"></a>Ändra leveransorder  
-När orderförslagets antal har beräknats kan en eller flera av ordermodifierarna kan justera det. Till exempel är den maximal partistorlek större än eller lika med det lägsta partistorlek, som är större än eller lika med ordermultipeln.  
+När orderkalkylarkets antal har beräknats kan en eller flera av ordermodifierarna kan justera det. Till exempel är den maximal partistorlek större än eller lika med det lägsta partistorlek, som är större än eller lika med ordermultipeln.  
 
 Antalet minskas om det överskrider den maximal partistorleken. Sedan ökas den om den är nedanför den lägsta partistorleken. Slutligen avrundas den så att den motsvarar en viss partistorleksmultipel. Alla återstående antal använder samma justeringar tills den totala efterfrågan konverterats till orderförslag.  
 

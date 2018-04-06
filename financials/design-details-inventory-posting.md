@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
@@ -27,7 +27,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 |Antal|Återspeglar förändringen av antalet i lager. Informationen lagras som artikeltransaktioner.<br /><br /> Tillsammans med artikelkopplingstransaktioner.|  
 |Värde|Återspeglar förändringen av lagervärdet. Informationen lagras som värdetransaktioner.<br /><br /> Det kan finnas en eller flera värdetransaktioner för varje artikeltransaktion eller kapacitetstransaktion.<br /><br /> Se [Designdetaljer: Bokföring av produktionsorder](design-details-production-order-posting.md) för information om kapacitetvärdetransaktioner som rör användningen av produktions- eller monteringsresurser.|  
 
- I relation till antalsbokföringar finns artikelkopplingstransaktioner för att koppla lagerökning till lagerminskning. Det gör det möjligt för värderingsmotorn att flytta kostnader framåt från ökningar till de relaterade minskningarna och vice versa. Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-application.md).  
+ I relation till antalsbokföringar finns artikelkopplingstransaktioner för att koppla lagerökning till lagerminskning. Det gör det möjligt för värderingsmotorn att flytta kostnader framåt från ökningar till de relaterade minskningarna och vice versa. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md).  
 
  Artikeltransaktioner, värdetransaktioner och artikelkopplingstransaktioner skapas som ett resultat av att bokföra en artikeljournalrad, antingen indirekt genom att bokföra en orderrad eller direkt i fönstret Artikeljournal.  
 
@@ -75,7 +75,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
  **Kopplingstransaktioner för artikel**  
 
-|Löpnr|Artikeltrans.löpnr|Internt artikeltrans.nr|Externt artikeltrans.nr|Antal|  
+|Löpnr|Artikeltrans.löpnr|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |2|2|1|2|-10|  
 

@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Hantera kunder och försäljningsorder som har skapats i Dynamics 365 for Sales
@@ -76,7 +76,14 @@ I slutet av den assisterade konfigurationsguiden kan du välja åtgärden **kör
 
 Om du vill kontrollera förloppet för enskilda projekt i en fullständig synkronisering, öka detaljnivån i fältet **Transaktionsstatus för jobbkö**, eller **Från projektstatus för int. tabell**, eller **CRM fullständig synk.granskning** i fönstret **CRM fullständig synk.granskning**.
 
-Via fönstret **Konfigurera anslutning till Dynamics 365 for Sales** kan du när som helst få information om fullständig synkronisering. Här kan du också öppna fönstret **Tabellmappningar för integrering** för att visa detaljerad information om tabeller i Finance and Operations, Business edition och i den Dynamics 365 for Sales-lösning som måste synkroniseras.
+Via fönstret **Konfigurera anslutning till Dynamics 365 for Sales** kan du när som helst få information om fullständig synkronisering. Här kan du också öppna fönstret **Tabellmappningar för integrering** för att visa detaljerad information om tabeller i Finance and Operations, Business edition och i den Dynamics 365 for Sales-lösning som måste synkroniseras.  
+
+## <a name="handling-special-sales-order-data"></a>Hantering av speciella försäljningsorderdata
+Försäljningsorder i Dynamics 365 for Sales kommer att överföras till [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt om du markerar kryssrutan **Automatiskt skapa försäljningsorder** i fönstret **Konfigurera anslutning till Microsoft Dynamics 365 for Sales**. På sådana försäljningsorder överförs fältet **Namn** på den ursprungliga ordern och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Detta fungerar även om den ursprungliga försäljningsordern innehåller produkter som ej är i register vilket avser artiklar eller resurser som inte är registrerade hos någon produkt. I så fall måste du fylla i fälten **Produkttyp ej i register** och **Produktnr ej i register** i fönstret **Försäljningsinställningar** så att denna oregistrerade produktförsäljning mappas till ett angivet artikel-/resursnummer för ekonomisk analys.
+
+Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omfattande, skapas en ytterligare försäljningsorderrad av typen Kommentar för att hålla hela texten på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se även
 [Kundhantering](marketing-relationship-management.md)  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
@@ -27,7 +27,7 @@ Avskrivning används för att fördela kostnaden för anläggningstillgångar, s
 * Automatiskt genom att köra batch-jobbet **Beräkna avskrivning**.  
 * Manuellt genom att använda fältet anl.tillg. redovisningsjournal.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan beräkna daglig avskrivning, vilket innebär att du kan beräkna avskrivning för vilken period som helst. Du kan därmed analysera aktuella operativa resultat på exempelvis månads-, kvartals- eller årsbasis. Beräkningen används ett standardår på 360 dagar och en standardmånad på 30 dagar. Mer information finns i [Avskrivningsmetoder](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kan beräkna daglig avskrivning, vilket innebär att du kan beräkna avskrivning för vilken period som helst. Du kan därmed analysera aktuella operativa resultat på exempelvis månads-, kvartals- eller årsbasis. Beräkningen används ett standardår på 360 dagar och en standardmånad på 30 dagar. Mer information finns i [Avskrivningsmetoder](fa-depreciation-methods.md).  
 
 Om flera avdelningar använder en anläggningstillgång kan periodisk avskrivning automatiskt fördelas på avdelningarna utifrån en användardefinierad fördelningstabell.  
 
@@ -83,7 +83,7 @@ När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan 
 5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Anl.journaler** och välj sedan relaterad länk.  
 
     > [!NOTE]  
->   Fönstret **Anlägg.tillg.journal** innehåller nya rader för olika avskrivningsregler enligt dublettlistan.  
+>   Fönstret **Anlägg.tillg.journal** innehåller nya rader för olika avskrivningsregler enligt dubblettlistan.  
 6. Granska och redigera raderna och välj sedan åtgärden **bokför**.  
 
     > [!NOTE]  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e5044183beeeaab5eb1269b17e60391a43a33f0c
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Bokföringsmotorstruktur
@@ -26,10 +26,10 @@ Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funk
   
 |Routine|Description|  
 |-------------|---------------------------------------|  
-|StartPosting|Initierar bokföringsbufferten TempGLEntryBuf, låser redovisningstransaktions- och momstransaktionstabellerna och initierar bokföringsperiod, bokförd redovisningsjournal och valutakurser. Bör bara anropas en gång, sedan är NextEntryNo 0.|  
+|StartPosting|initialiserar bokföringsbufferten TempGLEntryBuf, låser redovisningstransaktions- och momstransaktionstabellerna och initialiserar bokföringsperiod, bokförd redovisningsjournal och valutakurser. Bör bara anropas en gång, sedan är NextEntryNo 0.|  
 |ContinuePosting|Kontrollerar och bokför orealiserad moms för föregående transaktion, ökar NextTransactionNo och förbereder bokföringen av nästa rad.|  
 |FinishPosting|Slutför bokföringen genom att infoga redovisningstransaktioner från den tillfälliga bufferten i databastabellen. Används alltid tillsammans med StartPosting. Söker efter inkonsekvenser.|  
-|InitGLEntry|Används för att initiera en ny redovisningstransaktion för standardredovisningsjournalrader. Returnerar GLEntry som parameter.|  
+|InitGLEntry|Används för att initialisera en ny redovisningstransaktion för standardredovisningsjournalrader. Returnerar GLEntry som parameter.|  
 |InitGLEntryVAT|Samma som InitGLEntry men tilldelar också Motkonto och SummarizeVAT.|  
 |InitGLEntryVATCopy|Samma som InitGLEntryVAT men kopierar också bokföringsmalldata från momstransaktionen innan SummarizeVAT.|  
 |InsertGLEntry|Den enda funktion som infogar redovisningstransaktionen i den globala TempGLEntryBuf-tabellen. Använd alltid den här funktionen för att infoga.|  

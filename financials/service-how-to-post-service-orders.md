@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokföra tjänsteorder och kreditnotor
@@ -99,7 +99,7 @@ I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar p�
   
 4. Klicka på **Åtgärder**, **Bokföring**, **Bokför**. I fönstret som visas väljer du **Leverera**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
   
 Om lagerstället kräver distributionslagerhantering sker leverans och flytt av serviceradartiklar på samma sätt som övriga källdokument. Den enda skillnaden är att serviceradartiklar kan förbrukas antingen externt eller internt och därför kräver två olika släppfunktioner.  
   

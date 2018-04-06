@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
@@ -47,7 +47,7 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 ## <a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
 1. Sök efter **Kassaflödesprognoser** och välj sedan relaterad länk.  
 2. Välj en kassaflödesprognos och välj sedan åtgärden **kassaflödeskalkylblad**.  
-3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå förslagsrader**.  
+3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå kalkylarksrader**.  
 
 ## <a name="see-also"></a>Se även
 [Ställa in Finance](finance-setup-finance.md)  

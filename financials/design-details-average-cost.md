@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9e04bd1dbbae80cd209b28c14764fbf7dc7f0934
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Genomsnittskostnad
@@ -134,7 +134,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 ## <a name="setting-the-valuation-date"></a>Ange värderingsdatum  
  Fältet **Värderingsdatum** i tabellen **Värdetransaktion** används för att bestämma i vilken genomsnittskostnadsperiod en lagerminskningspost tillhör. Det gäller även för PIA-lagret (produkter i arbete).  
 
- Följande tabell visar de kriterier som används för att ange värderingsdatum.  
+ Följande tabell visar de villkor som används för att ange värderingsdatum.  
 
 |Scenario|Bokföringsdatum|Antal|Omvärdering|Värderingsdatum|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
@@ -208,7 +208,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)   
  [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)   
- [Designdetaljer: Objektkoppling](design-details-item-application.md)  
+ [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

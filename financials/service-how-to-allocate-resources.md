@@ -14,12 +14,12 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
 # <a name="allocate-resources"></a>Så här tilldelar du resurser
-Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att tilldela rätt personer till rätt uppgifter. Tilldelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
+Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att tilldela rätt personer till rätt uppgifter. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
 
 Du kan fördela resurser (till exempel tekniker) med hjälp av **Beordringstavla**, eller från en serviceorder. Du kan använda resursdisposition för att fördela resurser som ska utföra serviceuppgifterna i order eller offerter.
 
@@ -112,7 +112,7 @@ Du kan använda en liknande procedur för att registrera timmarna i fönstret **
 Om samma resurs arbetar med alla serviceartiklar på serviceordern kan du registrera det totala antalet resurstimmar för endast en serviceartikel och sedan dela resursraden så att resurstimmarna tilldelas andra serviceartiklar.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceuppifter** och välj sedan relaterad länk.
-2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelförslag**.  
+2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Så här fördelar du resurser till alla serviceartiklar på en serviceorder:

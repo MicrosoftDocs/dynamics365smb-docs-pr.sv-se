@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 8276d7362fb940c70573f14ac10b8f02d3e145e4
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetaljer: Lagervärdering
@@ -26,7 +26,7 @@ Slutlager = startlager + nettoinköp – kostnaden för sålda varor
 
 Beräkningen av lagervärderingen använder fältet **Kost.belopp (aktuellt)** i värdetransaktionerna för artikeln. Transaktionerna klassificeras efter transaktionstypen XE "transaktionstyp" som motsvarar kostnadskomponenter, direkt kostnad, indirekt kostnad, avvikelse, omvärdering och avrundning. Mer information finns i [Designdetaljer: kostnadskomponenter](design-details-cost-components.md).  
 
-Transaktioner har kopplats mot varandra, antingen av fasta kopplingar XE "koppling; fast" eller enligt det allmänna antagandet om kostnadsflöde som definieras av värderingsprincipen XE "princip; kostnad" XE "kostnadsprincip" En transaktion med lagerminskning kan kopplas till flera ökningar med olika bokföringsdatum och eventuellt olika anskaffningskostnader XE "anskaffningskostnader". Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-application.md). Därför baseras beräkningen av lagervärdet  XE "Lagervärde" för ett givet datum på summan av positiva och negativa värdetransaktioner.  
+Transaktioner har kopplats mot varandra, antingen av fasta kopplingar XE "koppling; fast" eller enligt det allmänna antagandet om kostnadsflöde som definieras av värderingsprincipen XE "princip; kostnad" XE "kostnadsprincip" En transaktion med lagerminskning kan kopplas till flera ökningar med olika bokföringsdatum och eventuellt olika anskaffningskostnader XE "anskaffningskostnader". Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md). Därför baseras beräkningen av lagervärdet  XE "Lagervärde" för ett givet datum på summan av positiva och negativa värdetransaktioner.  
 
 ## <a name="inventory-valuation-report"></a>Lagervärdering - rapport  
 För att beräkna lagervärdet i rapporten **Lagervärdering** börjar rapporten med att beräkna värdet för artikelns lager på ett visst startdatum. Det lägger till värdet av lagerökningar och subtraherar sedan värdet av lagerminskningar upp till ett visst slutdatum. Slutresultatet är lagervärdet på slutdatumet. Rapporten beräknar dessa värden genom att summera värdena i fältet **Kost.belopp (aktuellt)** i värdetransaktionerna, med hjälp av bokföringsdatum som filter.  

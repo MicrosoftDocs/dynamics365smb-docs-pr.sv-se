@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: a00f88aaf70464c8911d59b829b08dda900dc474
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="about-planning-functionality"></a>Om planeringsfunktioner
@@ -36,9 +36,9 @@ Planering innehåller två element: tillgång och efterfrågan. Dessa två eleme
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om det uppstår en minskad efterfrågan, får du i planeringssystemet ett förslag om att skjuta upp, minska antalet eller annullera befintliga återanskaffningsorder.  
 
 ## <a name="planning-calculation"></a>Planeringsberäkning  
-Planeringssystemet drivs av förväntad och faktisk kundefterfrågan samt även parametrar för lagerbeställningar. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder (åtgärdsmeddelanden) som du ska vidta för eventuell återanskaffning från leverantörer, överföringar mellan distributionslager eller produktion. Om det redan finns återanskaffningsorder kan de förslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
+Planeringssystemet drivs av förväntad och faktisk kundefterfrågan samt även parametrar för lagerbeställningar. Om du kör planeringsberäkningen får du i programmet ett kalkylark på särskilda åtgärder (åtgärdsmeddelanden) som du ska vidta för eventuell återanskaffning från leverantörer, överföringar mellan distributionslager eller produktion. Om det redan finns återanskaffningsorder kan de föreslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
 
-Grunden för planeringsrutinen är beräkningen av brutto till netto. Nettobehoven styr släppningen av planerade order, som planeras utifrån verksamhetsföljdsinformation (tillverkade artiklar) eller ledtid på artikelkortet (inköpta artiklar). Utsläppningsantalet för planerade order baseras på planeringsberäkningen och påverkas av parametrarna som ställs in på de enskilda artikelkorten.  
+Grunden för planeringsrutinen är beräkningen av brutto till netto. Nettobehoven styr släppningen av planerade order, som planeras utifrån operationsföljdsinformation (tillverkade artiklar) eller ledtid på artikelkortet (inköpta artiklar). Utsläppningsantalet för planerade order baseras på planeringsberäkningen och påverkas av parametrarna som ställs in på de enskilda artikelkorten.  
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planera med manuella överföringsorder
 Som du ser i fältet **Återanskaffningssystem** på ett kort för lagerställeenhet, kan planeringssystemet konfigureras till att skapa överföringsorder som balanserar leverans och behov mellan lagerställen.  
@@ -119,7 +119,7 @@ Planeringssystemet föreslår en leveransorder för att uppfylla behovet på fö
 Att bryta säkerhetslagrets nivå betraktas som ett undantag eftersom det inte bör inträffa om beställningspunkten har ställts in korrekt.
 
 > [!NOTE]
-> Tillgången på planeringsrader med undantagsvarningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Du kan dock ange att planeringskörningen ska följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i avsnittet om planeringsparametrar för undantagvarningar i Beräkna plan - planeringsförslag. .
+> Tillgången på planeringsrader med undantagsvarningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Du kan dock ange att planeringskörningen ska följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i avsnittet om planeringsparametrar för undantagvarningar i Skapa inköpsförslag - planeringsförslag. .
 
 ### <a name="attention"></a>Observera!
 Den här varningen visas i två olika situationer:

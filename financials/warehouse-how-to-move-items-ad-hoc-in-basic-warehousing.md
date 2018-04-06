@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5c64734d9bb5cced1dbe9cb9c98385004885fa67
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytta artiklar ad hoc i grundläggande lagerkonfigurationer
@@ -28,7 +28,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
     - Med fönstret **Artikelgrupperingsjournal**.  
 
 > [!NOTE]  
->  I avancerad lagerkonfiguration, dvs lagerställen som använder **Dirigerad art.inf. och plock.** inställningsfältet använder du **Transportförslag** fönstret eller **Intern Dist.lager plockning** eller **Intern Dist.lager art.införsel** fönstren för flytta artiklar som är ad hoc mellan lagerplatser.  
+>  I avancerad lagerkonfiguration, dvs lagerställen som använder **Dirigerad art.inf. och plock.** inställningsfältet använder du **Transportkalkylark** fönstret eller **Intern Dist.lager plockning** eller **Intern Dist.lager art.införsel** fönstren för flytta artiklar som är ad hoc mellan lagerplatser.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Så här flyttar du artiklar som en internförflyttning  
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Interntransport** och välj sedan relaterad länk.  

@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="delivering-service"></a>Leverera service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] I  finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
   
 Ett annat sätt att granska pågående serviceorder är att använda fönstret **Serviceuppgifter**. I den här vyn över dina serviceåtaganden kan du se var någonstans i arbetsflödet som en order befinner sig och ändra status så att den återspeglar kontakterna med kunden.  
   

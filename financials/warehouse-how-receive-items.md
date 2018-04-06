@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="receive-items"></a>Ta emot artiklar
@@ -52,9 +52,9 @@ Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är likna
     3. Definiera vilken typ av källdokumentrader som du vill hämta genom att fylla i relevanta filterfält.  
     4. Välj åtgärden **Kör**.  
 
-    Alla relaterat källdokumentrader, som uppfyller filterkriterierna, infogas nu i fönstret **Dist.lager inleverans** som du aktiverade från filterfunktionen.  
+    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu i fönstret **Dist.lager inleverans** som du aktiverade från filterfunktionen.  
 
-    Filterkombinationerna, vilka du definierar, sparas i fönstret **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra kriterier när som helst, genom att välja åtgärden **Ändra**.
+    Filterkombinationerna, vilka du definierar, sparas i fönstret **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
 4.  Välj det källdokument som du vill inleverera artiklar för och klicka på knappen **OK**.  
 

@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument
@@ -141,12 +141,12 @@ Fönstret **Betalningsregistrering** fungerar som stöd för dig i uppgifter som
 
 Vanligtvis när en betalning har utförts, registrerats i banken eller liknande, representeras det relaterade försäljnings- eller inköpsdokumentet av en rad i fönstret **Betalningsregistrering** eftersom dokumentet i fråga väntar på att betalningen bokförs mot utestående belopp. Dock ibland motsvaras en betalning som har utförts inte av en rad i fönstret **Betalningsregistrering** vanligtvis eftersom dokumentet i fråga inte helt har fakturabokförts.
 
-I fönstret **Dokumentsökning** kan du söka bland dokument som inte har fakturerats helt. Du kan söka baserat på en eller flera av följande kriterier:  
+I fönstret **Dokumentsökning** kan du söka bland dokument som inte har fakturerats helt. Du kan söka baserat på en eller flera av följande villkor:  
 
 * Dokumentnummer  
 * Belopp eller beloppsintervall  
 
-Följande procedurer beskriver hur du hittar ett visst dokument, genom att använda både sökkriterier.  
+Följande procedurer beskriver hur du hittar ett visst dokument, genom att använda både sökvillkor.  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Betalningsregistrering**, och välj sedan relaterad länk.
 2. Välj avsnittet **Sök dokument** med pekaren på någon av raderna.
@@ -160,9 +160,9 @@ Följande procedurer beskriver hur du hittar ett visst dokument, genom att anvä
     Om du anger 10, kommer funktionen söka efter belopp i intervallet tio procent lägre och tio procent högre än värdet i fältet **Belopp**.    
 6. Välj åtgärden **Sök**.  
 
-Sökfunktionen söker bland dokument som inte är fullständigt fakturerade baserat på de angivna kriterier.  
+Sökfunktionen söker bland dokument som inte är fullständigt fakturerade baserat på de angivna villkor.  
 
-Om ett eller flera dokument matchar sökkriterierna, öppnas fönstret **Dokumentsökningsresultat** och visar raderna som motsvarar de dokument. Varje rad innehåller ett verifikationsnummer, en beskrivning och ett belopp, så att du lätt kan hitta ett visst dokument, till exempel baserad på information i ditt bankkontoutdrag.  
+Om ett eller flera dokument matchar sökvillkorna, öppnas fönstret **Dokumentsökningsresultat** och visar raderna som motsvarar de dokument. Varje rad innehåller ett verifikationsnummer, en beskrivning och ett belopp, så att du lätt kan hitta ett visst dokument, till exempel baserad på information i ditt bankkontoutdrag.  
 
 Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från fönstret **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts.  
 

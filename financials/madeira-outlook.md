@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Använda Finance and Operations, Business edition som din företagsinkorg i Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
 
 ## <a name="getting-the-add-in"></a>Skaffa tillägget
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] är ett av stegen i den assisterade installationen Komma igång i fönstret **Sköt din verksamhet i Office 365**. I fönstret, när du väljer knappen Konfigurera i Outlook måste du ange ditt användarnamn och lösenord för **Ställ in i Outlook** måste du ange ditt användarnamn och lösenord för Office 365. Tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs sedan till automatiskt till Outlook.  
@@ -48,7 +48,7 @@ Om du till exempel får ett e-postmeddelande som nämner texten *S-QUO100*, iden
 I tilläggsprogrammet dokumentlänkar kan du, ändra och vidta åtgärder med dokument, precis som du kan i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="adding-the-add-ins-manually"></a>Lägga till tillägg manuellt
-Ibland kan tillägg inte läggas till automatiskt i Outlook. Även om du eller en arbetskamrat körde assisterad installationsguide för företaget, kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i Outlook. Om det här problemet uppstår, kan du lägga till tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellt.  
+Ibland kan tillägg inte läggas till automatiskt i Outlook. Även om du eller en arbetskamrat körde assisterad konfigurationsguide för företaget, kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i Outlook. Om det här problemet uppstår, kan du lägga till tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellt.  
 
 Först måste du kontrollera att du har tillgång till tillägg i Office 365-kontot. Öppna Outlooks webbåtkomst i en webbläsare och lägg sedan till `/owa/#path=/options/manageapps` till URL-adressen i adressfältet. Då öppnas sidan **Hantera tillägg** där du kan aktivera [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. När du sedan går tillbaka till Outlook, bör [!INCLUDE[d365fin](includes/d365fin_md.md)] skrivas ut.  
 

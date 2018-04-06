@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d1199adb2912d88c545cabcc84d5c9bf27b0892a
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Ändringar i kodmodul 12: Mappa globala variabler för bokföring av rad i redovisningsjournalen

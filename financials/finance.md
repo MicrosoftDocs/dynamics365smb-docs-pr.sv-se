@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 
 Standardinställningkonfigurationen innehåller en kontoplan och standardbokföringsmallar som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.  
 
@@ -32,8 +32,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Göra utbetalningar, koppla utgående betalningar och arbeta med checkar. |[Hantera Leverantörsreskontra](payables-manage-payables.md) |
 |Gör så att kunderna skickar betalning innan du levererar till dem eller skickar betalning till dina leverantörer innan de levererar till dig.|[Fakturera förskottsbetalningar](finance-invoice-prepayments.md)|
 | Stämma av bankkonton och överföra pengar mellan bankkonton. |[Hantera bankkonton](bank-manage-bank-accounts.md) |
-|Ställa in koncerninterna partner och bearbeta transaktioner, manuellt eller automatiskt mellan juridiska personer inom samma företag.|[Hantera koncerninterna transaktioner](intercompany-manage.md)|
-|Analysera kostnaderna för att driva ditt företag genom att föredela faktiska budgeterade kostnader för drift, avdelningar, produkter och projekt till kostnadscenter.|[Redovisa kostnader](finance-manage-cost-accounting.md)|
+|Ställa in koncerninterna partners och bearbeta transaktioner, manuellt eller automatiskt, mellan olika juridiska personer inom samma företag.|[Hantera koncerninterna transaktioner](intercompany-manage.md)|
+|Kombinerar redovisningstransaktioner från flera företag i ett enda virtuellt ”konsoliderat företag” för ekonomisk analys.|[Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)|
+|Analysera kostnaderna för att driva ditt företag genom att fördela faktiska och budgeterade kostnader för drift, avdelningar, produkter och projekt till kostnadscenter.|[Redovisa kostnader](finance-manage-cost-accounting.md)|
 |hantera lager- och produktionskostnader, rapportera kostnader och stämma av kostnader med redovisningen.|[Hantera lagerkostnader](finance-manage-inventory-costs.md)|
 | Förstå redovisningen och kontoplanen. |[Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md) |
 | Lägga till dimensioner för rikare business intelligence. |[Arbeta med dimensioner](finance-dimensions.md) |

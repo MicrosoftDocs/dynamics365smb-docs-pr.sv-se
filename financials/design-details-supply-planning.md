@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b8e664be23db7be871e1775a8b98b006218b7404
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-supply-planning"></a>Designdetaljer: Leveransplanering
@@ -28,7 +28,7 @@ Den förklarar hur planeringssystemet fungerar och hur du justerar algoritmerna 
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
-[Designdetaljer: Planeringstilldelningstabell](design-details-planning-assignment-table.md)  
+[Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
 [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
 

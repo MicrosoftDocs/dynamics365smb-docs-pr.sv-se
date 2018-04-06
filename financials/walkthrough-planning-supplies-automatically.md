@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: bbe470538bb79e9f6fb6860ee32d75b5d56db9e8
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
@@ -104,7 +104,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
-3.  I fönstret **Beräkna plan - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
+3.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
 
     |Skapa inköpsförslag|Startdatum|Slutdatum|Visa resultat:|Begränsa totaler till|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -112,7 +112,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 4.  Klicka på **OK** för att starta planeringskörningen.  
 
-     En planeringsrad skapas med förslaget att en planerad produktionsorder ska skapas för att producera de tio touringcyklarna, artikel 1001, senast den 2014-02-05, som är försäljningsorderns utleveransdatum.  
+     En planeringsrad skapas med kalkylarket att en planerad produktionsorder ska skapas för att producera de tio touringcyklarna, artikel 1001, senast den 2014-02-05, som är försäljningsorderns utleveransdatum.  
 
      I nästa steg verifierar du att den här planeringsraden hör till Fotograferna AB:s försäljningsorder genom att använda funktionen **Orderspårning**, som dynamiskt länkar behov till deras planerade leveranser.  
 
@@ -127,7 +127,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
-3.  I fönstret **Beräkna plan - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
+3.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
 
     |Beräkna|Startdatum|Slutdatum|Visa resultat:|Begränsa totaler till:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
@@ -140,7 +140,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 ## <a name="analyzing-the-planning-result"></a>Analysera planeringsresultatet  
  Eduardo vill analysera de föreslagna kvantiteterna och visar detaljer på valda planeringsrader för att visa orderspårningsposter och planeringsparametrar.  
 
- I fönstret **Planeringsförslag** observera att kolumnen **Förfallodatum** i planeringsförslaget har planerats baklänges, från försäljningsorderns förfallodatum, 2014-02-05. Tidslinjen börjar på den översta planeringsraden med produktionsordern för att producera de färdiga touringcyklarna. Tidslinjen slutar vid nedersta planeringsraden med inköpsordern för en av artiklarna på lägsta nivå, 1255, Sockel baksida, som förfaller 2014-01-30. Som planeringsraden för artikeln 1251, axelbakhjulet, representerar raden en inköpsorder för komponenter som förfallit på startdatumet för den producerade överordnade undermonteringsartikeln 1250, som i sin tur är förfallet 02-03-2014. Genom hela förslaget kan du se att alla underliggande artiklar har förfallit på startdatumet för sina överordnade artiklar.  
+ I fönstret **Planeringsförslag** observera att kolumnen **Förfallodatum** i planeringsförslaget har planerats baklänges, från försäljningsorderns förfallodatum, 2014-02-05. Tidslinjen börjar på den översta planeringsraden med produktionsordern för att producera de färdiga touringcyklarna. Tidslinjen slutar vid nedersta planeringsraden med inköpsordern för en av artiklarna på lägsta nivå, 1255, Sockel baksida, som förfaller 2014-01-30. Som planeringsraden för artikeln 1251, axelbakhjulet, representerar raden en inköpsorder för komponenter som förfallit på startdatumet för den producerade överordnade undermonteringsartikeln 1250, som i sin tur är förfallet 02-03-2014. Genom hela kalkylarket kan du se att alla underliggande artiklar har förfallit på startdatumet för sina överordnade artiklar.  
 
  Planeringsraden för artikeln 1300, Kedjemont, föreslår tio enheter. Detta avviker från de fem styckena som vi förväntas behöva för att uppfylla försäljningsorder. Fortsätt med att visa dessa beställningsspårningposter.  
 
@@ -221,7 +221,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 4.  Fortsätter genom att planera om genom att justera den nuvarande leveransplaneringen.  
 5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
 6.  Välj åtgärden **Beräkna nettoförändringsplan**.  
-7.  I fönstret **Beräkna plan - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
+7.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
 
     |Skapa inköpsförslag|Startdatum|Slutdatum|Visa resultat:|Begränsa totaler till|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  

@@ -1,5 +1,5 @@
 ---
-title: "Lägga upp bästa metoder - Planeringsparametrar | Microsoft Docs"
+title: "Lägga upp bästa praxis - Planeringsparametrar | Microsoft Docs"
 description: "Snabbfliken **Planering** på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: a9dfb17b0cbddb3d6b65e8d807dd92990c2ccdc1
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Skapa metodtips: planeringsparametrar
@@ -37,13 +37,13 @@ Snabbfliken **Planering** på artikelkortet är mitten av ett företags försör
 |Avrundning|I kostsam produktion ange till 0,00001.|Stora avrundningskvantiteter av kassationsartiklar, eller materialförbrukning kan uppgå till mycket stor lagerkostnader. Den kan därför vara nödvändigt att ange den minsta avrundningsprecisionen för att minska den potentiella kostnad.|  
 
 > [!NOTE]  
->  De bästa metoderna för planeringsparametrarna på artikelkort kan också tillämpas på samma fält på lagerställeenhetskort.  
+>  De bästa praxisna för planeringsparametrarna på artikelkort kan också tillämpas på samma fält på lagerställeenhetskort.  
 >   
 >  Om företag planerar för behov på olika lagerställen, rekommenderas det att att definiera lagerställeenheter för varje lagerställe och att alla behov skapas, med hjälp av ett värde i fältet **Lagerställekod** . Mer information finns i [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md).  
 
 ## <a name="see-also"></a>Se även  
  [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
- [Skapa komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)  
+ [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

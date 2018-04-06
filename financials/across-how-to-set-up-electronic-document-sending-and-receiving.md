@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurera utskick och mottagning av elektroniska dokument
@@ -104,7 +104,7 @@ Avsnittet innehåller följande procedurer:
 4. I fältet **Elektroniskt dokument** väljer du **Ja (Genom dokumentväxlingstjänst)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]   identifierar automatiskt om dokumentet är en faktura eller kreditnota och tillämpar PEPPOL-formatet därefter.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  identifierar automatiskt om dokumentet är en faktura eller kreditnota och tillämpar PEPPOL-formatet därefter.  
 
 5. Markera kryssrutan **Standard** på snabbfliken **Allmänt**. Fyll i fältet **Dokumentutskicksprofil** på kundkorten i fråga om du vill ange att det ska tillämpas för vissa kunder endast. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
 

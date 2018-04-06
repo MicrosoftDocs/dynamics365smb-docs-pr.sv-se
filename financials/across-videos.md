@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Besök vårt videobibliotek
 Om du vill komma igång snabbt, bygger vi upp ett bibliotek med ”så här”-videor som illustrerar hur du utför olika processer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bara för att tala om några exempel innehåller biblioteket videoklipp som visar hur du:  
 
-* Migrera affärsdata från andra finansappar till  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrera affärsdata från andra finansappar till [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Ställer in dimensioner så att du kan spåra och analysera olika dokument och enheter
 * Anslut [!INCLUDE[d365fin](includes/d365fin_md.md)] med Microsoft Dynamics 365 for Sales
 * Konfigurera arbetsflöden för godkännande  
-* Använd Power BI med  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Konfigurera e-post och skicka dokument direkt från  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Använd Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Konfigurera e-post och skicka dokument direkt från [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Du kan komma åt videor på flera olika sätt. Om du redan arbetar i [!INCLUDE[d365fin](includes/d365fin_md.md)], finns det två sätt att komma till biblioteket:
 

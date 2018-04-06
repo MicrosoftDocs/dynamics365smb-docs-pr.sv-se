@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Skapa försäkring för anläggningstillgångar
@@ -42,7 +42,7 @@ Du kan lagra information om varje försäkringsbrev på försäkringskortet.
 3. Fyll i fälten om det behövs.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Så här skapar du journalmallar för försäkringar
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar fönstret **Försäkringsjourna**, men du kan skapa ytterligare journalmallar. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar fönstret **Försäkringsjournal**. Du kan dessutom skapa ytterligare mallar. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäkringsjournalmallar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.

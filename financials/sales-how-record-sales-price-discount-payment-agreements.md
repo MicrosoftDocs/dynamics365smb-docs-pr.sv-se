@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: bfb0a5b68768c3fe5e0fcf2874752b55bd96708e
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: a130d946a7efa1d49584d4756fe6cd622c409827
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
@@ -31,9 +31,12 @@ När det gäller rabatter kan du ställa in och använda två olika typer av fö
 | **Förs.radrabatt** |En beloppsrabatt som infogas på försäljningsrader, om en viss kombination av kund, artikel, minsta kvantiteten, måttenhet eller start-/slutdatum finns. En procentrabatt som dras av från dokumentets summa om värdebeloppet för alla rader i ett försäljningsdokument överstiger ett viss minimivärde. |
 | **Fakturarabatt** |En procentrabatt som dras av från dokumentets summa om värdebeloppet för alla rader i ett inköpsdokument överstiger ett viss minimivärde. |
 
-Eftersom försäljningsradrabatter och försäljningspriser baseras på en kombination av artikel och kund, kan du också utföra den här konfigurationen från artikelkortet för artikeln när reglerna och värdena gäller.
+Eftersom försäljningsradrabatter och försäljningspriser baseras på en kombination av artikel och kund, kan du också utföra den här konfigurationen från det artikelkort för artikeln där reglerna och värdena gäller.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Så här skapar du försäljningspriser för en kund:
+> [!NOTE]  
+> Om du inte vill att en artikel någonsin ska säljas till rabatterat pris, lämna bara rabattfält på artikelkortet tomt och inte ta med artikeln i någon inställning för radrabatt.
+
+## <a name="to-set-up-a-sales-price-for-a-customer"></a>Så här skapar du försäljningspriser för en kund
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kunder** och välj sedan relaterad länk.
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Priser.**.
 
@@ -54,10 +57,10 @@ När du har bestämt vilka kunder som är aktuella för fakturarabatter, skriver
 2. Öppna kundkortet för en kund som är aktuell för fakturarabatter.
 3. Välj i fältet  **Fakturarabattkod** koden för den fakturarabatt som ska användas vid beräkning av fakturarabatter för kunden.
 
-    > [!NOTE]  
+> [!NOTE]  
 >   Fakturarabattkoder representeras av befintliga kundkort. Detta aktiverar dig att snabbt tilldela fakturarabattvillkor till kunder, genom att välja namnet på en andra kunder som ska ha dessa villkor.
 
-    Så här definierar du fakturarabattvillkor för försäljning:
+    Proceed to set up new the sales invoice discount terms.
 4. I fönstret **Kundkort** väljer du åtgärden **Fakturarabatter**. Fönstret **Kundfakturarabatter** öppnas.
 5. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i USD.
 6. Ange i fältet **Minimibelopp** det minsta belopp som en faktura måste vara på för att komma i fråga för rabatt.
@@ -95,14 +98,14 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
 > [!NOTE]  
 >   Följande beskriver hur det bästa priset beräknas för försäljning. Beräkningen är samma för inköp.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerar kombinationen av faktureringskund och artikel och beräknar sedan tillämpligt enhetspris och radrabattens procentsats utifrån följande kriterier:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar kombinationen av faktureringskund och artikel och beräknar sedan tillämpligt enhetspris och radrabattens procentsats utifrån följande villkor:
 
     - Finns det ett särskilt avtal om priser eller radrabatter för den här kunden, eller tillhör kunden en grupp som har ett sådant avtal?
     - Ingår artikeln eller artikelrabattgruppen på raden i något av dessa pris-/rabatt-avtal?
     - Ligger orderdatumet (eller fakturans och kreditnotans bokföringsdatum) inom avtalet om priser eller radrabatter?
     - Har någon enhetskod angetts? I så fall gör [!INCLUDE[d365fin](includes/d365fin_md.md)] en sökning efter priser eller rabatter med samma enhetskod och efter priser eller rabatter som saknar enhetskod.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrolelrar om pris/rabattavtal tillämpas på uppgifter i dokumentet eller journalen och infogar det tillämpliga enhetspriset och radrabattens procentsats enligt följande kriterier:
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrolelrar om pris/rabattavtal tillämpas på uppgifter i dokumentet eller journalen och infogar det tillämpliga enhetspriset och radrabattens procentsats enligt följande villkor:
 
     - Finns det krav på en lägsta kvantitet i pris-/ rabattavtalet som är uppfyllda?
     - Finns det krav på valuta i pris-/ rabattavtalet som är uppfyllda? I så fall infogas det lägsta priset och den högsta radrabatten för den valutan, även om de skulle ge ett bättre pris i lokala valutan. Om det inte finns några pris-/rabattavtal för den angivna valutakoden infogar [!INCLUDE[d365fin](includes/d365fin_md.md)] det lägsta priset och den högsta radrabatten i dina lokala valuta.
@@ -110,14 +113,14 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
 
 ## <a name="to-copy-sales-prices"></a>Så här kopierar du försäljningspriser  
-Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i förslaget**.  batch-jobb. Du hittar batch-jobbet i fönstret **Försäljningsprisförslag**.    
+Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**.  batch-jobb. Du hittar batch-jobbet i fönstret **Försäljningspriskalkylark**.    
 
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Förs.pris ändringsformulär** och välj sedan relaterad länk.  
 2.  Välj **Föreslå förs.pris i ändringsformulär** .  
 3.  På snabbfliken **Förs.priser** fyller du i fälten **Förs.typ** och **Förs.kod** för de försäljningspriser som du vill kopiera.  
 4.  I den övre delen av fönstret fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
 5.  Om du vill skapa nya priser med batch-jobbet markerar du fältet **Skapa nya priser**.  
-6.  Klicka på **OK** för att fylla i raderna i fönstret **Försäljningsprisförslag** med de föreslagna nya priserna och ange att de nu gäller för den valda **försäljningstypen**.  
+6.  Klicka på **OK** för att fylla i raderna i fönstret **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda **försäljningstypen**.  
 
 > [!NOTE]  
 >  Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Förs.priser**, kan du använda batch-jobbet **Implementera prisändring** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** i fönstret **Försäljningspris ändringsformulär**.

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="pick-items"></a>Plocka artiklar
@@ -29,7 +29,7 @@ Om du vill organisera och registrera plockningsaktiviteter med distributionslage
 
 Om lagerstället kräver plockningsbearbetning, men inte kräver utleveransbehandling, använder du fönstret **Lagerplockning** om du vill organisera eller skriva ut information om artikelplockning, ange resultat av plockningen eller bokföra plockningsinformation, som i sin tur bokför leverans av artiklarna. Om det gäller att plocka komponenter för en produktionsorder, bokför bokföringen av plockning också förbrukningen.
 
-Om lagerstället kräver både plocknings- och utleveransbearbetning, det vill säga om både fältet **Begär plockning** och fältet **Kräv utleverans** har markerats på lagerställekortet, använder du fönstret **Dist.lager plockning** för att hantera plockningen. Dist.lagerplockning fungerar på samma sätt som lagerplockning, förutom att plockningen registreras i stället för att plockningsinformationen bokförs. I den här registreringsprocessen bokförs inte leveransen, men artiklarna blir tillgängliga för leverans. Du lagerchef kan du använda ett plockningsförslag för att organisera plockninginformation innan du skapar de individuella plockningsinstruktionerna för lager.
+Om lagerstället kräver både plocknings- och utleveransbearbetning, det vill säga om både fältet **Begär plockning** och fältet **Kräv utleverans** har markerats på lagerställekortet, använder du fönstret **Dist.lager plockning** för att hantera plockningen. Dist.lagerplockning fungerar på samma sätt som lagerplockning, förutom att plockningen registreras i stället för att plockningsinformationen bokförs. I den här registreringsprocessen bokförs inte leveransen, men artiklarna blir tillgängliga för leverans. Du lagerchef kan du använda ett plockningskalkylark för att organisera plockninginformation innan du skapar de individuella plockningsinstruktionerna för lager.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
@@ -39,11 +39,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Plocka artiklar order för order och bokföra utleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Plocka artiklar för flera order i en avancerad lagerkonfiguration.|[Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
 |Plocka komponenter för produktion eller montering i en grundläggande eller avancerad lagerkonfiguration.|[Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)|  
-|Planera optimerade plockinstruktioner för ett antal utleveranser i stället för att låta lagerarbetare agera direkt på bokförda utleveranser.|[Planera plockningar i förslag](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Planera optimerade plockinstruktioner för ett antal utleveranser i stället för att låta lagerarbetare agera direkt på bokförda utleveranser.|[Planera plockningar i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Plocka artiklar tekniskt för ett visst syfte, till exempel en produktionsenhet som behöver extra komponenter, så att artiklarna inte lämnar distributionslagret tekniskt.|[Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Förstå hur du automatiskt plockar artiklar enligt deras utgångsdatum, till exempel ömtåliga varor.|[Plockning med FEFO](warehouse-picking-by-fefo.md)|
 |En plockningsrad delas upp i flera rader, till exempel eftersom det inte finns tillräckligt många artiklar som ska tas från den bestämda lagerplatsen.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få direkt tillgång till plockningar som tilldelats dig som lagerarbetare.|[Hitta distributionslagertilldelningar](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Få direkt tillgång till plockningar som tilldelats dig som lagerarbetare.|[Hitta distributionslagerfördelningar](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

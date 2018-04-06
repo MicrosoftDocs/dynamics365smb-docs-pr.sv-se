@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9643e71c29adf4b4be1d9d474832e3e29f2c21d8
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
@@ -33,7 +33,7 @@ En artikel kan struktureras som en överordnad artikel med underliggande underor
 Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Leverantörer visas sedan i fönstret **Artikelleverantörskatalog** så att du enkelt kan välja en annan leverantör.
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
-1. På startsidan väljer du åtgärden **Artiklar** för att öppna listan över befintliga artiklar.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
 2. I fönstret **Artiklar** väljer du åtgärden **Ny**.
 
     Om endast en artikelmall finns, då öppnas ett nytt artikelkort med fält ifyllda med information från mallen.
@@ -46,7 +46,7 @@ Om du köper samma artikel från flera olika leverantörer, kan du ansluta de le
 >
 > Om du använder **Genomsnitt** beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att i fönstret **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
-På snabbfliken **Pris och bokföring** ser du specialpriser eller rabatter som du beviljar för artikeln om vissa kriterier uppfylls, till exempel kund, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
+På snabbfliken **Pris och bokföring** ser du specialpriser eller rabatter som du beviljar för artikeln om vissa villkor uppfylls, till exempel kund, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Artikeln är nu registrerad, och artikelkortet är klart att användas i försäljningsdokument.
 

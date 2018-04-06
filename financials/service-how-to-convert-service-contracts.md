@@ -14,10 +14,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du tjänstekontrakt som innehåller momsbelopp
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du servicekontrakt som innehåller momsbelopp
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
 
 > [!NOTE]  
@@ -64,7 +64,7 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 6. Efter konverteringen rättas moms- och servicetransaktioner.  
 
 ## <a name="see-also"></a>Se även  
-[Så här arbetar du med tjänstekontrakt och tjänstekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Så här arbetar du med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ekonomi](finance.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  

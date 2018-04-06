@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Inventera, justera och gruppera lager
@@ -142,14 +142,14 @@ Du ställer in de cykliska inventeringsperioder som du vill använda och däreft
 3. I fältet **Inventering cyklisk inv.period kod** väljer du lämplig cyklisk inventeringsperiod.  
 4. Välj **ja** för att ändra koden och för att beräkna den första cykliska inventeringsperioden för artikeln. Nästa gång som du väljer att beräkna cyklisk inventeringsperiod i inventeringsjournalen visas artikeln som en rad i fönstret **Inventering artikelval**. Du kan nu börja räkna artikeln med regelbundna intervall.
 
-### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Så här initierar du en inventering baserat på den cykliska inventeringsperioder i grundläggande konfigurationer
+### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Så här initialiserar du en inventering baserat på den cykliska inventeringsperioder i grundläggande konfigurationer
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inventeringsjournal** och välj sedan relaterad länk.
 2. Välj åtgärden **Beräkna cyklisk inventeringsperiod**.
 
     Fönstret **Inventering artikelval** öppnas. Det visar de artiklar som du har fastställt cykliska inventeringsperioder för som ska inventeras enligt motsvarande cykliska inventeringsperioder.
 3. Utför inventeringen. Mer information finns i avsnittet "Så här utför du en inventering av lagret".
 
-### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Så här initierar du en inventering baserat på den cykliska inventeringsperioder i avancerade konfigurationer
+### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Så här initialiserar du en inventering baserat på den cykliska inventeringsperioder i avancerade konfigurationer
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lagerinventeringsjournal** och välj sedan relaterad länk.  
 2. Välj åtgärden **Beräkna cyklisk inventeringsperiod**.
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanera eller uppdatera produktionsorder direkt
@@ -29,7 +29,7 @@ Funktioen **uppdatera** för produktionsorder används vanligtvis när du har gj
 - Skapat ett produktionsorderhuvud manuellt för att beräkna och skapa radinformation för första gången.
 - Gjort ändringar i produktionsorderhuvudet för att beräkna om all radinformation.
 
-Uppdateringsfunktionen beräknar de ändringar som gjorts i ett produktionsorderhuvud, och produktionsstrukturnivåer beaktas inte. Funktionen beräknar och initierar värdena på komponent- och verksamhetsföljdsrader utifrån de standarduppgifter som har angetts i den tilldelade produktionsstrukturen och verksamhetsföljden, och enligt den orderkvantitet och förfallodatum som har angetts i produktionsorderhuvudet.
+Uppdateringsfunktionen beräknar de ändringar som gjorts i ett produktionsorderhuvud, och produktionsstrukturnivåer beaktas inte. Funktionen beräknar och initialiserar värdena på komponent- och verksamhetsföljdsrader utifrån de standarduppgifter som har angetts i den tilldelade produktionsstrukturen och verksamhetsföljden, och enligt den orderkvantitet och förfallodatum som har angetts i produktionsorderhuvudet.
 
 Du kan antingen infoga produktionsorderraderna manuellt eller använda en funktion som beräknar produktionsorderraderna från huvudet.  
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
@@ -83,7 +83,7 @@ Om produktionsgruppernas kapacitet inte ska läggas till i den totala kapacitete
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Om du vill ställa in en kapacitetsbegränsad maskin- eller produktionsgrupp
 Du måste skapa produktionsresurser som du anser är kritiska och markera dem för att acceptera en bestämd beläggning i stället för den obestämda beläggning som är standard och som andra produktionsresurser accepterar. Ett kapacitetsbegränsad resurs kan vara en produktions- eller maskingrupp som du har identifierat som en flaskhals och för vilken du vill skapa en begränsad (bestämd) beläggning.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  har inte stöd för detaljerad fabrikskontroll. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har inte stöd för detaljerad fabrikskontroll. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.
 
 I fönstret **kapacitetsbegränsade resurser** kan du göra inställningar som undviker överbelastning av specifika resurser och säkerställa att ingen kapacitet blir ej fördelad om den kan öka produktionstiden för en produktionsorder. I fältet **Dämpare (% totalkapacitet)** kan du lägga till dämpartiden för resurser för att minimera åtgärdsdelning. Det gör att systemet kan schemalägga laddning till den sista möjliga dagen genom att överskrida den kritiska beläggningsprocenten något om det kan minska antalet operationer som delas.
 

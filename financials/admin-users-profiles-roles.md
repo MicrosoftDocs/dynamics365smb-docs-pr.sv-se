@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b06c5ee737db74e5011c7854601a21bc04d8872a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f8f00e7db1f7594d66e1cae5ed98271e25295472
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="users-profiles-and-role-centers-in-finance-and-operations-business-edition"></a>Användare, profiler och rollcenter i Finance and Operations, Business edition
+# <a name="understanding-users-profiles-and-role-centers"></a>Förstå användare, profiler och rollcenter
 Personer i företaget som har tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)] är tilldelade en *profil* som ger åtkomst till ett *Rollcenter*. Som administratör kan du tilldela och ändra profiler i [!INCLUDE[d365fin](includes/d365fin_md.md)] och du kan lägga till och ta bort användare som en del av din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration.  
 
 ## <a name="adding-users"></a>Lägga till användare

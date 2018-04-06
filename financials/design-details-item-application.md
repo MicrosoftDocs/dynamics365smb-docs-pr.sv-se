@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - artikelkoppling | Microsoft Docs
 description: "Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="design-details-item-application"></a>Designdetaljer: Objektkoppling
+# <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 När du bokför en lagertransaktion registreras antalsbokföringen i artikeltransaktionerna, och värdebokföringen i värdetransaktionerna. Mer information finns i [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)  
 
 Dessutom skapas en artikelkoppling för att koppla kostnadsmottagare till sin kostnadskälla för att skapa kostnadsspedition enligt värderingsprincipen. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).  
@@ -242,11 +240,12 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en funktionen för analysering och rättning av artikelkopplingar. Detta arbete utförs i fönstret **Kopplingsformulär**.  
 
 ## <a name="see-also"></a>Se även  
-[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
-[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)   
+[Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)   
-[Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md)
+[Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reserve-items"></a>Reservera artiklar
@@ -83,7 +83,7 @@ Någon gång kan du behöva avbeställa en artikelreservation.
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Om du vill reservera ett visst serie- eller partinummer  
 Från utgående dokument för spårade artiklar t.ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Detta kan vara användbart till exempel om du behöver produktionskomponenter från ett visst parti för att kontrollera överensstämmelse med tidigare produktionsbatcher eller därför att en kund har begärt ett specifikt serienummer. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
 
-Detta kallas för en specifik reservation, eftersom du reserverar från antalet av artikeln X som tillhör parti X. Om du enbart reserverar från antal av artikeln X, är det en helt vanlig, icke-specifik reservation. Mer information finns i  [Designdetaljer: Artikelspårning och reservationer](design-details-item-tracking-and-reservations.md).
+Detta kallas för en specifik reservation, eftersom du reserverar från antalet av artikeln X som tillhör parti X. Om du enbart reserverar från antal av artikeln X, är det en helt vanlig, icke-specifik reservation. Mer information finns i  [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md).
 
 Följande procedur är baserad på en försäljningsorder.    
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
@@ -98,7 +98,7 @@ Följande procedur är baserad på en försäljningsorder.
 ## <a name="see-also"></a>Se även
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Designdetaljer: Artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
+[Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

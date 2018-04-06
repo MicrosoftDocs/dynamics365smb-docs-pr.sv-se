@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer
@@ -25,7 +25,7 @@ Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan
 > [!NOTE]  
 >  Visa Interntransport för information om att flytta artiklar mellan lagerplatser utan källdokument.  
 
-I avancerade distributionslagerkonfigurationer, som är lagerställen som använder inställningsfältet **Dirigerad art.inf. och plock**, kan du använda fönstret **Transportförslag** och flytta artiklar mellan lagerplatserna. Mer information finns i [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+I avancerade distributionslagerkonfigurationer, som är lagerställen som använder inställningsfältet **Dirigerad art.inf. och plock**, kan du använda fönstret **Transportkalkylark** och flytta artiklar mellan lagerplatserna. Mer information finns i [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 I grundläggande distributionslagerkonfiguration, dvs lagerställen som använder **Lagerplats ska finnas** inställningsfältet, och **Begär plockning** inställningsfältet, kan du registrera transport av artiklar till interna verksamhetsområden baserade på interna källdokument på följande sätt:  
 

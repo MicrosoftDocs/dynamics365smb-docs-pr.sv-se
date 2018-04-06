@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="putting-items-away"></a>Införa utflöde från artiklar
@@ -26,7 +26,7 @@ Om du vill organisera och registrera införselaktiviteter med distributionslager
 
 Om lagerstället kräver artikelinförselbearbetning, men inte kräver inleveransbearbetning, använder du fönstret **Lagerartikelinförsel** om du vill organisera eller skriva ut information om artikelinförseln, ange resultat av faktisk artikelinförsel eller bokföra artikelinförselinformation. Om du bokför artikelinförselinformation bokförs i sin tur inleveransinformationen för källdokumentet.
 
-Om lagerstället kräver både inleveransbearbetning och artikelinförselbehandling, så att du har placerat markeringar i både **Begär inleveranser** och **Begär artikelinförsel** på lagerställekortet, finns det en annan process som används för att införa artiklar. I det här fallet ska du använda **Dist.lager artikelinförsel** fönstret att hantera artikelinförsel. Dist.lager artikelinförsel fungerar på samma sätt som Lagerartikelinförsel, förutom att du registrerar artikelinförseln istället för att bokföra informationen. Observera att registrering av artikelinförsel inte bokför inleveransen för artiklarna. Den uppdateras bara lagerplatsinnehåll. Du lagerchef kan du använda ett artikelinförselförslag för att organisera artikelinförselinformationen innan du skapar de individuella artikelinförselinstruktionerna.
+Om lagerstället kräver både inleveransbearbetning och artikelinförselbehandling, så att du har placerat markeringar i både **Begär inleveranser** och **Begär artikelinförsel** på lagerställekortet, finns det en annan process som används för att införa artiklar. I det här fallet ska du använda **Dist.lager artikelinförsel** fönstret att hantera artikelinförsel. Dist.lager artikelinförsel fungerar på samma sätt som Lagerartikelinförsel, förutom att du registrerar artikelinförseln istället för att bokföra informationen. Observera att registrering av artikelinförsel inte bokför inleveransen för artiklarna. Den uppdateras bara lagerplatsinnehåll. Du lagerchef kan du använda ett artikelinförselkalkylark för att organisera artikelinförselinformationen innan du skapar de individuella artikelinförselinstruktionerna.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
@@ -36,10 +36,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Införa artiklar order för order och bokföra inleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Införa artiklar för flera order i en avancerad lagerkonfiguration.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 |Införa producerade eller monterade artiklar i engrundläggande eller avancerad lagerkonfiguration.|[Föra in produktions- eller monteringsutflöde](warehouse-how-to-put-away-production-output.md)|
-|Planera optimerade införselinstruktioner för ett antal bokförda lagerinleveranser i stället för att lagerarbetare agerar direkt på inleveranser.|[Planera artikelinförsel i förslag](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Planera optimerade införselinstruktioner för ett antal bokförda lagerinleveranser i stället för att lagerarbetare agerar direkt på inleveranser.|[Planera artikelinförsel i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
 |Lägga tillbaka artiklar som har plockats tekniskt med en intern plockning, till exempel för en produktionsorder som inte förbrukat det förväntade antalet.|[Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Dela upp en införselrad för att placera en del av införselantalet på tillgängliga lagerplatser eftersom den bestämda lagerplatsen är full.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få direkt tillgång till införslar som tilldelats dig som lagerarbetare.|[Hitta distributionslagertilldelningar](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Få direkt tillgång till införslar som tilldelats dig som lagerarbetare.|[Hitta distributionslagerfördelningar](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

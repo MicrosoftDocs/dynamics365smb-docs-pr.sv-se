@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Hantera användare och behörigheter
@@ -22,11 +22,9 @@ Om du vill lägga till användare i [!INCLUDE[d365fin](includes/d365fin_md.md)],
 
 När användare skapas i Office 365, kan de importeras till fönstret **Användare** med åtgärden **Få användare från Office 365**. Användare tilldelas behörighetsuppsättningar beroende på planen som tilldelats användaren i Office 365.
 
-Du kan sedan tilldela behörighetsuppsättningar för användarna för att definiera vilka databasobjekt, och därmed vilka gränssnittselement, de har tillgång till och i vilka företag.
+Du kan sedan tilldela behörighetsuppsättningar för användarna för att definiera vilka databasobjekt, och därmed vilka gränssnittselement, de har tillgång till och i vilka företag. Du kan lägga till användare i användargrupper. Detta gör det enklare att tilldela samma behörighetsuppsättning till flera användare.
 
 En behörighetsuppsättning är en samling behörigheter för specifika objekt i databasen. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flera fördefinierade behörighetsuppsättningar levereras som standard. Du kan använda dessa behörighetsuppsättningar som redan har definierats, ändra standardbehörighetsuppsättningarna eller skapa ytterligare behörighetsuppsättningar.
-
-Du kan lägga till användare i användargrupper. Detta gör det enklare att tilldela samma behörighetsuppsättning till flera användare.
 
 Administratörer kan använda fönstret **Användarinställningar** för att definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad.
 
@@ -42,13 +40,9 @@ Du kan skapa användargrupper för att hantera behörighetsuppsättningar för g
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
 2. Alternativt kan du i fönstret **Användare** välja åtgärden **Användargrupper**.
-3. I fönstret **användargrupper** väljer du en befintlig grupp som du vill kopiera och väljer sedan åtgärden **kopiera användargrupp** åtgärd.
-4. I fältet **Ny användarkod** anger du namnet på den nya gruppen och väljer sedan knappen **OK**.
-
-    I stället för att kopiera, kan du välja den åtgärden Ny för att skapa en ny rad för en tom användargrupp, som du sedan fyller i manuellt.
-5. Om du villl lägga till ytterligare användare väljer du i fönstret **Användargrupp** åtgärden **Medlemmar i användargrupp**.
-6. I fönstret **Medlemmar i användargrupp** på en ny rad fyller du i fälten efter behov genom att välja från befintliga användare.
-7. Om du villl lägga till ytterligare behörighetsuppsättningar väljer du i fönstret **Användargrupp** åtgärden **Behörighetsuppsättningar för användargrupp**.
+3. I fönstret **Användargrupp** väljer du åtgärden **Medlemmar i användargrupp**.
+6. I fönstret **Användargrupp** väljer du åtgärden **Lägg till användare**.
+7. Om du vill lägga till ytterligare behörighetsuppsättningar väljer du i fönstret **Användargrupper** åtgärden **Behörighetsuppsättningar för användargrupp**.
 8. I fönstret **Behörighetsuppsättningar för användargrupp** på en ny rad fyller du i fälten efter behov genom att välja från befintliga behörighetsuppsättningar.
 
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare

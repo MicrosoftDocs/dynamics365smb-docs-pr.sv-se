@@ -16,10 +16,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 55336af5d57955ef7544aa81dba012e72ff8d52a
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelspårning och reservationer
+# <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
 Samtidigt användning av reservation och specifik artikelspårning är ovanlig, eftersom de båda skapar en koppling mellan tillgång och efterfrågan. Förutom i situationer där en kund eller en produktionsplanerare begär ett visst parti, är det sällan meningsfullt att reservera lagerartiklar som har redan artikelspårningsnummer för viss koppling. Även om det är möjligt att reservera artiklar som kräver särskild artikelspårning, krävs särskilda funktioner för att undvika konflikter mellan orderhandläggare som begär samma spårade artiklar.  
   
 Begreppet Sen bindning säkerställer att en icke-specifik reservation av serienummer eller partinummer förblir löst kopplad till bokföringen. Vid bokföringstiden kan reservationsystemet blanda om icke-specifika reservationer för att se till att fasta kopplingar är möjliga för det serie- eller partinummer som faktiskt plockas. Under tiden görs serie- eller partinumret tillgängligt för specifik reservation i andra dokument som begär just det serie- eller partinumret.  

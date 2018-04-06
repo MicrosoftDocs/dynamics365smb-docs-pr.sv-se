@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa f�
 ## <a name="accountant-role-center"></a>Rollcentret Revisor
 Rollcentret är en instrumentpanel med aktivitetpaneler sida som visar nyckeltal i realtid och ger dig snabb åtkomst till data. På menyn längst upp i fönstret har du tillgång till fler åtgärder, t ex öppna mest vanliga ekonomiska rapporter och rapporter i Excel. I navigeringsrutan till vänster, kan du snabbt växla mellan de listor som du använder oftast. Om du expanderar **Start**-menyn i navigeringsrutan, visas andra områden såsom **bokförda dokument** med olika typer av dokument som har bokförts i företaget.  
 
-Om du har använt [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du starta en förteckning över videor direkt från din startsida. Du kan också starta en **komma igång** som pekar ut viktiga områden.  
+Om du precis har börjat använda [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du köra videoförteckning direkt från ditt rollcenter. Du kan också starta en **Komma igång**-demonstration som pekar ut viktiga områden.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Om du är en revisor med flera klienter, använd [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] för en bättre överblick över dina kunder. Härifrån kan du komma åt varje klients klientorganisationen i [!INCLUDE[d365fin](includes/d365fin_md.md)] och använda den för tollcentret redovisare som beskrivs ovan. Mer information finns i [Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b58c3889196cba3a6ddbeb50249a6ae962c4ea1
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Scenarioexempel: Definiera fast distribution beräknad på fördelningskvot
@@ -56,7 +56,7 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 15. På tredje raden, i fältet **Del**, ange fördelningssatsen **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar automatiskt fältet **Procent** med hjälp av ett procenttal som är beroende av alla tre fördelningskvoter som anges i fältet **Dela** för alla tre rader.  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar automatiskt fältet **Procent** med hjälp av ett procenttal som är beroende av alla tre fördelningskvoterna, som anges i fältet **Del** för alla tre rader.  
 
 ## <a name="see-also"></a>Se även  
 [Skapa fördelningskälla och mål](finance-how-to-set-up-allocation-source-and-targets.md)   

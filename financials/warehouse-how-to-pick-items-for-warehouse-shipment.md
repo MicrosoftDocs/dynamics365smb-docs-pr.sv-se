@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
@@ -26,7 +26,7 @@ Du kan inte skapa ett dokument för dist.lager plockning från grunden, eftersom
 
 Du kan skapa dokumentet för dist.lager plockning med ett pullmetod genom att öppna ett tomt distributionslagerdokumentet, hitta källdokument som släpps till leveransen, och sedan skapa plockningsraderna för de utleveranser. Du kan använda **Hämta källdokument** , eller **Filter för att hämta urspr.dok.** funktioner för att undersöka källdokument som är klara för utleverans.
 
-Du kan också använda **Plockningsförslag** fönstret för att flytta plockningsrader i batchläge. Mer information finns i [Planera plockningar i förslag](warehouse-how-to-plan-picks-in-worksheets.md).  
+Du kan också använda **Plockningskalkylark** fönstret för att flytta plockningsrader i batchläge. Mer information finns i [Planera plockningar i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 Du kan också skapa dokument för dist.lager plockning med pushmetod från **Dist.lager utleverans** fönstret, genom att välja **Skapa plockning**.  
 

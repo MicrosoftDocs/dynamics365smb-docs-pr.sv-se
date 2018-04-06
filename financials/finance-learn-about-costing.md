@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="about-inventory-costing"></a>Om Lagerkostnad
@@ -29,7 +29,7 @@ Hantering av Lagerkostnad används vid registrering och rapportering av rörelse
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
 |skilja mellan de fem olika värderingsprinciperna och deras påverkan på kostnadsflöden.|[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)|  
-|lära dig hur artikelkopplingstransaktioner dynamiskt kopplar lagerminskningar till lagerökningar så att kontrollen över kostnadsflödena bibehålls.|[Designdetaljer: Objektkoppling](design-details-item-application.md)|  
+|lära dig hur artikelkopplingstransaktioner dynamiskt kopplar lagerminskningar till lagerökningar så att kontrollen över kostnadsflödena bibehålls.|[Designdetaljer: Artikelkoppling](design-details-item-application.md)|  
 |lära dig hur en artikels styckkostnad löpande uppdateras med kostnaden för dess senaste transaktion enligt artikelns värderingsprincip.|[Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)|  
 |lära dig hur en artikels genomsnittskostnad dynamiskt beräknas enligt den valda genomsnittskostnadsperioden.|[Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)|  
 |urskilja förväntad kostnad (ännu inte fakturerad) från faktisk kostnad och lära dig hur den hanteras i redovisningen.|[Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)|  

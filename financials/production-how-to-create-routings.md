@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
 Tillverkningsföretag använder verksamhetsföljder för att visa produktionsprocessen.
 
-Operationsföljden utgör också grunden för processplanering, kapacitetsplanering, planerad tilldelning av materialbehov och produktionsdokument.  
+Operationsföljden utgör också grunden för processplanering, kapacitetsplanering, planerad fördelning av materialbehov och produktionsdokument.  
 
 För produktionsstrukturer kopplas verksamhetsföljderna till produktionens slutartikel. En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas i fönstret **Prod.orderverksamhetsföljd**.  
 
@@ -112,7 +112,7 @@ Med versionsprincipen kan du hantera flera versioner av en verksamhetsföljd. St
     Den nyskapade versionen tilldelas automatiskt statusen **Ny**.  
 6.  Om du vill skapa rader för åtgärden, markera den första tomma raden och fyll i **Åtgärdsnr.** enligt verksamhetssekvensen.
 
-    Raderna i operationen sorteras i stigande ordning efter verksamhetsnummer. Du rekommenderas välja tillräcklig bredd för det här steget för att kunna göra ändringar senare. **Nästa verksamhetsnr.** Fältet refererar till följande operation. Operationsnumret kan anges direkt.
+    Raderna i operationen sorteras i stigande ordning efter operationsnummer. Du rekommenderas välja tillräcklig bredd för det här steget för att kunna göra ändringar senare. **Nästa verksamhetsnr.** Fältet refererar till följande operation. Operationsnumret kan anges direkt.
 
 7. När verksamhetsföljdversionen har slutförts kan du ange **Status** till **godkänd**.
 

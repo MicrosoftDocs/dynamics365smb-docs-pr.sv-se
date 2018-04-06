@@ -1,6 +1,6 @@
 ---
 title: "Så här beräknar du ett orderlöftesdatum | Microsoft Docs"
-description: "Orderlöftesfunktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsförslagsrader för de datum som du accepterar."
+description: "Orderlöftesfunktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpskalkylarksrader för de datum som du accepterar."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
@@ -37,9 +37,9 @@ Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, el
 - planerat utleveransdatum +- leveranstid = planerat leveransdatum  
 
 ## <a name="about-order-promising"></a>Om Orderlöfte
-Med funktionen Orderlöfte kan du lova att en order ska levereras på ett visst datum. Det datum då en artikel är disponibel eller kapabel att lova beräknas och orderrader skapas för de datum som du accepterar. Funktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsförslagsrader, om artiklar måste först vara inköp för de datum som du accepterar.
+Med funktionen Orderlöfte kan du lova att en order ska levereras på ett visst datum. Det datum då en artikel är disponibel eller kapabel att lova beräknas och orderrader skapas för de datum som du accepterar. Funktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpskalkylarksrader, om artiklar måste först vara inköp för de datum som du accepterar.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  använder två grundläggande begrepp:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] använder två grundläggande begrepp:  
 
 - Disponibelt att lova (ATP)  
 - Kapabel att lova (CTP)  
@@ -64,7 +64,7 @@ Om kunden inte begär ett visst leveransdatum anges leveransdatum till arbetsdat
 - Utleveransdatum + Tid för avgående lagerhantering + Planerat utleveransdatum + Hanteringstid = Datum  
 - Planerat utleveransdatum + Leveranstid = Planerat leveransdatum  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  verifierar sedan om beräknat leveransdatum är realistiskt. Det beräknar bakåt i tiden så att det blir möjligt att fastställa när artikeln måste vara tillgänglig på det utlovade datumet. Det utförs med hjälp av följande formler:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verifierar sedan om beräknat leveransdatum är realistiskt. Det beräknar bakåt i tiden så att det blir möjligt att fastställa när artikeln måste vara tillgänglig på det utlovade datumet. Det utförs med hjälp av följande formler:  
 
 - Planerat leveransdatum - Leveranstid = Planerat utleveransdatum  
 - Planerat utleveransdatum - Tid för avgående lagerhantering = Utleveransdatum  
@@ -91,8 +91,8 @@ Förutom ett externt orderlöfte som du kan utföra i fönstret **Orderlöftesra
 
     "3v" anger till exempel att offset-tiden är tre veckor. Använd "c" som ett prefix för alla de här koderna när du ska ange aktuell period. Om du t.ex. vill att offset-tiden ska vara den aktuella månaden skriver du **cm**.  
 3. Ange en nummerserie i fältet **Orderlöfte nr-serie** genom att markera en rad från listan i fönstret **Nr-serier**.  
-4. Ange en orderlöftesmall i fältet **Orderlöftesmall** genom att välja en rad från listan i fönstret **Inköpsförslagsmallista**.  
-5. Ange ett inköpsförslag i fältet **Orderlöftesförslag** genom att markera en rad från listan i fönstret **Inköpsförslagsnamn**.
+4. Ange en orderlöftesmall i fältet **Orderlöftesmall** genom att välja en rad från listan i fönstret **Inköpskalkylarksmallista**.  
+5. Ange ett inköpskalkylark i fältet **Orderlöfteskalkylark** genom att markera en rad från listan i fönstret **Inköpskalkylarksnamn**.
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Så här anger du ankommande lagerhanteringstid i lagerinställningarna  
 Om du vill ange en ankommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret och för lagerstället.    

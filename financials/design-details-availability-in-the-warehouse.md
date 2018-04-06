@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0b560d61d39ba22f0008e6cb5ef11d2f6c9aa9e0
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
@@ -32,7 +32,7 @@ Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributio
 ## <a name="quantity-available-to-pick"></a>Disponibelt antal att plocka  
  Om till exempel plockningsalgoritmen inte beaktar artikelantal som har reserverats för en väntande försäljningsframgångs, kan dessa artiklar plockas för en annan försäljningsorder som ska utlevereras tidigare, vilket hindrar att den första försäljningen uppfylls. För att undvika den här situationen drar plockningsalgoritmen bort antal som har reserverats för andra avgående dokument, antal på befintliga plockdokument och antal som har plockas men som ännu inte har levererats eller förbrukats.  
 
- Resultatet visas i fältet **Disponibelt att plocka** i fönstret **Plockningsförslag** i fönstret där fältet beräknas dynamiskt. Värdet beräknas också när användaren skapar distributionslagerplockningarna direkt för avgående dokument. Sådana utgående dokument kan vara försäljningsorder, produktionsförbrukning eller utgående överföringar, där resultatet visas i de relaterade antalsfälten, till exempel **Ant. att hantera**.  
+ Resultatet visas i fältet **Disponibelt att plocka** i fönstret **Plockningskalkylark** i fönstret där fältet beräknas dynamiskt. Värdet beräknas också när användaren skapar distributionslagerplockningarna direkt för avgående dokument. Sådana utgående dokument kan vara försäljningsorder, produktionsförbrukning eller utgående överföringar, där resultatet visas i de relaterade antalsfälten, till exempel **Ant. att hantera**.  
 
 > [!NOTE]  
 >  Angående prioriteten för reservationer subtraheras antalet som ska reserveras från antalet som är disponibelt att plockas. Till exempel om antalet som är tillgängligt på plocklagerplatser är 5 enheter, men 100 enheter finns på införsel-lagerplatser, och du försöker att reservera mer än 5 enheter för ytterligare en order, kommer ett felmeddelande visas eftersom den här extra kvantiteten måste vara tillgänglig på plocklagerplatser.  

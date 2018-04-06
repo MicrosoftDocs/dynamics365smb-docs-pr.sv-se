@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
@@ -32,7 +32,7 @@ I fönstret **Artikeldisposition per tidslinje** kan du ändra vissa leveransord
 
 För mer information om de olika typerna av planeringsrader som visas, se fältet Beskrivning på snabbfliken **Händelseändringar**.  
 
-När du väljer **Spara ändringar** i fönstret **Artikeldisposition per tidslinje** kopieras ändringarna som du har gjort till planering eller inköpsförslaget. Nu kan du använda dem med hjälp av funktionen **Skapa order från planering**.  
+När du väljer **Spara ändringar** i fönstret **Artikeldisposition per tidslinje** kopieras ändringarna som du har gjort till planering eller inköpskalkylarket. Nu kan du använda dem med hjälp av funktionen **Skapa order från planering**.  
 
 I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och släppa. Som alternativ kan du ändra fälten **Förfallodatum** och **Antal** på snabbfliken **Händelseändringar** och se mötesändringarna grafiskt direkt på snabbfliken **Tidslinje** i fönstret **Planeringsförslag**.  
 
@@ -42,21 +42,21 @@ I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och 
     Fönstret **Artikeldisposition per tidslinje** öppnas med artikelnummer, lagerstället och varianten av artikeln på den aktuella planeringsraden förifyllda i fälten på snabbfliken **Alternativ**. Snabbfliken **Tidslinje** visar en grafisk återgivning av artikelns planerade lager, inklusive planeringsförslag.  
 
 2.  Se till att fältet **Ta med planeringsförslag** är markerat.  
-3.  Hitta leveransorderförslaget som du vill ändra. Du kan identifiera modifierbara element med den gröna cirkeln och diskikonen. Mer information om de olika symbolerna finns i "Symboler och ikoner på snabbfliken Tidslinje."  
+3.  Hitta leveransorderkalkylarket som du vill ändra. Du kan identifiera modifierbara element med den gröna cirkeln och diskikonen. Mer information om de olika symbolerna finns i "Symboler och ikoner på snabbfliken Tidslinje."  
 4.  Markera pekaren över den gröna cirkeln tills den förstoras och pekaren ändras till flyttform (fyra pilar).  
 5.  Tryck på och håll ned musknappen samtidigt som du drar du pekaren uppåt eller nedåt för att ändra antal. Tryck på och håll ned musknappen samtidigt som du drar du pekaren till vänster eller höger för att ändra förfallodatum.  
 6.  Förutom att flytta element genom att dra och släppa kan du ändra planeringsförslag genom att använda funktionerna i den nedrullningsbara menyn. Gå till den nedrullningsbara menyn på den gröna cirkeln i ett föreslaget leveranselement och välja en av följande funktioner  
 
     |Funktion|Beskrivning|  
     |--------------|---------------------------------------|  
-    |**Skapa ny leverans**|Skapa ett nytt element på punkten där du går till nedrullningsbara menyn som representerar en ny föreslagen leveransorder. Det blir en ny rad i planeringsförslaget, när du väljer **Spara ändringar**.<br /><br /> **OBS!** Om fälten **Lagerställefilter** eller **Variantfilter** på snabbfliken **Alternativ** är tomma, eller har fler än en filtervärde, skapas den nya tillgången, och senare sparas till planering eller inköpsförslaget med följande koder:<br /><br /> * Om fältet är tomt kommer den nya tillgången skapas utan lagerställe eller en variantkod.<br /><br /> * Om fler än en filtervärde definieras, skapas den nya tillgången för den första filtervärdet enligt sorteringsmetoden.<br /><br /> Om du vill ha en annan variant eller lagerställekod, måste du ändra numret manuellt på den nya planeringsraden.|  
+    |**Skapa ny leverans**|Skapa ett nytt element på punkten där du går till nedrullningsbara menyn som representerar en ny föreslagen leveransorder. Det blir en ny rad i planeringsförslaget, när du väljer **Spara ändringar**.<br /><br /> **OBS!** Om fälten **Lagerställefilter** eller **Variantfilter** på snabbfliken **Alternativ** är tomma, eller har fler än en filtervärde, skapas den nya tillgången, och senare sparas till planering eller inköpskalkylarket med följande koder:<br /><br /> * Om fältet är tomt kommer den nya tillgången skapas utan lagerställe eller en variantkod.<br /><br /> * Om fler än en filtervärde definieras, skapas den nya tillgången för den första filtervärdet enligt sorteringsmetoden.<br /><br /> Om du vill ha en annan variant eller lagerställekod, måste du ändra numret manuellt på den nya planeringsraden.|  
     |**Autojustera tillgång**|Optimerar en ny efterfrågan som du har skapat i diagrammet genom att kontrollera att den resulterar i noll i lagret före nästa leverans.|  
-    |**Ta bort tillgång**|Ta bort element i Snabbfliken **Tidslinje** och tar bort planeringsraden, när du väljer **Spara ändringar**. Ikonen ändras till en diskenhet med ett rött kors när leveransen har tagits bort.<br /><br /> **OBS!:** Du kan endast ta bort en leverans av åtgärdsmeddelandetypen **Ny**. När du har valt **Spara ändringar** måste du manuellt ta bort den aktuella planeringsraden i planeringen eller inköpsförslaget.|  
+    |**Ta bort tillgång**|Ta bort element i Snabbfliken **Tidslinje** och tar bort planeringsraden, när du väljer **Spara ändringar**. Ikonen ändras till en diskenhet med ett rött kors när leveransen har tagits bort.<br /><br /> **OBS!:** Du kan endast ta bort en leverans av åtgärdsmeddelandetypen **Ny**. När du har valt **Spara ändringar** måste du manuellt ta bort den aktuella planeringsraden i planeringen eller inköpskalkylarket.|  
 
 7.  Välj åtgärden **Läs in på nytt** om du vill återställa alla ändringar som du har gjort, när du öppnade det sista fönstret **Artikeldisposition per tidslinje** eller **Läs in på nytt**.  
 8. Välj **Spara ändringar** för att kopiera ändrat antal och datumändringar i planeringen eller rekvisitionsraderna när elementen placeras där du vill ha dem i diagrammet, som motsvarar de grafiska elementen.  
 
-För att verkställa planändringar för leverans måste du följa de resulterande åtgärdsmeddelandena från planering eller inköpsförslaget. Mer information finns i Skapa order från planering.
+För att verkställa planändringar för leverans måste du följa de resulterande åtgärdsmeddelandena från planering eller inköpskalkylarket. Mer information finns i Skapa order från planering.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler och ikoner på snabbfliken Tidslinje
  |Symbol/ikon|Beskrivning|  
@@ -74,7 +74,7 @@ När du öppnar listrutan för snabbfliken **tidslinje** visas följande funktio
  |--------------|---------------------------------------|  
  |**Skapa ny leverans**|Skapa ett nytt element på punkten där du går till nedrullningsbara menyn som representerar en ny föreslagen leveransorder. Det blir en ny rad i planeringsförslaget när du väljer **Spara ändringar** på fliken **Process**.<br /><br /> Eventuella filtervärden, som definieras i fälten **Lagerställefilter** eller **Variantfilter** på Snabbfliken **Alternativ**, ska kopplas till den nya leveransordern. **Obs!** Om fältet är tomt eller har fler än ett filtervärde skapas den nya leveransordern med hjälp av följande koder: <ul><li>Om fältet är tomt kommer den nya tillgången skapas utan lagerställe eller en variantkod.</li><li>Om fler än en filtervärde definieras skapas den nya tillgången genom att den första filtervärdet enligt sorteringsordningen används.</li></ul> Om du vill ha en annan variant eller lagerställekod i den nya leveransordern måste du ändra numret manuellt på den nya planeringsraden.|  
  |**Autojustera tillgång**|Optimerar en ny efterfrågan som du har skapat i diagrammet genom att kontrollera att den resulterar i noll i lagret före nästa leverans.|  
- |**Ta bort tillgång**|Tar bort element på snabbfliken **Tidslinje**  och tar bort planeringsraden när du väljer **Spara ändringar** på fliken **Process**. Ikonen ändras till en diskenhet med ett rött kryss när leveransen har tagits bort. **OBS!:** Du kan endast ta bort en leverans av åtgärdsmeddelandetypen *Ny*. När du har valt **Spara ändringar** på fliken **Process** måste du manuellt ta bort den aktuella planeringsraden i planeringen eller inköpsförslaget.|  
+ |**Ta bort tillgång**|Tar bort element på snabbfliken **Tidslinje**  och tar bort planeringsraden när du väljer **Spara ändringar** på fliken **Process**. Ikonen ändras till en diskenhet med ett rött kryss när leveransen har tagits bort. **OBS!:** Du kan endast ta bort en leverans av åtgärdsmeddelandetypen *Ny*. När du har valt **Spara ändringar** på fliken **Process** måste du manuellt ta bort den aktuella planeringsraden i planeringen eller inköpskalkylarket.|  
  |**Visa dokument**|Öppnar ordern, planeringsraden eller prognosen som elementet representerar.|  
  |**Zooma ut (Ctrl++)**|Gör skalan på x-axeln större, så att färre dagar visas. **Obs!**  Du kan också göra detta genom att trycka på Ctrl + rulla med mushjulet.|  
  |**Zooma in (Ctrl+-)**|Gör skalan på x-axeln mindre, så att fler dagar visas. **Obs!**  Du kan också göra detta genom att trycka på Ctrl + rulla med mushjulet.|  

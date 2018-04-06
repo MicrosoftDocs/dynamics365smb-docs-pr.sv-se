@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a03575bce7d1029e47f2aa1a46d5d0dcf585ab2a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f72a0fc7ce8e1d25d3b084f30f079778860a947c
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
@@ -25,20 +25,20 @@ Kunderna är källan till din inkomst. Du måste registrera varje kund som du s�
 Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskoder som du kan välja mellan, när du fyller i kundkort. Mer information finns i [Konfigurera försäljning](sales-setup-sales.md).
 
 > [!NOTE]  
->   Om kundmallar finns för olika kundtyper, visas ett fönster när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.
+>   Om kundmallar finns för olika kundtyper, visas ett fönster när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns så använder nya kundkort alltid den mallen.
 
-## <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
-1. På startsidan väljer du åtgärden **Kunder** för att öppna listan över befintliga kunder.  
+## <a name="to-create-a-new-customer-card"></a>Så här skapar du ett nytt kundkort
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kunder** och välj sedan relaterad länk.  
 2. I fönstret **Kunder** väljer du åtgärden **Ny**.
 
-    Om endast en kundmall finns, då öppnas ett nytt kundkort med fält ifyllda med information från mallen.
+    Om endast en kundmall finns så öppnas ett nytt kundkort med vissa fält ifyllda med information från mallen.
 
     Om fler än en kundmall finns, öppnas ett fönster där du kan välja kundmall. I detta fall, följ nästa två steg.
 3. Välj den mall som du vill använda för det nya kundkortet i fönstret **Välj en mall för en ny kund**.
 4. Välj **OK**. Ett nytt kundkort öppnas med ifyllda fält med information från mallen.  
 5. Fortsätt att fylla i eller ändra fält på kundkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-På snabbfliken **Försäljningspriser** ser du specialpriser eller rabatter som du beviljar för kunden om vissa kriterier uppfylls, till exempel artikel, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
+På snabbfliken **Försäljningspriser** ser du specialpriser eller rabatter som du beviljar för kunden om vissa villkor uppfylls, till exempel artikel, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Kunden är nu registrerad, och kundkortet är klart att användas i försäljningsdokument.
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 62070ef4e580a3bd665130c9b017bf164bbe2142
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-tracking-lines-window"></a>Designdetaljer: Fönster för artikelspårningsrader
@@ -30,7 +30,7 @@ För att koordinera flödet av serie- och partinummer genom lagret finns följan
 * För ankommande artikelspårningsrader kan du inte bokföra det relaterade dokument om en artikel av samma variant och med samma serienumret redan finns i lagret. Om du försöker att bokföra en positiv rad för en lagerartikel med samma variant och serienummer spärrar ett felmeddelande bokföringen. Men för både ankommande och utgående artikelspårningsrader i öppna dokument kan du använda samma kombination av serie- eller partinummer som hör till olika källdokumentrader, d.v.s. som finns i olika instanser av fönstret **Artikelspårningsrader** tills det relaterade dokumentet har bokförts.  
 * Om artikeln ställs in för serienummerspecifik spårning eller artikelnummerspecifik spårning kan du inte bokföra en utgående dokumentrad, såvida inte en artikel med det angivna serie- eller partinumret finns i lager. Om du försöker att bokföra en avgående dokumentrad för en artikel med ett serie-/partinummer som inte finns i lagret spärrar ett felmeddelande bokföringen.  
   
-Reglerna för att registrera data i fönstret **Artikelspårningsrader** stöder även kopplingsprinciperna som styr orderspårning, planering och reservation. Mer information finns i [Designdetaljer: Artikelspårning och planering](design-details-item-tracking-and-planning.md).  
+Reglerna för att registrera data i fönstret **Artikelspårningsrader** stöder även kopplingsprinciperna som styr orderspårning, planering och reservation. Mer information finns i [Designdetaljer: Artikelkoppling och planering](design-details-item-tracking-and-planning.md).  
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)

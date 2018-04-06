@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
@@ -36,7 +36,7 @@ Monteringsartiklar karakteriseras av sitt återanskaffningssystem och sin monter
 -   Skapa en monteringsstruktur som anger monteringskomponenterna och resursen som ingår i monteringsartikeln.  
 
 ### <a name="selling-customized-assembly-items"></a>Sälja anpassade monteringsartiklar  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Med  blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
+Med [!INCLUDE[d365fin](includes/d365fin_md.md)] blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
 
 -   Skapa en ren ATO-försäljningsorderrad där hela kvantiteten är inaktiverad och måste monteras före leverans.  
 -   Anpassa ATO-objekt.  
@@ -140,8 +140,8 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     |**Artikelnr**|**Zonkod**|**Lagerplatskod**|**Antal**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|PLOCKNING|D-01-0001|2.0|  
-    |80005|PLOCKNING|D-01-0001|2.0|  
+    |80001|PLOCKNING|D-01-0001|20|  
+    |80005|PLOCKNING|D-01-0001|20|  
     |80011|PLOCKNING|D-01-0001|20|  
     |80014|PLOCKA|W-01-0001|20|  
     |80203|PLOCKA|W-01-0001|20|  

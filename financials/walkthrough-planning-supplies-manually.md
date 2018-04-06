@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: de00ca393b5d2c28292ae3deba743ce3447b6145
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
@@ -69,7 +69,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
      När fönstret **Orderplanering** har öppnats måste en plan beräknas för att visa den nya efterfrågan sedan den senaste beräkningen.  
 
-2.  Välj åtgärden **Beräkna plan**.  
+2.  Välj åtgärden **Skapa inköpsförslag**.  
 
      Planeringssystemet analyserar alla ny behov som har tillkommit, exempelvis ny försäljning, förändrad försäljning och produktionsorder.  
 
@@ -185,7 +185,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
      Fönstret **Orderplanering** öppnas i en vy som är alltid filtrerad efter specifika produktionsbehov. Det går inte att göra ändringar i fönstret. Du måste beräkna en plan innan du kan se ytterligare behov.  
 
-4.  Välj åtgärden **Beräkna plan**.  
+4.  Välj åtgärden **Skapa inköpsförslag**.  
 
      Lägg märke till att fyra nya produktionsorder visas som oplanerat produktionsbehov härlett från order **101001**. De nya raderna representerar nytt produktionsbehov från de delprodukter som måste skapas för att producera ordern.  
 
@@ -209,7 +209,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
      I fönstret **Orderplanering** kan du beräkna en plan igen för att planera för cykelstrukturen.  
 
-8.  Välj åtgärden **Beräkna plan** för att beräkna planen på nytt enligt instruktionerna i den inbäddade hjälptexten.  
+8.  Välj åtgärden **Skapa inköpsförslag** för att Skapa inköpsförslagen på nytt enligt instruktionerna i den inbäddade hjälptexten.  
 
      De två nya raderna representerar ytterligare produktionsbehov härlett från de delprodukter som planerades i föregående steg. Vi rekommenderar att du skapar två produktionsorder för att leverera hjulnaven, en för 10 framnav och en för 10 baknav.  
 
@@ -219,7 +219,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
 10. Välj åtgärden **Skapa order**.  
 11. I fältet **Skapa order för**, markera alternativet **Alla rader** och välj sedan **OK**. Kontrollera om det finns ytterligare behov för produktion av den överordnade artikeln, cykeln, som säljs på försäljningsorder 1001.  
-12. Välj åtgärden **Beräkna plan**.  
+12. Välj åtgärden **Skapa inköpsförslag**.  
 
      Meddelandet tyder på att alla artiklar som behövs nu är levererade. Kontrollera de fast planerade produktionsorder som skapas.  
 

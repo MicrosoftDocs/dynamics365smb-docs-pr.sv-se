@@ -1,5 +1,5 @@
 ---
-title: "Söka efter data och ange filterkriterier | Microsoft Docs"
+title: "Söka efter data och ange filtervillkor | Microsoft Docs"
 description: "Beskriver hur du arbetar med filter, till exempel snabbfiltret för att förfina resultaten när du söker efter data."
 services: project-madeira
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11d7ef56e980ba263dba6328b2f2f08b86410242
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Söka, filtrera och sortera data
 Det finns några saker som du kan göra som hjälper dig att hitta, precisera och skanna poster i en lista. Dessa inkluderar sortering, sökning och filtrering.
 
-När du vill söka efter data, till exempel kundnamn, adresser eller produktgrupper, anger du kriterier. I sökkriterier kan du använda alla siffror och bokstäver som du normalt kan använda i det specifika fältet. Dessutom kan du använda specialtecken som du vill filtrera resultatet ytterligare. Det finns två sätt att söka: använda snabbfilter eller kolumn filtren.
+När du vill söka efter data, till exempel kundnamn, adresser eller produktgrupper, anger du villkor. I sökvillkor kan du använda alla siffror och bokstäver som du normalt kan använda i det specifika fältet. Dessutom kan du använda specialtecken som du vill filtrera resultatet ytterligare. Det finns två sätt att söka: använda snabbfilter eller kolumn filtren.
 
 ## <a name="sorting"></a>Sortering
 Med hjälp av sorteringsfunktionen kan du snabbt få en överblick över dina data. Om t.ex. har många kunder kan du sortera dem efter **Kundnr.**, **Kundbokföringsmall**, **Valutakod**, **Lands-/regionkod**, eller **Momsregistreringsnr.** för att få den översikt som du behöver.
@@ -33,19 +33,19 @@ Om du vill sortera en lista, kan du välja en kolumn rubriktexten för att växl
 >   Sortering stöds inte på bilder, BLOB-fält, Flowfilter och fält som inte tillhör samma tabell.  
 
 ## <a name="searching-by-using-the-quick-filter"></a>Sök genom att använda snabbfiltret
-Du kan lägga till filter för alla sidor genom att använda snabbfiltret. Snabbfiltret aktiveras genom att välja ikonen med förstoringsglas i det övre högra hörnet av en sida. Filtrering av den här typen används för att snabbt ange kriterier.
+Du kan lägga till filter för alla sidor genom att använda snabbfiltret. Snabbfiltret aktiveras genom att välja ikonen med förstoringsglas i det övre högra hörnet av en sida. Filtrering av den här typen används för att snabbt ange villkor.
 
 > [!IMPORTANT]  
->   Snabbfiltret ger enkelt tillgång till filterdata genom att ange vanlig text, men ger även många alternativet för sökningkriterier. Beroende på om du anger vanlig text, eller text inklusive symboler, uppför sig snabbfiltret på olika sätt.  
+>   Snabbfiltret ger enkelt tillgång till filterdata genom att ange vanlig text, men ger även många alternativet för sökningvillkor. Beroende på om du anger vanlig text, eller text inklusive symboler, uppför sig snabbfiltret på olika sätt.  
 
-* Om du anger vanlig text i sökkriterierna tolkas sökkriterierna som en skiftlägesokänslig sökning som innehåller viss text.  
-* Om du anger en text inklusive symboler i sökkriterierna tolkas sökkriterierna exakt som du har angett den, och sökningen är skiftlägeskänslig.
+* Om du anger vanlig text i sökvillkorna tolkas sökvillkorna som en skiftlägesokänslig sökning som innehåller viss text.  
+* Om du anger en text inklusive symboler i sökvillkorna tolkas sökvillkorna exakt som du har angett den, och sökningen är skiftlägeskänslig.
 
 ### <a name="quick-filter-criteria"></a>Snabbfilterkriterium
 <!-- html syntax because symbols conflict with MarkDown syntax -->
 <TABLE>
   <TR>
-    <TH>Sökkriterier</TH>
+    <TH>Sökvillkor</TH>
     <TH>Tolkat som…</TH>
     <TH>Returer...</TH>
   </TR>
@@ -95,11 +95,11 @@ Du kan lägga till ett filter för en eller flera kolumner i en lista. Filtrera 
   -  Ange filtervillkor i rutan Se avsnittet Mer information.
 4. Välj knappen **OK**.
 
-## <a name="filter-criteria-and-symbols"></a>Filterkriterier och symboler
-När du anger kriterier kan du använda alla siffror och bokstäver som du normalt kan använda i fältet. Dessutom kan du använda specialtecken som du vill filtrera resultatet ytterligare. I tabellen nedan visas de symboler som kan användas i filter.  
+## <a name="filter-criteria-and-symbols"></a>Filtervillkor och symboler
+När du anger villkor kan du använda alla siffror och bokstäver som du normalt kan använda i fältet. Dessutom kan du använda specialtecken som du vill filtrera resultatet ytterligare. I tabellen nedan visas de symboler som kan användas i filter.  
   
 > [!IMPORTANT]  
->  Det kan finnas fall där fältvärdena innehåller dessa symboler och du vill filtrera efter de. Genom att ibland behöva du inkludera det filteruttryck som innehåller symbolen med citattecken (”). Om du vill filtrera poster som börjar med texten till exempel *S&R*, är filteruttrycket **S&R*'**.  
+>  Det kan finnas fall där fältvärdena innehåller dessa symboler och du vill filtrera efter de. Genom att ibland behöva du inkludera det filteruttryck som innehåller symbolen med citattecken (”). Om du exempelvis vill filtrera poster som börjar med texten till exempel *S&R*, är filteruttrycket **'S&R*'**.  
   
 ### <a name="-interval"></a>(..) Intervall  
   

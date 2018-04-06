@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
@@ -30,7 +30,7 @@ Det första steget när du skapar ett utflöde är att skapa det ankommande dist
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det ankommande distributionslagerkravet  
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppt produktionsorder** och välj sedan relaterad länk.  
-2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa ankommande dist.lagerförslag**.  
+2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa ankommande dist.lagerbegäran**.  
 
 > [!NOTE]  
 >  Du kan också skapa ankommande distributionslagerkrav genom att markera kryssrutan **Skapa ankommande rekvisition** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
@@ -57,17 +57,17 @@ Om “Omställning, bearbetningstid” för den sista åtgärden måste bokföra
     > [!NOTE]  
     >  När du väljer fältet **Artikelnr.** öppnas **Lagerplatsinnehåll lista** i stället för **Artikellista**. Det beror på att du vill föra in en artikel som finns på en viss lagerplats, ett lagerplatsinnehåll, och inte bara en artikel, och du vet redan vilken lagerplats som artikeln ska tas från.  
 
-4.  Om du vill fylla förslagsraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  
+4.  Om du vill fylla kalkylarksraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  
 5.  Välj åtgärden **Skapa artikelinförsel** så att de artiklar som du vill plocka ut från produktionen hamnar på en artikelinförselinstruktion där de väntar på att lagras i distributionslagret.  
 
 > [!NOTE]  
 >  När du har angett att ett distributionslager ska använda riktad artikelinförsel och plockning länkas lagret till tillverkningsstället via standardproduktionslagerplatser: de ankommande och avgående produktionslagerplatserna och den öppna fabrikslagerplatsen, som alla definieras på snabbfliken **Lagerplatser** på lagerställekortet. När du bokför utflödet för en produktionsorder placeras utflödet automatiskt i **Avgående produktionslagerplats**. Du följer samma procedur som ovan för att föra in produktionsutflödet, med det undantaget att i stället för att använda artikelns standardlagerplats flyttar eller för du in artiklarna från **Avgående produktionslagerplats** till deras respektive standardlagerplats.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Om du vill manuellt ange en lagerplats för att lagra artiklar från produktionsutflödet:  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportkalkylark**, och välj sedan relaterad länk.  
 2.  Fyll i huvudet och skapa en rad för varje artikel som du vill flytta till distributionslagret.  
 3.  Fyll i fälten **Från lagerplatskod** och **Till lagerplatskod** och ange kvantiteten i fältet **Antal**.  
-4.  Om du vill fylla förslagsraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  
+4.  Om du vill fylla kalkylarksraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  
 5. Välj åtgärden **Skapa transport**. Transportinstruktionerna för distributionslagret skapas med Ta- och Placera-rader som lagerpersonalen ska utföra.  
 
 > [!NOTE]  

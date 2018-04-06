@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -46,7 +46,7 @@ Om du vill importera SEPA-bankutdrag väljer du knappen Importera bankutdrag i f
 ## <a name="currency-exchange-rates"></a>Valutakurser  
 Du kan ställa in en extern tjänst för kontinuerlig uppdatering av aktuella valutakurser. Tjänsten, som tillhandahåller valutakurser, aktiveras av en datautbytesdefinition. Därför är fönstret **Inställning valutakursuppdatering** en kondenserad vy av fönstret **Data Exchange definitionen** för definitionen av datautbytet i fråga.  
 
-För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställningen genom att ladda den relaterade XML-schemafilen i fönstret **Visningsprogram för XML-schema**. Här väljer du dataelementen som du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)] och sedan initierar du antingen en definition för datautbyte eller genererar en XMLport.  
+För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställningen genom att ladda den relaterade XML-schemafilen i fönstret **Visningsprogram för XML-schema**. Här väljer du dataelementen som du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)] och sedan initialiserar du antingen en definition för datautbyte eller genererar en XMLport.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 

@@ -1,5 +1,5 @@
 ---
-title: Anpassa sidor i Financials | Microsoft-dokument
+title: Anpassa sidor i Financials | Microsoft Docs
 description: "Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta."
 services: project-madeira
 documentationcenter: 
@@ -13,15 +13,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a631b13e9b5587bba6ca22486f0e7421d96a5578
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: daf2a1349cc3e12e634324082d4e6507c5b312be
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="personalizing-your-workspace"></a>Anpassa din arbetsyta
 <!--NAV in the Web client-->
-Du kan *anpassa* arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser. 
+Du kan *anpassa* arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
 
 Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
 
@@ -35,14 +35,14 @@ Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
 
 1. I det övre högra hörnet väljer du ikonen ![inställningar](media/ui-experience/settings_icon_small.png "ikonen inställningar för rollcenter") och sedan **anpassa**.
 
-    Banderollen **Anpassa** visas längst upp och anger därmed att du kan börja göra ändringar. 
+    Banderollen **Anpassa** visas längst upp och anger därmed att du kan börja göra ändringar.
 
     ![Anpassningsläget](media/ui_personalize_mode_small.png "Anpassningsläget")
 
 2.  Gå till sidan du vill anpassa.
 
     Om du ser en låsikon i informationstexten, se [Varför sidan är låst](ui-personalization-locked.md) för mer information.
-    
+
 3.  Peka på ett område som du vill anpassa, t.ex. fält eller en kolumnrubrik i en lista. Allt som du kan anpassa markeras omedelbart med en pil eller en ram.
 <!--
     -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
@@ -57,11 +57,11 @@ Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
         <tr><td>Lägga till ett fält eller kolumn</td><td>I banderollen <b>anpassa</b> välj <b>mer</b> och sedan <b>fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan. Fält som är markerade som <b>Placerad</b> finns redan finns på sidan. Fält som är markerade som <b>Klar</b> finns redan finns på sidan.<br /></br>Om du vill lägga till ett fält, drar du det från fönstret till den plats där du vill ha den. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
         <tr><td>Ändra låsning i en lista till en annan kolumn</td><td>Markera pilen i kolumnen som du vill ska vara den sista kolumnen på låsningen och välj <b>Ange låsning</b>.<br /><br/>Om du vill ange låsningen tillbaka till den ursprungliga angivna platsen, markera pilen för den aktuella kolumnen i låsningen och välj <b>ta bort låsning</b>. Obs! Du kan inte ta bort denna låsta ruta.</td></tr>
       </table>
-    
+
     > [!IMPORTANT]  
     >   Du kan inte ändra en lista om listan visas som paneler. Måste du först ändra sidan till listvyn genom att välja ikonen ![visa som lista](media/ui_show_as_list_icon.png "Visa som listpil vänster").
-   
-5.  Du kan fortsätta att göra ändringar på samma sida eller flytta till en annan sida. Dina ändringar sparas automatiskt medan du gör dem. När du är klar väljer du i **anpassa** banderoll **Klar**. 
+
+5.  Du kan fortsätta att göra ändringar på samma sida eller flytta till en annan sida. Dina ändringar sparas automatiskt medan du gör dem. När du är klar väljer du i **anpassa** banderoll **Klar**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Ta bort anpassningar för att ändra en sida till dess ursprungliga layout
 Vid något tillfälle kanske du vill ångra alla anpassningsändringar som du har gjort på sidan så att sidan ser ut som den gjorde från början För att göra detta väljer du i banderollen **anpassa** **mer**, och sedan **Avmarkera anpassning**.
@@ -69,13 +69,13 @@ Vid något tillfälle kanske du vill ångra alla anpassningsändringar som du ha
 ## <a name="personalization-in-detail"></a>Anpassning i detalj
 Här följer några tips som hjälper dig att bättre förstå anpassning.  
 -   När du ändrar en kortsida som du öppnar från en lista påverkar ändringarna alla poster som du öppnar från listan. Anta till exempel att du öppnar en specifik kund från listsidan kunder och sedan anpassar sidan genom att lägga till ett fält. När du öppnar andra kunder från listan visas också det fält som du har lagt till.
--   Ändringarna börjar gälla i alla dina rollcenter. Till exempel om du gör en ändring i kundlistan när rollcentret har angetts till Chef visas dessutom ändringen i kundlistan när rollcentret anges till Försäljningsorderhandläggare. 
+-   Ändringarna börjar gälla i alla dina rollcenter. Till exempel om du gör en ändring i kundlistan när rollcentret har angetts till Chef visas dessutom ändringen i kundlistan när rollcentret anges till Försäljningsorderhandläggare.
 -   Ändringar av en sida i rutan börjar gälla på sidan var den än visas.  
 -   Du kan bara lägga till fält och kolumner från en fördefinierad lista som baseras på sidan. Du kan inte skapa nya.
 
 ## <a name="see-also"></a>Se även
 [Hantera anpassning](ui-personalization-manage.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Ändra Rollcenter](change-role.md)  
+[Ändra grundinställningar](ui-change-basic-settings.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 

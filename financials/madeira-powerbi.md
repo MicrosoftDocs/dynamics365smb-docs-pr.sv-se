@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c8a52f20abe27de7063a0879f529086263d0675
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
@@ -53,7 +53,7 @@ För att komma åt dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power
 
 | Fält | Beskrivning |
 | --- | --- |
-| **OData feed URL** |OData-URL så att Power BI kan få åtkomst till data från ditt företag som t.ex. https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
+| **OData feed URL** |OData-URL så att Power BI kan komma åt data från ditt företag, exempelvis https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('Mitt%2företag'). |
 | **Autentiseringsmetod** |Välj **grundläggande**. |
 | **Användarnamn** |Ditt namn som det visas för ditt konto i [!INCLUDE[d365fin](includes/d365fin_md.md)], såsom *John Smith*. |
 | **Lösenord** |Detta är webbtjänståtkomstnyckel för ditt användarkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
@@ -85,7 +85,7 @@ Instrumentbrädan för Power BI förlitar sig på de publicerade webbtjänsterna
 **"Parametervalidering misslyckades. Se till att alla parametrar är giltiga"**  
 Om du ser det här felet efter att du har angett [!INCLUDE[d365fin](includes/d365fin_md.md)]-URL:en ska du se till att följande krav är uppfyllda:  
 
-* URL:en följer exakt deta mönster:
+* URL:en följer exakt detta mönster:
 
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
 * Ta bort all text efter företagsnamnet i parentesen  

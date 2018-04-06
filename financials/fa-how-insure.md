@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Försäkra anläggningstillgångar
@@ -70,7 +70,7 @@ Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera v�
 5. Öppna relevant försäkringsjournal, granska de skapade värdena och bokför dem i försäkringstransaktionerna.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Att bevaka försäkringsskydd
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  ger dedikerade rapporter och statistikfönster för användning vid analys av försäkringsbrev och om anläggningstillgångarna är över- eller underförsäkrade.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ger dedikerade rapporter och statistikfönster för användning vid analys av försäkringsbrev och om anläggningstillgångarna är över- eller underförsäkrade.  
 
 ### <a name="overview-of-insurance-policies"></a>Översikt över försäkringsbrev
 Få en översikt över försäkringsbreven genom att skriva ut rapporten **Försäkringslista** rapport. Rapporten visar alla försäkringsbrev och de viktigaste fälten på försäkringskortet visas.  

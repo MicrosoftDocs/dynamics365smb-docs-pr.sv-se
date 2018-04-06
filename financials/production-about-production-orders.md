@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3632aba536d15fb975c0672eef18ae03181c7727
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="about-production-orders"></a>Om produktionsorder
@@ -78,7 +78,7 @@ Den planerade produktionsordern är unik på grund av följande egenskaper:
 - Planerade produktionsorder är som släppta produktionsorder, och tillhandahåller indata för planering av kapacitetsbehov genom att visa det totala kapacitetsbehovet efter produktionsgrupp eller maskingrupp.  
 - En planerad produktionsorder representerar den bästa uppskattningen av framtida beläggning för produktionsgruppen eller maskingruppen baserat på tillgänglig information. Planerade produktionsorder genereras från planering, men kan också skapas manuellt. Det är inte särskilt praktiskt att skapa planerade produktionsorder manuellt eftersom dessa tas bort under efterföljande planeringsgenerering.  
 - Genereringen av planerade produktionsorder i planeringen resulterar i ett föreslaget "planerat orderutsläpp" som inkluderar antal, utsläppsdatum och förfallodatum. Logiken för planeringssystemet baseras på återanskaffningssystemet, beställningsprinciper och orderändringar som påträffas i planeringsprocessen för nettobehov.  
-- Du kan granska beläggningen för varje produktions- eller maskingrupp i verksamhetsföljden för den planerade produktionsordern om du vill se vilken effekt en planerad produktionsorder har.  
+- Du kan granska beläggningen för varje produktions- eller maskingrupp i operationsföljden för den planerade produktionsordern om du vill se vilken effekt en planerad produktionsorder har.  
 
 ### <a name="firm-planned-production-order"></a>Fast planerad produktionsorder  
 Den fast planerade produktionsordern är unik på grund av följande egenskaper:  
@@ -87,7 +87,7 @@ Den fast planerade produktionsordern är unik på grund av följande egenskaper:
 - En fast planerad produktionsorder fungerar som platshållare i planeringsschemat för framtida arbete som släpps ut till fabriken.  
 - En fast planerad produktionsorder kan genereras från planering eller skapas manuellt från försäljningsorder. Den tas inte bort under efterföljande planering.  
 - Genereringen av fast planerade produktionsorder i planeringen resulterar i ett föreslaget "planerat orderutsläpp" som inkluderar antal, utsläppsdatum och förfallodatum. Logiken för planeringssystemet baseras på återanskaffningssystemet, beställningsprinciper och orderändringar som påträffas i planeringsprocessen för nettobehov.  
-- Du kan granska beläggningen för varje produktions- eller maskingrupp i verksamhetsföljden för den fast planerade produktionsordern om du vill se vilken effekt en planerad produktionsorder har.  
+- Du kan granska beläggningen för varje produktions- eller maskingrupp i operationsföljden för den fast planerade produktionsordern om du vill se vilken effekt en planerad produktionsorder har.  
 
 ### <a name="released-production-order"></a>Släppt produktionsorder  
 Den släppta produktionsordern är unik på grund av följande egenskaper:  
@@ -125,7 +125,7 @@ Förbrukningen av material kan bearbetas via förbrukningsjournalen, men kan äv
 
 Manuell rapportering av förbrukning använder förbrukningsjournalen för att specificera plockning av material.  
 
-Framåt rapportering av förbrukning förutsätter att den förväntade kvantiteten av allt material för hela ordern förbrukas när en produktionsorder släpps, om inte verksamhetsföljdslänkkoder används. Om du använder verksamhetsföljdslänkkoder, förbrukas materialet när starten på verksamhetssteget registreras i utflödesjournalen. Om du vill använda metoden Framåt för hela produktionsordern måste du göra två saker:  
+Framåt rapportering av förbrukning förutsätter att den förväntade kvantiteten av allt material för hela ordern förbrukas när en produktionsorder släpps, om inte verksamhetsföljdslänkkoder används. Om du använder operationsföljdslänkkoder, förbrukas materialet när starten på operationssteget registreras i utflödesjournalen. Om du vill använda metoden Framåt för hela produktionsordern måste du göra två saker:  
 
 - Du måste markera metoden Framåt på respektive artikelkort för alla artiklar på toppnivån i produktionsstrukturen.  
 - Du måste ta bort alla verksamhetsföljdslänkkoder i produktionsstrukturen.  
@@ -149,7 +149,7 @@ Om du bokför hela produktionen framåt när arbetet börjar, är beteendet hos 
 - Förbrukningskvantiteten är den kvantitet per montering som anges i produktionsstrukturen multiplicerat med antalet överordnade artiklar som du tillverkar.  
 - Du behöver inte registrera någon information i förbrukningsjournalen om alla artiklar ska bokföras.  
 - När artiklar förbrukas från lagret, spelar det inte någon roll när utflödesjournaltransaktionerna genomförs eftersom utflödesjournalen inte påverkar den här typen av förbrukningsbokföring.  
-- Inga verksamhetsföljdslänkkoder kan anges.  
+- Inga operationsföljdslänkkoder kan anges.  
 
 Bokföra en hel order framåt kan användas i produktionsmiljöer med:  
 
@@ -158,7 +158,7 @@ Bokföra en hel order framåt kan användas i produktionsmiljöer med:
 -   Hög komponentförbrukning i tidiga operationer  
 
 #### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering - Bokföring framåt efter operation  
-Med bokföring efter operation, kan du dra av lager under en särskild operation i verksamhetsföljden för den överordnade artikeln. Material kopplas till verksamhetsföljden med hjälp av verksamhetsföljdslänkkoder, som motsvarar de verksamhetsföljdslänkkoder som tillämpas på komponenter i produktionsstrukturen.  
+Med bokföring efter operation, kan du dra av lager under en särskild operation i operationsföljden för den överordnade artikeln. Material kopplas till operationsföljden med hjälp av operationsföljdslänkkoder, som motsvarar de operationsföljdslänkkoder som tillämpas på komponenter i produktionsstrukturen.  
 
 Bokföring sker när operationen som har samma kod till verksamhetsföljdlänken startas. Startad betyder att någon aktivitet registreras i utflödesjournalen för operationen. Och den aktiviteten kanske är att omställningstiden anges.  
 
@@ -166,14 +166,14 @@ Det belopp som bokförs gäller för det antal per montering som har angetts i p
 
 Den här metoden är lämpligast när det finns många operationer och vissa komponenter inte behövs förrän sent i monteringssekvensen. Om du använder JIT (Just-in-Time – precis i tid) kanske inte ens artiklarna finns i lager när produktionen påbörjas.  
 
-Material kan förbrukas under operationer genom att använda verksamhetsföljdslänkkoder. Vissa komponenter kanske inte används förrän i de sista monteringsoperationerna och ska inte tas ut ur lagret förrän det är dags.  
+Material kan förbrukas under operationer genom att använda operationsföljdslänkkoder. Vissa komponenter kanske inte används förrän i de sista monteringsoperationerna och ska inte tas ut ur lagret förrän det är dags.  
 
 #### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering - Bokföring bakåt efter operation  
 När du använder metoden Bokföring bakåt efter operation, registreras förbrukning när operationen har bokförts i utflödesjournalen.  
 
 Fördelen med den här metoden är att antalet överordnade delar som slutförts i operationen är känt.  
 
-Material i produktionsstrukturen kopplas till verksamhetsföljdsposterna med hjälp av verksamhetsföljdslänkkoder. Bokföring bakåt utförs när en operation med en särskild verksamhetsföljdslänkkod bokförs med ett färdigställt antal.  
+Material i produktionsstrukturen kopplas till operationsföljdsposterna med hjälp av operationsföljdslänkkoder. Bokföring bakåt utförs när en operation med en särskild operationsföljdslänkkod bokförs med ett färdigställt antal.  
 
 Bokföringsbeloppet gäller för det antal per montering som har angetts i produktionsstrukturen multiplicerat med antalet överordnade artiklar som bokfördes som utflödeantal i operationen. Detta antal kanske inte stämmer överens med det förväntade antalet.  
 
@@ -213,8 +213,8 @@ Produktionsjournalen innehåller en enkel vy och ger dig möjlighet att:
 
 - På ett enkelt sätt registrera utflöde och förbrukning relaterat till en produktionsorder.  
 - Koppla komponenterna till operationer.  
-- Koppla faktiska data för operationen till standardkostnadsförslag i verksamhetsföljden och komponentraderna i produktionsordern.  
-- Bokföra och skriva ut en översikt över registrerade verksamhetsdata för produktionsordern.  
+- Koppla faktiska data för operationen till standardkostnadsförslag i operationsföljden och komponentraderna i produktionsordern.  
+- Bokföra och skriva ut en översikt över registrerade operationsdata för produktionsordern.  
 
 Med produktionsjournalen kan du utföra många av de funktionerna som du kan med förbruknings- och utflödesjournalen. Dimensioner, artikelspårning och lagerplatsinnehåll hanteras på samma sätt som i förbruknings- och utflödesjournalen.  
 

@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 98064d9500f47035f1c73aaa0c87a2e96fd876cd
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="business-functionality"></a>Affärsfunktion
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar dina verksamhetsbehov. Från din startsida kan du få åtkomst till installationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flera olika moduler i funktionshjälp måste ställas in manuellt. Mer information finns i [Skapa [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar dina verksamhetsbehov. Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flera olika moduler i funktionshjälp måste ställas in manuellt. Mer information finns i [Skapa [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
@@ -44,10 +44,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Planera servicesamtal och lägg upp serviceorder. Spåra reservdelar och tillbehör.|[Servicehantering](service-service.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|
 |Aktivera möjlighet för användare att utbyta data med externa källor under dagliga uppgifter, till exempel skicka/ta emot elektroniska dokument, importera/exporterar bankfiler och uppdatera valutakurser.|[Utbyta data elektroniskt](across-data-exchange.md).|
-|Registrera externa dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], inklusive bifogade filer och sedan manuellt skapa relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
+|Registrera externa dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 
 
 ## <a name="see-also"></a>Se även
+[Administration](admin-setup-and-administration.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

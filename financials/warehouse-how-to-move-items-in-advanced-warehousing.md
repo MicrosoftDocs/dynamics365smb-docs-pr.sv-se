@@ -1,6 +1,6 @@
 ---
 title: "Så här flyttar du artiklar i avancerad distributionslagerkonfiguration | Microsoft Docs"
-description: "I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportförslaget och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem."
+description: "I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,17 +16,17 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 4caa041c6b3acef5d0cbf6c037f0ec535cd3176e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytta artiklar i avancerade distributionslagerkonfigurationer
-I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportförslaget och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem.  
+I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem.  
 
-## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Så här flyttar du artiklar med dist.lager transport förslaget
-Fönster **Transportförslag** innehåller två funktioner som du kan använda för att fylla i raderna automatiskt. Den första är funktionen **Beräkna lagerplatsåteranskaffning** Den här funktionen använder lagerplatsrang för att föreslå påfyllning för med lagerplatser med högre lagerplatsordning från lagerplatser med lägre rang. Den andra funktionen är **Hämta lagerplatsinnehåll** som fyller i förslagsraderna med hela lagerplatsinnehållen, för de lagerplatser du anger.
+## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Så här flyttar du artiklar med dist.lager transport kalkylarket
+Fönster **Transportkalkylark** innehåller två funktioner som du kan använda för att fylla i raderna automatiskt. Den första är funktionen **Beräkna lagerplatsåteranskaffning** Den här funktionen använder lagerplatsrang för att föreslå påfyllning för med lagerplatser med högre lagerplatsordning från lagerplatser med lägre rang. Den andra funktionen är **Hämta lagerplatsinnehåll** som fyller i kalkylarksraderna med hela lagerplatsinnehållen, för de lagerplatser du anger.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportförslag**, och välj sedan relaterad länk.  
-2.  Fyll i tillämplig distributionslagertransportinformation på förslagsraderna.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportkalkylark**, och välj sedan relaterad länk.  
+2.  Fyll i tillämplig distributionslagertransportinformation på kalkylarksraderna.  
 3. Välj åtgärden **Skapa transport** om du vill skapa ett dokument för distributionslagertransport som kan registreras när distributionslagertransporten är slutförd.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Så här registrerar du distributionslagertransporten:  

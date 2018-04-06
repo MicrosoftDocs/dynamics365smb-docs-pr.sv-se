@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66fcd6282f02d5789b12b79467ec177817422c5c
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reverse-postings"></a>Återföra bokningar
@@ -66,6 +66,15 @@ Du kan återföra poster från alla fönster **Transaktioner**. Följande proced
 6.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsreturorder** och välj sedan relaterad länk.  
 7.  Öppna returordern i fråga och välj åtgärden **öppna igen**.  
 8.  Korrigera värdet i fältet **Antal** och bokför inköpsreturordern igen.  
+
+## <a name="to-post-a-negative-entry"></a>Bokföra en negativ transaktion  
+Använd fältet **Korrigering** för att bokföra en negativ debet istället för en kredit, eller för att bokföra en negativ kredit istället för en debet för ett konto. För att uppfylla juridiska krav visas detta fält som standard i alla journaler. Fälten **Debetbelopp** och **Kreditbelopp** innehåller både ursprungstransaktionen och den korrigerade transaktionen. Dessa fält påverkar inte kontosaldot.  
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler** och välj sedan relaterad länk.  
+2.  Välj önskat batch-namn i fältet **Batch-namn**.  
+3.  Ange information i relevanta fält.  
+4.  På journalraden som du vill aktivera för negativa poster väljer du kryssrutan **Korrigering**.  
+5.  Välj åtgärden **Bokför** och välj sedan knappen **Ja** för att bokföra journalen.
 
 ## <a name="see-also"></a>Se även
 [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  

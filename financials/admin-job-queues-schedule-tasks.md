@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
@@ -25,7 +25,7 @@ Fönstret **Jobbkötransaktioner** fönstret visas alla aktuella jobb. Om du lä
 
 I fältet **Kategorifilter för jobbkö** kan du ange ett filter. Du kan använda jobbkökategorier för jobb i listan.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kör automatiskt jobb efter angivna scheman för varje jobbkötransaktion. Du kan starta, stoppa och spärra en jobbkötransaktion manuellt.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kör automatiskt projekt efter angivna scheman för varje jobbkötransaktion. Du kan starta, stoppa och spärra en jobbkötransaktion manuellt.
 
 ### <a name="log-files"></a>Loggfiler
 Fel visas i **loggtransaktioner för jobbkö** som du når från menyfliken. Du kan också felsöka fel i jobbkön. Data som skapas när en jobbkö körs sparas i databasen.  
@@ -35,7 +35,7 @@ Jobbköer är ett effektivt verktyg som schemalägger körning av affärsprocess
 
  Alternativt kan du behöva planera bokföringar vid tidpunkter när det passar organisationen. Det kan till exempel passa bra för din verksamhet att köra vissa rutiner, när den mesta datainmatningen för dagen har slutförts. Detta åstadkommer du genom att ställa in jobbkön till att köra olika batch-bokföringsrapporter som t.ex. **Batch-bokför förs.order**, **batch-bokför försäljningsfakturor**, och **batch-bokför försäljningskreditnotor** rapporter.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]   stöder bokföring i bakgrunden för följande dokumenttyper:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  stöder bokföring i bakgrunden för följande dokumenttyper:  
 
 -   Försäljning: försäljningsorder, returorder, kreditnota, faktura  
 
@@ -52,7 +52,7 @@ Du ställer in den här användningen av jobbkön i fönstret **Försäljningsin
 >  Om du ställer in ett jobb som ska bokföra och skriva ut dokument och skrivaren visar en dialogruta, exempelvis en begäran för autentiseringsuppgifter eller en varning om låg bläcknivå, bokförs dokumentet men skrivs inte ut. Motsvarande jobbköpost gör slutligen timeout, och **Status** fältet anges till **Fel**. Därmed rekommenderar vi att du inte använder en skrivarinställning som kräver interaktioner med skrivaredialogrutor tillsammans med bakgrundsbokföring.  
 
 ## <a name="use-the-my-job-queue-part"></a>Så här använder du Min jobbködel
-I **Min jobbkö** visas de jobbköer som en användare har inlett men som ännu inte slutfört. Som standard visas inte delen, så du behöver lägga till den i ditt rollcenter. Mer information finns i [Ändra rollcenter](change-role.md).  
+I **Min jobbkö** visas de jobbköer som en användare har inlett men som ännu inte slutfört. Som standard visas inte delen, så du behöver lägga till den i ditt rollcenter. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
 I den här delen kan du se dokument som behandlas eller står i kö om ditt ID har angetts i fältet **Tilldelat användar-ID**. Här får du hjälp att hålla reda på alla jobbkötransaktioner, inklusive de som relaterar till bokföring i bakgrunden. Här ser du snabbt om det har uppstått ett fel i bokföringen av ett dokument, eller om det finns fel i en jobbkötransaktion. Delen ger dig också möjlighet att makulera en dokumentbokföring, om den inte körs.  
 

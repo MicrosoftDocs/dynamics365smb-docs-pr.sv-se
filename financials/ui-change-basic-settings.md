@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändra grundinställningar
@@ -27,12 +27,16 @@ Rollcentret representerar startsidan, en startsida som har utformats för rollen
 
 I mitten hittar du panelen Aktiviteter. Aktiviteter visar data och kan klickas på för enkelt tillgång till det valda dokumentets. Nyckelindikatorer kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader.
 
-Du kan också att upprätta en lista över favoritkunder på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet till. Använd pilarna för att minska en del av sidan och för att få mer plats för att visa specifika data. Högst upp på startsidan hittar du alla åtgärder som kan kopplas till det aktuella innehållet. Detta kan också reduceras, och du behöver endast klicka inom det reducerade området för att visa det på nytt.
+Du kan också upprätta en lista över favoritkunder på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet åt. Använd pilarna för att minska en del av sidan och för att få mer plats för att visa specifika data. Högst upp på startsidan hittar du alla åtgärder som kan kopplas till det aktuella innehållet. Detta område kan också fällas in, och du behöver bara välja det infällda området för att visa det på nytt.
 
-Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål. Mer information finns i [Ändra rollcenter](change-role.md).
+### <a name="to-change-role-center"></a>Så här ändrar du rollcentret
+Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål.
+1. I det övre högra hörnet väljer du ikonen **Inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "Ikonen för inställningar för rollcenter"), och väljer sedan **Mina inställningar**.
+2. I fönstret **Mina inställningar** i fältet **Rollcenter** väljer du det rollcenter som du vill ange som standard. Välj till exempel **Revisor**.
+3. Välj knappen **OK**.
 
 ## <a name="company"></a>Företag
-Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
+Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas åt gången.
 
 Standardföretaget kallas CRONUS och innehåller endast demonstratiosdata.
 
@@ -56,6 +60,5 @@ Välj den här länken för att visa eller ändra meddelandena som du får om vi
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Ändra Rollcenter](change-role.md)  
 [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 

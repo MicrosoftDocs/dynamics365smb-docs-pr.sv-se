@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="ship-items"></a>Leverera artiklar
@@ -59,9 +59,9 @@ Medarbetare som är ansvarig för utleveransen skapar en distributionslagerutlev
     3. Definiera vilken typ av källdokumentrader som du vill hämta genom att fylla i relevanta filterfält.  
     4. Välj åtgärden **Kör**.  
 
-    Alla relaterat källdokumentrader, som uppfyller filterkriterierna, infogas nu i fönstret **Dist.lager utleverans** som du aktiverade från filterfunktionen.  
+    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu i fönstret **Dist.lager utleverans** som du aktiverade från filterfunktionen.  
 
-    Filterkombinationerna, vilka du definierar, sparas i fönstret **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra kriterier när som helst, genom att välja åtgärden **Ändra**.
+    Filterkombinationerna, vilka du definierar, sparas i fönstret **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
 4.  Välj det källdokument som du vill utleverera artiklar för och klicka på knappen **OK**.  
 
@@ -93,10 +93,10 @@ Vanligtvis skapar en lagerarbetare ansvarig för plockning ett plockningsdokumen
 
 Mer information om hur du plockar för utleveranser finns i [Plocka artiklar för Dist.lager utleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Du kan också använda plockningsförslaget för att kombinera flera plockningsinstruktioner till en enda instruktion (för flera utleveranser) och på så sätt optimera plockningen i distributionslagret. Mer information finns i [Planera plockning i förslag](warehouse-how-to-plan-picks-in-worksheets.md).
+Du kan också använda plockningskalkylarket för att kombinera flera plockningsinstruktioner till en enda instruktion (för flera utleveranser) och på så sätt optimera plockningen i distributionslagret. Mer information finns i [Planera plockning i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Om du väntar på att vissa artiklar ska anlända till distributionslagret, och du använder funktionerna för direktutleverans, beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] det antal artiklar som finns på lagerplatsen för direktutleverans för varje utleverans- eller plockningsförslagsrad. Det här fältet uppdateras varje gång du lämnar och öppnar utleveransdokumentet eller förslaget. Mer information finns i [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
+> Om du väntar på att vissa artiklar ska anlända till distributionslagret, och du använder funktionerna för direktutleverans, beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] det antal artiklar som finns på lagerplatsen för direktutleverans för varje utleverans- eller plockningsförslagsrad. Det här fältet uppdateras varje gång du lämnar och öppnar utleveransdokumentet eller kalkylarket. Mer information finns i [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

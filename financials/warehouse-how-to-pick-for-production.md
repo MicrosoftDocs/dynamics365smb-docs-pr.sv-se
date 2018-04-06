@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 68702e384ea750535a8d7e5b83ee619856b6a34b
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="pick-for-production-or-assembly"></a>Plocka för produktion eller montering
@@ -71,15 +71,15 @@ I alla scenarier där en del av antalet måste först vara församlad och ett an
 ## <a name="to-pick-components-in-advanced-warehouse-configurations"></a>Plocka komponenter i en avancerad lagerkonfiguration.
 I avancerad distributionslagerkonfigurationer, där det har angetts att lagerstället ska använda plockning samt leverans, kan du välja plockkomponenter för produktion- och monteringsaktiviteter via fönstret **Dist.lagerplockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Du kan också använda fönstret **Transportförslag** för att flytta artiklar mellan lagerplatser ad hoc, d.v.s utan att referera till ett källdokument. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Du kan också använda fönstret **Transportkalkylark** för att flytta artiklar mellan lagerplatser ad hoc, d.v.s utan att referera till ett källdokument. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Du kan inte skapa ett dokument för dist.lager plockning från grunden, eftersom en plockningsaktivitet alltid ingår i ett arbetsflöde, i ett pull-/pushscenario.  
 
 Du kan skapa dokumentet för dist.lager plockning med en pushmetod genom att välja **Skapa dist.lagerplockning** i källdokumentet, till exempel en släppt monteringsorder eller lagerutleverans. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-Du kan också skapa dokumentet för dist.lager plockning med en pullmetod med hjälp av fönstret **Plockningsförslag** för att undersöka plockningsförfrågningar, både för leverans och intern verksamhet, och sedan skapa erforderliga dokument för dist.lager plockning.  
+Du kan också skapa dokumentet för dist.lager plockning med en pullmetod med hjälp av **Plockningskalkylark** fönstret för att undersöka plockningsförfrågningar, både för leverans och intern operation, och sedan skapa de nödvändiga dokumentet för dist.lager plockning.  
 
-Nedan förklaras ett pull-scenario där du plockar komponenter för en släppt produktionsorder via **Plockningsförslag** fönstret. Följande procedur gäller även för en monteringsorder.  
+Nedan förklaras ett pull-scenario där du plockar komponenter för en släppt produktionsorder via **Plockningskalkylark** fönstret. Följande procedur gäller även för en monteringsorder.  
 
 För att skapa plockning för både pull- och pushscenarier, måste källdokumenten släppas. Släppa källdokumenten för intern operation på följande sätt.  
 
@@ -88,11 +88,11 @@ För att skapa plockning för både pull- och pushscenarier, måste källdokumen
  |Produktionsorder|Ändra ordertyp till släppta produktionsorder.|  
  |Monteringsorder|Ändra status till släppt.|  
 
-## <a name="to-pick-components-using-the-pick-worksheet"></a>Så här plockar du komponenter med hjälp av plockningsförslaget  
+## <a name="to-pick-components-using-the-pick-worksheet"></a>Så här plockar du komponenter med hjälp av plockningskalkylarket  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningsförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningskalkylark**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument** och välj sedan de komponentrader från den släppta produktionsordern.  
-3.  Analysera raderna, sortera dem för att garantera en effektiv plockningsrunda och kombinera dem med andra förslagsrader, om så behövs, för att minimera plockningstiden för den anställda.  
+3.  Analysera raderna, sortera dem för att garantera en effektiv plockningsrunda och kombinera dem med andra kalkylarksrader, om så behövs, för att minimera plockningstiden för den anställda.  
 4.  Välj åtgärden **Skapa plockning**.  
 5.  Definiera hur du skapar dokument för dist.lager plockning och hur här fältet sorterar plockningsrader genom att fylla i **Skapa plockning** fönstret.  
 6.  Välj knappen **OK**.

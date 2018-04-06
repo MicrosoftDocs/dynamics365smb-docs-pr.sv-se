@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2ebd7ed1c2ae9426b481edabbb8e4957073a5d21
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-special-orders"></a>Skapa specialorder
@@ -29,12 +29,12 @@ Innan den här funktionen kan användas måste de kund-, leverantörs- och artik
 2. Välj åtgärden **Ny**. Skapa och fyll i  försäljningsorder för artikeln. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3.  Fyll i försäljningsraden på snabbfliken **Rader** . I fältet **Inköpskod**, välj en inköpskod som har fältet **Specialorder** markerat.
 
-    Därefter måste du skapa en inköpsorder från ett inköpsförslag.  
-4. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsförslag** och välj sedan relaterad länk.  
+    Därefter måste du skapa en inköpsorder från ett inköpskalkylark.  
+4. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpskalkylark** och välj sedan relaterad länk.  
 5. Välj åtgärden **Specialorder** och väljer sedan åtgärden **Hämta förs.order**.  
-6.  I fönstret **Hämta förs.order** visar resultat där **Verifikationsnr** är numret på försäljningsordern. Välj **OK**. En inköpsförslagsrad skapas för artikeln.  
-7.  På inköpsförslagsraden, i fältet **Åtgärdsmeddelande**, väljer du **Ny**.  
-8.  I fönstret **Inköpsförslag** väljer du åtgärden **Verkställ åtgärdsmeddelande**. Fönstret **Skapa inköpsorder** visas. Välj knappen **OK**.  
+6.  I fönstret **Hämta förs.order** visar resultat där **Verifikationsnr** är numret på försäljningsordern. Välj **OK**. En inköpskalkylarksrad skapas för artikeln.  
+7.  På inköpskalkylarksraden, i fältet **Åtgärdsmeddelande**, väljer du **Ny**.  
+8.  I fönstret **Inköpskalkylark** väljer du åtgärden **Verkställ åtgärdsmeddelande**. Fönstret **Skapa inköpsorder** visas. Välj knappen **OK**.  
 
     Du får meddelande om att inköpsorderna har skapats. Välj **OK**.  
 

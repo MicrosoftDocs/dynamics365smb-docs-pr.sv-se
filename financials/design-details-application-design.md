@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9edcf4c588a8a91e55f62867e663e8035a367ae5
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 9c8ba2d7c2acaeb4c5c683f2f365e474e4f7bfce
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details"></a>Designdetaljer
@@ -35,7 +35,7 @@ Innehållet består av detaljerad teknisk information om komplexa programfunktio
  [Planerad](production-planning.md)   
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Lagerstyrning](warehouse-manage-warehouse.md)   
- [Ställa in komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)  
+ [Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

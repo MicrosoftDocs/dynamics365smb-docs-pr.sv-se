@@ -13,14 +13,14 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f29ae6b0a87f24a5201dd05b1d631adcc69b116d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeta med rapporter
-En rapport samlar in information som baseras på en viss uppsättning kriterier och ordnar och visar informationen i ett format som är lätt att läsa, och kan skrivas ut. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
+En rapport samlar in information som baseras på en viss uppsättning villkor och ordnar och visar informationen i ett format som är lätt att läsa, och kan skrivas ut. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
 
 Du kan visa rapporter i fliken **rapporter** på markerade sidor eller också kan du använda sökning för att hitta rapporter efter namn. När du öppnar en rapport visas en sida att vi ska ange information (alternativ och filter) som du bestämmer ska ingå i rapporten. Beroende på vilken rapport anger du till exempel ett datumintervall, en viss post, till exempel en kund eller sorteringsordning. Nedan finns ett exempel:
 
@@ -51,7 +51,7 @@ Använda menyraden:
 Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument genom att välja **skicka till**, och sedan göra ditt val.
 
 ## <a name="ScheduleReport"></a> Schemalägga en rapportkörning
-Du kan schemalägga en rapport att köras vid ett visst datum och tider. Planerade rapporter anges i jobbkön och behandlas vid den planerade tid, på liknande sätt som andra jobb. Du kan välja att spara den behandlade rapporten till en fil, t.ex en Excel-, Word- eller PDF-fil, skriva ut den till en viss skrivare eller bara behandlar rapporten. Om du väljer att spara rapporten till en fil skickas den bearbetade rapporten till området **Rapportinkorg**, på din startsida där du kan visa den.
+Du kan schemalägga en rapport att köras vid ett visst datum och tider. Planerade rapporter anges i jobbkön och behandlas vid den planerade tid, på liknande sätt som andra jobb. Du kan välja att spara den behandlade rapporten till en fil, t.ex en Excel-, Word- eller PDF-fil, skriva ut den till en viss skrivare eller bara behandlar rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till området **Rapportinkorg** i ditt Rollcenter, där du kan visa den.
 
 Du kan schemalägga en rapport när du öppnar en rapport. Du väljer åtgärden **schema** och sedan anger du information som t.ex. skrivare och tid och datum. Rapporten läggs sedan till jobbkön och körs vid den angivna tidpunkten. När rapporten behandlas tas artikeln bort från jobbkön. Om du har sparat den bearbetade rapporten till en fil, kommer den att vara tillgänglig i området **Rapportinkorg**.
 

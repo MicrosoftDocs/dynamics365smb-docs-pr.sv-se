@@ -1,0 +1,112 @@
+---
+title: "Så här skapar du rapporter med XBRL | Microsoft Docs"
+description: "XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/16/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 2f836cbceb3bd7580c3cbc48315a040e8338748b
+ms.contentlocale: sv-se
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
+XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data. Bakom XBRL-projektet för global ekonomisk rapportering står ett stort antal ERP-programvaruföretag och internationella revisionsbyråer. Målet med projektet är att tillhandahålla en standard för enhetlig rapportering av ekonomisk information för banker, investerare och statliga myndigheter. Sådan affärsrapportering kan inkludera följande:  
+
+ • ekonomirapporter  
+ • ekonomisk information  
+ • icke-ekonomisk information  
+ • lagreglerat uppgiftslämnande, till exempel årsredovisningar och kvartalsredovisningar  
+
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] låter företag implementera data i XBRL och utnyttja den flexibilitet och automatisering som XBRL tillhandahåller både för att samla in och dela ut data.  
+
+## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
+XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) är ett XML-baserat språk för ekonomisk rapportering. XBRL utgör en standard för enhetlig rapportering för alla användare i den ekonomiska informationskedjan, t.ex. offentliga och privata företag, revisorer, justerare, analytiker, investeringsbolag, kapitalmarknader och långivare, samt viktiga tredje parter såsom programvaruutvecklare och dataadministratörer.  
+
+Taxonomier definieras och underhålls av www.xbrl.org. Du kan hämta taxonomier eller läsa mer på XBRL:s webbplats.  
+
+Någon som behöver ekonomisk information skickar en taxonomi (ett XML-dokument) med ett eller flera scheman, vardera med en eller flera rader för ifyllning. Raderna motsvarar de individuella ekonomiska data som begärs av avsändaren. Du importerar taxonomin till programmet och fyller sedan i schemat (eller scheman) genom att ange vilket eller vilka konton som anknyter till respektive rad och vilken typ av tidsram som ska användas, t.ex. nettoförändring eller saldo t.o.m. datum. Ibland kan du i stället ange en konstant, t.ex. antal anställda. Därefter kan du skicka instansdokumentet (ett XML-dokument) till den person som begärt informationen. Förmodligen utgör detta en återkommande händelse och, om inga ändringar gjorts i taxonomin, exporterar du bara nya instansdokument för nya perioder vid begäran.  
+
+## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL består av följande komponenter:  
+XBRL-**specifikationen** förklarar vad XBRL är, samt hur du skapar XBRL-instansdokument och XBRL-taxonomier. XBRL-specifikationen beskrivs XBRL i mer tekniska termer och är avsett för avancerade användare.  
+
+XBRL- **schemat**, som motsvarar de grundläggande huvudkomponenterna i XBRL. Schemat utgör den fysiska XSD-fil som anger hur instansdokument och taxonomier ska byggas.  
+
+XBRL- **länkbaserna**, som är de fysiska XML-filer som innehåller information om elementen som definieras i XBRL-schemat, t.ex. rubriker på ett eller flera språk, hur de är kopplade till varandra, hur element ska summeras o.s.v.  
+
+En XBRL- **taxonomi** är en "terminologi" eller "ordlista" som skapats av en grupp för utbyte av affärsinformation. Taxonomin är kompatibel med XBRL-specifikationen.  
+
+Ett XBRL- **instansdokument** är en affärsrapport, t.ex. en ekonomisk rapport, som förberetts för XBRL-specifikationen. Innebörden av värdena i instansdokumentet beskrivs av taxonomin. Ett instansdokument är praktiskt taget oanvändbart om du inte vet för vilken taxonomi det förberetts.  
+
+## <a name="layered-taxonomies"></a>Överlappande taxonomier  
+En taxonomi kan bestå av en bastaxonomi, t.ex. US GAAP eller IAS, och sedan ha en eller flera anknytningar. För att återspegla detta refererar en taxonomi till ett eller flera scheman, som alla utgör enskilda taxonomier. När ytterligare taxonomier laddas in i databasen, läggs de nya elementen till i slutet av de redan befintliga.  
+
+## <a name="linkbases"></a>Länkbaser  
+ I XBRL-specifikation 2 beskrivs taxonomin i flera XML-filer. Den primära XML-filen är själva taxonomischemafilen (XSD-fil), som endast innehåller en oordnad lista med element eller information som ska rapporteras. Utöver detta finns ofta associerade länkbasfiler (XML-filer). Länkbasfilerna innehåller data som kompletterar taxonomin (XSD-fil). Det finns sex olika typer av länkbasfiler, och fyra av dessa är relevanta för Produktnamn XBRL. Dessa är:  
+
+-   Etikettlänkbas: Den här länkbasen innehåller etiketter eller namn för elementen. Filen kan innehålla etiketter på olika språk som identifieras med XML-egenskapen ”lang”. XML-språk-ID:t innehåller vanligtvis en förkortning på två bokstäver och även om det ska vara enkelt att gissa vad förkortningen betyder, finns det inget samband med språkkoderna i Windows eller med språkkoderna som definieras i demonstrationsdata. När användaren slår upp språken för en viss taxonomi visas därför alla etiketter för det första elementet i taxonomin. Det betyder att ett exempel på varje språk visas. En taxonomi kan ha flera kopplade etikettlänkbaser, förutsatt att dessa länkbaser innehåller olika språk.  
+
+-   Presentationslänkbas: Den här länkbasen innehåller information om elementens struktur, d.v.s. hur taxonomins utfärdare föreslår att taxonomin ska presenteras för användaren. Länkbasen innehåller en serie länkar som var och en kopplar två element som överordnat respektive underordnat element. När alla dessa länkar kopplats kan elementen visas i en hierarkisk struktur. Observera att presentationslänkbasen behandlar just detta, d.v.s. hur element presenteras för användaren.  
+
+-   Beräkningsbaslänk: Den här länkbasen innehåller information om vilka element som summeras till vilka. Strukturen påminner om presentationslänkbasens struktur, med den skillnaden att varje länk eller ”arc”, som de kallas, har en viktegenskap. Vikten kan antingen vara 1 eller -1, vilket betyder att elementet ska läggas till eller dras bort från det överordnade elementet. Observera att sammanslagningarna inte nödvändigtvis stämmer överens med den visuella presentationen.  
+
+-   Referenslänkbas: Den här länkbasen är en XML-fil med tilläggsinformation om de data som krävs av taxonomins utfärdare.
+
+## <a name="to-set-up-xbrl-lines"></a>Så här lägger du upp XBRL-rader  
+När du har importerat eller uppdaterat taxonomin måste schemaraderna förses med all information som begärs. Den här informationen omfattar allmän företagsinformation, de ekonomiska rapporterna, observationer för de ekonomiska rapporterna, extra scheman och övrig information som behövs för att uppfylla de specifika ekonomiska rapporteringskraven.  
+
+Du lägger upp XBRL-rader genom att koppla data i taxonomin till data i redovisningen.  
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+2.  Välj en taxonomi i listan i fönstret **XBRL-taxonomier**.  
+3.  Välj åtgärden **Rader**.  
+4.  Markera en rad och fyll i fälten.   
+5.  Om du vill läsa detaljerad information om vad som ska fyllas i väljer du åtgärden **Information**.  
+6.  Om du vill definiera kopplingen av redovisningskontona i kontoplanen till XBRL-raderna väljer du åtgärden **Redov. def.rader**.  
+7.  Om du vill lägga till noteringar till ekonomirapporten väljer du åtgärden **anteckningar**.  
+
+> [!NOTE]  
+>  Du kan bara exportera data som överensstämmer med den källtyp du valt i fältet **Ursprungstyp** som innehåller beskrivning och noteringar.  
+
+> [!NOTE]  
+>  Rader som inte är relevanta kan märkas som radtyp **Ej tillämpbart**, och exporteras sålunda inte.
+
+ ## <a name="to-import-an-xbrl-taxonomy"></a>Så här importerar du XBRL-taxonomier  
+Det första du måste göra när du arbetar med XBRL-funktionerna är att importera taxonomin till företagets databas. En taxonomi består av ett eller flera scheman och länkbaser. När du har importerat ett eller flera scheman och länkbaser och kopplat länkbaserna till schemat, kan du lägga upp raderna och koppla redovisningskontona i kontoplanen till lämpliga taxonomirader.  
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+2.  I fönstret **XBRL-taxonomier** skapa en ny rad och ange namnet och en beskrivning av taxonomin.  
+3.  Välj åtgärden **Scheman** och infoga beskrivningen av schemat.  
+4.  Importera schemat, i fönstret **XBRL-scheman** väljer du åtgärden **Importera** och väljer sedan en mapp och XSD-fil. Välj **OK**.  
+5.  Importera länkbasen, i fönstret **XBRL-scheman** väljer du åtgärden **länkbaser** och väljer sedan en mapp och XML-fil. Välj **Öppna**.  
+6.  Du kan nu välja att koppla länkbasen till schemat. Upprepa stegen ovan för att importera resterande länkbaser.  
+7. Välj åtgärden **Koppla till taxonomi** för att koppla länkbasen till schemat.  
+
+> [!IMPORTANT]  
+>  I stället för att koppla länkbaserna separat efter importen kan du vänta tills du har importerat samtliga länkbaser och sedan koppla dem samtidigt. Gör det genom att välja **Nej** när du uppmanas att koppla den nyligen importerade länkbasen till schemat. Välj sedan raderna med länkbaserna som du vill koppla.  
+
+## <a name="to-update-an-xbrl-taxonomy"></a>Så här uppdaterar du en XBRL-taxonomi  
+När en taxonomi ändras måste du uppdatera den aktuella taxonomin i enlighet därmed. Orsaken till uppdateringen kan vara ett ändrat schema, en ändrad länkbas eller en ny länkbas. När du har uppdaterat taxonomin behöver du bara koppla ihop raderna för de ändrade eller nya raderna.  
+
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+2.  I fönstret **XBRL-taxonomier** väljer du åtgärden **Scheman**.  
+3.  Om du vill uppdatera ett schema väljer du schemat och väljer sedan åtgärden **Importera**.  
+4.  Välj åtgärden **Länkbaser** när du vill uppdatera eller lägga till en ny länkbas.  
+5.  Välj lämplig länkbas eller tryck på Ctrl+N för att skapa en ny rad, välja länkbastyp och sedan skriva in en beskrivning.  
+6.  Importera länkbasen genom att välja åtgärden **importera**.  
+7.  Välj **Ja** när du vill koppla länkbasen till schemat.  
+
+## <a name="see-also"></a>Se även
+[Ekonomi](finance.md)    
+[Affärsstöd](bi.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

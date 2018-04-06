@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 54489c23a34e409ccb22faff77da41acdaf065b3
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Avgående distributionslagerflöde
@@ -102,10 +102,10 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
 ### <a name="6-create-pick-request"></a>6: Skapa plockförfrågan  
  När det avgående källdokumentet släpps skapas en lagerplockförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren. Beroende på inställningarna skapar förbrukning från en produktions- och monteringsorder även en plockförfrågan att plocka de nödvändiga komponenterna från lagret.  
 
-### <a name="7-generate-pick-worksheet-lines"></a>7: Generera plockningsförslagsrader  
- Användaren som är ansvarig för att koordinera plockningar hämtar den lagerplockningsraderna i **Plockningsförslag** baserat på plockförfrågningar från utleveranser från distributionslager eller interna operationer med komponentförbrukning. Användaren väljer raderna som ska plockas och förbereder plockningarna genom att ange vilka lagerplatser som de ska tas från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
+### <a name="7-generate-pick-worksheet-lines"></a>7: Generera plockningskalkylarksrader  
+ Användaren som är ansvarig för att koordinera plockningar hämtar den lagerplockningsraderna i **Plockningskalkylark** baserat på plockförfrågningar från utleveranser från distributionslager eller interna operationer med komponentförbrukning. Användaren väljer raderna som ska plockas och förbereder plockningarna genom att ange vilka lagerplatser som de ska tas från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
 
- Användaren anger plockningsmetoder för optimerad lagerhantering och använder sedan en funktion för att skapa motsvarande den distributionslagerplockningsdokument, som tilldelats olika lagerarbetare som utför distributionslagerplockningarna. När distributionslagerplockningar är fullständigt tilldelade tas **Plockningsförslag** bort.  
+ Användaren anger plockningsmetoder för optimerad lagerhantering och använder sedan en funktion för att skapa motsvarande den distributionslagerplockningsdokument, som tilldelats olika lagerarbetare som utför distributionslagerplockningarna. När distributionslagerplockningar är fullständigt tilldelade tas **Plockningskalkylark** bort.  
 
 ### <a name="8-create-warehouse-pick-documents"></a>8: Skapa plockningdokument för dist.lager  
  Lagerarbetaren som utför plockning skapar ett plockningsdokument för distributionslager, med en pull-metod, baserat på det utsläppta källdokumentet. Alternativt skapas lagerplockningdokumentet och tilldelas till en lagerarbetare med en pushmetod.  

@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
@@ -30,7 +30,7 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 >   Om leverantörsmallar finns för olika leverantörstyper, visas ett fönster när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
 
 ## <a name="to-create-a-new-vendor-card"></a>Skapa ett nytt leverantörskort.
-1. Välj **Leverantörer** på startsidan för att öppna listan över befintliga leverantörer.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.  
 2. I fönstret **Leverantörer** väljer du **Ny**.
 
     Om fler än en leverantörsmall finns, öppnas ett fönster där du kan välja leverantörsmall. I detta fall, följ nästa två steg.

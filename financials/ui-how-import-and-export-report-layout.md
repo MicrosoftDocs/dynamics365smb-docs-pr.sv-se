@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Så här importerar och exporterar du en anpassad rapport eller dokumentlayout

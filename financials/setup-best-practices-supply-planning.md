@@ -1,5 +1,5 @@
 ---
-title: "Ställa in bästa metoder - leveransplanering | Microsoft Docs"
+title: "Ställa in bästa praxis - leveransplanering | Microsoft Docs"
 description: "Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt."
 services: project-madeira
 documentationcenter: 
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 608df1caf9f8ff1a4c6c0b893bd6420f81157974
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setup-best-practices-supply-planning"></a>Skapa metodtips: leveransplanering
@@ -35,6 +35,6 @@ Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
  [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
- [Skapa komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)  
+ [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

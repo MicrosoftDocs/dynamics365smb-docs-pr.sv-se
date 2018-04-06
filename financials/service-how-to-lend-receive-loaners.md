@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Låna ut och ta emot låneartiklar
@@ -30,7 +30,7 @@ Du kan låna ut kundlåneartiklar för att tillfälligt ersätta serviceartiklar
 5. Klicka på knappen **Ja** för att bekräfta lånet.  
 
 ## <a name="to-receive-a-loaner"></a>Så här tar du emot låneartiklar  
-När du får en låneartikel från en kund måste du registrera inleveransen. Det gör du i fönstren **Tjänsteorder**, **Bokförd serviceleverans** och **Låneartikelkort**. Nedan beskrivs proceduren för att ta emot låneartiklar i fönstret **Serviceoorder**.  
+När du får en låneartikel från en kund måste du registrera inleveransen. Det gör du i fönstren **Serviceorder**, **Bokförd serviceleverans** och **Låneartikelkort**. Nedan beskrivs proceduren för att ta emot låneartiklar i fönstret **Serviceoorder**.  
   
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar
@@ -34,8 +34,8 @@ I den här genomgången tas följande aktiviteter upp:
 ### <a name="prerequisites"></a>Förutsättningar  
 För att kunna utföra den här genomgången behöver du:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installerad.  
-- Kassaflödesförslagsraderna är bokförda.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] installerad.  
+- Kassaflödeskalkylarksraderna är bokförda.  
 
 ## <a name="roles"></a>Roller  
 Den här genomgången innehåller arbetsuppgifter som utförs av följande användarroll:  

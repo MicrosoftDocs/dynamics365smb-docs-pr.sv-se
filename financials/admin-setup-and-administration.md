@@ -8,36 +8,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2de32e0acb9e3aeb57a0331aa54bbde4d5dae44d
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: acf94bd4f048e1f76ae2e84c66e8831dd4e46c81
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="setup-and-administration-in-finance-and-operations-business-edition"></a>Konfigurering och administrering i Finance and Operations, Business edition
+# <a name="administration"></a>Administration
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare, anpassa användargränssnittet och hantera krypteringsnycklar.  
 
 Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt. [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal assisterade installationer som hjälper dig att ställa in grundläggande information. Mer information finns i [Anpassa Finance and Operations, Business edition](setup.md).
 
-<!--Whether you use [!INCLUDE[rim](../../includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.-->  
+Om du använder RapidStart Services för att implementera inställningsvärden, eller om du skriver in dem i det nya företaget manuellt, kan du stärka hantera dina inställningsalternativ med allmänna rekommendationer för valda inställningsfält som är kända för att eventuellt göra lösningen ineffektiv om den definierats felaktigt.  
 
-En superanvändare eller administratör kan konfigurera ramverket för datautbyte så att användare kan exportera och importera data i bank- och lönesystemfiler, till exempel för olika processer av likviditetsstyrning.  
+En superanvändare eller administratör kan konfigurera ramverket för datautbyte så att användare kan exportera och importera data i bank- och lönesystemfiler, till exempel för olika processer av likviditetsstyrning.
+
+> [!NOTE]
+> Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i # # [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Användare, profiler och rollgrupp i Finance and Operations, Business edition](admin-users-profiles-roles.md)|  
-|Spåra alla direkta ändringar som användarna gör av data i databasen för att kunna identifiera var fel och dataändringar härrör från.|[Logga förändringar i Finance and Operations, Business edition](across-log-changes.md)|  
-|Stöd inställningsalternativ med rekommendationer för valda fält som eventuellt orsakar att lösningen är ineffektiv, om fältet felaktigt inställt|[Skapa komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)|  
-|Visa sidor, kodenheter och frågor som webbtjänster.|[Publicera en webbtjänst](across-how-publish-web-service.md)|  
-|Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför Finance and Operations, Business edition| [Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration](madeira-how-setup-email.md)|  
+|Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Förstå profiler och rollcenter](admin-users-profiles-roles.md)|  
+|Tilldela behörigheter till användare, ändra behörighetsgrupper och gruppera användare per behörigheter.|[Hantera användare och behörigheter](ui-how-users-permissions.md)|
+|Skapa en ny affärsenhet med hjälp av mallar|[Skapa nya företag](about-new-company.md)|
+| Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser. |[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+|Spåra alla direkta ändringar som användarna gör av data i databasen för att kunna identifiera var fel och dataändringar härrör från.|[Logga ändringar](across-log-changes.md)|  
 |Ange enstaka eller återkommande begäranden om att köra rapporter eller kodenheter.|[Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)|  
-|Hantera, ta bort eller komprimera dokument|[Hantera dokument](admin-manage-documents.md)|  
-|Skapa en ny affärsenhet med hjälp av mallar|[Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
+|Hantera, ta bort eller komprimera dokument|[Ta bort dokument](admin-manage-documents.md)|  
+|Visa sidor, kodenheter och frågor som webbtjänster.|[Publicera en webbtjänst](across-how-publish-web-service.md)|
 
 ## <a name="see-also"></a>Se även
 [Affärsfunktion](madeira-business-functionality.md)  

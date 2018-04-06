@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e933115531f9adb0296ad8983be00da480f11f25
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
@@ -79,14 +79,14 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
      När du har angett allmän information om segmentet väljer du de kontakter som ska ingå i segmentet.  
 
-     Du kan använda en mängd olika kriterier för att välja kontakter. Det kan exempelvis vara kontaktpersoner som arbetar på ett företag eller en potentiell kund som är ansvarig för inköp på ett företag.  
+     Du kan använda en mängd olika villkor för att välja kontakter. Det kan exempelvis vara kontaktpersoner som arbetar på ett företag eller en potentiell kund som är ansvarig för inköp på ett företag.  
 
-     Du använder filter för att lägga till kontakter efter de kriterier som bäst passar dina ändamål. Du kan till exempel välja att filtrera på ansvarsområde för kontaktpersonen eller affärsrelation eller bransch för kontaktföretaget. I den här genomgången väljer du filtret **Arbetsansvar** för att välja kontakter.  
+     Du använder filter för att lägga till kontakter efter de villkor som bäst passar dina ändamål. Du kan till exempel välja att filtrera på ansvarsområde för kontaktpersonen eller affärsrelation eller bransch för kontaktföretaget. I den här genomgången väljer du filtret **Arbetsansvar** för att välja kontakter.  
 
 4.  I fönstret **Segment** väljer du åtgärden **Lägg till kontakter** för att öppna filtret **Lägg till kontakter**.  
 5.  På snabbfliken **Arbetsansvar** väljer du filtret **Inköp** i **Arbetsansvarskod** och knappen **OK**.  
 
-     Fönstret **Segment** innehåller nu en lista med kontakter baserat på det filter som du har angett. På Snabbfliken **Allmänt**, i fältet **Antal rader**, kan du snabbt se antalet kontakter som uppfyller dessa kriterier.  
+     Fönstret **Segment** innehåller nu en lista med kontakter baserat på det filter som du har angett. På Snabbfliken **Allmänt**, i fältet **Antal rader**, kan du snabbt se antalet kontakter som uppfyller dessa villkor.  
 
     > [!NOTE]  
     >  Du kan spara ditt segmentkriterium så att du kan använda det vid ett senare tillfälle.
@@ -103,7 +103,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 1.  I fönstret **Segment** väljer du åtgärden **Kontakter** och väljer sedan åtgärden **Reducera kontakter**  för att öppna fönstret **Ta bort kontakter - minska**.  
 2.  På snabbfliken **Affärsrelation** väljer du filtret **PROS** i **Affärsrelationskod** och väljer sedan knappen **OK**.  
 
-     Fönstret **Segment** innehåller nu en reducerad lista med kontakter och i fältet **Antal rader** kan du se det antal kontakter som uppfyller de nya kriterierna.  
+     Fönstret **Segment** innehåller nu en reducerad lista med kontakter och i fältet **Antal rader** kan du se det antal kontakter som uppfyller de nya villkorna.  
 
     > [!NOTE]  
     >  Om du behöver reversera borttagningen av en grupp kontakter kan du göra det med funktionen **Gå tillbaka**. Med andra ord kan du ångra din senast utförda segmentering.  

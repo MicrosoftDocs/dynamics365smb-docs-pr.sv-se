@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-service-orders"></a>Skapa tjänsteorder
@@ -52,7 +52,7 @@ Du kan automatiskt skapa serviceorder för underhåll av serviceartiklar baserat
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Så här omvandlar du serviceofferter till serviceorder
 När en kund har accepterat en serviceoffert kan du omvandla den till en serviceorder. Offerten tas bort från fönstret och en ny serviceorder skapas med samma beskrivning som serviceofferten. Svarsdatum och svarstid räknas om för serviceordern och dess status anges som **Förestående**. Reparationsstatus för serviceartiklarna i ordern ändras till **Initial**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] söker efter allokeringsposter för samtliga tjänsteartiklar i tjänsteofferten som har statusen **Aktiv**. Om sådana fördelningstransaktioner hittas ändras deras fördelningsstatus till **Omfördelning nödvändig**. När du omfördelar serviceartiklarna på serviceordern ändras status för de fördelningstransaktioner som är registrerade för offerten till **Avslutad**.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] En sökning görs efter  för alla serviceartiklar i serviceofferten som har statusen **Aktiv**. Om sådana fördelningstransaktioner hittas ändras deras fördelningsstatus till **Omfördelning nödvändig**. När du omfördelar serviceartiklarna på serviceordern ändras status för de fördelningstransaktioner som är registrerade för offerten till **Avslutad**.   
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
 2. Välj den serviceoffert som du vill omvandla till en serviceorder.  

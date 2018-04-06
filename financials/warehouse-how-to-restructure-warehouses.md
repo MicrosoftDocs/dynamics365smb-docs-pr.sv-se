@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="restructure-warehouses"></a>Omstrukturera lager
@@ -50,7 +50,7 @@ Du har nu tömt lagerplatser där artiklarna användes. Standardlagerplatserna f
 
     1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lageromgrupperingsjournal** och välj sedan relaterad länk.  
     2.  För de lagerplatser där det inte sker någon transport av artiklar skapar du en rad för varje aktuell lagerplats i **Dist.lager omgrupperingsjnl** med den gamla lagerplatskoden, **Från lagerplatskod** och den nya lagerplatskoden, **Till lagerplatskod**.  
-    3.  Om vissa transporter innefattar fysiska transporter som du vill att lagerpersonalen ska utföra använder du **Transportförslag** för att förbereda transportinstruktioner i stället för att använda lagergrupperingsjournalen. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  Om vissa transporter innefattar fysiska transporter som du vill att lagerpersonalen ska utföra använder du **Transportkalkylark** för att förbereda transportinstruktioner i stället för att använda lagergrupperingsjournalen. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  När de gamla lagerplatserna är tomma gruppera om dem som **KS** typ av lagerplatsen, för att se till att de inte inkluderas i artikelflöden.  
 
@@ -69,7 +69,7 @@ Du har nu tagit bort lagerplatserna från lagerflödet och har omklassificerat d
 
 Om du klickar på **Ja** tas lagerplatsen bort för framtida användning, men lagerplatskoden finns kvar i alla distributionslagertransaktioner.  
 
-Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerplatsen också får det nya namnet kan du göra det i fönstret **Lagerplatser**, inklusive lagerplatsinnehåll, aktivitetsrader för distributionslager, registrerade aktivitetsrader för distributionslager, förslagsrader för distributionslager, inleveransrader för distributionslager, bokförda inleveransrader för distributionslager, utleveransrader för distributionslager, bokförda utleveransrader för distributionslager och distributionslagertransaktioner.  
+Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerplatsen också får det nya namnet kan du göra det i fönstret **Lagerplatser**, inklusive lagerplatsinnehåll, aktivitetsrader för distributionslager, registrerade aktivitetsrader för distributionslager, kalkylarksrader för distributionslager, inleveransrader för distributionslager, bokförda inleveransrader för distributionslager, utleveransrader för distributionslager, bokförda utleveransrader för distributionslager och distributionslagertransaktioner.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Så här byter du namn på en lagerplats och ändrar lagerplatskoden i alla poster  
 

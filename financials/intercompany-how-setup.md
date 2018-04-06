@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-intercompany"></a>Koncerninterna inställningar
@@ -120,7 +120,7 @@ Om några av de koncerninterna dimensionerna har samma koder som motsvarande dim
 2. I fönstret **konc. int. dimensioner** markerar du de rader som du vill koppla automatiskt och väljer sedan åtgärden **Koppla till dimension med samma kod**.
 3. Fyll i fältet **Koppla till dimensionskod** för varje koncernintern dimension som inte har kopplats automatiskt.
 4. Välj åtgärden **Konc. int. dimensionsvärden**.
-5. I fönstret **Konc. int. dimensionsvärden** fyller du i fältet **2Koppla till dimensionsvärdekod**.
+5. I fönstret **Konc. int. dimensionsvärden** fyller du i fältet **Koppla till dimensionsvärdekod**.
 
     Fortsätt att koppla dimensioner till koncerninterna dimensioner på liknande sätt.
 6. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dimensioner** och välj sedan relaterad länk.

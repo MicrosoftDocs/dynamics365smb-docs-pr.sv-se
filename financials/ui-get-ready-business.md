@@ -9,24 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f3ec96ef0f9c69c4942e85e7438f80bc70e6f37d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
-Grattis, du har precis har initierat ditt första företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 För att hjälpa dig att göra dig redo för affärer, kan du besöka fönstret **företagsstöd** där du kan starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Du kan nå fönstret från diagrammet på rollcentret **Chef** genom att välja listrutan **företagsstöd** och sedan välja åtgärden **Visa inställningar och hjälpresurser**. När du uppdaterar sidan ersätts diagrammet med inställningar och hjälpresurser.
 
-På startsidan, längst ned i navigeringsfönstret, hittar du menyn **inställningar och tillägg**. Expandera knappen **Start** för att visa navigeringsrutan. Här har du åtkomst till en lista med assisterade inställning som kan hjälpa dig att komma igång. När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av den assisterade inställningen. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+I ditt rollcenter, längst ned i navigeringsfönstret, hittar du menyn **Inställningar och tillägg**. Expandera knappen **Start** för att visa navigeringsrutan. Här har du åtkomst till en lista med assisterade inställning som kan hjälpa dig att komma igång. När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av den assisterade inställningen. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **grundläggande** upplevelsen ger åtkomst mindre än vad **Suite**-upplevelsen ger. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+>   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **Grundläggande** upplevelsen ger åtkomst till färre än vad **Vital**-upplevelsen gör. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
 
 I fönstret **Assisterad inställning** hittar du följande med **Grundläggande**-upplevelsen:
 
@@ -44,7 +44,7 @@ I fönstret **Assisterad inställning** hittar du följande med **Grundläggande
 När du har kört en assisterad inställningar, väljs den som **slutfört**. För att köra den assisterade inställningen väljer du de tre prickarna som även kallas snabbmenyn, och sedan väljer du **Starta inställningen**.
 
 ## <a name="home"></a>Hem
-På startsidan har du en överblick över verksamheten. Till vänster visas ett navigeringsfält, som gör att du enkelt får tillgång till kunder, leverantörer, artiklar, och så vidare. I mitten hittar du panelen **Aktiviteter**. **Aktiviteter** visar data och kan klickas på för enkelt tillgång till det valda dokumentets. **Nyckelindikatorer** kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över **Favoritkunder** på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
+På startsidan har du en överblick över verksamheten. Till vänster visas ett navigeringsfält, som gör att du enkelt får tillgång till kunder, leverantörer, artiklar, och så vidare. I mitten hittar du panelen **Aktiviteter**. **Aktiviteter** visar data och kan klickas på för enkelt tillgång till det valda dokumentets. **Nyckelindikatorer** kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också upprätta en lista över **Favoritkunder** på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
 Använd pilarna för att minska en del av sidan och för att få mer plats för att visa specifika data. Högst upp på startsidan hittar du alla åtgärder som kan kopplas till det aktuella innehållet. Detta kan också reduceras, och du behöver endast klicka inom det reducerade området för att visa det på nytt.
 
 ## <a name="company-information"></a>Företagsinformation
@@ -62,4 +62,7 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Hantera användare och behörigheter](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

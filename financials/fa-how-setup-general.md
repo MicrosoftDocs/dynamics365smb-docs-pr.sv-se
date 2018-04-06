@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
@@ -51,7 +51,7 @@ Fördelningsnycklar används för fördelningar av anläggningstillgångar, inte
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Så här skapar du journalmallar för anläggningstillgångar
 En mall är en fördefinierad layout för en journal. Mallen innehåller information om spårkoder, rapporter och nummerserier. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en journalmall för anläggningstillgångar första gången du öppnar fönstret **Journal för anläggningstillgångar**, men du kan också skapa ytterligare journalmallar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en journalmall för anläggningstillgångar första gången du öppnar fönstret **Journalmall för anläggningstillgångar** men du kan skapa ytterligare journalmallar.  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Anl. journalmallar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.

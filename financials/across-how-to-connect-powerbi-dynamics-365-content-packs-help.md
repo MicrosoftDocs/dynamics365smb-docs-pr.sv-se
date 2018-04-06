@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/29/2018
+ms.date: 02/05/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4a1498e634046e54bdb9a5793731e44808c2f1eb
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: aff8d95b13f795fa12d3146e5613712fb3baf9b4
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="connecting-power-bi-to-finance-and-operations-business-edition-content-packs"></a>Ansluta Power BI till innehållspaket för Finance and Operations, Business edition
@@ -46,22 +46,50 @@ Att få insikter om dina Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_l
 ## <a name="system-requirements"></a>Systemkrav
 För att importera dina [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data i Power BI måste du ha behörighet till de webbtjänster som används för att hämta data. De webbtjänster som krävs för respektive innehållspaket är:
 
-**Microsoft Dynamics 365 for Finance and Operations – CRM**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – CRM**
 - SalesOpportunities
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Sales**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Sales**
+- ItemSalesbyCustomer
+- SalesDashboard
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Finance**
+- Power BIFinance
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Jobs**
+- Projektlista
+- Projektplaneringsrader
+- Projektaktivitetsrader
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Customers List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
+- Power BI kundlista
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Finance**
-- Power BIFinance
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Items List**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Artiklar
+- SalesDashboard
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Jobs**
-- Projektlista
-- Projektplaneringsrader
-- Projektaktivitetsrader
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Vendors List**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Artiklar
+- SalesDashboard
+- Power BI kundlista
+- ItemSalesbyCustomer
+- Power BI leverantörslista
+- ExcelTemplateViewCompany
 
 ## <a name="web-services"></a>Webbtjänster
 Ett enkelt sätt att hitta webbtjänsterna är att söka efter webbtjänster via [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Se till att rutan Publicera markeras i lista för de webbtjänster som anges ovan.
@@ -75,7 +103,10 @@ Ett vanligt fel är att ange företagets visningsnamn i stället för namnet på
 ### <a name="incorrect-user-name-and-password"></a>Felaktigt användarnamn och lösenord  
 Användarnamn och lösenord som används för att ansluta blir desamma som används för att ansluta till ditt Microsoft Office 365-konto.  
 
-Innehållspaketen kräver också att du har ett Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto.  När du har angett dina autentiseringsuppgifter upptäcker vi automatiskt eventuella Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-innehavare som du har tillgång till.  Om du inte har ett licensierat eller Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto eller en utvärderingsversion visas ett felmeddelande.
+Innehållspaketen kräver också att du har ett Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto. När du har angett dina autentiseringsuppgifter upptäcker vi automatiskt eventuella Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-innehavare som du har tillgång till. Om du inte har ett licensierat eller Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto eller en utvärderingsversion visas ett felmeddelande.
+
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nyckeln matchade inte några rader i tabellen
+Om du anger ogiltiga företagsnamn i samband med anslutningsprocessen kan du få felmeddelandet ”nyckeln matchar inte har några rader i tabellen”. Ange rätt företagsnamn och försök ansluta igen.
 
 ## <a name="see-also"></a>Se även
 [Kom igång med Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  

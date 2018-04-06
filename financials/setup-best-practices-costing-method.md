@@ -1,5 +1,5 @@
 ---
-title: "Ställa in bästa metoder - Värderingsprincip | Microsoft Docs"
+title: "Ställa in bästa praxis - Värderingsprincip | Microsoft Docs"
 description: "**Värderingsprincipen** på artikelkortet anger hur artikelns kostnadsflöde registreras och om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen."
 services: project-madeira
 documentationcenter: 
@@ -16,10 +16,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: d4f533d42cc813d3ebc0ccbb00228a6c8e188c14
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="setup-best-practices-costing-method"></a>Lägga upp bästa metoder: Värderingsprincip
+# <a name="setup-best-practices-costing-method"></a>Lägga upp bästa praxis: Värderingsprincip
 **Värderingsprincipen** på artikelkortet anger hur artikelns kostnadsflöde registreras och om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen.  
 
  Det är viktigt att ange rätt värderingsprincip enligt artikeltyp och affärsmiljö för att garantera ekonomiska lager.  
@@ -37,6 +37,6 @@ ms.lasthandoff: 12/14/2017
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)   
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
- [Skapa komplexa moduler med hjälp av bästa metoder](set-up-complex-application-areas-using-best-practices.md)  
+ [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

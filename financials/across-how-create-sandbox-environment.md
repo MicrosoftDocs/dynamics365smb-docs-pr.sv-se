@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -37,7 +37,7 @@ Du måste ha en prenumeration på [!INCLUDE[d365fin](includes/d365fin_md.md)] f�
 ![välkomstguiden för begränsat läge](./media/across-sandbox/sandbox-wizard.png)
 
 5. Välj **Mer information** om du vill veta om scenarier som du kan pröva i begränsat läge. Klicka på **Stäng** för att fortsätta till rollcenter din [!INCLUDE[d365fin](includes/d365fin_md.md)]-instans för begränsat läge.
-6. Högst upp i Rollcentret visas ett meddelande att informera dig om att det är begränsat läge. Du kan också se vilken typ av miljön i namnlisten på klienten.
+6. Högst upp i Rollcentret visas ett meddelande att informera dig om att det är begränsat läge. Du kan också se miljötypen i namnlisten på klienten.
 ![Rollcenteraviseringar för begränsat läge](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 I begränsat läge, har en helt ny innehavare skapats. Den här innehavaren laddas med standarddemonstrationsdata för företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön när begränsat läge skapas.
 7.  När som helst kan du återgå till sidan **begränsat läge** och återställa begränsat läge.

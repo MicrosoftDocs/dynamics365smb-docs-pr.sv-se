@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Genomgång: Spåra serienummer/partinummer
@@ -230,7 +230,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 3.  Behåll standardinställningen för **Artikel-Endast spårade** i fältet **Visa komponenter** och behåll standardspårningsmetoden **Förbrukning – Ursprung** i **Spårningsmetod**.  
 4.  Välj åtgärden **Spåra**.  
 
-    Lägg märke till hur ett utleveranshuvud matchar sökkriterierna. Innan du fortsätter med spårningen ska du verifiera att utleveransen är den som innehöll den defekta cykeln till Service AB.  
+    Lägg märke till hur ett utleveranshuvud matchar sökvillkorna. Innan du fortsätter med spårningen ska du verifiera att utleveransen är den som innehöll den defekta cykeln till Service AB.  
 
 5.  Markera spårningsraden och välj sedan åtgärden **visa dokument**.  
 
@@ -287,7 +287,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
 3.  Du kan öppna försäljningsradposten genom att markera den andra analysraden, klicka **Visa**. Alternativt kan du välja värdet i fältet **Antal poster**.  
 
-    Nu ser kvalitetskontrollanten en öppen försäljningsrad för de defekta racercykelramarna. Kvalitetskontrollanten ger försäljningsavdelningen genast förslaget att annullera den här ordern och att skapa en ny produktionsorder, baserat på godkända racercykelramar.  
+    Nu ser kvalitetskontrollanten en öppen försäljningsrad för de defekta racercykelramarna. Kvalitetskontrollanten ger försäljningsavdelningen genast kalkylarket att annullera den här ordern och att skapa en ny produktionsorder, baserat på godkända racercykelramar.  
 
  Nu är du klar med genomgången av hur du använder fönstret **Analysera** för defekthantering tillsammans med fönstret **Artikelspårning**.  
 

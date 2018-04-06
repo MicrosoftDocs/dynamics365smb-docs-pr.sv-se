@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] omfattar fönstret **tjänsteuppgifter** där du får en översikt över alla tjänsteartiklar som behöver åtgärdas. Du kan se det som en instrumentbräda för service - se vilka order som väntar på att åtgärdas, söka efter och registrera reservdelar och hålla lagret uppdaterat.  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns fönstret **Serviceuppgifter** där du får en översikt över alla serviceartiklar som behöver åtgärdas. Du kan se det som en instrumentbräda för service - se vilka order som väntar på att åtgärdas, söka efter och registrera reservdelar och hålla lagret uppdaterat.  
   
 Om du vill spåra ändringar och få en grafisk översikt över serviceverksamheten, kan du med statistikverktygen i [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt skapa en snabb analys i diagramformat.  
   
@@ -31,7 +31,7 @@ Om du vill spåra ändringar och få en grafisk översikt över serviceverksamhe
 2. Om du vill ha en lista över serviceuppgifterna som en viss resurs/resursgrupp är fördelad till, fyller du i fältet **Resursfilter**/ **Resursgruppfilter** och trycker på RETUR.  
 3. Om du vill ha en lista över serviceuppgifter med ett visst svarsdatum eller svarsdatum inom en viss tidsperiod, fyller du i fältet **Svarsdatumfilter** och trycker på RETUR.  
 4. Om du vill ha en lista över serviceuppgifter med en viss fördelningsstatus/reparationsstatus fyller du i fältet **Fördelningsstatusfilter** eller **Reparationsstatus kodfilter** och trycker på RETUR.  
-5. Markera serviceuppgiften som du vill arbeta med. På fliken **Analysera** i gruppen **Serviceuppgifter** väljer du **Artikelförslag**. Fönstret **Serviceartikeldokument** öppnas.  
+5. Markera serviceuppgiften som du vill arbeta med. På fliken **Analysera** i gruppen **Serviceuppgifter** väljer du **Artikelkalkylark**. Fönstret **Serviceartikeldokument** öppnas.  
 6. Registrera standardtext, reservdelar, resurstid och kostnader med hjälp av motsvarande alternativ i fältet **Typ**:  <Blank>, **Artikel**, **Resurs**, och **Kostnad**.  
 7. I fältet **Reparationsstatus** markerar du lämplig status.  
   
@@ -53,7 +53,7 @@ När du utför en service på en serviceorder kan du registrera detaljerad infor
 När du arbetar med serviceartiklar i serviceorder kanske du behöver använda reservdelar till servicen. Nedan beskrivs en procedur för att registrera reservdelarna som du använder i fönstret **Serviceartikeldokument**.  
   
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceuppifter** och välj sedan relaterad länk. 
-2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelförslag**.  
+2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
 3. Ange en ny servicerad.  
 4. I fältet **Typ** väljer du **Artikel**.  
 5. I fältet **Nr.** markera relevant reservdel.  
@@ -71,7 +71,7 @@ När du arbetar med serviceartiklar i serviceorder kanske du behöver använda r
 När du servar en serviceartikel som innehåller komponenter kanske du måste byta ut trasiga komponenter mot nya. När du anger en reservdel för en serviceartikel med komponenter kan du välja mellan att ersätta komponenten eller skapa en ny. Den nya artikeln registreras inte som komponent i serviceartikeln förrän du bokför serviceraden eller serviceordern. 
     
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceuppifter** och välj sedan relaterad länk. 
-2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelförslag**.  
+2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
 3. Ange en ny servicerad.  
 4. I fältet **Typ** väljer du **Artikel**.  
 5. I fältet **Nr.** Välj komponenten som ska ersättas.  
@@ -97,7 +97,7 @@ När du registrerar en serviceartikelrad i en serviceorder eller offert om servi
 När en serviceartikel har reparerats kan du ange både felkoden och åtgärdskoden för artikeln genom att välja en kombination från de befintliga fel- och åtgärdskodssambanden. De fel- och åtgärdskoder som valts visas nu i motsvarande fält i fönstret **Serviceartikeldokument**. Du kan också registrera koderna direkt i det här fönstret.  
     
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceuppifter** och välj sedan relaterad länk. 
-2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelförslag**.  
+2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
 3. På sidan **Serviceartikeldokument** väljer du **Fel- och åtgärdssamband koder**. Fönstret **Fel-/åtgärdssambandskoder** öppnas.  
   
   >  [!Note]

@@ -1,6 +1,6 @@
 ---
-title: "Planera artikelinförsel i förslaget | Microsoft Docs"
-description: "Du kan använda artikelinförselförslaget om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser."
+title: "Planera artikelinförsel i kalkylarket | Microsoft Docs"
+description: "Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,29 +16,29 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i förslag
-Du kan använda artikelinförselförslaget om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.  
+# <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i kalkylark
+Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.  
 
-Om du vill lägga upp distributionslagret så att inleveransrader visas i artikelinförselförslaget så snart de har bokförts, markerar du fältet **Använd artikelinförselförslag** på snabbfliken **Dist.lager** på lagerställekortet. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
+Om du vill lägga upp distributionslagret så att inleveransrader visas i artikelinförselkalkylarket så snart de har bokförts, markerar du fältet **Använd artikelinförselkalkylark** på snabbfliken **Dist.lager** på lagerställekortet. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
 
 Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner för inleveranser när de har bokförts.  
 
 > [!NOTE]  
->  Oavsett statusen på fältet **Använd artikelinförselförslag** på lagerställekortet kan du alltid hämta instruktionsrader för artikelinförsel, d.v.s. bokförda inleveransrader, till artikelinförselförslaget genom att göra så här:  
+>  Oavsett statusen på fältet **Använd artikelinförselkalkylark** på lagerställekortet kan du alltid hämta instruktionsrader för artikelinförsel, d.v.s. bokförda inleveransrader, till artikelinförselkalkylarket genom att göra så här:  
 >   
->  1.  I fönstret **Dist.lager artikelinförsel** trycker du på Ctrl+D för att ta bort hela artikelinförselinstruktionen, eller markerar de rader som du vill behandla i förslaget och tar bort dem.  
-> 2.  Fortsätt med det i så många artikelinförslar som du vill, tills du har tagit bort de rader om du vill arbeta med i förslaget. Välj nu **Artikelinförselförslag** och fortsätt planeringen.  
+>  1.  I fönstret **Dist.lager artikelinförsel** trycker du på Ctrl+D för att ta bort hela artikelinförselinstruktionen, eller markerar de rader som du vill behandla i kalkylarket och tar bort dem.  
+> 2.  Fortsätt med det i så många artikelinförslar som du vill, tills du har tagit bort de rader om du vill arbeta med i kalkylarket. Välj nu **Artikelinförselkalkylark** och fortsätt planeringen.  
 
-## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Så här planerar du instruktioner i artikelinförselförslaget  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelinförselförslag**, och välj sedan relaterad länk.  
+## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Så här planerar du instruktioner i artikelinförselkalkylarket  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelinförselkalkylark**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument**. Fönstret **Artikelinförselval** öppnas.  
 
     Alla bokförda inleveranser och registrerade interna artikelinförslar som har vidarebefordrats till artikelinförselfunktionen visas, däribland de som artikelinförselinstruktioner redan har skapats för. Dokument med artikelinförselrader som är klara och registrerade visas inte i den här listan.  
 
-3. Välj de dokument som du vill arbeta med i förslaget. Du kan arbeta med rader från flera dokument samtidigt.  
+3. Välj de dokument som du vill arbeta med i kalkylarket. Du kan arbeta med rader från flera dokument samtidigt.  
 
     > [!NOTE]  
     >  Om du försöker välja ett inleverans- eller intern artikelinförseldokument, som du redan har skapat instruktioner för, för alla rader i dokumentet, får du information om att det inte finns någonting att hantera.  
@@ -46,18 +46,18 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 4. Fyll i fältet **Sorteringsmetod** för att sortera raderna som du vill ha dem.  
 
     > [!NOTE]  
-    >  Det sätt som raderna sorteras på i förslaget återspeglas inte automatiskt i artikelinförselinstruktionen, men samma sorteringsmöjligheter finns, tillsammans med lagerplatssortering. Den radsortering som du planerar i förslaget är därför enkel att återskapa när du skapar artikelinförselinstruktioner, eller genom att sortera artikelinförselinstruktionerna.  
+    >  Det sätt som raderna sorteras på i kalkylarket återspeglas inte automatiskt i artikelinförselinstruktionen, men samma sorteringsmöjligheter finns, tillsammans med lagerplatssortering. Den radsortering som du planerar i kalkylarket är därför enkel att återskapa när du skapar artikelinförselinstruktioner, eller genom att sortera artikelinförselinstruktionerna.  
 
 5.  Fyll i fältet **Ant. att hantera**. Välj åtgärden **Fyll i auto. ant. att hantera** eller fyll i fälten manuellt.  
 6.  Redigera raderna manuellt vid behov. Du kan ta bort rader om exempelvis vissa artiklar måste föras in på en lagerplats som ligger långt bort från övriga artiklars lagerplatser.  
 
     > [!NOTE]  
-    >  De rader som tas bort tas endast bort från det här förslaget, inte från urvalslistan för artikelinförslar.  
+    >  De rader som tas bort tas endast bort från det här kalkylarket, inte från urvalslistan för artikelinförslar.  
 
 7.  Välj åtgärden **Skapa artikelinförsel**. fönstret **Skapa dokument** öppnas, där kan du lägga till ytterligare information i artikelinförseln som du skapar, enligt följande:  
 
     -   Du kan fördela artikelinförseln till en särskild anställd.  
-    -   Du kan sortera instruktionsraderna för artikelinförsel som du gjorde i förslaget eller genom att använda funktionen Lagerplatsordning. När du sorterar enligt lagerplatsordningen visas hämtningsraderna först eftersom de flesta inleveranslagerplatser har lagerplatsordning 0, och placeringsraderna visas sist, med de lagerplatser som har lägst lagerplatsordning högst upp i listan. Om du har strukturerat distributionslagret så att lagerplatser med liknande lagerplatsordning ligger bredvid varandra slipper personalen gå så mycket om du sorterar raderna på det här sättet.  
+    -   Du kan sortera instruktionsraderna för artikelinförsel som du gjorde i kalkylarket eller genom att använda funktionen Lagerplatsordning. När du sorterar enligt lagerplatsordningen visas hämtningsraderna först eftersom de flesta inleveranslagerplatser har lagerplatsordning 0, och placeringsraderna visas sist, med de lagerplatser som har lägst lagerplatsordning högst upp i listan. Om du har strukturerat distributionslagret så att lagerplatser med liknande lagerplatsordning ligger bredvid varandra slipper personalen gå så mycket om du sorterar raderna på det här sättet.  
     -   Du kan välja att inte visa de övergångsrader som skapas när en större enhet bryts ned till mindre enheter, genom att markera fältet **Sätt brytenhetsfilter**. Mer information finns i [Aktivera Automatisk volymnedbrytning med dirigerad artikelinförsel och plockning] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Du kan välja att inte låta fältet **Ant. att hantera** fyllas i automatiskt för artikelinförselinstruktionerna.  
     -   Du kan välja att skriva ut dokumentet omedelbart.  

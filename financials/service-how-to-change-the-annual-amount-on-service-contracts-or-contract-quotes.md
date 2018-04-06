@@ -14,10 +14,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: afeaeb66ee6ff9f45b642e56c9a06ec484fe9669
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på tjänstekontrakt eller kontraktofferter
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Så här ändrar du det årliga beloppet på ett servicekontrakt eller en kontraktsoffert  
@@ -186,6 +186,6 @@ Slutligen innehåller kontraktsraderna följande information.
 |Artikel 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
 ## <a name="see-also"></a>Se även  
-[Så här skapar du tjänstekontrakt och tjänstekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 

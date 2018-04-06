@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
@@ -27,7 +27,7 @@ XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat
  • icke-ekonomisk information  
  • lagreglerat uppgiftslämnande, till exempel årsredovisningar och kvartalsredovisningar  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  låter företag implementera data i XBRL och utnyttja den flexibilitet och automatisering som XBRL tillhandahåller både för att samla in och dela ut data.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] låter företag implementera data i XBRL och utnyttja den flexibilitet och automatisering som XBRL tillhandahåller både för att samla in och dela ut data.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) är ett XML-baserat språk för ekonomisk rapportering. XBRL utgör en standard för enhetlig rapportering för alla användare i den ekonomiska informationskedjan, t.ex. offentliga och privata företag, revisorer, justerare, analytiker, investeringsbolag, kapitalmarknader och långivare, samt viktiga tredje parter såsom programvaruutvecklare och dataadministratörer.  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
@@ -121,7 +121,7 @@ Följande tabell visar de resulterande värdetransaktionerna.
 ## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Fastställa om en lagerminskning påverkas av omvärderingen  
 Datumet för bokföringen eller omvärderingen används för att bestämma om en lagerminskning påverkas av en omvärdering.  
 
-Följande tabell visar de kriterier som används för en artikel som inte använder värderingsprincipen Genomsnitt.  
+Följande tabell visar de villkor som används för en artikel som inte använder värderingsprincipen Genomsnitt.  
 
 |Scenario|Löpnr|Tidsplan|Påverkat av omvärdering|  
 |--------------|---------------|------------|-----------------------------|  

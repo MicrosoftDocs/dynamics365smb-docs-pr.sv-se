@@ -1,6 +1,6 @@
 ---
-title: "Så här: Planera lagertransporter i förslag | Microsoft Docs"
-description: "Planera transporter i förslaget med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner."
+title: "Så här: Planera lagertransporter i kalkylark | Microsoft Docs"
+description: "Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,19 +16,19 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 397b7d3de0355ce6be1be6607e5cfc7f61b5f55d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="plan-warehouse-movements-in-worksheets"></a>Planera lagertransporter i förslag
-Planera transporter i förslaget med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner.  
+# <a name="plan-warehouse-movements-in-worksheets"></a>Planera lagertransporter i kalkylark
+Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner.  
 
 ## <a name="to-calculate-a-replenishment-movement"></a>Så här beräknar du återanskaffningstransporter:  
-Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåller lagerplatser med högst lagerplatsordning allt färre artiklar. Om du vill fylla på plocklagerplatserna med högst lagerplatsordning med artiklar från andra lagerplatser kan du köra funktionen **Beräkna lagerplatsåteranskaffning** i fönstret **Transportförslag**
+Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåller lagerplatser med högst lagerplatsordning allt färre artiklar. Om du vill fylla på plocklagerplatserna med högst lagerplatsordning med artiklar från andra lagerplatser kan du köra funktionen **Beräkna lagerplatsåteranskaffning** i fönstret **Transportkalkylark**
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportkalkylark**, och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerplatsåteranskaffning**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)]  skapar rader som anger exakt hur du ska flytta artiklar från lagerplatser med låg lagerplatsordning till lagerplatser med högre lagerplatsordning.  
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] skapar rader som anger exakt hur du ska flytta artiklar från lagerplatser med låg lagerplatsordning till lagerplatser med högre lagerplatsordning.  
 
     > [!NOTE]  
     >  Föreslår en transport enligt FEFO när du aktiverar **Skapa transport** operationen, om följande villkor är uppfyllda för en artikel:  
@@ -44,16 +44,16 @@ Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåll
 4.  Välj åtgärden **Skapa transport** för att skapa en distributionslagerinstruktion till lagerpersonalen.  
 
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Du kan flytta hela innehållet i en eller flera lagerplatser med funktionen Hämta lagerplatsinnehåll:  
-Du kan även använda Transportförslag för att planera andra lagertransporter inom distributionslagret. När du till exempel vill placera artiklar på en lagerplats för kvalitetskontroll kan du använda transportförslaget för att planera den åtgärden och sedan skapa en transportinstruktion för en anställd.  
+Du kan även använda Transportkalkylark för att planera andra lagertransporter inom distributionslagret. När du till exempel vill placera artiklar på en lagerplats för kvalitetskontroll kan du använda transportkalkylarket för att planera den åtgärden och sedan skapa en transportinstruktion för en anställd.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportförslag**, och välj sedan relaterad länk.  
-2.  Välj åtgärden **Hämta lagerplatsinnehåll**. Du använder fönstret för begäran för att filtrera vilka lagerplatser och artiklar som ska visas på transportförslagets rader.  
+1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Transportkalkylark**, och välj sedan relaterad länk.  
+2.  Välj åtgärden **Hämta lagerplatsinnehåll**. Du använder fönstret för begäran för att filtrera vilka lagerplatser och artiklar som ska visas på transportkalkylarkets rader.  
 3.  Fyll i de relevanta fälten i fönstret för begäran av batch-jobb. Om du till exempel vill visa lagerplatsinnehållet för alla lagerplatser i en viss zon på lagerstället fyller du i fältet **Zonkod**. Om du vill hämta rader för alla lagerplatser som innehåller en viss artikel fyller du i fältet **Artikelnr**.  
 
     > [!NOTE]  
     >  Du kan inte manuellt flytta artiklar in och ut ur en lagerplats av typen RECEIVE. Detta beror på att artiklar som finns i en lagerplats av RECEIVE-typ måste registreras som införda innan de blir en del av det tillgängliga lagret.  
 
-4.  Om du hämtar många rader väljer du **Sortera** för att välja en sorteringsmetod som du kan använda för att bestämma den ordning som raderna ska visas med i förslaget och klickar sedan på **OK**.  
+4.  Om du hämtar många rader väljer du **Sortera** för att välja en sorteringsmetod som du kan använda för att bestämma den ordning som raderna ska visas med i kalkylarket och klickar sedan på **OK**.  
 
     > [!NOTE]  
     >  Förflyttningsrader hämtas enligt FEFO när du aktiverar **Hämta lagerplatsinnehåll** operationen, om följande villkor är uppfyllda för en artikel:  
@@ -65,7 +65,7 @@ Du kan även använda Transportförslag för att planera andra lagertransporter 
 
 5.  Fyll i en del av de hämtade raderna för att spegla de ändringar som du vill utföra. För varje artikel som du vill flytta måste du fylla i fälten **Artikelnr**, **Från lagerplatskod**, **Till lagerplatskod** och **Antal**.  
 6.  Ta bort ofullständiga rader som du bara använde i informationssyfte.  
-7.  När raderna i transportförslaget korrekt speglar hur transporten ska utföras av lagerpersonalen klickar du på åtgärden **Skapa transport** för att skapa instruktionerna för personalen.  
+7.  När raderna i transportkalkylarket korrekt speglar hur transporten ska utföras av lagerpersonalen klickar du på åtgärden **Skapa transport** för att skapa instruktionerna för personalen.  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7da190b6859b00ddb56612ae29234932a03b50a1
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="cross-dock-items"></a>Beräkna direktutleverans av artiklar
@@ -28,11 +28,11 @@ Om du har beräknat kvantiteter för direktutleverans, skapas automatiskt artike
 
 Om du vill bokföra artiklarna för direktutleverans direkt, så att de blir tillgängliga för plockning, måste du även registrera en artikelinförsel för de övriga artiklarna som kommer från inleveransraden, nämligen de som måste lagras. Om endast några av artiklarna på en inleveransrad direktutlevereras måste du därför försöka införa de återstående artiklarna så snabbt som möjligt. Alternativt kan lagerprincipen vara att uppmuntra direktutleverans av hela inleveransrader närhelst det är möjligt.  
 
-I artikelinförselinstruktionen kan du med fördel ta bort både Ta- och Placera-instruktionsrader för varje inleveransrad som avser inleveranser som helt ska införas i lagret. Dessa rader kan vid ett senare tillfälle skapas som artikelinförselrader från artikelinförselförslaget eller den bokförda inleveransen. När de raderas kan du sedan föra in och registrera raderna som avser artiklar för direktutleverans.  
+I artikelinförselinstruktionen kan du med fördel ta bort både Ta- och Placera-instruktionsrader för varje inleveransrad som avser inleveranser som helt ska införas i lagret. Dessa rader kan vid ett senare tillfälle skapas som artikelinförselrader från artikelinförselkalkylarket eller den bokförda inleveransen. När de raderas kan du sedan föra in och registrera raderna som avser artiklar för direktutleverans.  
 
-Om du har markerat fältet **Använd artikelinförselförslag** på lagerställekortet och har bokfört inleveransen med beräknade direktutleveranser, blir samtliga inleveransrader tillgängliga i förslaget. Informationen om direktutleveranserna försvinner och kan inte återskapas. Därför bör du, om du vill använda funktionerna för direktutleverans, lägga om rader till artikelinförselförslaget genom att ta bort artikelinförselinstruktioner i stället för att använda motsvarande automatiska funktion i fältet **Använd artikelinförselförslag**.  
+Om du har markerat fältet **Använd artikelinförselkalkylark** på lagerställekortet och har bokfört inleveransen med beräknade direktutleveranser, blir samtliga inleveransrader tillgängliga i kalkylarket. Informationen om direktutleveranserna försvinner och kan inte återskapas. Därför bör du, om du vill använda funktionerna för direktutleverans, lägga om rader till artikelinförselkalkylarket genom att ta bort artikelinförselinstruktioner i stället för att använda motsvarande automatiska funktion i fältet **Använd artikelinförselkalkylark**.  
 
-Om du bokför lagerinleveransen, och fältet **Använd artikelinförselförslag** inte är markerat, visas artiklarna som ska direktutlevereras som separata rader i artikelinförselinstruktionen. I fältet **Direktutleverans information** på varje artikelinförselrad anges huruvida raden innehåller artiklar för direktutleverans, artiklar från samma inleverans som alla måste lagras eller artiklar som måste lagras och som anknyter till en inleveransrad där några av artiklarna ska direktutlevereras. Med hjälp av det här fältet kan de anställda enkelt se varför hela inleveransantalet inte placeras i lager.  
+Om du bokför lagerinleveransen, och fältet **Använd artikelinförselkalkylark** inte är markerat, visas artiklarna som ska direktutlevereras som separata rader i artikelinförselinstruktionen. I fältet **Direktutleverans information** på varje artikelinförselrad anges huruvida raden innehåller artiklar för direktutleverans, artiklar från samma inleverans som alla måste lagras eller artiklar som måste lagras och som anknyter till en inleveransrad där några av artiklarna ska direktutlevereras. Med hjälp av det här fältet kan de anställda enkelt se varför hela inleveransantalet inte placeras i lager.  
 
 Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna registreras som vanliga artikelinförselinstruktioner.  
 
@@ -66,7 +66,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 
 4.  Om du vill direktutleverera föreslaget antal bokför du inleveransen. Du kan också välja att ändra antalet till ett högre eller lägre värde och därefter bokföra inleveransen.  
 
-    Det antal som ska direktutlevereras visas nu som rader i artikelinförselinstruktionen, förutsatt att fältet **Använd artikelinförselförslag** inte är markerat. Icke direktutlevererade kvantiteter resulterar också i rader i artikelinförselinstruktionen.  
+    Det antal som ska direktutlevereras visas nu som rader i artikelinförselinstruktionen, förutsatt att fältet **Använd artikelinförselkalkylark** inte är markerat. Icke direktutlevererade kvantiteter resulterar också i rader i artikelinförselinstruktionen.  
 
     Om du använder lagerplatser har de direktutlevererade artiklarna tilldelats den standardlagerplats för direktutleveranser som angetts på lagerställekortet.  
 
@@ -91,12 +91,12 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 > [!NOTE]  
 >  Vid lagerartikelinförseln kan du fortsätta att ändra antalet artiklar som direktutlevereras eller förs in i lager alltefter behov. Till exempel kanske du bestämmer dig för att direktutleverera ytterligare artiklar för att expediera registreringen av direktutleveransen.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Så här visar du direktutlevererade artiklar i utleveranser eller plockningsförslag  
-Om du använder lagerplatser kan du, när du öppnar en utleverans eller plockningsförslaget, visa en uppdaterad beräkning av antalet av respektive artikel som finns på lagerplatserna för direktutleveranser. Den här informationen är praktisk om du väntar på att en artikel ska anlända. När du ser att artikeln är tillgänglig på lagerplatsen för direktutleveranser kan du sedan snabbt skapa en plockning för alla artiklarna i utleveransen. I plockningsförslaget kan du ändra raderna alltefter behov och därefter skapa en plockning.  
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Så här visar du direktutlevererade artiklar i utleveranser eller plockningskalkylark  
+Om du använder lagerplatser kan du, när du öppnar en utleverans eller plockningskalkylarket, visa en uppdaterad beräkning av antalet av respektive artikel som finns på lagerplatserna för direktutleveranser. Den här informationen är praktisk om du väntar på att en artikel ska anlända. När du ser att artikeln är tillgänglig på lagerplatsen för direktutleveranser kan du sedan snabbt skapa en plockning för alla artiklarna i utleveransen. I plockningskalkylarket kan du ändra raderna alltefter behov och därefter skapa en plockning.  
 
 Du måste först leta efter artiklar i området för direktutleveranser när du plockar artiklar för en utleverans. Om du under inleveransprocessen vet vilka källdokument som ligger till grund för direktutleveransen kan du lättare avgöra huruvida artikeln kan återfinnas i området för direktutleveranser eller inte.  
 
-När en produktionsorder har släppts är raderna tillgängliga i plockningsförslaget och du kan, i fältet **Ant. på direktutlevns lagerplats**, se om artiklarna du väntar på har anlänt och placerats på lagerplatserna för direktutleveranser. När du skapar en plockningsinstruktion föreslås automatiskt att du först plockar artiklarna för direktutleverans på motsvarande lagerplatser. Först därefter genomsöks övriga lagerplatser efter artikeln.  
+När en produktionsorder har släppts är raderna tillgängliga i plockningskalkylarket och du kan, i fältet **Ant. på direktutlevns lagerplats**, se om artiklarna du väntar på har anlänt och placerats på lagerplatserna för direktutleveranser. När du skapar en plockningsinstruktion föreslås automatiskt att du först plockar artiklarna för direktutleverans på motsvarande lagerplatser. Först därefter genomsöks övriga lagerplatser efter artikeln.  
 
 Om du inte använder lagerplatser måste du komma ihåg att då och då kontrollera området för direktutleveranser eller förlita dig på meddelanden från inleveranser om att artiklar för produktion har anlänt.  
 

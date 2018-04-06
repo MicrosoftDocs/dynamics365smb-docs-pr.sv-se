@@ -1,6 +1,6 @@
 ---
 title: "Översikt över uppgifter för att konfigurera Finance and Operations, Business edition | Microsoft Docs"
-description: "Innehåller information om hur du skapar, initierar och konfigurerar Finance and Operations, Business edition efter just dina behov."
+description: "Innehåller information om hur du skapar, initialiserar och konfigurerar Finance and Operations, Business edition efter just dina behov."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 73407196730468646f8f2bb051d4df35c2157f0b
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar företagets behov.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar företagets behov.
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
-Från din startsida kan du få åtkomst till installationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns i [Gör dig redo att göra affärer](ui-get-ready-business.md).
+Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns i [Gör dig redo att göra affärer](ui-get-ready-business.md).
+
+> [!NOTE]
+> Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i # # [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver de assisterade inställningarna. Nedan anges några av de funktioner som du kan ställa in manuellt.
 
@@ -37,13 +40,15 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 | Konfigurera hur du försäkrar, underhåller och skriver av anläggningstillgångar och hur du registrerar kostnader för anläggningstillgångar i företagets redovisning. |[Ställa in anläggningstillgångar](fa-setup.md) |
 |Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in lagerstyrning](warehouse-setup-warehouse.md)|
 |Förbereda produktionsstrukturer och verksamhetsföljder för att definiera hur artiklar tillverkas och förbereda maskin- eller produktionsgrupper för att vidta nödvändiga åtgärder.|[Ställa in Produktion](production-configure-production-processes.md)|
+|Läs om bästa praxis för att konfigurera artiklar för lagerkostnad och leveransplanering.|[Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)|
+|Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration](madeira-how-setup-email.md)|
 | Skapa unika identifieringskoder för poster, som till exempel kort, dokument och journalrader, för att spåra dem i systemet. |[Skapa nummerserier](ui-create-number-series.md) |
-| Ställ in fönstret **SMTP-postinställning** för att skicka och ta emot e-postmeddelanden från dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Konfigurera e-post](madeira-how-setup-email.md) |
-| Skapa unika ID-koder. |[Skapa nummerserier](ui-create-number-series.md) |
+|Konfigurera och tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.|[Lägga upp baskalendrar](across-how-to-assign-base-calendars.md)|  
 
-Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Konfiguration och administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
+Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Administration](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se även
+[Administration](admin-setup-and-administration.md)  
 [Ekonomi](finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  

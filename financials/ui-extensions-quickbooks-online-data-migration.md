@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -44,7 +44,7 @@ En viktig del av är att ange konton för att migrera transaktionerna till. Det 
 * Köp av varor eller tjänster från en leverantör.  
 * Justeringar i redovisningen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kräver att redovisningskonton har tilldelade kontonummer. Kontrollera att nummer tilldelas till kontona i QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kräver att redovisningskonton har tilldelade kontonummer. Kontrollera att nummer tilldelas till kontona i QuickBooks Online.
 
 Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett skattekonto för din skattemyndighet i [!INCLUDE[d365fin](includes/d365fin_md.md)] innan du kan bokföra transaktioner.
 

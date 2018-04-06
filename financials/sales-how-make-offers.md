@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Skapa offerter
@@ -26,7 +26,7 @@ Medan du förhandlar med kunden kan du ändra och skicka försäljningsofferten 
 Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
 
 ## <a name="to-create-a-sales-quote"></a>Så här skapar du en försäljningsoffert
-Välj åtgärden **Försäljningsoffert** på startsidan.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsofferter** och välj sedan relaterad länk.
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
    Andra fält i fönstret **Försäljningsoffert** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
@@ -46,7 +46,7 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 10. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **typ**.
 
  Du lämnar fältet **Nr.** tomt i följande fall: om raden gäller en kommentar. Skriv kommentaren fältet **beskrivning**.
- -Om raden är för en ej lagerförd artikel. Välj åtgärden **Markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
+ -Om raden är för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
 
 11. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.
 
@@ -58,7 +58,7 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
     Pris- och radbeloppen visas med eller utan omsättningsskatt beroende på vad du valde i fältet **Priser inkl. moms** på kundkortet.  
 12. Om du vill ge en rabatt kan du ange ett procenttal i fältet **radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
 
-    Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om de överenskomna priskriterierna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Upprepa moment 9 till 12 för varje produkt som du vill att erbjuda kunden.  
 
     Summorna under raderna beräknas automatiskt när du skapar eller ändrar rader.  

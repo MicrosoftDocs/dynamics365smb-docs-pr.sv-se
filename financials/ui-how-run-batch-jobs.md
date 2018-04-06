@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8478a983da5020a4a7a49f6212c45a7a4c4d21a3
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="run-batch-jobs"></a>Kör batchjobb
@@ -27,7 +27,7 @@ Ett batch-jobb påminner om en rapport, förutom att batch-jobbet använder resu
 ## <a name="to-run-a-batch-job"></a>Så här kör du ett batch-jobb:
 1. Om du vill öppna förfråganfönstret för det relevanta batch-jobbet, väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport") och anger namnet på batch-jobbet och väljer sedan relaterad länk.
 2. Om snabbfliken **Alternativ** finns för batch-jobbet fyller du i fälten för att bestämma vad batch-jobbet ska utföra.
-3. Fönstret kanske innehåller en eller flera snabbflikar med filter, som du kan använda för att begränsa vilka data som ingår i batch-jobbet. Du kan ange kriterier i de föreslagna filtren eller lägga till fler filter.
+3. Fönstret kanske innehåller en eller flera snabbflikar med filter, som du kan använda för att begränsa vilka data som ingår i batch-jobbet. Du kan ange villkor i de föreslagna filtren eller lägga till fler filter.
 4. Klicka på **OK** för att starta batchjobbet.
 
 ## <a name="see-also"></a>Se även

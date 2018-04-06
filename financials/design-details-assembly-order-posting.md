@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 66590eb8ce7749658bad1fc3c9e54c1dff538abd
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
@@ -52,7 +52,7 @@ Följande tabell skisserar sekvensen med åtgärder.
 
 |Åtgärd|Description|  
 |------------|-----------------|  
-|Initiera bokföring|1. Gör inledande kontroller.<br />2. Lägg till bokföringsnumret och ändra monteringsorderhuvudet.<br />3. Släpp monteringsordern.|  
+|initialisera bokföring|1. Gör inledande kontroller.<br />2. Lägg till bokföringsnumret och ändra monteringsorderhuvudet.<br />3. Släpp monteringsordern.|  
 |Post|<ol><li>Skapa det bokförda monteringsorderhuvudet.</li><li>Kopiera kommentarsrader.</li><li>Bokför monteringsorderrader (förbrukning):<br /><br /> <ol><li>Skapa ett statusfönster för att beräkna monteringsförbrukning.</li><li>Få det återstående antalet som artikeljournalraden ska baseras på.</li><li>Återställ förbrukade och återstående kvantiteter.</li><li>För monteringsorderrader av typen Artikel:<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Överför reservationer till artikeljournalraden.</li><li>Bokför artikeljournalraden för att skapa artikeltransaktionerna.</li><li>Skapa distributionslagerjournalraderna och bokför dem.</li></ol></li><li>För monteringsorderrader av typen Resurs:<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Bokför artikeljournalraden. Det skapar kapacitetstransaktioner.</li><li>Skapa och bokför resursjournalraden.</li></ol></li><li>Överför fältvärden från monteringsorderraden till en nyligen skapad och bokförd monteringsorderrad.</li></ol></li><li>Bokför monteringsorderhuvudet (utflöde).<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Överför reservationer till artikeljournalraden.</li><li>Bokför artikeljournalraden för att skapa artikeltransaktionerna.</li><li>Skapa distributionslagerjournalraderna och bokför dem.</li><li>Återställ monteringsantalet och den återstående kvantiteten.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  

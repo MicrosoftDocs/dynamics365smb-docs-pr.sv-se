@@ -14,13 +14,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.
 
-En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att de antal som anges på en avropsorder inte påverkar artikeldispositionen och därmed kan användas som ett förslag för övervakning, prognostisering och planering.
+En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att de antal som anges på en avropsorder inte påverkar artikeldispositionen och därmed kan användas som ett kalkylark för övervakning, prognostisering och planering.
 
 På avropsordern kan varje separat leverans anges som en orderrad som sedan kan omvandlas till en försäljningsorder vid leveransen.
 

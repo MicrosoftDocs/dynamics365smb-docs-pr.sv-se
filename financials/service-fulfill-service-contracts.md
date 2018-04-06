@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
@@ -29,12 +29,12 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
 |Hantera en serviceartikel på flera kontrakt kan du. | [Flera kontrakt](service-multiple-contracts.md)|  
-|Skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert.| [Så här skapar du tjänstekontrakt och tjänstekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Justera det årliga beloppet på ett servicekontrakt eller en kontraktsoffert, så se till att du fakturerar rätt belopp.|[Ändra det årliga beloppet på tjänstekontrakt eller kontraktofferter](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert.| [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Justera det årliga beloppet på ett servicekontrakt eller en kontraktsoffert, så se till att du fakturerar rätt belopp.|[Ändra det årliga beloppet på servicekontrakt eller kontraktofferter](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Se även
 [Planera service](service-plan-service.md)  
 [Leverera service](service-deliver-service.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
-[Så här skapar du tjänstekontrakt och tjänstekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 

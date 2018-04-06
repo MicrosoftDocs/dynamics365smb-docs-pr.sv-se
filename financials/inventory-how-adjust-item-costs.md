@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="adjust-item-costs"></a>Justera artikelkostnader
@@ -63,7 +63,7 @@ Som regel beräknas värdet i fältet **Styckkostnad** på artikelkortet enligt 
  Ditt val i fältet **Värderingsprincip** påverkar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad** på raderna.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Värderingsprincip FIFO, LIFO, Serienr eller Genomsnitt  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad (LCY)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad (BVA)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:  
 
  Styckkostnad (BVA) = (Inköpspris – (Rabattbelopp/Antal)) x (1 + Indirekt kostnad %/100) + Overheadkostnad  
 

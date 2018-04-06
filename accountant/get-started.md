@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 591ca492802166610f00ad5be09badd719fdb64a
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="get-started-with-included365acclongincludesd365acclongmdmd"></a>Komma igång med [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
@@ -64,7 +64,7 @@ Tekniskt sett är du nu inloggad i kundens [!INCLUDE[d365fin](includes/d365fin_m
 I annat fall stänger du av informationsfönstret och fortsätter till nästa klient.  
 
 ## <a name="assigned-tasks"></a>Tilldelade uppgifter
-I klientens [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du tilldela aktiviteter till dig och andra och andra kan tilldela aktiviteter till dig. Instrumentpanelen i [!INCLUDE[d365acc](includes/d365acc_md.md)] ger dig en översikt över tilldelade uppgifter för varje klient och du öppnar en lista med alla tilldelningar genom att välja **Mina användaruppgifter** i det vänstra navigeringsfönstret.  
+I klientens [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du tilldela aktiviteter till dig och andra och andra kan tilldela aktiviteter till dig. Instrumentpanelen i [!INCLUDE[d365acc](includes/d365acc_md.md)] ger dig en översikt över tilldelade uppgifter för varje klient och du öppnar en lista med alla fördelningar genom att välja **Mina användaruppgifter** i det vänstra navigeringsfönstret.  
 
 I klientföretaget har du också stack-ikonerna som anropar arbetsuppgifter som har tilldelats dig i denna särskilda klient.
 

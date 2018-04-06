@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="multiple-contracts"></a>Flera kontrakt
@@ -35,7 +35,7 @@ Genom att hantera en serviceartikel i flera kontrakt, kan du göra följande:
 Titta på följande exempel som visar hur du kan använda funktionen för flera kontrakt.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Skapa flera kontrakt per serviceartikel  
-Du kan manuellt skapa ett servicekontrakt eller en kontraktsoffert för serviceartiklar som redan har registrerats i icke-annullerade kontrakt som ägs av samma kund. Följ standardprocessen där du skapar servicekontrakt och servicekontraktsofferter om du vill göra detta. Mer information finns i [Arbeta med tjänstekontrakt och tjänstekontraktofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+Du kan manuellt skapa ett servicekontrakt eller en kontraktsoffert för serviceartiklar som redan har registrerats i icke-annullerade kontrakt som ägs av samma kund. Följ standardprocessen där du skapar servicekontrakt och servicekontraktsofferter om du vill göra detta. Mer information finns i [Arbeta med servicekontrakt och servicekontraktofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 När du lägger till en serviceartikel på en kontraktsrad som är registrerad i andra servicekontrakt eller kontraktsofferter, visas ett varningsmeddelande med texten att serviceartikeln redan tillhör ett eller flera servicekontrakt eller kontraktsofferter. Om du bekräftar meddelandet kommer all relevant serviceartikelinformation att kopieras till en ny kontraktsrad.  
   

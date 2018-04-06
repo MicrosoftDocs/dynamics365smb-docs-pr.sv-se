@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: f5dc30ab398ae41ab8c36b6c207d2f48036cc98c
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Översikt över distributionslager
@@ -54,16 +54,16 @@ Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan imp
 ## <a name="advanced-ui-documents"></a>Avancerade UI-dokument  
 
 -   **Dist.lager inleverans**  
--   **Artikelinförsel förslag**  
+-   **Artikelinförsel kalkylark**  
 -   **Dist.lager artikelinförsel**  
--   **Plockningsförslag**  
+-   **Plockningskalkylark**  
 -   **Dist.lager plockning**  
--   **Transportförslag**  
+-   **Transportkalkylark**  
 -   **Dist.lager transport**  
 -   **Intern dist.lager plockning**  
 -   **Intern dist.lager art.införsel<**  
--   **Lagerplatsuppläggning förslag**  
--   **Lagerplatsinnehålluppl förslag**  
+-   **lagerplatsuppläggningskalkylark**  
+-   **Lagerplatsinnehålluppl kalkylark**  
 -   **Dist.lager artikeljournal**  
 -   **Dist.lager Artikelgrupperingsjnl**  
 -   (Olika rapporter)  

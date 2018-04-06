@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - kostnadsjustering | Microsoft Docs
 description: "Huvudsyftet med kostnadsjustering är att flytta fram kostnadsändringar från kostnadskällor till kostnadsmottagare, enligt en artikels värderingsprincip, för att leverera rätt lagervärdering."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
 Huvudsyftet med kostnadsjustering är att flytta fram kostnadsändringar från kostnadskällor till kostnadsmottagare, enligt en artikels värderingsprincip, för att leverera rätt lagervärdering.  
 
-En artikel kan vara försäljningsfakturerad innan den har inköpsfakturerats, så att det registrerade lagervärdet för försäljningen inte matchar den faktiska inköpkostnaden. Kostnadsjustering uppdaterar kostnaden för sålda varor (KSV) för historiska försäljningsposter för att se till att de matchar kostnaderna för ankommande transaktioner som de kopplas till. Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-application.md).  
+En artikel kan vara försäljningsfakturerad innan den har inköpsfakturerats, så att det registrerade lagervärdet för försäljningen inte matchar den faktiska inköpkostnaden. Kostnadsjustering uppdaterar kostnaden för sålda varor (KSV) för historiska försäljningsposter för att se till att de matchar kostnaderna för ankommande transaktioner som de kopplas till. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md).  
 
 Följande är sekundära syften eller funktioner för kostnadsjustering:  
 
@@ -171,13 +169,20 @@ Om du har ställt in automatisk kostnadsjustering som ska kopplas till bokförin
 Om du har ställt in automatisk kostnadsjustering som ska kopplas till bokföringar som uppstår under en dag eller en vecka från datumet för aktuellt arbetsdatum, körs den automatiska kostnadsjusteringen inte och kostnaden för köpet speditioneras inte till försäljningen förrän du kör batch-jobbet **Justera kost. - artikeltrans.**.  
 
 ## <a name="see-also"></a>Se även
+<<<<<<< RUBRIK [Justera artikelkostnader](inventory-how-adjust-item-costs.md)  
+[Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+[Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)  
+[Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)  
+[Designdetaljer: Varians](design-details-variance.md)  
+=======
 [Justera artikelkostnader](inventory-how-adjust-item-costs.md)   
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
 [Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)   
 [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)   
 [Designdetaljer: Varians](design-details-variance.md)   
-[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)   
-[Designdetaljer: Bokföring av produktionsorder](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)   
+[Designdetaljer: Bokföring av produktionsorder](design-details-production-order-posting.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

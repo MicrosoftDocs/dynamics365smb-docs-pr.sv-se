@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0ea4ec611a9b66f192a9b311d878591085c31c03
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Ankommande distributionslagerflöde
@@ -89,18 +89,18 @@ Användaren fyller i fältet **Ant. att hantera** och väljer inleveranszon och 
 Användaren bokför distributionslagerinleveransen. Positiva artikeltransaktioner upprättas. Till exempel uppdateras fältet **Inlevererat antal** på den ankommande källdokumentraden.  
 
 ### <a name="5-create-warehouse-internal-put-away"></a>5: Skapa dist.lager, intern artikelinförsel  
-Användaren som är ansvarig för artikelinförsel från interna operationer skapar en lagerintern artikelinförsel för artiklar som ska föras in i distributionslagret, till exempel produktion eller monteringsutflöde. Användaren anger antal, zon och lagerplats som artiklarna ska införas från, eventuellt med funktionen **Hämta lagerplatsinnehåll**. Användaren släpper den lagerinterna artikelinförsel, vilket skapar en ankommande lagerförfrågan så att uppgiften kan hämtas i artikelinförseldokument för distributionslager eller i artikelinförselförslaget.  
+Användaren som är ansvarig för artikelinförsel från interna operationer skapar en lagerintern artikelinförsel för artiklar som ska föras in i distributionslagret, till exempel produktion eller monteringsutflöde. Användaren anger antal, zon och lagerplats som artiklarna ska införas från, eventuellt med funktionen **Hämta lagerplatsinnehåll**. Användaren släpper den lagerinterna artikelinförsel, vilket skapar en ankommande lagerförfrågan så att uppgiften kan hämtas i artikelinförseldokument för distributionslager eller i artikelinförselkalkylarket.  
 
 ### <a name="6-create-put-away-request"></a>6: Skapa artikelinförselförfrågan  
 När det ankommande källdokumentet bokförs skapas en förfrågan om lagerartikelinförsel automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren. Beroende på inställningarna skapar utflöde från en produktionsorder också en förfrågan om artikelinförsel att föra in de färdiga produkterna i lagret.  
 
-### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generera rader med artikelinförselförslag (valfritt)  
-Användaren som är ansvarig för att koordinera artikelinförsel hämtar artikelinförselraderna för distributionslager i **Artikelinförsel förslag** baserat på bokförda distributionslagerinleveranser eller interna operationer med utförsel. Användaren väljer raderna som ska artikelinföras och förbereder artikelinförseln genom att ange vilka lagerplatser att ta från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
+### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generera rader med artikelinförselkalkylark (valfritt)  
+Användaren som är ansvarig för att koordinera artikelinförsel hämtar artikelinförselraderna för distributionslager i **Artikelinförsel kalkylark** baserat på bokförda distributionslagerinleveranser eller interna operationer med utförsel. Användaren väljer raderna som ska artikelinföras och förbereder artikelinförseln genom att ange vilka lagerplatser att ta från, vilka lagerplatser att placera i och hur många enheter som ska hanteras. Lagerplatserna kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
 
-När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader  tas bort från **Artikelinförsel förslag**.  
+När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader  tas bort från **Artikelinförsel kalkylark**.  
 
 > [!NOTE]  
->  Om fältet **Artikelinförsel förslag** inte har markerats på lagerställekortet skapas distributionslagerdokument för artikelinförsel direkt baserat på bokförda distributionslagerinleveranser. I så fall utelämnas moment 7.  
+>  Om fältet **Artikelinförsel kalkylark** inte har markerats på lagerställekortet skapas distributionslagerdokument för artikelinförsel direkt baserat på bokförda distributionslagerinleveranser. I så fall utelämnas moment 7.  
 
 ### <a name="8-create-warehouse-put-away-document"></a>8: Skapa artikelinförseldokument för dist.lager  
 Lagerarbetaren som utför artikelinförsel skapar ett artikelinförseldokument för distributionslager, med en pull-metod, baserat på den bokförda distributionslagerinleveransen. Alternativt skapas distributionslagerinförseldokumentet och tilldelas till en lagerarbetare med en pushmetod.  

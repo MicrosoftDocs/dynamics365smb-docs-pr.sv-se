@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
@@ -63,17 +63,19 @@ Kassaflödesprognoser kan använda Cortana Intelligence-dokument med förfalloda
 > [!NOTE]  
 >   Du kan alternativt använda förebyggande webbtjänsten. Mer information finns i [skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser](#AnchorText).  
 
-Så här använder du guiden för assisterad installation:  
+Så här använder du guiden för assisterad konfiguration:  
 
-1. I rollcentret Revisor, under diagrammet **kassaflödesprognos** väljer du åtgärden **Öppna assisterad installation**.  
+1. I rollcentret Revisor, under diagrammet **kassaflödesprognos** väljer du åtgärden **Öppna assisterad konfiguration**.  
 2. Fyll i fälten som behövs i varje steg i guiden.  
-3. På startsidan väljer du **kassaflödesprognos** ovanför diagrammet, och sedan **Omberäkna prognos**.  
+3. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kassaflödesprognos** och välj sedan relaterad länk.
+4. I fönstret **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 Så här använder du en manuell process:  
 
 1. I rollcentret revisor söker du **Kassaflödesinställningar**, och väljer sedan relaterad länk.  
 2. Expandera snabbfliken **Cortana Intelligence** och välj sedan kryssrutan **Cortana Intelligence aktiverad**.  
-3. På startsidan väljer du **kassaflödesprognos** ovanför diagrammet, och sedan **Omberäkna prognos**.  
+3. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kassaflödesprognos** och välj sedan relaterad länk.
+4. I fönstret **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 > [!TIP]  
 >   Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Cortana Intelligence inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  

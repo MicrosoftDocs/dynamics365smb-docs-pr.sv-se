@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4f14118e435051c6d63f95a05ebee2e7107ce054
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 2ee8988a89e4bd01683a6945e66e08ab9608af2e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
@@ -24,8 +24,10 @@ Lagervärdering, kallas även kostnadshantering, används vid registrering och r
 
 ## <a name="in-this-section"></a>I det här avsnittet  
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
-[Designdetaljer: Objektkoppling](design-details-item-application.md)  
+[Designdetaljer: Artikelkoppling](design-details-item-application.md)  
+[Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
+[Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
 [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)  
 [Designdetaljer: Varians](design-details-variance.md)  

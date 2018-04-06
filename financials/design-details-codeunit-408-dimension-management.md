@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 32f67c058570f03d4aa1c84d9bb32289b1f07bec
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Designdetaljer: Kodenhet 408 Dimension Management
@@ -35,7 +35,7 @@ Kodenhet 408 DimensionManagement är ett funktionsbibliotek som hanterar gemensa
  Funktioner som tagits bort från kodmodul 408 i samband med funktionen Dimensionsuppsättningstransaktioner anges nedan.  
 
 > [!CAUTION]  
->  Under uppgraderingen av programkoden från Microsoft Dynamics NAV 2009 eller tidigare versioner till Microsoft Dynamics NAV 2016, är följande funktioner inte tillgängliga i Microsoft Dynamics NAV. Om du har anpassningar som använder en eller flera av funktionerna måste du uppgradera koden därefter.
+>  Under uppgraderingen av programkoden från Microsoft Dynamics NAV 2009 eller tidigare versioner till Microsoft Dynamics NAV 2016, är följande funktioner inte tillgängliga i Microsoft Dynamics NAV 2016. Om du har anpassningar som använder en eller flera av funktionerna måste du uppgradera koden därefter.
 
  InsertJnlLineDim  
 

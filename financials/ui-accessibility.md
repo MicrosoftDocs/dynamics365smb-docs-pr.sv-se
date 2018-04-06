@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Hjälpmedel och kortkommandon i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgängligt för användare med funktionshinder. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder följande hjälpmedelsfunktioner:  
 
--   Kortkommandon  
+-   Kortkommandon
+
+    Mer information finns i [Kortkommandon](keyboard-shortcuts.md).
 
 -   Navigering  
 
@@ -30,18 +32,21 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
 
 -   Stöd för vanliga hjälpmedel  
 
-##  <a name="Keyboard"></a> Kortkommandon i webbläsaren
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  stöder de kortkommandon som stöds av de flesta webbläsare. Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Om du vill|Tryck|  
+|To do this|Press|  
 |----------------|-----------|  
-|Flytta fokus till nästa eller föregående kontroll eller element på en sida, till exempel knappar, fält och listposter.|Tabb, Shift+Tabb|  
-|Aktivera eller komma åt elementet eller kontrollen som är i fokus.|Enter|  
-|Bläddra uppåt och nedåt i en lista.|Uppåtpil, nedåtpil|  
-|Rulla kolumner för en artikel åt vänster eller höger i en lista.|Vänsterpil, högerpil|  
-|Öppna en nedrullningsbar lista eller leta upp ett värde för ett fält.|Alt+nedåtpil|  
-|Flytta fokus till nästa element utanför listan.|Ctrl+Enter|  
-|Se de transaktioner som resulterade i ett beräknat värde i ett fält.|Alt+Högerpil|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigering  
  Du kan bläddra mellan flikar och åtgärd i menyfliksområdet, element i navigeringsfönstret och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet. Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare. Tryck på Shift+Tabb för att flytta bakåt.  
@@ -55,7 +60,7 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
  En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
 
 ##  <a name="AssistiveTech"></a> Hjälpmedel  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
 
 ## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel  
 Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).

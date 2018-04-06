@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 803569ed99f00b9055c5a6ec6e4ffae67d9df2bd
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Använda samma Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
@@ -37,9 +37,9 @@ Du måste därför logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] och 
 
     Vänta några minuter. Vi kommer att genomföra ett antal ändringar i den underliggande databasen, och det tar ett tag.
 5.  När systemet är redo igen väljer du knappen **Skapa nytt företag**.  
-6.  I dialogrutan som visas anger du namnet som *Mitt företag* och väljer sedan alternativet **Suite-produktion – endast konfigurationsdata**.  
+6.  I dialogrutan som visas anger du namnet som *Mitt företag* och väljer sedan alternativet **Produktion – endast konfigurationsdata**.  
 
-Detta tar återigen ett antal minuter. När processen är klar kommer du att få åtkomst till Invoicing som en del av din Office 365 Business Premium-upplevelse.  
+Detta tar återigen några minuter. När processen är klar kommer du att få åtkomst till Invoicing som en del av din Office 365 Business Premium-upplevelse.  
 
 ### <a name="what-about-my-data"></a>Om mina data
 När du byter namn på det ursprungliga Mitt företag döps de databastabeller som lagrar dina befintliga [!INCLUDE[d365fin](includes/d365fin_md.md)]-data om, men själva informationen ändras inte.  

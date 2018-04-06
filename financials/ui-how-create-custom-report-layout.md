@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Så här skapar och ändrar du en anpassad rapport eller dokumentlayout
@@ -50,7 +50,7 @@ Den anpassade layouten har skapats. Du kan nu ändra den anpassade layouten efte
 Om du vill ändra en rapportlayout måste du först exportera rapportlayouten som en fil till en plats på din dator eller nätverk, och sedan öppna det exporterade dokumentet och göra ändringarna. När du är klar med ändringarna importerar du rapportlayouten.
 
 ### <a name="to-modify-a-custom-layout"></a>Ändra en anpassad layout
-1.  Du kan exportera en anpassad layout från fönstret **anpassade rapportlayouter**. Om fönstret inte redan är öppet, sök efter och öppna **Val av rapportlayout**, välj rapporten med layouten som du vill ändra och välj sedan den **anpassade layouter** åtgärd.  
+1.  Du kan exportera en anpassad layout från fönstret **anpassade rapportlayouter**. Om fönstret inte redan är öppet, sök efter och öppna **Val av rapportlayout**, välj rapporten med layouten som du vill ändra och välj sedan åtgärden **Anpassade layouter**.  
 2.  I **anpassade rapportlayouter** väljer du den layout som du vill ändra, anger **exportera layout**, och välj **spara** eller **Spara som** för att spara rapportlayouten till en plats på datorn eller i nätverket.  
 
 3.  Öppna rapportlayoutdokumentet som du sparade och gör ändringar.

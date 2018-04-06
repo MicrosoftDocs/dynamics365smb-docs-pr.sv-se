@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 83aabad9c08bd232c05016be008a45b1f8dce0b6
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-segments"></a>Skapa segment
 Du kan skapa segment för att kunna välja en grupp av kontakter, exempelvis om du vill skapa en interaktion som involverar flera kontakter såsom direktreklam.
 
 ## <a name="to-create-a-segment"></a>Skapa segment så här
-1. Välj åtgärden **Aktiva segment** på startsidan. Eller välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I avsnittet **Allmänt** i **Nr.** -fältet, skriv numret på den artikel som har beställts i fältet.
 

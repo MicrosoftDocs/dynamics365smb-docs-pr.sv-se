@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 5ec4748db61410128b7a61336e52ea6f066fae34
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
-För att komma igång snabbare innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer för de flesta ekonomiska processer. Om du behöver ändra konfigurationen så att de passar din verksamhet kan du fortsätta direkt. T.ex. från startsidan kan du använda en assisterad konfigurationsguide som hjälper dig att konfigurera momsatsen för din plats.  
+För att komma igång snabbare innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer för de flesta ekonomiska processer. Om du behöver ändra konfigurationen så att de passar din verksamhet kan du fortsätta direkt. Från Rollcenter kan du exempelvis använda en assisterad konfigurationsguide som hjälper dig att konfigurera momssatsen för din plats.  
 
 Det finns dock några saker som du måste konfigurera själv. Om du till exempel vill använda dimensioner som grund för business intelligence.  
 

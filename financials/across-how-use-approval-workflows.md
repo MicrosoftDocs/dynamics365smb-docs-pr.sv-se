@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 68f1af1ec5662e2c13b2695f8b1291734bf9450e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
@@ -25,7 +25,7 @@ Du kan ställa in godkännandearbetsflöden i fönstret **Arbetsflöde**. Mer in
 
 Förutom arbetsflöden för godkännande som beskrivs i det här avsnittet, kan du utföra olika andra arbetsflödesuppgifter. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
 
-Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som assisterad installation. Mer information finns i [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som assisterad konfiguration. Mer information finns i [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Så här begära du godkännande av en post
 Efterföljande aktivitet utförs av en godkännaranvändare.

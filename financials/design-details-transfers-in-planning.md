@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 936c6a429f2b8c60499d7b2b5f1f8fba800a4e8b
 ms.contentlocale: sv-se
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
@@ -162,7 +162,7 @@ Om efterfrågan ändras från 27 till 22 kommer systemet att minska antalet ned�
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
-[Designdetaljer: Planeringstilldelningstabell](design-details-planning-assignment-table.md)   
+[Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   

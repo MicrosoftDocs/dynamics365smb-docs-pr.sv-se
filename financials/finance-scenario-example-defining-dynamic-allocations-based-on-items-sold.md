@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d8622d11cd23e506d1b85b18dbe5facb740c7753
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenarioexempel: Definiera dynamisk distribution beräknad på sålda artiklar
@@ -43,7 +43,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 14. Välj åtgärden **Beräkna fördelningsnyckel** för att beräkna andelen.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.  
 
 ## <a name="see-also"></a>Se även  
  [Skapa filter för dynamiska fördelningsbaser](finance-setting-filters-for-dynamic-allocation-bases.md)   

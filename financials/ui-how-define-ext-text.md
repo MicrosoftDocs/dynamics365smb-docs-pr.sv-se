@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7f83b9fa8803e3b6611e0167a972c0e54f5eff79
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="set-up-extended-item-text"></a>Skapa utökad objekttext
+# <a name="adding-extended-item-text"></a>Tillföra utökad artikeltext
 Du kan utöka en standardtext för artiklar genom att lägga till extrarader och du kan ange villkor för användningen av extraraderna. Detta kan du göra från artikelkort.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Om du vill definiera extratexten för en objektbeskrivning
@@ -30,6 +30,10 @@ Du kan utöka en standardtext för artiklar genom att lägga till extrarader och
 6. Fyll i fältet **Startdatum** och fältet **Slutdatum** om du vill begränsa den period under vilken extratexten ska användas.
 7. Markera relevanta kryssrutor för dokumenttyperna där du vill att extratexten ska skrivas ut.
 8. Stäng fönstret.
+
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>För att lägga till en utökad artikeltext på en försäljningsorderrad.
+1. Öppna en försäljningsorder med en försäljningsrad för en artikel som har förlängd text som har definierats. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
+2. Markera den aktuella raden och välj sedan åtgärden **Infoga förl. text**.
 
 ## <a name="see-also"></a>Se även
 [Ställa in lager](inventory-setup-inventory.md)  

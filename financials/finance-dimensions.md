@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
@@ -128,7 +128,7 @@ För **OMRÅDE**, lägger du till följande dimensionsvärden:
 | Kod | Name | Dimensionsvärdetyp |
 | --- | --- | --- |
 | 10 |Amerika |Från-summa |
-| 2.0 |Nordamerika |Standard |
+| 20 |Nordamerika |Standard |
 | 30 |Stillahavsområdet |Standard |
 | 40 |Sydamerika |Standard |
 | 50 |Amerika, hela |Till-summa |

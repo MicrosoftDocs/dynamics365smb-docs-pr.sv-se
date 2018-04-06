@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Visa listdata i Power BI-rapporter i Finance and Operations, Business edition 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
 
 > [!NOTE]  
 >   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).  

@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: ae77d44b0c04f7f190e94f07d2e94a2e06eb3921
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,22 +25,29 @@ Du kan t.ex. justera storleken och positionen på alla fönster, utöka bredden 
 
 I tabellen nedan anges några av de grundläggande funktioner med länkar till avsnitten där de beskrivs.
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
-| Läsa om du vill inkludera symboler och specialtecken, när du söker efter data. |[Ange villkor i filter](ui-enter-criteria-filters.md) |
-| Se vilka fält som måste fyllas i. |[Obligatoriska fält](ui-mandatory-fields.md) |
-| Använd Sök för att söka efter en viss sida eller rapport. |[Söka efter sida eller rapport](ui-search.md) |
-| Lär dig mer om hur du sorterar data. |[Sortering](ui-sorting.md) |
-| Ändra hur du visar listor med till exempel kunder, leverantörer eller artiklar. |[Visar listor på olika sätt](across-display-lists-different-views.md) |
+| Ändra grundläggande inställningar som företag, arbetsdatum eller rollcenter. |[Ändra grundinställningar](ui-change-basic-settings.md) |
+| Hitta en specifik sida rapport. |[Använda Söka efter sida eller rapport](ui-search.md) |
+| Filtrera data i vyer, rapporter eller funktioner genom att använda speciella symboler och tecken. |[Ange villkor i filter](ui-enter-criteria-filters.md) |
+| Lär dig mer om hur du sorterar data. |[Sortera data](ui-sorting.md) |
+| Visa eller bearbeta data i specifika datumintervall. |[Ange datumintervall](ui-enter-date-ranges.md) |
+| Se vilka fält som måste fyllas i. |[Identifiera obligatoriska fält](ui-mandatory-fields.md) |
+| Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser. |[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Ändra hur du visar listor med till exempel kunder, leverantörer eller artiklar. |[Visa listor på olika sätt](across-display-lists-different-views.md) |
 | Ändra den färgade indikatorn på stack-ikon. |[Skapa en färglagd indikator på stack-ikoner](ui-how-setup-colored-indicator-cues.md) |
-| Ändra grundläggande inställningar som företag eller arbetsdatum. |[Ändra grundinställningar](ui-change-basic-settings.md) |
-| Ändra Rollcentret och den relaterade startsidan, så att de passar din roll. |[Ändra Rollcenter](change-role.md) |
-| Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser. |[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md) |
-| Få rapporter om du vill visa data från specifika datumintervall. |[Ange datumspann i Finance and Operations, Business edition ](ui-enter-date-ranges.md) |
+|Förhandsgranska, skriv ut eller spara rapporter.|[Arbeta med rapporter](ui-work-report.md)|
+| Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Schemalägga en rapportkörning](ui-work-report.md#ScheduleReport) |
+| Administrera innehåll och format i rapporter och dokument, inklusive vilka datafält i en rapportdatauppsättning som visas i rapporten och hur dessa ordnas, textstil, bilder och mycket annat.|[Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md) |
+| Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
+|Förstå hur datorns språkversion påverkar användargränssnittet och hjälpwebbplatsen samt hur du ändrar språk.|[Byta språk och plats](about-locale-language.md)|
+|Lär dig mer om funktioner och möjligheter som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] lättillgängligt för användare med funktionshinder.|[Hjälpmedel och kortkommandon](ui-accessibility.md)|
+|Titta på videoklipp om valda funktioner som hjälper dig att komma igång.|[Videofilmer om vanliga uppgifter](across-videos.md)|  
 
 ## <a name="see-also"></a>Se även
+[Komma igång](index.md)  
+[Anpassa Finance and Operations, Business edition](setup.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

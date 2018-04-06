@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 I fönstret **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
 
-När du bokför en lagertransaktion som innebär att artiklar tas in i eller ut ur lagret, skapas en artikelkoppling mellan varje lagerökning och lagerminskning. Genom de här kopplingarna fastställs kostnadsflödet från varorna som tas emot i lagret till varorna som lämnar lagret. På grund av sättet som styckkostnaden beräknas på kan en felaktig artikelkoppling medföra att genomsnittskostnaden och styckkostnaden får oriktiga resultat. Mer information finns i Designdetaljer: Artikelspårning.
+När du bokför en lagertransaktion som innebär att artiklar tas in i eller ut ur lagret, skapas en artikelkoppling mellan varje lagerökning och lagerminskning. Genom de här kopplingarna fastställs kostnadsflödet från varorna som tas emot i lagret till varorna som lämnar lagret. På grund av sättet som styckkostnaden beräknas på kan en felaktig artikelkoppling medföra att genomsnittskostnaden och styckkostnaden får oriktiga resultat. Mer information finns i Designdetaljer: Artikelkoppling.
 
 Följande scenariot kan till exempel kräva att du återställ ett program eller omkopplar följande artikeltransaktioner:
 
@@ -38,7 +38,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 > Ta hänsyn till följande viktiga punkter i arbetet med kopplingsformulär:
     - Du bör inte lämna bortkopplade kopplingstransaktioner för långa perioder, eftersom andra användare inte kan behandla artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger **Kopplingsformulär** fönstret. Användare som försöker utföra åtgärder som omfattar en kopplingstransaktion som tagits bort manuellt, får felmeddelande följande: ”Du inte kan utföra den här åtgärden, eftersom transaktioner för artiklar XXX tagits bort i kopplingsformuläret av användaren XXX. ”
     - Omkopplingen av artikeltransaktionerna bör göras utanför normal arbetstid, så att eventuella konflikter med användare som bokför transaktioner med samma artiklar kan undvikas.
-    - När kopplingsformuläret stängs utför [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll för att säkerställa att alla transaktioner har kopplats. Om en antalskoppling till exempel tas bort utan att någon ny koppling skapas, skapas en ny koppling när kopplingsformuläret stängs. På så sätt förblir kostnaden intakt. Observera dock att ingen ny fast koppling skapas automatiskt i programmet när förslaget stängs, om en fast koppling har tagits bort. Detta måste göras manuellt genom att skapa en ny koppling i förslaget.
+    - När kopplingsformuläret stängs utför [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll för att säkerställa att alla transaktioner har kopplats. Om en antalskoppling till exempel tas bort utan att någon ny koppling skapas, skapas en ny koppling när kopplingsformuläret stängs. På så sätt förblir kostnaden intakt. Observera dock att ingen ny fast koppling skapas automatiskt i programmet när kalkylarket stängs, om en fast koppling har tagits bort. Detta måste göras manuellt genom att skapa en ny koppling i kalkylarket.
     - Det går att ta bort kopplingar från mer än en transaktion åt gången i kopplingsformuläret. Det går däremot inte att skapa en koppling för mer än en transaktion åt gången, eftersom kopplingen påverkar uppsättningen transaktioner som kan kopplas.
     - I följande fall kan ingen koppling utföras i kopplingsformuläret: Om det inte finns tillräckligt med antal i lager för kopplingen, utförs ingen koppling i kopplingsformuläret när användaren försöker att koppla en transaktion för en lagerminskning utan artikelspårningsinformation till en transaktion för en lagerökning med artikelspårningsinformation.
 
@@ -61,7 +61,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret  
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kopplingsformulär**, och välj sedan relaterad länk.  
 2.  Fönstret **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
-3.  Om du vill koppla om transaktioner som tagits bort sedan förslaget öppnades markerar du den artikeltransaktion som du vill koppla om. På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Omkoppla**.  
+3.  Om du vill koppla om transaktioner som tagits bort sedan kalkylarket öppnades markerar du den artikeltransaktion som du vill koppla om. På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Omkoppla**.  
 
     > [!NOTE]  
     >  Denna omkoppling till det ursprungliga saldot sker också automatiskt när du stänger fönstret **Kopplingsformulär**.  
@@ -78,6 +78,6 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
- [Designdetaljer: Objektkoppling](design-details-item-application.md)  
+ [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

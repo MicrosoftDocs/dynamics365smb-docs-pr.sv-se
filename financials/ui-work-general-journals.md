@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
@@ -41,8 +41,55 @@ Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjour
 > [!NOTE]  
 >   Moms beräknas separat för huvudkontot och motkontot, så att olika momssatser kan användas för dem.
 
-## <a name="working-with-recurring-journals"></a>Arbeta med Återkommande journaler
-En återkommande journal är en redovisningsjournal med särskilda fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar. Med fälten för återkommande transaktioner kan du bokföra både fasta och rörliga belopp. Du kan även ange automatiska återföringsposter dagen efter bokföringsdatumet och använda fördelningsnycklar med de återkommande transaktionerna.
+## <a name="working-with-recurring-journals"></a>Arbeta med återkommande journaler
+En återkommande journal är en redovisningsjournal med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar, till exempel hyra, prenumerationer, el och värme. Med fälten för återkommande transaktioner kan du bokföra både fasta och rörliga belopp. Du kan även ange automatiska återföringstransaktioner för dagen efter bokföringsdatum. Du kan även använda fördelningsnycklar för att dela upp återkommande transaktioner mellan olika konton. Mer information finns i avsnittet ”Tilldela återkommande journalbelopp till flera olika konton”.
+
+Med en återkommande journal kommer transaktioner som ska bokföras regelbundet inte att behöva skrivas in mer än en gång. Det innebär att de konton, dimensioner och dimensionsvärden som du anger kommer att finnas kvar i journalen efter bokföring. Du kan göra eventuella justeringar i samband med varje bokföring.
+
+### <a name="recurring-method-field"></a>Fält för återkommande metod
+Detta fält bestämmer hur beloppet på journalraden hanteras efter bokföring. Om du t.ex. vill använda samma belopp varje gång du bokför raden kan du låta beloppet stå kvar. Om du vill använda samma konton och samma text på raden och bara ändra beloppet varje gång du bokför, kan du låta beloppet raderas varje gång du har bokfört.
+
+| Till | Gå till |
+| --- | --- |
+|Fast|Journalradens antal kommer att stå kvar när du har bokfört.|
+|Olika|Journalradens antal kommer att tas bort när du har bokfört.|
+|Saldo t.o.m. datum|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i tabellen Allm. journ. tilldeln. Saldot på kontot blir på det sättet nollställt. Kom ihåg att fylla i fältet **Fördelning %** i fönstret **Fördelningar**. Mer information finns i avsnittet ”Tilldela återkommande journalbelopp till flera olika konton”.|
+|Återföring fast|Journalradens belopp kommer att stå kvar efter det att du har bokfört och en mottransaktion kommer att bokföras nästa dag.|
+|Återföring variabel|Journalradens belopp kommer att tas bort efter det att du har bokfört och en mottransaktion kommer att bokföras på nästa dag.|
+|Återföring balansering|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i fönstret **Fördelningar**. Saldot på kontot anges till noll, och en mottransaktion bokförs på nästa dag.|
+
+> [!NOTE]  
+>  Momsfälten kan fyllas i antingen på raden i den återkommande journalen eller på raden i fördelningsjournalen, men inte på båda raderna. Det går med andra ord bara att fylla i dem i fönstret **Fördelningar** om motsvarande rader i den återkommande journalen inte är ifyllda.
+
+### <a name="recurring-frequency-field"></a>Fält för återkommande frekvens
+Detta fält bestämmer hur ofta transaktionen i journalraden ska bokföras. Det är ett formelfält för datum och måste fyllas i för återkommande journalrader. Mer information finns i avsnittet "Använda datumformler" i [Ange data](ui-enter-data.md).
+
+#### <a name="examples"></a>Exempel
+Om journalraden måste bokföras varje månad skriver du "1M". Varje gång du har bokfört kommer datumet i fältet **Bokföringsdatum** att uppdateras till samma datum nästa månad.
+
+Om du vill bokföra en transaktion till den sista dagen i varje månad kan du göra på något av följande sätt:
+
+- Bokför den första transaktionen på den sista dagen i en månad genom att ange 1D+1M-1D (1 dag + 1 månad - 1 dag). Med den här formeln beräknas bokföringsdatumet korrekt oberoende av antalet dagar i månaden.
+
+- Bokför den första transaktionen på en valfri dag i månaden genom att ange 1M+LM. Med en här formeln inträffar bokföringsdatumet efter en hel månad + den löpande månadens återstående dagar.
+
+### <a name="expiration-date-field"></a>Fält för utgångsdatum
+Detta fält bestämmer vilket datum raden ska bokföras för sista gången. Raden kommer inte att bokföras efter detta datum.
+
+Fördelen med att använda fältet är att raden inte kommer att raderas från journalen direkt. Du kan alltid ersätta slutdatumet med ett senare datum så att du kan använda raden längre.
+
+Om fältet är tomt kommer raden att bokföras varje gång du bokför tills raden tas bort från journalen.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Fördela återkommande journalbelopp på flera konton
+I fönstret **Återkommande redovisningsjournal** kan du välja åtgärden **Fördelningar** för att visa eller hantera hur belopp på den återkommande journalraden fördelas på flera konton och dimensioner. Notera att fördelningen fungerar som en balanskontorad visavi den återkommande journalraden.
+
+Liksom i en återkommande journal behöver du bara skriva in en fördelning en gång. Fördelningen kommer att stå kvar i fördelningsjournalen när du har bokfört, så du behöver inte skriva in belopp och fördelningar varje gång du bokför den återkommande journalraden.
+
+Om den återkommande metoden i den återkommande journalen har angetts som **Saldo** or **Återföring saldo** ignoreras alla dimensionsvärdekoder i den återkommande journalen när kontot är nollställt. Det betyder att om du fördelar en återkommande rad på olika dimensionsvärden i fönstret **Fördelningar**, så skapas bara en återföringstransaktion. Om du fördelar en återkommande journalrad som innehåller en dimensionsvärdekod får du därför inte ange samma kod i fönstret **Fördelningar**. Om du gör detta kommer dimensionsvärdena att bli felaktiga.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Exempel: Fördela hyresinbetalningar på olika avdelningar
+Du betalar hyra varje månad, så du har skrivit in hyresbeloppet på kassakontot på en återkommande journalrad. I fönstret **Fördelningar** kan du dela upp utgiften mellan ett flertal avdelningar (dimensionen Avdelning) i enlighet med det antal kvadratmeter som respektive avdelning tar i anspråk. Beräkningen grundas på procentandelen för fördelning på respektive rad. Du kan ange olika konton på olika fördelningsrader (om hyran också ska delas upp på flera konton) eller ange samma konto fast med olika dimensionsvärdekoder för dimensionen Avdelning på respektive rad.
+
 
 ## <a name="working-with-standard-journals"></a>Arbeta med Standardjournaler
 När du har skapat journalrader som du vet att du förmodligen kommer att skapa igen, kan du spara dem som en standardjournal innan du bokför journalen. Den här funktionen gäller artikeljournaler och redovisningsjournaler.

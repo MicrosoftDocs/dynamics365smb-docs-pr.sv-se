@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
@@ -55,16 +55,12 @@ Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokum
 > [!NOTE]  
 >   Om OCR-tjänsten är inställd på att kräva manuell verifiering av bearbetade dokument, när fältet **OCR-status** innehåller **Avvaktar verifiering**. I så fall utför du följande steg för att logga in på OCR-tjänstwebbplatsen manuellt för att kontrollera ett OCR-dokument.
 
-1. I fälter**OCR-status** väljer du hyperlinken**Avvaktar verifiering**. Välj alternativt panelen**Avvaktar verifiering** på startsidan.
+1. I fälter**OCR-status** väljer du hyperlinken**Avvaktar verifiering**.
 2. På OCR-servicewebbplatsen loggar du in med hjälp av autentiseringsuppgifter på OCR-servicekontot. Dessa är autentiseringsuppgifter som du också använde när du konfigurerade servicen. För mer information, se avsnittet"Konfigurera en OCR-tjänst" i [Så här ställer du in inkommande dokument](across-how-setup-income-documents.md).
-
-    Om du öppnar webbplatsen från fältet**OCR-status**  visas dokument omedelbart när du loggar in. Om du öppnar en webbplats, genom att välja panelen på startsidan, på den första OCR-servicesidan som öppnas, måste du välja knappen**Start** på fliken**Bekräfta**eller dubbelklickar på det dokument som du vill bekräfta.
 
     Information för OCR-dokumentet visas med både källinnehållet av PDF- eller bildfilen och de resulterande OCR-fältvärdena.
 3. Granska de olika fältvärdena och redigera dem manuellt eller ange värden i fält som OCR-servicen har taggat som osäkra.
 4. Välj **OK**. OCR-processen är klar och det resulterande elektroniska dokumentet skickas tillinkommande dokument i **inkommande dokument** i [!INCLUDE[d365fin](includes/d365fin_md.md)], enligt jobbkönschemat.
-
-    Om du öppnar en webbplats, genom att välja panelen på startsidan visas alla andra OCR-dokument som ska valideras, automatiskt på webbplatsen.
 5. Upprepa steg 4 för alla andra OCR-dokument som ska valideras.
 
 Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroniska dokumenten i [!INCLUDE[d365fin](includes/d365fin_md.md)], manuellt eller automatiskt. Mer information finns i nästa procedur: Du kan också koppla den nya inkommande dokumentposten till det bokförda eller icke bokförda befintliga dokumentet så att källfilen är lättillgänglig i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Bearbeta inkommande dokument](across-process-income-documents.md).
@@ -86,7 +82,7 @@ Eventuella valideringsfel som vanligtvis beror på fel eller saknade huvuddata [
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Du mappar ett inkommande dokument till ett särskilt leverantörskonto
 För inkommande dokument använder du vanligtvis åtgärden**Mappa text till konto** för att definiera att en viss text på en leverantörsfaktura som har tagits emot från OCR-servicen mappas till en viss leverantörskonto. Framöver kommer alla delar av det inkommande dokumentets beskrivning som existerar som en mappningstext innebära att fältet**Nr.** på resulterande dokument- eller journalrader av typen redovisningskonto fylls i med leverantören i fråga.
 
-Förutom tilldelning eller mappning till ett leverantörskonto eller redovisningskonton kan du också mappa till ett bankkonto. Det är praktiskt, till exempel, för elektroniska dokument för kostnader som redan har betalts, där du vill skapa en redovisningsjournalrad som är klar för bokföring på ett bankkonto.
+Förutom fördelning eller mappning till ett leverantörskonto eller redovisningskonton kan du också mappa till ett bankkonto. Det är praktiskt, till exempel, för elektroniska dokument för kostnader som redan har betalts, där du vill skapa en redovisningsjournalrad som är klar för bokföring på ett bankkonto.
 
 1. Välj relevant dokumentrad för inkommande och välj åtgärden **Mappa Text till kontot**. Fönstret **Mappa text till konto** öppnas.
 3. I fältet **Mappa text** anger du en text som förekommer på leverantörsfakturor som du vill skapa inköpsdokument eller journalrader för. Du kan ange upp till 50 tecken.

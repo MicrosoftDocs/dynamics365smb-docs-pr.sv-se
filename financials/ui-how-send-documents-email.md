@@ -12,18 +12,18 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: a31558764cf8c2bccde7598119216096803eb1ca
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="send-documents-by-email"></a>Skicka dokument som e-post
 För att meddela innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder, kan du använda funktionen Rapportlayout för att definiera dokumentspecifikt innehåll som infogas i e-postbrödtexter automatiskt. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
 
-Om du vill aktivera e-post [!INCLUDE[d365fin](includes/d365fin_md.md)] startar du assisterad installation för **Konfigurera e-post** på startsidan.
+Om du vill aktivera e-post i [!INCLUDE[d365fin](includes/d365fin_md.md)] startar du den assisterade konfigurationen för **Konfigurera e-post** i ditt rollcenter.
 
-Du kan e-posta praktiskt taget alla dokumenttyper som bilagor till e-postmeddelanden direkt från fönstret om du vill visa dokument. Förutom bilagan kan du skapa dokumentspecifika e-postbrödtexter med viktig information från dokumentet föregås av standardtext som hälsar e-postmottagaren och introducerar själva dokumentet. Om du vill erbjuda dina kunder att betala elektroniskt för försäljningar med en utbetalningtjänst, till exempel PayPal, kan du också ha PayPal-information och hyperlänk infogade i e-postbrödtexten.
+Du kan e-posta praktiskt taget alla dokumenttyper som bilagor till e-postmeddelanden direkt från fönstret som visar dokumentet. Förutom bilagan kan du skapa dokumentspecifika e-postbrödtexter med viktig information från dokumentet föregås av standardtext som hälsar e-postmottagaren och introducerar själva dokumentet. Om du vill erbjuda dina kunder att betala elektroniskt för försäljningar med en utbetalningtjänst, till exempel PayPal, kan du också ha PayPal-information och hyperlänk infogade i e-postbrödtexten.
 
 Från alla dokument som stöds börjar du att e-posta genom att välja åtgärden **Skicka** på bokförda dokument, eller åtgärden **Bokför och skicka** på ej bokförda dokument.
 

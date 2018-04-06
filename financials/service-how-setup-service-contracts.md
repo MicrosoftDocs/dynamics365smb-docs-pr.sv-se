@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b221b125a65dbad46b56172bc267a5da382dc765
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
-# <a name="set-up-service-contracts"></a>Skapa tjänstekontrakt
+# <a name="set-up-service-contracts"></a>Skapa servicekontrakt
 Innan du kan arbeta med kontrakt, måste du ställa in följande: 
 
 * **Servicekontraktsgrupper**, som innehåller grupper med servicekontrakt som har vissa gemensamma egenskaper.
@@ -54,7 +54,7 @@ Innan du kan arbeta med kontrakt, måste du ställa in följande:
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kundmallar** och välj sedan relaterad länk.  
 2. Skapa ett nytt kundmallskort.  
 3. Skriv en kod och en beskrivning av kundmallen på snabbfliken **Allmänt** i fälten **Kod** respektive **Beskrivning**. 
-4. Om du vill definiera sökkriterier fyller du i de andra fälten, till exempel **Lands-/regionkod**, **Distriktskod** och **Språkkod**.  
+4. Om du vill definiera sökvillkor fyller du i de andra fälten, till exempel **Lands-/regionkod**, **Distriktskod** och **Språkkod**.  
 5. Fyll i fälten  **Rörelsebokföringsmall** och  **Kundbokföringsmall**.  
 
 ## <a name="see-also"></a>Se även

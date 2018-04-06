@@ -16,10 +16,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med tjänstekontrakt och tjänstekontraktsofferter
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med servicekontrakt och servicekontraktsofferter
 Du kan skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert. Du kan använda en servicekontraktsoffert som förslag till ett servicekontrakt, där ditt företag lämnar en offert till kunden och får kundens godkännande innan du kan omvandla den till ett servicekontrakt. Det fungerar ungefär likadant om du vill skapa ett servicekontrakt eller en servicekontraktsoffert.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Så här skapar du ett servicekontrakt eller en servicekontraktsoffert  
@@ -199,7 +199,7 @@ Du kanske måste makulera ett servicekontrakt i programmet när detta kontrakt h
 Du kan arkivera servicekontrakt och kontraktsofferter när som helst för att registrera och arkivera en kopia av kontraktet eller kontraktsofferten. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filernas servicekontrakt arkiveras automatiskt när du omvandlar kontraktsofferter till servicekontrakt eller makulerar kontrakt. Du kan arkivera ett kontrakt eller offert själv genom att välja åtgärden **Arkivera kontrakt** på sidorna **avseende** eller **servicekontraktsofferter**. Om du vill visa arkiverade kontrakt eller offerter söker du efter **arkiverade kontrakt**.
 
 ## <a name="see-also"></a>Se även  
-[Skapa tjänstekontrakt](service-how-setup-service-contracts.md)  
+[Skapa servicekontrakt](service-how-setup-service-contracts.md)  
 [Servicehantering](service-service.md)  
-[Så här omvandlar du tjänstekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)  
+[Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)  
 

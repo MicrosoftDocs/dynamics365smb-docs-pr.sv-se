@@ -13,17 +13,17 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 159359a6d7cb051bd3cda0e750ba52f8d2a06e18
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Lägga till kontakter i segment
-När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna i fönstret **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
+När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna i fönstret **Segment**, men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
-## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
-1. Välj åtgärden **Aktiva segment** på startsidan. Eller välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.  
+## <a name="to-add-a-contact-to-a-segment"></a>Lägga till kontakter i ett segment
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Segment** och välj sedan relaterad länk.  
 2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Fönstret för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
 
@@ -41,7 +41,7 @@ När du har valt kontakter i ett segment kanske du bestämmer dig för att ta bo
 
 Du kan förfina ett segment så många gånger som du vill. Klicka på **Gå tillbaka** om du har förfinat ett segment av misstag och vill gå tillbaka till föregående steg.
 
-Du kan visa en lista över de segmentkriterier som har använts genom att klicka på avsnittet **Allmänt** och välja fältet **Antal kriteriumåtgärder**.
+Du kan visa en lista över de segmentvillkor som har använts genom att klicka på avsnittet **Allmänt** och välja fältet **Antal kriteriumåtgärder**.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Om du vill minska antalet kontakter
 När du har valt kontakter i ett segment kanske du vill ta bort några av dem. Du kan göra detta genom att manuellt ta bort dem från raderna i fönstret Segment, men det går enklare och snabbare att ange vilka kontakter som ska tas bort med funktionen Reducera kontakter och vilka som ska behållas med funktionen Förfina urval.

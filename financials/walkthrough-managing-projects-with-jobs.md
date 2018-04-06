@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
@@ -381,7 +381,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Till projektnr**: **Guildford Inreda tio konferensrum**  
     -   Markera fälten **Kopiera dimensioner** och **Kopiera antal**.  
 
-5.  Välj **OK** för att kopiera projektet och välj sedan den **OK** för att stänga bekräftelsefönstret.  
+5.  Välj **OK** för att kopiera projektet och välj sedan åtgärden **OK** för att stänga bekräftelsefönstret.  
 
      Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader för de två projekten kan du se att informationen kopieras korrekt.  
 

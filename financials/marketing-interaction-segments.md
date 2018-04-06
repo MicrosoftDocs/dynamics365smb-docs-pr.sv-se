@@ -16,14 +16,14 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Hantera interaktioner för segment
 Fönstret **Segment** är en typ av formulär där du kan:
 
 * Skapa segment.
-* Spara segmentkriterier som du har använt för att välja kontakter.
+* Spara segmentvillkor som du har använt för att välja kontakter.
 * Logga segmentet och registrera interaktioner som innefattar kontakterna i segmentet.
 
 ## <a name="segmenting"></a>Skapa segment
@@ -32,7 +32,7 @@ Det finns flera sätt att skapa segment:
 * Du kan manuellt ange på segmentraderna de kontakter du vill ha med i segmentet.
 * Du kan välja kontakter.
 * Du kan återanvända loggat segment som grund för att skapa ett nytt.
-* Du kan återanvända sparade segmentkriterier.
+* Du kan återanvända sparade segmentvillkor.
 
 ## <a name="interactions"></a>Interaktioner
 I fönstret **Segment** kan du skapa interaktioner för flera kontakter samtidigt. Du kan exempelvis slå ihop ett segment med ett Microsoft Word-dokument så du kan skicka brev till alla kontakterna i segmentet.

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
@@ -55,7 +55,7 @@ Om du vet artikelomkostnaderna vid den tidpunkten när du bokför en inköpsfakt
 6. Ange beloppet för artikelomkostnaden i fältet **Inköpspris**.
 7. Fyll i återstående fält om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    I följande steg gör du den faktiska tilldelningen. Tills artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribuera** i rött.
+    I följande steg gör du den faktiska fördelningen. Tills artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribuera** i rött.
 8. På fliken **Rader** väljer du **Art.omkost.fördelning**.
 
     Fönstret **art.omkost.fördelning** öppnas med en rad för varje rad av typartikel på försäljningsfakturan. Om du vill tilldela artikelomkostnaden till en eller flera rader, använder du en funktion som tilldelar och distribuerar den automatiskt eller manuellt fyller i fältet **Ant. att distribuera**. Följande steg beskriver hur du använder funktionen Föreslå art.omkost.fördelning.

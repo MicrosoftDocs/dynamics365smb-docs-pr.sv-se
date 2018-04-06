@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: cc45bf06ab5d12cf393d48b7b1c295db28f56b3b
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
@@ -31,7 +31,7 @@ FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer
 -   Kryssrutan **Plocka enligt FEFO** på lagerställekortet måste vara markerat.  
 -   På lagerställekortet måste kryssrutan **Lagerplats ska finnas** vara markerad.  
 
- När alla kriterier uppfylls, sorteras serie-/partinumrerade artiklar som ska plockas med de äldsta första alla plockningar och transporter, utom artiklar som använder SN-närmare visst eller partispecifik spårning.  
+ När alla villkor uppfylls, sorteras serie-/partinumrerade artiklar som ska plockas med de äldsta första alla plockningar och transporter, utom artiklar som använder SN-närmare visst eller partispecifik spårning.  
 
 > [!NOTE]  
 >  Om någon serie-/partinumrerade artiklar använder specifik spårning, är de respekterade först och under dem, listas de återstående, icke-specifika serie-/partinummer enligt FEFO.  
@@ -40,7 +40,7 @@ FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer
 
 > [!NOTE]  
 >  -   När du plockar serie-/partinumrerade artiklar på lagerplatser som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerplatser av typen *Plock* enligt FEFO.  
-> -   Om du vill aktivera transporter enligt FEFO antingen i **lagerförflyttning** fönster eller **Transportförslag** fönstret, måste du lämna **Från binge** fältet tomt.  
+> -   Om du vill aktivera transporter enligt FEFO antingen i **lagerförflyttning** fönster eller **Transportkalkylark** fönstret, måste du lämna **Från binge** fältet tomt.  
 > -   Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som inte har förfallit att tas med i plockningen. Detta gäller även om du inte använder plockning enligt FEFO.  
 
 ## <a name="see-also"></a>Se även  

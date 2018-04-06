@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 0494a04e67803049df71cfefe779c831c9f31674
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Ange datumspann i Finance and Operations, Business edition 
+# <a name="entering-date-ranges"></a>Ange datumintervall 
 Du kan ange filter som innehåller ett startdatum och ett slutdatum om du vill visa enbart de data som finns i datumintervallet eller tidsintervallet. Speciella regler gäller för hur du kan ange datumintervall. Ta **10 högsta kund** som exempel:
 
 ![Ange ett datumintervall på sidan för begäran för listan över 10 högsta kund](./media/ui-enter-date-ranges/customer-top10-list.png)

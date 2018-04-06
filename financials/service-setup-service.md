@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -42,7 +42,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Ställ in alternativ för reparationsstatus så att du kan övervaka statusen för reparation. | [Ställ in status för tjänsteorder och reparationer](service-order-repair-status.md)|
 | Konfigurera ett program så att du kan låna ut ersättning när du arbetar på en serviceartikel. |[Lägga upp program för låneartiklar](service-how-setup-loaner-program.md) |
 | Ställa in tjänsteartiklar och tjänsteartikelkomponenter |[Skapa tjänsteartiklar](service-how-setup-service-items.md) |
-| Innan du skapar servicekontrakt och kontraktsofferter. |[Skapa tjänstekontrakt](service-how-setup-service-contracts.md) |
+| Innan du skapar servicekontrakt och kontraktsofferter. |[Skapa servicekontrakt](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Se även
 [Servicehantering](service-service.md)  

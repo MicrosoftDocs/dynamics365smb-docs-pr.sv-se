@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6effbb7bd316eed24b20943e71f4e0bf8e9e8a3e
 ms.contentlocale: sv-se
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -67,7 +67,7 @@ För varje transaktionstyp kan du visa fakturerat belopp, förbrukning (belopp),
 * (Fakturerat belopp - förbrukning (kostnaden)) x 100 / fakturerat belopp  
 
 ## <a name="using-trendscapes"></a>Med hjälp av Trendscapes
-För serviceartiklar och servicekontrakt, ger fönstrena **Serviceartikel Trendscape** eller **Servicekontrakt Trendscape** innehåller en rullningsbar översikt över servicetransaktioner som skapas i en viss tid för en viss serviceartikel eller kontrakt. Visa trendscape genom att öppna servicekontraktet eller serviceartikeln, välj den **statistik** åtgärd, och välj **Trendscape**.
+För serviceartiklar och servicekontrakt, ger fönstrena **Serviceartikel Trendscape** eller **Servicekontrakt Trendscape** innehåller en rullningsbar översikt över servicetransaktioner som skapas i en viss tid för en viss serviceartikel eller kontrakt. Visa trendscape genom att öppna servicekontraktet eller serviceartikeln, välj åtgärden **statistik**, och välj sedan **Trendscape**.
 
 När du rullar i listan beräknas beloppen enligt den lokala valutan enligt det valda tidsintervallet. Alla belopp beräknas från servicetransaktioner, som är transaktioner som skapas när du bokför serviceorder eller -fakturor.
 
@@ -88,7 +88,7 @@ En transaktion för kontraktets vinst eller förlust skapas automatiskt då kont
 |**Kontrakt vinst/förlust (ansenh.)**|Så här visar du kontrakt vinst/förlust per ansvarsenhet.|  
 
 1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport") ange namnet på sidan att visa och välj sedan relaterad länk.  
-2. Fyll i de filterkriterier som du vill koppla. Välj något värde för **Uppföljningskod filter**, till exempel i fönstret **Kontrakt vinst/förlust (uppfölj)**.  
+2. Fyll i de filtervillkor som du vill koppla. Välj något värde för **Uppföljningskod filter**, till exempel i fönstret **Kontrakt vinst/förlust (uppfölj)**.  
 3. Välj åtgärden **Visa matris**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visa statistik för bokförda servicedokument
