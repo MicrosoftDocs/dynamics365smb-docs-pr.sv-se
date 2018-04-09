@@ -95,7 +95,6 @@ Scenarier med alternativ A och B motsvarar dessa följande:
 - **A** I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför saldo som betalningstolerans).  
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt (Lämna saldo som återstående belopp).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet.|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1 000|20|5|03-01-15|03-01-20|<=03-01-15|985|Bet.tol.|Ja|0|-5|  
@@ -166,8 +165,6 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt i en faktura.  
 - **C** - I det här fallet har användaren kopplat på varningen och valt att tillåta sen kassarabatt på den första fakturan men inte på den andra.  
 - **D** - I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt på den första fakturan men däremot på den andra.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
