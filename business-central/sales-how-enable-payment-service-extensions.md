@@ -11,10 +11,10 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5853080ef39196e95c293415e9b81502ff03d5ed
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 5e104cb9082d57cf59433a34761e0b610c022209
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a><span data-ttu-id="c4316-103">Aktivera kundbetalningar via betalningstjänster</span><span class="sxs-lookup"><span data-stu-id="c4316-103">Enable Customer Payments Through Payment Services</span></span>
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 3. <span data-ttu-id="c4316-119">I fältet **Betalningtjänst** väljer du betalningtjänsten.</span><span class="sxs-lookup"><span data-stu-id="c4316-119">In the **Payment Service** field, choose the payment service.</span></span>  
 
     > [!NOTE]  
-    >   <span data-ttu-id="c4316-120">Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.</span><span class="sxs-lookup"><span data-stu-id="c4316-120">The **Payment Service** field is available only if you've enabled the payment service.</span></span>  
+    > <span data-ttu-id="c4316-120">Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.</span><span class="sxs-lookup"><span data-stu-id="c4316-120">The **Payment Service** field is available only if you've enabled the payment service.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="c4316-121">Se även</span><span class="sxs-lookup"><span data-stu-id="c4316-121">See Also</span></span>  
 [<span data-ttu-id="c4316-122">Konfigurera försäljning</span><span class="sxs-lookup"><span data-stu-id="c4316-122">Setting Up Sales</span></span>](sales-setup-sales.md)  
