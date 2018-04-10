@@ -1,5 +1,6 @@
-# [Komma igång](index.md)
-## [Minsta krav](financials-requirements.md)
+# [Välkommen till Business Central](index.md)
+# [Komma igång](product-get-started.md)
+## [Minsta krav](product-requirements.md)
 ## [Vanliga frågor och svar](across-faq.md)
 ## [Videofilmer om vanliga uppgifter](across-videos.md)
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Leverera service](service-deliver-service.md)
 
 # [Allmänna affärsfunktioner](ui-across-business-areas.md)
+## [Spåra dokumentrader](across-how-to-track-document-lines.md)
 ## [Skicka dokument som e-post](ui-how-send-documents-email.md)
 ## [Tillföra utökad artikeltext](ui-how-define-ext-text.md)
 ## [Definiera användaruppgifter](across-user-tasks.md)
