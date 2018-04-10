@@ -11,8 +11,8 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 82447508b12c4f158cb3fc5e257576e14ef284b4
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -51,7 +51,7 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 >   Den här funktionen skapar en inköpsfaktura för antalet exakt i det valda försäljningsdokumentet. Om du vill ändra antalet inköp, måste du redigera journalen skapas.  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
-2. Öppna en försäljningsfaktura som du vill köpa in artiklar för.
+2. Öppna en försäljningfaktura som du vill köpa in artiklar för.
 3. Markera en eller flera försäljningsfakturarader som du vill använda i inköpsfakturan. För att använda alla försäljningsfakturarader väljer du antingen all rader eller inga rader alls.
 4. Välj åtgärden **Skapa inköpsfaktura**.
 5. Välj antingen **Alla rader** eller **Valda rader** och välj sedan knappen **OK**.  

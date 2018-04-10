@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Eventuella behörighetsuppsättningar som redan har tilldelats till användaren 
 4. På snabbfliken **Användarbehörighetsuppsättning** fyller du i fälten efter behov på en ny rad. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Gruppera användare i användargrupper
-Du kan skapa användargrupper för att hantera behörighetsuppsättningar för grupper av användare i företaget. Du kan använda en funktion för att kopiera alla behörighetsuppsättningar från en befintlig grupp i den nya användargruppen. Användargruppmedlemmar kopieras emellertid inte.
+Du kan skapa användargrupper för att hantera behörighetsuppsättningar för grupper av användare i företaget.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
 2. Alternativt kan du i fönstret **Användare** välja åtgärden **Användargrupper**.
@@ -44,6 +44,17 @@ Du kan skapa användargrupper för att hantera behörighetsuppsättningar för g
 6. I fönstret **Användargrupp** väljer du åtgärden **Lägg till användare**.
 7. Om du vill lägga till ytterligare behörighetsuppsättningar väljer du i fönstret **Användargrupper** åtgärden **Behörighetsuppsättningar för användargrupp**.
 8. I fönstret **Behörighetsuppsättningar för användargrupp** på en ny rad fyller du i fälten efter behov genom att välja från befintliga behörighetsuppsättningar.
+
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Om du vill kopiera en användargrupp och dess behörighetsuppsättningar
+Du kan kopiera alla behörighetsuppsättningar från en befintlig användargrupp till den nya användargruppen, om du snabbt vill definiera en ny användargrupp..
+
+Medlemmarna i användargruppen kopieras inte till den nya användargruppen. Du måste lägga till dem manuellt i efterhand.
+
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
+2. Välj de användargrupper som du vill kopiera och välj sedan åtgärden **Kopiera användargrupp**.
+3. I fältet **Ny användargruppkod** anger du ett namn på den nya gruppen och väljer sedan knappen **OK**.
+
+Användargruppen läggs till i fönstret **Användargrupper**. Fortsätt med att lägga till användare. Mer information finns i avsnittet ”För gruppanvändare i användargrupper”.
 
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare
 Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
@@ -55,7 +66,7 @@ Administratörer kan definiera tidsperioder som anger när användare kan bokfö
 
 ## <a name="see-also"></a>Se även
 [Gör dig redo för affärer](ui-get-ready-business.md)  
-[Installation och administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Administration](admin-setup-and-administration.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

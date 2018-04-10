@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97be9460746003c2972a4c4d1f23eec9a4f39fab
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -26,7 +26,7 @@ Du kan skicka dokument som till exempel fakturor som e-post med ditt företags e
 
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Använda Business Central som en företagsinkorg i Outlook](admin-outlook.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)

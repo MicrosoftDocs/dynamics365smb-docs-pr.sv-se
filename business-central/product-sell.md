@@ -13,8 +13,8 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 87d654b303f708a2735a623a5f5ef6c4b49a25a1
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 75f4b4e38af350a054c5b04e703c98ccc5ec4756
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -32,7 +32,7 @@ Skicka feedback på [https://community.dynamics.com/business](https://community.
 Om du vill veta mer om hur du blir en [!INCLUDE[d365fin](includes/d365fin_md.md)]-återförsäljare, kontakta oss på [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
 

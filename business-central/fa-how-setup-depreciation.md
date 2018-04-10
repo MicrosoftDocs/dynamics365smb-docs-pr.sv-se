@@ -1,8 +1,6 @@
 ---
 title: "Skapa avskrivning för anläggningstillgångar | Microsoft Docs"
 description: "Du kan ange i en avskrivningsregel hur anläggningstillgångar ska skrivas av eller skrivas ned."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 31f6dc1cc420f45209ea0e4696c6669c5b1c3570
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 01f094c5325773b2c4e9675412fce7d7a29449bd
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -32,7 +30,7 @@ I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgå
 3. I fönstret **Avskrivningsregelkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Du kan bokföra in anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller i fönstret **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Följ nästa steg för att definiera vilken journaltyp som används för de olika anläggningstillgångaktiviteterna som standard.
+    >   Du kan bokföra in anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller i fönstret **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Följ nästa steg för att definiera vilken journaltyp som används för de olika anläggningstillgångaktiviteterna som standard.
 4. På snabbfliken **Integrering** markerar du kryssrutan för varje anläggningstillgångsaktivitet vars transaktioner du vill bokföra med hjälp av fönstret **Anl.tillg. redovisningsjournal**.
 5. Upprepa steg 2 till och med 4 för varje avskrivningmetod eller bokföringsmetod som du vill tilldela till anläggningstillgångar som en avskrivningsregel.
 
@@ -44,7 +42,7 @@ I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgå
 5. Välj alternativt åtgärden **Avskrivningsregler** för att ange en eller flera avskrivningsregler för anläggningstillgångar.
 
     > [!NOTE]  
->   När du använder den manuella avskrivningsmetoden måste du föra in avskrivningen manuellt i redovisningsjournalen för anläggningstillgångar. Funktionen **Beräkna avskrivning** utesluter anläggningstillgångar där den manuella avskrivningsmetoden används. Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark.
+    >   När du använder den manuella avskrivningsmetoden måste du föra in avskrivningen manuellt i redovisningsjournalen för anläggningstillgångar. Funktionen **Beräkna avskrivning** utesluter anläggningstillgångar där den manuella avskrivningsmetoden används. Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark.
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Att tilldela en avskrivningsregel till åtskilliga anläggningstillgångar med hjälp av ett batch-jobb
 Om du vill tilldela en avskrivningsregel till flera anläggningstillgångar kan du använda batch-jobbet **Skapa anl. avskrivningsregler** för att skapa avskrivningsregler för anläggningstillgångar.  
@@ -67,9 +65,9 @@ För varje avskrivningsregel måste du ange hur du vill att [!INCLUDE[d365fin](i
 3. I fönstret **Anl. inställningar bokföring** fyller du i fälten efter behov.
 
     > [!NOTE]  
->   Du kan inte infoga eller ta bort rader i fönstret **Anl. inställningar bokföring**. Du kan endast ändra de befintliga raderna.
+    >   Du kan inte infoga eller ta bort rader i fönstret **Anl. inställningar bokföring**. Du kan endast ändra de befintliga raderna.
 
-    Du bör inte ändra inställningen för avskrivningsregler som transaktioner redan har bokförts för. Ändringarna påverkar inte transaktioner som redan har bokförts, vilket gör att statistiken över avskrivningsregler blir missvisande.
+Du bör inte ändra inställningen för avskrivningsregler som transaktioner redan har bokförts för. Ändringarna påverkar inte transaktioner som redan har bokförts, vilket gör att statistiken över avskrivningsregler blir missvisande.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Så här ställer du in standardmallar och journaler för avskrivningsregler för anläggningstillgångar.
 För varje avskrivningsregel anger du en standardinställning för mallar och journaler. Du kan använda dessa standardinställningar för att duplicera rader från en journal till en annan, skapa journalrader med hjälp av batchjobben **Beräkna avskrivning** eller **Indexera anläggningstillgångar**, duplicera anskaffningskostnader i försäkringsjournalen.  
@@ -83,6 +81,6 @@ För varje avskrivningsregel anger du en standardinställning för mallar och jo
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e79dc91e3f7a71c7bf65aa859334c7fbb4d7b4f9
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ee889296e1a2ef7dcbb8350363fadbf1589844b5
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -66,7 +66,7 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
 Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
 

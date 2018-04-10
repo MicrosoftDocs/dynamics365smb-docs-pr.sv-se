@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ I fönstret **Assisterad inställning** hittar du följande med **Grundläggande
 
 När du har kört en assisterad inställningar, väljs den som **slutfört**. För att köra den assisterade inställningen väljer du de tre prickarna som även kallas snabbmenyn, och sedan väljer du **Starta inställningen**.
 
-## <a name="role-center-home-page"></a>Startsidan Rollcenter
-På startsidan för Rollcenter får du en överblick över verksamheten. Till vänster visas ett navigeringsfält, som gör att du enkelt får tillgång till kunder, leverantörer, artiklar, och så vidare. I mitten hittar du panelen **Aktiviteter**. **Aktiviteter** visar data och kan klickas på för enkelt tillgång till det valda dokumentets. **Nyckelindikatorer** kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också upprätta en lista över **Favoritkunder** på Rollcener-startsidan för konton som du samarbetar med ofta eller behöver ge extra uppmärksamhet åt.
+## <a name="role-center"></a>Rollcenter
+I rollcentret får du en översikt över ditt företag. Till vänster visas ett navigeringsfält, som gör att du enkelt får tillgång till kunder, leverantörer, artiklar, och så vidare. I mitten hittar du panelen **Aktiviteter**. **Aktiviteter** visar data och kan klickas på för enkelt tillgång till det valda dokumentets. **Nyckelindikatorer** kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också upprätta en lista över **Favoritkunder** på Rollcenter-startsidan för konton som du samarbetar med ofta eller behöver ge extra uppmärksamhet.
 Använd pilarna för att minska en del av sidan och för att få mer plats för att visa specifika data. Högst upp på Rollcenter-startsidan hittar du alla åtgärder som kan kopplas till det aktuella innehållet. Detta kan också reduceras, och du behöver endast klicka inom det reducerade området för att visa det på nytt.
 
 > [!TIP]  
-> Du kan återgå till startsidan för Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
+> Du kan återgå till ett Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
 
 ## <a name="company-information"></a>Företagsinformation
 Under **företaginställningar** kan du visa och redigera in inställningsinformation om det aktuella företaget. Mycket av detta fylldes i om du slutförde den assisterade installationen **Konfigurera företag** när du regsitrerade dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill ändra företaglogotypen, kontaktinformation, bankinställningarna eller information om fältet, kan du göra det i fönstret.    
@@ -63,7 +63,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta knappbeskrivningar so
 Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Mitt företag** på din **Startsida** för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering.
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Hantera användare och behörigheter](ui-how-users-permissions.md)
 

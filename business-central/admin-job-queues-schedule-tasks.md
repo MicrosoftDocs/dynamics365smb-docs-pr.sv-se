@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -52,9 +52,9 @@ Du ställer in den här användningen av jobbkön i fönstret **Försäljningsin
 >  Om du ställer in ett jobb som ska bokföra och skriva ut dokument och skrivaren visar en dialogruta, exempelvis en begäran för autentiseringsuppgifter eller en varning om låg bläcknivå, bokförs dokumentet men skrivs inte ut. Motsvarande jobbköpost gör slutligen timeout, och **Status** fältet anges till **Fel**. Därmed rekommenderar vi att du inte använder en skrivarinställning som kräver interaktioner med skrivaredialogrutor tillsammans med bakgrundsbokföring.  
 
 ## <a name="use-the-my-job-queue-part"></a>Så här använder du Min jobbködel
-I **Min jobbkö** visas de jobbköer som en användare har inlett men som ännu inte slutfört. Som standard visas inte delen, så du måste lägga till den i ditt rollcenter. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
+I **Min jobbkö** visas de jobbköer som en användare har inlett men som ännu inte slutfört. Som standard visas inte delen, så du behöver lägga till den i ditt rollcenter. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
-I den här delen kan du se vilka dokument som behandlas eller står i kö om ditt ID har angetts i fältet **Tilldelat användar-ID**. Här får du hjälp att hålla reda på alla jobbkötransaktioner, inklusive de som relaterar till bokföring i bakgrunden. Här ser du snabbt om det har uppstått ett fel i bokföringen av ett dokument, eller om det finns fel i en jobbkötransaktion. Delen ger dig också möjlighet att makulera en dokumentbokföring, om den inte körs.  
+I den här delen kan du se dokument som behandlas eller står i kö om ditt ID har angetts i fältet **Tilldelat användar-ID**. Här får du hjälp att hålla reda på alla jobbkötransaktioner, inklusive de som relaterar till bokföring i bakgrunden. Här ser du snabbt om det har uppstått ett fel i bokföringen av ett dokument, eller om det finns fel i en jobbkötransaktion. Delen ger dig också möjlighet att makulera en dokumentbokföring, om den inte körs.  
 
 ## <a name="security"></a>Säkerhet  
 Jobbkötransaktioner körs baserat på behörigheter. De behörigheterna måste tillåta att rapporten eller kodmodulen körs.  
@@ -68,6 +68,6 @@ När en jobbkö aktiveras manuellt, körs den med autentiseringsuppgifterna för
 Jobbkötransaktionsposten har flera fält för att överföra parametrar till en kodmodul som du har angett ska köras med en jobbkö. Det innebär att även kodenheter, som ska köras via jobbkön, måste anges med jobbkötransaktionsposten som en parameter i utlösaren **OnRun**. Det hjälper till att ge ytterligare en nivå av säkerhet, eftersom det hindrar användare från att köra slumpmässiga kodmoduler via jobbkön. Om användaren måste överföra parametrar till en rapport, är det enda sättet att göra det att låta rapportkörningen ingå i en kodmodul, som sedan analyserar inparametrarna och anger dem i rapporten, innan den körs.  
 
 ## <a name="see-also"></a>Se även  
-[Installation och administration i Business Central](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  
 [Ställa in Business Central](setup.md)  
 

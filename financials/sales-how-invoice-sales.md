@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f180f280415584d7bb216ee5be997f266d38ab2
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: ca826b8a2a736097eee259913bd40bd8888270dc
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
@@ -64,8 +64,8 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 9. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
 10. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **typ**.
 
-    Du lämnar fältet **Nr.** tomt i följande fall: om raden gäller en kommentar. Skriv kommentaren fältet **beskrivning**.
-        -Om raden är för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
+    Du lämnar fältet **Nr.** tomt i följande fall: om raden gäller en kommentar. Skriv kommentaren i fältet **beskrivning**.
+        -Om raden är avsedd för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
 
 11. I fältet **antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 

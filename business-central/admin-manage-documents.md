@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 292231a907970de2821daeba87003eca7bf54cdc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -32,5 +32,5 @@ Fakturerade serviceorder tas vanligtvis bort när de har fakturerats helt. När 
 Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern inte har bokförts från själva serviceordern, utan från fönstret **Servicefaktura**, gäller följande. Då kan du behöva ta bort fakturerade order som inte har tagits bort. Du kan göra detta genom att köra batch-jobbet **Ta bort fakturerade serviceorder**.  
 
 ## <a name="see-also"></a>Se även  
-[Installation och administration i Business Central](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  
 

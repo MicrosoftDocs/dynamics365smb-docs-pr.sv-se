@@ -11,8 +11,8 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2bbe5af160a3512c83cc33057252ff6c2eb6a6fc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e7778f0a118280ef18c2ddb61a1c0b0ee7b2452
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Mer information finns i [Revisorupplevelser i Business Central ](finance-account
 ## <a name="using-the-extension"></a>Använda tillägget
 Det här tillägget kommer att vara inaktuellt om några månader. Vi rekommenderar att du inte installerar tillägget men registrerar [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] på [Financials för revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) i stället.
 
-Mer information finns i [Välkommen till Dynamics 365 - Accountant Hub](/dynamics365/accountants/index.md).  
+Mer information finns i [Välkommen till Dynamics 365 - Accountant Hub](/dynamics365/accountants/index).  
 
 ## <a name="see-also"></a>Se även
 [Revisorlösningar i Business Central ](finance-accounting.md)  

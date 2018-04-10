@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Om du får felet Inloggningen misslyckades när du loggar in på instrumentbräd
 * Instansen [!INCLUDE[d365fin](includes/d365fin_md.md)] som du försöker att ansluta till har inte ett giltigt SSL-certifikat. I så fall visas en mer detaljerat felmeddelande ("det går inte att upprätta betrott SSL-förhållande").
 
     > [!NOTE]  
->   Självsignerade certifikat stöds inte.  
+    >   Självsignerade certifikat stöds inte.  
 
 **"Hoppsan"**  
 Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsakas den oftast av ett problem vid anslutning av data för innehållspaketet.
@@ -118,7 +118,7 @@ Om du ser feldialogen "Hoppsan" när du har passerat autentiseringdialogen, orsa
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Migrera verksamhetsdata från andra finanssystem](upload-data.md)  
 [Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  

@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7c626c96e3dc4d445a463a050af5c6663cb4ade1
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: cd442975543ffcd48898f2858828b8b293361d1d
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -28,7 +28,7 @@ Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att h
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md). Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterade konfigurationen **Migrera affärsdata**. Mer information finns i [Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md).
+> Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md). Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterade konfigurationen **Migrera affärsdata**. Mer information finns i [Komma igång](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
 Fälten på snabbfliken **Överför** i fönstret **Bankkontokort** är relaterade till import och export av bankfeeds och filer. Mer information finns i [Så här skapar du konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md) och [Så här ställer du in tjänsten bankfeedertjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md).

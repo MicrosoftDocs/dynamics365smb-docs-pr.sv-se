@@ -13,8 +13,8 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00629240e565da65ccc7d213d0e24cfebf33fac6
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 49957527ab1b0217dab151463ccf983c5eeac7a1
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -73,7 +73,7 @@ Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten 
 
 ## <a name="see-also"></a>Se även
 [Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Välkommen till[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
-[Konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Komma igång](product-get-started.md)    
+[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Ekonomi](finance.md)  
 

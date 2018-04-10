@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 
 | Till | Gå till |
 | --- | --- |
+|Visa pågående, bokförda eller arkiverade dokument som är kopplade till försäljnings- och inköpsorderrader.|[Spåra dokumentrader](across-how-to-track-document-lines.md)|
 | Förmedla innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder. |[Skicka dokument som e-post](ui-how-send-documents-email.md) |
 | Skapa standardtextkoder så att du kan utöka standardtexten genom att lägga till extra rader, och skapa villkor för hur extraraderna kan användas. |[Definiera utökad text](ui-how-define-ext-text.md) |
 |Skapa uppgifter som påminner dig om arbete som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.|[Definiera användaruppgifter](across-user-tasks.md)|

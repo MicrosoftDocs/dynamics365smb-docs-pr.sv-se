@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Du kan använda bokföringsmallar om du vill definiera anläggningstillgångsgru
 3. I fönstret **Anl. bokföringsmallkort** fyller du i fälten efter behov.
 
     > [!NOTE]  
->   För att se till att motkonton för olika anläggningstillgångar infogas bokföringar automatiskt när du väljer åtgärden **Infoga anl. motkonto** på journalrader, följer nästa steget som baseras på bokföring av uppskrivning.
+    >   För att se till att motkonton för olika anläggningstillgångar infogas bokföringar automatiskt när du väljer åtgärden **Infoga anl. motkonto** på journalrader, följer nästa steget som baseras på bokföring av uppskrivning.
 4. På snabbfliken **Motkonto** i fältet **Uppskrivning motkonto** anger du vilket redovisningskonto som du vill bokföra mottransaktioner för uppskrivning.
 
 Mer information om hur du använder åtgärden **Infoga anl. motkonto** på journalrader för redovisningskonto för anläggningstillgångar, se t.ex. [Omvärdera anläggningstillgångar](fa-how-revalue.md).
@@ -121,6 +121,6 @@ Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du ö
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

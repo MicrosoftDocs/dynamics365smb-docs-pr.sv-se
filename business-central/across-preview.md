@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Mer information finns i [Använda designern](https://docs.microsoft.com/en-us/dy
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller verktyg som du kan använda för att implementera egna tillägg och bädda in funktioner i syfte att lägga till nya, branschspecifika slutpunkt-till-slutpunkt-lösningar eller integrera tredjepartslösningar. Till exempel kan du använda en API för att skapa ett anslutet program i syfte att utbyta data mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och din löneapp. Ansluta appar har också användning av tillägg i syfte att skapa sidor som ska användas för installation, konfiguration eller app-specifika funktioner. Mer information finns i [Utveckla appar för [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

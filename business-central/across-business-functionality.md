@@ -11,8 +11,8 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 55eea7de1121bc47d17b10caffdc6d47d33c6e38
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1ad174966d8e56eff13d496a7174483fa9f572ee
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -48,6 +48,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Administration](admin-setup-and-administration.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 03/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce8bfdb40d8d428f4b02abcbba4498d58d6481be
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 9d248f2f8676c392451ae4a6f99932145f354f5b
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ I ett antal scenarier kanske du vill läsa in och importera ett konfigurationspa
     Invoke-NAVCodeunit -Tenant Default -CompanyName "CRONUS International Ltd." -CodeunitId 8620 -MethodName ImportRapidStartPackage -Argument "C:TEMPRS_CONFIG.rapidstart" -ServerInstance DynamicsNAV71  
 
     ```
-Cmdleten importerar godset till varje företag. Användare kan börja använda den nya funktionen omedelbart.  
+Cmdleten importerar godset till varje företag. Användare kan börja använda den nya funktionenomedelbart.  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera nya företag](admin-how-to-configure-new-companies.md)  

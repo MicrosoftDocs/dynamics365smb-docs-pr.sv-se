@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 I fönstret **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Rollcenter
-Rollcentret representerar startsidan, en startsida som har utformats för rollens behov. Rollcentret ger dig en översikt över verksamheten som återspeglar information, uppgifter och prioriteringar för din roll. 
+Rollcentret representerar startsidan och har utformats för rollens behov. Rollcentret ger dig en översikt över verksamheten som återspeglar information, uppgifter och prioriteringar för din roll.
 
 Längst upp i Rollcentret visas navigeringsfältet som ger dig snabb åtkomst till typiska enheter för rollen, till exempel kunder, leverantörer, artiklar och så vidare.
 

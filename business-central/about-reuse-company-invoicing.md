@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7c23fdd29b8fa4da0d5eb4d86e244bd847e9e9fb
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ddd86615679e6231418b479a440b7555a3e1c50f
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -48,5 +48,5 @@ Om du använder såväl Invoicing som [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 ## <a name="see-also"></a>Se även
 [Vanliga frågor och svar](across-faq.md)  
-[Installation och administration](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  
 

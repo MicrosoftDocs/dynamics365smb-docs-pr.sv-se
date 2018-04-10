@@ -2,20 +2,20 @@
 title: "Så här skapar du nummerserier | Microsoft Docs"
 description: "Lära dig hur du anger nummerserier som tilldelar unika ID-koder till konton och dokument i Business Central."
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
@@ -30,14 +30,29 @@ Du ställer normalt in nummerserier till att automatiskt infoga nästa nummer p�
 
 Om du vill använda mer än en nummerseriekod för en typ av huvuddata, till exempel om du vill använda olika nummerserier för olika kategorier med artiklar, kan du använda nummerseriesamband.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Fältet Nr. på Dokument och kort
+På försäljnings-, inköps- och överföringsdokument och alla kort kan **Nr.** fyllas i automatiskt (från en nummerserie) eller manuellt, och kan även ställas in att vara osynligt.
+
+Fältet **nr.** kan fyllas i på tre sätt:
+
+1. Om endast en nummerserie finns för typen av dokument eller kort finns där kryssrutan **Förvalda nr.** är markerad och kryssrutan **Manuella nr.** inte är markerad, så fylls fältet automatiskt i med nästa nummer i serien, och fältet **Nr.** kommer inte att visas.
+
+    > [!NOTE]  
+    > Om nummerserien inte fungerar, till exempel eftersom antalet nummer har tagit slut, kommer fältet **Nr.** att visas och du kan manuellt ange ett nummer eller lösa problemet i fönstret **Lista för nummerserie**.
+
+2. Om mer än en nummerserie finns för typen av dokument eller kort, och kryssrutan **Förvalda nr.** inte har markerats för den nummerserie som för tillfället tilldelats, så kommer fältet **Nr.** att visas, och du kan öppna fönstret **Lista för nummerserie** och välja den nummerserie som du vill använda. Nästa nummer i serien förs då in i fältet **Nr.** .
+
+3. Om du inte har skapat en nummerserie för dokument- eller korttypen, eller om fältet **Manuella nr.** har valts för nummerserien, så kommer fältet **Nr.** att visas, och du måste ange en siffra manuellt. Du kan ange högst 20 tecken, både siffror och bokstäver.
+
+När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, öppnas tillhörande **Inställningar för nummerserie**-fönster så att du kan ställa in en nummerserie för den typen av dokument eller kort innan du fortsätter med övriga datainmatningar.
+
+> [!NOTE]  
+> Om du behöver aktivera manuell numrering för till exempel nya artikelkort som har skapats med en datamigreringsprocess som döljer fältet **Nr.** som standard, gå då till fönstret **Lagerinställningar** och välj sedan fältet **Artikelnr.** om du vill öppna och ange relaterade nummerserier som **Manuell numrering**.
+
 ## <a name="to-create-a-new-number-series"></a>Så här skapar du nummerserier
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Nr-serier** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten på en ny rad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**Tips**: för att manuellt ange ett nummer på nya kort eller dokument måste du avmarkera kryssrutan **Nr-automatik** kryssrutan och markerar kryssrutan **Manuell numrering**.
-
-Nu när du skapar ett nytt kort eller dokument som har konfigurerats till att använda den aktuella nummerserien, kan du manuellt fylla i fältet **nr.** med något värde.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Om du vill konfigurera var en nummerserie används
 I följande procedur beskrivs hur du ställer in nummerserier för området Försäljning. Stegen är liknande för andra områden.

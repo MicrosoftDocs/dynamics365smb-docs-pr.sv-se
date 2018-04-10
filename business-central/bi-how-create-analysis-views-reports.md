@@ -1,8 +1,6 @@
 ---
 title: Skapa analysrapporter | Microsoft Docs
 description: "Beskriver hur du skapar nya analysrapporter för försäljning, inköp och lager, och skapa analysmallar."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ En mall innehåller en uppsättning rader där var och en representerar de analy
 4. I fönstret **Analyskolumner** fyller du sedan i fälten för att ange vilka kolumner som ska ingå i analysrapporten.  
 
     > [!NOTE]  
->   När du definierar en kolumn måste du fylla i fältet **Analystypkoder** för alla kolumntyper utom **Formel**. Du anger analystypkoder i fönstret **Analystyper**.  
-
-    **Obs**. Om du väljer **Artikeltransaktioner** i fältet **Artikeltransaktionstyp** kopieras utfallet från artikeltransaktionen. Om du väljer **Artikelbudgettransaktioner** kopieras de budgeterade siffrorna från budgeten.  
+    >   När du definierar en kolumn måste du fylla i fältet **Analystypkoder** för alla kolumntyper utom **Formel**. Du anger analystypkoder i fönstret **Analystyper**.  
+    Om du i fältet **Transaktionstyp** väljer **Artikeltransaktion** kopieras de faktiska värdena från artikeltransaktionen. Om du väljer **Artikelbudgettransaktioner** kopieras de budgeterade siffrorna från budgeten.  
 5.  Välj **OK** för att spara ändringar.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Så här skapar du analysradmallar  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 04/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a5dc2085e5d7b7bfad591e0f70f7f6e8f9cc43f
+ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
+ms.openlocfilehash: 4b645c2db215d08d7bf483c3d728359d8e224062
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 # <a name="sell-products"></a>Sälja produkter
@@ -75,17 +75,20 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 14. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
 15. Välj knappen **OK** för att gå tillbaka till fönstret **Försäljningsorder** när du har slutfört kundkortet.
 
-   Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.  
+    Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.
 16. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
+    Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
 
-   Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
+    Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
 17. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
-18. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **typ**.
 
-    Du lämnar fältet **Nr.** tomt i följande fall: om raden gäller en kommentar. Skriv kommentaren fältet **beskrivning**.
-    -Om raden är för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
+18. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **Typ**.
+
+    Du lämnar fältet **Nr.** tomt i följande fall:
+
+    * Om raden är avsedd för en kommentar. Skriv kommentaren i fältet **Beskrivning**.
+    * Om raden är avsedd för en ej lagerförd artikel. Välj åtgärden **Markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
 
 19. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 

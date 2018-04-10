@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är kl
 Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns i [Gör dig redo att göra affärer](ui-get-ready-business.md).
 
 > [!NOTE]
-> Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i # # [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver de assisterade inställningarna. Nedan anges några av de funktioner som du kan ställa in manuellt.
 
@@ -59,9 +59,9 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includ
 [Produktion](production-manage-manufacturing.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Installation och administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  
 [Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Välkommen till [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

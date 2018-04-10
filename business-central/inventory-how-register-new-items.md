@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: de2d2d49b40608b03f6285cba010261d42d98371
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
@@ -74,8 +74,9 @@ Om du köper samma artikel från flera olika leverantörer måste du ange inform
 Leverantörer visas nu i fönstret **Artikelleverantörskatalog** som du kan öppna från artikelkortet så att du enkelt kan välja en annan leverantör.
 
 ## <a name="see-also"></a>Se även
-  [Lagersaldo](inventory-manage-inventory.md)  
-  [Inköp](purchasing-manage-purchasing.md)  
-  [Försäljning](sales-manage-sales.md)  
-  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Skapa nummerserier](ui-create-number-series.md)  
+[Lagersaldo](inventory-manage-inventory.md)  
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

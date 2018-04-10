@@ -11,8 +11,8 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b11a528805decc52c69e5bf781307440526c2b34
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1ff8e38973220300715eaaf2836286bebdafe902
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Om du har lagt till data till [!INCLUDE[d365fin](includes/d365fin_md.md)]-förha
 Om du vill dölja [!INCLUDE[d365fin](includes/d365fin_md.md)] från din programmarstartbild, kan du helt enkelt ta bort den. Den här åtgärden tar inte bort några data, och den avbryter inte din prenumeration.  
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Office-portal](https://portal.office.com)  
 [Hur lång tid är testperioden och hur avbryter jag?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 

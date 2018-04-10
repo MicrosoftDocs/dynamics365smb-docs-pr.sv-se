@@ -11,8 +11,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 20184c026ff12b3367aee3d3c6b0ca66c77e5c64
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -57,7 +57,7 @@ På samma sätt i den stationära Outlook-klienten kan du kontrollera att [!INCL
 I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte visas måste du hämta tilläggsmanifestfilerna. För mer information, kontakta Office 365-administratören.
 
 ## <a name="see-also"></a>Se även
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Ekonomi](finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  

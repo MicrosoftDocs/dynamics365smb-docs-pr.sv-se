@@ -12,8 +12,8 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dec2aada89de747f9f95245f0217fb50da370840
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 60ee3c2226e45bb904d91243c861a2d747447abc
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -45,8 +45,8 @@ Om du har ställt in återkommande försäljningsrader för kunden, till exempel
 9. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
 10. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **typ**.
 
- Du lämnar fältet **Nr.** tomt i följande fall: om raden gäller en kommentar. Skriv kommentaren fältet **beskrivning**.
- -Om raden är för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
+ Du lämnar fältet **Nr.** tomt i följande fall: om raden gäller en kommentar. Skriv kommentaren i fältet **beskrivning**.
+ -Om raden är avsedd för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
 
 11. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.
 

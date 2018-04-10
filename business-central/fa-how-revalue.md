@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: sv-se
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av uppskrivning.
 
     > [!NOTE]  
->   Steg 4 fungerar bara om du har ställt in följande: I fönstret **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivningskontosaldo** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
+    >   Steg 4 fungerar bara om du har ställt in följande: I fönstret **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivningskontosaldo** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
@@ -44,7 +44,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av nedskrivning.
 
     > [!NOTE]  
->   Steg 4 fungerar bara om du har ställt in följande: I fönstret **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).
+    >   Steg 4 fungerar bara om du har ställt in följande: I fönstret **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
@@ -60,10 +60,10 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 6. Kontrollera skapade poster och välj sedan åtgärden **Bokför** för att bokföra journalen.
 
     > [!TIP]  
->   Om indexsiffrorna endast är avsedda för simulering kan du skapa en särskild avskrivningsregel där du kan lagra dem. På så sätt påverkar de här transaktionerna inte de övriga avskrivningsreglerna.
+    >   Om indexsiffrorna endast är avsedda för simulering kan du skapa en särskild avskrivningsregel där du kan lagra dem. På så sätt påverkar de här transaktionerna inte de övriga avskrivningsreglerna.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>Att bokföra ytterligare anskaffningskostnader
-   Du bokför ytterligare anskaffningskostnader för en anläggningstillgång på samma sätt som du bokför den ursprungliga anskaffningskostnaden, d.v.s.från en inköpsfaktura eller från en journal för anläggningstillgångar. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>Att bokföra ytterligare anskaffningskostnader
+Du bokför ytterligare anskaffningskostnader för en anläggningstillgång på samma sätt som du bokför den ursprungliga anskaffningskostnaden, d.v.s.från en inköpsfaktura eller från en journal för anläggningstillgångar. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).  
 
 Om avskrivningen redan har beräknats för anläggningstillgången markerar du kryssrutan **Avskr. Anskaffningskostnad** så att den tillkommande anskaffningskostnaden är mindre än det återanskaffningsvärde som avskrivs i proportion till det belopp som de tidigare anskaffade anläggningstillgången redan har avskrivits med. Detta garanterar att avskrivningsperioden inte ändras.  
 
@@ -120,6 +120,6 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
