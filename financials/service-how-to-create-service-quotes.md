@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c736ad945453d0723581b9926e2dc50f7805a53f
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-service-quotes"></a><span data-ttu-id="f924d-104">Skapa tjänsteofferter</span><span class="sxs-lookup"><span data-stu-id="f924d-104">Create Service Quotes</span></span>
@@ -30,8 +30,8 @@ ms.lasthandoff: 03/22/2018
 3. <span data-ttu-id="f924d-112">I fältet **Nr.**</span><span class="sxs-lookup"><span data-stu-id="f924d-112">In the **No.**</span></span> <span data-ttu-id="f924d-113">anger du ett nummer för serviceofferten.</span><span class="sxs-lookup"><span data-stu-id="f924d-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="f924d-114">Om du har angett nummerserier för serviceofferter i fönstret **Serviceinställningar** kan du trycka på Retur, så väljs nästa tillgängliga serviceoffertnummer.</span><span class="sxs-lookup"><span data-stu-id="f924d-114">Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.</span></span>  
 4. <span data-ttu-id="f924d-115">I fältet **Kundnr.**</span><span class="sxs-lookup"><span data-stu-id="f924d-115">In the **Customer No.**</span></span>  <span data-ttu-id="f924d-116">välj relevant kund i listan.</span><span class="sxs-lookup"><span data-stu-id="f924d-116">field, select the relevant customer from the list.</span></span>  
 
-  > [!Note]  
-  >  <span data-ttu-id="f924d-117">Kundfälten fylls i automatiskt med information från kortet **Kund**.</span><span class="sxs-lookup"><span data-stu-id="f924d-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="f924d-118">Om kortet **Kund** inte finns för kunden, och du har lagt upp en kundmall, kan du skapa kunden från serviceofferten.</span><span class="sxs-lookup"><span data-stu-id="f924d-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="f924d-119">Fyll i relevanta fält och välj sedan åtgärden **Skapa kund**.</span><span class="sxs-lookup"><span data-stu-id="f924d-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+   > [!Note]  
+   >  <span data-ttu-id="f924d-117">Kundfälten fylls i automatiskt med information från kortet **Kund**.</span><span class="sxs-lookup"><span data-stu-id="f924d-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="f924d-118">Om kortet **Kund** inte finns för kunden, och du har lagt upp en kundmall, kan du skapa kunden från serviceofferten.</span><span class="sxs-lookup"><span data-stu-id="f924d-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="f924d-119">Fyll i relevanta fält och välj sedan åtgärden **Skapa kund**.</span><span class="sxs-lookup"><span data-stu-id="f924d-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
 5. <span data-ttu-id="f924d-120">Beroende på inställningarna på snabbfliken **Obligatoriska fält** om ska finnas i fönstret **Serviceinställningar** kanske du måste fylla i fältet **Tjänsteordertyp** på fältet **Säljarkod**.</span><span class="sxs-lookup"><span data-stu-id="f924d-120">Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
 6. <span data-ttu-id="f924d-121">Fyll i serviceartikelraderna.</span><span class="sxs-lookup"><span data-stu-id="f924d-121">Fill in the service item lines.</span></span>  

@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ec3210e019da3369971d3aef6a4e38f4dcf1f530
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3e573daab712be3501d69597bcbac1f5f89edae8
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a><span data-ttu-id="3826e-103">Analysera data efter dimensioner</span><span class="sxs-lookup"><span data-stu-id="3826e-103">Analyze Data by Dimensions</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="3826e-118">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="3826e-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Analysis Views**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="3826e-119">I fönstret **Analysvylista** väljer du åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="3826e-119">In the **Analysis View List** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="3826e-120">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="3826e-120">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="3826e-120">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="3826e-120">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="3826e-121">Om du vill lägga till ytterligare dimensionskoder förutom de fyra koderna väljer du på snabbfliken **Dimensioner**, åtgärden **Filter**, fyller i fälten och klickar på **OK**.</span><span class="sxs-lookup"><span data-stu-id="3826e-121">To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.</span></span>  
 5. <span data-ttu-id="3826e-122">Om du vill uppdatera vyn, väljer du åtgärden **uppdatera**.</span><span class="sxs-lookup"><span data-stu-id="3826e-122">To update the view, choose the **Update** action.</span></span>
 

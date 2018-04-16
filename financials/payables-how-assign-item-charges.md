@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 000785b2d3592f600be5c231f088431ba2769b18
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a><span data-ttu-id="0e68a-103">Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader</span><span class="sxs-lookup"><span data-stu-id="0e68a-103">Use Item Charges to Account for Additional Trade Costs</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="0e68a-123">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelomkostnader** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="0e68a-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.</span></span>
 2. <span data-ttu-id="0e68a-124">I fönstret **Artikelomkostnader** väljer du åtgärden **Ny** åtgärder för att skapa en ny rad.</span><span class="sxs-lookup"><span data-stu-id="0e68a-124">In the **Item Charges** window, choose the **New** action to create a new line.</span></span>
-3. <span data-ttu-id="0e68a-125">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="0e68a-125">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="0e68a-125">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="0e68a-125">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a><span data-ttu-id="0e68a-126">För att tilldela artikelomkostnader direkt till inköpsfakturan för artikeln</span><span class="sxs-lookup"><span data-stu-id="0e68a-126">To assign an item charge directly to the purchase invoice for the item</span></span>
 <span data-ttu-id="0e68a-127">Om du vet artikelomkostnaderna vid den tidpunkten när du bokför en inköpsfaktura för artikeln, följer du nedanstående instruktioner.</span><span class="sxs-lookup"><span data-stu-id="0e68a-127">If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.</span></span>
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="0e68a-132">På en ny rad , i fältet **Typ** väljer du **Omkostnad (artikel)**.</span><span class="sxs-lookup"><span data-stu-id="0e68a-132">On a new line, in the **Type** field, select **Charge (Item)**.</span></span>
 5. <span data-ttu-id="0e68a-133">Ange hur många enheter av artikelomkostnaden som du fakturerats för i fältet **Antal**.</span><span class="sxs-lookup"><span data-stu-id="0e68a-133">In the **Quantity** field, enter the units of the item charge that you have been invoiced for.</span></span>
 6. <span data-ttu-id="0e68a-134">Ange beloppet för artikelomkostnaden i fältet **Inköpspris**.</span><span class="sxs-lookup"><span data-stu-id="0e68a-134">In the **Direct Unit Cost** field, enter the amount of the item charge.</span></span>
-7. <span data-ttu-id="0e68a-135">Fyll i återstående fält om det behövs.</span><span class="sxs-lookup"><span data-stu-id="0e68a-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. <span data-ttu-id="0e68a-135">Fyll i återstående fält om det behövs.</span><span class="sxs-lookup"><span data-stu-id="0e68a-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="0e68a-136">I följande steg gör du den faktiska fördelningen.</span><span class="sxs-lookup"><span data-stu-id="0e68a-136">In the following steps, you will perform the actual assignment.</span></span> <span data-ttu-id="0e68a-137">Tills artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribuera** i rött.</span><span class="sxs-lookup"><span data-stu-id="0e68a-137">Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.</span></span>
 8. <span data-ttu-id="0e68a-138">På fliken **Rader** väljer du **Art.omkost.fördelning**.</span><span class="sxs-lookup"><span data-stu-id="0e68a-138">On the **Lines** tab, choose the **Item Charge Assignment** action.</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3852ca5399a932705216fe6089644838aa56d26b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a><span data-ttu-id="711bd-104">Tjänsteorderstatus och reparationsstatus</span><span class="sxs-lookup"><span data-stu-id="711bd-104">Service Order Status and Repair Status</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="711bd-110">Den serviceorderstatus som respektive reparationsstatus är länkad till.</span><span class="sxs-lookup"><span data-stu-id="711bd-110">The service order status that each repair status is linked to.</span></span> <span data-ttu-id="711bd-111">Mer information finns i Tjänsteorderstatus.</span><span class="sxs-lookup"><span data-stu-id="711bd-111">For more information, see Service Order Status.</span></span>  
 * <span data-ttu-id="711bd-112">Prioritetsnivå för varje serverorderstatusalternativ.</span><span class="sxs-lookup"><span data-stu-id="711bd-112">The level of priority of each service order status option.</span></span> <span data-ttu-id="711bd-113">Mer information finns i Prioritet.</span><span class="sxs-lookup"><span data-stu-id="711bd-113">For more information, see Priority.</span></span>  
   
- <span data-ttu-id="711bd-114">När du omvandlar en serviceoffert till en serviceorder ändras reparationsstatus för alla serviceartiklar i ordern till **Initial** och serviceorderstatusen till **Förestående**.</span><span class="sxs-lookup"><span data-stu-id="711bd-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
+  <span data-ttu-id="711bd-114">När du omvandlar en serviceoffert till en serviceorder ändras reparationsstatus för alla serviceartiklar i ordern till **Initial** och serviceorderstatusen till **Förestående**.</span><span class="sxs-lookup"><span data-stu-id="711bd-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a><span data-ttu-id="711bd-115">Ange serviceorderstatus för reparationsstatus</span><span class="sxs-lookup"><span data-stu-id="711bd-115">Specifying Service Order Status for Repair Status</span></span>  
 <span data-ttu-id="711bd-116">Varje reparationsstatus är länkad till en viss serviceorderstatus.</span><span class="sxs-lookup"><span data-stu-id="711bd-116">Each repair status is linked to a particular service order status.</span></span> <span data-ttu-id="711bd-117">Alternativen för serviceorderstatus är **Förestående**, **På gång**, **Stoppad** och **Avslutad**.</span><span class="sxs-lookup"><span data-stu-id="711bd-117">The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**.</span></span> <span data-ttu-id="711bd-118">Det finns nio olika alternativ för reparationsstatus: **Initial**, **På gång**, **Hänvisad**, **Delvis servad**, **Offert avslutad**, **Väntar på kund**, **Beställt reservdelar**, **Reservdelar inlevererade** och **Avslutad**.</span><span class="sxs-lookup"><span data-stu-id="711bd-118">The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.</span></span>  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: aa25b3b809b27160f1493408fc8f61f14b651b67
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a><span data-ttu-id="7b363-103">Ställa in lagerställeenheter</span><span class="sxs-lookup"><span data-stu-id="7b363-103">Set Up Stockkeeping Units</span></span>
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a><span data-ttu-id="7b363-108">Så här skapar du lagerställeenheter</span><span class="sxs-lookup"><span data-stu-id="7b363-108">To set up a stockkeeping unit</span></span>  
 
-1.  <span data-ttu-id="7b363-109">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställeenheter**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7b363-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="7b363-110">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="7b363-110">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="7b363-111">Fyll i fälten på kortet.</span><span class="sxs-lookup"><span data-stu-id="7b363-111">Fill in the fields on the card.</span></span> <span data-ttu-id="7b363-112">Följande fält är obligatoriska: **Artikelnr**, **Lagerställekod**och/eller **Variantkod**.</span><span class="sxs-lookup"><span data-stu-id="7b363-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="7b363-109">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställeenheter**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="7b363-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7b363-110">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="7b363-110">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="7b363-111">Fyll i fälten på kortet.</span><span class="sxs-lookup"><span data-stu-id="7b363-111">Fill in the fields on the card.</span></span> <span data-ttu-id="7b363-112">Följande fält är obligatoriska: **Artikelnr**, **Lagerställekod**och/eller **Variantkod**.</span><span class="sxs-lookup"><span data-stu-id="7b363-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 <span data-ttu-id="7b363-113">När du har skapat den första lagerställeenheten för en artikel, markeras kryssrutan **Lagerställeenhet finns** på **artikelkortet**.</span><span class="sxs-lookup"><span data-stu-id="7b363-113">When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** check box on the **Item** card is selected.</span></span>  
 

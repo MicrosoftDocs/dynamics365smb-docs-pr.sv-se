@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 57e16fe7d7dd3edd832fb29773fc2a9c13cba153
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f0baea454c110bdc998761b84e28f167321d95f1
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-locations"></a><span data-ttu-id="d52d2-103">Konfigurera platser</span><span class="sxs-lookup"><span data-stu-id="d52d2-103">Set Up Locations</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-create-a-location-card"></a><span data-ttu-id="d52d2-107">Skapa ett nytt lagerställeskort</span><span class="sxs-lookup"><span data-stu-id="d52d2-107">To create a location card</span></span>
 1. <span data-ttu-id="d52d2-108">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="d52d2-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>
 2. <span data-ttu-id="d52d2-109">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="d52d2-109">Choose the **New** action.</span></span>
-3. <span data-ttu-id="d52d2-110">I fönstret **Lagerställeskort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="d52d2-110">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="d52d2-110">I fönstret **Lagerställeskort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="d52d2-110">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="d52d2-111">Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.</span><span class="sxs-lookup"><span data-stu-id="d52d2-111">Repeat steps 2 and 3 for every location where you want to keep inventory.</span></span>
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/22/2018
 1. <span data-ttu-id="d52d2-115">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Överföringsflöden** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="d52d2-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Routes**, and then choose the related link.</span></span>
 2. <span data-ttu-id="d52d2-116">Alternativt kan du i fönstret **Lagerställekort** välja åtgärden **Överföringsflöden**.</span><span class="sxs-lookup"><span data-stu-id="d52d2-116">Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.</span></span>
 3. <span data-ttu-id="d52d2-117">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="d52d2-117">Choose the **New** action.</span></span>
-4. <span data-ttu-id="d52d2-118">I fönstret **Lagerställeskort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="d52d2-118">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="d52d2-118">I fönstret **Lagerställeskort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="d52d2-118">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="d52d2-119">Du kan nu överföra lagerartiklar mellan två lagerställen.</span><span class="sxs-lookup"><span data-stu-id="d52d2-119">You can now transfer inventory items between two locations.</span></span> <span data-ttu-id="d52d2-120">Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).</span><span class="sxs-lookup"><span data-stu-id="d52d2-120">For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).</span></span>    
 

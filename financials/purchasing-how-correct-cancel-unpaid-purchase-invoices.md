@@ -13,10 +13,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 41f82da76989cd0e9367b4f19b69546304c6de6d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f7d9b5ef0192f0d66d50d4ba51f6e2c4d12a89f5
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a><span data-ttu-id="e5c58-103">Korrigera eller annullera obetalda inköpsfakturor</span><span class="sxs-lookup"><span data-stu-id="e5c58-103">Correct or Cancel Unpaid Purchase Invoices</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="e5c58-115">Markera den bokförda inköpsfakturan som du vill korrigera.</span><span class="sxs-lookup"><span data-stu-id="e5c58-115">Select the posted purchase invoice that you want to correct.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="e5c58-116">Om kryssrutan **Avbruten** kan du inte rätta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.</span><span class="sxs-lookup"><span data-stu-id="e5c58-116">If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.</span></span>
+   >   <span data-ttu-id="e5c58-116">Om kryssrutan **Avbruten** kan du inte rätta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.</span><span class="sxs-lookup"><span data-stu-id="e5c58-116">If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.</span></span>
 3. <span data-ttu-id="e5c58-117">I fönstret **Bokförd inköpsfaktura** väljer du **korrigera**.</span><span class="sxs-lookup"><span data-stu-id="e5c58-117">In the **Posted Purchase Invoice** window, choose **Correct**.</span></span>
 
     <span data-ttu-id="e5c58-118">En ny inköpsfaktura med samma information skapas där du kan göra rättningen.</span><span class="sxs-lookup"><span data-stu-id="e5c58-118">A new purchase invoice with the same information is created where you can make the correction.</span></span> <span data-ttu-id="e5c58-119">Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="e5c58-119">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span> <span data-ttu-id="e5c58-120">Fältet **Avbruten** på den först bokförda inköpsfakturan ändras till **Ja**.</span><span class="sxs-lookup"><span data-stu-id="e5c58-120">The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="e5c58-125">Markera den bokförda inköpsfakturan som du vill annullera.</span><span class="sxs-lookup"><span data-stu-id="e5c58-125">Select the posted purchase invoice that you want to cancel.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="e5c58-126">Om kryssrutan **Avbruten** kan du inte avbryta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.</span><span class="sxs-lookup"><span data-stu-id="e5c58-126">If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.</span></span>
+   >   <span data-ttu-id="e5c58-126">Om kryssrutan **Avbruten** kan du inte avbryta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.</span><span class="sxs-lookup"><span data-stu-id="e5c58-126">If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.</span></span>
 3. <span data-ttu-id="e5c58-127">I fönstret **Bokförd inköpsfaktura** väljer du **avbryt**.</span><span class="sxs-lookup"><span data-stu-id="e5c58-127">In the **Posted Purchase Invoice** window, choose **Cancel**.</span></span>
 
     <span data-ttu-id="e5c58-128">En inköpskreditnota skapas automatiskt och bokförs för att annullera den ursprungligt bokförda inköpsfakturan.</span><span class="sxs-lookup"><span data-stu-id="e5c58-128">A purchase credit memo is automatically created and posted to void the initial posted purchase invoice.</span></span> <span data-ttu-id="e5c58-129">Fältet **Avbruten** på den först bokförda inköpsfakturan ändras till **Ja**.</span><span class="sxs-lookup"><span data-stu-id="e5c58-129">The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0c798fca44d9c57e38e5bb3f930e773d12b69636
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a><span data-ttu-id="23128-103">Hantera budgetar för anläggningstillgångar</span><span class="sxs-lookup"><span data-stu-id="23128-103">Manage Budgets for Fixed Assets</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="23128-122">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Anläggningstillgångar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="23128-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
 2. <span data-ttu-id="23128-123">Markera den anläggningstillgång som du vill avyttra och välj sedan åtgärden **Avskrivningsregler**.</span><span class="sxs-lookup"><span data-stu-id="23128-123">Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.</span></span>
-3. <span data-ttu-id="23128-124">Lägg till **Planerat avyttringsdatum** och **Planerad avyttringsintäkt** i fönstret **Anl. avskrivningsregler**.</span><span class="sxs-lookup"><span data-stu-id="23128-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="23128-124">Lägg till **Planerat avyttringsdatum** och **Planerad avyttringsintäkt** i fönstret **Anl. avskrivningsregler**.</span><span class="sxs-lookup"><span data-stu-id="23128-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a><span data-ttu-id="23128-125">Så här visar du planerade avyttringsvärden</span><span class="sxs-lookup"><span data-stu-id="23128-125">To view projected disposal values</span></span>
 <span data-ttu-id="23128-126">Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förlusten kan du använda rapporten **Anl. - planerat värde**.</span><span class="sxs-lookup"><span data-stu-id="23128-126">To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.</span></span>

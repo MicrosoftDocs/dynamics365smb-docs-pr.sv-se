@@ -13,10 +13,10 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ecda54c9aa622bb3abd8abd940d25a1666a32956
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="configure-service-processes"></a><span data-ttu-id="c6a0c-103">Konfigurera serviceprocesser</span><span class="sxs-lookup"><span data-stu-id="c6a0c-103">Configure Service Processes</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-enter-general-and-mandatory-settings"></a><span data-ttu-id="c6a0c-112">Så här anger du allmänna och obligatoriska inställningar</span><span class="sxs-lookup"><span data-stu-id="c6a0c-112">To enter general and mandatory settings</span></span>
 1. <span data-ttu-id="c6a0c-113">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="c6a0c-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="c6a0c-114">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="c6a0c-114">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="c6a0c-114">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="c6a0c-114">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a><span data-ttu-id="c6a0c-115">Se även</span><span class="sxs-lookup"><span data-stu-id="c6a0c-115">See Also</span></span>  
 [<span data-ttu-id="c6a0c-116">Konfigurera felrapportering</span><span class="sxs-lookup"><span data-stu-id="c6a0c-116">Set Up Fault Reporting</span></span>](service-how-setup-fault-reporting.md)  

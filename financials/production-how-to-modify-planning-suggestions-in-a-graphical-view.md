@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 26e144490fb5b33449643fe67bede8a96bc6079c
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="26a64-104">Ändra planeringsförslag i en grafisk vy</span><span class="sxs-lookup"><span data-stu-id="26a64-104">Modify Planning Suggestions in a Graphical View</span></span>
@@ -59,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="26a64-148">För att verkställa planändringar för leverans måste du följa de resulterande åtgärdsmeddelandena från planering eller inköpskalkylarket.</span><span class="sxs-lookup"><span data-stu-id="26a64-148">To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet.</span></span> <span data-ttu-id="26a64-149">Mer information finns i Skapa order från planering.</span><span class="sxs-lookup"><span data-stu-id="26a64-149">For more information, see Carry Out Action Msg.-Plan..</span></span>
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><span data-ttu-id="26a64-150">Symboler och ikoner på snabbfliken Tidslinje</span><span class="sxs-lookup"><span data-stu-id="26a64-150">Symbols and Icons on the Timeline FastTab</span></span>
+
  |<span data-ttu-id="26a64-151">Symbol/ikon</span><span class="sxs-lookup"><span data-stu-id="26a64-151">Symbol/Icon</span></span>|<span data-ttu-id="26a64-152">Beskrivning</span><span class="sxs-lookup"><span data-stu-id="26a64-152">Description</span></span>|  
  |------------------|---------------------------------------|  
  |<span data-ttu-id="26a64-153">Svart kors</span><span class="sxs-lookup"><span data-stu-id="26a64-153">Black cross</span></span>|<span data-ttu-id="26a64-154">Order (både efterfrågan och tillgång).</span><span class="sxs-lookup"><span data-stu-id="26a64-154">Orders (both supply and demand).</span></span><br /><br /> <span data-ttu-id="26a64-155">-   Kan inte ändras.</span><span class="sxs-lookup"><span data-stu-id="26a64-155">-   Cannot be modified.</span></span><br /><span data-ttu-id="26a64-156">-   Visas när fältet **Visa planerat lagersaldo** markerats (orange diagram).</span><span class="sxs-lookup"><span data-stu-id="26a64-156">-   Visible when the **Show Projected Inventory** field is selected (orange graph).</span></span>|  

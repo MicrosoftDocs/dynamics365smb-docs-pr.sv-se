@@ -13,10 +13,10 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c5f6f041083e291feca4544f42d43d5ebe3b7e9c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b10995edffd00b29615e48a7a87ccf98c9fcbf80
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><span data-ttu-id="0bbd0-103">Så här mappar du text på återkommande betalningar till konton för automatisk avstämning</span><span class="sxs-lookup"><span data-stu-id="0bbd0-103">Map Text on Recurring Payments to Accounts for Automatic Reconciliation</span></span>
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="0bbd0-120">I fältet **Mappningstext** anger du text som finns på betalningar som du vill bokföra på angivna konton utan koppling till en öppen transaktion.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-120">In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry.</span></span> <span data-ttu-id="0bbd0-121">Du kan ange upp till 50 tecken.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-121">You can enter up to 50 characters.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="0bbd0-122">Om inga andra utbetalningar finns med mappningstexten i fråga kommer Mappa text till konto att uppstå, även om endast en del av texten på utbetalningen finns som en mappningtext.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
+   >   <span data-ttu-id="0bbd0-122">Om inga andra utbetalningar finns med mappningstexten i fråga kommer Mappa text till konto att uppstå, även om endast en del av texten på utbetalningen finns som en mappningtext.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
 5. <span data-ttu-id="0bbd0-123">På fältet **Leverantörsnr** anger du den leverantör som betalningar ska bokföras på.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-123">In the **Vendor No.** field, enter the vendor that the payments will be posted to.</span></span>
 6. <span data-ttu-id="0bbd0-124">Ange om betalningen ska bokföras på ett redovisningskonto eller till ett kund- eller leverantörskonto i fältet **Ursprungstyp för motkonto**.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-124">In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.</span></span>
 7. <span data-ttu-id="0bbd0-125">På fältet **Ursprungsnr för motkonto** anger du det konto som betalningen ska bokföras på, beroende på ditt val i fältet **Ursprungstyp för motkonto**.</span><span class="sxs-lookup"><span data-stu-id="0bbd0-125">In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.</span></span>
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 | --- | --- | --- | --- | --- |
 | <span data-ttu-id="0bbd0-140">Gränssnitt</span><span class="sxs-lookup"><span data-stu-id="0bbd0-140">Shell</span></span> |<span data-ttu-id="0bbd0-141">TOM</span><span class="sxs-lookup"><span data-stu-id="0bbd0-141">BLANK</span></span> |<span data-ttu-id="0bbd0-142">8510</span><span class="sxs-lookup"><span data-stu-id="0bbd0-142">8510</span></span> |<span data-ttu-id="0bbd0-143">Redovisningskonto</span><span class="sxs-lookup"><span data-stu-id="0bbd0-143">G/L Account</span></span> |<span data-ttu-id="0bbd0-144">TOM</span><span class="sxs-lookup"><span data-stu-id="0bbd0-144">BLANK</span></span> |
 
-> [!TIP]  
+> [!TIP]
 >   <span data-ttu-id="0bbd0-145">Mer information om hur du arbetar med fält och kolumner hittar du i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span><span class="sxs-lookup"><span data-stu-id="0bbd0-145">For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span></span> <span data-ttu-id="0bbd0-146">För mer information om hur du hittar specifika sidor se [Sök](ui-search.md).</span><span class="sxs-lookup"><span data-stu-id="0bbd0-146">For more information about how to find specific pages, see [Search](ui-search.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="0bbd0-147">Se även</span><span class="sxs-lookup"><span data-stu-id="0bbd0-147">See Also</span></span>

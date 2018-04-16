@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 64171b3dd3d165c6204594920a8c0e8a1f852c74
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a><span data-ttu-id="1bd45-103">Kombinera leveranser på en enda faktura</span><span class="sxs-lookup"><span data-stu-id="1bd45-103">Combine Shipments on a Single Invoice</span></span>
@@ -31,17 +31,17 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="1bd45-114">På snabbfliken **Rader** klickar du på åtgärden **Hämta utleveransrader**.</span><span class="sxs-lookup"><span data-stu-id="1bd45-114">On the **Lines** FastTab, choose the **Get Shipment Lines** action.</span></span>  
 5. <span data-ttu-id="1bd45-115">Markera den leveransrad som ska inkluderas på fakturan:</span><span class="sxs-lookup"><span data-stu-id="1bd45-115">Select the shipment line that you want to include in the invoice:</span></span>  
 
-    - <span data-ttu-id="1bd45-116">Markera alla rader och klicka på **OK** om du vill infoga alla rader.</span><span class="sxs-lookup"><span data-stu-id="1bd45-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
-    - <span data-ttu-id="1bd45-117">Markera raderna i fråga och klicka på **OK** om du vill infoga särskilda rader.</span><span class="sxs-lookup"><span data-stu-id="1bd45-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="1bd45-118">Du kan använda CTRL-tangenten om du vill markera flera rader som inte är i följd.</span><span class="sxs-lookup"><span data-stu-id="1bd45-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
+   - <span data-ttu-id="1bd45-116">Markera alla rader och klicka på **OK** om du vill infoga alla rader.</span><span class="sxs-lookup"><span data-stu-id="1bd45-116">To insert all lines, select all lines and choose the **OK** button.</span></span>  
+   - <span data-ttu-id="1bd45-117">Markera raderna i fråga och klicka på **OK** om du vill infoga särskilda rader.</span><span class="sxs-lookup"><span data-stu-id="1bd45-117">To insert specific lines, select the lines and choose the **OK** button.</span></span> <span data-ttu-id="1bd45-118">Du kan använda CTRL-tangenten om du vill markera flera rader som inte är i följd.</span><span class="sxs-lookup"><span data-stu-id="1bd45-118">You can use the Ctrl key to select multiple nonsequential lines.</span></span>  
 
-    <span data-ttu-id="1bd45-119">Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på fakturan och köra funktionen **Hämta leveransrader** på nytt.</span><span class="sxs-lookup"><span data-stu-id="1bd45-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
-7. <span data-ttu-id="1bd45-120">Om du vill bokföra fakturan väljer du åtgärden **Bokför**.</span><span class="sxs-lookup"><span data-stu-id="1bd45-120">To post the invoice, choose the **Post** action.</span></span>  
+     <span data-ttu-id="1bd45-119">Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på fakturan och köra funktionen **Hämta leveransrader** på nytt.</span><span class="sxs-lookup"><span data-stu-id="1bd45-119">If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.</span></span>  
+6. <span data-ttu-id="1bd45-120">Om du vill bokföra fakturan väljer du åtgärden **Bokför**.</span><span class="sxs-lookup"><span data-stu-id="1bd45-120">To post the invoice, choose the **Post** action.</span></span>  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a><span data-ttu-id="1bd45-121">Så här kombinerar du utleveranser automatiskt på en enda faktura</span><span class="sxs-lookup"><span data-stu-id="1bd45-121">To automatically combine shipments on a single invoice</span></span>  
 1. <span data-ttu-id="1bd45-122">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Samlingsfakturering** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="1bd45-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Combine Shipments**, and then choose the related link.</span></span> <span data-ttu-id="1bd45-123">Beställningsfönstret för batch-jobbet  öppnas.</span><span class="sxs-lookup"><span data-stu-id="1bd45-123">The batch job request window opens.</span></span>  
-2. <span data-ttu-id="1bd45-124">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="1bd45-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="1bd45-124">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="1bd45-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="1bd45-125">Markera kryssrutan **Bokför fakturor**.</span><span class="sxs-lookup"><span data-stu-id="1bd45-125">Select the **Post Invoices** check box.</span></span>  
-4.  <span data-ttu-id="1bd45-126">Välj knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="1bd45-126">Choose the **OK** button.</span></span>  
+4. <span data-ttu-id="1bd45-126">Välj knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="1bd45-126">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
 >  <span data-ttu-id="1bd45-127">Fakturorna måste bokföras manuellt om du inte har markerat kryssrutan **Bokför fakturor** för batch-jobbet.</span><span class="sxs-lookup"><span data-stu-id="1bd45-127">You will need to manually post the invoices if the **Post Invoices** check box was not selected on the batch job.</span></span>  

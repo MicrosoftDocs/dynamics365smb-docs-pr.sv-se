@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="0fce8-103">Sälja produkter</span><span class="sxs-lookup"><span data-stu-id="0fce8-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="0fce8-146">Välj **OK** för att gå tillbaka till fönstret **Försäljningsorder**, när du har slutfört kundkortet.</span><span class="sxs-lookup"><span data-stu-id="0fce8-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="0fce8-147">Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.</span><span class="sxs-lookup"><span data-stu-id="0fce8-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="0fce8-148">I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="0fce8-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="0fce8-148">I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="0fce8-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="0fce8-149">Du är nu redo att fylla i Försäljningsorderraderna med lagerförda artiklar eller tjänster som du vill sälja till kunden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="0fce8-152">Skriv det antal artiklar som ska säljas i fältet **Kvantitet**.</span><span class="sxs-lookup"><span data-stu-id="0fce8-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="0fce8-153">För artiklar av typen Tjänst är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="0fce8-153">För artiklar av typen Tjänst är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="0fce8-154">Fältet **Radbelopp** uppdateras och visar värdet i fältet **Enhetspris** multiplicerat med värdet i fältet **Kvantitet**.</span><span class="sxs-lookup"><span data-stu-id="0fce8-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="0fce8-163">Ett nytt kundkort visar information från den markerade kundmallen.</span><span class="sxs-lookup"><span data-stu-id="0fce8-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="0fce8-164">Fyll i resterande fält.</span><span class="sxs-lookup"><span data-stu-id="0fce8-164">Fill in the remaining fields.</span></span> <span data-ttu-id="0fce8-165">Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="0fce8-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="0fce8-166">Välj knappen **OK** för att gå tillbaka till fönstret **Försäljningsorder** när du har slutfört kundkortet.</span><span class="sxs-lookup"><span data-stu-id="0fce8-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="0fce8-167">Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.</span><span class="sxs-lookup"><span data-stu-id="0fce8-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="0fce8-168">I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="0fce8-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="0fce8-167">Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.</span><span class="sxs-lookup"><span data-stu-id="0fce8-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="0fce8-168">I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="0fce8-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="0fce8-169">Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.</span><span class="sxs-lookup"><span data-stu-id="0fce8-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="0fce8-169">Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.</span><span class="sxs-lookup"><span data-stu-id="0fce8-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="0fce8-170">Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.</span><span class="sxs-lookup"><span data-stu-id="0fce8-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="0fce8-170">Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.</span><span class="sxs-lookup"><span data-stu-id="0fce8-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="0fce8-171">På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="0fce8-172">I fältet **Nr.**</span><span class="sxs-lookup"><span data-stu-id="0fce8-172">In the **No.**</span></span> <span data-ttu-id="0fce8-173">väljer du en post som ska bokföras enligt värdet i fältet **typ**.</span><span class="sxs-lookup"><span data-stu-id="0fce8-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="0fce8-180">I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="0fce8-181">Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="0fce8-182">Mer information finns i [Ställa in måttenheter](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="0fce8-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="0fce8-181">Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.</span><span class="sxs-lookup"><span data-stu-id="0fce8-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="0fce8-182">Mer information finns i [Ställa in måttenheter](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="0fce8-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="0fce8-183">Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.</span><span class="sxs-lookup"><span data-stu-id="0fce8-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: cd03233b872773b95119ab8ec42c85c539122e82
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a><span data-ttu-id="3654c-104">Arbeta med ansvarsenheter</span><span class="sxs-lookup"><span data-stu-id="3654c-104">Work with Responsibility Centers</span></span>
@@ -29,11 +29,11 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="3654c-117">Ansvarsenheterna ger funktionen för flera lagerställen en ännu större omfattning eftersom användarna då kan hantera administrativa enheter.</span><span class="sxs-lookup"><span data-stu-id="3654c-117">Responsibility centers extends the multiple locations functionality by providing users the ability to handle administrative centers.</span></span> <span data-ttu-id="3654c-118">En ansvarsenhet kan vara ett kostnadsställe, en vinstenhet, en investeringsenhet eller en annan typ av administrativ enhet som har definierats av företaget.</span><span class="sxs-lookup"><span data-stu-id="3654c-118">A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center.</span></span> <span data-ttu-id="3654c-119">Exempel på ansvarsenheter är ett försäljningskontor, en inköpsavdelning för flera lagerställen och en fabriks planeringskontor.</span><span class="sxs-lookup"><span data-stu-id="3654c-119">Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office.</span></span> <span data-ttu-id="3654c-120">Med den här funktionen kan företagen till exempel ställa in användarspecifika vyer för försäljnings- och inköpsdokument som endast kan kopplas till en viss ansvarsenhet.</span><span class="sxs-lookup"><span data-stu-id="3654c-120">Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.</span></span>
 
 ## <a name="to-set-up-a-responsibility-center"></a><span data-ttu-id="3654c-121">Så här skapar du en ansvarsenhet</span><span class="sxs-lookup"><span data-stu-id="3654c-121">To set up a responsibility center</span></span>  
-1.  <span data-ttu-id="3654c-122">Välj ikonen ![söka efter sida eller rapport](media/ui-search/search_small.png "ikonen söka efter sida eller rapport"), ange **Ansvarsenheter** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="3654c-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="3654c-123">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="3654c-123">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="3654c-124">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="3654c-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="3654c-122">Välj ikonen ![söka efter sida eller rapport](media/ui-search/search_small.png "ikonen söka efter sida eller rapport"), ange **Ansvarsenheter** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="3654c-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3654c-123">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="3654c-123">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="3654c-124">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="3654c-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    <span data-ttu-id="3654c-125">Om du använder ansvarsenheter för att administrera ditt företag kan det vara praktiskt att ange en standardansvarsenhet för företaget.</span><span class="sxs-lookup"><span data-stu-id="3654c-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
+   <span data-ttu-id="3654c-125">Om du använder ansvarsenheter för att administrera ditt företag kan det vara praktiskt att ange en standardansvarsenhet för företaget.</span><span class="sxs-lookup"><span data-stu-id="3654c-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
 4. <span data-ttu-id="3654c-126">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Företagsinformation** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="3654c-126">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>
 5. <span data-ttu-id="3654c-127">I fältet **ansvarsenhet** anger du en ansvarsenhetskod.</span><span class="sxs-lookup"><span data-stu-id="3654c-127">In the **Responsibility Center** field, enter a responsibility center code.</span></span>
 

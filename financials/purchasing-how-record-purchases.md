@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3228d82190e81198817d0e1fa5c86f6c9d0f784f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a57ab953304a89f0caeedd66f6be55e3cf5030bb
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-purchases"></a><span data-ttu-id="c0926-103">Registrera inköp</span><span class="sxs-lookup"><span data-stu-id="c0926-103">Record Purchases</span></span>
@@ -48,17 +48,17 @@ ms.lasthandoff: 03/22/2018
 8. <span data-ttu-id="c0926-138">Välj **OK** för att gå tillbaka till fönstret **Inköpsfaktura**, när du har slutfört leverantörskortet.</span><span class="sxs-lookup"><span data-stu-id="c0926-138">When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.</span></span>
 
     <span data-ttu-id="c0926-139">Flera fält i fönstret **Inköpsfaktura** är ifyllda med information som du har angett på det nya leverantörskortet.</span><span class="sxs-lookup"><span data-stu-id="c0926-139">Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.</span></span>
-9. <span data-ttu-id="c0926-140">I fönstret **Inköpsfaktura** fyller du i de återstående fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="c0926-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. <span data-ttu-id="c0926-140">I fönstret **Inköpsfaktura** fyller du i de återstående fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="c0926-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="c0926-141">Fortsätt med att fylla inköpsfakturaraderna med lagerförda artiklar eller tjänster som du har köpt från leverantören.</span><span class="sxs-lookup"><span data-stu-id="c0926-141">You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="c0926-142">Om du har ställt in återkommande inköpsrader för leverantöre, till exempel en månatlig återanskaffningsorder, kan du infoga dessa rader på fakturan, genom att välja knappen **Hämta återkommande inköpsrader**.</span><span class="sxs-lookup"><span data-stu-id="c0926-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
+   >   <span data-ttu-id="c0926-142">Om du har ställt in återkommande inköpsrader för leverantöre, till exempel en månatlig återanskaffningsorder, kan du infoga dessa rader på fakturan, genom att välja knappen **Hämta återkommande inköpsrader**.</span><span class="sxs-lookup"><span data-stu-id="c0926-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
 10. <span data-ttu-id="c0926-143">Ange numret på en lagerförd artikel eller service på snabbfliken **Rader** Snabbfliken, i **Artikelnr** fältet.</span><span class="sxs-lookup"><span data-stu-id="c0926-143">On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.</span></span>
 11. <span data-ttu-id="c0926-144">Ange hur många artiklar som ska införskaffas i fältet **Antal**.</span><span class="sxs-lookup"><span data-stu-id="c0926-144">In the **Quantity** field, enter the number of items to be purchased.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="c0926-145">För artiklar av typen **Tjänst** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.</span><span class="sxs-lookup"><span data-stu-id="c0926-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="c0926-145">För artiklar av typen **Tjänst** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.</span><span class="sxs-lookup"><span data-stu-id="c0926-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="c0926-146">Fältet **Radbelopp** uppdateras och visar värdet i fältet **Inköpspris** multiplicerat med värdet i fältet **Kvantitet**.</span><span class="sxs-lookup"><span data-stu-id="c0926-146">The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="c0926-148">I fältet **Fakturarabatt** anger du ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms** längst ned på fakturan.</span><span class="sxs-lookup"><span data-stu-id="c0926-148">In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="c0926-149">Om du har ställt in fakturarabatter för leverantören, då infogas det angivna procentsatsvärdet automatiskt i fältet **Leverantörsfakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Fakturarabattbelopp**.</span><span class="sxs-lookup"><span data-stu-id="c0926-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
+    >   <span data-ttu-id="c0926-149">Om du har ställt in fakturarabatter för leverantören, då infogas det angivna procentsatsvärdet automatiskt i fältet **Leverantörsfakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Fakturarabattbelopp**.</span><span class="sxs-lookup"><span data-stu-id="c0926-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
 13. <span data-ttu-id="c0926-150">Välj **Bokför** när du tar emot de beställda artiklarna eller tjänster.</span><span class="sxs-lookup"><span data-stu-id="c0926-150">When you receive the purchased items or services, choose **Post**.</span></span>
 
 <span data-ttu-id="c0926-151">Inköpet visas nu i lager och ekonomiska transaktioner, och leverantörsbetalning aktiveras.</span><span class="sxs-lookup"><span data-stu-id="c0926-151">The purchase is now reflected in inventory and financial records, and the vendor payment is activated.</span></span> <span data-ttu-id="c0926-152">Inköpsfakturan tas bort från listan över inköpsfakturor och ersätts med ett nytt dokument i listan över bokförda inköpsfakturor.</span><span class="sxs-lookup"><span data-stu-id="c0926-152">The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6b196839db87a40308bab69da255092222df8a4b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a><span data-ttu-id="a8aee-103">Inventera, justera och gruppera lager</span><span class="sxs-lookup"><span data-stu-id="a8aee-103">Count, Adjust, and Reclassify Inventory</span></span>
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="a8aee-173">Projektspecifika fält uppdateras därefter.</span><span class="sxs-lookup"><span data-stu-id="a8aee-173">The related fields are updated accordingly.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="a8aee-174">Om det faktiska lagersaldot avviker från det beräknade på grund av att artiklar har bokförts under fel lagerställekod, ska du inte ange skillnaden i inventeringsjournalen.</span><span class="sxs-lookup"><span data-stu-id="a8aee-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="a8aee-175">Använda grupperingsjournalen eller en överföringsorder för att i stället dirigera om artiklarna till rätt lagerställe.</span><span class="sxs-lookup"><span data-stu-id="a8aee-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="a8aee-176">Mer information finns i Artikelgrupperingsjournal eller Skapa överföringsorder.</span><span class="sxs-lookup"><span data-stu-id="a8aee-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
+   >   <span data-ttu-id="a8aee-174">Om det faktiska lagersaldot avviker från det beräknade på grund av att artiklar har bokförts under fel lagerställekod, ska du inte ange skillnaden i inventeringsjournalen.</span><span class="sxs-lookup"><span data-stu-id="a8aee-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="a8aee-175">Använda grupperingsjournalen eller en överföringsorder för att i stället dirigera om artiklarna till rätt lagerställe.</span><span class="sxs-lookup"><span data-stu-id="a8aee-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="a8aee-176">Mer information finns i Artikelgrupperingsjournal eller Skapa överföringsorder.</span><span class="sxs-lookup"><span data-stu-id="a8aee-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
 
 2. <span data-ttu-id="a8aee-177">Om du vill justera det beräknade antalet till det faktiska kvantiteterna väljer du åtgärden **Bokför**.</span><span class="sxs-lookup"><span data-stu-id="a8aee-177">To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.</span></span>
 
@@ -134,7 +134,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="a8aee-200">Du ställer in de cykliska inventeringsperioder som du vill använda och därefter fördelar du en till varje artikel.</span><span class="sxs-lookup"><span data-stu-id="a8aee-200">You set up the inventory counting periods that you want to use and then assign one to each item.</span></span> <span data-ttu-id="a8aee-201">När du utför en inventering och använder **Beräkna cyklisk inventeringsperiod** i inventeringsjournalen, skapas rader för artiklarna automatiskt.</span><span class="sxs-lookup"><span data-stu-id="a8aee-201">When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.</span></span>
 
 1. <span data-ttu-id="a8aee-202">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inventering cykliska inv.perioder** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="a8aee-202">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="a8aee-203">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="a8aee-203">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="a8aee-203">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="a8aee-203">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a><span data-ttu-id="a8aee-204">Så här tilldelar du en cyklisk inventeringsperiod till en artikel</span><span class="sxs-lookup"><span data-stu-id="a8aee-204">To assign a counting period to an item</span></span>  
 1. <span data-ttu-id="a8aee-205">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="a8aee-205">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>  
@@ -180,7 +180,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="a8aee-240">Om du ofta använder artikeljournalen för att bokföra samma eller likartade journalrader, kan du till exempel i anslutning med materialförbrukning använda fönstret **Standardartikeljournal** om du vill göra detta återkommande arbete enklare.</span><span class="sxs-lookup"><span data-stu-id="a8aee-240">If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier.</span></span> <span data-ttu-id="a8aee-241">Mer information finns i avsnittet "standardjournaler" i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="a8aee-241">For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).</span></span>
 
 1. <span data-ttu-id="a8aee-242">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikeljournaler** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="a8aee-242">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="a8aee-243">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="a8aee-243">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="a8aee-243">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="a8aee-243">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="a8aee-244">Välj åtgärden **Bokför** för att justera lagret.</span><span class="sxs-lookup"><span data-stu-id="a8aee-244">Choose the **Post** action to make the inventory adjustments.</span></span>
 
 > [!NOTE]  

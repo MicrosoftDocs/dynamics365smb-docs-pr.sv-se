@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d2a2ee196be4562f62604afd4faed608ff07411f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c588e4273fa9b23f9ace044a85f5132e12112916
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a><span data-ttu-id="b69f7-103">Designdetaljer: Läsa in lagerprofilerna</span><span class="sxs-lookup"><span data-stu-id="b69f7-103">Design Details: Loading the Inventory Profiles</span></span>
@@ -28,15 +28,15 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="b69f7-112">I allmänhet betraktar planeringssystemet alla leveransorder efter planeringsstartdatumet som möjliga att ändra för att uppfylla behov.</span><span class="sxs-lookup"><span data-stu-id="b69f7-112">In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand.</span></span> <span data-ttu-id="b69f7-113">Men så snart ett antal bokförs från en leveransorder kan den inte längre ändras av planeringssystemet.</span><span class="sxs-lookup"><span data-stu-id="b69f7-113">However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system.</span></span> <span data-ttu-id="b69f7-114">Följande olika order kan inte planeras om:</span><span class="sxs-lookup"><span data-stu-id="b69f7-114">Accordingly, the following different orders cannot be replanned:</span></span>  
 
--   <span data-ttu-id="b69f7-115">Släppta produktionsorder där förbrukning eller utflöde har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-115">Released production orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="b69f7-115">Släppta produktionsorder där förbrukning eller utflöde har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-115">Released production orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="b69f7-116">Monteringsorder där förbrukning eller utflöde har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-116">Assembly orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="b69f7-116">Monteringsorder där förbrukning eller utflöde har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-116">Assembly orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="b69f7-117">Överföring order där utleveransen har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-117">Transfer orders where shipment has been posted.</span></span>  
+- <span data-ttu-id="b69f7-117">Överföring order där utleveransen har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-117">Transfer orders where shipment has been posted.</span></span>  
 
--   <span data-ttu-id="b69f7-118">Inköpsorder där inleverans har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-118">Purchase orders where receipt has been posted.</span></span>  
+- <span data-ttu-id="b69f7-118">Inköpsorder där inleverans har bokförts.</span><span class="sxs-lookup"><span data-stu-id="b69f7-118">Purchase orders where receipt has been posted.</span></span>  
 
- <span data-ttu-id="b69f7-119">Förutom att ladda tillgångs- och efterfråganstyper, laddas vissa typer med hänsyn till speciella regler och beroenden som beskrivs i här efter.</span><span class="sxs-lookup"><span data-stu-id="b69f7-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
+  <span data-ttu-id="b69f7-119">Förutom att ladda tillgångs- och efterfråganstyper, laddas vissa typer med hänsyn till speciella regler och beroenden som beskrivs i här efter.</span><span class="sxs-lookup"><span data-stu-id="b69f7-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
 
 ## <a name="item-dimensions-are-separated"></a><span data-ttu-id="b69f7-120">Artikeldimensioner är separerade</span><span class="sxs-lookup"><span data-stu-id="b69f7-120">Item Dimensions are Separated</span></span>  
  <span data-ttu-id="b69f7-121">Leveransplanen måste beräknas per kombination av artikeldimensioner, till exempel variant och lagerställe.</span><span class="sxs-lookup"><span data-stu-id="b69f7-121">The supply plan must be calculated per combination of the item dimensions, such as variant and location.</span></span> <span data-ttu-id="b69f7-122">Men det finns ingen anledning att beräkna någon teoretisk kombination.</span><span class="sxs-lookup"><span data-stu-id="b69f7-122">However, there is no reason to calculate any theoretical combination.</span></span> <span data-ttu-id="b69f7-123">Endast de kombinationer med ett efterfrågans- och/eller tillgångsbehov måste beräknas.</span><span class="sxs-lookup"><span data-stu-id="b69f7-123">Only those combinations that carry a demand and/or supply need to be calculated.</span></span>  

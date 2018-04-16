@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0e79dcc4b9015a0b2ec37262048c2c98c192df5e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="depreciation-methods"></a><span data-ttu-id="1b59f-103">Avskrivningsmetoder</span><span class="sxs-lookup"><span data-stu-id="1b59f-103">Depreciation Methods</span></span>
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="1b59f-111">Manuell</span><span class="sxs-lookup"><span data-stu-id="1b59f-111">Manual</span></span>  
 
   > [!NOTE]  
->   <span data-ttu-id="1b59f-112">Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark.</span><span class="sxs-lookup"><span data-stu-id="1b59f-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="1b59f-113">Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar.</span><span class="sxs-lookup"><span data-stu-id="1b59f-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="1b59f-114">Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.</span><span class="sxs-lookup"><span data-stu-id="1b59f-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+  >   <span data-ttu-id="1b59f-112">Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark.</span><span class="sxs-lookup"><span data-stu-id="1b59f-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="1b59f-113">Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar.</span><span class="sxs-lookup"><span data-stu-id="1b59f-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="1b59f-114">Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.</span><span class="sxs-lookup"><span data-stu-id="1b59f-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
 * <span data-ttu-id="1b59f-115">Halvårspraxis</span><span class="sxs-lookup"><span data-stu-id="1b59f-115">Half-Year Convention</span></span>  
 
   > [!NOTE]  
->    <span data-ttu-id="1b59f-116">När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.</span><span class="sxs-lookup"><span data-stu-id="1b59f-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
+  >    <span data-ttu-id="1b59f-116">När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.</span><span class="sxs-lookup"><span data-stu-id="1b59f-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
 ## <a name="straight-line-depreciation"></a><span data-ttu-id="1b59f-117">Linjär avskrivning</span><span class="sxs-lookup"><span data-stu-id="1b59f-117">Straight-Line Depreciation</span></span>
 <span data-ttu-id="1b59f-118">När du använder den linjära metoden måste du ange ett av följande alternativ i avskrivningsregeln för anläggningstillgångar:</span><span class="sxs-lookup"><span data-stu-id="1b59f-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="1b59f-438">Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="1b59f-438">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="1b59f-439">I fönstret **Avskrivning tabellista** väljer du åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="1b59f-439">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="1b59f-440">I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="1b59f-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="1b59f-440">I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="1b59f-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a><span data-ttu-id="1b59f-441">Exempel - Användardefinierad avskrivning</span><span class="sxs-lookup"><span data-stu-id="1b59f-441">Example - User-defined Depreciation</span></span>
 <span data-ttu-id="1b59f-442">Du kan använda en avskrivningsmetod som gör det möjligt att av skatteskäl skriva av tillgångar snabbare.</span><span class="sxs-lookup"><span data-stu-id="1b59f-442">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  

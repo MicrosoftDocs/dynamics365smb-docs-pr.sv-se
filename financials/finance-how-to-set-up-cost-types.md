@@ -13,10 +13,10 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c89170fd159428d771df105ca16a1d91d29651e4
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-cost-types"></a><span data-ttu-id="477ed-103">Skapa kostnadstyper</span><span class="sxs-lookup"><span data-stu-id="477ed-103">Set Up Cost Types</span></span>
@@ -35,17 +35,17 @@ ms.lasthandoff: 03/22/2018
     >  <span data-ttu-id="477ed-119">Funktionen **Registrera kostnadstyper i kontoplan** uppdaterar relationen mellan kontoplanen och planen över kostnadstyper.</span><span class="sxs-lookup"><span data-stu-id="477ed-119">The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types.</span></span> <span data-ttu-id="477ed-120">Fältet **nr.**</span><span class="sxs-lookup"><span data-stu-id="477ed-120">The **No.**</span></span> <span data-ttu-id="477ed-121">-fältet fylls och verifieras för att se till att varje redovisningskonto är kopplade till endast ett kostnadstyp.</span><span class="sxs-lookup"><span data-stu-id="477ed-121">field is filled and verified to make sure that each general ledger account is related to only one cost type.</span></span> <span data-ttu-id="477ed-122">Kör funktionen automatiskt, före överföring av redovisningstransaktioner mot kostnadsredovisning.</span><span class="sxs-lookup"><span data-stu-id="477ed-122">The function runs automatically before transferring general ledger entries to cost accounting.</span></span>  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a><span data-ttu-id="477ed-123">Så här skapar du nya kostnadstyper i fönstret Lista över kostnadsbärare.</span><span class="sxs-lookup"><span data-stu-id="477ed-123">To set up new cost types in the Chart of Cost Types window</span></span>  
-1.  <span data-ttu-id="477ed-124">Öppna fönstret **Lista över kostnadstyper** i redigeringsläge.</span><span class="sxs-lookup"><span data-stu-id="477ed-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
-2.  <span data-ttu-id="477ed-125">Fyll i fälten som beskrivs efter behov.</span><span class="sxs-lookup"><span data-stu-id="477ed-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="477ed-124">Öppna fönstret **Lista över kostnadstyper** i redigeringsläge.</span><span class="sxs-lookup"><span data-stu-id="477ed-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
+2. <span data-ttu-id="477ed-125">Fyll i fälten som beskrivs efter behov.</span><span class="sxs-lookup"><span data-stu-id="477ed-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  <span data-ttu-id="477ed-126">eDu kan lägga upp och underhålla kostnadstupen antingen i kortet **Kort för Kostnadstyper** eller i fönstret **Lista över Kostnadstyper**.</span><span class="sxs-lookup"><span data-stu-id="477ed-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="477ed-127">I den här proceduren skapar du Kostnadstyper i fönstret **Lista över kostnadstyper**.</span><span class="sxs-lookup"><span data-stu-id="477ed-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
+   > [!NOTE]  
+   >  <span data-ttu-id="477ed-126">eDu kan lägga upp och underhålla kostnadstupen antingen i kortet **Kort för Kostnadstyper** eller i fönstret **Lista över Kostnadstyper**.</span><span class="sxs-lookup"><span data-stu-id="477ed-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="477ed-127">I den här proceduren skapar du Kostnadstyper i fönstret **Lista över kostnadstyper**.</span><span class="sxs-lookup"><span data-stu-id="477ed-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
 
-3.  <span data-ttu-id="477ed-128">När du har skapat alla kostnadstyper väljer du åtgärden **Indrag för kostnadstyper**.</span><span class="sxs-lookup"><span data-stu-id="477ed-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="477ed-129">Välj **ja** i dialogrutan.</span><span class="sxs-lookup"><span data-stu-id="477ed-129">In the dialog box, choose the **Yes** button.</span></span>  
-4.  <span data-ttu-id="477ed-130">Koppla den nya kostnadstypen till motsvarande redovisningskonto.</span><span class="sxs-lookup"><span data-stu-id="477ed-130">Link the new cost type to the corresponding general ledger account.</span></span>  
+3. <span data-ttu-id="477ed-128">När du har skapat alla kostnadstyper väljer du åtgärden **Indrag för kostnadstyper**.</span><span class="sxs-lookup"><span data-stu-id="477ed-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="477ed-129">Välj **ja** i dialogrutan.</span><span class="sxs-lookup"><span data-stu-id="477ed-129">In the dialog box, choose the **Yes** button.</span></span>  
+4. <span data-ttu-id="477ed-130">Koppla den nya kostnadstypen till motsvarande redovisningskonto.</span><span class="sxs-lookup"><span data-stu-id="477ed-130">Link the new cost type to the corresponding general ledger account.</span></span>  
 
-    > [!IMPORTANT]  
-    >  <span data-ttu-id="477ed-131">Om du har angett definitioner i fältet **Summering** för rader av typen **Till-summa** innan du kör funktionen **Indrag för kostnadstyper** måste du ange definitionerna igen eftersom funktionen ersätter alla värden i alla **Till-summa**-fält.</span><span class="sxs-lookup"><span data-stu-id="477ed-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
+   > [!IMPORTANT]  
+   >  <span data-ttu-id="477ed-131">Om du har angett definitioner i fältet **Summering** för rader av typen **Till-summa** innan du kör funktionen **Indrag för kostnadstyper** måste du ange definitionerna igen eftersom funktionen ersätter alla värden i alla **Till-summa**-fält.</span><span class="sxs-lookup"><span data-stu-id="477ed-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
 
 ## <a name="to-update-cost-types"></a><span data-ttu-id="477ed-132">Uppdatera kostnadstyper</span><span class="sxs-lookup"><span data-stu-id="477ed-132">To update cost types</span></span>  
 1.  <span data-ttu-id="477ed-133">Markera om du vill att planen över kostnadstyper automatiskt ska uppdateras när kontoplanen ändras i fönstret **Inställningar för kostnadsredovisning**.</span><span class="sxs-lookup"><span data-stu-id="477ed-133">In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.</span></span>  

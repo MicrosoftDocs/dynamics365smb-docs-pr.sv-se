@@ -151,7 +151,7 @@
 
 # [Ekonomi](finance.md)
 ## [Hantera kundreskontra](receivables-manage-receivables.md)
-###[Koppla betalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Koppla betalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Stämma av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Koppla kundbetalningar manuellt](receivables-how-apply-sales-transactions-manually.md)  
 ### [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)
