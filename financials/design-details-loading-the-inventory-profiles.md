@@ -28,15 +28,15 @@ För att sortera ut de många källorna till efterfrågan och tillgång ordnar p
 
  I allmänhet betraktar planeringssystemet alla leveransorder efter planeringsstartdatumet som möjliga att ändra för att uppfylla behov. Men så snart ett antal bokförs från en leveransorder kan den inte längre ändras av planeringssystemet. Följande olika order kan inte planeras om:  
 
--   Släppta produktionsorder där förbrukning eller utflöde har bokförts.  
+- Släppta produktionsorder där förbrukning eller utflöde har bokförts.  
 
--   Monteringsorder där förbrukning eller utflöde har bokförts.  
+- Monteringsorder där förbrukning eller utflöde har bokförts.  
 
--   Överföring order där utleveransen har bokförts.  
+- Överföring order där utleveransen har bokförts.  
 
--   Inköpsorder där inleverans har bokförts.  
+- Inköpsorder där inleverans har bokförts.  
 
- Förutom att ladda tillgångs- och efterfråganstyper, laddas vissa typer med hänsyn till speciella regler och beroenden som beskrivs i här efter.  
+  Förutom att ladda tillgångs- och efterfråganstyper, laddas vissa typer med hänsyn till speciella regler och beroenden som beskrivs i här efter.  
 
 ## <a name="item-dimensions-are-separated"></a>Artikeldimensioner är separerade  
  Leveransplanen måste beräknas per kombination av artikeldimensioner, till exempel variant och lagerställe. Men det finns ingen anledning att beräkna någon teoretisk kombination. Endast de kombinationer med ett efterfrågans- och/eller tillgångsbehov måste beräknas.  

@@ -69,7 +69,7 @@ När koncerninterna partner skickar koncerninterna transaktioner hamnar de i den
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna inkorgstransaktioner** och välj sedan relaterad länk.  
 2. I fönstret **koncerninterna inkorgstransaktioner** markerar du en rad, och väljer sedan en åtgärd som **acceptera** för att bearbeta raden.
-3. I fönstret **Slutför konc.int. inkorgsåtg.** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **Slutför konc.int. inkorgsåtg.** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj knappen **OK**.  
 
 Rader som du har behandlats med åtgärden**acceptera** kommer dokument eller journalrader att skapas i företaget. Öppna varje dokument eller journal, gör nödvändiga ändringar och bokför.  

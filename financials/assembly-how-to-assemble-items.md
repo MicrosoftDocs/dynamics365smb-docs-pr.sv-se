@@ -43,29 +43,29 @@ Dessa inställningsalternativ är standardinställningar som hantera hur försä
 I den här proceduren skapar och behandlar du och en monteringsorder för artiklar som monteras mot lager, som innebär utan ett kopplat försäljningsorder. Steget innehåller initialisera monteringsorder, hantera potentiella komponenttillgänglighetsproblem och delvis att bokföra monteringsartikel utflöde.
 
 ## <a name="to-assemble-an-item"></a>Om du vill att sammanställa en artikel  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Monteringsorder** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Ny**. **Ny monteringsorder** fönstret öppnas.  
-3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  I fältet **Artikelnr** anger du monteringsartikeln du vill beställa. Fältet visar artiklar som har upprättats för montering, vilket innebär att de har monteringsstrukturer tilldelade.  
-5.  I **Antal** fältet, ange hur många enheter av artikeln som du vill monteras.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Monteringsorder** och välj sedan relaterad länk.  
+2. Välj åtgärden **Ny**. **Ny monteringsorder** fönstret öppnas.  
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. I fältet **Artikelnr** anger du monteringsartikeln du vill beställa. Fältet visar artiklar som har upprättats för montering, vilket innebär att de har monteringsstrukturer tilldelade.  
+5. I **Antal** fältet, ange hur många enheter av artikeln som du vill monteras.  
 
-    > [!NOTE]  
-    >  Om en eller flera komponenter inte är tillgängliga för att uppfylla den angivna monteringsartikelantalet på angivna förfallodatum, så öppnas fönstret **Monteringsdisposition** fönstret automatiskt för att ange utförlig information om, hur många monteringsartiklar kan monteras baserat på komponenttillgänglighet. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).  när du stänger fönstret, monteringsorder skapas med disponibla aviseringar på de berörda komponentraderna  
+   > [!NOTE]  
+   >  Om en eller flera komponenter inte är tillgängliga för att uppfylla den angivna monteringsartikelantalet på angivna förfallodatum, så öppnas fönstret **Monteringsdisposition** fönstret automatiskt för att ange utförlig information om, hur många monteringsartiklar kan monteras baserat på komponenttillgänglighet. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).  när du stänger fönstret, monteringsorder skapas med disponibla aviseringar på de berörda komponentraderna  
 
-    Monteringsorderrader fylls automatiskt med innehållet av monteringsstrukturen och med rad antal enligt monteringsorderhuvudet.  
+   Monteringsorderrader fylls automatiskt med innehållet av monteringsstrukturen och med rad antal enligt monteringsorderhuvudet.  
 
-    > [!NOTE]  
-    >  Om du öppnade fönstret **Monteringsdisposition** , när du fyller i monteringsorderhuvudet, varje berörd monteringsorderrad innehåller en **ja** i **Disp.-varning** fältet med en länk till detaljerad dispositionsinformationen. För mer information, se Kontrollera disponibelt. Du kan lösa en komponentdispositionsproblem, genom att skapa startdatum, ersätta komponenten med en annan artikel eller välja en tillgänglig ersättning, om den har definierats.  
+   > [!NOTE]  
+   >  Om du öppnade fönstret **Monteringsdisposition** , när du fyller i monteringsorderhuvudet, varje berörd monteringsorderrad innehåller en **ja** i **Disp.-varning** fältet med en länk till detaljerad dispositionsinformationen. För mer information, se Kontrollera disponibelt. Du kan lösa en komponentdispositionsproblem, genom att skapa startdatum, ersätta komponenten med en annan artikel eller välja en tillgänglig ersättning, om den har definierats.  
 
-6.  I **Antal att montera** fältet, ange hur många enheter för monteringsartikeln som ska bokföras som utflöde nästa gång som du bokför monteringsorder. Antalet, kan vara lägre än värdet i **Antal** fältet för att visa en delleverans utflödesbokföring.  
+6. I **Antal att montera** fältet, ange hur många enheter för monteringsartikeln som ska bokföras som utflöde nästa gång som du bokför monteringsorder. Antalet, kan vara lägre än värdet i **Antal** fältet för att visa en delleverans utflödesbokföring.  
 
-    > [!NOTE]  
-    >  För att se till att komponentförbrukningsbokföring matchar monteringsartikel utflödesbokföringen, innehåller fältet antalet i monteringsorderrader, automatiskt justerade till värde du anger i **Antal att montera** fältet.  
-7.  På monteringsorderrader av typen **Artikel** eller **Resurs** i **Antal att förbruka** fältet, ange hur många enheter för monteringsartikeln som ska bokföras som utflöde nästa gång som du bokför monteringsorder. Som standard infogas förväntat antal som ska konsumeras enligt monteringsstruktur och monteringsorderhuvud, men du kan öka, eller minska det, till exempel för att visa en överförbrukning av komponenter eller att ytterligare resurser användes.  
-8.  När du är klar att helt eller delvis bokföra väljer du åtgärden **Bokföra**.  
+   > [!NOTE]  
+   >  För att se till att komponentförbrukningsbokföring matchar monteringsartikel utflödesbokföringen, innehåller fältet antalet i monteringsorderrader, automatiskt justerade till värde du anger i **Antal att montera** fältet.  
+7. På monteringsorderrader av typen **Artikel** eller **Resurs** i **Antal att förbruka** fältet, ange hur många enheter för monteringsartikeln som ska bokföras som utflöde nästa gång som du bokför monteringsorder. Som standard infogas förväntat antal som ska konsumeras enligt monteringsstruktur och monteringsorderhuvud, men du kan öka, eller minska det, till exempel för att visa en överförbrukning av komponenter eller att ytterligare resurser användes.  
+8. När du är klar att helt eller delvis bokföra väljer du åtgärden **Bokföra**.  
 
-    > [!NOTE]  
-    >  Om varningar fortfarande presenteras i något av monteringsorderrader, bokföringen är spärrad. Ett meddelande om komponenten eller komponenter om inte finns i lager, visas.  
+   > [!NOTE]  
+   >  Om varningar fortfarande presenteras i något av monteringsorderrader, bokföringen är spärrad. Ett meddelande om komponenten eller komponenter om inte finns i lager, visas.  
 
 När du bokför har lyckas, monteringsartikeln bokförs som utflöde på den potentiella lagerställekod och lagerplatskod som definieras på monteringsorder. För manuellt skapade monteringsorder kan lagerstället kopieras från fältet **Standardplacering av order** inställningsfältet. För flöde för montering mot kundorder kan lagerställekoden kopieras från försäljningsorderraden.  
 

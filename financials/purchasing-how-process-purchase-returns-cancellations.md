@@ -89,45 +89,45 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
     - Du kan använda funktionen **Hämta bokförda dokumentrader som ska återföras** för att kopiera en eller flera bokförda dokumentrader från ett eller flera bokförda dokument. Den här funktionen återför alltid de exakta kostnaderna från den bokförda dokumentraden. Funktionen beskrivs i följande steg.    
     - Du kan använda funktionen **Kopiera dokument** för att kopiera ett befintligt dokument till returordern. Använd den här funktionen för att kopiera hela dokumentet. Det kan antingen röra sig om ett bokfört dokument eller ett dokument som inte har bokförts ännu. Du kan bara aktivera exakt kostnadsåterföring när kryssrutan **Kräv exakt kost.återföring** är markerad i fönstren **Försäljningsinställningar**.  
 
-4. Välj åtgärden **Hämta bokförda dokumentrader som ska återföras**.
-5. Högst upp i fönstret **Bokförda inköpsdokumentrader** markerar du kryssrutan **Visa endast rader som kan återföras** om du bara vill visa rader med antal som ännu inte har returnerats. Exempel: om antalet på en bokförd inköpsfaktura redan har returnerats kanske du inte vill inkludera antalet i ett nytt inköpsreturdokument.
+5. Välj åtgärden **Hämta bokförda dokumentrader som ska återföras**.
+6. Högst upp i fönstret **Bokförda inköpsdokumentrader** markerar du kryssrutan **Visa endast rader som kan återföras** om du bara vill visa rader med antal som ännu inte har returnerats. Exempel: om antalet på en bokförd inköpsfaktura redan har returnerats kanske du inte vill inkludera antalet i ett nytt inköpsreturdokument.
 
     > [!NOTE]  
     >  Det här fältet fungerar endast för bokförda inleveranser och bokförda fakturarader, inte för bokförda retur- eller kreditnoterader.  
 
     Till vänster i fönstret visas olika dokumenttyper, och siffran inom parentes visar hur många tillgängliga dokument det finns av respektive dokumenttyp.
 
-6. Välj i fältet **Dokumenttypfilter** vilken typ av bokförda dokumentrader som du vill använda.  
-7. Markera de rader som du vill kopiera till det nya dokumentet.  
+7. Välj i fältet **Dokumenttypfilter** vilken typ av bokförda dokumentrader som du vill använda.  
+8. Markera de rader som du vill kopiera till det nya dokumentet.  
 
     > [!NOTE]  
     >  Om du använder Ctrl+A för att markera alla rader kopieras alla rader inom det filter som du har angett, men filtret **Visa endast rader som kan återföras** ignoreras. Exempel: Du har filtrerat raderna efter ett angivet dokumentnummer med två rader, där den ena raden redan har returnerats. Även om fältet **Visa endast rader som kan återföras** markerats kopieras båda raderna om du trycker på Ctrl+A för att kopiera alla rader, i stället för bara den rad som inte har återförts.  
 
-8. Klicka på **OK** om du vill kopiera raderna till det nya dokumentet.  
+9. Klicka på **OK** om du vill kopiera raderna till det nya dokumentet.  
 
     Följande processer inträffar:  
 
-    -   För bokförda dokumentrader av typen **Artikel** skapas en ny dokumentrad som är en kopia av den bokförda dokumentraden, med det antal som ännu inte har återförts. Fältet **Koppla till artikellöpnr** fylls i efter behov med numret på artikeltransaktionen för den bokförda dokumentraden.  
+   - För bokförda dokumentrader av typen **Artikel** skapas en ny dokumentrad som är en kopia av den bokförda dokumentraden, med det antal som ännu inte har återförts. Fältet **Koppla till artikellöpnr** fylls i efter behov med numret på artikeltransaktionen för den bokförda dokumentraden.  
 
-    -   För bokförda dokumentrader som inte är av typen **Artikel**, t.ex. artikelomkostnader, skapas en ny dokumentrad som är en kopia av den ursprungliga bokförda dokumentraden.  
+   - För bokförda dokumentrader som inte är av typen **Artikel**, t.ex. artikelomkostnader, skapas en ny dokumentrad som är en kopia av den ursprungliga bokförda dokumentraden.  
 
-    -   Fältet **Styckkostnad (BVA)** på den nya raden beräknas utifrån kostnaderna på motsvarande artikeltransaktioner.  
+   - Fältet **Styckkostnad (BVA)** på den nya raden beräknas utifrån kostnaderna på motsvarande artikeltransaktioner.  
 
-    -   Om det kopierade dokumentet är en bokförd utleverans, inleverans, returinleverans eller returutleverans beräknas à-priset automatiskt från artikelkortet.  
+   - Om det kopierade dokumentet är en bokförd utleverans, inleverans, returinleverans eller returutleverans beräknas à-priset automatiskt från artikelkortet.  
 
-    -   Om det kopierade dokumentet är en bokförd faktura eller kreditnota kopieras à-priset, fakturarabatterna och radrabatterna från den bokförda dokumentraden.  
+   - Om det kopierade dokumentet är en bokförd faktura eller kreditnota kopieras à-priset, fakturarabatterna och radrabatterna från den bokförda dokumentraden.  
 
-    -   Om den bokförda dokumentraden innehåller artikelspårningsrader fylls fältet **Koppla till artikellöpnr** på artikelspårningsraderna i automatiskt med de tillämpliga artikeltransaktionsnumren från de bokförda artikelspårningsraderna.  
+   - Om den bokförda dokumentraden innehåller artikelspårningsrader fylls fältet **Koppla till artikellöpnr** på artikelspårningsraderna i automatiskt med de tillämpliga artikeltransaktionsnumren från de bokförda artikelspårningsraderna.  
 
      När du kopierar från en bokförd faktura eller kreditnota kopieras eventuella fakturarabatter och radrabatter, som var giltiga vid den tidpunkt då dokumentet bokfördes, från den bokförda dokumentraden till den nya dokumentraden. Observera dock att om alternativet **Beräkna fakturarabatt** är aktiverat i fönstret **Inköpsinställningar** beräknas fakturarabatten på nytt när du bokför den nya dokumentraden. Det kan därför hända att radbeloppet för den nya raden inte är detsamma som radbeloppet för den bokförda dokumentraden, beroende på den nya beräkningen av fakturarabatten.  
 
-    > [!NOTE]  
-    >  Om en del av antalet på den bokförda dokumentraden redan har återförts, sålts eller förbrukats skapas en rad bara för det antal som finns kvar i lager eller som inte har returnerats. Om hela antalet på den bokförda dokumentraden har återförts skapas ingen ny dokumentrad.  
-    >   
-    >  Om varuflödet i det bokförda dokumentet är detsamma som i det nya dokumentet skapas en kopia av den ursprungliga bokförda dokumentraden i det nya dokumentet. Fältet **koppla-från artikellöpnr** fylls inte i eftersom exakt kostnadsåterföring inte är möjligt i det här fallet. T.ex. om du använder funktionen **Hämta bokförda dokumentrader som ska återföras** för att hämta en bokförd inköpskreditnotarad för en ny inköpskreditnota kopieras endast den ursprungliga bokförda kreditnotaraden till den nya kreditnotan.  
+     > [!NOTE]  
+     >  Om en del av antalet på den bokförda dokumentraden redan har återförts, sålts eller förbrukats skapas en rad bara för det antal som finns kvar i lager eller som inte har returnerats. Om hela antalet på den bokförda dokumentraden har återförts skapas ingen ny dokumentrad.  
+     >   
+     >  Om varuflödet i det bokförda dokumentet är detsamma som i det nya dokumentet skapas en kopia av den ursprungliga bokförda dokumentraden i det nya dokumentet. Fältet **koppla-från artikellöpnr** fylls inte i eftersom exakt kostnadsåterföring inte är möjligt i det här fallet. T.ex. om du använder funktionen **Hämta bokförda dokumentrader som ska återföras** för att hämta en bokförd inköpskreditnotarad för en ny inköpskreditnota kopieras endast den ursprungliga bokförda kreditnotaraden till den nya kreditnotan.  
 
-8. I fönstret **inköpsreturorder** i fältet **Returorsakskod** för varje rad väljer du orsaken till returen.
-9. Välj åtgärden **Bokföra**.
+10. I fönstret **inköpsreturorder** i fältet **Returorsakskod** för varje rad väljer du orsaken till returen.
+11. Välj åtgärden **Bokföra**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Skapa en ersättningsinköpsorder från en inköpsreturorder
 Du kan komma överens med leverantören om att de ska kompensera dig för en inköpt artikel genom att ersätta den. Ersättningsartikeln kan vara likadan eller annorlunda. Detta kan inträffa om leverantören av misstag har skickat fel artikel.  

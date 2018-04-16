@@ -26,11 +26,11 @@ Bakåtdaterade transaktioner eller kostnadsjusteringar påverkar ofta saldon och
 
  För att se till att alla transaktionsartiklar i en stängd period är slutliga, måste följande villkor uppfyllas innan en lagerperiod kan stängas:  
 
--   Alla avgående artikeltransaktioner under perioden måste avslutas (inget negativt lager).  
--   Alla objektkostnader i perioden måste justeras.  
--   Alla utsläppta och färdiga produktionsorder i perioden måste kostnadsjusteras.  
+- Alla avgående artikeltransaktioner under perioden måste avslutas (inget negativt lager).  
+- Alla objektkostnader i perioden måste justeras.  
+- Alla utsläppta och färdiga produktionsorder i perioden måste kostnadsjusteras.  
 
- När du stänger en lagerperiod skapas en lagerperiodtransaktion genom att använda numret på den sista artikeljournalen i lagerperioden. Dessutom registreras tiden, datumet och användarkoden för den användare som avslutar perioden i lagerperiodtransaktionen. Genom att använda information tillsammans med den sista artikeljournalen för föregående period kan du se vilka lagertransaktioner som bokfördes under lagerperioden. Det är också möjligt att öppna lagerperioder igen om du behöver bokföra i en stängd period. När du öppnar en lagerperiod igen skapas en lagerperiodtransaktion.  
+  När du stänger en lagerperiod skapas en lagerperiodtransaktion genom att använda numret på den sista artikeljournalen i lagerperioden. Dessutom registreras tiden, datumet och användarkoden för den användare som avslutar perioden i lagerperiodtransaktionen. Genom att använda information tillsammans med den sista artikeljournalen för föregående period kan du se vilka lagertransaktioner som bokfördes under lagerperioden. Det är också möjligt att öppna lagerperioder igen om du behöver bokföra i en stängd period. När du öppnar en lagerperiod igen skapas en lagerperiodtransaktion.  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lager och kostnadskalkylering](design-details-inventory-costing.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md) [Ekonomi](finance.md)  

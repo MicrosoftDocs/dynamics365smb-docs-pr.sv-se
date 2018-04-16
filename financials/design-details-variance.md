@@ -32,15 +32,15 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 ## <a name="example"></a>Exempel  
  Följande exempel visar hur avvikelser beräknas för inköpta artiklar. Det baseras på följande scenario:  
 
-1.  Användaren köper en artikel för BVA 90,00, men standardkostnaden är BVA 100,00. Inköpsvariansen är -10,00 BVA.  
-2.  BVA 10,00 krediteras på inköpsvarianskontot.  
-3.  Användaren bokför en artikelomkostnad på BVA 20,00. På så sätt ökas den faktiska kostnaden till 110,00 BVA, och värdet för inköpsvariansen blir 10,00 BVA.  
-4.  BVA 20,00 krediteras på inköpsvarianskontot. På så sätt blir nettoinköpsvariansen 10,00 BVA.  
-5.  Användaren omvärderar artikeln från BVA 100,00 till BVA 70,00. Det påverkar inte avvikelseberäkningen,bara lagervärdet.  
+1. Användaren köper en artikel för BVA 90,00, men standardkostnaden är BVA 100,00. Inköpsvariansen är -10,00 BVA.  
+2. BVA 10,00 krediteras på inköpsvarianskontot.  
+3. Användaren bokför en artikelomkostnad på BVA 20,00. På så sätt ökas den faktiska kostnaden till 110,00 BVA, och värdet för inköpsvariansen blir 10,00 BVA.  
+4. BVA 20,00 krediteras på inköpsvarianskontot. På så sätt blir nettoinköpsvariansen 10,00 BVA.  
+5. Användaren omvärderar artikeln från BVA 100,00 till BVA 70,00. Det påverkar inte avvikelseberäkningen,bara lagervärdet.  
 
- Följande tabell visar de resulterande värdetransaktionerna.  
+   Följande tabell visar de resulterande värdetransaktionerna.  
 
- ![Köpa avvikelseberäkning](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Köpa avvikelseberäkning](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Fastställa standardkostnaden  
  Standardkostnaden används när du beräknar avvikelse och beloppet som ska kapitaliseras. Eftersom standardkostnaden kan ändras med tiden på grund av manuell uppdateringsberäkning måste du ha en tidpunkt då standardkostnaden är fast för avvikelseberäkning. Det här är punkten där lagerökningen faktureras. För producerade eller monterade artiklar punkten, är den punkt när standardkostnaden fastställs den punkt när kostnaden justeras.  

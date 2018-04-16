@@ -51,16 +51,16 @@ Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributio
 
  Det bör vara möjligt att reservera alla artiklar i lager, utom de som har inlett avgående behandling. Antalet som är tillgängligt att reservera definieras som antalet på alla dokument och alla lagerplatstyper, utom följande avgående antal:  
 
--   Antal i oregistrerade plockdokument  
--   Antal i utleveranslagerplatser  
--   Antal i till-produktion-lagerplatser  
--   Antal i öppna produktionslagerplatser  
--   Antal i till-montering-lagerplatser  
--   Antal på justeringlagerplatser  
+- Antal i oregistrerade plockdokument  
+- Antal i utleveranslagerplatser  
+- Antal i till-produktion-lagerplatser  
+- Antal i öppna produktionslagerplatser  
+- Antal i till-montering-lagerplatser  
+- Antal på justeringlagerplatser  
 
- Resultatet visas i fältet **Totalt disponibelt antal** i fönstret **Reservation**.  
+  Resultatet visas i fältet **Totalt disponibelt antal** i fönstret **Reservation**.  
 
- På en reservationsrad visas antalet som inte kan reserveras, eftersom det har fördelats i distributionslagret, i fältet **Fördelat antal i dist.lager** i fönstret **Reservation**.  
+  På en reservationsrad visas antalet som inte kan reserveras, eftersom det har fördelats i distributionslagret, i fältet **Fördelat antal i dist.lager** i fönstret **Reservation**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Beräknar disponibelt antal att reservera  
  Antalet som är tillgängligt att reservera beräknas så här:  

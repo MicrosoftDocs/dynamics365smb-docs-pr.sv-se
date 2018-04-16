@@ -24,7 +24,7 @@ Du ställer in dina allmänna lagerinställningar i fönstret **Lagerinställnin
 
 ## <a name="to-set-up-general-inventory-information"></a>Så här ställer du in allmän lagerinformation
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerinställningar** och välj sedan relaterad länk.
-2. I fönstret **Lagerinställningar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I fönstret **Lagerinställningar** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Om du vill ange en ankommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret i fönstret **Lagerinställning** och för lagerstället. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).  
 

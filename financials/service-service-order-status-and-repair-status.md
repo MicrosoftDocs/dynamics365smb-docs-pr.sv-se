@@ -30,7 +30,7 @@ Fältet **Status** i fönstret **Tjänsteorder** och serviceartikelns reparation
 * Den serviceorderstatus som respektive reparationsstatus är länkad till. Mer information finns i Tjänsteorderstatus.  
 * Prioritetsnivå för varje serverorderstatusalternativ. Mer information finns i Prioritet.  
   
- När du omvandlar en serviceoffert till en serviceorder ändras reparationsstatus för alla serviceartiklar i ordern till **Initial** och serviceorderstatusen till **Förestående**.  
+  När du omvandlar en serviceoffert till en serviceorder ändras reparationsstatus för alla serviceartiklar i ordern till **Initial** och serviceorderstatusen till **Förestående**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Ange serviceorderstatus för reparationsstatus  
 Varje reparationsstatus är länkad till en viss serviceorderstatus. Alternativen för serviceorderstatus är **Förestående**, **På gång**, **Stoppad** och **Avslutad**. Det finns nio olika alternativ för reparationsstatus: **Initial**, **På gång**, **Hänvisad**, **Delvis servad**, **Offert avslutad**, **Väntar på kund**, **Beställt reservdelar**, **Reservdelar inlevererade** och **Avslutad**.  

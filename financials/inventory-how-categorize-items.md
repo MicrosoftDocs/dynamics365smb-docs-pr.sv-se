@@ -27,7 +27,7 @@ Om du vill söka artiklar efter egenskaper kan du tilldela objektattribut till a
 ## <a name="to-create-an-item-category"></a>Så här skapar du ett artikelkategori
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelkategorier** och välj sedan relaterad länk.
 2. I fönstret **Artikelkategorier** väljer du åtgärden **Ny**.
-3. I fönstret**Artikelkategori** på snabbfliken **Allmänt** fyller du sedan de fält som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret**Artikelkategori** på snabbfliken **Allmänt** fyller du sedan de fält som behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. På snabbfliken **Attribut** anger du ett artikelattribut för artikelkategorin. För mer information, se avsnittet "Tilldela artikelattribut till en artikelkategori" i [Så här arbetar du med artikelattribut](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

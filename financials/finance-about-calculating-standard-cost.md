@@ -80,8 +80,8 @@ Om en standardinställd kapacitetskostnad ska kunna beräknas måste du faststä
 
 Du ställer in kostnaderna för varje tidstyp för varje maskin-/produktionsgrupp i enskilda verksamhetsföljder.  
 
-> [!NOTE]  
-    >  Kostnaderna för bearbetningstiden gäller för varje enskild tillverkad artikelenhet och att kostnaderna för omställningstiden gäller för varje enskilt parti. Därför måste omställningstiden i verksamhetsföljden fördelas proportionellt över partistorleken för varje operation. Partistorleken anges i motsvarande fält på snabbfliken **Beställning** för artikelkortet.  
+> [!NOTE]
+>  Kostnaderna för bearbetningstiden gäller för varje enskild tillverkad artikelenhet och att kostnaderna för omställningstiden gäller för varje enskilt parti. Därför måste omställningstiden i verksamhetsföljden fördelas proportionellt över partistorleken för varje operation. Partistorleken anges i motsvarande fält på snabbfliken **Beställning** för artikelkortet.  
 
 För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte inkludera den här kostnaden i den standardinställda kostnadsberäkningen avmarkerar du fältet **Kostnad inkl. omst.tid** i fönstret **Produktionsinställningar**.  
 

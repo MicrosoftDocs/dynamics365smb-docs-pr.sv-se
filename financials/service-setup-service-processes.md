@@ -30,7 +30,7 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk.
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera felrapportering](service-how-setup-fault-reporting.md)  

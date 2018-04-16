@@ -38,22 +38,22 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 ## <a name="to-test-custom-report-layout-updates"></a>Så här testar du uppdateringar för en anpassade rapportlayout  
   
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
   
-2.  I fönstret **Val av rapportlayout** väljer du åtgärden **Testlayoutuppdateringar**.  
+2. I fönstret **Val av rapportlayout** väljer du åtgärden **Testlayoutuppdateringar**.  
   
- Ändringar till rapportlayouterna testas men tillämpas inte på de faktiska rapportlayouterna. Fönstret **Uppdateringslogg för rapportlayout** visas med status för potentiella uppdateringar för varje rapportlayout. Om det finns fel för en rapportlayout kan du öppna rapportlayouten direkt från meddelandet och åtgärda felen. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
+   Ändringar till rapportlayouterna testas men tillämpas inte på de faktiska rapportlayouterna. Fönstret **Uppdateringslogg för rapportlayout** visas med status för potentiella uppdateringar för varje rapportlayout. Om det finns fel för en rapportlayout kan du öppna rapportlayouten direkt från meddelandet och åtgärda felen. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Begränsningar för uppdatering av anpassad rapportlayout  
  Det finns flera typer av ändringar som den automatiska uppdateringen kan tillämpa för anpassade rapportlayouter. Ett fält som används i layouten kan till exempel ha tagits bort från rapportdatauppsättningen. Däremot kan den automatiska uppdateringen inte hantera följande ändringar i en rapportdatauppsättning.  
   
-1.  Borttagna fält, rubriker eller dataobjekt.  
+1. Borttagna fält, rubriker eller dataobjekt.  
   
-2.  Dubblettfältnamn i rapportlayouten efter att namnet på fältet har ändrats i datauppsättningen. Det här ska behandlas som ett designfel.  
+2. Dubblettfältnamn i rapportlayouten efter att namnet på fältet har ändrats i datauppsättningen. Det här ska behandlas som ett designfel.  
   
-3.  Uppgraderingsscenarier där det finns flera iterationer av en rapportlayout som orsakar flera namnbytesåtgärder för samma fält, rubriker eller dataobjekt.  
+3. Uppgraderingsscenarier där det finns flera iterationer av en rapportlayout som orsakar flera namnbytesåtgärder för samma fält, rubriker eller dataobjekt.  
   
- Om något av dessa problem identifieras i uppdateringsprocessen kan inte uppdateringen tillämpas. Du måste åtgärda problemen manuellt, till exempel genom att redigera rapportlayouten i Word eller via programmering med hjälp av kodenheter för uppgradering.  
+   Om något av dessa problem identifieras i uppdateringsprocessen kan inte uppdateringen tillämpas. Du måste åtgärda problemen manuellt, till exempel genom att redigera rapportlayouten i Word eller via programmering med hjälp av kodenheter för uppgradering.  
   
 ##  <a name="FixErrors"></a> Åtgärda fel  
  Om du får ett felmeddelande när du uppdaterar eller testar rapportlayoutuppdateringar måste du troligtvis ändra rapportlayouten för att lösa problemet. Läs felmeddelandet för att fastställa orsaken till problemet.  

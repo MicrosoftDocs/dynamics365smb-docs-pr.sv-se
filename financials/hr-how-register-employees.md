@@ -32,7 +32,7 @@ Nedan beskrivs hur du skapar ett grundläggande personalkort samt hur du förser
 ## <a name="to-set-up-an-employee"></a>Så här registrerar du personal
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Personal** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. I fönstret **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **Personalkort** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Infoga en bild av den anställde
 Om du har en bild av en anställd i .bmp-format kan du infoga den på personalkortet.

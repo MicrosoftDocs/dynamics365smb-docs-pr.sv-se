@@ -42,7 +42,7 @@ Artikelomkostnadsnummer används för att skilja mellan olika typer av artikelom
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelomkostnader** och välj sedan relaterad länk.
 2. I fönstret **Artikelomkostnader** väljer du åtgärden **Ny** åtgärder för att skapa en ny rad.
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader direkt till inköpsfakturan för artikeln
 Om du vet artikelomkostnaderna vid den tidpunkten när du bokför en inköpsfaktura för artikeln, följer du nedanstående instruktioner.
@@ -53,7 +53,7 @@ Om du vet artikelomkostnaderna vid den tidpunkten när du bokför en inköpsfakt
 4. På en ny rad , i fältet **Typ** väljer du **Omkostnad (artikel)**.
 5. Ange hur många enheter av artikelomkostnaden som du fakturerats för i fältet **Antal**.
 6. Ange beloppet för artikelomkostnaden i fältet **Inköpspris**.
-7. Fyll i återstående fält om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Fyll i återstående fält om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     I följande steg gör du den faktiska fördelningen. Tills artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribuera** i rött.
 8. På fliken **Rader** väljer du **Art.omkost.fördelning**.

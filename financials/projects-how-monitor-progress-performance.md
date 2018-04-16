@@ -41,7 +41,7 @@ Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen. N
 > När du har använt den nya metoden för att skapa PIA-transaktioner kan du inte ta bort metoden eller ändra den.  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **PIA-metoder för projekt**, och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Stäng fönstret.   
 4. Om du vill ange den nya metoden som standard., välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Jobbinställningar** och välj sedan relaterad länk.  
 5. I fältet **Standard-PIA-metod** väljer du metoden i listan.

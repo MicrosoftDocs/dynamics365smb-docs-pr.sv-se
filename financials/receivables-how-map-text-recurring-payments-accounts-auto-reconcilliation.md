@@ -38,7 +38,7 @@ På en rad i en utbetalningsavstämningsjournal där betalningen har angetts fö
 4. I fältet **Mappningstext** anger du text som finns på betalningar som du vill bokföra på angivna konton utan koppling till en öppen transaktion. Du kan ange upp till 50 tecken.
 
     > [!NOTE]  
->   Om inga andra utbetalningar finns med mappningstexten i fråga kommer Mappa text till konto att uppstå, även om endast en del av texten på utbetalningen finns som en mappningtext.
+   >   Om inga andra utbetalningar finns med mappningstexten i fråga kommer Mappa text till konto att uppstå, även om endast en del av texten på utbetalningen finns som en mappningtext.
 5. På fältet **Leverantörsnr** anger du den leverantör som betalningar ska bokföras på.
 6. Ange om betalningen ska bokföras på ett redovisningskonto eller till ett kund- eller leverantörskonto i fältet **Ursprungstyp för motkonto**.
 7. På fältet **Ursprungsnr för motkonto** anger du det konto som betalningen ska bokföras på, beroende på ditt val i fältet **Ursprungstyp för motkonto**.
@@ -57,7 +57,7 @@ Om du alltid vill bokföra bränslekostnader upplupna på Shell-bensinmackar i r
 | --- | --- | --- | --- | --- |
 | Gränssnitt |TOM |8510 |Redovisningskonto |TOM |
 
-> [!TIP]  
+> [!TIP]
 >   Mer information om hur du arbetar med fält och kolumner hittar du i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). För mer information om hur du hittar specifika sidor se [Sök](ui-search.md).
 
 ## <a name="see-also"></a>Se även

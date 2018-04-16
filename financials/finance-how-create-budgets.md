@@ -32,7 +32,7 @@ I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. (Mer i
 
 ## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget  
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
-2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj åtgärden **Redigera budget**.
 4. Högst upp i fönstret **Budget** fyller du i fälten för att definiera vad som ska visas.  
 

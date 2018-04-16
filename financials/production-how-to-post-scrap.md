@@ -27,7 +27,7 @@ Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen
 
 ## <a name="to-post-scrap-manually"></a>Så här bokför du kassationen manuellt  
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utflödesjournal** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Ange kassationsantalet i fältet **Kasserat antal**.  
 4. Ange kassationskoden i fältet **Kassationskod**.  
 5. Välj åtgärden **bokför** för att bokföra den angivna kassationen per operation.  

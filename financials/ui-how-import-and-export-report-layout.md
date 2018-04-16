@@ -37,19 +37,19 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
   
 ### <a name="to-import-a-report-layout-file"></a>Så här importerar du en rapportlayoutfil  
   
-1.  Se till att den relevanta filen som definierar rapportlayouten är tillgänglig på din dator eller i ditt nätverk.  
+1. Se till att den relevanta filen som definierar rapportlayouten är tillgänglig på din dator eller i ditt nätverk.  
   
-     En Word-rapportlayoutfil måste ha filtypstillägget .docx. En RDLC-rapportlayoutfil måste ha filtypstillägget .rdlc eller .rdl.  
+    En Word-rapportlayoutfil måste ha filtypstillägget .docx. En RDLC-rapportlayoutfil måste ha filtypstillägget .rdlc eller .rdl.  
   
-2.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
+2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
   
-3.  Markera raden för rapporten som du vill importera rapportlayouten till och sedan på fliken **Start**, i gruppen **Process** , välj **Anpassa layouter**.  
+3. Markera raden för rapporten som du vill importera rapportlayouten till och sedan på fliken **Start**, i gruppen **Process** , välj **Anpassa layouter**.  
   
-4.  I fönstret **Rapportlayouter** markerar du den rapportlayout som du vill importera en fil till, och sedan på fliken **Start** i gruppen **Process** och väljer **Importera layout**.  
+4. I fönstret **Rapportlayouter** markerar du den rapportlayout som du vill importera en fil till, och sedan på fliken **Start** i gruppen **Process** och väljer **Importera layout**.  
   
-5.  Välj dokumentet som definierar rapportlayouten i dialogrutan **Importera** och välj sedan **Öppna**.  
+5. Välj dokumentet som definierar rapportlayouten i dialogrutan **Importera** och välj sedan **Öppna**.  
   
- Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
+   Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
   
 ## <a name="see-also"></a>Se även  
  [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   

@@ -27,7 +27,7 @@ Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition p
 ## <a name="to-create-a-location-card"></a>Skapa ett nytt lagerställeskort
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition p
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Överföringsflöden** och välj sedan relaterad länk.
 2. Alternativt kan du i fönstret **Lagerställekort** välja åtgärden **Överföringsflöden**.
 3. Välj åtgärden **Ny**.
-4. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. I fönstret **Lagerställeskort** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan nu överföra lagerartiklar mellan två lagerställen. Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).    
 

@@ -26,7 +26,7 @@ På de individuella de projektkorten måste du lägga upp priser för projektart
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
 1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Kryssrutan **Använd förbrukningslänk** är ganska komplex och förklaras därför i följande avsnitt.

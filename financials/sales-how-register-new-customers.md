@@ -36,7 +36,7 @@ Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskod
     Om fler än en kundmall finns, öppnas ett fönster där du kan välja kundmall. I detta fall, följ nästa två steg.
 3. Välj den mall som du vill använda för det nya kundkortet i fönstret **Välj en mall för en ny kund**.
 4. Välj **OK**. Ett nytt kundkort öppnas med ifyllda fält med information från mallen.  
-5. Fortsätt att fylla i eller ändra fält på kundkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fortsätt att fylla i eller ändra fält på kundkortet vid behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 På snabbfliken **Försäljningspriser** ser du specialpriser eller rabatter som du beviljar för kunden om vissa villkor uppfylls, till exempel artikel, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -46,7 +46,7 @@ Om du vill använda detta kundkort som en mall när du skapar nya kundkort, så 
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>Om du vill spara kundkortet som en mall
 1. I fönstret **kundkort** väljer du åtgärden **Spara som mall**. Fönstret **Kundmall** öppnas och visar kundkortet som mall.
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Fönstret **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för kunden.
 4. Ändra eller ange dimensionskoder som ska kopplas till nya kundkort som skapas med hjälp av mallen.  
 5. Välj **OK** när du har slutfört den nya kundmallen.

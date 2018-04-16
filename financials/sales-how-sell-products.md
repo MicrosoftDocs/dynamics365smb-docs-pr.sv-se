@@ -55,7 +55,7 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 7. Välj **OK** för att gå tillbaka till fönstret **Försäljningsorder**, när du har slutfört kundkortet.
 
     Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.
-8. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Du är nu redo att fylla i Försäljningsorderraderna med lagerförda artiklar eller tjänster som du vill sälja till kunden.
 
@@ -64,7 +64,7 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 10. Skriv det antal artiklar som ska säljas i fältet **Kvantitet**.
 
     > [!NOTE]  
->   För artiklar av typen Tjänst är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.
+    >   För artiklar av typen Tjänst är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.
 
     Fältet **Radbelopp** uppdateras och visar värdet i fältet **Enhetspris** multiplicerat med värdet i fältet **Kvantitet**.
 
@@ -79,12 +79,12 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 14. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
 15. Välj knappen **OK** för att gå tillbaka till fönstret **Försäljningsorder** när du har slutfört kundkortet.
 
-   Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.  
-16. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.  
+16. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
+    Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
 
-   Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
+    Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
 17. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
 18. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **typ**.
 
@@ -94,7 +94,7 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 19. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 
     > [!NOTE]  
->   Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden. Mer information finns i [Ställa in måttenheter](inventory-how-setup-units-of-measure.md).
+    >   Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden. Mer information finns i [Ställa in måttenheter](inventory-how-setup-units-of-measure.md).
 
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 

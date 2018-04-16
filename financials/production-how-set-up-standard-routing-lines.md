@@ -25,7 +25,7 @@ Genom att använda standarduppgifter är det lättare att skapa och underhålla 
 ## <a name="to-set-up-a-standard-task"></a>Så här ställer du in standarduppgift
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Standarduppgifter**, och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj **Verktyg**, **Personal**, **Beskrivning**, eller **Verktyg**.
 5. Beskriv standarduppgiften i fönstret som öppnas.
 

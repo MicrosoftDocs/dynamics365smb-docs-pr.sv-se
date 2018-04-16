@@ -29,7 +29,7 @@ Du tilldelar resurser till projekt genom att skapa planeringsrader för projekte
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Registrera resursförbrukning för ett projekt
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektjournaler** och välj sedan relaterad länk.
-2. Öppna den relevanta projektjournalen och fyll sedan i fälten som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Öppna den relevanta projektjournalen och fyll sedan i fälten som behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
 ## <a name="to-adjust-resource-prices"></a>Justera resurspriser

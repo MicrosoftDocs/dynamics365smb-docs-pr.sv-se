@@ -25,7 +25,7 @@ Om du vill öka eller minska värdet för en artikel eller en viss artikeltransa
 ## <a name="to-revalue-inventory"></a>Omvärdera lager
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Omvärderingsjournal** och välj sedan relaterad länk.
 2. Välj åtgärden **Beräkna lagervärde**.
-3. I fönstret **Beräkna lagervärde** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **Beräkna lagervärde** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj **OK**.
 5. På varje rad i fönstret **Omvärderingsjournal** i fältet **Styckkostnad (omvärderad)** anger du den nya styckkostnaden. Du kan alternativt ange det nya totalbeloppet i fältet **Lagervärde (omvärderad)**.
 

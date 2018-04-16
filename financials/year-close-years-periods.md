@@ -39,6 +39,6 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 [Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

@@ -25,7 +25,7 @@ Om flera inköpare arbetar i företaget kan du lägga upp dem i ett fönster och
 ## <a name="to-set-up-purchasers"></a>Så här skapar du inköpare:
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Säljare/inköpare** och välj sedan relaterad länk.
 2. I fönstret **Säljare/inköpare** väljer du åtgärden **Ny**.
-3. I fönstret **säljare/inköpare** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **säljare/inköpare** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Så här kopplar du inköpare till leverantörer:
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Leverantör** och välj sedan relaterad länk.

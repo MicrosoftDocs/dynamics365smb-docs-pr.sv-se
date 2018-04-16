@@ -31,17 +31,17 @@ Om du vill fakturera mer än en leverans åt gången kan du använda funktionen 
 4. På snabbfliken **Rader** klickar du på åtgärden **Hämta utleveransrader**.  
 5. Markera den leveransrad som ska inkluderas på fakturan:  
 
-    - Markera alla rader och klicka på **OK** om du vill infoga alla rader.  
-    - Markera raderna i fråga och klicka på **OK** om du vill infoga särskilda rader. Du kan använda CTRL-tangenten om du vill markera flera rader som inte är i följd.  
+   - Markera alla rader och klicka på **OK** om du vill infoga alla rader.  
+   - Markera raderna i fråga och klicka på **OK** om du vill infoga särskilda rader. Du kan använda CTRL-tangenten om du vill markera flera rader som inte är i följd.  
 
-    Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på fakturan och köra funktionen **Hämta leveransrader** på nytt.  
-7. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
+     Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på fakturan och köra funktionen **Hämta leveransrader** på nytt.  
+6. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura  
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Samlingsfakturering** och välj sedan relaterad länk. Beställningsfönstret för batch-jobbet  öppnas.  
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markera kryssrutan **Bokför fakturor**.  
-4.  Välj knappen **OK**.  
+4. Välj knappen **OK**.  
 
 > [!NOTE]  
 >  Fakturorna måste bokföras manuellt om du inte har markerat kryssrutan **Bokför fakturor** för batch-jobbet.  

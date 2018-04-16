@@ -24,8 +24,8 @@ I planeringssystemet beaktas alla efterfråge- och tillgångsdata, resultaten ne
 
 Mer information finns i [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 
-> [!NOTE]  
-> Alla de fält som nämns i det här avsnittet hittar du i beskrivningen för att förstå deras funktion. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Alla de fält som nämns i det här avsnittet hittar du i beskrivningen för att förstå deras funktion. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="demand-and-supply"></a>Tillgång och efterfrågan  
 Planering innehåller två element: tillgång och efterfrågan. Dessa två element måste balanseras för att se till att efterfrågan uppfylls i tid och så kostnadseffektivt som möjligt.  

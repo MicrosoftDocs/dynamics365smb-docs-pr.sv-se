@@ -28,12 +28,12 @@ När du utför en vanlig typ av service behöver du ofta skapa servicedokument s
   
 ## <a name="to-set-up-a-standard-service-code"></a>Så här skapar du standardtjänstkoder    
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Standardservicekoder**, och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Fyll i serviceraderna som är kopplade till den här servicekoden.  
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fyll i serviceraderna som är kopplade till den här servicekoden.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Så här tilldelar du en standardtjänstkod till en serviceartikelgrupp
 1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceartikelgrupper** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fyll i serviceraderna som är kopplade till den här servicekoden.  
 
 ## <a name="see-also"></a>Se även

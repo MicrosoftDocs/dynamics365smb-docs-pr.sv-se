@@ -106,12 +106,12 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  
 3.  På Snabbfliken **Leverans**, i fältet **Baskalenderkod**, markera den baskalender som du vill tilldela.  
 
-> [!IMPORTANT]  
->  -   Om du inte tilldelar ett företag en baskalender betraktas alla datum som arbetsdagar.  
-> -   Om du anger ett tomt lagerställe på en orderrad betraktas alla datum som arbetsdagar.  
-> -   En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Om du inte tilldelar ett företag en baskalender betraktas alla datum som arbetsdagar.  
+>   -   Om du anger ett tomt lagerställe på en orderrad betraktas alla datum som arbetsdagar.  
+>   -   En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar.
+> 
+> [!NOTE]
 >  Innan du kan skapa några anpassade kalendertransaktioner måste du först tilldela företaget en baskalender.  
 
 ## <a name="see-also"></a>Se även

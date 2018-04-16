@@ -31,7 +31,7 @@ Genom att skapa produktionsfamiljer minskas spillet eftersom materialet som vanl
 
 ## <a name="to-set-up-a-production-family"></a>Så här skapar du produktionfamilj
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Familjer** och välj sedan relaterad länk.
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Om du vill skapa baserat på en produktionsfamilj
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Fasta planerade prod.order** och välj sedan relaterad länk.

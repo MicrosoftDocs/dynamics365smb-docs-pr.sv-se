@@ -39,29 +39,29 @@ Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
 
     ![Anpassningsläget](media/ui_personalize_mode_small.png "Anpassningsläget")
 
-2.  Gå till sidan du vill anpassa.
+2. Gå till sidan du vill anpassa.
 
-    Om du ser en låsikon i informationstexten, se [Varför sidan är låst](ui-personalization-locked.md) för mer information.
+   Om du ser en låsikon i informationstexten, se [Varför sidan är låst](ui-personalization-locked.md) för mer information.
 
-3.  Peka på ett område som du vill anpassa, t.ex. fält eller en kolumnrubrik i en lista. Allt som du kan anpassa markeras omedelbart med en pil eller en ram.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Peka på ett område som du vill anpassa, t.ex. fält eller en kolumnrubrik i en lista. Allt som du kan anpassa markeras omedelbart med en pil eller en ram.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Använd den här tabellen för att göra ändringar:     <table>
-        <tr><th>Vad vill du göra</td><th>Hur du gör det.</th></tr>
-        <tr><td>Flytta någonting, precis som fält, kolumn i listan, panel eller del</td><td> Peka var som helst på vad du vill flytta och dra den till dess nya plats. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
-        <tr><td>Ta bort någonting</td><td>Markera pilen och välj <b>Ta bort</b>. </td></tr>
-        <tr><td>Lägga till ett fält eller kolumn</td><td>I banderollen <b>anpassa</b> välj <b>mer</b> och sedan <b>fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan. Fält som är markerade som <b>Placerad</b> finns redan finns på sidan. Fält som är markerade som <b>Klar</b> finns redan finns på sidan.<br /></br>Om du vill lägga till ett fält, drar du det från fönstret till den plats där du vill ha den. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
-        <tr><td>Ändra låsning i en lista till en annan kolumn</td><td>Markera pilen i kolumnen som du vill ska vara den sista kolumnen på låsningen och välj <b>Ange låsning</b>.<br /><br/>Om du vill ange låsningen tillbaka till den ursprungliga angivna platsen, markera pilen för den aktuella kolumnen i låsningen och välj <b>ta bort låsning</b>. Obs! Du kan inte ta bort denna låsta ruta.</td></tr>
-      </table>
+4. Använd den här tabellen för att göra ändringar:     <table>
+       <tr><th>Vad vill du göra</td><th>Hur du gör det.</th></tr>
+       <tr><td>Flytta någonting, precis som fält, kolumn i listan, panel eller del</td><td> Peka var som helst på vad du vill flytta och dra den till dess nya plats. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
+       <tr><td>Ta bort någonting</td><td>Markera pilen och välj <b>Ta bort</b>. </td></tr>
+       <tr><td>Lägga till ett fält eller kolumn</td><td>I banderollen <b>anpassa</b> välj <b>mer</b> och sedan <b>fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan. Fält som är markerade som <b>Placerad</b> finns redan finns på sidan. Fält som är markerade som <b>Klar</b> finns redan finns på sidan.<br /></br>Om du vill lägga till ett fält, drar du det från fönstret till den plats där du vill ha den. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
+       <tr><td>Ändra låsning i en lista till en annan kolumn</td><td>Markera pilen i kolumnen som du vill ska vara den sista kolumnen på låsningen och välj <b>Ange låsning</b>.<br /><br/>Om du vill ange låsningen tillbaka till den ursprungliga angivna platsen, markera pilen för den aktuella kolumnen i låsningen och välj <b>ta bort låsning</b>. Obs! Du kan inte ta bort denna låsta ruta.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   Du kan inte ändra en lista om listan visas som paneler. Måste du först ändra sidan till listvyn genom att välja ikonen ![visa som lista](media/ui_show_as_list_icon.png "Visa som listpil vänster").
+   > [!IMPORTANT]  
+   >   Du kan inte ändra en lista om listan visas som paneler. Måste du först ändra sidan till listvyn genom att välja ikonen ![visa som lista](media/ui_show_as_list_icon.png "Visa som listpil vänster").
 
-5.  Du kan fortsätta att göra ändringar på samma sida eller flytta till en annan sida. Dina ändringar sparas automatiskt medan du gör dem. När du är klar väljer du i **anpassa** banderoll **Klar**.
+5. Du kan fortsätta att göra ändringar på samma sida eller flytta till en annan sida. Dina ändringar sparas automatiskt medan du gör dem. När du är klar väljer du i **anpassa** banderoll **Klar**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Ta bort anpassningar för att ändra en sida till dess ursprungliga layout
 Vid något tillfälle kanske du vill ångra alla anpassningsändringar som du har gjort på sidan så att sidan ser ut som den gjorde från början För att göra detta väljer du i banderollen **anpassa** **mer**, och sedan **Avmarkera anpassning**.

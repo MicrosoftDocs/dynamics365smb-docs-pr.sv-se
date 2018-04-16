@@ -31,11 +31,11 @@ Det finns åtta avskrivningsmetoder att tillgå:
 * Manuell  
 
   > [!NOTE]  
->   Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.  
+  >   Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.  
 * Halvårspraxis  
 
   > [!NOTE]  
->    När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.  
+  >    När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.  
 
 ## <a name="straight-line-depreciation"></a>Linjär avskrivning
 När du använder den linjära metoden måste du ange ett av följande alternativ i avskrivningsregeln för anläggningstillgångar:  
@@ -233,7 +233,7 @@ I fönstret **Avskrivning tabellkort** kan du skapa användardefinierad avskrivn
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") , ange **Avskrivningstabeller**, och välj sedan relaterad länk.  
 2. I fönstret **Avskrivning tabellista** väljer du åtgärden **Ny**.  
-3. I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. I fönstret **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Exempel - Användardefinierad avskrivning
 Du kan använda en avskrivningsmetod som gör det möjligt att av skatteskäl skriva av tillgångar snabbare.  

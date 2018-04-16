@@ -25,7 +25,7 @@ För att förstå hur planeringssystemet fungerar är det nödvändigt att förs
 - Alla behov uppfylls av tillräcklig tillgång.  
 - All tillgång har ett syfte.  
 
- Allmänt kan dessa mål uppnås genom att balansera tillgång med efterfrågan.  
+  Allmänt kan dessa mål uppnås genom att balansera tillgång med efterfrågan.  
 
 ## <a name="in-this-section"></a>I det här avsnittet  
 [Designdetaljer: Efterfrågan och tillgång](design-details-demand-and-supply.md)  

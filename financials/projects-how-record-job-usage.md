@@ -34,7 +34,7 @@ Efterföljande procedurer beskriver hur du registrerar verkligt (fakturerbart), 
 
     Fältet **Återstående antal** visar kvantiteten som återstår för att slutföra projektet och att överföras till journalen.  
 5. Välj åtgärden **Skapa projektjournalrader**.
-6. I fönstret **Projekt - Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. I fönstret **Projekt - Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Välj åtgärden **Öppna projektjournal**.  
 8. I fönstret **Projektjournal** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
 9. I fönstret **Projektplaneringsrader** granskar du den registrerade förbrukningen genom att observera fälten **Antal**, **Återstående antal** och **Antal att överföra till journal**.  

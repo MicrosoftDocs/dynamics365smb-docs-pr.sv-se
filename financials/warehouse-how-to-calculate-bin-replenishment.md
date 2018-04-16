@@ -38,14 +38,14 @@ Slutligen gäller att om du har definierat volymlagerplatser med enbart lagerpla
 
 Nästa gång som du beräknar lagerplatspåfyllning återskapas de förslag som du har tagit bort, om de fortfarande är aktuella.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Om följande villkor är uppfyllda för en artikel:  
->   
->  -   artikeln har ett utgångsdatum,  
-> -   Fältet **Plocka enligt FEFO** på lagerställekortet är markerat och  
-> -   Du använder funktionen **Beräkna lagerplatsåteranskaffning**  
->   
->  då innehåller fälten **Från zon** och **Från lagerplats** inga värden. Detta beror på att algoritmen som används för att beräkna varifrån artiklarna ska transporteras endast utlöses när du aktiverar funktionen **Skapa transport**.  
+> 
+> - artikeln har ett utgångsdatum,  
+>   -   Fältet **Plocka enligt FEFO** på lagerställekortet är markerat och  
+>   -   Du använder funktionen **Beräkna lagerplatsåteranskaffning**  
+> 
+>   då innehåller fälten **Från zon** och **Från lagerplats** inga värden. Detta beror på att algoritmen som används för att beräkna varifrån artiklarna ska transporteras endast utlöses när du aktiverar funktionen **Skapa transport**.  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

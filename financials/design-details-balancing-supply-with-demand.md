@@ -31,21 +31,21 @@ Föreställ dig att varje lagerprofil innehåller en sträng med efterfrågansh�
   
      Om tidpunkten för av leveransen inte passar, kanske leveransen kan omplaneras enligt följande:  
   
-    1.  Om tillgången placeras tidigare än efterfrågan kan kanske tillgången planeras om så att lagret är så lågt som möjligt.  
-    2.  Leverans placeras före efterfrågan, kan kanske leverans omplaneras. Annars kommer systemet att föreslå ny tillgång.  
-    3.  Om tillgången uppfyller efterfrågan på datumet kan planeringssystemet fortsätta att undersöka om tillgångens antal kan täcka efterfrågan.  
+   1. Om tillgången placeras tidigare än efterfrågan kan kanske tillgången planeras om så att lagret är så lågt som möjligt.  
+   2. Leverans placeras före efterfrågan, kan kanske leverans omplaneras. Annars kommer systemet att föreslå ny tillgång.  
+   3. Om tillgången uppfyller efterfrågan på datumet kan planeringssystemet fortsätta att undersöka om tillgångens antal kan täcka efterfrågan.  
   
-     När tidsplanen är på plats kan det adekvata antal som ska levereras beräknas enligt följande:  
+      När tidsplanen är på plats kan det adekvata antal som ska levereras beräknas enligt följande:  
   
-    1.  Om tillförselantalet är mindre än efterfrågan är det möjligt att tillförselantalet ska ökas (eller inte, om det begränsas av en princip om maximalt antal).  
-    2.  Om tillförselantalet är större än efterfrågan är det möjligt att tillförselantalet kan minskas (eller inte, om det begränsas av en princip om lägsta antal).  
+   4. Om tillförselantalet är mindre än efterfrågan är det möjligt att tillförselantalet ska ökas (eller inte, om det begränsas av en princip om maximalt antal).  
+   5. Om tillförselantalet är större än efterfrågan är det möjligt att tillförselantalet kan minskas (eller inte, om det begränsas av en princip om lägsta antal).  
   
-     I det här skedet finns någon av följande två situationer:  
+      I det här skedet finns någon av följande två situationer:  
   
-    1.  Den aktuella efterfrågan kan täckas, i vilket fall den kan stängas och planeringen för nästa efterfrågan kan starta.  
-    2.  Tillgången har nått sitt maximum, och en del av efterfråganskvantiteten täcks inte. I det här fallet kan planeringssystemet stänga den aktuella tillgången och gå vidare till nästa.  
+   6. Den aktuella efterfrågan kan täckas, i vilket fall den kan stängas och planeringen för nästa efterfrågan kan starta.  
+   7. Tillgången har nått sitt maximum, och en del av efterfråganskvantiteten täcks inte. I det här fallet kan planeringssystemet stänga den aktuella tillgången och gå vidare till nästa.  
   
- Du startar om med nästa efterfrågan och den aktuella tillgången eller vice versa. Den aktuella tillgången kan kanske täcka även nästa efterfrågan, eller den aktuella efterfrågan inte ännu inte har täckts helt.  
+   Du startar om med nästa efterfrågan och den aktuella tillgången eller vice versa. Den aktuella tillgången kan kanske täcka även nästa efterfrågan, eller den aktuella efterfrågan inte ännu inte har täckts helt.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Regler angående åtgärder för tillförselhändelser  
 När planeringssystemet utför en beräkning uppifrån och ned där tillgången måste uppfylla efterfrågan tas efterfrågan för given, det vill säga den ligger utanför planeringssystemets kontroll. Men tillgångssidan kan hanteras. Därför får du i planeringssystemet ett förslag om att skapa nya leveransorder, att omplanera befintliga och/eller ändra partistorleken. Om en befintlig leveransorder blir överflödig föreslår planeringssystemet att användaren annullerar den.  

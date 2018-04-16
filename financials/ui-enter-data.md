@@ -75,14 +75,14 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 # <a name="entering-negative-numbers"></a>Ange negativa antal
 Du kan ange negativa antal på två sätt. Numret -20,5 som kan anges:  
 
--   -20.5  
+- -20.5  
 
-    eller
--   20.5-  
+  eller
+- 20.5-  
 
- I båda fallen registreras beloppet som -20,5.  
+  I båda fallen registreras beloppet som -20,5.  
 
- Om det sista tecknet i uttrycket är **+** eller **-**, kommer hela uttrycket registreras med det tecknet. Ett exempel, **10-20+**, ska leda till 10 och inte -10.  
+  Om det sista tecknet i uttrycket är **+** eller **-**, kommer hela uttrycket registreras med det tecknet. Ett exempel, **10-20+**, ska leda till 10 och inte -10.  
 
 ## <a name="entering-dates-and-times"></a>Ange datum och tider
 Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller utan avgränsare.
@@ -93,15 +93,15 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 ### <a name="entering-dates"></a>Ange datum  
  I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.  
 
--   Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.  
+- Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.  
 
--   Om du skriver in fyra siffror tolkas de som dagen och månaden. Programmet lägger till året från arbetsdatumet.  
+- Om du skriver in fyra siffror tolkas de som dagen och månaden. Programmet lägger till året från arbetsdatumet.  
 
--   Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.  
+- Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.  
 
- Du kan också skriva ett datum som en veckodag följt av veckonumret och (valfritt) ett år (exempelvis Mån25, eller mån25 betyder måndagen i vecka 25).  
+  Du kan också skriva ett datum som en veckodag följt av veckonumret och (valfritt) ett år (exempelvis Mån25, eller mån25 betyder måndagen i vecka 25).  
 
- I stället för att skriva in ett visst datum kan du skriva in någon av de två koderna nedan.  
+  I stället för att skriva in ett visst datum kan du skriva in någon av de två koderna nedan.  
 
 |Kod|Resultat|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
  Här följer några exempel på hur datumformler kan användas:  
 
--   Datumformeln i fält för återkommande frekvens i återkommande journaler bestämmer hur ofta posten på journalraden ska bokföras.  
+- Datumformeln i fält för återkommande frekvens i återkommande journaler bestämmer hur ofta posten på journalraden ska bokföras.  
 
--   Datumformeln i fältet Betalningsfrist för en viss påminnelsenivå bestämmer vilken tidsperiod som ska förflyta från förfallodatumet (eller från den föregående påminnelsen) innan en påminnelse ska skapas.  
+- Datumformeln i fältet Betalningsfrist för en viss påminnelsenivå bestämmer vilken tidsperiod som ska förflyta från förfallodatumet (eller från den föregående påminnelsen) innan en påminnelse ska skapas.  
 
--   Datumformeln i fältet Förfallodatumformel bestämmer hur förfallodatumet på påminnelsen beräknas.  
+- Datumformeln i fältet Förfallodatumformel bestämmer hur förfallodatumet på påminnelsen beräknas.  
 
- Formeln för datumberäkning kan bara omfatta högst 20 tecken, både siffror och bokstäver. Du kan använda följande bokstäver som förkortningar för tidsangivelser.  
+  Formeln för datumberäkning kan bara omfatta högst 20 tecken, både siffror och bokstäver. Du kan använda följande bokstäver som förkortningar för tidsangivelser.  
 
 |||  
 |-|-|  

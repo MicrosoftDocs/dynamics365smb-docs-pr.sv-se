@@ -72,7 +72,7 @@ När distributionslagerutleveransen har bokförts uppdateras olika fält på fö
 
 > [!NOTE]
 > I alla scenarier där en del av antalet måste först vara monterat och ett annat ska levereras från lagret, skapas ett minimum på två distributionslagerutleveransrader. En är för antal för montering mot kundorder, och en är lagerantalet.
-
+> 
 > I så fall hanteras antal för montering mot kundorder som beskrivs i det här avsnittet, och lagerantalet behandlas som andra distributionslagerutleveransrader. Mer information om kombinationsscenarion finns i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Se även  

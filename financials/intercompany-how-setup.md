@@ -30,7 +30,7 @@ Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår 
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Så här konfigurerar du företag för koncerninterna transaktioner.
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Företagsinformation** och välj sedan relaterad länk.  
-2. I fönstret **företagsinformation** fyller du i fälten **Koncernintern partnerkod**, **Typ av koncernintern inkorg**. och **Uppgifter om koncernintern inkorg**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I fönstret **företagsinformation** fyller du i fälten **Koncernintern partnerkod**, **Typ av koncernintern inkorg**. och **Uppgifter om koncernintern inkorg**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>För att konfigurera koncerninterna partners
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna partners** och välj sedan relaterad länk.

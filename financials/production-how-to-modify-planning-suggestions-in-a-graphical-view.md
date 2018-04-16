@@ -59,6 +59,7 @@ I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och 
 För att verkställa planändringar för leverans måste du följa de resulterande åtgärdsmeddelandena från planering eller inköpskalkylarket. Mer information finns i Skapa order från planering.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler och ikoner på snabbfliken Tidslinje
+
  |Symbol/ikon|Beskrivning|  
  |------------------|---------------------------------------|  
  |Svart kors|Order (både efterfrågan och tillgång).<br /><br /> -   Kan inte ändras.<br />-   Visas när fältet **Visa planerat lagersaldo** markerats (orange diagram).|  

@@ -33,7 +33,7 @@ Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tidrapporter**, och välj sedan relaterad länk.
 2. I fönstret **Tidrapporter** väljer du åtgärden **Skapa tidrapporter**.
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Fälten **Andvänd tidrapport** och **Användar-ID för tidrapportens ägare** måste fyllas i på kortet för resursen på tidrapporten.
@@ -77,16 +77,16 @@ Tidrapportsregistrering spåras i timmar, som är standardbasmåttenheten för r
 3. Fyll i fälten på en rad efter behov. Ange numret på timmar som används av resursen på respektive veckodag.
 
     > [!TIP]  
->   Du kan granska summan av tidrapportstimmar som du har angett i faktaboxen **Översikt över utfall/budgeterat**.  
+   >   Du kan granska summan av tidrapportstimmar som du har angett i faktaboxen **Översikt över utfall/budgeterat**.  
 4. Upprepa steg 3 för andra arbetstyper som resursen utför.
 5. Välj åtgärden **Skicka** och välj sedan åtgärden **Alla öppna rader** för att skicka alla rader eller åtgärden **Enbart valda rader** för att endast skicka de rader som har valts i fönstret **Tidrapport**.  
 
     > [!NOTE]  
->   Du kan endast skicka tidrapportrader som du har angett tid för.  
+   >   Du kan endast skicka tidrapportrader som du har angett tid för.  
 6. För att ändra informationen på en rad som har angetts som **Skickad** väljer du raden och väljer sedan åtgärden **Öppna igen**.
 
     > [!NOTE]  
->   En chef kan avvisa en tidrapportrad som skickas in för godkännande. Om en rad t.ex. har statusen **Avvisad** kan du göra ändringar av raden och sedan välja **Skicka** igen.  
+   >   En chef kan avvisa en tidrapportrad som skickas in för godkännande. Om en rad t.ex. har statusen **Avvisad** kan du göra ändringar av raden och sedan välja **Skicka** igen.  
 7. Välj **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Så här kan du godkänna eller avvisa en tidrapport
@@ -111,7 +111,7 @@ När du har godkänt eller avvisat en tidrapport kan den inte ändras om den int
 2. Öppna en tidrapport från listan.  
 
     > [!NOTE]  
->   Du kan endast öppna rader igen som har statusen **Godkänd**. Du kan inte öppna rader igen som har statusen **Avvisad**. Du kan inte öppna en tidrapport igen om den har bokförts.  
+   >   Du kan endast öppna rader igen som har statusen **Godkänd**. Du kan inte öppna rader igen som har statusen **Avvisad**. Du kan inte öppna en tidrapport igen om den har bokförts.  
 3. I fönstret **Tidsrapport** väljer du åtgärden **Öppna igen** och väljer sedan åtgärden **Alla skickade rader** för att öppna alla rader igen eller åtgärden **Enbart valda rader** för att endast öppna de rader igen som valts i fönstret **Tidrapport**.
 4. Välj **OK**. Statusen för tidrapportraden eller raderna ändras till **Skickat**.  
 
@@ -134,7 +134,7 @@ När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i d
 4. Välj **OK**. Transaktioner för förbrukning skapas i projektjournalen, där du kan ändra informationen efter behov.  
 
     > [!NOTE]  
->   Information om arbetstyp och om arbetet är debiterbart kopieras från tidrapportsraden. Om det behövs, kan du minska antalet timmar och skapa en delvis bokföring. Om du minskar antalet kommer raden som skapas att innehålla det återstående antalet timmar nästa gång som du väljer åtgärden **Föreslå rader från tidrapporter**.  
+   >   Information om arbetstyp och om arbetet är debiterbart kopieras från tidrapportsraden. Om det behövs, kan du minska antalet timmar och skapa en delvis bokföring. Om du minskar antalet kommer raden som skapas att innehålla det återstående antalet timmar nästa gång som du väljer åtgärden **Föreslå rader från tidrapporter**.  
 5. Välj åtgärden **Bokföra**.  
 6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Fönstret **Projekttransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
 

@@ -27,7 +27,7 @@ I följande procedur beskrivs hur du arbetar med in standardförsäljningsrader.
 ## <a name="to-set-up-standard-sales-lines"></a>Så här skapar du standardförsäljningsrader  
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Standardtextkoder**, och välj sedan relaterad länk.  
 2. I fönstret **Standard förs.rader** väljer du åtgärden **Ny**.  
-3. I snabbfliken **Allmänt** fyller du i nödvändiga fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. I snabbfliken **Allmänt** fyller du i nödvändiga fält. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I snabbfliken **Rader** ange information i fälten för att förbereda försäljningsrader som återspeglar de standardrader som du förväntar dig att använda som återkommande rader på försäljningsdokument.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Infoga standardförsäljningsrader i en försäljningsfaktura

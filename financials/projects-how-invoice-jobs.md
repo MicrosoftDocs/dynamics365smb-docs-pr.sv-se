@@ -33,7 +33,7 @@ Du kan skapa en faktura för ett projekt för en eller flera projektaktiviteter 
 Från fönstret **Projekt** kan du fakturera en kund genom att välja projekt och sedan välja åtgärden **Skapa jobbförsäljningsfaktura**. Efterföljande procedur visar hur du kan använda ett batch-jobb för att fakturera flera projekt.  
 
 1. Välj ikonen ![söka efter sida eller rapport](media/ui-search/search_small.png "ikonen söka efter sida eller rapport"), ange **Projekt - Skapa förs.faktura** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ange filter om du vill begränsa de projekt som ska bearbetas av batch-jobbet.
 4. Klicka på **OK** för att skapa fakturorna.  
 

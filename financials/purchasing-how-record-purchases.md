@@ -48,17 +48,17 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 8. Välj **OK** för att gå tillbaka till fönstret **Inköpsfaktura**, när du har slutfört leverantörskortet.
 
     Flera fält i fönstret **Inköpsfaktura** är ifyllda med information som du har angett på det nya leverantörskortet.
-9. I fönstret **Inköpsfaktura** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. I fönstret **Inköpsfaktura** fyller du i de återstående fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Fortsätt med att fylla inköpsfakturaraderna med lagerförda artiklar eller tjänster som du har köpt från leverantören.
 
     > [!NOTE]  
->   Om du har ställt in återkommande inköpsrader för leverantöre, till exempel en månatlig återanskaffningsorder, kan du infoga dessa rader på fakturan, genom att välja knappen **Hämta återkommande inköpsrader**.
+   >   Om du har ställt in återkommande inköpsrader för leverantöre, till exempel en månatlig återanskaffningsorder, kan du infoga dessa rader på fakturan, genom att välja knappen **Hämta återkommande inköpsrader**.
 10. Ange numret på en lagerförd artikel eller service på snabbfliken **Rader** Snabbfliken, i **Artikelnr** fältet.
 11. Ange hur många artiklar som ska införskaffas i fältet **Antal**.
 
     > [!NOTE]  
->   För artiklar av typen **Tjänst** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.
+    >   För artiklar av typen **Tjänst** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.
 
     Fältet **Radbelopp** uppdateras och visar värdet i fältet **Inköpspris** multiplicerat med värdet i fältet **Kvantitet**.
 
@@ -66,7 +66,7 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 12. I fältet **Fakturarabatt** anger du ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms** längst ned på fakturan.
 
     > [!NOTE]  
->   Om du har ställt in fakturarabatter för leverantören, då infogas det angivna procentsatsvärdet automatiskt i fältet **Leverantörsfakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Fakturarabattbelopp**.
+    >   Om du har ställt in fakturarabatter för leverantören, då infogas det angivna procentsatsvärdet automatiskt i fältet **Leverantörsfakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Fakturarabattbelopp**.
 13. Välj **Bokför** när du tar emot de beställda artiklarna eller tjänster.
 
 Inköpet visas nu i lager och ekonomiska transaktioner, och leverantörsbetalning aktiveras. Inköpsfakturan tas bort från listan över inköpsfakturor och ersätts med ett nytt dokument i listan över bokförda inköpsfakturor.

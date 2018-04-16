@@ -47,7 +47,7 @@ När du har skapat räntefakturor och gjort eventuella ändringar kan du antinge
 
 ## <a name="to-send-the-customer-statement-report"></a>Om du vill skicka kundkontoutdragsrapporten.
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kundkontoutdrag** och välj sedan relaterad länk.
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I **Utdataalternativ** väljer du hur rapporten ska skickas till kunden.
 
 > [!NOTE]  

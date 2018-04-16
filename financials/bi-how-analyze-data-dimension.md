@@ -32,7 +32,7 @@ En analys per dimension visar en vald kombination av dimensioner. Du kan lagra o
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Analysvyer** och välj sedan relaterad länk.  
 2. I fönstret **Analysvylista** väljer du åtgärden **Ny**.
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Om du vill lägga till ytterligare dimensionskoder förutom de fyra koderna väljer du på snabbfliken **Dimensioner**, åtgärden **Filter**, fyller i fälten och klickar på **OK**.  
 5. Om du vill uppdatera vyn, väljer du åtgärden **uppdatera**.
 

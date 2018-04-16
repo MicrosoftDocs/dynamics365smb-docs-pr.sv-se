@@ -39,7 +39,7 @@ Om du planerar att sälja tillgångar under budgetperioden kan du föra in uppgi
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den anläggningstillgång som du vill avyttra och välj sedan åtgärden **Avskrivningsregler**.
-3. Lägg till **Planerat avyttringsdatum** och **Planerad avyttringsintäkt** i fönstret **Anl. avskrivningsregler**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Lägg till **Planerat avyttringsdatum** och **Planerad avyttringsintäkt** i fönstret **Anl. avskrivningsregler**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Så här visar du planerade avyttringsvärden
 Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förlusten kan du använda rapporten **Anl. - planerat värde**.

@@ -35,17 +35,17 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
     >  Funktionen **Registrera kostnadstyper i kontoplan** uppdaterar relationen mellan kontoplanen och planen över kostnadstyper. Fältet **nr.** -fältet fylls och verifieras för att se till att varje redovisningskonto är kopplade till endast ett kostnadstyp. Kör funktionen automatiskt, före överföring av redovisningstransaktioner mot kostnadsredovisning.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Så här skapar du nya kostnadstyper i fönstret Lista över kostnadsbärare.  
-1.  Öppna fönstret **Lista över kostnadstyper** i redigeringsläge.  
-2.  Fyll i fälten som beskrivs efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Öppna fönstret **Lista över kostnadstyper** i redigeringsläge.  
+2. Fyll i fälten som beskrivs efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  eDu kan lägga upp och underhålla kostnadstupen antingen i kortet **Kort för Kostnadstyper** eller i fönstret **Lista över Kostnadstyper**. I den här proceduren skapar du Kostnadstyper i fönstret **Lista över kostnadstyper**.
+   > [!NOTE]  
+   >  eDu kan lägga upp och underhålla kostnadstupen antingen i kortet **Kort för Kostnadstyper** eller i fönstret **Lista över Kostnadstyper**. I den här proceduren skapar du Kostnadstyper i fönstret **Lista över kostnadstyper**.
 
-3.  När du har skapat alla kostnadstyper väljer du åtgärden **Indrag för kostnadstyper**. Välj **ja** i dialogrutan.  
-4.  Koppla den nya kostnadstypen till motsvarande redovisningskonto.  
+3. När du har skapat alla kostnadstyper väljer du åtgärden **Indrag för kostnadstyper**. Välj **ja** i dialogrutan.  
+4. Koppla den nya kostnadstypen till motsvarande redovisningskonto.  
 
-    > [!IMPORTANT]  
-    >  Om du har angett definitioner i fältet **Summering** för rader av typen **Till-summa** innan du kör funktionen **Indrag för kostnadstyper** måste du ange definitionerna igen eftersom funktionen ersätter alla värden i alla **Till-summa**-fält.  
+   > [!IMPORTANT]  
+   >  Om du har angett definitioner i fältet **Summering** för rader av typen **Till-summa** innan du kör funktionen **Indrag för kostnadstyper** måste du ange definitionerna igen eftersom funktionen ersätter alla värden i alla **Till-summa**-fält.  
 
 ## <a name="to-update-cost-types"></a>Uppdatera kostnadstyper  
 1.  Markera om du vill att planen över kostnadstyper automatiskt ska uppdateras när kontoplanen ändras i fönstret **Inställningar för kostnadsredovisning**.  

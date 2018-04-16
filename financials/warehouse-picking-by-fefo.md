@@ -24,24 +24,24 @@ FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer
 
  Den här funktionen fungerar bara, när dessa villkor är uppfyllt:  
 
--   Artikel måste ha en serie-/partinummer.  
--   På artikelns artikelspårningskod har angetts, fältet **SN specifik spårning för dist.lager** , eller **Parti specifik spårning distr.lager** måste väljas.  
--   Artikeln måste bokföras till lagret med ett utgångsdatum.  
--   På lagerställekortet måste kryssrutan **Begär plockning** vara markerad.  
--   Kryssrutan **Plocka enligt FEFO** på lagerställekortet måste vara markerat.  
--   På lagerställekortet måste kryssrutan **Lagerplats ska finnas** vara markerad.  
+- Artikel måste ha en serie-/partinummer.  
+- På artikelns artikelspårningskod har angetts, fältet **SN specifik spårning för dist.lager** , eller **Parti specifik spårning distr.lager** måste väljas.  
+- Artikeln måste bokföras till lagret med ett utgångsdatum.  
+- På lagerställekortet måste kryssrutan **Begär plockning** vara markerad.  
+- Kryssrutan **Plocka enligt FEFO** på lagerställekortet måste vara markerat.  
+- På lagerställekortet måste kryssrutan **Lagerplats ska finnas** vara markerad.  
 
- När alla villkor uppfylls, sorteras serie-/partinumrerade artiklar som ska plockas med de äldsta första alla plockningar och transporter, utom artiklar som använder SN-närmare visst eller partispecifik spårning.  
+  När alla villkor uppfylls, sorteras serie-/partinumrerade artiklar som ska plockas med de äldsta första alla plockningar och transporter, utom artiklar som använder SN-närmare visst eller partispecifik spårning.  
 
 > [!NOTE]  
 >  Om någon serie-/partinumrerade artiklar använder specifik spårning, är de respekterade först och under dem, listas de återstående, icke-specifika serie-/partinummer enligt FEFO.  
 
  Om två serie-/partinumrerade artiklar har samma utgångsdatum, väljs artikeln med det lägsta serie - eller partinummer. Om serie - eller partinummer är samma, väljs artikeln som registrerades först.  
 
-> [!NOTE]  
->  -   När du plockar serie-/partinumrerade artiklar på lagerplatser som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerplatser av typen *Plock* enligt FEFO.  
-> -   Om du vill aktivera transporter enligt FEFO antingen i **lagerförflyttning** fönster eller **Transportkalkylark** fönstret, måste du lämna **Från binge** fältet tomt.  
-> -   Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som inte har förfallit att tas med i plockningen. Detta gäller även om du inte använder plockning enligt FEFO.  
+> [!NOTE]
+> - När du plockar serie-/partinumrerade artiklar på lagerplatser som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerplatser av typen *Plock* enligt FEFO.  
+>   -   Om du vill aktivera transporter enligt FEFO antingen i **lagerförflyttning** fönster eller **Transportkalkylark** fönstret, måste du lämna **Från binge** fältet tomt.  
+>   -   Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som inte har förfallit att tas med i plockningen. Detta gäller även om du inte använder plockning enligt FEFO.  
 
 ## <a name="see-also"></a>Se även  
 [Plocka artiklar](warehouse-pick-items.md)   

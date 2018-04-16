@@ -69,10 +69,10 @@ En mall innehåller en uppsättning rader där var och en representerar de analy
 4. I fönstret **Analyskolumner** fyller du sedan i fälten för att ange vilka kolumner som ska ingå i analysrapporten.  
 
     > [!NOTE]  
->   När du definierar en kolumn måste du fylla i fältet **Analystypkoder** för alla kolumntyper utom **Formel**. Du anger analystypkoder i fönstret **Analystyper**.  
+   >   När du definierar en kolumn måste du fylla i fältet **Analystypkoder** för alla kolumntyper utom **Formel**. Du anger analystypkoder i fönstret **Analystyper**.  
 
     **Obs**. Om du väljer **Artikeltransaktioner** i fältet **Artikeltransaktionstyp** kopieras utfallet från artikeltransaktionen. Om du väljer **Artikelbudgettransaktioner** kopieras de budgeterade siffrorna från budgeten.  
-5.  Välj **OK** för att spara ändringar.  
+5. Välj **OK** för att spara ändringar.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Så här skapar du analysradmallar  
 Följande procedur är baserad på en analysrapport för försäljning. Momentet är liknande för inköp och analysrapporter.
@@ -96,7 +96,7 @@ Du använder analysrapporter för att analysera försäljningsdynamiken efter ny
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
 2. I fönstret **Analysrapportförsäljning** väljer du åtgärden **Ny**.
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Redigera analysrapport**.
 5. I fönstret **Försäljningsanalysrapport** väljer du åtgärden **Visa matris**.  
 

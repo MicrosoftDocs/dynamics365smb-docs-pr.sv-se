@@ -39,7 +39,7 @@ När du uppdaterar eller avbryter en bokförd försäljningsfaktura gäller den 
 2. Markera den bokförda försäljningsfakturan som du vill korrigera.
 
     > [!NOTE]  
->   Om kryssrutan **Avbruten** kan du inte rätta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller annullerats.
+   >   Om kryssrutan **Avbruten** kan du inte rätta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller annullerats.
 3. I fönstret **Bokförd försäljningsfaktura** väljer du åtgärden **korrigera**.  
 4. En ny försäljningsfaktura med samma information skapas där du kan göra rättningen. Fältet **Avbruten** på den först bokförda försäljningsfakturan ändras till **Ja**.
 
@@ -51,7 +51,7 @@ När du uppdaterar eller avbryter en bokförd försäljningsfaktura gäller den 
 2. Markera den bokförda försäljningsfakturan som du vill annullera.
 
     > [!NOTE]  
->   Om kryssrutan **Avbruten** kan du inte avbryta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller annullerats.
+   >   Om kryssrutan **Avbruten** kan du inte avbryta den bokförda försäljningsfakturan, eftersom den redan har korrigerats eller annullerats.
 3. I fönstret **Bokförd försäljningsfaktura** väljer du åtgärden **Avbryta**.
 
     En försäljningskreditnota skapas automatiskt och bokförs för att makulera den ursprungligt bokförda försäljningsfakturan. Fältet **Avbruten** på den först bokförda försäljningsfakturan ändras till **Ja**.

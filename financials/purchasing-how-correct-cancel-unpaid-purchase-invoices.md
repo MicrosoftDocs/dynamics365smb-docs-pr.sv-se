@@ -31,7 +31,7 @@ I fönstret **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** elle
 2. Markera den bokförda inköpsfakturan som du vill korrigera.  
 
     > [!NOTE]  
->   Om kryssrutan **Avbruten** kan du inte rätta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.
+   >   Om kryssrutan **Avbruten** kan du inte rätta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.
 3. I fönstret **Bokförd inköpsfaktura** väljer du **korrigera**.
 
     En ny inköpsfaktura med samma information skapas där du kan göra rättningen. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md). Fältet **Avbruten** på den först bokförda inköpsfakturan ändras till **Ja**.
@@ -44,7 +44,7 @@ I fönstret **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** elle
 2. Markera den bokförda inköpsfakturan som du vill annullera.
 
     > [!NOTE]  
->   Om kryssrutan **Avbruten** kan du inte avbryta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.
+   >   Om kryssrutan **Avbruten** kan du inte avbryta den bokförda inköpsfakturan, eftersom den redan har korrigerats eller annullerats.
 3. I fönstret **Bokförd inköpsfaktura** väljer du **avbryt**.
 
     En inköpskreditnota skapas automatiskt och bokförs för att annullera den ursprungligt bokförda inköpsfakturan. Fältet **Avbruten** på den först bokförda inköpsfakturan ändras till **Ja**.

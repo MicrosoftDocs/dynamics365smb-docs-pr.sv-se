@@ -32,26 +32,26 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Så här skapar du en verksamhetsföljd  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Operationsföljder** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Ny**.  
-3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  I fältet **Typ**, markera **Seriell** för att beräkna produktionsverksamhetsföljden efter det värde som anges i fältet **Operationsnr**. .   
-    Välj **Parallell** för att beräkna operationerna enligt värdet i fältet **Nästa verksamhetsnr**. .  
-5.  Ställ in värdet i fältet **Status** till **Ny** eller **Under utveckling** om du vill redigera verksamhetsföljden. Aktivera den genom att ställa in fältet **Status** till **Godkänd**.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Operationsföljder** och välj sedan relaterad länk.  
+2. Välj åtgärden **Ny**.  
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. I fältet **Typ**, markera **Seriell** för att beräkna produktionsverksamhetsföljden efter det värde som anges i fältet **Operationsnr**. .   
+   Välj **Parallell** för att beräkna operationerna enligt värdet i fältet **Nästa verksamhetsnr**. .  
+5. Ställ in värdet i fältet **Status** till **Ny** eller **Under utveckling** om du vill redigera verksamhetsföljden. Aktivera den genom att ställa in fältet **Status** till **Godkänd**.  
 
-    Så här fyller du i verksamhetsföljdrader
-6.  I fältet **Operationsnr.** anger du numret för den första operationen, till exempel **10**.  
-7.  I fältet **Typ** anger du vilken typ av resurs som används (till exempel **Produktionsgrupp**).  
-8.  I fältet **Nr.** markerar du den resurs som ska användas (eller skriv in namnet direkt i fältet).  
-9.  I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. För mer information, se Så här skapar du en verksamhetsföljdslänk.
-10.  I fälten **Bearbetningstid** och **Omställningstid** anger du processtiderna som krävs för att genomföra operationen.  
+   Så här fyller du i verksamhetsföljdrader
+6. I fältet **Operationsnr.** anger du numret för den första operationen, till exempel **10**.  
+7. I fältet **Typ** anger du vilken typ av resurs som används (till exempel **Produktionsgrupp**).  
+8. I fältet **Nr.** markerar du den resurs som ska användas (eller skriv in namnet direkt i fältet).  
+9. I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. För mer information, se Så här skapar du en verksamhetsföljdslänk.
+10. I fälten **Bearbetningstid** och **Omställningstid** anger du processtiderna som krävs för att genomföra operationen.  
 
     > [!NOTE]  
     >  Omställningstiden beräknas per produktionsorder, och bearbetningstiden beräknas per producerad artikel.  
 
-11.  I fältet **Samtidiga kapaciteter**, ange hur många enheter av den markerade resursen som används för att utföra operationen. Till exempel halveras körtiden om två personer tilldelas till en förpackningsoperation.  
-12.  Fortsätt att fylla i rader för alla operationer som krävs för att producera den aktuella artikeln.  
-13.  Om du vill kopiera rader från en befintlig verksamhetsföljd klickar du på åtgärden **Kopiera verksamhetsföljd** och väljer de befintliga raderna.  
+11. I fältet **Samtidiga kapaciteter**, ange hur många enheter av den markerade resursen som används för att utföra operationen. Till exempel halveras körtiden om två personer tilldelas till en förpackningsoperation.  
+12. Fortsätt att fylla i rader för alla operationer som krävs för att producera den aktuella artikeln.  
+13. Om du vill kopiera rader från en befintlig verksamhetsföljd klickar du på åtgärden **Kopiera verksamhetsföljd** och väljer de befintliga raderna.  
 14. Godkänn verksamhetsföljden.  
 15. Nu kan du koppla den nya verksamhetsföljden till kortet för den aktuella produktionsartikeln genom att fylla i **verksamhetsföljdnr.**. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).  
 

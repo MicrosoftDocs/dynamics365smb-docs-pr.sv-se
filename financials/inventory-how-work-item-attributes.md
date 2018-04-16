@@ -30,7 +30,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 ## <a name="to-create-item-attributes"></a>Så här skapar du artikelattribut
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelattribut** och välj sedan relaterad länk.
 2. I fönstret **Artikelattribut** väljer du åtgärden **Ny**.
-3. I fönstret **Artikelattribut** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **Artikelattribut** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Om du väljer **Alternativ** i fältet **Typ** kan du välja åtgärden **Artikelattributvärden** för att markera eller skapa artikelattributvärden. Mer information finns i avsnittet "Att skapa artikelattributvärden av typen alternativ".  
@@ -38,7 +38,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Så här skapar du värden för artikelattribut av typen alternativ
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelattribut** och välj sedan relaterad länk.
 2. I fönstret **Artikelattribut** markerar du ett artikelattribut av typen **Alternativ** som du vill tilldela värden på, och väljer sedan åtgärden **Artikelattributvärden**.
-3. I fönstret **Artikelattributvärden** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I fönstret **Artikelattributvärden** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Så här tilldelar du ett artikelattribut till en artikel
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
@@ -67,7 +67,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 4. I fältet **Värde** väljer du sökknappen och väljer du ett befintligt artikelattributvärde att filtrera efter.
 
     > [!NOTE]  
->   Du kan bara välja värden direkt för artikelattribut som har fasta värden, till exempel färg. För artikelattribut, som har variabelvärden, till exempel bredd, måste du ange artikelattributvärdet, genom att först välja ett villkor. Se steg 5.
+   >   Du kan bara välja värden direkt för artikelattribut som har fasta värden, till exempel färg. För artikelattribut, som har variabelvärden, till exempel bredd, måste du ange artikelattributvärdet, genom att först välja ett villkor. Se steg 5.
 5. I fältet **Värde** ett variabelt artikelattribut väljer du sökknappen.
 6. I fönstret **Ange filtervärde** i fältet **Villkor** väljer du villkor med listpilen.
 7. I fältet **Värde** anger du ett attributvärde för att filtrera artiklar.
