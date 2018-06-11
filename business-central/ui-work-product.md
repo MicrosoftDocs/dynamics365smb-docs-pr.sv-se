@@ -1,7 +1,6 @@
 ---
 title: "Arbeta med allmänna funktioner i Business Centra | Microsoft Docs"
 description: "Beskriver de allmänna funktioner som du använder för att arbeta med data i Business Central, till exempel för att ange värden, sortera data och ändra vyer."
-services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -9,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2018
+ms.date: 06/057/2018
 ms.author: solsen
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
