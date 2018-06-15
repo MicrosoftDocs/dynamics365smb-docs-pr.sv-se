@@ -1,1 +1,1 @@
-<span data-ttu-id="a33e6-101">Välj ett fält om du vill få en kort beskrivning av fältet eller länken till mer information.</span><span class="sxs-lookup"><span data-stu-id="a33e6-101">Choose a field to read a short description of the field or link to more information.</span></span>
+<span data-ttu-id="ddac6-101">Placera markören över ett fält om du vill läsa en kort beskrivning.</span><span class="sxs-lookup"><span data-stu-id="ddac6-101">Hover over a field to read a short description.</span></span>
