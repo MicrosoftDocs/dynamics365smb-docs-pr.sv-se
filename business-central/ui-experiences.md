@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 03/16/2018
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f1c5b49185621a960c84e599bbd267bd534a3730
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 0a94d94e58b2aa3f04639a00904b5370c91b1132
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
-# <a name="customizing-your-included365finincludesd365finmdmd-experience"></a>Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse
+# <a name="changing-which-features-are-displayed"></a>Ändra vilka funktioner som visas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad för att hjälpa dig att köra din verksamhet oavsett vilken verksamhet som du befinner dig i. I kärnan av [!INCLUDE[d365fin](includes/d365fin_md.md)] hittar du ekonomisk rapportering och försäljning-s och inköpsprocesser. Du lägger till upplevelser till detta i enlighet med dina företagsbehov genom att lägga till tillägg från AppSource eller genom att ändra upplevelseinställningen för ditt företag. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av tillägg](ui-extensions.md) eller avsnittet "Välja en användarupplevelse för att visa eller dölja funktioner" nedan.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Om du väljer ett användargränssnitt för att visa eller dölja funktioner
@@ -36,10 +36,33 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 | **Premium** |Visar alla åtgärder och fält för alla företagsfunktioner, till exempel produktion och service.|
 
 > [!NOTE]  
-> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365. 
+> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365.
+
+> [!IMPORTANT]  
+> Alla vanliga användare i en lösning måste tilldelas samma plan Essential eller Premium, innan den miljön kan väljas för företaget. En användare kan inte därmed öppna Premium-funktioner om en eller flera användare kan endast åtkomst Essential-funktioner. Detta gäller inte för ej vanliga användare av typen gruppmedlem, intern administration, extern revisor och delegerad administratör, som var och en tilldelas ett annat schema än andra användare i lösningen.
+
+## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivera Premium-funktioner när du har uppgraderat en Plan
+Användare som är tilldelade till planer i Office 365 administratörscentret i samband med det allmänna arbetet som Business Central användare skapar. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
+
+Du kan definiera vilka funktioner och fönster inom miljön som de användare som ska ha tillgång genom att tilldela behörighetsgrupper. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
+
+### <a name="to-update-plan-changes-in-users-groups"></a>Uppdatera planändringar i användargrupper
+När du har gjort en ändring i planer för användare i Office 365 administratörscentret, såsom tilldelat premiumplanen till flera användare, måste du visa ändringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+1. Logga in som en administratör.
+2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
+3. I fönstret **Användare** välja åtgärden **Uppdatera alla användargrupper**.
+
+All ny information om användares planer och deras tilldelade användargrupper har nu uppdaterats enligt ändringarna i planen.
+
+### <a name="to-select-the-premium-experience"></a>För att välja Premium-upplevelsen.
+Du kan nu fortsätta med att välja den nya miljön.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Företagsinformation** och välj sedan relaterad länk.
+2. I fönstret **FöretagsInformation** på snabbfliken **användarupplevelse** väljer du fältet **upplevelse**.
 
 ## <a name="see-also"></a>Se även
 [Skapa nya företag](about-new-company.md)  
+[Hantera användare och behörigheter](ui-how-users-permissions.md)    
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

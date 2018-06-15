@@ -10,21 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97c93fbd4d879e137e6c0d0233c652b21f5328e5
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 02f063daf5afeea85832c8a322183b3db120d8d2
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
 I fönstret **Betalningsjournal** kan du använda batch-jobbet **Föreslå leverantörsbetalning** för att föreslå betalningsrader. Rader för saker som t.ex. betalningar som förfaller snart eller betalningar där en kassarabatt finns tillgänglig föreslås utifrån dina inställningar.
 
-För att dra full nytta av de föreslagna raderna, måste du prioritera leverantörerna. Mer information finns i [Så här prioriterar du leverantörer](purchasing-how-prioritize-vendors.md).  
+För att dra full nytta av betalningsförslagen, måste du prioritera leverantörerna. Mer information finns i [Så här prioriterar du leverantörer](purchasing-how-prioritize-vendors.md).  
 
-Leverantörstransaktioner som inte är **stoppade** ingår inte.  
+> [!NOTE]  
+> Leverantörsreskontratransaktioner som är **Stoppade** tas inte med i batch-jobbet.  
 
 > [!IMPORTANT]  
 >   Om du vill utnyttja kassarabatterna och har angett ett disponibelt belopp, används beloppet för:  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -28,29 +28,29 @@ Kortkommandona stöds av de flesta webbläsare, beteendet kan dock variera någo
 
 Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.
 
+De flesta av dessa genvägar är desamma oavsett om operativsystemet är Windows- eller macOS. Det finns dock några kortkommandon som är olika för macOS. Dessa anges i parantesen i tabellerna i följande avsnitt.
+
 ##  <a name="Keyboard"></a> Allmänna kortkommandon
-I följande tabell beskrivs kortkommandon för navigering och åtkomst till olika delar av en sida, till exempel åtgärder, listrutor, sökningar och mycket mer. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt. 
+I följande tabell beskrivs kortkommandon för navigering och åtkomst till olika delar av en sida, till exempel åtgärder, listrutor, sökningar och mycket mer. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
 |Tryck på dessa tangenter|Om du vill|  
 |----------------|-----------|  
-|Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.| 
+|Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|   
 |Enter|Aktivera eller nå elementet eller kontrollen som är i fokus.|   
 |Alt+nedpil|Öppna en listruta eller leta upp ett värde för ett fält.|    
 |Alt+Högerpil|Se de transaktioner som resulterade i ett beräknat värde i ett fält.|  
+|Esc|Stäng den aktuella sidan eller listan.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
 I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. Genvägsåtgärden skiljer sig något beroende på om sidan visas som listvy eller sida vid sida.
 
-De flesta av dessa genvägar är desamma oavsett om operativsystemet är Windows- eller macOS. Det finns dock några kortkommandon som är olika för macOS respektive Windows. Dessa anges också i parantes i tabellen.
+> [!Note]
+> I tabellen nedan refererar begreppet *genomförandefält* till ett fält där du kan göra något, till exempel ändra ett värde eller en länk till en annan sida. Generellt sett kommer genvägarna att hoppa över fält som visar information som du inte kan ändra i listan (d.v.s. fält som är skrivskyddade).
 
->[!Note]
->I tabellen nedan refererar begreppet *genomförandefält* till ett fält där du kan göra något, till exempel ändra ett värde eller en länk till en annan sida. Generellt sett kommer genvägarna att hoppa över fält som visar information som du inte kan ändra i listan (d.v.s. fält som är skrivskyddade).
-
-
-|Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en lista |Anmärkningar|
+|Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |Anmärkningar|
 |-----------------|-------|-------|-------|
 |Uppil|Flytta till fältet i raden ovanför i samma kolumn| I samma kolumn, flytta till panelen i raden ovanför  |  | 
 |Nedpil|Flytta till fältet i raden nedanför i samma kolumn. |I samma kolumn, flytta till panelen i raden nedanför. | |
@@ -75,8 +75,25 @@ De flesta av dessa genvägar är desamma oavsett om operativsystemet är Windows
 |Shift+Page Down<br />(Shift+Fn+nedpil)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart||
 |Ctrl+Enter|Flytta fokus till nästa element utanför listan.|Flytta fokus till nästa element utanför listan.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Kortkommandon i kalendern (datumväljare)
+När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
+
+|Tryck på dessa tangenter<br />(i macOS)|Om du vill|
+|-----------------|-------|
+|Page Up|Flytta till föregående månad|  
+|Page Down|Flytta till nästa månad|
+|Ctrl+Home|Öppna kalendern om stängd.|
+|Ctrl+Home<br />(Cmd+Start)|Flytta till aktuell månad, aktuell dag.|
+|Ctrl+Vänsterpil<br />(Cmd+Vänsterpil)|Flytta till föregående dag.|
+|Ctrl+Högerpil<br />(Cmd+Högerpil)|Flytta till nästa dag|
+|Ctrl+Uppil<br />(Cmd+uppil)|Flytta till föregående vecka, samma dag i veckan.|
+|Ctrl+Nedpil<br />(Cmd+nedpil)|Flytta till nästa vecka, samma dag i veckan.|
+|Enter|Välj fokuserat datum.|
+|Ctrl+End<br />(Cmd+End)|Stäng kalendern och ta bort aktuellt datum.|
+|Esc|Stäng kalendern utan markering, behåll aktuellt datum.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 03/21/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fb4496359d76f6dbb23cfdffbcf60402bf8414a8
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -46,7 +46,7 @@ Fönstret Rollcenter baseras på en rollcentrerad design som ger dig snabb åtko
 Varje Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterad konfiguration som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **Grundläggande** upplevelsen ger åtkomst till färre än vad **Vital**-upplevelsen gör. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).  
+>   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **Grundläggande** upplevelsen ger åtkomst till färre än vad **Vital**-upplevelsen gör. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
 
 I fönstret **Assisterad konfiguration** hittar du följande i **Vital**-upplevelsen:
 

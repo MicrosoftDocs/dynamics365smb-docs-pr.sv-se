@@ -1,8 +1,6 @@
 ---
 title: Skapa kontaktpersoner | Microsoft Docs
 description: "Beskriver uppgiften om du vill skapa ett kontaktkort för en person, t.ex. en potentiell kund eller leverantör som bidrar till att definiera relationen och skräddarsy kommunikationen."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3701bf4f4470b84d05ce8f7a7686a6b8d37b7025
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="creating-contact-persons"></a>Skapa kontaktpersoner
@@ -40,6 +38,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  
-[Skapa och hantera kontakter]()  
+[Skapa kontaktpersoner](marketing-create-contact-persons.md)  
+[Använda profilfrågeformulär för att klassificera affärskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbeta med Business Central](ui-work-product.md)
 

@@ -10,25 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 08/10/2017
+ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ffd3b31dcef871ceb30eae6a041f68a4972b2cb
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="managing-receivables"></a>Hantera kundreskontra
-En vanlig steg i alla finansiella takter är att stämma av bankkonton, som kräver att du kopplar betalningar till kund- eller leverantörsreskontratransaktioner för att stänga försäljningsfakturor och inköpskreditnotor.  
+En vanlig steg i alla finansiella takter är att stämma av bankkonton, som kräver att du kopplar inkommande betalningar till kund- eller leverantörsreskontratransaktioner för att stänga försäljningsfakturor och inköpskreditnotor när de betalas.
+
+Även om de flesta kunder i B2B-miljöer betalar ett tag efter leverans lämnar bokförda försäljningsfakturor öppna för kundreskontraavdelningen att stänga (koppla) när betalningen tas emot, vissa försäljningsfakturor kan betalas direkt, till exempel med PayPal. Sådana fakturor tillämpas omedelbart som betalda när de bokförs och därför visas de inte som betalningar som ska behandlas i KR. Mer information finns i t.ex. [Fakturera försäljning](sales-how-invoice-sales.md).  
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], är ett av de snabbaste sätten att registrera betalningar från fönstret **Betalningsavstämningsjournal** genom att importera en bankutdragsfil feed. Betalningarna används för att öppna leverantörs- eller kundreskontratransaktioner baserat på datamatchningar mellan betalningstexten och transaktionsinformation. Du kan granska och ändra matchningrana innan du bokför journalen och avsluta bankkontotransaktioner för transaktioner när du bokför journalen. Bankkontot avstäms när alla utbetalningar kopplas.
 
-Det finns dock andra praktiska ställen för att tillämpa betalningar och stämma av bankkonton:  
+Det finns andra fönster där du kan koppla betalningar eller stämma av bankkonton:
 
-* Fönstret **Bankkontoavstämningar** låter dig kontrollera transaktionerna. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md).  
-* Fönstret **Betalningsregistrering** där du kan tillämpa och manuellt kontrollera betalningar som tas emot som kontanter, check eller banktransaktion mot en skapad lista över obetalda försäljningsdokument. Observera att den här funktionen endast är tillgänglig för försäljningsdokument.  
-* Fönstret **Inbetalningsjournal** där du kan manuellt bokföra kvitton till relevant redovisning, kund eller annat konto, genom att ange en betalningsrad. Du kan antingen använda kvittot eller återbetalningen till en eller flera öppna transaktioner, innan du bokför inbetalningsjournalen, eller från kundtransaktionerna.  
+* Fönstret **Bankkontoavstämningar**, där du stämmer av bankkonton genom att matcha importerade bankutdragsrader med dina systembankkontotransaktioner. Här kan du stämma av checkbetalningar. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md). Här kan du inte använda betalningar.
+* Fönstret **Betalningsregistrering** där du kan tillämpa och manuellt kontrollera checkbetalningar som tas emot som kontanter, check eller banktransaktion mot en skapad lista över obetalda försäljningsdokument. Observera att den här funktionen endast är tillgänglig för försäljningsdokument. Du kan inte använda utgående betalningar här, och du kan inte stämma av bankkonton.
+* Fönstret **Inbetalningsjournal** där du kan manuellt bokföra kvitton till relevant redovisning, kund eller annat konto, genom att ange en betalningsrad. Du kan antingen använda kvittot eller återbetalningen till en eller flera öppna transaktioner, innan du bokför inbetalningsjournalen, eller från kundtransaktionerna. Här kan du inte stämma av bankkonton.  
 
 En annan del i hanteringen av kundfordringar är att kräva in utestående saldon inklusive dröjsmålsränta och skicka betalningspåminnelser. [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder sätt att göra detta också. Mer information finns i [Så här kräver du in utestående saldon](receivables-collect-outstanding-balances.md).  
 

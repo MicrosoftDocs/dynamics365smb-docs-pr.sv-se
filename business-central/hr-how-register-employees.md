@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0d9ddcb6ee4dfa615d4bd628bc369967b11e5a8c
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="register-employees"></a>Registrera personal
@@ -60,5 +60,5 @@ Du kan använda alternativa adresser för att hålla reda på var de anställda 
 [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)
+[Ändra vilka funktioner som visas](ui-experiences.md)
 

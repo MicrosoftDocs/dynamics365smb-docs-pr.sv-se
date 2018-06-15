@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
@@ -76,7 +76,7 @@ För att få en rationell tillförselplan finjusterar en planerare planeringspar
 |---------------------------------|---------------------------------------|  
 |**Omplaneringsperiod**|Detta fält används för att bestämma om åtgärdsmeddelande ska ändra tidpunkten för en befintlig order eller avbryta den och skapa en ny order. Den befintliga ordern omplaneras i en omplaneringsperiod före den aktuella leveransen och till en omplaneringsperiod efter den aktuella leveransen.|  
 |**Partiackumuleringsperiod**|Med partiformningsmetoden Parti-för-parti används detta fält för att ackumulera flera leveransbehov till en leveransorder. Från den första planerade tillgången samlas alla tillgångsbehov i den följande partiackumuleringsperioden i en tillgång, som placeras på datumet för den första tillgången. Efterfrågan utanför partiackumuleringsperioden omfattas inte av den här leveransen.|  
-|**Utjämningsperiod**|Detta fält används för att undvika mindre omplanering av befintlig leverans ut i tid. Ändringar från leveransdatum till en utjämningsperiod från leveransdatum skapar inga åtgärdsmeddelanden.<br /><br /> Som ett resultat kommer en positiv delta mellan det föreslagna nya leveransdatumet och det ursprungliga leveransdatumet alltid att vara större än den utjämningsperioden.|  
+|**Utjämningsperiod**|Detta fält används för att undvika mindre omplanering av befintlig leverans ut i tid. Ändringar från leveransdatum till en utjämningsperiod från leveransdatum skapar inga åtgärdsmeddelanden.<br /><br /> Den max. avvikelseperioden anger en tidsperiod då du inte vill att planeringssystemet ska föreslå omplanering av befintliga leveransorder framåt. Den begränsar antal obetydliga omplaneringsförslag för befintliga leveranser till ett senare datum om det omplanerade datumet ligger inom den maximala avvikelseperioden.<br /><br /> Som ett resultat kommer en positiv delta mellan det föreslagna nya leveransdatumet och det ursprungliga leveransdatumet alltid att vara större än den utjämningsperioden.|  
 
 Tidsplaneringen av omplaneringsperioden, utjämningsperiod och partiackumuleringsperioden baseras på ett leveransdatum. Tidsenheten baseras på planeringsstartdatumet, som visas i följande illustration.  
 

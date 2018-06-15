@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 293db25c6ab3ea2a70d9bb1d3e24383dbc0ee5c6
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: ae4695029c3bcb125b533cf4ad089f791ff80680
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
@@ -32,6 +32,6 @@ Om du vill ange en ankommande lagerhanteringstid som ska tas med i orderlöftesb
 [Lagerinställning](inventory-setup-inventory.md)  
 [Hantera lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
+[Ändra vilka funktioner som visas](ui-experiences.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

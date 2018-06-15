@@ -10,69 +10,72 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/02/2017
+ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5f3557de5d69b8f64f85fabe4a60ecbddef276eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a86d58c81bdee20ffd33273ca069d9fae640df96
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utökning av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Det finns många fördelar med att använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en plattform för programverktyg:
+Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] är ett verksamhetssystem som hjälper företag att ansluta sin ekonomi, försäljning, service och åtgärder för att anpassa affärsprocesserna, öka kundkontakter och fatta bättre beslut. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] finns i molnet och över flera olika enheter, som alltid är aktuella. Med den här moderna företagsplattformen du kan snabbt och enkelt anpassa, utöka och skapa program så att de passar dina behov, med liten eller ingen kodutveckling.  
 
-* Utöka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], en beprövad Microsoft online-lösning med dina kunskaper  
-* Utnyttja varumärket Business Central - ett varumärke som miljontals användare känner till och litar på  
-* Nå fler kunder till dina affärsprogram med [Microsoft AppSource](https://appsource.microsoft.com/)  
+Det finns många fördelar med att använda [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en plattform för programverktyg, vilket omfattar:
+
+* Kom igång utan problem via en integrerad inledande upplevelse 
+* Använd Microsofts gå till marknadstjänsterna
+* Anpassa din sida för applista 
+* Ansluta direkt till beslutsfattare och nå fler kunder
+* Förbättra affärsvärdet och öka affärens storlek med befintliga och nya kunder
 * Uppnå mer med en plattform som ger en modern upplevelse och erbjuder skalning  
+* Skaffa tillförlitlig information om dina listors prestanda via molnpartnerportalen eller publiceringsprocessen för Office-program
 * Samla intelligent business-program som t.ex. PowerApps, Flow, Power BI, Cortana Intelligence och mycket mer  
 
-## <a name="to-bring-your-included365finincludesd365finmdmd-app-into-appsource"></a>Hämta din [!INCLUDE[d365fin](includes/d365fin_md.md)]-app i AppSource:
-+ Skapa konton  
-Vi vill att du ska ha tillgång till alla nödvändiga verktyg. Du måste ha en Microsoft Partner Network-ID, ett utvecklarkonto och ett PSBC-konto.
-Mer information om hur du får dina konton på plats finns i dokumentet [Skapa dina konton.pdf](https://go.microsoft.com/fwlink/?linkid=841514) från Download Center.
+Ta dina [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tjänster till Microsoft-AppSource som: 
 
-+ Samarbeta med oss om din app-idé  
-Dela din [!INCLUDE[d365fin](includes/d365fin_md.md)]-app med oss på Microsoft AppSource! När du skickar en idé, samarbetar vi med dig och ger dig allt du behöver för att börja arbeta med din app.
-Mer information om alla åtgärder finns i dokumentet [Samarbeta med oss om din app-idé.pdf](https://go.microsoft.com/fwlink/?linkid=841515) från Download Center.
+**Enskilda program**, där du tar dina expertkunskaper till marknaden.  
+**Förpackade konsulttjänster**, där du kan hämta färdiga förpackade åtaganden till marknaden.
 
-+ Utveckla tekniska aspekter av din app    
-När du har skapat din egna apputvecklingsmiljö kan du utveckla din app.
-Mer information om allt du behöver veta om hur du utvecklar tekniska aspekter av din [!INCLUDE[d365fin](includes/d365fin_md.md)]-app finns i dokumentet [utveckla de tekniska aspekterna av din app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) från Download Center.
+Ny utvecklingsverktyg för att du ska kunna skapa tillägg för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-användare. Om du vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
-+ Utveckla marknadsföringsaspekter av din app  
-Att bara ange appens egenskaper och funktioner kommer inte att konvertera potentiella kunder till köpare. Mer information om hur du bäst marknadsför din app i AppSource marketplace finns i dokumentet [utveckla marknadsföringsaspekter av din app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) från Download Center.
+Sök efter information om program- och konsulttjänster som finns på [Microsoft AppSource ](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-+ Publicera din app  
-Innan vi publicerar samarbetar vi med dig och ser till att din app sticker ut på Microsoft AppSource och din egen landningssida. Vi måste validera din app för att se till att den marknadsförs är säker och uppdaterad.
-Mer information om valideringen och hur du publicerar din app finns i dokumentet [Publicera din app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) från Download Center.
+För att snabbt komma igång för företagsanvändare har Microsoft lagt till en katalog av konsulttjänsterbjudanden för lösningar som baseras på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI och PowerApps till AppSource. Mer information om [konsulttjänster](/dynamics-nav/developer/readiness/readiness-consulting).
 
-## <a name="learn-more-about-extensions-v20"></a>Få mer information om tillägg v2.0
-De nya utvecklingsverktygen, som gör det möjligt för dig att skapa tillägg v2.0, granskas för närvarande och aktiveras snart i Business Central-tjänsten. Om du redan vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+## <a name="choosing-which-services-to-offer-with-included365finlongincludesd365finlongmdmd"></a>Välja vilka tjänster att erbjuda med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] 
 
-## <a name="need-help"></a>Behöver du hjälp?
-Om du vill ha hjälp kan du kontakta du en app-expert från följande lista:
+### <a name="integrate-a-3rd-party-solution"></a>Integrera en 3:e parts lösning
+[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] innehåller många API:er som är klara att använda för [ansluta appar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) så att integreringen mellan din tjänst och [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] blir sömlös. Du kan samla dina tjänster med en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] och ge dina kunder en integrerad upplevelse. Mer information om [integrera en 3:e parts lösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
 
-* Cloud Ready-programvaran, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
-* Dynamics App Alliance, [http://dynamicsappalliance.com](http://dynamicsappalliance.com/)
+### <a name="development-of-a-vertical-solution"></a>Utveckling av en vertikal lösning
+Skapa ett program som är specialiserat inom en viss bransch. Med [Inbädda app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps), kan du utöka och anpassa de befintliga [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-programmen och utöka slutanvändarmiljön med en branschspecifika funktioner med hjälp av nya och moderna utvecklingsverktyg och tillägg version 2.0. Mer information om [utveckling av en vertikal lösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
 
-Partner i den här listan:
+### <a name="development-of-a-horizontal-solution"></a>Utveckling av en horisontell lösning
+Utöka miljön och möjligheten för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] genom att skapa en [tilläggsapp](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) som kan integreras i gränssnittet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Skapa ett gränssnitt, baserat på hur du vill att informationen flödar mellan [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] och dina tjänster. Mer information om [utveckling av en horisontell lösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal). 
 
-* Visas i alfabetisk ordning  
-* Hjälper eller har gett stöd till minst tre partner med att hämta appar till Microsoft AppSource  
-* Har förpackningstjänst (och finns i listan på webbplatsen) om appens riktlinjer  
+### <a name="development-of-a-localization-solution"></a>Utveckling av en lokaliseringslösning
+Följ lokala regleringsmöjligheter genom att utveckla för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], som anpassar funktionsområden till kraven på den lokala marknaden tillsammans med [Dynamics 365 översättningstjänst](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Justera de grundläggande funktionerna i lokala krav och utöka befintliga funktioner om du vill konkurrera på den lokala marknaden. Mer information om [utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
-Om du anser att du bör finnas med på listan som enn app-servicepartner kan du kontakta [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+### <a name="reseller-solution"></a>Lösning för återförsäljare
+Eftersom alla företag är unika, med [anpassa klientorganisationer](/dynamics-nav/developer/readiness/readiness-customizing-tenants), kan du matcha hur du arbetar med dina effektiva processer, din terminologi och hur dina anställda eller avdelningar ansluter och samarbetar. Dessutom kan du sälja och justera [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] till dina kunders individuella behov genom att tillhandahålla [konsulttjänster](/dynamics-nav/developer/readiness/readiness-consulting). Eller använd Microsoft Flow, Power Apps och Power BI för att skapa [anpassade arbetsflöden](/dynamics-nav/developer/readiness/readiness-no-code), appar och affärsinsiktsrapporter utan att behöva skriva kod. Mer information om [Dynamics 365 återförsäljare (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller). 
 
-## <a name="questions"></a>Frågor?
-Dessa [vanliga frågor](https://go.microsoft.com/fwlink/?linkid=841520) svarar på de vanligaste frågorna som du kanske har om appar för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Om du har fler frågor får du gärna kontakta en lokal Microsoft-representant eller e-posta [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+## <a name="where-do-i-learn-more"></a>Var får jag mer information?
+Välj länkarna nedan om du vill veta mer om Microsoft AppSource konsulttjänsterbjudanden: 
 
-## <a name="further-resources"></a>Övriga resurser
-Du hittar ytterligare resurser för utveckling av appar i vår [DLP-ämnessida](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-ämnessida. Det finns några markerade kommentarer nedan:
--   [Användarregistrering och efterföljande fakturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+[AppSource konsulttjänsterbjudanden](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[Partnerlämplighet](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
+[Partnerutnämningsformulär](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
 
+## <a name="the-ready-to-go-program"></a>Redo att köra-programmet
+Redo att köra-programmet är utformat för att ge dig stöd avseende Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-erbjudanden i Microsoft-Appsource. Programmet innehåller: 
 
+- [Onlineutbildning](http://aka.ms/ReadyToGoOnlineLearning)
+- [Utbildning och seminarier](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
+- [Microsoft Collaborate-plattform](http://aka.ms/Collaborate)
+
+Mer information om hur du skapar ett [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-erbjudande finns i [Redo att köra-programmet](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) information. Om du har frågor eller kommentarer om **Redo att köra**-programmets erbjudande kan du [Kontakta oss](mailto:dyn365bep@microsoft.com). 
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  

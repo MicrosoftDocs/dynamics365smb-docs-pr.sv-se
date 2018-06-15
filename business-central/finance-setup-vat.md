@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Om du vill skapa momsregistreringsnummer, gör då så här:
 2. Välj land eller region, och välj sedan åtgärden **Format för momsreg.nr.**.
 3. I fältet **Format** anger du formatet genom att ange ett eller flera av följande tecken:  
 
-    |----|----| | # | Kräver ett tal med en enda siffra. | | @ | Kräver en bokstav. Dessa är inte skiftlägeskänsliga. | | ? | Alla tecken tillåtna. |
+* # <a name="--requires-a-single-digit-number"></a>- Kräver ett tal med en enda siffra.
+* @ - Kräver en bokstav. Dessa är inte skiftlägeskänsliga.
+* ? - Alla tecken tillåtna.
 
     > [!Tip]
     > Du kan använda andra tecken förutsatt att dessa förekommer i landets/regionens format. Om du till exempel behöver inkludera en punkt eller ett bindestreck mellan olika uppsättningar siffror kan du exempelvis definiera formatet som ##. ####. ### eller @@-###-###.  

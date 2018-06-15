@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändra grundinställningar
-I fönstret **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I fönstret **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
 ## <a name="role-center"></a>Rollcenter
-Rollcentret representerar startsidan och har utformats för rollens behov. Rollcentret ger dig en översikt över verksamheten som återspeglar information, uppgifter och prioriteringar för din roll.
+Rollcentret representerar startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
 
-Längst upp i Rollcentret visas navigeringsfältet som ger dig snabb åtkomst till typiska enheter för rollen, till exempel kunder, leverantörer, artiklar och så vidare.
+-   Längst upp låter navigeringen dig växla mellan kunder, leverantörer, artiklar och andra viktiga listor med information. På samma sätt kan du starta aktiviteter, såsom skapa en ny försäljningsfaktura direkt från Rollcentret.
 
-Det som visas i det huvudsakliga innehållsområdet beror på det specifika rollcentret. I de flesta rollcenter finns exempelvis de aktivitetspaneler som visar aktuella data och som kan klickas eller tryckas på för enkel åtkomst till det markerade dokumentet. Nyckelindikatorer kan ställas in att visa ett valt diagram för en visuell representation av till exempel kassaflöde eller intäkter och kostnader. Vissa rollcenter låter dig skapa en lista över dina favoritenheter som exempelvis kunder och leverantörer, eller att visa rapport-inkorgen.
+-   I centret hottar du **Aktiviteter**. Aktiviteter visar aktuella data och kan klickas om du vill ha mer detaljerad information. Nyckelindikatorer kan ställas in att visa ett valt diagram för en visuell representation av till exempel kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över favoritkunder på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
 
 ### <a name="to-change-role-center"></a>Så här ändrar du rollcentret
 Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål.
@@ -55,10 +55,16 @@ Standardarbetsdatumet är vanligen dagens datum. För att utföra uppgifter som 
 ## <a name="region"></a>Region
 Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.   
 
+
+## <a name="language"></a>Språk
+Ändra displayspråk. Det här fältet visas bara om det finns flera språk att välja mellan. 
+
+Startspråket bestäms antingen av administratören eller i webbläsaren när du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det språk som du anger används för alla enheter som du loggar in från, till exempel en telefon eller surfplatta. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Ändra när jag får meddelanden
 Välj den här länken för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Mer information finns i [Smarta meddelanden](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
+[Ändra vilka funktioner som visas](ui-experiences.md)  
 

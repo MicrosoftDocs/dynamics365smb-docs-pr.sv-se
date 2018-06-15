@@ -1,1 +1,1 @@
-Välj ett fält om du vill få en kort beskrivning av fältet eller länken till mer information.
+Placera markören över ett fält om du vill läsa en kort beskrivning.

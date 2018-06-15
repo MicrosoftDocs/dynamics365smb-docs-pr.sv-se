@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 09/22/2017
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 41788b3fb69c9294990a06643e855f4082c750ab
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: a1910acdfb80de7a7e6a4d1b701bf1108b384996
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimikrav för att använda Business Central
@@ -36,6 +36,9 @@ Innan du öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)], bör du kontroller
 **Outlook-program:** För att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook, behöver du Outlook 2013 eller senare, Outlook Web App, OWA för iPhone, OWA för iPad, eller OWA för Android.  
 **Webbläsare:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook Web App (OWA), kräver tilläggsprogrammet att datorn kör någon av de angivna webbläsarna i listan över webbläsare som stöds i Project “Madeira”.  
 **Plattformar:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In i OWA för iPhone, OWA för iPad och OWA för Android, kräver tilläggsprogrammet att den mobila enheten kör någon av de angivna mobila enheter som stöds för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## <a name="excel"></a>Excel
+**Redigera i Excel:** För att använda Excel-tillägget för att göra ändringar i Excel och sätta tillbaka ändringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)], behöver du Excel 2016 eller senare. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  

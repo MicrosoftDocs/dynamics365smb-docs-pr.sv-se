@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Tillägget Microsoft Pay till [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ Tillägget Microsoft Pay ger följande fördelar:
 - Kundutbetalningar visas snabbare på ditt bankkonto.
 - Kunder har flera sätt att betala fakturor.
 - Microsoft Pay har en trovärdig betalningtjänst, som kunder föredrar istället för att ange information om kreditkort på okända webbplatser.
-- Microsoft Pay erbjuder flera sätt för att hantera betalningar, inklusive bearbetning av kreditkort, WePay, PayPal och andra källor.
+- Microsoft Pay erbjuder flera sätt för att hantera betalningar, inklusive bearbetning av kreditkort, PayPal och Stripe.
 - Microsoft Pay-länken bäddas in automatiskt på alla fakturadokument eller av användaren.
 - Eftersom den här funktionen ingår som ett tillägg får du fullständig behörighet att aktivera den när och om dina affärsprocesser kräver det..
 

@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 737f88078829a8cf9c3e71d2a16ae349f8f30f8e
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 814b3295fdd7a719ce9de9d7da5f1ac0b66a4bfe
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="fixed-assets"></a>Anläggningstillgångar
@@ -50,7 +50,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 ## <a name="see-also"></a>Se även
 [Ställa in anläggningstillgångar](fa-setup.md)  
-[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)  
+[Ändra vilka funktioner som visas](ui-experiences.md)  
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

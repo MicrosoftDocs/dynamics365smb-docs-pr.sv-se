@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/03/2018
+ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
-ms.openlocfilehash: 4b645c2db215d08d7bf483c3d728359d8e224062
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: b3a3c4067c40ff2911c368cc97c94404b9dd66e2
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="sell-products"></a>Sälja produkter
@@ -29,11 +29,15 @@ När kunden har bekräftat avtalet, till exempel efter en offertprocess, skickar
 
 När du har levererat produkterna, antingen helt eller delvis, bokför du försäljningsordern som levererade eller som levererade och fakturerade för att skapa kundreskontratransaktioner i systemet. När du bokför försäljningsorder, kan du också e-posta dokument som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av ordern och betalningsinformationen, till exempel en länk till PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-I affärsmiljöer där kunden måste betala för produkter i förväg måste du vänta på kvittot på betalning innan du levererar produkterna. I de flesta fall behandlar du inkommande betalningar några veckor efter leverans, genom att koppla betalningarna till dess relaterade obetalda bokförda försäljningsfakturor. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+I företagsmiljöer där kunden betalar en tid efter leveransdatum enligt betalningsvillkor, en bokförd försäljningsfaktura förblir öppen (obetalda) till Kundreskontraavdelningen verifierar att betalning tagits emot och gäller betalningen för den bokförda försäljningsfaktura. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+
+I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller kontanter, betalningen bokförs direkt när du bokför försäljningsordern som fakturerad, d.v.s. stängs den bokförda försäljningsfakturan som i sin helhet. Du väljer relevant metod i fältet **Kod för betalningsmetod** på försäljningsordern. Se under steg 8. För elektroniska betalningar såsom PayPal, måste du även fylla i fältet **betalningstjänst**. Mer information finns i [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
+
+Du kan även skapa direktbetalade order för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsorder. Mer information finns i [Skapa kontantkunder](finance-how-to-set-up-cash-customers.md).
 
 Det är enkelt att rätta eller avbryta en bokförd försäljningsfaktura som härrör från en försäljningsorder, innan den har betalas. Det är användbart om du vill rätta till ett skrivfel eller om du kunden göra en ändring tidigt i orderprocessen. Mer information finns i [Så här kan du korrigera eller annullera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md). Om den bokförda försäljningsfakturan betalas, måste du skapa en försäljningskreditnota för att återföra försäljningen. Mer information finns i [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md).
 
-Artiklar kan vara både lagerartiklar och tjänster, betecknade med typerna **objekt - lager** och **objekt - tjänst** på försäljningsraderna. Försäljningsorderprocessen är samma för båda artikeltyper. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
+Artiklar kan vara både lagerartiklar och tjänster, betecknade med typerna **Lager** och **Tjänst** på artikelkortet. Försäljningsorderprocessen är samma för båda artikeltyper. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
 
@@ -53,6 +57,9 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
     Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.
 8. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    > [!NOTE]  
+    > Om du tillåter att kunden betalar direkt, till exempel via kreditkort eller PayPal, fyll sedan i fältet **betalningssätt**. Betalningen registreras sedan när du bokför försäljningsordern som fakturerad. Om du väljer kontant registreras betalning på ett angivet motkonto.
+
     Du är nu redo att fylla i Försäljningsorderraderna med lagerförda artiklar eller tjänster som du vill sälja till kunden.
 
     Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.
@@ -69,7 +76,7 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 
     Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på offertraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Ange en text i fältet **Beskrivning** på en tom rad för att lägga till en kommentar om offertraden som kunden kan se på den utskrivna offerten.  
-13. Upprepa moment 9 till 12 för varje artikel som du vill att erbjuda kunden.
+13. Upprepa moment 9 till 12 för varje artikel som du vill att sälja till kunden.
 
     Summorna under raderna beräknas automatiskt när du skapar eller ändrar rader.
 14. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/12/2018
+ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
-ms.openlocfilehash: 34c5b47885e82e6dc2985fabb8a4c202ede9c0f9
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 2e5f27c156fd02641d65a4653c51553664c2322c
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
@@ -32,9 +32,9 @@ Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan o
 
 Om kunden bestämmer sig att köpa kan du bokföra fakturan för att skapa relaterade kvantitet- och värdetransaktioner. När du bokför försäljningsfakturan, kan du också e-posta dokument som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av fakturan och betalningsinformationen, till exempel en länk till PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-I affärsmiljöer där kunden måste betala för produkter i förväg måste du vänta på kvittot på betalning innan du levererar produkterna. I de flesta fall behandlar du inkommande betalningar några veckor efter leverans, genom att koppla betalningarna till dess relaterade obetalda bokförda försäljningsfakturor. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+I företagsmiljöer där kunden betalar en tid efter leveransdatum enligt betalningsvillkor, en bokförd försäljningsfaktura förblir öppen (obetalda) till Kundreskontraavdelningen verifierar att betalning tagits emot och gäller betalningen för den bokförda försäljningsfaktura. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
-I företagsmiljöer där kunden betalar direkt, till exempel kontant, med PayPal eller kreditkort, kan du välja den relevanta metoden i fältet **Betalningssätt** på försäljningsfakturan. Betalningen bokförs sedan direkt på den bokförda fakturan. För betalningstjänster måste du även fylla i fältet **Betalningstjänst** fält. Mer information finns i [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
+I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller kontanter, betalningen bokförs direkt när du bokför försäljningsfakturan, d.v.s. stängs den bokförda försäljningsfakturan som i sin helhet. Du väljer relevant metod i fältet **Kod för betalningsmetod** på försäljningsordern. Se under steg 8. För elektroniska betalningar såsom PayPal, måste du även fylla i fältet **betalningstjänst**. Mer information finns i [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
 Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsfakturan. Mer information finns i [Skapa kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
@@ -56,18 +56,21 @@ Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende p
 7. Välj **OK** för att gå tillbaka till fönstret **Förs.faktura**, när du har slutfört kundkortet.
 
    Flera fält i försäljningsfakturahuvudet är nu ifyllda med information som du har angett på det nya kundkortet.  
-8. I fönstret **Inkommande dokument** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. I fönstret **Inkommande dokument** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]  
+    > Om du tillåter att kunden betalar direkt, till exempel via kontanter eller PayPal, fyll sedan i fältet **betalningssätt**. Betalningen registreras sedan när du bokför försäljningsfakturan som fakturerad. Om du väljer kontant registreras betalning på ett angivet motkonto.
 
     Du är nu klar att fylla i försäljningsfakturaraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
 
     Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
 9. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
-10. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **typ**.
+10. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **Typ**.
 
     Du lämnar fältet **Nr.** tomt i följande fall:
 
-    * Om raden är avsedd för en kommentar. Skriv kommentaren i fältet **beskrivning**.
-    * Om raden är avsedd för en ej lagerförd artikel. Välj åtgärden **markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
+    * Om raden är avsedd för en kommentar. Skriv kommentaren i fältet **Beskrivning**.
+    * Om raden är avsedd för en ej lagerförd artikel. Välj åtgärden **Markera ej lagerförda artiklar**. Mer information finns i [Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md).
 
 11. I fältet **antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 
@@ -80,7 +83,7 @@ Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende p
 12. Om du vill ge en rabatt kan du ange ett procenttal i fältet **radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
 
     Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Upprepa moment 9 till 12 för varje produkt som du vill att sälja till kunden.  
+13. Upprepa moment 9 till 12 för varje produkt som du vill fakturera kunden för.  
 
     Summorna under raderna beräknas automatiskt när du skapar eller ändrar rader.  
 14. I fältet **Fakturarabatt** anger du ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.

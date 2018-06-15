@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/16/2018
+ms.date: 05/24/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: 443c04799e9aa2b9aa4ede15006ecb5e9773ce6b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Hantera användare och behörigheter
@@ -24,9 +24,11 @@ När användare skapas i Office 365, kan de importeras till fönstret **Använda
 
 Du kan sedan tilldela behörighetsuppsättningar för användarna för att definiera vilka databasobjekt, och därmed vilka gränssnittselement, de har tillgång till och i vilka företag. Du kan lägga till användare i användargrupper. Detta gör det enklare att tilldela samma behörighetsuppsättning till flera användare.
 
-En behörighetsuppsättning är en samling behörigheter för specifika objekt i databasen. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flera fördefinierade behörighetsuppsättningar levereras som standard. Du kan använda dessa behörighetsuppsättningar som redan har definierats, ändra standardbehörighetsuppsättningarna eller skapa ytterligare behörighetsuppsättningar.
+En behörighetsuppsättning är en samling behörigheter för specifika objekt i databasen. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flera fördefinierade behörighetsuppsättningar levereras som standard.  
 
 Administratörer kan använda fönstret **Användarinställningar** för att definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad.
+
+Ett annat system som definierar vilka användare kan komma åt Upplevelsemiljön. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Så här tilldelar du behörigheter till en användare
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.

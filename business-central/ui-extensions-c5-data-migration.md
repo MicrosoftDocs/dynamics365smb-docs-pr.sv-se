@@ -1,6 +1,6 @@
 ---
 title: "Använda tillägget C5 Data-migrering | Microsoft Docs"
-description: "Använda det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Financials."
+description: "Använda det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Det här tillägget gör det enkelt att flytta över kunder, leverantörer, arti
 > [!Note]
 > Företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] får inte innehålla några data. Dessutom, när du har startat en flyttning ska du inte skapa kunder, leverantörer, artiklar eller konton förrän migreringen har slutförts.
 
-##<a name="what-data-is-migrated"></a>Vilka data överförs?
+## <a name="what-data-is-migrated"></a>Vilka data överförs?
 Följande data överförs för respektive enhet:
 
 **Kunder**
@@ -86,6 +86,13 @@ Om du flyttar konton, flyttas även följande uppgifter:
 > [!Note]
 > Om det finns öppna transaktioner med utländska valutor flyttas även valutakurserna för dessa valutor. Andra valutakurser överförs inte.
 
+**Kontoplan**  
+* Standarddimensioner: avdelning, kostnadsställe, ändamål  
+* Historiska redovisningstransaktioner  
+
+> [!Note]
+> Historiska redovisningstransaktioner hanteras på olika sätt. När du migrerar data ställer du in en parameter för **aktuell period**. Den här parametern anger hur du behandlar redovisningstransaktioner. Transaktioner efter detta datum migreras individuellt. Transaktioner före det här datumet läggs samman per konto och flyttas över som ett enstaka belopp. Låt oss anta att det finns transaktioner i 2015, 2016, 2017, 2018, och du anger 01 januari 2017 i fältet Aktuell period. För varje konto samlas belopp för transaktioner på eller före den 31 december 2106 i en enda redovisningsjournalrad för varje redovisningskonto. Alla transaktioner efter detta datum migreras individuellt.
+
 ## <a name="to-migrate-data"></a>Migrera data
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Använd sidan **översikt över datamigrering** för att övervaka flyttningen. 
 
 > [!Note]
 > Medan du väntar på resultat från migreringen, måste du uppdatera sidan för att visa resultatet.
+
+## <a name="how-to-avoid-double-posting"></a>Undvika dubbel bokföring
+För att undvika dubbel bokföring i redovisningen används följande balansräkningskonton för öppna transaktioner:  
+  
+* För leverantörer använder vi A/P-konto från leverantörsbokföringsmallen.  
+* För kunder använder vi A/P-konto från kundbokföringsmallen.  
+* För artiklar skapar vi en bokföringsinställning där kontot för lagerjusteringar är det konto som anges som lagerkontot i fönstret Lagerbokföringsinställning.  
 
 ## <a name="correcting-errors"></a>Felkorrigering
 Om något går fel och ett fel uppstår kommer fältet **Status** att visa **Slutförd med fel** och fältet **Antal fel** visar hur många. Om du vill visa en lista över felen, öppnar du sidan **migreringsfel** genom att välja:  
@@ -119,13 +133,12 @@ På sidan **migreringsfel**, om du vill korrigera ett fel kan du välja ett felm
 ## <a name="verifying-data-after-migrating"></a>Kontrollera data efter migrering
 Ett sätt att kontrollera att informationen överförs på rätt sätt är att titta på följande sidor i C5 och [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Kundtransaktioner| Redovisningsjournaler|
-|Leverantörstransaktioner| Redovisningsjournaler|
-|Artikeltransaktioner| Artikeljournaler|
-
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kallas journalen för migrerade data för **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Batch-jobb som ska användas |
+|-----|-----|-----|
+|Kundtransaktioner| Redovisningsjournaler| CUSTMIGR |
+|Leverantörstransaktioner| Redovisningsjournaler| VENDMIGR|
+|Artikeltransaktioner| Artikeljournaler| ITEMMIGR |
+|Redovisningstransaktioner| Redovisningsjournaler| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Stoppa datamigrering
 Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**. Om du gör det kommer alla väntande migreringar också stoppas.

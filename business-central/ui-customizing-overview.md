@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Anpassa Business Central
@@ -25,7 +25,7 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 | Detta kan du göra    |  Description  |  Vem som kan se ändringarna  |  Mer information  |
 |-----|---------------|---------|-------|
 |Installera ett tillägg|Tillägg är som små program som lägger till funktioner, ändrar beteende, ger tillgång till nya onlinetjänster med mera. Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard.|Alla användare i alla företag.|[Anpassa med tillägg](ui-extensions.md)|
-|Förändra upplevelsen|Inställningen **Upplevelse** anger hur stor del av funktionen som visas i användargränssnittet. Välj mellan grundläggande, vital och premium.|Alla användare i ett visst företag.|[Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md)|
+|Ändra vilka element i användargränssnittet som visas.|Inställningen **Upplevelse** anger hur stor del av funktionen som visas i användargränssnittet. Välj mellan grundläggande, vital och premium.|Alla användare i ett visst företag.|[Ändra vilka funktioner som visas](ui-experiences.md)|
 |Anpassa din arbetsyta|Ändra layout och innehåll på dina sidor.|Bara du.|[Anpassa din arbetsyta](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Se även
