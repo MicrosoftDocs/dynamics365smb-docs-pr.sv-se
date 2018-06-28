@@ -68,5 +68,5 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 [Hantera användare och behörigheter](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

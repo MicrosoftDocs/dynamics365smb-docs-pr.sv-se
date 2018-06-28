@@ -46,5 +46,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Välkommen till[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

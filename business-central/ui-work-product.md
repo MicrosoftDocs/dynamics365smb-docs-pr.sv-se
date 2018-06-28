@@ -49,5 +49,5 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
