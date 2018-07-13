@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 402745a9c90d1b82779e436f4a6533d2aed1b344
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Skapa en försäljning för montering mot kundorder
@@ -29,7 +29,7 @@ När du säljer någon annan typ av artikel kan du också skapa en försäljning
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Så här skapar du en försäljningsoffert för en artikel för montering mot kundorder  
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsoffert** och välj sedan relaterad länk.  
-2.  Skapa en försäljningsoffertrad med en rad för en monteringsartikel. Mer information finns i [Skapa erbjudanden](sales-how-make-offers.md).  
+2.  Skapa en försäljningsoffertrad med en rad för en monteringsartikel. Mer information finns i [Gör försäljningsoffert](sales-how-make-offers.md).  
 3.  I fältet **Antal att montera mot kundorder** anger du hela antalet.
 
     > [!NOTE]  
@@ -38,7 +38,7 @@ När du säljer någon annan typ av artikel kan du också skapa en försäljning
 4.  På snabbfliken **Rader** väljer du **Rad**, **Montering mot kundorder** och sedan **Montering mot kundorderrader**. Alternativt kan du välja fältet **Antal att montera mot kundorder** på raden.  
 5.  I fönstret **Montering mot kundorderrader** granskar eller ändrar du monteringsorderrader enligt den offert som kunden begär. Om du vill ha mer information kan du välja åtgärden **Visa dokument** för att öppna hela avropsordern för offerten. Du kan inte ändra innehållet i de flesta fält, och du kan inte bokföra.  
 6.  När du har justerat monteringsorderraderna enligt offerten stänger du fönstret **Montering mot kundorderrader** så att du kommer tillbaka till fönstret **Försäljningsoffert**.  
-7.  Om kunden accepterar offerten skapar du en försäljningsorder för den offererade monteringsartikeln. Mer information finns i [Skapa erbjudanden](sales-how-make-offers.md). Den länkade monteringsofferten och eventuella anpassningar är kopplad till den nya försäljningsordern så att artikelmontering eller -försäljning kan förberedas.  
+7.  Om kunden accepterar offerten skapar du en försäljningsorder för den offererade monteringsartikeln. Mer information finns i [Gör försäljningsoffert](sales-how-make-offers.md). Den länkade monteringsofferten och eventuella anpassningar är kopplad till den nya försäljningsordern så att artikelmontering eller -försäljning kan förberedas.  
 
 ## <a name="see-also"></a>Se även  
 [Monteringshantering](assembly-assemble-items.md)  

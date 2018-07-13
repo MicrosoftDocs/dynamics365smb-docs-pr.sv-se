@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ef18d7cedac26894d4053fbe72dc3254e328c3dd
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sales"></a>FÖRS
@@ -38,7 +38,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 | Om du vill | Gå till |
 | --- | --- |
-| Skapa en försäljningsoffert där du erbjuder produkter med förhandlingsbara villkor, innan du omvandlar offerten till en försäljningsfaktura. |[Skapa offerter](sales-how-make-offers.md) |
+| Skapa en försäljningsoffert där du erbjuder produkter med förhandlingsbara villkor, innan du omvandlar offerten till en försäljningsfaktura. |[Gör försäljningsofferter](sales-how-make-offers.md) |
 | Skapa en försäljningsfaktura för att registrera en överenskommelse med en kund om att sälja produkter till vissa leverans- och betalningsvillkor. |[Fakturaförsäljning](sales-how-invoice-sales.md) |
 | Behandla en försäljningsorder som rör delvis leverans eller direktleverans. |[Sälja produkter](sales-how-sell-products.md) |
 |Lägga upp standardförsäljnings- eller inköpsrader som du kan snabbt infoga i dokument, till exempel för återkommande påfyllningsorder.|[Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  

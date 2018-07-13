@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
-# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Komma igång med [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Kom igång med [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Om du är en revisor med flera klienter, använd [!INCLUDE [d365acc](includes/d365acc_md.md)] som din instrumentpanel för en bättre överblick över dina kunder.  
@@ -25,7 +25,7 @@ Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa f�
 Du kan få tillgång till [!INCLUDE [d365acc](includes/d365acc_md.md)] genom att logga in från [Dynamics 365 — Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  När du registrerar dig för [!INCLUDE [d365acc](includes/d365acc_md.md)], måste du ange din e-postadress för arbete som <em>me@accountant.com</em>. Vi rekommenderar att du använder samma e-postadress när du arbetar i klientens [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] så att du kan växla mellan klienter. E-postadressen måste vara en arbetsadress som baseras på ett Active Directory.
+>  När du registrerar dig för [!INCLUDE [d365acc](includes/d365acc_md.md)], måste du ange din e-postadress för arbete som <em>me@accountant.com</em>. Vi rekommenderar att du använder samma e-postadress när du arbetar i klientens [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], så att du kan växla mellan klienter. E-postadressen måste vara en arbetsadress som baseras på ett Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Arbeta med enskilda kunder
 Instrumentpanelen visar den viktigaste informationen om varje klient.  

@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
     >   Du kan granska transaktionerna i rapportraderna innan du skickar rapporten med EU-försäljningslista. Välj raden och välj sedan åtgärden **Visa momstransaktioner**.  
 4. När du validerar och förbereder rapporten för att skicka den, välj åtgärden **Frisläpp**.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
 5. Om du vill skicka rapporten, väljer du åtgärden **skicka**.  
 
@@ -91,10 +91,10 @@ Om du använder en annan metod för att skicka rapporten, till exempel genom att
 ## <a name="vat-settlement"></a>Momsavräkning
 Med jämna mellanrum måste du betala nettomoms till skattemyndigheterna. När du måste avräkna momsen ofta kan du köra batch-jobbet **Beräkna/bokför momsavräkning** för att stänga de öppna momstransaktionerna och  överföra inköps- och försäljningsbelopp till momsavräkningskontot.
 
-När ett momsbelopp överförs till avräkningskontot krediteras kontot för ingående moms och kontot för utgående moms debiteras med beloppet från momsavräkningsperioden. Kontot för momsavräkning krediteras (eller, om beloppet för ingående moms är större, debiteras) med nettobeloppet. Du kan bokföra avräkningen direkt eller välja att först skriva ut en testrapport.
+När ett momsbelopp överförs till avräkningskontot krediteras kontot för ingående moms och kontot för utgående moms debiteras med beloppet från momsavräkningsperioden. Kontot för momsavräkning krediteras (eller, om beloppet för ingående moms är större, debiteras) med nettobeloppet. Du kan bokföra avräkningen direkt eller välja att först skriva ut en testrapport.  
 
->    [!NOTE]  
->    När du använder batch-jobbet **Beräkna/bokför momsavräkning** om du inte anger en **Moms rörelsebokf.mall** och **Moms prod.bokf.mall** inkluderas transaktioner med alla rörelse- och produktbokföringsmallar.
+> [!Note]
+> När du använder batch-jobbet **Beräkna/bokför momsavräkning** om du inte anger en **Moms rörelsebokf.mall** och **Moms prod.bokf.mall** inkluderas transaktioner med alla rörelse- och produktbokföringsmallar.
 
 ## <a name="configuring-your-own-vat-reports"></a>Skapa egna momsrapporter.
 Du kan använda den EG-försäljningslisterapport men du kan också skapa egna rapporter. Detta innebär att du skapar några kodmoduler. Kontakta en Microsoft Partner om du behöver hjälp med.  
@@ -107,14 +107,14 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 |Innehåll | Kontrollera formatet för rapporten. Till exempel om det är XML- eller JSON. Formaten som ska användas beror på kraven i din skattemyndighets webbtjänsten. |
 |Överföring | Styra hur och när du skickar rapporten utifrån hänsyn till skattemyndigheterna. |
 |Svarshanterare | Hantera returen från skattemyndigheten. Det kan till exempel skicka ett e-postmeddelande till företagets kontaktperson. |
-|Annullera | Skicka en annullering av en momsrapport som har skickats tidigare till skattemyndigheterna. |
+|Annullera | Skicka en annullering av en momsrapport som har skickats tidigare till skattemyndigheterna. |  
 
-> [!NOTE]  
->   När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2017** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.  
-
+> [!Note]
+> När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2017** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.
+ 
 ## <a name="see-also"></a>Se även
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Fakturaförsäljning](sales-setup-sales.md)  
+[Fakturaförsäljning](sales-how-invoice-sales.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: "Använd OCR för att göra PDF-dokument till E-fakturor | Microsoft Docs"
-description: "Beskriver hur du kan använda en OCR-tjänst för att omvandla inkommande PDF-filer eller bildfiler till elektroniska dokument i Financials."
+description: "Beskriver hur du kan använda en OCR-tjänst för att omvandla inkommande PDF-filer eller bildfiler till elektroniska dokument."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8ae141826b2a957487bbce34fdfde7fd1badd7f8
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 8a9b5911008c8524490bf895ee3a21394cad4fbe
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument

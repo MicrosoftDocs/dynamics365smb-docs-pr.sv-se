@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/19/2017
+ms.date: 06/12/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b767588b4dae6953371e112fd4e8e5cd4af7b1e0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: f40f51ffec0d052e26bcaf34c928ef63e9adde4d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 
@@ -28,8 +28,8 @@ Image Analyzer är gratis [!INCLUDE[d365fin](includes/d365fin_md.md)], men det f
 
 När du har aktiverat tillägget körs Image Analyzer när du importerar en bild till en artikel eller kontaktperson. Du ser de attribut och konfidensnivå och information direkt och bestämmer vad du vill göra med varje attribut. Om du har importerat bilder innan du valde tillägget Image Analyzer måste du gå till artikel- eller kontaktkorten och välja åtgärd **analysera bild**.  
 
->   [!NOTE]  
->   Genom att aktivera det här tillägget accepterar du att Microsoft kan lagra data och använda den för att förbättra Microsoft-tjänster, som gör Computer Vision API bättre. För att skydda din integritet har vidtagit åtgärder för att göra data anonym och skydda den. Vi vill inte publicera informationen eller andra användare kan använda den. Du kan ta bort bilden från objekt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men Computer Vision API  har fortfarande bilden sin avidentifierade form. Mer information finns i [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
+## <a name="privacy-notice"></a>Sekretesspolicy 
+Det här tillägget använder API för visuellt innehåll från Microsoft Cognitive Services, som kan ha olika nivåer av att åtaganden än [!INCLUDE[d365fin](includes/d365fin_md.md)]. När du aktiverar tillägget Image Analyzer skickas kunddata som till exempel en kontaktbild eller en artikelbild till API för visuellt innehåll. Genom att installera det här tillägget godkänner för denna uppsättning data som ska skickas till API för visuellt innehåll. Observera att du kan inaktivera samt avinstallera tillägget Image Analyzer när som helst för att avbryta användningen av funktionen. Mer information finns i [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
 Det finns några krav för bilder:
@@ -37,9 +37,6 @@ Det finns några krav för bilder:
 * Bildformat: JPEG, PNG, GIF, BMP  
 * Maximal filstorlek: mindre än 4 MB  
 * Bilddimensioner: större än 50 x 50 bildpunkter  
-
-## <a name="blacklisting-suggested-attributes"></a>Svartlista föreslagna attribut
-Om analysen föreslår ett attribut som du inte vill visa kan du Svartlista attributet. Var försiktig. Svartlistade attribut föreslås inte för andra artiklar eller kontaktpersoner antingen. Du kan ångra Svartlistning av attribut genom att välja **Svartlistade attribut**, och ta bort attributet från listan.
 
 ## <a name="to-enable-image-analyzer"></a>Så här aktiverar du Image Analyzer
 Tillägget Image Analyzer är inbyggt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du måste aktivera den.
@@ -52,8 +49,8 @@ Tillägget Image Analyzer är inbyggt i [!INCLUDE[d365fin](includes/d365fin_md.m
 * Öppna en artikel eller kontaktkort. I meddelandefältet, välj **analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
 * Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **Anslutningar till tjänst** och sedan **Inställningar för bildanalys**. Markera kryssrutan **Aktivera analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
 
->   [!TIP]  
->   Sidan **inställningar för analys av bilden** låter dig också öppna där du kan ändra graden av säkerhet för attributförslag. Om du till exempel kräver en högre grad av säkerhet anger du en högre procentandel.
+    > [!TIP]  
+    > Sidan **inställningar för analys av bilden** låter dig också öppna där du kan ändra graden av säkerhet för attributförslag. Om du till exempel kräver en högre grad av säkerhet anger du en högre procentandel.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Så här analyserar du en bild av en artikel
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
@@ -62,8 +59,8 @@ Följande steg beskriver hur du analyserar en bild som har hämtats innan du val
 2. Välj artikel och välj sedan åtgärden **analysera bild**.  
 3. Sidan **Image Analyzer-attribut** visar identifierade attribut, konfidensintervall och annan information om attributet. Använd alternativet **åtgärd att utföra** för att ange vad som ska ske med attributet.  
 
->   [!TIP]  
->   Du kan lägga till namnet på attributet till artikelbeskrivningen genom att välja **lägga till en artikelbeskrivning**. Det kan exempelvis vara användbart för att snabbt lägga till detaljer.  
+    > [!TIP]  
+    > Du kan lägga till namnet på attributet till artikelbeskrivningen genom att välja **lägga till en artikelbeskrivning**. Det kan exempelvis vara användbart för att snabbt lägga till detaljer.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Så här analyserar du en bild av en kontaktperson
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
@@ -72,14 +69,17 @@ Följande steg beskriver hur du analyserar en bild som har hämtats innan du val
 2. Välj kontaktperson och välj sedan åtgärden **analysera bild**.  
 3. På snabbfliken **profilfrågeformulär** granska förslagen och gör ändringar om det behövs.  
 
+## <a name="blacklisting-suggested-attributes"></a>Svartlista föreslagna attribut
+Om analysen föreslår ett attribut som du inte vill visa kan du Svartlista attributet. Var försiktig. Svartlistade attribut föreslås inte för andra artiklar eller kontaktpersoner antingen. Du kan ångra Svartlistning av attribut genom att välja **Svartlistade attribut**, och ta bort attributet från listan.
+
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Använda ditt konto för Computer Vision API
 Använd även ditt eget konto för Computer Vision API, till exempel om du vill analysera mer bilder än vad vi kan.  
 
 1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten") ange **Image Analyzer-inställningar** och sedan relevant länk..  
 2. Ange **API-URI** och **API-nyckeln** som du har fått för Computer Vision API.  
 
->   [!NOTE]  
->   Du måste lägga till **/analysera** i slutet av API-URI, om den inte redan finns där. Som exempel: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > [!NOTE]  
+    > Du måste lägga till **/analysera** i slutet av API-URI, om den inte redan finns där. Som exempel: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Om du vill se hur många analyser som du har kvar i den aktuella perioden
 Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra, under den aktuella perioden.  

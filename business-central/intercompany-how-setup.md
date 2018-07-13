@@ -1,8 +1,6 @@
 ---
 title: "Ställa in bokföring av koncerninterna transaktioner | Microsoft Docs"
 description: "Skapa dina koncerninterna leverantörer och kunder som så kallade koncerninterna partners och konfigurera en koncernintern kontoplan."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Koncerninterna inställningar
@@ -97,7 +95,7 @@ Om företaget är ett dotterbolaget och du får en XML-fil med de koncerninterna
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Definiera koncerninterna dimensioner
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna dimensioner** och välj sedan relaterad länk.  
-2. I **Koncerninterna dimensione** anger du varje dimension på en rad.
+2. I **Koncerninterna dimensioner** anger du varje dimension på en rad.
 
     Om de koncerninterna dimensionerna ska vara identiska med eller likna företagets dimensioner kan du fylla i fönstret automatiskt genom att använda funktionen **Kopiera från dimensioner** och sedan redigera de resulterande raderna.  
 3. Du kan exportera de koncerninterna dimensionerna till en XML-fil för distribution till partnerföretagen genom att välja åtgärden **Exportera**.  

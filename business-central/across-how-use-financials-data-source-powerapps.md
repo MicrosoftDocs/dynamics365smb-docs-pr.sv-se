@@ -1,6 +1,6 @@
 ---
 title: "Använda din adata för att skapa en app | Microsoft Docs"
-description: "Du kan göra dina Financials-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa en företagsapp med PowerApps."
+description: "Du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa en företagsapp med PowerApps."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,13 +13,13 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0b0329ac5cd90a0f0595a16505ab22234cc34c92
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 391756b54cb0829c33ed6ddf29c9f64788e23e57
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/01/2018
 
 ---
-# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Ansluta till dina Financials-data och skapa en företagsapp med hjälp av PowerApps
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av PowerApps
 Du kan göra din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tillgänglig som underlag för datakälla i PowerApps.  
 
 > [!NOTE]  
@@ -35,7 +35,7 @@ Du kan göra din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tillgänglig s
 5. Välj i listan över tillgängliga anslutningar, välj **Dynamics 365 Business Central**.
 6. PowerApps visar en anslutningssida som uppmanar dig till att ge den information som behövs för att ansluta till din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Du måste ange en OData-URL, användarnamn, lösenord och företagsnamn för att ansluta.
 
-   För den *OData-URL*, kan du kopiera OData V4-URL för någon av webbtjänsterna som finns på sidan **webbtjänster** i [!INCLUDE[d365fin](includes/d365fin_md.md)], som t.ex. `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
+   För den *OData-URL*, kan du kopiera OData V4-URL för någon av webbtjänsterna som finns på sidan **webbtjänster** i [!INCLUDE[d365fin](includes/d365fin_md.md)], som t.ex. `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
    För *företagsnamn*, använder du namnet som visas i fältet **namn** i fönstret **företagsinformation** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om din [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller flera företag, väljer du relevant företagsnamn i listan i fönstret **företag**. I båda fallen kontrollerar du att namnet som du anger i PowerApps-guiden motsvarar exakt den text som visas i [!INCLUDE[d365fin](includes/d365fin_md.md)], som t.ex. `My Company`.
 

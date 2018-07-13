@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Om du vill skapa momsregistreringsnummer, gör då så här:
 2. Välj land eller region, och välj sedan åtgärden **Format för momsreg.nr.**.
 3. I fältet **Format** anger du formatet genom att ange ett eller flera av följande tecken:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Kräver ett tal med en enda siffra.
-* @ - Kräver en bokstav. Dessa är inte skiftlägeskänsliga.
-* ? - Alla tecken tillåtna.
+* **#** Kräver ett tal med en enda siffra.  
+* **@** Kräver en bokstav. Dessa är inte skiftlägeskänsliga.  
+* **?** Alla tecken tillåtna.  
 
     > [!Tip]
     > Du kan använda andra tecken förutsatt att dessa förekommer i landets/regionens format. Om du till exempel behöver inkludera en punkt eller ett bindestreck mellan olika uppsättningar siffror kan du exempelvis definiera formatet som ##. ####. ### eller @@-###-###.  
@@ -116,6 +116,29 @@ I följande avsnitt beskrivs hur du tilldelar momsbokföringsmallar till enskild
 * På kortet **Resurs** expanderar du snabbfliken **Fakturering**.  
 3. Välj produktbokföringsmallen med moms.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Ställa in momsrapportmallar och momsrapportnamn
+Skattemyndigheterna kan och ändrar sina krav för bokföring av moms. **Momsrapportmallar** och **Momsrapportnamn** kan hjälpa dig att förbereda dig inför kommande ändringar och göra övergången till de nya kraven smidigare. Du kan använda momsrapportmallar för att definiera vilka fält som ska tas med i momsrapporten, som i sin tur definierar beräkningarna, och du kan skapa en ny momsrapportmall när kraven ändras. Exempelvis en mall kan beräkna moms för detta år baserat på nuvarande krac och en annan kan beräkna moms baserat på kraven för nästa år. Mallar är också ett sätt att hålla en historik med momsrapportformat, till exempel så att du kan se tillbaka för att se hur du beräknar moms i föregående år.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Hur du definierar och förhandsgranskar momsrapporter
+Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd period (t.ex. ett kvartal). När du har definierat en momsrapport kan förhandsgranska du den och kontrollera att det uppfyller dina behov. 
+
+Om du vill definiera en momsrapport, följ dessa steg:
+
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **momsrappport** och välj sedan relaterad länk.  
+2. Välj fältet **namn** och välj sedan **nytt** på sidan **Momsrapportnamn**. 
+3. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Du kan filtrera informationen som utdraget innehåller, beroende på vad du väljer fältet **typ**. **Kontosummering** är användbar när du vill att moms från ett visst konto.
+**Momstrans.summering** får moms från konton som är kopplade till markeringar i fälten **Typ av bokföring**, **Moms rörelsebokf.mall**, och/eller **Moms, produktbokföringsmall**. **Radsummering** kan du skriva in ett värde eller snabb filterkriterierna i fältet **Radsummering**. Mer information om sökning och filtrering finns i [Söka, filtrera och sortera data](ui-enter-criteria-filters.md). **Beskrivning** används ofta för att lägga till en anteckning i uttrycket. Exempelvis kan du använda den som en rubrik när du har använt radsummering.
+
+Om du vill förhandsgranska en momsrapport, följ dessa steg:
+
+1. Välj **förhandsgranskning**.
+2. Du begränsar rapporten till en viss period genom att ange ett datumfilter. För mer information om hur du anpassar sidan så att datumfiltret visas,, se [Söka, filtrera och sortera data](ui-enter-criteria-filters.md).
+3. Du kan välja flera olika alternativ för att definiera vilken typ av momstransaktioner som ska tas med i rapporten.
+4. På de rader där fältet **Typ** innehåller **Momstrans.summering** kan du visa en lista över momstransaktioner genom att välja beloppet i fältet **Kolumnbelopp**.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Ställ in klausuler som förklarar hur icke-standardmässiga momssatser används
 Du konfigurerar en momsklausul som beskriver information om vilken typ av moms som tillämpas. Informationen kan krävas av Myndighetsregleringar. När du registrerar en momsklausul och associera den med en momsbokföringsinställning, visas momsklausulen på alla utskrivna försäljningsdokument som använder momsbokföringsinställningsmallen.
 
@@ -166,8 +189,7 @@ Du kan se momsregistreringsloggen på kund-, leverantör- eller kontaktkorten p�
 
 Tjänsten kan också spara tid när du skapar en kund eller leverantör. Om du känner till kundens momsregistreringsnummer kan du ange det i fältet **Momsregistreringsnr** på korten för kunden eller leverantören, och vi ska fylla i kundens namn åt dig. Vissa länder har dessutom företagsadresser i ett strukturerat format. I dessa länder fyller vi även i addressen.  
 
-> [!NOTE]  
-> Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
+Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
 
 * Den här tjänsten använder http-protokoll, vilket betyder att data som har överförts via tjänsten inte har krypteras.  
 * Det kan uppstå avbrott för den här tjänsten som inte Microsoft ansvarar för. Tjänsten är en del av ett omfattande EU-nätverk av nationella register för moms.

@@ -12,15 +12,14 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 7bb86cc2c2e152772a554e871074bd9a29cc9943
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="customizing-business-central"></a>Anpassa Business Central
-<!--NAV # Customizing Dynamics NAV -->
-Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
+<!--NAV # Customizing Dynamics NAV --> Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
 
 | Detta kan du göra    |  Description  |  Vem som kan se ändringarna  |  Mer information  |
 |-----|---------------|---------|-------|
@@ -32,5 +31,5 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

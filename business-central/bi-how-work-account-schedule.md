@@ -8,24 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/16/2018
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 69034b0eb97b595d0fbf5795e1fac34ecd775afe
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
 
 ---
-# <a name="work-with-account-schedules"></a>Arbeta med kontouppställningar
-Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram i ditt Rollcenter, till exempel diagram för kassaflöde.  
+# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
+Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram i Rollcentret, till exempel diagram för kassaflöde och i rapporter såsom resultaträknings- och balansräkningsrapporter.
+
+Du öppnar dessa två rapporter, till exempel med åtgärden **finansiella rapporter** på Business Manager och rollcenter för redovisare.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller några exempel på kontouppställningar som du kan använda direkt eller så kan du ange egna rader och kolumner för att jämföra siffrorna. Du kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Du kan skapa så många anpassade finansiella rapporter som du önskar.  
 
 Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna. Detta kräver att budgetar som skapas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
 ## <a name="account-categories-and-account-schedules"></a>Kontokategorier och kontouppställningar
-Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat din kontokategorier i fönstret **Redovisningskontokategorier** och du väljer åtgärden **Skapa kontouppställningar** uppdateras de underliggande kontouppställningarna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel kontoavstämning kommer nya summor och underposter att läggas till, baserat på ändringarna. Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).  
+Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat din kontokategorier i fönstret **Redovisningskontokategorier** och du väljer åtgärden **Skapa kontouppställningar** uppdateras de underliggande kontouppställningarna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel rapport för kontoavstämning kommer nya summor och underposter att läggas till, baserat på ändringarna. Mer information finns i avsnittet "Kontokategorier" i [Förstå redovisning och kontoplan](finance-general-ledger.md).  
 
 ## <a name="to-create-new-account-schedules"></a>Så här skapar du nya kontouppställningar  
  Du använder kontouppställningar för att analysera siffror för redovisningskonton eller jämföra redovisningstransaktioner med redovisningsbudgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
@@ -41,7 +43,12 @@ Du kan använda kontokategorier för att ändra layout på din redovisning. När
 7. I fönstret **Kolumnlayout** fyller du i fälten.
 
 > [!NOTE]  
->   Om du inte tilldelar en standardkolumnlayout till kontouppställningen måste du  lägga upp kolumner manuellt.   
+> Om du inte tilldelar en standardkolumnlayout till kontouppställningen måste du  lägga upp kolumner manuellt.
+
+### <a name="to-copy-an-existing-account-schedule"></a>Kopiera en befintlig kontouppställning
+Kontouppställningar i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] utgör grunden för de ekonomiska standardrapporter, som kanske inte passar ditt företag. Du kan snabbt skapa dina egna finansiella rapporter, du kan starta genom att kopiera en befintlig kontouppställning.
+1. I fönstret **kontouppställningar** markerar du en kontouppställning, och välj sedan åtgärden **kopiera kontouppställning**.
+2. I fönstret **Kopiera kontouppställning** fyller du i fälten efter behov och väljer sedan knappen **OK**.
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser  
 Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t.ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.

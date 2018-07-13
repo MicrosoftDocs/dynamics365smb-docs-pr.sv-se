@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 897a26ae2037aabe4aaaea17c504c711a32d1632
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Hantera interaktioner för segment
@@ -32,7 +32,7 @@ Det finns flera sätt att skapa segment:
 * Du kan manuellt ange på segmentraderna de kontakter du vill ha med i segmentet.
 * Du kan välja kontakter.
 * Du kan återanvända loggat segment som grund för att skapa ett nytt.
-* Du kan återanvända sparade segmentvillkor.
+* Du kan återanvända sparade segmentkriterier.
 
 ## <a name="interactions"></a>Interaktioner
 I fönstret **Segment** kan du skapa interaktioner för flera kontakter samtidigt. Du kan exempelvis slå ihop ett segment med ett Microsoft Word-dokument så du kan skicka brev till alla kontakterna i segmentet.
@@ -51,5 +51,5 @@ I fönstret **Segmentlogg** kan du skapa ett nytt segment som innehåller ett up
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
-[Arbeta med Financials](ui-work-product.md)
+[Arbeta med Business Central](ui-work-product.md)
 

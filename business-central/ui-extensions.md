@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 55de1952941f6f8d01d76c657fcf8c48d7ada6b1
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 45ae07cd542d53ea71af0a3009ea57e09340fc0c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
@@ -31,7 +31,7 @@ Du hanterar tilläggen i fönstret **Tilläggshantering**. Du kan öppna det hä
 >   Om du tror att du borde ha åtkomst till ett tillägg, men dess funktioner inte går att hitta kontrollerar du fönstret **tilläggshantering** om tillägget inte finns, kan du installera det enligt vad som beskrivs i följande avsnitt.  
 
 ## <a name="installing-an-extension"></a>Installerar tillägg
-Du kan få nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Här kan du se alla tillgängliga tillägg för [!INCLUDE[d365fin](includes/d365fin_md.md)] och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan skapa nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Här kan du se alla tillgängliga tillägg för [!INCLUDE[d365fin](includes/d365fin_md.md)], och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
 >   Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av e-postkonto som du använder för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
 
@@ -77,5 +77,5 @@ Microsoft ger även följande tillägg:
 [Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

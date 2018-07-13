@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Om du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] från
 Du kan avsluta ditt konto på sidan Arbete- och skolsekretess och du kan även avsluta ditt konto. Vi rekommenderar emellertid att du ser till att du har exporterat och tagit bort alla data först eftersom om du tar bort ditt konto förlorar du åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Du kan fortfarande markera personer som blockerats på grund av sekretess- och export, redigera eller ta bort transaktioner enligt beskrivningen på annat ställe i den här artikeln.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportera Data från tabeller som inte klassificeras av registrerade
+Om det finns en situation där du måste exportera data som inte klassificeras på ett sätt så att den exporteras automatiskt, till exempel data från tabellen profilsvar måste du göra följande: 
+-   Beakta om du verkligen vill eller behöver exportera dessa ytterligare data som inte är relaterad till kontakten, vilket innebär att den har någon direkt inverkan på den 
+-   Lägg till den här tabellen och relationen manuellt till snabbstartpaketet och exportera direkt från snabbstartpaketet – det är därför vi skapar ett snabbstartpaketet åt dig, så att du kan ändra den i situationer som den här.
 
 ## <a name="handling-data-about-minors"></a>Hantera data om minderåriga
 Om en kontaktperson ålder understiger åldern för juridiskt godkännande enligt lagstiftningen i din region, anger du detta genom att välja kryssrutan **Minderårig** på kortet **Kontakt**. När du gör detta väljs kryssrutan **Sekretessblockerad** automatiskt. När du får samtycke från minderårigs förälder eller vårdnadshavare kan du välja kryssrutan **Föräldrarnas samtycke mottaget** om du vill låsa upp kontakten. Även om du kan behandla personuppgifter för minderåriga kan du inte använda profileringsfunktionen i Microsoft Dynamics 365 for Sales.

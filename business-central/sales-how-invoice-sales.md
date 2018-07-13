@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 2e5f27c156fd02641d65a4653c51553664c2322c
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 97116be5c1a0fbbef2564120ac95030f488aafbc
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
@@ -28,7 +28,7 @@ Det finns två situationer där du måste använda en försäljningsorder i stä
 
 I alla andra aspekter fungerar försäljningsorder och försäljningsfakturor på samma sätt. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 
-Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan omvandla till en försäljningsfaktura när du instämmer om försäljningen. Mer information finns i [Skapa erbjudanden](sales-how-make-offers.md).
+Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan omvandla till en försäljningsfaktura när du instämmer om försäljningen. Mer information finns i [Gör försäljningsoffert](sales-how-make-offers.md).
 
 Om kunden bestämmer sig att köpa kan du bokföra fakturan för att skapa relaterade kvantitet- och värdetransaktioner. När du bokför försäljningsfakturan, kan du också e-posta dokument som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av fakturan och betalningsinformationen, till exempel en länk till PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 

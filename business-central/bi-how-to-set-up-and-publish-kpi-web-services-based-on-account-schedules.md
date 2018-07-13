@@ -1,29 +1,28 @@
 ---
 title: "Skapa och publicera KPI-webbtjänster för kontouppställningar | Microsoft Docs"
-description: "I fönstret **Installation av webbtjänst för KPI för kontouppställning** kan du konfigurera hur du visar kontouppställnings-kpi-data och vilka specifika kontouppställningar som du vill basera KPI-erna på."
+description: "Det här avsnittet beskriver hur du visar kontouppställningen KPI-data baserat på specifika kontouppställningar."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
-ms.author: sgroespe
+ms.date: 05/31/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc1226724d1f953a3cf14a148e6d229ac0736bd3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar
 I fönstret **Installation av webbtjänst för KPI för kontouppställning** kan du konfigurera hur du visar kontouppställnings-kpi-data och vilka specifika kontouppställningar som du vill basera KPI-erna på. När du väljer knappen **Publicera webbtjänst** läggs det angivna kontouppställning-kpi-data till listan över publicerade webbtjänster i fönstret **Webbtjänster**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Så här: Skapar och publicerar du en KPI-webbtjänst som är baserad på kontouppställningar  
-
 1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Installation av webbtjänst för KPI för kontouppställning** och välj sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  
 
@@ -35,7 +34,7 @@ I fönstret **Installation av webbtjänst för KPI för kontouppställning** kan
     |**Visa per**|Ange vid vilket tidsintervall kontouppställning-KPI visas i.|  
     |**Webbtjänstnamn**|Ange namnet på kontouppställningen-KPI-webbtjänsten.<br /><br /> Det här namn visas i fältet **Servicenamn** i fönstret **Webbtjänster**.|  
 
-    Fortsätt genom att ange en eller flera kontouppställningar som du vill publicera som en KPI webbtjänst enligt inställningarna, som du gjorde i föregående tabellen.  
+    Ange en eller flera kontouppställningar som du vill publicera som en KPI webbtjänst enligt inställningarna, som du gjorde i föregående tabellen.  
 
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **kontouppställningar**.  
 

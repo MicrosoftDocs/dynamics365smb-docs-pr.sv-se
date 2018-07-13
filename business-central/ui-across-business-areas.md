@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
@@ -33,7 +33,7 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 | Skapa standardtextkoder så att du kan utöka standardtexten genom att lägga till extra rader, och skapa villkor för hur extraraderna kan användas. |[Definiera utökad text](ui-how-define-ext-text.md) |
 |Skapa uppgifter som påminner dig om arbete som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.|[Definiera användaruppgifter](across-user-tasks.md)|
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|
-|Registrera externa dokument i Financials inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
+|Registrera externa dokument inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|
 | Ställ in datautbytesdefinitioner för att skicka och ta emot elektroniska dokument. |[Utbyta data elektroniskt](across-data-exchange.md). |
 
@@ -42,5 +42,5 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

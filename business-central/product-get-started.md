@@ -1,29 +1,29 @@
 ---
 title: "Komma igång | Microsoft-dokument"
 description: "Lär dig mer om funktioner och arbetsscenarier i Business Central, ett affärsadministreringssystem för små och medelstora företag."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
 
 När du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]-förhandsgranskningen har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa egna försäljningsdokument, eller skapa ett bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. I demonstrationsföretaget förklarar visuella handböcker grundläggande funktioner och hjälper dig att testa dagliga uppgifter som t.ex. att skapa en försäljningsfaktura och visa en rapport. Om du lämnar en assistent, till exempel för att utforska [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hand, men sedan vill återvända till den, går du tillbaka till startsidan för Rollcenter och startar genomgången Komma igång.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. I demonstrationsföretaget förklarar visuella handböcker grundläggande funktioner och hjälper dig att testa dagliga uppgifter som t.ex. att skapa en försäljningsfaktura och visa en rapport. Om du lämnar en assistent, till exempel för att utforska [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hand, men sedan vill återvända till den, går du tillbaka till startsidan för Rollcenter och startar genomgången Komma igång. Om du vill ha mer hjälp hittar du en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > Du kan återgå till ett Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
@@ -71,8 +71,10 @@ Funderar du på att prenumerera? Du kan enkelt byta från demonstrationsföretag
 
 Om du vill skapa ett företag för att testa saker går du till menyn **Mina inställningar** i det övre högra hörnet och ändrar företag till **mitt företag**. Logga ut från [!INCLUDE[d365fin](includes/d365fin_md.md)] och logga sedan in igen för att ändringen ska börja gälla. En assisterade konfigurationsguide hjälper dig att ange grundläggande information om företaget. När detta är klart kan du utforska rollcentret och hitta åtgärden **Assisterad konfiguration**.  
 
+Du kan också söka efter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>Klar att prenumerera?
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, använder du länken i meddelandet för att kontakta Microsoft. Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här ](https://www.microsoft.com/en-us/solution-providers/search). Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
 Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Du kan även läsa mer på [Dynamics 365 Business Central-webbplatsen](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

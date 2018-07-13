@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 73d0044308d619f92e0379cc7b678301c72ce31c
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
-Financials kan erbjuda en del statistik som kan användas för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   
+Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Så här visar du serviceorderstatistik:
 Med hjälp av serviceorderstatistiken får du en snabb översikt över innehållet i hela serviceordern, detaljerad information om de specifika serviceraderna och information rörande fakturering, leverans och förbrukning samt kundens saldo.  

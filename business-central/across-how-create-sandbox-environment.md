@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8451e456d03c9429ff2e04f4e0664ae240f872c2
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -31,7 +31,7 @@ Du måste ha en prenumeration på [!INCLUDE[d365fin](includes/d365fin_md.md)] f�
 3. Välj **skapa**.  
   En annan flik i webbläsaren öppnas för att slutföra inställningarna för begränsat läge.
 > [!NOTE]  
->  Om du har ett popup-fönster aktiverat i din webbläsare, kan du ändra koden så att URL-adresser tillåts från adressen *.financials.dynamics.com.   
+>  Om du har ett popup-fönster aktiverat i din webbläsare, kan du ändra koden så att URL-adresser tillåts från adressen *.businesscentral.dynamics.com.   
 
 4. När begränsat läge är klart, omdirigeras till välkomstguiden för begränsat läge.
 ![välkomstguiden för begränsat läge](./media/across-sandbox/sandbox-wizard.png)

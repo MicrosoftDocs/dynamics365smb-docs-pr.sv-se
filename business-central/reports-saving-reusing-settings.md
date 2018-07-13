@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Hantering av sparade inställningar i rapporter
@@ -22,7 +22,7 @@ Beroende på rapporten som körs, kan du presenteras med en sida som gör att du
 
 Du kan se de sparade inställningar som är tillgängliga för dig för en rapport i avsnittet **Sparade inställningar** på sidan för rapportbegäran.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Om du vill ange sparade inställningar till en rapport
+## <a name="apply-saved-settings-to-a-report"></a>Ange sparade inställningar till en rapport
 1. Öppna rapporten.
 
    Sidan för rapportbegäran visas.    
@@ -30,7 +30,7 @@ Du kan se de sparade inställningar som är tillgängliga för dig för en rappo
 
    Avsnittet **Sparade inställningar** visas bara om rapporten har körts tidigare eller om det finns befintliga poster med sparade inställningar. Posten vid namn **Senast använda alternativ och filter** med sparade inställningar är alltid tillgänglig. Dessa inställningar är de alternativ- och filtervärden som användes förra gången som du körde rapporten.
 
-## <a name="administer-saved-report-settings-for-users"></a>Administrera sparade rapportinställningar för användare
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Skapa och ändra inställningarna för alla användare
 Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställningarna för alla rapporter för alla användare i företaget. Du kan tilldela sparade inställningar för en rapport till individuella användare eller alla användare i företaget.
 
 Du hanterar sparade inställningar från sidan 1506 **rapportinställningar**. För att öppna denna sida väljer du ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rappor"), ange **Rapporinställningar**, och väljer sedan relaterad länk.

@@ -1,6 +1,6 @@
 ---
-title: "Fakta om att använda Financials | Microsoft Docs"
-description: "Svar på vanliga frågor om hur du registrerar dig för Financials och vad som ska ske när du vill börja."
+title: "Vanliga frågor om att använda Business Central | Microsoft Docs"
+description: "Svar på vanliga frågor om hur du registrerar dig för Business Central och vad som ska ske när du vill börja."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 04/19/2018
+ms.date: 06/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
@@ -38,22 +38,27 @@ Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d36
 Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hittar svar på i denna dokumentation, kan du fråga communityn för Business Central. Mer information finns i [Dynamics 365 Business Central-community](https://community.dynamics.com/business). Supportteamet publicerar dessutom, tips och råd. Mer information finns i [Dynamics 365 Business Central-supportbloggen](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Går det att utöka min testversion på 30 dagar för "Nytt företag"?
-Ja. Om du vill utöka din testversion kontaktar du Microsoft på 1-888-477-7989 (USA) och 1-800-741-9206 (Kanada). Obs! Det kan ta upp till 2 arbetsdagar att slutföra processen fr utökad testversion.  
+Ja. Om du vill utöka din provperiod kontaktar du Microsoft på 1-800-865-9408. Obs! Det kan ta upp till 2 arbetsdagar att slutföra processen fr utökad testversion.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Vår administratör har flyttat mig till ett annat plan i syfte att ge mig en annan roll, men jag ser fortfarande samma Rollcenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Detta är lite komplicerat, men det verkar som om administratören inte ändrade ditt rollcenter och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta bestämmer dina behörigheter och din standardsida i Rollcenter. Du kan ändra ditt rollcenter manuellt i Mina inställningar men om du har ändrat till ett annat plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Har du läst om en ny funktion i översikten eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.
+Har du läst om en ny funktion i översikten eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.  
+
+## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jag få utbildning i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Ja det kan du. Men för närvarande behöver du fråga din återförsäljare. Om du inte vet vem det är kan du hitta en Business Central-partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
+
+Om du har tillgång till Microsoft CustomerSource kan du få tillgång till webbplatsen Imagine Academy med e-utbildningsmaterial. För mer information om hur du får tillgång, se sidan [Microsoft Dynamics 365 utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Varför visas vissa delar av användargränssnittet som jag använde i Dynamics NAV inte i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] modulsystemet och upplevelsemiljön kan du Visa/Dölja relevanta delar av produkten enligt inköpsplanen (grundläggande eller premium) och i enlighet med företagets behov.
 
 Dessa funktioner har använts för att underlätta användargränssnittet i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Till exempel fält som inte används så ofta, såsom **Faxnr**, har tagits bort, och menyflikar i listor och kort, dubbla åtgärder och mest använda åtgärder prioriteras. Några fullständiga funktioner, till exempel kommentarer, som är optimerade för webbklienten och därför inte ska finnas på [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Därför bör vissa gränssnittselement som är tillgängliga i standardversionen av Dynamics NAV inte visas i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kontroller i fråga har taggen #Avancerat programområde. 
+Därför bör vissa gränssnittselement som är tillgängliga i standardversionen av Dynamics NAV inte visas i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kontroller i fråga har taggen #Avancerat programområde.
 
-Om du vill att din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning ska innehålla samma gränssnittselement som din Dynamics NAV-lösning, måste du utföra några steg i utvecklingsmiljön för #Avancerade kontroller, genom ett tillägg. Mer information finns också i [Utöka programområden](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas)
+Om du vill att din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning ska innehålla samma gränssnittselement som din Dynamics NAV-lösning, måste du utföra några steg i utvecklingsmiljön för #Avancerade kontroller, genom ett tillägg. Mer information finns också i [Utöka programområden](/dynamics365/dev-itpro/developer/devenv-extending-application-areas)
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
@@ -63,5 +68,4 @@ Om du vill att din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning ska inne
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

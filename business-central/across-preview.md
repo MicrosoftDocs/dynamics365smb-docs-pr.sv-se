@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Åtkomst till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-förhandsgranskningen
@@ -43,7 +43,7 @@ Mer information finns i [Använda designern](https://docs.microsoft.com/en-us/dy
 3.  Välj **Skapa**. En flik öppnas där du kan avsluta konfigureringen av ditt begränsade läge.
 
     > [!Note]
-    > Om en popup-blockerare aktiverats i din webbläsare, ändra då så att den tillåter URL-adresser tillåts från adressen *.financials.dynamics.com*.  
+    > Om en popup-blockerare aktiverats i din webbläsare, ändra då så att den tillåter URL-adresser tillåts från adressen *.businesscentral.dynamics.com*.  
 
 4.  En välkomstsida visas när det begränsade läget är klart.  
 5.  Om du vill läsa om scenarier som du kan testa i ett begränsat läge, till exempel hur du utvecklar tillägg, väljer du länk **Mer information**. Klicka annars på **Stäng** för att fortsätta till rollcentret för din begränsade [!INCLUDE[d365fin](includes/d365fin_md.md)]-instans.  
@@ -67,7 +67,7 @@ Mer information finns i [Använda designern](https://docs.microsoft.com/en-us/dy
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller verktyg som du kan använda för att implementera egna tillägg och bädda in funktioner i syfte att lägga till nya, branschspecifika slutpunkt-till-slutpunkt-lösningar eller integrera tredjepartslösningar. Till exempel kan du använda en API för att skapa ett anslutet program i syfte att utbyta data mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och din löneapp. Ansluta appar har också användning av tillägg i syfte att skapa sidor som ska användas för installation, konfiguration eller app-specifika funktioner. Mer information finns i [Utveckla appar för [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

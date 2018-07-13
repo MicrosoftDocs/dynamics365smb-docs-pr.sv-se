@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
@@ -44,11 +44,8 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 5. I fönstret **Serviceinställningar för bankdatakonv.** i fältet **Användarnamn** anger du samma värde som du har angett som inloggningsnamn på tjänstleverantörens sida i steg 4.
 6. I fältet **Lösenord** anger du samma värde som du angav i fältet **Lösenord** på tjänstleverantörens sida i steg 4.
 
-## <a name="to-encrypt-your-login-information"></a>Så här kan du kryptera dina inloggningsuppgifter
-Du rekommenderas att skydda de inloggningsuppgifter som du anger i fönstret **Serviceinställningar för bankdatakonv.**. Du kan kryptera data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-servern genom att skapa nya eller importera befintliga krypteringsnycklar som aktiverar på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serverinstansen med anslutningen till databasen.
-
-1. I fönstret **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Krypteringshantering**.
-2. Aktivera krypteringen av dina data i fönstret **Datakrypteringshantering**.
+> [!NOTE]  
+> Dina inloggningsdata krypteras automatiskt.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Så här visar eller uppdaterar du listan över bankdataformat som stöds för närvarande
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.

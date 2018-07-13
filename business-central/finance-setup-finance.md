@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/20/2017
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 44b9d4b0f1a57920ad4be0ccb4a13f17df88ff3b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
@@ -30,6 +30,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | --- | --- |
 | Välj hur du betalar leverantörerna. |[Definiera betalningssätt](finance-payment-methods.md) |
 | Ange bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. |[Ställa in bokföringsmallar](finance-posting-groups.md)|
+|Skapa kontouppställningar och definiera kategorier för att definiera innehållet i ekonomiska tabeller och rapporter som rapporterna balansräkning och resultaträkning.|[Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ställa in räkenskapsperioder. |[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md) |
 | Definiera hur du rapporterar belopp för moms som du har lagrat för försäljning till skattemyndigheterna. |[Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
@@ -48,5 +49,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
