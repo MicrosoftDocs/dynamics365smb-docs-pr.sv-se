@@ -8,8 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
 ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
@@ -94,7 +95,6 @@ När du har skapat en miniformulär, nästa steg är att skapa operationer och a
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  
-
     ```  
 2.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, öppna tabell 7702 och lägg till en kod som representerar den nya tangenten. Skapa en tangent som heter **F6** i det här exemplet.  
 3.  Lägga till C/AL-koden till den aktuella operationen på miniformulärspecifika Codeunit för att hantera funktionen primärnyckel.  
