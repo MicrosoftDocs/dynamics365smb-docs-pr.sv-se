@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 03/16/2018
+ms.date: 07/05/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f4cb1b2fdd55275fc1a3cba494d1ea4b583b5ed
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
@@ -100,6 +100,9 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 |%12|Innehållet i fältet **Avgift per rad** i betalningspåminnelsens huvud|  
 
 Om du skriver exempelvis **du är skyldig %9 %7 som förfaller %2.**, innehåller den resulterande betalningspåminnelsen följande text: **du är skyldig 1 200,50 som förfaller 2014-02-02**.
+
+> [!NOTE]
+> Förfallodatumet beräknas enligt den formel du anger. Mer information finns i avsnittet "Använda datumformler" i [Ange datumintervall](ui-enter-date-ranges.md).
 
 När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
 

@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 62bb5421667ad53d619d0529d04cf8803890a6aa
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Felsöka registrering av Self Service
@@ -37,26 +37,30 @@ I många fall kan registrering för [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 | Om ditt Office 365-konto har registrerats i ett land som stöds och du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett annat land, visas ett meddelande liknande följande i samband med registrering:<br /><br />**Vi har inte stöd för ditt land eller din region ännu.**| Organisationens Office 365-prenumeration har registrerats för ett specifikt land i Office 365-administrationsportalen. Registreringsupplevelsen för [!INCLUDE[d365fin](includes/d365fin_md.md)] använder samma språk och nationella inställningar som den aktuella webbläsaren, och därmed kan du få du felmeddelandet trots att du befinner dig i ett land som stöds. Be IT-administratören att kontrollera det land som anges i organisationsprofilen i [Office 365-administrationsportalen](https://portal.office.com/adminportal/home#/companyprofile). Du kanske måste använda ett annat konto för [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Regional tillgänglighet
-[!INCLUDE[d365fin](includes/d365fin_md.md)] finns just nu på följande marknader:
+En lista med de marknader som för närvarande stöds finns i [Internationell tillgänglighet för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) på landningssidan [Lokal funktionalitet](about-localization.md).
 
-| Europa | Nordamerika |
+<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+
+| Europe | North America |
 | --- | --- |
-| Australien | Kanada |
-| Österrike | |
-| Belgien | USA |
-| Danmark | |
-| Tyskland | |
+| Australia | Canada |
+| Austria | |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
 | Finland | |
-| Frankrike | |
-| Italienska | |
-| Nederländerna | |
-| Nya Zeeland | |
-| Spanien | |
-| Sverige | |
-| Schweiz | |
-| Storbritannien | |
+| France | |
+| Italy | |
+| Netherlands | |
+| New Zealand | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
+-->
 
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Lokal funktionalitet](about-localization.md)  
 

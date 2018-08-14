@@ -61,7 +61,7 @@ När dina leverantörer har informerat dig om vilka fakturarabatter som de bevil
 
     Så här definierar du fakturarabattvillkor för inköp:
 4. I fönstret **leverantörskort** väljer du åtgärden **Fakturarabatter**. Fönstret **Leverantörsfakturarabatter** öppnas.
-5. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i USD.
+5. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i SEK.
 6. Ange i fältet **Minimibelopp** det minsta belopp som en faktura måste vara på för att komma i fråga för rabatt.
 7. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
 8. Upprepa steg 5 till och med 7 för varje valuta som leverantören ska ta emot en annan fakturarabatt för.

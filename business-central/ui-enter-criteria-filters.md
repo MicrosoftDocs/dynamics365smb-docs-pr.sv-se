@@ -50,7 +50,7 @@ Du kan lägga till filter för alla sidor genom att använda snabbfiltret. Snabb
     <TH>Returer...</TH>
   </TR>
   <TR>
-    <TD>tillverk</TD>
+    <TD>man</TD>
     <TD>@&#42;man&#42;</TD>
     <TD>Alla transaktioner som innehåller texten <b>man</b> och är skiftlägesokänsliga.</TD>
   </TR>
@@ -65,7 +65,7 @@ Du kan lägga till filter för alla sidor genom att använda snabbfiltret. Snabb
     <TD>Alla poster som börjar med texten <b>Man</b>.</TD>
   </TR>
   <TR>
-    <TD>'tillverk'</TD>
+    <TD>'man'</TD>
     <TD>En exakt text och är skiftlägeskänsligt.</TD>
     <TD>Alla poster som matchar <b>man</b> exakt.</TD>
   </TR>
@@ -159,7 +159,7 @@ När du anger villkor kan du använda alla siffror och bokstäver som du normalt
   
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  
-|'tillverk'|Text som matchar man exakt och är skiftlägeskänslig.|  
+|'man'|Text som matchar man exakt och är skiftlägeskänslig.|  
   
 ### <a name="-case-insensitive"></a>(@) Okänslig för skiftläge  
   

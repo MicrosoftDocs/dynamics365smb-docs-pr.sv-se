@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -59,7 +59,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |Hem<br />(Fn+vänsterpil)|Flytta till första fältet i raden.|Flytta till första panelen i raden.||
 |End<br />(Fn+högerpil)|Flytta till det sista ändringsbara fältet i raden.|Flytta till den sista panelen i raden.||
 |Page Up<br />(Fn+uppåtpil)|I samma kolumn, flytta till den översta raden som syns.|I samma kolumn, flytta till den översta raden som syns.||
-|Page Down<br />(Fn+nedpil)|I samma kolumn, flytta till den nedersta raden som syns.|I samma kolumn, flytta till den nedersta raden som syns.||
+|Page Down<br />(Fn+Nedpil)|I samma kolumn, flytta till den nedersta raden som syns.|I samma kolumn, flytta till den nedersta raden som syns.||
 |Enter<br />(Fn+nedpil)|Öppna posten som är associerad med fältet|Posten öppnas.| Endast relevant om en sida med kort associerad med posten.|
 |Ctrl+Home<br />(Fn+Ctrl+vänsterpil)|Markera den första raden i listan. Fokus flyttas då till det första ändringsbara fältet i raden|Flytta till panelen i listans första rad||
 |Ctrl+End<br />(Fn+Ctrl+högerpil)|Markera den sista raden i listan. Fokus flyttas då till det första ändringsbara fältet i raden|Flytta till den första panelen i listans sista rad||
@@ -91,6 +91,22 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Enter|Välj fokuserat datum.|
 |Ctrl+End<br />(Cmd+End)|Stäng kalendern och ta bort aktuellt datum.|
 |Esc|Stäng kalendern utan markering, behåll aktuellt datum.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Kortkommandon i Förhandsgranska rapport
+
+|Tryck på dessa tangenter<br />(i macOS)|Om du vill|
+|-----------------|-------|
+|Nedpil|Rulla nedåt på sidan.|  
+|Uppil|Rulla uppåt på sidan.|
+|Högerpil|Rulla åt höger när sidan zoomas in så att den inte visas helt och hållet. |
+|Vänsterpil|Rulla åt vänster när sidan zoomas in så att den inte visas helt och hållet. |
+|CTRL+0 (noll)<br />(Cmd+0)|Passar in hela sidan i fönstret. |
+|Ctrl+Home<br />(Cmd+Start)|Gå till den första sidan i rapporten.|
+|Ctrl+End<br />(Cmd+Start)|Gå till den sista sidan i rapporten.|
+|Page Down<br />(Fn+Nedpil)|Gå till nästa sida i rapporten.|
+|Page Up br-/>(Fn+Uppil)|Gå till föregående sida i rapporten.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

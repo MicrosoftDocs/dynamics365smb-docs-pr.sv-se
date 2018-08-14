@@ -266,6 +266,7 @@
 ## [Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)
 ## [Reservera artiklar](inventory-how-to-reserve-items.md)
 ## [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)
+## [Spärra artiklar](inventory-how-block-items.md)
 ## [Arbeta med ansvarsenheter](inventory-responsibility-centers.md)
 
 # [Projekthantering](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)
 ## [Designdetaljer: Bokföring av rad i redovisningsjournalen](design-details-general-journal-post-line.md)
 
-# Lokal funktionalitet
+# [Lokal funktionalitet](about-localization.md)
 ## [Australien](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Österrike](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgien](LocalFunctionality/Belgium/belgium-local-functionality.md)

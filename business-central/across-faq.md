@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
@@ -50,6 +50,10 @@ Har du läst om en ny funktion i översikten eller på vårt blogginlägg nylige
 Ja det kan du. Men för närvarande behöver du fråga din återförsäljare. Om du inte vet vem det är kan du hitta en Business Central-partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Om du har tillgång till Microsoft CustomerSource kan du få tillgång till webbplatsen Imagine Academy med e-utbildningsmaterial. För mer information om hur du får tillgång, se sidan [Microsoft Dynamics 365 utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Är [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgänglig i mitt land?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgänglig på ett begränsat antal marknader, men nya länder tillkommer varje kvartal via lokalisering av Microsoft eller dess partner. Mer information finns i [Länder och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Varför visas vissa delar av användargränssnittet som jag använde i Dynamics NAV inte i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] modulsystemet och upplevelsemiljön kan du Visa/Dölja relevanta delar av produkten enligt inköpsplanen (grundläggande eller premium) och i enlighet med företagets behov.

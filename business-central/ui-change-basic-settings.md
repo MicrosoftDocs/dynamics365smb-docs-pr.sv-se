@@ -47,7 +47,7 @@ Standardföretaget kallas CRONUS och innehåller endast demonstratiosdata.
 Standardarbetsdatumet är vanligen dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatumet.
 
 > [!TIP]  
->   Skriv **w** för att snabbt ange arbetsdatumet i datumfältet. Skriv **t** för att snabbt ange det aktuella datumet i datumfältet.
+>   Skriv **a** för att snabbt ange arbetsdatumet i datumfältet. Skriv **d** för att snabbt ange det aktuella datumet i datumfältet.
 
 > [!IMPORTANT]  
 >   Arbetsdatumet ändras endast till dess att du avslutar företaget eller datumet ändras. Om du öppnar ett annat företag eller öppnar företaget nästa dag, och fortfarande behöver använda ett annat arbetsdatum, måste du ange arbetsdatumet igen.
