@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Om du har tillgång till Microsoft CustomerSource kan du få tillgång till webb
 [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgänglig på ett begränsat antal marknader, men nya länder tillkommer varje kvartal via lokalisering av Microsoft eller dess partner. Mer information finns i [Länder och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Varför visas vissa delar av användargränssnittet som jag använde i Dynamics NAV inte i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] modulsystemet och upplevelsemiljön kan du Visa/Dölja relevanta delar av produkten enligt inköpsplanen (grundläggande eller premium) och i enlighet med företagets behov.
 
 Dessa funktioner har använts för att underlätta användargränssnittet i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Till exempel fält som inte används så ofta, såsom **Faxnr**, har tagits bort, och menyflikar i listor och kort, dubbla åtgärder och mest använda åtgärder prioriteras. Några fullständiga funktioner, till exempel kommentarer, som är optimerade för webbklienten och därför inte ska finnas på [!INCLUDE[d365fin](includes/d365fin_md.md)].
