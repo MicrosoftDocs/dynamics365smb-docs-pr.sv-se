@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="Hjälp" Page="product-get-started.html">
+  <Node Name="" DisplayName="Komma igång" Page="across-get-started.html">
+    <Node Name="" DisplayName="Översikt över affärsfunktioner" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Importera verksamhetsdata från andra finanssystem" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Få Business Central på din mobila enhet" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Synkronisera med kontakter i Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Använda Business Central som din företagsinkorg i Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Aktivera affärsdata för Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Använda Business Central som en Power BI-datakälla" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Anpassa Business Central med tillägg" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Tips och råd" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Arbeta med Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Använda Sök efter sida eller rapport" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Ändra grundinställningar" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Så här ändrar du rollcentret" Page="change-role.html"/>
+    <Node Name="" DisplayName="Anpassa Business Central" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Låta Business Central föreslå värden" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Skriva ut en rapport" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Videofilmer om vanliga uppgifter" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Ställa in Business Central" Page="setup.html">
+    <Node Name="" DisplayName="Installation och administration" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Logga ändringar" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Skapa nya företag" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Användare, profiler och rollcenter" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="Så här hanterar du användare och behörigheter" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Använda jobbköer för att schemalägga uppgifter" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="Så här: Publicerar du en webbtjänst" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in ekonomi" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Definiera betalningssätt" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Ställa in bokföringsmallar" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="Så här: arbeta med betalningstoleranser och kassarabattstolerans" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="Så här öppnar du ett nytt räkenskapsår" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Ställa in orealiserad moms" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="Så här uppdaterar du valutakurser" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Ställa in kontoplanen" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Ställa in analysvy för kassaflöde" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="Så här skapar du kontantkunder" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="Så här: Skapa Intrastat-rapportering" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="Så här: Arbeta med rapporten Konsoliderad råbalans" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in bank" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="Så här skapar du bankkonton" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="Så här ställer du in tjänsten bankdatakonvertering" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Konfigurera försäljning" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="Så här registrerar du nya kunder" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="Så här aktiverar du kundbetalningar via betalningstjänster" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="Så här registrerar du speciella försäljningspriser och rabatter" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Så här skapar du säljare" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="Så här konfigurerar du dokumentutskicksprofiler" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="Så här skickar du dokument som e-post." Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="Gör så här: Kontrollera momsregistreringsnummer" Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="Så här lägger du upp speditörer" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in inköp" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="Så här registrerar du nya leverantörer" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="Så här registrerar du speciella inköpspriser och rabatter" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Så här prioriterar du leverantörer" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="Så här skapar du inköpare" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in lager" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="Så här ställer du in allmän lagerinformation" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="Så här: Arbeta med ansvarsenheter" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="Så här skapar du lagerställen" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="Så här registrerar du nya objekt" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="Så här skapar du lagerställeenheter" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="Så här kategoriserar du artiklar" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställ in projekthantering" Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="Så här skapar du resurser" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="Så här kan du skapa tidrapporter" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="Så här skapar du projekt" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in anläggningstillgångar" Page="fa-setup.html">
+      <Node Name="" DisplayName="Så här skapr du allmän information för anläggningstillgångar" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="Så här skapar du avskrivning av anläggningstillgångar" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="Så här skapar du försäkring för anläggningstillgångar" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="Så här skapar du underhåll av anläggningstillgångar" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in lagerstyrning" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Designdetaljer: Översikt över distributionslager" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="Så här: Skapa Lagerplatstyper" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="Så här: Skapa lagerplatser" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="Så här skapar du lagerplatsinnehåll" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="Så här skapar du artikelinförselmallar:" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="Så här registrerar du distributionslagerpersonal" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="Så här: Lägger du upp lagerställen för att använda lagerplatser" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="Så här: Konvertera befintliga lagerställen till distributionslagerplatser" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="Så här: Ställa in grundläggande dist.lager med operationsområden" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="Så här skapar du artiklar och platser för dirigerad artikelinförsel och plockning:" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Så här: Inventera, justera eller gruppera lager" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="Så här: Aktivera Automatisk bryta ned volym med dirigerad artikelinförsel och plockning" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Så här: Aktivera plockning med FEFO" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="Så här: Aktivera automatiskt datainsamlingssystem (ADCS)" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="Så här: Omstrukturera distributionslager" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in Produktion" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="Så här skapar du produktionsgruppkalendrar" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="Så här: ställa in produktionsgrupper och maskingrupper" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="Så här skapar du operationsföljder" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="Så här skapar du nya produktionsstrukturer" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Så här: Aktivera bokföring av komponenter utifrån operationens utflöde" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="Så här kan du arbeta med enheter för produktionsbatch" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="Så här: arbeta med produktionsfamiljer" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="Så här skapar du standardoperationsföljdrader" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="Så här lägger du ut legotillverkning för produktion" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Ställa in servicehantering" Page="service-setup-service.html">
+      <Node Name="" DisplayName="Så här skapar du standardservicekoder" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="SÅ här: Konfigurera serviceprocesser" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="Så här: Skapa felrapportering" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="Så här skapar du serviceerbjudanden" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="Så här skapar du felsökning:" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="Så här kan du ställa in resursfördelningar" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="Så här: registrera prissättning och alternativa kostnader för service" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="Så här ställer du in serviceartiklar och serviceartikelkomponenter" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="Ställa in arbetstimmar och servicetider" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="Så här: ställa in status för serviceorder och reparationer" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="Så här: Lägga upp program för låneartiklar" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="Så här skapar du servicekontrakt" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Avskrivningsmetoder" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="Så här konfigurerar du e-post" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="Så här skapar du nummerserier" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="Så här skapar du utökad objekttext" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Så här lägger du upp baskalendrar" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Ställa in komplexa moduler med hjälp av bästa metoder" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Skapa metodtips: leveransplanering" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Lägga upp bästa metoder: Värderingsprinciper" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Finans" Page="finance.html">
+    <Node Name="" DisplayName="Hantera kundreskontra" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Koppla utbetalningar automatiskt och stämma av bankkonton" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument" Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="Så här kopplar du kundbetalningar manuellt" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="Så här kräver du in utestående saldon" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="Så här: Använd artikelomkostnader till kontot för ytterligare kostnader" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="Så här: arbeta med betalningstoleranser och kassarabattstolerans" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Hantera Leverantörsreskontra" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Göra betalningar" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Koppla utbetalningar automatiskt och stämma av bankkonton" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Så här stämmer du av leverantörsbetalningar manuellt" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="Så här: Använd artikelomkostnader till kontot för ytterligare kostnader" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Fakturera förskottsbetalningar" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="Så här: Konfigurera förskottsbetalningar" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="Så här skapar du förskottsfakturor" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="Så här korrigerar du förskottsbetalningar" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Hantera bankkonton" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Koppla utbetalningar automatiskt och stämma av bankkonton" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Så här stämmer du av bankkonton separat" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Så här överför du banktillgångar" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Hantera koncerninterna transaktioner" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="Så här konfigurerar du Koncernintern" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="Så här: arbeta med koncerninterna dokument och journaler" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="Så här: Hantera koncerninterna inkorgs- och utkorgstransaktioner" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Redovisa kostnader" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Terminologi i kostnadsredovisning" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="Om kostnadsredovisning" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Ställa in kostnadsredovisning" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Överföra och bokföra kostnadstransaktioner" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Definiera och fördela kostnader" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Skapa kostnadsbudgetar" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Hantera lagerkostnader" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="Om Lagerkostnad" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Ställa in lagervärdering och lagerkostnad" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="Så här omvärderar du lager" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="Så här justerar du artikelkostnader" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="Så här: Hantera lager - och produktionskostnader" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="Så här kan du uppdatera standardkostnader" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Rapportera kostnader och stämma av med redovisningen" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Designdetaljer: Lagerkalkylering" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Så här fungerar i redovisningen och kontoplanen" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Arbeta med dimensioner" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="Så här skapar du budgetar" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="Så här bokför du transaktioner direkt i redovisningen" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="Så här: Återföra en bokning" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Förklarar hur du fördelar kostnader och intäkter." Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="Så här: Använd artikelomkostnader till kontot för ytterligare kostnader" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="Så här: skapa och återbetala anställdas utgifter" Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="Så här periodiserar du intäkter och kostnader" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="Så här Importera du lönetransaktioner " Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Så här: rapportera moms till skattemyndigheterna" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="Så här arbetar du med moms på försäljning och inköp" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="Så här: omvandla servicekontrakt som innehåller momsbelopp" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Analysera finansiella rapporter i Excel" Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Analysera transaktioner i företaget" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Avsluta år och perioder" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="Så här anger du bokföringsperioder" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="Avsluta perioder" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Så här uppdaterar du valutakurser" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Förklarar hur du fördelar kostnader och intäkter." Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="Så här: rapportera moms till skattemyndigheterna" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Förbereder rapporter före bokslut" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Avsluta böcker" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Förbereda årsbokslutsrapporter" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Affärsstöd" Page="bi.html">
+    <Node Name="" DisplayName="Så här: Analysera faktiska belopp kontra budgeterade belopp" Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="Så här: Arbeta med kontouppställningar" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="Så här: Skapar och publicerar du KPI-webbtjänster som är baserade på kontouppställningar" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="Så här: Analysera data efter dimensioner" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="Så här skapar du nya försäljningsanalysrapporter" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="Så här skapar du rapporter med XBRL" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="FÖRS" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="Så här gör du erbjudanden" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="Så här fakturerar du försäljning" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="Så här säljer du produkter" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="Så här: Skapa återkommande försäljnings- och inköpsrader" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="Så här utför du direktleveranser" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="Så här skapar du specialorder" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="Så här rättar eller makulera du obetalda försäljningsfakturor" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="Så här behandlar du försäljningreturer eller annulleringar" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Så här: Arbeta med försäljningsavropsorder" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="Så här kombinerar du leveranser på en enda faktura" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="Så här beräknar du ett orderlöftesdatum" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="Så här spårar du godspaket" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Inköp" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="Så här registrerar du inköp" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="Så här begär du offerter" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="Så här köper du artiklar för en försäljning" Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="Så här rättare eller makulerar du obetalda inköpsfakturor" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="Så här kombinerar du inleveranser på en enda faktura" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="Så här behandlar du inköpsreturer eller annulleringar" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Datumberäkning för inköp" Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Lagersaldo" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="Så här registrerar du nya objekt" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="Så här arbetar du med strukturer" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Så här kategoriserar du artiklar" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="Så här arbetar du med Artikelattribut" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="Så här arbetar du med Ej lagerförda artiklar" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="Så här: Inventera, justera och gruppera lager" Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="Så här visar du artikeldisposition" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="Så här överför du lager mellan olika lagerställen" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="Så här reserverar du artiklar" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="Så här arbetar du med serienummer och partinummer" Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="Så här: Arbeta med ansvarsenheter" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Projekthantering" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="Så här skapar du projekt" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="Så här använder du resurser för projekt" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="Så här kan du använda tidrapporter för projekt" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="Så här: hanterar du projektbudget" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="Så här kan du registrera förbrukning för projekt" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="Så här hanterar du projektleveranser" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="Förstå PIA-metoder" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="Så här övervakar du projektets framsteg och resultat" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="Så här fakturerar du projekt" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Anläggningstillgångar" Page="fa-manage.html">
+    <Node Name="" DisplayName="Så här anskaffar du anläggningstillgångar." Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="Så här underhåller du anläggningstillgångar." Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="Så här försäkrar du anläggningstillgångar." Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="SÅ här överför, delar eller kombinerar du anläggningstillgångar." Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="Så här omvärderar du anläggningstillgångar." Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="Så här skriver du av eller amorterar anläggningstillgångar" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="Så här avyttrar och ställer av anläggningstillgångar." Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="Så här hanterar du budgetar för anläggningstillgångar" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Kundhantering" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="Ställa in Kundhantering" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Hantera kontakter" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Hantera segment" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Registrera interaktioner" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Hantera Försäljningsmöjligheter" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Hantera kunder och försäljningsorder som har skapats i Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Personal" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="Så här registrerar du personal" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Så här administrerar du personalfrånvaro" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Planering" Page="production-planning.html">
+    <Node Name="" DisplayName="Om planeringsfunktioner" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="Så här lägger du ut legotillverkning för produktion" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Planera med och utan lagerställen." Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="Så här skapar du en prognos" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="Så här skapar du produktionsorder från försäljningsorder" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="Så här kan du planera projektorder" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="Så här: Planera för nya behov per order" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="Så här kör du en fullständig planering, nettobehov och produktionsplan" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="Omplanera eller uppdatera produktionsorder direkt" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="Hur du spårar relationer mellan tillgång och efterfrågan" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="Så här kan du ändra planeringsförslag i en grafisk översikt över serviceverksamheten" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Monteringshantering" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Förstå montering mot kundorder och montering mot lager" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="Så här skapar du en offert för montering mot kundorder-försäljning" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="Så här: Artiklar monteras" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="Så här säljer du en artikel som monterats mot kundorder" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="Så här säljer du lagerartiklar i flöde för montering mot kundorder" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="Så här: Ångra monteringbokning" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="Så här arbetar du med strukturer" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Designdetaljer: Bokföring av monteringsorder" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Produktion" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="Om produktionsorder" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="Så här skapar du ett produktionsorder" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="Så här lägger du ut legotillverkning för produktion" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Så här bokför du förbrukning och utflöde för en utsläppt produktionsorderrad." Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="Så här: batch-bokföra förbrukning" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="Så här: Batch-bokför utflöde och körtid" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="Så här bokför du kassationen:" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Så här visar du beläggning på produktions- och maskingrupper" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="Så här bokför du kapaciteter" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="Om kostnader för färdiga produktionsorder" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Lagerstyrning" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="Så här inlevererar du artiklar" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="Så här: Artiklar för direktutleverans" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Införa utflöde från artiklar" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Flytta artiklar" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="Plocka artiklar" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="Så här utlevererar du artiklar" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="Servicehantering" Page="service-service.html">
+    <Node Name="" DisplayName="Planera service" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Uppfylla servicekontrakt" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Leverera service" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="Allmänna affärsfunktioner" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="Så här skapar du utökad objekttext" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Arbeta med redovisningsjournaler" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="Så här skickar du dokument som e-post" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Arbeta med rapporter" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Hantera rapport- och dokumentlayouter" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Logga ändringar i Business Central" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Så här hanterar du användare och behörigheter" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Anpassa Business Central med tillägg" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Inkommande dokument" Page="across-income-documents.html">
+      <Node Name="" DisplayName="Så här konfigurerar du Inkommande dokument" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Bearbeta inkommande dokument" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Arbetsflöde" Page="across-workflow.html">
+      <Node Name="" DisplayName="Konfigurera arbetsflöden" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Använda arbetsflöden" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Utbyta data elektroniskt." Page="across-data-exchange.html">
+      <Node Name="" DisplayName="Om ramverket för datautbyte" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Konfigurera datautbyte" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Utbyta data" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Definiera användaruppgifter" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Genomgång av affärsprocesser" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Genomgång: Genomföra en försäljningskampanj" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Genomgång: Planera leveranser manuellt" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Genomgång: Planera leveranser automatiskt" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Genomgång: Sälja, sammanställa och leverera satser" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Genomgång: Hantera projekt med Projekt" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Genomgång: Beräkna produkter i arbete för ett projekt" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Genomgång: Plockning och leverans i grundläggande lagerkonfiguration" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Genomgång: Spåra serienummer/partinummer" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Designdetaljer" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Designdetaljer: Dimensionsuppsättningstransaktioner" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Designdetaljer: Leveransplanering" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Designdetaljer: Lagerkalkylering" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Designdetaljer: Lagerstyrning" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Designdetaljer: Objektspårning" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Designdetaljer: Bokföring av rad i redovisningsjournalen" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Lokal funktionalitet" Page="index.html">
+    <Node Name="" DisplayName="Australien" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Österrike" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="Belgien" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Kanada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Danmark" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Finland" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="Frankrike" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Tyskland" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="Island" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Italienska" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Mexico" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Nederländerna" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="Nya Zeeland" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Norge" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Ryssland" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Spanien" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Sverige" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Schweiz" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Storbritannien" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="USA" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>
