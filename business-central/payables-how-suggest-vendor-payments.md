@@ -29,10 +29,9 @@ För att dra full nytta av betalningsförslagen, måste du prioritera leverantö
 
 > [!IMPORTANT]  
 >   Om du vill utnyttja kassarabatterna och har angett ett disponibelt belopp, används beloppet för:  
-
-* Prioritera förfallna leverantörstransaktioner först efter prioritet.  
-* Förfallna leverantörstransaktioner som inte prioriterats.  
-* Öppna leverantörstransaktioner som är berättigade till kassarabatter, ordnade efter leverantörsnummer.  
+    * Prioritera förfallna leverantörstransaktioner först efter prioritet.   
+    * Förfallna leverantörstransaktioner som inte prioriterats.  
+    * Öppna leverantörstransaktioner som är berättigade till kassarabatter, ordnade efter leverantörsnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Om du vill använda funktionen Betalningsförslag för lev.
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
