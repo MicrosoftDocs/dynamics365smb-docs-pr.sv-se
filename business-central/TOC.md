@@ -110,7 +110,6 @@
 ### [Inventera, justera och omgruppera lager](inventory-how-count-adjust-reclassify.md)
 ### [Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Aktivera plockning med FEFO](warehouse-picking-by-fefo.md)
-### [Aktivera automatiska datainsamlingssystem (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)
 ## [Ställa in Produktion](production-configure-production-processes.md)
 ### [Skapa produktionsgruppkalendrar](production-how-to-create-work-center-calendars.md)
