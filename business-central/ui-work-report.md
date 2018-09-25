@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeta med rapporter
 En rapport samlar in information som baseras på en viss uppsättning villkor och ordnar och visar informationen i ett format som är lätt att läsa, och kan skrivas ut. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
 
-Du kan visa rapporter i fliken **rapporter** på markerade sidor eller också kan du använda sökning för att hitta rapporter efter namn. När du öppnar en rapport visas en sida att vi ska ange information (alternativ och filter) som du bestämmer ska ingå i rapporten. Beroende på vilken rapport anger du till exempel ett datumintervall, en viss post, till exempel en kund eller sorteringsordning. Nedan finns ett exempel:
+Rapporterna hittar du på utvalda sidor under fliken **Rapporter**, eller också kan du använda sökfunktionen ![Sök sida eller rapport](media/ui-search/search_small.png "Ikon för Sök sida eller rapport") för att söka rapporter efter namn.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>Ange den information du vill inkludera i rapporten
+När du öppnar en rapport visas vanligtvis en sida där du kan ange olika alternativ och filter som avgör vad som inkluderas i rapporten. Denna sida kallas sidan för rapportförfrågan. Sidan för rapportförfrågan låter dig exempelvis skapa en rapport för en specifik kund, ett specifikt datumintervall, samt att sortera informationsordningen i rapporten. Här följer ett exempel på en sida för rapportförfrågan:
 
 ![Rapportalternativ](media/report_options.png "Rapportalternativ")
+
+### <a name="SavedSettings"></a>Använda sparade inställningar
+Beroende på hur vissa rapporter utformas kan rapportsidan komma att inkludera avsnittet **Sparade inställningar** som innehåller en eller flera poster i rutan **Använd standardvärde från**. Posterna i denna ruta kallas *sparade inställningar*. En sparad inställning är i princip en förinställd grupp inställningar och filter som du kan tillämpa på rapporten innan du förhandsgranskar eller skickar rapporten till en fil. Posten vid namn **Senast använda alternativ och filter** med sparade inställningar är alltid tillgänglig. Den här posten anger rapporten till att använda alternativ och filter som användes när du tittade på rapporten.
+
+Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. När du har angett rutan **Använd standardvärde från** till en sparad inställning kan du ändrar valfria alternativ och filter innan du förhandsgranskar eller sparar rapporten. Utförda ändringar sparas inte i de post för sparad ändring som du valde, utan sparas i stället i **Senast använda alternativ och filter**.
+
+>[!NOTE]
+>Om du innehar administratörsrättigheter kan du skapa och hantera sparade rapportinställningar för samtliga användare. Mer information finns i [Hantera sparade inställningar i rapporter](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Ange alternativ och filter
+Om du ytterligare vill begränsa eller exakt ange den data som ska ingå i rapporten kan du ange ytterligare alternativ och filter.
+
+Filter låter dig visa data baserat på specifika kriterier. Filter grupperas efter den entitet de tillhör, exempelvis **Kund** i ovanstående illustration. Du anger ett filter genom att ange rutan **Där** som det fält du vill tillämpa filtret på och sedan lägga till kriteriet i rutan **är:**. I ovanstående illustration finns exempelvis ett enda filter som kommer att skapa en rapport för den kund vars **No.** (nummer) är lika med **01121212**.
+
+Du kan lägga till fler filter genom att ange rutorna för **Lägg till**. När du har mer än ett filter kommer endast de resultat som matchar kriterierna för samtliga filter att inkluderas i rapporten.
+
+Beroende på den typ av fält som du filtrerar kan du ange att filterkriterierna ska söka efter en exakt matchning, en delmatchning, ett värdeintervall med mera. För information om hur du ställer in filter, se:
+-   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)
+-   [Ange datumintervall ](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Så här förhandsgranskar du en rapport:
 Välj **Förhandsgranskning** för att visa rapporten i Internet-webbläsaren. Peka på ett område i rapporten för att visa menyraden.  
@@ -57,14 +80,6 @@ Du kan schemalägga en rapport när du öppnar en rapport. Du väljer åtgärden
 
 ## <a name="PrintReport"></a>Skriva ut en rapport
 Du kan skriva ut en rapport från knappen **Utskrift** på alternativsidan som visas när du öppnar rapporten eller på menyraden i förhandsgranskningen.
-
-## <a name="using-saved-settings"></a>Använda sparade inställningar
-En rapport kan innehålla en eller flera poster i fältet **sparade inställningar**. *Sparade inställningar* är i princip en fördefinierad uppsättning alternativ och filter som du kan använda till rapporten innan du förhandsgranskar eller skickar rapporten till en fil. Att använda sparade inställningar är ett snabbt och pålitligt sätt att konsekvent skapa rapporter som innehåller korrekta data.
-
-Posten vid namn **Senast använda alternativ och filter** med sparade inställningar är alltid tillgänglig. Den här posten anger rapporten till att använda alternativ och filter som användes när du tittade på rapporten.
-
->[!NOTE]
->Som administratör kan du skapa och hantera de sparade inställningarna för rapporter för alla användare. Mer information finns i [Hantera sparade inställningar i rapporter](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Ändra layout och utseende på en rapport
 En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Om du vill växla till en annan layout, se [Ändra vilken layout som för närvarande används i en rapport](ui-how-change-layout-currently-used-report.md). Om du vill anpassa rapportens layout, se [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).

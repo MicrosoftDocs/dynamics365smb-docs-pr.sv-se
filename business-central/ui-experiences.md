@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 05/27/2018
+ms.date: 07/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Ändra vilka funktioner som visas
@@ -36,7 +36,7 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 | **Premium** |Visar alla åtgärder och fält för alla företagsfunktioner, till exempel produktion och service.|
 
 > [!NOTE]  
-> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365. Se även [!INCLUDE[d365fin](includes/d365fin_md.md)]Licensieringsguide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365. Se även [[!INCLUDE[d365fin](includes/d365fin_md.md)] Liicensieringsguiden](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Alla vanliga användare i en lösning måste tilldelas samma plan Essential eller Premium, innan den miljön kan väljas för företaget. En användare kan inte därmed öppna Premium-funktioner om en eller flera användare kan endast åtkomst Essential-funktioner. Detta gäller inte för ej vanliga användare av typen gruppmedlem, intern administration, extern revisor och delegerad administratör, som var och en tilldelas ett annat schema än andra användare i lösningen.
@@ -66,8 +66,7 @@ Du kan nu fortsätta med att välja den nya miljön.
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]Licensieringsguide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensieringsguide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

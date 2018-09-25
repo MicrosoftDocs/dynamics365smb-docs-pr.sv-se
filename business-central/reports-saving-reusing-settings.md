@@ -11,37 +11,46 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Hantering av sparade inställningar i rapporter
-Beroende på rapporten som körs, kan du presenteras med en sida som gör att du kan ange vissa alternativ och filter för att ändra data som ingår i den skapade rapporten. Den här sidan är känd som sidan för rapportbegäran. En rapport kan innehålla en eller flera *sparade inställningar* som du kan tillämpa till rapporten från sidan för begäran. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och pålitligt sätt att konsekvent skapa rapporter som innehåller korrekta data.
+När användaren kör en rapport visas vanligtvis en sida där han eller hon kan ange vissa alternativ och filter för att ändra den data som inkluderas i den genererade rapporten. Denna sida kallas sidan för rapportförfrågan. En rapport kan omfatta en eller flera *sparade(e) inställning(ar)* som användarna kan tillämpa på rapporten från sidan för förfrågan. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. Mer information om hur sparade anställningar används finns i [Använda sparade inställningar](ui-work-report.md#SavedSettings).
 
-Du kan se de sparade inställningar som är tillgängliga för dig för en rapport i avsnittet **Sparade inställningar** på sidan för rapportbegäran.  
-
-## <a name="apply-saved-settings-to-a-report"></a>Ange sparade inställningar till en rapport
-1. Öppna rapporten.
-
-   Sidan för rapportbegäran visas.    
-2. I avsnittet **Sparade inställningar** på sidan anger du fältet **Namn** till de sparade inställningar som du vill använda.
-
-   Avsnittet **Sparade inställningar** visas bara om rapporten har körts tidigare eller om det finns befintliga poster med sparade inställningar. Posten vid namn **Senast använda alternativ och filter** med sparade inställningar är alltid tillgänglig. Dessa inställningar är de alternativ- och filtervärden som användes förra gången som du körde rapporten.
-
-## <a name="create-and-modify-saved-settings-for-all-users"></a>Skapa och ändra inställningarna för alla användare
 Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställningarna för alla rapporter för alla användare i företaget. Du kan tilldela sparade inställningar för en rapport till individuella användare eller alla användare i företaget.
 
-Du hanterar sparade inställningar från sidan 1560 **rapportinställningar**. För att öppna denna sida väljer du ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rappor"), ange **Rapporinställningar**, och väljer sedan relaterad länk.
+<!-- 
+## Apply saved settings to a report
+1. Open the report.
 
-Från sidan **Rapporinställningar** kan du skapa nya inställningar från noll, eller så kan du göra en kopia och ändra befintliga inställningar. För att ändra alternativ och filter för inställningar väljer du åtgärden **Redigera**.
+   The report request page appears.    
+2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
 
-> [!NOTE]
-> Funktionen för sparade inställningar i rapporter är bara relevant när egenskapen SaveValues på sidan för begäran är inställd på Ja. Egenskapen SaveValues anges i utvecklingsmiljön.  
+   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
+
+-->
+
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Skapa och ändra inställningarna för alla användare
+Du hanterar sparade inställningar från sidan **1560 Rapportinställningar**. Det finns två sätt att öppna denna sida:
+-   Välj ikonen för ![Sök sida eller rapport](media/ui-search/search_small.png "Ikonen för Sök sida eller rapport"), ange **Rapportinställningar** och välj sedan tillhörande länk.
+-   Öppna en rapport, välj söktexten bredvid rutan **Använda standardvärden från:** och sedan **Välj från komplett lista**.
+
+Denna sida visar samtliga befintliga poster för sparade inställningar för samtliga användare. Om det finns ett användarnamn i kolumnen **Tilldelad till** kan endast denna användare använda de sparade inställningarna för associerad rapport. Om det finns en bock i kolumnen **Dela med samtliga användare** kan samtliga användare använda de sparade inställningarna för rapporten.
+
+Via sidan **Rapportinställningar** kan du:
+-   Välja **Nytt** för att skapa en ny post för sparade inställningar från grunden.
+-   Välja en post för sparade inställningar i listan och sedan välja **Kopiera** för att skapa en kopia.
+-   Välja en post för sparade inställningar i listan och sedan välja **Redigera** för att ändra en post för sparade inställningar.
+
 
 > [!Important]
-> Om du skapar en artikel med sparade inställningar för alla användare och denna artikel har samma namn som befintliga sparade inställningar för en viss användare, kan den användaren inte använda de sparade inställningar som har tilldelats alla.  I fältet Sparade inställningar på sidan för rapportbegäran visas två alternativ för sparade inställningar med samma namn. Oavsett vilket alternativ användaren väljer kommer de användarspecifika sparade inställningarna att tillämpas.
+> Var noggrann när du väljer namn för en post för sparade inställningar. Om du skapar en post för sparade inställningar för samtliga användare, och du ger denna post samma namn som en befintlig post för sparade inställningar som endas tilldelats en specifik användare, så kommer denna användare inte att kunna använda posten för sparade inställningar som tilldelats alla.  Under **Sparade inställningar** på sidan för rapportförfrågan kommer användaren att se två sparade poster för sparade inställningar med samma namn. Oavsett vilket alternativ han eller hon väljer kommer emellertid posten för användarspecifika sparade inställningar att användas.
+
+> [!NOTE]
+> Funktionen för sparade inställningar finns bara för rapporter där [värdet SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) på sidan för rapportförfrågan har angetts som `Yes`. Egenskapen **SaveValues** anges i utvecklingsmiljön.  
 
 ## <a name="see-also"></a>Se även
 [Arbeta med rapporter](ui-work-report.md)  

@@ -1,8 +1,6 @@
 ---
 title: Exportera dina Business Central-data till Excel | Microsoft Docs
 description: "Du kan exportera dina finansiella rapporter och affärsinformationsdata från Business Central till Excel, eller också öppna dina data i Excel."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 06/02/2017
+ms.date: 08/13/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 3bd7442582fe13809ea04d1f298b7aecbf9b45ed
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
@@ -26,6 +24,9 @@ Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i E
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
 
 Alla listor inkluderar ett antal kolumner och exportering till Excel inkluderar alla kolumner i den aktuella vyn. Om du vill lägga till eller ta bort kolumner innan du öppnar listan i Excel öppnar du bara snabbmenyn för en kolumn och anger sedan vilka kolumner som du vill visa. Denna lista över kolumner är olika för de flesta listor och återspeglar strukturen i databasen där data lagras. Om du inte vet vilken typ av data som en viss kolumn, kan du lägga till den i din vy och sedan bestämma dig för om du vill ta bort den igen.  
+
+### <a name="edit-data-in-excel"></a>Redigera data i Excel
+Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse omfattar ett tillägg för Excel som låter dig redigera data i Excel. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exportera data till andra finanssystem
 Om du vill avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.  
@@ -65,6 +66,7 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 ## <a name="see-also"></a>Se även
 [Avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Ekonomi](finance.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
