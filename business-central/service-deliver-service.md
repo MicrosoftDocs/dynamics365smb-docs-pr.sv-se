@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d8250f4e80af08c7500e495ac539d0c035636895
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivering-service"></a><span data-ttu-id="f893c-103">Leverera service</span><span class="sxs-lookup"><span data-stu-id="f893c-103">Delivering Service</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
   
 <span data-ttu-id="f893c-109">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="f893c-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
 
-<span data-ttu-id="f893c-110">Ett tjänstehanteringsprogram måste kunna hantera kunders serviceförfrågningar.</span><span class="sxs-lookup"><span data-stu-id="f893c-110">A service management application must interface with a customer request for service.</span></span> <span data-ttu-id="f893c-111">Denna förfrågan omvandlas vanligtvis till en serviceorder.</span><span class="sxs-lookup"><span data-stu-id="f893c-111">That service request usually is translated into a service order.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="f893c-112"> ger verktyg för att skapa en order både som ett direkt svar på en kundfråga eller som en del i kontraktsprocess, om programmet har ställts in på det sättet.</span><span class="sxs-lookup"><span data-stu-id="f893c-112"> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.</span></span>  
+<span data-ttu-id="f893c-110">Ett tjänstehanteringsprogram måste kunna hantera kunders serviceförfrågningar.</span><span class="sxs-lookup"><span data-stu-id="f893c-110">A service management application must interface with a customer request for service.</span></span> <span data-ttu-id="f893c-111">Denna förfrågan omvandlas vanligtvis till en serviceorder.</span><span class="sxs-lookup"><span data-stu-id="f893c-111">That service request usually is translated into a service order.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f893c-112">ger verktyg för att skapa en order både som ett direkt svar på en kundfråga eller som en del i kontraktsprocess, om programmet har ställts in på det sättet.</span><span class="sxs-lookup"><span data-stu-id="f893c-112"> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.</span></span>  
   
 <span data-ttu-id="f893c-113">Om det behövs kan du hantera ett låneartikelprogram för kunderna.</span><span class="sxs-lookup"><span data-stu-id="f893c-113">If needed, you can manage a loaner program for your customers.</span></span> <span data-ttu-id="f893c-114">Du kan också bestämma en prisstruktur, placera servicepriserbjudanden i logiska grupper och skapa prisjusteringar.</span><span class="sxs-lookup"><span data-stu-id="f893c-114">You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.</span></span>  
   
