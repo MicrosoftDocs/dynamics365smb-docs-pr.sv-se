@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 47bec751702ca2f2947559e5c8abb9c1d1d16025
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 9eb33766a24ba2d4c81d17d5f4d40c1e3cef2153
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="sweden-local-functionality"></a><span data-ttu-id="de226-103">Lokal funktionalitet för Sverige</span><span class="sxs-lookup"><span data-stu-id="de226-103">Sweden Local Functionality</span></span>
