@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: cb4933268be7f0a571622e6d8eccec6bd9ee2d09
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 26b911718a9741cd070af131aef3d258fd85e1eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="accountant-portal-for-business-central"></a>Revisorportal för Business Central
+# <a name="the-accountant-portal-for-business-central-extension"></a>Tillägget Revisorportal för Business Central
 Det här programmet har en instrumentpanel med summerad information för varje klient från en revisor. Portalen visar ekonomiska KPI:er som en direkt länk till klientens affärssystem.  
 
 Instrumentpanelen innehåller ett mycket specialiserat rollcenter för en bättre överblick över dina kunder.  

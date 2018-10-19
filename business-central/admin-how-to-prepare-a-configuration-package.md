@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
@@ -32,7 +32,7 @@ Se till att du befinner dig i implementerings-rollcentret för RapidStart Servic
 >  Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
 
 ## <a name="to-create-a-configuration-package"></a>Så här skapar du ett konfigurationspaket  
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i övriga fält på snabbfliken **Allmänt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Om du vill utesluta konfigurationsfrågeformulären, konfigurationsmallarna och konfigurationskalkylarkstabellerna från paketet markerar du kryssrutan **Uteslut konfigurationstabeller**. Annars kommer de här tabellerna att läggas till listan över pakettabeller automatiskt när du exporterar paketet.  
@@ -79,7 +79,7 @@ Du kan spara filen med ett namn som är meningsfullt för dig, men du kan inte �
 ### <a name="to-copy-a-configuration-package"></a>Kopiera ett konfigurationspaket  
 När du har skapat ett paket som uppfyller de flesta av behoven kan du använda det som en grund för att skapa liknande paket. Detta kan påskynda implementeringstiden och gör det lättare att upprepa RapidStart Services.
 
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj ett paket i listan och välj sedan åtgärden **Kopiera paket**.  
 3. I fältet **Kod för nytt paket** anger du en kod för det nya paketet.  
 4. Markera kryssrutan **Kopiera data** om du också vill kopiera databasdata från det befintliga paketet.  
@@ -88,7 +88,7 @@ När du har skapat ett paket som uppfyller de flesta av behoven kan du använda 
 ## <a name="to-customize-a-configuration-package"></a>Så här anpassar du ett konfigurationspaket
 Använd konfigurationskalkylarket för att samla ihop och kategorisera information som du vill använda för att konfigurera ett nytt företag, och ordna tabellerna på ett logiskt sätt. Formateringen i kalkylarket baseras på en enkel hierarki: områden innehåller grupper, som i sin tur innehåller tabeller. Områden och grupper är valfria, men nödvändiga om du vill kunna se en översikt över konfigurationsprocessen i RapidStart Services-rollcentret.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 2.  Välj **Område** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 3.  Välj **Grupp** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 4.  Välj **Tabell** i fältet **Radtyp**. Välj tabellen som du vill ta med i kalkylarket i fältet **Tabell-ID**.  
@@ -105,7 +105,7 @@ När du har definierat tabeller som du vill hantera som en del av konfiguratione
 > [!NOTE]  
 >  Du kan också skapa ett paket direkt och lägga till tabeller i det. För mer information, se avsnittet "Så här skapar du ett konfigurationspaket".
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.
 2. Markera en rad eller en grupp med rader som du vill tilldela till ett konfigurationspaket i konfigurationskalkylarket, och välj sedan åtgärden **Tilldela paket**.  
 3.  Välj ett paket i listan eller välj åtgärden **Nytt** för att skapa ett nytt paket, och välj sedan knappen **OK**.  
 
@@ -115,7 +115,7 @@ När du har definierat tabeller som du vill hantera som en del av konfiguratione
 ## <a name="to-review-or-customize-existing-database-data"></a>Så här granskar och anpassar du befintliga databasdata
 När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa tillgängliga databasdata så att dessa stämmer överens med dina kundbehov. Databastabellen måste vara kopplad till en sida.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.
 2. Identifiera tabellerna med data som du vill visa eller anpassa i konfigurationskalkylarket.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa 
 När du har kontrollerat och testat alla inställningar kan du fortsätta med att kopiera informationen till din produktionsmiljö. Du skapar ett nytt företag i samma databas.
 
 1. Öppna och initialisera det nya företaget.  
-2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 3. Välj åtgärden **Kopiera data från företag**.  
 4. Välj fältet **Kopiera från** i fönstret **Kopiera företagsdata**. Fönstret **Företag** öppnas.  
 5. Välj det företag som du vill kopiera data ifrån och välj sedan knappen **OK**. En lista över tabeller som har valts i konfigurationskalkylarket öppnas. Endast tabeller som innehåller poster tas med i listan.

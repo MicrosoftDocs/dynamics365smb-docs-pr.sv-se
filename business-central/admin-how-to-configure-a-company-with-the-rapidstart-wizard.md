@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
 Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
 
-I följande procedur har du gett kunden ett konfigurationspaket som sedan har installerats på en dator. Kunden öppnar det nya företaget, som inte innehåller några kunddata. Du eller kunden följer sedan stegen i RapidStart Services-guiden, som beskrivs i den här proceduren, för att ange grundläggande information om företaget. Guiden importerar konfigurationspaketet och kopplar sedan paketet till företaget.  
+I följande procedur har du gett kunden ett konfigurationspaket, som sedan har installerats på en dator. Kunden öppnar det nya företaget, som inte innehåller några kunddata. Du eller kunden följer sedan stegen i RapidStart Services-guiden, som beskrivs i den här proceduren, för att ange grundläggande information om företaget. Guiden importerar konfigurationspaketet och kopplar sedan paketet till företaget.  
 
 ## <a name="to-configure-a-new-company"></a>Så här konfigurerar du ett nytt företag  
 1. I implementerings-rollcentret för RapidStart Services väljer du åtgärden **RapidStart-guide**.  
@@ -41,7 +41,7 @@ I följande procedur har du gett kunden ett konfigurationspaket som sedan har in
     >  Ändra bara ditt rollcenter när du har fyllt i konfigurationen av företaget. Om du har registrerat fler detaljer som du överväger att ändra, använder du först konfigurationskalkylarket och fortsätter med arbetet. Gå sedan tillbaka till guiden för att uppdatera din rollcenterprofil, eller välj åtgärden **Slutför inställningar**.
 
 7. Välj knappen **OK**.  
-8. Om du vill kontrollera att konfigurationsinformationen har kopplats till det nya företaget väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), anger **Företagsinformation** och väljer sedan relaterad länk.
+8. Om du vill kontrollera att konfigurationsinformationen har kopplats till det nya företaget väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Företagsinformation** och väljer sedan relaterad länk.
 
 Fönstret **Företagsinformation** innehåller information som du har angett.   
 

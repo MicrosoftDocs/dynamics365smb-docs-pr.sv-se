@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fd7acef0c0c4a132eb0975f6e145ef861703afba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5a10b42849f283cdd77c1f754d039dbcd7515f8a
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-scrap-manually"></a>Bokföra kassationen manuellt
@@ -26,7 +26,7 @@ Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen
 > Kassationsantalet läggs inte till i utflödesantalet.  
 
 ## <a name="to-post-scrap-manually"></a>Så här bokför du kassationen manuellt  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Utflödesjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Utflödesjournal** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Ange kassationsantalet i fältet **Kasserat antal**.  
 4. Ange kassationskoden i fältet **Kassationskod**.  

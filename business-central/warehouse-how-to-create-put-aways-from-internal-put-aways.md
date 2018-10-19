@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3faa88fada0969e118c33305b84824e0f0f9b422
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17955c3ea1294811cd7b9ac6f726d26b0de2755c
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plocka och lagra utan källdokument
@@ -36,13 +36,13 @@ På samma sätt kan artiklar returneras till distributionslagret för artikelinf
 >  När lagerstället använder dirigerad artikelinförsel och plockning, och därmed också lagerplatstyper, kan du inte manuellt flytta artiklar in och ut ur en lagerplats av typen INLEV. Detta beror på att artiklar som finns i en lagerplats av INLEV.-typ måste registreras som införda innan de blir en del av det tillgängliga lagret.  
 
 ## <a name="to-create-an-internal-pick"></a>Skapa en intern plockning  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager intern plockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager intern plockning** och välj sedan relaterad länk.  
 2.  Fyll i fälten **Nr.** och fältet **Till lagerplatskod** på snabbfliken **Allmänt**. Fältet **Till lagerplatskod** anger den lagerplats som du vill hämta artiklar från. För produktion skulle den här lagerplatsen vara den ankommande produktionslagerplatsen eller den öppna fabrikslagerplatsen. För andra typer av aktiviteter väljer du Till lagerplatskod för en lagerplatstyp som inte används för plockning, troligtvis en etapplagerplats, leveranslagerplats eller speciallagerplats.  
 3.  Välj en artikel i fältet **Artikelnr** och fyll i den kvantitet som du vill plocka.  
 4. Välj åtgärden **Skapa plockning**. En plockinstruktion är nu klar att utföras av lagerpersonalen.  
 
 ## <a name="to-create-an-internal-put-away"></a>Skapa en intern art.införsel  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager intern plockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
 2.  Fyll i fälten **Nr.** och fälten **Från lagerplatskod** på snabbfliken **Allmänt**. Fältet **Från lagerplatskod** anger den lagerplats där de artiklar finns som returneras till lagret, kanske från produktionen.  
 3.  Fyll i artikelnumren och kvantiteterna på raderna.  
 4.  Välj åtgärden **Skapa artikelinförsel**. En artikelinförselinstruktion är nu klar att utföras av lagerpersonalen.  

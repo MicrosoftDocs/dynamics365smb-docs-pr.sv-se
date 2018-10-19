@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/03/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Använda [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som Power BI-datakälla för att skapa rapporter
@@ -27,7 +27,7 @@ Du måste ha ett giltigt konto med [!INCLUDE[d365fin_long_md](includes/d365fin_l
 2. I fönstret **Hämta data** väljer du **Onlinetjänster**, **Microsoft Dynamics 365 Business Central** och sedan knappen **Anslut**.
 3. Power BI visar en guide som vägleder dig genom [anslutningsprocessen](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Du uppmanas då att logga in på tjänsten. Välj **Logga in** och välj det konto som du vill logga in som. Detta bör vara samma konto som du loggar in i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] med.
 4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag och -datakällor. Dessa datakällor motsvarar alla de webbtjänster som du har publicerat från respektive företag i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-5. Du kan också skapa en ny webbtjänst-URL i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] med hjälp av åtgärden **skapa datauppsättning** på sidan **webbtjänster** med hjälp av den assisterade inställningsguiden **Ställa in rapportering**  eller genom att välja åtgärden **redigera i Excel** i någon lista.
+5. Du kan också skapa en ny webbtjänst-URL i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] med hjälp av åtgärden **skapa datauppsättning** i fönstret **webbtjänster** med hjälp av den assisterade inställningsguiden **Ställa in rapportering**  eller genom att välja åtgärden **redigera i Excel** i någon lista.
 6. Ange de data som du vill lägga till i din datamodell och välj knappen **Läs in**.
 7. Upprepa stegen för att lägga till ytterligare Microsof [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] eller andra data till Power BI-datamodellen.
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d302483ca2d66870670aaa0914533472a807d04f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
@@ -29,7 +29,7 @@ I följande avsnitt finns beskrivningar om att:
 * Öppna lagerperioder igen.  
 
 ## <a name="to-create-an-inventory-period"></a>Skapa en lagerperiod  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerperioder** och välj sedan relaterad länk.  
 2. Skapa en ny rad.  
 3. Ange det sista datumet för lagerperioden som definieras i fältet **Slutdatum**. När perioden har stängts går det inte längre att bokföra lagerändringar före det här datumet.  
 4. Ange ett beskrivande namn i fältet **Namn**. Välj **OK**.  
@@ -61,7 +61,7 @@ Detta innebär att alla avgående transaktionsantal (till exempel antalen från 
 När lagerperioden har stängts en gång går det inte längre att ta bort den. Det går däremot att öppna lagerperioden igen om bokföring före lagerperiodens slutdatum ska tillåtas. Om en period öppnas igen, öppnas även de lagerperioder som innehåller slutdatum som infaller efter slutdatumet för perioden som öppnas igen.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Öppna en lagerperiod igen  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerperioder** och välj sedan relaterad länk.  
 2. Välj den lagerperiod som du vill öppna igen.  
 3. Välj åtgärdenden **Öppna period igen**. Bekräfta att du vill öppna perioden igen.  
 4. Alla lagerperioder med slutdatum efter perioden som du har valt öppnas igen.  

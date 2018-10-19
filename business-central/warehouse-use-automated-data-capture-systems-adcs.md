@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="enable-automated-data-capture-systems-adcs"></a>Aktivera automatiska datainsamlingssystem (ADCS)
@@ -36,14 +36,14 @@ Om du ska använda ADCS måste du ange vilka distributionslagerplatser som anvä
 > [!NOTE]  
 >  Vi rekommenderar att du inte ställer in ett distributionslager som ska använda ADCS, om distributionslagret dessutom har en lagerplats kapacitetsprincip.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.
 2.  Välj ett lager i listan som du vill aktivera för ADCS och välj **redigera**.
 3. I fönstret **lagerställekort** markerar du kryssrutan **använda ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Ange ett objekt för att använda ADCS  
 Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en identitetskod för att koppla den till dess artikelnummer. Du kan t.ex använda artikelns Streckkod som identitetskoden. En artikel kan också använda flera identitetskoder. Det kan vara praktisk i de fall där en artikel är disponibel i olika måttenheter, t.ex stycken och pallar. Tilldela varje en identitetskod, i det här fallet.    
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
 2.  Markera ett objekt i listan som ingår i ADCS-lösningen och välj åtgärden **redigera**.
 3. I fönstret **Artikelkort** väljer du åtgärden **Identifierare**.
 4. I fönstret **ArtikelIdentifierare** väljer du åtgärden **Ny**.
@@ -58,13 +58,13 @@ Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en
 ## <a name="to-add-an-adcs-user"></a>Om du vill lägga till en ADCS-användare  
 Du kan lägga till användare som en användare av ett ADCS (Automated Data Capture System). När du gör det, måste du även ange ett lösenord. Om du vill kan du även ange en koppling som identifierar ADCS-användaren som distributionslageranvändare. ADCS-användarlösenord kan vara olika från Windows-inloggningslösenord för användaren. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **ADCS-användare** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **ADCS-användare** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3.  Ange ett **Namn** på användaren. Namnet kan inte innehålla fler än 20 tecken, inklusive blanksteg.  
 4.  Ange ett **Lösenord** i fältet. Lösenord maskeras.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Om du vill ange att lagerpersonalen är en ADCS-användare  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Dist.lager personal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
 2.  Lägga till en ny lagerpersonalen, om det behövs. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Välj åtgärden **Redigera lista**.  
 4.  Välj en lagerpersonal i listan. I fältet **ADCS-användare** väljer du listpilen och sedan namnet på en ADCS-användare i listan.  
@@ -78,7 +78,7 @@ Du använder miniformulär som beskriver den information som du vill presentera 
 För att använda eller ändra funktionen i en miniformulärfunktion måste du skapa en ny kodmodul eller ändra befintliga för att utföra lämplig åtgärd eller svar. Du kan få mer information om ADCS-funktioner genom att undersöka kodmoduler till exempel 7705, d.v.s det kodenheten för inloggningar funktioner. Kodmodul 7705 visas hur en miniformulär av korttyp arbetar.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Så här skapar du en miniformulär för ADCS  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Miniformulär** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Miniformulär** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3.  I fältet **Kod** anger du en kod på Miniformuläret. Ange värden i alla övriga fält, om du vill.  
 
@@ -99,7 +99,7 @@ När du har skapat en miniformulär, nästa steg är att skapa operationer och a
 3.  Lägga till C/AL-koden till den aktuella operationen på miniformulärspecifika Codeunit för att hantera funktionen primärnyckel.  
 
 ### <a name="to-customize-miniform-functions"></a>Om du vill anpassa miniformulärfunktioner  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Miniformulär** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Miniformulär** och välj sedan relaterad länk.  
 2.  Välj ett miniformulär från listan, välj åtgärden **Redigera**.  
 3.  Välj åtgärden **Funktioner**.  
 4.  I listrutan **Funktionskod** väljer du en kod för att representera en funktion som du vill koppla till miniformuläret. Du kan till exempel välja ESC, som associerar funktionen med att trycka på ESC-tangenten.  

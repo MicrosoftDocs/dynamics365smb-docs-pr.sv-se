@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c93bd33d972b030ede02ad7b24a8127ff2174141
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e4ceaeae1a37a521d2d5bd22ab711757283e6321
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Skapa en färglagd indikator på stack-ikoner
-Du kan skapa stack-ikoner som visas på **Startsidan** för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.
+Du kan konfigurera stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.
 
 Indikatorn visas som en kulört stapel längs den övre kanten på stack-ikon-panelen. Den ger en visuell signal över statusen för stack-ikonaktivitet, som kan ange gynnsamma eller ofördelaktiga förhållanden för att meddela användaren att vidta åtgärd. Om t.ex. en stack-ikon visar pågående försäljningsfakturor kan du ställa in indikatorn för att visa grönt (positivt) när totala antalet pågående försäljningsfakturor är under 10, och röd (negativt) när antalet är större än 20.
 
@@ -29,7 +29,7 @@ Från fönstret **Inställning av stack-ikon** ställer du in indikatorer för a
 För att ställa in indikatorn, anger du upp till två tröskelvärden som definierar tre intervall av datavärden (låg, medel och hög) som du kan koppla en annan färg (eller stil).
 
 ## <a name="to-set-up-colored-indicators-on-cues"></a>Så här ställer du in kulörta indikatorer på stack-ikoner
-1. Under **Aktiviteter** på din **Startsida** väljer du **Inställning av stack-ikon**.  
+1. Under **Aktiviteter** på ditt Rollcenter väljer du **Inställning av stack-ikon**.  
    Fönstret **Inställning av stack-ikon** visas. I fönstret anges indikatorerna som för närvarande är inställda på stack-ikoner.
 2. För att ändra en indikator redigerar du fälten och för att ändra till exempel,värdena för de olika trösklarna.  
 

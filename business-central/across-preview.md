@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 06/28/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50d1429a58b878766c76ed97f65936db78191ee0
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Åtkomst till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-förhandsgranskningen
@@ -39,7 +39,7 @@ Mer information finns i [Använda designern](https://docs.microsoft.com/en-us/dy
 
 ### <a name="to-create-a-sandbox-environment"></a>Skapa miljö för begränsat läge.
 1.  Logga in i din produktions- eller förhandsvisningsinstans av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **begränsat läge**, och välj sedan relaterad länk.
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Miljö för begränsat läge** och välj sedan relaterad länk.
 3.  Välj **Skapa**. En flik öppnas där du kan avsluta konfigureringen av ditt begränsade läge.
 
     > [!Note]

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a513f6e62c4ef8dcf9e484d0211feb3e857dc0f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Lägga till länkar till webbplatser, dokument och program på poster
@@ -45,11 +45,11 @@ Ett annat exempel är när du får utskrivna fakturor från leverantörer. Du ka
 
 För att ta bort en länk kan du i fönstret **länkar** du ange **...** och **Ta bort**.
 
-Om du tar bort en enstaka post (till exempel en försäljningsorderrad, en försäljningsorder eller ett kundkort) tas postens alla bifogade länkar bort. Om användaren däremot tar bort poster med hjälp av ett batch-jobb **Ta bort fakturerade förs.order** sparas länkarna i databasen. Kör kodmodulen **Ta bort tomma postlänkar** för att ta bort länkarna från databasen. För att öppna denna sida väljer du ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rappor"), ange **Ta bort tomma postlänkar**, och väljer sedan relaterad länk.   
+Om du tar bort en enstaka post (till exempel en försäljningsorderrad, en försäljningsorder eller ett kundkort) tas postens alla bifogade länkar bort. Om användaren däremot tar bort poster med hjälp av ett batch-jobb **Ta bort fakturerade förs.order** sparas länkarna i databasen. Kör kodmodulen **Ta bort tomma postlänkar** för att ta bort länkarna från databasen. För att göra detta, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och gå till **Ta bort tomma postlänkar** och välj sedan relaterad länk.   
 
 <!-- ### To run delete orphaned record links  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Deletion**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
 2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 

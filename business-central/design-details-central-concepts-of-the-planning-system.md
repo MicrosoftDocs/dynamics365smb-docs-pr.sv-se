@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8eca3562639c864cb514b71c070d0fca4128d79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
 
-![Planeringsförslag](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Information i fönstret Planeringsförslag](media/NAV_APP_supply_planning_1_planning_worksheet.png "Information i fönstret Planeringsförslag")  
 
 Planeraren i ett företag, till exempel en inköpare eller en produktionsplanerare antas vara användaren i planeringssystemet. Planeringssystemet hjälper användaren genom att utföra de omfattande men ganska rättframma beräkningarna av en plan. Användaren kan sedan koncentrera sig på att lösa svårare problem, till exempel när saker är annorlunda än vanligt.  
 
@@ -57,7 +57,7 @@ Till exempel om användaren anger eller ändrar en försäljningsorder söker de
 
 Dynamisk orderspårning kan alltså ses som ett verktyg som hjälper användare att bedöma om de ska acceptera de föreslagna leveransordrarna. Från tillgångssidan kan en användare se vilken efterfrågan som har skapat tillgången, och från efterfråganssidan vilken tillgång som ska täcka efterfrågan.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Exempel på dynamisk orderspårning](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Exempel på dynamisk orderspårning")  
 
 För mer information, se [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
 
@@ -70,11 +70,11 @@ Planeringssystemet hanterar hela mönstret för tillgång-efterfrågan via alla 
 
 Dynamisk orderspårning skapar länkar mellan efterfrågan och tillgång när data anges, i den ordning som de inkommer. Det kan leda till en viss oordning i prioriteringar. Exempelvis kan en försäljningsorder som har angetts först, med förfallodatum nästa månad, kopplas till tillgången i lager, medan nästa försäljningsorder som förfaller imorgon kan orsaka ett åtgärdsmeddelande att skapa en ny inköpsorder för att täcka den, som illustreras nedan.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Exempel på orderspårning i leveransplanering 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exempel på orderspårning i leveransplanering 1")  
 
 Som motsats hanterar planeringssystemet all efterfrågan och tillgång för en viss artikel, i prioriterad ordning enligt förfallodatum och ordertyper, d.v.s., enligt first-needed/first-served. Den tar bort alla orderspårninglänkar som skapades dynamiskt och återställer dem enligt förfallodatumsprioritet. När planeringssystemet har körts har det löst alla obalanser mellan tillgång och efterfrågan, som illustreras nedan för samma data.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Exempel på orderspårning i leveransplanering 2](media/NAV_APP_supply_planning_1_planning_graph.png "Exempel på orderspårning i leveransplanering 2")  
 
 Efter planeringskörningen återstår inga åtgärdsmeddelanden i tabellen Åtgärdsmeddelandetrans. eftersom de har ersatts med de föreslagna åtgärderna i planeringsförslaget  
 
@@ -88,9 +88,9 @@ Planeringssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)] efterfrågestyr
 ### <a name="item-priority--low-level-code"></a>Artikelprioritet / lågnivå kod  
 I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel i härledd efterfrågan på komponenter som ingår i den färdiga artikeln. Strukturer kontrollerar komponentstrukturen och kan omfatta flera nivåer av halvfärdiga artiklar. När du planerar en artikel på en nivå skapar det härledd efterfrågan på komponenter på nästa nivå, och så vidare. Det leder till slut till en härledd efterfrågan på inköpta artiklar. Därför planerar planeringssystemet för artiklar i den ordning som de är rankade i den totala strukturhierarkin, och börjar med färdiga säljbara artiklar på högsta nivån och fortsätter nedåt via produktstrukturen till artiklarna för lägre nivå (enligt lägsta-nivå-koden).  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Planera för strukturlistor](media/NAV_APP_supply_planning_1_BOM_planning.png "Planera för strukturlistor")  
 
-Figurerna visar i vilken följd systemet ge förslag för leveransorder på högsta nivån och om användaren godkänner dessa kalkylark, även för alla artiklar på lägre nivå.  
+Figurerna visar i vilken följd systemet gör förslag för leveransorder på högsta nivån och om användaren godkänner dessa kalkylark, även för alla artiklar på lägre nivå.  
 
 Mer information om produktionsavvägningar finns i [Designdetaljer: Läsa in lagerprofilerna](design-details-loading-the-inventory-profiles.md).  
 
@@ -101,7 +101,7 @@ Det stöds med användning av lagerställeenheter där enskilda planeringsparame
 
 I princip kan valfri artikel hanteras på valfritt lagerställe, men programmets inställning till lagerställebegreppet är ganska strikt. En försäljningsorder för ett lagerställe kan exempelvis inte uppfyllas av lagersaldo på ett annat lagerställe. Antalet i lager måste först överföras till det lagerställe som anges på försäljningsordern.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Planera för lagerställeenheter](media/NAV_APP_supply_planning_1_SKU_planning.png "Planera för lagerställeenheter")  
 
 Mer information finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
 
@@ -110,10 +110,10 @@ Inom en given lagerställeenhet representerar det begärda eller tillgängliga d
 
 Mer information finns i [Designdetaljer: prioritera order](design-details-prioritizing-orders.md)  
 
-## <a name="production-forecasts-and-blanket-orders"></a>Produktionsprognoser och avropsorder  
+## <a name="demand-forecasts-and-blanket-orders"></a>Efterfrågeprognoser och avropsorder  
 Både prognoser och avropsorder representerar förutsedd efterfrågan. Avropsorder, som täcker en kunds påtänkta inköp under en viss tidsperiod, fungerar för att minska osäkerheten i den allmänna prognosen. Avropsorder är en kundspecifik prognos utöver för den ospecificerade prognosen som illustreras under.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Planera med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planera med prognoser")  
 
 Mer information finns i avsnittet ”Prognosefterfrågan minskas genom försäljningsorder” i [Designdetaljer: Läsa in lagerprofiler](design-details-loading-the-inventory-profiles.md).  
 
@@ -202,7 +202,7 @@ Planeringssystemet inkluderar fortfarande reserverat antal i den planerade lager
 
 Följande illustration visar hur reservationer kan förhindra den mest genomförbara planen.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Planera med reservationer](media/NAV_APP_supply_planning_1_reservations.png "Planera med reservationer")  
 
 För mer information, se [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
 
@@ -217,7 +217,7 @@ Varningsinformationen visas i fönstret **Ej spårade planeringselement** som ä
 -   Undantag  
 -   Observera!  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Varningar i planeringsförslaget](media/NAV_APP_supply_planning_1_warnings.png "Varningar i planeringsförslaget")  
 
 ### <a name="emergency"></a>Nödsituation  
 Varningen för nödsituation visas i två olika situationer:  
@@ -254,7 +254,7 @@ På sidan Skapa inköpsförslag kan användaren välja fältet **Stoppa och visa
 
 Om fältet inte har markerats kommer batchjobbet Skapa inköpsförslag att fortsätta tills det har slutförts. Fel kommer inte att avbryta batch-jobbet. Om det finns fler än ett fel, visas ett meddelande efter slutförandet som meddelar hur många artiklar som påverkas av fel. Fönstret **Logg över planeringsfel** öppnas därefter för att visa mer information om felet och ange länkar till de dokument eller artikelkort som påverkas.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Felmeddelanden i planeringsförslaget](media/NAV_APP_supply_planning_1_error_log.png "Felmeddelanden i planeringsförslaget")  
 
 ## <a name="planning-flexibility"></a>Planeringsflexibilitet  
 Det är inte alltid praktiskt att planera en befintlig leveransorder, till exempel när produktionen har inletts eller extra personer anställs på en viss dag för att utföra jobbet. Om du vill ange om en befintlig beställning kan ändras av planeringssystemet har alla leveransorderrader fältet Planeringsflexibilitet med två alternativ: Obegränsat och Ingen. Om fältet har värdet Ingen kommer planeringssystemet inte försöka ändra leveransorderraden.  

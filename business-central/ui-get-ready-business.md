@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
@@ -26,11 +26,11 @@ För att hjälpa dig att göra dig redo för affärer, kan du besöka fönstret 
 I ditt rollcenter, i navigeringsfönstret längst upp, hittar du menyn **Inställningar och tillägg**. Här har du åtkomst till en lista med assisterade inställning som kan hjälpa dig att komma igång. När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av den assisterade inställningen. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. Den **Grundläggande** upplevelsen ger åtkomst till färre än vad **Vital**-upplevelsen gör. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
+>   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du Essential-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
-I fönstret **Assisterad inställning** hittar du följande med **Grundläggande**-upplevelsen:
+I fönstret **Assisterad konfiguration** hittar du följande i **Vital**-upplevelsen:
 
-| Assisterad konfiguration | Beskrivning |
+| Assisterad konfiguration | Description |
 | --- | --- |
 | Konfigurera ditt företag |Skapar ett nytt provföretag där du kan ange data och testa vår [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du igenom Komma igång-turen är detta förmodligen redan **Slutfört**. |
 | Migrera affärsdata |Du kan importera dina befintliga företagdata till exempel kunder, leverantörer och artiklar från Excel eller Quickbooks. |
@@ -60,7 +60,7 @@ Om du behöver lägga till fler användare kan du göra detta du i Office 365 Ad
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta knappbeskrivningar som kan hjälpa dig genom de olika affärsprocesserna. I varje knappbeskrivning finns en länk kallad **Få hjälp** som tar dig till produkthjälpen. Frågetecknet i det övre högra hörnet visar dig också till produkthjälp.
 
 ## <a name="next-steps"></a>Gå vidare
-Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Mitt företag** på din **Startsida** för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering.
+Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Mitt företag** i fönstret **Start** för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering.
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  

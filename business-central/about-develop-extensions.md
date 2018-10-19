@@ -1,7 +1,6 @@
 ---
 title: Anpassa Dynamics 365 Business Central | Microsoft Docs
 description: "Skapa, presentera och marknadsför dina appar och tillägg för Business Central."
-services: project-madeira
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fc926afbf0c1442bb610531b28507fbb2c1b1cf4
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utökning av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -38,7 +37,7 @@ Ta dina [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tjänster till Mic
 **Enskilda program**, där du tar dina expertkunskaper till marknaden.  
 **Förpackade konsulttjänster**, där du kan hämta färdiga förpackade åtaganden till marknaden.
 
-Ny utvecklingsverktyg för att du ska kunna skapa tillägg för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-användare. Om du vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Ny utvecklingsverktyg för att du ska kunna skapa tillägg för [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-användare. Om du vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Sök efter information om program- och konsulttjänster som finns på [Microsoft AppSource ](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -71,9 +70,9 @@ Välj länkarna nedan om du vill veta mer om Microsoft AppSource konsulttjänste
 ## <a name="the-ready-to-go-program"></a>Redo att köra-programmet
 Redo att köra-programmet är utformat för att ge dig stöd avseende Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-erbjudanden i Microsoft-Appsource. Programmet innehåller: 
 
-- [Onlineutbildning](http://aka.ms/ReadyToGoOnlineLearning)
-- [Utbildning och seminarier](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Microsoft Collaborate-plattform](http://aka.ms/Collaborate)
+- [Onlineutbildning](https://aka.ms/ReadyToGoOnlineLearning)
+- [Utbildning och seminarier](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Microsoft Collaborate-plattform](https://aka.ms/Collaborate)
 
 Mer information om hur du skapar ett [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-erbjudande finns i [Redo att köra-programmet](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) information. Om du har frågor eller kommentarer om **Redo att köra**-programmets erbjudande kan du [Kontakta oss](mailto:dyn365bep@microsoft.com). 
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Förbereda migrering av kunddata
@@ -44,7 +44,7 @@ När du väljer en befintlig datamall måste du utvärderar om de mallar som du 
 > [!TIP]  
 >  Med dessa datamallar kan du också snabbt skapa nya poster. Använd dem för snabbare och mer korrekt dataskapande. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsmallar** och välj sedan relaterad länk.  
 2. I fönstret **Konfig. mallista** väljer du en datamall i listan och sedan åtgärden **Redigera**.  
 
 Om standardmallarna inte uppfyller behoven kan du skapa nya mallar eller lägga till fält i en befintlig mall. Om standardmallarna är tillräckliga, kan du använda dem för att skapa transaktioner som baseras på huvuddatamallar.
@@ -75,7 +75,7 @@ Varje mall består av ett huvud och rader. När du skapar en mall, kan du ange v
 ## <a name="to-export-to-a-template-in-excel"></a>För att exportera till en mall i Excel
 Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.
 2. Lägg till en tabell i listan eller välj en befintlig tabell. Mer information finns i [Administrera företagskonfigurationer i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definiera fälten från tabellen som ska ingå i mallen.
 4. Välj åtgärden **Exportera till mall**.
@@ -100,11 +100,11 @@ Du kan använda strukturen av data som finns i datamallarna för att konvertera 
 
 Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa en post från en datamall med samma procedur.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsmallar** och välj sedan relaterad länk.  
 2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se avsnittet "Så här skapar du en datamall".
 3. Välj åtgärden **Skapa instans**. Ett artikelkort skapas.  
 4. Välj knappen **OK**.  
-5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikel** och välj sedan relaterad länk om du vill granska det nya artikelkortet.  
+5. För att granska de nya artikelkorten, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
 6. Öppna det nya artikelkortet.  
 7. Expandera olika snabbflikar och verifiera att informationen skapas rätt på dem.  
 

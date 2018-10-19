@@ -9,23 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 07/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-packages"></a>Spåra paket
 Ett antal speditörer tillhandahåller tjänster på Internet genom vilka det går att spåra godspaket som har överlämnats till speditören. Om du anlitar en eller flera av dessa speditörer kan du lägga in viss grundinformation och använda den automatiska spårningsfunktionen från bokförda leveranser. För mer information, se [Ställa in speditörer](sales-how-to-set-up-shipping-agents.md).  
 
-> [!NOTE]
-> Den här funktionen är inte tillgänglig i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Varför visas vissa delar av användargränssnittet som jag använde i Dynamics NAV inte i Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) i Vanliga frågor och svar.
-
 ## <a name="to-track-a-package"></a>Så här spårar du godspaket
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokförd utleverans** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförd försäljningsutleverans** och välj sedan relaterad länk.
 2. Öppna relevant utleverans.
 3. I fältet **Godsupplysningsnr.** anger du godsnumret som du har fått av speditören.
 4. Välj åtgärden **godsupplysning**.

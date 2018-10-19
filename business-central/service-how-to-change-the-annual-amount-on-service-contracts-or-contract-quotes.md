@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e05bcfbfee3f07beb32a8f145eb7dd4b1888edcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
@@ -22,7 +22,7 @@ Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoff
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Så här ändrar du det årliga beloppet på ett servicekontrakt eller en kontraktsoffert  
 
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Söka efter sida eller rapport") ange **Servicekontrakt** eller **Servicekontraktsofferter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Servicekontrakt** eller **Servicekontraktofferter** och välj sedan relaterad länk.  
 2. Välj kontraktet eller kontraktsofferten.  
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera kontraktet eller skontraktsofferten.  
 4. Välj **Tillåt ej balanserade belopp** om du vill ändra det årliga beloppet och distribuera differensen för det årliga beloppet manuellt på kontraktsraderna. Annars kommer differensen för det årliga beloppet automatiskt att distribueras på kontraktsraderna när du har ändrat det årliga beloppet.  
@@ -175,7 +175,7 @@ Fältvärdet för **Årligt belopp** är lika med innehållet i fältet **Beräk
 * Artikel 2 –5.1 / (5 + 5,1 +12,7) = 0,2237  
 * Artikel 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
 
-Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp +  skillnaden mellan nya och beräknade årliga belopp ×  Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabatt**, **Radrabatt %** och **TB** med hjälp av formlerna i steg 3 i den process som beskrivs ovan.  
+Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp +  skillnaden mellan nya och beräknade årliga belopp ×  Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabatt**, **Radrabatt %**  och **TB** med hjälp av formlerna i steg 3 i den process som beskrivs ovan.  
 
 Slutligen innehåller kontraktsraderna följande information.  
 

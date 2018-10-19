@@ -1,26 +1,27 @@
 ---
 title: "Översikt över uppgifter för hantering av betalningar till leverantörer | Microsoft Docs"
 description: "Innehåller information om hur du hanterar betalningar till leverantörer och fordringsägare, inklusive bokför betalningsraderna och få en översikt över saldot som förfaller."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/26/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 6b912e8f54fd0e3fb4ac4a1eee3c376c209ffe65
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="making-payments"></a>Göra betalningar
-När du gör betalningar till leverantörer eller återbetalningar till anställda bokför du relaterade betalningsraderna i fönstret **Betalningsjournal**. Du kan använda funktionen **Betalningsförslag för lev.** för att söka efter leveratörsbetalningar som förfaller till betalning. Du kan även använda rapporten **Lev.saldo - ålderssammandrag** för att få en översikt över leverantörsbetalningar som förfaller till betalning.
+
+När du gör betalningar till leverantörer eller kunder eller återbetalningar till anställda bokför du relaterade betalningsraderna i fönstret **Betalningsjournal**. Betalningsjournalen är en redovisningsjournal som är optimerad för betalningar och innehåller flera kraftfulla funktioner, till exempel funktionen **Betalningsförslag för lev.** som söker efter leverantörsbetalningar som har förfallit, och rapporten **Leverantör - Ålderssammandrag** som visar en översikt över förfallna leverantörsbetalningar.  
+
+Du kan starta processen med att göra betalningen från listor, kort och transaktioner för leverantörer, kunder och anställda. Var och en av dessa sidor har en knapp som startar betalningsflödet och hjälper dig att fylla i utbetalningsjournalen.  
 
 Från utbetalningsjournalen kan du skriva ut datorcheckar eller registrera när checkar skrivs. När **Datorcheck** har valts i fältet **Bankbetalningstyp** i utbetalningsjournalen måste alla rader som representerar checkarna skrivas ut innan betalningsjournalen kan bokföras.
 
@@ -33,7 +34,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Till | Gå till |
 | --- | --- |
 |Förstå grundläggande funktioner i fönstret **Betalningsjournal** som är baserat på redovisningsjournalen för att bokföra betalningar till leverantörer eller medarbetare.|[Arbeta med redovisningsjournaler](ui-work-general-journals.md)|
-|Bokför betalningar till leverantörer och återbetalningar till kunder och om du vill koppla betalningar till relaterade obetalda fakturor/kreditnotor stänga dem som betalda.|[Registrera betalningar och återbetalningar](payables-how-post-payments-refunds.md)|
+|Bokför betalningar till leverantörer eller anställda och återbetalningar till kunder och om du vill koppla betalningar till relaterade obetalda fakturor/kreditnotor stänga dem som betalda.|[Registrera betalningar och återbetalningar](payables-how-post-payments-refunds.md)|
 | Använd en funktion i **Betalningsjournal** för att föreslå leverantörsbetalningar enligt valda villkor, till exempel förfallodatum, rabattvalbarhet och din likviditeten. |[Betalningsförslag för lev.](payables-how-suggest-vendor-payments.md) |
 | Utfärda checkar för leverantörsbetalningar eller kundåterbetalningar, antingen som utskrifter eller som datorcheckar. Makulera checkar, före eller efter bokföring. |[Gör checkbetalning](payables-how-work-checks.md) |
 |Gör elektroniska betalningar genom att exportera betalningar till en bankfil som du skickar till din bank för bearbetning, inklusive EFT (elektronisk överföring) i Nordamerika. |[Gör elektroniska betalningar](payables-how-export-payments-bank-file.md)|

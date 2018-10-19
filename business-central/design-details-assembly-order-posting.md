@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
@@ -33,14 +33,14 @@ Följande journalbokföringar uppstår under monteringsorderbokföring:
 
 Följande diagram visar strukturen på artikel- och resurstransaktioner som kommer från monteringsorderbokföring.  
 
-![Resurs-och kapacitet](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Artikel, resurs och kapacitetstransaktioner som resulterar från monteringsorderbokföring](media/design_details_assembly_posting_1.png "Artikel, resurs och kapacitetstransaktioner som resulterar från monteringsorderbokföring")  
 
 > [!NOTE]  
 >  Maskinen och produktionsgrupper inkluderas för att visa att kapacitetstransaktioner skapas från både produktion och montering.  
 
 Följande diagram visar hur monteringsdata flödar till transaktioner under bokföringen:  
 
-![Flödet vid bokföring](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Monteringsrelaterat transaktionsflöde vid bokföring](media/design_details_assembly_posting_2.png "Monteringsrelaterat transaktionsflöde vid bokföring")  
 
 ## <a name="posting-sequence"></a>Bokföringssekvens  
 Bokföring av en monteringsorder uppstår i följande ordning:  
@@ -71,7 +71,7 @@ Funktionen för ordernivåidentifiering används i konverteringscenarion, produk
 
 Följande grafik visar strukturen för justeringstransaktionen och hur monteringskostnader justeras.  
 
-![Strukturen för justeringstransaktionen](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Monteringsrelaterat transaktionsflöde under kostnadsjustering](media/design_details_assembly_posting_3.png "Monteringsrelaterat transaktionsflöde under kostnadsjustering")  
 
 ### <a name="performing-the-adjustment"></a>Utföra justeringen  
 Distribution av identifierade justeringar från material- och resurskostnader till monteringsutflödetransaktionerna utförs av batchjobbet **Justera kost. - artikeltrans.**. Den innehåller funktionen Gör justeringar på flera nivåer som består av följande två element:  
@@ -79,7 +79,7 @@ Distribution av identifierade justeringar från material- och resurskostnader ti
 -   Gör monteringsorderjustering – som flyttar fram kostnad från material och resursförbrukning till monteringsutflödestransaktionen. Rad 5 och 6 i algoritmen nedan ansvarar för det.  
 -   Gör justeringar på en nivå – som flyttar fram kostnader för enskilda artiklar med deras värderingsprincip. Rad 9 och 10 i algoritmen nedan ansvarar för det.  
 
-![Monteringsjusteringens algoritm](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Sammanfattning av kostnadsjusteringsalgoritm för monteringsbokföring](media/design_details_assembly_posting_4.jpg "Sammanfattning av kostnadsjusteringsalgoritm för monteringsbokföring")  
 
 > [!NOTE]  
 >  Elementet Gör PIA-justeringar, på rad 7 och 8, är ansvarigt för att flytta fram produktionsmaterial och kapacitetsanvändning till utflödet av oavslutade produktionsorder. Det används inte när du justerar monteringsorderkostnader eftersom PIA-konceptet inte gäller för montering.  

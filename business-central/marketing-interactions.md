@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Inspelningsinteraktioner med kontakter
@@ -30,7 +30,9 @@ Modulen Affärsstöd gör att du kan registrera alla interaktioner som du har me
 
 ##  <a name="setting-up-interaction-templates"></a>Skapa interaktionsmallar
 Innan du kan skapa och registrera interaktioner måste du skapa interaktionsmallar. När du skapar dem behöver du ange vilka interaktionsmallar de ska grundas på. En interaktionsmall en modell som definierar en interaktions grundläggande egenskaper.
-Du kan du skapa bilagor till interaktionsmallarna i fönstret**interaktionsmallar**.  
+Du kan du skapa bilagor till interaktionsmallarna i fönstret**interaktionsmallar**.
+
+När du har skrivit in uppgifter om interaktionsmallen kan du skapa bilagor, till exempel Microsoft Word-dokument. Upprepa stegen för varje interaktionsmall du vill skapa.  
 
 ## <a name="creating-interactions"></a>Skapa interaktioner
 Det finns två sätt att registrera interaktioner:
@@ -50,7 +52,7 @@ I det här fönstret kan du:
 * Visa interaktionens status.
 * Markera interaktioner som makulerade.
 
-Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), ange **Ta bort avbrutna interaktionsloggtrans**.
+Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort avbrutna interaktionsloggtrans**.
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  

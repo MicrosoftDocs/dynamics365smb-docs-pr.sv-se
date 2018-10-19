@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 | --- | --- |
 | Ändra grundläggande inställningar som företag, arbetsdatum eller rollcenter. |[Ändra grundinställningar](ui-change-basic-settings.md) |
 | Hitta en specifik sida rapport. |[Använda Söka efter sida eller rapport](ui-search.md) |
-| Filtrera data i vyer, rapporter eller funktioner genom att använda speciella symboler och tecken. |[Ange villkor i filter](ui-enter-criteria-filters.md) |
+| Filtrera data i vyer, rapporter eller funktioner genom att använda speciella symboler och tecken. |[Söka, filtrera och sortera data](ui-enter-criteria-filters.md) |
 | Lär dig mer om hur du sorterar data. |[Sortera data](ui-sorting.md) |
 | Visa eller bearbeta data i specifika datumintervall. |[Ange datumintervall](ui-enter-date-ranges.md) |
 | Se vilka fält som måste fyllas i. |[Identifiera obligatoriska fält](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 |Lär dig mer om funktioner och möjligheter som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] lättillgängligt för användare med funktionshinder.|[Hjälpmedel och kortkommandon](ui-accessibility.md)|
 |Titta på videoklipp om valda funktioner som hjälper dig att komma igång.|[Videofilmer om vanliga uppgifter](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Hitta rätt i Business Central
+Här följer en kort video om hur du navigerar i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
 [Ställa in Business Central](setup.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

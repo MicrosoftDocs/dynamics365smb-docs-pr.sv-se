@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: ff625189c5004f682f45fe1c1796ba6afe2e7fdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
 ms.contentlocale: sv-se
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
@@ -30,10 +30,10 @@ Följande lagerrelaterade partiklar finns:
 -   Distributionslagerutleverans (4210)  
 -   Lagerstyrningssystem (4620)  
 -   Intern plockning och artikelinförsel (4630)  
--   <!-- Automated Data Capture System (4640) -->  
+-   Automated Data Capture System (4640) 
 -   Lagerplatsinställning (4660)  
 
-Läs mer om varje partikel i [[!INCLUDE[d365fin](includes/d365fin_md.md)] prislistor](http://go.microsoft.com/fwlink/?LinkId=238341) (kräver ett PartnerSource-konto).  
+Läs mer om varje partikel i [[!INCLUDE[d365fin](includes/d365fin_md.md)] prislistor](https://go.microsoft.com/fwlink/?LinkId=238341) (kräver ett PartnerSource-konto).  
 
 Efterföljande tabell visar vilka partiklar som krävs för att definiera olika komplexitetsnivåer för distributionslager, vilka användargränssnittsdokument som stöder varje nivå och vilka lagerställekoder som avspeglar dessa nivåer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrationsdatabas.  
 
@@ -44,7 +44,7 @@ Efterföljande tabell visar vilka partiklar som krävs för att definiera olika 
 |3 <br /><br /> **Observera**: även om inställningarna kallas **Begär plockning** och **Begär artikelinförsel** kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor.|Grundläggande distributionslageraktivitet, en order i taget.<br /><br /> Ta emot/leverera bokföring från lagerartikelinförsel/plockdokument. <br /><br /> Lagerplatskoden krävs.|Lagerartikelinförsel/lagerförflyttning/lagerplockning med lagerplatskod|(SILVER + Kräver artikelinförsel eller Kräver artikelinförsel)|Grundläggande lager/Lagerplats/Artikelinförsel/Plockning|  
 |4|Avancerad distributionslageraktivitet, för flera order.<br /><br /> Konsoliderad inleverans-/leveransbokföring baserad på artikelinförsel-/plockregistreringar för distributionslager.|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Distributionslagerutleverans/Plockningskalkylark|GRÖN|Grundläggande lager/Distributionslager inleverans/Artikelinförsel/Plockning/Distributionslager utleverans|  
 |5|Avancerad distributionslageraktivitet, för flera order.<br /><br /> Konsoliderad inleverans-/leveransbokföring baserad på artikelinförsel-/plockregistreringar för distributionslager.<br /><br /> Lagerplatskoden krävs.|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Distributionslagerutleverans/Plockningskalkylark/Artikelinförselkalkylark, men lagerplatskod|(GRÖN + Lagerplats obligatorisk)|Grundläggande lager/Lagerplats/Distributionslager inleverans/Artikelinförsel/Plockning/Distributionslager utleverans|  
-|6 <br /><br /> **Obs!** Den här nivån kallas för "WMS”, eftersom den kräver den mest avancerade partikeln, lagerledningsystem (Warehouse Management Systems).|Avancerad distributionslageraktivitet för flera order<br /><br /> Konsoliderad inleverans-/utleveransbokföring baserad på artikelinförsels-/plockregistreringar<br /><br /> Lagerplatskoden krävs.<br /><br /> Kod för zon/klass är valfritt.<br /><br /> Lagerarbetare som styrs av arbetsflödet<br /><br /> Återanskaffningsplan för binge<br /><br /> Lagerplatsordning<br /><br /> Konfiguration för binge efter kapacitet<br /><br /> Skapa luckor <!-- Hand-held device integration -->|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Dist.lager transport/Plockningskalkylark/Artikelinförsel kalkylark/Intern dist.lager plockning /intern artikelinförsel, med lagerplats/klass/zonkod<br /><br /> Olika förslag för administrering av bingar <!-- ADCS screens  -->|VIT|Grundläggande lager/Binge/Plats/Inleverans för distr.lager/Plock/Utleverans för distr.lager/Administreringssystem för lager/Internt plock och artikelinförsel/Konfiguration för bingar/<!-- Automated Data Capture System/ -->Konfiguration för bingar|  
+|6 <br /><br /> **Obs!** Den här nivån kallas för "WMS”, eftersom den kräver den mest avancerade partikeln, lagerledningsystem (Warehouse Management Systems).|Avancerad distributionslageraktivitet för flera order<br /><br /> Konsoliderad inleverans-/utleveransbokföring baserad på artikelinförsels-/plockregistreringar<br /><br /> Lagerplatskoden krävs.<br /><br /> Kod för zon/klass är valfritt.<br /><br /> Lagerarbetare som styrs av arbetsflödet<br /><br /> Återanskaffningsplan för binge<br /><br /> Lagerplatsordning<br /><br /> Konfiguration för binge efter kapacitet<br /><br /> Skapa luckor <!-- Hand-held device integration -->|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Dist.lager transport/Plockningskalkylark/Artikelinförsel kalkylark/Intern dist.lager plockning /intern artikelinförsel, med lagerplats/klass/zonkod<br /><br /> Olika kalkylark för lagerplatshantering<br /><br /> ADCS-skärmar|VIT|Grundläggande lager/Binge/Plats/Inleverans för distr.lager/Plock/Utleverans för distr.lager/Administreringssystem för lager/Internt plock och artikelinförsel/Konfiguration för bingar/<!-- Automated Data Capture System/ -->Konfiguration för bingar|  
 
 Se [Designdetaljer: Ankommande distributionslagerflöde](design-details-outbound-warehouse-flow.md) för exempel på hur användargränssnittsdokumenten används per lagerkomplexitetsnivå.  
 

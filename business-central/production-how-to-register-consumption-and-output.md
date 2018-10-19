@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b36df4ccf85ce9126fe1090e86d2549737e3195
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
@@ -26,10 +26,10 @@ Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen komb
 >  Eftersom förbrukningsinformation hanteras tillsammans med utdata kan du i den här journalen visa länkade komponenter och operationer i en logisk processtruktur. komponenterna visas på indragna rader under respektive operation. Detta kan ske under förutsättning att du använder verksamhetsföljdslänkkoder.  
 
 > [!NOTE]  
->  Komponenter som saknar verksamhetsföljdslänkkoder visas först i listan i journalen.  
+>  Komponenter som saknar operationsföljdslänkkoder visas först i listan i journalen.  
 
 ## <a name="to-register-consumption-and-output"></a>Så här registrerar du förbrukning och utdata  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppta prod.order** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppta prod.order** och välj sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
     Fönstret **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt fönstren **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  

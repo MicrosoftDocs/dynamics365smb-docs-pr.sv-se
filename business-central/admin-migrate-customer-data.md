@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
@@ -40,7 +40,7 @@ Kontrollera att du befinner dig i implementerings-rollcentret för RapidStart Se
 > Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
 
 1. Öppna det nya företaget.  
-2. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 3. Välj åtgärden **Importera paket**. Navigera till det .rapidstart-paket som du vill importera och klicka på åtgärden **Öppna**. Under importen expanderas paketinnehållen, och paketposten skapas.  
 
     När importen är klar kan du visa antalet konfigurationstabeller som har importerats i fältet **Antal tabeller**.  
@@ -57,7 +57,7 @@ Om urvalet av tabeller inte uppfyller dina behov, kan du skapa en eller flera ny
 ## <a name="to-create-a-data-migration-file"></a>Så här skapar du en datamigreringsfil
 Du kan skapa nya datamigreringsfiler och anpassa dem för att stödja din verksamhet. Notera att en fil endast kan användas för att migrera ett fält som har egenskapsuppsättningen **FieldClass** inställd på **Normal**.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för att flytta data och välj sedan åtgärden **Hämta tabeller**. Fönstret **Hämta pakettabell** öppnas.  
 3. I fältet **TableID** anger du ett tabellnummer eller väljer ett tabell-id i listan, till exempel, tabell **Kund**. Fälten **Tabellnamn** fylls i automatiskt.  
 4. Välj den nya flyttningstabellen, klicka på fliken **tabeller** och välj åtgärden **Fält**. Fönstret **Flyttningsfält** öppnas.  
@@ -73,7 +73,7 @@ En ny flyttningstabell skapas.
 ## <a name="to-export-data-migration-files"></a>Så här exporterar du datamigreringsfiler
 När du har bestämt vilka tabeller du vill överföra kunddata till, exporterar du filerna.  
 
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för export.
 3. Markera den eller de tabell(er) som du vill exportera och klicka sedan på åtgärden **Exportera till Excel**.
 4. Spara den exporterade Excel-filen.  
@@ -94,7 +94,7 @@ När du använder data som har importerats från Excel eller från ett RapidStar
 
 I följande procedurer ska du granska i förväg vilka värden som du vill bibehålla under flyttningsprocessen. För att utföra följande procedurer kommer du att behöva datamigreringsfiler (.xlsx) som du har exporterat från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i avsnittet ”Exportera datamigreringsfiler”.
 
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.
 2. Öppna paketet för det aktuella företaget.  
 3. Välj tabellen som du vill mappa värden för, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 4. För varje fält som du vill koppla väljer du åtgärden **Mappa**.  
@@ -112,7 +112,7 @@ Följande exempel visar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] implemen
 3. När du kopplar data beaktas även den mappning du angav för fältet **Kod** i tabellen **Säljare/köpare** vid bearbetningen av fälten **Säljarkod** och **Köparkod**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Så här lägger du till ytterligare värden i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj tabellen som du vill lägga till ytterligare värden i, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 3. Välj kryssrutan som du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  
 4. Importera kunddata. Mer information finns också i avsnittet "Så här importerar du kunddata".

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Använd implementerings-rollcentret för RapidStart Services.
@@ -27,7 +27,7 @@ När du fortsätter med ditt arbete kan du tilldela varje tabell den status som 
 Som standard när du lägger till en tabell till konfigurationskalkylarket är dess status tom. Det betyder att tabellens konfiguration inte har börjat. Det visas i inventeringen **Ej startat** i panelen **Aktiviteter**.  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>Uppdatera status för en konfigurationstabell  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Redigera lista**.  
 3.  Markera en tabell. I fältet **Status** väljer du lämplig status.  
 4.  Välj knappen **OK**.  

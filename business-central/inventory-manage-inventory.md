@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 07/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 745da790218ee57e4fb44b8c0bab2bce504eda3b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1f79c20cb68ff1802bb97914a7ac1e458ca28f3a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
 # <a name="inventory"></a>Lagersaldo
-För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som ej lagerförd artikel, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
+För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
 
 Lagerökningar och lagerminskningar registreras även naturligtvis när du bokför inköps- och försäljningsdokument. Mer information finns i [Bokföra inköp](purchasing-how-record-purchases.md), [Sälja produkter](sales-how-sell-products.md) och [Fakturera försäljning](sales-how-invoice-sales.md). Överföringar mellan lagerställen ändrar lagrets kvantiteter över företagets distributionslager.   
 
@@ -40,7 +40,7 @@ När du bokför lagertransaktioner, till exempel försäljningsutleveranser, ink
 |Strukturera de överordnade artiklar som du säljer som satser som består av komponenter som du monterar till order eller lager.|[Arbeta med strukturer](inventory-how-work-BOMs.md)|
 |Att hålla en översikt över artiklar och hjälpa dig att hitta och sortera artiklar genom att ordna dem i kategorier.|[Kategorisera artiklar](inventory-how-categorize-items.md)|
 |Tilldela artikelattribut med olika värdetyper till artiklarna för att hjälpa dig att sortera och hitta artiklar.|[Arbeta med artikelattribut](inventory-how-work-item-attributes.md)|
-|Skapa artikelkort för vissa artiklar som du erbjuder till kunder, men inte håller i lager.|[Arbeta med ej lagerförda artiklar](inventory-how-work-nonstock-items.md)|
+|Skapa artikelkort för vissa artiklar som du erbjuder till kunder, men inte håller i lager.|[Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md)|
 |Utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i artikeltransaktionerna.|[Inventera, justera och gruppera om lager](inventory-how-count-adjust-reclassify.md)|
 |Visa tillgängligheten av artiklar per lagerställe, per period, per försäljning eller per inköpshändelse eller per deras användning av monterings- eller produktionsstrukturer.|[Visa artikeldisposition](inventory-how-availability-overview.md)|
 |Överför lagerartiklar mellan lagerställen med överföringsorder, för att hantera lageraktiviteter, eller med artikelgrupperingsjournalen.|[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)|

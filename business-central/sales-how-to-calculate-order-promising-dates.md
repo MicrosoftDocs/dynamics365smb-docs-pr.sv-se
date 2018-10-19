@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/19/2019
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09bb0425a8908b17939ebfa52258353e12f577f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
@@ -78,7 +78,7 @@ Orderhandläggaren slutför CTP-processen genom att acceptera datum. Det innebä
 Förutom ett externt orderlöfte som du kan utföra i fönstret **Orderlöftesrader** kan du också utlova interna eller externa leveransdatum för strukturartiklar. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Så här skapar du orderlöfte  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Orderlöfte inställning** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Orderlöfte inställning** och välj sedan relaterad länk.  
 2. Ange ett nummer och en tidsenhetskod i fältet **Offset (tid)**. Välj en av följande koder.  
 
     |Kod|Beskrivning|  
@@ -96,14 +96,14 @@ Förutom ett externt orderlöfte som du kan utföra i fönstret **Orderlöftesra
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Så här anger du ankommande lagerhanteringstid i lagerinställningarna  
 Om du vill ange en ankommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret och för lagerstället.    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerinställningar** och välj sedan relaterad länk.  
 2. I fältet **Ankommande lagerhanteringstid** på snabbfliken **Allmänt** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
 
 > [!NOTE]  
 >  Om du har fyllt i fältet **Ankommande lagerhanteringstid** på **lagerställekortet** för lagerstället, används värdet i detta fält som standard för ankommande lagerhanteringstid.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Så här anger du ankommande lagerhanteringstid på lagerställekort  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställe** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Plats** och välj sedan relaterad länk.  
 2.  Öppna önskat lagerställekort.  
 3.  I fältet **Ankommande lagerhanteringstid** på snabbfliken **Lager** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
 
@@ -113,14 +113,14 @@ Om du vill ange en ankommande lagerhanteringstid som ska tas med i orderlöftesb
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Så här anger du avgående lagerhanteringstid i lagerinställningarna  
 Om du vill ange en avgående lagerhanteringstid som ska tas med i orderlöftesberäkningen på försäljningsraden, kan du ange tiden som standard för lagret.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerinställningar** och välj sedan relaterad länk.  
 2. I fältet **Avgående lagerhanteringstid** på snabbfliken **Allmänt** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
 
 > [!NOTE]  
 >  Om du har fyllt i fältet **Avgående lagerhanteringstid** på lagerställekortet för lagerstället, används värdet i detta fält som standard för avgående lagerhanteringstid.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Så här anger du avgående lagerhanteringstid på lagerställekort  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
 2.  Öppna önskat lagerställekort.  
 3.  I fältet **Avgående lagerhanteringstid** på snabbfliken **Lager** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
 
@@ -129,12 +129,12 @@ Om du vill ange en avgående lagerhanteringstid som ska tas med i orderlöftesbe
 
 ## <a name="to-make-an-item-critical"></a>Så här gör du en artikel kritisk  
 Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som kritisk. Den här inställningen ser till att icke-kritiska objekt inte orsakar orderlöftesberäkningar.   
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
 2.  Öppna relevant artikelkort.  
 3.  Välj **Kritiskt** på snabbfliken **Planering**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Så här beräknar du ett orderlöftesdatum  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Öppna relevant försäljningsorder och markera de försäljningsorderrader som ska beräknas.  
 3.  Välj åtgärden **Orderlöfte** och klicka på åtgärden **Orderlöftesrader**.  
 4.  Välj en ny rad och välj sedan ett av följande alternativ.  

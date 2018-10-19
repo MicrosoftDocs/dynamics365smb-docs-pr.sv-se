@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ddd86615679e6231418b479a440b7555a3e1c50f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 917887deae163a76b233e1635344e537806f6215
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Använda samma Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
@@ -31,7 +31,7 @@ Du måste därför logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] och 
 
 ### <a name="to-rename-your-company"></a>Byta namn på ditt företag
 1.  Logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Företag** och välj sedan relaterad länk.  
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Företag** och välj sedan relaterad länk.  
 3.  I fönstret **Företag** väljer du knappen **Redigera lista**.  
 4.  Byt namn på posten *Mitt företag* till något annat.  
 

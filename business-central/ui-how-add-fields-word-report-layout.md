@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30d515822fd3e1ca3bf5b83e2bbc4e0841bea9cc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
@@ -33,7 +33,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
 2.  Visa fliken **Utvecklare** på menyfliken i Microsoft Word.  
   
-     Som standard visas fliken **Utvecklare** inte på menyfliken. Mer information finns i [Visa fliken Utvecklare på menyfliken](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Som standard visas fliken **Utvecklare** inte på menyfliken. Mer information finns i [Visa fliken Utvecklare på menyfliken](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  På fliken **Utvecklare** väljer du **XML-mappningsruta**.  
   
@@ -107,7 +107,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Bokslutselement.|  
   
 ### <a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word  
- I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter deras namn som har definierats av egenskapen Namn i datauppsättnings-designern för rapporten i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

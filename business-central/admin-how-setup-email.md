@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e9dcc286b460460abb3f5d960b6c065651cf31f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration
@@ -27,7 +27,7 @@ För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includ
 Du kan antingen skapa e-post skapar du manuellt eller också kan du få hjälp med hjälp av assisterad konfiguration för **e-post**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurera e-post
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **SMTP-postinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **SMTP-postinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan också välja åtgärden **Använd Office 365-serverinställningar** för att infoga information som redan har definierats för din Office 365-prenumeration.
 4. När alla fälten är korrekt ifyllda, väljer du åtgärden **Testa e-postinställningar**.

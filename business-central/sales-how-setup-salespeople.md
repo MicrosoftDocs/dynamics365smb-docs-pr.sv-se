@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 07/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-salespeople"></a>Skapa säljare
@@ -23,7 +23,7 @@ Många företag har behov av att följa en individuell anställds prestationer s
 När du har konfigurerat en säljare i fönstret **Säljare** kan du välja den i fältet **Säljarkod** för alla relevanta transaktioner, t.ex redovisningskonto, kund, leverantör, och kampanjkort. När du sedan bokför eller registrerar fakturor, kreditnotor, journalrader, räntefakturor och så vidare, överförs säljarekoden till de resulterande transaktionerna.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Så här skapar du en säljarkod
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Säljare** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Säljare** och välj sedan relaterad länk.
 2. I fönstret **Säljare** väljer du åtgärden **Ny**.
 
 Du kan använda säljare i olika relationshanterings- och marknadsföringsarbeten. Du kan till exempel tilldela aktiviteter till säljare, så att uppgifterna registreras i affärsmöjligheter som tilldelats säljaren. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).

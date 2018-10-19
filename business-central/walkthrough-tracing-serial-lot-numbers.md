@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: babe5bef3f0afac595b9e63276c8ce196d167f98
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Genomgång: Spåra serienummer/partinummer
@@ -71,7 +71,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
 ### <a name="to-create-the-items"></a>Så här skapar du serviceartiklar  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  I fältet **Nr.** ange **2000** och fyll sedan i följande fält.  
 
@@ -107,7 +107,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     Nu köper du racercykelramar från Metallprofilexperten AB.  
 
 ### <a name="to-purchase-components"></a>Så här kan du köpa komponenter  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en inköpsorder för leverantören, som är Metallprofilexperten AB, genom att fylla i följande radfält.  
 
@@ -121,7 +121,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 7.  Välj åtgärden **bokför**, välj alternativet **inleverera och fakturera**, och välj sedan **OK**-knappen.  
 
     Sedan köper du in racercykelramar från Teknologibyrån AB.  
-8.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+8.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
 9. Välj åtgärden **Ny**.
 10. Skapa en inköpsorder för leverantören, som är Teknologibyrån AB, genom att fylla i följande radfält.  
 
@@ -137,7 +137,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     Sedan producerar du racercyklar, SN1 och SN2.  
 
 ### <a name="to-produce-end-items"></a>Så här kan du producera slutartiklar  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppta prod.order** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppta prod.order** och välj sedan relaterad länk.  
 2.  Välj gruppen **Ny**.  
 3.  Skapa en ny släppt produktionsorder genom att fylla i följande fält.  
 
@@ -158,7 +158,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Sedan producerar du två racercyklar till, SN3 och SN4.  
 
-11. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppta prod.order** och välj sedan relaterad länk.  
+11. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppta prod.order** och välj sedan relaterad länk.  
 12. Välj åtgärden **Ny**.  
 13. Skapa en ny släppt produktionsorder genom att fylla i följande fält i huvudet.  
 
@@ -183,7 +183,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     Sedan ska racercyklarna säljas. Sälj först racercykeln med SN1 till Service AB.  
 
 ### <a name="to-sell-the-end-items"></a>Sälja slutartiklarna  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny** och skapa en försäljningsorder genom att fylla i följande fält.  
 
     |Kund|Artikel|Ant.|Serienr|  
@@ -195,7 +195,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Sedan säljs racercykeln med SN2 till Fotograferna AB.  
 
-5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 6.  Välj åtgärden **Ny** och skapa en försäljningsorder genom att fylla i följande fält.  
 
     |Kund|Artikel|Ant.|Serienr|  
@@ -207,7 +207,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Slutligen, sälj en del racercykelramar separat. Cannon Group PLC. beställer även fyra separata racercykelramar till deras egen monteringslinje.  
 
-9. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+9. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 10. Välj åtgärden **Ny** och skapa en försäljningsorder genom att fylla i följande fält.  
 
     |Kund|Artikel|Ant.|Serienr|  
@@ -225,7 +225,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
  Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, har serienumret SN1. Genom att använda den grundläggande informationen kan han fastställa var den färdiga racercykeln senast användes, i det här fallet för försäljningsutleveransen till Service AB. Sedan måste kvalitetskontrollanten spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga in ramen kommer ifrån och vilken leverantör som levererat den.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelspårning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelspårning** och välj sedan relaterad länk.  
 2.  I fönstret **Artikelspårning**, ange **SN1** i fältet **Serienrfilter** och anger sedan **1002** i fältet **Artikelfilter**.  
 3.  Behåll standardinställningen för **Artikel-Endast spårade** i fältet **Visa komponenter** och behåll standardspårningsmetoden **Förbrukning – Ursprung** i **Spårningsmetod**.  
 4.  Välj åtgärden **Spåra**.  

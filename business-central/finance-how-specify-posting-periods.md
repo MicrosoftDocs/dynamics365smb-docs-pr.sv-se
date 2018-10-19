@@ -12,20 +12,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 82f16c5e719fe5e1ebaa7b30c2a655e4871a5056
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-posting-periods"></a>Så här anger du bokföringsperioder
 Använd bokföringsperioder för att ange om användare kan bokföra i redovisningen.  
 
 ## <a name="to-specify-posting-periods"></a>Så här anger du bokföringsperioder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. I fönstret **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
 
 > [!NOTE]  

@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddd5ac6a8252b066700b8fd0058f7f772e4fd01b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
@@ -28,7 +28,7 @@ När värdet av en anläggningstillgång har minskat, bokför du en journalrad m
 Indexering används för att anpassa flera värden för anläggningstillgångar, t.ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Att bokföra uppskrivning från en redovisningsjournal.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. I fältet **Anskaffningskostnad** väljer du **Omvärdering**.
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av uppskrivning.
@@ -38,7 +38,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. Välj **Anskaffningskostnad** i fältet **nedskrivning**.
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av nedskrivning.
@@ -50,12 +50,12 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
 Indexering används för att anpassa flera värden för anläggningstillgångar, t.ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp. Kryssrutan **Tillåt indexering** i fönstret **Avskrivningsregel** måste väljas.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Indexera anläggningstillgångar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Indexera anläggningstillgångar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 3. Välj **OK**.
 
     Omvärderingrader skapas per dina inställningar i steg 2. Raderna skapas antingen i anläggningstillgångsjournalen eller i redovisningsjournalen för anläggningstillgångar beroende på dina mallar och batch-inställning i fönstret **Anl. journalinställningar**. Mer information finns i [Ställa in allmän information för anläggningstillgångar](fa-how-setup-general.md).
-4. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 5. Markera journalen med de anläggningstillgångar som du vill omvärdera och välj sedan åtgärden **Transaktioner**.  
 6. Kontrollera skapade poster och välj sedan åtgärden **Bokför** för att bokföra journalen.
 
@@ -94,7 +94,7 @@ Om du har markerat kryssrutan **Avskr. anskaffningskostnad** med ett "x" på fak
 
 *Den tillkommande anskaffningskostnaden avskrivs med ((150 x 100) / 4800) / 100 x 480 = 15*
 
-Avskrivningsbasen är nu *5280 = (4800 + 480)*och den ackumulerade avskrivningen är *165 = (100 + 50 + 15)* vilket motsvarar 45 avskrivningsdagar för den totala anskaffningskostnaden. Detta innebär att tillgången helt är avskriven inom den beräknade livslängden på fyra år.  
+Avskrivningsbasen är nu *5280 = (4800 + 480)* och den ackumulerade avskrivningen är *165 = (100 + 50 + 15)* vilket motsvarar 45 avskrivningsdagar för den totala anskaffningskostnaden. Detta innebär att tillgången helt är avskriven inom den beräknade livslängden på fyra år.  
 
 När batch-jobbet **Beräkna avskrivning** körs på 09/30/00 används följande beräkning:  
 

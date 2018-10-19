@@ -1,6 +1,6 @@
 ---
 title: "Välja användargränssnittet för att visa eller dölja avancerade funktioner | Microsoft Docs"
-description: "Lär dig vad användarupplevelsernivåerna Grundläggande och Vital betyder för användargränssnitt, moduler och ditt företag."
+description: "Lär dig vad användarupplevelsernivåerna Essential och Premium betyder för användargränssnitt, moduler och ditt företag."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: sv-se
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Ändra vilka funktioner som visas
@@ -31,8 +31,7 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 
 | Upplevelse | Inverkan på användargränssnitt |
 | --- | --- |
-| **Grundläggande** |Visar endast grundläggande åtgärder och fält inom de vanligaste affärsfunktionerna, till exempel försäljning, inköp, lager och ekonomi. |
-| **Väsentligt** |Visar alla åtgärder och fält för alla vanliga affärsfunktioner.|
+| **Essential** |Visar alla åtgärder och fält för alla vanliga affärsfunktioner.|
 | **Premium** |Visar alla åtgärder och fält för alla företagsfunktioner, till exempel produktion och service.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ Du kan definiera vilka funktioner och fönster inom miljön som de användare s
 När du har gjort en ändring i planer för användare i Office 365 administratörscentret, såsom tilldelat premiumplanen till flera användare, måste du visa ändringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Logga in som en administratör.
-2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användare** och välj sedan relaterad länk.
 3. I fönstret **Användare** välja åtgärden **Uppdatera alla användargrupper**.
 
 All ny information om användares planer och deras tilldelade användargrupper har nu uppdaterats enligt ändringarna i planen.
 
 ### <a name="to-select-the-premium-experience"></a>För att välja Premium-upplevelsen.
 Du kan nu fortsätta med att välja den nya miljön.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Företagsinformation** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk.
 2. I fönstret **FöretagsInformation** på snabbfliken **användarupplevelse** väljer du fältet **upplevelse**.
+
+## <a name="help-assumes-premium-experience"></a>Hjälp utgår från Premium-upplevelsen
+Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[d365fin](includes/d365fin_md.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. En textanteckning infogas i ett inledande hjälpavsnitt för funktionsområdena Tillverkning och Servicehantering om de kräver **Premium**-upplevelse.
 
 ## <a name="see-also"></a>Se även
 [Skapa nya företag](about-new-company.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Leverera artiklar
@@ -29,7 +29,7 @@ När du utlevererar artiklar från ett distributionslagret som har ställt in ut
 
 ## <a name="to-ship-items-with-a-sales-order"></a>För att utleverera artiklar med en försäljningsorder.
 Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är liknande för inköpsreturorder, serviceorder och utgående överföringsorder.  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
 2. Öppna en befintlig försäljningsorder eller skapa en ny. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3. Ange hur många enheter som har inlevererats i fältet **Ant. att utleverera**.
 
@@ -41,7 +41,7 @@ Först kan du skapa ett utleveransdokument från ett källdokument för företag
 
 ### <a name="to-create-a-warehouse-shipment"></a>Skapa en distributionslagerutleverans.
 Medarbetare som är ansvarig för utleveransen skapar en distributionslagerutleverans.
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerutleveranser**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Distributionslagerutleveranser** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 
     Fyll i fälten på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.  
@@ -74,12 +74,12 @@ När du har alla rader som ska utlevereras kan du skicka raderna som lagerperson
 
 ### <a name="to-pick-and-ship"></a>Så här plockar och utlevererar du artiklar
 Vanligtvis skapar en lagerarbetare ansvarig för plockning ett plockningsdokument eller öppnar ett redan skapat plockningsdokument.
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerutleveranser**, och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Distributionslagerutleveranser** och välj sedan relaterad länk.
 2. Välj dist.lager utleverans som du vill plocka för och välj sedan åtgärden **Skapa plockning**.
 3. Fyll i fälten i fönstret och sedan välj **OK** knappen. De angivna dokumenten för distributionslagertransport har skapats.
 
     Du kan också öppna en befintlig dist.lager plockning.
-4. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Plockningar**, och välj sedan relaterad länk. Välj Dist.lager plockning som du vill arbeta med.
+4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Plockningar** och välj sedan relaterad länk. Välj Dist.lager plockning som du vill arbeta med.
 
     Om distributionslagret är konfigurerat att använda lagerplatser har plockningsraderna omvandlats till åtgärdsrader för Ta och Placera.
 
@@ -96,7 +96,7 @@ Mer information om hur du plockar för utleveranser finns i [Plocka artiklar fö
 Du kan också använda plockningskalkylarket för att kombinera flera plockningsinstruktioner till en enda instruktion (för flera utleveranser) och på så sätt optimera plockningen i distributionslagret. Mer information finns i [Planera plockning i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Om du väntar på att vissa artiklar ska anlända till distributionslagret, och du använder funktionerna för direktutleverans, beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] det antal artiklar som finns på lagerplatsen för direktutleverans för varje utleverans- eller plockningskalkylarksrad. Det här fältet uppdateras varje gång du lämnar och öppnar utleveransdokumentet eller kalkylarket. Mer information finns i [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
+> Om du väntar på att vissa artiklar ska anlända till distributionslagret, och du använder funktionerna för direktutleverans, beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] det antal artiklar som finns på lagerplatsen för direktutleverans för varje utleverans- eller plockningsförslagsrad. Det här fältet uppdateras varje gång du lämnar och öppnar utleveransdokumentet eller kalkylarket. Mer information finns i [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

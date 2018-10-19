@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c62f99c4baddedaaff6629c573d898f0fbd7f1a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Lägga ut legotillverkning för produktion
@@ -24,7 +24,7 @@ I programmet finns flera verktyg som kan användas för att hantera legotillverk
 
 - Produktionsgrupper med tilldelad leverantör: Med den här funktionen kan du upprätta en produktionsgrupp som är associerad med en leverantör (underleverantör). Detta kallas för en produktionsgrupp för legotillverkning. Du kan ange en produktionsgrupp för legotillverkning i en operationsföljd, vilket gör att du på ett enkelt sätt kan bearbeta legoaktiviteten. Dessutom kan kostnaden för operationen anges på operationsföljdsnivå eller produktionsgruppsnivå.  
 - Produktionsgrupper kostnadsbaserade på enheter eller tid: Med den här funktionen kan du ange om kostnaderna som är associerade med produktionsgruppen baseras på produktionstiden eller en fast kostnad per enhet. Även om underleverantörer oftast använder en fast kostnad per enhet för att debitera kostnaden för tjänsten, kan båda alternativ hanteras i programmet (produktionstid och fast kostnad per enhet).  
-- Legotillverkningskalkylark: Med den här funktionen kan du söka efter de produktionsorder som innehåller material som är klart att skickas till en underleverantör, och automatiskt skapa inköpsorder för legotillverkningsoperationer från verksamhetsföljder för produktionsorder. Inköpsorderkostnader bokförs automatiskt i produktionsordern under bokföringen av inköpsordern. Endast produktionsorder med statusen Släppt kan kommas åt och användas från ett legotillverkningskalkylark.  
+- Legotillverkningskalkylark: Med den här funktionen kan du söka efter de produktionsorder som innehåller material som är klart att skickas till en underleverantör, och automatiskt skapa inköpsorder för legotillverkningsoperationer från verksamhetsföljder för produktionsorder. Inköpsorderkostnader bokförs automatiskt i produktionsordern under bokföringen av inköpsordern. Endast produktionsorder med statusen Släppt kan kommas åt och användas från ett legotillverkningsförslag.  
 
 ## <a name="subcontract-work-centers"></a>Produktionsgrupper för legotillverkning  
 Produktionsgrupper för legotillverkning är inställda på samma sätt som vanliga produktionsgrupper med extra information. Dessa produktionsgrupper tilldelas till verksamhetsföljder på samma sätt som andra produktionsgrupper.  
@@ -52,15 +52,15 @@ Fönstret **Legotillverkningskalkylark** fungerar som **Planeringsförslag** gen
 >  Endast produktionsorder med statusen **Släppt** kan kommas åt och användas från ett legotillverkningskalkylark.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Beräkna legotillverkningskalkylark  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Legotillverkningskalkylark**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Legotillverkningsförslag** och välj sedan relaterad länk.  
 2.  Om du vill beräkna kalkylarket väljer du åtgärden **Beräkna kalkylark**.  
 3.  I fönstret **Beräkna utlego** ställer du in filter för de operationerna eller produktionsgrupperna där de utförs för att beräkna endast relevanta produktionsorder.  
 4.  Välj **OK**.  
 
-    Granska raderna i fönstret **legotillverkningskalkylark**. Informationen i det här kalkylarket kommer från produktionsordern och verksamhetsföljdsraderna för produktionsordern, och skickas vidare till inköpsordern när den skapas. Du kan ta bort en rad i legotillverkningskalkylarket utan att påverka den ursprungliga informationen, precis som med andra kalkylark. Informationen visas på nytt nästa gång du kör funktionen **Beräkna utlego**.  
+    Granska raderna i fönstret **legotillverkningskalkylark**. Informationen i det här kalkylarket kommer från produktionsordern och verksamhetsföljdsraderna för produktionsordern, och skickas vidare till inköpsordern när den skapas. Du kan ta bort en rad i legotillverkningsförslaget utan att påverka den ursprungliga informationen, precis som med andra förslag. Informationen visas på nytt nästa gång du kör funktionen **Beräkna utlego**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Så här skapar du en inköpsorder för underkontrakt  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Legotillverkningskalkylark**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Legotillverkningsförslag** och välj sedan relaterad länk.  
 2.  Välj **Verkställ åtgärdsmeddelande** i gruppen **Process** på fliken **Åtgärder**.  
 3.  Markera fältet **Skriv ut inköpsorder** om du vill skriva inköpsordern när den skapas.  
 4.  Välj knappen **OK**.  
@@ -80,7 +80,7 @@ När inköpsordern bokförs som inlevererad bokförs en utflödesjournalrad auto
 >  För att undvika att förväntade utdata för en produktionsorder bokförs när legotillverkningsinköp tas emot, kontrollera att legotillverkningsoperationen inte är den sista. Alternativt infogar du en ny sista åtgärd för det sista utflödesantalet.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Så här bokför du en inköpsorder för underkontrakt:  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
 2.  Öppna den inköpsorder som skapades från legotillverkningskalkylarket.  
 
     På inköpsorderraderna ser du samma information som i kalkylarket. Fälten **Prod. Ordernr**, **Prod. Radnr**, **Operationsnr**, och **Prod.gruppsnr** fylls i automatiskt med information från den ursprungliga produktionsordern.  

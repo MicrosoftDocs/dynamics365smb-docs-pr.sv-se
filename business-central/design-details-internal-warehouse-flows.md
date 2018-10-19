@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e7638c602568c15b0496d4f73aa6ea59c20f82e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a52997195a95ff43eb049025b7b8ab3038381039
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interna distributionslagerflöden
@@ -116,7 +116,7 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
 
  Följande illustration visas när fältet **Lagerplatskod** på komponentlistan fylls enligt inställningen för lagerstället eller maskin-/produktionsgruppen.  
 
- ![Flödesschema för lagerplats](media/binflow.png "BinFlow")  
+ ![Översikt över när/hur fältet Lagerplatskod fylls i](media/binflow.png "Översikt över när/hur fältet Lagerplatskod fylls i")  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)

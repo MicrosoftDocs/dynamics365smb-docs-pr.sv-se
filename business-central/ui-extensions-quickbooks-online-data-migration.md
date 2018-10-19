@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 05/24/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-business-central"></a>Tillägget QuickBooks Online-datamigrering för Business Central
+# <a name="the-quickbooks-online-data-migration-extension"></a>Tillägget QuickBooks Online datamigrering
 Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Vilka data kan jag importera från QuickBooks Online?
@@ -51,11 +51,11 @@ Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett ska
 ## <a name="how-do-i-start-using-the-extension"></a>Hur börjar jag använda tillägget?
 Komma igång enkelt. Allt du behöver göra är att köra den assisterade guiden **datamigrering**. Så här gör du:
 
-1. Välj ikonen ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "ikonen Sök efter sidan eller rapporten"), ange **Assisterad konfiguration** och välj sedan **Migrera affärsdata**.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Assisterad konfiguration** och välj sedan **Migrera affärsdata**.
 2. Följ instruktionerna i varje steg i guiden assisterad konfiguration.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
-När du har migrerat data har transaktionerna statusen **ej bokförda**, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till sidan **försäljningsfakturor**. Om du vill gå igenom journaler, går du till sidan **betalningsjournaler**.   
+När du har migrerat data har transaktionerna statusen **ej bokförda**, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till fönstret **försäljningsfakturor**. Om du vill gå igenom journaler, går du till fönstret **betalningsjournaler**.   
 
 Det finns några saker som du bör göra:
 

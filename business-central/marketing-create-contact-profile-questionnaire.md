@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 00cfce8b467040a4de419c1b59a258c0eacf0b9a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -24,7 +24,7 @@ Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter 
 Du kan också köra frågeformuläret när du automatiskt vill besvara några av frågorna på grundval av kontakt, kund eller leverantör.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Lägga till profilfrågeformulär så här
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Frågeformulärsinställningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Frågeformulärsinställningar** och välj sedan relaterad länk.  
 2.  På fliken **Start** i gruppen **Ny** väljer du **Ny**.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

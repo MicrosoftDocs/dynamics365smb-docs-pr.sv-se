@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
@@ -31,11 +31,11 @@ Du kan skapa en lagerartikelinförsel på tre sätt:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Så här begär du en lagerinförsel genom att släppa källdokumentet
 För försäljningsorder, inköpsreturorder och ingående överföringsorder och montering skapar du distributionslagerkravet genom att släppa ordern. Nedan beskrivs hur du gör detta från en inköpsorder.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.
 2. Markera den inköpsorder som du vill släppa och välj sedan åtgärden **Släpp**.  
 
     För produktionsorder skapar du distributionslagerkravet genom att skapa ett ankommande krav från den släppta produktionsordern.  
-3.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Släppta produktionsorder** och välj sedan relaterad länk.  
+3.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppt produktionsorder** och välj sedan relaterad länk.  
 4. Välj åtgärden **Skapa ankommande dist.lagerkalkylark**.  
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ När distributionslagerkravet har skapats kan någon som arbetar i distributions
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
 Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel baserat på släppta källdokument.   
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerinförsel** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerinförsel** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **Källdokument** markerar du den typ av källdokument som du lägger ifrån dig.  
 4. I fältet **Ursprungsnr** markerar du källdokumentet.  
@@ -58,7 +58,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel ba
 3. Välj knappen **OK**. En ny lagerinförsel har skapats.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
 2.  På snabbfliken **Dist.lagerkrav** i beställningsfönstret använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer.  
 3.  Välj fältet **Skapa lagerinförsel** på kryssrutan **Alternativ**.
 4.  Välj knappen **OK**. Anger numret för den bokförda artikelinförseln i lagret.

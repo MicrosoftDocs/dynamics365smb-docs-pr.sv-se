@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Designdetaljer: Hantera planerat negativt lagersaldo
@@ -28,28 +28,20 @@ Beställningspunkten uttrycker den förutsedda efterfrågan under ledtiden för 
 
  I följande illustration representerar D en nödleveransorder för att justera för ett negativt lagersaldo.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Förslag på nödplanering för att undvika negativt lagersaldo](media/nav_app_supply_planning_2_negative_inventory.png "Förslag på nödplanering för att undvika negativt lagersaldo")  
 
 1.  Tillgång **A**, initialt planerat lager, är nedanför beställningspunkt.  
-
 2.  En ny framåtplanerad tillgång skapas (**C**).  
 
      (Antal = Beställningsgräns – Planerad lagernivå)  
-
 3.  Tillgång **A** är stängd efter efterfrågan **B**, som inte täcks helt.  
 
      (Behov **B** kan försöka schemalägga Tillgång C, men det kommer inte att hända enligt följande tidsenhetsbegreppet.)  
-
 4.  Ny leverans (**D**) skapas för att täcka det återstående antalet i efterfrågan **B**.  
-
 5.  Efterfrågan **B** är stängd (och skapar en betalningspåminnelse till det planerade lagret).  
-
 6.  Den nya tillgången **D** stängs.  
-
 7.  Planerat lager kontrolleras; beställningspunkten har inte passerats.  
-
 8.  Tillgång **C** är stängd (ingen mer efterfrågan finns).  
-
 9. Sista kontroll: Inga utestående lagernivåpåminnelser finns.  
 
 > [!NOTE]  

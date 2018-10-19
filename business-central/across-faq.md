@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 08/15/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
@@ -55,15 +55,8 @@ Om du har tillgång till Microsoft CustomerSource kan du få tillgång till webb
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgänglig på ett begränsat antal marknader, men nya länder tillkommer varje kvartal via lokalisering av Microsoft eller dess partner. Mer information finns i [Länder och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Varför visas vissa delar av användargränssnittet som jag använde i Dynamics NAV inte i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] modulsystemet och upplevelsemiljön kan du Visa/Dölja relevanta delar av produkten enligt inköpsplanen (grundläggande eller premium) och i enlighet med företagets behov.
-
-Dessa funktioner har använts för att underlätta användargränssnittet i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Till exempel fält som inte används så ofta, såsom **Faxnr**, har tagits bort, och menyflikar i listor och kort, dubbla åtgärder och mest använda åtgärder prioriteras. Några fullständiga funktioner, till exempel kommentarer, som är optimerade för webbklienten och därför inte ska finnas på [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-Därför bör vissa gränssnittselement som är tillgängliga i standardversionen av Dynamics NAV inte visas i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kontroller i fråga har taggen #Avancerat programområde.
-
-Om du vill att din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning ska innehålla samma gränssnittselement som din Dynamics NAV-lösning, måste du utföra några steg i utvecklingsmiljön för #Avancerade kontroller, genom ett tillägg. Mer information finns också i [Utöka programområden](/dynamics365/dev-itpro/developer/devenv-extending-application-areas)
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Varför beskriver Hjälp funktioner som det går inte att komma åt?
+Om upplevelseinställningen i fönstret **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).    
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fe5bac9b47ccaca4cb3c1bdac7cda6b8d5ebbfd4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab9696a3cc14970def764b2741d50dbcd5207460
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="logging-changes-in-business-central"></a>Logga ändringar i Business Central
@@ -32,7 +32,7 @@ När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av d
 ## <a name="see-also"></a>Se även
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Söka efter sida eller rapport](ui-search.md)  
+[Använda Söka efter sida eller rapport](ui-search.md)  
 [Hantera användare och behörigheter](ui-how-users-permissions.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

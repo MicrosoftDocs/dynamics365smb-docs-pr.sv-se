@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: feae398e064a03d01903fcc65c6f4d99be8374a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
@@ -44,13 +44,13 @@ Mer information finns i så här: aktivera eller inaktivera betalningstoleransva
 Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktura även om betalningen inte täcker hela fakturabeloppet, oavsett om det beror på att förfallodatumet för kassarabatten har passerats, att varorna har dragits av eller att ett mindre fel har begåtts. Det gäller även återbetalningar och kreditnotor.  
 
 Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokföringsmetoder för både kassarabattstolerans och betalningstolerans samt köra batch-jobbet **Ändra betalningstolerans**.  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2. I fönstret **Bokföringsinställningar** anger du ett debet- och ett kreditkonto för försäljningsbetalningstolerans och ett debet- och ett kreditkonto för inköpsbetalningstolerans.  
-3. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kundbokningsgruppen** och välj sedan relaterad länk.    
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kundbokföringsmallar** och välj sedan relaterad länk.    
 4. I fönstret **Kundbokföringsmallar** anger du ett debetkonto och ett kreditkonto för betalningstolerans. Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
-5. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+5. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar för leverantör** och välj sedan relaterad länk.  
 6. I fönstret **Leverantörsbokföringsmallar** anger du ett debetkonto och ett kreditkonto för betalningstolerans.  
-7. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+7. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 8. Öppna fönstret **Redovisningsinställningar**.  
 9. På snabbfliken **Program**, fyll i fälten **Kassarabattolerans bokf.**, **Kassarabattfrist** och **Betalningstolerans bokföring**.   
 10. Välj åtgärden **Ändra betalningstolerans**.
@@ -68,7 +68,7 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. I fönstret **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att avmarkera kryssrutan.  
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett
 ## <a name="to-block-payment-tolerance-for-customers"></a>Så här spärrar du betalningstolerans för kunder  
 Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Nedan beskrivs hur du gör för en kund. Momenten är liknande för en leverantör.
 
-1. Välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "ikonen Sök efter sida eller rapport"), ange **Kund** eller **Leverantör** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kund** eller **Leverantör** och välj sedan relaterad länk.  
 2. Välj kryssrutan **Spärra betalningstolerans** på Snabbfliken **Betalningar**.  
 
 > [!NOTE]  
@@ -124,7 +124,7 @@ I relation till scenariot ovan kan betalningsintervallen illustreras på följan
 
 normala kopplingsregler  
 
-![Toleransregler för enkel betalning &#40;before 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Toleransregler för enkel betalning 1](media/singlePmtTolRules(Pre1503).gif "Toleransregler för enkel betalning 1")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -135,7 +135,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för enkel betalning &#40;grace period&#41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Toleransregler för enkel betalning 2](media/singlePmtTolRules(GracePeriod).gif "Toleransregler för enkel betalning 2")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -146,7 +146,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för enkel betalning &#40;before 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Toleransregler för enkel betalning 3](media/singlePmtTolRules(Post0120).gif "Toleransregler för enkel betalning 3")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -207,7 +207,7 @@ I relation till scenariot ovan kan betalningsintervallen illustreras på följan
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar &#40;before 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Toleransregler för flera betalningar 1](media/multiplePmtTolRules(Pre1503).gif "Toleransregler för flera betalningar 1")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -218,7 +218,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Toleransregler för flera betalningar 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Toleransregler för flera betalningar 2")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -229,7 +229,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Toleransregler för flera betalningar 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Toleransregler för flera betalningar 3")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -240,7 +240,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Toleransregler för flera betalningar 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Toleransregler för flera betalningar 4")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -251,7 +251,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar &#40;after 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Toleransregler för flera betalningar 5](media/multiplePmtTolRules(Post0122).gif "Toleransregler för flera betalningar 5")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 

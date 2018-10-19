@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Fördela samma resurs, till exempel en tekniker eller resursgrupp, till alla ser
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Så här visar du en översikt över serviceorder/serviceofferter  
 Du kan ofta behöva titta på listan över serviceorder och/eller serviceofferter som uppfyller vissa krav så att du kan utföra särskilda åtgärder för var och en av dem. Du kan till exempel behöva fördela resurser till serviceorder som tillhör en viss kund.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Beordringstavla** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
 2. Välj den dokumenttyp du vill visa i fältet **Dokumentfilter**.
 3. Om du vill ha en lista över dokument som innehåller de serviceuppgifter som en viss resurs/resursgrupp är allokerade till fyller du i fältet **Resursfilter** och **Resursgruppfilter** och trycker på Retur.  
 4. Om du vill ha en lista över dokument med ett visst svarsdatum eller med svarsdatum inom en viss period fyller du i fältet **Svarsdatumfilter** och trycker på **Retur**.  
@@ -36,10 +36,10 @@ Du kan ofta behöva titta på listan över serviceorder och/eller serviceofferte
 6. Om du vill ha en lista över dokument som tillhör ett visst kontrakt eller en viss kund/zon fyller du i fältet **Kontraktsfilter/kundfilter/zonfilter** och trycker på **Retur**.  
 7. Välj en rad som motsvarar en serviceorder eller serviceoffert och klicka på åtgärd **visa dokument**.  
 
-    Sidan **Tjänsteorder** eller **Serviceoffert** öppnas, och du kan arbeta med dokumentet. Återgå till sidan **Beordringstavla** väljer **OK**.
+    Fönstret **Serviceorder** eller **Serviceoffert** öppnas, och du kan arbeta med dokumentet. Återgå till fönstret **Beordringstavla** välj **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Så här fördelar du resurser med hjälp av Resursgruppsdisposition    
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Beordringstavla** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
 2. Välj serviceordern och välj sedan åtgärd **Resursfördelningar**.  
 3. Välj den transaktion som innehåller den serviceuppgift som du vill tilldela resurser till.  
 4. Välj antingen åtgärd **resurstillgänglighet** eller **Resursgruppsdisposition**.  
@@ -59,7 +59,7 @@ Du kan ofta behöva titta på listan över serviceorder och/eller serviceofferte
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Så här fördelar du resurser med hjälp av en serviceorder  
 När du har skapat och fyllt i en serviceorder eller serviceoffert kan du fördela resurser, t.ex. tekniker som ska utföra serviceuppgifter som registrerats som serviceartikelrader i dokumentet.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Välj serviceorder, och sedan **Redigera**.  
 3. Välj den serviceartikelrad som motsvarar den serviceuppgift som du vill fördela en resurs till.  
 4. Välj **Resursfördelningar**.
@@ -79,7 +79,7 @@ Du kan omfördela resurser direkt från en serviceorder eller serviceoffert när
 * Om servicen inte påbörjades när fördelningen var **Aktiv** ändras fördelningsstatus från **Omfördelning nödvändig** till **Inställd**.  
 * Om du omfördelar en serviceorder som du har konverterat från en offert ändras alltid statusen för de fördelningstransaktioner som angetts på offerten till **Avslutad** när du omfördelar serviceartiklarna på serviceordern.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
 3. Välj den serviceartikelrad som motsvarar den serviceuppgift som du vill fördela en resurs till.  Välj **Åtgärder**, cälj **Rad**, och sedan **Resursfördelningar**.  
 4. Markera en allokeringspost som innehåller den serviceuppgift som du vill omfördela resursen till i fönstret **Resursfördelningar**. I fältet **Resursnr** väljer du önskad resurs. Detta gör att resursnumret som redan finns i fältet skrivs över.  
@@ -89,7 +89,7 @@ Du kan omfördela resurser direkt från en serviceorder eller serviceoffert när
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Så här omfördelar du resurser genom att använda beordringstavlan  
 Om en resurs som har fördelats till en serviceuppgift inte kan slutföra arbetet innebär det att denna serviceuppgift måste omfördelas. Vanligtvis omfördelar du resurser till en serviceuppgift med hjälp av **Beordringstavlan**.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Beordringstavla** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
 2. I fältet **Fördelningsfilter** markerar du **Omfördelning nödvändig**. Fönstret **Beordringstavla** visar nu en lista med de serviceorder som inkluderar serviceuppgifter som behöver omfördelas.  
 3. Välj önskad serviceorder. Välj **Resursfördelningar** på fliken **Analysera** i gruppen **Planering**. Fönstret **Resursfördelningar** visas.  
 4. Välj fördelningstransaktionen med den serviceuppgift som du vill omfördela en resurs till.  
@@ -111,7 +111,7 @@ Du kan använda en liknande procedur för att registrera timmarna i fönstret **
 
 Om samma resurs arbetar med alla serviceartiklar på serviceordern kan du registrera det totala antalet resurstimmar för endast en serviceartikel och sedan dela resursraden så att resurstimmarna tilldelas andra serviceartiklar.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceuppifter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceuppgifter** och välj sedan relaterad länk.
 2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -120,7 +120,7 @@ Om samma resurs (t.ex. en tekniker) arbetar med en serviceorders alla serviceart
 
 Följande visar hur man delar resursrader i fönstret **Servicefakturarader**.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Tjänsteorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
 3. På snabbfliken **Rader** välj **Åtgärder**, välj **Order**, och sedan **Servicerader**. Fönstret **Servicerader** öppnas.  
 4. Klicka på den resursrad som du vill dela. Innehållet i fältet **Antal** delas mellan orderns alla serviceartiklar.  
@@ -131,7 +131,7 @@ Följande visar hur man delar resursrader i fönstret **Servicefakturarader**.
 ## <a name="to-cancel-an-allocation"></a>Så här annullerar du fördelningar  
 Du kan avbryta resursfördelningar för serviceuppgifter utan att omfördela uppgifterna.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Beordringstavla** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
 2. Välj serviceordern och välj sedan åtgärd **Resursfördelningar**.  
 3. Välj den fördelningstransaktion som innehåller den serviceuppgift som du vill rätta fördelningen för.  
 4. Välj åtgärden **Avbryt fördelningar**.  

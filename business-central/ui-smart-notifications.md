@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c064bc8a5aaff42a75b10b133225f9d2cb87d786
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="smart-notifications"></a>Smarta meddelanden
@@ -32,7 +32,7 @@ Dessutom låter dig vissa meddelanden ange de villkor enligt vilka de ska skicka
 
 Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för dig.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Mina meddelanden** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Mina meddelanden** och välj sedan relaterad länk.
 2. Om du vill aktivera och inaktivera meddelanden markerar eller avmarkerar du kryssrutan **aktiverad**.
 3. Ange villkor som ska utlösa meddelanden genom att välja länken **Visa filterdetaljer** och fyll sedan i fälten.  
 

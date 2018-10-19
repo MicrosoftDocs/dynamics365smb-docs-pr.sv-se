@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Planering
@@ -38,13 +38,13 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |En kort indroduktione till hur planeringssystemet kan användas för att upptäcka och prioritera behov och föreslå en konsoliderad försörjningsplan.|[Om planeringsfunktioner](production-about-planning-functionality.md)|
 |Förstå hur planeringssystemet fungerar och hur du justerar algoritmerna för att uppfylla planeringskrav i olika miljöer.|[Designdetaljer: Leveransplanering](design-details-supply-planning.md)|
 |Läsa mer om hur planeringslogiken skiljer mellan behov på lagerställen som finns med i inställningarna för lagerställeenhet och behov utan lagerställekoder.|[Planera med och utan lagerställen.](production-planning-with-without-locations.md)|
-|Planeras utifrån förväntad försäljnings- och produktionsorder.|[Skapa en produktionsprognos](production-how-to-create-a-forecast.md)|  
+|Prognostisera efterfrågan utifrån förväntade försäljnings- och produktionskomponenter.|[Skapa en efterfrågeprognos](production-how-to-create-a-forecast.md)|  
 |Automatiskt skapa en-mot-en-produktionsorder från försäljningsorder för att täcka det exakta behovet på den försäljningsorderraden.|[Så här skapar du produktionsorder från försäljningsorder](production-how-to-create-production-orders-from-sales-orders.md)|
 |Skapa en projektproduktionsorder direkt från en försäljningsorder med flera rader så att den representerar ett produktionsprojekt.|[Planera projektorder](production-how-to-plan-project-orders.md)|
 |Använda fönstret **Orderplanering** för att manuellt planera för försäljnings- eller produktionsbehovet på en strukturnivå i taget.|[Planera ny behovsorder efter order](production-how-to-plan-for-new-demand.md)|
 |Använd fösntret **planeringsförslag** för att köra både Prod.program och Nettobehov för att automatiskt skapa en hög eller detaljerad försörjningsplan på alla artikelnivåer.|[Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)|
-|Köra inköpskalkylarket för att automatiskt skapa en detaljerad försörjningsplan för att täcka behovet av artiklar som endast kan återanskaffas via inköp eller överföring.|Sidan **Inköpskalkylark**|  
-|initialisera eller uppdatera en produktionsorder som grovplanerade operationer i produktionsplanen.|[Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)|
+|Köra inköpsförslaget för att automatiskt skapa en detaljerad försörjningsplan för att täcka behovet av artiklar som endast kan återanskaffas via inköp eller överföring.|Fönstret **Inköpsförslag**|  
+|Initiera eller uppdatera en produktionsorder som grovplanerade operationer i produktionsplanen.|[Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)|
 |Omberäkna produktions- eller maksingruppkalender på grund av planeringsändringar.|Avsnittet ”Beräkna en produktionsgruppkalender” i [Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)|
 |Spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden.|[Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)|
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  
@@ -60,5 +60,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

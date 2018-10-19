@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fd098170ac96b03f6f1da64b8de23b3f500c565
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
@@ -32,7 +32,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Så här skapar du en verksamhetsföljd  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  I fältet **Typ**, markera **Seriell** för att beräkna produktionsverksamhetsföljden efter det värde som anges i fältet **Operationsnr**. .   
@@ -63,7 +63,7 @@ Du kan skapa verksamhetsföljdslänkar för att koppla ihop komponenter med spec
 
 En annan viktig fördel är att länkade komponenter och operationer visas i en logisk processtruktur när du använder fönstret **Produktionsjournal** för bokföring av utdata och förbrukning.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Öppna verksamhetsföljden som innehåller operationen du vill länka.  
 
     Se till att verksamhetsföljden har statusen är **Under utveckling**.  
@@ -94,7 +94,7 @@ De markerade komponenterna länkas till de markerade operationerna när du skapa
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Tilldela personal, verktyg och kvalitetsmått för verksamhetsföljdsuppgifter.
 Om du behöver personal med kvalifikationer, specialkunskaper eller särskild behörighet för en operation kan du tilldela sådan personal till operationen. Dessutom kan du tilldela åtgärden med verktyg och kvalitet. Nedan beskrivs hur du tilldelar personal: Momentet är liknande för andra typer av åtgärdsinformation.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Öppna relevant verksamhetsföljd.  
 3.  På snabbfliken **rader** markerar du raden som du vill behandla och klickar på åtgärden **personal**.  
 4.  Fyll i fälten i fönstret **Operationsföljd personal**.  
@@ -103,7 +103,7 @@ Om du behöver personal med kvalifikationer, specialkunskaper eller särskild be
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Så här skapar du nya versioner av verksamhetsföljder  
 Med versionsprincipen kan du hantera flera versioner av en verksamhetsföljd. Strukturen på verksamhetsföljdsversionen motsvarar strukturen på verksamhetsföljden som består av huvud och rader. Den grundläggande skillnaden definieras av startdatumet.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Markera verksamhetsföljden som ska kopieras och klicka på åtgärden **versioner**.  
 3. I fönstret **verksamhetsföljdversioner** väljer du åtgärden **Ny**.
 4. Fyll i fälten om det behövs.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3152e16f5f4ebba4a20d4905def77d45e3f051ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-item-costs"></a>Justera artikelkostnader
@@ -37,7 +37,7 @@ Om du använder metoden Genomsnittskostnad beräknas en artikels enhetskostnad s
 Funktionen Kostnadsjustering bearbetar endast värdetransaktioner som inte ännu har justerats. Om en funktion påträffas där ankommande kostnader behöver flyttas fram till kopplade avgående kostnader, görs detta genom att nya justeringsvärdetransaktioner skapas som baseras på informationen i de ursprungliga värdetransaktionerna, men som innehåller justeringsbeloppet. Funktionen Kostnadsjustering använder bokföringsdatumet för den ursprungliga värdetransaktionen om inte det datumet infaller i en avslutad lagerperiod. Om så är fallet används startdatumet för nästa öppna lagerperiod. Om lagerperioder inte används definieras datumet i fältet **Tillåt bokföring fr.o.m.** i fönstret **Redovisningsinställningar** när justeringstransaktionerna bokförs.
 
 ## <a name="to-adjust-item-costs-manually"></a>Så här justerar du artikelkostnader manuellt
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Justera kost. - artikeltrans** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Justera kost. - artikeltrans** och välj sedan relaterad länk.
 2. I fönstret **Justera kost. - artikeltrans** kan du ange vilka artiklar som du vill justera kostnader för.
 3. Välj knappen **OK**.
 
@@ -46,7 +46,7 @@ Om du vill ändra inköpspriset för flera olika artiklar kan du använda batchj
 
  När batch-jobbet körs ändras innehållet i fältet **Inköpspris** på artikelkortet. Innehållet i fältet ändras på samma sätt för alla artiklar eller för de artiklar du valt. Värdet i fältet multipliceras med en justeringsfaktor som du anger.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Justera artikelkost./-priser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Justera artikelkostnader/priser** och välj sedan relaterad länk.  
 2. I fältet **Justeringsfält** anger du vilket artikelfält eller lagerställeskortfält du vill justera.  
 3. I fältet **Justeringsfaktor** anger du den faktor som ska justera värdet. Ange t.ex. **1,5** för att minska värdet med 50 %.  
 4. På snabbfliken **Artikel** ställer du in filter för att ange till exempel vilka artiklar som ska hanteras med batch-jobbet.  

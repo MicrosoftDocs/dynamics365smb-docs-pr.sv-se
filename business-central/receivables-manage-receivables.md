@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f153bd8ff54ed00604ad5ac894b9368575050505
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-receivables"></a>Hantera kundreskontra
@@ -42,6 +42,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Koppla utbetalningar till öppna kundreskontratransaktioner som baseras på manuell inmatning i en lista över obetalda försäljningsdokument. |[Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Bokföring av inbetalningar eller återbetalningar för kunder i inbetalningsjournalen och koppla till kundreskontratransaktioner, antingen från journalen eller från bokförda transaktioner. |[Stäm av kundbetalningar manuellt](receivables-how-apply-sales-transactions-manually.md) |
 | påminna kunder om förfallna belopp, beräkna dröjsmålsränta och hantera kundreskontra. |[Kräva in utestående saldon](receivables-collect-outstanding-balances.md) |
+| Förutsäga när betalningar görs sent för försäljningsdokument. | [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md) |
+|Spärra en kund som förs in i dokument eller från bokföring, till exempel på grund av att ett insolvensförfarande.|[Spärra kunder](receivables-how-block-customers.md)|
 |Säkerställ att du vet kostnaden för levererade artiklar genom att tilldela extra artikelkostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer efter försäljning.|[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## <a name="see-also"></a>Se även
@@ -51,5 +53,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

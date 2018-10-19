@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: sv-se
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Hantering av sparade inställningar i rapporter
@@ -35,12 +35,12 @@ Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställning
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Skapa och ändra inställningarna för alla användare
 Du hanterar sparade inställningar från sidan **1560 Rapportinställningar**. Det finns två sätt att öppna denna sida:
--   Välj ikonen för ![Sök sida eller rapport](media/ui-search/search_small.png "Ikonen för Sök sida eller rapport"), ange **Rapportinställningar** och välj sedan tillhörande länk.
+-   Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rapportinställningar** och välj sedan relaterad länk.
 -   Öppna en rapport, välj söktexten bredvid rutan **Använda standardvärden från:** och sedan **Välj från komplett lista**.
 
 Denna sida visar samtliga befintliga poster för sparade inställningar för samtliga användare. Om det finns ett användarnamn i kolumnen **Tilldelad till** kan endast denna användare använda de sparade inställningarna för associerad rapport. Om det finns en bock i kolumnen **Dela med samtliga användare** kan samtliga användare använda de sparade inställningarna för rapporten.
 
-Via sidan **Rapportinställningar** kan du:
+Via fönstret **Rapportinställningar** kan du:
 -   Välja **Nytt** för att skapa en ny post för sparade inställningar från grunden.
 -   Välja en post för sparade inställningar i listan och sedan välja **Kopiera** för att skapa en kopia.
 -   Välja en post för sparade inställningar i listan och sedan välja **Redigera** för att ändra en post för sparade inställningar.

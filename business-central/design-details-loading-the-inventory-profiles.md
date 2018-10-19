@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designdetaljer: Läsa in lagerprofilerna
@@ -82,7 +82,7 @@ För att sortera ut de många källorna till efterfrågan och tillgång ordnar p
  Säkerhetslager är en lagerkvantitet som läggs undan för att kompensera för osäkerheter i efterfrågan under påfyllningledtiden. Den kan förbrukas om det är nödvändigt att ta från den för att uppfylla en efterfrågan. När detta sker kommer planeringssystemet att se till att säkerhetslagret snabbt ersätts genom att föreslå en leveransgsorder för att fylla på säkerhetslagret. Den här planeringsraden visar en ikon för en undantagsvarning som indikerar att säkerhetslagret delvis eller helt förbrukats och måste fyllas på genom en undantagsorder för det saknade antalet.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Prognostiserad efterfrågan minskas av försäljningsorder  
- Produktionsprognosen uttrycker förutsedd framtida efterfrågan. Medan den faktiska efterfrågan anges, vanligtvis som försäljningsorder för producerade artiklar, förbrukar den prognosen.  
+ Efterfrågeprognosen uttrycker förutsedd framtida efterfrågan. Medan den faktiska efterfrågan anges, vanligtvis som försäljningsorder för producerade artiklar, förbrukar den prognosen.  
 
  Själva prognosen minskas inte egentligen av försäljningsorder: den förblir densamma. Dock minskas prognosantalet som används i planeringsberäkningen (efter försäljningsorderantalet) innan det återstående antalet, om det finns något, anges i lagerprofilen för efterfrågan. När planeringssystemet undersöker faktiska försäljningar under en period, ingår både öppna försäljningsorder och artikeltransaktioner från levererade försäljningar, om de inte härrör från en avropsorder.  
 

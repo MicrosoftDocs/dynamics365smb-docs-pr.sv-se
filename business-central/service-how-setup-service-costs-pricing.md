@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5125a0d0b298487130588146f1307379f465da0e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Om det behövs kan du skapa prisgrupper och mappa dem till specifika tidsperiode
 ## <a name="to-set-up-a-service-price-group"></a>Så här skapar du en serviceprisgrupp
 Du kan lägga upp grupper med serviceartiklar om du vill ha samma speciella serviceprissättning. Du tilldelar serviceprisgrupper till serviceartiklar på serviceartikelrader. Du kan även tilldela serviceprisgrupper till serviceartikelgrupper.  
 
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceprisgrupper** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceprisgrupper** och välj sedan relaterad länk.  
 2. Skapa en ny serviceprisgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. Välj åtgärden **Installation**.  
@@ -40,7 +40,7 @@ Du kan lägga upp grupper med serviceartiklar om du vill ha samma speciella serv
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Så här skapar du serviceprisjusteringsgrupper  
 Du kan ställa in prisjusteringsgrupper för att justera servicepriset för serviceartiklar. skapa en prisjusteringsgrupp som justerar priset för frakt eller reservdelar.  
   
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Serviceprisgrupper** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicejusteringsgrupper** och välj sedan relaterad länk.  
 2. Skapa en ny serviceprisjusteringsgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **Typ** anger du den transaktionstyp som du vill justera.  
@@ -58,11 +58,11 @@ Du kan ställa in prisjusteringsgrupper för att justera servicepriset för serv
 När du arbetar med serviceartiklar och serviceorder kanske du behöver registrera ytterligare kostnader, till exempel resekostnader för vissa service zoner eller uppstartskostnader. När du skapar en serviceorder kan du infoga kostnaderna och en rad med typen **kostnad** läggs till i ordern. Om du vill koppla kostnader till alla serviceorder kan du ställa in standardkostnaden. Till exempel om du alltid vill använda en uppstartskostnad.
   
 ### <a name="to-set-up-service-costs"></a>Så här skapar du servicekostnader:
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Servicekostnader** och välj sedan relaterad länk. 
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekostnader** och välj sedan relaterad länk. 
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Ange standardkostnaden för serviceorder
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **serviceinställningar** och välj sedan relaterad länk. 
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar** och välj sedan relaterad länk. 
 2. I fältet **Tjänsteorder uppstartskostnad**, välj lämplig servicekostnad.
 
 ## <a name="see-also"></a>Se även

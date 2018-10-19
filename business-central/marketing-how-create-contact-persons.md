@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-persons"></a>Skapa kontaktpersoner
@@ -24,7 +24,7 @@ Du kan skapa kontaktkort för varje kontakt som arbetar i de företag du har fö
 >   Innan du skapar en kontakt kan du markera inställningarna **Arv** i fönstret **Affärsstödsinställning**. Inställning av arv tillåter information om kontaktföretag som är vanliga för kontaktpersoner, som till exempel adressinformation, som automatiskt ska kopieras från kontaktföretaget till kontaktpersonen varje gång du skapar en kontaktperson för ett registrerat kontaktföretag.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Så här skapar du ett kontaktkort för en person
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Kontakter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I fältet **Nr.** anger du ett nummer för kontakten.
 

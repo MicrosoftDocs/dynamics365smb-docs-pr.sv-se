@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
@@ -49,14 +49,15 @@ Du kan nu instruera leverantören att leverera artiklarna till kunden, till exem
 ## <a name="to-post-a-drop-shipment"></a>Så här bokför du en direktutleverans
 När leverantören har levererat artiklarna kan du bokföra försäljningsordern som levererad. Du kan också bokföra inköpsordern, men endast med alternativet **Ta emot** tills försäljningsordern har fakturerats.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
-2. Öppna den försäljningsorder som du skapade i avsnittet "Att skapa en försäljningsorder för en direktleverans" .
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
+2. Öppna den försäljningsorder som du skapade i avsnittet "Att skapa en försäljningsorder för en direktleverans".
 3. I fältet **Levereras antal** anger du hur många av orderkvantiteten som ska levereras, hela eller delvis orderkvantitet.
 4. Välj åtgärden **Bokför** eller **Bokför och skicka**.
 5. Markera antingen alternativet **Leverera** för att fakturera senare eller alternativet **Leverera och fakturera** för att fakturera omedelbart.
 
 ## <a name="see-also"></a>Se även
-[Skapa specialorder](sales-how-to-create-special-orders.md)|  
+[Skapa specialorder](sales-how-to-create-special-orders.md)  
+[Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  
 [Sälja produkter](sales-how-sell-products.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Försäljning](sales-manage-sales.md)  

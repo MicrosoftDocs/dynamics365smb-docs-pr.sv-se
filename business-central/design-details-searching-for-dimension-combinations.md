@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 416fe8425d2b21f1f1f72b2f159bb6a863bc1d8b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 883446d479af1432f569410a9412e1291e60477d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Söka efter dimensionskombinationer
@@ -26,7 +26,7 @@ När du stänger ett fönster när du har redigerat en uppsättning med dimensio
 ### <a name="example-1"></a>Exempel 1  
  Följande diagram representerar ett sökträd med sex dimensionsuppsättningar. Endast den särskiljande dimensionsuppsättningstransaktionen visas i diagrammet.  
 
- ![Dimension trädstrukturen](media/nav2013_dimension_tree.png "NAV2013_Dimension_Tree")  
+ ![Exempel på dimensionsträdstruktur](media/nav2013_dimension_tree.png "Exempel på dimensionsträdstruktur")  
 
  Följande tabell beskrivs en fullständig lista över dimensionsuppsättningstransaktioner som utgör varje dimensionsuppsättning.  
 
@@ -45,7 +45,7 @@ När du stänger ett fönster när du har redigerat en uppsättning med dimensio
 
  Först [!INCLUDE[d365fin](includes/d365fin_md.md)] uppdateras även tabellen **Trädnod för dimensionsuppsättning** för att se till att sökträdet ser ut som på bilden. På så sätt blir dimensionsuppsättning 7 underordnad dimensionsuppsättning 5.  
 
- ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](media/nav2013_dimension_tree_example2.png "NAV2013_Dimension_Tree_Example2")  
+ ![Exempel på dimensionsträdstruktur i NAV 2013](media/nav2013_dimension_tree_example2.png "Exempel på dimensionsträdstruktur i NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Hitta dimensionsuppsättnings-ID  
  På en begreppsmässig nivå kombineras **Överordnat ID**, **Dimension**, och **Dimensionsvärde**,  i sökträdet, och används som primärnyckel eftersom [!INCLUDE[d365fin](includes/d365fin_md.md)] korsar trädet i samma ordning som dimensionstransaktionerna. Funktionen GET (record) används för att söka efter dimensionuppsättnings-ID. Följande kodexempel visar hur du hittar dimensionsuppsättning-ID när det finns tre dimensionsvärden.  

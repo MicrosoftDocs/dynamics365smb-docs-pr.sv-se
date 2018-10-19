@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kända problem med artikelkopplingar
@@ -36,8 +36,6 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
      |333|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
      |334|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|1|10|1|1|Ja|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Grunderna för artikelkoppling  
  En artikelkopplingstransaktion skapas för varje lagertransaktion avsedd att koppla kostnadsmottagaren till kostnadskällan så att kostnaden kan vidarebefordras enligt värderingsprincipen. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 
  I följande diagram visas hur mängdtillämpningar skapas.  
 
-![Varför är lagervärdet noll 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Flöde av kostnadsjustering från inköp till försäljning](media/helene/TechArticleInventoryZero2.png "Flöde av kostnadsjustering från inköp till försäljning")
 
  Observera att artikeltransaktion 1 ovan (inköp) är både artikelns leverantör och kostnadskälla för den kopplade artikeltransaktionen, Artikeltransaktion 2 (försäljning).  
 
@@ -72,7 +70,6 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
 |334|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|1|10|1|1|Ja|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Observera ovan att den ankommande artikeltransaktionen 3 (försäljningsreturorder) är en kostnadsmottagare för den ursprungliga avgående artikeltransaktionen 2 (försäljning).  
 
@@ -81,7 +78,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  I följande diagram illustreras kostnadsflödet.  
 
-![Varför är lagervärdet noll 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Flöde av kostnadsjustering från försäljning till försäljningsreturor](media/helene/TechArticleInventoryZero4.png "Flöde av kostnadsjustering från försäljning till försäljningsreturor")
 
  Observera ovan att kostnaden vidarebefordras till artikeltransaktion 2 (försäljning), därefter till artikeltransaktion 3 (försäljningsreturorder), och slutligen till artikeltransaktion 4 (försäljning 2).  
 
@@ -94,7 +91,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  I följande diagram illustreras hur artikeltillämpningar görs i respektive fall.  
 
-![Varför är lagervärdet noll 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Flödet av kostnadsjustering går i båda riktningarna](media/helene/TechArticleInventoryZero6.png "Flödet av kostnadsjustering går i båda riktningarna")  
 
  Observera ovan att en kostnadsansökan görs (representerat av de blå pilarna) så att artikeltransaktion 2 (försäljningsreturorder) tilldelas samma kostnader som den artikeltransaktion som den återför, artikeltransaktion 1 (försäljning 1). En antalskoppling (som representeras av röda pilar) görs emellertid inte.  
 
@@ -115,7 +112,6 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|Nr|  
 |334|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|1|10|1|1|Ja|**Ja**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   I fönstret **Bokförd försäljningsleverans** letar du upp fältet **Koppla från artikellöpnr** för att se om fältet är ifyllt, och om så är fallet, till vilken artikeltransaktion som returkvittot kostnadstillämpas.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Avgående distributionslagerflöde
@@ -47,8 +47,6 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
 |L|Bokföra plockning och utleverans från ett distributionslagerutleveransdokument|||X|6-4-5|  
 |D|Bokföra plockning från ett distributionslagerplockningdokument och bokföra leveransen från ett distributionslagerutleveransdokument||INTER|INTER|6-4-5|  
 
- Mer information finns i [Designdetaljer: Avgående distributionslagerflöde]().  
-
  Att välja ett tillvägagångssätt beror på företagets accepterade metoder och nivån av deras organisationskomplexitet. I en miljö som tillverkar en order i taget med rättframma processer och enkel lagerplatsstruktur lämpar sig metod A, plockning och utleverans från orderraden. I andra order-för-order-företag, där artiklar för en orderrad kan komma från fler än en lagerplats eller där lagerarbetare inte kan arbeta med orderdokument, är användning av separata plockdokument lämplig, metod B. Ett företag där plockning- och leveransprocesser innehåller hantering av flera order och därför kräver större kontroll och översikt, kan företaget välja att använda ett distributionslagerutleveransdokument och distributionslagerplockningdokument för att skilja plockning- och utleveransuppgifterna, metod C och D.  
 
  I metoderna A, B och C kombineras åtgärderna plockning och utleverans i ett steg när du bokför motsvarande dokument som utlevererade. I metod D registreras plockningen först, och sedan bokförs utleveransen vid ett senare tillfälle från ett annat dokument.  
@@ -56,7 +54,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
 ## <a name="basic-warehouse-configurations"></a>Grundläggande distributionslagerkonfiguration  
  Följande diagram visar de avgående distibutionslagerflödena efter dokumenttyp i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
- ![Utkommande flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Avgående flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_outbound_basic_flow.png "Avgående flöde i grundläggande lagerkonfigurationer")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Släpp källdokumentet/skapa lagerplockning eller transport  
  När en användare som är ansvarig för källdokument, t.ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerplatserna. Användaren kan också skapa lagerplocknings- eller transportdokument för de individuella orderraderna, med en push-metod, baserat på vissa lagerplatser och antal att hantera.  
@@ -78,7 +76,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
 ## <a name="advanced-warehouse-configurations"></a>avancerad distributionslagerkonfiguration  
  Följande diagram visar de avgående distibutionslagerflödet efter dokumenttyp i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
- ![Utkommande flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Avgående flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_outbound_advanced_flow.png "Avgående flöde i avancerade lagerkonfigurationer")  
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument  
  När en användare som är ansvarig för källdokument, t.ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerplatserna.  

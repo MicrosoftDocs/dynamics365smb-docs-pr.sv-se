@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d7fe65a719c7337e0c72435b4ee157c829f7f78
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plocka artiklar med lagerplockning
@@ -36,7 +36,7 @@ Du kan skapa en lagerartikelplockning på tre sätt:
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Så här begär du en lagerplockning genom att släppa källdokumentet  
 För försäljningsorder, inköpsreturorder och avgående överföringsorder skapar du distributionslagerkravet genom att släppa ordern. Nedan beskrivs hur du gör detta från en försäljningsorder.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
 2. Markera den försäljningsorder som du vill släppa och välj sedan åtgärden **Släpp**.
 
 Om det gäller produktionsorder skapar du automatisktdistributionslagerkravet för plockningen av komponenterna som kallas *bokföring*, när produktionsorderns status ändras till **Släppt** eller när den släppta produktionsordern skapas. Mer information finns i [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).
@@ -45,7 +45,7 @@ När distributionslagerkravet har skapats kan någon som arbetar i distributions
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Så här skapar du en lagerplockning från källdokumentet:
 Nu när begäran har skapats kan lagerpersonalen skapa en ny lagerplockning baserat på släppta källdokument.
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerplockningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplockningar** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3. I fältet **Källdokument** markerar du den typ av källdokument som du plockar för.  
 4. I fältet **Ursprungsnr** markerar du källdokumentet.  
@@ -58,7 +58,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny lagerplockning base
 3.  Välj knappen **OK**. En ny lagerplockning skapas.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Så här skapar du flera lagerplockningar med batch-jobbet  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
 2.  På snabbfliken **Dist.lagerkrav** använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer. Du kan till exempel skapa plockningar för enbart försäljningsorder.  
 3. Välj fältet **Skapa lagerinförsel** på kryssrutan **Skapa lagerplockning**.
 4. Välj knappen **OK**. De specifika lagerplockningarna jar skapats.
@@ -69,7 +69,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny lagerplockning base
 >  I grundläggande lagerkonfiguration plockas artiklar för montering mot försäljningsorder från den kopplade försäljningsordern som förklaras i det här avsnittet. Mer information finns i avsnittet ”hantera artiklar för montering mot kundorder i lagerplockningar” i Lagerplockning.  
 
 ## <a name="to-record-the-inventory-picks"></a>När du vill registrera lagerplockning.  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerplockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplockning** och välj sedan relaterad länk.  
 2. I fältet **Lagerplatskod** på plockningsraderna, är lagerplatsen som artiklarna måste plockas från antyder per artiklarna standardlagerplats. Du kan ändra lagerplatsen i det här fönstret om det behövs.  
 3. Utför plockningen och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
 

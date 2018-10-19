@@ -1,8 +1,5 @@
 > [!IMPORTANT]
-> **Viktig information om Dynamics 365 april 2018**
 >
-> Har du frågor om nya och kommande funktioner i våra affärsappar eller plattformen?
+> Har du frågor om nya och kommande funktioner i Dynamics 365 Business Central??
 >
-> [Hämta viktig information om april 2018](https://go.microsoft.com/fwlink/?linkid=870424). Vi har sammanställt all information som du kan tänkas behöva i en enskild PDF-fil som du kan använda för din planering.  
->
-> **Kommer snart**: Vi kommer att uppdatera PDF-filen viktig information som levereras med funktioner och även görs de tillgängliga på en webbsida. 
+> [Läs den senaste versionen av viktig information](https://docs.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/). Vi har hämtat alla detaljer och du får även viktig information som en PDF-fil som du kan använda för att planera.  

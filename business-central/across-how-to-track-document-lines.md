@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce3a69f82d68cd2ded4b1a5b036a32761d377199
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-document-lines"></a>Spåra dokumentrader
@@ -25,7 +25,7 @@ Du kan visa dokument som är kopplade till försäljningsorderrader och inköpso
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Spåra dokument som är kopplade till en försäljningsorderrad
 Följande förfarande beskriver hur du spårar via en försäljningsorderrad. Stegen liknar dem för inköpsorder- och avropsorderrader.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Öppna en försäljningsorder som du vill spåra ifrån.  
 3.  Markera en rad och välj sedan åtgärden **Spårning av dokumentrad**.
 4. I fönstret **Spårning av dokumentrader** markerar du det dokument som du vill visa och väljer sedan åtgärden **Visa** för att visa relaterad rad.

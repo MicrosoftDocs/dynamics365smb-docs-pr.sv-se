@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Hantera meddelandemallar
@@ -27,7 +27,7 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
  Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller tre meddelandemallar, en för meddelande om godkännandebegäran, en för meddelande om nya transaktioner och en för e-postmeddelande om förfallna godkännandebegäranden. De tre fördefinierade meddelandemallarna stöder meddelandemetoderna med **E-post** och **Notering**. Se avsnittet ”Innehåll i meddelandemallar” om du vill visa innehållet i de tre meddelandemallarna.
 
 ## <a name="to-create-a-new-notification-template"></a>Så här skapar du en ny meddelandemall  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **meddelandemallar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **meddelandemallar** och välj sedan relaterad länk.  
 2.  I fönstret **meddelandemallar** väljer du åtgärden **Ny**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
@@ -40,7 +40,7 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
     |**Standard**|Ange om meddelandemallen ska användas som standard.|  
 
 ## <a name="to-modify-a-notification-template"></a>Så här ändrar du en meddelandemall  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport") ange **meddelandemallar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **meddelandemallar** och välj sedan relaterad länk.  
 2.  I fönstret **meddelandemallar** väljer du meddelandemallen som du vill ändra.  
 3.  Välj åtgärden **Exportera mallinnehåll**.  
 4.  Klicka på **Spara** i fönstret **Exportera fil** och ange sedan namn och plats för HTML-filen.  

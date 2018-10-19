@@ -1,6 +1,6 @@
 ---
-title: Ange datumintervall i Business Central | Microsoft Docs
-description: "Lära dig hur du får en rapport med data från specifika tidsperioder med datumintervall i Business Central."
+title: Ange datum och tider i Business Central | Microsoft Docs
+description: "Lära dig att ange datum och tider, inklusive olika tips för produktivitet till exempel snabbskrift, uttryck och intervaller. Filtrera listor eller rapporter till specifika datum- och tidsperioder."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,101 +8,347 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: dates, reporting, filter
-ms.date: 07/05/2018
-ms.author: edupont
+ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
+ms.date: 10/01/2018
+ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ff63ae71a78f956dddb7b5247ee66f9416cf7cf1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="entering-date-ranges"></a>Ange datumintervall
-Du kan ange filter som innehåller ett startdatum och ett slutdatum om du vill visa enbart de data som finns i datumintervallet eller tidsintervallet. Speciella regler gäller för hur du kan ange datumintervall. Ta **10 högsta kund** som exempel:
 
-![Ange ett datumintervall på sidan för begäran för listan över 10 högsta kund](./media/ui-enter-date-ranges/customer-top10-list.png)
+# <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
+[!INCLUDE[d365fin](includes/d365fin_long_md.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
-Här kan du begränsa rapporten till ett datumintervall, till exempel de två senaste veckorna eller totalt 6 veckor eller det intervall du vill använda. Om du vill ange datumintervall, ange datum och använda någon **...** Eller **|** för att ange projektintervall. I vårt exempel, om du vill visa de 10 främsta kunderna för de första två veckorna ställer du in datumfiltret på *05 01 17..05 14 17*.
-Här följer några andra exempel:
+## <a name="check-your-region-and-language-settings"></a>Kontrollera inställningarna för region och språk
+[**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") anger **region** och **språk** som används i programmet. Dessa inställningar påverkar hur du anger datum och tid. 
 
-| Betydelse | Exempel | Inkluderade transaktioner |
-|---|---|---|
-|Lika med| 12 15 16 |Endast de som bokförts 15 december 2016.|
-|Intervall| 12 15 16..01 15 17<br /><br />..12 15 16|De som bokförts på datum mellan och inklusive 15 december 2016 och 15 januari 2017.<br /><br />De som bokförts 02-12-15 eller tidigare.|
-|Antingen eller|12 15 16&#124;12 16 16|Transaktioner registrerade antingen den 15 December eller 16 December 2016. Om det finns transaktioner som bokförs båda dagarna kommer alla att visas.|
+-   Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
 
-Du kan också kombinera formattyperna.
-
-| Exempel | Inkluderade transaktioner |
-|---|---|
-|12 15 16&#124;12 01 16..05 31 17 | Transaktioner som bokförts antingen den 15 december 2016, eller på datum mellan och inklusive 01 december 2016 och 31 maj 2017. |
-|..12 14 16&#124;12 30 16.. | Transaktioner bokförda 14 December eller tidigare, eller transaktioner bokförda 30 December eller senare – d.v.s. alla transaktioner utom de som bokförts på datum mellan och inklusive 15 December och 29. |
-
-Observera att vi har använt Amerikanskt datumformat MMDDÅÅ här. När [!INCLUDE[d365fin](includes/d365fin_md.md)] blir tillgängliga för andra marknader, kommer du att kunna använda de format som används.
-
-## <a name="using-date-formulas"></a>Använda datumformler
-En datumformel är en kort kombination av förkortningar med bokstäver och siffror som anger hur datum ska beräknas. Du kan ange datumformler i olika beräkningsfält för datum och i fält för återkomstfrekvens i återkommande journaler.
+-   För datummönster som omfattar ord måste språket för de ord som du använder stämma överens med **språk**-inställningen.
 
 > [!NOTE]
->  I alla dataformulärfält inkluderas automatiskt en dag att täcka i dag som dagen när perioden börjar. Om du till exempel anger **1V** är perioden därefter faktiskt åtta dagar eftersom idag inkluderas. För att ange en period om sju dagar (en exakt vecka) inklusive perioden för startdatum måste du ange **6D** eller **1V\-1D**.
+> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] använder det gregorianska kalendersystemet.
+
+<!-- 
+The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
+-->
+## <a name="entering-dates"></a>Ange datum
+I ett datumfält kan du ange ett datum med standardformat för din region. Olika områden kan använda olika avgränsare mellan dagar, månader och år. Exempelvis vissa regioner använder bindestreck (åååå-mm-dd) och andra använda snedstreck (åååå/mm/dd). Du kan använda alla avgränsare, även blanksteg och datumet ändras automatiskt till att använda avgränsare som matchar din region.
+
+Observera att formatet som datum visas på utskrivna rapporter eller e-postade dokument påverkas inte av dina personliga inställningar av region.
+
+Om du vill arbeta mer effektivt med datum och tider, använd någon av de metoder eller format som beskrivs nedan. 
+
+### <a name="picking-dates-from-the-calendar"></a>Välja datum från kalendern
+Ett fält som visar en kalenderikon kan anges med hjälp av kalenderdatumväljaren. Om du vill visa kalenderdatumväljaren, aktivera kalenderikonen eller tryck på kortkommandot Ctrl + Home i fältet.
+
+![Datumfält](media/ui-date-field.png "Exempel på ett datumfält")
+
+Se även [Kortkommandon i kalenderdatumväljaren](keyboard-shortcuts.md#calendarshortcuts)
+
+### <a name="today"></a>I dag
+Ange ordet for `today`, på det språk anges i **språk** inställningen som ska ange datumet till det aktuella datumet. Istället för att ange hela ordet, kan du skriva in delar av ordet från början såsom `t` eller `tod`, förutsatt att det inte är också är början på ett annat ord.
+
+### <a name="day-week-year-pattern"></a>Dag\-vecka\-år-mönster
+Du kan ange ett datum som en veckodag följt av ett veckonummer och alternativt ett år. Till exempel `Mon25` eller `mon25` betyder måndag vecka 25. Om du inte anger ett år används året från arbetsdatumet.
+
+I stället för att ange hela ordet för dagen i veckan, kan du skriva in del av ordet, från början. Om det uppstår konflikter (exempelvis med `s` som kan vara Saturday (lördag) eller Sunday (söndag)), utvärderas dagarna utifrån regionsinställningen. Indata utvärderas först mot `workdate`och `today`, så tänk på detta när du förkortar. Till exempel `t` innebär today (idag), så det kan inte innebära: tisdag eller torsdag.
+
+Veckonummersystemet är alltid ISO-8601 där vecka 1 är veckan med 4 januari eller veckan med första torsdagen på året.
+
+### <a name="digit-patterns"></a>Siffermönster
+I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.
+
+-   Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.
+
+-   Om du skriver in fyra siffror tolkas de som dagen och månaden. Programmet lägger till året från arbetsdatumet. Order för den dagen och månaden avgörs av dina regioninställningar. Även om dina regioninställningar har året före dagen och månaden, tolkas fyra siffror som dag och månad.
+
+-   Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.
+
+### <a name="current-work-date"></a>Aktuellt arbetsdatum
+Funktionen arbetsdatum låter dig spåra transaktioner med ett datum som skiljer sig från det aktuella datumet.
+
+Ordet för ”arbetsdatum” på det språk som anges av **språk**-inställningen kan ange datumet till det aktuella arbetsdatumet som anges på sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central"). I stället för att ange hela ordet, kan du skriva in del av ordet, från början, såsom "a" eller "arbete".
+
+Om du inte har definierat ett arbetsdatum, kommer det aktuella datumet användas som arbetsdatum. Det är praktiskt att använda arbetsdatum om du har många transaktioner med ett annat datum än dagens datum.
+
+Se även [Ändra grundläggande inställningar, såsom arbetsdatum](ui-change-basic-settings.md#work-date).
+
+### <a name="closing-date"></a>Avslutsdatum
+När du avslutar ett räkenskapsår kan du använda avslutsdatum för att ange att en transaktion är en bokslutspost. Ett avslutsdatum ligger tekniskt sätt mellan två datum, till exempel mellan den 31 december och den 1 januari.
+
+För att ange att ett datum är ett stängningsdatum ange `C` före datumet såsom `C123101`. Detta kan användas tillsammans med alla datummönster.
+
+### <a name="examples"></a>Exempel
+Följande tabell innehåller exempel på datum med alla format. Det förutsätter regioninställningar som formaterar datum enligt: **år.månad.dag.**, en vecka med start på måndag och på engelska.
+
+|**Format**      |**Tolkning**      |
+|---------------|------------------------|
+|`2018.12.31.`|2018-12-31.|
+|`181231`|2018-12-31.|
+|`18.12.31.`|2018-12-31.|
+|`18.12.31.`|2018-12-31.|
+|`20181231`|2018-12-31.|
+|`18/12,31`|2018-12-31.|
+|`11`|arbetsdatum år.arbetsdatum månad.11.|
+|`1112`|arbetsdatum år.11.12.|
+|`t` eller `today`|dagens datum|
+|`w` eller `workdate`|arbetsdatum|
+|`m` eller `Monday`|Måndag av arbetsdatumets vecka|
+|`tu` eller `Tuesday`|Tisdag av arbetsdatumets vecka|
+|`sa` eller `Saturday`|Lördag av arbetsdatumets vecka|
+|`s` eller `Sunday`|Söndag av arbetsdatumets vecka|
+|`t23`|Tisdag av vecka 23 arbetsdatumets år|
+|`t 23`|Tisdag av vecka 23 arbetsdatumets år|
+|`t-1`|Tisdag av vecka 1 arbetsdatumets år|
+
+##  <a name="BKMK_SettingDateRanges"></a> Inställningsintervall
+I listor, summor och rapporter kan du ange filter för datum, tid och datum och tid som innehåller ett startvärde och ett slutvärde om du endast vill visa de data som finns inom intervallet. Standardregler gäller för hur du kan ange datumintervall.
+
+|**Betydelse**|**Exempeluttryck (datum)**|**Data som ingår i filtret**|
+|-----------|---------------------|--------------------|
+|Intervall|`12 15 00..01 15 01`  \n`..12 15 00`|Poster med datum från och med 00-12-15 till och med 01-01-15.  \nPoster med datum 00-15-12 eller tidigare.|
+|Antingen eller|`00-12-15|00-12-16`|Poster med antingen 00-12-15 eller 00-12-16. Om det finns poster med datum båda dagarna kommer samtliga att visas.|
+|Kombination|`00-12-15|00-12-01..00-12-10`  \n`..00-12-14|00-12-30..`|Poster med datum 00-12-15 eller mellan och inklusive den 00-12-01 och 00-12-10.  \nPoster med datum 00-12-14 eller tidigare, eller 00-12-30 eller senare. Detta innebär alla poster utom de med datum från och med 00-12-15 till och med 00-12-29.|
+
+Du kan använda giltiga format i filtret för datumintervall. Till exempel `mon14 3..t 4p` som tillämpas på ett datum/tidsfält resulterar i ett filter mellan 03:00 måndag vecka 14 det aktuella arbetsdatumets år, inklusive fram till i dag klockan 16:00.
+
+
+## <a name="using-date-formulas"></a>Använda datumformler
+En datumformel är en kort kombination av förkortningar med bokstäver och siffror som anger hur datum ska beräknas. Du kan ange datumformler i olika fält eller filter för datumberäkning.
+
+> [!NOTE]
+>  I alla dataformulärfält inkluderas automatiskt en dag att täcka i dag som dagen när perioden börjar. Om du till exempel anger `1W`, är perioden därefter faktiskt åtta dagar eftersom idag inkluderas. För att ange en period av sju dagar \(en exakt vecka\) inklusive perioden för startdatum måste du ange `6D` eller `1W-1D`.
 
 Här följer några exempel på hur datumformler kan användas:
 
 -   Datumformeln i fält för återkommande frekvens i återkommande journaler bestämmer hur ofta posten på journalraden ska bokföras.
 
--   Datumformeln i fältet **Betalningsfrist** för en viss påminnelsenivå bestämmer vilken tidsperiod som ska förflyta från förfallodatumet (eller från förfallodatumet för den föregående påminnelsen) innan en påminnelse ska skapas.
+-   Datumformeln i fältet **Betalningsfrist** för en viss påminnelsenivå bestämmer vilken tidsperiod som ska förflyta från förfallodatumet \(eller från den föregående påminnelsen\) innan en påminnelse ska skapas.
 
 -   Datumformeln i fältet **Förfallodatumformel** bestämmer hur förfallodatumet på påminnelsen beräknas.
 
-Formeln för datumberäkning kan bara omfatta högst 20 tecken, både siffror och bokstäver. Du kan använda följande bokstäver som förkortningar för tidsangivelser.
+Datumformeln kan omfatta högst 20 tecken, både siffror och bokstäver. Du kan använda följande bokstäver som förkortningar för kalenderenheter.
 
-|  Bokstav  |  Tidsspecifikation  |
+|  Bokstav  |  Betydelse  |
 |----------|----------------------|
-|S|Löpande (innevarande)|
-|D|Dag\(ar\)|
-|V|Vecka\(veckor\)|
-|M|Månad\(er\)|
-|K|Kvartal|
-|Å|År|
+|`C`|Löpande (innevarande)|
+|`D`|Dag\(ar\)|
+|`W`|Vecka\(veckor\)|
+|`M`|Månad\(er\)|
+|`Q`|Kvartal\(s\)|
+|`Y`|År\(\)|
 
 Du kan bygga upp en datumformel på tre sätt.
 
-Följande exempel visar hur du använder **L** för löpande, plus en tidsenhet.
+Följande exempel visar hur du använder `C`, för löpande, plus en tidsenhet.
 
 |  Uttryck  |  Betydelse  |
 |--------------|-----------|
-|LV|Löpande (innevarande) vecka|
-|LM|Löpande (innevarande) månad|
+|`CW`|Löpande (innevarande) vecka|
+|`CM`|Löpande (innevarande) månad|
 
 Följande exempel visar hur du använder ett tal och en tidsenhet. Ett nummer får inte vara högre än 9 999.
 
 |  Uttryck  |  Betydelse  |
 |--------------|-----------|
-|10D|Tio dagar från dagens datum.|
-|2V|Två veckor från dagens datum|
+|`10D`|Tio dagar från dagens datum.|
+|`2W`|Två veckor från dagens datum|
 
 Följande exempel visar hur du använder en tidsenhet och ett tal.
 
 |  Uttryck  |  Betydelse  |
 |--------------|-----------|
-|D10|Den tionde dagen varje månad.|
-|VD4|Den nästa fjärde dagen i en vecka \(torsdag\)|
+|`D10`|Den tionde dagen varje månad.|
+|`WD4`|Den nästa fjärde dagen i en vecka \(torsdag\)|
 
 Följande exempel visar hur du kombinera dessa tre metoder om så behövs.
 
 |  Uttryck  |  Betydelse  |
 |--------------|-----------|
-|LM\+10D|Löpande månad \+ 10 dagar|
+|`CM+10D`|Löpande månad \+ 10 dagar|
 
 Följande exempel visar hur du använder ett minustecken för att ange ett datum i det förflutna.
 
 |  Uttryck  |  Betydelse  |
 |--------------|-----------|
-|-1Å|1 år sedan från idag|
+|`-1Y`|1 år sedan från idag|
 
 > [!IMPORTANT]
->  Om lagerstället använder en baskalender, tolkas datumformeln som du anger i t.ex. fältet **Leveranstid** enligt kalenderarbetsdagar. Till exempel betyder **1V** sju arbetsdagar.
+>  Om lagerstället använder en baskalender, tolkas datumformeln som du anger i t.ex. fältet **Leveranstid** enligt kalenderarbetsdagar. Till exempel betyder `1W` sju arbetsdagar.
+<!--
+# Entering Date Ranges
+You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
+
+![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+
+Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
+Here are a couple of other examples:
+
+| Meaning | Example | Entries included |
+|---|---|---|
+|Equal to| 12 15 16 |Only those posted on December 15 2016.|
+|Interval| 12 15 16..01 15 17<br /><br />..12 15 16|Those posted on dates between and including December 15 2016 and January 15 2017.<br /><br />Those posted on December 15 2016 or earlier.|
+|Either/or|12 15 16&#124;12 16 16|Those posted on either December 15 or December 16 2016. If there are entries posted on both days, they will all be displayed.|
+
+You can also combine the various format types.
+
+| Example | Entries included |
+|---|---|
+|12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
+|..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
+
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+
+## Using Date Formulas
+A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
+
+> [!NOTE]
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+
+Here are some examples of how date formulas can be used:
+
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+
+-   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+
+-   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+
+The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
+
+|  Letter  |  Time specification  |
+|----------|----------------------|
+|C|Current|
+|D|Day\(s\)|
+|W|Week\(s\)|
+|M|Month\(s\)|
+|Q|Quarter\(s\)|
+|Y|Year\(s\)|
+
+You can construct a date formula in three ways.
+
+The following example shows how to use **C**, for current, and a time unit.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|CW|Current week|
+|CM|Current month|
+
+The following example shows how to use a number and a time unit. A number cannot be larger than 9999.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|10D|10 days from today|
+|2W|2 weeks from today|
+
+The following example shows how to use a time unit and a number.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|D10|The next 10th day of a month|
+|WD4|The next 4th day of a week \(Thursday\)|
+
+The following example shows how you can combine these three forms as needed.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|CM\+10D|Current month \+ 10 days|
+
+The following example shows how you can use a minus sign to indicate a date in the past.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|-1Y|1 year ago from today|
+
+> [!IMPORTANT]
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+
+-->
+
+## <a name="entering-times"></a>Ange tider
+När du anger tider kan du infoga alla icke-platsavgränsare som du vill mellan enheterna, men om du använder två siffror för varje enhet upp till millisekunder, är det inte obligatoriskt.
+
+Du behöver bara skriva de största enheterna som du vill ha, övriga anges till noll. Du kan också utelämna alla AM/PM-indikatorer.
+
+I följande tabell visas de olika sätt som du kan ange tider på, samt hur de tolkas. Det följer regioninställningar som formaterar tid enligt: **Timmar:Minuter:Sekunder.Millisekunder.** och använder du AM- och PM-indikatorer ”AM” och ”PM”.
+
+|**Format**      |**Tolkning**      |
+|---------------|------------------------|
+|`05:23:17`|05:23:17|
+|`5`|05:00:00|
+|`5AM`|05:00:00|
+|`5P`|17:00:00|
+|`12`|12:00:00|
+|`12A`|00:00:00|
+|`12P`|12:00:00|
+|`17`|17:00:00|
+|`5:30`|05:30:00|
+|`0530`|05:30:00|
+|`5:30:5`|05:30:05|
+|`053005`|05:30:05|
+|`5:30:5,50`|05:30:050,5|
+|`053005050`|05:30:05.05|
+
+Du bör vara medveten om att millisekunder ska tolkas som decimala systemet. Så till exempel `3`, `30` och `300` betyder alla 300 millisekunder, medan `03` betyder `30` och `003` innebär 3 millisekunder.
+
+Du kan inte använda `24:00` som midnatt eller välja ett värde som är större än 24:00.
+
+Ordet för ”tid” på det språk som används av [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utvärderas till aktuell tid på din dator eller mobil enhet. Du kan skriva in alla ord, från början, såsom `t` eller `TIM`.
+
+## <a name="entering-combined-dates-and-times"></a>Ange kombinerade datum och tider
+När du anger datum och tid som datum och tid som kombineras till ett enda fält, måste du ange ett blanksteg mellan datumet och tiden. Datumdelen kan bara innehålla blanksteg i form av officiella datumavgränsare för din regionsinställning. Tiden kan innehålla blanksteg runt AM/PM-indikatorn.
+
+Det är också möjligt att endast ange ett datum i ett fält för datum och tid, men det går inte att ange endast en gång.
+
+I följande tabell visas några exempel på kombinationer av datum/tid. Regioninställningarna i exemplen visar datum i dags\-månads\-årsformat med AM/PM-beteckningar, engelska språket och söndag som veckans början.
+
+|**Format**      |**Tolkning**      |
+|---------------|------------------------|
+|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 PM|
+|`131202 132455`|13\-12\-2002 13:24:55|
+|`1-12-02 10`|01\-12\-2002 10:00:00|
+|`1.12.02 5`|01\-12\-2002 05:00:00|
+|`1.12.02`|01\-12\-2002 00:00:00|
+|`11 12`|11\-arbetsdatum månad\-arbetsdatum år 12:00:00|
+|`1112 12`|11\-12\-arbetsdatum år 12:00:00|
+|`t` eller `today`|dagens datum 00:00:00|
+|`t 10:30`|dagens datum 10:30:00|
+|`t 3:3:3`|dagens datum 03:03:03|
+|`w` eller `workdate`|arbetsdagens datum 00:00:00|
+|`m` eller `Monday`|Måndag av arbetsdatumets vecka 00:00:00|
+|`tu` eller `Tuesday`|Tisdag av arbetsdatumets vecka 00:00:00|
+|`sa` eller `Saturday`|Lördag av arbetsdatumets vecka 00:00:00|
+|`s` eller `Sunday`|Söndag av arbetsdatumets vecka 00:00:00|
+|`tu 10:30`|Tisdag av arbetsdatumets vecka 10:30:00|
+|`tu 3:3:3`|Tisdag av arbetsdatumets vecka 03:03:03|
+|`t23 t`|Tisdag i en vecka 23 av arbetsdatumets år, aktuell tid på dagen|
+|`t23`|Tisdag av vecka 23 arbetsdatumets år|
+|`t 23`|Idag 23:00:00|
+|`t-1`|Tisdag av vecka 1 arbetsdatumets år|
+
+## <a name="entering-duration"></a>Ange varaktighet
+Vissa fält i programmet representerar en varaktighet eller mängden förfluten tid, i stället för ett visst datum eller tid. Du anger varaktigheten som en siffra följd av en enhet.
+
+Här följer några exempel.
+
+|**Varaktighet**|**Enhet**|
+|------------|-------------------|
+|`2h`|2 timmar|
+|`6h 30 m`|6 timmar 30 minuter|
+|`6.5h`|6 timmar 30 minuter|
+|`90m`|1 timme 30 minuter|
+|`2d 6h 30m`|2 dagar 6 timmar 30 minuter|
+|`2d 6h 30m 56s 600ms`|2 dagar 6 timmar 30 minuter 56 sekunder 600 millisekunder|
+
+Du kan även ange en siffra som automatiskt konverteras till en varaktighet. Det tal som anges konverteras med den standardenhet som har angetts för varaktighetsfältet.
+
+Om du vill veta vilken enhet som används i ett varaktighetsfält kan du ange en siffra och kontrollera vilken enhet den konverteras till.
+
+Till exempel om mätenheten är timmar konverteras siffran `5` till 5 timmar.
+
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  

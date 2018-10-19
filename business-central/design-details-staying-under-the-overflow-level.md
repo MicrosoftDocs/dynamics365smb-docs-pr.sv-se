@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Designdetaljer: Hålla sig under överflödesnivån
@@ -24,7 +24,7 @@ När du använder policyer för Maximalt antal och Fast orderkvantitet fokuserar
 
 *Observera! Det planerade lagret [xx] är större än överflödesnivån [xx] på förfallodatumet [xx].*  
 
-![Lagrets överflödesnivå](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Lagrets överflödesnivå](media/supplyplanning_2_overflow1_new.png "Lagrets överflödesnivå")  
 
 ##  <a name="calculating-the-overflow-level"></a>Beräknar överflödesnivån  
 Överflödesnivån beräknas på olika sätt beroende på planeringsinställningen.  
@@ -100,7 +100,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 ### <a name="resulting-planning-lines"></a>Uppdaterar planeringsrader  
  En planeringsrad (varning) skapas för att minska inköpet med 30 från 90 till 60 för att hålla det planerade lagret på 100 enligt överflödesnivån.  
 
-![Planera enligt överflödesnivån](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Planera enligt avvikelsenivån](media/nav_app_supply_planning_2_overflow2.png "Planera enligt avvikelsenivån")  
 
 > [!NOTE]  
 >  Utan funktionen Överflöde skapas ingen varning om den planerade lagernivån är högre än beställningsgränsen. Det kan orsaka en överflödig leverans av 30.  

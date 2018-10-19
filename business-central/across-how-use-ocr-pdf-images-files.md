@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 8a9b5911008c8524490bf895ee3a21394cad4fbe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: eb61eeb0a044a270a8ead5464919ce537cb356b5
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
@@ -30,7 +30,7 @@ Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolka
 Trafiken av filer till och från OCR-tjänsten behandlas av en dedikerad jobbköpost, som skapas automatiskt när du aktiverar den relaterade tjänstkopplingen. Mer information finns i [Skapa inkommande dokument](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Så här skickar du en PDF- eller bildfil till OCR-tjänsten från fönstret **Inkommande dokument**
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inkommande dokument** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Skapa en ny inkommande dokumentpost och bifoga filen. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
 3. Markera sedan en eller flera rader i fönstret **Inkommande dokument** och välj sedan åtgärden **Skicka till jobbkö**.
 
@@ -109,7 +109,7 @@ Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolka
 
 Fönstret **OCR-datakorrigering** som öppnas från fönstret **Inkommande dokument** visar fälten från snabbfliken **Ekonomisk information** i två kolumner, en med ändringsbara OCR-uppgifter och en med skrivskyddade OCR-uppgifter. När du väljer knappen **Skicka OCR-feedback** skickas innehållet i fönstret **OCR-datakorrigering** till OCR-tjänsten. Nästa gång tjänsten behandlar PDF- eller bildfiler som innehåller samma uppgifter tas dina korrigeringar med för att samma fel ska kunna undvikas.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inkommande dokument** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Öppna en inkommande dokumentpost som innehåller data som har tagits emot från OCR-servicen och som du vill rätta till.
 3. I fönstret **Inkommande dokument** väljer du åtgärden **Korrigera OCR-data**.
 4. Skriv över data i den redigerbara kolumnen för varje fält som har ett inkorrekt värde i fönstret **OCR-datakorrigering**.

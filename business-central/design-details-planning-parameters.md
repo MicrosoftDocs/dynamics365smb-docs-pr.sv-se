@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
@@ -80,25 +80,25 @@ För att få en rationell tillförselplan finjusterar en planerare planeringspar
 
 Tidsplaneringen av omplaneringsperioden, utjämningsperiod och partiackumuleringsperioden baseras på ett leveransdatum. Tidsenheten baseras på planeringsstartdatumet, som visas i följande illustration.  
 
-![Tidsenhetelement](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Tidsenhetelement](media/supply_planning_5_time_bucket_elements.png "Tidsenhetelement")  
 
 I följande exempel representerar de svarta pilarna befintlig tillgång (upp) och efterfrågan (ned). Röda, gröna och orange pilar är planeringsförslag.  
 
 **Exempel 1**: Det ändrade datumet ligger utanför omplaneringsperioden, vilket innebär att den befintliga leveransen annulleras. En ny tillgång föreslås för att täcka behovet i partiackumuleringsperioden.  
 
-![Omplaneringsperiod, Partiackumuleringsperiod](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Omplaneringsperiod och partiackumuleringsperiod](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Omplaneringsperiod och partiackumuleringsperiod")  
 
 **Exempel 2**: Det ändrade datumet ligger i omplaneringsperioden, vilket innebär att den befintliga leveransen planeras om. En ny tillgång föreslås för att täcka behovet utanför partiackumuleringsperioden.  
 
-![Omplaneringsperiod, Partiackumuleringsperiod, Omplanera](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Omplaneringsperiod, partiackumuleringsperiod och omplanera](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanera")  
 
 **Exempel 3**: Det finns en efterfrågan i utjämningsperioden och tillgångsantalet i partiackumuleringsperioden matchar tillgångsantalet. Nästa behov har inte täckts och en ny tillgång föreslås.  
 
-![Utjämningsperiod, Partiackumuleringsperiod](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
+![Utjämningsperiod och partiackumuleringsperiod](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Utjämningsperiod och partiackumuleringsperiod")  
 
 **Exempel 4**: Det finns en efterfrågan i utjämningsperioden och tillgången förblir på samma datum. Dock är antalet för aktuell tillgång inte tillräckligt för att täcka efterfrågan i partiackumuleringsperioden, så en antalsändringsåtgärd för den befintliga leveransordern föreslås.  
 
-![Utjämningsperiod, Partiackumuleringsperiod, Ändra antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
+![Utjämningsperiod, partiackumuleringsperiod och ändra antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Utjämningsperiod, partiackumuleringsperiod och ändra antal")  
 
 **Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** i fönstret **Produktionsinställningar**.  
 

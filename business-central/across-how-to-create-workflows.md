@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Skapa arbetsflöden
@@ -32,7 +32,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 >  Alla meddelanden om arbetsflödessteg skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödemeddelanden och att kryssrutan **Starta automatiskt från NAS** är markerad. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Skapa ett arbetsflöde  
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Söka efter sida eller rapport") gå till **Arbetsflöden** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflöden** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Fönstret **arbetsflöde** öppnas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
 4. Så här skapar du arbetsflödet från en arbetsflödesmall **Arbetsflöden**, välj åtgärden **Så här skapar du arbetsflödet från en arbetsflödesmall**. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 >  Aktivera inte ett arbetsflöde förrän du vet att arbetsflödet är avslutat och att relevanta arbetsflödessteg kan startas.  
 
 > [!TIP]  
->  För att visa relationer mellan tabeller som används i arbetsflöden, välj ![Sök efter sidan eller rapporten](media/ui-search/search_small.png "Sök efter sidan eller rapporten") och ange **arbetsflöde – tabellrelationer**.  
+>  För att visa relationer mellan tabeller som används i arbetsflöden, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra")  och ange **arbetsflöde – tabellrelationer**.  
 
 ## <a name="see-also"></a>Se även  
 [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)   

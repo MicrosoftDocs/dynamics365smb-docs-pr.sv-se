@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
-ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 79e532dd8cba1daf34362f7050d320778b23c85f
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Tillägget Microsoft Pay till [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
+# <a name="the-microsoft-pay-extension"></a>Tillägget Microsoft Pay
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leverans- och betalningstjänster. Tjänsten Microsoft Pay hjälper dig att öka din kundservice.
 
 Tillägget Microsoft Pay lägger till en Microsoft Pay-länk till ditt försäljningsdokument så att kunder lätt kan betala med Microsoft Pay. Därefter kan du skicka dokument med e-post för att ge bättre kundservice och minska den tid det tar för kundens betalningar att komma till ditt bankkonto.

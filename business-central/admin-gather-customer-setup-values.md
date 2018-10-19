@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a1333567069d24bc5eff48d668dca8b480b85914
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Samla in kundinställningsvärden
@@ -47,9 +47,9 @@ Du kan använda ett frågeformulär för att bestämma omfattningen och behoven 
 -   Lagerstyrningsinställningar  
 
 > [!NOTE]  
->  För att visa en fullständig list över inställningstabeller väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), öppnar **Inställningar** och väljer sedan relaterad länk. Använd flyttningsfunktioner för att bestämma omfattningen för flyttning av transaktion data. Mer information finns i [Migrera kunddata](admin-migrate-customer-data.md).  
+>  För att se en komplett lista över inställningstabeller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **inställningar** och välj sedan relaterad länk. Använd flyttningsfunktioner för att bestämma omfattningen för flyttning av transaktion data. Mer information finns i [Migrera kunddata](admin-migrate-customer-data.md).  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Fönstret **Frågeformulär för inställningar** öppnas.  
 3. Välj åtgärden **Frågeområden**. Fönstret **Frågeområden** öppnas.  
 4. Välj åtgärden **Ny**. Fönstret **Konfig. frågeområden** öppnas.  
@@ -72,7 +72,7 @@ Du använder frågeformuläret för konfiguration för att strukturera och dokum
 >  Du kan också skapa ett eget frågeformulär för konfiguration om så behövs.  
 
 1. Öppna det företag som du vill slutföra frågeformuläret för.
-2. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk.  
 3. Välj frågeformuläret för företaget och välj sedan åtgärden **Exportera till Excel**, alternativt åtgärden **Exportera till XML**.
 4. Låt kunden slutföra konfigurationsfrågeformuläret genom att ange svaren i Excel-arbetsboken. Det finns formulär för varje frågeområde som har skapats för frågeformuläret.   
 5. Välj åtgärden **Importera från Excel** och välj .xlsx-filen med kundens svar.  
@@ -105,7 +105,7 @@ När du har slutfört din validering är din data klar att kopplas till database
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Så här kopplar du svar från konfigurationsfrågeformuläret
 Efter att du har importerat och verifierat information från ett frågeformulär för konfiguration kan du överföra inställningsdatan till de motsvarande tabellerna i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk. Fönstret **Frågeformulär för inställningar** öppnas.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk. Fönstret **Frågeformulär för inställningar** öppnas.  
 2. Markera ett konfigurationsfrågeformulär i listan och välj sedan åtgärden **Redigera lista**.  
 3. Du kan koppla svar på två sätt.  
 
@@ -113,7 +113,7 @@ Efter att du har importerat och verifierat information från ett frågeformulär
 - För att koppla svar enbart för ett visst **Frågeområde** väljer du åtgärden **Frågeområden**, väljer ett **Frågeområde** i listan och sedan åtgärden **Koppla svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Så här kontrollerar du att svar har kopplats korrekt  
-1. Kontrollera inställningsfönstren för olika huvudområden av [!INCLUDE[d365fin](includes/d365fin_md.md)]. För att hitta fönstret väljer du ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), anger namnet på inställningsfönstret och väljer sedan relaterad länk.  
+1. Kontrollera inställningsfönstren för olika huvudområden av [!INCLUDE[d365fin](includes/d365fin_md.md)]. För att hitta fönstret väljer du ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till namnet på inställningsfönstret och välj sedan relaterad länk.  
 2. Kontrollera att fältet har fyllts i med rätt data från de olika frågeområdena i frågeformuläret för konfiguration.  
 
 Du har nu konfigurerat inställningen med kundens verksamhetsinformationen och regler.

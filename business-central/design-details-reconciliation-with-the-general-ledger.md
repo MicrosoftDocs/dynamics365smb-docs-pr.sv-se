@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
@@ -84,16 +84,16 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
     1. Interimskontona rensas. (Försäljning)  
     2. Kostnaden för sålda varor (KSV) bokförs. (Försäljning)  
 
-        ![Resultatet av försäljningsbokföring till G&#47;L-konton](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Resultat av försäljningsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultat av försäljningsbokföring till huvudbokskonton")  
 5. Användaren bokför förbrukning av 150 länkar, som är antalet länkar som används för att producera en kedja. (Förbrukning, material)  
 
-    ![Resultatet av materialbokföring till G&#47;L-konton](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Resultat av materialbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_material.png "Resultat av materialbokföring till huvudbokskonton")  
 6. Produktionsgruppen använde 60 minuter för att producera kedjan. Användaren bokför konverteringskostnaden. (Förbrukning, Kapacitet)  
 
     1. Direkta kostnader bokförs. (Förbrukning, Kapacitet)  
     2. Indirekta kostnader beräknas och bokförs. (Förbrukning, Kapacitet)  
 
-        ![Resultatet av kapacitetsbokföring till G&#47;L-konton](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Resultat av kapacitetsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultat av kapacitetsbokföring till huvudbokskonton")  
 7. Användaren bokför förväntade kostnaden för en kedja. (Utflöde)  
 8. Användaren avslutar produktionsordern och kör batch-jobbet **Justera kost. - artikel trans**. (Utflöde)  
 
@@ -102,7 +102,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
     3. Den indirekta kostnaden (omkostnader) överförs från kontot för indirekt kostnad till lagerkontot. (Utflöde)  
     4. Det resulterar i ett avvikelsebelopp på BVA 157,00. Varianser beräknas endast för standardkostnadobjekt. (Utflöde)  
 
-        ![Resultatet av utflödesbokföring till G&#47;L-konton](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Resultat av bokföring av utflöde till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_output.png "Resultat av bokföring av utflöde till huvudbokskonton")  
 
         > [!NOTE]  
         >  För enkelhets skull visas bara ett varianskonto. I verkligheten finns fem olika konton:  
@@ -115,7 +115,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
 
 9. Användaren omvärderar kedjan från BVA 150,00 till BVA 140,00. (Justering/Omvärdering/Avrundning/Överföring)  
 
-    ![Resultatet av justeringsbokföring till G&#47;L-konton](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Resultat av justeringsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultat av justeringsbokföring till huvudbokskonton")  
 
 För mer information om sambandet mellan kontotyperna och de olika typerna av värden, se [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md).  
 

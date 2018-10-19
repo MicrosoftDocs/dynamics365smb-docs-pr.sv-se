@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>Tillägget C5 för datamigrering för Business Central
+# <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 
 > [!Note]
@@ -30,6 +30,7 @@ Det här tillägget gör det enkelt att flytta över kunder, leverantörer, arti
 Följande data överförs för respektive enhet:
 
 **Kunder**
+* Kontakter  
 * Plats
 * Land
 * Kunddimensioner (avdelning, center, ändamål)
@@ -47,6 +48,7 @@ Om du flyttar konton, flyttas även följande uppgifter:
 * Öppna kundreskontratransaktioner (kundreskontratransaktioner)
 
 **Leverantör**
+* Kontakter
 * Plats
 * Land
 * Leverantörsdimensioner (avdelning, center, ändamål)
@@ -75,6 +77,7 @@ Om du flyttar konton, flyttas även följande uppgifter:
 * Måttenheter
 * Artikelspårningskod
 * Kundprisgrupp
+* Monteringsstrukturer
 
 Om du flyttar konton, flyttas även följande uppgifter:
 
@@ -97,32 +100,34 @@ Om du flyttar konton, flyttas även följande uppgifter:
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)], välj ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Sök efter sida eller rapport"), ange **Datamigrering** och välj sedan **Datamigrering**.  
+2. I [!INCLUDE[d365fin](includes/d365fin_md.md)], välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Datamigrering** och välj sedan **Datamigrering**.  
 3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
 
 > [!Note]
 > Företag lägger ofta till fält för att anpassa C5 till deras specifika verksamhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] flyttar inte över data från anpassade fält. Migreringen misslyckas även om det finns fler än 10 anpassade fält.
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.
-Använd sidan **översikt över datamigrering** för att övervaka flyttningen. På sidan visas information som till exempel antal enheter som migreringen omfattar, flyttning och antalet artiklar som har överförts och om de lyckades. Den visar antalet fel, låter dig ta reda på vad som orsakade problemet och, när det är möjligt, gör det enkelt att gå till enheten för att lösa problemen. Mer information finns i nästa avsnitt i den här artikeln.  
+Använd fönstret **översikt över datamigrering** för att övervaka flyttningen. På sidan visas information som till exempel antal enheter som migreringen omfattar, flyttning och antalet artiklar som har överförts och om de lyckades. Den visar antalet fel, låter dig ta reda på vad som orsakade problemet och, när det är möjligt, gör det enkelt att gå till enheten för att lösa problemen. Mer information finns i nästa avsnitt i den här artikeln.  
 
 > [!Note]
 > Medan du väntar på resultat från migreringen, måste du uppdatera sidan för att visa resultatet.
 
 ## <a name="how-to-avoid-double-posting"></a>Undvika dubbel bokföring
 För att undvika dubbel bokföring i redovisningen används följande balansräkningskonton för öppna transaktioner:  
-  
+
 * För leverantörer använder vi A/P-konto från leverantörsbokföringsmallen.  
 * För kunder använder vi A/P-konto från kundbokföringsmallen.  
 * För artiklar skapar vi en bokföringsinställning där kontot för lagerjusteringar är det konto som anges som lagerkontot i fönstret Lagerbokföringsinställning.  
 
 ## <a name="correcting-errors"></a>Felkorrigering
-Om något går fel och ett fel uppstår kommer fältet **Status** att visa **Slutförd med fel** och fältet **Antal fel** visar hur många. Om du vill visa en lista över felen, öppnar du sidan **migreringsfel** genom att välja:  
+Om något går fel och ett fel uppstår kommer fältet **Status** att visa **Slutförd med fel** och fältet **Antal fel** visar hur många. Om du vill visa en lista över felen, öppnar du fönstret **migreringsfel** genom att välja:  
 
 * Numret i fältet **antal fel** för enheten.  
 * Enheten och åtgärden **Visa fel**.  
 
-På sidan **migreringsfel**, om du vill korrigera ett fel kan du välja ett felmeddelande och sedan välja **redigera post** för att öppna en sida som visar de migrerade data för enheten. När du har korrigerat ett eller flera fel kan du välja **Migrera** för att endast överföra de enheter som har fastställts, utan att behöva starta om flyttningen helt.  
+I fönstret **migreringsfel**, om du vill korrigera ett fel kan du välja ett felmeddelande och sedan välja **redigera post** för att visa de migrerade data för enheten. Om du har flera fel att fixa kan du välja **reparera flera fel** för att redigera poster i en lista. Du behöver öppna enskilda poster om felet orsakades av en relaterad post. Om t.ex. en leverantör inte vill migrera om en e-postadress för en av deras kontakter har ett felaktigt format.
+
+När du har korrigerat ett eller flera fel kan du välja **Migrera** för att endast överföra de enheter som har fastställts, utan att behöva starta om flyttningen helt.  
 
 > [!Tip]
 > Om du har kopplat mer än ett fel, kan du använda funktionen **Välj flera** om du vill markera flera rader att migrera. Om det finns fel som inte är viktiga att fixa kan du välja dem och sedan välja **hoppa över val**.
@@ -145,5 +150,5 @@ Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**
 
 ## <a name="see-also"></a>Se även
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-[Komma igång](product-get-started.md) 
+[Komma igång](product-get-started.md)
 

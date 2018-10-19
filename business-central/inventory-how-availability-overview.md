@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Visa artikeldisposition
@@ -40,7 +40,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)], visas dispositionssiffror i två 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
 Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktioner i fönstret **Artikeldisposition per händelse**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per**, och välj sedan åtgärden **Händelse**.
 
@@ -50,7 +50,7 @@ Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Visa dispositionen för en artikel under olika perioder
 Du visar en artikels disposition över tid för angivna tidsperioder i fönstret **Artikeldisp. per perioder**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Period**.
 
@@ -60,7 +60,7 @@ Du visar en artikels disposition över tid för angivna tidsperioder i fönstret
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Visa tillgängligheten för en artikel på de lägerställen där den lagras
 Du kan visa dispositionen av en artikel på de olika lägerställen där den lagras i fönstret **Artikeldisp. per lagerställe**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Lagerställe**.
 
@@ -71,7 +71,7 @@ Du kan visa dispositionen av en artikel på de olika lägerställen där den lag
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
 Du kan visa disposition för alla artiklar på alla lägerställen i fönstret **Artiklar per lagerställe**.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Välj åtgärden **Artiklar per lagerställe**.
 
     Fönstret **Artiklar per lagerställe** visar, för alla artiklar, hur många som är tillgängliga på respektive lagerställe.

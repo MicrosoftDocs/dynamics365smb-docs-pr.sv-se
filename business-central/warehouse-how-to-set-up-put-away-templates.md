@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7fecd72242d30291d3741ee99fcb3ee5bc09af9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 83ae54e61c5881cce9a58c6684bbf82c4b3ad750
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-put-away-templates"></a>Skapa artikelinförselmallar
@@ -25,7 +25,7 @@ Med dirigerad artikelinförsel och plockning går det alltid att hitta den lämp
 Du kan skapa flera artikelinförselmallar och välja en av dem för att styra allmänna artikelinförslar i distributionslagret. Du kan även välja en artikelinförselmall för valfri artikel eller lagerställeenhet som kan ha specialkrav beträffande artikelinförsel.  
 
 ## <a name="to-set-up-put-away-templates"></a>Så här skapar du artikelinförselmallar:  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelinförselmallar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförselmallar** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Ange en kod som är unik för den mall som du ska skapa.  
 4.  Ange vid behov en kort beskrivning.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f01c57c3686764866c9d2a3c25d426e7f9a986a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-variance"></a>Designdetaljer: Varians
@@ -40,7 +40,7 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 
  Följande tabell visar de resulterande värdetransaktionerna.  
 
- ![Köpa avvikelseberäkning](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+ ![Beräkning av inköpsvarians](media/design_details_inventory_costing_11_purchase_variance.png "Beräkning av inköpsvarians")  
 
 ## <a name="determining-the-standard-cost"></a>Fastställa standardkostnaden  
  Standardkostnaden används när du beräknar avvikelse och beloppet som ska kapitaliseras. Eftersom standardkostnaden kan ändras med tiden på grund av manuell uppdateringsberäkning måste du ha en tidpunkt då standardkostnaden är fast för avvikelseberäkning. Det här är punkten där lagerökningen faktureras. För producerade eller monterade artiklar punkten, är den punkt när standardkostnaden fastställs den punkt när kostnaden justeras.  
@@ -50,16 +50,16 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 |Kostnadsandel|Inköpt artikel|Producerad/monterad artikel|  
 |----------------|--------------------|------------------------------|  
 |**Standardkostnad**||En-nivå materialkostnad + En-nivå kapacitetskostnad + En-nivå underleverantörkost. + En-nivå kap.overheadkost. + En-nivå mat.overheadkost.|  
-|**En-nivå materialkostnad**|Styckkostnad|![Formel 1](media/design_details_inventory_costing_11_equation_1.png "design_details_inventory_costing_11_equation_1")|  
-|**En-nivå kapacitetskostnad**|Ej tillämpbart|![Formel 2](media/design_details_inventory_costing_11_equation_2.png "design_details_inventory_costing_11_equation_2")|  
-|**En-nivå underleverantörkost.**|Ej tillämpbart|![Formel 3](media/design_details_inventory_costing_11_equation_3.png "design_details_inventory_costing_11_equation_3")|  
-|**En-nivå kap.overheadkost.**|Ej tillämpbart|![Formel 4](media/design_details_inventory_costing_11_equation_4.png "design_details_inventory_costing_11_equation_4")|  
+|**En-nivå materialkostnad**|Styckkostnad|![Formel 1](media/design_details_inventory_costing_11_equation_1.png "Formel 1")|  
+|**En-nivå kapacitetskostnad**|Ej tillämpbart|![Formel 2](media/design_details_inventory_costing_11_equation_2.png "Formel 2")|  
+|**En-nivå underleverantörkost.**|Ej tillämpbart|![Formel 3](media/design_details_inventory_costing_11_equation_3.png "Formel 3")|  
+|**En-nivå kap.overheadkost.**|Ej tillämpbart|![Formel 4](media/design_details_inventory_costing_11_equation_4.png "Formel 4")|  
 |**En-nivå mat.overheadkost.**|Ej tillämpbart|(En-nivå materialkostnad + En-nivå kapacitetskostnad + En-nivå underlev.kost.) * Indirekt kostnad % / 100 + Omkostnader|  
-|**Uppsum. materialkost.**|Styckkostnad|![Formel 5](media/design_details_inventory_costing_11_equation_5.png "design_details_inventory_costing_11_equation_5")|  
-|**Uppsum. kapacitetskost.**|Ej tillämpbart|![Formel 6](media/design_details_inventory_costing_11_equation_6.png "design_details_inventory_costing_11_equation_6")|  
-|**Uppsummerad utlegokostnad**|Ej tillämpbart|![Formel 7](media/design_details_inventory_costing_11_equation_7.png "design_details_inventory_costing_11_equation_7")|  
-|**Uppsum. kap.overh.kostnad**|Ej tillämpbart|![Formel 8](media/design_details_inventory_costing_11_equation_8.png "design_details_inventory_costing_11_equation_8")|  
-|**Uppsum. tillverk.overh.kost**|Ej tillämpbart|![Formel 9](media/design_details_inventory_costing_11_equation_9.png "design_details_inventory_costing_11_equation_9")|  
+|**Uppsum. materialkost.**|Styckkostnad|![Formel 5](media/design_details_inventory_costing_11_equation_5.png "Formel 5")|  
+|**Uppsum. kapacitetskost.**|Ej tillämpbart|![Formel 6](media/design_details_inventory_costing_11_equation_6.png "Formel 6")|  
+|**Uppsummerad utlegokostnad**|Ej tillämpbart|![Formel 7](media/design_details_inventory_costing_11_equation_7.png "Formel 7")|  
+|**Uppsum. kap.overh.kostnad**|Ej tillämpbart|![Formel 8](media/design_details_inventory_costing_11_equation_8.png "Formel 8")|  
+|**Uppsum. tillverk.overh.kost**|Ej tillämpbart|![Formel 9](media/design_details_inventory_costing_11_equation_9.png "Formel 9")|  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   

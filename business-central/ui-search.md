@@ -1,8 +1,6 @@
 ---
-title: "Hittad sidor och rapporter med hjälp av knappen Sök | Microsoft Docs"
-description: "Om du vill söka efter sidor och rapporter i Business Central kan du använda funktionen Sök efter sida eller rapport."
-services: project-madeira
-documentationcenter: 
+title: "Söka efter Funktioner och information | Microsoft Docs"
+description: "I det här avsnittet beskrivs hur du använder du sökning för att söka efter åtgärder, sidor, rapporter, dokumentation och data."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,28 +8,51 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 03/29/2017
-ms.author: jswymer
+ms.date: 10/01/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 496f42d2bac223227b20b57c27e34d2d5b3c014f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="searching-for-a-page-or-report"></a>Sök efter sida eller rapport
-Du kan söka sidor och rapporter genom att välja ikonen **Sök efter sida eller rapport** längst upp till höger i adressfältet. Leta efter den här ikonen:
+# <a name="using-tell-me-to-find-features-and-information"></a>Med hjälp av Berätta för att hitta funktioner och Information  
+Det här avsnittet beskriver olika sätt som Berätta kan hjälpa dig att snabbt hitta en åtgärd, sida, rapport eller lära dig hur du gör någonting i [!INCLUDE[d365fin](includes/d365fin_md.md)] om du är osäker.  
 
-![Sök efter sida eller rapport](media/ui-search/search.png "Sök efter sida eller rapport")
+> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
 
-När du börjar skriva tecken visar en listruta namnen som innehåller tecknen du skriver. Listrutan ändras allt eftersom du skriver fler tecken, och du kan välja rätt sida från listan när den visas. Den andra kolumnen i listrutan visar sökvägarna till de sidor som hittas. Det finns också en länk som låter dig söka efter hjälpavsnitt för de tecken som du skrev in.
+## <a name="find-pages-reports-actions-and-documentation"></a>Söka efter sidor, rapporter, åtgärder och dokumentation 
+När du behöver hjälp med att hitta en sida, rapport, artikel i vår dokumentation eller en åtgärd på sidan som är öppen, använd ikonen ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sidan eller rapporten")**Berätta vad du vill göra** om du vill söka efter den via namn. Du kan också använda ALT+Q för att börja använda Berätta.
+
+När du börjar skriva tecken visar [!INCLUDE[d365fin](includes/d365fin_md.md)] omedelbart matchningar i en listruta. Resultatet i listan ändras när du skriver fler tecken. Den andra kolumnen i listrutan anger den allmänna kategorin för i resultatet.   
 
 > [!NOTE]  
->   Tillgängliga sidor och rapporter beror på vilken användarupplevelse du väljer för ditt företag. Den **Grundläggande** upplevelsen ger åtkomst till färre än vad **Vital**-upplevelsen gör. Första gången du loggar in, använder du den grundläggande upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse](ui-experiences.md).
+>   När du trycker på **ange** på tangentbordet öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)] det resultat som visas först. Om du föredrar att använda tangentbordet använder du Tabb-tangenten och piltangenterna för att välja ett objekt i resultaten.
+
+### <a name="find-an-action-on-the-current-page"></a>Söka efter en åtgärd på den aktuella sidan
+Avsnittet **På den aktuella sidan** låter dig söka efter och utföra åtgärder på sidan som är öppen. Om t.ex. sidan Försäljningsoffert är öppen och du skriver ”kund”, inkluderar avsnittet en åtgärd som öppnar kundkortet för den kund som har valts på försäljningsofferten. 
 
 > [!NOTE]  
->   Funktionen **Sök efter sida eller rapport** söker inte via data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja förstoringsglassymbolen i det högra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Ange villkor i filter](ui-enter-criteria-filters.md).
+>   Listan innehåller endast de åtgärder som är tillgängliga i navigeringsfältet längst upp på sidan. Åtgärder på snabbflikarna inkluderas inte.  
+
+### <a name="find-a-page-or-a-task"></a>Söka efter en sida eller en uppgift
+Resultaten i avsnittet **Gå till sidor och uppgifter** ger tillgång till andra sidor och låter dig utföra uppgifter. Sidorna och uppgifterna som anges är beroende av den användarupplevelse du valt för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du Essential-upplevelsen. Mer information finns i [Anpassa din [!INCLUDE[d365fin](includes/d365fin_md.md)] upplevelse](ui-experiences.md).
+
+### <a name="find-a-report-or-archived-information"></a>Söka efter en rapport eller en arkiverad Information
+Avsnittet **Gå till rapporter och analyser** ger åtkomst till rapportverktyg. Du kan till exempel öppna rapporten **Balansräkning** från listan eller använda arkiverade dokument och annan information.  
+
+### <a name="find-information-in-the-help"></a>Hitta information i hjälpen
+Under **dokumentation** visas artiklarna som den [!INCLUDE[d365fin](includes/d365fin_md.md)]-dokumentation som beskriver begrepp och ger steg för steg-anvisningar för att slutföra aktiviteterna i programmet.    
+
+> [!NOTE]  
+>   Dokumentation för tredje parts tillägg ingår inte i resultaten. 
+
+## <a name="searching-for-data"></a>Söka efter data
+Funktionen **Berätta vad du vill göra** söker inte efter data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja ikonen ![Sökningslista](media/ui-search/search-list.png "ikonen Sökningslista") **Sökning** i det vänstra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Sörtera, söka och filtrera listor](ui-enter-criteria-filters.md).
+
+## <a name="questions"></a>Frågor?
+Vi har visat Berätta för mig för ett antal intressenter, noterat de frågor som de har gemensamt och använt våra anteckningar till en lista av vanliga frågor. Om du är intresserad, se [Vanliga frågor Berätta ](ui-search-faq.md).
 
 ## <a name="see-also"></a>Se även
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
+[Arbeta med Business Central](ui-work-product.md)

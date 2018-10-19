@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov och produktionsplan
 Begreppen "Skapa inköpsförslageringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.  
 
--   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och produktionsprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
--   Produktionsplan är beräkningen av materialbehov baserat på faktiskt behov av komponenter och produktionsprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
+-   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och efterfrågeprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
+-   Produktionsplan är beräkningen av materialbehov baserat på faktiskt behov av komponenter och efterfrågeprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
 
 De planeringsalgoritmer som används för både nettobehov och produktionsplanen är identiska. Planeringsalgoritmerna berör nettobehovsberäkning, återanvändning av befintliga återanskaffningsorder och åtgärdsmeddelanden. Planeringssystemprocessen används för att söka efter vad som behövs eller kommer att behövas (efterfrågan) och vad som finns i lager eller förväntas finnas i lager (tillgång). Åtgärdsmeddelanden skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] när dessa kvantiteter kvittas mot varandra. Åtgärdsmeddelanden innehåller förslag om att skapa en ny order, ändra en orderorder (antal eller datum) eller annullera en order som redan är lagd. Begreppet "order" inbegriper inköpsorder, monteringsorder, produktionsorder och överföringsorder.
 
@@ -35,7 +35,7 @@ Inställningen av artikelkort, monteringsstrukturer, produktionsstrukturer och v
 
 -   **Beräkna fullständig plan**: Med den här funktionen bearbetas eller förnyas materialplanen. Den här processen startar när du tar bort alla planerade leveransorder som för närvarande har laddats. Alla poster i databasen planeras på nytt.  
 -   **Beräkna nettoförändringsplan**: Med den här funktionen bearbetas en nettoförändringsplan. Artiklar tas med i nettoförändringsplaneringen från två typer av förändringar:  
-    - **Förändringar i tillgång/efterfrågan:** Dessa omfattar förändringar i kvantiteter i försäljningsorder, produktionsprognoser, monteringsorder, produktionsorder eller inköpsorder. En oplanerad förändring av lagernivån betraktas också som en kvantitetsförändring.  
+    - **Förändringar i tillgång/efterfrågan:** Dessa omfattar förändringar i kvantiteter i försäljningsorder, efterfrågeprognosen, monteringsorder, produktionsorder eller inköpsorder. En oplanerad förändring av lagernivån betraktas också som en kvantitetsförändring.  
     - **Förändringar av planeringsparameter:** Dessa omfattar förändringar i säkerhetslager, beställningspunkt, verksamhetsföljd, strukturlista och förändringar i beräkningen av tidsenhet eller ledtid.  
 -   **Hämta åtgärdsmeddelanden:** Den här funktionen fungerar som ett verktyg för planering på kort sikt genom att utfärda åtgärdsmeddelanden för att uppmärksamma användaren om eventuella ändringar som har genomförts sedan den senaste fullständiga planen eller nettoförändringsplanen beräknades.  
 
@@ -47,13 +47,13 @@ Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 >  Planen för funktionen Hämta åtgärdsmeddelanden kan köras mellan körningarna av nettoförändringsplanen och den fullständiga planen för att hämta en ögonblicksbild av den påverkan som planförändringarna har. Den är däremot inte tänkt som en ersättning till nettoförändringsplanen eller den fullständiga planen.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Så här beräknar du planeringsförslaget  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan** för att öppna fönstret **Skapa inköpsförslag**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**Prod.program**|Välj att initialisera beräkningen av ett produktionsprogram. Artiklar med öppna försäljningsorder eller produktionsprognoser tas med i beräkningen.|  
+    |**Prod.program**|Välj att initialisera beräkningen av ett produktionsprogram. Artiklar med öppna försäljningsorder eller efterfrågeprognoser tas med i beräkningen.|  
     |**Nettobehov**|Välj att initialisera beräkningen av materialbehovsplaneringen. Artiklar med beroende behov tas med i den här beräkningen. Prod.program och Nettobehov körs normalt samtidigt. Om du vill köra produktionsplanen och nettobehovet samtidigt, måste du markera fältet **Prod.plan./nettobehov** på snabbfliken **Planering** i fönstret **Produktionsinställningar**.|  
     |**Fr.o.m.-datum**|Orderdatumet används för att utvärdera lagerdispositionen. Om lagersaldot för en artikel är under beställningspunkten framåtplaneras en återanskaffningsorder automatiskt i systemet från det här datumet. Om saldot för en artikel är under värdet för säkerhetslager (per startdatumet) bakåtplaneras en återanskaffningsorder som förfaller på startdatumet för planeringen.|  
     |**T.o.m.-datum**|Det här är slutdatumet för planeringshorisonten. Varken tillgång eller efterfrågan beaktas efter det här datumet. Om beställningscykeln för en artikel sträcker sig efter slutdatumet, är den giltiga planeringshorisonten för artikeln lika med order datum + beställningscykel.<br /><br /> Planeringshorisonten är den tidsperiod som planen omfattar. Om horisonten är för kort, innebär det att artiklar med en längre ledtid inte beställs i tid. Om den är för lång, innebär det att för mycket tid läggs ned på att granska och bearbeta information som troligtvis förändras innan den behövs. Du kan ange en planeringshorisont för produktion och en längre horisont för inköp, även om detta inte är ett krav. Du bör ställa in en planeringshorisont för inköp och produktion så att den täcker den ackumulerade ledtiden för komponenter.|  
@@ -99,7 +99,7 @@ Följande åtgärdsmeddelanden genereras som svar på obalans i tillgång/efterf
 
 |Åtgärdsmeddelande|Beskrivning|  
 |--------------------|---------------------------------------|  
-|**Ny**|Om en efterfrågan inte kan tillgodoses genom åtgärdsmeddelanden med förslag om att **Ändra antal**, **Omplanera** eller **Omplanera och ändra** i befintliga order, genereras åtgärdsmeddelandet **Ny**, vilket ger förslag om en ny order. Dessutom skickas åtgärdsmeddelandet **Ny** om det inte finns några befintliga leveransorder inom beställningscykeln för artikeln i fråga. Med den här parametern fastställs antalet perioder framåt och bakåt i tillgänglighetsprofilen vid sökning efter en order att omplanera.|  
+|**Ny**|Om en efterfrågan inte kan tillgodoses genom åtgärdsmeddelanden med förslag om att **Ändra antal**, **Omplanera** eller **Omplanera och ändra** i befintliga order, genereras åtgärdsmeddelandet **Ny**, vilket ger kalkylark om en ny order. Dessutom skickas åtgärdsmeddelandet **Ny** om det inte finns några befintliga leveransorder inom beställningscykeln för artikeln i fråga. Med den här parametern fastställs antalet perioder framåt och bakåt i tillgänglighetsprofilen vid sökning efter en order att omplanera.|  
 |**Ändra antal**|När det inträffar en kvantitetsförändring för efterfrågan som spåras till en leveransorder, genereras åtgärdsmeddelandet **Ändra antal**, vilket anger att relaterad tillgång ska ändras så att det motsvarar förändringen i efterfrågan. Om det uppstår ny efterfrågan söker [!INCLUDE[d365fin](includes/d365fin_md.md)] efter närmast befintliga icke reserverade leveransorder inom beställningscykeln, och skickar ett åtgärdsmeddelande om ändring för ordern.|  
 |**Omplanera**|När det inträffar en ändring av datum för en leverans- eller behovsorder som orsakar obalans i ordernätverket, skickas åtgärdsmeddelandet **Omplanera**. Om det finns ett ett-till-ett-samband mellan tillgång och efterfrågan, skickas ett åtgärdsmeddelande med förslag om att leveransordern ska flyttas i enlighet med detta. Om leveransordern täcker behovet från fler än en försäljningsorder, omplaneras leveransordern till datumet för det första behovet.|  
 |**Omplanera och Ändra antal**|Om både datumen för och antalet på en order har ändrats, är det nödvändigt att ändra planer med hänsyn till båda dessa faktorer. Åtgärdsmeddelanden samlar båda dessa faktorer i ett enda meddelande, **Planera & ändra antal** för att säkerställa att balansen i ordernätverket återställs.|  

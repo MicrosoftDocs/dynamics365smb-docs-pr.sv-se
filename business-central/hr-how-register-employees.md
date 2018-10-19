@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-employees"></a>Registrera personal
@@ -30,14 +30,14 @@ Nedan beskrivs hur du skapar ett grundläggande personalkort samt hur du förser
 > Du kan återbetala en medarbetare för deras utgifter under affärsaktiviteter. Av den anledningen måste du fylla i fälten på snabbfliken **Betalningar** i fönstret **Personalkort**. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Så här registrerar du personal
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Personal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anställda** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I fönstret **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Infoga en bild av den anställde
 Om du har en bild av en anställd i .bmp-format kan du infoga den på personalkortet.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Personal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anställda** och välj sedan relaterad länk.
 2. Öppna kortet för relevant anställd.
 3. I faktaboxen **Personalbild** väljer du listruteknappen och väljer sedan **Importera**.
 4. I fönstret **Välj en bild att ladda upp** kan välja knappen **Välj**.
@@ -50,7 +50,7 @@ Du kan ställa in information, till exempel medlem i fackföreningen, anhöriga 
 
 Du kan använda alternativa adresser för att hålla reda på var de anställda befinner sig, om de t.ex. är stationerade utomlands, befinner sig på en längre affärsresa eller vistas i sommarstuga.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Personal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anställda** och välj sedan relaterad länk.
 2. Öppna kortet för relevant anställd.
 3. Välj åtgärden **alternativa adresser**.
 4. I fönstret **Alternativ adresslista** fyller du i fälten efter behov.

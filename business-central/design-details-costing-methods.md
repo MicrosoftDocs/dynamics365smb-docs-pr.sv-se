@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3eaa16ebf1266a7c90d4130fcb25b2fbbc2b40d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
@@ -32,7 +32,7 @@ Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitali
 
  Följande bild visar hur kostnader flödar via lagret för varje värderingsprincip.  
 
- ![Värderingsprinciper](media/design_details_inventory_costing_7_costing_methods.png "design_details_inventory_costing_7_costing_methods")  
+ ![Värderingsprinciper](media/design_details_inventory_costing_7_costing_methods.png "Värderingsprinciper")  
 
  Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
 

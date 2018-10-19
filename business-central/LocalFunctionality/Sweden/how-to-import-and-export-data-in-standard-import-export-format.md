@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/10/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 43955c445bb8455a0823124d71879e547c1b11fb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8bfe55ccdb495f72d14c2bff2fad8b69f8b51c63
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
-Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
+Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 ## <a name="to-import-data-in-sie-format"></a>Så här importerar du data i SIE-format  
 
@@ -56,6 +56,6 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 5. Välj knappen **Öppna** eller **Spara** för att bestämma var den exporterade filen ska placeras.
 
 ## <a name="see-also"></a>Se även  
- [SIE-grupp](http://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
+ [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
 

@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Servicehantering
+> [!NOTE]
+> Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
+
 Löpande kundservice är en viktig del av all affärsverksamhet. Det bidrar till att kunderna blir nöjda och lojala, förutom att du får intäkter. Men det är inte alltid enkelt att hantera och följa upp service. I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det en uppsättning verktyg som kan hjälpa till. Dessa verktyg fungerar som stöd för verkstäder och fältservice, och kan användas i affärsscenarier som komplexa kundservicedistributionssystem, industriella servicemiljöer med strukturlistor och vid beordring av ett stort antal fälttekniker som behöver ha tillgång till reservdelar.  
 
  Med dessa verktyg kan du utföra följande:  
@@ -46,5 +49,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Välkommen till[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

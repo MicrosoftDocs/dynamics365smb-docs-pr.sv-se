@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
@@ -58,7 +58,7 @@ Du måste skapa en ny användare på den lokala datorn och i [!INCLUDE[d365fin](
 7.  Stäng fönstret **Lokala användare och grupper**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Så här lägger du till Alicia som användare i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användare** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användare** och välj sedan relaterad länk.  
 2.  I fönstret **Windows-användare** på fliken **Start** i gruppen **Ny** väljer du **Ny**.  
 3.  I fönstret **användarkort** i fältet **användarnamn** anger du Alicia.  
 4.  I fältet **Windows användarnamn** väljer du AssistEdit-knappen.  
@@ -72,7 +72,7 @@ Du måste skapa en ny användare på den lokala datorn och i [!INCLUDE[d365fin](
 Genom att använda Windows-användaren som du precis har skapat, ställer du in Alicia som en godkännandeanvändare vars godkännare är du själv. Skapa dina godkännanderättigheter och ange hur och när du får meddelande om godkännandebegäranden.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Så här ställer du in dig själv och Alicia som godkännandeanvändare  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
 2.  I fönstret **Användarinställningar för godkännande** på fliken **Start** i gruppen **Ny**, väljer du **Ny**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Ange hur och när du får meddelande om godkännandebegäranden.
  Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen från arbetsflödesmallen för Arbetsflöde för godkännande av inköpsorder. Lämna de befintliga arbetsflödesstegen oförändrade och aktivera sedan arbetsflödet.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Söka efter sida eller rapport") gå till **Arbetsflöden** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflöden** och välj sedan relaterad länk.  
 2.  I fönstret **Arbetsflöden** på fliken **Åtgärder** i gruppen **Allmänt** väljer du **Skapa arbetsflöde från mall**.  
 3.  Välj **Skapa arbetsflöde från mall** i gruppen **Allmänt** på fliken **Åtgärder**. Fönstret **arbetsflödesmallar**.  
 4.  Markera arbetsflödesmallen Arbetsflöde för godkännande av inköpsorder och välj sedan **OK**.  
@@ -115,7 +115,7 @@ Ange hur och när du får meddelande om godkännandebegäranden.
 Se till att en jobbkö i din installation är konfigurerad för att hantera arbetsflödesmeddelanden.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Så här startar du jobbkön MEDDELA  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Jobbköer** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Jobbköer** och välj sedan relaterad länk.  
 2.  I fönstret **Jobbköer** väljer du först raden för jobbkön MEDDELA, och på fliken **Start** i gruppen **Process**, välj **Starta jobbkö**.  
 
 ## <a name="using-the-approval-workflow"></a>Använda godkännandearbetsflödet  
@@ -133,7 +133,7 @@ Om du logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] som olika använd
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Så här begär du godkännande av en inköpsorder, som Alicia.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
 2.  Markera raden öppen inköpsorder 104001 och på fliken **Start** i gruppen **Hantera** väljer du **Redigera**.  
 3.  I fönstret **Inköpsorder** på fliken **Åtgärder** i gruppen **Godkännande**, välj **Skicka godkännandebegäran**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfd49fac19f2dfc09d77855cba21f39d4c9858e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
@@ -41,7 +41,7 @@ Eftersom omvärderingen kan göras vilket datum som helst, måste du ha regler f
 ### <a name="example"></a>Exempel  
 Följande exempel visar när en PIA-artikel övergår till att bli en del av lagret. Följande exempel baseras på produktionen av en kedja med 150 länkar.  
 
-![PIA lager och omvärdering](media/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
+![PIA lager och omvärdering](media/design_details_inventory_costing_10_revaluation_wip.png "PIA lager och omvärdering")  
 
 **1Q**: Användaren bokför de inköpta länkarna som inlevererade. Följande tabell visar den resulterande artikeltransaktionen.  
 

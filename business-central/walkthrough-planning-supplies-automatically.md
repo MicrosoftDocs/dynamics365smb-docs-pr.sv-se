@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
 Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av produktionsprogrammet och materialbehovsplan (nettobehov), baserat på faktiska behov och behovsprognoser.  
 
--   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och produktionsprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
--   Produktionsplan är beräkningen av materialbehov baserat på faktiskt behov av komponenter och produktionsprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
+-   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och efterfrågeprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
+-   Produktionsplan är beräkningen av materialbehov baserat på faktiskt behov av komponenter och efterfrågeprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
 
  De planeringsalgoritmer som används för både nettobehov och produktionsplanen är identiska. Planeringsalgoritmerna använder nettoberäkning, återanvändning av befintliga leveransorder samt åtgärdsmeddelanden. Planeringssystemprocessen används för att söka efter vad som behövs eller kommer att behövas (efterfrågan) och vad som finns i lager eller förväntas finnas i lager (tillgång). När de här kvantiteterna nettoberäknas mot varandra visas åtgärdsmeddelanden i planeringsförslaget. Åtgärdsmeddelanden är förslag på att skapa en ny leveransorder, att ändra en leveransorder (kvantitet eller datum) eller att annullera en befintlig leveransorder. Leveransorder kan vara produktionsorder, inköpsorder eller överföringsorder. Mer information finns i [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 
@@ -73,7 +73,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 ### <a name="to-change-selected-planning-parameters"></a>Så hör kan du ändra de valda planeringsparametrarna  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställeenheter**, och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerställeenheter** och välj sedan relaterad länk.  
 2.  Öppna det BLÅ lagerställeenhetskortet för artikeln 1100, framhjul.  
 3.  Fyll i fälten på snabbfliken **Planering** enligt beskrivningen i följande tabell.  
 
@@ -90,7 +90,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  I fönstret **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
@@ -102,7 +102,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Så här skapar du en fullständig plan för att tillfredsställa behovet vid lagerstället BLÅ  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
 3.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
 
@@ -125,7 +125,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beräkna nettobehov för att ta med underliggande komponentbehov  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
 3.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
 
@@ -219,7 +219,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 3.  Acceptera tillgänglighetsvarningen och klicka på **Ja** för att registrera det efterfrågade antalet.  
 4.  Fortsätter genom att planera om genom att justera den nuvarande leveransplaneringen.  
-5.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 6.  Välj åtgärden **Beräkna nettoförändringsplan**.  
 7.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
 

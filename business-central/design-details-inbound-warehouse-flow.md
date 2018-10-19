@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Ankommande distributionslagerflöde
@@ -53,7 +53,7 @@ I metoderna A, B och C kombineras inleverans och artikelinförsel i ett steg nä
 ## <a name="basic-warehouse-configurations"></a>Grundläggande distributionslagerkonfiguration  
 Följande diagram visar de ankommande distibutionslagerflödena efter dokumenttyp i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
-![Ankommande flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Ankommande flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_inbound_basic_flow.png "Ankommande flöde i grundläggande lagerkonfigurationer")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Släpp källdokument / skapa lagerartikelinförsel  
 När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t.ex. en inköpsorder eller en ankommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret. Användaren kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerplatser och antal som ska hanteras.  
@@ -69,10 +69,10 @@ På varje rad för artiklar som har införts, delvis eller helt, fyller lagerarb
 
 Positiva artikeltransaktioner skapas, distributionslagertransaktioner skapas och artikelinförselförfrågan tas bort, om de hanteras fullständigt. Till exempel uppdateras fältet **Inlevererat antal** på den ankommande källdokumentraden. Ett redan bokfört inleveransdokument skapas som återspeglar till exempel inköpsordern, och de inlevererade artiklarna.  
 
-## <a name="advanced-warehouse-configurations"></a>avancerad distributionslagerkonfiguration  
+## <a name="advanced-warehouse-configurations"></a>Avancerad distributionslagerkonfiguration  
 Följande diagram visar de ankommande distibutionslagerflödet efter dokumenttyp i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
-![Ankommande flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Ankommande flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_inbound_advanced_flow.png "Ankommande flöde i avancerade lagerkonfigurationer")  
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument  
 När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t.ex. en inköpsorder eller en ankommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret.  

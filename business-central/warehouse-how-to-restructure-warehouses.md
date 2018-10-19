@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1f84075772f4862d762c9bf2179614f357fd4ca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="restructure-warehouses"></a>Omstrukturera lager
@@ -29,11 +29,11 @@ Du kanske vill omstrukturera distributionslagret med nya lagerplatskoder och nya
 Om distributionslagret är inställt på lagerplatser, men inte dirigerad artikelinförsel och plockning, strukturera om distributionslagret genom att skapa nya lagerplatser du vill använda.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Om du vill omstrukturera en vanlig dist.lager som använder lagerplatser bara  
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
 2.  På snabbfliken **lager** anger du fältet **Standardlagerplatsval** till **Senaste lagerplats**.  
 3.  Flytta allt innehåll på de nuvarande lagerplatserna till de nya lagerplatserna som du precis har skapat.  
 
-    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Artikelgrupperingsjournal** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelgrupperingsjournal** och välj sedan relaterad länk.  
     2.  Markera en rad och välj sedan åtgärden **Hämta lagerplatsinnehåll**.  
     3.  På Snabbfliken **Lagerplatsinnehåll** , ställer du in filter i **Lagerställekod**, **Lagerplatskod**, och **Artikelnr** fältet för att ange innehållet som du vill flytta.  
     4.  Välj den **OK** på för att fylla i en journalrad.  
@@ -48,13 +48,13 @@ Du har nu tömt lagerplatser där artiklarna användes. Standardlagerplatserna f
 1.  Ska de nya lagerplatserna som du vill använda i framtiden. Mer information finns i [Skapa lagerplatser](warehouse-how-to-create-individual-bins.md).  
 2.  Flytta allt innehåll på de nuvarande lagerplatserna till de nya lagerplatserna som du precis har skapat.  
 
-    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lageromgrupperingsjournal** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lageromgrupperingsjournalen** och välj sedan relaterad länk.  
     2.  För de lagerplatser där det inte sker någon transport av artiklar skapar du en rad för varje aktuell lagerplats i **Dist.lager omgrupperingsjnl** med den gamla lagerplatskoden, **Från lagerplatskod** och den nya lagerplatskoden, **Till lagerplatskod**.  
     3.  Om vissa transporter innefattar fysiska transporter som du vill att lagerpersonalen ska utföra använder du **Transportkalkylark** för att förbereda transportinstruktioner i stället för att använda lagergrupperingsjournalen. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  När de gamla lagerplatserna är tomma gruppera om dem som **KS** typ av lagerplatsen, för att se till att de inte inkluderas i artikelflöden.  
 
-    1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
     2.  Markera raden med lagerstället, och välj sedan åtgärden **Lagerplatser**.  
     3.  I **Lagerplatser** fönstret i **Lagerplatstyp kod** fältet, ange **KS** för var och en av de gamla lagerplatserna som du tömde i steg 3 i föregående process.  
 
@@ -62,7 +62,7 @@ Du har nu tagit bort lagerplatserna från lagerflödet och har omklassificerat d
 
 ## <a name="to-delete-a-bin"></a>Så här tar du bort en lagerplats  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
 2.  Markera lagerstället där du vill ta bort lagerplatser väljer du åtgärden **Lagerplatser**.  
 3.  Markera raderna för de lagerplatser som du vill ta bort.  
 4.  Välj åtgärden **Radera**.  
@@ -73,7 +73,7 @@ Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerpla
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Så här byter du namn på en lagerplats och ändrar lagerplatskoden i alla poster  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Lagerställen** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
 2.  Välj lagerstället där du vill byta namn på en lagerplats eller ändra lagerplatskoden och klicka på åtgärden **Lagerplatser**.  
 3.  I **Kod** fältet, ange lagerplatsen du vill ändra och ange en ny lagerplatskod.  
 4.  Välj **Ja**.  

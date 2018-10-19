@@ -1,25 +1,27 @@
 ---
 title: Kortkommandon
-description: "Lista över kortkommandon för navigering i listor."
+description: "En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data."
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/18/2018
+ms.search.keywords: accessibility, shortcuts, keyboarding, keys
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+
+[Utskriftsvänlig fusklapp för kortkommando för tangentbord](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Översikt
 Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida.
@@ -35,6 +37,7 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 
 |Tryck på dessa tangenter|Om du vill|  
 |----------------|-----------|  
+|Alt+Q|Öppna rutan **Berätta vad du vill göra** som hjälper dig att söka efter en sida, en rapport, en åtgärd på den aktuella sidan eller en artikel i dokumentationen.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|   
 |Enter|Aktivera eller nå elementet eller kontrollen som är i fokus.|   
@@ -46,36 +49,60 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
 I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. Genvägsåtgärden skiljer sig något beroende på om sidan visas som listvy eller sida vid sida.
-
+<!-- 
 > [!Note]
-> I tabellen nedan refererar begreppet *genomförandefält* till ett fält där du kan göra något, till exempel ändra ett värde eller en länk till en annan sida. Generellt sett kommer genvägarna att hoppa över fält som visar information som du inte kan ändra i listan (d.v.s. fält som är skrivskyddade).
+> In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
+-->
+
+### <a name="navigateshortcuts"></a> Navigera mellan rader och kolumner
 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |Anmärkningar|
 |-----------------|-------|-------|-------|
 |Uppil|Flytta till fältet i raden ovanför i samma kolumn| I samma kolumn, flytta till panelen i raden ovanför  |  | 
 |Nedpil|Flytta till fältet i raden nedanför i samma kolumn. |I samma kolumn, flytta till panelen i raden nedanför. | |
-|Högerpil|Flytta till nästa ändringsbara fält till höger i samma rad.| Flytta till nästa ändringsbara panel till höger i samma rad. |Detta inte gäller när listan kan ändras.|
-|Vänsterpil|Flytta till föregående fält till vänster i samma rad. | Flytta till föregående panel till vänster i samma rad. |Detta inte gäller när listan kan ändras.|
+|Högerpil|I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista.| Flytta till nästa ändringsbara panel till höger i samma rad. ||
+|Vänsterpil|I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista.| Flytta till föregående panel till vänster i samma rad. ||
+|Tabb|I en redigerbar lista, flytta till samma rad till höger i samma fält.|Ej tillämpbart.||
+|Skift+Tabb|I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. ||
 |Hem<br />(Fn+vänsterpil)|Flytta till första fältet i raden.|Flytta till första panelen i raden.||
-|End<br />(Fn+högerpil)|Flytta till det sista ändringsbara fältet i raden.|Flytta till den sista panelen i raden.||
-|Page Up<br />(Fn+uppåtpil)|I samma kolumn, flytta till den översta raden som syns.|I samma kolumn, flytta till den översta raden som syns.||
-|Page Down<br />(Fn+Nedpil)|I samma kolumn, flytta till den nedersta raden som syns.|I samma kolumn, flytta till den nedersta raden som syns.||
-|Enter<br />(Fn+nedpil)|Öppna posten som är associerad med fältet|Posten öppnas.| Endast relevant om en sida med kort associerad med posten.|
-|Ctrl+Home<br />(Fn+Ctrl+vänsterpil)|Markera den första raden i listan. Fokus flyttas då till det första ändringsbara fältet i raden|Flytta till panelen i listans första rad||
-|Ctrl+End<br />(Fn+Ctrl+högerpil)|Markera den sista raden i listan. Fokus flyttas då till det första ändringsbara fältet i raden|Flytta till den första panelen i listans sista rad||
-|Ctrl + klicka<br />(Cmd + klicka)|Utöka radmarkeringen så att den rad som du klickar på inkluderas.|Ej tillämpbart||
-|Skift+klicka|Utöka radmarkeringen så att den rad som du klickar på och samtliga där emellan inkluderas.|Ej tillämpbart|Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + uppåtpil/nedpil för att utöka ditt val.|
-|Ctrl+Uppil<br />(Ctrl+Cmd+uppil )|Flytta fokus till raden ovanför och behåll den aktuella raden som har valts.|Ej tillämpbart||
-|Ctrl+Nedpil<br />(Ctrl+Cmd+nedpil )|Flytta fokus till raden nedanför och behåll den aktuella raden som har valts.|Ej tillämpbart||
-|Ctrl+Blanksteg<br />(Ctrl + Cmd + blanksteg )|Utöka radmarkeringen så att den markerade raden inkluderas.|Ej tillämpbart|Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + uppåtpil/nedpil för att utöka ditt val.|
-|Ctrl+A|Markera alla rader.|Ej tillämpbart||
-|Shift+Uppil|Utöka radmarkeringen så att raden ovan inkluderas.|Ej tillämpbart||
-|Shift+nedpil|Utöka radmarkeringen så att raden nedan inkluderas.|Ej tillämpbart||
-|Shift+Page Up<br />(Shift+Fn+uppil)|Utöka radmarkeringen så att samtliga rader som visas ovanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart||
-|Shift+Page Down<br />(Shift+Fn+nedpil)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart||
+|End<br />(Fn+högerpil)|Flytta till det sista fältet i raden.|Flytta till den sista panelen i raden.||
+|Page Up<br />(Fn+uppåtpil)|Rullar för att visa uppsättningen med rader ovanför den aktuella raden i vyn. |Rullar för att visa uppsättningen med paneler ovanför den aktuella panelen i vyn. ||
+|Page Down<br />(Fn+nedpil)|Rullar för att visa uppsättningen med rader nedanför den aktuella raden i vyn.|Rullar för att visa uppsättningen med paneler nedanför den aktuella panelen i vyn.||
+|Enter<br />(Fn+nedpil)|Öppna posten som är associerad med fältet.|Posten öppnas.| Endast relevant om en sida med kort associerad med posten.|
 |Ctrl+Enter|Flytta fokus till nästa element utanför listan.|Flytta fokus till nästa element utanför listan.||
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Kortkommandon i kalendern (datumväljare)
+### <a name="CopyRows"></a>Markera, kopiera och klistra in
+|Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |Anmärkningar|
+|-----------------|-------|-------|-------|
+|Ctrl+Home<br />(Fn+Ctrl+vänsterpil)|Markera den första raden i listan. Fokus flyttas då till det första fältet i raden.|Flytta till första panelen i den första raden. ||
+|Ctrl+End<br />(Fn+Ctrl+högerpil)|Markera den sista raden i listan. Fokus flyttas då till det sista fältet i raden.|Flytta till den sista panelen i den sista raden.||
+|Ctrl + klicka<br />(Cmd + klicka)|Utöka radmarkeringen så att den rad som du klickar på inkluderas.|Ej tillämpbart.||
+|Skift+klicka|Utöka radmarkeringen så att den rad som du klickar på och samtliga där emellan inkluderas.|Ej tillämpbart.|Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + uppåtpil/nedpil för att utöka ditt val.|
+|Ctrl+Uppil<br />(Ctrl+Cmd+uppil)|Flytta fokus till raden ovanför och behåll den aktuella raden som har valts.|Ej tillämpbart.||
+|Ctrl+Nedpil<br />(Ctrl+Cmd+nedpil)|Flytta fokus till raden nedanför och behåll den aktuella raden som har valts.|Ej tillämpbart.||
+|Ctrl+Blanksteg<br />(Ctrl + Cmd + blanksteg )|Utöka radmarkeringen så att den markerade raden inkluderas.|Ej tillämpbart.|Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + nedpil för att utöka ditt val.|
+|Ctrl+A|Markera alla rader.|Ej tillämpbart.||
+|Shift+Uppil|Utöka radmarkeringen så att raden ovan inkluderas.|Ej tillämpbart.||
+|Shift+nedpil|Utöka radmarkeringen så att raden nedan inkluderas.|Ej tillämpbart.||
+|Shift+Page Up<br />(Shift+Fn+uppil)|Utöka radmarkeringen så att samtliga rader som visas ovanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.||
+|Shift+Page Down<br />(Shift+Fn+nedpil)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.||
+|Ctrl+C<br />(Cmd+C)|Kopiera de markerade raderna till Urklipp.|Ej tillämpbart.||
+|Ctrl+V<br />(Cmd+V)|Klistra in de markerade raderna från Urklipp till den aktuella sidan eller ett externt dokument såsom Microsoft Excel eller Outlook e-post.|Ej tillämpbart.|Du kan bara göra dessa redigerbara listor.|
+|F8|Kopiera fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden.|Ej tillämpbart.|Du kan bara göra detta i redigerbara listor. Med detta kortkommando följt av en flik kan du snabbt kan fylla i fält i radposter som du vill ska ha samma värde som raden ovan.|
+
+### <a name="KeyboardFilter"></a> Kortkommandon för att söka och filtrera listor
+
+|Tryck på dessa tangenter<br />(i macOS)|Om du vill|
+|-----------------|-------|
+|F3|Växlar sökrutan.<ul><li>Aktiverar sökrutan så att du kan börja skriva söktexten.</li><li>Om sökrutan redan är aktiverad, återgår F3 till listan utan att radera söktexten.</li><ul>|  
+|Shift+F3|Öppnar och stänger filterrutan.<ul><li> Om filterrutan inte är öppen kan du öppna den med Skift + F3 och visar åtgärden **+ Filter** enligt **Filtrera lista efter**, vilket gör att du bara behöver trycka på RETUR för att börja lägga till ett fältfilter.</li><li>Om filterrutan redan är öppen stängs den med SKIFT + F3 men rensar inte alla filter som du har lagt till.</li></ul>|
+|Ctrl+Shift+F3|Öppnar och stänger filterrutan.<ul><li> Om filterrutan inte är öppen kan du öppna den med Ctrl + Skift + F3 och visar åtgärden **+ Filter** enligt **Filtrera summa efter**, vilket gör att du bara behöver trycka på RETUR för att börja lägga till ett summeringsfilter.</li><li>Om filterrutan redan är öppen stängs den med Ctrl + Skift + F3 men rensar inte alla filter som du har lagt till.</li></ul>  |
+|Alt+F3|Växlar filtrering till det värdet.<ul><li>Använder ett kolumnfilter på det markerade filtervärdet i listan. Detta är detsamma som att välja **filtrera på det här värdet** från en kolumnrubrik. Den öppnar filterrutan, ställer in filter till det valda värdet när fokus är på en cell i listan.</li><li>Om kolumnen redan är filtrerad rensar Alt + F3 filtret på den kolumnen.</li></ul> |
+|Shift+Alt+F3|Öppnar filterfönstret och lägger till ett filter för den markerade kolumnen i listan. Fokus är på det nya filterfältet som börjar skriva filterkriterierna direkt.<br /><br /> Detta innebär att välja **Filter** från kolumnrubriken. menyn. Visar filterrutan, lägger till filtret, ställer in fokus på det så att användaren kan ange ett värde att filtrera efter.<br /><br />Om det redan finns ett filter i fältet, läggs ett nytt filter till. |
+|Ctrl+Shift+Alt+F3|Återställer filter. Detta är detsamma som att välja **Återställ filter** i filterrutan och kopplar det till fält och totala filter.<br /><br /> Filter återgår till standardfilter för den aktuella vyn. Om den aktuella vyn är **alla** motsvarar detta att återvända till en ofiltrerad vy med alla poster. |
+|Ctrl+Enter|Går tillbaka till listan från filterrutan.|
+ 
+## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Kortkommandon i kalendern (datumväljare)
 När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
@@ -92,9 +119,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Ctrl+End<br />(Cmd+End)|Stäng kalendern och ta bort aktuellt datum.|
 |Esc|Stäng kalendern utan markering, behåll aktuellt datum.|
 
-
-## <a name="keyboard-shortcuts-in-the-report-preview"></a>Kortkommandon i Förhandsgranska rapport
-
+## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Kortkommandon i Förhandsgranska rapport
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |-----------------|-------|
 |Nedpil|Rulla nedåt på sidan.|  
@@ -105,7 +130,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Ctrl+Home<br />(Cmd+Start)|Gå till den första sidan i rapporten.|
 |Ctrl+End<br />(Cmd+Start)|Gå till den sista sidan i rapporten.|
 |Page Down<br />(Fn+Nedpil)|Gå till nästa sida i rapporten.|
-|Page Up br-/>(Fn+Uppil)|Gå till föregående sida i rapporten.|
+|Page Up<br />(Fn+uppåtpil)|Gå till föregående sida i rapporten.|
 
 
 <!--

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 07/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1a901cee7a80e9a1690f665df4a79a59fa7bc12
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 19a426c4fc163e66c85f2ec3df19a9619d38106e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
@@ -56,9 +56,9 @@ I så fall kan du konfigurera systemet till att åsidosätta Inkorgen och Utkorg
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Så här importerar du koncerninterna transaktioner från en fil:  
 Om du har en koncernintern partner som inte finns i samma databas som ditt företag kan du ta emot koncerninterna transaktioner från den partnern i en XML-fil. Därefter måste du importera transaktionerna till inkorgen.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Företagsinformation** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk.
 2. Spara filen på den plats som du har angett i fältet **Konc.int. inkorgsinformation** i fönstret **Företagsinformation**.  
-3. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna inkorgstransaktioner** och välj sedan relaterad länk.
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna inkorgstransaktioner** och välj sedan relaterad länk.
 4. I fönstret **koncerninterna inkorgstransaktioner** väljer du åtgärden **Importera transaktionsfil**.  
 5. I fönstret som visas markerar du XML-filen med transaktionerna och sedan väljer du **Öppna**.  
 
@@ -67,7 +67,7 @@ Transaktionerna importeras till inkorgen där du kan bearbeta dem.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Så här hanterar du inkommande koncerninterna transaktioner:  
 När koncerninterna partner skickar koncerninterna transaktioner hamnar de i den koncerninterna inkorgen. Du måste utvärdera varje transaktion i inkorgen och välja lämplig åtgärd.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna inkorgstransaktioner** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna inkorgstransaktioner** och välj sedan relaterad länk.  
 2. I fönstret **koncerninterna inkorgstransaktioner** markerar du en rad, och väljer sedan en åtgärd som **acceptera** för att bearbeta raden.
 3. I fönstret **Slutför konc.int. inkorgsåtg.** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj knappen **OK**.  
@@ -81,7 +81,7 @@ För rader som du behandlade med åtgärden **Returnerad av partner** bokför du
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Så här hanterar du utgående koncerninterna transaktioner  
 När du bokför en koncernintern journal eller ett koncerninternt dokument, eller när du skickar en koncernintern orderbekräftelse, skickas transaktionerna till den koncerninterna utkorgen. Du måste öppna utkorgen och bearbeta dem för att de ska skickas till dina koncerninterna partner.  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna utkorgstransaktioner** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna utkorgstransaktioner** och välj sedan relaterad länk.  
 2. I fönstret **koncerninterna utkorgstransaktioner** markerar du en rad, och väljer sedan en åtgärd som **Returnera till inkorgen** för att bearbeta raden.
 
 Rader som du har behandlats med åtgärden **skickas till en koncernintern partner** kommer att skickas till lämplig partners inkorg.
@@ -95,7 +95,7 @@ Ibland kan du behöva återskapa en transaktion i inkorgen eller utkorgen. Om du
 
 Den här proceduren beskriver hur du återskapar inkorgstransaktioner, men det fungerar på samma sätt i utkorgen.
 
-  1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Koncerninterna inkorgstransaktioner** och välj sedan relaterad länk.  
+  1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Hanterade konc.int. inkorgstransaktioner** och välj sedan relaterad länk.  
 
   2.  I fönstret **Hanterade konc.int. inkorgstransaktioner** markerar du raden med den transaktion som du vill återskapa i inkorgen och väljer sedan åtgärden **Återskapa inkorgstransaktion**.  
 

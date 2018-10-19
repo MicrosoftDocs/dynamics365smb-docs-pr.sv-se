@@ -1,6 +1,6 @@
 ---
-title: "Så här skapar du en produktionsprognos | Microsoft Docs"
-description: "Du kan skapa försäljnings- och produktionsprognoser i fönstret **Produktionsprognos**."
+title: "Så här skapar du en efterfrågeprognos | Microsoft Docs"
+description: "Du kan skapa försäljnings- och produktionsprognoser i fönstret **efterfrågeprognos**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Skapa en produktionsprognos
-Du kan skapa försäljnings- och produktionsprognoser i fönstret **Produktionsprognos**.  
+# <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
+Du kan skapa försäljnings- och produktionsprognoser i fönstret **efterfrågeprognos**.  
 
 Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings - och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings - och produktionsorder. Alternativet *Komponent* på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en försäljningsartikel, nettoberäknas endast försäljningsorder för prognosen. Om den är för komponenter, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
 
@@ -34,7 +34,7 @@ Funktionen för produktionsprognos kan användas för att skapa försäljnings- 
 
 I de allra flesta fall ändrar produktionsplanerare försäljningsprognosen så att denna stämmer med produktionsvillkoren, men ändå uppfyller försäljningsprognosen.  
 
-Du skapar prognoser manuellt i fönstret **Produktionsprognosen**. Flera prognoser kan särskiljas i systemet med hjälp av namn och typ. Prognoser kan kopieras och redigeras efter behov. Observera att endast en prognos i taget gäller för planering.  
+Du skapar prognoser manuellt i fönstret **efterfrågeprognos**. Flera prognoser kan särskiljas i systemet med hjälp av namn och typ. Prognoser kan kopieras och redigeras efter behov. Observera att endast en prognos i taget gäller för planering.  
 
 Prognosen består av ett antal poster som motsvarar artikelnummer, prognosdatum och prognostiserat antal. Prognosen för en artikel täcker en period som definieras av prognosdatumet och prognosdatumet för nästa (efterföljande) prognospost. Med hänsyn till planering bör det prognostiserade antalet vara tillgängligt vid behovsperiodens start.  
 
@@ -49,16 +49,16 @@ Komponentprognosen ska vara lika med eller mindre än det prognostiserade antale
  Prognosperioden är giltig från startdatumet fram till det datum då nästa prognos börjar. Det här tidsintervallet ger dig flera alternativ för att infoga behov på ett särskilt datum i en period. Du rekommenderas därför att inte ändra prognosperiodens omfattning om du inte vill flytta alla prognostransaktioner till startdatumet för den här perioden.  
 
 ## <a name="forecast-by-locations"></a>Prognos efter lagerställen  
-Detta kan anges i produktionsinställningarna. Observera dock att den övergripande prognosen kanske inte är representativ om du granskar lagerställebaserade prognoser var för sig.
+Detta kan anges i produktionsinställningarna om du vill filtrera prognos efter lagerställe när en plan beräknas. Observera dock att den övergripande prognosen kanske inte är representativ om du granskar lagerställebaserade prognoser var för sig.
 
-## <a name="to-create-a-production-forecast"></a>Så här skapar du en produktionsprognos
+## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **produktionsprognos** och välj sedan relaterad länk.  
-2.  Gå till snabbfliken **Allmänt** och markera fältet **Produktionsprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **efterfrågeprognos** och välj sedan relaterad länk.  
+2.  På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
 3.  Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.  
-4.  Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska produktionsprognostransaktionerna.  
+4.  Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska efterfrågeprognostransaktionerna.  
 5.  Ange ett **datumfilter** om du vill begränsa mängden information som visas.  
-6.  Gå till snabbfliken **Matris för produktionsprognos** och ange prognosantalet för **Försäljningsartikel** eller **Komponent** för olika perioder.  
+6.  Gå till snabbfliken **Matris för efterfrågeprognos** och ange prognosantalet för **Försäljningsartikel** eller **Komponent** för olika perioder.  
 7.  Gå till snabbfliken **Matrisalternativ** och ange tidsintervallet i fältet **Visa per** för att ändra perioden som visas i respektive kolumn. Du kan välja mellan följande intervall: **Dag**, **Vecka**, **Månad**, **Kvartal**, **År** eller **Bokföringsperiod** som ställs in i Ekonomihantering.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Detta kan anges i produktionsinställningarna. Observera dock att den övergripa
 8.  I fältet **Visa som** väljer du hur prognosantalet ska visas för tidsintervallet. Om du väljer **Nettoförändring** visas nettoförändringen i saldot för tidsintervallet. Om du väljer **Saldo t.o.m. datum** visar fönstret saldot per den sista dagen i tidsintervallet.  
 
 > [!NOTE]  
->  Du kan också redigera en befintlig prognos. I fönstret **Matris för produktionsprognos** väljer du åtgärden **Kopiera produktionsprognos** och fyller i fönstret **Produktionsprognos** med en befintlig prognos. Du kan sedan redigera antalet.  
+>  Du kan också redigera en befintlig prognos. I fönstret **Matris för efterfrågeprognos** väljer du åtgärden **Kopiera efterfrågeprognos** och fyller i fönstret **efterfrågeprognos** med en befintlig prognos. Du kan sedan redigera antalet.  
 
 ## <a name="see-also"></a>Se även  
 [Ställa in Produktion](production-configure-production-processes.md)  
