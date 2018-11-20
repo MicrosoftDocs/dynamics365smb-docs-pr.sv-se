@@ -1,8 +1,6 @@
 ---
 title: "Visa och redigera grundläggande inställningar | Microsoft Docs"
 description: "Lär dig hur du ändrar några av de grundläggande inställningarna, till exempel, rollcenter, företag eller arbetsdatumet."
-services: project-madeira
-documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2018
+ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
 ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
