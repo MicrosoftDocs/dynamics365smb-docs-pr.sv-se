@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e167935f1bb4815093a1a9bd345da8213219ca08
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 2419755f5788eb7cb8ed464ac97fccd7e63e795c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Ställa in Produktion
@@ -30,7 +30,7 @@ När du har lagt upp produktion kan du planera och utföra produktionsorder. Mer
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Konfigurera produktionsfunktionerna, till exempel definiera arbetstimmar för en fabrik eller välja planeringsprinciper.|Fönstret  **Produktionsinställningar**.|  
+|Konfigurera produktionsfunktionerna, till exempel definiera arbetstimmar för en fabrik eller välja planeringsprinciper.|Sidan **Produktionsinställningar**.|  
 |Definiera en standardarbetsvecka i modulen Produktion med start- och sluttider för varje arbetsdag samt tillhörande arbetsskiften.|[Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)|  
 |Organisera fasta värden och krav för produktionsresurser som t.ex. produktionsgrupper eller maskingrupper till att styra deras tillverkningsutflöde i maskingruppen.|[Ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)|
 |Ordna produktionsoperationer i krävd ordningen och tilldela dem till produktions- eller maskingrupper med nödvändiga arbetstider.|[Skapa verksamhetsföljder](production-how-to-create-routings.md)|
