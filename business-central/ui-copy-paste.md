@@ -63,7 +63,7 @@ Du kan kopiera så många rader som du har rullat in i vyn. Om du till exempel v
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Måste jag ha exakt samma antal kolumner när jag klistrar in rader?
 Ja. Om du kopierar från [!INCLUDE[d365fin](includes/d365fin_md.md)], från Excel eller från någon annan tabellkälla måste raderna du vill klistrar ha exakt matchande kolumner – inte fler och inte färre.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Varför visas fel när du klistrar in rader? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Varför visas fel när du klistrar in rader?
 När du klistrar in i [!INCLUDE[d365fin](includes/d365fin_md.md)], kontrolleras varje rad för att se till att värdena i varje kolumn är giltiga. Om en kolumn innehåller ett värde som inte är giltigt stoppas klistra in och ett felmeddelande visas. Du undviker detta genom att se till att kolumnerna har värdet innan du klistrar in dem.
 
 
