@@ -13,27 +13,27 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a5eaa15fdfbc1d578d755b246b0304030a82b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cd555cc389ff7d9e306645475ef042f7ee9bc934
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="ca85b-103">Bokför årsslutstransaktionen</span><span class="sxs-lookup"><span data-stu-id="ca85b-103">Post the Year-End Closing Entry</span></span>
-<span data-ttu-id="ca85b-104">När du har använt batch-jobbet **Avslut av resultatkonton** för att generera transaktioner eller bokslutsposter för årsslut, måste du öppna den journal du har angett i batch-jobbet och sedan granska och bokföra transaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ca85b-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
+# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="ed661-103">Bokför årsslutstransaktionen</span><span class="sxs-lookup"><span data-stu-id="ed661-103">Post the Year-End Closing Entry</span></span>
+<span data-ttu-id="ed661-104">När du har använt batch-jobbet **Avslut av resultatkonton** för att generera transaktioner eller bokslutsposter för årsslut, måste du öppna den journal du har angett i batch-jobbet och sedan granska och bokföra transaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ed661-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
 
-## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="ca85b-105">Så här bokför du årsslutstransaktionen</span><span class="sxs-lookup"><span data-stu-id="ca85b-105">To post the year end closing entry</span></span>
-1. <span data-ttu-id="ca85b-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournal** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="ca85b-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="ca85b-107">I fönstret **Redovisningsjournal** i fältet **Batch-namn** väljer du den batch som innehåller årsavslutstransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ca85b-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
-3. <span data-ttu-id="ca85b-108">Granska transaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ca85b-108">Review the entries.</span></span>
-4. <span data-ttu-id="ca85b-109">Om du vill bokföra journalen väljer du åtgärden **Bokför**.</span><span class="sxs-lookup"><span data-stu-id="ca85b-109">To post the journal, choose the **Post** action.</span></span>
+## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="ed661-105">Så här bokför du årsslutstransaktionen</span><span class="sxs-lookup"><span data-stu-id="ed661-105">To post the year end closing entry</span></span>
+1. <span data-ttu-id="ed661-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournal** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="ed661-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ed661-107">På sidan **Redovisningsjournal** i fältet **Batch-namn** väljer du den batch som innehåller årsavslutstransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ed661-107">On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
+3. <span data-ttu-id="ed661-108">Granska transaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ed661-108">Review the entries.</span></span>
+4. <span data-ttu-id="ed661-109">Om du vill bokföra journalen väljer du åtgärden **Bokför**.</span><span class="sxs-lookup"><span data-stu-id="ed661-109">To post the journal, choose the **Post** action.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="ca85b-110">Om ett fel påträffas visas ett felmeddelande.</span><span class="sxs-lookup"><span data-stu-id="ca85b-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="ca85b-111">Om bokföringen utförs tas de bokförda transaktionerna bort från journalen.</span><span class="sxs-lookup"><span data-stu-id="ca85b-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="ca85b-112">Efter bokföringen bokförs en transaktion på varje resultatkonto så att saldot blir noll och årets resultat överförs till balansräkningen.</span><span class="sxs-lookup"><span data-stu-id="ca85b-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
+>   <span data-ttu-id="ed661-110">Om ett fel påträffas visas ett felmeddelande.</span><span class="sxs-lookup"><span data-stu-id="ed661-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="ed661-111">Om bokföringen utförs tas de bokförda transaktionerna bort från journalen.</span><span class="sxs-lookup"><span data-stu-id="ed661-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="ed661-112">Efter bokföringen bokförs en transaktion på varje resultatkonto så att saldot blir noll och årets resultat överförs till balansräkningen.</span><span class="sxs-lookup"><span data-stu-id="ed661-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ca85b-113">Se även</span><span class="sxs-lookup"><span data-stu-id="ca85b-113">See Also</span></span>
-[<span data-ttu-id="ca85b-114">Avsluta bokföringsperioder</span><span class="sxs-lookup"><span data-stu-id="ca85b-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
-[<span data-ttu-id="ca85b-115">Avsluta böcker</span><span class="sxs-lookup"><span data-stu-id="ca85b-115">Closing Books</span></span>](year-close-books.md)  
-[<span data-ttu-id="ca85b-116">Avslut av resultatkonton</span><span class="sxs-lookup"><span data-stu-id="ca85b-116">Close Income Statement</span></span>](year-close-income-statement.md)  
-<span data-ttu-id="ca85b-117">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ca85b-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="ed661-113">Se även</span><span class="sxs-lookup"><span data-stu-id="ed661-113">See Also</span></span>
+[<span data-ttu-id="ed661-114">Avsluta bokföringsperioder</span><span class="sxs-lookup"><span data-stu-id="ed661-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
+[<span data-ttu-id="ed661-115">Avsluta böcker</span><span class="sxs-lookup"><span data-stu-id="ed661-115">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="ed661-116">Avslut av resultatkonton</span><span class="sxs-lookup"><span data-stu-id="ed661-116">Close Income Statement</span></span>](year-close-income-statement.md)  
+<span data-ttu-id="ed661-117">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ed661-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
