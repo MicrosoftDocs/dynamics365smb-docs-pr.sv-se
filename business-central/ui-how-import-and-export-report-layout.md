@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Så här importerar och exporterar du en anpassad rapport eller dokumentlayout
@@ -31,7 +31,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
   
 2.  Markera raden för rapporten som innehåller den anpassade layout som du vill exportera, och sedan på fliken **Start**, i gruppen **Process** , välj **Anpassa layouter**.  
   
-3.  I fönstret **Rapportlayouter** markerar du den rapportlayout som du vill exportera till en fil, och sedan på fliken **Start** i gruppen **Process** och väljer **Exportera layout**.  
+3.  På sidan **Rapportlayouter** markerar du den rapportlayout som du vill exportera till en fil, och sedan på fliken **Start** i gruppen **Process** och väljer **Exportera layout**.  
   
 4.  Välj **Spara** i dialogrutan **Exportera fil** och spara sedan filen på ett ställe på datorn eller nätverket.  
   
@@ -45,7 +45,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
   
 3.  Markera raden för rapporten som du vill importera rapportlayouten till och sedan på fliken **Start**, i gruppen **Process** , välj **Anpassa layouter**.  
   
-4.  I fönstret **Rapportlayouter** markerar du den rapportlayout som du vill importera en fil till, och sedan på fliken **Start** i gruppen **Process** och väljer **Importera layout**.  
+4.  På sidan **Rapportlayouter** markerar du den rapportlayout som du vill importera en fil till, och sedan på fliken **Start** i gruppen **Process** och väljer **Importera layout**.  
   
 5.  Välj dokumentet som definierar rapportlayouten i dialogrutan **Importera** och välj sedan **Öppna**.  
   

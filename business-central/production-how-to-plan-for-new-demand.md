@@ -1,6 +1,6 @@
 ---
 title: "Så här kan du planera per order | Microsoft Docs"
-description: "Den här planeringsuppgiften kan utföras i fönstret **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder."
+description: "Den här planeringsuppgiften kan utföras på sidan **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cee1e18d0c6c7fd8b37815d44c35f91ef5ef227c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planera ny behovsorder efter order
-Den här planeringsuppgiften kan utföras i fönstret **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder.  
+Den här planeringsuppgiften kan utföras på sidan **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder.  
 
-Du kan gå till fönstret **Orderplanering** på två sätt beroende på vad ditt fokus: från en order som du vill planera för särskilt eller i batch-läge när du vill planera för alla och nya behov.  
+Du kan gå till sidan **Orderplanering** på två sätt beroende på vad ditt fokus: från en order som du vill planera för särskilt eller i batch-läge när du vill planera för alla och nya behov.  
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Så här planerar du för ett nytt produktionsorderbehov  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planerade produktionsorder** och välj sedan relaterad länk. (Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder).
 2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
-3.  I fönstret **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.  
+3.  På sidan **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.  
 
-I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs komponentrader med ouppfyllda behov från alla befintliga produktionsorder. Behov för endast en produktionsorder visas inte eftersom det är nödvändigt att planera för en produktionsorder med en översikt över behoven för möjliga tidigare komponentrader. Planeringsraderna för produktionsorder som du öppnade fönstret från expanderas.  
+Sidan visar planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs komponentrader med ouppfyllda behov från alla befintliga produktionsorder. Behov för endast en produktionsorder visas inte eftersom det är nödvändigt att planera för en produktionsorder med en översikt över behoven för möjliga tidigare komponentrader. Planeringsraderna för produktionsorder som du öppnade fönstret från expanderas.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Så här planerar du för valfritt nytt behov  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Orderplanering** och välj sedan relaterad länk.  
-2.  I fönstret **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.
+2.  På sidan **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.
 3.  Välj knappen **Expandera (+)** framför datumet i fältet **Behövd datum** om du vill se de underliggande planeringsraderna som motsvarar behovsrader med otillräcklig tillgänglighet.  
-4.  Du kan se värden för varje expanderad planeringsrad (behovsrad) i informationsfält längst ned i fönstret.  
+4.  Du kan se värden för varje expanderad planeringsrad (behovsrad) i informationsfält längst ned på sidan.  
 
     |Alternativ|Description|  
     |----------------------------------|---------------------------------------|  
@@ -62,12 +62,12 @@ I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, d
 
 6.  I fältet **Leverera från** kan du söka i lämplig lista och välja varifrån leveransen ska ske:  
 
-    - Om återanskaffningssystemet är **Inköp** görs sökningen med sökknappen i fönstret **Artikelleverantörskatalog**.  
-    - Om återanskaffningssystemet är **Överföring** görs sökningen med sökknappen i fönstret **Lagerställelista**.  
+    - Om återanskaffningssystemet är **Inköp** görs sökningen med sökknappen på sidan **Artikelleverantörskatalog**.  
+    - Om återanskaffningssystemet är **Överföring** görs sökningen med sökknappen på sidan **Lagerställelista**.  
 
     Om artikeln finns på ett annat lagerställe visas ett värde i fältet **Antal på andra lagerställen** längst ned, och du kan då söka efter och markera det lagerställe som artikeln ska levereras från när du skapar överföringsordern.  
 
-    Om det finns en ersättningsartikel för artikeln som behövs visas värdet **Ja** i fältet **Ersättningar finns**, och du kan då söka i fönstret **Artikelersättningstrans.** och markera ersättningsartikeln.  
+    Om det finns en ersättningsartikel för artikeln som behövs visas värdet **Ja** i fältet **Ersättningar finns**, och du kan då söka på sidan **Artikelersättningstrans.** och markera ersättningsartikeln.  
 
 7.  Markera kryssrutan **Reservera** om du vill skapa en reservation mellan leveransordern som du skapar och den behovsrad som den skapas för. Som standard är fältet tomt.  
 
@@ -75,11 +75,11 @@ I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, d
     >  Du kan bara markera den här kryssrutan om artikeln har **Valfri** eller **Alltid** i fältet **Reservera** på artikelkortet för artikeln.  
 
 8.  I fältet **Kvant. mot order** kan du ange den kvantitet som ska anges på leveransordern som du skapar.   
-    Standardvärdet är samma kvantitet som i fältet **Behövt antal**. Men du kan ange ett högre eller lägre värde utifrån din kunskap om behovssituationen. Om du till exempel, ser du i fönstret **Orderplanering** att flera ej relaterade behovsrader är för samma inköpta artikel, och, dessa är kring samma datum, kan du kan konsolidera dessa genom att ange den totala behovskvantiteten i fältet **Antal i order** på en rad och sedan ta bort andra, föråldrade planeringsrader för artikeln.  
+    Standardvärdet är samma kvantitet som i fältet **Behövt antal**. Men du kan ange ett högre eller lägre värde utifrån din kunskap om behovssituationen. Om du till exempel, ser du på sidan **Orderplanering** att flera ej relaterade behovsrader är för samma inköpta artikel, och, dessa är kring samma datum, kan du kan konsolidera dessa genom att ange den totala behovskvantiteten i fältet **Antal i order** på en rad och sedan ta bort andra, föråldrade planeringsrader för artikeln.  
 
 9.  I fälten **Förfallodatum** och **Orderdatum** kan du ange de datum som ska gälla för de leveransorder som skapas.  
 
-    De här två fälten är beroende av varandra i enlighet med värdet i fältet **Standard säkerhetsledtid** som finns under **Produktionsinställningar**. Som standard är värdet för Förfallodatum detsamma som för Behovsdatum, men du kan ändra detta om du vill.  
+    De här två fälten är beroende av varandra i enlighet med värdet i fältet **Standard säkerhetsledtid** som finns på sidan **Produktionsinställningar**. Som standard är värdet för Förfallodatum detsamma som för Behovsdatum, men du kan ändra detta om du vill.  
 
 > [!NOTE]  
 >   Om du anger ett senare datum än behovsdatumet får du ett varningsmeddelande.  
@@ -88,24 +88,24 @@ I fönstret visas planeringsrader enligt visningsfiltret **Produktionsbehov**, d
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planerade produktionsorder** och välj sedan relaterad länk. Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder.  
 2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  Placera markören på en planeringsrad och klicka på åtgärder **Skapa order**.  
-4.  I fönstret **Skapa leveransorder** på snabbfliken **Orderplanering** , i fältet **Skapa order för**, markera ett av följande alternativ.  
+4.  På sidan **Skapa leveransorder** på snabbfliken **Orderplanering** , i fältet **Skapa order för**, markera ett av följande alternativ.  
 
     |Alternativ|Description|  
     |----------------------------------|---------------------------------------|  
     |**den aktiva raden**|Skapa en leveransorder för den rad där markören finns.|  
     |**den aktiva ordern**|Skapa en leveransorder för alla rader i ordern där markören finns.|  
-    |**Alla rader**|Skapa leveransorder för alla rader i fönstret **Orderplanering**.|  
+    |**Alla rader**|Skapa leveransorder för alla rader på sidan **Orderplanering**.|  
 
 5.  På snabbfliken **Alternativ** anger du vilken typ av leveransorder, eller inköpsförslagsrader, som ska skapas.  
 
     > [!NOTE]  
-    >  De inställningar som du gör i fönstret **Skapa leveransorder** sparas under ditt användar-ID, och de visas igen nästa gång du öppnar fönstret.  
+    >  De inställningar som du gör på sidan **Skapa leveransorder** sparas under ditt användar-ID, och de visas igen nästa gång du öppnar sidan.  
 
 6.  Klicka på **OK** när du vill skapa angivna leveransorder eller inköpskalkylarksrader.  
 
-Nu har du planerat för de ouppfyllda behoven genom att skapa motsvarande leveransorder. Exakt hur du ska arbeta med fönstret **Orderplanering** beror på vad som gäller i just ditt företag.  
+Nu har du planerat för de ouppfyllda behoven genom att skapa motsvarande leveransorder. Exakt hur du ska arbeta med sidan **Orderplanering** beror på vad som gäller i just ditt företag.  
 
-När du är klar med planeringen i fönstret **Orderplanering**, och du till exempel har angett ett alternativt sätt att leverera kvantiteten, kan du fortsätta med att skapa leveransorder för en eller flera av planeringsraderna.  
+När du är klar med planeringen på sidan **Orderplanering**, och du till exempel har angett ett alternativt sätt att leverera kvantiteten, kan du fortsätta med att skapa leveransorder för en eller flera av planeringsraderna.  
 
 > [!NOTE]  
 >  De leveransorder som du skapar kan innebära att nya beroende behov uppstår, till exempel behov av underliggande produktionsorder, och därför bör du klicka på **Skapa inköpsförslag** igen för att identifiera dessa behov och hantera dem innan du går vidare i listan.  

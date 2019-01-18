@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33ca7a06aa8c903bb6f65af298748417ac460f63
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Skapa inkommande dokumentposter
-I fönstret **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
+På sidan **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
 
 Om du vill registrera ett externt dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du först skapa eller slutföra en inkommande dokumentpost. Du kan göra detta manuellt eller så kan du ta ett foto på det externa dokumentet och sedan skapa en inkommande dokumentpost med bildfilen bifogad.
 
@@ -40,7 +40,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 
 1. Välj panelen **Skapa inkommande dokument från kamera** i appfältet och gå sedan till steg 4.
 2. Välj annars alternativknappen på appfältet, välj **Inkommande dokument** och välj sedan **Alla**.
-3. I fönstret **Inkommande dokument** väljer du ellipsknappen och sedan **Skapa från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
+3. På sidan **Inkommande dokument** väljer du ellipsknappen och sedan **Skapa från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
 4. Ta ett foto av ett dokument, t.ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
 
     En ny inkommande dokumentpost skapas med bilden bifogad.
@@ -51,7 +51,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 
 1. Välj alternativknappen på appfältet, välj **Inkommande dokument** och välj sedan **Alla**.
 2. Öppna kortet för en befintlig inkommande dokumentpost.
-3. I fönstret **Inkommande dokument** väljer du ellipsknappen och sedan **Bifoga fil från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
+3. På sidan **Inkommande dokument** väljer du ellipsknappen och sedan **Bifoga fil från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
 4. Ta ett foto av ett dokument, t.ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
 
     Bilden har bifogats till den inkommande dokumentposten.
@@ -59,11 +59,11 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 ## <a name="to-create-an-incoming-document-record-manually"></a>Så här skapar du en inkommande dokumentpost manuellt
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Välj åtgärden **Skapa från fil**.  
-3. Välj en fil och välj sedan **Öppna** i fönstret **Infoga fil**. Filen kopplas automatiskt.
+3. Välj en fil och välj sedan **Öppna** på sidan **Infoga fil**. Filen kopplas automatiskt.
 4. Välj alternativt åtgärden **Ny**.
 5. För att bifoga en fil väljer du åtgärden **Bifoga fil**.
-6. Markera filen som representerar det inkommande dokumentet i fråga och välj sedan knappen **Öppna** i fönstret **Infoga fil**.
-7. I fönstret **Inkommande dokument** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Markera filen som representerar det inkommande dokumentet i fråga och välj sedan knappen **Öppna** på sidan **Infoga fil**.
+7. På sidan **Inkommande dokument** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se även
 [Bearbeta inkommande dokument](across-process-income-documents.md)  

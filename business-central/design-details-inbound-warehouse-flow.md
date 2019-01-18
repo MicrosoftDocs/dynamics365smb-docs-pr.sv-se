@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Ankommande distributionslagerflöde
@@ -62,7 +62,7 @@ När artiklarna tas emot i distributionslagret släpper användaren som är ansv
 När det ankommande källdokumentet släpps skapas en ankommande distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Skapa lager, artikelinförsel  
-I fönstret **Lagerinförslar** hämtar lagerarbetaren, med en pull-metod, de väntande källdokumentraderna som baseras på ankommande distributionslagerförfrågningar. Lagerartikelinförselraderna kan redan ha skapats, med en pushmetod, av användaren som är ansvarig för källdokumentet.  
+På sidan **Lagerinförslar** hämtar lagerarbetaren, med en pull-metod, de väntande källdokumentraderna som baseras på ankommande distributionslagerförfrågningar. Lagerartikelinförselraderna kan redan ha skapats, med en pushmetod, av användaren som är ansvarig för källdokumentet.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Bokför lager, artikelinförsel  
 På varje rad för artiklar som har införts, delvis eller helt, fyller lagerarbetaren i fältet **Antal** och bokför sedan lagerartikelinförseln. Källdokument som är relaterade till artikelinförsel i lager bokförs som inlevererade.  
@@ -81,7 +81,7 @@ När artiklarna tas emot i distributionslagret släpper användaren som är ansv
 När det ankommande källdokumentet släpps skapas en ankommande distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Skapa dist.lager inleverans  
-I fönstret **Dist.lager inleveranser** hämtar användaren som är ansvarig för att ta emot artiklar de väntande källdokumentraderna som baseras på den ankommande distributionslagerförfrågan. Flera dokumentrader kan kombineras i ett inleveransdokument för distributionslager.  
+På sidan **Dist.lager inleveranser** hämtar användaren som är ansvarig för att ta emot artiklar de väntande källdokumentraderna som baseras på den ankommande distributionslagerförfrågan. Flera dokumentrader kan kombineras i ett inleveransdokument för distributionslager.  
 
 Användaren fyller i fältet **Ant. att hantera** och väljer inleveranszon och lagerplats, om det behövs.  
 
@@ -106,7 +106,7 @@ När alla artikelinförslar har planerats och tilldelats till lagerarbetare gene
 Lagerarbetaren som utför artikelinförsel skapar ett artikelinförseldokument för distributionslager, med en pull-metod, baserat på den bokförda distributionslagerinleveransen. Alternativt skapas distributionslagerinförseldokumentet och tilldelas till en lagerarbetare med en pushmetod.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Registrera dist.lager artikelinförsel  
-På varje rad för artiklar som har införts, delvis eller helt, fyller lagerarbetaren i fältet **Antal** i fönstret **Dist.lager artikelinförsel** och registrerar sedan lagerartikelinförseln.  
+På varje rad för artiklar som har införts, delvis eller helt, fyller lagerarbetaren i fältet **Antal** på sidan **Dist.lager artikelinförsel** och registrerar sedan lagerartikelinförseln.  
 
 Distributionslagertransaktioner skapas och artikelinförselraderna tas bort om de är helt hanterade. Dokumentet för distributionslagerartikelinförsel förblir öppet tills hela antalet på den relaterade bokförda distributionslagerinleveransen har registrerats. Fältet **Artikelinförsel antal** på distributionslagerinleveransorderraderna uppdateras.  
 

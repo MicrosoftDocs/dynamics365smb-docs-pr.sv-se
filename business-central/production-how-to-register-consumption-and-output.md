@@ -1,6 +1,6 @@
 ---
 title: "Registrera förbrukning och utflöde för en produktionsorderrad | Microsoft Docs"
-description: "Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt."
+description: "Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
-Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
+Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
 
 > [!NOTE]  
 >  Eftersom förbrukningsinformation hanteras tillsammans med utdata kan du i den här journalen visa länkade komponenter och operationer i en logisk processtruktur. komponenterna visas på indragna rader under respektive operation. Detta kan ske under förutsättning att du använder verksamhetsföljdslänkkoder.  
@@ -32,7 +32,7 @@ Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen komb
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppta prod.order** och välj sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
-    Fönstret **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt fönstren **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  
+    Sidan **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt sidorna **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  
 
 3.  I fältet **Bokföringsdatum** högst upp i journalen anger du ett bokföringsdatum som gäller för alla rader. Arbetsdatumet anges som standard. Fältet gör att du snabbt kan samordna bokföringsdatum för alla rader, om det behövs.  
 
@@ -45,7 +45,7 @@ Den här åtgärden utförs i fönstret **Produktionsjournal**. I journalen komb
 
     När journalen öppnas visas förinställda kvantiteter som ska bokföras. Om ingenting har bokförts ännu visas de förväntade kvantiteter som har överförts från produktionsordern som standard. Om en del bokföring har utförts visas de återstående kvantiteterna i kvantitetsfälten. De kvantiteter och tidsvärden som redan har bokförts för ordern visas längst ned i journalen som faktiska transaktioner.  
 
-    Vad gäller kvantiteterna i fältet **Utflöde antal** kan du välja att ange vilka värden som ska vara förinställda när du öppnar journalen första gången. Detta gör du i fältet **Förinställd utleveranskvantitet** på snabbfliken **Allmänt** i fönstret **Produktionsinställningar**.
+    Vad gäller kvantiteterna i fältet **Utflöde antal** kan du välja att ange vilka värden som ska vara förinställda när du öppnar journalen första gången. Detta gör du i fältet **Förinställd utleveranskvantitet** på snabbfliken **Allmänt** på sidan **Produktionsinställningar**.
 
 5.  Fortsätt med att ange relevanta kvantiteter för förbrukning och utflöde i de fält som kan redigeras.  
 
@@ -64,7 +64,7 @@ Om värdena som återstår ska bokföras kommer journalen att innehåller dessa 
 >  Om du stänger journalen utan att bokföra så går alla ändringar förlorade.  
 
 > [!WARNING]  
->  Fönstret **Produktionsjournal** kan inte användas av två användare samtidigt. Det innebär att om användare 2 öppnar fönstret och registrerar data när användare 1 redan arbetar i fönstret kan användare 2 förlora data när användare 1 stänger fönstret.  
+>  Sidan **Produktionsjournal** kan inte användas av två användare samtidigt. Det innebär att om användare 2 öppnar sidan och registrerar data när användare 1 redan arbetar på sidan kan användare 2 förlora data när användare 1 stänger sidan.  
 
 ## <a name="see-also"></a>Se även  
 [Produktion](production-manage-manufacturing.md)    

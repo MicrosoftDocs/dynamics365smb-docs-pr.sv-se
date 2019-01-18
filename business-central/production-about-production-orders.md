@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Om produktionsorder
@@ -40,7 +40,7 @@ Produktionsorder är startpunkter för:
 -   Spårning av slutförd produktion  
 
 ## <a name="production-order-creation"></a>Skapa produktionsorder  
-Du kan skapa produktionsorder manuellt på orderbasis i fönstret **Produktionsorder**. Produktionsorder kan även skapas i fönstren **Förs.orderplanering** eller **Orderplanering**. Flera order skapas i fönstret **Planeringsförslag**.  
+Du kan skapa produktionsorder manuellt på orderbasis på sidan **Produktionsorder**. Produktionsorder kan även skapas på sidan **Förs.orderplanering** eller **Orderplanering**. Flera order skapas på sidan **Planeringsförslag**.  
 
 Produktionsorder kan skapas med hjälp av information från:  
 
@@ -54,8 +54,8 @@ Produktionsorder kan skapas med hjälp av information från:
 Produktionsorder reserveras automatiskt och spåras till deras ursprung när:  
 
 -   Skapad från **planeringsförslaget**  
--   Skapad med orderfunktionen i fönstret **Förs.orderplanering**  
--   Skapad i fönstret **Orderplanering**  
+-   Skapade med orderfunktionen på sidan **Förs.orderplanering**  
+-   Skapade från sidan **Orderplanering**  
 -   Du använder funktionen för **omplanering** i produktionsorder  
 
 Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](pr
 Produktionsorder som skapas på annat sätt reserveras och spåras inte automatiskt.   
 
 ## <a name="production-order-status"></a>Status för produktionsorder  
-Statusen för en produktionsorder styr hur den bearbetas i programmet. Formen på och innehållet i produktionen föreskrivs av orderns status. Produktionsorder visas i olika fönster beroende på deras status. Du kan inte ändra statusen för en produktionsorder manuellt, utan du måste använda funktionen **Ändra status**.  
+Statusen för en produktionsorder styr hur den bearbetas i programmet. Formen på och innehållet i produktionen föreskrivs av orderns status. Produktionsorder visas i olika sidor beroende på status. Du kan inte ändra statusen för en produktionsorder manuellt, utan du måste använda funktionen **Ändra status**.  
 
 ### <a name="simulated-production-order"></a>Simulerad produktionsorder  
 Den simulerade produktionsorder är unik på grund av följande egenskaper:  

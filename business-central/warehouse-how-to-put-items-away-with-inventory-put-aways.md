@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
@@ -24,7 +24,7 @@ När lagerstället har konfigurerats så att artikelinförsel krävs men inte in
 
 Du kan skapa en lagerartikelinförsel på tre sätt:  
 
-- Skapa artikelinförseln i två steg genom att först skapa ett distributionslagerkrav från källdokumentet, som fungerar som en signal till distributionslagret att källdokumentet är klart för artikelinförsel. Lagerartikelinförseln kan sedan skapas från fönstret **Lagerartikelinförsel** baserat på källdokumentet.  
+- Skapa artikelinförseln i två steg genom att först skapa ett distributionslagerkrav från källdokumentet, som fungerar som en signal till distributionslagret att källdokumentet är klart för artikelinförsel. Lagerartikelinförseln kan sedan skapas från sidan **Lagerartikelinförsel** baserat på källdokumentet.  
 - Skapa lagerartikelinförseln direkt från själva källdokumentet.  
 - Du kan skapa lagerartikelinförslar för flera källdokument samtidigt med hjälp av batch-jobbet.  
 
@@ -59,13 +59,13 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel ba
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
-2.  På snabbfliken **Dist.lagerkrav** i beställningsfönstret använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer.  
+2.  På snabbfliken **Dist.lagerkrav** i beställningssidan använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer.  
 3.  Välj fältet **Skapa lagerinförsel** på kryssrutan **Alternativ**.
 4.  Välj knappen **OK**. Anger numret för den bokförda artikelinförseln i lagret.
 
 ## <a name="to-record-the-inventory-put-away"></a>När du vill registrera lagerinförsel.  
-1. Du öppnar ett befintligt artikelinförseldokument genom att välja ett i fönstret **Lagerartikelinförslar**.  
-2. I fältet **Lagerplatskod** per artikelns standardlagerplats föreslår på artikelinförsel raderna den lagerplats där artiklarna ska placeras. Du kan ändra lagerplatsen i det här fönstret om det behövs.  
+1. Du öppnar ett befintligt artikelinförseldokument genom att välja ett från sidan **Lagerartikelinförslar**.  
+2. I fältet **Lagerplatskod** per artikelns standardlagerplats föreslår på artikelinförsel raderna den lagerplats där artiklarna ska placeras. Du kan ändra lagerplatsen på den här sidan om det behövs.  
 3. Utför artikelinförseln och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
 
     Om det är nödvändigt att placera artiklar för en rad på flera lagerplatser, t.ex. om den utsedda lagerplatsen är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  

@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designdetaljer: Läsa in lagerprofilerna
@@ -45,7 +45,7 @@ För att sortera ut de många källorna till efterfrågan och tillgång ordnar p
  Planeringssystemet styr detta genom att gå igenom lagerprofilen. När en ny kombination hittas, skapas en internkontrollpost som innehåller den faktiska informationen om kombinationen. Programmet infogar lagerställeenheten som kontrollposten eller yttre loop. Det medför att rätt planeringsparametrar anges enligt en kombination av variant och lagerställe, och programmet kan fortsätta till den interna loopen.  
 
 > [!NOTE]  
->  Programmet kräver inte att användaren ska ange en lagerställeenhetspost när du anger efterfrågan och/eller tillgång för en viss kombination av variant och lagerställe. Om en lagerställeenhet inte finns för en viss kombination skapar programmet därför sin egna tillfälliga lagerställeenhetspost som baseras på artikelkortdata. Om Lagerställe ska finnas har värdet Ja i fönstret Lagerinställningar måste antingen lagerställeenhet skapas eller Komponenter vid lagerställe anges till Ja. Mer information finns i [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md).  
+>  Programmet kräver inte att användaren ska ange en lagerställeenhetspost när du anger efterfrågan och/eller tillgång för en viss kombination av variant och lagerställe. Om en lagerställeenhet inte finns för en viss kombination skapar programmet därför sin egna tillfälliga lagerställeenhetspost som baseras på artikelkortdata. Om Lagerställe ska finnas har värdet Ja på sidan Lagerinställningar måste antingen lagerställeenhet skapas eller Komponenter vid lagerställe anges till Ja. Mer information finns i [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serie-/partinummer läses in efter specifikationsnivå  
  Attribut i form av serie-/partinummer laddas in i lagerprofilerna tillsammans med efterfrågan och tillgång som de har kopplats till.  

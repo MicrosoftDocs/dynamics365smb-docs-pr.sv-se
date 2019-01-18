@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
@@ -42,15 +42,15 @@ Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende p
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
-   Andra fält i fönstret **Försäljningsfaktura** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
+   Andra fält på sidan **Försäljningsfaktura** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
 3. Ange namnet på en ny kund i fältet **Kund**.
 4. Välj knappen **ja** i dialogrutan om registrering av den nya kunden.
-5. Välj en mall det nya kundkortet ska baseras på i fönstret **Välj en mall för en ny kund** och välj sedan knappen **OK**.
+5. Välj en mall det nya kundkortet ska baseras på sidan **Välj en mall för en ny kund** och välj sedan knappen **OK**.
 6. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
-7. Välj **OK** för att gå tillbaka till fönstret **Förs.faktura**, när du har slutfört kundkortet.
+7. Välj **OK** för att gå tillbaka till sidan **Förs.faktura**, när du har slutfört kundkortet.
 
    Flera fält i försäljningsfakturahuvudet är nu ifyllda med information som du har angett på det nya kundkortet.  
-8. I fönstret **Inkommande dokument** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. På sidan **Inkommande dokument** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Om du tillåter att kunden betalar direkt, till exempel via kontanter eller PayPal, fyll sedan i fältet **betalningssätt**. Betalningen registreras sedan när du bokför försäljningsfakturan som fakturerad. Om du väljer kontant registreras betalning på ett angivet motkonto.
@@ -93,7 +93,7 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 
 Beroende på ditt företagsbehov kan du få betalt och registrera den betalningen på olika sätt: manuellt, automatiskt eller via betalningstjänster.  
 
-Du kan bearbeta betalningar direkt från kundkort eller kundreskontratransaktioner. Använd funktionen **registrera kundbetalningar** för att få en översikt över obetalda fakturor för den kunden. Markera sedan fakturan som betald delvis eller helt. Denna betalningsavstämning behandlar dina kundbetalningar genom att matcha mottagna belopp på ditt bankkonto med relaterade obetalade försäljningsfakturor och sedan bokföra betalningarna. Mer information finns i [Så här stämmer du av betalningar individuellt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+Du kan bearbeta betalningar direkt från kundkortet. Använd åtgärden **registrera kundbetalningar** för att få en översikt över obetalda fakturor för den kunden. Markera sedan fakturan som betald delvis eller helt. Denna betalningsavstämning behandlar dina kundbetalningar genom att matcha mottagna belopp på ditt bankkonto med relaterade obetalade försäljningsfakturor och sedan bokföra betalningarna. Mer information finns i [Så här stämmer du av betalningar individuellt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 I företagsmiljöer där kunden betalar en tid efter leveransdatum enligt betalningsvillkor, en bokförd försäljningsfaktura förblir öppen (obetalda) till Kundreskontraavdelningen verifierar att betalning tagits emot och gäller betalningen för den bokförda försäljningsfaktura. Detta kan göras manuellt eller automatiskt. Mer information finns i [Stäm av kundbetalningar manuellt](receivables-how-apply-sales-transactions-manually.md) och [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).  
 

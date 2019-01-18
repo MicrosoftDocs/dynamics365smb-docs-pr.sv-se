@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurera utskick och mottagning av elektroniska dokument
 Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande\-fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som kan tas emot och konverteras till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag.  
 
-Från PDF- eller bildfiler som representerar inkommande dokument kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du gör för elektroniska PEPPOL-dokument. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från fönstret **Inkommande dokument**. Efter några sekunder får du tillbaka filen tillbaka som en elektronisk faktura som kan omvandlas till en inköpsfaktura för leverantören. Om du skicka filen till OCR-tjänsten via e-post, skapas en ny inkommande dokumentpost automatiskt när du får tillbaka det elektroniskt dokument.  
+Från PDF- eller bildfiler som representerar inkommande dokument kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du gör för elektroniska PEPPOL-dokument. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från sidan **Inkommande dokument**. Efter några sekunder får du tillbaka filen tillbaka som en elektronisk faktura som kan omvandlas till en inköpsfaktura för leverantören. Om du skicka filen till OCR-tjänsten via e-post, skapas en ny inkommande dokumentpost automatiskt när du får tillbaka det elektroniskt dokument.  
 
-Det elektroniskt dokumentformatet **PEPPOL** har förkonfigurerats så att du kan skicka elektroniska fakturor och kreditnotor i PEPPOL-format. Först måste du skapa olika huvuddata, som företagsinformation, kunder, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] till element i den utgående dokumentfilen. Sedan måste du välja formatet i fönstret **Elektroniskt dokumentformat** för varje kund som du ska skicka elektroniska PEPPOL-dokument till. Mer information finns i [Skicka elektroniska dokument](sales-how-to-send-electronic-documents.md).  
+Det elektroniskt dokumentformatet **PEPPOL** har förkonfigurerats så att du kan skicka elektroniska fakturor och kreditnotor i PEPPOL-format. Först måste du skapa olika huvuddata, som företagsinformation, kunder, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] till element i den utgående dokumentfilen. Sedan måste du välja formatet på sidan **Elektroniskt dokumentformat** för varje kund som du ska skicka elektroniska PEPPOL-dokument till. Mer information finns i [Skicka elektroniska dokument](sales-how-to-send-electronic-documents.md).  
 
-Dataväxlingsdefinitionerna **PEPPOL – Faktura** och **PEPPOL – Kreditfaktura** är förkonfigurerade så att du kan ta emot elektroniska fakturor och kreditfakturor i PEPPOL-format. Först måste du skapa olika huvuddata, som företagsinformation, leverantörer, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i element i den utgående dokumentfilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sedan måste du välja valutakursdefinitionen i fönstret **Inkommande dokument** för varje inkommande elektroniskt dokument som du vill omvandla till ett inköpsdokument i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dataväxlingsdefinitionerna **PEPPOL – Faktura** och **PEPPOL – Kreditfaktura** är förkonfigurerade så att du kan ta emot elektroniska fakturor och kreditfakturor i PEPPOL-format. Först måste du skapa olika huvuddata, som företagsinformation, leverantörer, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i element i den utgående dokumentfilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sedan måste du välja valutakursdefinitionen på sidan **Inkommande dokument** för varje inkommande elektroniskt dokument som du vill omvandla till ett inköpsdokument i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Dataväxlingsdefinitionen **OCR - Faktura** är förkonfigurerad så att du kan ta emot elektroniska dokument som genererats av OCR-tjänsten. Om du vill ta emot till exempel en faktura som ett elektroniskt OCR-dokument ställer du in huvuddatum och behandlar dokumentet som när du tar emot ett elektroniskt PEPPOL-dokument. Mer information finns i [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).  
 
@@ -67,7 +67,7 @@ Avsnittet innehåller följande procedurer:
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Momssystem**|Identifiera den nationella myndighet som utfärdar momsregistreringsnummer för landet\/regionen i samband med utskick av elektroniska dokument.<br /><br /> När du till exempel skickar elektroniska fakturor i PEPPOL-format används värdet i detta fält för att fylla i **SchemeID**-attributet för **EndPointID**-elementet under både noden **AccountingSupplierParty** och **AccountingCustomerParty** i filen.<br /><br /> Fältet **Momssystem** används endast om fältet **GLN** i fönstret **Företagsinformation** inte är ifyllt. **Obsa:**  Värdet i fältet **Kod** i fönstret **Länder\/Regioner** måste uppfylla ISO 3166\-1:Alpha2.|  
+    |**Momssystem**|Identifiera den nationella myndighet som utfärdar momsregistreringsnummer för landet\/regionen i samband med utskick av elektroniska dokument.<br /><br /> När du till exempel skickar elektroniska fakturor i PEPPOL-format används värdet i detta fält för att fylla i **SchemeID**-attributet för **EndPointID**-elementet under både noden **AccountingSupplierParty** och **AccountingCustomerParty** i filen.<br /><br /> Fältet **Momssystem** används endast om fältet **GLN** på sidan **Företagsinformation** inte är ifyllt. **Obsa:**  Värdet i fältet **Kod** på sidan **Länder\/Regioner** måste uppfylla ISO 3166\-1:Alpha2.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Så här ställer du in artiklar för utskick och mottagning av elektroniska dokument  
 1. I rutan **Sök**, ange **Artiklar** och välj sedan relaterad länk.  
@@ -100,7 +100,7 @@ Avsnittet innehåller följande procedurer:
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Så här väljer du det elektroniska dokumentformatet PEPPOL för utskick och mottagning av elektroniska dokument  
 1. I rutan **Sök** anger du **Dokumentutskicksprofiler** och väljer sedan relaterad länk.  
 2. Öppna en befintlig dokumentutskicksprofil eller skapa en ny. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
-3. I fönstret **skicka dokumentprofil** väljer du **elektroniskt Format**markerar raden för PEPPOL och välj **OK**.  
+3. På sidan **skicka dokumentprofil** väljer du **elektroniskt Format**markerar raden för PEPPOL och välj **OK**.  
 4. I fältet **Elektroniskt dokument** väljer du **Ja (Genom dokumentväxlingstjänst)**.  
 
     > [!NOTE]  
@@ -126,11 +126,11 @@ Avsnittet innehåller följande procedurer:
 
      Om dokument som ska tas emot är en kreditnota väljer du **PEPPOLCREDITMEMO**.  
 
-    Nu kan du ta emot elektroniska dokument genom att starta datakonverteringprocessen i fönstret **Inkommande dokument**. Mer information finns i [Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    Nu kan du ta emot elektroniska dokument genom att starta datakonverteringprocessen på sidan **Inkommande dokument**. Mer information finns i [Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Så här ställer du in det redovisningskonto som ska användas på nya inköpsfakturarader för icke-identifierbara artiklar och icke-objekt  
-1. I rutan **Sök** anger du **Inköp & Leverantörsreskontra** och sedan väljer du relaterad länk.  
-2. Fyll i fältet enligt beskrivningen i följande tabell på snabbfliken **Datautbyte**.  
+1. I rutan **Sök** anger du **Inköpsinställningar** och sedan väljer du relaterad länk.  
+2. Fyll i fältet enligt beskrivningen i följande tabell på snabbfliken **Standardkonton**.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  

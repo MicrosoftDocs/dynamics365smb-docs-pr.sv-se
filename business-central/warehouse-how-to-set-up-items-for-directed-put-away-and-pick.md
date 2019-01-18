@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Registrera artiklar och platser för dirigerad artikelinförsel och plockning
@@ -27,9 +27,9 @@ När du skapar ett dist.lagerställe för dirigerad artikelinförsel och plockni
 2.  Öppna kortet för artikeln som du vill skapa dirigerad artikelinförsel och plockning för.
 3. Definiera hur artikeln ska hanteras i dist.lagret genom att fylla i fälten på snabbfliken **Dist.lager** på artikelkortet.  
 4.  Välj åtgärden **Enheter**.
-5. I fönstret **Artikelenheter** fyller du i de olika fälten för att definiera de olika enheter som artikeln kan överföras i, inklusive enhetens höjd, bredd, längd, kubik och vikt i formuläret.
+5. På sidan **Artikelenheter** fyller du i de olika fälten för att definiera de olika enheter som artikeln kan överföras i, inklusive enhetens höjd, bredd, längd, kubik och vikt i formuläret.
 6. Välj åtgärden **Lagerplatsinnehåll**.
-7. I fönstret **Lagerplatsinnehåll** definierar du det lagerställe och den lagerplats som artikeln ska associeras med. Fältet **Standard** används inte när lagerstället lagts upp för att använda dirigerad artikelinförsel och plockning.  
+7. På sidan **Lagerplatsinnehåll** definierar du det lagerställe och den lagerplats som artikeln ska associeras med. Fältet **Standard** används inte när lagerstället lagts upp för att använda dirigerad artikelinförsel och plockning.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Så här aktiverar du funktionen för dirigerad artikelinförsel och plockning  
 Med hjälp av dirigerad artikelinförsel och plockning får du tillgång till avancerade funktioner för distributionslagerkonfiguration som väsentligt kan öka effektiviteten och datatillförlitligheten. Om du vill använda den här funktionen måste du först ange ett antal parametrar för ditt lagerställe.  
@@ -53,7 +53,7 @@ Nu kan du skapa zoner om du vill använda zoner i distributionslagret. Genom att
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Så här skapar du en zon i distributionslagret  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
 2.  Välj lagerstället där du vill ställa in zonen och öppna lagerställekortet och välj sedan åtgärden **Zoner**.  
-3.  I fönstret **Zoner** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Fyll i fälten på snabbfliken **Zoner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 När du ändrar en zonkod har alla lagerplatser du skapar därefter i zonen samma egenskaper men de lagerplatser inte kommer att ändras.  
 

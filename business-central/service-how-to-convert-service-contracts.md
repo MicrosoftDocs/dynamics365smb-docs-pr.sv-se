@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du servicekontrakt som innehåller momsbelopp
@@ -49,7 +49,7 @@ Nedan beskrivs hur du skapar en kreditnota som bara innehåller momsavvikelsen f
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Så här skapar du utgångsdatum på kontraktsrader  
 Nedan beskrivs hur du skapar nya kontrakt genom att arbeta med kontaktsutgångsdatum på servicekontraktsrader.  
 
-1. I fönstret **Servicekontrakt** anger du kontraktsutgångsdatumet till **30.06.2017**.  
+1. På sidan **Servicekontrakt** anger du kontraktsutgångsdatumet till **30.06.2017**.  
 2. Välj åtgärden **Skapa kreditnota** för att automatiskt skapa en kreditnota för juli 2017 till december 2017.  
 3. Eftersom kontraktet har löpt ut, måste du skapa ett nytt kontrakt för perioden med den nya momssatsen för 1 juli 2017 till 31 december 2017.  
 
@@ -59,7 +59,7 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 1. Kör ändringsverktyget för momssats på 1 juli 2017. Allmän produktbokföringsmall eller momsproduktbokföringsmallen ändras. För mer information, se [Så här arbetar du med moms för försäljning och inköp](finance-work-with-vat.md).  
 2. När du har kört ändringsverktyget för momssats, anger du ett utgångsdatum för servicekontraktet. Nu kan du ta bort servicekontraktsraden och skapa en ny rad som är identisk med den gamla.  
 3. Skapa en ny faktura för perioden för januari 2017 till december 2012 med den nya momssatsen.  
-4. Skapa en annan kreditnota genom att, i fönstret **Servicekreditnotor**, välja **Ny** för att skapa en ny servicekreditnota.  
+4. Skapa en annan kreditnota genom att på sidan **Servicekreditnotor**, välja **Ny** för att skapa en ny servicekreditnota.  
 5. Välj åtgärden **Hämta förutbetalda kont.trans**.  
 6. Efter konverteringen rättas moms- och servicetransaktioner.  
 

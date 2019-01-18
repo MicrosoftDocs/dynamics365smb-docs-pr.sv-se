@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fixed-assets"></a>Anläggningstillgångar
@@ -31,7 +31,7 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 Varje anläggningstillgång kan kopplas till ett eller flera försäkringsbrev. Du kan på så sätt enkelt verifiera att försäkringsbrevsbeloppen stämmer överens med värdet på den tillgång som är kopplad till brevet. Det blir även enklare att bevaka årliga försäkringspremier.
 
 > [!NOTE]  
->   Du kan bokföra in anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller i fönstret **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder fönstret **Anl.tillg. redovisningsjournal**. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
+>   Du kan bokföra in anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller på sidan **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder sidan **Anl.tillg. redovisningsjournal**. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
 
 Innan du kan hantera anläggningstillgångar måste du skapa standardvärden, bokföring av anläggningstillgångar, bokföringsmallar, fördelningsnycklar, journaler och bokföringstyper. Mer information finns i [Konfigurera anläggningstillgångar](fa-setup.md).
 

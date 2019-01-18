@@ -13,10 +13,10 @@ ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
@@ -36,7 +36,7 @@ Ju fler dimensioner du använder, desto mer detaljerade rapporter kan du baseras
 Funktionen dimensioner spelar en viktig roll i affärsstöd, exempelvis när du definierar analysvyer. Mer information finns i [Analysera data efter dimension](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
-> Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna i alla fönstrer för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
+> Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna på alla sidor för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
 
 ## <a name="dimension-sets"></a>Dimensionsuppsättningar
 En dimensionsuppsättning en är en unik kombination av dimensionsvärden. Den lagras som dimensionsuppsättningstransaktioner i databasen. Varje dimensionsuppsättningstransaktion representerar ett enstaka dimensionsvärde. Dimensionsuppsättningen identifieras av ett gemensamt dimensionsuppsättnings-ID som tilldelats varje dimensionsuppsättningstransaktion som tillhör dimensionsuppsättningen.  
@@ -44,7 +44,7 @@ En dimensionsuppsättning en är en unik kombination av dimensionsvärden. Den l
 När du skapar en journalrad, dokumenthuvud eller dokumentrad kan du ange en kombination av dimensionsvärden. I stället för att uttryckligen lagra varje dimensionsvärde i databasen tilldelas ett dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden för att specificera dimensionsuppsättningen.  
 
 ## <a name="setting-up-dimensions"></a>Lägga upp dimensioner
-Du kan ange de dimensioner och dimensionsvärden för att kategorisera journaler och dokument, till exempel försäljningsorder och inköpsorder. Du ställer in dimensioner i fönstret **Dimensioner** där du skapar en rad för varje dimension som t.ex. *Projekt*, *Avdelning*, *Område* och *Säljare*.
+Du kan ange de dimensioner och dimensionsvärden för att kategorisera journaler och dokument, till exempel försäljningsorder och inköpsorder. Du ställer in dimensioner på sidan **Dimensioner** där du skapar en rad för varje dimension som t.ex. *Projekt*, *Avdelning*, *Område* och *Säljare*.
 
 Du kan också ställa in värden för dimensioner. Värden kan till exempel vara avdelningarna i företaget. Dimensionsvärden kan anges i en hierarkisk struktur som liknar kontoplanen, så att data kan brytas ned i olika detaljeringsgrader och delmängder av dimensionsvärden kan räknas samman. Du kan definiera så många dimensioner och dimensionsvärden som behövs och alla i företaget kan använda dem.
 
@@ -57,7 +57,7 @@ Du kan också ställa in vissa globala dimensioner och genvägsdimensioner:
 Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopieras till journal eller dokument när du ange numret på en rad, men du kan ta bort eller ändra koden på raden om det behövs. Du kan också göra en dimension obligatorisk för att bokföra en transaktion med en viss typ av konto.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dimensioner** och välj sedan relaterad länk.  
-2.  I fönstret **Dimensioner** väljer du relevant dimension och sedan åtgärden **Standarddim. för kontotyp**.  
+2.  På sidan **Dimensioner** väljer du relevant dimension och sedan åtgärden **Standarddim. för kontotyp**.  
 4.  Fyll i en rad för varje ny standarddimension du vill ange. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
@@ -73,7 +73,7 @@ Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopiera
 Olika kontotyper, t.ex. ett kundkonto och ett artikelkonto, kan ha olika definierade standarddimensioner. Detta kan resultera i att flera standarddimensioner för en dimension föreslås för en transaktion. Du kan undvika att den här typen av konflikter uppstår genom att använda prioritetsregler för de olika källorna.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Standard dimensionsprioritet** och välj sedan relaterad länk.  
-2.  I fönstret **Standard dimensionsprioritet** i fältet **Källkod** anger du ursprungskoden för den transaktionstabell som standarddimensionsprioriteten.  
+2.  På sidan **Standard dimensionsprioritet** i fältet **Källkod** anger du ursprungskoden för den transaktionstabell som standarddimensionsprioriteten.  
 3.  Fyll i en rad för varje standarddimensionsprioritet du vill ha för den valda ursprungskoden.
 4.  Upprepa proceduren för varje ursprungskod du vill ange standarddimensionsprioritet för.  
 
@@ -84,12 +84,12 @@ Olika kontotyper, t.ex. ett kundkonto och ett artikelkonto, kan ha olika definie
 Du kan förhindra att transaktioner bokförs med oförenliga eller irrelevanta dimensioner genom att spärra eller begränsa vissa kombinationer av två dimensioner. En spärrad dimensionskombination innebär att du inte kan bokföra båda dimensionerna i samma transaktion, oberoende av dimensionsvärdena. En begränsad dimensionskombination innebär att du kan bokföra båda dimensionerna i samma transaktion, men endast för vissa kombinationer av dimensionsvärden.
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dimensionskombinationer** och välj sedan relaterad länk.  
-2.  I fönstret **Dimensionskombinationer** och välj något av följande alternativ i fönstret  
+2.  På sidan **Dimensionskombinationer** och välj något av följande alternativ i fönstret  
 
     |Fält|Description|
     |----------------------------------|---------------------------------------|  
     |**Inga begränsningar**|Den här dimensionskombinationen har inga begränsningar. Alla dimensionsvärden är tillåtna.|  
-    |**Begränsad**|Den här dimensionskombinationen är begränsad beroende på vilka dimensionsvärden som anges. Du definierar begränsningarna i fönstret **Dimensionsvärdekombination**.|  
+    |**Begränsad**|Den här dimensionskombinationen är begränsad beroende på vilka dimensionsvärden som anges. Du definierar begränsningarna på sidan **Dimensionsvärdekombination**.|  
     |**Spärrad**|Den här dimensionskombinationen är inte tillåten.|  
 
 3.  Om du valde alternativet **Begränsad** måste du definiera vilka kombinationer av dimensionsvärden som är spärrade. Gör det genom att välja fältet för att definiera dimensionskombinationen.  
@@ -103,9 +103,9 @@ Du kan förhindra att transaktioner bokförs med oförenliga eller irrelevanta d
 >  Om du vill visa namnet på dimensionerna i stället för koden markerar du fältet **Visa kolumnnamn**.
 
 ### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Få en översikt över dimensioner som används flera gånger
-Fönstret **Standarddimensioner: Flera** anger hur en grupp konton använder dimensioner och dimensionsvärden. Det gör du genom att markera flera konton och sedan ange standarddimensioner och standarddimensionsvärden för alla konton som du har markerat i listan över konton. När du anger standarddimensioner för de markerade kontona föreslås dessa dimensioner och dimensionsvärden varje gång något av kontona används, exempelvis på en journalrad. På så sätt underlättas användarens arbete med att registrera transaktioner, detta eftersom dimensionsfälten fylls i automatiskt. De dimensionsvärden som föreslås kan dock ändras, till exempel på en journalrad.
+Sidan **Standarddimensioner: Flera** anger hur en grupp konton använder dimensioner och dimensionsvärden. Det gör du genom att markera flera konton och sedan ange standarddimensioner och standarddimensionsvärden för alla konton som du har markerat i listan över konton. När du anger standarddimensioner för de markerade kontona föreslås dessa dimensioner och dimensionsvärden varje gång något av kontona används, exempelvis på en journalrad. På så sätt underlättas användarens arbete med att registrera transaktioner, detta eftersom dimensionsfälten fylls i automatiskt. De dimensionsvärden som föreslås kan dock ändras, till exempel på en journalrad.
 
-Fönstret **Standarddimensioner: Flera** innehåller följande fält:
+Sidan **Standarddimensioner: Flera** innehåller följande fält:
 |Fält|Description|
 |----------------------------------|---------------------------------------|  
 |**Dimensionskod**|Visar alla dimensioner som har definierats som standarddimensioner för ett eller flera av de markerade kontona. Om du väljer fältet kan du se en lista över tillgängliga dimensioner. Om du väljer en dimension anges den valda dimensionen som standarddimension för alla markerade konton.|
@@ -113,7 +113,7 @@ Fönstret **Standarddimensioner: Flera** innehåller följande fält:
 |**Bokförs med**|Visar antingen en enstaka bokföringsregel eller termen (Konflikt). Om en bokföringsregel visas i fältet har alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om termen (Konflikt) visas i fältet har inte alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om du väljer fältet Bokförs med kan du visa en lista över bokföringsregler. Om du markerar en bokföringsregel tillämpas den på alla markerade konton.|
 
 ### <a name="example-of-dimension-setup"></a>Exempel på dimensionsinställningarna
-Anta att ditt företag vill spåra transaktioner utifrån organisationens struktur och geografiska platser. För att göra detta kan du ange två dimensioner i fönstret **Dimensioner**:
+Anta att ditt företag vill spåra transaktioner utifrån organisationens struktur och geografiska platser. För att göra detta kan du ange två dimensioner på sidan **Dimensioner**:
 
 * **OMRÅDE**  
 * **AVDELNING**  
@@ -149,27 +149,27 @@ För **AVDELNING**, lägger du till följande dimensionsvärden:
 | PROD |Produktion |Standard |
 | FÖRS |FÖRS |Standard |
 
-Med detta inställt lägger du sedan till två dimensioner som de två globala dimensionerna i fönstret **Redovisningsinställningar**. Det betyder att du kan använda OMRÅDE och AVDELNING som filter för redovisningstransaktioner, samt i alla rapporter och kontouppställningar. De båda globala dimensionerna blir dessutom automatiskt tillgängliga för att användas som genvägsdimensioner på transaktionsrader och i dokumenthuvuden.  
+Med detta inställt lägger du sedan till två dimensioner som de två globala dimensionerna på sidan **Redovisningsinställningar**. Det betyder att du kan använda OMRÅDE och AVDELNING som filter för redovisningstransaktioner, samt i alla rapporter och kontouppställningar. De båda globala dimensionerna blir dessutom automatiskt tillgängliga för att användas som genvägsdimensioner på transaktionsrader och i dokumenthuvuden.  
 
 ## <a name="using-dimensions"></a>Använda dimensioner
-I ett dokument som t.ex. en försäljningsorder kan du lägga till dimensionsinformation för både en individuell dokumentrad och själva dokument. T.ex. i fönstret **Försäljningsorder** kan du ange dimensionsvärden för de två första genvägsdimensionerna på den individuella försäljningsraden och du kan lägga till ytterligare dimensionsinformation om du väljer knappen **Dimensioner**.  
+I ett dokument som t.ex. en försäljningsorder kan du lägga till dimensionsinformation för både en individuell dokumentrad och själva dokument. T.ex. på sidan **Försäljningsorder** kan du ange dimensionsvärden för de två första genvägsdimensionerna på den individuella försäljningsraden och du kan lägga till ytterligare dimensionsinformation om du väljer knappen **Dimensioner**.  
 
 Om du istället arbetar med en journal kan du lägga till dimensionsinformation i en transaktion om du har lagt upp genvägsdimensioner som fält direkt på journalraderna.  
 
 Du kan ställa in standarddimensioner för konton eller kontotyper, så att dimensioner och dimensionsvärden fylls i automatiskt.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Så här visar du globala dimensioner i transaktionsfönster  
-Globala dimensioner är alltid \-definierade och namngivna utifrån företaget. Om du vill visa de globala dimensionerna för ditt företag öppnar du fönstret **Redovisningsinställningar**.  
+## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Så här visar du globala dimensioner på transaktionssidor  
+Globala dimensioner är alltid \-definierade och namngivna utifrån företaget. Om du vill visa de globala dimensionerna för ditt företag öppnar du sidan **Redovisningsinställningar**.  
 
-Du kan se om det finns globala dimensioner för transaktionerna i ett transaktionsfönster. De två globala dimensionerna skiljer sig från övriga dimensioner eftersom de kan användas som filter var som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan se om det finns globala dimensioner för transaktionerna på en transaktionssida. De två globala dimensionerna skiljer sig från övriga dimensioner eftersom de kan användas som filter var som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
-2.  I fönstret **Kontoplan** väljer du åtgärden **Redovisningstransaktioner**.  
-3.  Om du bara vill visa relevanta transaktioner definierar du ett eller flera filter i fönstret.  
+2.  På sidan **Kontoplan** väljer du åtgärden **Redovisningstransaktioner**.  
+3.  Om du bara vill visa relevanta transaktioner definierar du ett eller flera filter på sidan.  
 4.  Om du vill visa alla dimensioner för en transaktion markerar du transaktionen väljer sedan åtgärden **Dimensioner**.  
 
 > [!NOTE]  
->  I fönstret **Transaktionsdimensioner** visas dimensionerna för en transaktion i taget. När du bläddrar bland transaktionerna ändras innehållet i fönstret **Transaktionsdimensioner** därefter.  
+>  Sidan **Transaktionsdimensioner** visas dimensionerna för en transaktion i taget. När du bläddrar bland transaktionerna ändras innehållet på sidan **Transaktionsdimensioner** därefter.  
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

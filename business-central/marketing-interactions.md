@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Inspelningsinteraktioner med kontakter
@@ -30,7 +30,7 @@ Modulen Affärsstöd gör att du kan registrera alla interaktioner som du har me
 
 ##  <a name="setting-up-interaction-templates"></a>Skapa interaktionsmallar
 Innan du kan skapa och registrera interaktioner måste du skapa interaktionsmallar. När du skapar dem behöver du ange vilka interaktionsmallar de ska grundas på. En interaktionsmall en modell som definierar en interaktions grundläggande egenskaper.
-Du kan du skapa bilagor till interaktionsmallarna i fönstret**interaktionsmallar**.
+Du kan du skapa bilagor till interaktionsmallarna på sidan **interaktionsmallar**.
 
 När du har skrivit in uppgifter om interaktionsmallen kan du skapa bilagor, till exempel Microsoft Word-dokument. Upprepa stegen för varje interaktionsmall du vill skapa.  
 
@@ -41,13 +41,13 @@ Det finns två sätt att registrera interaktioner:
 * När du utför uppgifter i , till exempel skriver ut fakturor eller offerter, kan interaktioner registreras automatiskt. Mer information finns i [automatiskt registrera interaktioner med kontakter](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Visa och hantera registrerade interaktioner
-Alla registrerade interaktioner och bilagor som inte har raderats kan visas i fönstret**Interaktionslogg**. Du kan öppna fönstret genom att:
+Alla registrerade interaktioner och bilagor som inte har raderats kan visas på sidan **Interaktionslogg**. Du kan öppna sidan genom att:
 
 * Med hjälp av ikonen **Sök efter sida eller rapport** för att söka i **Interaktionslogg**.
 * Välj åtgärden **Interaktionslogg** på en kontakt eller ett segment.
-  Fönstret **Interaktionslogg** innehåller de interaktioner som du har skapat manuellt och de som registrerats automatiskt.
+  Sidan **Interaktionslogg** innehåller de interaktioner som du har skapat manuellt och de som registrerats automatiskt.
 
-I det här fönstret kan du:
+På den här sidan kan du:
 
 * Visa interaktionens status.
 * Markera interaktioner som makulerade.

@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Felsökning [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Det kan finnas ett par anledningar, bland annat följande:
   Klienten kan ha flera affärsenheter eller företag i [!INCLUDE [d365fin](includes/d365fin_md.md)], och din inbjudan innehåller inte alltid alla företag. Arbeta med klienten för att se till att du har tillgång till företagen som klienten vill att du arbetar i.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Varför uppdateras inte informationen på min instrumentpanel?
-När du lägger till en klient eller begär en uppdatering av data hämtar [!INCLUDE [d365acc](includes/d365acc_md.md)] data. Men du måste uppdatera fönstret, till exempel om du väljer åtgärden ”Visa alla företag”, uppdatera webbläsarfönstret, navigera från instrumentpanelen och sedan tillbaka igen, eller liknande. Detta är ett känt problem som vi arbetar på att förbättra i en senare uppdatering.  
+När du lägger till en klient eller begär en uppdatering av data hämtar [!INCLUDE [d365acc](includes/d365acc_md.md)] data. Men du måste uppdatera sidan, till exempel om du väljer åtgärden ”Visa alla företag”, uppdatera webbläsarsidan, navigera från instrumentpanelen och sedan tillbaka igen, eller liknande. Detta är ett känt problem som vi arbetar på att förbättra i en senare uppdatering.  
 
 ## <a name="see-also"></a>Se även
 [Komma igång med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

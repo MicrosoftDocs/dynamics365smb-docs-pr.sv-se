@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Ställa in arbetstimmar och tjänstetider
@@ -27,16 +27,16 @@ När du har ställt in standardtjänsttid för företaget kan du beräkna svarst
 När du arbetar på en serviceorder kan du uppdatera deras status, så att du kan övervaka framsteg. Tjänsteorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern. Mer information finns i [om serviceordern och reparationsstatus](service-order-repair-status.md). 
 
 ## <a name="to-set-up-default-service-hours"></a>Så här skapar du standard servicetider  
-Du kan använda fönstret **Standard servicetider** för att definiera vilka servicearbetstider som gäller på företaget. Programmet använder dessa servicetider för att beräkna ett svarsdatum med tid för serviceorder och offerter och då svarstidsvarningar skickas ut. Standardservicetiden för servicekontrakt används automatiskt om du inte angett särskilda servicetider för ett kontrakt.  
+Du kan använda sidan **Standard servicetider** för att definiera vilka servicearbetstider som gäller på företaget. Programmet använder dessa servicetider för att beräkna ett svarsdatum med tid för serviceorder och offerter och då svarstidsvarningar skickas ut. Standardservicetiden för servicekontrakt används automatiskt om du inte angett särskilda servicetider för ett kontrakt.  
   
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **standardservicetider** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  Om du inte fyller i raderna i fönstret **Standard servicetider** används 24 timmar som standardvärde, som gäller bara för kalenderns arbetsdagar.  
+>  Om du inte fyller i raderna på sidan **Standard servicetider** används 24 timmar som standardvärde, som gäller bara för kalenderns arbetsdagar.  
   
 ## <a name="to-set-up-work-hour-templates"></a>Så här skapar du arbetstidsmallar
-Du kan använda fönstret **Arbetstidsmallar** för att skapa mallar som innehåller företagets vanligaste arbetstider. Du kan t.ex. skapa mallar för heltidstekniker och deltidstekniker. Använd arbetstidsmallar när du lägger till kapacitet i resurser.  
+Du kan använda sidan **Arbetstidsmallar** för att skapa mallar som innehåller företagets vanligaste arbetstider. Du kan t.ex. skapa mallar för heltidstekniker och deltidstekniker. Använd arbetstidsmallar när du lägger till kapacitet i resurser.  
   
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetstidsmallar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -45,7 +45,7 @@ Du kan använda fönstret **Arbetstidsmallar** för att skapa mallar som innehå
 > När du har angett arbetstimmar per dag beräknas värdet i fältet **Totalt per vecka** automatiskt.  
 
 ## <a name="to-set-up-contract-specific-service-hours"></a>Så här skapar du en kontraktspecifik servicekalender  
-Du använder fönstret **Servicekalender** när du lägger upp servicetid för kunden som äger servicekontraktet. Servicekalendern används för att beräkna svarsdatum och svarstid för serviceorder och serviceofferter som tillhör servicekontraktet.  
+Du använder sidan **Servicekalender** när du lägger upp servicetid för kunden som äger servicekontraktet. Servicekalendern används för att beräkna svarsdatum och svarstid för serviceorder och serviceofferter som tillhör servicekontraktet.  
   
 Om du inte skapar en specifik servicekalender för ett servicekontrakt, används standardtjänstkalendern i stället.  
   

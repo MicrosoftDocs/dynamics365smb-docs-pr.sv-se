@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
@@ -82,7 +82,7 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 -   Ange dig själv som distributionslageranvändare på lagerstället WHITE i följande steg:  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
-2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
+2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
 
@@ -101,7 +101,7 @@ Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:
 Ta bort standardledtiden för interna processer genom att följa dessa steg:  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Produktionsinställningar** och välj sedan relaterad länk.  
-2.  I fänstret **Produktionsinställningar** klickar du på snabbfliken **planering**, tar bort värdet i fältet **Standard säkerhetsledtid**.  
+2.  På sidan **Produktionsinställningar** klickar du på snabbfliken **planering**, tar bort värdet i fältet **Standard säkerhetsledtid**.  
 
 Skapa lagret för monteringskomponenter genom att följa avsnittet "Förbereda exempeldata" i den här genomgången.  
 
@@ -151,10 +151,10 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Sedan synkroniserar du de nya distributionslagertransaktionerna med lagret.  
 
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk. Fönstret  **Artikeljournal** öppnas.  
+5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk. Sidan **Artikeljournal** öppnas.  
 6.  Välj **Beräkna dist.lager justering** i gruppen **Funktioner** på fliken **Åtgärder**.  
-7.  I fönstret **Beräkna dist.lager justering** för att köra funktionen **OK**.  
-8.  I fönstret **Artikeljournal** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Bokför** och sedan knappen **Ja**.  
+7.  På sidan **Beräkna dist.lager justering** för att köra funktionen **OK**.  
+8.  På sidan **Artikeljournal** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Bokför** och sedan knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Skapa monteringsartiklarna  
 
@@ -221,7 +221,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     > [!NOTE]  
     >  Följande problem med tillgängligheten har uppstått på försäljningsorderraden för sats B:  
     >   
-    >  -   Monteringskomponent 80210 är inte tillgänglig. Det betyder att de tre angivna enheterna av sats B inte kan monteras, vilket anges som **0** i fältet **Möjlig att montera** i fönstret **Monteringsdisposition**.  
+    >  -   Monteringskomponent 80210 är inte tillgänglig. Det betyder att de tre angivna enheterna av sats B inte kan monteras, vilket anges som **0** i fältet **Möjlig att montera** på sidan **Monteringsdisposition**.  
     >   
     >  Följande problem med tillgängligheten har uppstått på försäljningsorderraden för sats A:  
     >   
@@ -231,7 +231,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 4.  Välj försäljningsorderraden för tre enheter av sats B.  
 5.  På snabbfliken **Rader** väljer du **Rad**, **Montering mot kundorder** och sedan **Montering mot kundorderrader**.  
-6.  I fönstret **Montering mot kundorderrader** på monteringsorderraden för artikel 80014, ange **2** i fältet **kvantitet per**.  
+6.  På sidan **Montering mot kundorderrader** på monteringsorderraden för artikel 80014, ange **2** i fältet **kvantitet per**.  
 7.  På monteringsorderraden för artikel 80210, väljer du fältet **nr.** och markerar sedan artikel 80209 i stället.  
 8.  Skapa en ny monteringsorder med följande information.  
 
@@ -239,7 +239,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     |----------|---------|------------------|  
     |Artikel|80203|1|  
 
-9. Stäng fönstret **Montering mot kundorderrader**.  
+9. Stäng sidan **Montering mot kundorderrader**.  
 
     Uppdatera sedan a-priset för sats B i enlighet med anpassningen som du just har gjort. Observera det aktuella värdet i fältet **Enhetspris exkl. moms**.  
 
@@ -247,7 +247,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 11. Välj **Ja**. Observera det ökade värdet i fältet **Enhetspris exkl. moms**.  
 12. Välj försäljningsorderraden för 15 enheter av sats A.  
 13. På snabbfliken **Rader** väljer du **Rad**, **Montering mot kundorder** och sedan **Montering mot kundorderrader**.  
-14. I fönstret **Montering mot kundorderrader** skapar du en ny monteringsorder med följande information.  
+14. På sidan **Montering mot kundorderrader** skapar du en ny monteringsorder med följande information.  
 
     |Typ|Nr|Antal per|  
     |----------|---------|------------------|  
@@ -264,9 +264,9 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj **Beräkna fullständig plan** i gruppen **Funktioner** på fliken **Åtgärder**.  
-3.  Ange följande filter i fönstret **Skapa inköpsförslag**.  
+3.  Ange följande filter på sidan **Skapa inköpsförslag**.  
 
-    |Startdatum|Slutdatum|Nr|  
+    |Startdatum|Slutdatum|Nummer|  
     |-------------------|-----------------|---------|  
     |01-23-2014|01-27-2014|Sats A – Bas-PC|  
 
@@ -275,7 +275,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     En ny planeringsrad skapas för den behövda monteringsordern för tio enheter, förfaller den 27 januari. Inga ändringar behövs så att du kan skapa ordern.  
 
 5.  Välj **Verkställ åtgärdsmeddelande** i gruppen **Funktioner** på fliken **Åtgärder**.  
-6.  Välj fältet **Monteringsorder** och välj sedan **Skapa monteringsorder** i fönstret **Verkställ åtgärdsmeddelande**.  
+6.  På sidan **Monteringsorder** och välj sedan **Skapa monteringsorder** i fönstret **Verkställ åtgärdsmeddelande**.  
 7.  Välj knappen **OK**.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Sammanställa och leverera det första ATO-antalet  
@@ -311,14 +311,14 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Återgå till att utföra utleveransuppgifterna.  
 
-8.  Öppna fönstret  **Dist.lager utleveranslista** igen.  
+8.  Öppna sidan **Dist.lager utleveranslista** igen.  
 
     Observera att fältet **Plockat antal** fortfarande är tomt på alla rader. Det beror på att du fortfarande inte har plockat artiklarna som ska levereras, utan endast komponenter som krävs för att sammanställa ATO-antalet.  
 
     Fortsätt med att granska den relaterade monteringsordern.  
 
 9. Välj utleveransraden för tre enheter av sats B.  
-10. På snabbfliken **Rader** väljer du **Rad** och sedan **Montering mot kundorder**. Fönstret **Monteringsorder** öppnas.  
+10. På snabbfliken **Rader** väljer du **Rad** och sedan **Montering mot kundorder**. Sidan **Monteringsorder** öppnas.  
 
     Observera att flera fält på monteringsordern är inaktiverade eftersom beställningen är kopplad till en försäljningsorder.  
 
@@ -330,7 +330,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Fältet **Antal att montera** kan redigeras för situationer där du inte vill skicka delvisa lagerkvantiteter i stället för montering av flera enheter mot order. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Stäng fönstret **monteringsorder** och återgå till fönstret **distributionslagerutleverans**.  
+12. Stäng sidan **monteringsorder** och återgå till sidan **distributionslagerutleverans**.  
 13. På utleveransraden för tre enheter av sats B i **Ant. att utleverera** anger du **3**.  
 14. På fliken **Åtgärder** i gruppen **Bokföring** väljer du **Bokför utleverans** och sedan **Leverera**.  
 
@@ -356,11 +356,11 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     Registrera sedan att monteringsordern har slutförts.  
 
 3.  Välj **Montering mot kundorder, dist.lager utleveransrad** på fliken **Analysera** i gruppen **Dist.lager**.  
-4.  I fönstret **Montering mot kundorder, dist.lager utleveransrad** i fältet **Ant. att utleverera**, ange **5** och stäng sedan fönstret.  
+4.  På sidan **Montering mot kundorder, dist.lager utleveransrad** i fältet **Ant. att utleverera**, ange **5** och stäng sedan sidan.  
 
-    Observera i fönstret **Monteringsorder** att fälten **Antal att montera** och **Antal att förbruka** nu fylls i med de utflödes- och förbrukningsantal som ska bokföras med utleveransen.  
+    Observera på sidan **Monteringsorder** att fälten **Antal att montera** och **Antal att förbruka** nu fylls i med de utflödes- och förbrukningsantal som ska bokföras med utleveransen.  
 
-5.  Stäng fönstret **Monteringsorder**.  
+5.  Stäng sidan **Monteringsorder**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Montering av ATS-antalet  
 
@@ -415,9 +415,9 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Återgå till distributionslagerutleveransen för att utföra den sista uppgiften.  
 
-8.  Öppna fönstret  **Dist.lager utleveranslista** igen.  
+8.  Öppna sidan **Dist.lager utleveranslista** igen.  
 
-    I fönstret **Utleveranser för dist.lager** på raden för tio enheter av sats A, observera att fälten **Ant. att utleverera** och **Plockat antal** nu innehåller **10**.  
+    På sidan **Utleveranser för dist.lager** på raden för tio enheter av sats A, observera att fälten **Ant. att utleverera** och **Plockat antal** nu innehåller **10**.  
 
 9. På fliken **Åtgärder** i gruppen **Bokföring** väljer du **Bokför utleverans** och sedan **Leverera**.  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kända problem med artikelkopplingar
@@ -102,7 +102,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  För scenario 1, identifiera problemet på följande sätt:  
 
--   I fönstret **Bokförd försäljningskreditnota** eller **Bokförd returinlevns**, leta upp fältet **koppla\-från artikellöpnr** för att se om fältet är ifyllt, och om så är fallet, till vilken artikeltransaktionsom returkvittot kostnadstillämpas.  
+-   På sidan **Bokförd försäljningskreditnota** eller **Bokförd returinlevns**, leta upp fältet **koppla\-från artikellöpnr** för att se om fältet är ifyllt, och om så är fallet, till vilken artikeltransaktionsom returkvittot kostnadstillämpas.  
 
  För scenario 2, identifiera problemet på något av följande sätt:  
 
@@ -113,10 +113,10 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 |333|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|Nr|  
 |334|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|1|10|1|1|Ja|**Ja**|  
 
--   I fönstret **Bokförd försäljningsleverans** letar du upp fältet **Koppla från artikellöpnr** för att se om fältet är ifyllt, och om så är fallet, till vilken artikeltransaktion som returkvittot kostnadstillämpas.  
+-   På sidan **Bokförd försäljningsleverans** letar du upp fältet **Koppla från artikellöpnr** för att se om fältet är ifyllt, och om så är fallet, till vilken artikeltransaktion som returkvittot kostnadstillämpas.  
 
 > [!NOTE]  
->  Kostnadstillämpningar kan inte identifieras i fönstret **Kopplade artikeltransaktioner** eftersom det endast visar antalsprogram.  
+>  Kostnadstillämpningar kan inte identifieras på sidan **Kopplade artikeltransaktioner** eftersom det endast visar antalsprogram.  
 
  I båda fallen bör du identifiera involverad kostnadstillämpning enligt följande:  
 
@@ -138,7 +138,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
  Observera ovan att ankommande artikeltransaktion 334 är kostnader som har kopplats till avgående artikeltransaktion 333.  
 
 ## <a name="workaround-for-the-issue"></a>Åtgärda problemet  
- I fönstret **Artikeljournal** bokför du följande rader för den aktuella artikeln:  
+ På sidan **Artikeljournal** bokför du följande rader för den aktuella artikeln:  
 
 -   En positiv justering för att stänga en öppen, utgående artikeltransaktion.  
 

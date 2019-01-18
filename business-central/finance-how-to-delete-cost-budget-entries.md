@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f578247ef835b3c7803adb123e18eec62b0864b9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Ta bort kostnadsbudgettransaktioner
@@ -34,7 +34,7 @@ För att förhindra luckor i kostnadsbudgettransaktionerna och kostnadsjournalst
 2.  Välj **OK** för att ta bort de valda kostnadsbudgettransaktionerna.  
 
 > [!NOTE]  
->  För att undvika ofrivillig borttagning av kostnadsbudgettransaktioner kan du stänga registerposter genom att markera raderna som **Avslutade** i fältet **Avslutat**  i fönstret **Kostnadsbudgetregister**.  
+>  För att undvika ofrivillig borttagning av kostnadsbudgettransaktioner kan du stänga registerposter genom att markera raderna som **Avslutade** i fältet **Avslutat** på sidan **Kostnadsbudgetregister**.  
 
 ## <a name="see-also"></a>Se även  
 [Redovisa kostnader](finance-manage-cost-accounting.md)

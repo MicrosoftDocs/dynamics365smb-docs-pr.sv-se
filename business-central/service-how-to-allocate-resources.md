@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ Du kan ofta behöva titta på listan över serviceorder och/eller serviceofferte
 6. Om du vill ha en lista över dokument som tillhör ett visst kontrakt eller en viss kund/zon fyller du i fältet **Kontraktsfilter/kundfilter/zonfilter** och trycker på **Retur**.  
 7. Välj en rad som motsvarar en serviceorder eller serviceoffert och klicka på åtgärd **visa dokument**.  
 
-    Fönstret **Serviceorder** eller **Serviceoffert** öppnas, och du kan arbeta med dokumentet. Återgå till fönstret **Beordringstavla** välj **OK**.
+    Sidan **Tjänsteorder** eller **Serviceoffert** öppnas, och du kan arbeta med dokumentet. Återgå till sidan **Beordringstavla** väljer **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Så här fördelar du resurser med hjälp av Resursgruppsdisposition    
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
 2. Välj serviceordern och välj sedan åtgärd **Resursfördelningar**.  
 3. Välj den transaktion som innehåller den serviceuppgift som du vill tilldela resurser till.  
 4. Välj antingen åtgärd **resurstillgänglighet** eller **Resursgruppsdisposition**.  
-5. I fönstret **Res.disposition (Service)** väljer du **Visa matris**.  
+5. På sidan **Res.disposition (Service)** väljer du **Visa matris**.  
 6. Välj en resurs att fördela. Du kan basera valet på om resursen är utbildad för uppgiften, om den finns i kundzonen och/eller om den föredras av kunden.  
 7. Välj ett datum då resursen har tillräckligt med timmar för uppgiften och som ligger nära svarsdatum för serviceordern.  
 8. I fältet **Antal att fördela** anger du hur många timmar som ska tilldelas resursen för serviceuppgiften.  
@@ -63,7 +63,7 @@ När du har skapat och fyllt i en serviceorder eller serviceoffert kan du förde
 2. Välj serviceorder, och sedan **Redigera**.  
 3. Välj den serviceartikelrad som motsvarar den serviceuppgift som du vill fördela en resurs till.  
 4. Välj **Resursfördelningar**.
-5. Markera en inaktiv fördelningspost med den serviceuppgift som du vill fördela resursen till i fönstret **Resursfördelningar**. Om den inaktiva fördelningsposten inte finns kan du skapa en ny med **Ny**.  
+5. Markera en inaktiv fördelningspost med den serviceuppgift som du vill fördela resursen till på sidan **Resursfördelningar**. Om den inaktiva fördelningsposten inte finns kan du skapa en ny med **Ny**.  
 7. Ange serviceuppgiften genom att fylla i fältet **Serviceartikelnr** på samma rad.  
 8. I fältet **Resursnr** väljer du önskad resurs. Om resursen ingår i en resursgrupp anges resursgruppens nummer automatiskt i fältet **Resursgruppnr**. .  
 9. Fyll i fälten **Fördelningsdatum** och **Fördelade timmar**. Fältet **Status** ställs in på **Aktiv**. Det innebär att resursen fördelas till serviceuppgiften.  
@@ -82,7 +82,7 @@ Du kan omfördela resurser direkt från en serviceorder eller serviceoffert när
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
 3. Välj den serviceartikelrad som motsvarar den serviceuppgift som du vill fördela en resurs till.  Välj **Åtgärder**, cälj **Rad**, och sedan **Resursfördelningar**.  
-4. Markera en allokeringspost som innehåller den serviceuppgift som du vill omfördela resursen till i fönstret **Resursfördelningar**. I fältet **Resursnr** väljer du önskad resurs. Detta gör att resursnumret som redan finns i fältet skrivs över.  
+4. Markera en allokeringspost som innehåller den serviceuppgift som du vill omfördela resursen till på sidan **Resursfördelningar**. I fältet **Resursnr** väljer du önskad resurs. Detta gör att resursnumret som redan finns i fältet skrivs över.  
 5. Tryck på returtangenten. En dialogruta öppnas där det frågas om du vill omfördela transaktionen. Fyll vid behov i fältet **Orsakskod** och klicka på **Ja** för att bekräfta omfördelningen.  
 6. Fyll i fälten **Fördelningsdatum** och **Fördelade timmar**. Transaktionen innehåller nu den nya resursen vars status nu är **Aktiv**.
 
@@ -90,8 +90,8 @@ Du kan omfördela resurser direkt från en serviceorder eller serviceoffert när
 Om en resurs som har fördelats till en serviceuppgift inte kan slutföra arbetet innebär det att denna serviceuppgift måste omfördelas. Vanligtvis omfördelar du resurser till en serviceuppgift med hjälp av **Beordringstavlan**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
-2. I fältet **Fördelningsfilter** markerar du **Omfördelning nödvändig**. Fönstret **Beordringstavla** visar nu en lista med de serviceorder som inkluderar serviceuppgifter som behöver omfördelas.  
-3. Välj önskad serviceorder. Välj **Resursfördelningar** på fliken **Analysera** i gruppen **Planering**. Fönstret **Resursfördelningar** visas.  
+2. I fältet **Fördelningsfilter** markerar du **Omfördelning nödvändig**. Sidan **Beordringstavla** visar nu en lista med de serviceorder som inkluderar serviceuppgifter som behöver omfördelas.  
+3. Välj önskad serviceorder. Välj **Resursfördelningar** på fliken **Analysera** i gruppen **Planering**. Sidan **Resursfördelningar** visas.  
 4. Välj fördelningstransaktionen med den serviceuppgift som du vill omfördela en resurs till.  
 5. I fältet **Resursnr** väljer du önskad resurs. Resursnumret som redan finns i fältet skrivs över.  
 6. Tryck på RETUR. Dialogrutan **Omfördelningstrans. orsaker** öppnas med en fråga om du vill omfördela transaktionen. Fyll vid behov i fältet **Orsakskod** och klicka på **Ja** för att bekräfta omfördelningen.  
@@ -105,9 +105,9 @@ Om en resurs som har fördelats till en serviceuppgift inte kan slutföra arbete
     > * Om du omfördelar en serviceorder som du har konverterat från en offert ändras alltid statusen för de fördelningstransaktioner som angetts på offerten till **Avslutad** när du omfördelar serviceartiklarna på serviceordern.  
 
 ## <a name="to-register-resource-hours"></a>Så här registrerar du resurstimmar  
-När du arbetar med serviceartiklar på en serviceorder måste du registrera de resurstimmar som läggs på servicen. Nedan beskrivs en procedur för att registrera resurstimmarna i fönstret **Serviceartikeldokument**.  
+När du arbetar med serviceartiklar på en serviceorder måste du registrera de resurstimmar som läggs på servicen. Nedan beskrivs en procedur för att registrera resurstimmarna på sidan **Serviceartikeldokument**.  
 
-Du kan använda en liknande procedur för att registrera timmarna i fönstret **Servicerader** som du öppnar från fönstret Tjänsteorder. Öppna relevant servicekort och välj sedan **Åtgärder**, välj **Order**, och sedan **Servicerader**.  
+Du kan använda en liknande procedur för att registrera timmarna på sidan **Servicerader** som du öppnar från sidan Tjänsteorder. Öppna relevant servicekort och välj sedan **Åtgärder**, välj **Order**, och sedan **Servicerader**.  
 
 Om samma resurs arbetar med alla serviceartiklar på serviceordern kan du registrera det totala antalet resurstimmar för endast en serviceartikel och sedan dela resursraden så att resurstimmarna tilldelas andra serviceartiklar.
 
@@ -118,11 +118,11 @@ Om samma resurs arbetar med alla serviceartiklar på serviceordern kan du regist
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Så här fördelar du resurser till alla serviceartiklar på en serviceorder:
 Om samma resurs (t.ex. en tekniker) arbetar med en serviceorders alla serviceartiklar kan du registrera det totala antalet resurstimmar på en enda serviceartikel och sedan  dela resursraderna för att fördela resurstimmarna på de andra serviceartiklarnas resursrader.  
 
-Följande visar hur man delar resursrader i fönstret **Servicefakturarader**.  
+Följande visar hur man delar resursrader på sidan **Servicefakturarader**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
-3. På snabbfliken **Rader** välj **Åtgärder**, välj **Order**, och sedan **Servicerader**. Fönstret **Servicerader** öppnas.  
+3. På snabbfliken **Rader** välj **Åtgärder**, välj **Order**, och sedan **Servicerader**. Sidan **Servicerader** öppnas.  
 4. Klicka på den resursrad som du vill dela. Innehållet i fältet **Antal** delas mellan orderns alla serviceartiklar.  
 5. På fliken **Åtgärder** välj **Dela resursrader**. Välj **Ja** för att bekräfta.  
 

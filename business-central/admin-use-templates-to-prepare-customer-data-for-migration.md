@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Förbereda migrering av kunddata
@@ -45,32 +45,46 @@ När du väljer en befintlig datamall måste du utvärderar om de mallar som du 
 >  Med dessa datamallar kan du också snabbt skapa nya poster. Använd dem för snabbare och mer korrekt dataskapande. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsmallar** och välj sedan relaterad länk.  
-2. I fönstret **Konfig. mallista** väljer du en datamall i listan och sedan åtgärden **Redigera**.  
+2. På sidan **Konfigurationsmallar** väljer du en datamall i listan och sedan åtgärden **Redigera**.  
 
 Om standardmallarna inte uppfyller behoven kan du skapa nya mallar eller lägga till fält i en befintlig mall. Om standardmallarna är tillräckliga, kan du använda dem för att skapa transaktioner som baseras på huvuddatamallar.
 
-## <a name="to-create-a-data-template"></a>För att skapa en datamall
+## <a name="to-create-a-new-data-template"></a>Skapa en ny datamall.
 Du kan skapa en ny datamall, om standardmallarna inte inte uppfyller behoven för ditt nya företag. Om du skapar fler än en kan det vara praktiskt att anta en namnpraxis för fältet **Kod**.
 
 Varje mall består av ett huvud och rader. När du skapar en mall, kan du ange vilka fält som alltid ska användas för data av en viss typ. Du kan till exempel skapa olika kundmallar som ska kopplas till olika kundtyper. När du skapar kunden som använder en mall kan du använda malldata för att fylla i vissa fält i förväg.
 
-### <a name="to-create-a-data-template-header"></a>Så här skapar du ett datamallhuvud
-1. Öppna fönstret **Konfig. mallista**.
+### <a name="to-copy-an-existing-data-template"></a>Kopiera en befintlig datamall
+Du kan snabbt skapa en ny datamall genom att kopiera information från en befintlig datamall, som du sedan redigerar.
+
+1. Öppna sidan **konfigurationsmallar**.
 2. Välj åtgärden **Ny**.
+3. Fyll i fältet **Kod**.
+4. Välj åtgärden **Kopiera konfigurationsmall**.
+5. På sidan **konfigurationsmallar**, markera en befintlig mall som du vill kopiera och välj sedan knappen **OK**.
+
+Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya mallen.
+
+### <a name="to-create-a-data-template-header-manually"></a>Så här skapar du ett datamallhuvud manuellt
+1. Öppna sidan **konfigurationsmallar**.
+2. Välj åtgärden **Ny**.
+3. Fyll i fältet **Kod**.
 3. I fältet **Tabell-ID** anger du den tabell som denna mall avser. Fältet **Tabellnamn** fylls i automatiskt när fältet **Tabell-ID** ställs in.
 
-### <a name="to-create-a-data-template-line"></a>Så här skapar du ett datamallrad
-1. På första raden väljer du fältet **Fältnamn**. I fönstret **Fältlista** visas en lista över tabellens fält.
+### <a name="to-create-a-data-template-line-manually"></a>Så här skapar du en datamallrad manuellt
+1. På första raden väljer du fältet **Fältnamn**. På sidan **Fältlista** visas en lista över tabellens fält.
 2. Markera ett fält och välj sedan knappen **OK**. Fältet **Fälttext** fylls i med fältnamnet.
 3. I fältet **Standardvärde** anger du ett lämpligt värde. I vissa fall kan du behöva använda ett värde som inte finns tillgängligt i databasen. I så fall kan du markera kryssrutan **Hoppa över relationskontroll** för att göra det möjligt att applicera data utan fel.
 
     > [!TIP]  
     > Eftersom fältet **Standardvärde** inte har ett uppslag till motsvarande [!INCLUDE[d365fin](includes/d365fin_md.md)]-fältalternativ kopierar och klistrar du in det värde som du vill ha från den relaterade sidan till mallen.
 
-    > Markera kryssrutan **Obligatoriskt**. Kryssrutan är endast för information. Här får du information om att data måste skrivas in i fältet av användaren, men ingen affärslogik behövs. Du kan till exempel inte fakturera och bokföra en order om bokföringsmallar inte har lagts upp. Eftersom bokföringsmallar måste användas kan du markera kryssrutan **Obligatoriskt** för de här fälten.
+4. Markera kryssrutan **obligatorisk** om användare måste fylla i det aktuella området.
 
-3. I fältet **Referens** anger du nödvändig information om fältet.
-4. Välj **OK**.
+    > [!NOTE]
+    > Kryssrutan är endast för information. Ingen affärslogik behövs. Till exempel kan användare inte skicka en faktura om postgrupper inte har konfigurerats. Du kan välja kryssrutan **obligatorisk** för de här fälten för att fylla i dem och därmed undvika en bokföringsfel senare.
+5. I fältet **Referens** anger du nödvändig information om fältet.
+6. Välj **OK**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>För att exportera till en mall i Excel
 Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -87,7 +101,7 @@ Nu kan du ange kunddata i Excel-bladet. Om du har exporterat flera tabeller är 
 > Följande fel kan uppstå om du kör en engelsk version av Excel men har konfigurerat regionala inställningar för ett annat språk än engelska: "Gammalt format eller ogiltig bibliotekstyp." Kontrollera om språkpaketet för språket som används har installerats för att åtgärda felet.
 
 ## <a name="to-import-from-a-template-in-excel"></a>Så här kan du importera från en mall i Excel
-1. I fönstret **Konfig. kalkylark** väljer du åtgärden **Importera från mall**.
+1. På sidan **Konfigurationsformulär** och sedan väljer du åtgärden **Importera från mall**.
 3. Navigera till mallkalkylarket som du har skapat och klicka på åtgärden **Öppna**.
 4. Om du vill lägga till insamlade kunddata i databasen väljer du åtgärden **Koppla Data**.
 
@@ -117,8 +131,8 @@ Du kan koppla en datamall till valfri post, som finns i [!INCLUDE[d365fin](inclu
 Följande procedur baseras på ett nytt kundkort.  
 
 1. Skapa en kund. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
-2. I fönstret **Kundkort** väljer du åtgärden **Tillämpa mall**.  
-3. I fönstret**Kundmallar** markerar du en av mallarna och väljer sedan knappen **OK**.  
+2. På sidan **Kundkort** väljer du åtgärden **Tillämpa mall**.  
+3. På sidan **Kundmallar** markerar du en av mallarna och väljer sedan knappen **OK**.  
 
 Standardvärdena från den valda kundmallen förs in på kundkortet.
 

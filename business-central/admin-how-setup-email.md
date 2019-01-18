@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration
-För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du fylla i fälten i fönstret **SMTP-postinställning**.
+För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du fylla i fälten på sidan **SMTP-postinställning**.
 
 > [!NOTE]  
 >   I stället för att ange information för SMTP-server kan du använda en funktion för att mata in information från din Office 365-prenumeration.
@@ -31,7 +31,7 @@ Du kan antingen skapa e-post skapar du manuellt eller också kan du få hjälp m
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan också välja åtgärden **Använd Office 365-serverinställningar** för att infoga information som redan har definierats för din Office 365-prenumeration.
 4. När alla fälten är korrekt ifyllda, väljer du åtgärden **Testa e-postinställningar**.
-5. När testet lyckas stänger du fönstret.
+5. När testet lyckas stänger du sidan.
 
 ## <a name="see-also"></a>Se även  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

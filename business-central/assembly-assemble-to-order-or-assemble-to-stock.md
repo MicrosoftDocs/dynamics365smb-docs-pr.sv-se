@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
@@ -38,7 +38,7 @@ Du använder vanligtvis *montering mot kundorder* för de artiklar som du inte v
 
 I montering mot kundorderprocessen är artikel satt samman som svar på en försäljningsorder och med ett ett-till-ett-länk mellan monteringsorder och försäljningsorder.  
 
-När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader, som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda **Montering mot kundorderrader** fönstret för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
+När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader, som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda sidan **Montering mot kundorderrader** för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Även om detta inte är en del av standard processen, kan du sälja lagerkvantiteten med antalet för montering mot kundorder. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

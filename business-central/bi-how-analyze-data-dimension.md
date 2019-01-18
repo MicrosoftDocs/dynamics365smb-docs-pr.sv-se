@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bfb5ce68e4570f4d96a4216ea01f9d1ecc3bc623
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
@@ -25,27 +25,28 @@ Inom ekonomisk analys är en dimension data som du kan lägga till en transaktio
 Att analyera data efter dimensioner ger dig bättre inblick i din verksamhet, så att du kan utvärdera information, till exempel hur väl verksamheten fungerar, inom vilka områden det går riktigt bra och inom vilka det går sämre samt var det krävs mer resurser.
 
 > [!TIP]
-> Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna i alla fönstrer för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
+> Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna på alla sidor för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
 
 ## <a name="to-set-up-an-analysis-view"></a>Så här definierar du en analysvy  
 En analys per dimension visar en vald kombination av dimensioner. Du kan lagra och hämta alla analyser som har definierats. Informationen som används för att skapa en analys lagras på **analysvykortet** för att underlätta framtida analyser.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Analysvyer** och välj sedan relaterad länk.  
-2. I fönstret **Analysvylista** väljer du åtgärden **Ny**.
+2. På sidan **Analysvylista** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Om du vill lägga till ytterligare dimensionskoder förutom de fyra koderna väljer du på snabbfliken **Dimensioner**, åtgärden **Filter**, fyller i fälten och klickar på **OK**.  
 5. Om du vill uppdatera vyn, väljer du åtgärden **uppdatera**.
 
 ## <a name="to-analyze-by-dimensions"></a>Analysera efter dimensioner
-Du kan använda matrisen **Analys per dimension** för att visa beloppen i redovisningen med hjälp av de analysvyer som du har definierat. Du fyller i fönstret **Analys per dimension** för att definiera vad som ska visas i matrisen och klickar sedan på **Visa matris** för att visa matrisen.  
+Du kan använda matrisen **Analys per dimension** för att visa beloppen i redovisningen med hjälp av de analysvyer som du har definierat. Du fyller i sidan **Analys per dimension** för att definiera vad som ska visas i matrisen och klickar sedan på **Visa matris** för att visa matrisen.  
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Analysvyer** och välj sedan relaterad länk.  
+2. Välj lämplig analysvy och klicka på **Analys per dimension**.
+3. Högst upp på sidan **Analys efter dimensioner** fyller du i fälten för att definiera vilka data som ska visas och hur.
+4. Välj åtgärden **Visa matris** för att öppna respektive matrissida för den definierade analysvyn.
+5. Om du vill visa en specifikation av ett belopp som visas på matrissidan väljer du beloppet för att granska dem i detalj.  
 
 - Kolumnen till vänster innehåller information baserad på vad du valt i fältet **Visa som rader** i huvudet.  
-- Kolumnen till höger innehåller information baserad på vad du valt i fältet **Visa som kolumner** i huvudet.  
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Analys per dimension** och välj sedan relaterad länk.  
-2. Välj lämplig analysvy och klicka på **Redigera analysvy**.
-3. Högst upp i fönstret **Analys efter dimensioner** fyller du i fälten för att definiera vad som ska visas.
-4. 5. Om du vill visa en specifikation av ett belopp som visas i matrisfönstret väljer du beloppet.  
+- Kolumnen till höger innehåller information baserad på vad du valt i fältet **Visa som kolumner** i huvudet.
 
 > [!IMPORTANT]  
 >   Du kan inte välja en period som är kortare än perioden som angetts för datumkomprimeringen på **Analysvy**-kortet. Kommandona **Nästa period** och **Föregående period** är inaktiverade om du har valt **Period** i **Visa som rader** eller **Visa som kolumner**.  
@@ -57,14 +58,15 @@ Du kan använda matrisen **Analys per dimension** för att visa beloppen i redov
 >   Du kan också ändra vyn genom att ändra innehållet i fältet **Visa som rader** och fältet **Visa om kolumner**. Om du vill ändra vyinställningen, väljer du åtgärden **Byt plats på rader och kolumner**.
 
 ## <a name="to-update-an-analysis-view"></a>Så här uppdaterar du en analysvy  
-Beloppen som visas i fönstret **Analys per dimension** ger dig en bild av företagets status vid tidpunkten för den sista uppdateringen. Om du vill få en bild av den aktuella situationen måste du uppdatera analysvyn genom att köra funktionen Uppdatera.
+Beloppen som visas på sidan **Analys per dimension** ger dig en bild av företagets status vid tidpunkten för den sista uppdateringen. Om du vill få en bild av den aktuella situationen måste du uppdatera analysvyn genom att köra funktionen Uppdatera.
 
-Nedanstående procedur beskriver hur du uppdaterar en analysvy från fönstret **Analys per dimension**. Momentet är liknande från den **Analysvykort** och **Analysvylista** windows.  
+Nedanstående procedur beskriver hur du uppdaterar en analysvy från sidan **Analys per dimension**. Momentet är liknande från sidorna **Analysvykort** och **Analysvylista**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Analys per dimension** och välj sedan relaterad länk.  
-2. I fönstret **analys per dimension** väljer du fältet **Analysvykod** för att visa alternativen.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Analysvyer** och välj sedan relaterad länk.
+2. Välj lämplig analysvy och klicka på **Analys per dimension**.
+2. På sidan **analys per dimension** väljer du fältet **Analysvykod** för att visa alternativen.  
 3. Välj raden med önskad analysvy.  
-4. Välj åtgärden **Uppdatera**.  
+4. På sidan **Analysvy** väljer du åtgärden **Uppdatera**.  
 
 > [!TIP]  
 >   Om du väljer kryssrutan **Uppdatera vid bokföring** på ett analysvykort, uppdateras vyn automatiskt när du bokför en transaktion som berörs.

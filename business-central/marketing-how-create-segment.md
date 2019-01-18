@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-segments"></a>Skapa segment
@@ -27,7 +27,7 @@ Du kan skapa segment för att kunna välja en grupp av kontakter, exempelvis om 
 2. Välj åtgärden **Ny**.
 3. I avsnittet **Allmänt** i **Nr.** -fältet, skriv numret på den artikel som har beställts i fältet.
 
-    Om du har lagt upp en nummerserie för segment i fönstret **Marknadsföringsinställningar** kan du i stället trycka på RETUR så anges nästa tillgängliga segmentnummer automatiskt.
+    Om du har lagt upp en nummerserie för segment på sidan **Marknadsföringsinställningar** kan du i stället trycka på RETUR så anges nästa tillgängliga segmentnummer automatiskt.
 4. Fyll i övriga fält i huvudet.
 
 Nu kan du lägga till kontakter i segmentet. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).

@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
@@ -27,9 +27,9 @@ Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par sak
 I tabellen nedan finns länkar till mer information. När du har skapat detta kan du starta olika aktiviteter. Mer information finns i [Anläggningstillgångar](fa-manage.md).  
 
 > [!NOTE]  
->   Du kan bokföra anläggningstillgångstransaktioner i fönstret **Anl.tillg. redovisningsjournal** eller **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder fönstret **Anl.tillg. redovisningsjournal**.  
+>   Du kan bokföra anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder sidan **Anl.tillg. redovisningsjournal**.  
 
-När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integration** i fönstret **Avskrivningsregelkort**, sedan kommer fönstret **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
+När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integration** på sidan **Avskrivningsregelkort**, sedan kommer sidan **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 

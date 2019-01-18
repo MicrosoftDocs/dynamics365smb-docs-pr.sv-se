@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Genomsnittskostnad
@@ -23,7 +23,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
  Värderingsdatum anges automatiskt.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Ställa in beräkning av genomsnittskostnad  
- Följande tabell beskriver de två fälten i fönstret **Lagerinställningar** som måste fyllas för att aktivera beräkning av genomsnittskostnader.  
+ Följande tabell beskriver de två fälten på sidan **Lagerinställningar** som måste fyllas för att aktivera beräkning av genomsnittskostnader.  
 
 |Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 > [!NOTE]  
 >  Du kan endast använda en genomsnittskostnadsperiod och beräkningstyp för genomsnittskostnad under ett räkenskapsår.  
 >   
->  **Bokföringsperioder** visar genomsnittskostnadsperioden och vilken beräkningstyp för genomsnittskostnad som används under perioden, för varje bokföringsperiod.  
+>  Sidan **Bokföringsperioder** visar genomsnittskostnadsperioden och vilken beräkningstyp för genomsnittskostnad som används under perioden, för varje bokföringsperiod.  
 
 ## <a name="calculating-average-cost"></a>Beräkna genomsnittskostnad  
  När du bokför en transaktion för en artikel som använder metoden Genomsnittskostnad skapas en transaktion i tabellen **Ingångspunkt för genomsn.kostn.justering**. Den här transaktionen innehåller transaktionens artikelnummer, variantkod och lagerplatskod. Transaktionen innehåller fältet **Värderingsdatum** som anger det senaste datumet i genomsnittskostnadsperioden som transaktionen bokfördes i.  
@@ -51,7 +51,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
  Denna beräknade genomsnittskostnad kopplas sedan till lagerminskningarna för artikeln (eller artikeln, lagerstället och varianten) med bokföringsdatum i perioden för genomsnittskostnad. Om en lagerökning finns som är fast kopplad till lagerminskningar i genomsnittskostnadsperioden, speditioneras den beräknade genomsnittskostnaden från ökningen till minskningen.  
 
 ### <a name="example-average-cost-period--day"></a>Exempel: Period för genomsnittskostnad = Dag  
- Följande exempel visar hur resultatet blir när genomsnittskostnaden beräknas baserat på genomsnittskostnadsperioden en dag. Fältet **Genoms. kost.ber.typ** i fönstret **Lagerinställning** är inställd på **Artikel**.  
+ Följande exempel visar hur resultatet blir när genomsnittskostnaden beräknas baserat på genomsnittskostnadsperioden en dag. Fältet **Genoms. kost.ber.typ** på sidan **Lagerinställning** är inställd på **Artikel**.  
 
  Följande tabell visar artikeltransaktionerna för exempelgenomsnittskostnadsartikeln, ARTIKEL1, innan batch-jobbet **Justera kostnad - Artikeltransaktioner** är färdigt.  
 
@@ -88,7 +88,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 |02-03-20|Försäljning|-1|-100.00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Exempel: Period för genomsnittskostnad = Månad  
- Följande exempel visar hur resultatet blir när genomsnittskostnaden beräknas baserat på genomsnittskostnadsperioden en månad. Fältet **Genoms. kost.ber.typ** i fönstret **Lagerinställning** är inställd på **Artikel**.  
+ Följande exempel visar hur resultatet blir när genomsnittskostnaden beräknas baserat på genomsnittskostnadsperioden en månad. Fältet **Genoms. kost.ber.typ** på sidan **Lagerinställning** är inställd på **Artikel**.  
 
  Om genomsnittskostnadsperioden är en månad skapas endast en transaktion för varje kombination av artikelnummer, variantkod, lagerställekod och värderingsdatum.  
 

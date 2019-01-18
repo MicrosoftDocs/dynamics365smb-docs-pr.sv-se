@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Uppdatera standardkostnader
@@ -40,7 +40,7 @@ Mer information finns i [Om att beräkna standardkostnad](finance-about-calculat
     5. Kör batch-jobbet **Uppsummerad standardkostnad**.
     6.  Granska resultaten och gör nödvändiga ändringar.
     7.  Kör batch-jobbet **Implementera standardkostnadsändringar**.  
-4.  Granska och bokför fönstret  **Omvärderingsjournal** , vilken har fyllts på med transaktioner från föregående steg i den här processen.  
+4.  Granska och bokför sidan **Omvärderingsjournal** , vilken har fyllts på med transaktioner från föregående steg i den här processen.  
 
 ## <a name="see-also"></a>Se även  
  [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)   

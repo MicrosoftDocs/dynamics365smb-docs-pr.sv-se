@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 När en post som till exempel ett inköpsdokument eller ett kundkort måste godkännas av någon i organisationen, skickar du en godkännandebegäran som en del av ett arbetsflöde. Beroende på hur arbetsflödet konfigureras meddelas sedan den lämpliga godkännaren om att posten kräver godkännande.
 
-Du kan ställa in godkännandearbetsflöden i fönstret **Arbetsflöde**. Mer information finns i [Konfigurera arbetsflöden](across-set-up-workflows.md).
+Du kan ställa in godkännandearbetsflöden på sidan **Arbetsflöde**. Mer information finns i [Konfigurera arbetsflöden](across-set-up-workflows.md).
 
 Förutom arbetsflöden för godkännande som beskrivs i det här avsnittet, kan du utföra olika andra arbetsflödesuppgifter. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdok
 ## <a name="to-request-approval-of-a-record"></a>Så här begära du godkännande av en post
 Efterföljande aktivitet utförs av en godkännaranvändare.
 
-1. I fönstret som visar posten väljer du åtgärden **Skicka godkännandebegäran**.
+1. på sidan som visar posten väljer du åtgärden **Skicka godkännandebegäran**.
 2. För att se alla dina godkännandebegäranden, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Transaktioner för godkännandebegäranden** och välj sedan relaterad länk.  
 
 Statusen på godkännandetransaktionen uppdateras från **Skapad** till **Öppen**. Statusen på posten, t.ex. en inköpsfaktura, uppdateras från **Öppen** till **Väntar på godkännande** och är låst för bearbetning tills alla godkännare har godkänt transaktionen.
@@ -42,14 +42,14 @@ Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten go
 
 Det kan hända att en kund vill göra ändringar i en order efter att den har skickats till godkännande. I det här fallet kan du annullera godkännandeprocessen och göra nödvändiga ändringar i ordern innan du begär godkännande igen.
 
-- I fönstret som visar posten väljer du åtgärden **Avbryt godkännandebegäran**.
+- på sidan som visar posten väljer du åtgärden **Avbryt godkännandebegäran**.
 
 När godkännandebegäran har annullerats, ändras statusen på den relaterade godkännandeposten till **Annullerad**. Statusen på posten uppdateras från **Väntar på godkännande** till **Öppen**. Godkännandeprocessen kan sedan starta från början igen.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Så här godkänner eller avvisar du begäranden om godkännande
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
 
-Du kan bearbeta godkännandebegäran i fönstret **Begäranden att godkänna** till exempel att godkänna flera begäran i taget. Alternativt kan du behandla varje förfrågningsdokument på relaterade post, till exempel fönstret **inköpsfaktura** genom att välja länken i meddelandet som du får.
+Du kan bearbeta godkännandebegäran på sidan **Begäranden att godkänna** till exempel att godkänna flera begäran i taget. Alternativt kan du behandla varje förfrågningsdokument på relaterade post, till exempel sidan **inköpsfaktura** genom att välja länken i meddelandet som du får.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Begäranden att godkänna** och välj sedan relaterad länk.
 2. Markera en eller flera rader för posten eller posterna som du vill godkänna eller avvisa.
@@ -79,7 +79,7 @@ Med jämna mellanrum måste du påminna godkännandearbetsflödesanvändare om f
 Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontroll för att hitta alla förfallna öppna godkännandetransaktioner. Varje godkännare som har minst en förfallen godkännandetransaktion får meddelande med en lista över alla förfallna godkännandebegäranden. Meddelandet skickas också till deras godkännare och alla som begärt de förfallna godkännandena. Detta är praktiskt om den förfallna godkännandetransaktionen behöver delegeras till en ersättare.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
-2. I fönstret **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
+2. På sidan **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)    

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
@@ -28,11 +28,13 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 
 | Till | Gå till |
 | --- | --- |
-|Lägga till ytterligare information till konton, kundkort eller försäljningsorder för att kommunicera avtal, till exempel en särskild pris- eller leveransmetod för andra användare.|[Lägga till kommentarer i kort och dokument](across-how-use-comments.md)| 
+|Lägga till ytterligare information till konton, kundkort eller försäljningsorder för att kommunicera avtal, till exempel en särskild pris- eller leveransmetod för andra användare.|[Lägga till kommentarer i kort och dokument](across-how-use-comments.md)|
 |Visa pågående, bokförda eller arkiverade dokument som är kopplade till försäljnings- och inköpsorderrader.|[Spåra dokumentrader](across-how-to-track-document-lines.md)|
 | Förmedla innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder. |[Skicka dokument som e-post](ui-how-send-documents-email.md) |
+|Arkivera försäljnings- och inköpsorder, offerter, försäljningsreturorder och avropsorder, och du kan använda arkiverade dokumentet för att återskapa dokumentet som det arkiverades från.|[Arkivera dokument](across-how-to-archive-documents.md)|
 | Skapa standardtextkoder så att du kan utöka standardtexten genom att lägga till extra rader, och skapa villkor för hur extraraderna kan användas. |[Lägg till utökad artikeltext](ui-how-define-ext-text.md) |
 |Skapa uppgifter som påminner dig om arbete som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.|[Definiera användaruppgifter](across-user-tasks.md)|
+|Bifoga bilder, dokument och andra typer av filer till alla kort, till exempel artikelkort och projektkort och du kan bifoga filer till alla typer av försäljnings- och inköpsdokument.|[Bifoga filer till kort och dokument](across-attach-document-master-data.md)|
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|
 |Registrera externa dokument inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|

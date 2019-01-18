@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
@@ -39,7 +39,7 @@ Om fältet inte är markerat fylls fälten **Enhetspris** och **Radbelopp** auto
 
 Du kan lägga upp en standarduppsättning av **Priser inklusive moms** för alla försäljningsdokument för en kund i fältet **Priser inklusive moms** på **Kund**-kortet. Du kan också lägga upp att artikelpriser ska anges inklusive eller exklusive moms. Vanligtvis anges artikelpriser på artikelkortet exklusive moms. Informationen i fältet **Pris inklusive moms** på **artikelkortet** används för att ange enhetsprisbeloppet för försäljningsdokument.  
 
-Följande tabell innehåller en översikt över hur enhetsprisbeloppen för ett försäljningsdokument beräknas när du inte har lagt upp priser i fönstret **Försäljningspriser**:  
+Följande tabell innehåller en översikt över hur enhetsprisbeloppen för ett försäljningsdokument beräknas när du inte har lagt upp priser på sidan **Försäljningspriser**:  
 
 |**Fältet Försäljningspris inklusive moms på artikelkortet**|**Fältet Priser inklusive moms i försäljningshuvudet**|**Utförd åtgärd**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Det går att göra  korrigeringar av bokförda momstransaktioner. Detta gör det
 Om en kassarabatt har beräknats utifrån ett fakturabelopp inklusive moms kan du återställa den del av momsbeloppet som utgörs av kassarabatten när kassarabatten beviljas. Observera att du måste aktivera fältet **Justering för kassarabatt** i både redovisningsinställningarna generellt och i momsbokföringsinställningarna för särskilda kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Så här anger du moms i försäljningsdokument manuellt  
-1. I fönstret **Redovisningsinställningar** ange en **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
-2. Markera fältet **Tillåt momsdifferens** i fönstret **Försäljningsinställningar** .  
+1. På sidan  **Redovisningsinställningar** ange en  **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
+2. På sidan **Tillåt momsdifferens** i fönstret **Försäljningsinställningar** .  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Så här justerar du moms för ett försäljningsdokument  
 1. Öppna den aktuella försäljningsordern.  
@@ -71,11 +71,11 @@ Om en kassarabatt har beräknats utifrån ett fakturabelopp inklusive moms kan d
 Du kan också justera momsbelopp i redovisnings-, försäljnings- och inköpsjournaler. Detta kan vara nödvändigt när du anger en leverantörsfaktura i journalen och det förekommer en differens mellan det momsbeloppet som [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknade och momsbeloppet på den leverantörsfaktura du har tagit emot.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Innan du skriver in moms i en redovisningsjournalrad  
-1. I fönstret **Redovisningsinställningar** ange en **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
-2. I fönstret **Redovisningsjournalmallar** markerar du kryssrutan **Tillåt momsdifferens** för den relevanta journalen.  
+1. På sidan  **Redovisningsinställningar** ange en  **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
+2. På sidan **Redovisningsjournalmallar** markerar du kryssrutan **Tillåt momsdifferens** för den relevanta journalen.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Innan du kan ange moms manuellt i försäljnings- och inköpsjournaler  
-1. I fönstret **Inköpsinställningar** markerar du kryssrutan **Tillåt momsdifferens**.  
+1. På sidan **Inköpsinställningar** markerar du kryssrutan **Tillåt momsdifferens**.  
 2. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
    När du uppdaterar fältet **Status** till **Obligatoriskt**, **Inlevererat**eller **Ej inlevererat**, skapas ett certifikat.  
   
     > [!TIP]  
-    >  Du kan använda fönstret **Leveransintyg** för att få en vy över alla bokförda utleveranser som ett leveransintyg har skapats för.  
+    >  Du kan använda sidan **Leveransintyg** för att få en vy över alla bokförda utleveranser som ett leveransintyg har skapats för.  
 
 5. Välj **Skriv ut leveransintyg**.  
   
@@ -135,10 +135,10 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 4. Välj kryssrutan **Utskriftsradinformation** om du vill inkludera information från raderna i utleveransdokumentet på leveransintyget.  
 5. Välj kryssrutan **Skapa leveransintyg om de inte redan skapats** om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska skapa intyg för bokförda leveranser som inte har något vid utförandet. När du markerar kryssrutan upprättas nya certifikat för alla bokförda utleveranser som inte har intyg i det valda intervallet  
 6. Som standard gäller filterinställningarna för utleveransdokumentet som du har valt. Fyll i information om filter för att välja ett visst leveransintyg som du vill skriva ut.  
-7. I fönstret **Leveransintyg** väljer du åtgärden **Skriv ut** för att skriva ut rapporten eller välja åtgärden **Förhandsgranska** för att visa den på skärmen.  
+7. På sidan **Leveransintyg** väljer du åtgärden **Skriv utPrint** för att skriva ut rapporten eller välja åtgärden **Förhandsgranska** för att visa den på skärmen.  
 
     > [!Note]  
-    > Fältet **leveransintygstatus** och **Utskrivet** är uppdaterade för leveransen i fönstret **leveransintyg**.  
+    > Fältet **leveransintygstatus** och **Utskrivet** är uppdaterade för leveransen på sidan **leveransintyg**.  
 
 8. Du måste skicka det utskrivna leveransintyget till kunden för signatur.  
 
@@ -153,7 +153,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 
    Om kunden inte returnerar det undertecknade leveransintyget väljer du **Ej inlevererad**. Du måste sedan skicka kunden en ny faktura som omfattar moms, eftersom den ursprungliga fakturan inte kommer att accepteras av skattemyndigheten.  
 
-Om du vill visa en grupp av certifikat startar du från fönstret **Leveransintyg** och uppdaterar sedan information om status för utestående intyg när du tar emot dem från kunderna. Det kan vara användbart när du vill söka efter alla intyg som har en viss status, till exempel **Obligatoriskt**, för vilka du vill uppdatera statusen till **Ej inlevererat**.  
+Om du vill visa en grupp av certifikat startar du från på sidan **Leveransintyg** och uppdaterar sedan information om status för utestående intyg när du tar emot dem från kunderna. Det kan vara användbart när du vill söka efter alla intyg som har en viss status, till exempel **Obligatoriskt**, för vilka du vill uppdatera statusen till **Ej inlevererat**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Så här uppdaterar du statusen för en grupp med leveransintyg  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leveransintyg** och välj sedan relaterad länk.  
@@ -166,7 +166,7 @@ Om du vill visa en grupp av certifikat startar du från fönstret **Leveransinty
    Du kan ändra datumet för att visa datumet då du fick det signerade leveransintyget. Du kan också lägga till en länk till det undertecknade intyget med hjälp av standarddokumentkoppling för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
     > [!NOTE]  
-    >  Du kan inte skapa ett nytt leveransintyg i fönstret **Leveransintyg** när du navigerar till den med den här proceduren. Om du vill skapa ett intyg för en leverans som inte var inställd för att kräva en öppnar du den bokförda försäljningsutleveransen och använder någon av de två procedurer som beskrivs ovan:  
+    >  Du kan inte skapa ett nytt leveransintyg på sidan **Leveransintyg** när du navigerar till den med den här proceduren. Om du vill skapa ett intyg för en leverans som inte var inställd för att kräva en öppnar du den bokförda försäljningsutleveransen och använder någon av de två procedurer som beskrivs ovan:  
     >   
     > * Så här skapar du manuellt ett leveransintyg  
     > * Så här skriver du ut ett leveransintyg.

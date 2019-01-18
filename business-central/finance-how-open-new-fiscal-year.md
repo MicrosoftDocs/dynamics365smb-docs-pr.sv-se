@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
+redirect_url: finance-accounting-periods-and-fiscal-years
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Öppna ett nytt räkenskapsår och skapa bokföringsperioder
 Innan du kan föra in ett räkenskapsår måste du öppna räkenskapsåret och definiera dess bokföringsperioder.  
 
-För många företag sammanfaller räkenskapsåret inte med kalenderåret. Räkenskapsperioder kan beräknas i andra tidsenheter, exempelvis månader eller kvartal. Använd fönstret **Skapa räkenskapsår** för att lägga upp bokföringsperioder som passar dina affärsbehov. Dock   
+För många företag sammanfaller räkenskapsåret inte med kalenderåret. Räkenskapsperioder kan beräknas i andra tidsenheter, exempelvis månader eller kvartal. Använd sidan **Skapa räkenskapsår** för att lägga upp bokföringsperioder som passar dina affärsbehov. Dock   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Så här öppnar du ett nytt räkenskapsår
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsperioder** och välj sedan relaterad länk.
-2. I fönstret **Bokföringsperioder** väljer du åtgärden **Skapa år**.
+2. På sidan **Bokföringsperioder** väljer du åtgärden **Skapa år**.
 3. Fyll i fälten för att definiera räkenskapsårets struktur.
 
     Ett räkenskapsår omfattar normalt sett 12 perioder på vardera en månad, men du kan dela upp året på annat sätt om du så önskar.

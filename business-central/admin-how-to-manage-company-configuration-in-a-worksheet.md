@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
@@ -33,7 +33,7 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
 2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Så här lägger du till en tabell i kalkylarket  
-1.  I fönstret **Konfig. kalkylark** väljer du åtgärden **Redigera lista**.  
+1.  På sidan **Konfig. kalkylark** väljer du åtgärden **Redigera lista**.  
 2.  I fältet **Radtyp** på första raden väljer du **Tabell**.  
 4.  I fältet **Tabell-ID** markerar du tabellen som du vill lägga till i konfigurationen.  
 5.  I fältet **Sid-ID** anger du det sid-ID som är kopplat till tabellen. För standardtabeller fylls detta värde i automatiskt. För anpassade tabeller måste du ange ID.
@@ -53,7 +53,7 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
 10. Om du vill ta bort dubbletter i tabellinformationen som kan uppstå genom åtgärden **Hämta relaterade tabeller** väljer du åtgärden **Radera dubblettrader**. Det tar bort dubblettabeller som har samma paketkod.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Så här kan du lägga till flera tabeller i konfigurationskalkylarket  
-1. Välj åtgärden **Hämta tabeller**. Fönstret **Hämta Konfig. tabeller** öppnas.  
+1. Välj åtgärden **Hämta tabeller**. Sidan för batch-jobb **Hämta konfig. tabell** öppnas.  
 2. I snabbfliken **Alternativ** anger du de tabelltyper som du vill lägga till i konfigurationen enligt beskrivningen i följande tabell.
 
     |Alternativ|Description|  
@@ -73,7 +73,7 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
     > - Relationen är villkorlig.  
     > Exempel: Om du får relaterade tabeller för tabellen **Kund** kommer tabellen **Lagerställe** inte att läggas till eftersom den bara är villkorligt relaterad till tabellen **Kund**, nämligen om fältet **Lagerställekod** i tabellen **Kund** har fyllts i.  
     > - Den relaterade tabellen filtreras.  
-    > Exempel: Ett fält i den relaterade tabellen har en WHERE-sats. Anledningen till det är att den ingående relationsinformationen lagras i den virtuella tabellen **Fält** och är inte tillgänglig i fönster som konfigurationskalkylarket av prestandaanledningar.  
+    > Exempel: Ett fält i den relaterade tabellen har en WHERE-sats. Anledningen till det är att den ingående relationsinformationen lagras i den virtuella tabellen **Fält** och är inte tillgänglig på sidor som konfigurationskalkylarket av prestandaanledningar.  
     > Du måste lägga till relaterade tabeller med sådana komplexa relationer manuellt genom att följa steg 4 i avsnittet ”Så här lägger du till en tabell i kalkylarket”.
 
 7. Om du vill ta bort tabeller i den resulterande listan över tabeller, väljer du en tabell som du vill ta bort och väljer sedan åtgärden **Ta bort**.  

@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Ansluta Power BI till innehållspaket för Dynamics 365 Business Central
@@ -29,7 +29,7 @@ Du måste ha ett giltigt konto med Dynamics 365 och med Power BI. Du måste äve
 
 Du kan också starta från Dynamics 365 Business Edition. Från Rollcentret navigerar du till **Rapportval** i rollcenterdelen för Power BI. Välj antingen **Service** eller **Min organisation** i menyfliken. När något av ovanstående åtgärder är markerade förs du till antingen galleriet Organisation i Power BI eller till tjänstebiblioteket i Power BI, vilket även filtreras att bara visa innehållspaket relaterade till [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. I rutan **Tjänster**, markera **Hämta**. Då öppnas ett fönster med **AppSource** och **Program för Power BI-program**.  
+2. I rutan **Tjänster**, markera **Hämta**. Då öppnas en sida med **AppSource** och **Program för Power BI-program**.  
 ![Välj innehållspaket bland onlinetjänsterna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Markera **Program** i fliken **Program för Power BI-program**, välj det innehållspaket för **Microsoft Dynamics 365 Business Central** som du vill använda och välj sedan **Hämta nu**.  
 ![Välj Dynamics 365 Business Central och välj Hämta nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

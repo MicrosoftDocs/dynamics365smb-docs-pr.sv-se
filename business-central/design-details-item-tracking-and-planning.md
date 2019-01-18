@@ -13,10 +13,10 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: artikelkoppling
@@ -239,7 +239,7 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 * Du vill åsidosätta kopplingen som skapas automatiskt när du bokför, enligt artikelns värderingsprincip.  
 * Du måste returnera en artikel som en försäljning redan har kopplats till manuellt, utan att använda funktionen **Hämta bokförda dokumentrader som ska återföras**, och du måste därför ångra kopplingen.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en funktionen för analysering och rättning av artikelkopplingar. Detta arbete utförs i fönstret **Kopplingsformulär**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en funktionen för analysering och rättning av artikelkopplingar. Detta arbete utförs på sidan **Kopplingsformulär**.  
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  

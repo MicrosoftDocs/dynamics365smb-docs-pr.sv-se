@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Innan du kan arbeta med kontrakt, måste du ställa in följande:
 2. Skapa en ny servicekontraktsmall.  
 3. I fältet **Nr.** Skriv numret på den artikel som har beställts i kontraktmallen.  
   
-     Om du har skapat en nummerserie för kontraktsmallar i fönstret **Serviceinställningar** kan du trycka på Retur om du vill ange nästa lediga kontraktmallsnummer. Fyll i resterande fält om det behövs.  
+     Om du har skapat en nummerserie för kontraktsmallar på sidan **Serviceinställningar** kan du trycka på Retur om du vill ange nästa lediga kontraktmallsnummer. Fyll i resterande fält om det behövs.  
   
 4. På snabbfliken **Faktura** fyller du i fältet **Serv.kontrakt kontomall kod** i **Fakturaperiod**, osv. Fyll i resterande fält om det behövs.  
 5. Välj åtgärden **Servicerabatter** om du vill lägga till kontraktsrabatter.  

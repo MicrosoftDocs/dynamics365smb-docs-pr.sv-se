@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
@@ -40,9 +40,9 @@ Beställningsförslag släpps allmänt endast när den planerade tillgängliga k
 Fältet **Tidsenhet** används i partiformningsmetoder (**Fast orderkvantitet** och **Maximalt antal**), där lagernivån kontrolleras efter varje tidsenhet. Den första tidsenheten börjar på planeringsstartdatumet.  
 
 > [!NOTE]  
->  När beräkningen av tidsenheterna, ignorerar planeringssystemet eventuella ledig kalendrar som definieras i fältet **Baskalenderkod** i fönstren **företagsinformation** och **lagerställekort**.  
+>  När beräkningen av tidsenheterna, ignorerar planeringssystemet eventuella ledig kalendrar som definieras i fältet **Baskalenderkod** på sidorna **företagsinformation** och **lagerställekort**.  
 
-Standardsäkerhetsledtiden i fönstret **Produktionsinställning** ska anges till minst en dag. Förfallodatumet för efterfrågan kanske är känd, men inte den förfallotiden. Planeringen schemalägger bakåt för att uppfylla bruttobehov och om ingen säkerhetsledtid definieras kan varorna anlända för sent för att uppfylla efterfrågan.  
+Standardsäkerhetsledtiden på sidan **Produktionsinställning** ska anges till minst en dag. Förfallodatumet för efterfrågan kanske är känd, men inte den förfallotiden. Planeringen schemalägger bakåt för att uppfylla bruttobehov och om ingen säkerhetsledtid definieras kan varorna anlända för sent för att uppfylla efterfrågan.  
 
 Ytterligare tre periodfält för beställningscykel **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**, har också betydelse för att definiera när du ska beställa om. Mer information finns i avsnittet "Optimera när och hur mycket som ska beställas".  
 
@@ -100,7 +100,7 @@ I följande exempel representerar de svarta pilarna befintlig tillgång (upp) oc
 
 ![Utjämningsperiod, partiackumuleringsperiod och ändra antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Utjämningsperiod, partiackumuleringsperiod och ändra antal")  
 
-**Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** i fönstret **Produktionsinställningar**.  
+**Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** på sidan **Produktionsinställningar**.  
 
 ## <a name="modify-the-supply-orders"></a>Ändra leveransorder  
 När orderkalkylarkets antal har beräknats kan en eller flera av ordermodifierarna kan justera det. Till exempel är den maximal partistorlek större än eller lika med det lägsta partistorlek, som är större än eller lika med ordermultipeln.  

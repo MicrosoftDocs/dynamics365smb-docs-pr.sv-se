@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Hantera Leverantörsreskontra
@@ -36,10 +36,10 @@ Du kan koppla en betalning för att stänga fakturan när du bokför betalningen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] används för att ta fram olika betalningsförslag, t.ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Du kan ange att belopp som specificerats som tillgängliga betalningsmedel och berättigade kassarabatter ska beaktas i betalningsförslaget.
 
 ## <a name="issue-checks"></a>Utfärda checkar
-[!INCLUDE[d365fin](includes/d365fin_md.md)] låter dig utfärda checkar till leverantörer elektroniskt och manuellt. Du kan utföra båda i fönstret **betalningsjournaler**, där du kan även makulera checkar och granska checktransaktioner.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] låter dig utfärda checkar till leverantörer elektroniskt och manuellt. Du kan utföra båda på sidan **betalningsjournaler**, där du kan även makulera checkar och granska checktransaktioner.
 
 ## <a name="export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
-När du är redo att göra betalningar till leverantörer med hjälp av fönstret **Betalningsjournal**, kan du exportera en fil med betalningsinformation från journalraderna. Du kan sedan överföra filen till den elektroniska banken att bearbeta pengaöverföringar.
+När du är redo att göra betalningar till leverantörer med hjälp av sidan **Betalningsjournal**, kan du exportera en fil med betalningsinformation från journalraderna. Du kan sedan överföra filen till den elektroniska banken att bearbeta pengaöverföringar.
 
 Om du inte vill bokföra en utbetalningsjournalrad för en exporterad betalning, till exempel eftersom du väntar på att banken bekräftar transaktionen, kan du bara ta bort journalraden. När du senare skapar en utbetalningsjournal för att betala återstående belopp på fakturan kan du i fältet **Totalt exporterat belopp** se hur mycket av beloppet som redan har exporterats. Du kan också söka efter detaljerad information om det exporterade totalbeloppet genom att välja knappen **Transaktioner i kreditöverföringsregister**.
 

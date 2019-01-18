@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
@@ -93,7 +93,7 @@ I avancerade distributionslagerfunktioner kan lagerplatser ställas in med kapac
 
 På varje artikelkort kan du ange en enhet (UOM) för artikeln, t.ex stycken, pallar, liter, gram eller lådor. Du kan också välja basenhet för en artikel och ange större enheter som baseras på den. Du kan till exempel ange att en lastpall motsvarar 16 enheter, där den sistnämnda är basenheten.  
 
-Om du vill ange ett maximal antal av en viss artikel som ska lagras på en enskild lagerplats, och artikeln har fler än en enhetskod, måste du ange det maximala antalet för varje enhetskod som finns på artikelkortet. Om en artikel har ställts in för att hanteras i stycken och pallar måste fältet **Max. ant.** i fönstret **Lagerplatsinnehåll** för artikeln också vara i stycken och pallar. Annars beräknas det tillåtna antalet lagerplatsen inte korrekt.  
+Om du vill ange ett maximal antal av en viss artikel som ska lagras på en enskild lagerplats, och artikeln har fler än en enhetskod, måste du ange det maximala antalet för varje enhetskod som finns på artikelkortet. Om en artikel har ställts in för att hanteras i stycken och pallar måste fältet **Max. ant.** på sidan **Lagerplatsinnehåll** för artikeln också vara i stycken och pallar. Annars beräknas det tillåtna antalet lagerplatsen inte korrekt.  
 
 Om du har angett kapacitetsbegränsningar för lagerplatsinnehåll för en lagerplats, måste du först kontrollera att artikelns enhet och mått har ställts in på artikelkortet.  
 

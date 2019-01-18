@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22d79f478486bc2a7a58545345d604ac3ddd9755
+ms.sourcegitcommit: 43ad05c39544142a2873d0972b802c7392d853a6
+ms.openlocfilehash: 7f7d07ce7965b0db0f9779e396b1818ce398e812
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Ställa in lagerstyrning
@@ -41,7 +41,7 @@ Ett företags distributionsstrategi återspeglas i konfigurationen av dess lager
 |Aktivera lagerarbetarna att dela upp en större enhet i mindre enheter för att uppfylla behoven hos källdokument.|[Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Ställa in lagret så att det alltid föreslår automatiskt att de artiklar som utgår först plockas först.|[Aktivera plockning med FEFO](warehouse-picking-by-fefo.md)|
 |Få tips på hur du ordnar om lagerställen, lagerplatser eller zoner för att få mer effektiva lageraktiviteter.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|
-|Integrera streckkodsläsare i lösningen för hantering av lager.|[Använda ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Integrera streckkodsläsare i lösningen för hantering av lager. Endast för installation på plats.|[Använda ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)|
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

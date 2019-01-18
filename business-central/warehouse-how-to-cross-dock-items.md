@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cf67f83434f135226eaa677cd64d86090a0ab0f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="cross-dock-items"></a>Beräkna direktutleverans av artiklar
@@ -44,7 +44,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
     Om du använder zoner, skapa en zon för dina direktutleveranslagerplatser och välj **Direktutlevns lagerplatszon** fältet. Mer information finns i [Skapa lagerställen för att använda lagerplatser](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Plats** och välj sedan relaterad länk.  
-3.  I fönstret **Lagerställe** väljer du vilket lagerställe som du vill ställa in direktutleverans för och väljer sedan åtgärden **Redigera**.  
+3.  På sidan **Lagerställe** väljer du vilket lagerställe som du vill ställa in direktutleverans för och väljer sedan åtgärden **Redigera**.  
 4.  Markera kryssrutan **Använd direktutleverans** på snabbfliken **Lager** och fyll i **Direktutlev. förfalloberäkning** med tidsperiod att söka efter direktutleveransmöjligheter.
 
     Alternativet **Använd direktutleverans** är bara tillgängligt om du har markerat fälten **Begär inleveranser**, **Begär utleverans**, **Begär plockning** och **Begär artikelinförsel**.  
@@ -52,7 +52,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 5.  Om du använder lagerplatser fyller du i fältet **Direktutleverans lagerplatskod** på snabbfliken **Lagerplatser** med koden för den lagerplats du vill använda som standardlagerplats för direktutleveranser.  
 6.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerställeenhet** och välj sedan relaterad länk.  
 7.  För varje artikel eller lagerställeenhet som du vill kunna direktutleverera till markerar du artikeln och väljer åtgärden **Redigera**.
-8. I fönstret **lagerställeenhetskort** markerar du kryssrutan **Använd direktutleverans**.  
+8. På sidan **lagerställeenhetskort** markerar du kryssrutan **Använd direktutleverans**.  
 
 > [!NOTE]  
 >  Du kan bara använda direktutleveranser om lagerstället är inställt på inleverans- och artikelinförselbearbetning för distributionslagret.  
@@ -81,10 +81,10 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
     Du vill visa källdokumentrader som kräver artikeln innan du bokför Inleveransen.  
 3.  Välj åtgärden **Beräkna direktutleverans**.  
 
-    I fönstret **Direktutleveransmöjligheter** visas de viktigaste detaljerna om raderna som begär artikeln, t.ex. dokumenttyp, begärt antal och förfallodatum. Med hjälp av den här informationen kan du enklare bestämma hur mycket som ska direktutlevereras, var artiklarna ska placeras i området för direktutleveranser och hur de ska grupperas.  
+    PÅ sidan **Direktutleveransmöjligheter** visas de viktigaste detaljerna om raderna som begär artikeln, t.ex. dokumenttyp, begärt antal och förfallodatum. Med hjälp av den här informationen kan du enklare bestämma hur mycket som ska direktutlevereras, var artiklarna ska placeras i området för direktutleveranser och hur de ska grupperas.  
 
 4.  Välj **Autofyll Ant. för direktutlevns** för att visa hur antalen på inleveransraderna har beräknats. När du ändrar antalet artiklar i **Ant. för direktutlevns** på varje rad uppdateras beräkningen när du ändrar. Detta innebär dock inte att artiklarna som föreslås för direktutleverans kommer att inkluderas i utleveransen eller på produktionsordern i fråga, eftersom dessa modifikationer endast utförs i testsyfte. Processen kan emellertid ge viktig information i de fall flera enheter är inbegripna.  
-5.  Om du vill reservera en kvantitet av artikeln för en viss orderrad placerar du markören på raden och väljer sedan åtgärden **Reservera**. I fönstret **Reservation** kan du nu reservera tillgänglig kvantitet av artikeln för den ordern. Reservationen är som andra reservationer och har ingen högre prioritet för att den skapades med direktutleverans. Mer information finns i [Reservera artiklar](inventory-how-to-reserve-items.md).   
+5.  Om du vill reservera en kvantitet av artikeln för en viss orderrad placerar du markören på raden och väljer sedan åtgärden **Reservera**. På sidan **Reservation** kan du nu reservera tillgänglig kvantitet av artikeln för den ordern. Reservationen är som andra reservationer och har ingen högre prioritet för att den skapades med direktutleverans. Mer information finns i [Reservera artiklar](inventory-how-to-reserve-items.md).   
 6.  När du har utfört önskade beräkningar eller reservationer klickar du på knappen **OK** för att infoga den slutgiltiga beräkningen i fältet **Ant. för direktutlevns** på inleveransraden. Alternativt klickar du på knappen **Avbryt** om du vill gå tillbaka till lagerinleveransen för att beräkna direktutleveransen på nytt.  
 7.  Bokför nu inleveransen, och du kan fortsätta i artikelinförselinstruktionen enligt beskrivningen i steg 3 till 7 i avsnittet Så här direktutlevererar du artiklar utan att visa möjligheterna.  
 

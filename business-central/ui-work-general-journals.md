@@ -1,26 +1,26 @@
 ---
 title: "Använda en redovisningsjournal för att bokföra direkt i redovisningen | Microsoft Docs"
 description: "Lär hur du använder journaler för att bokföra ekonomiska transaktioner på redovisningskonton och andra konton, till exempel bank- och leverantörskonton."
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
 De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. Men du kan också bearbeta affärsaktiviteter, till exempel inköp, utbetalning och återbetalning av anställdas utgifter genom att bokföra journalrader i olika journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-De flesta journalerna baseras på *redovisningsjournalen* och du kan bearbeta alla transaktioner i fönstret **redovisningsjournal**. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
+De flesta journalerna baseras på *redovisningsjournalen* och du kan bearbeta alla transaktioner på sidan **redovisningsjournal**. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
 
 Du kan till exempel använda anställdas utgifter med egna pengar för affärsrelaterade utgifter för senare återbetalning. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
 
@@ -28,21 +28,22 @@ Men i de flesta fall vill du använda journaler som är optimerade för vissa ty
 
 Du använder Redovisningsjournaler för att bokföra ekonomiska transaktioner direkt på redovisningskonton och andra konton, till exempel bank-, leverantörs- och personalkonton. När du bokför med en redovisningsjournal skapas alltid transaktioner på redovisningskonton. Så sker till exempel även när en journalrad bokförs på ett kundkonto, eftersom en transaktion bokförs på ett kundfordringskonto i redovisningen via en bokföringsmall.
 
-[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
-
 Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på enskilda konton, där den inte kan ändras. Du kan emellertid ta bort kopplingar från bokförda transaktioner och bokföra återförande eller rättande transaktioner. Mer information finns i [Återföra bokföringar](finance-how-reverse-journal-posting.md).
+
+> [!NOTE]
+> [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 ## <a name="using-journal-templates-and-batches"></a>Använda Journalmallar och journaler
 
-Det finns flera redovisningsjournalmallar. Varje journalmall representeras av ett dedikerat fönster med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel fönstret **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och fönstret **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [Göra betalningar](payables-make-payments.md) och [Stämma av kundens betalningar manuellt](receivables-how-apply-sales-transactions-manually.md).
+Det finns flera redovisningsjournalmallar. Varje journalmall representeras av en dedikerad sida med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel sidan **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och sidan **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [Göra betalningar](payables-make-payments.md) och [Stämma av kundens betalningar manuellt](receivables-how-apply-sales-transactions-manually.md).
 
 För varje journalmall kan du skapa din egen personliga journal som en journal. Du kan till exempel ange din egen journal för betalningsjournalen som har din personliga layout och inställningar. Följande tips är ett exempel på hur du anpassar en journal.
 
 > [!TIP]  
-> Om du väljer kryssrutan **Föreslå saldobelopp** på raden för din journal i fönstret **Redovisningsjournaler** kommer fältet **Belopp** till exempel, redovisningsjournalrader för samma verifikationsnummer automatiskt att fyllas i med värdet som krävs för att hantera dokumentet. Mer information finns i [Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden](ui-let-system-suggest-values.md).
+> Om du väljer kryssrutan **Föreslå saldobelopp** på raden för din journal på sidan **Redovisningsjournaler** kommer fältet **Belopp** till exempel, redovisningsjournalrader för samma verifikationsnummer automatiskt att fyllas i med värdet som krävs för att hantera dokumentet. Mer information finns i [Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Förstå Huvudkonton och motkonton
-Om du har skapat standardmotkonton för journalerna i fönstret **Redovisningsjournaler** fylls motkontot i automatiskt när du fyller i fältet **Kontonr**. Annars fyller du i både fältet **Kontonr** och fältet **Motkonto** manuellt. Ett positivt belopp i fältet **Belopp** debiteras på huvudkontot och krediteras på motkontot. Ett negativt belopp krediteras på huvudkontot och debiteras på motkontot.
+Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjournaler** fylls motkontot i automatiskt när du fyller i fältet **Kontonr**. Annars fyller du i både fältet **Kontonr** och fältet **Motkonto** manuellt. Ett positivt belopp i fältet **Belopp** debiteras på huvudkontot och krediteras på motkontot. Ett negativt belopp krediteras på huvudkontot och debiteras på motkontot.
 
 > [!NOTE]  
 >   Moms beräknas separat för huvudkontot och motkontot, så att olika momssatser kan användas för dem.
@@ -59,13 +60,13 @@ Detta fält bestämmer hur beloppet på journalraden hanteras efter bokföring. 
 | --- | --- |
 |Fast|Journalradens antal kommer att stå kvar när du har bokfört.|
 |Olika|Journalradens antal kommer att tas bort när du har bokfört.|
-|Saldo t.o.m. datum|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i tabellen Allm. journ. tilldeln. Saldot på kontot blir på det sättet nollställt. Kom ihåg att fylla i fältet **Fördelning %** i fönstret **Fördelningar**. Mer information finns i avsnittet ”Tilldela återkommande journalbelopp till flera olika konton”.|
+|Saldo t.o.m. datum|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i tabellen Allm. journ. tilldeln. Saldot på kontot blir på det sättet nollställt. Kom ihåg att fylla i fältet **Fördelning %** på sidan **Fördelningar**. Mer information finns i avsnittet ”Tilldela återkommande journalbelopp till flera olika konton”.|
 |Återföring fast|Journalradens belopp kommer att stå kvar efter det att du har bokfört och en mottransaktion kommer att bokföras nästa dag.|
 |Återföring variabel|Journalradens belopp kommer att tas bort efter det att du har bokfört och en mottransaktion kommer att bokföras på nästa dag.|
-|Återföring balansering|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i fönstret **Fördelningar**. Saldot på kontot anges till noll, och en mottransaktion bokförs på nästa dag.|
+|Återföring balansering|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden på sidan **Fördelningar**. Saldot på kontot anges till noll, och en mottransaktion bokförs på nästa dag.|
 
 > [!NOTE]  
->  Momsfälten kan fyllas i antingen på raden i den återkommande journalen eller på raden i fördelningsjournalen, men inte på båda raderna. Det går med andra ord bara att fylla i dem i fönstret **Fördelningar** om motsvarande rader i den återkommande journalen inte är ifyllda.
+>  Momsfälten kan fyllas i antingen på raden i den återkommande journalen eller på raden i fördelningsjournalen, men inte på båda raderna. Det går med andra ord bara att fylla i dem på sidan **Fördelningar** om motsvarande rader i den återkommande journalen inte är ifyllda.
 
 ### <a name="recurring-frequency-field"></a>Fält för återkommande frekvens
 Detta fält bestämmer hur ofta transaktionen i journalraden ska bokföras. Det är ett formelfält för datum och måste fyllas i för återkommande journalrader. Mer information finns i avsnittet "Använda datumformler" i [Ange data](ui-enter-data.md).
@@ -87,14 +88,14 @@ Fördelen med att använda fältet är att raden inte kommer att raderas från j
 Om fältet är tomt kommer raden att bokföras varje gång du bokför tills raden tas bort från journalen.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Fördela återkommande journalbelopp på flera konton
-I fönstret **Återkommande redovisningsjournal** kan du välja åtgärden **Fördelningar** för att visa eller hantera hur belopp på den återkommande journalraden fördelas på flera konton och dimensioner. Notera att fördelningen fungerar som en balanskontorad visavi den återkommande journalraden.
+På sidan **Återkommande redovisningsjournal** kan du välja åtgärden **Fördelningar** för att visa eller hantera hur belopp på den återkommande journalraden fördelas på flera konton och dimensioner. Notera att fördelningen fungerar som en balanskontorad visavi den återkommande journalraden.
 
 Liksom i en återkommande journal behöver du bara skriva in en fördelning en gång. Fördelningen kommer att stå kvar i fördelningsjournalen när du har bokfört, så du behöver inte skriva in belopp och fördelningar varje gång du bokför den återkommande journalraden.
 
-Om den återkommande metoden i den återkommande journalen har angetts som **Saldo** or **Återföring saldo** ignoreras alla dimensionsvärdekoder i den återkommande journalen när kontot är nollställt. Det betyder att om du fördelar en återkommande rad på olika dimensionsvärden i fönstret **Fördelningar**, så skapas bara en återföringstransaktion. Om du fördelar en återkommande journalrad som innehåller en dimensionsvärdekod får du därför inte ange samma kod i fönstret **Fördelningar**. Om du gör detta kommer dimensionsvärdena att bli felaktiga.
+Om den återkommande metoden i den återkommande journalen har angetts som **Saldo** or **Återföring saldo** ignoreras alla dimensionsvärdekoder i den återkommande journalen när kontot är nollställt. Det betyder att om du fördelar en återkommande rad på olika dimensionsvärden på sidan **Fördelningar**, så skapas bara en återföringstransaktion. Om du fördelar en återkommande journalrad som innehåller en dimensionsvärdekod får du därför inte ange samma kod på sidan **Fördelningar**. Om du gör detta kommer dimensionsvärdena att bli felaktiga.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Exempel: Fördela hyresinbetalningar på olika avdelningar
-Du betalar hyra varje månad, så du har skrivit in hyresbeloppet på kassakontot på en återkommande journalrad. I fönstret **Fördelningar** kan du dela upp utgiften mellan ett flertal avdelningar (dimensionen Avdelning) i enlighet med det antal kvadratmeter som respektive avdelning tar i anspråk. Beräkningen grundas på procentandelen för fördelning på respektive rad. Du kan ange olika konton på olika fördelningsrader (om hyran också ska delas upp på flera konton) eller ange samma konto fast med olika dimensionsvärdekoder för dimensionen Avdelning på respektive rad.
+Du betalar hyra varje månad, så du har skrivit in hyresbeloppet på kassakontot på en återkommande journalrad. På sidan **Fördelningar** kan du dela upp utgiften mellan ett flertal avdelningar (dimensionen Avdelning) i enlighet med det antal kvadratmeter som respektive avdelning tar i anspråk. Beräkningen grundas på procentandelen för fördelning på respektive rad. Du kan ange olika konton på olika fördelningsrader (om hyran också ska delas upp på flera konton) eller ange samma konto fast med olika dimensionsvärdekoder för dimensionen Avdelning på respektive rad.
 
 ## <a name="working-with-standard-journals"></a>Arbeta med Standardjournaler
 När du har skapat journalrader som du vet att du förmodligen kommer att skapa igen, kan du spara dem som en standardjournal innan du bokför journalen. Den här funktionen gäller artikeljournaler och redovisningsjournaler.
@@ -107,7 +108,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 2. Mata på en eller flera journalrader.
 3. Markera de journalrader som du vill återanvända.
 4. Välj åtgärden **Spara som standardjournal**.
-5. I fönstret **Spara som standardartikeljournal** måste du definiera en ny eller befintlig standardartikeljournal som raderna ska sparas i:
+5. På sidan **Spara som standardartikeljournal** måste du definiera en ny eller befintlig standardartikeljournal som raderna ska sparas i:
 
     Om du redan har skapat en eller flera standardartikeljournaler och du vill ersätta någon av dessa med den nya uppsättningen artikeljournalrader, i fältet Kod och välja koden.
 6. Välj knappen **OK** för att bekräfta att du vill skriva över den befintliga standardartikeljournalen och byta ut allt innehåll.
@@ -115,17 +116,17 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 8. Välj fältet **Spara antal**, om du vill att programmet ska spara värdena i fältet **Antal**.
 9. Välj knappen **OK** för att spara standardartikeljournalen.
 
-När du har sparat standardartikeljournalen visas fönstret Artikeljournal så att du kan fortsätta att bokföra den, samtidigt som du vet att den lätt kan återskapas nästa gång du bokför samma eller likartade rader.
+När du har sparat standardartikeljournalen visas sidan Artikeljournal så att du kan fortsätta att bokföra den, samtidigt som du vet att den lätt kan återskapas nästa gång du bokför samma eller likartade rader.
 
 ### <a name="to-reuse-a-standard-journal"></a>Så här återanvänder du standardjournaler
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk.
 2. Välj åtgärden **Få standardjournal**.
 
-    Fönstret Standardartikeljournaler visas med koder och beskrivningar för alla befintliga standardartikeljournaler.
+    Sidan Standardartikeljournaler visas med koder och beskrivningar för alla befintliga standardartikeljournaler.
 3. Om du vill förhandsgranska en standardartikeljournal innan du väljer att återanvända den, klickar du på **Visa journal**.
 
     Alla ändringar som du gör i en standardartikeljournal införs omedelbart. De finns där nästa gång du öppnar eller återanvänder standardartikeljournalen i fråga. Du bör därför vara säker på att ändringen är tillräckligt viktig för att tillämpa allmänt. Annars skapar du den specifika ändringen i artikeljournalen efter att standardartikeljournalraderna har infogats. Se punkt 4 nedan.
-4. När du kommer tillbaka till fönstret **Standardartikeljournaler** väljer du den standardartikeljournal som du vill återanvända och klickar på **OK**.
+4. När du kommer tillbaka till sidan **Standardartikeljournaler** väljer du den standardartikeljournal som du vill återanvända och klickar på **OK**.
 
     Nu är artikeljournalen ifylld med raderna som du har sparat som standardartikeljournal. Om det redan finns journalrader i artikeljournalen, placeras de infogade raderna under de befintliga journalraderna.
 
@@ -150,7 +151,7 @@ Den här funktionen fungerar även på filtrerade vyer.
 
 Alla omnumreringen av verifikationsnummer skall respektera relaterade tillämpningar, som en ansökan om betalningstillämpning som har gjorts från dokumentet på journalraden till ett leverantörskonto. I enlighet med detta kan fälten **Koppla till ID** och **Koppla till ver.nr.** i de berörda transaktionerna uppdateras.
 
-Följande procedur är baserad i fönstret **Redovisningsjournal**, men gäller för alla andra journaler som baseras på den redovisningsjournalen, t.ex. fönstret **Utbetalningsjournal**.
+Följande procedur är baserad på sidan **Redovisningsjournal**, men gäller för alla andra journaler som baseras på den redovisningsjournalen, t.ex. sidan **Utbetalningsjournal**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler** och välj sedan relaterad länk.
 2. När du är klar att bokföra journalraderna väljer du **Numrera om dokumentnummer**.

@@ -1,6 +1,6 @@
 ---
 title: "bästa praxis för global planeringsinstallation | Microsoft Docs"
-description: "Snabbfliken **Planering** i fönstret **Produktionsinställningar** innehåller flera fält som definierar globala regler för leveransplanering."
+description: "Snabbfliken Planering på sidan Produktionsinställningar innehåller flera fält som definierar globala regler för leveransplanering."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f9eda3b9bb2482a446370058c7bd4a503dde6ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d1f6333c689d6af06d68e45104020a523be7f865
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Skapa metodtips: konfiguration av global planering
-Snabbfliken **Planering** i fönstret **Produktionsinställningar** innehåller flera fält som definierar globala regler för leveransplanering.  
+Snabbfliken **Planering** på sidan **Produktionsinställningar** innehåller flera fält som definierar globala regler för leveransplanering.  
 
  I tabellen nedan finns best practice för hur du lägger upp valda globala planeringsparameterfält. Välj länken i kolumnen **Inställningsfält** om du vill ha mer information om ett fält.  
 

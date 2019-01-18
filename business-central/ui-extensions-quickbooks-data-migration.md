@@ -11,29 +11,53 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 583f6947acd3778710f0889736439322d9179ce6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
+
 # <a name="the-quickbooks-data-migration-extension"></a>Tillägget QuickBooks datamigrering
 Detta tillägg gör det enkelt att migrera kunder, leverantörer, artiklar och konton från QuickBooks till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om ditt företag använder QuickBooks i dag, kan du exportera nödvändig information och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
 
-## <a name="exporting-data-from-quickbooks-desktop"></a>Exportera data från QuickBooks Desktop
-Du måste ha exporterat en del eller alla av dina befintliga kunder, leverantörer, lagerartiklar och konton till en Intuit Interchange Format-fil (IIF ). Tillägget QuickBooks datamigrering innehåller en standardmappning avQuickBooks data så att du kan använda dina befintliga data för att testa det nya [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget. Standardmappningen ska vara tillräcklig i de flesta fall, men du kan ändra mappningen i guiden för assisterad konfiguration.  
-I QuickBooks innehåller arkiv-menyn verktyg till exportlistor. För [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du exportera följande listor:
+## <a name="data-from-quickbooks-desktop"></a>Data från QuickBooks Desktop
+ 
+Du kan importera följande data från QuickBooks Online till Business Central:
 
-* Kundlista  
-* Leverantörslista  
-* Artikellista  
-* Redov.kontolista  
+- Kunder  
+- Leverantör  
+- Artiklar  
+- Kontoplan  
+- Transaktion för ingående saldo i redovisningen  
+- Tillgängliga kvantiteter för lagerartiklar  
+- Öppna dokument för kunder och leverantörer, till exempel fakturor, kreditnotor och betalningar  
 
-Exporterade data sparas som en IIF-fil som du sedan kan överföra [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vi migrerar endast hela belopp på försäljnings- och inköpsdokument. Vi uppdaterar inte delvis betalda belopp. Exempelvis om en kund har betalat 300 av totalt 500 kronor på en försäljningsfaktura, migrerar vi hela 500. Om du har fått delbetalningar, måste du uppdatera dessa manuellt innan eller efter du migrerar data. Vi rekommenderar att installera utestående transaktioner innan du migrerar för att underlätta efteråt.
+
+> [!NOTE]
+> Vi migrerar inte inköpsorder eller försäljningsorder.
+
+## <a name="before-you-start"></a>Innan du börjar
+En viktig del av är att ange konton för att migrera transaktionerna till. Det är praktiskt att planera den här mappningen innan du migrerar data. Exempelvis konton där du bokför transaktioner för:
+
+- Försäljning av artiklar eller tjänster till kunder.  
+- Köp av varor eller tjänster från en leverantör.  
+- Justeringar i redovisningen.  
+Business Central kräver att redovisningskonton har tilldelade kontonummer. Kontrollera att nummer tilldelas till kontona i QuickBooks Online.
+Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett skattekonto för din skattemyndighet i Business Central innan du kan bokföra transaktioner.
+
+För att hämta data från QuickBooks desktop-programmet måste du hämta Microsofts verktyg för dataexportering.  Instruktioner för verktyget finns i datamigreringsguiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verktyget ansluter dig till QuickBooks-programmet och exporterar tillämpliga data till en *.zip-fil.  
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Hitta tillägget QuickBooks datamigrering
 Tillägget QuickBooks datamigrering är installerat och klart som en integrerad del av guiden för assisterad konfiguration av datamigrering. Om du är redo att börja nu och har exporterat dina data från QuickBooks, välj ikonen![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Assisterad konfiguration** och välj sedan relaterad länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.  
+
+## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
+När du har migrerat data har transaktionerna statusen ej bokförda, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till sidan försäljningsfakturor. Om du vill gå igenom journaler, går du till sidan betalningsjournaler.
+Det finns några saker som du bör göra: om transaktionerna i QuickBooks hade pålägg eller rabattbelopp, måste du manuellt lägga till beloppen till de relaterade transaktionerna i Business Central innan du bokför dem.
+Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och en produktbokföringsmall till bokföringsinställningar så att du kan bokföra moms.
+Kontrollera de ingående saldona för konton i redovisningen. QuickBooks sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  

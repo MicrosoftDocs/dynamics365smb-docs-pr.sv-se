@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Hantera anpassning som administratör
@@ -30,11 +30,11 @@ Du kan förhindra alla användare som tillhör en viss profil från att anpassa 
 
 ## <a name="clear-user-personalizations"></a>Rensa användaranpassning
 
-Ta bort sidann för anpassningsändringar gör att sidan återställs till sin ursprungliga layout innan alla anpassningar gjordes. Det finns två sätt att ta bort de anpassningar som användare har gjort på sidor: med hjälp av fönstret **Ta bort användaranpassning** och använda fönstret **Anv.anpassningskort**.
+Ta bort sidann för anpassningsändringar gör att sidan återställs till sin ursprungliga layout innan alla anpassningar gjordes. Det finns två sätt att ta bort de anpassningar som användare har gjort på sidor: med hjälp av sidan **Ta bort användaranpassning** och använda sidan **Anv.anpassningskort**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Ta bort användaranpassningar genom att använda sidan ta bort användaranpassning
 
-Fönstret **Ta bort användaranpassning** låter dig ta bort anpassningen på per sida-basis, för varje enskild användare.
+Sidan **Ta bort användaranpassning** låter dig ta bort anpassningen på per sida-basis, för varje enskild användare.
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort användaranpassning** och välj sedan relaterad länk.
 
@@ -49,11 +49,11 @@ Fönstret **Ta bort användaranpassning** låter dig ta bort anpassningen på pe
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Ta bort användaranpassningar genom att använda sidan användaranpassningskort
 
-Fönstret **Anv.anpassningskort** låter dig ta bort anpassningen på alla sidor för en specifik användare. Detta kräver skrivbehörighet för tabellen 2000000072 **Profil**.
+Sidan **Anv.anpassningskort** låter dig ta bort anpassningen på alla sidor för en specifik användare. Detta kräver skrivbehörighet för tabellen 2000000072 **Profil**.
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användaranpassning** och välj sedan relaterad länk.
 
-    Fönstret **användaranpassning** visar alla användare som eventuellt har anpassade sidor. Om du inte hittar en användare i listan, innebär det att de inte har några anpassade sidor.
+    Sidan **användaranpassning** visar alla användare som eventuellt har anpassade sidor. Om du inte hittar en användare i listan, innebär det att de inte har några anpassade sidor.
 
 2. Välj den användare från listan, välj åtgärden **Redigera**.
 

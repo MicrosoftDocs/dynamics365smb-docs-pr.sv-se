@@ -8,41 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6207e13540e2eed5f7707c551c2772aed33c5540
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument
 När kunderna har gjort betalningar till ditt elektroniska bankkonto, måste du koppla varje betalt belopp till det relaterade försäljningsdokumentet och sedan bokföra betalningen för att uppdatera kund-, redovisnings- och banktransaktioner. Beroende på ditt företagsbehov kan du få betalt och registrera den betalningen på olika sätt: manuellt, automatiskt eller via betalningstjänster.  
 
 > [!NOTE]  
->   Du kan utföra samma uppgifter inklusive leverantörsbetalningar i fönstret **Utbetalningavstämningsjournal** med hjälp av funktioner för bankutdragsimport, automatiskt koppling och bankkontoavstämning. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+>   Du kan utföra samma uppgifter inklusive leverantörsbetalningar på sidan **Utbetalningavstämningsjournal** med hjälp av funktioner för bankutdragsimport, automatiskt koppling och bankkontoavstämning. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
-Fönstret **Registrera kundbetalningar** fungerar som stöd för dig i uppgifter vid hantering av interna konton, genom att använda faktiska kassasiffror för att kontrollera att betalningar samlas in effektivt från kunder. Med betalningsbehandlingsverktyget kan du snabbt validera och bokföra enskilda betalningar eller betalningar av klumpsumma, bearbeta rabatterade betalningar och hitta obetalda dokument för vilka betalning görs.
+Sidan **Registrera kundbetalningar** fungerar som stöd för dig i uppgifter vid hantering av interna konton, genom att använda faktiska kassasiffror för att kontrollera att betalningar samlas in effektivt från kunder. Med betalningsbehandlingsverktyget kan du snabbt validera och bokföra enskilda betalningar eller betalningar av klumpsumma, bearbeta rabatterade betalningar och hitta obetalda dokument för vilka betalning görs.
 
 Betalningar för olika kunder som har olika betalningsdatum, ska bokföras som individuella betalningar. Betalningar till samma kund som har samma betalningsdatum, kan bokföras som en klumpbetalning. Det är användbart, till exempel, när en kund har skapat en enkel betalning som täcker åtskilliga försäljningsfakturor.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Så här lägger du upp betalningsregistreringjournal
-Eftersom du kan bokföra olika betalningstyper till olika motkonton måste du välja ett motkonto i fönstret **Inställning av betalningsregistrering** innan du börjar att behandla kundbetalningar. Om du alltid bokför samma motkonto, kan du ange det konto som standard och undvika detta steg varje gång som du öppnar fönstret **Registrera kundbetalningar**.  
+Eftersom du kan bokföra olika betalningstyper till olika motkonton måste du välja ett motkonto på sidan **Inställning av betalningsregistrering** innan du börjar att behandla kundbetalningar. Om du alltid bokför samma motkonto, kan du ange det konto som standard och undvika detta steg varje gång som du öppnar sidan **Registrera kundbetalningar**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställning av betalningsregistrering** och välj sedan relaterad länk.
 
-    Alternativt kan du i fönstret **Registrera kundbetalningar** välja åtgärden **Inställning**.    
-2. Fyll i fälten i fönstret **Inställning av betalningsregistrering**. Välj ett fält om du vill få en kort beskrivning av fältet eller länken till relaterad information.  
+    Alternativt kan du på sidan **Registrera kundbetalningar** välja åtgärden **Inställning**.    
+2. Fyll i fälten på sidan **Inställning av betalningsregistrering**. Välj ett fält om du vill få en kort beskrivning av fältet eller länken till relaterad information.  
 
 ## <a name="to-register-customer-payments-individually"></a>Registrera kundbetalningar individuellt.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Registrera kundbetalningar** och välj sedan relaterad länk.  
- 
-    Sidan **registrera kundbetalningar** visar alla bokförda dokument som en betalning kan registreras för. Sidan är även tillgänglig från listan **kunder** och kundkortet där den filtreras automatiskt för den angivna kunden.  
+
+    Sidan **registrera kundbetalningar** visar alla bokförda dokument som en betalning kan registreras för. Sidan kan även öppnas från sidorna **Kunder** och **Kundkort** där den filtreras automatiskt för den angivna kunden.  
 2. Markera kryssrutan **Utförd betalning** på raden som representerar bokfört dokument som en betalning har gjorts för.
 
-    Om kryssrutan **Fyll i Tillbaka datum automatiskt** är markerad i fönstret **Inställning av betalningsregistrering** anges arbetsdatumet i fältet **Tillbaka datum**.  
+    Om kryssrutan **Fyll i Tillbaka datum automatiskt** är markerad på sidan **Inställning av betalningsregistrering** anges arbetsdatumet i fältet **Tillbaka datum**.  
 3. I fältet **Tillbaka datum** anger du datumet då betalningen gjordes. Det datum kan skilja sig från arbetsdatumet.  
 4. I fältet **Inlevererat belopp** anger du beloppet som har betalats.
 
@@ -61,7 +61,7 @@ Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkont
     > [!NOTE]  
     >   Kunden i **Namn** fältet måste vara samma på alla rader som ska bokföras som en betalning av klumpsumma.  
 
-    Om kryssrutan **Fyll i Tillbaka datum automatiskt** är markerad i fönstret **Inställning av betalningsregistrering** fylls arbetsdatumet i fältet **Tillbaka datum**.  
+    Om kryssrutan **Fyll i Tillbaka datum automatiskt** är markerad på sidan **Inställning av betalningsregistrering** fylls arbetsdatumet i fältet **Tillbaka datum**.  
 3. I fältet **Tillbaka datum** anger du datumet då betalningen gjordes. Det datum kan skilja sig från arbetsdatumet.  
 
     > [!NOTE]  
@@ -75,14 +75,14 @@ Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkont
 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
-Om en betalning i banken inte representeras av raden i fönstret **Betalningsregistrering** kan det bero på att det relaterade dokumentet inte har bokförts. I så fall kan du använda en sökfunktion för att snabbt hitta dokument och bokföra det för att behandla betalningen. Mer information finns i avsnittet ”Att söka efter ett visst försäljningsdokument som inte har fakturerats helt”.  
+Om en betalning i banken inte representeras av raden på sidan **Betalningsregistrering** kan det bero på att det relaterade dokumentet inte har bokförts. I så fall kan du använda en sökfunktion för att snabbt hitta dokument och bokföra det för att behandla betalningen. Mer information finns i avsnittet ”Att söka efter ett visst försäljningsdokument som inte har fakturerats helt”.  
 
-Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från fönstret **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts. Mer information finns i avsnittet "Så här registrerar eller bokför du en betalning utan ett relaterat dokument".  
+Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från sidan **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts. Mer information finns i avsnittet "Så här registrerar eller bokför du en betalning utan ett relaterat dokument".  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Så här behandlar du betalningar med rabatter manuellt
 Om du har kommit överens om en kassarabatt med kunden, kan betalningsbeloppen bli lägre än fakturabeloppen, om betalning sker före det överenskomna kassarabattsdatumet.  
 
-Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalningar i fönstret **Betalningsregistrering**.  
+Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalningar på sidan **Betalningsregistrering**.  
 
 * Beloppet är lika med det återstående rabatterade beloppet, och betalningsdatumet infaller före kassarabattsdatum. Du bokför betalningen som är.  
 * Beloppet är lika med det återstående rabatterade beloppet, men betalningsdatumet infaller efter kassarabattsdatum. Du bokför betalningen som del. Dokumentet förblir öppen för att kräva/betala det återstående beloppet. Alternativt kan du ange ett senare rabattdatumet för att tillåta betalning i sin helhet.  
@@ -103,12 +103,12 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lika med beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.
-3. I fältet **Tillbaka datum** anger du ett betalningsdatum som är efter datumet i fältet **Kassarabattsdatum**. Datumfält ändras till det röda teckensnittet, och ett felmeddelande visas längst ned i fönstret.
+3. I fältet **Tillbaka datum** anger du ett betalningsdatum som är efter datumet i fältet **Kassarabattsdatum**. Datumfält ändras till det röda teckensnittet, och ett felmeddelande visas längst ned på sidan.
 
     > [!TIP]  
     >   Om du vill göra ett undantag och hur bevilja rabatt, även om betalningen är sen, följ de här stegen:
 4. Välj åtgärden **Detaljer**.  
-5. I fönstret **Information om betalningsregistrering** i fältet **Kassarabattsdatum** på snabbfliken **Kassarabatt** anger du ett datum som är efter datumet i fältet **Tillbaka datum** i fönstret **Betalningsregistrering**.  
+5. På sidan **Information om betalningsregistrering** i fältet **Kassarabattsdatum** på snabbfliken **Kassarabatt** anger du ett datum som är efter datumet i fältet **Tillbaka datum** på sidan **Betalningsregistrering**.  
 
     Felmeddelande och den röda teckensnittet försvinner, och du kan fortsätta att bearbeta rabatterade betalningen.    
 6. Kontrollera att fältet **Återstående belopp** innehåller det belopp som återstår att betala av det helt fakturerade beloppet.  
@@ -139,11 +139,11 @@ Det relaterade dokument förblir öppen.
 Det relaterade dokument stängs och kunden krediteras för överskottsbeloppet.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Om du vill hitta ett visst försäljningsdokument som inte har fakturerats helt
-Fönstret **Betalningsregistrering** fungerar som stöd för dig i uppgifter som krävs för balansering av interna konton, genom att använda faktiska kassasiffror, för att kontrollera den effektiva samlingen från kunder och förfallna betalningar till leverantörer. Visar utestående inkommande betalningar som rader som representerar försäljningsdokument, där ett belopp har förfallit till betalning.  
+Sidan **Betalningsregistrering** fungerar som stöd för dig i uppgifter som krävs för balansering av interna konton, genom att använda faktiska kassasiffror, för att kontrollera den effektiva samlingen från kunder och förfallna betalningar till leverantörer. Visar utestående inkommande betalningar som rader som representerar försäljningsdokument, där ett belopp har förfallit till betalning.  
 
-Vanligtvis när en betalning har utförts, registrerats i banken eller liknande, representeras det relaterade försäljnings- eller inköpsdokumentet av en rad i fönstret **Betalningsregistrering** eftersom dokumentet i fråga väntar på att betalningen bokförs mot utestående belopp. Dock ibland motsvaras en betalning som har utförts inte av en rad i fönstret **Betalningsregistrering** vanligtvis eftersom dokumentet i fråga inte helt har fakturabokförts.
+Vanligtvis när en betalning har utförts, registrerats i banken eller liknande, representeras det relaterade försäljnings- eller inköpsdokumentet av en rad på sidan **Betalningsregistrering** eftersom dokumentet i fråga väntar på att betalningen bokförs mot utestående belopp. Dock ibland motsvaras en betalning som har utförts inte av en rad på sidan **Betalningsregistrering** vanligtvis eftersom dokumentet i fråga inte helt har fakturabokförts.
 
-I fönstret **Dokumentsökning** kan du söka bland dokument som inte har fakturerats helt. Du kan söka baserat på en eller flera av följande villkor:  
+På sidan **Dokumentsökning** kan du söka bland dokument som inte har fakturerats helt. Du kan söka baserat på en eller flera av följande villkor:  
 
 * Dokumentnummer  
 * Belopp eller beloppsintervall  
@@ -152,7 +152,7 @@ Följande procedurer beskriver hur du hittar ett visst dokument, genom att anvä
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsregistreringar** och välj sedan relaterad länk.
 2. Välj avsnittet **Sök dokument** med pekaren på någon av raderna.
-3. I fönstret **Dokumentsökning** anger du ett sökvärde i fältet **Dokumentnr.**  
+3. På sidan **Dokumentsökning** anger du ett sökvärde i fältet **Dokumentnr.**  
 
     > [!NOTE]  
     >   Värdet som du anger i detta fält, omsluts i gömda jokertecken. Det betyder att funktionen söker efter alla verifikationsnummer som innehåller det angivna värdet.    
@@ -164,24 +164,24 @@ Följande procedurer beskriver hur du hittar ett visst dokument, genom att anvä
 
 Sökfunktionen söker bland dokument som inte är fullständigt fakturerade baserat på de angivna villkor.  
 
-Om ett eller flera dokument matchar sökvillkorna, öppnas fönstret **Dokumentsökningsresultat** och visar raderna som motsvarar de dokument. Varje rad innehåller ett verifikationsnummer, en beskrivning och ett belopp, så att du lätt kan hitta ett visst dokument, till exempel baserad på information i ditt bankkontoutdrag.  
+Om ett eller flera dokument matchar sökvillkorna, öppnas sidan **Dokumentsökningsresultat** och visar raderna som motsvarar de dokument. Varje rad innehåller ett verifikationsnummer, en beskrivning och ett belopp, så att du lätt kan hitta ett visst dokument, till exempel baserad på information i ditt bankkontoutdrag.  
 
-Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från fönstret **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts.  
+Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från sidan **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Så här registrerar eller bokför du en betalning utan ett relaterat dokument
-Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från fönstret **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har klargjorts.  
+Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från sidan **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har klargjorts.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsregistreringar** och välj sedan relaterad länk.  
 
     Fortsätt med att registrera en odokumenterad betalning.  
 2. Välj åtgärden **Redovisningsjournal**.  
 
-    Fönstret **Redovisningsjournal** öppnas med en förifylld rad med motkonton i journalen som ställs in i fönstret **Inställning av betalningsregistrering**.  
+    Sidan **Redovisningsjournal** öppnas med en förifylld rad med motkonton i journalen som ställs in på sidan **Inställning av betalningsregistrering**.  
 3. Fyll i de återstående fälten på redovisningsjournalraden, till exempel kundnummer eller belopp och annan information från kontoutdraget. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
 
 Du kan bokföra journalraden för att uppdatera summan på motkontot. Alternativt kan du lämna journalraden obokförd och eventuellt koppla den till en kommentar om att betalningen behöver mer analys.  
 
-Om du lämnar journalraden obokförd, adderas det till värdet i fältet **Ej bokförd balans** längst ned i fönstret **Betalningsregistrering**.  
+Om du lämnar journalraden obokförd, adderas det till värdet i fältet **Ej bokförd balans** längst ned på sidan **Betalningsregistrering**.  
 
 ## <a name="see-also"></a>Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  

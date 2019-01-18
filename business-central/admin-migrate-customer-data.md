@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av datamigreringsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
 
-Fönstren **Flyttningsöversikt** och **Konfigurationskalkylark** ger åtkomst till funktioner och vyer för alla uppgifter som avser datamigrering. Vi rekommenderar att du migrerar en tabell i taget för att hantera beroenden i dina data. I flytta kan du också nå huvuddatatabellerna, som innehåller information om kunder, leverantörer, artiklar, kontakter och redovisningen.  
+Sidan **Flyttningsöversikt** och **Konfigurationskalkylark** ger åtkomst till funktioner och vyer för alla uppgifter som avser datamigrering. Vi rekommenderar att du migrerar en tabell i taget för att hantera beroenden i dina data. I flytta kan du också nå huvuddatatabellerna, som innehåller information om kunder, leverantörer, artiklar, kontakter och redovisningen.  
 
 ## <a name="to-import-configuration-packages"></a>Så här importerar du konfigurationspaket
 När du skapar ett nytt företag, kan du importera företagsinställningar för det nya företaget. Du importerar inställningarna från en .rapidstart-fil, vilket levererar paketinnehållen i ett komprimerat format. En motsvarande uppsättning standarddatamigreringstabeller importeras. Datauppsättningen innehåller huvuddatatabeller och inställningsdatatabellerna. Den första uppgiften vid datamigrering är att utvärdera om standardflyttningsinställningen uppfyller det nya företagets behov.
@@ -58,9 +58,9 @@ Om urvalet av tabeller inte uppfyller dina behov, kan du skapa en eller flera ny
 Du kan skapa nya datamigreringsfiler och anpassa dem för att stödja din verksamhet. Notera att en fil endast kan användas för att migrera ett fält som har egenskapsuppsättningen **FieldClass** inställd på **Normal**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
-2. Markera och öppna paketet som du vill använda för att flytta data och välj sedan åtgärden **Hämta tabeller**. Fönstret **Hämta pakettabell** öppnas.  
+2. Markera och öppna paketet som du vill använda för att flytta data och välj sedan åtgärden **Hämta tabeller**. Sidan **Hämta pakettabell** öppnas.  
 3. I fältet **TableID** anger du ett tabellnummer eller väljer ett tabell-id i listan, till exempel, tabell **Kund**. Fälten **Tabellnamn** fylls i automatiskt.  
-4. Välj den nya flyttningstabellen, klicka på fliken **tabeller** och välj åtgärden **Fält**. Fönstret **Flyttningsfält** öppnas.  
+4. Välj den nya flyttningstabellen, klicka på fliken **tabeller** och välj åtgärden **Fält**. Sidan **Flyttningsfält** öppnas.  
 5. Rensa kryssrutan **Inkludera fält** för de fält som du inte vill importera och klicka sedan på åtgärden **Ange inkluderade** eller **Rensa inkluderade**.  
 
 > [!IMPORTANT]  
@@ -100,7 +100,7 @@ I följande procedurer ska du granska i förväg vilka värden som du vill bibeh
 4. För varje fält som du vill koppla väljer du åtgärden **Mappa**.  
 5. Ange värdet som du vill ändra i fältet **Gammalt värde**. Ange värdet som du vill att det gamla värdet ska ändras till i fältet **Nytt värde**. Välj knappen **OK**.  
 6. Importera kunddata. Mer information finns också i avsnittet "Så här importerar du kunddata".
-7. Se om det finns några fel rapporterade i fältet **Antal paketfel**. Om det finns söker du ned för att visa fel. Fönstret **Konfig. paketposter** öppnas.
+7. Se om det finns några fel rapporterade i fältet **Antal paketfel**. Om det finns söker du ned för att visa fel. Sidan **Konfig. paketposter** öppnas.
 8. Välj åtgärden **Visa fel**. Du får då följande fel: **<option> är inget giltigt alternativ. Giltiga alternativ är <valid option list>**. Välj knappen **OK**.  
 9. Använd den mappning som du har ställt in genom att välja åtgärden **Koppla Data**.  
 
@@ -134,7 +134,7 @@ När du har exporterat en flyttningstabell blir ditt nästa steg att skriva in k
 
 Om du behöver hjälp med XML så aktiverar du fliken **Utvecklare** i Excel-balken och väljer sedan åtgärden **Källa** för att visa XML-schemat för din flyttningstabell såsom den visas i Excel.
 
-Följande procedur baseras på en Excel-blad som du har skapat för datamigrering. Mer information finns i Så här exporterar du flyttningstabeller.
+Följande procedur baseras på en Excel-blad som du har skapat för datamigrering. Mer information finns i avsnittet ”Exportera datamigreringsfiler”.
 
 > [!IMPORTANT]  
 > Ändra inte kolumnerna i Excel-kalkylarken. Om de flyttats, ändras eller tas bort, kan kalkylarket inte importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -151,7 +151,7 @@ Nu är du redo att importera datamigreringsfilerna som innehåller bakåtkompati
 ## <a name="to-import-customer-data"></a>Så här importerar du kunddata
 När kunddatan har registrerats i datamigreringsfilerna i Excel importerar du filerna till [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Öppna fönstret **Konfig. paketkort**.
+1. Öppna sidan **Konfig. paketkort**.
 2. Välj tabellen som du vill importera data för, och på fliken **Tabeller** väljer du sedan åtgärden **Importera från Excel**.
 3. Lokalisera och öppna filen som du vill importera data till [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -163,21 +163,21 @@ Kunddata måste valideras innan du kan kopplar transaktioner till [!INCLUDE[d365
 > [!NOTE]  
 >  Oftast skapas inte inte felaktiga data i databasen. Programmet kan dock blockeras tillfälligt, om en importerad flyttningstabell innehåller fel.  
 
-1. I fönstret **Flyttningsöversikt**, granska fältet **antal migreringsfel** för att se om några fel inträffade under importen.  
+1. På sidan **Flyttningsöversikt**, granska fältet **antal migreringsfel** för att se om några fel inträffade under importen.  
 2. Om det finns fel väljer du flyttningstabellen och sedan, på fliken **Tabeller**, väljer du åtgärden **Fel**. Kryssrutan **Ogiltig** är markerad för varje transaktion som har ett fel.  
 3. Markera en rad och välj sedan åtgärden **Visa fel** för att visa fel.  
 
     Fältet **Feltext** innehåller orsaken för felet. Fältet **Fältrubrik** innehåller fältrubriken på det fält som innehåller fel.  
-4.  För att korrigera ett fel eller på annat sätt göra en uppdatering: I fönstret **Flyttningsöversikt**, välj åtgärden **Flyttningspost** och sedan, i den fönstret **Flyttningspost**, korrigerar du posten som innehåller felet.  
+4.  För att korrigera ett fel eller på annat sätt göra en uppdatering: på sidan **Flyttningsöversikt**, välj åtgärden **Flyttningspost** och sedan på sidan **Flyttningspost**, korrigerar du posten som innehåller felet.  
 
-När du har gjort en korrigering, tas posten bort från listan över poster i fönstret **Flyttningsdatafel**.  
+När du har gjort en korrigering, tas posten bort från listan över poster på sidan **Flyttningsdatafel**.  
 
 Nu är du redo för att koppla kundens data till databasen.  
 
 ## <a name="to-apply-customer-data"></a>Så här tillämpar du kunddata
 När du har importerat alla datamigreringsposter med giltiga, felfria data kan du tillämpa posterna i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Öppna fönstret **Konfigurationspaket**.  
+1. Öppna sidan **Konfigurationspaket**.  
 2. Välj tabellen för den datamigreringsfil som du vill koppla och välj sedan åtgärden **Koppla data**.
 
 I fältet **Antal paketposter** kan du visa antalet databasposter som har skapats. I fältet **Antal databasposter** kan du bekräfta att rätt antal poster har skapats, detta genom att välja länken i fältet.  

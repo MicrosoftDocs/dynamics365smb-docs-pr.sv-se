@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c9c1ec39fcec950037193b15d04ab8dde994ff63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 362f335fa313dce9a4e75c962ef6f5a2f01ec5fd
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-resources"></a>Konfigurera resurser
@@ -45,29 +45,29 @@ För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras 
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.
 2. Öppna det relevanta resurskortet och välj sedan åtgärden **Resurskapacitet**.
-3. I fönstret **Resurskapacitet** ställer du i fältet **Visa per** in periodlängden, exempelvis **Dag**, som visas i kolumnerna på **Matris för resurskapacitet** på snabbfliken.
+3. På sidan **Resurskapacitet** ställer du i fältet **Visa per** in periodlängden, exempelvis **Dag**, som visas i kolumnerna på **Matris för resurskapacitet** på snabbfliken.
 4. För varje resurs på en rad anger du för respektive period i kolumnerna hur många timmar som resursen är tillgänglig.
 5. Du kan också välja att ställa in resurskapaciteten veckovis med start- och slutdatum genom att välja åtgärden **Ställ in kapacitet**.
-6. I fönstret **Inställningar för resurskapacitet** fyller du i fälten efter behov.
-7. Välj åtgärden **Uppdatera kapacitet**. Fönstret **Resurskapacitet** uppdateras med den angivna kapaciteten.
-8. Stäng fönstret.
+6. På sidan **Inställningar för resurskapacitet** fyller du i fälten efter behov.
+7. Välj åtgärden **Uppdatera kapacitet**. Sidan **Resurskapacitet** uppdateras med den angivna kapaciteten.
+8. Stäng sidan.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Så här skapar du alternativa resurskostnader
 Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kostnader för varje resurs. Om t.ex. en anställd har en annan timpenning för övertidsarbete kan du registrera en resurskostnad för denna övertidskostnad. Den alternativa kostnad som du skapar för resursen har företräde framför kostnaden på resurskortet när du använder resursen i resursjournalen.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.  
 2. Välj den resurs för det som du vill skapa en eller flera alternativa kostnader för och välj sedan åtgärden **Kostnader**.  
-3. I fönstret **Resurskostnader** fyller du i fälten på en rad efter behov.  
+3. På sidan **Resurskostnader** fyller du i fälten på en rad efter behov.  
 4. Upprepa steg 3 för varje alternativ kostadsresurs som du vill skapa.
 
-**Obs**. Om du vill skapa resurskostnader som gäller alla resurser och resursgrupper öppnar du fönstret **Resurskostnader** och fyller i alla fält.
+**Obs**. Om du vill skapa resurskostnader som gäller alla resurser och resursgrupper öppnar du sidan  **Resurskostnader** och fyller i alla fält.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Så här skapar du alternativa resurspriser
 Förutom priset som anges på resurskortet, kan du registrera alternativa priser för varje resurs. Dessa alternativa priser kan vara villkorliga. De kan bero på om resursen används med ett särskilt projekt eller en särskild arbetstyp.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.
 2. Välj den resurs för det som du vill skapa en eller flera alternativa priser för och välj sedan åtgärden **Priser**.
-3. I fönstret **Resurspriser** fyller du i fälten på en rad efter behov.
+3. På sidan **Resurspriser** fyller du i fälten på en rad efter behov.
 4. Upprepa steg 3 för varje alternativt resurspris som du vill skapa.
 
 ## <a name="see-also"></a>Se även

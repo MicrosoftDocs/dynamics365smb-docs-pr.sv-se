@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenarioexempel: Definiera dynamisk distribution beräknad på sålda artiklar
@@ -28,7 +29,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Så här definierar du dynamisk fördelning beräknad på sålda artiklar under föregående år  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kostnadsfördelningar** och välj sedan relaterad länk.  
-2.  I fönstret **Kostnadsfördelning** väljer du åtgärden **Ny**.  
+2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
 3.  I fältet **ID**, tryck på Retur eller ange ett id.  
 4.  Ange **1** i fältet **Nivå**.  
 5.  I fälten **Giltig från** och **Giltig till** anger du datum.  
@@ -46,9 +47,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.  
 
 ## <a name="see-also"></a>Se även  
- [Skapa filter för dynamiska fördelningsbaser](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Skapa fördelningskälla och mål](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)   
- [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
- [Om kostnadsredovisning](finance-about-cost-accounting.md)
+[Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
+[Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
+[Om kostnadsredovisning](finance-about-cost-accounting.md)
 

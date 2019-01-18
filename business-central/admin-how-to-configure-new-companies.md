@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
@@ -38,7 +38,7 @@ Alla tabeller som du har tilldelat för att ta med i det nya företaget importer
 ## <a name="to-apply-package-data"></a>Så här kopplar du paketdata  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 2. Välj en tabell som du vill modifiera data för, och välj sedan åtgärden **Koppla data**. Välj knappen **Ja** för att bekräfta kopplingen.
-3. Återgå till fönstret **Konfig. kalkylblad** och välj åtgärden **Databasdata** för att bekräfta att datan nu finns i databasen och att kopplingen har lyckats.  
+3. Återgå till sidan **Konfig. kalkylblad** och välj åtgärden **Databasdata** för att bekräfta att datan nu finns i databasen och att kopplingen har lyckats.  
 
 > [!NOTE]  
 >  När du har kopplat data kan du endast se dem i databasen. De finns inte längre i paketet.  
@@ -46,9 +46,9 @@ Alla tabeller som du har tilldelat för att ta med i det nya företaget importer
 ## <a name="to-modify-and-apply-package-data"></a>så här kan du ändra och koppla paketdata  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 2. Välj en tabell som du vill modifiera data för, och välj sedan åtgärden **Paketera data**.  
-3. I fönstret **Konfig. paketposter** gör du dina ändringar. Du kan till exempel ta bort alternativ som inte används.  
+3. På sidan **Konfig. paketposter** gör du dina ändringar. Du kan till exempel ta bort alternativ som inte används.  
 4. Välj åtgärden **Koppla data** och sedan knappen **OK**.  
-5. Återgå till fönstret **Konfig. kalkylblad** och välj åtgärden **Databasdata** för att bekräfta att datan nu finns i databasen och att kopplingen har lyckats.  
+5. Återgå till sidan **Konfig. kalkylblad** och välj åtgärden **Databasdata** för att bekräfta att datan nu finns i databasen och att kopplingen har lyckats.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>så här kan du hitta och identifiera ett konfigurationsfel  
 Det finns vissa typer av fel som kan uppstå när du kopplar data till en databas. Det vanligaste felet är inte att ta med alla relaterade tabeller som behövs. Du kan åtgärda felen i konfigurationskalkylbladet.
@@ -58,7 +58,7 @@ Det finns vissa typer av fel som kan uppstå när du kopplar data till en databa
 
     Tabeller som innehåller fel markeras. Antalet paketfel visas i fältet **Antal paketfel**.  
 
-3. Välj fältet **Antal paketfel** för att öppna fönstret **Konfig. paketposter**, som listar de poster som innehåller fel.  
+3. Välj fältet **Antal paketfel** för att öppna sidan **Konfig. paketposter**, som listar de poster som innehåller fel.  
 
 ### <a name="to-fix-an-error"></a>Så här kan du lösa ett fel  
 1. Öppna företaget som baseras på ditt konfigurationspaket.  

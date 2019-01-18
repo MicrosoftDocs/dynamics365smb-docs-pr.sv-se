@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 70dcfb8ccd24f7b429a6e8755ec9e22cc59e4e5a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns fönstret **Serviceuppgifter** där du får en översikt över alla serviceartiklar som behöver åtgärdas. Du kan se det som en instrumentbräda för service - se vilka order som väntar på att åtgärdas, söka efter och registrera reservdelar och hålla lagret uppdaterat.  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller sidan **Serviceuppgifter** där du får en översikt över alla serviceartiklar som behöver åtgärdas. Du kan se det som en instrumentbräda för service - se vilka order som väntar på att åtgärdas, söka efter och registrera reservdelar och hålla lagret uppdaterat.  
 
 Om du vill spåra ändringar och få en grafisk översikt över serviceverksamheten, kan du med statistikverktygen i [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt skapa en snabb analys i diagramformat.  
 
@@ -31,7 +31,7 @@ Om du vill spåra ändringar och få en grafisk översikt över serviceverksamhe
 2. Om du vill ha en lista över serviceuppgifterna som en viss resurs/resursgrupp är fördelad till, fyller du i fältet **Resursfilter**/ **Resursgruppfilter** och trycker på RETUR.  
 3. Om du vill ha en lista över serviceuppgifter med ett visst svarsdatum eller svarsdatum inom en viss tidsperiod, fyller du i fältet **Svarsdatumfilter** och trycker på RETUR.  
 4. Om du vill ha en lista över serviceuppgifter med en viss fördelningsstatus/reparationsstatus fyller du i fältet **Fördelningsstatusfilter** eller **Reparationsstatus kodfilter** och trycker på RETUR.  
-5. Markera serviceuppgiften som du vill arbeta med. På fliken **Analysera** i gruppen **Serviceuppgifter** väljer du **Artikelkalkylark**. Fönstret **Serviceartikeldokument** öppnas.  
+5. Markera serviceuppgiften som du vill arbeta med. På fliken **Analysera** i gruppen **Serviceuppgifter** väljer du **Artikelkalkylark**. Sidan **Serviceartikeldokument** öppnas.  
 6. Registrera standardtext, reservdelar, resurstid och kostnader med hjälp av motsvarande alternativ i fältet **Typ**:  <Blank>, **Artikel**, **Resurs**, och **Kostnad**.  
 7. I fältet **Reparationsstatus** markerar du lämplig status.  
 
@@ -39,7 +39,7 @@ Om du vill spåra ändringar och få en grafisk översikt över serviceverksamhe
    >  Fyll i fältet **Reparationsstatus** med statusvärdet **Avslutad** eller **Delvis servad** om serviceartikeln har avslutats eller om en annan resurs ska fortsätta med servicen. Statusvärdet **Avslutad** eller **Omfördelning nödvändig** väljs automatiskt för den här serviceartikelns fördelningstransaktion.  
 
 ## <a name="to-register-service-operations"></a>Så här registrerar du serviceoperationer  
-När du utför en service på en serviceorder kan du registrera detaljerad information om de artiklar som använts, uppkomna kostnader och tidsåtgång. Den information som du anger lagras i fönstret **Serviceartikeldokument**. Du kan uppdatera informationen när det behövs.
+När du utför en service på en serviceorder kan du registrera detaljerad information om de artiklar som använts, uppkomna kostnader och tidsåtgång. Den information som du anger lagras på sidan **Serviceartikeldokument**. Du kan uppdatera informationen när det behövs.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna serviceordern som du vill registrera service för och välj artikelrad.  
@@ -50,7 +50,7 @@ När du utför en service på en serviceorder kan du registrera detaljerad infor
    >  Du kan också registrera en service direkt på de servicerader som är kopplade till serviceordern.  
 
 ## <a name="to-register-spare-parts"></a>Så här registrerar du reservdelar  
-När du arbetar med serviceartiklar i serviceorder kanske du behöver använda reservdelar till servicen. Nedan beskrivs en procedur för att registrera reservdelarna som du använder i fönstret **Serviceartikeldokument**.  
+När du arbetar med serviceartiklar i serviceorder kanske du behöver använda reservdelar till servicen. Nedan beskrivs en procedur för att registrera reservdelarna som du använder på sidan **Serviceartikeldokument**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceuppgifter** och välj sedan relaterad länk.
 2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
@@ -59,7 +59,7 @@ När du arbetar med serviceartiklar i serviceorder kanske du behöver använda r
 5. I fältet **Nr.** markera relevant reservdel.  
 6. I fältet **Antal** anger du hur många artiklar du vill använda.  
 
- Du kan använda en liknande procedur för att registrera reservdelarna i fönstret **Servicerader** som du öppnar från fönstret **Serviceorder**.  
+ Du kan använda en liknande procedur för att registrera reservdelarna på sidan **Servicerader** som du öppnar från sidan **Tjänsteorder**.  
 
 ## <a name="to-register-spare-parts-from-a-service-order"></a>Registrera reservdelar från en serviceorder  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
@@ -94,16 +94,16 @@ När du registrerar en serviceartikelrad i en serviceorder eller offert om servi
 3. På den serviceartikelrad som du vill ändra svarstid för i fältet **Svarstid (timmar)** eller i fälten **Svarsdatum** och **Svarstid** anger du nya svarstimmar eller svarsdatum och svarstid.  
 
 ## <a name="to-register-faultresolution-codes"></a>Så här registrerar du fel/åtgärdskoder  
-När en serviceartikel har reparerats kan du ange både felkoden och åtgärdskoden för artikeln genom att välja en kombination från de befintliga fel- och åtgärdskodssambanden. De fel- och åtgärdskoder som valts visas nu i motsvarande fält i fönstret **Serviceartikeldokument**. Du kan också registrera koderna direkt i det här fönstret.  
+När en serviceartikel har reparerats kan du ange både felkoden och åtgärdskoden för artikeln genom att välja en kombination från de befintliga fel- och åtgärdskodssambanden. De fel- och åtgärdskoder som valts visas nu i motsvarande fält på sidan **Serviceartikeldokument**. Du kan också registrera koderna direkt i på den här sidan.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceuppgifter** och välj sedan relaterad länk.
 2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
-3. I fönstret **Serviceartikeldokument** väljer du **Fel- och åtgärdssamband koder**. Fönstret **Fel-/åtgärdssambandskoder** öppnas.  
+3. På sidan **Serviceartikeldokument** väljer du **Fel- och åtgärdssamband koder**. Sidan **Fel-/åtgärdssambandskoder** öppnas.  
 
   >  [!Note]
-  >  Filter sätts på de samband som visas i fönstret via kopiering av serviceartikelgruppen och felkoderna från fönstret **Serviceartikeldokument**.  
+  >  Filter sätts på de samband som visas på sidan via kopiering av serviceartikelgruppen och felkoderna från sidan **Serviceartikeldokument**.  
 
-4. Fyll i raden. Välj rätt kombination av fel- och åtgärdskoder och klicka sedan på **OK** för att kopiera den till serviceartikeln. Om någon lämplig kombination inte finns kan du skapa en ny kombination i fönstret.  
+4. Fyll i raden. Välj rätt kombination av fel- och åtgärdskoder och klicka sedan på **OK** för att kopiera den till serviceartikeln. Om någon lämplig kombination inte finns kan du skapa en ny kombination på sidan.  
 
 ## <a name="see-also"></a>Se även  
 [Så här ställer du in felrapporteringsnivån](service-how-setup-fault-reporting.md)

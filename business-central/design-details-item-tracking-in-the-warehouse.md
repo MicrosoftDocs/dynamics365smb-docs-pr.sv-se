@@ -13,36 +13,37 @@ ms.search.keywords: design, item, tracking, serial number, lot number, outbound 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f9dfd8b4e3fe6052ef8cd0d4fcbadba67c7517b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fcdfc219f94462048474acdef259f671e1c8a402
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetaljer: Disposition av artikelspårning
-Fönstren **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynamisk dispositionsinformationen för serie- / partinummer. Avsikten med detta är att öka transparensen för användare på avgående dokument, t.ex. försäljningsorder, genom att visa dem vilka serienummer eller hur många enheter av partinumret som för närvarande tilldelas på andra öppna dokument. Det minskar osäkerhet som orsakas av dubbel fördelning, och gör att orderhandläggarna kan känna sig säkra på att artikelspårningsnumren och datumen som utlovas på försäljningsorder som inte har bokförts kan uppfyllas. Mer information finns i [Designdetaljer:  Fönster för artikelspårningsrader](design-details-item-tracking-lines-window.md).  
-  
-När du öppnar fönstret **Artikelspårningsrader** hämtas tillgänglighetsdata från tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. När du väljer fältet **Serienr** eller fältet **Partinr** öppnas fönstret **Artikelspårning sammandrag** och en översikt av informationen om artikelspårning visas i tabellen **Reservationstransaktion**. Översikten innehåller följande information om varje serie- eller partinummer på artikelspårningsraden:  
-  
+Sidorna **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynamisk dispositionsinformationen för serie-/partinummer. Avsikten med detta är att öka transparensen för användare på avgående dokument, t.ex. försäljningsorder, genom att visa dem vilka serienummer eller hur många enheter av partinumret som för närvarande tilldelas på andra öppna dokument. Det minskar osäkerhet som orsakas av dubbel fördelning, och gör att orderhandläggarna kan känna sig säkra på att artikelspårningsnumren och datumen som utlovas på försäljningsorder som inte har bokförts kan uppfyllas. Mer information finns i [Designdetaljer: Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md).  
+
+När du öppnar sidan **Artikelspårningsrader** hämtas tillgänglighetsdata från tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. När du väljer fältet **Serienr** eller fältet **Partinr** öppnas sidan **Artikelspårning sammandrag** och en översikt av informationen om artikelspårning visas i tabellen **Reservationstransaktion**. Översikten innehåller följande information om varje serie- eller partinummer på artikelspårningsraden:  
+
 |Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
 |**Totalt antal**|Det totala antalet av det parti- eller serienummer som för närvarande finns i lager.|  
 |**Totalt begärt antal**|Det totala antalet av det parti- eller serienummer som för närvarande har beställts i alla dokument.|  
-|**Aktuellt pågående antal**|Antalet som anges i aktuell instans av fönstret **Artikelspårningsrader** mens som inte ännu har skickats till databasen.|  
-|**Totalt disponibelt antal**|Antalet av serie- eller partinumret som är tillgängligt för användaren att begära.<br /><br /> Antalet beräknas från andra fält i fönstret enligt följande:<br /><br /> totalt antal – (totalt begärt antal + aktuellt pågående antal).|  
-  
+|**Aktuellt pågående antal**|Antalet som anges i aktuell instans av sidan **Artikelspårningsrader** men som inte ännu har skickats till databasen.|  
+|**Totalt disponibelt antal**|Antalet av serie- eller partinumret som är tillgängligt för användaren att begära.<br /><br /> Antalet beräknas från andra fält på sidan enligt följande:<br /><br /> totalt antal – (totalt begärt antal + aktuellt pågående antal).|  
+
 > [!NOTE]  
->  Du kan också se information i den föregående tabellen med hjälp av funktionen **Markera transaktioner** i fönstret **Artikelspårningsrader**.  
-  
-För att bevara databasprestanda hämtas tillgänglighetsdata bara en gång från databasen när du öppnar fönstret **Artikelspårningsrader** och använder funktionen **Uppdatera tillgänglighet** i fönstret.  
-  
-## <a name="calculation-formula"></a>Beräkning  
+>  Du kan också se information i den föregående tabellen med hjälp av funktionen **Markera transaktioner** på sidan **Artikelspårningsrader**.  
+
+För att bevara databasprestanda hämtas tillgänglighetsdata bara en gång från databasen när du öppnar sidan **Artikelspårningsrader** och använder funktionen **Uppdatera tillgänglighet** på sidan.  
+
+## <a name="calculation-formula"></a>Beräkningsformel  
 Som beskrivs i föregående tabell beräknas tillgängligheten av ett visst serie- eller partinummer så här:  
-  
+
 * totalt disponibelt antal = antal i lager – (alla behov + antal som ännu inte allokerats till databasen)  
-  
+
 > [!IMPORTANT]  
 >  Följande formel betyder att dispositionsberäkningar för serie- eller partinummer endast beaktar lager och ignorerar planerade inleveranser. Leveranser som inte ännu har bokförts till lagret påverkar inte artikelspårningsdisposition, i motsats till vanlig artikeldispositionen där planerade inleveranser inkluderas.  
-  
+
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
+

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
@@ -27,7 +27,7 @@ Du kan tilldela företaget och dess affärspartner, till exempel kunder, leveran
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fältet **Kod**.  
 4. Välj åtgärden **Bibehåll baskalenderändringar**.
-5. I fönstret **baskalenderändringar** använd fältet **Återkommande system** för att markera ett visst datum eller en viss dag som återkommande ledig dag. Du kan välja mellan alternativen **Årligen återkommande** eller **Veckovis återkommande**.  
+5. På sidan **baskalenderändringar** använd fältet **Återkommande system** för att markera ett visst datum eller en viss dag som återkommande ledig dag. Du kan välja mellan alternativen **Årligen återkommande** eller **Veckovis återkommande**.  
 
     Om du väljer **Årligen återkommande** måste du även ange vilket datum som avses i fältet **Datum**.  
 
@@ -37,7 +37,7 @@ När du gör en transaktion är fältet **Ej arbetsdag** markerat. Du kan välja
  När du återgår till baskalenderkortet kan du lägga märke till att de lediga dagar som du har angett har uppdaterats. Posterna är nu röda, och **Ej arbetsdag** är markerat.  
 
 > [!NOTE]  
->  När du lägger upp en ny baskalender kan du markera och kopiera rader från en befintligt kalender. Det gör du i fönstret **Baskalenderändringar**.  
+>  När du lägger upp en ny baskalender kan du markera och kopiera rader från en befintligt kalender. Det gör du på sidan **Baskalenderändringar**.  
 
 > [!IMPORTANT]  
 >  En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar.
@@ -57,7 +57,7 @@ En baskalender som definierats för leverantörer eller lagerställe inverkar p�
 > [!Important]
 > Om ditt lagerställe använder en helt annan kalender än den leverantörerna använder är det viktigt att du lägger upp specifika kalendrar för leverantörerna för att beräkna bästa möjliga leverantörsledtider. Om du vill veta hur du ställer in leverantörskalendrar, se avsnittet ”Så här tilldelar du en baskalender”.
 
-Innehållet i fältet **Ledtidsberäkning** kopieras från antingen artikelkortet eller lagerställeenhetskortet om ledtiden har angetts för artikeln, eller **Artikelns leverantörskatalog** om ledtiden definieras för leverantören.
+Innehållet i fältet **Ledtidsberäkning** kopieras från antingen artikelkortet eller lagerställeenhetskortet om ledtiden har angetts för artikeln, eller sidan **Artikelns leverantörskatalog** om ledtiden definieras för leverantören.
 
 ## <a name="to-customize-a-calendar"></a>Så här anpassar du en kalender
 Huvuduppgiften när du anpassar en baskalender för företaget, eller någon av dess affärspartner, är att ange eventuella ändringar av status som arbetsdag eller ledig dag.
@@ -68,7 +68,7 @@ I proceduren nedan används fallet med lagerstället som exempel: Lägg märke t
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.
 2. Öppna den plats som du vill uppdatera och välj sedan fältet **anpassad kalender**. Observera att en kalender måste markeras i fältet **Baskalenderkod**.
-3. I fönstret **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
+3. På sidan **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
 4. I **Anpassa kalenderändringar** lägger du till rader för anpassade kalendertransaktioner.
 
     När du registrerar en rad, är kryssrutan **Ej arbetsdag** markerat. Du kan ta bort markeringen om du vill ändra status till en arbetsdag.
@@ -77,9 +77,9 @@ I proceduren nedan används fallet med lagerstället som exempel: Lägg märke t
 
     Om du väljer **Årligen återkommande** måste du även ange vilket datum som avses i fältet **Datum**. Om du väljer **Veckovis återkommande** måste du även ange vilken veckodag som avses i fältet **Dag**. Om du lämnar fältet tomt, måste du fylla i fältet **Datum**. Fältet **Dag** fylls i automatiskt. Det kan vara praktiskt om du vill markera ett enstaka datum som arbetsdag eller ledig dag.
 
-5. Välj **OK**.
+5. Välj knappen **OK**.
 
-I fönstret **Anpassa kalendertrans.** kan du lägga märke till att de ändringar som du har gjort har uppdaterats dynamiskt.
+På sidan **Anpassade kalendertrans.** kan du lägga märke till att de ändringar som du har gjort har uppdaterats dynamiskt.
 
 Observera också, när du öppnar lagerställekortet, att fältet **Anpassad kalender** har värdet **Ja**, vilket indikerar att en anpassad kalender har definierats.
 
@@ -100,7 +100,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 -   På korten **Företagsinformation** och **Kund** tilldelas baskalendern på snabbfliken **Leverans**.  
 -   På kortet **Leverantör**  tilldelas baskalendern på snabbfliken **Inleverans**.  
 -   På kortet **Lagerställe** tilldelas baskalendern på snabbfliken **Lager**.  
--   I fönstret **Speditörer** fördelats baskalendern i fönstret **Speditörsservice**.  
+-   På sidan **Speditörer** fördelats baskalendern på sidan **Speditörsservice**.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.  
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
@@ -32,7 +32,7 @@ Mer information finns i [Designdetaljer: Avgående distributionslagerflöde](des
 Efterföljande genomgången visar metod B i föregående tabellen.  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången  
-För grundläggande lagerkonfigurationer där lagerstället har konfigurerats att kräva plockningsbearbetning men inte leveransbearbetning, använder du fönstret **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina avgående källdokument. Det utgående källdokumentet kan vara en försäljningsorder, inköpsreturorder, utgående överföringsorder eller produktionsorder med komponentbehov.  
+För grundläggande lagerkonfigurationer där lagerstället har konfigurerats att kräva plockningsbearbetning men inte leveransbearbetning, använder du sidan **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina avgående källdokument. Det utgående källdokumentet kan vara en försäljningsorder, inköpsreturorder, utgående överföringsorder eller produktionsorder med komponentbehov.  
 
 I den här genomgången tas följande aktiviteter upp:  
 
@@ -56,7 +56,7 @@ För att kunna utföra den här genomgången behöver du:
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
     1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
-    2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
+    2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
     3.  Ange SILVER i fältet **Lagerställekod**.  
     4.  Välj fältet **Standard**.  
 
@@ -73,10 +73,10 @@ För att kunna utföra den här genomgången behöver du:
     3.  Välj åtgärden **Bokföra** och sedan knappen **Ja**.  
 
 ## <a name="story"></a>Situation  
-Ellen, lagerchefen i CRONUS ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade i fönstret **Lagerplockning** som automatiskt pekar på lagerplatserna där LS-81 lagras.  
+Ellen, lagerchefen i CRONUS ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerplatserna där LS-81 lagras.  
 
 ## <a name="setting-up-the-location"></a>Lägger upp lagerstället  
-Inställningen av fönstret **Lagerställekort** definierar företagets lagerflöden.  
+Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
 
 ### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
@@ -102,7 +102,7 @@ Försäljningsorder är den vanligaste typen för utgående källdokumentet.
     Anders fortsätter att plocka och leverera de sålda artiklarna.  
 
 ## <a name="picking-and-shipping-items"></a>Plocka och leverera artiklar  
-I fönstret **Lagerplockning** kan du hantera alla utgående distributionslageraktiviteter för ett särskilt källdokument, t.ex en försäljningsorder.  
+På sidan **Lagerplockning** kan du hantera alla utgående distributionslageraktiviteter för ett särskilt källdokument, t.ex en försäljningsorder.  
 
 ### <a name="to-pick-and-ship-items"></a>Plocka och utleverera artiklar så här  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplockningar** och välj sedan relaterad länk.  

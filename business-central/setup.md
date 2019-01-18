@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
-Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns i [Gör dig redo att göra affärer](ui-get-ready-business.md).
+Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).
 
 > [!NOTE]
 > Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

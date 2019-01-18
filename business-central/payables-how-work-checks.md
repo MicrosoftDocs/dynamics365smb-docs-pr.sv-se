@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
@@ -42,7 +42,7 @@ Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetal
 3. I fältet **Kod för betalningssätt** väljer du **Check.**
 4. I fältet **Bankbetalningstyp** väljer du **Datorcheck.**
 5. Välj åtgärden **Skriv ut check**.
-6. I fönstret **Check** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. På sidan **Kontrollera** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Välj knappen **skicka till**, välj alternativet **PDF-dokument**, och välj sedan **OK**-knappen.
 
     Numera du kan föra fysiska checkar till banken för bearbetning. Fortsätt att bokföra betalningen som tillämpas för leverantören och därmed betald i systemet.
@@ -54,16 +54,16 @@ Fullständigt kopplade leverantörsreskontratransaktioner och bankkontotransakti
 > Om du vill skriva ut och betala checkar i flera olika valutor från olika bankkonton måste du köra batch-jobbet **Skriv ut check** separat för varje valuta och ange bankkontot.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Att skriva ut checkar som inte har bokförts
-Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom att använda åtgärden **Makulera check** i fönstret **Betalningsjournal**.
+Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom att använda åtgärden **Makulera check** på sidan **Betalningsjournal**.
 
-1. I fönstret **Betalningsjournal** väljer du **Makulera check** och sedan väljer du checken som ska annulleras.
+1. På sidan **Betalningsjournal** väljer du **Makulera check** och sedan väljer du checken som ska annulleras.
 
 ## <a name="to-void-checks"></a>Så här makulerar du checkar:
 När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från de resulterande banktransaktionerna.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj åtgärden **Redigerat** och välj sedan åtgärden **checktransaktioner**.
-3. I fönstret **checktransaktioner** väljer du åtgärden **Makuler check**.
+3. På sidan **checktransaktioner** väljer du åtgärden **Makuler check**.
 4. Markera kryssrutan **Makulera endast check**.
 5. Välj knappen **OK**.
 

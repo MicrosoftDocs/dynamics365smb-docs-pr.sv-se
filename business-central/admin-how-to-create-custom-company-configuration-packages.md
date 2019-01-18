@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Så här skapar du anpassade konfigurationspaket för företag
@@ -46,7 +46,7 @@ För att se en komplett lista över inställningstabeller, välj ikonen ![Glödl
 2.  Skapa ett nytt företag bransch- eller lösningsmallen. För mer information, se [Skapa ett nytt företag](admin-how-to-create-a-new-company.md).  
 3.  Ställ in det nya företaget efter behov. Fyll i alla inställningstabeller som behövs.  
 4.  Öppna det nya företaget.
-5. Öppna fönstret **Konfigurationskalkylark**.  
+5. Öppna sidan **Konfigurationsformulär**.  
 6.  Lägg till tabellerna som du vill överföra till ett annat företag i kalkylarket. Tilldela kalkylarksraderna till paketet.  
 7.  Skapa ett frågeformulär för de mest använda inställningstabellerna.  
 8.  Skapa konfigurationsmallar för att göra det lättare att skapa huvuddata, som för kunder eller artiklar.  

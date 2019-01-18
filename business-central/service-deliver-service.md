@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Leverera service
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
   
-Ett annat sätt att granska pågående serviceorder är att använda fönstret **Serviceuppgifter**. I den här vyn över dina serviceåtaganden kan du se var någonstans i arbetsflödet som en order befinner sig och ändra status så att den återspeglar kontakterna med kunden.  
+Ett annat sätt att granska väntande serviceorder är att använda sidan **Serviceuppgifter**. I den här vyn över dina serviceåtaganden kan du se var någonstans i arbetsflödet som en order befinner sig och ändra status så att den återspeglar kontakterna med kunden.  
   
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 

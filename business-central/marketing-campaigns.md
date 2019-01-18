@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Hantera marknadsföringskampanjer
@@ -23,7 +23,7 @@ Med en stark marknadsföringsplan kan du identifiera, attrahera och bibehålla k
 Varje kampanj består av olika aktiviteter eller uppgifter. Du kan kombinera flera uppgifter, till exempel uppgifter som var och en representerar ett steg i aktiviteter. Alla steg i en aktivitet är knutna till varandra med hjälp av en datumformel. Individuella uppgifter kan endast tilldelas enskilda säljare. Aktiviteter kan kopplas till affärsmöjligheter, säljare, säljpersonal och kontakter. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definiera enskilda kampanjer
-Innan du kan skapa en kampanj måste du ställa in *kampanjens statuskoder*. Med hjälp av dessa koder hanterar du kampanjen genom att tilldela kampanjen en status. Medan du arbetar med kampanjens olika faser kan du se vilken fas kampanjen befinner sig i och vilket steg som kommer härnäst. Du kan ställa in kampanjens statuskoder i fönstret **kampanjstatus**.
+Innan du kan skapa en kampanj måste du ställa in *kampanjens statuskoder*. Med hjälp av dessa koder hanterar du kampanjen genom att tilldela kampanjen en status. Medan du arbetar med kampanjens olika faser kan du se vilken fas kampanjen befinner sig i och vilket steg som kommer härnäst. Du kan ställa in kampanjens statuskoder på sidan **kampanjstatus**.
 
 Du kan skapa ett kampanjkort för varje kampanj som du vill hålla ordning på. Du kan också visa dessa kampanjkort om du vill visa allmän information om kampanjerna.
 Du kan ta bort kampanjtransaktioner om de till exempel anger åtgärder som har avbrutits. Det är endast avbrutna kampanjtransaktioner som kan tas bort.
@@ -32,7 +32,7 @@ Du kan ta bort kampanjtransaktioner om de till exempel anger åtgärder som har 
 När du har skapat en kampanj kan du börja skapa de segment som angeer kampanjens målgrupp. Mer information finns i [Hantera segment](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Registrera rabattsatser
-När du har skapat din kampanj, bestämt vilka segment som du vill att kampanjen ska omfatta, och angett start- och slutdatum, registrerar du den rabattsats som kunden ska få på de olika artiklarna på raderna i fönstret **Försäljningsradrabatter**. Du kan också registrera försäljningspriserna för de individuella artiklarna på raderna i fönstret **försäljningspriser**. Du kan öppna båda fönstren från kampanjkortet.
+När du har skapat din kampanj, bestämt vilka segment som du vill att kampanjen ska omfatta, och angett start- och slutdatum, registrerar du den rabattsats som kunden ska få på de olika artiklarna på raderna på sidan **Försäljningsradrabatter**. Du kan också registrera försäljningspriserna för de individuella artiklarna på raderna på sidan **försäljningspriser**. Du kan öppna båda sidor från kampanjkortet.
 
  När du har angett försäljningspriser/radrabatter och segment på kampanjkortet måste du aktivera dem så att kampanjpriserna/rabatterna avspeglas på raderna.
 

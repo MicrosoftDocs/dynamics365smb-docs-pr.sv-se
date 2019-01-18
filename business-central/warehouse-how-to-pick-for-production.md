@@ -1,6 +1,6 @@
 ---
 title: "Så här: Plocka för produktion i grundläggande distributionslagerkonfiguration | Microsoft Docs"
-description: "När distributionslagrets lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du fönstret **Lagerplockning** för att ordna och registrera plockning av komponenter."
+description: "När distributionslagrets lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan **Lagerplockning** för att ordna och registrera plockning av komponenter."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe294cd56c01e1440ff04f7146fada64774f4e8b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33531bf23b8ae03a38ff176f31de3b7395ace052
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-for-production-or-assembly"></a>Plocka för produktion eller montering
 Hur du för in plockningskomponenter för produktions- eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
 
-Igrundläggande lagerkonfigurationer där lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du fönstret **Lagerplockning** för att ordna och registrera plockning av komponenter.  
+Igrundläggande lagerkonfigurationer där lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan **Lagerplockning** för att ordna och registrera plockning av komponenter.  
 
-I grundläggande distributionslagerkonfiguration måste du plocka för monteringsorder med fönstret **Lagertransport**. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder med lagerplockning” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).  
+I grundläggande distributionslagerkonfiguration måste du plocka för monteringsorder med sidan **Lagertransport**. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder med lagerplockning” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
-I avancerad distributionslagerkonfiguration, där lagerställen kräver både plockning och utleveranser, använder du **dist.lager plockning** för att få komponenter till produktions- eller monteringsordern.
+I avancerad distributionslagerkonfiguration, där lagerställen kräver både plockning och utleveranser, använder du sidan **dist.lager plockning** för att få komponenter till produktions- eller monteringsordern.
 
 > [!NOTE]  
 >  Lagerplockningar och lagerförflyttningar har följande viktiga skillnader:  
@@ -37,7 +37,7 @@ I avancerad distributionslagerkonfiguration, där lagerställen kräver både pl
 En systemvillkor för plockning eller flyttning av komponenter för källdokument, är att en avgående distributionslagerkrav finns för att meddela lagerområdet i komponentbehovet. Den avgående distributionslagerförfrågan skapas när produktionsorderns status ändras till Släppt eller när en släppt produktionsordern skapas.  
 
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Plocka komponenter i en grundläggande lagerkonfiguration.
-I grundläggande distributionslagerkonfiguration, där det har angetts att lagerstället ska endast använda plockning samt leverans, kan du välja plockkomponenter i fönstret **Lagerplockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).
+I grundläggande distributionslagerkonfiguration, där det har angetts att lagerstället ska endast använda plockning samt leverans, kan du välja plockkomponenter på sidan **Lagerplockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplockningar** och välj sedan relaterad länk.  
 2.  Om du vill komma åt produktionsorderns komponenter väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
@@ -46,15 +46,15 @@ I grundläggande distributionslagerkonfiguration, där det har angetts att lager
 
 Du kan också skapa en **lagerplockning** direkt från den släppta produktionsordern. Välj **Skapa lagerartikelinförsel/Plocka**, välj **Skapa lagerplockning** och välj sedan **OK**-knappen.
 
-Du kan också använda **Lagertransport**-fönstret för att flytta artiklar mellan lagerplatser ad hoc-, d.v.s till utan att referera till ett ursprungsdokument.
+Du kan också använda sidan **Lagertransport** för att flytta artiklar mellan lagerplatser ad hoc-, d.v.s till utan att referera till ett ursprungsdokument.
 Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 ### <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Hantering av artikel för montering mot kundorder i lagerplockningar
-Fönstret **Lagerplockning** används också för att plocka och leverera för försäljning där artiklar måste vara församlade, innan de kan levereras. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).
+Sidan **Lagerplockning** används också för att plocka och leverera för försäljning där artiklar måste vara församlade, innan de kan levereras. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).
 
 Artiklar som ska levereras, inte fysiskt finns i en lagerplats, förrän de är bokförda och församlade som utflöde på en lagerplats i monteringsområdet. Det innebär att plocka artiklar för montering mot kundorder för utleverans följer ett speciellt flöde. Från en lagerplats tar lagerarbetare monteringsartiklarna till ett leveransdocka och bokför sedan lagerplockningen. Bokförda lagerplockningen bokför sedan monteringsutflödet, komponentförbrukningen och utleveransen.
 
-Du kan lägga upp [!INCLUDE[d365fin](includes/d365fin_md.md)] för att automatiskt skapa en lagertransport, när monteringsartikeln för lagerplockningen skapas. Du anger dessa inställningar genom att välja fältet **skapa transporter automatiskt** i fönstret **Monteringsinställningar** Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Du kan lägga upp [!INCLUDE[d365fin](includes/d365fin_md.md)] för att automatiskt skapa en lagertransport, när monteringsartikeln för lagerplockningen skapas. Du anger dessa inställningar genom att välja fältet **skapa transporter automatiskt** på sidan **Monteringsinställningar** Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Lagerplockningsrader för försäljningsartiklar skapas på olika sätt beroende på om ingen, några eller alla försäljningsradantal monteras mot kundorder.
 
@@ -64,22 +64,22 @@ I montering mot kundorder försäljning, där hela antalet på försäljningsord
 
 Om ett monteringsutflöde har angetts för lagerstället, när värdet i fältet **Lagerpl.kod för mont. mot lev.** eller värdet i **Från monteringsplats - kod** i den ordern infogas i fältet **Lagerplatskod** på lagerplockningsraden.
 
-Om ingen lagerplatskod anges på försäljningsorderraden, och ingen monteringsutflöde har angetts för lagerstället, är **Lagerplatskod** på lagerplockningsraden tomt. Lagerarbetaren måste öppna **Lagerplatsinnehåll**och markera den lagerplats där monteringsartiklarna är församlade.
+Om ingen lagerplatskod anges på försäljningsorderraden, och ingen monteringsutflöde har angetts för lagerstället, är **Lagerplatskod** på lagerplockningsraden tomt. Lagerarbetaren måste öppna sidan **Lagerplatsinnehåll**och markera den lagerplats där monteringsartiklarna är församlade.
 
 I alla scenarier där en del av antalet måste först vara församlad och ett annat ska plockas från lagret, skapas ett minimum på två lagerplockningsrader. En plockningsrad är för antal för montering mot kundorder. Den andra plockningsraden beror på vilka lagerplatser som kan uppfylla det återstående antalet från lagret. Lagerplatskoder på de två raderna är ifyllt olika sätt, som beskrivs för de två olika försäljningstyperna. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="to-pick-components-in-advanced-warehouse-configurations"></a>Plocka komponenter i en avancerad lagerkonfiguration.
-I avancerad distributionslagerkonfigurationer, där det har angetts att lagerstället ska använda plockning samt leverans, kan du välja plockkomponenter för produktion- och monteringsaktiviteter via fönstret **Dist.lagerplockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+I avancerad distributionslagerkonfiguration, där det har angetts att lagerstället ska använda plockning samt leverans, kan du välja plockkomponenter för produktion- och monteringsaktiviteter med sidan **Dist.lager plockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Du kan också använda fönstret **Transportkalkylark** för att flytta artiklar mellan lagerplatser ad hoc, d.v.s utan att referera till ett källdokument. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Du kan också använda sidan **Transportkalkylark** för att flytta artiklar mellan lagerplatser ad hoc-, d.v.s till utan att referera till ett ursprungsdokument. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Du kan inte skapa ett dokument för dist.lager plockning från grunden, eftersom en plockningsaktivitet alltid ingår i ett arbetsflöde, i ett pull-/pushscenario.  
 
 Du kan skapa dokumentet för dist.lager plockning med en pushmetod genom att välja **Skapa dist.lagerplockning** i källdokumentet, till exempel en släppt monteringsorder eller lagerutleverans. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-Du kan också skapa dokumentet för dist.lager plockning med en pullmetod med hjälp av **Plockningskalkylark** fönstret för att undersöka plockningsförfrågningar, både för leverans och intern operation, och sedan skapa de nödvändiga dokumentet för dist.lager plockning.  
+Du kan också skapa dokumentet för dist.lager plockning med en pullmetod med hjälp av sidan **Plockningskalkylark** för att undersöka plockningsförfrågningar, både för leverans och intern operation, och sedan skapa de nödvändiga dokumentet för dist.lager plockning.  
 
-Nedan förklaras ett pull-scenario där du plockar komponenter för en släppt produktionsorder via **Plockningskalkylark** fönstret. Följande procedur gäller även för en monteringsorder.  
+Nedan förklaras ett pull-scenario där du plockar komponenter för en släppt produktionsorder via sidan **Plockningskalkylark**. Följande procedur gäller även för en monteringsorder.  
 
 För att skapa plockning för både pull- och pushscenarier, måste källdokumenten släppas. Släppa källdokumenten för intern operation på följande sätt.  
 
@@ -94,7 +94,7 @@ För att skapa plockning för både pull- och pushscenarier, måste källdokumen
 2.  Välj åtgärden **Hämta dist.lager dokument** och välj sedan de komponentrader från den släppta produktionsordern.  
 3.  Analysera raderna, sortera dem för att garantera en effektiv plockningsrunda och kombinera dem med andra kalkylarksrader, om så behövs, för att minimera plockningstiden för den anställda.  
 4.  Välj åtgärden **Skapa plockning**.  
-5.  Definiera hur du skapar dokument för dist.lager plockning och hur här fältet sorterar plockningsrader genom att fylla i **Skapa plockning** fönstret.  
+5.  Definiera hur du skapar dokument för dist.lager plockning och hur här fältet sorterar plockningsrader genom att fylla i sidan **Skapa plockning**.  
 6.  Välj knappen **OK**.
 
 Dokumenten för dist.lager plockning skapas med plockningsrader för varje komponent som krävs i den intern operation.

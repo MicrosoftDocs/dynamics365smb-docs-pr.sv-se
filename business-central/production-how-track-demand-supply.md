@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1de7b6679b6b2494145654f712c3ddb3e760271e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spåra relationer mellan tillgång och efterfrågan
@@ -36,12 +36,12 @@ Nedan beskrivs hur du spårar länkade artiklar på en fast planerad produktions
 På raderna i fönstret **Orderspårning** visas de dokument som är relaterade till den aktuella produktionsorderraden.
 
 ## <a name="untracked-planning-elements"></a>Ej spårade planeringselement
-Fönstret **Ej spårade planeringselement** öppnas när du väljer fönstret **ej spårat antal** i fönstret **orderplanering**. Den har två syften:
+Sidan **Ej spårade planeringselement** öppnas när du väljer sidan **ej spårat antal** på sidan **orderplanering**. Den har två syften:
 
-1. Den innehåller information om ej spårade kvantiteter, som visas när användaren vill se ej spårade kvantiteter från fönstret Orderspårning .
-2. Den innehåller varningsmeddelanden som visas när användaren klickar på en **varningsikon** i fönstret **planeringsförslag**.
+1. Den innehåller information om ej spårade kvantiteter, som visas när användaren vill se ej spårade kvantiteter från sidan Orderspårning .
+2. Den innehåller varningsmeddelanden som visas när användaren klickar på en **varningsikon** på sidan **planeringsförslag**.
 
-Fönstret innehåller poster som redogör för en överskottskvantitet i orderspårningsnätverket. Dessa poster skapas under planeringen och förklarar var den ej spårade överskottskvantiteten på orderspårningsraderna kommer ifrån. Överskottet som inte har spårats kan komma från:
+Sidan innehåller poster som redogör för en överskottskvantitet i orderspårningsnätverket. Dessa poster skapas under planeringen och förklarar var den ej spårade överskottskvantiteten på orderspårningsraderna kommer ifrån. Överskottet som inte har spårats kan komma från:
 
 - Produktionsprognos
 - Avropsorder

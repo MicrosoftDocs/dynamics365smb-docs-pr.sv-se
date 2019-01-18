@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-products"></a>Sälja produkter
@@ -45,17 +45,17 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
-    Andra fält i fönstret **Försäljningsorder** fylls nu i med standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
+    Andra fält på sidan **Försäljningsorder** fylls nu i med standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
 3. Ange namnet på en ny kund i fältet **Kund**.
 4. Välj knappen **ja** i dialogrutan om registrering av den nya kunden.
-5. Välj en mall det nya kundkortet ska baseras på i fönstret **Välj en mall för en ny kund** och välj sedan knappen **OK**.
+5. Välj en mall det nya kundkortet ska baseras på sidan **Välj en mall för en ny kund** och välj sedan knappen **OK**.
 
     Ett nytt kundkort öppnas med förifylld information från den markerade kundmallen. Fältet **Namn** förifylls med nya kundens namn som du har angett på Försäljningsordern.
 6. Fortsätt att fylla de återstående fälten på kundkortet. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
-7. Välj **OK** för att gå tillbaka till fönstret **Försäljningsorder**, när du har slutfört kundkortet.
+7. Välj **OK** för att gå tillbaka till sidan **Förs.order**, när du har slutfört kundkortet.
 
     Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.
-8. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. På sidan **Förs.order** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Om du tillåter att kunden betalar direkt, till exempel via kreditkort eller PayPal, fyll sedan i fältet **betalningssätt**. Betalningen registreras sedan när du bokför försäljningsordern som fakturerad. Om du väljer kontant registreras betalning på ett angivet motkonto.
@@ -80,10 +80,10 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 
     Summorna under raderna beräknas automatiskt när du skapar eller ändrar rader.
 14. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
-15. Välj knappen **OK** för att gå tillbaka till fönstret **Försäljningsorder** när du har slutfört kundkortet.
+15. Välj **OK** för att gå tillbaka till sidan **Förs.order**, när du har slutfört kundkortet.
 
     Flera fält i Försäljningsorder är nu ifyllda med information som du har angett på det nya kundkortet.
-16. I fönstret **Försäljningsorder** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. På sidan **Förs.order** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
 

@@ -10,27 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7af9edc0620a61f6e3f114feff3a831e91add57
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
-Du kan automatisera processen för att godkänna nya eller ändrade transaktioner, t.ex dokument, journalrader och kundkort, genom att skapa arbetsflöden med stegen för godkännandena i fråga. Innan du skapar godkännandearbetsflöden, måste du skapa en godkännare och ersättningsgodkännare för varje godkännandeanvändare. Du kan också ange godkännares beloppsgränser för att definiera vilka försäljnings- och inköpsposter de är behöriga att godkänna. Godkännandebegäranden och andra kan meddelanden skickas som e-post eller intern anteckning. För varje inställning av godkännandeanvändare kan du också ställa in när de tar emot meddelanden.  
+Du kan automatisera processen för att godkänna nya eller ändrade transaktioner, t.ex dokument, journalrader och kundkort, genom att skapa arbetsflöden med stegen för godkännandena i fråga. Innan du skapar godkännandearbetsflöden, måste du skapa en godkännare och ersättningsgodkännare för varje godkännandeanvändare. Du kan också ange godkännares beloppsgränser för att definiera vilka försäljnings- och inköpsposter de är behöriga att godkänna. Godkännandebegäranden och andra kan meddelanden skickas som e-post eller intern anteckning. För varje inställning av godkännandeanvändare kan du också ställa in när de tar emot meddelanden.
+
+> [!NOTE]
+> Förutom funktionerna i arbetsflödet [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du integrera till Microsoft Flow för att definiera arbetsflöden för händelser i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Observera att trots att det finns två separata arbetsflödessystem, kommer alla Flow-mallar du skapar med Microsoft Flow läggas till i listan över arbetsflödesmallar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Använda Business Central i ett automatiskt arbetsflöde ](across-how-use-financials-data-source-flow.md).   
 
  Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Arbetsflöden](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången  
 I den här genomgången tas följande aktiviteter upp:  
 
--   Ställa in godkännandeanvändare (till exempel ställa in en användare i Windows och i [!INCLUDE[d365fin](includes/d365fin_md.md)]).  
+-   Ställa in godkännandeanvändare.  
 -   Ställa in meddelanden för godkännandeanvändare.  
 -   Ändra och aktivera ett godkännandearbetsflöde.  
--   Starta jobbkön som skickar ut meddelanden.  
 -   Begära godkännande av en inköpsorder, som Alicia.  
 -   Ta emot ett meddelande och sedan godkänna begäran, som Sean.  
 
@@ -38,42 +40,19 @@ I den här genomgången tas följande aktiviteter upp:
 Om du vill utföra den här genomgången behöver du demonstrationsföretaget CRONUS.
 
 ## <a name="story"></a>Situation  
-Stefan har en superanvändare i CRONUS på sin egen dator.  
-
-Han skapar två godkännandeanvändare. En är Alicia som representerar en inköpsagent. Den andra är han själv som representerar Alicias godkännare. Sean ger sig själv obegränsade godkännanderättigheter för inköp och anger sedan att han ska få meddelanden genom intern anteckning så snart som en relevant händelse inträffar. Till slut skapar Sean det önskade godkännandearbetsflödet som en kopia av den befintliga arbetsflödesmallen för Arbetsflöde för godkännande av inköpsorder och låter alla befintliga händelsevillkor och svarsalternativ vara oförändrade, och aktiverar sedan arbetsflödet.  
+Sean är en superanvändare i CRONUS. Han skapar två godkännandeanvändare. En är Alicia som representerar en inköpsagent. Den andra är han själv som representerar Alicias godkännare. Sean ger sig själv obegränsade godkännanderättigheter för inköp och anger sedan att han ska få meddelanden genom intern anteckning så snart som en relevant händelse inträffar. Till slut skapar Sean det önskade godkännandearbetsflödet som en kopia av den befintliga arbetsflödesmallen för Arbetsflöde för godkännande av inköpsorder och låter alla befintliga händelsevillkor och svarsalternativ vara oförändrade, och aktiverar sedan arbetsflödet.  
 
 För att testa godkännandearbetsflödet loggar Stefan först in på [!INCLUDE[d365fin](includes/d365fin_md.md)] som Alicia och begär sedan godkännande av en inköpsorder. Sedan loggar Sean in som sig själv, ser anteckningen i sitt rollcenter, följer länken till godkännandebegäran för inköpsordern och godkänner sedan begäran.  
 
-## <a name="setting-up-the-sample-data"></a>Ställa in exempeldata  
-Du måste skapa en ny användare på den lokala datorn och i [!INCLUDE[d365fin](includes/d365fin_md.md)] som representerar Alicia som du sedan vill välja som godkännandeanvändare. Ditt eget användarkonto representerar Sean.  
+## <a name="setting-up-sample-data"></a>Ställa in exempeldata
+Innan du kan ställa in godkännandeanvändare och deras meddelandemetod måste du kontrollera att det finns två användare i [!INCLUDE[d365fin](includes/d365fin_md.md)]: En användare representerar Alicia. Den andra användaren, du själv, representerar Sean. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
 
-### <a name="to-add-alicia-as-a-user-on-the-local-computer"></a>Så här lägger du till Alicia som användare på den lokala datorn  
+### <a name="setting-up-approval-users"></a>Ställa in godkännandeanvändare  
+När du har loggat in som dig själv ställer du in Alicia en godkännandeanvändare vars godkännare är du själv. Skapa dina godkännanderättigheter och ange hur och när du får meddelande om godkännandebegäranden.  
 
-1.  Välj **Starta**, i rutan **Sök bland program och filer** anger du **Redigera lokala användare och grupper** och väljer sedan relaterad länk.  
-2.  Öppna mappen **Användare**.  
-3.  Välj **Ny användare** på fliken **Åtgärder**.  
-4.  Ange Alicia i fältet **Användarnamn**.  
-5.  Ange ett giltigt lösenord i fälten **Lösenord** och **Bekräfta lösenord**.  
-6.  Avmarkera kryssrutan **Användaren måste ändra lösenordet vid nästa inloggning**.  
-7.  Stäng fönstret **Lokala användare och grupper**.  
-
-### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Så här lägger du till Alicia som användare i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användare** och välj sedan relaterad länk.  
-2.  I fönstret **Windows-användare** på fliken **Start** i gruppen **Ny** väljer du **Ny**.  
-3.  I fönstret **användarkort** i fältet **användarnamn** anger du Alicia.  
-4.  I fältet **Windows användarnamn** väljer du AssistEdit-knappen.  
-5.  I fönstret **Välj användare eller grupp**, i fältet **Ange objektnamn som ska väljas** skriver du Alicia och väljer knappen **Kontrollera namn**.  
-6.  När [DATORNAMN]ALICIA visas i fältet väljer du knappen **OK**.  
-7.  På snabbfliken **Användarbehörighetsuppsättning**, i fältet **Behörighetsuppsättning** väljer du **SUPER**.  
-8.  I fältet **Företag** väljer du **CRONUS International Ltd.**  
-9. Välj **OK**.  
-
-## <a name="setting-up-approval-users"></a>Ställa in godkännandeanvändare  
-Genom att använda Windows-användaren som du precis har skapat, ställer du in Alicia som en godkännandeanvändare vars godkännare är du själv. Skapa dina godkännanderättigheter och ange hur och när du får meddelande om godkännandebegäranden.  
-
-### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Så här ställer du in dig själv och Alicia som godkännandeanvändare  
+#### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Så här ställer du in dig själv och Alicia som godkännandeanvändare  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
-2.  I fönstret **Användarinställningar för godkännande** på fliken **Start** i gruppen **Ny**, väljer du **Ny**.  
+2.  Å¨sidan **Användarinställningar för godkännande** väljer du åtgärden **Ny**.  
 
     > [!NOTE]  
     >  Du måste registrera en godkännare innan du kan ställa in användare som kräver den godkännarens godkännande. Därför måste du ställa in dig själv innan du ställer in Alicia.  
@@ -82,81 +61,53 @@ Genom att använda Windows-användaren som du precis har skapat, ställer du in 
 
     |Användar-ID|Godkännar-ID|Obegränsad godkännande för inköp|  
     |-------------|-----------------|---------------------------------|  
-    |[DATORNAMN][DU]||Vald|  
-    |[DATORNAMN]ALICIA|[DATORNAMN][DU]||  
+    |DU||Vald|  
+    |ALICIA|DU||  
 
-## <a name="setting-up-notifications"></a>Ställa in e-postmeddelanden  
-Ange hur och när du får meddelande om godkännandebegäranden.  
+### <a name="setting-up-notifications"></a>Ställa in e-postmeddelanden  
+Användaren får ett internt meddelande om begäranden att godkänna i den här genomgången. Meddelande om godkännanden kan också ske via e-post. Mer information finns i [Så här anger du när och hur användare ska meddelas](across-how-to-specify-when-and-how-to-receive-notifications.md). 
 
-### <a name="to-set-up-how-and-when-you-are-notified"></a>Så här ställer du in hur och när du får meddelande  
-1.  I fönstret **Användarinställningar för godkännande** väljer du raden för dig själv, och på fliken **Start** i gruppen **Process** väljer du **Konfigurera meddelanden**.  
-2.  I fönstret **Meddelandeinställningar** i fältet **meddelandetyp** anger du **godkännande**.  
-3.  Välj fältet **Kod för meddelandemall** och välj sedan knappen **Avancerat**.  
-4.  I fönstret **Kod för meddelandemall** i fliken **Start** i gruppen **Hantera** väljer du **Redigera lista**.  
-5.  På raden för godkännandemallen, i fältet **Meddelandemetod**, ange **Notering**.  
-6.  Välj knappen **OK**.  
-7.  I fönstret **Konfigurera meddelanden** på fliken **Start** i gruppen **Process** väljer du **Meddelandeschema**.  
-8.  I fönstret **Meddelandeschema** i fältet **Förekomst** väljer du **Omedelbart**.  
-9. Välj knappen **OK**.  
+#### <a name="to-set-up-how-and-when-you-are-notified"></a>Så här ställer du in hur och när du får meddelande  
+1.  På sidan **Användarinställningar för godkännande** markerar du raden för dig själv och väljer sedan åtgärden **Meddelandeinställningar**.  
+2.  På sidan **Konfigurera meddelanden** i fältet **meddelandetyp** väljer du **godkännande**.  
+3.  I fältet **Meddelandemetod** väljer du **Notering**.  
+6.  På sidan **Konfigurera meddelanden** väljer du åtgärden **Meddelandeschema**.  
+7.  På sidan **Meddelandeschema** i fältet **Förekomst** väljer du **Omedelbart**.  
+8. Välj knappen **OK**.  
 
 ## <a name="creating-the-approval-workflow"></a>Skapa godkännandearbetsflödet  
  Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen från arbetsflödesmallen för Arbetsflöde för godkännande av inköpsorder. Lämna de befintliga arbetsflödesstegen oförändrade och aktivera sedan arbetsflödet.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflöden** och välj sedan relaterad länk.  
-2.  I fönstret **Arbetsflöden** på fliken **Åtgärder** i gruppen **Allmänt** väljer du **Skapa arbetsflöde från mall**.  
-3.  Välj **Skapa arbetsflöde från mall** i gruppen **Allmänt** på fliken **Åtgärder**. Fönstret **arbetsflödesmallar**.  
-4.  Markera arbetsflödesmallen Arbetsflöde för godkännande av inköpsorder och välj sedan **OK**.  
+2.  På sidan **arbetsflöden** väljer du åtgärden **skapa arbetsflödet från mall**.  
+3.  På sidan **arbetsflödesmallar** väljer du arbetsflödesmallen kallad Godkännande av inköpsorder och väljer sedan knappen **OK**.  
 
-    Fönstret **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med ”-01" för att ange att det är det första arbetsflödet som skapas från arbetsflödesmallen Arbetsflöde för godkännande av inköpsorder.  
-5.  I huvudet i fönstret **Arbetsflöde** markerar du kryssrutan **Aktiverad**.  
-
-## <a name="starting-a-notification-job-queue"></a>Starta en meddelandejobbkö  
-Se till att en jobbkö i din installation är konfigurerad för att hantera arbetsflödesmeddelanden.  
-
-### <a name="to-start-the-notify-job-queue"></a>Så här startar du jobbkön MEDDELA  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Jobbköer** och välj sedan relaterad länk.  
-2.  I fönstret **Jobbköer** väljer du först raden för jobbkön MEDDELA, och på fliken **Start** i gruppen **Process**, välj **Starta jobbkö**.  
+    Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med ”-01" för att ange att det är det första arbetsflödet som skapas från arbetsflödesmallen Arbetsflöde för godkännande av inköpsorder.  
+5.  I huvudet på fönstret **Arbetsflöde** markerar du kryssrutan **Aktiverad**.  
 
 ## <a name="using-the-approval-workflow"></a>Använda godkännandearbetsflödet  
 Använd det nya arbetsflödet för godkännande av inköpsorder genom att först logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] som Alicia för att begära godkännande av en inköpsorder. Logga sedan in som dig själv, visa anteckningen i rollcentret, följ länken till godkännandebegäran och godkänn begäran.  
 
-Om du logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] som olika användare använder du funktionen **Kör som annan användare**.  
-
-### <a name="to-log-into-included365finincludesd365finmdmd-as-alicia"></a>Så här loggar du in på [!INCLUDE[d365fin](includes/d365fin_md.md)] som Alicia  
-
-1.  För [!INCLUDE[d365fin](includes/d365fin_md.md)]-webbklienten använder du skift+högerklick på webbläsarens startknapp för webbsidan, och väljer sedan **Kör som en annan användare**.  
-
-    För [!INCLUDE[d365fin](includes/d365fin_md.md)]-Windowsklienten använder du skift+högerklick på programmets startknapp för webbsidan, och väljer sedan **Kör som en annan användare**.  
-
-2.  I fönstret **Windows-säkerhet** anger du [DATORNAMN]ALICIA och det lösenord som krävs.  
-
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Så här begär du godkännande av en inköpsorder, som Alicia.  
+1. Logga in som Alicia.
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
+3.  Markera raden för öppen inköpsorder 104001 och välj åtgärden **redigera**.  
+4.  På sidan **inköpsorder** väljer du åtgärden **Skicka godkännandebegäran**.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
-2.  Markera raden öppen inköpsorder 104001 och på fliken **Start** i gruppen **Hantera** väljer du **Redigera**.  
-3.  I fönstret **Inköpsorder** på fliken **Åtgärder** i gruppen **Godkännande**, välj **Skicka godkännandebegäran**.  
-
-    Observera att värdet i fältet **Status** har ändrats till **Väntar på godkännande**.  
-
-4.  Stäng [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Observera att värdet i fältet **Status** har ändrats till **Väntar på godkännande**.  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Så här godkänner du inköpsordern, som Sean  
-
-1.  Öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] som vanligt. Programmet öppnas med dig som användare.  
-2.  Sök efter ett nytt meddelande från Alicia i Rollcentret i fönstret **Mina meddelanden**.  
-
-    > [!NOTE]  
-    >  Även om meddelandets upprepning har ställts in på **Omedelbart** anländer meddelandet omkring en minut efter att Alicia har skickat godkännandebegäran. Det beror på standardinställningen för återkommandefrekvensen för funktionen Jobbkö.  
-
-3.  När meddelandet visas i fönstret **Mina meddelanden** väljer du värdet **Godkännandetransaktion: XX, XX** i fältet **Sida**. Fönstret **Begäranden att godkänna** öppnas med Alicias begäran om den markerade inköpsordern.  
-4.  I fönstret **Begäranden att godkänna** på fliken **Start** i gruppen **Process** väljer du **Godkänna**.  
+1. Logga in som Sean.
+2.  Sök efter ett nytt meddelande från Alicia i Rollcentret på sidan **Mina meddelanden**.  
+3.  När meddelandet visas på sidan **Mina meddelanden** väljer du värdet **Godkännandetransaktion: XX, XX** i fältet **Sida**. Sidan **Begäranden att godkänna** öppnas med Alicias begäran om den markerade inköpsordern.  
+4.  På sidan **förfrågningar att godkänna** väljer du åtgärden **Godkänn**.  
 
     Värdet i fältet **Status** på Alicias inköpsorder ändras till **Släppt**.  
 
 Du har nu ställt in och testat ett enkelt godkännandearbetsflöde som baseras på de två första stegen i arbetsflödet Arbetsflöde för godkännande av inköpsorder. Det är enkelt att utöka arbetsflödet så att det automatiskt bokför Alicias inköpsorder när Sean godkänner den. För att göra det måste du aktivera arbetsflödet Arbetsflöde för godkännande av inköpsorder, där svaret på en släppt inköpsfaktura är att bokföra den. Först måste du ändra händelsevillkoret i det första arbetsflödessteget från (inköp) **Faktura** till **Order**.  
 
-Den generiska versionen [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal arbetsflödesmallar för scenarier som stöds av programkoden. De flesta är för godkännandearbetsflöden. Mer information finns i Arbetsflödesmallar.  
+Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal arbetsflödesmallar för scenarier som stöds av programkoden. De flesta är för godkännandearbetsflöden.  
 
 Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
@@ -167,5 +118,6 @@ Om ett företagsscenario kräver en arbetsflödehändelse eller ett svar som int
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
 [Skapa arbetsflöden](across-how-to-create-workflows.md)   
 [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)   
-[Arbetsflöde](across-workflow.md)
+[Arbetsflöde](across-workflow.md)  
+[Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
 

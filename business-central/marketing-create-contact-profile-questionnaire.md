@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ När du har skapat ett frågeformulär, måste du skapa kontaktgraderingar för 
 > När du anger en fråga som ska besvaras automatiskt väljer du <STRONG>Rad</STRONG> och sedan <STRONG>Frågedetaljer</STRONG>. Ange därefter kriterier som ska användas när den besvaras.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Den automatiska klassificeringen av kontakter
-Du kan klassificeras dina kontakter automatiskt efter kunder, leverantörer och kontaktuppgifter genom att automatiskt besvarade profilfrågor skapas i fönstret **Profil frågeformulär inst.**.  
+Du kan klassificeras dina kontakter automatiskt efter kunder, leverantörer och kontaktuppgifter genom att automatiskt besvarade profilfrågor skapas på sidan **Profil frågeformulär inst.**.  
 
 > [!NOTE]
 > Det är bara kontakter som registrerats som kunder eller leverantörer som kan tilldelas klassificering baserad på kund- respektive leverantörsdata. Den automatiska klassificeringen uppdateras inte automatiskt. Följaktligen kan du behöva uppdatera profilfrågeformulären när du har uppdaterat de kund-, leverantörs- eller kontaktdata som de grundas på.  
@@ -73,13 +73,13 @@ Du kan klassificera kontakterna efter hur mycket de har köpt från dig:
 <td><p>kontakter som har köpt för 100 000 upp till 499 999 SEK</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>S</p></td>
 <td><p>kontakter som har köpt för 99 999 SEK eller mindre</p></td>
 </tr>
 </tbody>
 </table>
 
-Det gör du genom att fylla i fönstret **Profil frågeformulär inst.** så här:
+Det gör du genom att fylla i sidan **Profil frågeformulär inst.** så här:
 
 
 <table>
@@ -104,34 +104,34 @@ Det gör du genom att fylla i fönstret **Profil frågeformulär inst.** så hä
 <td><p>Fråga</p></td>
 <td><p>ABC-klassificering</p></td>
 <td><p>Klicka för att markera</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500 000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p>500,000</p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Svar</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100 000</p></td>
-<td><p>499 999</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
-<td><p>L</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p>S</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99.999</p></td>
 </tr>
 </tbody>
 </table>
 
-Fyll sedan i fönstret **Profilfrågedetaljer** så här:
+Fyll sedan i sidan **Profilfrågedetaljer** så här:
 <table>
 <colgroup>
 <col style="width: 50%" />

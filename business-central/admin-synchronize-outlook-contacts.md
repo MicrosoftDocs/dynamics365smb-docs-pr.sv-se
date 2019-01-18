@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: sv-se
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook
@@ -23,9 +23,9 @@ Du kan visa samma kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som vi
 En dedikerad mapp i Outlook gör det enklare att hitta och du kan ange ett filter för att endast synkronisera kontakter från [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vill se i Outlook. När kontaktsynkroniseringen har konfigurerats, kan du starta synkroniseringen manuellt eller ställa in en automatisk synkronisering som synkroniserar kontakterna enligt ett schema.  
 
 ## <a name="set-up-synchronization"></a>Konfigurera synkronisering
-Du kan ange hur du vill synkronisera kontakter med Outlook i fönstret **Konfigurering av Exchange-synkronisering** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. En förutsättning är att din användarprofil i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste ange ditt Office 365 e-postkonto. Du kan kontrollera detta avsnittet **Office 365-autentisering** i din användarprofil i listan **användare**.  
+Du kan ange hur du vill synkronisera kontakter med Outlook på sidan **Konfigurering av Exchange-synkronisering** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. En förutsättning är att din användarprofil i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste ange ditt Office 365 e-postkonto. Du kan kontrollera detta avsnittet **Office 365-autentisering** i din användarprofil i listan **användare**.  
 
-Sedan i fönstret **Konfigurering av Exchange-synkronisering** kan du verifiera att anslutningen till Exchange fungerar och sedan skapa synkroniseringen av kontakter. Öppna fönstret **Inställningar för kontaktsynkning** och starta synkroniseringen. Du kan även definiera ett filter för vilka kontakter som ska synkroniseras mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och Outlook. Till exempel kan du registrera ett filter i namn, typ, företag eller liknande. Du kan också ändra standardnamnet på mappen som kontakterna kommer att synkroniseras till i Outlook. Standardnamnet är *Business Central*.  
+Sedan på sidan **Konfigurering av Exchange-synkronisering** kan du verifiera att anslutningen till Exchange fungerar och sedan skapa synkroniseringen av kontakter. Öppna sidan **Inställningar för kontaktsynkning** och starta synkroniseringen. Du kan även definiera ett filter för vilka kontakter som ska synkroniseras mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och Outlook. Till exempel kan du registrera ett filter i namn, typ, företag eller liknande. Du kan också ändra standardnamnet på mappen som kontakterna kommer att synkroniseras till i Outlook. Standardnamnet är *Business Central*.  
 
 När synkroniseringen har ställts in, synkroniseras alla ändringar som du gör till kontakten i antingen Outlook eller i [!INCLUDE[d365fin](includes/d365fin_md.md)] till den andra.  
 

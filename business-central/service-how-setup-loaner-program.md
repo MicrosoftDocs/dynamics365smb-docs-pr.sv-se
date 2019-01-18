@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Lägga upp program för låneartiklar
@@ -28,7 +28,7 @@ Ibland måste du förse en kund med en låneartikel medan reparationen pågår. 
 ## <a name="to-set-up-a-loaner"></a>Så här skapar du en låneartikel  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Låneartiklar** och välj sedan relaterad länk.  
 2. Skapa ett nytt låneartikelkort. 
-3. I fältet **Nr.** anger du ett nummer för låneartikel. Om du har skapat en nummerserie för låneartiklar i fönstret **Serviceinställningar** kan du trycka på Retur om du vill ange nästa lediga låneartikelsnummer.  
+3. I fältet **Nr.** anger du ett nummer för låneartikel. Om du har skapat en nummerserie för låneartiklar på sidan **Serviceinställningar** kan du trycka på Retur om du vill ange nästa lediga låneartikelsnummer.  
 4. Fyll i fälten **Beskrivning**, **Beskrivning 2** och **Serienr**.  
 5. Välj önskad enhetskod i fältet **Enhetskod**.  
   

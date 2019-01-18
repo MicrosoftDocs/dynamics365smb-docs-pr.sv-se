@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
-Du kan t.ex. justera storleken och positionen på alla fönster, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
+Du kan t.ex. justera storleken och positionen på alla sidor, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
 
 I tabellen nedan anges några av de grundläggande funktioner med länkar till avsnitten där de beskrivs.
 

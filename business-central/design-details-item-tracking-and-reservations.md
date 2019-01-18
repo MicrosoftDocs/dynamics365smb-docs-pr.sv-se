@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
@@ -44,15 +44,15 @@ Den huvudsakliga skillnaden mellan specifika och icke-specifika reservationer de
 |**Specifik**|Serie- eller partinummer.|Serie- eller partinummer.|  
 |**Icke-specifik**|Serie- eller partinummer.|Inget serie- eller partinummer|  
   
-När du reserverar lagerkvantiteter från en avgående dokumentrad för en artikel som har artikelspårningsnummer tilldelade och är inställd för särskild artikelspårning, leder fönstret **Reservation** dig via olika arbetsflöden beroende på vad du behöver för serie- eller partinumren.  
+När du reserverar lagerkvantiteter från en avgående dokumentrad för en artikel som har artikelspårningsnummer tilldelade och är inställd för särskild artikelspårning, leder sidan **Reservation** dig via olika arbetsflöden beroende på vad du behöver för serie- eller partinumren.  
   
 ## <a name="specific-reservation"></a>Specifik reservation  
-När du väljer **Reservera** på den utgående dokumentraden visas en dialogruta där du tillfrågas om du vill reservera specifika serie- eller partinummer. Om du väljer **Ja** visas en lista med alla serie- och partinummer som tilldelats dokumentraden. Fönstret **Reservation** öppnas när du har valt en av serie- eller partinumren, och du kan då reservera bland de valda serie- eller partinumren på ett typiskt sätt.  
+När du väljer **Reservera** på den utgående dokumentraden visas en dialogruta där du tillfrågas om du vill reservera specifika serie- eller partinummer. Om du väljer **Ja** visas en lista med alla serie- och partinummer som tilldelats dokumentraden. Sidan **Reservation** öppnas när du har valt en av serie- eller partinumren, och du kan då reservera bland de valda serie- eller partinumren på ett typiskt sätt.  
   
-Om några av de specifika artikelspårningsnumren som du försöker reservera finns i icke-specifika reservationer får du ett meddelande längst ned i fönstret **Reservation** om att många av det totala reserverade antalet finns i icke-specifika reservationer och om de är fortfarande tillgängliga.  
+Om några av de specifika artikelspårningsnumren som du försöker reservera finns i icke-specifika reservationer får du ett meddelande längst ned på sidan **Reservation** om att många av det totala reserverade antalet finns i icke-specifika reservationer och om de är fortfarande tillgängliga.  
   
 ## <a name="nonspecific-reservation"></a>Icke-specifik reservation  
-Om du väljer **Nr** i dialogrutan som visas öppnas fönstret **Reservation** och du kan reservera bland alla serie- och partinummer i lagret.  
+Om du väljer **Nr** i dialogrutan som visas öppnas sidan **Reservation** och du kan reservera bland alla serie- och partinummer i lagret.  
   
 På grund av strukturen i reservationsystemet måste systemet välja specifika artikeltransaktioner att reservera mot när du gör en icke-specifik reservation för en artikelspårad artikel. Eftersom artikeltransaktionerna har artikelspårningsnumren, reserverar reservationen indirekt specifika serie- eller partinummer, även om du inte avsåg att göra det. För att hantera den här situationen försöker reservationssystemet ombilda icke-specifika reservationstransaktioner före bokföring.  
   
@@ -81,7 +81,7 @@ Till exempel uppstår behovet när en orderhandläggare först skapade en icke-s
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Reservera specifika serie- eller partinummer  
 I affärsscenariot säkerställer funktionen Sen bindning att en användare som försöker att reservera ett visst serienummer eller partinummer som för närvarande har reserverats icke-specifikt kan göra det. En icke-specifik reservation stuvas om vid tidpunkten för reservation för att släppa serie- eller partinumret i för den specifika förfrågan.  
   
-Ombildningen sker automatiskt, men inbäddad hjälp visas längst ned i fönstret **Reservation** och visar följande text:  
+Ombildningen sker automatiskt, men inbäddad hjälp visas längst ned på sidan **Reservation** och visar följande text:  
   
 **XX av totalt reserverat antal är icke-specifikt och kan vara tillgängligt.**  
   

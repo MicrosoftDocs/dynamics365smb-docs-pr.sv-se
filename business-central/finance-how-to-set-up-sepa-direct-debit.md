@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
-Från fönstret **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer SEPA Autogiro-format, men andra format för elektroniska betalningar i ditt land/din region kan finnas.  
+Från sidan **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer SEPA Autogiro-format, men andra format för elektroniska betalningar i ditt land/din region kan finnas.  
 
 Om du vill aktivera export av bankfilformat som inte stöds från början i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurera en datautbytesdefinition med ramverket för datautbyte. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -37,7 +37,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Ange kundens betalningsmetod för SEPA-autogiro  
 1. I rutan **Sök**, ange **Betalningssätt** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
-3. Så här anger du betalningssätt. Fyll i de specifika fälten för autogiro enligt beskrivningen i följande tabell.  
+3. Så här anger du betalningssätt. Fyll i de specifika fälten för autogiro\-enligt beskrivningen i följande tabell.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
@@ -47,7 +47,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
     > [!NOTE]  
     >  Ange inte ett värde i fältet **Motkonto.**  
 
-4. Välj **OK** för att stänga fönstret **Betalningssätt**.  
+4. Välj **OK** för att stänga sidan **Betalningssätt**.  
 5. I rutan **Sök**, ange **Kunder** och välj sedan relaterad länk.  
 6. Öppna kortet för den kund som du vill ställa in för SEPA-autogiroinsamling.  
 7. Välj **Betalningssätt**-fältet och välj sedan koden för betalningssätt som du angav i steg 3.  
@@ -57,19 +57,19 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 1. I rutan **Sök**, ange **Kunder** och välj sedan relaterad länk.  
 2. Öppna kortet för den kund som du vill ställa in för SEPA-autogiro.  
 3. Välj åtgärden **bankkonton**.  
-4. I **Kund bankkontolista**-fönstret väljer du det kundbankkonto som använder autogiro och väljer sedan, på fliken **Hem** i gruppen **Process**, **Medgivande av autogiro**.  
-5. I fönstret **SEPA Autogiromedgivanden** fyller du i fälten enligt instruktionerna i följande tabell.  
+4. På sidan **Kund bankkontolista** väljer du det kundbankkonto som använder autogiro och väljer sedan, på fliken **Hem** i gruppen **Process**, **Medgivande av autogiro**.  
+5. På sidan **SEPA Autogiromedgivanden** fyller du i fälten enligt instruktionerna i följande tabell.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**Kund bankkontokod**|Anger det bankkonto som direktdebiteringsbetalningar samlas in från. Detta fält fylls i automatiskt.|  
-    |**Giltig från**|Ange det datum när medgivande för autogiro startar.|  
-    |**Giltig till**|Ange det datum när medgivande för autogiro upphör.|  
-    |**Signeringsdatum**|Ange det datum när kunden signerade medgivande för autogiro.|  
+    |**Kund bankkontokod**|Anger det bankkonto som\-autogirobetalningar samlas in från. Detta fält fylls i automatiskt.|  
+    |**Giltig från**|Ange det datum när medgivande för\-autogiro startar.|  
+    |**Giltig till**|Ange det datum när medgivande för\-autogiro upphör.|  
+    |**Signeringsdatum**|Ange det datum när kunden signerade medgivande för\-autogiro.|  
     |**Typ av betalning**|Ange om avtalet omfattar flera (**återkommande**) eller en enda (**Enstaka**) autogiroinsamling.|  
     |**Förväntat antal debet**|Ange hur många autogiroinsamlingar som du förväntar dig att göra. Det här fältet gäller bara om du har valt **Återkommande** i fältet **Typ av betalning**.|  
-    |**Antal debet**|Anger hur många autogiroinsamlingar som har gjorts med hjälp av medgivande av autogiro. Fältet uppdateras automatiskt.|  
-    |**Spärrad**|Anger att autogiroinsamlingar inte kan göras med hjälp av medgivande av autogiro.|  
+    |**Antal debet**|Anger hur många autogiroinsamlingar som har gjorts med hjälp av medgivande\-av autogiro. Fältet uppdateras automatiskt.|  
+    |**Spärrad**|Anger att autogiroinsamlingar inte kan göras med hjälp av medgivande av\-autogiro.|  
 
 6.  Upprepa steg 1 till och med 5 för alla kunder som du vill ställa in för SEPA-autogiro.  
 

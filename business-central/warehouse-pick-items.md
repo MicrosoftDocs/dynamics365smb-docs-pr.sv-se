@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Plocka artiklar
@@ -27,9 +27,9 @@ Om du vill organisera och registrera plockningsaktiviteter med distributionslage
 > [!NOTE]
 > Även om inställningarna kallas **Begär plockning**, kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor.
 
-Om lagerstället kräver plockningsbearbetning, men inte kräver utleveransbehandling, använder du fönstret **Lagerplockning** om du vill organisera eller skriva ut information om artikelplockning, ange resultat av plockningen eller bokföra plockningsinformation, som i sin tur bokför leverans av artiklarna. Om det gäller att plocka komponenter för en produktionsorder, bokför bokföringen av plockning också förbrukningen.
+Om lagerstället kräver plockningsbearbetning, men inte kräver utleveransbehandling, använder du sidan **Lagerplockning** om du vill organisera eller skriva ut information om artikelplockning, ange resultat av plockningen eller bokföra plockningsinformation, som i sin tur bokför leverans av artiklarna. Om det gäller att plocka komponenter för en produktionsorder, bokför bokföringen av plockning också förbrukningen.
 
-Om lagerstället kräver både plocknings- och utleveransbearbetning, det vill säga om både fältet **Begär plockning** och fältet **Kräv utleverans** har markerats på lagerställekortet, använder du fönstret **Dist.lager plockning** för att hantera plockningen. Dist.lagerplockning fungerar på samma sätt som lagerplockning, förutom att plockningen registreras i stället för att plockningsinformationen bokförs. I den här registreringsprocessen bokförs inte leveransen, men artiklarna blir tillgängliga för leverans. Du lagerchef kan du använda ett plockningskalkylark för att organisera plockninginformation innan du skapar de individuella plockningsinstruktionerna för lager.
+Om lagerstället kräver både plocknings- och utleveransbearbetning, det vill säga om både fältet **Begär plockning** och fältet **Kräv utleverans** har markerats på lagerställekortet, använder du sidan **Dist.lager plockning** för att hantera plockningen. Dist.lagerplockning fungerar på samma sätt som lagerplockning, förutom att plockningen registreras i stället för att plockningsinformationen bokförs. I den här registreringsprocessen bokförs inte leveransen, men artiklarna blir tillgängliga för leverans. Du lagerchef kan du använda ett plockningskalkylark för att organisera plockninginformation innan du skapar de individuella plockningsinstruktionerna för lager.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 

@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Ställa in måttenheter för artikel
@@ -30,7 +30,7 @@ Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa 
 ## <a name="to-set-up-a-unit-of-measure"></a>Så här ställer du in en enhet
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för artikeln som du vill ange alternativa enheter för.
-3. Välj åtgärden **Enheter**. Fönstret **Artikelenheter** visas.
+3. Välj åtgärden **Enheter**. Sidan **Artikelenheter** visas.
 4. Om fältet **Basmåttenhet** är ifyllt på artikelkortet har denna måttenhet redan ställts in.
 5. Välj åtgärden **Ny**. En ny tom rad infogas.
 6. Ange namnet på enheten i fältet **Kod**. Du kan också välja fältet om du vill välja mellan de enhetskoder som finns i databasen.
@@ -49,12 +49,12 @@ När du säljer varor till utländska kunder, kan det hända att du vill ange en
 5. Upprepa steg 2-4 för varje måttenhetskod och de språk som du vill ange översättningar för.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Så här anger du en standardenhet för en enhetskod för försäljnings- och inköpstransaktioner
-Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du ange särskilda enheter för inköp och försäljning. För att du ska kunna göra det, måste du ha skapat enheterna i fönstret **Artikelenheter**.
+Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du ange särskilda enheter för inköp och försäljning. För att du ska kunna göra det, måste du ha skapat sidan **Artikelenheter**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Bläddra fram till det artikelkort där du vill ange en standardenhetskod för försäljning eller inköp.
-3. För försäljning: På Snabbfliken **Fakturering**, i fältet **Måttenhet för försäljning**, öppna fönstret **Måttenheter för artikel**.
-4. För inköp: På snabbfliken **Återanskaffning** i fältet **Måttenhet för inköp** öppnar du fönstret **Måttenheter för artikel**.
+3. För försäljning: På Snabbfliken **Fakturering**, i fältet **Måttenhet för försäljning**, öppna sidan **Måttenheter för artikel**.
+4. För inköp: På snabbfliken **Återanskaffning** i fältet **Måttenhet för inköp** öppnar du sidan **Måttenheter för artikel**.
 5. Välj den kod som du vill ange som standardenhet för försäljning respektive inköp, och välj sedan knappen **OK**.
 
 ## <a name="see-also"></a>Se även

@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: df77e655c58b6eba6f431ef66be3152f56ac634f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dda69814c0f8b2a21a3e927e2e357817090549f4
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-integration-with-inventory"></a>Designdetaljer: Integrering med lager
 Lagerledningsmodulen och lagermodulen interagerar med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.  
   
-## <a name="physical-inventory"></a>Physical Inventory  
- Fönstret **Dist.lager inventeringsjournal** används med fönstret **Inventeringsjournal** för alla avancerade distributionslagerplatser. Lagret på lagerplatsnivå beräknas, och en utskriven lista levereras till lagerpersonalen. Listan visar vilka artiklar i vilka lagerplatser som ska inventeras.  
+## <a name="physical-inventory"></a>Fysiskt lager  
+ Sidan **Dist.lager inventeringsjournal** används med sidan **Inventeringsjournal** för alla avancerade distributionslagerplatser. Lagret på lagerplatsnivå beräknas, och en utskriven lista levereras till lagerpersonalen. Listan visar vilka artiklar i vilka lagerplatser som ska inventeras.  
   
- Lagerpersonalen anger det räknade antalet i fönstret **Dist.lager inventeringsjournal** och bokför sedan journalen.  
+ Lagerpersonalen anger det räknade antalet på sidan **Dist.lager inventeringsjournal** och bokför sedan journalen.  
   
  Om det inventerade antalet är större än antalet på journalraden bokförs en transport för skillnaden från standardjusteringslagerplatsen till den inventerade lagerplatsen. Det ökar antalet på den inventerade lagerplatsen och minskar antalet i standardjusteringlagerplatsen.  
   
@@ -36,7 +36,7 @@ Lagerledningsmodulen och lagermodulen interagerar med varandra i inventeringsjou
  När du bokför inventeringjournalen uppdateras lagret och standardjusteringlagerplatsen.  
   
 ### <a name="warehouse-adjustments-to-the-item-ledger"></a>Distributionslagerjusteringar till artikeltransaktioner  
- Du kan använda fönstret **Artikeljournal** och funktionen **Beräkna dist.lager justering** för att justera lagret i artikeltransaktioner i enlighet med en justering som har gjorts av objektantalet på en lagerplats i distributionslagret. För att skapa en koppling mellan lagret och distributionslagret måste du definiera en standardjusteringlagerplats per lagerställe.  
+ Du kan använda sidan **Artikeljournal** och funktionen **Beräkna dist.lager justering** för att justera lagret i artikeltransaktioner i enlighet med en justering som har gjorts av objektantalet på en lagerplats i distributionslagret. För att skapa en koppling mellan lagret och distributionslagret måste du definiera en standardjusteringlagerplats per lagerställe.  
   
  Standardjusteringlagerplatsen registrerar artiklar i distributionslagret när du bokför en ökning för lagret. Om du bokför en minskning, minskas antalet på lagerplatsen också. I båda fallen skapas artikeltransaktioner och distributionslagerposter.  
   

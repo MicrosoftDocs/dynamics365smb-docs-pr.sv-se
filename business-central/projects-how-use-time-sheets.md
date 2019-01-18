@@ -11,10 +11,10 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 981b7bc6cb61753f14de19b9cc68cac20d7374b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 70d63dcc678a49fa1854b88bc3ca1f9ec8ecc69f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-time-sheets-for-jobs"></a>Använda tidrapporter för projekt
@@ -30,21 +30,21 @@ Innan du kan använda tidrapporter måste du ställa in allmän information och 
 Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Tidrapporter** och välj sedan relaterad länk.
-2. I fönstret **Tidrapporter** väljer du åtgärden **Skapa tidrapporter**.
+2. På sidan **Tidrapporter** väljer du åtgärden **Skapa tidrapporter**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Fälten **Andvänd tidrapport** och **Användar-ID för tidrapportens ägare** måste fyllas i på kortet för resursen på tidrapporten.
 
-1. Välj **OK**.  
+1. Välj knappen **OK**.  
 
-I fönstret **Tidrapportlista** kan du visa tidrapporter som du har skapat.
+På sidan **Tidrapportlista** kan du visa tidrapporter som du har skapat.
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Så här kan du kopiera projektplaneringsrader till en tidrapport
 Nedan beskrivs hur du skapar snabbt lägger till projektplaneringsrader i en tidrapport.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Tidrapporter** och välj sedan relaterad länk.  
-2. I fönstret **Tidrapportlista** väljer du en tidrapport för den relevanta tidsperioden och väljer sedan åtgärden **Redigera tidrapport**.  
+2. På sidan **Tidrapportlista** väljer du en tidrapport för den relevanta tidsperioden och väljer sedan åtgärden **Redigera tidrapport**.  
 3. Välj åtgärden **Skapa rader från projektplanering**. Vissa projektplaneringsrader i tidrapporttidsperioden kopieras till tidrapporten för den personen eller maskinen i fältet **Resursnr.** på tidrapporten.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Om du vill definiera arbetstyper och lägga till en till en tidrapport
@@ -53,9 +53,9 @@ Du kan definiera arbetstypen för alla tidrapportrader för projekt. På detta s
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Tidrapporter** och välj sedan relaterad länk.   
 2. Öppna relevant tidrapport.
 3. Välj fältet **Beskrivning**.  
-4. I fönstret **Jobbdetalj för tidrapportsrad** väljer du fältet **Arbetstypkod** och väljer sedan arbetstyp från listan som t.ex. **Mil**.  
+4. På sidan **Jobbdetalj för tidrapportsrad** väljer du fältet **Arbetstypkod** och väljer sedan arbetstyp från listan som t.ex. **Mil**.  
 5. Om inga arbetstyper finns, väljer du åtgärden **Ny**.
-6. I fönstret **Arbetstyper** fyller du i fälten efter behov.
+6. På sidan **Arbetstyper** fyller du i fälten efter behov.
 7. Upprepa steg 4 för att tilldela den nya arbetstypen till tidrapporten.
 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Så här kan du återanvända tidrapportsrader i andra tidrapporter
@@ -77,7 +77,7 @@ Tidrapportsregistrering spåras i timmar, som är standardbasmåttenheten för r
     > [!TIP]  
     >   Du kan granska summan av tidrapportstimmar som du har angett i faktaboxen **Översikt över utfall/budgeterat**.  
 4. Upprepa steg 3 för andra arbetstyper som resursen utför.
-5. Välj åtgärden **Skicka** och välj sedan åtgärden **Alla öppna rader** för att skicka alla rader eller åtgärden **Enbart valda rader** för att endast skicka de rader som har valts i fönstret **Tidrapport**.  
+5. Välj åtgärden **Skicka** och välj sedan åtgärden **Alla öppna rader** för att skicka alla rader eller åtgärden **Enbart valda rader** för att endast skicka de rader som har valts på sidan **Tidrapport**.  
 
     > [!NOTE]  
     >   Du kan endast skicka tidrapportrader som du har angett tid för.  
@@ -95,8 +95,8 @@ En tidrapport måste skickas för godkännande innan den kan användas. Du kan g
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Hantera tidrapporter** och välj sedan relaterad länk.
 2. Välj en tidrapport från listan.  
-3. I fönstret **Tidsrapport** väljer du åtgärden **Godkänn** och väljer sedan åtgärden **Alla skickade rader** för att godkänna alla rader eller åtgärden **Enbart valda rader** för att endast godkänna de rader som valts i fönstret **Tidrapport**.
-4. Välj **OK**.  
+3. På sidan **Tidsrapport** väljer du åtgärden **Godkänn** och väljer sedan åtgärden **Alla skickade rader** för att godkänna alla rader eller åtgärden **Enbart valda rader** för att endast godkänna de rader som valts på sidan **Tidrapport**.
+4. Välj knappen **OK**.  
 5. Välj alternativt åtgärden **Avvisa** och följ steg 4 till 5.  
 
 > [!TIP]  
@@ -110,8 +110,8 @@ När du har godkänt eller avvisat en tidrapport kan den inte ändras om den int
 
     > [!NOTE]  
     >   Du kan endast öppna rader igen som har statusen **Godkänd**. Du kan inte öppna rader igen som har statusen **Avvisad**. Du kan inte öppna en tidrapport igen om den har bokförts.  
-3. I fönstret **Tidsrapport** väljer du åtgärden **Öppna igen** och väljer sedan åtgärden **Alla skickade rader** för att öppna alla rader igen eller åtgärden **Enbart valda rader** för att endast öppna de rader igen som valts i fönstret **Tidrapport**.
-4. Välj **OK**. Statusen för tidrapportraden eller raderna ändras till **Skickat**.  
+3. På sidan **Tidsrapport** väljer du åtgärden **Öppna igen** och väljer sedan åtgärden **Alla skickade rader** för att öppna alla rader igen eller åtgärden **Enbart valda rader** för att endast öppna de rader igen som valts på sidan **Tidrapport**.
+4. Välj knappen **OK**. Statusen för tidrapportraden eller raderna ändras till **Skickat**.  
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Bokföra tidrapportsrader i en resursjournal
 När du har godkänt tidrapportsposter för en resurs, kan du bokföra dem i den aktuella resursjournalen.
@@ -121,7 +121,7 @@ När du har godkänt tidrapportsposter för en resurs, kan du bokföra dem i den
 3. Fyll i fälten om det behövs.  
 4. Välj **OK**. Transaktioner för förbrukning skapas i resursjournalen, där du kan ändra informationen efter behov.  
 5. Välj åtgärden **Bokföra**.  
-6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Fönstret **Resurstransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
+6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Sidan **Resurstransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
 
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Bokföra tidrapportsrader i en projektjournal
 När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i den aktuella projektjournalen.
@@ -134,13 +134,13 @@ När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i d
     > [!NOTE]  
     >   Information om arbetstyp och om arbetet är debiterbart kopieras från tidrapportsraden. Om det behövs, kan du minska antalet timmar och skapa en delvis bokföring. Om du minskar antalet kommer raden som skapas att innehålla det återstående antalet timmar nästa gång som du väljer åtgärden **Föreslå rader från tidrapporter**.  
 5. Välj åtgärden **Bokföra**.  
-6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Fönstret **Projekttransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
+6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Sidan **Projekttransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
 
 ## <a name="to-archive-time-sheets"></a>Så här arkiverar du tidrapporter
 När du har bokfört tidrapporter kan du arkivera dem för framtida referens. Alla tidrapportrader måste bokföras innan en tidrapport kan arkiveras.
 
 > [!NOTE]  
->   När du arkiverar en tidrapport, tas den bort från listan både i fönstret **Tidrapport** och fönstret **Tidrapport för chef**.
+>   När du arkiverar en tidrapport, tas den bort från listan både på sidan **Tidrapport** och sidan **Tidrapport för chef**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Flytta tidrapporter till arkiv** och välj sedan relaterad länk.  
 2. Fyll i fälten på efter behov och välj sedan knappen **OK**.  

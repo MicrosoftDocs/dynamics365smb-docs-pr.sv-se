@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d21a1b2f199c5d53e3879bf3a0866f39e904b873
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Ställa in överavrundning
@@ -39,22 +39,22 @@ Om du vill använda programmets funktion för automatisk avrundning av fakturabe
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
-2. I fönstret **Kontoplan** lägger du upp kontot och kallar det för **Fakturaavrundning** eller något liknande. [!INCLUDE[d365fin](includes/d365fin_md.md)] använder kontonamnet som text för de fakturor som avrundas.  
+2. På sidan **Kontoplan** ställer du in kontot och kallar det för **Faktura avrundning** eller något liknande. [!INCLUDE[d365fin](includes/d365fin_md.md)] använder kontonamnet som text för de fakturor som avrundas.  
 3. Beroende på om du använder moms eller omsättningsskatt väljer du i fälten **Omsättn. skatt produktbokföringsmall** eller **Moms produktbokföringsmal** och väljer en bokföringsmall för avrundade belopp. Du vill kanske skapa en ny gruppkod som kan användas för fakturaavrundning.
 4. Lämna fälten **Typ av bokföring**, och antingen **Omsättn. skatt rörelsebokföringsmall** eller **Moms rörelsebokföringsmall** tomma. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 
-Nu kan du koppla fakturaavrundningskontot till bokföringsmallar i fönstret **Leverantörsbokföringsmallar**.  <!-- Why only the vendor posting groups? -->
+Nu kan du koppla fakturaavrundningskontot till bokföringsmallar på sidan **Leverantörsbokföringsmallar**.  <!-- Why only the vendor posting groups? -->
 
 ## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Så här anger du avrundningsregler för utländska valutor
 Innan du kan använda den automatiska fakturaavrundningsfunktionenmåste du ställa in avrundningsregler för utländsk och lokal valuta.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Så här anger du avrundningsregler för utländska valutor:  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Valutor** och välj sedan relaterad länk.  
-2. I fönstret **valutor** väljer du valutan för att öppna **valutakort**, och fyller sedan i fälten **Belopp avrundning**, **A-pris avrundning**, **Faktura avrundning** och **Avrundningstyp**.
+2. På sidan **valutor** väljer du valutan för att öppna **valutakort**, och fyller sedan i fälten **Belopp avrundning**, **A-pris avrundning**, **Faktura avrundning** och **Avrundningstyp**.
 
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Så här anger du avrundningsregler för den lokala valutan:
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
-2. I fönstret **Redovisningsinställningar** på snabbfliken **Allmänt** fyller du i fälten **Faktura avrundning** och **Avrundningstyp**.  
+2. På sidan **Redovisningsinställningar** på snabbfliken **Allmänt** fyller du i fälten **Faktura avrundning** och **Avrundningstyp**.  
 
 ## <a name="activate-the-invoice-rounding-function"></a>Så här aktiverar du funktionen Avrunda fakturabelopp  
 För att se till att försäljnings- och inköpsfakturor avrundas automatiskt aktiverar du funktionen Avrunda fakturabelopp. Du kan aktivera fakturaavrundningen separat för försäljnings- och inköpsfakturor.

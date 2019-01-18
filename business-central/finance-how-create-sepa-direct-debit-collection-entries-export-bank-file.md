@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d05a12251046b0c911387cda1d5a7a7c9a026d6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9790f75e9be5ec96a57320e96dd0cd38d567c16f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil
@@ -27,8 +27,8 @@ För instruktioner till banken för att överföra betalningsbeloppet från kund
 ### <a name="to-create-a-direct-debit-collection"></a>Skapa en direktdebitering-insamling  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Samlingar med autogiro** och välj sedan relaterad länk.  
-2. I fönstret **Samlingar med autogiro** i fönstret **Start** i gruppen **Ny** väljer du **Skapa autogiroinsamling**.  
-3. I fönstret **Skapa samling med autogiro** fyller du i fälten enligt instruktionerna i följande tabell.  
+2. På sidan **Samlingar med autogiro** på fliken **Start** i gruppen **Ny** väljer du **Skapa autogiroinsamling**.  
+3. På sidan **Skapa samling med autogiro** fyller du i fälten enligt instruktionerna i följande tabell.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
@@ -42,29 +42,29 @@ För instruktioner till banken för att överföra betalningsbeloppet från kund
 
 4. Välj knappen **OK**.  
 
-     En autogiroinsamling läggs till i fönstret **Autogiroinsamlingar** och en eller flera autogiroinsamlingsposter skapas.  
+     En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller flera autogiroinsamlingsposter skapas.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Så här exporterar du direktdebeterings-insamlingposter till en bankfil  
-1. I fönstret **Samlingar med autogiro** i fönstret **Start** i gruppen **Process** väljer du **Transaktioner för samlingar med autogiro**.  
-2. Fönstret **Transaktioner för samlingar med autogiro**-fönster, markera den post som du vill exportera och sedan på fliken **Start** i gruppen **Process** väljer du **Skapa autogirofil**.  
+1. På sidan **Samlingar med autogiro** i fönstret **Start** i gruppen **Process** väljer du **Transaktioner för samlingar med autogiro**.  
+2. På sidan **Transaktioner för samlingar med autogiro**, markera den post som du vill exportera och sedan på fliken **Start** i gruppen **Process** väljer du **Skapa autogirofil**.  
 3. Spara exportfilen på den plats från vilken du skickar eller överför den till din elektroniska bank.  
 
-     I fönstret **Transaktioner för samlingar med autogiro** kan fältet **Status för autogirosamling** ändras till fil. I fönstret **SEPA Autogiromedgivanden** kan fältet **Debet antal** uppdateras fältet med ett antal.  
+     På sidan **Transaktioner för samlingar med autogiro** kan fältet **Status för autogirosamling** ändras till fil. På sidan **SEPA Autogiromedgivanden** kan fältet **Debet antal** uppdateras fältet med ett antal.  
 
 Om den exporterade filen inte kan behandlas, till exempel eftersom kunden är insolvent, kan du avvisa direktdebitering-insamlingsposten. Om den exporterade filen har bearbetats av banken, samlas automatiskt förfallna betalningar på de berörda försäljningsfakturorna från berörda kunder. I så fall kan du stänga samlingen.  
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Avvisa en direktdebitering-insamlingspost  
 
-* I fönstret **Transaktioner för samlingar med autogiro**-fönster, markera den post som inte behandlades korrekt, och sedan på **Start** i gruppen **Process** och välj **Avvisa transaktionen**.  
+* På sidan **Transaktioner för samlingar med autogiro**, markera den post som inte behandlades korrekt, och sedan på **Start** i gruppen **Process** och välj **Avvisa transaktionen**.  
 
-     Värdet **Status** i **Transaktioner för samlingar med autogiro** ändras till **Avvisad**.  
+     Värdet i fältet **Status** på sidan **Transaktioner för samlingar med autogiro** ändras till **Avvisad**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Stänga en direktdebitering-insamling  
-*  I fönstret **Transaktioner för samlingar med autogiro**-fönster, markera den post som inte behandlades korrekt, och sedan på **Start** i gruppen **Process** och välj **Stäng samling**.  
+*  På sidan **Transaktioner för samlingar med autogiro**, markera den post som inte behandlades korrekt, och sedan på **Start** i gruppen **Process** och välj **Stäng samling**.  
 
      Relaterade direktdebitering-insamlingen är stängd.  
 
-Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, som i fönstret **Betalningsregistrering** eller också kan du bokföra de relaterade betalningsinleveranser direkt från **Transaktioner för samlingar med autogiro**. Mer information finns i [Bokför betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, som på sidan **Betalningsregistrering** eller också kan du bokföra de relaterade betalningsinleveranser direkt från sidan **Transaktioner för samlingar med autogiro**. Mer information finns i [Bokför betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)  

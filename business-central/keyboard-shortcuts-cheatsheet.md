@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Snabbguide för kortkommandon på datorns tangentbord
+# <a name="keyboard-shortcuts-quick-reference"></a>Snabbguide för kortkommandon på tangentbord
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Allmänt**||**Navigera och markera rader**||
-|Alt+Q|Öppna **Berätta vad du vill göra**|Ctrl+A|Markera allt|
-|Tabb|Flytta fokus till nästa kontroll|Home/End|Gå till första/sista fältet|
-|Skift+Tabb|Flytta fokus till föregående kontroll|Ctrl+Home/End|Gå till första/sista raden|   
-|Alt+nedpil|Öppna en listruta eller ett uppslag|Ctrl+Upp/ned|Navigera utan att förlora markeringar|
-|Alt+Högerpil|Se transaktioner för det beräknade värdet|Ctrl+Blanksteg|Växla radmarkering| 
-|Esc|Stäng den aktuella sidan eller listan.|Shift+Ctrl+Home/End|Utvidga markering till första/sista raden| 
-|||Ctrl+Enter|Fokusera ut från listan|
-|||||
-|**Kopiera och klistra in**||**Sök, filtrera och sortera**||
-|Ctrl+A|Markera allt|F3|Växla sökning|
-|Ctrl+Home/End|Markera den första/sista raden i listan|Shift+F3|Växla filterrutan; fokusera på fältfilter|
-|Home/End|Gå till första/sista fältet|Ctrl+Shift+F3|Växla summerar filter: fokusera på summeringsfilter|
-|Ctrl/Shift+Klick|Lägg till rader i markeringen |Alt+F3|Filtrera efter markerade cellvärdet|
-|Ctrl+Upp/ned|Flytta fokus till raden ovanför/nedanför|Shift+Alt+F3|Lägg till filter i markerat fält fält|
-|Ctrl+Blanksteg|Utöka markeringen så att den inkluderar fokuserad rad|Ctrl+Alt+Shift+F3|Återställ filter|
-|Shift+Upp/ned|Lägga till rad ovanför/nedanför markering|**Förhandsgranskning av rapport**||
-|Shift+Page Up/Down|Lägg till alla synliga rader ovanför/nedanför markeringen|Upp/ned|Rulla uppåt och nedåt på sidan.
-|Ctrl+C|Kopiera rader|Höger/vänster|Rulla åt höger/vänster |
-|Ctrl+V|Klistra in raderna|CTRL+0 (noll)|Anpassa sida i fönstret |
-|F8|Kopiera fält ovan till aktuell rad|Ctrl+Home/End|Gå till första/sista sidan|
-|||Page Up/Down|Gå till föregående/nästa sida|
-
+||||  
+|----------------|-----------|----------------| 
+|**Allmänt**|Alt+Q<br />Alt+Upp<br />Tabb<br />Skift+Tabb<br />Alt+nedpil<br />Alt+Högerpil<br />F5/Ctrl+F5<br />Esc|Öppna **Berätta**<br />Öppna knappbeskrivning eller valideringsfel<br />Flytta fokus till nästa kontroll<br />Flytta fokus till föregående kontroll<br />Öppna en listruta eller ett uppslag<br />Se transaktioner för det beräknade värdet<br />Uppdatera/läs in sidan.<br />Stäng den aktuella sidan eller listan.|
+|**Navigera och markera rader**| Home/End<br />Ctrl+Home/End <br />Ctrl+Upp/ned<br />Ctrl+A <br />Ctrl+Blanksteg<br />Ctrl/Shift+Klick<br />Ctrl+Shift+Home/End<br />Shift+Upp/ned<br />Shift+Page Up/Down<br />Ctrl+Enter| Gå till första/sista fältet<br />Gå till första/sista raden<br />Navigera utan att förlora markeringar<br />Markera allt<br />Växla radmarkering<br /> Lägg till rad/rader i markeringen<br />Utvidga markering till första/sista raden<br />Lägga till rad ovanför/nedanför markering<br />Lägg till alla synliga rader ovanför/nedanför markeringen<br />Fokusera ut från listan|
+|**Kopiera och klistra in**|Ctrl+C<br />Ctrl+V<br />F8|Kopiera rader<br />Klistra in rader<br />Kopiera fält ovan till aktuell rad|
+|**Sök, filtrera och sortera**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Växla sökning<br />Växla filterrutan; fokusera på fältfilter<br />Växla filterrutan; fokusera på totala filter<br />Filtrera efter markerade cellvärdet<br />Lägg till filter i markerat fält fält<br />Återställ filter|
+|**Förhandsgranskning av rapport**|Upp/ned<br />Höger/vänster<br />Ctrl+Home/End<br />Page Up/Down|Rulla uppåt och nedåt på sidan.<br />Rulla åt höger/vänster <br />Gå till första/sista sidan<br />Gå till föregående/nästa sida|
 

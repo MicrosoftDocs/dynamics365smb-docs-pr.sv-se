@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Kortkommandon
-Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Utskriftsvänlig fusklapp för kortkommando för tangentbord](keyboard-shortcuts-cheatsheet.md)
+[Utskriftsvänlig kortkommandoreferens](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Översikt
 Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida.
@@ -30,19 +30,22 @@ Kortkommandona stöds av de flesta webbläsare, beteendet kan dock variera någo
 
 Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.
 
-De flesta av dessa genvägar är desamma oavsett om operativsystemet är Windows- eller macOS. Det finns dock några kortkommandon som är olika för macOS. Dessa anges i parantesen i tabellerna i följande avsnitt.
+De flesta av dessa kortkommandon är desamma oavsett om operativsystemet är Windows eller macOS. Det finns dock några kortkommandon som är olika för macOS. Dessa anges i parantesen i tabellerna i följande avsnitt.
 
 ##  <a name="Keyboard"></a> Allmänna kortkommandon
 I följande tabell beskrivs kortkommandon för navigering och åtkomst till olika delar av en sida, till exempel åtgärder, listrutor, sökningar och mycket mer. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
-|Tryck på dessa tangenter|Om du vill|  
+|Tryck på dessa tangenter<br />(i macOS)|Om du vill|  
 |----------------|-----------|  
-|Alt+Q|Öppna rutan **Berätta vad du vill göra** som hjälper dig att söka efter en sida, en rapport, en åtgärd på den aktuella sidan eller en artikel i dokumentationen.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Öppna rutan **Berätta vad du vill göra** som hjälper dig att söka efter en sida, en rapport, en åtgärd på den aktuella sidan eller en artikel i dokumentationen.|
+|Alt+Uppil|Visa knappbeskrivning för ett fält eller en kolumnrubrik i en tabell. Om det finns valideringsfel för fältet, trycker du på ”Alt + Uppil” för att visa innehålla valideringsfelet. Tryck på ”Esc” eller ”Alt + Uppil” för att stänga knappbeskrivningen.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|   
 |Enter|Aktivera eller nå elementet eller kontrollen som är i fokus.|   
 |Alt+nedpil|Öppna en listruta eller leta upp ett värde för ett fält.|    
 |Alt+Högerpil|Se de transaktioner som resulterade i ett beräknat värde i ett fält.|  
+|F5|Uppdatera informationen på den aktuella sidan.|Använd detta för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
+|Ctrl+F5|Läs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt.|Detta är ungefär som att markera uppdatera/läsa in på nytt i webbläsaren.|
 |Esc|Stäng den aktuella sidan eller listan.|
 
 
@@ -126,7 +129,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Uppil|Rulla uppåt på sidan.|
 |Högerpil|Rulla åt höger när sidan zoomas in så att den inte visas helt och hållet. |
 |Vänsterpil|Rulla åt vänster när sidan zoomas in så att den inte visas helt och hållet. |
-|CTRL+0 (noll)<br />(Cmd+0)|Passar in hela sidan i fönstret. |
+|CTRL+0 (noll)<br />(Cmd+0)|Passar in hela sidan på sidan. |
 |Ctrl+Home<br />(Cmd+Start)|Gå till den första sidan i rapporten.|
 |Ctrl+End<br />(Cmd+Start)|Gå till den sista sidan i rapporten.|
 |Page Down<br />(Fn+Nedpil)|Gå till nästa sida i rapporten.|

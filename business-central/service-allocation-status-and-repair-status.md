@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
-Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus i fönstret **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** i fönstret **Serviceartikeldokument**. Du kan visa fördelningsstatus i fältet **Status** i fönstret **Resursfördelningar**.  
+Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  
   
 ## <a name="changing-repair-status"></a>Ändra reparationsstatus  
 När du ändrar en serviceartikels reparationsstatus på en serviceartikelrad, görs en sökning efter motsvarande fördelningspost för serviceartikeln som har statusen **Aktiv**. Om en sådan fördelningspost hittas uppdateras dess status på något av följande sätt:  
   
 * Om du ändrar reparationsstatus till **Avslutad** ändras fördelningsstatus från **Aktiv** till **Avslutad**.  
 * Om du ändrar reparationsstatus till **Delvis servad** (viss service har avslutats) eller **Hänvisad** (ingen service har utförts) ändras fördelningsstatus i programmet från **Aktiv** till **Omfördelning nödvändig**.  
-* När en fördelningstransaktion för en serviceorder skapas, vilket innebär att ingen resurs har fördelats, anges värdet **Ej aktiv** för fältet **Status** i fönstret **Resursfördelning**.  
+* När en fördelningstransaktion för en serviceorder skapas, vilket innebär att ingen resurs har fördelats, anges värdet **Ej aktiv** för fältet **Status** på sidan till **Resursfördelning**.  
 * Fördelningstransaktionens status blir **Avbruten** när du omfördelar den serviceartikel som nämns i fördelningstransaktionen för serviceordern, vilket innebär att den fördelade resursen eller resursgruppen inte har använts för serviceuppgiften.  
   
 Fördelningsstatusen visar därmed när serviceprocessen är avslutad eller när en annan resurs krävs för att avsluta service av serviceartikeln.  

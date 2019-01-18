@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Hjälpmedel och kortkommandon i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
 ##  <a name="Navigation"></a> Navigering  
  Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet. Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare. Tryck på Shift+Tabb för att flytta bakåt.  
 
- Med tabbordningen kan du också växla mellan det primära webbläsarfönstret och dialogrutor som begär exempelvis bekräftelse eller inloggningsfönstret.  
+ Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.  
 
 ##  <a name="Headings"></a> Rubriker  
  HTML-källan för [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  

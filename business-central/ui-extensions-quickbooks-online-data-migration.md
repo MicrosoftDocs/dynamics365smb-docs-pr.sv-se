@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -55,7 +55,7 @@ Komma igång enkelt. Allt du behöver göra är att köra den assisterade guiden
 2. Följ instruktionerna i varje steg i guiden assisterad konfiguration.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
-När du har migrerat data har transaktionerna statusen **ej bokförda**, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till fönstret **försäljningsfakturor**. Om du vill gå igenom journaler, går du till fönstret **betalningsjournaler**.   
+När du har migrerat data har transaktionerna statusen **ej bokförda**, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till sidan **försäljningsfakturor**. Om du vill gå igenom journaler, går du till sidan **betalningsjournaler**.   
 
 Det finns några saker som du bör göra:
 

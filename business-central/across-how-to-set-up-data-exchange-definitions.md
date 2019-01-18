@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
@@ -22,7 +22,7 @@ Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av da
 
 Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet ”Så här beskriver du formateringen av rader och kolumner i filen”. Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Du skapar normalt definitioner för datautbyte i fönstret **datautbytesdefinitioner**. Men när du skapat en datautbytesdefinitioner för tjänsten med uppdatering av valutakurser startar du processen i det förenklade fönstret **Inställning valutakursuppdatering**.  
+Du skapar normalt definitioner för datautbyte på sidan **datautbytesdefinitioner**. Men när du skapat en datautbytesdefinitioner för tjänsten med uppdatering av valutakurser startar du processen på den förenklade sidan **Inställning valutakursuppdatering**.  
 
 > [!NOTE]  
 >  Om filen som konverteras är i XML-format ska termen *kolumn* i det här avsnittet tolkas som ett *XML-element som innehåller data*.  
@@ -36,8 +36,8 @@ I det här avsnittet beskrivs följande procedurer:
 ## <a name="to-create-a-data-exchange-definition"></a>Så här skapar du en definition för datautbyte  
 Två uppgifter måste utföras för att skapa en definition för datautbyte:  
 
-1. Fönstret **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen.  
-2. Fönstret **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Sidan **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen.  
+2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Beskrivs i följande procedurer.  
 
@@ -84,7 +84,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
      Sedan beskriver du formateringen av kolumner i datafilen genom att fylla i fälten på snabbfliken **Kolumndefinitioner** så som beskrivs i följande tabell. Du kan använda strukturfilen, till exempel en XSD-fil, för att datafilen ska autofylla snabbfliken med de relevanta elementen. Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Välj **Hämta filstruktur**på snabbfliken **Kolumndefinitioner**.  
-7. I fönstret **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan knappen **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
+7. På sidan **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan knappen **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
 8. Redigera eller fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Kolumndefinitioner**.  
 
     |Fält|Beskrivning|  
@@ -105,10 +105,10 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
  Nästa steget i att skapa en definition för datautbyte är att avgöra vilka kolumner eller XML-element i datafilöversikten som ska mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** i fönstret **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Så här mappar du kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. På snabbfliken **Raddefinitioner** markerar du raden som du vill mappa kolumner till fält för och väljer sedan **Fältmappning**. Fönstret **Datautbytesmappning** öppnas.  
+1. På snabbfliken **Raddefinitioner** markerar du raden som du vill mappa kolumner till fält för och väljer sedan **Fältmappning**. Sidan **Datautbytesmappning** öppnas.  
 2. På snabbfliken **Allmänt** anger du mappningskonfigurationen genom att fylla i fälten enligit beskrivningen i följande tabell.  
 
     |Fält|Beskrivning|  
@@ -124,7 +124,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**Kolumnnr**|Ange vilken kolumn i datafilen som du vill definiera en översikt för.<br /><br /> Du kan bara välja kolumner som representeras av rader på snabbfliken **Kolumndefinitioner** i fönstret **datautbytesdefinition**.|  
+    |**Kolumnnr**|Ange vilken kolumn i datafilen som du vill definiera en översikt för.<br /><br /> Du kan bara välja kolumner som representeras av rader på snabbfliken **Kolumndefinitioner** på sidan **datautbytesdefinition**.|  
     |**Fält-ID**|Ange vilka fält kolumnen i fältet **Kolumnnr.** mappas till.<br /><br /> Du kan bara välja från fält som finns i tabellen som du har angett i fältet **Tabell** på snabbfliken **Allmänt**.|  
     |**Valfri**|Ange att mappningen hoppas över om fältet är tomt. **Obs!**  Om du inte markerar den här kryssrutan inträffar ett exportfel om fältet är tomt. **Obs:**  Fältet är endast relevant för export.|  
     |**Måltabell-ID**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange tabellen som värdet i fältet **Kolumnrubrik** mappas till när du använder en cachelagringstabell för dataimport.|  
@@ -148,7 +148,7 @@ När du har skapat definitionem för datautbyte för en viss datafil kan du expo
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Så här importerar du en befintlig definition av datautbyte  
 1. Spara XML-filen som representerar definitionen för datautbytet på ett lämpligt ställe.  
 2. I rutan **Sök** anger du **Definitioner för datautbyte** och väljer sedan relaterad länk.  
-3. Välj åtgärden **Ny**. Fönstret **Datautbytesdefinition** öppnas.  
+3. Välj åtgärden **Ny**. Sidan **Datautbytesdefinition** öppnas.  
 4. Välj åtgärden **Importera datautbytesdefinition**.  
 5. Välj filen som du har sparat i steg 1.  
 

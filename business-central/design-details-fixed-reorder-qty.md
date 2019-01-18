@@ -14,17 +14,17 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Designdetaljer: Fast orderkvantitet
 Metoden Fast orderkvantitet är relaterad till lagerplaneringen av typiska C-objekt (lagerkostnad låg, låg risk för åldrande och/eller många artiklar). Metoden används vanligtvis i samband med en beställningspunkt som återspeglar den förutsedda efterfrågan under artikelns ledtid.  
 
 ## <a name="calculated-per-time-bucket"></a>Beräknat per tidsenhet  
- Om planeringssystemet identifierar att beställningspunkten har uppnåtts eller passerats i en viss tidsperiod (beställningscykeln – över eller vid beställningspunkten i början av perioden, och under eller vid beställningspunktem i slutet av perioden – får du ett förslag om att skapa en ny leveransorder för angivet beställningsantal och framåtplanera den från det första datumet efter slutet av tidsenheten.  
+ Om planeringssystemet identifierar att beställningspunkten har uppnåtts eller passerats i en viss tidsperiod (beställningscykeln) – över eller vid beställningspunkten i början av perioden, och under eller vid beställningspunktem i slutet av perioden – får du ett förslag om att skapa en ny leveransorder för angivet beställningsantal och framåtplanera den från det första datumet efter slutet av tidsenheten.  
 
  Beställningspunktsbegreppet minskar antalet leveransförslag. Det beskriver en manuell process av att ofta gå genom distributionslagret för att kontrollera det faktiska innehållet på de olika lagerplatserna.  
 
@@ -37,7 +37,7 @@ Metoden Fast orderkvantitet är relaterad till lagerplaneringen av typiska C-obj
  Ordermodifierarna Minsta partistorlek, Maximal partistorlek och Partistorleksmultipel ska inte spela en större roll när den fasta partiformningsmetoden Fast orderkvantitet används. Planeringssystemet beaktar ända dessa ändringsfält och minskar antalet till den angivna partistorleken (och skapar två eller flera leveranser för att uppnå den totala partistorleken), ökar ordern till den angivna lägsta partistorleken eller avrundar partistorleken upp till en angiven ordermultipel.  
 
 ## <a name="combines-with-calendars"></a>Kombineras med kalendrar  
- Innan du föreslår en ny leveransorder för att uppfylla en beställningspunkt, kontrollerar planeringssystemet om den schemaläggs för en ickearbetsdag enligt alla kalendrar som har definierats i fältet **Baskalenderkod** i fönstren **Företagsinformation** och **Lagerställekort**.  
+ Innan du föreslår en ny leveransorder för att uppfylla en beställningspunkt, kontrollerar planeringssystemet om den schemaläggs för en ickearbetsdag enligt alla kalendrar som har definierats i fältet **Baskalenderkod** på sidorna **företagsinformation** och **lagerställekort**.  
 
  Om det planerade datumet är ett ickearbetsdag flyttar planeringssystemet ordern framåt till nästa arbetsdag. Detta kan leda till att en order som uppfyller en beställningspunkt, inte uppfyller vissa specifika behov. För sådan ej balanserad efterfrågan skapar planeringssystemet en extra leverans.  
 

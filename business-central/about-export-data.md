@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
@@ -22,6 +22,9 @@ Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i E
 
 ## <a name="opening-lists-in-excel"></a>Öppna listor i Excel
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
+
+> [!NOTE]
+> Använd det här alternativet om du inte vill ändra och publicera ändringarna till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Alla listor inkluderar ett antal kolumner och exportering till Excel inkluderar alla kolumner i den aktuella vyn. Om du vill lägga till eller ta bort kolumner innan du öppnar listan i Excel öppnar du bara snabbmenyn för en kolumn och anger sedan vilka kolumner som du vill visa. Denna lista över kolumner är olika för de flesta listor och återspeglar strukturen i databasen där data lagras. Om du inte vet vilken typ av data som en viss kolumn, kan du lägga till den i din vy och sedan bestämma dig för om du vill ta bort den igen.  
 
@@ -39,7 +42,7 @@ Du kan självklart exportera alla sidor, men det kan vara mer än vad du verklig
 * Banker  
 * Artiklar  
 
-Om du även vill ha med alla dina ekonomiska transaktioner, och är detta stora mängder data, tar exporten ofta mer än några minuter. De finansiella transaktionerna visas i fönstret **redovisningstransaktioner**.  
+Om du även vill ha med alla dina ekonomiska transaktioner, och är detta stora mängder data, tar exporten ofta mer än några minuter. De finansiella transaktionerna visas på sidan **redovisningstransaktioner**.  
 
 Vi rekommenderar att du också överväger att exportera data från följande sidor:  
 

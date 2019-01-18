@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
@@ -34,11 +34,11 @@ I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. (Mer i
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Redovisningsbudgetar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj åtgärden **Redigera budget**.
-4. Högst upp i fönstret **Budget** fyller du i fälten för att definiera vad som ska visas.  
+4. Högst upp på sidan **Budget** fyller du i fälten för att definiera vad som ska visas.  
 
-    Endast transaktioner som innehåller budgetnamnet som du angav i fältet **Budgetnamn** visas. Fönstret är för närvarande tomt eftersom budgetnamnet just har skapats och det därför inte finns några transaktioner som matchar filtret. Därför är fönstret tomt.  
-5. Om du vill ange ett belopp väljer du relevant cell i matrisen. Fönstret **Redov.budgettransaktioner** öppnas.  
-6. Skapa en ny rad och fyll i fältet **Belopp**. Stäng fönstret **Redov.budgettransaktioner**.  
+    Endast transaktioner som innehåller budgetnamnet som du angav i fältet **Budgetnamn** visas. Fönstret är för närvarande tomt eftersom budgetnamnet just har skapats och det därför inte finns några transaktioner som matchar filtret. Därför är sidan tom.  
+5. Om du vill ange ett belopp väljer du relevant cell i matrisen. Sidan **Redov.budgettransaktioner** öppnas.  
+6. Skapa en ny rad och fyll i fältet **Belopp**. Stäng sidan **Redov.budgettransaktioner**.  
 7. Upprepa steg 5–6 tills du har angett alla budgetbeloppen.  
 
 > [!NOTE]  

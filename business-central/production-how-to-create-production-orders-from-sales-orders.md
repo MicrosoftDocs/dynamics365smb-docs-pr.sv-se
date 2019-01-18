@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Så här skapar du produktionsorder från försäljningsorder
@@ -26,7 +26,7 @@ Du kan skapa produktionsorder för producerade artiklar direkt från försäljni
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Markera den försäljningsorder som du vill skapa en produktionsorder för.  
-3.  Välj åtgärden **Planerad**. I fönstret **Förs.orderplanering** kan du visa dispositionen för artikeln på i ordern.  
+3.  Välj åtgärden **Planerad**. På sidan **Förs.orderplanering** kan du visa dispositionen för artikeln på i ordern.  
 4.  Välj åtgärden **Skapa prod.order**.  
 5.  Välj status och ordertyp.  
 6.  Välj **Ja** för att skapa produktionsordern.

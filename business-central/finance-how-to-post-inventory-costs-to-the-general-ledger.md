@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Stämma av lagerkostnader med redovisningen
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen.
 
-Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokföring** i fönstret **Lagerinställningar**.
+Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokföring** på sidan **Lagerinställningar**.
 
 Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade avgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Om en lista över felen ska visas innan batch-jobbet för bokföring ska köras 
 Det går att visa en översikt över de värden som eventuellt bokförs i redovisningen genom att köra batch-jobbet **Bokför lagerkostnad i redov.**, utan att själva bokföringen av värdena utförs i redovisningen. Genom att avmarkera fältet **Bokför** på sidan för begäran kan översikten visas. Om batch-jobbet körs med de här inställningarna visas värdena som kan bokföras i redovisningen i rapporten, men de bokförs inte.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>För att granska avstämningen mellan inventeringen och redovisningen.
-Fönstret **Avstämning lager - redovisning -** visar följande:
+Sidan **Avstämning lager - redovisning -** visar följande:
 
 - Påvisar avstämningsdifferenser genom att jämföra vad som registrerats i redovisningen och vad som registrerats i lagerredovisningen (värdetransaktioner).
 - Visar oavstämda kostnadsbelopp i värdetransaktionerna i lagerredovisningen om de mappas till motsvarande lagerrelaterade konton i redovisningen och jämför dessa med summorna som faktiskt registreras på samma konton i redovisningen.
@@ -57,11 +57,11 @@ I kolumnen **Redovisningssumma** visas beloppen (i fetstil) för varje redovisni
 
 Kolumnen **Differens** representerar differensen mellan fälten **Redovisningssumma** och **Summa**.
 
-Högst upp i fönstret **Avstämning lager - redovisning** kan du ange filter för att t.ex. begränsa den tidsperiod som du vill hämta information om.
+Högst upp på sidan **Avstämning lager - redovisning** kan du ange filter för att t.ex. begränsa den tidsperiod som du vill hämta information om.
 
 Om du markerar fältet **Visa varning** och om det finns avvikelser mellan lagersummor och redovisningssummor, visas meddelanden i fältet **Varning** för rutnätet som förklarar avvikelsen. Om du väljer fältet Varning får du mer information om vad varningen betyder.
 
-När du har angett alla önskade filter väljer du åtgärden **Visa matris**. Data beräknas och matrisfönstret öppnas.
+När du har angett alla önskade filter väljer du åtgärden **Visa matris**. Data beräknas och matrissidan öppnas.
 
 I kolumnen längst till vänster i rutnätet kan du se de olika redovisningskonton som har associerats med lager. I rutnätet visas sedan de fakturerade och icke-fakturerade (interim) lagersummorna och PIA-lagersummorna för var och en av dessa kontotyper. Dessa summor beräknas utifrån värdetransaktionerna.
 

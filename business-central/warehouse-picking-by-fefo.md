@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54857d668cdceb9cc1d4e035a496d621b1d9459b
 ms.contentlocale: sv-se
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
@@ -40,7 +40,7 @@ Om två serie-/partinumrerade artiklar har samma utgångsdatum, väljs artikeln 
 <br /><br />
 När du plockar serie-/partinumrerade artiklar på lagerplatser som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerplatser av typen *Plock* enligt FEFO.  
 <br /><br />
-Om du vill aktivera transporter enligt FEFO antingen i **lagerförflyttning** fönster eller **Transportkalkylark** fönstret, måste du lämna **Från binge** fältet tomt.  
+Om du vill aktivera transporter enligt FEFO antingen på sidan **Lagerförflyttning** eller på sidan **Transportförslag**, måste du lämna fältet **Från lagerplats** tomt.  
 <br /><br />
 Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som inte har förfallit att tas med i plockningen. Detta gäller även om du inte använder plockning enligt FEFO.
 

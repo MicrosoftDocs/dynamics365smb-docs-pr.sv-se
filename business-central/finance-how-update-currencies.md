@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
@@ -24,7 +24,7 @@ Du måste ange en kod för varje valuta du använder om du köper eller säljer 
 
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska siffror i fler än en valuta. I programmet stöds användning av flera valutor. Redovisningen ställs in med hjälp av den lokala valutan (BVA) och en annan valuta ställs in som en alternativ valuta, med en tilldelad aktuell valutakurs.  
 
- Genom att ange en andra valuta som en alternativ rapporteringsvaluta kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t.ex. momstransaktioner. När redovisningstransaktionsbelopp beräknas i en alternativ rapporteringsvaluta används informationen från fönstret **Valutakurser** för att söka efter relevant valutakurs.  
+ Genom att ange en andra valuta som en alternativ rapporteringsvaluta kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t.ex. momstransaktioner. När redovisningstransaktionsbelopp beräknas i en alternativ rapporteringsvaluta används informationen från sidan **Valutakurser** för att söka efter relevant valutakurs.  
 
 > [!WARNING]  
 >  Funktionen Alt. rapporteringsvaluta bör inte användas som underlag vid omräkning av ekonomirapporter. Verktyget kan inte användas för att utföra omräkningar av ekonomirapporter för utländska dotterbolag som en del i en företagskonsolidering. Funktionen Alt. rapporteringsvaluta ger endast möjligheten att förbereda rapporter i en annan valuta på ett sådant sätt som om den valutan var företagets lokala valuta.
@@ -39,21 +39,21 @@ Med hjälp av en alternativ rapporteringsvaluta kan rapporteringsprocessen för 
 
 - Företag som också vill visa rapporter i en mer internationell handelsvaluta än sin egen lokala valuta.  
 
-Redovisningstransaktioner används som underlag i flera rapporter i modulen Redovisning. Om du vill visa den ekonomiska informationen i rapporten i alternativ rapporteringsvaluta markerar du helt enkelt fältet **Visa i Lägg till valuta** i det relevanta fönstret för redovisningsrapporten.  
+Redovisningstransaktioner används som underlag i flera rapporter i modulen Redovisning. Om du vill visa den ekonomiska informationen i rapporten i alternativ rapporteringsvaluta markerar du helt enkelt fältet **Visa i Lägg till valuta** på den relevanta sidan för redovisningsrapporten.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Så här konfigurerar du en valutakurstjänst
 Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Valutakurstjänster** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. I fönstret **Valutakurstjänster** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På sidan **Valutakurstjänster** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj kryssrutan **aktiverad** om du vill aktivera tjänsten.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Så här uppdaterar du valutakurser från en tjänst
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Valutor** och välj sedan relaterad länk.
 2. Välj åtgärden **uppdatera valutakurser**.
 
-Värdet i fältet **valutakurs** i fönstret **valutor** uppdateras med den senaste valutakursen.
+Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senaste valutakursen.
 
 ## <a name="see-also"></a>Se även
 [Avsluta år och perioder](year-close-years-periods.md)  

@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plocka artiklar med lagerplockning
-När det lagerställe som du vill plocka från har konfigurerats så att plockbehandling krävs men inte leveransbearbetning, använder du fönstret **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina källdokument. Det avgående källdokumentet kan vara en försäljningsorder, en utgående överföringsorder eller en produktionsorder vars komponenter är klara att plockas.
+När det lagerställe som du vill plocka från har konfigurerats så att plockbehandling krävs men inte leveransbearbetning, använder du sidan **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina källdokument. Det avgående källdokumentet kan vara en försäljningsorder, en utgående överföringsorder eller en produktionsorder vars komponenter är klara att plockas.
 
 > [!NOTE]  
-> Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Med **lagerförflyttning** fönstret. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+> Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Använd istället sidan **lagerförflyttning**. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 >  Om plockning- och leveransförsäljningsradantal läggs till i order ska du följa vissa regler när du skapar lagerplockningsraderna. Mer information finns i avsnittet ”hantera artiklar för montering mot kundorder i lagerplockningar” i .  
 
 Du kan skapa en lagerartikelplockning på tre sätt:  
 
-- Skapa plockningen i två steg genom att först begära en lagerplockning genom att släppa källdokument. Det signalerar till distributionslagret att källdokumentet är klart för plockning. Lagerplockning kan sedan skapas från fönstret **Lagerplockning** baserat på källdokumentet.  
+- Skapa plockningen i två steg genom att först begära en lagerplockning genom att släppa källdokument. Det signalerar till distributionslagret att källdokumentet är klart för plockning. Lagerplockning kan sedan skapas från sidan **Lagerplockning** baserat på källdokumentet.  
 - Skapa lagerplockningen direkt från själva källdokumentet.  
 - Du kan skapa lagerplockningar för flera källdokument samtidigt med hjälp av batch-jobbet.  
 
@@ -70,7 +70,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny lagerplockning base
 
 ## <a name="to-record-the-inventory-picks"></a>När du vill registrera lagerplockning.  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplockning** och välj sedan relaterad länk.  
-2. I fältet **Lagerplatskod** på plockningsraderna, är lagerplatsen som artiklarna måste plockas från antyder per artiklarna standardlagerplats. Du kan ändra lagerplatsen i det här fönstret om det behövs.  
+2. I fältet **Lagerplatskod** på plockningsraderna, är lagerplatsen som artiklarna måste plockas från antyder per artiklarna standardlagerplats. Du kan ändra lagerplatsen på den här sidan om det behövs.  
 3. Utför plockningen och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
 
     Om det är nödvändigt att plocka artiklar för en rad på flera lagerplatser, t.ex. eftersom de inte finns på den utsedda lagerplatsen, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  
@@ -87,11 +87,11 @@ Om artiklar i lagerplockningen inte är tillgängliga, kan du ta bort de lagerpl
 >  Om lagerplockningsrader har serienr/partinr som inte är tillgängliga, måste du inte ta bort de aktuella raderna. I stället måste ändra fältet **Ant. att hantera** till noll, bokföra faktisk plockning och sedan bort lagerplockningsdokument. Det garanterar att lagerplockningsraderna för de serienr/partinr kan återskapas från senare försäljningsorder.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Hantering av artikel för montering mot kundorder i lagerplockningar
-Fönstret **Lagerplockning** används också för att plocka och leverera för försäljning där artiklar måste vara församlade innan de kan levereras. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).
+Sidan **Lagerplockning** används också för att plocka och leverera för försäljning där artiklar måste vara församlade, innan de kan levereras. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).
 
 Artiklar som ska levereras, inte fysiskt finns i en lagerplats, förrän de är bokförda och församlade som utflöde på en lagerplats i monteringsområdet. Det innebär att plocka artiklar för montering mot kundorder för utleverans följer ett speciellt flöde. Från en lagerplats tar lagerarbetare monteringsartiklarna till ett leveransdocka och bokför sedan lagerplockningen. Bokförda lagerplockningen bokför sedan monteringsutflödet, komponentförbrukningen och utleveransen.
 
-Du kan lägga upp [!INCLUDE[d365fin](includes/d365fin_md.md)] för att automatiskt skapa en lagertransport, när monteringsartikeln för lagerplockningen skapas. Du anger dessa inställningar genom att välja fältet **skapa transporter automatiskt** i fönstret **Monteringsinställningar** Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Du kan lägga upp [!INCLUDE[d365fin](includes/d365fin_md.md)] för att automatiskt skapa en lagertransport, när monteringsartikeln för lagerplockningen skapas. Du anger dessa inställningar genom att välja fältet **skapa transporter automatiskt** på sidan **Monteringsinställningar** Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Lagerplockningsrader för försäljningsartiklar skapas på olika sätt beroende på om ingen, några eller alla försäljningsradantal monteras mot kundorder.
 
@@ -101,7 +101,7 @@ I montering mot kundorder försäljning, där hela antalet på försäljningsord
 
 Om ett monteringsutflöde har angetts för lagerstället, när värdet i fältet **Lagerpl.kod för mont. mot lev.** eller värdet i **Från monteringsplats - kod** i den ordern infogas i fältet **Lagerplatskod** på lagerplockningsraden.
 
-Om ingen lagerplatskod anges på försäljningsorderraden, och ingen monteringsutflöde har angetts för lagerstället, är **Lagerplatskod** på lagerplockningsraden tomt. Lagerarbetaren måste öppna **Lagerplatsinnehåll**och markera den lagerplats där monteringsartiklarna är församlade.
+Om ingen lagerplatskod anges på försäljningsorderraden, och ingen monteringsutflöde har angetts för lagerstället, är **Lagerplatskod** på lagerplockningsraden tomt. Lagerarbetaren måste öppna sidan **Lagerplatsinnehåll**och markera den lagerplats där monteringsartiklarna är församlade.
 
 I alla scenarier där en del av antalet måste först vara församlad och ett annat ska plockas från lagret, skapas ett minimum på två lagerplockningsrader. En plockningsrad är för antal för montering mot kundorder. Den andra plockningsraden beror på vilka lagerplatser som kan uppfylla det återstående antalet från lagret. Lagerplatskoder på de två raderna är ifyllt olika sätt, som beskrivs för de två olika försäljningstyperna. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 

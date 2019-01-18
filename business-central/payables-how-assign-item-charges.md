@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
@@ -41,7 +41,7 @@ För både inköps- och försäljningsdokument, kan du tilldela en artikelomkost
 Artikelomkostnadsnummer används för att skilja mellan olika typer av artikelomkostnader som används för inköpsdokument i företaget.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelomkostnader** och välj sedan relaterad länk.
-2. I fönstret **Artikelomkostnader** väljer du åtgärden **Ny** åtgärder för att skapa en ny rad.
+2. På sidan **Artikelomkostnader** väljer du åtgärden **Ny** åtgärder för att skapa en ny rad.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader direkt till inköpsfakturan för artikeln
@@ -58,9 +58,9 @@ Om du vet artikelomkostnaderna vid den tidpunkten när du bokför en inköpsfakt
     I följande steg gör du den faktiska fördelningen. Tills artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribuera** i rött.
 8. På fliken **Rader** väljer du **Art.omkost.fördelning**.
 
-    Fönstret **art.omkost.fördelning** öppnas med en rad för varje rad av typartikel på försäljningsfakturan. Om du vill tilldela artikelomkostnaden till en eller flera rader, använder du en funktion som tilldelar och distribuerar den automatiskt eller manuellt fyller i fältet **Ant. att distribuera**. Följande steg beskriver hur du använder funktionen Föreslå art.omkost.fördelning.
+    Sidan **art.omkost.fördelning** öppnas med en rad för varje rad av typartikel på försäljningsfakturan. Om du vill tilldela artikelomkostnaden till en eller flera rader, använder du en funktion som tilldelar och distribuerar den automatiskt eller manuellt fyller i fältet **Ant. att distribuera**. Följande steg beskriver hur du använder funktionen Föreslå art.omkost.fördelning.
 
-9. I fönstret **art.omkost.fördelning** väljer du åtgärden **Föreslå art.omkost.fördelning**.
+9. På sidan **art.omkost.fördelning** väljer du åtgärden **Föreslå art.omkost.fördelning**.
 10. Om det finns flera fakturarader av typen artikel, väljer du ett av fyra distributionsalternativ.  
 
 Om artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribuera** på inköpsfakturan noll.
@@ -70,8 +70,8 @@ Artikelomkostnaderna har nu tilldelats till inköpsfakturan. När du bokför inl
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader från en separat faktura till inköpsfakturan för artikeln
 Om du har fått en faktura för artikelomkostnaden när du har bokfört ursprungligt inleverans, följer du nedanstående instruktioner.
 1. Upprepa steg 1 till och med 8 i avsnittet ”Koppla artikelomkostnader direkt till inköpsfakturan för artikeln”.
-2. Klicka på **Art.omkost.fördelnin** och välj åtgärden **Hämta inleveransrader**.
-3. I fönstret **Inköp inleveransrader** väljer du artikelomkostnaden till bokförda inleveransen av artiklar som ska tilldelas artikeln och klickar på knappen **OK**.
+2. På sidan **Art.omkost.fördelnin** väljer du åtgärden **Hämta inleveransrader**.
+3. På sidan **Inköp inleveransrader** väljer du artikelomkostnaden till bokförda inleveransen av artiklar som ska tilldelas artikeln och klickar på knappen **OK**.
 4. Välj åtgärden **Föreslå art.omkost.fördelning**.
 
 Artikelomkostnader på den separata inköpsfakturan har nu tilldelats till artikeln på den bokförda inleveransraden, därför uppdateras artikelns lagervärde med kostnaden för artikelomkostnaden.

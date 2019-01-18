@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
@@ -29,7 +29,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
  I relation till antalsbokföringar finns artikelkopplingstransaktioner för att koppla lagerökning till lagerminskning. Det gör det möjligt för värderingsmotorn att flytta kostnader framåt från ökningar till de relaterade minskningarna och vice versa. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md).  
 
- Artikeltransaktioner, värdetransaktioner och artikelkopplingstransaktioner skapas som ett resultat av att bokföra en artikeljournalrad, antingen indirekt genom att bokföra en orderrad eller direkt i fönstret Artikeljournal.  
+ Artikeltransaktioner, värdetransaktioner och artikelkopplingstransaktioner skapas som ett resultat av att bokföra en artikeljournalrad, antingen indirekt genom att bokföra en orderrad eller direkt på sidan Artikeljournal.  
 
  Med regelbundna intervall bokförs värdetransaktioner som skapas i inventeringen i redovisningen för att stämma av de två redovisningarna för ekonomisk kontroll. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
 

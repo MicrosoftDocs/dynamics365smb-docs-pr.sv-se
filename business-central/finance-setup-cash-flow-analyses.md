@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
@@ -30,7 +30,7 @@ Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du
 Det här avsnittet beskriver var informationen i diagrammen kommer från och, vid behov, vad du gör om du vill börja använda diagrammen.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Kassacykeln och diagram för inkomster och utgifter
-Diamgrammen **Kassacykel** och **inkomster och utgifter** är klara, beroende på kontoplan och kontouppställningar. Kontona är var informationen kommer från och kontouppställningar beräknar förhållandet mellan försäljning och kundfordringar. Vissa konton och kontouppställningar tillhandahålls. Du kan använda dem som de är, ändra dem och lägga till nya. Om du lägger till redovisningskonton i kontoplanen, till exempel genom att importera dem från QuickBooks, behöver du mappa till kontona i fönstret **kontouppställningar** för följande Kontouppställningsnamn:  
+Diamgrammen **Kassacykel** och **inkomster och utgifter** är klara, beroende på kontoplan och kontouppställningar. Kontona är var informationen kommer från och kontouppställningar beräknar förhållandet mellan försäljning och kundfordringar. Vissa konton och kontouppställningar tillhandahålls. Du kan använda dem som de är, ändra dem och lägga till nya. Om du lägger till redovisningskonton i kontoplanen, till exempel genom att importera dem från QuickBooks, behöver du mappa till kontona på sidan **kontouppställningar** för följande Kontouppställningsnamn:  
 
 | Kontouppställningsnamn | Där den används |
 | --- | --- |
@@ -68,14 +68,14 @@ Så här använder du guiden för assisterad konfiguration:
 1. I rollcentret Revisor, under diagrammet **kassaflödesprognos** väljer du åtgärden **Öppna assisterad konfiguration**.  
 2. Fyll i fälten som behövs i varje steg i guiden.  
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesprognos** och välj sedan relaterad länk.
-4. I fönstret **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
+4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 Så här använder du en manuell process:  
 
 1. I rollcentret revisor söker du **Kassaflödesinställningar**, och väljer sedan relaterad länk.  
 2. Expandera snabbfliken **Cortana Intelligence** och välj sedan kryssrutan **Cortana Intelligence aktiverad**.  
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesprognos** och välj sedan relaterad länk.
-4. I fönstret **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
+4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 > [!TIP]  
 >   Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Cortana Intelligence inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  

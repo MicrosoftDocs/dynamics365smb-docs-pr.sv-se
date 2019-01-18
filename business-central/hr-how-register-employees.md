@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-employees"></a>Registrera personal
@@ -24,15 +24,15 @@ För att använda personalfunktionen måste du först registrera varje enskild a
 
 Du kan när som helst ändra informationen om en anställd. Uppdaterade register om din personal underlättar personalrelaterade uppgifter. Om en anställd till exempel byter adress kan du registrera den nya informationen på hans eller hennes personalkort.
 
-Nedan beskrivs hur du skapar ett grundläggande personalkort samt hur du förser en anställd med två typer av personalinformation. Du kan också tilldela annan relaterad information, såsom kvalifikationer och orsaker till inaktivitet. Du tilldelar personalinformation antingen genom att välja ett fält eller en åtgärd i fönstret **Personalkort**.
+Nedan beskrivs hur du skapar ett grundläggande personalkort samt hur du förser en anställd med två typer av personalinformation. Du kan också tilldela annan relaterad information, såsom kvalifikationer och orsaker till inaktivitet. Du tilldelar personalinformation antingen genom att välja ett fält eller en åtgärd på sidan **Personalkort**.
 
 > [!NOTE]  
-> Du kan återbetala en medarbetare för deras utgifter under affärsaktiviteter. Av den anledningen måste du fylla i fälten på snabbfliken **Betalningar** i fönstret **Personalkort**. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
+> Du kan återbetala en medarbetare för deras utgifter under affärsaktiviteter. Av den anledningen måste du fylla i fälten på snabbfliken **Betalningar** på sidan **Personalkort**. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Så här registrerar du personal
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anställda** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. I fönstret **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På sidan **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Infoga en bild av den anställde
 Om du har en bild av en anställd i .bmp-format kan du infoga den på personalkortet.
@@ -40,7 +40,7 @@ Om du har en bild av en anställd i .bmp-format kan du infoga den på personalko
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anställda** och välj sedan relaterad länk.
 2. Öppna kortet för relevant anställd.
 3. I faktaboxen **Personalbild** väljer du listruteknappen och väljer sedan **Importera**.
-4. I fönstret **Välj en bild att ladda upp** kan välja knappen **Välj**.
+4. På sidan **Välj en bild att ladda upp** kan välja knappen **Välj**.
 5. Välj filen, och välj sedan **Öppna**.
 
 Bilden infogas i faktaboxen **Personalbild**.
@@ -53,7 +53,7 @@ Du kan använda alternativa adresser för att hålla reda på var de anställda 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anställda** och välj sedan relaterad länk.
 2. Öppna kortet för relevant anställd.
 3. Välj åtgärden **alternativa adresser**.
-4. I fönstret **Alternativ adresslista** fyller du i fälten efter behov.
+4. På sidan **Alternativ adresslista** fyller du i fälten efter behov.
 5. Upprepa steg 4 för varje alternativ adress.
 
 ## <a name="see-also"></a>Se även

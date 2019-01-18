@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Lägg till utökad artikeltext
@@ -25,11 +25,11 @@ Du kan utöka en standardtext för artiklar genom att lägga till extrarader och
 1. Öppna kortet för en artikel som du vill lägga till extratext på, och välj sedan åtgärden **Extratext**.
 2. Ange koden i fältet **Kod**. Skriv in en beskrivning i fältet **Beskrivning**.
 3. Välj **Extratexter**.
-4. Fyll i raderna i fönstret **Extratext** med extrainformationen.
+4. Fyll i raderna på sidan **Extratext** med extrainformationen.
 5. Fyll i fältet **Språkkod** eller fältet **Alla språkkoder** om du vill använda språkkoder.
 6. Fyll i fältet **Startdatum** och fältet **Slutdatum** om du vill begränsa den period under vilken extratexten ska användas.
 7. Markera relevanta kryssrutor för dokumenttyperna där du vill att extratexten ska skrivas ut.
-8. Stäng fönstret.
+8. Stäng sidan.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>För att lägga till en utökad artikeltext på en försäljningsorderrad.
 1. Öppna en försäljningsorder med en försäljningsrad för en artikel som har förlängd text som har definierats. Mer information finns i [Sälja produkter](sales-how-sell-products.md).

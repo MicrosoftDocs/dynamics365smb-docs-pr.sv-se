@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
@@ -26,9 +26,9 @@ Du kan inte skapa ett dokument för dist.lager plockning från grunden, eftersom
 
 Du kan skapa dokumentet för dist.lager plockning med ett pullmetod genom att öppna ett tomt distributionslagerdokumentet, hitta källdokument som släpps till leveransen, och sedan skapa plockningsraderna för de utleveranser. Du kan använda **Hämta källdokument** , eller **Filter för att hämta urspr.dok.** funktioner för att undersöka källdokument som är klara för utleverans.
 
-Du kan också använda **Plockningskalkylark** fönstret för att flytta plockningsrader i batchläge. Mer information finns i [Planera plockningar i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md).  
+Du kan också använda sidan **Plockningsförslag** för att flytta plockningsrader i batchläge. Mer information finns i [Planera plockningar i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Du kan också skapa dokument för dist.lager plockning med pushmetod från **Dist.lager utleverans** fönstret, genom att välja **Skapa plockning**.  
+Du kan också skapa dokument för dist.lager plockning med pushmetod från sidan **Dist.lager utleverans**, genom att välja **Skapa plockning**.  
 
 > [!NOTE]  
 >  Plockning för distributionslagerutleverans av artiklar som är monterade till försäljningsorder som har levererats, följer samma steg för distributionslager som vanliga plockning för utleverans, enligt beskrivningen i det här avsnittet. Numret på plockningsrader per antal som ska levereras kan vara många-till-en, eftersom plockning för distributionslager är för monteringskomponenter och inte för monteringsartikeln.  
@@ -52,7 +52,7 @@ Du kan också skapa dokument för dist.lager plockning med pushmetod från **Dis
 
 4.  När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerplatsen för utleveranser väljer du åtgärden **Registrera plockning**.  
 
-Den person som ansvarar för utleverans kan nu få artiklarna till ett leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, i fönstret **Dist.lager utleverans**. Mer information finns i [Leverera artiklar](warehouse-how-ship-items.md).   
+Den person som ansvarar för utleverans kan nu få artiklarna till ett leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, på sidan **Dist.lager utleverans**. Mer information finns i [Leverera artiklar](warehouse-how-ship-items.md).   
 
 Förutom plockning för källdokument, som beskrivs i det här avsnittet, kan du ta och placera artiklar mellan lagerplatser, utan att referera till källdokument. Mer information finns i [Plocka och föra in utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ För andra distributionslagerutleveransrader är värdet i **Ant. att utleverera
 
 När arbetare ansvariga för slutfört monterande av komponenter för montering eller hela antalet för montering mot kundorder, registrerar de i fältet **Ant. att utleverera** på distributionslagerutleveransraden i avancerade konfigurationer och väljer åtgärden **Bokför utleverans**. Resultatet blir att det motsvarande monteringsutflödet bokförs, inklusive komponentförbrukningen. En utleverans för kvantiteterna bokförs för försäljningsordern.
 
-Från monteringsordern kan du välja **Montering mot kundorder, dist.lager utleveransrad** för att komma åt distributionslagerutleveransraden. Det är praktiskt exempelvis för arbetare som inte använder vanligtvis **Dist.lager utleverans**-fönstret.
+Från monteringsordern kan du välja **Montering mot kundorder, dist.lager utleveransrad** för att komma åt distributionslagerutleveransraden. Det är praktiskt exempelvis för arbetare som inte använder vanligtvis sidan **Dist.lager utleverans**.
 
 När distributionslagerutleveransen har bokförts uppdateras olika fält på försäljningsorderraden för att visa förloppet i distributionslagret. Följande fält uppdateras också för att visa hur många antal för montering mot kundorder som återstår att monteras och levereras:
 

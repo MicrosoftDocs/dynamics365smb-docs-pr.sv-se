@@ -12,22 +12,22 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee07ca7ba498858fac794f1ee1f27f281de8ae02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d427ab28e1344ece77baaab8ceefe4043d3beaa0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>Så här bokför du betalningsinleveranser för SEPA Autogiro
 När en direkt autogiroinsamling framgångsrikt bearbetas av din bank, kan du fortsätta att bokföra mottagandet av betalningen för de berörda försäljningsfakturorna. För mer information, se [Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 
-Du kan bokföra Betalningsinleverans direkt från den **Samlingar med autogiro** eller **Transaktioner för samlingar med autogiro**. Alternativt kan du vidarebefordra arbetet till en annan användare genom att förbereda de relaterade journalraderna.  
+Du kan bokföra Betalningsinleverans direkt från sidan **Samlingar med autogiro** eller sidan **Transaktioner för samlingar med autogiro**. Alternativt kan du vidarebefordra arbetet till en annan användare genom att förbereda de relaterade journalraderna.  
 
-## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-window"></a>Så här bokför du ett betalningskvitto för autogiroinsamling  
+## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Så här bokför du ett betalningskvitto på sidan Samlingar med autogiro  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Samlingar med autogiro** och välj sedan relaterad länk.  
 2. Välj en rad för en autogiroinsamling som har exporterats till en bankfil och framgångsrikt bearbetats av banken. För mer information, se [Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 3. Välj åtgärden **Bokför betalningsinleveranser**.  
-4. I fönstret **Bokför samling med autogiro** fyller du i fälten enligt instruktionerna i följande tabell.  
+4. På sidan **Bokför samling med autogiro** fyller du i fälten enligt instruktionerna i följande tabell.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  

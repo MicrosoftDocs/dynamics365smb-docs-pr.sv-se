@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 758833e146c03cde3f892ec24d43143bcdce655c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-bank-funds"></a>Överföra banktillgångar
@@ -28,9 +28,10 @@ Ibland kan du behöva överföra ett belopp från ett bankkonto till ett annat. 
 3. Ange **Bankkonto** i fältet **Kontotyp**.
 4. I fältet **Kontonr** väljer du det bankkonto som du vill överföra pengarna från.
 5. Ange det belopp som ska överföras i fältet **Belopp**.
-6. I fältet **Motkontotyp** väljer du **Bankkonto**.
-7. I fältet **Balanskontonr** väljer du det bankkonto som du vill överföra pengarna till.
-8. Bokför journalen.
+6. Välj åtgärden **visa fler kolumner** för att se alla tillgängliga fält.
+7. I fältet **Motkontotyp** väljer du **Bankkonto**.
+8. I fältet **Balanskontonr** väljer du det bankkonto som du vill överföra pengarna till.
+9. Bokför journalen.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Så här bokför du överföringar mellan bankkonton med olika valutakoder
 För att överföra pengar mellan bankkonton som använder olika valutor måste du bokföra två redovisningsjournalrader.
@@ -49,7 +50,7 @@ För att överföra pengar mellan bankkonton som använder olika valutor måste 
 12. I fältet **Balanskontonr** väljer du det bankkonto som du vill överföra pengarna från.
 
     > [!NOTE]  
-    > Om de valutakurser som används i journalen inte är samma som valutakurserna i fönstret **Valutakurser** skapar du en tredje rad för valutavinsten eller valutaförlusten. Ange **Redovisningskonto** i fältet **Kontotyp**. Ange numret för redovisningskontot för valutavinster och valutaförluster i fältet **Kontonr**. Ange valutavinsten eller valutaförlusten i fältet **Belopp** med eller utan ett minustecken för respektive kredit och debet.
+    > Om de valutakurser som används i journalen inte är samma som valutakurserna på sidan **Valutakurser** skapar du en tredje rad för valutavinsten eller valutaförlusten. Ange **Redovisningskonto** i fältet **Kontotyp**. Ange numret för redovisningskontot för valutavinster och valutaförluster i fältet **Kontonr**. Ange valutavinsten eller valutaförlusten i fältet **Belopp** med eller utan ett minustecken för respektive kredit och debet.
 13. Bokför journalen.
 
 ## <a name="see-also"></a>Se även

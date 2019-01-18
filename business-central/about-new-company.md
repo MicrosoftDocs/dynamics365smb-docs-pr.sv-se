@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt - gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)], beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Skapa nytt företag
-Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda den assisterade konfigurationen **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från fönstret **Företag** och från sökfunktionen i fältet **Företag** i **Mina inställningar**.  
+Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda den assisterade konfigurationen **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** i **Mina inställningar**.  
 
 Den assisterade konfigurationen erbjuder tre mallar:
 
@@ -36,7 +36,7 @@ Den assisterade konfigurationen erbjuder tre mallar:
 Om du vill komma igång snabbt med ett nytt företag väljer du **Produktion - endast inställningsdata** och importerar sedan dina egna affärsdata, till exempel kunder, artiklar och leverantörer. Välj mallen **Nytt** om du vill ställa in allt från början. Om så är fallet kan du använda den assisterade konfigurationen **Företagsinställningar** som hjälper dig att komma igång med grundläggande inställningsdata.  
 
 > [!NOTE]  
->   När du skapar ett nytt företag tar detnågra minuter innan du kan öppna det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inställningsstatus i fönstret **Företag** visas när det nya företaget är redo för dig. Sedan kan du växla till det nya företaget med hjälp av **Mina inställningar**.  
+>   När du skapar ett nytt företag tar detnågra minuter innan du kan öppna det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inställningsstatus på sidan **Företag** visas när det nya företaget är redo för dig. Sedan kan du växla till det nya företaget med hjälp av **Mina inställningar**.  
 
 Du kan skapa valfritt antal nya företag under en utvärderingsversion på 30 dagar, men de kan bara användas under utvärderingsperioden. Kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner för mer information.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Omstrukturera lager
@@ -56,9 +56,9 @@ Du har nu tömt lagerplatser där artiklarna användes. Standardlagerplatserna f
 
     1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
     2.  Markera raden med lagerstället, och välj sedan åtgärden **Lagerplatser**.  
-    3.  I **Lagerplatser** fönstret i **Lagerplatstyp kod** fältet, ange **KS** för var och en av de gamla lagerplatserna som du tömde i steg 3 i föregående process.  
+    3.  På sidan **Lagerplatser** i fältet **Lagerplatstyp kod**, ange **KS** för var och en av de gamla lagerplatserna som du tömde i steg 3 i föregående process.  
 
-Du har nu tagit bort lagerplatserna från lagerflödet och har omklassificerat dem, som KS-lagerplatser. KS-lagerplatser har inte några av aktivitetsfälten i fältet **Lagerplatstyper** valda och därför inte beaktas av objektflödet. Mer information finns i [Skapa lagerplatser](warehouse-how-to-set-up-bin-types.md).  
+Du har nu tagit bort lagerplatserna från lagerflödet och har omklassificerat dem, som KS-lagerplatser. KS-lagerplatser har inte några av aktivitetsfälten på sidan **Lagerplatstyper** valda och därför inte beaktas av objektflödet. Mer information finns i [Skapa lagerplatser](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Så här tar du bort en lagerplats  
 
@@ -69,7 +69,7 @@ Du har nu tagit bort lagerplatserna från lagerflödet och har omklassificerat d
 
 Om du klickar på **Ja** tas lagerplatsen bort för framtida användning, men lagerplatskoden finns kvar i alla distributionslagertransaktioner.  
 
-Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerplatsen också får det nya namnet kan du göra det i fönstret **Lagerplatser**, inklusive lagerplatsinnehåll, aktivitetsrader för distributionslager, registrerade aktivitetsrader för distributionslager, kalkylarksrader för distributionslager, inleveransrader för distributionslager, bokförda inleveransrader för distributionslager, utleveransrader för distributionslager, bokförda utleveransrader för distributionslager och distributionslagertransaktioner.  
+Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerplatsen också får det nya namnet kan du göra det på sidan **Lagerplatser**, inklusive lagerplatsinnehåll, aktivitetsrader för distributionslager, registrerade aktivitetsrader för distributionslager, kalkylarksrader för distributionslager, inleveransrader för distributionslager, bokförda inleveransrader för distributionslager, utleveransrader för distributionslager, bokförda utleveransrader för distributionslager och distributionslagertransaktioner.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Så här byter du namn på en lagerplats och ändrar lagerplatskoden i alla poster  
 

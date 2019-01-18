@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc693bf3f3339b54a5d8d8847beb06c3fc018a0f
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultat av överföring av redovisningstransaktioner till kostnadstransaktioner
@@ -38,8 +39,5 @@ För enstaka kostnadstransaktioner överför [!INCLUDE[d365fin](includes/d365fin
 I tabellen **Bokförd journal för kostnad** skapar [!INCLUDE[d365fin](includes/d365fin_md.md)] en transaktion med källöverföringen från redovisningen. Transaktionen registrerar första och sista löpnumret för redovisningstransaktionerna som har överförts, i tillägg till första och sista löpnumret för kostnadstransaktionerna som skapas.  
 
 ## <a name="see-also"></a>Se även  
-[Överföra redovisningstransaktioner till kostnadstransaktioner](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
-[Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
-[Automatisk överföring och kombinerade transaktioner](finance-automatic-transfer-combined-entries.md)   
-[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)  
+[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
 

@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Använda resurser för projekt
@@ -46,8 +46,8 @@ Om du redan har skapat alternativa priser för några resurser kan du använda b
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Resursprisändringar** och välj sedan relaterad länk.
 2. Välj åtgärden **Föreslå res.prisändring (pris)** och fyll sedan i fälten efter behov.
-3. Välj **OK**.  
-4. När batch-jobbet har avslutats visar fönstret **Resursprisändringar** resultatet av batch-jobbet.
+3. Välj knappen **OK**.  
+4. När batch-jobbet har avslutats visar sidan **Resursprisändringar** resultatet av batch-jobbet.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Så här får du förslag till resursprisändringar enligt standardpriser
 Om du vill skapa flera alternativa resurspriser baserat på standardpriserna på resurskorten kan du använda ett batch-jobb .  
@@ -55,7 +55,7 @@ Om du vill skapa flera alternativa resurspriser baserat på standardpriserna på
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Resursprisändringar** och välj sedan relaterad länk.
 2. Välj åtgärden **Föreslå res.prisändring (res)** och fyll sedan i fälten efter behov.  
 3. Välj **OK**.  
-4. När batch-jobbet har avslutats öppnar du fönstret **Resursprisändringar** för att visa resultatet av batch-jobbet.
+4. När batch-jobbet har avslutats öppnar du sidan **Resursprisändringar** för att visa resultatet av batch-jobbet.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Så här får du förslag till resursprisändringar baserat på alternativa priser
 Om du redan har skapat alternativa priser för några resurser kan du använda batch-jobbet för att skapa flera alternativa resurspriser.
@@ -63,7 +63,7 @@ Om du redan har skapat alternativa priser för några resurser kan du använda b
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Föreslå res.prisändring (pris)** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 3. Välj **OK**.  
-4. När batch-jobbet har avslutats öppnar du fönstret **Resursprisändringar** för att visa resultatet av batch-jobbet.
+4. När batch-jobbet har avslutats öppnar du sidan **Resursprisändringar** för att visa resultatet av batch-jobbet.
 
 ## <a name="see-also"></a>Se även
 [Projekthantering](projects-manage-projects.md)  

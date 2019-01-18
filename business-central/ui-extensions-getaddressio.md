@@ -11,10 +11,10 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,8 +26,8 @@ Tillägget GetAddress.io för postnummer i Storbritannien kan spara tid och att 
 
     > [!NOTE]  
     >   Alternativet **Sök adressen från postnummer** är endast tillgängligt om fältet **lands-/ regionkod** antingen är tomt eller innehåller **GB**.
-2. I fönstret **Postnummersökning** i fältet **postnummer** anger du eller väljer postnummer.  
-3. I fönstret **Adressval** väljer du adressen.  
+2. IPå sidan **Postnummersökning** i fältet **postnummer** anger du eller väljer postnummer.  
+3. På sidan **Adressval** väljer du adressen.  
 
 > [!TIP]  
 >   Om du vet gatunumret kan du filtrera adresserna genom att ange hela eller delar av numret i fältet **Leveranspunkt**.

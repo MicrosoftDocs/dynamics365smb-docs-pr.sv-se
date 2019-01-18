@@ -11,18 +11,18 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a83bb50c640adafede77524c6982107e1140a27b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
 
-Du kan exportera betalningsrader från fönstret **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md).
+Du kan exportera betalningsrader från sidan **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md).
 
-Du kan importera bankutdragsfiler i fönstret **Betalningsavstämningsjournal** med hjälp av bankdatakonverteringstjänsten för att konvertera en fil som du får från banken till en dataström som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan importera bankutdragsfiler på sidan **Betalningsavstämningsjournal** med hjälp av bankdatakonverteringstjänsten för att konvertera en fil som du får från banken till en dataström som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjänsten kan du använda tjänsten Envestnet Yodlee bankfeeder. Mer information finns i [Konfigurera du bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md).
 
@@ -33,7 +33,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Så här registrerar du ditt företag för tjänsten bankdatakonvertering.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
-2. Fönstret **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
+2. Sidan **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
 
     > [!NOTE]  
     >   I CRONUS International Ltd:s demodatabas har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för bankdatakonverteringen.
@@ -42,7 +42,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 
     Ditt företag är nu registrerat för tjänsten bankdatakonvertering. Fortsätt med att ange användarnamnet och lösenordet som du har angett för tjänsten i de relaterade inställningsfälten i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-5. I fönstret **Serviceinställningar för bankdatakonv.** i fältet **Användarnamn** anger du samma värde som du har angett som inloggningsnamn på tjänstleverantörens sida i steg 4.
+5. På sidan **Serviceinställningar för bankdatakonv.** i fältet **Användarnamn** anger du samma värde som du har angett som inloggningsnamn på tjänstleverantörens sida i steg 4.
 6. I fältet **Lösenord** anger du samma värde som du angav i fältet **Lösenord** på tjänstleverantörens sida i steg 4.
 
 > [!NOTE]  
@@ -50,10 +50,10 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Så här visar eller uppdaterar du listan över bankdataformat som stöds för närvarande
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.
-2. I fönstret **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Banknamn – datakonverteringslista** för att öppna listan med banknamn som representerar bankdataformat som stöds av konverteringstjänsten.
-3. I fönstret **Banknamn – datakonverteringslista** väljer du åtgärden **Uppdatera lista med banknamn**.
+2. På sidan **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Banknamn – datakonverteringslista** för att öppna listan med banknamn som representerar bankdataformat som stöds av konverteringstjänsten.
+3. På sidan **Banknamn – datakonverteringslista** väljer du åtgärden **Uppdatera lista med banknamn**.
 
-Listan över bankdataformat som stöds av tjänsten för bankdatakonvertering uppdateras nu. Det här är listan över banknamn, filtrerade efter landet/regionen, som du kan välja mellan i fältet **Banknamn – Datakonvertering** i fönstret **Bankkontokort**.
+Listan över bankdataformat som stöds av tjänsten för bankdatakonvertering uppdateras nu. Det här är listan över banknamn, filtrerade efter landet/regionen, som du kan välja mellan i fältet **Banknamn – Datakonvertering** på sidan **Bankkontokort**.
 
 > [!NOTE]  
 >   Uppdatering av bankdataformat som stöds inträffar också när du väljer eller anger ett värde i fältet **Banknamn – Datakonvertering** på bankkontot.

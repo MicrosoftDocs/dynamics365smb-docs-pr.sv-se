@@ -1,6 +1,6 @@
 ---
 title: "Så här konfigurerar du godkännandeanvändare | Microsoft Docs"
-description: "Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. I fönstret Användarinställningar för godkännande anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande."
+description: "Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan Användarinställningar för godkännande anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,28 +13,28 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 26328cfb007f3251375503907c8316d51b113a03
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d171a2f21759f52ab472189a6bbeebac4593b6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-approval-users"></a>Konfigurera användare för godkännande
-Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. I fönstret **Användarinställningar för godkännande** anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande.  
+Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan **Användarinställningar för godkännande** anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande.  
 
 > [!NOTE]  
->  Godkännandeanvändare, både den som begär och den som godkänner, måste först ställas in som arbetsflödesanvändare i fönstret **Arbetsflödesanvändargrupp**. Mer information finns i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
+>  Godkännandeanvändare, både den som begär och den som godkänner, måste först ställas in som arbetsflödesanvändare på sidan **Arbetsflödesanvändargrupp**. Mer information finns i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
 
  När du har konfigurerat godkännandeanvändare kan du använda konfigurationen för att skapa arbetsflödessvar för godkännandearbetsflöden. Mer information finns i steg 9 i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 > [!NOTE]  
->  Om du vill definiera att en godkännandebegäran inte godkänns förrän flera godkännare i en godkännandekedja har godkänt den, ställer du in godkännare i en hierarki. För godkännartypen **godkännare** anger du godkännare i fönstret **Användarinställningar för godkännande**. För godkännartypen **Arbetsflödesanvändargrupp**, ställer du in godkännare i fönstret **Arbetsflödesanvändargrupper** och definierar hierarkin genom att tilldela inkrementella nummer till varje godkännare i fältet **Sekvensnr.** . Mer information finns i detta avsnitt och i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
+>  Om du vill definiera att en godkännandebegäran inte godkänns förrän flera godkännare i en godkännandekedja har godkänt den, ställer du in godkännare i en hierarki. För godkännartypen **godkännare** anger du godkännare på sidan **Användarinställningar för godkännande**. För godkännartypen **Arbetsflödesanvändargrupp** ställer du in godkännare på sidan **Arbetsflödesanvändargrupper** och definierar hierarkin genom att tilldela inkrementella nummer till varje godkännare i fältet **Sekvensnr.** . Mer information finns i detta avsnitt och i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
 >   
->  Om du vill definiera att en godkännandebegäran inte godkänns förrän flera likvärdiga godkännare har godkänt den, oberoende av ett hierarki, ställer du in en plan arbetsflödesanvändargrupp. För godkännartypen **Arbetsflödesanvändargrupp**, ställer du in godkännare i fönstret **Arbetsflödesanvändargrupper** och definierar samma nummer till varje godkännare i fältet **Sekvensnr.** . Mer information finns i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
+>  Om du vill definiera att en godkännandebegäran inte godkänns förrän flera likvärdiga godkännare har godkänt den, oberoende av ett hierarki, ställer du in en plan arbetsflödesanvändargrupp. För godkännartypen **Arbetsflödesanvändargrupp**, ställer du in godkännare på sidan **Arbetsflödesanvändargrupper** och definierar samma nummer till varje godkännare i fältet **Sekvensnr.** . Mer information finns i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
 
 ## <a name="to-set-up-an-approval-user"></a>Så här konfigurerar du en godkännandeanvändare  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
-2. Skapa en ny rad i fönstret **Användarinställningar för godkännande** och fyll i fälten enligt instruktionerna i följande tabell.  
+2. Skapa en ny rad på sidan **Användarinställningar för godkännande** och fyll i fälten enligt instruktionerna i följande tabell.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
@@ -45,7 +45,7 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
     |**Obegränsad godkännande försäljning**|Ange att användaren i fältet **Användar-ID** kan godkänna alla försäljningsbegäranden oavsett belopp.<br /><br /> Om du markerar den här kryssrutan kan du inte fylla i fältet **Max. förs.belopp att godkänna**.|  
     |**max. inköpsbelopp som kan godkännas**|Ange det maximala inköpsbeloppet i BVA som användaren i fältet **User ID** kan godkänna.|  
     |**Obegränsad godkännande för inköp**|Ange att användaren i fältet **Användar-ID** kan godkänna alla inköpsbegäranden oavsett belopp.<br /><br /> Om du markerar den här kryssrutan kan du inte fylla i fältet **Max. förs.belopp att godkänna**.|  
-    |**Max.bel godkänna ink.begäran**|Ange det maximala beloppet i BVA som användaren i fältet **Användar-ID** kan godkänna för inköpsofferter.<br /><br /> Om du vill använda detta fält måste du välja alternativet **Godkännarkedja** i fälten **Gränstyp för godkännare** i fönstret **Arbetsflödessvar**.|  
+    |**Max.bel godkänna ink.begäran**|Ange det maximala beloppet i BVA som användaren i fältet **Användar-ID** kan godkänna för inköpsofferter.<br /><br /> Om du vill använda detta fält måste du välja alternativet **Godkännarkedja** i fälten **Gränstyp för godkännare** på sidan **Arbetsflödessvar**.|  
     |**Obegränsad godkännande inköpsbeg.**|Ange att användaren i fältet **Användar-ID** kan godkänna alla inköpsofferter oavsett belopp.<br /><br /> Om du markerar den här kryssrutan kan du inte fylla i fältet **Max.bel godkänna ink.begäran**.|  
     |**Ersättare**|Välj användar-ID för den användare som måste godkänna begäranden från användaren i fältet **Användar-ID** om användaren i **Godkännar-ID** inte är tillgänglig. **Obs!**  Ersättaren kan vara antingen användaren i fältet **Ersättare** en direkta godkännaren eller godkännandeadministratören, i den prioritetsordningen. Mer information finns i [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md).|  
     |**E-post**|Ange e-postadressen till användaren i fältet **Användar-ID**.|  

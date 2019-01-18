@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a482b27c95cf40a80fb033ddd0d5333014a2064b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Definiera användaruppgifter
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du skapa uppgifter som påminner dig om arbetet som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.  
 
 ## <a name="managing-user-tasks"></a>Hantera användaruppgifter
-FÖnstret **användaruppgifter** visar alla uppgifter och du kan enkelt skapa och tilldela nya uppgifter. När du skapar en uppgift kan du ange start- och förfallodatum och du kan lägga till en länk till fönstret i [!INCLUDE[d365fin](includes/d365fin_md.md)] där användaren måste göra arbetet.  
+Sidan **användaruppgifter** visar alla uppgifter och du kan enkelt skapa och tilldela nya uppgifter. När du skapar en uppgift kan du ange start- och förfallodatum och du kan lägga till en länk till sidan i [!INCLUDE[d365fin](includes/d365fin_md.md)] där användaren måste göra arbetet.  
 
 Du kan till exempel skapa en uppgift för dig själv för att visa alla bokförda försäljningsfakturor. Om så är fallet kan du länka uppgiften till sidan 143, bokförda försäljningsfakturor.  
 
@@ -31,7 +31,7 @@ Du kan till exempel skapa en uppgift för dig själv för att visa alla bokförd
 >  Använd sökfunktionen i fältet **Sida** fält och använd fältet **Sök efter sidan eller rapporten** för att hitta sidan du vill ha. Mer information finns i [söka efter en sida eller rapport](ui-search.md).  
 
 ### <a name="picking-up-user-tasks"></a>Plocka upp användaruppgifter
-I chef, bokföringsansvarig och rollcenter för redovisare visar en panel pågående uppgifter som har tilldelats den användaren. Om du vill välja en uppgift, väljer du den bara från listan över väntande användaruppgifter. I menyfliken öppnar länken **Gå till uppgiftsobjekt** fönstret där du kan utföra arbetet.  
+I chef, bokföringsansvarig och rollcenter för redovisare visar en panel pågående uppgifter som har tilldelats den användaren. Om du vill välja en uppgift, väljer du den bara från listan över väntande användaruppgifter. I menyfliken öppnar länken **Gå till uppgiftsobjekt** sidan där du kan utföra arbetet.  
 
 När du har slutfört en uppgift bara markerar du den som slutförd.  
 

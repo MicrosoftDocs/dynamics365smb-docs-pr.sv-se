@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrera speciella inköpspriser och rabatter
@@ -60,7 +60,7 @@ När dina leverantörer har informerat dig om vilka fakturarabatter som de bevil
     >   Fakturarabattkoder representeras av befintliga leverantörskort. Detta aktiverar dig att snabbt tilldela fakturarabattvillkor till leverantörer, genom att välja namnet på en andra leverantörer som ska ha dessa villkor.
 
     Så här definierar du fakturarabattvillkor för inköp:
-4. I fönstret **leverantörskort** väljer du åtgärden **Fakturarabatter**. Fönstret **Leverantörsfakturarabatter** öppnas.
+4. På sidan **Leverantörskort** väljer du åtgärden **Fakturarabatter**. Sidan **Leverantörsfakturarabatter** öppnas.
 5. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i SEK.
 6. Ange i fältet **Minimibelopp** det minsta belopp som en faktura måste vara på för att komma i fråga för rabatt.
 7. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
@@ -88,7 +88,7 @@ Om bestämda villkor för fakturarabatter gäller vid inköp från vissa leveran
 
  Innan du kan använda fakturarabatter vid inköp måste du ange vilka leverantörer som erbjuder rabatterna.  
 
- Du kan koppla rabattsatser till särskilda fakturabelopp i fönstren **Leverantörsfakturarabatter**. Varje leverantör kan ha ett eget fönster. Alternativt kan du koppla flera leverantörer till samma fönster.  
+ Du kan koppla rabattsatser till särskilda fakturabelopp på sidan **Leverantörsfakturarabatter**. Varje kund kan ha en separat sida. Alternativt kan du koppla flera leverantörer till samma sida.  
 
  Förutom en procentuell rabatt kan du koppla en faktureringsavgift till ett särskilt fakturabelopp.  
 
@@ -97,7 +97,7 @@ Om bestämda villkor för fakturarabatter gäller vid inköp från vissa leveran
  Du kan ange att fakturarabatterna för offerter, avropsorder, order, fakturor eller kreditnotor ska beräknas automatiskt med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
->  Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det lättare att se vilka leverantörer som kan kopplas till samma fakturarabattfönster. Ju färre fönster som behöver definieras, ju snabbare går det att ange basinformationen.
+>  Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det lättare att se vilka leverantörer som kan kopplas till samma fakturarabattsida. Ju färre sidor som behöver definieras, ju snabbare går det att ange basinformationen.
 
 ## <a name="best-price-calculation"></a>Bästa prisberäkning
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader.

@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
@@ -62,7 +62,7 @@ När du har bestämt vilka kunder som är aktuella för fakturarabatter, skriver
 
 Så här definierar du fakturarabattvillkor för försäljning:
 
-1. I fönstret **Kundkort** väljer du åtgärden **Fakturarabatter**. Fönstret **Kundfakturarabatter** öppnas.
+1. På sidan **Kundkort** väljer du åtgärden **Fakturarabatter**. Sidan **Kundfakturarabatter** öppnas.
 2. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i SEK.
 3. Ange i fältet **Minimibelopp** det minsta belopp som en faktura måste vara på för att komma i fråga för rabatt.
 4. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
@@ -73,23 +73,23 @@ Fakturarabatten ställs nu in i fältet och fördelas till kunden i fråga. När
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Att arbeta med försäljningsfakturarabatter och faktureringsavgifter
 När du använder fakturarabatter, avgör det fakturerade beloppets storlek hur stor rabatt som ges.  
 
-I fönstret **Kundfakturarabatter** kan du även lägga till en faktureringsavgift i fakturor som överstiger ett visst belopp.  
+På sidan **Kundfakturarabatter** kan du även lägga till en faktureringsavgift i fakturor som överstiger ett visst belopp.  
 
 Innan du kan använda fakturarabatter vid försäljning måste du ange en del information i programmet. Du måste bestämma:  
 
 - vilka kunder som ska erhålla den här typen av rabatt.  
 - vilka rabattsatser i procent som ska användas.  
 
-Om du fakturerar rabatter till att beräknas automatiskt kan du ange detta i fönstret **Försäljningsinställningar**.  
+Om du fakturerar rabatter till att beräknas automatiskt kan du ange detta på sidan **Försäljningsinställningar**.  
 
 För varje kund kan du ange om fakturarabatt ska ges i de fall villkoren uppfylls (d.v.s. om fakturabeloppet överstiger angivet belopp). Du kan definiera fakturarabattvillkoren i lokal valuta för inrikes kunder och i utländsk valuta för kunder i utlandet.  
 
-Du kan koppla rabattsatser till särskilda fakturabelopp i fönstret **Kundfakturarabatter**. Varje kund kan ha ett separat fönster. Alternativt kan du koppla flera kunder till samma fönster.  
+Du kan koppla rabattsatser till särskilda fakturabelopp på sidan **Kundfakturarabatter**. Varje kund kan ha en separat sida. Alternativt kan du koppla flera kunder till samma sida.  
 
 Förutom (eller i stället för) en procentuell rabatt kan du koppla en faktureringsavgift till ett särskilt fakturabelopp.  
 
 > [!TIP]  
->  Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det enklare att se vilka kunder som kan kopplas till samma fakturarabattfönster. Ju färre fönster som behöver definieras, ju snabbare går det att ange basinformationen.  
+>  Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det enklare att se vilka kunder som kan kopplas till samma fakturarabattsida. Ju färre sidor som behöver definieras, ju snabbare går det att ange basinformationen.  
 
 ## <a name="best-price-calculation"></a>Bästa prisberäkning
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader.
@@ -114,17 +114,17 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
 
 ## <a name="to-copy-sales-prices"></a>Så här kopierar du försäljningspriser  
-Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**.  batch-jobb. Du hittar batch-jobbet i fönstret **Försäljningsprisförslag**.    
+Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**.  batch-jobb. Du hittar batch-jobbet på sidan **Försäljningsprisförslag**.    
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningspris ändringsformulär** och välj sedan relaterad länk.  
 2.  Välj **Föreslå förs.pris i ändringsformulär** .  
 3.  På snabbfliken **Förs.priser** fyller du i fälten **Förs.typ** och **Förs.kod** för de försäljningspriser som du vill kopiera.  
-4.  I den övre delen av fönstret fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
+4.  I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
 5.  Om du vill skapa nya priser med batch-jobbet markerar du fältet **Skapa nya priser**.  
-6.  Klicka på **OK** för att fylla i raderna i fönstret **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda **försäljningstypen**.  
+6.  Klicka på **OK** för att fylla i raderna på sidan **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda **försäljningstypen**.  
 
 > [!NOTE]  
->  Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Förs.priser**, kan du använda batch-jobbet **Implementera prisändring** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** i fönstret **Försäljningspris ändringsformulär**.
+>  Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Förs.priser**, kan du använda batch-jobbet **Implementera prisändring** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** på sidan **Försäljningspris ändringsformulär**.
 
 ## <a name="see-also"></a>Se även
 [Konfigurera försäljning](sales-setup-sales.md)  

@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
 Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t.ex. kund, kontraktets startdatum samt fakturaperiod.  
   
-När du har skapat mallen kan du anpassa kontraktet om du vill spåra servicetid eller andra artiklar som kan variera mellan olika kunder. Du kan också skapa ett kontrakt manuellt utifrån en servicekontraktsoffert. Till sist kan du justera servicepriserna om du vill hålla ordning på rabatter som en viss kund är berättigad till, genom att ange rabattbeloppet i fönstret **Servicekontrakt**.  
+När du har skapat mallen kan du anpassa kontraktet om du vill spåra servicetid eller andra artiklar som kan variera mellan olika kunder. Du kan också skapa ett kontrakt manuellt utifrån en servicekontraktsoffert. Du kan slutligen justera servicepriserna om du vill hålla ordning på rabatter som en viss kund är berättigad till, genom att ange rabattbeloppet på sidan **Servicekontrakt**.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
   

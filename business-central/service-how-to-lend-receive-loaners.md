@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Låna ut och ta emot låneartiklar
@@ -30,7 +30,7 @@ Du kan låna ut kundlåneartiklar för att tillfälligt ersätta serviceartiklar
 5. Klicka på knappen **Ja** för att bekräfta lånet.  
 
 ## <a name="to-receive-a-loaner"></a>Så här tar du emot låneartiklar  
-När du får en låneartikel från en kund måste du registrera inleveransen. Det gör du i fönstren **Serviceorder**, **Bokförd serviceleverans** och **Låneartikelkort**. Nedan beskrivs proceduren för att ta emot låneartiklar i fönstret **Serviceoorder**.  
+När du får en låneartikel från en kund måste du registrera inleveransen. Det gör du på sidorna **Serviceorder**, **Bokförd serviceleverans** och **Låneartikelkort**. Nedan beskrivs proceduren för att ta emot låneartiklar på sidan **Serviceorder**.  
   
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
@@ -38,11 +38,11 @@ När du får en låneartikel från en kund måste du registrera inleveransen. De
 4. Välj **Åtgärder**, välj **Funktioner** och välj sedan **Inleverera låneartikel**.  
 
 ## <a name="to-register-loaner-comments"></a>Så här registrerar du lånekommentarer  
-Du kan använda fönstret **Servicekommentarsblad Allmänt** för att registrera kommentarer om låneartiklar.  
+Du kan använda sidan **Servicekommentarsblad Allmänt** för att registrera kommentarer om låneartiklar.  
   
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Låneartiklar** och välj sedan relaterad länk.  
 2. Öppna kortet för relevant låneartikel.  
-3. Välj åtgärden **Kommentarer**. Fönstret **Servicekommentarsblad Allmänt** öppnas.  
+3. Välj åtgärden **Kommentarer**. Sidan **Servicekommentarsblad Allmänt** öppnas.  
 4. Skriv datum i fältet **Datum**.  
 5. Ange en kommentar i fältet **Kommentar**. Du kan ange högst 80 tecken. Om du behöver fylla i fler tecken kan du göra det på nästa rad. Du kan fylla i så många rader som behövs.  
   

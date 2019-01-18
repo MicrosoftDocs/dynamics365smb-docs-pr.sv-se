@@ -12,17 +12,17 @@ ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
 
 > [!NOTE]  
->   Vi rekommenderar att du använder samma nummerserie som du ser i fönstret **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
+>   Vi rekommenderar att du använder samma nummerserie som du ser på sidan **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
 
 Du skapar ett numreringssystem genom att skapa en eller flera koder för varje typ av huvuddata eller dokument. Du kan till exempel skapa en kod för numrering av kunder, en annan för numrering av försäljningsfakturor och en annan för numrering av dokument i redovisningsjournaler. När du har skapat en kod måste du skapa minst en nummerserierad. Nummerserieraden innehåller information som första och sista nummer i serien och startdatum. Du kan registrera flera nummerserierader per nummerseriekod, med olika startdatum på varje rad. Nummerserierna används löpande, med början på respektive startdatum.
 
@@ -38,16 +38,16 @@ Fältet **nr.** kan fyllas i på tre sätt:
 1. Om endast en nummerserie finns för typen av dokument eller kort finns där kryssrutan **Förvalda nr.** är markerad och kryssrutan **Manuella nr.** inte är markerad, så fylls fältet automatiskt i med nästa nummer i serien, och fältet **Nr.** kommer inte att visas.
 
     > [!NOTE]  
-    > Om nummerserien inte fungerar, till exempel eftersom antalet nummer har tagit slut, kommer fältet **Nr.** att visas och du kan manuellt ange ett nummer eller lösa problemet i fönstret **Lista för nummerserie**.
+    > Om nummerserien inte fungerar, till exempel eftersom antalet nummer har tagit slut, kommer fältet **Nr.** att visas och du kan manuellt ange ett nummer eller lösa problemet på sidan **Lista för nummerserie**.
 
-2. Om mer än en nummerserie finns för typen av dokument eller kort, och kryssrutan **Förvalda nr.** inte har markerats för den nummerserie som för tillfället tilldelats, så kommer fältet **Nr.** att visas, och du kan öppna fönstret **Lista för nummerserie** och välja den nummerserie som du vill använda. Nästa nummer i serien förs då in i fältet **Nr.** .
+2. Om mer än en nummerserie finns för typen av dokument eller kort, och kryssrutan **Förvalda nr.** inte har markerats för den nummerserie som för tillfället tilldelats, så kommer fältet **Nr.** att visas, och du kan öppna sidan **Lista för nummerserie** och välja den nummerserie som du vill använda. Nästa nummer i serien förs då in i fältet **Nr.** .
 
 3. Om du inte har skapat en nummerserie för dokument- eller korttypen, eller om fältet **Manuella nr.** har valts för nummerserien, så kommer fältet **Nr.** att visas, och du måste ange en siffra manuellt. Du kan ange högst 20 tecken, både siffror och bokstäver.
 
-När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, öppnas tillhörande **Inställningar för nummerserie**-fönster så att du kan ställa in en nummerserie för den typen av dokument eller kort innan du fortsätter med övriga datainmatningar.
+När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, öppnas tillhörande **Inställningar för nummerserie**-sida så att du kan ställa in en nummerserie för den typen av dokument eller kort innan du fortsätter med övriga datainmatningar.
 
 > [!NOTE]  
-> Om du behöver aktivera manuell numrering för till exempel nya artikelkort som har skapats med en datamigreringsprocess som döljer fältet **Nr.** som standard, gå då till fönstret **Lagerinställningar** och välj sedan fältet **Artikelnr.** om du vill öppna och ange relaterade nummerserier som **Manuell numrering**.
+> Om du behöver aktivera manuell numrering för till exempel nya artikelkort som har skapats med en datamigreringsprocess som döljer fältet **Nr.** som standard, gå då till sidan **Lagerinställningar** och välj sedan fältet **Artikelnr.** om du vill öppna och ange relaterade nummerserier som **Manuell numrering**.
 
 ## <a name="to-create-a-new-number-series"></a>Så här skapar du nummerserier
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Nummerserier** och välj sedan relaterad länk.
@@ -57,7 +57,7 @@ När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Om du vill konfigurera var en nummerserie används
 I följande procedur beskrivs hur du ställer in nummerserier för området Försäljning. Stegen är liknande för andra områden.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljning & kundreskontra** och välj sedan relaterad länk.
-2. I fönstret **försäljning** klickar du på snabbfliken **nr-serier** och väljer önskade nummerserier för varje försäljningskort och dokument.
+2. På sidan **försäljning** klickar du på snabbfliken **nr-serier** och väljer önskade nummerserier för varje försäljningskort och dokument.
 
 Det markerade numret kommer nu att användas för att fylla i fältet **nr.** på kortet eller dokumentet i fråga enligt de inställningar du har gjort på nummerserieraden.
 
@@ -68,7 +68,7 @@ Om du har definierat mer än en nummerseriekod för samma typ av allmän informa
 2. Markera raden med de nummerserier som du vill skapa relationer för och välj sedan **Relationer**.
 3. I fältet **Seriekod** anger du koden för nummerserien som du vill koppla till serien du valde i steg 2.
 4. Lägg till en rad för varje kod som du vill koppla till den valda nummerserien.
-5. Stäng fönstret.
+5. Stäng sidan.
 
 När du hädanefter definierar något för vilket ett nummer krävs kan du använda sambanden som har skapats för att välja bland de kopplade nummerserierna.
 

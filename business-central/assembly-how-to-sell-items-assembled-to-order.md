@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7dbdc368350687c9ac8ab78d13312aa059f1c385
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
@@ -38,24 +38,24 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 5.  I fältet **Antal** anger du hur många enheter som ska säljas.  
 
     > [!NOTE]  
-    >  Om en eller flera komponenter av det begärda antalet av monteringsartiklar inte är tillgängliga öppnas ett fönster med en detaljerad tillgänglighetsvarning. För mer information, se Monteringsdisposition.  
+    >  Om en eller flera komponenter av det begärda antalet av monteringsartiklar inte är tillgängliga öppnas en sida med en detaljerad tillgänglighetsvarning. För mer information, se Monteringsdisposition.  
 
     En monteringsorder skapas nu automatiskt och länkas till försäljningsorderraden. Förfallodatumet för monteringsordern synkroniseras med utleveransdatumet på försäljningsorderraden.  
 
     Antalet som ska säljas kopieras till fältet **Antal att montera mot kundorder**. Med denna artikelinställning förväntas hela antalet på försäljningsraden monteras mot kundorder. Du kan minska antalet för montering mot kundorder, t.ex. om du vet att vissa artiklar redan är tillgängliga. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Om du vill återspegla att kunden vill ha ytterligare en artikel i en monterad artikel, väljer du på snabbfliken **Rader**, sedan åtgärden **Rad**, åtgärden **Montering mot kundorder** och väljer sdan åtgärden **Montering mot kundorderrader** om du vill visa och ändra standardkomponenterna för montering. Alternativt kan du välja fältet **Antal att montera mot kundorder**.  
-7.  Skapa en ny rad av typen **Artikel** för det begärda ytterligare innehållet för den monterade artikeln i fönstret **Montering mot kundorderrader**. Raden representerar en extra komponent för montering.  
+7.  Skapa en ny rad av typen **Artikel** för det begärda ytterligare innehållet för den monterade artikeln på sidan **Montering mot kundorderrader**. Raden representerar en extra komponent för montering.  
 
     Du kan också anpassa ordern genom att öka antalet av en standardartikel i den monterade artikeln. Du kan göra det om du ökar värdet i fältet **Antal per** på den specifika monteringsorderraden.  
 
     > [!NOTE]  
-    >  Fönstret **Montering mot kundorderrader** innehåller bara de grundläggande fält som en säljare förväntas använda för att anpassa komponentlistan, lägga till artikelspårningsnummer eller lösa problem med komponenttillgänglighet. Om du vill se mer information om monteringsorder, t.ex. startdatum, ska du välja åtgärden **Visa dokument**. Då öppnas en fullständig vy av monteringsordern som är kopplad till försäljningsorderraden. Du kan inte ändra innehållet av de flesta fält på monteringsorderhuvudet, och du kan inte bokföra monteringsutflöde därifrån, eftersom du måste använda leveransbokföring av försäljningsorderraden.  
+    >  Sidan **Montering mot kundorderrader** innehåller bara de grundläggande fält som en säljare förväntas använda för att anpassa komponentlistan, lägga till artikelspårningsnummer eller lösa problem med komponenttillgänglighet. Om du vill se mer information om monteringsorder, t.ex. startdatum, ska du välja åtgärden **Visa dokument**. Då öppnas en fullständig vy av monteringsordern som är kopplad till försäljningsorderraden. Du kan inte ändra innehållet av de flesta fält på monteringsorderhuvudet, och du kan inte bokföra monteringsutflöde därifrån, eftersom du måste använda leveransbokföring av försäljningsorderraden.  
     >   
     >  På huvudet av de kopplade monteringsorderna kan bara fältet **Startdatum** ändras så att det snabbt gör det möjligt för monteringsarbetare att ange ett datum som är tidigare än förfallodatumet, när de ska påbörja processen. Alla fält på raderna i den kopplade monteringsordern kan ändras så att lagerarbetare kan ange förbrukningssiffror under processen.  
 
 8.  Granska och svara på problem med komponenttillgänglighet. Du kan t.ex. välja en tillgänglig ersättningsartikel eller upprätta ett senare förfallodatum.  
-9. Stäng fönstret **Montering mot kundorderrader**. Den kopplade monteringsordern är nu redo att börja montera de anpassade artiklarna efter förfallodatum.  
+9. Stäng sidan **Montering mot kundorderrader**. Den kopplade monteringsordern är nu redo att börja montera de anpassade artiklarna efter förfallodatum.  
 10. I försäljningsordern väljer du åtgärden **Släpp** om du vill meddela monteringsavdelningen att monteringsprocessen kan börja.  
 11. I monteringsavdelningen ska du utföra de steg av montering av de artiklar som säljs i den här proceduren. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
 

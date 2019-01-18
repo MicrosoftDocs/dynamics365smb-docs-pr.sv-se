@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Skapa analysrapporter
@@ -41,9 +41,9 @@ Sedan kan du lägga upp kolumner så här:
 - Försäljning i procent av förra månaden  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Lägga upp rad- och kolumnlayout  
- I fönstret **Analysrapport** kan du visa olika rad- och kolumnlayouter efter vad du har lagt upp. Du lägger upp rader eller radmallar i fönstret **Analysradmallar**. I det här fönstret kan du definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner i fönstret **Analyskolumnmallar**. I det här fönstret kan du definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. I fönstret **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  
+ På sidan **Analysrapport** kan du visa olika rad- och kolumnlayouter efter vad du har lagt upp. Du lägger upp rader eller radmallar på sidan **Analysradmallar**. På denna sida kan du definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner på sidan **Analyskolumnmallar**. På den här sidan kan du definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. På sidan **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  
 
-Baserat på de rader och kolumner du har lagt upp sammanställs resultatet i rapporten i fönstret **Analysrapport** med hjälp av en matris som kan se ut så här:  
+Baserat på de rader och kolumner du har lagt upp sammanställs resultatet i rapporten i fönstret **Analysrapport** med hjälp av en matrissida som kan se ut så här:  
 
 | |Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ En mall innehåller en uppsättning rader där var och en representerar de analy
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kolumnmallar för försäljning** och välj sedan relaterad länk.  
 2. Välj den första tomma raden och fyll sedan i fälten efter behov.
 3. Välj åtgärden **Kolumner**.  
-4. I fönstret **Analyskolumner** fyller du sedan i fälten för att ange vilka kolumner som ska ingå i analysrapporten.  
+4. På sidan **Analyskolumner** fyller du sedan i fälten för att ange vilka kolumner som ska ingå i analysrapporten.  
 
     > [!NOTE]  
-    >   När du definierar en kolumn måste du fylla i fältet **Analystypkoder** för alla kolumntyper utom **Formel**. Du anger analystypkoder i fönstret **Analystyper**.  
+    >   När du definierar en kolumn måste du fylla i fältet **Analystypkoder** för alla kolumntyper utom **Formel**. Du anger analystypkoder på sidan **Analystyper**.  
     Om du i fältet **Transaktionstyp** väljer **Artikeltransaktion** kopieras de faktiska värdena från artikeltransaktionen. Om du väljer **Artikelbudgettransaktioner** kopieras de budgeterade siffrorna från budgeten.  
 5.  Välj **OK** för att spara ändringar.  
 
@@ -81,7 +81,7 @@ En mall innehåller en uppsättning rader som representerar de analysrader som f
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Radmallar för försäljning** och välj sedan relaterad länk.  
 2. Välj den första tomma raden och fyll sedan i fälten efter behov.
 3. Välj åtgärden **Rader**.  
-4. I fönstret **Analysrader** skapar du rader för artiklar, kunder, leverantörer eller säljare som du vill visa siffror för i analysrapporten. Du måste fylla i fälten **Typ**, **Intervall** och **Beskrivning**.  
+4. På sidan **Analysrader** skapar du rader för artiklar, kunder, leverantörer eller säljare som du vill visa siffror för i analysrapporten. Du måste fylla i fälten **Typ**, **Intervall** och **Beskrivning**.  
 
 > [!NOTE]  
 >   När du vill skapa många enskilda rader för varje artikel, kund och så vidare, kan du i stället välja lämpligt infogningsalternativ för att fylla i alla relevanta fält på raden. Om du vill kan du senare redigera raderna manuellt. Om du vill infoga rader välj åtgärden **Infoga artiklar** eller **Infoga artikelgrupper**.  
@@ -92,13 +92,13 @@ Följande procedur är baserad på en analysrapport för försäljning. Momentet
 Du använder analysrapporter för att analysera försäljningsdynamiken efter nyckeltal för försäljning som du själv väljer, till exempel omsättning i både belopp och kvantitet, vinstmarginal eller utfall jämfört med budget. Du kan också använda rapporten för att analysera genomsnittliga försäljningspriser och utvärdera säljarnas resultat.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsanalysrapporter** och välj sedan relaterad länk.  
-2. I fönstret **Analysrapportförsäljning** väljer du åtgärden **Ny**.
+2. På sidan **Analysrapportförsäljning** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Redigera analysrapport**.
-5. I fönstret **Försäljningsanalysrapport** väljer du åtgärden **Visa matris**.  
+5. På sidan **Försäljningsanalysrapport** väljer du åtgärden **Visa matris**.  
 
 > [!NOTE]  
->   Du kan välja kombinationer av rader och kolumnmallar för att skapa rapporter och tilldela dem unika namn. När du sedan väljer ett rapportnamn slipper du välja rad- eller kolumnmallar i fönstret **Försäljningsanalysrapport**. Du kan efter behov ändra rad- och kolumnmallarna i rapport och sedan återställa den ursprungliga kombinationen igen genom att välja rapporten på nytt.
+>   Du kan välja kombinationer av rader och kolumnmallar för att skapa rapporter och tilldela dem unika namn. Om du gör det behöver du inte välja rad- och kolumnmallar på sidan **Försäljningsanalysrapport** när du väljer ett rapportnamn. Du kan efter behov ändra rad- och kolumnmallarna i rapport och sedan återställa den ursprungliga kombinationen igen genom att välja rapporten på nytt.
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

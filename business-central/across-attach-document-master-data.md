@@ -1,6 +1,6 @@
 ---
-title: Bifoga filer till huvuddata | Microsoft Docs
-description: "Lägg till bilder, dokument eller bilder till kunder, leverantörer och andra huvudposter och koppla dem även till fakturor."
+title: Bifoga filer till kort och dokument | Microsoft Docs
+description: "Du kan bifoga bilder, dokument och andra typer av filer till alla kort, till exempel artikelkort och projektkort och du kan bifoga filer till alla typer av försäljnings- och inköpsdokument."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12955b6c85544147dd003241e658b9ef08a4b8b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="attaching-documents-to-master-data"></a>Bifoga dokument till huvuddata
-Du kan koppla bilder, dokument och bilder till artiklar, kunder, leverantörer, projekt och resurser. Du kan även välja att koppla bilagorna till försäljning och inköpsdokument för den huvudposten.  
+# <a name="attaching-files-to-cards-and-documents"></a>Bifoga filer till kort och dokument
+Du kan bifoga bilder, dokument och andra typer av filer till alla kort, till exempel artikelkort och projektkort och du kan bifoga filer till alla typer av försäljnings- och inköpsdokument.
 
-## <a name="adding-attachments"></a>Lägga till bilagor
+## <a name="to-attach-a-file-to-a-sales-order"></a>Så här bifogar du en fil till en försäljningsorder.
+Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla försäljnings- och inköpsdokument och för alla kort.
 
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
+2. Öppna försäljningen som du vill bifoga en fil till.
+3. Välj åtgärden **Bilagor**.
+4. På sidan **Bifogade dokument** i fältet **bilaga**, välj knappen **Välj en fil**.
+5. Markera en fil varifrån som helst och välj sedan knappen **öppna**.
 
 ## <a name="see-also"></a>Se även
-[Registrera nya kunder](sales-how-register-new-customers.md)  
-[Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
+[Sälja produkter](sales-how-sell-products.md)
 

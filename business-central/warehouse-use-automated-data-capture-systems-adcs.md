@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivera automatiska datainsamlingssystem (ADCS)
+# <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automated Data Capture Systems)
+
+> [!NOTE]
+> I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerar ADCS endast i installationer på plats. En Microsoft-partner kan dock få det att fungera i online-distribution med hjälp av PowerApps eller liknande.
+
 Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automated Data Capture System) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering.  
 
 Om du ska använda ADCS måste du ge varje artikel i distributionslagret en artikelidentifierare. Du måste även lägga upp miniformulär, handdatorfunktioner, datautbyten och specificeras inställningar för fältet som kontrollerar ADCS. Du anger om du ska använda ADCS på lagerställekortet för ett lager.
@@ -38,22 +42,22 @@ Om du ska använda ADCS måste du ange vilka distributionslagerplatser som anvä
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.
 2.  Välj ett lager i listan som du vill aktivera för ADCS och välj **redigera**.
-3. I fönstret **lagerställekort** markerar du kryssrutan **använda ADCS**.  
+3. På sidan **lagerställekort** markerar du kryssrutan **använda ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Ange ett objekt för att använda ADCS  
 Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en identitetskod för att koppla den till dess artikelnummer. Du kan t.ex använda artikelns Streckkod som identitetskoden. En artikel kan också använda flera identitetskoder. Det kan vara praktisk i de fall där en artikel är disponibel i olika måttenheter, t.ex stycken och pallar. Tilldela varje en identitetskod, i det här fallet.    
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
 2.  Markera ett objekt i listan som ingår i ADCS-lösningen och välj åtgärden **redigera**.
-3. I fönstret **Artikelkort** väljer du åtgärden **Identifierare**.
-4. I fönstret **ArtikelIdentifierare** väljer du åtgärden **Ny**.
+3. På sidan **Artikelkort** väljer du åtgärden **Identifierare**.
+4. PÅ sidan **Artikelidentifierare** väljer du åtgärden **Ny**.
 5. I fältet **Kod** ange identifierare för artikeln. Du kan t.ex använda artikelns Streckkod som identitetskoden.  
 
     Du kan även definiera ett **Variantkod** och en **Enhet** kod.  
 
 6. Ange flera koder för varje artikel, om det behövs.
 7. Välj knappen **OK**.  
-8.  För att granska informationen väljer du fältet **identitetskod** för att öppna fönstret **Artikelidentifierare**.
+8.  För att granska informationen väljer du fältet **identitetskod** för att öppna sidan **Artikelidentifierare**.
 
 ## <a name="to-add-an-adcs-user"></a>Om du vill lägga till en ADCS-användare  
 Du kan lägga till användare som en användare av ett ADCS (Automated Data Capture System). När du gör det, måste du även ange ett lösenord. Om du vill kan du även ange en koppling som identifierar ADCS-användaren som distributionslageranvändare. ADCS-användarlösenord kan vara olika från Windows-inloggningslösenord för användaren. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).

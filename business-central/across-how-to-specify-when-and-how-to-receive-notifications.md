@@ -1,6 +1,6 @@
 ---
 title: "Så här anger du när och hur användare ska meddelas | Microsoft Docs"
-description: "När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg i fönstret Konfigurera meddelanden och Meddelandeschema. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen Ändra meddelandeinställningar i något meddelande."
+description: "När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan Konfigurera meddelanden och Meddelandeschema. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen Ändra meddelandeinställningar i något meddelande."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 714ebd289407293f2a9fb8f05cad68330c79ad9a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Ange när och hur meddelanden ska tas emot
-När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg i fönstret **Konfigurera meddelanden** och **Meddelandeschema**. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
+När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan **Konfigurera meddelanden** och **Meddelandeschema**. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
 
  Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
 
- Du kan definiera layout och innehåll i meddelanden genom att konfiguera meddelandemallar. Mer information finns i [Hantera meddelandemallar](across-how-to-manage-notification-templates.md).  
+ Du kan definiera layouten för e-postmeddelanden genom att anpassa rapporten 1320, e-postmeddelanden. Mer information finns i [så här skapar du och ändrar en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).  
 
  Många arbetsflödessvar för godkännande handlar om att meddela användare om att en händelse har skett som de måste agera på. Till exempel ett arbetsflödessteg kan vara att en händelse där användare 1 begär godkännande av en ny post. Det relaterade svaret är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten. Det relaterade svaret är att ett meddelande skickas till användare 3 om att starta en process med den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Mer information finns i [Arbetsflöden](across-workflow.md).  
 
@@ -32,18 +32,19 @@ När du konfigurerar användare i godkännandearbetsflöden måste du ange hur o
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
 2.  Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
-3.  I fönstret **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
+3.  På sidan **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
     |**Meddelandetyp**|Ange vilken typ av händelse meddelandet handlar om.<br /><br /> Välj något av följande alternativ:<br /><br /> -   **Ny post** anger att meddelandet är en ny post, till exempel ett dokument, som användaren måste agera på.<br />-   **Godkännande** anger att meddelandet handlar om en eller flera godkännandebegäranden.<br />-   **Förfallna** anger att meddelandet är en påminnelse till användare om att de är sena i att agera på en händelse.|  
-    |**Kod för meddelandemall**|Ange koden för meddelandemallen som används för att skapa meddelanden för användaren.|  
-    |**Ej sammanfattade meddelanden**|Ange om användaren får ett meddelande för varje händelse eller samlade meddelanden.<br /><br /> Om kryssrutan **Ej sammanfattade meddelanden** inte har markerats får användaren meddelanden som samlad information om händelser som uppstår med samma upprepningsmönster i meddelandeschemat.|  
+    |**Meddelandemetod**|Ange om meddelandet ska skickas som ett e-postmeddelande eller som en intern kommentar.|
 
-     Du har nu registrerat hur användaren ska meddelas. Fortsätt med att ange när användaren ska meddelas.  
+    Du kan definiera layouten för e-postmeddelanden genom att anpassa rapporten 1320, e-postmeddelanden. Mer information finns i [så här skapar du och ändrar en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).
+
+    Du har nu registrerat hur användaren ska meddelas. Fortsätt med att ange när användaren ska meddelas.  
 
 4.  Välj åtgärden **Meddelandeschema**.  
-5.  I fönstret **Meddelandeschema** kan du fylla i fälten enligt beskrivningen i följande tabell.  
+5.  På sidan **Meddelandeschema** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
@@ -56,11 +57,11 @@ När du konfigurerar användare i godkännandearbetsflöden måste du ange hur o
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Ändra när och hur du ska meddelas  
 1.  Välj knappen **Ändra meddelandeinställningar** i ett av meddelandena som du har tagit emot, antingen eller som e-post eller notering.  
-2.  Ändra dina meddelandeinställningar så som beskrivs i föregående steg i fönstret **Konfigurera meddelanden**.  
+2.  Ändra dina meddelandeinställningar så som beskrivs i föregående steg på sidan **Konfigurera meddelanden**.  
 
 ## <a name="see-also"></a>Se även  
  [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)   
- [Hantera meddelandemallar](across-how-to-manage-notification-templates.md)   
+ [Så här skapar och ändrar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)   
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)

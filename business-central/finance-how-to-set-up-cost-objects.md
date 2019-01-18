@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Skapa kostnadsobjekt
@@ -27,7 +27,7 @@ Kostnadsbärare är projekt, produkter eller tjänster i ett företag. Planen f�
 * Skapa en ny plan för kostnadsbäraren som är oberoende av redovisningen, eller lägg till en ny kostnadsbäraren i en befintlig plan för kostnadsbärare. Du måste skapa varje kostnadsbärare var för sig.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Så här överför du dimensionsvärden från redovisningen till kontoplanen för kostnadsbärare  
-1.  Skapa en dimension som ska vara kostnadsbärardimensionen i fönstret **Uppdatera CA-dimensioner**. Endast värdena från dimensionen överförs.  
+1.  Skapa en dimension som ska vara kostnadsbärardimensionen på sidan **Uppdatera CA-dimensioner**. Endast värdena från dimensionen överförs.  
 2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lista över kostnadsbärare** och välj sedan relaterad länk.  
 3.  Välj åtgärden **Hämta kostnadsbärare från dimension** för att överföra dimensionsvärden till planen för kostnadsbärare. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
@@ -36,10 +36,10 @@ Kostnadsbärare är projekt, produkter eller tjänster i ett företag. Planen f�
 
 Diagrammet över kostnadsbärare innehåller nu alla angivna dimensionsvärden från redovisningen inklusive rubriker och delsummor.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Så här skapar du nya kostnadsbärare i fönstret Lista över kostnadsbärare.  
-Du kan lägga upp och underhålla kostnadsbärare antingen i kortet **Kort för kostnadsbärare** eller i fönstret **Lista över kostnadsbärare**. I den här proceduren skapar du kostnadsbärare i fönstret **Lista över kostnadsbärare**.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Så här skapar du nya kostnadsbärare på sidan Lista över kostnadsbärare.  
+Du kan lägga upp och underhålla kostnadsbärare antingen i kortet **Kort för kostnadsbärare** eller på sidan **Lista över kostnadsbärare**. I den här proceduren skapar du kostnadsbärare på sidan **Lista över kostnadsbärare**.  
 
-1.  Öppna fönstret **Lista över kostnadsbärare** i redigeringsläge.  
+1.  Öppna sidan **Lista över kostnadsbärare** i redigeringsläge.  
 2.  Ange kostnadsbäraren kod i fältet **Kod**. Alla kostnadsbärare måste ha en kod.  
 3.  Ange kostnadsbärarens namn i fältet **Namn**.  
 4.  Välj listpilen i fältet **Radtyp** för att ange syftet med kostnadsbäraren.  

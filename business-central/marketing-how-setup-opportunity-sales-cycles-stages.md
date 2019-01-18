@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Skapa cykler för affärsmöjligheter och cykeletapper
@@ -25,13 +25,13 @@ Att använda affärsmöjlighetscykeler omfattar att skapa försäljningscykel oc
 Det här avsnittet beskriver även hur du ställer in uppgifter och aktiviteter och tilldela uppgifter till aktiviteter. Mer information finns i avsnittet ”Skapa aktiviteter med uppgifter”.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Så här skapar du cykelkoder för affärsmöjligheter:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningscykler** och välj sedan relaterad länk. Fönstret **Försäljningscykler** öppnas och visar alla befintliga försäljningscyklar.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningscykler** och välj sedan relaterad länk. Sidan **Försäljningscykler** öppnas och visar alla befintliga försäljningscyklar.
 2. Välj åtgärden **Ny** och fyll i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Upprepa stegen för varje säljcykel du vill skapa. När du har skapat cykler för affärsmöjligheter vill du kanske skapa de olika etapperna i varje cykel.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Om du vill definiera etapper för försäljningscykel för affärsmöjligheter
-1. I fönstret **Försäljningscykler** markerar du den försäljningscykel för affärsmöjligheter som du vill ställa in etapper för och väljer sedan åtgärden **Etapper**. Fönstret **Försäljningscykeletapper** öppnas.
+1. På sidan **Försäljningscykler** markerar du den försäljningscykel för affärsmöjligheter som du vill ställa in etapper för och väljer sedan åtgärden **Etapper**. Sidan **Försäljningscykeletapper** öppnas.
 2. Välj åtgärden **Ny** för att skapa en ny etapp i försäljningscykeln.
 
 Upprepa stegen för varje etapp du vill skapa i försäljningscykeln.
@@ -54,13 +54,13 @@ När du har lagt upp en aktivitet kan du tilldela aktiviteten som uppgiften till
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Affärsmöjligheter** och välj sedan relaterad länk.
 2. Välj en affärsmöjlighet och välj sedan åtgärden **Uppgifter**.
-3. I fönstret **Uppgiftslista**, välj åtgärden **Skapa uppgift**.
-4.  I fönstret **Skapa uppgift** fyller du i fälten efter behov.
+3. På sidan **Uppgiftslista**, välj åtgärden **Skapa uppgift**.
+4.  På sidan **Skapa uppgift** fyller du i fälten efter behov.
 
     Du ser i fältet **affärsmöjlighet** att det tilldelas automatiskt till den aktuella affärsmöjligheten.
-5. Välj **OK**.
-6. I fönstret **Uppgiftslista** väljer du en ny uppgift och väljer sedan åtgärden **Tilldela aktiviteter**.
-7. I fönstret **Tilldela aktiviteter** fyller du i fälten efter behov och väljer sedan knappen **OK**.
+5. Välj knappen **OK**.
+6. På sidan **Uppgiftslista** väljer du en ny uppgift och väljer sedan åtgärden **Tilldela aktiviteter**.
+7. På sidan **Tilldela aktiviteter** fyller du i fälten efter behov och väljer sedan knappen **OK**.
 
 ## <a name="see-also"></a>Se även
 [Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md)  

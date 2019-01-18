@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
@@ -24,16 +24,16 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 
  Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen i följande fall: när användaren vill få information om vilka kunder som tog emot produkter med ett visst partinummer eller när användaren vill få information om vilket parti en defekt komponent har sitt ursprung i.  
 
- I fönstret **Artikelspårning** kan du spåra framåt och bakåt i en serie bokförda lagertransaktioner efter serie- eller partinummer.  
+ På sidan **Artikelspårning** kan du spåra framåt och bakåt i en serie bokförda lagertransaktioner efter serie- eller partinummer.  
 
- I fönstret **Navigera** kan du inte se sekvensen av transaktioner, men du kan se alla transaktioner av serie- eller partinummer, både bokförda transaktioner och öppna transaktioner.  
+ På sidan **Navigera** kan du inte se sekvensen av transaktioner, men du kan se alla transaktioner av serie- eller partinummer, både bokförda transaktioner och öppna transaktioner.  
 
- De två funktionerna kan användas tillsammans genom att överföra ett spårat serie- eller partinummer till fönstret **Navigera** för att slutföra ett spårningsscenario. Mer information finns i [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md).  
+ De två funktionerna kan användas tillsammans genom att överföra ett spårat serie- eller partinummer till sidan **Navigera** för att slutföra ett spårningsscenario. Mer information finns i [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Se spårade artiklar  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelspårning** och välj sedan relaterad länk.  
-2.  I filterfälten längst upp i fönstret ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
+2.  I filterfälten längst upp på sidan ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
 3.  I fältet **Visa komponenter** väljer om ursprunget för artiklarnas komponenter dessutom ska visas. Dina alternativ i det här fältet är följande.  
 
     |Fält|Description|  
@@ -46,13 +46,13 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 
     |Fält|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Förbrukning-> Ursprung**|Med den här metoden börjar artikelspårningen från platsen där artikeln användes till platsen som den kom ifrån. Till exempel om en tillverkad artikel har sålts till en kund, visar fönstret **Artikelspårning** detta med utleveransraden först, som du kan därefter kan expandera för att visa från vilken produktionsorder artikeln har sitt ursprung.|  
-    |**Förbrukning-> Ursprung**|Med den här metoden börjar artikelspårningen från platsen där artikeln lagerfördes till platsen där den användes. Till exempel om en tillverkad artikel har sålts till en kund, visar fönstret **Artikelspårning** detta med den färdiga produktionsordern först, som du kan därefter kan expandera för att visa på vilken utleveransrad artikeln användes.|  
+    |**Förbrukning-> Ursprung**|Med den här metoden börjar artikelspårningen från platsen där artikeln användes till platsen som den kom ifrån. Till exempel om en tillverkad artikel har sålts till en kund, visar sidan **Artikelspårning** detta med utleveransraden först, som du kan därefter kan expandera för att visa från vilken produktionsorder artikeln har sitt ursprung.|  
+    |**Förbrukning-> Ursprung**|Med den här metoden börjar artikelspårningen från platsen där artikeln lagerfördes till platsen där den användes. Till exempel om en tillverkad artikel har sålts till en kund, visar sidan **Artikelspårning** detta med den färdiga produktionsordern först, som du kan därefter kan expandera för att visa på vilken utleveransrad artikeln användes.|  
 
 5.  Välj åtgärden **Spåra** för att utföra spårningen.  
 
 > [!NOTE]  
->  Om du har tagit emot samma parti i flera transaktioner, kanske fönstret **Artikelspårning** inte visar alla transaktioner. Endast kopplade transaktioner visas.  
+>  Om du har tagit emot samma parti i flera transaktioner, kanske sidan **Artikelspårning** inte visar alla transaktioner. Endast kopplade transaktioner visas.  
 
 > [!NOTE]  
 >  Om ytterligare transaktionshistorik under en artikelspåringsrad redan har spårats av en annan rad ovanför denna, är kryssrutan **Redan spårad** markerad. För att förenkla vyn och göra den tydligare visas inte sådana underliggande rader.  

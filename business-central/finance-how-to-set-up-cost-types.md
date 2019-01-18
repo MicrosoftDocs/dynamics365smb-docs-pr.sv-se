@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Skapa kostnadstyper
@@ -34,12 +35,12 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
     > [!IMPORTANT]  
     >  Funktionen **Registrera kostnadstyper i kontoplan** uppdaterar relationen mellan kontoplanen och planen över kostnadstyper. Fältet **nr.** -fältet fylls och verifieras för att se till att varje redovisningskonto är kopplade till endast ett kostnadstyp. Kör funktionen automatiskt, före överföring av redovisningstransaktioner mot kostnadsredovisning.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Så här skapar du nya kostnadstyper i fönstret Lista över kostnadsbärare.  
-1.  Öppna fönstret **Lista över kostnadstyper** i redigeringsläge.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Så här skapar du nya kostnadstyper på sidan Lista över kostnadsbärare.  
+1.  Öppna sidan **Lista över kostnadstyper** i redigeringsläge.  
 2.  Fyll i fälten som beskrivs efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  eDu kan lägga upp och underhålla kostnadstupen antingen i kortet **Kort för Kostnadstyper** eller i fönstret **Lista över Kostnadstyper**. I den här proceduren skapar du Kostnadstyper i fönstret **Lista över kostnadstyper**.
+    >  Du kan lägga upp och underhålla kostnadstupen antingen i kortet **Kort för Kostnadstyper** eller på sidan **Lista över Kostnadstyper**. I den här proceduren skapar du Kostnadstyper på sidan **Lista över kostnadstyper**.
 
 3.  När du har skapat alla kostnadstyper väljer du åtgärden **Indrag för kostnadstyper**. Välj **ja** i dialogrutan.  
 4.  Koppla den nya kostnadstypen till motsvarande redovisningskonto.  
@@ -48,7 +49,7 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
     >  Om du har angett definitioner i fältet **Summering** för rader av typen **Till-summa** innan du kör funktionen **Indrag för kostnadstyper** måste du ange definitionerna igen eftersom funktionen ersätter alla värden i alla **Till-summa**-fält.  
 
 ## <a name="to-update-cost-types"></a>Uppdatera kostnadstyper  
-1.  Markera om du vill att planen över kostnadstyper automatiskt ska uppdateras när kontoplanen ändras i fönstret **Inställningar för kostnadsredovisning**.  
+1.  Markera om du vill att planen över kostnadstyper automatiskt ska uppdateras när kontoplanen ändras på sidan **Inställningar för kostnadsredovisning**.  
 2.  I fältet **Justera redovisningskonto** kan du välja något av följande alternativ.  
 
 - **Ingen justering** - Ingen motsvarande ändring görs i planen över kostnadstyper när du ändrar kontoplanen.  
@@ -57,7 +58,6 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
 
 ## <a name="see-also"></a>Se även  
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
-[Definiera relationen mellan kostnadstyper och redovisningskonton](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definiera kostnadsställen och kostnadsbärare för kontoplanen](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldon mellan kostnadstyp, kostnadsställe och kostnadsbärare](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)   

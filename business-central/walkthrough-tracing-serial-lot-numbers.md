@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 När produktfel inträffar måste felen identifieras och de artiklar som påverkas måste hindras från att lämna företaget. Ifall defekta produkter redan har skickats måste du spåra vem som tagit emot dem och, vid behov, att återkalla dessa artiklar.  
 
-Den första uppgiften vid felhantering är att ta reda på var de defekta artiklarna kommer ifrån och var de har använts. Den här undersökningen baseras på historiska data och underlättas av en sökning bland artikelspårningsposterna i fönstret **Artikelspårning**.  
+Den första uppgiften vid felhantering är att ta reda på var de defekta artiklarna kommer ifrån och var de har använts. Den här undersökningen baseras på historiska data och underlättas av en sökning bland artikelspårningsposterna på sidan **Artikelspårning**.  
 
-Nästa uppgift vid felhantering är att fastställa om de spårade artiklarna har planerats i öppna dokument, t.ex. icke-bokförda försäljningsorder eller förbrukningsjournaler. Detta arbete utförs i fönstret **Navigera**. Du kan använda funktionen Analysera för att söka igenom alla typer av databasposter.  
+Nästa uppgift vid felhantering är att fastställa om de spårade artiklarna har planerats i öppna dokument, t.ex. icke-bokförda försäljningsorder eller förbrukningsjournaler. Detta arbete utförs på sidan **Navigera**. Du kan använda funktionen Analysera för att söka igenom alla typer av databasposter.  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången  
 Den här genomgången visar hur du identifierar de artiklar som är defekta, vilken leverantör som levererat dem samt var de har använts, så att de order som berörs kan stoppas eller återkallas.  
@@ -59,7 +59,7 @@ Från försäljningsavdelningen får kvalitetskontrollanten veta att den returne
 
 Resultatet av den här första artikelspårningsuppgiften identifierar vilka racerramar som var defekta och vilken leverantör som levererat dessa. Sedan, men genom samma övergripande spårningsprocess, måste kvalitetskontrollanten leta upp alla de racercyklar med racerramar från det defekta partiet som sålts, så att dessa order kan stoppas eller återkallas. Slutligen måste kvalitetskontrollanten hitta eventuella öppna dokument där det defekta partiet används så att inga ytterligare transaktioner skapas med det.  
 
-De första två defekthanteringsuppgifterna utförs i fönstret **Artikelspårning**. Den sista uppgiften utförs i fönstret **Navigera** tillsammans med fönstret **Artikelspårning**.  
+De första två defekthanteringsuppgifterna utförs på sidan **Artikelspårning**. Den sista uppgiften utförs på sidan **Analysera** tillsammans med sidan **Artikelspårning**.  
 
 ## <a name="prepare-sample-data"></a>Förbereda exempeldata  
 Du måste skapa följande nya artiklar:  
@@ -80,7 +80,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |Racercykelram|STYCK|RÅMAT|MOMS25|RÅMAT|PARTIALLA|  
 
     > [!NOTE]  
-    >  Välj knappen **Ny** och välj sedan **PSC** i fönstret **Artikelenheter** om du vill ange basenheten.  
+    >  Välj knappen **Ny** och välj sedan **PSC** på sidan **Artikelenheter** om du vill ange basenheten.  
 
 4.  Alla övriga fält innehåller acceptabla standarddata eller behöver inte fyllas i.  
 5.  Klicka på **OK** för att skapa det första nya artikelkortet, 2000.  
@@ -92,17 +92,17 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |Racercykel|STYCK|DETALJ|MOMS25|FÄRDIG|Prod.order|SNALLA|  
 
     > [!NOTE]  
-    >  Välj knappen **Ny** och välj sedan **PSC** i fönstret **Artikelenheter** om du vill ange basenheten.  
+    >  Välj knappen **Ny** och välj sedan **PSC** på sidan **Artikelenheter** om du vill ange basenheten.  
 
     Fortsätt genom att definiera artikelns produktionsinställningar.
 
 9. På snabbfliken **Återanskaffning** i fältet **Operationsföljdsnr.** anger du **1000**.  
 10. Välj fältet **Prod.strukturnr** och välj sedan **Avancerat**.  
-11. I fönstret **Prod. strukturlista** väljer du första raden **1000**, och sedan **Redigera**.  
-12. I fönstret **Prod.struktur** ändrar du värdet i fältet **Status** till **Under utveckling**.  
+11. På sidan **Prod. strukturlista** väljer du första raden **1000**, och sedan **Redigera**.  
+12. På sidan **Prod.struktur** ändrar du värdet i fältet **Status** till **Under utveckling**.  
 13. Gå till en tom rad, ange **2000** i fältet **nr.** och skriv sedan **1** i den **antal Per** fält.  
 14. Ändra tillbaka värdet i fältet **Status** till **Certifierat**.  
-15. Välj knappen **OK** om du vill infoga produktionsstrukturen på artikelkortet och stänga fönstret **Prod.struktur**.  
+15. Välj knappen **OK** om du vill infoga produktionsstrukturen på artikelkortet och stänga sidan **Prod.struktur**.  
 
     Nu köper du racercykelramar från Metallprofilexperten AB.  
 
@@ -116,7 +116,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |2000|10|PARTI1|  
 
 4.  Om du vill ange partinumret, väljer du åtgärden **Artikelspårningsrader**.  
-5.  I fönstret **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** och **Antal (bas)** och stänger sedan fönstret.  
+5.  På sidan **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** och **Antal (bas)** och stänger sedan sidan.  
 6.  Fyll i fältet **Leverantörens fakturanr** med något värde.  
 7.  Välj åtgärden **bokför**, välj alternativet **inleverera och fakturera**, och välj sedan **OK**-knappen.  
 
@@ -130,7 +130,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |2000|11|PARTI2|  
 
 11. Om du vill ange partinumret går du till snabbfliken **Rader**, gruppen **Rad**, och väljer **Artikelspårningsrader**.  
-12. I fönstret **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** och **Antal (bas)** och stänger sedan fönstret.  
+12. På sidan **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** och **Antal (bas)** och stänger sedan sidan.  
 13. Fyll i fältet **Leverantörens fakturanr** med något värde.  
 14. Välj åtgärden **bokför**, välj alternativet **inleverera och fakturera**, och välj sedan **OK**-knappen.  
 
@@ -148,13 +148,13 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
 4.  Välj åtgärden **Uppdatera produktionsorder** och klicka på **OK** för att fylla i raden.  
 5.  Om du vill ange serienummer väljer du åtgärden **Artikelspårningsrader**.  
-6.  I fönstret **Artikelspårningsrader** klickar du på listrutan i fältet **Serienr.** och **Antal (bas)** och stänger sedan fönstret.  
+6.  På sidan **Artikelspårningsrader** klickar du på listrutan i fältet **Serienummer** och **Antal (bas)** och stänger sedan sidan.  
 
     Nu bokför du förbrukningen av racercykelramar från PARTI1.  
-7.  I fönstret **släppt produktionsorder** kan du välja åtgärden **produktionsjournal**.  
-8.  I fönstret **Produktionsjournal** markerar du förbrukningsraden för artikeln 2000, väljer åtgärden **Artikelspårningsrader**.
-9. I fönstret **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** markerar **LOT1**, och sedan knappen **OK**.  
-10. Lämna alla övriga standardvärden i **produktionsjournalen** och välj sedan **bokför**.  
+7.  På sidan **släppt produktionsorder** kan du välja åtgärden **produktionsjournal**.  
+8.  På sidan **Produktionsjournal** markerar du förbrukningsraden för artikeln 2000, väljer åtgärden **Artikelspårningsrader**.
+9. På sidan **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** markerar **LOT1**, och sedan knappen **OK**.  
+10. Lämna alla övriga standardvärden på sidan **produktionsjournalen** och välj sedan **bokför**.  
 
     Sedan producerar du två racercyklar till, SN3 och SN4.  
 
@@ -168,13 +168,13 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |1002|2|SN4|  
 
 14. Välj åtgärden **Uppdatera produktionsorder** för att fylla i raden.  
-15. Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** i fönstret **Artikelspårningsrader**.  
+15. Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** på sidan **Artikelspårningsrader**.  
 
     Nu bokför du ytterligare förbrukning av racercykelramar från PARTI1.  
-16. I fönstret **släppt produktionsorder** kan du välja åtgärden **produktionsjournal**.  
-17. I fönstret **Produktionsjournal** markerar du förbrukningsraden för artikeln 2000, väljer åtgärden **Artikelspårningsrader**.
-18. I fönstret **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** markerar **LOT1**, och sedan knappen **OK**.  
-19. Lämna alla övriga standardvärden i **produktionsjournalen** och välj sedan **bokför**.  
+16. På sidan **släppt produktionsorder** kan du välja åtgärden **produktionsjournal**.  
+17. På sidan **Produktionsjournal** markerar du förbrukningsraden för artikeln 2000, väljer åtgärden **Artikelspårningsrader**.
+18. På sidan **Artikelspårningsrader** klickar du på listrutan i fältet **Partinr.** markerar **LOT1**, och sedan knappen **OK**.  
+19. Lämna alla övriga standardvärden på sidan **produktionsjournalen** och välj sedan **bokför**.  
 
     Du har producerat fyra racercyklar, SN1 till SN4, och förbrukat fyra av de tio racercykelramarna från PARTI1 med två ramar i varje produktionsorder.  
 
@@ -190,7 +190,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |--------------|----------|----------|----------------|  
     |Service AB|1002|1|SN1|  
 
-3.  Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** i fönstret **Artikelspårningsrader**.  
+3.  Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** på sidan **Artikelspårningsrader**.  
 4.  Välj åtgärden **bokför**, välj alternativet **Leverera och fakturera**, och välj sedan **OK**-knappen.  
 
     Sedan säljs racercykeln med SN2 till Fotograferna AB.  
@@ -202,7 +202,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |--------------|----------|----------|----------------|  
     |Fotograferna AB.|1002|1|SN2|  
 
-7.  Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** i fönstret **Artikelspårningsrader**.  
+7.  Om du vill ange serienummer går du till åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serienr.** på sidan **Artikelspårningsrader**.  
 8.  Välj åtgärden **bokför**, välj alternativet **Leverera och fakturera**, och välj sedan **OK**-knappen.  
 
     Slutligen, sälj en del racercykelramar separat. Cannon Group PLC. beställer även fyra separata racercykelramar till deras egen monteringslinje.  
@@ -214,7 +214,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     |--------------|----------|----------|----------------|  
     |Fotograferna AB.|2000|5|PARTI1|  
 
-11. Om du vill ange serienummer, på snabbdliken **Rader** i gruppen **Rad** väljer du åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serenr.** i fönstret **Artikelspårningsrader**.  
+11. Om du vill ange serienummer, på snabbdliken **Rader** i gruppen **Rad** väljer du åtgärden **Artikelspårningsrader** och sedan numren på två rader i fältet **Serenr.** på sidan **Artikelspårningsrader**.  
 
     > [!NOTE]  
     >  Bokför inte den sista försäljningsordern för fem racercykelramar.  
@@ -226,7 +226,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelspårning** och välj sedan relaterad länk.  
-2.  I fönstret **Artikelspårning**, ange **SN1** i fältet **Serienrfilter** och anger sedan **1002** i fältet **Artikelfilter**.  
+2.  På sidan **Artikelspårning**, ange **SN1** i fältet **Serienrfilter** och anger sedan **1002** i fältet **Artikelfilter**.  
 3.  Behåll standardinställningen för **Artikel-Endast spårade** i fältet **Visa komponenter** och behåll standardspårningsmetoden **Förbrukning – Ursprung** i **Spårningsmetod**.  
 4.  Välj åtgärden **Spåra**.  
 
@@ -248,16 +248,16 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     > [!NOTE]  
     >  Gör inga ytterligare ändringar i spårningsresultaten eftersom du kommer att använda dem i nästa avsnitt.  
 
-     Nu är du klar med den första defekthanteringsuppgiften med hjälp av fönstret **Artikelspårning**. Kvalitetskontrollanten måste nu fastställa om andra bokförda dokument innehåller racercykelramar från PARTI1.  
+     Nu är du klar med den första defekthanteringsuppgiften med hjälp av sidan **Artikelspårning**. Kvalitetskontrollanten måste nu fastställa om andra bokförda dokument innehåller racercykelramar från PARTI1.  
 
 ## <a name="tracing-from-origin-to-usage"></a>Spåra från ursprung till förbrukning  
  Kvalitetskontrollanten har fastställt att de defekta racercykelramarna kommer från PARTI1. Nu måste han/hon leta reda på eventuella andra racercyklar som innehåller ramar från det defekta partiet så att dessa cyklar kan stoppas eller återkallas.  
 
- Ett sätt att förbereda den här spårningsuppgiften i fönstret **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt - från rad**.  
+ Ett sätt att förbereda den här spårningsuppgiften på sidan **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt - från rad**.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Så här hittar du all förbrukning som använder det defekta partiet  
 
-1.  I fönstret **Artikelspårning** markerar du inleveransraden (den sista spårningsraden), klickar på **Spåra motsatt - från rad**.  
+1.  På sidan **Artikelspårning** markerar du inleveransraden (den sista spårningsraden), klickar på **Spåra motsatt - från rad**.  
 
     Spårningsresultatet kommer nu att baseras på filtren på spårningsraden för inleveransen, PARTI1 och artikel 2000, och resultatet kommer att baseras på spårningsmetoden **Ursprung - Förbrukning**.  
 
@@ -271,25 +271,25 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Samtidigt kan han av de sista tre spårningsraderna utläsa att ytterligare två artiklar, SN3 och SN4, har producerats baserat på racercykelramar från PARTI1. Kvalitetskontrollanten vidtar en åtgärd för att spärra dessa två slutprodukter i lagret.  
 
-    Nu är du klar med den andra defekthanteringsuppgiften med hjälp av fönstret **Artikelspårning** för defekthantering. Eftersom fönstret **Artikelspårning** endast bygger på bokförda poster måste kvalitetskontrollanten fortsätta till fönstret **Analysera** för att säkerställa att PARTI1 inte förekommer i icke-bokförda dokument.  
+    Nu är du klar med den andra defekthanteringsuppgiften med hjälp av sidan **Artikelspårning** för defekthantering. Eftersom sidan **Artikelspårning** endast bygger på bokförda poster måste kvalitetskontrollanten fortsätta till sidan **Analysera** för att säkerställa att PARTI1 inte förekommer i icke-bokförda dokument.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Hitta alla poster som innehåller ett serienummer/partinummer  
- I fönstret **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Nu måste kvalitetskontrollanten fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till fönstret **Analysera** där han kan utföra en sökning i alla databasposter.  
+ Med sidan **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Nu måste kvalitetskontrollanten fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till sidan **Analysera** där han kan utföra en sökning i alla databasposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t.ex. öppna order  
 
-1.  I fönstret **Artikelspårning** markerar du pekaren på den första spårningsraden, som är inleveransen för PARTI1.  
+1.  På sidan **Artikelspårning** markerar du pekaren på den första spårningsraden, som är inleveransen för PARTI1.  
 2.  Välj åtgärden **Analysera**.  
 
-    I fönstret **Analysera** finns förinställda sökfilter som bygger på spårningsresultatet för PARTI1. Kvalitetskontrollanten ser att de flesta av posterna hör till dokument som redan har identifierats i fönstret **Artikelspårning**. Exempelvis refererar den sista analysraden av typen Produktionsorder till de två släppta produktionsordrarna som förbrukade racercykelramar från PARTI1.  
+    Sidan **Analysera** finns förinställda sökfilter som bygger på spårningsresultatet för PARTI1. Kvalitetskontrollanten ser att de flesta av posterna hör till dokument som redan har identifierats på sidan **Artikelspårning**. Exempelvis refererar den sista analysraden av typen Produktionsorder till de två släppta produktionsordrarna som förbrukade racercykelramar från PARTI1.  
 
     Den andra analysraden av typen **Försäljningsrad** hör dock till en icke-bokförd dokumentrad, varför kvalitetskontrollanten fortsätter med att undersöka den.  
 
 3.  Du kan öppna försäljningsradposten genom att markera den andra analysraden, klicka **Visa**. Alternativt kan du välja värdet i fältet **Antal poster**.  
 
-    Nu ser kvalitetskontrollanten en öppen försäljningsrad för de defekta racercykelramarna. Kvalitetskontrollanten ger försäljningsavdelningen genast kalkylarket att annullera den här ordern och att skapa en ny produktionsorder, baserat på godkända racercykelramar.  
+    Nu ser kvalitetskontrollanten en öppen försäljningsrad för de defekta racercykelramarna. Kvalitetskontrollanten ger försäljningsavdelningen genast förslaget att annullera den här ordern och att skapa en ny produktionsorder, baserat på godkända racercykelramar.  
 
- Nu är du klar med genomgången av hur du använder fönstret **Analysera** för defekthantering tillsammans med fönstret **Artikelspårning**.  
+ Nu är du klar med genomgången av hur du använder sidan **Analysera** för defekthantering tillsammans med sidan **Artikelspårning**.  
 
 ## <a name="see-also"></a>Se även
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  

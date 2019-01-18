@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Leverera artiklar
@@ -50,22 +50,22 @@ Medarbetare som är ansvarig för utleveransen skapar en distributionslagerutlev
 
     > [!NOTE]  
     >  Om du vill utleverera artiklar med klasskoder för distributionslager som skiljer sig från klasskoderna för lagerplatsen i fältet **Lagerplatskod** i dokumenthuvudet, måste du ta bort innehållet i fältet **Lagerplatskod** i huvudet innan du hämtar källdokumentets rader för artiklarna.  
-3.  Välj åtgärden **Hämta källdokument**. Fönstret **Källdokument** öppnas.
+3.  Välj åtgärden **Hämta källdokument**. Sidan **Källdokument** öppnas.
 
-    Från en ny eller öppen lagerutleverans kan du använda fönstret **Filter att hämta ursprungsdok..** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska utlevereras.
+    Från en ny eller öppen lagerutleverans kan du använda sidan **Filter att hämta ursprungsdok.** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska utlevereras.
 
     1. Välj åtgärden **Filter för att hämta urspr.dok.**.  
     2. Du skapar ett nytt filter genom att ange en beskrivande kod i fältet **Kod** och väljer sedan åtgärden **Ändra**.  
     3. Definiera vilken typ av källdokumentrader som du vill hämta genom att fylla i relevanta filterfält.  
     4. Välj åtgärden **Kör**.  
 
-    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu i fönstret **Dist.lager utleverans** som du aktiverade från filterfunktionen.  
+    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu på sidan **Dist.lager utleverans** som du aktiverade från filterfunktionen.  
 
-    Filterkombinationerna, vilka du definierar, sparas i fönstret **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
+    Filterkombinationerna, vilka du definierar, sparas på sidan **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
 4.  Välj det källdokument som du vill utleverera artiklar för och klicka på knappen **OK**.  
 
-Raderna i källdokumentet visas i fönstret **Dist.lager utleverans** fönstret. **Ant. att utlevereras** är ifyllt med utestående antal på respektive rad, men du kan ändra antalet som behövs. Om du tar bort innehållet i fältet **Lagerplatskod** på snabbfliken **Allmänt** innan du hämtar raderna måste du fylla i en lämplig lagerplatskod på varje utleveransrad.  
+Raderna i källdokumentet visas på sidan **Dist.lager utleverans**. **Ant. att utlevereras** är ifyllt med utestående antal på respektive rad, men du kan ändra antalet som behövs. Om du tar bort innehållet i fältet **Lagerplatskod** på snabbfliken **Allmänt** innan du hämtar raderna måste du fylla i en lämplig lagerplatskod på varje utleveransrad.  
 
 > [!NOTE]  
 >  Det går inte att utleverera fler artiklar än antalet, i **Utestående ant.** på källdokumentraden. Om du vill utleverera fler artiklar, hämtar du ett annat källdokument som innehåller en rad för artikeln, genom att använda filterfunktionen för att hämta källdokument med aktuell artikel.  
@@ -76,7 +76,7 @@ När du har alla rader som ska utlevereras kan du skicka raderna som lagerperson
 Vanligtvis skapar en lagerarbetare ansvarig för plockning ett plockningsdokument eller öppnar ett redan skapat plockningsdokument.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Distributionslagerutleveranser** och välj sedan relaterad länk.
 2. Välj dist.lager utleverans som du vill plocka för och välj sedan åtgärden **Skapa plockning**.
-3. Fyll i fälten i fönstret och sedan välj **OK** knappen. De angivna dokumenten för distributionslagertransport har skapats.
+3. Fyll i fälten på sidan och sedan välj **OK** knappen. De angivna dokumenten för distributionslagertransport har skapats.
 
     Du kan också öppna en befintlig dist.lager plockning.
 4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Plockningar** och välj sedan relaterad länk. Välj Dist.lager plockning som du vill arbeta med.

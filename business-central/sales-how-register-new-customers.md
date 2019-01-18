@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
@@ -25,16 +25,16 @@ Kunderna är källan till din inkomst. Du måste registrera varje kund som du s�
 Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskoder som du kan välja mellan, när du fyller i kundkort. Mer information finns i [Konfigurera försäljning](sales-setup-sales.md).
 
 > [!NOTE]  
->   Om kundmallar finns för olika kundtyper, visas ett fönster när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.
+>   Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.
 
 ## <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.  
-2. I fönstret **Kunder** väljer du åtgärden **Ny**.
+2. På sidan **Kunder** väljer du åtgärden **Ny**.
 
     Om endast en kundmall finns, då öppnas ett nytt kundkort med fält ifyllda med information från mallen.
 
-    Om fler än en kundmall finns, öppnas ett fönster där du kan välja kundmall. I detta fall, följ nästa två steg.
-3. Välj den mall som du vill använda för det nya kundkortet i fönstret **Välj en mall för en ny kund**.
+    Om fler än en kundmall finns, öppnas en sida där du kan välja kundmall. I detta fall, följ nästa två steg.
+3. Välj den mall som du vill använda för det nya kundkortet på sidan **Välj en mall för en ny kund**.
 4. Välj **OK**. Ett nytt kundkort öppnas med ifyllda fält med information från mallen.  
 5. Fortsätt att fylla i eller ändra fält på kundkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -45,9 +45,9 @@ Kunden är nu registrerad, och kundkortet är klart att användas i försäljnin
 Om du vill använda detta kundkort som en mall när du skapar nya kundkort, så fortsätt med att spara den som en mall. Mer information finns i följande avsnitt:
 
 ## <a name="to-save-the-customer-card-as-a-template"></a>Om du vill spara kundkortet som en mall
-1. I fönstret **kundkort** väljer du åtgärden **Spara som mall**. Fönstret **Kundmall** öppnas och visar kundkortet som mall.
+1. På sidan **Kundkort** väljer du åtgärden **Spara som mall**. Sidan **Kundmall** öppnas och visar kundkortet som mall.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Fönstret **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för kunden.
+3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Sidan **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för kunden.
 4. Ändra eller ange dimensionskoder som ska kopplas till nya kundkort som skapas med hjälp av mallen.  
 5. Välj **OK** när du har slutfört den nya kundmallen.
 

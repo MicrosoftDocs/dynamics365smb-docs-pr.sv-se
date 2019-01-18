@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
@@ -32,7 +32,7 @@ Mer information finns i [Designdetaljer: Ingående distributionslagerflöde](des
 Efterföljande genomgången visar metod B i föregående tabellen.  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången  
-För grundläggande lagerkonfiguration där lagerstället har konfigurerats att kräva artikelinförselbearbetning men inte mottagningsbearbetning, använder du fönstret **Lagerinförsel** för att registrera och bokföra artikelinförsel- och mottagningsinformation för dina ankommande källdokument. Det ankommande källdokumentet kan vara en inköpsorder, försäljningsreturorder, ankommande överföringsorder eller produktionsorder vars utflöde är klart för artikelinförsel.
+För grundläggande lagerkonfiguration där lagerstället har konfigurerats att kräva artikelinförselbearbetning men inte mottagningsbearbetning, använder du sidan **Lagerinförsel** för att registrera och bokföra artikelinförsel- och mottagningsinformation för dina ankommande källdokument. Det ankommande källdokumentet kan vara en inköpsorder, försäljningsreturorder, ankommande överföringsorder eller produktionsorder vars utflöde är klart för artikelinförsel.
 
 > [!NOTE]
 > Även om inställningarna kallas **Begär plockning** och **Begär artikelinförsel**, kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor.  
@@ -63,7 +63,7 @@ För att kunna utföra den här genomgången behöver du:
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
     1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
-    2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto i fönstret **Användare**.  
+    2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
     3.  Ange SILVER i fältet **Lagerställekod**.  
     4.  Välj fältet **Standard**.  
 
@@ -71,7 +71,7 @@ För att kunna utföra den här genomgången behöver du:
 Alicia, inköpsagenten i CRONUS, skapar en inköpsorder för 10 enheter av artikeln LS-75 och 30 enheter av artikeln LS-81 från leverantör 10000 som ska levereras till distributionslagret SILVER. När leveransen inlevereras till lagret placerar Anders, lagerarbetaren, artiklarna i standardlagerplatser som definieras för artiklarna. När Anders bokför artikelinförseln, bokförs artiklarna som inlevererade till lagret och som tillgängligt för försäljning eller andra behov.  
 
 ## <a name="setting-up-the-location"></a>Lägger upp lagerstället  
- Inställningen av fönstret **Lagerställekort** definierar företagets lagerflöden.  
+ Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
 
 ### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen  
 
@@ -84,7 +84,7 @@ Alicia, inköpsagenten i CRONUS, skapar en inköpsorder för 10 enheter av artik
 4.  Välj åtgärden **Lagerplatser**.  
 5.  Markera den första raden för lagerplatsinnehållet S-01-0001, och välj sedan åtgärden **innehåll**.  
 
-    Lägg märke till att i fönstret **Lagerplatsinnehåll** har artikeln LS-75 redan lagts upp som innehåll i lagerplatsen S-01-0001.  
+    Lägg märke till att på sidan **Lagerplatsinnehåll** har artikeln LS-75 redan lagts upp som innehåll i lagerplatsen S-01-0001.  
 
 6.  Välj åtgärden **Ny**.  
 7.  Markera fälten **Fast** och **Standard**.  
@@ -114,7 +114,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
     Leverans av högtalare från leverantör 10000 har anlänt till SILVERLAGRET, och Anders fortsätter att föra in dem.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Ta emot och föra in artiklar i lagret  
-I fönstret **Lagerinförsel** kan du hantera alla ingående distributionslageraktiviteter för ett särskilt källdokument, t.ex en inköpsorder.  
+På sidan **Lagerinförsel** kan du hantera alla ingående distributionslageraktiviteter för ett särskilt källdokument, t.ex en inköpsorder.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Så här tar du emot och för in artiklar  
 

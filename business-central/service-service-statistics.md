@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,10 +26,10 @@ Du kan använda statistik för att analysera servicedokument och ta reda på hur
 ## <a name="viewing-statistics-for-service-orders"></a>Så här visar du serviceorderstatistik:
 Med hjälp av serviceorderstatistiken får du en snabb översikt över innehållet i hela serviceordern, detaljerad information om de specifika serviceraderna och information rörande fakturering, leverans och förbrukning samt kundens saldo.  
 
-Statistikinformationen för en serviceorder visas i fönstret **Tjänsteorderstatistik** för den önskade ordern. Du kan öppna statistikfönstret från en serviceorder. I fönstret **Tjänsteorder** väljer du **Statistik**. På snabbflikarna i fönstret visas information om t.ex. antal, belopp, moms, kostnad, vinst och kundkreditlimit. Beloppen i fönstret visas i den valuta som används på serviceordern om inget annat anges.  
+Statistikinformationen för en serviceorder visas på sidan **Tjänsteorderstatistik** för den önskade ordern. Du kan öppna statistiksidan från en serviceorder. På sidan **Tjänsteorder** väljer du **Statistik**. På snabbflikarna på sidan visas information om t.ex. antal, belopp, moms, kostnad, vinst och kundkreditlimit. Beloppen på sidan visas i den valuta som används på serviceordern om inget annat anges.  
 
 ### <a name="view-totals-for-a-service-order"></a>Visa summor för en serviceorder  
-Du kan visa det totala beloppet på serviceraderna (inkl. och exkl. moms), momsandel, kostnad och TB på serviceraderna. I fönstret visas också artikelspecifik information, till exempel vikt, volym och antalet förpackningar.  
+Du kan visa det totala beloppet på serviceraderna (inkl. och exkl. moms), momsandel, kostnad och TB på serviceraderna. Sidan visar också artikelspecifik information, till exempel vikt, volym och antalet förpackningar.  
 
 ### <a name="view-shipping-information"></a>Visa leveransinformation  
 Du kan visa information om de artiklar, resurser och/eller kostnader som ska levereras. Informationen bygger på värdena som finns angivna i fältet **Ant. att utleverera** på var och en av serviceraderna ordern.  
@@ -54,7 +54,7 @@ Du kan analysera informationen efter de olika typerna av servicerader som ingår
 Se saldot på kundens konto utöver den maximala kredit som kan beviljas den kund som servicedokumentet skapades för.
 
 ## <a name="viewing-service-item-statistics"></a>Visa serviceartikelstatistik
-I fönstret **Serviceartikelstatistik** kan du visa uppdaterad information om en serviceartikel baserat på följande servicetransaktionstyper:  
+På sidan **Serviceartikelstatistik** kan du visa uppdaterad information om en serviceartikel baserat på följande servicetransaktionstyper:  
 
 * Resurser  
 * Artiklar  
@@ -67,7 +67,7 @@ För varje transaktionstyp kan du visa fakturerat belopp, förbrukning (belopp),
 * (Fakturerat belopp - förbrukning (kostnaden)) x 100 / fakturerat belopp  
 
 ## <a name="using-trendscapes"></a>Med hjälp av Trendscapes
-För serviceartiklar och servicekontrakt, ger fönstrena **Serviceartikel Trendscape** eller **Servicekontrakt Trendscape** innehåller en rullningsbar översikt över servicetransaktioner som skapas i en viss tid för en viss serviceartikel eller kontrakt. Visa trendscape genom att öppna servicekontraktet eller serviceartikeln, välj åtgärden **statistik**, och välj sedan **Trendscape**.
+För serviceartiklar och servicekontrakt, ger sidorna **Serviceartikel Trendscape** eller **Servicekontrakt Trendscape** innehåller en rullningsbar översikt över servicetransaktioner som skapas i en viss tid för en viss serviceartikel eller kontrakt. Visa trendscape genom att öppna servicekontraktet eller serviceartikeln, välj åtgärden **statistik**, och välj sedan **Trendscape**.
 
 När du rullar i listan beräknas beloppen enligt den lokala valutan enligt det valda tidsintervallet. Alla belopp beräknas från servicetransaktioner, som är transaktioner som skapas när du bokför serviceorder eller -fakturor.
 
@@ -88,25 +88,25 @@ En transaktion för kontraktets vinst eller förlust skapas automatiskt då kont
 |**Kontrakt vinst/förlust (ansenh.)**|Så här visar du kontrakt vinst/förlust per ansvarsenhet.|  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till namnet på sidan för att visa och välj sedan relaterad länk.  
-2. Fyll i de filtervillkor som du vill koppla. Välj något värde för **Uppföljningskod filter**, till exempel i fönstret **Kontrakt vinst/förlust (uppfölj)**.  
+2. Fyll i de filtervillkor som du vill koppla. Välj något värde för **Uppföljningskod filter**, till exempel på sidan **Kontrakt vinst/förlust (uppfölj)**.  
 3. Välj åtgärden **Visa matris**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visa statistik för bokförda servicedokument
 Med funktionen för servicestatistik får du en statistisk översikt över innehållet i bokförda servicedokument, t.ex. bokförda leveranser, bokförda fakturor och bokförda kreditnotor.  
 
-Statistikinformationen visas i statistikfönstret för varje bokfört servicedokument. Du kan öppna relevant statistik från fönstret med den bokförda serviceleveransen, bokförd servicefaktura eller bokförd servicekreditnota. Välj **Statistik** för var och en av följande dokumenttyper på fliken **Start** i gruppen **Process**. Till exempel från fönstret **Bokförda servicefakturor** går du till fliken **Start**, gruppen **Process** och väljer **Statistik**.  
+Statistikinformationen visas på statistiksidan för varje bokfört servicedokument. Du kan öppna relevant statistik från sidan med den bokförda serviceleveransen, bokförd servicefaktura eller bokförd servicekreditnota. Välj **Statistik** för var och en av följande dokumenttyper på fliken **Start** i gruppen **Process**. Till exempel från sidan **Bokförda servicefakturor** går du till fliken **Start**, gruppen **Process** och väljer **Statistik**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistik för bokförda serviceleveranser  
-I fönstret **Serviceleveransstatistik** visas en översikt över den bokförda serviceleveransen. Detta inkluderar information om det fysiska innehållet i utleveransen, t.ex. antalet levererade artiklar, resurstimmar eller kostnader samt vikt och volym för de levererade artiklarna.  
+På sidan **Serviceleveransstatistik** visas en översikt över den bokförda serviceleveransen. Detta inkluderar information om det fysiska innehållet i utleveransen, t.ex. antalet levererade artiklar, resurstimmar eller kostnader samt vikt och volym för de levererade artiklarna.  
 
 ### <a name="posted-service-invoice-statistics"></a>Statistik för bokförda servicefakturor  
-Du kan se en statistisk översikt för en bokförd faktura i fönstret **Servicefakturastatistik**. Du kan visa alla summor på den bokförda servicefakturan. Datan inkluderar det totala beloppet på de servicerader (inkl. och exkl. moms) som har bokförts som fakturerade, momsandel, kostnad och vinst på den bokförda fakturan. Fönstret visar även information om följande:  
+Du kan se en statistisk översikt för en bokförd faktura på sidan **Servicefakturastatistik**. Du kan visa alla summor på den bokförda servicefakturan. Datan inkluderar det totala beloppet på de servicerader (inkl. och exkl. moms) som har bokförts som fakturerade, momsandel, kostnad och vinst på den bokförda fakturan. Sidan visar även information om följande:  
 
 * Artiklarna på servicefakturaraderna, till exempel vikt, volym och antalet förpackningar.  
 * Saldot på kundens konto samt den maximala kredit som kan utökas till kunden.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Statistik för bokförda servicekreditnotor  
-I fönstret **Statistik för servicekreditnota** visas en statistisk översikt över raderna i en bokförd servicekreditnota. Översikten kan inkludera följande:
+Du kan använda sidan **Statistik för servicekreditnota** för att visa en statistisk översikt över raderna i en bokförd servicekreditnota. Översikten kan inkludera följande:
 
 * De totala beloppen på den bokförda kreditnotan, som antal, belopp, moms, kostnad och vinst. Det finns också specifik information om artiklarna på serviceraderna i den bokförda kreditnotan, t.ex. antal, vikt och volym.  
 * Allmän information om kunden, d.v.s. kundens kreditlimit och saldo för kontot.  

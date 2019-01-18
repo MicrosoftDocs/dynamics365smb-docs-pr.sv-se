@@ -11,10 +11,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3e099dde3ab51a2757bf42ffd4c3044c8007ee0a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-item-attributes"></a>Arbeta med artikelattribut
@@ -27,21 +27,21 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 
 ## <a name="to-create-item-attributes"></a>Så här skapar du artikelattribut
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artikelattribut** och välj sedan relaterad länk.
-2. I fönstret **Artikelattribut** väljer du åtgärden **Ny**.
-3. I fönstret **Artikelattribut** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På sidan **Artikelattribut** väljer du åtgärden **Ny**.
+3. På sidan **Artikelattribut** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Om du väljer **Alternativ** i fältet **Typ** kan du välja åtgärden **Artikelattributvärden** för att markera eller skapa artikelattributvärden. Mer information finns i avsnittet "Att skapa artikelattributvärden av typen alternativ".  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Så här skapar du värden för artikelattribut av typen alternativ
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artikelattribut** och välj sedan relaterad länk.
-2. I fönstret **Artikelattribut** markerar du ett artikelattribut av typen **Alternativ** som du vill tilldela värden på, och väljer sedan åtgärden **Artikelattributvärden**.
-3. I fönstret **Artikelattributvärden** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På sidan **Artikelattribut** markerar du ett artikelattribut av typen **Alternativ** som du vill tilldela värden på, och väljer sedan åtgärden **Artikelattributvärden**.
+3. På sidan **Artikelattributvärden** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Så här tilldelar du ett artikelattribut till en artikel
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
-2. I fönstret **Artiklar** markerar du den artikel som du vill tilldela artikelattribut på, och väljer sedan åtgärden **Attribut**.
-3. I fönstret **Artikelattributvärden** väljer du åtgärden **Ny**.
+2. På sidan **Artiklar** markerar du den artikel som du vill tilldela artikelattribut på, och väljer sedan åtgärden **Attribut**.
+3. På sidan **Artikelattributvärden** väljer du åtgärden **Ny**.
 4. Välj sökknappen i fältet **Attribut** och välj ett befintligt artikelattribut. Välj alternativt åtgärden **Ny** för att först skapa en ny artikelattribut som förklaras i avsnittet "Att skapa artikelattribut".
 5. I fältet **Värde** anger du artikelattributvärdet , exempelvis "2010" för attributet **modellår** attribute.
 6. För artikelattribut av typen **Alternativ** väljer du sökknappen i fältet **Värde** och väljer sedan ett artikelattributvärde. Välj alternativt åtgärden **Ny** för att först skapa ett nytt artikelattributvärde som förklaras i avsnittet "Att skapa värden för artikelattribut av typen Alternativ".
@@ -49,8 +49,8 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Så här tilldelar du ett artikelattribut till artikelkategorier
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artikelkategorier** och välj sedan relaterad länk.
-2. I fönstret **Artikelkategorier** markerar du den artikelkategori, som du vill tilldela artikelattributen till och väljer sedan åtgärden **Redigera**.
-3. I fönstret **Artikelkategorikort** på snabbfliken **Attribut** väljer du åtgärden **Ny**.
+2. På sidan **Artikelkategorier** markerar du den artikelkategori, som du vill tilldela artikelattributen till och väljer sedan åtgärden **Redigera**.
+3. På sidan **Artikelkategorikort** på snabbfliken **Attribut** väljer du åtgärden **Ny**.
 4. Välj sökknappen i fältet **Attribut** och välj ett befintligt artikelattribut. Välj alternativt åtgärden **Ny** för att först skapa en ny artikelattribut som förklaras i avsnittet "Att skapa ett artikelattribut".
 5. I fältet **Standaardvärde** väljer du sökknappen och väljer du ett artikelattributvärde.
 6. Upprepa steg 4 genom 5 för alla artikelattribut som du vill tilldela artikelkategorin.
@@ -60,20 +60,20 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 
 ## <a name="to-filter-by-item-attributes"></a>Filtrera artikel efter attribut
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
-2. I fönstret **Artiklar** väljer du åtgärden **Filtrera efter attribut**.
-3. I fönstret **Filtrera artiklar efter attribut** väljer du sökknappen i fältet **Attribut** och väljer sedan ett artikelattribut.
+2. På sidan **Artiklar** väljer du åtgärden **Filtrera efter attribut**.
+3. På sidan **Filtrera artiklar efter attribut** väljer du sökknappen i fältet **Attribut** och väljer sedan ett artikelattribut.
 4. I fältet **Värde** väljer du sökknappen och väljer du ett befintligt artikelattributvärde att filtrera efter.
 
     > [!NOTE]  
     >   Du kan bara välja värden direkt för artikelattribut som har fasta värden, till exempel färg. För artikelattribut, som har variabelvärden, till exempel bredd, måste du ange artikelattributvärdet, genom att först välja ett villkor. Se steg 5.
 5. I fältet **Värde** ett variabelt artikelattribut väljer du sökknappen.
-6. I fönstret **Ange filtervärde** i fältet **Villkor** väljer du villkor med listpilen.
+6. På sidan **Ange filtervärde** i fältet **Villkor** väljer du villkor med listpilen.
 7. I fältet **Värde** anger du ett attributvärde för att filtrera artiklar.
 
     **Exempel** För att filtrera efter artiklar där materialbeskrivningen börjar med "blå", fyller du i fälten enligt följande: fältet **Attribut**: Materialbeskrivning, fältet **Villkor**: Börjar med, **Värde**: blå.
-8. Välj **OK**.   
+8. Välj knappen **OK**.   
 
-Artiklarna i fönstret **Artiklar** filtreras efter de angivna artikelattributvärdena.
+Artiklarna på sidan **Artiklar** filtreras efter de angivna artikelattributvärdena.
 
 ## <a name="see-also"></a>Se även
 [Kategorisera artiklar](inventory-how-categorize-items.md)    

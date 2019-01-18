@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Skapa en färglagd indikator på stack-ikoner för företaget eller enskilda användare
@@ -24,20 +24,20 @@ Som administratör kan du skapa stack-ikoner som visas i användarens rollcenter
   
 Indikatorn visas som en kulört stapel längs den övre kanten på stack-ikon-panelen. Den ger en visuell signal över statusen för stack-ikonaktivitet, som kan ange gynnsamma eller ofördelaktiga förhållanden för att meddela användaren att vidta åtgärd. Om t.ex. en stack-ikon visar pågående försäljningsfakturor kan du ställa in indikatorn för att visa grönt (positivt) när totala antalet pågående försäljningsfakturor är under 10, och röd (negativt) när antalet är större än 20.  
   
-Från fönstret **Inställning av stack-ikon** ställer du in indikatorer för alla stack-ikoner som är tillgängliga i företagsdatabasen. Du kan ställa in indikatorerna för att gälla alla användare i företaget eller en individuell användare endast. Indikatorinställningarna i fönstret **Inställning av stack-ikon** fungerar som standardindikatorinställningarna. Om fönstret **Inställning av stack-ikon för slutanvändare** görs tillgängligt för användare kan de anpassa indikatorinställningarna som du definierar i fönstret **Inställning av stack-ikon**.  
+Från sidan **Inställning av stack-ikon** ställer du in indikatorer för alla stack-ikoner som är tillgängliga i företagsdatabasen. Du kan ställa in indikatorerna för att gälla alla användare i företaget eller en individuell användare endast. Indikatorinställningarna på sidan **Inställning av stack-ikon** fungerar som standardindikatorinställningarna. Om sidan **Inställning av stack-ikon för slutanvändare** görs tillgängligt för användare kan de anpassa indikatorinställningarna som du definierar på sidan **Inställning av stack-ikon**.  
   
 För att ställa in indikatorn, anger du upp till två tröskelvärden som definierar tre intervall av datavärden (låg, medel och hög) som du kan koppla en annan färg (eller stil).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Så här ställer du in kulörta indikatorer på stack-ikoner  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställning av stack-ikon** och välj sedan relaterad länk.  
   
-     Fönstret **Inställning av stack-ikon** visas. Fönstret anger indikatorerna som närvarande är inställda på stack-ikoner. Indikatorer som gäller för alla användare i företaget har ett tomt **Användarnamn**-fält. Indikatorer som är kopplade till en viss användare innehåller användarens namn i **Användarnamn**-fältet.  
+     Sidan **Inställning av stack-ikon** visas. Sidan anger indikatorerna som närvarande är inställda på stack-ikoner. Indikatorer som gäller för alla användare i företaget har ett tomt **Användarnamn**-fält. Indikatorer som är kopplade till en viss användare innehåller användarens namn i **Användarnamn**-fältet.  
   
     > [!NOTE]  
     >  Om du skapar indikator för hela företaget och en användare ändrar indikatorn senare, visas en separat transaktion för indikatorn i listan för den användaren.  
   
 2. Välj åtgärden **Redigera lista**.  
-3. Om du vill skapa en indikator för en stack-ikon som inte specificerats i fönstret, väljer du åtgärden **Ny** och sedan fyll i fälten enligt beskrivningen som följer. Om du vill ändra en befintlig indikator går du vidare till nästa steg.  
+3. Om du vill skapa en indikator för en stack-ikon som inte specificerats på sidan, väljer du åtgärden **Ny** och sedan fyll i fälten enligt beskrivningen som följer. Om du vill ändra en befintlig indikator går du vidare till nästa steg.  
   
     |  Fält  |  Description  |    
     |---------|---------------|  

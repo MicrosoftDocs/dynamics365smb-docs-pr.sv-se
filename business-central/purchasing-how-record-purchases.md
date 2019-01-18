@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a96947c07cf86159f767ffcdf85564ee2b4366d8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-purchases"></a>Registrera inköp
@@ -39,16 +39,16 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.  
 2. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
 
-    Andra fält i fönstret **Inköpsfaktura** fylls nu i med standardinformation om den valda leverantören. Om leverantören inte är registrerad, gör så här:
+    Andra fält på sidan **Inköpsfaktura** fylls nu i med standardinformation om den valda leverantören. Om leverantören inte är registrerad, gör så här:
 3. Ange namnet på en ny leverantör i fältet **leverantör**.
 4. Välj knappen **ja** i dialogrutan om registrering av den nya leverantören.
-5. Välj en mall det nya leverantörskortet ska baseras på i fönstret **Välj en mall för en ny leverantör** och välj sedan knappen **OK**.
+5. Välj en mall det nya leverantörskortet ska baseras på sidan **Välj en mall för en ny leverantör** och välj sedan knappen **OK**.
 6. Ett nytt leverantörskort öppnas med förifylld information från den markerade leverantörsmallen. Fältet **Namn** förifylls med nya leverantörens namn som du har angett på inköpsfakturan.
 7. Fortsätt att fylla de återstående fälten på leverantörskortet. Mer information finns i [Registrera nya leverantörer](purchasing-how-register-new-vendors.md).  
-8. Välj **OK** för att gå tillbaka till fönstret **Inköpsfaktura**, när du har slutfört leverantörskortet.
+8. Välj **OK** för att gå tillbaka till sidan **Inköpsfaktura**, när du har slutfört leverantörskortet.
 
-    Flera fält i fönstret **Inköpsfaktura** är ifyllda med information som du har angett på det nya leverantörskortet.
-9. I fönstret **Inköpsfaktura** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Flera fält på sidan **Inköpsfaktura** är ifyllda med information som du har angett på det nya leverantörskortet.
+9. På sidan **Inköpsfaktura** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Fortsätt med att fylla inköpsfakturaraderna med lagerförda artiklar eller tjänster som du har köpt från leverantören.
 

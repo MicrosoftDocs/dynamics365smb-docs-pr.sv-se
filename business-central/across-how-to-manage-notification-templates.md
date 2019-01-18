@@ -1,6 +1,6 @@
 ---
 title: "Så här hanterar du meddelandemallar | Microsoft Docs"
-description: "Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren. Mer information finns i [Ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)."
+description: "Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Hantera meddelandemallar
@@ -28,7 +29,7 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
 
 ## <a name="to-create-a-new-notification-template"></a>Så här skapar du en ny meddelandemall  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **meddelandemallar** och välj sedan relaterad länk.  
-2.  I fönstret **meddelandemallar** väljer du åtgärden **Ny**.  
+2.  På sidan **Meddelandemallar** väljer du åtgärden **Ny**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
@@ -41,9 +42,9 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
 
 ## <a name="to-modify-a-notification-template"></a>Så här ändrar du en meddelandemall  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **meddelandemallar** och välj sedan relaterad länk.  
-2.  I fönstret **meddelandemallar** väljer du meddelandemallen som du vill ändra.  
+2.  På sidan **meddelandemallar** väljer du meddelandemallen som du vill ändra.  
 3.  Välj åtgärden **Exportera mallinnehåll**.  
-4.  Klicka på **Spara** i fönstret **Exportera fil** och ange sedan namn och plats för HTML-filen.  
+4.  Klicka på **Spara** på sidan **Exportera fil** och ange sedan namn och plats för HTML-filen.  
 5.  Högerklicka på filen, välj **Öppna med**och välj sedan relevant program.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg so
 6.  Redigera innehållet i meddelandemallen genom att lägga till, ändra eller ta bort parametervariabler för att definiera vilket innehåll du vill ha. Spara det sedan. Mer information finns i avsnittet ”Innehåll i meddelandemallar”.  
 
     Fortsätt med att importera det ändrade innehållet till samma eller en ny meddelandemall.  
-7.  Om du vill ändra meddelandemallen som du exporterade markerar du mallen som du valde i steg 2 i fönstret **Meddelandemallar**.  
+7.  Om du vill ändra meddelandemallen som du exporterade markerar du mallen som du valde i steg 2 på sidan **Meddelandemallar**.  
 
     Alternativt kan du följa proceduren i ”Så här skapar du en ny meddelandemall” och välja den nya meddelandemallen för att importera det ändrade mallinnehållet till en ny meddelandemall.  
 8.  Välj åtgärden **Importera mallinnehåll**.  
 9. Om du ändrar en befintlig meddelandemall väljer du knappen **Ja** i meddelandet om överskrivning av den befintliga mallen.  
-10. Välj HTML-filen som du ändrade i steg 6 och välj sedan knappen **Öppna** i fönstret **Välj en fil att importera**.  
+10. Välj HTML-filen som du ändrade i steg 6 och välj sedan knappen **Öppna** på sidan **Välj en fil att importera**.  
 
-Den befintliga eller nya meddelandemallen i fönstret **Meddelandemallar** uppdateras nu med det ändrade innehållet.  
+Den befintliga eller nya meddelandemallen på sidan **Meddelandemallar** uppdateras nu med det ändrade innehållet.  
 
 ### <a name="content-of-the-notification-templates"></a>Innehåll i meddelandemallarna  
 De tre meddelandemalltyperna, **Ny post**, **Godkännande** och **Förfallna**, har olika innehåll.  

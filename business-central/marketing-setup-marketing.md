@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac38294ce65d767133e70880b6104c7325d9bb3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
@@ -24,10 +24,10 @@ Innan du sätter igång med att arbeta med kontakter och marknadsföringsräntor
 
 Att hantera kontakter och ha en strategi för att identifiera, attrahera och behålla kunder optimerar din verksamhet och ökar kundnöjdheten. Med ett bra kontakthanteringssystem blir det också enklare att skapa och upprätthålla relationer med kunderna. Kommunikation är nyckeln till dessa relationer. Att kunna skräddarsy kommunikationen med potentiella och befintliga kunder, leverantörer och affärspartners utifrån deras behov är nödvändigt för att ett företag ska lyckas. Ett första steg är att lägga upp en strategi och definiera hur företaget ska använda kontaktinformationen. Den här information används av många olika grupper i företaget, så ett ändamålsenligt system gör det enklare för alla att bli mer effektiva.
 
-Du kan skapa marknadsförings- och kontakthantering från fönstret **Marknadsföringsinställningar**. För att öppna fönstret **Marknadsföringsinställning**, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Marknadsföringsinställning** och välj sedan relaterad länk.
+Du kan skapa marknadsförings- och kontakthantering från sidan **Marknadsföringsinställningar**. För att öppna sidan **Marknadsföringsinställning**, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Marknadsföringsinställning** och välj sedan relaterad länk.
 
 ## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Automatisk kopiering av särskild information från kontaktföretag till kontaktpersoner
-Vissa uppgifter om kontaktföretag är helt identiska med uppgifter om kontaktpersoner som arbetar i dessa företag, till exempel adresser. I avsnittet **Arv** i fönstret **Marknadsföringsinställningar** kan du ange att programmet automatiskt kopierar särskilda fält från kontaktföretagkort till kontaktpersonkort, varje gång du skapar en kontaktperson för ett kontaktföretag. Du kan t.ex välja att kopiera säljarkod, adressdetaljer (adress ,adress 2, postnr, ort och län), kommunikationsdetaljer (faxnummer, telefonsvarare och telefonnummer) mm.
+Vissa uppgifter om kontaktföretag är helt identiska med uppgifter om kontaktpersoner som arbetar i dessa företag, till exempel adresser. På sidan **Arv** i fönstret **Marknadsföringsinställningar** kan du ange att programmet automatiskt kopierar särskilda fält från kontaktföretagkort till kontaktpersonkort, varje gång du skapar en kontaktperson för ett kontaktföretag. Du kan t.ex välja att kopiera säljarkod, adressdetaljer (adress ,adress 2, postnr, ort och län), kommunikationsdetaljer (faxnummer, telefonsvarare och telefonnummer) mm.
 
 När du ändrar i något av dessa fält på kontaktföretagskortet ändras motsvarande fält automatiskt på kontaktpersonskortet (om du inte har ändrat fälten på detta manuellt).
 
@@ -46,7 +46,7 @@ Värden i övertagna fält ersätter de standardvärden som du har angett. Om du
 Mer information finns i [automatiskt registrera interaktioner med kontakter](marketing-auto-record-interactions.md).
 
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synkronisera kontakter med kunder och fler
-För att synkronisera kontaktkort med kund-, leverantörs- och bankkontokort måste du välja affärsrelationskod för kunderna, leverantörerna och bankkontona. Du kan exempelvis bara koppla kontakter till befintliga kunder om du har valt en affärsrelationskod för kunder i fönstret **Marknadsföringsinställningar**.
+För att synkronisera kontaktkort med kund-, leverantörs- och bankkontokort måste du välja affärsrelationskod för kunderna, leverantörerna och bankkontona. Du kan exempelvis bara koppla kontakter till befintliga kunder om du har valt en affärsrelationskod för kunder på sidan **Marknadsföringsinställningar**.
 
 Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
 

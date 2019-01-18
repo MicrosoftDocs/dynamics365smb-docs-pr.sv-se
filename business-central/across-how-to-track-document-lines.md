@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Spåra dokumentrader
@@ -28,7 +28,7 @@ Följande förfarande beskriver hur du spårar via en försäljningsorderrad. St
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Öppna en försäljningsorder som du vill spåra ifrån.  
 3.  Markera en rad och välj sedan åtgärden **Spårning av dokumentrad**.
-4. I fönstret **Spårning av dokumentrader** markerar du det dokument som du vill visa och väljer sedan åtgärden **Visa** för att visa relaterad rad.
+4. På sidan **Spårning av dokumentrader** markerar du det dokument som du vill visa och väljer sedan åtgärden **Visa** för att visa relaterad rad.
 5. Om du vill visa hela dokumentet för den valda dokumentraden väljer du åtgärden **Visa dokument**.
 
 ## <a name="see-also"></a>Se även

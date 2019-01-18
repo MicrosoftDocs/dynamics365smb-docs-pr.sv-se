@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
@@ -27,26 +27,26 @@ Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** f
 
 En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en strukturlista vara antingen en monteringsstruktur eller en produktionsstruktur, beroende på dess användning. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
-Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Leverantörer visas sedan i fönstret **Artikelleverantörskatalog** så att du enkelt kan välja en annan leverantör.
+Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Leverantörer visas sedan på sidan **Artikelleverantörskatalog** så att du enkelt kan välja en annan leverantör.
 
 Artiklar som du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem kan ställas in som katalogartiklar. Katalogartiklar ska inte förväxlas med vanliga artiklar av typen **Inte i lager**. Mer information finns i [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
-> Om artikelmallar finns för olika artikeltyper, visas ett fönster när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
+> Om artikelmallar finns för olika artikeltyper, visas en sida när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
-2. I fönstret **Artiklar** väljer du åtgärden **Ny**.
+2. På sidan **Artiklar** väljer du åtgärden **Ny**.
 
     Om endast en artikelmall finns, då öppnas ett nytt artikelkort med fält ifyllda med information från mallen.
-3. Välj den mall som du vill använda för den nya artikelkortet i fönstret **Välj en mall för en ny artikel**.
+3. Välj den mall som du vill använda för den nya artikelkortet på sidan **Välj en mall för en ny artikel**.
 4. Välj **OK**. Ett nytt artikelkort öppnas med ifyllda fält med information från mallen.
 5. Fortsätt att fylla i eller ändra fält på artikelkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > I fältet **värderingsprincip** anger du hur artikelns styckkostnad beräknas genom att anta hur flödet av fysiska artiklar sker i företaget. Fem metoder är tillgängliga, beroende på typen av objekt. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).
 >
-> Om du använder **Genomsnitt** beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att i fönstret **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
+> Om du använder **Genomsnitt** beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att på sidan **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
 På snabbfliken **Pris och bokföring** ser du specialpriser eller rabatter som du beviljar för artikeln om vissa villkor uppfylls, till exempel kund, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,9 +55,9 @@ Artikeln är nu registrerad, och artikelkortet är klart att användas i försä
 Om du vill använda detta artikelkort som en mall när du skapar nya artikelkort, så fortsätt med att spara den som en mall. Mer information finns i följande avsnitt:
 
 ## <a name="to-save-the-item-card-as-a-template"></a>Om du vill spara artikelkortet som en mall
-1. I fönstret **artikelkort** väljer du åtgärden **Spara som mall**. Det **artikelmall** fönstret öppnas uppvisar artikelkortet som mall.
+1. På sidan **artikelkort** väljer du åtgärden **Spara som mall**. Sidan **artikelmall** öppnas och uppvisar artikelkortet som mall.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Fönstret **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för artikeln.
+3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Sidan **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för artikeln.
 4. Ändra eller ange dimensionskoder som ska kopplas till nya artikelkort som skapas med hjälp av mallen.
 5. Välj **OK** när du har slutfört den nya artikelmallen.
 
@@ -73,7 +73,7 @@ Om du köper samma artikel från flera olika leverantörer måste du ange inform
 5.  Det är frivilligt att fylla i övriga fält.  
 6.  Upprepa moment 2 till 5 för varje leverantör som du vill köpa artikeln från.
 
-Leverantörer visas nu i fönstret **Artikelleverantörskatalog** som du kan öppna från artikelkortet så att du enkelt kan välja en annan leverantör.
+Leverantörer visas nu på sidan **Artikelleverantörskatalog** som du kan öppna från artikelkortet så att du enkelt kan välja en annan leverantör.
 
 ## <a name="see-also"></a>Se även
 [Skapa nummerserier](ui-create-number-series.md)  

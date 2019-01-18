@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sälja lagerartiklar i flöden för montering mot kundorder
@@ -41,9 +41,9 @@ I den här proceduren ersätter du antalet för montering mot kundorder med lage
 4.  Fastställ om hela, eller något av, det efterfrågade antalet är tillgängligt i faktaboxen **Försäljningsraddetaljer**.  
 5.  I fältet **Antal att montera mot kundorder** drar du av det disponibla antalet så att endast det ej tillgängliga antalet monteras mot ordern. I fältet **Reserverat antal** minskas därefter antalet för att visa att länken på orderbasis, eller reservationen, bara gäller det antal som måste monteras.  
 6.  På snabbfliken **Rader** klickar du på **Funktioner** och väljer sedan åtgärden **Reservera**.  
-7.  I fönstret **Reservation** väljer du den/de artikeltransaktionsrad/-er som har det disponibla antalet, välj åtgärden **Reservera från aktuell rad** och välj sedan knappen **OK**.  
+7.  På sidan **Reservation** väljer du den/de artikeltransaktionsrad/-er som har det disponibla antalet, välj åtgärden **Reservera från aktuell rad** och välj sedan knappen **OK**.  
 
-    I fönstret **Försäljningsorder** visar fältet **Reserverat antal** nu att hela orderradens antal har reserverats. Fältet **Antal att montera mot kundorder** återspeglar fortfarande det underantal som måste monteras.  
+    På sidan **Försäljningsorder** visar fältet **Reserverat antal** nu att hela orderradens antal har reserverats. Fältet **Antal att montera mot kundorder** återspeglar fortfarande det underantal som måste monteras.  
 
 8.  Släpp försäljningsordern för plockning av lagerartiklarna och för montering av de artiklar som inte är tillgängliga. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
 

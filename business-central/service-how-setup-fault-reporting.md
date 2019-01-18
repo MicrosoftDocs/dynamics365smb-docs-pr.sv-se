@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,10 +36,10 @@ Felkoder identifierar de olika serviceartikelfelen eller de åtgärder som vidta
     |Fel + Symptom | Du kan ange en kombination av koder i tabellerna **Felkoder** och **Symptomkoder**. Vanliga symptomkoder omfattar indikatorer som en kund kan använda för att beskriva ett problem, till exempel brus eller kvalitet.|  
     |Fel + Symptom + Typ | Använd koderna Fel, Symptom och Felområde som en implementering av IRIS (International Repair Coding System).|  
 
-När du gör inställningar för felhantering kan du också ange vilka reparationer eller åtgärder som associeras med ett fel eller en defekt. Du ställer in detta på fönstret **fel/åtgärd kodssamband** där du konfigurerar kombinationer av koder för serviceartikelgruppen på serviceartikeln som du har öppnat fönstret för och antalet förekomster av var och en.
+När du gör inställningar för felhantering kan du också ange vilka reparationer eller åtgärder som associeras med ett fel eller en defekt. Du ställer in detta på sidan **fel/åtgärd kodssamband** där du konfigurerar kombinationer av koder för serviceartikelgruppen på serviceartikeln som du har öppnat fönstret för och antalet förekomster av var och en.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Så här skapar du fel- och åtgärdskodssamband
-<!--this needs to go in a working with topic--> Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem i fönstret **Fel-/åtgärdssambandskoder**.
+<!--this needs to go in a working with topic--> Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem på sidan **Fel-/åtgärdssambandskoder**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Infoga fel-/åtgårdssambandskoder** och välj sedan relaterad länk.  
 2. Ange datum för att definiera den period som du vill inkludera i batch-jobbet.  

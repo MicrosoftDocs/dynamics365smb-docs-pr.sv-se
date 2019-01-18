@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3d4c111af62db5858b81b76f9f51a9093c01e5e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 85e295997089ea10b956fe0a5d087652c190fb44
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a>Ställ in flera räntesatser
@@ -26,12 +26,12 @@ När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så
 
 ## <a name="to-set-up-multiple-interest-rates"></a>Så här ställer du in flera räntesatser  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Räntevillkor** och välj sedan relaterad länk.  
-2.  Gå till fönstret **Räntevillkor** välj räntevillkoret och välj sedan åtgärden **Räntesatser**.  
+2.  Gå till sidan **Räntevillkor** välj räntevillkoret och välj sedan åtgärden **Räntesatser**.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Välj knappen **OK**.  
 5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Påminnelsevillkor** och välj sedan relaterad länk.  
-6.  Gå till fönstret **Betalningspåminnelsevillkor** välj villkoret och välj sedan åtgärden **Nivåer**.  
-7.  Markera fältet **Beräkna ränta** i fönstret **Betalningspåminnelsenivåer**.  
+6.  Gå till sidan **Betalningspåminnelsevillkor** välj villkoret och välj sedan åtgärden **Nivåer**.  
+7.  Markera fältet **Beräkna ränta** på sidan **Betalningspåminnelsenivåer**.  
 
 När du skickar ut en räntefaktura, visar fakturan dröjsmålsräntan med flera räntesatser för en viss tidsperiod. Räntefakturan innehåller även kontaktinformation för kunden, företaget som skickar räntefakturan, det ytterligare beloppet och totalt belopp. Den ingående transaktionen på räntefakturan visas i fet stil. Dröjsmålsräntan beräknas med flera räntesatser för en viss tidsperiod och skrivs ut efter den ingående transaktionen på räntefakturan.  
 

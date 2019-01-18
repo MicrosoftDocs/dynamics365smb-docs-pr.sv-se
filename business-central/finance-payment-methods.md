@@ -1,30 +1,40 @@
 ---
 title: "Ställa in betalningssätt | Microsoft Docs"
-description: "Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur en faktura ska betalas."
-author: edupont04
+description: "Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur försäljnings- och inköpsfakturor ska betalas."
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/22/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-payment-methods"></a>Definiera betalningssätt
-Betalningssätt används för att definiera hur en faktura ska betalas. Du kan definiera så många betalningssätt som du vill. Exempel på betalningssätt kan vara BANK, KONTANTER, CHECK eller KONTO.
-Betalningssätt länkas till leverantörer för att ange hur en faktura från den aktuella leverantören måste betalas.
+Betalningssätt definierar hur du föredrar att kunderna betalar dig och hur du vill betala dina leverantörer. Metoden kan variera för varje kund eller leverantör. Exempel på typiska betalningssätt är **bank**, **kontanter**, **check** eller **konto**. 
 
-## <a name="to-set-up-a-payment-methods"></a>Så här definierar du betalningssätt
-Flera vanliga betalningssätt är redan definierade i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan definiera nya betalningssätten i fönstret **betalningssätt** som du kan söka efter med hjälp av sökfunktionen eller öppna från fältet **betalningssätt** på ett kort för en leverantör eller kund.
+Du kan tilldela ett betalningssätt till kunder och leverantörer så att samma metod alltid används på de försäljningsorderrader och inköpsdokument som du skapar dem för. Om det behövs kan du ändra metoden för försäljnings- eller inköpsdokument. Till exempel om du vill betala en viss inköpsfaktura kontant och inte med checkar. Standardbetalningsmetoden som tilldelats leverantören ändras inte.
+
+Samma betalningssätt används för försäljnings- och inköpsdokument. Till exempel ett _kontant_ betalningssätt används både när du gör betalningar och när du tar emot dem. [!INCLUDE[d365fin](includes/d365fin_md.md)] vet att när du skapar en försäljningsfaktura förväntar du dig att erhålla betalning och motsatsen för inköpsfakturor. 
+
+Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsatt riktning från dig till din kund och från din leverantör till dig. Därför tilldelas inte ett standardbetalningssätt för kreditnotor. Det finns emellertid en lösning om du har angett betalningsvillkoren för kunden eller leverantören. Även om fältet **Beräkna kassarabatt i kr.nota** inte är avsett för detta, om du väljer den här kryssrutan på sidan **betalningsvillkor** kommer ett standardbetalningssätt att läggas till när du skapar en kreditnota.
+
+## <a name="to-set-up-a-payment-method"></a>Så här definierar du betalningssätt:
+[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller några betalningssätt som företag använder ofta. Du kan emellertid lägga till hur många rader du vill.
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsmetoder** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Så här kopplar du betalningssätt till en kund eller leverantör
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kund** eller **Leverantör** och välj sedan relaterad länk.
+2. I fältet **betalningssätt**, välj metoden som ska användas som standard för kunden eller leverantören.
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  

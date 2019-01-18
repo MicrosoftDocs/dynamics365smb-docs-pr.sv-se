@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar
@@ -51,7 +51,7 @@ En kontouppställning består av ett kontouppställningsnamn för kassaflöde me
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Så här skapar du ett nytt kontouppställningsnamn  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontouppställningar** och välj sedan relaterad länk.  
-2.  I fönstret **Kontouppställningsnamn** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn för kassaflöde.  
+2.  På sidan **Kontouppställningsnamn** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn för kassaflöde.  
 3.  I fältet **Namn** anger du **Prognos**.  
 4.  I fältet **Beskrivning**, ange **Kassaflödesprognos**.  
 5.  Lämna fälten **Standard kolumnlayout** och **Analysvynamn** tomma.  
@@ -61,8 +61,8 @@ När ett kontouppställningsnamn har upprättats, definierar Ken varje rad som v
 
 ### <a name="to-set-up-account-schedule-lines"></a>Så här skapar du kontouppställningsrader  
 
-1.  I fönstret **Kontouppställningsnamn** väljer du det nya kontouppställningsnamnet för **Prognos** som du har skapat. På fliken **Start** i gruppen **Process** väljer du **Redigera kontouppställning**.  
-2.  I fönstret **Kontouppställning** anger du varje rad exakt som det visas i följande tabell.  
+1.  På sidan **Kontouppställningsnamn** väljer du det nya kontouppställningsnamnet för **Prognos** som du har skapat. På fliken **Start** i gruppen **Process** väljer du **Redigera kontouppställning**.  
+2.  På sidan **Kontouppställning** anger du varje rad exakt som det visas i följande tabell.  
 
     > [!NOTE]  
     >  Med hjälp av funktionen **Infoga kassaflödeskonton** kan du snabbt välja kassaflödeskonton från kontoplanen för kassaflöde och kopiera dem till kontouppställningsrader.  
@@ -79,12 +79,12 @@ Nu kan Ken koppla kolumnlayouten till kontouppställningsnamnet.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Så här kopplar du kolumnlayouten till kontouppställningsnamnet  
 
-1.  Välj **Kontouppställningsnamnet** i fönstret **Prognos** i fältet **Namn**.  
+1.  På sidan **Kontouppställningsnamnet** väljer du **Prognos** i fältet **Namn**.  
 2.  I fältet **Standard kolumnlayout**, välj kolumnlayouten **Kassaflöde** som standardkolumnlayout.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Så här visar och skriver du ut kassaflödesprognosen  
-1.  I fönstret **Kontouppställningsnamn** väljer du åtgärden **Översikt** för att visa kassaflödesprognosen.  
-2.  I fönstret **Kontouppställning översikt** kan du ange ett belopp och sedan visa transaktionerna i kassaflödesprognosen som utgör beloppet. Dessutom kan du visa formeln som används för att beräkna beloppet. Du kan också filtrera beloppen efter datum och dimension.  
+1.  På sidan **Kontouppställningsnamn** väljer du åtgärden **Översikt** för att visa kassaflödesprognosen.  
+2.  På sidan **Kontouppställning översikt** kan du ange ett belopp och sedan visa transaktionerna i kassaflödesprognosen som utgör beloppet. Dessutom kan du visa formeln som används för att beräkna beloppet. Du kan också filtrera beloppen efter datum och dimension.  
 3.  Välj åtgärden **Skriv ut** när du vill skriva ut kassaflödesprognosen.  
 
 ## <a name="see-also"></a>Se även  

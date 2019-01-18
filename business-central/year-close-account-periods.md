@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
@@ -24,7 +24,7 @@ När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar
 
 ## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsperioder** och välj sedan relaterad länk.
-2. I fönstret **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
+2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
     Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.
 3. Välj **ja** för att stänga året.

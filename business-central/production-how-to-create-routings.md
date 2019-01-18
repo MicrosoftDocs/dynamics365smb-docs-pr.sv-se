@@ -1,6 +1,6 @@
 ---
 title: "Så här skapar du Operationsföljder | Microsoft Docs"
-description: "En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas i fönstret **Prod.orderverksamhetsföljd**."
+description: "En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.orderverksamhetsföljd**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
@@ -24,7 +24,7 @@ Tillverkningsföretag använder verksamhetsföljder för att visa produktionspro
 
 Operationsföljden utgör också grunden för processplanering, kapacitetsplanering, planerad fördelning av materialbehov och produktionsdokument.  
 
-För produktionsstrukturer kopplas verksamhetsföljderna till produktionens slutartikel. En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas i fönstret **Prod.orderverksamhetsföljd**.  
+För produktionsstrukturer kopplas verksamhetsföljderna till produktionens slutartikel. En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.orderverksamhetsföljd**.  
 
 Innan du kan skapa en verksamhetsföljd måste följande vara på plats:  
 
@@ -61,7 +61,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 ## <a name="to-create-routing-links"></a>Så här skapar du en verksamhetsföljdslänk
 Du kan skapa verksamhetsföljdslänkar för att koppla ihop komponenter med specifika operationer för att behålla deras förhållande även om produktionsstrukturen eller verksamhetsföljden ändras. Detta gör det också lättare att bokföra komponenter vid rätt tidpunkt, dvs. när den angivna kopplade operationen startar – inte när hela ordern släpps. Mer information finns i [Bokför komponenter enligt verksamhetens utflöde](production-how-to-flush-components-according-to-operation-output.md).  
 
-En annan viktig fördel är att länkade komponenter och operationer visas i en logisk processtruktur när du använder fönstret **Produktionsjournal** för bokföring av utdata och förbrukning.  
+En annan viktig fördel är att länkade komponenter och operationer visas i en logisk processtruktur när du använder sidan **Produktionsjournal** för bokföring av utdata och förbrukning.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Öppna verksamhetsföljden som innehåller operationen du vill länka.  
@@ -89,7 +89,7 @@ En annan viktig fördel är att länkade komponenter och operationer visas i en 
     > [!NOTE]  
     >  Om du vill aktivera verksamhetsföljdslänkar för en befintlig produktionsorder måste du först uppdatera den. För mer information, se [Skapa produktionsorder](production-how-to-create-production-orders.md).  
 
-De markerade komponenterna länkas till de markerade operationerna när du skapar eller uppdaterar en produktionsorder som använder den aktuella produktionsstrukturen och verksamhetsföljden. Detta visas i fönstret **Prod. Ordern komponenter** under produktionsordern, och där kan du också ta bort och lägga till de definierade verksamhetsföljdslänkkoderna när som helst.
+De markerade komponenterna länkas till de markerade operationerna när du skapar eller uppdaterar en produktionsorder som använder den aktuella produktionsstrukturen och verksamhetsföljden. Detta visas på sidan **Prod. Ordern komponenter** under produktionsordern, och där kan du också ta bort och lägga till de definierade verksamhetsföljdslänkkoderna när som helst.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Tilldela personal, verktyg och kvalitetsmått för verksamhetsföljdsuppgifter.
 Om du behöver personal med kvalifikationer, specialkunskaper eller särskild behörighet för en operation kan du tilldela sådan personal till operationen. Dessutom kan du tilldela åtgärden med verktyg och kvalitet. Nedan beskrivs hur du tilldelar personal: Momentet är liknande för andra typer av åtgärdsinformation.
@@ -97,15 +97,15 @@ Om du behöver personal med kvalifikationer, specialkunskaper eller särskild be
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Öppna relevant verksamhetsföljd.  
 3.  På snabbfliken **rader** markerar du raden som du vill behandla och klickar på åtgärden **personal**.  
-4.  Fyll i fälten i fönstret **Operationsföljd personal**.  
-5.  Välj **OK** för att stänga fönstret. Angivna värden kopieras och tilldelas till operationen.    
+4.  Fyll i fälten på sidan **Operationsföljd personal**.  
+5.  Välj **OK** för att stänga sidan. Angivna värden kopieras och tilldelas till operationen.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Så här skapar du nya versioner av verksamhetsföljder  
 Med versionsprincipen kan du hantera flera versioner av en verksamhetsföljd. Strukturen på verksamhetsföljdsversionen motsvarar strukturen på verksamhetsföljden som består av huvud och rader. Den grundläggande skillnaden definieras av startdatumet.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
 2.  Markera verksamhetsföljden som ska kopieras och klicka på åtgärden **versioner**.  
-3. I fönstret **verksamhetsföljdversioner** väljer du åtgärden **Ny**.
+3. På sidan **verksamhetsföljdversioner** väljer du åtgärden **Ny**.
 4. Fyll i fälten om det behövs.
 5.  I fältet **Versionskod** anger du en identifiering som är unik för versionen. Du kan använda valfria siffror och bokstäver.  
 

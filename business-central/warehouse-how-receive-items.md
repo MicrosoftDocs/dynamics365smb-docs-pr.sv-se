@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-items"></a>Ta emot artiklar
@@ -43,22 +43,22 @@ Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är likna
 
     > [!NOTE]  
     >  Om du vill ta emot artiklar med klasskoder för distributionslager som skiljer sig från klasskoderna för lagerplatsen i fältet **Lagerplatskod** i dokumenthuvudet, måste du ta bort innehållet i fältet **Lagerplatskod** i huvudet innan du hämtar källdokumentets rader för artiklarna.  
-3.  Välj åtgärden **Hämta källdokument**. Fönstret **Källdokument** öppnas.
+3.  Välj åtgärden **Hämta källdokument**. Sidan **Källdokument** öppnas.
 
-    Från en ny eller öppen lagerinleverans eller lagerutleverans kan du använda fönstret **Filter att hämta ursprungsdok..** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska in - eller utlevereras.
+    Från en ny eller öppen lagerinleverans eller lagerutleverans kan du använda sidan **Filter att hämta ursprungsdok.** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska in - eller utlevereras.
 
     1. Välj åtgärden **Filter för att hämta urspr.dok.**.  
     2. Du skapar ett nytt filter genom att ange en beskrivande kod i fältet **Kod** och väljer sedan åtgärden **Ändra**.  
     3. Definiera vilken typ av källdokumentrader som du vill hämta genom att fylla i relevanta filterfält.  
     4. Välj åtgärden **Kör**.  
 
-    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu i fönstret **Dist.lager inleverans** som du aktiverade från filterfunktionen.  
+    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu på sidan **Dist.lager inleverans** som du aktiverade från filterfunktionen.  
 
-    Filterkombinationerna, vilka du definierar, sparas i fönstret **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
+    Filterkombinationerna, vilka du definierar, sparas på sidan **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
 4.  Välj det källdokument som du vill inleverera artiklar för och klicka på knappen **OK**.  
 
-    Raderna i källdokumentet visas i fönstret **Dist.lager inleverans** fönstret. **Ant. att inlevereras** är ifyllt med utestående antal på respektive rad, men du kan ändra antalet som behövs. Om du tar bort innehållet i fältet **Lagerplatskod** på snabbfliken **Allmänt** innan du hämtar raderna måste du fylla i en lämplig lagerplatskod på varje inleveransrad.  
+    Raderna i källdokumentet visas på sidan **Distributionslagerinleverans**. **Ant. att inlevereras** är ifyllt med utestående antal på respektive rad, men du kan ändra antalet som behövs. Om du tar bort innehållet i fältet **Lagerplatskod** på snabbfliken **Allmänt** innan du hämtar raderna måste du fylla i en lämplig lagerplatskod på varje inleveransrad.  
 
     > [!NOTE]  
     >  Om du vill fylla i fältet **Ant. att inlevereras** på alla rader med noll, väljer du åtgärden **Ta bort ant. att inleverera**. Välj åtgärder **Fyll i auto. ant. att inleverera** för att fylla i det igen med det utestående antalet.  

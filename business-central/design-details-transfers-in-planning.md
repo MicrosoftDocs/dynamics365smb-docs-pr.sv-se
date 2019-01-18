@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
@@ -33,7 +33,7 @@ En överföringsorder liknar andra order i programmet. Men bakom kulisserna det 
 
 En vanlig aspekt som gör att överföringar i planeringen skiljer sig från inköps- och produktionsorder är att en överföringsrad representerar efterfrågan och tillgång samtidigt. Den avgående del som skickas från den gamla lagerstället, är efterfrågan. Den ankommande delen som ska inlevereras till det nya lagerstället, är tillgång på det lagerstället.  
 
-![Innehållet i fönstret överföringsorder](media/nav_app_supply_planning_7_transfers3.png "Innehållet i fönstret överföringsorder")  
+![Innehållet på sidan överföringsorder](media/nav_app_supply_planning_7_transfers3.png "Innehållet på sidan överföringsorder")  
 
 Det betyder att när systemet hanterar tillförselsidan för överföringen måste systemet göra en liknande ändring i på begärandesidan.  
 
@@ -64,7 +64,7 @@ Sekvensen som lagerställena som behandlas i inom planeringssystemet bestäms av
 
 Överföringsnivåkoden ska vara 0 för lagerställeenhet med påfyllningssystem Inköp eller Pryd.order och ska vara -1 för den första överföringsnivån, -2 för den andra, o.s.v. I överföringskedjan som beskrevs ovan skulle nivåerna därför vara -1 för RÖD och -2 för GRÖN, som visas i följande illustration.  
 
-![Fönstret Innehåll i kortet för lagerställeenhet](media/nav_app_supply_planning_7_transfers6.gif "Fönstret Innehåll i kortet för lagerställeenhet")  
+![Sidan Innehåll i kortet för lagerställeenhet](media/nav_app_supply_planning_7_transfers6.gif "Sidan Innehåll i kortet för lagerställeenhet")  
 
 När du uppdaterar en lagerställeenhet undersöker planeringssystemet om lagerställeenheter med återanskaffningssystemet Överföring har ställts in med cirkulära referenser.  
 
@@ -135,7 +135,7 @@ I det här exemplet betyder det att:
 * Slutdatum + Ankommande hanteringstid = Inleveransdatum  
 
 ## <a name="safety-lead-time"></a>Säkerhetsledtid  
-Fältet Standard säkerhetsledtid i fönstret Produktionsinställningar och det relaterade fältet Säkerhetsledtid på artikelkortet ska inte beaktas vid beräkningen av en överföringsorder. Emellertid påverkar säkerhetsledtiden fortfarande den totala planeringen så som den påverkar återanskaffningsordern (inköp eller produktion) i början av överföringskedjan när artiklarna placeras på lagerstället som de ska överföras från.  
+Fältet Standard säkerhetsledtid på sidan Produktionsinställningar och det relaterade fältet Säkerhetsledtid på artikelkortet ska inte beaktas vid beräkningen av en överföringsorder. Emellertid påverkar säkerhetsledtiden fortfarande den totala planeringen så som den påverkar återanskaffningsordern (inköp eller produktion) i början av överföringskedjan när artiklarna placeras på lagerstället som de ska överföras från.  
 
 ![Element av överföringens förfallodatum](media/nav_app_supply_planning_7_transfers14.png "Element av överföringens förfallodatum")  
 

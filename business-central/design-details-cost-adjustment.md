@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
@@ -71,7 +71,7 @@ Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-d
 Kostnadsjustering kan utföras på två sätt:  
 
 * Manuellt, genom att köra batch-jobbet **Justera kost - artikeltransaktioner**. Du kan köra det här batchjobbet antingen för alla artiklar, eller endast för vissa artiklar eller artikelkategorier. Det här batchjobbet kör en kostnadsjustering för artiklarna i lagret som en ankommande transaktion har gjorts för, till exempel ett inköp. För artiklar som använder värderingsprincipen Genomsnitt gör batchjobbet även en justering om avgående transaktioner skapas.  
-* Automatiskt, genom att justera kostnaderna varje gång som du bokför en lagertransaktion, och när du avslutar en produktionsorder. Kostnadsjustering körs endast för den specifika artikeln eller artiklarna som påverkas av bokföringen. Detta ställs in när du väljer kryssrutan **automatisk kostnadsjustering** i fönster **Lagerinställningar**.  
+* Automatiskt, genom att justera kostnaderna varje gång som du bokför en lagertransaktion, och när du avslutar en produktionsorder. Kostnadsjustering körs endast för den specifika artikeln eller artiklarna som påverkas av bokföringen. Detta ställs in när du väljer kryssrutan **automatisk kostnadsjustering** på sidan **Lagerinställningar**.  
 
 Det är bra övning att köra kostnadsjustering automatiskt när du bokför, eftersom styckkostnader uppdateras oftare och därför är mer korrekta. Nackdelen är att databasens prestanda kan påverkas genom att köra kostnadsjustering så ofta.  
 
@@ -79,7 +79,7 @@ Eftersom det är viktigt att hålla styckkostnaden för en artikel aktuell, reko
 
 Oavsett om du har kört kostnadsjusteringen manuellt eller automatiskt, är justeringen och dess konsekvenser desamma. [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar värdet för ankommande transaktionen och skickar denna kostnad för alla avgående transaktioner, till exempel försäljning eller förbrukning som har kopplats till den ankommande transaktionen. Kostnadsjustering skapar värdetransaktioner som innehåller justeringsbelopp och belopp som ska kompensera för avrundning.  
 
-De nya justerings- och avrundningsvärdetransaktionerna har bokföringsdatumet för den relaterade fakturan. Undantaget är om de värdetransaktioner faller inom en stängd bokföringsperiod eller lagerperiod, eller om bokföringsdatumet infaller tidigare än datumet i fältet  i fönstret **Tillåt bokföring fr.o.m.**  i fönstret **Redovisningsinställningar**. Om det inträffar tilldela batchjobbet bokföringsdatumet som det första datumet i nästa öppna period.  
+De nya justerings- och avrundningsvärdetransaktionerna har bokföringsdatumet för den relaterade fakturan. Undantaget är om de värdetransaktioner faller inom en stängd bokföringsperiod eller lagerperiod, eller om bokföringsdatumet infaller tidigare än datumet i fältet på sidan **Tillåt bokföring fr.o.m.**  i fönstret **Redovisningsinställningar**. Om det inträffar tilldela batchjobbet bokföringsdatumet som det första datumet i nästa öppna period.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Batch-jobbet Justera kost. - artikeltrans.  
 När du kör batchjobbet **Just kost. - artikeltrans** har du alternativet att köra batchjobbet för alla artiklar eller endast för vissa artiklar eller kategorier.  
@@ -143,7 +143,7 @@ Senare bokför du en relaterad inköpsartikelkostnad på 2,00 BVA som har faktur
 |01-15-20|[KSV-konto]|7290||2,00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatisk kostnadsjustering  
-Om du vill ställa in kostnadsjusteringen att köras automatiskt när du bokför en lagertransaktion använder du fältet **Automatisk kostnadsjustering** i fönstret **Lagerinställning**. Detta fält ger dig möjlighet att välja hur lång tillbaka i tiden från det aktuella arbetsdatumet som du vill att den automatiska kostnadsjusteringen ska utföras. Följande alternativ finns.  
+Om du vill ställa in kostnadsjusteringen att köras automatiskt när du bokför en lagertransaktion använder du fältet **Automatisk kostnadsjustering** på sidan **Lagerinställning**. Detta fält ger dig möjlighet att välja hur lång tillbaka i tiden från det aktuella arbetsdatumet som du vill att den automatiska kostnadsjusteringen ska utföras. Följande alternativ finns.  
 
 |Alternativ|Description|  
 |----------------------------------|---------------------------------------|  

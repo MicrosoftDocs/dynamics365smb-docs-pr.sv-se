@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Montera Artiklar
@@ -44,18 +44,18 @@ I den här proceduren skapar och behandlar du och en monteringsorder för artikl
 
 ## <a name="to-assemble-an-item"></a>Om du vill att sammanställa en artikel  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Monteringsorder** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Ny**. **Ny monteringsorder** fönstret öppnas.  
+2.  Välj åtgärden **Ny**. Sidan **Ny monteringsorder** öppnas.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  I fältet **Artikelnr** anger du monteringsartikeln du vill beställa. Fältet visar artiklar som har upprättats för montering, vilket innebär att de har monteringsstrukturer tilldelade.  
 5.  I **Antal** fältet, ange hur många enheter av artikeln som du vill monteras.  
 
     > [!NOTE]  
-    >  Om en eller flera komponenter inte är tillgängliga för att uppfylla den angivna monteringsartikelantalet på angivna förfallodatum, så öppnas fönstret **Monteringsdisposition** fönstret automatiskt för att ange utförlig information om, hur många monteringsartiklar kan monteras baserat på komponenttillgänglighet. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).  när du stänger fönstret, monteringsorder skapas med disponibla aviseringar på de berörda komponentraderna  
+    >  Om en eller flera komponenter inte är tillgängliga för att uppfylla den angivna monteringsartikelantalet på angivna förfallodatum, så öppnas sidan **Monteringsdisposition** fönstret automatiskt för att ange utförlig information om, hur många monteringsartiklar kan monteras baserat på komponenttillgänglighet. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md). När du stänger sidan, monteringsorder skapas med disponibla aviseringar på de berörda komponentraderna  
 
     Monteringsorderrader fylls automatiskt med innehållet av monteringsstrukturen och med rad antal enligt monteringsorderhuvudet.  
 
     > [!NOTE]  
-    >  Om du öppnade fönstret **Monteringsdisposition** , när du fyller i monteringsorderhuvudet, varje berörd monteringsorderrad innehåller en **ja** i **Disp.-varning** fältet med en länk till detaljerad dispositionsinformationen. För mer information, se Kontrollera disponibelt. Du kan lösa en komponentdispositionsproblem, genom att skapa startdatum, ersätta komponenten med en annan artikel eller välja en tillgänglig ersättning, om den har definierats.  
+    >  Om du öppnade sidan **Monteringsdisposition** , när du fyller i monteringsorderhuvudet, varje berörd monteringsorderrad innehåller en **ja** i **Disp.-varning** fältet med en länk till detaljerad dispositionsinformationen. För mer information, se Kontrollera disponibelt. Du kan lösa en komponentdispositionsproblem, genom att skapa startdatum, ersätta komponenten med en annan artikel eller välja en tillgänglig ersättning, om den har definierats.  
 
 6.  I **Antal att montera** fältet, ange hur många enheter för monteringsartikeln som ska bokföras som utflöde nästa gång som du bokför monteringsorder. Antalet, kan vara lägre än värdet i **Antal** fältet för att visa en delleverans utflödesbokföring.  
 

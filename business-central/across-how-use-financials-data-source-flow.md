@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett automatiskt arbetsflöde
-Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del av ett arbetsflöde i Microsoft Flow.  
+Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del av ett arbetsflöde i Microsoft Flow.
+
+> [!NOTE]
+> Förutom Microsoft Flow kan du nu använda funktionerna för arbetsflöde inom [!INCLUDE[d365fin](includes/d365fin_md.md)]. Observera att trots att det finns två separata arbetsflödessystem, kommer alla Flow-mallar du skapar med Microsoft Flow läggas till i listan över arbetsflödesmallar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Arbetsflöden](across-workflow.md).  
 
 > [!NOTE]  
 >   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Flow.  
@@ -28,7 +31,7 @@ Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del 
 1. I webbläsaren, går du till [flow.microsoft.com](https://flow.microsoft.com/en-us/), och loggar in.
 2. Välj **Mina flöden** från menyn längst upp på sidan.
 3. Det finns 2 olika sätt att skapa ett flöde: **Skapa från mall** och **Skapa från tom**. En mall är ett fördefinierat flöde som har skapats åt dig.  Om du vill använda en mall markerar du den och skapar en anslutning för varje tjänst som ska användas. Med en tom mall kan du skapa ett nytt flöde helt och hållet från början.
-4. I fönstret **Mina flöden** väljer du alternativet **Skapa från tom** om du vill skapa från en tom mall.
+4. På sidan **Mina flöden** väljer du alternativet **Skapa från tom** om du vill skapa från en tom mall.
 5. Sök efter **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**-anslutaren.
 6. I listan över tillgängliga utlösare, välj någon av de [!INCLUDE[d365fin](includes/d365fin_md.md)] utlösare som är tillgängliga:  
     *När ett kundgodkännande begärs*,  
@@ -58,9 +61,6 @@ Nu har du lyckats ansluta till dina Business Central-data och är redo att börj
     *Begär godkännande av Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-redovisningsjournal-batch*,  
     *Begär godkännande av Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-redovisningsjournalrader*.  
 11. Flödet kommer att be dig att välja ett företag inom din [!INCLUDE[d365fin_md](includes/d365fin_md.md)] klientorganisation. Eftersom varje steg i flödet är oberoende av nästa kan du behöva definiera företaget flera gånger när du använder en [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-flödesmall.
-
-> [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-flödesmallen integreras med det grundläggande arbetsflödet i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Detta innebär att varje gång som du använder en av dessa mallar dör att skapa ett flöde, om ett motsvarande arbetsflöde skapas i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Personen som skapar flödet måste också ställas in som godkännare i guiden Assisterad konfiguration. Mer information finns i [Arbetsflöden](across-workflow.md).
 
 Mer information finns i [Flödesdokumentationen](https://docs.microsoft.com/en-us/flow/getting-started).
 

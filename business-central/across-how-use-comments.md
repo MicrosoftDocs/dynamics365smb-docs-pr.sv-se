@@ -8,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Lägga till kommentarer i kort och dokument
 Du kan lägga till ytterligare information till redovisningskonton, kundkort eller försäljningsorder för att kommunicera undantag eller särskilda avtal till andra användare.
-Praktiskt taget alla kort och dokumentet har åtgärden **kommentarer** som öppnar fönstret **Kommentarsark** där du kan skriva eller läsa kommentarer. På dokument kan du även lägga till kommentarer på enskilda rader.
+Praktiskt taget alla kort och dokumentet har åtgärden **kommentarer** som öppnar sidan **Kommentarsark** där du kan skriva eller läsa kommentarer. På dokument kan du även lägga till kommentarer på enskilda rader.
 
 Kommentarer på pågående dokument överförs till tillhörande bokförda dokumentet. Till exempel överförs en kommentar från en försäljningsorder till en bokförd försäljningsutleverans som skapas.
+
+Du kan också ange om du vill att kommentarer ska överföras från en viss typ av dokument till en annan resulterande dokument, exempelvis från en försäljningsorder till en försäljningsfaktura. Det gör du på sidorna **Försäljning & kundreskontra** och **Inköp & Leverantörsreskontra**.
 
 > [!NOTE]
 > Kommentarer skrivs inte ut eller utdata till rapporter eller dokument för externa dokument.
@@ -32,7 +34,7 @@ Nedan beskrivs hur du lägger till en kommentar för ett artikelkort. Momentet �
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna relevant artikelkort.
 3. Välj åtgärden **Kommentarer**.
-4. I fönstret **Kommentarsark** anger du valfri text och väljer knappen **OK**.
+4. På sidan **Kommentarsark** anger du valfri text och väljer knappen **OK**.
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

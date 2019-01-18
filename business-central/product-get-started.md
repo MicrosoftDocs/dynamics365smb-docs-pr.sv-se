@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -39,14 +39,14 @@ Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]]
 När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md). För en översikt över aktuell kapacitet och det som komme, se vår översikt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-role-centers"></a>Rollcenter
-Fönstret Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
+Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-Varje Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterad konfiguration som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningsfönstret där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Varje Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterad konfiguration som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningssidorna där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du Essential-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
 
-I fönstret **Assisterad konfiguration** hittar du följande i **Vital**-upplevelsen:
+På sidan **Assisterad konfiguration** hittar du följande i **Vital**-upplevelsen:
 
 | Assisterad konfiguration | Description |
 | --- | --- |

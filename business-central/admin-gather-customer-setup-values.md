@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Samla in kundinställningsvärden
@@ -32,7 +32,7 @@ När kunden har slutfört frågeformuläret kan du importera filen till kundens 
 ## <a name="to-create-a-configuration-questionnaire"></a>Så här skapar du ett konfigurationsfrågeformulär
 Du kan använda ett frågeformulär för att bestämma omfattningen och behoven av konfigurationen. Du kan skapa ett nytt frågeformulär, eller ändra ett befintligt frågeformulär, genom att lägga till nya fråga eller frågeområden.  
 
- Du kan bara skapa frågeformulär för tabeller av omställningstyp. Du kan till exempel använda verktyg för att ge information i följande fönster:  
+ Du kan bara skapa frågeformulär för tabeller av omställningstyp. Du kan till exempel använda verktyg för att ge information på följande sidor:  
 
 -   Företagsinformation  
 -   Anl.tillg.inställningar  
@@ -50,9 +50,9 @@ Du kan använda ett frågeformulär för att bestämma omfattningen och behoven 
 >  För att se en komplett lista över inställningstabeller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **inställningar** och välj sedan relaterad länk. Använd flyttningsfunktioner för att bestämma omfattningen för flyttning av transaktion data. Mer information finns i [Migrera kunddata](admin-migrate-customer-data.md).  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny**. Fönstret **Frågeformulär för inställningar** öppnas.  
-3. Välj åtgärden **Frågeområden**. Fönstret **Frågeområden** öppnas.  
-4. Välj åtgärden **Ny**. Fönstret **Konfig. frågeområden** öppnas.  
+2. Välj åtgärden **Ny**. Sidan **Frågeformulär för inställningar** öppnas.  
+3. Välj åtgärden **Frågeområden**. Sidan **Frågeområden** öppnas.  
+4. Välj åtgärden **Ny**. Sidan **Konfig. frågeområden** öppnas.  
 5. I fältet **Tabell-ID** väljer du ID på den tabell som du vill samla in information om. Fälten **Tabellnamn** fylls i automatiskt.  
 6. Välj åtgärden **Uppdatera frågor**. Varje fält i tabellen läggs till det frågeformulär med ett frågetecken efter sin rubrik.
 
@@ -94,10 +94,10 @@ En gemensam valideringsuppgift är att kontrollera att textsträngar inte anges 
 > [!NOTE]  
 >  Vanligtvis är validering av frågeformulär för konfiguration en manuell process. Men det finns kontroller för regionala formateringsinkonsekvenser. Dessutom kan det uppstå fel om strukturen på [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen inte motsvarar strukturen på flyttningsdatabasen.  
 
-1. I fönstret **Konfigurationsfrågeformulär** markerar du relevant frågeformulär och väljer sedan åtgärden **Frågeområden**.  
+1. På sidan **Konfigurationsfrågeformulär** markerar du relevant frågeformulär och väljer sedan åtgärden **Frågeområden**.  
 2. Öppna relevant frågeområde.  
 3. För varje fråga, verifiera att värdet i fältet **Svar** motsvarar format som tillhandahålls i fältet **Svarsalternativ**. Kontrollera till exempel att adressen för ett företag är i textformat.  
-4. Om du hittar fel, kan du utföra felsökning och göra korrigeringar i Excel, genom att exportera frågeformuläret och sedan importera det på nytt. Du kan även korrigera fel direkt i [!INCLUDE[d365fin](includes/d365fin_md.md)] när du granskar svaren i fönstret **Konfig. frågeområde**.  
+4. Om du hittar fel, kan du utföra felsökning och göra korrigeringar i Excel, genom att exportera frågeformuläret och sedan importera det på nytt. Du kan även korrigera fel direkt i [!INCLUDE[d365fin](includes/d365fin_md.md)] när du granskar svaren på sidan **Konfig. frågeområde**.  
 5. Upprepa dessa steg för varje frågeområde.  
 
 När du har slutfört din validering är din data klar att kopplas till databasen.  
@@ -105,7 +105,7 @@ När du har slutfört din validering är din data klar att kopplas till database
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Så här kopplar du svar från konfigurationsfrågeformuläret
 Efter att du har importerat och verifierat information från ett frågeformulär för konfiguration kan du överföra inställningsdatan till de motsvarande tabellerna i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk. Fönstret **Frågeformulär för inställningar** öppnas.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk. Sidan **Frågeformulär för inställningar** öppnas.  
 2. Markera ett konfigurationsfrågeformulär i listan och välj sedan åtgärden **Redigera lista**.  
 3. Du kan koppla svar på två sätt.  
 
@@ -113,7 +113,7 @@ Efter att du har importerat och verifierat information från ett frågeformulär
 - För att koppla svar enbart för ett visst **Frågeområde** väljer du åtgärden **Frågeområden**, väljer ett **Frågeområde** i listan och sedan åtgärden **Koppla svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Så här kontrollerar du att svar har kopplats korrekt  
-1. Kontrollera inställningsfönstren för olika huvudområden av [!INCLUDE[d365fin](includes/d365fin_md.md)]. För att hitta fönstret väljer du ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till namnet på inställningsfönstret och välj sedan relaterad länk.  
+1. Kontrollera inställningssidorna för olika huvudområden av [!INCLUDE[d365fin](includes/d365fin_md.md)]. För att hitta sidan väljer du ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till namnet på inställningssidan och välj sedan relaterad länk.  
 2. Kontrollera att fältet har fyllts i med rätt data från de olika frågeområdena i frågeformuläret för konfiguration.  
 
 Du har nu konfigurerat inställningen med kundens verksamhetsinformationen och regler.

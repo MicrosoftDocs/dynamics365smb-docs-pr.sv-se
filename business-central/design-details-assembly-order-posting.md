@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
@@ -53,7 +53,7 @@ Följande tabell skisserar sekvensen med åtgärder.
 |Åtgärd|Description|  
 |------------|-----------------|  
 |initialisera bokföring|1. Gör inledande kontroller.<br />2. Lägg till bokföringsnumret och ändra monteringsorderhuvudet.<br />3. Släpp monteringsordern.|  
-|Post|<ol><li>Skapa det bokförda monteringsorderhuvudet.</li><li>Kopiera kommentarsrader.</li><li>Bokför monteringsorderrader (förbrukning):<br /><br /> <ol><li>Skapa ett statusfönster för att beräkna monteringsförbrukning.</li><li>Få det återstående antalet som artikeljournalraden ska baseras på.</li><li>Återställ förbrukade och återstående kvantiteter.</li><li>För monteringsorderrader av typen Artikel:<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Överför reservationer till artikeljournalraden.</li><li>Bokför artikeljournalraden för att skapa artikeltransaktionerna.</li><li>Skapa distributionslagerjournalraderna och bokför dem.</li></ol></li><li>För monteringsorderrader av typen Resurs:<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Bokför artikeljournalraden. Det skapar kapacitetstransaktioner.</li><li>Skapa och bokför resursjournalraden.</li></ol></li><li>Överför fältvärden från monteringsorderraden till en nyligen skapad och bokförd monteringsorderrad.</li></ol></li><li>Bokför monteringsorderhuvudet (utflöde).<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Överför reservationer till artikeljournalraden.</li><li>Bokför artikeljournalraden för att skapa artikeltransaktionerna.</li><li>Skapa distributionslagerjournalraderna och bokför dem.</li><li>Återställ monteringsantalet och den återstående kvantiteten.</li></ol></li></ol>|  
+|Post|<ol><li>Skapa det bokförda monteringsorderhuvudet.</li><li>Kopiera kommentarsrader.</li><li>Bokför monteringsorderrader (förbrukning):<br /><br /> <ol><li>Skapa en statussida för att beräkna monteringsförbrukning.</li><li>Få det återstående antalet som artikeljournalraden ska baseras på.</li><li>Återställ förbrukade och återstående kvantiteter.</li><li>För monteringsorderrader av typen Artikel:<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Överför reservationer till artikeljournalraden.</li><li>Bokför artikeljournalraden för att skapa artikeltransaktionerna.</li><li>Skapa distributionslagerjournalraderna och bokför dem.</li></ol></li><li>För monteringsorderrader av typen Resurs:<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Bokför artikeljournalraden. Det skapar kapacitetstransaktioner.</li><li>Skapa och bokför resursjournalraden.</li></ol></li><li>Överför fältvärden från monteringsorderraden till en nyligen skapad och bokförd monteringsorderrad.</li></ol></li><li>Bokför monteringsorderhuvudet (utflöde).<br /><br /> <ol><li>Fyll i fälten för varje artikeljournalrad.</li><li>Överför reservationer till artikeljournalraden.</li><li>Bokför artikeljournalraden för att skapa artikeltransaktionerna.</li><li>Skapa distributionslagerjournalraderna och bokför dem.</li><li>Återställ monteringsantalet och den återstående kvantiteten.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Till skillnad från utflöde från produktion, som bokförs med förväntad kostnad, bokförs monteringsutflöde med faktisk kostnad.  

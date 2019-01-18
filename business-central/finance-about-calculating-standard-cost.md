@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
@@ -81,7 +81,7 @@ Du ställer in kostnaderna för varje tidstyp för varje maskin-/produktionsgrup
 > [!NOTE]  
 >  Kostnaderna för bearbetningstiden gäller för varje enskild tillverkad artikelenhet och att kostnaderna för omställningstiden gäller för varje enskilt parti. Därför måste omställningstiden i verksamhetsföljden fördelas proportionellt över partistorleken för varje operation. Partistorleken anges i motsvarande fält på snabbfliken **Beställning** för artikelkortet.  
 
-För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte inkludera den här kostnaden i den standardinställda kostnadsberäkningen avmarkerar du fältet **Kostnad inkl. omst.tid** i fönstret **Produktionsinställningar**.  
+För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte inkludera den här kostnaden i den standardinställda kostnadsberäkningen avmarkerar du fältet **Kostnad inkl. omst.tid** på sidan **Produktionsinställningar**.  
 
 På En-nivå-basis är detta den arbetskostnad som krävs för att producera den färdiga produktionsartikeln och anges på produktionsartikelns verksamhetsföljd. På en fler-nivå-basis är den kapacitet som har angetts för varje enskild tillverkad artikel som ingår i den överordnade artikelns struktur.  
 

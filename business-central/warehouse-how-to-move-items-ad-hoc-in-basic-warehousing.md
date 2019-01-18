@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytta artiklar ad hoc i grundläggande lagerkonfigurationer
@@ -22,11 +22,11 @@ Ibland kan du behöva flytta artiklar mellan interna lagerplatser, inte inlevera
 
 I grundläggande distributionslagerkonfiguration, dvs lagerställen som använder **Lagerplats ska finnas** inställningsfältet, och möjligen **Begär plockning** och den **Begär artikelinförsel** inställningarna, kan du registrera ad hoc-transporter utan källdokument på följande sätt:  
 
-- Med **Internförflyttning** fönstret.  
-- Med fönstret **Artikelgrupperingsjournal**.  
+- Med sidan **Intern förflyttning**.  
+- Med sidan **Artikelgrupperingsjournal**.  
 
 > [!NOTE]  
->  I avancerad lagerkonfiguration, dvs lagerställen som använder **Dirigerad art.inf. och plock.** inställningsfältet använder du **Transportkalkylark** fönstret eller **Intern Dist.lager plockning** eller **Intern Dist.lager art.införsel** fönstren för flytta artiklar som är ad hoc mellan lagerplatser.  
+>  I avancerad lagerkonfiguration, dvs lagerställen som använder **Dirigerad art.inf. och plock.** inställningsfältet använder du **Transportkalkylark** sidan eller **Intern Dist.lager plockning** eller **Intern Dist.lager art.införsel** för flytta artiklar som är ad hoc mellan lagerplatser.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Så här flyttar du artiklar som en internförflyttning  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Interntransport** och välj sedan relaterad länk.  
@@ -36,7 +36,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
     Om lagerstället lagts upp som din standardplats som distributionslageranvändare, infogas lagerställekod i automatiskt.  
 4.  I **Till lagerplatskod** fältet, ange en kod för den lagerplats som du vill flytta artikeln till. För produktionen kan detta vara till exempel en öppen produktionslagerplatskod som har angetts på lagerställekortet eller i produktionsgruppen.  
 5.  I **Förfallodatum** fältet, ange det datum då transporten måste ha slutförts.  
-6.  På snabbfliken **Rader** väljer du fältet **Artikelnr** för att öppna fönstret **Lagerplatsinnehåll lista** och välj sedan artikeln som ska flyttas baserat på dess tillgänglighet i lagerplatserna. Det går också att välja **Hämta lagerplatsinnehåll** för att fylla i interförflyttningsrader baserat på dina filter. Mer information finns i beskrivningen för åtgärden **Hämta lagerplatsinnehåll**.   
+6.  På snabbfliken **Rader** väljer du fältet **Artikelnr** för att öppna sidan **Lagerplatsinnehåll lista** och välj sedan artikeln som ska flyttas baserat på dess tillgänglighet i lagerplatserna. Det går också att välja **Hämta lagerplatsinnehåll** för att fylla i interförflyttningsrader baserat på dina filter. Mer information finns i beskrivningen för åtgärden **Hämta lagerplatsinnehåll**.   
 
     När du har valt artikel innehåller fältet **Från lagerplatskod** automatiskt enligt valt lagerplats, men du kan ändra den till en annan lagerplats där artikeln är tillgänglig.  
 
@@ -54,7 +54,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
     > [!NOTE]  
     >  När du har skapat lagerförflyttningen, tas rad för interntransport bort.  
 
-    Du utför resten av ad hoc-flyttningen i **Lagertransport** fönstret, på samma sätt som du skulle för en transport baserat på källdokument. För mer information, se [Flytta komponenter till ett verksamhetsområde i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Du utför resten av ad hoc-flyttningen på sidan **Lagertransport**, på samma sätt som du skulle för en transport baserat på källdokument. För mer information, se [Flytta komponenter till ett verksamhetsområde i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Så här flyttar du artiklar med artikelgrupperingsjournalen
 Du kan registrera flyttning av objekt genom att gruppera de lagerplatskoder som finns i stället för att använda dokument för distributionslagertransport. Mer information finns i [Inventera, justera och gruppera om lager](inventory-how-count-adjust-reclassify.md).   

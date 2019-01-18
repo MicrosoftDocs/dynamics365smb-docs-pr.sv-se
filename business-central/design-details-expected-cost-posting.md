@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokföring av förväntad kostnad
@@ -27,12 +27,12 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
 > [!NOTE]  
 >  Förväntade kostnader hanteras endast för artikeltransaktioner. Förväntade kostnader är inte för immateriella transaktionstyper, till exempel kapacitet och artikelomkostnader.  
 
- Om endast antalsdelen för en lagerökning har bokförts ändras lagervärdet inte i redovisningen, om du inte har markerat kryssrutan **Förväntad kost.bokf. i redov.** i fönstret the **Lagerinställningar**. I så fall bokförs förväntade kostnader på interimskonton vid tidpunkten för inleveransen. När inleveransen har fakturerats helt balanseras interimskontona och den faktiska kostnaden bokförs till lagerkontot.  
+ Om endast antalsdelen för en lagerökning har bokförts ändras lagervärdet inte i redovisningen, om du inte har markerat kryssrutan **Förväntad kost.bokf. i redov.** på sidan **Lagerinställningar**. I så fall bokförs förväntade kostnader på interimskonton vid tidpunkten för inleveransen. När inleveransen har fakturerats helt balanseras interimskontona och den faktiska kostnaden bokförs till lagerkontot.  
 
  För att stödja avstämning och spårbarhet visar den fakturerade värdetransaktionen det förväntade kostnadsbeloppet som har bokförts för att motkontera interimskontona.  
 
 ## <a name="example"></a>Exempel  
- Följande exempel visar förväntade kostnaden om kryssrutan **Automatisk kostnadsbokföring** och kryssrutan **Förväntad kost.bokf. i redov.** är markerad i fönstret **Lagerinställningar**.  
+ Följande exempel visar förväntade kostnaden om kryssrutan **Automatisk kostnadsbokföring** och kryssrutan **Förväntad kost.bokf. i redov.** är markerad på sidan **Lagerinställningar**.  
 
  Du bokför en inköpsorder som mottagen. Förväntad kostnad är 95,00 BVA.  
 

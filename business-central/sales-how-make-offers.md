@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Gör försäljningsofferter
@@ -29,15 +29,15 @@ Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende p
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsofferter** och välj sedan relaterad länk.
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
-   Andra fält i fönstret **Försäljningsoffert** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
+   Andra fält på sidan **Försäljningsoffert** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
 3. Ange namnet på en ny kund i fältet **Kund**.
 4. Välj knappen **ja** i dialogrutan om registrering av den nya kunden.
-5. Välj en mall det nya kundkortet ska baseras på i fönstret **Välj en mall för en ny kund** och välj sedan knappen **OK**.
+5. Välj en mall det nya kundkortet ska baseras på sidan **Välj en mall för en ny kund** och välj sedan knappen **OK**.
 6. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
-7. Välj **OK** för att gå tillbaka till fönstret **Försäljningsoffert**, när du har slutfört kundkortet.
+7. Välj **OK** för att gå tillbaka till sidan **Förs.offert**, när du har slutfört kundkortet.
 
    Flera fält i Försäljningsofferten är nu ifyllda med information som du har angett på det nya kundkortet.  
-8. I fönstret **Försäljningsoffert** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. På sidan **Förs.offert** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
 
@@ -69,10 +69,10 @@ Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende p
     Om du har ställt in fakturarabatter för kunden, då infogas det angivna procentsatsvärdet automatiskt i fältet **Fakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Inv. Rabattbelopp exkl. moms**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > För att fylla i **Offertens giltighetsdatum** fylls i automatiskt med ett visst antal dagar efter att offerten har skapats, kan du fylla i **Beräkning av offertens giltighet** i fönstret **Försäljning & kundreskontra**. 
+    > För att fylla i **Offertens giltighetsdatum** fylls i automatiskt med ett visst antal dagar efter att offerten har skapats, kan du fylla i **Beräkning av offertens giltighet** på sidan **Försäljning & kundreskontra**. 
 
 15. När försäljningsoffertraderna slutförda väljer du åtgärden **Skicka med e-post**.
-16. I fönstret **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
+16. På sidan **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 17. Om kunden accepterar offerten väljer du åtgärden **Gör faktura** eller **Gör order**.
 
 Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller försäljningsorder har skapats baserat på informationen i försäljningsofferten där du kan bearbeta försäljningen. I fältet **Offertnr** på försäljningsfakturan eller försäljningsordern kan du ange numret på försäljningsofferten som den har skapats från. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).

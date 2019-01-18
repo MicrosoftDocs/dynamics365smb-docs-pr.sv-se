@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Så här visar du beläggning på produktions- och maskingrupper
-I fönstren **produktionsgruppkort** och **maskingruppkort** kan du se beläggningen på fabriken till följd av planerade och släppta produktionsorder.    
+På sidorna **produktionsgruppkort** och **maskingruppkort** kan du se beläggningen på fabriken till följd av planerade och släppta produktionsorder.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Så här visar du produktionsgruppsbeläggningen  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Produktionsgrupper** och välj sedan relaterad länk.  

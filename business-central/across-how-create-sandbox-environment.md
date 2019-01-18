@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ Du måste ha en prenumeration på [!INCLUDE[d365fin](includes/d365fin_md.md)] f�
 6. Högst upp i Rollcentret visas ett meddelande att informera dig om att det är begränsat läge. Du kan också se miljötypen i namnlisten på klienten.
 ![Rollcenteraviseringar för begränsat läge](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 I begränsat läge, har en helt ny innehavare skapats. Den här innehavaren laddas med standarddemonstrationsdata för företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön när begränsat läge skapas.
-7.  När som helst kan du återgå till fönstret **begränsat läge** och återställa begränsat läge.
+7.  När som helst kan du återgå till sidan **begränsat läge** och återställa begränsat läge.
 > [!NOTE]  
 >  Återställa begränsat läge tar bort den helt och skapar den sedan igen med standarddemonstrationsdata.  
 
@@ -58,7 +58,7 @@ I begränsat läge finns i designern på klienten aktiverad, som du kan aktivera
 ![Designern på klienten.](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Aktivera avancerade användare
-Det går att aktivera och prova avancerade (alla) funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett begränsat läge för innehavare genom att ange fältet **upplevelse** i fönstret **företagsinformation**.
+Det går att aktivera och prova avancerade (alla) funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett begränsat läge för innehavare genom att ange fältet **upplevelse** på sidan **företagsinformation**.
 
 ![Avancerad miljö för begränsat läge.](./media/across-sandbox/sandbox-advanced.png)
 

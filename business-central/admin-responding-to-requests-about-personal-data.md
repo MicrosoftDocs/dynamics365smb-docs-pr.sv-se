@@ -5,16 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -31,7 +29,7 @@ Följande tabell innehåller exempel på olika typer av förfrågningar som du k
 |Förfrågan - typ|Beskrivning och föreslagna svar|
 |-----|-----|
 |Begäranden för portabilitet|Ett datasubjekt kan göra en begäran om dataportabilitet, vilket bland annat betyder att man måste exportera datasubjektets personuppgifter från ditt system och tillhandahålla dem i ett strukturerat format som ofta används. Om du vill svara på förfrågningarna använder du **Verktyg för datasekretess** för att exportera personuppgifter till en Excel-fil eller ett RapidStart-konfigurationspaket. Med Excel kan du redigera personuppgifterna och spara dem i ett format som används ofta och som är maskinläsbart, som CSV- eller XML. För RapidStart-konfigurationspaket kan du konfigurera huvuddatatabeller och relaterade tabeller som innehåller personuppgifter. <br><br> **Obs!** när du exporterar data anger du en lägsta känslighetsnivå. Exporten omfattar minsta och alla känslighetsnivåer ovanför. Till exempel om du vill exportera data som klassificeras som personliga omfattar även exporten data som klassificeras som känsliga data. <br><br>När du exporterar data för den registrerade, letar **Verktyg för datasekretess** efter direkta relationer mellan den registrerade och data som är relaterad till den berörda personen. Indirekta samband mellan data som är relaterade till den berörda personen och övriga data exporteras inte automatiskt av **Verktyg för datasekretess**. Exempelvis tabellen Kontakt innehåller en direkt relaterad Kontaktprofilsvarsdata och tabellen Kontaktprofilsvar är information som rör data från profilfrågor. Om du vill exportera profilfrågor måste du också lägga till den här tabellen manuellt som en rad med lämpliga filter i konfigurationspaketet som **Verktyg för datasekretess** skapar.|
-|Begäranden om borttagning|En person kan begära att du tar bort deras personuppgifter. Det finns flera sätt att ta bort personlig information med hjälp av anpassningsfunktionerna, men du bär ansvaret för beslut och genomförande. I vissa fall kan du välja att redigera data direkt, till exempel ta bort en kontakt och sedan köra batch-jobbet Ta bort avbruten för att ta bort interaktioner för kontakten. <br><br> **Obs:** Om du har angett ett datum i fältet **Dokumentet kan tas bort före** i fönstret **Försäljningsinställningar** eller fönstret **Inköpsinställningar** kan du behöva ändra datumet så att du kan ta bort bokförda försäljnings- och inköpsdokument som du har skrivit ut och som har bokföringsdatum som infaller på eller före detta datum.|
+|Begäranden om borttagning|En person kan begära att du tar bort deras personuppgifter. Det finns flera sätt att ta bort personlig information med hjälp av anpassningsfunktionerna, men du bär ansvaret för beslut och genomförande. I vissa fall kan du välja att redigera data direkt, till exempel ta bort en kontakt och sedan köra batch-jobbet Ta bort avbruten för att ta bort interaktioner för kontakten. <br><br> **Obs:** Om du har angett ett datum i fältet **Dokumentet kan tas bort före** på sidan **Försäljningsinställningar** eller **Inköpsinställningar** sidor kan du behöva ändra datumet så att du kan ta bort bokförda försäljnings- och inköpsdokument som du har skrivit ut och som har bokföringsdatum som infaller på eller före detta datum.|
 |Begäranden om rättning|En person kan begära att du korrigerar felaktiga personuppgifter. Detta kan göras på olika sätt. I vissa fall kan du exportera listor till Excel för att snabbt massredigera flera poster och sedan importera den uppdaterade informationen. Mer information finns i [Exportera dina affärsdata till Excel](about-export-data.md). Du kan även manuellt redigera fält som innehåller personuppgifter, till exempel redigera information om en kund på kundkortet. Transaktionsposter som till exempel Allmänt, Kund och Redovisning av skattetransaktioner är emellertid nödvändiga för integriteten i företagets resursplaneringssystem. Om du lagrar personuppgifter i affärstransaktionsposter, överväg då att du använda anpassningsfunktionerna för att ändra dessa personuppgifter.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Begränsa databearbetning för datasubjekt

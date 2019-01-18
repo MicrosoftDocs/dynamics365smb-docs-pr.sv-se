@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
@@ -41,7 +41,7 @@ Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitali
 |Allmänna egenskaper|Enkelt att förstå|Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Enkelt att använda men kräver kvalificerat underhåll.|Kräver artikelspårning på både ankommande och avgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|  
 |Koppling/justering|Koppling håller reda på **det återstående antalet**.<br /><br /> Justering vidarebefordrar kostnader enligt antalskoppling.|Koppling håller reda på **återstående antal**.<br /><br /> Kostnader beräknas och speditioneras per **värderingsdatum**.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Alla kopplingar är fasta.|  
 |Omvärdering|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan endast utföras per artikel.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|  
-|Diverse|Om du bakåtdaterar en lagerminskning kopplas befintliga transaktioner INTE om för att ge ett korrekt FIFO-kostnadsflöde.|Om du bakåtdaterar en lagerökning eller lagerminskning beräknas genomsnittskostnaden om och alla transaktioner som påverkas justeras.<br /><br /> Om du ändrar perioden eller beräkningstypen måste alla påverkade transaktioner justeras.|Använd fönstret **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|  
+|Diverse|Om du bakåtdaterar en lagerminskning kopplas befintliga transaktioner INTE om för att ge ett korrekt FIFO-kostnadsflöde.|Om du bakåtdaterar en lagerökning eller lagerminskning beräknas genomsnittskostnaden om och alla transaktioner som påverkas justeras.<br /><br /> Om du ändrar perioden eller beräkningstypen måste alla påverkade transaktioner justeras.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|  
 
 ## <a name="example"></a>Exempel  
  Det här avsnittet ger exempel på hur olika värderingsprinciper påverkar lagervärdet.  

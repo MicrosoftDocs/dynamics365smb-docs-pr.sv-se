@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
@@ -45,16 +45,16 @@ Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktu
 
 Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokföringsmetoder för både kassarabattstolerans och betalningstolerans samt köra batch-jobbet **Ändra betalningstolerans**.  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.  
-2. I fönstret **Bokföringsinställningar** anger du ett debet- och ett kreditkonto för försäljningsbetalningstolerans och ett debet- och ett kreditkonto för inköpsbetalningstolerans.  
+2. Öppna sidan **Bokföringsinställningar**. Lägg upp ett debet- och ett kreditkonto för försäljningsbetalningstolerans och ett debet- och ett kreditkonto för inköpsbetalningstolerans.  
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kundbokföringsmallar** och välj sedan relaterad länk.    
-4. I fönstret **Kundbokföringsmallar** anger du ett debetkonto och ett kreditkonto för betalningstolerans. Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
+4. Öppna sidan **Kundbokföringsmallar**. Lägg upp ett debetkonto och ett kreditkonto för betalningstolerans. Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
 5. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar för leverantör** och välj sedan relaterad länk.  
-6. I fönstret **Leverantörsbokföringsmallar** anger du ett debetkonto och ett kreditkonto för betalningstolerans.  
+6. Öppna sidan **Leverantörsbokföringsmallar**. Lägg upp ett debetkonto och ett kreditkonto för betalningstolerans.  
 7. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
-8. Öppna fönstret **Redovisningsinställningar**.  
+8. Öppna sidan **Redovisningsinställningar**.  
 9. På snabbfliken **Program**, fyll i fälten **Kassarabattolerans bokf.**, **Kassarabattfrist** och **Betalningstolerans bokföring**.   
 10. Välj åtgärden **Ändra betalningstolerans**.
-11. I fönstret **Ändra betalningstolerans** genom att fylla i fälten **Betalningstolerans %** och **Max.belopp betalningstolerans** samt välja **OK**.
+11. P sidan **Ändra betalningstolerans** genom att fylla i fälten **Betalningstolerans %** och **Max.belopp betalningstolerans** samt välja **OK**.
 
 > [!IMPORTANT]  
 >  Du har nu lagt upp toleransen för basvalutan. Om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska hantera tolerans för betalningar, kreditnotor och återbetalningar i en utländsk valuta ska hanteras måste du köra batch-jobbet **Ändra betalningstolerans** med ett värde i fältet **Valutakod**.  
@@ -69,10 +69,10 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.    
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
-2. I fönstret **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att avmarkera kryssrutan.  
+2. På sidan **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att avmarkera kryssrutan.  
 
 > [!NOTE]  
->  Standardalternativet för fönstret **Betal.tolerans varning** är **Lämna saldo som återstående belopp**. Standardalternativet för fönstret **Kassarabattolerans varning** är **Acceptera inte sen kassarabatt**.
+>  Standardalternativet för sidan **Betal.tolerans varning** är **Lämna saldo som återstående belopp**. Standardalternativet för sidan **Kassarabattolerans varning** är **Acceptera inte sen kassarabatt**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Så här spärrar du betalningstolerans för kunder  
 Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Nedan beskrivs hur du gör för en kund. Momenten är liknande för en leverantör.
@@ -86,7 +86,7 @@ Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleran
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exempel 1 - toleransberäkningar för enstaka dokument
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer.  
 
-Fönstret **redovisning** innehåller följande inställningar:
+Sidan **redovisning** innehåller följande inställningar:
 - Kassarabattfrist:    5D  
 - Max betalningstolerans: 5  
 
@@ -155,7 +155,7 @@ normala kopplingsregler
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exempel 2 -  toleransberäkningar för flera dokument
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer. Exemplen gäller bara de scenarier som resulterar i att alla poster i programmet stängs.  
 
-Fönstret **redovisning** innehåller följande inställningar:
+Sidan **redovisning** innehåller följande inställningar:
 - Kassarabattfrist    5D  
 - Max betalningstolerans; 5  
 

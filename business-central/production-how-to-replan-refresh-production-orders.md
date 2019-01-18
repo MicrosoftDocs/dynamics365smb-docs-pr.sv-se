@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanera eller uppdatera produktionsorder direkt
@@ -41,7 +41,7 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 4.  Lägg till en komponent som är en producerad artikel eller halvfabrikat.  
 5.  Från produktionsordern väljer du åtgärden **Omplanera**.  
 
-    I fönstret **Omplanera produktionsorder** anger du vad som ska omplaneras och hur:  
+    På sidan **Omplanera produktionsorder** anger du vad som ska omplaneras och hur:  
 6.  I fältet **Planeringsriktning**, välj ett av följande alternativ.  
 
     |Alternativ|Description|  
@@ -68,7 +68,7 @@ Om du har ändrat produktionsorderrader, komponenter eller verksamhetsföljdrade
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**. För mer information, se [Skapa produktionsorder](production-how-to-create-production-orders.md).  
 3.  Välj åtgärden **Uppdatera**.
-4. Du kan välja en av följande alternativ i fönstret **Uppdatera produktionsorder**:
+4. Du kan välja en av följande alternativ på sidan **Uppdatera produktionsorder**:
 
     |Alternativ|Description|  
     |----------------------------------|---------------|---------------------------------------|  

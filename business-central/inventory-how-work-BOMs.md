@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Arbeta med strukturer
@@ -51,16 +51,16 @@ Det finns två delar för att skapa en monteringsstruktur:
 1. Skapa en ny artikel. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
     Fortsätt med att ange komponenter eller resurser i monteringsstrukturen.  
-2. I fönstret **artikelkort** för en monteringsartikel väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
-3. I fönstret **Monteringsstruktur** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På sidan **artikelkort** för en monteringsartikel väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
+3. På sidan **Monteringsstruktur** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Att visa komponenter i en monteringsartikel som dras in enligt strukturen
-Från fönstret **Monteringsstruktur** kan du öppna ett separat fönster som visar komponenterna och resurserna med indrag enligt deras strukturplats under monteringsartikeln.
+Från sidan **Monteringsstruktur** kan du öppna en separat sida som visar komponenterna och resurserna med indrag enligt deras strukturplats under monteringsartikeln.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
-2. Öppna kortet för monteringsartikeln. (Fältet **Monteringsstruktur** i fönstret **artiklar** innehåller **Ja**.)
-3. I fönstret **artikelkort** väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
-4. I fönstret **Monteringsstruktur** väljer du åtgärden **visa struktur**.
+2. Öppna kortet för monteringsartikeln. (Sidan **Monteringsstruktur** på sidan **artiklar** innehåller **Ja**.)
+3. På sidan **artikelkort** väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
+4. På sidan **Monteringsstruktur** väljer du åtgärden **visa struktur**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Ersätta monteringsartikeln med de komponenter som ingår i rader
 Du kan använda en särskild funktion för att ersätta raden för monteringsartikeln med nya rader för dess komponenter från alla försäljnings- och inköpsdokument som innehåller en monteringsartikel. Den här funktionen används, till exempel för att sälja komponenter som en sats som motsvarar monteringsartikeln.
@@ -75,19 +75,19 @@ Följande procedur är baserad på en försäljningsfaktura. Samma steg gäller 
 
 Alla fält på försäljningsfakturaraden för den monterade artikeln avmarkeras utom fälten **artikel** och **beskrivning**. Ifyllda försäljningsfakturarader infogas för komponenter och eventuella resurser som utgör grunden för monteringsartikeln.
 
-**Observera**: funktionen Expandera struktur finns också i fönstret **Monteringsstruktur**.
+**Observera**: funktionen Expandera struktur finns också på sidan **Monteringsstruktur**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Beräkna standardkostnaden för monteringsartikel
 Du beräknar styckkostnaden för en monteringsartikel genom att summera styckkostnaden för varje komponent och resurs i artikelns monteringsstruktur.
 
-Du kan även beräkna och uppdatera standardkostnaden för en eller flera artiklar i fönstret **Standardkostnadsformulär**. För mer information, se [Uppdateras standardkostnader](finance-how-to-update-standard-costs.md).  
+Du kan även beräkna och uppdatera standardkostnaden för en eller flera artiklar på sidan **Standardkostnadsformulär**. För mer information, se [Uppdateras standardkostnader](finance-how-to-update-standard-costs.md).  
 
 Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda styckkostnaderna för komponenterna, inklusive andra monterinhsstrukturer och resurser.
 
 1. Välj ikonen **Söka efter sida eller rapport** i det övre högra hörnet, gå till **Artiklar** och välj sedan relaterad länk.
-2. Öppna kortet för monteringsartikeln. (Fältet **Monteringsstruktur** i fönstret **artiklar** innehåller **Ja**.)
-3. I fönstret **artikelkort** väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
-4. I fönstret **Monteringsstruktur** kan du välja åtgärden **beräkna standardkostnad**.
+2. Öppna kortet för monteringsartikeln. (Sidan **Monteringsstruktur** på sidan **artiklar** innehåller **Ja**.)
+3. På sidan **artikelkort** väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
+4. På sidan **Monteringsstruktur** kan du välja åtgärden **beräkna standardkostnad**.
 5. Markera ett av alternativen och klicka på **OK**.
 
 |Alternativ |Description |

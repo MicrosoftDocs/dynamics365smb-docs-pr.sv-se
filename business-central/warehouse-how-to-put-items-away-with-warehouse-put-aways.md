@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Föra in artiklar med lagerartikelinförsel
@@ -72,7 +72,7 @@ Lagerplatsordningen beaktas när fler än en lagerplats matchar villkoren i arti
     Om fältet **Dokumentstatus** är tomt har inleveransen inte förts in alls. Annars visar det här fältet att Inleverans är delartikelinförsel eller färdig artikelinförsel.  
 
 4.  Om inleveransen har införts delvis eller inte alls väljer du åtgärden **Skapa artikelinförsel**.  
-5.  Fyll i fönstret för begäran om batch-jobbet för att skapa artikelinförseln och klicka på **OK**.   
+5.  Fyll i sidan för begäran om batch-jobbet för att skapa artikelinförseln och klicka på **OK**.   
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

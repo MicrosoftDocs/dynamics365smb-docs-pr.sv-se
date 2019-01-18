@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändra grundinställningar
-I fönstret [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
+På sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
 ## <a name="role-center"></a> Rollcenter
 Rollcentret representerar startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
@@ -30,7 +30,7 @@ Rollcentret representerar startsidan, en startskärm som har utformats för den 
 ### <a name="to-change-role-center"></a>Så här ändrar du rollcentret
 Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål.
 1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "ikonen för inställningar för rollcenter"), och välj **Mina inställningar**.
-2. I fönstret **Mina inställningar** i fältet **Rollcenter** väljer du det rollcenter som du vill ange som standard. Välj till exempel **Revisor**.
+2. På sidan **Mina inställningar** i fältet **Rollcenter** väljer du det rollcenter som du vill ange som standard. Välj till exempel **Revisor**.
 3. Välj knappen **OK**.
 
 ## <a name="company"></a>Företag
@@ -39,7 +39,7 @@ Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/
 Standardföretaget kallas CRONUS och innehåller endast demonstratiosdata.
 
 > [!TIP]  
->   Om du vill visa ett annat namn för ditt företag i programmet (till exempel på startsidan för rollcenter) anger du fältet **Namn** i fönstret **Företagsinformation** eller fältet **Visningsnamn** i fönstret **Företag**.  
+>   Om du vill visa ett annat namn för ditt företag i programmet (till exempel på startsidan för rollcenter) anger du fältet **Namn** på sidan **Företagsinformation** eller fältet **Visningsnamn** på sidan **Företag**.  
 
 ## <a name="work-date"></a>Arbetsdatum
 Standardarbetsdatumet är vanligen dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatumet.

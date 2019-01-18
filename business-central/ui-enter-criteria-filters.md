@@ -11,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1ee115c258c25d8b695a0394dbaa11247b9b8ab
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f0cdb045d314a630e795ec744f2f4470d930835a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortera, söka och filtrera listor
@@ -123,7 +123,7 @@ En filterruta är indelad i tre avsnitt: **Vyer**, **Filtrera lista efter** och 
   Lägg till ett filter genom att markera **+ Filter**, välj en av de fördefinierade dimensionerna och ange filterkriterierna i rutan.
 
   > [!NOTE]
-  > Filter i avsnittet **Filtrera summor efter** styrs av FlowFilter i sidans design. Teknisk information finns i [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filter i avsnittet **Filtrera summor efter** styrs av FlowFilter på sidans design. Teknisk information finns i [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
 ### <a name="entering-filter-criteria-in-the-filter-pane"></a>Ange filterkriterier i filterrutan

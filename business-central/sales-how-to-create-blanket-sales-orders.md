@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
@@ -42,7 +42,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 2.  När du vill börja skapa order väljer du åtgärden **Skapa order** och väljer sedan **Ja**. Du får ett meddelande om att avropsordern har tilldelats ett ordernummer. Observera att avropsordern inte har tagits bort.  
 3.  Välj knappen **OK**.  
 4.  På snabbfliken **Rad** väljer du åtgärden **Ej bokförda rader** och sedan väljer du åtgärden **Order**.  
-5.  I fönstret **Försäljningsrader** väljer du önskad försäljningsorde, väljer åtgärden **Rad** och väljer sedan åtgärden **Visa dokument** action.  
+5.  På sidan **Försäljningsrader** väljer du önskad försäljningsorde, väljer åtgärden **Rad** och väljer sedan åtgärden **Visa dokument** action.  
 
 Följande gäller försäljningsorder, när de har skapats från försäljningsavropsorder:  
 
@@ -53,14 +53,14 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 - Om en försäljningsorder inte skapas direkt från en avropsorder men ändå är relaterad till den kan du skapa en koppling mellan försäljningsordern och avropsordern genom att skriva in numret på den associerade avropsordern i fältet **Avropsordernr** på försäljningsorderraden.  
 - När du har skapat en eller flera försäljningsorder för hela antalet på avropsorderraden, kan inga andra försäljningsorder skapas för samma rad. Användare förhindras från att ange ett antal i fältet **antal. att utleverera**. Om du senare behöver lägga till ytterligare antal på en avropsorder kan du öka värdet i fältet **Antal** och sedan skapa ytterligare order.  
 - Den fakturerade försäljningsavropsordern finns kvar i systemet tills den tas bort, antingen genom att enskilda avropsorder tas bort eller att batch-jobbet **Ta bort faktrd förs.avropsord.** körs.  
-- Om en kund dessutom har registrerats som en kontakt i modulen Marknadsföring, och om en interaktionsmallkod har angetts för avropsorder i fönstret **Marknadsföringsinställning** registreras en interaktion i tabellen Interaktionslogg när du väljer **Skriv ut** för att skriva ut avropsordern.
+- Om en kund dessutom har registrerats som en kontakt i modulen Marknadsföring, och om en interaktionsmallkod har angetts för avropsorder på sidan **Marknadsföringsinställning** registreras en interaktion i tabellen Interaktionslogg när du väljer **Skriv ut** för att skriva ut avropsordern.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Så här visar du status för avropsorder:  
-Du kan visa statusen för en försäljningsavropsordern i fönstret **Inköpsorderstatistik**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån avropsordern.  
+Du kan visa statusen för en försäljningsavropsordern på sidan **Inköpsorderstatistik**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån avropsordern.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsavropsorder** och välj sedan relaterad länk.  
 2.  Markera en inköpsavropsorder och välj åtgärden **statistik**.  
-3.  På snabbfliken **Allmänt** i fönstret **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
+3.  På snabbfliken **Allmänt** på sidan **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
 
     - På snabbfliken **Fakturering** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att fakturera** på avropsorderraderna.  
     - På snabbfliken **Leverans** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att inlevereras** på avropsorderraderna.  
@@ -120,7 +120,7 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
     <td>Bokförda kreditnotor som är associerade till den markerade raden.</td>
     </tr>
     </table>
-5. I fönstret **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
+5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

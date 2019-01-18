@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ Du kan använda följande rapporter:
 * **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
 * Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder i alla länder som använder moms.
 
-Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på fönstret **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att visa momstransaktioner, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **momstransaktioner** och välj sedan relaterad länk.
+Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att visa momstransaktioner, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **momstransaktioner** och välj sedan relaterad länk.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten med EU-försäljningslista
 I Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder i inom Europeiska unionen (EU) lämna in en elektronisk version av rapporten i XML-format via webbplatserna Her Majesty's Revenue och Customs. EG-försäljningslisterapporten fungerar bara för länder inom EU.
@@ -39,7 +39,7 @@ Rapporten innehåller en rad för varje typ av transaktion med kunden och visar 
 
 B2B varor och tjänster som anger om du köpt en vara eller tjänst, och är kontrollerade av inställningen **EU-tjänst** i momsbokföringen. B2B triangulerade varor anger om du bedriver handel med en 3:e part och är kontrollerad av inställningen **EU trepartshandel** för försäljningsdokument, till exempel försäljningsorder, fakturor, kreditnotor och så vidare.  
 
-När skattemyndigheten granskar rapporten, skickar de ett e-postmeddelande till kontaktpersonen för ditt företag. I [!INCLUDE[d365fin](includes/d365fin_md.md)] anges kontaktpersonen i fönstret **företagsinformation**. Kontrollera att du väljer en kontaktperson i tabellen innan du skickar rapporten.
+När skattemyndigheten granskar rapporten, skickar de ett e-postmeddelande till kontaktpersonen för ditt företag. I [!INCLUDE[d365fin](includes/d365fin_md.md)] anges kontaktpersonen på sidan **företagsinformation**. Kontrollera att du väljer en kontaktperson i tabellen innan du skickar rapporten.
 
 ## <a name="about-the-vat-return-report"></a>Om rapporten momsretur
 Använd den här rapporten om du vill skicka in moms för försäljnings- och inköpsdokument, till exempel inköpsorder och försäljningsorder, fakturor och kreditnotor. Informationen i rapporten är uppställd på samma sätt som i deklarationen från skattemyndigheten.  
@@ -80,7 +80,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
 5. Om du vill skicka rapporten, väljer du åtgärden **skicka**.  
 
-När du skickar rapporten, övervakar [!INCLUDE[d365fin](includes/d365fin_md.md)] tjänsten och håller reda på dina meddelanden. Fältet **Status** indikerar var rapporten finns i processen. Till exempel när myndigheterna bearbetar rapporten, ändras rapportens status till **lyckades**. Om fel hittas i rapporten som du har skickat in till skattemyndigheten visar status för rapporten **misslyckad**. Du kan visa fel under **fel och varningar**, rätta till dem och sedan skicka rapporten igen. Om du vill visa en lista över alla EG-försäljningslisterapporter, går du till fönstret **EG försäljningsrapporter**.  
+När du skickar rapporten, övervakar [!INCLUDE[d365fin](includes/d365fin_md.md)] tjänsten och håller reda på dina meddelanden. Fältet **Status** indikerar var rapporten finns i processen. Till exempel när myndigheterna bearbetar rapporten, ändras rapportens status till **lyckades**. Om fel hittas i rapporten som du har skickat in till skattemyndigheten visar status för rapporten **misslyckad**. Du kan visa fel under **fel och varningar**, rätta till dem och sedan skicka rapporten igen. Om du vill visa en lista över alla EG-försäljningslisterapporter, går du till sidan **EG försäljningsrapporter**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Visa kommunikationen med skattemyndigheten.
 I vissa länder skickar du meddelanden till skattemyndigheten när du skickar rapporter. Du kan visa första och det sista meddelandet som du skickat eller tagit emot genom att välja åtgärderna **hämta skickat meddelande** och **hämta svarsmeddelandet**.  

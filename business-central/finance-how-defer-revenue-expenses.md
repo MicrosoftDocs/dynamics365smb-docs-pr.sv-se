@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisera intäkter och kostnader
@@ -36,12 +36,12 @@ För båda typerna av periodisering väljer du **balansräkningen** i fältet **
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Periodiseringsmallar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
-4. I fältet **Beräkningsmetod** anger du hur fältet **Belopp** för varje period i fönstret **Periodiseringsschema** beräknas. Du kan välja mellan följande typer:
+4. I fältet **Beräkningsmetod** anger du hur fältet **Belopp** för varje period på sidan **Periodiseringsschema** beräknas. Du kan välja mellan följande typer:
 
    * **Rak**: De periodiska periodiseringsbeloppen beräknas enligt antalet perioder som fördelas enligt periodlängd.
    * **Linjär**: De periodiska periodiseringsbeloppen beräknas enligt antalet perioder som fördelas jämt över perioder.
    * **Dagar per period**: De periodiska periodiseringsbeloppen beräknas enligt antalet dagar i perioden.
-   * **Användardefinierad**: De periodiska periodiseringsbeloppen beräknas inte. Du måste manuellt fylla i fältet **Belopp** för varje period i fönstret Periodiseringsschema. För mer information, se avsnittet “Så här ändrar du ett uppskjutandeschema från en försäljningsfaktura”.
+   * **Användardefinierad**: De periodiska periodiseringsbeloppen beräknas inte. Du måste manuellt fylla i fältet **Belopp** för varje period på sidan Periodiseringsschema. För mer information, se avsnittet “Så här ändrar du ett uppskjutandeschema från en försäljningsfaktura”.
 5. I fältet **Periodbesk.** anger du en beskrivning som visas i transaktioner för periodiseringsbokföringen. Du kan ange följande platshållarkoder för vanliga värden, som ska infogas automatiskt, när periodbeskrivningen visas.
 
    * %1 = Dagnumret för periodens bokföringsdatum
@@ -67,7 +67,7 @@ Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodisera
 
     Observera att så snart du anger artikeln (eller resursen eller redovisningskontot) för fakturaraden kommer fältet **Periodiseringskod** att fyllas i med koden för den tilldelade periodiseringsmallen.
 3. Välj åtgärden **periodiseringsmall**.
-4. I fönstret **Periodiseringsschema** ändrar du inställningar i rubriken eller värden på raderna, till exempel för att periodisera beloppet till en ytterligare bokföringsperiod.
+4. På sidan **Periodiseringsschema** ändrar du inställningar i rubriken eller värden på raderna, till exempel för att periodisera beloppet till en ytterligare bokföringsperiod.
 5. Välj åtgärden **Beräkna schema**.
 6. Välj **OK**. Periodiseringsschemat uppdateras för försäljningsfakturan. Den relaterade periodiseringsmallen är oförändrad.
 
@@ -75,8 +75,8 @@ Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodisera
 > [!NOTE]  
 >   Stegen i den proceduren är samma som när du granskar hur kostnadsperiodiseringar bokförs.
 
-1. I fönstret **Försäljningsfaktura** väljer du åtgärden **Förhandsgranska bokföring**.
-2. I fönstret **Förhandsgranska bokföring** väljer du åtgärden **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.
+1. På sidan **Försäljningsfaktura** väljer du åtgärden **Förhandsgranska bokföring**.
+2. På sidan **Förhandsgranska bokföring** väljer du åtgärden **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.
 
 Redovisningstransaktioner som kommer att bokföras på det angivna periodiseringskontot, till exempel förutbetald inkomst, anges med beskrivningen som du angav i fältet **Periodbesk.** i periodiseringsmallen till exempel "kostnader som periodiseras för februari 2016 ".
 
@@ -85,7 +85,7 @@ Redovisningstransaktioner som kommer att bokföras på det angivna periodisering
 >   Stegen i den proceduren är samma som när du granskar Periodiseringssammanfattning för försäljning.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Periodiseringssammanfattning för försäljning** och välj sedan relaterad länk.
-2. I fönstret **Periodiseringssammanfattning för försäljning** i fältet **Saldo fr.o.m.:** anger du datum fram till vilket du vill se periodiserade intäkter.
+2. På sidan **Periodiseringssammanfattning för försäljning** i fältet **Saldo fr.o.m.:** anger du datum fram till vilket du vill se periodiserade intäkter.
 3. Klicka på **Förhandsgranska**.
 
 ## <a name="see-also"></a>Se även

@@ -13,18 +13,18 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Lägga till kontakter i segment
-När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna i fönstret **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
+När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna på sidan **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Segment** och välj sedan relaterad länk.  
-2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Fönstret för batch-jobbet **Lägg till kontakter** öppnas.
+2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Sidan för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
 
 Om du vill ange ytterligare filter upprepar du den här proceduren på alla de återstående avsnitt. Välj sedan **OK**.
@@ -32,10 +32,10 @@ Om du vill ange ytterligare filter upprepar du den här proceduren på alla de �
 Om du har lagt till kontakter av misstag och vill gå tillbaka ett steg väljer du åtgärden **Gå tillbaka**.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Om du vill förfina antalet kontakter
-När du har valt kontakter i ett segment kanske du bestämmer dig för att ta bort några av dem, men behålla andra. Du kan ta bort kontakter manuellt från raderna i fönstret **Segment**, men det är enklare och går snabbare att använda åtgärden **Förfina kontakter**.
+När du har valt kontakter i ett segment kanske du bestämmer dig för att ta bort några av dem, men behålla andra. Du kan ta bort kontakter manuellt från raderna på sidan **Segment**, men det är enklare och går snabbare att använda åtgärden **Förfina kontakter**.
 
 1. Öppna segmentet.
-2. Välj **kontakter**, och välj sedan åtgärden **förfina kontakter**. Fönstret **Ta bort kontakter - förfina** öppnas.
+2. Välj **kontakter**, och välj sedan åtgärden **förfina kontakter**. Sidan **Ta bort kontakter - förfina** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas för att välja de kontakter som ska tas bort från segmentet.
 4. Lägg till ytterligare filter vid behov och välj sedan knappen **OK**.
 
@@ -44,10 +44,10 @@ Du kan förfina ett segment så många gånger som du vill. Klicka på **Gå til
 Du kan visa en lista över de segmentvillkor som har använts genom att klicka på avsnittet **Allmänt** och välja fältet **Antal kriteriumåtgärder**.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Om du vill minska antalet kontakter
-När du har valt kontakter i ett segment kanske du vill ta bort några av dem. Du kan göra detta genom att manuellt ta bort dem från raderna i fönstret Segment, men det går enklare och snabbare att ange vilka kontakter som ska tas bort med funktionen Reducera kontakter och vilka som ska behållas med funktionen Förfina urval.
+När du har valt kontakter i ett segment kanske du vill ta bort några av dem. Du kan göra detta genom att manuellt ta bort dem från raderna på sidan Segment, men det går enklare och snabbare att ange vilka kontakter som ska tas bort med funktionen Reducera kontakter och vilka som ska behållas med funktionen Förfina urval.
 
 1. Öppna segmentet.
-2. Välj kontakter, och välj sedan åtgärden **Minska kontakter**. Fönstret **Ta bort kontakter - reducera** visas.
+2. Välj kontakter, och välj sedan åtgärden **Minska kontakter**. Sidan **Ta bort kontakter - minska** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas för att välja de kontakter som ska tas bort från segmentet.
 4. Lägg till ytterligare filter vid behov och välj sedan knappen **OK**.
 

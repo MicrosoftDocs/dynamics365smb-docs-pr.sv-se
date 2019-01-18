@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Skapa kostnadsgrupper
@@ -27,7 +27,7 @@ Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Plan
 -   Skapa en ny plan för kostnadsstället som är oberoende av redovisningen, eller lägg till ett nytt kostnadsställe i en befintlig plan för kostnadsställen. Du måste skapa varje kostnadsställe var för sig.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Överföra dimensionsvärden i redovisningen till planen för kostnadsställen  
-1.  Skapa en dimension som ska vara kostnadsställesdimensionen i fönstret **Uppdatera kostnadsredovisningsdimensioner**. Endast värdena från dimensionen överförs.  
+1.  Skapa en dimension som ska vara kostnadsställesdimensionen på sidan **Uppdatera kostnadsredovisningsdimensioner**. Endast värdena från dimensionen överförs.  
 2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lista över kostnadsställen** och välj sedan relaterad länk.  
 3.  Välj **Hämta kostnadsställen från dimension** för att överföra dimensionsvärden till planen för kostnadsställen på fliken **Åtgärder** i gruppen **Funktioner**. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
@@ -36,10 +36,10 @@ Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Plan
 
 Diagrammet över kostnadsställen innehåller nu alla angivna dimensionsvärden från redovisningen inklusive titlar och delsummor.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Så här skapar du nya kostnadsställen i fönstret Lista över kostnadsställen.  
-Du kan lägga upp och underhålla kostnadsställen antingen i kortet **Kort för kostnadsställe** eller i fönstret **Lista över kostnadsställen**. I den här proceduren skapar du kostnadsställen i fönstret **Lista över kostnadsställen**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Så här skapar du nya kostnadsställen på sidan Lista över kostnadsställen.  
+Du kan lägga upp och underhålla kostnadsställen antingen i kortet **Kort för kostnadsställe** eller på sidan **Lista över kostnadsställen**. I den här proceduren skapar du kostnadsställen på sidan **Lista över kostnadsställen**.  
 
-1. Öppna fönstret **Lista över kostnadsställen** i redigeringsläge.  
+1. Öppna sidan **Lista över kostnadsställe** i redigeringsläge.  
 2. Ange kostnadsställets kod i fältet **Kod**. Alla kostnadsställen måste ha en kod.  
 3. Ange kostnadsställets namn i fältet **Namn**.  
 4. Välj listpilen i fältet **Radtyp** för att ange syftet med kostnadsstället.  

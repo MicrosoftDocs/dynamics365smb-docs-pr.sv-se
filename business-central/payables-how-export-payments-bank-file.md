@@ -12,21 +12,21 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
-När du är redo att göra betalningar till dina leverantörer eller återföringar till dina anställda kan du exportera en fil med betalningsinformatio på raderna i fönstret **Betalningsjournal**. Du kan sedan överföra filen till banken för att bearbeta relaterade pengaöverföringar.
+När du är redo att göra betalningar till dina leverantörer eller återföringar till dina anställda kan du exportera en fil med betalningsinformation på raderna på sidan **Betalningsjournal**. Du kan sedan överföra filen till banken för att bearbeta relaterade pengaöverföringar.
 
 I den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma tjänst användas för att skicka betalningsfiler som elektronisk överföring (EFT), men med en något annorlunda process. Se steg 6 i avsnittet "att exportera betalningar till en bankfil".    
 
 > [!NOTE]  
->   Innan du kan exportera betalningsfiler från betalningsjournalen måste du ange elektroniskt format för berörda adress och du måste aktivera tjänsten för bankdatakonvertering. Mer information finns i [Så här ställer du in bankkonton](bank-how-setup-bank-accounts.md) och [Så här ställer du in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md). Dessutom måste du välja kryssrutan **Tillåt betalningsexport betalning** i fönstret **redovisningsjournaler**. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
+>   Innan du kan exportera betalningsfiler från betalningsjournalen måste du ange elektroniskt format för berörda adress och du måste aktivera tjänsten för bankdatakonvertering. Mer information finns i [Så här ställer du in bankkonton](bank-how-setup-bank-accounts.md) och [Så här ställer du in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md). Dessutom måste du välja kryssrutan **Tillåt betalningsexport betalning** på sidan **redovisningsjournaler**. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
 
-Du använder fönstret **Kreditöverföringsregister** för att visa de betalningsfiler som har exporterats från betalningsjournalen. I det här fönstret kan du också återexportera betalningfiler i händelse av tekniska fel, eller om filen ändras. Tänk på att exporterade EFT-filer inte visas i det här fönstret och kan inte återexporteras.  
+Du använder sidan **Kreditöverföringsregister** för att visa de betalningsfiler som har exporterats från betalningsjournalen. På den här sidan kan du också återexportera betalningfiler i händelse av tekniska fel, eller om filen ändras. Tänk på att exporterade EFT-filer inte visas på den här sidan och kan inte återexporteras.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
 Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetalning till en kund med check.
@@ -35,25 +35,25 @@ Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetal
 2. Fyll i utbetalningsjournalraderna. Mer information finns i [Registrera betalningar och återbetalningar](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
->   Om du använder EFT kan du välja mellan **elektronisk betalning** eller **elektronisk betalning – IAT** i fältet **Bankbetalningstyp**. Andra filexporttjänster och deras format kräver olika inställningsvärden i fönstren**Bankkontokort** och **Leverantörsbankkontokort**. Du får information om vilka inställningsvärden som är fel eller saknas när du försöker exportera filen.
+>   Om du använder EFT kan du välja mellan **elektronisk betalning** eller **elektronisk betalning – IAT** i fältet **Bankbetalningstyp**. Andra filexporttjänster och deras format kräver olika inställningsvärden på sidan **Bankkontokort** och **Leverantörsbankkontokort**. Du får information om vilka inställningsvärden som är fel eller saknas när du försöker exportera filen.
 
 3. När du har gjort alla betalningsjournalrader, väljer du åtgärden **Exportera**.
-4. I fönstret **Exportera elektronisk betalning** fyller du i fälten efter behov.
+4. På sidan **Exportera elektronisk betalning** fyller du i fälten efter behov.
 
     Felmeddelanden visas i faktaboxen **Fel i betalningsfil** där du kan även välja ett felmeddelande om du vill se detaljerad information. Du måste lösa alla fel innan betalningsfilen kan exporteras.
 
     > [!TIP]  
-    >   När du använder tjänsten för bankdatakonvertering visas ett vanligt felmeddelande som berättar att bankkontonumret inte har den längd som din bank kräver. För att undvika eller lösa felet måste du ta bort värdet i fältet **IBAN** i fönstret **Bankkontokort** och sedan i fältet **Bankkontonr** ange ett bankkontonummer i formatet som din bank kräver.
+    >   När du använder tjänsten för bankdatakonvertering visas ett vanligt felmeddelande som berättar att bankkontonumret inte har den längd som din bank kräver. För att undvika eller lösa felet måste du ta bort värdet i fältet **IBAN** på sidan **Bankkontokort** och sedan i fältet **Bankkontonr** ange ett bankkontonummer i formatet som din bank kräver.
 
-5. I fönstret **Spara som** anger du var filen ska exporteras till och välj sedan **Spara**.
+5. På sidan **Spara som** anger du var filen ska exporteras till och välj sedan **Spara**.
 
     > [!NOTE]  
-    >   Om du använder EFT, sparar du det resulterande remissaformuläret för leverantör som Word-dokument eller välj att få det med e-post direkt till leverantören. Betalningarna läggs nu till i fönstret **generera EFT-fil** där du kan skapa flera betalningsorder tillsammans för att spara kostnader för överföring. Mer information finns i följande steg:
-6. I fönstret **betalningsjournal** kan du välja åtgärden **generera EFT-fil**.
+    >   Om du använder EFT, sparar du det resulterande remissaformuläret för leverantör som Word-dokument eller välj att få det med e-post direkt till leverantören. Betalningarna läggs nu till på sidan **generera EFT-fil** där du kan skapa flera betalningsorder tillsammans för att spara kostnader för överföring. Mer information finns i följande steg:
+6. På sidan **betalningsjournal** kan du välja åtgärden **generera EFT-fil**.
 
-    I fönstret **generera EFT-fil** listas alla betalningar som har ställts in för EFT som du har exporterat från utbetalningsjournalen för en angiven adress men som ännu inte har skapats på snabbfliken **rader**.
+    På sidan **generera EFT-fil** listas alla betalningar som har ställts in för EFT som du har exporterat från utbetalningsjournalen för en angiven adress men som ännu inte har skapats på snabbfliken **rader**.
 7. Välj åtgärder **generera EFT-fil** för att exportera en fil för EFT-betalningar.
-8. I fönstret **Spara som** anger du var filen ska exporteras till och välj sedan **Spara**.
+8. På sidan **Spara som** anger du var filen ska exporteras till och välj sedan **Spara**.
 
 Bankbetalningsfilen exporteras till den plats som du anger, och du kan fortsätta att föra över den till ditt elektroniska bankkonto och göra de faktiska beloppen. Du kan sedan bokföra de exporterade betalningsjournalraderna.
 
@@ -63,15 +63,15 @@ Om du inte vill bokföra en utbetalningsjournalrad för en exporterad betalning,
 Om du följer en process där du inte vill bokföra utbetalningar, tills du har bekräftelsemeddelande att de har behandlats i banken, kan du använda detta två sätt.
 
 * I en utbetalningsjournal med föreslagna betalningsrader kan du sortera på antingen kolumnen **Exporterat till betalningsfil** eller **Totalt exporterat belopp** och sedan ta bort betalningsförslag för öppna fakturor för vilka betalningar som redan har gjorts och du inte vill göra betalningar för.
-* På liknande sätt kan du i batchjobbet **Betalningsförslag för lev.**, där du anger vilka betalningar som ska infogas i utbetalningsjournalen, markera kryssrutan **Hoppa över exporterade betalningar** om du inte vill infoga journalrader för betalningar som redan har exporterats.
+* På sidan **Betalningsförslag för lev.**, där du anger vilka betalningar som ska infogas i utbetalningsjournalen, kan du markera kryssrutan **Hoppa över exporterade betalningar** om du inte vill infoga journalrader för betalningar som redan har exporterats.
 
 Om du vill visa information om exporterade betalningar väljer du åtgärden **Betalningsexporthistorik**.
 
 ## <a name="to-re-export-payments-to-a-bank-file"></a>Så här återexporterar du betalningar till en bankfil
-Du kan återexportera betalningsfiler till en bankfil från fönstret **Kreditöverföringsregister**. Innan du tar bort eller bokför utbetalningsjournalrader kan du också återexportera betalningsfilen från fönstret **Betalningsjournal** genom att helt enkelt exportera den på nytt. Om du har tagit bort eller bokfört rader i utbetalningsjournalen efter att du har exporterat dem kan du återexportera samma betalningsfil från fönstret **Kreditöverföringsregister**. Markera raden för batchen med kreditöverföringar du vill återexportera och välj sedan åtgärden **Återexportera betalningar till fil**.
+Du kan återexportera betalningsfiler till en bankfil från sidan **Kreditöverföringsregister**. Innan du tar bort eller bokför utbetalningsjournalrader kan du också återexportera betalningsfilen från sidan **Betalningsjournal** genom att helt enkelt exportera den på nytt. Om du har tagit bort eller bokfört rader i utbetalningsjournalen efter att du har exporterat dem kan du återexportera samma betalningsfil från sidan **Kreditöverföringsregister**. Markera raden för batchen med kreditöverföringar du vill återexportera och välj sedan åtgärden **Återexportera betalningar till fil**.
 
 > [!NOTE]  
->   Exporterade EFT-filer visas inte i fönstret **Kreditöverföringsregister** och kan inte återexporteras.
+>   Exporterade EFT-filer visas inte på sidan **Kreditöverföringsregister** och kan inte återexporteras.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kreditöverföringsregister** och välj sedan relaterad länk.
 2. Välj en betalningsexport som du vill återexportera och välj sedan åtgärden **Återexportera betalningar till fil**.

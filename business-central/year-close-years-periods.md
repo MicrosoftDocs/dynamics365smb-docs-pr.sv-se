@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Avsluta år och perioder
@@ -26,6 +26,7 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 
 | Till | Gå till |
 | --- | --- |
+| Ange räkenskapsåret och dela upp det i tidsperioder som du vill rapportera ekonomiska resultat för. | [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)|
 | Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik. Beroende på vilka behov som finns i ditt företag kanske du vill begränsa användares intervall för bokföringsdatum i början av periodslutsprocessen eller efter den. |[Så här anger du bokföringsperioder](finance-how-specify-posting-periods.md) |
 | Få en översikt över aktiviteter som ofta utförs i samband med att du avslutar en period, till exempel bokföring av alla dokument och journaler, eller köra kontouppställningar. |[Avsluta perioder](year-how-complete-period-end-processes.md) |
 | uppdatera valutakurser och justera valutakurser för bokförda kund-, leverantörs- och bankkontotransaktioner. |[Uppdatera valutakurser](finance-how-update-currencies.md) |

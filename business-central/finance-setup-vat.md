@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd perio
 Om du vill definiera en momsrapport, följ dessa steg:
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Momsrapporter** och välj sedan relaterad länk.  
-2. Välj fältet **namn** och välj sedan **nytt** i fönstret **Momsrapportnamn**.
+2. Välj fältet **namn** och välj sedan **nytt** på sidan **Momsrapportnamn**.
 3. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Du kan ändra eller ta bort en momsklausul och dina ändringar kommer visas i en
 
 ### <a name="to-set-up-vat-clauses"></a>Så här konfigurerar du momsklausuler
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Momsklausuler** och välj sedan relaterad länk.  
-2. I fönstret **Momsklausuler** skapar du en ny rad.  
+2. På sidan **momsklusuler** skapar du en ny rad.  
 3. I fältet **Kod** anger du en identifierare för klausulen. Du använder den här koden för att tilldela klausulen till momsbokföringsmallar.  
 4. I fältet **beskrivning** anger du den text som ska visas i dokument som kan inkludera moms. I fältet **Beskrivning 2** anger du ytterligare text om det behövs. Texten visas på nya rader.  
 5. Tillval: Om du vill tilldela momsklausulen till en momsbokföringsinställning direkt väljer du **inställningar**, och väljer sedan klausulen. Om du vill vänta kan du tilldela klausulen vid ett senare tillfälle på sidan Momsbokföringsinställningar.  
@@ -178,7 +178,7 @@ Så här anger du koder för importmoms:
 ## <a name="to-verify-vat-registration-numbers"></a>Kontrollera momsregistreringsnummer
 Det är viktigt att momsregistreringsnummer för kunder, leverantörer och kontakter är giltiga. Till exempel ändrar företag sin skatteskuldstatus och i vissa länder kan skattemyndigheterna be dig lämna rapporter som t.ex. EG-försäljningslisterapport som anger de momsregistreringsnummer som du använder när du gör affärer.
 
-Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spara dig det steget och låter dig använda VIES-tjänsten för verifiering och spåra momsregistreringsnummer för kunder, leverantörer och kontakter direkt från kund-, leverantörs- och kontaktkort. Tjänsten i [!INCLUDE[d365fin](includes/d365fin_md.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig i fönstret **Anslutningar till tjänst**, och du kan börja använda den direkt. Registrering behövs inte och tjänsten är gratis.
+Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spara dig det steget och låter dig använda VIES-tjänsten för verifiering och spåra momsregistreringsnummer för kunder, leverantörer och kontakter direkt från kund-, leverantörs- och kontaktkort. Tjänsten i [!INCLUDE[d365fin](includes/d365fin_md.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig på sidan **Anslutningar till tjänst**, och du kan börja använda den direkt. Registrering behövs inte och tjänsten är gratis.
 
 > [!Note]
 > Om du vill aktivera valideringstjänsten för EU momsreg.nr. måste du ha administratörsrättigheter.
@@ -241,7 +241,7 @@ Innan du skapar ändringsverktyget för momssats, måste du göra följande för
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Så här skapar du konvertering av produktbokföringsmallar  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställningar för ändring av momssats** och välj sedan relaterad länk.  
-2. I fönstret **Inställningar för ändring av momssats** på fliken **Start** i gruppen **Process**, antingen **Moms prod.bokf.mall, konv.** eller **Produktbokföringsmall, konv.**.  
+2. På sidan **Inställningar för ändring av momssats** på fliken **Start** i gruppen **Process**, antingen **Moms prod.bokf.mall, konv.** eller **Produktbokföringsmall, konv.**.  
 3. I fältet  **Från kod**, ange den aktuella bokföringsmallen.  
 4. I fältet **Till kod** anger du den nya bokföringsgruppen.  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
@@ -65,7 +65,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Kampanjer** och välj sedan relaterad länk.  
 2.  Välj åtgärden **nytt** för att skapa en ny kampanj. På kampanjkortet trycker du på retur för att ett kampanjnummer automatiskt ska infogas.  
 3.  I fältet **Beskrivning** anger du en beskrivning av kampanjen, till exempel **FUTURUS-mässa**.  
-4.  Välj fältet **Statuskod** och en statuskod från listan som öppnas i fönstret **Kampanjstatus**.  
+4.  Välj fältet **Statuskod** och en statuskod från listan som öppnas på sidan **Kampanjstatus**.  
 5.  Fyll i fälten **Startdatum** och **Slutdatum** för kampanjen.  
 
 ## <a name="selecting-the-target-audience"></a>Välja målgrupp  
@@ -83,16 +83,16 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
      Du använder filter för att lägga till kontakter efter de villkor som bäst passar dina ändamål. Du kan till exempel välja att filtrera på ansvarsområde för kontaktpersonen eller affärsrelation eller bransch för kontaktföretaget. I den här genomgången väljer du filtret **Arbetsansvar** för att välja kontakter.  
 
-4.  I fönstret **Segment** väljer du åtgärden **Lägg till kontakter** för att öppna filtret **Lägg till kontakter**.  
+4.  På sidan **Segment** väljer du åtgärden **Lägg till kontakter** för att öppna filtret **Lägg till kontakter**.  
 5.  På snabbfliken **Arbetsansvar** väljer du filtret **Inköp** i **Arbetsansvarskod** och knappen **OK**.  
 
-     Fönstret **Segment** innehåller nu en lista med kontakter baserat på det filter som du har angett. På Snabbfliken **Allmänt**, i fältet **Antal rader**, kan du snabbt se antalet kontakter som uppfyller dessa villkor.  
+     Sidan **Segment** innehåller nu en lista med kontakter baserat på det filter som du har angett. På Snabbfliken **Allmänt**, i fältet **Antal rader**, kan du snabbt se antalet kontakter som uppfyller dessa villkor.  
 
     > [!NOTE]  
     >  Du kan spara ditt segmentkriterium så att du kan använda det vid ett senare tillfälle.
 
-    1.  I fönstret **Segment** väljer du åtgärden **Segment** och väljer sedan åtgärden **Spara kriteriet**.  
-    2.  I fönstret **Spara segmentkriterium** anger du en kod för segmentet. I fältet **Beskrivning** anger du en beskrivning av ditt segmentkriterium.
+    1.  På sidan **Segment** väljer du åtgärden **Segment** och väljer sedan åtgärden **Spara kriteriet**.  
+    2.  På sidan **Spara segmentkriterium** anger du en kod för segmentet. I fältet **Beskrivning** anger du en beskrivning av ditt segmentkriterium.
     3.  Välj **OK**.  
 
 ## <a name="mining-the-data"></a>Utvinna data  
@@ -100,15 +100,15 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Så här tar du bort kontakter från segmentet  
 
-1.  I fönstret **Segment** väljer du åtgärden **Kontakter** och väljer sedan åtgärden **Reducera kontakter**  för att öppna fönstret **Ta bort kontakter - minska**.  
+1.  På sidan **Segment** väljer du åtgärden **Kontakter** och väljer sedan åtgärden **Reducera kontakter** för att öppna sidan **Ta bort kontakter - minska**.  
 2.  På snabbfliken **Affärsrelation** väljer du filtret **PROS** i **Affärsrelationskod** och väljer sedan knappen **OK**.  
 
-     Fönstret **Segment** innehåller nu en reducerad lista med kontakter och i fältet **Antal rader** kan du se det antal kontakter som uppfyller de nya villkorna.  
+     Sidan **Segment** innehåller nu en reducerad lista med kontakter och i fältet **Antal rader** kan du se det antal kontakter som uppfyller de nya kriterierna.  
 
     > [!NOTE]  
     >  Om du behöver reversera borttagningen av en grupp kontakter kan du göra det med funktionen **Gå tillbaka**. Med andra ord kan du ångra din senast utförda segmentering.  
     >   
-    >  I fönstret **Segment** väljer du åtgärden **Segment** och väljer sedan åtgärden **Föregående**.  
+    >  På sidan **Segment** väljer du åtgärden **Segment** och väljer sedan åtgärden **Föregående**.  
     >   
     >  Kontakter, som du precis tog bort, läggs tillbaka till listan med kontakter.  
 
@@ -117,7 +117,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Så här länkar du ett segment till kampanjen  
 
-1.  I fönstret **Segment** klickar du på snabbfliken **Kampanje**  och väljer du fältet **Kampanjnr** för att välja den kampanj som du vill att segmentet ska kopplas till, exempelvis **CP0001**.  
+1.  På sidan **Segment** klickar du på snabbfliken **Kampanje**  och väljer du fältet **Kampanjnr** för att välja den kampanj som du vill att segmentet ska kopplas till, exempelvis **CP0001**.  
 2.  Eftersom det här segmentet är målgruppen för kampanjen markerar du kryssrutan **Kampanjmål**.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Skicka brev och e-postmeddelande till kontakter  
@@ -132,7 +132,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
     > [!NOTE]  
     >  Den här mallen består av flera bifogade dokument som är skrivna på olika språk. Exempelspråk är standardspråket engelska och danska.  
 
-4.  Öppna fönstret **Segmentinteraktion språk** genom att välja fältet **Språkkod (standard)**. Markera en språkkod och välj sedan knappen **OK**.  
+4.  Öppna sidan **Segmentinteraktion språk** genom att välja fältet **Språkkod (standard)**. Markera en språkkod och välj sedan knappen **OK**.  
 5.  Du kan visa dokumentet på det valda språket. Välj åtgärden **Bilaga** och välj sedan åtgärden **Öppna**.  
 
      Välj alternativet **Tillåt för denna klientsession** om du vill svara på meddelandet som begär tillstånd att starta Word.  
@@ -160,7 +160,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 2.  I fältet **Angående (standard)** skriver du följande exempeltext: **Tack för att du besökte mässan**.  
 3.  Välj **E-post** i fältet **Korrespondenstyp**.  
 4.  Ange språkinställningar, som i föregående steg.  
-5.  Välj åtgärden **Logg**. Fönstret **Loggsegment** öppnas.  
+5.  Välj åtgärden **Logg**. Sidan **Loggsegment** öppnas.  
 6.  Markera kryssrutan **Skicka bilagor** om du vill att bilagorna ska skickas med e-post.  
 7.  Markera kryssrutan **Skapa uppföljningssegment**.  
 8.  Välj knappen **OK**.  
@@ -174,12 +174,12 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-register-campaign-responses"></a>Så här registrerar du kampanjsvar  
 
-1.  I fönstret **Segment** expanderar du snabbfliken **Interaktion**.  
+1.  På sidan **Segment** expanderar du snabbfliken **Interaktion**.  
 2.  Välj fältet **Interaktionsmallkod**.  
 
      Det finns ingen interaktionsmall för att registrera svar på kampanjer. Skapa därför en ny mall.  
 
-3.  I fönstret **Interaktionsmallar** väljer du åtgärden **Ny**.  
+3.  På sidan **Interaktionsmallar** väljer du åtgärden **Ny**.  
 4.  I fältet **Kod** anger du **SVAR** och i fältet **Beskrivning** anger du **Kampanjsvar**.  
 5.  Välj **OK**.  
 6.  Välj den här interaktionsmallen i fältet **Interaktionsmallkod** och bekräfta meddelandet där du blir tillfrågad om du vill uppdatera segmentraderna med samma interaktionskod.  
@@ -190,10 +190,10 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 9. Välj fältet **Kampanjsvar** och bekräfta det meddelande som följer.  
 
      Logga segmentet för att se till att korrespondensen registreras.  
-10. I fönstret **Segment** väljer du åtgärden **Logg**.  
-11. I fönstret **Loggsegment** avmarkerar du kryssrutan **Skicka bilagor** och klickar sedan på **OK** och bekräftar det meddelande som visas.  
+10. På sidan **Segment** väljer du åtgärden **Logg**.  
+11. På sidan **Loggsegment** avmarkerar du kryssrutan **Skicka bilagor** och klickar sedan på **OK** och bekräftar det meddelande som visas.  
 
-     När segmentet är loggat skapas automatiskt en transaktion för kampanjen för att registrera åtgärden i fönstret **Kampanjtransaktioner**.  
+     När segmentet är loggat skapas automatiskt en transaktion för kampanjen för att registrera åtgärden på sidan **Kampanjtransaktioner**.  
 
 ## <a name="see-also"></a>Se även  
 [Kundhantering](marketing-relationship-management.md)  

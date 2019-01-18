@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Skapa Webbadresser för kontaktföretag
@@ -29,7 +30,7 @@ Att använda webbadresser på kontakter är en två-stegsprocess. Först definie
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten **Kod**, **Beskrivning** och **URL**.
 
-    Skriv %1 i fältet **URL** för att infoga en platshållare för ett sökord i URL:en. När du startar webbadress från en kontakt ersätts %1 med sökordet (till exempel namnet på företaget) som du har angett i fönstret **Kontakt webbadresser**.
+    Skriv %1 i fältet **URL** för att infoga en platshållare för ett sökord i URL:en. När du startar webbadress från en kontakt ersätts %1 med sökordet (till exempel namnet på företaget) som du har angett på sidan **Kontakt webbadresser**.
 
 Upprepa stegen för varje webbkälla du vill skapa.
 
@@ -37,13 +38,13 @@ Upprepa stegen för varje webbkälla du vill skapa.
 När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
 1. Öppna kontakten .
-2. Välj åtgärden **företag** och sedan **webbadresser**. Fönstret **Kontakt webbadresser** öppnas.
+2. Välj åtgärden **företag** och sedan **webbadresser**. Sidan **Kontakt webbadresser** öppnas.
 3. I fältet **webbadresskod**, välj webbadressen som du vill tilldela.
 4. Skriv i fältet **Sökord** det sökord som ska användas för att hitta informationen.
 
 Upprepa stegen för varje webbkälla du vill skapa.
 
-Webbadresser kan också tilldelas i fönstret  **Kontaktlista** på samma sätt.
+Webbadresser kan också tilldelas på sidan **Kontaktlista** på samma sätt.
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  

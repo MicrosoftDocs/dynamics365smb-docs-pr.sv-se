@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
 
-![Information i fönstret Planeringsförslag](media/NAV_APP_supply_planning_1_planning_worksheet.png "Information i fönstret Planeringsförslag")  
+![Information på sidan Planeringsförslag](media/NAV_APP_supply_planning_1_planning_worksheet.png "Information på sidan Planeringsförslag")  
 
 Planeraren i ett företag, till exempel en inköpare eller en produktionsplanerare antas vara användaren i planeringssystemet. Planeringssystemet hjälper användaren genom att utföra de omfattande men ganska rättframma beräkningarna av en plan. Användaren kan sedan koncentrera sig på att lösa svårare problem, till exempel när saker är annorlunda än vanligt.  
 
@@ -53,7 +53,7 @@ Mer information finns i [Designdetaljer: Hantera order före planeringsstartdatu
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk orderspårning (pegging)  
 Dynamisk orderspårning, med sitt samtidiga skapande av åtgärdsmeddelanden i planeringsförslaget, är inte en del av leveransplaneringssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den här funktionen länkar, i realtid, behovet och det antal som kan täcka det när en ny efterfrågan eller tillgång registreras eller ändras.  
 
-Till exempel om användaren anger eller ändrar en försäljningsorder söker det dynamiska orderspårningsystemet omedelbart efter en lämplig tillgång för att täcka efterfrågan. Det kan vara från lager eller från en förväntad leveransorder (t.ex en inköpsorder eller produktionsorder). När en tillförselkälla hittas skapar systemet en länk mellan tillgång och efterfrågan och visar den i skrivskyddade fönster som nås från de berörda dokumentraderna. När lämplig efterfrågan inte kan hittas skapar det dynamiska orderspårningsystemet åtgärdsmeddelanden i planeringsförslaget med tillförselplankalkylark som återspeglar dynamiskt saldo. Den dynamiska orderspårningsystemet har ett grundläggande planeringssystem som kan vara till hjälp både för planeraren och andra roller i den interna försörjningskedjan.  
+Till exempel om användaren anger eller ändrar en försäljningsorder söker det dynamiska orderspårningsystemet omedelbart efter en lämplig tillgång för att täcka efterfrågan. Det kan vara från lager eller från en förväntad leveransorder (t.ex en inköpsorder eller produktionsorder). När en tillförselkälla hittas skapar systemet en länk mellan tillgång och efterfrågan och visar den i skrivskyddade sidor som nås från de berörda dokumentraderna. När lämplig efterfrågan inte kan hittas skapar det dynamiska orderspårningsystemet åtgärdsmeddelanden i planeringsförslaget med tillförselplankalkylark som återspeglar dynamiskt saldo. Den dynamiska orderspårningsystemet har ett grundläggande planeringssystem som kan vara till hjälp både för planeraren och andra roller i den interna försörjningskedjan.  
 
 Dynamisk orderspårning kan alltså ses som ett verktyg som hjälper användare att bedöma om de ska acceptera de föreslagna leveransordrarna. Från tillgångssidan kan en användare se vilken efterfrågan som har skapat tillgången, och från efterfråganssidan vilken tillgång som ska täcka efterfrågan.  
 
@@ -158,7 +158,7 @@ Order-till-order-koppling mellan tillgång och efterfrågan är en annan typ av 
 ### <a name="specific-attributes"></a>Specifika attribut  
 Vissa attribut på efterfrågan är specifika och måste exakt matchas av en motsvarande tillgång. Följande två specifika attribut finns:  
 
--   Efterfrågade serie-/partinummer som kräver en viss koppling (kryssrutan **SN-specifik spårning** eller **Partispecifik spårning** är markerad i fönstret **Kodkort för artikelspårning** för artikelspårningskoden som används av artikeln).  
+-   Efterfrågade serie-/partinummer som kräver en viss koppling (kryssrutan **SN-specifik spårning** eller **Partispecifik spårning** är markerad på sidan **Kodkort för artikelspårning** för artikelspårningskoden som används av artikeln).  
 -   Länkar till leveransorder som skapas manuellt eller automatiskt för en viss efterfrågan (order-till-order-länkar).  
 
 För dessa attribut har planeringssystemet följande regler:  
@@ -211,7 +211,7 @@ Den första kolumnen i planeringsförslaget är avsedd för varningsfälten. I d
 
 Tillgången på planeringsrader med varningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Systemet kan dock konfigurerar för att följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i beskrivningen av alternativen för batch-jobbet **Skapa inköpsförslag - Planeringsförslag** respektive batchjobbet **Inköpskalkylarket Skapa inköpsförslag - inköpskalkylark** .  
 
-Varningsinformationen visas i fönstret **Ej spårade planeringselement** som är också användas för att visa orderspårningslänkar till icke orderrelaterade nätverkstyper. Följande typer av varningar förekommer:  
+Varningsinformationen visas på sidan **Ej spårade planeringselement** som är också användas för att visa orderspårningslänkar till icke orderrelaterade nätverkstyper. Följande typer av varningar förekommer:  
 
 -   Nödsituation  
 -   Undantag  
@@ -252,7 +252,7 @@ Den här varningen visas i tre olika situationer:
 ## <a name="error-logs"></a>Felloggar  
 På sidan Skapa inköpsförslag kan användaren välja fältet **Stoppa och visa första felet** för att planeringskörningen ska stanna när den träffar på det första felet. På samma gång visas ett meddelande med information om felet. Om det finns ett fel, kommer endast de planeringsrader som skapades innan felet påträffades att visas i planeringsförslaget.  
 
-Om fältet inte har markerats kommer batchjobbet Skapa inköpsförslag att fortsätta tills det har slutförts. Fel kommer inte att avbryta batch-jobbet. Om det finns fler än ett fel, visas ett meddelande efter slutförandet som meddelar hur många artiklar som påverkas av fel. Fönstret **Logg över planeringsfel** öppnas därefter för att visa mer information om felet och ange länkar till de dokument eller artikelkort som påverkas.  
+Om fältet inte har markerats kommer batchjobbet Skapa inköpsförslag att fortsätta tills det har slutförts. Fel kommer inte att avbryta batch-jobbet. Om det finns fler än ett fel, visas ett meddelande efter slutförandet som meddelar hur många artiklar som påverkas av fel. Sidan **Logg över planeringsfel** öppnas därefter för att visa mer information om felet och ange länkar till de dokument eller artikelkort som påverkas.  
 
 ![Felmeddelanden i planeringsförslaget](media/NAV_APP_supply_planning_1_error_log.png "Felmeddelanden i planeringsförslaget")  
 
@@ -264,10 +264,10 @@ Fältet kan ställas in manuellt av användaren, men i vissa fall ställs det in
 Mer information om hur detta fält används finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Orderplanering  
-Det grundläggande leveransplaneringsverktyget som representeras av fönstret **Orderplanering** har utformats för manuellt beslutsfattande. Den beaktar inte några planeringsparametrar och diskuteras därför inte vidare i det här dokumentet. Se hjälpen i [!INCLUDE[d365fin](includes/d365fin_md.md)] för mer information om funktionen Orderplanering.  
+Det grundläggande leveransplaneringsverktyget som representeras av sidan **Orderplanering** har utformats för manuellt beslutsfattande. Den beaktar inte några planeringsparametrar och diskuteras därför inte vidare i det här dokumentet. Se hjälpen i [!INCLUDE[d365fin](includes/d365fin_md.md)] för mer information om funktionen Orderplanering.  
 
 > [!NOTE]  
->  Orderplanering bör inte användas om företaget redan använder planering eller inköpskalkylark. Leveransorder som skapas från fönstret **Orderplanering** kan ändras eller tas bort under den automatiska planeringskörningen. Detta beror på att den automatiska planeringskörningen använder planeringsparametrarna och dessa kanske inte beaktas av användaren som skapade den manuella planen i fönstret Orderplanering.  
+>  Orderplanering bör inte användas om företaget redan använder planering eller inköpskalkylark. Leveransorder som skapas från sidan **Orderplanering** kan ändras eller tas bort under den automatiska planeringskörningen. Detta beror på att den automatiska planeringskörningen använder planeringsparametrarna och dessa kanske inte beaktas av användaren som skapade den manuella planen på sidan Orderplanering.  
 
 ##  <a name="finite-loading"></a>Bestämd beläggning  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är ett ERP-system av standardtyp, inget avsändningssystem eller kontrollsystem för butiksgolv. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.  

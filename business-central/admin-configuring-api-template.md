@@ -13,20 +13,20 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="configuring-api-templates"></a>Konfigurera API-mallar
-API-bibliotek för [!INCLUDE[d365fin_md](includes/d365fin_md.md)] ger en förenklad representation av de underliggande enheterna. Alla egenskaper i programmet är inte tillgängliga via den associerade API. Fönstret **API-inställningar** låter dig definiera mallar som används för att fylla i tomma egenskaper på en enhet när du skapar en POST-åtgärd via API. 
+API-bibliotek för [!INCLUDE[d365fin_md](includes/d365fin_md.md)] ger en förenklad representation av de underliggande enheterna. Alla egenskaper i programmet är inte tillgängliga via den associerade API. Sidan **API-inställningar** låter dig definiera mallar som används för att fylla i tomma egenskaper på en enhet när du skapar en POST-åtgärd via API. 
 
 Till exempel en konfigurationsmall har definierats för artikelenheten när en ny post skapas genom artiklarnas API, alla egenskaper för ny artikel som inte har definierats i API får fyllas på från den valda mallen. Om till exempel inget värde har angetts för fältet **Produktbokföringsmall** via API:n, men värdet som definieras i den valda mallen och sedan används den bokföringsmall som definierats i mallen till det nya objektet. 
 
 ## <a name="setting-up-the-entity-template"></a>Konfigurera enhetsmall
-Om du vill använda mallar med API-biblioteket, måste du först ställa in och ange egenskaper för mallarna. Du kan ställa in dessa mallar i fönstret **Konfigurationsmallar**. Mer information finns också i [Så här förbereder du migrering av kunddata](admin-use-templates-to-prepare-customer-data-for-migration.md). 
+Om du vill använda mallar med API-biblioteket, måste du först ställa in och ange egenskaper för mallarna. Du kan ställa in dessa mallar på sidan **Konfigurationsmallar**. Mer information finns också i [Så här förbereder du migrering av kunddata](admin-use-templates-to-prepare-customer-data-for-migration.md). 
 
 ## <a name="assign-the-template-to-an-api"></a>Tilldela mallen till en API
 
@@ -39,7 +39,7 @@ När varje mall används, används bara fältvärden som definieras i mallen fö
 3. Välj ett värde för **Sid-ID**.  
 Detta är sidan för API som mallen ska användas. Sökning **Sid-ID** visar en lista över alla API:er i biblioteket.
 4. Välj ett värde i fältet **Mallkod**.  
-Mallkod är koden för den mall som definierats i fönstret **Konfigurationsmallar**. Mallvärdena som är definierade som är kopplade till API. 
+Mallkod är koden för den mall som definierats på sidan **Konfigurationsmallar**. Mallvärdena som är definierade som är kopplade till API. 
 5. I fältet **villkor** anger du vilken mall som ska användas.  
 Definierad mall kopplas till en ny post som skapas via API och bara om de villkor som anges i fältet **villkor** uppfylls av de värden som redan har angetts för den nya instansen av enheten.
 

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Artiklar för montering mot kundorder och lagerartiklar ihop
@@ -31,7 +31,7 @@ Liknande flexibilitet finns när du säljer artiklar för montering mot order oc
 >  I följande procedur ingår inte de standardsteg för försäljningsorder som du bör följa innan du skapar en monteringsorder för antal som inte är tillgängliga.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop  
-1.  Ange ett antal i fältet **Antal** som överstiger lagret på en försäljningsorderrad för en artikel som ska monteras mot lager. Fönstret **Kontrollera disponibelt** visas. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).
+1.  Ange ett antal i fältet **Antal** som överstiger lagret på en försäljningsorderrad för en artikel som ska monteras mot lager. Sidan **Kontrollera disponibelt** visas. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).
 2.  Observera fältet **Totalt antal** (med ett negativt värde), som du ska skriva in i nästa steg.  
 3.  I fältet **Antal att montera mot kundorder** anger du värdet från föregående steg.  
 4.  Utför någon ändring i monteringskomponenterna. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  

@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Hantera interaktioner för segment
-Fönstret **Segment** är en typ av formulär där du kan:
+Sidan **Segment** är en typ av formulär där du kan:
 
 * Skapa segment.
 * Spara segmentvillkor som du har använt för att välja kontakter.
@@ -35,14 +35,14 @@ Det finns flera sätt att skapa segment:
 * Du kan återanvända sparade segmentkriterier.
 
 ## <a name="interactions"></a>Interaktioner
-I fönstret **Segment** kan du skapa interaktioner för flera kontakter samtidigt. Du kan exempelvis slå ihop ett segment med ett Microsoft Word-dokument så du kan skicka brev till alla kontakterna i segmentet.
+På sidan **Segment** kan du skapa interaktioner för flera kontakter samtidigt. Du kan exempelvis slå ihop ett segment med ett Microsoft Word-dokument så du kan skicka brev till alla kontakterna i segmentet.
 
 Du kan ange uppgifter om interaktionen för segmentet i **segmenthuvudet**. Du kan till exempel bestämma vilken interaktionsmall du vill använda för samtliga kontakter, göra en beskrivning, ange korrespondenstyp och så vidare. Du kan även ändra den här informationen på segmentraden för varje enskild kontakt genom att exempelvis ange annan beskrivning för en enda kontakt. Om du slår samman ett segment med ett Microsoft Word-dokument kan du anpassa dokumentet för att skickas till en eller flera av kontakterna i segmentet, exempelvis genom att lägga till individuella kommentarer i det.
 
 ## <a name="logging"></a>Logga
-I fönstret **Segment** när du väljer **Logg**, registrerar programmet interaktionerna i fönstret **Interaktion loggtrans.** och loggar segmentet. När du har loggat det finns det bara i fönstret **Segmentlogg**.
+På sidan **Segment** när du väljer **Logg**, registrerar programmet interaktionerna på sidan **Interaktion loggtrans.** och loggar segmentet. När du har loggat det finns det bara på sidan **Segmentlogg**.
 
-I fönstret **Segmentlogg** kan du skapa ett nytt segment som innehåller ett uppföljningssegment med samma kontakter som det loggade segmentet.
+På sidan **Segmentlogg** kan du skapa ett nytt segment som innehåller ett uppföljningssegment med samma kontakter som det loggade segmentet.
 
 ## <a name="see-also"></a>Se även
 [Skapa segment](marketing-how-create-segment.md)  

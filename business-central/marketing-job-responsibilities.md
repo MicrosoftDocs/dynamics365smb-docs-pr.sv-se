@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Ange arbetsansvar för kontaktpersonerna.
@@ -25,7 +26,7 @@ Du kan lägga till information om arbetsansvar för kontaktpersoner för att ang
 Att använda arbetsansvar på kontakter är en två-stegsprocess. Först definierar du arbetsansvarkoden. Du måste bara utföra den här steget en gång för varje arbetsansvar. När du har en arbetsansvarkod kan du börja koppla koden till kontaktpersoner.
 
 ## <a name="to-define-a-job-responsibility-code"></a>Så här definierar du en arbetsansvarskod
-Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du fönstret **Arbetsansvar**.
+Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsansvar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
@@ -34,14 +35,14 @@ Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MAR
 Du kan inte tilldela arbetsansvar till kontaktföretag.
 
 1. Öppna kontaktperson.
-2. Välj åtgärden **Person** och sedan **Arbetsansvar**. Fönstret **Kontakt arbetsansvar** öppnas.
+2. Välj åtgärden **Person** och sedan **Arbetsansvar**. Sidan **Kontakt arbetsansvar** öppnas.
 3. I fältet **Arbetsansvarskod**, markera det arbetsansvar du vill tilldela.
 
 Upprepa stegen för varje arbetsansvar du vill tilldela. Arbetsansvar kan också tilldelas i kontaktlista på samma sätt.
 
-Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet **Antal arbetsansvar** i avsnittet **Segmentering** på fönstret **Kontakt**.
+Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet **Antal arbetsansvar** i avsnittet **Segmentering** på sidan **Kontakt**.
 
-När du har tilldelat kontakterna arbetsansvar kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
+När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se även
 [Skapa kontaktpersoner](marketing-create-contact-persons.md)  

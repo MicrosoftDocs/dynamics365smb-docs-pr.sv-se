@@ -12,17 +12,19 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
+
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollera inställningarna för region och språk
+
 [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") anger **region** och **språk** som används i programmet. Dessa inställningar påverkar hur du anger datum och tid. 
 
 -   Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
@@ -35,7 +37,9 @@ ms.lasthandoff: 09/28/2018
 <!-- 
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
+
 ## <a name="entering-dates"></a>Ange datum
+
 I ett datumfält kan du ange ett datum med standardformat för din region. Olika områden kan använda olika avgränsare mellan dagar, månader och år. Exempelvis vissa regioner använder bindestreck (åååå-mm-dd) och andra använda snedstreck (åååå/mm/dd). Du kan använda alla avgränsare, även blanksteg och datumet ändras automatiskt till att använda avgränsare som matchar din region.
 
 Observera att formatet som datum visas på utskrivna rapporter eller e-postade dokument påverkas inte av dina personliga inställningar av region.
@@ -43,16 +47,15 @@ Observera att formatet som datum visas på utskrivna rapporter eller e-postade d
 Om du vill arbeta mer effektivt med datum och tider, använd någon av de metoder eller format som beskrivs nedan. 
 
 ### <a name="picking-dates-from-the-calendar"></a>Välja datum från kalendern
+
 Ett fält som visar en kalenderikon kan anges med hjälp av kalenderdatumväljaren. Om du vill visa kalenderdatumväljaren, aktivera kalenderikonen eller tryck på kortkommandot Ctrl + Home i fältet.
 
 ![Datumfält](media/ui-date-field.png "Exempel på ett datumfält")
 
 Se även [Kortkommandon i kalenderdatumväljaren](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="today"></a>I dag
-Ange ordet for `today`, på det språk anges i **språk** inställningen som ska ange datumet till det aktuella datumet. Istället för att ange hela ordet, kan du skriva in delar av ordet från början såsom `t` eller `tod`, förutsatt att det inte är också är början på ett annat ord.
-
 ### <a name="day-week-year-pattern"></a>Dag\-vecka\-år-mönster
+
 Du kan ange ett datum som en veckodag följt av ett veckonummer och alternativt ett år. Till exempel `Mon25` eller `mon25` betyder måndag vecka 25. Om du inte anger ett år används året från arbetsdatumet.
 
 I stället för att ange hela ordet för dagen i veckan, kan du skriva in del av ordet, från början. Om det uppstår konflikter (exempelvis med `s` som kan vara Saturday (lördag) eller Sunday (söndag)), utvärderas dagarna utifrån regionsinställningen. Indata utvärderas först mot `workdate`och `today`, så tänk på detta när du förkortar. Till exempel `t` innebär today (idag), så det kan inte innebära: tisdag eller torsdag.
@@ -60,6 +63,7 @@ I stället för att ange hela ordet för dagen i veckan, kan du skriva in del av
 Veckonummersystemet är alltid ISO-8601 där vecka 1 är veckan med 4 januari eller veckan med första torsdagen på året.
 
 ### <a name="digit-patterns"></a>Siffermönster
+
 I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.
 
 -   Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.
@@ -68,7 +72,18 @@ I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.
 
 -   Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.
 
+### <a name="today"></a>I dag
+
+Ange ordet for `today`, på det språk anges i **språk** inställningen som ska ange datumet till det aktuella datumet. Istället för att ange hela ordet, kan du skriva in delar av ordet från början såsom `t` eller `tod`, förutsatt att det inte är också är början på ett annat ord.
+
+### <a name="period"></a>Period
+
+Om du vill filtrera efter en viss redovisningsperiod i ett datumfält skriver du in `p`, eller ordet `period`, följt av ett nummer som identifierar bokföringsperioden som `p2` eller `period4`. Bokföringsperioden är i förhållande till räkenskapsåret för det aktuella arbetsdatumet som angetts i ditt rollcenter. Om arbetsdatumet är till exempel **03/21/20**, då är `p1`, eller bara `p` filter på den första perioden på räkenskapsåret 2020 (såsom `01/01/20..01/31/20`). `p15` filter för femtonde bokföringsperioden från början av år 2020 (såsom `03/01/21..03/31/21`). 
+
+Bokföringsperioder definieras på sidan **Bokföringsperioder**. Om du vill visa eller ändra bokföringsperioderna, öppna sidan [här ](https://businesscentral.dynamics.com/?page=100).
+
 ### <a name="current-work-date"></a>Aktuellt arbetsdatum
+
 Funktionen arbetsdatum låter dig spåra transaktioner med ett datum som skiljer sig från det aktuella datumet.
 
 Ordet för ”arbetsdatum” på det språk som anges av **språk**-inställningen kan ange datumet till det aktuella arbetsdatumet som anges på sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central"). I stället för att ange hela ordet, kan du skriva in del av ordet, från början, såsom "a" eller "arbete".
@@ -78,11 +93,13 @@ Om du inte har definierat ett arbetsdatum, kommer det aktuella datumet användas
 Se även [Ändra grundläggande inställningar, såsom arbetsdatum](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Avslutsdatum
+
 När du avslutar ett räkenskapsår kan du använda avslutsdatum för att ange att en transaktion är en bokslutspost. Ett avslutsdatum ligger tekniskt sätt mellan två datum, till exempel mellan den 31 december och den 1 januari.
 
 För att ange att ett datum är ett stängningsdatum ange `C` före datumet såsom `C123101`. Detta kan användas tillsammans med alla datummönster.
 
 ### <a name="examples"></a>Exempel
+
 Följande tabell innehåller exempel på datum med alla format. Det förutsätter regioninställningar som formaterar datum enligt: **år.månad.dag.**, en vecka med start på måndag och på engelska.
 
 |**Format**      |**Tolkning**      |
@@ -96,6 +113,7 @@ Följande tabell innehåller exempel på datum med alla format. Det förutsätte
 |`11`|arbetsdatum år.arbetsdatum månad.11.|
 |`1112`|arbetsdatum år.11.12.|
 |`t` eller `today`|dagens datum|
+|`p4`|datumintervall som innehåller den fjärde bokföringsperioden, till exempel `04/01/20..04/30/20`|
 |`w` eller `workdate`|arbetsdatum|
 |`m` eller `Monday`|Måndag av arbetsdatumets vecka|
 |`tu` eller `Tuesday`|Tisdag av arbetsdatumets vecka|
@@ -106,16 +124,16 @@ Följande tabell innehåller exempel på datum med alla format. Det förutsätte
 |`t-1`|Tisdag av vecka 1 arbetsdatumets år|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Inställningsintervall
+
 I listor, summor och rapporter kan du ange filter för datum, tid och datum och tid som innehåller ett startvärde och ett slutvärde om du endast vill visa de data som finns inom intervallet. Standardregler gäller för hur du kan ange datumintervall.
 
 |**Betydelse**|**Exempeluttryck (datum)**|**Data som ingår i filtret**|
 |-----------|---------------------|--------------------|
-|Intervall|`12 15 00..01 15 01`  \n`..12 15 00`|Poster med datum från och med 00-12-15 till och med 01-01-15.  \nPoster med datum 00-15-12 eller tidigare.|
+|Intervall|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Poster med datum från och med 00-12-15 till och med 01-01-15.<br /><br />Poster med datum 00-15-12 eller tidigare.<br /><br />Datumintervall som innehåller den andra, tredje och fjärde bokföringsperioden, till exempel `01/01/20..04/30/20`.|
 |Antingen eller|`00-12-15|00-12-16`|Poster med antingen 00-12-15 eller 00-12-16. Om det finns poster med datum båda dagarna kommer samtliga att visas.|
 |Kombination|`00-12-15|00-12-01..00-12-10`  \n`..00-12-14|00-12-30..`|Poster med datum 00-12-15 eller mellan och inklusive den 00-12-01 och 00-12-10.  \nPoster med datum 00-12-14 eller tidigare, eller 00-12-30 eller senare. Detta innebär alla poster utom de med datum från och med 00-12-15 till och med 00-12-29.|
 
 Du kan använda giltiga format i filtret för datumintervall. Till exempel `mon14 3..t 4p` som tillämpas på ett datum/tidsfält resulterar i ett filter mellan 03:00 måndag vecka 14 det aktuella arbetsdatumets år, inklusive fram till i dag klockan 16:00.
-
 
 ## <a name="using-date-formulas"></a>Använda datumformler
 En datumformel är en kort kombination av förkortningar med bokstäver och siffror som anger hur datum ska beräknas. Du kan ange datumformler i olika fält eller filter för datumberäkning.

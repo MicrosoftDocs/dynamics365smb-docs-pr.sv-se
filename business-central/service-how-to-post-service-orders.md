@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokföra tjänsteorder och kreditnotor
@@ -30,7 +30,7 @@ Om du har ett stort antal serviceorder kan spara du tid genom att använda ett b
 ## <a name="to-post-a-service-order"></a>Så här bokför du serviceorder    
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
-3. I fönstret **serviceordern** väljer du något av följande.  
+3. På sidan **serviceordern** väljer du något av följande.  
   
     |**Åtgärd**|**Resultat**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ När du har angett detaljerad information för en service kan du justera och bok
   
 I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar på lagerställen som inte kräver lagerhantering.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk. 2. I fönstret för den markerade serviceordern klickar du på  **Åtgärder**,  **Order**,  **Servicerader**.  
-3. I fönstret **Servicerader** letar du upp transaktionerna och anger det antal som ska bokföras i fältet **Ant. att utleverera**.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk. 2. På sidan för den markerade serviceordern klickar du på **Åtgärder**, **Order**, **Servicerader**.  
+3. PÅ sidan **Servicerader** letar du upp transaktionerna och anger det antal som ska bokföras i fältet **Ant. att utleverera**.  
   
    > [!NOTE]  
    >  Innan du anger ett antal för utleverans måste du bestämma dig för om du vill bokföra leveransen helt eller delvis. Om du väljer att leverera helt måste värdet i fältet **Ant. att utleverera** vara lika med värdet i fältet **Antal**. Om du bokför en delleverans måste du ange den antal som du vill leverera först. Om du redan har levererat en del av servicen på ordern noterar du värdet i fältet **Utlevererat antal**. Du kan inte ange ett högre värde i fältet **Ant. att utleverera** än det antal enheter som ännu inte har levererats.  
   
-4. Klicka på **Åtgärder**, **Bokföring**, **Bokför**. I fönstret som visas väljer du **Leverera**.  
+4. Klicka på **Åtgärder**, **Bokföring**, **Bokför**. på sidan som visas väljer du **Leverera**.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
   

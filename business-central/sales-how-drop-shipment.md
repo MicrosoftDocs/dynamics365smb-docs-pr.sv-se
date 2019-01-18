@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
@@ -36,7 +36,7 @@ Om du vill förbereda en direktleverans för den artikel som ska säljas kan du 
 1. Skapa en inköpsorder. Fyll inte i några fält på raderna. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 2. I fältet **Förs.kundnr.** markerar du kunden som du säljer till.
 3. Välj åtgärden **Direktleverans** och välj sedan åtgärden **Hämta förs.order**.
-4. I fönstret **Försäljningslista** väljer du den försäljningsorder som du förberedde i avsnittet "Så här skapar du försäljningsorder för direktleveranser".
+4. P sidan **Försäljningslista** väljer du den försäljningsorder som du förberedde i avsnittet "Så här skapar du försäljningsorder för direktleveranser".
 5. Välj **OK**.
 
 Radinformationen från försäljningsordern infogas på inköpsorderraden.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
@@ -43,7 +43,7 @@ I följande procedur har du gett kunden ett konfigurationspaket, som sedan har i
 7. Välj knappen **OK**.  
 8. Om du vill kontrollera att konfigurationsinformationen har kopplats till det nya företaget väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Företagsinformation** och väljer sedan relaterad länk.
 
-Fönstret **Företagsinformation** innehåller information som du har angett.   
+Sidan **Företagsinformation** innehåller information som du har angett.   
 
 Du har nu konfigurerat företaget och kopplat data till det.  
 

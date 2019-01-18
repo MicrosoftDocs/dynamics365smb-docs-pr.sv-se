@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 Med jobbköer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Du kanske till exempel vill köra rapporten **Säljare försäljningsstatistik** varje vecka, för att spåra försäljningen per säljare under en vecka, eller så kanske du vill köra kodenheten **E-postkö för bearbetningstjänst** dagligen, för att vara säker på att aktuella e-postmeddelanden till kunder angående deras serviceorder skickas ut i tid.  
 
 ## <a name="add-jobs-to-the-job-queue"></a>Lägg till jobb till jobbkön
-Fönstret **Jobbkötransaktioner** fönstret visas alla aktuella jobb. Om du lägger till en ny jobbkötransaktion som du vill schemalägga, måste du ange information om typen av objekt du vill köra, till exempel en rapport eller kodenhet för objekttypen, namnet och objekt-ID för objektet som ska köras. Du kan också lägga till parametrar för att ange beteendet för jobbkötransaktionen. Du kan t.ex lägga till en planeringsparameter om att endast skicka bokförda försäljningsorder. Du måste ha behörighet att köra en viss rapport eller kodenhet, annars returneras ett fel när jobbkön körs.  
+Sidan **Jobbkötransaktioner** fönstret visas alla aktuella jobb. Om du lägger till en ny jobbkötransaktion som du vill schemalägga, måste du ange information om typen av objekt du vill köra, till exempel en rapport eller kodenhet för objekttypen, namnet och objekt-ID för objektet som ska köras. Du kan också lägga till parametrar för att ange beteendet för jobbkötransaktionen. Du kan t.ex lägga till en planeringsparameter om att endast skicka bokförda försäljningsorder. Du måste ha behörighet att köra en viss rapport eller kodenhet, annars returneras ett fel när jobbkön körs.  
 
 I fältet **Kategorifilter för jobbkö** kan du ange ett filter. Du kan använda jobbkökategorier för jobb i listan.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kör automatiskt projekt efter angivna scheman för varje jobbkötransaktion. Du kan starta, stoppa och spärra en jobbkötransaktion manuellt.
 
 ### <a name="log-files"></a>Loggfiler
-Fel visas i **loggtransaktioner för jobbkö** som du når från menyfliken. Du kan också felsöka fel i jobbkön. Data som skapas när en jobbkö körs sparas i databasen.  
+Fel visas på sidan **loggtransaktioner för jobbkö** som du når från menyfliken. Du kan också felsöka fel i jobbkön. Data som skapas när en jobbkö körs sparas i databasen.  
 
 ### <a name="background-posting-with-job-queues"></a>Bakgrundsbokföring med jobbköer
 Jobbköer är ett effektivt verktyg som schemalägger körning av affärsprocesser i bakgrunden. Det kan till exempel finnas en instans då flera användare som prövar att bokföra försäljningsorder samtidigt, men endast en order kan behandlas i taget. Genom att skapa en rutinmässig bakgrundsbokföring, kan du markera transaktionerna i en kö för att bearbeta dem i bakgrunden.  
@@ -46,7 +46,7 @@ Jobbköer är ett effektivt verktyg som schemalägger körning av affärsprocess
 > [!NOTE]  
 >  När du schemalägger ett dokument för att bokföra, och bokföringsprocessen börjar, konfigureras bokföringsrutinen för automatisk timeout inom två timmar, om bokföringsrutinen slutar att svara.  
 
-Du ställer in den här användningen av jobbkön i fönstret **Försäljningsinställningar** eller **inköp** respektive. På snabbfliken **bakgrundsbokföring** väljer du **Bokföra dokument via jobbkö** och sedan fyller du i relevant information. Här kan du även använda **Kategorikod för jobbkö** för att köra alla jobbkötransaktioner med samma kod. Du kan t.ex. använda kategorin **SalesPost** som filtrerar fram alla försäljningsorder som matchar en jobbkö med samma kategorikod.  
+Du ställer in den här användningen av jobbkön på sidan **Försäljningsinställningar** eller **inköp** respektive. På snabbfliken **bakgrundsbokföring** väljer du **Bokföra dokument via jobbkö** och sedan fyller du i relevant information. Här kan du även använda **Kategorikod för jobbkö** för att köra alla jobbkötransaktioner med samma kod. Du kan t.ex. använda kategorin **SalesPost** som filtrerar fram alla försäljningsorder som matchar en jobbkö med samma kategorikod.  
 
 > [!IMPORTANT]  
 >  Om du ställer in ett jobb som ska bokföra och skriva ut dokument och skrivaren visar en dialogruta, exempelvis en begäran för autentiseringsuppgifter eller en varning om låg bläcknivå, bokförs dokumentet men skrivs inte ut. Motsvarande jobbköpost gör slutligen timeout, och **Status** fältet anges till **Fel**. Därmed rekommenderar vi att du inte använder en skrivarinställning som kräver interaktioner med skrivaredialogrutor tillsammans med bakgrundsbokföring.  

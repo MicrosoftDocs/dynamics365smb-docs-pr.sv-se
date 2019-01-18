@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bins"></a>Skapa lagerplatser
-Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är att generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion i fönstret **Lagerplatsuppläggningskalkylark** för att skapa lagerplatserna automatiskt.  
+Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är att generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerplatserna automatiskt.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
@@ -39,13 +39,13 @@ Innan du börjar skapa lagerplatser automatiskt i kalkylarket bör du bestämma 
 > [!NOTE]  
 >  När du använder en lagerplats inte kan du ta bort den om den inte är tom. Om du vill använda ett annat namngivningssystem för lagerplatser kan du dock använda grupperingsjournalen för att flytta artiklarna till ett nytt lagerplatssystem. Det här måste göras manuellt och är tidskrävande, så det är bättre att skapa lagerplatserna rätt från början.  
 
-Om du vill arbeta i fönstret **lagerplatsuppläggningskalkylark** måste du ställas in som en lageranställd på det lagerställe där lagerplatserna finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
+Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du ställas in som en lageranställd på det lagerställe där lagerplatserna finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerplatser**.
 3. Klicka på **Beräkna lagerplatser** i fältet **Lagerplatsmall kod** och välj den lagerplatsmall som du vill använda som modell när du skapar lagerplatser.
 4.  Fyll i en beskrivning av de lagerplatser som du håller på att skapa.  
-5.  Om du vill skapa lagerplatskoderna, fyller du i **från nr** och **Till nr.** I de tre kategorierna som visas i fönstret: **ställning**, **sektion**, och **nivå.** Lagerplatskoden kan bestå av högst 20 tecken.  
+5.  Om du vill skapa lagerplatskoderna, fyller du i **från nr** och **Till nr.** I de tre kategorierna som visas på sidan: **ställning**, **sektion**, och **nivå.** Lagerplatskoden kan bestå av högst 20 tecken.  
 
     > [!NOTE]  
     >  Det antal tecken som du har angett i de tre kategorierna för något av fälten (t.ex. de tecken som du har angett i de tre fälten **Från nr**) plus eventuella fältavgränsare, får högst vara 20.  

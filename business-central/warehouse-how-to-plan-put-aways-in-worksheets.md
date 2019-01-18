@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i kalkylark
@@ -29,12 +29,12 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 > [!NOTE]  
 >  Oavsett statusen på fältet **Använd artikelinförselkalkylark** på lagerställekortet kan du alltid hämta instruktionsrader för artikelinförsel, d.v.s. bokförda inleveransrader, till artikelinförselkalkylarket genom att göra så här:  
 >   
->  1.  I fönstret **Dist.lager artikelinförsel** trycker du på Ctrl+D för att ta bort hela artikelinförselinstruktionen, eller markerar de rader som du vill behandla i kalkylarket och tar bort dem.  
+>  1.  På sidan **Dist.lager artikelinförsel** trycker du på Ctrl+D för att ta bort hela artikelinförselinstruktionen, eller markerar de rader som du vill behandla i kalkylarket och tar bort dem.  
 > 2.  Fortsätt med det i så många artikelinförslar som du vill, tills du har tagit bort de rader om du vill arbeta med i kalkylarket. Välj nu **Artikelinförselkalkylark** och fortsätt planeringen.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Så här planerar du instruktioner i artikelinförselkalkylarket  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförselförslag** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Hämta dist.lager dokument**. Fönstret **Artikelinförselval** öppnas.  
+2.  Välj åtgärden **Hämta dist.lager dokument**. Sidan **Artikelinförselval** öppnas.  
 
     Alla bokförda inleveranser och registrerade interna artikelinförslar som har vidarebefordrats till artikelinförselfunktionen visas, däribland de som artikelinförselinstruktioner redan har skapats för. Dokument med artikelinförselrader som är klara och registrerade visas inte i den här listan.  
 
@@ -52,9 +52,9 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 6.  Redigera raderna manuellt vid behov. Du kan ta bort rader om exempelvis vissa artiklar måste föras in på en lagerplats som ligger långt bort från övriga artiklars lagerplatser.  
 
     > [!NOTE]  
-    >  De rader som tas bort tas endast bort från det här kalkylarket, inte från urvalslistan för artikelinförslar.  
+    >  De rader som tas bort tas endast bort från det här förslaget, inte från urvalslistan för artikelinförslar.  
 
-7.  Välj åtgärden **Skapa artikelinförsel**. fönstret **Skapa dokument** öppnas, där kan du lägga till ytterligare information i artikelinförseln som du skapar, enligt följande:  
+7.  Välj åtgärden **Skapa artikelinförsel**. Sidan **Skapa dokument** öppnas, där kan du lägga till ytterligare information i artikelinförseln som du skapar, enligt följande:  
 
     -   Du kan fördela artikelinförseln till en särskild anställd.  
     -   Du kan sortera instruktionsraderna för artikelinförsel som du gjorde i kalkylarket eller genom att använda funktionen Lagerplatsordning. När du sorterar enligt lagerplatsordningen visas hämtningsraderna först eftersom de flesta inleveranslagerplatser har lagerplatsordning 0, och placeringsraderna visas sist, med de lagerplatser som har lägst lagerplatsordning högst upp i listan. Om du har strukturerat distributionslagret så att lagerplatser med liknande lagerplatsordning ligger bredvid varandra slipper personalen gå så mycket om du sorterar raderna på det här sättet.  

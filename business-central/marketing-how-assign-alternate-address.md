@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Ange alternativa adresser för en kontakt
@@ -24,16 +25,16 @@ Du kan tilldela kontakterna alternativa adresser som är aktuella ibland för e-
 
 ## <a name="to-assign-an-alternate-address"></a>Så här tilldelar du alternativa adresser
 1. Öppna kontakten .
-2. Välj åtgärden **Alternativ adress** och välj sedan **Kort**. Fönstret **Kontakt alt. adress lista** öppnas.
-3. Ange en ny alternativ adress och fyll i fälten i fönstret **Kontaktens alternativa adress**.
+2. Välj åtgärden **Alternativ adress** och välj sedan **Kort**. Sidan **Kontakt alt. adress lista** öppnas.
+3. Ange en ny alternativ adress och fyll i fälten på sidan för **kontaktens adresskort för alternativ adress**.
 
 Upprepa stegen för varje alternativ adress du vill tilldela. För varje alternativ adress kan du ange ett eller flera datumintervall.
 
-Alternativa adresser kan också tilldelas i fönstret kontaktlista på samma sätt.
+Alternativa adresser kan också tilldelas från sidan Kontaktlista på samma sätt.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Så här tilldelar du datumintervall för alternativa adresser
 1. Öppna kontakten .
-2. Välj åtgärden **Alternativ adress** och välj sedan **Datumintervall**. Fönstret **Kontakt alt. adr. datuminterv.** öppnas.
+2. Välj åtgärden **Alternativ adress** och välj sedan **Datumintervall**. Sidan **Kontakt alt. adr. datuminterv.** öppnas.
 3. Välj åtgärden **Ny**.
 4. I fältet **Kontakt alt. adresskod**, välj en alternativ adress för den här kontakten och fyll sedan i fälten **startdatum** och **slutdatum**.
 

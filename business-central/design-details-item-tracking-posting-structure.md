@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetaljer: Bokföringsstruktur för artikelspårning
@@ -24,7 +24,7 @@ För att anpassas till funktionen för lagervärdering och för att få en enkla
   
 Artikelspårningsnummer i ordernätverksenheter och icke orderrelaterade nätverksenheter anges i fältet **Reservationstransaktion** tabell (T337). Artikelspårningsnummer som är kopplade till historisk information hämtas direkt från de artikeltransaktioner som hör till transaktionen i fråga. Det betyder att artikeltransaktioner återspeglar artikelspårningspecifikationen för den bokförda orderraden.  
   
-Fönstret **Artikelspårningsrader** hämtar informationen från T337 och artikeltransaktionerna och visar den via den tillfälliga tabellen, **Spårningsspecifikation** (T336). T336 innehåller också de temporära data i fönstret **Artikelspårningsrader** för artikelspårning av antal som återstår att faktureras.  
+Sidan **Artikelspårningsrader** hämtar informationen från T337 och artikeltransaktionerna och visar den via den tillfälliga tabellen, **Spårningsspecifikation** (T336). T336 innehåller också de temporära data på sidan **Artikelspårningsrader** för artikelspårning av antal som återstår att faktureras.  
   
 ## <a name="one-to-many-relation"></a>En-till-många-relation  
 Tabellen **Artikeltrans. relation** som används för att koppla en bokförd dokumentrad med dess relaterade artikeltransaktioner, består av två delar:  

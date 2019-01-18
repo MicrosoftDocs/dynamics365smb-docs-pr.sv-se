@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 860de16a7cf5f608b6b1739eb8a4900ebe6c8e11
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använda XML-scheman för att förbereda dataintegrationsdefinitioner
-Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet i fönstret **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initialisera antingen en definition för datautbyte eller en XMLport.  
+Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet på sidan **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initialisera antingen en definition för datautbyte eller en XMLport.  
 
  När du har definierat vilka dataelement som ska ingå baserat på XML-schemat, kan du använda åtgärden **Generera XMLPort** för att skapa ett XMLport-objekt.  
 
- Alternativt kan du använda åtgärden **Generera datautbytesdefinition** för att initialisera en definition för datautbyte som baseras på de valda dataelementen, som du sedan fyller i i ramverket för datautbyte. Det skapar en post i fönstret **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Alternativt kan du använda åtgärden **Generera datautbytesdefinition** för att initialisera en definition för datautbyte som baseras på de valda dataelementen, som du sedan fyller i i ramverket för datautbyte. Det skapar en post på sidan **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
  Det här avsnittet innehåller följande procedurer:  
 
@@ -106,12 +106,12 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 3.  Se till att de relevanta noderna har markerats. Mer information finns i avsnittet ”Så här markerar eller avmarkerar du noder i ett XML-schema”.  
 
-4.  I fönstret **Visningsprogram för XML-schema** på fliken **Start** i gruppen **Process** väljer du **Generera datautbytesdefinition**.  
+4.  På sidan **Visningsprogram för XML-schema** på fliken **Start** i gruppen **Process** väljer du **Generera datautbytesdefinition**.  
 
- Datautbytesdefinitionen skapas i fönstret **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Datautbytesdefinitionen skapas på sidan **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
->  Du kan också använda funktionen **Hämta filstruktur** från fönstret **Definitioner för bokföringsbyte** som använder funktionen i fönstret **Visningsprogram för XML-schema** för att autofylla snabbfliken **Kolumndefinitioner**.  
+>  Du kan också använda funktionen **Hämta filstruktur** från sidan **Definitioner för bokföringsbyte** som använder funktionen på sidan **Visningsprogram för XML-schema** för att autofylla snabbfliken **Kolumndefinitioner**.  
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Så här skapar du en XMLport som baseras på ett XML-schema  
 

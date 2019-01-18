@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Uppdatera rapport- eller dokumentlayouter
@@ -32,7 +32,7 @@ Alla rapportdatauppsättningsändringar kan inte uppdateras automatiskt i rappor
   
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rapportlayouter** och välj sedan relaterad länk.  
   
-2.  I fönstret **rapportlayouter**, om du vill uppdatera in en viss layout i listan, väljer du layouten från listan och sedan åtgärden **uppdatera layouten**. Eller, om du vill uppdatera alla standardrapportlayouter för företaget, klickar du på åtgärden **uppdatera alla layouter**.  
+2.  På sidan **rapportlayouter**, om du vill uppdatera in en viss layout i listan, väljer du layouten från listan och sedan åtgärden **uppdatera layouten**. Eller, om du vill uppdatera alla standardrapportlayouter för företaget, klickar du på åtgärden **uppdatera alla layouter**.  
 
 Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel uppstår visas ett meddelande med felen. Då måste du åtgärda felen genom att redigera den anpassade rapportlayouten manuellt. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
 
@@ -40,9 +40,9 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
   
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.  
   
-2.  I fönstret **Val av rapportlayout** väljer du åtgärden **Testlayoutuppdateringar**.  
+2.  På sidan **Val av rapportlayout** väljer du åtgärden **Testlayoutuppdateringar**.  
   
- Ändringar till rapportlayouterna testas men tillämpas inte på de faktiska rapportlayouterna. Fönstret **Uppdateringslogg för rapportlayout** visas med status för potentiella uppdateringar för varje rapportlayout. Om det finns fel för en rapportlayout kan du öppna rapportlayouten direkt från meddelandet och åtgärda felen. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
+ Ändringar till rapportlayouterna testas men tillämpas inte på de faktiska rapportlayouterna. På sidan **Uppdateringslogg för rapportlayout** visas med status för potentiella uppdateringar för varje rapportlayout. Om det finns fel för en rapportlayout kan du öppna rapportlayouten direkt från meddelandet och åtgärda felen. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Begränsningar för uppdatering av anpassad rapportlayout  
  Det finns flera typer av ändringar som den automatiska uppdateringen kan tillämpa för anpassade rapportlayouter. Ett fält som används i layouten kan till exempel ha tagits bort från rapportdatauppsättningen. Däremot kan den automatiska uppdateringen inte hantera följande ändringar i en rapportdatauppsättning.  

@@ -1,6 +1,6 @@
 ---
 title: "Så här skapar du en efterfrågeprognos | Microsoft Docs"
-description: "Du kan skapa försäljnings- och produktionsprognoser i fönstret **efterfrågeprognos**."
+description: "Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
-Du kan skapa försäljnings- och produktionsprognoser i fönstret **efterfrågeprognos**.  
+Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
 
 Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings - och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings - och produktionsorder. Alternativet *Komponent* på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en försäljningsartikel, nettoberäknas endast försäljningsorder för prognosen. Om den är för komponenter, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
 
@@ -34,7 +34,7 @@ Funktionen för produktionsprognos kan användas för att skapa försäljnings- 
 
 I de allra flesta fall ändrar produktionsplanerare försäljningsprognosen så att denna stämmer med produktionsvillkoren, men ändå uppfyller försäljningsprognosen.  
 
-Du skapar prognoser manuellt i fönstret **efterfrågeprognos**. Flera prognoser kan särskiljas i systemet med hjälp av namn och typ. Prognoser kan kopieras och redigeras efter behov. Observera att endast en prognos i taget gäller för planering.  
+Du skapar prognoser manuellt på sidan **efterfrågeprognos**. Flera prognoser kan särskiljas i systemet med hjälp av namn och typ. Prognoser kan kopieras och redigeras efter behov. Observera att endast en prognos i taget gäller för planering.  
 
 Prognosen består av ett antal poster som motsvarar artikelnummer, prognosdatum och prognostiserat antal. Prognosen för en artikel täcker en period som definieras av prognosdatumet och prognosdatumet för nästa (efterföljande) prognospost. Med hänsyn till planering bör det prognostiserade antalet vara tillgängligt vid behovsperiodens start.  
 
@@ -64,10 +64,10 @@ Detta kan anges i produktionsinställningarna om du vill filtrera prognos efter 
     > [!NOTE]  
     >  Det kan vara värt att fundera på vilket tidsintervall du vill använda för framtida prognoser så att tidsintervallen är konsekventa. När du anger ett prognosantal börjar detta prognosantal att gälla på den första dagen i det tidsintervall som du väljer. Om du till exempel väljer månad som tidsintervall, anger du prognosantalet på den första dagen i månaden. Om du väljer kvartal, anger du antalet på den första dagen i den första månaden i kvartalet.  
 
-8.  I fältet **Visa som** väljer du hur prognosantalet ska visas för tidsintervallet. Om du väljer **Nettoförändring** visas nettoförändringen i saldot för tidsintervallet. Om du väljer **Saldo t.o.m. datum** visar fönstret saldot per den sista dagen i tidsintervallet.  
+8.  I fältet **Visa som** väljer du hur prognosantalet ska visas för tidsintervallet. Om du väljer **Nettoförändring** visas nettoförändringen i saldot för tidsintervallet. Om du väljer **Saldo t.o.m. datum** visar sidan saldot per den sista dagen i tidsintervallet.  
 
 > [!NOTE]  
->  Du kan också redigera en befintlig prognos. I fönstret **Matris för efterfrågeprognos** väljer du åtgärden **Kopiera efterfrågeprognos** och fyller i fönstret **efterfrågeprognos** med en befintlig prognos. Du kan sedan redigera antalet.  
+>  Du kan också redigera en befintlig prognos. På sidan **Matris för efterfrågeprognos** väljer du åtgärden **Kopiera efterfrågeprognos** och fyller i sidan **efterfrågeprognos** med en befintlig prognos. Du kan sedan redigera antalet.  
 
 ## <a name="see-also"></a>Se även  
 [Ställa in Produktion](production-configure-production-processes.md)  

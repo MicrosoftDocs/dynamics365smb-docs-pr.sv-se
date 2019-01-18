@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Skapa försäkring för anläggningstillgångar
@@ -38,11 +38,11 @@ Du kan gruppera dina försäkringsbrev i kategorier, t.ex. stöldförsäkring oc
 Du kan lagra information om varje försäkringsbrev på försäkringskortet.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkring** och välj sedan relaterad länk.  
-2. I fönstret **Försäkring** väljer du åtgärden **Ny** åtgärder för att skapa ett nytt försäkringskort.  
+2. På sidan **Försäkring** väljer du åtgärden **Ny** åtgärder för att skapa ett nytt försäkringskort.  
 3. Fyll i fälten om det behövs.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Så här skapar du journalmallar för försäkringar
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar fönstret **Försäkringsjournal**. Du kan dessutom skapa ytterligare mallar. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar sidan **Försäkringsjournal**. Du kan dessutom skapa ytterligare mallar. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkringsjournalmallar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
@@ -52,7 +52,7 @@ Du kan skapa journaler i en försäkringsjournalmall. Värdena i journalen anvä
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkringsjournalmallar** och välj sedan relaterad länk.  
 2. Välj en försäkringsjournalmall och välj sedan åtgärden **Journaler**.
-3. I fönstret **Försäkringsjournaler** fyller du i fälten efter behov.
+3. På sidan **Försäkringsjournaler** fyller du i fälten efter behov.
 
 > [!NOTE]  
 >   Siffror fyller en särskild funktion i journalnamnen. Om ett journalmallsnamn eller ett journalnamn innehåller ett nummer, får namnet efterföljande nummer automatiskt när journalen bokförs. Om till exempel HH1 anges i fältet **Namn** ändras journalnamnet till HH2 när journalen som heter HH1 har bokförts.

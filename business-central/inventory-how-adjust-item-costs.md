@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Justera artikelkostnader
@@ -34,11 +34,11 @@ Om du använder en FIFO-kostnadsmetod är artikelns enhetskostnad det verkliga v
 
 Om du använder metoden Genomsnittskostnad beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. För artiklar som avänder den här värderingsprincipen kan du välja fältet **Styckkostnad** på artikelkortet för att visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
-Funktionen Kostnadsjustering bearbetar endast värdetransaktioner som inte ännu har justerats. Om en funktion påträffas där ankommande kostnader behöver flyttas fram till kopplade avgående kostnader, görs detta genom att nya justeringsvärdetransaktioner skapas som baseras på informationen i de ursprungliga värdetransaktionerna, men som innehåller justeringsbeloppet. Funktionen Kostnadsjustering använder bokföringsdatumet för den ursprungliga värdetransaktionen om inte det datumet infaller i en avslutad lagerperiod. Om så är fallet används startdatumet för nästa öppna lagerperiod. Om lagerperioder inte används definieras datumet i fältet **Tillåt bokföring fr.o.m.** i fönstret **Redovisningsinställningar** när justeringstransaktionerna bokförs.
+Funktionen Kostnadsjustering bearbetar endast värdetransaktioner som inte ännu har justerats. Om en funktion påträffas där ankommande kostnader behöver flyttas fram till kopplade avgående kostnader, görs detta genom att nya justeringsvärdetransaktioner skapas som baseras på informationen i de ursprungliga värdetransaktionerna, men som innehåller justeringsbeloppet. Funktionen Kostnadsjustering använder bokföringsdatumet för den ursprungliga värdetransaktionen om inte det datumet infaller i en avslutad lagerperiod. Om så är fallet används startdatumet för nästa öppna lagerperiod. Om lagerperioder inte används definieras datumet i fältet **Tillåt bokföring fr.o.m.** på sidan **Redovisningsinställningar** när justeringstransaktionerna bokförs.
 
 ## <a name="to-adjust-item-costs-manually"></a>Så här justerar du artikelkostnader manuellt
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Justera kost. - artikeltrans** och välj sedan relaterad länk.
-2. I fönstret **Justera kost. - artikeltrans** kan du ange vilka artiklar som du vill justera kostnader för.
+2. På sidan **Justera kost. - artikeltrans** kan du ange vilka artiklar som du vill justera kostnader för.
 3. Välj knappen **OK**.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Så här gör du generella ändringar i inköpspris

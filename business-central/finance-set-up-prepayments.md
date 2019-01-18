@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
@@ -30,23 +30,23 @@ Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har m
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Så här lägger du till konton för förutbetalda poster i bokföringsinställningarna  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.
-2. Fyll i följande fält i fönstret **Bokföringsinställningar**:  
+2. På sidan **Bokföringsinställningar** fyller du i följande fält:  
 
     - **Förskottsbet.konto, försäljning**  
     - **Förskottsbet.konto, inköp**  
 
-Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarna kan du göra detta i fönstret **Redovisningskontolista**.  
+Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarna kan du göra detta på sidan **Redovisningskontolista**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Så här skapar du nummerserier för dokument för förskottsbetalning  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsinställningar** och välj sedan relaterad länk.
-2. I fönstret **Försäljningsinställningar** fyller du i följande fält:  
+2. På sidan **Försäljningsinställningar** fyller du i följande fält:  
 
    - **Försk.fakt.nr.serie (bokförd)**
    - **Försk.kredit.nr.serie (bokförd)**
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsinställningar** och välj sedan relaterad länk.
-2. I fönstret **Inköpsinställningar** fyller du i följande fält:
+2. På sidan **Inköpsinställningar** fyller du i följande fält:
 
     - **Försk.fakt.nr.serie (bokförd)**
     - **Försk.kredit.nr.serie (bokförd)**
@@ -59,7 +59,7 @@ Du kan ställa in en artikels standardprocentandel för alla kunder, en specifik
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. Välj en artikel och välj sedan åtgärden **Procentandel för förskottsbet**.  
-3. I fönstret **Procentandelar, förskottsbetalning för försäljning** fyller du i följande fält: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På sidan **Procentandelar, förskottsbetalning för försäljning** fyller du i följande fält: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan ställa in en kunds eller leverantörs standardprocentandel för förskottsbet. för alla artiklar och alla typer av försäljningsrader. Ange detta på kundkortet eller leverantörskortet.
 

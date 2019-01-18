@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Arbeta med katalogartiklar
@@ -25,8 +25,8 @@ Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du 
 * Från en försäljningsorderrad av typen **Artikel** med ett tomt fält ***Nr** väljer du en katalogartikel. Ett artikelkort skapas sedan automatiskt för katalogartikeln.
 
 > [!NOTE]  
-> Du kan inte välja en katalogartikel från fönstret **Försäljningsfaktura**.<br /><br />
-> Du kan välja en katalogartikel från fönstret **Försäljningsoffert** men katalogartikeln kommer inte att omvandlas till en vanlig artikel när du använder funktionen **Gör beställning**.
+> Du kan inte välja en katalogartikel från sidan **Försäljningsfaktura**.<br /><br />
+> Du kan välja en katalogartikel från sidan **Försäljningsoffert** men katalogartikeln kommer inte att omvandlas till en vanlig artikel när du använder funktionen **Gör beställning**.
 
 En katalogartikel har vanligtvis artikelnumret från den leverantör som levererar den. Om du vill aktivera konvertering av ett kort för en katalogartikel till ett vanligt artikelkort måste du först ställa in hur leverantörens artikelnumrering konverteras till din egen artikelnumrering.   
 
@@ -49,7 +49,7 @@ Om du vill aktivera konvertering av ett kort för katalogartikel till ett vanlig
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Om du vill omvandla en katalogartikel till en normal artikel
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **katalogartiklar** och välj sedan relaterad länk.
 2. Öppna kortet för den katalogartikel som du vill konvertera till en normalt artikel.
-3. I fönstret **Katalogartikelkort** väljer du åtgärden **Skapa artikel**.
+3. På sidan **Katalogartikelkort** väljer du åtgärden **Skapa artikel**.
 
 Ett nytt artikelkort förifyllt med information från katalogartikeln och en relevant artikelmall skapas. Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Ett nytt artikelkort förifyllt med information från katalogartikeln och en rel
 4. Välj åtgärden **Rad** och välj sedan åtgärden **Välj katalogartiklar**.
 
     Katalogartikeln omvandlas till en normal artikel. Ett nytt artikelkort förifyllt med information från katalogartikeln och en relevant artikelmall skapas.
-5. I fönstret **Katalogartiklar** väljer du den katalogartikel som du vill sälja och väljer sedan knappen **OK**.
+5. På sidan **Katalogartiklar** väljer du den katalogartikel som du vill sälja och väljer sedan knappen **OK**.
 6. När försäljningsordern är slutförd väljer du åtgärden **Bokföra**.
 
 Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).

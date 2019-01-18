@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="planning"></a>Planering
 De produktionsoperationer som krävs för att omvandla inflöde till färdiga varor måste planeras varje dag eller varje vecka beroende på vad det är för produkt och vilka volymer det handlar om. [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder funktioner för att leverera mot förväntat och faktiskt behov från försäljning, montering och produktion samt för distributionsplanering med lagerställeenheter och lageröverföringar.
 
 > [!NOTE]
-> Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är fönstret **planeringsförslag**.
+> Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är sidan **planeringsförslag**.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder också leveransplanering för grossistföretag där de resulterande leveransordrarna endast kan vara överföring och inköpsorder. Huvudsakliga gränssnittet för den här planeringen är fönstret **inköpskalkylark** som indirekt beskrivs i det här avsnittet eftersom de flesta funktioner gäller för båda kalkylark.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder också leveransplanering för grossistföretag där de resulterande leveransordrarna endast kan vara överföring och inköpsorder. Huvudsakliga gränssnittet för den här planeringen är sidan **inköpskalkylark** som indirekt beskrivs i det här avsnittet eftersom de flesta funktioner gäller för båda kalkylark.
 
 Innan du kan planera och genomföra produktionsorder måste du konfigurera produktionskapaciteterna, till exempel att skapa fabrikskalendrar, verksamhetsflöden, produktionsstrukturer och maskingrupper. Mer information finns i [Konfigurera tillverkning](production-configure-production-processes.md).
 
@@ -41,10 +41,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Prognostisera efterfrågan utifrån förväntade försäljnings- och produktionskomponenter.|[Skapa en efterfrågeprognos](production-how-to-create-a-forecast.md)|  
 |Automatiskt skapa en-mot-en-produktionsorder från försäljningsorder för att täcka det exakta behovet på den försäljningsorderraden.|[Så här skapar du produktionsorder från försäljningsorder](production-how-to-create-production-orders-from-sales-orders.md)|
 |Skapa en projektproduktionsorder direkt från en försäljningsorder med flera rader så att den representerar ett produktionsprojekt.|[Planera projektorder](production-how-to-plan-project-orders.md)|
-|Använda fönstret **Orderplanering** för att manuellt planera för försäljnings- eller produktionsbehovet på en strukturnivå i taget.|[Planera ny behovsorder efter order](production-how-to-plan-for-new-demand.md)|
-|Använd fösntret **planeringsförslag** för att köra både Prod.program och Nettobehov för att automatiskt skapa en hög eller detaljerad försörjningsplan på alla artikelnivåer.|[Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)|
-|Köra inköpsförslaget för att automatiskt skapa en detaljerad försörjningsplan för att täcka behovet av artiklar som endast kan återanskaffas via inköp eller överföring.|Fönstret **Inköpsförslag**|  
-|Initiera eller uppdatera en produktionsorder som grovplanerade operationer i produktionsplanen.|[Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)|
+|Använd sidan **Orderplanering** för att manuellt planera för försäljnings- eller produktionsbehovet på en strukturnivå i taget.|[Planera ny behovsorder efter order](production-how-to-plan-for-new-demand.md)|
+|Använd sidan **planeringsförslag** för att köra både Prod.program och Nettobehov för att automatiskt skapa en hög eller detaljerad försörjningsplan på alla artikelnivåer.|[Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)|
+|Köra inköpskalkylarket för att automatiskt skapa en detaljerad försörjningsplan för att täcka behovet av artiklar som endast kan återanskaffas via inköp eller överföring.|Sidan **Inköpskalkylark**|  
+|initialisera eller uppdatera en produktionsorder som grovplanerade operationer i produktionsplanen.|[Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)|
 |Omberäkna produktions- eller maksingruppkalender på grund av planeringsändringar.|Avsnittet ”Beräkna en produktionsgruppkalender” i [Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)|
 |Spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden.|[Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)|
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  

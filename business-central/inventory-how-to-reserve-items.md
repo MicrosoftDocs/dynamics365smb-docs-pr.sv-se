@@ -13,27 +13,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Reservera artiklar
-Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokument eller journalrader. Du utför arbetet i fönstret **Reservation**.
+Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.
 
-Varje rad i fönstret **Reservation** som du öppnar för att reservera artiklar visar information om en viss typ av rad (försäljning, inköp, journal) eller lagerpost. Raderna beskriver hur många artiklar som är disponibla för reservation för varje radtyp eller post.
+Varje rad på sidan **Reservation** som du öppnar för att reservera artiklar visar information om en viss typ av rad (försäljning, inköp, journal) eller lagerpost. Raderna beskriver hur många artiklar som är disponibla för reservation för varje radtyp eller post.
 
 ## <a name="to-reserve-items-for-sales"></a>Så här reserverar du artiklar för försäljning
 Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet är liknande för inköp, service och monteringsorder.  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
-2.  På en föräljningsorder, på snabbfliken **Rader** väljer du åtgärden **Reservera**. Fönstret **Reservation** öppnas.  
+2.  På en föräljningsorder, på snabbfliken **Rader** väljer du åtgärden **Reservera**. Sidan **Reservation** visas.  
 3. Välj den rad som du vill reservera artiklarna från.  
 4. Välj något av följande åtgärder:  
 
     |**Funktion**|**Beskrivning**|
     |------------------|---------------------|  
-    |**Reservera auto.**|Om du vill reservera artiklar automatiskt i fönstret **Reservation**.|  
+    |**Reservera auto.**|Om du vill reservera artiklar automatiskt på sidan **Reservation**.|  
     |**Reservera från aktuell rad**|För reservering av artiklar från den rad du har markerat i dokumentet.|  
     |**Avbeställ reservation från aktuell rad**|För att avbeställa reservation av artiklar från den rad du har markerat i dokumentet.|
 
@@ -48,7 +48,7 @@ I det följande procedur används en fast planerad produktionsorder.
 2. Öppna den fast planerade produktionsorder som du vill reservera överordnade artiklar för.  
 3. Markera relevant produktionsorderrad.  
 4. På snabbfliken **rader** i fältet **Reservera.**
-5. I fönstret **Reservation** väljer du raden **Försäljningsrad, Order** och sedan åtgärden **Reservera från aktuell rad**.  
+5. På sidan **Reservation** väljer du raden **Försäljningsrad, Order** och sedan åtgärden **Reservera från aktuell rad**.  
 
 Det antal som du angett på raden för den fast planerade produktionsorden har nu reserverats.
 
@@ -62,22 +62,22 @@ I det följande procedur används en fast planerad produktionsorder.
 4. Välj **Rad**och sedan **Koppla trans.** på snabbfliken **Komponenter**.  
 5. Välj relevant komponentrad.  
 6. På snabbfliken **rader** i fältet **Reservera.**  
-7. I fönstret **Reservation** väljer du raden **Reservera från aktuell rad**.  
+7. På sidan **Reservation** väljer du raden **Reservera från aktuell rad**.  
 
 Det antal som du angett på raden för den fast planerade produktionskomponentraden har nu reserverats.
 
 ## <a name="to-change-a-reservation"></a>Så här ändrar du en reservation  
 Någon gång kan du behöva ändra en artikelreservation.   
 1. Från dokumentraden som du har reserverats från snabbfliken **rader** väljer du åtgärden **reservera**.  
-2. I fönstret **Reservation** väljer du åtgärden **Reservationstransaktioner**.
-3. Fönstret **Reservationstransaktioner** uppdaterar fältet **antal** på den rad som du vill ändra.
+2. På sidan **Reservation** väljer du åtgärden **Reservationstransaktioner**.
+3. Sidan **Reservationstransaktioner** uppdaterar fältet **antal** på den rad som du vill ändra.
 4. Bekräfta meddelandet som visas, genom att välja **OK**-knappen.
 
 ## <a name="to-cancel-a-reservation"></a>Så här avbeställer du en reservation  
 Någon gång kan du behöva avbeställa en artikelreservation.   
 1. Från dokumentraden som du vill avbryta en reservervation från på snabbfliken **rader** väljer du åtgärden **reservera**.  
-2. I fönstret **Reservation** väljer du åtgärden **Reservationstransaktioner**.  
-3.  I fönstret **Reservationstransaktioner** väljer du åtgärden **Avbryt reservation**.  
+2. På sidan **Reservation** väljer du åtgärden **Reservationstransaktioner**.  
+3.  På sidan **Reservation** väljer du åtgärden **Avbeställ reservation**.  
 4.  Bekräfta meddelandet som visas, genom att välja **OK**-knappen.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Om du vill reservera ett visst serie- eller partinummer  
@@ -91,8 +91,8 @@ Följande procedur är baserad på en försäljningsorder.
 3. Fortsätt med att tilldela serie- och partinummer på försäljningsorderraden. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
 4. På försäljningsorderraden väljer du åtgärden **Reservera**.  
 5. Välj knappen **Ja** för att reservera specifika serie- eller partinummer.  
-6. I fönstret **Artikelspårningslista**, välj serie- och partinummerkombinationen som du precis har tilldelats.  
-7. Välj knappen **OK** för att öppna fönstret **Reservation** där endast lager med det angivna artikelspårningsnumret visas. Om det finns icke-specifika reservationer för något av artikelspårningsnumren som har angetts på den här raden, informeras du om den kvantitet som redan har reserverats.  
+6. På sidan **Artikelspårningslista**, välj serie- och partinummerkombinationen som du precis har tilldelats.  
+7. Välj knappen **OK** för att öppna sidan **Reservation** där endast lager med det angivna artikelspårningsnumret visas. Om det finns icke-specifika reservationer för något av artikelspårningsnumren som har angetts på den här raden, informeras du om den kvantitet som redan har reserverats.  
 8. Välj antingen **Reservera auto** eller åtgärden **Reservera från aktuell rad** för att skapa reservationen med de specifika artikelspårningsnumren.
 
 ## <a name="see-also"></a>Se även

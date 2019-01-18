@@ -11,10 +11,10 @@ ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -38,7 +38,7 @@ För närvarande måste du kontakta annulleringsteamet för [!INCLUDE[d365fin](i
 Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Office 365 -företagskonto, har du inte en Office 365-administratör. Du måste i stället avbryta prenumerationen genom att kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] annulleringsteamet genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL:en från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Återställa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljö
-Om du har lagt till data till [!INCLUDE[d365fin](includes/d365fin_md.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt företag och sedan återställa det första företaget. Om du öppnar fönstret **företag** kan du skapa en kopia av det aktuella företaget, logga ut och sedan logga in på ditt nya företag och sedan återställa det ursprungliga företaget.  
+Om du har lagt till data till [!INCLUDE[d365fin](includes/d365fin_md.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt företag och sedan återställa det första företaget. Om du öppnar sidan **företag** kan du skapa en kopia av det aktuella företaget, logga ut och sedan logga in på ditt nya företag och sedan återställa det ursprungliga företaget.  
 > [!NOTE]  
 >   När du vill återställa ett företag du delar med andra personer från organisationen, bör du kontrollera att de andra personerna inte är inloggade när du återställer företaget.  
 

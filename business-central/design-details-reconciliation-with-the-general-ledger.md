@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
@@ -35,7 +35,7 @@ Bokföringsdatum för redovisningstransaktionerna anges till bokföringsdatumet 
 När du kör batch-jobbet **Bokför lagerkostnad i redov.** kan du få fel på grund av med saknad inställning eller inkompatibel dimensionsinställning. Om fel uppstår i batch-jobbets dimensionsinställning ersätter den dessa fel och använder dimensionerna för värdetransaktionen. För andra fel bokför batch-jobbet inte värdetransaktionerna och anger dem vid slutet av rapporten i avsnittet **Transaktioner som hoppats över**. För att bokföra de här transaktionerna måste du först lösa felen. Om en lista över felen ska visas innan batch-jobbet för bokföring ska köras kan rapporten **Bokför lagerkostnad i redovisning**. Alla fel som inträffar under testbokföringen visas i en lista i testrapporten. Därefter går det att korrigera felen och köra batch-jobbet för bokföringen av lagerkostnaden utan att transaktioner hoppas över.  
 
 ## <a name="automatic-cost-posting"></a>Automatisk kostnadsbokföring  
-Om du vill göra så att kostnadsbokföringen till redovisningen körs automatiskt när du bokför en lagertransaktion markerar du kryssrutan **Automatisk kostnadsbokföring** i fönstret **Lagerinställning**. Bokföringsdatumet för redovisningstransaktionen är detsamma som bokföringsdatumet för artikeltransaktionen.  
+Om du vill göra så att kostnadsbokföringen till redovisningen körs automatiskt när du bokför en lagertransaktion markerar du kryssrutan **Automatisk kostnadsbokföring** på sidan **Lagerinställning**. Bokföringsdatumet för redovisningstransaktionen är detsamma som bokföringsdatumet för artikeltransaktionen.  
 
 ## <a name="account-types"></a>Kontotyper  
 Under avstämning bokförs lagervärden i lagerkontot i balansräkningen. Samma belopp, men med omvänt tecken, bokförs på det relevanta motkontot. Vanligtvis är motkontot ett resultaträkningkonto. Men när du bokför direkt kostnad som hör till förbrukning eller utflöde är motkontot ett balansräkningskonto. Typen av artikeltransaktion och värdetransaktionen avgör vilket redovisningskonto att bokföra på.  
@@ -45,7 +45,7 @@ Transaktionstypen anger vilket redovisningskonto att bokföra på. Det bestäms 
 ### <a name="example"></a>Exempel  
 Följande exempel visar en cykelkedja som tillverkas av inköpta länkar. I det här exemplet visas hur de olika redovisningskontotyperna används i ett typiskt scenario.  
 
-Kryssrutan **Förväntad kost.bokf. i redovisningen** i fönstret **Lagerinställningar** är markerad i och följande inställning har definierats.  
+Kryssrutan **Förväntad kost.bokf. i redovisningen** på sidan **Lagerinställningar** är markerad i och följande inställning har definierats.  
 
 Följande tabell visar hur länken ställs in på artikelkortet.  
 

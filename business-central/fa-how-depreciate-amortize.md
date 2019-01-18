@@ -11,10 +11,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
@@ -43,7 +43,7 @@ En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna av
     Batch-jobbet beräknar nedskrivningen och skapar rader i redovisningsjournalen för anläggningstillgångar.  
 4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 
-    I fönstret **Anl.tillg. redovisningsjournal** i fältet **Antal avskrivningsdagar** kan du se hur många avskrivningsdagar som har beräknats.  
+    På sidan **Anl.tillg. redovisningsjournal** i fältet **Antal avskrivningsdagar** kan du se hur många avskrivningsdagar som har beräknats.  
 5. Välj åtgärden **Bokföra**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Att bokföra en avskrivning manuellt från en redovisningsjournalen för anläggningstillgångar.
@@ -81,19 +81,19 @@ När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan 
 5. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anl.journaler** och välj sedan relaterad länk.  
 
     > [!NOTE]  
-    >   Fönstret **Anlägg.tillg.journal** innehåller nya rader för olika avskrivningsregler enligt dubblettlistan.  
+    >   Sidan **Anlägg.tillg.journal** innehåller nya rader för olika avskrivningsregler enligt dubblettlistan.  
 6. Granska och redigera raderna och välj sedan åtgärden **bokför**.  
 
     > [!NOTE]  
     >   Ett alternativt sätt att kopiera en transaktion enligt en annan regel är att ange en avskrivningsregelkod i fältet **Dubblett i avskrivningsregel** när du fyller i en journalrad.  
 
-Du kan kopiera transaktioner från en avskrivningsregel till en annan med hjälp av batch-jobbet **Kopiera avskrivningsregel**. Batch-jobbet skapar journalrader i den journal som du har angett i fönstret **Anl. journalinställningar** för den avskrivningsregel som du vill kopiera till. Mer information finns i följande procedur:  
+Du kan kopiera transaktioner från en avskrivningsregel till en annan med hjälp av batch-jobbet **Kopiera avskrivningsregel**. Batch-jobbet skapar journalrader i den journal som du har angett på sidan **Anl. journalinställningar** för den avskrivningsregel som du vill kopiera till. Mer information finns i följande procedur:  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Om du vill kopiera anläggningstillgångstransaktioner mellan avskrivningsregler
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Avskrivningsregler** och välj sedan relaterad länk.  
 2. Öppna relevant avskrivningsregelkort och välj sedan åtgärden **Kopiera avskrivningsregel**.  
-3. I fönstret **Kopiera avskrivningsregelkort** fyller du i fälten efter behov.  
-4. Välj **OK**.  
+3. På sidan **Kopiera avskrivningsregel** fyller du i fälten efter behov.  
+4. Välj knappen **OK**.  
 
 De kopierade raderna skapas antingen i redovisningsjournalen för anläggningstillgångar eller i anläggningstillgångsjournalen, beroende på om avskrivningsregeln som du kopierar har integrering med redovisningen.  
 

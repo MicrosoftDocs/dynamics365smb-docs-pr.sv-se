@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Skapa lagerplatstyper
@@ -26,7 +26,7 @@ Det finns sex typer: Du kan använda alla sex olika lagerplatstyperna i distribu
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Så här skapar du de lagerplatstyper som du vill använda  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatstyper** och välj sedan relaterad länk.  
-2.  I fönstret **Lagerplatstyper** skapar du en kod på tio tecken för en lagerplatstyp.  
+2.  På sidan **Lagerplatstyper** skapar du en kod på tio tecken för en lagerplatstyp.  
 3.  Välj de aktiviteter som kan utföras med varje lagerplatstyp.  
 
 > [!NOTE]  

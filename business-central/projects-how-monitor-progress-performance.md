@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Övervaka projektframsteg och -resultat
@@ -40,7 +40,7 @@ Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen. N
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **PIA-metoder för projekt** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Stäng fönstret.   
+3. Stäng sidan.   
 4. För att göra den nya metoden till standard väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") **Projektinställningar** och välj sedan relaterad länk.  
 5. I fältet **Standard-PIA-metod** väljer du metoden i listan.
 
@@ -49,15 +49,15 @@ När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet s
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**. Mer information finns i [Skapa projekt](projects-how-create-jobs.md).  
-3. I fönstret **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan. Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.  
+3. PÅ sidan **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan. Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.  
 
 ## <a name="to-calculate-wip"></a>Så här beräknar du PIA
 Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för periodslutsrapporteringen. Du kan använda batch-jobbet **Projekt - Beräkna PIA** om du vill göra detta.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt - Beräkna PIA** och välj sedan relaterad länk.  
 2. Välj åtgärden **Beräkna PIA**.
-3. I fönstret **Projekt - Beräkna PIA** fyller du i fälten efter behov.
-4. Välj **OK**.  
+3. På sidan **Projekt - Beräkna PIA** fyller du i fälten efter behov.
+4. Välj knappen **OK**.  
 
 > [!NOTE]  
 >   Batch-jobbet beräknar bara PIA. Detta bokförs inte i Redovisning. Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA. Mer information finns i följande procedur:
@@ -66,8 +66,8 @@ Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för
 När du har beräknat PIA kan du bokföra det på balansräkningskonton för rapportering vid periodens slut. Använd batch-jobbet **Projekt - Bokför PIA i redovisning** om du vill göra detta.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt - Bokför PIA i redovisning** och välj sedan relaterad länk.  
-2. I fönstret **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.  
-3. Välj **OK**.
+2. På sidan **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.  
+3. Välj knappen **OK**.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar
 Du kan visa projektförbrukningen fram till projektet avslutas i ett steg. Det gör du genom att använda batch-jobbet **Projekt - Beräkna återstående förbrukning** för alla aktiviteter fram till och med projektets slut.  
@@ -79,7 +79,7 @@ Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt re
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektjournaler** och välj sedan relaterad länk.  
 2. Välj en relevant projektjournal och välj sedan åtgärden **Ber. återstående förbrukning**.  
-3. I fönstret **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.  
+3. På sidan **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.  
 4. Uppdatera journalen med eventuella ändringar som kan behövas.  
 5. Välj **Bokföra**.
 
@@ -89,7 +89,7 @@ Alla projektrelaterade transaktioner registreras i bokförda projektjournaler oc
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektregister** och välj sedan relaterad länk.
 2. Välj en relevant journal och välj sedan åtgärden **Projekttransaktioner**.
 
-I fönstret **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
+På sidan **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
 
 ## <a name="see-also"></a>Se även
 [Hantera projekt](projects-manage-projects.md)

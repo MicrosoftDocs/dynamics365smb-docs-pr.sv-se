@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Återföra bokningar
@@ -31,10 +31,10 @@ Om du har bokfört fel negativt antal, till exempel om en inköpsorder med fel a
 Om du har bokfört fel positivt antal, till exempel om en inköpsreturorder med fel antal artiklar och bokfört den som levererad men inte fakturerad, kan du ångra bokföringen.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Att återföra bokföringen av en redovisningstransaktion journal
-Du kan återföra poster från alla fönster **Transaktioner**. Följande procedur baseras i fönstret **redovisningstransaktioner**.
+Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur baseras sidan **redovisningstransaktioner**.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningstransaktioner** och välj sedan relaterad länk.
 2. Markera den transaktion som du vill återföra och välj sedan åtgärden **återföringstransaktion**. Observera att det måste komma från en journalbokföring.
-3. I fönstret **Återför transaktionsposter** väljer du önskad post och klickar på åtgärden **Återför**.
+3. På sidan **Återför transaktionsposter** väljer du önskad post och klickar på åtgärden **Återför**.
 4. Välj knappen **Ja** på bekräftelsemeddelandet.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Så här ångrar du ett bokfört antal i en bokförd inköspleverans  
@@ -62,7 +62,7 @@ Du kan återföra poster från alla fönster **Transaktioner**. Följande proced
 
     Gå nu tillbaka till inköpsreturordern som är klar att bokföras.  
 
-5.  Observera antalet i fältet **Returordernr** i fönstret **Returordernr**. .  
+5.  Observera antalet i fältet **Returordernr** på sidan **Returordernr**. .  
 6.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsreturorder** och välj sedan relaterad länk.  
 7.  Öppna returordern i fråga och välj åtgärden **öppna igen**.  
 8.  Korrigera värdet i fältet **Antal** och bokför inköpsreturordern igen.  

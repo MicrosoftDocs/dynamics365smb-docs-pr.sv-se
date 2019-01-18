@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
-Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan. I den här genomgången använder du fönstret **Orderplanering**, som är ett enkelt leveransplaneringsverktyg som bygger på manuellt beslutsfattande snarare än parameterbaserad automatisk planering.  
+Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan. I den här genomgången använder du sidan **Orderplanering**, som är ett enkelt leveransplaneringsverktyg som bygger på manuellt beslutsfattande snarare än parameterbaserad automatisk planering.  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången  
  I den här genomgången tas följande aktiviteter upp:  
@@ -48,30 +48,30 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 ## <a name="story"></a>Situation  
  Eduardo är produktionsplanerare på ett litet tillverkande företag och håller på att planera produktions- och inköpsorder för att uppfylla behov.  
 
- Eftersom produkternas produktstrukturer har få nivåer och orderflödet är relativt lågt använder Eduardo fönstret **Orderplanering** för att manuellt skapa leveransorder, en produktnivå i taget.  
+ Eftersom produkternas produktstrukturer har få nivåer och orderflödet är relativt lågt använder Eduardo sidan **Orderplanering** för att manuellt skapa leveransorder, en produktnivå i taget.  
 
  I en mer komplex produktionsmiljö används planeringsförslaget för att planera leveranser baserat på parametrar som omplaneringsperiod, säkerhetsledtid, beställningspunkt och batch-beräkningar av den sammanställda efterfrågan på alla produktnivåer.  
 
 ## <a name="setting-up-the-sample-data"></a>Ställa in exempeldata  
  Standarddemonstrationsföretaget CRONUS har för närvarande en stor mängd oplanerad efterfrågan. Under de olika planeringsaktiviteterna i den här genomgången måste du avvika från det realistiska verksamhetsflödet genom att ignorera efterfrågan med tidiga förfallodatum och i stället använda efterfrågan med senare förfallodatum.  
 
-## <a name="using-the-order-planning-window"></a>Använda fönstret Orderplanering  
+## <a name="using-the-order-planning-page"></a>Använda sidan Orderplanering  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### <a name="to-use-the-order-planning-window"></a>Så här använder du fönstret Orderplanering  
+### <a name="to-use-the-order-planning-page"></a>Så här använder du sidan Orderplanering  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Orderplanering** och välj sedan relaterad länk.  
 
-     När fönstret **Orderplanering** har öppnats måste en plan beräknas för att visa den nya efterfrågan sedan den senaste beräkningen.  
+     När sidan **Orderplanering** har öppnats måste en plan beräknas för att visa den nya efterfrågan sedan den senaste beräkningen.  
 
 2.  Välj åtgärden **Skapa inköpsförslag**.  
 
@@ -79,9 +79,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Den kvantitet som behövs för respektive efterfrågerad beräknas utifrån den totala tillgången. Beräkningen görs per order. Det betyder att den order som innehåller efterfrågan med det tidigaste förfallodatumet eller utleveransdatumet beräknas först. Därefter beräknas ytterligare efterfrågerader i samma ordning, oavsett förfallodatum eller utleveransdatum.  
 
-3.  Se till att fönstret **Orderplanering** är maximerat och att kolumnfälten har lagom storlek för att alla standardfältnamn ska synas.  
+3.  Se till att sidan **Orderplanering** är maximerad och att kolumnfälten har lagom storlek för att alla standardfältnamn ska synas.  
 
-     När beräkningen är slutförd visas alla ej uppfyllda behov i fönstret som reducerade orderrader sorterade efter behovsdatum.  
+     När beräkningen är slutförd visas alla ej uppfyllda behov i sidan som reducerade orderrader sorterade efter behovsdatum.  
 
      Lägg märke till att CRONUS har flera order med ej uppfyllda behov. Varje planeringsrad i fetstil motsvarar en order, försäljningsorder eller produktionsorder, inklusive minst en orderrad med otillräcklig tillgång.  
 
@@ -98,7 +98,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Expandera den första raden (välj +-symbolen).  
 2.  Välj den första behovsraden med artikel **LSU-15**, och välj sedan åtgärden **visa dokument**.  
-3.  Stäng produktionsordern och återgå till fönstret **Orderplanering**.  
+3.  Stäng produktionsordern och återgå till sidan **Orderplanering**.  
 4.  I fältet **Återanskaffningssystem** väljer du **Inköp**.  
 
      Standardvärdet är från artikelkortet, eller lagerställeenhetskortet, men det går att ändra till något av följande tre alternativ:  
@@ -118,13 +118,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  Om komponenterna har ett standardleverantörsnummer på artikelkorten är raderna förinställda.  
 
 6.  Välj fältet **Leverera från**.  
-7.  I fönstret **Artikelns leverantörskatalog** väljer du åtgärden **Ny** och sedan leverantör **30000**.  
-8.  Välj knappen **OK** om du vill återvända till fönstret **Orderplanering**.  
+7.  På sidan **Artikelns leverantörskatalog** väljer du åtgärden **Ny** och sedan leverantör **30000**.  
+8.  Välj knappen **OK** om du vill återvända till sidan **Orderplanering**.  
 9. Kopiera leverantörsnummer **30000** till de andra raderna för högtalarkomponenterna på den här produktionsordern.  
 
      Du är nu redo att skapa en inköpsorder.  
 
-10. Välj åtgärden **Skapa order**. Fönstret **Skapa leveransorder** öppnas.  
+10. Välj åtgärden **Skapa order**. Sidan **Skapa leveransorder** öppnas.  
 11. På snabbfliken **Orderplanering**, i fältet **Skapa order för** väljer du alternativet **Aktiv order**.  
 12. På snabbfliken **Alternativ**, i fältet **Skapa inköpsorder**, väljer du alternativet **Skapa inköpsorder**.  
 13. Välj knappen **OK** för att skapa inköpsorder för alla komponenterna på ordern.  
@@ -144,15 +144,15 @@ The **Order Planning** window can be accessed from several different locations o
      Artikelns definierade återanskaffningssystem och standardleverantör visas.  
 
     > [!NOTE]  
-    >  Längst ned i fönstret finns fyra informationsfält. I fältet **Tidigast disponibelt den** syns det att de tio delar som behövs kommer att vara disponibla, genom en ankommande leveransorder, nio dagar senare än det aktuella förfallodatumet. Om det är för sent för kunden innehåller fältet **Disponibelt för överföring** tretton enheter av samma artikel på ett annat lagerställe. Det betyder att du behöver planera för artikeltillgången.  
+    >  Längst ned på sidan finns fyra informationsfält. I fältet **Tidigast disponibelt den** syns det att de tio delar som behövs kommer att vara disponibla, genom en ankommande leveransorder, nio dagar senare än det aktuella förfallodatumet. Om det är för sent för kunden innehåller fältet **Disponibelt för överföring** tretton enheter av samma artikel på ett annat lagerställe. Det betyder att du behöver planera för artikeltillgången.  
 
-3.  Välj fältet **Disponibelt för överföring** för att öppna fönstret **Hämta alternativ leverans**.  
+3.  Välj fältet **Disponibelt för överföring** för att öppna sidan **Hämta alternativ leverans**.  
 4.  Välj knappen **OK** för att boka de tio artiklar som är tillgängliga.  
 
     > [!NOTE]  
     >  På behovsraden har det föreslagna inköpet bytts ut mot en överföring från lagerstället GRÖN. Med funktionen **Skapa order** skapas en överföringsorder från GRÖN till det lagerställe där behovet finns. Fältet **Ersättningar finns** fungerar på samma sätt.  
 
-5.  Välj åtgärden **Skapa order**. Fönstret **Skapa leveransorder** öppnas.  
+5.  Välj åtgärden **Skapa order**. Sidan **Skapa leveransorder** öppnas.  
 6.  På snabbfliken **Orderplanering**, i fältet **Skapa order för** väljer du alternativet **Aktiv order**.  
 7.  På snabbfliken **Alternativ**, i fältet **Skapa överföringsorder**, väljer du alternativet **Skapa överföringsorder**.  
 8.  Välj knappen **OK** för att skapa överföringsordern som gör att försäljningsordern kan uppfyllas.  
@@ -168,26 +168,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      Det här behovet är en försäljningsrad, men artikeln har ett definierat återanskaffningssystem, **Prod.order**. Fortsätt genom att lägga till en extra klocka i varje cykels komponentbehov.  
 
-2.  I fönstret **Komponenter** väljer du åtgärden **Planeringskomponenter**.  
+2.  På sidan **Komponenter** väljer du åtgärden **Planeringskomponenter**.  
 3.  På raden för klockan (Bell) ändrar du fältet **Antal per** från **1** till **2**.  
-4.  I fönstret **Orderplanering** kan du överväga planeringsalternativen. I det här fallet har du inga alternativ, ingen överföring, ersättning eller sen leverans. Du måste skapa den föreslagna leveransordern, en produktionsorder.  
+4.  På sidan **Orderplanering** kan du överväga planeringsalternativen. I det här fallet har du inga alternativ, ingen överföring, ersättning eller sen leverans. Du måste skapa den föreslagna leveransordern, en produktionsorder.  
 5.  Välj åtgärden **Skapa order** för att skapa produktionsordern.  
 
-     I fönstret **Orderplanering** kan du lägga märke till att planeringsraden för försäljningsordern **1001** inte längre finns och att det ursprungliga försäljningsbehovet är uppfyllt.  
+     På sidan **Orderplanering** kan du lägga märke till att planeringsraden för försäljningsordern **1001** inte längre finns och att det ursprungliga försäljningsbehovet är uppfyllt.  
 
-6.  Stäng fönstret **Orderplanering**.  
+6.  Stäng sidan **Orderplanering**.  
 
-     Nu kan du välja att stanna kvar i den här vyn och slutföra alla planeringsaktiviteter. Istället ska du nu ikläda dig rollen som produktionsplanerare genom att gå till produktionsordern som du skapade, och öppna fönstret **Orderplanering**.  
+     Nu kan du välja att stanna kvar i den här vyn och slutföra alla planeringsaktiviteter. Istället ska du nu ikläda dig rollen som produktionsplanerare genom att gå till produktionsordern som du skapade, och öppna sidan **Orderplanering**.  
 
  Som produktionsplanerare måste du planera en särskild produktionsorder.  
 
 ### <a name="to-plan-a-specific-production-order"></a>Så här planerar du en särskild produktionsorder  
 
 1.  Öppna produktionsordern **101001** på tio cyklar som du precis har skapat med funktionen **Skapa order**.  
-2.  Öppna fönstret **Prod.order - komponenter** för att kontrollera att den extra klockan återges i produktionsordern.  
+2.  Öppna sidan **Prod.order - komponenter** för att kontrollera att den extra klockan återges i produktionsordern.  
 3.  Välj åtgärden **Planerad**.  
 
-     Fönstret **Orderplanering** öppnas i en vy som är alltid filtrerad efter specifika produktionsbehov. Det går inte att göra ändringar i fönstret. Du måste beräkna en plan innan du kan se ytterligare behov.  
+     Sidan **Orderplanering** öppnas i en vy som är alltid filtrerad efter specifika produktionsbehov. Det går inte att göra ändringar i fönstret. Du måste beräkna en plan innan du kan se ytterligare behov.  
 
 4.  Välj åtgärden **Skapa inköpsförslag**.  
 
@@ -207,11 +207,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Innan du klickar på **OK** bör du notera texten på snabbfliken **Orderplanering**. Den här texten är viktig eftersom du vet att cykeln har flera producerade komponenter, delmontage, i sin produktstruktur som kan behövas när du skapar produktionsordern.  
 
-7.  I fönstret **Skapa leveransorder**, i fältet **Skapa order för**, väljer du alternativet **Alla rader** och väljer sedan **OK** för att skapa produktionsorder för den andra produktnivån.  
+7.  På sidan **Skapa leveransorder**, i fältet **Skapa order för**, väljer du alternativet **Alla rader** och väljer sedan **OK** för att skapa produktionsorder för den andra produktnivån.  
 
      Lägg märke till att produktionsbehovet på högsta nivån för produktionsorder 101001 inte längre finns. Det innebär att det ursprungliga produktionsbehovet av delprodukterna har åtgärdats genom planeringen.  
 
-     I fönstret **Orderplanering** kan du beräkna en plan igen för att planera för cykelstrukturen.  
+     På sidan **Orderplanering** kan du beräkna en plan igen för att planera för cykelstrukturen.  
 
 8.  Välj åtgärden **Skapa inköpsförslag** för att Skapa inköpsförslagen på nytt enligt instruktionerna i den inbäddade hjälptexten.  
 
@@ -229,7 +229,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 13. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
 
-     Stäng fönstret **Fasta planerade prod.order** för att se hur starttider och sluttider för enskilda order har planerats enligt produktstrukturen. Komponenterna på den lägsta nivån tillverkas först. Därför måste du planera order i flera nivåer, vilket framgår av den här planeringsprocessen.  
+     Stäng sidan **Fasta planerade prod.order** för att se hur starttider och sluttider för enskilda order har planerats enligt produktstrukturen. Komponenterna på den lägsta nivån tillverkas först. Därför måste du planera order i flera nivåer, vilket framgår av den här planeringsprocessen.  
 
 ## <a name="see-also"></a>Se även  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   

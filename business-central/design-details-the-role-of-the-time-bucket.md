@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer - Tidsenhetens roll | Microsoft Docs
-description: "Avsikten med tidsenheten är samla efterfråganshändelser i tidsfönstret för att skapa en gemensam leveransorder."
+description: "Avsikten med tidsenheten är samla efterfråganshändelser i tidssidan för att skapa en gemensam leveransorder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -14,14 +14,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c258c13a08e9556caddf55a0d14962ad85cd8ca7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ff748a192d8d1650a708ab70ec33ccc7bfd53c48
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Designdetaljer: Tidsenhetens roll
-Avsikten med tidsenheten är samla efterfråganshändelser i tidsfönstret för att skapa en gemensam leveransorder.  
+Avsikten med tidsenheten är samla efterfråganshändelser i tidssidan för att skapa en gemensam leveransorder.  
 
  För partiformningsmetoder som använder en beställningspunkt kan du ange en tidsenhet. Detta säkerställer att efterfrågan inom samma tidsperiod har ackumulerats innan inverkan på planerat lager kontrolleras och om beställningspunkten har passerats. Om beställningspunkten har passerats framåtplaneras en ny leveransorder från slutet av perioden som definieras av tidsenheten. Tidsenheten börjar på planeringsstartdatumet.  
 

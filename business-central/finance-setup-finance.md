@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
@@ -33,12 +33,16 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Skapa kontouppställningar och definiera kategorier för att definiera innehållet i ekonomiska tabeller och rapporter som rapporterna balansräkning och resultaträkning.|[Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ställa in räkenskapsperioder. |[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md) |
-| Definiera hur du rapporterar belopp för moms som du har lagrat för försäljning till skattemyndigheterna. |[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
+| Definiera hur du rapporterar belopp för moms som du har lagrat för försäljning till skattemyndigheterna. |[Förbereda beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)|
+|Förbereda att hantera orealiserad moms i samband med kontantbaserade redovisningsmetoder.|[Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)|
 | Ange funktioner för försäljning och inköp till att hantera betalningar i utländsk valuta.|[Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Definiera flera räntesatser som används för olika perioder för försenade betalningar i handelstransaktioner.|[Ställ in flera räntesatser](finance-how-to-set-up-multiple-interest-rates.md)|
+|Förbered automatisk avrundning av fakturabelopp när du skapar fakturor.|[Ställa in överavrundning](finance-set-up-invoice-rounding.md)|
 | Lägga till nya konton i den befintliga kontoplanen. |[Ställa in kontoplanen](finance-setup-chart-accounts.md) |
 | Ställa in business intelligence (BI)-diagram för att analysera betalningen. |[Ställa in analysvy för kassaflöde](finance-setup-cash-flow-analyses.md) |
 |Aktivera fakturering av en kund som inte har angetts i systemet.|[Så här skapar du Kontantkunder](finance-how-to-set-up-cash-customers.md)|
 | Ställa in Intrastat-rapporten och skicka rapporten till en myndighet | [Skapa och rapportera Intrastat](finance-how-setup-report-intrastat.md)|
+|Förbered rapporten Konsoliderad råbalans för rollcentret Redovisare för en ekonomisk översikt över flera företag.|[Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)|
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  

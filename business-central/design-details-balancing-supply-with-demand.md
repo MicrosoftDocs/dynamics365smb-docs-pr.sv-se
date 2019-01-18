@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designdetaljer: Balansera tillgång med efterfrågan
@@ -59,7 +59,7 @@ I allmänhet har totala tillgång en planeringsflexibilitet som begränsas av vi
 
     -   Det representerar lager (alltid på dag noll).  
     -   Den har en order-till-order som är kopplad till en annan efterfrågan.  
-    -   Det ligger utanför omplaneringsfönstret definierat av tidsenheten.  
+    -   Det ligger utanför omplaneringssidan definierat av tidsenheten.  
     -   Det finns en närmare tillgång som kan användas.  
     -   Å andra sidan kan användaren bestämma att inte ändra tidpunkten eftersom:  
     -   Leveransordern redan har kopplats till en annan efterfrågan på ett tidigare datum.  
@@ -68,7 +68,7 @@ I allmänhet har totala tillgång en planeringsflexibilitet som begränsas av vi
 -   **Omplanera in**: Datumet på en befintlig leveransorder kan omplaneras in, utom i följande villkor:  
 
     -   Det är direkt kopplat till vissa övriga behov  
-    -   Det ligger utanför omplaneringsfönstret definierat av tidsenheten.  
+    -   Det ligger utanför omplaneringssidan definierat av tidsenheten.  
 
 > [!NOTE]  
 >  När du planerar en artikel med hjälp av en beställningspunkt, kan leveransorder alltid planeras in om det behövs. Det är vanligt i framåtplanerade leveransorder som aktiveras av en beställningspunkt.  
@@ -104,7 +104,7 @@ Angående orderspårning under planering är det viktigt att nämna att planerin
 
 Det finns två orsaker till detta:  
 
--   Planeringssystemet måste kunna motivera sina förslag att alla behov har täckts, och att inga leveransorder är överflödiga.  
+-   Planeringssystemet måste kunna motivera sina förslag: att alla behov har täckts, och att inga leveransorder är överflödiga.  
 -   Dynamiskt skapade orderspårningslänkar måste balanseras om regelbundet.  
 
 Med tiden blir dynamiska orderspårninglänkar obalanserade eftersom hela orderspårningsnätverket inte struktureras om förrän en efterfrågans- eller tillgångshändelse faktiskt stängs.  

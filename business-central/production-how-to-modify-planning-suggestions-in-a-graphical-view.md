@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
 En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.
 
-I fönstret **Artikeldisposition per tidslinje** kan du ändra vissa leveransorder och förslag genom att dra element längs x-axeln för att ändra antalet eller längs y-axeln för att ändra förfallodatumet.  
+På sidan **Artikeldisposition per tidslinje** kan du ändra vissa leveransorder och förslag genom att dra element längs x-axeln för att ändra antalet eller längs y-axeln för att ändra förfallodatumet.  
 
- I fönster **Artikeldisposition per tidslinje** och den **planeringsförslag** kan du göra följande ändringar:  
+ På sidan **Artikeldisposition per tidslinje** och den **planeringsförslag** kan du göra följande ändringar:  
 
 -   Ändra en de föreslagna leveransordrarna som endast finns som en planeringsrad.  
 -   Ändra en befintlig leveransorder som planeringssystemet föreslår ska ändras.  
@@ -32,14 +32,14 @@ I fönstret **Artikeldisposition per tidslinje** kan du ändra vissa leveransord
 
 För mer information om de olika typerna av planeringsrader som visas, se fältet Beskrivning på snabbfliken **Händelseändringar**.  
 
-När du väljer **Spara ändringar** i fönstret **Artikeldisposition per tidslinje** kopieras ändringarna som du har gjort till planering eller inköpskalkylarket. Nu kan du använda dem med hjälp av funktionen **Skapa order från planering**.  
+När du väljer **Spara ändringar** på sidan **Artikeldisposition per tidslinje** kopieras ändringarna som du har gjort till planering eller inköpskalkylarket. Nu kan du använda dem med hjälp av funktionen **Skapa order från planering**.  
 
-I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och släppa. Som alternativ kan du ändra fälten **Förfallodatum** och **Antal** på snabbfliken **Händelseändringar** och se mötesändringarna grafiskt direkt på snabbfliken **Tidslinje** i fönstret **Planeringsförslag**.  
+I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och släppa. Som alternativ kan du ändra fälten **Förfallodatum** och **Antal** på snabbfliken **Händelseändringar** och se mötesändringarna grafiskt direkt på snabbfliken **Tidslinje** på sidan **Planeringsförslag**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Om du vill ändra de föreslagna leveransordrarna i den grafiska översikten  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeldisposition per tidslinje** och välj sedan relaterad länk.  
 
-    Fönstret **Artikeldisposition per tidslinje** öppnas med artikelnummer, lagerstället och varianten av artikeln på den aktuella planeringsraden förifyllda i fälten på snabbfliken **Alternativ**. Snabbfliken **Tidslinje** visar en grafisk återgivning av artikelns planerade lager, inklusive planeringsförslag.  
+    Sidan **Artikeldisposition per tidslinje** öppnas med artikelnummer, lagerstället och varianten av artikeln på den aktuella planeringsraden förifyllda i fälten på snabbfliken **Alternativ**. Snabbfliken **Tidslinje** visar en grafisk återgivning av artikelns planerade lager, inklusive planeringsförslag.  
 
 2.  Se till att fältet **Ta med planeringsförslag** är markerat.  
 3.  Hitta leveransorderkalkylarket som du vill ändra. Du kan identifiera modifierbara element med den gröna cirkeln och diskikonen. Mer information om de olika symbolerna finns i "Symboler och ikoner på snabbfliken Tidslinje."  
@@ -53,7 +53,7 @@ I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och 
     |**Autojustera tillgång**|Optimerar en ny efterfrågan som du har skapat i diagrammet genom att kontrollera att den resulterar i noll i lagret före nästa leverans.|  
     |**Ta bort tillgång**|Ta bort element i Snabbfliken **Tidslinje** och tar bort planeringsraden, när du väljer **Spara ändringar**. Ikonen ändras till en diskenhet med ett rött kors när leveransen har tagits bort.<br /><br /> **OBS!:** Du kan endast ta bort en leverans av åtgärdsmeddelandetypen **Ny**. När du har valt **Spara ändringar** måste du manuellt ta bort den aktuella planeringsraden i planeringen eller inköpskalkylarket.|  
 
-7.  Välj åtgärden **Läs in på nytt** om du vill återställa alla ändringar som du har gjort, när du öppnade det sista fönstret **Artikeldisposition per tidslinje** eller **Läs in på nytt**.  
+7.  Välj åtgärden **Läs in på nytt** om du vill återställa alla ändringar som du har gjort, när du öppnade den sista sidan **Artikeldisposition per tidslinje** eller **Läs in på nytt**.  
 8. Välj **Spara ändringar** för att kopiera ändrat antal och datumändringar i planeringen eller rekvisitionsraderna när elementen placeras där du vill ha dem i diagrammet, som motsvarar de grafiska elementen.  
 
 För att verkställa planändringar för leverans måste du följa de resulterande åtgärdsmeddelandena från planering eller inköpskalkylarket. Mer information finns i Skapa order från planering.

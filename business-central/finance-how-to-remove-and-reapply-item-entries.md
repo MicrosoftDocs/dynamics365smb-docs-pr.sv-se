@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b3df27011c482905b0b59ff03570449ac8df3cba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
-I fönstret **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
+På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
 
 När du bokför en lagertransaktion som innebär att artiklar tas in i eller ut ur lagret, skapas en artikelkoppling mellan varje lagerökning och lagerminskning. Genom de här kopplingarna fastställs kostnadsflödet från varorna som tas emot i lagret till varorna som lämnar lagret. På grund av sättet som styckkostnaden beräknas på kan en felaktig artikelkoppling medföra att genomsnittskostnaden och styckkostnaden får oriktiga resultat. Mer information finns i Designdetaljer: Artikelkoppling.
 
@@ -32,11 +32,11 @@ Följande scenariot kan till exempel kräva att du återställ ett program eller
 
 Om möjligt, använda ett dokument för att koppla en artikeltransaktion. Till exempel om du måste göra en inköpsretur för en artikel som en försäljning redan har kopplats till, kan du koppla genom att skapa och bokföra inköpsreturdokumentet, med hjälp av rätt koppling i **Koppla till artikellöpnr** fältet på inköpsreturen raden. Du kan använda **Hämta bokförda dokumentrader som ska återföras** eller **Kopiera dokument** funktion i inköpsreturdokumentet för att göra det lättare. När du bokför dokumentet, återtillämpas artikeltransaktionen automatiskt. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
 
-Om du inte kan använda ett dokument för att koppla, som när du behöver rätta en fast koppling, använder du fönstret **Kopplingsformulär** för att korrigera ett program.
+Om du inte kan använda ett dokument för att koppla, som när du behöver rätta en fast koppling, använder du sidan **Kopplingsformulär** för att korrigera ett program.
 
 > [!Warning]  
 > Ta hänsyn till följande viktiga punkter i arbetet med kopplingsformulär:
-    - Du bör inte lämna bortkopplade kopplingstransaktioner för långa perioder, eftersom andra användare inte kan behandla artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger **Kopplingsformulär** fönstret. Användare som försöker utföra åtgärder som omfattar en kopplingstransaktion som tagits bort manuellt, får felmeddelande följande: ”Du inte kan utföra den här åtgärden, eftersom transaktioner för artiklar XXX tagits bort i kopplingsformuläret av användaren XXX. ”
+    - Du bör inte lämna bortkopplade kopplingstransaktioner för långa perioder, eftersom andra användare inte kan behandla artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger sidan **Kopplingsformulär**. Användare som försöker utföra åtgärder som omfattar en kopplingstransaktion som tagits bort manuellt, får felmeddelande följande: ”Du inte kan utföra den här åtgärden, eftersom transaktioner för artiklar XXX tagits bort i kopplingsformuläret av användaren XXX. ”
     - Omkopplingen av artikeltransaktionerna bör göras utanför normal arbetstid, så att eventuella konflikter med användare som bokför transaktioner med samma artiklar kan undvikas.
     - När kopplingsformuläret stängs utför [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll för att säkerställa att alla transaktioner har kopplats. Om en antalskoppling till exempel tas bort utan att någon ny koppling skapas, skapas en ny koppling när kopplingsformuläret stängs. På så sätt förblir kostnaden intakt. Observera dock att ingen ny fast koppling skapas automatiskt i programmet när kalkylarket stängs, om en fast koppling har tagits bort. Detta måste göras manuellt genom att skapa en ny koppling i kalkylarket.
     - Det går att ta bort kopplingar från mer än en transaktion åt gången i kopplingsformuläret. Det går däremot inte att skapa en koppling för mer än en transaktion åt gången, eftersom kopplingen påverkar uppsättningen transaktioner som kan kopplas.
@@ -44,29 +44,29 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kopplingsformulär** och välj sedan relaterad länk.  
-2.  Fönstret **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
+2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Ange filter på Snabbfliken **Allmänt** för att göra det enklare att hitta den artikeltransaktion för vilken kopplingen ska ändras.  
-4.  Välj aktuell artikeltransaktion och klicka på åtgärden **Kopplade transaktioner**. Fönstret **Visa kopplade transaktioner – Kopplade transaktioner** öppnas och visar de artikeltransaktioner som för närvarande är kopplade till den valda transaktionen.  
+4.  Välj aktuell artikeltransaktion och klicka på åtgärden **Kopplade transaktioner**. Sidan **Visa kopplade transaktioner – Kopplade transaktioner** öppnas och visar de artikeltransaktioner som för närvarande är kopplade till den valda transaktionen.  
 5.  Markera den artikeltransaktion för vilken kopplingen ska tas bort.  
-6.  Välj åtgärden **Ta bort koppling**. Med den här åtgärden tas den artikeltransaktion bort som kopplar de två artikeltransaktionerna och i stället flyttas den till fönstret **Visa kopplade transaktioner – Bortkopplade transaktioner**.  
-7.  Stäng fönstret **Visa kopplade transaktioner – Kopplade transaktioner**.  
+6.  Välj åtgärden **Ta bort koppling**. Med den här åtgärden tas den artikeltransaktion bort som kopplar de två artikeltransaktionerna och i stället flyttas den till sidan **Visa kopplade transaktioner – Bortkopplade transaktioner**.  
+7.  Stäng sidan **Visa kopplade transaktioner – Kopplade transaktioner**.  
 
- Fältet **Återstående antal** för de båda artikeltransaktionerna ökas med det antal som nu är okopplat. Den borttagna artikeltransaktionen är nu tillgänglig för koppling igen i fönstret **Visa kopplade transaktioner – bortkopplade transaktioner**.  
+ Fältet **Återstående antal** för de båda artikeltransaktionerna ökas med det antal som nu är okopplat. Den borttagna artikeltransaktionen är nu tillgänglig för koppling igen på sidan **Visa kopplade transaktioner – bortkopplade transaktioner**.  
 
 > [!IMPORTANT]  
->  Du bör inte lämna bortkopplade kopplingstransaktioner för längre perioder, eftersom andra användare inte kan behandla de aktuella artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger **Kopplingsformulär**-fönstret. Följande felmeddelande visas om du försöker att utföra åtgärder som omfattar en manuellt bortkopplad transaktion:  
+>  Du bör inte lämna bortkopplade kopplingstransaktioner för längre perioder, eftersom andra användare inte kan behandla de aktuella artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger sidan **Kopplingsformulär**. Följande felmeddelande visas om du försöker att utföra åtgärder som omfattar en manuellt bortkopplad transaktion:  
 >   
 >  **Det går inte att utföra åtgärden eftersom kopplingar för transaktionerna för artikel <item> har tagits bort i Kopplingsformuläret av användaren <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kopplingsformulär** och välj sedan relaterad länk.  
-2.  Fönstret **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
+2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Om du vill koppla om transaktioner som tagits bort sedan kalkylarket öppnades markerar du den artikeltransaktion som du vill koppla om. På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Omkoppla**.  
 
     > [!NOTE]  
-    >  Denna omkoppling till det ursprungliga saldot sker också automatiskt när du stänger fönstret **Kopplingsformulär**.  
-4.  Markera den artikeltransaktion som du vill koppla om du vill koppla en tillgänglig öppen artikeltransaktion till en annan transaktion. Välj åtgärden **Bortkopplade transaktioner**. Fönstret **Visa kopplade transaktioner – Bortkopplade transaktioner** öppnas.  
-5.  Markera en eller flera artikeltransaktioner som ska kopplas till den transaktion som är markerad i fönstret **Kopplingsformulär**. Klicka därefter på **OK**.  
+    >  Denna omkoppling till det ursprungliga saldot sker också automatiskt när du stänger sidan **Kopplingsformulär**.  
+4.  Markera den artikeltransaktion som du vill koppla om du vill koppla en tillgänglig öppen artikeltransaktion till en annan transaktion. Välj åtgärden **Bortkopplade transaktioner**. Sidan **Visa kopplade transaktioner – Bortkopplade transaktioner** öppnas.  
+5.  Markera en eller flera artikeltransaktioner som ska kopplas till den transaktion som är markerad på sidan **Kopplingsformulär**. Klicka därefter på **OK**.  
 
      En artikelkopplingstransaktion skapas mellan de två artikeltransaktionerna. Fälten **Återstående antal** för de två transaktionerna minskas med det kopplade antalet.  
 

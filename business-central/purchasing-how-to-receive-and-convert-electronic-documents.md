@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
-Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet i fönstret Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Förutom att ta emot elektroniska dokument direkt från handelspartners kan du ta emot elektroniska dokument från en ocr-service som har omvandlat dina PDF eller bildfiler till elektroniska dokument.  
 
@@ -33,7 +33,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 > [!NOTE]  
 >  När du konverterar elektroniskt dokumentet som har tagits emot från OCR-tjänsten av dokument - eller journalrader i [!INCLUDE[d365fin](includes/d365fin_md.md)],  sammanfattas raderna i källdokumentet på en rad. Enkelraden ska vara av typen redovisningskonto och fälten **Beskrivning** och (redovisningskonto) **Nr.** ska vara tomma. Värdet i fältet **Belopp** ska vara samma som det totala beloppet exklusive moms, för alla rader i källdokumentet.  
 >   
->  Att säkerställa att de **beskrivning** och **nr.** För att se till att fälten fylls i kan du välja knappen **Mappa text till konto** i fönstret **Inkommande dokument** för att definiera att en viss fakturatext alltid mappas till ett visst debet- eller kreditkonto i redovisningen. Vidare fylls fältet **Beskrivning** på dokument - eller journalrader som skapas från ett elektroniskt dokument för den leverantören eller kunden i med texten i fråga och (redovisningskontots) **Nr.** med kontot.  
+>  Att säkerställa att de **beskrivning** och **nr.** För att se till att fälten fylls i kan du välja knappen **Mappa text till konto** på sidan **Inkommande dokument** för att definiera att en viss fakturatext alltid mappas till ett visst debet- eller kreditkonto i redovisningen. Vidare fylls fältet **Beskrivning** på dokument - eller journalrader som skapas från ett elektroniskt dokument för den leverantören eller kunden i med texten i fråga och (redovisningskontots) **Nr.** med kontot.  
 >   
 >  I stället för mappning till ett redovisningskonto kan du också mappa till ett bankkonto. Det är praktiskt, till exempel, för elektroniska dokument för kostnader som redan har betalts, där du vill skapa en redovisningsjournalrad som är klar för bokföring på ett bankkonto.  
 
@@ -45,7 +45,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 
 2.  Välj raden för den inkommande dokumentposten som representerar en ny inkommande elektronisk faktura och välj sedan **Redigera** på fliken **Start** i gruppen **Hantera**.  
 
-     I fönstret **Dokumentkort** är den relaterade xml-filen bifogad, och de flesta fälten är förifyllda med information från den elektroniska fakturan. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
+     På sidan **Dokumentkort** är den relaterade xml-filen bifogad, och de flesta fälten är förifyllda med information från den elektroniska fakturan. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
 
 3.  I fältet **Typ av dataintegration**, välj **PEPPOL - faktura** eller **OCR – faktura** beroende på ursprunget till det elektroniska dokumentet i fältet  
 

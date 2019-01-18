@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
@@ -39,7 +39,7 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera fabrikskalendern.  
 3.  Beskriv fabrikskalendern i fältet **Beskrivning**.  
 4.  Välj åtgärden **arbetsdagar**.
-5.  I fönstret **Fabrikskalender arbetsdagar** kan du definiera en fullständig arbetsvecka med start- och sluttider för varje dag.  
+5.  På sidan **Fabrikskalender arbetsdagar** kan du definiera en fullständig arbetsvecka med start- och sluttider för varje dag.  
 
     I fältet **Arbetsskiftskod**, markera en av förskjutningarna som du definierade tidigare. Lägg till en rad för varje arbetsdag, samt varje skift. Som exempel:  
 
@@ -55,10 +55,10 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 
     De veckodagar som du inte definierar i fabrikskalendern, till exempel lördag och söndag, antas vara icke-arbetsdagar och får arbetskapaciteten noll i alla produktionsgruppkalendrar.  
 
-    När du har definierat alla arbetsdagar i veckan kan du stänga fönstret **Fabrikskalender arbetsdagar** och fortsätta med att ange helgdagar.  
+    När du har definierat alla arbetsdagar i veckan kan du stänga sidan **Fabrikskalender arbetsdagar** och fortsätta med att ange helgdagar:  
 
-6.  I fönstret **fabrikskalender** markerar du fabrikskalendern, och väljer sedan åtgärden **helgdagar**.
-7. I fönstret **Fabrikskalender semestrar** anger du helgdagar under året genom att ange startdatum och starttid, sluttid och en beskrivning av varje dag på enskilda rader. Som exempel:  
+6.  På sidan **fabrikskalender** markerar du fabrikskalendern, och väljer sedan åtgärden **helgdagar**.
+7. På sidan **Fabrikskalender semestrar** anger du helgdagar under året genom att ange startdatum och starttid, sluttid och en beskrivning av varje dag på enskilda rader. Som exempel:  
 
     04/07/14 0:00:00 23:59:00 Sommarsemester  
     05/07/14 0:00:00 23:59:00 Sommarsemester  
@@ -74,12 +74,12 @@ Fabrikskalendern kan nu tilldelas en produktionsgrupp så att den produktionsgru
 2. Öppna produktionsgruppen som du vill uppdatera.  
 3. I fältet **Fabrikskalenderkod** väljer du vilken fabrikskalender som ska användas som grund för en produktionsgruppkalender.  
 4. Välj åtgärden **Kalender**.  
-5. I fönstret **Prod.gruppkalender** väljer du åtgärden **Visa matris**.  
+5. På sidan **Prod.gruppkalender** väljer du åtgärden **Visa matris**.  
 
-    Till vänster i matrisfönstret visas befintliga produktionsgrupper. Till höger visas en tidskalender med värden för tillgänglig kapacitet för varje arbetsdag i den angivna enheten, till exempel **480** minuter. Varje rad motsvarar kalendern för en produktionsgrupp.  
+    Till vänster på matrissidan visas befintliga produktionsgrupper. Till höger visas en tidskalender med värden för tillgänglig kapacitet för varje arbetsdag i den angivna enheten, till exempel **480** minuter. Varje rad motsvarar kalendern för en produktionsgrupp.  
 
     > [!NOTE]  
-    >  Du kan också ange att du vill visa kapacitetsvärdena per vecka eller månad genom att ändra alternativen i fältet **Visa efter** i fönstret **Prod.gruppkalender**.  
+    >  Du kan också ange att du vill visa kapacitetsvärdena per vecka eller månad genom att ändra alternativen i fältet **Visa efter** på sidan **Prod.gruppkalender**.  
 
     Innan du kan visa den nya fabrikskalendern som en rad på den markerade produktionsgruppen måste den först beräknas.  
 
@@ -97,13 +97,13 @@ Kalendertransaktioner skapas (eller uppdateras), och du ser den tillgängliga ka
 Den beräknade produktionsgruppkalendern definierar nu när, och hur mycket, som är tillgänglig kapacitet för produktionsgruppen. Detta styr detaljerat planeringen av operationer som utförs i produktionsgruppen.  
 
 ## <a name="to-record-work-center-absence"></a>Så här registrerar du frånvaro i produktionsgrupper  
-1.  I fönstret **Prod.gruppkalender** väljer du åtgärden **Visa matris**.
-2. I fönstret **Prod.gruppkalendermatris** markerar du den produktionsgrupp och den kalenderdag som frånvarotid ska registreras för och väljer åtgärden **Frånvaro**.  
-3.  I fönstret **Frånvaro** anger du starttid, sluttid och beskrivning av frånvarotiden. Till exempel:  
+1.  På sidan **Prod.gruppkalender** väljer du åtgärden **Visa matris**.
+2. På sidan **Prod.gruppkalendermatris** markerar du den produktionsgrupp och den kalenderdag som frånvarotid ska registreras för och väljer åtgärden **Frånvaro**.  
+3.  På sidan **Frånvaro** anger du starttid, sluttid och beskrivning av frånvarotiden. Till exempel:  
 
     010125 08:00 10:00 Underhåll  
 
-4.  Välj åtgärden **uppdatering** och stäng fönstret **frånvaro**.  
+4.  Välj åtgärden **uppdatering** och stäng sidan **frånvaro**.  
 
 Kapaciteten för den markerade dagen minskas med den registrerade frånvarotiden.  
 

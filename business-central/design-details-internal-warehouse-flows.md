@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a52997195a95ff43eb049025b7b8ab3038381039
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b728815592975091a683eb96f87b1a632da62567
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interna distributionslagerflöden
@@ -28,12 +28,12 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
  I grundläggande lagerkonfiguration centreras flödet av artiklar mellan lagerplatser inom företag på att plocka komponenter och införsel av slutartiklar för produktion eller monteringsorder och ad hoc-transporter, till exempel lagerplatspåfyllningar, utan relation till källdokument.  
 
 ### <a name="flows-to-and-from-production"></a>Flöden till och från produktion  
- Den huvudsakliga integreringen mellan produktionsorder och grundläggande distributionslageraktiviteter representeras av möjligheten att välja produktionskomponenter med fönstret **Lagerplockning** eller fönstret **Lagerförflyttning**.  
+ Den huvudsakliga integreringen mellan produktionsorder och grundläggande distributionslageraktiviteter representeras av möjligheten att välja produktionskomponenter med sidan **Lagerplockning** eller sidan **Lagerförflyttning**.  
 
 > [!NOTE]  
->  I fönstret **Lagerplockning** fönstret bokförs komponentförbrukningen tillsammans med plockbokföringen. Med hjälp av fönstret **Lagerförflyttning** registreras bara lagerplatsjusteringar, och ingen bokföring av artikeltransaktion inträffar.  
+>  På sidan **Lagerplockning** fönstret bokförs komponentförbrukningen tillsammans med plockbokföringen. Med hjälp av sidan **Lagerförflyttning** registreras bara lagerplatsjusteringar, och ingen bokföring av artikeltransaktion inträffar.  
 
- Förutom komponenthantering representeras integreringen av möjligheten att införa producerade artiklar via fönstret **Lagerinförsel**.  
+ Förutom komponenthantering representeras integreringen av möjligheten att införa producerade artiklar via sidan **Lagerinförsel**.  
 
  Fälten **Till prod.-lagerplats - kod**, **Från prod.lagerplats - kod** och **Öppen prod.lagerplats kod** på lagerställekortet eller maskin-/produktionsgruppkorten definierar standardflöden till och från produktionsområden.  
 
@@ -42,13 +42,13 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
 ### <a name="flows-to-and-from-assembly"></a>Flöden till och från montering  
  Den huvudsakliga integreringen mellan monteringsorder och grundläggande distributionslageraktiviteter representeras av möjligheten att flytta monteringkomponenter på monteringsområdet.  
 
- Det finns ingen särskild distributionslagerfunktion för att införsel av monteringsartiklar, men lagerplatskoden på monteringsorderhuvudet kan ställas in till en standardlagerplats för artikelinförsel. Bokföra av monteringsordern fungerar då som att bokföra artikelinförsel. Distributionslageraktiviteten som flyttar monteringsartiklar till distributionslagret kan hanteras i fönstret **Interntransport** utan relation till monteringsordern.  
+ Det finns ingen särskild distributionslagerfunktion för att införsel av monteringsartiklar, men lagerplatskoden på monteringsorderhuvudet kan ställas in till en standardlagerplats för artikelinförsel. Bokföra av monteringsordern fungerar då som att bokföra artikelinförsel. Distributionslageraktiviteten som flyttar monteringsartiklar till distributionslagret kan hanteras på sidan **Interntransport** utan relation till monteringsordern.  
 
  Följande monteringsflöden finns.  
 
 |Arbetsflöde|Beskrivning|  
 |----------|---------------------------------------|  
-|Montering mot lager|Komponenterna är nödvändiga på en monteringsorder där utflödet lagras i distributionslagret.<br /><br /> Det här distributionslagerflödet hanteras i fönstret **Lagertransport**. En ta-rad anger var att komponenter ska tas. En placeringsrad anger var att komponenter ska placeras.|  
+|Montering mot lager|Komponenterna är nödvändiga på en monteringsorder där utflödet lagras i distributionslagret.<br /><br /> Det här distributionslagerflödet hanteras på sidan **Lagertransport**. En ta-rad anger var att komponenter ska tas. En placeringsrad anger var att komponenter ska placeras.|  
 |Montering mot kundorder|Komponenterna är nödvändiga på en monteringsorder som är kopplad till en försäljningsorder som ska levereras när den sålda artikeln har monterats.|  
 
 > [!NOTE]  
@@ -60,26 +60,26 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
 >  Fältet **Lagerpl.kod för mont. mot lev.** fungerar som från-monteringslagerplats i scenarier med montering mot kundorder.  
 
 ### <a name="ad-hoc-movements"></a>Förflyttningar ad hoc  
- I grundläggande lagerhantering hanteras transport av artiklar från lagerplats till lagerplats utan relation till källdokument i fönstret **Interntransport** som fungerar tillsammans med fönstret **Lagertransport**.  
+ I grundläggande lagerhantering hanteras transport av artiklar från lagerplats till lagerplats utan relation till källdokument på sidan **Interntransport** som fungerar tillsammans med sidan **Lagertransport**.  
 
- Ett annat sätt att flytta artiklar ad hoc mellan lagerplatser är att bokföra positiva transaktioner i fältet **Ny lagerplatskod** i fönstret **Artikelgrupperingsjnl**.  
+ Ett annat sätt att flytta artiklar ad hoc mellan lagerplatser är att bokföra positiva transaktioner i fältet **Ny lagerplatskod** på sidan **Artikelgrupperingsjnl**.  
 
 ## <a name="internal-flows-in-advanced-warehousing"></a>Interna flöden i Avancerad lagerstyrning  
  I avancerade distributionslagerkonfigurationer centreras flödet av artiklar mellan lagerplatser inom företaget på att plocka komponenter och föra in slutartiklar för produktionsorder och plocka komponenter för monteringsorder. Dessutom uppstår interna flöden som ad hoc-transporter, till exempel lagerplatspåfyllningar, utan relation till källdokument.  
 
 ### <a name="flows-to-and-from-production"></a>Flöden till och från produktion  
- Den huvudsakliga integreringen mellan produktionsorder och avancerade lageraktiviteter representeras av kan du välja ut produktionskomponenter, i fönstret **Distributionslagerplockning** och fönstret **Plockningskalkylark**, och möjligheten att införa producerade artiklar via fönstret **Dist.lager intern art.införsel**.  
+ Den huvudsakliga integreringen mellan produktionsorder och avancerade lageraktiviteter representeras av kan du välja ut produktionskomponenter, på sidan **Distributionslagerplockning** och sidan **Plockningskalkylark**, och möjligheten att införa producerade artiklar via sidan **Dist.lager intern art.införsel**.  
 
- En annan integrationspunkt i produktionen finns i fönstret **Dist.lager transport** tillsammans med fönstret Transportkalkylark som du kan använda för att placera komponenter och ta producerade artiklar för släppta produktionsorder.  
+ En annan integrationspunkt i produktionen finns på sidan **Dist.lager transport** tillsammans med sidan Transportkalkylark som du kan använda för att placera komponenter och ta producerade artiklar för släppta produktionsorder.  
 
  Fälten **Till prod.-lagerplats - kod**, **Från prod.lagerplats - kod** och **Öppen prod.lagerplats kod** på lagerställekortet eller maskin-/produktionsgruppkorten definierar standardflöden till och från produktionsområden.  
 
  Se avsnittet ”Bokföring av produktionskomponenter i distributionslagret” i det här avsnittet om du vill ha mer information om hur komponentförbrukning bokförs från Till-produktionslagerplats eller öppen produktionslagerplats.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flöden till och från montering  
- Den huvudsakliga integreringen mellan monteringsorder och avancerade lageraktiviteter representeras av att kan du välja monteringkomponenter, både med fönstret **Distributionslagerplockning** och fönstret **Plockningskalkylark**. Den här funktionen fungerar precis som när du plockar komponenter för produktionsorder.  
+ Den huvudsakliga integreringen mellan monteringsorder och avancerade lageraktiviteter representeras av att kan du välja monteringkomponenter, både med sidan **Distributionslagerplockning** och sidan **Plockningskalkylark**. Den här funktionen fungerar precis som när du plockar komponenter för produktionsorder.  
 
- Det finns ingen särskild distributionslagerfunktion för att införsel av monteringsartiklar, men lagerplatskoden på monteringsorderhuvudet kan ställas in till en standardlagerplats för artikelinförsel. Bokföra av monteringsordern fungerar då som att bokföra artikelinförsel. Distributionslageraktiviteten som flyttar monteringsartiklar till distributionslagret kan hanteras i fönstret **Transportkalkylark** eller fönstret **Dist.lager intern art.införsel** utan relation till monteringsordern.  
+ Det finns ingen särskild distributionslagerfunktion för att införsel av monteringsartiklar, men lagerplatskoden på monteringsorderhuvudet kan ställas in till en standardlagerplats för artikelinförsel. Bokföra av monteringsordern fungerar då som att bokföra artikelinförsel. Distributionslageraktiviteten som flyttar monteringsartiklar till distributionslagret kan hanteras på sidan **Transportkalkylark** eller sidan **Dist.lager intern art.införsel** utan relation till monteringsordern.  
 
 > [!NOTE]  
 >  Om artiklar monteras mot kundorder aktiverar distributionslagerutleveransen för den kopplade försäljningsordern en distributionslagerplockning för alla berörda monteringskomponenter, inte bara för den sålda artikeln som när du levererar lagerartiklar.  
@@ -87,7 +87,7 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
  Fältet **Till monteringsplats - kod** och **Från monteringsplats - kod** på lagerställekortet definierar standardflöden till och från monteringsområden.  
 
 ### <a name="ad-hoc-movements"></a>Förflyttningar ad hoc  
- I avancerad lagerhantering hanteras transport av artiklar från lagerplats till lagerplats utan relation till källdokument i fönstret **Transportkalkylark** och registreras i fönstret Dist.lager transport.  
+ I avancerad lagerhantering hanteras transport av artiklar från lagerplats till lagerplats utan relation till källdokument på sidan **Transportkalkylark** och registreras i fönstret Dist.lager transport.  
 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Bokföring av produktionskomponenter i distributionslagret  
  Om komponenter finns angivna på artikelkortet bokförs komponenter som plockas med distributionslagerplockning som förbrukade av produktionsordern när distributionslagerplockningen registreras. Genom att använda metoden **Plocka + framåt** och bokföringsmetoden **Plocka + bakåt** aktiverar plockregistreringen den relaterade förbrukningsbokföringen när den första operationen startar, eller när det sista operationen är klar, kommer.  

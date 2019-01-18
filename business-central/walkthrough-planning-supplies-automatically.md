@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
@@ -68,7 +68,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Öppna artikelkort för artikel 1001, touringcykel.  
 2.  Välj åtgärden **Skapa lagerställeenhet**.  
-3.  I fönstret **Skapa lagerställeenhet** lämnar du alla alternativ och filter oförändrade och klickar sedan på **OK**.  
+3.  På sidan **Skapa lagerställeenhet** lämnar du alla alternativ och filter oförändrade och klickar sedan på **OK**.  
 4.  Upprepa steg 1 till 3 för alla artiklar i nummerintervallet 1100 till 1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Så hör kan du ändra de valda planeringsparametrarna  
@@ -92,7 +92,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
-3.  I fönstret **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
+3.  På sidan **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
     |Förs.kundnamn|Utleveransdatum|Artikelnr|Lagerställe|Antal|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -104,7 +104,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
-3.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
+3.  På sidan **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Skapa inköpsförslag|Startdatum|Slutdatum|Visa resultat:|Begränsa totaler till|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -117,17 +117,17 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
      I nästa steg verifierar du att den här planeringsraden hör till Fotograferna AB:s försäljningsorder genom att använda funktionen **Orderspårning**, som dynamiskt länkar behov till deras planerade leveranser.  
 
 5.  Markera nya planeringsraden och klicka sedan på **Orderspårning**.  
-6.  I fönstret **Orderspårning** väljer du åtgärden **Visa**.  
+6.  På sidan **Orderspårning** väljer du åtgärden **Visa**.  
 
      Försäljningsordern för de fem touringcyklarna till kund nummer 10000 2014-02-05 visas.  
 
-7.  Stäng fönstren **Förs.order** och **Orderspårning**.  
+7.  Stäng sidorna **Förs.order** och **Orderspårning**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beräkna nettobehov för att ta med underliggande komponentbehov  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
-3.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
+3.  På sidan **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Beräkna|Startdatum|Slutdatum|Visa resultat:|Begränsa totaler till:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
@@ -140,7 +140,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 ## <a name="analyzing-the-planning-result"></a>Analysera planeringsresultatet  
  Eduardo vill analysera de föreslagna kvantiteterna och visar detaljer på valda planeringsrader för att visa orderspårningsposter och planeringsparametrar.  
 
- I fönstret **Planeringsförslag** observera att kolumnen **Förfallodatum** i planeringsförslaget har planerats baklänges, från försäljningsorderns förfallodatum, 2014-02-05. Tidslinjen börjar på den översta planeringsraden med produktionsordern för att producera de färdiga touringcyklarna. Tidslinjen slutar vid nedersta planeringsraden med inköpsordern för en av artiklarna på lägsta nivå, 1255, Sockel baksida, som förfaller 2014-01-30. Som planeringsraden för artikeln 1251, axelbakhjulet, representerar raden en inköpsorder för komponenter som förfallit på startdatumet för den producerade överordnade undermonteringsartikeln 1250, som i sin tur är förfallet 02-03-2014. Genom hela kalkylarket kan du se att alla underliggande artiklar har förfallit på startdatumet för sina överordnade artiklar.  
+ På sidan **Planeringsförslag** observera att kolumnen **Förfallodatum** i planeringsförslaget har planerats baklänges, från försäljningsorderns förfallodatum, 2014-02-05. Tidslinjen börjar på den översta planeringsraden med produktionsordern för att producera de färdiga touringcyklarna. Tidslinjen slutar vid nedersta planeringsraden med inköpsordern för en av artiklarna på lägsta nivå, 1255, Sockel baksida, som förfaller 2014-01-30. Som planeringsraden för artikeln 1251, axelbakhjulet, representerar raden en inköpsorder för komponenter som förfallit på startdatumet för den producerade överordnade undermonteringsartikeln 1250, som i sin tur är förfallet 02-03-2014. Genom hela kalkylarket kan du se att alla underliggande artiklar har förfallit på startdatumet för sina överordnade artiklar.  
 
  Planeringsraden för artikeln 1300, Kedjemont, föreslår tio enheter. Detta avviker från de fem styckena som vi förväntas behöva för att uppfylla försäljningsorder. Fortsätt med att visa dessa beställningsspårningposter.  
 
@@ -148,26 +148,26 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Markera planeringsraden för artikeln 1300 och klicka sedan på **Orderspårning**.  
 
-     De två raderna i fönstret **Orderspårning** visar att fem enheter kan spåras från planeringsraden (den första orderspårningsraden) till försäljningsorder 1001 (andra orderspårningsraden). De sista fem enheter som föreslås på planeringsraden är inte kopplade till någon dokumentrad, utan till en planeringsparameter, en prognostransaktion eller en avropsorderpost. De här ospårade kvantiteterna summeras i fältet **Antal, inte spårade** längst upp i fönstret **Orderspårning**.  
+     De två raderna på sidan **Orderspårning** visar att fem enheter kan spåras från planeringsraden (den första orderspårningsraden) till försäljningsorder 1001 (andra orderspårningsraden). De sista fem enheter som föreslås på planeringsraden är inte kopplade till någon dokumentrad, utan till en planeringsparameter, en prognostransaktion eller en avropsorderpost. De här ospårade kvantiteterna summeras i fältet **Antal, inte spårade** längst upp på sidan **Orderspårning**.  
 
 2.  Välj fältet **ej spårat antal**.  
 
-     I fönstret **Planeringselement, inte spårat** visas att artikeln 1300 använder en planeringsparameter, Min. partistorlek, som är 10,00. Därför står planeringsraden för tio enheter totalt, där endast fem kan spåras till ett behov. De sista fem enheterna är en ospårad kvantitet som tillfredsställer planeringsparametern. Fortsätt för att granska planeringsparametrar.  
+     På sidan **Planeringselement, inte spårat** visas att artikeln 1300 använder en planeringsparameter, Min. partistorlek, som är 10,00. Därför står planeringsraden för tio enheter totalt, där endast fem kan spåras till ett behov. De sista fem enheterna är en ospårad kvantitet som tillfredsställer planeringsparametern. Fortsätt för att granska planeringsparametrar.  
 
 ### <a name="to-check-the-planning-parameter"></a>Så här kan du kontrollera planeringsparametern  
 
-1.  I fönstret **Ej spårade planeringselement** markerar du orderspårningsraden för artikel 1300.  
+1.  På sidan **Ej spårade planeringselement** markerar du orderspårningsraden för artikel 1300.  
 2.  Välj fältet **Artikelnr** och välj sedan **Avancerat**.  
-3.  I fönstret **artikellista** väljer du åtgärden **Lagerställeenheter**.  
-4.  I fönstret **Lagerställeenhetslista** öppnar du det BLÅ lagerställeenhetskortet.  
+3.  På sidan **artikellista** väljer du åtgärden **Lagerställeenheter**.  
+4.  På sidan **Lagerställeenhetslista** öppnar du det BLÅ lagerställeenhetskortet.  
 5.  Expandera snabbfliken **Planering** och lägg märke till att fältet **Min. partistorlek** har värdet 10.  
-6.  Stäng alla fönster utom fönstret **Planeringsförslag**.  
+6.  Stäng alla sidor utom sidan **Planeringsförslag**.  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Visa fler orderspårningstransaktioner  
 
 1.  Markera planeringsraden för artikeln 1110 rim och klicka sedan på **Orderspårning**.  
 
-     **Orderspårning** visar att fem fälgar behövs för varje produktionsorder för fram- och bakhjul respektive.  
+     Sidan **Orderspårning** visar att fem fälgar behövs för varje produktionsorder för fram- och bakhjul respektive.  
 
      Samma orderspårning avser planeringsraderna för artiklarna 1120 och 1160 1170. För artikel 1120 fältet **kvantitet per** på produktionsstrukturen av varje hjul är 50 datorer, vilka leder till ett behov av totalt 100.  
 
@@ -175,11 +175,11 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 2.  Markera planeringsraden för artikeln 1150 och klicka sedan på **Orderspårning**.  
 
-     Fönstret **Orderspårning** visar att fem enheter spåras till framhjulet, och en enhet är inte spårats. Fortsätt med att visa det ospårade antalet.  
+     Sidan **Orderspårning** visar att fem enheter spåras till framhjulet, och en enhet är inte spårats. Fortsätt med att visa det ospårade antalet.  
 
 3.  Välj fältet **ej spårat antal**.  
 
-     Fönstret **ej spårade planeringselement** visar att artikeln 1150 använder planeringsparametern Partistorleksmultipel, på 2,00, vilket anger att när artikeln beställdes, måste det vara i kvantiteter som är delbara med 2. Den närmaste kvantiteten för 5 som är delbar med 2 blir 6.  
+     Sidan **ej spårade planeringselement** visar att artikeln 1150 använder planeringsparametern Partistorleksmultipel, på 2,00, vilket anger att när artikeln beställdes, måste det vara i kvantiteter som är delbara med 2. Den närmaste kvantiteten för 5 som är delbar med 2 blir 6.  
 
      Samma beställningsspårning gäller för planeringsraderna för de främre navkomponenterna, artiklarna 1151 och 1155, förutom att varje behov multipliceras med kassationsprocenten som har angetts för artikeln 1150 i fältet **Kassationsprocent** på kortet.  
 
@@ -192,14 +192,14 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Markera kryssrutan **Acceptera åtgärdsmeddelande** på planeringsraderna med en varning av typen undantag.  
 2.  Välj den **Verkställ åtgärdsmeddelande** åtgärd.  
-3.  I fönstret **Skapa order från planering** fyller du i följande fält.  
+3.  På sidan **Skapa order från planering** fyller du i följande fält.  
 
     |Produktionsorder|Inköpsorder|Överföringsorder|  
     |----------------------|--------------------|--------------------|  
     |Fast planerad|Skapa inköpsorder|Skapa överföringsorder|  
 
 4.  Klicka på **OK** för att skapa alla de föreslagna leveransordrarna automatiskt.  
-5.  Stäng det tomma fönstret **Planeringsförslag**.  
+5.  Stäng den tomma sidan **Planeringsförslag**.  
 
  Nu är du klar med den första beräkningen, analysen och skapandet av en leveransplanering för behovet vid lagerstället BLÅ under första veckan i februari. I följande avsnitt beställer en annan kund tio touringcyklar, vilket tvingar Eduardo att planera om.  
 
@@ -211,7 +211,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Så här skapar du nytt försäljningsbehov och planerar om därefter  
 
 1.  Välj åtgärden **Ny**.  
-2.  I fönstret **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
+2.  På sidan **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
     |Förs.kundnamn|Utleveransdatum|Artikelnr|Lagerställe|Antal|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -221,7 +221,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 4.  Fortsätter genom att planera om genom att justera den nuvarande leveransplaneringen.  
 5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
 6.  Välj åtgärden **Beräkna nettoförändringsplan**.  
-7.  I fönstret **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell i fönstret .  
+7.  På sidan **Skapa inköpsförslag - planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Skapa inköpsförslag|Startdatum|Slutdatum|Visa resultat:|Begränsa totaler till|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -244,20 +244,20 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
 
 1.  Markera planeringsraden för artikeln 1250 och klicka sedan på **Orderspårning**.  
 
-     De sju raderna i fönstret **Orderspårning** visar att fem och tio stycken spåras via bak hjulet till de touringcyklarna på de två försäljningsorder respektive.  
+     De sju raderna på sidan **Orderspårning** visar att fem och tio stycken spåras via bak hjulet till de touringcyklarna på de två försäljningsorder respektive.  
 
      De sista fem styckena är inte spårade. Fortsätt med att analysera.  
 
 2.  Välj fältet **ej spårat antal**.  
 
-     I fönstret **Planeringselement, inte spårat** visas att artikeln 1250 använder en planeringsparameter, Partistorleksmultipel som är 10,00. Därför är planeringsraden för 20 enheter totalt för att avrunda till faktiskt behov upp till närmaste tal som är delbart med 10. De sista fem enheterna är en ospårad kvantitet som tillfredsställer planeringsparametern.  
+     På sidan **Planeringselement, inte spårat** visas att artikeln 1250 använder en planeringsparameter, Partistorleksmultipel som är 10,00. Därför är planeringsraden för 20 enheter totalt för att avrunda till faktiskt behov upp till närmaste tal som är delbart med 10. De sista fem enheterna är en ospårad kvantitet som tillfredsställer planeringsparametern.  
 
-3.  Stäng alla fönster utom fönstret **Planeringsförslag**.  
+3.  Stäng alla sidor utom sidan **Planeringsförslag**.  
 
 ### <a name="to-view-an-existing-order"></a>Visa en befintlig order  
 
 1.  På planeringsraden för artikel 1250 klickar du på fältet **Ref. ordernr**. .  
-2.  I fönstret **Fast planerad prod.order** för Baknav. Den befintliga beställningen på tio stycken, som du skapade i den första planläggningskörningen, öppnas.  
+2.  På sidan **Fast planerad prod.order** för Baknav. Den befintliga beställningen på tio stycken, som du skapade i den första planläggningskörningen, öppnas.  
 3.  Stäng den fasta planerade produktionsorder.  
 
  Nu är du klar med genomgången av hur du använder planeringssystemet för att automatiskt upptäcka behov, beräkna lämpliga leveransorder i enlighet med behovet och planeringsparametrar och sedan automatiskt skapa olika typer av leveransorder med passande datum och antal.  

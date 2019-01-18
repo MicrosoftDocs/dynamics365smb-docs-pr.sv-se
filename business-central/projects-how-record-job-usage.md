@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Registrera förbrukning för projekt
-I fönstret **Projektplaneringsrader** kan du förhandsgranska och registrera förbrukningen i olika delar av projektet, som uppdateras automatiskt medan du ändrar och överför information mellan projekt och projektjournaler eller projektfakturor. Detta innebär att du har konfigurerat ett projekt så att **Använd förbrukningslänk som standard** aktiveras. Mer information finns i [Skapa projekt](projects-how-setup-jobs.md).  
+På sidan **Projektplaneringsrader** kan du förhandsgranska och registrera förbrukningen i olika delar av projektet, som uppdateras automatiskt medan du ändrar och överför information mellan projekt och projektjournaler eller projektfakturor. Detta innebär att du har konfigurerat ett projekt så att **Använd förbrukningslänk som standard** aktiveras. Mer information finns i [Skapa projekt](projects-how-setup-jobs.md).  
 
 Till exempel för planeringsrader av typen **Budget** kan du ange antal av en resurs och hur stort antal som ska överföras till projektjournalen. Om typen av planeringsrad är **Fakturerbar** kan du ange antal av resursen och hur stort antal som ska överföras till en faktura. Genom att jämföra antalet som har överförts till journalen eller fakturan med det återstående antalet, kan du snabbt granska information om förbrukning.
 
@@ -34,10 +34,10 @@ Efterföljande procedurer beskriver hur du registrerar verkligt (fakturerbart), 
 
     Fältet **Återstående antal** visar kvantiteten som återstår för att slutföra projektet och att överföras till journalen.  
 5. Välj åtgärden **Skapa projektjournalrader**.
-6. I fönstret **Projekt - Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. På sidan **Projekt - Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Välj åtgärden **Öppna projektjournal**.  
-8. I fönstret **Projektjournal** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
-9. I fönstret **Projektplaneringsrader** granskar du den registrerade förbrukningen genom att observera fälten **Antal**, **Återstående antal** och **Antal att överföra till journal**.  
+8. På sidan **Projektjournal** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
+9. På sidan **Projektplaneringsrader** granskar du den registrerade förbrukningen genom att observera fälten **Antal**, **Återstående antal** och **Antal att överföra till journal**.  
 10. Upprepa steg 3 till 8 om du vill registrera extra förbrukning.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Registrera förbrukning på en projektplaneringsrad av typen Fakturerbart
@@ -50,22 +50,22 @@ I nästa uppgift registrerar du också förbrukning, men för en projektplanerin
 
     Fältet **Antal att fakturera** visar kvantiteten som återstår för att slutföra projektet och faktureras.  
 5. Välj åtgärden **Skapa försäljningsfaktura**.
-6. I fönstret **Projekt - Överför till förs.faktura** fyller du i fälten efter behov och väljer sedan knappen **OK**.
-7. I fönstret **Projektplaneringsrader** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
+6. På sidan **Projekt - Överför till förs.faktura** fyller du i fälten efter behov och väljer sedan knappen **OK**.
+7. På sidan **Projektplaneringsrader** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
 8. Granska den registrerade förbrukningen, genom att observera fälten **Antal**, **Antal att fakturera**, **Antal att överföra till faktura** och om försäljningsfakturan överförs, fältet **Antal fakturerat**.
 9. Upprepa steg 3 till 8 om du vill registrera extra förbrukning.  
 10. Om du vill granska en relaterad bokförd försäljningsfaktura, välj **Försäljningsfakturor/kreditnotor**.  
-11. Välj relevant faktura och välj åtgärden **Öppna försäljningsfaktura/-kreditnota** i fönstret **Projektfakturor**.         
+11. Välj relevant faktura och välj åtgärden **Öppna försäljningsfaktura/-kreditnota** på sidan **Projektfakturor**.         
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Så här skapar du projektjournalrader från projektplaneringsrader
 När du är klar att bokföra ekonomisk information för projektet, måste du skapa projektjournalrader som du kan bokföra.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant öppet projekt och välj sedan åtgärden **Projektplaneringsrader**.  
-3. I fönstret **Projektplaneringsrader** på en relevant projektplaneringsrad i fältet **Antal att överföra till journal** anger du det antal som du vill överföra till en projektjournal.  
+3. På sidan **Projektplaneringsrader** på en relevant projektplaneringsrad i fältet **Antal att överföra till journal** anger du det antal som du vill överföra till en projektjournal.  
 4. Välj åtgärden **Skapa projektjournalrader**.
-5. I fönstret **Projekt - Överför projektplaneringsrad** fyller du i fält efter behov.  
-6. Välj **OK**. Projektjournalrader skapas.
+5. På sidan **Projekt - Överför projektplaneringsrad** fyller du i fält efter behov.  
+6. Välj knappen **OK**. Projektjournalrader skapas.
 7. Om du vill validera överföringen öppnar du den relevanta projektjournalen och kontrollerar transaktionerna.  
 8. Välj åtgärden**Bokför** när projektjournalraderna har slutförts.  
 
@@ -83,7 +83,7 @@ När du har bokfört projektjournalrader kan du se de planeringsrader som är ko
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektjournaler** och välj sedan relaterad länk.  
 2. Välj en relevant projektjournal och välj sedan åtgärden **Transaktioner**.  
-3. I fönstret **Projekttransaktioner** väljer du åtgärden **Visa kopplade projektplaneringsrader**.
+3. På sidan **Projekttransaktioner** väljer du åtgärden **Visa kopplade projektplaneringsrader**.
 
 ## <a name="see-also"></a>Se även
 [Projekthantering](projects-manage-projects.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e66e5f2e6881ddb0d0919a0544b451e2aab1fc43
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med servicekontrakt och servicekontraktsofferter
@@ -25,7 +25,7 @@ Du kan skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffe
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Så här skapar du ett servicekontrakt eller en servicekontraktsoffert  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Servicekontrakt** eller **Servicekontraktofferter** och välj sedan relaterad länk.  
 2. Så här skapar du ett servicekontrakt eller en servicekontraktsoffert:  
-3. Fyll i fälten **Nr.** . En dialogruta öppnas där du får en fråga om du vill använda allmänna data från en kontraktsmall. Om du vill skapa ett sådant servicekontrakt eller en servicekontraktsoffert klickar du på **Ja**. Fönstret **Servicekontraktsmall** öppnas.  
+3. Fyll i fälten **Nr.** . En dialogruta öppnas där du får en fråga om du vill använda allmänna data från en kontraktsmall. Om du vill skapa ett sådant servicekontrakt eller en servicekontraktsoffert klickar du på **Ja**. Sidan **Servicekontraktsmall** öppnas.  
 4. Markera önskad mall och klicka sedan på **OK** för att skapa servicekontraktet eller servicekontraktsofferten.  
 5. I fältet **Kundnr.** väljer du kunden.  
 6. Om du inte vill att ett årligt differensbelopp ska fördelas automatiskt markerar du kryssrutan **Tillåt ej balanserade belopp**. Värdena i **Årligt belopp** och **Beräknat årligt belopp** kvittas inte automatiskt. Om du vill att detta ska göras automatiskt, med distribution av ett valfritt årligt differensbelopp som eventuellt härrör från en ändring i servicekontraktet, lämnar du kryssrutan **Tillåt ej balanserade belopp** tom.  
@@ -66,17 +66,17 @@ Du kan använda servicekreditnotor för kontrakt då en kund avbeställer ett f�
      På snabbfliken **Fakturering** kan du se information som har kopierats från kortet **Kund**. Om du vill bokföra kreditnotan till en annan kund än den som angetts på snabbfliken **Allmänt** anger du den kundens nummer i fältet **Faktureringskundnr** . .  
 
     > [!NOTE]  
-    >  Du kan jämföra kreditnotan med det bokförda originaldokumentet i fönstret **Bokförda servicefakturor**. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda servicefakturor** och välj sedan relaterad länk.  
+    >  Du kan jämföra kreditnotan med det bokförda originaldokumentet på sidan **Bokförda servicefakturor**. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda servicefakturor** och välj sedan relaterad länk.  
 
 5. Fyll i fälten **Bokföringsdatum** och **Dokumentdatum** .  
 6. Ange information om artiklarna som har returnerats eller flyttats, eller ersättning som ska skickas, på kreditnoteraderna. Du kan även använda batch-jobbet **Hämta förutbetalda kont.trans**.  
 
- I fönstret **Servicekontrakt** på snabbfliken **Fakturadetaljer** kan du markera kryssrutan **Automatiska kreditnotor** om du vill att en kreditnota automatiskt ska skapas när rader tas bort från ett servicekontrakt.  
+ På sidan **Servicekontrakt** på snabbfliken **Fakturadetaljer** kan du markera kryssrutan **Automatiska kreditnotor** om du vill att en kreditnota automatiskt ska skapas när rader tas bort från ett servicekontrakt.  
 
- I fönstret **Servicekontrakt** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Kreditnota** om du vill skapa en kreditnota manuellt när rader tas bort från ett servicekontrakt.  
+ På sidan **Servicekontrakt** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Kreditnota** om du vill skapa en kreditnota manuellt när rader tas bort från ett servicekontrakt.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Uppdatera och utvärdera kontrakt
-Ibland måste du ändra villkoren i ett kontrakt efter att det har skapats. I de flesta fall öppnar du önskat kontrakt i fönstret **Servicekontrakt** och gör de ändringar som behövs.  
+Ibland måste du ändra villkoren i ett kontrakt efter att det har skapats. I de flesta fall öppnar du önskat kontrakt på sidan **Servicekontrakt** och gör ändringarna som behövs.  
 
 Du kan ändra status för kontraktet, som från början ställts in som **Låst**, lägga till och ta bort kontraktsrader samt makulera ett kontrakt. Om du vill ta reda på om verksamheten går med vinst eller förlust kan du göra en snabb affärsanalys med hjälp av funktionen Kontrakt Trendscape.
 
@@ -97,12 +97,12 @@ Du kanske måste ta bort kontraktsraderna från servicekontraktet när du tar bo
 2. Öppna det servicekontrakt som du vill ta bort kontraktsrader från.  
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera servicekontraktet eller servicekontraktsofferten.  
 4. Välj den kontraktsrad som du vill ta bort. Fyll i fältet **Kontrakt utgångsdatum** med datumet då du vill ta bort raden. Det kan till exempel vara den dag då serviceartikeln delades upp.  
-5. Välj åtgärden **ta bort kontraktsrader**. Fönstret **Ta bort rader från kontrakt** visas.  
+5. Välj åtgärden **ta bort kontraktsrader**. Sidan **Ta bort rader från kontrakt** visas.  
 6. Fyll i standardfiltren: **Kontraktnr**, filtret **Serviceartikelnr** och filtret **Kontraktstyp**. Om det behövs kan du använda flera filter eller ändra befintliga filter.  
 7. Fyll i fälten på snabbfliken **Alternativ**. Klicka på **Ta bort rader** i fältet **Åtgärd**.  
 
 > [!NOTE]  
->  Om kontraktet inte är detaljerat måste du uppdatera värdet i fältet **Årligt belopp** på snabbfliken **Fakturadetaljer** i fönstret **Servicekontrakt** för att visa att serviceartikeln har tagits bort från kontraktet.  
+>  Om kontraktet inte är detaljerat måste du uppdatera värdet i fältet **Årligt belopp** på snabbfliken **Fakturadetaljer** på sidan **Servicekontrakt** för att visa att serviceartikeln har tagits bort från kontraktet.  
 >   
 >  Om kontraktet är detaljerat och förutbetalt, och du har bokfört fakturor för det, kan du skapa en kreditnota för kontraktet. Välj **Skapa kreditnota** i gruppen **Funktioner** på fliken **Åtgärder**. Detta är onödigt om kryssrutan i fältet **Automatiskt kreditnotor** på snabbfliken **Fakturadetaljer** är markerad. Här skapas en kreditnota skapas automatiskt när du tar bort en kontraktsrad.
 
@@ -126,12 +126,12 @@ Du kan lägga till kontraktsrabatt på service för kontraktsofferter och servic
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
 2. Välj den offert som du vill lägga till rabatter för.  
-3. Välj åtgärden **Servicerabatter**. Fönstret **Kontrakt/service rabatter** öppnas.  
+3. Välj åtgärden **Servicerabatter**. Sidan **Kontrakt/service rabatter** öppnas.  
 4. Välj **Ny** för att ange en ny kontraktsrabatt.  
 5. Fyll i fälten på den första raden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 
 > [!Tip]  
->  Om du vill lägga till kontraktsrabatter direkt i ett servicekontrakt utför du en liknande procedur från fönstret **Servicekontraktlista**.  
+>  Om du vill lägga till kontraktsrabatter direkt i ett servicekontrakt utför du en liknande procedur från sidan **Servicekontraktlista**.  
 
 ## <a name="to-change-the-owner-of-a-service-contract"></a>Så här ändrar du ägare till servicekontrakt  
 Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i ett servicekontrakt är registrerad i  flera kontrakt som inte har makulerats och som ägs av samma kund, ändras ägaren automatiskt för alla servicekontrakt som innehåller denna serviceartikel och alla andra serviceartiklar som finns i dessa kontrakt.  
@@ -146,7 +146,7 @@ Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekontrakt** och välj sedan relaterad länk. Öppna relevant servicekontrakt där du vill ändra ägare.  
 2. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera kontraktet.  
-3. Välj åtgärden **Ändra kund**. Fönstret **Ändra kund i kontrakt** visas.  
+3. Välj åtgärden **Ändra kund**. Sidan **Ändra kund i kontrakt** visas.  
 4. I fältet **Kontraktnr.** och **Serviceartikelnr** visas numren för de kontrakt och serviceartiklar som ägs av den valda kunden. Om kunden äger flera kontrakt med flera serviceartiklar, blir värdet av dessa fält **Flera**. Om du vill se listan över relaterade kontrakt eller serviceartiklar väljer du dessa fältvärden.  
 5. I fältet **Nytt kundnr.** väljer du den nya kunden.  
 6. I fältet **ny leveranskod** väljer du adressen.  
@@ -165,7 +165,7 @@ Du kan uppdatera priserna i servicekontrakt genom att ange ett procenttal för p
 ## <a name="to-post-prepaid-contract-entries"></a>Så här bokför du förutbetalda kontraktstransaktioner  
 Om du arbetar med förutbetalda servicekontrakt måste du regelbundet bokföra förutbetalda transaktioner och därmed överföra de förutbetalda beloppen från kontona för förutbetalda kontrakt till vanliga kontraktskonton.  
 
-Innan du kan bokföra förutbetalda kontraktstransaktioner måste du ange en nummerserie i fältet **Förutbet. bokf.dok. nr-serie** i fönstret **Serviceinställningar**.  
+Innan du kan bokföra förutbetalda kontraktstransaktioner måste du ange en nummerserie i fältet **Förutbet. bokf.dok. nr-serie** på sidan **Serviceinställningar**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Bokför förutbet. kont.trans.** och välj sedan relaterad länk.  
 2. Ange ett datum i fältet **Bokför tills datum**. Batch-jobbet bokför förutbetalda kontraktstransaktioner med bokföringsdatum fram till det här datumet.  
@@ -190,13 +190,13 @@ Du kanske måste makulera ett servicekontrakt i programmet när detta kontrakt h
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera servicekontraktet eller servicekontraktsofferten.  
 4. Välj önskad uppföljningskod i fältet **Uppföljningskod för avbryt**. Om du vill lägga till fler uppföljningskoder, väljer du åtgärden **Avancerat**.  
 
-     Om kryssrutan i fältet **Använd kontrakt makulerat** i fönstret **Serviceinställningar** är markerad, måste du ange en uppföljningskod för makulerat när du makulerar kontrakt.  
+     Om kryssrutan i fältet **Använd kontrakt makulerat** på sidan **Serviceinställningar** är markerad, måste du ange en uppföljningskod för makulerat när du makulerar kontrakt.  
 
 5. Markera **Rättad** i fältet **Status** .  
 6. Om det finns icke bokförda fakturor eller kreditnotor eller öppna förutbetalda transaktioner för kontraktet visas ett bekräftelsemeddelande. Klicka på **Nej** i meddelanderutan om du vill gå tillbaka till kontraktet och bokföra dokumenten, eller klicka på **Ja** om du vill fortsätta att makulera.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Så här arkiverar du servicekontrakt och kontraktsofferter  
-Du kan arkivera servicekontrakt och kontraktsofferter när som helst för att registrera och arkivera en kopia av kontraktet eller kontraktsofferten. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filernas servicekontrakt arkiveras automatiskt när du omvandlar kontraktsofferter till servicekontrakt eller makulerar kontrakt. Du kan arkivera ett kontrakt eller offert själv genom att välja åtgärden **Arkivera kontrakt** i fönstret **avseende** eller **servicekontraktsofferter**. Om du vill visa arkiverade kontrakt eller offerter söker du efter **arkiverade kontrakt**.
+Du kan arkivera servicekontrakt och kontraktsofferter när som helst för att registrera och arkivera en kopia av kontraktet eller kontraktsofferten. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filernas servicekontrakt arkiveras automatiskt när du omvandlar kontraktsofferter till servicekontrakt eller makulerar kontrakt. Du kan arkivera ett kontrakt eller offert själv genom att välja åtgärden **Arkivera kontrakt** på sidorna **avseende** eller **servicekontraktsofferter**. Om du vill visa arkiverade kontrakt eller offerter söker du efter **arkiverade kontrakt**.
 
 ## <a name="see-also"></a>Se även  
 [Skapa servicekontrakt](service-how-setup-service-contracts.md)  

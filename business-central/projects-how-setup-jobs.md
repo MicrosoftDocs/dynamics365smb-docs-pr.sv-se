@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Konfigurera projekt
-I fönstret **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
+På sidan **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
 
 På de individuella de projektkorten måste du lägga upp priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
@@ -48,25 +48,25 @@ Om kryssrutan **Använd förbrukningslänk som standard** är markerad och proje
 >   Du kan skapa en annan inställning av **Använd förbrukningslänk som standard** på de individuella arbetskorten. I så fall åsidosätter inställningen för det projektet den allmänna standardinställningen som beskrivs ovan.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Så här anger du priser för projektresurser
-Du kan lägga upp särskilda resurspriser för ett projekt. Du använder fönstret **Resurspriser för projekt** om du vill göra detta.
+Du kan lägga upp särskilda resurspriser för ett projekt. Du använder sidan **Resurspriser för projekt** om du vill göra detta.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Resurs**.
-3. I fönstret **Resurspriser för projekt** fyller du i fälten efter behov.
+3. På sidan **Resurspriser för projekt** fyller du i fälten efter behov.
 
 Den valfria informationen i fälten **Projektaktivitetsnr**, **Arbetstyp**, **Valutakod**, **Radrabatt %** och **Styckkostnadsfaktor** kommer att användas i projektplaneringsrader och förbrukningsjournaler när den här resursen anges och läggs till i projektet.  
 
 Värdet i fältet **Enhetspris** för resursen kommer att användas i projektjournalerna och projektets planeringsrader när den här resursen, en resurs tilldelad till resursgruppen eller valfri resurs anges.  
 
 > [!NOTE]  
->   Det här priset kommer alltid att åsidosätta eventuella priser som har angetts i det befintliga fönstret **Resurspris/Resursgruppriser**.
+>   Det här priset kommer alltid att åsidosätta eventuella priser som har angetts på den befintliga sidan **Resurspris/Resursgruppriser**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Så här anger du priser för projektartiklar
-Du kan lägga upp särskilda artikelpriser för ett projekt. Använd fönstret **Artikelpriser** för projekt om du vill göra detta.
+Du kan lägga upp särskilda artikelpriser för ett projekt. Använd sidan **Artikelpriser för projekt** om du vill göra detta.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Artikel**.
-3. I fönstret **Artikelpriser för projekt** fyller du i fälten efter behov.
+3. På sidan **Artikelpriser för projekt** fyller du i fälten efter behov.
 
 Den valfria informationen i fälten **Projektaktivitetsnr**, **Valutakod** och **Radrabatt %** kommer att användas i projektjournalraderna och projektjournalerna när den här artikeln anges eller läggs till i projektet.  
 
@@ -76,11 +76,11 @@ Värdet i fältet **Enhetspris** för artikeln kommer att användas i projektpla
 >   Det här priset kommer alltid att åsidosätta det vanliga kundpriset (bästa pris-mekanismen) för artiklar. Du bör inte skapa några artikelpriser för projektet om du vill använda mekanismerna för vanliga kundpriser.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Så här lägger du upp priser för redovisningskonton för projekt
-Du kan lägga upp specifika priser för redovisningskostnader för ett projekt. Du använder fönstret **Redov.kontopriser för projekt** för att göra detta.
+Du kan lägga upp specifika priser för redovisningskostnader för ett projekt. Du använder sidan **Redov.kontopriser för projekt** för att göra detta.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Redovisningskonto**.  
-3. I fönstret **Redov.kontopriser för projekt** fyller du i fälten efter behov.
+3. På sidan **Redov.kontopriser för projekt** fyller du i fälten efter behov.
 
 Den valfria informationen i fälten **Projektaktivitetsnr**, **Valutakod**, **Radrabatt %**, **Styckkostnadsfaktor** och **Enhetskostnad** kommer att användas i projektplaneringsrader och projektjournaler när det här redovisningskontot anges och läggs till ett projekt.  
 

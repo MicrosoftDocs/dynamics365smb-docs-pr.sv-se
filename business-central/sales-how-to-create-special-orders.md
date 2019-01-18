@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Skapa specialorder
@@ -32,9 +32,9 @@ Innan den här funktionen kan användas måste de kund-, leverantörs- och artik
     Därefter måste du skapa en inköpsorder från ett inköpsförslag.  
 4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsförslag** och välj sedan relaterad länk.  
 5. Välj åtgärden **Specialorder** och väljer sedan åtgärden **Hämta förs.order**.  
-6.  I fönstret **Hämta förs.order** visar resultat där **Verifikationsnr** är numret på försäljningsordern. Välj **OK**. En inköpskalkylarksrad skapas för artikeln.  
+6.  På sidan **Hämta förs.order** visar resultat där **Verifikationsnr** är numret på försäljningsordern. Välj **OK**. En inköpskalkylarksrad skapas för artikeln.  
 7.  På inköpskalkylarksraden, i fältet **Åtgärdsmeddelande**, väljer du **Ny**.  
-8.  I fönstret **Inköpskalkylark** väljer du åtgärden **Verkställ åtgärdsmeddelande**. Fönstret **Skapa inköpsorder** visas. Välj knappen **OK**.  
+8.  På sidan **Inköpsförslag** väljer du åtgärden **Verkställ åtgärdsmeddelande**. Sidan **Skapa inköpsorder** visas. Välj knappen **OK**.  
 
     Du får meddelande om att inköpsorderna har skapats. Välj **OK**.  
 

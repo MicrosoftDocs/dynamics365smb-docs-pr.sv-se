@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Genomgång: Beräkna produkter i arbete för ett projekt
@@ -45,7 +45,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 ## <a name="calculating-wip"></a>Beräkna PIA  
  CRONUS har vunnit ett långvarigt projekt som nu har förlängts över flera redovisningsperioder. Tricia, en projektmedlem, beräknar produkter i arbete (PIA) för att kontrollera att företagets finansiella rapporter är rätt.  
 
- I den här proceduren kommer Tricia att välja en särskild grupp med aktiviteter som ska inkluderas i PIA-beräkningen. I fönstret **Projektaktivitetsrader** kan hon ange dessa rader i kolumnen **PIA, totalt**.  
+ I den här proceduren kommer Tricia att välja en särskild grupp med aktiviteter som ska inkluderas i PIA-beräkningen. På sidan **Projektaktivitetsrader** kan hon ange dessa rader i kolumnen **PIA totalt**.  
 
  De tre alternativen beskrivs i tabellen nedan.  
 
@@ -77,10 +77,10 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
     |1310|Exklusive|  
 
 5.  Välj åtgärden **PIA** och klicka på åtgärden **beräkna PIA**.  
-6.  I fönstret **Projekt - Beräkna PIA** kan du välja det projekt som du vill beräkna PIA för. På snabbfliken **Projekt** väljer du **Hjortfält** i fältet **Nr**. .  
+6.  På sidan **Projekt - Beräkna PIA** kan du välja det projekt som du vill beräkna PIA för. På snabbfliken **Projekt** väljer du **Hjortfält** i fältet **Nr**. .  
 7.  I fältet **Bokföringsdatum** anger du ett datum som är senare än arbetsdatumet.
 8.  I fältet **Verifikationsnr** anger du **1**. Detta skapar ett dokument som du kan gå tillbaka till senare för spårning.  
-9. Klicka på **OK** för att köra batchjobbet. Ett meddelande visas. Klicka på knappen **OK** för att fortsätta. Stäng fönstret **Projektaktivitetsrader**.  
+9. Klicka på **OK** för att köra batchjobbet. Ett meddelande visas. Klicka på knappen **OK** för att fortsätta. Stäng sidan **Projektaktivitetsrader**.  
 
     > [!NOTE]  
     >  Meddelandet om att det finns varningar är kopplat till PIA-beräkningen. Du ska granska varningarna i nästa procedur.  
@@ -93,7 +93,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Cockpit för PIA för projekt** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hjortfält** och välj sedan åtgärden **Visa varningar**.  
-3.  I fönstret **Projekt - PIA-varningar** granskar du varningen som är kopplad till projektet.  
+3.  På sidan **Projekt - PIA-varningar** granskar du varningen som är kopplad till projektet.  
 
  Efter bokföringsperiodens slut måste Tricia beräkna PIA på nytt så att även slutfört arbete fram till dagens datum kommer med.  
 
@@ -101,10 +101,10 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 1.  På kortet **Projekt** väljer du åtgärden **PIA-transaktioner** för att visa PIA-beräkningen.  
 
-     I fönstret **PIA-transaktioner för projekt** visas PIA-transaktionerna från den senaste beräkningen av ett projekt, även om PIA ännu inte har bokförts i redovisningen.  
+     Sidan **PIA-transaktioner för projekt** visas PIA-transaktionerna från den senaste beräkningen av ett projekt, även om PIA ännu inte har bokförts i redovisningen.  
 
-2.  Du kan följa stegen i processen som förklarar hur du beräknar PIA för att omberäkna PIA. Varje gång som PIA beräknas skapas en transaktion i fönstret **PIA-transaktioner för projekt**.  
-3.  Stäng fönstret.  
+2.  Du kan följa stegen i processen som förklarar hur du beräknar PIA för att omberäkna PIA. Varje gång som PIA beräknas skapas en transaktion på sidan **PIA-transaktioner för projekt**.  
+3.  Stäng sidan.  
 
 > [!NOTE]  
 >  Endast produkter i arbete och resultatbelopp beräknas. Detta bokförs inte i Redovisning. Om du vill bokföra värdet måste du köra batchjobbet **Bokför PIA i redovisning** när du har beräknat PIA och bokföring.
@@ -116,18 +116,18 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 1.  I listan **Projekt** markerar du projektet **Hjortfält**.  
 2.  Välj åtgärden **PIA** och klicka på åtgärden **Bokför PIA i redovisning**.  
-3.  I fönstret **Projekt - Bokför PIA i redovisning**, på snabbfliken **Projekt**, väljer du **Hjortfält** i fältet **Nr**. .  
+3.  På sidan **Projekt - Bokför PIA i redovisning**, på snabbfliken **Projekt**, väljer du **Hjortfält** i fältet **Nr**. .  
 4.  På snabbfliken **Alternativ**, i fältet **Dokumentnr för återföring**, anger du **1**.  
 5.  Klicka på **OK** för att bokföra PIA i redovisningen.  
-6.  Välj **OK** för att stänga bekräftelsefönstret.  
+6.  Välj **OK** för att stänga bekräftelsesidan.  
 
-     När du har fyllt i fältet kan du visa information om bokföring i fönstret **Pia-redovisningstransaktioner**.  
+     När du har fyllt i fältet kan du visa information om bokföring på sidan **Pia-redovisningstransaktioner**.  
 
 7.  I listan **Projekt** väljer du projektet **Hjortfält** och väljer sedan åtgärden **PIA-redovisningstransaktioner**.  
 
-     I fönstret **PIA-redov.transaktioner för projekt** kan du verifiera att PIA har bokförts i redovisningen.  
+     På sidan **PIA-redov.transaktioner för projekt** kan du verifiera att PIA har bokförts i redovisningen.  
 
-8.  Stäng fönstret.  
+8.  Stäng sidan.  
 9. Öppna kortet **Projekt** för projektet **Hjortfält**.  
 10. Lägg märke till att kolumnen **Bokförd**, fältet **Bokfört kostnadsbelopp i redov.** nu fylls i på snabbfliken **PIA och bokföring**, vilket anger att PIA har bokförts i redovisningen.  
 11. Välj **OK** för att stänga kortet.  
@@ -139,16 +139,16 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 1.  I listan **Projekt** markerar du projektet **Hjortfält**.  
 2.  Välj åtgärden **PIA** och klicka på åtgärden **Bokför PIA i redovisning**.  
-3.  I fönstret **Projekt - Bokför PIA i redovisning**, på snabbfliken **Projekt**, väljer du **Hjortfält** i fältet **Nr**. .  
+3.  På sidan **Projekt - Bokför PIA i redovisning**, på snabbfliken **Projekt**, väljer du **Hjortfält** i fältet **Nr**. .  
 4.  På snabbfliken **Alternativ**, i fältet **Dokumentnr för återföring**, anger du **1**.  
 5.  Ange det ursprungliga bokföringsdatumet i fältet **Bokföringsdatum för återföring**. Detta bör vara samma datum som du använde för att beräkna PIA den första gången.  
 6.  Markera kryssrutan **Endast återföring**. Detta återför tidigare bokförd PIA, men bokför ny PIA i redovisningen.  
-7.  Välj **OK** för att köra batch-jobbet och välj sedan **OK** för att stänga bekräftelsefönstret.  
+7.  Välj **OK** för att köra batch-jobbet och välj sedan **OK** för att stänga bekräftelsesidan.  
 8.  Öppna kortet **Projekt** för **Hjortfält**.  
 9. Kontrollera att det inte finns några bokförda PIA-transaktioner på snabbfliken **PIA och bokföring**.  
-10. Stäng fönstret.  
+10. Stäng sidan.  
 11. I listan **Projekt** väljer du projektet **Hjortfält**, väljer åtgärden **PIA** och väljer åtgärden **PIA redovisningstransaktioner**. För PIA-transaktionerna är kryssrutan **Återförd** markerad.  
-12. Stäng fönstret.  
+12. Stäng sidan.  
 13. Öppna **Projektaktivitetsrader** för projektet, inkludera de delar av projektet som bör ingå i PIA-beräkningen och därefter räkna om och bokföra det nya värdet i redovisningen.  
 
     > [!NOTE]  

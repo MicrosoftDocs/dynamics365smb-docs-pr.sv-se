@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Avgående distributionslagerflöde
@@ -66,7 +66,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
  När det avgående källdokumentet släpps skapas en avgående distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Skapa lagerplockning eller transport  
- I fönstret **Lagerplockning** eller **Lagerrörelse** hämtar lagerarbetaren, med en pull-metod, de väntande källdokumentraderna som baseras på avgående distributionslagerförfrågningar. Lagerplockningsraderna kan redan ha skapats, med en pushmetod, av användaren som är ansvarig för källdokumentet.  
+ På sidan **Lagerplockning** eller **Lagerrörelse** hämtar lagerarbetaren, med en pull-metod, de väntande källdokumentraderna som baseras på avgående distributionslagerförfrågningar. Lagerplockningsraderna kan redan ha skapats, med en pushmetod, av användaren som är ansvarig för källdokumentet.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Bokför lagerplockning eller registrera lagertransport  
  På varje rad för artiklar som har plockats eller transporterats, delvis eller helt, fyller lagerarbetaren i fältet **Antal** och bokför sedan lagerplockningen eller registrerar lagertransporten. Källdokument som är relaterade till lagerplockningen bokförs som levererade eller förbrukade. Källdokument som är relaterade till lagerförflyttningar bokförs inte.  
@@ -85,7 +85,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
  När det ankommande källdokumentet släpps skapas en avgående distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Skapa distributionslagerutleverans  
- I fönstret **Dist.lager utleverans** hämtar den utleveransarbetare som är ansvarig de väntande källdokumentraderna som baseras på den avgående distributionslagerförfrågan. Flera dokumentrader kan kombineras i ett utleveransdokument för distributionslager.  
+ På sidan **Dist.lager utleverans** hämtar den utleveransarbetare som är ansvarig de väntande källdokumentraderna som baseras på den avgående distributionslagerförfrågan. Flera dokumentrader kan kombineras i ett utleveransdokument för distributionslager.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Släpp leveransen/skapa dist.lagerplockning  
  Utleveransarbetaren som är ansvarig frigör distributionslagerutleveransen, så att lagerarbetare kan skapa eller koordinera distributionslagerplockning för utleveransen i fråga.  
@@ -109,7 +109,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
  Lagerarbetaren som utför plockning skapar ett plockningsdokument för distributionslager, med en pull-metod, baserat på det utsläppta källdokumentet. Alternativt skapas lagerplockningdokumentet och tilldelas till en lagerarbetare med en pushmetod.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Registrera dist.lagerplockning  
- På varje rad för artiklar som har plockats, delvis eller helt, fyller lagerarbetaren i fältet **Antal** i fönstret **Dist.lager plockning Pick** och registrerar sedan lagerplockningen.  
+ På varje rad för artiklar som har plockats, delvis eller helt, fyller lagerarbetaren i fältet **Antal** på sidan **Dist.lager plockning Pick** och registrerar sedan lagerplockningen.  
 
  Distributionslagertransaktioner skapas och plockningsraderna tas bort om de är helt hanterade. Plockningsdokument förblir öppet tills hela antalet på den relaterade distributionslagerutleverans registreras. Fältet **Plockat antal** på distributionslagerutleveransraderna uppdateras.  
 

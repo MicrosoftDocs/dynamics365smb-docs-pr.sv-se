@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Om planeringsfunktioner
@@ -73,7 +73,7 @@ Följande beställningsprinciper finns på artikeln eller kortet för lagerstäl
 -   Max. partistorlek  
 -   Partistorleksmultipel  
 
-Inställningsfälten för planering i fönstret **Produktionsinställningar** inkluderar:  
+Inställningsfälten för planering på sidan **Produktionsinställningar** inkluderar:  
 
 -   Dynamisk lägsta-nivå-kod  
 -   Aktuell efterfrågeprognos  
@@ -95,7 +95,7 @@ Anger om leveransen som representeras av produktionsorderraden tas i beaktande a
 Om fältet innehåller alternativet **Obegränsad**, ingår raden när meddelandena beräknas. Om fältet innehåller alternativet **Ingen**, är raden fast (går inte att ändra) och ingår inte när åtgärdsmeddelandena beräknas.
 
 ### <a name="warning"></a>Varning
-Informationsfältet **varning** i fönstret **planeringsförslag** informerar dig om att alla planeringsrader som skapats för en ovanlig situation med text där användaren kan välja att få mer information. Följande typer av varningar förekommer:
+Informationsfältet **varning** på sidan **planeringsförslag** informerar dig om att alla planeringsrader som skapats för en ovanlig situation med text där användaren kan välja att få mer information. Följande typer av varningar förekommer:
 
 - Nödsituation
 - Undantag

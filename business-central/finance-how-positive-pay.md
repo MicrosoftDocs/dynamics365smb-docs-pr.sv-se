@@ -13,10 +13,10 @@ ms.search.keywords: check, clearing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 61f3d3fcd093c9fca4e23481ff3b527714b85379
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Exportera en Positive Pay-fil
@@ -28,17 +28,17 @@ För att se till att banken bara godkänner validerade checkar och belopp kan du
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
 2. Öppna kortet för den bank du vill använda Positive Pay för.
 3. I fältet **Positive Pay exportkod** anger du POSPAYBANK.
-4. Stäng fönstret.
+4. Stäng sidan.
 
 ## <a name="to-export-a-positive-pay-file"></a>För att exportera en Positive Pay-fil
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
 2. Välj det bankkonto som du vill exportera en Positive Pay-fil till.
 3. Välj åtgärden **Positive Pay-export**.
 
-    Fönstret **Positive Pay-export** öppnas och visar betalningar som har gjorts för bankkontot efter det sista överföringsdatumet, enligt fälten **senaste överföringsdatum** och **senaste överföringstid**.
+    Sidan **Positive Pay-export** öppnas och visar betalningar som har gjorts för bankkontot efter det sista överföringsdatumet, enligt fälten **senaste överföringsdatum** och **senaste överföringstid**.
 4. I fältet **Brytdatum för uppladdning** anger ett datum före vilket betalningar inte inkluderas i den exporterade filen.
 5. Välj åtgärden **Exportera**.
-6. Klicka på **Spara** i fönstret **Exportera fil** och spara sedan filen till lämplig plats.
+6. Klicka på **Spara** på sidan **Exportera fil** och spara sedan filen till lämplig plats.
 7. Överför filen till din elektroniska bank.
 8. Skriv ner eller kopiera bekräftelsenumret som du får när filuppladdningen till banken lyckas.
 
@@ -48,7 +48,7 @@ Så här visar du exporterade Positive Pay-poster
 2. Välj det bankkonto som du vill visa Positive Pay-exportposter för.
 3. Välj åtgärden **Positive Pay-transaktioner**.
 
-    I fönstret **Positive Pay-transaktioner** kan du se alla Positive Pay-exportposter för bankkontot.
+    På sidan **Positive Pay-transaktioner** kan du se alla Positive Pay-exportposter för bankkontot.
 4. I fältet **bekräftelsenummer** anger du bekräftelsenummer för varje exportpost som du får vid filöverföring till banken.
 5. Om du vill visa de relaterade betalningsraderna väljer du åtgärden **Positive Pay-transaktionsinformation**.
 
@@ -58,7 +58,7 @@ Att återexportera Positive Pay-filer
 2. Välj det bankkonto som du vill återexportera en Positive Pay-fil till.
 3. Välj åtgärden **Positive Pay-transaktioner**.
 4. Välj den rad för Positive Pay-exportfilen som du vill återexportera.
-5. I fönstret **Positive Pay-transaktioner** väljer du åtgärden **Återexportera Positive Pay till fil**.
+5. På sidan **Positive Pay-transaktioner** väljer du åtgärden **Återexportera Positive Pay till fil**.
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  

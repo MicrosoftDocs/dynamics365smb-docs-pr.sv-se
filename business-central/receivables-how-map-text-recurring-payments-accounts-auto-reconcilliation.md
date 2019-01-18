@@ -11,28 +11,28 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 540f26a9fa464f28c5b3744826cd2221567e45f9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
-I fönstret **Mappa text till konto** som du öppnar från fönstret **Betalningsavstämningsjournal** kan du skapa mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.
+På sidan **Mappa text till konto** som du öppnar från sidan **Betalningsavstämningsjournal** kan du skapa mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.
 
 Liknande funktioner finns för att stämma av överskottbelopp på Betalningsavstämningsjournaler på en ad hoc-basis. Mer information finns i [Så här stämmer du av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Betalningar som bokförts baserat på text-till-konto-mappning kopplas inte till öppna transaktioner, utan bokförs bara på de angivna kontona utöver att skapa bankkontotransaktioner. Därför lämpar sig text-till-kontomappning för återkommande inbetalningar eller kostnader, till exempel frekventa inköp av bilbränsle eller bankavgifter och ränt, som visas regelbundet på bankutdraget och inte behöver ett relaterat affärsdokument. Mer information finns i avsnittet “Exempel - Text-till-konto-mappning för bränslekostnad” i den här artikeln.
 
 > [!NOTE]  
->   Betalningar på avstämningsjournalrader anges endast för att bokföra enligt text-till-kontomappning om den automatiska kopplingsfunktionen bara kan ange matchningssäkerheten **Låg** eller **Medium**. Om funktionen för automatisk koppling ger matchningssäkerheten Hög kopplas betalningen automatiskt till en eller flera öppna transaktioner och betalningen bokförs inte på de konton som angetts i fönstret **Mappa text till konto**. Med andra ord åsidosätter en matchningssäkerhet på **Hög** en text-till-konto-mappning.
+>   Betalningar på avstämningsjournalrader anges endast för att bokföra enligt text-till-kontomappning om den automatiska kopplingsfunktionen bara kan ange matchningssäkerheten **Låg** eller **Medium**. Om funktionen för automatisk koppling ger matchningssäkerheten Hög kopplas betalningen automatiskt till en eller flera öppna transaktioner och betalningen bokförs inte på de konton som angetts på sidan **Mappa text till konto**. Med andra ord åsidosätter en matchningssäkerhet på **Hög** en text-till-konto-mappning.
 
 På en rad i en utbetalningsavstämningsjournal där betalningen har angetts för bokföring enligt text-till-kontomappning innehåller fältet **Matchningssäkerhet** innehåller **Hög – mappa text till konto** och fälten **Kontotyp** och **Kontonr.** innehåller de mappade kontona.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
 2. Öppna en betalningsavstämningsjournal. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
-3. Välj åtgärden **Mappa text till konto**. Fönstret **Mappa text till konto** öppnas.
+3. Välj åtgärden **Mappa text till konto**. Sidan **Mappa text till konto** öppnas.
 4. I fältet **Mappningstext** anger du text som finns på betalningar som du vill bokföra på angivna konton utan koppling till en öppen transaktion. Du kan ange upp till 50 tecken.
 
     > [!NOTE]  
@@ -46,10 +46,10 @@ På en rad i en utbetalningsavstämningsjournal där betalningen har angetts fö
 
 8. Upprepa moment 3 till och med 7 för all text på betalningar som du vill mappa till konton för direkt bokföring utan koppling.
 
-Nästa gång importerar en bankutdragsfil eller väljer funktionen **Koppla automatiskt** i fönstret **Betalningsavstämningsjournal** innehåller journalrader för betalningar som innehåller den angivna mappningstexten de mappade kontona i fälten **Kontotyp** och **Kontonr.**. Fältet **Matchningssäkerhet** ska innehålla **Hög – mappa text till konto**. Det sker på villkoret att den automatiska kopplingsfunktionen endast kan tillhandahålla matchningssäkerheten **Låg** eller **Medium**.
+Nästa gång importerar en bankutdragsfil eller väljer funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal** innehåller journalrader för betalningar som innehåller den angivna mappningstexten de mappade kontona i fälten **Kontotyp** och **Kontonr.**. Fältet **Matchningssäkerhet** ska innehålla **Hög – mappa text till konto**. Det sker på villkoret att den automatiska kopplingsfunktionen endast kan tillhandahålla matchningssäkerheten **Låg** eller **Medium**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Exempel – Text-till-konto-mappning för bränslekostnad
-Om du alltid vill bokföra bränslekostnader upplupna på Shell-bensinmackar i redovisningen för bensin (konto 8510) fyller du i en rad i fönstret **Mappa text till konto** så här.
+Om du alltid vill bokföra bränslekostnader upplupna på Shell-bensinmackar i redovisningen för bensin (konto 8510) fyller du i en rad på sidan **Mappa text till konto** så här.
 
 | Mappningstext | Debetkontonr | Kreditkontonr | Ursprungstyp för motkonto | Ursprungsnr för motkonto |
 | --- | --- | --- | --- | --- |

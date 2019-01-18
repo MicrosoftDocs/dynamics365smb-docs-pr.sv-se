@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Ställa in grundläggande dist.lager med verksamhetsområden
 Om internt verksamhetsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt verksamhetsområde:  
 
-- **lagerförflyttning** fönster.  
-- Fönstret **Lagerplockning**.  
-- Fönstret **Lagerinförsel**.
+- Sidan **Lagerförflyttning**.  
+- Sidan **Lagerplockning**.  
+- Sidan **Lagerinförsel**.
 
 > [!NOTE]
 > Även om inställningarna kallas **Begär plockning** och **Begär artikelinförsel**, kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor.  
 
-Att använda dessa fönster med intern operation t.ex för att plocka komponenter och flytta till produktionen, måste du följa några eller alla följande steg, beroende på hur mycket kontrollerar du behöver:  
+Att använda dessa sidor med intern operation t.ex för att plocka komponenter och flytta till produktionen, måste du följa några eller alla följande steg, beroende på hur mycket kontrollerar du behöver:  
 
 - Aktivera lagerplockningen, flytta och artikelinför dokumenten.  
 - Definiera standardlagerplatsstrukturer för komponenter och artiklar, flöde till och från åtgärdsresurser.  
@@ -59,14 +59,14 @@ Procedurerna baseras på att ställa in grundläggande av lageraktiviteter kring
 
 5. På Snabbfliken **Lagerplatser** , i **Från prod.lagerplats - kod** fältet, ange koden för lagerplatsen i produktionsområdet där färdiga slutartiklar tas från som standard, när processen omfattar lageraktiviteter. I grundläggande lagerkonfigurationer registreras aktiviteten som en lagerartikelinförsel eller en lagerförflyttning.  
 
-Nu kräver produktionsorderkomponentrader med standardlagerplatskoden att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerplatsen eftersom de är fortfarande tillgängligt lagerplatsinnehåll. Se till att lagerplatsinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerplatskoden i **Lagerplatser**-fönstret som du öppnar från lagerställekortet.
+Nu kräver produktionsorderkomponentrader med standardlagerplatskoden att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerplatsen eftersom de är fortfarande tillgängligt lagerplatsinnehåll. Se till att lagerplatsinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja sidan **Dedikerad** på raden för den lagerplatskoden i **Lagerplatser**-fönstret som du öppnar från lagerställekortet.
 
 Diagrammet visar hur **Lagerplatskod** på produktionsorderkomponentraderna fylls enligt inställningen.  
 
 ![Flödesschema för lagerplats](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Så här definierar du en standardlagerplatsstruktur i monteringsområdet
-Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Med **lagerförflyttning** fönstret. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Komponenter för monteringsorder kan inte plockas eller bokföras med lagerplockningar. Använd istället sidan **lagerförflyttning**. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Om plockning- och leveransförsäljningsradantal läggs till i order ska du följa vissa regler när du skapar lagerplockningsraderna. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder i lagerplockningar” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ Samma lagerplatskod kopieras i sin tur till fältet **Lagerplatskod** på lagerp
 ## <a name="to-create-dedicated-component-bins"></a>För att du ska kunna göra dedikerade komponentlagerplatser
 Du kan ange att kvantiteter på lagerplatser skyddas från plockning för andra krav än krav från det aktuella syftet.
 
-Antalet i lagerplatserna kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerplatser i fältet **Totalt disponibelt antal** i fönstret **Reservation**.
+Antalet i lagerplatserna kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerplatser i fältet **Totalt disponibelt antal** på sidan **Reservation**.
 
-Till exempel skapas en produktionsgrupp med en lagerplatskod i fältet **Till prod.-lagerplats - kod**. Produktionsorderkomponentrader med den här lagerplatskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerplatsen eftersom de är fortfarande tillgängligt lagerplatsinnehåll. Se till att lagerplatsinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerplatskoden i **Lagerplatser**-fönstret som du öppnar från lagerställekortet.
+Till exempel skapas en produktionsgrupp med en lagerplatskod i fältet **Till prod.-lagerplats - kod**. Produktionsorderkomponentrader med den här lagerplatskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerplatsen eftersom de är fortfarande tillgängligt lagerplatsinnehåll. Se till att lagerplatsinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja sidan **Dedikerad** på raden för den lagerplatskoden i **Lagerplatser**-fönstret som du öppnar från lagerställekortet.
 
 Att dedikera en lagerplats påminner om funktionen att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerplatser](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Artiklar på dedikerade lagerplatser skyddas inte när de plockas och förbrukas som produktionskomponenter med fönstret Lagerplockning.
+> Artiklar på dedikerade lagerplatser skyddas inte när de plockas och förbrukas som produktionskomponenter med sidan Lagerplockning.
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk. Välj lagerstället som du vill uppdatera.  
 2.  Välj åtgärden **Lagerplatser**.  

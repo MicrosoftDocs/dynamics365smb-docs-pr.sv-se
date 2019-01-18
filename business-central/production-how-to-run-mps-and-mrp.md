@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov och produktionsplan
@@ -27,7 +27,7 @@ Begreppen "Skapa inköpsförslageringsförslag" eller "beräkna nettobehov" syft
 
 De planeringsalgoritmer som används för både nettobehov och produktionsplanen är identiska. Planeringsalgoritmerna berör nettobehovsberäkning, återanvändning av befintliga återanskaffningsorder och åtgärdsmeddelanden. Planeringssystemprocessen används för att söka efter vad som behövs eller kommer att behövas (efterfrågan) och vad som finns i lager eller förväntas finnas i lager (tillgång). Åtgärdsmeddelanden skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] när dessa kvantiteter kvittas mot varandra. Åtgärdsmeddelanden innehåller förslag om att skapa en ny order, ändra en orderorder (antal eller datum) eller annullera en order som redan är lagd. Begreppet "order" inbegriper inköpsorder, monteringsorder, produktionsorder och överföringsorder.
 
-Länkar som skapas med planeringsmotorn mellan ett behov och dess relaterade tillgång kan spåras i fönstret **Orderspårning**. Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md).   
+Länkar som skapas med planeringsmotorn mellan ett behov och dess relaterade tillgång kan spåras på sidan **Orderspårning**. Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md).   
 
 Inställningen av artikelkort, monteringsstrukturer, produktionsstrukturer och verksamhetsföljder påverkar i hög grad att planeringsresultaten blir rätt.  
 
@@ -48,17 +48,17 @@ Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Så här beräknar du planeringsförslaget  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Beräkna fullständig plan** för att öppna fönstret **Skapa inköpsförslag**.  
+2.  Välj åtgärden **Beräkna fullständig plan** för att öppna sidan **Skapa inköpsförslag**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Prod.program**|Välj att initialisera beräkningen av ett produktionsprogram. Artiklar med öppna försäljningsorder eller efterfrågeprognoser tas med i beräkningen.|  
-    |**Nettobehov**|Välj att initialisera beräkningen av materialbehovsplaneringen. Artiklar med beroende behov tas med i den här beräkningen. Prod.program och Nettobehov körs normalt samtidigt. Om du vill köra produktionsplanen och nettobehovet samtidigt, måste du markera fältet **Prod.plan./nettobehov** på snabbfliken **Planering** i fönstret **Produktionsinställningar**.|  
+    |**Nettobehov**|Välj att initialisera beräkningen av materialbehovsplaneringen. Artiklar med beroende behov tas med i den här beräkningen. Prod.program och Nettobehov körs normalt samtidigt. Om du vill köra produktionsplanen och nettobehovet samtidigt, måste du markera fältet **Prod.plan./nettobehov** på snabbfliken **Planering** på sidan **Produktionsinställningar**.|  
     |**Fr.o.m.-datum**|Orderdatumet används för att utvärdera lagerdispositionen. Om lagersaldot för en artikel är under beställningspunkten framåtplaneras en återanskaffningsorder automatiskt i systemet från det här datumet. Om saldot för en artikel är under värdet för säkerhetslager (per startdatumet) bakåtplaneras en återanskaffningsorder som förfaller på startdatumet för planeringen.|  
     |**T.o.m.-datum**|Det här är slutdatumet för planeringshorisonten. Varken tillgång eller efterfrågan beaktas efter det här datumet. Om beställningscykeln för en artikel sträcker sig efter slutdatumet, är den giltiga planeringshorisonten för artikeln lika med order datum + beställningscykel.<br /><br /> Planeringshorisonten är den tidsperiod som planen omfattar. Om horisonten är för kort, innebär det att artiklar med en längre ledtid inte beställs i tid. Om den är för lång, innebär det att för mycket tid läggs ned på att granska och bearbeta information som troligtvis förändras innan den behövs. Du kan ange en planeringshorisont för produktion och en längre horisont för inköp, även om detta inte är ett krav. Du bör ställa in en planeringshorisont för inköp och produktion så att den täcker den ackumulerade ledtiden för komponenter.|  
-    |**Stoppa och visa första felet**|Markera om du vill att planeringskörningen ska avslutas så snart den stöter på ett fel. På samma gång visas ett meddelande med information om felet (det första). Om det finns ett fel, kommer endast de planeringsrader som utfördes innan felet påträffades att visas i planeringsförslaget. Om du inte markerar fältet, kommer batchjobbet **Skapa inköpsförslag** att fortsätta köras tills det har slutförts, och eventuella fel kommer inte att avbryta batchjobbet. Om ett eller flera fel inträffar visas ett meddelande när jobbet är klart om hur många artiklar som påverkas. Fönstret **Logg över planeringsfel** öppnas därefter för att visa mer information om felet och länkar till de artikelkort som påverkas.|  
-    |**Använd prognos**|Välj en prognos som ska inkluderas som efterfrågan när batch-jobbet körs. Standardprognosen ställer du in på snabbfliken **Planering** i fönstret **Produktionsinställningar**.|  
+    |**Stoppa och visa första felet**|Markera om du vill att planeringskörningen ska avslutas så snart den stöter på ett fel. På samma gång visas ett meddelande med information om felet (det första). Om det finns ett fel, kommer endast de planeringsrader som utfördes innan felet påträffades att visas i planeringsförslaget. Om du inte markerar fältet, kommer batchjobbet **Skapa inköpsförslag** att fortsätta köras tills det har slutförts, och eventuella fel kommer inte att avbryta batchjobbet. Om ett eller flera fel inträffar visas ett meddelande när jobbet är klart om hur många artiklar som påverkas. Sidan **Logg över planeringsfel** öppnas därefter för att visa mer information om felet och länkar till de artikelkort som påverkas.|  
+    |**Använd prognos**|Välj en prognos som ska inkluderas som efterfrågan när batch-jobbet körs. Standardprognosen ställer du in på snabbfliken **Planering** på sidan **Produktionsinställningar**.|  
     |**Undanta prognos före**|Definiera hur mycket av den valda prognosen som ska inkluderas i planeringskörningen. Detta gör du genom att ange ett datum före i vilket efterfrågan inte inkluderas, och som i sin tur innebär att gammal information inte tas med.|  
     |**Ta hänsyn till planeringsparametrar för undantagsvarningar**|Fältet väljs som standard.<br /><br /> Tillgången på planeringsrader med varningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Du kan dock ange vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar.<br /><br />|  
 
@@ -66,7 +66,7 @@ Med varje planeringsmetod genererar [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 5.  Välj **OK**. Batch-jobbet körs och sedan fylls planeringsförslaget i med planeringsraderna.  
 
 ## <a name="to-perform-action-messages"></a>Så här kan du verkställa åtgärdsmeddelanden  
-1.  I fönstret **Planeringsförslag** väljer du åtgärden **Verkställ åtgärdsmeddelande**.  
+1.  På sidan **Planeringsförslag** väljer du åtgärden **Verkställ åtgärdsmeddelande**.  
 2.  Ange hur du skapar leveranser på snabbfliken **Alternativ**. Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Beskrivning|  

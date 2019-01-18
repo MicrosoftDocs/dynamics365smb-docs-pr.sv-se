@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e732e27921f632c3e15b1d832d7295d32f4b8a2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: aa0d6b76bdf4a7078d7b2e3846d1bdfa3cf08528
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="putting-items-away"></a>Införa utflöde från artiklar
@@ -24,9 +24,9 @@ Lageraktiviteten att införa artiklar efter att de har inlevererats eller produc
 
 Om du vill organisera och registrera införselaktiviteter med distributionslagerdokument markerar du fältet **Begär artikelinförsel** på lagerställekortet. Det indikerar att om du har artiklar som kommer till lagerstället via ett ankommande källdokument, ska införseln av artiklarna hanteras via, och kontrolleras av programmet. Det ankommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en ankommande överföringsorder eller en produktionsorder vars utflöde är klart för artikelinförsel.  
 
-Om lagerstället kräver artikelinförselbearbetning, men inte kräver inleveransbearbetning, använder du fönstret **Lagerartikelinförsel** om du vill organisera eller skriva ut information om artikelinförseln, ange resultat av faktisk artikelinförsel eller bokföra artikelinförselinformation. Om du bokför artikelinförselinformation bokförs i sin tur inleveransinformationen för källdokumentet.
+Om lagerstället kräver artikelinförselbearbetning, men inte kräver inleveransbearbetning, använder du sidan **Lagerartikelinförsel** om du vill organisera eller skriva ut information om artikelinförseln, ange resultat av faktisk artikelinförsel eller bokföra artikelinförselinformation. Om du bokför artikelinförselinformation bokförs i sin tur inleveransinformationen för källdokumentet.
 
-Om lagerstället kräver både inleveransbearbetning och artikelinförselbehandling, så att du har placerat markeringar i både **Begär inleveranser** och **Begär artikelinförsel** på lagerställekortet, finns det en annan process som används för att införa artiklar. I det här fallet ska du använda **Dist.lager artikelinförsel** fönstret att hantera artikelinförsel. Dist.lager artikelinförsel fungerar på samma sätt som Lagerartikelinförsel, förutom att du registrerar artikelinförseln istället för att bokföra informationen. Observera att registrering av artikelinförsel inte bokför inleveransen för artiklarna. Den uppdateras bara lagerplatsinnehåll. Du lagerchef kan du använda ett artikelinförselkalkylark för att organisera artikelinförselinformationen innan du skapar de individuella artikelinförselinstruktionerna.
+Om lagerstället kräver både inleveransbearbetning och artikelinförselbehandling, så att du har placerat markeringar i både **Begär inleveranser** och **Begär artikelinförsel** på lagerställekortet, finns det en annan process som används för att införa artiklar. I det här fallet ska du använda sidan **Dist.lager artikelinförsel** för att hantera artikelinförsel. Dist.lager artikelinförsel fungerar på samma sätt som Lagerartikelinförsel, förutom att du registrerar artikelinförseln istället för att bokföra informationen. Observera att registrering av artikelinförsel inte bokför inleveransen för artiklarna. Den uppdateras bara lagerplatsinnehåll. Du lagerchef kan du använda ett artikelinförselkalkylark för att organisera artikelinförselinformationen innan du skapar de individuella artikelinförselinstruktionerna.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 

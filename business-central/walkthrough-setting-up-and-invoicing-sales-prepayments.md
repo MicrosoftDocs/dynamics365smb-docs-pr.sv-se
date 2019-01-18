@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
@@ -65,11 +65,11 @@ I följande procedurer beskrivs hur Phyllis uppgifter ska utföras:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Så här lägger du upp nummerserier för förskottsbetalningar  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsinställningar** och välj sedan relaterad länk.  
-2.  I fönstret **Försäljningsinställningar** expanderar du snabbfliken **Numrering**.  
+2.  På sidan **Försäljningsinställningar** expanderar du snabbfliken **Numrering**.  
 3.  Kontrollera att nummerserien för bokförda förskottsfakturor i fältet **Försk.fakt.nr.serie (bokförd)** är samma som för bokförda försäljningsfakturor (**Fakturanr-serie (bokförd)**) och att nummerserien för bokförda förskottskreditnotor (**Försk.kredit.nr.serie (bokförd)**) är samma som för bokförda kreditnotor (**Kreditnotenr-serie (bokförd)**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Så här spärrar du utleveranser för obetalda förskottsbetalningar  
-1.  I fönstret **Försäljningsinställningar**, på snabbfliken **Allmänt**, markerar du kryssrutan **Kontrollera förskottsbet. vid bokföring**.
+1.  På sidan **Försäljningsinställningar**, på snabbfliken **Allmänt**, markerar du kryssrutan **Kontrollera förskottsbet. vid bokföring**.
 
     Nu kan du inte utleverera eller fakturera en order med ett obetalt förskottsbetalningsbelopp.  
 
@@ -85,7 +85,7 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 110
 5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
 6.  Öppna kort för kund 1100.
 7.  Välj åtgärden **procentandelar, förskottsbetalning**.  
-8.  Fyll i de två raderna i fönstret **Procentandelar, förskottsbetalning för försäljning** enligt nedan.  
+8.  Fyll i de två raderna på sidan **Procentandelar, förskottsbetalning för försäljning** enligt nedan:  
 
     |**Förs.typ**|**Förs.kod**|**Artikelnr**|**Förskottsbetalning %**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 110
     > [!IMPORTANT]  
     >  Beroende på ditt land/din region måste du också ange en skattegruppskod på snabbfliken **Fakturering** för artiklarna 1000 och 1100.  
 
-9. Stäng alla fönster  
+9. Stäng alla sidor.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Så här kan du skriva in ett konto för utgående förskottsbetalningar i bokföringsinställningarna  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2.  Markera raden där fältet **Gen. rörelsebokföringsmall** anges till **EXPORTERA** och fältet **Produktbokföringsmall** anges till **DETALJ** och välj sedan åtgärden **Redigera**.  
-3.  I fönstret **Bokföringsinställningskort** på fältet **Förskottsbet.konto, försäljning** anger du det relevanta kontot.  
+3.  På sidan **Bokföringsinställningskort** i fältet **Förskottsbet.konto, försäljning** anger du det relevanta kontot.  
 4.  Välj **OK**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Skapa en order som kräver förskottsbetalning  
@@ -126,7 +126,7 @@ Susan skapar en förskottsfaktura och skickar den till kunden.
 
 7. Kontrollera att fältet **Förskottsbetalning %** på raden med artikel **1000** innehåller värdet **30**. Standardvärdet hämtades från försäljningshuvudet som kopierades från kundkortet.  
 
-    Fältet **Förskottsbetalning %** på raden med artikel **1100** innehåller värdet **40**. Det är den procentsats som du angav i fönstret **Procentandelar, förskottsbetalning för försäljning** för artikel **1100** och kund **20000**.  
+    Fältet **Förskottsbetalning %** på raden med artikel **1100** innehåller värdet **40**. Det är den procentsats som du angav på sidan **Procentandelar, förskottsbetalning för försäljning** för artikel **1100** och kund **20000**.  
 
     Mer information finns i [Ange Förskottsbetalningar](finance-set-up-prepayments.md).  
 8. Välj åtgärden **Statistik**.  
@@ -136,14 +136,14 @@ Susan skapar en förskottsfaktura och skickar den till kunden.
 
     > [!IMPORTANT]  
     >  Beroende på ditt land/din region kan följande steg eventuellt inte utföras.  
-10. Ändra värdet i fältet **Radbelopp, förskottsbetalning exkl. moms** till **2 000** och stäng sedan fönstret.  
+10. Ändra värdet i fältet **Radbelopp, förskottsbetalning exkl. moms** till **2 000** och stäng sedan sidan.  
 11. Kontrollera fältet **Förskottsbetalning %** på försäljningsraderna så ser du att det har ändrats till **40,81625**.  
 
     Omräkningen inkluderar alla rader med en procentuell förskottsbetalning som är större än 0.  
 
     Nu frågar kunden om den procentuella förskottsbetalningen kan ändras till 35 %. Susans chef godkänner ändringen.  
 
-12. I fönstret **Förs.order** i fältet **Förskottsbetalning %** anger du **35**.  
+12. På sidan **Förs.order** i fältet **Förskottsbetalning %** anger du **35**.  
 13. Välj **ja** för varningen som visas. En debitering på 35 % används som procentuell förskottsbetalning för hela ordern.  
 14. Bekräfta att raderna har uppdaterats.  
 
@@ -152,7 +152,7 @@ När Susan har angett korrekta värden för förskottsbetalning av ordern skapar
 
 #### <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura  
 
-1.  I fönstret **Försäljningsorder** väljer du åtgärden **Bokför förskottsfaktura**.  
+1.  På sidan **Försäljningsorder** väljer du åtgärden **Bokför förskottsfaktura**.  
 
 > [!NOTE]  
 >  Susan skulle välja **Bokför och skriv ut faktura på förskottsbet.** och skicka fakturan per post till kunden.  
@@ -162,7 +162,7 @@ Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två st
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Så här skapar du ytterligare en förskottsfaktura  
 
-1.  I fönstret **Försäljningsorder** väljer du åtgärden **Öppna igen**.  
+1.  På sidan **Försäljningsorder** väljer du åtgärden **Öppna igen**.  
 2.  På raden för artikel **1100** anger du **2** i fältet **Kvantitet**.  
 
     Bläddra för att visa förskottsfälten. Fältet **Förskottsbetalning exkl. Moms** innehåller nu **630** och **Fakturabelopp, förskottsbetalning exkl. moms** innehåller **315**. Detta visar att det finns ytterligare förskottsbelopp som ännu inte har fakturerats ännu.  
@@ -182,7 +182,7 @@ Kunden betalar förskottsfakturan och Arnie, som arbetar på bokföringsavdelnin
     |**Kontotyp**|**Kund**|  
     |**Kontonr**|**20000**|  
 3. Välj åtgärden **Koppla transaktioner**.  
-4.  I fönstret **Koppla kundtransaktioner** väljer du den första förskottsfakturan och väljer åtgärden **Ange Koppla till ID**.  
+4.  På sidan **Koppla kundtransaktioner** väljer du den första förskottsfakturan och väljer åtgärden **Ange Koppla till ID**.  
 5.  Upprepa det föregående steget för den andra förskottsbetalningen.  
 6.  Välj knappen **OK**.  
 
