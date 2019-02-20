@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
@@ -107,6 +107,22 @@ När du har lagt till alla nödvändiga tabeller i ett konfigurationspaket kan d
 
     > [!NOTE]  
     >  Tabellerna finns kvar i paketet även om de tas bort från kalkylarket.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Så här granskar och anpassar du befintliga databasdata
+När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa tillgängliga databasdata så att dessa stämmer överens med dina kundbehov. Databastabellen måste vara kopplad till en sida.  
+
+## <a name="to-customize-data-in-the-database"></a>Så här kan du anpassa data i databasen  
+
+1.  På sidan **Konfigurationskalkylark**, identifiera tabellerna med data som du vill visa eller anpassa.  
+
+    > [!NOTE]  
+    >  Se till att varje tabell tilldelats ett sid-ID. Som standarden [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell fylls detta värdet i automatiskt. För anpassade tabeller måste du ange ID.  
+
+2.  Välj åtgärden **Databasdata**.  
+
+     Sidan [!INCLUDE[d365fin](includes/d365fin_md.md)] för sidan öppnas.  
+
+3.  Granska den tillgängliga informationen. Ändra den efter behov genom att ta bort transaktioner som inte är relevanta eller lägga till nya.
 
 ## <a name="see-also"></a>Se även  
 [Ställa in företagskonfiguration](admin-set-up-company-configuration.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb288b0b318fefd5b9720516432b6a85bb7347dd
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Bulkfakturering för Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -24,6 +24,14 @@ Om företaget använder appen Bookings i Office 365  kan du göra bulkfakturerin
 För att ansluta ditt [!INCLUDE[d365fin](includes/d365fin_md.md)] med Bookings, måste du ange ditt Bookings-företag, vad som ska synkroniseras med Bookings, hur ofta du vill synkronisera och vilka mallar du vill använda. Du kan ställa in informationen på sidan **Inställningar av Bookings-synkning** som du kan starta från sidan **Inställningar för Exchange-synkning** som du hittar genom [söka](ui-search.md).  
 
 Till exempel om du vill synkronisera kunder mellan Bookings och [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du ange standardmallen för att lägga till nya kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)] baserat på kunder i ditt Bookings-företag.  
+
+> [!NOTE]
+> Appen Bokningar är utformad för att boka möten för enskilda kunder, snarare än företag. Synkronisering med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan därför endast synkronisera kundkontakter med en typ av ”Person”. En e-postadress krävs också för att synkronisera kontakten.  
+
+På liknande sätt, om du till exempel vill synkronisera kunder mellan Bookings och [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du ange standardmallen för att lägga till nya serviceartiklar i [!INCLUDE[d365fin](includes/d365fin_md.md)] baserat på kunder i ditt Bookings-företag.  
+
+> [!NOTE]
+> Endast objekt av typen *Service* synkroniseras mellan Bookings och [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den mall som du har skapat på sidan **Konfigurationsmallar** så att den kan användas för artikelsynkroniseringen måste ange typen som *Service*.
 
 ## <a name="invoice-appointments"></a>Fakturera möten
 När det är dags att skicka fakturor för slutförda bokningar kan du gå till sidan **Ofakturerade bokningar**. Beroende på hur ofta informationen är synkroniserad, är listan lång eller kort. Du kan skapa fakturor för alla bokningar i listan eller en bokning i taget. Du kan markera en eller flera poster i listan och fakturera sådana.  

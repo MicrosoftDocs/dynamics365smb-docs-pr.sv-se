@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
@@ -50,8 +50,8 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
     |---------------------------------|---------------------------------------|  
     |**Kod**|Registrera en kod som identifierar definitionen för datautbyte.|  
     |**Namn**|Ange ett namn på definitionen för datautbyte.|  
-    |**Filtyp**|Ange vilken typ av fil definitionen för datautbytet används för. Du kan välja mellan tre filtyper:<br /><br /> -   **XML**: Överlappande strängar med innehåll och pålägg omgivna av taggar som anger funktionen.<br />-   **Variabel text**: Transaktioner har variabel längd och avskiljs av ett tecken, t.ex. komma eller semikolon\-. Kallas även *avgränsad fil*.<br />-   **Fast text**: Transaktioner har samma längd, med hjälp av utfyllnadstecken, och varje transaktion uttrycks på en egen rad. Kallas även *fil med fast bredd*.|  
-    |**Typ**|Ange vilken typ av affärsaktivitet definitionen för datautbyte används till, till exempel **Betalningsexport**.|  
+    |**Filtyp**|Ange vilken typ av fil definitionen för datautbytet används för. Du kan välja mellan fyra filtyper:<br /><br /> -   **XML**: Överlappande strängar med innehåll och pålägg omgivna av taggar som anger funktionen.<br />-   **Variabel text**: Transaktioner har variabel längd och avskiljs av ett tecken, t.ex. komma eller semikolon\-. Kallas även *avgränsad fil*.<br />-   **Fast text**: Transaktioner har samma längd, med hjälp av utfyllnadstecken, och varje transaktion uttrycks på en egen rad. Kallas även *fil med fast bredd*.<br />- **Json**: överlappande innehållsträngar i JavaScript.|  
+    |**Radtyp**|Ange vilken typ av affärsaktivitet definitionen för datautbyte används till, till exempel **Betalningsexport**.|  
     |**Kodenhet för datahantering**|Ange den kodenhet som överför data till och från tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Kodenhet för validering**|Ange den kodenhet som används för att verifiera data mot fördefinierade affärsregler.|  
     |**Kodenhet för läsning/skrivning**|Ange den kodenhet som behandlar importerade data före mappningen och exporterade data efter mappningen.|  

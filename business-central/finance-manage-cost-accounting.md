@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f74d8cb6c2c42b3b928a59655bf3ced62d59258
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 86268549bbf5d133b2d077b69507cf1b6a3617a3
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="accounting-for-costs"></a>Redovisa kostnader
@@ -26,10 +26,12 @@ Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att 
 |--------|---------|  
 |Förstå terminologin som används i kostnadsredovisning.|[Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)|  
 |Få en förståelse för kostnadsredovisning.|[Om kostnadsredovisning](finance-about-cost-accounting.md)|  
-|Lär dig hur du ställer in kostnadsredovisning.|[Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)|  
-|Lär dig överföring av redovisningstransaktioner till kostnadstransaktioner.|[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)|  
-|Lär dig att definiera och fördela kostnader.|[Definiera och fördela kostnader](finance-define-and-allocate-costs.md)|  
-|Lära dig att skapa kostnadsbudgetar.|[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)|  
+|Konfigurera systemet för kostnadsredovisning.|[Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)|  
+|Överföra redovisningstransaktioner till kostnadstransaktioner|[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)|  
+|Fördela kostnader.|[Definiera och fördela kostnader](finance-define-and-allocate-costs.md)|  
+|Lära dig att skapa kostnadsbudgetar.|[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)|
+|Avbryta kostnadstransaktioner från journaler för kostnadsbudget.|[Ta bort kostnadsbudgettransaktioner](finance-how-to-delete-cost-budget-entries.md)| 
+
 
 ## <a name="see-also"></a>Se även  
 [Ekonomi](finance.md)  

@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ced98b3c63f1e0f99514590f361e34968ee8d9ac
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: bbab97bbe4591749943c8f1457e6a03e8d6847a8
 ms.contentlocale: sv-se
 
 ---
-Redovisningsjournalen visar endast ett begränsat antal fält på journalraden som standard. Om du vill visa ytterligare fält såsom fältet **Stämma av generell produktbokföringsmall**, välj åtgärden **Sida** i navigeringsrutan, och välj sedan **visa fler kolumner**. Om du vill dölja ytterligare fält igen, välj **visa färre kolumner**.  
+Redovisningsjournalen visar endast ett begränsat antal fält på journalraden som standard. Om du vill visa ytterligare fält såsom fältet **kontotyp**, välj åtgärd **visa fler kolumner**. Om du vill dölja ytterligare fält igen, välj åtgärden **visa färre kolumner**.  
 

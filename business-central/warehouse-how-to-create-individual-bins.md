@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="create-bins"></a>Skapa lagerplatser
@@ -26,7 +26,17 @@ Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerplatser**  
 3. Välj åtgärden **Ny**.
-4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="the-dedicated-field"></a>Fältet Dedikerad
+Fältet **Dedikerad** på sidan **Lagerplatser** anger att kvantiteterna på lagerplatsen är skyddade från att plockas för andra behov. Men kvantiteterna i lagerplatserna kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerplatser i fältet **Totalt disponibelt antal** på sidan **Reservation**.
+
+Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande lagerstyrning att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerplatser](warehouse-how-to-set-up-bin-types.md).
+
+**Exempel:** En produktionsgrupp med en lagerplatskod i fältet **Till prod.-lagerplats - kod**. Produktionsorderkomponentrader med den här lagerplatskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerplatsen eftersom de är fortfarande tillgängligt lagerplatsinnehåll. Se till att lagerplatsinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerplatskoden.
+
+> [!Caution]
+> Artiklar på dedikerade lagerplatser skyddas inte när de plockas och förbrukas som produktions- eller monteringskomponenter med sidan **Lagerplockning**. Mer information finns i [Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerplatser i lagerplatsuppläggningskalkylark:  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  

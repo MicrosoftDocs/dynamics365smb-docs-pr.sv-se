@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Så här skapar du anpassade konfigurationspaket för företag
@@ -39,11 +39,10 @@ En annan metod är att skapa ett paket som innehåller tabellerna för definitio
 -   Bokföringsinställningar för moms  
 -   Lagerbokföringsinställning  
 
-För att se en komplett lista över inställningstabeller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **inställningar** och välj sedan relaterad länk.  
+För att se en komplett lista över inställningstabeller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Manuell inställning** och välj sedan relaterad länk.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Så här skapar du ett anpassat konfigurationspaket för företag  
-1.  Skapa en ny [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***INTE MÖJLIGT Länk till hjälp för ”Skapa en ny klientorganisation***.   
-2.  Skapa ett nytt företag bransch- eller lösningsmallen. För mer information, se [Skapa ett nytt företag](admin-how-to-create-a-new-company.md).  
+1.  Skapa ett nytt företag. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).  
 3.  Ställ in det nya företaget efter behov. Fyll i alla inställningstabeller som behövs.  
 4.  Öppna det nya företaget.
 5. Öppna sidan **Konfigurationsformulär**.  

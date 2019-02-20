@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Hantera lagerkostnader
@@ -29,6 +29,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
 |Läs information om olika begrepp för att förstå principerna och definitionerna som styr lagerkostnadsredovisningsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om Lagerkostnad](finance-learn-about-costing.md)|  
+|Lär dig om alla funktioner i kostnadssystemet.|[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)|
 |läsa om hur ett företag kan använda lagerperioder för att kontrollera lagervärdet över tid genom att definiera kortare perioder som kan stängas för bokföring under räkenskapsårets gång.|[Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)|
 |veta varför standardkostnader ofta används av produktionsföretag som värderingsbas för komponenter och slutartiklar.|[Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)|
 |Ställ in lagerperioder, värderingsprinciper och avrundningsmetoder.|[Ställa in lagervärdering och lagerkostnad](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,7 +39,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Du måste regelbundet uppdatera standardkostnader för komponenter i monterings- eller produktionsstrukturer och överföra de nya kostnaderna till den överordnade artikeln.|[Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)|
 |Visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.|[Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)|
 |utföra kontroll- och rapporteringsuppgifter vid periodslut, till exempel beräkna lagervärdet och bokföra kostnader i redovisningen.|[Rapportera kostnader och stämma av med redovisningen](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Lär dig om alla funktioner i kostnadssystemet.|[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se även  
  [Ekonomi](finance.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
@@ -42,12 +42,19 @@ I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. (Mer i
 7. Upprepa steg 5–6 tills du har angett alla budgetbeloppen.  
 
 > [!NOTE]  
->  På snabbfliken **Filter** kan du filtrera budgetinformationen beroende på hur många budgetdimensioner som definierats under budgetnamnet.   
+>  På snabbfliken **Filter** kan du filtrera budgetinformationen beroende på hur många budgetdimensioner som definierats under budgetnamnet.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportera och importera redovisningsbudgetar i Excel
+För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten till Excel för vidare bearbetning och analys. Mer information finns i [Exportera dina affärsdata till Excel](about-export-data.md).
+
+> [!NOTE]
+> Kontoplanen som redovisningsbudgetarna baseras på, har rader för kontotypen Rubrik som innehåller där summan av raderna under. När du exporterar en redovisningsbudget exporteras data på alla rader oavsett kontotypen. Men endast data på rader med kontotypen Bokföring kan importera data igen. I enlighet med detta: <br /><br /> **När du importerar en redovisningsbudget tas alla värden som fanns på Rubrikrader bort.** <br /><br /> Detta är för att undvika fel summor när du har importerat data som har skapats eller redigerats i Excel.<br /><br /> **Scenario**: du vet att nya budgeterade lönkostnader ska vara BVA 1 200 000. Du vill att budget för löneavdelningen för tre specifika rader (av kontotypen Bokföring) för heltidsanställda, deltidsanställda och timanställda. De tre raderna grupperas under rubrikraden Löner.<br /><br />Du anger 1 200 000 på rubrikraden, exporterar budget till Excel och skickar sedan den till löneavdelningen och ber dem distribuera BVA 1 200 000.<br /><br /> Löneavdelningen fördelar beloppet på tre bokföringskonton. När du importerar tillbaka till redovisningsbudget fylls de tre kontona i med den nya Excel-informationen och summerar till BVA 1 200 000 och rubrikraden är tom.
 
 ## <a name="see-also"></a>Se även
+[Exportera affärsdata till Excel](about-export-data.md)  
 [Ekonomi](finance.md)  
 [Affärsstöd](bi.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Redovisningen och kontoplanen](finance-general-ledger.md)  
+redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

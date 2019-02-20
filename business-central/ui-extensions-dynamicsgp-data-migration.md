@@ -12,14 +12,14 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
+ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
+ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
 ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/30/2019
 
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Tillägget Dynamics GP datamigrering 
-Detta tillägg gör det enkelt att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP [!INCLUDE[prodshort](includes/prodshort.md)]. Om ditt företag använder Dynamics GP i dag, kan du exportera nödvändiga poster och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[prodshort](includes/prodshort.md)]. Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
+Detta tillägg gör det enkelt att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP [!INCLUDE[prodshort](includes/prodshort.md)]. Om ditt företag använder Dynamics GP i dag, kan du exportera nödvändiga poster och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[prodshort](includes/prodshort.md)]. Tillägget Migrering fungerar för alla versioner av Microsoft Dynamics GP. Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportera data från Dynamics GP
 Du måste ha exporterat några av dina befintliga kunder, leverantörer, lagerartiklar och redovisningskonton med hjälp av funktionen dataexport i Dynamics GP. Du kan välja följande typer när du väljer data som ska exporteras:

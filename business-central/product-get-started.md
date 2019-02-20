@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ För några snabba tips, se:
 
 Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md). För en översikt över aktuell kapacitet och det som komme, se vår översikt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md). En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Viktig information om Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollcenter
 Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
@@ -69,9 +69,17 @@ Funderar du på att prenumerera? Du kan enkelt byta från demonstrationsföretag
 
 Om du vill skapa ett företag för att testa saker går du till menyn **Mina inställningar** i det övre högra hörnet och ändrar företag till **mitt företag**. Logga ut från [!INCLUDE[d365fin](includes/d365fin_md.md)] och logga sedan in igen för att ändringen ska börja gälla. En assisterade konfigurationsguide hjälper dig att ange grundläggande information om företaget. När detta är klart kan du utforska rollcentret och hitta åtgärden **Assisterad konfiguration**.  
 
-Du kan också söka efter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här](https://www.microsoft.com/en-us/solution-providers/search).
+Du kan också söka efter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
 
-## <a name="ready-to-subscribe"></a>Klar att prenumerera?
+## <a name="getting-answers-to-questions"></a>Få svar på frågor
+
+Om du inte vet hur man gör något i [!INCLUDE[d365fin](includes/d365fin_md.md)], hittar du förhoppningsvis svaret antingen från att läsa beskrivningen för det fält som du är osäker om, eller genom att läsa innehållet genom att öppna länken *Läs mer* i knappbeskrivningar. Du kan också öppna dokumentationen genom att välja relaterad länk på Hjälp-menyn.  
+
+Alla fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] beskrivs i knappbeskrivningar. Du kan använda knappbeskrivningar genom att välja namnet på fältet. Till exempel på en sida som **kundkort**, välj namnet på fältet om du vill läsa knappbeskrivningen för. På en lista som **kunder** eller raderna i ett dokument, till exempel försäljningsorder, måste du välja den nedrullningsbara menyn till höger om namnet på kolumnen och sedan menyobjektet **Förklaring?**.  
+
+Om du har fler frågor rekommenderas att du frågar gruppen eller kontaktar din återförsäljare. Mer information finns i [Vart vänder jag mig om jag har frågor?](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>Vill du börja prenumerera?
 Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här ](https://www.microsoft.com/en-us/solution-providers/search). Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
@@ -86,7 +94,7 @@ Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
 [Dynamics 365-dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Viktig information om Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

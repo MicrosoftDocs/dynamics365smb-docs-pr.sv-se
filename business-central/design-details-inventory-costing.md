@@ -11,10 +11,10 @@ ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 857bb571566f6c20faa5074ef0c81d4ca1f6033b
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
 ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
@@ -38,6 +38,7 @@ Lagervärdering, kallas även kostnadshantering, används vid registrering och r
 [Designdetaljer: Bokföring av produktionsorder](design-details-production-order-posting.md)  
 [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 [Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)  
-[Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)  
+[Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)
+[Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)  
 [Designdetaljer: Omvärdering](design-details-revaluation.md)
 

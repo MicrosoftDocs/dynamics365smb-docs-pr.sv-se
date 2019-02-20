@@ -1,6 +1,6 @@
 ---
-title: "Designdetaljer - Disposition av artikelspårning | Microsoft Docs"
-description: "Det här avsnittet beskriver hur du ser till att de personer som behandlar beställningar kan lita på tillgängligheten av serie- eller partinummer."
+title: "Designdetaljer - Artikelspårning i distributionslagret | Microsoft Docs"
+description: "Hantering av serienummer- eller partinummerbruk är främst en distributionslageruppgift, och därför har alla ankommande och avgående distributionslagerdokument standardfunktioner för att tilldela och välja artikelspårningsnummer. Men eftersom reserveringssystemet baseras på artikeltransaktioner stöds inte lageraktivitetsdokument som bara registrerar distributionslagertransaktioner helt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,40 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 10/01/2018
+ms.date: 01/15/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fcdfc219f94462048474acdef259f671e1c8a402
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="design-details-item-tracking-availability"></a>Designdetaljer: Disposition av artikelspårning
-Sidorna **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynamisk dispositionsinformationen för serie-/partinummer. Avsikten med detta är att öka transparensen för användare på avgående dokument, t.ex. försäljningsorder, genom att visa dem vilka serienummer eller hur många enheter av partinumret som för närvarande tilldelas på andra öppna dokument. Det minskar osäkerhet som orsakas av dubbel fördelning, och gör att orderhandläggarna kan känna sig säkra på att artikelspårningsnumren och datumen som utlovas på försäljningsorder som inte har bokförts kan uppfyllas. Mer information finns i [Designdetaljer: Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md).  
+# <a name="design-details-item-tracking-in-the-warehouse"></a>Designdetaljer: Artikelspårning i distributionslagret
+Hantering av serienummer- eller partinummerbruk är främst en distributionslageruppgift, och därför har alla ankommande och avgående distributionslagerdokument standardfunktioner för att tilldela och välja artikelspårningsnummer.  
 
-När du öppnar sidan **Artikelspårningsrader** hämtas tillgänglighetsdata från tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. När du väljer fältet **Serienr** eller fältet **Partinr** öppnas sidan **Artikelspårning sammandrag** och en översikt av informationen om artikelspårning visas i tabellen **Reservationstransaktion**. Översikten innehåller följande information om varje serie- eller partinummer på artikelspårningsraden:  
+Men eftersom reserveringssystemet baseras på artikeltransaktioner stöds inte lageraktivitetsdokument som bara registrerar distributionslagertransaktioner helt. Eftersom reservationer och artikelspårningsnummer endast kan hanteras på lagerställenivå, och inte på lagerplats- och zonnivå, kan sidan **Artikelspårningsrader** inte öppnas från distributionslageraktivitetsdokument. Samma gäller för sidan **Reservation**.  
 
-|Fält|Beskrivning|  
-|---------------------------------|---------------------------------------|  
-|**Totalt antal**|Det totala antalet av det parti- eller serienummer som för närvarande finns i lager.|  
-|**Totalt begärt antal**|Det totala antalet av det parti- eller serienummer som för närvarande har beställts i alla dokument.|  
-|**Aktuellt pågående antal**|Antalet som anges i aktuell instans av sidan **Artikelspårningsrader** men som inte ännu har skickats till databasen.|  
-|**Totalt disponibelt antal**|Antalet av serie- eller partinumret som är tillgängligt för användaren att begära.<br /><br /> Antalet beräknas från andra fält på sidan enligt följande:<br /><br /> totalt antal – (totalt begärt antal + aktuellt pågående antal).|  
+När ett serie- eller partinummer har lagts till i en artikel på en lagerplats kan det flyttas och grupperas fritt i distributionslagret med en oberoende artikelspårningstruktur som är orelaterad till reservationsystemet. Fälten **Serienr** och **Partinr** nås direkt på distributionslagerdokumentrader. När serie- eller partinumret senare ingår i avgående bokföring, synkroniseras det med reservationssystemet som en del av vanlig lagerplatsjustering. Mer information finns i [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
 
-> [!NOTE]  
->  Du kan också se information i den föregående tabellen med hjälp av funktionen **Markera transaktioner** på sidan **Artikelspårningsrader**.  
-
-För att bevara databasprestanda hämtas tillgänglighetsdata bara en gång från databasen när du öppnar sidan **Artikelspårningsrader** och använder funktionen **Uppdatera tillgänglighet** på sidan.  
-
-## <a name="calculation-formula"></a>Beräkningsformel  
-Som beskrivs i föregående tabell beräknas tillgängligheten av ett visst serie- eller partinummer så här:  
-
-* totalt disponibelt antal = antal i lager – (alla behov + antal som ännu inte allokerats till databasen)  
-
-> [!IMPORTANT]  
->  Följande formel betyder att dispositionsberäkningar för serie- eller partinummer endast beaktar lager och ignorerar planerade inleveranser. Leveranser som inte ännu har bokförts till lagret påverkar inte artikelspårningsdisposition, i motsats till vanlig artikeldispositionen där planerade inleveranser inkluderas.  
+Däremot beaktar reservationssystemet distributionslageraktiviteter när det beräknar disposition. Till exempel kan artiklar som tilldelats till plockningar, eller som registrerats som plockade,, inte reserveras. Mer information finns i [Designdetaljer: disposition i distributionslagret](design-details-availability-in-the-warehouse.md).
 
 ## <a name="see-also"></a>Se även  
-[Designdetaljer: Objektspårning](design-details-item-tracking.md)
+[Designdetaljer: Artikelkoppling](design-details-item-tracking.md)  
+[Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
+[Designdetaljer - Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
+[Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)
 

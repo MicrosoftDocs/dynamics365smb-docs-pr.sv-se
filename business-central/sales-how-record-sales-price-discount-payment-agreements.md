@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2018
+ms.date: 11/28/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
@@ -114,16 +114,30 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
 
 ## <a name="to-copy-sales-prices"></a>Så här kopierar du försäljningspriser  
-Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**.  batch-jobb. Du hittar batch-jobbet på sidan **Försäljningsprisförslag**.    
+Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**.  batch-jobb. Du hittar en åtgärd för batch-jobbet på sidan **Försäljningsprisförslag**.    
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningspris ändringsformulär** och välj sedan relaterad länk.  
 2.  Välj **Föreslå förs.pris i ändringsformulär** .  
 3.  På snabbfliken **Förs.priser** fyller du i fälten **Förs.typ** och **Förs.kod** för de försäljningspriser som du vill kopiera.  
 4.  I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
-5.  Om du vill skapa nya priser med batch-jobbet markerar du fältet **Skapa nya priser**.  
-6.  Klicka på **OK** för att fylla i raderna på sidan **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda **försäljningstypen**.  
+5.  Om du vill skapa nya priser med batch-jobbet markerar du kryssrutan **Skapa nya priser**.  
+6.  Klicka på knappen **OK** för att fylla i raderna på sidan **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda försäljningstypen.  
 
 > [!NOTE]  
+>  Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dem, d.v.s. infoga dem i **Förs.priser** väljer du åtgärden **Implementera prisändring** på sidan **Försäljningsprisförslag**.
+
+## <a name="to-bulk-update-item-prices"></a>Så här uppdaterar du flera artikelpriser samtidigt   
+Om du vill uppdatera priser i bulk, till exempel ökar alla priser med vissa procentsats måste du köra **Föreslå artikelpris i förslag.**  batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.     
+
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningspris ändringsformulär** och välj sedan relaterad länk.   
+2.  Välj **Föreslå artikelpris i förslag** .   
+3.  På snabbfliken **Artikel** fyller du i fältet **Artikelnr.** eller **Lagerbokföringsmall** eller andra fält med de ursprungliga artikelpriser som du vill uppdatera.   
+4.  I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.
+5.  Om du vill att batch-jobbet ska föreslå artikelpriset automatiskt anger du justeringen i fältet **justeringsfaktor**. Du kan till exempel ange 1,15 i **justeringsfaktor** för 15 % ökning av artikelpris.  
+6.  Om du vill skapa nya priser med batch-jobbet markerar du fältet **Skapa nya priser**.   
+7.  Klicka på **OK** för att fylla i raderna på sidan **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda **artikel**.   
+
+> [!NOTE]   
 >  Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Förs.priser**, kan du använda batch-jobbet **Implementera prisändring** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** på sidan **Försäljningspris ändringsformulär**.
 
 ## <a name="see-also"></a>Se även

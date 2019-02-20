@@ -1,6 +1,6 @@
 ---
-title: Kortkommandon
-description: "Lista över kortkommandon för navigering i listor."
+title: "Snabbguide för kortkommandon på tangentbord"
+description: "En utskriftsvänlig referensmall som innehåller de vanligaste kortkommandona."
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
-ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="keyboard-shortcuts-quick-reference"></a>Snabbguide för kortkommandon på tangentbord
 
 ||||  
-|----------------|-----------|----------------| 
+|----------------|-----------|----------------|
 |**Allmänt**|Alt+Q<br />Alt+Upp<br />Tabb<br />Skift+Tabb<br />Alt+nedpil<br />Alt+Högerpil<br />F5/Ctrl+F5<br />Esc|Öppna **Berätta**<br />Öppna knappbeskrivning eller valideringsfel<br />Flytta fokus till nästa kontroll<br />Flytta fokus till föregående kontroll<br />Öppna en listruta eller ett uppslag<br />Se transaktioner för det beräknade värdet<br />Uppdatera/läs in sidan.<br />Stäng den aktuella sidan eller listan.|
 |**Navigera och markera rader**| Home/End<br />Ctrl+Home/End <br />Ctrl+Upp/ned<br />Ctrl+A <br />Ctrl+Blanksteg<br />Ctrl/Shift+Klick<br />Ctrl+Shift+Home/End<br />Shift+Upp/ned<br />Shift+Page Up/Down<br />Ctrl+Enter| Gå till första/sista fältet<br />Gå till första/sista raden<br />Navigera utan att förlora markeringar<br />Markera allt<br />Växla radmarkering<br /> Lägg till rad/rader i markeringen<br />Utvidga markering till första/sista raden<br />Lägga till rad ovanför/nedanför markering<br />Lägg till alla synliga rader ovanför/nedanför markeringen<br />Fokusera ut från listan|
 |**Kopiera och klistra in**|Ctrl+C<br />Ctrl+V<br />F8|Kopiera rader<br />Klistra in rader<br />Kopiera fält ovan till aktuell rad|

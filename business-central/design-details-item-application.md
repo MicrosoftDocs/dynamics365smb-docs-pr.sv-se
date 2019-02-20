@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
@@ -93,9 +93,9 @@ Om en fast koppling ska skapas använder du fältet **Koppla till artikellöpnr*
 ### <a name="example--fixed-application-in-purchase-return"></a>Exempel – Fast koppling i inköpsretur  
 Följande exempel, som visar effekten av fast koppling på en inköpsretur av en artikel som använder FIFO-värderingsprincipen, baseras på följande scenariot:  
 
-1. I löpnummer 1 bokför användaren ett inköp till en kostnad av BVA 10,00.  
-2. I löpnummer 2 bokför användaren ett inköp till en kostnad av BVA 20,00.  
-3. I löpnummer 3 bokför användaren en inköpsretur. Användaren skapar en fast koppling till det andra köpet genom att ange löpnumret för artikeltransaktionen i fältet **Koppla till artikellöpnr** på inköpsreturorderraden.  
+1. I transaktionen 1 bokför användaren ett inköp till en kostnad av BVA 10,00.  
+2. I transaktionen 2 bokför användaren ett inköp till en kostnad av BVA 20,00.  
+3. I transaktionen 3 bokför användaren en inköpsretur. Användaren skapar en fast koppling till det andra köpet genom att ange löpnumret för artikeltransaktionen i fältet **Koppla till artikellöpnr** på inköpsreturorderraden.  
 
 Följande tabell visar artikeltransaktioner som är resultatet av scenariot.  
 
@@ -111,7 +111,7 @@ Följande tabell visar den artikelkopplingstransaktion som härrör från den fa
 
 |Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 Kostnaden för det andra inköpet, 20,00 BVA, överförs då på ett korrekt sätt till inköpsreturen.  
 

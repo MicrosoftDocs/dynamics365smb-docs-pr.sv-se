@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
+ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
+ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Ändra vilka funktioner som visas
@@ -35,7 +35,7 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 | **Premium** |Visar alla åtgärder och fält för alla företagsfunktioner, till exempel produktion och service.|
 
 > [!NOTE]  
-> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365. Se även [[!INCLUDE[d365fin](includes/d365fin_md.md)] Liicensieringsguiden](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365. Se även [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensieringsguide](https://go.microsoft.com/fwlink/?linkid=2068931) (kräver åtkomst till CustomerSource eller PartnerSource).
 
 > [!IMPORTANT]  
 > Alla vanliga användare i en lösning måste tilldelas samma plan Essential eller Premium, innan den miljön kan väljas för företaget. En användare kan inte därmed öppna Premium-funktioner om en eller flera användare kan endast åtkomst Essential-funktioner. Detta gäller inte för ej vanliga användare av typen gruppmedlem, intern administration, extern revisor och delegerad administratör, som var och en tilldelas ett annat schema än andra användare i lösningen.

@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ Du kan avsluta ditt konto på sidan Arbete- och skolsekretess och du kan även a
 Du kan fortfarande markera personer som blockerats på grund av sekretess- och export, redigera eller ta bort transaktioner enligt beskrivningen på annat ställe i den här artikeln.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportera Data från tabeller som inte klassificeras av registrerade
-Om det finns en situation där du måste exportera data som inte klassificeras på ett sätt så att den exporteras automatiskt, till exempel data från tabellen profilsvar måste du göra följande: 
--   Beakta om du verkligen vill eller behöver exportera dessa ytterligare data som inte är relaterad till kontakten, vilket innebär att den har någon direkt inverkan på den 
+Om det finns en situation där du måste exportera data som inte klassificeras på ett sätt så att den exporteras automatiskt, till exempel data från tabellen profilsvar måste du göra följande:
+-   Beakta om du verkligen vill eller behöver exportera dessa ytterligare data som inte är relaterad till kontakten, vilket innebär att den har någon direkt inverkan på den
 -   Lägg till den här tabellen och relationen manuellt till snabbstartpaketet och exportera direkt från snabbstartpaketet – det är därför vi skapar ett snabbstartpaketet åt dig, så att du kan ändra den i situationer som den här.
 
 ## <a name="handling-data-about-minors"></a>Hantera data om minderåriga

@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ Kortkommandona stöds av de flesta webbläsare, beteendet kan dock variera någo
 
 Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.
 
-De flesta av dessa kortkommandon är desamma oavsett om operativsystemet är Windows eller macOS. Det finns dock några kortkommandon som är olika för macOS. Dessa anges i parantesen i tabellerna i följande avsnitt.
+De flesta av dessa genvägar är desamma oavsett om operativsystemet är Windows- eller macOS. Det finns dock några kortkommandon som är olika för macOS. Dessa anges i parantesen i tabellerna i följande avsnitt.
 
 ##  <a name="Keyboard"></a> Allmänna kortkommandon
 I följande tabell beskrivs kortkommandon för navigering och åtkomst till olika delar av en sida, till exempel åtgärder, listrutor, sökningar och mycket mer. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
@@ -52,7 +52,7 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
 I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. Genvägsåtgärden skiljer sig något beroende på om sidan visas som listvy eller sida vid sida.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |Anmärkningar|
 |-----------------|-------|-------|-------|
-|Uppil|Flytta till fältet i raden ovanför i samma kolumn| I samma kolumn, flytta till panelen i raden ovanför  |  | 
+|Uppil|Flytta till fältet i raden ovanför i samma kolumn| I samma kolumn, flytta till panelen i raden ovanför  |  |
 |Nedpil|Flytta till fältet i raden nedanför i samma kolumn. |I samma kolumn, flytta till panelen i raden nedanför. | |
 |Högerpil|I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista.| Flytta till nästa ändringsbara panel till höger i samma rad. ||
 |Vänsterpil|I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista.| Flytta till föregående panel till vänster i samma rad. ||
@@ -71,7 +71,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |End<br />(Fn+högerpil)|Flytta till det sista fältet i raden.|Flytta till den sista panelen i raden.||
 |Page Up<br />(Fn+uppåtpil)|Rullar för att visa uppsättningen med rader ovanför den aktuella raden i vyn. |Rullar för att visa uppsättningen med paneler ovanför den aktuella panelen i vyn. ||
 |Page Down<br />(Fn+nedpil)|Rullar för att visa uppsättningen med rader nedanför den aktuella raden i vyn.|Rullar för att visa uppsättningen med paneler nedanför den aktuella panelen i vyn.||
-|Enter<br />(Fn+nedpil)|Öppna posten som är associerad med fältet.|Posten öppnas.| Endast relevant om en sida med kort associerad med posten.|
+|Enter|Öppna posten som är associerad med fältet.|Posten öppnas.| Endast relevant om en sida med kort associerad med posten.|
 |Ctrl+Enter|Flytta fokus till nästa element utanför listan.|Flytta fokus till nästa element utanför listan.||
 
 ### <a name="CopyRows"></a>Markera, kopiera och klistra in
@@ -104,7 +104,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |Shift+Alt+F3|Öppnar filterfönstret och lägger till ett filter för den markerade kolumnen i listan. Fokus är på det nya filterfältet som börjar skriva filterkriterierna direkt.<br /><br /> Detta innebär att välja **Filter** från kolumnrubriken. menyn. Visar filterrutan, lägger till filtret, ställer in fokus på det så att användaren kan ange ett värde att filtrera efter.<br /><br />Om det redan finns ett filter i fältet, läggs ett nytt filter till. |
 |Ctrl+Shift+Alt+F3|Återställer filter. Detta är detsamma som att välja **Återställ filter** i filterrutan och kopplar det till fält och totala filter.<br /><br /> Filter återgår till standardfilter för den aktuella vyn. Om den aktuella vyn är **alla** motsvarar detta att återvända till en ofiltrerad vy med alla poster. |
 |Ctrl+Enter|Går tillbaka till listan från filterrutan.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Kortkommandon i kalendern (datumväljare)
 När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
 

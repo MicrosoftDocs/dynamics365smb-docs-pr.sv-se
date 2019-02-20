@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
@@ -27,7 +27,7 @@ På avropsordern kan varje separat leverans anges som en orderrad som sedan kan 
 Ett exempel på en situation där en avropsorder kan användas är om en kund beställer 1 000 enheter av en artikel och vill att 250 artiklar åt gången ska levereras en gång i veckan under den kommande månaden.
 
 > [!NOTE]
-> Inköpsavropsorder fungerar på samma sätt som en försäljningsavropsorder. Denna dokumentation täcker inte inköpsavropsorder.
+> Inköpsavropsorder fungerar på samma sätt som en försäljningsavropsorder. Den här dokumentationen visar endast försäljningsavropsorder.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Så här skapar du en avropsorder  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Förs.avropsorder** och välj sedan relaterad länk.  
@@ -38,7 +38,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Så här skapar du en försäljningsorder från en avropsorder  
 
-1.  Om du vill skapa en order för någon av raderna i monteringsordern för avrop tar du bort antalet i fältet **Levereras antal** för alla de rader som du INTE vill leverera just nu.  
+1.  Om du vill skapa en order för någon av raderna i försäljningsavropsorder tar du bort antalet i fältet **Levereras antal** för alla de rader som du INTE vill leverera just nu.  
 2.  När du vill börja skapa order väljer du åtgärden **Skapa order** och väljer sedan **Ja**. Du får ett meddelande om att avropsordern har tilldelats ett ordernummer. Observera att avropsordern inte har tagits bort.  
 3.  Välj knappen **OK**.  
 4.  På snabbfliken **Rad** väljer du åtgärden **Ej bokförda rader** och sedan väljer du åtgärden **Order**.  
@@ -55,17 +55,17 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 - Den fakturerade försäljningsavropsordern finns kvar i systemet tills den tas bort, antingen genom att enskilda avropsorder tas bort eller att batch-jobbet **Ta bort faktrd förs.avropsord.** körs.  
 - Om en kund dessutom har registrerats som en kontakt i modulen Marknadsföring, och om en interaktionsmallkod har angetts för avropsorder på sidan **Marknadsföringsinställning** registreras en interaktion i tabellen Interaktionslogg när du väljer **Skriv ut** för att skriva ut avropsordern.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Så här visar du status för avropsorder:  
-Du kan visa statusen för en försäljningsavropsordern på sidan **Inköpsorderstatistik**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån avropsordern.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Så här visar du status för en avropsorder  
+Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik för försäljningsavropsorder**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån försäljningsavropsorder.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsavropsorder** och välj sedan relaterad länk.  
-2.  Markera en inköpsavropsorder och välj åtgärden **statistik**.  
-3.  På snabbfliken **Allmänt** på sidan **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Förs.avropsorder** och välj sedan relaterad länk.  
+2.  Markera en försäljningsavropsorder och välj åtgärden **statistik**.  
+3.  På sidan **Statistik för försäljningsavropsorder** på snabbfliken **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
 
-    - På snabbfliken **Fakturering** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att fakturera** på avropsorderraderna.  
-    - På snabbfliken **Leverans** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att inlevereras** på avropsorderraderna.  
-    - På snabbfliken **Förskottsbetalning** visas översiktsinformation om eventuella förskottsbetalda belopp.  
-    - På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.    
+- På snabbfliken **Fakturering** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att fakturera** på försäljningsavropsorderraderna.  
+- På snabbfliken **Leverans** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att inlevereras** på försäljningsavropsorderraderna.  
+- På snabbfliken **Förskottsbetalning** visas översiktsinformation om eventuella förskottsbetalda belopp.  
+- På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader   
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
@@ -74,56 +74,27 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 2. Öppna den avropsorder för försäljning som du vill visa.
 3. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** ocgh sedan **Ej bokförda rader**. Välj något av följande alternativ:  
 
-    <table>
-    <tr>
-    <th>Alternativ</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Order**</td>
-    <td>Anger öppna order som är associerade till den markerade raden.</td>
-    </tr>
-    <tr>
-    <td>**Fakturor**</td>
-    <td>Anger öppna fakturor som är associerade till den markerade raden. Öppna fakturor kan associeras manuellt till en avropsorder genom att avropsordernumret anges på försäljningsfakturaraden.</td>
-    </tr>
-    <tr>
-    <td>**Returorder**</td>
-    <td>Anger öppna returorder som är associerade till den markerade raden.</td>
-    </tr>
-    <tr>
-    <td>**Kreditnota**</td>
-    <td>Anger öppna kreditnotor som är associerade till den markerade raden.</td>
-    </tr>
-    </table>
-4. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** och sedan **Bokförda rader**. Välj något av följande alternativ:  
+    |Alternativ|Description|
+    |--|--|
+    |**Order**|Anger öppna order som är associerade till den markerade raden.|
+    |**Fakturor**|Anger öppna fakturor som är associerade till den markerade raden. Öppna fakturor kan associeras manuellt till en avropsorder genom att avropsordernumret anges på försäljningsfakturaraden.|
+    |**Returorder**|Anger öppna returorder som är associerade till den markerade raden.|
+    |**Kreditnota**|Anger öppna kreditnotor som är associerade till den markerade raden.|
 
-    <table>
-    <tr>
-    <th>Alternativ</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Utleveranser**</td>
-    <td>Bokförda leveranser som är associerade till den markerade raden.</td>
-    </tr>
-    <tr>
-    <td>**Fakturor**</td>
-    <td>Bokförda fakturor som är associerade till den markerade raden.</td>
-    </tr>
-    <tr>
-    <td>**Returinleveranser**:</td>
-    <td>Bokförda returinleveranser som är associerade till den markerade raden.</td>
-    </tr>
-    <tr>
-    <td>**Kreditnota**</td>
-    <td>Bokförda kreditnotor som är associerade till den markerade raden.</td>
-    </tr>
-    </table>
+4. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** och sedan åtgärden **Bokförda rader**. Välj något av följande alternativ:  
+
+    |Alternativ|Description|
+    |---|----|
+    |**Utleveranser**|Bokförda leveranser som är associerade till den markerade raden.|
+    |**Fakturor**|Bokförda fakturor som är associerade till den markerade raden.|
+    |**Returinleveranser**:|Bokförda returinleveranser som är associerade till den markerade raden.|
+    |**Kreditnota**|Bokförda kreditnotor som är associerade till den markerade raden.|
+
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 
 ## <a name="see-also"></a>Se även
-[Försäljning](sales-manage-sales.md)  
+[Försäljning](sales-manage-sales.md)
+[Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
