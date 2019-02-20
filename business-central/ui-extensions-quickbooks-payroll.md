@@ -1,33 +1,34 @@
 ---
 title: "Använda Quickbooks-tillägget för import av lönefil till | Microsoft Docs"
-description: "Beskriver hur du använder tillägget för att importera lön och lönetransaktioner från tjänsten Quickbooks lön."
+description: "Detta ämnet beskriver hur du använder tillägget för att importera lön och lönetransaktioner från Quickbooks."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 10/01/2018
-ms.author: SorenGP
+ms.date: 01/09/2019
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: caf928b653b528c10820a8dfa8feff498c88f4ff
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
 ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension"></a><span data-ttu-id="fa35e-103">QuickBook-tillägg för import av lönefil</span><span class="sxs-lookup"><span data-stu-id="fa35e-103">The Quickbooks Payroll File Import Extension</span></span>
-<span data-ttu-id="fa35e-104">För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste du importera och bokföra finansiella transaktioner som gjorts av ditt lönesystem i redovisningen.</span><span class="sxs-lookup"><span data-stu-id="fa35e-104">To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.</span></span>
+# <a name="the-quickbooks-payroll-file-import-extension"></a><span data-ttu-id="6b9ca-103">QuickBook-tillägg för import av lönefil</span><span class="sxs-lookup"><span data-stu-id="6b9ca-103">The QuickBooks Payroll File Import Extension</span></span>
+<span data-ttu-id="6b9ca-104">Använd filnamnstillägget QuickBooks-lön för att importera lönetransaktioner från QuickBooks till redovisningskonton i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6b9ca-104">Use the QuickBooks Payroll File Import extension to import payroll transactions from QuickBooks to general ledger accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="6b9ca-105">Exempelvis är detta användbart när du omvandlar från QuickBooks till [!INCLUDE[d365fin](includes/d365fin_md.md)], eller om du vill lägga ut din lön men också vill hålla reda på informationen i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6b9ca-105">For example, this is useful when you are transitioning from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)], or if you outsource your payroll but also want to keep track of it in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-<span data-ttu-id="fa35e-105">För att göra detta måste du först importera en fil som du får från lönelistleverantören till sidan **Redovisningsjournal**.</span><span class="sxs-lookup"><span data-stu-id="fa35e-105">To do this, you first import a file that you receive from the payroll provider into the **General Journal** page.</span></span> <span data-ttu-id="fa35e-106">Sedan mappar du de externa kontona i lönefilen till det relevanta redovisningskontot.</span><span class="sxs-lookup"><span data-stu-id="fa35e-106">Then you map the external accounts in the payroll file to the relevant G/L accounts.</span></span> <span data-ttu-id="fa35e-107">Slutligen bokför du lönetransaktioner enligt kontomappningen.</span><span class="sxs-lookup"><span data-stu-id="fa35e-107">Lastly, you post the payroll transactions according to the account mapping.</span></span> <span data-ttu-id="fa35e-108">Mer information finns i [Så här importerar du lönetransaktioner](finance-how-import-payroll-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="fa35e-108">For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).</span></span>
+## <a name="steps-to-import-payroll-data"></a><span data-ttu-id="6b9ca-106">Steg för att importera lönedata</span><span class="sxs-lookup"><span data-stu-id="6b9ca-106">Steps to Import Payroll Data</span></span>
+<span data-ttu-id="6b9ca-107">Det första steget är för dig eller så kanske din revisor använder exportfunktioner i QuickBooks för att exportera lönedata till en .IIF-fil.</span><span class="sxs-lookup"><span data-stu-id="6b9ca-107">The first step is for you, or maybe your accountant, to use the export features in QuickBooks to export the payroll data to an .IIF file.</span></span> <span data-ttu-id="6b9ca-108">Nästa steg är att öppna sidan **redovisningsjournaler** i [!INCLUDE[d365fin](includes/d365fin_md.md)] och använda åtgärden **importera lönetransaktioner** för att importera filen.</span><span class="sxs-lookup"><span data-stu-id="6b9ca-108">The second step is to open the **General Journals** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the **Import Payroll Transactions** action to import the file.</span></span> <span data-ttu-id="6b9ca-109">Under importprocessen mappar du redovisningskontona från QuickBooks till motsvarande konton i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6b9ca-109">During the import process you map the general ledger accounts from QuickBooks to corresponding accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="6b9ca-110">Det sista steget är att bokföra lönetransaktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] enligt kontomappningen.</span><span class="sxs-lookup"><span data-stu-id="6b9ca-110">The final step is to post the payroll transactions in [!INCLUDE[d365fin](includes/d365fin_md.md)] according to the account mapping.</span></span> 
 
-<span data-ttu-id="fa35e-109">Med QuickBooks-importtillägget för lönefiler kan du importera lönetransaktioner från QuickBooks-lönetjänsten.</span><span class="sxs-lookup"><span data-stu-id="fa35e-109">The Quickbooks Payroll File Import extension allows you to import payroll transaction from the Quickbooks Payroll service.</span></span>
+<span data-ttu-id="6b9ca-111">Mer information finns i [Så här importerar du lönetransaktioner](finance-how-import-payroll-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="6b9ca-111">For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="fa35e-110">Se även</span><span class="sxs-lookup"><span data-stu-id="fa35e-110">See Also</span></span>
-<span data-ttu-id="fa35e-111">[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="fa35e-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
-<span data-ttu-id="fa35e-112">[Ekonomi](finance.md)  </span><span class="sxs-lookup"><span data-stu-id="fa35e-112">[Finance](finance.md)  </span></span>  
-<span data-ttu-id="fa35e-113">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fa35e-113">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="6b9ca-112">Se även</span><span class="sxs-lookup"><span data-stu-id="6b9ca-112">See Also</span></span>
+<span data-ttu-id="6b9ca-113">[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="6b9ca-113">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
+<span data-ttu-id="6b9ca-114">[Ekonomi](finance.md)  </span><span class="sxs-lookup"><span data-stu-id="6b9ca-114">[Finance](finance.md)  </span></span>  
+<span data-ttu-id="6b9ca-115">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6b9ca-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
