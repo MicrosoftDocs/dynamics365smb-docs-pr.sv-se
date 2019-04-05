@@ -1,35 +1,35 @@
 ---
-title: "Designinformation - Kodexempel på förändrade mönster i ändringar | Microsoft-dokument"
-description: "Kodexempel som anger förändrade mönster i dimensionskodsändring och -migrering för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central."
+title: Designinformation - Kodexempel på förändrade mönster i ändringar | Microsoft-dokument
+description: Kodexempel som anger förändrade mönster i dimensionskodsändring och -migrering för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807346"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="414d7-104">Designdetaljer: Kodexempel på ändrade mönster i ändringar</span><span class="sxs-lookup"><span data-stu-id="414d7-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="414d7-105">Det här avsnittet innehåller kodexempel för att visa ändrade mönster i dimensionskodändring och flytt för fem olika scenarier.</span><span class="sxs-lookup"><span data-stu-id="414d7-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="414d7-106">Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.</span><span class="sxs-lookup"><span data-stu-id="414d7-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="19960-104">Designdetaljer: Kodexempel på ändrade mönster i ändringar</span><span class="sxs-lookup"><span data-stu-id="19960-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="19960-105">Det här avsnittet innehåller kodexempel för att visa ändrade mönster i dimensionskodändring och flytt för fem olika scenarier.</span><span class="sxs-lookup"><span data-stu-id="19960-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="19960-106">Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.</span><span class="sxs-lookup"><span data-stu-id="19960-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="414d7-107">Bokför en journalrad</span><span class="sxs-lookup"><span data-stu-id="414d7-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="414d7-108">Viktiga ändringar är följande:</span><span class="sxs-lookup"><span data-stu-id="414d7-108">Key changes are listed as follows:</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="19960-107">Bokför en journalrad</span><span class="sxs-lookup"><span data-stu-id="19960-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="19960-108">Viktiga ändringar är följande:</span><span class="sxs-lookup"><span data-stu-id="19960-108">Key changes are listed as follows:</span></span>  
   
-- <span data-ttu-id="414d7-109">Dimensionstabeller för journalrader tas bort.</span><span class="sxs-lookup"><span data-stu-id="414d7-109">Journal line dimension tables are removed.</span></span>  
+- <span data-ttu-id="19960-109">Dimensionstabeller för journalrader tas bort.</span><span class="sxs-lookup"><span data-stu-id="19960-109">Journal line dimension tables are removed.</span></span>  
   
-- <span data-ttu-id="414d7-110">Ett dimensionsuppsättning-ID skapas i fältet **Dimensionsuppsättnings-ID**.</span><span class="sxs-lookup"><span data-stu-id="414d7-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+- <span data-ttu-id="19960-110">Ett dimensionsuppsättning-ID skapas i fältet **Dimensionsuppsättnings-ID**.</span><span class="sxs-lookup"><span data-stu-id="19960-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
   
-<span data-ttu-id="414d7-111">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="414d7-111">**Earlier Versions**</span></span>  
+<span data-ttu-id="19960-111">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="19960-111">**Earlier Versions**</span></span>  
   
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
@@ -61,10 +61,10 @@ ResJnlPostLine.Run(ResJnlLine);
   
 ```  
   
-## <a name="posting-a-document"></a><span data-ttu-id="414d7-112">Bokför ett dokument</span><span class="sxs-lookup"><span data-stu-id="414d7-112">Posting a Document</span></span>  
- <span data-ttu-id="414d7-113">När du bokför ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] behöver du inte längre kopiera dokumentets dimensioner.</span><span class="sxs-lookup"><span data-stu-id="414d7-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+## <a name="posting-a-document"></a><span data-ttu-id="19960-112">Bokför ett dokument</span><span class="sxs-lookup"><span data-stu-id="19960-112">Posting a Document</span></span>  
+ <span data-ttu-id="19960-113">När du bokför ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] behöver du inte längre kopiera dokumentets dimensioner.</span><span class="sxs-lookup"><span data-stu-id="19960-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
   
- <span data-ttu-id="414d7-114">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="414d7-114">**Earlier Versions**</span></span>  
+ <span data-ttu-id="19960-114">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="19960-114">**Earlier Versions**</span></span>  
   
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
@@ -83,10 +83,10 @@ SalesShptLine."Dimension Set ID”
   := SalesLine."Dimension Set ID”  
 ```  
   
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="414d7-115">Redigera dimensioner från ett dokument</span><span class="sxs-lookup"><span data-stu-id="414d7-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="414d7-116">Du kan redigera dimensioner från ett dokument.</span><span class="sxs-lookup"><span data-stu-id="414d7-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="414d7-117">Du kan till exempel redigera en försäljningsorderrad.</span><span class="sxs-lookup"><span data-stu-id="414d7-117">For example, you can edit a sales order line.</span></span>  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="19960-115">Redigera dimensioner från ett dokument</span><span class="sxs-lookup"><span data-stu-id="19960-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="19960-116">Du kan redigera dimensioner från ett dokument.</span><span class="sxs-lookup"><span data-stu-id="19960-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="19960-117">Du kan till exempel redigera en försäljningsorderrad.</span><span class="sxs-lookup"><span data-stu-id="19960-117">For example, you can edit a sales order line.</span></span>  
   
- <span data-ttu-id="414d7-118">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="414d7-118">**Earlier Versions**</span></span>  
+ <span data-ttu-id="19960-118">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="19960-118">**Earlier Versions**</span></span>  
   
 ```  
 Table 37, function ShowDimensions:  
@@ -109,10 +109,10 @@ Table 37, function ShowDimensions:
     "Dimension ID");  
 ```  
   
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="414d7-119">Visar dimensioner från bokförda transaktioner</span><span class="sxs-lookup"><span data-stu-id="414d7-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="414d7-120">Du kan visa dimensioner från bokförda transaktioner, till exempel utleveransrader.</span><span class="sxs-lookup"><span data-stu-id="414d7-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="19960-119">Visar dimensioner från bokförda transaktioner</span><span class="sxs-lookup"><span data-stu-id="19960-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="19960-120">Du kan visa dimensioner från bokförda transaktioner, till exempel utleveransrader.</span><span class="sxs-lookup"><span data-stu-id="19960-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
   
- <span data-ttu-id="414d7-121">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="414d7-121">**Earlier Versions**</span></span>  
+ <span data-ttu-id="19960-121">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="19960-121">**Earlier Versions**</span></span>  
   
 ```  
 Table 111, function ShowDimensions:  
@@ -135,10 +135,10 @@ DimSetEntry.ShowDimensionSet(
   "Dimension ID");  
 ```  
   
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="414d7-122">Få standarddimensioner för ett dokument</span><span class="sxs-lookup"><span data-stu-id="414d7-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="414d7-123">Du kan få standarddimensioner för ett dokument, till exempel en försäljningsorderrad.</span><span class="sxs-lookup"><span data-stu-id="414d7-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="19960-122">Få standarddimensioner för ett dokument</span><span class="sxs-lookup"><span data-stu-id="19960-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="19960-123">Du kan få standarddimensioner för ett dokument, till exempel en försäljningsorderrad.</span><span class="sxs-lookup"><span data-stu-id="19960-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
   
- <span data-ttu-id="414d7-124">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="414d7-124">**Earlier Versions**</span></span>  
+ <span data-ttu-id="19960-124">**Tidigare versioner**</span><span class="sxs-lookup"><span data-stu-id="19960-124">**Earlier Versions**</span></span>  
   
 ```  
 Table 37, function CreateDim()  
@@ -193,7 +193,7 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="414d7-125">Se även</span><span class="sxs-lookup"><span data-stu-id="414d7-125">See Also</span></span>  
-<span data-ttu-id="414d7-126">[Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="414d7-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-<span data-ttu-id="414d7-127">[Designdetaljer: Tabellstruktur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="414d7-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
-[<span data-ttu-id="414d7-128">Designdetaljer: Kodenhet 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="414d7-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
+## <a name="see-also"></a><span data-ttu-id="19960-125">Se även</span><span class="sxs-lookup"><span data-stu-id="19960-125">See Also</span></span>  
+<span data-ttu-id="19960-126">[Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="19960-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="19960-127">[Designdetaljer: Tabellstruktur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="19960-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="19960-128">Designdetaljer: Kodenhet 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="19960-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)

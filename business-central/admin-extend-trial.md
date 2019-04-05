@@ -1,0 +1,36 @@
+---
+title: Utöka utvärderingsversionen | Microsoft Docs
+description: Du kan utöka utvärderingsversionen om du behöver mer tid för att bestämma om du vill prenumerera.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 01/16/2018
+ms.author: bholtorf
+ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807509"
+---
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a><span data-ttu-id="0bf4f-103">Behöver du mer tid för att bestämma om du ska prenumerera?</span><span class="sxs-lookup"><span data-stu-id="0bf4f-103">Need More Time to Decide Whether to Subscribe?</span></span>
+<span data-ttu-id="0bf4f-104">Det är viktigt att fatta rätt beslut när du väljer ett affärsprogram och vi vet att det kan ta tid att utforska alla hörnen i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="0bf4f-104">It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="0bf4f-105">Om du behöver mer tid för att slutföra utvärderingen kan du utöka utvärderingsperioden själv i ytterligare 30 dagar.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-105">If you need more time to finish your evaluation you can extend the trial period yourself for another 30 days.</span></span> <span data-ttu-id="0bf4f-106">När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett meddelande när du loggar in.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-106">When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in.</span></span> <span data-ttu-id="0bf4f-107">Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-107">The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period.</span></span> <span data-ttu-id="0bf4f-108">De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-108">The extra 30 days start the moment you choose **Extend Trial** in the guide.</span></span>
+
+<span data-ttu-id="0bf4f-109">Utöka utvärderingsperioden själv är en engångsföreteelse.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-109">Extending the trial period yourself is a one time-thing though.</span></span> <span data-ttu-id="0bf4f-110">Du kan inte utöka den två gånger, åtminstone inte själv.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-110">You cannot extend it twice, at least not yourself.</span></span> <span data-ttu-id="0bf4f-111">Om du redan har utökat perioden kan din Microsoft-partner utöka den åt dig igen.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-111">If you have already extended the period, your Microsoft partner can extend it for you again.</span></span> <span data-ttu-id="0bf4f-112">Det är en engångsföreteelse.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-112">That's also a one-time thing.</span></span> <span data-ttu-id="0bf4f-113">Om du inte redan arbetar med en partner kan länken nedan hjälpa dig att hitta en: [kontakta en partner](https://go.microsoft.com/fwlink/?linkid=2038439).</span><span class="sxs-lookup"><span data-stu-id="0bf4f-113">If you are not already working with a partner, the following link will help you find one: [Contact a partner](https://go.microsoft.com/fwlink/?linkid=2038439).</span></span>
+
+## <a name="what-happens-if-my-trial-period-is-expired"></a><span data-ttu-id="0bf4f-114">Vad händer om min utvärderingsperiod är slut?</span><span class="sxs-lookup"><span data-stu-id="0bf4f-114">What happens if my trial period is expired?</span></span>
+<span data-ttu-id="0bf4f-115">Om den första utvärderingsperioden på 30 dagar har gått ut kan du utöka den själv och du kan köra på som vanligt.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-115">If your first 30-day trial period is expired, you can extend it yourself and things will be business as usual.</span></span> <span data-ttu-id="0bf4f-116">Logga bara in på demonstrationsföretaget och starta guiden **utöka försöksperioden** från meddelandet.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-116">Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification.</span></span> <span data-ttu-id="0bf4f-117">Om du har skapat ditt företag kan du logga ut och sedan logga in igen med inloggningsuppgifterna för företaget.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-117">If you have created your own company, sign out and then sign in again with the credentials for that company.</span></span> <span data-ttu-id="0bf4f-118">Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[d365fin](includes/d365fin_md.md)] inom 90 dagar och fortsätta att arbeta i det företag som du har skapat.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-118">If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created.</span></span> <span data-ttu-id="0bf4f-119">Vi tar bort företaget och raderar ditt företag efter 90 dagar.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-119">After 90 days we will delete your company and data.</span></span> 
+
+## <a name="to-extend-your-trial-period"></a><span data-ttu-id="0bf4f-120">Så här utökar du utvärderingsperioden</span><span class="sxs-lookup"><span data-stu-id="0bf4f-120">To extend your trial period</span></span>
+1. <span data-ttu-id="0bf4f-121">Logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="0bf4f-121">Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+2. <span data-ttu-id="0bf4f-122">I meddelandet överst i arbetsytan väljer du **utöka utvärderingsperioden**.</span><span class="sxs-lookup"><span data-stu-id="0bf4f-122">In the notification at the top of the workspace, choose **Extend Trial**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="0bf4f-123">Se även</span><span class="sxs-lookup"><span data-stu-id="0bf4f-123">See Also</span></span>
+[<span data-ttu-id="0bf4f-124">Skapa nya företag</span><span class="sxs-lookup"><span data-stu-id="0bf4f-124">Creating New Companies</span></span>](about-new-company.md)  
+[<span data-ttu-id="0bf4f-125">Tillgång till förhandsgranskning</span><span class="sxs-lookup"><span data-stu-id="0bf4f-125">Access to a Preview</span></span>](across-preview.md)  

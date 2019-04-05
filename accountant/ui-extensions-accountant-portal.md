@@ -1,6 +1,6 @@
 ---
-title: "Använda Revisorsportalen | Microsoft Docs"
-description: "Innehåller information om tillägget Revisorsportalen."
+title: Använda Revisorsportalen | Microsoft Docs
+description: Innehåller information om tillägget Revisorsportalen.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,25 +10,24 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
+ms.openlocfilehash: 523b629014b9a1641ebaba429678e4bd1759631a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: b885c47a3fd4499b670a89844277a7e34f809f6f
-ms.contentlocale: sv-se
-ms.lasthandoff: 05/31/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807966"
 ---
-# <a name="accountant-portal-for-dynamics-365-business-central"></a><span data-ttu-id="b64ad-103">Revisorportal för Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="b64ad-103">Accountant Portal for Dynamics 365 Business Central</span></span>
-<span data-ttu-id="b64ad-104">Det här programmet har en portal med summerad information för varje klient från en revisor.</span><span class="sxs-lookup"><span data-stu-id="b64ad-104">This application provides a portal with summary data for each client of an accountant.</span></span> <span data-ttu-id="b64ad-105">Portalen visar ekonomiska KPI:er som en direkt länk till klientens affärssystem.</span><span class="sxs-lookup"><span data-stu-id="b64ad-105">The portal displays financial KPIs as well as a direct link to the client’s financial application.</span></span>  
+# <a name="accountant-portal-for-dynamics-365-business-central"></a><span data-ttu-id="2fb80-103">Revisorsportal för Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="2fb80-103">Accountant Portal for Dynamics 365 Business Central</span></span>
+<span data-ttu-id="2fb80-104">Det här programmet har en portal med summerad information för varje klient från en revisor.</span><span class="sxs-lookup"><span data-stu-id="2fb80-104">This application provides a portal with summary data for each client of an accountant.</span></span> <span data-ttu-id="2fb80-105">Portalen visar ekonomiska KPI:er som en direkt länk till klientens affärssystem.</span><span class="sxs-lookup"><span data-stu-id="2fb80-105">The portal displays financial KPIs as well as a direct link to the client’s financial application.</span></span>  
 
-<span data-ttu-id="b64ad-106">Portalen innehåller ett mycket specialiserat rollcenter som fungerar som en instrumentbräda för en bättre överblick över dina kunder.</span><span class="sxs-lookup"><span data-stu-id="b64ad-106">The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.</span></span>  
-<span data-ttu-id="b64ad-107">[![Revisorsportal](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span><span class="sxs-lookup"><span data-stu-id="b64ad-107">[![Accountant Portal](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span></span>
+<span data-ttu-id="2fb80-106">Portalen innehåller ett mycket specialiserat rollcenter som fungerar som en instrumentbräda för en bättre överblick över dina kunder.</span><span class="sxs-lookup"><span data-stu-id="2fb80-106">The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.</span></span>  
+<span data-ttu-id="2fb80-107">[![Revisorsportal](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span><span class="sxs-lookup"><span data-stu-id="2fb80-107">[![Accountant Portal](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span></span>
 
-<span data-ttu-id="b64ad-108">När du installerar tillägget kan du få information i ett exempel företag.</span><span class="sxs-lookup"><span data-stu-id="b64ad-108">When you first install the extension, a sample company helps you get started.</span></span> <span data-ttu-id="b64ad-109">Du kan ta bort exempelföretaget när som helst.</span><span class="sxs-lookup"><span data-stu-id="b64ad-109">You can delete the sample company at any time.</span></span>  
+<span data-ttu-id="2fb80-108">När du installerar tillägget kan du få information i ett exempel företag.</span><span class="sxs-lookup"><span data-stu-id="2fb80-108">When you first install the extension, a sample company helps you get started.</span></span> <span data-ttu-id="2fb80-109">Du kan ta bort exempelföretaget när som helst.</span><span class="sxs-lookup"><span data-stu-id="2fb80-109">You can delete the sample company at any time.</span></span>  
 
-## <a name="installing-the-extension"></a><span data-ttu-id="b64ad-110">Installerar tillägget</span><span class="sxs-lookup"><span data-stu-id="b64ad-110">Installing the extension</span></span>
-<span data-ttu-id="b64ad-111">När du lägger till tillägg till din [!INCLUDE [d365fin](includes/d365fin_md.md)], ersätter det ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.</span><span class="sxs-lookup"><span data-stu-id="b64ad-111">When you add the extension to your [!INCLUDE [d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile.</span></span> <span data-ttu-id="b64ad-112">Därför måste du logga ut och logga in några gånger.</span><span class="sxs-lookup"><span data-stu-id="b64ad-112">As a result, you must sign out and sign in a couple of times.</span></span>  
+## <a name="installing-the-extension"></a><span data-ttu-id="2fb80-110">Installerar tillägget</span><span class="sxs-lookup"><span data-stu-id="2fb80-110">Installing the extension</span></span>
+<span data-ttu-id="2fb80-111">När du lägger till tillägg till din [!INCLUDE [d365fin](includes/d365fin_md.md)], ersätter det ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.</span><span class="sxs-lookup"><span data-stu-id="2fb80-111">When you add the extension to your [!INCLUDE [d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile.</span></span> <span data-ttu-id="2fb80-112">Därför måste du logga ut och logga in några gånger.</span><span class="sxs-lookup"><span data-stu-id="2fb80-112">As a result, you must sign out and sign in a couple of times.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="b64ad-113">Se även</span><span class="sxs-lookup"><span data-stu-id="b64ad-113">See Also</span></span>
-<span data-ttu-id="b64ad-114">[Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="b64ad-114">[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)</span></span>  
-<span data-ttu-id="b64ad-115">[Komma igång med [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)</span><span class="sxs-lookup"><span data-stu-id="b64ad-115">[Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)</span></span>  
-
+## <a name="see-also"></a><span data-ttu-id="2fb80-113">Se även</span><span class="sxs-lookup"><span data-stu-id="2fb80-113">See Also</span></span>
+<span data-ttu-id="2fb80-114">[Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="2fb80-114">[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="2fb80-115">[Komma igång med [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)</span><span class="sxs-lookup"><span data-stu-id="2fb80-115">[Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)</span></span>  

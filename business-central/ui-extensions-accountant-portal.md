@@ -1,44 +1,27 @@
 ---
-title: "Använda Revisorsportalen | Microsoft Docs"
-description: "Innehåller information om tillägget Revisorsportalen."
+title: Använda Revisorsportalen | Microsoft Docs
+description: Innehåller information om tillägget Revisorsportalen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 10/01/2018
+ms. search.keywords: ''
+ms.date: 02/21/2019
 ms.author: edupont
+ms.openlocfilehash: 9a665c1317d6b04426c466a1f32bbd338763cba3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 26b911718a9741cd070af131aef3d258fd85e1eb
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807644"
 ---
-# <a name="the-accountant-portal-for-business-central-extension"></a><span data-ttu-id="67d54-103">Tillägget Revisorportal för Business Central</span><span class="sxs-lookup"><span data-stu-id="67d54-103">The Accountant Portal for Business Central Extension</span></span>
-<span data-ttu-id="67d54-104">Det här programmet har en instrumentpanel med summerad information för varje klient från en revisor.</span><span class="sxs-lookup"><span data-stu-id="67d54-104">This application provides a dashboard with summary data for each client of an accountant.</span></span> <span data-ttu-id="67d54-105">Portalen visar ekonomiska KPI:er som en direkt länk till klientens affärssystem.</span><span class="sxs-lookup"><span data-stu-id="67d54-105">The portal displays financial KPIs as well as a direct link to the client’s financial application.</span></span>  
+# <a name="the-accountant-portal-for-business-central-extension"></a><span data-ttu-id="e4764-103">Tillägget Revisorportal för Business Central</span><span class="sxs-lookup"><span data-stu-id="e4764-103">The Accountant Portal for Business Central Extension</span></span>
+<span data-ttu-id="e4764-104">Det här programmet har ersatts.</span><span class="sxs-lookup"><span data-stu-id="e4764-104">This application has been deprecated.</span></span> <span data-ttu-id="e4764-105">Vi rekommenderar att du inte installerar tillägget men registrerar [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] på [Business Central för revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) i stället.</span><span class="sxs-lookup"><span data-stu-id="e4764-105">We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.</span></span>
 
-<span data-ttu-id="67d54-106">Instrumentpanelen innehåller ett mycket specialiserat rollcenter för en bättre överblick över dina kunder.</span><span class="sxs-lookup"><span data-stu-id="67d54-106">The dashboard is a highly specialized Role Center for a better overview of your clients.</span></span>  
-<span data-ttu-id="67d54-107">[![Revisorsportal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span><span class="sxs-lookup"><span data-stu-id="67d54-107">[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span></span>
+<span data-ttu-id="e4764-106">Mer information finns i [Välkommen till Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span><span class="sxs-lookup"><span data-stu-id="e4764-106">For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span></span>  
 
-<span data-ttu-id="67d54-108">När du installerar tillägget kan du få information i ett exempel företag.</span><span class="sxs-lookup"><span data-stu-id="67d54-108">When you first install the extension, a sample company helps you get started.</span></span> <span data-ttu-id="67d54-109">Du kan ta bort exempelföretaget när som helst.</span><span class="sxs-lookup"><span data-stu-id="67d54-109">You can delete the sample company at any time.</span></span>  
-
-## <a name="installing-the-extension"></a><span data-ttu-id="67d54-110">Installerar tillägg</span><span class="sxs-lookup"><span data-stu-id="67d54-110">Installing the Extension</span></span>
-<span data-ttu-id="67d54-111">När du installerar tillägg i din [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att tillfrågas om du vill använda den nu.</span><span class="sxs-lookup"><span data-stu-id="67d54-111">When you install the extension in your [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked if you want to use it now.</span></span> <span data-ttu-id="67d54-112">Om du gör det måste du logga ut och logga in igen eftersom tillägget ersätter ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.</span><span class="sxs-lookup"><span data-stu-id="67d54-112">If you do, then you must sign out and sign in again, because the extension replaces your current Role Center and adds permissions to your user profile.</span></span>  
-
-<span data-ttu-id="67d54-113">Mer information finns i [Revisorupplevelser i Business Central ](finance-accounting.md).</span><span class="sxs-lookup"><span data-stu-id="67d54-113">For more information, see [Accountant Experiences in Business Central ](finance-accounting.md).</span></span>  
-
-> [!NOTE]  
->  <span data-ttu-id="67d54-114">Den aktuella versionen av tillägget kräver att dina kunder använder [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="67d54-114">The current version of the extension requires that your clients use [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
-
-## <a name="using-the-extension"></a><span data-ttu-id="67d54-115">Använda tillägget</span><span class="sxs-lookup"><span data-stu-id="67d54-115">Using the extension</span></span>
-<span data-ttu-id="67d54-116">Det här tillägget kommer att vara inaktuellt om några månader.</span><span class="sxs-lookup"><span data-stu-id="67d54-116">This extension will be deprecated in a few months.</span></span> <span data-ttu-id="67d54-117">Vi rekommenderar att du inte installerar tillägget men registrerar [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] på [Business Central för revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) i stället.</span><span class="sxs-lookup"><span data-stu-id="67d54-117">We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.</span></span>
-
-<span data-ttu-id="67d54-118">Mer information finns i [Välkommen till Dynamics 365 - Accountant Hub](/dynamics365/accountants/index).</span><span class="sxs-lookup"><span data-stu-id="67d54-118">For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="67d54-119">Se även</span><span class="sxs-lookup"><span data-stu-id="67d54-119">See Also</span></span>
-[<span data-ttu-id="67d54-120">Revisorlösningar i Business Central </span><span class="sxs-lookup"><span data-stu-id="67d54-120">Accountant Experiences in Business Central </span></span>](finance-accounting.md)  
-[<span data-ttu-id="67d54-121">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="67d54-121">Finance</span></span>](finance.md)  
-
+## <a name="see-also"></a><span data-ttu-id="e4764-107">Se även</span><span class="sxs-lookup"><span data-stu-id="e4764-107">See Also</span></span>
+[<span data-ttu-id="e4764-108">Revisorlösningar i Business Central </span><span class="sxs-lookup"><span data-stu-id="e4764-108">Accountant Experiences in Business Central </span></span>](finance-accounting.md)  
+[<span data-ttu-id="e4764-109">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="e4764-109">Finance</span></span>](finance.md)  
