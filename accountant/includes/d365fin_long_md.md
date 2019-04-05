@@ -1,1 +1,1 @@
-<span data-ttu-id="6d3e0-101">Dynamics 365 for Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="6d3e0-101">Dynamics 365 for Finance and Operations, Business edition</span></span>
+<span data-ttu-id="c0ce9-101">Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="c0ce9-101">Dynamics 365 Business Central</span></span>
