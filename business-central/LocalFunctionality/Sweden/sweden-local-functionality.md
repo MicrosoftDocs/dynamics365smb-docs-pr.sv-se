@@ -1,23 +1,23 @@
 ---
-title: "Lokal funktionalitet för Sverige"
-description: "I följande avsnitt beskrivs den lokala funktionaliteten i den svenska versionen av Business Central."
+title: Lokal funktionalitet för Sverige
+description: I följande avsnitt beskrivs den lokala funktionaliteten i den svenska versionen av Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/12/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9eb33766a24ba2d4c81d17d5f4d40c1e3cef2153
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 75693fcf040534d0b03fa397cea84d310faa7656
-ms.contentlocale: sv-se
-ms.lasthandoff: 07/31/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827163"
 ---
 # <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
 I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -32,4 +32,3 @@ I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den s
 [Arbeta med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)    
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-

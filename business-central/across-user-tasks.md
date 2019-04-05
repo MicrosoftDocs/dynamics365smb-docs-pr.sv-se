@@ -1,6 +1,6 @@
 ---
 title: Tilldela och hantera uppgifter | Microsoft Docs
-description: "Lär dig hur du tilldelar uppgifter till användare, till exempel din revisor, i Business Central."
+description: Lär dig hur du tilldelar uppgifter till användare, till exempel din revisor, i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852361"
 ---
-# <a name="defining-user-tasks"></a>Definiera användaruppgifter
+# <a name="define-user-tasks"></a>Definiera användarens uppgifter
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du skapa uppgifter som påminner dig om arbetet som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.  
 
 ## <a name="managing-user-tasks"></a>Hantera användaruppgifter
@@ -41,4 +41,3 @@ Om du vill ta bort flera eller vissa användaruppgifter kan du använda rapporte
 ## <a name="see-also"></a>Se även
 [Sök efter sida eller rapport](ui-search.md)  
 [Revisorupplevelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

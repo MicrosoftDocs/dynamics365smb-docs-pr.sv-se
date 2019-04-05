@@ -1,8 +1,8 @@
 ---
-title: "Transaktioner mellan företag inom samma organisation | Microsoft Docs"
-description: "Med de koncerninterna funktionerna förenklar du affärsprocesser och transaktioner mellan företag inom samma organisation."
+title: Transaktioner mellan företag inom samma organisation | Microsoft Docs
+description: Med de koncerninterna funktionerna förenklar du affärsprocesser och transaktioner mellan företag inom samma organisation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852108"
 ---
 # <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
 Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. När du använder koncerninterna funktioner kan du göra affärer med dina dotterbolag och interna partnerorganisationer på samma sätt som att arbeta med externa leverantörer och kunder. Du anger bara koncernintern information en gång i tillämpliga dokument. Du kan använda funktioner som du redan känner till, t.ex. hantering av leverantörsreskontra och kundreskontra. Genom att koppla funktioner för kontoplanen och dimensioner kan du försäkra dig om att informationen visas på rätt plats.  
@@ -35,6 +35,8 @@ När du skapar en transaktion behöver du inte ange konton för en enskild räke
 
  När du har ställt in affärspartner som kunder och leverantörer i systemet och tilldelat dem koncerninterna partnerkoder, är det möjligt att utbyta koncerninterna inköps - och försäljningsdokument, inklusive artiklar och artikelomkostnader. Koncerninterna funktioner tillåter koncerninterna transaktioner mellan flera databaser, t.ex. i olika länder/regioner samt flera valutor, olika kontoplaner, olika dimensioner och olika artikelnumrering.  
 
+Att konsolidera ekonomiska data kan vara särskilt användbart i samband med koncerninterna processer. Mer information finns i [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md).
+
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
  |Till |Gå till|
@@ -50,5 +52,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

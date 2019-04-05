@@ -1,6 +1,6 @@
 ---
-title: "Spåra användaraktivitetet i en ändringslogg | Microsoft Docs"
-description: "Du kan aktivera en användarlogg så att du har en historik över alla ändringar som gjorts i spårade tabeller."
+title: Spåra användaraktivitetet i en ändringslogg | Microsoft Docs
+description: Du kan aktivera en användarlogg så att du har en historik över alla ändringar som gjorts i spårade tabeller.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
+ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
-ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/05/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852896"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
 
@@ -41,7 +41,6 @@ När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av d
 ## <a name="see-also"></a>Se även
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Använda Söka efter sida eller rapport](ui-search.md)  
+[Med hjälp av Berätta för att hitta funktioner och Information](ui-search.md)  
 [Hantera användare och behörigheter](ui-how-users-permissions.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

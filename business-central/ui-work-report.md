@@ -1,8 +1,8 @@
 ---
-title: "Schemalägga en rapport att köras vid ett visst datum och tider | Microsoft Docs"
-description: "Lär dig mer om att skriva en rapport i en jobbkö och schemalägga den att behandlas vid en viss tidpunkt."
+title: Schemalägga en rapport att köras vid ett visst datum och tider | Microsoft Docs
+description: Lär dig mer om att skriva en rapport i en jobbkö och schemalägga den att behandlas vid en viss tidpunkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,23 +12,32 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852430"
 ---
-# <a name="working-with-reports"></a>Arbeta med rapporter
+# <a name="working-with-reports-and-batch-jobs"></a>Arbeta med rapporter och batch-jobb
 En rapport samlar in information som baseras på en viss uppsättning villkor och ordnar och visar informationen i ett format som är lätt att läsa, och kan skrivas ut. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
+
+Batchjobb gör mer eller mindre detsamma som rapporter, men i syfte att utföra en process. Till exempel batch-jobbet **skapa betalningspåminnelser** skapar påminnelsedokument för kunder med förfallna betalningar.  
+
+> [!NOTE]
+> Det här avsnittet avser huvudsakligen ”rapport”, men liknande information gäller för batch-jobb.
 
 Rapporter finns i fältet **rapporter** på markerade sidor eller du kan använda sökning ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn.
 
 
-## <a name="specifying-the-data-to-include-in-the-report"></a>Ange den information du vill inkludera i rapporten
+## <a name="specifying-the-data-to-include-in-the-report"></a>Ange data att inkludera i rapporten
 När du öppnar en rapport visas vanligtvis en sida där du kan ange olika alternativ och filter som avgör vad som inkluderas i rapporten. Denna sida kallas sidan för rapportförfrågan. Sidan för rapportförfrågan låter dig exempelvis skapa en rapport för en specifik kund, ett specifikt datumintervall, samt att sortera informationsordningen i rapporten. Här följer ett exempel på en sida för rapportförfrågan:
 
 ![Rapportalternativ](media/report_options.png "Rapportalternativ")
+
+> [!Caution]
+> Avsnittet **visa resultat** på sidan för begäran innehåller en allmän filtreringsfunktion för rapporter. Dessa filter är valfria.<br /><br /> Vissa rapporter ignorerar dessa filter, vilket innebär att oavsett vilka filter som anges i avsnittet **visa resultat** är rapportens resultat detsamma. Det går inte att skapa en lista vars fält ignoreras i vilka rapporter, så du måste experimentera med filtren om du använder dem.<br /><br />
+**Exempel**: när du använder batch-jobbet **Skapa betalningspåminnelser**, ett filter för fältet **Kundreskontratransaktioner** i **Senast utskickad bet.påm.nivå** kommer att ignoreras eftersom filter är fasta för det batch-jobbet.
 
 ### <a name="SavedSettings"></a>Använda sparade inställningar
 Beroende på hur vissa rapporter utformas kan rapportsidan komma att inkludera avsnittet **Sparade inställningar** som innehåller en eller flera poster i rutan **Använd standardvärde från**. Posterna i denna ruta kallas *sparade inställningar*. En sparad inställning är i princip en förinställd grupp inställningar och filter som du kan tillämpa på rapporten innan du förhandsgranskar eller skickar rapporten till en fil. Posten vid namn **Senast använda alternativ och filter** med sparade inställningar är alltid tillgänglig. Den här posten anger rapporten till att använda alternativ och filter som användes när du tittade på rapporten.
@@ -47,9 +56,9 @@ Du kan lägga till fler filter genom att ange rutorna för **Lägg till**. När 
 
 Beroende på den typ av fält som du filtrerar kan du ange att filterkriterierna ska söka efter en exakt matchning, en delmatchning, ett värdeintervall med mera. För information om hur du ställer in filter, se:
 -   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)
--   [Ange datumintervall ](ui-enter-date-ranges.md)
+-   [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)
 
-## <a name="previewing-a-report"></a>Så här förhandsgranskar du en rapport:
+## <a name="previewing-a-report"></a>Förhandsgranska en rapport
 Välj **Förhandsgranskning** för att visa rapporten i Internet-webbläsaren. Peka på ett område i rapporten för att visa menyraden.  
 
 ![Verktygsfält för förhandsgranskning av rapport](media/report_viewer.png "Verktygsfält för förhandsgranskning av rapport").
@@ -88,4 +97,3 @@ En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den
 [Ange skrivarval för rapporter](ui-specify-printer-selection-reports.md)  
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

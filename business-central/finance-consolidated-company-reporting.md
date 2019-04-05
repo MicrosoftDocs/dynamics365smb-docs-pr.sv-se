@@ -1,7 +1,7 @@
 ---
-title: "Konsolidera data från flera företag | Microsoft Docs"
-description: "Få en översikt av den ekonomiska situationen i ditt företag."
-documentationcenter: 
+title: Konsolidera data från flera företag | Microsoft Docs
+description: Få en översikt av den ekonomiska situationen i ditt företag.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832603"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
 Om du har fler än ett företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan rapporten Konsoliderad råbalans i rollcentret Revisor ge dig en översikt av hela verksamheten.  
 
@@ -56,7 +55,10 @@ Om du behöver mer avancerade inställningar för en konsolidering kan du konfig
 
 1. Logga in på det konsoliderade företaget.
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Affärsenheter** och välj sedan relaterad länk.  
-3. Välj **Ny** och fyll sedan i relevanta fält.  
+3. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> När du fyller i fältet **startdatum** och **slutdatum**, se till att du följer GAAP-reglerna för räkenskapsperioder för affärsenheten jämfört med moderbolag.
 
 Om en utländsk valuta används för koncernföretaget måste du ange vilken valutakurs som ska användas vid konsolideringen. Dessutom måste du ange konsolideringsinformation på koncernföretagets redovisningskonton. De här processerna beskrivs i följande avsnitt.
 
@@ -120,7 +122,31 @@ När du har testat data kan du starta konsolideringen överför den till det kon
 1. Logga in på det konsoliderade företaget.  
 2. I rollcentret **Revisor** väljer du åtgärden **Kör konfiguration**.  
 3. Fyll i relevanta fält.  
-4. I fältet **Var** väljer du **företagsnamn** och väljer sedan det konsoliderade företaget i fältet **Är**.  
+4. I fältet **Var** väljer du **företagsnamn** och väljer sedan det konsoliderade företaget i fältet **Är**.
+
+## <a name="to-eliminate-repeated-transactions"></a>Så här eliminerar upprepade transaktioner
+När du har konsoliderat alla företag måste hitta alla transaktioner som registreras mer än en gång över företag och sedan bokföra elimineringsposter för att ta bort dem.
+
+Bearbeta konsolideringselimineringar är en manuell process. Gör så här:
+1. Hitta transaktioner som potentiellt kan behöva justeras och ange redovisningsjournalrader om du vill ta bort dem.
+2. Kör rapporten **Redov. konsolid.elimineringar** för att hjälpa dig att bedöma effekterna av redovisningsjournalraderna innan du bokför.
+3. Bokför justeringstransaktionerna.
+
+Rapporten **Redov. konsolid.elimineringar** visar en preliminär råbalans, där du kan simulera konsekvenserna av att eliminera posterna visas genom att jämföra posterna i det konsoliderade företaget med de elimineringar som har registrerats i redovisningsjournalen.
+
+Innan en affärsenhet kan tas med i rapporten måste den upprättas på sidan **Affärsenhet** och fältet **Konsolidera** måste markeras.
+
+Varje konto visas på en egen rad enligt kontoplanens uppställning. Ett konto visas inte om alla belopp på raden är 0. För varje konto visas följande information:
+
+* Kontonummer
+* Kontonamn
+* Om du har valt en eller flera koncernföretagskoder i fältet **Affärsenhetskod** på sidan för begäran visas en summa för det konsoliderade företaget exklusive de valda affärsenheterna och elimineringarna. Om du inte har fyllt i fältet **Affärsenhetskod** visas en summa för det konsoliderade företaget exklusive elimineringar.
+* Om du har valt en affärsenhetskod i fältet **affärsenhetskod** på sidan för begäran visas en summa för de importerade transaktionerna från affärsenheten. Om du inte har fyllt i fältet **affärsenhetskod** visas en summa för de bokförda elimineringarna i det konsoliderade företaget.
+* Totalen för det konsoliderade företaget med alla koncernföretag och alla bokförda elimineringar.
+* De elimineringar som ska göras i det konsoliderade företaget, d.v.s. transaktionerna i redovisningsjournalen som är vald på sidan för begäran.
+* Beskrivningen kopierad från redovisningsjournalen.
+* Det konsoliderade företagets total efter elimineringarna om de är bokförda.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Exportera och importera konsoliderade data mellan databaser
 Om data för en affärsenheter är i en annan databas måste du exportera konsolideringsdata till en fil innan du kan inkludera den i konsolideringen. Varje företag måste exporteras var för sig. I detta avseende används batch-jobbet **Exportera konsolidering**.  
@@ -138,4 +164,3 @@ De exporterade posterna innehåller följande fält: **Kontonr**, **Bokföringsd
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exportera affärsdata till Excel](about-export-data.md)
-

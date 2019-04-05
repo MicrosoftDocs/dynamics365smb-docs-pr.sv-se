@@ -1,23 +1,23 @@
 ---
-title: "Så här skriver du ut rapporterna Balansräkning och Resultaträkning"
-description: "Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter."
+title: Så här skriver du ut rapporterna Balansräkning och Resultaträkning
+description: Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 868ca79bb9a41cbe7e28c312dbcd04df2be1e36b
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b236f09be9e367b9cf7376673255530d85b9de69
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852051"
 ---
 # <a name="print-balance-sheet-and-income-statement-reports"></a>Skriv ut rapporterna Balansräkning och Resultaträkning
 Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter. I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital. I rapporten **Resultaträkning** visas intäkter och kostnader.  
@@ -37,6 +37,5 @@ Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska
 4.  Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.  
 
 ## <a name="see-also"></a>Se även  
- [Arbeta med rapporter](../../ui-work-report.md)   
+ [Arbeta med rapporter och batch-jobb](../../ui-work-report.md)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
-

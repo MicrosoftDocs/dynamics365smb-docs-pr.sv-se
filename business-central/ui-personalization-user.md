@@ -1,8 +1,8 @@
 ---
 title: Anpassa sidor | Microsoft Docs
-description: "Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta."
+description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852315"
 ---
 # <a name="personalizing-your-workspace"></a>Anpassa din arbetsyta
-<!--NAV in the Web client--> Du kan *anpassa* arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
+<!--NAV in the Web client-->
+Du kan *anpassa* arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
 
 Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
 
@@ -29,7 +30,10 @@ Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
 -   Ändra låsning av kolumner i listan. Låsningen låser en eller flera kolumner till vänster i en lista så att de alltid visas även om du bläddrar vågrätt.
 -   Ändra bredden på kolumner i en lista.
 -   Flytta och ta bort stack-ikoner (paneler).
--   Flytta och ta bort delar. Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.  
+-   Flytta och ta bort delar. Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.
+
+> [!NOTE]
+> Förutom vad användare kan anpassa kan administratörer och superanvändare åsidosätta användarnas anpassningar och definiera vilka funktioner som är tillgängliga i alla eller särskilda företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Så här anpassar du en sida
 
@@ -79,4 +83,3 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-

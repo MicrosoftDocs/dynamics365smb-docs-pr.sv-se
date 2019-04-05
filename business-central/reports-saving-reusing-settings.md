@@ -1,6 +1,6 @@
 ---
-title: "Använda och ändra inställningarna i rapporter | Microsoft Docs"
-description: "Beskriver hur du använder fördefinierade alternativ och filter för att anpassa en rapport och för att generera korrekta data."
+title: Använda och ändra inställningarna i rapporter | Microsoft Docs
+description: Beskriver hur du använder fördefinierade alternativ och filter för att anpassa en rapport och för att generera korrekta data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853123"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Hantering av sparade inställningar i rapporter
 När användaren kör en rapport visas vanligtvis en sida där han eller hon kan ange vissa alternativ och filter för att ändra den data som inkluderas i den genererade rapporten. Denna sida kallas sidan för rapportförfrågan. En rapport kan omfatta en eller flera *sparade(e) inställning(ar)* som användarna kan tillämpa på rapporten från sidan för förfrågan. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. Mer information om hur sparade anställningar används finns i [Använda sparade inställningar](ui-work-report.md#SavedSettings).
 
 Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställningarna för alla rapporter för alla användare i företaget. Du kan tilldela sparade inställningar för en rapport till individuella användare eller alla användare i företaget.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Via sidan **Rapportinställningar** kan du:
 > Funktionen för sparade inställningar finns bara för rapporter där [värdet SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) på sidan för rapportförfrågan har angetts som `Yes`. Egenskapen **SaveValues** anges i utvecklingsmiljön.  
 
 ## <a name="see-also"></a>Se även
-[Arbeta med rapporter](ui-work-report.md)  
-
+[Arbeta med rapporter och batch-jobb](ui-work-report.md)  

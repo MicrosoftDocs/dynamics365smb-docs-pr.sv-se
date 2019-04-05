@@ -1,6 +1,6 @@
 ---
-title: "Om sökning och filtrering i Business Central"
-description: "Svar på vanliga frågor om att söka och filtrera."
+title: Om sökning och filtrering i Business Central
+description: Svar på vanliga frågor om att söka och filtrera.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852062"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Om sökning och filtrering i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Vanliga frågor och svar om sök och filtrering
 Den här artikeln besvarar vanliga frågor som du kanske har om att söka och filtrera.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Finns det en skillnad mellan sökning och filtrering?
@@ -30,7 +29,7 @@ Ja.
 Söka och filtrera har optimerats mycket för användare som vill ha interaktion utan mus för att arbeta effektivt med sina data. Det finns en mängd olika kortkommandon som kan användas i följd för att arbeta med hög hastighet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Finns filterrutan i alla listor?
-Filterrutan finns på sidor där listan är det primära innehållet på sidan, till exempel kalkylblad och listsidor inklusive listor som kan nås från navigeringsfältet. Filterrutan är ännu inte tillgänglig för inbäddade listor, till exempel försäljningsrader på försäljningsorder eller för listor med dynamiska kolumner (ofta kallade matrissidor). 
+Filterrutan finns på sidor där listan är det primära innehållet på sidan, till exempel kalkylblad och listsidor inklusive listor som kan nås från navigeringsfältet. Filterrutan är ännu inte tillgänglig för inbäddade listor, till exempel försäljningsrader på försäljningsorder eller för listor med dynamiska kolumner (ofta kallade matrissidor).
 
 ## <a name="how-can-i-save-my-filters"></a>Hur kan jag spara mina filter?
 
@@ -57,4 +56,3 @@ Som lokal administratör ökar du tidsfristen på sökningar genom att ändra in
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
 [Sortera, söka och filtrera i listor](ui-enter-criteria-filters.md)
-

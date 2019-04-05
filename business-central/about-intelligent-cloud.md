@@ -1,6 +1,6 @@
 ---
 title: Intelligent moln | Microsoft Docs
-description: "Hämta molnkopia av dina data så att du är ansluten till intelligent moln."
+description: Hämta molnkopia av dina data så att du är ansluten till intelligent moln.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,16 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852138"
 ---
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Din åtkomst till intelligent moln med [!INCLUDE[prodshort](includes/prodshort.md)]
 
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Din åtkomst till intelligent moln med [!INCLUDE[prodlong](includes/prodlong.md)]
-
-Som användare av [!INCLUDE[prodshort](includes/prodshort.md)] online har du fullständig behörighet för scenarier som baseras på intelligent moln, till exempel redigera data i Excel och skicka ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)], eller när du visar data i Power BI. Men även om [!INCLUDE[prodshort](includes/prodshort.md)] framför allt är en molntjänst, kan även kunder som behöver köra sin arbetsbelastning helt lokalt eller på intelligent gränsenhet ansluten till molnet kan göra detta.  
+Som användare av [!INCLUDE[prodshort](includes/prodshort.md)] online har du fullständig behörighet för scenarier som baseras på intelligent moln, till exempel redigera data i Excel och skicka ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)] eller när du visar data i Power BI. Men även om [!INCLUDE[prodshort](includes/prodshort.md)] framför allt är en molntjänst, kan även kunder som behöver köra sin arbetsbelastning helt lokalt eller på intelligent gränsenhet ansluten till molnet kan göra detta.  
 
 Om du är intresserad av [!INCLUDE[prodshort](includes/prodshort.md)] kan du registrera dig för en gratis utvärderingsversion av standardmolndistributionen, eller så kan du arbeta med en partner för att distribuera [!INCLUDE[prodshort](includes/prodshort.md)] lokalt med maskinvara av eget val. Du kan sedan välja att ansluta till molnet via din klientorganisation i molnet. Som ett resultat kommer data från din lokalt distribuerade [!INCLUDE[prodshort](includes/prodshort.md)] att replikeras till molnet för scenarier med intelligent moln.  
 
@@ -53,4 +52,3 @@ När din Dynamics 365 återförsäljare har fått rätt licens för den lokala l
 [Business Central Intelligent moln-tillägg](ui-extensions-intelligent-cloud.md)  
 [Tillägget Datareplikering](ui-extensions-data-replication.md)  
 [Ansluta till intelligent moln](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-

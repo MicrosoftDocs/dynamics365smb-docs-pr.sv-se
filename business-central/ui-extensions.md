@@ -1,7 +1,7 @@
 ---
-title: "Installera tillägg för att anpassa Business Central | Microsoft Docs"
-description: "Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera tillägg."
-documentationcenter: 
+title: Installera tillägg för att anpassa Business Central | Microsoft Docs
+description: Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera tillägg.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852453"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
 Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
@@ -58,7 +58,7 @@ Microsoft ger även följande tillägg:
 * [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md)  
+* [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)  
 * [Revisorsportal](ui-extensions-accountant-portal.md)  
 * [Image Analyzer](ui-extensions-image-analyzer.md)  
 * [Betalningar och betalningsavstämningar (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
@@ -70,7 +70,8 @@ Microsoft ger även följande tillägg:
 >  Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering. Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Se även
-[Utöka Dynamics 365 Business Central](about-develop-extensions.md)  
+[Utökning av Dynamics 365 Business Central](about-develop-extensions.md)  
+[Business Central-tillägg från andra leverantörer](ui-extensions-other.md)  
 [Ställa in bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft ger även följande tillägg:
 [Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

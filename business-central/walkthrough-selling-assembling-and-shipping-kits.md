@@ -1,23 +1,23 @@
 ---
-title: "Genomgång: Sälja, sammanställa och leverera satser | Microsoft Docs"
-description: "För att stödja just-i-tid-lager och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleverans hjälper försäljningsorderhandläggare att anpassa monteringsartikeln och lova leveransdatum utifrån komponentens tillgänglighet. Monteringsförbrukning och monteringsutflöde bokförs dessutom automatiskt tillsammans med utleveransen av den kopplade försäljningsordern."
+title: 'Genomgång: Sälja, sammanställa och leverera satser | Microsoft Docs'
+description: För att stödja just-i-tid-lager och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleverans hjälper försäljningsorderhandläggare att anpassa monteringsartikeln och lova leveransdatum utifrån komponentens tillgänglighet. Monteringsförbrukning och monteringsutflöde bokförs dessutom automatiskt tillsammans med utleveransen av den kopplade försäljningsordern.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852706"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 
@@ -27,7 +27,7 @@ För att stödja just-i-tid-lager och kapaciteten för att anpassa produkter til
 
 Det finns särskilda funktioner för att styra leverans av montering mot kundorder, både i grundläggande och avancerade distributionslagerkonfigurationer. När arbetare ansvariga för slutfört monterande av komponenter för montering eller hela antalet för montering mot kundorder, registrerar de i fältet **Ant. att utleverera** på distributionslagerutleveransraden i avancerade konfigurationer och väljer **Bokför utleverans**. Resultatet är att motsvarande monteringsutflöde bokförs, inklusive den relaterade komponentförbrukningen, och en utleverans för kvantiteterna bokförs för den kopplade försäljningsordern. I den här genomgången visas den avancerade distributionslagerprocessen.  
 
-När antalet för montering mot kundorder är klar för utleverans i grundläggande konfigurationer bokför ansvarig lagerarbetare en lagerplockning för försäljningsorderraderna. Detta skapar en lagerförflyttning för komponenterna, och bokför monteringsutflöde och försäljningsorderleveransen. Mer information finns i avsnittet ”hantera artiklar för montering mot kundorder i lagerplockningar” i Lagerplockning.  
+När antalet för montering mot kundorder är klar för utleverans i grundläggande konfigurationer bokför ansvarig lagerarbetare en lagerplockning för försäljningsorderraderna. Detta skapar en lagerförflyttning för komponenterna, och bokför monteringsutflöde och försäljningsorderleveransen. Mer information finns i [hantera artiklar för montering mot kundorder i lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks) .  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången  
 I den här genomgången tas följande aktiviteter upp:  
@@ -106,7 +106,7 @@ Ta bort standardledtiden för interna processer genom att följa dessa steg:
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Produktionsinställningar** och välj sedan relaterad länk.  
 2.  På sidan **Produktionsinställningar** klickar du på snabbfliken **planering**, tar bort värdet i fältet **Standard säkerhetsledtid**.  
 
-Skapa lagret för monteringskomponenter genom att följa avsnittet "Förbereda exempeldata" i den här genomgången.  
+Skapa lagret för monteringskomponenter genom att följa [förbereda exempeldata](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Situation  
 Den 23 januari tar försäljningsorderhandläggaren Susan en beställning från The Device Shop på tre enheter av sats B, som är ett ATO-objekt. Alla tre enheterna anpassas och måste innehålla det kraftiga grafikkortet och ett extra RAM-block. Skivenheterna uppgraderas till DWD, eftersom CD-enheterna är inte är tillgängliga. Susan vet att enheterna kan monteras omedelbart, så hon lämnar föreslag på leveransdatum den 23 januari.  
@@ -135,7 +135,7 @@ Sammy packar de tio ATS-enheterna med de fem ATO-enheterna som Linda monterade t
 
 När försäljningsordern bokförs senare som fullständigt fakturerad tas försäljningsordern och den kopplade monteringsordern bort.  
 
-## <a name="setting-up-the-sample-data"></a>Ställa in exempeldata  
+## <a name="prepare-sample-data"></a>Förbereda exempeldata  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
 2.  Välj fältet **Journalnamn** och välj sedan standardjournalen.  
@@ -443,4 +443,3 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
  [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
  [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
-

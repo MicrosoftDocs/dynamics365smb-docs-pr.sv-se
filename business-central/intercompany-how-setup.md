@@ -1,6 +1,6 @@
 ---
-title: "Ställa in bokföring av koncerninterna transaktioner | Microsoft Docs"
-description: "Skapa dina koncerninterna leverantörer och kunder som så kallade koncerninterna partners och konfigurera en koncernintern kontoplan."
+title: Ställa in bokföring av koncerninterna transaktioner | Microsoft Docs
+description: Skapa dina koncerninterna leverantörer och kunder som så kallade koncerninterna partners och konfigurera en koncernintern kontoplan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: a549dd926894e8c14a5f57437ca9402e2ddde5d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d6e72ed68f2ab28ebd4daef423304a945a719ed
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852545"
 ---
 # <a name="set-up-intercompany"></a>Koncerninterna inställningar
 Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
@@ -24,7 +24,7 @@ Du måste också ställa in en koncernintern partnerkod för varje partnerföret
 
 Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Artikelkrossreferens**: För att mappa dina artiklars nummer till dina koncerninterna partners beskrivningar av artiklarna öppnar du kortet för varje artikel och väljer sedan åtgärden **Krossreferens** för att ställa in korsreferenser mellan dina artikelbeskrivningar och leverantörens.  
 
-Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i  
+Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i [Ange resurser](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Så här konfigurerar du företag för koncerninterna transaktioner.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk.  
@@ -45,9 +45,9 @@ Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår 
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Så här ställer du in koncernintern kontoplan
 Om en koncern med flera företag ska kunna göra koncerninterna transaktioner måste de komma överens om en kontoplan som de använder som gemensam referens. Du måste komma överens med partnerföretagen om de kontonummer som ska användas när ni skapar koncerninterna transaktioner. Koncernens moderbolag skapar till exempel en förenklad version av sin kontoplan och exporterar den koncerninterna kontoplanen från företagets databas till en XML-fil som distribueras till alla företag inom koncernen.  
 
-Om ditt företag är moderbolaget och har den definierande koncerninterna kontoplanen som din grupp kommer att använda som en gemensam referens följer du proceduren: "Konfigurera den koncerninterna kontoplanen".  
+Om ditt företag är moderbolaget och har den definierande koncerninterna kontoplanen som din grupp kommer att använda som en gemensam referens följer du proceduren: [Konfigurera den koncerninterna kontoplanen](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
-Om ditt företag är ett dotterbolag och du har fått en XML-fil med den gemensamma koncerninterna kontoplanen följer du proceduren: "Att importera den koncerninterna kontoplanen".  
+Om ditt företag är ett dotterbolag och du har fått en XML-fil med den gemensamma koncerninterna kontoplanen följer du proceduren: [Att importera den koncerninterna kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Så här konfigurerar du den definierande koncerninterna kontoplanen
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konc.int. kontoplan** och välj sedan relaterad länk.
@@ -84,14 +84,14 @@ När du anger ett redovisningskonto i fältet **Balanskontonr** på en koncernin
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
 2. På raden för ett konto som används för koncerninterna transaktioner i fältet **Std.kontonr. konc.int. part.** anger det koncerninterna redovisningskonto som partnern ska bokföra på när du bokför till redovisningskontot på den raden.  
-3. Upprepa steg 3 för varje konto som du ofta anger i fältet **Balanskontonr** på en rad i en koncernintern journal eller i ett koncerninternt dokument.
+3. Upprepa steg 2 för varje konto som du ofta anger i fältet **Balanskontonr** på en rad i en koncernintern journal eller i ett koncerninternt dokument.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Så här ställer du in koncerninterna dimensioner
 Om du och dina koncerninterna partner vill kunna utbyta transaktioner med tillhörande dimensioner måste ni komma överrens om de dimensioner som ni alla kommer att använda. Koncernens moderbolag kan till exempel skapa en förenklad version av sin uppsättning dimensioner, exportera de som koncerninterna dimensioner till en XML-fil och distribuera den till företagen i koncernen. Varje dotterbolag importerar sedan XML-filen till sidan **Koncerninterna dimensioner** och kopplar de koncerninterna dimensionerna till dimensionerna i deras egen **Dimensions**-sida.  
 
-Om ditt företag är moderbolaget och har den definierande uppsättningen koncerninterna dimensioner som koncernen ska använda som en gemensam referens följer du proceduren: "Definiera koncerninterna dimensioner".
+Om ditt företag är moderbolaget och har den definierande uppsättningen koncerninterna dimensioner som koncernen ska använda som en gemensam referens följer du proceduren: [Definiera koncerninterna dimensioner](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
-Om företaget är ett dotterbolaget och du får en XML-fil med de koncerninterna dimensioner som ska användas som gemensam referens i koncernen följder du proceduren: "Importera koncerninterna dimensioner".
+Om företaget är ett dotterbolaget och du får en XML-fil med de koncerninterna dimensioner som ska användas som gemensam referens i koncernen följder du proceduren: [Importera koncerninterna dimensioner](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Definiera koncerninterna dimensioner
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna dimensioner** och välj sedan relaterad länk.  
@@ -133,4 +133,3 @@ Om några av de koncerninterna dimensionerna har samma koder som motsvarande dim
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

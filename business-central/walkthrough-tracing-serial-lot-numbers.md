@@ -1,25 +1,25 @@
 ---
-title: "Genomgång: Spåra serienummer/partinummer | Microsoft Docs"
-description: "När produktfel inträffar måste felen identifieras och de artiklar som påverkas måste hindras från att lämna företaget. Ifall defekta produkter redan har skickats måste du spåra vem som tagit emot dem och, vid behov, att återkalla dessa artiklar."
+title: 'Genomgång: Spåra serienummer/partinummer | Microsoft Docs'
+description: När produktfel inträffar måste felen identifieras och de artiklar som påverkas måste hindras från att lämna företaget. Ifall defekta produkter redan har skickats måste du spåra vem som tagit emot dem och, vid behov, att återkalla dessa artiklar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853169"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Genomgång: Spåra serienummer/partinummer
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
 **Obs**! i den här genomgången måste utföras på ett demonstrationsföretag, med alternativet **Fullständig utvärdering - fullständig exempeldata** som är tillgängliga i begränsat läge. Mer information finns i [Skapa en miljö för begränsat lägel](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 För att kunna utföra den här genomgången behöver du:  
 
 -   Företaget [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Du kan skapa nya artiklar och flera affärstransaktioner genom att följa avsnittet "Förbereda exempeldata" senare i den här genomgången.  
+-   Du kan skapa nya artiklar och ett antal affärstransaktioner genom att följa stegen i [Förbereda exempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Situation  
 Kvalitetskontrollanten Rickard utreder en försäljningsretur av artikel 1002, Racercykel. Kunden, Selangorian AB, har klagat på att svetsfogarna i ramen har spruckit. Teknikerna på kvalitetskontrollen har bekräftat att den returnerade cykelns racingram är defekt. Nu måste kvalitetskontrollen fastställa följande:  
@@ -298,4 +298,3 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
-

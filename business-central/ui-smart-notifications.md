@@ -1,8 +1,8 @@
 ---
-title: "Arbeta med smarta meddelanden och ange när du ser den | Microsoft Docs"
-description: "Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå."
+title: Arbeta med smarta meddelanden och ange när du ser den | Microsoft Docs
+description: Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852171"
 ---
-# <a name="smart-notifications"></a>Smarta meddelanden
+# <a name="managing-notifications"></a>Hantera meddelanden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hjälper dig att arbeta mer smart genom att meddela dig om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Dessa meddelanden visas som diskreta tips i kontexten för uppgiften som du gör, och du kan välja att ignorera meddelandet eller visa detaljer om utskick.  
 
 Om du väljer att visa detaljer för ett meddelande, kan du vidta vill att lösa problemet, som till exempel kontakta kunden, köpa mer lager och så vidare. Det är du som väljer vad som ska göras och [!INCLUDE[d365fin](includes/d365fin_md.md)] ger dig råd och rekommendationer.  
@@ -38,4 +38,3 @@ Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för d
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

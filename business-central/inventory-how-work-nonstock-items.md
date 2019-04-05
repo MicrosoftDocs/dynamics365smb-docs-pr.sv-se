@@ -1,7 +1,7 @@
 ---
 title: Skapa och hantera katalogartiklar | Microsoft Docs
-description: "Beskriver hur du byter artiklar som finns i leverantörslistan av artiklar, men inte i listan med poster."
-documentationcenter: 
+description: Beskriver hur du byter artiklar som finns i leverantörslistan av artiklar, men inte i listan med poster.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836141"
 ---
 # <a name="work-with-catalog-items"></a>Arbeta med katalogartiklar
 Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du inte vill hantera i ditt system, tills du börjar sälja dem. När du vill börja hantera sådana artiklar i ditt system, kan du konvertera dem till vanliga artikelkort på två sätt.
@@ -66,11 +66,10 @@ Ett nytt artikelkort förifyllt med information från katalogartikeln och en rel
 Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   En korsreferenspost för artikel skapas automatiskt för den leverantör som levererar artikeln mellan leverantörens artikelnummer och det nya artikelnumret.
+>   En korsreferenspost för artikel skapas automatiskt för den leverantör som levererar artikeln mellan leverantörens artikelnummer och det nya artikelnumret. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Se även
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Skapa specialorder](sales-how-to-create-special-orders.md)|  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Behandla inkommande och utgående koncerninterna transaktioner | Microsoft Docs"
-description: "Koncerninterna transaktioner som du tar emot från dina koncerninterna partner visas i den koncerninterna inkorgen där du behandlar dem manuellt eller automatiskt."
+title: Behandla inkommande och utgående koncerninterna transaktioner | Microsoft Docs
+description: Koncerninterna transaktioner som du tar emot från dina koncerninterna partner visas i den koncerninterna inkorgen där du behandlar dem manuellt eller automatiskt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853287"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
 Alla koncerninterna transaktioner som du tar emot elektroniskt från dina koncerninterna partner visas i den koncerninterna inkorgen.  
@@ -43,7 +43,7 @@ Du kan använda fältet **Visa transaktionskälla** om du vill filtrera sidan **
 #### <a name="returned-from-intercompany-partner"></a>Returnerad från koncernintern partner  
  Om transaktionen har avvisats av den koncerninterna partnern är ditt enda alternativ att avbryta transaktionen i inkorgen. Du måste därefter skapa korrigeringsrader eller återföra journalen eller dokumentet i företaget.  
 
-## <a name="re-creating-inbox-entries"></a>Återskapa poster i inkorgen  
+## <a name="recreating-inbox-entries"></a>Återskapa poster i inkorgen  
  Om du har accepterat en transaktion i inkorgen men därefter tagit bort dokumentet eller journalen i stället för att bokföra den kan du återskapa posten i inkorgen och acceptera den på nytt.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Skaffa en översikt över koncerninterna transaktioner för en period  
@@ -105,4 +105,3 @@ Den här proceduren beskriver hur du återskapar inkorgstransaktioner, men det f
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

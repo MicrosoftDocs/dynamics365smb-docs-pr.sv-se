@@ -1,23 +1,23 @@
 ---
 title: Automatiska kontokoder
-description: "Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument."
+description: Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e8e80ac48087770b7122ad7f9d76bd139fe0c9fe
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6ea7273f829741e36b04d8b9e22a1dc87c09dac7
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827169"
 ---
 # <a name="automatic-account-codes"></a>Automatiska kontokoder
 Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument. Dessa bokföringsmallar kan du använda i hela [!INCLUDE[d365fin](../../includes/d365fin_md.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.  
@@ -30,4 +30,3 @@ Du kan även använda automatiska kontokoder för att automatiskt fördela kostn
  [Ställ in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)   
  [Ställa in bokföringsmallar](../../finance-posting-groups.md)  
  [Arbeta med redovisningsjournaler](../../ui-work-general-journals.md)
-

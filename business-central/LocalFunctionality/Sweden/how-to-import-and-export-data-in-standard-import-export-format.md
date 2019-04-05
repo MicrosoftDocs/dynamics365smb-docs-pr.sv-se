@@ -1,23 +1,23 @@
 ---
-title: "Så här importerar och exporterar du data i SIE-format (Standard Import Export)"
+title: Så här importerar och exporterar du data i SIE-format (Standard Import Export)
 description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 8bfe55ccdb495f72d14c2bff2fad8b69f8b51c63
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827165"
 ---
 # <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
@@ -58,4 +58,3 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 ## <a name="see-also"></a>Se även  
  [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
-
