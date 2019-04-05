@@ -1,6 +1,6 @@
 ---
-title: "Hämta klienter till Dynamics 365 revisorsupplevelse | Microsoft Docs"
-description: "Lär dig hur du lägger till befintliga klienter i Accountant Hub för Dynamics 365."
+title: Hämta klienter till Dynamics 365 revisorsupplevelse | Microsoft Docs
+description: Lär dig hur du lägger till befintliga klienter i Accountant Hub för Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807732"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Lägga till klienter i instrumentpanelen i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -33,7 +33,7 @@ Datan i ett kort för varje klient som anges av dig och du kan ändra den efter 
 Klien-URL:en används sedan när du väljer menyobjektet **Gå till företag** på instrumentpanelen [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Bli inbjuden till en klients [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
-Ett företag som använder [!INCLUDE [d365fin](includes/d365fin_md.md)]kan bjuda in dig till [!INCLUDE [d365fin](includes/d365fin_md.md)]som deras extern revisor. Om du vill bli inbjuden måste du ge dem den e-postadress som du använder med [!INCLUDE [d365acc](includes/d365acc_md.md)], såsom <em>me@accountant.com</em>. Klientens administratör kan sedan lägga till dig i sina system genom att köra guiden **bjuda in extern revisor**.  
+Ett företag som använder [!INCLUDE [d365fin](includes/d365fin_md.md)]kan bjuda in dig till [!INCLUDE [d365fin](includes/d365fin_md.md)]som deras extern revisor. Om du vill bli inbjuden måste du ge dem den e-postadress som du använder med [!INCLUDE [d365acc](includes/d365acc_md.md)] såsom <em>me@accountant.com</em>. Klientens administratör kan sedan lägga till dig i sina system genom att köra guiden **bjuda in extern revisor**.  
 
 Därför får du e-post från en klient med länkar till deras [!INCLUDE [d365fin](includes/d365fin_md.md)]. Den första länken är en inbjudan för att få tillgång till företaget – öppna länken och acceptera stegen som lägger till klienternas [!INCLUDE [d365fin](includes/d365fin_md.md)]. Den andra länken är för att lägga till den här klienten till instrumentpanelen i [!INCLUDE [d365acc](includes/d365acc_md.md)] som beskrivs ovan.  
 
@@ -42,4 +42,3 @@ När du har accepterat inbjudan kan du har loggat in och kan komma åt den klien
 ## <a name="see-also"></a>Se även
 [Komma igång med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Felsökning [!INCLUDE[d365acc](includes/d365acc_md.md)]](troubleshooting.md)  
-

@@ -1,8 +1,8 @@
 ---
 title: Koppla transaktioner i olika valutor | Microsoft Docs
-description: "Du kan koppla transaktioner i olika valutor om du t.ex.. säljer i en valuta och får betalningen i en annan valuta."
+description: Du kan koppla transaktioner i olika valutor om du t.ex.. säljer i en valuta och får betalningen i en annan valuta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807956"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivera koppling av kundreskontratransaktioner till olika valutor
 Om en valuta används vid inköp från en leverantör och en annan vid betalning kan du koppla betalningen till inköpet.
@@ -51,4 +51,3 @@ Om du kopplar transaktioner till olika valutor måste du ange de redovisningskon
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

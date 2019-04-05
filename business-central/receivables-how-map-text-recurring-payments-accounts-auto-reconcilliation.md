@@ -1,6 +1,6 @@
 ---
-title: "Ställa in mappning för text-till-konto för återkommande betalningar | Microsoft Docs"
-description: "Länka text på betalningar med specifika konton så att betalningar bokförs på kontona när du bokför utbetalningsjournalen för avstämning."
+title: Ställa in mappning för text-till-konto för återkommande betalningar | Microsoft Docs
+description: Länka text på betalningar med specifika konton så att betalningar bokförs på kontona när du bokför utbetalningsjournalen för avstämning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 357febcb3984db658c0742f013aff65301ae6f42
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 492ab7550a82f291566c0170ae42ba46de0ad292
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807077"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
 På sidan **Mappa text till konto** som du öppnar från sidan **Betalningsavstämningsjournal** kan du skapa mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.
@@ -55,13 +55,9 @@ Om du alltid vill bokföra bränslekostnader upplupna på Shell-bensinmackar i r
 | --- | --- | --- | --- | --- |
 | Gränssnitt |TOM |8510 |Redovisningskonto |TOM |
 
-> [!TIP]  
->   Mer information om hur du arbetar med fält och kolumner hittar du i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). För mer information om hur du hittar specifika sidor se [Sök](ui-search.md).
-
 ## <a name="see-also"></a>Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
-[Konfigurera bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
+[Ställa in bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

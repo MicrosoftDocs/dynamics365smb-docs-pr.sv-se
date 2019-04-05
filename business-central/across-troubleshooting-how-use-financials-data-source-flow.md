@@ -1,7 +1,7 @@
 ---
-title: "Felsöka integrering med Microsoft Flow | Microsoft Docs"
-description: "Felsök hur du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa ett automatiskt arbetsflöde."
-documentationcenter: 
+title: Felsöka integrering med Microsoft Flow| Microsoft Docs
+description: Felsök hur du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa ett automatiskt arbetsflöde.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,20 +11,20 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0818550021bf17e5a269d3e11f8db54b9ff80dfa
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807576"
 ---
-# <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Felsöka integrering med Microsoft Flow - URL för begäran är för lång
+# <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Felsöka integrering med Microsoft Flow URL för begäran är för lång
 Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del av ett arbetsflöde i Microsoft Flow.  
 
 > [!NOTE]  
 >   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Flow.  
 
-Om du skapar ett Microsoft Flow med hjälp av anslutningen [!INCLUDE[d365fin](includes/d365fin_md.md)] visas ibland ett felmeddelande om att begärd URL är för lång efter det att flödet har skapats, till exempel: **RequestUriTooLong**.
+Om du skapar ett Microsoft Flow med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)]-anslutningen visas ibland ett felmeddelande om att begärd URL är för lång efter det att flödet har skapats, till exempel: **RequestUriTooLong**.
 
 ## <a name="cause"></a>Orsak
 För att ett flöde ska lösa ut letar det efter ändringar i dina data. För att bestämma huruvida din information har ändrats, jämför kopplingarna cachelagrade data med de nya uppgifter som begärs från källan.  
@@ -52,4 +52,3 @@ Till exempel: Om den tabell som du använder som datakälla har 4 000 transakti
 [Hantera användare och behörigheter](ui-how-users-permissions.md)    
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Ekonomi](finance.md)  
-

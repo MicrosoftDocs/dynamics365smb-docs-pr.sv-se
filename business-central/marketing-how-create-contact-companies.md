@@ -1,8 +1,8 @@
 ---
-title: "Skapa kontaktföretag | Microsoft Docs"
-description: "Beskriver hur du skapar en kontakt för varje nytt företag eller potentiellt företag som du interagerar med eller har en relation med."
+title: Skapa kontaktföretag | Microsoft Docs
+description: Beskriver hur du skapar en kontakt för varje nytt företag eller potentiellt företag som du interagerar med eller har en relation med.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808300"
 ---
-# <a name="create-contact-companies"></a>Skapa kontaktföretag
+# <a name="create-contacts"></a>Skapa kontakter
 Du kan skapa en kontakt för varje nytt företag som du har förbindelse med, till exempel kund, leverantör, spekulant, bank, jurist, konsult och så vidare.
 
 Det finns två sätt att skapa en kontakt: från noll eller från en befintlig kund, leverantör eller bankkonto.
-
-Innan du skapar en kontakt kan du kontrollera inställningarna på sidan **Affärsstödsinställning**. Mer information finns i [Ställa in e-postmeddelanden](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Skapa en företagskontakt från noll
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.
@@ -61,4 +59,3 @@ Om du redan har lagt upp flera kunder, leverantörer eller bankkonton kan du ska
 [Tilldela utskicksgrupp till en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Skapa kontaktpersoner](marketing-create-contact-persons.md)  
 [Arbeta med Business Central](ui-work-product.md)
-

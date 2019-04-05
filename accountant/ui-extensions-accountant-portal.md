@@ -1,6 +1,6 @@
 ---
-title: "Använda Revisorsportalen | Microsoft Docs"
-description: "Innehåller information om tillägget Revisorsportalen."
+title: Använda Revisorsportalen | Microsoft Docs
+description: Innehåller information om tillägget Revisorsportalen.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
+ms.openlocfilehash: 523b629014b9a1641ebaba429678e4bd1759631a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: b885c47a3fd4499b670a89844277a7e34f809f6f
-ms.contentlocale: sv-se
-ms.lasthandoff: 05/31/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807966"
 ---
-# <a name="accountant-portal-for-dynamics-365-business-central"></a>Revisorportal för Dynamics 365 Business Central
+# <a name="accountant-portal-for-dynamics-365-business-central"></a>Revisorsportal för Dynamics 365 Business Central
 Det här programmet har en portal med summerad information för varje klient från en revisor. Portalen visar ekonomiska KPI:er som en direkt länk till klientens affärssystem.  
 
 Portalen innehåller ett mycket specialiserat rollcenter som fungerar som en instrumentbräda för en bättre överblick över dina kunder.  
@@ -31,4 +31,3 @@ När du lägger till tillägg till din [!INCLUDE [d365fin](includes/d365fin_md.m
 ## <a name="see-also"></a>Se även
 [Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Komma igång med [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här anger du när och hur användare ska meddelas | Microsoft Docs"
-description: "När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan Konfigurera meddelanden och Meddelandeschema. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen Ändra meddelandeinställningar i något meddelande."
+title: Så här anger du när och hur användare ska meddelas | Microsoft Docs
+description: När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan Konfigurera meddelanden och Meddelandeschema. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen Ändra meddelandeinställningar i något meddelande.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807687"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Ange när och hur meddelanden ska tas emot
 När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan **Konfigurera meddelanden** och **Meddelandeschema**. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
@@ -65,4 +65,3 @@ När du konfigurerar användare i godkännandearbetsflöden måste du ange hur o
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Inleverera och införa utflöde i avancerad lagerstyrning | Microsoft Docs"
-description: "I Business Central kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå."
+title: Inleverera och införa utflöde i avancerad lagerstyrning | Microsoft Docs
+description: I Business Central kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807234"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer
 
@@ -55,7 +55,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 ## <a name="prerequisites"></a>Förutsättningar  
 För att kunna utföra den här genomgången behöver du:  
 
--   CRONUS Sverige AB installerad  
+-   CRONUS Sverige Ab installerad.  
 -   Om du vill Ange dig själv som distributionslagerpersonal på lagerstället VIT följer du de här stegen:  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
@@ -159,4 +159,3 @@ På sidan **Dist.lager artikelinförsel** kan du hantera artikelinförslar för 
  [Designdetaljer: Ankommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
  [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)
-

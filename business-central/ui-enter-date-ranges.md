@@ -1,7 +1,7 @@
 ---
 title: Ange datum och tider i Business Central | Microsoft Docs
-description: "Lära dig att ange datum och tider, inklusive olika tips för produktivitet till exempel snabbskrift, uttryck och intervaller. Filtrera listor eller rapporter till specifika datum- och tidsperioder."
-documentationcenter: 
+description: Lära dig att ange datum och tider, inklusive olika tips för produktivitet till exempel snabbskrift, uttryck och intervaller. Filtrera listor eller rapporter till specifika datum- och tidsperioder.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807439"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
@@ -372,4 +371,3 @@ Till exempel om mätenheten är timmar konverteras siffran `5` till 5 timmar.
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
 [Ange villkor i filter](ui-enter-criteria-filters.md)  
-

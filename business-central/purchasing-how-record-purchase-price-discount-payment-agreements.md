@@ -1,6 +1,6 @@
 ---
-title: "Ställ in särskilda och alternativa priser och rabatter för leverantörer | Microsoft Docs"
-description: "Du kan definiera olika eller alternativa priser och rabattavtal och koppla dem till inköpsdokument för leverantörer."
+title: Ställ in särskilda och alternativa priser och rabatter för leverantörer | Microsoft Docs
+description: Du kan definiera olika eller alternativa priser och rabattavtal och koppla dem till inköpsdokument för leverantörer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ffdb6c4abc4c3a14714c84c8b53798ab8dcee7f2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808051"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrera speciella inköpspriser och rabatter
 De olika pris- och rabattavtalen som gäller när artiklar köps in från olika leverantörer måste definieras så att de överenskomna reglerna och värdena används i de inköpsdokument som du skapar för leverantören.
 
-När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader. Mer information finns i avsnittet "Bästa prisberäkning".
+När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader. Mer information finns i [bästa prisberäkning](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 När det gäller priser kan du infoga ett särskilt inköpspris på inköpsrader, om en viss kombination av leverantör, artikel, minsta kvantiteten, måttenhet eller start-/slutdatum finns.
 
@@ -125,4 +125,3 @@ Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen d
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

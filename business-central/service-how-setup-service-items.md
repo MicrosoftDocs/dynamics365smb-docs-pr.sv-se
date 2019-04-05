@@ -1,23 +1,23 @@
 ---
 title: Konfiguration serviceartiklar och serviceartikelkomponenter | Microsoft Docs
-description: "Mer information om saker som du måste ställa in innan du kan använda serviceartiklar, inklusive standardvärden, till exempel svarstid, kontraktrabatt i procent och serviceprisgrupp."
+description: Mer information om saker som du måste ställa in innan du kan använda serviceartiklar, inklusive standardvärden, till exempel svarstid, kontraktrabatt i procent och serviceprisgrupp.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807657"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Ställa in tjänsteartiklar och tjänsteartikelkomponenter
 Om du vill arbeta med serviceartiklar måste du ställa in följande
@@ -65,4 +65,3 @@ Du kan lägga upp servicehyllor som hjälper till att identifiera där du lagrar
 ## <a name="see-also"></a>Se även
 [Skapa koder för standardtjänst](service-how-setup-service-coding.md)   
 [Ställa in felsökning](service-how-setup-troubleshooting.md)
-

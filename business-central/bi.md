@@ -1,8 +1,8 @@
 ---
-title: "Affärsstöd | Microsoft Docs"
-description: "Fånga och analysera affärsdata, som t.ex. försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare."
+title: Affärsstöd | Microsoft Docs
+description: Fånga och analysera affärsdata, som t.ex. försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807938"
 ---
 # <a name="business-intelligence"></a>Affärsstöd
 Företag skapar och hanterar oerhörda mängder data under sin dagliga verksamhet. Dessa data, som återspeglar till exempel organisationens försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare. [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal funktioner som hjälper dig att samla, analysera och dela med dig av dina företagsdata.
@@ -42,9 +42,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ekonomi](finance.md)    
 [Använda Business Central som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Stänga räkenskapsperioder](year-close-years-periods.md)  
-[Importera data från andra finansiella system](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importera data från andra finansiella system](across-import-data-configuration-packages.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

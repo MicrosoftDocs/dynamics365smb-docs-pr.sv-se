@@ -1,8 +1,8 @@
 ---
-title: "Bearbeta affärsmöjligheter i försäljningscykler | Microsoft Docs"
-description: "Visa, stänga eller ta bort affärsmöjligheter och du kan skapa offerter och försäljningsorder för affärsmöjligheter och flytta en affärsmöjlighet genom försäljningscykelns olika faser."
+title: Bearbeta affärsmöjligheter i försäljningscykler | Microsoft Docs
+description: Visa, stänga eller ta bort affärsmöjligheter och du kan skapa offerter och försäljningsorder för affärsmöjligheter och flytta en affärsmöjlighet genom försäljningscykelns olika faser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807816"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
@@ -87,4 +87,3 @@ Om en affärsmöjlighet följer en försäljningscykel, kan du flytta den framå
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

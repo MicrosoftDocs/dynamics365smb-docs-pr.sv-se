@@ -1,6 +1,6 @@
 ---
-title: "Svara på begäranden om personuppgifter"
-description: "Du måste svara på begäranden från uppgiftssubjekt."
+title: Svara på begäranden om personuppgifter
+description: Du måste svara på begäranden från uppgiftssubjekt.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
@@ -8,14 +8,13 @@ ms.custom: na
 ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807839"
 ---
-
 # <a name="responding-to-requests-about-personal-data"></a>Svara på begäranden om personuppgifter  
 Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina uppgifter och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under **Datasekretess** i rollcentret **Hantera användare, användargrupper och behörigheter** eller, om du använder Windows-klienten, i rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  
 
@@ -63,4 +62,3 @@ Om en kontaktperson ålder understiger åldern för juridiskt godkännande enlig
 [Exportera dina affärsdata till Excel](about-export-data.md)  
 [Logga ändringar](across-log-changes.md)  
 [Registrerades begäran för GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Så här skapar du cykler för affärsmöjligheter och cykeletapper | Microsoft Docs"
-description: "Beskriver hur du definierar säljetapper från första kontakt till avslut om du vill skapa en försäljningscykel och tilldela affärsmöjligheter i Business Central."
+title: Så här skapar du cykler för affärsmöjligheter och cykeletapper | Microsoft Docs
+description: Beskriver hur du definierar säljetapper från första kontakt till avslut om du vill skapa en försäljningscykel och tilldela affärsmöjligheter i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: jswymer
+ms.openlocfilehash: 0cd630da56c26ff9b21f94a99217f801bc9d23ba
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808302"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Skapa cykler för affärsmöjligheter och cykeletapper
 Innan du börjar använda affärsmöjligheter måste du skapa försäljningscykler och försäljningscykeletapper. En försäljningscykel består av en serie etapper från den första kontakten till en genomförd försäljning. Varje etapp kan ha vissa krav som måste uppfyllas, till exempel att kräva en förs.offert innan en affärsmöjlighet kan gå till nästa etapp. Du kan också ange om en etapp kan hoppas över. Du kan skapa ett valfritt antal försäljningscykler och så många etapper som behövs inom en försäljningscykel.
 
 Att använda affärsmöjlighetscykeler omfattar att skapa försäljningscykel och definiera de olika etapperna i cykeln och sedan tilldela cykeln till affärsmöjligheter. Tilldela relevant affärsmöjlighet eller uppgifter till kan också vara ställer in en försäljningscykel.
 
-Det här avsnittet beskriver även hur du ställer in uppgifter och aktiviteter och tilldela uppgifter till aktiviteter. Mer information finns i avsnittet ”Skapa aktiviteter med uppgifter”.
+Det här avsnittet beskriver även hur du ställer in uppgifter och aktiviteter och tilldela uppgifter till aktiviteter. Mer information finns i [Skapa aktiviteter med uppgifter](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Så här skapar du cykelkoder för affärsmöjligheter:
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningscykler** och välj sedan relaterad länk. Sidan **Försäljningscykler** öppnas och visar alla befintliga försäljningscyklar.
@@ -66,4 +66,3 @@ När du har lagt upp en aktivitet kan du tilldela aktiviteten som uppgiften till
 [Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

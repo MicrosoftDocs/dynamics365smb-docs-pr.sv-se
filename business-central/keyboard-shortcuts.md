@@ -1,6 +1,6 @@
 ---
 title: Kortkommandon
-description: "En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data."
+description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806903"
 ---
-
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
 
@@ -160,4 +159,3 @@ The following table describes the keyboard shortcuts that you can use in a list 
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
-

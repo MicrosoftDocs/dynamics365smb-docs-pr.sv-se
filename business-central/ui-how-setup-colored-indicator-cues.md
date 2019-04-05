@@ -1,8 +1,8 @@
 ---
 title: Anpassa visuella signaler om en stack-ikons aktivitet | Microsoft Docs
-description: "Skapa en färgindikator på en stack-ikon för att ge en anpassad visuell signal på stack-ikonens aktivitet."
+description: Skapa en färgindikator på en stack-ikon för att ge en anpassad visuell signal på stack-ikonens aktivitet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807475"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Skapa en färglagd indikator på stack-ikoner
 Du kan konfigurera stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.
@@ -46,4 +46,3 @@ Efterföljande tabeller listar de bakgrundsfärger som motsvarar alternativen f�
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

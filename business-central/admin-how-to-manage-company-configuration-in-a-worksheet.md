@@ -1,23 +1,23 @@
 ---
-title: "Så här hanterar du företagskonfigurationen i ett kalkylark | Microsoft Docs"
-description: "Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag."
+title: Så här hanterar du företagskonfigurationen i ett kalkylark | Microsoft Docs
+description: Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807915"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
 Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.  
@@ -74,7 +74,7 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
     > Exempel: Om du får relaterade tabeller för tabellen **Kund** kommer tabellen **Lagerställe** inte att läggas till eftersom den bara är villkorligt relaterad till tabellen **Kund**, nämligen om fältet **Lagerställekod** i tabellen **Kund** har fyllts i.  
     > - Den relaterade tabellen filtreras.  
     > Exempel: Ett fält i den relaterade tabellen har en WHERE-sats. Anledningen till det är att den ingående relationsinformationen lagras i den virtuella tabellen **Fält** och är inte tillgänglig på sidor som konfigurationskalkylarket av prestandaanledningar.  
-    > Du måste lägga till relaterade tabeller med sådana komplexa relationer manuellt genom att följa steg 4 i avsnittet ”Så här lägger du till en tabell i kalkylarket”.
+    > Du måste lägga till relaterade tabeller med sådana komplexa relationer manuellt genom att följa steg 4 i avsnittet [Så här lägger du till en tabell i kalkylarket](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Om du vill ta bort tabeller i den resulterande listan över tabeller, väljer du en tabell som du vill ta bort och väljer sedan åtgärden **Ta bort**.  
 
@@ -128,4 +128,3 @@ När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa 
 [Ställa in företagskonfiguration](admin-set-up-company-configuration.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

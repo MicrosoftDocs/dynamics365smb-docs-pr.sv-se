@@ -1,7 +1,7 @@
 ---
-title: "Så här spårar du godspaket | Microsoft Docs"
-description: "Använd speditörernas godsupplysningstjänst om du vill visa förloppet för en leverans."
-documentationcenter: 
+title: Så här spårar du godspaket | Microsoft Docs
+description: Använd speditörernas godsupplysningstjänst om du vill visa förloppet för en leverans.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807893"
 ---
 # <a name="track-packages"></a>Spåra paket
 Ett antal speditörer tillhandahåller tjänster på Internet genom vilka det går att spåra godspaket som har överlämnats till speditören. Om du anlitar en eller flera av dessa speditörer kan du lägga in viss grundinformation och använda den automatiska spårningsfunktionen från bokförda leveranser. För mer information, se [Ställa in speditörer](sales-how-to-set-up-shipping-agents.md).  
@@ -35,4 +35,3 @@ Speditörens spårningssida öppnas i standardwebbläsaren.
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Översikt över aktiviteterna som avslutar böckerna | Microsoft Docs"
-description: "Mer information om hur du avslutar böckerna för ett räkenskapsår eller en period och vad som händer när du avslutar i slutet av året."
+title: Översikt över aktiviteterna som avslutar böckerna | Microsoft Docs
+description: Mer information om hur du avslutar böckerna för ett räkenskapsår eller en period och vad som händer när du avslutar i slutet av året.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6894fad3654f204d79144946776b36dcb2d43665
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808128"
 ---
 # <a name="closing-the-books"></a>Avsluta böckerna
 När du försäkrat dig om att alla dina räkenskaper är uppdaterade och du fördelat kostnader och intäkter, kan du avsluta böckerna för ett räkenskapsår eller en period.
@@ -56,4 +56,3 @@ Du kan bokföra i ett föregående räkenskapsår även efter att resultatkonton
 ## <a name="see-also"></a>Se även
 [Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

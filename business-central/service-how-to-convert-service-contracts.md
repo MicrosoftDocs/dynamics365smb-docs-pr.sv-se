@@ -1,21 +1,21 @@
 ---
-title: "Så här: Omvandla servicekontrakt | Microsoft Docs"
-description: "Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt."
+title: 'Så här: Omvandla servicekontrakt | Microsoft Docs'
+description: Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807172"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du servicekontrakt som innehåller momsbelopp
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
@@ -68,4 +68,3 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 [Ekonomi](finance.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-

@@ -1,18 +1,18 @@
 ---
 title: Nyheter i Business Central | Microsoft Docs
-description: "Så här får du senaste nyheterna och uppdateringar för Business Central."
+description: Så här får du senaste nyheterna och uppdateringar för Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release notes, roadmap, whats new
 ms.date: 12/03/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 39679a81751f49af8ebccbb904f6a2b4466172d1
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807152"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nyheter i Dynamics 365 Business Central
 
@@ -30,4 +30,3 @@ Vi talar även om nya funktioner i [Business Central-bloggen](https://community.
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Central-prissättning](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business/)  
-

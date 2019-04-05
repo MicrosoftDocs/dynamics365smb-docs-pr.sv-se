@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - Artikelspårning | Microsoft Docs"
-description: "Det här avsnittet innehåller en översikt av designinformation för artikelspårning."
+title: Designdetaljer - Artikelspårning | Microsoft Docs
+description: Det här avsnittet innehåller en översikt av designinformation för artikelspårning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807045"
 ---
 # <a name="design-details-item-tracking"></a>Designdetaljer: Objektspårning
 Eftersom varuflödet i dagens försörjningskedja blir mer och mer komplicerat, är möjligheten att hålla reda på artiklar och allt viktigare för de inblandade företagen. Övervaka en artikels transaktionsflöde är en lagkrav i företag för medicinsk och kemisk leverans, men andra företag kan vilja övervaka produkter med garantier eller utgångsdatum av kundserviceanledningar.  
@@ -33,4 +33,3 @@ Ett artikelspårningsystem bör ge ett företag en enkel hantering av serie- och
 [Designdetaljer: Artikelkoppling och planering](design-details-item-tracking-and-planning.md)  
 [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Designdetaljer: Artikelkoppling i distributionslagret](design-details-item-tracking-in-the-warehouse.md)
-

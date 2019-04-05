@@ -1,8 +1,8 @@
 ---
-title: "Så här skapar du monteringsorder för avrop | Microsoft Docs"
-description: "Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering** så är standard metoden för att tillhandahålla artikeln att sammanställa den av definierade komponenter, eventuellt med en angiven resurs."
+title: Så här skapar du monteringsorder för avrop | Microsoft Docs
+description: Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering** så är standard metoden för att tillhandahålla artikeln att sammanställa den av definierade komponenter, eventuellt med en angiven resurs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/20/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 8796ccf6ce73ded327fad35573a2268e249fb7a7
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807994"
 ---
 # <a name="create-blanket-assembly-orders"></a>Skapa monteringsorder för avrop
 Du kan använda monteringshantering för att anpassa en monteringsartikel till ett kundkrav under försäljningsprocessen. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -49,4 +49,3 @@ Den länkade avropsmonteringsofferten och eventuella anpassningar är kopplade t
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

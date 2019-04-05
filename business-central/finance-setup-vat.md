@@ -1,6 +1,6 @@
 ---
-title: "Om att ställa in moms | Microsoft Docs"
-description: "Se till att du korrekt beräknar, bokför och rapporterar om moms för försäljning och inköp."
+title: Om att ställa in moms | Microsoft Docs
+description: Se till att du korrekt beräknar, bokför och rapporterar om moms för försäljning och inköp.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807382"
 ---
-
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Förbereda beräknings- och bokföringsmetoder för moms
 Konsumenter och företag betalar moms när de köper varor eller tjänster. Momsbeloppet att betala kan variera beroende på flera faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] ställer du in moms för att ange de satser som ska användas för beräkning av momsbelopp baserat på följande:
 
@@ -53,7 +52,7 @@ Om du vill skapa momsregistreringsnummer, gör då så här:
 * **?** Alla tecken tillåtna.  
 
     > [!Tip]
-    > Du kan använda andra tecken förutsatt att dessa förekommer i landets/regionens format. Om du till exempel behöver inkludera en punkt eller ett bindestreck mellan olika uppsättningar siffror kan du exempelvis definiera formatet som ##. ####. ### eller @@-###-###.  
+    > Du kan använda andra tecken förutsatt att dessa förekommer i landets/regionens format. Om du till exempel behöver inkludera en punkt eller ett bindestreck mellan olika uppsättningar siffror kan du exempelvis definiera formatet som ##.####.### or @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Så här skapar du rörelsebokföringsmallar för moms
 Rörelsebokföringsmallar för moms representerar de marknader där du gör affärer med kunder och leverantörer och definierar hur moms beräknas och bokförs på varje marknad. Exempel på momsrörelsebokföringsmallar är **Inhemsk** och **Europeiska unionen (EU)**.  
@@ -271,4 +270,3 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 [Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  
 [Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-

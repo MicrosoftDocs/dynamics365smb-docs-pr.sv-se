@@ -1,23 +1,23 @@
 ---
-title: "Förstå artikeltyper | Microsoft Docs"
-description: "Du kan justera lagervärderingen för en artikel som använder FIFO eller genomsnittliga värderingsprinciper, till exempel när artikelkostnader ändras av andra skäl än transaktioner."
+title: Förstå artikeltyper | Microsoft Docs
+description: Du kan justera lagervärderingen för en artikel som använder FIFO eller genomsnittliga värderingsprinciper, till exempel när artikelkostnader ändras av andra skäl än transaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/18/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2240840e977bcd1186c74972ce0457deb03058a0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808272"
 ---
 # <a name="about-item-types"></a>Om artikeltyper
 I fältet **Typ** på sidan **artikelkort** kan du ange vilken artikel som används för din verksamhet och hur den hanteras i systemet. Det finns tre alternativ:
@@ -52,4 +52,3 @@ De tre artikeltyperna stödjer följande funktioner.
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

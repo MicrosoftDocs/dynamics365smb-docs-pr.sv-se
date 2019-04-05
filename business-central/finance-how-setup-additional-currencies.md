@@ -1,8 +1,8 @@
 ---
-title: "Ställa in alternativa valutor | Microsoft Docs"
-description: "Din redovisning ställs in för att använda den lokala valutan (BVA) och en annan valuta ställs in som en alternativ valuta, med en tilldelad aktuell valutakurs."
+title: Ställa in alternativa valutor | Microsoft Docs
+description: Din redovisning ställs in för att använda den lokala valutan (BVA) och en annan valuta ställs in som en alternativ valuta, med en tilldelad aktuell valutakurs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807335"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
@@ -125,4 +125,3 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

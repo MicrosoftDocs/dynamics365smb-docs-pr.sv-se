@@ -1,8 +1,8 @@
 ---
 title: Designdetaljer - Order | Microsoft Docs
-description: "Det här avsnittet innehåller information om order-till-order-länkar i en tillverka-mot-order-miljö."
+description: Det här avsnittet innehåller information om order-till-order-länkar i en tillverka-mot-order-miljö.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, order
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 4152dfb744215034383239ea98847fbf7b5751e9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 38272b0d777c276c372893082680d89fc33e060c
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807545"
 ---
 # <a name="design-details-order"></a>Designdetaljer: Order
 I tillverka-mot-order-miljö köps en artikel in eller produceras för att exklusivt täcka en viss efterfrågan. Vanligtvis gäller det A-artiklar och motiveringen för att välja partiformningsmetoden Order kan vara att efterfrågan är ovanlig, ledtiden är oansenlig eller de obligatoriska attributen varierar.  
@@ -40,4 +40,3 @@ Till skillnad från de flesta uppsättningar med tillgång-efterfrågan planeras
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

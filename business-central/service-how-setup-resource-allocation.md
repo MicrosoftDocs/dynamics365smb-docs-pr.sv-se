@@ -1,8 +1,8 @@
 ---
-title: "Så här ställer du in resursfördelningar | Microsoft Docs"
-description: "Lär dig hur systemet kan hjälpa dig tilldela någon som har de kvalifikationer som krävs för att tillhandahålla tjänster."
+title: Så här ställer du in resursfördelningar | Microsoft Docs
+description: Lär dig hur systemet kan hjälpa dig tilldela någon som har de kvalifikationer som krävs för att tillhandahålla tjänster.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7ce128aa32d650cf756117ab46987167d9a3781a
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807011"
 ---
-
 # <a name="set-up-resource-allocation"></a>Så här skapar du resursfördelningar
 För att säkerställa att en serviceuppgift utförs är det viktigt att hitta en resurs som är kvalificerad att göra arbetet. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] så att det är enkelt att allokera någon som har rätt kunskaper för projektet. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kallas detta _resursfördelning_. Du kan fördela resurser utifrån deras kunskaper, tillgänglighet, eller om de finns i samma servicezon som kunden. 
 
@@ -85,5 +84,4 @@ Om du vill ändra de kvalifikationskoder som har tilldelats till artiklar, till 
 [Konfigurera felrapportering](service-how-setup-fault-reporting.md)  
 [Skapa koder för standardtjänst](service-how-setup-service-coding.md)  
  
-
 

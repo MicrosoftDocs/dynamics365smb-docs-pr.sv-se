@@ -1,21 +1,21 @@
 ---
-title: "Så här ändrar du det årliga beloppet på servicekontrakt eller kontraktsofferter | Microsoft Docs"
-description: "Du kan ändra beloppet som ska faktureras per år för servicekontraktet eller kontraktsofferten."
+title: Så här ändrar du det årliga beloppet på servicekontrakt eller kontraktsofferter | Microsoft Docs
+description: Du kan ändra beloppet som ska faktureras per år för servicekontraktet eller kontraktsofferten.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807106"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.  
@@ -118,7 +118,7 @@ Slutligen innehåller kontraktsraderna följande information.
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|15,00|17,00|11,41|1,94|15,06|0,06|  
 |Artikel 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Artikel 3|24.00|27.00|11.37|3.07|23.93|–0,07|  -   Radrabatt % = Radrabatt / Radvärde × 100.  
+|Artikel 3|24.00|27.00|11.37|3.07|23.93|–0,07|  -   Radrabatt % = Radrabatt / Radvärde × 100  
 
 #### <a name="example"></a>Exempel  
 Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicekontraktet som innehåller tre kontraktsrader med dylik information.  
@@ -188,4 +188,3 @@ Slutligen innehåller kontraktsraderna följande information.
 ## <a name="see-also"></a>Se även  
 [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
-

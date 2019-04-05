@@ -1,28 +1,28 @@
 ---
-title: "Så här skapar du en produktionstruktur | Microsoft Docs"
-description: "En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**."
+title: Så här skapar du en produktionstruktur | Microsoft Docs
+description: En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: cbcfe46f547a40112f465fbdac6511bc5a2f510a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807311"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
 En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer även monteringsstrukturer Du använder monteringsorder för att slutboka artiklar från komponenter i en enkel sätt, som kan utföras av en eller flera grundläggande resurser, som inte är maskin- eller produktionsgrupper, eller utan något resurser. Det kan exempelvis vara en monteringsprocess att välja två som vinflaska och en kaffesäck och sedan packa dem som presentartiklar. Mer information finns i avsnittet ”Monteringsstrukturer eller produktionsstrukturer” i [Arbeta med strukturer](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer även monteringsstrukturer Du använder monteringsorder för att slutboka artiklar från komponenter i en enkel sätt, som kan utföras av en eller flera grundläggande resurser, som inte är maskin- eller produktionsgrupper, eller utan något resurser. Det kan exempelvis vara en monteringsprocess att välja två som vinflaska och en kaffesäck och sedan packa dem som presentartiklar. Mer information finns i [Monteringsstrukturer eller produktionsstrukturer](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Innan du kan skapa en verksamhetsföljd måste följande vara på plats:  
 
@@ -44,7 +44,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
     > [!NOTE]  
     >  Kassationsprocentandelen motsvarar komponenter som kasseras under produktionen (när de plockas från ett lager). Kassationsprocentandelen på verksamhetsföljdsrader motsvarar utlevererat material som kasseras (innan det placeras i ett lager).  
 
-9.  I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. Mer information finns i avsnittet ”Skapa verksamhetsföljdslänkar” i [Skapa verksamhetsföljder](production-how-to-create-routings.md).
+9.  I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. För mer information, se [Så här skapar du operationsföljdslänk](production-how-to-create-routings.md#to-create-routing-links).
 10. Om du vill kopiera rader från en befintlig produktionsstruktur klickar du på åtgärden **Kopiera struktur** och väljer de befintliga raderna.  
 11.  Godkänn produktionsstrukturen.  
 12.  Nu kan du koppla den nya produktionsstrukturen till kortet för den aktuella överordnade artikeln. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).  
@@ -99,4 +99,3 @@ I en produktionsstruktur behövs sjuttio metalldelar med dimensionerna längd = 
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Konfigurera föreslagna fältvärden | Microsoft Docs"
-description: "Om du vill undvika manuella beräkningar och genomföra uppgifter snabbt och effektivt ställer du in automatisk datainmatning så att Business Central fyller i fälten."
+title: Konfigurera föreslagna fältvärden | Microsoft Docs
+description: Om du vill undvika manuella beräkningar och genomföra uppgifter snabbt och effektivt ställer du in automatisk datainmatning så att Business Central fyller i fälten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 023f67f90b00c53440cb835cd0e3886ced0d3b98
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 74a88d3e81413b4ecf849f500b5b670feea948bf
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806945"
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjälpa dig att avsluta uppgifter som är snabbare och korrektare genom att fylla i fält eller färdigställa rader med data som du annars måste annars beräkna och ange själv. Även om sådana automatiska datainmatningar inte alltid är korrekta kan du ändra den efteråt om du vill.
@@ -32,7 +32,7 @@ Om du till exempel vill ange redovisningsjournalrader för åtskilliga kostnader
 Mer information om hur du konfigurerar en personlig redovisningsjournal för t.ex. kostnadsbearbetning finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Fältet **Fyll i Tillbaka datum automatiskt** på sidan **Betalningregistrering**
-Sidan **Betalningsregistrering** visar utestående inkommande betalningar som rader som representerar de försäljningsdokument, där ett belopp har förfallit till betalning. Mer information om att koppla kundbetalningar finns i [Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+Sidan **Betalningsregistrering** visar utestående inkommande betalningar som rader som representerar de försäljningsdokument, där ett belopp har förfallit till betalning. Mer information om att koppla kundbetalningar finns i [Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 Dina huvudåtgärder på sidan är att fylla i kryssrutan **Utförd betalning** och fältet **Tillbaka datum**. Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] att automatiskt ange arbetsdatum i fältet **Tillbaka datum** när du markerar kryssrutan **Utförd betalning**.
 
@@ -44,4 +44,3 @@ Dina huvudåtgärder på sidan är att fylla i kryssrutan **Utförd betalning** 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ekonomi](finance.md)
-

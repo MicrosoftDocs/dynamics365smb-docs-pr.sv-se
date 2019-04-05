@@ -1,30 +1,30 @@
 ---
-title: "Så här: Plocka för produktion i grundläggande distributionslagerkonfiguration | Microsoft Docs"
-description: "När distributionslagrets lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan **Lagerplockning** för att ordna och registrera plockning av komponenter."
+title: 'Så här: Plocka för produktion i grundläggande distributionslagerkonfiguration | Microsoft Docs'
+description: När distributionslagrets lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan **Lagerplockning** för att ordna och registrera plockning av komponenter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 01/22/2019
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807638"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration
 Hur du för in plockningskomponenter för produktions- eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
 
 Igrundläggande lagerkonfigurationer där lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan **Lagerplockning** för att ordna och registrera plockning av komponenter.  
 
-I grundläggande distributionslagerkonfiguration måste du plocka för monteringsorder med sidan **Lagertransport**. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder med lagerplockning” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).  
+I grundläggande distributionslagerkonfiguration måste du plocka för monteringsorder med sidan **Lagertransport**. Mer information finns i [hantera artiklar för montering mot kundorder i lagerplockningar](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks) .  
 
 I avancerad distributionslagerkonfiguration, där lagerställen kräver både plockning och utleveranser, använder du sidan **dist.lager plockning** för att få komponenter till produktions- eller monteringsordern. Mer information finns i [Plocka för produktion eller montering i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
@@ -80,4 +80,3 @@ Diagrammet visar hur **Lagerplatskod** på produktionsorderkomponentraderna fyll
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

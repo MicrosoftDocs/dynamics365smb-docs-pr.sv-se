@@ -1,8 +1,8 @@
 ---
-title: "Ändra hur rapporten ska se ut genom att välja en annan layout | Microsoft Docs"
-description: "Du kan använda olika layouter för en rapport och växla mellan layouter för att ändra utseendet på en rapport."
+title: Ändra hur rapporten ska se ut genom att välja en annan layout | Microsoft Docs
+description: Du kan använda olika layouter för en rapport och växla mellan layouter för att ändra utseendet på en rapport.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808283"
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Ändra den layout som används i en rapport för närvarande
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
@@ -48,4 +48,3 @@ Du återgår till sidan **Val av rapportlayout**. Namnet på den valda anpassade
 ## <a name="see-also"></a>Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

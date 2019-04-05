@@ -1,6 +1,6 @@
 ---
-title: "Översikt över uppgifter för hantering av leverantörsskulder | Microsoft Docs"
-description: "Innehåller information om hur du hanterar leverantörsreskontra, till exempel betala fordringsägare eller koppla utgående betalningar till transaktioner för att stänga fakturor eller kreditnotor."
+title: Översikt över uppgifter för hantering av leverantörsskulder | Microsoft Docs
+description: Innehåller information om hur du hanterar leverantörsreskontra, till exempel betala fordringsägare eller koppla utgående betalningar till transaktioner för att stänga fakturor eller kreditnotor.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 11/15/2018
+ms.date: 02/08/2019
 ms.author: edupont
+ms.openlocfilehash: 89678ee0055992a03d4f56ecedf15350f7ad348e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9bc4eaf292c20c1525c499cde715964eb6e6631f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806931"
 ---
 # <a name="managing-payables"></a>Hantera Leverantörsreskontra
 
@@ -31,12 +31,8 @@ I följande tabell beskrivs en serie uppgifter inom Leverantörsskulder med län
 | --- | --- |
 | Generera förfallna leverantörsbetalningar eller återbetalningar till anställda, förbereda checkbetalningar och exportera betalningar till en bankfil när du bokför. |[Göra betalningar](payables-make-payments.md) |
 | Koppla leverantörsbetalningar automatiskt till obetalda inköpsfakturor, genom att importera bankutdragsfil. |[Koppla utbetalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-|Ställ in mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.|[Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
-| Koppla leverantörsbetalningar till obetalda inköpsfakturor manuellt. |[Stämma av leverantörsbetalningar manuellt](payables-how-apply-purchase-transactions-manually.md) |
-|Tillämpa automatiskt betalningar, antingen inkommande eller utgående, som har registrerats som transaktioner på ditt onlinebankkonto till deras motsvarande öppna kund-, leverantör- och bankkontotransaktioner. Listan skapas från en bankfeed eller en fil.|[Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)|
-|Hantera manuellt betalningar till ditt bankkonto som inte kan göras automatiskt, till exempel, eftersom det inte finns några dokument som kan betalningen kan kopplas till eller relaterat dokument har ett annat belopp än transaktionsbeloppet på grund av en skillnad i valuta.|[Så här stämmer du av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md)|
+| Koppla leverantörsbetalningar till obetalda inköpsfakturor manuellt. |[Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md) |
 |Säkerställa korrekt värdering av lager genom att tilldela extra artikelkostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp.|[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)|
-|Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.|[Betala inköpsfakturor snabbt](finance-how-to-settle-purchase-invoices-promptly.md)|
 |Återbetala anställda för privata utgifter under affärsaktiviteter genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
 
 ## <a name="see-also"></a>Se även
@@ -47,4 +43,3 @@ I följande tabell beskrivs en serie uppgifter inom Leverantörsskulder med län
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

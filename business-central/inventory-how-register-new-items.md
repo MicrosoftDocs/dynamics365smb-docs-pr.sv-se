@@ -1,7 +1,7 @@
 ---
-title: "Skapa artikelkort för varor eller tjänster | Microsoft Docs"
-description: "Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter, komponenter eller råmaterial som säljs från lagret."
-documentationcenter: 
+title: Skapa artikelkort för varor eller tjänster | Microsoft Docs
+description: Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter, komponenter eller råmaterial som säljs från lagret.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807281"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 Artiklar, bland andra produkter, utgör basen för ditt arbete, varorna eller tjänster som du handlar med. Varje artiklar måste registreras som ett artikelkort.
@@ -81,4 +81,3 @@ Leverantörer visas nu på sidan **Artikelleverantörskatalog** som du kan öppn
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

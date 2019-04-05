@@ -1,6 +1,6 @@
 ---
-title: "Business Central intelligent moln-tillägg | Microsoft Docs"
-description: "Använd detta tillägg för datareplikering för att skapa en molnkopia av dina data så att du är ansluten till intelligent moln."
+title: Business Central intelligent moln-tillägg | Microsoft Docs
+description: Använd detta tillägg för datareplikering för att skapa en molnkopia av dina data så att du är ansluten till intelligent moln.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -11,14 +11,13 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/17/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
 ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
-ms.contentlocale: sv-se
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807471"
 ---
-
 # <a name="business-central-intelligent-cloud-extensions"></a>Business Central Intelligent moln-tillägg
 
 Om du använder någon av produkterna som stöds på plats kan du konfigurera du intelligenta molnmiljön utifrån ett produktspecifikt tillägg. När din intelligenta moln-miljö har konfigurerats kan du kan replikera data från din lokala lösning på din [!INCLUDE[prodshort](includes/prodshort.md)] klientorganisationen i molnet. Detta gör att du kan utnyttja vad molnet har att erbjuda ditt företag till fullo, till exempel bättre insyn i verksamheten, artificiell intelligens, åtkomst av flera enheter och åtkomst när som helst, var som helst.  
@@ -33,4 +32,3 @@ Om du använder Dynamics GP får du **tillägget intelligent moln-bas**, tilläg
 
 [Din åtkomst till det intelligenta molnet](about-intelligent-cloud.md)  
 [Tillägget intelligent moln-bas](ui-extensions-intelligent-cloud.md)  
-

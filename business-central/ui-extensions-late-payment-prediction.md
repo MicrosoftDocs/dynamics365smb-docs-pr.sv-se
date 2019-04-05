@@ -1,6 +1,6 @@
 ---
-title: "Förutsäga sen betalning för försäljningsdokument | Microsoft Docs"
-description: "Använda vår prediktiva modell för att förutsäga om en faktura kommer att betalas i tid eller inte."
+title: Förutsäga sen betalning för försäljningsdokument | Microsoft Docs
+description: Använda vår prediktiva modell för att förutsäga om en faktura kommer att betalas i tid eller inte.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807982"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
@@ -72,4 +72,3 @@ Om du skapar en egen modell i Azure Machine Learning Studio utan att använda ve
 [Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Anpassa Business Central med tillägg](ui-extensions.md)  
 [Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-

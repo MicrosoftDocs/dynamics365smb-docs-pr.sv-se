@@ -1,8 +1,8 @@
 ---
-title: "Stämma av bankkonton separat | Microsoft Docs"
-description: "Beskriver hur ditt lagervärde stäms av med redovisningen."
+title: Stämma av bankkonton separat | Microsoft Docs
+description: Beskriver hur ditt lagervärde stäms av med redovisningen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806918"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Stämma av bankkonton separat
 Stämma av bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] med rapporter har fått från banken, börjar du med att fylla i den vänstra rutan på sidan **bankkontoavstämning** med bankutdragsinformation som måste matcha (synkronisera) med redovisningstransaktioner för bankkontot i den högra rutan. Ett smart sätt att fylla i bankutdragsrader är genom att importera en bankkontoutdragsfil eller feed.
@@ -100,4 +100,3 @@ Ibland kan det hända att ett kontoutdrag från banken innehåller belopp som mo
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

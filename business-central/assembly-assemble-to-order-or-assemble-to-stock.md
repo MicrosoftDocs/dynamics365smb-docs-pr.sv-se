@@ -1,8 +1,8 @@
 ---
-title: "Förstå montering mot kundorder och montering mot lager | Microsoft Docs"
-description: "Monteringsartiklar kan anges genom att sammanföra dem när de beställs eller genom att montering att finnas i lagret tills de behov från en försäljningsorder."
+title: Förstå montering mot kundorder och montering mot lager | Microsoft Docs
+description: Monteringsartiklar kan anges genom att sammanföra dem när de beställs eller genom att montering att finnas i lagret tills de behov från en försäljningsorder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807895"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
@@ -91,4 +91,3 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

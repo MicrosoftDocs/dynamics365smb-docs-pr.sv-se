@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du lagerplatsinnehåll | Microsoft Docs"
-description: "När du har skapat lagerplatserna kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerplatsen ska fyllas med en viss artikel."
+title: Så här skapar du lagerplatsinnehåll | Microsoft Docs
+description: När du har skapat lagerplatserna kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerplatsen ska fyllas med en viss artikel.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807428"
 ---
 # <a name="create-bin-contents"></a>Skapa lagerplatsinnehåll
 När du har skapat lagerplatserna kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerplatsen ska fyllas med en viss artikel. Du kan göra detta manuellt på sidan **lagerplatsinnehåll** eller automatiskt med sidan **skapa lagerplatsinnehåll i kalkylarket**.
@@ -63,4 +63,3 @@ I det här kalkylarket kan du arbeta med flera lagerplatsinnehållsrader för fl
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

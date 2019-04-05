@@ -1,8 +1,8 @@
 ---
 title: Avlsuta resultatkonton | Microsoft Docs
-description: "Vid årsslut måste du köra batch-jobbet Avslut av resultatkonton för att avsluta bokföringsperioder som utgör räkenskapsåret."
+description: Vid årsslut måste du köra batch-jobbet Avslut av resultatkonton för att avsluta bokföringsperioder som utgör räkenskapsåret.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 20bc194772d1aa0a8caadf0605911d0a214a9ab2
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807202"
 ---
 # <a name="close-income-statement-accounts"></a>Avsluta resultatkonton
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar. Använd batch-jobbet **Avslut av resultatkonton** för detta ändamål. Detta jobb överför årets resultat till ett konto i balansräkningen och avslutar resultatkonton. Du gör detta genom att skapa rader i en journal, som du sedan kan bokföra.
@@ -41,4 +41,3 @@ Batch-jobbet **Avslut av resultatkonton** kan användas upprepade gånger. Du ka
 [Bokför årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
 [Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

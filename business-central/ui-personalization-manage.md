@@ -1,8 +1,8 @@
 ---
-title: "Hantera anpassning som administratör i Business Central | Microsoft Docs"
-description: "Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta."
+title: Hantera anpassning som administratör i Business Central | Microsoft Docs
+description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807598"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Hantera anpassning som administratör
 <!--NAV in the Web client--> Användare kan anpassa sin arbetsyta efter eget behov. Som administratör kan du styra och hantera anpassning genom att inaktivera användare för att anpassa egna sidor och ta bort alla anpassningar på sidan som användare har gjort.
 
 ## <a name="disable-personalization-for-a-profile"></a>Inaktivera anpassningar för en profil
 Du kan förhindra alla användare som tillhör en viss profil från att anpassa sidorna.
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profillista** och välj sedan relaterad länk.
 2.  Välj den profil i listan som du vill ändra.
 3. Välj kryssrutan **Inaktivera anpassning** och välj sedan knappen **OK**.
 
@@ -66,4 +66,3 @@ Sidan **Anv.anpassningskort** låter dig ta bort anpassningen på alla sidor fö
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-

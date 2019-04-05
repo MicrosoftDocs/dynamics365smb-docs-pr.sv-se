@@ -1,7 +1,7 @@
 ---
-title: "Använda Business Central utan Outlook | Microsoft Docs"
-description: "Du kan använda Business Central som företagsinkorg i Outlook eftersom det är integrerat med Office 365, men du kan även arbeta utan Outlook i en webbläsare eller på en mobil enhet."
-documentationcenter: 
+title: Använda Business Central utan Outlook | Microsoft Docs
+description: Du kan använda Business Central som företagsinkorg i Outlook eftersom det är integrerat med Office 365, men du kan även arbeta utan Outlook i en webbläsare eller på en mobil enhet.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808075"
 ---
 # <a name="using-business-central-without-outlook"></a>Använda Business Central utan Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Office 365 och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
@@ -30,4 +30,3 @@ Du kan skicka dokument som till exempel fakturor som e-post med ditt företags e
 [Använda Business Central som en företagsinkorg i Outlook](admin-outlook.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)
-

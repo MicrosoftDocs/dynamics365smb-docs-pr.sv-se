@@ -1,8 +1,8 @@
 ---
-title: "Tilldela artikelomkostnader till försäljning och inköp | Microsoft Docs"
-description: "Om du vill att dina lagerartiklar ska läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar, kan du använda funktionen för artikelomkostnader."
+title: Tilldela artikelomkostnader till försäljning och inköp | Microsoft Docs
+description: Om du vill att dina lagerartiklar ska läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar, kan du använda funktionen för artikelomkostnader.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 0bf5ab953315048bfa10dc1ffb70c07d8305b4e1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807391"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.
@@ -69,7 +69,7 @@ Artikelomkostnaderna har nu tilldelats till inköpsfakturan. När du bokför inl
 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader från en separat faktura till inköpsfakturan för artikeln
 Om du har fått en faktura för artikelomkostnaden när du har bokfört ursprungligt inleverans, följer du nedanstående instruktioner.
-1. Upprepa steg 1 till och med 8 i avsnittet ”Koppla artikelomkostnader direkt till inköpsfakturan för artikeln”.
+1. Upprepa steg 1 till och med 8 i [Koppla artikelomkostnader direkt till inköpsfakturan för artikeln](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. På sidan **Art.omkost.fördelnin** väljer du åtgärden **Hämta inleveransrader**.
 3. På sidan **Inköp inleveransrader** väljer du artikelomkostnaden till bokförda inleveransen av artiklar som ska tilldelas artikeln och klickar på knappen **OK**.
 4. Välj åtgärden **Föreslå art.omkost.fördelning**.
@@ -81,4 +81,3 @@ Artikelomkostnader på den separata inköpsfakturan har nu tilldelats till artik
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

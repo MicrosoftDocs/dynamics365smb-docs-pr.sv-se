@@ -1,7 +1,7 @@
 ---
-title: "Välja användargränssnittet för att visa eller dölja avancerade funktioner | Microsoft Docs"
-description: "Lär dig vad användarupplevelsernivåerna Essential och Premium betyder för användargränssnitt, moduler och ditt företag."
-documentationcenter: 
+title: Välja användargränssnittet för att visa eller dölja avancerade funktioner | Microsoft Docs
+description: Lär dig vad användarupplevelsernivåerna Essential och Premium betyder för användargränssnitt, moduler och ditt företag.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 02/04/2019
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
-ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
-ms.contentlocale: sv-se
-ms.lasthandoff: 02/04/2019
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806976"
 ---
 # <a name="changing-which-features-are-displayed"></a>Ändra vilka funktioner som visas
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad för att hjälpa dig att köra din verksamhet oavsett vilken verksamhet som du befinner dig i. I kärnan av [!INCLUDE[d365fin](includes/d365fin_md.md)] hittar du ekonomisk rapportering och försäljning-s och inköpsprocesser. Du lägger till upplevelser till detta i enlighet med dina företagsbehov genom att lägga till tillägg från AppSource eller genom att ändra upplevelseinställningen för ditt företag. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av tillägg](ui-extensions.md) eller avsnittet "Välja en användarupplevelse för att visa eller dölja funktioner" nedan.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad för att hjälpa dig att köra din verksamhet oavsett vilken verksamhet som du befinner dig i. I kärnan av [!INCLUDE[d365fin](includes/d365fin_md.md)] hittar du ekonomisk rapportering och försäljning-s och inköpsprocesser. Du lägger till upplevelser till detta i enlighet med dina företagsbehov genom att lägga till tillägg från AppSource eller genom att ändra upplevelseinställningen för ditt företag. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] Använda tillägg](ui-extensions.md), eller [Välja en användarupplevelse för att visa eller dölja funktioner](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Om du väljer ett användargränssnitt för att visa eller dölja funktioner
 Användarupplevelsen bestämmer hur mycket av kärnafunktionaliteten som finns när du och din kolleger använder [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan välja användarupplevelse för ditt företag på sidan **företagsinformation** i fältet **upplevelse**.
@@ -35,7 +35,7 @@ Följande tabell listar de upplevelser som finns tillgängliga.
 | **Premium** |Visar alla åtgärder och fält för alla företagsfunktioner, till exempel produktion och service.|
 
 > [!NOTE]  
-> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen för Microsoft Dynamics 365. Se även [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensieringsguide](https://go.microsoft.com/fwlink/?linkid=2068931) (kräver åtkomst till CustomerSource eller PartnerSource).
+> De lösningar som du kan välja mellan i [!INCLUDE[d365fin](includes/d365fin_md.md)] beror på din lösningslicens, även kallad en "plan". Information om planerna **Vital** och **Premium** finns i [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på marknadsföringswebbplatsen Microsoft Dynamics 365. Se även [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensieringsguide](https://go.microsoft.com/fwlink/?linkid=2068931) (kräver åtkomst till CustomerSource eller PartnerSource).
 
 > [!IMPORTANT]  
 > Alla vanliga användare i en lösning måste tilldelas samma plan Essential eller Premium, innan den miljön kan väljas för företaget. En användare kan inte därmed öppna Premium-funktioner om en eller flera användare kan endast åtkomst Essential-funktioner. Detta gäller inte för ej vanliga användare av typen gruppmedlem, intern administration, extern revisor och delegerad administratör, som var och en tilldelas ett annat schema än andra användare i lösningen.
@@ -71,4 +71,3 @@ Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[d365fin](i
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensieringsguide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

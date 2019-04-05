@@ -1,8 +1,8 @@
 ---
-title: "Granska en testrapport innan du bokför ett försäljnings- eller inköpsdokument | Microsoft Docs"
-description: "Innan du bokför ett dokument, till exempel en order eller kreditnota, kan du testa och granska den att söka efter fel som kan förhindra bokföring."
+title: Granska en testrapport innan du bokför ett försäljnings- eller inköpsdokument | Microsoft Docs
+description: Innan du bokför ett dokument, till exempel en order eller kreditnota, kan du testa och granska den att söka efter fel som kan förhindra bokföring.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807324"
 ---
 # <a name="view-test-reports-before-posting"></a>Visa testrapporter före bokföring
 När du vill bokföra ett dokument, t.ex. en beställning, faktura eller kreditnota, kan du testa dokumentet för att försäkra dig om att inga valutauppgifter finns som kan spärra bokföringen.
@@ -34,5 +34,4 @@ Alla delar av inköpsfakturan testas och resultatet presenteras i en rapport. Om
 ## <a name="see-also"></a>Se även
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

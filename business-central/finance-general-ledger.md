@@ -2,7 +2,7 @@
 title: Mer information om redovisning och kontoplanen | Microsoft Docs
 description: Beskriver redovisningen, kontoplanen och kontokategorierna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807983"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Så här fungerar i redovisningen och kontoplanen
 Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som alla redovisningstransaktioner bokförs på. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
@@ -65,4 +65,3 @@ Nästa gång du har genererat kontouppställningar kommer saldot visa ett totalt
 [Ekonomi](finance.md)  
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
 [Affärsstöd](bi.md)  
-

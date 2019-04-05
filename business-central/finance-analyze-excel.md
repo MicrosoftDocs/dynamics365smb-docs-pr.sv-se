@@ -1,6 +1,6 @@
 ---
-title: "Arbeta med finansiella rapporter och översikter i Excel | Microsoft Docs"
-description: "Lär dig mer om hur du öppnar de ekonomiska rapporterna i Microsoft Excel från Business Central för bättre analyser."
+title: Arbeta med finansiella rapporter och översikter i Excel | Microsoft Docs
+description: Lär dig mer om hur du öppnar de ekonomiska rapporterna i Microsoft Excel från Business Central för bättre analyser.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807652"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysera finansiella rapporter i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du se KPI: er och få en översikt över företagets ekonomiska status. Du kan också öppna listor i Excel och analysera data där. Men du kan också exportera ekonomiska bokslut som balansräkningen eller resultaträkningen till Excel, analysera data och skriva ut rapporterna.  
@@ -46,4 +46,3 @@ Med tillägget, kan du uppdatera data från [!INCLUDE[d365fin](includes/d365fin_
 [Ställa in Finance](finance-setup-finance.md)  
 redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med Business Central](ui-work-product.md)  
-

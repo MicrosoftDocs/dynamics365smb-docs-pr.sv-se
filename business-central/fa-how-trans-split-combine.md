@@ -1,8 +1,8 @@
 ---
-title: "Gruppera anläggningstillgångar | Microsoft Docs"
-description: "Du grupperar om en anläggningstillgång till en annan avdelning om du vill dela och kombinera den med andra anläggningstillgångar."
+title: Gruppera anläggningstillgångar | Microsoft Docs
+description: Du grupperar om en anläggningstillgång till en annan avdelning om du vill dela och kombinera den med andra anläggningstillgångar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 81b23fd28426d5241ce24b2a3bd40a5b3ec3379d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807769"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Överföra, dela eller kombinera anläggningstillgångar
 Du kan använda grupperingsjournalen för anläggningstillgångar när du överför, delar upp och slår ihop anläggningstillgångar. Du visar eller skriver ut resultatet av grupperingen av anläggningstillgångar med rapporten **Anl. - bokföringsvärde 02**.
@@ -76,4 +76,3 @@ Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, ti
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

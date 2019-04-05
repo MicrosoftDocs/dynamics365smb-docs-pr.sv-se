@@ -1,8 +1,8 @@
 ---
 title: Konfigurera automatisk registrering av interaktioner | Microsoft Docs
-description: "Du kan automatiskt registrera kund- eller klienteinteraktioner, till exempel för försäljnings-, inköps- och servicedokument eller telefonsamtal."
+description: Du kan automatiskt registrera kund- eller klienteinteraktioner, till exempel för försäljnings-, inköps- och servicedokument eller telefonsamtal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807543"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Automatiskt registrering av interaktioner med kontakter
 Du kan ställa in programmet att automatiskt registrera interaktioner för försäljning, inköp och servicedokument, omslagsblad, e-post, telefonsamtal som till exempel:
@@ -34,4 +34,3 @@ För att öppna sidan **Interaktionsmall inställningar**, välj ikonen ![Glödl
 ## <a name="see-also"></a>Se även
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

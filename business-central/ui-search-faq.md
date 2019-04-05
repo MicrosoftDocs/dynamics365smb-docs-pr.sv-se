@@ -1,6 +1,6 @@
 ---
-title: "Vanliga frågor och svar om Berätta | Microsoft Docs"
-description: "Den här artikeln innehåller svar på frågor från våra partners och kunder som ofta frågar om Berätta."
+title: Vanliga frågor och svar om Berätta | Microsoft Docs
+description: Den här artikeln innehåller svar på frågor från våra partners och kunder som ofta frågar om Berätta.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807870"
 ---
 # <a name="tell-me-faq"></a>Vanliga frågor om Berätta
 Det här avsnittet innehåller svar på frågor som våra avancerade användare ofta fråga om Berätta som har ersatt den tidigare funktionen Sidsökning som kallas **Söka efter sidor och rapporter**.
@@ -43,4 +43,3 @@ Hjälpartiklarna visas på det språk som du har angett i **Mina inställningar*
 
 ## <a name="see-also"></a>Se även  
 [Söka efter Funktioner och information](ui-search.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Spärra försäljning till kunders artiklar från försäljning eller inköp"
-description: "I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften."
+title: Spärra försäljning till kunders artiklar från försäljning eller inköp
+description: I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 268d098318b77cb89a369e8edc14729a44bedae6
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807629"
 ---
 # <a name="block-customers"></a>Spärra kunder
 Du kan spärra en kund, till exempel på grund av ett insolvensförfarande, så att kunden inte kan läggas till försäljningsdokument, eller så att inga transaktioner kan bokföras för kunden.
@@ -42,4 +42,3 @@ De olika spärrningsalternativen beskrivs i tabellen nedan.
 [Registrera nya kunder](sales-how-register-new-customers.md)  
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
-

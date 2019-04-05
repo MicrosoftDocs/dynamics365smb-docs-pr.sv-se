@@ -1,20 +1,20 @@
 ---
-title: "Använda en redovisningsjournal för att bokföra direkt i redovisningen | Microsoft Docs"
-description: "Lär hur du använder journaler för att bokföra ekonomiska transaktioner på redovisningskonton och andra konton, till exempel bank- och leverantörskonton."
+title: Använda en redovisningsjournal för att bokföra direkt i redovisningen | Microsoft Docs
+description: Lär hur du använder journaler för att bokföra ekonomiska transaktioner på redovisningskonton och andra konton, till exempel bank- och leverantörskonton.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807673"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -35,7 +35,7 @@ Den information som du anger i en journal är tillfällig och kan ändras så l�
 
 ## <a name="using-journal-templates-and-batches"></a>Använda Journalmallar och journaler
 
-Det finns flera redovisningsjournalmallar. Varje journalmall representeras av en dedikerad sida med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel sidan **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och sidan **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [Göra betalningar](payables-make-payments.md) och [Stämma av kundens betalningar manuellt](receivables-how-apply-sales-transactions-manually.md).
+Det finns flera redovisningsjournalmallar. Varje journalmall representeras av en dedikerad sida med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel sidan **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och sidan **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [Gör betalningar](payables-make-payments.md) och [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md).
 
 För varje journalmall kan du skapa din egen personliga journal som en journal. Du kan till exempel ange din egen journal för betalningsjournalen som har din personliga layout och inställningar. Följande tips är ett exempel på hur du anpassar en journal.
 
@@ -49,7 +49,7 @@ Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjour
 >   Moms beräknas separat för huvudkontot och motkontot, så att olika momssatser kan användas för dem.
 
 ## <a name="working-with-recurring-journals"></a>Arbeta med återkommande journaler
-En återkommande journal är en redovisningsjournal med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar, till exempel hyra, prenumerationer, el och värme. Med fälten för återkommande transaktioner kan du bokföra både fasta och rörliga belopp. Du kan även ange automatiska återföringstransaktioner för dagen efter bokföringsdatum. Du kan även använda fördelningsnycklar för att dela upp återkommande transaktioner mellan olika konton. Mer information finns i avsnittet ”Tilldela återkommande journalbelopp till flera olika konton”.
+En återkommande journal är en redovisningsjournal med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar, till exempel hyra, prenumerationer, el och värme. Med fälten för återkommande transaktioner kan du bokföra både fasta och rörliga belopp. Du kan även ange automatiska återföringstransaktioner för dagen efter bokföringsdatum. Du kan även använda fördelningsnycklar för att dela upp återkommande transaktioner mellan olika konton. Mer information finns i avsnittet [Tilldela återkommande journalbelopp till flera olika konton](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Med en återkommande journal kommer transaktioner som ska bokföras regelbundet inte att behöva skrivas in mer än en gång. Det innebär att de konton, dimensioner och dimensionsvärden som du anger kommer att finnas kvar i journalen efter bokföring. Du kan göra eventuella justeringar i samband med varje bokföring.
 
@@ -60,7 +60,7 @@ Detta fält bestämmer hur beloppet på journalraden hanteras efter bokföring. 
 | --- | --- |
 |Fast|Journalradens antal kommer att stå kvar när du har bokfört.|
 |Olika|Journalradens antal kommer att tas bort när du har bokfört.|
-|Saldo t.o.m. datum|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i tabellen Allm. journ. tilldeln. Saldot på kontot blir på det sättet nollställt. Kom ihåg att fylla i fältet **Fördelning %** på sidan **Fördelningar**. Mer information finns i avsnittet ”Tilldela återkommande journalbelopp till flera olika konton”.|
+|Saldo t.o.m. datum|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden i tabellen Allm. journ. tilldeln. Saldot på kontot blir på det sättet nollställt. Kom ihåg att fylla i fältet **Fördelning %** på sidan **Fördelningar**. Mer information finns i avsnittet [Tilldela återkommande journalbelopp till flera olika konton](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Återföring fast|Journalradens belopp kommer att stå kvar efter det att du har bokfört och en mottransaktion kommer att bokföras nästa dag.|
 |Återföring variabel|Journalradens belopp kommer att tas bort efter det att du har bokfört och en mottransaktion kommer att bokföras på nästa dag.|
 |Återföring balansering|Det bokförda beloppet på kontot på raden kommer att fördelas på de konton som angetts för raden på sidan **Fördelningar**. Saldot på kontot anges till noll, och en mottransaktion bokförs på nästa dag.|
@@ -69,7 +69,7 @@ Detta fält bestämmer hur beloppet på journalraden hanteras efter bokföring. 
 >  Momsfälten kan fyllas i antingen på raden i den återkommande journalen eller på raden i fördelningsjournalen, men inte på båda raderna. Det går med andra ord bara att fylla i dem på sidan **Fördelningar** om motsvarande rader i den återkommande journalen inte är ifyllda.
 
 ### <a name="recurring-frequency-field"></a>Fält för återkommande frekvens
-Detta fält bestämmer hur ofta transaktionen i journalraden ska bokföras. Det är ett formelfält för datum och måste fyllas i för återkommande journalrader. Mer information finns i avsnittet "Använda datumformler" i [Ange data](ui-enter-data.md).
+Detta fält bestämmer hur ofta transaktionen i journalraden ska bokföras. Det är ett formelfält för datum och måste fyllas i för återkommande journalrader. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Exempel
 Om journalraden måste bokföras varje månad skriver du "1M". Varje gång du har bokfört kommer datumet i fältet **Bokföringsdatum** att uppdateras till samma datum nästa månad.
@@ -164,4 +164,3 @@ Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnu
 [Fördela kostnader och intäkter](year-allocate-costs-income.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Ställa in resurser, tidrapporter och jobb | Microsoft Docs"
-description: "Beskriver hur du ställer in resurser och tidrapporter och projekt för att hantera projekt."
+title: Ställa in resurser, tidrapporter och jobb | Microsoft Docs
+description: Beskriver hur du ställer in resurser och tidrapporter och projekt för att hantera projekt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d72d7cf8899928e1515b29b49b1642e299679e4a
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807547"
 ---
 # <a name="setting-up-project-management"></a>Ställa in projekthantering
 Innan du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
@@ -38,4 +38,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)     
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

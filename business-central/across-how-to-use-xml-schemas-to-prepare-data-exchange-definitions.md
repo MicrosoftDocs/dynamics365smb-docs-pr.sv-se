@@ -1,26 +1,26 @@
 ---
-title: "Skapa XML-portar som baseras på XML-scheman | Microsoft Docs"
-description: "Använda XML-scheman för att ange ramverket för datautbyte."
+title: Skapa XML-portar som baseras på XML-scheman | Microsoft Docs
+description: Använda XML-scheman för att ange ramverket för datautbyte.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807858"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använda XML-scheman för att förbereda dataintegrationsdefinitioner
 Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet på sidan **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initialisera antingen en definition för datautbyte eller en XMLport.  
 
- När du har definierat vilka dataelement som ska ingå baserat på XML-schemat, kan du använda åtgärden **Generera XMLPort** för att skapa ett XMLport-objekt.  
+ När du har definierat vilka dataelement som ska ingå baserat på XML-schemat, kan du använda åtgärden **Generera XMLport** för att skapa ett XMLport-objekt.  
 
  Alternativt kan du använda åtgärden **Generera datautbytesdefinition** för att initialisera en definition för datautbyte som baseras på de valda dataelementen, som du sedan fyller i i ramverket för datautbyte. Det skapar en post på sidan **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -69,7 +69,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**XML-schemakod**|Ange den XML schemafil som du läste in i steg 5 i avsnittet ”Ladda XML-schemafilen”.|  
-    |**Nytt XML-portnr**|Ange numret på den XMLport som skapas från XML-schemat när du väljer åtgärden **Generera XMLport** i fönstret .|  
+    |**Ny XMLport Nr.**|Ange numret på den XMLport som skapas från XML-schemat när du väljer åtgärden **GenereraXMLport**.|  
 
      Raderna fylls nu i med noder som representerar alla element i XML-schemat. Noder för element som är obligatoriska i överensstämmelse med XML-schemat markeras som standard.  
 
@@ -119,17 +119,16 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 2.  Markera ett lämpligt XML-schema och välj **Öppna XML-schemavisare** på fliken **Hem** i gruppen **Behandla**.  
 
-3.  I fältet **Nytt XML-portnr** anger du numret som den nya XMLport-artikeln ska få när den skapas.  
+3.  I fältet **Ny XMLport Nr.** anger du numret som den nya XMLport-artikeln ska få när den skapas.  
 
 4.  Se till att de relevanta noderna har markerats. Mer information finns i avsnittet ”Så här markerar eller avmarkerar du noder i ett XML-schema”.  
 
-5.  Välj **Generera XMLport** och spara objektet som en TXT-fil på ett lämpligt lagerställe på fliken **Hem** i gruppen **Bearbeta**.  
+5.  På fliken **Start** i gruppen **Process** väljer du **Generera XMLport** och sparar sedan objektet som en .txt-fil på en lämplig plats.  
 
-6. Importera nya XML-porten till den [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment och kompilera.
+6. Importera nya XMLport i [!INCLUDE[d365fin](includes/d365fin_md.md)] utvecklingsmiljö och kompilera den.
 
 ## <a name="see-also"></a>Se även  
 [Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
 [Exportera betalningar till en bankfil](payables-how-export-payments-bank-file.md)   
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
 [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)
-

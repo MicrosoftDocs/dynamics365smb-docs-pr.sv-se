@@ -1,23 +1,23 @@
 ---
-title: "Så här ställer du in produktions- och maskingrupper | Microsoft Docs"
-description: "På ett **Produktionsgruppkort** ordnar du fasta värden och behov för produktionsresursen. På så sätt kan du styra utdata från den produktion som utförs i produktionsgruppen."
+title: Så här ställer du in produktions- och maskingrupper | Microsoft Docs
+description: På ett **Produktionsgruppkort** ordnar du fasta värden och behov för produktionsresursen. På så sätt kan du styra utdata från den produktion som utförs i produktionsgruppen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807255"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
 Programmet skiljer mellan tre typer av kapaciteter. Dessa är ordnade i hierarkisk ordning. Varje nivå innehåller underordnade nivåer.  
@@ -48,22 +48,22 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
 
 9.  I fältet **Styckkost. beräkningstyp** anger du om beräkningen ovan ska bygga på mängden tid som använts: **Tid** eller antalet enheter som har producerats: **Enheter**.  
 10.  Markera fältet **Specifik styckkostnad** om du vill definiera styckkostnaden för produktionsgruppen på den verksamhetsföljdrad där den används. Detta kan vara användbart för operationer där kapacitetskostnaden skiljer sig markant från vad som är normalt för produktionsgruppen.  
-11.  I fältet **Bokföringsmetod** anger du om bokföring av utflöde i produktionsgruppen ska beräknas och bokföras manuellt eller om det ska ske automatiskt med någon av följande metoder.  
+11.  I fältet **Bokföringsmetod** anger du om bokföring av utflöde i produktionsgruppen ska beräknas och bokföras manuellt eller om det ska ske automatiskt med någon av följande metoder.
 
-    |Alternativ|Beskrivning|  
-    |----------------------------------|---------------------------------------|  
-    |**Manuell**|Förbrukning bokförs manuellt i utflödesjournalen eller produktionsjournal.|
-    |**Framåt**|Förbrukning beräkna och bokförs automatiskt när produktionsordern släpps.|  
-    |**Bakåt**|Förbrukning beräkna och bokförs automatiskt när produktionsordern är färdig.|  
+|Alternativ|Beskrivning|
+|------|-----------|
+|**Manuell**|Förbrukning bokförs manuellt i utflödesjournalen eller produktionsjournal.|
+|**Framåt**|Förbrukning beräkna och bokförs automatiskt när produktionsordern släpps.|
+|**Bakåt**|Förbrukning beräkna och bokförs automatiskt när produktionsordern är färdig.|
 
-    > [!NOTE]  
-    >  Om det behövs kan bokföringsmetoden som markeras här och på **artikelkortet** åsidosättas för enskilda operationer genom att inställningen för en verksamhetsföljdrad ändras.
+> [!NOTE]
+> Om det behövs kan bokföringsmetoden som markeras här och på **artikelkortet** åsidosättas för enskilda operationer genom att inställningen för en verksamhetsföljdrad ändras.
 
 12.  I fältet **Enhetskod** anger du den tidsenhet som ska användas för beräkning av kostnad och kapacitetsplanering för produktionsgruppen.
     För att kunna övervaka kapacitetsförbrukningen kontinuerligt måste du först ange en mätmetod. Enheterna som du anger är grundläggande enheter. Exempelvis mäts bearbetningstiden i timmar och minuter.
 
-    > [!NOTE]  
-    > Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar - inte 8 (arbetstimmar).
+> [!NOTE]  
+> Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar - inte 8 (arbetstimmar).
 
 13.  I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. (Om din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**.)  
 14.  I fältet **Effektivitet** anger du den procentandel av förväntade standardutdata som faktiskt uppnås av produktionsgruppen. Genom att ange **100** kan du ange att produktionsgruppens faktiska utdata är samma som standardutdata.  
@@ -106,4 +106,3 @@ När du ska planera med kapacitetsbegränsade resurser ser systemet till att ing
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

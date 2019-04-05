@@ -1,6 +1,6 @@
 ---
-title: "Komma igång | Microsoft-dokument"
-description: "Lär dig mer om funktioner och arbetsscenarier i Business Central, ett affärsadministreringssystem för små och medelstora företag."
+title: Komma igång | Microsoft-dokument
+description: Lär dig mer om funktioner och arbetsscenarier i Business Central, ett affärsadministreringssystem för små och medelstora företag.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807514"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -36,7 +36,7 @@ För några snabba tips, se:
 
 Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md). En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Viktig information om Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
+När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md). En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollcenter
 Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
@@ -83,9 +83,9 @@ Om du har fler frågor rekommenderas att du frågar gruppen eller kontaktar din 
 Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här ](https://www.microsoft.com/en-us/solution-providers/search). Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
-Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Du kan även läsa mer på [Dynamics 365 Business Central-webbplatsen](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 Business Central webbplats](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
-Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 - Accountant Hub](/dynamics365/accountants/index).
+Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -94,9 +94,8 @@ Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
 [Dynamics 365-dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
-[Viktig information om Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

@@ -1,8 +1,8 @@
 ---
-title: "Skapa interaktioner på kontakter och segment | Microsoft Docs"
-description: "Beskriver hur du kan skapa interaktioner för den kommunikation som du har med dina kontakter och segment i Business Central, till exempel direktmail."
+title: Skapa interaktioner på kontakter och segment | Microsoft Docs
+description: Beskriver hur du kan skapa interaktioner för den kommunikation som du har med dina kontakter och segment i Business Central, till exempel direktmail.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: fc88c43e7e404c715893e11a10f0ca5fb794163a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808114"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Så här skapar du interaktioner på kontakter och segment
 Du kan skapa interaktioner för att registrera all interaktion och kommunikation som du har med dina kontakter och segment, till exempel direktreklam.
@@ -53,6 +53,4 @@ Om du har markerat kryssrutan **Skapa uppföljningssegment** skapas automatiskt 
 [Registrera interaktioner](marketing-interactions.md)  
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
-[Ställa in Kundhantering](marketing-setup-marketing.md)  
 [Arbeta med Business Central](ui-work-product.md)
-

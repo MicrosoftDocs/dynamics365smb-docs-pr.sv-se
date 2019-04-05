@@ -1,8 +1,8 @@
 ---
-title: "Fördelningsstatus och reparationsstatus | Microsoft Docs"
-description: "Lär dig mer om sambandet mellan reparationsstatus för serviceartiklar och fördelningsstatus för fördelningsposterna för dessa."
+title: Fördelningsstatus och reparationsstatus | Microsoft Docs
+description: Lär dig mer om sambandet mellan reparationsstatus för serviceartiklar och fördelningsstatus för fördelningsposterna för dessa.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808170"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
 Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  
@@ -71,5 +71,4 @@ En ny fördelningspost skapas som innehåller den nya resursen med statusen **Ak
 ## <a name="see-also"></a>Se även  
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
-
 

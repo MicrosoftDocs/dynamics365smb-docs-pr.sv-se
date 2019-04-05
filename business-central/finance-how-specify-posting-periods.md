@@ -1,25 +1,24 @@
 ---
-title: "Ange bokföringsperioder | Microsoft Docs"
-description: "Du anger bokföringens start- och slutdatum för att definiera när användare kan bokföra i redovisningen."
+title: Ange bokföringsperioder | Microsoft Docs
+description: Du anger bokföringens start- och slutdatum för att definiera när användare kan bokföra i redovisningen.
 services: project-madeira
-documentationcenter: 
-author: jswymer
-manager: edupont
-editor: 
+documentationcenter: ''
+author: SorenGP
+editor: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2018
-ms.author: jswymer
+ms.date: 03/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4d517fe0d4162815c3ac39e4fed17f6737370d87
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c7aa965f952a4d03ea5c74fe09e59c076a87275a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808017"
 ---
 # <a name="specify-posting-periods"></a>Så här anger du bokföringsperioder
 Använd bokföringsperioder för att ange om användare kan bokföra i redovisningen.  
@@ -29,10 +28,9 @@ Använd bokföringsperioder för att ange om användare kan bokföra i redovisni
 2. På sidan **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
 
 > [!NOTE]  
->   Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare på sidan **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges på sidan **Redovisningsinställningar**. Mer information finns i avsnittet ”Ställa in tidsbegränsningar för användare” i [Hantera användare och behörigheter](ui-how-users-permissions.md).
+>   Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare på sidan **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges på sidan **Redovisningsinställningar**. Mer information finns i [Så här ställer du in tidsbegränsningar för användare](ui-how-users-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

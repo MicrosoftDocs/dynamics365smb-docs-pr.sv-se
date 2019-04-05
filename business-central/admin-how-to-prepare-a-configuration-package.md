@@ -1,23 +1,23 @@
 ---
-title: "Förbereda ett konfigurationspaket | Microsoft Docs"
-description: "När du konfigurerar ett nytt företag, identifieras och hanteras tabellrelationer. Data importeras och kopplas i rätt ordning. Måttabeller importeras också, om de ingår i konfigurationspaketet."
+title: Förbereda ett konfigurationspaket | Microsoft Docs
+description: När du konfigurerar ett nytt företag, identifieras och hanteras tabellrelationer. Data importeras och kopplas i rätt ordning. Måttabeller importeras också, om de ingår i konfigurationspaketet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807525"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 När du konfigurerar ett nytt företag identifieras och hanteras tabellrelationer. Data importeras och kopplas i rätt ordning. Måttabeller importeras också, om de ingår i konfigurationspaketet.  
@@ -93,7 +93,7 @@ Använd konfigurationskalkylarket för att samla ihop och kategorisera informati
 3.  Välj **Grupp** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 4.  Välj **Tabell** i fältet **Radtyp**. Välj tabellen som du vill ta med i kalkylarket i fältet **Tabell-ID**.  
 
-Du kan nu tilldela tabellerna till specifika konfigurationspaket som du har skapat eller planerar att skapa. För mer information, se avsnittet "Så här tilldelar du en tabell till ett konfigurationspaket".
+Du kan nu tilldela tabellerna till specifika konfigurationspaket som du har skapat eller planerar att skapa. För mer information, se [Så här tilldelar du en tabell till ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Så här kan du arbeta med prioriterade tabeller  
 1. Markera kryssrutan **Prioriterad tabell** för att framhäva en tabell som ofta ska användas under inställning av en typisk kund, till exempel tabellen **Redovisningskonto**. När en tabell har den här beteckningen ska en kund enkelt kunna filtrera sitt kalkylark för att bara se listan över prioriterade tabeller som behöver åtgärdas.  
@@ -103,7 +103,7 @@ Du kan nu tilldela tabellerna till specifika konfigurationspaket som du har skap
 När du har definierat tabeller som du vill hantera som en del av konfigurationen, kan du enkelt tilldela tabellerna till konfigurationspaket. En tabell kan endast tilldelas till ett paket. I följande procedur tilldelar du paketet inifrån konfigurationskalkylarket.  
 
 > [!NOTE]  
->  Du kan också skapa ett paket direkt och lägga till tabeller i det. För mer information, se avsnittet "Så här skapar du ett konfigurationspaket".
+>  Du kan också skapa ett paket direkt och lägga till tabeller i det. För mer information, se [Så här skapar du ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.
 2. Markera en rad eller en grupp med rader som du vill tilldela till ett konfigurationspaket i konfigurationskalkylarket, och välj sedan åtgärden **Tilldela paket**.  
@@ -139,4 +139,3 @@ När du har kontrollerat och testat alla inställningar kan du fortsätta med at
 [Ställa in företagskonfiguration](admin-set-up-company-configuration.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring | Microsoft Docs"
-description: "Behandla betalningar till dina leverantörer genom att exportera en fil tillsammans med betalningsinformation från på journalraderna."
+title: Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring | Microsoft Docs
+description: Behandla betalningar till dina leverantörer genom att exportera en fil tillsammans med betalningsinformation från på journalraderna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/15/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2be387c75fc2718efa287c341b2fd6d4425cd531
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 94fd31db697f813b438b228063a2cb038b9cc022
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807552"
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Göra betalningar med tjänsten för bankdatakonvertering eller SEPA-kreditöverföring
 På sidan **Betalningsjournal** kan du behandla betalningar till dina leverantörer genom att exportera en fil tillsammans med betalningsinformation från på journalraderna. Du kan sedan överföra filen till den elektroniska banken där relaterade pengaöverföringar bearbetas. [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer SEPA kreditöverföringar-format, men andra format för elektroniska betalningar i ditt land/din region kan finnas.   
@@ -78,7 +78,7 @@ Fyll i betalningsjournalen med rader för förfallna betalningar till leverantö
 ## <a name="exporting-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
 När du är redo att göra betalningar till dina leverantörer eller återföringar till dina anställda kan du exportera en fil med betalningsinformation på raderna på sidan **Betalningsjournal**. Du kan sedan överföra filen till banken för att bearbeta relaterade pengaöverföringar.
 
-I den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma tjänst användas för att skicka betalningsfiler som elektronisk överföring (EFT), men med en något annorlunda process. Se steg 6 i avsnittet "att exportera betalningar till en bankfil".    
+I den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma tjänst användas för att skicka betalningsfiler som elektronisk överföring (EFT), men med en något annorlunda process. Se steg 6 i [Att exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).    
 
 > [!NOTE]  
 >   Innan du kan exportera betalningsfiler från betalningsjournalen måste du ange elektroniskt format för berörda adress och du måste aktivera tjänsten för bankdatakonvertering. Mer information finns i [Så här ställer du in bankkonton](bank-how-setup-bank-accounts.md) och [Så här ställer du in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md). Dessutom måste du välja kryssrutan **Tillåt betalningsexport betalning** på sidan **redovisningsjournaler**. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
@@ -138,8 +138,7 @@ Bokför betalningarna när den elektroniska betalningen har behandlats utan prob
 
 ## <a name="see-also"></a>Se även  
 [Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-statement-service.md)  
-[Konfigurera SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Ställa in SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)   
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
-

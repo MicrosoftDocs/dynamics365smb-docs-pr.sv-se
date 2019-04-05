@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du Operationsföljder | Microsoft Docs"
-description: "En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.orderverksamhetsföljd**."
+title: Så här skapar du Operationsföljder | Microsoft Docs
+description: En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.orderverksamhetsföljd**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808118"
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
 Tillverkningsföretag använder verksamhetsföljder för att visa produktionsprocessen.
@@ -43,11 +43,11 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 6.  I fältet **Operationsnr.** anger du numret för den första operationen, till exempel **10**.  
 7.  I fältet **Typ** anger du vilken typ av resurs som används (till exempel **Produktionsgrupp**).  
 8.  I fältet **Nr.** markerar du den resurs som ska användas (eller skriv in namnet direkt i fältet).  
-9.  I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. För mer information, se Så här skapar du en verksamhetsföljdslänk.
-10.  I fälten **Bearbetningstid** och **Omställningstid** anger du processtiderna som krävs för att genomföra operationen.  
+9.  I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. För mer information, se [Så här skapar du operationsföljdslänk](production-how-to-create-routings.md#to-create-routing-links).
+10.  I fälten **Bearbetningstid** och **Omställningstid** anger du processtiderna som krävs för att genomföra operationen.
 
-    > [!NOTE]  
-    >  Omställningstiden beräknas per produktionsorder, och bearbetningstiden beräknas per producerad artikel.  
+    > [!NOTE]
+    > Omställningstiden beräknas per produktionsorder, och bearbetningstiden beräknas per producerad artikel.  
 
 11.  I fältet **Samtidiga kapaciteter**, ange hur många enheter av den markerade resursen som används för att utföra operationen. Till exempel halveras körtiden om två personer tilldelas till en förpackningsoperation.  
 12.  Fortsätt att fylla i rader för alla operationer som krävs för att producera den aktuella artikeln.  
@@ -126,4 +126,3 @@ Versionens giltighetstid anges i fältet **Startdatum**.
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

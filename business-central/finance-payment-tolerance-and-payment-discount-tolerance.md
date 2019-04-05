@@ -1,23 +1,23 @@
 ---
 title: Betalningstolerans och kassarabattstolerans | Microsoft Docs
-description: "Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan."
+description: Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806888"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
@@ -31,14 +31,14 @@ Ett enskilt dokument har samma betalningstolerans oavsett om det används som de
 
 *kassarabattsdatum < betalningsdatum för fokustransaktionen <= betalningstoleransdatum*  
 
-Denna regel gäller även när du vill bestämma om du vill visa varningar när du kopplar betalningstolerans till flera dokument. Varningen för kassarabattstoleransen visas för varje transaktion som uppfyller villkoren. Mer information finns i avsnittet ”exempel 2 – toleransberäkningar för flera dokument”.
+Denna regel gäller även när du vill bestämma om du vill visa varningar när du kopplar betalningstolerans till flera dokument. Varningen för kassarabattstoleransen visas för varje transaktion som uppfyller villkoren. Mer information finns i avsnittet [exempel 2 – toleransberäkningar för flera dokument](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Du kan välja att visa ett varningsmeddelande som baseras på olika toleranssituationer.  
 
 - Den första varningstexten gäller betalningsrabattoleransen. Du får information om att du kan godkänna en sen kassarabatt. Du kan sedan välja att godkänna toleransen för rabattdatumet.  
 - Den andra varningstexten gäller betalningstoleransen. Du informeras om att alla transaktioner kan stängas eftersom skillnaden ligger inom den totala betalningstoleransen för transaktionerna. Du kan sedan välja att godkänna toleransen för betalningsbeloppet.
 
-Mer information finns i så här: aktivera eller inaktivera betalningstoleransvarningar .     
+Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Så här lägger du upp toleranser  
 Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktura även om betalningen inte täcker hela fakturabeloppet, oavsett om det beror på att förfallodatumet för kassarabatten har passerats, att varorna har dragits av eller att ett mindre fel har begåtts. Det gäller även återbetalningar och kreditnotor.  
@@ -60,9 +60,9 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 >  Du har nu lagt upp toleransen för basvalutan. Om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska hantera tolerans för betalningar, kreditnotor och återbetalningar i en utländsk valuta ska hanteras måste du köra batch-jobbet **Ändra betalningstolerans** med ett värde i fältet **Valutakod**.  
 
 > [!NOTE]  
->  Om du vill visa ett varningsmeddelande när du bokför en kopplad transaktion inom toleransen måste du aktivera betalningstoleransvarningen. Mer information finns i så här: aktivera eller inaktivera betalningstoleransvarningar .  
+>  Om du vill visa ett varningsmeddelande när du bokför en kopplad transaktion inom toleransen måste du aktivera betalningstoleransvarningen. Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i så här: Spärra betalningstolerans för kunder.  
+>  Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i [Spärra betalningstolerans för kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  När du lägger upp toleransen kontrollerar [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
 
@@ -262,4 +262,3 @@ normala kopplingsregler
 [Ställa in Finance](finance-setup-finance.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

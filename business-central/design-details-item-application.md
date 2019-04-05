@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer - artikelkoppling | Microsoft Docs
-description: "Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion."
+description: Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 12/21/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807369"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 När du bokför en lagertransaktion registreras antalsbokföringen i artikeltransaktionerna, och värdebokföringen i värdetransaktionerna. Mer information finns i [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)  
@@ -34,7 +34,7 @@ Artikelkopplingar kan utföras på följande sätt.
 |Metod|Description|Kopplingstyp|  
 |------------|---------------------------------------|----------------------|  
 |Automatiskt|Uppstår som allmän kostnadsspedition enligt värderingsprincipen|Antalskoppling|  
-|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs:**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr** eller genom att använda en funktion, till exempel **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
+|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr** eller genom att använda en funktion, till exempel **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
 
 Om du gör antalskopplingar eller kostnadskopplingar beror på lagertransaktionens riktning, och om en artikelkoppling utförs automatiskt eller fast, i samband med specifika processer.  
 
@@ -248,4 +248,3 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

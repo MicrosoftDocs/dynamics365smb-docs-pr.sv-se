@@ -1,18 +1,18 @@
 ---
-title: "Hantera användare och roller | Microsoft Docs"
-description: "Lär dig hantera användare och rollcenter i Business Central."
+title: Hantera användare och roller | Microsoft Docs
+description: Lär dig hantera användare och rollcenter i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807890"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Förstå användare, profiler och rollcenter
 
@@ -99,4 +99,3 @@ Användare anpassa användargränssnittet för sin egen version genom att anpass
 [Hantera användare och behörigheter](ui-how-users-permissions.md)  
 [Hantera anpassning som administratör](ui-personalization-manage.md)  
 [Anpassa din arbetsyta](ui-personalization-user.md)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Så här skapar du bankdatakonvertering | Microsoft Docs"
-description: "Du kan ställa in bankkonton för att följa upp transaktioner och importera eller exportera bankfeeder, till exempel Yodlee."
+title: Så här skapar du bankdatakonvertering | Microsoft Docs
+description: Du kan ställa in bankkonton för att följa upp transaktioner och importera eller exportera bankfeeder, till exempel Yodlee.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/02/2018
 ms.author: sgroespe
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807912"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
@@ -36,7 +36,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 2. Sidan **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
 
     > [!NOTE]  
-    >   I CRONUS International Ltd:s demodatabas har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för bankdatakonverteringen.
+    >   I CRONUS demodatabas har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för bankdatakonverteringen.
 3. I fältet **URL för registrering** väljer du webbläsarknappen för att öppna tjänstleverantörens inloggningssida.  
 4. På bankdatatjänstleverantörens registreringssida anger du användarnamnet och lösenord för ditt företags prenumeration på tjänsten, och slutför sedan inloggningen enligt tjänstleverantörens anvisningar.
 
@@ -64,4 +64,3 @@ Du har nu registrerat dig för tjänsten bankdatakonvertering. Fortsätt för at
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

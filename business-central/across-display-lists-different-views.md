@@ -1,8 +1,8 @@
 ---
-title: "Ändra hur mycket detaljer som visas i listor | Microsoft Docs"
-description: "Du kan visa listor i detaljerade vyer som innehåller mer information eller som paneler som är lätta att skanna visuellt."
+title: Ändra hur mycket detaljer som visas i listor | Microsoft Docs
+description: Du kan visa listor i detaljerade vyer som innehåller mer information eller som paneler som är lätta att skanna visuellt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807374"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visa listor på olika sätt
 I högra hörnet i en lista i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta en ikon som gör att du kan växla vy i listan. En lista kan visas som en detaljerad lista, vilket är standardvyn. Men du kan även koppla till en panelvy, som kommer att visa mindre detaljer om den aktuella transaktionen och staplar transaktionerna som paneler. Den här vyn är mycket användbar för att få en översikt över flera transaktioner och är i synnerhet användbar i mindre enheter, eftersom varje transaktion är enklare att klicka på.
@@ -30,4 +30,3 @@ Du kan importera en bild för en viss artikel genom att gå till **artikelkortet
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
-

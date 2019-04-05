@@ -1,26 +1,26 @@
 ---
-title: "Genomgång av affärsprocesser | Microsoft Docs"
-description: "Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS International Ltd. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs."
+title: Genomgång av affärsprocesser | Microsoft Docs
+description: Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807098"
 ---
 # <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
-Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS International Ltd. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.  
+Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.  
 
  Genomgångarna beskriver fullständiga scenarier som ska utföras från början till slut för att ge så stor nytta som möjligt. Många bygger på demonstrationer i [!INCLUDE[d365fin](includes/d365fin_md.md)] och där kan du prova på procedurerna själv, i din egen takt.  
 
@@ -46,4 +46,3 @@ Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utför
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

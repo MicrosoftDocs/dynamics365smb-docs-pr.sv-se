@@ -1,24 +1,24 @@
 ---
 title: Designdetaljer - Partiformningsmetoder | Microsoft Docs
-description: "I det här avsnittet ger en översikt över metoder för artikelåteranskaffning."
+description: I det här avsnittet ger en översikt över metoder för artikelåteranskaffning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 4aaef129da953596632b56716eaff2f0c47736f7
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807332"
 ---
 # <a name="design-details-reordering-policies"></a>Designdetaljer: Partiformningsmetoder
 Partiformningsmetoder anger hur mycket som ska beställas när artikeln behöver fyllas på. Fyra olika partiformningsmetoder finns.  
@@ -100,4 +100,3 @@ Eftersom leveranspartistorleken baseras på faktiskt behov, kan det vara praktis
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

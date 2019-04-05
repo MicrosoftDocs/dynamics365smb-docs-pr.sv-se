@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer - Lager och kostnadskalkylering | Microsoft Docs
-description: "Dokumentationen ger en detaljerad teknisk inblick i de begrepp och principer som används i lagervärderingsfunktionerna i Business Central."
+description: Dokumentationen ger en detaljerad teknisk inblick i de begrepp och principer som används i lagervärderingsfunktionerna i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807515"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
 Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ Lagervärdering, kallas även kostnadshantering, används vid registrering och r
 [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)
 [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)  
 [Designdetaljer: Omvärdering](design-details-revaluation.md)
-

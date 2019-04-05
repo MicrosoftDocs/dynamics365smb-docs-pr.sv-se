@@ -1,23 +1,23 @@
 ---
-title: "Så här: Ställa in grundläggande dist.lager med verksamhetsområden | Microsoft Docs"
-description: "Om ett internt verksamhetsområde - till exempel produktion eller montering - finns i grundläggande distributionslagerkonfigurationer där lagerställen använder inställningsfältet **Lagerplats obligatorik** samt eventuellt fälten **Begär plockning** och **Begär artikelinförsel** kan du använda tre grundläggande lagerdokument för att registrera lageraktiviteter för interna verksamhetsområden."
+title: 'Så här: Ställa in grundläggande dist.lager med verksamhetsområden | Microsoft Docs'
+description: Om ett internt verksamhetsområde - till exempel produktion eller montering - finns i grundläggande distributionslagerkonfigurationer där lagerställen använder inställningsfältet **Lagerplats obligatorik** samt eventuellt fälten **Begär plockning** och **Begär artikelinförsel** kan du använda tre grundläggande lagerdokument för att registrera lageraktiviteter för interna verksamhetsområden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807902"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Ställa in grundläggande dist.lager med verksamhetsområden
 Om internt verksamhetsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt verksamhetsområde:  
@@ -35,7 +35,7 @@ Att använda dessa sidor med intern operation t.ex för att plocka komponenter o
 - Definiera standardlagerplatsstrukturer för komponenter och artiklar, flöde till och från åtgärdsresurser.  
 - Göra till- och frånlagerplatser som är avsedda för åtgärdsresurser för att förhindra att artiklarna plockas för utgående dokument.
 
-Lagerplatskoder som definierats på lagerställekort anger ett standardlagerflöde för vissa aktiviteter, till exempel komponenter i en monteringsavdelning. Ytterligare funktioner finns för att se till att artiklar inte kan plockas eller flyttas till andra aktiviteter när de placerats på en viss lagerplats. Mer information finns i avsnittet ”Så här skapar du särskilda komponentlagerplatser”.
+Lagerplatskoder som definierats på lagerställekort anger ett standardlagerflöde för vissa aktiviteter, till exempel komponenter i en monteringsavdelning. Ytterligare funktioner finns för att se till att artiklar inte kan plockas eller flyttas till andra aktiviteter när de placerats på en viss lagerplats. Mer information finns i [Så här skapar du särskilda komponentlagerplatser](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Procedurerna baseras på att ställa in grundläggande av lageraktiviteter kring en produktionsområde. Momentet är liknande för andra verksamhetsområden, t.ex montering, tjänstehantering och projekt.  
 
@@ -142,4 +142,3 @@ Att dedikera en lagerplats påminner om funktionen att använda lagerplatstyper,
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

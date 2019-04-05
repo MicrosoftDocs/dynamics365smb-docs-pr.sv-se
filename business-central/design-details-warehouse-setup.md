@@ -1,21 +1,21 @@
 ---
-title: "Designdetaljer - Lagerstyrningsinställning | Microsoft Docs"
-description: "Distributionslagerfunktion i Business Central innehåller olika nivåer av komplexitet enligt definitionen av licensbehörigheter i de erbjudna partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen."
+title: Designdetaljer - Lagerstyrningsinställning | Microsoft Docs
+description: Distributionslagerfunktion i Business Central innehåller olika nivåer av komplexitet enligt definitionen av licensbehörigheter i de erbjudna partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807714"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
 Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller olika nivåer av komplexitet, enligt definitionen av licensbehörigheter i de offererade partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen. Dessutom ska kopplingsobjekten i licensen styra vilka användargränssnittsdokument som ska användas för de distributionslageraktiviteter som stöds.  
@@ -30,14 +30,14 @@ Följande lagerrelaterade partiklar finns:
 -   Distributionslagerutleverans (4210)  
 -   Lagerstyrningssystem (4620)  
 -   Intern plockning och artikelinförsel (4630)  
--   Automated Data Capture System (4640) 
+-   Automatiskt datainsamlingssystem (4640) 
 -   Lagerplatsinställning (4660)  
 
 Läs mer om varje partikel i [[!INCLUDE[d365fin](includes/d365fin_md.md)] prislistor](https://go.microsoft.com/fwlink/?LinkId=238341) (kräver ett PartnerSource-konto).  
 
 Efterföljande tabell visar vilka partiklar som krävs för att definiera olika komplexitetsnivåer för distributionslager, vilka användargränssnittsdokument som stöder varje nivå och vilka lagerställekoder som avspeglar dessa nivåer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrationsdatabas.  
 
-|Komplexitetsnivå|Beskrivning|Användargränssnittsdokument|CRONUS-plats|Lägsta partikelkrav|  
+|Komplexitetsnivå|Description|Användargränssnittsdokument|CRONUS Lagerställe|Lägsta partikelkrav|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Ingen tilldelad distributionslageraktivitet.<br /><br /> Ta emot/leverera från order.|Order|BLÅ|Grundläggande lager|  
 |2|Ingen tilldelad distributionslageraktivitet.<br /><br /> Ta emot/leverera från order.<br /><br /> Lagerplatskoden krävs.|Order med lagerplatskod|SILVER|Grundläggande lager/Lagerplats|  
@@ -130,4 +130,3 @@ Artikelinförselmallen kan tilldelas en artikel och till ett lagerställe. Artik
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)   
 [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)
-

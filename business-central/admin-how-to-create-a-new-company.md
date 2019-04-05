@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du ett nytt företag | Microsoft Docs"
-description: "Tabeller och sidor skapas i syfte att kunna använda RapidStart Services, med de innehåller inga data."
+title: Så här skapar du ett nytt företag | Microsoft Docs
+description: Tabeller och sidor skapas i syfte att kunna använda RapidStart Services, med de innehåller inga data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 49b2bb9a59c5bcd5d414b129acffaedfa0d0eaa1
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807239"
 ---
 # <a name="create-a-new-company"></a>Skapa ett nytt företag
 Innan du kan använda RapidStart Services för [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[d365fin](includes/d365fin_md.md)] men det inte finns några data i dem.
@@ -78,4 +78,3 @@ Förutom inställningsdatatabeller har [!INCLUDE[d365fin](includes/d365fin_md.md
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

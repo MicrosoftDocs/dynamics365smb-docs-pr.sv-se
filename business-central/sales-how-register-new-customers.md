@@ -1,8 +1,8 @@
 ---
-title: "Skapa ett kundkort för att registrera en ny kund | Microsoft Docs"
-description: "Beskriver hur du skapar ett kundkort för att registrera information om varje ny kund eller klienten som du säljer till."
+title: Skapa ett kundkort för att registrera en ny kund | Microsoft Docs
+description: Beskriver hur du skapar ett kundkort för att registrera information om varje ny kund eller klienten som du säljer till.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806904"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
@@ -58,4 +58,3 @@ Kundmallen läggs till listan över kundmallar, så att du kan använda det för
 [Försäljning](sales-manage-sales.md)    
 [Konfigurera försäljning](sales-setup-sales.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du rapporter med XBRL | Microsoft Docs"
-description: "XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data."
+title: Så här skapar du rapporter med XBRL | Microsoft Docs
+description: XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 2b17ad5dabed505b358b8c2be6414b17228724b8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808306"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data. Bakom XBRL-projektet för global ekonomisk rapportering står ett stort antal ERP-programvaruföretag och internationella revisionsbyråer. Målet med projektet är att tillhandahålla en standard för enhetlig rapportering av ekonomisk information för banker, investerare och statliga myndigheter. Sådan affärsrapportering kan inkludera följande:  
@@ -109,4 +109,3 @@ När en taxonomi ändras måste du uppdatera den aktuella taxonomin i enlighet d
 [Ekonomi](finance.md)    
 [Affärsstöd](bi.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

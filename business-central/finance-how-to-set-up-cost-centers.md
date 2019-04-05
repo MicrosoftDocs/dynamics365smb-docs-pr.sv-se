@@ -1,24 +1,24 @@
 ---
-title: "Så här skapar du kostnadsställen | Microsoft Docs"
-description: "Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Planen för kostnadsställen liknar dimensionsinformationen för redovisningen."
+title: Så här skapar du kostnadsställen | Microsoft Docs
+description: Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Planen för kostnadsställen liknar dimensionsinformationen för redovisningen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807042"
 ---
 # <a name="set-up-cost-centers"></a>Skapa kostnadsgrupper
 Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Planen för kostnadsställen liknar dimensionsinformationen för redovisningen. Du kan definiera planen för kostnadsställen på följande sätt:  
@@ -59,4 +59,3 @@ Du kan lägga upp och underhålla kostnadsställen antingen i kortet **Kort för
 [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
 [Om kostnadsredovisning](finance-about-cost-accounting.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

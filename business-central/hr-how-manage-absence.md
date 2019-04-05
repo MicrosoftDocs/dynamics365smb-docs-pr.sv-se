@@ -1,8 +1,8 @@
 ---
-title: "Hantera personalfrånvaro | Microsoft Docs"
-description: "Beskriver hur du registrerar anställdas frånvaro och analyserar frånvarostatistik."
+title: Hantera personalfrånvaro | Microsoft Docs
+description: Beskriver hur du registrerar anställdas frånvaro och analyserar frånvarostatistik.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808074"
 ---
 # <a name="manage-employee-absence"></a>Hantera personalfrånvaro
 Om du vill kunna administrera en anställds frånvaro, måste du registrera frånvaron på sidan **Frånvaroregistrering**. Frånvaron kan sedan visas på olika sätt i analys- och rapporteringsändamål.
@@ -73,4 +73,3 @@ Du kan registrera personalfrånvaron dagligen eller med något annat intervall s
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)
-

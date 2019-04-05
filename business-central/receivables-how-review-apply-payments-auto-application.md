@@ -1,8 +1,8 @@
 ---
-title: "Kontrollera automatiskt tillämpade betalningar och koppla betalningar manuellt | Microsoft Docs"
-description: "När betalningen kopplas automatiskt, kan du granska alla poster för en betalning och manuellt återställa dem som använts felaktigt."
+title: Kontrollera automatiskt tillämpade betalningar och koppla betalningar manuellt | Microsoft Docs
+description: När betalningen kopplas automatiskt, kan du granska alla poster för en betalning och manuellt återställa dem som använts felaktigt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4ac7d32decd6c6ba7161398836f70c847f4b4436
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807724"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Så här granskar och kopplar du betalningar manuellt efter automatisk koppling
 För varje journalrad som representerar en betalning på sidan **Betalningsavstämningsjournal** kan du öppna sidan **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information om automatisk koppling finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
@@ -55,4 +55,3 @@ Sidan **Betalningskoppling** stängs och på sidan **Betalningsavstämningsjourn
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

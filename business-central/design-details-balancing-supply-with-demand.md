@@ -1,24 +1,24 @@
 ---
-title: "Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs"
-description: "Kärnan av planeringssystemet inbegriper att hantera tillgång och efterfrågan genom att föreslå användarhandlingar för att revidera leveransorder i händelse av obalans. Det sker per kombination av variant och lagerställe."
+title: Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs
+description: Kärnan av planeringssystemet inbegriper att hantera tillgång och efterfrågan genom att föreslå användarhandlingar för att revidera leveransorder i händelse av obalans. Det sker per kombination av variant och lagerställe.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807084"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designdetaljer: Balansera tillgång med efterfrågan
 Kärnan av planeringssystemet inbegriper att hantera tillgång och efterfrågan genom att föreslå användarhandlingar för att revidera leveransorder i händelse av obalans. Det sker per kombination av variant och lagerställe.  
@@ -118,4 +118,3 @@ Innan tillgången balanseras efter efterfrågan tar programmet bort alla befintl
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

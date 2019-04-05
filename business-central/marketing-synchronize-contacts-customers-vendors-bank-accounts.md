@@ -1,8 +1,8 @@
 ---
-title: "Synkronisera kontakter med kunder och leverantörer | Microsoft Docs"
-description: "Du kan koppla eller synkronisera kontaktinformation för kontakter som också är kunder, leverantörer eller bankkonton, så att du bara uppdaterar informationen på ett ställe."
+title: Synkronisera kontakter med kunder och leverantörer | Microsoft Docs
+description: Du kan koppla eller synkronisera kontaktinformation för kontakter som också är kunder, leverantörer eller bankkonton, så att du bara uppdaterar informationen på ett ställe.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,17 +13,15 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 4785e0644e2cb4c615ed79fbd23bef74d25ca547
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807278"
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisera kontakter med kunder, leverantörer och bankkonton
 Om några av kontakterna också är kund-, leverantörs- och/eller bankkonton kan du synkronisera deras kontaktinformation med relaterade kund-, leverantörs- och bankkonton. Synkroniseringen gör information som är gemensam mellan kontakter och kunder, leverantörer eller bankkonton densamma.  
-
-Innan du kan synkronisera kontakterna med kund-, leverantörs- och/eller bankkonton måste du ange en affärsrelationskod för dessa på sidan **Marknadsföringsinställningar**. Mer information finns i [Ställa in e-postmeddelanden](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Olika sätt att synkronisera kontakter med kunder, leverantörer och bankkonton
 Du kan synkronisera kontakterna med kunder, leverantörer eller bankkonton på tre olika sätt:
@@ -48,4 +46,3 @@ När kontaken har synkroniserats med kund-, leverantörs- eller bankkontot:
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

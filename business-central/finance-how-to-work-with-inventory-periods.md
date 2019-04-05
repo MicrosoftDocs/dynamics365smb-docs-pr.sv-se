@@ -1,8 +1,8 @@
 ---
-title: "Så här arbetar du med Lagerperioder | Microsoft Docs"
-description: "Du kan styra den tidsperiod som användare kan bokföra ändringar i lagret genom att definiera lagerperioder."
+title: Så här arbetar du med Lagerperioder | Microsoft Docs
+description: Du kan styra den tidsperiod som användare kan bokföra ändringar i lagret genom att definiera lagerperioder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807985"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
 Under en lagerperiod går det att bokföra ändringar i lagret. Lagerperioden definieras utifrån slutdatumet. När en lagerperiod stängs kan inga ändringar bokföras i lagret, oavsett om de är förväntade eller rör faktureringen, före det här slutdatumet. Det går inte heller att bokföra nya värden i lagret före slutdatumet. Om det finns öppna artikeltransaktioner i den stängda perioden, d.v.s. positiva antal som ännu inte har kopplats till avgående transaktioner, går det fortfarande att koppla avgående antal till de här transaktionerna även om perioden är stängd.  
@@ -71,4 +71,3 @@ När lagerperioden har stängts en gång går det inte längre att ta bort den. 
 [Ekonomi](finance.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med Financials](ui-work-product.md)
-

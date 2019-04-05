@@ -1,23 +1,23 @@
 ---
-title: "Registrera förbrukning och utflöde för en produktionsorderrad | Microsoft Docs"
-description: "Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt."
+title: Registrera förbrukning och utflöde för en produktionsorderrad | Microsoft Docs
+description: Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808154"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
@@ -73,4 +73,3 @@ Om värdena som återstår ska bokföras kommer journalen att innehåller dessa 
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

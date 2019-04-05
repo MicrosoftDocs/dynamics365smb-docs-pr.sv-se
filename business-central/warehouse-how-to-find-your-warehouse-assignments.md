@@ -1,23 +1,23 @@
 ---
-title: "Så här: Hitta distributionslagerfördelningar | Microsoft Docs"
-description: "Öppna kortsidan för ett valt artikel, för att hitta distributionslagren uppgifter. Om distributionslagerinstruktioner har skapats visas rader för att ta och placera, och du kan börja arbeta med en tilldelning. I vissa distributionslager kan chefen ha gett särskilda instruktioner till respektive anställd."
+title: 'Så här: Hitta distributionslagerfördelningar | Microsoft Docs'
+description: Öppna kortsidan för ett valt artikel, för att hitta distributionslagren uppgifter. Om distributionslagerinstruktioner har skapats visas rader för att ta och placera, och du kan börja arbeta med en tilldelning. I vissa distributionslager kan chefen ha gett särskilda instruktioner till respektive anställd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8dafcb427cac506209e0858791f4c47a98d72a2e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807944"
 ---
 # <a name="find-your-warehouse-assignments"></a>Hitta distributionslagerfördelningar
 Öppna kortsidan för ett valt artikel, för att hitta distributionslagren uppgifter. Om distributionslagerinstruktioner har skapats visas rader för att ta och placera, och du kan börja arbeta med en tilldelning. I vissa distributionslager kan chefen ha gett särskilda instruktioner till respektive anställd. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).
@@ -39,4 +39,3 @@ Du kan använda fältet **Tilldelat användar-ID** i huvudet för att göra ansp
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
-

@@ -1,23 +1,23 @@
 ---
-title: "Datum för beräkning av försäljning | Microsoft Docs"
-description: "Programmet beräknar automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning."
+title: Datum för beräkning av försäljning | Microsoft Docs
+description: Programmet beräknar automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7de382530c1872155903bfa015866cf99a9f5566
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc73a03c44896bda5d1fdf789a8b349f796c6e58
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807493"
 ---
 # <a name="date-calculation-for-sales"></a>Datumberäkning för försäljning
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknas automatiskt tidigast möjliga leveransdatum för en artikel på en försäljningsorderrad.
@@ -47,4 +47,3 @@ Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, el
  [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)   
  [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

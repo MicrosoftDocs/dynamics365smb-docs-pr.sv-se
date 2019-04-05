@@ -1,24 +1,24 @@
 ---
-title: "Saldon mellan kostnadstyp, kostnadsställe och kostnadsbärare | Microsoft Docs"
-description: "När du lägger upp kostnadsredovisning måste du kontrollera att alla transaktioner har kopplats till en kostnadstyp samt ett kostnadsställe eller en kostnadsbärare. Det innebär att varje kostnadstransaktion måste ha en tilldelad kostnadstyp och en kod för kostnadsställe eller kostnadsbärare. Denna regel ser till att alla kostnadstransaktioner visas i antingen kostnadsställena eller kostnadsbärarna, men inte på båda platserna."
+title: Saldon mellan kostnadstyp, kostnadsställe och kostnadsbärare | Microsoft Docs
+description: När du lägger upp kostnadsredovisning måste du kontrollera att alla transaktioner har kopplats till en kostnadstyp samt ett kostnadsställe eller en kostnadsbärare. Det innebär att varje kostnadstransaktion måste ha en tilldelad kostnadstyp och en kod för kostnadsställe eller kostnadsbärare. Denna regel ser till att alla kostnadstransaktioner visas i antingen kostnadsställena eller kostnadsbärarna, men inte på båda platserna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
+ms.openlocfilehash: d223bdc490c2ac45353d0e7f8aff6816c1ce5f51
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 31e66e98f854758ee479220803c42e61fe2d3c44
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808295"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldon mellan kostnadstyp, kostnadsställe och kostnadsbärare
 När du lägger upp kostnadsredovisning måste du kontrollera att alla transaktioner har kopplats till en kostnadstyp samt ett kostnadsställe eller en kostnadsbärare. Det innebär att varje kostnadstransaktion måste ha en tilldelad kostnadstyp och en kod för kostnadsställe eller kostnadsbärare. Denna regel ser till att alla kostnadstransaktioner visas i antingen kostnadsställena eller kostnadsbärarna, men inte på båda platserna.  
@@ -36,4 +36,3 @@ När du lägger upp kostnadsredovisning måste du kontrollera att alla transakti
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Skapa kostnadsbudgetar](finance-create-cost-budgets.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

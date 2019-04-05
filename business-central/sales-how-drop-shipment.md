@@ -1,8 +1,8 @@
 ---
-title: "Koppla en försäljningsorder till en inköpsorder för direktleverans | Microsoft Docs"
-description: "Beskriver hur du skapar en försäljningsorder som är länkad till en inköpsorder för att tillåta leverans direkt från leverantören till kunden."
+title: Koppla en försäljningsorder till en inköpsorder för direktleverans | Microsoft Docs
+description: Beskriver hur du skapar en försäljningsorder som är länkad till en inköpsorder för att tillåta leverans direkt från leverantören till kunden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 77bed1563a5c0187e78f7e7013dfed4a723d7702
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807625"
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
 Direktleverans innebär leverans av artiklar från någon av företagets leverantörer direkt till någon av företagets kunder.
@@ -36,8 +36,8 @@ Om du vill förbereda en direktleverans för den artikel som ska säljas kan du 
 1. Skapa en inköpsorder. Fyll inte i några fält på raderna. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 2. I fältet **Förs.kundnr.** markerar du kunden som du säljer till.
 3. Välj åtgärden **Direktleverans** och välj sedan åtgärden **Hämta förs.order**.
-4. P sidan **Försäljningslista** väljer du den försäljningsorder som du förberedde i avsnittet "Så här skapar du försäljningsorder för direktleveranser".
-5. Välj **OK**.
+4. På sidan **Försäljningslista** väljer du den försäljningsorder som du förberedde i [Så här skapar du försäljningsorder för direktleveranser](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. Välj knappen **OK**.
 
 Radinformationen från försäljningsordern infogas på inköpsorderraden.
 
@@ -50,7 +50,7 @@ Du kan nu instruera leverantören att leverera artiklarna till kunden, till exem
 När leverantören har levererat artiklarna kan du bokföra försäljningsordern som levererad. Du kan också bokföra inköpsordern, men endast med alternativet **Ta emot** tills försäljningsordern har fakturerats.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
-2. Öppna den försäljningsorder som du skapade i avsnittet "Att skapa en försäljningsorder för en direktleverans".
+2. Öppna den försäljningsorder som du skapade i [Att skapa en försäljningsorder för en direktleverans]() .
 3. I fältet **Levereras antal** anger du hur många av orderkvantiteten som ska levereras, hela eller delvis orderkvantitet.
 4. Välj åtgärden **Bokför** eller **Bokför och skicka**.
 5. Markera antingen alternativet **Leverera** för att fakturera senare eller alternativet **Leverera och fakturera** för att fakturera omedelbart.
@@ -63,4 +63,3 @@ När leverantören har levererat artiklarna kan du bokföra försäljningsordern
 [Försäljning](sales-manage-sales.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

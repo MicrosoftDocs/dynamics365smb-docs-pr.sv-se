@@ -1,23 +1,23 @@
 ---
-title: "Så här visar du arkiverade instanser för arbetsflödessteg | Microsoft Docs"
-description: "Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**."
+title: Så här visar du arkiverade instanser för arbetsflödessteg | Microsoft Docs
+description: Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3967e6f4d58e7294eef28d7229974c3e08c87ee0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807683"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visa arkiverade instanser för arbetsflödessteg
 Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.  
@@ -42,4 +42,3 @@ Sidan **Arkiverade instanser för arbetsflödessteg** öppnas och visar alla ark
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)   
  [Arbetsflöde](across-workflow.md)
-

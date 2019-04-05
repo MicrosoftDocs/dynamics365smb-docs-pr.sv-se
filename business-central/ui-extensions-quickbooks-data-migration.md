@@ -1,6 +1,6 @@
 ---
-title: "Använda tillägget QuickBooks-migrering | Microsoft Docs"
-description: "Beskriver hur du använder tillägget för att importera kunder, leverantörer, artiklar och konton från QuickBooks Desktop till Business Central."
+title: Använda tillägget QuickBooks-migrering | Microsoft Docs
+description: Beskriver hur du använder tillägget för att importera kunder, leverantörer, artiklar och konton från QuickBooks Desktop till Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807467"
 ---
-
 # <a name="the-quickbooks-data-migration-extension"></a>Tillägget QuickBooks datamigrering
 Detta tillägg gör det enkelt att migrera kunder, leverantörer, artiklar och konton från QuickBooks till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om ditt företag använder QuickBooks i dag, kan du exportera nödvändig information och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
@@ -66,4 +65,3 @@ Kontrollera de ingående saldona för konton i redovisningen. QuickBooks sparar 
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-

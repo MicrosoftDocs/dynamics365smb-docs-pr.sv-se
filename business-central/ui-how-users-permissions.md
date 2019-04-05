@@ -1,6 +1,6 @@
 ---
-title: "Tilldela eller redigera användarbehörigheter | Microsoft Docs"
-description: "Beskriver hur du lägger till Office 365-användare till Business Central och tilldelar dem behörigheter, åtkomstbehörigheter och säkerhetsinställningar."
+title: Tilldela eller redigera användarbehörigheter | Microsoft Docs
+description: Beskriver hur du lägger till Office 365-användare till Business Central och tilldelar dem behörigheter, åtkomstbehörigheter och säkerhetsinställningar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807762"
 ---
 # <a name="managing-users-and-permissions"></a>Hantera användare och behörigheter
 Om du vill lägga till användare i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste företagets Office 365-administratör först skapa användare i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://aka.ms/CreateOffice365Users)
 
-När användare skapas i Office 365, kan de importeras till sidan **användare** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Användare tilldelas behörighetsuppsättningar beroende på planen som tilldelats användaren i Office 365. Mer information om licenser finns i [Licensieringsguide för Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+När användare skapas i Office 365, kan de importeras till sidan **användare** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Användare tilldelas behörighetsuppsättningar beroende på planen som tilldelats användaren i Office 365. Mer information om licenser finns i [Microsoft Dynamics 365 Business Central licensieringsguide](https://aka.ms/BusinessCentralLicensing).
 
 Du kan sedan tilldela behörighetsuppsättningar för användarna för att definiera vilka databasobjekt, och därmed vilka gränssnittselement, de har tillgång till och i vilka företag. Du kan lägga till användare i användargrupper. Detta gör det enklare att tilldela samma behörighetsuppsättning till flera användare.
 
 En behörighetsuppsättning är en samling behörigheter för specifika objekt i databasen. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Från sidan **användarkort** kan du öppna sidan **gällande behörigheter** för att visa vilka behörigheter som användaren har och behörighetsgrupper de ges. Här kan du också ändra behörighetsinformation om behörighetsgrupper av typen **Användaranpassade**. Mer information finns i avsnittet ”Att visa eller redigera en användares behörigheter”.
+Från sidan **användarkort** kan du öppna sidan **gällande behörigheter** för att visa vilka behörigheter som användaren har och behörighetsgrupper de ges. Här kan du också ändra behörighetsinformation om behörighetsgrupper av typen **Användaranpassade**. Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Administratörer kan använda sidan **Användarinställningar** för att definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad.
 
@@ -38,7 +38,7 @@ Ett annat system som definierar vilka användare kan komma åt Upplevelsemiljön
 
 Alla nya användare som har skapats för din Office 365-prenumerationen kommer att läggas till i sidan **användare**.
 
-## <a name="to-group-users-in-a-user-group"></a>Gruppera användare i en användargrupp
+## <a name="to-group-users-in-user-groups"></a>Gruppera användare i användargrupper
 Du kan skapa användargrupper för att hantera behörighetsuppsättningar för grupper av användare i företaget.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Användargrupper** och välj sedan relaterad länk.
@@ -46,7 +46,7 @@ Du kan skapa användargrupper för att hantera behörighetsuppsättningar för g
 3. På sidan **Användargrupp** väljer du åtgärden **Medlemmar i användargrupp**.
 4. På sidan **Användargrupp** väljer du åtgärden **Lägg användare**.
 
-När användare eller användargrupper har skapats, måste du tilldela behörighetsuppsättningar till varje för att definiera vilka objekt en användare kan komma åt. Först måste du ordna de relevanta behörigheterna i behörighetsuppsättningar. Mer information finns i avsnittet ”Att skapa eller redigera en behörighetsuppsättning”.
+När användare eller användargrupper har skapats, måste du tilldela behörighetsuppsättningar till varje för att definiera vilka objekt en användare kan komma åt. Först måste du ordna de relevanta behörigheterna i behörighetsuppsättningar. Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Om du vill kopiera en användargrupp och dess behörighetsuppsättningar
 Du kan kopiera alla behörighetsuppsättningar från en befintlig användargrupp till den nya användargruppen, om du snabbt vill definiera en ny användargrupp..
@@ -57,7 +57,7 @@ Medlemmarna i användargruppen kopieras inte till den nya användargruppen. Du m
 2. Välj de användargrupper som du vill kopiera och välj sedan åtgärden **Kopiera användargrupp**.
 3. I fältet **Ny användargruppkod** anger du ett namn på den nya gruppen och väljer sedan knappen **OK**.
 
-Användargruppen läggs till i sidan **Användargrupper**. Fortsätt med att lägga till användare. Mer information finns i avsnittet ”För gruppanvändare i användargrupper”.  
+Användargruppen läggs till i sidan **Användargrupper**. Fortsätt med att lägga till användare. Mer information finns i avsnittet [För gruppanvändare i användargrupper](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare
 Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
@@ -68,7 +68,7 @@ Administratörer kan definiera tidsperioder som anger när användare kan bokfö
 4. Fyll i fälten om det behövs.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Skapa eller ändra en behörighetsuppsättning
-Behörighetsuppsättningar fungerar som behållare med behörigheter så att du enkelt kan hantera flera behörigheter i en post. När du har skapat en behörighetsuppsättning måste du lägga till de faktiska behörigheterna. Mer information finns i avsnittet ”Att skapa eller redigera behörigheter”.
+Behörighetsuppsättningar fungerar som behållare med behörigheter så att du enkelt kan hantera flera behörigheter i en post. När du har skapat en behörighetsuppsättning måste du lägga till de faktiska behörigheterna. Mer information finns i avsnittet [Att skapa eller redigera behörigheter manuellt](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > En [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning innehåller vanligtvis ett antal fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av programvaruleverantören. Dessa behörighetsuppsättningar är av typen **System** eller **Tillägg**. Du kan inte skapa eller redigera sådana behörighetsuppsättningar eller behörigheter i dem. Du kan emellertid kopiera dem för att definiera egna behörighetsuppsättningar och behörigheter. <br /><br />
@@ -91,7 +91,7 @@ När du skapar nya behörighetsuppsättningar kan du använda en kopieringsfunkt
 Den nya behörighetsuppsättningen innehåller alla behörigheter för de kopierade grupp, läggs till som en ny rad på sidan **behörighetsuppsättningen**. Notera att raderna sorteras i bokstavsordning inom varje typ.
 
 ## <a name="to-create-or-modify-permissions-manually"></a>Skapa eller ändra behörigheter manuellt
-Denna procedur förklarar hur man lägger till eller redigerar behörigheter manuellt. Du kan också välja en behörighetuppsättningar skapas automatiskt utifrån dina åtgärder i användargränssnittet. Mer information finns i avsnittet ”Att skapa eller ändra behörighetsgrupper genom att registrera åtgärderna”.
+Denna procedur förklarar hur man lägger till eller redigerar behörigheter manuellt. Du kan också välja en behörighetuppsättningar skapas automatiskt utifrån dina åtgärder i användargränssnittet. Mer information finns i avsnittet [Att skapa eller ändra behörighetsgrupper genom att registrera åtgärderna](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. På sidan **behörighetsuppsättningar**, markera raden för en behörighetsuppsättning som du vill kopiera och välj sedan åtgärden **Behörighet**.
 2. På sidan **behörigheter**, skapa en ny rad och fyll i fälten på en befintlig rad.
@@ -109,6 +109,10 @@ Du kan tilldela en indirekt behörighet för att använda en objekt endast via e
 en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[d365fin](includes/d365fin_md.md)] om användaren har behörighet att ändra tabellen inköpsrad.  Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
 
 Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
+
+### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Att begränsa användarens åtkomst till specifika poster i en tabell
+För postnivåsäkerhet i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. Det innebär att användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i hjälpen för utvecklare och IT-proffs.
+
 
 ## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Om du vill skapa eller ändra behörighet när du registrerar dina åtgärder
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **behörighetsuppsättningar** och välj sedan relaterad länk.
@@ -138,7 +142,7 @@ Du kan tilldela behörigheter till användare på två sätt:
 2. Markera den användare som du vill tilldela behörighet till.
 Eventuella behörighetsuppsättningar som redan har tilldelats till användaren visas i faktaboxen **Behörighetsuppsättningar**.
 3. I fönstret **Inkommande dokument** väljer du sidan **Användarkort**.
-4. På snabbfliken **Användarbehörighetsuppsättning** fyller du i fälten efter behov på en ny rad. Mer information finns i avsnittet ”Att skapa eller redigera en behörighetsuppsättning”.
+4. På snabbfliken **Användarbehörighetsuppsättning** fyller du i fälten efter behov på en ny rad. Mer information finns i avsnittet [Att skapa eller redigera en behörighetsuppsättning](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Så här tilldelar du en behörighetsuppsättning till sidan **Behörighetsuppsättning efter användare**  
 I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en användare på sidan **Behörighetsuppsättning efter användare**. Stegen är liknande på sidan **Behörighetsuppsättning efter användargrupp**.
@@ -161,20 +165,20 @@ I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en 
 
     > [!NOTE]  
     > Endast behörighetsgrupper av typen **användardefinierade** kan redigeras.<br /><br />
-    > Rader av källberättigande kommer från prenumerationsplanen. Värdena på behörighetsvärdena för berättigandet åsidosätter värden i andra behörighetsuppsättningar om de har en högre rankning. Ett värde i en icke-berättigad behörighetsuppsättning som har en högre rankning än det relaterade värdet i berättigandet ska vara inom parentes för att ange att det inte är effektivt när det åsidosätts  av berättigandet. Mer information om rankning finns i avsnittet ”Att skapa eller redigera behörigheter”.  
+    > Rader av källberättigande kommer från prenumerationsplanen. Värdena på behörighetsvärdena för berättigandet åsidosätter värden i andra behörighetsuppsättningar om de har en högre rankning. Ett värde i en icke-berättigad behörighetsuppsättning som har en högre rankning än det relaterade värdet i berättigandet ska vara inom parentes för att ange att det inte är effektivt när det åsidosätts  av berättigandet. Mer information om rankning finns i avsnittet [Att skapa eller redigera behörigheter](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Om du vill redigera en behörighet, i **Efter behörighetsuppsättning**, på raden för en relevant behörighetsuppsättning av typen **Användardefinierad**, välj ett av fem åtkomstfält och välj ett annat värde.
 
-5. Om du vill redigera enskilda behörigheter inom behörighetsuppsättningen väljer du värdet i fältet **behörighetsuppsättning** för att öppna sidan **behörigheter**. Följ stegen som beskrivs i avsnittet ”Att skapa eller redigera behörigheter”.  
+5. Om du vill redigera enskilda behörigheter inom behörighetsuppsättningen väljer du värdet i fältet **behörighetsuppsättning** för att öppna sidan **behörigheter**. Följ stegen som beskrivs i avsnittet [Att skapa eller redigera behörigheter](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > När du redigerar en behörighetsuppsättning gäller ändringarna också för andra användare som har den behörighetsuppsättningen tilldelad.
 
 ## <a name="see-also"></a>Se även
+[Säkerhet och skydd i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Förstå användare, profiler och rollcenter](admin-users-profiles-roles.md)  
 [Gör dig redo för affärer](ui-get-ready-business.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Lägg till användare till Office 365 for business](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central – Licencieringsguide](https://aka.ms/BusinessCentralLicensing)
-
+[Microsoft Dynamics 365 Business Central licensieringsguide](https://aka.ms/BusinessCentralLicensing)

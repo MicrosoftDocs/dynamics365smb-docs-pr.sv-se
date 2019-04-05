@@ -1,8 +1,8 @@
 ---
-title: "Avsluta bokföringsperioder och räkenskapsår | Microsoft Docs"
-description: "Ger en översikt över om du vill avsluta ett räkenskapsår eller en bokföringsperiod, till exempel att se till att dokument och journaler är bokförda och verifiering av banksaldon."
+title: Avsluta bokföringsperioder och räkenskapsår | Microsoft Docs
+description: Ger en översikt över om du vill avsluta ett räkenskapsår eller en bokföringsperiod, till exempel att se till att dokument och journaler är bokförda och verifiering av banksaldon.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806920"
 ---
 # <a name="closing-years-and-periods"></a>Avsluta år och perioder
 Vid slutet av ett räkenskapsår finns ett antal administrativa uppgifter som du måste utföra, som t.ex. att se till att alla dokument och journaler är bokförda och se till att valutadata är aktuell och avsluta böckerna mm. De faktiska uppgifterna beror på ditt företag.
@@ -42,4 +42,3 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

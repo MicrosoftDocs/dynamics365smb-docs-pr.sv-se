@@ -1,7 +1,7 @@
 ---
-title: "Använda tillägget Image Analyzer | Microsoft Docs"
-description: "Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tilldela dem i Business Central."
-documentationcenter: 
+title: Använda tillägget Image Analyzer | Microsoft Docs
+description: Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tilldela dem i Business Central.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807977"
 ---
-
 # <a name="the-image-analyzer-extension"></a>Tillägget Image Analyzer
 Tillägget Image Analyzer använder kraftfulla bildanalyser från Computer Vision API för Microsoft Cognitive Services för att identifiera attribut i bilder du importerar för artiklar och kontaktpersoner, så att du lätt kan gå igenom och tilldela dem. För artiklar, kan attribut vara om artikel är en tabell eller en bil eller om den är röd eller blå. För kontaktpersoner kan attribut vara kön och ålder.
 
@@ -29,7 +28,7 @@ Image Analyzer är gratis [!INCLUDE[d365fin](includes/d365fin_md.md)], men det f
 När du har aktiverat tillägget körs Image Analyzer när du importerar en bild till en artikel eller kontaktperson. Du ser de attribut och konfidensnivå och information direkt och bestämmer vad du vill göra med varje attribut. Om du har importerat bilder innan du valde tillägget Image Analyzer måste du gå till artikel- eller kontaktkorten och välja åtgärd **analysera bild**.  
 
 ## <a name="privacy-notice"></a>Sekretesspolicy
-Det här tillägget använder API för visuellt innehåll från Microsoft Cognitive Services, som kan ha olika nivåer av att åtaganden än [!INCLUDE[d365fin](includes/d365fin_md.md)]. När du aktiverar tillägget Image Analyzer skickas kunddata som till exempel en kontaktbild eller en artikelbild till API för visuellt innehåll. Genom att installera det här tillägget godkänner för denna uppsättning data som ska skickas till API för visuellt innehåll. Observera att du kan inaktivera samt avinstallera tillägget Image Analyzer när som helst för att avbryta användningen av funktionen. Mer information finns i [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
+Det här tillägget använder API för visuellt innehåll från Microsoft Cognitive Services, som kan ha olika nivåer av att åtaganden än [!INCLUDE[d365fin](includes/d365fin_md.md)]. När du aktiverar tillägget Image Analyzer skickas kunddata som till exempel en kontaktbild eller en artikelbild till API för visuellt innehåll. Genom att installera det här tillägget godkänner för denna uppsättning data som ska skickas till API för visuellt innehåll. Observera att du kan inaktivera samt avinstallera tillägget Image Analyzer när som helst för att avbryta användningen av funktionen. Mer information finns i [Microsoft säkerhetscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
 Det finns några krav för bilder:
@@ -95,4 +94,3 @@ Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra
 [Arbeta med artikelattribut](inventory-how-work-item-attributes.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Komma igång](product-get-started.md)  
-

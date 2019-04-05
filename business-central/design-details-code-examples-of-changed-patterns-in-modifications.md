@@ -1,23 +1,23 @@
 ---
-title: "Designinformation - Kodexempel på förändrade mönster i ändringar | Microsoft-dokument"
-description: "Kodexempel som anger förändrade mönster i dimensionskodsändring och -migrering för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central."
+title: Designinformation - Kodexempel på förändrade mönster i ändringar | Microsoft-dokument
+description: Kodexempel som anger förändrade mönster i dimensionskodsändring och -migrering för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
-ms.contentlocale: sv-se
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807346"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designdetaljer: Kodexempel på ändrade mönster i ändringar
 Det här avsnittet innehåller kodexempel för att visa ändrade mönster i dimensionskodändring och flytt för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.

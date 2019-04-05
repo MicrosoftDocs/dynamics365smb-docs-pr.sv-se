@@ -1,23 +1,23 @@
 ---
 title: Ta bort och koppla om artikeltransaktioner | Microsoft Docs
-description: "Du kan visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner."
+description: Du kan visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a05acc754c14342d70ffa7f1e9c003099e949cff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807048"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -80,4 +80,3 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Designdetaljer - Parti-för-parti | Microsoft Docs"
-description: "Lär dig att använda de parti-för-parti som ska kvitta orderkvantiteten baserat på behov."
+title: Designdetaljer - Parti-för-parti | Microsoft Docs
+description: Lär dig att använda de parti-för-parti som ska kvitta orderkvantiteten baserat på behov.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 7bc65fdb33b94b313b7d2b5b046156ca1d0788a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 712068b5fafb8c5334bf48ddfc9242d21c0995e9
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807448"
 ---
 # <a name="design-details-lot-for-lot"></a>Designdetaljer: Parti-för-parti
 Parti-för-parti-policyn är den mest flexibla eftersom systemet bara reagerar på faktisk efterfrågan, plus att den agerar på förutsedd efterfrågan från prognos och avropsorder, och sedan avräknar orderantalet baserat på efterfrågan. Parti-för-parti-principen gäller A-och B-artiklar där lager kan accepteras men ska undvikas.  
@@ -38,4 +38,3 @@ Eftersom leveranspartistorleken baseras på faktiskt behov, kan det vara praktis
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

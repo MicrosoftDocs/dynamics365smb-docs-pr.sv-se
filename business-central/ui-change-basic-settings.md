@@ -1,6 +1,6 @@
 ---
-title: "Visa och redigera grundläggande inställningar | Microsoft Docs"
-description: "Lär dig hur du ändrar några av de grundläggande inställningarna, till exempel, rollcenter, företag eller arbetsdatumet."
+title: Visa och redigera grundläggande inställningar | Microsoft Docs
+description: Lär dig hur du ändrar några av de grundläggande inställningarna, till exempel, rollcenter, företag eller arbetsdatumet.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 11/19/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807397"
 ---
 # <a name="changing-basic-settings"></a>Ändra grundinställningar
 På sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
@@ -36,7 +36,7 @@ Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som pas
 ## <a name="company"></a>Företag
 Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
 
-Standardföretaget kallas CRONUS och innehåller endast demonstratiosdata.
+Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata.
 
 > [!TIP]  
 >   Om du vill visa ett annat namn för ditt företag i programmet (till exempel på startsidan för rollcenter) anger du fältet **Namn** på sidan **Företagsinformation** eller fältet **Visningsnamn** på sidan **Företag**.  
@@ -65,4 +65,3 @@ Välj den här länken för att visa eller ändra meddelandena som du får om vi
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-

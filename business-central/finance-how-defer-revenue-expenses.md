@@ -1,8 +1,8 @@
 ---
-title: "Periodisera intäkter och kostnader | Microsoft Docs"
-description: "För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera eller skjuta upp dem över ett angivet schema."
+title: Periodisera intäkter och kostnader | Microsoft Docs
+description: För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera eller skjuta upp dem över ett angivet schema.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807986"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisera intäkter och kostnader
 För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över ett angivet schema.
@@ -51,7 +51,7 @@ För båda typerna av periodisering väljer du **balansräkningen** i fältet **
    * %5 = Bokföringsperiodnamnet för periodens bokföringsdatum
    * %6 = Räkenskapsåret för periodens bokföringsdatum
 
-Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodiserade för %4 %6" kommer beskrivningen som visas vara ”kostnader som periodiseras för februari 2016”.
+Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodiserade för %4%6" kommer beskrivningen som visas vara ”kostnader som periodiseras för februari 2016”.
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Så här tilldelar du en periodiseringsmall till en artikel
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Periodiseringsmallar** och välj sedan relaterad länk.
@@ -93,4 +93,3 @@ Redovisningstransaktioner som kommer att bokföras på det angivna periodisering
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

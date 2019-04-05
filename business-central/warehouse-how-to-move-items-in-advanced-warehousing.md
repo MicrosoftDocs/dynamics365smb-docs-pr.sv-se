@@ -1,21 +1,21 @@
 ---
-title: "Så här flyttar du artiklar i avancerad distributionslagerkonfiguration | Microsoft Docs"
-description: "I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem."
+title: Så här flyttar du artiklar i avancerad distributionslagerkonfiguration | Microsoft Docs
+description: I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: abe6155963054b942e5d70e27737da15bcb82220
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808185"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytta artiklar i avancerade distributionslagerkonfigurationer
 I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerplatser av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem.  
@@ -54,4 +54,3 @@ Om lagerstället är inställt på dirigerad artikelinförsel och plockning, och
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

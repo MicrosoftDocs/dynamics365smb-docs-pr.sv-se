@@ -1,24 +1,24 @@
 ---
 title: Designdetaljer - Maximalt antal | Microsoft Docs
-description: "Principen Maximalt antal är ett sätt att underhålla lagret med hjälp av en beställningspunkt."
+description: Principen Maximalt antal är ett sätt att underhålla lagret med hjälp av en beställningspunkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 21ae51ecf28458f9b09be6461243f31641a0aaef
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807078"
 ---
 # <a name="design-details-maximum-qty"></a>Designdetaljer: Maximalt antal
 Principen Maximalt antal är ett sätt att underhålla lagret med hjälp av en beställningspunkt.  
@@ -43,4 +43,3 @@ Principen Maximalt antal är ett sätt att underhålla lagret med hjälp av en b
  [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Flera kontrakt | Microsoft Docs
-description: "Beroende på dina servicenivåavtal med en kund kan du bli tvungen att hantera en serviceartikel på fler än ett servicekontrakt."
+description: Beroende på dina servicenivåavtal med en kund kan du bli tvungen att hantera en serviceartikel på fler än ett servicekontrakt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 58e92211695ea3a8d8c4137c699794f935c1bc69
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e4f0bad058bd928f65214f04f978bf3b387cbb8
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807072"
 ---
 # <a name="multiple-contracts"></a>Flera kontrakt
 Beroende på dina servicenivåavtal med en kund kan du bli tvungen att hantera en serviceartikel på fler än ett servicekontrakt.  
@@ -48,4 +48,3 @@ Du kan skapa en serviceorder manuellt för en serviceartikel som är registrerad
 ## <a name="see-also"></a>Se även  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Skapa tjänsteorder](service-how-to-create-service-orders.md)  
-

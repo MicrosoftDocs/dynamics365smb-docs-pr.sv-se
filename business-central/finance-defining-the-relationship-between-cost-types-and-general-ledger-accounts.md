@@ -1,8 +1,8 @@
 ---
 title: Definiera relationen mellan kostnadstyper och redovisningskonton | Microsoft Docs
-description: "Lär dig hur du skapar relationen mellan kostnadstypen och redovisningskontot."
+description: Lär dig hur du skapar relationen mellan kostnadstypen och redovisningskontot.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807125"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definiera relationen mellan kostnadstyper och redovisningskonton
 Relationen mellan kostnadstypen och redovisningskontot skapas i kostnadstypen och i redovisningskontot.  
@@ -50,4 +50,3 @@ En kostnadstyp kan inte ha en koppling till redovisningskonton, om ett av följa
 [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)   
 [Om kostnadsredovisning](finance-about-cost-accounting.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

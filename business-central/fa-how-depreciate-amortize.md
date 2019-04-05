@@ -1,6 +1,6 @@
 ---
-title: "Skriva av eller amortera anläggningstillgångar | Microsoft Docs"
-description: "Du måste definiera hur du ska skriva ner, skriva av eller amortera var och en av anläggningstillgångarna."
+title: Skriva av eller amortera anläggningstillgångar | Microsoft Docs
+description: Du måste definiera hur du ska skriva ner, skriva av eller amortera var och en av anläggningstillgångarna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4f11e194d020254a7e5274f2eb08f1719ffa6439
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807107"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
 Avskrivning används för att fördela kostnaden för anläggningstillgångar, som exempelvis maskiner och inventarier, över den avskrivningsbara livslängden. För varje anläggningstillgång måste du ange hur den ska avskrivas.  
@@ -50,7 +50,7 @@ En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna av
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anl.tillg. redovisningsjournal** och välj sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.  
 3. Välj **Anskaffningskostnad** i fältet **Avskrivning**.  
-4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av avskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
+4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av avskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. På fliken **Start** väljer du **Bokför**.  
 
 Om du har skapat fördelningsnycklar för anläggningstillgångar, som fördelar belopp på olika avdelningar eller projekt, kan beloppen fördelas under bokföring. Mer information finns i [Ställa in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
@@ -65,7 +65,7 @@ Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivn
 5. På fliken **Start** väljer du **Bokför**.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Använd dubblettlistor för att förbereda att bokföra åtskilliga avskrivningsregler
-När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan du kopiera raderna till en separat journal och bokföra dem enligt en annan avskrivningsregel. För mer information, se avsnittet "Så här bokför du transaktioner enligt olika avskrivningsregler".
+När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan du kopiera raderna till en separat journal och bokföra dem enligt en annan avskrivningsregel. För mer information, se [Så här bokför du transaktioner enligt olika avskrivningsregler](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Avskrivningsregler** och välj sedan relaterad länk.  
 2. Öppna avskrivningsregeln och markera sedan kryssrutan **Ingår i dubblettlista**.  
@@ -102,4 +102,3 @@ De kopierade raderna skapas antingen i redovisningsjournalen för anläggningsti
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

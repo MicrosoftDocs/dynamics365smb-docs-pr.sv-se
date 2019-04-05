@@ -1,6 +1,6 @@
 ---
-title: "Korrigera eller annullera bokförda försäljningsfakturor | Microsoft Docs"
-description: "Beskriver hur du korrigerar, raderar, eller annullerar en bokförd försäljningsfaktura och kopplar en försäljningskreditnota."
+title: Korrigera eller annullera bokförda försäljningsfakturor | Microsoft Docs
+description: Beskriver hur du korrigerar, raderar, eller annullerar en bokförd försäljningsfaktura och kopplar en försäljningskreditnota.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a74dcd8e2d0409ca7385ea8a47a78dd9a74561b6
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807958"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Korrigera eller makulera obetalda försäljningsfakturor
 Du kan korrigera eller annullera en bokförd försäljningsfaktura. Det är användbart om du gör ett fel, eller om kunden begär ett ändring.
@@ -60,4 +60,3 @@ När du uppdaterar eller avbryter en bokförd försäljningsfaktura gäller den 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

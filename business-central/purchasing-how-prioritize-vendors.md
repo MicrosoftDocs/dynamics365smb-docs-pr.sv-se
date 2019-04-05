@@ -1,8 +1,8 @@
 ---
-title: "Tilldela en leverantör till en prioritetsnivå | Microsoft Docs"
-description: "Du kan tilldela nummer till dina leverantörer för att prioritera dessa och underlätta betalningsförslag i Business Central."
+title: Tilldela en leverantör till en prioritetsnivå | Microsoft Docs
+description: Du kan tilldela nummer till dina leverantörer för att prioritera dessa och underlätta betalningsförslag i Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cb3556c9bd8fb893448d61c4e8f18131b96a9841
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807316"
 ---
 # <a name="prioritize-vendors"></a>Prioritera leverantörer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] används för att ta fram olika betalningsförslag, t.ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
@@ -37,4 +37,3 @@ Om du inte vill prioritera en leverantör lämnar du fältet **Prioritet** tomt.
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

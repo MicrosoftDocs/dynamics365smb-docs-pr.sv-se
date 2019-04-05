@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du förskottsfakturor | Microsoft Docs"
-description: "Mer information om hur du hanterar situationer där du eller leverantören kräver förskottsbetalning."
+title: Så här skapar du förskottsfakturor | Microsoft Docs
+description: Mer information om hur du hanterar situationer där du eller leverantören kräver förskottsbetalning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807271"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 Om du vill att dina kunder ska betala innan du levererar en order till dem eller om en leverantör kräver att du betalar innan de levererar en order till dig, kan du använda funktionen för förskottsbetalning.  
@@ -66,4 +66,3 @@ Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill göra de
 [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

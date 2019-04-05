@@ -1,8 +1,8 @@
 ---
 title: Ange resurskostnader, priser och kapacitet | Microsoft Docs
-description: "Om du vill använda resurser och underlätta projekthantering, specificera kostnader och priser för enskilda resurser eller resursgrupper och ange en resurskapacitet."
+description: Om du vill använda resurser och underlätta projekthantering, specificera kostnader och priser för enskilda resurser eller resursgrupper och ange en resurskapacitet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 362f335fa313dce9a4e75c962ef6f5a2f01ec5fd
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807671"
 ---
 # <a name="set-up-resources"></a>Konfigurera resurser
 Du måste lägga upp resurser och relaterade kostnader och priser för att hantera resursaktiviteter på rätt sätt. Projektrelaterade priser, rabatter och kostnadsfaktorregler är definierade på projektkortet. Du kan specificera kostnader och priser för enskilda resurser, resursgrupper eller alla tillgängliga resurser i företaget.
@@ -77,4 +77,3 @@ Förutom priset som anges på resurskortet, kan du registrera alternativa priser
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

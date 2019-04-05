@@ -1,8 +1,8 @@
 ---
-title: "Stämma av leverantörsbetalningar manuellt | Microsoft Docs"
-description: "Om du vill bearbeta, matcha eller stämma av leverantörsbetalningar eller återbetalningar manuellt, kopplar du beloppet till en eller flera öppna leverantörsreskontratransaktioner."
+title: Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner | Microsoft Docs
+description: Om du vill bearbeta, matcha eller stämma av leverantörsbetalningar eller återbetalningar manuellt, kopplar du beloppet till en eller flera öppna leverantörsreskontratransaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e8c740bd32aeceb273f3accbda7b912350c9be12
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807770"
 ---
-# <a name="reconcile-vendor-payments-manually"></a>Stämma av leverantörsbetalningar manuellt
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner
 När du skickar ett betalningskvitto till, eller tar emot en återbetalning från, en leverantör måste du bestämma om du ska koppla betalningen eller återbetalningen till en eller flera öppna debet- eller kreditposter. Du kan ange det exakta beloppet som ska kopplas till betalningsinleveransen eller återbetalningen och därmed endast delvis koppla leverantörsreskontratransaktioner. Du måste koppla alla leverantörsreskontratransaktioner för att leverantörsstatistik och rapporter över kontoutdrag och ränteintäkter ska bli korrekta.
 
 > [!NOTE]  
@@ -123,4 +123,3 @@ När du tar bort en felaktig koppling skapas och bokförs korrigeringstransaktio
 [Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

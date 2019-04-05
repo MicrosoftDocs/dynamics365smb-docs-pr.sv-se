@@ -1,23 +1,23 @@
 ---
-title: "Så här kopierar du data till nya företag | Microsoft Docs"
-description: "Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att båda företagen finns i samma databas. Om du t.ex har en standardlista över symptomkoder som är gemensamma för alla dina tjänsthanteringsimplementeringar kan du kopiera koderna enkelt från ett företag till ett annat."
+title: Så här kopierar du data till nya företag | Microsoft Docs
+description: Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att båda företagen finns i samma databas. Om du t.ex har en standardlista över symptomkoder som är gemensamma för alla dina tjänsthanteringsimplementeringar kan du kopiera koderna enkelt från ett företag till ett annat.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808132"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiera data till nya företag
 Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att båda företagen finns i samma databas. Om du t.ex har en standardlista över symptomkoder som är gemensamma för alla dina tjänsthanteringsimplementeringar kan du kopiera koderna enkelt från ett företag till ett annat.  
@@ -33,4 +33,3 @@ Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att bå
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här arbetar du med serviceuppgifter | Microsoft Docs"
-description: "När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna."
+title: Så här arbetar du med serviceuppgifter | Microsoft Docs
+description: När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807370"
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  
@@ -109,4 +109,3 @@ När en serviceartikel har reparerats kan du ange både felkoden och åtgärdsko
 [Så här ställer du in felrapporteringsnivån](service-how-setup-fault-reporting.md)
 [fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)  
 [Servicebokföring](service-service-posting.md)  
-

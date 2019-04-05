@@ -1,11 +1,11 @@
 ---
-title: "Hantera leverantörsskulder | Microsoft Docs"
-description: "Översikt över hur du hanterar leverantörsreskontra (AP), inklusive leverantörsbetalningar fordringsägare, skulder, och förfallen betalning."
+title: Hantera leverantörsskulder | Microsoft Docs
+description: Översikt över hur du hanterar leverantörsreskontra (AP), inklusive leverantörsbetalningar fordringsägare, skulder, och förfallen betalning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 manager: edupont
-editor: 
+editor: ''
 ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
@@ -15,12 +15,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807149"
 ---
 # <a name="managing-payables"></a>Hantera Leverantörsreskontra
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har vad du behöver för att effektivt hantera leverantörsreskontra.  
@@ -54,4 +54,3 @@ Om du väntar med att bokföra betalningar till när banken bekräftar att trans
 [Betalningssätt](finance-payment-methods.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

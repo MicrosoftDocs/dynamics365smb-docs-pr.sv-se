@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - Omvärdering | Microsoft Docs"
-description: "Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas."
+title: Designdetaljer - Omvärdering | Microsoft Docs
+description: Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807016"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
 Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.  
@@ -184,4 +184,3 @@ PIA-lagret kan omvärderas förutsatt att omvärderingdatumet inte är tidigare 
  [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Skapa bokföringsperioder och räkenskapsår | Microsoft Docs"
-description: "Du måste öppna ett räkenskapsår och definiera redovisningsperioder innan du kan föra in ett räkenskapsår."
+title: Skapa bokföringsperioder och räkenskapsår | Microsoft Docs
+description: Du måste öppna ett räkenskapsår och definiera redovisningsperioder innan du kan föra in ett räkenskapsår.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 11/21/2018
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807734"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Öppna ett nytt räkenskapsår och skapa bokföringsperioder
 Innan du kan föra in ett räkenskapsår måste du öppna räkenskapsåret och definiera dess bokföringsperioder.  
@@ -39,4 +39,3 @@ Bokföringsperioderna läggs till sidan med fälten **startdatum** och **namn** 
 [Bokför årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

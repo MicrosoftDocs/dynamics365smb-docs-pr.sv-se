@@ -1,6 +1,6 @@
 ---
-title: "Köpa artiklar till försäljning genom att skapa inköpsfakturor | Microsoft Docs"
-description: "Om du vill köpa produkter från en försäljningsfaktura skapar du en inköpsfaktura för en leverantör."
+title: Köpa artiklar till försäljning genom att skapa inköpsfakturor | Microsoft Docs
+description: Om du vill köpa produkter från en försäljningsfaktura skapar du en inköpsfaktura för en leverantör.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806978"
 ---
 # <a name="purchase-items-for-a-sale"></a>Köpa artiklar för en försäljning
 Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvantiteter som krävs av försäljningen från försäljningsorder och fakturor. Du kan använda två olika funktioner beroende på dokumenttypen.
@@ -70,4 +70,3 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

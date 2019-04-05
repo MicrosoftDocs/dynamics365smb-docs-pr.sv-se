@@ -1,21 +1,21 @@
 ---
-title: "Designdetaljer - Söka efter dimensionskombinationer | Microsoft Docs"
-description: "När du stänger en sida efter att ha redigerat en uppsättning dimensioner utvärderar Business Central huruvida den redigerade uppsättningen dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras."
+title: Designdetaljer - Söka efter dimensionskombinationer | Microsoft Docs
+description: När du stänger en sida efter att ha redigerat en uppsättning dimensioner utvärderar Business Central huruvida den redigerade uppsättningen dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1814d6e34fc2ab2d0c64a26ba85fa19074be4dda
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808027"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Söka efter dimensionskombinationer
 När du stänger en sida när du har redigerat en uppsättning med dimensioner utvärderar [!INCLUDE[d365fin](includes/d365fin_md.md)] om den redigerade uppsättningen med dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- För att bevara möjligheten för [!INCLUDE[d365fin](includes/d365fin_md.md)] byta namn på en dimension och ett dimensionsvärde utökas tabellen 348 **Dimensionsvärde** med heltalsfältet **Dimensionsvärde-ID**. Den här tabellen omvandlar fältparen **Dimension** och **Dimensionsvärde** till ett heltalsvärde. När du byter namn på dimensionen och dimensionsvärdet ändras inte heltalsvärdet.  
+ För att bevara möjligheten för [!INCLUDE[d365fin](includes/d365fin_md.md)] byta namn på en dimension och ett dimensionsvärde utökas tabellen 349 **Dimensionsvärde** med heltalsfältet **Dimensionsvärde-ID**. Den här tabellen omvandlar fältparen **Dimension** och **Dimensionsvärde** till ett heltalsvärde. När du byter namn på dimensionen och dimensionsvärdet ändras inte heltalsvärdet.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -79,4 +79,3 @@ EXIT(DimSet.ID);
  [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
  [Designdetaljer: Kodenhet 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
  [Designdetaljer: Kodexempel på ändrade mönster i ändringar](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

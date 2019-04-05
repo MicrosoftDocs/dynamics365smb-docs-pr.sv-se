@@ -1,23 +1,23 @@
 ---
-title: "Genomgång: Hantera projekt med Projekt | Microsoft Docs"
-description: "Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider."
+title: 'Genomgång: Hantera projekt med Projekt | Microsoft Docs'
+description: Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807063"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.  
@@ -63,11 +63,11 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna i proj
 ## <a name="prerequisites"></a>Förutsättningar  
  Innan du kan utföra aktiviteterna i den här genomgången måste du göra följande  
 
--   Installera CRONUS Sverige AB:s demodatabas.
+-   Installera CRONUS AB demodatabas.
 -   Skapa exempeldata med hjälp av stegen i följande avsnitt.  
 
 ## <a name="story"></a>Situation  
-Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash är projektchef på CRONUS Han använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Han brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Han upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiverar kopiering av projektet och delbetalningar.
+Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash är projektchef på CRONUS. Han använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Han brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Han upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiverar kopiering av projektet och delbetalningar.
 
  Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av det dagliga arbetet. Hon registrerar sitt eget arbete samt arbete som utförts av tekniker i varje aktivitet. Hon registrerar artiklarna som de har använt, och de kostnader som har uppstått.  
 
@@ -128,7 +128,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **PIA-metod**: **Kostnadsvärde**  
 
 5.  På snabbfliken **Varaktighet** anger du dagens datum i fälten **Startdatum** och **Slutdatum**. Dessa datum underlättar när du ska konvertera valutor när projektet ska faktureras.  
-6.  På snabbfliken **Utlandshandel** anger du valutakoden **USD**. Om du väljer USD i fältet **Fakturavalutakod** kommer projektet att faktureras i USD och planeras i Cronus lokala valuta.  
+6.  På snabbfliken **Utlandshandel** anger du valutakoden **USD**. Om du väljer USD i fältet **Fakturavalutakod** kommer projektet att faktureras i USD och planeras endast i den lokala valuta för CRONUS.  
 
  Du kan anpassa serviceprissättningen för kunder på projektbasis, beroende på vilka avtal som du har skapat. I nästa procedur anger projektchefen en kostnad för Tricias tid, priset för den obligatoriska programvaran och resekostnader som kunden har avtalat att betala.  
 
@@ -485,4 +485,3 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
  [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)   
  [Fakturera projekt](projects-how-invoice-jobs.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

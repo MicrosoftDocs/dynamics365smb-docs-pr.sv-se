@@ -1,6 +1,6 @@
 ---
-title: "Business Central- och Power BI-innehållspaket | Microsoft Docs"
-description: "Det är enkelt att få insikter, affärsinformation och KPI:er från dina Business Central-data med Power BI och innehållspaketet för Business Central."
+title: Business Central- och Power BI-innehållspaket | Microsoft Docs
+description: Det är enkelt att få insikter, affärsinformation och KPI:er från dina Business Central-data med Power BI och innehållspaketet för Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806951"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
-Det är enkelt att få insikter om [!INCLUDE[d365fin](includes/d365fin_md.md)]-data med Power BI och innehållspaketet för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Power BI hämtar dina data och bygger en förinstallerad instrumentbräda och rapporter baserade på den data.  
+Att få insikter om dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data är enkelt med Power BI och [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehållspaketen. Power BI hämtar dina data och skapar sedan en förinstallerad instrumentbräda och rapporter baserade på den data.  
 
-Du måste ha ett giltigt konto med Dynamics 365 och med Power BI. Du måste även hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) om du vill skapa egna Power BI-rapporter. Innehållspaket för Power BI kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
+Du måste ha ett giltigt konto med Dynamics 365 och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) om du vill skapa dina egna Power BI-rapporter. Power BI innehållspaket kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
 
 Microsoft har publicerat följande innehållspaket:
 
@@ -47,11 +47,11 @@ Innehållspaketet är förkonfigurerat för att arbeta med data från demonstrat
 1. Välj **Hämta Data** längst ned i den vänstra navigeringsrutan.  
 ![Navigera för att hämta data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-Du kan också starta från Dynamics 365 Business Edition. Från Rollcentret navigerar du till **Rapportval** i rollcenterdelen för Power BI. Välj antingen **Service** eller **Min organisation** i menyfliken. När något av ovanstående åtgärder är markerade förs du till antingen galleriet Organisation i Power BI eller till tjänstebiblioteket i Power BI, vilket även filtreras att bara visa innehållspaket relaterade till [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Du kan också komma igång från Dynamics 365 Business Edition. Från Rollcentret navigerar du till **Rapportval** i rollcenterdelen för Power BI. Välj antingen **Service** eller **Min organisation** i menyfliken. När något av ovanstående åtgärder är markerade förs du till antingen galleriet Organisation i Power BI eller till tjänstebiblioteket i Power BI, vilket även filtreras att bara visa innehållspaket relaterade till [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. I rutan **Tjänster**, markera **Hämta**. Då öppnas en sida med **AppSource** och **Program för Power BI-program**.  
+2. I rutan **Tjänster**, markera **Hämta**. Då öppnas en sida med **AppSource** och **program för Power BI-program**.  
 ![Välj innehållspaket bland onlinetjänsterna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Markera **Program** i fliken **Program för Power BI-program**, välj det innehållspaket för **Microsoft Dynamics 365 Business Central** som du vill använda och välj sedan **Hämta nu**.  
+3. Markera **Program** i fliken **Program för Power BI-program** välj innehållspaket för **Microsoft Dynamics 365 Business Central** som du vill använda och välj sedan **Hämta nu**.  
 ![Välj Dynamics 365 Business Central och välj Hämta nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Ange namnet på *ditt företag* i [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] när du uppmanas att göra så. Detta är inte visningsnamnet. Företagsnamnet finns på sidan ”Företag” i din [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-instans.  
 ![Välj Dynamics 365 Business Central och välj Hämta nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
@@ -73,72 +73,72 @@ För att importera dina [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 **Microsoft Dynamics 365 Business Central – CRM**
 - Försäljningsmöjligheter
 - Excel-mallen för Visa företag
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Finance**
+**Microsoft Dynamics 365 Business Central – Ekonomi**
 - Power BIFinance
 - Excel-mallen för Visa företag
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Jobs**
+**Microsoft Dynamics 365 Business Central – projekt**
 - Projektlista
 - Projektplaneringsrader
 - Projektaktivitetsrader
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 - Excel-mallen för Visa företag
 
-**Microsoft Dynamics 365 Business Central - Sales**
+**Microsoft Dynamics 365 Business Central - försäljning**
 - Instrumentbräda för försäljning
 - Excel-mallen för Visa företag
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
 ## <a name="list-page-reports"></a>Rapporter för listsida
 
-**Microsoft Dynamics 365 Business Central – Customers List**
+**Microsoft Dynamics 365 Business Central – kundlista**
 - Artikelförsäljning efter kund
-- Power BI artikelinköpslista
-- Power BI artikelförsäljningslista
+- Power BI inköpslista för artiklar
+- Power BI försäljningslista för artiklar
 - Instrumentbräda för försäljning
 - Power BI kundlista
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+**Microsoft Dynamics 365 Business Central - Lista för redovisningstransaktioner**
 - Power BI redovisningsbelopplista
 - Power BI budgeterat redovisningsbelopp
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Items List**
+**Microsoft Dynamics 365 Business Central - Artikellista**
 - Artikelförsäljning efter kund
-- Power BI artikelinköpslista
-- Power BI artikelförsäljningslista
+- Power BI inköpslista för artiklar
+- Power BI försäljningslista för artiklar
 - Instrumentbräda för försäljning
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Jobs List**
+**Microsoft Dynamics 365 Business Central – projektlista**
 - Power BI projektlista
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+**Microsoft Dynamics 365 Business Central – lista över inköpsfakturor**
 - Power BI inköpslista
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
+**Microsoft Dynamics 365 Business Central – Försäljningsorderlista**
 - Power BI försäljningslista
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
 
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Power BI artikelinköpslista
-- Power BI artikelförsäljningslista
+**Microsoft Dynamics 365 Business Central - leverantörslista**
+- Power BI inköpslista för artiklar
+- Power BI försäljningslista för artiklar
 - Power BI leverantörslista
 - ExcelTemplateViewCompany
-- Rapportetiketter för Power BI
+- Power BI Rapportetiketter
 
 ## <a name="web-services"></a>Webbtjänster
 Ett enkelt sätt att hitta webbtjänsterna är att söka efter webbtjänster via [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Se till att rutan Publicera markeras i lista för de webbtjänster som anges ovan.
@@ -158,16 +158,15 @@ Innehållspaketen kräver också att du har ett Microsoft [!INCLUDE[d365fin_long
 Om du anger ogiltiga företagsnamn i samband med anslutningsprocessen kan du få felmeddelandet ”Nyckeln matchar inga rader i tabellen”. Ange rätt företagsnamn och försök ansluta igen.
 
 ## <a name="see-also"></a>Se även
-[Kom igång med Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
-[Power BI - Grundläggande koncept](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
+[Komma igång med Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
+[Power BI- Grundläggande begrepp](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Affärsstöd](bi.md)  
 [Komma igång](product-get-started.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en PowerApps-datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] för Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

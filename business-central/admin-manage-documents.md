@@ -1,21 +1,21 @@
 ---
 title: Hantera, ta bort eller komprimera dokument | Microsoft Docs
-description: "Behåll historiska data eller ta bort dessa."
+description: Behåll historiska data eller ta bort dessa.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5cc49d8b17a56c8f19926cf33e63467005d4788c
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808198"
 ---
 # <a name="manage-documents"></a>Hantera dokument
 En central roll, till exempel programadministratören, måste regelbundet hantera historiska dokument genom att ta bort eller komprimera dem.  
@@ -33,4 +33,3 @@ Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern int
 
 ## <a name="see-also"></a>Se även  
 [Administration](admin-setup-and-administration.md)  
-

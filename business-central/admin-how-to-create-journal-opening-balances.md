@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du ingående saldon för journalen | Microsoft Docs"
-description: "Business Central innehåller flera batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nykonfigurerat företag. Du kan enkelt överföra data med bokföring i journaler."
+title: Så här skapar du ingående saldon för journalen | Microsoft Docs
+description: Business Central innehåller flera batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nykonfigurerat företag. Du kan enkelt överföra data med bokföring i journaler.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808293"
 ---
 # <a name="create-journal-opening-balances"></a>Skapa ingående saldon för journalen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller flera batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nytt konfigurerat företag. Det är enkelt att överföra dessa data för kundjournalen, leverantörsjournalen, artikeljournalen och redovisningsjournalen.
@@ -31,7 +31,7 @@ Innan du börjar rekommenderar vi att du går till implementerings-rollcentret f
 
     Det nya företaget innehåller inte information om IB till journalen.  
 
-2. Öppna konfigurationskalkylarket och importera befintliga data om kunder, artiklar, leverantörer och redovisningen. Mer information finns också i [Så här migrerar du kunddata](admin-migrate-customer-data.md).  
+2. Öppna konfigurationskalkylarket och importera befintliga data om kunder, artiklar, leverantörer och redovisningen. Mer information finns också i  [Så här migrerar du kunddata](admin-migrate-customer-data.md).  
 3. Välj exempelvis åtgärden **Skapa redovisningsjournalrader**.  
 4. Fyll i snabbfliken **Alternativ** och ange filter efter behov. Skriv till exempel ett namn i fältet **Journalmall**.  
 5. Välj knappen **OK**. Posterna är nu i journalen, men beloppen är tomma.  
@@ -45,4 +45,3 @@ Innan du börjar rekommenderar vi att du går till implementerings-rollcentret f
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här: Konvertera befintliga lagerställen till distributionslagerplatser | Microsoft Docs"
-description: "Du kan definiera att ett befintligt lagerställe ska använda zoner och lagerplatser och fungera som ett distributionslager."
+title: 'Så här: Konvertera befintliga lagerställen till distributionslagerplatser | Microsoft Docs'
+description: Du kan definiera att ett befintligt lagerställe ska använda zoner och lagerplatser och fungera som ett distributionslager.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6f5c798587c832b25ef2ead944fc5f5f8ea89644
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808160"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertera befintliga lagerställen till distributionslagerplatser
 Du kan definiera att ett befintligt lagerställe ska använda zoner och lagerplatser och fungera som ett distributionslager.  
@@ -32,7 +32,7 @@ Du kan skapa zoner och lagerplatser före eller efter konverteringen. Den enda l
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Så här aktiverar du ett befintligt lagerställe att fungera som ett distributionslager  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Skapa dist.lagerplats** och välj sedan relaterad länk.  
 2.  I **Lagerställekod** fältet, ange det lagerställe som du vill aktivera för distributionslagerbearbetning.  
-3.  I **Justering lagerplatskod** fältet, ange lagerplatsen på platsen dit ej synkroniserade dist.lager transaktioner lagras. Mer information finns i avsnittet ”Att synkronisera de justerade lagertransaktionerna med tillhörande artikeltransaktioner” i [Inventera, justera och gruppera lager](inventory-how-count-adjust-reclassify.md).  
+3.  I **Justering lagerplatskod** fältet, ange lagerplatsen på platsen dit ej synkroniserade dist.lager transaktioner lagras. Mer information finns i [Så här synkroniserar du justerade lagertransaktioner med tillhörande artikeltransaktioner](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
     Med hjälp av öppna artikeltransaktioner för angivet lagerställe skapas dist.lager journalrader som summerar alla kombinationer av artikelnummer, variantkod, enhetskod och, vid behov, partinr och serienummer kombineras i artikeltransaktionerna. Distributionslagerjorunalraderna bokförs sedan. Vid bokföringen skapas distributionslagertransaktioner som placerar lagret i distributionslagrets justeringslagerplats. **Justering lagerplatskod** anges också på lagerställekortet.  
 
@@ -51,4 +51,3 @@ Du kan skapa zoner och lagerplatser före eller efter konverteringen. Den enda l
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

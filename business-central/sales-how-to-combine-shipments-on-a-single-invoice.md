@@ -1,23 +1,23 @@
 ---
-title: "Så här kombinerar du leveranser på en enda faktura | Microsoft Docs"
-description: "Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser."
+title: Så här kombinerar du leveranser på en enda faktura | Microsoft Docs
+description: Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808286"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
 Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
@@ -62,4 +62,3 @@ Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel försäljn
 ## <a name="see-also"></a>Se även  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

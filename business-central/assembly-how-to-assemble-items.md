@@ -1,8 +1,8 @@
 ---
-title: "Så här monteras artiklar | Microsoft Docs"
-description: "Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering**, när standard metoden för att tillhandahålla artikeln är att sammanställa från definierade komponenter och eventuellt med en viss resurs."
+title: Så här monteras artiklar | Microsoft Docs
+description: Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering**, när standard metoden för att tillhandahålla artikeln är att sammanställa från definierade komponenter och eventuellt med en viss resurs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 12/17/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807723"
 ---
 # <a name="assemble-items"></a>Montera Artiklar
 Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering** så är standard metoden för att tillhandahålla artikeln att sammanställa den av definierade komponenter, eventuellt med en angiven resurs.  
@@ -75,4 +75,3 @@ När du bokför har lyckas, monteringsartikeln bokförs som utflöde på den pot
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Definiera vilka inkommande dokument Se | Microsoft Docs
-description: "Ändra standardläge för inkommande dokument, till exempel e-fakturor, förbättra din översikt över bearbetade och obearbetade poster."
+description: Ändra standardläge för inkommande dokument, till exempel e-fakturor, förbättra din översikt över bearbetade och obearbetade poster.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807924"
 ---
 # <a name="manage-many-incoming-document-records"></a>Hantera många inkommande dokumenttransaktioner
 När du skapar eller bearbetar inkommande dokumentposter, kan antalet rader på sidan **Inkommande dokument** växa till en utsträckning att du förlorar översikt. Därför kan du ange inkommande dokumentposter som Bearbetade för att ta bort dem från standardvyn. När du väljer åtgärden **Visa alla** kan du visa både behandlats och outredda transaktioner.
@@ -57,4 +57,3 @@ Alla inkommande dokumentposter visas inklusive de som inte har kryssrutan **Beha
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

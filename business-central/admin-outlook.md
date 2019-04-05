@@ -1,6 +1,6 @@
 ---
-title: "Använda Business Central med Outlook | Microsoft Docs"
-description: "Denna tjänst har långtgående integrering med Office 365 så att du kan hantera alla dina affärskontakter och din e-post till kunder och leverantörer direkt i Outlook."
+title: Använda Business Central med Outlook | Microsoft Docs
+description: Denna tjänst har långtgående integrering med Office 365 så att du kan hantera alla dina affärskontakter och din e-post till kunder och leverantörer direkt i Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807569"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
@@ -64,4 +64,3 @@ I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte 
 [Ekonomi](finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-

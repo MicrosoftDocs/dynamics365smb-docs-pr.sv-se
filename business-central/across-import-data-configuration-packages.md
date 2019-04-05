@@ -1,6 +1,6 @@
 ---
-title: "Använda Excel för att importera data till Business Central| Microsoft Docs"
-description: "Använd standardkonfigurationspaketet för att lägga till kundinformation i Excel och återimportera data till Business Central."
+title: Använda Excel för att importera data till Business Central| Microsoft Docs
+description: Använd standardkonfigurationspaketet för att lägga till kundinformation i Excel och återimportera data till Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806996"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
 När du registrerar dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du välja att skapa ett tomt företag så att du kan överföra din egen information och testa det nya [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget. Beroende på finanslösningen som används i din verksamhet idag, kan du överföra information om kunder, leverantörer, lager och bankkonton.  
@@ -81,4 +81,3 @@ Standardkonfigurationspaketet stöder följande tabeller:
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

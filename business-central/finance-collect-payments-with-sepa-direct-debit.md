@@ -1,23 +1,23 @@
 ---
 title: SEPA-autogiro i Business Central | Microsoft Docs
-description: "Du kan samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet."
+description: Du kan samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807658"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
+# <a name="collect-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
 Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.  
 
  Först ställer du in exportformat för bankfilen som används av din bank för att utföra en autogiro. Sedan ställer du in kundens betalningsmetod. Till sist ställ in medgivande för autogiro att återspegla ditt avtal med kunden för att samla in sina betalningar under en viss avtalsperiod.  
@@ -75,13 +75,13 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**Kund bankkontokod**|Anger det bankkonto som autogirobetalningar\-samlas in från. Detta fält fylls i automatiskt.|  
-    |**Giltig från**|Ange det datum när medgivande för autogiro\-startar.|  
-    |**Giltig till**|Ange det datum när medgivande för autogiro\-upphör.|  
+    |**Kund bankkontokod**|Anger det bankkonto som\-autogirobetalningar samlas in från. Detta fält fylls i automatiskt.|  
+    |**Giltig från**|Ange det datum när medgivande för\-autogiro startar.|  
+    |**Giltig till**|Ange det datum när medgivande för\-autogiro upphör.|  
     |**Signeringsdatum**|Ange det datum när kunden signerade medgivande för\-autogiro.|  
     |**Typ av betalning**|Ange om avtalet omfattar flera (**återkommande**) eller en enda (**Enstaka**) autogiroinsamling.|  
     |**Förväntat antal debet**|Ange hur många autogiroinsamlingar som du förväntar dig att göra. Det här fältet gäller bara om du har valt **Återkommande** i fältet **Typ av betalning**.|  
-    |**Antal debet**|Anger hur många autogiroinsamlingar som har gjorts med hjälp av medgivande av\-autogiro. Fältet uppdateras automatiskt.|  
+    |**Antal debet**|Anger hur många autogiroinsamlingar som har gjorts med hjälp av medgivande\-av autogiro. Fältet uppdateras automatiskt.|  
     |**Spärrad**|Anger att autogiroinsamlingar inte kan göras med hjälp av medgivande av\-autogiro.|  
 
 6.  Upprepa steg 1 till och med 5 för alla kunder som du vill ställa in för SEPA-autogiro.  
@@ -158,4 +158,3 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 
 ## <a name="see-also"></a>Se även  
 [Hantera kundreskontra](receivables-manage-receivables.md)
-

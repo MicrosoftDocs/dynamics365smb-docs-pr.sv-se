@@ -1,6 +1,6 @@
 ---
-title: "Så här överför du artiklar mellan olika distributionslagerplatser | Microsoft Docs"
-description: "Beskriver hur du flytta lager från en plats eller ett lagerställe till en annan med grupperingsjournalen eller med överföringsorder."
+title: Så här överför du artiklar mellan olika distributionslagerplatser | Microsoft Docs
+description: Beskriver hur du flytta lager från en plats eller ett lagerställe till en annan med grupperingsjournalen eller med överföringsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: SorenGP
+ms.openlocfilehash: bf0687d5b3000dde609c1eca29a0f2534d384ada
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807296"
 ---
 # <a name="transfer-inventory-between-locations"></a>Överföra lager mellan olika lagerställen
 Du kan överföra lagerartiklar mellan olika lägerställen genom att skapa överföringsorder. Du kan även använda artikelgrupperingsjournalen.
@@ -25,7 +25,7 @@ Med överföringsorder kan du leverera en utgående överföring från ett lager
 Med grupperingsjournalen fyller du helt enkelt i fälten **Lagerställeskod** och **Ny Lagerställeskod**. När du bokför journalen, justeras artikeltransaktionerna på berörda lägerställen. På så sätt administreras inga lageraktiviteter.
 
 > [!NOTE]  
->   Om du har artiklar i lagret utan lagerställekod, till exempel från en tid när du bara hade ett lage, kan du inte överföra objekten med överföringsorder. I stället måste du använda grupperingsjournalen för att gruppera artiklar från en tom lagerställekod till en faktisk lagerställekod.  Mer information finns i steg 3 i avsnittet "Att överföra artiklar med artikelgrupperingsjournalen".
+>   Om du har artiklar i lagret utan lagerställekod, till exempel från en tid när du bara hade ett lage, kan du inte överföra objekten med överföringsorder. I stället måste du använda grupperingsjournalen för att gruppera artiklar från en tom lagerställekod till en faktisk lagerställekod.  Mer information finns i steg 3 i [Att överföra artiklar med artikelgrupperingsjournalen](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
 
 Om du vill överföra artiklar måste lägerställen och överföringsflöden ställas in. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
 
@@ -62,4 +62,3 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Så här arbetar du med moms på försäljning och inköp | Microsoft Docs"
-description: "Det här avsnittet beskriver hur du utför uppgifter som att rätta bokförd moms i EU-länder/regioner, där varje försäljnings- och inköptransaktion är momspliktiga. Det här avsnittet beskriver hur."
+title: Så här arbetar du med moms på försäljning och inköp | Microsoft Docs
+description: Det här avsnittet beskriver hur du utför uppgifter som att rätta bokförd moms i EU-länder/regioner, där varje försäljnings- och inköptransaktion är momspliktiga. Det här avsnittet beskriver hur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807720"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
-Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms] (finance-setup-vat.md).
+Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
 Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. Du kan t.ex. behöva korrigera ett bokfört belopp om du upptäcker att en leverantör använder en annan avrundningsmetod.
 
@@ -174,4 +174,3 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 ## <a name="see-also"></a>Se även  
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)   
 [Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)   
-

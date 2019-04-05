@@ -1,23 +1,23 @@
 ---
-title: "Så här skapar du Baskalender | Microsoft Docs"
-description: "Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder."
+title: Så här skapar du Baskalender | Microsoft Docs
+description: Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807746"
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
@@ -41,7 +41,7 @@ När du gör en transaktion är fältet **Ej arbetsdag** markerat. Du kan välja
 
 > [!IMPORTANT]  
 >  En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar.
-Anger en datumformel för den tid det tar att fylla på artikeln. Den används för att beräkna fältet **Planerat inleveransdatum** om beräkningen är framåt och fältet **Orderdatum** om beräkningen är bakåt. Se avsnittet ”Ledtidsberäkning”.
+Anger en datumformel för den tid det tar att fylla på artikeln. Den används för att beräkna fältet **Planerat inleveransdatum** om beräkningen är framåt och fältet **Orderdatum** om beräkningen är bakåt. Se [Ledtidsberäkning](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Ledtidsberäkning
 En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar. De viktigaste två datumfält på inköpsorderrader beräknas därför på följande sätt under olika omständigheter.
@@ -55,7 +55,7 @@ En baskalender som definierats för leverantörer eller lagerställe inverkar p�
 > Förutom Ledtidsberäkningen som påverkar det planerade inleveransdatumet och Orderdatum, vilket visas i tabellen ovan distributionslagerhanteringstid och säkerhetsledtid läggas till i formlerna till värdet i fältet **förväntat inleveransdatum** följande: planerat inleveransdatum + Säkerhetsledtid + Ankommande lagerhanteringstid = Förväntat inleveransdatum.
 
 > [!Important]
-> Om ditt lagerställe använder en helt annan kalender än den leverantörerna använder är det viktigt att du lägger upp specifika kalendrar för leverantörerna för att beräkna bästa möjliga leverantörsledtider. Om du vill veta hur du ställer in leverantörskalendrar, se avsnittet ”Så här tilldelar du en baskalender”.
+> Om ditt lagerställe använder en helt annan kalender än den leverantörerna använder är det viktigt att du lägger upp specifika kalendrar för leverantörerna för att beräkna bästa möjliga leverantörsledtider. Om du vill veta hur du ställer in leverantörskalendrar, se avsnittet [Så här tilldelar du en baskalender](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 Innehållet i fältet **Ledtidsberäkning** kopieras från antingen artikelkortet eller lagerställeenhetskortet om ledtiden har angetts för artikeln, eller sidan **Artikelns leverantörskatalog** om ledtiden definieras för leverantören.
 
@@ -119,4 +119,3 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 [Produktion](production-manage-manufacturing.md)    
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

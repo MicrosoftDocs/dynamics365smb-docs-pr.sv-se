@@ -1,8 +1,8 @@
 ---
-title: "Ställa in Branschgrupper för kontaktföretag | Microsoft Docs"
-description: "Beskriver hur du definierar en branschgrupp och koppla den till ett företag, till exempel detaljhandel eller bilindustri."
+title: Ställa in Branschgrupper för kontaktföretag | Microsoft Docs
+description: Beskriver hur du definierar en branschgrupp och koppla den till ett företag, till exempel detaljhandel eller bilindustri.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 61d1385691a0ed2bdc11745e98b14fa57e50475a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807998"
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Skapa Branschgrupper för kontaktföretag
 Branschgrupper används för att visa vilken bransch kontakterna tillhör, exempelvis detaljhandel eller bilBransch.
@@ -48,6 +48,5 @@ Antalet branschgrupper som du har tilldelat kontakter anges automatiskt i fälte
 När du har tilldelat kontakterna branschgrupper kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se även
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
+[Skapar kontakter](marketing-create-contact-companies.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

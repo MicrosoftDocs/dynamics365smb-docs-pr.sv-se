@@ -1,8 +1,8 @@
 ---
 title: Arbeta med inkommande dokument | Microsoft Docs
-description: "Du kan hantera inkommande externa företagsdokument, som till exempel betalningsinleveranser eller PDF-filer, hantera OCR-uppgifter och konvertera filer till elektroniska dokument och poster."
+description: Du kan hantera inkommande externa företagsdokument, som till exempel betalningsinleveranser eller PDF-filer, hantera OCR-uppgifter och konvertera filer till elektroniska dokument och poster.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 989fff07cb0608b8dbf6611a39163fc3cfe31459
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806869"
 ---
 # <a name="incoming-documents"></a>Inkommande dokument
 Vissa affärstransaktioner registreras inte i [!INCLUDE[d365fin](includes/d365fin_md.md)] från början. I stället kommer ett externt affärsdokument till ditt företag som en e-postbilaga eller papperskopia som du skannar för att spara. Det här är typiskt för inköp där sådana inkommande dokument representerar betalningkvitton för kostnader eller små inköp.
@@ -47,4 +47,3 @@ Processen för inkommande dokument består av följande huvudaktiviteter:
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

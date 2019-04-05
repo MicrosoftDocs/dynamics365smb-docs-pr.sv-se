@@ -1,23 +1,23 @@
 ---
 title: Ange fakturaavrundning | Microsoft Docs
-description: "Du kan avrunda fakturabelopp när du skapar fakturor. Dessutom kan lokala regler eller lokal praxis kräva att fakturan rundas av på ett visst sätt, till exempel till ett belopp som är delbart med 0,05."
+description: Du kan avrunda fakturabelopp när du skapar fakturor. Dessutom kan lokala regler eller lokal praxis kräva att fakturan rundas av på ett visst sätt, till exempel till ett belopp som är delbart med 0,05.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807654"
 ---
 # <a name="set-up-invoice-rounding"></a>Ställa in överavrundning
 Om du måste avrunda fakturabelopp när du skapar fakturor, kan du använda funktionen för automatisk avrundning. När en faktura rundas av infogas en extra rad med avrundningsbeloppet och bokförs tillsammans med övriga fakturarader.
@@ -65,4 +65,3 @@ För att se till att försäljnings- och inköpsfakturor avrundas automatiskt ak
 ## <a name="see-also"></a>Se även  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Registrera och ersätta anställdas affärsrelaterad utgifter | Microsoft Docs"
-description: "Bokför anställdas utgifter med redovisningsjournalen för den anställdas konto och bokför senare en betalning till den anställdes bankkonto för att ersätta för affärsrelaterade utgifter."
+title: Registrera och ersätta anställdas affärsrelaterad utgifter | Microsoft Docs
+description: Bokför anställdas utgifter med redovisningsjournalen för den anställdas konto och bokför senare en betalning till den anställdes bankkonto för att ersätta för affärsrelaterade utgifter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: 5932823e2ed18e2e2c61317d2a23a635ee66c609
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30d10c443bd69acfec9a30bacef5a8f0d8aece3f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807225"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skapa och återbetala de anställdas utgifter
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder transaktioner för medarbetare på samma sätt som för leverantörer. Därför finns medarbetares bokföringsmallar för att vara säker på att medarbetares transaktioner bokförs i relevanta konton i redovisningen.
@@ -50,7 +50,7 @@ Du återbetalar en medarbetare genom att bokföra betalningar till dennes bankko
 5. Om du vill registrera återbetalningen väljer du åtgärden **Bokför**.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Så här synkroniserar du återbetalningar med transaktioner för medarbetare
-Du kopplar betalningar för medarbetare till deras relaterade öppna transaktioner för medarbetare på samma sätt som du gör för leverantörsbetalningar, till exempel på sidan **Betalningsavstämningsjournal** baserat på de relaterade bankkontoutdragstransaktioner. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan också koppla manuellt på sidan **Personaltransaktioner**. Mer information finns i tillhörande [Stämma av leverantörsbetalningar manuellt](payables-how-apply-purchase-transactions-manually.md).  
+Du kopplar betalningar för medarbetare till deras relaterade öppna transaktioner för medarbetare på samma sätt som du gör för leverantörsbetalningar, till exempel på sidan **Betalningsavstämningsjournal** baserat på de relaterade bankkontoutdragstransaktioner. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan också koppla manuellt på sidan **Personaltransaktioner**. Mer information finns i tillhörande [Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Se även
 [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
@@ -58,4 +58,3 @@ Du kopplar betalningar för medarbetare till deras relaterade öppna transaktion
 [Återföra bokningar](finance-how-reverse-journal-posting.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

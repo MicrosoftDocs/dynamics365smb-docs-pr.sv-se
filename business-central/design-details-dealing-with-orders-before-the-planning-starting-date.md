@@ -1,8 +1,8 @@
 ---
-title: "Designdetaljer: Hantera order före planeringsstartdatumet | Microsoft Docs"
-description: "Det här avsnittet beskriver de regler som gäller för att planera order i den frysta zonen."
+title: 'Designdetaljer: Hantera order före planeringsstartdatumet | Microsoft Docs'
+description: Det här avsnittet beskriver de regler som gäller för att planera order i den frysta zonen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807747"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Designdetaljer: Hantera order före planeringsstartdatumet
 För att förhindra att en tillförselplan visar omöjliga och därför oanvändbara förslag, betraktar planeringssystemet perioden fram till planeringsstartdatumet som en fryst zon som inget planeras för. Följande regel gäller för den frysta zonen:  
@@ -42,4 +42,3 @@ Om serie-/partinummer krävs eller det finns en order-till-order-länk kommer pl
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Ställa in betalningssätt | Microsoft Docs"
-description: "Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur försäljnings- och inköpsfakturor ska betalas."
+title: Ställa in betalningssätt | Microsoft Docs
+description: Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur försäljnings- och inköpsfakturor ska betalas.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 11/22/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807319"
 ---
 # <a name="defining-payment-methods"></a>Definiera betalningssätt
 Betalningssätt definierar hur du föredrar att kunderna betalar dig och hur du vill betala dina leverantörer. Metoden kan variera för varje kund eller leverantör. Exempel på typiska betalningssätt är **bank**, **kontanter**, **check** eller **konto**. 
@@ -39,4 +39,3 @@ Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsa
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

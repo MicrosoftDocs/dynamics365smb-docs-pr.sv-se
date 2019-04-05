@@ -1,8 +1,8 @@
 ---
-title: "Hantera segment och välj kontakter att inkludera | Microsoft Docs"
-description: "Definierar uppgifter för att skapa ett segment om du vill välja en grupp med kontakter enligt ett visst kriterium, till exempel kontakter i en viss bransch som du vill använda."
+title: Hantera segment och välj kontakter att inkludera | Microsoft Docs
+description: Definierar uppgifter för att skapa ett segment om du vill välja en grupp med kontakter enligt ett visst kriterium, till exempel kontakter i en viss bransch som du vill använda.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807939"
 ---
 # <a name="managing-segments"></a>Hantera segment
 Du kan skapa segment om du vill välja ut en grupp med kontakter enligt ett visst kriterium. Ett segment kan t.ex. vara en bransch som kontakterna tillhör eller dina affärsrelationer med kontakterna. Du kan också skapa ett segment om du vill vilja ut vilka kontakter som är målgruppen för en kampanj.
@@ -39,4 +39,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Hantera kontakter](marketing-contacts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

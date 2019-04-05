@@ -1,6 +1,6 @@
 ---
-title: "Koppla betalningar till relaterade dokument och bokför dem | Microsoft Docs"
-description: "Beskriver hur du kan registrera betalningar du gör till leverantörer och återbetalningar som du gör till kunder."
+title: Koppla betalningar till relaterade dokument och bokför dem | Microsoft Docs
+description: Beskriver hur du kan registrera betalningar du gör till leverantörer och återbetalningar som du gör till kunder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807869"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrera betalningar och återbetalningar i betalningsjournalen
 
@@ -25,9 +25,9 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 
 - Koppla betalningar till fakturor eller kreditnotor
 
-    Om du fyller i fältet **Kopplas till ver.nr.** med den faktura eller kreditnotan som måste betalas ut eller återbetalas, är det aktuella dokumentet inställt att betalas när du bokför journalen. Det kallas för "kopplad". Som ett alternativ till att använda under betalningsbokföring kan du använda sidan **Koppla leverantörstrans** och **Koppla kundtransaktioner** när du har gjort bokföringen av betalningen. Mer information finns i tillhörande, t.ex. [Stämma av leverantörsbetalningar manuellt](payables-how-apply-purchase-transactions-manually.md).  
+    Om du fyller i fältet **Kopplas till ver.nr.** med den faktura eller kreditnotan som måste betalas ut eller återbetalas, är det aktuella dokumentet inställt att betalas när du bokför journalen. Det kallas för "kopplad". Som ett alternativ till att använda under betalningsbokföring kan du använda sidan **Koppla leverantörstrans** och **Koppla kundtransaktioner** när du har gjort bokföringen av betalningen. Mer information finns i t.ex. [Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md).  
 
-- Hämta föreslagna betalningar till leverantörer eller medarbetare 
+- Hämta föreslagna betalningar till leverantörer eller medarbetare
 
     Funktionerna **Betalningsförslag för lev.** och **Betalningsförslag för anställd** hjälper dig att fylla i betalningsjournalraderna automatiskt enligt leverantörens prioritering och förfallodatum. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md). Med denna funktionen fylls fältet **Kopplas till ver.nr.** alltid i.  
 
@@ -35,7 +35,7 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 
     Förutom registrering att betalning har gjort kan du också använda sidan **betalningsjournal** till att skapa betalningen för vidare behandling av din bank. Mer information finns i [Göra checkbetalningar](payables-how-work-checks.md) och [Göra elektroniska betalningar](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Göra betalningar i betalningsjournal 
+## <a name="to-make-payments-in-the-payment-journal"></a>Göra betalningar i betalningsjournal
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsjournal** och välj sedan relaterad länk.
 2. Öppna den journal som ska användas för betalningar.
@@ -57,4 +57,3 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

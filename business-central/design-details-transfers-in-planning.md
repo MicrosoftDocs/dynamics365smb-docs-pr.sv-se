@@ -1,8 +1,8 @@
 ---
-title: "Designdetaljer - Överföringar i planering | Microsoft Docs"
-description: "Det här avsnittet beskriver hur du använder överföringsorder som en tillgång när du planerar lagernivåer."
+title: Designdetaljer - Överföringar i planering | Microsoft Docs
+description: Det här avsnittet beskriver hur du använder överföringsorder som en tillgång när du planerar lagernivåer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807851"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
 Överföringsorder är också en källa till tillgång när de arbetar på nivån med lagerställeenheter. När du använder flera lagerställen (distributionslager) kan återanskaffningssystemet för lagerställeenheter ställas in till Överföring, vilket anger att lagerstället fylls på genom att varor överförs från ett annat lagerställe. I en sådan situation med flera distributionslager kan företag ha en kedja av överföringar där tillgång till lagerställe GRÖN överförs från GUL, och tillgång till GUL överförs från RÖD och så vidare. I början av kedjan finns återanskaffningssystemet Prod.order eller Inköp.  
@@ -168,4 +168,3 @@ Om efterfrågan ändras från 27 till 22 kommer systemet att minska antalet ned�
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

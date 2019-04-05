@@ -1,6 +1,6 @@
 ---
-title: "Sortering, sökning och filtrering av listor | Microsoft Docs"
-description: "Arbeta effektivt i listor genom att söka i data, sortera kolumner och förfina resultaten med hjälp av kraftfulla filtersymboler och kortkommandon."
+title: Sortering, sökning och filtrering av listor | Microsoft Docs
+description: Arbeta effektivt i listor genom att söka i data, sortera kolumner och förfina resultaten med hjälp av kraftfulla filtersymboler och kortkommandon.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807923"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortera, söka och filtrera listor
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -164,7 +164,7 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 |`23..`|Från 23 innevarande månad, innevarande år 0:00:00 till tidsperiodens slut|  
 |`22..23`|Från 22 innevarande månad, innevarande år 0:00:00 till 23 innevarande månad, innevarande år 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Antingen/eller  
+### <a name="124-eitheror"></a>(&#124;) Antingen eller  
 
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  
@@ -239,7 +239,7 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  
-|`5999|8100..8490`|Ta med post nummer 5999 och poster med nummer fr.o.m. 8100 t.o.m.|  
+|`5999|8100..8490`|Ta med post nummer 5999 och poster med nummer fr.o.m. 8100 t.o.m. 8490.|  
 |`..1299|1400..`|Ta med poster med nummer mindre än eller lika med 1299 och nummer större än eller lika med 1400 (d.v.s. alla nummer utom 1300 t.o.m. 1399)|  
 |`>50&<100`|Ta med poster med nummer större än 50 och mindre än 100 (d.v.s. nummer fr.o.m. 51 t.o.m. 99)|  
 
@@ -251,7 +251,7 @@ När du anger filterkriterier kan du även skriva ord som har en speciell betyde
 > Ditt företag kanske använder egna token. För mer information om den fullständiga uppsättningen med token som finns tillgängliga för dig eller om du vill lägga till fler anpassade variabler, kontakta administratören. Teknisk information finns i [Lägga till filtertoken](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
 
 
-### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) Poster som har tilldelats dig
+### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) poster som har tilldelats dig
 
 Använd `%me` eller `%userid` när du filtrerar i fält som innehåller användar-ID såsom fältet **Tilldelats användar-ID** om du vill visa alla poster som har tilldelats dig.
 
@@ -287,4 +287,3 @@ Använd `%myvendors` i fältet leverantörs**nr** om du vill visa alla poster f�
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanliga frågor om sökning och filtrering](ui-search-filter-faq.md)
-

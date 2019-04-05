@@ -1,22 +1,22 @@
 ---
-title: "Ställ in SEPA Autogiro | Microsoft Docs"
-description: "Lär dig hur du ställer in SEPA-autogirering i Business Central."
+title: Ställ in SEPA Autogiro | Microsoft Docs
+description: Lär dig hur du ställer in SEPA-autogirering i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807113"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
 Från sidan **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer SEPA Autogiro-format, men andra format för elektroniska betalningar i ditt land/din region kan finnas.  
@@ -80,4 +80,3 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 [Så här skapar du återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)
 [Elektroniskt datautbyte](across-data-exchange.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Köpa artiklar eller tjänster för ett projekt och hantera leveranser | Microsoft Docs"
-description: "Beskriver hur du hanterar försörjning och inköp av material och tjänster för projekt."
+title: Köpa artiklar eller tjänster för ett projekt och hantera leveranser | Microsoft Docs
+description: Beskriver hur du hanterar försörjning och inköp av material och tjänster för projekt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 68505a6507901511578dc3672de013175a3e36ef
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806922"
 ---
 # <a name="manage-job-supplies"></a>Hantera projektleveranser
 Att hantera projektleveranser av artiklar, tjänster och utgifter är en viktig del och aspekt av allt projektgenomförande. Du kan använda lagerantal eller göra projektspecifika inköp med hjälp av inköpsorder eller inköpsfakturor. Ett servicejobb för en dator kan till exempel kräva en ny hårddisk. Du skapar då en inköpsfaktura för att köpa en ny hårddisk och registrerar det i projektet.
@@ -56,4 +56,3 @@ Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du anvä
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

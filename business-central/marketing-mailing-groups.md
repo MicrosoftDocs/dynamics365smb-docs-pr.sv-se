@@ -1,8 +1,8 @@
 ---
-title: "Ställa in utskicksgrupper för kontakter | Microsoft Docs"
-description: "Du kan använda utskicksgrupper för att identifiera grupper av kontakter som ska få samma information, t.ex. för en marknadsföringskampanj."
+title: Ställa in utskicksgrupper för kontakter | Microsoft Docs
+description: Du kan använda utskicksgrupper för att identifiera grupper av kontakter som ska få samma information, t.ex. för en marknadsföringskampanj.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 6c089b772c139d0c0e9465f383ab39bd3c125dca
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807291"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Skapa utskicksgrupper för kontakter
 Utskicksgrupper används för att definiera kontaktgrupper som du vill ge samma information. Du kan till exempel skapa en utskicksgrupp med de kontakter du vill skicka flyttkort till eller en annan grupp för att skicka julklappar.
@@ -43,7 +43,5 @@ Antalet utskicksgrupper som du har tilldelat kontakter anges automatiskt i fält
 När du har tilldelat kontakterna utskicksgrupp kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se även
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
-[Skapa kontaktpersoner](marketing-create-contact-persons.md)  
+[Skapar kontakter](marketing-create-contact-companies.md)  
 [Arbeta med Business Central](ui-work-product.md)
-

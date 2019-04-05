@@ -1,23 +1,23 @@
 ---
-title: "Planera artikelinförsel i kalkylarket | Microsoft Docs"
-description: "Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser."
+title: Planera artikelinförsel i kalkylarket | Microsoft Docs
+description: Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807044"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i kalkylark
 Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.  
@@ -58,7 +58,7 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 
     -   Du kan fördela artikelinförseln till en särskild anställd.  
     -   Du kan sortera instruktionsraderna för artikelinförsel som du gjorde i kalkylarket eller genom att använda funktionen Lagerplatsordning. När du sorterar enligt lagerplatsordningen visas hämtningsraderna först eftersom de flesta inleveranslagerplatser har lagerplatsordning 0, och placeringsraderna visas sist, med de lagerplatser som har lägst lagerplatsordning högst upp i listan. Om du har strukturerat distributionslagret så att lagerplatser med liknande lagerplatsordning ligger bredvid varandra slipper personalen gå så mycket om du sorterar raderna på det här sättet.  
-    -   Du kan välja att inte visa de övergångsrader som skapas när en större enhet bryts ned till mindre enheter, genom att markera fältet **Sätt brytenhetsfilter**. Mer information finns i [Aktivera Automatisk volymnedbrytning med dirigerad artikelinförsel och plockning] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Du kan välja att inte visa de övergångsrader som skapas när en större enhet bryts ned till mindre enheter, genom att markera fältet **Sätt brytenhetsfilter**. Mer information finns i [Aktivera Automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Du kan välja att inte låta fältet **Ant. att hantera** fyllas i automatiskt för artikelinförselinstruktionerna.  
     -   Du kan välja att skriva ut dokumentet omedelbart.  
 
@@ -71,4 +71,3 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

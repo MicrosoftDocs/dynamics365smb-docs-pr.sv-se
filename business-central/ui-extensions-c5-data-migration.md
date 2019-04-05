@@ -1,8 +1,8 @@
 ---
-title: "Använda tillägget C5 Data-migrering | Microsoft Docs"
-description: "Använda det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central."
+title: Använda tillägget C5 Data-migrering | Microsoft Docs
+description: Använda det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807749"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 
@@ -96,6 +95,9 @@ Om du flyttar konton, flyttas även följande uppgifter:
 > [!Note]
 > Historiska redovisningstransaktioner hanteras på olika sätt. När du migrerar data ställer du in en parameter för **aktuell period**. Den här parametern anger hur du behandlar redovisningstransaktioner. Transaktioner efter detta datum migreras individuellt. Transaktioner före det här datumet läggs samman per konto och flyttas över som ett enstaka belopp. Låt oss anta att det finns transaktioner i 2015, 2016, 2017, 2018, och du anger 01 januari 2017 i fältet Aktuell period. För varje konto samlas belopp för transaktioner på eller före den 31 december 2106 i en enda redovisningsjournalrad för varje redovisningskonto. Alla transaktioner efter detta datum migreras individuellt.
 
+## <a name="file-size-requirements"></a>Storlekskraven i filen
+Den största filstorleken som du kan överföra till [!INCLUDE[d365fin](includes/d365fin_md.md)] är 150 MB. Om filen du exporterar från C5 är större än detta kan du flytta över data i flera filer. Till exempel exportera en eller två typer av enheter från C5, såsom kunder och leverantörer, till en fil och sedan exportera objekt till en annan fil och så vidare. Du kan importera filer var för sig i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 ## <a name="to-migrate-data"></a>Migrera data
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -148,4 +150,3 @@ Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**
 ## <a name="see-also"></a>Se även
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Komma igång](product-get-started.md)
-

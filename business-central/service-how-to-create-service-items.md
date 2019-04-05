@@ -1,21 +1,21 @@
 ---
-title: "Så här skapar du Serviceartiklar | Microsoft Docs"
-description: "När du tar emot en ej registrerad artikel för service kan du registrera den som serviceartikel."
+title: Så här skapar du Serviceartiklar | Microsoft Docs
+description: När du tar emot en ej registrerad artikel för service kan du registrera den som serviceartikel.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807004"
 ---
 # <a name="create-service-items"></a>Skapa tjänsteartiklar
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] avser termen ”serviceartikel” den utrustning eller de artiklar som kräver service. När du skapar en serviceorder kan du ange de artiklar som behöver service. I ordern kan du länka en serviceartikel till en artikel i lagret eller en serviceartikelgrupp.    
@@ -62,4 +62,3 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på se
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
-

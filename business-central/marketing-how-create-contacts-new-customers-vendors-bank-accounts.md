@@ -1,8 +1,8 @@
 ---
-title: "Skapa en kund eller leverantör från en kontakt | Microsoft Docs"
-description: "Du kan registrera en befintlig kontakt som en kund, leverantör eller bankkonto med befintliga data och ange en affärsrelation."
+title: Skapa en kund eller leverantör från en kontakt | Microsoft Docs
+description: Du kan registrera en befintlig kontakt som en kund, leverantör eller bankkonto med befintliga data och ange en affärsrelation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 5f5e690a8db82c2f95f190d5fac4b6430f900b57
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808146"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Skapa en kund, leverantör eller bankkonto från en kontakt
 Du vill kanske registrera några av dina befintliga kontakter som kunder, leverantörer eller bankkonton. Skapa en kund, en leverantör eller ett bankkonto från en kontakt låter dig använda befintliga data. När du skapar en kund, leverantör eller ett bankkonto på detta sätt, synkroniseras den med kontakten. Synkroniseringen gör information som är gemensam mellan kontakter och kunder, leverantörer eller bankkonton densamma.
@@ -36,9 +36,7 @@ Kontaktinformationen överförs från kortet **Kontakt** kortet **Bankkonto**, *
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  
 [Skapa kontaktpersoner](marketing-create-contact-persons.md)  
-[Ställa in Kundhantering](marketing-setup-marketing.md)  
 [Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Så här länkar du kontakter med befintliga kunder, leverantörer och bankkonton](marketing-how-link-contact.md)  
 [Så här tilldelar du affärsrelationer till kontakter](marketing-business-relations.md#AssignBusRelContact)  
 [Arbeta med Business Central](ui-work-product.md)
-

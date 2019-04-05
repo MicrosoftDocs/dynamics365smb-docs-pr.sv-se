@@ -1,23 +1,23 @@
 ---
-title: "Förbereda migrering av kunddata | Microsoft Docs"
-description: "När du har importerat och kopplat inställningsdatan i den nya databasen, kan du börja migrera kundens befintliga huvuddata, till exempel artikel- och kundnummer samt namn. För att se till att dessa data, skapas snabbt och exakt i det nya företaget, måste du använda mallar för att strukturera data."
+title: Förbereda migrering av kunddata | Microsoft Docs
+description: När du har importerat och kopplat inställningsdatan i den nya databasen, kan du börja migrera kundens befintliga huvuddata, till exempel artikel- och kundnummer samt namn. För att se till att dessa data, skapas snabbt och exakt i det nya företaget, måste du använda mallar för att strukturera data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806840"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Förbereda migrering av kunddata
 När du har importerat och kopplat inställningsdatan i den nya databasen, kan du börja migrera kundens befintliga huvuddata, till exempel artikel- och kundnummer samt namn. För att se till att dessa data, skapas snabbt och exakt i det nya företaget, måste du använda mallar för att strukturera data.  
@@ -115,7 +115,7 @@ Du kan använda strukturen av data som finns i datamallarna för att konvertera 
 Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa en post från en datamall med samma procedur.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsmallar** och välj sedan relaterad länk.  
-2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se avsnittet "Så här skapar du en datamall".
+2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se [Att skapa en datamall](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Välj åtgärden **Skapa instans**. Ett artikelkort skapas.  
 4. Välj knappen **OK**.  
 5. För att granska de nya artikelkorten, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
@@ -140,4 +140,3 @@ Standardvärdena från den valda kundmallen förs in på kundkortet.
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)
-

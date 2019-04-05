@@ -1,6 +1,6 @@
 ---
-title: "Visa och redigera i Excel från Business Central | Microsoft-dokument"
-description: "Lär dig mer om hur du öppnar sidor i Microsoft Excel från Business Central för bättre dataanalyser."
+title: Visa och redigera i Excel från Business Central | Microsoft-dokument
+description: Lär dig mer om hur du öppnar sidor i Microsoft Excel från Business Central för bättre dataanalyser.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 12/07/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807430"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visa och redigera i Excel från Business Central 
 
@@ -46,4 +46,3 @@ Med sidor som visar en lista över poster i rader och kolumner som en lista öve
 ## <a name="see-also"></a>Se även
 
 [Arbeta med Business Central](ui-work-product.md)  
-

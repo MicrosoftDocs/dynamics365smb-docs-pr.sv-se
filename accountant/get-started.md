@@ -1,18 +1,18 @@
 ---
 title: Revisorupplevelse i Dynamics 365 | Microsoft Docs
-description: "Läs mer om Accountant Hub för Dynamics 365."
+description: Läs mer om Accountant Hub för Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807144"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Kom igång med [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -22,7 +22,7 @@ Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa f�
 Du kan få tillgång till [!INCLUDE [d365acc](includes/d365acc_md.md)] genom att logga in från [Dynamics 365 — Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  När du registrerar dig för [!INCLUDE [d365acc](includes/d365acc_md.md)], måste du ange din e-postadress för arbete som <em>me@accountant.com</em>. Vi rekommenderar att du använder samma e-postadress när du arbetar i klientens [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], så att du kan växla mellan klienter. E-postadressen måste vara en arbetsadress som baseras på ett Active Directory.
+>  När du registrerar dig för [!INCLUDE [d365acc](includes/d365acc_md.md)] måste du ange din e-postadress för arbete som <em>me@accountant.com</em>. Vi rekommenderar att du använder samma e-postadress när du arbetar i klientens [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], så att du kan växla mellan klienter. E-postadressen måste vara en arbetsadress som baseras på ett Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Arbeta med enskilda kunder
 Instrumentpanelen visar den viktigaste informationen om varje klient.  
@@ -90,4 +90,3 @@ När du har slutfört en uppgift bara markerar du den som slutförd.
 [Analysera bokslut i Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Revisorupplevelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

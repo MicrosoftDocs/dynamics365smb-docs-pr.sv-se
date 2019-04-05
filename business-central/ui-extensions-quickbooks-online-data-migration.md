@@ -1,6 +1,6 @@
 ---
-title: "Använda tillägget QuickBooks-migrering | Microsoft Docs"
-description: "Beskriver hur du använder tillägget för att migrera kunder, leverantörer, artiklar och konton från QuickBooks Online till Business Central."
+title: Använda tillägget QuickBooks-migrering | Microsoft Docs
+description: Beskriver hur du använder tillägget för att migrera kunder, leverantörer, artiklar och konton från QuickBooks Online till Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807164"
 ---
-
 # <a name="the-quickbooks-online-data-migration-extension"></a>Tillägget QuickBooks Online datamigrering
 Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -59,11 +58,10 @@ När du har migrerat data har transaktionerna statusen **ej bokförda**, så att
 
 Det finns några saker som du bör göra:
 
-* Om transaktionerna i QuickBooks Online har markerade eller rabatterade belopp måste du manuellt lägga till beloppen till de relaterade transaktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)]innan du bokför dem.
+* Om transaktionerna i QuickBooks Online har markerade eller rabatterade belopp måste du manuellt lägga till beloppen till de relaterade transaktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] innan du bokför dem.
 * Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och en produktbokföringsmall till bokföringsinställningar så att du kan bokföra moms.
 * Kontrollera de ingående saldona för konton i redovisningen. QuickBooks Online sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-

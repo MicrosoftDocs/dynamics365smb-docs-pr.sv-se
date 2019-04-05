@@ -1,7 +1,7 @@
 ---
 title: Koppla Data med | Microsoft Docs
-description: "Du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa ett automatiskt arbetsflöde."
-documentationcenter: 
+description: Du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa ett automatiskt arbetsflöde.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/16/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808042"
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett automatiskt arbetsflöde
 Du kan använda din [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del av ett arbetsflöde i Microsoft Flow.
@@ -64,7 +64,7 @@ Nu har du lyckats ansluta till dina Business Central-data och är redo att börj
 
 Mer information finns i [Flödesdokumentationen](https://docs.microsoft.com/en-us/flow/getting-started).
 
-För att felsöka ditt Microsoft Flow, se [Felsöka integrering med Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
+För felsökning av din Microsoft Flow, se [felsökning integrering med Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
@@ -75,4 +75,3 @@ För att felsöka ditt Microsoft Flow, se [Felsöka integrering med Microsoft Fl
 [Användarinställningar för godkännande](across-how-to-set-up-approval-users.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Ekonomi](finance.md)  
-

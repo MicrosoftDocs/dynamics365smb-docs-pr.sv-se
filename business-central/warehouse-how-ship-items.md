@@ -1,23 +1,23 @@
 ---
-title: "Så här utlevereras artiklar | Microsoft Docs"
-description: "Beroende på konfigurationen av lagret, kan du antingen registrera utleverans på relaterade avgående affärsdokumentet, till exempel försäljningsorder, direkt eller använda distributionslagerutleveransdokument som följer ett arbetsflöde och integreras i olika lageraktiviteter."
+title: Så här utlevereras artiklar | Microsoft Docs
+description: Beroende på konfigurationen av lagret, kan du antingen registrera utleverans på relaterade avgående affärsdokumentet, till exempel försäljningsorder, direkt eller använda distributionslagerutleveransdokument som följer ett arbetsflöde och integreras i olika lageraktiviteter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807198"
 ---
 # <a name="ship-items"></a>Leverera artiklar
 När artiklarna utlevereras från ett distributionslager som har ställts in för utleveransbearbetning kan du bara registrera utleveransen med relaterade dokument, till exempel en försäljningsorder, en serviceorder, inköpsreturorder eller en order för avgående överföringar.
@@ -105,4 +105,3 @@ Du kan också använda plockningskalkylarket för att kombinera flera plocknings
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Designdetaljer - Centrala koncept i planeringssystemet| Microsoft Docs
-description: "Planeringsfunktionerna ingår i ett batch-jobb som först väljer alla relevanta artiklar och planeringsperiod, och som sedan föreslår möjliga åtgärder som användaren kan vidta baserat på rådande tillgång/efterfrågan och artiklarnas planeringsparametrar."
+description: Planeringsfunktionerna ingår i ett batch-jobb som först väljer alla relevanta artiklar och planeringsperiod, och som sedan föreslår möjliga åtgärder som användaren kan vidta baserat på rådande tillgång/efterfrågan och artiklarnas planeringsparametrar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807887"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
@@ -237,7 +237,7 @@ Att bryta säkerhetslagrets nivå betraktas som ett undantag eftersom det inte b
 I allmänhet garanterar exceptionella orderförslag att planerat tillgängligt lager aldrig är lägre än säkerhetslagernivån. Detta innebär dock att det föreslagna antalet bara täcker säkerhetslager, utan att överväga planeringsparametrarna. Dock i alla scenarier ska orderändringsfält övervägas.  
 
 > [!NOTE]  
->  Planeringssystemet kan ha förbrukats säkerhetslagret med avsikt och fyller sedan omedelbart på det. Mer information finns i avsnittet ”Säkerhetslager kan förbrukas” i [Designdetaljer: Läsa in lagerprofilen](design-details-loading-the-inventory-profiles.md).
+>  Planeringssystemet kan ha förbrukats säkerhetslagret med avsikt och fyller sedan omedelbart på det. Mer information finns i [Säkerhetslager kan förbrukas](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Observera!  
 Den här varningen visas i tre olika situationer:  
@@ -289,4 +289,3 @@ Detta slutför översikten över centrala koncept för leveransplanering i [!INC
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)
-

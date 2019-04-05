@@ -1,8 +1,8 @@
 ---
-title: "Ställa in analysvy för kassaflöde | Microsoft Docs"
-description: "Skapa diagram i rollcentret konton för att analysera flödet av pengar i företaget, inklusive utgifter och inkomster, likviditet och inbetalningar minus utbetalningar."
+title: Ställa in analysvy för kassaflöde | Microsoft Docs
+description: Skapa diagram i rollcentret konton för att analysera flödet av pengar i företaget, inklusive utgifter och inkomster, likviditet och inbetalningar minus utbetalningar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807421"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  
@@ -73,7 +73,7 @@ Så här använder du guiden för assisterad konfiguration:
 Så här använder du en manuell process:  
 
 1. I rollcentret revisor söker du **Kassaflödesinställningar**, och väljer sedan relaterad länk.  
-2. Expandera snabbfliken **Cortana Intelligence** och välj sedan kryssrutan **Cortana Intelligence aktiverad**.  
+2. Expandera snabbfliken **Cortana Intelligence** och markera sedan kryssrutan **Cortana Intelligence aktiverad**.  
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesprognos** och välj sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
@@ -89,10 +89,9 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
 6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
-7. Expandera snabbfliken **Cortana Intelligence** och fyll sedan i fälten.  
+7. Expandera snabbfliken **Cortana Intelligence** och fyll i fälten.  
 
 ## <a name="see-also"></a>Se även
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

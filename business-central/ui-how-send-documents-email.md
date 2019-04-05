@@ -1,7 +1,7 @@
 ---
-title: "Konfigurera dokumentspecifikt e-postinnehåll | Microsoft Docs"
-description: "Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden."
-documentationcenter: 
+title: Konfigurera dokumentspecifikt e-postinnehåll | Microsoft Docs
+description: Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807832"
 ---
 # <a name="send-documents-by-email"></a>Skicka dokument som e-post
 För att meddela innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder, kan du använda funktionen Rapportlayout för att definiera dokumentspecifikt innehåll som infogas i e-postbrödtexter automatiskt. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktu
 7. I fältet **Bilaga** är den genererade fakturan bifogad som standard som en PDF-fil. Välj uppslagningknappen för att öppna filen eller bifoga en annan.
 8. Ange ett kort meddelande till mottagaren i fältet **Text**.
 
-    Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval - försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i avsnittet “Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor” i detta ämne.
+    Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval - försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i avsnittet [Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Välj knappen **OK** för att skicka e-postmeddelandet.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktu
 [Konfigurera e-post](admin-how-setup-email.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

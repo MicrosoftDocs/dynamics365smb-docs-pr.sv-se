@@ -1,8 +1,8 @@
 ---
-title: "Försäkra anläggningstillgångar | Microsoft Docs"
-Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
+title: Försäkra anläggningstillgångar | Microsoft Docs
+Description: Du kan tilldela försäkringsbrev för en anläggningstillgång som representeras av ett försäkringskort.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bf30a9b9e783cbd9e54576a76369fc33647b3af3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807713"
 ---
 # <a name="insure-fixed-assets"></a>Försäkra anläggningstillgångar
 En försäkringsbrev för en anläggningstillgång representeras av ett försäkringskort. Du kan koppla en anläggningstillgång till en försäkringspolicy eller flera anläggningstillgångar till en försäkringspolicy.
 
 Du tilldelar en anläggningstillgång till en försäkringspolicy genom att bokföra försäkringstransaktionerna från sidan **Försäkringsjournal**.
 
-Dessutom kan du tilldela en anläggningstillgång till en försäkringspolicy och skapa försäkringstransaktioner när du bokför dess anskaffningskostnad. Du gör detta genom att bokföra en anskaffningskostnad från anläggningstillgångsjournalen med fältet **Försäkringnr.** ifyllt. Kryssrutan **Automatisk försäkringsbokf.** på sidan **Anläggningstillgånginställningar** måste markeras. För mer information, se "Bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar" i [Anskaffa anläggningstillgångar](fa-how-acquire.md).
+Dessutom kan du tilldela en anläggningstillgång till en försäkringspolicy och skapa försäkringstransaktioner när du bokför dess anskaffningskostnad. Du gör detta genom att bokföra en anskaffningskostnad från anläggningstillgångsjournalen med fältet **Försäkringnr.** ifyllt. Kryssrutan **Automatisk försäkringsbokf.** på sidan **Anläggningstillgånginställningar** måste markeras. För mer information, se [Att bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 Om kryssrutan **Automatisk försäkringsbokf.** på sidan **Anläggningstillgånginställningar** inte har markerats, kommer bokföring av anskaffning från anläggningstillgångsjournalen att skapa rader i fönstret **Försäkringsjournal** som du sedan måste posta manuellt.
 
@@ -119,4 +119,3 @@ Anläggningstillgången kommer att frigöras från det felaktiga försäkringsbr
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

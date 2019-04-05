@@ -1,6 +1,6 @@
 ---
-title: "Använda funktionen Överför differens till konto för att stämma av betalningar | Microsoft Docs"
-description: "Beskriver hur du kan bearbeta betalningar som inte kan kopplas till ett dokument, till exempel när en valutakurs orsakar att belopp skiljer sig åt."
+title: Använda funktionen Överför differens till konto för att stämma av betalningar | Microsoft Docs
+description: Beskriver hur du kan bearbeta betalningar som inte kan kopplas till ett dokument, till exempel när en valutakurs orsakar att belopp skiljer sig åt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7d952f46d5e688fe1b86077723a0482c91995661
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807901"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Så här stämmer du av betalningar som inte kan kopplas automatiskt
 Du måste ibland hantera betalningar till ditt bankkonto som inte kan kopplas till en relaterad öppen kund, leverantör eller bankkontotransaktion. Anledningar kan vara att det inte finns något dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] som betalningen kan kopplas till, eller det relaterade dokumentet i [!INCLUDE[d365fin](includes/d365fin_md.md)] har ett annat belopp än transaktionbeloppet, tex på grund av valutakursen. På sidan **Betalningavstämningjournal** visas inte alla transaktionsbelopp för betalningar som inte kopplats ännu i fältet **Skillnad** inklusive belopp, som inte kan användas på grund av anledningarna ovan.
@@ -30,7 +30,7 @@ Om du vill avstämma sådana betalningar kan du välja knappen **Överför diffe
 > [!TIP]  
 >   Liknande funktioner finns för att definiera automatisk avstämning återkommande betalningar som inte kan användas till relaterade öppna kund-, leverantörs- eller bankkontotransaktioner. Mer information finns i [Mappa text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Så här stämmer du av betalningar som inte kan kopplas
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Så här stämmer du av betalningar som inte kan kopplas automatiskt
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
 2. Öppna en betalningsavstämningsjournal. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. Välj **Överför differens till konto**. Sidan **Överför differens till konto** öppnas.
@@ -47,4 +47,3 @@ Om värdet i fältet **skillnad**var mindre än värdet i fältet **transaktions
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

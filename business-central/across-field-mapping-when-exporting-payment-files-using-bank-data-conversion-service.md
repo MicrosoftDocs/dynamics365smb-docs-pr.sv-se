@@ -1,21 +1,21 @@
 ---
-title: "Fältmappning för export av bankbetalningsfiler | Microsoft Docs"
-description: "När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer de data du exporterar att bli exponerade för bankdatakonverteringstjänsten."
+title: Fältmappning för export av bankbetalningsfiler | Microsoft Docs
+description: När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer de data du exporterar att bli exponerade för bankdatakonverteringstjänsten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808012"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Fältmappning vid export av betalningsfiler via bankdatakonverteringstjänst
 När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer de data du exporterar att bli exponerade för bankdatakonverteringstjänsten. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om hur funktionen bankdatakonverteringstjänst fungerar finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).  
@@ -72,4 +72,3 @@ Följande tabell visar de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] fr
 [Byta data elektroniskt](across-data-exchange.md)
 [Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md)   
 [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
-

@@ -1,6 +1,6 @@
 ---
 title: Skapa kontaktpersoner | Microsoft Docs
-description: "Beskriver uppgiften om du vill skapa ett kontaktkort för en person, t.ex. en potentiell kund eller leverantör som bidrar till att definiera relationen och skräddarsy kommunikationen."
+description: Beskriver uppgiften om du vill skapa ett kontaktkort för en person, t.ex. en potentiell kund eller leverantör som bidrar till att definiera relationen och skräddarsy kommunikationen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807167"
 ---
 # <a name="creating-contact-persons"></a>Skapa kontaktpersoner
 Du skapar en kontakt genom att skapa ett kontaktkort för personen. Du kan skapa kontaktpersoner utifrån befintliga kontaktföretag eller skapa oberoende kontaktpersoner.
@@ -44,8 +45,6 @@ Du kan skapa kontaktkort för varje kontakt som arbetar i de företag du har fö
 >   Innehållet i de fält du markerat i avsnittet **Arv** på sidan **Marknadsföringsinställningar** kopieras från företaget till personerna i företaget.
 
 ## <a name="see-also"></a>Se även
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
-[Skapa kontaktpersoner](marketing-create-contact-persons.md)  
+[Skapar kontakter](marketing-create-contact-companies.md)  
 [Använda profilfrågeformulär för att klassificera affärskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbeta med Business Central](ui-work-product.md)
-

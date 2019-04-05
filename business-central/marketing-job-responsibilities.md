@@ -1,8 +1,8 @@
 ---
-title: "Ställa in Arbetsansvar för kontakter | Microsoft Docs"
-description: "Du kan definiera ett arbetsansvar och tilldela den till en kontakt för att ange vilka aktiviteter som kontakten ansvarar för i företaget, till exempel IT- eller produktionsorder."
+title: Ställa in Arbetsansvar för kontakter | Microsoft Docs
+description: Du kan definiera ett arbetsansvar och tilldela den till en kontakt för att ange vilka aktiviteter som kontakten ansvarar för i företaget, till exempel IT- eller produktionsorder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807116"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Ange arbetsansvar för kontaktpersonerna.
 Du kan lägga till information om arbetsansvar för kontaktpersoner för att ange vad kontaktpersonen ansvarar för i företaget, till exempel IT, ledning eller produktion. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
@@ -45,7 +45,5 @@ Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet 
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se även
-[Skapa kontaktpersoner](marketing-create-contact-persons.md)  
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
+[Skapar kontakter](marketing-create-contact-companies.md)  
 [Arbeta med Business Central](ui-work-product.md)
-

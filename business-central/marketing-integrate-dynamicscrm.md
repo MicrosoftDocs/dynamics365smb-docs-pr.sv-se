@@ -1,7 +1,7 @@
 ---
-title: "Hantera kunder som använder Dynamics 365 for Sales| Microsoft Docs"
-description: "Du kan använda Dynamics 365 for Sales uniti Business Central för att mappa data och ha sömlös integration och synkronisering i processen från kundämne till betalning."
-documentationcenter: 
+title: Hantera kunder som använder Dynamics 365 for Sales| Microsoft Docs
+description: Du kan använda Dynamics 365 for Sales inne i Business Central för att mappa data och ha sömlös integration och synkronisering i processen från kundämne till betalning.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,18 +11,18 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808212"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Integration med Dynamics 365 for Sales
-Om du använder Dynamics 365 for Sales för kundengagemang kan du använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för orderbehandling och ekonomi och har sömlös integrering i processen från kundämne till betalning.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Integrera med Dynamics 365 for Sales
+Om du använder Dynamics 365 for Sales for Customer Engagement kan du använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för orderbehandling och ekonomi och har sömlös integrering i processen från kundämne till betalning.
 
 > [!NOTE]
-> Det här avsnittet antar att både [!INCLUDE[d365fin](includes/d365fin_md.md)] och integrerade Sales-lösningen distribueras i en SaaS-miljö. Det går att blanda online och lokalt, men det kräver speciell konfiguration. Mer information finns i [förbereder integration till Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Det här avsnittet antar att både [!INCLUDE[d365fin](includes/d365fin_md.md)] och integrerade Sales-lösningen distribueras i en SaaS-miljö. Det går att blanda online och lokalt, men det kräver speciell konfiguration. Mer information finns i [Förbereder integration till Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Om programmet har konfigurerats för integration med Sales, har du åtkomst till försäljningsdata från [!INCLUDE[d365fin](includes/d365fin_md.md)] och tvärtom i vissa fall. Integrationen låter dig arbeta med och synkronisera datatyper som är gemensamma för båda tjänsterna, till exempel kunder, kontakter och försäljningsinformation och hålla informationen uppdaterad på båda platserna.  
 
@@ -89,7 +89,7 @@ Följande tabell beskriver regler som kontrollerar synkroniseringen mellan Busin
 |Bokförda försäljningsfakturor|Bokförda försäljningsfakturor som är synkroniserade med försäljningsfakturor. Innan du kan synkronisera en faktura, är det bättre att synkronisera alla andra enheter som kan delta i fakturan från säljare till prislistor. Säljarkodvärdet i fakturarubriken definierar ägare till den kopplade enheten i Sales.|
 
 ## <a name="setting-up-the-connection"></a>Ställer in anslutningen
-Från Start kan du öppna den assisterade konfigurationsguiden **anslutningsinställningar för Microsoft Dynamics 365** som hjälper dig att konfigurera anslutningen. När detta är klart får du en sömlös koppling av Sales-poster med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
+Hemifrån kan du öppna den assisterade **Microsoft Dynamics 365 konfigurationsguiden** anslutningsinställningar som hjälper dig att konfigurera anslutningen. När detta är klart får du en sömlös koppling av Sales-poster med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
 
 > [!NOTE]  
 >   Förklarar de assisterade inställningarna, men du kan utföra samma aktiviteter manuellt på sidan **installation av Sales-anslutning**.
@@ -102,12 +102,12 @@ Om du vill importera en befintlig Sales-lösning, använder guiden ett administr
 * Systemadministratör  
 * Lösningsanpassare  
 
-Mer information finns i [skapa användare och tilldela säkerhetsroller i Microsoft Dynamics 365 (online)](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) och [Hantera användare och behörigheter](ui-how-users-permissions.md).  
+Mer information finns i [Skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller i ](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) och [Hantera användare och behörigheter](ui-how-users-permissions.md).  
 
 Det här kontot används bara vid installationen. När lösningen har importerats till [!INCLUDE[d365fin](includes/d365fin_md.md)], behövs inte längre kontot.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Konfigurera användarkontot för synkronisering
-Integrering med hjälp av ett delat användarkonto används. Därför måste du i din Office 365-prenumeration skapa en särskild användare som ska användas för synkroniseringen mellan två tjänster. Kontot måste redan vara en giltig användare i Sales, men du behöver inte tilldela säkerhetsroller till kontot eftersom guiden gör detta åt dig. Du måste ange det här kontot en eller flera gånger i inställningsguiden, beroende på hur mycket synkronisering du vill aktivera. Mer information finns i [skapa användare och tilldela säkerhetsroller i Microsoft Dynamics 365 (online)](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
+Integrering med hjälp av ett delat användarkonto används. Därför måste du i din Office 365-prenumeration skapa en särskild användare som ska användas för synkroniseringen mellan två tjänster. Kontot måste redan vara en giltig användare i Sales, men du behöver inte tilldela säkerhetsroller till kontot eftersom guiden gör detta åt dig. Du måste ange det här kontot en eller flera gånger i inställningsguiden, beroende på hur mycket synkronisering du vill aktivera. Mer information finns i [Skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
 
 Om du vill aktivera *artikeldisposition*, måste integreringsanvändarkontot ha en snabbtangent för webbplatstjänster. Detta är eni två stegssak på sidan [!INCLUDE[d365fin](includes/d365fin_md.md)]för det användarkontot och du måste du välja knappen **ändra webbtjänstnyckeln** och i konfigurationsguiden för Sales-anslutning måste du ange användaren som OData webbtjänstanvändare.
 
@@ -137,17 +137,17 @@ I slutet av den assisterade konfigurationsguiden kan du välja åtgärden **kör
 
 Om du vill kontrollera förloppet för enskilda projekt i en fullständig synkronisering, öka detaljnivån i fältet **Transaktionsstatus för jobbkö**, eller **Från projektstatus för int. tabell**, eller **CRM fullständig synk.granskning** på sidan **CRM fullständig synk.granskning**.
 
-Via sidan **Konfigurera anslutning till Microsoft Dynamics 365** kan du när som helst få information om fullständig synkronisering. Här kan du också öppna sidan **Tabellmappningar för integrering** för att visa detaljerad information om tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] och i Sales-lösningen som måste synkroniseras.
+Från sidan Konfigurera anslutning till **Microsoft Dynamics 365** kan du få information om fullständig synkronisering när som helst. Här kan du också öppna sidan **Tabellmappningar för integrering** för att visa detaljerad information om tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] och i Sales-lösningen som måste synkroniseras.
 
 ## <a name="handling-special-sales-order-data"></a>Hantering av speciella försäljningsorderdata
-Försäljningsorder i Sales kommer att överföras till [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt om du markerar kryssrutan **Automatiskt skapa försäljningsorder** på sidan **Konfigurera anslutning till Microsoft Dynamics 365**. På sådana försäljningsorder överförs fältet **Namn** på den ursprungliga ordern och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Försäljningsorder i Sales kommer att överföras till [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt om du markerar kryssrutan **Automatiskt skapa försäljningsorder** på sidan **Microsoft Dynamics 365, konfigurera anslutning**. På sådana försäljningsorder överförs fältet **Namn** på den ursprungliga ordern och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Detta fungerar även om den ursprungliga försäljningsordern innehåller produkter som ej är i register vilket avser artiklar eller resurser som inte är registrerade hos någon produkt. I så fall måste du fylla i fälten **Produkttyp ej i register** och **Produktnr ej i register** på sidan **Försäljningsinställningar** så att denna oregistrerade produktförsäljning mappas till ett angivet artikel-/resursnummer för ekonomisk analys.
 
 Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omfattande, skapas en ytterligare försäljningsorderrad av typen Kommentar för att hålla hela texten på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se även
-[Förbereder integration till Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Förbereda för integrering till Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Kundhantering](marketing-relationship-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
@@ -155,4 +155,3 @@ Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omf
 [Integrera organisationen och användare till Dynamics 365 (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

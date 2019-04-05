@@ -1,21 +1,21 @@
 ---
 title: Ta emot och omvandla elektroniska dokument | Microsoft Docs
-description: "Du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst."
+description: Du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807175"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
 Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,4 +63,3 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Utbyta data elektroniskt.](across-data-exchange.md)   
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-

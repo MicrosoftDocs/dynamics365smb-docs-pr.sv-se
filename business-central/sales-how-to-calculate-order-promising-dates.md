@@ -1,23 +1,23 @@
 ---
-title: "Så här beräknar du ett orderlöftesdatum | Microsoft Docs"
-description: "Orderlöftesfunktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsrader för de datum som du accepterar."
+title: Så här beräknar du ett orderlöftesdatum | Microsoft Docs
+description: Orderlöftesfunktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsrader för de datum som du accepterar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/23/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807154"
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
 Ett företag måste kunna informera sina kunder om orderleveransdatum. Sidan **Orderlöftesrader** ger dig möjlighet att göra detta från en försäljningsorderrad.  
@@ -147,4 +147,3 @@ Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som
 [Försäljning](sales-manage-sales.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

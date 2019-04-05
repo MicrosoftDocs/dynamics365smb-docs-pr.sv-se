@@ -1,6 +1,6 @@
 ---
-title: "Business Central revisormiljö | Microsoft Docs"
-description: "Läs mer om revisorportalen för Business Central och rollcentret för revisor som stöder interna och externa revisorer i kundföretaget."
+title: Business Central revisormiljö | Microsoft Docs
+description: Läs mer om revisorportalen för Business Central och rollcentret för revisor som stöder interna och externa revisorer i kundföretaget.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807967"
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
@@ -39,5 +39,4 @@ Om du är en revisor med flera klienter, använd [!INCLUDE[d365acc_long](include
 [Ställa in analysvy för kassaflöde](finance-setup-cash-flow-analyses.md)  
 [Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 — Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-
+[Dynamics 365 - Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

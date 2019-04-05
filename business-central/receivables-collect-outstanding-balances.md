@@ -1,6 +1,6 @@
 ---
-title: "Påminna eller bötfälla kunder med förfallna betalningar | Microsoft Docs"
-description: "Beskriver hur du skickar en påminnelse till en kund om en betalning förfaller och lägger till avgifter på grund av förseningen."
+title: Påminna eller bötfälla kunder med förfallna betalningar | Microsoft Docs
+description: Beskriver hur du skickar en påminnelse till en kund om en betalning förfaller och lägger till avgifter på grund av förseningen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807355"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 Betalningshanteringen består i att kontrollera om kunderna betalar i tid. Om kunderna har förfallna betalningar, kan du börja med att skicka kundkontoutdragsrapporten som betalningspåminnelse. Alternativt kan du skicka betalningspåminnelser.
@@ -102,7 +102,7 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 Om du skriver exempelvis **du är skyldig %9 %7 som förfaller %2.**, innehåller den resulterande betalningspåminnelsen följande text: **du är skyldig 1 200,50 som förfaller 2014-02-02**.
 
 > [!NOTE]
-> Förfallodatumet beräknas enligt den formel du anger. Mer information finns i avsnittet "Använda datumformler" i [Ange datumintervall](ui-enter-date-ranges.md).
+> Förfallodatumet beräknas enligt den formel du anger. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).
 
 När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetrans
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

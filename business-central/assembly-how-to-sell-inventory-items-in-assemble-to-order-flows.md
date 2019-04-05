@@ -1,8 +1,8 @@
 ---
-title: "Så här säljer du lagerartiklar i flöde för montering mot kundorder | Microsoft Docs"
-description: "Om artikeln är inställd för kort med montering mot kundorder förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad."
+title: Så här säljer du lagerartiklar i flöde för montering mot kundorder | Microsoft Docs
+description: Om artikeln är inställd för kort med montering mot kundorder förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807550"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sälja lagerartiklar i flöden för montering mot kundorder
 Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot kundorder** förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md). Men om en del av försäljningsorderantalet redan är tillgängligt i lagret kan du minska monteringsordersantalet genom att ändra i fältet **Antal att montera mot kundorder** på försäljningsorderraden.  
@@ -57,4 +57,3 @@ I den här proceduren ersätter du antalet för montering mot kundorder med lage
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

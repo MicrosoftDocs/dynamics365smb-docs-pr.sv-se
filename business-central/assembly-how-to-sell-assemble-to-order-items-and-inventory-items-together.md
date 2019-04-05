@@ -1,8 +1,8 @@
 ---
-title: "Sälj artiklar för montering mot kundorder och lagerartiklar ihop | Microsoft Docs"
-description: "Om en monteringsartikel är inställd på montering mot lagerförutsätter standardprocessen för försäljningsorder att artikeln redan monterats och kan plockas från lagret, om den är tillgänglig. Men om en del (eller hela) antalet inte är tillgängligt har du möjlighet att skapa en monteringsorder för återstående antal direkt."
+title: Sälj artiklar för montering mot kundorder och lagerartiklar ihop | Microsoft Docs
+description: Om en monteringsartikel är inställd på montering mot lagerförutsätter standardprocessen för försäljningsorder att artikeln redan monterats och kan plockas från lagret, om den är tillgänglig. Men om en del (eller hela) antalet inte är tillgängligt har du möjlighet att skapa en monteringsorder för återstående antal direkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807059"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Artiklar för montering mot kundorder och lagerartiklar ihop
 Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot lager** förutsätter standardprocessen för försäljningsorder att artikeln redan monterats och kan plockas från lagret, om den är tillgänglig. Därför skapas inte monteringsorder automatiskt och länkas till försäljningsorderraden. Men om en del av (eller hela) antalet inte är tillgängligt har du en möjlighet att skapa en monteringsorder för återstående antal genom att fylla i fältet **Antal att montera mot kundorder** på försäljningsorderraden. På det här viset kan du montera artikeln mot kundorder även om det har lagts upp för montering mot lager som standard.  
@@ -46,4 +46,3 @@ Liknande flexibilitet finns när du säljer artiklar för montering mot order oc
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

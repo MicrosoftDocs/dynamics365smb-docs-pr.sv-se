@@ -1,8 +1,8 @@
 ---
-title: "Översikt över bokföring av rad i redovisningsjournalen | Microsoft Docs"
-description: "Detta avsnitt introducerar ändringar i Kodmodul 12, **Gen. Jnl.-Post Line**, som utgör det huvudsakliga programobjektet för redovisningstransaktioner och är den enda plats där transaktioner för redovisning, moms samt kund- och leverantörsreskontra kan föras in."
+title: Översikt över bokföring av rad i redovisningsjournalen | Microsoft Docs
+description: Detta avsnitt introducerar ändringar i Kodmodul 12, **Gen. Jnl.-Post Line**, som utgör det huvudsakliga programobjektet för redovisningstransaktioner och är den enda plats där transaktioner för redovisning, moms samt kund- och leverantörsreskontra kan föras in.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: db90633823f12650f796735a9a83bec8edb60cb9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2667b5d6d11172736a5dd6c3f7c810d42e3f2501
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806906"
 ---
 # <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen
 Kodmodul 12, **Redovisningsjnl – bokför rad**, är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas. Den här kodmodulen används även för alla operationer av typen Verkställ, Ta bort och Återför.  
@@ -48,4 +48,3 @@ Kodmodul 12 i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller följande 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)   
 [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)
-

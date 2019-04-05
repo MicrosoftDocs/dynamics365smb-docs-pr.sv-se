@@ -1,8 +1,8 @@
 ---
 title: Planera serviceprocesser | Microsoft Docs
-description: "Innehåller information om hur du definierar regler och värden för att definiera dina servicepolicyer och -processer."
+description: Innehåller information om hur du definierar regler och värden för att definiera dina servicepolicyer och -processer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807342"
 ---
 # <a name="planning-services"></a>Planera service
 Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
@@ -41,4 +41,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställ in status för serviceorder och reparationer](service-order-repair-status.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Genomgång - Planera leveranser automatiskt | Microsoft Docs"
-description: "Begreppen \"kör planering\" eller \"kör nettobehov\" syftar på beräkningen av produktionsprogrammet och materialbehovsplan (nettobehov), baserat på faktiska behov och behovsprognoser."
+title: Genomgång - Planera leveranser automatiskt | Microsoft Docs
+description: Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av produktionsprogrammet och materialbehovsplan (nettobehov), baserat på faktiska behov och behovsprognoser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808206"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
 
@@ -269,4 +269,3 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av pr
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
  [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Översikt över uppgifter för hantering av försäljning | Microsoft Docs"
-description: "Beskriver hur du hanterar försäljningsaktiviteter."
+title: Översikt över uppgifter för hantering av försäljning | Microsoft Docs
+description: Beskriver hur du hanterar försäljningsaktiviteter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807838"
 ---
 # <a name="sales"></a>FÖRS
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
@@ -62,4 +62,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

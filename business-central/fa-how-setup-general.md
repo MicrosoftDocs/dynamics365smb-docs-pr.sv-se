@@ -1,6 +1,6 @@
 ---
-title: "Skapa redovisningen för anläggningstillgångar | Microsoft Docs"
-description: "Innan du kan använda anläggningstillgångar måste du skapa standardredovisningskonton, bokföringsmallar, allokeringsnycklar, journalmallar och batcher och klasskoder."
+title: Skapa redovisningen för anläggningstillgångar | Microsoft Docs
+description: Innan du kan använda anläggningstillgångar måste du skapa standardredovisningskonton, bokföringsmallar, allokeringsnycklar, journalmallar och batcher och klasskoder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807786"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
 Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.
@@ -123,4 +123,3 @@ Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du ö
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

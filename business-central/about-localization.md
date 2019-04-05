@@ -1,6 +1,6 @@
 ---
 title: Lokal funktionalitet i Business Central | Microsoft Docs
-description: "Lär dig mer om lokal tillgänglighet och regelefterlevnad för Dynamics 365 Business Central."
+description: Mer information om lokala tillgänglighet och efterlevnad av Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 12/06/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
-ms.contentlocale: sv-se
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808159"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 
-En lista med de marknader som för närvarande stöds finns i [Internationell tillgänglighet för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
+En lista med de marknader som för närvarande stöds finns i [International tillgänglighet för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
 
 ## <a name="local-functionality"></a>Lokal funktionalitet
 Välj lämplig länk om du vill ha information om den lokala funktionaliteten för varje land:
@@ -33,9 +33,9 @@ Välj lämplig länk om du vill ha information om den lokala funktionaliteten f�
 |        | Danmark | [Lokal funktionalitet för Danmark](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Tyskland | [Lokal funktionalitet för Tyskland](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Lokal funktionalitet för Finland](localfunctionality/finland/finland-local-functionality.md) |
-|        | Frankrike | [France Local Functionality](localfunctionality/france/france-local-functionality.md) |
+|        | Frankrike | [Lokal funktionalitet för Frankrike](localfunctionality/france/france-local-functionality.md) |
 |        | Island | [Lokal funktionalitet för Island](localfunctionality/iceland/iceland-local-functionality.md) |
-|        | Italienska | [Italy Local Functionality](localfunctionality/italy/italy-local-functionality.md) |
+|        | Italienska | [Lokal funktionalitet för Italien](localfunctionality/italy/italy-local-functionality.md) |
 |        | Nederländerna | [Lokal funktionalitet för Nederländerna](localfunctionality/netherlands/netherlands-local-functionality.md) |
 |        | Norge | [Lokal funktionalitet för Norge](localfunctionality/norway/norway-local-functionality.md) |
 |        | Spanien | [Spain Local Functionality](localfunctionality/spain/spain-local-functionality.md) |
@@ -56,6 +56,5 @@ Välj lämplig länk om du vill ha information om den lokala funktionaliteten f�
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
 [Regelefterlevnad](compliance/compliance-overview.md)  
-[Internationell tillgänglighet för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Internationella tillgängligheten för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-

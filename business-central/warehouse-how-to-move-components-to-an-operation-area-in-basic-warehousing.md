@@ -1,23 +1,23 @@
 ---
-title: "Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration | Microsoft Docs"
-description: "Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället."
+title: 'Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration | Microsoft Docs'
+description: Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807426"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer
 Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.  
@@ -44,7 +44,7 @@ En lagerarbetare kan också skapa den, genom att peka på den släppta montering
 > [!NOTE]  
 >  Om transporten är för en monteringsorder där artikeln är satt samman till en försäljningsorder, kan du ange att lagertransportdokumentet skapas automatiskt, när du skapar lagerplockningsdokument som tar den färdiga monteringsartikeln och bokför leveransen. Du anger dessa inställningar genom att välja fältet **skapa transporter automatiskt** på sidan **Monteringsinställningar**  
 >   
->  Mer information om monteringsorder och grundläggande konfigurationer för distributionslager finns i avsnittet ”Hantera artiklar för montering mot kundorderartiklar med lagerplockning” i [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).  
+>  Mer information om monteringsorder och grundläggande konfiguration av lagerstyrning finns [Hantering av artikel för montering mot kundorder i lagerplockningar](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lagertransport** genom att referera en släppt monteringsorder som ett källdokument. Proceduren är samma när du vill flytta komponenter för produktionsorder och serviceordern.  
 
@@ -79,4 +79,3 @@ Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lag
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här omstrukturerar du distributionslager | Microsoft Docs"
+title: Så här omstrukturerar du distributionslager | Microsoft Docs
 description: Du kanske vill omstrukturera distributionslagret med nya lagerplatskoder och nya lagerplatsegenskaper.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806872"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturera lager
 Du kanske vill omstrukturera distributionslagret med nya lagerplatskoder och nya lagerplatsegenskaper. Den typen av aktivitet utförs inte särskilt ofta, men det kan uppstå situationer när en omgruppering är nödvändig för att åstadkomma en effektivare drift. Som exempel:  
@@ -90,4 +90,3 @@ Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerpla
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

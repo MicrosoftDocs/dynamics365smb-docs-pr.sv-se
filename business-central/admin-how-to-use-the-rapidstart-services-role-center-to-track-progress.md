@@ -1,26 +1,26 @@
 ---
-title: "Så här använder du implementeringscentret för RapidStart Services-roller | Microsoft Docs"
-description: "När du använder RapidStart Services rekommenderar vi att du spårar ditt arbete och använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete."
+title: Så här använder du implementeringscentret för RapidStart Services-roller | Microsoft Docs
+description: När du använder RapidStart Services rekommenderar vi att du spårar ditt arbete och använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806935"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Använd implementerings-rollcentret för RapidStart Services.
-När du använder RapidStart Services rekommenderar vi att du spårar ditt arbete och använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i avsnittet ”Så här ändrar du rollcentret” i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
+När du använder RapidStart Services rekommenderar vi att du spårar ditt arbete och använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Att ändra rollcenter](ui-change-basic-settings.md#to-change-role-center).
 
 När du fortsätter med ditt arbete kan du tilldela varje tabell den status som anger under processen. [!INCLUDE[d365fin](includes/d365fin_md.md)] håller sedan reda på tabellstatusen i avsnittet **Aktiviteter** för rollcentret.  
 
@@ -46,4 +46,3 @@ I avsnittet **Konfigurationsområdet** visas slutförandestatistik för de områ
 ## <a name="see-also"></a>Se även  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

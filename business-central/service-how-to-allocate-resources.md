@@ -1,23 +1,22 @@
 ---
-title: "Så här fördelar du resurser | Microsoft Docs"
-description: "Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet."
+title: Så här fördelar du resurser | Microsoft Docs
+description: Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807008"
 ---
-
 # <a name="allocate-resources"></a>Så här tilldelar du resurser
 Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att tilldela rätt personer till rätt uppgifter. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
 
@@ -144,4 +143,3 @@ Du kan avbryta resursfördelningar för serviceuppgifter utan att omfördela upp
 ## <a name="see-also"></a>Se även
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)  
-

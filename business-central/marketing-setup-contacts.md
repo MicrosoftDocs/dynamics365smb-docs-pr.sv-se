@@ -1,117 +1,84 @@
 ---
-title: "Ställ in Information för kontakter | Microsoft Docs"
-description: "Beskriver uppgifterna om du vill ange information och koder, till exempel om befintliga branschgrupper och affärsrelationer, innan du skapar kontakter."
+title: Ställ in Information för kontakter | Microsoft Docs
+description: Beskriver uppgifterna om du vill ange information och koder, till exempel om befintliga branschgrupper och affärsrelationer, innan du skapar kontakter.
 services: project-madeira
-documentationcenter: 
-author: jswymer
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
-ms.author: jswymer
+ms.date: 02/26/2019
+ms.author: sgroespe
+ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1f186a1eb1386d1f54b27a7ee9a9b3445c19e469
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807143"
 ---
 # <a name="setting-up-contacts"></a>Ställa in kontakter
-När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontaktens företag tillhör och vilken affärsrelation du har med kontakten.
+När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
 
-Innan du skapar kontakter och registrerar uppgifter om affärsrelationerna, måste du skapa olika koder som du använder för att tilldela informationen till kontaktföretagen och -personerna. Du kan skapa koder för utskicksgrupper, branschgrupper, affärsrelationer, webbadresser, befattningsnivåer och arbetsansvar.
+Innan du skapar kontakter och registrerar uppgifter om affärsrelationerna, måste du skapa olika koder som du använder för att tilldela informationen till kontaktföretagen och -personerna. Du kan skapa koder för utskicksgrupper, branschgrupper, affärsrelationer, webbadresser, befattningsnivåer och arbetsansvar. Du kan skapa dessa genom att välja åtgärden **nytt** när du söker i listor från kontaktkortet.  
 
 Om du ställer in den här information kan du skapa kontakterna på ett mer organiserat sätt och att söka efter kontakterna utifrån en viss grupp blir mer effektivt. Varje grupp på företaget kan hitta den här informationen och därför blir kommunikationen med kontakterna mer framgångsrik.
 
-I samband med att du konfigurerar dina kontakter måste du ställa in de affärsrelationer du har med kontakterna, t.ex. presumtiv kund, bank, konsult eller tjänstleverantör. Mer information finns i [ställa in affärsrelationer på kontaktföretag](marketing-business-relations.md).
-
-## <a name="setting-up-industry-groups-for-contact-companies"></a>Ställa in Branschgrupper för kontaktföretag
+## <a name="to-assign-industry-groups-to-a-contact"></a> Så här tilldelar du industrigrupper till en kontakt
 Branschgrupper används för att visa vilken bransch kontakterna tillhör, exempelvis detaljhandel eller bilBransch.
 
-Att använda Branschgrupper på kontakter är en två-stegsprocess. Först definierar du Branschgruppkoden. Du måste bara utföra den här steget en gång för varje Branschgrupp. När du har en Branschgrupp kan du börja koppla koden till kontaktföretag.
+> [!NOTE]
+> Detta är endast tillåtet för kontakter av typen **företag**.
 
-> [!NOTE]  
->   Om du tänker synkronisera kontakterna med leverantörer, kunder eller bankkonton i andra delar av programmet vill du kanske skapa en affärsrelation för dem.
-
-### <a name="to-define-an-industry-group-code"></a>Definiera en Branschgruppskod
 Koden för branschgruppen definierar typen eller kategorin för den gruppen, till exempel ANNONS för annonsering eller PRESS för TV och radio. Du kan ha flera branschgruppkoder. För att definiera branschgrupperna använder du sidan **branschgrupper**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Branschgrupper** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
-
-### <a name="AssignIndustryGroupContact"></a> Så här tilldelar du industrigrupper till en kontakt
-Du kan inte tilldela branschgrupper till en kontaktperson, endast företag.
-
-1. Öppna kontakten .
+1. Öppna relevant kontaktkort.
 2. Välj åtgärden **företag** och sedan **branschgrupper**. Sidan **Kontakt branschgrupper** öppnas.
 3. I fältet **branschgruppkod**, markera den branschgrupp du vill tilldela.
 
 Upprepa stegen för varje branschgrupp du vill skapa. Branschgrupper kan också tilldelas i Kontaktlista på samma sätt.
 
-Antalet branschgrupper som du har tilldelat kontakter anges automatiskt i fältet **Antal branschgrupper** på avsnittet **Segmentering** på **Kontakt**-sidan.
+Antalet branschgrupper som du har tilldelat kontakter anges automatiskt i fältet **Antal branschgrupper** på avsnittet **Segmentering** på **Kontaktkort**-sidan.
 
 När du har tilldelat kontakterna branschgrupper kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
-## <a name="setting-up-mailing-groups-for-contacts"></a>Ställa in utskicksgrupper för kontakter
+## <a name="to-assign-mailing-groups-to-a-contact"></a> Så här tilldelar du utskicksgrupp till en kontakt
 Utskicksgrupper används för att definiera kontaktgrupper som du vill ge samma information. Du kan till exempel skapa en utskicksgrupp med de kontakter du vill skicka flyttkort till eller en annan grupp för att skicka julklappar.
 
-Att använda utskicksgrupper på kontakter är en två-stegsprocess. Först definierar du utskicksgruppkoden. Du måste bara utföra den här steget en gång för varje utskicksgrupp. När du har en utskicksgrupp kan du börja koppla koden till kontaktföretag.
-
-### <a name="to-define-mailing-group-codes"></a>Definiera utskicksgruppkoder
 Utskicksgruppkoden definierar typen eller kategorin för den gruppen, till exempel FLYTTA för kontorsflyttning eller GÅVA för julklappar. Du kan ha flera branschgruppkoder. För att definiera branschgrupperna använder du sidan **Utskicksgrupper**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Utskicksgrupper** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
-
-### <a name="AssignMailGroupContact"></a> Så här tilldelar du utskicksgrupp till en kontakt
-1. Öppna kontakten .
+1. Öppna relevant kontaktkort.
 2. Välj åtgärden **Utskicksgrupper**. Sidan **Kontakt Utskicksgrupper** öppnas.
 3. I fältet **Utskicksgruppskod**, markera den utskicksgrupp du vill tilldela.
 
 Upprepa stegen för varje utskicksgrupp du vill tilldela. Utskicksgrupper kan också tilldelas i Kontaktlista på samma sätt.
 
-Antalet utskicksgrupper som du har tilldelat kontakter anges automatiskt i fältet **Antal utskicksgrupper** på avsnittet **Segmentering** på **Kontakt**-sidan.
+Antalet utskicksgrupper som du har tilldelat kontakter anges automatiskt i fältet **Antal utskicksgrupper** på avsnittet **Segmentering** på **Kontaktkort**-sidan.
 
 När du har tilldelat kontakterna utskicksgrupp kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
-## <a name="setting-up-alternate-addresses-for-contacts"></a>Ställa in alternativa adresser för en kontakt
-Du kan tilldela kontakterna alternativa adresser som är aktuella ibland för e-post och meddelanden, till exempel deras sommarbostäder. Du kan tilldela varje alternativ adress ett eller flera datumintervall som du har angett för kontakterna för att visa när adresserna gäller.
+## <a name="to-define-a-contacts-alternate-address"></a>Så här definierar du en kontakts alternativa adress
+Du kan tilldela en alternativ adress där din kontakt ibland får post och information, till exempel deras sommarbostäder. Du kan tilldela varje alternativ adress ett eller flera datumintervall som du har angett för kontakterna för att visa när adresserna gäller.
 
-### <a name="to-assign-an-alternate-address"></a>Så här tilldelar du alternativa adresser
-1. Öppna kontakten .
-2. Välj åtgärden **Alternativ adress** och välj sedan **Kort**. Sidan **Kontakt alt. adress lista** öppnas.
-3. Ange en ny alternativ adress och fyll i fälten på sidan för **kontaktens adresskort för alternativ adress**.
+1. Öppna relevant kontaktkort.
+2. Välj åtgärden **Alternativ adress** och välj sedan åtgärden **Kort**.
+
+    Om du vill ange att den alternativa adressen gäller under en viss tidsperiod, kan du välja åtgärden **datumintervall** i stället.
+3. På sidan **Kontakt alt. adress lista** anger du en alternativ adress och fyll i fälten på sidan **kontaktens alternativa adress**.
 
 Upprepa stegen för varje alternativ adress du vill tilldela. För varje alternativ adress kan du ange ett eller flera datumintervall.
 
-Alternativa adresser kan också tilldelas från sidan Kontaktlista på samma sätt.
-
-### <a name="to-assign-an-alternate-address-date-range"></a>Så här tilldelar du datumintervall för alternativa adresser
-1. Öppna kontakten .
-2. Välj åtgärden **Alternativ adress** och välj sedan **Datumintervall**. Sidan **Kontakt alt. adr. datuminterv.** öppnas.
-3. Välj åtgärden **Ny**.
-4. I fältet **Kontakt alt. adresskod**, välj en alternativ adress för den här kontakten och fyll sedan i fälten **startdatum** och **slutdatum**.
-
-Upprepa stegen för varje datumintervall du vill tilldela.
-
-## <a name="setting-up-job-responsibilities-for-contact-persons"></a>Ställa in arbetsansvar för kontaktpersonerna.
+## <a name="to-assign-job-responsibilities-to-a-contact"></a>Så här tilldelar du kontakter arbetsansvar
 Du kan lägga till information om arbetsansvar för kontaktpersoner för att ange vad kontaktpersonen ansvarar för i företaget, till exempel IT, ledning eller produktion. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
 
-Att använda arbetsansvar på kontakter är en två-stegsprocess. Först definierar du arbetsansvarkoden. Du måste bara utföra den här steget en gång för varje arbetsansvar. När du har en arbetsansvarkod kan du börja koppla koden till kontaktpersoner.
+> [!NOTE]
+> Detta är endast tillåtet för kontakter av typen **Person**.
 
-### <a name="to-define-a-job-responsibility-code"></a>Så här definierar du en arbetsansvarskod
 Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsansvar** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
-
-### <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Så här tilldelar du arbetsansvar till en kontaktperson
-Du kan inte tilldela arbetsansvar till kontaktföretag.
-
-1. Öppna kontaktperson.
+1. Öppna relevant kontaktkort.
 2. Välj åtgärden **Person** och sedan **Arbetsansvar**. Sidan **Kontakt arbetsansvar** öppnas.
 3. I fältet **Arbetsansvarskod**, markera det arbetsansvar du vill tilldela.
 
@@ -121,55 +88,76 @@ Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet 
 
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
-## <a name="setting-up-organizational-levels-for-contact-persons"></a>Skapa befattningsnivåer för kontaktpersoner
+## <a name="to-assign-organizational-levels-to-a-contact"></a>För att tilldela befattningsnivåer till en kontakt
 Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t.ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
 
-Att använda befattningsnivåer på kontakter är en två-stegsprocess. Först definierar du befattningsnivåkoden. Du måste bara utföra den här steget en gång för varje befattningsnivå. När du har en befattningsnivåkod kan du börja koppla koden till kontaktpersoner.
+> [!NOTE]
+> Detta är endast tillåtet för kontakter av typen **Person**.
 
-### <a name="to-define-an-organizational-level-code"></a>För att definiera en befattningsnivåkod
 Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t.ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Befattningsnivåer** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny** och fyll i en kod och en beskrivning. Koden kan bestå av högst 11 tecken, både siffror och bokstäver.
-
-### <a name="to-assign-organizational-levels-to-a-contact-person"></a>För att tilldela befattningsnivåer till en kontaktperson
-Du kan endast tilldela befattningsnivåer till kontaktpersoner, inte kontaktföretag. Du kan endast tilldela en befattningsnivå per kontakt.
-
-1. Öppna kontakten .
+1. Öppna relevant kontaktkort.
 2. I fältet **Befattningsnivåer** väljer du den kod som du vill tilldela.
 
 När du har fördelat befattningsnivåer till kontakterna kan du använda informationen för att skapa segment.
 
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
-## <a name="setting-up-web-sources-for-contact-companies"></a>Ställa in Webbadresser för kontaktföretag
+## <a name="to-assign-web-sources-to-a-contact"></a>För att tilldela webbadresser till en kontakt
 Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
-Att använda webbadresser på kontakter är en två-stegsprocess. Först definierar du webbadresskoden. Du måste bara utföra den här steget en gång för varje webbadress. När du har en webbadresskod kan du börja koppla koden till kontaktpersoner.
+> [!NOTE]
+> Detta är endast tillåtet för kontakter av typen **företag**.
 
-### <a name="to-define-a-web-source-code"></a>För att definiera en webbadresskod
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Webbadresser** och välj sedan relaterad länk.
-2. Välj åtgärden **Ny**.
-3. Fyll i fälten **Kod**, **Beskrivning** och **URL**.
-
-    Skriv %1 i fältet **URL** för att infoga en platshållare för ett sökord i URL:en. När du startar webbadress från en kontakt ersätts %1 med sökordet (till exempel namnet på företaget) som du har angett på sidan **Kontakt webbadresser**.
-
-Upprepa stegen för varje webbkälla du vill skapa.
-
-### <a name="to-assign-web-sources-to-a-contact-company"></a>För att tilldela webbadresser till ett kontaktföretag
 När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
-1. Öppna kontakten .
+1. Öppna relevant kontaktkort.
 2. Välj åtgärden **företag** och sedan **webbadresser**. Sidan **Kontakt webbadresser** öppnas.
 3. I fältet **webbadresskod**, välj webbadressen som du vill tilldela.
 4. Skriv i fältet **Sökord** det sökord som ska användas för att hitta informationen.
 
 Upprepa stegen för varje webbkälla du vill skapa.
 
-Webbadresser kan också tilldelas på sidan **Kontaktlista** på samma sätt.
+## <a name="to-assign-business-relations-to-a-contact"></a> Så här tilldelar du affärsrelationer till kontakter
+Affärsrelationer används för att visa vilket affärsförhållande du har till kontakterna, till exempel spekulant, bank, konsult eller serviceleverantör.
+
+> [!NOTE]
+> Detta är endast tillåtet för kontakter av typen **företag**.
+
+1. Öppna relevant kontaktkort.
+2. Välj åtgärden **företag** och sedan **affärsrelationer**.
+3. På sidan **Kontaktens affärsrelationer** i fältet **affärsrelationskod**, markerar du den affärsrelation du vill tilldela.
+
+Upprepa stegen för varje affärsrelation du vill tilldela.
+
+Antalet affärsrelationer som du har tilldelat kontakter anges automatiskt i fältet **Antal affärsrelationer** på avsnittet **Segmentering** på **Kontakt**-sidan.
+
+När du har tilldelat kontakterna affärsrelationer kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
+
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisk kopiering av särskild information från kontaktföretag till kontaktpersoner
+Vissa uppgifter om kontaktföretag är helt identiska med uppgifter om kontaktpersoner som arbetar i dessa företag, till exempel adresser. På snabbfliken **Arv** i fönstret **Marknadsföringsinställningar** kan du ange vilka fält på kontaktkortet för ett företag som kopieras till kontaktkortet för en person varje gång du skapar en kontaktperson för ett kontaktföretag.
+
+När du ändrar i något av dessa fält på kontaktföretagskortet ändras motsvarande fält på kontaktpersonskortet (om du inte har ändrat fälten på detta manuellt).
+
+Mer information finns i [Skapa kontakter](marketing-create-contact-companies.md).
+
+## <a name="using-predefined-defaults-on-new-contacts"></a>Använd fördefinierade standardinställningar på nya kontakter
+Du kan ange att särskild språkkod, distriktskod, säljarkod och lands-/regionkod automatiskt ska tilldelas av programmet som standard på varje ny kontakt som du skapar. Du kan också ange standardförsäljningscykelkod som automatiskt ska tilldelas varje ny affärsmöjlighet som du skapar. Du ställer in detta på snabbfliken **Standard** på sidan **Marknadsföringsinställning**
+
+Värden i övertagna fält ersätter de standardvärden som du har angett. Om du exempelvis har angett engelska som standardspråk men företagets språk är tyska, tilldelas tyska automatiskt som språkkod för de kontaktpersoner som är registrerade på det företaget.
+
+## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisera kontakter med kunder, leverantörer och bankkonton
+För att synkronisera kontaktkort med länkade kund-, leverantörs- eller bankkontokort måste du fylla i motsvarande fält i avsnittet **Affärsrelationskod för** på snabbfliken **interaktioner** på sidan **Marknadsföringsinställning**.  
+
+Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+
+## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Söka efter dubbelkontakter, när kontakter skapas
+Du kan välja automatisk sökning efter kopior varje gång du skapar kontaktföretag eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior.
+
+Du ställer in detta på snabbfliken **Dubbletter** på sidan **Marknadsföringsinställning**
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  
+[Skapa kontakter](marketing-create-contact-companies.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

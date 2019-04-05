@@ -1,23 +1,23 @@
 ---
-title: "Så här kan du planera projektorder | Microsoft Docs"
-description: "Den här planeringsåtgärden påbörjas från en försäljningsorder, och inställningarna på sidan **Förs.orderplanering** används. När du har skapat en projektproduktionsorder kan du planera den ytterligare med hjälp av sidan **Orderplanering**."
+title: Så här kan du planera projektorder | Microsoft Docs
+description: Den här planeringsåtgärden påbörjas från en försäljningsorder, och inställningarna på sidan **Förs.orderplanering** används. När du har skapat en projektproduktionsorder kan du planera den ytterligare med hjälp av sidan **Orderplanering**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4cb63a7dc26e13c7947ba2ae071c3dff87c53e9d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808144"
 ---
 # <a name="plan-project-orders"></a>Planera projektorder
 Den här planeringsåtgärden påbörjas från en försäljningsorder, och inställningarna på sidan **Förs.orderplanering** används. När du har skapat en projektproduktionsorder kan du planera den ytterligare med hjälp av sidan **Orderplanering**.  
@@ -50,4 +50,3 @@ Orderhuvudraden för projektordern visas, och alla rader med ouppfyllda behov ex
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

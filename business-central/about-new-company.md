@@ -1,6 +1,6 @@
 ---
-title: "Skapa nya företag med en assisterad konfiguration | Microsoft Docs"
-description: "Det är enkelt att skapa ett nytt, tomt företag i Business Central. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina befintliga affärsdata."
+title: Skapa nya företag med en assisterad konfiguration | Microsoft Docs
+description: Det är enkelt att skapa ett nytt, tomt företag i Business Central. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina befintliga affärsdata.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808011"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt - gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)], beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -53,4 +53,3 @@ När du har grundläggande inställningar på plats kan du ställa in återståe
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Komma igång](product-get-started.md)  
-

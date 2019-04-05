@@ -1,6 +1,6 @@
 ---
 title: Fakturera din bokningar i Business Central | Microsoft Docs
-description: "Lär dig hur du bulkfakturerar från Microsoft Bookings i Business Central."
+description: Lär dig hur du bulkfakturerar från Microsoft Bookings i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 01/07/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808024"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Bulkfakturering för Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 Om företaget använder appen Bookings i Office 365  kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
 
 ## <a name="connect-to-bookings"></a>Anslut till Bookings
@@ -43,4 +43,3 @@ Stöd för faktureringsmöten från Bookings är enklare än det fullständiga a
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Ställa in tjänstehantering | Microsoft Docs"
-description: "Översikt över aktiviteter om du vill ställa in tjänstehantering som passar hur ditt företag hanterar tjänster."
+title: Ställa in tjänstehantering | Microsoft Docs
+description: Översikt över aktiviteter om du vill ställa in tjänstehantering som passar hur ditt företag hanterar tjänster.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807193"
 ---
-
 # <a name="setting-up-service-management"></a>Ställa in tjänstehantering
 Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)], finns det saker som du kan ställa in. T.ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
 
@@ -47,4 +46,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Servicehantering](service-service.md)  
 [Komma igång](product-get-started.md)  
-

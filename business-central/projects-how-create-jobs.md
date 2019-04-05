@@ -1,8 +1,8 @@
 ---
-title: "Skapa ett projektkort för ett projekt och ange aktiviteter | Microsoft Docs"
-description: "För ett nytt projekt kan du skapa ett projektkort med projektaktiviteterna och planeringsrader för att hantera hur och budgetar."
+title: Skapa ett projektkort för ett projekt och ange aktiviteter | Microsoft Docs
+description: För ett nytt projekt kan du skapa ett projektkort med projektaktiviteterna och planeringsrader för att hantera hur och budgetar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807330"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
@@ -76,4 +76,3 @@ En projektplaneringsrad kan ha en av följande typer.
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

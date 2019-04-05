@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer - Planeringsparametrar | Microsoft Docs
-description: "I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Business Central."
+description: I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807611"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -44,7 +44,7 @@ Fältet **Tidsenhet** används i partiformningsmetoder (**Fast orderkvantitet** 
 
 Standardsäkerhetsledtiden på sidan **Produktionsinställning** ska anges till minst en dag. Förfallodatumet för efterfrågan kanske är känd, men inte den förfallotiden. Planeringen schemalägger bakåt för att uppfylla bruttobehov och om ingen säkerhetsledtid definieras kan varorna anlända för sent för att uppfylla efterfrågan.  
 
-Ytterligare tre periodfält för beställningscykel **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**, har också betydelse för att definiera när du ska beställa om. Mer information finns i avsnittet "Optimera när och hur mycket som ska beställas".  
+Ytterligare tre periodfält för beställningscykel **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**, har också betydelse för att definiera när du ska beställa om. Mer information finns i [Optimera när och hur mycket som ska beställas](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Definiera hur mycket som ska beställas  
 Om planeringssystemet identifierar behovet att beställa om används den angivna partiformningsmetoden för att bestämma när och hur mycket som ska beställas.  
@@ -57,7 +57,7 @@ Oberoende av partiformningsmetoden följer planeringssystemet vanligtvis den hä
 4. Om det finns mer bruttobehov som förfaller före slutdatumet för det framåtplanerade orderkalkylarket, och det här behovet gör att det aktuella beräknade planerade tillgängliga lagret hamnar lägre än säkerhetslagret, ökas partistorleken för att fylla upp underskottet. Leveransorderkalkylarket schemaläggs sedan bakåt från förfallodatumet för den icke-härledda efterfrågan som skulle ha överskridit säkerhetslagret.  
 5. Om fältet **Tidsenhet** inte är ifyllt kommer bara bruttoefterfrågan på samma förfallodatum att läggas till.  
 
-     Ytterligare periodfält för beställningscykel spellar också en roll när man definierar hur mycket som ska beställa om: **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**. Mer information finns i avsnittet "Optimera när och hur mycket som ska beställas".  
+     Ytterligare periodfält för beställningscykel spellar också en roll när man definierar hur mycket som ska beställa om: **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**. Mer information finns i [Optimera när och hur mycket som ska beställas](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Partiformningsmetoder  
 Följande partiformningsmetoder påverkar den kvantitet som ska beställas.  
@@ -118,4 +118,3 @@ Om alternativet **Tillverka-mot-Order** används kommer planeringssystemet att a
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)
-

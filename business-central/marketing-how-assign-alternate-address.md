@@ -1,8 +1,8 @@
 ---
 title: Tilldela en annan kontaktadress | Microsoft Docs
-description: "Beskriver hur du tilldelar en alternativ adress för kontakter eller potentiella kunder, där de ibland skickas information."
+description: Beskriver hur du tilldelar en alternativ adress för kontakter eller potentiella kunder, där de ibland skickas information.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807128"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Ange alternativa adresser för en kontakt
 Du kan tilldela kontakterna alternativa adresser som är aktuella ibland för e-post och meddelanden, till exempel deras sommarbostäder. Du kan tilldela varje alternativ adress ett eller flera datumintervall som du har angett för kontakterna för att visa när adresserna gäller.
@@ -43,4 +43,3 @@ Upprepa stegen för varje datumintervall du vill tilldela.
 ## <a name="see-also"></a>Se även
 [Skapa kontaktföretag](marketing-create-contact-companies.md)  
 [Arbeta med Business Central](ui-work-product.md)
-

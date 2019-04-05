@@ -1,23 +1,23 @@
 ---
-title: "Planera med och utan lagerställen | Microsoft Docs"
-description: "Det är viktigt att förstå att planera med eller utan lagerställekoder på behovsrader."
+title: Planera med och utan lagerställen | Microsoft Docs
+description: Det är viktigt att förstå att planera med eller utan lagerställekoder på behovsrader.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 211f990e21c8c0a5c6d1705de5345be20adae4d7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a2043b50e9f398839034c87e8f0fb42f68d8c036
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806984"
 ---
 # <a name="planning-with-or-without-locations"></a>Planera med och utan lagerställen.
 Vid planering med eller utan lagerställekod på behovsrader, fungerar planeringssystemet på ett okomplicerat sätt när:  
@@ -146,4 +146,3 @@ Om du ofta planerar för behov vid lagerställen rekommenderas det starkt att du
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

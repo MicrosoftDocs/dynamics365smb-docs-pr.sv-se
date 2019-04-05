@@ -1,23 +1,23 @@
 ---
 title: Skapa metodtips - partiformningsmetoder | Microsoft Docs
-description: "Partiformningsmetod-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar."
+description: Partiformningsmetod-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
 ms.openlocfilehash: cc333a1a17173abeff36ba556f2ff0d235af225f
-ms.contentlocale: sv-se
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807880"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
 **Partiformningsmetod**-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.  
@@ -52,4 +52,3 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
  [Designdetaljer: Maximalt antal](design-details-maximum-qty.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

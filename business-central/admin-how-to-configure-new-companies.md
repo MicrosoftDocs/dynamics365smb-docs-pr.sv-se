@@ -1,23 +1,23 @@
 ---
-title: "Så här konfigurerar du nya företag | Microsoft Docs"
-description: "Du kan konfigurera och anpassa ett nytt företag som du har skapat. Om du vill finjustera implementeringen fortsätter du i tre faser för att slutföra konfigurationen."
+title: Så här konfigurerar du nya företag | Microsoft Docs
+description: Du kan konfigurera och anpassa ett nytt företag som du har skapat. Om du vill finjustera implementeringen fortsätter du i tre faser för att slutföra konfigurationen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808304"
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
 Om du vill konfigurera ett nytt företag i din lösningsimplementering följer du vanligtvis tre faser. I den första fasen importerar du ett konfigurationspaket som är en .rapidstart-fil med konfigurationsinformation. I den andra fasen ändrar du konfigurationsinformationen och tillämpar den sedan i det nya företaget. I slutfasen granskar du och rättar eventuella fel.  
@@ -71,10 +71,9 @@ Det finns vissa typer av fel som kan uppstå när du kopplar data till en databa
     > [!NOTE]  
     >  Om du importerar samma paket igen kan du skriva över alla dataändringar som du redan har skapat. Därför kanske du vill lägga till nya tabeller i ett nytt paket och importera det i stället.  
 
-7. Koppla datan till databasen enligt beskrivningen i avsnittet "Att ändra och koppla paketdata".
+7. Koppla data till databasen enligt beskrivningen i avsnittet [Att ändra och koppla paketdata](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Se även  
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Visa anpassade Power BI-rapporter | Microsoft Docs
-description: "Du kan använda Power BI-rapporter för att få ytterligare information om data i listor."
+description: Du kan använda Power BI-rapporter för att få ytterligare information om data i listor.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: sv-se
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807248"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visa listdata i Power BI-rapporter i Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
 
 > [!NOTE]  
->   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).  
+>   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom kan du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatauppsättning
-När du skapar rapporten i Power BI Desktop, anger du dattakällan eller webbtjänsten som innehåller de data som är relaterade till listan som du vill associera med rapporten. Om du vill skapa en rapport för försäljningslistan ser du till att datauppsättningen innehåller information om försäljning.  
+När du skapar rapporten i Power BI Desktop, anger du datakällan eller webbtjänsten som innehåller de data som är relaterade till listan som du vill associera med rapporten. Om du vill skapa en rapport för försäljningslistan ser du till att datauppsättningen innehåller information om försäljning.  
 
 För att filtrera data i rapporter baserat på den post som valts från listsidan, måste primärnyckeln användas som ett rapportfilter. Primärnycklar måste ingå i datauppsättningen för rapporterna du ska filtrera. Oftast är primärnyckeln för en lista **nr.** .  
 
@@ -44,7 +44,7 @@ Storleken på rapporten måste anges till 325 x 310 pixlar. Detta är nödvändi
 
 Du kan ändra bredd och höjd på rapporten genom att välja **anpassaval** i fältet **typ**.
 
-På samma sätt, om du vill att bakgrunden för rapporten ska blandas med bakgrundsfärgen för Power BI faktaboxkontroll definierar du en anpassad rapportbakgrundsfärgen i *E5E5E5*. Detta är valfritt.  
+På samma sätt, om du vill att bakgrunden för rapporten ska blandas med bakgrundsfärgen för Power BI BI faktaboxkontroll definierar du en anpassad rapportbakgrundsfärgen i *E5E5E5.* Detta är valfritt.  
 
 ## <a name="reports-with-multiple-pages"></a>Rapporter med flera sidor
 Du kan skapa en rapport med flera sidor med Power BI. Bilder som du vill ska visas i [!INCLUDE[d365fin](includes/d365fin_md.md)]-listsidor måste finnas på den första sidan i rapporten i Power BI.  
@@ -59,7 +59,7 @@ När du sparar din rapport är det en bra metod att namnet på rapporten innehå
 Detta är inte ett krav. Det gör däremot valet av rapporter snabbare. Vi skickar in ett filter som baseras på sidans namn för att begränsa de rapporter som visas när rapportsidan öppnas från en listsida.  Du kan ta bort filtret om du vill ha en lista över rapporter som är tillgängliga för dig i Power BI.  
 
 ## <a name="troubleshooting"></a>Felsökning
-Det här avsnittet beskriver en lösning för de vanligaste problemen som kan uppstå när du skapar BI Power-rapporten.  
+Det här avsnittet beskriver en lösning för de vanligaste problemen som kan uppstå när du skapar Power BI-rapporten.  
 
 **Användaren ser inte en rapport på sidan Välj rapport som de vill markera** Om du inte kan välja en rapport, är en möjlig lösning att kontrollera namnet på rapporten så att den innehåller namnet på listsidan. Du kan också ta bort filtret om du vill ha en fullständig lista över Power BI-rapporter som är tillgängliga.  
 
@@ -72,8 +72,7 @@ Det här avsnittet beskriver en lösning för de vanligaste problemen som kan up
 Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten och uppdatera sedan listsidan.  
 
 ## <a name="see-also"></a>Se även
-[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Komma igång](product-get-started.md)    
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Ekonomi](finance.md)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Koppla betalningar till obetalda försäljningsdokument | Microsoft Docs"
-description: "Du tillämpar belopp betalda av kunder till relaterade försäljningsdokument och bokför betalningen för att uppdatera kund, redovisning och banktransaktioner."
+title: Koppla betalningar till obetalda försäljningsdokument | Microsoft Docs
+description: Du tillämpar belopp betalda av kunder till relaterade försäljningsdokument och bokför betalningen för att uppdatera kund, redovisning och banktransaktioner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807194"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument
 När kunderna har gjort betalningar till ditt elektroniska bankkonto, måste du koppla varje betalt belopp till det relaterade försäljningsdokumentet och sedan bokföra betalningen för att uppdatera kund-, redovisnings- och banktransaktioner. Beroende på ditt företagsbehov kan du få betalt och registrera den betalningen på olika sätt: manuellt, automatiskt eller via betalningstjänster.  
 
 > [!NOTE]  
@@ -54,7 +54,7 @@ Den angivna betalningsinformationen bokförs för de dokument som representeras 
 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
-## <a name="to-reconcile-lump-payments"></a>Stämma av betalning av klumpsumma
+## <a name="to-reconcile-lump-sum-payments"></a>Stämma av betalning av klumpsumma
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsregistreringar** och välj sedan relaterad länk.
 2. Markera kryssrutan **Utförd betalning** på raderna som representerar bokförda dokument för samma kund som en klumpbetalning har gjorts för.  
 
@@ -69,15 +69,15 @@ Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkont
 4. Ange belopp på flera rader som summerar klumpbetalningsbeloppet i fältet **Inlevererat belopp**.  
 
     > [!TIP]  
-    >   Försök att bokföra så många fullständiga betalningar som möjligt med klumpsumman. Ange belopp som är samma som beloppet i fältet **Återstående belopp** på så många rader som möjligt.  
+    > Försök att bokföra så många fullständiga betalningar som möjligt med klumpsumman. Ange belopp som är samma som beloppet i fältet **Återstående belopp** på så många rader som möjligt.  
 5. Upprepa steg 2–4 för andra rader som representerar bokförda dokument för samma kund som en klumpbetalning har gjorts för.  
 6. Välj åtgärden **Bokför som en betalning av klumpsumma**. Den angivna betalningsinformationen bokförs för de dokument som representeras av rader där kryssrutan **Utförd betalning** är markerad.  
 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
-Om en betalning i banken inte representeras av raden på sidan **Betalningsregistrering** kan det bero på att det relaterade dokumentet inte har bokförts. I så fall kan du använda en sökfunktion för att snabbt hitta dokument och bokföra det för att behandla betalningen. Mer information finns i avsnittet ”Att söka efter ett visst försäljningsdokument som inte har fakturerats helt”.  
+Om en betalning i banken inte representeras av raden på sidan **Betalningsregistrering** kan det bero på att det relaterade dokumentet inte har bokförts. I så fall kan du använda en sökfunktion för att snabbt hitta dokument och bokföra det för att behandla betalningen. Mer information finns i avsnittet [Att söka efter ett visst försäljningsdokument som inte har fakturerats helt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från sidan **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts. Mer information finns i avsnittet "Så här registrerar eller bokför du en betalning utan ett relaterat dokument".  
+Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du öppna en förifylld redovisningsjournalsrad från sidan **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har fastställts. Mer information finns i [Så här registrerar eller bokför du en betalning utan ett relaterat dokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Så här behandlar du betalningar med rabatter manuellt
 Om du har kommit överens om en kassarabatt med kunden, kan betalningsbeloppen bli lägre än fakturabeloppen, om betalning sker före det överenskomna kassarabattsdatumet.  
@@ -187,4 +187,3 @@ Om du lämnar journalraden obokförd, adderas det till värdet i fältet **Ej bo
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

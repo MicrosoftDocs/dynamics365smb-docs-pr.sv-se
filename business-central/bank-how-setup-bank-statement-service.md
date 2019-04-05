@@ -1,8 +1,8 @@
 ---
-title: "Ställa in Yodlee Bank Feeds | Microsoft Docs"
-description: "Du kan konvertera betalningsinformation till vilket dataformat som som krävs av din bank och aktivera exporten eller importen av Bankfilerna."
+title: Ställa in Yodlee Bank Feeds | Microsoft Docs
+description: Du kan konvertera betalningsinformation till vilket dataformat som som krävs av din bank och aktivera exporten eller importen av Bankfilerna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808221"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurera bankfeedtjänsten Envestnet Yodlee
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fyll
 Tjänsten Envestnet Yodlee bankfeeder har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] och är klar att aktiveras. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
 
 > [!NOTE]
-> Tjänsten Envestnet Yodlee bankfeeder stöds bara i USA, Kanada och Storbritannien.
+> Tjänsten Envestnet Yodlee bankfeeder stöds bara i USA, Kanada och Storbritannien.<br /><br />
+> Funktionen stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.
 
 När du har aktiverat bankfeedtjänsten måste du länka det involverade bankkontot till det onlinebankkonto som feeden ska komma från. Du länkar bankkonton till onlinebankkonton i följande olika scenarier:
 
@@ -46,6 +47,9 @@ När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att autom
 
 Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade onlinebankkonto. Visa nästa procedur.  
 
+> [!NOTE]
+> Om du använder guiden för assisterad konfiguration för **företagsinställningarna** och sedan aktiverar tjänsten genom att markera kryssrutan **Använd en tjänst för bankfeed**. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).
+
 ## <a name="to-create-a-new-linked-bank-account"></a>Så här skapar du ett nytt länkat bankkonto
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan **Skapa nytt länkat bakkonto**. Sidan **Länkning av bankkonto** öppnas efter några ögonblick.
@@ -61,7 +65,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
     > Om du har fler än ett onlinebankkonto på banken, måste du skapa ytterligare bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för dem. Se steg 8 till 10.  
 
     När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Siffran inom parentes visar hur många online bankkonton som länkades.  
-7. Välj **OK**.
+7. Välj knappen **OK**.
 
     Om du bara länkar ett onlinebankkonto, öppnas sidan **bankkontokort** och visar namnet på onlinebankkontot. I det här fallet är bankkontolänkninguppgiften slutförd. Allt som återstår är att skapa bankkontot. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
@@ -120,4 +124,3 @@ Varje timme kommer sidan **Betalningsavstämningsjournal** att visa alla nya utb
 [Koppla utbetalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

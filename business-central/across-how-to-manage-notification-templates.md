@@ -1,24 +1,24 @@
 ---
-title: "Så här hanterar du meddelandemallar | Microsoft Docs"
-description: "Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren."
+title: Så här hanterar du meddelandemallar | Microsoft Docs
+description: Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808162"
 ---
 # <a name="manage-notification-templates"></a>Hantera meddelandemallar
 Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren. Mer information finns i [Ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md).  
@@ -67,13 +67,13 @@ De tre meddelandemalltyperna, **Ny post**, **Godkännande** och **Förfallna**, 
 Parametervärden infogas automatiskt i meddelandena i enlighet med meddelandemalltypen.  
 
 #### <a name="new-record"></a>Ny post  
- ![NAV&#95;notification&#95;template&#95;new&#95;record&#95;type](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
+ ![NAV&#95;avisering&#95;mall&#95;ny&#95;post&#95;typ](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
 
 #### <a name="approval"></a>Godkännande  
- ![NAV&#95;notification&#95;template&#95;approval&#95;type](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
+ ![NAV&#95;avsiering&#95;mall&#95;godkännande&#95;typ](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
 
-#### <a name="overdue"></a>Förfallna  
- ![NAV&#95;notification&#95;overdue&#95;type](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
+#### <a name="overdue"></a>Förfallen  
+ ![NAV&#95;avisering&#95;förfallen&#95;typ](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
 
 ## <a name="see-also"></a>Se även  
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
@@ -83,4 +83,3 @@ Parametervärden infogas automatiskt i meddelandena i enlighet med meddelandemal
  [Skapa arbetsflöden](across-how-to-create-workflows.md)   
  [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)   
  [Arbetsflöde](across-workflow.md)   
-

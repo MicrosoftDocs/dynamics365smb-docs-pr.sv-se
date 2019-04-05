@@ -1,24 +1,24 @@
 ---
-title: "Scenarioexempel - Definiera dynamisk distribution beräknad på sålda artiklar | Microsoft Docs"
-description: "I det här avsnittet innehåller exempel på hur du definierar fördelningar med dynamisk fördelning."
+title: Scenarioexempel - Definiera dynamisk distribution beräknad på sålda artiklar | Microsoft Docs
+description: I det här avsnittet innehåller exempel på hur du definierar fördelningar med dynamisk fördelning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807429"
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenarioexempel: Definiera dynamisk distribution beräknad på sålda artiklar
 I det här avsnittet innehåller exempel på hur du definierar fördelningar med dynamisk fördelning. I exemplet ändrar du dynamisk fördelning av kostnaderna för de SALES-kostnadsstället för att det ska fungera med den nya kostnadsbäraren IT EQUIPMENT. IT EQUIPMENT-paketet har artikelnummer i intervallet 8904-W till 8924-W. Du kan använda föregående års försäljningssiffror för att beräkna antalet andelen. Fördelningen bokförs på hjälpkostnadstypen 9903.  
@@ -50,4 +50,3 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
 [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
 [Om kostnadsredovisning](finance-about-cost-accounting.md)
-

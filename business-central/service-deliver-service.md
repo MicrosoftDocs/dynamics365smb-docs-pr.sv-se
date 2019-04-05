@@ -1,8 +1,8 @@
 ---
-title: "Översikt över uppgifter för att leverera service | Microsoft Docs"
-description: "Innehåller uppgifter för att se till att du levererar kvalitetsservice och lever upp till avtal med kunder."
+title: Översikt över uppgifter för att leverera service | Microsoft Docs
+description: Innehåller uppgifter för att se till att du levererar kvalitetsservice och lever upp till avtal med kunder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808050"
 ---
 # <a name="delivering-service"></a>Leverera service
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
@@ -46,4 +46,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Planera service](service-plan-service.md)  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Hantera projekt](projects-manage-projects.md)  
-

@@ -1,23 +1,23 @@
 ---
 title: Migrera kunddata | Microsoft Docs
-description: "Du kan migrera befintliga kunddata från ett befintligt ERP-system till Business Central med hjälp av RapidStart Services. Du kan använda Excel-filer (.xlsx) som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget."
+description: Du kan migrera befintliga kunddata från ett befintligt ERP-system till Business Central med hjälp av RapidStart Services. Du kan använda Excel-filer (.xlsx) som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806845"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av datamigreringsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
@@ -92,14 +92,14 @@ När du använder data som har importerats från Excel eller från ett RapidStar
 
 - Om samma mappningar definieras direkt för ett fält och i den relaterade tabellen, men har olika nya värden, får den mappning som definieras direkt för fältet prioritet över den mappning som definieras för tabellen som fältet refererar till.  
 
-I följande procedurer ska du granska i förväg vilka värden som du vill bibehålla under flyttningsprocessen. För att utföra följande procedurer kommer du att behöva datamigreringsfiler (.xlsx) som du har exporterat från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i avsnittet ”Exportera datamigreringsfiler”.
+I följande procedurer ska du granska i förväg vilka värden som du vill bibehålla under flyttningsprocessen. För att utföra följande procedurer kommer du att behöva datamigreringsfiler (.xlsx) som du har exporterat från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.
 2. Öppna paketet för det aktuella företaget.  
 3. Välj tabellen som du vill mappa värden för, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 4. För varje fält som du vill koppla väljer du åtgärden **Mappa**.  
 5. Ange värdet som du vill ändra i fältet **Gammalt värde**. Ange värdet som du vill att det gamla värdet ska ändras till i fältet **Nytt värde**. Välj knappen **OK**.  
-6. Importera kunddata. Mer information finns också i avsnittet "Så här importerar du kunddata".
+6. Importera kunddata. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data).
 7. Se om det finns några fel rapporterade i fältet **Antal paketfel**. Om det finns söker du ned för att visa fel. Sidan **Konfig. paketposter** öppnas.
 8. Välj åtgärden **Visa fel**. Du får då följande fel: **<option> är inget giltigt alternativ. Giltiga alternativ är <valid option list>**. Välj knappen **OK**.  
 9. Använd den mappning som du har ställt in genom att välja åtgärden **Koppla Data**.  
@@ -115,7 +115,7 @@ Följande exempel visar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] implemen
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj tabellen som du vill lägga till ytterligare värden i, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 3. Välj kryssrutan som du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  
-4. Importera kunddata. Mer information finns också i avsnittet "Så här importerar du kunddata".
+4. Importera kunddata. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Så här rensar du upp och bearbetar data innan du kopplar data
 I vissa fall kan det hända att du vill rensa upp kunddata och bearbeta dem, innan du kopplar dem till databasen. Om du vill göra det, använd batch-jobbet **Konfig.paket - behandla** för att åtgärda fel som exempelvis:  
@@ -134,7 +134,7 @@ När du har exporterat en flyttningstabell blir ditt nästa steg att skriva in k
 
 Om du behöver hjälp med XML så aktiverar du fliken **Utvecklare** i Excel-balken och väljer sedan åtgärden **Källa** för att visa XML-schemat för din flyttningstabell såsom den visas i Excel.
 
-Följande procedur baseras på en Excel-blad som du har skapat för datamigrering. Mer information finns i avsnittet ”Exportera datamigreringsfiler”.
+Följande procedur baseras på en Excel-blad som du har skapat för datamigrering. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Ändra inte kolumnerna i Excel-kalkylarken. Om de flyttats, ändras eller tas bort, kan kalkylarket inte importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ Kundföretagets databas är nu skapad, och grunddata har importerats. Ditt näst
 ## <a name="see-also"></a>Se även  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

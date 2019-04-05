@@ -1,6 +1,6 @@
 ---
 title: Inventera, justera och gruppera lager | Microsoft Docs
-description: "Beskriver hur du utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i artikeltransaktionerna och distributionslagertransaktionerna."
+description: Beskriver hur du utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i artikeltransaktionerna och distributionslagertransaktionerna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 392b997b5122d7a1419c6b134a2723644fc82cb2
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807377"
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Inventera, justera och gruppera lager
 Minst en gång per räkenskapsår måste du utföra en inventering (d.v.s. räkna alla artiklar i lagret) för att se om det antal som är registrerat i databasen är samma som det antal som verkligen finns i lagret. När det faktiska antalet är känt, måste det bokföras i redovisningen som en del av lagervärderingen för periodslutet.
 
-Även om du inventerar alla artiklarna i lagret minst en gång per år kan du ha bestämt dig för att inventera vissa artiklar oftare, kanske för att de är mer värdefulla eller för att de har en hög omsättningshastighet och utgör en stor del av verksamheten. Du kan tilldela särskilda inventeringsperioder till objekten för detta ändamål. Mer information finns i avsnittet ”Så här utför du cyklisk inventering”.
+Även om du inventerar alla artiklarna i lagret minst en gång per år kan du ha bestämt dig för att inventera vissa artiklar oftare, kanske för att de är mer värdefulla eller för att de har en hög omsättningshastighet och utgör en stor del av verksamheten. Du kan tilldela särskilda inventeringsperioder till objekten för detta ändamål. Mer information finns i avsnittet [Så här utför du cyklisk inventering](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
 Om du behöver justera det registrerade lagerantalet, kan du i samband med inventeringen använda en artikeljournal för att ändra inventeringstransaktionerna direkt utan att bokföra affärstransaktioner. Du kan också justera för en enskild artikel på artikelkortet.
 
@@ -81,7 +81,7 @@ Du kan utföra inventeringsjournalen på något av följande sätt beroende på 
     -   Om de beräknade och de fysiska kvantiteterna skiljer sig åt registreras en positiv eller negativ kvantitet för lagerplatsen, och en balanserande kvantitet bokförs på lagerställets justeringslagerplats.  
     -   Om den beräknade kvantiteten stämmer med den fysiska kvantiteten registreras en nolltransaktion för både lagerplatsen och justeringslagerplatsen. Transaktionerna är det som visar att en inventering av lagret har utförts på registreringsdatumet och att det inte fanns några avvikelser för artikeln.  
 
-När du registrerar inventeringen bokför du inte artikeltransaktioner, inventeringstransaktioner eller värdetransaktioner, utan posterna finns där för eventuell avstämning. Om du vill veta exakt vad som sker i distributionslagret, och du har inventerat alla lagerplatser där artiklar finns registrerade, bör du i stället omedelbart bokföra resultatet som en inventering. Mer information finns i avsnittet ”om du vill ange och bokföra det verkliga inventerade lagret i avancerad distributionslagerkonfiguration”.
+När du registrerar inventeringen bokför du inte artikeltransaktioner, inventeringstransaktioner eller värdetransaktioner, utan posterna finns där för eventuell avstämning. Om du vill veta exakt vad som sker i distributionslagret, och du har inventerat alla lagerplatser där artiklar finns registrerade, bör du i stället omedelbart bokföra resultatet som en inventering. Mer information finns i avsnittet [om du vill ange och bokföra det verkliga inventerade lagret i avancerad distributionslagerkonfiguration](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Skriv ut rapporten som ska användas, när du vill beräkna.
 1. På sidan **Inventeringsjournal** som innehåller det beräknade förväntade lagret, väljer du åtgärden **Skriv ut**.
@@ -145,14 +145,14 @@ Du ställer in de cykliska inventeringsperioder som du vill använda och däreft
 2. Välj åtgärden **Beräkna cyklisk inventeringsperiod**.
 
     Sidan **Inventering artikelval** öppnas. Det visar de artiklar som du har fastställt cykliska inventeringsperioder för som ska inventeras enligt motsvarande cykliska inventeringsperioder.
-3. Utför inventeringen. Mer information finns i avsnittet "Så här utför du en inventering av lagret".
+3. Utför inventeringen. Mer information finns i [Så här utför du en inventering av lagret](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Så här initialiserar du en inventering baserat på den cykliska inventeringsperioder i avancerade konfigurationer
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager inventeringsjournal** och välj sedan relaterad länk.  
 2. Välj åtgärden **Beräkna cyklisk inventeringsperiod**.
 
     Sidan **Inventering artikelval** öppnas. Det visar de artiklar som du har fastställt cykliska inventeringsperioder för som ska inventeras enligt motsvarande cykliska inventeringsperioder.
-3. Utför inventeringen. Mer information finns i avsnittet "Så här utför du en inventering av lagret".  
+3. Utför inventeringen. Mer information finns i [Så här utför du en inventering av lagret](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
     >  Du måste inventera artikeln på alla lagerplatser som innehåller den aktuella artikeln. Om du tar bort vissa lagerplatsrader som har hämtats för inventering på sidan **Dist.lager inventeringslista**, kommer du inte att räkna alla artiklarna i lagret. Om sådana ofullständiga resultat senare bokförs i Inventeringsjournal, kommer beloppen som bokförs, är inkorrekta.  
@@ -175,7 +175,7 @@ Du kan också använda funktionen **Justera lager** som ett enkelt sätt att pla
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Så här justerar du lagerkvantiteten på flera objekt i grundläggande konfigurationer
 På sidan **Artikeljournal** kan du bokföra artikeltransaktionen direkt för att justera lager i anslutnig till inköp, försäljning och positiva och negativa lagerjusteringar utan att använda dokument.
 
-Om du ofta använder artikeljournalen för att bokföra samma eller likartade journalrader, kan du till exempel i anslutning med materialförbrukning använda sidan **Standardartikeljournal** om du vill göra detta återkommande arbete enklare. Mer information finns i avsnittet "standardjournaler" i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
+Om du ofta använder artikeljournalen för att bokföra samma eller likartade journalrader, kan du till exempel i anslutning med materialförbrukning använda sidan **Standardartikeljournal** om du vill göra detta återkommande arbete enklare. Mer information finns i [Arbeta med standardjournaler](ui-work-general-journals.md#working-with-standard-journals).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -227,4 +227,3 @@ Information om överföring av artiklar med full kontroll över kvantiteter som 
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

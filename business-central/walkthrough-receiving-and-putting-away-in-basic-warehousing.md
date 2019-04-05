@@ -1,21 +1,21 @@
 ---
-title: "Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer | Microsoft Docs"
-description: "I Business Central kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå."
+title: 'Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer | Microsoft Docs'
+description: I Business Central kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 2f92a8977905f5507fdcfd26613d422ebf6c23b2
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808064"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
 
@@ -62,7 +62,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 ## <a name="prerequisites"></a>Förutsättningar  
 För att kunna utföra den här genomgången behöver du:  
 
--   CRONUS Sverige AB installerad  
+-   CRONUS Sverige Ab installerad.  
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
     1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
@@ -145,4 +145,3 @@ På sidan **Lagerinförsel** kan du hantera alla ingående distributionslagerakt
  [Designdetaljer: Ankommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här lägger du till fält i en Word-rapportlayout | Microsoft Docs"
-description: "Beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport."
+title: Så här lägger du till fält i en Word-rapportlayout | Microsoft Docs
+description: Beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/22/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
 ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.contentlocale: sv-se
-ms.lasthandoff: 10/25/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808115"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -37,7 +37,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
 3.  På fliken **Utvecklare** väljer du **XML-mappningsruta**.  
   
-4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-rapport, som vanligtvis är sist i listan. Namnet på den anpassade XML-delen har följande format:  
+4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för LÄGG TILL INKLUDERA <!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-rapport, som vanligtvis är sist i listan. Namnet på den anpassade XML-delen har följande format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -80,7 +80,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
  Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storleksändras automatiskt i förhållande för att passa gränsen för innehållskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-klienten.  
+>  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från LÄGG TILL INKLUDERA <!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-klienten.  
   
 #### <a name="to-add-an-image"></a>Så här lägger du till en bild  
   
@@ -101,7 +101,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Rubrik|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-namnområdespecifikation. `<reportname>` är det namn som har tilldelats rapporten. `<id>` är det ID som har tilldelats rapporten.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Innehåller alla rubriker för rapporten.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-  Etikettelement som är relaterade till kolumner har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Etikett element ha formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-  Rubriker anges i alfabetisk ordning.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Innehåller alla rubriker för rapporten.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Etikettelement som är relaterade till kolumner har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Etikett element ha formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Rubriker anges i alfabetisk ordning.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Dataobjekt och kolumner på högsta nivå. Kolumner anges i alfabetisk ordning.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataobjekt och kolumner som är inbäddade i dataobjektet på högsta nivå. Kolumner anges i alfabetisk ordning under respektive dataobjekt.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Bokslutselement.|  
@@ -109,7 +109,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 ### <a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word  
  I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
- Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter deras namn som har definierats av egenskapen Namn i datauppsättnings-designern för rapporten i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter deras namn som har definierats av egenskapen Namn i datauppsättnings-designern för rapporten i LÄGG TILL INKLUDERA <!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  Efterföljande diagram visar den enkla anpassade XML-del från föregående avsnitt i panelen **XML-mappning** i ett Word-dokument.  
   
@@ -125,4 +125,3 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
   
 ## <a name="see-also"></a>Se även  
  [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
-

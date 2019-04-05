@@ -1,28 +1,28 @@
 ---
-title: "Använda automatiskt datainsamlingssystem (ADCS) | Microsoft Docs"
-description: "Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automated Data Capture System) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering."
+title: Använda automatiskt datainsamlingssystem (ADCS) | Microsoft Docs
+description: Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807589"
 ---
-# <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automated Data Capture Systems)
+# <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystems)
 
 > [!NOTE]
 > I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerar ADCS endast i installationer på plats. En Microsoft-partner kan dock få det att fungera i online-distribution med hjälp av PowerApps eller liknande.
 
-Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automated Data Capture System) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering.  
+Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering.  
 
 Om du ska använda ADCS måste du ge varje artikel i distributionslagret en artikelidentifierare. Du måste även lägga upp miniformulär, handdatorfunktioner, datautbyten och specificeras inställningar för fältet som kontrollerar ADCS. Du anger om du ska använda ADCS på lagerställekortet för ett lager.
 
@@ -60,7 +60,7 @@ Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en
 8.  För att granska informationen väljer du fältet **identitetskod** för att öppna sidan **Artikelidentifierare**.
 
 ## <a name="to-add-an-adcs-user"></a>Om du vill lägga till en ADCS-användare  
-Du kan lägga till användare som en användare av ett ADCS (Automated Data Capture System). När du gör det, måste du även ange ett lösenord. Om du vill kan du även ange en koppling som identifierar ADCS-användaren som distributionslageranvändare. ADCS-användarlösenord kan vara olika från Windows-inloggningslösenord för användaren. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
+Du kan lägga till användare som en användare av ett ADCS (Automatiskt datainsamlingssystem). När du gör det, måste du även ange ett lösenord. Om du vill kan du även ange en koppling som identifierar ADCS-användaren som distributionslageranvändare. ADCS-användarlösenord kan vara olika från Windows-inloggningslösenord för användaren. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **ADCS-användare** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -119,4 +119,3 @@ Mer information finns i [Konfigurera ett automatiserat dataregistreringssystem](
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

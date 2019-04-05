@@ -1,22 +1,22 @@
 ---
-title: "Exportera insamlingsposter för SEPA Autogiro | Microsoft Docs"
-description: "Skapa en insamling för autogiro som innehåller information om kundens bankkonto och de berörda fakturorna och autogiromedgivandet."
+title: Exportera insamlingsposter för SEPA Autogiro | Microsoft Docs
+description: Skapa en insamling för autogiro som innehåller information om kundens bankkonto och de berörda fakturorna och autogiromedgivandet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 6eeaae3812190b363d4ac18a44eaa8d4369b6221
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9790f75e9be5ec96a57320e96dd0cd38d567c16f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808034"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil
 För instruktioner till banken för att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto, skapa en autogiroinsamling som innehåller information om kundens bankkonto, de berörda försäljningsfakturorna och medgivande för autogiro. Från direktdebitering-insamlingsposten som skapas kan du sedan exportera en XML-fil som du skickar eller överför till din elektroniska bank för bearbetning. Alla betalningar som inte kunde behandlas av banken meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
@@ -70,4 +70,3 @@ Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljnin
 [Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)  
 [Så här bokför du betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
-

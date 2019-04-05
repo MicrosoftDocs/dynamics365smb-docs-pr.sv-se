@@ -1,8 +1,8 @@
 ---
-title: "Skapa en försäljningsfaktura för att fakturera ett projekt | Microsoft Docs"
-description: "Beskriver hur du kan fakturera kunder för projektutgifter allt eftersom projektet fortskrider."
+title: Skapa en försäljningsfaktura för att fakturera ett projekt | Microsoft Docs
+description: Beskriver hur du kan fakturera kunder för projektutgifter allt eftersom projektet fortskrider.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807007"
 ---
 # <a name="invoice-jobs"></a>Fakturera projekt
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.
@@ -79,4 +79,3 @@ När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen o
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

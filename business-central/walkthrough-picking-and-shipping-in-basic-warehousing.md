@@ -1,21 +1,21 @@
 ---
-title: "Plockning och leverans i grundläggande lagerkonfiguration | Microsoft Docs"
-description: "I Business Central kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå."
+title: Plockning och leverans i grundläggande lagerkonfiguration | Microsoft Docs
+description: I Business Central kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807102"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
@@ -55,7 +55,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 ## <a name="prerequisites"></a>Förutsättningar  
 För att kunna utföra den här genomgången behöver du:  
 
--   CRONUS Sverige AB installerad  
+-   CRONUS Sverige Ab installerad.  
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
     1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
@@ -76,7 +76,7 @@ För att kunna utföra den här genomgången behöver du:
     3.  Välj åtgärden **Bokföra** och sedan knappen **Ja**.  
 
 ## <a name="story"></a>Situation  
-Ellen, lagerchefen i CRONUS ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerplatserna där LS-81 lagras.  
+Ellen, lagerchefen i CRONUS, ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerplatserna där LS-81 lagras.  
 
 ## <a name="setting-up-the-location"></a>Lägger upp lagerstället  
 Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
@@ -131,4 +131,3 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
  [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

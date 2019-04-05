@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs"
-description: "För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att alla behov ska uppfyllas av tillräcklig försörjning och leverans har en funktion för att förstå hur planeringssystemet fungerar."
+title: Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs
+description: För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att alla behov ska uppfyllas av tillräcklig försörjning och leverans har en funktion för att förstå hur planeringssystemet fungerar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ec4746addfa3fad5d43ffe5579f7fd172e257dfb
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807028"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  
@@ -293,4 +293,3 @@ Detta slutför beskrivningarna av hur efterfrågan och tillgång laddas, priorit
  [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-

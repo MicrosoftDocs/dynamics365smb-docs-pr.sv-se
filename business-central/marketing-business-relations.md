@@ -1,8 +1,8 @@
 ---
-title: "Definiera affärsrelationskode för kontakter | Microsoft Docs"
-description: "Använd affärsrelationer i Business Central för att hjälpa till med marknadsföring och för att visa vilket affärsförhållande du har till potentiella kunder eller kunder, till exempel en bank eller serviceleverantör."
+title: Definiera affärsrelationskode för kontakter | Microsoft Docs
+description: Använd affärsrelationer i Business Central för att hjälpa till med marknadsföring och för att visa vilket affärsförhållande du har till potentiella kunder eller kunder, till exempel en bank eller serviceleverantör.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-redirect_url: marketing-setup-marketing
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: cb600ea688a856f481d84604d6966231fe7f536d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807634"
 ---
-# <a name="setting-up-business-relations-on-contact-companies"></a>Ställa in affärsrelationer på kontaktföretag
+# <a name="setting-up-business-relations-on-contacts"></a>Ställa in affärsrelationer på kontakter
 Affärsrelationer används för att visa vilket affärsförhållande du har till kontakterna, till exempel spekulant, bank, konsult eller serviceleverantör.
 
 Att använda affärsrelationer på kontakter är en två-stegsprocess. Först definierar du affärsrelationskoden. Du måste bara utföra den här steget en gång för varje affärsrelation. När du har en affärsrelation kan du börja koppla koden till kontaktföretag.
@@ -50,6 +50,4 @@ Antalet affärsrelationer som du har tilldelat kontakter anges automatiskt i fä
 När du har tilldelat kontakterna affärsrelationer kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se även
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

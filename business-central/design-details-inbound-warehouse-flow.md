@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - ankommande distributionslagerflöde | Microsoft Docs"
-description: "Det ankommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet."
+title: Designdetaljer - ankommande distributionslagerflöde | Microsoft Docs
+description: Det ankommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807058"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Ankommande distributionslagerflöde
 Det ankommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.  
@@ -112,4 +112,3 @@ Distributionslagertransaktioner skapas och artikelinförselraderna tas bort om d
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
-

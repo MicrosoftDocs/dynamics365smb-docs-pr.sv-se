@@ -1,6 +1,6 @@
 ---
-title: "Koppla kundreskontratransaktioner för att manuellt stämma av kundbetalningar | Microsoft Docs"
-description: "Beskriver hur du använder inbetalningar eller återbetalningar för kunder till en eller flera öppna kundreskontratransaktioner och stämma av kundbetalningar."
+title: Koppla kundreskontratransaktioner för att manuellt stämma av kundbetalningar | Microsoft Docs
+description: Beskriver hur du använder inbetalningar eller återbetalningar för kunder till en eller flera öppna kundreskontratransaktioner och stämma av kundbetalningar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807848"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Stäm av kundbetalningar manuellt
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
 När du får en inbetalning av en kund eller när du gör en kontant återbetalning måste du bestämma om inbetalningen eller återbetalningen ska kopplas till en eller flera öppna debet- eller kredittransaktioner. Du kan ange det belopp som du vill koppla. Du kan till exempel använda delbetalningar till kundreskontratransaktioner. Att avsluta kundreskontratransaktioner ser till att informationen som t.ex. kundstatistik och kontoutdrag och dröjsmålsräntor är korrekta.
 
-> [!NOTE]  
+> [!TIP]  
 >   På sidan **kundreskontratransaktioner** betyder rött teckensnittet att den relaterade betalningen kommer efter dess förfallodatum. Om en förfallen betalning blir ett problem, hjälper vi dig att minska frekvensen. Du kan aktivera tillägget **prediktioner för sena betalningar** som använder en prediktiv modell som vi har byggt in i Azure Machine Learning  för att förutse tidpunkt för betalningar. Dessa prediktioner hjälper dig att minska utestående kundfordringar och finjustera en strategi för samlingar. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod. För mer information, se [prediktioner för sena betalningar](ui-extensions-late-payment-prediction.md).  
 
 Du kan koppla kundreskontratransaktioner på olika sätt:
 
-* Genom att ange information på dedikerade sidor som till exempel sidan **Inbetalningsjournal** och sidan **Betalningsavstämningsjournal**.
-* Från försäljningskreditnotor.
-* Från kundreskontratransaktioner efter att försäljningsdokument har bokförts men inte har kopplats.
+* Genom att ange information om särskilda sidor:
+    * Sidan **utbetalningsavstämningsjournal**. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * Sidan **betalningsregistrering**. Mer information finns i [Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+    * **Inbetalningsjournalen**. Detta beskrivs nedan.
+* Genom att markera fältet **gäller dok.nr.** på försäljningskreditnotor. Detta beskrivs nedan.
+* Med hjälp av åtgärden **Ange Koppla till ID** för en kundreskontratransaktion. Detta beskrivs nedan.
 
 > [!NOTE]  
 >   Om fältet **Avräkningsmetod** på kundkortet innehåller **Koppla till äldsta faktur**, kommer betalningen att kopplas till den äldsta öppna kredittransaktionen om du inte manuellt anger en transaktion. Om avräkningsmetoden för en leverantör är **Manuell** måste du alltid koppla transaktioner manuellt.
 
-Du kan tillämpa kundbetalningar manuellt på sidan **Inbetalningsjournal**. En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den för att bokföra transaktioner på redovisningskonton, bankkonton, kundkonton, leverantörskonton och anläggningstillgångskonton. Du kan koppla betalningen till en eller flera debettransaktioner när du bokför betalningen, eller så kan du koppla från de bokförda transaktionerna senare.
-
-Du kan också tillämpa kundbetalningar och leverantörsbetalningar på sidan **Betalningsavstämningsjournal** med hjälp av funktioner för bankutdragsimport, automatiskt koppling och bankkontoavstämning. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md). Alternativt kan du stämma av kundutbetalningar utifrån en lista över obetalda försäljningsdokument på sidan **Betalningsregistrering**. Mer information finns i [Så här stämmer du av kundutbetalningar manuellt från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Så här fyller du i och bokför en inbetalningsjournal:
+En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den för att bokföra transaktioner på redovisningskonton, bankkonton, kundkonton, leverantörskonton och anläggningstillgångskonton. Du kan koppla betalningen till en eller flera debettransaktioner när du bokför betalningen, eller så kan du koppla från de bokförda transaktionerna senare.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inbetalningsjournal** och välj sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
 3. Välj önskat namn i fältet **Journalnamn**.
@@ -159,4 +159,3 @@ När du rättar en koppling skapas och bokförs korrigeringstransaktioner som ä
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

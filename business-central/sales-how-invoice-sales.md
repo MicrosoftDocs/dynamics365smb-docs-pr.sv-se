@@ -1,6 +1,6 @@
 ---
-title: "Skapa ett försäljningsfaktura eller försäljningsorder | Microsoft Docs"
-description: "Beskriver hur du skapar en pantförskrivning eller försäljningsfaktura eller försäljningsorder för att registrera ditt avtal med en kund om att sälja eller handla med produkter som omfattas av särskilda villkor."
+title: Skapa ett försäljningsfaktura eller försäljningsorder | Microsoft Docs
+description: Beskriver hur du skapar en pantförskrivning eller försäljningsfaktura eller försäljningsorder för att registrera ditt avtal med en kund om att sälja eller handla med produkter som omfattas av särskilda villkor.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/17/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7f689a078051516f6db14b311f5f97481808a8f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807036"
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
@@ -95,7 +95,7 @@ Beroende på ditt företagsbehov kan du få betalt och registrera den betalninge
 
 Du kan bearbeta betalningar direkt från kundkortet. Använd åtgärden **registrera kundbetalningar** för att få en översikt över obetalda fakturor för den kunden. Markera sedan fakturan som betald delvis eller helt. Denna betalningsavstämning behandlar dina kundbetalningar genom att matcha mottagna belopp på ditt bankkonto med relaterade obetalade försäljningsfakturor och sedan bokföra betalningarna. Mer information finns i [Så här stämmer du av betalningar individuellt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-I företagsmiljöer där kunden betalar en tid efter leveransdatum enligt betalningsvillkor, en bokförd försäljningsfaktura förblir öppen (obetalda) till Kundreskontraavdelningen verifierar att betalning tagits emot och gäller betalningen för den bokförda försäljningsfaktura. Detta kan göras manuellt eller automatiskt. Mer information finns i [Stäm av kundbetalningar manuellt](receivables-how-apply-sales-transactions-manually.md) och [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).  
+I företagsmiljöer där kunden betalar en tid efter leveransdatum enligt betalningsvillkor, en bokförd försäljningsfaktura förblir öppen (obetalda) till Kundreskontraavdelningen verifierar att betalning tagits emot och gäller betalningen för den bokförda försäljningsfaktura. Detta kan göras manuellt eller automatiskt. Mer information finns i [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md) och [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).  
 
 I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller kontanter, betalningen bokförs direkt när du bokför försäljningsfakturan, d.v.s. stängs den bokförda försäljningsfakturan som i sin helhet. Du väljer relevant metod i fältet **Kod för betalningsmetod** på försäljningsordern. Se under steg 8. För elektroniska betalningar såsom PayPal, måste du även fylla i fältet **betalningstjänst**. Mer information finns i [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).  
 
@@ -108,4 +108,3 @@ Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom a
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Bulkfakturering från Microsoft Bookings i Business Central ](finance-bookings.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

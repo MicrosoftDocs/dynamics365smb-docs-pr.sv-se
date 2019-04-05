@@ -1,23 +1,23 @@
 ---
-title: "Genomgång - Planera leveranser manuellt | Microsoft Docs"
-description: "Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan."
+title: Genomgång - Planera leveranser manuellt | Microsoft Docs
+description: Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807099"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
 
@@ -237,4 +237,3 @@ The **Order Planning** page can be accessed from several different locations on 
 ## <a name="see-also"></a>Se även  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
  [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
-

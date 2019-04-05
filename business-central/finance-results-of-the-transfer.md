@@ -1,8 +1,8 @@
 ---
-title: "Resultat av överföringen | Microsoft Docs"
-description: "Det här avsnittet beskriver vad som händer när du överför redovisningstransaktioner till kostnadstransaktioner."
+title: Resultat av överföringen | Microsoft Docs
+description: Det här avsnittet beskriver vad som händer när du överför redovisningstransaktioner till kostnadstransaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807718"
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultat av överföring av redovisningstransaktioner till kostnadstransaktioner
 Under överföringen av redovisningstransaktioner till kostnadstransaktioner skapar [!INCLUDE[d365fin](includes/d365fin_md.md)] anslutningar i transaktionerna i tabellen **Redov.trans**, tabellen **kostnadstransaktion** och tabellen **Bokförd journal för kostnad** för att göra det möjligt att spåra anslutningar mellan kostnadstransaktioner och redovisningstransaktioner.  
@@ -40,4 +40,3 @@ I tabellen **Bokförd journal för kostnad** skapar [!INCLUDE[d365fin](includes/
 
 ## <a name="see-also"></a>Se även  
 [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
-

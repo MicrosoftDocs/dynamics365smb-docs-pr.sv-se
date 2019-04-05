@@ -1,8 +1,8 @@
 ---
-title: "Använda automatisk koppling för att stämma av betalningar | Microsoft Docs "
-description: "Beskriver hur du använder funktionen automatisk koppling när du använder utbetalningar eller inbetalningar till deras relaterade öppna transaktioner och stämma av betalningar."
+title: 'Använda automatisk koppling för att stämma av betalningar | Microsoft Docs '
+description: Beskriver hur du använder funktionen automatisk koppling när du använder utbetalningar eller inbetalningar till deras relaterade öppna transaktioner och stämma av betalningar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808163"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Stämma av betalningar genom att använda automatisk koppling
 Sidan **Betalningsavstämningsjournal** anger betalningar, antingen inkommande eller utgående, som har registrerats som transaktioner på ditt onlinebankkonto och som du kan koppla till deras motsvarande öppna kund-, leverantör- och bankkontotransaktioner. Raderna i journalen fylls i genom att importera kontoutdraget från banken som en bankfeed eller fil.
@@ -77,4 +77,3 @@ Du kan jämföra värdet i fältet **Saldo på bankkonto efter bokföring** till
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här kan du ändra planeringsförslag i en grafisk översikt över serviceverksamheten | Microsoft Docs"
-description: "En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt."
+title: Så här kan du ändra planeringsförslag i en grafisk översikt över serviceverksamheten | Microsoft Docs
+description: En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807920"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
 En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.
@@ -42,7 +42,7 @@ I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och 
     Sidan **Artikeldisposition per tidslinje** öppnas med artikelnummer, lagerstället och varianten av artikeln på den aktuella planeringsraden förifyllda i fälten på snabbfliken **Alternativ**. Snabbfliken **Tidslinje** visar en grafisk återgivning av artikelns planerade lager, inklusive planeringsförslag.  
 
 2.  Se till att fältet **Ta med planeringsförslag** är markerat.  
-3.  Hitta leveransorderkalkylarket som du vill ändra. Du kan identifiera modifierbara element med den gröna cirkeln och diskikonen. Mer information om de olika symbolerna finns i "Symboler och ikoner på snabbfliken Tidslinje."  
+3.  Hitta leveransorderkalkylarket som du vill ändra. Du kan identifiera modifierbara element med den gröna cirkeln och diskikonen. Mer information om de olika symbolerna finns i [Symboler och ikoner på snabbfliken Tidslinje](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Markera pekaren över den gröna cirkeln tills den förstoras och pekaren ändras till flyttform (fyra pilar).  
 5.  Tryck på och håll ned musknappen samtidigt som du drar du pekaren uppåt eller nedåt för att ändra antal. Tryck på och håll ned musknappen samtidigt som du drar du pekaren till vänster eller höger för att ändra förfallodatum.  
 6.  Förutom att flytta element genom att dra och släppa kan du ändra planeringsförslag genom att använda funktionerna i den nedrullningsbara menyn. Gå till den nedrullningsbara menyn på den gröna cirkeln i ett föreslaget leveranselement och välja en av följande funktioner  
@@ -99,4 +99,3 @@ Förutom de kortkommmandon som nämndes tidigare kan du också använda följand
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - Lagervärdering | Microsoft Docs"
-description: "Lagervärdering XE är fastställandet av kostnaden som tilldelats en lagerartikel, som uttryckt i följande ekvation."
+title: Designdetaljer - Lagervärdering | Microsoft Docs
+description: Lagervärdering XE är fastställandet av kostnaden som tilldelats en lagerartikel, som uttryckt i följande ekvation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 8d186d3f104f152a4ad121d32e14ad2bc1e33c5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1e2f307a4309389b09e5ce291cb5eca3abee6b88
-ms.contentlocale: sv-se
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808186"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetaljer: Lagervärdering
 Lagervärdering XE är fastställandet av kostnaden som tilldelats en lagerartikel, som uttryckt i följande ekvation.  
@@ -61,4 +61,3 @@ Avsikten med PIA-lagervärderingen är att fastställa värdet för artiklarna v
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Så här konfigurerar du ett företag med RapidStart-guiden | Microsoft Docs"
-description: "Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services."
+title: Så här konfigurerar du ett företag med RapidStart-guiden | Microsoft Docs
+description: Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807730"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
 Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
@@ -33,7 +33,7 @@ I följande procedur har du gett kunden ett konfigurationspaket, som sedan har i
 
     1. Koppla konfigurationen genom att välja åtgärden **Koppla paket**. Då importeras konfigurationspaketet och alla paketdatabasdata kopplas på samma gång.  
 
-    2. Granska konfigurationen när den har kopplats. Med det här alternativet kan du granska konfigurationsdetaljer och frågeformulär som tillhandahålls av partnern och importera en del huvuddata som krävs för företaget. Välj åtgärden **Konfigurationskalkylark**. Mer information finns i avsnittet ”Så här slutför du konfigurationsfrågeformuläret” i [Samla inställningsvärden för kund](admin-gather-customer-setup-values.md).  
+    2. Granska konfigurationen när den har kopplats. Med det här alternativet kan du granska konfigurationsdetaljer och frågeformulär som tillhandahålls av partnern och importera en del huvuddata som krävs för företaget. Välj åtgärden **Konfigurationskalkylark**. Mer information finns i [Så här: Slutför konfigurationsfrågeformuläret](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Expandera snabbfliken **Steg 5**. Ange vilket rollcenter som du vill ange som standard för det nya företaget.  
 
@@ -51,4 +51,3 @@ Du har nu konfigurerat företaget och kopplat data till det.
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

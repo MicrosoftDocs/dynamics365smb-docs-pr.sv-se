@@ -1,7 +1,7 @@
 ---
-title: "Ställa in anläggningstillgångar | Microsoft Docs"
-description: "Få information om de åtgärder som du måste göra om du vill ställa in anläggningstillgångar, till exempel maskiner eller byggnader."
-documentationcenter: 
+title: Ställa in anläggningstillgångar | Microsoft Docs
+description: Få information om de åtgärder som du måste göra om du vill ställa in anläggningstillgångar, till exempel maskiner eller byggnader.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807539"
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
@@ -46,4 +46,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

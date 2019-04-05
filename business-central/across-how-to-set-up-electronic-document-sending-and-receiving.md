@@ -1,21 +1,21 @@
 ---
-title: "Så här konfigurerar du utskick och mottagning av elektroniska dokument | Microsoft Docs"
-description: "Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument."
+title: Så här konfigurerar du utskick och mottagning av elektroniska dokument | Microsoft Docs
+description: Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808060"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurera utskick och mottagning av elektroniska dokument
 Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande\-fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som kan tas emot och konverteras till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag.  
@@ -83,7 +83,7 @@ Avsnittet innehåller följande procedurer:
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Internationell standardkod**|Ange den använda måttenheten i enlighet med standarden UNECERec20 i samband med utskick av elektroniska dokument.<br /><br /> När du till exempel skickar elektroniska fakturor i PEPPOL-format används värdet i detta fält för att fylla i **unitCode**-attributet för elementet **InvoicedQuantity** under noden **InvoiceLine**. **Obs:**  Om fältet **Måttenhet** på försäljningsraden är tomt, infogas standardvärdet i UNECERe20 för “Piece” \(H87\) som standard. Mer information och en lista över giltiga enhetskoder finns i [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Internationell standardkod**|Ange den använda måttenheten i enlighet med standarden UNECERec20 i samband med utskick av elektroniska dokument.<br /><br /> När du till exempel skickar elektroniska fakturor i PEPPOL-format används värdet i detta fält för att fylla i **unitCode**-attributet för elementet **InvoicedQuantity** under noden **InvoiceLine**. **Obs:**  Om fältet **Måttenhet** på försäljningsraden är tomt, infogas standardvärdet i UNECERe20 för “Piece” \(H87\) som standard. Mer information och en lista över giltiga enhetskoder finns i [Rekommendation nr. 20 \- Enheter som används i internationell handel](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Så här ställer du in kunder för utskick av elektroniska dokument  
 1. I rutan **Sök**, ange **Kunder** och välj sedan relaterad länk.  
@@ -140,4 +140,3 @@ Avsnittet innehåller följande procedurer:
 [Utbyta data elektroniskt.](across-data-exchange.md)   
 [Fakturaförsäljning](sales-how-invoice-sales.md)   
 [Registrera inköp](purchasing-how-record-purchases.md)
-

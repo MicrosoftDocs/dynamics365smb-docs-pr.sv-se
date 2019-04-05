@@ -1,21 +1,21 @@
 ---
-title: "Om att beräkna standardkostnad | Microsoft Docs"
-description: "I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks."
+title: Om att beräkna standardkostnad | Microsoft Docs
+description: I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: d35fdeae364a113fa1abb1d5828182f761331cee
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807444"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
 Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t.ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
@@ -96,7 +96,7 @@ Använd funktionen från artikelkortet för att uppdatera eller beräkna standar
 Processen för att uppdatera eller att beräkna standardkostnader består vanligtvis av följande uppgifter:  
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobben **Föreslå artikelstandardkostnad** och **föreslå kapacitet standardkostnad**.  
-2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala monterings- eller produktionskostnaden för artiklarna. Mer information finns i avsnittet ”Beräkna standardkostnaden för en monteringsartikel” i [Arbeta med strukturer](inventory-how-work-BOMs.md).  
+2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala monterings- eller produktionskostnaden för artiklarna. Mer information finns i [Beräkna standardkostnaden för en monteringsartikel](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Använda standardkostnaderna som anges när du kör de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Mer information finns i batch-jobbet **Implementera standardkostnadsändringar**.  
 4.  Implementera ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lagerutvärderingen. Mer information finns i [Omvärdera lager](inventory-how-revalue-inventory.md).
 
@@ -105,4 +105,3 @@ Processen för att uppdatera eller att beräkna standardkostnader består vanlig
  [Arbeta med strukturer](inventory-how-work-BOMs.md)   
  [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)   
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)
-

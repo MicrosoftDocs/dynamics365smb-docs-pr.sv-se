@@ -1,6 +1,6 @@
 ---
 title: Skapa artikelattribut och deldela dem till artiklar | Microsoft Docs
-description: "Beskriver hur du ställer in artikelattributvärden, till exempel som kan användas som sökord och tilldela dem till artiklar och artikelkategorier."
+description: Beskriver hur du ställer in artikelattributvärden, till exempel som kan användas som sökord och tilldela dem till artiklar och artikelkategorier.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 9441bee71c6025deed419dec59d3bacf3bdf5e41
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807180"
 ---
 # <a name="work-with-item-attributes"></a>Arbeta med artikelattribut
 När kunder gör förfrågningar om en artikel, antingen i motsvarande fält eller via en integrerad webbutik kan kunden fråga eller söka efter egenskaper som till exempel höjd och modellår. För att tillhandahålla denna kundservice kan du tilldela artikelattributvärden av andra typer till artiklarna, som sedan kan användas när du söker efter artiklar.
@@ -31,7 +31,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 3. På sidan **Artikelattribut** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Om du väljer **Alternativ** i fältet **Typ** kan du välja åtgärden **Artikelattributvärden** för att markera eller skapa artikelattributvärden. Mer information finns i avsnittet "Att skapa artikelattributvärden av typen alternativ".  
+>   Om du väljer **Alternativ** i fältet **Typ** kan du välja åtgärden **Artikelattributvärden** för att markera eller skapa artikelattributvärden. Mer information finns i [Att skapa artikelattributvärden av typen alternativ](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Så här skapar du värden för artikelattribut av typen alternativ
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artikelattribut** och välj sedan relaterad länk.
@@ -42,16 +42,16 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
 2. På sidan **Artiklar** markerar du den artikel som du vill tilldela artikelattribut på, och väljer sedan åtgärden **Attribut**.
 3. På sidan **Artikelattributvärden** väljer du åtgärden **Ny**.
-4. Välj sökknappen i fältet **Attribut** och välj ett befintligt artikelattribut. Välj alternativt åtgärden **Ny** för att först skapa en ny artikelattribut som förklaras i avsnittet "Att skapa artikelattribut".
+4. Välj sökknappen i fältet **Attribut** och välj ett befintligt artikelattribut. Välj alternativt åtgärden **Ny** för att först skapa en ny artikelattribut som förklaras i [Att skapa artikelattribut](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. I fältet **Värde** anger du artikelattributvärdet , exempelvis "2010" för attributet **modellår** attribute.
-6. För artikelattribut av typen **Alternativ** väljer du sökknappen i fältet **Värde** och väljer sedan ett artikelattributvärde. Välj alternativt åtgärden **Ny** för att först skapa ett nytt artikelattributvärde som förklaras i avsnittet "Att skapa värden för artikelattribut av typen Alternativ".
+6. För artikelattribut av typen **Alternativ** väljer du sökknappen i fältet **Värde** och väljer sedan ett artikelattributvärde. Välj alternativt åtgärden **Ny** för att först skapa ett nytt artikelattributvärde som förklaras i [Att skapa värden för artikelattribut av typen Alternativ](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Upprepa steg 4 genom 6 för alla artikelattribut som du vill tilldela artikeln.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Så här tilldelar du ett artikelattribut till artikelkategorier
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artikelkategorier** och välj sedan relaterad länk.
 2. På sidan **Artikelkategorier** markerar du den artikelkategori, som du vill tilldela artikelattributen till och väljer sedan åtgärden **Redigera**.
 3. På sidan **Artikelkategorikort** på snabbfliken **Attribut** väljer du åtgärden **Ny**.
-4. Välj sökknappen i fältet **Attribut** och välj ett befintligt artikelattribut. Välj alternativt åtgärden **Ny** för att först skapa en ny artikelattribut som förklaras i avsnittet "Att skapa ett artikelattribut".
+4. Välj sökknappen i fältet **Attribut** och välj ett befintligt artikelattribut. Välj alternativt åtgärden **Ny** för att först skapa en ny artikelattribut som förklaras i [Att skapa artikelattribut](inventory-how-work-item-attributes.md#to-create-item-attributes).
 5. I fältet **Standaardvärde** väljer du sökknappen och väljer du ett artikelattributvärde.
 6. Upprepa steg 4 genom 5 för alla artikelattribut som du vill tilldela artikelkategorin.
 
@@ -80,4 +80,3 @@ Artiklarna på sidan **Artiklar** filtreras efter de angivna artikelattributvär
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Plocka artiklar | Microsoft Docs
-description: "Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa [inställningarna](../configure-warehouse-processes.md) är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med enbart hantering av order för order i en eller flera aktiviteter och vidare till avancerade konfigurationer där alla lageraktiviteter måste utföras i ett dirigerat arbetsflöde."
+description: Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa [inställningarna](../configure-warehouse-processes.md) är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med enbart hantering av order för order i en eller flera aktiviteter och vidare till avancerade konfigurationer där alla lageraktiviteter måste utföras i ett dirigerat arbetsflöde.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808217"
 ---
 # <a name="pick-items"></a>Plocka artiklar
 Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplex det är kan sträcka sig från inga lagerkonfigurationer, till grundläggande lagerstyrning med hantering av order för order i en eller flera aktiviteter samt avancerade konfigurationer där alla lageraktiviteter måste utförs i ett dirigerat arbetsflöde. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
@@ -53,4 +53,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Definiera hur data överförs elektroniskt | Microsoft Docs"
-description: "Använd en extern leverantör för OCR-tjänster för att omvandla PDF- eller bildfiler till elektroniska dokument."
+title: Definiera hur data överförs elektroniskt | Microsoft Docs
+description: Använd en extern leverantör för OCR-tjänster för att omvandla PDF- eller bildfiler till elektroniska dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807766"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
 Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
@@ -55,7 +55,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
     |**Kodenhet för datahantering**|Ange den kodenhet som överför data till och från tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Kodenhet för validering**|Ange den kodenhet som används för att verifiera data mot fördefinierade affärsregler.|  
     |**Kodenhet för läsning/skrivning**|Ange den kodenhet som behandlar importerade data före mappningen och exporterade data efter mappningen.|  
-    |**XML-port för läsning/skrivning**|Ange den XMLport via vilken en importerad datafil eller en tjänst kommer in före mappning, och via vilken exporterade data ska ut när de skrivs till en datafil eller tjänst efter mappning.|  
+    |**Läsning/skrivning XMLport**|Anger den XMLport genom vilken en importerad datafil eller tjänst skickas in före mappning och genom vilken exporterade data skickas ut när de skrivs till en datafil eller tjänst efter mappning.|  
     |**Kodenhet för hantering av ext. data**|Ange den kodenhet som överför externa data in i och ut ur ramverket för datautbyte.|  
     |**Kodenhet för användarfeedback**|Ange kodenheten för olika slags rensningar efter mappningen, till exempel för markering av rader som exporterade och radering av temporära poster.|  
     |**Filkodning**|Ange kodningen för filen. **Obs:**  Fältet är endast relevant för import.|  
@@ -160,4 +160,3 @@ När du har skapat definitionem för datautbyte för en viss datafil kan du expo
 [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-

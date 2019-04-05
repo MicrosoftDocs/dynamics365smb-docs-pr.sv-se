@@ -1,23 +1,23 @@
 ---
-title: "Skapa och publicera KPI-webbtjänster för kontouppställningar | Microsoft Docs"
-description: "Det här avsnittet beskriver hur du visar kontouppställningen KPI-data baserat på specifika kontouppställningar."
+title: Skapa och publicera KPI-webbtjänster för kontouppställningar | Microsoft Docs
+description: Det här avsnittet beskriver hur du visar kontouppställningen KPI-data baserat på specifika kontouppställningar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807487"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar
 På sidan **Installation av webbtjänst för KPI för kontouppställning** kan du konfigurera hur du visar kontouppställnings-kpi-data och vilka specifika kontouppställningar som du vill basera KPI-erna på. När du väljer knappen **Publicera webbtjänst** läggs det angivna kontouppställning-kpi-data till listan över publicerade webbtjänster på sidan **Webbtjänster**.  
@@ -57,4 +57,3 @@ På sidan **Installation av webbtjänst för KPI för kontouppställning** kan d
 [Ställa in Finance](finance-setup-finance.md)  
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

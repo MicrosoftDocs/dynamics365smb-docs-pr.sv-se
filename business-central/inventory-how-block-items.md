@@ -1,23 +1,23 @@
 ---
-title: "Spärra artiklar för försäljning eller inköp"
-description: "I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften."
+title: Spärra artiklar för försäljning eller inköp
+description: I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0d5ad688cfa6fb58e8383692362105beeee386f8
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807056"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Spärra artiklar för försäljning eller inköp
 Du kan spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.  
@@ -53,4 +53,3 @@ Om du försöker bokföra någon typ av transaktion för artikeln visas ett felm
 ## <a name="see-also"></a>Se även  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
-

@@ -1,6 +1,6 @@
 ---
 title: Skapa kontoplanen
-description: "Du kan ändra standardkontona i kontoplanen och du kan lägga till nya konton."
+description: Du kan ändra standardkontona i kontoplanen och du kan lägga till nya konton.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.contentlocale: sv-se
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808280"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
 Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
@@ -37,9 +37,8 @@ Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller änd
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
-[Importera data från andra finansiella system](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importera data från andra finansiella system](across-import-data-configuration-packages.md)  
 [Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-

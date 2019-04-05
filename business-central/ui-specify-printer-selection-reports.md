@@ -1,8 +1,8 @@
 ---
-title: "Skapa rapporter som ska skrivas ut på en viss skrivare | Microsoft Docs"
-description: "Lär dig att ange en skrivare för en rapport och använda sidan Skrivarval."
+title: Skapa rapporter som ska skrivas ut på en viss skrivare | Microsoft Docs
+description: Lär dig att ange en skrivare för en rapport och använda sidan Skrivarval.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807871"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Ange skrivarval för rapporter
 Den här sidan är tom eftersom du inte har lagt upp särskilda skrivare för specifika rapporter. Vi arbetar på att lösa detta.
@@ -49,4 +49,3 @@ The following table describes the combination of values to specify when you set 
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Kör batchjobb](ui-how-run-batch-jobs.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Registrera fakturerbara timmar och budgeterad förbrukning av jobbresurs | Microsoft Docs"
-description: "Beskriver hur du registrerar förbrukning eller användning av artiklar eller resurser i ett projekt för att underlätta projekthantering."
+title: Registrera fakturerbara timmar och budgeterad förbrukning av jobbresurs | Microsoft Docs
+description: Beskriver hur du registrerar förbrukning eller användning av artiklar eller resurser i ett projekt för att underlätta projekthantering.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807669"
 ---
 # <a name="record-usage-for-jobs"></a>Registrera förbrukning för projekt
 På sidan **Projektplaneringsrader** kan du förhandsgranska och registrera förbrukningen i olika delar av projektet, som uppdateras automatiskt medan du ändrar och överför information mellan projekt och projektjournaler eller projektfakturor. Detta innebär att du har konfigurerat ett projekt så att **Använd förbrukningslänk som standard** aktiveras. Mer information finns i [Skapa projekt](projects-how-setup-jobs.md).  
@@ -91,4 +91,3 @@ När du har bokfört projektjournalrader kan du se de planeringsrader som är ko
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

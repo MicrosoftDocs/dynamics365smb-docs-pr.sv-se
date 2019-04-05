@@ -1,8 +1,8 @@
 ---
-title: "Skapa inköpare och koppla inköpare till leverantörer | Microsoft Docs"
-description: "Om flera inköpare eller inköpsagenter arbetar i företaget kan du sortera dem för statistiska analyser."
+title: Skapa inköpare och koppla inköpare till leverantörer | Microsoft Docs
+description: Om flera inköpare eller inköpsagenter arbetar i företaget kan du sortera dem för statistiska analyser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 508d475ff204d75df70511ab2f4e7de225cd8207
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807626"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
 Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.
@@ -36,4 +36,3 @@ Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och ti
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

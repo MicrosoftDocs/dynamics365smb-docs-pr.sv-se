@@ -1,8 +1,8 @@
 ---
 title: Arbeta med Dimensioner | Microsoft Docs
-description: "Du kan använda dimensioner för att kategorisera poster, till exempel efter avdelning eller projekt, så att du kan spåra och analysera data."
+description: Du kan använda dimensioner för att kategorisera poster, till exempel efter avdelning eller projekt, så att du kan spåra och analysera data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808189"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -176,4 +176,3 @@ Du kan se om det finns globala dimensioner för transaktionerna på en transakti
 [Ekonomi](finance.md)  
 [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

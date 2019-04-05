@@ -1,6 +1,6 @@
 ---
-title: "Utfärda, Skriv ut, Avbryt och Makulera checkar | Microsoft Docs"
-description: "Beskriver hur du utfärdar checkar med utbetalningsjournalen, skriver ut checkar och annullerar checkar eller granskar checktransaktioner i Business Central."
+title: Utfärda, Skriv ut, Avbryt och Makulera checkar | Microsoft Docs
+description: Beskriver hur du utfärdar checkar med utbetalningsjournalen, skriver ut checkar och annullerar checkar eller granskar checktransaktioner i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "806886"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
@@ -78,4 +78,3 @@ Om du vill granska bokförda checkar, till exempel för att kontrollera flera ko
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Exportera en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

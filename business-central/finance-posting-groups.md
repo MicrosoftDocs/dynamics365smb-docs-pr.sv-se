@@ -1,8 +1,8 @@
 ---
-title: "Inställning av bokföringsmall | Microsoft Docs"
-description: "Översikt av bokföringsmallar som du kan använda för att spara tid och för att undvika misstag när du bokför transaktioner."
+title: Inställning av bokföringsmall | Microsoft Docs
+description: Översikt av bokföringsmallar som du kan använda för att spara tid och för att undvika misstag när du bokför transaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807135"
 ---
 # <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
 Bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ I följande tabeller beskrivs bokföringsmallarna under varje paraply.
 
 | Specifika bokföringsmallar | Description |
 | --- | --- |
-| Kundbokföringsmallar |Ange kontona som ska användas när du bokför transaktioner i kundreskontra. Om du använder lagret tillsammans med kundreskontra bestämmer den generella rörelsebokföringsmallen som har tilldelats till kunden och den generella produktbokföringsmallen som har tilldelats till lagerartikeln vilka konton som försäljningsorderraden ska bokföras till. Ställ in dessa på sidan **Kundbokföringsmallar**. |
+| Kundbokföringsmallar |Ange kontona som ska användas när du bokför transaktioner i kundreskontra. Om du använder lagret tillsammans med kundreskontra bestämmer den generella rörelsebokföringsmallen som har tilldelats till kunden och den generella produktbokföringsmallen som har tilldelats till lagerartikeln vilka konton som försäljningsorderraden ska bokföras till. Se "Generella rörelsebokföringsmallar" och "Generella produktbokföringsmallar" under **Generella bokföringsmallar** ovan. Ställ in dessa på sidan **Kundbokföringsmallar**. |
 | Leverantörsbokföringsmallar |Definiera var transaktioner för leverantörsreskontrakonton, serviceavgiftskonton och kassarabattskonton ska bokföras. Detta liknar kundbokföringsmallar. Ställ in dessa på sidan **Leverantörsbokföringsmallar**. |
-| Lagerbokföringsmallar |Definiera lagerkonton i balansräkningen. Detta ger ett bra sätt organisera ditt lager så att du kan du separera artiklar efter deras bokföringsmallar när du genererar rapporter. Ställ in dessa på sidan **Lagerbokföringsmallar**. |
+| Lagerbokföringsmallar |Definiera lagerbokföringsmallar som du sedan tilldelar motsvarande artikelkonton på sidan **Lagerbokföringsinställning**. På så sätt bokför systemet till det redovisningskonto som har angetts för den kombination av lagerbokföringsmall och lagerställe som har kopplats till artikeln, när du bokför transaktioner avseende artikeln. Med lagerbokföringsmallar kan du även på ett utmärkt sätt organisera ditt lager. När du genererar rapporter kan du separera artiklar efter deras bokföringsmallar. Ställ in dessa på sidan **Lagerbokföringsmallar**. |
 | Bokföringsmallar för bankkonto |Definiera konton för bankkonton. Detta kan till exempel förenkla processer för att spåra transaktioner och stämma av bankkonton. Ställ in dessa på sidan **Bokföringsmallar för bankkonto**. |
 | Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t.ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa på sidan **Anl. bokföringsmallar**. |
 
@@ -79,4 +79,3 @@ Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du p�
 redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

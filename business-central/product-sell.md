@@ -1,8 +1,8 @@
 ---
-title: "Sälja Business Central | Microsoft Docs"
-description: "Ta reda på hur du kan expandera dina affärsmöjligheter och bli en Microsoft-partner och återförsäljare av Business Central."
+title: Sälja Business Central | Microsoft Docs
+description: Ta reda på hur du kan expandera dina affärsmöjligheter och bli en Microsoft-partner och återförsäljare av Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e47877a6cf6e7d9b976b8624786e725b87b0ee1f
-ms.contentlocale: sv-se
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807821"
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Bli en återförsäljare av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expandera affärsmöjligheten med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -35,4 +35,3 @@ Om du vill veta mer om hur du blir en [!INCLUDE[d365fin](includes/d365fin_md.md)
 [Komma igång](product-get-started.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
-

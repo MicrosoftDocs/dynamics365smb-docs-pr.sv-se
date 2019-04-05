@@ -1,23 +1,23 @@
 ---
-title: "Så här reserverar du artiklar | Microsoft Docs"
-description: "Du kan reservera artiklar för försäljningsorder, inköpsorder och produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokumentrader."
+title: Så här reserverar du artiklar | Microsoft Docs
+description: Du kan reservera artiklar för försäljningsorder, inköpsorder och produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokumentrader.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808007"
 ---
 # <a name="reserve-items"></a>Reservera artiklar
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.
@@ -38,7 +38,7 @@ Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet
     |**Avbeställ reservation från aktuell rad**|För att avbeställa reservation av artiklar från den rad du har markerat i dokumentet.|
 
 > [!NOTE]  
->  Om artikelspårningsrader finns för försäljningsordern används en särskild procedur. Mer information finns i avsnittet "Att reservera ett specifikt parti- eller serienummer".  
+>  Om artikelspårningsrader finns för försäljningsordern används en särskild procedur. Mer information finns i avsnittet [Att reservera ett specifikt parti- eller serienummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Så här reserverar du artiklar för produktionsorderrader  
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
@@ -101,4 +101,3 @@ Följande procedur är baserad på en försäljningsorder.
 [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

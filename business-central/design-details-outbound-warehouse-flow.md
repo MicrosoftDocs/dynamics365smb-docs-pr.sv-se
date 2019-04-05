@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - Avgående distributionslagerflöde | Microsoft Docs"
-description: "Det avgående artikelflödet i distributionslagret inleds med en förfrågan från utsläppta källdokument att ta artiklarna ut från distributionslagerplatsen, antingen för att levereras till en extern part eller till en annan företagplats. Från lagringsområdet utförs lageraktiviteter på olika komplexitetsnivåer för att få ut artiklarna till utleveransställena."
+title: Designdetaljer - Avgående distributionslagerflöde | Microsoft Docs
+description: Det avgående artikelflödet i distributionslagret inleds med en förfrågan från utsläppta källdokument att ta artiklarna ut från distributionslagerplatsen, antingen för att levereras till en extern part eller till en annan företagplats. Från lagringsområdet utförs lageraktiviteter på olika komplexitetsnivåer för att få ut artiklarna till utleveransställena.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807227"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Avgående distributionslagerflöde
 Det avgående artikelflödet i distributionslagret inleds med en förfrågan från utsläppta källdokument att ta artiklarna ut från distributionslagerplatsen, antingen för att levereras till en extern part eller till en annan företagplats. Från lagringsområdet utförs lageraktiviteter på olika komplexitetsnivåer för att få ut artiklarna till utleveransställena.  
@@ -118,4 +118,3 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
-

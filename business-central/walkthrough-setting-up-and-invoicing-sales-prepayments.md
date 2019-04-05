@@ -1,21 +1,21 @@
 ---
-title: "Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning | Microsoft Docs"
-description: "Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan kräva en deposition innan du tillverkar artiklar mot order eller så kan du kräva betalning innan du levererar artiklar till en kund. Använd funktionen i för förskottsbetalning i Business Central för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura."
+title: 'Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning | Microsoft Docs'
+description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan kräva en deposition innan du tillverkar artiklar mot order eller så kan du kräva betalning innan du levererar artiklar till en kund. Använd funktionen i för förskottsbetalning i Business Central för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
-ms.contentlocale: sv-se
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807796"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
@@ -219,4 +219,3 @@ Förskottsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] gör det en
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)
-

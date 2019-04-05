@@ -1,8 +1,8 @@
 ---
-title: "Använda tillägg för betalningar och avstämning (DK) | Microsoft Docs"
-description: "Det här tillägget gör det enkelt att exportera filer som är förformaterade för att uppfylla bankkraven för elektroniska inlagor."
+title: Använda tillägg för betalningar och avstämning (DK) | Microsoft Docs
+description: Det här tillägget gör det enkelt att exportera filer som är förformaterade för att uppfylla bankkraven för elektroniska inlagor.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c8b829a69547ae8791e763e399012649dc750359
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807655"
 ---
-
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 Gör snabba, felfria betalninger genom att exportera filer som är specifikt formaterade för utbyte med din leverantör eller bank. Filerna påskyndar processerna för betalning och avstämning och undviker fel som kan inträffa när du manuellt anger information på en bankwebbplats.  
 
@@ -106,4 +105,3 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 [Så här bokför du betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-

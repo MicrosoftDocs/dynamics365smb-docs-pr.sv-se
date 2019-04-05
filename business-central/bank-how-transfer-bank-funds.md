@@ -1,8 +1,8 @@
 ---
-title: "Överföra banktillgångar | Microsoft Docs"
-description: "Du kan överföra belopp från ett bankkonto, till exempel olika valutor genom att bokföra transaktionen i redovisningsjournalen."
+title: Överföra banktillgångar | Microsoft Docs
+description: Du kan överföra belopp från ett bankkonto, till exempel olika valutor genom att bokföra transaktionen i redovisningsjournalen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 11/18/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807516"
 ---
 # <a name="transfer-bank-funds"></a>Överföra banktillgångar
 Ibland kan du behöva överföra ett belopp från ett bankkonto till ett annat. För att göra detta måste du bokföra en transaktion i redovisningsjournalen. Uppgiften varierar beroende på om bankkontona använder samma valuta eller olika valutor.
@@ -58,4 +58,3 @@ För att överföra pengar mellan bankkonton som använder olika valutor måste 
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

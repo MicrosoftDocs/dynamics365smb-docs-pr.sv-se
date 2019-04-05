@@ -1,6 +1,6 @@
 ---
 title: Skapa kontaktpersoner | Microsoft Docs
-description: "Beskriver hur du skapar ett kontaktkort för varje ny person eller potentiell kund som du interagerar med eller har en affärsrelation med."
+description: Beskriver hur du skapar ett kontaktkort för varje ny person eller potentiell kund som du interagerar med eller har en affärsrelation med.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807495"
 ---
 # <a name="create-contact-persons"></a>Skapa kontaktpersoner
 Du kan skapa kontaktkort för varje kontakt som arbetar i de företag du har förbindelse med. För varje kontaktföretag kan du ange valfritt antal kontaktpersoner. Du kan också skapa kontaktkort för de personer du vill registrera som oberoende.
@@ -37,11 +37,9 @@ Du kan skapa kontaktkort för varje kontakt som arbetar i de företag du har fö
 >   Innehållet i de fält du markerat i avsnittet **Arv** på sidan **Marknadsföringsinställningar** kopieras från företaget till personerna i företaget.
 
 ## <a name="see-also"></a>Se även
-[Ställa in Kundhantering](marketing-setup-marketing.md)  
 [Tilldela utskicksgrupp till en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Konfigurera arbetsansvar för kontakter](marketing-job-responsibilities.md)  
 [Skapa befattningsnivåer för kontaktpersoner](marketing-organizational-levels.md)  
 [Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Använda profilfrågeformulär för att klassificera affärskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbeta med Business Central](ui-work-product.md)  
-

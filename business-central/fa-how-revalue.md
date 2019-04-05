@@ -1,22 +1,22 @@
 ---
-title: "Omvärdera anläggningstillgångar | Microsoft Docs"
-description: "Lär dig att justera värdet för anläggningstillgångar, registrera nya belopp eller uppskrivning, nedskrivning och bokföra ytterligare anskaffningskostnader."
+title: Omvärdera anläggningstillgångar | Microsoft Docs
+description: Lär dig att justera värdet för anläggningstillgångar, registrera nya belopp eller uppskrivning, nedskrivning och bokföra ytterligare anskaffningskostnader.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bdb382f350e3edbb3e76bac1272ba534fcec8ad4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807584"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
@@ -34,7 +34,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av uppskrivning.
 
     > [!NOTE]  
-    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivning motkonto** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
+    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivning motkonto** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
@@ -44,7 +44,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av nedskrivning.
 
     > [!NOTE]  
-    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. För mer information, se avsnittet "Att ställa in bokföringsmallar för anläggningstillgångar" i avsnittet [Så här ställer du in allmän information för anläggningstillgångar](fa-how-setup-general.md).
+    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
@@ -122,4 +122,3 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

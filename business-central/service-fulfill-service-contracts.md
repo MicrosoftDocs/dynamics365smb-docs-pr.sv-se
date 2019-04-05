@@ -1,8 +1,8 @@
 ---
-title: "Översikt över uppgifter för att uppfylla servicekontrakt | Microsoft Docs"
-description: "Innehåller uppgifter för att hantera servicekontrakt med kunder."
+title: Översikt över uppgifter för att uppfylla servicekontrakt | Microsoft Docs
+description: Innehåller uppgifter för att hantera servicekontrakt med kunder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808104"
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
 Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t.ex. kund, kontraktets startdatum samt fakturaperiod.  
@@ -37,4 +37,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Leverera service](service-deliver-service.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-

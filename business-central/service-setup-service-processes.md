@@ -1,8 +1,8 @@
 ---
-title: "Ställa in Servicehanteringsprocesser | Microsoft Docs"
-description: "Lär dig hur du ställer in processer som hjälper dig att se till att kunden är nöjd med din kundservice."
+title: Ställa in Servicehanteringsprocesser | Microsoft Docs
+description: Lär dig hur du ställer in processer som hjälper dig att se till att kunden är nöjd med din kundservice.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 31817c277df03a774145ac308d2cc1cf128bfce0
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808257"
 ---
 # <a name="configure-service-processes"></a>Konfigurera serviceprocesser
 Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
@@ -39,4 +39,3 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 [Registrera alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
 [Ställa in felsökning](service-how-setup-troubleshooting.md)  
 [Servicehantering](service-service.md)  
-

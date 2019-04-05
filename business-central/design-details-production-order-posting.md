@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer - Bokföring av produktionsorder | Microsoft Docs"
-description: "Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts."
+title: Designdetaljer - Bokföring av produktionsorder | Microsoft Docs
+description: Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: sv-se
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807805"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
 Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md) Däremot är kostnadsflödet för monteringsorder mindre komplicerat, särskilt eftersom bokföring av monteringskostnad endast uppstår en gång och därför inte genererar lager för produkter i arbete.
@@ -112,4 +112,3 @@ I standardkostnadmiljöer baseras värderingen av en produktionsorder på följa
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbeta med Business Central](ui-work-product.md)
-

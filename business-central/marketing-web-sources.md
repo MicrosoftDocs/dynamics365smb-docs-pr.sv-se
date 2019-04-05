@@ -1,8 +1,8 @@
 ---
-title: "Ställa in webbadresser för kontaktföretag | Microsoft Docs"
-description: "Du kan definiera internet- eller webbadresser och tilldela dem till ett företag för att identifiera hur du vill söka efter information om kontakterna."
+title: Ställa in webbadresser för kontaktföretag | Microsoft Docs
+description: Du kan definiera internet- eller webbadresser och tilldela dem till ett företag för att identifiera hur du vill söka efter information om kontakterna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807660"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Skapa Webbadresser för kontaktföretag
 Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
@@ -47,6 +47,5 @@ Upprepa stegen för varje webbkälla du vill skapa.
 Webbadresser kan också tilldelas på sidan **Kontaktlista** på samma sätt.
 
 ## <a name="see-also"></a>Se även
-[Skapa kontaktföretag](marketing-create-contact-companies.md)  
+[Skapar kontakter](marketing-create-contact-companies.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Så här arbetar du med strukturer för att hantera komponenter | Microsoft Docs"
-description: "Du kan skapa en monteringsstruktur eller produktionsstruktur för att ange vilka komponenter eller resurser som krävs för att sätta ihop artiklarna som strukturen representerar."
-documentationcenter: 
+title: Så här arbetar du med strukturer för att hantera komponenter | Microsoft Docs
+description: Du kan skapa en monteringsstruktur eller produktionsstruktur för att ange vilka komponenter eller resurser som krävs för att sätta ihop artiklarna som strukturen representerar.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c838fe39720cd8eaee654fe8933aa1a46ffdfbaf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807619"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeta med strukturer
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras eller tillverkas av resurser eller maskin resurserna från komponenter. En monteringsstruktur kan också användas för att sälja en överordnad artikel som byggsatser bestående av dess komponenter.
@@ -42,7 +42,7 @@ Monteringsstrukturer innehåller vanligtvis artiklar men kan också innehålla e
 
 Monteringsstrukturer kan ha flera nivåer, vilket innebär att en komponent på monteringsstruktur kan vara en monteringsartikel själv. I så fall innehåller fältet **Monteringsstruktur** på monteringsstrukturraden **Ja**.
 
-Särskilda krav gäller artiklarna på moneringsstrukturer med avseende på tillgängligheten. Mer information finns i avsnittet "För att visa tillgängligheten för en artikel efter dess användning i monteringsstrukturer" i [Visa artikeldisposition](inventory-how-availability-overview.md).
+Särskilda krav gäller artiklarna på moneringsstrukturer med avseende på tillgängligheten. Mer information finns i [För att visa tillgängligheten för en artikel efter dess användning i monteringsstrukturer](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
 Det finns två delar för att skapa en monteringsstruktur:
 - Skapa en ny artikel
@@ -104,4 +104,3 @@ Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komp
 [Visa artikeldisposition](inventory-how-availability-overview.md)     
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

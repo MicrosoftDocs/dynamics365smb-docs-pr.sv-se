@@ -1,6 +1,6 @@
 ---
 title: Skicka momsrapporter till skattemyndigheten | Microsoft Docs
-description: "Lär dig hur du förbereder en rapport över moms från försäljning under en period eller från försäljning och inköp och skickar rapporten till en skattemyndighet."
+description: Lär dig hur du förbereder en rapport över moms från försäljning under en period eller från försäljning och inköp och skickar rapporten till en skattemyndighet.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807602"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>Så här: rapportera moms till skattemyndigheterna
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region.
 
@@ -117,4 +116,3 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
-

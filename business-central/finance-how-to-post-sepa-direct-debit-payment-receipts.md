@@ -1,22 +1,22 @@
 ---
-title: "Bokför betalningar för SEPA direktdebitering | Microsoft Docs"
-description: "När en direkt autogiroinsamling framgångsrikt bearbetas av din bank, kan du fortsätta att bokföra mottagandet av betalningen för de berörda försäljningsfakturorna."
+title: Bokför betalningar för SEPA direktdebitering | Microsoft Docs
+description: När en direkt autogiroinsamling framgångsrikt bearbetas av din bank, kan du fortsätta att bokföra mottagandet av betalningen för de berörda försäljningsfakturorna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 6d24df38b980542b1c77d737b8f661fac0df29fa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d427ab28e1344ece77baaab8ceefe4043d3beaa0
-ms.contentlocale: sv-se
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: sv-SE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "807987"
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>Så här bokför du betalningsinleveranser för SEPA Autogiro
 När en direkt autogiroinsamling framgångsrikt bearbetas av din bank, kan du fortsätta att bokföra mottagandet av betalningen för de berörda försäljningsfakturorna. För mer information, se [Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
@@ -41,4 +41,3 @@ Du kan bokföra Betalningsinleverans direkt från sidan **Samlingar med autogiro
 ## <a name="see-also"></a>Se även  
  [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
  [Försäljning](sales-manage-sales.md)
-
