@@ -1,1 +1,0 @@
-Isabel-funktionerna är bara tillgängliga för lokal distribution.
