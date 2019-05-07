@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807974"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912882"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
 Samtidigt användning av reservation och specifik artikelspårning är ovanlig, eftersom de båda skapar en koppling mellan tillgång och efterfrågan. Förutom i situationer där en kund eller en produktionsplanerare begär ett visst parti, är det sällan meningsfullt att reservera lagerartiklar som har redan artikelspårningsnummer för viss koppling. Även om det är möjligt att reservera artiklar som kräver särskild artikelspårning, krävs särskilda funktioner för att undvika konflikter mellan orderhandläggare som begär samma spårade artiklar.  

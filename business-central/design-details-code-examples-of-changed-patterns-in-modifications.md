@@ -10,31 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807346"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915653"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designdetaljer: Kodexempel på ändrade mönster i ändringar
 Det här avsnittet innehåller kodexempel för att visa ändrade mönster i dimensionskodändring och flytt för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.
 
 ## <a name="posting-a-journal-line"></a>Bokför en journalrad  
 Viktiga ändringar är följande:  
-  
+
 - Dimensionstabeller för journalrader tas bort.  
-  
+
 - Ett dimensionsuppsättning-ID skapas i fältet **Dimensionsuppsättnings-ID**.  
-  
+
 **Tidigare versioner**  
-  
+
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 TempJnlLineDim.DELETEALL;  
 TempDocDim.RESET;  
 TempDocDim.SETRANGE(  
@@ -45,27 +46,27 @@ DimMgt.CopyDocDimToJnlLineDim(
   TempDocDim,TempJnlLineDim);  
 ResJnlPostLine.RunWithCheck(  
   ResJnlLine,TempJnlLineDim);  
-  
+
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
-  
+
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 ResJnlLine."Dimension Set ID" :=   
   SalesLine." Dimension Set ID ";  
 ResJnlPostLine.Run(ResJnlLine);  
-  
+
 ```  
-  
+
 ## <a name="posting-a-document"></a>Bokför ett dokument  
  När du bokför ett dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] behöver du inte längre kopiera dokumentets dimensioner.  
-  
+
  **Tidigare versioner**  
-  
+
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
   TempDocDim,DATABASE::"Sales Line",  
@@ -75,19 +76,19 @@ DimMgt.MoveOneDocDimToPostedDocDim(
   DATABASE::"Sales Shipment Line",  
   SalesShptHeader."No.");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 SalesShptLine."Dimension Set ID”  
   := SalesLine."Dimension Set ID”  
 ```  
-  
+
 ## <a name="editing-dimensions-from-a-document"></a>Redigera dimensioner från ett dokument  
  Du kan redigera dimensioner från ett dokument. Du kan till exempel redigera en försäljningsorderrad.  
-  
+
  **Tidigare versioner**  
-  
+
 ```  
 Table 37, function ShowDimensions:  
 TESTFIELD("Document No.");  
@@ -99,21 +100,21 @@ DocDim.SETRANGE("Line No.","Line No.");
 DocDimensions.SETTABLEVIEW(DocDim);  
 DocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function ShowDimensions:  
 "Dimension ID" :=   
   DimSetEntry.EditDimensionSet(  
     "Dimension ID");  
 ```  
-  
+
 ## <a name="showing-dimensions-from-posted-entries"></a>Visar dimensioner från bokförda transaktioner  
  Du kan visa dimensioner från bokförda transaktioner, till exempel utleveransrader.  
-  
+
  **Tidigare versioner**  
-  
+
 ```  
 Table 111, function ShowDimensions:  
 TESTFIELD("No.");  
@@ -126,20 +127,20 @@ PostedDocDim.SETRANGE("Line No.","Line No.");
 PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
 PostedDocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 111, function ShowDimensions:  
 DimSetEntry.ShowDimensionSet(  
   "Dimension ID");  
 ```  
-  
+
 ## <a name="getting-default-dimensions-for-a-document"></a>Få standarddimensioner för ett dokument  
  Du kan få standarddimensioner för ett dokument, till exempel en försäljningsorderrad.  
-  
+
  **Tidigare versioner**  
-  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  
@@ -168,9 +169,9 @@ IF "Line No." <> 0 THEN
     "Shortcut Dimension 1 Code",  
     "Shortcut Dimension 2 Code");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  

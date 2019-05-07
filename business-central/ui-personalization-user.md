@@ -1,8 +1,6 @@
 ---
 title: Anpassa sidor | Microsoft Docs
-description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta.
-services: project-madeira
-documentationcenter: ''
+description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,30 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852315"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922094"
 ---
 # <a name="personalizing-your-workspace"></a>Anpassa din arbetsyta
-<!--NAV in the Web client-->
+
 Du kan *anpassa* arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
 
-Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
+Du kan göra olika saker, som att flytta och dölja fält, kolumner och åtgärder, flytta och dölja hela delar och mer beroende på vilken typ av sida och den innehåller.
+<!--
+-   Add, move, and remove fields.
+-   Add, move, and remove columns in a list.
+-   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
+-   Adjust the width of columns in a list.
+-   Move and remove Cues (tiles).
+-   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
 
--   Lägga till, flytta och ta bort fält.
--   Lägga till, flytta och ta bort kolumner i en lista.
--   Ändra låsning av kolumner i listan. Låsningen låser en eller flera kolumner till vänster i en lista så att de alltid visas även om du bläddrar vågrätt.
--   Ändra bredden på kolumner i en lista.
--   Flytta och ta bort stack-ikoner (paneler).
--   Flytta och ta bort delar. Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.
-
+-->
 > [!NOTE]
-> Förutom vad användare kan anpassa kan administratörer och superanvändare åsidosätta användarnas anpassningar och definiera vilka funktioner som är tillgängliga i alla eller särskilda företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md). 
+> Förutom vad användare kan anpassa kan administratörer och superanvändare åsidosätta användarnas anpassningar och definiera vilka funktioner som är tillgängliga i alla eller särskilda företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md).
 
 ## <a name="to-personalize-a-page"></a>Så här anpassar du en sida
 
@@ -43,42 +42,86 @@ Beroende på vilken typ av sida och vad den innehåller kan göra du följande:
 
     ![Anpassningsläget](media/ui_personalize_mode_small.png "Anpassningsläget")
 
-2.  Gå till sidan du vill anpassa.
+2. Gå till sidan du vill anpassa.
 
-    Om du ser en låsikon i informationstexten, se [Varför sidan är låst](ui-personalization-locked.md) för mer information.
+    Om du ser ![anpassa lås](media/personalization-lock-icon.png "anpassa lås") eller ![anpassning spärrad](media/personalization-blocked-icon.png "anpassning spärrad") i banderollen kan du inte anpassa sidan. Mer information finns i [varför kan jag inte anpassa sidan](ui-personalization-locked.md).
 
-3.  Peka på ett område som du vill anpassa, t.ex. fält eller en kolumnrubrik i en lista. Allt som du kan anpassa markeras omedelbart med en pil eller en ram.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Peka på ett område som du vill anpassa, t.ex. fält eller en kolumnrubrik i en lista. Allt som du kan anpassa markeras omedelbart med en pil eller en ram. Visa [nästa avsnitt](#What) för mer information om vad du kan göra.
 
-4.  Använd den här tabellen för att göra ändringar:     <table>
-        <tr><th>Vad vill du göra</td><th>Hur du gör det.</th></tr>
-        <tr><td>Flytta någonting, precis som fält, kolumn i listan, panel eller del</td><td> Peka var som helst på vad du vill flytta och dra den till dess nya plats. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
-        <tr><td>Ta bort någonting</td><td>Markera pilen och välj <b>Ta bort</b>. </td></tr>
-        <tr><td>Lägga till ett fält eller kolumn</td><td>I banderollen <b>anpassa</b> välj <b>mer</b> och sedan <b>fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan. Fält som är markerade som <b>Placerad</b> finns redan finns på sidan. Fält som är markerade som <b>Klar</b> finns redan finns på sidan.<br /></br>Om du vill lägga till ett fält, drar du det från fönstret till den plats där du vill ha den. Platsen anges med antingen en tjock vågrät eller lodrät linje.</td></tr>
-        <tr><td>Ändra låsning i en lista till en annan kolumn</td><td>Markera pilen i kolumnen som du vill ska vara den sista kolumnen på låsningen och välj <b>Ange låsning</b>.<br /><br/>Om du vill ange låsningen tillbaka till den ursprungliga angivna platsen, markera pilen för den aktuella kolumnen i låsningen och välj <b>ta bort låsning</b>. Obs! Du kan inte ta bort denna låsta ruta.</td></tr>
-        <tr><td>Ändra bredden på en kolumn</td><td>Dra kolumnens högra kantlinje i tabellens rubrikrad. <br /><br />Om du vill maximera kolumnbredden efter den längsta textraden i kolumnen dubbelklickar du på den högra kantlinjen.</td></tr>
-      </table>
+4. Du kan fortsätta att göra ändringar på samma sida eller öppna en annan sida. Dina ändringar sparas automatiskt medan du gör dem. När du är klar väljer du i **anpassa** banderoll **Klar**.
 
-    > [!IMPORTANT]  
-    >   Du kan inte ändra en lista om listan visas som paneler. Måste du först ändra sidan till listvyn genom att välja ikonen ![visa som lista](media/ui_show_as_list_icon.png "Visa som listpil vänster").
+## <a name="What"></a>Detta kan du anpassa
 
-5.  Du kan fortsätta att göra ändringar på samma sida eller flytta till en annan sida. Dina ändringar sparas automatiskt medan du gör dem. När du är klar väljer du i **anpassa** banderoll **Klar**.
+|Vad vill du göra|Hur du gör det.|Anmärkningar|
+|----|------------|-------|
+|Flytta någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Peka var som helst på vad du vill flytta och dra den till dess nya plats. Platsen anges med antingen en tjock vågrät eller lodrät linje.<br /><br />![Det går inte att flytta ikonen hit](media/personalization-cannot-move-here.png "anpassa läge - det går inte att flytta ikonen hit") anger att du inte kan flytta elementet till den angivna platsen.|Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.<br /><br />Visa [nästa avsnitt](ui-personalization-user.md#Actions) för mer information om vanpassningsåtgärder. |
+|Dölj någonting, precis som fält, kolumn i listan, panel eller del|Markera pilen och välj <b>Dölj</b>.|I fältet du döljer visas också i rubriken på snabbfliken när snabbfliken komprimeras, visas fältet inte längre.|
+|Lägga till ett fält eller kolumn|I banderollen <b>anpassa</b> välj <b>mer</b> och sedan <b>fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan.<br /><br />Om du vill lägga till ett fält, drar du det från fönstret till den plats där du vill ha den. Platsen anges med antingen en tjock vågrät eller lodrät linje.|Varje sida innehåller en fördefinierad uppsättning fält som kan visas. Använd den här proceduren för att lägga till fält eller kolumner som inte har visats tidigare eller för att visa fält som du har dolt.|
+|Visa ett fält i rubriken av en artikelrad när snabbfliken komprimeras.|Markera pilen och välj <b>visa när den är komprimerad</b>. <br /> <br />Om du inte ser detta alternativ har du redan angett det. Då väljer du att stoppa visa fältet på snabbflikens rubrik och väljer <b>visa alltid</b>.|*Snabbflik* är den term som används för en uppsättning fält som visas under den vanliga rubriken. Använd alternativet <b>visa minimerad</b> om du vill visa de viktigaste fälten. Om du väljer ett fält i rubriken på snabbfliken och fokusera på det markerade fältet.<br /><br />Det här alternativet gäller endast om det finns mer än en snabbflik. Om det endast finns en snabbflik kan den inte komprimeras så alternativet <b>visa minimerad</b> är inte tillgängligt.|
+|Gör att ett fält endast visas om du väljer **visa fler**.|Markera pilen och välj <b>visa under "Visa fler"</b>. <br /> <br />Om du inte ser alternativet <b>Visa under ”Visa fler”</b> har den redan angetts. I det här fallet, för att ett fält alltid ska visas, inte bara när du markerar **visa fler** väljer du <b>visa alltid</b>.||
+|Ändra låsning i en lista till en annan kolumn |Markera pilen i kolumnen som du vill ska vara den sista kolumnen på låsningen och välj <b>Ange låsning</b>.<br /><br/>Om du vill ange låsningen tillbaka till den ursprungliga angivna platsen, markera pilen för den aktuella kolumnen i låsningen och välj <b>ta bort låsning</b>. Obs! Du kan inte ta bort denna låsta ruta.|Låst ruta anger vilka kolumner som visas till vänster, även när du bläddrar horisontellt.|  
+|Ändra bredden på en kolumn|Dra kolumnens högra kantlinje i tabellens rubrikrad. <br /><br />Om du vill maximera kolumnbredden efter den längsta textraden i kolumnen dubbelklickar du på den högra kantlinjen.||
+|Hoppa över ett fält när du trycker på Retur.|Markera pilen bredvid fältet eller kolumnrubriken i en lista och välj **utesluta från snabbinmatning**. <br /><br /> Om du inte ser detta alternativ anges redan fältet till att hoppas över. I det här fallet väljer du att hoppa över fältet **Inkludera i snabbinmatning**. |Se [Påskynda datainmatning med snabbinmatning](ui-enter-data.md#QuickEntry)|
 
-## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Ta bort anpassningar för att ändra en sida till dess ursprungliga layout
-Vid något tillfälle kanske du vill ångra alla anpassningsändringar som du har gjort på sidan så att sidan ser ut som den gjorde från början För att göra detta väljer du i banderollen **anpassa** **mer**, och sedan **Avmarkera anpassning**.
+## <a name="Actions"></a>Anpassa åtgärder
 
-## <a name="personalization-in-detail"></a>Anpassning i detalj
-Här följer några tips som hjälper dig att bättre förstå anpassning.  
--   När du ändrar en kortsida som du öppnar från en lista påverkar ändringarna alla poster som du öppnar från listan. Anta till exempel att du öppnar en specifik kund från listsidan kunder och sedan anpassar sidan genom att lägga till ett fält. När du öppnar andra kunder från listan visas också det fält som du har lagt till.
--   Ändringarna börjar gälla i alla dina rollcenter. Till exempel om du gör en ändring i kundlistan när rollcentret har angetts till Chef visas dessutom ändringen i kundlistan när rollcentret anges till Försäljningsorderhandläggare.
--   Ändringar av en sida i rutan börjar gälla på sidan var den än visas.  
--   Du kan bara lägga till fält och kolumner från en fördefinierad lista som baseras på sidan. Du kan inte skapa nya.
+Du kan anpassa åtgärdsfältet som finns längst upp på sidan som är markerade med det markerade området i bilden.
+
+![Anpassa åtgärdsfältet](media/personalize-action-bar.png "Anpassa åtgärdsfältet")
+
+Anpassning låter dig bestämma vilka åtgärder som ska visas i åtgärdsfältet och var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper. Anpassa åtgärdsfältet utförs ungefär på samma sätt som med andra delar av arbetsytan. Exakt vad du kan göra med en åtgärd eller grupp beror emellertid på var den åtgärden eller gruppen finns i åtgärdsfältet. Det bästa sättet att ta reda på detta är att bara testa saker och låta skärmen guida dig. I följande avsnitt beskrivs några av nyanserna för att anpassa Åtgärdsfältet.
+
+### <a name="action-bar-overview"></a>Översikt av åtgärdsfältet
+
+Det finns ett par termer som du bör känna till för att bättre förstå åtgärdsanpassning: *åtgärdsgrupp* och *prioriterad kategori*.  
+
+En *åtgärdsgrupp* är objekt som kan expanderas för att visa andra åtgärder eller grupper. Till exempel i följande bild är **bokföra** är en åtgärdsgrupp.
+
+En *prioriterad kategori* är en grupp mellan de två lodräta linjerna `|` i åtgärdsfältet. Kategorierna omfattar vanligtvis de mest använda åtgärderna så att du snabbt kan hitta dem. Till exempel i följande bild **version**, **bokföring**, **faktura** och **analysera** är prioriterade kategorier.
+
+![Anpassa åtgärdsfältgrupp](media/personalize-action-bar-group-clip.png "Anpassa åtgärdsfältgrupp")
+
+### <a name="to-remove-hide-and-show-actions-and-groups"></a>Om du vill ta bort, dölja och visa åtgärder och grupper
+
+För att visa eller dölja och åtgärd eller åtgärdsgrupp, markerar du den och väljer sedan bland följande alternativ:
+
+|Alternativ|Vad den gör|
+|------|------------
+|**Ta bort**|Det här alternativet visas om den valda åtgärden visas någon annanstans i åtgärdsfältet. Om du väljer det här alternativet tar du bort åtgärden från den valda platsen så att den inte längre visas. Åtgärden eller åtgärdsgruppen sparas på andra platser. |
+|**Dölj**|Det här alternativet visas om åtgärden eller grupp inte finns någon annanstans i åtgärdsfältet. Liksom **ta bort**, om du väljer det här alternativet kommer åtgärden eller åtgärdsgruppen att försvinna från åtgärdsfältet. Men i anpassningsläget visas åtgärd eller åtgärdsgrupp fortfarande på den aktuella platsen förutom att det verkar dämpat.|
+|**Visa**|Det här alternativet visas om åtgärden eller åtgärdsgruppen är tidigare dolda (är nedtonade). Om du väljer detta alternativet kommer åtgärden eller åtgärdsgruppen att visas på åtgärdsfältet.|
+
+### <a name="to-move-actions-and-action-groups"></a>Flytta åtgärder och åtgärdsgrupper
+
+Om du vill flytta en åtgärd eller en åtgärdsgrupp, dra och släpp den till önskad plats, precis som med fält och kolumner.
+
+Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontell linje mellan åtgärder eller gränser runt en åtgärdsgrupp.
+
+- Du kan flytta enskilda åtgärder i de prioriterade kategorierna, men du kan inte ändra ordningen på åtgärderna i kategorin.
+- Du kan inte flytta en grupp till en kategori som är prioriterad.
+- Om du vill flytta en åtgärd eller åtgärdsgrupp till en åtgärdsgrupp som är tom, dra åtgärden eller åtgärdsgruppen till den nya gruppen och släpp den i rutan **släpp åtgärd här**.
+
+## <a name="additional-points-of-interest"></a>Ytterligare punkter av intresse
+
+Här följer några tips som hjälper dig att bättre förstå anpassning.
+
+- När du ändrar en kortsida som du öppnar från en lista påverkar ändringarna alla poster som du öppnar från listan. Anta till exempel att du öppnar en specifik kund från listsidan kunder och sedan anpassar sidan genom att lägga till ett fält. När du öppnar andra kunder från listan visas också det fält som du har lagt till.
+- Ändringarna börjar gälla i alla dina rollcenter. Till exempel om du gör en ändring i kundlistan när rollcentret har angetts till Chef visas dessutom ändringen i kundlistan när rollcentret anges till Försäljningsorderhandläggare.
+- Ändringar av en sida i rutan börjar gälla på sidan var den än visas.  
+- Du kan bara lägga till fält och kolumner från en fördefinierad lista som baseras på sidan. Du kan inte skapa nya.
+
+## <a name="to-clear-personalization"></a>Rensa anpassning
+
+Vid något tillfälle kanske du vill ångra några eller alla anpassningsändringar som du har gjort på sidan. För att göra detta väljer du i banderollen **anpassa** **mer**, och sedan **Avmarkera anpassning** och sedan väljer du ett av följande alternativ. Tänk på att ta bort anpassningar som inte går att ångra.
+
+|Alternativ|Vad den gör|
+|------|------------
+|Endast åtgärder|Rensar alla personanpassningsändringar som du har gjort i åtgärdsfältet på den här sidan.|
+|Allt utom åtgärder|Rensar alla personanpassningsändringar som du har gjort på sidan förutom de på åtgärdsfältet. Här ingår ändringar av fält, kolumner, delar och paneler. |
+|Alla|Rensar alla personanpassningsändringar som du har gjort på sidan så att sidan ser ut som den gjorde från början. Här ingår ändringar av åtgärdsfält, fält, kolumner, delar och paneler.|
 
 ## <a name="see-also"></a>Se även
+
 [Hantera anpassning](ui-personalization-manage.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

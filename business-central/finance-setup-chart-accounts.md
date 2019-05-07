@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 12/10/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8c75a214691b7d9886958866517afbb1d68b6f60
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808280"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920707"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
 Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
@@ -37,7 +37,7 @@ Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller änd
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
-[Importera data från andra finansiella system](across-import-data-configuration-packages.md)  
+[Importera data från andra finanssystem](across-import-data-configuration-packages.md)  
 [Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

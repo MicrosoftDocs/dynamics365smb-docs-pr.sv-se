@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852292"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916155"
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
@@ -49,12 +49,15 @@ Om du har tillgång till Microsoft CustomerSource kan du få tillgång till webb
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] säljs via partners och du bör kontakta din återförsäljare för att få hjälp med tekniska problem. Om din [!INCLUDE[d365fin](includes/d365fin_md.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  
 
-Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[d365fin](includes/d365fin_md.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam.  
-
-Du hittar en Business Central på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Mer information finns i [Hjälp och support](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Varför beskriver Hjälp funktioner som det går inte att komma åt?
-Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
+Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Där är knappen Spara?
+
+Det finns ingen *Spara*-knapp på sidor som i andra program som du kanske är bekant med. I [!INCLUDE[d365fin](includes/d365fin_md.md)] sparas ändringar du gör i ett fält automatiskt när du flyttar till nästa fält eller stänger sidan, förutsatt att det inte finns några fel. När du ändrar i ett fält och flyttar till ett annat fält, visas texten **Sparar** i övre högra hörnet på sidan, som snabbt ändras till **Sparad** om inga fel uppstår. Om det uppstår ett fel, ändras texten till **Inte sparad**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Vilken e-postadress kan jag använda med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kräver att du använder en e-postadress från ditt arbete eller skola för att registrera dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  

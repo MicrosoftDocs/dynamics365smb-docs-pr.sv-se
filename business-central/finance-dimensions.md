@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808189"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920848"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -48,12 +48,12 @@ Du kan ange de dimensioner och dimensionsvärden för att kategorisera journaler
 
 Du kan också ställa in värden för dimensioner. Värden kan till exempel vara avdelningarna i företaget. Dimensionsvärden kan anges i en hierarkisk struktur som liknar kontoplanen, så att data kan brytas ned i olika detaljeringsgrader och delmängder av dimensionsvärden kan räknas samman. Du kan definiera så många dimensioner och dimensionsvärden som behövs och alla i företaget kan använda dem.
 
-Du kan också ställa in vissa globala dimensioner och genvägsdimensioner:  
+När dimensioner och värden som har konfigurerats kan du definiera globala och genvägsdimensioner på sidan **Redovisningsinställningar** som alltid är tillgängliga när du vill välja som fält på journal- och dokumentrader, utan att öppna sidan **dimensioner** först. Mer information finns i [Att ställa in globala och genvägsdimensioner](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
 * **Globala dimensioner** används som filter, till exempel i rapporter och batch-jobb. Du kan använda två globala dimensioner, så välj dimensionerna som du ofta använder.
 * **Genvägsdimensioner** är tillgängliga som fält på journal- och dokumentrader. Du kan skapa upp till sex av dessa.  
 
-### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Konfigurera standarddimensioner för kunder, leverantörer och andra konton
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Konfigurera standarddimensioner för kunder, leverantörer och andra konton
 Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopieras till journal eller dokument när du ange numret på en rad, men du kan ta bort eller ändra koden på raden om det behövs. Du kan också göra en dimension obligatorisk för att bokföra en transaktion med en viss typ av konto.  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dimensioner** och välj sedan relaterad länk.  
@@ -102,15 +102,21 @@ Du kan förhindra att transaktioner bokförs med oförenliga eller irrelevanta d
 >   
 >  Om du vill visa namnet på dimensionerna i stället för koden markerar du fältet **Visa kolumnnamn**.
 
-### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Få en översikt över dimensioner som används flera gånger
-Sidan **Standarddimensioner: Flera** anger hur en grupp konton använder dimensioner och dimensionsvärden. Det gör du genom att markera flera konton och sedan ange standarddimensioner och standarddimensionsvärden för alla konton som du har markerat i listan över konton. När du anger standarddimensioner för de markerade kontona föreslås dessa dimensioner och dimensionsvärden varje gång något av kontona används, exempelvis på en journalrad. På så sätt underlättas användarens arbete med att registrera transaktioner, detta eftersom dimensionsfälten fylls i automatiskt. De dimensionsvärden som föreslås kan dock ändras, till exempel på en journalrad.
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>För att ställa in globala och genvägsdimensioner
+Globala och genvägsdimensioner kan användas som filter var som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)], däribland i rapporter, batch-jobb och analysaktiviteter. Globala och genvägsdimensioner är alltid tillgängliga som ska läggas till direkt utan att du först öppnar sidan **dimensioner**. På journal- och dokumentrader kan du välja globala dimensioner respektive genvägsdimensioner i ett fält på raden. Du kan också ställa in två globala dimensioner och åtta genvägsdimensioner. Välj de dimensioner som du oftast använder.
 
-Sidan **Standarddimensioner: Flera** innehåller följande fält:
-|Fält|Description|
-|----------------------------------|---------------------------------------|  
-|**Dimensionskod**|Visar alla dimensioner som har definierats som standarddimensioner för ett eller flera av de markerade kontona. Om du väljer fältet kan du se en lista över tillgängliga dimensioner. Om du väljer en dimension anges den valda dimensionen som standarddimension för alla markerade konton.|
-|**Dimensionsvärdekod**|Visar antingen ett enstaka dimensionsvärde eller termen (Konflikt). Om ett dimensionsvärde visas i fältet har alla markerade konton samma standarddimensionsvärde för en dimension. Om termen (Konflikt) visas i fältet har inte alla markerade konton samma standarddimensionsvärde för en dimension. Om du väljer fältet kan du visa en lista över alla tillgängliga dimensionsvärden för en dimension. Om du väljer ett dimensionsvärde anges det valda dimensionsvärdet som standarddimensionsvärde för alla markerade konton.|
-|**Bokförs med**|Visar antingen en enstaka bokföringsregel eller termen (Konflikt). Om en bokföringsregel visas i fältet har alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om termen (Konflikt) visas i fältet har inte alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om du väljer fältet Bokförs med kan du visa en lista över bokföringsregler. Om du markerar en bokföringsregel tillämpas den på alla markerade konton.|
+> [!Important]  
+> Om du ändrar en global eller genvägsdimension krävs att alla transaktioner som har bokförts med dimensionen har uppdaterats. Du kan utföra den här aktiviteten med funktionen **ändra globala dimensioner**, men det kan ta lång tid och kan påverka prestanda. Välj därför globala och genvägsdimensioner noga så att du inte behöver ändra dem senare.
+
+> [!Note]
+> När du lägger till eller ändrar en global eller genvägsdimension loggas du automatiskt ut och in igen så att det nya värdet förbereds för användning i hela programmet.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.
+2. Fyll i fälten på snabbfliken **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="to-change-global-dimensions"></a>Ändra globala dimensioner
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ändra globala dimensioner** och välj sedan relaterad länk.
+2. Hovra över åtgärder och på den sidan om du vill lära dig om att ändra globala dimensioner respektive genvägsdimensioner.
 
 ### <a name="example-of-dimension-setup"></a>Exempel på dimensionsinställningarna
 Anta att ditt företag vill spåra transaktioner utifrån organisationens struktur och geografiska platser. För att göra detta kan du ange två dimensioner på sidan **Dimensioner**:
@@ -137,7 +143,8 @@ För **OMRÅDE**, lägger du till följande dimensionsvärden:
 | 80 |Utanför EU |Standard |
 | 90 |Europa totalt |Till-summa |
 
-För de två huvudsakliga geografiska områdena, USA och Europa, lägger du till underkategorier för områden med indrag av dimensionsvärden. Då kan du rapportera på försäljning eller utgifter i områden och hämta summorna för de större geografiska områdena. Du kan även välja att använda länder eller regioner som dimensionsvärden, eller länder eller orter, beroende på ditt företag.  
+För de två huvudsakliga geografiska områdena, USA och Europa, lägger du till underkategorier för områden med indrag av dimensionsvärden. Då kan du rapportera på försäljning eller utgifter i områden och hämta summorna för de större geografiska områdena. Du kan även välja att använda länder eller regioner som dimensionsvärden, eller länder eller orter, beroende på ditt företag.
+
 > [!NOTE]  
 >   Om du vill upprätta en hierarki måste koderna vara i alfabetisk ordning. Det innefattar koderna för dimensionsvärdena som ges i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -149,7 +156,18 @@ För **AVDELNING**, lägger du till följande dimensionsvärden:
 | PROD |Produktion |Standard |
 | FÖRS |FÖRS |Standard |
 
-Med detta inställt lägger du sedan till två dimensioner som de två globala dimensionerna på sidan **Redovisningsinställningar**. Det betyder att du kan använda OMRÅDE och AVDELNING som filter för redovisningstransaktioner, samt i alla rapporter och kontouppställningar. De båda globala dimensionerna blir dessutom automatiskt tillgängliga för att användas som genvägsdimensioner på transaktionsrader och i dokumenthuvuden.  
+Med detta inställt lägger du sedan till två dimensioner som de två globala dimensionerna på sidan **Redovisningsinställningar**. Det betyder att du kan använda OMRÅDE och AVDELNING som filter för redovisningstransaktioner, samt i alla rapporter och kontouppställningar. De båda globala dimensionerna blir dessutom automatiskt tillgängliga för att användas som genvägsdimensioner på transaktionsrader och i dokumenthuvuden.
+
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Få en översikt över dimensioner som används flera gånger
+Sidan **Standarddimensioner: Flera** anger hur en grupp konton använder dimensioner och dimensionsvärden. Det gör du genom att markera flera konton och sedan ange standarddimensioner och standarddimensionsvärden för alla konton som du har markerat i listan över konton. När du anger standarddimensioner för de markerade kontona föreslås dessa dimensioner och dimensionsvärden varje gång något av kontona används, exempelvis på en journalrad. På så sätt underlättas användarens arbete med att registrera transaktioner, detta eftersom dimensionsfälten fylls i automatiskt. De dimensionsvärden som föreslås kan dock ändras, till exempel på en journalrad.
+
+Sidan **Standarddimensioner: Flera** innehåller följande fält:
+
+|Fält|Description|
+|-----|-----------|  
+|**Dimensionskod**|Visar alla dimensioner som har definierats som standarddimensioner för ett eller flera av de markerade kontona. Om du väljer fältet kan du se en lista över tillgängliga dimensioner. Om du väljer en dimension anges den valda dimensionen som standarddimension för alla markerade konton.|
+|**Dimensionsvärdekod**|Visar antingen ett enstaka dimensionsvärde eller termen (Konflikt). Om ett dimensionsvärde visas i fältet har alla markerade konton samma standarddimensionsvärde för en dimension. Om termen (Konflikt) visas i fältet har inte alla markerade konton samma standarddimensionsvärde för en dimension. Om du väljer fältet kan du visa en lista över alla tillgängliga dimensionsvärden för en dimension. Om du väljer ett dimensionsvärde anges det valda dimensionsvärdet som standarddimensionsvärde för alla markerade konton.|
+|**Bokförs med**|Visar antingen en enstaka bokföringsregel eller termen (Konflikt). Om en bokföringsregel visas i fältet har alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om termen (Konflikt) visas i fältet har inte alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om du väljer fältet Bokförs med kan du visa en lista över bokföringsregler. Om du markerar en bokföringsregel tillämpas den på alla markerade konton.|
 
 ## <a name="using-dimensions"></a>Använda dimensioner
 I ett dokument som t.ex. en försäljningsorder kan du lägga till dimensionsinformation för både en individuell dokumentrad och själva dokument. T.ex. på sidan **Försäljningsorder** kan du ange dimensionsvärden för de två första genvägsdimensionerna på den individuella försäljningsraden och du kan lägga till ytterligare dimensionsinformation om du väljer knappen **Dimensioner**.  
@@ -158,7 +176,7 @@ Om du istället arbetar med en journal kan du lägga till dimensionsinformation 
 
 Du kan ställa in standarddimensioner för konton eller kontotyper, så att dimensioner och dimensionsvärden fylls i automatiskt.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Så här visar du globala dimensioner på transaktionssidor  
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Så här visar du globala dimensioner på transaktionssidor  
 Globala dimensioner är alltid \-definierade och namngivna utifrån företaget. Om du vill visa de globala dimensionerna för ditt företag öppnar du sidan **Redovisningsinställningar**.  
 
 Du kan se om det finns globala dimensioner för transaktionerna på en transaktionssida. De två globala dimensionerna skiljer sig från övriga dimensioner eftersom de kan användas som filter var som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -169,7 +187,27 @@ Du kan se om det finns globala dimensioner för transaktionerna på en transakti
 4.  Om du vill visa alla dimensioner för en transaktion markerar du transaktionen väljer sedan åtgärden **Dimensioner**.  
 
 > [!NOTE]  
->  Sidan **Transaktionsdimensioner** visas dimensionerna för en transaktion i taget. När du bläddrar bland transaktionerna ändras innehållet på sidan **Transaktionsdimensioner** därefter.  
+>  Sidan **Transaktionsdimensioner** visas dimensionerna för en transaktion i taget. När du bläddrar bland transaktionerna ändras innehållet på sidan **Transaktionsdimensioner** därefter.
+
+## <a name="troubleshooting-dimensions-errors"></a>Felsökning av dimensionsfel
+När du bokför dokument eller journalrader som innehåller dimensioner kan olika fel uppstå som vanligtvis hör till fel dimensionsinställning eller tilldelning.
+
+> [!NOTE]
+> I följande lista över möjliga felmeddelanden fungerar *%X*-koder som platshållare för datavariabler som det faktiska meddelandet innehåller i användargränssnittet beroende på sammanhanget. Till exempel *%1 %2 är spärrad.* kan visas i användargränssnittet som ”dimensionskodsområde är spärrat”.  
+
+|Problem|Felmeddelande|Möjlig lösning|
+|-----|-------------|-----------------|
+|Spärrad dimension|%1 %2 är spärrad.|-Sök efter icke-bokförda dokument som innehåller dimensionsuppsättningen med den spärrade dimensionen och lås upp den.<br />-Ta bort dimensionsuppsättningen för den spärrade dimensionen.|
+|Borttagen dimension|%1 %2 kan inte hittas.|-Återställ den saknade dimensionen.<br />-Sök efter icke-bokförda dokument som innehåller dimensionsuppsättningen med den saknade dimensionen och lägg till den.<br />-Ta bort dimensionsuppsättningen för den saknade dimensionen.|
+|Spärrat dimensionsvärde|%1 %2 - %3 är spärrad.|-Sök efter icke-bokförda dokument som innehåller dimensionsuppsättningen med det spärrade dimensionsvärdet och lås upp det.<br />-Ta bort dimensionsuppsättningsraden för det spärrade dimensionsvärdet.|
+|Borttaget dimensionsvärde|   %1 för %2 saknas.|-Återställ det saknade dimensionsvärdet.<br />-Sök efter icke-bokförda dokument som innehåller dimensionsuppsättningen med det saknade dimensionsvärdet och lägg till det.<br />-Ta bort dimensionsuppsättningen för den saknade dimensionsvärdet.|
+|Otillåtet dimensionsvärde|Dimensionsvärdetypen för %1 %2 - %3 får inte vara %4.|-Ändra fältet **dimensionsvärdetyp** på sidan **dimensionsvärden** till **Standard** eller **Från-summa**.<br />-Ta bort dimensionsuppsättningsraden för det spärrade dimensionsvärdet.|
+|Blockerad dimensionskombination|Dimensioner %1 och %2 kan inte användas samtidigt.|-Sök efter icke-bokförda dokument som innehåller dimensionsuppsättningen med det spärrade dimensionskombinationen och lås upp det.<br />-Ändra någon av de motstridiga behörighetsuppsättningsraderna för dimensionskombinationen.|
+|Blockerad dimensionskombination|Dimensionskombinationerna %1 - %2 och %3 - %4 kan inte användas samtidigt.|-Sök efter icke-bokförda dokument som innehåller dimensionsuppsättningen med det spärrade dimensionsvärdet och lås upp det.<br />-Ändra någon av de motstridiga behörighetsuppsättningsraderna för dimensionsvärdeskombinationen.|
+|Tom dimensionsvärdekod för standarddimensionen när fältet **värdebokföring** innehåller **Kod alltid**|-Välj %1 för %2 %3.<br />-Välj %1 för %2 %3 till %4 %5.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ange ett icke tomt dimensionsvärde för dimensionen som är i konflikt i dimensionsuppsättningen.|
+|Fel dimensionsvärdekod för standarddimensionen när fältet **värdebokföring** innehåller **Samma kod**|-Välj %1 %2 för %3 %4.<br />-Välj %1 %2 för %3 %4 till %5 %6.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ange krävt dimensionsvärde för dimensionen som är i konflikt i dimensionsuppsättningen.|
+|Icke-tomt dimensionsvärdekod för tomma standarddimensionen när fältet **värdebokföring** innehåller **Samma kod**|-%1 %2 måste vara tom.<br />-%1 %2 måste vara tom för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ange en icke tom dimensionsvärdekod för dimensionen som är i konflikt i dimensionsuppsättningen.|
+|Oväntat dimensionsvärde för standarddimensionen när fältet **värdebokföring** innehåller **Ingen kod**|-%1 %2 får inte tas med.<br />.%1 %2 får inte tas med för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ta bort raden i konflikt från dimensionsuppsättningen.|
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

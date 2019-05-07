@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807855"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915123"
 ---
 # <a name="creating-and-managing-contacts"></a>Skapa och hantera kontakter
 Olika grupper inom ditt företag har affärsrelationer med olika företag. En säljare kanske till exempel regelbundet träffar potentiella kunder och registrerar resultatet av dessa besök i slutet på veckan.
@@ -29,7 +29,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Till | Gå till |
 | --- | --- |
 | Ställ in kontakthantering innan du skapar kontakter. |[Ställa in kontakter](marketing-setup-contacts.md) |
-| Skapa ett kontaktkort för varje ny person eller företag du har samröre med, t.ex. en kund eller en leverantör. |[Skapar kontakter](marketing-create-contact-companies.md) |
+| Skapa ett kontaktkort för varje ny person eller företag du har samröre med, t.ex. en kund eller en leverantör. |[Skapa kontakter](marketing-create-contact-companies.md) |
+|Lösa problem när det finns två eller flera poster för samma kontakt.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Se även
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  

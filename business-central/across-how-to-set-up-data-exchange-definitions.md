@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807766"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914429"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
 Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
-Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet ”Så här beskriver du formateringen av rader och kolumner i filen”. Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet [Så här beskriver du formateringen av rader och kolumner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Du skapar normalt definitioner för datautbyte på sidan **datautbytesdefinitioner**. Men när du skapat en datautbytesdefinitioner för tjänsten med uppdatering av valutakurser startar du processen på den förenklade sidan **Inställning valutakursuppdatering**.  
 
@@ -39,7 +39,10 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 1. Sidan **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen.  
 2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     Beskrivs i följande procedurer.  
+Beskrivs i följande procedurer.  
+
+> [!TIP]
+> Om du vill se vilka kodmoduler som Microsoft använder i befintliga definitioner för standardprodukten, granska de tre fälten för **Codeunit** i rubriken på sidan **Fältmappning** för varje definition.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Så här beskriver du formateringen av rader och kolumner i filen  
 1. I rutan **Sök** anger du **Definitioner för datautbyte** och väljer sedan relaterad länk.  

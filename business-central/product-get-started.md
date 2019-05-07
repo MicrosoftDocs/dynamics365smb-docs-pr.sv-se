@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807514"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925999"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -41,7 +41,7 @@ När du är redo att sätta igång och vill titta på några av de verksamhetspr
 ## <a name="the-role-centers"></a>Rollcenter
 Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-Varje Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterad konfiguration som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningssidorna där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Varje Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterade konfigurationsguider som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningssidorna där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du Essential-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
@@ -73,7 +73,7 @@ Du kan också söka efter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner
 
 ## <a name="getting-answers-to-questions"></a>Få svar på frågor
 
-Om du inte vet hur man gör något i [!INCLUDE[d365fin](includes/d365fin_md.md)], hittar du förhoppningsvis svaret antingen från att läsa beskrivningen för det fält som du är osäker om, eller genom att läsa innehållet genom att öppna länken *Läs mer* i knappbeskrivningar. Du kan också öppna dokumentationen genom att välja relaterad länk på Hjälp-menyn.  
+Om du inte vet hur man gör något i [!INCLUDE[d365fin](includes/d365fin_md.md)], hittar du förhoppningsvis svaret antingen från att läsa beskrivningen för det fält som du är osäker om, eller genom att läsa innehållet genom att öppna länken *Läs mer* i knappbeskrivningar (använd kortkommandot Ctrl+F1 ). Du kan också öppna dokumentationen genom att välja relaterad länk på [Hjälp- och supportsidan](product-help-and-support.md).  
 
 Alla fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] beskrivs i knappbeskrivningar. Du kan använda knappbeskrivningar genom att välja namnet på fältet. Till exempel på en sida som **kundkort**, välj namnet på fältet om du vill läsa knappbeskrivningen för. På en lista som **kunder** eller raderna i ett dokument, till exempel försäljningsorder, måste du välja den nedrullningsbara menyn till höger om namnet på kolumnen och sedan menyobjektet **Förklaring?**.  
 
@@ -88,14 +88,16 @@ Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365]
 Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
+[Resurser för hjälp och support](product-help-and-support.md)  
 [Dynamics 365-dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

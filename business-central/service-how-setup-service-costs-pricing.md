@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8683d82b4a6f56f415f3b66efa5be11b003fe878
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807544"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926612"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Registrera prissättning och alternativa kostnader för tjänster
 Med prissättningsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du göra inställningar i och anpassa programmet så att du tillämpar och justerar priser för serviceartiklar, reparationer och order. Dessa beslut om prissättning överförs sedan till faktureringsprocessen.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a48bb2ab210d954901e8fb39b6e6ec59670bdee4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 759a6045440b7f15c7b87d3aff83c2447abd6ce2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807017"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913184"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurera datautbyte
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Dessutom kanske du måste skapa relaterade feltyper, till exempel huvuddata för kunder som du skickar elektroniska fakturor till eller bankdatakonverteringstjänsten om du vill använda den externa tjänsteleverantören för konvertering av dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  

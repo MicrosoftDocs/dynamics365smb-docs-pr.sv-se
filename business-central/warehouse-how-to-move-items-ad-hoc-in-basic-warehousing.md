@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3760be8694f8c65ae07abaea9234a5dd524bb47
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808218"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913113"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytta artiklar ad hoc i grundläggande lagerkonfigurationer
 Ibland kan du behöva flytta artiklar mellan interna lagerplatser, inte inleverans eller utleveranslagerplatser, utan en viss efterfrågan från ett källdokument. Du kan utföra dessa ad hoc-transporter, till exempel, kan du ordna om distributionslagret, för att få artiklarna till område, eller flytta ytterligare artiklar till och från en produktionsområde utan ett systemsamband med produktionsorderkälldokumentet.  
@@ -57,7 +57,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
     Du utför resten av ad hoc-flyttningen på sidan **Lagertransport**, på samma sätt som du skulle för en transport baserat på källdokument. För mer information, se [Flytta komponenter till ett verksamhetsområde i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Så här flyttar du artiklar med artikelgrupperingsjournalen
-Du kan registrera flyttning av objekt genom att gruppera de lagerplatskoder som finns i stället för att använda dokument för distributionslagertransport. Mer information finns i [Inventera, justera och gruppera om lager](inventory-how-count-adjust-reclassify.md).   
+Du kan registrera flyttning av objekt genom att gruppera de lagerplatskoder som finns i stället för att använda dokument för distributionslagertransport. Mer information finns i [Inventera, justera och gruppera om lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).   
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelgrupp.journal** och välj sedan relaterad länk.  
 2.  Definiera vilka lagerplatser som du vill flytta artiklar till och från på varje journalrad, genom att fylla i **Lagerplatskod** och **Ny lagerplatskod** fältet.  
 

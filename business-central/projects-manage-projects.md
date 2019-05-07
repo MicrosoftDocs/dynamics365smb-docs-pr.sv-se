@@ -1,23 +1,19 @@
 ---
 title: Projektaktiviteter som använder resurser och tidrapporter | Microsoft Docs
 description: Beskriver hur du använder resurser och tidrapporter och projekt för att hantera projekt.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808127"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921034"
 ---
 # <a name="project-management"></a>Projekthantering
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utföra vanliga projekthanteringsuppgifter som t.ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
@@ -38,13 +34,18 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Bokför förbrukningen av material och resurser och andra kostnader för pågående projektarbete (PIA) för att övervaka dess ekonomiska värde och för att behålla korrekt redovisning, även om du bokför projektkostnader innan du fakturerar projektet. |[Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md) |
 | Registrera projektkostnader för resursförbrukning, material och projektrelaterade inköp på löpande basis fakturera kunden, antingen när projektet har slutförts eller enligt ett faktureringschema. |[Fakturera projekt](projects-how-invoice-jobs.md) |
 
+## <a name="get-started-with-projects"></a>Komma igång med projekt
+
+Projekthantering är komplicerad i sig och att lära dig hur du skapar projekt och hanterar resurser i arbete i ett nytt verktyg kan vara en annan komplikation. För att komma igång med projekthantering i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en videofilm om hur du skapar projekt](https://www.youtube.com/watch?v=VqaPWr7BWmw) på kanalen [!INCLUDE [prodshort](includes/prodshort.md)]YouTube.  
+
 ## <a name="see-also"></a>Se även
+
 [Ställa in projekthantering](projects-setup-projects.md)  
-[Ändra vilka funktioner som visas](ui-experiences.md)      
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)    
+[Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Ändra vilka funktioner som visas](ui-experiences.md)  
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

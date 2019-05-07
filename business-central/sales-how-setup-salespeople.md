@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 01872122592db05ec49b765dd78b59e98b6239f6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807064"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916525"
 ---
 # <a name="set-up-salespeople"></a>Skapa säljare
 Många företag har behov av att följa en individuell anställds prestationer som en grund för att beräkna provision eller bonus. Visa till exempel **säljareprovisionsrapporten**. Ett företag kan också vilja knyta en säljare till var och en av sina kontakter.

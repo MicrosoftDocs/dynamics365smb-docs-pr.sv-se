@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807143"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918153"
 ---
-# <a name="setting-up-contacts"></a>Ställa in kontakter
+# <a name="set-up-contacts"></a>Ställa in kontakter
 När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
 
 Innan du skapar kontakter och registrerar uppgifter om affärsrelationerna, måste du skapa olika koder som du använder för att tilldela informationen till kontaktföretagen och -personerna. Du kan skapa koder för utskicksgrupper, branschgrupper, affärsrelationer, webbadresser, befattningsnivåer och arbetsansvar. Du kan skapa dessa genom att välja åtgärden **nytt** när du söker i listor från kontaktkortet.  
@@ -151,10 +151,10 @@ För att synkronisera kontaktkort med länkade kund-, leverantörs- eller bankko
 
 Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Söka efter dubbelkontakter, när kontakter skapas
-Du kan välja automatisk sökning efter kopior varje gång du skapar kontaktföretag eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior.
+## <a name="searching-for-duplicate-contacts"></a>Söka efter dubbelkontakter
+Du kan välja automatisk sökning efter kopior varje gång du skapar en kontakt eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior. Du ställer in detta på snabbfliken **Dubbletter** på sidan **Marknadsföringsinställning**
 
-Du ställer in detta på snabbfliken **Dubbletter** på sidan **Marknadsföringsinställning**
+När du har hittat dubbelkontakter kan du använda sidan **Koppla dubblett** för att koppla den till en befintlig kontaktpost som du vill behålla. Mer information finns i [Koplla dubblettposter](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  

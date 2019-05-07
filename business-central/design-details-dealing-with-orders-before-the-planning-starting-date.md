@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, frozen, design serial, lot
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 32c523eda09620bd74df53f09bc103a44fbb367a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807747"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919780"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Designdetaljer: Hantera order före planeringsstartdatumet
 För att förhindra att en tillförselplan visar omöjliga och därför oanvändbara förslag, betraktar planeringssystemet perioden fram till planeringsstartdatumet som en fryst zon som inget planeras för. Följande regel gäller för den frysta zonen:  

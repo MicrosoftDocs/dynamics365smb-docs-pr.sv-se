@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852149"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924457"
 ---
 # <a name="administration"></a>Administration
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
@@ -44,7 +44,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa sidor, kodenheter och frågor som webbtjänster.|[Publicera en webbtjänst](across-how-publish-web-service.md)|
 |Som en del av att skapa Connect-appar mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och 3:e partens tillverkarlösningar via REST API, definiera mallar som används för att fylla i tomma egenskaper på en enhet när du skapar en POST-åtgärd genom API.|[Konfigurera API-mallar](admin-configuring-api-template.md)|
 |Kryptera data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-server genom att skapa nya eller importera befintliga krypteringsnycklar som du aktiverar på servern.|[Hantera datakryptering](admin-manage-data-encryption.md)|
-|Ansluta Dynamics 365 for Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrera med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Ansluta Dynamics 365 for Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Se även

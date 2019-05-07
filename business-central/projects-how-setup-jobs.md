@@ -1,51 +1,51 @@
 ---
 title: Ställa in projektpris projektbokföringsmallar | Microsoft Docs
 description: Beskriver hur du ställer in jobb för allmän information och ställer in priser för projektartiklar, resurser och redovisningskonton och projektbokföringsmallar.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806844"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918847"
 ---
 # <a name="set-up-jobs"></a>Konfigurera projekt
-På sidan **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
 
-På de individuella de projektkorten måste du lägga upp priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
+Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar i [!INCLUDE [prodshort](includes/prodshort.md)]. På sidan **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
+
+För varje jobb, anger du de individuella de projektkorten med information om priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Kryssrutan **Använd förbrukningslänk som standard** är ganska komplex och förklaras därför i följande avsnitt.
+> [!NOTE]
+> Effekten för fältet **Använd förbrukningslänk som standard** är ganska komplex och förklaras därför i följande avsnitt.
 
-## <a name="to-set-up-job-usage-tracking"></a>Så här anger du projektförbrukningsspårning
+### <a name="to-set-up-job-usage-tracking"></a>Så här anger du projektförbrukningsspårning
+
 När du vill köra ett jobb, kan det hända att du vill veta hur förbrukningen spåras mot ditt plan. Det gör du enkelt genom att skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Detta gör att du kan spåra dina kostnader och enkelt visa hur mycket som återstår att göra. Som standard är projektplaneringsradtypen **Budget**, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
 
-Om du väljer kryssrutan **Använd förbrukningslänk som standard** kan du granska informationen på projektplaneringsraden. Du kan ange antal av resursen, artikeln eller redovisningskontot och sedan ange vilket antal som du vill överföra i projektjournalen. Fältet **Återstående antal** på projektplaneringsraden talar om vad som återstår att överföra och bokföra till projektjournalen.
+Om du väljer fältet **Använd förbrukningslänk som standard** kan du granska informationen på projektplaneringsraden. Du kan ange antal av resursen, artikeln eller redovisningskontot och sedan ange vilket antal som du vill överföra i projektjournalen. Fältet **Återstående antal** på projektplaneringsraden talar om vad som återstår att överföra och bokföra till projektjournalen.
 
-Om kryssrutan **Använd förbrukningslänk som standard** är markerad och projektplaneringsraden är av typen **Fakturerbart** skapar Finansiell en projektplaneringsrad av typen **Budget** när du har bokfört journalraden.
+> [!TIP]  
+> Du kan aktivera eller inaktivera projektförbrukningsspårning för ett visst projekt. Värdet på fältet **Använd förbrukningslänk** för de enskilda projekten åsidosätter inställningen på sidan **Projektinställningar**.  
 
-> [!NOTE]  
->   Om kryssrutan **Använd förbrukningslänk som standard** på arbetskortet är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas nya projektplaneringsrader av radtypen **Budget** när du bokför projektjournalrader. Om kryssrutan **Använd förbrukningslänk som standard** på arbetskortet inte är markerad och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
+Om kryssrutan **Använd förbrukningslänk som standard** är markerad och projektplaneringsraden är av typen **Fakturerbart** skapas en projektplaneringsrad av typen **Budget** när du har bokfört projektjournalraden.
+
+> [!IMPORTANT]
+> Om projektförbrukningsspårning är aktiverad, antingen på sidan **Projektinställningar** eller på det individuella projektet och fältet **Radtyp** på projektjournalraden är tomt, skapas nya projektplaneringsrader av radtypen **Budget** när du bokför projektjournalrader.  
+>  
+> Om projektförbrukningsspårning *inte* är aktiverad, antingen på sidan **Projektinställningar** eller på det individuella projektet och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
 1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
-2. Markera eller avmarkera kryssrutan **Använd förbrukningslänk som standard**.
-
-> [!NOTE]  
->   Du kan skapa en annan inställning av **Använd förbrukningslänk som standard** på de individuella arbetskorten. I så fall åsidosätter inställningen för det projektet den allmänna standardinställningen som beskrivs ovan.
+2. Markera kryssrutan **Använd förbrukningslänk som standard**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Så här anger du priser för projektresurser
 Du kan lägga upp särskilda resurspriser för ett projekt. Du använder sidan **Resurspriser för projekt** om du vill göra detta.
@@ -114,9 +114,11 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. |
 
 ## <a name="see-also"></a>Se även
+
 [Ange projekthantering](projects-setup-projects.md)  
+[Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Hantera projekt](projects-manage-projects.md)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806996"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926538"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
 När du registrerar dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du välja att skapa ett tomt företag så att du kan överföra din egen information och testa det nya [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget. Beroende på finanslösningen som används i din verksamhet idag, kan du överföra information om kunder, leverantörer, lager och bankkonton.  
@@ -31,6 +31,8 @@ Du kan importera huvuddata och vissa transaktionsdata från andra finansiella sy
 
 > [!NOTE]  
 > För större implementeringar kan du använda RapidStart Services för [!INCLUDE[d365fin](includes/d365fin_md.md)], som är ett omfattande verktyg för att skapa nya lösningar baserade på kundernas affärskrav och konfigurationsdata. RapidStart Services inkluderar även funktioner för import av affärsdata. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+Om du vill importera artikelbilder kan du använda en särskild funktion på sidan **Lagerinställningar**. Mer information finns i [importera flera artikelbilder](inventory-how-import-item-pictures.md).
 
 ## <a name="importing-data-from-configuration-packages"></a>Importera data från ett konfigurationspaket
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett konfigurationspaket som du kan exportera till Excel och ange dina data där. Sedan kan du importera datan från Excel igen. Paketet består av 27 register, inklusive huvuddata som t.ex. kunder, leverantörer, artiklar och konton, andra grundläggande inställningstabeller, som till exempel leveransmetoder och transaktionstabeller som t.ex. rubrik och rader.  
@@ -78,6 +80,6 @@ Standardkonfigurationspaketet stöder följande tabeller:
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
+[Importera flera artikelbilder](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

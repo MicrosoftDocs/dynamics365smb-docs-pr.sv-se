@@ -1,6 +1,6 @@
 ---
 title: Hur du anger du data i fält | Microsoft Docs
-description: Det finns många allmänna funktioner som gör det snabbt och enkelt att registrera data. Dessa funktioner för dataregistrering beskrivs i det här avsnittet.
+description: Lär dig mer om allmänna funktioner som hjälper dig att ange data i fälten.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,66 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852499"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929079"
 ---
 # <a name="entering-data"></a>Ange data
-Det finns många allmänna funktioner som gör det snabbt och enkelt att registrera data. Dessa funktioner för dataregistrering beskrivs i den här artikeln.  
 
-I exemplen nedan används demonstrationsdata.
+Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. Dessa allmänna funktioner för dataregistrering beskrivs i den här artikeln.  
+
+<!-- The examples in this article use the demonstration data.-->
+
+## <a name="keyboard-shortcuts"></a>Kortkommandon
+
+Det finns flera kortkommandon som gör att du kan arbeta ”utan mus” och snabba på din datainmatning, särskilt med storskaliga och återkommande textinmatningsuppgifter.
+
+Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I den här artikeln beskrivs några genvägar.
+
+## <a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
+
+Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t.ex. på kortsidorna) och i listor (rader och kolumner). Det är bra när återkommande textinmatningsuppgifter utförs som behöver skapa flera poster i taget, till exempel en uppsättning försäljningsorder eller registrering av nya artiklar.
+
+Du kanske redan känner till att använda Tabb-tangenten för att gå från ett fält på en sida till nästa redigerbara fält. Nackdelen med att använda Tabb-tangenten är att det alltid går sekventiellt till nästa fält. <!-- even if the field is non-editable or seldom filled it in.-->Snabbinmatning låter dig ändra den här sökvägen. Med snabbinmatning använder du Retur-knappen för att navigera i de fält som du är intresserad av, hoppar över skrivskyddade fält och fält som du vanligtvis inte fyller i. Du kanske redan har upptäckt denna funktion på vissa sidor. Detta beror på att programmet redan anger vilka fält som ska inkluderas när du trycker på Retur och vilka som ska hoppas över. Du kan anpassa snabbinmatning genom att anpassa arbetsytan och optimera hur du anger data på varje sida.
+
+### <a name="how-quick-entry-works"></a>Hur snabbinmatning fungerar
+
+Varje fält kan markeras som antingen *inkluderas i snabbinmatning* eller *exkluderas från snabbinmatning*. Som inkluderas i snabbinmatning inkluderas i sökvägen när du trycker på Retur. fält som exkluderas från snabbinmatning kommer inte att göra detta.
+
+När du är klar med att ange data i ett fält trycker du bara på Retur för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på Shift + Retur. Mer information om genvägar finns i [kortkommandon på tangentbord för snabbinmatning](keyboard-shortcuts.md#QuickEntry).
+
+#### <a name="tips-and-tricks"></a>Tips och råd
+Nedan finns användbar information om hur du använder snabbinmatning.
+
+- Den är tillgänglig för alla fält som kan redigeras.
+- Den fungerar även i kolumner och rader.
+- Den hindrar inte från att komma åt andra element på en sida, till exempel åtgärder. Dessa är tillgängliga genom att använda Tabb och Shift + Tabb.  
+- Snabbflikarna behöver inte expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det tilldelade fältet.
+- Snabbinmatning fungerar oavsett om fälten är obligatoriska. Så det är en bra idé att kontrollera att obligatoriska fält är inkluderade i snabbinmatning.
+- Som standard inkluderas de flesta fält i snabbinmatning. Så i början kommer uppgiften troligen att utesluta fält från snabbinmatning.
+
+### <a name="how-to-change-quick-entry-fields"></a>Så här ändrar du snabbinmatningsfält
+
+Om du vill ändra vilka fält som ska inkluderas eller exkluderas i snabbinmatning på en sida, kan du använda anpassning.
+
+1. Starta anpassning genom att välja ikonen ![inställningar](media/ui-experience/settings_icon_small.png "ikonen inställningar för rollcenter") och sedan **anpassa**.
+2. Välj ett fält som du vill ändra, eller i listor, väljer du motsvarande kolumnrubrik eller väljer antingen **inkludera i snabbinmatning** eller **exkludera snabbinmatning**.
+
+Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Obligatoriska fält
+
 När du anger data på sidor markeras vissa fält med en röd asterisk. Den röda asterisken betyder att fältet måste fyllas för att slutföra en viss process som använder fältet, till exempel bokföra en transaktion som använder värdet i fältet.  
 
 Även om fältet innehåller en asterisk tvingas du inte att fylla u fältet innan du fortsätter till andra fält eller avslutar sidan. Den röda asterisken fungerar endast som en påminnelse att du kommer att spärras från att slutföra en viss process.  
 
+## <a name="finding-data-as-you-type"></a>Söka efter data allt eftersom du skriver
 
-## <a name="finding-data-as-you-type"></a>Söka efter data allt eftersom du skriver  
  När du börjar skriva tecken i ett fält visas en listruta med möjliga fältvärden. Listan ändras allt eftersom du skriver fler tecken, och du kan välja rätt värde när det visas.  
 
  Många fält har en nedpil-knapp som du kan välja. Du kan välja pilen om du vill visa en lista med data som är tillgängliga för fältet. Knappen har två funktioner beroende på typen av fält:  
@@ -37,32 +76,37 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
 -   Lista – Visar den uppsättning alternativ (fasta val) som finns för fältet. Du kan bara markera ett av alternativen.  
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+## <a name="copying-and-pasting-fields-and-lines"></a>Kopiera och klistra in fält och rader
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+Du kan kopiera en eller flera rader i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post). Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS).
 
--   Copy Cell  
+I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden, tryck bara på F8.
 
--   Copy Rows  
+Mer information finns i [Kopiera och klistra in i Business Central](ui-copy-paste.md).
 
--   Paste Rows  
+## <a name="Focus"></a>Fokusera på radartiklar
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+När du arbetar med dokument som innehåller en radartikeldel, som en försäljningsorder eller en fakturasida kan du växla vyn till att fokusera på poster, i huvudsak expandera radartikeldelen så att den upptar nästan hela arbetsytan, dölja andra delar av den sidan förutom åtgärder överst. Detta ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem. Detta är speciellt viktigt när du arbetar med stora radposter och snabb dataregistrering önskas.
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+En annan fördel är den även ger avancerade filtreringsfunktioner, precis som i andra listor, så bläddra och söka igenom radposter blir ännu enklare.
 
-> [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+### <a name="switch-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
-#### To copy previous field  
+För att fokusera på radartiklar väljer du var som helst i radartikeldelen och välj ![ikonen Fokusläge](media/focus-mode.png "ikonen Fokusläge") i övre högra hörnet eller tryck på Ctrl + Shift + F12.
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+Om du vill växla tillbaka till normal vy, väljer ![ikonen Fokusläge](media/focus-mode.png "ikonen Fokusläge") eller tryck på Ctrl + Shift + F12 igen.
 
-## <a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning  
- När du skriver siffror i antalsfält, till exempel fältet **Antal** för en artikeljournalrad, kan du skriva formeln i stället för summan.  
+### <a name="filtering-the-line-items"></a>Filtrera radposter
 
-## <a name="examples"></a>Exempel  
+För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på **Shift+F3** för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+
+Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura och filtrerar radposter för att visa alla radposter som har en enskild rabatt på mer än 5 % eller ett filter för att visa endast cykeltillbehör med "proffs" i namnet.
+
+## <a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning
+
+När du skriver siffror i antalsfält, till exempel fältet **Antal** för en artikeljournalrad, kan du skriva formeln i stället för summan.  
+
+### <a name="examples"></a>Exempel  
 
 -   Om du skriver 19+19 beräknas fältet till 38.  
 
@@ -73,6 +117,7 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 -   Om du skriver 12/4 beräknas fältet till 3.  
 
 ## <a name="entering-negative-numbers"></a>Ange negativa antal
+
 Du kan ange negativa antal på två sätt. Numret -20,5 som kan anges:  
 
 -   -20.5  
@@ -85,13 +130,17 @@ Du kan ange negativa antal på två sätt. Numret -20,5 som kan anges:
  Om det sista tecknet i uttrycket är **+** eller **-**, kommer hela uttrycket registreras med det tecknet. Ett exempel, **10-20+**, ska leda till 10 och inte -10.  
 
 ## <a name="entering-dates-and-times"></a>Ange datum och tider
+
 Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller utan avgränsare.
 
 > [!NOTE]  
 > Hur du anger datum och klockslag beror på dina **region**-inställningar. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Ange datum  
- I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.  
+### <a name="entering-dates"></a>Ange datum
+
+För datumfält kan du antingen använda dataväljaren som låter dig välja ett datum från en kalender eller så kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
+
+För manuell datainmatning kan du skriva in två, fyra, sex eller åtta siffror.  
 
 -   Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.  
 
@@ -99,24 +148,22 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
 -   Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.  
 
- Du kan också skriva ett datum som en veckodag följt av veckonumret och (valfritt) ett år (exempelvis Mån25, eller mån25 betyder måndagen i vecka 25).  
+Du kan också skriva ett datum som en veckodag följt av veckonumret och (valfritt) ett år (exempelvis Mån25, eller mån25 betyder måndagen i vecka 25).  
 
- I stället för att skriva in ett visst datum kan du skriva in någon av de två koderna nedan.  
+I stället för att skriva in ett visst datum kan du skriva in någon av dessa koder.  
 
 |Kod|Resultat|  
 |--------------|----------------|  
-|d|Det här är dagens datum (detta är datorns systemdatum).|  
-|a|Detta är arbetsdatumet som har lagts upp i programmet. Om du vill ändra arbetsdatumet, [ändra grundläggande inställningar](ui-change-basic-settings.md). Det är praktiskt att använda arbetsdatum om du har många transaktioner med ett annat datum än dagens datum.|  
+|d|Det här anger dagens datum (detta är datorns systemdatum).|  
+|p|Det här anger en bokföringsperiod där `p`innebär att den första bokföringsperiod, `p2` innebär det andra kontot, och så vidare. |
+|a|Detta anger arbetsdatumet som har lagts upp i programmet. Om du vill ändra arbetsdatumet, [ändra grundläggande inställningar](ui-change-basic-settings.md). Det är praktiskt att använda arbetsdatum om du har många transaktioner med ett annat datum än dagens datum.|
+|c|Detta anger att datumet efter `c`är ett avslutsdatum, till exempel `C123101`.|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a>Ange tider
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+När du anger tider kan du infoga vilken avgränsare du vill mellan enheterna. Detta är dock inte obligatoriskt. Du behöver inte skriva minuter, sekunder eller AM/PM.  
 
-## <a name="entering-times"></a>Ange tider  
- När du anger tider kan du infoga vilken avgränsare du vill mellan enheterna. Detta är dock inte obligatoriskt. Du behöver inte skriva minuter, sekunder eller AM/PM.  
-
- I följande tabell visas de olika sätt som du kan ange tider på, samt hur de tolkas.  
+I följande tabell visas de olika sätt som du kan ange tider på, samt hur de tolkas.  
 
 |Transaktion|Tolkning|  
 |---------------|------------------------|  
@@ -130,10 +177,11 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
  Du måste ange två siffror för varje tidsenhet om du inte använder någon avgränsare.  
 
-## <a name="entering-datetimes"></a>Ange datum och tid  
- När du anger datum och tid måste du ange ett blanksteg mellan datumet och tiden.  
+## <a name="entering-datetimes"></a>Ange datum och tid
 
- Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en förklaring av hur de ska tolkas.  
+När du anger datum och tid måste du ange ett blanksteg mellan datumet och tiden.  
+
+Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en förklaring av hur de ska tolkas.  
 
 |Transaktion|Tolkning|  
 |---------------|------------------------|  
@@ -158,10 +206,11 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 |ti 10:30|tisdag i innevarande vecka 10:30:00|  
 |ti 03:03:03|tisdag i innevarande vecka 03:03:03|  
 
-## <a name="entering-duration"></a>Ange varaktighet  
- Du anger varaktigheten som en siffra följd av en enhet.  
+## <a name="entering-duration"></a>Ange varaktighet
 
- Här följer några exempel.  
+Du anger varaktigheten som en siffra följd av en enhet.  
+
+Här följer några exempel.  
 
 |Varaktighet|Måttenhet**|  
 |------------------|-------------------------|  
@@ -192,70 +241,72 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a>Använda datumformler  
- En datumformel är en kort kombination av förkortningar med bokstäver och siffror som anger hur datum ska beräknas. Du kan ange datumformler i olika beräkningsfält för datum och i fält för återkomstfrekvens i återkommande journaler.  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  I alla dataformulärfält inkluderas automatiskt en dag att täcka i dag som dagen när perioden börjar. Därefter om du anger, till exempel 1 vecka, är perioden faktiskt åtta dagar eftersom idag inkluderas. För att ange en period av sju dagar (en exakt vecka) inklusive perioden för startdatum måste du ange 6 dagar eller 1 vecka minus 1 dag.  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- Här följer några exempel på hur datumformler kan användas:  
+ Here are some examples of how date formulas can be used:  
 
--   Datumformeln i fält för återkommande frekvens i återkommande journaler bestämmer hur ofta posten på journalraden ska bokföras.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   Datumformeln i fältet Betalningsfrist för en viss påminnelsenivå bestämmer vilken tidsperiod som ska förflyta från förfallodatumet (eller från den föregående påminnelsen) innan en påminnelse ska skapas.  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   Datumformeln i fältet Förfallodatumformel bestämmer hur förfallodatumet på påminnelsen beräknas.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- Formeln för datumberäkning kan bara omfatta högst 20 tecken, både siffror och bokstäver. Du kan använda följande bokstäver som förkortningar för tidsangivelser.  
-
-|||  
-|-|-|  
-|L|Löpande (innevarande)|  
-|D|Dag/dagar|  
-|V|Vecka/veckor|  
-|M|Månad/månader|  
-|K|Kvartal|  
-|Å|År|  
-
- Du kan bygga upp en datumformel på tre sätt.  
-
- Följande exempel visar hur aktuell plus en tidsenhet.  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|LV|Löpande (innevarande) vecka|  
-|LM|Löpande (innevarande) månad|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- Följande exempel visar hur ett antal och en tidsenhet. Ett nummer får inte vara högre än 9 999.  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|10D|Tio dagar från dagens datum.|  
-|2V|Två veckor från dagens datum|  
-
- Följande exempel visar hur en tidsenhet och ett antal.  
-
-|||  
-|-|-|  
-|D10|Den tionde dagen varje månad.|  
-|VD4|Den nästa fjärde dagen i en vecka (torsdag)|  
-
- Följande exempel visar hur du kombinera dessa tre metoder om så behövs.  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|LM+10D|Löpande månad + 10 dagar|  
+|CW|Current week|  
+|CM|Current month|  
 
- Följande exempel visar hur du använder ett minustecken för att ange ett datum i det förflutna.  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|-1Å|1 år sedan från idag|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
 ## <a name="see-also"></a>Se även  
  [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

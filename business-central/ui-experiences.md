@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806976"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912420"
 ---
 # <a name="changing-which-features-are-displayed"></a>Ändra vilka funktioner som visas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad för att hjälpa dig att köra din verksamhet oavsett vilken verksamhet som du befinner dig i. I kärnan av [!INCLUDE[d365fin](includes/d365fin_md.md)] hittar du ekonomisk rapportering och försäljning-s och inköpsprocesser. Du lägger till upplevelser till detta i enlighet med dina företagsbehov genom att lägga till tillägg från AppSource eller genom att ändra upplevelseinställningen för ditt företag. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] Använda tillägg](ui-extensions.md), eller [Välja en användarupplevelse för att visa eller dölja funktioner](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/14/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 32a50a2b1b967fa2f19022ab6e07865716243d8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808052"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917172"
 ---
 # <a name="archive-documents"></a>Arkivera dokument
 Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och avropsorder, till exempel för att spara en kopia av dokumentet för senare användning. Du kan arkivera ett försäljnings- eller inköpsdokument flera gånger och spara en annan arkiverad version varje gång.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 5befadf7a162cc2094fbb1ef426e25d02d50e856
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852361"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918176"
 ---
 # <a name="define-user-tasks"></a>Definiera användarens uppgifter
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du skapa uppgifter som påminner dig om arbetet som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.  

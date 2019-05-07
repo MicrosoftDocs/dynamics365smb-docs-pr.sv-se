@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 535a899ed43e2d7112699fff9aa3ebc6f4289292
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808293"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923818"
 ---
 # <a name="create-journal-opening-balances"></a>Skapa ingående saldon för journalen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller flera batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nytt konfigurerat företag. Det är enkelt att överföra dessa data för kundjournalen, leverantörsjournalen, artikeljournalen och redovisningsjournalen.
 
-Det första steget är att skapa ett konfigurationspaket som innehåller inställningstabeller för dessa journaler. I följande procedur förutsätts att detta steg har utförts. (Mer information finns i [Skapa redovisningsjournaler](admin-set-up-company-configuration.md). Denna procedur beskriver de efterföljande stegen, bland annat koppling av paketet som tillhandahålls av en partner.  
+Det första steget är att skapa ett konfigurationspaket som innehåller inställningstabeller för dessa journaler. I följande procedur förutsätts att detta steg har utförts. Mer information finns i [Skapa redovisningsjournaler](admin-set-up-company-configuration.md). Denna procedur beskriver de efterföljande stegen, bland annat koppling av paketet som tillhandahålls av en partner.  
 
 Innan du börjar rekommenderar vi att du går till implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 

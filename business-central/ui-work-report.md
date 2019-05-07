@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852430"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921415"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Arbeta med rapporter och batch-jobb
 En rapport samlar in information som baseras på en viss uppsättning villkor och ordnar och visar informationen i ett format som är lätt att läsa, och kan skrivas ut. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
@@ -50,9 +50,9 @@ Att använda sparade inställningar är ett snabbt och säkert sätt att på ett
 ### <a name="setting-options-and-filters"></a>Ange alternativ och filter
 Om du ytterligare vill begränsa eller exakt ange den data som ska ingå i rapporten kan du ange ytterligare alternativ och filter.
 
-Filter låter dig visa data baserat på specifika kriterier. Filter grupperas efter den entitet de tillhör, exempelvis **Kund** i ovanstående illustration. Du anger ett filter genom att ange rutan **Där** som det fält du vill tillämpa filtret på och sedan lägga till kriteriet i rutan **är:**. I ovanstående illustration finns exempelvis ett enda filter som kommer att skapa en rapport för den kund vars **No.** (nummer) är lika med **01121212**.
+Filter låter dig visa data baserat på specifika kriterier. Filter grupperas efter den entitet de tillhör, exempelvis **Kund** i ovanstående illustration. Du anger ett filter genom att ange rutan **Där** som det fält du vill tillämpa filtret på och sedan lägga till kriteriet i rutan **är:**.
 
-Du kan lägga till fler filter genom att ange rutorna för **Lägg till**. När du har mer än ett filter kommer endast de resultat som matchar kriterierna för samtliga filter att inkluderas i rapporten.
+Du kan lägga till fler filter genom att fylla i rutorna **Och** och **Är** rutor. När du har mer än ett filter kommer endast de resultat som matchar kriterierna för samtliga filter att inkluderas i rapporten.
 
 Beroende på den typ av fält som du filtrerar kan du ange att filterkriterierna ska söka efter en exakt matchning, en delmatchning, ett värdeintervall med mera. För information om hur du ställer in filter, se:
 -   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)

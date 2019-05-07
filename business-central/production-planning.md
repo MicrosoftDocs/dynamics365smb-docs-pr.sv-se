@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852200"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929580"
 ---
 # <a name="planning"></a>Planering
 De produktionsoperationer som krävs för att omvandla inflöde till färdiga varor måste planeras varje dag eller varje vecka beroende på vad det är för produkt och vilka volymer det handlar om. [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder funktioner för att leverera mot förväntat och faktiskt behov från försäljning, montering och produktion samt för distributionsplanering med lagerställeenheter och lageröverföringar.
 
 > [!NOTE]
-> Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är sidan **planeringsförslag**.
-
+> Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är sidan **planeringsförslag**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder också leveransplanering för grossistföretag där de resulterande leveransordrarna endast kan vara överföring och inköpsorder. Huvudsakliga gränssnittet för den här planeringen är sidan **inköpskalkylark** som indirekt beskrivs i det här avsnittet eftersom de flesta funktioner gäller för båda kalkylark.
 
 Innan du kan planera och genomföra produktionsorder måste du konfigurera produktionskapaciteterna, till exempel att skapa fabrikskalendrar, verksamhetsflöden, produktionsstrukturer och maskingrupper. Mer information finns i [Konfigurera tillverkning](production-configure-production-processes.md).

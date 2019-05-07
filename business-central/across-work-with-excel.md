@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807430"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925046"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visa och redigera i Excel från Business Central 
 
@@ -43,6 +43,8 @@ Med sidor som visar en lista över poster i rader och kolumner som en lista öve
 >[!NOTE]
 >För [!INCLUDE[prodshort](includes/prodshort.md)] lokal, är åtgärden **redigera i Excel** endast tillgänglig om Excel-tillägget har installerats av administratören. För administratörer, om du vill veta hur du installerar Excel-tillägg, se [ställa in Excel-tillägget](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="see-also"></a>Se även
+### <a name="see-the-differences-between-the-options"></a>Se skillnaden mellan alternativen 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
+## <a name="see-also"></a>Se även
 [Arbeta med Business Central](ui-work-product.md)  

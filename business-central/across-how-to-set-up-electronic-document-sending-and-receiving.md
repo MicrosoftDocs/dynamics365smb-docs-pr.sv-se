@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/04/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 629de391871a6e8d089740e483aa1443856359c7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808060"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917989"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurera utskick och mottagning av elektroniska dokument
 Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande\-fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som kan tas emot och konverteras till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag.  

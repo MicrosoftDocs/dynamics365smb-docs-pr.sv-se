@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ca6edfb33aebedeb70deb17b78abbdb0024f7b2d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808170"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920256"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
 Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  

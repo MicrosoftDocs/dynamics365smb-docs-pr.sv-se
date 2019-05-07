@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/19/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807991"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920421"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
 För att komma igång snabbare innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer för de flesta ekonomiska processer. Om du behöver ändra konfigurationen så att de passar din verksamhet kan du fortsätta direkt. Från Rollcenter kan du exempelvis använda en assisterad konfigurationsguide som hjälper dig att konfigurera momssatsen för din plats.  

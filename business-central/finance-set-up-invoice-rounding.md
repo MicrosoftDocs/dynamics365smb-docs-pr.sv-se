@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 2cd31544c029d66b838bbbdf27bebdcc73252014
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4ab5031668e9db877a4ea04f77160794162ca7a1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807654"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920349"
 ---
 # <a name="set-up-invoice-rounding"></a>Ställa in överavrundning
 Om du måste avrunda fakturabelopp när du skapar fakturor, kan du använda funktionen för automatisk avrundning. När en faktura rundas av infogas en extra rad med avrundningsbeloppet och bokförs tillsammans med övriga fakturarader.

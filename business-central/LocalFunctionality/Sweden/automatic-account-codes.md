@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8e80ac48087770b7122ad7f9d76bd139fe0c9fe
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 6412ae7edc3c150f25a16bdb599cec72ee85c6e9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827169"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923314"
 ---
 # <a name="automatic-account-codes"></a>Automatiska kontokoder
 Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument. Dessa bokföringsmallar kan du använda i hela [!INCLUDE[d365fin](../../includes/d365fin_md.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807085"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919983"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeta med serienummer och partinummer
 Du kan tilldela serie- och partinummer till alla avgående och ankommande dokument och visa de bokförda artikelspårningstransaktionerna i de associerade artikeltransaktionerna. Du utför arbetet på sidan **Artikelspårningsrader** som du öppnar från ett inkommande eller utgående dokument.
@@ -240,7 +240,7 @@ Innehållet i fälten **Serienr** Och **Partinr** går inte att redigera. Du kan
 Att gruppera artikelspårningen för en artikel innebär att ett parti- eller serienummer ändras till ett nytt parti- eller serienummer eller att utgångsdatumet ändras till ett nytt utgångsdatum. Vid arbete med partier går det även att koppla flera partier till ett enda. De här aktiviteterna utförs med hjälp av artikelgrupperingsjournalen.
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelgrupp.journal** och välj sedan relaterad länk.  
-2.  Fyll i raden med relevant information. Mer information finns i [Inventera, justera och gruppera om lager](inventory-how-count-adjust-reclassify.md).
+2.  Fyll i raden med relevant information. Mer information finns i [Beräkna lager med hjälp av dokument](inventory-how-count-inventory-with-documents.md) eller [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).
 3.  Välj åtgärden **artikelspårningsrader**.  
 4.  I fälten **Serienr** eller **Partinr** väljer du aktuellt serie- eller partinummer.  
 5.  Om ett nytt artikelspårningsnummer behöver anges kan fälten **Nytt serienr** eller **Nytt partinr** användas. Det går även att koppla ett eller flera partier till ett nytt parti eller ett befintligt parti.  

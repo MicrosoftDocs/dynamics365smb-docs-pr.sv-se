@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807397"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916228"
 ---
 # <a name="changing-basic-settings"></a>Ändra grundinställningar
 På sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
@@ -48,10 +48,21 @@ Standardarbetsdatumet är vanligen dagens datum. För att utföra uppgifter som 
 >   Skriv **a** för att snabbt ange arbetsdatumet i datumfältet. Skriv **d** för att snabbt ange det aktuella datumet i datumfältet.
 
 > [!IMPORTANT]  
->   Arbetsdatumet ändras endast till dess att du avslutar företaget eller datumet ändras. Om du öppnar ett annat företag eller öppnar företaget nästa dag, och fortfarande behöver använda ett annat arbetsdatum, måste du ange arbetsdatumet igen.
+>   När du har ändrat arbetsdatumet, om du loggar ut eller växlar till ett annat företag, ändras arbetsdata tillbaka till standardarbetsdatum. Så nästa gång du loggar in eller går tillbaka till det ursprungliga företaget, kan du behöva ange arbetsdatumet igen. 
 
+### <a name="work-date-indication"></a>Indikering av arbetsdatum
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Om arbetsdatumet inte anges för den aktuella dagen (idag) visas sedan på alla sidor där du kan redigera data föregående arbetsdatum i det övre vänstra hörnet på sidan.
+  
 ## <a name="region"></a> Region
-Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.   
+
+Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
 
 
 ## <a name="language"></a> Språk

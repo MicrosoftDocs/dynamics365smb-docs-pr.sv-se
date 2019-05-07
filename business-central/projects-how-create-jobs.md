@@ -1,23 +1,19 @@
 ---
 title: Skapa ett projektkort för ett projekt och ange aktiviteter | Microsoft Docs
 description: För ett nytt projekt kan du skapa ett projektkort med projektaktiviteterna och planeringsrader för att hantera hur och budgetar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807330"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915629"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
@@ -28,8 +24,8 @@ Det andra lagret består av projektplaneringsrader som specificerar detaljerad f
 
 Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specificera budget, offerter och registrering mer i detalj. Dessutom att du får en inblick i hur ett projekt fortlöper. Du kan till exempel spåra om du uppfyller uppsatta milstolpar eller om du är i linje med mål för att uppfylla budget.
 
-> [!NOTE]  
->   Åtgärden **Nytt projekt** på Rollcentret **Projektchef** startar en guidad hjälp som guidar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt.
+> [!TIP]
+> Välj åtgärden **Nytt projekt** på Rollcentret **Projektchef** för att starta en assisterad inställningsguide som tar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt. Ett exempel på hur du skapar ett projekt manuellt finns i [Video: hur du skapar ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## <a name="to-create-a-job-card"></a>Så här skapar du ett projektkort.
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
@@ -71,8 +67,10 @@ En projektplaneringsrad kan ha en av följande typer.
 5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
 
 ## <a name="see-also"></a>Se även
+
 [Projekthantering](projects-manage-projects.md)  
+[Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807377"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929411"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Inventera, justera och gruppera lager
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Inventera, justera och gruppera lager med hjälp av journaler
 Minst en gång per räkenskapsår måste du utföra en inventering (d.v.s. räkna alla artiklar i lagret) för att se om det antal som är registrerat i databasen är samma som det antal som verkligen finns i lagret. När det faktiska antalet är känt, måste det bokföras i redovisningen som en del av lagervärderingen för periodslutet.
 
 Även om du inventerar alla artiklarna i lagret minst en gång per år kan du ha bestämt dig för att inventera vissa artiklar oftare, kanske för att de är mer värdefulla eller för att de har en hög omsättningshastighet och utgör en stor del av verksamheten. Du kan tilldela särskilda inventeringsperioder till objekten för detta ändamål. Mer information finns i avsnittet [Så här utför du cyklisk inventering](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Om du måste ändra attribut i artikeltransaktionsposter kan du använda artikel
 
 ## <a name="to-perform-a-physical-inventory"></a>Så här utför du en inventering
 Minst en gång per räkenskapsår, kanske oftare, måste du utföra en inventering (d.v.s. räkna alla faktiska artiklar för hand) för att se om det antal som är registrerat i programmet är samma som det antal som verkligen finns i lagret. Om det finns avvikelser måste du bokföra dem på artikelkontona innan du gör lagervärderingen.
+
+> [!NOTE]
+> Den här proceduren beskriver hur du utför en inventering med hjälp av en journal på sidan **inventeringsjournal**. Du kan också utföra uppgiften med dokument, sidorna **inventeringsorder** och **inventeringsregistrering** som ger mer kontroll och support och distribuerar inventeringen till flera medarbetare. För mer information, se [Beräkna lager med dokument](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Observera att den dokumentbaserade funktionen inte kan användas för att inventera artiklar på lagerplatser, distributionslagertransaktioner.
 
 Förutom den fysiska redovisningen innefattar hela processen även följande tre uppgifter:
 
@@ -222,6 +226,7 @@ Följande exempel baseras på en lagerställekod. Åtgärderna är liknande för
 Information om överföring av artiklar med full kontroll över kvantiteter som levererats och tagits emot finns i [Överföra lager mellan lagerställen](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Se även
+[Beräkna lager med hjälp av dokument](inventory-how-count-inventory-with-documents.md)  
 [Lager](inventory-manage-inventory.md)
 [Lagerstyrningssystem](warehouse-manage-warehouse.md)    
 [Försäljning](sales-manage-sales.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807923"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928075"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortera, söka och filtrera listor
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -36,7 +36,8 @@ Om du vill sortera en lista, kan du välja en kolumn rubriktexten för att växl
 >   Sortering stöds inte på bilder, BLOB-fält, Flowfilter och fält som inte tillhör samma tabell.  
 
 ## <a name="searching"></a>Sökning
-<!--## Searching by using the Quick Filter -->Högst upp på varje listsida finns ikonen ![söklista](media/ui-search/search-list.png "ikonen söklista")**Sök** som är ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
+<!--## Searching by using the Quick Filter -->
+Högst upp på varje listsida finns ![Söklistikon](media/ui-search/search-list.png "Söklistikon") **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
 
 Sök genom att bara markera sökikonen och skriv den text som du vill söka efter i rutan. Du kan ange bokstäver, siffror och andra symboler.
 
@@ -55,27 +56,6 @@ Men du kan göra en mer exakt sökning med hjälp av följande tecken:
 
 I tabellen nedan finns några exempel som förklarar hur du kan använda sökningen.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Sökkriterier|Söker efter...|
 |---------------|----------|
 |`man`<br />eller <br />`Man`|Alla poster med fält som innehåller texten **man**, oavsett gemener eller versaler. Till exempel **Manchester**, **manuell**, eller **Idrottsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Du kan trycka på F3 för att aktivera och avaktivera sökrutan. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filtrering
+## <a name="Filtering"> </a>Filtrering
 Filtrering ger ett mer avancerat och flexibelt sätt att kontrollera vilka poster som ska visas i en lista. Det finns två stora skillnader mellan sökning och filtrering, enligt beskrivningen i följande tabell.
 
 || **Sökning** | **Filtrering** |
@@ -98,13 +78,14 @@ Filtrering ger ett mer avancerat och flexibelt sätt att kontrollera vilka poste
 Filtrering låter dig visa poster för specifika konton eller kunder, datum, belopp och annan information genom att ange filterkriterier. Bara poster som matchar kriteriet visas. Om du anger kriterier för flera fält, kommer endast posterna som matchar alla kriterier att visas.
 
 ### <a name="working-in-the-filter-pane"></a>Arbeta i filterrutan
+
+Visa filterrutan genom att markera ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på **Shift+F3**. För listor i Rollcenter kan du också välja den nedåtriktade pilen bredvid en rubrik i fältet ovanför listan och väljer sedan **visa filterruta** som visas här:
+
+![Visa filterruta](media/open-filter-pane.png "Visa filterruta")
+
 Filterrutan visar en lista över aktuella filter för en lista och gör att du kan ställa in egna anpassade filter på ett eller flera fält. I bilden nedan visas ett exempelfilterfönster för en lista med försäljningsofferter.
 
 ![Översikt över filterruta](media/filter-pane-overview.png "Filterikon")
-
-Om du vill visa filterrutan, använd kortkommandot **Shift + F3**. För listor i Rollcenter kan du också välja den nedåtriktade pilen bredvid en rubrik i fältet ovanför listan och väljer sedan **visa filterruta**.
-
-![Visa filterruta](media/open-filter-pane.png "Visa filterruta")
 
 En filterruta är indelad i tre avsnitt: **Vyer**, **Filtrera lista efter** och **Filtrera summor efter**:
 
@@ -137,7 +118,7 @@ Du kan nu skriva eller välja filterkriterier i rutan. Typen av fält som du vil
 Kolumner som redan har filter som indikeras av ![filterikon](media/ui-search/filter-icon.png "filterikon") i kolumnrubriken. Om du vill ta bort ett filter, markera kolumnrubriken och välj **Ta bort filter**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Ange filterkriterier utan filterrutan
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Ange filterkriterier utan filterrutan
 Du kan ange enkla filter direkt i listan utan att behöva använda filterrutan.
 Med något fält valt på en rad, använd kortkommandot **Alt + F3** för att endast visa de poster som har samma värde. Du kan sedan välja ett annat fält och använda samma kortkommando igen för att fortsätta att förfina dina filter. Om det markerade fältet redan är filtrerat kommer **Alt + F3** att ta bort filtret.
 
@@ -235,7 +216,7 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 |-----------------------|-----------------------|  
 |`Hans?n`|Text som exempelvis Hansen eller Hanson|  
 
-### <a name="combined-format-expressions"></a>Kombinerade uttryck  
+### <a name="combined-format-expressions"></a>Kombinerade formatuttryck  
 
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  
@@ -244,11 +225,11 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 |`>50&<100`|Ta med poster med nummer större än 50 och mindre än 100 (d.v.s. nummer fr.o.m. 51 t.o.m. 99)|  
 
 
-## <a name="FilterTokens"></a> Filtertoken
+## <a name="FilterTokens"> </a>Filtertoken
 När du anger filterkriterier kan du även skriva ord som har en speciell betydelse som kallas filtertoken. När du har angett tokenordet, ersätts ordet med värden som det representerar. Detta gör filtreringen enklare genom att minska behovet av att gå till andra sidor för att söka efter värden som du vill lägga till i filtret. Tabellerna nedan beskriver några av de token som du kan skriva som filterkriterier.
 
 > [!TIP]
-> Ditt företag kanske använder egna token. För mer information om den fullständiga uppsättningen med token som finns tillgängliga för dig eller om du vill lägga till fler anpassade variabler, kontakta administratören. Teknisk information finns i [Lägga till filtertoken](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Ditt företag kanske använder egna token. För mer information om den fullständiga uppsättningen med token som finns tillgängliga för dig eller om du vill lägga till fler anpassade variabler, kontakta administratören. Teknisk information finns i [Lägga till filtertoken](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) poster som har tilldelats dig

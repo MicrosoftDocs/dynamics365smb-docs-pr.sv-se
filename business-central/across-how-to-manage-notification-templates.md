@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/08/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 562664ad0fd443c3363d103572022e6d819ed357
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808162"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914284"
 ---
 # <a name="manage-notification-templates"></a>Hantera meddelandemallar
 Meddelanden skickas till arbetsflödesanvändare för att meddela dem om steg som måste vidtas eller informera dem om statusen för arbetsflödessteg. Du kan konfigurera vem som får meddelanden, och när, genom att ställa in godkännandeanvändare, användarnas meddelandeschema och relevanta arbetsflödessvaren som definierar meddelandemottagaren. Mer information finns i [Ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md).  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806951"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916380"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
 Att få insikter om dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data är enkelt med Power BI och [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehållspaketen. Power BI hämtar dina data och skapar sedan en förinstallerad instrumentbräda och rapporter baserade på den data.  
@@ -75,26 +75,26 @@ För att importera dina [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - Excel-mallen för Visa företag
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Ekonomi**
+**Microsoft Dynamics 365 Business Central – Finance**
 - Power BIFinance
 - Excel-mallen för Visa företag
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – projekt**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Projektlista
 - Projektplaneringsrader
 - Projektaktivitetsrader
 - Power BI Rapportetiketter
 - Excel-mallen för Visa företag
 
-**Microsoft Dynamics 365 Business Central - försäljning**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Instrumentbräda för försäljning
 - Excel-mallen för Visa företag
 - Power BI Rapportetiketter
 
 ## <a name="list-page-reports"></a>Rapporter för listsida
 
-**Microsoft Dynamics 365 Business Central – kundlista**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Artikelförsäljning efter kund
 - Power BI inköpslista för artiklar
 - Power BI försäljningslista för artiklar
@@ -103,13 +103,13 @@ För att importera dina [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central - Lista för redovisningstransaktioner**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Power BI redovisningsbelopplista
 - Power BI budgeterat redovisningsbelopp
 - ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central - Artikellista**
+**Microsoft Dynamics 365 Business Central - Items List**
 - Artikelförsäljning efter kund
 - Power BI inköpslista för artiklar
 - Power BI försäljningslista för artiklar
@@ -117,23 +117,23 @@ För att importera dina [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – projektlista**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI projektlista
 - ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – lista över inköpsfakturor**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI inköpslista
 - ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Försäljningsorderlista**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Power BI försäljningslista
 - ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
 
-**Microsoft Dynamics 365 Business Central - leverantörslista**
+**Microsoft Dynamics 365 Business Central - Vendors List**
 - Power BI inköpslista för artiklar
 - Power BI försäljningslista för artiklar
 - Power BI leverantörslista

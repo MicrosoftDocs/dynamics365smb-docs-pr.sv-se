@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 780c39cedb04529e87dcde5774ec34437721005d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2822ffb9fab32501b0766eaa51a36d3a31d1bb6c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827173"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925596"
 ---
 # <a name="set-up-automatic-account-posting-groups"></a>Ställ in automatiska kontobokföringsmallar
 Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  

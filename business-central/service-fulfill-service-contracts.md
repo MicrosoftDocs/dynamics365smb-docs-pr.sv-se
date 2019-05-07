@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 574509447668d0aab4bba0394029f784eb55ca2e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808104"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912056"
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
 Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t.ex. kund, kontraktets startdatum samt fakturaperiod.  

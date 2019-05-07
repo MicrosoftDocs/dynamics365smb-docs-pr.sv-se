@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807720"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919520"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -63,7 +63,7 @@ Om en kassarabatt har beräknats utifrån ett fakturabelopp inklusive moms kan d
 1. Öppna den aktuella försäljningsordern.  
 2. Välj åtgärden **Statistik**.  
 3. Välj snabbfliken **Fakturering**.  
-  
+
     > [!NOTE]  
     >  Det totala momsbeloppet för fakturan visas på raderna grupperade per moms-ID. Du kan justera beloppet i fältet **Momsbelopp**på raderna för varje moms-ID. När du ändrar fältet **Momsbelopp** utförs en kontroll för att undersöka att du inte har ändrat momsen med mer än det belopp som du har angett som maximal tillåten differens. Om beloppet ligger utanför intervallet i **Max. tillåten momsdifferens** visas en varning som anger den maximala tillåtna differensen. Du kommer inte att kunna fortsätta förrän beloppet justeras inom godkända parametrar. Klicka på **OK** och ange ett annat **Momsbelopp** som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen fördelas momsen proportionellt över dokumentraderna som har samma moms-ID.  
 
@@ -77,7 +77,7 @@ Du kan också justera momsbelopp i redovisnings-, försäljnings- och inköpsjou
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Innan du kan ange moms manuellt i försäljnings- och inköpsjournaler  
 1. På sidan **Inköpsinställningar** markerar du kryssrutan **Tillåt momsdifferens**.  
 2. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
-  
+
     > [!NOTE]  
     > Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[d365fin](includes/d365fin_md.md)] differensen i fältet **Momsdifferens**.  
 
@@ -115,12 +115,12 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
     >  Om inställningen av momsbokföringsmallen inte har kryssrutan **Leveransintyg krävs** markerad skapas en post, och fältet **Status** får värdet **Ej tillämpbart**. Du kan uppdatera fältet för att visa rätt information om status. Du kan manuellt ändra statusen från **Ej tillämpbart** till **Obligatoriskt**och från **Obligatoriskt** till **Ej tillämpbart** efter behov.  
 
    När du uppdaterar fältet **Status** till **Obligatoriskt**, **Inlevererat**eller **Ej inlevererat**, skapas ett certifikat.  
-  
+
     > [!TIP]  
     >  Du kan använda sidan **Leveransintyg** för att få en vy över alla bokförda utleveranser som ett leveransintyg har skapats för.  
 
 5. Välj **Skriv ut leveransintyg**.  
-  
+
     > [!Note]  
     >  Du kan granska och skriva ut dokumentet. När du väljer **Skriv ut leveransintyg** och skriver ut dokumentet, väljs kryssrutan **Utskrivet** automatiskt. Dessutom, om den inte redan har angetts, uppdateras statusen för intyget till **Obligatoriskt**. Du inkluderar det utskrivna intyget med utleveransen.  
 

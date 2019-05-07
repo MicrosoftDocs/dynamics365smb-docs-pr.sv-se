@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: beadf2b83468da9d453d9be8aaa8a39723ab3309
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808075"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923723"
 ---
 # <a name="using-business-central-without-outlook"></a>Använda Business Central utan Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Office 365 och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  

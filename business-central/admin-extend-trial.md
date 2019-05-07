@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/16/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807509"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925976"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 Det är viktigt att fatta rätt beslut när du väljer ett affärsprogram och vi vet att det kan ta tid att utforska alla hörnen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du behöver mer tid för att slutföra utvärderingen kan du utöka utvärderingsperioden själv i ytterligare 30 dagar. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett meddelande när du loggar in. Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden. De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden.

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807561"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917773"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.
 
-Om du behöver mer kontroll över försäljningsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du tar emot artiklar från flera försäljningsdokument med en försäljningsretur, kan du skapa försäljningsreturorder. En försäljningsreturorder utför automatiskt den relaterade försäljningskreditnotan och andra returrelaterade dokument, till exempel en ersättningsförsäljningsorder, om detta behövs. Mer information finns i avsnittet [Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
+Om du behöver mer kontroll över försäljningsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du tar emot artiklar från flera försäljningsdokument med en försäljningsretur, kan du skapa försäljningsreturorder. En försäljningsreturorder utför automatiskt den relaterade försäljningskreditnotan och andra returrelaterade dokument, till exempel en ersättningsförsäljningsorder, om detta behövs. Mer information finns i avsnittet [Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).
 
 > [!NOTE]  
 >   Om en bokförd försäljningsfaktura ännu inte har betalts, kan du använda funktionen **Korrigera** eller **Avbryt** på den bokförda försäljningsfakturan för att återföra transaktioner. Dessa funktioner fungerar bara för obetalda fakturor, och de har inte stöd delleveranser returer eller annulleringar. Mer information finns i [Så här kan du korrigera eller annullera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Två funktioner finns för att fördela exakt kostnadsåterföring automatiskt.
 
 |Funktion|Description|  
 |------------------|---------------------------------------|  
-|Funktionen **Hämta bokförda dokumentrader som ska återföras** på sidan **Försäljningsreturorder**|Kopiera rader för en eller flera bokförda dokument som ska återföras till försäljningsreturorden. Mer information finns i avsnittet [Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsfakturor](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
+|Funktionen **Hämta bokförda dokumentrader som ska återföras** på sidan **Försäljningsreturorder**|Kopiera rader för en eller flera bokförda dokument som ska återföras till försäljningsreturorden. Mer information finns i avsnittet [Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
 |Funktionen **Kopiera dokument** på sidan **Försäljningskreditnota** och **Försäljningsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad på sidan **Försäljningsinställningar**.|
 
 För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet **Koppla från artikellöpnr** på alla typer av rader för returdokument och välj sedan numret på den ursprungliga försäljningstransaktionen. Då länkas försäljningskreditnota till den ursprungliga försäljningstransaktionen och säkerställs att artikeln värderas till ursprunglig styckkostnad.

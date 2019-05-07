@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806904"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917100"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Om du vill använda detta kundkort som en mall när du skapar nya kundkort, så 
 Kundmallen läggs till listan över kundmallar, så att du kan använda det för att skapa nya kundkort.
 
 ## <a name="see-also"></a>Se även
+[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)  
 [Skapa nummerserier](ui-create-number-series.md)  
 [Försäljning](sales-manage-sales.md)    
 [Konfigurera försäljning](sales-setup-sales.md)    
