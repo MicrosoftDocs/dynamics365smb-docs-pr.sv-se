@@ -8,28 +8,57 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 9923ed478bbe59089363f5d0a494a9e45829e7c2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808216"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911702"
 ---
-# <a name="why-a-page-is-locked-from-personalizing"></a><span data-ttu-id="f2718-103">Varför är en sida låst för anpassning?</span><span class="sxs-lookup"><span data-stu-id="f2718-103">Why a Page is Locked From Personalizing</span></span>
-<span data-ttu-id="f2718-104">Om det finns en låsikon i fältet **Anpassa** när du öppnar en sida (enligt bilden), betyder det att du för tillfället inte kan göra några fler anpassningsändringar på sidan.</span><span class="sxs-lookup"><span data-stu-id="f2718-104">If there is a lock icon in the **Personalizing** bar when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page.</span></span>
+# <a name="why-a-page-is-locked-from-personalization"></a><span data-ttu-id="3eb1e-103">Varför är en sida låst för anpassning?</span><span class="sxs-lookup"><span data-stu-id="3eb1e-103">Why a Page is Locked from Personalization</span></span>
 
-<span data-ttu-id="f2718-105">![Anpassa låsning](media/personalization-locked.png "Anpassa låsning")</span><span class="sxs-lookup"><span data-stu-id="f2718-105">![Personalize Lock](media/personalization-locked.png "Personalize lock")</span></span>
+<span data-ttu-id="3eb1e-104">Det finns två villkor som hindrar dig från att anpassa en sida.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-104">There are two conditions that prevent you from personalizing a page.</span></span> <span data-ttu-id="3eb1e-105">Antingen är sidan låst (som indikeras av ![anpassa lås](media/personalization-lock-icon.png "anpassa lås")) eller spärrad (som indikeras av ![anpassning spärrad](media/personalization-blocked-icon.png "anpassning spärrad")).</span><span class="sxs-lookup"><span data-stu-id="3eb1e-105">Either the page is locked (as indicated by ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock")) or it is blocked (as indicated by ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked")).</span></span>
 
-<span data-ttu-id="f2718-106">Detta beror på att vi har ändrat hur anpassningen fungerar i bakgrunden sedan senaste gången du anpassade sidan.</span><span class="sxs-lookup"><span data-stu-id="f2718-106">This is because we changed the way personalization works behind the scenes since the last time that you personalized the page.</span></span> <span data-ttu-id="f2718-107">Tyvärr fungerade inte det gamla och det nya sättet tillsammans.</span><span class="sxs-lookup"><span data-stu-id="f2718-107">Unfortunately, the old way and new of doing things do not work together.</span></span>
+## <a name="locked-from-personalizing"></a><span data-ttu-id="3eb1e-106">Låst för att anpassa</span><span class="sxs-lookup"><span data-stu-id="3eb1e-106">Locked from Personalizing</span></span>
 
-<span data-ttu-id="f2718-108">Sidan innehåller i nuläget de senaste anpassningar som du har gjort.</span><span class="sxs-lookup"><span data-stu-id="f2718-108">The page currently includes the last personalization changes that you made.</span></span> <span data-ttu-id="f2718-109">Om du vill fortsätta anpassa sidan kan du välja låsikonen och sedan **Lås upp**.</span><span class="sxs-lookup"><span data-stu-id="f2718-109">If you want to continue personalizing the page, then you can choose the lock icon and then **Unlock**.</span></span> <span data-ttu-id="f2718-110">Notera emellertid att om du låser upp sidan så kommer den aktuella anpassningen på sidan att rensas, vilket innebär att du måste börja om från början.</span><span class="sxs-lookup"><span data-stu-id="f2718-110">Just be aware that if you choose to unlock the page, the current personalization of the page will be cleared, and you will have to start from scratch.</span></span>
+<span data-ttu-id="3eb1e-107">Om det finns en ikon ![anpassa lås](media/personalization-lock-icon.png "anpassa lås") i banderollen **anpassa** när du öppnar en sida (enligt bilden), betyder det att du för tillfället inte kan göra några fler anpassningsändringar på sidan.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-107">If there is a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") icon in the **Personalizing** banner when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page.</span></span>
+
+<span data-ttu-id="3eb1e-108">![Anpassa låsning](media/personalization-locked.png "Anpassa låsning")</span><span class="sxs-lookup"><span data-stu-id="3eb1e-108">![Personalize Lock](media/personalization-locked.png "Personalize lock")</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="f2718-111">Se även</span><span class="sxs-lookup"><span data-stu-id="f2718-111">See Also</span></span>
-[<span data-ttu-id="f2718-112">Anpassa din arbetsyta</span><span class="sxs-lookup"><span data-stu-id="f2718-112">Personalizing Your Workspace</span></span>](ui-personalization-manage.md)  
-[<span data-ttu-id="f2718-113">Hantera anpassning</span><span class="sxs-lookup"><span data-stu-id="f2718-113">Managing Personalization</span></span>](ui-personalization-manage.md)  
-<span data-ttu-id="f2718-114">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f2718-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="f2718-115">Ändra grundinställningar</span><span class="sxs-lookup"><span data-stu-id="f2718-115">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
-[<span data-ttu-id="f2718-116">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="f2718-116">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+<!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
+
+The page currently includes the last personalization changes that you made. If you want to continue personalizing the page, then you can choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalization of the page will be cleared, and you will have to start from scratch.
+-->
+
+<span data-ttu-id="3eb1e-109">Det finnas två orsaker till detta:</span><span class="sxs-lookup"><span data-stu-id="3eb1e-109">There can be two reasons for this:</span></span>
+
+1. <span data-ttu-id="3eb1e-110">Du har anpassat sidan tidigare, men det har gjorts med hjälp av en tidigare version av produkten.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-110">You have personalized the page before, but it was done using an earlier version of the product.</span></span> <span data-ttu-id="3eb1e-111">Vi har ändrat hur anpassningen fungerar i bakgrunden sedan senaste gången du anpassade sidan.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-111">We changed the way personalization works behind the scenes since the last time that you personalized the page.</span></span> <span data-ttu-id="3eb1e-112">Tyvärr fungerade inte det gamla och det nya sättet tillsammans.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-112">Unfortunately, the old way and new way of doing things do not work together.</span></span>
+
+2. <span data-ttu-id="3eb1e-113">Hittills har du bara använt [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] för att anpassa sidan.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-113">Until now, you have only used the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to personalize the page.</span></span>
+
+### <a name="unlocking-the-page"></a><span data-ttu-id="3eb1e-114">Låsa upp sidan</span><span class="sxs-lookup"><span data-stu-id="3eb1e-114">Unlocking the Page</span></span>
+
+<span data-ttu-id="3eb1e-115">Om du vill låsa upp en sida och fortsätta anpassa den, välj ![anpassa lås](media/personalization-lock-icon.png "anpassa lås") och sedan **lås upp**.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-115">If you want to unlock a page and continue personalizing it, choose ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock"), and then **Unlock**.</span></span>  
+
+<span data-ttu-id="3eb1e-116">Innan du låser upp sidan, ska du tänka på följande:</span><span class="sxs-lookup"><span data-stu-id="3eb1e-116">Before you unlock the page, be aware of the following:</span></span>
+
+- <span data-ttu-id="3eb1e-117">Den aktuella anpassningen på sidan kommer att tas bort.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-117">The current personalization of the page will be cleared.</span></span> <span data-ttu-id="3eb1e-118">Sidan går tillbaka till sin ursprungliga layout och du måste börja om från början.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-118">The page will go back to its original layout, and you will have to start from scratch.</span></span>
+
+- <span data-ttu-id="3eb1e-119">I [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] kommer sidan att behållas som den är och påverkas inte av de nya anpassningar i Business Central-klienten.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-119">In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as-is and will not be affected by the new personalization changes made in the Business Central client.</span></span> <span data-ttu-id="3eb1e-120">Sedan kommer anpassningen i [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] och Business Central-klienten att vara helt skilda från varandra.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-120">Going forward, the personalization in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and Business Central client will be completely separate from each other.</span></span>
+
+## <a name="blocked-from-personalizing"></a><span data-ttu-id="3eb1e-121">Blockerad från att anpassa</span><span class="sxs-lookup"><span data-stu-id="3eb1e-121">Blocked from Personalizing</span></span>
+
+<span data-ttu-id="3eb1e-122">Om det finns en ikon för ![anpassning spärrad](media/personalization-blocked-icon.png "anpassning spärrad") i anpassningsbanderoll innebär detta att du blockeras från att göra alla anpassningar till sidan.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-122">If there is a ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") icon in the Personalizing banner, this means that you are blocked from doing any personalization to the page.</span></span>
+
+<span data-ttu-id="3eb1e-123">![Anpassa spärrad](media/personalization-blocked.png "Anpassa spärrad")</span><span class="sxs-lookup"><span data-stu-id="3eb1e-123">![Personalize blocked](media/personalization-blocked.png "Personalize lock")</span></span>
+
+<span data-ttu-id="3eb1e-124">Orsaken till detta är att det rollcenter eller den profil som för närvarande är associerad med ditt användarkonto ändrar sidan specifikt för din roll.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-124">The reason for this is that the Role Center or profile that is currently associated with your user account modifies this page specifically for your role.</span></span> <span data-ttu-id="3eb1e-125">Kontakta administratören om du behöver hjälp eller, om det passar, kan du försöka att byta till ett rollcenter (från [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "gå direkt till sidan användare inställningar i Business Central")) som innehåller rollanpassning för sidan.</span><span class="sxs-lookup"><span data-stu-id="3eb1e-125">Please contact your administrator for assistance or, if it makes sense, try switching to a Role Center (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="3eb1e-126">Se även</span><span class="sxs-lookup"><span data-stu-id="3eb1e-126">See Also</span></span>
+[<span data-ttu-id="3eb1e-127">Anpassa din arbetsyta</span><span class="sxs-lookup"><span data-stu-id="3eb1e-127">Personalizing Your Workspace</span></span>](ui-personalization-manage.md)  
+[<span data-ttu-id="3eb1e-128">Hantera anpassning</span><span class="sxs-lookup"><span data-stu-id="3eb1e-128">Managing Personalization</span></span>](ui-personalization-manage.md)  
+[<span data-ttu-id="3eb1e-129">Ändra grundinställningar</span><span class="sxs-lookup"><span data-stu-id="3eb1e-129">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
+[<span data-ttu-id="3eb1e-130">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="3eb1e-130">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
