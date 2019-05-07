@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806946"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938971"
 ---
-# <a name="creating-contacts"></a>Skapar kontakter
-Ditt företag träffar regelbundet potentiella kunder som vanligtvis utvecklas till framtida affärsrelationer. När en ny kontakt skapas måste den här informationen registreras så att kommunikationen kan fortsätta.
+# <a name="create-contacts"></a>Skapa kontakter
+Du kan regelbundet träffa personer från andra företag som kan utvecklas till affärsrelationer, till exempel en kundrelation. När en ny kontakt skapas måste så mycket information som möjligt registreras på ett kontaktkort så att kommunikationen kan fortsätta.
 
-Tilldela så mycket data som möjligt om ett visst företag ser du till att kommunikationen blir effektiv. Om du till exempel anger relevant branschgrupp ser du till att dessa specifika företag får all relevant kommunikation. Du kan också definiera vilken affärsrelation du har med en kontakt. En kontakt kan till exempel vara en potentiell kund, bank eller underleverantör.
+## <a name="person-or-company"></a>Person eller företag
+Du kan bestämma dig för att ange en kontakt som en person eller ett företag, vanligen beroende på om du känner till namnet på kontaktpersonen när den skapas. Du gör detta när du fyller i fältet **typ** på sidan **kontaktkort**. Du kan också upprätthålla kontaktkort för både ett företag och en eller flera personer som arbetar i företaget. Det här sker automatiskt när du fyller i fältet **företagsnamn** på ett kontaktkort av typen **Person**.
 
-> [!NOTE]
-> I fältet **typ** på sidan **kontaktkort** kan du ange en kontakt som en person eller ett företag, vanligen beroende på om du känner till namnet på kontaktpersonen när den skapas. Funktionen är densamma för båda typerna, med undantag för vissa av de tilläggsinformationstyper som kan tilldelas. Du kan ändra värdet i fältet senare, eller du kan använda fälten på snabbfliken **Arv** på sidan **Marknadsföringsinställning** om du vill kontrollera vilka data som delas mellan en person och relaterat företag.
-
-Du kan skapa en kontakt för varje ny person eller företag som du har förbindelse med, till exempel kund, leverantör, spekulant, bank, jurist, konsult och så vidare.
-
-Du kan skapa en kontakt på två sätt:
- * Manuellt.
- * Från en befintlig kund, leverantör eller bankkonto.
+Funktionen är densamma för båda typerna, med undantag för att alternativen för ytterligare informationsändringar beror på typen. Du kan till exempel bara tilldela arbetsansvar till en person och dess industrigrupp till ett företag. Detta visas i användargränssnittet genom att ta bort de fält och åtgärder som inte används. Du kan ändra värdet i fältet **Typ** senare, eller du kan använda fälten på snabbfliken **Arv** på sidan **Marknadsföringsinställning** om du vill kontrollera vilka data som delas mellan en person och personens relaterade företag. Mer information finns i [Konfigurera kontakter](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Så här skapar du en kontakt manuellt
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.

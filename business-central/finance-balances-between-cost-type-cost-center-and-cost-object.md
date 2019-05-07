@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: d223bdc490c2ac45353d0e7f8aff6816c1ce5f51
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808295"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938232"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldon mellan kostnadstyp, kostnadsställe och kostnadsbärare
 När du lägger upp kostnadsredovisning måste du kontrollera att alla transaktioner har kopplats till en kostnadstyp samt ett kostnadsställe eller en kostnadsbärare. Det innebär att varje kostnadstransaktion måste ha en tilldelad kostnadstyp och en kod för kostnadsställe eller kostnadsbärare. Denna regel ser till att alla kostnadstransaktioner visas i antingen kostnadsställena eller kostnadsbärarna, men inte på båda platserna.  

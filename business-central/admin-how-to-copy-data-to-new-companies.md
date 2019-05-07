@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808132"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938994"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiera data till nya företag
 Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att båda företagen finns i samma databas. Om du t.ex har en standardlista över symptomkoder som är gemensamma för alla dina tjänsthanteringsimplementeringar kan du kopiera koderna enkelt från ett företag till ett annat.  

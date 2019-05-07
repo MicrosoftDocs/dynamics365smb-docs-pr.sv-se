@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807982"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935809"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Skapa din egen prediktiva modell
 Är du intereserad av att skapa din egen prediktiva modell? Du kan använda Azure Machine Learning Studio för att bygga din egen prediktiva modell och använda den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill använda egna modeller, måste du prenumerera på Azure Machine Learning. Mer information finns i [Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Vi tillhandahåller emellertid ett enklare sätt att skapa och använda din egen prediktiva modell. Du kan dela data från fakturor med våra förebyggande försöket i Azure Machine Learning och låt vårt försök skapa och utbilda en prediktiv modell utifrån informationen vid ett senare tillfälle. För att dela dina data, på sidan **Inställningar för prediktion om sen betalning** väljer du åtgärden **Skapa min modell**. Därefter kommer prediktioner att baseras på din modell och dina data, inte våra.  
+Vi tillhandahåller emellertid ett enklare sätt att skapa och använda din egen prediktiva modell. Du kan dela data från fakturor med våra [förebyggande försök för Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) i Azure Machine Learning och låt vårt försök skapa och utbilda en prediktiv modell utifrån informationen vid ett senare tillfälle. För att dela dina data, på sidan **Inställningar för prediktion om sen betalning** väljer du åtgärden **Skapa min modell**. Därefter kommer prediktioner att baseras på din modell och dina data, inte våra.  
 
 > [!Note]
 >   Kvaliteten på modellen är viktig. När vårt prediktiva försök använder dina data för att utbilda en modell bestämmer det kvalitetsvärdet för modellen för i procent. Modellkvaliteten anger hur exakt modellens prediktioner kan antas vara. Flera faktorer kan påverka kvaliteten på en modell. Till exempel kanske dessa faktorer är att det inte fanns tillräckligt med data eller data eller att data inte innehöll tillräcklig variation. Du kan visa kvaliteten på den modell som du för närvarande använder på sidan **Inställningar för prediktion om sen betalning**. Du kan också ange ett lägsta tröskelvärde för modellkvalitet. Modeller med kvalitetsvärde under tröskelvärdet kommer inte att ge prediktioner.  

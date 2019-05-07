@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807439"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932984"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
@@ -129,8 +129,8 @@ I listor, summor och rapporter kan du ange filter för datum, tid och datum och 
 |**Betydelse**|**Exempeluttryck (datum)**|**Data som ingår i filtret**|
 |-----------|---------------------|--------------------|
 |Intervall|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Poster med datum från och med 00-12-15 till och med 01-01-15.<br /><br />Poster med datum 00-15-12 eller tidigare.<br /><br />Datumintervall som innehåller den andra, tredje och fjärde bokföringsperioden, till exempel `01/01/20..04/30/20`.|
-|Antingen eller|`00-12-15|00-12-16`|Poster med antingen 00-12-15 eller 00-12-16. Om det finns poster med datum båda dagarna kommer samtliga att visas.|
-|Kombination|`00-12-15|00-12-01..00-12-10`  \n`..00-12-14|00-12-30..`|Poster med datum 00-12-15 eller mellan och inklusive den 00-12-01 och 00-12-10.  \nPoster med datum 00-12-14 eller tidigare, eller 00-12-30 eller senare. Detta innebär alla poster utom de med datum från och med 00-12-15 till och med 00-12-29.|
+|Antingen eller|`12 15 00|12 16 00`|Poster med antingen 00-12-15 eller 00-12-16. Om det finns poster med datum båda dagarna kommer samtliga att visas.|
+|Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Poster med datum 00-12-15 eller mellan och inklusive den 00-12-01 och 00-12-10.  \nPoster med datum 00-12-14 eller tidigare, eller 00-12-30 eller senare. Detta innebär alla poster utom de med datum från och med 00-12-15 till och med 00-12-29.|
 
 Du kan använda giltiga format i filtret för datumintervall. Till exempel `mon14 3..t 4p` som tillämpas på ett datum/tidsfält resulterar i ett filter mellan 03:00 måndag vecka 14 det aktuella arbetsdatumets år, inklusive fram till i dag klockan 16:00.
 
@@ -306,7 +306,7 @@ I följande tabell visas de olika sätt som du kan ange tider på, samt hur de t
 |`0530`|05:30:00|
 |`5:30:5`|05:30:05|
 |`053005`|05:30:05|
-|`5:30:5,50`|05:30:050,5|
+|`5:30:5,50`|05:30:05.5|
 |`053005050`|05:30:05.05|
 
 Du bör vara medveten om att millisekunder ska tolkas som decimala systemet. Så till exempel `3`, `30` och `300` betyder alla 300 millisekunder, medan `03` betyder `30` och `003` innebär 3 millisekunder.

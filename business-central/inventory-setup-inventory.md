@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806835"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934333"
 ---
 # <a name="setting-up-inventory"></a>Ställa in lager
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.
@@ -32,10 +32,11 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 |Konfigurera en effektiv distributionsmodell med en kombination av olika lagerställen och ansvarsenheter som tilldelas affärspartners eller anställda.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
 | Organisera ditt lager på flera lägerställen, inklusive överföringsflöden. |[Konfigurera platser](inventory-how-register-new-items.md) |
 | Skapa artikelkort för de lager, ej i lager eller serviceartiklar som du handlar med. |[Registrera nya artiklar](inventory-how-register-new-items.md) |
-|Lär dig hur dy fyller i fältet **typ** på artikelkorten enligt affärssyftet.|[Om artikeltyper](inventory-about-item-types.md)| 
+|Lär dig hur dy fyller i fältet **typ** på artikelkorten enligt affärssyftet.|[Om artikeltyper](inventory-about-item-types.md)|
 |Ange flera måttenheter för en artikel som kan användas som alternativa enheter till exempel för försäljning, inköp eller produkttransaktioner.|[Ställa in måttenheter för artikel](inventory-how-setup-units-of-measure.md)|
 |Som ett tillägg till artikelkort kan du registrera artikelinformation i ett visst lagerställe eller en viss variant.|[Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tilldela objekt till kategorier och ge dem attribut som hjälper dig och kunderna att hitta objekt. |[Kategorisera artiklar](inventory-how-categorize-items.md) |
+|Importera flera artikelbilder samtidigt från en zip-fil där filer namnges enligt artikelnummer.|[Importera flera artikelbilder](inventory-how-import-item-pictures.md)|
 
 ## <a name="see-also"></a>Se även
 [Hantera lager](inventory-manage-inventory.md)  

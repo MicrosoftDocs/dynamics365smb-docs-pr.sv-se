@@ -1,34 +1,36 @@
 ---
 title: Söka efter Funktioner och information | Microsoft Docs
-description: I det här avsnittet beskrivs hur du använder du sökning för att söka efter åtgärder, sidor, rapporter, dokumentation och data.
-author: SusanneWindfeldPedersen
+description: Det här avsnittet beskriver hur du använder sökning för att hitta åtgärder, sidor, rapporter, dokumentation och data, samt andra program och rådgivning.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807774"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934425"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Med hjälp av Berätta för att hitta funktioner och Information  
-Det här avsnittet beskriver olika sätt som Berätta kan hjälpa dig att snabbt hitta en åtgärd, sida, rapport eller lära dig hur du gör någonting i [!INCLUDE[d365fin](includes/d365fin_md.md)] om du är osäker.  
+Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  
 
-> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-## <a name="find-pages-reports-actions-and-documentation"></a>Söka efter sidor, rapporter, åtgärder och dokumentation 
-När du behöver hjälp med att hitta en sida, rapport, artikel i vår dokumentation eller en åtgärd på sidan som är öppen, använd ikonen ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sidan eller rapporten")**Berätta vad du vill göra** om du vill söka efter den via namn. Du kan också använda ALT+Q för att börja använda Berätta.
+När du behöver hjälp med att hitta någonting, kan du använda ikonerna ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sidan eller rapporten")**Berätta vad du vill göra** om du vill söka efter den. Du kan också använda ALT+Q för att börja använda Berätta.
 
-När du börjar skriva tecken visar [!INCLUDE[d365fin](includes/d365fin_md.md)] omedelbart matchningar i en listruta. Resultatet i listan ändras när du skriver fler tecken. Den andra kolumnen i listrutan anger den allmänna kategorin för i resultatet.   
+När du börjar skriva tecken visar [!INCLUDE[d365fin](includes/d365fin_md.md)] omedelbart matchningar. Resultatet i listan ändras när du skriver fler tecken. Om du märker att när du skriver ordet "produkt" och resultaten inkluderar "objekt" beror det på att Berätta använder synonymer och alternativa sökord för att göra det enklare att hitta åtgärder, sidor och rapporter. 
+
+Kolumnen till höger anger den allmänna kategorin för i resultatet. Till exempel om det öppnas en listsida eller är administrativa åtgärder.  
 
 > [!NOTE]  
->   När du trycker på **ange** på tangentbordet öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)] det resultat som visas först. Om du föredrar att använda tangentbordet använder du Tabb-tangenten och piltangenterna för att välja ett objekt i resultaten.
+>   Om du föredrar att använda tangentbordet använder du Tabb-tangenten och piltangenterna för att välja ett objekt i resultaten. När du trycker på **ange** på tangentbordet utan att välja resultat öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)] det resultat som visas först.
 
 ### <a name="find-an-action-on-the-current-page"></a>Söka efter en åtgärd på den aktuella sidan
 Avsnittet **På den aktuella sidan** låter dig söka efter och utföra åtgärder på sidan som är öppen. Om t.ex. sidan Försäljningsoffert är öppen och du skriver ”kund”, inkluderar avsnittet en åtgärd som öppnar kundkortet för den kund som har valts på försäljningsofferten. 
@@ -47,6 +49,9 @@ Under **dokumentation** visas artiklarna som den [!INCLUDE[d365fin](includes/d36
 
 > [!NOTE]  
 >   Dokumentation för tredje parts tillägg ingår inte i resultaten. 
+
+### <a name="get-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Få fler funktioner genom att söka efter en app på Microsoft AppSource
+Vår partnergrupp utvecklar appar som lägger till funktioner för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Avsnittet **Hämta från Microsoft AppSource** visar en lista över program för [!INCLUDE[d365fin](includes/d365fin_md.md)] som finns på Microsoft AppSource och är relaterade till det nyckelord du sökte efter.
 
 ## <a name="searching-for-data"></a>Söka efter data
 Funktionen **Berätta vad du vill göra** söker inte efter data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja ikonen ![Sökningslista](media/ui-search/search-list.png "ikonen Sökningslista") **Sökning** i det vänstra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Sörtera, söka och filtrera listor](ui-enter-criteria-filters.md).

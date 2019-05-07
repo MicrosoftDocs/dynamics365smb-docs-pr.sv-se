@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852407"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934310"
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
 En rapportlayout kontrollerar rapportens format och innehåll, som vilka datafält i en rapportdatauppsättning som visas i rapporten och hur de ordnas, textstil, bilder och mycket annat. Från [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ändra vilken layout som används på en rapport, skapa en ny layout eller ändra befintliga layouter.
@@ -32,7 +32,7 @@ En rapportlayout ställer i synnerhet in följande:
 * Företagslogotypen och dess position.
 * Allmänna sidinställningar, till exempel marginaler och bakgrundbilder.
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapport kan ställas in med åtskilliga rapportlayouter, som du kan växla mellan. Du kan använda en av de inbyggda rapportlayouterna, eller så kan du skapa anpassade rapportlayouter och tilldela dem till dina rapporter efter behov. Mer information finns i [Så här skapar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).
+En rapport kan ställas in med åtskilliga rapportlayouter, som du kan växla mellan. Du kan använda en av de inbyggda rapportlayouterna, eller så kan du skapa anpassade rapportlayouter och tilldela dem till dina rapporter efter behov. Mer information finns i [Så här skapar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).
 
 Det finns två typer av rapportlayouter som du kan använda i rapporter, Word och RDLC.
 

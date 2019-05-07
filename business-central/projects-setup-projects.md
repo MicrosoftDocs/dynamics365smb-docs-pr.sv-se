@@ -1,8 +1,6 @@
 ---
 title: Ställa in resurser, tidrapporter och jobb | Microsoft Docs
 description: Beskriver hur du ställer in resurser och tidrapporter och projekt för att hantera projekt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd297498918630e604a3e9f179c1f7f2a7c2df40
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "807547"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937610"
 ---
 # <a name="setting-up-project-management"></a>Ställa in projekthantering
 Innan du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
@@ -26,15 +24,18 @@ Sedan kan du skapa projekt och schemaresurser för projekt samt hantera budgetar
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
+| Ställ in projektadministrering.|[Ställ in allmän information för projekt](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
 | Ange dina resurser och relaterade kostnader och priser, antingen för enskilda resurser, resursgrupper eller för alla tillgängliga resurser i företaget. |[Konfigurera resurser](projects-how-setup-resources.md) |
 | Låt resurser rapportera tidförbrukning för en enskild anställd eller en maskin, och låt chefen granska förbrukningen och dess fördelning. |[Så här skapar du tidrapporter](projects-how-setup-time-sheets.md) |
 | Skapa projektkort och förbered projektaktiviteter. Ange priser för projektobjekt och projektresurser och definiera projektbokföringsmallar. |[Lägga upp projekt](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Se även
+
 [Hantera projekt](projects-manage-projects.md)  
+[Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)     
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
