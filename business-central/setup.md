@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852085"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969838"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar företagets behov.
@@ -27,7 +27,7 @@ Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider 
 > [!NOTE]
 > Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver de assisterade inställningarna. Nedan anges några av de funktioner som du kan ställa in manuellt.
+Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver den assisterade inställningsguiden. Nedan anges några av de funktioner som du kan ställa in manuellt.
 
 | Om du vill | Gå till |
 | --- | --- |
@@ -48,7 +48,7 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 |Få insyn i Business Central-data med hjälp av Power BI och Business Central-innehållspaket.|[Aktivera affärsdata för Power BI](admin-powerbi.md)|
 |Använd Business Central-data som en del av ett arbetsflöde i Microsoft Flow.|[Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)|
 |Gör din Business Central-data tillgänglig som underlag för datakälla i PowerApps.|[Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Använd särskilda Quickbooks migreringsguider.|[Du ändrar från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)|
+|Använd särskilda Quickbooks migreringsguider.|[Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)|
 |Komma åt Business Central-data från en mobil enhet.|[Få Business Central på din mobila enhet](install-mobile-app.md)|
 |Bulkfakturera avtalade tider som skapats i Bookings.|[Bulkfakturera för Microsoft Bookings](finance-bookings.md)|
 |Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration](admin-how-setup-email.md)|
@@ -58,18 +58,18 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Administration](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se även
+
 [Administration](admin-setup-and-administration.md)  
 [Ekonomi](finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Lagersaldo](inventory-manage-inventory.md)    
+[Lager](inventory-manage-inventory.md)  
 [Projekthantering](projects-manage-projects.md)  
-[Anläggningstillgångar](fa-manage.md)    
+[Anläggningstillgångar](fa-manage.md)  
 [Monteringshantering](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administration](admin-setup-and-administration.md)  
 [Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Komma igång](product-get-started.md)  
 

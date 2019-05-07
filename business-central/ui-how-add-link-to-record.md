@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853310"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990183"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Lägga till länkar till webbplatser, dokument och program på poster
-För en viss post, till exempel kund, dokument eller försäljningsorder, kan du lägga till en länk till ett externt dokument, webbplatser eller program. Eller så kanske du vill ha en länk som öppnar ett nytt, tomt e-postmeddelande till en viss mottagare när du klickar på den. Kortsidan för vissa kort, till exempel kund- och leverantörskorten, innehåller fältet **Hemsida** där en Internettadress (URL) kan anges. Om du vill infoga andra länkar kan du använda den metod som beskrivs i den här artikeln.
+För en viss post, till exempel kund, dokument eller försäljningsorder, kan du lägga till en länk till ett externt dokument, webbplatser eller program. Eller så kanske du vill ha en länk som öppnar ett nytt, tomt e-postmeddelande till en viss mottagare när du klickar på den. Kortsidan för vissa kort, till exempel kund- och leverantörskorten, innehåller fältet **Hemsida** där en Internettadress (URL) kan anges. Om du vill infoga andra länkar kan du använda den metod som beskrivs i den här artikeln.  
+
+> [!IMPORTANT]
+> För närvarande finns den här funktionen bara i [!INCLUDE [prodshort](includes/prodshort.md)] lokal distribution med äldre Dynamics NAV Windows-klienten.  
 
 Ett annat exempel är när du får utskrivna fakturor från leverantörer. Du kan skanna in dem och spara dem som PDF-filer på en SharePoint-webbplats. Därefter kan du skapa en länk från en inköpsfaktura i [!INCLUDE[d365fin_md](includes/d365fin_md.md)] till motsvarande faktura på SharePoint. Du kan också skapa en länk från ett artikelkort till motsvarande sida i leverantörens onlinekatalog.
 

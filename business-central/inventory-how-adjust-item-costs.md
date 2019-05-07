@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806910"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941686"
 ---
 # <a name="adjust-item-costs"></a>Justera artikelkostnader
 Kostnaden för en artikel (lagervärde) som du köper och senare säljer kan ändras under dess livstid, eftersom till exempel en fraktkostnad läggs till dess inköpkostnad när du har sålt artikeln. Kostnadsjustering är speciellt relevant i situationer där du säljer varor, innan du fakturerar inköpet av dessa varor. För att alltid ha rätt lagervärde måste artikelkostnader därför regelbundet justeras. Detta säkerställer att försäljnings- och vinststatistiken är aktuell och ekonomiska KPI-er är korrekta. Mer information finns i [Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md).
@@ -28,7 +28,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] justera artikelkostnaderna automat
 
 Du kan också använda en funktion för att justera kostnaderna för en eller flera artiklar. Detta är användbart när du vet att artikelkostnader har ändrats av andra orsaker än artikeltransaktioner.
 
-Artikelkostnaderna justeras av FIFO eller metoden Genomsnittskostnad beroende på ditt val i assisterad konfiguration för **Konfigurera mitt företag** på fältet **Värderingsprincip** på artikelkortet. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).  
+Artikelkostnaderna justeras av FIFO eller metoden Genomsnittskostnad beroende på ditt val i assisterad inställningsguide för **Konfigurera mitt företag** på fältet **Värderingsprincip** på artikelkortet. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).  
 
 Om du använder en FIFO-kostnadsmetod är artikelns enhetskostnad det verkliga värdet på en inleverans av artikeln. Lager värders genom att anta att de första artiklarna in i lagret säljs först.
 

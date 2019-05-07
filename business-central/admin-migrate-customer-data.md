@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "806845"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953516"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av datamigreringsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
@@ -101,7 +101,7 @@ I följande procedurer ska du granska i förväg vilka värden som du vill bibeh
 5. Ange värdet som du vill ändra i fältet **Gammalt värde**. Ange värdet som du vill att det gamla värdet ska ändras till i fältet **Nytt värde**. Välj knappen **OK**.  
 6. Importera kunddata. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data).
 7. Se om det finns några fel rapporterade i fältet **Antal paketfel**. Om det finns söker du ned för att visa fel. Sidan **Konfig. paketposter** öppnas.
-8. Välj åtgärden **Visa fel**. Du får då följande fel: **<option> är inget giltigt alternativ. Giltiga alternativ är <valid option list>**. Välj knappen **OK**.  
+8. Välj åtgärden **Visa fel**. Du får då följande fel: **XX är inget giltigt alternativ. Giltiga alternativ är: XX**. Välj **OK**.  
 9. Använd den mappning som du har ställt in genom att välja åtgärden **Koppla Data**.  
 
 ### <a name="mapping-example"></a>Mappningsexempel  
@@ -153,7 +153,11 @@ När kunddatan har registrerats i datamigreringsfilerna i Excel importerar du fi
 
 1. Öppna sidan **Konfig. paketkort**.
 2. Välj tabellen som du vill importera data för, och på fliken **Tabeller** väljer du sedan åtgärden **Importera från Excel**.
-3. Lokalisera och öppna filen som du vill importera data till [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Leta upp och öppna filen du vill importera data från.
+4. På sidan **Konfig. förhandsgranskning av paket** granskar du det innehåll som ska importeras.
+
+    Sidan **Konfig. förhandsgranskning av paket** ger en överblick av Excel-filinnehåll som ska importeras. Där finns även information om att ett nytt konfigurationpaket har skapats eller en befintlig har uppdaterats och om nya konfigurationspaketrader (tabeller) har skapats eller om ett befintligt uppdateras.    
+5. Välj åtgärden **Importera**.
 
 Data från filen importeras till tabellerna i konfigurationspaketet. I fältet **Antal paketposter** kan du visa antalet poster som har importerats. Dessutom kan du visa antalet flyttningsfel.
 
