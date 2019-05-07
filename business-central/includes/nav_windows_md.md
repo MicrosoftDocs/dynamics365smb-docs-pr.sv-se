@@ -1,0 +1,1 @@
+<span data-ttu-id="23a5d-101">Dynamics NAV Klienten är ansluten till Business Central</span><span class="sxs-lookup"><span data-stu-id="23a5d-101">Dynamics NAV Client connected to Business Central</span></span>
