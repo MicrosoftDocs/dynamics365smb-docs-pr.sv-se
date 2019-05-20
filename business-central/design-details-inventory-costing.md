@@ -11,34 +11,34 @@ ms.search.keywords: design, inventory, costing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b484cc412084937072f5031185ba8c69078a616a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922798"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246415"
 ---
-# <a name="design-details-inventory-costing"></a><span data-ttu-id="7cee2-103">Designdetaljer: Lagerkalkylering</span><span class="sxs-lookup"><span data-stu-id="7cee2-103">Design Details: Inventory Costing</span></span>
-<span data-ttu-id="7cee2-104">Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="7cee2-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+# <a name="design-details-inventory-costing"></a><span data-ttu-id="30063-103">Designdetaljer: Lagerkalkylering</span><span class="sxs-lookup"><span data-stu-id="30063-103">Design Details: Inventory Costing</span></span>
+<span data-ttu-id="30063-104">Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="30063-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
 
-<span data-ttu-id="7cee2-105">Lagervärdering, kallas även kostnadshantering, används vid registrering och rapportering av rörelsens driftskostnader.</span><span class="sxs-lookup"><span data-stu-id="7cee2-105">Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.</span></span>  
+<span data-ttu-id="30063-105">Lagervärdering, kallas även kostnadshantering, används vid registrering och rapportering av rörelsens driftskostnader.</span><span class="sxs-lookup"><span data-stu-id="30063-105">Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="7cee2-106">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="7cee2-106">In This Section</span></span>  
-[<span data-ttu-id="7cee2-107">Designdetaljer: Värderingsprinciper</span><span class="sxs-lookup"><span data-stu-id="7cee2-107">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
-[<span data-ttu-id="7cee2-108">Designdetaljer: Artikelkoppling</span><span class="sxs-lookup"><span data-stu-id="7cee2-108">Design Details: Item Application</span></span>](design-details-item-application.md)  
-[<span data-ttu-id="7cee2-109">Designdetaljer: Kända problem med artikelkopplingar</span><span class="sxs-lookup"><span data-stu-id="7cee2-109">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-[<span data-ttu-id="7cee2-110">Designdetaljer: Kostnadsjustering</span><span class="sxs-lookup"><span data-stu-id="7cee2-110">Design Details: Cost Adjustment</span></span>](design-details-cost-adjustment.md)  
-[<span data-ttu-id="7cee2-111">Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen</span><span class="sxs-lookup"><span data-stu-id="7cee2-111">Design Details: Posting Date on Adjustment Value Entry</span></span>](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[<span data-ttu-id="7cee2-112">Designdetaljer: Bokföring av förväntad kostnad</span><span class="sxs-lookup"><span data-stu-id="7cee2-112">Design Details: Expected Cost Posting</span></span>](design-details-expected-cost-posting.md)  
-[<span data-ttu-id="7cee2-113">Designdetaljer: Genomsnittskostnad</span><span class="sxs-lookup"><span data-stu-id="7cee2-113">Design Details: Average Cost</span></span>](design-details-average-cost.md)  
-[<span data-ttu-id="7cee2-114">Designdetaljer: Varians</span><span class="sxs-lookup"><span data-stu-id="7cee2-114">Design Details: Variance</span></span>](design-details-variance.md)  
-[<span data-ttu-id="7cee2-115">Designdetaljer: Avrundning</span><span class="sxs-lookup"><span data-stu-id="7cee2-115">Design Details: Rounding</span></span>](design-details-rounding.md)  
-[<span data-ttu-id="7cee2-116">Designdetaljer: Kostnadskomponenter</span><span class="sxs-lookup"><span data-stu-id="7cee2-116">Design Details: Cost Components</span></span>](design-details-cost-components.md)  
-[<span data-ttu-id="7cee2-117">Designdetaljer: Lagerperioder</span><span class="sxs-lookup"><span data-stu-id="7cee2-117">Design Details: Inventory Periods</span></span>](design-details-inventory-periods.md)  
-[<span data-ttu-id="7cee2-118">Designdetaljer: Lagerbokföring</span><span class="sxs-lookup"><span data-stu-id="7cee2-118">Design Details: Inventory Posting</span></span>](design-details-inventory-posting.md)  
-[<span data-ttu-id="7cee2-119">Designdetaljer: Bokföring av produktionsorder</span><span class="sxs-lookup"><span data-stu-id="7cee2-119">Design Details: Production Order Posting</span></span>](design-details-production-order-posting.md)  
-[<span data-ttu-id="7cee2-120">Designdetaljer: Bokföring av monteringsorder</span><span class="sxs-lookup"><span data-stu-id="7cee2-120">Design Details: Assembly Order Posting</span></span>](design-details-assembly-order-posting.md)  
-[<span data-ttu-id="7cee2-121">Designdetaljer: Avstämning med redovisningen</span><span class="sxs-lookup"><span data-stu-id="7cee2-121">Design Details: Reconciliation with the General Ledger</span></span>](design-details-reconciliation-with-the-general-ledger.md)  
-<span data-ttu-id="7cee2-122">[Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)
-[Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)</span><span class="sxs-lookup"><span data-stu-id="7cee2-122">[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
+## <a name="in-this-section"></a><span data-ttu-id="30063-106">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="30063-106">In This Section</span></span>  
+[<span data-ttu-id="30063-107">Designdetaljer: Värderingsprinciper</span><span class="sxs-lookup"><span data-stu-id="30063-107">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
+[<span data-ttu-id="30063-108">Designdetaljer: Artikelkoppling</span><span class="sxs-lookup"><span data-stu-id="30063-108">Design Details: Item Application</span></span>](design-details-item-application.md)  
+[<span data-ttu-id="30063-109">Designdetaljer: Kända problem med artikelkopplingar</span><span class="sxs-lookup"><span data-stu-id="30063-109">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[<span data-ttu-id="30063-110">Designdetaljer: Kostnadsjustering</span><span class="sxs-lookup"><span data-stu-id="30063-110">Design Details: Cost Adjustment</span></span>](design-details-cost-adjustment.md)  
+[<span data-ttu-id="30063-111">Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen</span><span class="sxs-lookup"><span data-stu-id="30063-111">Design Details: Posting Date on Adjustment Value Entry</span></span>](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[<span data-ttu-id="30063-112">Designdetaljer: Bokföring av förväntad kostnad</span><span class="sxs-lookup"><span data-stu-id="30063-112">Design Details: Expected Cost Posting</span></span>](design-details-expected-cost-posting.md)  
+[<span data-ttu-id="30063-113">Designdetaljer: Genomsnittskostnad</span><span class="sxs-lookup"><span data-stu-id="30063-113">Design Details: Average Cost</span></span>](design-details-average-cost.md)  
+[<span data-ttu-id="30063-114">Designdetaljer: Varians</span><span class="sxs-lookup"><span data-stu-id="30063-114">Design Details: Variance</span></span>](design-details-variance.md)  
+[<span data-ttu-id="30063-115">Designdetaljer: Avrundning</span><span class="sxs-lookup"><span data-stu-id="30063-115">Design Details: Rounding</span></span>](design-details-rounding.md)  
+[<span data-ttu-id="30063-116">Designdetaljer: Kostnadskomponenter</span><span class="sxs-lookup"><span data-stu-id="30063-116">Design Details: Cost Components</span></span>](design-details-cost-components.md)  
+[<span data-ttu-id="30063-117">Designdetaljer: Lagerperioder</span><span class="sxs-lookup"><span data-stu-id="30063-117">Design Details: Inventory Periods</span></span>](design-details-inventory-periods.md)  
+[<span data-ttu-id="30063-118">Designdetaljer: Lagerbokföring</span><span class="sxs-lookup"><span data-stu-id="30063-118">Design Details: Inventory Posting</span></span>](design-details-inventory-posting.md)  
+[<span data-ttu-id="30063-119">Designdetaljer: Bokföring av produktionsorder</span><span class="sxs-lookup"><span data-stu-id="30063-119">Design Details: Production Order Posting</span></span>](design-details-production-order-posting.md)  
+[<span data-ttu-id="30063-120">Designdetaljer: Bokföring av monteringsorder</span><span class="sxs-lookup"><span data-stu-id="30063-120">Design Details: Assembly Order Posting</span></span>](design-details-assembly-order-posting.md)  
+[<span data-ttu-id="30063-121">Designdetaljer: Avstämning med redovisningen</span><span class="sxs-lookup"><span data-stu-id="30063-121">Design Details: Reconciliation with the General Ledger</span></span>](design-details-reconciliation-with-the-general-ledger.md)  
+<span data-ttu-id="30063-122">[Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)
+[Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)</span><span class="sxs-lookup"><span data-stu-id="30063-122">[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
 [Design Details: Inventory Valuation](design-details-inventory-valuation.md)</span></span>  
-[<span data-ttu-id="7cee2-123">Designdetaljer: Omvärdering</span><span class="sxs-lookup"><span data-stu-id="7cee2-123">Design Details: Revaluation</span></span>](design-details-revaluation.md)
+[<span data-ttu-id="30063-123">Designdetaljer: Omvärdering</span><span class="sxs-lookup"><span data-stu-id="30063-123">Design Details: Revaluation</span></span>](design-details-revaluation.md)

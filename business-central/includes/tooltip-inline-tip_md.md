@@ -1,1 +1,1 @@
-<span data-ttu-id="359b3-101">Placera markören över ett fält om du vill läsa en kort beskrivning.</span><span class="sxs-lookup"><span data-stu-id="359b3-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="1832b-101">Placera markören över ett fält om du vill läsa en kort beskrivning.</span><span class="sxs-lookup"><span data-stu-id="1832b-101">Hover over a field to read a short description.</span></span>
