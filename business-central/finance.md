@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: edupont
-ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911558"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446974"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
@@ -33,10 +33,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Gör så att kunderna skickar betalning innan du levererar till dem eller skickar betalning till dina leverantörer innan de levererar till dig.|[Fakturera förskottsbetalningar](finance-invoice-prepayments.md)|
 | Stämma av bankkonton och överföra pengar mellan bankkonton. |[Hantera bankkonton](bank-manage-bank-accounts.md) |
 |Ställa in koncerninterna partners och bearbeta transaktioner, manuellt eller automatiskt mellan juridiska personer inom samma företag.|[Hantera koncerninterna transaktioner](intercompany-manage.md)|
-|Kombinera redovisningstransaktioner från flera företag i ett enda virtuellt konsoliderat företag för ekonomisk analys.|[Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)|
 |Analysera kostnaderna för att driva ditt företag genom att fördela faktiska budgeterade kostnader för drift, avdelningar, produkter och projekt till kostnadscenter.|[Redovisa kostnader](finance-manage-cost-accounting.md)|
 |hantera lager- och produktionskostnader, rapportera kostnader och stämma av kostnader med redovisningen.|[Hantera lagerkostnader](finance-manage-inventory-costs.md)|
 | Förstå redovisningen och kontoplanen. |[Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md) |
+|Kombinera redovisningstransaktioner från flera företag i ett enda virtuellt konsoliderat företag för ekonomisk analys.|[Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)|
 | Lägga till dimensioner för rikare business intelligence. |[Arbeta med dimensioner](finance-dimensions.md) |
 | Skapa redovisningsbudgetar för att förutse olika ekonomiska aktiviteter och koppla dimensioner för affärssystemet. |[Skapa redovisningsbudgetar](finance-how-create-budgets.md) |
 |Registrera intäkter och utgifter direkt i redovisningen utan att bokföra dedikerade affärsdokument.|[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)|
@@ -47,10 +47,13 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Känner igen intäkter och kostnader i andra perioder än när transaktionerna bokfördes. |[Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)|
 |Lär dig använda ytterligare valutor och uppdatera valutakurser automatiskt. |[Uppdatera valutakurser](finance-how-update-currencies.md)|
 | Importera löntransaktioner från ditt lönesystem till redovisningen. |[Importera lönetransaktioner](finance-how-import-payroll-transactions.md)|
-| Övervaka kassaflödet till och från ditt företag. |[Analysera transaktioner i företaget](finance-analyze-cash-flow.md) |
-| Arbeta med finansiella rapporter och översikter i Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
-| Förbereda att avsluta ett räkenskapsår eller en period. |[Avsluta år och perioder](year-close-years-periods.md) |
+|Använda funktioner för att beräkna moms (VAT) för försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till skattemyndigheterna.|[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)|
 |Förbereda en rapport över moms från försäljning och skicka rapporten till en skattemyndighet inom EU. | [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
+|Manuellt omvandla servicekontrakt för att ändra deras momssats.|[Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)|
+| Övervaka kassaflödet till och från ditt företag. |[Analysera transaktioner i företaget](finance-analyze-cash-flow.md) |
+|Uppföljning och procedur från slutpunkt till slutpunkt om hur du använder kontouppställningar för att göra kassaflödesprognoser.|[Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Arbeta med finansiella rapporter och översikter i Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
+|För mer information om hur du använder rollcentret Revisor, bjud in en extern revisor och använd Accountant Hub för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Se även
 [Ställa in Finance](finance-setup-finance.md)  

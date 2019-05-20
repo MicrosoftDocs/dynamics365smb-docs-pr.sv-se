@@ -13,20 +13,20 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941825"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246659"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurera bankfeedtjänsten Envestnet Yodlee
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurera Envestnet Yodlee Bank Feeds-tjänsten
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Tjänsten Envestnet Yodlee bankfeeder stöds bara i onlineversionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
-> Tjänsten Envestnet Yodlee bankfeeder stöds bara i USA, Kanada och Storbritannien.
+> Tjänsten Envestnet Yodlee Bank Feeds stöds bara i onlineversionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
+> Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA, Kanada och Storbritannien.
 
-Tjänsten Envestnet Yodlee bankfeeder har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] online och är klar att aktiveras i de länder som stöds. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
+Tjänsten Envestnet Yodlee Bank Feeds har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] online och är klar att aktiveras i de länder som stöds. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
 
 När du har aktiverat bankfeedtjänsten måste du länka det involverade bankkontot till det onlinebankkonto som feeden ska komma från. Du länkar bankkonton till onlinebankkonton i följande olika scenarier:
 
@@ -55,7 +55,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 2. Välj det relevanta bankkontot och välj sedan **Skapa nytt länkat bakkonto**. Sidan **Länkning av bankkonto** öppnas efter några ögonblick.
 
     > [!NOTE]  
-    > Den här sidan visar den verkliga webbsidan för tjänsten Envestnet Yodlee bankfeeder. Terminologi och funktionalitet på sidan kanske inte matchar instruktionerna som tillhandahålls i det här avsnittet.  
+    > Den här sidan visar den verkliga webbsidan för tjänsten Envestnet Yodlee Bank Feeds. Terminologi och funktionalitet på sidan kanske inte matchar instruktionerna som tillhandahålls i det här avsnittet.  
 3. På sidan **Länka till onlinebankkonto** i rutan **Länka konto** använd Sökfunktionen för att hitta banken där du har ett eller flera onlinebankkonton.
 4. Välj bankens namn. Rutan **Inloggning** öppnas.
 5. Ange användarnamnet och lösenordet som du använder för att logga in på onlinebanken och tryck sedan på knappen **Nästa**.  

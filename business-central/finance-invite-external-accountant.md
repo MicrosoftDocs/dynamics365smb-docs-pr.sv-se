@@ -10,12 +10,13 @@ ms.workload: na
 ms.search.keywords: accountant, accounting
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: b6577c183e708b02699161a98197ad60ac1006fd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+redirect_url: finance-accounting
+ms.openlocfilehash: 4b56e6923d1d554bb27a4c0f82f0226dea51f280
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934356"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446905"
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till dina [!INCLUDE[d365fin](includes/d365fin_md.md)] så att de kan arbeta med dig med räkenskapsårets informationen.

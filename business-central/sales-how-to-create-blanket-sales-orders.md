@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 651744bb99d7946a51d9dba5ace07578ac51fffb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917052"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252326"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.

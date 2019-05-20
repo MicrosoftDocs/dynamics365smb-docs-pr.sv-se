@@ -4,26 +4,25 @@ description: Om du vill använda automatiska kontokoder måste du skapa en autom
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 2822ffb9fab32501b0766eaa51a36d3a31d1bb6c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925596"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241407"
 ---
 # <a name="set-up-automatic-account-posting-groups"></a>Ställ in automatiska kontobokföringsmallar
 Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  
 
 ## <a name="to-set-up-automatic-account-posting-groups"></a>Så här ställer du in automatiska kontobokföringsmallar  
-
 1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Automatkontering** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  

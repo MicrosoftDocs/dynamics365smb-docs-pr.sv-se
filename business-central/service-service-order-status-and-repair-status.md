@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9b6c7278ae17e9d2b71b8c32f7bb58356fc4e544
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923864"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249848"
 ---
 # <a name="service-order-status-and-repair-status"></a>Tjänsteorderstatus och reparationsstatus
 Fältet **Status** på sidan **Serviceorder** och serviceartikelns reparationsstatus som visas i fältet **Reparationsstatuskod** på sidan **Serviceorder** har ett visst samband i Servicehantering Serviceorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern.  

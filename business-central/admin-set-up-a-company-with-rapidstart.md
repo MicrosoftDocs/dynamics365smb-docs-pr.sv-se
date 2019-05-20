@@ -1,5 +1,5 @@
 ---
-title: Skapa ett företag med RapidStart Services | Microsoft Docs
+title: Konfigurera ett företag med RapidStart Services| Microsoft Docs
 description: Du kan skapa ett nytt företag i Business Central med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.
 services: project-madeira
 documentationcenter: ''
@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914792"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244325"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurera ett företag med RapidStart Services
-Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.  
+Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.  
 
-Med hjälp av RapidStart Services får du en översikt över konfigureringsprocessen i ditt nya företag genom att tillhandahålla ett kalkylark där du kan lägga upp tabeller som ofta används i konfigurationen av nya företag. När du gör detta kan du skapa ett frågeformulär som hjälper dina kunder genom att samla in information om inställningar. Kunderna får valet att använda frågeformuläret för att skapa moduler eller öppna sidan med inställningar direkt och göra inställningarna där. Och viktigast av allt: RapidStart Services hjälper dig som kund att förbereda företaget genom standardinställningsdata som du kan finjustera och anpassa. Slutligen: När du använder RapidStart Services kan du konfigurera och migrera befintliga kunddata som till exempel en lista över kunder och artiklar till det nya företaget.
+Med hjälp av RapidStart Services får du en översikt över processen i ditt nya företag genom att tillhandahålla ett formulär där du kan lägga upp tabeller som ofta används i konfigurationer av nya företag. När du gör detta kan du skapa ett frågeformulär som hjälper dina kunder genom att samla in information om inställningar. Kunderna får valet att använda frågeformuläret för att skapa moduler eller öppna sidan med inställningar direkt och göra inställningarna där. Och viktigast av allt: RapidStart Services hjälper dig som kund att förbereda företag med standardinställningsdata som du kan finjustera och anpassa. Slutligen, när du använder RapidStart Services, kan du konfigurera och migrera befintliga kunddata som till exempel en lista över kunder och artiklar till det nya företaget.
 
 Du kan använda följande komponenter för att snabba på inställningen av ditt företag:  
 
@@ -37,16 +37,16 @@ Du kan använda följande komponenter för att snabba på inställningen av ditt
 
  I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-|**För att**|**Gå till**|  
+|**Om du vill**|**Se**|  
 |------------|-------------|  
-|Ställ in det huvudsakliga användargränssnitt för RapidStart Services.|[Använd implementerings-rollcentret för RapidStart Services.](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
+|Ställ in det huvudsakliga användargränssnitt för RapidStart Services.|[Använd implementerings-rollcentret för RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Skapa ett nytt företag och importera grundläggande inställningsdata och mallar.|[Ställa in företagskonfiguration](admin-set-up-company-configuration.md)|  
 |Distribuera det konfigurerade paketet till kunden för implementering.|[Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)|
 |Definiera och validera kundens installationsvärden för alla viktiga områden, till exempel företagsinformation, redovisning, lager, försäljning och produktion.|[Samla in kundinställningsvärden](admin-gather-customer-setup-values.md)|  
 |Konfigurera huvuddataposter med mallar för att förbereda migrering av befintliga kunddata.|[Förbereda migrering av kunddata](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definiera tabeller och fält, kontrollera befintliga kunddata och migrerar data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.|[Migrera kunddata](admin-migrate-customer-data.md)|
 |Förbered för att återanvända konfigurationer för företag i andra företag.|[Så här skapar du anpassade konfigurationspaket för företag](admin-how-to-create-custom-company-configuration-packages.md)|
-|Hitta lösningar på RapidStart Service-verktyget|[Tips och tricks: RapidStart-tjänster](admin-tips-and-tricks-rapidstart-services.md)|  
+|Hitta lösningar till kända problem i RapidStart Services-verktyget.|[Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Se även  
 [Administration](admin-setup-and-administration.md)  

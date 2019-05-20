@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938971"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243225"
 ---
 # <a name="create-contacts"></a>Skapa kontakter
 Du kan regelbundet träffa personer från andra företag som kan utvecklas till affärsrelationer, till exempel en kundrelation. När en ny kontakt skapas måste så mycket information som möjligt registreras på ett kontaktkort så att kommunikationen kan fortsätta.

@@ -13,11 +13,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915294"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246916"
 ---
 # <a name="business-intelligence"></a>Affärsstöd
 Företag skapar och hanterar oerhörda mängder data under sin dagliga verksamhet. Dessa data, som återspeglar till exempel organisationens försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare. [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal funktioner som hjälper dig att samla, analysera och dela med dig av dina företagsdata.

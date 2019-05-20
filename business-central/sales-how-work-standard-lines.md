@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936794"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252260"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Skapa återkommande försäljnings- och inköpsrader
 Om du ofta behöver skapa försäljnings- och inköpsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande försäljning och inköpsdokument, till exempel för återkommande påfyllningsorder.  
@@ -33,14 +33,21 @@ I följande procedur visas hur du arbetar med in standardförsäljningsrader på
 > [!NOTE]
 > Du kan inte definiera priser på standardförsäljningsrader eftersom priser, rabatter och så vidare beräknas på de faktiska försäljningsdokument när du infogar standardförsäljningsraderna.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Så här tilldelar du kunder standardförsäljningsrader
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Så här tilldelar du standardförsäljningsrader till kunder
 Tilldela en eller flera standardförsäljningsrader till en kund, så att de blir tillgängliga att infoga i försäljningsdokument för kunden.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.
 2. Öppna kortet för ett relevant kund.
 3. Välj åtgärden **Få återkommande förs.rader**.
 4. På sidan **Återkommande försäljningsrader**, välj koderna för återkommande försäljningsrader som du vill infoga i ett försäljningsdokument för kunden.
-5. Fyll i ytterligare fält för att definiera när, hur och var återkommande försäljningsraderna ska användas. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fyll i ytterligare fält för att definiera när, hur och var återkommande försäljningsraderna ska användas.
+6. I de fyra fälten där du väljer hur raderna infogas på fyra typer av dokument, väljer du ett av följande alternativ:
+
+|Alternativ|Beskrivning|
+|-|-|
+|**Manuell**|Du måste manuellt söka efter och markera en återkommande försäljningsrad för kunden.|
+|**Automatiskt**|Om det finns flera återkommande försäljningsrader för kunden, får du ett meddelande där du kan välja vilken som ska infogas. Om det bara finns en återkommande försäljningsrad kommer den att infogas automatiskt.|
+|**Fråga alltid**|Ett meddelande visas och alla befintliga återkommande försäljningsrader visas så att du kan välja ett.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>För att infoga återkommande försäljningsrader i en försäljningsfaktura
 Om det finns återkommande försäljningsrader för kunden, kan du infoga dem i alla typer av försäljningsdokument, t.ex. en försäljningsfaktura. Om du har aktiverat det aktuella meddelandet får du information om återkommande försäljningsrader finns.

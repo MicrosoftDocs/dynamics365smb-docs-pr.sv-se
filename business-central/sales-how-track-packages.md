@@ -12,11 +12,11 @@ ms.search.keywords: rfq
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6583c75fcc3268b6e081122d1e5bbe2ad60acd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923887"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251567"
 ---
 # <a name="track-packages"></a>Spåra paket
 Ett antal speditörer tillhandahåller tjänster på Internet genom vilka det går att spåra godspaket som har överlämnats till speditören. Om du anlitar en eller flera av dessa speditörer kan du lägga in viss grundinformation och använda den automatiska spårningsfunktionen från bokförda leveranser. För mer information, se [Ställa in speditörer](sales-how-to-set-up-shipping-agents.md).  

@@ -13,11 +13,11 @@ ms.search.keywords: machinery, buildings
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fabff17b66dd3d5a8c57537df34bddedba0d7248
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914639"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243854"
 ---
 # <a name="fixed-assets"></a>Anläggningstillgångar
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.

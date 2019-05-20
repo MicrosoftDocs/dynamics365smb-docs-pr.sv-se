@@ -1,5 +1,5 @@
 ---
-title: Så här använder du implementeringscentret för RapidStart Services-roller | Microsoft Docs
+title: Så här använder RapidStart Services du implementeringscentret för RapidStart Services-roller | Microsoft Docs
 description: När du använder RapidStart Services rekommenderar vi att du spårar ditt arbete och använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete.
 services: project-madeira
 documentationcenter: ''
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912079"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245172"
 ---
-# <a name="use-the-rapidstart-services-implementer-role-center"></a>Använd implementerings-rollcentret för RapidStart Services.
-När du använder RapidStart Services rekommenderar vi att du spårar ditt arbete och använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Att ändra rollcenter](ui-change-basic-settings.md#to-change-role-center).
+# <a name="use-the-rapidstart-services-implementer-role-center"></a>Använd implementerings-rollcentret för RapidStart Services
+När du använder RapidStart Services rekommenderar vi att du använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Att ändra rollcenter](ui-change-basic-settings.md#to-change-role-center).
 
 När du fortsätter med ditt arbete kan du tilldela varje tabell den status som anger under processen. [!INCLUDE[d365fin](includes/d365fin_md.md)] håller sedan reda på tabellstatusen i avsnittet **Aktiviteter** för rollcentret.  
 

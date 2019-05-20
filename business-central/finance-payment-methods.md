@@ -11,11 +11,11 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c9eace037f6a30fafdd5bc2a3af0af83da73b3f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926349"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244406"
 ---
 # <a name="defining-payment-methods"></a>Definiera betalningssätt
 Betalningssätt definierar hur du föredrar att kunderna betalar dig och hur du vill betala dina leverantörer. Metoden kan variera för varje kund eller leverantör. Exempel på typiska betalningssätt är **bank**, **kontanter**, **check** eller **konto**. 

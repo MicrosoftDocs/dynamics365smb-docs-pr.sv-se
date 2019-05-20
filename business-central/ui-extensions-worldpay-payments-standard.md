@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935618"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249290"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Tillägget WorldPay Payments Standard
 Tillägget WorldPay Payments Standard låter dig erbjuda kunder ett praktiskt alternativ till betalningar via banköverföringar eller kreditkort. Inte bara det, betalningar via betalningstjänster hamnar vanligtvis snabbare i på ditt bankkonto.

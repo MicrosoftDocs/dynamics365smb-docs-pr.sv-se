@@ -11,11 +11,11 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929895"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254051"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.

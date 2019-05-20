@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941640"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245865"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 När du konfigurerar ett nytt företag identifieras och hanteras tabellrelationer. Data importeras och kopplas i rätt ordning. Måttabeller importeras också, om de ingår i konfigurationspaketet. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Om du vill hjälpa kunden att använda konfigurationspaketet kan du lägga till ett frågeformulär eller en uppsättning frågeformulär i paketet. Frågeformuläret kan hjälpa till kunden att förstå de olika inställningsalternativen. Frågeformulär skapas vanligtvis för de större inställningstabellerna där en kund kan kräva ytterligare vägledning om hur han/hon väljer en lämplig inställning. Mer information finns i [Samla inställningsvärden för kund](admin-gather-customer-setup-values.md).
 
-Se till att du befinner dig i implementerings-rollcentret för RapidStart Services innan du börjar. För mer information, se [Så här använder du implementerings-rollcentret för RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Kontrollera att du är på implementerings-rollcentret för RapidStart Services. Mer information finns i [Använd implementerings-rollcentret för RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
@@ -77,7 +77,7 @@ Paketet skapas i en .rapidstart-fil, vilket levererar paketinnehållen i ett kom
 Du kan spara filen med ett namn som är meningsfullt för dig, men du kan inte ändra filtillägget. Det måste vara .rapidstart.  
 
 ### <a name="to-copy-a-configuration-package"></a>Kopiera ett konfigurationspaket  
-När du har skapat ett paket som uppfyller de flesta av behoven kan du använda det som en grund för att skapa liknande paket. Detta kan påskynda implementeringstiden och gör det lättare att upprepa RapidStart Services.
+När du har skapat ett paket som uppfyller de flesta av behoven kan du använda det som en grund för att skapa liknande paket. Det kan påskynda implementeringstiden och gör det lättare att upprepa RapidStart Services.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj ett paket i listan och välj sedan åtgärden **Kopiera paket**.  
@@ -86,7 +86,7 @@ När du har skapat ett paket som uppfyller de flesta av behoven kan du använda 
 5. Välj knappen **OK**.
 
 ## <a name="to-customize-a-configuration-package"></a>Så här anpassar du ett konfigurationspaket
-Använd konfigurationskalkylarket för att samla ihop och kategorisera information som du vill använda för att konfigurera ett nytt företag, och ordna tabellerna på ett logiskt sätt. Formateringen i kalkylarket baseras på en enkel hierarki: områden innehåller grupper, som i sin tur innehåller tabeller. Områden och grupper är valfria, men nödvändiga om du vill kunna se en översikt över konfigurationsprocessen i RapidStart Services-rollcentret.
+Använd konfigurationskalkylarket för att samla ihop och kategorisera information som du vill använda för att konfigurera ett nytt företag, och ordna tabellerna på ett logiskt sätt. Formateringen i kalkylarket baseras på en enkel hierarki: områden innehåller grupper, som i sin tur innehåller tabeller. Områden och grupper är valfria, men nödvändiga om du vill kunna se en översikt över konfigurationsprocessen i rollcentret för RapidStart Services.
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
 2.  Välj **Område** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  

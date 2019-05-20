@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 2db4fb00567c98b1133cd031a3d7d9f1d1955626
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922319"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250900"
 ---
 # <a name="copying-and-pasting"></a>Kopiera och klistra in
 Du kan kopiera en eller flera rader i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post). Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS).

@@ -4,40 +4,39 @@ description: Det här avsnittet beskriver de regler som gäller för att planera
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, frozen, design serial, lot
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 32c523eda09620bd74df53f09bc103a44fbb367a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919780"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242303"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Designdetaljer: Hantera order före planeringsstartdatumet
 För att förhindra att en tillförselplan visar omöjliga och därför oanvändbara förslag, betraktar planeringssystemet perioden fram till planeringsstartdatumet som en fryst zon som inget planeras för. Följande regel gäller för den frysta zonen:  
-
+  
 All efterfrågan och tillgång före startdatumet för planeringsperioden anses vara en del av lagret eller levererat.  
-
+  
 Planeringssystemet föreslår inte, med ett par undantag, några ändringar av leveransorder i den frysta zonen, och inga orderspårninglänkar skapas eller underhålls för den perioden.  
-
+  
 Undantagen till denna regel är enligt följande:  
-
+  
 * Om det planerade tillgängliga lagret, inklusive summan av efterfrågan och tillgång i den frysta zonen, är under noll.  
 * Om serie-/partinummer krävs på de bakåtdaterade beställningarna.  
 * Om uppsättningen tillgång-efterfrågan är kopplad av en order-till-order-princip.  
-
+  
 Om det ursprungliga tillgängliga lagret är lägre än noll föreslår planeringssystemet en nödleveransorder leveransorder på dagen före planeringsperioden för att täcka det antal som saknas. Därför kommer det planerade och tillgängliga lagret alltid att vara minst noll när planeringen för den framtida perioden börjar. Planeringsraden för leveransordern ska innehålla en nödvarningsikon och ytterligare information finns i fältet.  
-
+  
 ## <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Serie-/partinummer och Order-till-order-länkar är undantagna från den frysta zonen  
 Om serie-/partinummer krävs eller det finns en order-till-order-länk kommer planeringssystemet att ignorera den frysta zonen och ta med sådana antal som har bakåtdaterats från startdatumet, och föreslår eventuellt korrigerande åtgärder om efterfrågan och tillgång är i obalans. Affärsorsaken till den här principen är att sådana specifika uppsättningar med efterfrågan-tillgång måste matcha för att se till att den aktuella efterfrågan uppfylls.  
-
+  
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   

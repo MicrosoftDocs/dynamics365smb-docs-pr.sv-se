@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f5dbe1ec1dfa765ead07b7fcd0dd2c860d055ae1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916357"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244153"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
 Huvudsyftet med kostnadsjustering är att flytta fram kostnadsändringar från kostnadskällor till kostnadsmottagare, enligt en artikels värderingsprincip, för att leverera rätt lagervärdering.  

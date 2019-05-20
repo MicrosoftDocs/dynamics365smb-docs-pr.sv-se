@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915482"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446836"
 ---
 # <a name="managing-sales-opportunities"></a>Hantera Försäljningsmöjligheter
 En inkommande lead kan betraktas som en affärsmöjlighet. Du kan skapa affärsmöjligheter och koppla dem till en säljare så att du kan följa upp presumtiv försäljning.
@@ -30,7 +30,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | --- | --- |
 | Ange de försäljningscykler du brukar följa och de olika etapper i varje försäljningscykel för affärsmöjligheter. |[Skapa cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Skapa försäljningsmöjligheter från dina kontakter. |[Skapa affärsmöjligheter](marketing-how-create-opportunities.md) |
-| Flytta en försäljningsmöjlighet via försäljningcykeln till färdigställande. |[Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md) |
+| Flytta en försäljningsmöjlighet via försäljningcykeln till färdigställande. |[Behandla försäljningsmöjligheter](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

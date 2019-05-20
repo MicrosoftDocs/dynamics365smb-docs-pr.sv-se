@@ -11,11 +11,11 @@ ms.search.keywords: remove, delete
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926114"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244953"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du vill sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du avsluta ditt konto eller hämta licenser som tagits bort från ditt konto. Stegen du tar skiljer sig om du använder provversion, eller om du har en månadsprenumeration som en del av ett Office 365-konto.  

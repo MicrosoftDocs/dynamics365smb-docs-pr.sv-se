@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919277"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239918"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
 Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
 
-I följande procedur har du gett kunden ett konfigurationspaket, som sedan har installerats på en dator. Kunden öppnar det nya företaget, som inte innehåller några kunddata. Du eller kunden följer sedan stegen i RapidStart Services-guiden, som beskrivs i den här proceduren, för att ange grundläggande information om företaget. Guiden importerar konfigurationspaketet och kopplar sedan paketet till företaget.  
+I följande procedur har du gett kunden ett konfigurationspaket, som sedan har installerats på en dator. Kunden öppnar det nya företaget, som inte innehåller några kunddata. Du eller kunden följer stegen i guiden RapidStart Services som beskrivs i den här proceduren, för att ange grundläggande information om företaget. Guiden importerar konfigurationspaketet och kopplar sedan paketet till företaget.  
 
 ## <a name="to-configure-a-new-company"></a>Så här konfigurerar du ett nytt företag  
-1. I implementerings-rollcentret för RapidStart Services väljer du åtgärden **RapidStart-guide**.  
+1. På implementerings-rollcentret för RapidStart Services väljer du åtgärden **RapidStart-guiden**.  
 2. Expandera snabbfliken **Steg 1** , som innehåller allmän information om det nya företaget. Ange lämplig information om det nya företaget i fälten. Det finns ett fält som du måste du fylla i. Fältet **Namn**. Det är frivilligt att fylla i övriga fält.  
 3. Expandera snabbfliken **Steg 2**, som innehåller kommunikations- och kontaktinformation om det nya företaget. Ange lämplig information om det nya företaget i fälten.
 4. Expandera snabbfliken **Steg 3**, som innehåller information om bankkonto och betalning för det nya företaget. Ange lämplig information om det nya företaget i fälten.  

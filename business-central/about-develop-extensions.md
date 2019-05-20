@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917005"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241392"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>Utökning av [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] är ett verksamhetssystem som hjälper företag att ansluta sin ekonomi, försäljning, service och åtgärder för att anpassa affärsprocesserna, öka kundkontakter och fatta bättre beslut. [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i molnet och över flera olika enheter, som alltid är aktuella. Med den här moderna företagsplattformen du kan snabbt och enkelt anpassa, utöka och skapa program så att de passar dina behov, med liten eller ingen kodutveckling.  

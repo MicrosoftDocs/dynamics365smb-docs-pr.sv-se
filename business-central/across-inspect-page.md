@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969884"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447020"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektera sidor i Business Central
 
@@ -22,7 +22,7 @@ Funktionen för sidinspektion låter dig hämta information om en sida, ge insik
 
 ## <a name="working-with-page-inspection"></a>Arbeta med sidinspektion
 
-Om du vill inspektera en sida väljer du ![ikonen inställningar](media/ui-experience/settings_icon_small.png) i övre högra hörnet och väljer sedan **Inspektera**. Du kan också använda kortkommandot **Ctrl + Alt + F1**.
+Du startar sidgranskning från sidan **hjälp och support**. Välj frågetecknet i övre högra hörnet, välj **hjälp och support** och välj **Kontrollera sidor och data**. Du kan bara använda kortkommandot **Ctrl + Alt + F1**.
 
 Rutan **sidinspektion** visas på sidan. I följande figur visas rutan **Sidinspektion** på sidan **försäljningsorder**.
 

@@ -13,11 +13,11 @@ ms.search.keywords: purchasing agent
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4ca0dc82cb35062479b7d523d0f4cc56c0b522ce
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937998"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252832"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
 Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.

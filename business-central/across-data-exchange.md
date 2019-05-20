@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8845f74e544b1c39f5260b799e81c31ea91fc77b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921971"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240867"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegration för att utbyta affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.

@@ -12,11 +12,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912808"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246893"
 ---
 # <a name="application-compliance"></a>Programmets regelefterlevnad
 Innehållet anger information om programmet regelefterlevnad i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)], som internationella finansiella rapporteringsstandarder, lokal funktionalitet, GDPR med mera. Förtroende i ett verksamhetssystem är nyckeln till att driva en effektiv verksamhet. Med Business Central kan företag anpassa affärsprocesserna och samtidigt konsekvent och kostnadseffektivt uppfylla ökade reglerings- och rapporteringskrav.

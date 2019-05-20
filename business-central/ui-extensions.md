@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910371"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250279"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
 Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
@@ -49,7 +49,7 @@ Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företa
 Microsoft ger även följande tillägg:  
 
 * [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee bankfeeder](ui-extensions-yodlee-bank-feeds.md)  
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
@@ -72,7 +72,7 @@ Microsoft ger även följande tillägg:
 ## <a name="see-also"></a>Se även
 [Utökning av Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)  
-[Ställa in bankfeedtjänsten Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
+[Ställa in Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md)  
 [Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Konfigurera tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

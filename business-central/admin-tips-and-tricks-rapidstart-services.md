@@ -1,26 +1,26 @@
 ---
-title: Tips och tricks - RapidStart Services | Microsoft Docs
-description: När du konfigurerar företag med hjälp av RapidStart Services finns några tips och tricks som du kan använda för att få implementeringen att förlöpa smidigt.
+title: Tips och råd - RapidStart Services | Microsoft Docs
+description: När du konfigurerar företag som använder RapidStart Services finns några tips och trick som du kan använda för att implementeringen ska gå smidigt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936918"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243486"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a>Tips och tricks: RapidStart-tjänster
-När du konfigurerar företag med hjälp av RapidStart Services finns några tips och tricks som du kan använda för att få implementeringen att förlöpa smidigt.  
+# <a name="tips-and-tricks-rapidstart-services"></a>Tips och råd: RapidStart Services
+När du konfigurerar företag som använder RapidStart Services finns några tips och trick som du kan använda för att implementeringen ska gå smidigt.  
 
 ## <a name="take-advantage-of-configuration-templates"></a>Utnyttja fördelarna med konfigurationsmallar  
 Konfigurationsmallar kan hjälpa dig att rationalisera din implementering. Genom att använda dem kan du ta med liknande kunder i segment och sedan utveckla ett implementeringsprotokoll som behandlar alla kunder i ett segment på ungefär samma sätt. På så sätt kan du tillämpa en nivå av förkonfiguration på varje segment och fortsätta med en snabb implementering.  

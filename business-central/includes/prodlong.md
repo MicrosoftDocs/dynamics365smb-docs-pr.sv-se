@@ -1,1 +1,1 @@
-Dynamics 365 Business Central-namn
+Dynamics 365 Business Central

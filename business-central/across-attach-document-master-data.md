@@ -11,11 +11,11 @@ ms.search.keywords: upload, attach, attachments
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934566"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240890"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Bifoga filer till kort och dokument
 Du kan bifoga bilder, dokument och andra typer av filer till alla kort, till exempel artikelkort och projektkort och du kan bifoga filer till alla typer av försäljnings- och inköpsdokument.

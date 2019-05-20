@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953516"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247169"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
-Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av datamigreringsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
+Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
 
 Sidan **Flyttningsöversikt** och **Konfigurationskalkylark** ger åtkomst till funktioner och vyer för alla uppgifter som avser datamigrering. Vi rekommenderar att du migrerar en tabell i taget för att hantera beroenden i dina data. I flytta kan du också nå huvuddatatabellerna, som innehåller information om kunder, leverantörer, artiklar, kontakter och redovisningen.  
 
@@ -28,9 +28,9 @@ Sidan **Flyttningsöversikt** och **Konfigurationskalkylark** ger åtkomst till 
 När du skapar ett nytt företag, kan du importera företagsinställningar för det nya företaget. Du importerar inställningarna från en .rapidstart-fil, vilket levererar paketinnehållen i ett komprimerat format. En motsvarande uppsättning standarddatamigreringstabeller importeras. Datauppsättningen innehåller huvuddatatabeller och inställningsdatatabellerna. Den första uppgiften vid datamigrering är att utvärdera om standardflyttningsinställningen uppfyller det nya företagets behov.
 
 > [!NOTE]  
->  Du kan inte byta namn på en fil som inte redan är ett RapidStart Services-konfigurationspaket titt en .rapidstart-konfigurationspaketfil och sedan försöka importera den. Om du försöker att göra det, kommer du att få ett felmeddelande.  
+>  Du kan inte byta namn på en fil som inte redan är ett RapidStart Services konfigurationspaket som en .rapidstart-konfigurationspaketfil och sedan försöka importera den. Om du försöker att göra det, kommer du att få ett felmeddelande.  
 
-Kontrollera att du befinner dig i implementerings-rollcentret för RapidStart Services innan du börjar.
+Kontrollera att du är på implementerings-rollcentret för RapidStart Services innan du börjar.
 
 > [!IMPORTANT]  
 >  När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  

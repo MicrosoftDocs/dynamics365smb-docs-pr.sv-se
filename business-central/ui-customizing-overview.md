@@ -12,11 +12,11 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 6d1a1f17d66ec931ad075fe75936c4317898ccd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934879"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250831"
 ---
 # <a name="customizing-business-central"></a>Anpassa Business Central
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
