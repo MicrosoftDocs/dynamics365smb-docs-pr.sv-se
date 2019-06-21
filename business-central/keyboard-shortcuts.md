@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240585"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621212"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |Shift+Page Up<br />(Shift+Fn+uppil)|Utöka radmarkeringen så att samtliga rader som visas ovanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.|
 |Shift+Page Down<br />(Shift+Fn+nedpil)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.|
 |Ctrl+C<br />(Cmd+C)|Kopiera de markerade raderna till Urklipp.|Ej tillämpbart.|
-|Ctrl+V<br />(Cmd+V)|Klistra in de markerade raderna från Urklipp till den aktuella sidan eller ett externt dokument såsom Microsoft Excel eller Outlook e-post.<br /><br />Du kan bara göra detta i redigerbara listor.|Ej tillämpbart.|
-|F8|Kopiera fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden.<br /><br />Du kan bara göra detta i redigerbara listor. Med detta kortkommando följt av en flik kan du snabbt kan fylla i fält i radposter som du vill ska ha samma värde som raden ovan.|Ej tillämpbart.||
+|Ctrl+V<br />(Cmd+V)|Klistra in de markerade raderna från Urklipp till den aktuella sidan eller ett externt dokument såsom Microsoft Excel eller Outlook e-post. Du kan bara göra detta i redigerbara listor.|Ej tillämpbart.|
+|F8|Kopiera fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden. Du kan bara göra detta i redigerbara listor. Med detta kortkommando följt av en flik kan du snabbt kan fylla i fält i radposter som du vill ska ha samma värde som raden ovan.|Ej tillämpbart.|
 
 ### <a name="KeyboardFilter"></a>Söka och filtrera listor
 

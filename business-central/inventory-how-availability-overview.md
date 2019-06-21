@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: SorenGP
-ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243258"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621005"
 ---
 # <a name="view-the-availability-of-items"></a>Visa artikeldisposition
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
@@ -26,9 +26,11 @@ Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa v
 > [!NOTE]  
 >   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
 
+Om du nvänder lagerfunktionerna varierar tillgängligheten beroende på fördelningar på lagerplatsnivån när distributionslageraktiviteter, till exempel plockning och transport, inträffar och när lagerreservationssystemet har begränsningar som ska uppfyllas. En ganska komplex algoritm kontrollerar att alla villkor är uppfyllda innan antal tilldelas till plockningar för utgående flöden. Mer information finns i [Designdetaljer: disposition i distributionslagret](design-details-availability-in-the-warehouse.md).
+
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], visas dispositionssiffror i två olika fält, var och en med en annan definition:
 
-* Fältet **Lagersaldo** visar den faktiska mängden idag enligt bokförda artikeltransaktionsposter.
+* Fältet **Lagersaldo**, på vissa platser med namnet **Lager**, visar den faktiska kvantiteten enligt bokförda artikeltransaktioner.
 * Fältet **Lagerutveckling över tid** beräknas och visar antalet i lager samt planenliga inleveranser minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan planenliga inleveranser inkludera antal på inköpsorder och inkommande överföringsorder. Bruttobehov omfattar kvantiteter i försäljningsorder och avgående överföringsorder.)
 
 > [!TIP]  

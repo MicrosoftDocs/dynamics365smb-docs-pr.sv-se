@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238538"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594262"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Spärra artiklar för försäljning eller inköp
 Du kan spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.  
@@ -28,7 +28,10 @@ I följande tabell visas vad som händer när artiklar spärras.
 |--------------------|------------|  
 |**Spärrad för försäljning**|Du kan inte registrera artikeln i ett försäljningsdokument eller en artikeljournal för försäljning.|  
 |**Spärrad för inköp**|Du kan inte registrera artikeln i ett inköpsdokument, en artikeljournal för inköp eller i planeringsprocesser för inköp.|  
-|**Spärrad**|Du kan inte använda artikeln för någon artikeltransaktion. Mer information om hur du spärrar en artikel för alla syften finns i Artikelkort.|  
+|**Spärrad**|Du kan inte använda artikeln för någon artikeltransaktion.|  
+
+> [!NOTE]
+> Spärrade artiklar kan returneras. Detta innebär att inga av inställningarna ovan gäller när artikeln används för returorder och kreditnotor.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Så här spärrar du en artikel så att den inte kan registreras på försäljningsrader  
 

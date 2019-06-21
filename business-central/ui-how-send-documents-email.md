@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249382"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594133"
 ---
 # <a name="send-documents-by-email"></a>Skicka dokument som e-post
 För att meddela innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder, kan du använda funktionen Rapportlayout för att definiera dokumentspecifikt innehåll som infogas i e-postbrödtexter automatiskt. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktu
 4. Välj knappen **OK**. Sidan **Skicka e-post** öppnas.
 5. I fältet **Till:** anger du en giltig e-postadress. Standardvärdet är kundens e-postadress.
 6. Ange ett beskrivande ämnestext i fältet **Ämne**. Standardvärdet är kundnamnet och fakturanumret.
-7. I fältet **Bilaga** är den genererade fakturan bifogad som standard som en PDF-fil. Välj uppslagningknappen för att öppna filen eller bifoga en annan.
+7. I fältet **Bilaga** är den genererade fakturan bifogad som standard som en PDF-fil.
 8. Ange ett kort meddelande till mottagaren i fältet **Text**.
 
     Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval - försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i avsnittet [Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

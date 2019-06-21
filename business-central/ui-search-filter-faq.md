@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249061"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620844"
 ---
 # <a name="searching-and-filtering-faq"></a>Vanliga frågor och svar om sök och filtrering
 Den här artikeln besvarar vanliga frågor som du kanske har om att söka och filtrera.
@@ -27,7 +27,7 @@ Ja.
 Söka och filtrera har optimerats mycket för användare som vill ha interaktion utan mus för att arbeta effektivt med sina data. Det finns en mängd olika kortkommandon som kan användas i följd för att arbeta med hög hastighet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Finns filterrutan i alla listor?
-Filterrutan finns på sidor där listan är det primära innehållet på sidan, till exempel kalkylblad och listsidor inklusive listor som kan nås från navigeringsfältet. Filterrutan är ännu inte tillgänglig för inbäddade listor, till exempel försäljningsrader på försäljningsorder eller för listor med dynamiska kolumner (ofta kallade matrissidor).
+Filterrutan finns på sidor där listan är det primära innehållet på sidan, till exempel kalkylblad och listsidor inklusive listor som kan nås från navigeringsfältet. Filterrutan är inte tillgänglig ännu för listor som visas som t.ex. faktaboxar eller rollcenterdelar. När en lista är inbäddad på en sida, till exempel försäljningsrader på en försäljningsorder, är filterrutan tillgänglig när du fokuserar på den listan med knappen fokusläge. Mer information finns i [Fokusera på radartiklar](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Hur kan jag spara mina filter?
 

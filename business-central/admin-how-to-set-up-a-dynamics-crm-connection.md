@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245763"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621051"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Ställ in en anslutning till Dynamics 365 for Sales.
 Om du vill integrera med [!INCLUDE[crm_md](includes/crm_md.md)] måste du göra en koppling mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] 
@@ -55,6 +55,9 @@ Guiden för assisterad konfiguration **ställ in Dynamics 365 for Sales anslutni
 |**Aktivera försäljningsorderintegrering**|När användare skapar försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)], kopiera order till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta innebär att du anger autentiseringsuppgifter för en administratörs användarkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i avsnittet [Hantera speciella försäljningsorderdata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Aktivera Dynamics 365 for Sales anslutning**|Aktivera anslutning till [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**SDK-version för Dynamics 365**|Detta gäller endast om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)]. Det här är den SDK-version för Dynamics 365 (även kallat Xrm) för att ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)] och motsvarande eller senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+> [!Note]
+> Den assisterade inställningsguiden **Konfigurera Dynamics 365 for Sales-anslutning** tilldelar automatiskt säkerhetsrollerna **Integrationsadministratör** och **Integrationsnvändare** till användarkonton som används för integration. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Om du vill skapa eller hantera anslutningen manuellt
 I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dynamics 365 for Sales anslutningsinställningar** manuellt. Detta är sidan där du hanterar inställningar för integrering.
@@ -103,6 +106,10 @@ I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dyna
     >  Om datakrypteringen inte har aktiverats i [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att tillfrågas om du vill aktivera den. Välj **Ja** och ange den obligatoriska informationen om du vill aktivera datakryptering. Annars väljer du **Nej**. Du kan aktivera datakryptering senare. Mer information finns i [kryptering av data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i Hjälp för utvecklare och IT-proffs.  
 
 7. Om [!INCLUDE[crm_md](includes/crm_md.md)]-synkroniseringen inte redan har ställts in får en fråga om du vill använda standardsynkroniseringskonfigurationen. Beroende på om du vill bokföra poster justerade i [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)], välj **Ja** eller **Nej**. 
+
+> [!Note]
+> Ansluta till Dynamics 365 for Sales med sidan **Microsoft Dynamics 365 for Sales-anslutningsinställning** kan kräva att du [tilldelar säkerhetsrollerna **Integrationsadministratör** och **Integrationsanvändare**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) till användarkonton om används för integration. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Koppla bort från [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Microsoft Dynamics 365 for Sales anslutningsinställningar** och välj sedan relaterad länk.

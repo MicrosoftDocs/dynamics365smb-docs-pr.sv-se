@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247509"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620982"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
 Att få insikter om dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data är enkelt med Power BI och [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehållspaketen. Power BI hämtar dina data och skapar sedan en förinstallerad instrumentbräda och rapporter baserade på den data.  
 
-Du måste ha ett giltigt konto med Dynamics 365 och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) om du vill skapa dina egna Power BI-rapporter. Power BI innehållspaket kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
+Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) om du vill skapa dina egna Power BI-rapporter. Power BI innehållspaket kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
 
 > [!IMPORTANT]
 > De innehållsförpackningar som beskrivs i den här artikeln har utformats för att använda Azure Active Directory som verifieringsmekanism. Om du använder [!INCLUDE [prodshort](includes/prodshort.md)] lokalt och använder en annan autentiseringsmekanism kan inte Power BI ansluta till dina data.  
@@ -28,15 +28,8 @@ Du måste ha ett giltigt konto med Dynamics 365 och med Power BI. Dessutom måst
 Microsoft har publicerat följande innehållspaket:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Kundlista  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Ekonomi  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Artikellista  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Projekt  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - projektlista  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Inköpsfakturor  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Försäljning  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - listan med försäljningsorder  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - leverantörslista  
 
 ## <a name="using-the-dashboards"></a>Använda instrumentpanelerna
 Varje innehållspaket ger rapporter som du kan söka i:
@@ -88,64 +81,9 @@ För att importera dina [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 - Excel-mallen för Visa företag
 - Power BI Rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Projektlista
-- Projektplaneringsrader
-- Projektaktivitetsrader
-- Power BI Rapportetiketter
-- Excel-mallen för Visa företag
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Instrumentbräda för försäljning
 - Excel-mallen för Visa företag
-- Power BI Rapportetiketter
-
-### <a name="list-page-reports"></a>Rapporter för listsida
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Artikelförsäljning efter kund
-- Power BI inköpslista för artiklar
-- Power BI försäljningslista för artiklar
-- Instrumentbräda för försäljning
-- Power BI kundlista
-- ExcelTemplateViewCompany
-- Power BI Rapportetiketter
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Power BI redovisningsbelopplista
-- Power BI budgeterat redovisningsbelopp
-- ExcelTemplateViewCompany
-- Power BI Rapportetiketter
-
-**Microsoft Dynamics 365 Business Central - Items List**
-- Artikelförsäljning efter kund
-- Power BI inköpslista för artiklar
-- Power BI försäljningslista för artiklar
-- Instrumentbräda för försäljning
-- ExcelTemplateViewCompany
-- Power BI Rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI projektlista
-- ExcelTemplateViewCompany
-- Power BI Rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI inköpslista
-- ExcelTemplateViewCompany
-- Power BI Rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI försäljningslista
-- ExcelTemplateViewCompany
-- Power BI Rapportetiketter
-
-
-**Microsoft Dynamics 365 Business Central - Vendors List**
-- Power BI inköpslista för artiklar
-- Power BI försäljningslista för artiklar
-- Power BI leverantörslista
-- ExcelTemplateViewCompany
 - Power BI Rapportetiketter
 
 ## <a name="web-services"></a>Webbtjänster
@@ -158,8 +96,7 @@ Instrumentbrädan för Power BI förlitar sig på de publicerade webbtjänsterna
 Ett vanligt fel är att ange företagets visningsnamn i stället för namnet på företaget. Söka efter **Företag** för att hitta företagsnamnet. Använda fältet **Namn** när du anger företagets namn.
 
 ### <a name="incorrect-user-name-and-password"></a>Felaktigt användarnamn och lösenord  
-Användarnamn och lösenord som används för att ansluta blir desamma som används för att ansluta till ditt Microsoft Office 365-konto.  
-
+Användarnamn och lösenord som används för att logga in på Power BI blir desamma som används för att ansluta till ditt Microsoft Office 365-konto.  
 Innehållspaketen kräver också att du har ett Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto. När du har angett dina autentiseringsuppgifter upptäcker vi automatiskt eventuella Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-innehavare som du har tillgång till. Om du inte har ett licensierat eller Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto eller en utvärderingsversion visas ett felmeddelande.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nyckeln matchade inte några rader i tabellen

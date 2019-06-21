@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250279"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621120"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
 Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
@@ -65,6 +65,7 @@ Microsoft ger även följande tillägg:
 * [C5 datamigrering](ui-extensions-c5-data-migration.md)  
 * [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)  
 * [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md  )
+* [Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
 >  Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering. Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

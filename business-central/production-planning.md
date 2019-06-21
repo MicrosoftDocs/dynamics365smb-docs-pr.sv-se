@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 363cf9d0e7b90557867daaaab6f99378f51b9ef9
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252027"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621143"
 ---
 # <a name="planning"></a>Planering
 De produktionsoperationer som krävs för att omvandla inflöde till färdiga varor måste planeras varje dag eller varje vecka beroende på vad det är för produkt och vilka volymer det handlar om. [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder funktioner för att leverera mot förväntat och faktiskt behov från försäljning, montering och produktion samt för distributionsplanering med lagerställeenheter och lageröverföringar.
@@ -26,9 +26,7 @@ De produktionsoperationer som krävs för att omvandla inflöde till färdiga va
 > Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är sidan **planeringsförslag**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder också leveransplanering för grossistföretag där de resulterande leveransordrarna endast kan vara överföring och inköpsorder. Huvudsakliga gränssnittet för den här planeringen är sidan **inköpskalkylark** som indirekt beskrivs i det här avsnittet eftersom de flesta funktioner gäller för båda kalkylark.
 
-Innan du kan planera och genomföra produktionsorder måste du konfigurera produktionskapaciteterna, till exempel att skapa fabrikskalendrar, verksamhetsflöden, produktionsstrukturer och maskingrupper. Mer information finns i [Konfigurera tillverkning](production-configure-production-processes.md).
-
-Planering kan ses som det som krävs för att förbereda leveransorder i monterings- eller produktionsavdelningar för att uppfylla efterfrågan. Mer information finns i [monteringshantering](assembly-assemble-items.md) och [Produktion](production-manage-manufacturing.md).
+Planering kan ses som det som krävs för att förbereda leveransorder i inköps-, monterings- eller produktionsavdelningar för att uppfylla efterfrågan på försäljning och slutartikel. Mer information finns i [Inköp](purchasing-manage-purchasing.md), [monteringshantering](assembly-assemble-items.md) och [Produktion](production-manage-manufacturing.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 

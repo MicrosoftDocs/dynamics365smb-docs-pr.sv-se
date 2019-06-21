@@ -51,7 +51,7 @@
 ## Använda kortkommandon
 ### [Hjälpmedel och kortkommandon](ui-accessibility.md)
 ### [Kortkommandon](keyboard-shortcuts.md)
-### [Snabbguide för kortkommandon på tangentbord](keyboard-shortcuts-cheatsheet.md)
+### [Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)
 
 # Ställa in Business Central
 ## [Översikt](setup.md)
@@ -318,7 +318,7 @@
 ## [Skapa en miljö för begränsat läge](across-how-create-sandbox-environment.md)
 ## Integrera med Dynamics 365 for Sales
 ### [Översikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Ställa in integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Ställa in konton för integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Ställa in en Dynamics 365 for Sales anslutning](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkroniserar Business Central och Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Ändra tabellmappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Översikt](ui-extensions.md)
 #### [Anpassa med tillägg](ui-extensions.md)
 #### [Ceridian löner](ui-extensions-ceridian-payroll.md)
-#### [Datareplikering](ui-extensions-data-replication.md)
 #### [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)
 #### [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)
-#### [Intelligent moln](ui-extensions-intelligent-cloud.md)
+#### [Intelligent moln](ui-extensions-data-replication.md)
+#### [Intelligent molnbas](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay Betalningar](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
 #### [DK - momsfilformat](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io för postnummer i Storbritannien](ui-extensions-getaddressio.md)
+#### [Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
 ### [Ändra vilka funktioner som visas](ui-experiences.md)
 ### [Hantera anpassning som administratör](ui-personalization-manage.md)
@@ -992,11 +993,7 @@
 #### [Skapa momsrapporter](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Korrigera momsrapporter](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Ingående moms utan meddelanden](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Skapa och skicka förhandsinformation om försäljningsmoms](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Elektronisk överföring av förhandsinformation om försäljningsmoms till ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [Ange moms-/VIES-skatt](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [ELSTER överföring: översikt](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Felmeddelanden för den Elster överförhanterare](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Bankverksamhet och betalningar
 #### [Skriva ut rapporter för leverantörsbetalningslista](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Grundläggande ekonomi

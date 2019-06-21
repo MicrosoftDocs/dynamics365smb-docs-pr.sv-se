@@ -1,6 +1,6 @@
 ---
-title: Intelligent moln | Microsoft Docs
-description: Hämta molnkopia av dina data så att du är ansluten till intelligent moln.
+title: Intelligenta insikter | Microsoft Docs
+description: Anslut dig till intelligenta insikter med Business Central, till och med från din lokala lösning.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: bmeier
-ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a625bdb047fe77ca2fb118a41902c5546d38523d
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241429"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594162"
 ---
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Din åtkomst till intelligent moln med [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="intelligent-insights-with-includeprodshortincludesprodshortmd"></a>Intelligenta insikter med [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Som användare av [!INCLUDE[prodshort](includes/prodshort.md)] online har du fullständig behörighet för scenarier som baseras på intelligent moln, till exempel redigera data i Excel och skicka ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)] eller när du visar data i Power BI. Men även om [!INCLUDE[prodshort](includes/prodshort.md)] framför allt är en molntjänst, kan även kunder som behöver köra sin arbetsbelastning helt lokalt eller på intelligent gränsenhet ansluten till molnet kan göra detta.  
+Som användare av [!INCLUDE[prodshort](includes/prodshort.md)] online har du fullständig behörighet för scenarier som baseras på intelligent moln, till exempel KPI:er baserade på maskininlärning när du visar data i Power BI. Men även om [!INCLUDE[prodshort](includes/prodshort.md)] framför allt är en molntjänst, kan även kunder som behöver köra sin arbetsbelastning helt lokalt eller på intelligent gränsenhet ansluten till molnet kan göra detta.  
 
-Om du är intresserad av [!INCLUDE[prodshort](includes/prodshort.md)] kan du registrera dig för en gratis utvärderingsversion av standardmolndistributionen, eller så kan du arbeta med en partner för att distribuera [!INCLUDE[prodshort](includes/prodshort.md)] lokalt med maskinvara av eget val. Du kan sedan välja att ansluta till molnet via din klientorganisation i molnet. Som ett resultat kommer data från din lokalt distribuerade [!INCLUDE[prodshort](includes/prodshort.md)] att replikeras till molnet för scenarier med intelligent moln.  
+Om du är intresserad av [!INCLUDE[prodshort](includes/prodshort.md)] kan du registrera dig online, eller så kan du arbeta med en partner för att distribuera [!INCLUDE[prodshort](includes/prodshort.md)] lokalt med maskinvara av eget val. Du kan sedan bestämma dig för att få intelligenta insikter genom att ansluta till en klientorganisation i molnet. Som ett resultat kommer data från din lokalt distribuerade [!INCLUDE[prodshort](includes/prodshort.md)] att replikeras till molnet för scenarier med intelligent moln.  
 
 Anslutning till intelligent moln från en lokal lösning kräver att administratören anger information om databasen. Mer information finns i [Anslut till intelligent moln](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) i ITPro-innehållet för [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -42,9 +42,13 @@ Bredvid ett KPI-diagram kan du få insyn i potentiella viktiga områden, inklusi
 
 Sidan ansluter också till Power BI för ytterligare insikter.
 
-## <a name="viewing-intelligent-cloud-insights-on-premises"></a>Visa insikter för intelligent moln lokalt
+## <a name="viewing-intelligent-insights-on-premises"></a>Visa intelligenta insikter lokalt
 
 När din Dynamics 365 återförsäljare har fått rätt licens för den lokala lösningen för att ansluta till molnet genom [!INCLUDE[prodshort](includes/prodshort.md)], kan din IT-administratör konfigurera anslutningen. När detta är klart kan visa du samma insikter från molnet i din lokala applikation. Beroende på den lokala lösningen kan sidan **Insikter för intelligent moln** vara inbäddad på startsidan eller på en separat sida i [!INCLUDE[prodshort](includes/prodshort.md)] online och lokalt.  
+
+## <a name="connecting-to-business-central-from-other-dynamics-products"></a>Ansluta till Business Central från andra Dynamics-produkter
+
+Om du använder någon av de lokala versionerna som stöds kan du även ansluta till Business Central online och få intelligenta insikter lokalt. Mer information finns i [Anslut till intelligent moln](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge) i ITPro-innehållet för [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="see-also"></a>Se även
 

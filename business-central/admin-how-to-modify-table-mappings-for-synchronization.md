@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247450"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540206"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Ändra tabellmappningar för synkronisering
 En integrationstabellmappning länkar en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)] till en integrationstabell för [!INCLUDE[crm_md](includes/crm_md.md)]-enheten. För varje enhet i [!INCLUDE[crm_md](includes/crm_md.md)] som du vill synkronisera med motsvarande data i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste det finnas en motsvarande integrationstabellmappning. En integrationstabellmappning innehåller flera inställningar som låter dig styra hur posterna i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet synkroniseras av motsvarande integrationssynkroniseringsjobb.  
@@ -49,7 +49,7 @@ Om du installerar standardsynkroniseringsinstallationen, för det mesta, skapas 
 
      Den här mallen skapas, genom att kopiera en befintlig konfigurationsmall för kunder i programmet. **CRMCUST** skapas endast om det finns en befintlig konfigurationsmall och fältet **Valutakod** i mallen är tomt. Om ett fält i konfigurationsmallen innehåller ett värde, ska värdet användas i stället för värdet i det mappade fältet i [!INCLUDE[crm_md](includes/crm_md.md)]-kontot. Till exempel, om fältet **Land/region** i ett konto i [!INCLUDE[crm_md](includes/crm_md.md)] innehåller *USA* och fältet **Land/region** i konfigurationsmallen är *GB* används *GB* som **Land/region** för kunden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
--   **CRMACCOUNT** skapar och synkroniserar nya konton i [!INCLUDE[crm_md](includes/crm_md.md)] baserat på ett konto i [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+-   **CRMACCOUNT** skapar och synkroniserar nya konton i baserat på ett konto i [!INCLUDE[crm_md](includes/crm_md.md)] baserat på ett konto i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Ange konfigurationsmallar på en tabellmappning  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Tabellmappningar för integrering** och välj sedan relaterad länk.

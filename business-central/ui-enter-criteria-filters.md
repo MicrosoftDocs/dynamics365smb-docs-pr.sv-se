@@ -1,21 +1,21 @@
 ---
 title: Sortering, sökning och filtrering av listor | Microsoft Docs
 description: Arbeta effektivt i listor genom att söka i data, sortera kolumner och förfina resultaten med hjälp av kraftfulla filtersymboler och kortkommandon.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253959"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621189"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortera, söka och filtrera listor
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -41,7 +41,7 @@ Högst upp på varje listsida finns ![Söklistikon](media/ui-search/search-list.
 
 Sök genom att bara markera sökikonen och skriv den text som du vill söka efter i rutan. Du kan ange bokstäver, siffror och andra symboler.
 
-### <a name="fine-tune-the-search"></a>Finjustera sökningen
+### <a name="fine-tuning-the-search"></a>Finjustera sökningen
 I allmänhet försöker sökningen att matcha texten i alla fält. Den skiljer inte mellan versaler och gemener (d.v.s. skiftlägeskänslig) och matchar texten som placeras var som helst i fältet (i början, slutet eller i mitten).
 
 Men du kan göra en mer exakt sökning med hjälp av följande tecken:

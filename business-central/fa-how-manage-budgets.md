@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2019
+ms.date: 05/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e7c7d665dc26a2af365daf6171affb679c22c1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfae781b7ddabd7283868886dd07699bf62be052
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247214"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620913"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Hantera budgetar för anläggningstillgångar
 Du kan skapa budgeterade anläggningstillgångar. På så sätt kan du t.ex. inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.  
@@ -51,7 +51,7 @@ Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förluste
 ## <a name="to-budget-depreciation"></a>Så här budgeterar du avskrivning
 Du kan använda rapporten **Anl.tillg. - planerat värde** för att beräkna framtida avskrivning. I rapporten visas bokföringsvärdet och den ackumulerade avskrivningen vid inledningen av den angivna perioden, ändringar under perioden och bokföringsvärde och ackumulerad avskrivning vid slutet av den angivna perioden.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anl. - planerat värde** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planerat värde för anläggningstillgång** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 3. Om du vill se det totala värdena föra alla tillgångar avmarkerar du kryssrutan **Skriv ut per anl.tillg.**.
 4. Fyll inte i fälten på snabbfliken **Anläggningstillgång** så inkluderas alla tillgångar. I fältet **Budgeterad tillgång** kan du fylla i **Nej** om du vill utesluta budgeterade tillgångar eller **Ja** om du endast vill visa de budgeterade tillgångarna.

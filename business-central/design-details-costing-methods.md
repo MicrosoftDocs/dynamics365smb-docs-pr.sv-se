@@ -10,19 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243946"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621074"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
-Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras. Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
 
-|Värderingsprincip|Description|Används när|  
+> [!NOTE]
+> Du kan inte ändra värderingsprincipen för en artikel om det finns artikeltransaktioner för artikeln.<br /><br />
+> Information kommer snart att publiceras här om lösningar på hur du ändrar en värderingsprincip i särskilda situationer.
+
+Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+
+|Värderingsprincip|Beskrivning|Används när|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt FIFO-regeln.<br /><br /> I lagervärdering antas det att de första artiklarna in i lagret säljs först.|I affärsmiljöer där produktkostnaden är stabil.<br /><br /> (När priser stiger visar balansräkningen ett högre värde. Det betyder att skatteskuler ökar, men kreditpoängen och förmåga att låna kontant ökar.)<br /><br /> För artiklar med ett begränsat hållbarhetstid, eftersom de äldsta varorna måste säljas innan deras hållbarhetstid passerat.|  
 |LIFO (Sist in, först ut)|En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt LIFO-regeln.<br /><br /> I lagervärdering antas det att de senaste artiklarna in i lagret säljs först.|Tillåts inte i många länder/regioner, eftersom det kan användas för att dölja vinst.<br /><br /> (När priser vill stiger, minskas värdet på resultaträkningen. Det betyder att skatteskulder minskar, men din förmåga att låna kontant försämras.)|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246580"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620959"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Ställa in konton för integrering med Dynamics 365 for Sales
 Den här artikeln innehåller en översikt över hur du ställer in de konton som behövs för att integrera [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,7 +28,7 @@ Den här artikeln innehåller en översikt över hur du ställer in de konton so
 Du måste lägga till ditt administratörsanvändarkonto för [!INCLUDE[d365fin](includes/d365fin_md.md)] som en användare i [!INCLUDE[crm_md](includes/crm_md.md)] och sedan befordra användaren till administratör i [!INCLUDE[crm_md](includes/crm_md.md)]. Administratörsanvändarkontot måste också ha rollen systemanpassare och minst en annan användarroll som inte är administratör, till exempel försäljningschef, i [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Konfigurera användarkontot för integrering
-Du måste skapa ett dedikerat användarkonto i din Office 365-prenumeration som både [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] kan använda för att synkronisera data. Det här användarkontot måste kunna logga in på [!INCLUDE[crm_md](includes/crm_md.md)], vilket innebär att användaren måste ha en licens för [!INCLUDE[crm_md](includes/crm_md.md)]. Det här kontot måste också vara ett icke-interaktivt konto i [!INCLUDE[crm_md](includes/crm_md.md)]. För information om hur du skapar användare i [!INCLUDE[crm_md](includes/crm_md.md)], se [Hantera säkerhet, användare och team](http://go.microsoft.com/fwlink/?LinkID=616518). När anslutningen har konfigurerats kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att tilldela säkerhetsroller till användarkontot som krävs i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du måste skapa ett dedikerat användarkonto i din Office 365-prenumeration som både [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] kan använda för att synkronisera data. Det här användarkontot måste kunna logga in på [!INCLUDE[crm_md](includes/crm_md.md)], vilket innebär att användaren måste ha en licens för [!INCLUDE[crm_md](includes/crm_md.md)] och minst en säkerhets rollsom har tilldelats den i [!INCLUDE[crm_md](includes/crm_md.md)] som beskrivs [här](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). För information om hur du skapar användare i [!INCLUDE[crm_md](includes/crm_md.md)], se [Hantera säkerhet, användare och team](http://go.microsoft.com/fwlink/?LinkID=616518). bNär anslutningen är upprättad kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] tilldelar du användarkontot de säkerhetsroller som behövs i [!INCLUDE[d365fin](includes/d365fin_md.md)] och det här kontot kan anges till [icke-interaktivt åtkomstläge](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account)[!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Assisterad installationsguide visar var du kan ange autentiseringsuppgifter för synkronisering](media/sync-user-setup.png "Sidan för assisterade konfiguration för visualisering visar var du ska skriva autentiseringsuppgifter för synkronisering")
 

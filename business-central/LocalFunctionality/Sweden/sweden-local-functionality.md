@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c5095a297ab3a1b4a5aec47b753751484afe210
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7719a49e7d2a6eea91c0d77c8cbcdc6d0c45c4c5
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241530"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594212"
 ---
 # <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
 I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247146"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540229"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkroniserar data i Business Central och Dynamics 365 for Sales
 När du integrerar [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du bestämma om du vill synkronisera data i valda fält för i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (till exempel kunder, kontakter och säljare) med motsvarande poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på vilken typ av post kan du synkronisera data från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -38,7 +38,7 @@ När synkroniseringen har konfigurerats kan du koppla upp [!INCLUDE[d365fin](inc
 |Schemalagd synkronisering|Synkronisera alla ändringar i data för alla tabellmappningar.<br /><br /> Du kan synkronisera [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] på schemalagda intervall, genom att ställa in projekt i jobbkön.|[Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standardinställd försäljningsenhetsmappningar för synkronisering
-Enheter i [!INCLUDE[crm_md](includes/crm_md.md)], till exempel konton, är integrerade med motsvarande typer av enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)], till exempel kunder. För att arbeta med [!INCLUDE[crm_md](includes/crm_md.md)] data anger du länkar som kallas kopplingar mellan enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)].
+Enheter i [!INCLUDE[crm_md](includes/crm_md.md)] till exempel konton, är integrerade med motsvarande typer av enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] till exempel kunder. För att arbeta med [!INCLUDE[crm_md](includes/crm_md.md)] data anger du länkar som kallas kopplingar mellan enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)].
 
 I följande tabell visas standardmappningen mellan enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] som [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller.
 
@@ -46,7 +46,7 @@ I följande tabell visas standardmappningen mellan enheter i [!INCLUDE[d365fin](
 |-------------------------------------------|-----|-------------------------|--------------|
 |Säljare/Inköpare|Användare|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Status** är **Nej**, **licensierad användare** är **Ja**, integrationsanvändarläge är **Nej**|
 |Kund|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontofilter: **Relationstyp** är **Kund** och **Status** är **Aktiv**.|
-|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktfilter: **Typ** är **Person** och kontakten har tilldelats ett företag. Sales-kontaktfilter: Kontakten har tilldelats till ett företag och överordnad kundtyp är **Konto**|
+|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Typen** är **Person** och kontakten har tilldelats till ett företag. Sales-kontaktfilter: Kontakten har tilldelats till ett företag och överordnad kundtyp är **Konto**|
 |Valuta|Transaktionsvaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Måttenhet|Enhetsgrupp|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Artikel|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **produkttyp** är **Sales-lager**|
@@ -85,7 +85,7 @@ Följande tabell beskriver regler som kontrollerar synkroniseringen mellan appar
 |Kontakter|Endast kontakter i [!INCLUDE[crm_md](includes/crm_md.md)] som associeras med ett konto skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Säljarkod värdet definierar ägare till den kopplade enheten i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Valutor|Valutor kopplas till transaktionvalutor i [!INCLUDE[crm_md](includes/crm_md.md)] baserat på ISO-koder. Endast valutor, som har en standard-ISO-kod, kopplas och synkroniseras med transaktionsvalutor.|
 |Enheter|Måttenheter synkroniseras med enhetsgrupper i [!INCLUDE[crm_md](includes/crm_md.md)]. Det kan finnas endast en måttenhet som definieras i enhetsgruppen.|
-|Artiklar|När artiklar synkroniseras med [!INCLUDE[crm_md](includes/crm_md.md)] produkter skapar [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt en prislista i [!INCLUDE[crm_md](includes/crm_md.md)]. För att undvika synkroniseringsfel bör du inte ändra denna prislista manuellt.|
+|Artiklar|När artiklar synkroniseras med [!INCLUDE[crm_md](includes/crm_md.md)]-produkter skapar [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt en prislista i [!INCLUDE[crm_md](includes/crm_md.md)]. För att undvika synkroniseringsfel bör du inte ändra denna prislista manuellt.|
 |Säljare|Säljare är kopplat till systemanvändare i [!INCLUDE[crm_md](includes/crm_md.md)]. Användaren måste vara aktiverad och licens och vara integrationsanvändaren. Observera att detta är den första tabellen som måste synkroniseras eftersom den används i kunder, kontaktpersoner, affärsmöjligheter och fakturor.|
 |Resurser|Resurser som ska synkroniseras med [!INCLUDE[crm_md](includes/crm_md.md)]-produkter som har produktypen tjänster.|
 |Kundprisgrupper|Kundprisgrupper synkroniseras med Sales-prislistor.|

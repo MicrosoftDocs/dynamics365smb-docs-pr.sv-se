@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252464"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621166"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -39,7 +39,7 @@ Du kanske redan känner till att använda Tabb-tangenten för att gå från ett 
 
 Varje fält kan markeras som antingen *inkluderas i snabbinmatning* eller *exkluderas från snabbinmatning*. Som inkluderas i snabbinmatning inkluderas i sökvägen när du trycker på Retur. fält som exkluderas från snabbinmatning kommer inte att göra detta.
 
-När du är klar med att ange data i ett fält trycker du bara på Retur för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på Shift + Retur. Mer information om genvägar finns i [kortkommandon på tangentbord för snabbinmatning](keyboard-shortcuts.md#QuickEntry).
+När du är klar med att ange data i ett fält trycker du bara på Retur för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på Shift + Retur. Mer information om genvägar finns i [kortkommandon på tangentbord för snabbinmatning för fält](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips och råd
 Nedan finns användbar information om hur du använder snabbinmatning.
@@ -90,7 +90,7 @@ När du arbetar med dokument som innehåller en radartikeldel, som en försäljn
 
 En annan fördel är den även ger avancerade filtreringsfunktioner, precis som i andra listor, så bläddra och söka igenom radposter blir ännu enklare.
 
-### <a name="switch-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
+### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
 För att fokusera på radartiklar väljer du var som helst i radartikeldelen och välj ![ikonen Fokusläge](media/focus-mode.png "ikonen Fokusläge") i övre högra hörnet eller tryck på Ctrl + Shift + F12.
 

@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246870"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620936"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
 Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.  
 
- Dispositionen varierar beroende på fördelningar på lagerplatsnivån när distributionslageraktiviteter, till exempel plockning och transport, inträffar och när lagerreservationssystemet har begränsningar som ska uppfyllas. En ganska komplex algoritm kontrollerar att alla villkor är uppfyllda innan antal tilldelas till plockningar för utgående flöden.  
+Dispositionen varierar beroende på fördelningar på lagerplatsnivån när distributionslageraktiviteter, till exempel plockning och transport, inträffar och när lagerreservationssystemet har begränsningar som ska uppfyllas. En ganska komplex algoritm kontrollerar att alla villkor är uppfyllda innan antal tilldelas till plockningar för utgående flöden.
+
+Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusive det allmänna "inget att hantera". -meddelande. Meddelandet "Inget att hantera." kan finnas flera olika orsaker, både i utgående och ankommande flöden, där en direkt eller indirekt involverad dokumentrad innehåller fältet **Ant. att hantera**.
+
+> [!NOTE]
+> Informationen kommer snart att publiceras här om möjliga orsaker och lösningar för "inget att hantera". -meddelande.
 
 ## <a name="bin-content-and-reservations"></a>Lagerplats och reservationer  
  I en installation av lagerstyrning finns artikelantalet både som distributionslagertransaktioner, i modulen Distributionslager och som artikeltransaktioner, i modulen Lager. Dessa två transaktionstyper innehåller information om var artiklarna finns och om de är tillgängliga. Distributionslagertransaktioner definierar en artikels tillgänglighet per lagerplats och lagerplatstyp, vilket kallas lagerplatsinnehåll. Artikeltransaktioner definierar en artikels disposition genom dess reservation till avgående dokument.  
@@ -72,4 +77,5 @@ Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributio
  ![Tillgänglig att reservera per lagerställe fördelningar](media/design_details_warehouse_management_availability_3.png "Tillgänglig att reservera per lagerställe fördelningar")  
 
 ## <a name="see-also"></a>Se även  
- [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
+ [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+ [Visa artikeldisposition](inventory-how-availability-overview.md)
