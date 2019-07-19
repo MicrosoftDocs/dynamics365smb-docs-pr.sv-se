@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246659"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702888"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurera Envestnet Yodlee Bank Feeds-tjänsten
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Skapa tjänsten Envestnet Yodlee Bank Feeds
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Tjänsten Envestnet Yodlee Bank Feeds stöds bara i onlineversionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
+> Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
 > Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA, Kanada och Storbritannien.
+
+> [!IMPORTANT]
+> Kontakta Microsoft-supporten om du behöver teknisk hjälp med Envestnet Yodlee-funktionen. Kontakta inte Envestnet Yodlee. Mer information finns i [konfigurera teknisk support för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support)
 
 Tjänsten Envestnet Yodlee Bank Feeds har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] online och är klar att aktiveras i de länder som stöds. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
 

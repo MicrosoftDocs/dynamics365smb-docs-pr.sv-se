@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245737"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629556"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisera manuellt tabellmappning
 En integrationstabellmappning associerar en [!INCLUDE[d365fin](includes/d365fin_md.md)] tabell (posttyp), till exempel kund, med en [!INCLUDE[crm_md](includes/crm_md.md)] enhet, exempelvis ett konto. Synkronisera en mappning för integrationstabellen låter dig synkronisera data i alla poster i den [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell och [!INCLUDE[crm_md](includes/crm_md.md)]-enhet som används. Dessutom, beroende på konfigurationen av tabellmappningen, kan synkronisering skapa och koppla nya poster i destinationslösningen ej kopplade poster i källan.  
@@ -95,4 +95,4 @@ Genom att ändra integrationstabellmappningen i förväg kan du konfigurera synk
 
 ## <a name="see-also"></a>Se även  
 [Synkroniserar Business Central och Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Ställa in Dynamics 365 for Sales integrering i Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Ställa in konton för integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

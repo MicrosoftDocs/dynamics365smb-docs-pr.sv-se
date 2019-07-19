@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250348"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629763"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Lägga till länkar till webbplatser, dokument och program på poster
 För en viss post, till exempel kund, dokument eller försäljningsorder, kan du lägga till en länk till ett externt dokument, webbplatser eller program. Eller så kanske du vill ha en länk som öppnar ett nytt, tomt e-postmeddelande till en viss mottagare när du klickar på den. Kortsidan för vissa kort, till exempel kund- och leverantörskorten, innehåller fältet **Hemsida** där en Internettadress (URL) kan anges. Om du vill infoga andra länkar kan du använda den metod som beskrivs i den här artikeln.  
@@ -35,10 +35,9 @@ Ett annat exempel är när du får utskrivna fakturor från leverantörer. Du ka
 
 4.  I fältet **länkar** anger du
 
-    -   Om du vill länka till en fil på datorn eller i nätverket, anger du den fullständiga sökvägen och filnamnet som **C:My Documentsinvoice1.doc**.
+    -   Om du vill länka till en fil på datorn eller i nätverket, anger du den fullständiga sökvägen och filnamnet som **C:\My Documents\invoice1.doc**.
     -   Länka till en webbplats genom att ange Internet-adressen (URL) som **www.microsoft.com**.
-    -   Länka till en webbplats genom att ange Internet-adressen (URL) som **www.microsoft.com**.
-    -   Länka till ett program genom att ange en sträng för att öppna programmet. Om du vill starta OneNote med en viss sida skriver du **onenote:///C:My Documentstest.one**. Eller om du vill öppna Outlook med ett nytt, tomt e-postmeddelande till ett visst alias skriver du **mailto:testalias**.  
+    -   Länka till ett program genom att ange en sträng för att öppna programmet. Om du vill starta OneNote med en viss sida skriver du **onenote:///C:\My Documents/test.one**. Eller om du vill öppna Outlook med ett nytt, tomt e-postmeddelande till ett visst alias skriver du **mailto:testalias**.  
 
 5.  Ange information om länken i fältet **Beskrivning**.  
 

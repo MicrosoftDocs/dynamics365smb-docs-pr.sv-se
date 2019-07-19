@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 0f59324e41695e35e09a2dd970492acb3a8dba58
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620959"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726888"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Ställa in konton för integrering med Dynamics 365 for Sales
 Den här artikeln innehåller en översikt över hur du ställer in de konton som behövs för att integrera [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
-## <a name="setting-up-the-admininstrator-user-account-in-sales"></a>Ställa in Administratörsanvändarkontot i Försäljning
+## <a name="setting-up-the-administrator-user-account-in-sales"></a>Ställa in Administratörsanvändarkontot i Försäljning
 Du måste lägga till ditt administratörsanvändarkonto för [!INCLUDE[d365fin](includes/d365fin_md.md)] som en användare i [!INCLUDE[crm_md](includes/crm_md.md)] och sedan befordra användaren till administratör i [!INCLUDE[crm_md](includes/crm_md.md)]. Administratörsanvändarkontot måste också ha rollen systemanpassare och minst en annan användarroll som inte är administratör, till exempel försäljningschef, i [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Konfigurera användarkontot för integrering
@@ -42,6 +42,97 @@ Du måste skapa användarkonton i [!INCLUDE[crm_md](includes/crm_md.md)] för s�
 När du har importerat användarna och tilldelat dem licenser för Dynamics 365 Customer Engagement måste du tilldela användare till rollen **säljare** i [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ![Koppla säljare till användare i Dynamics 365 for Sales](media/couple-salespeople.png "visualisering av kopplingen av säljare för användare i Dynamics 365 for Sales")
+
+## <a name="minimum-permissions-for-user-accounts-in-includecrmmdincludescrmmdmd"></a>Lägsta behörigheten för användar konton i [!INCLUDE[crm_md](includes/crm_md.md)]
+När du installerar integrationslösningen konfigureras behörigheter för användarkontot för integration i [!INCLUDE[crm_md](includes/crm_md.md)]. Om behörigheterna ändras kan du behöva återställa dem. Det kan du göra genom att installera om integreringslösningen eller återställa dem manuellt. I följande tabeller visas minimibehörigheterna för användar kontona i [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="integration-administrator"></a>Integrationsadministratör
+I följande tabell visas de minsta behörigheterna på varje flik för varje säkerhetsroll som krävs för administratöranvändaren.
+
+##### <a name="customization"></a>Anpassning
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Modelldriven app|Global|||Läs|
+|Plugin-paket|Global|Läs|Läs|Läs|
+|Plugin-typ|Global|Läs|Läs|Läs|
+|Samband|Global|||Läs|
+|SDK-meddelande|Global|Läs|Läs|Läs|
+|SDK-meddelande bearbetningssteg|Global|Läs|Läs|Läs|
+|SDK-meddelande bearbetningsbild|Global|Läs|Läs|Läs|
+|System från|Global|||Skriv|
+
+##### <a name="custom-entities"></a>Anpassade entiteter
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Statistik för Business Central-konto|Global|Läs|Läs|Läs|
+|Anslutning för Business Central|Global|Skapa, läsa, skriva, ta bort|Skapa, läsa, skriva, ta bort|Skapa, läsa, skriva, ta bort|
+|Efter konfiguration|Global|||Skriv|
+
+#### <a name="integration-user"></a>Integrationsanvändare
+I följande tabell visas de minsta behörigheterna på varje flik för varje säkerhetsroll som krävs för integrationsanvändaren.
+
+##### <a name="core-records"></a>Kärnposter
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Konto|Global|Skapa, läsa, skriva, lägga till, lägga till i, tilldela|Skapa, läsa, skriva, lägga till, lägga till i, tilldela|Skapa, läsa, skriva, lägga till, lägga till i, tilldela|
+|Åtgärdskort|Global||Läs|Läs|
+|Anslutning|Global|Läs|Läs|Läs|
+|Kontakt|Global|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|
+|Anmärkning|Global|||Skapa, läsa, skriva, ta bort lägga till, tilldela|
+|Affärsmöjlighet|Global||Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|
+|Post|Global|||Skapa, läsa, lägga till i|
+|Användargränssnitt för entitet|Användare|Skapa, läsa, skriva|Skapa, läsa, skriva|Skapa, läsa, skriva|
+
+##### <a name="sales"></a>FÖRS
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Fakturera|Global|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|
+|Order|Global|Skapa, skriva, lägga till i|Skapa, skriva, lägga till i|Läsa, skriva, lägga till, lägga till i, tilldela|
+|Produkt|Global|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|
+|Egenskap|Global|Läs|Läs|Läs|
+|Egenskapskoppling|Global|Läs|Läs|Läs|
+|Egenskapsalternativ ange objekt|Global|Läs|Läs|Läs|
+|Offert|Global|Läs|Läs|Läs|
+
+##### <a name="service"></a>Service
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Ärende|Global|Läs|Läs|Läs|
+
+##### <a name="business-management"></a>Verksamhetsstyrning
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Valuta|Global|Skapa, läsa, skriva|Skapa, läsa, skriva|Skapa, läsa, skriva|
+|Organisation|Global|Läsa, skriva|Läsa, skriva|Läsa, skriva|
+|Säkerhetsroll|Global|||Läs|
+|Användare|Global|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|Skapa, läsa, skriva, lägga till, lägga till i|
+|Användarinställningar|Global|Skapa, läsa, skriva, ta bort, lägga till i|Skapa, läsa, skriva, ta bort, lägga till i|Skapa, läsa, skriva, ta bort, lägga till i|
+|Agera för en annan användares räkning|Global|Ja|Ja|Ja|
+
+##### <a name="customization"></a>Anpassning
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Fält|Global||Läs|Läs|
+|Plugin-paket|Global|Läs|Läs|Läs|
+|Plugin-typ|Global|Läs|Läs|Läs|
+|SDK-meddelande|Global|Läs|Läs|Läs|
+|SDK-meddelande bearbetningssteg|Global|Läs|Läs|Läs|
+|Webbresurs|Global|Läs|Läs|Läs|
+
+##### <a name="custom-entities"></a>Anpassade entiteter
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Dynamics 365 Business Central kontostatistik|Global|Skapa, läsa, skriva, lägga till i|Skapa, läsa, skriva, lägga till i|Skapa, läsa, skriva, lägga till i|
+|Dynamics 365 Business Central-anslutning|Global|Läs|Läs|Läs|
+
+### <a name="product-availability-user"></a>Produktartikelanvändare
+Du kan låta säljare visa lagernivåer för de artiklar som de säljer genom att bevilja dem de behörigheter som beskrivs i följande tabell.
+
+##### <a name="custom-entities"></a>Anpassade entiteter
+|Säkerhetsroll|Åtkomstnivå|Dynamics NAV 2018 och tidigare|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Dynamics 365 Business Central kontostatistik|Global|Skapa, läsa, skriva, lägga till i|Skapa, läsa, skriva, lägga till i|Skapa, läsa, skriva, lägga till i|
+|Dynamics 365 Business Central-anslutning|Global|Läs|Läs|Läs|
 
 ## <a name="see-also"></a>Se även  
 [Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245896"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629487"
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
@@ -39,6 +39,9 @@ Slutligen kan du kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)] återf
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Har du läst om en ny funktion i viktig information eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.  
+
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Finns det skillnader mellan en lokal distribution och molnversionen av Business Central?
+Ja. Vissa molnbaserade funktioner kan köras i vissa fall och andra stöds inte alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jag få utbildning i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ja det kan du. Men för närvarande behöver du fråga din återförsäljare. Om du inte känner till den, hitta en Business Central på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145).  

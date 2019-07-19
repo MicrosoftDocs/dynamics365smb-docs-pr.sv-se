@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254086"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629947"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254086"
 När du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]-förhandsgranskningen har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa egna försäljningsdokument, eller skapa ett bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. I demonstrationsföretaget förklarar visuella handböcker grundläggande funktioner och hjälper dig att testa dagliga uppgifter som t.ex. att skapa en försäljningsfaktura och visa en rapport. Om du lämnar en assistent, till exempel för att utforska [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hand, men sedan vill återvända till den, går du tillbaka till startsidan för Rollcenter och startar genomgången Komma igång. Om du vill ha mer hjälp hittar du en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. I demonstrationsföretaget förklarar visuella handböcker grundläggande funktioner och hjälper dig att testa dagliga uppgifter som t.ex. att skapa en försäljningsfaktura och visa en rapport. Om du lämnar en assistent, till exempel för att utforska [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hand, men sedan vill återvända till den, går du tillbaka till startsidan för Rollcenter och startar genomgången Komma igång. Kontakta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner om du vill ha mer hjälp.  
 
 > [!TIP]  
 > Du kan återgå till ett Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
@@ -36,7 +36,11 @@ För några snabba tips, se:
 
 Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md). En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422).  
+När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md).
+
+Innan du kan börja använda funktionen måste vissa inställningar göras. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Tänk på att vissa installationssteg kan utföras automatiskt med hjälp av installationsguider.
+
+En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollcenter
 Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).

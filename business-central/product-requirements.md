@@ -1,6 +1,6 @@
 ---
 title: Minimikrav för att använda Business Central| Microsoft-dokument
-description: Mer information om minimikrav för system och version för att använda Business Central.
+description: Mer information om minimikrav för system och version för att använda Business Central online.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dff8f2e677c49f089ec2b7ee01dc1565ee4aa261
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252906"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711043"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimikrav för att använda Business Central
-Innan du öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)], bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
+Innan du öppnar [!INCLUDE [prodshort](includes/prodshort.md)] online, bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
 
 ## <a name="browsers"></a>Webbläsare
 **Chrome för Windows och Firefox för Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] har utformats för att fungera med den aktuella versionen av dessa skrivbordswebbläsare.  
@@ -33,13 +33,17 @@ Innan du öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)], bör du kontroller
 **Enhetens storlek:** [!INCLUDE[d365fin](includes/d365fin_md.md)] som stöds på smartphones med ett lägsta skärmstorlek på 4” och surfplattor med en lägsta skärmstorlek på 7”.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-program:** För att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook, behöver du Outlook 2016 eller senare, Outlook Web App, OWA för iPhone, OWA för iPad, eller OWA för Android.  
+**Outlook-program:** För att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din företagsinkorg i Outlook, behöver du Outlook 2016 eller senare, Outlook Web App, OWA för iPhone, OWA för iPad, eller OWA för Android. Organisationen måste också använda Office 365. Du kan inte använda [!INCLUDE [prodshort](includes/prodshort.md)] online som inkorgen för företaget i Outlook om din organisation använder en Exchange Server lokalt.  
 **Webbläsare:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook Web App (OWA), kräver tilläggsprogrammet att datorn kör någon av de angivna webbläsarna i listan över webbläsare som stöds i Project “Madeira”.  
 **Plattformar:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In i OWA för iPhone, OWA för iPad och OWA för Android, kräver tilläggsprogrammet att den mobila enheten kör någon av de angivna mobila enheter som stöds för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Redigera i Excel:** För att använda Excel-tillägget för att göra ändringar i Excel och sätta tillbaka ändringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)], behöver du Excel 2016 eller senare. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
+## <a name="using-business-central-on-premises"></a>Använda Business Central lokalt
+
+Om du vill distribuera Business Central lokalt bör du kontrollera systemkraven. Mer information finns i [Systemkrav för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)och [distributionsöversikt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
-[Systemkrav för Dynamics 365 Business Central lokal](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
+[Systemkrav för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

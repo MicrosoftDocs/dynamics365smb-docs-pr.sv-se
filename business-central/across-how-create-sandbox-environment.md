@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2019
+ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241666"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711089"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -26,28 +26,36 @@ Begränsat läge (förhandsgranskning) är en instans av [!INCLUDE[d365fin](incl
 Du måste ha en prenumeration på [!INCLUDE[d365fin](includes/d365fin_md.md)] för att skapa begränsat läge. Det kan bara finnas ett begränsat läge per prenumeration.
 
 1. Logga in i din instans för produktionsmiljö i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjänsten.
+
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Miljö för begränsat läge** och välj sedan relaterad länk.
 <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Välj **skapa**.  
-  En annan flik i webbläsaren öppnas för att slutföra inställningarna för begränsat läge.
-> [!NOTE]  
->  Om du har ett popup-fönster aktiverat i din webbläsare, kan du ändra koden så att URL-adresser tillåts från adressen *.businesscentral.dynamics.com.   
+3. Klicka på knappen **Skapa**.  
+
+    En annan flik med [!INCLUDE[d365fin](includes/d365fin_md.md)] öppnas där du kan slutföra inställningarna i miljön för begränsat läge.
+
+    > [!NOTE]  
+    >  Om du har ett popup-fönster aktiverat i din webbläsare, kan du ändra koden så att URL-adresser tillåts från adressen *.businesscentral.dynamics.com.
 
 4. När begränsat läge är klart, omdirigeras till välkomstguiden för begränsat läge.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-5. Välj **Mer information** om du vill veta om scenarier som du kan pröva i begränsat läge. Klicka på **Stäng** för att fortsätta till rollcenter din [!INCLUDE[d365fin](includes/d365fin_md.md)]-instans för begränsat läge.
-6. Högst upp i Rollcentret visas ett meddelande att informera dig om att det är begränsat läge. Du kan också se miljötypen i namnlisten på klienten.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> I begränsat läge, har en ny innehavare skapats. Den här innehavaren laddas med standarddemonstrationsdata för företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön när begränsat läge skapas.
+5. Välj knappen **lär dig mer** om du vill läsa om scenarier som du kan prova i en miljö för begränsat läge eller välja knappen **Stäng** för att fortsätta till rollcenter för din [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljö för begränsat läge.
 
-7. När som helst kan du återgå till sidan **begränsat läge** och återställa begränsat läge.
-> [!NOTE]  
->  Återställa begränsat läge tar bort den helt och skapar den sedan igen med standarddemonstrationsdata.  
+    Högst upp i Rollcentret visas ett meddelande att informera dig om att det är begränsat läge. Du kan också se miljötypen i namnlisten på klienten.
+    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
-8. Du kan använda Business Centrals programmarstartbild om du vill växla mellan miljö för produktion och begränsat läge.
+    > [!NOTE]
+    > En miljö för begränsat läge som skapas på det här sättet innehåller endast standarddemonstrationsdata för CRONUS-företaget. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.<br /><br />
+    > Du kan också skapa en miljö för begränsat läge som innehåller produktionsdata. Du måste göra detta i administrationscentret. Mer information finns i [Hantera miljöer](/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjälpen för utvecklare och IT-proffs.
+
+6. När som helst kan du återgå till sidan **begränsat läge** och återställa begränsat läge.
+    > [!NOTE]  
+    >  Återställa begränsat läge tar bort den helt och skapar den sedan igen med standarddemonstrationsdata.  
+
+7. Du kan använda Business Centrals programmarstartbild om du vill växla mellan miljö för produktion och begränsat läge.
 <!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9. Det är möjligt för en administratör eller en annan användare att begränsa eller även spärra åtkomsten för vissa användare till begränsat läge. Detta kan göras med hjälp av produktens standardsäkerhetsfunktioner som användarkort, användargrupper och behörighetsgrupper.
+8. Det är möjligt för en administratör eller en annan användare att begränsa eller även spärra åtkomsten för vissa användare till begränsat läge. Detta kan göras med hjälp av produktens standardsäkerhetsfunktioner som användarkort, användargrupper och behörighetsgrupper.
 
 <!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
@@ -57,7 +65,7 @@ I begränsat läge finns i **designern** på klienten aktiverad, som du kan akti
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-### <a name="enable-the-advanced-user-experience"></a>Aktivera avancerade användare
+### <a name="to-enable-the-advanced-user-experience"></a>Aktivera avancerade användare
 Det går att aktivera och prova avancerade (alla) funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett begränsat läge för innehavare genom att ange fältet **upplevelse** på sidan **företagsinformation**.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->

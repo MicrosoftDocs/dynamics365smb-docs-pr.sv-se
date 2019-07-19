@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621120"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629878"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
 Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
@@ -48,24 +48,28 @@ Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företa
 
 Microsoft ger även följande tillägg:  
 
-* [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
-* [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)  
-* [Ceridian löner](ui-extensions-ceridian-payroll.md)  
-* [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)  
-* [Revisorsportal](ui-extensions-accountant-portal.md)  
-* [Image Analyzer](ui-extensions-image-analyzer.md)  
-* [Betalningar och betalningsavstämningar (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5 datamigrering](ui-extensions-c5-data-migration.md)  
-* [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)  
-* [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md  )
-* [Skicka kundremissa](ui-extensions-send-remittance-advice.md)
+* [Revisorportal för Business Central](ui-extensions-accountant-portal.md)
+* [Ceridian löner](ui-extensions-ceridian-payroll.md)
+* [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)
+* [Image Analyzer](ui-extensions-image-analyzer.md)
+* [Intelligent moln](ui-extensions-data-replication.md)
+* [Intelligent molnbas](ui-extensions-intelligent-cloud.md)
+* [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)
+* [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
+* [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
+* [DK - Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - momsfilformat](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io för postnummer i Storbritannien](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Skicka kundremissa](ui-extensions-send-remittance-advice.md)
+* [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering. Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
@@ -73,7 +77,7 @@ Microsoft ger även följande tillägg:
 ## <a name="see-also"></a>Se även
 [Utökning av Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)  
-[Ställa in Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md)  
+[Skapa tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Konfigurera tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

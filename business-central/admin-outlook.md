@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246743"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717590"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
 
 ## <a name="getting-the-add-in"></a>Skaffa tillägget
-Det är lätt att komma igång med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. I assisterade konfigurationen **Ställ in din företagsinkorg i Outlook** kan du ställa in anslutningen för dig själv och din organisation. Om din organisation använder Office 365, måste du ange ditt Office 365 användarnamn och lösenord. Om din organisation inte använder Office 365, måste du ange information om hur den Exchange Server du använder. Tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs sedan till automatiskt till Outlook.  
+Det är lätt att komma igång med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. I assisterade konfigurationen **Ställ in din företagsinkorg i Outlook** kan du ställa in anslutningen för dig själv och din organisation om din organisation använder Office 365. Ange bara ditt Office 365 användarnamn och lösenord. Tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs sedan till automatiskt till Outlook. Mer information finns i [minimi kraven för Outlook](product-requirements.md#outlook)  
 
 När du sedan öppnar Outlook visas ett e-postmeddelanden från Dynamics 365 Business Central-administratören. Det nya tilläggsprogrammet läggs till på Outlook-menyfliken och i Outlook webbapp, kan du se tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] omedelbart ovanför e-postmeddelandets brödtext. Tillägget uppdateras regelbundet och du får ett meddelande att det finns en ny version för dig i Outlook.  
 
@@ -50,7 +50,7 @@ I tilläggsprogrammet dokumentlänkar kan du, ändra och vidta åtgärder med do
 ## <a name="adding-the-add-ins-manually"></a>Lägga till tillägg manuellt
 Ibland kan tillägg inte läggas till automatiskt i Outlook. Även om du eller en arbetskamrat körde assisterad konfigurationsguide för företaget, kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i Outlook. Om det här problemet uppstår, kan du lägga till tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellt.  
 
-Först måste du kontrollera att du har tillgång till tillägg i Office 365-kontot. Öppna Outlooks webbåtkomst i en webbläsare och lägg sedan till `/owa/#path=/options/manageapps` till URL-adressen i adressfältet. Då öppnas sidan **Hantera tillägg** där du kan aktivera [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. När du sedan går tillbaka till Outlook, bör [!INCLUDE[d365fin](includes/d365fin_md.md)] skrivas ut.  
+Först måste du kontrollera att du har tillgång till tillägg i Office 365-kontot. Öppna Outlook i en webbläsare och lägg sedan till `/owa/#path=/options/manageapps` till URL-adressen i adressfältet. Då öppnas sidan **Hantera tillägg** där du kan aktivera [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. När du sedan går tillbaka till Outlook, bör [!INCLUDE[d365fin](includes/d365fin_md.md)] skrivas ut.  
 
 På samma sätt i den stationära Outlook-klienten kan du kontrollera att [!INCLUDE[d365fin](includes/d365fin_md.md)] finns med på sidan **Hantera tillägg**.  
 

@@ -5,19 +5,19 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77e53c7492a1c9ab5bd1e4d150b291ebd2b61917
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244705"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701158"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Funktionen låter dig fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
 
-Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i redovisningen och ange nummerserier för förskottsbetalningsdokument.  
+Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i redovisningen och ange nummerserier för förskottsbetalningsdokument. Du måste ange ett konto för förskottsbetalningar som relaterar till försäljning och ett konto för förskottsbetalningar som rör inköp. Du kan ange samma bokföringskonton som ska användas för alla förskottsbetalningar som är kopplade till alla rörelsebokföringsmallar eller produktbokföringsmallar, eller så kan du ange specifika konton för särskilda bokföringsmallar för försäljning respektive inköp. Detta beror på ditt företags behov av att följa upp förskottsbetalningar.  
 
 Du kan ange procentandelen av radbeloppet som ska faktureras som förskottsbetalning, för en kund eller leverantör, för alla artiklar eller valda artiklar. När du har gjort de nödvändiga inställningarna kan du skapa förskottsfakturor från försäljnings- och inköpsorder. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Till exempel, en totalsumma för hela ordern.  
 
@@ -33,7 +33,10 @@ Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har m
     - **Förskottsbet.konto, försäljning**  
     - **Förskottsbet.konto, inköp**  
 
-Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarna kan du göra detta på sidan **Redovisningskontolista**.  
+> [!TIP]
+> Om fälten inte visas på sidan **Bokföringsinställningar** kan du använda den vågräta rullningslisten längst ned på sidan för att rulla åt höger.  
+
+Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarna kan du öppna sidan **Redovisningskontolista** från relevant kontofält.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Så här skapar du nummerserier för dokument för förskottsbetalning  
 
@@ -50,7 +53,7 @@ Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarn
     - **Försk.kredit.nr.serie (bokförd)**
 
 > [!NOTE]  
->  Du kan använda samma nummerserier för förskottsfakturor och vanliga fakturor eller använda olika nummerserier. Om du använder olika serier får dessa inte överlappa, d.v.s. det får inte finnas några nummer som finns med i båda serierna.  
+> Du kan använda samma nummerserier för förskottsfakturor och vanliga fakturor eller använda olika nummerserier. Om du använder olika serier får dessa inte överlappa, d.v.s. det får inte finnas några nummer som finns med i båda serierna.  
 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Ställa in Procentandelar, förskottsbetalning för artiklar, kunder och leverantörer  
 Du kan ställa in en artikels standardprocentandel för alla kunder, en specifik kund eller en kundprisgrupp.  
@@ -67,7 +70,9 @@ Du kan ställa in en kunds eller leverantörs standardprocentandel för förskot
 4. Upprepa stegen för andra kunder eller för leverantörer.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Så här fastställer du vilken förskottsbetalda procentandel som har första prioritet  
+
 En order kan ha en procentandel för en förskottsbet. i försäljningshuvudet och i olika procentandelar för artiklarna på raderna. Om du vill fastställa vilken förskottsbetald procentandel som kopplas till varje försäljningsrad letar systemet efter den förskottsbetalda procentandelen i följande ordning, och använder den första standardinställda det hittar:  
+
 1. En procentandel för förskottsbet. för artikeln på raden och kunden som ordern är till.  
 2. En procentandel för förskottsbet. för artikeln på raden och kundprisgruppen som kunden hör till.  
 3. En procentandel för förskottsbet. för artikeln på raden för alla kunder.  

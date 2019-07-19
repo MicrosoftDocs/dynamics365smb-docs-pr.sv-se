@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242474"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629717"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
@@ -218,7 +218,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Toleransregler för flera betalningar 2")  
+![Toleransregler för flera betalningar 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Toleransregler för flera betalningar 2")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -229,7 +229,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Toleransregler för flera betalningar 3")  
+![Toleransregler för flera betalningar 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Toleransregler för flera betalningar 3")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 

@@ -9,20 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620867"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726865"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Med hjälp av Dynamics 365 for Sales från Business Central
 Om du använder Dynamics 365 for Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
 
+Innan du kan använda integrationsfunktionerna måste du ställa in anslutningen och definiera användarna i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> I det här avsnittet förutsätts att du använder onlineversioner av [!INCLUDE[d365fin](includes/d365fin_md.md)] och Sales. Du kan blanda online- och lokala versioner, men det kräver speciell konfiguration. Mer information finns i [Förbereder integration till Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Här beskrivs hur du integrerar onlineversioner av [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om lokal konfiguration finns i [förbereda Dynamics 365 for Sales för integrering lokalt.](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
 
 Integrera program låter dig komma åt data i Sales från [!INCLUDE[d365fin](includes/d365fin_md.md)] och i vissa fall vice versa. Du kan arbeta med och synkronisera data som är gemensamma för båda tjänsterna, till exempel kunder, kontakter och försäljningsinformation och hålla informationen uppdaterad i båda programmen.  
 
@@ -73,19 +75,22 @@ Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omf
 
 Uppdateringar av fält för försäljningsorderhuvud, till exempel senaste utleveransdatum eller begärt leveransdatum som har mappats i FÖRSÄLJNINGSORDER-ORDER **Tabellmappningar för integrering** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## <a name="handling-sales-quotes-data"></a>Hantering av försäljningsoffertdata
 Försäljningsofferter som aktiveras i [!INCLUDE[crm_md](includes/crm_md.md)] överförs till [!INCLUDE[d365fin](includes/d365fin_md.md)] om du väljer kryssrutan **Automatiskt bearbeta offerter** på sidan **Microsoft Dynamics 365 konfigurera anslutning**.
 Alternativt kan du manuellt konvertera aktivera försäljningsofferter från [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av åtgärden **Bearbeta i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på sidan **försäljningsofferter - Dynamics 365 for Sales**.
 På sådana försäljningsofferter överförs fältet **Namn** på den ursprungliga offerten och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Även fältet **gäller till** på offerten har överförts och mappats till fältet **offertens giltighetsdatum** på försäljningsoffert i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Försäljningsofferter gå igenom ändringar medan de är färdigställs. Både manuell och automatisk behandlingen av försäljningsofferter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ser du till att tidigare versioner av försäljningsofferterna arkiveras innan nya versioner av försäljningsofferter från [!INCLUDE[crm_md](includes/crm_md.md)]. 
+Försäljningsofferter gå igenom ändringar medan de är färdigställs. Både manuell och automatisk behandlingen av försäljningsofferter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ser du till att tidigare versioner av försäljningsofferterna arkiveras innan nya versioner av försäljningsofferter från [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Hantera bokförda försäljningsfakturor, kundbetalningar och statistik
-När försäljningsordern har uppfyllts skapas fakturor för den. När du fakturerar försäljningsorder kan du överföra bokförda försäljningsfakturor till [!INCLUDE[crm_md](includes/crm_md.md)] om du väljer **Skapa faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på sidan bokförd försäljningsfaktura. Bokförda fakturor överförs till [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **fakturerade**. När kundbetalning har inlevererats förförsäljnngsfakturan i [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer status för försäljningsfakturor ändras till **Betald** med statusorsaken anges till **delvis** om den är delvis eller **fullständig** om den är helt betald, när du kör **Uppdatera kontostatistik** på kundsidan i [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Uppdatera kontostatistiken** uppdaterar också värden som saldo och total försäljning i [!INCLUDE[d365fin](includes/d365fin_md.md)]kontostatistikfaktaboxen i [!INCLUDE[crm_md](includes/crm_md.md)]
-Du kan också låta schemalagda projekt (kundstatistik och POSTEDSALESINV-INV) köra båda dessa processer automatiskt i bakgrunden. 
+När försäljningsordern har uppfyllts skapas fakturor för den. När du fakturerar försäljningsorder kan du överföra bokförda försäljningsfakturor till [!INCLUDE[crm_md](includes/crm_md.md)] om du väljer kryssrutan **Skapa faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på sidan **bokförd försäljningsfaktura**. Bokförda fakturor överförs till [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **fakturerade**.
+
+När kundbetalning har inlevererats förförsäljnngsfakturan i [!INCLUDE[d365fin](includes/d365fin_md.md)], kommer status för försäljningsfakturor ändras till **Betald** ed fältet **Statusorsak** inställt på **Delvis**, om den är delvis eller **fullständig** om den är helt betald, när du kör åtgärden **Uppdatera kontostatistik** på kundsidan i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Funktionen **Uppdatera kontostatistiken** uppdaterar också värden som saldo och total försäljning i fälten **Saldo** och **Total försäljning** på faktaboxen **[!INCLUDE[d365fin](includes/d365fin_md.md)] Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan också låta schemalagda projekt (kundstatistik och POSTEDSALESINV-INV) köra båda dessa processer automatiskt i bakgrunden.
 
 ## <a name="see-also"></a>Se även
-[Förbereda för integrering till Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Kundhantering](marketing-relationship-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

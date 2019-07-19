@@ -1,8 +1,6 @@
 ---
 title: Konfigurera ett företag med RapidStart Services| Microsoft Docs
 description: Du kan skapa ett nytt företag i Business Central med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1e7976e19641bd49c1c1d94a31de902aea1a9769
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244325"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726934"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurera ett företag med RapidStart Services
 Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.  
@@ -39,7 +37,6 @@ Du kan använda följande komponenter för att snabba på inställningen av ditt
 
 |**Om du vill**|**Se**|  
 |------------|-------------|  
-|Ställ in det huvudsakliga användargränssnitt för RapidStart Services.|[Använd implementerings-rollcentret för RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Skapa ett nytt företag och importera grundläggande inställningsdata och mallar.|[Ställa in företagskonfiguration](admin-set-up-company-configuration.md)|  
 |Distribuera det konfigurerade paketet till kunden för implementering.|[Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)|
 |Definiera och validera kundens installationsvärden för alla viktiga områden, till exempel företagsinformation, redovisning, lager, försäljning och produktion.|[Samla in kundinställningsvärden](admin-gather-customer-setup-values.md)|  

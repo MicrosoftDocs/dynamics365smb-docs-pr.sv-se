@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540229"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629625"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkroniserar data i Business Central och Dynamics 365 for Sales
 När du integrerar [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du bestämma om du vill synkronisera data i valda fält för i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (till exempel kunder, kontakter och säljare) med motsvarande poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på vilken typ av post kan du synkronisera data från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -77,7 +77,7 @@ Följande tabell visar mappningar från [!INCLUDE[d365fin](includes/d365fin_md.m
 Följande tabell beskriver regler som kontrollerar synkroniseringen mellan appar.
 
 > [!NOTE]  
-> Ändrar data i [!INCLUDE[crm_md](includes/crm_md.md)] som genomfördes av [!INCLUDE[crm_md](includes/crm_md.md)]-anslutning användarkontot är inte synkroniserade. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [Ställa in integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ändrar data i [!INCLUDE[crm_md](includes/crm_md.md)] som genomfördes av [!INCLUDE[crm_md](includes/crm_md.md)]-anslutning användarkontot är inte synkroniserade. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [ställa in konton för att integrera med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Bord|Regel|
 |-----|----|

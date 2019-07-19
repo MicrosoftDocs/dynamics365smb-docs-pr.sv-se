@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/03/2019
+ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621189"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629924"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortera, söka och filtrera listor
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.

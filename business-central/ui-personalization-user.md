@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253729"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632735"
 ---
 # <a name="personalizing-your-workspace"></a>Anpassa din arbetsyta
 
@@ -60,7 +60,7 @@ Du kan göra olika saker, som att flytta och dölja fält, kolumner och åtgärd
 |Visa ett fält i rubriken av en artikelrad när snabbfliken komprimeras.|Markera pilen och välj <b>visa när den är komprimerad</b>. <br /> <br />Om du inte ser detta alternativ har du redan angett det. Då väljer du att stoppa visa fältet på snabbflikens rubrik och väljer <b>visa alltid</b>.|*Snabbflik* är den term som används för en uppsättning fält som visas under den vanliga rubriken. Använd alternativet <b>visa minimerad</b> om du vill visa de viktigaste fälten. Om du väljer ett fält i rubriken på snabbfliken och fokusera på det markerade fältet.<br /><br />Det här alternativet gäller endast om det finns mer än en snabbflik. Om det endast finns en snabbflik kan den inte komprimeras så alternativet <b>visa minimerad</b> är inte tillgängligt.|
 |Gör att ett fält endast visas om du väljer **visa fler**.|Markera pilen och välj <b>visa under "Visa fler"</b>. <br /> <br />Om du inte ser alternativet <b>Visa under ”Visa fler”</b> har den redan angetts. I det här fallet, för att ett fält alltid ska visas, inte bara när du markerar **visa fler** väljer du <b>visa alltid</b>.||
 |Ändra låsning i en lista till en annan kolumn |Markera pilen i kolumnen som du vill ska vara den sista kolumnen på låsningen och välj <b>Ange låsning</b>.<br /><br/>Om du vill ange låsningen tillbaka till den ursprungliga angivna platsen, markera pilen för den aktuella kolumnen i låsningen och välj <b>ta bort låsning</b>. Obs! Du kan inte ta bort denna låsta ruta.|Låst ruta anger vilka kolumner som visas till vänster, även när du bläddrar horisontellt.|  
-|Ändra bredden på en kolumn|Dra kolumnens högra kantlinje i tabellens rubrikrad. <br /><br />Om du vill maximera kolumnbredden efter den längsta textraden i kolumnen dubbelklickar du på den högra kantlinjen.||
+|Ändra bredden på en kolumn|Dra kantlinjen mellan kolumnerna i huvudlistan. <br /><br />Du kan dubbelklicka på kanterna mellan kolumnrubrikerna för att passa in bredden, vilket ger en bekväm storlek för läsbarhet.||
 |Hoppa över ett fält när du trycker på Retur.|Markera pilen bredvid fältet eller kolumnrubriken i en lista och välj **utesluta från snabbinmatning**. <br /><br /> Om du inte ser detta alternativ anges redan fältet till att hoppas över. I det här fallet väljer du att hoppa över fältet **Inkludera i snabbinmatning**. |Se [Påskynda datainmatning med snabbinmatning](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Anpassa åtgärder
