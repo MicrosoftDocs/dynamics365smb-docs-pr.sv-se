@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726960"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755975"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -43,11 +43,11 @@ Om du använder en testversion av [!INCLUDE [prodshort](includes/prodshort.md)] 
 
 ### <a name="blog"></a>Blogg
 
-I [Business Central-bloggen](https://community.dynamics.com/business/b/financials) kan du lära dig mer om nya [!INCLUDE[prodshort](includes/prodshort.md)]-funktioner, nya appversioner, tips och råd, samt uppdateras om nya landsversioner.  
+Vi talar om nya funktioner i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), till exempel när de blir tillgängliga och om det finns några saker.  
 
 ### <a name="capabilities-coming-soon"></a>Funktionerna kommer snart
 
-[!INCLUDE[prodshort](includes/prodshort.md)] uppdateras med större funktionsuppdateringarna var 6:e månad och med månatliga tjänstuppdateringar. Välj länken för att visa senaste viktig information. Du kan även få en översikt över kommande och nya funktioner i viktig information i Dynamics 365 på [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] uppdateras med större funktionsuppdateringarna var 6:e månad och med månatliga tjänstuppdateringar. Välj länken för att visa senaste viktig information. Du kan även få en översikt över kommande och nya funktioner i viktig information i Dynamics 365 på [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 För översikt på längre visar [!INCLUDE[prodshort](includes/prodshort.md)] [sidan Översikt](https://dynamics.microsoft.com/roadmap/business-central/) allmänna prioriteter för [!INCLUDE[prodshort](includes/prodshort.md)] under de kommande åren.  
 

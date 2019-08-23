@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238906"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796855"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Det går att göra  korrigeringar av bokförda momstransaktioner. Detta gör det
 
 Om en kassarabatt har beräknats utifrån ett fakturabelopp inklusive moms kan du återställa den del av momsbeloppet som utgörs av kassarabatten när kassarabatten beviljas. Observera att du måste aktivera fältet **Justering för kassarabatt** i både redovisningsinställningarna generellt och i momsbokföringsinställningarna för särskilda kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Så här anger du moms i försäljningsdokument manuellt  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Så här ställer du in systemet för manuell momsregistrering i försäljningsdokument
+Nedan beskrivs hur du aktiverar manuella momsändringar för försäljningsdokument. Stegen är liknande på sidan **Inköpsinställningar**.
+
 1. På sidan  **Redovisningsinställningar** ange en  **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
 2. På sidan **Tillåt momsdifferens** i fönstret **Försäljningsinställningar** .  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Så här justerar du moms för ett försäljningsdokument  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Så här justerar du moms för ett försäljningsdokument  
 1. Öppna den aktuella försäljningsordern.  
 2. Välj åtgärden **Statistik**.  
-3. Välj snabbfliken **Fakturering**.  
+3. På snabbfliken **Fakturering** väljer du värde i fältet **Antal momsrader**.
+4. Redigera fältet **Momsbelopp**.   
 
-    > [!NOTE]  
-    >  Det totala momsbeloppet för fakturan visas på raderna grupperade per moms-ID. Du kan justera beloppet i fältet **Momsbelopp**på raderna för varje moms-ID. När du ändrar fältet **Momsbelopp** utförs en kontroll för att undersöka att du inte har ändrat momsen med mer än det belopp som du har angett som maximal tillåten differens. Om beloppet ligger utanför intervallet i **Max. tillåten momsdifferens** visas en varning som anger den maximala tillåtna differensen. Du kommer inte att kunna fortsätta förrän beloppet justeras inom godkända parametrar. Klicka på **OK** och ange ett annat **Momsbelopp** som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen fördelas momsen proportionellt över dokumentraderna som har samma moms-ID.  
+> [!NOTE]  
+> Det totala momsbeloppet för fakturan visas på raderna grupperade per moms-ID. Du kan justera beloppet i fältet **Momsbelopp**på raderna för varje moms-ID. När du ändrar fältet **Momsbelopp** utförs en kontroll för att undersöka att du inte har ändrat momsen med mer än det belopp som du har angett som maximal tillåten differens. Om beloppet ligger utanför intervallet i **Max. tillåten momsdifferens** visas en varning som anger den maximala tillåtna differensen. Du kommer inte att kunna fortsätta förrän beloppet justeras inom godkända parametrar. Klicka på **OK** och ange ett annat **Momsbelopp** som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen fördelas momsen proportionellt över dokumentraderna som har samma moms-ID.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Manuell momsberäkning med hjälp av journaler  
 Du kan också justera momsbelopp i redovisnings-, försäljnings- och inköpsjournaler. Detta kan vara nödvändigt när du anger en leverantörsfaktura i journalen och det förekommer en differens mellan det momsbeloppet som [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknade och momsbeloppet på den leverantörsfaktura du har tagit emot.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Innan du skriver in moms i en redovisningsjournalrad  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Så här ställer du in systemet för manuell momsregistrering i redovisningsjournaler
+Du måste utföra följande steg innan du kan ange moms manuellt i en redovisningsjournal.  
+
 1. På sidan  **Redovisningsinställningar** ange en  **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
 2. På sidan **Redovisningsjournalmallar** markerar du kryssrutan **Tillåt momsdifferens** för den relevanta journalen.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Innan du kan ange moms manuellt i försäljnings- och inköpsjournaler  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Så här ställer du in systemet för manuell momsregistrering i försäljnings- och inköpsjournaler
+Du måste utföra följande steg innan du kan ange moms manuellt i en försäljnings- och inköpsjournal.
+
 1. På sidan **Inköpsinställningar** markerar du kryssrutan **Tillåt momsdifferens**.  
-2. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
+2. Upprepa steg 1 för sidan **Försäljningsinställningar**.
+3. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
 
     > [!NOTE]  
     > Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[d365fin](includes/d365fin_md.md)] differensen i fältet **Momsdifferens**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Så här bokför du moms med inköpsfakturor
-I stället för att använda en redovisningsjournal för att bokföra en importmomsfaktura, kan du använda en inköpsfaktura.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Bokföra du importmoms med inköpsfakturor
+I stället för att använda journaler för att bokföra en importmomsfaktura, kan du använda en inköpsfaktura.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurera inköp för bokföring av fakturor med specificerad importmoms  
 1. Skapa ett leverantörskort för den importavdelning som skickar importmomsfakturan till dig. **Gen. rörelsebokföringsmall** och **Moms rörelsebokföringsmall** måste ställas in på samma sätt som redovisningskontot för importmomsen.  
@@ -102,7 +110,7 @@ I stället för att använda en redovisningsjournal för att bokföra en importm
 6. I fältet **Inköpspris exkl. moms** skriver du in momsbeloppet.  
 7. Bokföra fakturan  
 
-## <a name="to-process-certificates-of-supply"></a>Så här bearbetar du leveransintyg
+## <a name="processing-certificates-of-supply"></a>Behandla leveransintyg
 När du säljer varor till en kund i ett annat EU-land/region, måste du skicka kunden ett leveransintyg som kunden måste signera och returnera till dig. Följande tillvägagångssätt används för att behandla leveransintyg för försäljningsutleveranser, men samma moment gäller för serviceleveranser av artiklar och returutleveranser till leverantörer.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Så här visar du information om leveransintyg  

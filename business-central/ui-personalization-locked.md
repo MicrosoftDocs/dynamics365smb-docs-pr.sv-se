@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251291"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796773"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Varför är en sida låst för anpassning?
 
@@ -55,7 +55,7 @@ Om det finns en ikon för ![anpassning spärrad](media/personalization-blocked-i
 
 ![Anpassa spärrad](media/personalization-blocked.png "Anpassa spärrad")
 
-Orsaken till detta är att det rollcenter eller den profil som för närvarande är associerad med ditt användarkonto ändrar sidan specifikt för din roll. Kontakta administratören om du behöver hjälp eller, om det passar, kan du försöka att byta till ett rollcenter (från [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "gå direkt till sidan användare inställningar i Business Central")) som innehåller rollanpassning för sidan.
+Orsaken till detta är att det rollcenter eller den roll som för närvarande är associerad med ditt användarkonto ändrar sidan specifikt för din roll. Kontakta administratören om du behöver hjälp eller, om det passar, kan du försöka att byta till ett rollcenter (från [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "gå direkt till sidan användare inställningar i Business Central")) som innehåller rollanpassning för sidan.
 
 ## <a name="see-also"></a>Se även
 [Anpassa din arbetsyta](ui-personalization-manage.md)  

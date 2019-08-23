@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629947"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858295"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
 
 När du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]-förhandsgranskningen har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa egna försäljningsdokument, eller skapa ett bankkonto.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. I demonstrationsföretaget förklarar visuella handböcker grundläggande funktioner och hjälper dig att testa dagliga uppgifter som t.ex. att skapa en försäljningsfaktura och visa en rapport. Om du lämnar en assistent, till exempel för att utforska [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hand, men sedan vill återvända till den, går du tillbaka till startsidan för Rollcenter och startar genomgången Komma igång. Kontakta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner om du vill ha mer hjälp.  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Om du har fler frågor rekommenderas att du frågar gruppen eller kontaktar din 
 Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här ](https://www.microsoft.com/en-us/solution-providers/search). Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
-Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](https://docs.microsoft.com/dynamics365)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 Business Central webbplats](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](/dynamics365/)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 Business Central webbplats](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
-[Dynamics 365-dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
+[Dynamics 365-dokumentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

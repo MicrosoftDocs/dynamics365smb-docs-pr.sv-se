@@ -1,8 +1,6 @@
 ---
 title: Visa anpassade Power BI-rapporter | Microsoft Docs
 description: Du kan använda Power BI-rapporter för att få ytterligare information om data i listor.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241608"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755201"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visa listdata i Power BI-rapporter i Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visa listdata i Power BI-rapporter i Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
 
 > [!NOTE]  
->   Du måste ha ett giltigt konto med [!INCLUDE[d365fin](includes/d365fin_md.md)] och med Power BI. Dessutom kan du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md).  
+> Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Du måste också hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) för att skapa egna rapporter. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatauppsättning
 När du skapar rapporten i Power BI Desktop, anger du datakällan eller webbtjänsten som innehåller de data som är relaterade till listan som du vill associera med rapporten. Om du vill skapa en rapport för försäljningslistan ser du till att datauppsättningen innehåller information om försäljning.  
@@ -50,7 +49,7 @@ På samma sätt, om du vill att bakgrunden för rapporten ska blandas med bakgru
 Du kan skapa en rapport med flera sidor med Power BI. Bilder som du vill ska visas i [!INCLUDE[d365fin](includes/d365fin_md.md)]-listsidor måste finnas på den första sidan i rapporten i Power BI.  
 
 > [!NOTE]  
->  Power BI faktaboxen kan bara visa den första sidan i en rapport. Om du vill visa andra sidor måste du expandera rapporten och använda flikarna längst ned i rapporten för att navigera till andra sidor.  
+> Power BI faktaboxen kan bara visa den första sidan i en rapport. Om du vill visa andra sidor måste du expandera rapporten och använda flikarna längst ned i rapporten för att navigera till andra sidor.  
 
 ## <a name="saving-your-report"></a>Spara rapporten
 
@@ -72,7 +71,9 @@ Det här avsnittet beskriver en lösning för de vanligaste problemen som kan up
 Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten och uppdatera sedan listsidan.  
 
 ## <a name="see-also"></a>Se även
+
+[Aktivera affärsdata för Power BI](admin-powerbi.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Komma igång](product-get-started.md)    
-[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Komma igång](product-get-started.md)  
+[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Ekonomi](finance.md)  

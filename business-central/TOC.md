@@ -106,6 +106,7 @@
 ### [Arbeta med ansvarsenheter](inventory-responsibility-centers.md)
 ### [Konfigurera platser](inventory-how-setup-locations.md)
 ### [Registrera nya artiklar](inventory-how-register-new-items.md)
+### [Kopiera befintliga artiklar till Skapa nya artiklar](inventory-how-copy-items.md)
 ### [Om artikeltyper](inventory-about-item-types.md)
 ### [Ställa in måttenheter för artikel](inventory-how-setup-units-of-measure.md)
 ### [Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Administration
 ## [Översikt](admin-setup-and-administration.md)
-## [Förstå profiler och rollcenter](admin-users-profiles-roles.md)
+## [Förstå användare, roller och profiler](admin-users-profiles-roles.md)
 ## [Hantera användare och behörigheter](ui-how-users-permissions.md)
 ## [Klassificera datakänslighet](admin-classifying-data-sensitivity.md)
 ## [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Utfärda leveranspåminnelser](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Skriva ut testrapporter för leveranspåminnelser](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Allmänt
-#### [Kopiera befintliga artiklar till nya artiklar](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Skriva ut information om redovisningsinställningar](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Skriva ut försäljnings- och inköpsorder under batch-bokföring](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [Använda CODA-utdrag](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [Automatiskt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA bankutdrag](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [Hämta CODA-filer från en Isabel-server](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Belgisk elektronisk bankverksamhet](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Ställ in elektronisk bankverksamhet](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Ställ in export av protokoll](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Skapa betalningsjournalmallar och journaler](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Testa elektroniska betalningar](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Generera betalningsförslag](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Överföra betalningsfiler till en Isabel-server](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [Importera CODA-bankutdrag](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Hantera elektroniska betalningsrader](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [Manuellt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Exportera och bokföa autogireringar](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Generera autogireringsförslag](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Sammanfattning av betalningsrader och allmänna journalrader](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [Arkivera IBS-loggposter](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Grundläggande ekonomi
 #### [Använda och ta bort redovisningstransaktioner](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Skapa bokslut](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Inkludera med företagets registreringsnummer på rapporter och inköpsrapporter](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Skriva ut försäljnings- och inköpsorder under batch-bokföring](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Skriva ut information om redovisningsinställningar](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Kopiera befintliga artiklar till nya artiklar](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certifiering av Business Central för tyska marknaden (dokumentet är på tyska)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Island
@@ -1242,7 +1237,7 @@
 #### [Så här släpper, spårar och skriver du av anläggnings till gångar](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [Så här visar du bokförda transaktioner på en anläggningstillgång](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [Så här: skapa ett konto för immateriella tillgångar](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [Så här: ta hänsyn till kostnaden för att avyttra en anläggningstillgång](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Så här: ta hänsyn till kostnaden för att avyttra en anläggningstillgång](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Anläggningstillgångar](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### Moms
 #### [Översikt](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [Skriva ut testrapporter för leveranspåminnelser](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Lager
 #### [Schweizisk lagerhantering](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Kopiera befintliga artiklar till nya artiklar](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Skriva ut en Lager plockningslista från en försäljningsorder](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Allmänt    
 #### [Importera schweiziska postnummer](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)

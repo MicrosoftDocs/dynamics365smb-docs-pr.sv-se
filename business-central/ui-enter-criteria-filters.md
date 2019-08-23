@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629924"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740508"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortera, söka och filtrera listor
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -128,10 +128,15 @@ Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
 
 ## <a name="FilterCriteria"> </a>Filterkriterier och symboler
-När du anger kriterier kan du använda alla siffror och bokstäver som du normalt kan använda i fältet. Dessutom kan du använda specialtecken som du vill filtrera resultatet ytterligare. I tabellen nedan visas de symboler som kan användas i filter. För datum och tid kan du också se [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md) för mer detaljerad information.
+När du anger kriterier kan du använda alla siffror och bokstäver som du normalt kan använda i fältet. Dessutom kan du använda specialtecken (eller operatorer) som du vill filtrera resultatet ytterligare. I tabellen nedan visas de symboler som kan användas i filter. För datum och tid kan du också se [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md) för mer detaljerad information.
 
 > [!IMPORTANT]  
->  Det kan finnas fall där fältvärdena innehåller dessa symboler och du vill filtrera efter de. Genom att ibland behöva du inkludera det filteruttryck som innehåller symbolen med citattecken (”). Om du exempelvis vill filtrera poster som börjar med texten till exempel *S&R* är filteruttrycket `'S&R*'`.  
+>  Det kan finnas fall där fältvärdena innehåller dessa symboler och du vill filtrera efter de. Genom att ibland behöva du inkludera det filteruttryck som innehåller symbolen med citattecken (”). Om du exempelvis vill filtrera poster som börjar med texten till exempel *S&R* är filteruttrycket `'S&R*'`.
+
+I följande avsnitt beskrivs hur du använder olika operatorer.
+
+> [!NOTE]
+> Om det finns fler än 200 operatorer i ett enda filter, systemet grupperar automatiskt några uttryck inom parenteser `()` i syfte att behandla det. Det påverkar inte filtret eller resultaten.  
 
 ### <a name="-interval"></a>(..) Intervall
 
@@ -145,7 +150,7 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 |`23..`|Från 23 innevarande månad, innevarande år 0:00:00 till tidsperiodens slut|  
 |`22..23`|Från 22 innevarande månad, innevarande år 0:00:00 till 23 innevarande månad, innevarande år 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Antingen eller  
+### <a name="124-eitheror"></a>(&#124;) Antingen eller 
 
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  

@@ -1,22 +1,21 @@
 ---
 title: Förstå hur du bokför inköpsdokument | Microsoft Docs
-description: Få mer information om de olika bokföringsfunktionerna för att bokföra inköpsdokument.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Lära dig olika bokföringsfunktioner för att bokföra inköpsdokument och hur du kan uppdatera bokförda dokument.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247862"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796924"
 ---
 # <a name="posting-purchases"></a>Bokföra inköp
 I **Bokföringsgrupp** i ett inköpsdokument kan du välja mellan följande bokföringsfunktioner:
@@ -45,7 +44,9 @@ Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut
 När bokföringen är slutförd tas de bokförda inköpsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidor som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktioner**, **Inleverans** och **Bokförda inköpsfakturor**.
 
 ## <a name="see-also"></a>Se även
+
 [Inköp](purchasing-manage-purchasing.md)  
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
+[Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Med hjälp av Berätta för att hitta funktioner och Information](ui-search.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

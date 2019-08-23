@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247192"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796717"
 ---
 # <a name="administration"></a>Administration
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
@@ -33,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Förstå profiler och rollcenter](admin-users-profiles-roles.md)|  
+|Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Förstå profiler (roller) och rollcenter](admin-users-profiles-roles.md)|  
 |Tilldela behörigheter till användare, ändra behörighetsgrupper och gruppera användare per behörigheter.|[Hantera användare och behörigheter](ui-how-users-permissions.md)|
 |Klassificera datakänslighetsnivåer för fält så att du kan svara på begäranden från datasubjekt som rör deras personuppgifter.|[Klassificera datakänslighet](admin-classifying-data-sensitivity.md)|
 |Svara på begäranden från datasubjekt som berör deras personuppgifter.|[Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)|

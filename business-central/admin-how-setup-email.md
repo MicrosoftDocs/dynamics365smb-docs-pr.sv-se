@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.author: edupont
-ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f1afacec447e645136321b73b6dd3fab8b36fe0
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245841"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740485"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration
 För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du fylla i fälten på sidan **SMTP-postinställning**.
@@ -32,6 +32,36 @@ Du kan antingen skapa e-post skapar du manuellt eller också kan du få hjälp m
 3. Du kan också välja åtgärden **Använd Office 365-serverinställningar** för att infoga information som redan har definierats för din Office 365-prenumeration.
 4. När alla fälten är korrekt ifyllda, väljer du åtgärden **Testa e-postinställningar**.
 5. När testet lyckas stänger du sidan.
+
+## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Använda en ersättningsavsändaradress i utgående e-postmeddelanden
+Alla utgående e-postmeddelanden från [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att använda standardadressen för det konto som du har angett på sidan SMTP-e-postinställning, som beskrivs ovan. Du kan emellertid använda funktionerna **Skicka som** eller **Skicka på uppdrag av** på Exchange-servern för att ändra avsändaradressen för utgående meddelanden. [!INCLUDE[d365fin](includes/d365fin_md.md)] använder standardkontot för att autentisera till Exchange, men kommer antingen att ersätta avsändarens adress med den som du anger eller ändra den med "för". 
+
+Nedan följer exempel på hur skicka och skicka för ombud används i [!INCLUDE[d365fin](includes/d365fin_md.md)].:
+
+ * När du skickar dokument som inköps- eller försäljningsorder till leverantörer och kunder vill du kanske visa dem för att komma från adressen _noreply@yourcompanyname.com_. 
+ * När arbetsflödet skickar en godkännandeförfrågan via e-post med hjälp av e-postadressen till den som efterfrågar meddelandet.
+
+> [!Note]
+> Du kan bara använda ett konto för att ersätta avsändaradresser. Det innebär att du inte kan ha en ersättningsadress för att inköpsprocesser, och en annan för försäljningsprocesser.
+
+### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Att ange ersättningsavsändaradress för alla utgående e-postmeddelanden
+1. I **administrationscenter för Exchange** för ditt Office 365 konto hittar du den postlåda som ska användas som ersättningsadress, kopiera sedan eller gör ennotering av adressen. Om du behöver en ny adress går du till administrationscentret för Microsoft 365 för att skapa en ny användare och ställa in postlådan. 
+2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] väljer du den ![glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **SMTP-postinställningar** och välj sedan relaterad länk.
+3. I fältet **Skicka som** anger du ersättningsadressen.
+4. Kopiera eller anteckna adressen i fältet **användar-ID**.
+5. I **administrationscenter för Exchange** hittar du postlådan som ska användas som ersättningsadress och anger sedan adressen från fältet **Användar-ID** i **Skicka som**. Mer information finns i [Hantera behörigheter förmottagare](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+
+### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Så här använder du ersättningsadressen i arbetsflöde för godkännande
+1. I [!INCLUDE[d365fin](includes/d365fin_md.md)] väljer du den ![glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **SMTP-postinställningar** och välj sedan relaterad länk.
+2. Kopiera eller anteckna adressen i fältet **användar-ID**.
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användarinställningar för godkännande** och välj sedan relaterad länk.
+4. I **administrationscenter för Exchange** hittar du postlådan för varje användare som finns på sidan **Användarinställningar för godkännande** och i fältet **Skicka som** anger du adressen från fältet **Användar-ID** för sidan **SMTP-postinställningar** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Hantera behörigheter förmottagare](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. I [!INCLUDE[d365fin](includes/d365fin_md.md)] väljer du den ![glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **SMTP-postinställningar** och välj sedan relaterad länk.
+6. Aktivera ersättning genom att aktivera växling **Tillåt avsändarens ersättning**.
+
+> [!Note]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] avgör vilken adress som ska visas i följande ordning: <br><br> 1. Adressen som anges i fältet **e-post** på sidan **Användarinställningar för godkännande** för meddelanden i ett arbetsflöde. <br> 2. Adressen som anges i fältet **skicka som** på sidan **SMTP-postinställningar**. <br> 3. Adressen som anges i fältet **Användar-ID** på sidan **SMTP-postinställningar**.
+
 
 ## <a name="see-also"></a>Se även  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
