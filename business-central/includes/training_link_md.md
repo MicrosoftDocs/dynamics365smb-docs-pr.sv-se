@@ -1,1 +1,1 @@
-<span data-ttu-id="304eb-101">Hämta [utbildning!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="304eb-101">Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span></span>
+<span data-ttu-id="1f9aa-101">Hämta [utbildning!](/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="1f9aa-101">Get [training!](/dynamics365/get-started/training/)</span></span>
