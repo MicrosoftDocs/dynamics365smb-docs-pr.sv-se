@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796924"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921344"
 ---
 # <a name="posting-purchases"></a>Bokföra inköp
 I **Bokföringsgrupp** i ett inköpsdokument kan du välja mellan följande bokföringsfunktioner:
@@ -43,8 +43,10 @@ Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut
 
 När bokföringen är slutförd tas de bokförda inköpsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidor som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktioner**, **Inleverans** och **Bokförda inköpsfakturor**.
 
-## <a name="see-also"></a>Se även
+Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **Betalningsreferens**. Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Se även
+[Redigera bokförda dokument](across-edit-posted-document.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

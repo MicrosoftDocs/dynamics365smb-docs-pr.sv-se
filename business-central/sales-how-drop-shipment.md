@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7a87023445ea10aa19cc0cc4f60d76ce4cf3e365
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9555aabe515757b71426ddca2f90b37e561f96e2
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251232"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985820"
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
 Direktleverans innebär leverans av artiklar från någon av företagets leverantörer direkt till någon av företagets kunder.
 
-När en försäljningsorder är markerad för direktleverans, och du skapar en inköpsorder där du anger kunden i fältet **Förs.kundnr.** kan du länka de två dokumenten och därmed instruera leverantören att leverera direkt till kunden.
+När en försäljningsorder har markerats för direktleverans och du skapar en inköpsorder som anger kunden i fältet **Leverans**, **Kundadress** kan du länka de två dokumenten och på så sätt instruera leverantören att leverera direkt till kunden.
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Så här skapar du försäljningsorder för direktleveranser
 För att förbereda en direktleverans skapar du en försäljningsorder för en artikel som vanligt, förutom att du måste ange på försäljningsraden att försäljningen kräver direktleverans.
@@ -34,7 +34,8 @@ För att förbereda en direktleverans skapar du en försäljningsorder för en a
 Om du vill förbereda en direktleverans för den artikel som ska säljas kan du skapa en inköpsorder som vanligt förutom att du måste ange på inköpsordern att den ska levereras till din kund och inte till dig själv.
 
 1. Skapa en inköpsorder. Fyll inte i några fält på raderna. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
-2. I fältet **Förs.kundnr.** markerar du kunden som du säljer till.
+2. Välj **Kundadress** i fältet **Leverans**.
+3. I fältet **Kund** markerar du kunden som du säljer till.
 3. Välj åtgärden **Direktleverans** och välj sedan åtgärden **Hämta förs.order**.
 4. På sidan **Försäljningslista** väljer du den försäljningsorder som du förberedde i [Så här skapar du försäljningsorder för direktleveranser](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Välj knappen **OK**.

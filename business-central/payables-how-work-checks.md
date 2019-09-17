@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: ab769498741a8da17b64eebb4bccf9e177d95e37
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701204"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985769"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
@@ -24,7 +24,7 @@ I följande procedur beskrivs hur du betalar en leverantör med en datorcheck so
 
 Du kan betala med två typer av checkar. För båda typerna måste fälten **motkontotyp** eller **kontotyp** innehålla **bankkonto**.
 
-- **Datorcheck** Välj alternativet om du vill att programmet ska upprätta, och senare skriva ut, en check på beloppet på utbetalningsjournalens rad. Du måste skriva ut checkarna, innan du kan bokföra journalraderna. Du kan bara välja **Datorcheck** om
+- **Datorcheck** Välj alternativet om du vill att programmet ska upprätta, och senare skriva ut, en check på beloppet på utbetalningsjournalens rad. Du måste skriva ut checkarna, innan du kan bokföra journalraderna.
 - **Manuell check** Välj alternativet om du vill skriva en check för hand och vill att programmet ska upprätta en motsvarande checktransaktion för beloppet. Med det här alternativen kan du inte skriva ut checkar.
 
 > [!NOTE]  

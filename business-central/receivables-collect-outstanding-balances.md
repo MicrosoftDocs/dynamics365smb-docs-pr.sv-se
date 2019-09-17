@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252763"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985892"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 Betalningshanteringen består i att kontrollera om kunderna betalar i tid. Om kunderna har förfallna betalningar, kan du börja med att skicka kundkontoutdragsrapporten som betalningspåminnelse. Alternativt kan du skicka betalningspåminnelser.
@@ -179,7 +179,7 @@ Dröjsmålsräntor kan antingen beräknas med metoden genomsnittligt saldo per d
 Dessutom är varje kod i tabellen Räntevillkor kopplad till en undertabell, nämligen Räntetext. För respektive uppsättning av räntevillkor kan du definiera en inledande och/eller avslutande text som kan tas med i räntefakturan.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Räntevillkor** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs.  
+2. Fyll i fälten om det behövs.
 3. Om du vill använda fler än en uppsättning räntevillkor, anger du en kod för varje kombination.
 
     För varje räntevillkor kan du ange särskilda villkor, vilka kan inkludera ytterligare avgifter i både BVA och i utländsk valuta. Du kan definiera många räntefaktureringsavgifter i utländsk valuta för respektive kod på sidan **räntevillkor**.

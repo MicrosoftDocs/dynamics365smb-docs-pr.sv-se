@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726865"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917374"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Med hjälp av Dynamics 365 for Sales från Business Central
 Om du använder Dynamics 365 for Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -65,7 +65,7 @@ Så här kontrollerar du status på enskilda projekt i en fullständig synkronis
 Från sidan Konfigurera anslutning till **Microsoft Dynamics 365** kan du få information om fullständig synkronisering när som helst. Här kan du också öppna sidan **Tabellmappningar för integrering** för att visa detaljerad information om tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] och i Sales som måste synkroniseras.
 
 ## <a name="handling-sales-order-data"></a>Hantering av försäljningsorderdata
-Försäljningsorder som människor skickar i [!INCLUDE[crm_md](includes/crm_md.md)] överförs till [!INCLUDE[d365fin](includes/d365fin_md.md)] om du väljer kryssrutan **Automatiskt skapa försäljningsorder** på sidan **Microsoft Dynamics 365 konfigurera anslutning**.
+Försäljningsorder som människor skickar i [!INCLUDE[crm_md](includes/crm_md.md)] överförs automatiskt till [!INCLUDE[d365fin](includes/d365fin_md.md)] om du väljer kryssrutan **Automatiskt skapa försäljningsorder** på sidan **Microsoft Dynamics 365 konfigurera anslutning**.
 Alternativt kan du manuellt konvertera skickade försäljningsorder från [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av åtgärden **skapa i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på sidan **försäljningsorder - Dynamics 365 for Sales**.
 På sådana försäljningsorder överförs fältet **Namn** på den ursprungliga ordern och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -74,6 +74,9 @@ Detta fungerar även om den ursprungliga försäljningsordern innehåller produk
 Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omfattande, skapas en ytterligare försäljningsorderrad av typen **Kommentar** för att hålla hela texten på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Uppdateringar av fält för försäljningsorderhuvud, till exempel senaste utleveransdatum eller begärt leveransdatum som har mappats i FÖRSÄLJNINGSORDER-ORDER **Tabellmappningar för integrering** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> Periodisk synkronisering som baseras på FÖRSÄLJNINGSORDERORDER i **Tabellmappningar för integrering** fungerar bara när integration av försäljningsorder har aktiverats. Mer information finns i [Ansluten till Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Enbart försäljningsorder som skapats från försäljningsorder som har skickats i [!INCLUDE[crm_md](includes/crm_md.md)] synkroniseras. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

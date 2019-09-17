@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446951"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985745"
 ---
 # <a name="managing-contacts"></a>Hantera kontakter
-Olika grupper inom ditt företag har affärsrelationer med olika företag. En säljare kanske till exempel regelbundet träffar potentiella kunder och registrerar resultatet av dessa besök i slutet på veckan.
-
-Alla externa enheter som du har affärsrelationer med (till exempel kunder, potentiella kunder, leverantörer, advokater och konsulter) bör registreras som kontakter. Om dessa data registreras på en central plats kan alla grupper i företaget visa och använda den här informationen på ett effektivt sätt. Kommunikationen med kontakterna lyckas bättre om alla uppgifter är lätt tillgängliga. En marknadsförare kanske till exempel vill veta vilka andra produkter som en viss kund har köpt innan han eller hon försöker intressera kunden för en ny produkt.
+Medarbetarna i ditt företag träffar regelbundet potentiella affärsrelationer som kan utvecklas till formella affärsrelationer. Alla sådana externa kontakter och deras detaljinformation bör registreras i systemet så att kommunikationen blir bättre och att de enkelt kan omvandlas till formella kund-, leverantörs -eller bankrelationer.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 

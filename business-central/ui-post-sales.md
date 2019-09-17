@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796901"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921436"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
-I **Bokföringsgrupp** i ett försäljningsdokument kan du välja mellan följande bokföringsfunktioner:
+Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan följande bokföringsfunktioner:
 
 * **Bokföra**
-* **Testa rapport**
+* **Bokför och nytt**
 * **Bokför och skicka**
-* **Bokför och skriv ut**
-* **Bokför och e-posta**
-* **Bokför batch-jobb**
 * **Förhandsgranska bokföring**
+* **Fakturautkast**
+* **Proformafaktura**
+* **Testa rapport**
 
 När du har fyllt i alla raderna och skrivit in all information på försäljningsordern kan du bokföra den. Här skapas en leverans och en faktura.
 
@@ -41,9 +41,11 @@ För varje orderrad skapas en artikeltransaktion i tabellen **Artikeltransaktion
 
 När bokföringen är slutförd tas de bokförda försäljningsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidorna som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktion**, **Bokförda försäljningsutleveranser** och **Bokförda försäljningsfakturor**.  
 
-## <a name="see-also"></a>Se även
+Du kan redigera vissa fält i bokförda försäljningsdokument, till exempel fältet **Godsupplysningsnr**. . Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
+[Redigera bokförda dokument](across-edit-posted-document.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md)  
 [Med hjälp av Berätta för att hitta funktioner och Information](ui-search.md)  

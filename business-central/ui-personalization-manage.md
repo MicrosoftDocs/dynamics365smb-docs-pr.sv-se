@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250601"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887743"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Hantera anpassning som administratör
 
@@ -71,6 +71,9 @@ Du kan förhindra alla användare som tillhör en viss profil från att anpassa 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler** och välj sedan relaterad länk.
 2. Välj den profil i listan som du vill ändra.
 3. Välj kryssrutan **Inaktivera anpassning** och välj sedan knappen **OK**.
+
+> [!NOTE]  
+> I Business Central online kan du bara inaktivera anpassningar för en klientprofil, inte för systemprofiler. 
 
 ## <a name="to-clear-user-personalizations"></a>Så här rensar du användaranpassning
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cde720526fdad4c9e4352f08f649d6bd3fc51540
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f79466819826185c501677e1d4a2c1dee74ddf3a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240959"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970861"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Söka efter dimensionskombinationer
 När du stänger en sida när du har redigerat en uppsättning med dimensioner utvärderar [!INCLUDE[d365fin](includes/d365fin_md.md)] om den redigerade uppsättningen med dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras.  
@@ -77,5 +77,4 @@ EXIT(DimSet.ID);
  [Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)   
  [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)   
  [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
- [Designdetaljer: Kodenhet 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
- [Designdetaljer: Kodexempel på ändrade mönster i ändringar](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

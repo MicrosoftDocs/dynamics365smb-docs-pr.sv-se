@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 20ef2d88bb5f96326962efb53fd724b8fc706dc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248499"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917443"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystems)
 
 > [!NOTE]
 > I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerar ADCS endast i installationer på plats. En Microsoft-partner kan dock få det att fungera i online-distribution med hjälp av PowerApps eller liknande.
 
-Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering.  
+Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering. ADCS inbegriper vanligen streckkodsskanning. 
 
 Om du ska använda ADCS måste du ge varje artikel i distributionslagret en artikelidentifierare. Du måste även lägga upp miniformulär, handdatorfunktioner, datautbyten och specificeras inställningar för fältet som kontrollerar ADCS. Du anger om du ska använda ADCS på lagerställekortet för ett lager.
 

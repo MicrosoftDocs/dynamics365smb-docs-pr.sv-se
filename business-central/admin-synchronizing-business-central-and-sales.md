@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629625"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917466"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkroniserar data i Business Central och Dynamics 365 for Sales
 När du integrerar [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du bestämma om du vill synkronisera data i valda fält för i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (till exempel kunder, kontakter och säljare) med motsvarande poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på vilken typ av post kan du synkronisera data från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ Följande tabell beskriver regler som kontrollerar synkroniseringen mellan appar
 |Förs.priser|Sales-priser som har försäljning skriver kundprisgrupp och har definierats försäljningskod synkroniseras med [!INCLUDE[crm_md](includes/crm_md.md)]-prislistrader|
 |Affärsmöjligheter|Affärsmöjligheter som ska synkroniseras med [!INCLUDE[crm_md](includes/crm_md.md)]-affärsmöjligheter. Säljarkod värdet definierar ägare till den kopplade enheten i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Bokförda försäljningsfakturor|Bokförda försäljningsfakturor som är synkroniserade med försäljningsfakturor. Innan du kan synkronisera en faktura, är det bättre att synkronisera alla andra enheter som kan delta i fakturan från säljare till prislistor. Säljarkodvärdet i fakturarubriken definierar ägare till den kopplade enheten i Sales.|
-|Försäljningsorder|Släppta försäljningsorder (rubriker) synkroniseras med försäljningsordern. Innan en order kan synkroniseras, är det bättre att synkronisera alla andra enheter som kan delta i ordern från säljare till prislistor. Säljarkodvärdet i orderrubriken definierar ägare till den kopplade enheten i Sales.|  
+|Försäljningsorder|När integrering av försäljningsorder har aktiverats synkroniseras försäljningsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)] som har skapats från skickade försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] med försäljningsorder i INCLUDE SALES när de släpps. Innan du synkroniserar order bör du först synkronisera alla enheter som ingår i ordern, till exempel säljare och prislistor. Fältet Säljarkod i orderrubriken definierar ägare till den kopplade enheten i [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Se även  
 [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)   

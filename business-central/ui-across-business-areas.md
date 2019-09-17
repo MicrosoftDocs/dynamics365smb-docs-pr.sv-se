@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250877"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921413"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
@@ -40,7 +40,8 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 |Bifoga bilder, dokument och andra typer av filer till alla kort, till exempel artikelkort och projektkort och du kan bifoga filer till alla typer av försäljnings- och inköpsdokument.|[Bifoga filer till kort och dokument](across-attach-document-master-data.md)|
 |Arbeta med Business Central-data i Excel.|[Exportera affärsdata till Excel](about-export-data.md)|
 |Förstå vad som händer när du väljer åtgärden **Bokför**.|[Bokför dokument och journaler](ui-post-documents-journals.md)|
-|Granska resultatet av bokföringen innan du bokför.|[Förhandsgranska resultat](ui-how-preview-post-results.md)| 
+|Granska resultatet av bokföringen innan du bokför.|[Förhandsgranska resultat](ui-how-preview-post-results.md)|
+|Redigera valda fält i bokförda försäljnings- eller inköpsdokument.|[Redigera bokförda dokument](across-edit-posted-document.md)| 
 |Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
 | Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Schemalägga en rapportkörning](ui-work-report.md#ScheduleReport) |
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|

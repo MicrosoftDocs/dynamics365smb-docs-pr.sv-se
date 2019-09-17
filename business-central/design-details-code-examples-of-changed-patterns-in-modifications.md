@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243440"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970907"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designdetaljer: Kodexempel på ändrade mönster i ändringar
 Det här avsnittet innehåller kodexempel för att visa ändrade mönster i dimensionskodändring och flytt för fem olika scenarier. Detta jämför kodexemplen i tidigare versioner med kodexemplen i Business Central.
@@ -197,4 +197,3 @@ GetSalesHeader;
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)   
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
-[Designdetaljer: Kodenhet 408 Dimension Management](design-details-codeunit-408-dimension-management.md)
