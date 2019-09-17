@@ -217,9 +217,9 @@
 ## [Bulkfakturera för Microsoft Bookings](finance-bookings.md)
 ## [Använda samma Office 365-konto i Business Central och i Microsoft Invoicing](about-reuse-company-invoicing.md)
 ## [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)
-## [Ställa in e-post](admin-how-setup-email.md)
+## [Konfigurera e-post](admin-how-setup-email.md)
 ## [Skapa nummerserier](ui-create-number-series.md)
-## [Lägga upp baskalendrar](across-how-to-assign-base-calendars.md)
+## [Skapa baskalendrar](across-how-to-assign-base-calendars.md)
 
 # Allmänna affärsfunktioner
 ## [Översikt](ui-across-business-areas.md)
@@ -234,6 +234,7 @@
 ## [Exportera affärsdata till Excel](about-export-data.md)
 ## [Bokför dokument och journaler](ui-post-documents-journals.md)
 ## [Förhandsgranska resultat](ui-how-preview-post-results.md)
+## [Redigera bokförda dokument](across-edit-posted-document.md)
 ## [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
 ## [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ## [Låta Business Central föreslå värden](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Översikt](marketing-manage-sales-opportunities.md)
 ### [Skapa cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Skapa affärsmöjligheter](marketing-how-create-opportunities.md)
-### [Behandla försäljningsmöjligheter](marketing-processing-sales-opportunities.md)
-## [Hantera marknadsföringskampanjer](marketing-campaigns.md)
-## Engagera kunderna via Dynamics 365 for Sales
-### [Med hjälp av Dynamics 365 for Sales från Business Central](marketing-integrate-dynamicscrm.md)
+### [Spåra utbyten av e-postmeddelanden](marketing-set-up-email-logging.md)
+
+### [Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md)
+### [Konfigurera e-postloggning](marketing-set-up-email-logging.md)
+## [Använda profilfrågeformulär för att klassificera affärskontakter](marketing-create-contact-profile-questionnaire.md)
+## [Med hjälp av Dynamics 365 for Sales från Business Central](marketing-integrate-dynamicscrm.md)
 ### [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Visa status för en synkronisering](admin-how-to-view-synchronization-status.md)
 
