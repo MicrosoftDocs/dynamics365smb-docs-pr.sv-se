@@ -1,27 +1,27 @@
 ---
 title: Hur du anger du data i fält | Microsoft Docs
 description: Lär dig mer om allmänna funktioner som hjälper dig att ange data i fälten.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
-ms.author: jswymer
-ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621166"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000793"
 ---
 # <a name="entering-data"></a>Ange data
 
 Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. Dessa allmänna funktioner för dataregistrering beskrivs i den här artikeln.  
 
-<!-- The examples in this article use the demonstration data.-->
+I exemplen nedan används demonstrationsdata.
 
 ## <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -155,9 +155,9 @@ I stället för att skriva in ett visst datum kan du skriva in någon av dessa k
 |Kod|Resultat|  
 |--------------|----------------|  
 |d|Det här anger dagens datum (detta är datorns systemdatum).|  
-|p|Det här anger en bokföringsperiod där `p`innebär att den första bokföringsperiod, `p2` innebär det andra kontot, och så vidare. |
+|p|Det här anger en bokföringsperiod där p innebär den första bokföringsperioden, p2 innebär den andra bokföringsperioden och så vidare. |
 |a|Detta anger arbetsdatumet som har lagts upp i programmet. Om du vill ändra arbetsdatumet, [ändra grundläggande inställningar](ui-change-basic-settings.md). Det är praktiskt att använda arbetsdatum om du har många transaktioner med ett annat datum än dagens datum.|
-|c|Detta anger att datumet efter `c`är ett avslutsdatum, till exempel `C123101`.|  
+|a|Detta anger att datumet efter a är ett avslutsdatum, till exempel A120131.|  
 
 ## <a name="entering-times"></a>Ange tider
 
@@ -186,11 +186,11 @@ Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en
 |Transaktion|Tolkning|  
 |---------------|------------------------|  
 |021213 132455|02-12-13 13:24:55|  
-|02-12-1 10|02-12-01 10:00:00|  
-|02.12.1 5|02-12-01 05:00:00|  
-|02.12.1|02-12-01 00:00:00|  
-|11 12|11-innevarande månad-innevarande år 12:00:00|  
-|11 12 12|11-12-innevarande år 12:00:00|  
+|1-12-02 10|02-12-01 10:00:00|  
+|1.12.02 5|02-12-01 05:00:00|  
+|1.12.02|02-12-01 00:00:00|  
+|11 12|innevarande år-innevarande månad-11 12:00:00|  
+|1112 12|innevarande år-12-11 12:00:00|  
 |d eller dagens datum|dagens datum 00:00:00|  
 |d tid|dagens datum aktuell tid|  
 |d 10:30|dagens datum 10:30:00|  
@@ -207,7 +207,6 @@ Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en
 |ti 03:03:03|tisdag i innevarande vecka 03:03:03|  
 
 ## <a name="entering-duration"></a>Ange varaktighet
-
 Du anger varaktigheten som en siffra följd av en enhet.  
 
 Här följer några exempel.  
@@ -226,86 +225,6 @@ Här följer några exempel.
  Om du vill veta vilken enhet som används i ett varaktighetsfält kan du ange en siffra och kontrollera vilken enhet den konverteras till.  
 
  Numret 5 konverteras till 5 timmar om enheten är timmar.  
-
-<!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
- You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
-
-|**Meaning**|**Sample expression**|**Entries included**|  
-|-----------------|---------------------------|--------------------------|  
-|**Equal to**|12 15 00|Only those posted on 12 15 00.|  
-|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|  
-|**Either/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|  
-
- You can also combine the various format types.  
-
-|**Sample expression**|**Entries included**|  
-|---------------------------|--------------------------|  
-|12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
-
-## Using Date Formulas
-
- A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
-
-> [!NOTE]  
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
-
- Here are some examples of how date formulas can be used:  
-
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
-
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
-
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
-
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
-
-|||  
-|-|-|  
-|C|Current|  
-|D|Day(s)|  
-|W|Week(s)|  
-|M|Month(s)|  
-|Q|Quarter(s)|  
-|Y|Year(s)|  
-
- You can construct a date formula in three ways.  
-
- The following example shows how current plus a time unit.  
-
-|||  
-|-|-|  
-|CW|Current week|  
-|CM|Current month|  
-
- The following example shows how a number and a time unit. A number cannot be larger than 9999.  
-
-|||  
-|-|-|  
-|10D|10 days from today|  
-|2W|2 weeks from today|  
-
- The following example shows how a time unit and a number.  
-
-|||  
-|-|-|  
-|D10|The next 10th day of a month|  
-|WD4|The next 4th day of a week (Thursday)|  
-
- The following example shows how you can combine these three forms as needed.  
-
-|||  
-|-|-|  
-|CM+10D|Current month + 10 days|  
-
- The following example shows how you can use a minus sign to indicate a date in the past.  
-
-|||  
-|-|-|  
-|-1Y|1 year ago from today|
-
-[!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
 
 ## <a name="see-also"></a>Se även  
  [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
