@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621074"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303655"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
 Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
@@ -162,6 +162,7 @@ Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Varians](design-details-variance.md)   
  [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)   
- [Designdetaljer: artikelkoppling](design-details-item-application.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
+ [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
+ [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

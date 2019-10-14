@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246023"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307450"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
 Monteringsorderbokföring baserad på samma principer som när du bokför de liknande aktiviteterna försäljningsorder och produktionförbrukning/utflöde. Principerna kombineras genom att monteringsorder har sitt eget användargränssnitt för bokföring, liknande det för försäljningsorder, medan den faktiska transaktionsbokföringen sker i bakgrunden som direkta artikel- och resursjournalbokföringar, som det för produktionsförbrukning, utflöde och kapacitet.  
@@ -96,11 +96,11 @@ Det aktiveras av följande datastruktur.
 
 Dessutom fylls bokföringsmallfält på monteringsorderhuvuden och monteringsorderrader i som standard enligt följande.  
 
-|Enhet|Typ|Bokföringsmall|Produktbokföringsmall|  
+|Enhet|Typ|Bokföringsmall|Redovisnings- Produktbokföringsmall|  
 |------------|----------|-------------------|------------------------------|  
-|Monteringsorderhuvud|Artikel|Lagerbokföringsmall|Produktbokföringsmall|  
-|Monteringsorderrad|Artikel|Lagerbokföringsmall|Produktbokföringsmall|  
-|Monteringsorderrad|Resurs||Produktbokföringsmall|  
+|Monteringsorderhuvud|Artikel|Lagerbokföringsmall|Redovisnings- Produktbokföringsmall|  
+|Monteringsorderrad|Artikel|Lagerbokföringsmall|Redovisnings- Produktbokföringsmall|  
+|Monteringsorderrad|Resurs||Redovisnings- Produktbokföringsmall|  
 
 Därmed bokförs endast faktiska kostnader till redovisningen, och inga interimskonton fylls i från monteringsorderbokföring. Mer information finns i [detaljer: konton i redovisningen](design-details-accounts-in-the-general-ledger.md).  
 

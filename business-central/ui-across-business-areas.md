@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921413"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315690"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
@@ -37,11 +37,11 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 |Arkivera försäljnings- och inköpsorder, offerter, försäljningsreturorder och avropsorder, och du kan använda arkiverade dokumentet för att återskapa dokumentet som det arkiverades från.|[Arkivera dokument](across-how-to-archive-documents.md)|
 | Skapa standardtextkoder så att du kan utöka standardtexten genom att lägga till extra rader, och skapa villkor för hur extraraderna kan användas. |[Lägg till utökad artikeltext](ui-how-define-ext-text.md) |
 |Skapa uppgifter som påminner dig om arbete som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.|[Definiera användarens uppgifter](across-user-tasks.md)|
-|Bifoga bilder, dokument och andra typer av filer till alla kort, till exempel artikelkort och projektkort och du kan bifoga filer till alla typer av försäljnings- och inköpsdokument.|[Bifoga filer till kort och dokument](across-attach-document-master-data.md)|
 |Arbeta med Business Central-data i Excel.|[Exportera affärsdata till Excel](about-export-data.md)|
 |Förstå vad som händer när du väljer åtgärden **Bokför**.|[Bokför dokument och journaler](ui-post-documents-journals.md)|
+|Bokföra flera försäljnings- eller inköpsdokument direkt eller som planerade.|[Bokföra flera dokument på samma gång](ui-batch-posting.md)|  
 |Granska resultatet av bokföringen innan du bokför.|[Förhandsgranska resultat](ui-how-preview-post-results.md)|
-|Redigera valda fält i bokförda försäljnings- eller inköpsdokument.|[Redigera bokförda dokument](across-edit-posted-document.md)| 
+|Redigera valda fält i bokförda försäljnings- eller inköpsdokument.|[Redigera bokförda dokument](across-edit-posted-document.md)|
 |Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
 | Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Schemalägga en rapportkörning](ui-work-report.md#ScheduleReport) |
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250325"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315714"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
 
@@ -21,13 +21,21 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Att skicka regelnotifiering i LCS
 
-1. Gå till https://lcs.dynamics.com och logga in. Du visas de projekt som du har tillgång till
+1. Gå till https://lcs.dynamics.com och logga in  
 
-2. Markera projektet **regelnotifieringar - globala**. Detta öppnar projektet och visa olika saker som är relaterade till det här projektet
+    Du visas de projekt som du har tillgång till
 
-3. Markera **Notifieringstjänst** till höger i avsnittet **Fler verktyg**. Du visas en lista över meddelanden med rubriken **Dynamics skicka regelnotifieringar**
+2. Välj projektet **regleringsnotifieringar - globalt**
 
-4. Du kan lägga till en ny notifiering genom att klicka på plustecknet **(+)** längst upp i listan. Detta ger dig en guide i 4 steg för att skapa notifieringen. Guiden har följande steg:
+    Då öppnas projektet och en mängd olika saker som rör projektet visas.
+
+3. Markera tjänsten **Notifieringstjänst** på höger sida under avsnittet **fler verktyg**
+
+    En lista över aviseringar visas med rubriken **Dynamics skicka regelnotifieringar**
+
+4. Du kan lägga till en ny avisering genom att klicka på plustecknet **(+)** längst upp i listan
+
+    Då visas en 4-stegs-guide där du kan skapa aviseringen. Guiden har följande steg:
     - Sök efter befintliga objekt
 
         Sök efter all information som du tycker är relevant för notifieringen som du ska skapa. Om det inte finns några relevanta sökresultat kan du välja knappen **Skicka regelnotifiering** längst ned på sidan om du vill fortsätta med att skicka notifieringen.
@@ -44,7 +52,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
         |Description  | Ange en kort översikt över lagstiftningen. Beskrivningen bör fokusera på frågor som är relevanta för resursplanering inom företag (ERP), så att användare kan förstå kraven på en hög nivå utan att behöva läsa lagstiftningen först.|
         |Land  | Ange landet/regionen som lagstiftningen gäller för.|
         |Bransch| Ange vilken bransch om kravet bara gäller för specifika branscher. Välj till exempel **Offentliga sektorn**, **Butik** eller **Produktion**.|
-        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportalen](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på webbplatsen CustomerSource. |
         |Datum för tillämpning av lagen  | Ange det datum då berörda kunder måste börja följa lagen.|
         |Datum när myndigheten tillkännagav meddelandet  | Ange det datum då myndigheten meddelade ändringen.|
         |Senaste arkiveringsdatum  | Välj deadline för den första överföringen av nya eller ändrade rapporten.|
@@ -66,7 +74,9 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
 ## <a name="see-also"></a>Se även
 
-[Välkommen till Business Central](index.md)  
+[Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Byta språk och plats](about-locale-language.md)  
 [Komma igång](product-get-started.md)  
+[Välkommen till Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

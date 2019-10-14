@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250118"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310906"
 ---
-# <a name="managing-users-and-permissions"></a>Hantera användare och behörigheter
+# <a name="manage-users-and-permissions"></a>Hantera användare och behörigheter
 Om du vill lägga till användare i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste företagets Office 365-administratör först skapa användare i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://aka.ms/CreateOffice365Users)
 
 När användare skapas i Office 365, kan de importeras till sidan **användare** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Användare tilldelas behörighetsuppsättningar beroende på planen som tilldelats användaren i Office 365. Mer information om licenser finns i [Microsoft Dynamics 365 Business Central licensieringsguide](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ En behörighetsuppsättning är en samling behörigheter för specifika objekt i
 
 Från sidan **användarkort** kan du öppna sidan **gällande behörigheter** för att visa vilka behörigheter som användaren har och behörighetsgrupper de ges. Här kan du också ändra behörighetsinformation om behörighetsgrupper av typen **Användaranpassade**. Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Administratörer kan använda sidan **Användarinställningar** för att definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad.
+## <a name="users-in-on-premises-deployments"></a>Användare av lokala distributioner
+Vid lokal distribution av [!INCLUDE[d365fin](includes/d365fin_md.md)], kan administratören välja mellan olika autentiseringsmetoder för användare. När du sedan skapar en användare, tillhandahåller du olika information beroende på vilken autentiseringstyp du använder i den specifika [!INCLUDE[server](includes/server.md)]-instansen. Mer information finns på [autentisering och autentisering](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i avsnittet Administration av utvecklare och ITPro-innehåll för [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Ett annat system som definierar vilka användare kan komma åt Upplevelsemiljön. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
+## <a name="profiles"></a>Profiler
+När du har lagt till användare kan du ange vad de ska se i användargränssnittet och hur de interagerar med deras tillåtna funktioner via sidor. Du gör detta genom profiler, reflekterande roller eller avdelningar, som du tilldelar olika typer av användare. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md) och [anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Lägga till en användare i Business Central
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användare** och välj sedan relaterad länk.
 2. Välj åtgärden **Skaffa användare från Office 365**.
 
 Alla nya användare som har skapats för din Office 365-prenumerationen kommer att läggas till i sidan **användare**.
+
+## <a name="to-edit-or-delete-a-user"></a>Så här redigerar du en användare
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användare** och välj sedan relaterad länk.
+2. Markera användaren som du vill redigera och välj åtgärden **Redigera**.
+3. På sidan **användarkort** ändrar du informationen efter behov.    
+4. Om du vill radera en användare, väljer du användaren du vill radera och välj sedan åtgärden **Radera**.
 
 ## <a name="to-group-users-in-user-groups"></a>Gruppera användare i användargrupper
 Du kan skapa användargrupper för att hantera behörighetsuppsättningar för grupper av användare i företaget.
@@ -110,7 +118,7 @@ en användare kan till exempel har behörighet att köra Codeunit 80, försäljn
 
 Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Att begränsa användarens åtkomst till specifika poster i en tabell
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Att begränsa användarens åtkomst till specifika poster i en tabell
 För postnivåsäkerhet i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. Det innebär att användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i hjälpen för utvecklare och IT-proffs.
 
 
@@ -174,9 +182,14 @@ I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en 
 > [!NOTE]  
 > När du redigerar en behörighetsuppsättning gäller ändringarna också för andra användare som har den behörighetsuppsättningen tilldelad.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>Så här tar du bort en användares åtkomst till systemet
+
+Som administratör kan du ta bort en användares åtkomst till systemet genom att ställa in **status** till **inaktiverat**. Alla referenser till användaren behålls, men användaren kan inte längre logga in i systemet och aktiva sessioner för användaren avslutas. Om du vill ge användaren åtkomst igen, ställ in fältet **Status** till **Aktiveras**.
+
 ## <a name="see-also"></a>Se även
 [Säkerhet och skydd i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Förstå användare, profiler och rollcenter](admin-users-profiles-roles.md)  
+[Hantera profiler](admin-users-profiles-roles.md)  
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Gör dig redo för affärer](ui-get-ready-business.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  

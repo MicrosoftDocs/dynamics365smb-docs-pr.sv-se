@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249635"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314826"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
+
+**Obs**! i den här genomgången måste utföras på ett demonstrationsföretag, med alternativet **Fullständig utvärdering - fullständig exempeldata** som är tillgängliga i begränsat läge. Mer information finns i [Skapa en miljö för begränsat lägel](across-how-create-sandbox-environment.md).
+
 Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.  
 
  I den här genomgången beskrivs hur du lägger upp ett nytt projekt samt några av de vanligaste aktiviteterna, som att hantera fast prissättning, delbetalningar, bokföra fakturor från projekt och kopiera projekt.  
@@ -84,7 +87,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     - **Namn**: **Tricia**  
     - **Typ**: **Person**  
 
-4.  I fältet **Basenhet** klickar du på **Ny** för att öppna sidan **Resursenhet**. I fältet **Kod** väljer du **Timme**. Välj knappen **OK**.  
+4.  I fältet **Basenhet** klickar du på **Ny** för att öppna sidan **Resursenhet**. I fältet **Kod** väljer du **Timme**.  
 5.  På snabbfliken **Fakturering** anger du följande information:  
 
     -   **Inköpspris**: **5**  
@@ -93,9 +96,9 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Produktbokföringsmall**: **Tjänster**  
     -   **Moms produktbokföringsmall**: **Moms 25**  
 
-6.  Välj **OK** för att spara ändringar.  
+6. Stäng sidan.
 
- I nästa procedur skapar du en projektjournal för Tricia för att bokföra hennes förbrukning.  
+I nästa procedur skapar du en projektjournal för Tricia för att bokföra hennes förbrukning.  
 
 ### <a name="to-create-a-job-journal-batch"></a>Skapa en ny journal  
 
@@ -107,7 +110,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Beskrivning**: **Tricia**  
     -   **Nr-serie**: **JJNL-GEN**  
 
-4.  Välj **OK** för att stänga alla öppna sidor.  
+4.  Välj **OK** för att spara ändringar.
 
 ## <a name="setting-up-a-job"></a>Lägga upp ett projekt  
  I det här scenariet har CRONUS tecknat ett avtal med en kund, Progressive Home Furnishings, för att inreda ett konferensrum och en matsal. Kunden finns i USA och programmet kommer att kräva särskild programvara. projektledaren går igenom upplägget med kunden och skapar ett projekt utifrån det.  
@@ -123,7 +126,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 4.  På snabbfliken **Bokföring** anger du följande information:  
 
-    -   **Status**: **Order**  
+    -   **Status**: **Planering**  
     -   **Projektbokföringsmall**: **Inreda**  
     -   **PIA-metod**: **Kostnadsvärde**  
 
@@ -140,21 +143,21 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Kod**: **Tricia**  
     -   **A-pris**: **20**  
 
-3.  Välj **OK** för att stänga sidan.  
+3.  Stäng sidan.  
 4.  Välj åtgärden **Artikel**.  
 5.  På sidan **Artikelpriser för projekt** anger du följande information och anpassat pris:  
 
     1.  **Artikelnr**: **80201 (grafikprogram)**  
     2.  **A-pris**: **200**  
 
-6.  Välj **OK** för att stänga sidan.  
+6.  Stäng sidan.  
 7.  Välj åtgärden **Redovisningskonto**.  
 8.  Ange följande information, och resekostnader, som kunden har avtalat att betala för kostnader, plus 25 procent, på sidan **Redov.kontopriser**:  
 
     1.  **Redovisningskonto**: **8430 (resa)**  
     2.  **Styckkostnadsfaktor**: **1,25**  
 
-9. Välj **OK** för att stänga sidan.  
+9. Stäng sidan.  
 
  Det slutliga steget i konfigurera ett projekt är att lägga till projektaktiviteterna och planeringsrader som ingår i varje aktivitet. Planeringsraderna styr vad kunden faktureras för.  
 
@@ -176,9 +179,9 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 -   **Planerat**: Läggs till i schemat, men faktureras inte.  
 -   **Kontrakt**: Faktureras, men läggs inte till i schemat.  
--   **Både schema och kontrakt**: Faktureras och läggs till i schemat.  
+-   **Både budget och fakturerbart**: Faktureras och läggs till i schemat.  
 
- I den här genomgången använder projektchefen **Både schema och kontrakt**. Han upprättar tre planeringsrader för aktivitet 1010 och två planeringsrader för aktivitet 1020.  
+ I den här genomgången använder projektchefen **Både budget och fakturerbart**. Han upprättar tre planeringsrader för aktivitet 1010 och två planeringsrader för aktivitet 1020.  
 
 ### <a name="to-create-planning-lines"></a>Skapa planeringsrader  
 
@@ -186,7 +189,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
      **Rad 1**  
 
-    -   **Radtyp**: **Både planerat och kontrakt**  
+    -   **Raadtyp**: **Både budget och fakturerbart**  
     -   **Planeringsdatum**: **(dagens datum)**  
     -   **Typ**: **Resurs**  
     -   **Nr**: **Tricia**  
@@ -194,7 +197,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
      **Rad 2**  
 
-    -   **Typ av rad**: **Både planerat och kontrakt**  
+    -   **Raadtyp**: **Både budget och fakturerbart**  
     -   **Planeringsdatum**: **(dagens datum)**  
     -   **Typ**: **Resurs**  
     -   **Nr**: **Timothy**  
@@ -202,19 +205,19 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
      **Rad 3**  
 
-    -   **Typ av rad**: **Både planerat och kontrakt**  
+    -   **Raadtyp**: **Både budget och fakturerbart**  
     -   **Planeringsdatum**: **(dagens datum)**  
     -   **Typ**: **Redovisningskonto**  
     -   **Nr**: **8430 (resa)**  
     -   **Antal**: **2**  
     -   **Styckkostnad**: **400**  
 
-2.  Välj **OK** för att stänga sidan. Summorna uppdateras på sidan **Projektaktivitetsrader**.  
+2.  Stäng sidan. Summorna uppdateras på sidan **Projektaktivitetsrader**.  
 3.  Välj rad 1020 och välj sedan åtgärden **Projektplaneringsrader**. Ange följande information:  
 
      **Rad 1**  
 
-    -   **Radtyp**: **Både planerat och kontrakt**  
+    -   **Raadtyp**: **Både budget och fakturerbart**  
     -   **Planeringsdatum**: **(dagens datum)**  
     -   **Typ**: **Resurs**  
     -   **Nr**: **Tricia**  
@@ -222,13 +225,13 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
      **Rad 2**  
 
-    -   **Typ av rad**: **Både planerat och kontrakt**  
+    -   **Raadtyp**: **Både budget och fakturerbart**  
     -   **Planeringsdatum**: **(dagens datum)**  
     -   **Typ**: **Artikel**  
     -   **Nr**: **80201 (grafikprogram)**  
     -   **Antal**: **1**  
 
-4.  Välj **OK** för att stänga sidan. Summorna uppdateras på sidan **Projektaktivitetsrader**.  
+4.  Stäng sidan. Summorna uppdateras på sidan **Projektaktivitetsrader**.  
 
 ## <a name="calculating-remaining-usage"></a>Beräkna återstående förbrukning  
  Tricia, teamprojektmedlem, har arbetat med projektet ett tag och vill registrera sina timmar och sin förbrukning för projektet. Hon har inte arbetat mer timmar än vad som överenskommits med kunden. Hon använder batch-jobbet **Ber. återstående förbrukning** för att beräkna återstående förbrukning för projekter i en projektjournal. För varje projektaktivitet beräknas skillnaden mellan planerad förbrukning av artiklar, resurser, redovisningskostnader och verklig förbrukning i projekttransaktioner. Den återstående förbrukningen visas sedan i den projektjournal som hon kan bokföra den ifrån.  
@@ -244,7 +247,8 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 7.  Välj **OK**. Alla rader som föreslagits utifrån de planeringsrader som Prakash skapade för projektjournalen genereras.  
 8.  Välj **OK** på bekräftelsesidan. De genererade raderna läggs till i projektjournalen.  
 9. Se till att alla dokument har numret J00001. Välj sedan åtgärden **Bokföra**. Klicka på knappen **Ja** för att bokföra.  
-10. Raderna är nu bokförda. Välj **OK** för att stänga sidorna.  
+
+Raderna är nu bokförda.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Skapa och bokföra en försäljningsfaktura för ett projekt  
  I nästa steg kan Tricia skapa en ny faktura för hela projektet eller för en del av ett projekt. Hon kan även bifoga fakturan till en annan faktura för samma kund inom samma projekt. I detta fall kan hon fakturera hela projektet eftersom projektet nu är slutfört.  
@@ -293,16 +297,16 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 4.  På sidan **Projektaktivitetsrader** väljer du rad 1120 och väljer sedan åtgärden **Projektplaneringsrader**.  
 5.  Välj **Ny** för att skapa en rad med följande information:  
 
-    -   **Radtyp**: **Både planerat och kontrakt**  
+    -   **Raadtyp**: **Både budget och fakturerbart**  
     -   **Typ**: **Resurs**  
     -   **Nr**: **Tricia**  
     -   **Antal**: **30**  
 
-7.  Välj **OK** för att stänga sidan.  
+7.  Stäng sidan.  
 8.  I fältet **Planerat (totalkostnad)**, högerklicka i fältet och välj **Specificering** igen på sidan **Projektaktivitetsrader**. Visa de ändringar som gjorts i schemat. Du ser att 30 timmar har lagts till i schemat.  
-9. Välj **OK** för att stänga sidorna.  
+9. Stäng sidorna.  
 
- När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 25 timmar på projektet. Dessa timmar registrerar hon i projektjournalen.  
+När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 25 timmar på projektet. Dessa timmar registrerar hon i projektjournalen.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Så här registrerar du timmar i projektjournalen  
 
@@ -333,9 +337,11 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Projektnr**: **Nyström**  
     -   **Projektaktivitetsnr**: **1120**  
 
-     Klicka på **OK** för att köra beräkningen. Det finns fem arbetstidar som återstår för Tricia. Fältet **Radtyp** är tomt, vilket innebär att endast förbrukningen återstår att bokföras eftersom arbetet redan är planerat.  
+7. Klicka på **OK** för att köra beräkningen.
 
-7.  I **Projektjournaler** skapar du en ny rad med följande information. Se till att båda projektnummer är i ordningen efter dem som du redan har använt:  
+    Det finns fem arbetstidar som återstår för Tricia. Fältet **Radtyp** är tomt, vilket innebär att endast förbrukningen återstår att bokföras eftersom arbetet redan är planerat.  
+
+8.  I **Projektjournaler** skapar du en ny rad med följande information. Se till att båda projektnummer är i ordningen efter dem som du redan har använt:  
 
     -   **Radtyp**: **Planerat**  
     -   **Projektnr**: **Nyström**  
@@ -346,17 +352,17 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
      Via **schematypen** uppdateras de planerade kostnaderna och priset utan att uppdatera de kontraktskostnader och priser som faktureras kunden.  
 
-8.  Välj åtgärden **Bokföra**. Välj **OK** för att stänga sidan.  
-9. Öppna listan **Projekt**.  
-10. Välj projekt GUILDFORD och välj sedan åtgärden **Projektaktivitetsrader**.  
-11. Markera rad 1120 och högerklicka på beloppet i fältet **Planerat (totalkostnad)**. Välj **Specificera** för att visa informationen.  
+9.  Välj åtgärden **Bokföra**. Välj **OK** för att stänga sidan.  
+10. Öppna listan **Projekt**.  
+11. Välj projekt GUILDFORD och välj sedan åtgärden **Projektaktivitetsrader**.  
+12. Markera rad 1120 och högerklicka på beloppet i fältet **Planerat (totalkostnad)**. Välj **Specificera** för att visa informationen.  
 
      Ändringar registreras automatiskt på raden för Projektaktivitetsnr. 1120 I totalkostnaden för det planerade arbetet är fem ytterligare arbetstimmarna som Tricia lagts till i schemat.  
 
-12. Välj **Stäng** för att stänga sidan.  
-13. Högerklicka på beloppet i fältet **Kontrakt (totalkostnad)** och välj **Specificera** för att visa informationen.  
+13. Välj **Stäng** för att stänga sidan.  
+14. Högerklicka på beloppet i fältet **Kontrakt (totalkostnad)** och välj **Specificera** för att visa informationen.  
 
-     I kontraktets totalpris finns endast de ursprungligen kontrakterade 30 timmarna med, eftersom det är det som har överenskommits med kunden.  
+I kontraktets totalpris finns endast de ursprungligen kontrakterade 30 timmarna med, eftersom det är det som har överenskommits med kunden.  
 
 ## <a name="copying-jobs"></a>Kopiera projekt  
  Prakash har slutit ett avtal med en kund, Selagorian Ltd, om att inreda tio konferensrum. Avtalet påminner om ett tidigare projekt. Därför kan det spara tid att kopiera det tidigare projektet.  
@@ -383,7 +389,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
 
 5.  Välj **OK** för att kopiera projektet och välj sedan åtgärden **OK** för att stänga bekräftelsesidan.  
 
-     Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader för de två projekten kan du se att informationen kopieras korrekt.  
+Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader för de två projekten kan du se att informationen kopieras korrekt.  
 
 ## <a name="making-payments-by-installments"></a>Göra delbetalningar  
  CRONUS har precis fått ett stort projekt som kommer att pågå under ett år. Eftersom det krävs en hel del resurser gör projektledaren upp kontraktet så att kunden ska betala en del av projektet i förväg, en del när projektet är till hälften slutfört och resten när projektet är helt slutfört.  
@@ -397,7 +403,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Nr**: **6630**  
     -   **Namn**: **Projektbetalning**  
 
-4.  På snabbfliken **Bokföring**, i fältet **Produktbokföringsmall** väljer du **DIV**. Välj **OK** för att stänga sidan.  
+4.  På snabbfliken **Bokföring**, i fältet **Produktbokföringsmall** väljer du **DIV**. Stäng sidan.  
 5.  På sidan **Kontoplan** väljer du **Nr 6630, projektbetalning**, och välj **Indrag av kontoplan**. Välj **Ja** för att bekräfta.  
 
  Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och ställer in möjlighet till delbetalningar. På projektaktivitetsraderna kan du skapa särskilda rader avsedda för delbetalningarna. Allt arbete som slutförs i projektet och läggs till i planen registreras på förbrukningsraderna. För varje ny betalningsaktivitetsrad på planeringsraderna är radtypen Kontrakt, vilket innebär att kunden ska faktureras. Registrera en ny rad för handpenningen. På förbrukningsraden kan du ange information om de artiklar och resurser som har förbrukats i projektet och som utökar planen, t.ex. arbetstid och artiklar som används i projektet.  
@@ -417,7 +423,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Kod**: **Tricia**  
     -   **A-pris**: **10**  
 
-     Välj **OK** för att stänga sidan.  
+     Stäng sidan.  
 
 4.  På kortet **Projekt** väljer du **Projektaktivitetsrader**.  
 
@@ -440,7 +446,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Antal**: **1**  
     -   **A-pris**: **5000**  
 
-     Välj **OK** för att stänga sidan.  
+     Stäng sidan.  
 
 7.  På sidan **Projektaktivitetsrader**, välj **aktivitet 2000**, och öppna **Projektplaneringsrader**.  
 
@@ -451,7 +457,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     |1|Schema|(dagens datum)|Resurs|Tricia|120|  
     |2|Schema|(dagens datum)|Artikel|70104|10|  
 
-     Välj **OK** för att stänga sidan. På sidan **Projektaktivitetsrader** ser du de planerade belopp som har uppdaterats.  
+     Stäng sidan. På sidan **Projektaktivitetsrader** ser du de planerade belopp som har uppdaterats.  
 
 8.  På sida **Projektaktivitetsrader** väljer du **uppgift 3000**.  
 9. Skapa en planeringsrad med följande information:  
@@ -463,7 +469,7 @@ Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag s
     -   **Antal**: **1**  
     -   **A-pris**: **5000**  
 
-     Välj **OK** för att stänga sidan.  
+     Stäng sidan.  
 
 10. Skapa en liknande planeringsradtransaktion för projektaktivitet 4000.  
 

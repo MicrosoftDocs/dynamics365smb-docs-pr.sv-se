@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237986"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300407"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Felsökning [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Felsökning [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Det går enkelt och snabbt att registrera sig för [!INCLUDE [d365acc](includes/d365acc_md.md)]. Lägga till klienter på instrumentpanelen är också lätt, men den här artikeln innehåller lösningar på problem som kan uppstå på vägen.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Vilken e-postadress kan jag använda med [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Vilken e-postadress kan jag använda med [!INCLUDE [d365acc](includes/d365acc_md.md)]?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] kräver att du använder en e-postadress från ditt arbete eller skola för att registrera dig. [!INCLUDE [d365acc](includes/d365acc_md.md)] har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  
 
 Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola.  

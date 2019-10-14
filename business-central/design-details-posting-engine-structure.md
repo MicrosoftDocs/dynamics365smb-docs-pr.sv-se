@@ -4,20 +4,20 @@ description: Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 a
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 76d59049191f91131df014771ef8546326a51439
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b4bc639675591bb91ad2fa4e56f4e3ed88fed975
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238699"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303082"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Bokföringsmotorstruktur
 Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funktioner i bokföringsmotorn för att förbereda och infoga redovisningstransaktioner och momstransaktionsposter. Bokföringsmotorn är också ansvarig för att skapa en registrering av redovisningen.  
@@ -29,7 +29,7 @@ Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funk
 |StartPosting|initialiserar bokföringsbufferten TempGLEntryBuf, låser redovisningstransaktions- och momstransaktionstabellerna och initialiserar bokföringsperiod, bokförd redovisningsjournal och valutakurser. Bör bara anropas en gång, sedan är NextEntryNo 0.|  
 |ContinuePosting|Kontrollerar och bokför orealiserad moms för föregående transaktion, ökar NextTransactionNo och förbereder bokföringen av nästa rad.|  
 |FinishPosting|Slutför bokföringen genom att infoga redovisningstransaktioner från den tillfälliga bufferten i databastabellen. Används alltid tillsammans med StartPosting. Söker efter inkonsekvenser.|  
-|InitGLEntry|Används för att initialisera en ny redovisningstransaktion för standardredovisningsjournalrader. Returnerar GLEntry som parameter.|  
+|InitGLEntry|Används för att initialisera en ny redovisningstransaktion för standardredovisningsjournalrad. Returnerar GLEntry som parameter.|  
 |InitGLEntryVAT|Samma som InitGLEntry men tilldelar också Motkonto och SummarizeVAT.|  
 |InitGLEntryVATCopy|Samma som InitGLEntryVAT men kopierar också bokföringsmalldata från momstransaktionen innan SummarizeVAT.|  
 |InsertGLEntry|Den enda funktion som infogar redovisningstransaktionen i den globala TempGLEntryBuf-tabellen. Använd alltid den här funktionen för att infoga.|  

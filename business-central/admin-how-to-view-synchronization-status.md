@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726750"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304498"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visa status för en synkroniseringsjobb
 Använd sidan **Kopplade datasynkroniseringsfel** för att visa statusen för synkroniseringsjobb som har körts för kopplade poster i en [!INCLUDE[crm_md](includes/crm_md.md)]-integration. Det innehåller synkroniseringjobb som har körts från jobbkön- och manuella synkroniseringsjobb som kördes på poster från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan till exempel vara bra att visa deras status vid felsökning eftersom det ger dig tillgång till information om fel som rör sammankopplade poster. Dessa typer av fel orsakas vanligen av användaråtgärder, till exempel när:  
@@ -44,5 +44,5 @@ Använd sidan **Kopplade datasynkroniseringsfel** för att visa statusen för sy
 2. Välj åtgärden **synkroniseringsloggen** om du vill visa synkroniseringsloggen för en vald post. Det kan till exempel vara en specifik kund som du har synkroniserat manuellt.
 
 ## <a name="see-also"></a>Se även  
-[Ställa in konton för integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Med hjälp av Dynamics 365 for Sales från Business Central](marketing-integrate-dynamicscrm.md)
+[Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+[Använda Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md)

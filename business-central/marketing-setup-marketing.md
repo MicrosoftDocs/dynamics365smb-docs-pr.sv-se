@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446859"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308691"
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
 Innan du sätter igång med att arbeta med kontakter och marknadsföringsräntor, är det några beslut och steg som du måste vidta för att ange hur marknadsföringsområdet hanterar vissa aspekter av kontakterna. Du kan till exempel bestämma om du ska synkronisera kontaktkort med kund-, leverantörs- och bankkontokort, hur nummerserier definieras eller vilken standardhälsningsfras som ska användas när ni skriver till kontakterna.
@@ -38,7 +38,7 @@ Du kan ange att särskild språkkod, distriktskod, säljarkod och lands-/regionk
 
 Värden i övertagna fält ersätter de standardvärden som du har angett. Om du exempelvis har angett engelska som standardspråk men företagets språk är tyska, tilldelas tyska automatiskt som språkkod för de kontaktpersoner som är registrerade på det företaget.
 
-<!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
+<!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatiskt registrerade interaktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan automatiskt återges som interaktioner (till exempel order, fakturor, inleveranser och så vidare) liksom e-post, telefonsamtal och meddelanden.
@@ -56,7 +56,7 @@ Du kan ange nummerserier för kontakter, kampanjemöjligheterer, segment och aff
 Mer information om nummerserier finns i [Skapa nummerserier](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Söka efter dubbelkontakter, när kontakter skapas
-Du kan välja automatisk sökning efter kopior varje gång du skapar kontaktföretag eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior.
+Du kan välja automatisk sökning efter kopior varje gång du skapar ett kontaktföretag eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior.
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  

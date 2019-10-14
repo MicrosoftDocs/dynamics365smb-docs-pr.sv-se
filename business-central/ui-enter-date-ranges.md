@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000769"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315594"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollera inställningarna för region och språk
-
-[**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") anger **region** och **språk** som används i programmet. Dessa inställningar påverkar hur du anger datum och tid.
+Sidan **Mina inställningar** anger **Region** och **Språk** du använder i programmet. Dessa inställningar påverkar hur du anger datum och tid.
 
 -   Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
 
@@ -85,7 +84,7 @@ Bokföringsperioder definieras på sidan **Bokföringsperioder**. Om du vill vis
 
 Funktionen arbetsdatum låter dig spåra transaktioner med ett datum som skiljer sig från det aktuella datumet.
 
-Ordet för ”arbetsdatum” på det språk som anges av **språk**-inställningen kan ange datumet till det aktuella arbetsdatumet som anges på sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central"). I stället för att ange hela ordet, kan du skriva in del av ordet, från början, såsom "a" eller "arbete".
+Ordet för ”arbetsdatum” på det språk som anges av **språk**-inställningen kan ange datumet till det aktuella arbetsdatumet som anges på sidan **Mina inställningar**. I stället för att ange hela ordet, kan du skriva in del av ordet, från början, såsom "a" eller "arbete".
 
 Om du inte har definierat ett arbetsdatum, kommer det aktuella datumet användas som arbetsdatum. Det är praktiskt att använda arbetsdatum om du har många transaktioner med ett annat datum än dagens datum.
 
@@ -129,8 +128,8 @@ I listor, summor och rapporter kan du ange filter för datum, tid och datum och 
 |**Betydelse**|**Exempeluttryck (datum)**|**Data som ingår i filtret**|
 |-----------|---------------------|--------------------|
 |Intervall|00-12-15..01-01-15<br /><br />..00-12-15<br /><br />p1..p4|Poster med datum från och med 00-12-15 till och med 01-01-15.<br /><br />Poster med datum 00-15-12 eller tidigare.<br /><br />Datumintervall som innehåller den andra, tredje och fjärde bokföringsperioden, till exempel 20-01-01..20-04-30.|
-|Antingen eller|00-12-15|00-12-16|Poster med antingen 00-12-15 eller 00-12-16. Om det finns poster med datum båda dagarna kommer samtliga att visas.|
-|Kombination|00-12-15|00-12-01..00-12-10 \n..00-12-14|00-12-30..|Poster med datum 00-12-15 eller mellan och inklusive den 00-12-01 och 00-12-10.  \Poster med datum 00-12-14 eller tidigare, eller 00-12-30 eller senare. Detta innebär alla poster utom de med datum från och med 00-12-15 till och med 00-12-29.|
+|Antingen eller|00-12-15\|00-12-16|Poster med antingen 00-12-15 eller 00-12-16. Om det finns poster med datum båda dagarna kommer samtliga att visas.|
+|Kombination|00-12-15\|00-12-01..00-12-10  <br /><br />..00-12-14\|00-12-30..|Poster med datum 00-12-15 eller mellan och inklusive den 00-12-01 och 00-12-10.  <br /><br />Poster med datum 00-12-14 eller tidigare, eller 00-12-30 eller senare. Detta innebär alla poster utom de med datum från och med 00-12-15 till och med 00-12-29.|
 
 Du kan använda giltiga format i filtret för datumintervall. Till exempel mån14 3..t 4p som tillämpas på ett datum/tidsfält resulterar i ett filter mellan 03:00 måndag vecka 14 det aktuella arbetsdatumets år, inklusive fram till i dag klockan 16:00.
 

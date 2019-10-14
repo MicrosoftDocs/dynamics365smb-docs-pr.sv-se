@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
 ROBOTS: NOINDEX
-ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 908e460ae5a3fc8ecb804f27363a1cfad71d997c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726911"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307933"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Använd implementerings-rollcentret för RapidStart Services
-När du använder RapidStart Services rekommenderar vi att du använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Att ändra rollcenter](ui-change-basic-settings.md#to-change-role-center).
+När du använder RapidStart Services rekommenderar vi att du använder implementerings-rollcentret för RapidStart Services då detta ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Att ändra rollen](ui-change-basic-settings.md#to-change-the-role).
 
 När du fortsätter med ditt arbete kan du tilldela varje tabell den status som anger under processen. [!INCLUDE[d365fin](includes/d365fin_md.md)] håller sedan reda på tabellstatusen i avsnittet **Aktiviteter** för rollcentret.  
 

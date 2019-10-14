@@ -8,17 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796671"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300431"
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # <a name="creating-a-sandbox-environment"></a>Skapa en miljö för begränsat läge
 Begränsat läge (förhandsgranskning) är en instans av [!INCLUDE[d365fin](includes/d365fin_md.md)] utanför produktionsmiljön. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.
 
@@ -46,7 +44,7 @@ Du måste ha en prenumeration på [!INCLUDE[d365fin](includes/d365fin_md.md)] f�
 
     > [!NOTE]
     > En miljö för begränsat läge som skapas på det här sättet innehåller endast standarddemonstrationsdata för CRONUS-företaget. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.<br /><br />
-    > Du kan också skapa en miljö för begränsat läge som innehåller produktionsdata. Du måste göra detta i administrationscentret. Mer information finns i [Hantera miljöer](/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjälpen för utvecklare och IT-proffs.
+    > Du kan också skapa en miljö för begränsat läge som innehåller produktionsdata. Du måste göra detta i administrationscentret. Mer information finns i [Hantera miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjälpen för utvecklare och IT-proffs.
 
 6. När som helst kan du återgå till sidan **begränsat läge** och återställa begränsat läge.
     > [!NOTE]  

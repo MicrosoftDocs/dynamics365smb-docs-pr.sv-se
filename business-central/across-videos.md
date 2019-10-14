@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244892"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304738"
 ---
 # <a name="visit-our-video-library"></a>Besök vårt videobibliotek
 Vänligen ha lite tålamod medan vi bygger upp vårt bibliotek med informationsvideor. En sidoeffekt av de senaste förbättringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)] är att vi måste återskapa vårt innehåll så att det passar produkten.
@@ -42,7 +42,7 @@ Bara för att nämna några få exempel kommer de videor vi nu uppdaterar att vi
 
 * Migrera affärsdata från andra finansappar till [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Ställer in dimensioner så att du kan spåra och analysera olika dokument och enheter
-* Ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] med Dynamics 365 for Sales
+* Anslut [!INCLUDE[d365fin](includes/d365fin_md.md)] med Dynamics 365 Sales
 * Konfigurera arbetsflöden för godkännande  
 * Använd Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Konfigurera e-post och skicka dokument direkt från [!INCLUDE[d365fin](includes/d365fin_md.md)]  

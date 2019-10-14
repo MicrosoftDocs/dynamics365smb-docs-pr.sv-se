@@ -3,21 +3,21 @@ title: Anpassade och inbyggda layouts för rapporter och dokument | Microsoft Do
 description: Använd rapportlayouter för att anpassa dokument, till exempel för att anpassa teckensnitt, logotyp eller inställningar för de PDF-filer som du skickar till kunder.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594293"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315162"
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
 En rapportlayout kontrollerar rapportens format och innehåll, som vilka datafält i en rapportdatauppsättning som visas i rapporten och hur de ordnas, textstil, bilder och mycket annat. Från [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ändra vilken layout som används på en rapport, skapa en ny layout eller ändra befintliga layouter.
@@ -56,7 +56,7 @@ De allmänna designbegreppen för Word- och RDLC-layouter är mycket lika varand
 
 Processen för att skapa Word-rapportlayouter och RDLC-rapportlayouter i rapporter är densamma. Den huvudsakliga skillnaden är det sätt som du ändrar layouterna. Word-rapportlayouter är oftast lättare att skapa och ändra än RDLC-rapportlayouter, eftersom du kan använda Word. RDLC-rapportlayouter ändras genom att använda SQL Server Report Builder som är till för mer avancerade användare.
 
-Information om hur du ändrar vilken layout som ska användas finns i [Så här ändrar du vilken layout som för närvarande används i en rapport](ui-how-change-layout-currently-used-report.md)
+Information om hur du ändrar vilken layout som ska användas finns i [Ändra aktuell layout](ui-how-change-layout-currently-used-report.md)
 
 ## <a name="see-also"></a>Se även
 [Uppdatera rapport- eller dokumentlayouter](ui-update-report-layouts.md)  
@@ -64,4 +64,4 @@ Information om hur du ändrar vilken layout som ska användas finns i [Så här 
 [Så här skapar och ändrar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)  
 [Så här importerar och exporterar du en anpassad rapport eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
-[Arbeta med rapporter och batch-jobb](ui-work-report.md)  
+[Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  

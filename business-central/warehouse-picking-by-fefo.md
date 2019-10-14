@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5e25c9df3ccd98436945b0070773d5b48eb54ac
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 327cd6e048ce4afcc6b58c2d546da4768ec03724
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247657"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314538"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
 FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna - de med tidigast utgångsdatum - plockas först.  
@@ -25,7 +25,7 @@ FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer
  Den här funktionen fungerar bara, när dessa villkor är uppfyllt:  
 
 -   Artikel måste ha en serie-/partinummer.  
--   På artikelns artikelspårningskod har angetts, fältet **SN specifik spårning för dist.lager** , eller **Parti specifik spårning distr.lager** måste väljas.  
+-   På artikelns artikelspårningskod har angetts, fältet **SN specifik spårning** , eller **Parti specifik spårning** måste väljas.  
 -   Artikeln måste bokföras till lagret med ett utgångsdatum.  
 -   På lagerställekortet måste kryssrutan **Begär plockning** vara markerad.  
 -   Kryssrutan **Plocka enligt FEFO** på lagerställekortet måste vara markerat.  

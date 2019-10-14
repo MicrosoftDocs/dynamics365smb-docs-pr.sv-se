@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6083e5ff57ebfb57a31d294e5c565b5bc6a3f8c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252694"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316434"
 ---
 # <a name="make-sales-quotes"></a>Gör försäljningsofferter
 Du kan skapa en försäljningsoffert för att erbjuda en kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende p
 11. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.
 
     > [!NOTE]  
-    >   Om artikeln är av typen **Artikel - tjänst** eller **Resurs** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.  
+    >  Om artikeln är av typen **Tjänst**, eller fältet **Typ** innehåller **Resurs**, är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden. Mer information finns i [Ställa in måttenheter](inventory-how-setup-units-of-measure.md).
 
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 
@@ -69,7 +69,7 @@ Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende p
     Om du har ställt in fakturarabatter för kunden, då infogas det angivna procentsatsvärdet automatiskt i fältet **Fakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Inv. Rabattbelopp exkl. moms**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > För att fylla i **Offertens giltighetsdatum** fylls i automatiskt med ett visst antal dagar efter att offerten har skapats, kan du fylla i **Beräkning av offertens giltighet** på sidan **Försäljning & kundreskontra**. 
+    > För att fylla i **Offertens giltighetsdatum** fylls i automatiskt med ett visst antal dagar efter att offerten har skapats, kan du fylla i **Beräkning av offertens giltighet** på sidan **Försäljning & kundreskontra**.
 
 15. När försäljningsoffertraderna slutförda väljer du åtgärden **Skicka med e-post**.
 16. På sidan **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).

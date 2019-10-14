@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a322fe99a76555d438033919a2f6a1ace4e108db
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240913"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300527"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Fältmappning vid export av betalningsfiler via bankdatakonverteringstjänst
 När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer de data du exporterar att bli exponerade för bankdatakonverteringstjänsten. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om hur funktionen bankdatakonverteringstjänst fungerar finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).  

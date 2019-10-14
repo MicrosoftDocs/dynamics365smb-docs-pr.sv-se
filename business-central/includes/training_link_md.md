@@ -1,1 +1,1 @@
-Hämta [utbildning!](/dynamics365/get-started/training/)
+Hämta [utbildning!](/learn/browse/?products=dynamics-business-central)

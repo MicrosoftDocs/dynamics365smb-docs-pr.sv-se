@@ -1,6 +1,6 @@
 ---
 title: Ändra tabellmappningar för synkronisering | Microsoft Docs
-description: Lär dig ändra den registermappning som används vid synkronisering av data mellan Business Central och Dynamics 365 for Sales.
+description: Lär dig ändra den registermappning som används vid synkronisering av data mellan Business Central och Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540206"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308084"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Ändra tabellmappningar för synkronisering
 En integrationstabellmappning länkar en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)] till en integrationstabell för [!INCLUDE[crm_md](includes/crm_md.md)]-enheten. För varje enhet i [!INCLUDE[crm_md](includes/crm_md.md)] som du vill synkronisera med motsvarande data i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste det finnas en motsvarande integrationstabellmappning. En integrationstabellmappning innehåller flera inställningar som låter dig styra hur posterna i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet synkroniseras av motsvarande integrationssynkroniseringsjobb.  
@@ -33,7 +33,7 @@ En integrationstabellmappning länkar en tabell i [!INCLUDE[d365fin](includes/d3
 ## <a name="creating-new-records"></a>Skapa nya poster  
  Som standard är det bara de poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] som är kopplade som synkroniseras med integrationssynkroniseringsjobben. Du kan ställa in tabellmappningar så att nya poster skapas i målet (till exempel [!INCLUDE[d365fin](includes/d365fin_md.md)]) för varje post i källan (till exempel [!INCLUDE[crm_md](includes/crm_md.md)]) som inte redan är kopplad.  
 
- Till exempel använder synkroniseringsjobbet SÄLJARE - Dynamics 365 for Sales tabellmappningen SÄLJARE. Synkroniseringsjobbet kopierar informationen [!INCLUDE[crm_md](includes/crm_md.md)]från användarposter till säljarposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du skapar tabellmappningen för att skapa nya poster, för varje användare i [!INCLUDE[crm_md](includes/crm_md.md)] som inte redan är kopplad till en säljare i [!INCLUDE[d365fin](includes/d365fin_md.md)], skapas en ny säljarpost i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Till exempel använder synkroniseringsjobbet SÄLJARE – Dynamics 365 Sales tabellmappningen SÄLJARE. Synkroniseringsjobbet kopierar informationen [!INCLUDE[crm_md](includes/crm_md.md)]från användarposter till säljarposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du skapar tabellmappningen för att skapa nya poster, för varje användare i [!INCLUDE[crm_md](includes/crm_md.md)] som inte redan är kopplad till en säljare i [!INCLUDE[d365fin](includes/d365fin_md.md)], skapas en ny säljarpost i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Så här skapar du nya poster under synkroniseringen  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
@@ -59,6 +59,6 @@ Om du installerar standardsynkroniseringsinstallationen, för det mesta, skapas 
 3.  Ange fältet **Mallkod för int.tabellkonfig.** till konfigurationsmallen som ska användas för nya poster i [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Se även  
-[Om integrering Dynamics 365 Business Central med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Synkroniserar Business Central och Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[Om integration av Dynamics 365 Business Central med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

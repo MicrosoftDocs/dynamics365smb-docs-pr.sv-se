@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244728"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302386"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -50,7 +50,7 @@ Du kan också ställa in värden för dimensioner. Värden kan till exempel vara
 
 När dimensioner och värden som har konfigurerats kan du definiera globala och genvägsdimensioner på sidan **Redovisningsinställningar** som alltid är tillgängliga när du vill välja som fält på journal- och dokumentrader, utan att öppna sidan **dimensioner** först. Mer information finns i [Att ställa in globala och genvägsdimensioner](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-* **Globala dimensioner** används som filter, till exempel i rapporter och batch-jobb. Du kan använda två globala dimensioner, så välj dimensionerna som du ofta använder.
+* **Globala dimensioner** används som filter, till exempel i rapporter, batch-jobb och XMLports. Du kan använda två globala dimensioner, så välj dimensionerna som du ofta använder.
 * **Genvägsdimensioner** är tillgängliga som fält på journal- och dokumentrader. Du kan skapa upp till sex av dessa.  
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Konfigurera standarddimensioner för kunder, leverantörer och andra konton

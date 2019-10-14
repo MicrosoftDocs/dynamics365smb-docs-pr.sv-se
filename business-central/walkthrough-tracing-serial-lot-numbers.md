@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 913537f5fad5732c729a5e00894400bedcf949b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249038"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310498"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
@@ -78,7 +78,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 2.  Välj åtgärden **Ny**.  
 3.  I fältet **Nr.** ange **2000** och fyll sedan i följande fält.  
 
-    |Beskrivning|Basenhet|Produktbokföringsmall|Moms produktbokföringsmall|Lagerbokföringsmall|Artikelspårningskod|  
+    |Beskrivning|Basenhet|Redovisnings- Produktbokföringsmall|Moms produktbokföringsmall|Lagerbokföringsmall|Artikelspårningskod|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
     |Racercykelram|STYCK|RÅMAT|MOMS25|RÅMAT|PARTIALLA|  
 
@@ -90,7 +90,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 6.  Välj **Ny**.  
 7.  I fältet **Nr.** ange **1002** och fyll sedan i följande fält.  
 
-    |Beskrivning|Basenhet|Produktbokföringsmall|Moms produktbokföringsmall|Lagerbokföringsmall|Återanskaffningssystem|Artikelspårningskod|  
+    |Beskrivning|Basenhet|Redovisnings- Produktbokföringsmall|Moms produktbokföringsmall|Lagerbokföringsmall|Återanskaffningssystem|Artikelspårningskod|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racercykel|STYCK|DETALJ|MOMS25|FÄRDIG|Prod.order|SNALLA|  
 

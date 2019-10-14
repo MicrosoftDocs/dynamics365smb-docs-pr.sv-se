@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446974"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301546"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
@@ -40,7 +40,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lägga till dimensioner för rikare business intelligence. |[Arbeta med dimensioner](finance-dimensions.md) |
 | Skapa redovisningsbudgetar för att förutse olika ekonomiska aktiviteter och koppla dimensioner för affärssystemet. |[Skapa redovisningsbudgetar](finance-how-create-budgets.md) |
 |Registrera intäkter och utgifter direkt i redovisningen utan att bokföra dedikerade affärsdokument.|[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)|
-|Bokföra transaktioner som ska återföras om du vill ångra bokförda värdetransaktioner i redovisningsjournal eller bokföringar på inköps- och försäljningsdokument. |[Återföra bokningar](finance-how-reverse-journal-posting.md)|
+|Bokföra transaktioner som ska återföras om du vill ångra bokförda värdetransaktioner i redovisningsjournal eller bokföringar på inköps- och försäljningsdokument. |[Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)|
 |fördela en transaktion i en redovisningsjournal på olika konton när du bokför journalen. |[Fördela kostnader och intäkter](year-allocate-costs-income.md) |
 | Tilldela extra kostnader, till exempel frakt- och fysisk hantering som förekommer vid handel med artiklar så att kostnaderna återspeglas i lagervärderingen. |[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md) |
 |Bokföra anställdas privata utgifter för affärsrelaterade aktiviteter och återbetala anställda genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|

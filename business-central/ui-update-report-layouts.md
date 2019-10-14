@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248140"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314994"
 ---
 # <a name="updating-report-or-document-layouts"></a>Uppdatera rapport- eller dokumentlayouter
 Ibland kan du behöva uppdatera en anpassad rapportlayout som används i en rapport. Det krävs när en designändring har skett för rapportens datauppsättning, till exempel att ett fält som används i layouten har tagits bort från rapportdatauppsättningen. Om en rapportlayout kräver att uppdatering kommer du att få ett felmeddelande när du försöker att förhandsgranska, skriva ut eller spara rapporten.  
@@ -66,4 +66,4 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 ## <a name="see-also"></a>Se även  
  [Hantera rapportlayouter](ui-manage-report-layouts.md)  
- [Arbeta med rapporter och batch-jobb](ui-work-report.md)  
+ [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  

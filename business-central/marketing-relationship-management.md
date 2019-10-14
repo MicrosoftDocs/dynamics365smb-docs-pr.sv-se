@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446744"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308807"
 ---
 # <a name="managing-relationships"></a>Hantera relationer
 Kundhanteringsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.
@@ -34,4 +34,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Definiera segment om du vill markera en grupp med kontakter enligt ett visst kriterium, till exempel en bransch som kontakterna tillhör.|[Hantera segment](marketing-segments.md)|
 |Bearbeta inkommande leads genom att skapa affärsmöjligheter och koppla dem till säljare så att du kan följa upp presumtiv försäljning.|[Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)|
 |Skapa marknadsföringsplaner för att identifiera, attrahera och bibehålla kunderna.|[Hantera marknadsföringskampanjer](marketing-campaigns.md)|
-|Använd Dynamics 365 for Sales for Customer Engagement och du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda Business Central för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.|[Integrera med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Använd Dynamics 365 Sales för Customer Engagement och du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda Business Central för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.|[Integration med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

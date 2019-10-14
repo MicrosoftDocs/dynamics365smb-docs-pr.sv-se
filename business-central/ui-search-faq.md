@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248024"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310762"
 ---
 # <a name="tell-me-faq"></a>Vanliga frågor om Berätta
-Det här avsnittet innehåller svar på frågor som våra avancerade användare ofta fråga om Berätta som har ersatt den tidigare funktionen Sidsökning som kallas **Söka efter sidor och rapporter**.
+I det här avsnittet besvaras frågor som våra erfarna användare ofta frågar om funktionen berätta för mig.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Är alla åtgärder från den aktuella sidan synliga i Berätta?
 Nej. Åtgärder i delar, till exempel Försäljningsraddelar eller faktaboxar, visas inte vet i Berätta.
@@ -32,8 +32,8 @@ Om användaren inte har AccessByPermissions visas inte åtgärder. Sidor och rap
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Vad gör att detta skiljer sig från vad som tidigare var känt som Sidsökning?
 Sidsökning har utvecklats till Berätta för att hjälpa dig att få jobbet gjort fortare. Sidsökning kan bara hjälpa dig att navigera till sidor och rapporter. På teknisk nivå baseras Berätta inte längre på äldre MenuSuite-begrepp.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Du kan använda lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omfattar detta Berätta?
-Du kan använda Berätta i den lokala webbklienten för att hitta åtgärder, sidor och rapporter, men inte dokumentation eller appar och konsulttjänster i AppSource. Användare som ansluter till [!INCLUDE[d365fin](includes/d365fin_md.md)] från Dynamics NAV-klienten fortsätter att använda Sidsökning.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Du kan använda lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omfattar detta Berätta?
+Du kan använda Berätta i den lokala webbklienten för att hitta åtgärder, sidor och rapporter, men inte dokumentation eller appar och konsulttjänster i AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Är Berätta tillgänglig för alla formfaktorer?
 Berätta finns bara i webbklienten eller Windows-skrivbordsapp.
@@ -41,5 +41,14 @@ Berätta finns bara i webbklienten eller Windows-skrivbordsapp.
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Är dokumentationsresultatet på ett annat språk?
 Hjälpartiklarna visas på det språk som du har angett i **Mina inställningar**, om det finns hjälp på det språket.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Varför visas inte en bokmärkesikon för mina sökresultat?
+Ikonen för bokmärket visas inte i fönstret berätta för mig när anpassningar inaktiveras för en användarroll.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Är ikonen för bokmärken tillgänglig för rapporter?
+Nr Du kan bara förse en länk med ett bokmärke eller sökresultat som visas i avsnittet **sidor och uppgifter** i fönstret berätta för mig.
+
+
 ## <a name="see-also"></a>Se även  
-[Söka efter Funktioner och information](ui-search.md)
+[Spara och anpassa listvyer](ui-views.md)  
+[Söka efter sidor och information med berätta](ui-search.md)  
+[Söka efter sidor från en funktions översikt](ui-role-explorer.md)

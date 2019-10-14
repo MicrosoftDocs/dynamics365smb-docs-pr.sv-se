@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 95ce328595bccaff230699c56e603ba55f9375b7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 26ce0f4661a44c1f478b38a2709015ea6ff1f602
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240102"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309706"
 ---
 # <a name="transfer-inventory-between-locations"></a>Överföra lager mellan olika lagerställen
 Du kan överföra lagerartiklar mellan olika lägerställen genom att skapa överföringsorder. Du kan även använda artikelgrupperingsjournalen.
@@ -31,20 +31,24 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>För att överföra artiklar med en överföringsorder.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Överföringsorder** och välj sedan relaterad länk.
-2. På sidan **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I huvudet på sidan **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   Om du har fyllt i fälten **Transitkod**, **Speditörkod** och **Speditör servicekod** på sidan **Överföringsflödespec.** när du lade upp överföringsflödet, fylls motsvarande fält i automatiskt på överföringsordern.
 
     När du fyller i fältet **Speditörsservice** beräknas datum för inleverans till det aktuella lagerstället genom att speditörens leveranstid tillförs utleveransdatumet.
 
+3. Om du vill fylla i raderna anger du dem manuellt eller väljer ett av följande alternativ under åtgärdsfönstret **funktioner**:
+    - Välj åtgärden **Hämta lagerplatsinnehåll** om du vill välja befintliga artiklar från en viss lagerplats på lagerstället.
+    - Välj **Hämta inleveransrader** för att välja artiklar som precis har anlänt till det lagerställe där överföringen sker.   
+
     Som lagerarbetare på utleveranslagerstället fortsätter du med att leverera artiklarna.
-3. Välj åtgärden **bokför**, välj alternativet **leverera**, och välj sedan **OK**-knappen.
+4. Välj åtgärden **bokför**, välj alternativet **leverera**, och välj sedan **OK**-knappen.
 
     Artiklarna är nu på väg mellan de angivna lägerställena i enlighet med angivet överföringsflöde.
 
-    Som lagerarbetare på utleveranslagerstället fortsätter du med att inleverera artiklarna.
-4. Välj åtgärden **bokför**, välj alternativet **inleverera**, och välj sedan **OK**-knappen.
+    Som lagerarbetare på utleveranslagerstället fortsätter du med att inleverera artiklarna. Överföringsorderraderna är desamma som när de levereras och kan inte redigeras.
+5. Välj åtgärden **bokför**, välj alternativet **inleverera**, och välj sedan **OK**-knappen.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Så här överför du artiklar med artikelgrupperingsjournalen
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelgrupp.journaler** och välj sedan relaterad länk.

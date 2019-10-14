@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e459539fe49b21d3c0287793d054213f2d191e4d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9286eaa2237050e55018f31f13dc56b766588fa4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241406"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301068"
 ---
 # <a name="print-balance-sheet-and-income-statement-reports"></a>Skriv ut rapporterna Balansräkning och Resultaträkning
 Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter. I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital. I rapporten **Resultaträkning** visas intäkter och kostnader.  
@@ -37,5 +37,5 @@ Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska
 4.  Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.  
 
 ## <a name="see-also"></a>Se även  
- [Arbeta med rapporter och batch-jobb](../../ui-work-report.md)   
+ [Arbeta med rapporter och batch-jobb och XMLports](../../ui-work-report.md)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)

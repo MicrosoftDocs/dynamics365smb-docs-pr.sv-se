@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248186"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315234"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Så här importerar och exporterar du en anpassad rapport eller dokumentlayout
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  
@@ -54,4 +54,4 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 ## <a name="see-also"></a>Se även  
  [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
  [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
- [Arbeta med rapporter och batch-jobb](ui-work-report.md)    
+ [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)    

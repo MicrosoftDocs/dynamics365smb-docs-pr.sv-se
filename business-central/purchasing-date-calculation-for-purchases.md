@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7dfe565fc533ca5a724675c925cf6a415c49b94
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 41b1b1b0459706a8c061a0044824b5b7c4c9aa62
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737103"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312586"
 ---
 # <a name="date-calculation-for-purchases"></a>Datumberäkning för inköp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknas automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning.  

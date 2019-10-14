@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245308"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300791"
 ---
 # <a name="changing-language-and-locale"></a>Byta språk och plats
 
@@ -40,7 +40,7 @@ Du kan ändra språkvariant i fliken som du använder för att arbeta i [!INCLUD
 
 Om du vill ändra språkvariant går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Språk för [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälpen
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Språk för [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälpen
 Innehållet i hjälpen för grundläggande funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] publicerar på webbplatsen Microsoft Docs och finns på flera olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska.
 
 ### <a name="how-do-i-change-the-language"></a>Hur ändrar jag språket?

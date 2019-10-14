@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Arbeta med dimensioner" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Så här skapar du budgetar" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Så här bokför du transaktioner direkt i redovisningen" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Så här: Återföra en bokning" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Så här: Återföra journalbokningar och ångra inleveranser/utleveranser" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Förklarar hur du fördelar kostnader och intäkter." Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Så här: Använd artikelomkostnader till kontot för ytterligare kostnader" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Så här: skapa och återbetala anställdas utgifter" Page="finance-how-record-reimburse-employee-expenses.html"/>

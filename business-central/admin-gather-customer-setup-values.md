@@ -1,8 +1,6 @@
 ---
 title: Samla in kundinställningsvärden | Microsoft Docs
-description: Du använder frågeformuläret för konfiguration för att lättare kunna minska din implementeringsarbetsbörda, detta genom att effektivisera arbetet med att konfigurera det nya företaget. Du kan skapa frågeformuläret för konfiguration i Business Central och sedan leverera den sedan till kunden som en Excel- (.xls) eller XML-fil.
-services: project-madeira
-documentationcenter: ''
+description: Du använder frågeformuläret för konfiguration för att lättare kunna minska din implementeringsarbetsbörda, detta genom att effektivisera arbetet med att konfigurera det nya företaget. Du kan skapa frågeformuläret för konfiguration i Business Central och sedan leverera den sedan till kunden som en Excel- (.xlsx) eller XML-fil.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245578"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304642"
 ---
 # <a name="gather-customer-setup-values"></a>Samla in kundinställningsvärden
 Du använder frågeformuläret för konfiguration för att lättare kunna minska din implementeringsarbetsbörda, detta genom att effektivisera arbetet med att konfigurera det nya företaget. Du kan skapa frågeformuläret för konfiguration i [!INCLUDE[d365fin](includes/d365fin_md.md)] och sedan leverera den till kunden som en .xls- eller XML-fil.  
@@ -75,7 +73,7 @@ Du använder frågeformuläret för konfiguration för att strukturera och dokum
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsfrågeformulär** och välj sedan relaterad länk.  
 3. Välj frågeformuläret för företaget och välj sedan åtgärden **Exportera till Excel**, alternativt åtgärden **Exportera till XML**.
 4. Låt kunden slutföra konfigurationsfrågeformuläret genom att ange svaren i Excel-arbetsboken. Det finns formulär för varje frågeområde som har skapats för frågeformuläret.   
-5. Välj åtgärden **Importera från Excel** och välj .xlsx-filen med kundens svar.  
+5. Spara Excel-arbetsboken som *XML-data*. Välj åtgärden **Importera från XML** och välj .xml-filen med kundens svar.
 6. Välj åtgärden **Frågeområden** för att inleda processen med att validera och tillämpa svaren i konfigurationsfrågeformuläret.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Så här kan du fylla i ett frågeformulär från konfigurationskalkylarket  

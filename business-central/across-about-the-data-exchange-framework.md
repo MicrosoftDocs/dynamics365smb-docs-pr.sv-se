@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e8dc6080f51c1598bb2a003e6b3899c017d2134e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245948"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300719"
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Om ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365fin_mdmd"></a>Om ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Formatet på filer för utbyte av data i bankfiler, elektroniska dokument, valutakurser och annat med ERP-system varierar beroende på leverantören av datafilen eller strömmen och på land/region. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika bankfilformat och datatjänststandarder. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).    
 
  Följande diagram visar arkitekturen för ramverket för datautbyte.  

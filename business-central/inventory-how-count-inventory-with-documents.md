@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240286"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309922"
 ---
 # <a name="count-inventory-using-documents"></a>Beräkna lager med hjälp av dokument
 Du kan göra en fysisk inventering av artiklar med hjälp av inventeringsorder och inventeringsregistreringsdokument. Sidan **inventeringsorder** används för att ordna de fullständiga inventeringar, till exempel en per lagerställe. Sidan **registrering av fysiskt lager** används för att kommunicera och samla in faktiska inventeringen av artiklar. Du kan skapa flera inspelningar av en order, till exempel för att fördela grupper av artiklar till olika medarbetare.
@@ -94,7 +94,7 @@ När du är klar med inventeringsregistrering uppdateras på fältet **inspelnin
 
 För att visa förväntade kvantiteter och alla registrerade avvikelser för artiklar med artikelspårning väljer du åtgärden **rader** och väljer sedan åtgärden **Artikelspårningsrader** för att välja olika vyer för serienummer och partinummer i den inventeringen.
 
-Du kan också välja åtgärden **Differens för inventeringsorder** för att visa eventuella skillnader mellan den förväntade kvantiteten och den inventerade kvantiteten.
+Du kan även välja differensen för **Differens för inventeringsorder** åtgärd för att visa eventuella skillnader mellan förväntat antal och inventerat antal.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Hitta dubbla inventeringsorderrader
 

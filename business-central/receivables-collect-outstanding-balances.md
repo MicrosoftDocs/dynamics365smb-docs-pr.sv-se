@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985892"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316650"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 Betalningshanteringen består i att kontrollera om kunderna betalar i tid. Om kunderna har förfallna betalningar, kan du börja med att skicka kundkontoutdragsrapporten som betalningspåminnelse. Alternativt kan du skicka betalningspåminnelser.
@@ -161,6 +161,11 @@ Dessutom kan utskickandet av räntefakturor resultera i momstransaktioner.
 
 Betalningspåminnelsen är avsedd att skickas ut till en angiven e-postadress som en bifogad PDF-fil.
 
+### <a name="to-cancel-an-issued-reminder"></a>För att annullera en utfärdad betalningspåminnelse.
+Om påminnelserna utfärdades felaktigt kan du avbryta dem innan de skickas ut. Det kan du göra antingen av en eller som en batch.
+1. På sidan **Utfärdade påminnelser**, välj en eller flera rader för utfärdade betalningspåminnelser som du vill avbryta och välj sedan åtgärden **Avbryt**.
+2. På sidan **Annullera utfärdade betalningspåminnelser** fyller du i fälten efter behov och väljer sedan knappen **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Ange räntevillkoren
 Du måste upprätta en kod, som representerar respektive beräkningssätt av dröjsmålsränta. Sedan kan du ange den här koden i fältet **Räntevillkorskod** på kundkorten.
 
@@ -243,6 +248,11 @@ Dessutom kan utskickandet av räntefaktura resultera i momstransaktioner.
 4. Välj **OK**.
 
 Räntefakturan är avsedd att skickas ut till en angiven e-postadress som en bifogad PDF-fil.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>För att annullera utfärdad räntefaktura.
+Om räntefakturor utfärdades felaktigt kan du avbryta dem innan de skickas ut. Det kan du göra antingen av en eller som en batch.
+1. På sidan **Utfärdade räntefakturor**, välj en eller flera rader för utfärdade räntefakturor som du vill avbryta och välj sedan åtgärden **Avbryt**.
+2. På sidan **Annullera utfärdade räntefakturor** fyller du i fälten efter behov och väljer sedan knappen **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Så här visar du betalningspåminnelse- och räntetransaktioner  
 När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetransaktion på sidan **Bet.påminnelse/räntetrans.** för alla betalningspåminnelserader som innehåller en kundreskontratransaktion. Om du vill kan du visa en översikt över de betalningspåminnelsetransaktioner som skapats för en viss kund.    

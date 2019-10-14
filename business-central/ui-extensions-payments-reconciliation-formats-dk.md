@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ff09be509c1ab6366dbd852a5c1c6e69f46cc9d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250739"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311218"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 Gör snabba, felfria betalninger genom att exportera filer som är specifikt formaterade för utbyte med din leverantör eller bank. Filerna påskyndar processerna för betalning och avstämning och undviker fel som kan inträffa när du manuellt anger information på en bankwebbplats.  
@@ -53,7 +53,7 @@ Det finns några steg för att komma igång.
 
 Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokföringsmall** och en **Leverantörsbokföringsmall**. Inställningen av Land/Region måste för leverantören vara Danmark (DK). Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsjournal** och välj sedan relaterad länk.  
 2. På sidan **Redigera betalningsjournal**, välj journalen **Bank**.  
 3. Markera kryssrutan **Tillåt betalningsexport**.  

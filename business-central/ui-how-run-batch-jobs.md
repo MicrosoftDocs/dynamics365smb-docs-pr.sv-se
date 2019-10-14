@@ -10,19 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2387356fd3e80e5020b4d2e4857280dd4b99788a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249267"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315210"
 ---
-# <a name="run-batch-jobs"></a>Kör batchjobb
+# <a name="run-batch-jobs-and-xmlports"></a>Kör batch-jobb och XML-portar
 Ett batch-jobb i är en rutin som bearbetar data i omgångar, till exempel batch-jobbet **Justera valutakurser**. Det finns batch-jobb som utför regelbundna redovisningsaktiviteter, som till exempel att stänga resultaträkningen i slutet av ett räkenskapsår. Många batch-jobb utför beräkningsarbetet, t.ex beräkning av dröjsmålsränta, valutakursjustering och beräkning av styckkostnaden.
 
 Ett batch-jobb påminner om en rapport, förutom att batch-jobbet använder resultatet från åtgärden för att uppdatera informationen direkt, i stället för att skriva ut resultatet.
+
+Du kan schemalägga när ett batchjobb körs. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Så här kör du ett batch-jobb:
 1. Öppna definitionssidan för önskat batch-jobb, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange namnet på batch-jobbet och välj sedan relaterad länk.
@@ -32,4 +34,5 @@ Ett batch-jobb påminner om en rapport, förutom att batch-jobbet använder resu
 
 ## <a name="see-also"></a>Se även
 [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
+[Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

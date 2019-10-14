@@ -1,59 +1,83 @@
 ---
-title: 'Så här: Länka från poster till extern information eller program | Microsoft Docs'
+title: Lägg till bifogade filer, länkar och anteckningar på poster | Microsoft Docs
 description: Koppla en hyperlänk till ett dokument eller en webbplats till en viss post, till exempel en kund eller ett dokument.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/12/2019
-ms.author: jswymer
-ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629763"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315282"
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Lägga till länkar till webbplatser, dokument och program på poster
-För en viss post, till exempel kund, dokument eller försäljningsorder, kan du lägga till en länk till ett externt dokument, webbplatser eller program. Eller så kanske du vill ha en länk som öppnar ett nytt, tomt e-postmeddelande till en viss mottagare när du klickar på den. Kortsidan för vissa kort, till exempel kund- och leverantörskorten, innehåller fältet **Hemsida** där en Internettadress (URL) kan anges. Om du vill infoga andra länkar kan du använda den metod som beskrivs i den här artikeln.  
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
-> [!IMPORTANT]
-> För närvarande finns den här funktionen bara i [!INCLUDE [prodshort](includes/prodshort.md)] lokal distribution med äldre Dynamics NAV Windows-klienten.  
+I faktaboxen för de flesta kort och dokument kan du bifoga filer, lägga till länkar och skriva anteckningar. För länkar och noteringar kan du också göra det på listsidan genom att först välja den relaterade raden.
 
-Ett annat exempel är när du får utskrivna fakturor från leverantörer. Du kan skanna in dem och spara dem som PDF-filer på en SharePoint-webbplats. Därefter kan du skapa en länk från en inköpsfaktura i [!INCLUDE[d365fin_md](includes/d365fin_md.md)] till motsvarande faktura på SharePoint. Du kan också skapa en länk från ett artikelkort till motsvarande sida i leverantörens onlinekatalog.
+Om du vill visa eller ändra dessa kopplade informationstyper måste du först öppna fliken **bifogade filer** i faktaboxen. Numret bakom flikens rubrik visar hur många bifogade filer, länkar eller anteckningar som finns för kortet eller dokumentet.
 
-## <a name="to-add-a-link-on-a-record"></a>Så här lägger du till en länk på en post:   
+Bilagor, länkar och anteckningar förblir kopplade till ett kort eller dokument, till exempel från en pågående försäljningsorder till en bokförd försäljningsfaktura. Observera emellertid att ingen av de bifogade filerna skrivs ut från systemet, till exempel vid utskrift eller när filen sparas i en fil.
 
-1.  Öppna posten som du vill bifoga länken till, till exempel ett kundkort eller en försäljningsorder. Om du vill bifoga länken till en specifik rad, till exempel till en journalrad, markerar du raden.  
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Så här bifogar du en fil till en inköpsfaktura
+Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till ett kort eller dokument. Detta är användbart om du t.ex. vill lagra en leverantörs faktura som en PDF-fil på den relaterade inköpsfakturan i [!INCLUDE[d365fin](includes/d365fin_md.md)]i.
 
-2.  Välj åtgärden **länkar** för att öppna sidan **länkar** som visar de aktuella länkarna som du lägger till posten.
+> [!NOTE]
+> Filer som bifogas med funktionen inkommande dokument finns inte på fliken **bifogade filer**. Mer information finns i [inkommande dokument](across-income-documents.md).
 
-3. För att lägga till en ny länk väljer du **+ny**.
+Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument och kort som stöds.
 
-4.  I fältet **länkar** anger du
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.
+2. Öppna försäljningsorder som du vill bifoga en fil till.
+3. Öppna fliken **bifogade filer** i faktaboxen.
+4. Välj värdet bakom fältet **dokument**, till exempel "0".
+5. På sidan **Bifogade dokument** i fältet **bilaga**, välj knappen **Välj en fil**.
+5. Markera en fil varifrån som helst och välj sedan knappen **öppna**.
 
-    -   Om du vill länka till en fil på datorn eller i nätverket, anger du den fullständiga sökvägen och filnamnet som **C:\My Documents\invoice1.doc**.
-    -   Länka till en webbplats genom att ange Internet-adressen (URL) som **www.microsoft.com**.
-    -   Länka till ett program genom att ange en sträng för att öppna programmet. Om du vill starta OneNote med en viss sida skriver du **onenote:///C:\My Documents/test.one**. Eller om du vill öppna Outlook med ett nytt, tomt e-postmeddelande till ett visst alias skriver du **mailto:testalias**.  
+Filen är nu bifogad inköpsfakturan.
 
-5.  Ange information om länken i fältet **Beskrivning**.  
+## <a name="to-add-a-link-from-an-item-card"></a>Att lägga till länk från ett artikelkort
+Du kan lägga till en länk från ett kort eller dokument till en URL eller sökväg. Detta är användbart om du t.ex. vill koppla ett artikelkort till leverantörens artikelkatalog.
 
-6.  Klicka på **Spara**.  
+Följande procedur baseras på ett artikelkort. Stegen är liknande för alla andra kort och dokument.
 
-## <a name="to-delete-a-link-from-a-record"></a>Så här tar du bort en länk från en post:  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
+2. Välj den artikel som du vill lägga till en länk från och välj sedan fliken **bifogade filer** i faktaboxen.
+3. Välj ikonen **länkar**, välj ikonen **+**.
+4. I fältet **länkadresser** anger du länken.
 
-För att ta bort en länk kan du på sidan **länkar** du ange **...** och **Ta bort**.
+    - Om du vill länka till en fil på datorn eller i nätverket, anger du den fullständiga sökvägen och filnamnet som **C:\My Documents\invoice1.doc**.
+    - Länka till en webbplats genom att ange Internet-adressen (URL) som **www.microsoft.com**.
+    - Länka till ett program genom att ange en sträng för att öppna programmet. Om du t.ex. vill öppna Outlook med ett nytt, tomt e-postmeddelande till ett visst alias skriver du **mailto:testalias**.  
 
-Om du tar bort en enstaka post (till exempel en försäljningsorderrad, en försäljningsorder eller ett kundkort) tas postens alla bifogade länkar bort. Om användaren däremot tar bort poster med hjälp av ett batch-jobb **Ta bort fakturerade förs.order** sparas länkarna i databasen. Kör kodmodulen **Ta bort tomma postlänkar** för att ta bort länkarna från databasen. För att göra detta, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och gå till **Ta bort tomma postlänkar** och välj sedan relaterad länk.   
+5. I fältet **Beskrivning**, ange information om länken.  
+6. Välj **OK**.
 
-<!-- ### To run delete orphaned record links  
+Länken kopplas nu till artikelkortet.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+## <a name="to-write-a-note-on-a-sales-order"></a>Skriva en notering på en försäljningsorder
+Du kan skriva en notering på ett dokument eller kort, t.ex. om du vill skicka särskilda instruktioner till andra användare av dokumentet eller kortet. Du kan ta med fillänkar och URL:er i anteckningar.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+> [!NOTE]
+> Anteckningarna på fliken **bifogade filer** är inte relaterade till interna anteckningsfunktioner, som i huvudsak används för att kommunicera mellan arbetsflödesanvändare. Mer information finns i [Ställa in meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md).
+
+Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument och kort som stöds.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
+2. Välj den försäljningsorder som du vill skriva en anteckning på och välj sedan fliken **bifogade filer** i faktaboxen.
+3. Välj avsnittet **anteckningar**, välj ikonen **+**.
+4. I fältet **Anteckning** skriv någon text, t.ex. "detta är en brådskande order.".
+5. Välj **OK**.
+
+Noteringen är nu kopplad till försäljningsordern.
 
 ## <a name="see-also"></a>Se även  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Inkommande dokument](across-income-documents.md)  
+[Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  

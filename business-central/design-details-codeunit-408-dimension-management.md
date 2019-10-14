@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: 3b3cc817ac79fa18a5f0b68b97a54fab9ac6711b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970976"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307330"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Designdetaljer: Kodenhet 408 Dimension Management
 Kodenhet 408 DimensionManagement är ett funktionsbibliotek som hanterar gemensamma uppgifter som är kopplade till dimensioner, till exempel kopiering från en tabell till en annan eller från ett dokument till ett annat. I det här avsnittet beskrivs funktionerna som har ändrats i Microsoft Dynamics NAV 2013 R2 vad som måste göras i funktionerna. Många operationer tas bort, eftersom det inte finns något behov av att kopiera mellan dimensionstabeller.  

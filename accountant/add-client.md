@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95a4153c56693d8bdd28980f1acff14b917a9488
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237860"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300073"
 ---
-# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Lägga till klienter i instrumentpanelen i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="add-clients-to-your-dashboard-in-include-d365acc_longincludesd365acc_long_mdmd"></a>Lägga till klienter i instrumentpanelen i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Du kan lägga till en klient med hjälp av sidan **klienter** som du öppnar genom att välja åtgärd **hantera klienter** i menyfliksområdet. Välj bara **Ny** och fyll sedan i relevanta fält.  
@@ -32,7 +32,7 @@ Datan i ett kort för varje klient som anges av dig och du kan ändra den efter 
 
 Klien-URL:en används sedan när du väljer menyobjektet **Gå till företag** på instrumentpanelen [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 
-### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Bli inbjuden till en klients [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
+### <a name="get-invited-to-a-clients-include-d365fin_longincludesd365fin_long_mdmd"></a>Bli inbjuden till en klients [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
 Ett företag som använder [!INCLUDE [d365fin](includes/d365fin_md.md)]kan bjuda in dig till [!INCLUDE [d365fin](includes/d365fin_md.md)]som deras extern revisor. Om du vill bli inbjuden måste du ge dem den e-postadress som du använder med [!INCLUDE [d365acc](includes/d365acc_md.md)] såsom <em>me@accountant.com</em>. Klientens administratör kan sedan lägga till dig i sina system genom att köra guiden **bjuda in extern revisor**.  
 
 Därför får du e-post från en klient med länkar till deras [!INCLUDE [d365fin](includes/d365fin_md.md)]. Den första länken är en inbjudan för att få tillgång till företaget – öppna länken och acceptera stegen som lägger till klienternas [!INCLUDE [d365fin](includes/d365fin_md.md)]. Den andra länken är för att lägga till den här klienten till instrumentpanelen i [!INCLUDE [d365acc](includes/d365acc_md.md)] som beskrivs ovan.  

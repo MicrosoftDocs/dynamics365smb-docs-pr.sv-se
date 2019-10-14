@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 0fccda42a69cd1d1d7129380518890fac5b8986c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921344"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315090"
 ---
 # <a name="posting-purchases"></a>Bokföra inköp
 I **Bokföringsgrupp** i ett inköpsdokument kan du välja mellan följande bokföringsfunktioner:
@@ -39,7 +39,7 @@ Innan du börjar bokföra kan du välja att skriva ut en testrapport som visar a
 > [!IMPORTANT]  
 >   När du bokför en order kan du skapa både en inleverans och en faktura. Detta kan göras samtidigt eller oberoende av varandra. Du kan också skapa en delinleverans och en delfaktura genom att fylla i fältet **Ant. att inlevereras** och **Ant. att fakturera** på de enskilda inköpsorderraderna innan du bokför. Observera att du inte kan skapa en faktura för något som inte har inlevererats. Innan du kan fakturera måste du således ha registrerat en inleverans alternativt välja att inleverera och fakturera samtidigt.
 
-Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut, skrivs en rapport ut när ordern bokförs. Du kan även välja funktionen **Bokför batch-jobb** som ger dig möjlighet att bokföra fler fakturor samtidigt.
+Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut, skrivs en rapport ut när ordern bokförs. Du kan även välja funktionen **Bokför batch-jobb** som ger dig möjlighet att bokföra fler fakturor samtidigt. Mer information finns i [Bokföra flera dokument på samma gång](ui-batch-posting.md).
 
 När bokföringen är slutförd tas de bokförda inköpsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidor som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktioner**, **Inleverans** och **Bokförda inköpsfakturor**.
 
@@ -47,8 +47,9 @@ Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **
 
 ## <a name="see-also"></a>Se även
 [Redigera bokförda dokument](across-edit-posted-document.md)  
+[Bokföra flera dokument på samma gång](ui-batch-posting.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Med hjälp av Berätta för att hitta funktioner och Information](ui-search.md)  
+[Söka efter sidor och information med berätta](ui-search.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

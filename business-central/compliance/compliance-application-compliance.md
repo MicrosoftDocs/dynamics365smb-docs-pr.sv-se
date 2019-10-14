@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246893"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303883"
 ---
 # <a name="application-compliance"></a>Programmets regelefterlevnad
 Innehållet anger information om programmet regelefterlevnad i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)], som internationella finansiella rapporteringsstandarder, lokal funktionalitet, GDPR med mera. Förtroende i ett verksamhetssystem är nyckeln till att driva en effektiv verksamhet. Med Business Central kan företag anpassa affärsprocesserna och samtidigt konsekvent och kostnadseffektivt uppfylla ökade reglerings- och rapporteringskrav.
@@ -46,15 +46,18 @@ Business Central ger integrerad operationell och finansiell information i realti
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Justering av viktig information, processer och rapporter
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Hantera regelefterlevnad till de standarder som är viktiga
+
 Leverera integrerad information, justerade processer och lättanvända verktyg för att hjälpa användarna att uppfylla förväntningarna på ekonomihantering och standarder som är viktiga för din specifika verksamhet.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Skräddarsy kontouppställningar till dina behov
+
 - Definiera strukturen på ditt företags kontoplan utifrån företagets behov och tillämpliga standarder
 - Skapa och hantera komplexa processer för en mängd affärsaktiviteter, inklusive lagervärderingen i utländska valutor, segmentrapportering och avvikelser från lokala GAAP.
 - Kontrollera detaljnivån för alla registrerade transaktionen och välj detaljerad registrering för vissa typer av transaktioner, till exempel anläggningstillgångar och leverantörsreskontra.
-- Anpassa schemaberäkningar och visa för ekonomisk rapportering eller exportera informationen till Microsoft Office Excel® för vidare analys.
+- Anpassa schemaberäkningar och visa för ekonomisk rapportering eller exportera informationen till Microsoft Excel för vidare analys.
 
 ### <a name="improve-information-validity"></a>Förbättra giltigheten av information
+
 - Konfigurera datafält för att endast acceptera informationen i dess rätta format, såsom rätt antal decimaler eller alfanumeriska mönster.
 - Försäkra dig om att informationen är komplett med programkontroller, t.ex. att kräva att ett leverantörsfakturanummer anges innan en inköpsorder kan bokföras.
 - Minska risken för felaktig information eller obehörig åtkomst och skydda känslig information för åtkomst till information som baseras på jobbroll.
@@ -69,9 +72,10 @@ Leverera integrerad information, justerade processer och lättanvända verktyg f
 - Hastighetsöverföring av finansiell information till kunder, aktieägarna, myndigheter och allmänheten med XML-baserade XBRL-dokument som stöder utbyte av ekonomisk information mellan olika program och tekniker, inklusive Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjälper till att rensa granskningshistorik
+
 - Spåra dokument och information både framåt eller bakåt genom systemet från den ursprungliga källan till slutliga ekonomirapporter och tillbaka.
 - Identifiera hur, när och av vem information angavs eller redigerades och för vilka finansiella transaktioner som den har bokförts.
-- Slå upp databasändringar, inklusive tidigare och nya data i ändringsloggen för lösningen.
+- Slå upp databasändringar, inklusive tidigare och nya data i lösningens [ändringslogg](../across-log-changes.md).
 - Öka transparens i redovisningsspårning och användbarhet och hastighetsinformationsåtkomst för fristående revisorer med detaljerad sökning, filtrering, register och navigering
 
 ## <a name="compliance-and-local-functionality"></a>Regelefterlevnad och lokala funktioner
@@ -89,7 +93,8 @@ Microsoft bygger lokaliserade versioner av Business Central för vissa länder. 
 > **Basel II: konsekvenser för rapportering och analyser**  
 > Basel II utvecklas av banken för internationell kvittningar, hjälper till att garantera säkerhet i det finansiella systemet inom tre nyckelområden: minsta kapitalkrav, övervakande av granskningsprocess och marknadsdisciplin. Även om överenskommelse gäller finansiella institut och inte anpassar små och medelstora företag, kan Basel II ha vissa konsekvenser för dessa organisationer i rapporter och analyser.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Regelefterlevnad](compliance-overview.md)  
 [Tjänstens regelefterlevnad](compliance-service-compliance.md)  
 [Intyg](compliance-certifications.md)  

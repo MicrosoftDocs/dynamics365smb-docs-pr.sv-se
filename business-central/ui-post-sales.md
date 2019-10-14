@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921436"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310786"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
 Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan följande bokföringsfunktioner:
@@ -39,14 +39,17 @@ För varje orderrad skapas en artikeltransaktion i tabellen **Artikeltransaktion
 > [!IMPORTANT]  
 >   När du bokför en order kan du skapa både en utleverans och en faktura. Detta kan göras samtidigt eller oberoende av varandra. Du kan också skapa en delutleverans och en delfaktura genom att fylla i fältet **Ant. att utleverera** och **Ant. att fakturera** på de enskilda försäljningsorderraderna innan du bokför. Observera att du inte kan skapa en faktura för något som inte har utlevererats. D.v.s. innan du kan fakturera måste du ha registrerat en leverans alternativt välja att leverera och fakturera samtidigt.
 
+Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut, skrivs en rapport ut när ordern bokförs. Du kan även välja funktionen **Bokför batch-jobb** som ger dig möjlighet att bokföra fler fakturor samtidigt. Mer information finns i [Bokföra flera dokument på samma gång](ui-batch-posting.md).
+
 När bokföringen är slutförd tas de bokförda försäljningsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidorna som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktion**, **Bokförda försäljningsutleveranser** och **Bokförda försäljningsfakturor**.  
 
 Du kan redigera vissa fält i bokförda försäljningsdokument, till exempel fältet **Godsupplysningsnr**. . Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md).
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
+[Bokföra flera dokument på samma gång](ui-batch-posting.md)  
 [Redigera bokförda dokument](across-edit-posted-document.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md)  
-[Med hjälp av Berätta för att hitta funktioner och Information](ui-search.md)  
+[Söka efter sidor och information med berätta](ui-search.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

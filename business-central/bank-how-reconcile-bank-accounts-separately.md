@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 69afda011e17a13eff747f8916e33c74c336bb82
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245102"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304210"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Stämma av bankkonton separat
 Stämma av bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] med rapporter har fått från banken, börjar du med att fylla i den vänstra rutan på sidan **bankkontoavstämning** med bankutdragsinformation som måste matcha (synkronisera) med redovisningstransaktioner för bankkontot i den högra rutan. Ett smart sätt att fylla i bankutdragsrader är genom att importera en bankkontoutdragsfil eller feed.
@@ -28,7 +28,7 @@ Stämma av bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] med rapporte
 > [!TIP]  
 > Du kan också stämma av bankkonton på sidan **Betalningsavstämningsjournal**. Eventuella öppna bankkontotransaktioner som relateras till kopplade kund- eller leverantörsreskontratransaktionerna kommer att avslutas när du väljer **Bokför betalningar och stäm av bankkonton**. Detta betyder att bankkontot stäms av automatiskt för betalningar som du bokför med journalen. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
-Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa och aktivera Envestnet Yodlee Bank Feeds-tjänsten och sedan länka dina bankkonton till relaterade onlinebankkonton. Mer information finns i [Konfigurera du Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md).
+Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa och aktivera Envestnet Yodlee Bank Feeds-tjänsten och sedan länka dina bankkonton till relaterade onlinebankkonton. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Raderna på sidan **Bankkontoavstämning** är uppdelade i två rutor. Rutan **Bankkontoavstämning** visar antingen importerade banktransaktioner eller transaktioner med utestående utbetalningar. Rutan **Bankkontotransaktioner** visar transaktionerna på bankkontot.
 

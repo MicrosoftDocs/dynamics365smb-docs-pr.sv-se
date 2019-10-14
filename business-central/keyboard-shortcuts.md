@@ -8,31 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985916"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309466"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> För en snabb utskriftsvänlig översikt över de vanligaste kortkommandona [se referensartikeln här](keyboard-shortcuts-cheatsheet.md) eller klicka på följande bild:
+> En mer användarvänlig översikt över de mest populära kortkommandona för datoranvändare finns i [kortkommandon (endast på dator)](keyboard-shortcuts-cheatsheet.md). För en grafisk representation väljer du följande bild:
 >
 >[ ![Om du vill hämta för utskrift, högerklicka och välj spara bild som](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## <a name="overview"></a>Översikt
-Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida.
+Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida. De stöds av de flesta webbläsare, beteendet kan dock variera något.
 
-Kortkommandona stöds av de flesta webbläsare, beteendet kan dock variera något.
+> [!NOTE]
+> Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.
 
-Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.
+De flesta kortkommandona är desamma oavsett om operativ systemet är Windows eller macOS. Vissa kortkommandon är emellertid olika för macOS. Dessa anges med hakparenteser i följande avsnitt.
 
-De flesta av dessa genvägar är desamma oavsett om operativsystemet är Windows- eller macOS. Det finns dock några kortkommandon som är olika för macOS. Dessa anges i parantesen i tabellerna i följande avsnitt.
+> [!NOTE]
+> Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] bokför F9 ett dokument och CTRL + F7 visar de ekonomiska transaktionerna för en post. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
 
 ##  <a name="Keyboard"></a> Allmänna kortkommandon
 I följande tabell beskrivs kortkommandon för navigering och åtkomst till olika delar av en sida, till exempel åtgärder, listrutor, sökningar och mycket mer. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
@@ -40,19 +42,26 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |----------------|-----------|
 |Alt+nedpil|Öppna en listruta eller leta upp ett värde för ett fält.|    
-|Alt+Högerpil|Se de transaktioner som resulterade i ett beräknat värde i ett fält.|  
-|Alt+F2|Visa och dölj rutan Faktabox|
-|Alt+Q<br />(Ctrl+Alt+Q)|Öppna rutan **Berätta vad du vill göra** som hjälper dig att söka efter en sida, en rapport, en åtgärd på den aktuella sidan eller en artikel i dokumentationen.|
-|Alt+T|Öppna sidan **Mina inställningar**.|
 |Alt+Uppil|Visa knappbeskrivning för ett fält eller en kolumnrubrik i en tabell. Om det finns valideringsfel för fältet, trycker du på ”Alt + Uppil” för att visa innehålla valideringsfelet. Tryck på ”Esc” eller ”Alt + Uppil” för att stänga knappbeskrivningen.|
+|Alt+F2|Visa och dölj rutan Faktabox|
+|Alt+Shift+F2|Växla mellan **detaljer** och **bifogade filer** i rutan faktabox.|
+|Alt+O|Lägg till en ny anteckning för den valda posten även om rutan faktabox inte är öppen.|
+|Alt+Q<br />(Ctrl+alternativ+Q)|Öppna fönstret **Berätta**. Mer information finns i [söka efter sidor och information med berätta](ui-search.md).|
+|Alt+N |Öppna en sida om du vill skapa en ny post. (Påminner om att välja **Ny** och **+** åtgärder.)
+|Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post.
+|Alt+T|Öppna sidan **Mina inställningar**.|
+|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "knappen AssistEdit"). Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
+|Shift+F12|Öppna funktionsöversikten. Mer information finns i [söka efter sidor från en funktionsöversikt](ui-role-explorer.md).|
+|Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
 |Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t.ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|
 |Ctrl+F1|Öppna Business Central-hjälpen för sidan.|
-|Ctrl+F5|Läs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt.<br/><br />Detta är ungefär som att markera uppdatera/läsa in på nytt i webbläsaren.|
-|F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd detta för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
 |Ctrl+F12|Växla mellan breda och smala vyn.|
+|Ctrl + klicka|Navigera under anpassa personligt eller anpassa när åtgärden markeras med en pilspets. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).|  
+|Ctrl+F5|Läs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
+|F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd detta för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
 |Skriv in|Aktivera eller nå elementet eller kontrollen som är i fokus.|
-|Esc|Stäng den aktuella sidan eller listan.|
+|Esc|Stäng den aktuella sidan eller listrutan.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 
@@ -68,8 +77,8 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista|För att göra detta som en panelvisning |
 |-----------------|-------|-------|
 |Alt+F7 |Sortera markerad kolumn i stigande eller fallande ordning.|Ej tillämpbart.|
-|Shift+F10 |Öppna en meny med alternativ som är tillgängliga för den markerade raden.|Ej tillämpbart.|
-|Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |Samma.|
+|Alt+N|Infoga en ny rad i en redigerbar lista, till exempel sidan **redovisningsbudgetar**.|Samma.|
+|Shift+F10 |Öppna en meny med alternativ som är tillgängliga för den markerade raden.|Samma.|
 
 ### <a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
 
@@ -100,12 +109,12 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |Ctrl+Nedpil<br />(Ctrl+Cmd+nedpil)|Flytta fokus till raden nedanför och behåll den aktuella raden som har valts.|Ej tillämpbart.|
 |Ctrl+Blanksteg<br />(Ctrl + Cmd + blanksteg )|Utöka radmarkeringen så att den markerade raden inkluderas.<br /><br />Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + nedpil för att utöka ditt val.|Ej tillämpbart.|
 |Ctrl+A|Markera alla rader.|Ej tillämpbart.|
+|Ctrl+C<br />(Cmd+C)|Kopiera de markerade raderna till Urklipp.|Ja, men endast för en enstaka markerad panel.|
+|Ctrl+V<br />(Cmd+V)|Klistra in de markerade raderna från Urklipp till den aktuella sidan eller ett externt dokument såsom Microsoft Excel eller Outlook e-post. Du kan bara göra detta i redigerbara listor.|Ej tillämpbart.|
 |Shift+Uppil|Utöka radmarkeringen så att raden ovan inkluderas.|Ej tillämpbart.|
 |Shift+nedpil|Utöka radmarkeringen så att raden nedan inkluderas.|Ej tillämpbart.|
 |Shift+Page Up<br />(Shift+Fn+uppil)|Utöka radmarkeringen så att samtliga rader som visas ovanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.|
 |Shift+Page Down<br />(Shift+Fn+nedpil)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.|
-|Ctrl+C<br />(Cmd+C)|Kopiera de markerade raderna till Urklipp.|Ej tillämpbart.|
-|Ctrl+V<br />(Cmd+V)|Klistra in de markerade raderna från Urklipp till den aktuella sidan eller ett externt dokument såsom Microsoft Excel eller Outlook e-post. Du kan bara göra detta i redigerbara listor.|Ej tillämpbart.|
 |F8|Kopiera fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden. Du kan bara göra detta i redigerbara listor. Med detta kortkommando följt av en flik kan du snabbt kan fylla i fält i radposter som du vill ska ha samma värde som raden ovan.|Ej tillämpbart.|
 
 ### <a name="KeyboardFilter"></a>Söka och filtrera listor
@@ -122,16 +131,19 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Kortkommandon i kort och dokument
 
-Följande kortkommandon kan användas för kortsidorna (t.ex. **kund**) och dokumentsidor (t.ex. **försäljningsorder**) för att visa och ändra poster.
+Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och dokumentsidor t.ex. **försäljningsorder** för att visa och ändra poster.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |----------------|-----------|
-|Alt+F6|Komprimera och expandera den aktuella snabbfliken.|
+|Alt+F6|Växla dölj/expandera för den aktuella snabbfliken.|
 |Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |
-|Alt+Shift+N |Stäng den aktuella kortsidan och skapa ett nytt företag. samma som att välja bakåtpilen och sedan åtgärden **nytt**.|
+|Alt+Shift+N |Stäng en sida och öppna en ny för att skapa en ny post. På samma sätt som om du markerar åtgärden **OK och Nytt**. |
+|Alt+Shift+W |Öppna aktuellt kort eller dokument i ett nytt fönster. Mer information finns i [multikörning på flera sidor.](ui-enter-data.md#multitasking-across-multiple-pages)|
 |Ctrl+Nedpil|Öppna nästa post för en enhet.|
 |Ctrl+Uppil |Öppna föregående post för en enhet.|
-|Ctrl+Shift+F12 |Maximera radartiklar i ett dokument, t.ex. en försäljningsorder eller faktura. Andra delar av sidan är dolda och radartikeldelen utökas till hela arbetsytan. Tryck på knapparna igen för att återgå till normal visning.<br /><br />Mer information finns i [Fokusera på radartiklar](ui-enter-data.md#Focus).|
+|Ctrl+Ins |Infoga en ny rad i ett dokument|
+|Ctrl+radera |Ta bort raden i ett dokument, en journal eller ett förslag.|
+|Ctrl+Shift+F12 |Maximera radartikeldelen på en dokumentsida Tryck på knapparna igen för att återgå till normal visning. Mer information finns i [Fokusera på radartiklar](ui-enter-data.md#Focus).|
 |F6|Flytta till nästa snabbflik eller del (underordnad sida).|
 |Shift+F6|Flytta till föregående snabbflik eller del (underordnad sida).|
 
@@ -145,21 +157,13 @@ Följande kortkommandon gäller funktionen snabbinmatning på kort, dokument och
 |Shift+Enter|Bekräfta värdet i nuvarande fält och gå till föregående snabbinmatningsfält.||
 |Ctrl+Shift+Enter|Bekräfta värdet i nuvarande kolumn och gå till nästa snabbinmatningsfält utanför listan.<br /><br />Detta kortkommando gäller för inbäddade listor på en sida, till exempel radartiklar på en försäljningsorder. På så sätt kan du snabbt komma ut ur listan och fortsätta skriva in data i övriga fält på sidan.|
 
-## <a name="keyboard-shortcuts-in-worksheets"></a>Kortkommandon i kalkylark
-
-Följande kortkommandon finns endast på kalkylarksidor, t.ex. **artikeljournaler**.
-
-|Tryck på dessa tangenter<br />(i macOS)|Om du vill|  
-|----------------|-----------|  
-|Ctrl+radera| Ta bort en radartikel.|
-
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Kortkommandon i kalendern (datumväljare)
 
 När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |-----------------|-------|
-|Ctrl+Home|Öppna kalendern om stängd.|
+|Ctrl+Home|Öppna kalendern om stängd. **Obs**! detta fungerar inte om datumfältet är i ett rutnät, där Ctrl + start går till den första raden.|
 |Ctrl+Home<br />(Cmd+Start)|Flytta till aktuell månad, aktuell dag.|
 |Ctrl+Vänsterpil<br />(Cmd+Vänsterpil)|Flytta till föregående dag.|
 |Ctrl+Högerpil<br />(Cmd+Högerpil)|Flytta till nästa dag|
@@ -192,7 +196,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Page Up<br />(Fn+uppåtpil)|Gå till föregående sida i rapporten.|
 
 ## <a name="see-also"></a>Se även
-
+[Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)  
 [Hjälpmedelsfunktioner](ui-accessibility.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

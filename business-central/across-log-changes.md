@@ -1,6 +1,6 @@
 ---
-title: Spåra användaraktivitetet i en ändringslogg | Microsoft Docs
-description: Du kan aktivera en användarlogg så att du har en historik över alla ändringar som gjorts i spårade tabeller.
+title: Granskningsändringar | Microsoft Docs
+description: Du kan aktivera en användarlogg så att du har en historik över alla ändringar som gjorts i spårade tabeller. Du kan även spåra aktiviteter med vissa typer av aktivitetsloggar.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240447"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304942"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
 
@@ -38,9 +38,15 @@ På sidan **Ändringslogginställningar** om du väljer åtgärden **Tabeller** 
 
 När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av data, kan du visa och filtrera ändringen på sidan **Ändringslogg transaktioner**. Om du vill ta bort transaktioner kan du göra det på sidan **ta bort ändringsloggtransaktioner**, där du kan ange filter baserat på datum och tider.  
 
+## <a name="working-with-activity-logs"></a>Arbeta med aktivitetsloggar
+
+På vissa sidor i [!INCLUDE [prodshort](includes/prodshort.md)] kan du visa en aktivitetslogg som visar status och eventuella fel från filer som du exporterar från eller importerar till [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Informationen visas i fönstret **Aktivitetslogg** enligt kontexten den öppnas från. Du kan öppna fönstret från sidan **Inställning av dokumentutbytestjänst**, **Inkommande dokument**, **Bokförd försäljningsfaktura** och **Bokförd försäljningskreditnota**. Du kan tömma listan över loggposter eller bara rensa listan över poster som är äldre än 7 dagar.  
+
 ## <a name="see-also"></a>Se även
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Med hjälp av Berätta för att hitta funktioner och Information](ui-search.md)  
+[Söka efter sidor och information med berätta](ui-search.md)  
 [Hantera användare och behörigheter](ui-how-users-permissions.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

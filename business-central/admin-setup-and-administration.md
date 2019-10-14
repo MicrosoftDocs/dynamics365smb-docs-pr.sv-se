@@ -1,21 +1,21 @@
 ---
 title: Administrativa uppgifter i Business Central | Microsoft Docs
 description: Vissa uppgifter i Business Central kräver central administrering och konfigurering. Se vad de är och lär dig vad du ska göra.
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/22/2019
-ms.author: edupont
-ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 70dd0d0e25bca02b87a56a3537ee885d5b802dcc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796717"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304187"
 ---
 # <a name="administration"></a>Administration
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
@@ -31,10 +31,10 @@ En superanvändare eller administratör kan konfigurera ramverket för datautbyt
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
-|**Om du vill**|**Gå till**|  
+|**Om du vill**|**Se**|  
 |------------|-------------|  
-|Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Förstå profiler (roller) och rollcenter](admin-users-profiles-roles.md)|  
 |Tilldela behörigheter till användare, ändra behörighetsgrupper och gruppera användare per behörigheter.|[Hantera användare och behörigheter](ui-how-users-permissions.md)|
+|Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Hantera profiler](admin-users-profiles-roles.md)|
 |Klassificera datakänslighetsnivåer för fält så att du kan svara på begäranden från datasubjekt som rör deras personuppgifter.|[Klassificera datakänslighet](admin-classifying-data-sensitivity.md)|
 |Svara på begäranden från datasubjekt som berör deras personuppgifter.|[Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)|
 |Skapa en ny affärsenhet med hjälp av mallar|[Skapa nya företag](about-new-company.md)|
@@ -44,7 +44,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa sidor, kodenheter och frågor som webbtjänster.|[Publicera en webbtjänst](across-how-publish-web-service.md)|
 |Som en del av att skapa Connect-appar mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och 3:e partens tillverkarlösningar via REST API, definiera mallar som används för att fylla i tomma egenskaper på en enhet när du skapar en POST-åtgärd genom API.|[Konfigurera API-mallar](admin-configuring-api-template.md)|
 |Kryptera data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-server genom att skapa nya eller importera befintliga krypteringsnycklar som du aktiverar på servern.|[Hantera datakryptering](admin-manage-data-encryption.md)|
-|Ansluta Dynamics 365 for Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Ansluta Dynamics 365 Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Se även

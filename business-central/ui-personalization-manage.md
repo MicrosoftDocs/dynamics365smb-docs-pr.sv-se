@@ -1,115 +1,74 @@
 ---
-title: Hantera anpassning som administratör i Business Central | Microsoft Docs
-description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta.
+title: Anpassar sidor för roller | Microsoft Docs
+description: Lär dig mer om att anpassa användargränssnittet för en profil (roll) så att alla användare som är tilldelade den rollen ser en anpassad arbetsyta.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887743"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310810"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Hantera anpassning som administratör
+# <a name="customize-pages-for-profiles"></a>Anpassa sidor för profiler
+Användare kan anpassa sidor som utgör deras arbetsyta efter eget behov. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
- Användare kan anpassa sin arbetsyta efter eget behov. Som administratör kan du styra och hantera anpassning av:
+Administratörer kan anpassa sidor för en profil, i enlighet med den relaterade rollen eller avdelningen, så att alla användare som tilldelats till profilen kan se den anpassade sidlayouten. Administratören anpassar sidorna med samma funktion som användarna gör när de anpassar sidor.
 
--   Aktivera eller inaktivera funktionen anpassning för hela programmet (endast lokal installation).
--   Aktivera eller inaktivera funktionen anpassning för användare med en viss profil.
--   Ta bort alla anpassningar på sidan som användare har gjort.
+> [!NOTE]
+> En typisk företagsanvändning är en roll. En profil har därför namnet *profil (roll)* i användargränssnittet.
 
-## <a name="EnablePersonalization"></a>Så här aktiverar eller inaktiverar anpassningar (endast lokalt)
+Sid anpassningen startar från **profilsidan (rollerna)** och administratörens startpunkt används för att hantera användarprofiler på enskilda profilkort. Förutom att anpassa sidlayouten kan du styra olika inställningar för profiler på **profilsidan (roll)** för varje profil. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md).
 
-Som standard aktiveras inte anpassning i klienten. Du aktiverar eller inaktiverar anpassningar genom att ändra konfigurationsfil (navsettings.json) för den Business Central Web Server-instans som används av klienterna.
+## <a name="to-customize-pages-for-a-profile"></a>Anpassa sidor för en profil
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler (roller)** och välj sedan relaterad länk.
+2. Markera raden för den profil du vill anpassa sidor för och välj sedan åtgärden **Redigera**.
+3. Välj åtgärden **anpassa sidor**.
 
-1. Aktivera anpassning genom att lägga till följande rad i filen navsettings.json:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] öppnas på en ny flik i webbläsaren för den valda profilen med banderollen **anpassar** aktiverad. Banderollen **anpassar** ger användarna samma funktioner som banderollen **Anpassa personligt** som är tillgänglig för användare.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Anpassa sidor enligt de behov som gäller för den aktuella rollen eller avdelningen på samma sätt som en användare gör när du anpassar. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-    Ta bort den här raden om du vill inaktivera anpassningar, eller ändra den till:
+    > [!NOTE]
+    > Använd Ctrl + klicka på en instruktion om den markeras av pilspetsen om du vill navigera under anpassningen.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. När du är klar med att ändra layouten på en eller flera sidor, välj knappen **Klar** på banderollen **Anpassa**.
+6. Stäng fliken webbläsare.
 
-    Läs mer om hur du ändrar filen navsettings.json i [Ändra navsettings.json filen direkt](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+Anpassningen av sidorna har nu registrerats för profilen.
 
-2. Skapa och hämta programsymboler.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>För att visa alla anpassade sidor för en profil
+Du kan få en översikt över vilka sidor som är anpassade för en profil, t.ex. för planering som du vill anpassa ytterligare eller ta bort.
 
-    Detta steg är valfritt och krävs inte för att aktivera anpassningar. Det innebär dock att nya sidor som skapas av utvecklare kan anpassas.
+- På sidan **Profil (roll)**, välj åtgärden **Anpassade sidor**.
 
-    1. Först måste du skapa symboler genom att köra kommandot finsql.exe med `generatesymbolreference`. Finsql.exe-filen finns i mappen för utvecklingsmiljön för [!INCLUDE[server](includes/server.md)] och Dynamics NAV (CSIDE). Om du vill skapa symboler, öppna kommandotolken, gå till katalogen där filen lagras och kör kommandot:
+## <a name="to-delete-all-customizations-for-a-profile"></a>För att radera anpassningar för en profil
+Du kan annullera alla anpassningar som du har gjort för en profil: Anpassningar som introduceras med ett tillägg och anpassningar som görs av en användare tas inte bort. Du kan ta bort alla anpassningar med en annan åtgärd. Mer information finns i [så här tar du bort alla anpassningar som görs av en användare](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Som exempel:
+- Välj åtgärden **Profil (roll)** för en anpassad profil, välj åtgärden **Rensa anpassade sidor**.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+Layouten på sidorna för profilen återställs till standardlayouten.  
 
-    Mer information finns i [Köra C/SIDE och AL sida vid sida](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Så här tar du bort anpassning av specifika sidor för en profil
+Du kan ta bort individuella sidanpassningar som du har gjort för en profil. Anpassningar som introduceras med ett tillägg och anpassningar som görs av en användare tas inte bort. Du kan ta bort specifika sidanpassningar med en annan åtgärd. Mer information finns i [Så här tar du bort alla anpassningar för en viss sida](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Konfigurera [!INCLUDE[nav_server_md](includes/nav_server_md.md)]-instansen till att **aktivera inläsning av programsymbolens referenser när servern startas** (EnableSymbolLoadingAtServerStartup). Mer information finns i [Konfigurera Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. På sidan **Profil (roll)**, välj åtgärden **Anpassade sidor**.
+2. På sidan **Profilanpassningar**, välj en eller flera rader för sidanpassningar som du vill radera och välj sedan åtgärden **Radera**.
 
-## <a name="to-disable-personalization-for-a-profile"></a>Så här inaktiverar du anpassningar för en profil
-
-Du kan förhindra alla användare som tillhör en viss profil från att anpassa sidorna.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler** och välj sedan relaterad länk.
-2. Välj den profil i listan som du vill ändra.
-3. Välj kryssrutan **Inaktivera anpassning** och välj sedan knappen **OK**.
-
-> [!NOTE]  
-> I Business Central online kan du bara inaktivera anpassningar för en klientprofil, inte för systemprofiler. 
-
-## <a name="to-clear-user-personalizations"></a>Så här rensar du användaranpassning
-
-Ta bort sidann för anpassningsändringar gör att sidan återställs till sin ursprungliga layout innan alla anpassningar gjordes. Det finns två sätt att ta bort de anpassningar som användare har gjort på sidor: med hjälp av sidan **Ta bort användaranpassning** och använda sidan **Anv.anpassningskort**.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Du tar bort användaranpassningar genom att använda sidan ta bort användaranpassning
-
-Sidan **Ta bort användaranpassning** låter dig ta bort anpassningen på per sida-basis, för varje enskild användare.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort användaranpassning** och välj sedan relaterad länk.
-
-    Sidan visar en lista över alla sidor som har anpassats och användaren den tillhör.
-
-    >[!NOTE]
-    > Ett kryss i kolumnen **Äldre anpassning** anger att anpassningen har skett i en äldre version av [!INCLUDE[d365fin](includes/d365fin_md.md)], som hanterade anpassningen på ett annat sätt än som nu sker. Användare som försöker anpassa dessa sidor hindras från att göra detta såvida de inte väljer att låsa upp sidan. Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).
-
-2. Markera den transaktion som du vill radera och välj sedan åtgärden **Radera**.
-
-    Användaren kommer att se ändringarna nästa gång de loggar in.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Du tar bort användaranpassningar genom att använda sidan användaranpassningskort
-
-Sidan **Anv.anpassningskort** låter dig ta bort anpassningen på alla sidor för en specifik användare. Detta kräver skrivbehörighet för tabellen 2000000072 **Profil**.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användaranpassning** och välj sedan relaterad länk.
-
-    Sidan **användaranpassning** visar alla användare som eventuellt har anpassade sidor. Om du inte hittar en användare i listan, innebär det att de inte har några anpassade sidor.
-
-2. Välj den användare från listan, välj åtgärden **Redigera**.
-
-3. På fliken **Åtgärder**, välj **Ta bort anpassade sidor**.
-
-    Användaren kommer att se ändringarna nästa gång de loggar in.
+Layouten på de markerade sidorna justeras efter de ändringar som du har gjort.
 
 ## <a name="see-also"></a>Se även
 [Anpassa din arbetsyta](ui-personalization-user.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755247"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305002"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Använda [!INCLUDE [prodlong](includes/prodlong.md)] som Power BI-datakälla för att skapa rapporter
 
@@ -28,10 +28,7 @@ Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] 
 1. I Power BI Desktop i den vänstra navigeringsrutan väljer du **hämta data**.
 2. I fönstret **Hämta data** väljer du **onlinetjänster**, väljer **Microsoft Dynamics 365 Business Central** och sedan knappen **Anslut**.
 3. Power BI visar en guide som vägleder dig genom anslutningsprocessen. Du uppmanas då att logga in på [!INCLUDE [prodshort](includes/prodshort.md)]. Välj **Logga in** och välj det konto som du vill logga in som. Detta bör vara samma konto som du loggar in i [!INCLUDE [prodshort](includes/prodshort.md)] med.
-4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-företag och -datakällor. Dessa datakällor motsvarar alla de webbtjänster som du har publicerat från respektive företag i [!INCLUDE [prodshort](includes/prodshort.md)].
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljöer, -företag och -datakällor. Dessa datakällor motsvarar alla de webbtjänster som du har publicerat från respektive klientorganisation/företag i [!INCLUDE [prodshort](includes/prodshort.md)].
 5. Du kan också skapa en ny webbtjänst-URL i [!INCLUDE [prodshort](includes/prodshort.md)] med hjälp av åtgärden **skapa datauppsättning** på sidan **webbtjänster** med hjälp av den assisterade inställningsguiden **Ställa in rapportering**  eller genom att välja åtgärden **redigera i Excel** i någon lista.
 6. Ange de data som du vill lägga till i din datamodell och välj knappen **Läs in**.
 7. Upprepa stegen för att lägga till ytterligare [!INCLUDE [prodshort](includes/prodshort.md)] eller andra data till Power BI-datamodellen.

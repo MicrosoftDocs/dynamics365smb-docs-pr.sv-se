@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858295"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313594"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,6 +42,8 @@ Innan du kan börja använda funktionen måste vissa inställningar göras. Mer 
 
 En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+Du kan också söka efter eLearning-innehåll på [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Rollcenter
 Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
@@ -65,7 +67,7 @@ På sidan **Assisterad konfiguration** hittar du följande i **Vital**-upplevels
 | Konfigurera rapportering |Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t.ex. |
 | Konfigurera ett arbetsflöde för artikelgodkännande |Konfigurerar möjligheten att skicka ett meddelande till en godkännare när en användare ändrar eller skapar ett objekt. |
 | Konfigurera arbetsflöde för godkännande av utbetalningsjournal |Konfigurerar förmågan att skicka ett meddelande till en godkännare när en användare skickar utbetalningsjournalrader för godkännande. |
-| Ställa in Business Central-connector för Microsoft Dynamics |Ställer in en anslutning till Dynamics 365 for Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
+| Ställa in Business Central-connector för Microsoft Dynamics |Ställer in en anslutning till Dynamics 365 Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
 | Ställa in omsättningsskatt |Låter dig komma igång med standardmomsgrupper och tilldela momsområdeskoder som du kan tilldela till kunder och leverantörer för att automatiskt beräkna omsättningsskatt i försäljningar eller inköpsdokument. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Testar saker i ditt företag
@@ -99,6 +101,7 @@ Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
+[Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Dynamics 365-dokumentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

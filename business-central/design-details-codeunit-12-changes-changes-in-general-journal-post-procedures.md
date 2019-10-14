@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243417"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307354"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen
 Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -139,19 +139,19 @@ Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](
 |CheckCalcPmtDiscCVVend||Flyttad till kodmodul 426 – hantering av betalningstolerans|  
 |CheckCalcPmtDiscVend||Flyttad till kodmodul 426 – hantering av betalningstolerans|  
 |CheckCalcPmtDiscGenJnlVend||Flyttad till kodmodul 426 – hantering av betalningstolerans|  
-|Reverse|Reverse|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|ReverseVAT|ReverseVAT|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|SetReversalDescription|SetReversalDescription|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Flyttad till kodmodul 17 Redovisningsjnl – bokför återföring|  
-||CheckDimComb|Tillagd i kodmodul 17 Redovisningsjnl – bokför återföring|  
-||CopyCustLedgEntry|Tillagd i kodmodul 17 Redovisningsjnl – bokför återföring|  
-||CopyVendLedgEntry|Tillagd i kodmodul 17 Redovisningsjnl – bokför återföring|  
-||CopyBankAccLedgEntry|Tillagd i kodmodul 17 Redovisningsjnl – bokför återföring|  
+|Reverse|Reverse|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|ReverseVAT|ReverseVAT|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|SetReversalDescription|SetReversalDescription|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Flyttad till Codeunit 17 Redovisningsjnl – bokför återföring|  
+||CheckDimComb|Tillagt i Codeunit 17 Redovisningsjnl – bokför återföring|  
+||CopyCustLedgEntry|Tillagt i Codeunit 17 Redovisningsjnl – bokför återföring|  
+||CopyVendLedgEntry|Tillagt i Codeunit 17 Redovisningsjnl – bokför återföring|  
+||CopyBankAccLedgEntry|Tillagt i Codeunit 17 Redovisningsjnl – bokför återföring|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Uppdaterad|  
 |CollectAddjustment|CollectAdjustment|Uppdaterad|  
 |SetOverDimErr|SetOverDimErr|Uppdaterad|  
@@ -163,7 +163,7 @@ Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Uppdaterad|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Uppdaterad|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Uppdaterad|  
-|IncludeVATAmount||Flyttad till tabell 81 – redovisningsjournalrad|  
+|IncludeVATAmount||Flyttad till tabell 81 journalrad|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Uppdaterad|  
 ||TotalVATAmountOnJnlLines|Monterade|  
 ||SetGLRegReverse|Monterade|  

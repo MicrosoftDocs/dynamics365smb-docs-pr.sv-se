@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755975"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313618"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -43,7 +43,7 @@ Om du använder en testversion av [!INCLUDE [prodshort](includes/prodshort.md)] 
 
 ### <a name="blog"></a>Blogg
 
-Vi talar om nya funktioner i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), till exempel när de blir tillgängliga och om det finns några saker.  
+Vi talar om nya funktioner i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), till exempel när de blir tillgängliga och om det finns några saker.  
 
 ### <a name="capabilities-coming-soon"></a>Funktionerna kommer snart
 
@@ -70,20 +70,20 @@ Avsnittet **felsökning** visar teknisk information visas som administratören e
 
 ## <a name="report-a-problem"></a>Rapportera ett problem
 
-Din [!INCLUDE[prodshort](includes/prodshort.md)] återförsäljningspartner förväntas hjälpa dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] säljs till partners och i det här avsnittet kan du kontakta din återförsälningspartner om de har lämnat sin e-postadress för support. Om din [!INCLUDE[prodshort](includes/prodshort.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  
+Din [!INCLUDE[prodshort](includes/prodshort.md)] återförsäljningspartner kommer att hjälpa dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] säljs till partners och i det här avsnittet kan du kontakta din återförsälningspartner om de har lämnat sina kontaktuppgifter för support. Om din [!INCLUDE[prodshort](includes/prodshort.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  
 
 > [!NOTE]
 > Det här avsnittet är bara tillgängligt om du har betalat för en [!INCLUDE [prodshort](includes/prodshort.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[prodshort](includes/prodshort.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam. Du hittar en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>E-postadress till supporten
+### <a name="support-contacts"></a>Supportkontrakt
 
-E-postadressen som visas i avsnittet**rapportera ett problem** behöver inte vara för en person eller ett team. Om du är [!INCLUDE[prodshort](includes/prodshort.md)] återförsäljningspartner för en klientorganisation kan du ställa in e-postadressen på sidan **Informationskort för supportkontakt**. Mer information finns i [konfigurera teknisk support](/dynamics365/business-central/dev-itpro/technical-support) i innehåll för utvecklare och IT-proffs för [!INCLUDE [prodshort](includes/prodshort.md)].  
+Avsnittet **Rapportera ett problem** visar en e-postadress eller en hyperlänk som du kan kontakta för att komma i kontakt med supportpersonen eller teamet. Om du är [!INCLUDE[prodshort](includes/prodshort.md)] återförsäljningspartner för en klientorganisation kan du ställa ditt föredragna kontaktuppgifter för support i administratörscenter. Mer information finns i [konfigurera upplevelser av support](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) i innehåll för utvecklare och IT-proffs för [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Välj länken för att uppmärksamma din samarbetspartner om ett problem. Då öppnas ett nytt e-postmeddelande i ditt standardredigeringsprogram för e-post och kan du lägga till teknisk information om din Azure Active Directory-klientorganisation och annan information som du tycker är relevanta.  
+Om du vill varna din partner om ett problem väljer du länken för att antingen skicka ett e-postmeddelande eller öppna dess supportplats i en ny flik i webbläsaren. Du kan sedan lägga till den tekniska informationen om Azure Active Directory-klientorganisationen från avsnittet **Felsökning** och annan information som du finner relevant.  
 
 ## <a name="see-also"></a>Se även
 
 [Blogginlägg: hitta rätt resurser och ge feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central utvecklare och IT-proffs](/dynamics365/business-central/dev-itpro/)  
 [Resurser för hjälp och support för partners](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Konfigurera teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
+[Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  

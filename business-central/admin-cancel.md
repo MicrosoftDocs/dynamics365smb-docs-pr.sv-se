@@ -8,41 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 60c6574706aa873549f40a875eb5f4ac390ca93a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244953"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304690"
 ---
-# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365fin_mdmd"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du vill sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du avsluta ditt konto eller hämta licenser som tagits bort från ditt konto. Stegen du tar skiljer sig om du använder provversion, eller om du har en månadsprenumeration som en del av ett Office 365-konto.  
 
 På liknande sätt kan du välja att återställa det företag som du har använt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. En snabb översikt finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)] blogg](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
-## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt Office 365-miljö
+## <a name="unsubscribing-by-removing-included365finincludesd365fin_mdmd-from-your-office-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt Office 365-miljö
 Om du har registrerat dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av ett befintligt Office 365-konto, måste du be din Office 365-administratör att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt konto. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och andra människor från företaget fortsätter prenumerationen, kommer de fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
 
 Om ditt företag vill avsluta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kommer Office 365-administratören att ta bort prenumerationen från företagets konto.  
 
 Användarkonton och licenser hanteras i [Office-portalen](https://portal.office.com). Endast administratören kan ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licenser från användarkonton eller ta bort abonnemanget från ditt företag.  
 
-## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Stänga en kostnadsfri testversion av [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="closing-your-free-trial-of-included365finincludesd365fin_mdmd"></a>Stänga en kostnadsfri testversion av [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du har registrerat dig för en kostnadsfri test och inte vill fortsätta med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du avsluta kontot när som helst. Vi rekommenderar att du exporterar data innan du avslutar ditt konto.  
 
 För närvarande måste du kontakta annulleringsteamet för [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL:en från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
 
-## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Säga upp prenumerationen från [!INCLUDE[d365fin](includes/d365fin_md.md)] utan Office 365
+## <a name="unsubscribing-from-included365finincludesd365fin_mdmd-without-office-365"></a>Säga upp prenumerationen från [!INCLUDE[d365fin](includes/d365fin_md.md)] utan Office 365
 Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Office 365 -företagskonto, har du inte en Office 365-administratör. Du måste i stället avbryta prenumerationen genom att kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] annulleringsteamet genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL:en från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
 
-## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Återställa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljö
+## <a name="resetting-your-included365finincludesd365fin_mdmd-experience"></a>Återställa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljö
 Om du har lagt till data till [!INCLUDE[d365fin](includes/d365fin_md.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt företag och sedan återställa det första företaget. Om du öppnar sidan **företag** kan du skapa en kopia av det aktuella företaget, logga ut och sedan logga in på ditt nya företag och sedan återställa det ursprungliga företaget.  
 > [!NOTE]  
 >   När du vill återställa ett företag du delar med andra personer från organisationen, bör du kontrollera att de andra personerna inte är inloggade när du återställer företaget.  
 
-## <a name="removing-included365finincludesd365finmdmd-from-your-app-launcher"></a>Ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från din programmarstartbild
+## <a name="removing-included365finincludesd365fin_mdmd-from-your-app-launcher"></a>Ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från din programmarstartbild
 Om du vill dölja [!INCLUDE[d365fin](includes/d365fin_md.md)] från din programmarstartbild, kan du helt enkelt ta bort den. Den här åtgärden tar inte bort några data, och den avbryter inte din prenumeration.  
 
 ## <a name="see-also"></a>Se även

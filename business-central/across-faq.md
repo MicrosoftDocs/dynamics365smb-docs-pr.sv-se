@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858272"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300575"
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
@@ -40,15 +40,17 @@ På startsidan för gruppen hittar du även länkar till vår bloggar där det f
 Slutligen kan du kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)] återförsäljare. Mer information finns i avsnittet [Hur får jag teknisk support?](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Har du läst om en ny funktion i viktig information eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.  
+Har du läst om en ny funktion i viktig information eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Du kan kontrollera vilken version din [!INCLUDE[d365fin](includes/d365fin_md.md)] baseras på, på sidan [Hjälp och support](product-help-and-support.md).  
+
+Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Finns det skillnader mellan en lokal distribution och molnversionen av Business Central?
 Ja. Vissa molnbaserade funktioner kan köras i vissa fall och andra stöds inte alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kan jag få utbildning i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja det kan du. Men för närvarande behöver du fråga din återförsäljare. Om du inte känner till den, hitta en Business Central på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft Learn-webbplatsen](/learn/browse/?products=dynamics-business-central). Du kan också be din återförsäljare om ytterligare utbildningar. Om du inte känner till den, hitta en Business Central på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-Om du har tillgång till Microsoft CustomerSource kan du få tillgång till webbplatsen Imagine Academy med e-utbildningsmaterial. För mer information om hur du får tillgång, se sidan [Microsoft Dynamics 365 utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Mer information om utbildning från Microsoft finns på sidan [Microsoft Dynamics 365 utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hur får jag teknisk support för [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -74,7 +76,7 @@ Om du vill distribuera [!INCLUDE[d365fin](includes/d365fin_md.md)] lokalt kan du
 ## <a name="do-i-have-to-buy-office-365"></a>Måste jag köpa Office 365?
 Nummer Men om du vill uppleva [!INCLUDE[d365fin](includes/d365fin_md.md)] som helt integrerad med Office 365, kan du prova Office 365 i 1 månad gratis [här](https://products.office.com/try).  
 
-Om du loggar in med ett konto som inte är ett Office 365 arbetskonto (såsom *joe@mysolution.com*) och du har en Office 365-prenumeration och sedan kopplar din domän (*mysolution.commed*) med Office 365-prenumerationen. Mer information finns i [Få hjälp med Office 365-domäner](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Om du loggar in med ett konto som inte är ett Office 365-arbetskonto (t.ex. joe@mysolution.com) och du har en Office 365-prenumeration och sedan kopplar din domän (*mysolution.com*) med Office 365-prenumerationen. Mer information finns i [Få hjälp med Office 365-domäner](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Om du inte har en Office 365-prenumeration och du inte vill köpa en och sedan, när du registrerar dig, etablerar vi en ny Azure Active Directory-innehavare automatiskt så att du kan komma åt Azure-portalen där du har tillgång till avancerade administratörsverktyg.  
 
@@ -87,8 +89,8 @@ Ja. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett med
 > [!NOTE]
 > Det kan ta upp till två arbetsdagar att slutföra processen för utökad testversion.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Vår administratör har flyttat mig till ett annat plan i syfte att ge mig en annan roll, men jag ser fortfarande samma Rollcenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Detta är lite komplicerat, men det verkar som om administratören inte ändrade ditt rollcenter och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta bestämmer dina behörigheter och din standardsida i Rollcenter. Du kan ändra ditt rollcenter manuellt i Mina inställningar men om du har ändrat till ett annat plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Vår administratör har flyttat mig till ett annat plan för att ge mig en annan roll, men jag ser fortfarande samma startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Detta är lite komplicerat, men det verkar som om administratören inte ändrade din tilldelade roll och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta bestämmer dina behörigheter och din tilldelade roll och din standardstartsida. Du kan ändra din nuvarande roll manuellt i Mina inställningar men om du har ändrat till ett annat plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jag avbryta min prenumeration?
 Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dina data tas bort eller bevaras. Mer information finns i [Avbryter [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  

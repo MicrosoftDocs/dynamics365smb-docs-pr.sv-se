@@ -5,18 +5,18 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4f96ddb96d9f0b816a4fd6651d4c1453bbf65ca1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244915"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307861"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svara på begäranden om personuppgifter  
-Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina uppgifter och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under **Datasekretess** i rollcentret **Hantera användare, användargrupper och behörigheter** eller, om du använder Windows-klienten, i rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  
+Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina data och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under fliken **Datasekretess** u rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer av begäranden
 
@@ -51,7 +51,7 @@ Om det finns en situation där du måste exportera data som inte klassificeras p
 -   Lägg till den här tabellen och relationen manuellt till snabbstartpaketet och exportera direkt från snabbstartpaketet – det är därför vi skapar ett snabbstartpaketet åt dig, så att du kan ändra den i situationer som den här.
 
 ## <a name="handling-data-about-minors"></a>Hantera data om minderåriga
-Om en kontaktperson ålder understiger åldern för juridiskt godkännande enligt lagstiftningen i din region, anger du detta genom att välja kryssrutan **Minderårig** på kortet **Kontakt**. När du gör detta väljs kryssrutan **Sekretessblockerad** automatiskt. När du får samtycke från minderårigs förälder eller vårdnadshavare kan du välja kryssrutan **Föräldrarnas samtycke mottaget** om du vill låsa upp kontakten. Även om du kan behandla personuppgifter för minderåriga kan du inte använda profileringsfunktionen i Dynamics 365 for Sales.
+Om en kontaktperson ålder understiger åldern för juridiskt godkännande enligt lagstiftningen i din region, anger du detta genom att välja kryssrutan **Minderårig** på kortet **Kontakt**. När du gör detta väljs kryssrutan **Sekretessblockerad** automatiskt. När du får samtycke från minderårigs förälder eller vårdnadshavare kan du välja kryssrutan **Föräldrarnas samtycke mottaget** om du vill låsa upp kontakten. Även om du kan behandla personuppgifter för minderåriga kan du inte använda profileringsfunktionen i Dynamics 365 Sales.
 
 > [!Note]
 > Ändringsloggen kan registrera information som till exempel när och av vem kryssrutan **Föräldrarnas samtycke mottaget** har valts. En administratör kan konfigurera detta genom att välja guiden **Ändra logginställning** och även välja kryssrutan **Loggändringar för föräldrars samtycke har mottagits** på kortet **Kontakt**. Mer information finns i [Logga ändringar](across-log-changes.md).  

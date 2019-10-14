@@ -1,101 +1,129 @@
 ---
 title: Hantera användare och roller | Microsoft Docs
 description: Lär dig hantera användare och rollcenter i Business Central.
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 08/02/2019
-ms.author: edupont
-ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 00a07acfb455b9b1ddf714f7ca7e49a56a8aebbc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858226"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304251"
 ---
-# <a name="understanding-users-roles-and-profiles"></a>Förstå användare, roller och profiler
+# <a name="manage-profiles"></a>Hantera profiler
+Alla användare av [!INCLUDE[d365fin](includes/d365fin_md.md)] tilldelas en profil som motsvarar affärsrollen, den avdelning de arbetar i eller någon annan kategorisering. Med hjälp av profiler kan administratörer definiera och hantera centralt olika typer av användare som kan se och arbeta i användargränssnittet så att de kan utföra affärsuppgifter på ett effektivt sätt.
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs användare till av en administratör som också ger användare tillgång till områden i [!INCLUDE[d365fin](includes/d365fin_md.md)] som de behöver i sitt arbete.  
+> [!NOTE]
+> En typisk företagsanvändning är en roll. En profil har därför namnet *profil (roll)* i användargränssnittet.
 
-Åtkomst till funktioner styrs genom *användargrupper* och *profiler (roller)*. Som administratör kan du tilldela och ändra profiler i [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration och du kan lägga till och ta bort användare som en del av din användargrupp.  
+Som administratör skapar och hanterar du profiler på sidan **profiler (roller)**. Varje profil har ett kort där du hanterar olika inställningar för den relaterade rollen, till exempel rollnamn, användarinställningar och vilket rollcenter profilen använder. Mer information om användarinställningar och rollcenter finns i [ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-## <a name="adding-users"></a>Lägga till användare
+Innan du kan administrera användarprofiler måste användarna skapas och läggas till via Office 365 administrationscenter. Sedan kan du tilldela behörigheter till varje användare eller användargrupp för att definiera vilka funktioner de får visa och/eller redigera. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
 
-Om du vill lägga till användare i [!INCLUDE[d365fin](includes/d365fin_md.md)] online, måste företagets Office 365-administratör först skapa användare i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://aka.ms/CreateOffice365Users)
+## <a name="page-customization"></a>Sidanpassning
+Du kan anpassa sidlayouter för en profil så att alla användare som tilldelats profilen kan se de anpassade sidorna. Som administratör anpassar du sidorna med samma funktion som användarna gör när de anpassar. Mer information finns i [Anpassa sidor för profiler](ui-personalization-manage.md).
 
-Administratören kan sedan tilldela behörigheter till varje användare och användargrupper. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).  
+## <a name="to-create-a-profile"></a>Så här skapar du en profil:
+Om du inte kan kopiera en befintlig profil kan du skapa en ny manuellt.
 
-De mest kraftfulla behörigheter som en användare kan ha är behörighetsuppsättningen SUPER. Varje företag måste ha minst en användare med denna behörighet, men det är bäst att ge behörighet till alla användare som matchar arbetsbehoven i [!INCLUDE[prodshort](includes/prodshort.md)] och inte mer än så. Detta säkerställer att användare endast har tillgång till data som är relevanta för arbetet, t.ex.  
+> [!NOTE]
+> Alla profiler kan kopieras, men det går bara att kopiera profilsidans anpassningar om de är skapade av användaren.
 
-> [!TIP]
-> Det är bäst att kontrollera att Office 365 administratören också har behörighetsuppsättningen SUPER [!INCLUDE[prodshort](includes/prodshort.md)]eftersom det underlättar många administrativa uppgifter, inklusive inställning av integrering med andra program.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Profiler (roller)** och välj sedan relaterad länk.  
+2. På sidan **Profiler (roller)** väljer du åtgärden **Ny**.  
+3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="users-of-on-premises-deployments"></a>Användare av lokala distributioner
+## <a name="to-copy-a-profile"></a>Så här kopierar du en profil
+Du kan spara tid genom att skapa en ny profil genom att kopiera en befintlig. Kopiera en som innehåller liknande inställningar som du vill skapa.
 
-Vid lokal distribution av [!INCLUDE[d365fin](includes/d365fin_md.md)], kan administratören välja mellan olika autentiseringsmetoder för användare. När du sedan skapar en användare, tillhandahåller du olika information beroende på vilken autentiseringstyp du använder i den specifika [!INCLUDE[server](includes/server.md)]-instansen. Mer information finns på [autentisering och autentisering](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i avsnittet Administration av utvecklare och ITPro-innehåll för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. I sidan **Profiler (roller)**, markera raden för den profil som du vill kopiera och välj sedan åtgärden **Kopiera profil**.
+2. Fyll i fälten **profil-ID** och **visningsnamn** och klicka sedan på **OK**.
+3. På sidan **profiler (roller)** öppnar du det nyss skapade profilkortet och redigerar sedan andra fält om det behövs.
 
-## <a name="profiles-roles"></a>Profiler (roller)
+## <a name="to-edit-a-profile"></a>Så här redigerar du en profil
+Du kan redigera en profil genom att ändra fälten på sidan **Profil (roll)**.
 
-Personer i företaget som har tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)] är tilldelade en roll som ger åtkomst till ett *Rollcenter*.
+> [!NOTE]
+> Du kan inte redigera en profil när användare som tilldelats profilen har loggat in.
 
-Profiler är samlingar av [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare som delar samma roll. Ett rollcenter är startpunkten och startsidan för [!INCLUDE[d365fin](includes/d365fin_md.md)] som ger dig snabb åtkomst till dina viktigaste uppgifter och visar olika kunskap och nyckeltal (KPI) om ändringarna.  
+## <a name="to-assign-a-profile-to-a-user"></a>Så här tilldelar du en profil till en användare:
+Användare kan tilldela sig själva en roll (som representerar en profil) genom att välja fältet **Roll** på sidan **Mina inställningar**. Som administratör kan du göra samma sak via sidan **Profiler (roller)**.
 
-> [!NOTE]  
->  I den aktuella versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] online kan du inte lägga till, redigera eller ta bort profiler.  
+1. På sidan **Profiler (roller)**, markera den profil som du vill tilldela och välj sedan åtgärden **Anv. anpassningslista**.
+2. På sidan **Användaranpassningar**, markera den användare som du vill tilldela profilen till och välj sedan åtgärden **Redigera**.
+3. I fältet **Profil-ID** välj relevant profil.
 
-### <a name="CreateProfile"></a>Så här skapar du en profil:
+> [!NOTE]
+> Om du tilldelar en annan profil till en användare bevaras all anpassning som görs av användaren med den tidigare profilen.
 
-1.  Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Profiler** och välj sedan relaterad länk.  
+## <a name="to-define-user-settings-for-a-profile"></a>Så här definierar du användarinställningar för en profil
+På sidan **Mina inställningar** kan användare definiera grundläggande funktioner för sitt konto, till exempel rollcenter, språk och meddelanden. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-2.  På sidan **Profiler** väljer du åtgärden **Ny** för att öppna sidan **Nytt profilkort**.  
+Som administratör kan du definiera dessa inställningar för en profil och på så sätt tillämpa inställningarna för alla användare av den relaterade rollen.
 
-3.  I fältet **Profil-ID**, ange ett namn som beskriver den påtänkta rollen för användaren.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler (roller)** och välj sedan relaterad länk.
+2. Markera raden för den profil som du vill ändra användarinställningar för, välj åtgärden **Navigera** och välj sedan åtgärden **användaranpassningar**.
+3. På sidan **användaranpassningar** öppnar du kortet för den användare vars inställningar du vill ändra.
+4. På sidan **användaranpassningskort** redigerar du fälten efter behov.
 
-4.  I fältet **Beskrivning** anger du en beskrivning av profil-ID:t, t.ex. **Orderhandläggare**.  
+## <a name="to-activate-a-profile"></a>Så här aktiverar du en profil
+När en profil skapas kan du markera olika kryssrutor som definierar om, var och hur profilen och dess information ska vara tillgänglig för användarna.
 
-5.  Ange fältet **Rollcenter-ID** till det rollcentret som du vill tilldela profilen.  
+1. Markera följande kryssrutor på sidan **Profiler (roller)**:
+    - **Aktiverad** för att ange om den relaterade rollen visas på sidan **tillgängliga roller** för användare att välja bland.  
+    - **Använd som standardprofil** för att ange den profil som gäller för användare som inte har tilldelats en viss roll.
+    - **Inaktivera anpassningar** för att ange om användare av den relaterade rollen kan anpassa sina arbetsytor.
+    - **Visa i rollutforskaren** om du vill ange om menyalternativ till affärsfunktioner som ingår i profilen ska visas i funktionsöversikten. Mer information finns i [söka efter sidor från en funktionsöversikt](ui-role-explorer.md).
 
-Proceduren som används för att ändra en befintlig profil är samma, förutom att du väljer en befintlig profil på sidan **Profiler** i stället för att välja åtgärden **Ny**.  
+    ## <a name="to-export-user-created-profiles"></a>Exportera profiler som skapats av användare
+    Du kan exportera profiler som har ändrats av dig eller av användare, som anges av **(Skapad av användare)** i fältet **källa**. Profilen exporteras till en zip-fil som innehåller .al-filer som kan återanvändas för att utveckla tillägg. Mer information finns i [Använda klienten för att skapa profiler och sidanpassningar](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
+    * PÅ sidan **Profiler (roller)**, välj åtgärden **Exportera profiler som skapats av användare**.
 
-### <a name="copy-a-profile"></a>Kopiera en profil
-Kopiera en profil kan spara tid, om du vill använda liknande inställningar på en profil, och du endast vill ändra några få inställningar.
+    En zip-fil med .al-filerna för profiler som nyligen har lagts till eller ändrats exporteras.
 
-1.  Öppna den profil som du vill kopiera och välj sedan åtgärden **Kopiera profil**.
+## <a name="to-delete-a-profile"></a>Så här tar du bort en profil
+Du kan ta bort en profil genom att klicka på åtgärden **Ta bort** på sidan **Profiler (roller)**. Följande begränsningar gäller emellertid:
 
-2.  Skriv namnet på profilen som du vill kopiera i fältet **Nytt profil-ID**.
+- Du kan inte ta bort profiler som härstammar från tillägg. Tillägget måste först avinstalleras.
+- Profilen måste inaktiveras. Detta säkerställer också att inga användare som har tilldelats profilen loggas in när du tar bort dem.
+- Du kan bara ta bort en profil i taget.  
 
-3.  Ange fältet **Ny profilomfattning** till något av följande:
+## <a name="to-delete-all-personalizations-made-by-a-user"></a>Ta bort alla anpassningar som användaren har gjort
+Du kan ta bort alla ändringar som användaren gjort på sidor som utgör arbetsytan. Detta kan t.ex. vara användbart om en anställd har ändrat roll och inte längre behöver anpassningarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
 
-    - **Systemet** så att den nya profilen är tillgänglig för alla innehavare av databaser som använder programmet.
-    - **Klientorganisation** så att den nya profilen är tillgänglig bara för den aktuella klientorganisationens databas.
-4. Välj knappen **OK** när du är klar.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användaranpassningar** och välj sedan relaterad länk.
 
-### <a name="ExportImportProfile"></a>Exportera och importera profiler
+    Sidan **Användaranpassningar** visar alla användare som har gjort anpassningar.
 
-Du kan exportera och importera profiler som XML-filer till och från en [!INCLUDE[d365fin](includes/d365fin_md.md)]-databas. Exportera och importera en profil låter dig spara tid när du konfigurerar användargränssnittet eftersom du kan återanvända en befintlig profilkonfiguration i stället för att konfigurera en profil från början. Om du har en profil som är konfigurerad i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-databas och du vill återanvända hela eller delar av samma profilkonfigurationer i en annan databas, kan du exportera profiler till en XML-fil. Du kan sedan importera XML-filen för profilen i den andra databasen.
+2. Öppna kortet för en användare vars anpassningar du vill ta bort.
+3. På sidan **Användaranpassningskort**, välj åtgärden **Ta bort anpassade sidor** och acceptera sedan meddelandet som visas.
 
--   Om du vill exportera en profil, kan du antingen välja åtgärden **Exportera profiler** från sidan **Profillista** eller **Profilkort** eller söka efter och öppna sidan **Exportera profiler**. Spara XML-filen till en plats på datorn eller i nätverket.
+Användaren kommer att se ändringarna nästa gång de loggar in.
 
--   Om du vill importera en profil, kan du antingen välja åtgärden **Importera profil** från sidan **Profillista** eller söka efter och öppna sidan **Importera profiler**.
+Du kan också ta bort alla sidanpassningar för en profil. Mer information finns i [Så här tar du bort alla anpassningar för en profil](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-    > [!NOTE]  
-    >  Du kan inte importera en profil som redan finns i databasen, även om XML-filen har ett annat namn eller annat innehåll. Du måste ta bort den befintliga profilen innan du kan importera den nya profilen.
+## <a name="to-delete-personalizations-for-specific-pages"></a>Så här tar du bort anpassningar för specifika sidor
+Du kan ta bort anpassningar som en eller flera användare har gjort på vissa sidor som utgör arbetsytan. Detta kan t.ex. vara användbart om en ändrad affärsprocedur innebär att en anpassning inte längre får användas av användarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
 
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anpassningar av användarsidan** och välj sedan relaterad länk.
 
-## <a name="configuration-and-personalization"></a>Konfiguration och anpassning
-<!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
+    Sidan **Anpassningar av användarsidan** visar alla sidor som har anpassats och användaren som de tillhör.
 
--   Configuration, performed by the administrator  
+    > [!Note]
+    > Ett kryss i fätet **Äldre anpassning** anger att anpassningen har skett i en äldre version av [!INCLUDE[d365fin](includes/d365fin_md.md)], som hanterade anpassningen på ett annat sätt. Användare som försöker anpassa dessa sidor hindras från att göra detta såvida de inte väljer att låsa upp sidan. Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).
 
--   Personalization, performed by users  
+2. Markera raden för den sidanpassning som du vill radera och välj sedan åtgärden **Radera**.
 
-The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+Användaren kommer att se ändringarna nästa gång de loggar in.    
 
-Användare anpassa användargränssnittet för sin egen version genom att anpassa användargränssnittet under sin egen användarinloggning. Den här anpassningen kan tas bort av administratören. Mer information finns i [Anpassa arbetsytan](ui-personalization-user.md).  
+Du kan också ta bort individuella sidanpassningar för en profil. Mer information finns i [Så här tar du bort alla anpassningar för en viss sida för en profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
 ## <a name="see-also"></a>Se även  
 [Hantera användare och behörigheter](ui-how-users-permissions.md)  
-[Hantera anpassning som administratör](ui-personalization-manage.md)  
+[Anpassa sidor för profiler](ui-personalization-manage.md)  
 [Anpassa din arbetsyta](ui-personalization-user.md)  

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 82b2dd880618f8ee7f44203db5638ef6da12c5cc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0def7cba6f3929304094b3d213a8745ea97721ea
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247795"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314922"
 ---
 # <a name="add-and-view-notes-on-records"></a>Lägga till och visa anteckningar för poster
  Du <!--OnPrem and your colleagues -->kan lägga till anteckningar till poster i programmet. Många sidor, särskilt de som visar en lista med poster, t.ex. sidan **försäljningsorder** kan inkludera åtgärden **anteckningar** eller faktaboxen **anteckningar**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

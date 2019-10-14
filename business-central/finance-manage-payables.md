@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238883"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305770"
 ---
 # <a name="managing-payables"></a>Hantera Leverantörsreskontra
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har vad du behöver för att effektivt hantera leverantörsreskontra.  
@@ -47,7 +47,7 @@ Om du väntar med att bokföra betalningar till när banken bekräftar att trans
 
 * I en utbetalningsjournal med föreslagna betalningsrader kan du sortera på antingen kolumnen **Exporterat till betalningsfil** eller **Totalt exporterat belopp** och sedan ta bort betalningsförslag för öppna fakturor för vilka betalningar som redan har gjorts och du inte vill göra betalningar för.
 
-    **Obs!** du kan behöva lägga till en kolumn i listan. Mer information finns i [Anpassa arbetsytan](ui-personalization-user.md).  
+    **Obs!** du kan behöva lägga till en kolumn i listan. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).  
 * Alternativt, på batchjobbet **Betalningsförslag för lev.**, där du anger vilka betalningar som ska inkluderas i utbetalningsjournalen, kan du ange att du inte infogar journalrader för betalningar som redan har exporterats genom att markera kryssrutan **Hoppa över exporterade betalningar**.
 
 ## <a name="see-also"></a>Se även

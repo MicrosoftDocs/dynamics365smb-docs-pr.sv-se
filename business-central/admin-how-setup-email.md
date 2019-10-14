@@ -2,28 +2,28 @@
 title: Skapa ett e-postkonto i Business Central | Microsoft Docs
 description: Beskriver hur du använder företagets SMTP-server för att skicka och ta emot e-postmeddelanden inom Business Central, alternativt hur du använder e-postserverinställningarna som skapats med Office 365-prenumerationen.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985940"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304618"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du fylla i fälten på sidan SMTP-postinställning.
 
 I stället för att ange information för SMTP-server manuellt kan du använda funktionen **Använd Office 365-serverinställningar** för att mata in information från din Office 365-prenumeration.
 
-Du kan antingen skapa e-post skapar du manuellt eller också kan du få hjälp med hjälp av assisterad inställningsguide för **e-post**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
+Du kan antingen skapa e-post skapar du manuellt som nedan eller också kan du få hjälp med hjälp av assisterad inställningsguide för **e-post**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurera e-post
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **SMTP-postinställningar** och välj sedan relaterad länk.

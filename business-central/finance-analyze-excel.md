@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239039"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302562"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysera finansiella rapporter i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du se KPI: er och få en översikt över företagets ekonomiska status. Du kan också öppna listor i Excel och analysera data där. Men du kan också exportera ekonomiska bokslut som balansräkningen eller resultaträkningen till Excel, analysera data och skriva ut rapporterna.  
@@ -36,7 +36,7 @@ Anta att du vill expandera ämneslistan till kassaflödet. Du kan öppna rapport
 
 I Excel kan se du en flik där data placeras automatiskt i det första kalkylbladet. Alla data som har exporterats finns också i andra kalkylblad om du skulle behöva. Du kan skriva ut rapporten direkt eller ändra det tills du har översikten och den information som du vill använda. Använd [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-tillägg för att ytterligare filtrera och analysera data.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Excel tillägg
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Excel tillägg
 Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse inkluderar ett tillägg för Excel. Beroende på din prenumeration loggas du in automatiskt eller anger samma inloggningsinformation som används för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Med tillägget, kan du uppdatera data från [!INCLUDE[d365fin](includes/d365fin_md.md)], och du kan skicka ändringar till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Däremot inaktiveras sjkuta tillbaka till databasen för ekonomiska Excel-rapporterna i listan ovan.  

@@ -1,5 +1,5 @@
 ---
-title: Hur du anger du data i fält | Microsoft Docs
+title: Så här anger du data i Business Central | Microsoft Docs
 description: Lär dig mer om allmänna funktioner som hjälper dig att ange data i fälten.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000793"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311386"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -39,7 +39,7 @@ Du kanske redan känner till att använda Tabb-tangenten för att gå från ett 
 
 Varje fält kan markeras som antingen *inkluderas i snabbinmatning* eller *exkluderas från snabbinmatning*. Som inkluderas i snabbinmatning inkluderas i sökvägen när du trycker på Retur. fält som exkluderas från snabbinmatning kommer inte att göra detta.
 
-När du är klar med att ange data i ett fält trycker du bara på Retur för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på Shift + Retur. Mer information om genvägar finns i [kortkommandon på tangentbord för snabbinmatning för fält](keyboard-shortcuts.md#QuickEntry).
+När du är klar med att ange data i ett fält trycker du bara på Retur för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på Shift + Retur. Mer information om genvägar finns i [kortkommandon för snabbinmatning för fält](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips och råd
 Nedan finns användbar information om hur du använder snabbinmatning.
@@ -51,11 +51,11 @@ Nedan finns användbar information om hur du använder snabbinmatning.
 - Snabbinmatning fungerar oavsett om fälten är obligatoriska. Så det är en bra idé att kontrollera att obligatoriska fält är inkluderade i snabbinmatning.
 - Som standard inkluderas de flesta fält i snabbinmatning. Så i början kommer uppgiften troligen att utesluta fält från snabbinmatning.
 
-### <a name="how-to-change-quick-entry-fields"></a>Så här ändrar du snabbinmatningsfält
+### <a name="to-change-quick-entry-fields"></a>Så här ändrar du snabbinmatningsfält
 
 Om du vill ändra vilka fält som ska inkluderas eller exkluderas i snabbinmatning på en sida, kan du använda anpassning.
 
-1. Starta anpassning genom att välja ikonen ![inställningar](media/ui-experience/settings_icon_small.png "ikonen inställningar för rollcenter") och sedan **anpassa**.
+1. Starta anpassning genom att välja ikonen ![inställningar](media/ui-experience/settings_icon_small.png "ikonen inställningar för rollcenter") och sedan åtgärden **anpassa**.
 2. Välj ett fält som du vill ändra, eller i listor, väljer du motsvarande kolumnrubrik eller väljer antingen **inkludera i snabbinmatning** eller **exkludera snabbinmatning**.
 
 Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
@@ -76,19 +76,25 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
 -   Lista – Visar den uppsättning alternativ (fasta val) som finns för fältet. Du kan bara markera ett av alternativen.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Kopiera och klistra in fält och rader
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
 
 Du kan kopiera en eller flera rader i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post). Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS).
 
 I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden, tryck bara på F8.
 
-Mer information finns i [Kopiera och klistra in i Business Central](ui-copy-paste.md).
+Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtrera radposter
+
+För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+
+Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura och filtrerar radposter för att visa alla radposter som har en enskild rabatt på mer än 5 % eller ett filter för att visa endast cykeltillbehör med "proffs" i namnet.
 
 ## <a name="Focus"></a>Fokusera på radartiklar
 
-När du arbetar med dokument som innehåller en radartikeldel, som en försäljningsorder eller en fakturasida kan du växla vyn till att fokusera på poster, i huvudsak expandera radartikeldelen så att den upptar nästan hela arbetsytan, dölja andra delar av den sidan förutom åtgärder överst. Detta ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem. Detta är speciellt viktigt när du arbetar med stora radposter och snabb dataregistrering önskas.
+När du arbetar med dokument som innehåller en del av en radartikel, t.ex. en försäljningsorder eller fakturasida, kan du växla vyn så att endast radartiklarna fokuseras. Radobjektsdelen expanderas sedan så att den upptar ganska mycket på hela arbetsytan och döljer andra delar av sidan utom åtgärdsområdet högst upp. Detta ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem.
 
-En annan fördel är den även ger avancerade filtreringsfunktioner, precis som i andra listor, så bläddra och söka igenom radposter blir ännu enklare.
+Detta är speciellt viktigt när du arbetar med stora radposter och snabb dataregistrering önskas. En annan fördel är den även ger avancerade filtreringsfunktioner, precis som i andra listor, så bläddra och söka igenom radposter blir ännu enklare.
 
 ### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
@@ -96,11 +102,16 @@ För att fokusera på radartiklar väljer du var som helst i radartikeldelen och
 
 Om du vill växla tillbaka till normal vy, väljer ![ikonen Fokusläge](media/focus-mode.png "ikonen Fokusläge") eller tryck på Ctrl + Shift + F12 igen.
 
-### <a name="filtering-the-line-items"></a>Filtrera radposter
+## <a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
+När du arbetar med flera uppgifter samtidigt eller när du hanterar avbrott för den aktuella uppgiften, t.ex. genom att ta inkommande samtal, kan du öppna ett kort eller en dokument sida i ett nytt fönster. På så sätt kan du hålla ett fönster öppet för en pågående aktivitet när du startar eller slutför en annan aktivitet i ett eller flera andra fönster.
 
-För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på **Shift+F3** för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
 
-Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura och filtrerar radposter för att visa alla radposter som har en enskild rabatt på mer än 5 % eller ett filter för att visa endast cykeltillbehör med "proffs" i namnet.
+> [!NOTE]
+> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![öppna nytt fönster](media/open-new-window-icon.png "öppna nytt fönster").
+
+> [!NOTE]
+> Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning
 
@@ -185,7 +196,7 @@ Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en
 
 |Transaktion|Tolkning|  
 |---------------|------------------------|  
-|021213 132455|02-12-13 13:24:55|  
+|`131202` 132455|02-12-13 13:24:55|  
 |1-12-02 10|02-12-01 10:00:00|  
 |1.12.02 5|02-12-01 05:00:00|  
 |1.12.02|02-12-01 00:00:00|  

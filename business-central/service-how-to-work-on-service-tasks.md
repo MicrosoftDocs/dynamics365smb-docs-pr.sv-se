@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251176"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311650"
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  
@@ -100,7 +100,7 @@ När en serviceartikel har reparerats kan du ange både felkoden och åtgärdsko
 2. Klicka på raden som innehåller relevant serviceartikel och klicka på **Artikelkalkylark**.  
 3. På sidan **Serviceartikeldokument** väljer du **Fel- och åtgärdssamband koder**. Sidan **Fel-/åtgärdssambandskoder** öppnas.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Filter sätts på de samband som visas på sidan via kopiering av serviceartikelgruppen och felkoderna från sidan **Serviceartikeldokument**.  
 
 4. Fyll i raden. Välj rätt kombination av fel- och åtgärdskoder och klicka sedan på **OK** för att kopiera den till serviceartikeln. Om någon lämplig kombination inte finns kan du skapa en ny kombination på sidan.  

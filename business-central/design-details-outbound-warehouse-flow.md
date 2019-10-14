@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b6b4c31b19b85ae33eb3d4a8be0e2e3d5c14320
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247311"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306994"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Avgående distributionslagerflöde
 Det avgående artikelflödet i distributionslagret inleds med en förfrågan från utsläppta källdokument att ta artiklarna ut från distributionslagerplatsen, antingen för att levereras till en extern part eller till en annan företagplats. Från lagringsområdet utförs lageraktiviteter på olika komplexitetsnivåer för att få ut artiklarna till utleveransställena.  
@@ -73,7 +73,7 @@ Dessutom finns följande interna källdokument som fungerar som avgående källo
 
  För lagerplockningarna skapas negativa artikeltransaktioner, distributionslagertransaktioner skapas och plockförfrågan tas bort, om de hanteras fullständigt. Till exempel uppdateras fältet **Utlevererat antal** på den utkommande källdokumentraden. Ett redan bokfört leveransdokument skapas som återspeglar till exempel försäljningsordern, och de levererade artiklarna.  
 
-## <a name="advanced-warehouse-configurations"></a>avancerad distributionslagerkonfiguration  
+## <a name="advanced-warehouse-configurations"></a>Avancerad distributionslagerkonfiguration  
  Följande diagram visar de avgående distibutionslagerflödet efter dokumenttyp i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
  ![Avgående flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_outbound_advanced_flow.png "Avgående flöde i avancerade lagerkonfigurationer")  

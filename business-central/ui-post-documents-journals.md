@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921367"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310706"
 ---
 # <a name="posting-documents-and-journals"></a>Bokför dokument och journaler
 Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.
@@ -29,6 +29,7 @@ I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där d
 | --- | --- |
 | Lär dig mer om att bokföra inköpsdokument. |[Bokföra inköp](ui-post-purchases.md) |
 | Lär dig mer om att bokföra försäljningsdokument. |[Bokföra försäljning](ui-post-sales.md) |
+| Bokföra flera försäljnings- eller inköpsdokument direkt eller som planerade.|[Bokföra flera dokument på samma gång](ui-batch-posting.md)|
 | Lär dig mer om att bokföra redovisningsjournaler. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
 | Förhandsgranska på en sida de transaktioner som skapas när du bokför. |[Förhandsgranska resultat](ui-how-preview-post-results.md) |
 | Förhandsgranska i en rapport, de transaktioner som skapas när du bokför. |[Visa testrapporter före bokföring](ui-how-view-test-reports-posting.md) |

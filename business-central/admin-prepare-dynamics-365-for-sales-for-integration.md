@@ -1,6 +1,6 @@
 ---
-title: Integrera med Dynamics 365 for Sales| Microsoft Docs
-description: Lär dig hur du hämtar Dynamics 365 Business Central redo att integreras med Dynamics 365 for Sales.
+title: Integrera med Dynamics 365 Sales | Microsoft Docs
+description: Lär dig hur du hämtar Dynamics 365 Business Central redo att integreras med Dynamics 365 Sales.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 06/07/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bcdc6b0de1f9d0185afa7db86335fb132fd7f67b
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726819"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304378"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Integrera med Dynamics 365 for Sales
-Rollen säljare betraktas ofta som en de mest utåtriktade jobben i ett företag. Men kan det vara användbart för säljare att kunna se inuti verksamheten och se vad som händer på serverdelen. Genom att integrera [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] kan du ge säljare denna information genom att visa informationen i [!INCLUDE[d365fin](includes/d365fin_md.md)] medan de arbetar i [!INCLUDE[crm_md](includes/crm_md.md)]. Till exempel när du förbereder en försäljningsoffert kan det vara bra att veta om det finns tillräckligt mycket lager för att uppfylla ordern. Mer information finns i [Använda Dynamics 365 for Sales från Business Central](marketing-integrate-dynamicscrm.md).
+# <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
+Rollen säljare betraktas ofta som en de mest utåtriktade jobben i ett företag. Men kan det vara användbart för säljare att kunna se inuti verksamheten och se vad som händer på serverdelen. Genom att integrera [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] kan du ge säljare denna information genom att visa informationen i [!INCLUDE[d365fin](includes/d365fin_md.md)] medan de arbetar i [!INCLUDE[crm_md](includes/crm_md.md)]. Till exempel när du förbereder en försäljningsoffert kan det vara bra att veta om det finns tillräckligt mycket lager för att uppfylla ordern. Mer information finns i [Använd Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> Här beskrivs hur du integrerar onlineversioner av [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om lokal konfiguration finns i [förbereda Dynamics 365 for Sales för integrering lokalt.](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+> Här beskrivs hur du integrerar onlineversioner av [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om lokal konfiguration finns i [förbereda Dynamics 365 Sales för integrering lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 <!--## Software Requirements
 You must have an Office 365 subscription, and both [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] must be part of the same organization.  -->
@@ -34,25 +34,25 @@ Följande steg ger en översikt över hur du integrerar [!INCLUDE[crm_md](includ
 > [!Note]  
 > Dessa uppgifter kräver säkerhetsrollen **Systemadministratör** i [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. I Office 365 administratörscenter anger du ett konto att ansluta till och synkronisera data med [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [ställa in konton för att integrera med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. I Office 365 administratörscenter anger du ett konto att ansluta till och synkronisera data med [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Tilldela licenser för [!INCLUDE[crm_md](includes/crm_md.md)] till de [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare som ska använda de inbyggda programmen.
 
-3. Ställ in en anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Ställa in en anslutning till Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md).  
+3. Ställ in en anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [konfigurera en anslutning till Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md).  
 
 4. Valfritt: Koppla [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]-poster. Mer information finns i [Koppla och synkronisera posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md).
 
-5. Synkronisera data mellan apparna. Mer information finns i [Synkronisera Business Central och Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md).  
+5. Synkronisera data mellan apparna. Mer information finns i [Synkronisera Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md).  
 
 ## <a name="about-the-business-central-integration-solution"></a>Om Business Central integrerad affärslösning
 Lösningen låter användare visa information i [!INCLUDE[d365fin](includes/d365fin_md.md)] medan de arbetar i [!INCLUDE[crm_md](includes/crm_md.md)]. Det kan till exempel ge insyn i kundstatistik, låta användare koppla och visa poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] från [!INCLUDE[crm_md](includes/crm_md.md)] och gör det möjligt att se om det finns produkter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Som standard kommer assisterad inställningsguide för **Skapa Dynamics 365 for Sales-anslutning** vill importera [!INCLUDE[d365fin](includes/d365fin_md.md)]-integreringslösningen. För att göra detta använder inställningsguiden ett administratörsanvändarkonto. Kontot måste även vara en giltig användare i [!INCLUDE[crm_md](includes/crm_md.md)] med följande säkerhetsrollerna:
+Som standard kommer assisterad inställningsguide för **Ställ in Dynamics 365 Sales-anslutning** kommer att importera [!INCLUDE[d365fin](includes/d365fin_md.md)]-integreringslösningen. För att göra detta använder inställningsguiden ett administratörsanvändarkonto. Kontot måste även vara en giltig användare i [!INCLUDE[crm_md](includes/crm_md.md)] med följande säkerhetsrollerna:
 
 * Systemadministratör  
 * Lösningsanpassare  
 
-Mer information finns i [ställa in konton för att integrera med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md), [skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) och [hantera användare och behörigheter](ui-how-users-permissions.md).  
+Mer information finns i [ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) och [hantera användare och behörigheter](ui-how-users-permissions.md).  
 
 Det här kontot används bara en gång vid installationen. När lösningen har importerats till [!INCLUDE[d365fin](includes/d365fin_md.md)], behövs inte längre kontot. Integrationen fortsätter att använda användarkontot som har skapats särskilt för integrering.
 
@@ -62,12 +62,12 @@ Förutom att anpassa [!INCLUDE[crm_md](includes/crm_md.md)], [!INCLUDE[d365fin](
 * **Integrationsanvändare** - tillåter användare att komma åt synkroniserade data. Tilldelas normalt till användarkontot för synkronisering och alla användare som behöver visa eller komma åt synkroniserade data.
 * **Produkttillgänglighetsanvändare** - tillåter att användare frågar om produkttillgänlighet i [!INCLUDE[d365fin](includes/d365fin_md.md)] från [!INCLUDE[crm_md](includes/crm_md.md)].
 
-Mer information om varje roll, t.ex. behörigheter och åtkomstnivåer finns i [Konfigurera användarkonton för integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+Mer information om varje roll, t.ex. behörigheter och åtkomstnivåer finns i [Konfigurera användarkonton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 I slutet av installationsguiden [!INCLUDE[d365fin](includes/d365fin_md.md)] uppmanas du att koppla säljare till användare i [!INCLUDE[crm_md](includes/crm_md.md)]. Poster i [!INCLUDE[crm_md](includes/crm_md.md)] har vanligtvis en ägare (användare) som tilldelats dem, och om koppling mellan användare i [!INCLUDE[crm_md](includes/crm_md.md)] och säljare i [!INCLUDE[d365fin](includes/d365fin_md.md)] inte finns kommer synkroniseringen att misslyckas. Du kan också göra det senare med hjälp av åtgärden **Koppla säljare** på sidan **Microsoft Dynamics 365 anslutningsinställningar**.
 
 ## <a name="see-also"></a>Se även  
-[Ställa in konton för integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Ställ in en anslutning till Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)  
-[Synkroniserar Business Central och Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)  
-[Förbereda Dynamics 365 for Sales för lokal integrering](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+[Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+[Konfigurera en anslutning till Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
+[Förbereder Dynamics 365 Sales för integrering lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)

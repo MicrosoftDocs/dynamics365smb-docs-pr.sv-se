@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247169"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304425"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
@@ -111,7 +111,7 @@ Följande exempel visar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] implemen
 2. Lägg till ytterligare tabeller i paketet, till exempel **Kund** och **Leveratör**. Dessa båda tabeller refererar till tabell **Säljare/köpare** via fälten **Säljarkod** och **Köparkod**.  
 3. När du kopplar data beaktas även den mappning du angav för fältet **Kod** i tabellen **Säljare/köpare** vid bearbetningen av fälten **Säljarkod** och **Köparkod**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Så här lägger du till ytterligare värden i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Så här lägger du till ytterligare värden i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj tabellen som du vill lägga till ytterligare värden i, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 3. Välj kryssrutan som du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  

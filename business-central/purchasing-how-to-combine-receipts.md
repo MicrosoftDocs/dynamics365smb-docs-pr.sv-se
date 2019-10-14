@@ -1,5 +1,5 @@
 ---
-title: Så här kombinerar du inleveranser | Microsoft Docs
+title: Så här tillåter du inleveranser av fler artiklar än vad som har beställts | Microsoft Docs
 description: Om du vill fakturera mer än en inleverans i taget kan du använda funktionen Kombinera inleveranser.
 services: project-madeira
 documentationcenter: ''
@@ -10,40 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252890"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312442"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Kombinera inleveranser på en enda faktura
-Om du vill fakturera mer än en inleverans i taget kan du använda funktionen **Kombinera inleveranser**.  
+# <a name="allow-receipt-of-more-items-than-ordered"></a>Tillåt inleverans av fler artiklar än beställt
+När du tar emot fler varor än vad du har beställt vill du kanske ta emot dem i stället för att annullera inleveransen. Det kan t.ex. vara billigare att behålla överskottet på lagret än att returnera det, eller så kan du erbjuda en rabatt för att behålla det.
 
-Innan du kan skapa en kombinerad inleverans måste du bokföra mer än en inköpsinleverans från samma leverantör i samma valuta. Med andra ord måste du ha fyllt i två eller flera inköpsorder och bokfört dem som inlevererade (men inte fakturerade).  
+Orderhandläggare och lagerarbetare måste kunna hantera sådana "överinleveranser" utan att gå igenom en ingångsprocedur för att förbereda och erhålla godkännande för en ny inköpsorder.
 
-När inleveranser kombineras på en faktura och bokförs, skapas en bokförd inköpsfaktura för de fakturerade raderna. Fältet **Fakturerat antal** på den ursprungliga inköpsordern eller inköpsavropsordern uppdateras utifrån det fakturerade antalet. Emellertid tas det ursprungliga inköpsdokumentet inte bort, även om det är helt inlevererat och fakturerat, och därför måste du ta bort inköpsdokumentet.  
+## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Så här tar du emot fler artiklar än vad som anges i inköpsdokumentet
 
-## <a name="to-combine-receipts"></a>Så här kombinerar du inleveranser:  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.  
-2. Välj åtgärden **Ny**. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).  
-3. På snabbfliken **Rader** klickar du på åtgärden **Hämta inleveransrader**.  
-4. Välj flera inleveransrader som du vill inkludera på fakturan.  
-
-    Om du har valt en ogiltig rad, eller du måste börja om från början, behöver du bara ta bort raderna från fakturan och köra funktionen **Hämta inleveransrader** på nytt.  
-5. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
-
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Så här tar du bort öppna inköpsorder efter kombinerad inleveransbokföring  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort fakturerade inköpsorder** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Välj knappen **OK**.  
-
-Du kan också ta bort enskilda order manuellt.
-
-Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel inköpsavropsorder.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsinställningar** och välj sedan relaterad länk.
+2.   
 
 ## <a name="see-also"></a>Se även  
 [Inköp](purchasing-manage-purchasing.md)  
+[Ta emot artiklar](warehouse-how-receive-items.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

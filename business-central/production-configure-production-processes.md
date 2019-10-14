@@ -4,20 +4,20 @@ description: För att material ska kunna omvandlas till tillverkade slutartiklar
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/04/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4f7d38d4ac786c58c19bad8480941777c2bf1ed6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2d78632984a3520d03c6bf877e98307ba2206351
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252786"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313432"
 ---
 # <a name="setting-up-manufacturing"></a>Ställa in Produktion
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t.ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.

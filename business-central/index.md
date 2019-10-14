@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7ac55b54aca4187de23292865b70c8acf47d33d
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 9f84e224afa474cffd6c2956bd9ebf24169ce105
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858318"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301453"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. [!INCLUDE[d365fin](includes/d365fin_md.md)] är mycket anpassningsbart erbjuder många funktioner som gör att företag kan hantera sin verksamhet, inklusive ekonomi, produktion, försäljning, leverans, projekthantering, service och mycket annat. Företagen kan enkelt lägga till funktioner som krävs för den region där de verkar och som är anpassade för att hantera även mycket specialiserade branscher.
@@ -35,7 +35,8 @@ ms.locfileid: "1858318"
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Regelefterlevnad](compliance/compliance-overview.md)  
 [Dynamics 365-dokumentation](/dynamics365/)  
-[Dynamics 365 Business Central om microsoft.com](https://dynamics.microsoft.com/business-central/overview/)
+[Dynamics 365 Business Central om microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

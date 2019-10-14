@@ -1,78 +1,90 @@
 ---
 title: Visa och redigera grundläggande inställningar | Microsoft Docs
 description: Lär dig hur du ändrar några av de grundläggande inställningarna, till exempel, rollcenter, företag eller arbetsdatumet.
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250980"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311434"
 ---
-# <a name="changing-basic-settings"></a>Ändra grundinställningar
-På sidan [**Mina inställningar**](https://businesscentral.dynamics.com?page=9176 "Gå direkt till sidan för användarinställningar i Business Central") kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
+# <a name="change-basic-settings"></a>Ändra grundinställningar
+
+PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
 ## <a name="role-center"></a> Rollcenter
 Rollcentret representerar startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
 
 -   Längst upp låter navigeringen dig växla mellan kunder, leverantörer, artiklar och andra viktiga listor med information. På samma sätt kan du starta aktiviteter, såsom skapa en ny försäljningsfaktura direkt från Rollcentret.
 
--   I centret hottar du **Aktiviteter**. Aktiviteter visar aktuella data och kan klickas om du vill ha mer detaljerad information. Nyckelindikatorer kan ställas in att visa ett valt diagram för en visuell representation av till exempel kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över favoritkunder på startsidan för konton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
+-   I mitten hittar du området **aktiviteter**, som visar aktuella data och som du kan klicka på eller knacka på för att visa mer detaljerad information. Nyckelindikatorer (KPI:er) kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också upprätta en lista över favoritkunder på Rollcenter-startsidan för företagskonton som du samarbetar med ofta eller behöver ge extra uppmärksamhet.
 
-### <a name="to-change-role-center"></a>Så här ändrar du rollcentret
-Standardrollcentret är **Chef**, men du kan välja ett annat rollcenter som passar bättre till dina önskemål.
-1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "ikonen för inställningar för rollcenter"), och välj **Mina inställningar**.
-2. På sidan **Mina inställningar** i fältet **Rollcenter** väljer du det rollcenter som du vill ange som standard. Välj till exempel **Revisor**.
-3. Välj knappen **OK**.
+### <a name="to-change-the-role"></a>Så här ändrar du rollen
+Standardrollen är **Chef**, men du kan välja en annan roll för att använda ett rollcenter som passar bättre till dina önskemål.
+1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "ikonen för inställningar för rollcenter"), och välj åtgärden **Mina inställningar**.
+2. På sidan **Mina inställningar** i fältet **Roll** väljer du den roll du vill använda som standard. Välj till exempel **Revisor**.
+3. Välj **OK**.
 
 ## <a name="company"></a>Företag
 Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
 
-Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata.
+Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du kan skapa ett nytt företag med egna data. Mer information finns i [Skapa nya företag](about-new-company.md).
 
-> [!TIP]  
->   Om du vill visa ett annat namn för ditt företag i programmet (till exempel på startsidan för rollcenter) anger du fältet **Namn** på sidan **Företagsinformation** eller fältet **Visningsnamn** på sidan **Företag**.  
+## <a name="to-change-the-company-name"></a>Så här ändrar du företagsnamnet
+Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en åtgärd som du kan välja att gå tillbaka till rollcentret. Du kan ändra det här namnet på sidan **företagsinformation**.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk.
+2. Ange det nya företagsnamnet i fältet **Namn**.
+3. Lämna sidan. Systemet startas om och det nya företaget visas i det övre vänstra hörnet.
+
+## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Så här visar du ett företagsbricka för snabb åtkomst till företagsinformation  
+Du kan lägga till en anpassad bricka i det övre högra hörnet, som du kan välja för att snabbt visa företagsnamn och klientorganisationens information i en popup-ruta.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk.
+2. I snabbfliken **Företagsbricka** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+> [!NOTE]
+> Om en företagsbricka definieras kan du inte ändra företagsnamnet enligt beskrivningen i [så här ändrar du företagsnamnet](ui-change-basic-settings.md#to-change-the-company-name)
 
 ## <a name="work-date"></a>Arbetsdatum
-Standardarbetsdatumet är vanligen dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatumet.
+Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra dagens datum.
 
 > [!TIP]  
->   Skriv **a** för att snabbt ange arbetsdatumet i datumfältet. Skriv **d** för att snabbt ange det aktuella datumet i datumfältet.
+> I alla datafält skriver du **t** för att snabbt ange dagens datum och skriv **w** för att snabbt ange arbetsdatum vilket är värdet i fältet **Arbetsdatum** på sidan **Mina inställningar**.
 
 > [!IMPORTANT]  
->   När du har ändrat arbetsdatumet, om du loggar ut eller växlar till ett annat företag, ändras arbetsdata tillbaka till standardarbetsdatum. Så nästa gång du loggar in eller går tillbaka till det ursprungliga företaget, kan du behöva ange arbetsdatumet igen. 
+>  När du har ändrat arbetsdatumet, om du loggar ut eller växlar till ett annat företag, ändras arbetsdata tillbaka till standardarbetsdatum. Så nästa gång du loggar in eller går tillbaka till det ursprungliga företaget, kan du behöva ange arbetsdatumet igen.
 
 ### <a name="work-date-indication"></a>Indikering av arbetsdatum
-<!--
-Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+När arbetsdatumet inte infaller på dagens datum visas två typer av indikatorer på sidor som kan redigeras och där arbetsdatumet är så viktigt:
 
-- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+- En påminnelse visas högst upp på sidan som anger vad arbetsdagens datum är. Betalnings påminnelsen innehåller en direkt länk till inställningen arbetsdatum på sidan **mina inställningar** så att du kan ändra datumet om du vill. Du kan också välja att stänga påminnelsen för resten av sessionen. Om du inte ändrar arbetsdatumet till "idag" visas påminnelsen nästa gång du loggar in.
 
-- If you dismiss the reminder, the work date will appear in the title of the page.  
--->
-Om arbetsdatumet inte anges för den aktuella dagen (idag) visas sedan på alla sidor där du kan redigera data föregående arbetsdatum i det övre vänstra hörnet på sidan.
-  
+- Om du avmarkerar påminnelsen visas arbetsdatumet i titeln på sidan.  
+--> Om arbetsdatumet inte anges för den aktuella dagen (idag) visas sedan på alla sidor där du kan redigera data föregående arbetsdatum i det övre vänstra hörnet på sidan.
+
 ## <a name="region"></a> Region
 
 Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
 
-
 ## <a name="language"></a> Språk
-Ändra displayspråk. Det här fältet visas bara om det finns flera språk att välja mellan. 
+Ändra displayspråk. Det här fältet visas bara om det finns flera språk att välja mellan.
 
 Startspråket bestäms antingen av administratören eller i webbläsaren när du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det språk som du anger används för alla enheter som du loggar in från, till exempel en telefon eller surfplatta.
 
 ## <a name="changing-when-i-receive-notifications"></a>Ändra när jag får meddelanden
-Välj den här länken för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Mer information finns i [Smarta meddelanden](ui-smart-notifications.md).
+Välj den här länken för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Mer information finns i [Hantera meddelanden](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se även
+[Skapa nya företag](about-new-company.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

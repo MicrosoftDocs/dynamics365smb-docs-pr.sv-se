@@ -1,6 +1,6 @@
 ---
 title: Synkronisering och dataintegrering | Microsoft Docs
-description: Synkroniseringen kopierar data mellan Dynamics 365 for Sales-transaktioner och Business Central-poster och behåller data i båda systemen uppdaterade.
+description: Synkroniseringen kopierar data mellan Dynamics 365 Sales-transaktioner och Business Central-poster och behåller data i båda systemen uppdaterade.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917466"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304249"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkroniserar data i Business Central och Dynamics 365 for Sales
-När du integrerar [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du bestämma om du vill synkronisera data i valda fält för i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (till exempel kunder, kontakter och säljare) med motsvarande poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på vilken typ av post kan du synkronisera data från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Synkroniserar data i Business Central och Dynamics 365 Sales
+När du integrerar [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du bestämma om du vill synkronisera data i valda fält för i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (till exempel kunder, kontakter och säljare) med motsvarande poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på vilken typ av post kan du synkronisera data från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synkronisering använder följande element:
 
@@ -77,11 +77,11 @@ Följande tabell visar mappningar från [!INCLUDE[d365fin](includes/d365fin_md.m
 Följande tabell beskriver regler som kontrollerar synkroniseringen mellan appar.
 
 > [!NOTE]  
-> Ändrar data i [!INCLUDE[crm_md](includes/crm_md.md)] som genomfördes av [!INCLUDE[crm_md](includes/crm_md.md)]-anslutning användarkontot är inte synkroniserade. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [ställa in konton för att integrera med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ändrar data i [!INCLUDE[crm_md](includes/crm_md.md)] som genomfördes av [!INCLUDE[crm_md](includes/crm_md.md)]-anslutning användarkontot är inte synkroniserade. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [Ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Bord|Regel|
 |-----|----|
-|Kunder|Innan en kund kan synkroniseras till ett konto måste försäljningpersonen, som tilldelats kunden, kopplas till en [!INCLUDE[crm_md](includes/crm_md.md)]-användare. Därför när du vill köra synkroniseringsjobbet KUNDER – Dynamics 365 for Sales och du ställer in det till att skapa nya poster, säkerställ att du synkroniserar säljare med [!INCLUDE[crm_md](includes/crm_md.md)] innan du synkroniserar kunder med [!INCLUDE[crm_md](includes/crm_md.md)]-konton. <br /> <br />Synkroniseringsjobbet KUNDER – Dynamics 365 for Sales synkroniserar endast Sales-konton som har relationstypen Kund.|
+|Kunder|Innan en kund kan synkroniseras till ett konto måste försäljningpersonen, som tilldelats kunden, kopplas till en [!INCLUDE[crm_md](includes/crm_md.md)]-användare. Därför när du vill köra synkroniseringsjobbet KUNDER - Dynamics 365 Sales och du ställer in det till att skapa nya poster, säkerställ att du synkroniserar säljare med [!INCLUDE[crm_md](includes/crm_md.md)] innan du synkroniserar kunder med [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />Synkroniseringsjobbet KUNDER – Dynamics 365 Sales synkroniserar endast Sales-konton som har relationstypen Kund.|
 |Kontakter|Endast kontakter i [!INCLUDE[crm_md](includes/crm_md.md)] som associeras med ett konto skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Säljarkod värdet definierar ägare till den kopplade enheten i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Valutor|Valutor kopplas till transaktionvalutor i [!INCLUDE[crm_md](includes/crm_md.md)] baserat på ISO-koder. Endast valutor, som har en standard-ISO-kod, kopplas och synkroniseras med transaktionsvalutor.|
 |Enheter|Måttenheter synkroniseras med enhetsgrupper i [!INCLUDE[crm_md](includes/crm_md.md)]. Det kan finnas endast en måttenhet som definieras i enhetsgruppen.|
@@ -97,4 +97,4 @@ Följande tabell beskriver regler som kontrollerar synkroniseringen mellan appar
 ## <a name="see-also"></a>Se även  
 [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integrera med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

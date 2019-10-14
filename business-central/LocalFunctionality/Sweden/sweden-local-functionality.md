@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7719a49e7d2a6eea91c0d77c8cbcdc6d0c45c4c5
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 5a22352cb55df9fdeb8fc47679b481ce6661af12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594212"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301067"
 ---
 # <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
 I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c09eedbb812df909a43e514dc462dcf8c1cf182a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249313"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314850"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar
 Den här genomgången beskriver hur du kan använda kontouppställningar för att göra kassaflödesprognoser. Kontouppställningar utför beräkningar som inte kan göras direkt i kontoplaner för kassaflöden. I kontouppställningar kan du skapa delsummor för kassainflöden och utbetalningar. Dessa delsummor kan inkluderas i nya totaler som kan användas vid kassaflödesprognoser.  
@@ -67,12 +67,13 @@ När ett kontouppställningsnamn har upprättats, definierar Ken varje rad som v
     > [!NOTE]  
     >  Med hjälp av funktionen **Infoga kassaflödeskonton** kan du snabbt välja kassaflödeskonton från kontoplanen för kassaflöde och kopiera dem till kontouppställningsrader.  
 
-    |Rad-nr|Beskrivning |Summeringstyp|Summering|Radtyp|Beloppstyp|Visa|  
-    |-------|-----------|-------------|--------|--------|--- ------|----| | C10|Belopp|Nettoförändring|Transaktioner|Nettobelopp|Alltid|  
-    |C20|Belopp till datum|Saldo till datum|Transaktioner|Nettobelopp|Alltid|  
+    |Rad-nr|Beskrivning|Summeringstyp|Summeringsintervall|Radtyp|Beloppstyp|Visa|  
+    |-------|-----------|-------------|--------|--------|-----------|----|
+    |C10|Belopp|Nettoförändring|Transaktioner|Nettobelopp|Alltid|  
+    |C20|Belopp till datum|Saldo t.o.m. datum|Transaktioner|Nettobelopp|Alltid|  
     |C30|Hela räkenskapsåret|Hela räkenskapsåret|Transaktioner|Nettobelopp|Alltid|  
 
-4.  Välj knappen **OK**.  
+4.  Välj **OK**.  
 
 ## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>Koppla kolumnlayouten till kontouppställningsnamnet  
 Nu kan Ken koppla kolumnlayouten till kontouppställningsnamnet.  

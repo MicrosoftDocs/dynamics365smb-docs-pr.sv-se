@@ -1,6 +1,6 @@
 ---
-title: Ansluta till Dynamics 365 for Sales | Microsoft Docs
-description: Du kan integrera med Dynamics 365 for Sales.
+title: Anslut till Dynamics 365 Sales | Microsoft Docs
+description: Du kan integrera med Dynamics 365 Sales.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/06/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 37728cb92e4b87346cf2be0e2ddc50b5a3b5f25e
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: 6a23cdf9a13461db92977cc46d7f4fcaa7c715f7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917397"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304522"
 ---
-# <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Ställ in en anslutning till Dynamics 365 for Sales.
+# <a name="set-up-a-connection-to-dynamics-365-sales"></a>Konfigurera en anslutning till Dynamics 365 Sales
 Om du vill integrera med [!INCLUDE[crm_md](includes/crm_md.md)] måste du göra en koppling mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
@@ -27,7 +27,7 @@ Om du vill integrera med [!INCLUDE[crm_md](includes/crm_md.md)] måste du göra 
 ## <a name="before-you-start"></a>Innan du börjar
 Innan du börjar ansluta apparna, finns det några delar av information som är användbar för att ha redo:  
 
-* En URL för din [!INCLUDE[crm_md](includes/crm_md.md)]-app. Ett snabbt sätt att hämta URL:en är att öppna [!INCLUDE[crm_md](includes/crm_md.md)] och kopiera URL-adressen och klistra in den i fältet **Dynamics 365 for Sales URL** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] korrigerar layouten.  
+* En URL för din [!INCLUDE[crm_md](includes/crm_md.md)]-app. Ett snabbt sätt att hämta URL:en är att öppna [!INCLUDE[crm_md](includes/crm_md.md)] och kopiera URL-adressen och klistra in den i fältet **Dynamics 365 Sales-URL** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] korrigerar layouten.  
 * Användarnamn och lösenord för ett användarkonto används endast för integrering.  
 * Användarnamn och lösenord för det konto som har administratörsbehörigheter.  
 
@@ -35,20 +35,20 @@ Innan du börjar ansluta apparna, finns det några delar av information som är 
 > Här beskrivs proceduren för onlineversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="set-up-test-and-enable-a-connection-to-includecrm_mdincludescrm_mdmd"></a>Ställ in, testa och aktivera en anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]  
-För alla autentiseringstyper förutom Office 365-autentisering kan du ställa in anslutningen till Dynamics 365 for Sales på sidan **Microsoft Dynamics 365 for Sales anslutningsinställningar**. För Office 365 autentisering kan du också använda assisterad inställningsguide för **Ställ in Dynamics 365 for Sales anslutning** som hjälper dig att hitta informationen som krävs.
+För alla autentiseringstyper förutom Office 365-autentisering kan du ställa in anslutningen till Dynamics 365 Sales på sidan **Microsoft Dynamics 365 Sales anslutningsinställningar**. För Office 365-autentisering kan du också använda assisterad inställningsguide för **Ställ in Dynamics 365 Sales-anslutning** som hjälper dig att hitta informationen som krävs.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>Så här använder du guiden för assisterad konfiguration:
-Guiden för assisterad konfiguration **ställ in Dynamics 365 for Sales anslutning** kan hjälpa dig att skapa anslutningen och ange om du vill aktivera avancerade funktioner, till exempel koppla mellan poster.
+Guiden för assisterad konfiguration **Ställ in Dynamics 365 Sales-anslutning** kan hjälpa dig att skapa anslutningen och ange om du vill aktivera avancerade funktioner, till exempel koppla mellan poster.
 
 1. Välj **inställningar och tillägg**, och välj **assisterad konfiguration**.
-2. Välj **ställa in Dynamics 365 for Sales anslutning** för att starta guiden för assisterad konfiguration.
+2. Välj **Ställ in Dynamics 365 Sales-anslutning** för att starta guiden för assisterad konfiguration.
 3. Fyll i fälten om det behövs.
 4. Om det finns avancerade inställningar som kan förbättra säkerheten och aktivera [!INCLUDE[crm_md](includes/crm_md.md)] ytterligare funktioner, till exempel behandling av försäljningsorder och visa lagernivåer. Avancerade inställningarna beskrivs i tabellen nedan.  
 
 |Fält|Beskrivning|
 |-----|-----|
-|**Importera Dynamics 365 for Sales lösning**|Aktivera det här alternativet om du vill installera och konfigurera lösningen för integration i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [om Business Central integrationslösning](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
-|**Publicera webbtjänsten för artikeldisposition**|Aktivera människor som använder [!INCLUDE[crm_md](includes/crm_md.md)] för att visa disponibla artiklar (produkter) i lagret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kräver att [!INCLUDE[d365fin](includes/d365fin_md.md)] användarkontot har en åtkomstnyckel för webbtjänsterna. Tilldela nyckeln är en tvåstegsprocess. För användarkontot i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du välja åtgärden **ändra webbtjänstnyckeln**. I guiden för assisterad konfiguration ställa in Dynamics 365 for Sales anslutning anger du Dynamics 365 Business Central OData webbtjänst-URL och ger [!INCLUDE[d365fin](includes/d365fin_md.md)] användarens autentiseringsuppgifter för att komma åt tjänsten. Mer information finns i [OData webbtjänst](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**Importera Dynamics 365 Sales-lösning**|Aktivera det här alternativet om du vill installera och konfigurera lösningen för integration i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [om Business Central integrationslösning](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
+|**Publicera webbtjänsten för artikeldisposition**|Aktivera människor som använder [!INCLUDE[crm_md](includes/crm_md.md)] för att visa disponibla artiklar (produkter) i lagret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kräver att [!INCLUDE[d365fin](includes/d365fin_md.md)] användarkontot har en åtkomstnyckel för webbtjänsterna. Tilldela nyckeln är en tvåstegsprocess. För användarkontot i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du välja åtgärden **ändra webbtjänstnyckeln**. I guiden för assisterad konfiguration Dynamics 365 Sales-anslutning anger du Dynamics 365 Business Central OData webbtjänst-URL och ger [!INCLUDE[d365fin](includes/d365fin_md.md)] användarens autentiseringsuppgifter för att komma åt tjänsten. Mer information finns i [OData webbtjänst](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Dynamics 365 Business Central OData webbtjänst-URL**|Om du aktiverar webbtjänsten för artikeldisposition anges URL för OData webbadressen för dig.|
 |**Dynamics 365 Business Central Användarnamn för OData-webbtjänsten**|Namnet på det [!INCLUDE[d365fin](includes/d365fin_md.md)] användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition i [!INCLUDE[d365fin](includes/d365fin_md.md)] via webbtjänsten för OData.|
 |**Dynamics 365 Business Central Åtkomstnyckel för OData-webbtjänsten**|Åtkomstnyckeln för det användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition från [!INCLUDE[d365fin](includes/d365fin_md.md)] via webbtjänsten för OData. Nyckeln tilldelas användaren i fältet **Dynamics 365 Business Central Användarnamn för OData-webbtjänsten**. Om du vill hämta nyckeln väljer du knappen **sök efter värdet** bredvid användarnamnet, väljer användaren, väljer **hantera** och sedan **redigera**. På användarkortet väljer du **åtgärder**, **autentisering** och väljer sedan **ändra webbtjänstnyckeln**.|
@@ -57,18 +57,18 @@ Guiden för assisterad konfiguration **ställ in Dynamics 365 for Sales anslutni
 |**SDK-version för Dynamics 365**|Detta gäller endast om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)]. Det här är den SDK-version för Dynamics 365 (även kallat Xrm) för att ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)] och motsvarande eller senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 > [!Note]
-> Den assisterade inställningsguiden **Konfigurera Dynamics 365 for Sales-anslutning** tilldelar automatiskt säkerhetsrollerna **Integrationsadministratör** och **Integrationsnvändare** till användarkonton som används för integration. 
+> Den assisterade inställningsguiden **Ställ in Dynamics 365 Sales-anslutning** tilldelar automatiskt säkerhetsrollerna **Integrationsadministratör** och **Integrationsanvändare** till användarkonton som används för integration.
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Om du vill skapa eller hantera anslutningen manuellt
-I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dynamics 365 for Sales anslutningsinställningar** manuellt. Detta är sidan där du hanterar inställningar för integrering.
+I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dynamics 365 Sales anslutningsinställningar** manuellt. Detta är sidan där du hanterar inställningar för integrering.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Microsoft Dynamics 365 anslutningsinställningar** och välj sedan relaterad länk.
 2. Ange följande information om anslutningen från [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)].
 
 |Fält|Beskrivning|
 |-----|-----|
-|**Dynamics 365 for Sales URL**|URL:en för din instans av [!INCLUDE[crm_md](includes/crm_md.md)]. Om du vill hämta URL-adressen, öppna [!INCLUDE[crm_md](includes/crm_md.md)], kopiera URL från adressfältet i din webbläsare och klistra sedan in URL-adressen i fältet. [!INCLUDE[d365fin](includes/d365fin_md.md)] ser till att formatet är korrekt.|
-|**Användarnamn** och **lösenord**|Autentiseringsuppgifterna för användarkontot är avsedd för integrering. Mer information finns i [ställa in konton för att integrera med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).|
+|**Dynamics 365 Sales-URL**|URL:en för din instans av [!INCLUDE[crm_md](includes/crm_md.md)]. Om du vill hämta URL-adressen, öppna [!INCLUDE[crm_md](includes/crm_md.md)], kopiera URL från adressfältet i din webbläsare och klistra sedan in URL-adressen i fältet. [!INCLUDE[d365fin](includes/d365fin_md.md)] ser till att formatet är korrekt.|
+|**Användarnamn** och **lösenord**|Autentiseringsuppgifterna för användarkontot är avsedd för integrering. Mer information finns i [Ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).|
 |**Aktiv**|Starta använda integrationen Om du inte aktiverar anslutningen nu sparas anslutningsinställningarna, men användarna kan inte få åtkomst till data i [!INCLUDE[crm_md](includes/crm_md.md)] från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gå tillbaka till sidan och aktivera anslutningen senare.  |
 |**SDK-version för Dynamics 365**|Om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)] är det denna SDK-versionen för Dynamics 365 (även kallad Xrm) som du använder för att ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Den version som du väljer måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)]. Den här versionen motsvarar eller är senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -97,8 +97,8 @@ I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dyna
 
 |Fält|Beskrivning|
 |-----|-----|
-|**[!INCLUDE[d365fin](includes/d365fin_md.md)] Användare måste mappa till Dynamics 365 for Sales användare**|Ange om [!INCLUDE[d365fin](includes/d365fin_md.md)] konton måste ha matchande användarkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. **Office 365 E-postadress för autentisering** av [!INCLUDE[d365fin](includes/d365fin_md.md)]-användaren måste vara samma som **Primär e-postadress** för [!INCLUDE[crm_md](includes/crm_md.md)]-användaren.<br /><br /> Om du anger värdet till **Ja** kommer [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare som inte har något matchande [!INCLUDE[crm_md](includes/crm_md.md)]-användarkonto inte ha [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data direkt från [!INCLUDE[d365fin](includes/d365fin_md.md)] utförs på [!INCLUDE[crm_md](includes/crm_md.md)]-användarkontots vägnar.<br /><br /> Om du anger värdet till **Nej** kommer alla [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare ha [!INCLUDE[crm_md](includes/crm_md.md)]--integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data gör på [!INCLUDE[crm_md](includes/crm_md.md)]-anslutningens (integration) vägnar.|
-|**Nuvarande Business Central-användare mappas till en Dynamics 365 for Sales-användare**|Anger om kontot har mappats till ett konto i [!INCLUDE[crm_md](includes/crm_md.md)]|
+|**[!INCLUDE[d365fin](includes/d365fin_md.md)]-användare måste mappa till Dynamics 365 Sales-användare**|Ange om [!INCLUDE[d365fin](includes/d365fin_md.md)] konton måste ha matchande användarkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. **Office 365 E-postadress för autentisering** av [!INCLUDE[d365fin](includes/d365fin_md.md)]-användaren måste vara samma som **Primär e-postadress** för [!INCLUDE[crm_md](includes/crm_md.md)]-användaren.<br /><br /> Om du anger värdet till **Ja** kommer [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare som inte har något matchande [!INCLUDE[crm_md](includes/crm_md.md)]-användarkonto inte ha [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data direkt från [!INCLUDE[d365fin](includes/d365fin_md.md)] utförs på [!INCLUDE[crm_md](includes/crm_md.md)]-användarkontots vägnar.<br /><br /> Om du anger värdet till **Nej** kommer alla [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare ha [!INCLUDE[crm_md](includes/crm_md.md)]--integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data gör på [!INCLUDE[crm_md](includes/crm_md.md)]-anslutningens (integration) vägnar.|
+|**Nuvarande Business Central-användare mappas till en Dynamics 365 Sales-användare**|Anger om kontot har mappats till ett konto i [!INCLUDE[crm_md](includes/crm_md.md)]|
 
 6. Kontrollera anslutningsinställningarna genom att välja **Testa anslutning**.  
 
@@ -108,16 +108,16 @@ I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dyna
 7. Om [!INCLUDE[crm_md](includes/crm_md.md)]-synkroniseringen inte redan har ställts in får en fråga om du vill använda standardsynkroniseringskonfigurationen. Beroende på om du vill bokföra poster justerade i [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)], välj **Ja** eller **Nej**.
 
 > [!Note]
-> Ansluta till Dynamics 365 for Sales med sidan **Microsoft Dynamics 365 for Sales**-anslutningsinställning kan kräva att du tilldelar säkerhetsrollerna Integrationsadministratör och Integrationsanvändare till användarkonton om används för integration. Mer information finns i [tilldela en säkerhetsroll till en användare](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> Ansluta till Dynamics 365 Sales med sidan **Microsoft Dynamics 365 Sales-anslutningsinställning** kan kräva att du tilldelar säkerhetsrollerna Integrationsadministratör och Integrationsanvändare till användarkonton om används för integration. Mer information finns i [tilldela en säkerhetsroll till en användare](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 > [!Note]
-> Ansluta till Dynamics 365 for Sales med sidan **Microsoft Dynamics 365 for Sales-anslutningsinställning** kan kräva att du [tilldelar säkerhetsrollerna **Integrationsadministratör** och **Integrationsanvändare**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) till användarkonton om används för integration.
+> Ansluta till Dynamics 365 Sales med **Microsoft Dynamics 365 Sales anslutningsinställningar** kan kräva att du [tilldelar säkerhetsrollerna **Integrationsadministratör** och **Integrationsanvändare**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) till användarkonton om används för integration.
 
 
 ### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>Koppla bort från [!INCLUDE[crm_md](includes/crm_md.md)]  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Microsoft Dynamics 365 for Sales anslutningsinställningar** och välj sedan relaterad länk.
-2. På sidan **Microsoft Dynamics 365 for Sales anslutningsinställningar**, avmarkera kryssrutan **aktiverad**.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Microsoft Dynamics 365 Sales anslutningsinställningar** och välj sedan relaterad länk.
+2. På sidan **Microsoft Dynamics 365 Sales anslutningsinställningar**, avmarkera kryssrutan **aktiverad**.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
@@ -143,13 +143,13 @@ I följande procedur beskrivs hur du fyller i fälten på sidan **Microsoft Dyna
 
 If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
 
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() -->
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 Sales Connection]() -->
 
 <!--
 # View Item Availability - Support Matrix
-For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
+For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
-| |Dynamics 365 for Sales version|2015/Update 1/Online|2016/Update 1/Online|Dynamics 365 for Sales|
+| |Dynamics 365 Sales version|2015/Update 1/Online|2016/Update 1/Online|Dynamics 365 Sales|
 |-|---------------------|---------------------|--------------------------|-----------------|
 |**Dynamics NAV version**|
 |**2016**||Not supported|Not supported|Not supported|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446997"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306243"
 ---
 # <a name="report-vat-to-a-tax-authority"></a>Rapportera moms till skattemyndigheterna
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region.
@@ -61,7 +61,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
     > [!NOTE]  
     >   Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Så här ställer du in momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Så här ställer du in momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurera momsrapport** och välj sedan relaterad länk.  
 2. Om du vill låta användarna ändra och skicka om rapporten, väljer du kryssrutan **ändra skickade rapporter**.  
 3. Välj nummerserien som ska användas för varje rapport.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241875"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308578"
 ---
 # <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
 Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. När du använder koncerninterna funktioner kan du göra affärer med dina dotterbolag och interna partnerorganisationer på samma sätt som att arbeta med externa leverantörer och kunder. Du anger bara koncernintern information en gång i tillämpliga dokument. Du kan använda funktioner som du redan känner till, t.ex. hantering av leverantörsreskontra och kundreskontra. Genom att koppla funktioner för kontoplanen och dimensioner kan du försäkra dig om att informationen visas på rätt plats.  
@@ -29,7 +29,7 @@ Det finns fyra huvudsakliga fördelar med koncerninterna funktioner:
 - Fullständig redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
 - Effektiva, kostnadseffektiva transaktioner med dotterbolag  
 
-Du har full kontroll över alla transaktionsdokument. Du kan t.ex. avvisa ett dokument som har skickats till dig och därmed återföra bokföringar som är inkorrekta. När du gör ett inköp från en partner eller ett dotterbolag kan du uppdatera inköpsordern så länge som det säljande bolaget inte har levererat några varor.  
+Du har full kontroll över alla transaktionsdokument. Du kan t.ex. avvisa ett dokument som har skickats till dig och därmed återföra bokföringar och ångra inleveranser/utleveranser som är inkorrekta. När du gör ett inköp från en partner eller ett dotterbolag kan du uppdatera inköpsordern så länge som det säljande bolaget inte har levererat några varor.  
 
 När du skapar en transaktion behöver du inte ange konton för en enskild räkenskapsbok, utan helt enkelt ange moderbolaget. De koncerninterna funktionerna skapar rader i redovisningsjournaler resulterar i att räkenskaperna balanseras för de båda företag som är involverade i en transaktion. I Kundreskontra och Leverantörsreskontra tilldelar du en koncernintern partnerkod till kunder och leverantörer. Alla order och fakturor som sedan genereras och som gäller transaktioner med dessa företag resulterar i att motsvarande dokument skapas i partnerföretaget och att konton balanseras korrekt.  
 

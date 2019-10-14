@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245030"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304066"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
@@ -24,7 +24,7 @@ Du kan exportera betalningsrader från sidan **Utbetalningsjournal** till en en 
 
 Du kan importera bankutdragsfiler på sidan **Betalningsavstämningsjournal** med hjälp av bankdatakonverteringstjänsten för att konvertera en fil som du får från banken till en dataström som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjänsten kan du använda tjänsten Envestnet Yodlee Bank Feeds. Mer information finns i [Konfigurera du Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md).
+Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjänsten kan du använda tjänsten Envestnet Yodlee Bank Feeds. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Om du vill importera eller exportera bankfiler måste du ställa in ditt eget bankkonto och dina leverantörers bankkonton. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
