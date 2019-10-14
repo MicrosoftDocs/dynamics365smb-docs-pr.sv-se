@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7719a49e7d2a6eea91c0d77c8cbcdc6d0c45c4c5
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 5a22352cb55df9fdeb8fc47679b481ce6661af12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594212"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301067"
 ---
-# <a name="sweden-local-functionality"></a><span data-ttu-id="700ea-103">Lokal funktionalitet för Sverige</span><span class="sxs-lookup"><span data-stu-id="700ea-103">Sweden Local Functionality</span></span>
-<span data-ttu-id="700ea-104">I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="700ea-104">The following topics describe local functionality that is unique to the Swedish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
+# <a name="sweden-local-functionality"></a><span data-ttu-id="6ac6c-103">Lokal funktionalitet för Sverige</span><span class="sxs-lookup"><span data-stu-id="6ac6c-103">Sweden Local Functionality</span></span>
+<span data-ttu-id="6ac6c-104">I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="6ac6c-104">The following topics describe local functionality that is unique to the Swedish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
 
-## <a name="feature-availability"></a><span data-ttu-id="700ea-105">Tillgänglighet för funktioner</span><span class="sxs-lookup"><span data-stu-id="700ea-105">Feature Availability</span></span>  
+## <a name="feature-availability"></a><span data-ttu-id="6ac6c-105">Tillgänglighet för funktioner</span><span class="sxs-lookup"><span data-stu-id="6ac6c-105">Feature Availability</span></span>  
 
-* <span data-ttu-id="700ea-106">Moms</span><span class="sxs-lookup"><span data-stu-id="700ea-106">VAT</span></span>
-    * <span data-ttu-id="700ea-107">[Ställ in inköpstransaktioner för tredje part från EU-land](how-to-set-up-eu-third-party-purchase-transactions.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="700ea-107">[Set Up EU Third-Party Purchase Transactions](how-to-set-up-eu-third-party-purchase-transactions.md) **Available Now**</span></span>
+* <span data-ttu-id="6ac6c-106">Moms</span><span class="sxs-lookup"><span data-stu-id="6ac6c-106">VAT</span></span>
+    * <span data-ttu-id="6ac6c-107">[Ställ in inköpstransaktioner för tredje part från EU-land](how-to-set-up-eu-third-party-purchase-transactions.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="6ac6c-107">[Set Up EU Third-Party Purchase Transactions](how-to-set-up-eu-third-party-purchase-transactions.md) **Available Now**</span></span>
 
-* <span data-ttu-id="700ea-108">Grundläggande ekonomi</span><span class="sxs-lookup"><span data-stu-id="700ea-108">Core Finance</span></span>
-    * <span data-ttu-id="700ea-109">[Automatiska kontokoder](automatic-account-codes.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="700ea-109">[Automatic Account Codes](automatic-account-codes.md) **Available Now**</span></span>
-    * <span data-ttu-id="700ea-110">[Så här ställer du in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)  **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="700ea-110">[Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)  **Available Now**</span></span>
-    * <span data-ttu-id="700ea-111">[Importera och exportera data i SIE-format (Standard Import Export)](how-to-import-and-export-data-in-standard-import-export-format.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="700ea-111">[Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**</span></span>  
-    * <span data-ttu-id="700ea-112">[Skriva ut rapporterna Balansräkning och Resultaträkning](how-to-print-balance-sheet-and-income-statement-reports.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="700ea-112">[Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**</span></span>  
+* <span data-ttu-id="6ac6c-108">Grundläggande ekonomi</span><span class="sxs-lookup"><span data-stu-id="6ac6c-108">Core Finance</span></span>
+    * <span data-ttu-id="6ac6c-109">[Automatiska kontokoder](automatic-account-codes.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="6ac6c-109">[Automatic Account Codes](automatic-account-codes.md) **Available Now**</span></span>
+    * <span data-ttu-id="6ac6c-110">[Så här ställer du in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)  **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="6ac6c-110">[Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)  **Available Now**</span></span>
+    * <span data-ttu-id="6ac6c-111">[Importera och exportera data i SIE-format (Standard Import Export)](how-to-import-and-export-data-in-standard-import-export-format.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="6ac6c-111">[Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**</span></span>  
+    * <span data-ttu-id="6ac6c-112">[Skriva ut rapporterna Balansräkning och Resultaträkning](how-to-print-balance-sheet-and-income-statement-reports.md) **Tillgänglig nu**</span><span class="sxs-lookup"><span data-stu-id="6ac6c-112">[Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="700ea-113">Se även</span><span class="sxs-lookup"><span data-stu-id="700ea-113">See Also</span></span>
-<span data-ttu-id="700ea-114">[Arbeta med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="700ea-114">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>    
+## <a name="see-also"></a><span data-ttu-id="6ac6c-113">Se även</span><span class="sxs-lookup"><span data-stu-id="6ac6c-113">See Also</span></span>
+<span data-ttu-id="6ac6c-114">[Arbeta med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6ac6c-114">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>    
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

@@ -18,35 +18,39 @@
 
 # Arbeta med Business Central
 ## [Översikt](ui-work-product.md)
-## [Söka efter Funktioner och information](ui-search.md)
+## [Söka efter sidor och information med berätta](ui-search.md)
+## [Söka efter sidor från en funktions översikt](ui-role-explorer.md)
 ## [Vanliga frågor om Berätta](ui-search-faq.md)
-## [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)
+## [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
 ## [Vanliga frågor och svar om sök och filtrering](ui-search-filter-faq.md)
 ## [Ange data](ui-enter-data.md)
+## [Vanliga frågor om Kopiera och klistra in](ui-copy-paste.md)
 ## [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)
-## [Kopiera och klistra in](ui-copy-paste.md)
 ## [Identifiera obligatoriska fält](ui-mandatory-fields.md)
 ## [Byta språk och plats](about-locale-language.md)
 ## [Visa och redigera i Excel](across-work-with-excel.md)  
-## [Hantera meddelanden](ui-smart-notifications.md)
+## [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md)
 ## [Ändra grundinställningar](ui-change-basic-settings.md)
+## [Hantera meddelanden](ui-smart-notifications.md)
 ## Anpassa Business Central
 ### [Anpassa din arbetsyta](ui-personalization-user.md)
 ### [Varför är en sida låst för anpassning?](ui-personalization-locked.md)
+### [Spara och anpassa listvyer](ui-views.md)
+### [Lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md)
 ### [Visa listor på olika sätt](across-display-lists-different-views.md)
-## Skriva ut rapporter och köra batch-jobb
-### [Arbeta med rapporter och batch-jobb](ui-work-report.md)
+## Skriva ut rapporter och köra batch-jobb och XMLports
+### [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)
 ### [Ange skrivarval för rapporter](ui-specify-printer-selection-reports.md)
-### [Schemalägga en rapport eller ett batch-jobb som ska köras](ui-work-report.md#ScheduleReport)
-### [Hantering av sparade inställningar i rapporter](reports-saving-reusing-settings.md)
+### [Så här schemalägger du en rapportkörning](ui-work-report.md#ScheduleReport)
+### [Hantera sparade inställningar för rapporter och batch-jobb](reports-saving-reusing-settings.md)
 ### [Visa testrapporter före bokföring](ui-how-view-test-reports-posting.md)
-### [Kör batchjobb](ui-how-run-batch-jobs.md)
-## Om du ändrar utseende på dokument
+### [Kör batch-jobb och XMLports](ui-how-run-batch-jobs.md)
+## Ändra hur externa dokument och rapporter ser ut
 ### [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)
 ### [Uppdatera rapport- eller dokumentlayouter](ui-update-report-layouts.md)
 ### [Så här gör du ändringar i en Word-rapportlayout](ui-how-create-custom-report-layout.md)
 ### [Så här importerar och exporterar du en anpassad rapport eller dokumentlayout](ui-how-import-and-export-report-layout.md)
-### [Ändra den layout som används i en rapport för närvarande](ui-how-change-layout-currently-used-report.md)
+### [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md)
 ### [Lägga till fält i en Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
 ## Använda kortkommandon
 ### [Hjälpmedel och kortkommandon](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Arkivera dokument](across-how-to-archive-documents.md)
 ## [Lägg till utökad artikeltext](ui-how-define-ext-text.md)
 ## [Definiera användarens uppgifter](across-user-tasks.md)
-## [Lägga till länkar till webbplatser, dokument och program på poster](ui-how-add-link-to-record.md)
-## [Bifoga filer till kort och dokument](across-attach-document-master-data.md)
 ## [Exportera affärsdata till Excel](about-export-data.md)
 ## [Bokför dokument och journaler](ui-post-documents-journals.md)
+## [Bokföra flera dokument på samma gång](ui-batch-posting.md)
 ## [Förhandsgranska resultat](ui-how-preview-post-results.md)
 ## [Redigera bokförda dokument](across-edit-posted-document.md)
 ## [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Administration
 ## [Översikt](admin-setup-and-administration.md)
-## [Förstå användare, roller och profiler](admin-users-profiles-roles.md)
 ## [Hantera användare och behörigheter](ui-how-users-permissions.md)
+## [Hantera profiler](admin-users-profiles-roles.md)
 ## [Klassificera datakänslighet](admin-classifying-data-sensitivity.md)
 ## [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)
 ## [Skapa nya företag](about-new-company.md)
@@ -318,17 +321,11 @@
 ## [Utöka din utvärderingsversion](admin-extend-trial.md)
 ## [Kontrollera sidor](across-inspect-page.md)
 ## [Skapa en miljö för begränsat läge](across-how-create-sandbox-environment.md)
-## Integrera med Dynamics 365 for Sales
-### [Översikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Ställa in konton för integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Ställa in en Dynamics 365 for Sales anslutning](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synkroniserar Business Central och Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Ändra tabellmappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)
-### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
 ## Anpassa Business Central
 ### [Översikt](ui-customizing-overview.md)
+### [Anpassa sidor för profiler](ui-personalization-manage.md)
+### [Ändra vilka funktioner som visas](ui-experiences.md)
+### [Skapa en färglagd indikator på stack-ikoner](admin-how-set-up-colored-indicator-on-cues.md)
 ### Anpassa med tillägg
 #### [Översikt](ui-extensions.md)
 #### [Anpassa med tillägg](ui-extensions.md)
@@ -354,9 +351,15 @@
 #### [UK - GetAddress.io för postnummer i Storbritannien](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
-### [Ändra vilka funktioner som visas](ui-experiences.md)
-### [Hantera anpassning som administratör](ui-personalization-manage.md)
-### [Skapa en färglagd indikator på stack-ikoner](admin-how-set-up-colored-indicator-on-cues.md)
+## Integration med Dynamics 365 Sales
+### [Översikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Konfigurera en anslutning till Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Ändra tabellmappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)
+### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
 
 # Finans
 ## [Översikt](finance.md)
@@ -470,7 +473,7 @@
 ## [Arbeta med dimensioner](finance-dimensions.md)
 ## [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 ## [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
-## [Återföra bokningar](finance-how-reverse-journal-posting.md)
+## [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)
 ## [Fördela kostnader och intäkter](year-allocate-costs-income.md)
 ## [Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)
 ## [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)
@@ -592,8 +595,7 @@
 ### [Skapa cykler för affärsmöjligheter och cykeletapper](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Skapa affärsmöjligheter](marketing-how-create-opportunities.md)
 ### [Spåra utbyten av e-postmeddelanden](marketing-set-up-email-logging.md)
-
-### [Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md)
+### [Behandla försäljningsmöjligheter](marketing-processing-sales-opportunities.md)
 ### [Konfigurera e-postloggning](marketing-set-up-email-logging.md)
 ## [Använda profilfrågeformulär för att klassificera affärskontakter](marketing-create-contact-profile-questionnaire.md)
 ## [Med hjälp av Dynamics 365 for Sales från Business Central](marketing-integrate-dynamicscrm.md)
@@ -839,7 +841,6 @@
 #### [Skriva ut testrapporter för leveranspåminnelser](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Allmänt
 #### [Skriva ut information om redovisningsinställningar](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Skriva ut försäljnings- och inköpsorder under batch-bokföring](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgien
 ### [Översikt](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Valutakurser](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [EU-försäljningslistan i Tyskland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Inkludera med företagets registreringsnummer på rapporter och inköpsrapporter](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Skriva ut försäljnings- och inköpsorder under batch-bokföring](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Skriva ut information om redovisningsinställningar](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certifiering av Business Central för tyska marknaden (dokumentet är på tyska)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Ställa in företagsinformation](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italiensk legotillverkning](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Ställa in journalmallar och journaler](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Rapportera handel med kunder och leverantörer i svartlistade länder och regioner](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexiko
 ### [Översikt](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Norge
 ### [Översikt](LocalFunctionality/Norway/norway-local-functionality.md)
 ### Moms
+#### [Norsk standardgranskningsfil - skattehantering (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norsk momsrapportering](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norska momskoder](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Så här använder du en momskod i journaler](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### Allmänt    
 #### [Importera schweiziska postnummer](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Schweiziska inköpsdokument och försäljningsorder](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Skriva ut försäljnings- och inköpsorder under batch-bokföring](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Storbritannien
 ### [Översikt](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

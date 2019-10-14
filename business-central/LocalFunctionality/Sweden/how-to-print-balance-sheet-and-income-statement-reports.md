@@ -10,32 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e459539fe49b21d3c0287793d054213f2d191e4d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9286eaa2237050e55018f31f13dc56b766588fa4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241406"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301068"
 ---
-# <a name="print-balance-sheet-and-income-statement-reports"></a><span data-ttu-id="a8530-103">Skriv ut rapporterna Balansräkning och Resultaträkning</span><span class="sxs-lookup"><span data-stu-id="a8530-103">Print Balance Sheet and Income Statement Reports</span></span>
-<span data-ttu-id="a8530-104">Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter.</span><span class="sxs-lookup"><span data-stu-id="a8530-104">You can print balance sheet reports and income statement reports to submit to banks and other authorities.</span></span> <span data-ttu-id="a8530-105">I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital.</span><span class="sxs-lookup"><span data-stu-id="a8530-105">The **Balance Sheet** report displays assets, liabilities, and equity.</span></span> <span data-ttu-id="a8530-106">I rapporten **Resultaträkning** visas intäkter och kostnader.</span><span class="sxs-lookup"><span data-stu-id="a8530-106">The **Income Statement** report displays income and expenses.</span></span>  
+# <a name="print-balance-sheet-and-income-statement-reports"></a><span data-ttu-id="d3727-103">Skriv ut rapporterna Balansräkning och Resultaträkning</span><span class="sxs-lookup"><span data-stu-id="d3727-103">Print Balance Sheet and Income Statement Reports</span></span>
+<span data-ttu-id="d3727-104">Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter.</span><span class="sxs-lookup"><span data-stu-id="d3727-104">You can print balance sheet reports and income statement reports to submit to banks and other authorities.</span></span> <span data-ttu-id="d3727-105">I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital.</span><span class="sxs-lookup"><span data-stu-id="d3727-105">The **Balance Sheet** report displays assets, liabilities, and equity.</span></span> <span data-ttu-id="d3727-106">I rapporten **Resultaträkning** visas intäkter och kostnader.</span><span class="sxs-lookup"><span data-stu-id="d3727-106">The **Income Statement** report displays income and expenses.</span></span>  
 
-## <a name="to-print-a-balance-sheet-report"></a><span data-ttu-id="a8530-107">Så här skriver du ut en balansräkningsrapport</span><span class="sxs-lookup"><span data-stu-id="a8530-107">To print a balance sheet report</span></span>  
+## <a name="to-print-a-balance-sheet-report"></a><span data-ttu-id="d3727-107">Så här skriver du ut en balansräkningsrapport</span><span class="sxs-lookup"><span data-stu-id="d3727-107">To print a balance sheet report</span></span>  
 
-1.  <span data-ttu-id="a8530-108">Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Balansräkning** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="a8530-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="a8530-109">Välj lämpliga filter på snabbfliken **Redovisningskonto**.</span><span class="sxs-lookup"><span data-stu-id="a8530-109">On the **G/L Account** FastTab, select the appropriate filters.</span></span>  
-3.  <span data-ttu-id="a8530-110">Markera kryssrutan **Visa alla konton** på snabbfliken **Alternativ** om du vill inkludera konton utan saldon.</span><span class="sxs-lookup"><span data-stu-id="a8530-110">On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.</span></span>  
-4.  <span data-ttu-id="a8530-111">Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.</span><span class="sxs-lookup"><span data-stu-id="a8530-111">Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.</span></span>  
+1.  <span data-ttu-id="d3727-108">Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Balansräkning** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="d3727-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="d3727-109">Välj lämpliga filter på snabbfliken **Redovisningskonto**.</span><span class="sxs-lookup"><span data-stu-id="d3727-109">On the **G/L Account** FastTab, select the appropriate filters.</span></span>  
+3.  <span data-ttu-id="d3727-110">Markera kryssrutan **Visa alla konton** på snabbfliken **Alternativ** om du vill inkludera konton utan saldon.</span><span class="sxs-lookup"><span data-stu-id="d3727-110">On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.</span></span>  
+4.  <span data-ttu-id="d3727-111">Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.</span><span class="sxs-lookup"><span data-stu-id="d3727-111">Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.</span></span>  
 
-## <a name="to-print-an-income-statement-report"></a><span data-ttu-id="a8530-112">Så här skriver du ut en resultaträkningsrapport</span><span class="sxs-lookup"><span data-stu-id="a8530-112">To print an income statement report</span></span>  
+## <a name="to-print-an-income-statement-report"></a><span data-ttu-id="d3727-112">Så här skriver du ut en resultaträkningsrapport</span><span class="sxs-lookup"><span data-stu-id="d3727-112">To print an income statement report</span></span>  
 
-1.  <span data-ttu-id="a8530-113">Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resultaträkning** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="a8530-113">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="a8530-114">Välj lämpliga filter på snabbfliken **Redovisningskonto**.</span><span class="sxs-lookup"><span data-stu-id="a8530-114">On the **G/L Account** FastTab, select the appropriate filters.</span></span>  
-3.  <span data-ttu-id="a8530-115">Markera kryssrutan **Visa alla konton** på snabbfliken **Alternativ** om du vill inkludera konton utan saldon.</span><span class="sxs-lookup"><span data-stu-id="a8530-115">On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.</span></span>  
-4.  <span data-ttu-id="a8530-116">Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.</span><span class="sxs-lookup"><span data-stu-id="a8530-116">Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.</span></span>  
+1.  <span data-ttu-id="d3727-113">Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resultaträkning** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="d3727-113">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="d3727-114">Välj lämpliga filter på snabbfliken **Redovisningskonto**.</span><span class="sxs-lookup"><span data-stu-id="d3727-114">On the **G/L Account** FastTab, select the appropriate filters.</span></span>  
+3.  <span data-ttu-id="d3727-115">Markera kryssrutan **Visa alla konton** på snabbfliken **Alternativ** om du vill inkludera konton utan saldon.</span><span class="sxs-lookup"><span data-stu-id="d3727-115">On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.</span></span>  
+4.  <span data-ttu-id="d3727-116">Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.</span><span class="sxs-lookup"><span data-stu-id="d3727-116">Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="a8530-117">Se även</span><span class="sxs-lookup"><span data-stu-id="a8530-117">See Also</span></span>  
- <span data-ttu-id="a8530-118">[Arbeta med rapporter och batch-jobb](../../ui-work-report.md) </span><span class="sxs-lookup"><span data-stu-id="a8530-118">[Working with Reports and Batch Jobs](../../ui-work-report.md) </span></span>  
- [<span data-ttu-id="a8530-119">Lokal funktionalitet för Sverige</span><span class="sxs-lookup"><span data-stu-id="a8530-119">Sweden Local Functionality</span></span>](sweden-local-functionality.md)
+## <a name="see-also"></a><span data-ttu-id="d3727-117">Se även</span><span class="sxs-lookup"><span data-stu-id="d3727-117">See Also</span></span>  
+ <span data-ttu-id="d3727-118">[Arbeta med rapporter och batch-jobb och XMLports](../../ui-work-report.md) </span><span class="sxs-lookup"><span data-stu-id="d3727-118">[Working with Reports, Batch Jobs, and XMLports](../../ui-work-report.md) </span></span>  
+ [<span data-ttu-id="d3727-119">Lokal funktionalitet för Sverige</span><span class="sxs-lookup"><span data-stu-id="d3727-119">Sweden Local Functionality</span></span>](sweden-local-functionality.md)

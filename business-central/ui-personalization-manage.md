@@ -1,115 +1,74 @@
 ---
-title: Hantera anpassning som administratör i Business Central | Microsoft Docs
-description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta.
+title: Anpassar sidor för roller | Microsoft Docs
+description: Lär dig mer om att anpassa användargränssnittet för en profil (roll) så att alla användare som är tilldelade den rollen ser en anpassad arbetsyta.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887743"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310810"
 ---
-# <a name="managing-personalization-as-an-administrator"></a><span data-ttu-id="77865-103">Hantera anpassning som administratör</span><span class="sxs-lookup"><span data-stu-id="77865-103">Managing Personalization as an Administrator</span></span>
+# <a name="customize-pages-for-profiles"></a><span data-ttu-id="2b654-103">Anpassa sidor för profiler</span><span class="sxs-lookup"><span data-stu-id="2b654-103">Customize Pages for Profiles</span></span>
+<span data-ttu-id="2b654-104">Användare kan anpassa sidor som utgör deras arbetsyta efter eget behov.</span><span class="sxs-lookup"><span data-stu-id="2b654-104">Users can personalize pages that make up their workspace to suit their own preferences.</span></span> <span data-ttu-id="2b654-105">Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="2b654-105">For more information, see [Personalize Your Workspace](ui-personalization-user.md).</span></span>
 
-<span data-ttu-id="77865-104"> Användare kan anpassa sin arbetsyta efter eget behov.</span><span class="sxs-lookup"><span data-stu-id="77865-104">Users can personalize their workspace to suit their own preferences.</span></span> <span data-ttu-id="77865-105">Som administratör kan du styra och hantera anpassning av:</span><span class="sxs-lookup"><span data-stu-id="77865-105">As an administrator, you control and manage personalization by:</span></span>
+<span data-ttu-id="2b654-106">Administratörer kan anpassa sidor för en profil, i enlighet med den relaterade rollen eller avdelningen, så att alla användare som tilldelats till profilen kan se den anpassade sidlayouten.</span><span class="sxs-lookup"><span data-stu-id="2b654-106">Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout.</span></span> <span data-ttu-id="2b654-107">Administratören anpassar sidorna med samma funktion som användarna gör när de anpassar sidor.</span><span class="sxs-lookup"><span data-stu-id="2b654-107">The administrator customizes pages by using the same functionality as users do when they personalize pages.</span></span>
 
--   <span data-ttu-id="77865-106">Aktivera eller inaktivera funktionen anpassning för hela programmet (endast lokal installation).</span><span class="sxs-lookup"><span data-stu-id="77865-106">Enabling or disabling the personalization feature for the entire the application (on-premises installation only).</span></span>
--   <span data-ttu-id="77865-107">Aktivera eller inaktivera funktionen anpassning för användare med en viss profil.</span><span class="sxs-lookup"><span data-stu-id="77865-107">Enabling or disabling the personalization feature for users of a specific profile.</span></span>
--   <span data-ttu-id="77865-108">Ta bort alla anpassningar på sidan som användare har gjort.</span><span class="sxs-lookup"><span data-stu-id="77865-108">Clearing any page personalizations that users have made.</span></span>
+> [!NOTE]
+> <span data-ttu-id="2b654-108">En typisk företagsanvändning är en roll.</span><span class="sxs-lookup"><span data-stu-id="2b654-108">The typical business use of a profile is a role.</span></span> <span data-ttu-id="2b654-109">En profil har därför namnet *profil (roll)* i användargränssnittet.</span><span class="sxs-lookup"><span data-stu-id="2b654-109">A profile is therefore named *Profile (Role)* in the UI.</span></span>
 
-## <a name="EnablePersonalization"></a><span data-ttu-id="77865-109">Så här aktiverar eller inaktiverar anpassningar (endast lokalt)</span><span class="sxs-lookup"><span data-stu-id="77865-109">To enable or disable personalization (On-Premises Only)</span></span>
+<span data-ttu-id="2b654-110">Sid anpassningen startar från **profilsidan (rollerna)** och administratörens startpunkt används för att hantera användarprofiler på enskilda profilkort.</span><span class="sxs-lookup"><span data-stu-id="2b654-110">Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards.</span></span> <span data-ttu-id="2b654-111">Förutom att anpassa sidlayouten kan du styra olika inställningar för profiler på **profilsidan (roll)** för varje profil.</span><span class="sxs-lookup"><span data-stu-id="2b654-111">In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile.</span></span> <span data-ttu-id="2b654-112">Mer information finns i [Hantera profiler](admin-users-profiles-roles.md).</span><span class="sxs-lookup"><span data-stu-id="2b654-112">For more information, see [Manage Profiles](admin-users-profiles-roles.md).</span></span>
 
-<span data-ttu-id="77865-110">Som standard aktiveras inte anpassning i klienten.</span><span class="sxs-lookup"><span data-stu-id="77865-110">By default, personalization is not enabled in the client.</span></span> <span data-ttu-id="77865-111">Du aktiverar eller inaktiverar anpassningar genom att ändra konfigurationsfil (navsettings.json) för den Business Central Web Server-instans som används av klienterna.</span><span class="sxs-lookup"><span data-stu-id="77865-111">You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.</span></span>
+## <a name="to-customize-pages-for-a-profile"></a><span data-ttu-id="2b654-113">Anpassa sidor för en profil</span><span class="sxs-lookup"><span data-stu-id="2b654-113">To customize pages for a profile</span></span>
+1. <span data-ttu-id="2b654-114">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler (roller)** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="2b654-114">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2b654-115">Markera raden för den profil du vill anpassa sidor för och välj sedan åtgärden **Redigera**.</span><span class="sxs-lookup"><span data-stu-id="2b654-115">Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="2b654-116">Välj åtgärden **anpassa sidor**.</span><span class="sxs-lookup"><span data-stu-id="2b654-116">Choose the **Customize pages** action.</span></span>
 
-1. <span data-ttu-id="77865-112">Aktivera anpassning genom att lägga till följande rad i filen navsettings.json:</span><span class="sxs-lookup"><span data-stu-id="77865-112">To enable personalization, add the following line in the navsettings.json file:</span></span>
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="2b654-117">öppnas på en ny flik i webbläsaren för den valda profilen med banderollen **anpassar** aktiverad.</span><span class="sxs-lookup"><span data-stu-id="2b654-117">opens on a new browser tab for the selected profile with the **Customizing** banner activated.</span></span> <span data-ttu-id="2b654-118">Banderollen **anpassar** ger användarna samma funktioner som banderollen **Anpassa personligt** som är tillgänglig för användare.</span><span class="sxs-lookup"><span data-stu-id="2b654-118">The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.</span></span>
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. <span data-ttu-id="2b654-119">Anpassa sidor enligt de behov som gäller för den aktuella rollen eller avdelningen på samma sätt som en användare gör när du anpassar.</span><span class="sxs-lookup"><span data-stu-id="2b654-119">Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing.</span></span> <span data-ttu-id="2b654-120">Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="2b654-120">For more information, see [Personalize Your Workspace](ui-personalization-user.md).</span></span>
 
-    <span data-ttu-id="77865-113">Ta bort den här raden om du vill inaktivera anpassningar, eller ändra den till:</span><span class="sxs-lookup"><span data-stu-id="77865-113">To disable personalization, remove this line or change it to:</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="2b654-121">Använd Ctrl + klicka på en instruktion om den markeras av pilspetsen om du vill navigera under anpassningen.</span><span class="sxs-lookup"><span data-stu-id="2b654-121">To navigate during personalization, use Ctrl + Click on an action if it is highlighted by the arrowhead.</span></span>
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. <span data-ttu-id="2b654-122">När du är klar med att ändra layouten på en eller flera sidor, välj knappen **Klar** på banderollen **Anpassa**.</span><span class="sxs-lookup"><span data-stu-id="2b654-122">When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.</span></span>
+6. <span data-ttu-id="2b654-123">Stäng fliken webbläsare.</span><span class="sxs-lookup"><span data-stu-id="2b654-123">Close the browser tab.</span></span>
 
-    <span data-ttu-id="77865-114">Läs mer om hur du ändrar filen navsettings.json i [Ändra navsettings.json filen direkt](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).</span><span class="sxs-lookup"><span data-stu-id="77865-114">For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).</span></span>
+<span data-ttu-id="2b654-124">Anpassningen av sidorna har nu registrerats för profilen.</span><span class="sxs-lookup"><span data-stu-id="2b654-124">The customization of pages is now recorded for the profile.</span></span>
 
-2. <span data-ttu-id="77865-115">Skapa och hämta programsymboler.</span><span class="sxs-lookup"><span data-stu-id="77865-115">Generate and download the application symbols.</span></span>
+## <a name="to-view-all-customized-pages-for-a-profile"></a><span data-ttu-id="2b654-125">För att visa alla anpassade sidor för en profil</span><span class="sxs-lookup"><span data-stu-id="2b654-125">To view all customized pages for a profile</span></span>
+<span data-ttu-id="2b654-126">Du kan få en översikt över vilka sidor som är anpassade för en profil, t.ex. för planering som du vill anpassa ytterligare eller ta bort.</span><span class="sxs-lookup"><span data-stu-id="2b654-126">You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.</span></span>
 
-    <span data-ttu-id="77865-116">Detta steg är valfritt och krävs inte för att aktivera anpassningar.</span><span class="sxs-lookup"><span data-stu-id="77865-116">This step is optional, and not required to enable personalization.</span></span> <span data-ttu-id="77865-117">Det innebär dock att nya sidor som skapas av utvecklare kan anpassas.</span><span class="sxs-lookup"><span data-stu-id="77865-117">However, it ensures that new pages that are created by developers can be personalized.</span></span>
+- <span data-ttu-id="2b654-127">På sidan **Profil (roll)**, välj åtgärden **Anpassade sidor**.</span><span class="sxs-lookup"><span data-stu-id="2b654-127">On the **Profile (Role)** page, choose the **Customized Pages** action.</span></span>
 
-    1. <span data-ttu-id="77865-118">Först måste du skapa symboler genom att köra kommandot finsql.exe med `generatesymbolreference`.</span><span class="sxs-lookup"><span data-stu-id="77865-118">First, you generate the symbols by running finsql.exe with `generatesymbolreference` command.</span></span> <span data-ttu-id="77865-119">Finsql.exe-filen finns i mappen för utvecklingsmiljön för [!INCLUDE[server](includes/server.md)] och Dynamics NAV (CSIDE).</span><span class="sxs-lookup"><span data-stu-id="77865-119">The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE).</span></span> <span data-ttu-id="77865-120">Om du vill skapa symboler, öppna kommandotolken, gå till katalogen där filen lagras och kör kommandot:</span><span class="sxs-lookup"><span data-stu-id="77865-120">To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:</span></span>
+## <a name="to-delete-all-customizations-for-a-profile"></a><span data-ttu-id="2b654-128">För att radera anpassningar för en profil</span><span class="sxs-lookup"><span data-stu-id="2b654-128">To delete all customizations for a profile</span></span>
+<span data-ttu-id="2b654-129">Du kan annullera alla anpassningar som du har gjort för en profil:</span><span class="sxs-lookup"><span data-stu-id="2b654-129">You can cancel all customizations that you have made for a profile.</span></span> <span data-ttu-id="2b654-130">Anpassningar som introduceras med ett tillägg och anpassningar som görs av en användare tas inte bort.</span><span class="sxs-lookup"><span data-stu-id="2b654-130">Customizations introduced with an extension and personalizations made by a user will not be deleted.</span></span> <span data-ttu-id="2b654-131">Du kan ta bort alla anpassningar med en annan åtgärd.</span><span class="sxs-lookup"><span data-stu-id="2b654-131">You can delete all personalizations with another action.</span></span> <span data-ttu-id="2b654-132">Mer information finns i [så här tar du bort alla anpassningar som görs av en användare](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).</span><span class="sxs-lookup"><span data-stu-id="2b654-132">For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).</span></span>
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    <span data-ttu-id="77865-121">Som exempel:</span><span class="sxs-lookup"><span data-stu-id="77865-121">For example:</span></span>
+- <span data-ttu-id="2b654-133">Välj åtgärden **Profil (roll)** för en anpassad profil, välj åtgärden **Rensa anpassade sidor**.</span><span class="sxs-lookup"><span data-stu-id="2b654-133">On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.</span></span>
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+<span data-ttu-id="2b654-134">Layouten på sidorna för profilen återställs till standardlayouten.</span><span class="sxs-lookup"><span data-stu-id="2b654-134">The layout on pages for the profile is reset to the default layout.</span></span>  
 
-    <span data-ttu-id="77865-122">Mer information finns i [Köra C/SIDE och AL sida vid sida](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).</span><span class="sxs-lookup"><span data-stu-id="77865-122">For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).</span></span>
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a><span data-ttu-id="2b654-135">Så här tar du bort anpassning av specifika sidor för en profil</span><span class="sxs-lookup"><span data-stu-id="2b654-135">To delete customization for specific pages for a profile</span></span>
+<span data-ttu-id="2b654-136">Du kan ta bort individuella sidanpassningar som du har gjort för en profil.</span><span class="sxs-lookup"><span data-stu-id="2b654-136">You can delete individual page customizations that you have made for a profile.</span></span> <span data-ttu-id="2b654-137">Anpassningar som introduceras med ett tillägg och anpassningar som görs av en användare tas inte bort.</span><span class="sxs-lookup"><span data-stu-id="2b654-137">Customizations introduced with an extension and personalizations made by a user will not be deleted.</span></span> <span data-ttu-id="2b654-138">Du kan ta bort specifika sidanpassningar med en annan åtgärd.</span><span class="sxs-lookup"><span data-stu-id="2b654-138">You can delete specific page personalizations with another action.</span></span> <span data-ttu-id="2b654-139">Mer information finns i [Så här tar du bort alla anpassningar för en viss sida](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).</span><span class="sxs-lookup"><span data-stu-id="2b654-139">For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).</span></span>
 
-    2. <span data-ttu-id="77865-123">Konfigurera [!INCLUDE[nav_server_md](includes/nav_server_md.md)]-instansen till att **aktivera inläsning av programsymbolens referenser när servern startas** (EnableSymbolLoadingAtServerStartup).</span><span class="sxs-lookup"><span data-stu-id="77865-123">Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup).</span></span> <span data-ttu-id="77865-124">Mer information finns i [Konfigurera Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).</span><span class="sxs-lookup"><span data-stu-id="77865-124">For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).</span></span>
+1. <span data-ttu-id="2b654-140">På sidan **Profil (roll)**, välj åtgärden **Anpassade sidor**.</span><span class="sxs-lookup"><span data-stu-id="2b654-140">On the **Profile (Role)** page, choose the **Customized Pages** action.</span></span>
+2. <span data-ttu-id="2b654-141">På sidan **Profilanpassningar**, välj en eller flera rader för sidanpassningar som du vill radera och välj sedan åtgärden **Radera**.</span><span class="sxs-lookup"><span data-stu-id="2b654-141">On the **Profile Customizations** page, select on or more lines for page customizations that you want to delete, and then choose the **Delete** action.</span></span>
 
-## <a name="to-disable-personalization-for-a-profile"></a><span data-ttu-id="77865-125">Så här inaktiverar du anpassningar för en profil</span><span class="sxs-lookup"><span data-stu-id="77865-125">To disable personalization for a profile</span></span>
+<span data-ttu-id="2b654-142">Layouten på de markerade sidorna justeras efter de ändringar som du har gjort.</span><span class="sxs-lookup"><span data-stu-id="2b654-142">The layout on the selected pages is adjusted to the changes you made.</span></span>
 
-<span data-ttu-id="77865-126">Du kan förhindra alla användare som tillhör en viss profil från att anpassa sidorna.</span><span class="sxs-lookup"><span data-stu-id="77865-126">You can prevent all users that belong to a specific profile from being able to personalize their pages.</span></span>
-
-1. <span data-ttu-id="77865-127">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Profiler** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="77865-127">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.</span></span>
-2. <span data-ttu-id="77865-128">Välj den profil i listan som du vill ändra.</span><span class="sxs-lookup"><span data-stu-id="77865-128">Select the profile in the list that you want to modify.</span></span>
-3. <span data-ttu-id="77865-129">Välj kryssrutan **Inaktivera anpassning** och välj sedan knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="77865-129">Select the **Disable personalization** check box, and then choose the **OK** button.</span></span>
-
-> [!NOTE]  
-> <span data-ttu-id="77865-130">I Business Central online kan du bara inaktivera anpassningar för en klientprofil, inte för systemprofiler.</span><span class="sxs-lookup"><span data-stu-id="77865-130">In Business Central online, you can only disable personalization for a tenant profile, not for system profiles.</span></span> 
-
-## <a name="to-clear-user-personalizations"></a><span data-ttu-id="77865-131">Så här rensar du användaranpassning</span><span class="sxs-lookup"><span data-stu-id="77865-131">To clear user personalizations</span></span>
-
-<span data-ttu-id="77865-132">Ta bort sidann för anpassningsändringar gör att sidan återställs till sin ursprungliga layout innan alla anpassningar gjordes.</span><span class="sxs-lookup"><span data-stu-id="77865-132">Clearing page personalization changes the page back to its original layout before any personalization was made.</span></span> <span data-ttu-id="77865-133">Det finns två sätt att ta bort de anpassningar som användare har gjort på sidor: med hjälp av sidan **Ta bort användaranpassning** och använda sidan **Anv.anpassningskort**.</span><span class="sxs-lookup"><span data-stu-id="77865-133">There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.</span></span>
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a><span data-ttu-id="77865-134">Du tar bort användaranpassningar genom att använda sidan ta bort användaranpassning</span><span class="sxs-lookup"><span data-stu-id="77865-134">To clear user personalizations by using the Delete User Personalization page</span></span>
-
-<span data-ttu-id="77865-135">Sidan **Ta bort användaranpassning** låter dig ta bort anpassningen på per sida-basis, för varje enskild användare.</span><span class="sxs-lookup"><span data-stu-id="77865-135">The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.</span></span>
-
-1. <span data-ttu-id="77865-136">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort användaranpassning** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="77865-136">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.</span></span>
-
-    <span data-ttu-id="77865-137">Sidan visar en lista över alla sidor som har anpassats och användaren den tillhör.</span><span class="sxs-lookup"><span data-stu-id="77865-137">The page lists all the pages that have been personalized and the user it belongs to.</span></span>
-
-    >[!NOTE]
-    > <span data-ttu-id="77865-138">Ett kryss i kolumnen **Äldre anpassning** anger att anpassningen har skett i en äldre version av [!INCLUDE[d365fin](includes/d365fin_md.md)], som hanterade anpassningen på ett annat sätt än som nu sker.</span><span class="sxs-lookup"><span data-stu-id="77865-138">A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now.</span></span> <span data-ttu-id="77865-139">Användare som försöker anpassa dessa sidor hindras från att göra detta såvida de inte väljer att låsa upp sidan.</span><span class="sxs-lookup"><span data-stu-id="77865-139">Users who try to personalize these pages are locked from doing so unless they choose to unlock the page.</span></span> <span data-ttu-id="77865-140">Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).</span><span class="sxs-lookup"><span data-stu-id="77865-140">For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).</span></span>
-
-2. <span data-ttu-id="77865-141">Markera den transaktion som du vill radera och välj sedan åtgärden **Radera**.</span><span class="sxs-lookup"><span data-stu-id="77865-141">Select the entry that you want to delete, and then choose the **Delete** action.</span></span>
-
-    <span data-ttu-id="77865-142">Användaren kommer att se ändringarna nästa gång de loggar in.</span><span class="sxs-lookup"><span data-stu-id="77865-142">The user will see the changes the next time they sign-in.</span></span>
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a><span data-ttu-id="77865-143">Du tar bort användaranpassningar genom att använda sidan användaranpassningskort</span><span class="sxs-lookup"><span data-stu-id="77865-143">To clear user personalizations by using the User Personalization Card page</span></span>
-
-<span data-ttu-id="77865-144">Sidan **Anv.anpassningskort** låter dig ta bort anpassningen på alla sidor för en specifik användare.</span><span class="sxs-lookup"><span data-stu-id="77865-144">The **User Personalization Card** page enables you to clear the personalization on all pages for specific user.</span></span> <span data-ttu-id="77865-145">Detta kräver skrivbehörighet för tabellen 2000000072 **Profil**.</span><span class="sxs-lookup"><span data-stu-id="77865-145">This requires write permission to Table 2000000072 **Profile**.</span></span>
-
-1. <span data-ttu-id="77865-146">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Användaranpassning** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="77865-146">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.</span></span>
-
-    <span data-ttu-id="77865-147">Sidan **användaranpassning** visar alla användare som eventuellt har anpassade sidor.</span><span class="sxs-lookup"><span data-stu-id="77865-147">The **User Personalization** page lists all users who potentially have personalized pages.</span></span> <span data-ttu-id="77865-148">Om du inte hittar en användare i listan, innebär det att de inte har några anpassade sidor.</span><span class="sxs-lookup"><span data-stu-id="77865-148">If you cannot find a user in the list, this means that they do not have any personalized pages.</span></span>
-
-2. <span data-ttu-id="77865-149">Välj den användare från listan, välj åtgärden **Redigera**.</span><span class="sxs-lookup"><span data-stu-id="77865-149">Select the user from the list, and then choose the **Edit** action.</span></span>
-
-3. <span data-ttu-id="77865-150">På fliken **Åtgärder**, välj **Ta bort anpassade sidor**.</span><span class="sxs-lookup"><span data-stu-id="77865-150">On the **Actions** tab, choose **Clear Personalized Pages**.</span></span>
-
-    <span data-ttu-id="77865-151">Användaren kommer att se ändringarna nästa gång de loggar in.</span><span class="sxs-lookup"><span data-stu-id="77865-151">The user will see the changes the next time they sign-in.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="77865-152">Se även</span><span class="sxs-lookup"><span data-stu-id="77865-152">See Also</span></span>
-[<span data-ttu-id="77865-153">Anpassa din arbetsyta</span><span class="sxs-lookup"><span data-stu-id="77865-153">Personalizing Your Workspace</span></span>](ui-personalization-user.md)  
-<span data-ttu-id="77865-154">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="77865-154">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="77865-155">Ändra grundinställningar</span><span class="sxs-lookup"><span data-stu-id="77865-155">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
-[<span data-ttu-id="77865-156">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="77865-156">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+## <a name="see-also"></a><span data-ttu-id="2b654-143">Se även</span><span class="sxs-lookup"><span data-stu-id="2b654-143">See Also</span></span>
+[<span data-ttu-id="2b654-144">Anpassa din arbetsyta</span><span class="sxs-lookup"><span data-stu-id="2b654-144">Personalize Your Workspace</span></span>](ui-personalization-user.md)  
+[<span data-ttu-id="2b654-145">Hantera profiler</span><span class="sxs-lookup"><span data-stu-id="2b654-145">Manage Profiles</span></span>](admin-users-profiles-roles.md)  
+[<span data-ttu-id="2b654-146">Ändra grundinställningar</span><span class="sxs-lookup"><span data-stu-id="2b654-146">Change Basic Settings</span></span>](ui-change-basic-settings.md)  
+[<span data-ttu-id="2b654-147">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="2b654-147">Change Which Features are Displayed</span></span>](ui-experiences.md)  
+<span data-ttu-id="2b654-148">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2b654-148">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
