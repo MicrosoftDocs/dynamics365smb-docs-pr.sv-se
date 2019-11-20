@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314850"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554698"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar
 Den här genomgången beskriver hur du kan använda kontouppställningar för att göra kassaflödesprognoser. Kontouppställningar utför beräkningar som inte kan göras direkt i kontoplaner för kassaflöden. I kontouppställningar kan du skapa delsummor för kassainflöden och utbetalningar. Dessa delsummor kan inkluderas i nya totaler som kan användas vid kassaflödesprognoser.  
@@ -61,7 +61,7 @@ När ett kontouppställningsnamn har upprättats, definierar Ken varje rad som v
 
 ### <a name="to-set-up-account-schedule-lines"></a>Så här skapar du kontouppställningsrader  
 
-1.  På sidan **Kontouppställningsnamn** väljer du det nya kontouppställningsnamnet för **Prognos** som du har skapat. På fliken **Start** i gruppen **Process** väljer du **Redigera kontouppställning**.  
+1.  På sidan **Kontouppställningsnamn** väljer du det nya kontouppställningsnamnet **Prognos** som du har skapat och väljer sedan åtgärden **Redigera kontouppställning**.  
 2.  På sidan **Kontouppställning** anger du varje rad exakt som det visas i följande tabell.  
 
     > [!NOTE]  

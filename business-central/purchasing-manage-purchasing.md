@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
-ms.openlocfilehash: 001a0ed999641529249ceb90913633f34c48b827
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f4cf7026ad3a12262c8e88b9360bcac3ac079b3
+ms.sourcegitcommit: cf36611ca187bb2996a514e9ff395086cd6b3275
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312370"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "2566974"
 ---
 # <a name="purchasing"></a>Inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
@@ -44,6 +44,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Konvertera till exempel elektroniska fakturor från leverantörer till fakturor i Business Central.|[Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Lär dig hur [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknas när du måste beställa en artikel för ett visst datum.|[Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)|
 |Lösa problem när det finns två eller flera poster för samma leverantör.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
+|Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
 
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  

@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309466"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774849"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
 
+En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast dator)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> En mer användarvänlig översikt över de mest populära kortkommandona för datoranvändare finns i [kortkommandon (endast på dator)](keyboard-shortcuts-cheatsheet.md). För en grafisk representation väljer du följande bild:
+> Om du vill visa en grafisk vy över de mest använda kortkommandona väljer du följande bild och hämtar PDF-filen.
 >
->[ ![Om du vill hämta för utskrift, högerklicka och välj spara bild som](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Översikt
 Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida. De stöds av de flesta webbläsare, beteendet kan dock variera något.
@@ -47,11 +49,11 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 |Alt+Shift+F2|Växla mellan **detaljer** och **bifogade filer** i rutan faktabox.|
 |Alt+O|Lägg till en ny anteckning för den valda posten även om rutan faktabox inte är öppen.|
 |Alt+Q<br />(Ctrl+alternativ+Q)|Öppna fönstret **Berätta**. Mer information finns i [söka efter sidor och information med berätta](ui-search.md).|
-|Alt+N |Öppna en sida om du vill skapa en ny post. (Påminner om att välja **Ny** och **+** åtgärder.)
-|Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post.
+|Alt+N |Öppna en sida om du vill skapa en ny post. (Påminner om att välja **Ny** och **+** åtgärder.)|
+|Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför Alt + F9 ett dokument och skapar ett nytt.|
 |Alt+T|Öppna sidan **Mina inställningar**.|
-|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "knappen AssistEdit"). Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
-|Shift+F12|Öppna funktionsöversikten. Mer information finns i [söka efter sidor från en funktionsöversikt](ui-role-explorer.md).|
+|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit") button. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
+|Shift+F12|Öppna rollutforskaren, en funktionsöversikt. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
 |Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t.ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314826"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554722"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 
@@ -173,7 +173,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
     |1020|Utveckling|Bokföring|  
     |1090|Rådgivning, summa|Till-summa|  
 
-3.  Om du vill visa att vissa aktiviteter är underkategorier till andra aktiviteter går du till fliken **Åtgärder** i gruppen **Funktioner** och väljer **Indrag för projektaktiviteter**.  
+3.  Om du vill visa att vissa aktiviteter är underkategorier till andra aktiviteter väljer du åtgärden **Indrag för projektaktiviteter**.  
 
  En planeringsrad kan vara en av följande typer:  
 
@@ -261,7 +261,7 @@ Raderna är nu bokförda.
 4.  På snabbfliken **Alternativ** fyller du i bokföringsdatumet och anger om du vill skapa en faktura per aktivitet eller en enda faktura för samtliga aktiviteter.  
 5.  Välj **OK** för att skapa fakturan och välj sedan **OK** på bekräftelsesidan.  
 
- Under **Orderbearbetning** kan Tricia visa fakturan i **Försäljning och marknadsföring** när hon har skapat den och vidarebehandla den.  
+ När Tricia har skapat fakturan kan hon nå den från rollcentret **Försäljningsorderhandläggare** till exempel. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Så här bokför du en ny försäljningsfaktura  
 

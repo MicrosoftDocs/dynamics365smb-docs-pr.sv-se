@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304942"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775361"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
 
@@ -48,5 +48,5 @@ Informationen visas i fönstret **Aktivitetslogg** enligt kontexten den öppnas 
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
 [Söka efter sidor och information med berätta](ui-search.md)  
-[Hantera användare och behörigheter](ui-how-users-permissions.md)    
+[Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

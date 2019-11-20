@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301570"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554188"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -49,7 +49,7 @@ Följande tabell innehåller en översikt över hur enhetsprisbeloppen för ett 
 |Markering|Markering|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris inkl. moms**.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuellt korrigera momsbelopp i försäljnings- och inköpsdokument  
-Det går att göra  korrigeringar av bokförda momstransaktioner. Detta gör det möjligt att ändra de totala försäljnings- eller inköpsmomsbeloppen utan att ändra nettobeloppet. Detta kan vara nödvändigt om t.ex. en leverantör skickar en faktura med felberäknad moms.  
+Det går att göra korrigeringar av bokförda momstransaktioner. Detta gör det möjligt att ändra de totala försäljnings- eller inköpsmomsbeloppen utan att ändra nettobeloppet. Detta kan vara nödvändigt om t.ex. en leverantör skickar en faktura med felberäknad moms.  
 
 Även om du har ställt in en eller flera kombinationer för hantering av importmoms, måste du skapa minst en produktbokföringsmall för moms. Du kan till exempel ge det namnet **KORREKT** för korrigeringssyfte, om du inte kan använda samma redovisningskonto i **Ingående moms** på momsbokföringsinställningsraden. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
@@ -96,7 +96,7 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 1. Skapa ett leverantörskort för den importavdelning som skickar importmomsfakturan till dig. **Gen. rörelsebokföringsmall** och **Moms rörelsebokföringsmall** måste ställas in på samma sätt som redovisningskontot för importmomsen.  
 2. Skapa en **produktbokföringsmall** för importmomsen och skapa **produktbokf.mall för standardmoms** för den kopplade **produktbokföringsmallen** för importmomsen.  
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
-4. Välj redovisningskonto för importmomsen och sedan på, fliken **Start** i gruppen **Hantera**, välj **Redigera**.  
+4. Välj redovisningskontot för importmoms och välj sedan åtgärden **Redigera**.  
 5. På snabbfliken **Bokföring**  i fältet **Produktbokföringsmall** för importmomsen. [!INCLUDE[d365fin](includes/d365fin_md.md)] fyller automatiskt i **Moms, produktbokföringsmall**.  
 6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 7. Skapa en kombination av **Gen. rörelsebokföringsmall** för skattemyndigheterna och **Produktbokföringsmall** för importmoms. Välj importmervärdeskattredovisningskontot för den här nya kombinationen i fältet **Inköpskonto**.  
@@ -181,4 +181,4 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 
 ## <a name="see-also"></a>Se även  
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)   
-[Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)   
+[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)   

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313066"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553800"
 ---
 # <a name="subcontract-manufacturing"></a>Lägga ut legotillverkning för produktion
 Legotillverkningsvalda operationer till leverantör är vanligt i många tillverkningsföretag. Legotillverkning kan vara sällan förekommande eller en integrerad del i alla produktionsprocesser.
@@ -61,7 +61,7 @@ Sidan **Legotillverkningskalkylark** fungerar som **Planeringsförslag** genom a
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Så här skapar du en inköpsorder för underkontrakt  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Legotillverkningsförslag** och välj sedan relaterad länk.  
-2.  Välj **Verkställ åtgärdsmeddelande** i gruppen **Process** på fliken **Åtgärder**.  
+2.  Välj den **Verkställ åtgärdsmeddelande** åtgärd.  
 3.  Markera fältet **Skriv ut inköpsorder** om du vill skriva inköpsordern när den skapas.  
 4.  Välj knappen **OK**.  
 

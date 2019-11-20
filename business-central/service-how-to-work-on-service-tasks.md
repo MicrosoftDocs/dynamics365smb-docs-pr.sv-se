@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311650"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553776"
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  
@@ -31,7 +31,7 @@ Om du vill spåra ändringar och få en grafisk översikt över serviceverksamhe
 2. Om du vill ha en lista över serviceuppgifterna som en viss resurs/resursgrupp är fördelad till, fyller du i fältet **Resursfilter**/ **Resursgruppfilter** och trycker på RETUR.  
 3. Om du vill ha en lista över serviceuppgifter med ett visst svarsdatum eller svarsdatum inom en viss tidsperiod, fyller du i fältet **Svarsdatumfilter** och trycker på RETUR.  
 4. Om du vill ha en lista över serviceuppgifter med en viss fördelningsstatus/reparationsstatus fyller du i fältet **Fördelningsstatusfilter** eller **Reparationsstatus kodfilter** och trycker på RETUR.  
-5. Markera serviceuppgiften som du vill arbeta med. På fliken **Analysera** i gruppen **Serviceuppgifter** väljer du **Artikelkalkylark**. Sidan **Serviceartikeldokument** öppnas.  
+5. Markera serviceuppgiften som du vill arbeta med. Välj åtgärden **Artikelkalkylark**. Sidan **Serviceartikeldokument** öppnas.  
 6. Registrera standardtext, reservdelar, resurstid och kostnader med hjälp av motsvarande alternativ i fältet **Typ**:  <Blank>, **Artikel**, **Resurs**, och **Kostnad**.  
 7. I fältet **Reparationsstatus** markerar du lämplig status.  
 
@@ -43,7 +43,7 @@ När du utför en service på en serviceorder kan du registrera detaljerad infor
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
 2. Öppna serviceordern som du vill registrera service för och välj artikelrad.  
-3. Välj **Åtgärder**, välj **Rad** och välj sedan **Serviceartikeldokument.**  
+3. Välj åtgärden **Serviceartikeldokument**.  
 4. På raderna anger du de artiklar som använts, uppkomna kostnader och tidsåtgång.  
 
    > [!NOTE]  

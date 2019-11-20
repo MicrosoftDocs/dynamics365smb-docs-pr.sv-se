@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304378"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775313"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
 Rollen säljare betraktas ofta som en de mest utåtriktade jobben i ett företag. Men kan det vara användbart för säljare att kunna se inuti verksamheten och se vad som händer på serverdelen. Genom att integrera [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] kan du ge säljare denna information genom att visa informationen i [!INCLUDE[d365fin](includes/d365fin_md.md)] medan de arbetar i [!INCLUDE[crm_md](includes/crm_md.md)]. Till exempel när du förbereder en försäljningsoffert kan det vara bra att veta om det finns tillräckligt mycket lager för att uppfylla ordern. Mer information finns i [Använd Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ Som standard kommer assisterad inställningsguide för **Ställ in Dynamics 365 
 * Systemadministratör  
 * Lösningsanpassare  
 
-Mer information finns i [ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) och [hantera användare och behörigheter](ui-how-users-permissions.md).  
+Mer information finns i [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) och [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
 Det här kontot används bara en gång vid installationen. När lösningen har importerats till [!INCLUDE[d365fin](includes/d365fin_md.md)], behövs inte längre kontot. Integrationen fortsätter att använda användarkontot som har skapats särskilt för integrering.
 

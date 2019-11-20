@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dcb1f7e94aacb07bb314aa5053d789877e3b49a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d77e5f9a018325855594da62fc4a45f711e30b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306562"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554236"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Överföra, dela eller kombinera anläggningstillgångar
 Du kan använda grupperingsjournalen för anläggningstillgångar när du överför, delar upp och slår ihop anläggningstillgångar. Du visar eller skriver ut resultatet av grupperingen av anläggningstillgångar med rapporten **Anl. - bokföringsvärde 02**.
@@ -59,7 +59,7 @@ Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, ti
 2. Skapa en grupperingsjournal där fältet **Anl.nr.** innehåller den anläggningstillgången som ska flyttas/kombineras och fältet **Nytt anl.nr** innehåller den nya anläggningstillgången som ska kombineras med.
 3. Lämna fältet **Gruppera anskaff.kost. %** tomt om du vill flytta/kombinera den totala anskaffningskostnaden.    
 4. Välj kryssrutorna **Gruppera anskaff.kost.** och **Gruppera avskrivning**.
-5. Välj **Gruppering**på fliken **Åtgärder**.
+5. Välj åtgärden **Gruppera**.
 
     Två rader skapas nu i redovisningsjournalen för anläggningstillgångar med mallen och journalen som du har angett på sidan **Anl. journalinställningar** för den angivna avskrivningsregeln. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).   
 6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.

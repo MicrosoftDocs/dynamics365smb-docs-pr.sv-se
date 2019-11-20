@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8fd2d876a148c1107b4db1d7c554a79e21bf53d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d8ef273db1211228e71df30af77bc572a23f75d
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312130"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577141"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
@@ -26,6 +26,8 @@ Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskod
 
 > [!NOTE]  
 >   Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.
+<br><br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3PZsM]
 
 ## <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.  

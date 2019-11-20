@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305718"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798505"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
 För att komma igång snabbare innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer för de flesta ekonomiska processer. Om du behöver ändra konfigurationen så att de passar din verksamhet kan du fortsätta direkt. Från Rollcenter kan du exempelvis använda en assisterad konfigurationsguide som hjälper dig att konfigurera momssatsen för din plats.  
@@ -33,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Skapa kontouppställningar och definiera kategorier för att definiera innehållet i ekonomiska tabeller och rapporter som rapporterna balansräkning och resultaträkning.|[Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ställa in räkenskapsperioder. |[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md) |
-| Definiera hur du rapporterar belopp för moms som du har lagrat för försäljning till skattemyndigheterna. |[Förbereda beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)|
+| Definiera hur du rapporterar belopp för moms som du har lagrat för försäljning till skattemyndigheterna. |[Ställa in moms](finance-setup-vat.md)|
 |Förbereda att hantera orealiserad moms i samband med kontantbaserade redovisningsmetoder.|[Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)|
 | Ange funktioner för försäljning och inköp till att hantera betalningar i utländsk valuta.|[Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Definiera ett eller fler ytterligare belopp så att beloppen rapporteras automatiskt i både BVA och en alternativ rapporteringsvaluta för varje redovisningstransaktion och för andra transaktioner.|[Ställa in en alternativ rapporteringsvaluta.](finance-how-setup-additional-currencies.md)|

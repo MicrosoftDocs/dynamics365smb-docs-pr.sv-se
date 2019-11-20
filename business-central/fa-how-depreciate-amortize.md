@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302842"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554284"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
 Avskrivning används för att fördela kostnaden för anläggningstillgångar, som exempelvis maskiner och inventarier, över den avskrivningsbara livslängden. För varje anläggningstillgång måste du ange hur den ska avskrivas.  
@@ -51,7 +51,7 @@ En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna av
 2. Skapa en första journalrad och fyll i fälten efter behov.  
 3. Välj **Anskaffningskostnad** i fältet **Avskrivning**.  
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av avskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. På fliken **Start** väljer du **Bokför**.  
+5. Välj åtgärden **Bokför** om du vill bokföra journalen.  
 
 Om du har skapat fördelningsnycklar för anläggningstillgångar, som fördelar belopp på olika avdelningar eller projekt, kan beloppen fördelas under bokföring. Mer information finns i [Ställa in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
 
@@ -62,7 +62,7 @@ Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivn
 2. Skapa en första rad och fyll i fälten efter behov.
 3. Välj **Anskaffningskostnad** i fältet **Fördelning**.  
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av fördelning.  
-5. På fliken **Start** väljer du **Bokför**.  
+5. Välj åtgärden **Bokför** om du vill bokföra journalen.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Använd dubblettlistor för att förbereda att bokföra åtskilliga avskrivningsregler
 När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan du kopiera raderna till en separat journal och bokföra dem enligt en annan avskrivningsregel. För mer information, se [Så här bokför du transaktioner enligt olika avskrivningsregler](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

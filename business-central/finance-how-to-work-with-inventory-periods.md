@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305854"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554044"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
 Under en lagerperiod går det att bokföra ändringar i lagret. Lagerperioden definieras utifrån slutdatumet. När en lagerperiod stängs kan inga ändringar bokföras i lagret, oavsett om de är förväntade eller rör faktureringen, före det här slutdatumet. Det går inte heller att bokföra nya värden i lagret före slutdatumet. Om det finns öppna artikeltransaktioner i den stängda perioden, d.v.s. positiva antal som ännu inte har kopplats till avgående transaktioner, går det fortfarande att koppla avgående antal till de här transaktionerna även om perioden är stängd.  
 
-I följande avsnitt finns beskrivningar om att:  
+I följande avsnitt finns beskrivningar om att:
 
 * Skapa lagerperioder.  
 * Stänga lagerperioder.  
@@ -45,7 +45,7 @@ Det går att stänga vilken lagerperiod som helst, förutsatt att följande vill
 Detta innebär att alla avgående transaktionsantal (till exempel antalen från försäljningsorder, avgående överföringar, fakturor, inköpsreturer eller inköpskreditnotor) måste kopplas till ett befintligt antal i lagret.  
 
 ### <a name="to-close-an-inventory-period"></a>Stänga en lagerperiod  
-1. Kör batch-jobbet **Justera kost. - artikeltrans.** innan en lagerperiod stängs för att säkerställa att alla kostnadsjusteringar har bokförts. På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Justera kost. - artikeltrans.**.  
+1. Välj åtgärden **Justera kost. - artikeltrans.** innan en lagerperiod stängs för att säkerställa att alla kostnadsjusteringar har bokförts.
 
      Kör rapporten **Stäng lagerperiod - test** för att avgöra om det finns öppna externa artikeltransaktioner i lagerperioden eller om det finns artiklar som saknar justerad kostnad.  
 2. Välj åtgärden **Stäng lagerperiod - Test**.  

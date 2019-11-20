@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313618"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767663"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -73,7 +73,7 @@ Avsnittet **felsökning** visar teknisk information visas som administratören e
 Din [!INCLUDE[prodshort](includes/prodshort.md)] återförsäljningspartner kommer att hjälpa dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] säljs till partners och i det här avsnittet kan du kontakta din återförsälningspartner om de har lämnat sina kontaktuppgifter för support. Om din [!INCLUDE[prodshort](includes/prodshort.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  
 
 > [!NOTE]
-> Det här avsnittet är bara tillgängligt om du har betalat för en [!INCLUDE [prodshort](includes/prodshort.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[prodshort](includes/prodshort.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam. Du hittar en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145).  
+> Det här avsnittet är bara tillgängligt om du har betalat för en [!INCLUDE [prodshort](includes/prodshort.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[prodshort](includes/prodshort.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam. Du hittar en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Supportkontrakt
 
@@ -83,6 +83,8 @@ Om du vill varna din partner om ett problem väljer du länken för att antingen
 
 ## <a name="see-also"></a>Se även
 
+[Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)  
+[Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)  
 [Blogginlägg: hitta rätt resurser och ge feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central utvecklare och IT-proffs](/dynamics365/business-central/dev-itpro/)  
 [Resurser för hjälp och support för partners](/dynamics365/business-central/dev-itpro/help-and-support)  

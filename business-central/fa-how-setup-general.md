@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302722"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554260"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
 Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.
@@ -105,7 +105,7 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
 
     Aktivera redovisningintegration, genom att följa stegen. Försäkra dig först om att redovisningsintegration är inaktiverad för alla avskrivningsregler. Bokför sedan ingående transaktioner och slå sedan på redovisningsintegrationen.  
 4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Avskrivningsregler** och välj sedan relaterad länk.  
-5. Välj den relevanta avskrivningsregeln. Välj **Redigera** för att öppna sidan **Avskrivningsregelkort** på fliken **Start** i gruppen **Hantera**.
+5. Välj relevant avskrivningsregel och välj sedan åtgärden **Redigera** för att öppna sidan **Avskrivningsregelkort**.
 6. Kontrollera att alla fält är ofyllda (ta bort markeringar) på snabbfliken **Integration**. Om du har fler än en avskrivningsregel ska du stänga av redovisningsintegrationen för samtliga.  
 7. Ange följande rader för respektive anläggningstillgång i anläggningsjournalen:
    * En rad med anskaffningskostnaden.

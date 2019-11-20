@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee8080689c948daa14d05e8b970de63da749746e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88919a3665aff5f9d9ae7a6ead1fa19581119977
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305218"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775409"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 Innan du kan skapa arbetsflöden måste du ställa in de användare som ska ingå i arbetsflödena. Det behövs för att ange till exempel vem som ska ta emot en notering för att agera på ett arbetsflödessteg.  
@@ -32,7 +32,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 
 ### <a name="to-set-up-a-workflow-user"></a>Så här konfigurerar du en arbetsflödesanvändare  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflödesanvändargrupper** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflödesanvändargrupper** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflödesanvändargrupp** öppnas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
 4. Beskriv arbetsflödet i fältet **Beskrivning**.  
@@ -40,7 +40,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Användarnamn**|Ange användaren som ska ingå i arbetsflöden.<br /><br /> Användaren måste finnas på sidan **Användarinställningar**. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).|  
+    |**Användarnamn**|Ange användaren som ska ingå i arbetsflöden.<br /><br /> Användaren måste finnas på sidan **Användarinställningar**. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).|  
     |**Sekvensnr**|Ange den ordning som arbetsflödesanvändaren agerar i ett arbetsflöde i förhållanden till andra användare. Detta fält kan användas, till exempel, för att ange när användaren godkänner i förhållande till andra godkännare när du använder alternativet **Arbetsflödesanvändargrupp** i fältet **Godkännartyp** på det relaterade arbetsflödesvaret. **Tips!** Om du vill definiera att en godkännandebegäran inte godkänns förrän flera godkännare har godkänt den, oavsett plats i en hierarki, ställer du in en plan arbetsflödeanvändargrupp genom att tilldela samma sekvensnumret till de relevanta godkännarna.|  
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i användargruppen.  
 7. Upprepa steg 2 till 6 för att lägga till fler arbetsflödesanvändargrupper.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f054e9be11de6a71e9fe490bcc3d7f47dafff89d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314174"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553752"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
 En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
@@ -59,7 +59,7 @@ Startdatum anger början av en versions giltighetsperiod. I alla andra fall är 
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Prod.struktur** och välj sedan relaterad länk.  
 2.  Markera produktionsstrukturen som ska kopieras och klicka på åtgärden **versioner**.  
-3.  På fliken **Start** i gruppen **Ny** väljer du **Ny**.  
+3.  Välj åtgärden **Ny**.  
 4. Fyll i fälten om det behövs.
 5. I fältet **Versionskod** anger du en identifiering som är unik för versionen. Du kan använda valfria siffror och bokstäver.  
 

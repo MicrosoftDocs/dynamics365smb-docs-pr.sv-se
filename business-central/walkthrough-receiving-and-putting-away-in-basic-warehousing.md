@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314753"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554650"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
 
@@ -126,7 +126,7 @@ På sidan **Lagerinförsel** kan du hantera alla ingående distributionslagerakt
 3.  Välj fältet **Källdokument** och sedan **Inköpsorder**.  
 4.  Välj fältet **Källnr.** markera raden för köpet från leverantör 10000 och välj sedan knappen **OK**.  
 
-    Alternativ: Välj **Hämta källdokument** och välj sedan inköpsorder på fliken **Åtgärder** i gruppen **Funktioner**.  
+    Välj alternativt åtgärden **Hämta källdokument** och välj sedan inköpsordern.  
 
 5.  Välj åtgärden **Fyll i auto. ant. att hantera**.  
 

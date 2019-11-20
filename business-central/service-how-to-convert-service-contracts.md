@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316065"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554794"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du servicekontrakt som innehåller momsbelopp
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
@@ -32,9 +32,9 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontraktshantering** och välj sedan relaterad länk.  
 2. Välj **Servicekontrakt** under **Listor**.  
 3. Skapa ett nytt förutbetalt servicekontrakt. Ange startdatumet **01.01.2017** och fakturaperiodåret för kunden **20000**.  
-4. Det kontrakt måste undertecknas. På fliken **Start** i gruppen **Process** väljer du **Signera kontrakt**.  
+4. Om du vill signera kontraktet väljer du åtgärden **Underteckna kontrakt**.  
 5. Skapa en servicefaktura.
-6. Fakturera anges som en ej bokförda servicefaktura. Välj **Service**, välj **Kontraktshantering**och välj sedan **Servicefakturor** för att visa servicefakturan.  
+6. Fakturera anges som en ej bokförda servicefaktura. Välj **Service**, välj **Kontraktshantering** och välj sedan **Servicefakturor** för att visa servicefakturan.  
 7. Bokför servicefakturan.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 1. Kör ändringsverktyget för momssats på 1 juli 2017. Allmän produktbokföringsmall eller momsproduktbokföringsmallen ändras. För mer information, se [Så här arbetar du med moms för försäljning och inköp](finance-work-with-vat.md).  
 2. När du har kört ändringsverktyget för momssats, anger du ett utgångsdatum för servicekontraktet. Nu kan du ta bort servicekontraktsraden och skapa en ny rad som är identisk med den gamla.  
 3. Skapa en ny faktura för perioden för januari 2017 till december 2012 med den nya momssatsen.  
-4. Skapa en annan kreditnota genom att på sidan **Servicekreditnotor**, välja **Ny** för att skapa en ny servicekreditnota.  
+4. Skapa en annan kreditnota genom att på sidan **Servicekreditnotor**, välja åtgärden **Ny** för att skapa en ny servicekreditnota.  
 5. Välj åtgärden **Hämta förutbetalda kont.trans**.  
 6. Efter konverteringen rättas moms- och servicetransaktioner.  
 

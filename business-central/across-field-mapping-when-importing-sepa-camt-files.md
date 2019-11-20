@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e179b8dae0fda5c0a2c045fc61fb58101bfec07
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e4c3b60bca16e1f1e72e728d02b07ded11cada09
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300503"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692590"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Konfigurera bankdatakonverteringstjänsten](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  SEPA CAMT-standarden har lokala varianter. Därför kanske du måste ändra den generiska definitionen av datautbytet representeras av koden **SEPA CAMT** på sidan **Definitioner för bokföringsbyte** för att anpassa den till en lokal variation av standarden. Följande tabeller visar element-till-fält-mappning för tabellerna 81, 273 och 274 i SEPA CAMT-implementeringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -61,6 +61,6 @@ ms.locfileid: "2300503"
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md).  
-[Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md)   
+[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  

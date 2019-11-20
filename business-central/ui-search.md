@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310738"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695053"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -23,13 +23,13 @@ Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till sa
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-När du behöver hjälp med att hitta någonting, kan du använda ikonerna ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sidan eller rapporten")**Berätta vad du vill göra** om du vill söka efter den. Du kan också använda ALT+Q för att börja använda Berätta.
+När du behöver hjälp med att hitta någonting, kan du använda ikonen ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sida eller rapport") **Berätta vad du vill göra** för att söka efter det. Du kan också använda ALT+Q för att börja använda Berätta.
 
 När du börjar skriva tecken visar [!INCLUDE[d365fin](includes/d365fin_md.md)] omedelbart matchningar. Resultatet i listan ändras när du skriver fler tecken. Om du märker att när du skriver ordet "produkt" och resultaten inkluderar **Artiklar** beror det på att Berätta använder synonymer och alternativa sökord för att göra det enklare att hitta åtgärder, sidor och rapporter.
 
 Kolumnen till höger anger den allmänna kategorin för i resultatet. Till exempel om det öppnas en listsida eller är administrativa åtgärder.  
 
-Längst ned på fönstret **Berätta** är en åtgärd kallad **utforska**, som öppnar en funktionsöversikt som visar alla tillgängliga funktioner för din roll eller för alla roller. Mer information finns i [söka efter sidor från en funktionsöversikt](ui-role-explorer.md).
+Längst ned på fönstret **Berätta** är en åtgärd kallad **utforska**, som öppnar en funktionsöversikt som visar alla tillgängliga funktioner för din roll eller för alla roller. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Om du föredrar att använda tangentbordet använder du Tabb-tangenten och piltangenterna för att välja ett objekt i resultaten. När du trycker på Retur på tangentbordet utan att välja resultat öppnar [!INCLUDE[d365fin](includes/d365fin_md.md)] det resultat som visas först.
@@ -58,7 +58,7 @@ Under **dokumentation** visas artiklarna som den [!INCLUDE[d365fin](includes/d36
 Vår partnergrupp utvecklar appar som lägger till funktioner för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Avsnittet **Hämta från Microsoft AppSource** visar en lista över program för [!INCLUDE[d365fin](includes/d365fin_md.md)] som finns på Microsoft AppSource och är relaterade till det nyckelord du sökte efter.
 
 ## <a name="searching-for-data"></a>Söka efter data
-Funktionen **Berätta vad du vill göra** söker inte efter data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja ikonen ![Sökningslista](media/ui-search/search-list.png "ikonen Sökningslista") **Sökning** i det vänstra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Sörtera, söka och filtrera listor](ui-enter-criteria-filters.md).
+Funktionen **Berätta vad du vill göra** söker inte efter data som till exempel kundnamn, adresser eller transaktioner. Du kan i stället söka efter data på listsidor genom att välja ikonen ![Söklista](media/ui-search/search-list.png "Ikon för Söklista") **Sök** i det vänstra hörnet av listhuvudet. Sökningen gäller endast för den lista som visas. Mer information finns i [Sörtera, söka och filtrera listor](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Frågor?
 Vi har visat Berätta för mig för ett antal intressenter, noterat de frågor som de har gemensamt och använt våra anteckningar till en lista av vanliga frågor. Om du är intresserad, se [Vanliga frågor Berätta ](ui-search-faq.md).

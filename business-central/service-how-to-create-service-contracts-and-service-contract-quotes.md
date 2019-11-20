@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311698"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553922"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med servicekontrakt och servicekontraktsofferter
 Du kan skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert. Du kan använda en servicekontraktsoffert som förslag till ett servicekontrakt, där ditt företag lämnar en offert till kunden och får kundens godkännande innan du kan omvandla den till ett servicekontrakt. Det fungerar ungefär likadant om du vill skapa ett servicekontrakt eller en servicekontraktsoffert.  
@@ -73,7 +73,7 @@ Du kan använda servicekreditnotor för kontrakt då en kund avbeställer ett f�
 
  På sidan **Servicekontrakt** på snabbfliken **Fakturadetaljer** kan du markera kryssrutan **Automatiska kreditnotor** om du vill att en kreditnota automatiskt ska skapas när rader tas bort från ett servicekontrakt.  
 
- På sidan **Servicekontrakt** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Kreditnota** om du vill skapa en kreditnota manuellt när rader tas bort från ett servicekontrakt.  
+ För att skapa en kreditnota manuellt när kontraktsrader tas bort från ett servicekontrakt väljer du åtgärden **Kreditnota** på sidan **Servicekontrakt**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Uppdatera och utvärdera kontrakt
 Ibland måste du ändra villkoren i ett kontrakt efter att det har skapats. I de flesta fall öppnar du önskat kontrakt på sidan **Servicekontrakt** och gör ändringarna som behövs.  
@@ -99,12 +99,12 @@ Du kanske måste ta bort kontraktsraderna från servicekontraktet när du tar bo
 4. Välj den kontraktsrad som du vill ta bort. Fyll i fältet **Kontrakt utgångsdatum** med datumet då du vill ta bort raden. Det kan till exempel vara den dag då serviceartikeln delades upp.  
 5. Välj åtgärden **ta bort kontraktsrader**. Sidan **Ta bort rader från kontrakt** visas.  
 6. Fyll i standardfiltren: **Kontraktnr**, filtret **Serviceartikelnr** och filtret **Kontraktstyp**. Om det behövs kan du använda flera filter eller ändra befintliga filter.  
-7. Fyll i fälten på snabbfliken **Alternativ**. Klicka på **Ta bort rader** i fältet **Åtgärd**.  
+7. Fyll i fälten på snabbfliken **Alternativ** och välj sedan åtgärden **Ta bort rader**.  
 
 > [!NOTE]  
 >  Om kontraktet inte är detaljerat måste du uppdatera värdet i fältet **Årligt belopp** på snabbfliken **Fakturadetaljer** på sidan **Servicekontrakt** för att visa att serviceartikeln har tagits bort från kontraktet.  
 >   
->  Om kontraktet är detaljerat och förutbetalt, och du har bokfört fakturor för det, kan du skapa en kreditnota för kontraktet. Välj **Skapa kreditnota** i gruppen **Funktioner** på fliken **Åtgärder**. Detta är onödigt om kryssrutan i fältet **Automatiskt kreditnotor** på snabbfliken **Fakturadetaljer** är markerad. Här skapas en kreditnota skapas automatiskt när du tar bort en kontraktsrad.
+>  Om kontraktet är detaljerat och förutbetalt, och du har bokfört fakturor för det, kan du skapa en kreditnota för kontraktet. Välj åtgärden **Skapa kreditnota**. Detta är onödigt om kryssrutan i fältet **Automatiskt kreditnotor** på snabbfliken **Fakturadetaljer** är markerad. Här skapas en kreditnota skapas automatiskt när du tar bort en kontraktsrad.
 
 ## <a name="service-line-cost-and-value"></a>Kostnaden för serviceraden och värde
 På servicekontraktsraderna beräknas beloppen i **Radkostnad** och **Radvärde** enligt beskrivningen i följande tabell.
@@ -134,7 +134,7 @@ Du kan lägga till kontraktsrabatt på service för kontraktsofferter och servic
 >  Om du vill lägga till kontraktsrabatter direkt i ett servicekontrakt utför du en liknande procedur från sidan **Servicekontraktlista**.  
 
 ## <a name="to-change-the-owner-of-a-service-contract"></a>Så här ändrar du ägare till servicekontrakt  
-Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i ett servicekontrakt är registrerad i  flera kontrakt som inte har makulerats och som ägs av samma kund, ändras ägaren automatiskt för alla servicekontrakt som innehåller denna serviceartikel och alla andra serviceartiklar som finns i dessa kontrakt.  
+Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i ett servicekontrakt är registrerad i flera kontrakt som inte har makulerats och som ägs av samma kund, ändras ägaren automatiskt för alla servicekontrakt som innehåller denna serviceartikel och alla andra serviceartiklar som finns i dessa kontrakt.  
 
 > [!NOTE]  
 >  Det här fallet gäller bara för kontrakt som inte har makulerats. Kontraktsoffertens status beaktas inte.  
@@ -150,7 +150,7 @@ Du kanske behöver ändra ägaren till servicekontraktet. Om en serviceartikel i
 4. I fältet **Kontraktnr.** och **Serviceartikelnr** visas numren för de kontrakt och serviceartiklar som ägs av den valda kunden. Om kunden äger flera kontrakt med flera serviceartiklar, blir värdet av dessa fält **Flera**. Om du vill se listan över relaterade kontrakt eller serviceartiklar väljer du dessa fältvärden.  
 5. I fältet **Nytt kundnr.** väljer du den nya kunden.  
 6. I fältet **ny leveranskod** väljer du adressen.  
-7. Välj **OK** om du vill ändra kund- och/eller leveranskod för servicekontrakten.  
+7. Klicka på **OK** om du vill ändra kund- och/eller leveranskod för servicekontrakten.  
 8. Välj åtgärden **Lås kontrakt** om du vill låsa kontraktet och se till att ändringarna förs in i kontraken.  
 
 ## <a name="to-update-a-service-contract-price"></a>Så här uppdaterar du ett servicekontraktspris  

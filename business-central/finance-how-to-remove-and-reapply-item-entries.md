@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306058"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554140"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -61,7 +61,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kopplingsformulär** och välj sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
-3.  Om du vill koppla om transaktioner som tagits bort sedan kalkylarket öppnades markerar du den artikeltransaktion som du vill koppla om. På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Omkoppla**.  
+3.  Om du vill koppla om transaktioner som togs bort sedan förslaget öppnades markerar du den artikeltransaktionspost som du vill koppla om, och väljer sedan åtgärden **Omkoppla**.  
 
     > [!NOTE]  
     >  Denna omkoppling till det ursprungliga saldot sker också automatiskt när du stänger sidan **Kopplingsformulär**.  

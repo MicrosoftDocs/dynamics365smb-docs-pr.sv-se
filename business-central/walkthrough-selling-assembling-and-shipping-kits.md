@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310594"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553972"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 
@@ -146,23 +146,23 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     |80001|PLOCKNING|D-01-0001|20|  
     |80005|PLOCKNING|D-01-0001|20|  
     |80011|PLOCKNING|D-01-0001|20|  
-    |80014|PLOCKA|W-01-0001|20|  
-    |80203|PLOCKA|W-01-0001|20|  
-    |80209|PLOCKA|W-01-0001|20|  
+    |80014|PLOCKA|D-01-0001|20|  
+    |80203|PLOCKNING|D-01-0001|20|  
+    |80209|PLOCKNING|D-01-0001|20|  
 
-4.  Välj **Registrera**och sedan knappen **Ja** på fliken **Start** i gruppen **Registrering**.  
+4.  Välj åtgärden **Registrera** och sedan knappen **Ja**.  
 
     Sedan synkroniserar du de nya distributionslagertransaktionerna med lagret.  
 
 5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk. Sidan **Artikeljournal** öppnas.  
-6.  Välj **Beräkna dist.lager justering** i gruppen **Funktioner** på fliken **Åtgärder**.  
+6.  Välj åtgärden **Beräkna dist.lagerjustering**.  
 7.  På sidan **Beräkna dist.lager justering** för att köra funktionen **OK**.  
-8.  På sidan **Artikeljournal** på fliken **Åtgärder** i gruppen **Funktioner** väljer du **Bokför** och sedan knappen **Ja**.  
+8.  På sidan **Artikeljournal** väljer du åtgärden **Bokför** och väljer sedan knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Skapa monteringsartiklarna  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
-2.  På fliken **Start** i gruppen **Hantera** väljer du **Nytt**.  
+2.  Välj åtgärden **Ny**.  
 3.  Skapa den första monteringsartikeln utifrån följande information.  
 
     |Fält|Värde|  
@@ -177,7 +177,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     > [!NOTE]  
     >  Sats A levereras typiskt från montering mot lager och har därför en partiformningsmetod, där den ingår i den allmänna leveransplaneringen.  
 
-4.  På fliken **Analysera**, i gruppen **Montering/produktion**, väljer du **Montering** och sedan **Monteringsstruktur**.  
+4.  Välj åtgärden **Montering** och välj sedan **Monteringsstruktur**.  
 5.  Definiera en monteringsstruktur för sats A med följande information.  
 
     |**Typ**|**Nr**|**Antal per**|  
@@ -200,7 +200,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     > [!NOTE]  
     >  Sats B levereras vanligtvis från montering mot kundorder och har därför inte en partiformningsmetod, eftersom den inte bör ingå i allmän leveransplanering.  
 
-7.  På fliken **Analysera**, i gruppen **Montering/produktion**, väljer du **Montering** och sedan **Monteringsstruktur**.  
+7.  Välj åtgärden **Montering** och välj sedan **Monteringsstruktur**.  
 8.  Definiera en monteringsstruktur för sats B med följande information.  
 
     |**Typ**|**Nr**|**Antal per**|  
@@ -213,7 +213,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 ### <a name="selling-the-assembly-items"></a>Sälja monteringsartiklarna  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
-2.  På fliken **Start** i gruppen **Hantera** väljer du **Nytt**.  
+2.  Välj åtgärden **Ny**.  
 3.  Skapa två försäljningsorderrader för kund 62000, The Device Shop, på arbetsdatumet med följande information.  
 
     |**Typ**|**Beskrivning**|**Antal**|Antal att montera mot kundorder|Utleveransdatum|  
@@ -259,14 +259,14 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
      Ändra sedan leveransdatumet på den andra försäljningsorderraden enligt monteringschemat.  
 
 15. PÅ försäljningsorderraden för 15 enheter med sats A, ange **01-27-2014** i fältet **Utleveransdatum**.  
-16. På fliken **Åtgärder** i gruppen **Släpp** väljer du **Släpp**.  
-17. På fliken **Åtgärder** i gruppen **Dist.lager** väljer du **Skapa dist.lagerutleverans**.  
+16. Välj åtgärden **Släppa**.  
+17. Välj åtgärden **Skapa dist.lagerutleverans**.  
 18. Stäng försäljningsordern.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planering för de ATS-artiklar som inte är tillgängliga  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planeringsförslag** och välj sedan relaterad länk.  
-2.  Välj **Beräkna fullständig plan** i gruppen **Funktioner** på fliken **Åtgärder**.  
+2.  Välj åtgärden **Beräkna fullständig plan**.  
 3.  Ange följande filter på sidan **Skapa inköpsförslag**.  
 
     |Startdatum|Slutdatum|Nummer|  
@@ -277,7 +277,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     En ny planeringsrad skapas för den behövda monteringsordern för tio enheter, förfaller den 27 januari. Inga ändringar behövs så att du kan skapa ordern.  
 
-5.  Välj **Verkställ åtgärdsmeddelande** i gruppen **Funktioner** på fliken **Åtgärder**.  
+5.  Välj den **Verkställ åtgärdsmeddelande** åtgärd.  
 6.  På sidan **Monteringsorder** och välj sedan **Skapa monteringsorder** i fönstret **Verkställ åtgärdsmeddelande**.  
 7.  Välj knappen **OK**.  
 
@@ -298,7 +298,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Sedan skapar du ett plockningsdokument för alla ATO-monteringskomponenter som behövs för utleveransen från distributionslagret.  
 
-3.  Välj **Skapa plockning** och sedan knappen **OK** på fliken **Åtgärder** i gruppen **Funktioner**.  
+3.  Välj åtgärden **Skapa plockning** och sedan knappen **OK**.  
 
     Utför sedan plockarens uppgift.  
 
@@ -309,8 +309,8 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Registrera sedan plockningen, utan att ändra standardinformationen.  
 
-6.  På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Fyll i auto. ant. att hantera**.  
-7.  På fliken **Start** i gruppen **RegistRering** väljer du **Registrera plockning**.  
+6.  Välj åtgärden **Fyll i auto. ant. att hantera**.  
+7.  Välj **Registrera plockning**.  
 
     Återgå till att utföra utleveransuppgifterna.  
 
@@ -335,7 +335,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 12. Stäng sidan **monteringsorder** och återgå till sidan **distributionslagerutleverans**.  
 13. På utleveransraden för tre enheter av sats B i **Ant. att utleverera** anger du **3**.  
-14. På fliken **Åtgärder** i gruppen **Bokföring** väljer du **Bokför utleverans** och sedan **Leverera**.  
+14. Välj åtgärden **Bokför utleverans** och välj sedan knappen **Leverera**.  
 
     Tillsammans med den här bokföringen av distributionslagerutleveransen bokförs hela förbrukningen och utflödet av den relaterade monteringsordern och fältet **Återstående antal**. Försäljningsorderraden för sats B uppdateras för att visa att de tre enheterna har levererats.  
 
@@ -358,7 +358,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Registrera sedan att monteringsordern har slutförts.  
 
-3.  Välj **Montering mot kundorder, dist.lager utleveransrad** på fliken **Analysera** i gruppen **Dist.lager**.  
+3.  Välj åtgärden **Montering mot kundorder, dist.lager utleveransrad**.  
 4.  På sidan **Montering mot kundorder, dist.lager utleveransrad** i fältet **Ant. att utleverera**, ange **5** och stäng sedan sidan.  
 
     Observera på sidan **Monteringsorder** att fälten **Antal att montera** och **Antal att förbruka** nu fylls i med de utflödes- och förbrukningsantal som ska bokföras med utleveransen.  
@@ -374,8 +374,8 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Sedan ska du skapa ett plockningsdokument för att hämta de nödvändiga komponenternz.  
 
-3.  På fliken **Åtgärder** i gruppen **Släpp** väljer du **Släpp**.  
-4.  Välj **Skapa dist.lagerplockning** och sedan knappen **OK** på fliken **Åtgärder** i gruppen **Dist.lager**.  
+3.  Välj åtgärden **Frisläpp**.  
+4.  Välj åtgärden **Skapa dist.lagerplockning** och sedan knappen **OK**.  
 
     Utför sedan plockarens uppgift.  
 
@@ -384,12 +384,12 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
      Fortsätt med att registrera plockningen, utan att ändra standardinformationen.  
 
-7.  På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Fyll i auto. ant. att hantera**.  
-8.  På fliken **Start** i gruppen **RegistRering** väljer du **Registrera plockning**.  
+7.  Välj åtgärden **Fyll i auto. ant. att hantera**.  
+8.  Välj **Registrera plockning**.  
 
     Återgå till monteringsordern för att utföra den sista monteringsuppgiften.  
 
-9. I **Monteringsorder**, på fliken **Åtgärder** i gruppen **Bokföring**, välj **Bokföring** och välj sedan knappen **Ja**.  
+9. I **Monteringsorder** väljer du åtgärden **Bokför** och väljer sedan knappen **Ja**.  
 
     Observera att monteringsordern tas bort från listan över öppna beställningar.  
 
@@ -402,7 +402,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Välj sedan återstående artiklar.  
 
-3.  Välj **Skapa plockning** och sedan knappen **OK** på fliken **Åtgärder** i gruppen **Funktioner**.  
+3.  Välj åtgärden **Skapa plockning** och sedan knappen **OK**.  
 
     Utför sedan plockarens senaste uppgift för den här utleveransen från lager.  
 
@@ -413,8 +413,8 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Registrera sedan plockningen, utan att ändra standardinformationen.  
 
-6.  På fliken **Åtgärder** i gruppen **Funktioner** väljer du **Fyll i auto. ant. att hantera**.  
-7.  Välj **Registrera plockning**och sedan knappen **Ja** på fliken **Start** i gruppen **Registrering**.  
+6.  Välj åtgärden **Fyll i auto. ant. att hantera**.  
+7.  Välj åtgärden **Registrera plockning** och sedan knappen **Ja**.  
 
     Återgå till distributionslagerutleveransen för att utföra den sista uppgiften.  
 
@@ -422,7 +422,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     På sidan **Utleveranser för dist.lager** på raden för tio enheter av sats A, observera att fälten **Ant. att utleverera** och **Plockat antal** nu innehåller **10**.  
 
-9. På fliken **Åtgärder** i gruppen **Bokföring** väljer du **Bokför utleverans** och sedan **Leverera**.  
+9. Välj åtgärden **Bokför utleverans** och välj **Leverera**.  
 
     Distributionslagerutleveransdokumentet tas bort, vilket anger att de berörda lageraktiviteterna är slutförda. I nästa steg verifierar du att försäljningsordern har behandlats.  
 
@@ -431,7 +431,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Observera att fältet **Utlevererat antal** innehåller hela kvantiteten på båda raderna.  
 
-    När The Device Shop betalar löner de 18 PC-datorerna från CRONUS tas försäljningsordern och dess kopplade monteringsorder bort.  
+    När The Device Shop betalar för mottagningen av de 18 PC-datorerna från CRONUS tas försäljningsordern och dess kopplade monteringsorder bort.  
 
 ## <a name="see-also"></a>Se även  
  [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)   

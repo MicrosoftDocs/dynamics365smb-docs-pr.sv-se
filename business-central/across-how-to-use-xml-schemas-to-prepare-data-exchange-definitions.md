@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305122"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554452"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använda XML-scheman för att förbereda dataintegrationsdefinitioner
 Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet på sidan **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initialisera antingen en definition för datautbyte eller en XMLport.  
@@ -40,9 +40,9 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 1.  Se till att den relevanta XML-schemafilen är tillgänglig. Filnamnstillägget är .xsd.  
 
-2.  I rutan **Sök** anger du **XML-scheman** och väljer sedan relaterad länk.  
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XML-scheman** och välj sedan relaterad länk.  
 
-3.  På fliken **Start** i gruppen **Ny** väljer du **Ny**.  
+3.  Välj åtgärden **Ny**.  
 
 4.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
@@ -53,7 +53,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
      Fältet **Målnamnrymd** anger ett namnområde i XML-schemafilen som har laddats för raden.  
 
-5.  Välj **Läs in schema** på fliken **Start** i gruppen **Process** och välj sedan XML-schemafilen.  
+5.  Välj **Läs in schema**-åtgärden och välj sedan XML-schemafilen.  
 
      När filen har fylls i fylls resten av fälten på raden i med information från filen, och kryssrutan **Schemat är inläst** markeras.  
 
@@ -62,7 +62,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Så här markerar eller avmarkerar du noder i ett XML-schema  
 
-1.  I rutan **Sök** anger du **Visningsprogram för XML-schema** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Visningsprogram för XML-schema** och välj sedan relaterad länk.  
 
 2.  Fyll i fälten i huvudet enligt beskrivningen i följande tabell.  
 
@@ -77,7 +77,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
      Högerklicka på en nod och välj sedan **Expandera alla**.  
 
-4.  På fliken **Hem** i gruppen **Visa** väljer du någon av följande åtgärder för att ändra vilka noder som visas.  
+4.  Välj någon av följande åtgärder för att ändra vilka noder som visas.  
 
     |**Åtgärd**|Beskrivning|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
     |**Dölj ej obligatoriska**|Endast noder som representerar element som krävs enligt XML-schemat visas. Dessa noder har anges vanligtvis med **1** i fältet **MinOccurs**.<br /><br /> Välj **Visa alla** för att återföra vyn.|  
     |**Dölj ej valda**|Endast noder där kryssrutan **Vald** är markerad visas.<br /><br /> Välj **Visa alla** för att återföra vyn.|  
 
-5.  På fliken **Start** i gruppen **Hantera** väljer du **Redigera**.  
+5.  Välj åtgärden **Redigera**.  
 
 6.  I kryssrutan **Vald** anger du för varje nod om du vill att elementet ska stödjas i definitionen för datautbyte för den relaterade SEPA-bankfilen.  
 
@@ -100,13 +100,13 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
-1.  I rutan **Sök** anger du **XML-scheman** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XML-scheman** och välj sedan relaterad länk.  
 
-2.  Markera ett lämpligt XML-schema och välj **Öppna XML-schemavisare** på fliken **Hem** i gruppen **Behandla**.  
+2.  Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 
 3.  Se till att de relevanta noderna har markerats. Mer information finns i avsnittet ”Så här markerar eller avmarkerar du noder i ett XML-schema”.  
 
-4.  På sidan **Visningsprogram för XML-schema** på fliken **Start** i gruppen **Process** väljer du **Generera datautbytesdefinition**.  
+4.  På sidan **Öppna XML-schemavisare** väljer du åtgärden **Generera datautbytesdefinition**.  
 
  Datautbytesdefinitionen skapas på sidan **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Så här skapar du en XMLport som baseras på ett XML-schema  
 
-1.  I rutan **Sök** anger du **XML-scheman** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XML-scheman** och välj sedan relaterad länk.  
 
-2.  Markera ett lämpligt XML-schema och välj **Öppna XML-schemavisare** på fliken **Hem** i gruppen **Behandla**.  
+2.  Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 
 3.  I fältet **Ny XMLport Nr.** anger du numret som den nya XMLport-artikeln ska få när den skapas.  
 
 4.  Se till att de relevanta noderna har markerats. Mer information finns i avsnittet ”Så här markerar eller avmarkerar du noder i ett XML-schema”.  
 
-5.  På fliken **Start** i gruppen **Process** väljer du **Generera XMLport** och sparar sedan objektet som en .txt-fil på en lämplig plats.  
+5.  Välj åtgärden **Generera XMLport** och spara objektet som en .txt-fil på lämplig plats.  
 
 6. Importera nya XMLport i [!INCLUDE[d365fin](includes/d365fin_md.md)] utvecklingsmiljö och kompilera den.
 

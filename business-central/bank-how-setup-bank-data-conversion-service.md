@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304066"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692758"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
@@ -32,7 +32,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 > Bankdatakonverteringstjänsten kan ha en gräns för antal rader som kan exporteras i en fil. Du får ett felmeddelande om gränsen överskrids. Vi rekommenderar att kontoutdragsfiler inte innehåller fler än 1 000 rader eftersom behandlingstiden i bankdatakonverteringstjänsten annars kan öka markant.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Så här registrerar du ditt företag för tjänsten bankdatakonvertering.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
 2. Sidan **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
 
     > [!NOTE]  
@@ -49,11 +49,11 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 > Dina inloggningsdata krypteras automatiskt.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Så här visar eller uppdaterar du listan över bankdataformat som stöds för närvarande
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.
 2. På sidan **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Banknamn – datakonverteringslista** för att öppna listan med banknamn som representerar bankdataformat som stöds av konverteringstjänsten.
 3. På sidan **Banknamn – datakonverteringslista** väljer du åtgärden **Uppdatera lista med banknamn**.
 
-Listan över bankdataformat som stöds av tjänsten för bankdatakonvertering uppdateras nu. Det här är listan över banknamn, filtrerade efter landet/regionen, som du kan välja mellan i fältet **Banknamn – Datakonvertering** på sidan **Bankkontokort**.
+Listan över bankdataformat som stöds av tillägget AMC Banking 365 Fundamentals uppdateras nu. Det här är listan över banknamn, filtrerade efter landet/regionen, som du kan välja mellan i fältet **Banknamn – Datakonvertering** på sidan **Bankkontokort**.
 
 > [!NOTE]  
 >   Uppdatering av bankdataformat som stöds inträffar också när du väljer eller anger ett värde i fältet **Banknamn – Datakonvertering** på bankkontot.

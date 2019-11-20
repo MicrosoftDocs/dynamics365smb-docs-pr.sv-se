@@ -10,16 +10,19 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 97db6065f405397dbc4a077f571883a28bda8c3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b31bc4fb174c78092986c14f97232d8498974834
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300043"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764486"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
 Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
-Du kan dock ändra standardkontona och du kan lägga till nya konton.  
+Du kan dock ändra standardkontona och du kan lägga till nya konton. 
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+
 
 ## <a name="adding-or-changing-accounts"></a>Lägga till eller ändra konton
 Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller ändra inställningar.

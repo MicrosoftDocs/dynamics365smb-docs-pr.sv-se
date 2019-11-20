@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315882"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553848"
 ---
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
 Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   
@@ -93,7 +93,7 @@ En transaktion för kontraktets vinst eller förlust skapas automatiskt då kont
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visa statistik för bokförda servicedokument
 Med funktionen för servicestatistik får du en statistisk översikt över innehållet i bokförda servicedokument, t.ex. bokförda leveranser, bokförda fakturor och bokförda kreditnotor.  
 
-Statistikinformationen visas på statistiksidan för varje bokfört servicedokument. Du kan öppna relevant statistik från sidan med den bokförda serviceleveransen, bokförd servicefaktura eller bokförd servicekreditnota. Välj **Statistik** för var och en av följande dokumenttyper på fliken **Start** i gruppen **Process**. Till exempel från sidan **Bokförda servicefakturor** går du till fliken **Start**, gruppen **Process** och väljer **Statistik**.  
+Statistikinformationen visas på statistiksidan för varje bokfört servicedokument. Du kan öppna relevant statistik från sidan med den bokförda serviceleveransen, bokförd servicefaktura eller bokförd servicekreditnota. Välj åtgärden **Statistik** för var och en av dessa dokumenttyper. Exempelvis från sidan **Bokförda servicefakturor** väljer du åtgärden **Statistik**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistik för bokförda serviceleveranser  
 På sidan **Serviceleveransstatistik** visas en översikt över den bokförda serviceleveransen. Detta inkluderar information om det fysiska innehållet i utleveransen, t.ex. antalet levererade artiklar, resurstimmar eller kostnader samt vikt och volym för de levererade artiklarna.  

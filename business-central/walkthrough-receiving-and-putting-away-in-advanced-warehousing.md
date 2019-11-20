@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314709"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553898"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer
 
@@ -136,7 +136,7 @@ På sidan **Dist.lager artikelinförsel** kan du hantera artikelinförslar för 
 
 ### <a name="to-put-the-items-away"></a>Så här för du in artiklarna  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförslar** och välj sedan relaterad länk.  
-2.  Välj det enda distributionslagerinförseldokumentet i listan, och sedan, på **Startsida** fliken, i **Hantera** grupp, välj **Redigera**.  
+2.  Välj det enda distributionslagerinförseldokumentet i listan, och välj sedan åtgärden **Redigera**.  
 
     Distributionslagerinförseldokumentet öppnas med totalt åtta Ta- eller Placerarader för de fyra inköpsorderrader.
 

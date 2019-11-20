@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315282"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649794"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
@@ -33,7 +33,7 @@ Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till 
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument och kort som stöds.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.
 2. Öppna försäljningsorder som du vill bifoga en fil till.
 3. Öppna fliken **bifogade filer** i faktaboxen.
 4. Välj värdet bakom fältet **dokument**, till exempel "0".
@@ -47,14 +47,12 @@ Du kan lägga till en länk från ett kort eller dokument till en URL eller sök
 
 Följande procedur baseras på ett artikelkort. Stegen är liknande för alla andra kort och dokument.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
 2. Välj den artikel som du vill lägga till en länk från och välj sedan fliken **bifogade filer** i faktaboxen.
 3. Välj ikonen **länkar**, välj ikonen **+**.
 4. I fältet **länkadresser** anger du länken.
 
-    - Om du vill länka till en fil på datorn eller i nätverket, anger du den fullständiga sökvägen och filnamnet som **C:\My Documents\invoice1.doc**.
-    - Länka till en webbplats genom att ange Internet-adressen (URL) som **www.microsoft.com**.
-    - Länka till ett program genom att ange en sträng för att öppna programmet. Om du t.ex. vill öppna Outlook med ett nytt, tomt e-postmeddelande till ett visst alias skriver du **mailto:testalias**.  
+    Länken måste vara en giltig URL för Internet eller intranätet.
 
 5. I fältet **Beskrivning**, ange information om länken.  
 6. Välj **OK**.
@@ -69,7 +67,7 @@ Du kan skriva en notering på ett dokument eller kort, t.ex. om du vill skicka s
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument och kort som stöds.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
 2. Välj den försäljningsorder som du vill skriva en anteckning på och välj sedan fliken **bifogade filer** i faktaboxen.
 3. Välj avsnittet **anteckningar**, välj ikonen **+**.
 4. I fältet **Anteckning** skriv någon text, t.ex. "detta är en brådskande order.".

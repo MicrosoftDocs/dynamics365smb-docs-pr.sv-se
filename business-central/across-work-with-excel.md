@@ -8,40 +8,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 10/24/2019
 ms.author: jswymer
-ms.openlocfilehash: 2474f83fd9fa137b40756a3d07ac025208f3ac6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 71b4e5b7124f929255f1374b38cfbe28c9f12d2b
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308266"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692806"
 ---
-# <a name="viewing-and-editing-in-excel-from-business-central"></a>Visa och redigera i Excel från Business Central 
+# <a name="viewing-and-editing-in-excel-from-business-central"></a>Visa och redigera i Excel från Business Central
 
 Med sidor som visar en lista över poster i rader och kolumner som en lista över kunder, försäljningsorder eller fakturor, kan du även visa posterna med hjälp av Microsoft Excel. För att göra detta har du två alternativ. Du kan antingen markera åtgärden **öppna i Excel** eller **redigera i Excel** på sidan. Skillnaden mellan de två åtgärderna beskrivs nedan:  
 
 ## <a name="open-in-excel"></a>Öppna i Excel
 
--    Med den här åtgärden respekterar Excel eventuella filter på sidan gränsen på poster som visas. Detta innebär att Excel-arbetsboken innehåller samma rader och kolumner som visas på sidan i [!INCLUDE[prodshort](includes/prodshort.md)].
+- Med den här åtgärden respekterar Excel eventuella filter som begränsar poster som visas. Detta innebär att Excel-arbetsboken innehåller samma rader och kolumner som visas på sidan i [!INCLUDE[prodshort](includes/prodshort.md)].
 
--    Du kan inte ändra posterna i Excel, men du kan inte publicera ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan bara spara ändringarna till Excel-filen på datorn. 
+- Du kan inte ändra posterna i Excel, men du kan inte publicera ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan bara spara ändringarna till Excel-filen på datorn. 
 
--    Den här åtgärden fungerar både i Windows och macOS. 
+- Den här åtgärden fungerar både i Windows och macOS. 
 
->[!NOTE]
->För [!INCLUDE[prodshort](includes/prodshort.md)] lokal, är åtgärden **Öppen i Excel** inte tillgänglig om åtgärden **redigera i Excel** är.
+> [!NOTE]
+> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är åtgärden **Öppna i Excel** tillgänglig som standard. Om du däremot ställer in [!INCLUDE [prodshort](includes/prodshort.md)] lokalt för redigering av data i Excel, ersätts åtgärden **Öppna i Excel** av åtgärden **Redigera i Excel**.
 
 ## <a name="edit-in-excel"></a>Redigera i Excel
 
--    Med den här åtgärden respekterar Excel-arbetsboken inte filter på sidan gränsen på poster som visas. Detta innebär att Excel-arbetsboken innehåller alla tillgängliga poster och kolumner, oavsett vad som ska visas på sidan. 
+- Med den här åtgärden respekterar Excel de flesta filter på sidan som begränsar poster som visas. Detta innebär att Excel-arbetsboken innehåller nästan samma poster och kolumner.
 
--    Fördelen med åtgärden **redigera i Excel** är att du kan ändra poster i Excel och sedan publicera ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)].
+- Fördelen med åtgärden **redigera i Excel** är att du kan ändra poster i Excel och sedan publicera ändringarna tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)].
 
--    Det fungerar endast i Windows. inte macOS.
+- Det fungerar endast i Windows. inte macOS.
 
->[!NOTE]
->För [!INCLUDE[prodshort](includes/prodshort.md)] lokal, är åtgärden **redigera i Excel** endast tillgänglig om Excel-tillägget har installerats av administratören. För administratörer, om du vill veta hur du installerar Excel-tillägg, se [ställa in Excel-tillägget](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+Detta utökades i 2019 års version, våg 2. Mer information finns i [Förbättringar av Excel-integrering](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+
+> [!NOTE]
+> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är åtgärden **Redigera i Excel** endast tillgänglig om Excel-tillägget har konfigurerats av administratören. För administratörer, om du vill veta hur du installerar Excel-tillägg, se [Ställa in Excel-tillägget för redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+
+> [!NOTE]
+> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är den här funktionen är endast tillgänglig för webbklienten.
 
 ### <a name="see-the-differences-between-the-options"></a>Se skillnaden mellan alternativen 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]

@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315066"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695197"
 ---
 # <a name="searching-and-filtering-faq"></a>Vanliga frågor och svar om sök och filtrering
 Den här artikeln besvarar vanliga frågor som du kanske har om att söka och filtrera.
@@ -52,5 +52,5 @@ Som lokal administratör ökar du tidsfristen på sökningar genom att ändra in
 ## <a name="see-also"></a>Se även
 [Sortera, söka och filtrera](ui-enter-criteria-filters.md)  
 [Söka efter sidor och information med berätta](ui-search.md)  
-[Söka efter sidor från en funktions översikt](ui-role-explorer.md)  
+[Söka efter sidor med rollutforskaren](ui-role-explorer.md)  
 [Komma igång](product-get-started.md)  

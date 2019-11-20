@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: a01fb01fb6a4e18bb3cfd46693885f7891989804
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304454"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649722"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
@@ -27,6 +27,8 @@ När du sedan öppnar Outlook visas ett e-postmeddelanden från *Dynamics 365 Bu
 
 > [!TIP]
 > Om du använder det nya Outlook i en webbläsare, sedan kan [!INCLUDE [prodshort](includes/prodshort.md)] tilläggsprogram vara dolda under **fler åtgärder**.
+
+Om du arbetar med mer än ett [!INCLUDE [prodshort](includes/prodshort.md)]-företag kan du enkelt växla mellan företag i Outlook.
 
 Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Så bör du kontrollera att du har en Office 365-prenumeration som innehåller e-post och låter dig distribuera tillägg. Om du vill testa tillägget i alla fall kan du [prova Office 365 gratis](https://products.office.com/try).  
 

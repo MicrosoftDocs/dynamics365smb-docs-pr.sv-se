@@ -12,18 +12,20 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27e3dd32fc1bf79dffdf1b7f33d1ea86a3f598e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 07274a495ba7047fafaf31a94225ac29b05aabb4
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307642"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692782"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
-Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar.
+Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar.<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Vhpl]
 
 ## <a name="to-set-up-bank-accounts"></a>Så här skapar du bankkonton
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. På sidan **Bankkonton** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -31,9 +33,9 @@ Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att h
 > Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md). Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterad inställningsguide **Migrera affärsdata**. Mer information finns i [Komma igång](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
-Fälten på snabbfliken **Överför** på sidan **Bankkontokort** är relaterade till import och export av bankfeeds och filer. Mer information finns i [Ställ in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md) och [Ställ in Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md).
+Fälten på snabbfliken **Överför** på sidan **Bankkontokort** är relaterade till import och export av bankfeeds och filer. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) och [Konfigurera Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Öppna kortet för ett bankkonto som du ska exportera eller importera bankfiler.
 3. I snabbfliken **Överför** fyller du i nödvändiga fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,9 +43,9 @@ Fälten på snabbfliken **Överför** på sidan **Bankkontokort** är relaterade
 >   Andra filexporttjänster och deras format kräver olika inställningsvärden på sidan **bankkontokort**. Du får information om vilka inställningsvärden som är fel eller saknas när du försöker exportera filen. Så läs de korta beskrivningarna av fälten eller se relaterad procedur i närliggande ämnen. Till exempel exportera en betalningsfil för nordamerikansk elektronisk överföring kräver att både fältet **Sista kundremissnr.** och fältet **Transitnr.** fylls i. Mer information finns i [Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md).
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Så här skapar du leverantörsbankkonto för export av bankfiler
-Fälten på snabbfliken **Överför** på sidan **Leveraqntörsbankkontokort** är relaterade till export av bankfeeds och filer. Mer information finns i [Så här skapar du konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md) och [Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md).
+Fälten på snabbfliken **Överför** på sidan **Leveraqntörsbankkontokort** är relaterade till export av bankfeeds och filer. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Exportera betalningar till en bankfil](payables-how-export-payments-bank-file.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna kortet för en leverantör vars bankkonto som du ska exportera betalningsbankfiler till.
 3. Välj åtgärden **bankkonton**.
 3. På sidan **Leverantörsbankkontokort** på snabbfliken **Överför** fyller du sedan de fält som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

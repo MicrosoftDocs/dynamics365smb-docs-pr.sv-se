@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de3456884d3c5f46ef246aa6fcd02bec5b001377
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309010"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775577"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -97,7 +97,7 @@ När kundbetalning har inlevererats förförsäljnngsfakturan i [!INCLUDE[d365fi
 [Kundhantering](marketing-relationship-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-[Hantera användare och behörigheter](ui-how-users-permissions.md)    
+[Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)    
 [Översikt över försäljnings- och försäljningsnav](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

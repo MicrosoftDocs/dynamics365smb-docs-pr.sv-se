@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2019
-ms.openlocfilehash: 22471a6e0281f6f7aa4e9c9bbf0b2d9c5a0fd710
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d25dc4c27be6069782ff30e785f884ee406d2e4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309298"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553948"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Använda profilfrågeformulär för att klassificera affärskontakter
 Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna.  
@@ -24,11 +24,11 @@ Du kan också köra frågeformuläret när du automatiskt vill besvara några av
 
 ## <a name="to-add-a-profile-questionnaire"></a>Lägga till profilfrågeformulär så här
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Frågeformulärsinställningar** och välj sedan relaterad länk.  
-2.  På fliken **Start** i gruppen **Ny** väljer du **Ny**.  
+2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Lägga till frågor till ett frågeformulär
-1.  Välj relevant profilfrågeformulär och välj **Redigera inställningar för frågeformulär** på fliken **Start** i gruppen **Process**.  
+1.  Välj relevant profilfrågeformulär och välj åtgärden **Redigera inställningar för frågeformulär**.  
 2.  På den första tomma raden väljer du **Fråga** i fältet **Typ** och skriver frågan i fältet **Beskrivning**. Fyll i de övriga fälten på raden.  
 3.  På nästa tomma rad väljer du **Svar** i fältet **Radtyp** och skriver svaret i fältet **Beskrivning**.  
 4.  I fältet **Prioritet** väljer du önskad prioritet. I fälten **Från värde** och **Till värde** definierar du ett poängintervall. De kontakter som får poäng inom det angivna intervallet får svaret.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300791"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692710"
 ---
 # <a name="changing-language-and-locale"></a>Byta språk och plats
 
@@ -40,6 +40,10 @@ Du kan ändra språkvariant i fliken som du använder för att arbeta i [!INCLUD
 
 Om du vill ändra språkvariant går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Programversion
+
+På sidan **Hjälp och support** kan du se den version av [!INCLUDE [prodshort](includes/prodshort.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Språk för [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälpen
 Innehållet i hjälpen för grundläggande funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] publicerar på webbplatsen Microsoft Docs och finns på flera olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska.
 
@@ -49,6 +53,8 @@ Det är enkelt - bläddra längst ned på sidan och välj symbolen med en jordgl
 > [!NOTE]  
 > Listan visar alla språk som stöds av webbplatsen Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i ett begränsat antal länder/regioner, men hjälpinnehållet är tillgänglig på flera språk. Hjälpinnehållet är inte tillgängligt för alla språk som stöds av webbplatsen Microsoft Docs.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
+[Resurser för hjälp och support](product-help-and-support.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Komma igång](product-get-started.md)  

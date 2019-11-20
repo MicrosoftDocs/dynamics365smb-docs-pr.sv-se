@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315306"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775601"
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
 Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 För att hjälpa dig att göra dig redo för affärer, kan du besöka sidan **företagsstöd** där du kan starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Du kan nå sidan från diagrammet på rollcentret **Chef** genom att välja listpilen **företagsstöd** och sedan välja åtgärden **Visa inställningar och hjälpresurser**. När du uppdaterar sidan ersätts diagrammet med inställningar och hjälpresurser.
 
-Öppna alternativt listan över assisterade konfigurationsguider, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **assisterad konfiguration** och välj sedan relaterad länk.
+Öppna alternativt listan över assisterade konfigurationsguider, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Assisterad konfiguration** och välj sedan relaterad länk.
 
 I ditt rollcenter, i navigeringsfönstret längst upp, hittar du menyn **Inställningar och tillägg**. Här har du åtkomst till en lista med assisterade konfigurationsguider som kan hjälpa dig att komma igång. När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av den assisterade inställningen.
 
@@ -49,7 +49,7 @@ Använd pilarna för att minska en del av sidan och för att få mer plats för 
 Under **företaginställningar** kan du visa och redigera in inställningsinformation om det aktuella företaget. Mycket av detta fylldes i om du slutförde den assisterade installationen **Konfigurera företag** när du regsitrerade dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill ändra företaglogotypen, kontaktinformation, bankinställningarna eller information om fältet, kan du göra det från denna sida.    
 
 ## <a name="adding-users-and-permissions"></a>Lägga till användare och behörigheter
-Om du behöver lägga till fler användare kan du göra detta du i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) När användare skapas i Office 365, kan de importeras till sidan **Användare** med åtgärden **Få användare från Office 365**. Sedan kan du fortsätta med att tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).  
+Om du behöver lägga till fler användare kan du göra detta du i Office 365 Admin Center. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) När användare skapas i Office 365, kan de importeras till sidan **Användare** med åtgärden **Få användare från Office 365**. Sedan kan du fortsätta med att tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Få hjälp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta knappbeskrivningar som kan hjälpa dig genom de olika affärsprocesserna. För varje fältbeskrivning trycker du på Ctrl + F1 eller väljer länken **Läs mer** för att öppna hjälpen för den aktuella sidan. Frågetecknet i det övre högra hörnet visar dig också till produkthjälp.
@@ -60,6 +60,6 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hantera användare och behörigheter](ui-how-users-permissions.md)
+[Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312394"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553872"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
 Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -31,7 +31,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
  Du kan antingen starta omvandlingen av elektroniska dokument manuellt, enligt beskrivningen i denna procedur, eller så kan du aktivera ett arbetsflöde för att konvertera elektroniska dokument automatiskt, när de har tagits emot. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller en arbetsflödesmall, *Arbetsflödet Från inkommande elektroniskt via OCR till Öppna inköpsfaktura*, som är klar att kopieras till ett arbetsflöde och aktiveras. Mer information finns i [Arbetsflöden](across-workflow.md).  
 
 > [!NOTE]  
->  När du konverterar elektroniskt dokumentet som har tagits emot från OCR-tjänsten av dokument - eller journalrader i [!INCLUDE[d365fin](includes/d365fin_md.md)],  sammanfattas raderna i källdokumentet på en rad. Enkelraden ska vara av typen redovisningskonto och fälten **Beskrivning** och (redovisningskonto) **Nr.** ska vara tomma. Värdet i fältet **Belopp** ska vara samma som det totala beloppet exklusive moms, för alla rader i källdokumentet.  
+>  När du konverterar elektroniskt dokumentet som har tagits emot från OCR-tjänsten av dokument - eller journalrader i [!INCLUDE[d365fin](includes/d365fin_md.md)], sammanfattas raderna i källdokumentet på en rad. Enkelraden ska vara av typen redovisningskonto och fälten **Beskrivning** och (redovisningskonto) **Nr.** ska vara tomma. Värdet i fältet **Belopp** ska vara samma som det totala beloppet exklusive moms, för alla rader i källdokumentet.  
 >   
 >  Att säkerställa att de **beskrivning** och **nr.** För att se till att fälten fylls i kan du välja knappen **Mappa text till konto** på sidan **Inkommande dokument** för att definiera att en viss fakturatext alltid mappas till ett visst debet- eller kreditkonto i redovisningen. Vidare fylls fältet **Beskrivning** på dokument - eller journalrader som skapas från ett elektroniskt dokument för den leverantören eller kunden i med texten i fråga och (redovisningskontots) **Nr.** med kontot.  
 >   
@@ -43,7 +43,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.  
 
-2.  Välj raden för den inkommande dokumentposten som representerar en ny inkommande elektronisk faktura och välj sedan **Redigera** på fliken **Start** i gruppen **Hantera**.  
+2.  Välj raden för den inkommande dokumentposten som representerar en ny inkommande elektronisk faktura och välj åtgärden **Redigera**.  
 
      På sidan **Dokumentkort** är den relaterade xml-filen bifogad, och de flesta fälten är förifyllda med information från den elektroniska fakturan. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 
 4.  Om du vill mappa text på leverantörsfakturan till ett visst debetkonto väljer du på fliken **Åtgärder** i gruppen **Allmänt** och väljer **Mappa text till konto** och fyller sedan i **Mappning av text-till-konto**.  
 
-5.  Gå till fliken **Åtgärder**, gruppen **Allmänt**, och välj **Skapa dokument**.  
+5.  Välj åtgärden **Skapa dokument**.  
 
      En inköpsfaktura skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] baserat på informationen i det elektroniska dokumentet.  
 

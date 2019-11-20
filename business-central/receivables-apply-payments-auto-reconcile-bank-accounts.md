@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70faf0628df96718c93767326720be56f7c05268
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 60a3cd3398e8a90160ab311dba1ae75fe70305b2
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312322"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692517"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Koppla utbetalningar automatiskt och stämma av bankkonton
 Du måste regelbundet stämma av din bank, kundfordringar och konto för kundreskontra genom att koppla betalningar som är registrerade i banken till deras motsvarande obetalda fakturor och kreditnotor eller andra öppna transaktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,7 +28,7 @@ Du kan också stämma av bankkonton utan att samtidigt utföra betalningar. Du u
 
 Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa och aktivera Envestnet Yodlee Bank Feeds-tjänsten och sedan länka dina bankkonton till relaterade onlinebankkonton. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-Du kan alternativt använda funktionen för bankdatakonvertering om du vill få en bankutdragsfil i något format konverterad till en dataström som du kan importera till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Konfigurera bankdatakonverteringstjänsten](bank-how-setup-bank-data-conversion-service.md).  
+Du kan alternativt använda tillägget AMC Banking 365 Fundamentals om du vill få en bankutdragsfil i något format konverterad till en dataström som du kan importera till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 

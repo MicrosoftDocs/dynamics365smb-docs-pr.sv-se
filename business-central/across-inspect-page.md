@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: 7bc5186103f05ad827d15933f586e2fac9b4a584
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304883"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775385"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektera sidor i Business Central
 
@@ -38,7 +38,7 @@ Om du inte kan se de information som borde finnas i rutan **Sidinspektion** har 
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Kontrollera åtkomst till information om sidinspektion
 
-Som administratör kan du styra åtkomsten till alla detaljer som visas i rutan **Sidinspektion** genom att konfigurera de behörigheter som användaren har. Om du vill ge en användarbehörighet till alla detaljer, ge användarna behörigheten **Utföra** i **System** objekt **5330**. Du kan bevilja behörighet med hjälp av en behörighetsuppsättning (som **felsöka D365**) eller en användargrupp (som **felsöka D365**). Mer information om behörigheter finns i [Hantera användare och behörigheter](ui-how-users-permissions.md).
+Som administratör kan du styra åtkomsten till alla detaljer som visas i rutan **Sidinspektion** genom att konfigurera de behörigheter som användaren har. Om du vill ge en användarbehörighet till alla detaljer, ge användarna behörigheten **Utföra** i **System** objekt **5330**. Du kan bevilja behörighet med hjälp av en behörighetsuppsättning (som **felsöka D365**) eller en användargrupp (som **felsöka D365**). Mer information om behörigheter finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
 
 Användare som inte har beviljats behörighet för **systemobjekt 5330** kan fortfarande få åtkomst till rutan **sidinspektion**, men de kommer endast att se fälten **Sida** och **Tabell** som visar grundläggande information att de kan vidarebefordra till deras supportteam.
 

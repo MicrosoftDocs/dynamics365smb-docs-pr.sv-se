@@ -1,6 +1,6 @@
 ---
 title: Fältmappning för export av bankbetalningsfiler | Microsoft Docs
-description: När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer de data du exporterar att bli exponerade för bankdatakonverteringstjänsten.
+description: När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals visas de data som du exporterar till tjänstleverantören.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300527"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692634"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Fältmappning vid export av betalningsfiler via bankdatakonverteringstjänst
-När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer de data du exporterar att bli exponerade för bankdatakonverteringstjänsten. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om hur funktionen bankdatakonverteringstjänst fungerar finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med tillägget AMC Banking 365 Fundamentals
+När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals visas de data som du exporterar till tjänstleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om tillägget AMC Banking 365 Fundamentals finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  När du exporterar betalningsfiler med hjälp av funktionen för bankdatakonvertering kommer vissa av dina affärsdata att bli exponerade för tjänstleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals kommer vissa av dina affärsdata att bli exponerade för tjänstleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Följande tabell visar de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] från vilka data kan exporteras till tjänstleverantören.  
+I följande tabell visas de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan exportera data från.  
 
 |Mappat fält|Fält i tabell|Bord|Beskrivning|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ Följande tabell visar de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] fr
 |Avsändarbankens postnr|Postnr|Bankkonto|Det postnummer för avsändarens bankkonto som anges på bankkontokortet|  
 |Redovisningsjournalmall|Mallnamn för journal|Redovisningsjournalrad|Redovisningsjournalens mall som används för betalningsraden|  
 |Redovisningsjournalnamn|Journalnamn|Redovisningsjournalrad|Redovisningsjournalens batchnamn som används för betalningsraden|  
-|Avsändarbankens namn – datakonv.|Banknamn – datakonvertering|Bankkonto|Avsändarens bankkontonamn som begärs av bankdatakonverteringstjänsten och anges på bankkontokortet|  
+|Avsändarbankens namn – datakonv.|Banknamn – datakonvertering|Bankkonto|Avsändarens bankkontonamn som begärs av tillägget AMC Banking 365 Fundamentals och anges på bankkontokortet|  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
-[Byta data elektroniskt](across-data-exchange.md)
-[Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md)   
+[Utbyta data elektroniskt](across-data-exchange.md)
+[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

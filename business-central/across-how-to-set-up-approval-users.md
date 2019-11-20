@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305290"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554479"
 ---
 # <a name="set-up-approval-users"></a>Konfigurera användare för godkännande
 Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan **Användarinställningar för godkännande** anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande.  
@@ -49,10 +49,10 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
     |**Obegränsad godkännande inköpsbeg.**|Ange att användaren i fältet **Användar-ID** kan godkänna alla inköpsofferter oavsett belopp.<br /><br /> Om du markerar den här kryssrutan kan du inte fylla i fältet **Max.bel godkänna ink.begäran**.|  
     |**Ersättare**|Välj användar-ID för den användare som måste godkänna begäranden från användaren i fältet **Användar-ID** om användaren i **Godkännar-ID** inte är tillgänglig. **Obs!**  Ersättaren kan vara antingen användaren i fältet **Ersättare** en direkta godkännaren eller godkännandeadministratören, i den prioritetsordningen. Mer information finns i [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md).|  
     |**E-post**|Ange e-postadressen till användaren i fältet **Användar-ID**.|  
-    |**Administratör för godkännande**|Ange den användare som har rättigheter att ta bort spärrar på godkännandearbetsflöden, till exempel genom att delegera godkännandebegäran till nya ersättande godkännare och ta bort förfallna godkännandebegäranden.|  
+    |**Administratör för godkännande**|Ange den användare som har rättigheter att ta bort spärrar på godkännandearbetsflöden, till exempel genom att delegera godkännandebegäran till nya ersättande godkännare och ta bort förfallna godkännandebegäranden.|
 
-    > [!NOTE]  
-    >  Funktionen hos **Gränstyp för godkännare** gäller bara för moduler där begränsningar kan definieras, dvs godkännande av försäljning och inköp. Andra typer av godkännande där begränsningar inte gäller kommer alltid fungerar enligt beskrivningen för alternativet **direkt godkännare**.  
+    > [!Note]
+    > Endast en person kan vara administratör för godkännande. |  
 
 3. Om du vill testa konfigurationen av godkännandeanvändare väljer du åtgärden **Test av användarinställningar för godkännande**.  
 4. Upprepa steg 2 och 3 för varje användare som du vill konfigurera som en godkännandeanvändare.  

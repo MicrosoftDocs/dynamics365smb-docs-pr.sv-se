@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310642"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774777"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
 Du kan t.ex. justera storleken och positionen på alla sidor, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
+
+> [!TIP]
+> Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Förutom de allmänna användargränssnittsfunktionerna som beskrivs i det här avsnittet kan du använda andra allmänna funktioner som är mer affärsrelaterade. Mer information finns i [Allmänna affärsfunktioner](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 | Till | Gå till |
 | --- | --- |
 |Söka efter en viss sida, rapport, åtgärd, hjälpavsnitt eller partnertillägget. |[Söka efter sidor och information med berätta](ui-search.md) |
-|Få en översikt över sidorna för din roll och för andra roller och navigera till sidor.|[Söka efter sidor från en funktions översikt](ui-role-explorer.md)|
+|Få en översikt över sidorna för din roll och för andra roller och navigera till sidor.|[Söka efter sidor med rollutforskaren](ui-role-explorer.md)|
 | Filtrera data i vyer, rapporter eller funktioner genom att använda speciella symboler och tecken. |[Sortera, söka och filtrera listor](ui-enter-criteria-filters.md) |
 |Lär dig om många allmänna funktioner som gör det snabbt och enkelt att registrera data.|[Ange data](ui-enter-data.md)|
 |Lär dig hur du snabbt kopierar och klistrar in data bland annat med hjälp av kortkommandon.|[Vanliga frågor om Kopiera och klistra in](ui-copy-paste.md)|

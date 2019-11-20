@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3d236654bb5ee2786d8cfaf3479a883b01795a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0862806e6ad92dd3988c4a23090e3db7657fde1a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314394"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554602"
 ---
 # <a name="closing-years-and-periods"></a>Avsluta år och perioder
 Vid slutet av ett räkenskapsår finns ett antal administrativa uppgifter som du måste utföra, som t.ex. att se till att alla dokument och journaler är bokförda och se till att valutadata är aktuell och avsluta böckerna mm. De faktiska uppgifterna beror på ditt företag.
@@ -31,7 +31,7 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 | Få en översikt över aktiviteter som ofta utförs i samband med att du avslutar en period, till exempel bokföring av alla dokument och journaler, eller köra kontouppställningar. |[Avsluta perioder](year-how-complete-period-end-processes.md) |
 | uppdatera valutakurser och justera valutakurser för bokförda kund-, leverantörs- och bankkontotransaktioner. |[Uppdatera valutakurser](finance-how-update-currencies.md) |
 | fördela kostnader och intäkter på konton och dimensioner. |[Fördela kostnader och intäkter](year-allocate-costs-income.md) |
-| Förbereda rapportbelopp för moms som du har lagrat för försäljning till webbtjänst till skattemyndigheterna. |[Så här: rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
+| Förbereda rapportbelopp för moms som du har lagrat för försäljning till webbtjänst till skattemyndigheterna. |[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
 | skriva ut rapporter för att kontrollera saldona för redovisnings-, kund-, leverantörs- och bankkonton. |[Förbereder rapporter före bokslut](year-prepare-preclose-reports.md) |
 | Avsluta bokföringsperioder och räkenskapsår, föra över resultaträkningssaldon till balansräkningskonton och bokföra årsavslutstransaktion för årsslut. |[Avsluta böcker](year-close-books.md) |
 | skriva ut rapporter som kan vara till hjälp när du skapar ekonomirapporter. |[Förbereda årsbokslutsrapporter](year-prepare-close-statement.md) |

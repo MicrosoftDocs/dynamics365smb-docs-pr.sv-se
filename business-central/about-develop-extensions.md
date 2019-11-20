@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 497045b1c79f1ea27bebe994bbfbc39d5a29e1d9
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300887"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649818"
 ---
 # <a name="extending-included365finincludesd365fin_mdmd"></a>Utökning av [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] är ett verksamhetssystem som hjälper företag att ansluta sin ekonomi, försäljning, service och åtgärder för att anpassa affärsprocesserna, öka kundkontakter och fatta bättre beslut. [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i molnet och över flera olika enheter, som alltid är aktuella. Med den här moderna företagsplattformen du kan snabbt och enkelt anpassa, utöka och skapa program så att de passar dina behov, med liten eller ingen kodutveckling.  
@@ -58,7 +58,7 @@ Utöka miljön och möjligheten för [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Följ lokala regleringsmöjligheter genom att utveckla för [!INCLUDE[d365fin](includes/d365fin_md.md)], som anpassar funktionsområden till kraven på den lokala marknaden tillsammans med [Dynamics 365 översättningstjänst](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Justera de grundläggande funktionerna i lokala krav och utöka befintliga funktioner om du vill konkurrera på den lokala marknaden. Mer information om [utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Lösning för återförsäljare
-Eftersom alla företag är unika, med [anpassa klientorganisationer](/dynamics-nav/developer/readiness/readiness-customizing-tenants), kan du matcha hur du arbetar med dina effektiva processer, din terminologi och hur dina anställda eller avdelningar ansluter och samarbetar. Dessutom kan du sälja och justera [!INCLUDE[d365fin](includes/d365fin_md.md)] till dina kunders individuella behov genom att tillhandahålla [konsulttjänster](/dynamics-nav/developer/readiness/readiness-consulting). Eller använd Microsoft Flow, Power Apps och Power BI för att skapa [anpassade arbetsflöden](/dynamics-nav/developer/readiness/readiness-no-code), appar och affärsinsiktsrapporter utan att behöva skriva kod. Mer information om [Dynamics 365 återförsäljare (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Eftersom alla företag är unika, med [anpassa klientorganisationer](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), kan du matcha hur du arbetar med dina effektiva processer, din terminologi och hur dina anställda eller avdelningar ansluter och samarbetar. Dessutom kan du sälja och justera [!INCLUDE[d365fin](includes/d365fin_md.md)] till dina kunders individuella behov genom att tillhandahålla [konsulttjänster](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Eller använd Microsoft Flow, Power Apps och Power BI för att skapa [anpassade arbetsflöden](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), appar och affärsinsiktsrapporter utan att behöva skriva kod. Mer information om [Dynamics 365 återförsäljare (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
 ## <a name="where-do-i-learn-more"></a>Var får jag mer information?
 Välj länkarna nedan om du vill veta mer om Microsoft AppSource konsulttjänsterbjudanden:
@@ -70,7 +70,7 @@ Välj länkarna nedan om du vill veta mer om Microsoft AppSource konsulttjänste
 ## <a name="the-ready-to-go-program"></a>Redo att köra-programmet
 Redo att köra-programmet är utformat för att ge dig stöd avseende ditt [!INCLUDE[d365fin](includes/d365fin_md.md)]-erbjudanden i Microsoft Appsource. I programmet innehåller:
 
-- [Onlineutbildning](https://aka.ms/ReadyToGoOnlineLearning)
+- [Onlineutbildning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog)
 - [Utbildning och seminarier](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
 - [Microsoft Collaborate-plattform](https://aka.ms/Collaborate)
 

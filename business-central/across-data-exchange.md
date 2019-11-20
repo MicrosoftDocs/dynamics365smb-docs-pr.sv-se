@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300647"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692686"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegration för att utbyta affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
@@ -32,15 +32,15 @@ Om du exempelvis vill ta emot en faktura från en leverantör som ett elektronis
  Om du vill ta emot, till exempel, en faktura som ett elektroniskt OCR-dokument, behandlar du det som när du tar emot ett elektroniskt PEPPOL-dokument. Mottagningen och konverteringen av elektroniska dokument från OCR utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **OCR – Faktura**.  
 
 ## <a name="bank-files"></a>Bankfiler  
- Filformaten för utbyte av bankdata med ERP-system varierar beroende på leverantören av filen och på landet/regionen. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import och export av SEPA-bankfiler (Single Euro Payments Area) och en bankdatakonverteringstjänst tillhandahålls av den externa leverantören AMC Consult. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.  
+Filformaten för utbyte av bankdata med ERP-system varierar beroende på leverantören av filen och på landet eller regionen. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import och export av SEPA-bankfiler (Single Euro Payments Area) och med tillägget AMC Banking 365 Fundamentals kan du ansluta till en tjänst för bankdatakonvertering som tillhandahålls av extern leverantör, AMC Consult. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.  
 
-Om du vill exportera SEPA-krediteringsöverföringar väljer du knappen **Exportera betalningar till fil** på sidan **Betalningsjournal** och överför sedan filen för att bearbeta betalningarna i din bank. Först måste du skapa olika huvuddata, som bankkonto, leverantörer och betalningssätt. Datakonverteringen och exporten av SEPA-bankdata utförs av en dedikerad codeunit och XMLport som representeras i bankexport-/importinställningarna för **SEPA-kreditöverföring**. Du kan också konfigurera bankdatakonverteringstjänsten för att utföra exporten som representeras av definitionen för datautbyte i **Bankdatakonverteringstjänst – kreditöverföring**.  
+Om du vill exportera SEPA-krediteringsöverföringar väljer du knappen **Exportera betalningar till fil** på sidan **Betalningsjournal** och överför sedan filen för att bearbeta betalningarna i din bank. Först måste du skapa olika huvuddata, som bankkonto, leverantörer och betalningssätt. Datakonverteringen och exporten av SEPA-bankdata utförs av en dedikerad codeunit och XMLport som representeras i bankexport-/importinställningarna för **SEPA-kreditöverföring**. Du kan också konfigurera tillägget AMC Banking 365 Fundamentals för att utföra exporten som representeras av datautbytesdefinitionen **Bankdatakonverteringstjänst – kreditöverföring**.  
 
 Om du vill exportera instruktioner för SEPA-direktdebitering väljer du knappen **Exportera autogirofil** på sidan **Samlingar med autogiro** och skickar dem sedan till din bank för automatisk inkassering av de relevanta kundbetalningarna. Först måste du skapa bankkonton, kunder, fullmakter för autogiro och betalningssätt. Datakonverteringen och exporten av SEPA-bankdata utförs av en dedikerad codeunit och XMLport som representeras i bankexport/-importinställningarna för **SEPA Autogiro**.  
 
-Om du vill importera SEPA-bankutdrag väljer du knappen Importera bankutdrag på sidan **Betalningsavstämningsjournal** och **Bankkontoavstämning** och fortsätter sedan med att koppla varje bankutdragspost till betalningar eller bankkontoposter, manuellt eller automatiskt. Först måste du konfigurera bankkonton. Importen och datakonverteringen av SEPA-bankdata utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **SEPA AMT**. Du kan också konfigurera bankdatakonverteringstjänsten för att utföra importen som representeras av definitionen för datautbyte i **Bankdatakonverteringstjänst – bankkontoutdrag**.  
+Om du vill importera SEPA-bankutdrag väljer du knappen Importera bankutdrag på sidan **Betalningsavstämningsjournal** och **Bankkontoavstämning** och fortsätter sedan med att koppla varje bankutdragspost till betalningar eller bankkontoposter, manuellt eller automatiskt. Först måste du konfigurera bankkonton. Importen och datakonverteringen av SEPA-bankdata utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **SEPA AMT**. Du kan också konfigurera tillägget AMC Banking 365 Fundamentals för att utföra importen som representeras av datautbytesdefinitionen **Bankdatakonverteringstjänst – bankkontoutdrag**.  
 
- Dessutom stöder de lokala versionerna av [!INCLUDE[d365fin](includes/d365fin_md.md)] andra olika filformat för att importera/exportera bankdata, lönetransaktioner och andra data. För mer information, se hjälpavsnittet “lokala funktioner” i din landsversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] .  
+Dessutom stöder de lokala versionerna av [!INCLUDE[d365fin](includes/d365fin_md.md)] olika andra filformat för att importera och exportera bankdata, lönetransaktioner och andra data. För mer information, se hjälpavsnittet “lokala funktioner” i din landsversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] .  
 
 ## <a name="currency-exchange-rates"></a>Valutakurser  
 Du kan ställa in en extern tjänst för kontinuerlig uppdatering av aktuella valutakurser. Tjänsten, som tillhandahåller valutakurser, aktiveras av en datautbytesdefinition. Därför är sidan **Inställning valutakursuppdatering** en kondenserad vy av sidan **Data Exchange definitionen** för definitionen av datautbytet i fråga.  

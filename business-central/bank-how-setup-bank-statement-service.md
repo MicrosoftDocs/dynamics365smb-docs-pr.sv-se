@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307594"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692902"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Skapa tjänsten Envestnet Yodlee Bank Feeds
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -28,6 +28,7 @@ Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fyll
 > [!NOTE]
 > Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
 > Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA och Kanada.
+> Endast banker som finns i dessa länder stöds även om banker från andra länder kan visas i bankvalsfönstret Envestnet Yodlee Bank Feeds i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > Kontakta Microsoft-supporten om du behöver teknisk hjälp med Envestnet Yodlee-funktionen. Kontakta inte Envestnet Yodlee. Mer information finns i [konfigurera teknisk support för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support)
@@ -47,7 +48,7 @@ När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att autom
 > Om du använder den assisterad inställningsguide för att ställa in företagskonfiguration följer du några av stegen i följande procedurer att utföras automatiskt när du kommer till inställningen av företagets bankkonto. Mer information finns i [Komma igång](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Så här aktiverar du bankfeedtjänsten
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Öppna det bankkonto som du ska använda för bankfeedtjänsten.
 3. På sidan **Bankkonto** i fältet **Format för bankutdragsimport** väljer du YODLEEBANKFEED.  
 
@@ -57,7 +58,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 > Om du använder guiden för assisterad konfiguration för **företagsinställningarna** och sedan aktiverar tjänsten genom att markera kryssrutan **Använd en tjänst för bankfeed**. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Så här skapar du ett nytt länkat bankkonto
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan **Skapa nytt länkat bakkonto**. Sidan **Länkning av bankkonto** öppnas efter några ögonblick.
 
     > [!NOTE]  
@@ -85,7 +86,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 10. På sidan **Bankkontolista** väljer du det bankkonto som du vill länka till och väljer sedan knappen **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Så här länkar du ett bankkonto till ett onlinebankkonto
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj raden för ett bankkonto som inte är kopplad till ett onlinebankkonto och välj sedan åtgärden **Länka till onlinebankkonto**. Sidan **Länka till onlinebankkonto** öppnas med bankens namn ifyllt i rutan **Länka konto**.
 3. Välj bankens namn. Rutan **Inloggning** öppnas.
 4. Ange användarnamnet och lösenordet som du använder för att logga in på onlinebanken och tryck sedan på knappen **Nästa**.  
@@ -98,20 +99,20 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 På sidan **Bankkontolista** markeras kryssrutan **Länkad**.
 
 ## <a name="to-unlink-a-bank-account"></a>Så här tar du bort länk till bankkonto
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.  
 2. Välj raden för ett länkat bankkonto som du vill ta bort länken till dess relaterade onlinebankkonto för och välj sedan åtgärden **Ta bort länk till onlinebankkonto**.
 
 > [!NOTE]  
 > Om du väljer **Ja** i bekräftelsedialogrutan, tas länken till onlinebankkontot bort och inloggningsdetaljerna avmarkeras. Om du vill länka bankkontot till onlinebankkonto igen måste du logga in i banken igen. Mer information finns i avsnittet “Så här länkar du ett bankkonto till ett onlinebankkonto“.
 
 ## <a name="to-update-bank-account-linking"></a>Så här uppdaterar du länkning till bankkonto
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan åtgärden **Uppdatera länkning av bankkonto**.
 
 Om problem finns för någon av de länkade bankkontona på sidan **Bankkontolista** kommer sidan **Länkning av bankkonto** med information om vilka bankkonton som har problem. Problemen kan bäst lösas genom att ta bort länken till onlinebankkontot och sedan återskapa länken. Mer information finns i avsnittet “Så här länkar du ett bankkonto till ett onlinebankkonto“.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Om du vill aktivera automatisk import av bankutdrag
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Markera raden för ett länkat bankkonto och välj sedan åtgärden **Inställningar för automatisk import av bankutdrag**.
 3. På sidan **Inställningar för automatisk import av bankutdrag** i fältet **Antal dagar som ingår** anger du hur långt tillbaka i tiden som du får nya banktransaktioner för.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6089a51a0ef27175988ed0c00fdb353cd3c7e96c
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315354"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692950"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Tillägget Envestnet Yodlee Bank Feeds
 För att snabbt avstämma utbetalningar som gjorts till dina bankkonton, låter dig Envestnet Yodlee Bank Feeds länka ditt systembankkonto till ditt onlinebankkonto. Det betyder att det senaste kontoutdraget automatiskt eller manuellt matas in i din avstämningsjournal och ser till att du alltid behandlar de senaste utbetalningarna med minsta risk för fel.
@@ -25,7 +25,9 @@ För att snabbt avstämma utbetalningar som gjorts till dina bankkonton, låter 
 Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA och Kanada.
 
 > [!NOTE]
-> Funktionen stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
+> Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
+> Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA och Kanada.
+> Endast banker som finns i dessa länder stöds även om banker från andra länder kan visas i bankvalsfönstret Envestnet Yodlee Bank Feeds i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > På grund av det nya direktivet om betalningstjänster i Europa (PSD2), efter den 14 september 2019, kan du inte längre automatiskt importera bankutdrag från banker i Storbritannien till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vi undersöker möjligheten att erbjuda denna funktion igen i framtiden.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310546"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554626"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
@@ -169,7 +169,7 @@ Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två st
 2.  På raden för artikel **1100** anger du **2** i fältet **Kvantitet**.  
 
     Bläddra för att visa förskottsfälten. Fältet **Förskottsbetalning exkl. Moms** innehåller nu **630** och **Fakturabelopp, förskottsbetalning exkl. moms** innehåller **315**. Detta visar att det finns ytterligare förskottsbelopp som ännu inte har fakturerats ännu.  
-3.  Du bokför en faktura för det extra förskottsbeloppet genom att på **Åtgärder** i gruppen **Bokföring** välja **Förskottsbetalning** och sedan **Bokför förskottsfaktura**.  
+3.  Om du vill bokföra en faktura för det ytterligare förskottsbeloppet väljer du åtgärden **Bokför förskottsfaktura**.  
 
 ## <a name="applying-the-prepayments"></a>Använda förskottsbetalningar  
 Kunden betalar förskottsfakturan och Arnie, som arbetar på bokföringsavdelningen, registrerar betalningen och bokför den mot förskottsfakturan.  

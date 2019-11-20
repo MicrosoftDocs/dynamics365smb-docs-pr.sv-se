@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309322"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798577"
 ---
 # <a name="create-contacts"></a>Skapa kontakter
 Du kan regelbundet träffa personer från andra företag som kan utvecklas till affärsrelationer, till exempel en kundrelation. När en ny kontakt skapas måste så mycket information som möjligt registreras på ett kontaktkort så att kommunikationen kan fortsätta.
@@ -32,7 +32,7 @@ Du kan bestämma dig för att ange en kontakt som en person eller ett företag, 
 Funktionen är densamma för båda typerna, med undantag för att alternativen för ytterligare informationsändringar beror på typen. Du kan till exempel bara tilldela arbetsansvar till en person och dess industrigrupp till ett företag. Detta visas i användargränssnittet genom att ta bort de fält och åtgärder som inte används. Du kan ändra värdet i fältet **Typ** senare, eller du kan använda fälten på snabbfliken **Arv** på sidan **Marknadsföringsinställning** om du vill kontrollera vilka data som delas mellan en person och personens relaterade företag. Mer information finns i [Konfigurera kontakter](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Så här skapar du en kontakt manuellt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I fältet **Nr.** anger du ett nummer för kontakten.
 
@@ -45,7 +45,7 @@ Om du har kunder, leverantörer och bankkonton som du vill skapa kontaktkort fö
 > [!NOTE]  
 > Innan du kan skapa kontakter baserat på befintliga data måste du ange en affärsrelationskod för kunder, leverantörer eller bankkonton på snabbfliken **Interaktioner** på sidan **Marknadsföringsinställningar**. Mer information finns i [Ställa in kontakter](marketing-setup-contacts.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till ett av följande beroende på varifrån du vill skapa kontakter välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange något av följande beroende på varifrån du vill skapa kontakter välj sedan relaterad länk.
    * **Skapa kontakter från kunder**
    * **Skapa kontakter från leverantörer**
    * **Skapa kontakter från bankkonton**
@@ -63,7 +63,7 @@ Om du har en kund, leverantör eller bankkonto för företaget som du vill skapa
 > [!NOTE]  
 > Innan du kan skapa kunder, leverantörer eller bankkonton från kontakter måste du ange en affärsrelationskod för kunder, leverantörer eller bankkonton på snabbfliken **Interaktioner** på sidan **Marknadsföringsinställningar**. Mer information finns i [Konfigurera kontakter](marketing-setup-contacts.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.
 2. Välj kontakten du vill skapa som en kund, en leverantör eller ett bankkonto.
 3. Välj åtgärden **Skapa som** och välj sedan antingen **Kund**, **Leverantör** eller **Bank**.
 4. Välj knappen **OK**.
@@ -101,7 +101,7 @@ Synkronisering av gemensamma data mellan kontakter och relaterade kunder, levera
 * När du länkar kontakterna till befintliga kunder, leverantörer eller bankkonton från kontaktkortet. Se [Länka en kontakt till en befintlig kund, leverantör eller bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>Så här visar du vilken kund, leverantör eller vilket bankkonto en kontakt tillhör
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.
 2. Markera raden för en kontakt, välj åtgärden **Relaterad information** och välj sedan åtgärden **Kund/Leverantör/Bankkonto**.
 
 Sidan för det relaterade kortet öppnas.

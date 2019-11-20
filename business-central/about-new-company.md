@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: edupont
-ms.openlocfilehash: e22b93182627a5954b2aa2f1fb1fa4938d89be89
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300743"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695125"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt - gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)], beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt: gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="create-new-company"></a>Skapa nytt företag
-Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda den assisterade inställningsguiden **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** i **Mina inställningar**.  
+## <a name="creating-a-new-company"></a>Skapa ett nytt företag
+Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda den assisterade inställningsguiden **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** på sidan **Mina inställningar**.  
 
 Den assisterade konfigurationen erbjuder tre mallar:
 
@@ -39,6 +39,12 @@ Om du vill komma igång snabbt med ett nytt företag väljer du **Produktion - e
 >   När du skapar ett nytt företag tar detnågra minuter innan du kan öppna det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inställningsstatus på sidan **Företag** visas när det nya företaget är redo för dig. Sedan kan du växla till det nya företaget med hjälp av **Mina inställningar**.  
 
 Du kan skapa valfritt antal nya företag under en utvärderingsversion på 30 dagar, men de kan bara användas under utvärderingsperioden. Kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner för mer information.  
+
+## <a name="copying-a-company"></a>Kopiera ett företag
+På sidan **Företag** kan du använda åtgärden **Kopiera** för att skapa ett andra företag baserat på innehållet i ett befintligt företag. Detta är användbart om du t.ex. vill testa ett företag utan att störa produktionsdata.
+
+> [!Important]
+> Den här funktionen kan inte användas för att göra en säkerhetskopia av ett företag. När du gör en säkerhetskopia av ett företag börjar du genom att exportera databasen som en .bacpac-fil. Mer information finns i [Exportera databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjälpen för utvecklare och IT-proffs.
 
 ## <a name="company-setup"></a>Företagsinställning
 När du loggar in på ett nytt företag körs guiden **företagsinställningar** automatiskt och hjälper dig att komma igång. Du kommer att få information om företaget, till exempel adress, bankuppgifter och lagervärderingsprincip. Vi ber om denna information eftersom den används som grund för många områden i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du sedan inte måste konfigurera manuellt senare.  

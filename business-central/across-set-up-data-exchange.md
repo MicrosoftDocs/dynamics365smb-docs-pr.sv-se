@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 851d5359513d1fe744d265b21f13a3abd9c6867b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304810"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692830"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurera datautbyte
-Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Dessutom kanske du måste skapa relaterade feltyper, till exempel huvuddata för kunder som du skickar elektroniska fakturor till eller bankdatakonverteringstjänsten om du vill använda den externa tjänsteleverantören för konvertering av dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
+Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Dessutom måste du ställa in relaterade områden, till exempel kunder som du skickar elektroniska fakturor till, eller tillägget AMC Banking 365 Fundamentals om du använder den externa tjänstleverantören för att konvertera dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
  När [!INCLUDE[d365fin](includes/d365fin_md.md)] har konfiguerats för utbyte av data med externa filer kan användare använda konfigurationen i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.  
 
@@ -32,7 +32,7 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Dtäll in olika huvuddata, som företagsinformation, kunder, leverantörer, artiklar och enheter relaterade till mappning av data i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Skapa ett bankkonto, en leverantör och en utbetalningsjournal för SEPA-kreditöverföring.|[Konfigurera SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Förbered bankkontoformat, betalningssätt och kundavtal för SEPA-autogiro.|[Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Skapa användarautentisering och URL-adressen för serviceleverantören för bankdatakonvertering som krävs för att få bankfiler konverterade till din banks format.|[Ställa in konverteringstjänsten för bankdata](bank-how-setup-bank-data-conversion-service.md)|  
+|Skapa användarautentisering och URL-adressen för serviceleverantören för bankdatakonvertering som krävs för att få bankfiler konverterade till din banks format.|[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Konfigurera och aktivera en extern tjänst som låter dig importera kontoutdrag direkt som bankfeed.|[Ställa in bankutdragstjänsten](bank-how-setup-bank-statement-service.md)|  
 |När kontoutdragstjänsten har aktiverats, länkar du bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Skapa bankkonton](bank-how-setup-bank-accounts.md)|  
 |Förbered för att konfigurera en ny datautbytesdefinition för en datafil eller strömma med hjälp av filens XML-schema för att autofylla snabbfliken **Kolumndefinitioner** på sidan **Definitioner för bokföringsbyte**.|[Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

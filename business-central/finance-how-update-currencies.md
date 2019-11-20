@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7376abd7806eb664bbfcbf3f3505df00ababba9e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c971a3cd11f34db0ff04cd66096d74909cca3651
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305818"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577261"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan använda och rapportera ekonomiska siffror i fler än en valuta. Du måste ange en kod för varje valuta du använder om du köper eller säljer i andra valutor än din lokala valuta, har tillgångar eller skulder i andra valutor eller registrerar transaktioner i olika valutor.
@@ -46,6 +46,8 @@ Justeringstransaktionerna tilldelas dimensioner från de redovisningskonton de b
 
 > [!Important]
 > Innan du kan använda batchjobbet måste du ange de valutakurser som ska användas vid justering av de utländska valutasaldona. Du gör det med sidan **valutakurser**.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q24s]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Så här konfigurerar du en valutakurstjänst
 Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser.

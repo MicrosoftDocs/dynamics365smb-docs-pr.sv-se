@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315234"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553824"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Så här importerar och exporterar du en anpassad rapport eller dokumentlayout
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  
@@ -29,11 +29,11 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.  
 
-2.  Markera raden för rapporten som innehåller den anpassade layout som du vill exportera, och sedan på fliken **Start**, i gruppen **Process** , välj **Anpassa layouter**.  
+2.  Markera raden för rapporten som innehåller den anpassade rapportlayouten som du vill exportera och välj sedan åtgärden **Anpassa layouter**.  
 
-3.  På sidan **Rapportlayouter** markerar du den rapportlayout som du vill exportera till en fil, och sedan på fliken **Start** i gruppen **Process** och väljer **Exportera layout**.  
+3.  På sidan **Rapportlayouter** markerar du den rapportlayout som du vill exportera till en fil, och väljer sedan åtgärden **Exportera layout**.  
 
-4.  Välj **Spara** i dialogrutan **Exportera fil** och spara sedan filen på ett ställe på datorn eller nätverket.  
+4.  Välj **Exportera fil** i dialogrutan, välj knappen **Spara** och spara sedan filen på ett ställe på datorn eller nätverket.  
 
 ### <a name="to-import-a-report-layout-file"></a>Så här importerar du en rapportlayoutfil  
 
@@ -43,11 +43,11 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.  
 
-3.  Markera raden för rapporten som du vill importera rapportlayouten till och sedan på fliken **Start**, i gruppen **Process** , välj **Anpassa layouter**.  
+3.  Markera raden för rapporten som du vill importera rapportlayouten till och välj sedan åtgärden **Anpassa layouter**.  
 
-4.  På sidan **Rapportlayouter** markerar du den rapportlayout som du vill importera en fil till, och sedan på fliken **Start** i gruppen **Process** och väljer **Importera layout**.  
+4.  På sidan **Rapportlayouter** markerar du den rapportlayout som du vill importera filen till och väljer sedan åtgärden **Importera layout**.  
 
-5.  Välj dokumentet som definierar rapportlayouten i dialogrutan **Importera** och välj sedan **Öppna**.  
+5.  Välj dokumentet som definierar rapportlayouten i dialogrutan **Importera** och välj sedan knappen **Öppna**.  
 
  Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
 

@@ -10,30 +10,30 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e0d2974c3f71d7bbcac46931208f1f492121f11c
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304354"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554356"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales
 Du kan synkronisera [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] på schemalagda intervall, genom att ställa in projekt i jobbkön. Synkroniseringjobben synkroniserar data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster och [!INCLUDE[crm_md](includes/crm_md.md)]-poster som har kopplats ihop tidigare. Eller för poster som inte redan är kopplade, beroende på synkroniseringsriktningen och reglerna, kan synkroniseringjobben skapa och koppla nya poster i målsystemet. Det finns flera synkroniseringsprojekt som är tillgängliga förinstallerade. Du kan visa dem på sidan **jobbkötransaktioner**. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
-> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.--> 
+> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.-->
 
 ## <a name="synchronization-process"></a>Synkroniseringsprocess  
 Varje synkroniseringjobbköpost använder en viss integrationstabellmappning som anger vilken [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell och [!INCLUDE[crm_md](includes/crm_md.md)]-enhet som ska synkroniseras. Tabellmappningarna innehåller också en del inställningar som styr vilka poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och [!INCLUDE[crm_md](includes/crm_md.md)]-entiteten som synkroniseras.  
 
-För att synkronisera data måste [!INCLUDE[crm_md](includes/crm_md.md)]-enhetsposter vara kopplade till [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Till exempel måste en [!INCLUDE[d365fin](includes/d365fin_md.md)]-kund kopplas till ett [!INCLUDE[crm_md](includes/crm_md.md)]-konto. Du kan skapa kopplingar manuellt, innan du kör synkroniseringjobben, eller låta synkroniseringsjobben ställa in kopplingar automatiskt. Följande lista beskriver hur data synkroniseras mellan [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)] när du vill använda synkroniseringsjobbköposterna. Mer information finns i [Koppla och synkronisera posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md). 
+För att synkronisera data måste [!INCLUDE[crm_md](includes/crm_md.md)]-enhetsposter vara kopplade till [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Till exempel måste en [!INCLUDE[d365fin](includes/d365fin_md.md)]-kund kopplas till ett [!INCLUDE[crm_md](includes/crm_md.md)]-konto. Du kan skapa kopplingar manuellt, innan du kör synkroniseringjobben, eller låta synkroniseringsjobben ställa in kopplingar automatiskt. Följande lista beskriver hur data synkroniseras mellan [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)] när du vill använda synkroniseringsjobbköposterna. Mer information finns i [Koppla och synkronisera posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md).
 
 -   Som standard synkroniseras endast poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] som är kopplade till poster i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan ändra tabellmappningen mellan en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet och en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell, så att integrationssynkroniseringsjobben ska skapa nya poster i måldatabasen för varje post i källdatabasen som inte är kopplad. De nya posterna används också till motsvarande poster i källan. När du exempelvis synkroniserar kunder med [!INCLUDE[crm_md](includes/crm_md.md)]-konton skapas en kontopost för varje kund i [!INCLUDE[d365fin](includes/d365fin_md.md)]. De nya kontona kopplas automatiskt till kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Eftersom synkroniseringen i det här fallet är dubbelriktad skapas och kopplas en ny kund för varje [!INCLUDE[crm_md](includes/crm_md.md)]-konto som redan har kopplats.  
 
     > [!NOTE]  
     > Det finns regler och filter som bestämmer vilka data som synkroniseras. Mer information finns i [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
--   När nya poster skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] använder posterna antingen mallen som har definierats för integrationstabellmappning eller standardmallen som finns för posttypen. Fälten fylls i med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] eller [!INCLUDE[crm_md](includes/crm_md.md)] beroende på riktningen för synkroniseringen. Mer information finns i [Så här ändrar du tabellmappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).  
+-   När nya poster skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] använder posterna antingen mallen som har definierats för integrationstabellmappning eller standardmallen som finns för posttypen. Fälten fylls i med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] eller [!INCLUDE[crm_md](includes/crm_md.md)] beroende på riktningen för synkroniseringen. Mer information finns i [Ändra tabellmappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
 -   Med efterföljande synkroniseringar kommer endast poster som har ändrats eller har lagts till efter det senast slutförda synkroniseringjobbbet för enheten att uppdateras.  
 
@@ -56,7 +56,7 @@ I följande tabellen beskrivs standardsynkroniseringjobben.
 |SÄLJARE - Dynamics 365 Sales synkroniseringsjobb|Synkroniserar [!INCLUDE[d365fin](includes/d365fin_md.md)]-säljare med [!INCLUDE[crm_md](includes/crm_md.md)]-användare.|Från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)]|SÄLJARE|
 |FÖRSÄLJNPRIS - PROUDUKTPRIS - Dynamics 365 Sales synkroniseringsjobb|Synkroniserar [!INCLUDE[crm_md](includes/crm_md.md)] produktpriser med [!INCLUDE[d365fin](includes/d365fin_md.md)] försäljningspriser.||PRODUKTPRIS-FÖRSÄLJNINGSPRIS|
 |MÅTTENHET - Dynamics 365 Sales synkroniseringsjobb|Synkroniserar [!INCLUDE[crm_md](includes/crm_md.md)]-enhetsgrupper med [!INCLUDE[d365fin](includes/d365fin_md.md)]-måttenheter.|Från [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]|MÅTTENHET|  
-|Kundstatistik – Dynamics 365 Sales-synkronisering.|Uppdaterar [!INCLUDE[crm_md](includes/crm_md.md)]-konton med senaste [!INCLUDE[d365fin](includes/d365fin_md.md)] kundinformation. I [!INCLUDE[crm_md](includes/crm_md.md)] visas den här informationen i snabbformuläret **Business Central bankkontostatistik** som är kopplat till [!INCLUDE[d365fin](includes/d365fin_md.md)] kunder.<br /><br /> Informationen kan även uppdateras manuellt från varje kundpost. Mer information finns i [Så här kopplar du och synkroniserar posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Obs:** denna jobbkötransaktion är endast relevant om [!INCLUDE[d365fin](includes/d365fin_md.md)] integrationslösning är installerad i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [om Business Central integrationslösning](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Ej tillämpbart.|Ej tillämpbart.|   
+|Kundstatistik – Dynamics 365 Sales-synkronisering.|Uppdaterar [!INCLUDE[crm_md](includes/crm_md.md)]-konton med senaste [!INCLUDE[d365fin](includes/d365fin_md.md)] kundinformation. I [!INCLUDE[crm_md](includes/crm_md.md)] visas den här informationen i snabbformuläret **Business Central bankkontostatistik** som är kopplat till [!INCLUDE[d365fin](includes/d365fin_md.md)] kunder.<br /><br /> Informationen kan även uppdateras manuellt från varje kundpost. Mer information finns i [Koppla och synkronisera posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Obs:** denna jobbkötransaktion är endast relevant om [!INCLUDE[d365fin](includes/d365fin_md.md)] integrationslösning är installerad i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [om Business Central integrationslösning](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Ej tillämpbart.|Ej tillämpbart.|   
 
 ## <a name="to-view-the-synchronization-job-log"></a>Så här visar du synkroniseringsjobbloggen  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **synkroniseringslogg för integrering** och välj sedan relaterad länk.
@@ -77,6 +77,3 @@ I följande tabellen beskrivs standardsynkroniseringjobben.
 [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)  
 [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Om integration av Dynamics 365 Business Central med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
-
-
