@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e80887f9c1e1bd5641b496f3dfac01ddcd621f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2609a18c26f968dab65037c684cc770666038e9a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302866"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882764"
 ---
 # <a name="acquire-fixed-assets"></a>Skaffa anläggningstillgångar
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. En avskrivningsregel måste ställas in och tilldelas till varje anläggningstillgång, innan du kan anskaffa den.
@@ -31,7 +31,7 @@ Indexering används för att anpassa värden till den allmänna prisnivån. Du k
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Så här skapar du en anläggningstillgång och anskaffar den automatiskt
 Följande procedur beskriver hur du skapar en fast anläggningstillgång och sedan anskaffar den, genom att använda sidan **Assisterad anskaffning av anläggningstillgång** för att skapa och bokföra anl.tillg. redovisningsjournal. Du kan också skapa och bokföra journalrader manuellt. För mer information, se [Att bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anläggningstillgångar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten på snabbfliken **Allmän** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I snabbfliken **Avskrivningsregelkort** fyller du i fälten efter behov. Dessa steg tilldelar en avskrivningsregel till anläggningstillgången.  
 4. Om du vill använda mer än en avskrivningsregel till anläggningstillgången väljer du åtgärden **Lägg till flera avskrivningsregler**. Mer information finns i [Att tilldela en avskrivningsregel till en anläggningstillgång](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
@@ -50,12 +50,12 @@ Du kan gruppera anläggningstillgångarna i huvudtillgångar och tillhörande ko
 
 Både huvudtillgången och dess komponenter måste skapas som enskilda anläggningstillgångskort. När du har skapat en komponentlista fyller [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt i fälten **Huvudtillgång/Komp.** och **Komp. till huvudtillg.** på anläggningstillgångskortet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den anläggningstillgång som är huvudtillgången och välj sedan åtgärden **Huvudtillgångskomponenter**.
 3. På sidan **Huvudtillgångskomponenter** väljer du fältet **Anl.nr** och väljer den anläggningstillgång som du vill lägga till som en komponent i huvudtillgången.
 4. Stäng sidan.
 5. Upprepa steg 3 och 4 för varje tillgångskomponent som du vill lägga till.
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställningar för anläggningstillgångar** och välj sedan relaterad länk.
+6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgånginställningar** och välj sedan relaterad länk.
 7. Markera kryssrutan **Tillåt bokf. på huvudtillgång**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Att bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar.
@@ -64,7 +64,7 @@ Efterföljande procedur beskriver hur du anskaffar en anläggningstillgång manu
 > [!NOTE]  
 >   Du kan också bokföra anskaffningstransaktioner som krediteringar. I detta fall ska du komma ihåg att värdet i fältet **Belopp** måste vara med ett minustecken för att ange en kreditering.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.
 2. På sidan **Redovisningsjournaler för anl.tillg.** i fältet **Anl. bokföringstyp** väljer du **Anskaffningskostnad**.
 3. Fyll i återstående fält om det behövs.
 4. Välj åtgärden **Bokföra**.  
@@ -80,7 +80,7 @@ Om du till exempel bokför en anskaffning med fel datum måste du rätta det så
 > [!IMPORTANT]  
 >   Du kan inte använda funktionen **Återför transaktion** för anläggningstillgångstransaktioner.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rätta anl.trans.** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rätta anl.trans.** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Klicka på **OK** för att köra batchjobbet.
 4. Fortsätt med att bokföra rätt anskaffningskostnad när den felaktiga transaktionen, eller transaktionerna har rättats.
@@ -88,15 +88,15 @@ Om du till exempel bokför en anskaffning med fel datum måste du rätta det så
 Använd batch-jobbet **Rätta anl.transaktioner** för att rätta transkationer för flera anläggningstillgångar åt gången.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Att bokföra återanskaffningsvärdet tillsammans med anskaffningskostnaden
-Du kan bokföra återanskaffningsvärden tillsammans med anskaffningskostnaden från en redovisningsjournal för anläggningstillgångar.    
+Du kan bokföra återanskaffningsvärden tillsammans med anskaffningskostnaden från en journal för anläggningstillgångar.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rätta anl.trans.** och välj sedan relaterad länk.
-2. Skapa anskaffningsjournalraden. För mer information, se [Att bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anl.journaler** och välj sedan relaterad länk.
+2. Skapa anskaffningsraden på sidan **Anläggningstillgångsjournaler**. För mer information, se [Att bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. I fältet **Återanskaffningsvärde** på journalraden anger du återanskaffningsvärdets belopp som en kreditering (med ett minustecken).
 4. Välj åtgärden **Bokföra**.
 
-> [!NOTE]  
->   Bokföringstypen **Återanskaffningsvärde** är endast ett alternativ på sidan **Redovisningsjournal för anläggningstillgångar**. Den är inte tillgänglig på sidan **Anl.tillg. redovisningsjournal** eftersom skrotvärde aldrig bokförs i redovisningen.
+> [!NOTE]
+> Om det finns ett återanskaffningsvärde för en anläggningstillgång, kommer värdet att användas i avskrivningsbokföring i stället för fältet **utgående bokföringsvärde** på sidan **Anl. avskrivningsregler**. Mer information finns i [så här hanterar du utgående bokföringsvärde](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
 ## <a name="see-also"></a>Se även
 [Anläggningstillgångar](fa-manage.md)  

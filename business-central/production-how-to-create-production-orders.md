@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du ett produktionsorderhuvud | Microsoft Docs
 description: Du kan skapa en produktionsorder manuellt och första steget är då att skapa ett produktionsorderhuvud.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc0a0dda33b7b90658ca60285abab0562c28fbbc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2088cd12faaefb2d9902cad0cc149d209f905f71
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314126"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877981"
 ---
 # <a name="create-production-order-headers"></a>Så här skapar du produktionsorderhuvud
 Du kan skapa en produktionsorder manuellt och första steget är då att skapa ett produktionsorderhuvud.
@@ -27,7 +25,7 @@ Produktionsorder skapas vanligtvis automatiskt av en planeringsfunktion för att
 I det följande procedur skapas en fast planerad produktionsorder. Du kan också skapa produktionsorder med annan status.  
 
 ## <a name="to-create-a-production-order-header"></a>Så här skapar du ett produktionsorderhuvud  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Fasta planerade prod.order** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  I fältet **Nr.** skriver du numret på den artikel som har beställts.  
 4.  Välj produktionsorderns ursprung i fältet **Ursprungstyp**.
@@ -42,6 +40,6 @@ När produktionsbehov ändras, till exempel komponenter och operationer, kan du 
 [Produktion](production-manage-manufacturing.md)    
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)      
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

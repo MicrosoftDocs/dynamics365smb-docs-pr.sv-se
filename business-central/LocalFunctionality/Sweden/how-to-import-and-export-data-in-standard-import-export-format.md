@@ -1,8 +1,6 @@
 ---
 title: Så här importerar och exporterar du data i SIE-format (Standard Import Export)
 description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export).
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 37e8536a26341941ae8d1c88223082143e5bcf2f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 016d3d10a9e5d4e6224f4e7df145db5c971bea9d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301069"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878819"
 ---
 # <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 ## <a name="to-import-data-in-sie-format"></a>Så här importerar du data i SIE-format  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **SIE-import** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **SIE-import** och välj sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
@@ -40,7 +38,7 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 
 ## <a name="to-export-data-in-sie-format"></a>Så här exporterar du data i SIE-format  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **SIE-import** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **SIE-export** och välj sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 

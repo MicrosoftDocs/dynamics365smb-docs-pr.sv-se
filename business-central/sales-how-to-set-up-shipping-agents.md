@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du speditörer | Microsoft Docs
 description: Du kan lägga upp en kod för och ange information om var och en av dina speditörer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311986"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882860"
 ---
 # <a name="set-up-shipping-agents"></a>Så här konfigurerar du speditörer
 Du kan lägga upp en kod för och ange information om var och en av dina speditörer.  
@@ -30,7 +28,7 @@ Du kan ange obegränsat antal tjänster för varje speditör, samt ange leverans
 När en speditörsservice har kopplats till en försäljningsorderrad inkluderas leveranstiden för tjänsten i orderlöftesberäkningen för den raden. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Så här lägger du upp en speditör  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Speditörer** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **speditör** och välj sedan relaterad länk.  
 2.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Välj åtgärden **Speditörsservice**.
 4. I **Speditörsservice** fyller du i fälten efter behov.

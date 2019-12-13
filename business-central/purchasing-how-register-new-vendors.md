@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577237"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883100"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 Leverantörer erbjuder produkter som du säljer. Varje leverantör som du har köpt av måste registreras som ett leverantörskort.
@@ -28,11 +28,12 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 
 > [!NOTE]  
 >   Om leverantörsmallar finns för olika leverantörstyper, visas en sida när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
-<br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
+<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Skapa ett nytt leverantörskort.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.  
 2. På sidan **Leverantörer** väljer du **Ny**.
 
     Om fler än en leverantörsmall finns, öppnas en sida där du kan välja leverantörsmall. I detta fall, följ nästa två steg.

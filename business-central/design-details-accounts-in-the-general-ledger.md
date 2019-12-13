@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Konton i redovisningen | Microsoft Docs
 description: Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b840432bca09f04a27004aaff5d9ccbbfcdaeb69
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1e20b9240f4e6a3b533dd38b4c8089b2520a6ad3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303850"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880694"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konton i redovisningen
 Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  

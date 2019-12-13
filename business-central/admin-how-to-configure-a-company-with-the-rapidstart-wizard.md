@@ -1,8 +1,6 @@
 ---
 title: Så här konfigurerar du ett företag med RapidStart-guiden | Microsoft Docs
 description: Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d26073d7b96b3c5970689c916edf18fccab6ca34
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308146"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878707"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
 Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
@@ -41,7 +39,7 @@ I följande procedur har du gett kunden ett konfigurationspaket, som sedan har i
     >  Ändra bara ditt rollcenter när du har fyllt i konfigurationen av företaget. Om du har registrerat fler detaljer som du överväger att ändra, använder du först konfigurationskalkylarket och fortsätter med arbetet. Gå sedan tillbaka till guiden för att uppdatera din rollcenterprofil, eller välj åtgärden **Slutför inställningar**.
 
 7. Välj knappen **OK**.  
-8. Om du vill kontrollera att konfigurationsinformationen har kopplats till det nya företaget väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Företagsinformation** och väljer sedan relaterad länk.
+8. Om du vill kontrollera att konfigurationsinformationen har kopplats till det nya företaget väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Företagsinformation** och väljer sedan relaterad länk.
 
 Sidan **Företagsinformation** innehåller information som du har angett.   
 

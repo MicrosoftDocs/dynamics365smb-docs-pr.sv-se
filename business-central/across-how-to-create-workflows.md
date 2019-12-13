@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du arbetsflöden | Microsoft Docs
 description: Du kan skapa arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ef58cf6729ed5608fdbc6ac24093941bf41dc82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305458"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881198"
 ---
 # <a name="create-workflows"></a>Skapa arbetsflöden
 Du kan skapa arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
@@ -27,12 +25,12 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
 När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden för arbetsflödesmallar som läggas till av Microsoft har prefixet ”MS-”, till exempel "MS-PIW”. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte stöds måste en Microsoft-partner implementera dem genom att anpassa applikationskoden.  
-  
+
 > [!NOTE]  
 >  Alla meddelanden om arbetsflödessteg skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödemeddelanden och att kryssrutan **Starta automatiskt från NAS** är markerad. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Skapa ett arbetsflöde  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflöden** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflöden** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflöde** visas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
 4. Så här skapar du arbetsflödet från en arbetsflödesmall, på sidan **Arbetsflöden**, välj åtgärden **Så här skapar du arbetsflödet från en arbetsflödesmall**. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -56,9 +54,11 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 
     1.  Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skicka ett meddelande.  
 
-        |Fält|Description|  
+        |Fält|Beskrivning|  
         |----------------------------------|---------------------------------------|  
+        |**Meddela avsändare**|Ange om den som har fått godkännandet ska meddelas i stället för mottagaren om godkännandeförfrågan. Om du markerar kryssrutan inaktiveras fältet **Mottagarens användar-ID** eftersom den som skickar godkännandet kommer att meddelas i stället. Namnet på arbetsflödessvar ändras enligt detta till **skapa ett meddelande för &lt;avsändaren&gt;**. Om kryssrutan inte är markerad kan namnet på arbetsflödetssvar **skapa ett meddelande för &lt;användaren&gt;**.
         |**Mottagarens användar-ID**|Ange den användare som meddelande ska skickas till. Obs! Alternativet är bara tillgängligt för arbetsflödesvar med en platshållare för en specifik användare. För arbetsflödesvar utan platshållare för användare definieras meddelandemottagaren vanligtvis av inställningen av godkännandeanvändare.|  
+        |**Transaktionstyp för meddelande**|Anger om arbetsflödesmeddelandet utlöses av en poständring, en begäran om godkännande eller en data som har passerats.|
         |**Målsida för länk**|Ange en annan sida i [!INCLUDE[d365fin](includes/d365fin_md.md)] som länken i meddelandet öppnar i stället för standardsidan.|  
         |**Anpassad länk**|Ange URL-adressen till en länk som läggs till i meddelandet utöver länken till sidan i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa en godkännandebegäran.  
@@ -91,7 +91,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 >  Aktivera inte ett arbetsflöde förrän du vet att arbetsflödet är avslutat och att relevanta arbetsflödessteg kan startas.  
 
 > [!TIP]  
->  För att visa relationer mellan tabeller som används i arbetsflöden, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra")  och ange **arbetsflöde – tabellrelationer**.  
+>  För att visa relationer mellan tabeller som används i arbetsflöden, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "TBerätta vad du vill göra) och ange **arbetsflöde – tabellrelationer**.  
 
 ## <a name="see-also"></a>Se även  
 [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)   
@@ -103,4 +103,3 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 [Konfigurera arbetsflöden](across-set-up-workflows.md)   
 [Använda arbetsflöden](across-use-workflows.md)   
 [Arbetsflöde](across-workflow.md)      
-

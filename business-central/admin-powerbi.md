@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307978"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879112"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
 
 Att få insikter om dina [!INCLUDE[prodshort](includes/prodshort.md)]-data är enkelt med [!INCLUDE[prodshort](includes/prodshort.md)]-appar för Power BI. Power BI hämtar dina data och skapar sedan en förinstallerad instrumentbräda och rapporter baserade på den data.  
 
-Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) om du vill skapa dina egna Power BI-rapporter. Power BI -appar kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
+Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/desktop/) om du vill skapa dina egna Power BI-rapporter. Power BI -appar kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
 
 > [!IMPORTANT]
 > De Power BI-appar som beskrivs i den här artikeln har utformats för att använda Azure Active Directory som verifieringsmekanism om inget annat anges. Om du vill installera en Power BI- app måste du också ha en Power BI Pro-licens.  När Power BI-appen installerats kan det delas med användare med valfri licenstyp.
@@ -214,7 +214,7 @@ Dokumentation om [Power BI](/power-bi/)
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en PowerApps datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

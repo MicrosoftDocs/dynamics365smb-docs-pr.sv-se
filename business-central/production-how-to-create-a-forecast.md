@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du en efterfrågeprognos | Microsoft Docs
 description: Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314198"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883388"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
@@ -53,7 +51,7 @@ Detta kan anges i produktionsinställningarna om du vill filtrera prognos efter 
 
 ## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **efterfrågeprognos** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **efterfrågeprognos** och välj sedan relaterad länk.  
 2.  På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
 3.  Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.  
 4.  Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska efterfrågeprognostransaktionerna.  

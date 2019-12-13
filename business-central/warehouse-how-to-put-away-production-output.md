@@ -1,8 +1,6 @@
 ---
 title: Så här för du in Produktionsutflöde | Microsoft Docs
 description: Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6d1684b170d050392b02a9b40070b17ff22ebd47
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d2a8e53d26ea6a6f0ab591b9695acb39024348b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314586"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881684"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
 Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
@@ -29,14 +27,14 @@ I avancerade lagerkonfigurationer där ditt lagerställe kräver både artikelin
 Det första steget när du skapar ett utflöde är att skapa det ankommande distributionslagerkravet. Förfrågan informerar distributionslagret att produktions- eller monteringsordern utflöde är klart för artikelinförsel.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det ankommande distributionslagerkravet  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppt produktionsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Släppt produktionsorder** och välj sedan relaterad länk.  
 2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa ankommande dist.lagerbegäran**.  
 
 > [!NOTE]  
 >  Du kan också skapa ankommande distributionslagerkrav genom att markera kryssrutan **Skapa ankommande rekvisition** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerinförsel** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinförsel** och välj sedan relaterad länk.  
 2.  Skapa en ny lagerinförsel. Mer information finns i [Införa artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Om du vill komma åt produktionsorderns utflöde väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
 4.  Fyll i artikelinförselraderna efter behov.
@@ -49,7 +47,7 @@ När du bokför en lagerinförsel antas det att alla åtgärder bokförs enligt 
 Om “Omställning, bearbetningstid” för den sista åtgärden måste bokföras, anger du utflödesantalet för den sista åtgärden till 0. Du kan också välja att inte bokföra den sista raden alls genom att ta bort den  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Så här för du in utflöde med en intern artikelinförsel
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
 3. Fyll i huvudet på en ny intern artikelinförsel med åtminstone **Lagerställekod**.  
 4. Fyll i en rad för varje artikel som du vill flytta till distributionslagerplatsen. Du behöver endast fylla i fälten **Artikelnr** och **Antal**.  
@@ -64,7 +62,7 @@ Om “Omställning, bearbetningstid” för den sista åtgärden måste bokföra
 >  När du har angett att ett distributionslager ska använda riktad artikelinförsel och plockning länkas lagret till tillverkningsstället via standardproduktionslagerplatser: de ankommande och avgående produktionslagerplatserna och den öppna fabrikslagerplatsen, som alla definieras på snabbfliken **Lagerplatser** på lagerställekortet. När du bokför utflödet för en produktionsorder placeras utflödet automatiskt i **Avgående produktionslagerplats**. Du följer samma procedur som ovan för att föra in produktionsutflödet, med det undantaget att i stället för att använda artikelns standardlagerplats flyttar eller för du in artiklarna från **Avgående produktionslagerplats** till deras respektive standardlagerplats.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Om du vill manuellt ange en lagerplats för att lagra artiklar från produktionsutflödet:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Transportförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transportkalkylark** och välj sedan relaterad länk.  
 2.  Fyll i huvudet och skapa en rad för varje artikel som du vill flytta till distributionslagret.  
 3.  Fyll i fälten **Från lagerplatskod** och **Till lagerplatskod** och ange kvantiteten i fältet **Antal**.  
 4.  Om du vill fylla kalkylarksraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  

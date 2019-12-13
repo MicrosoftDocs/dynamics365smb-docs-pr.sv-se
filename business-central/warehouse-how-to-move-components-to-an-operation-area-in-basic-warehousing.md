@@ -1,8 +1,6 @@
 ---
 title: 'Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration | Microsoft Docs'
 description: Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ce7830c4fa7c40bb0da08ba27fac6b5a9121c50a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc3211ef873e3cf31768210e9659ae54dd59d10d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310354"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882884"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer
 Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.  
@@ -49,7 +47,7 @@ En lagerarbetare kan också skapa den, genom att peka på den släppta montering
 Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lagertransport** genom att referera en släppt monteringsorder som ett källdokument. Proceduren är samma när du vill flytta komponenter för produktionsorder och serviceordern.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagertransport** och välj sedan relevant länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerförflyttning** och välj sedan relevant länk.  
 2.  Fyll i fältet **Nr** på snabbfliken **Allmänt** . . Du kan trycka på RETUR för att välja mellan nummerserier.  
 3.  I **Lagerställekod** fältet, ange det lagerställe där transporten utförs.  
 4.  Välj åtgärden **Hämta källdokument**. Eller Fyll **Källdokument** fältet och välj sedan **AssistEdit** sökknappen i **Ursprungsnr** fältet.  

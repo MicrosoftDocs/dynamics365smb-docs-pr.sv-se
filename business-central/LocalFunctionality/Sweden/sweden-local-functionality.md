@@ -1,8 +1,6 @@
 ---
 title: Lokal funktionalitet för Sverige
 description: I följande avsnitt beskrivs den lokala funktionaliteten i den svenska versionen av Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5a22352cb55df9fdeb8fc47679b481ce6661af12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0ba0ee33fbdcd3b6928563269a611a80e4341d1c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301067"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878818"
 ---
 # <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
 I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

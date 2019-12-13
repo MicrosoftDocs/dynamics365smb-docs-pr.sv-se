@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Hantera partiformningsmetoder | Microsoft Docs
 description: Översikt över aktiviteter för att definiera en ombeställningsmetod inom leveransplanering.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307162"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880478"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Hantera partiformningsmetoder
 För att en artikel ska ingå i leveransplanering måste en ombeställningsmetod definieras. Följande fyra partiformningsmetoder finns:  
@@ -69,7 +67,7 @@ Följande sekvens beskriver hur den planerade lagernivån fastställs:
 
 Följande visar en grafisk illustration av den här principen:  
 
-![Bestämma planerade lagernivån](media/nav_app_supply_planning_2_projected_inventory.png "Bestämma planerade lagernivån")  
+![Fastställa den planerade lagernivån](media/nav_app_supply_planning_2_projected_inventory.png "Fastställa den planerade lagernivån")  
 
 1. Tillgång **Sa** of 4 (fast) stänger Efterfrågan **Da** of -3.  
 2. CloseDemand: Skapa en minska-påminnelse på -3 (visas inte).  
@@ -96,7 +94,7 @@ För partiformningsmetoder som använder en beställningspunkt kan du ange en ti
 
 Konceptet med tidsenhet återspeglar den manuella processen för att kontrollera lagernivån ofta istället för vid varje transaktion. Användaren måste definiera frekvens (tidsenheten). Till exempel samlar användaren alla artikelbehov från en leverantör att göra en veckobeställning.  
 
-![Exempel på tidsperiod i planeringen](media/nav_app_supply_planning_2_reorder_cycle.png "Exempel på tidsperiod i planeringen")  
+![Exempel på tidsenhet för planering](media/nav_app_supply_planning_2_reorder_cycle.png "Exempel på tidsenhet för planering")  
 
 Tidsenhet används allmänt för att undvika en kaskadeffekt. Till exempel skapas en balanserad rad med efterfrågan och tillgång där en tidig efterfrågan annulleras, eller ny skapas. Resultatet skulle vara att varje leveransorder (utom den sista) omplaneras.
 
@@ -181,7 +179,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 #### <a name="resulting-planning-lines"></a>Uppdaterar planeringsrader  
  En planeringsrad (varning) skapas för att minska inköpet med 30 från 90 till 60 för att hålla det planerade lagret på 100 enligt överflödesnivån.  
 
-![Planera enligt avvikelsenivån](media/nav_app_supply_planning_2_overflow2.png "Planera enligt avvikelsenivån")  
+![Planera enligt överflödesnivå](media/nav_app_supply_planning_2_overflow2.png "Planera enligt överflödesnivå")  
 
 > [!NOTE]  
 >  Utan funktionen Överflöde skapas ingen varning om den planerade lagernivån är högre än beställningsgränsen. Det kan orsaka en överflödig leverans av 30.

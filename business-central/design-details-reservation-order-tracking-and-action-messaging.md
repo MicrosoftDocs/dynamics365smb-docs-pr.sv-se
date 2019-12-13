@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Reservation, orderspårning och åtgärdsmeddelanden | Microsoft Docs
 description: Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306850"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878443"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden
 Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.  
@@ -31,7 +29,7 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 
  Reservationsystemet utgör även strukturella grunden för artikelspårningsystemet. Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-tracking.md).  
 
- För mer information om hur reservationssystemet fungerar finns i vitboken "Tabellen Reservationstransaktion" i [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ För mer information om hur reservationssystemet fungerar finns i vitboken "Tabellen Reservationstransaktion" i [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservation  
  En reservation är en fast koppling som ansluter en viss efterfrågan och tillgång till varandra. Den här länken påverkar direkt den efterföljande lagertransaktionen och säkerställer rätt koppling av artikeltransaktioner för kostnadsskäl. En reservation åsidosätter standardvärderingsprincipen för en artikel. Mer information finns i “Designdetaljer: Värderingsprinciper”.  
@@ -184,7 +182,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  Fältet **Partinr** fylls nu på i orderspårningstransaktionen för tabell 5407, eftersom partinummer har tilldelats produktionsorderkomponentraderna.  
 
- Fler exempel på orderspårningstransaktioner i tabellen **Reservationstransaktion** finns i vitboken "Tabellen Reservationstransaktion" i [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (kräver inloggning).
+ Fler exempel på orderspårningstransaktioner i tabellen **Reservationstransaktion** finns i vitboken "Tabellen Reservationstransaktion" i [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (kräver inloggning).
 
 ## <a name="action-messaging"></a>Åtgärdsmeddelanden  
  När orderspårningsystemet identifierar en obalans i ordernätverket skapar det automatiskt ett åtgärdsmeddelande för att meddela användaren. Åtgärdsmeddelanden är systemgenererade uppmaningar till användaren som anger detaljerna för obalansen och förslag på hur du återställer balansen i ordernätverket. De visas som planeringsrader på sidan **Planeringsförslag** när du väljer **Hämta åtgärdsmeddelanden**. Dessutom visas åtgärdsmeddelanden på planeringsrader som skapas med planeringskörningen för att återspegla planeringssystemets förslag på hur du återställer saldo i ordernätverket. I båda fallen körs förslagen i ordernätverket när du väljer **Verkställ åtgärdsmeddelanden**.  

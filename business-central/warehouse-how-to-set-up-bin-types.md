@@ -1,8 +1,6 @@
 ---
 title: Så här ställer du in lagerplatstyper | Microsoft Docs
 description: Du kan dirigera flödet av artiklar via lagerplatser som du har definierat för särskilda distributionslageraktiviteter. Du ger varje lagerplats dess grundläggande flödesaktiviteter, genom att tilldela lagerplatsen en lagerplatstyp, och definierar därmed det sätt som lagerplatsen ska användas på.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c0339ec5d008f5994d64cf6162feda8144d06a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9876fdc5d68721e15ca449bfe8fd2d790ade9b97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310210"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881620"
 ---
 # <a name="set-up-bin-types"></a>Skapa lagerplatstyper
 Du kan dirigera flödet av artiklar via lagerplatser som du har definierat för särskilda distributionslageraktiviteter. Du ger varje lagerplats dess grundläggande flödesaktiviteter, genom att tilldela lagerplatsen en lagerplatstyp, och definierar därmed det sätt som lagerplatsen ska användas på.  
@@ -25,7 +23,7 @@ Du kan dirigera flödet av artiklar via lagerplatser som du har definierat för 
 Det finns sex typer: Du kan använda alla sex olika lagerplatstyperna i distributionslagret, eller välja att endast använda lagerplatstyperna INLEVERERA, ARTINFPLOC, LEVERERA och KS. De här fyra lagerplatstyperna aktiverar förslag på hur artikelflödet ska se ut och du kan även registrera lageravvikelser.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Så här skapar du de lagerplatstyper som du vill använda  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatstyper** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplatstyper** och välj sedan relaterad länk.  
 2.  På sidan **Lagerplatstyper** skapar du en kod på tio tecken för en lagerplatstyp.  
 3.  Välj de aktiviteter som kan utföras med varje lagerplatstyp.  
 

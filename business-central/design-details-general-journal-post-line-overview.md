@@ -1,8 +1,6 @@
 ---
 title: Översikt över bokföring av rad i redovisningsjournalen | Microsoft Docs
 description: Detta avsnitt introducerar ändringar i Kodmodul 12, **Gen. Jnl.-Post Line**, som utgör det huvudsakliga programobjektet för redovisningstransaktioner och är den enda plats där transaktioner för redovisning, moms samt kund- och leverantörsreskontra kan föras in.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5589aa476662a9dff69e95d70367ae4c5e45aaba
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9de46d66fe13a798dda812b74f19b9ed247b84fd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303562"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880406"
 ---
 # <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen
 Kodmodul 12, **Redovisningsjnl – bokför rad**, är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas. Den här kodmodulen används även för alla operationer av typen Verkställ, Ta bort och Återför.  

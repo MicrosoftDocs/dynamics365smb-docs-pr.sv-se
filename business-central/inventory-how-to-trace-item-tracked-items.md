@@ -1,8 +1,6 @@
 ---
 title: Spåra artiklar med artikelspårningar | Microsoft Docs
 description: Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna för artikelspårning och analys.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3581babda20b1645168785adb6efc2000fb92e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cd97605ec3f000e738cde06fa44c6bc4ccc49499
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309730"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878251"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna för artikelspårning och analys.  
@@ -32,7 +30,7 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 
 ## <a name="to-trace-item-tracked-items"></a>Se spårade artiklar  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelspårning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelspårning** och välj sedan relaterad länk.  
 2.  I filterfälten längst upp på sidan ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
 3.  I fältet **Visa komponenter** väljer om ursprunget för artiklarnas komponenter dessutom ska visas. Dina alternativ i det här fältet är följande.  
 
@@ -61,7 +59,7 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Så här hittar du spårade artiklar med Analysera  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Navigera** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Navigera** och välj sedan relaterad länk.  
 2.  På Snabbfliken **Artikelspårning**, i fälten **Serienr** och **Partinr**, anger du artikelspårningsnumren som du vill spåra.  
 3.  Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 

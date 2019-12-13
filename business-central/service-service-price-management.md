@@ -1,8 +1,6 @@
 ---
 title: Serviceprishantering | Microsoft Docs
 description: Det här ämnet beskriver hur du tillämparbästa pris på serviceorder, lägga upp egna serviceprisavtal för kunder, förbättra de anställdas effektivitet och effektivisera faktureringen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 14ea816e6614a3e47cbc9e47a1adccf8eeddffbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81670627f8658296da7c6c5b0f3e269b78228b0f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311578"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882308"
 ---
 # <a name="service-price-management"></a>Serviceprishantering
 Med funktionen för serviceprishantering kan du tillämpa bästa pris på serviceorder, lägga upp egna serviceprisavtal för kunder, förbättra de anställdas effektivitet och effektivisera faktureringen.  

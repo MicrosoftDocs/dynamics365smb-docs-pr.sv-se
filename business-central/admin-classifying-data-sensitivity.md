@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308218"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880982"
 ---
 # <a name="classifying-data-sensitivity"></a>Klassificera datakänslighet
-Om du vill klassificera de fält som innehåller känsliga eller personliga data kan en Microsoft-partner ange egenskapen ```DataClassification``` för fält. Detta kräver åtkomst till databastabeller, antingen via utvecklingsmiljön eller genom att köra ett skript för Windows PowerShell. Mer information finns i [Klassificera data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+Om du vill klassificera de fält som innehåller känsliga eller personliga data kan en Microsoft-partner ange egenskapen ```DataClassification``` för fält. Detta kräver åtkomst till databastabeller, antingen via utvecklingsmiljön eller genom att köra ett skript för Windows PowerShell. Mer information finns i [Klassificera data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Som kund kan du lägga till en andra klassificeringsnivå genom att ange känslighetsnivåer för de data som du lagrar i standard- respektive anpassade fält. Klassificering av datakänslighet gör att du vet var i ditt system du förvarar personuppgifter och gör det enklare att svara på förfrågningar från datasubjekt. Om exempelvis en kontakt eller en kund ber dig att exportera deras personuppgifter. Mer information finns i [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Kalkylbladet Dataklassificering låter dig göra saker som exempelvis:
 > Vi har definierat känslighetsklassificeringsprov för tabeller och fält i demonstrationsföretaget Cronus. Du kan använda dessa klassificeringar som inspirationskälla när du klassificerar egna tabeller och fält.
 
 ## <a name="see-also"></a>Se även
-[Klassificering av Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Klassificering av Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

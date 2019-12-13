@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Bokföring av förväntad kostnad | Microsoft Docs
 description: Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 45a3ad8a38492514f953c24ec626c1b3601a7fc1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a253837be058cb46656de347e7798a3299472bb9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303610"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880439"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokföring av förväntad kostnad
 Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.  

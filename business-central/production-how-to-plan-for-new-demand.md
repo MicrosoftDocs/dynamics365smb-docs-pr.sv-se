@@ -1,8 +1,6 @@
 ---
 title: Så här kan du planera per order | Microsoft Docs
 description: Den här planeringsuppgiften kan utföras på sidan **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313354"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883220"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planera ny behovsorder efter order
 Den här planeringsuppgiften kan utföras på sidan **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder.  
@@ -26,14 +24,14 @@ Du kan gå till sidan **Orderplanering** på två sätt beroende på vad ditt fo
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Så här planerar du för ett nytt produktionsorderbehov  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planerade produktionsorder** och välj sedan relaterad länk. (Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder).
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planerade produktionsorder** och välj sedan relaterad länk. (Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder).
 2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  På sidan **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.  
 
 Sidan visar planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs komponentrader med ouppfyllda behov från alla befintliga produktionsorder. Behov för endast en produktionsorder visas inte eftersom det är nödvändigt att planera för en produktionsorder med en översikt över behoven för möjliga tidigare komponentrader. Planeringsraderna för produktionsorder som du öppnade fönstret från expanderas.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Så här planerar du för valfritt nytt behov  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Orderplanering** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Orderplanering** och välj sedan relaterad länk.  
 2.  På sidan **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.
 3.  Välj knappen **Expandera (+)** framför datumet i fältet **Behövd datum** om du vill se de underliggande planeringsraderna som motsvarar behovsrader med otillräcklig tillgänglighet.  
 4.  Du kan se värden för varje expanderad planeringsrad (behovsrad) i informationsfält längst ned på sidan.  
@@ -85,7 +83,7 @@ Sidan visar planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs kom
 >   Om du anger ett senare datum än behovsdatumet får du ett varningsmeddelande.  
 
 ## <a name="to-make-supply-orders"></a>Så här skapar du leveransorder  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Planerade produktionsorder** och välj sedan relaterad länk. Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planerade produktionsorder** och välj sedan relaterad länk. Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder.  
 2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  Placera markören på en planeringsrad och klicka på åtgärder **Skapa order**.  
 4.  På sidan **Skapa leveransorder** på snabbfliken **Orderplanering** , i fältet **Skapa order för**, markera ett av följande alternativ.  

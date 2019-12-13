@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du artikelinförslar från Intern artikelinförsel | Microsoft Docs
 description: När artiklar har förts in och innan de plockas till en produktionsorder eller utleverans, förvaras de i distributionslagret som en del av det disponibla lagersaldot.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 791b23bd158c8dffcf75c511cd2607ef59dae5a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad4d0a53f3a7c70ebfeecc9c513598a6ed8448c2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310402"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881780"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plocka och lagra utan källdokument
 När artiklar har förts in och innan de plockas till en produktionsorder eller utleverans, förvaras de i distributionslagret som en del av det disponibla lagersaldot.  
@@ -36,13 +34,13 @@ På samma sätt kan artiklar returneras till distributionslagret för artikelinf
 >  När lagerstället använder dirigerad artikelinförsel och plockning, och därmed också lagerplatstyper, kan du inte manuellt flytta artiklar in och ut ur en lagerplats av typen INLEV. Detta beror på att artiklar som finns i en lagerplats av INLEV.-typ måste registreras som införda innan de blir en del av det tillgängliga lagret.  
 
 ## <a name="to-create-an-internal-pick"></a>Skapa en intern plockning  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager intern plockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager intern plockning** och välj sedan relaterad länk.  
 2.  Fyll i fälten **Nr.** och fältet **Till lagerplatskod** på snabbfliken **Allmänt**. Fältet **Till lagerplatskod** anger den lagerplats som du vill hämta artiklar från. För produktion skulle den här lagerplatsen vara den ankommande produktionslagerplatsen eller den öppna fabrikslagerplatsen. För andra typer av aktiviteter väljer du Till lagerplatskod för en lagerplatstyp som inte används för plockning, troligtvis en etapplagerplats, leveranslagerplats eller speciallagerplats.  
 3.  Välj en artikel i fältet **Artikelnr** och fyll i den kvantitet som du vill plocka.  
 4. Välj åtgärden **Skapa plockning**. En plockinstruktion är nu klar att utföras av lagerpersonalen.  
 
 ## <a name="to-create-an-internal-put-away"></a>Skapa en intern art.införsel  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
 2.  Fyll i fälten **Nr.** och fälten **Från lagerplatskod** på snabbfliken **Allmänt**. Fältet **Från lagerplatskod** anger den lagerplats där de artiklar finns som returneras till lagret, kanske från produktionen.  
 3.  Fyll i artikelnumren och kvantiteterna på raderna.  
 4.  Välj åtgärden **Skapa artikelinförsel**. En artikelinförselinstruktion är nu klar att utföras av lagerpersonalen.  

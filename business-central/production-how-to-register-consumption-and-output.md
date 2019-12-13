@@ -1,8 +1,6 @@
 ---
 title: Registrera förbrukning och utflöde för en produktionsorderrad | Microsoft Docs
 description: Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1033775d7b988fcb79742165ecbf527462e28aad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313210"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877909"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
@@ -29,7 +27,7 @@ Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombin
 >  Komponenter som saknar operationsföljdslänkkoder visas först i listan i journalen.  
 
 ## <a name="to-register-consumption-and-output"></a>Så här registrerar du förbrukning och utdata  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppta prod.order** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Släppta prod.order** och välj sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
     Sidan **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt sidorna **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  
@@ -70,6 +68,6 @@ Om värdena som återstår ska bokföras kommer journalen att innehåller dessa 
 [Produktion](production-manage-manufacturing.md)    
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)      
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

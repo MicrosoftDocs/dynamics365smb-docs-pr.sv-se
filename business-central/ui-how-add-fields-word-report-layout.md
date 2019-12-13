@@ -1,8 +1,6 @@
 ---
 title: Så här lägger du till fält i en Word-rapportlayout | Microsoft Docs
 description: Beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0c16dbebe7f2bbfa5efebb246149d395d051b353
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315330"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877021"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -113,7 +111,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
   
  Efterföljande diagram visar den enkla anpassade XML-del från föregående avsnitt i panelen **XML-mappning** i ett Word-dokument.  
   
- ![Bild av fönstret XML-mappning i word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Klipp av fönstret XML-mappning i Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Om du vill lägga till en rubrik eller ett fält i layouten infogar du en innehållskontroll som mappar till elementet i panelen **XML-mappning**.  
   

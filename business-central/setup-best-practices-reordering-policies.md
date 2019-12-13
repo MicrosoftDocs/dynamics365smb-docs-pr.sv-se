@@ -1,8 +1,6 @@
 ---
 title: Skapa metodtips - partiformningsmetoder | Microsoft Docs
 description: Partiformningsmetod-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46e4b5861242258769548cae5f214a8d7cb8f9a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311530"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882236"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
 **Partiformningsmetod**-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.  

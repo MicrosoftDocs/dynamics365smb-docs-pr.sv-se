@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du produktionsorder från försäljningsorder | Microsoft Docsr
 description: Du kan skapa produktionsorder från försäljningsorder i avdelningen Försäljning och marknadsföring.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 362429f34c326996d9097ff23a0aec02787b2781
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314150"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883316"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Så här skapar du produktionsorder från försäljningsorder
 Du kan skapa produktionsorder för producerade artiklar direkt från försäljningsorder.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Så här skapar du produktionsorder från försäljningsorder  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Markera den försäljningsorder som du vill skapa en produktionsorder för.  
 3.  Välj åtgärden **Planerad**. På sidan **Förs.orderplanering** kan du visa dispositionen för artikeln på i ordern.  
 4.  Välj åtgärden **Skapa prod.order**.  

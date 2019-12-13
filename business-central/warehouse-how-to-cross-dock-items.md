@@ -1,8 +1,6 @@
 ---
 title: Så här direktutlevererar du artiklar | Microsoft Docs
 description: Direktutleveransfunktionen är tillgänglig om lagerstället kräver inleverans- och artikelinförselbearbetning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 717f6db3e8d53a8b2d75b9a27749e353e5ff28bc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310378"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876805"
 ---
 # <a name="cross-dock-items"></a>Beräkna direktutleverans av artiklar
 Direktutleveransfunktionen är tillgänglig om lagerstället kräver inleverans- och artikelinförselbearbetning.  
@@ -43,14 +41,14 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 
     Om du använder zoner, skapa en zon för dina direktutleveranslagerplatser och välj **Direktutlevns lagerplatszon** fältet. Mer information finns i [Skapa lagerställen för att använda lagerplatser](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Plats** och välj sedan relaterad länk.  
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plats** och välj sedan relaterad länk.  
 3.  På sidan **Lagerställe** väljer du vilket lagerställe som du vill ställa in direktutleverans för och väljer sedan åtgärden **Redigera**.  
 4.  Markera kryssrutan **Använd direktutleverans** på snabbfliken **Lager** och fyll i **Direktutlev. förfalloberäkning** med tidsperiod att söka efter direktutleveransmöjligheter.
 
     Alternativet **Använd direktutleverans** är bara tillgängligt om du har markerat fälten **Begär inleveranser**, **Begär utleverans**, **Begär plockning** och **Begär artikelinförsel**.  
 
 5.  Om du använder lagerplatser fyller du i fältet **Direktutleverans lagerplatskod** på snabbfliken **Lagerplatser** med koden för den lagerplats du vill använda som standardlagerplats för direktutleveranser.  
-6.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerställeenhet** och välj sedan relaterad länk.  
+6.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerställeenhet** och välj sedan relaterad länk.  
 7.  För varje artikel eller lagerställeenhet som du vill kunna direktutleverera till markerar du artikeln och väljer åtgärden **Redigera**.
 8. På sidan **lagerställeenhetskort** markerar du kryssrutan **Använd direktutleverans**.  
 
@@ -58,7 +56,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 >  Du kan bara använda direktutleveranser om lagerstället är inställt på inleverans- och artikelinförselbearbetning för distributionslagret.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Så här direktutlevererar du artiklar utan att visa möjligheterna:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
 2.  Skapa distributionslagerinleverans för en artikel som har anlänt och som eventuellt kan komma att direktutlevereras. Mer information finns i [Ta emot artiklar](warehouse-how-receive-items.md).  
 3.  Fyll i fältet **Ant. att inlevereras** och välj åtgärden **Beräkna direktutleverans**.  
 
@@ -75,7 +73,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 7.  Välj åtgärden **Registrera** för att registrera de direktutlevererade artiklarna som införda och tillgängliga för plockning.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Så här direktutlevererar du artiklar när du har visat möjligheterna:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
 2.  Skapa distributionslagerinleverans för en artikel som har anlänt och som eventuellt kan komma att direktutlevereras. Mer information finns i [Ta emot artiklar](warehouse-how-receive-items.md).  
 
     Du vill visa källdokumentrader som kräver artikeln innan du bokför Inleveransen.  

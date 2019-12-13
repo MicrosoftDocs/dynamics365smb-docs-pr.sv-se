@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du Lagerplatser | Microsoft Docs
 description: Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är att generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget genom att följa anvisningarna nedan.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dd48519f471a8ead924c1d3512538ff71fe39640
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314634"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876735"
 ---
 # <a name="create-bins"></a>Skapa lagerplatser
 Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är att generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerplatserna automatiskt.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerplatser**  
 3. Välj åtgärden **Ny**.
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +37,7 @@ Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande la
 > Artiklar på dedikerade lagerplatser skyddas inte när de plockas och förbrukas som produktions- eller monteringskomponenter med sidan **Lagerplockning**. Mer information finns i [Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerplatser i lagerplatsuppläggningskalkylark:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
 2.  På varje rad fyller du i de fält som är nödvändiga för att namnge och ange egenskaper för de lagerplatser som du skapar.  
 3.  Välj åtgärden **Skapa lagerplatser**.  
 
@@ -51,7 +49,7 @@ Innan du börjar skapa lagerplatser automatiskt i kalkylarket bör du bestämma 
 
 Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du ställas in som en lageranställd på det lagerställe där lagerplatserna finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerplatser**.
 3. Klicka på **Beräkna lagerplatser** i fältet **Lagerplatsmall kod** och välj den lagerplatsmall som du vill använda som modell när du skapar lagerplatser.
 4.  Fyll i en beskrivning av de lagerplatser som du håller på att skapa.  

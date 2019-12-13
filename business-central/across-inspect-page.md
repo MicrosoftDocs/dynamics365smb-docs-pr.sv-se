@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775385"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879385"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektera sidor i Business Central
 
@@ -32,7 +32,7 @@ När rutan **Sidinspektion** först öppnats, visas information som tillhör obj
 
 Använd tangentbord eller pekdon för att flytta markeringen till olika element på sidan. När du väljer en faktabox eller en del av huvudsidan markeras markeringsområdet med en ram och rutan **Sidinspektion** visar information om det valda elementet. Till exempel föregående bild visar information om listan som en del på sidan **försäljningsorder**. När du navigerar mellan sidorna i programmet kommer rutan **Sidinspektion** att uppdateras automatiskt med sidinformation allt eftersom.
 
-För mer information om vad som ska visas i sidisnpektionen, se [Inspektera och felsöka sidor](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) i hjälpavsnittet för Business Central-utvecklare och IT-proffs.
+För mer information om vad som ska visas i sidisnpektionen, se [Inspektera och felsöka sidor](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) i hjälpavsnittet för Business Central-utvecklare och IT-proffs.
 
 Om du inte kan se de information som borde finnas i rutan **Sidinspektion** har du förmodligen inte behörighet, som beskrivs i nästa avsnitt.
 

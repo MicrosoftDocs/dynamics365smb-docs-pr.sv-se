@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315618"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882189"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista eller i en rapport eller XMLport. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -23,7 +23,7 @@ Det finns några saker som du kan göra som hjälper dig att söka, hitta och be
 För rapporter och XMLport kan du ange filter som på listor för att begränsa vilka data som ska tas med i rapporten XMLport, men du kan inte sortera och söka.
 
 > [!TIP]
-> När du visar data sida vid sida kan du söka och använda enkel filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som lista vänsterpil") om du vill visa posterna som en lista.
+> När du visar data sida vid sida kan du söka och använda enkel filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som vänster listpil") om du vill visa posterna som en lista.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -39,7 +39,7 @@ Om du vill sortera en lista, kan du välja en kolumn rubriktexten för att växl
 
 ## <a name="searching"></a>Sökning
 <!--## Searching by using the Quick Filter -->
-Högst upp på varje listsida finns åtgärden ![Söklistikon](media/ui-search/search-list.png "Söklistikon") **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
+Högst upp på varje listsida finns åtgärden ![Söklistikon](media/ui-search/search-list.png "Ikon för Söklista") **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
 
 Sök genom att bara markera åtgärden **Sök** och skriv den text som du vill söka efter i rutan. Du kan ange bokstäver, siffror och andra symboler.
 
@@ -111,7 +111,7 @@ Filterrutan visar en lista över aktuella filter för en lista och gör att du k
   Vissa listor som visar beräknade fält, till exempel belopp och kvantitet, inkluderar avsnittet **Filtrera summor efter** där du kan justera olika dimensioner som påverkar beräkningar. Du kan lägga till ett filter genom att välja åtgärden **+ Filter** och sedan ange namnet på det fält som du vill filtrera listan efter eller välja ett fält från den nedrullningsbara listan.
 
   > [!NOTE]
-  > Filter i avsnittet **Filtrera summor efter** styrs av FlowFilter på sidans design. Teknisk information finns i [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filter i avsnittet **Filtrera summor efter** styrs av FlowFilter på sidans design. Teknisk information finns i [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 Du kan ställa in ett enkelt filter direkt på en lista i med hjälp av filterrutan, nämligen ett filter som visar endast poster med samma värde som i den markerade cellen. Välj en cell på listan, välj listpilen bredvid och väljer sedan åtgärden **Filtrera på det här värdet**. Du kan också trycka på **Alt+F3**.
 
@@ -127,7 +127,7 @@ Både i filterrutan och på sidan för förfrågan anger du filterkriterier i ru
 
 Typen av filterfält som du vill filtrera avgör vilka kriterier du kan ange. Till exempel kommer filtrering av ett fält som har fasta värden bara låta dig välja mellan dessa värden. Mer information om särskilda filtersymboler finns i [Filterkriterier](#FilterCriteria) och [Filtertoken](#FilterTokens).
 
-Kolumner som redan har filter som indikeras av ikonen ![filterikon](media/ui-search/filter-icon.png "filterikon") i kolumnrubriken. Om du vill ta bort ett filter på en sida klickar du på listpilen i sidrubriken och klickar sedan på åtgärden **Rensa filter**.
+Kolumner som redan har filter som indikeras av ikonen ![filterikon](media/ui-search/filter-icon.png "Filterikon") i kolumnrubriken. Om du vill ta bort ett filter på en sida klickar du på listpilen i sidrubriken och klickar sedan på åtgärden **Rensa filter**.
 
 > [!TIP]
 > Sök och analysera dina data snabbare genom att använda kombinationer av kortkommandon. Exempelvis markerar du ett fält, använder **Skift + Alt + F3** om du vill lägga till fältet i filterrutan, använder **Ctrl + Retur** om du vill återgå till raderna, markerar ett annat fält och använder **Alt + F3** för att filtrera det värdet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
@@ -270,6 +270,6 @@ Använd `%myvendors` i fältet leverantörs**nr** om du vill visa alla poster f�
 |`%myvendors`|Leverantörer i **mina leverantörer** i rollcentret. |  
 
 ## <a name="see-also"></a>Se även
-[Vanliga frågor och svar om sök och filtrering](ui-search-filter-faq.md)  
+[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
 [Spara och anpassa listvyer](ui-views.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Varians | Microsoft Docs
 description: Varians definieras som skillnaden mellan den faktiska kostnaden och standardkostnaden, enligt beskrivningen i följande formel.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f5b4d56c5afb728c915c95f763c75f4c5fe6d008
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55317d4ae474c17df08449ebadd97aa11856a2c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306706"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882788"
 ---
 # <a name="design-details-variance"></a>Designdetaljer: Varians
 Varians definieras som skillnaden mellan den faktiska kostnaden och standardkostnaden, enligt beskrivningen i följande formel.  
@@ -50,16 +48,16 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 |Kostnadsandel|Inköpt artikel|Producerad/monterad artikel|  
 |----------------|--------------------|------------------------------|  
 |**Standardkostnad**||En-nivå materialkostnad + En-nivå kapacitetskostnad + En-nivå underleverantörkost. + En-nivå kap.overheadkost. + En-nivå mat.overheadkost.|  
-|**En-nivå materialkostnad**|Styckkostnad|![Formel 1](media/design_details_inventory_costing_11_equation_1.png "Formel 1")|  
-|**En-nivå kapacitetskostnad**|Ej tillämpbart|![Formel 2](media/design_details_inventory_costing_11_equation_2.png "Formel 2")|  
-|**En-nivå underleverantörkost.**|Ej tillämpbart|![Formel 3](media/design_details_inventory_costing_11_equation_3.png "Formel 3")|  
-|**En-nivå kap.overheadkost.**|Ej tillämpbart|![Formel 4](media/design_details_inventory_costing_11_equation_4.png "Formel 4")|  
+|**En-nivå materialkostnad**|Styckkostnad|![Ekvation 1](media/design_details_inventory_costing_11_equation_1.png "Ekvation 1")|  
+|**En-nivå kapacitetskostnad**|Ej tillämpbart|![Ekvation 2](media/design_details_inventory_costing_11_equation_2.png "Ekvation 2")|  
+|**En-nivå underleverantörkost.**|Ej tillämpbart|![Ekvation 3](media/design_details_inventory_costing_11_equation_3.png "Ekvation 3")|  
+|**En-nivå kap.overheadkost.**|Ej tillämpbart|![Ekvation 4](media/design_details_inventory_costing_11_equation_4.png "Ekvation 4")|  
 |**En-nivå mat.overheadkost.**|Ej tillämpbart|(En-nivå materialkostnad + En-nivå kapacitetskostnad + En-nivå underlev.kost.) * Indirekt kostnad % / 100 + Omkostnader|  
-|**Uppsum. materialkost.**|Styckkostnad|![Formel 5](media/design_details_inventory_costing_11_equation_5.png "Formel 5")|  
-|**Uppsum. kapacitetskost.**|Ej tillämpbart|![Formel 6](media/design_details_inventory_costing_11_equation_6.png "Formel 6")|  
-|**Uppsummerad utlegokostnad**|Ej tillämpbart|![Formel 7](media/design_details_inventory_costing_11_equation_7.png "Formel 7")|  
-|**Uppsum. kap.overh.kostnad**|Ej tillämpbart|![Formel 8](media/design_details_inventory_costing_11_equation_8.png "Formel 8")|  
-|**Uppsum. tillverk.overh.kost**|Ej tillämpbart|![Formel 9](media/design_details_inventory_costing_11_equation_9.png "Formel 9")|  
+|**Uppsum. materialkost.**|Styckkostnad|![Ekvation 5](media/design_details_inventory_costing_11_equation_5.png "Ekvation 5")|  
+|**Uppsum. kapacitetskost.**|Ej tillämpbart|![Ekvation 6](media/design_details_inventory_costing_11_equation_6.png "Ekvation 6")|  
+|**Uppsummerad utlegokostnad**|Ej tillämpbart|![Ekvation 7](media/design_details_inventory_costing_11_equation_7.png "Ekvation 7")|  
+|**Uppsum. kap.overh.kostnad**|Ej tillämpbart|![Ekvation 8](media/design_details_inventory_costing_11_equation_8.png "Ekvation 8")|  
+|**Uppsum. tillverk.overh.kost**|Ej tillämpbart|![Ekvation 9](media/design_details_inventory_costing_11_equation_9.png "Ekvation 9")|  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   

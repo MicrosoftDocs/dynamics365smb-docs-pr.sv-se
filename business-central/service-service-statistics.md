@@ -1,8 +1,6 @@
 ---
 title: Servicestatistik | Microsoft Docs
 description: Få en snabb översikt över innehållet i ett helt servicedokument (order, offert, faktura eller kreditnota), den detaljerade informationen på varje servicerad samt serviceartiklarna.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877165"
 ---
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
 Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   

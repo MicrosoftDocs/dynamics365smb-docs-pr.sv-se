@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e5b58fa76525274f34595fecb2a84632bb7af50b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 753b9f30648059a68c22b524008e21c6c866d19c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301858"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882548"
 ---
 # <a name="defining-payment-methods"></a>Definiera betalningssätt
 Betalningssätt definierar hur du föredrar att kunderna betalar dig och hur du vill betala dina leverantörer. Metoden kan variera för varje kund eller leverantör. Exempel på typiska betalningssätt är **bank**, **kontanter**, **check** eller **konto**.
@@ -24,16 +24,18 @@ Du kan tilldela ett betalningssätt till kunder och leverantörer så att samma 
 
 Samma betalningssätt används för försäljnings- och inköpsdokument. Till exempel ett _kontant_ betalningssätt används både när du gör betalningar och när du tar emot dem. [!INCLUDE[d365fin](includes/d365fin_md.md)] vet att när du skapar en försäljningsfaktura förväntar du dig att erhålla betalning och motsatsen för inköpsfakturor.
 
-Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsatt riktning från dig till din kund och från din leverantör till dig. Därför tilldelas inte ett standardbetalningssätt för kreditnotor. Det finns emellertid en lösning om du har angett betalningsvillkoren för kunden eller leverantören. Även om fältet **Beräkna kassarabatt i kr.nota** inte är avsett för detta, om du väljer den här kryssrutan på sidan **betalningsvillkor** kommer ett standardbetalningssätt att läggas till när du skapar en kreditnota.
+Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsatt riktning från dig till din kund och från din leverantör till dig. Därför tilldelas inte ett standardbetalningssätt för kreditnotor. Det finns emellertid en lösning om du har angett betalningsvillkoren för kunden eller leverantören. Även om fältet **Beräkna kassarabatt i kr.nota** inte är avsett för detta, om du väljer den här kryssrutan på sidan **betalningsvillkor** kommer ett standardbetalningssätt att läggas till när du skapar en kreditnota. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys]
 
 ## <a name="to-set-up-a-payment-method"></a>Så här definierar du betalningssätt:
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller några betalningssätt som företag använder ofta. Du kan emellertid lägga till hur många rader du vill.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsmetoder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **betalningssätt** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Så här kopplar du betalningssätt till en kund eller leverantör
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kund** eller **Leverantör** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kund** eller **Leverantör** och välj sedan relaterad länk.
 2. I fältet **betalningssättkod**, välj metoden som ska användas som standard för kunden eller leverantören.
 
 ## <a name="see-also"></a>Se även

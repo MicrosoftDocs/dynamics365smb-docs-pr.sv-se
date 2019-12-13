@@ -1,8 +1,6 @@
 ---
 title: Så här kan du ändra planeringsförslag i en grafisk översikt över serviceverksamheten | Microsoft Docs
 description: En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313378"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877933"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
 En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.
@@ -37,7 +35,7 @@ När du väljer **Spara ändringar** på sidan **Artikeldisposition per tidslinj
 I följande procedur beskrivs hur du ändrar leveransförslag genom att dra och släppa. Som alternativ kan du ändra fälten **Förfallodatum** och **Antal** på snabbfliken **Händelseändringar** och se mötesändringarna grafiskt direkt på snabbfliken **Tidslinje** på sidan **Planeringsförslag**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Om du vill ändra de föreslagna leveransordrarna i den grafiska översikten  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeldisposition per tidslinje** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikeldisposition per tidslinje** och välj sedan relaterad länk.  
 
     Sidan **Artikeldisposition per tidslinje** öppnas med artikelnummer, lagerstället och varianten av artikeln på den aktuella planeringsraden förifyllda i fälten på snabbfliken **Alternativ**. Snabbfliken **Tidslinje** visar en grafisk återgivning av artikelns planerade lager, inklusive planeringsförslag.  
 

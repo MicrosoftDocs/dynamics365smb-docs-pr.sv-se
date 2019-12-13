@@ -1,8 +1,6 @@
 ---
 title: Hur du arkiverar försäljnings- och inköpsdokument | Microsoft Docs
 description: Du kan arkivera försäljnings- och inköpsorder, offerter, försäljningsreturorder och avropsorder, och du kan använda arkiverade dokumentet för att återskapa dokumentet som det arkiverades från.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8a3bda8a7f4f953265e4191ac65b052e5af80157
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 41fabf67e34813323da0fd0b2acb32a904abeea9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305506"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878779"
 ---
 # <a name="archive-documents"></a>Arkivera dokument
 Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och avropsorder, till exempel för att spara en kopia av dokumentet för senare användning. Du kan arkivera ett försäljnings- eller inköpsdokument flera gånger och spara en annan arkiverad version varje gång.
@@ -30,7 +28,7 @@ För arkiverade dokument där originalet tas bort kan du återanvända innehåll
 Du kan ställa in automatisk arkivering av försäljnings- och inköpsorder, offerter, avropsorder och returorder innan du tar bort dokument.
 
 Nedan beskrivs hur du ställer in automatisk arkivering av försäljningsdokument. Momenten är liknande för en inköpsorder.
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsinställningar** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
 2. På sidan **Försäljningsinställningar** fyller du i följande fält:
 
 |Fält|Description|
@@ -42,7 +40,7 @@ Nedan beskrivs hur du ställer in automatisk arkivering av försäljningsdokumen
 ## <a name="to-archive-a-sales-order"></a>För att arkivera en försäljningsorder
 Följande förfarande beskriver hur du arkiverar en försäljningsorder. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Öppna en försäljningsorder som du vill arkivera.  
 3.  Välj åtgärden **Arkivera dokument**.
 
@@ -51,7 +49,7 @@ Försäljningsordern arkiveras. Du kan visa den på sidan **Arkiverade försälj
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Så här återställer du en icke-bokförd försäljningsorder från arkivet
 Nedan beskrivs hur du ändrar innehållet i en arkiverad försäljningsorder till den ursprungliga försäljningsordern. Detta är endast möjligt när det ursprungliga dokumentet inte ännu bokförts. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arkiverade försäljningsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arkiverade försäljningsorder** och välj sedan relaterad länk.
 2. Markera den arkiverade försäljningsordern eller versionen av den som du vill återskapa och välj sedan åtgärden **Återskapa**.  
 
 Innehållet i den ursprungliga försäljningsordern ersätts med värdet för den valda arkiverade versionen.
@@ -59,7 +57,7 @@ Innehållet i den ursprungliga försäljningsordern ersätts med värdet för de
 ## <a name="to-delete-archived-sales-orders"></a>Ta bort arkiverade förs.orderversioner
 Följande förfarande beskriver hur du tar bort arkiverade försäljningsorder. Stegen är liknande för andra arkiverade försäljnings- och inköpsdokument.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort arkiverade förs.orderversioner** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort arkiverade försäljningsorderversioner** och välj sedan relaterad länk.  
 2.  På sidan **Ta bort arkiverade försäljningsorderversioner** väljer du lämpliga filter.  
 3.  Välj knappen **OK**.
 

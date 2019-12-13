@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.author: edupont
-ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c575c0e482ebe4d34c9b699b22747486651efe04
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302602"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896139"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
@@ -25,33 +25,32 @@ Rollcentret är en instrumentpanel med aktivitetpaneler sida som visar nyckeltal
 
 Om du precis har börjat använda [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du köra videoförteckning direkt från ditt rollcenter. Du kan också starta en **komma igång** som pekar ut viktiga områden.  
 
-## <a name="accountant-hub"></a>Accountant Hub
-Om du är en revisor med flera klienter, använd [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] för en bättre överblick över dina kunder. Härifrån kan du komma åt varje klients klientorganisationen i [!INCLUDE[d365fin](includes/d365fin_md.md)] och använda den för tollcentret redovisare som beskrivs ovan. Mer information finns i [Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
-
-> [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] är för närvarande i allmän förhandsgranskning på ett begränsat antal marknader.
-
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviteaccountant"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till dina [!INCLUDE[d365fin](includes/d365fin_md.md)] så att de kan arbeta med dig med räkenskapsårets informationen.
 
 När din revisorn har fått tillgång till din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan de använda rollcenter **revisorn** som ger enkel åtkomst till de mest relevanta sidor för att kunna arbeta.  
 
 Vi har gjort det lätt för dig att bjuda in en extern revisor. Öppna bara sidan **Användare** och välj åtgärden **Bjuda in extern revisor** i menyfliksområdet. Ett e-postmeddelande är redo för dig, lägg bara till din revisors e-postadress för arbete och skicka inbjudan.  
+> [!Note]  
+> Detta kräver att du har installerat SMTP-e-post. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).   
 
 ![Bjud in din revisor](./media/finance-invite-accountant/invite-accountant.png)
-
-> [!TIP]  
-> Detta kräver att du har installerat SMTP-e-post. Du kan göra det själv eller fråga din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Dessutom måste du vara inloggad i [!INCLUDE[d365fin](includes/d365fin_md.md)] som en användaradministratör och inte som ansvarig chef eller andra användare. Slutligen kan ha du lämnat testföretaget så att du får en Azure Active Directory-administratör.  
 
 > [!IMPORTANT]  
 > Revisorns e-postadress måste vara en arbetsadress som baseras på ett Azure Active Directory. Om revisorn har en annan typ av e-post kan inte inbjudan skickas.  
 
-### <a name="separate-license"></a>Separera licens
-I bakgrunden läggs revisorn till i din Active Directory-innehavare. Administratören kan verifiera att revisorn har accepterat din inbjudan och tilldelas rätt licens. Stegen för att göra detta beror på vilken typ av konto som du använde när du registrerade dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det här avsnittet baseras på användning av ett Office 365-konto som använder Microsoft Azure Active Directory.  
+### <a name="behind-the-scenes"></a>Bakom kulisserna
+[!INCLUDE[d365fin](includes/d365fin_md.md)] omfattar tre licenser av typen extern revisor. Om ditt företag använder en extern revisor kan du ge åtkomst till din [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att tilldela dem en sådan licens. Mer information om licenser finns i [Microsoft Dynamics 365 Busincess Central licensieringsguide](https://go.microsoft.com/fwlink/?LinkId=871590). 
 
-Om du har aktiverat prenumerationen av [!INCLUDE[d365fin](includes/d365fin_md.md)] och är inte längre med utvärderingen företaget kan du har en Azure Active Directory för klientorganisation. Administratören eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner hanterar den här klientorganisationen i [Azure portal](https://portal.azure.com). Det är där nya användare läggs till och licenser används och tas bort. Mer information finns i [Microsoft Azure portalöversikten](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
+Om din prenumeration fortfarande har en tillgänglig licens kan administratören eller partnern lägga till en extern användare via Azure Portal och tilldela användaren den externa revisorlicensen. Mer information finns i [lägga till Azure Active Directory B2B-samarbetsanvändare i Azure-portalen](/azure/active-directory/b2b/add-users-administrator).
 
-En av licenstyperna för [!INCLUDE[d365fin](includes/d365fin_md.md)] är licens *externa revisorn*. Den här typen av licens är avsedd att användas av användare, till exempel externa revisorer. Detta innebär att du inte behöver köpa ett extra säte i den aktuella Active Directory eller använda en av dina befintliga [!INCLUDE[d365fin](includes/d365fin_md.md)]-konton på en extern revisor. Om din aktuella prenumeration i Office 365 omfattar 10 användare för exempelvis [!INCLUDE[d365fin](includes/d365fin_md.md)], och du använder 10 *fullständiga användare*-licenser kan din administratör bara lägga till en extern revisor som gästanvändare i Azure portalen och tilldela användaren licensen *extern revisor* utan extra kostnad. Du kan dock endast ha en användare med licensen *extern revisor*. Om du vill lägga till fler användare, måste du uppdatera prenumerationen på Office 365 i enlighet med detta.
+Du kan sedan bjuda in revisorn från [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av uiden för assisterad konfiguration **Bjud in extern revisor**. Eftersom den här uppgiften kräver åtkomst för att hantera användare och licenser i Azure Active Directory, måste dock användaren som skickar den här inbjudan tilldelas rollen **global administratör** eller **användaradministratör** i Office 365 administrationscenter. Mer information finns i [Om administratörsroller](/office365/admin/add-users/about-admin-roles) i Office 365 administratörsinnehållet. 
+
+## <a name="accountant-hub"></a>Accountant Hub
+Om du är en revisor med flera klienter, använd [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] för en bättre överblick över dina kunder. Härifrån kan du komma åt varje klients klientorganisationen i [!INCLUDE[d365fin](includes/d365fin_md.md)] och använda den för tollcentret redovisare som beskrivs ovan. Mer information finns i [Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
+
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] är för närvarande i allmän förhandsgranskning på ett begränsat antal marknader.
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
@@ -63,4 +62,4 @@ redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)  
 [Välkommen till [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 - Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 - Accountant Hub på Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  

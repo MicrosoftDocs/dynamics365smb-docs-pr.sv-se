@@ -1,8 +1,6 @@
 ---
 title: SÅ här använder du objektfamiljer i produktion | Microsoft Docs
 description: Huvuduppgiften när du anpassar en baskalender för företaget, eller någon av dess affärspartner, är att ange eventuella ändringar av status som arbetsdag eller ledig dag.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 483d78fcbb21cdfac8811c2bed06f591936577a9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d773c1c12bd170801b178c1627dc0b3dc718bdb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313018"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883148"
 ---
 # <a name="work-with-production-families"></a>Arbeta med produktionsfamiljer
 En produktionsfamilj är en grupp enskilda artiklar med liknande tillverkningsprocesser. Om du utformar produktionsfamiljer kan vissa artiklar tillverkas två eller flera gånger i en produktion, vilket optimerar materialförbrukningen.
@@ -30,11 +28,11 @@ I stansningsprocesser kan fyra enheter av en artikel produceras av ett ark och t
 Genom att skapa produktionsfamiljer minskas spillet eftersom materialet som vanligtvis blir över när stora enheter produceras kan användas till produktionen av små enheter.
 
 ## <a name="to-set-up-a-production-family"></a>Så här skapar du produktionfamilj
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Familjer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Familjer** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Om du vill skapa baserat på en produktionsfamilj
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Fasta planerade prod.order** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.
 2. Skapa en nu produktionsorder. För mer information, se [Skapa produktionsorder](production-how-to-create-production-orders.md).
 3. I fältet **Ursprungstyp** väljer du **Familj**.  
 4. I fältet **Ursprungsnr.** väljer du relevant produktionsfamilj.
@@ -44,6 +42,6 @@ Genom att skapa produktionsfamiljer minskas spillet eftersom materialet som vanl
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planerad](production-planning.md)   
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

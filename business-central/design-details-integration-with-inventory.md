@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Integrering med lager | Microsoft Docs
 description: Lagerledningsmodulen och lagermodulen interagerar med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 40b80ec45f998831c1fe71eb52a21f098c25dfdb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f38422326487a3fd7367b977e6124eab572fffd9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307114"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880382"
 ---
 # <a name="design-details-integration-with-inventory"></a>Designdetaljer: Integrering med lager
 Lagerledningsmodulen och lagermodulen interagerar med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.  

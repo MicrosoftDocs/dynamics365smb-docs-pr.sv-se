@@ -1,8 +1,6 @@
 ---
 title: Så här Batch-bokför du produktionsutflöde och körtid | Microsoft Docs
 description: Utflödesantalet representerar det pågående arbetet som det färdiga antalet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cc4acf5fbaf10df3b833e310a83854e52b0d2b73
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313258"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877793"
 ---
 # <a name="batch-post-output-and-run-times"></a>Batch-bokför utflöde och körtider
 Utflödesantalet representerar det pågående arbetet som det färdiga antalet.  
@@ -26,7 +24,7 @@ Utflödesantalet representerar det pågående arbetet som det färdiga antalet.
 > Endast när du bokför utflödesantalet för den sista operationen uppdateras lagret automatiskt.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Om du vill bokföra utflödeskvantiteter för produktion av en eller flera orderrader
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Utflödesjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **utflödesjournal** och välj sedan relaterad länk.  
 2. Fyll i fälten med data om produktionsorden och utdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om operationen har slutförts, välj fältet **FÄRDIG**.  
 
@@ -37,7 +35,7 @@ Utflödesantalet representerar det pågående arbetet som det färdiga antalet.
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Om du vill bokföra körtider för produktion av en eller flera rader
 Bearbetningstiden representerar det pågående arbetet som nödvändig arbetstid.    
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Utflödesjournal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **utflödesjournal** och välj sedan relaterad länk.  
 2. Fyll i fälten med data om produktionsorden och utdata.  
 3.  Om operationen har slutförts, välj fältet **FÄRDIG**.  
 4. Välj åtgärden **bokför** för att bokföra spenderad tid per operation. Kapacitetstransaktioner uppdateras för använt arbete eller maskingrupper.
@@ -46,6 +44,6 @@ Bearbetningstiden representerar det pågående arbetet som nödvändig arbetstid
 [Produktion](production-manage-manufacturing.md)    
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)      
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

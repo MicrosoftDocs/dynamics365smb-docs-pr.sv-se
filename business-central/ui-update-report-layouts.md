@@ -1,25 +1,23 @@
 ---
 title: Uppdatera en rapportlayout kontinuerligt | Microsoft Docs
 description: Du kan behöva uppdatera en anpassad rapportlayout som används i en rapport. Det krävs när en designändring har skett för rapportens datauppsättning, till exempel att ett fält som används i layouten har tagits bort från rapportdatauppsättningen.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314994"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876949"
 ---
-# <a name="updating-report-or-document-layouts"></a>Uppdatera rapport- eller dokumentlayouter
+# <a name="update-custom-report-layouts"></a>Uppdatera anpassade rapportlayouter
 Ibland kan du behöva uppdatera en anpassad rapportlayout som används i en rapport. Det krävs när en designändring har skett för rapportens datauppsättning, till exempel att ett fält som används i layouten har tagits bort från rapportdatauppsättningen. Om en rapportlayout kräver att uppdatering kommer du att få ett felmeddelande när du försöker att förhandsgranska, skriva ut eller spara rapporten.  
 
 Du kan automatiskt uppdatera rapportlayouten från felmeddelandet som visas när du kör en rapport genom att välja knappen **Ja** på felmeddelandet. Eller, innan du kör rapporter, kan du uppdatera specifika rapportlayouter eller alla anpassade rapportlayouter som kan påverkas av datauppsättningsändringar.  
@@ -30,7 +28,7 @@ Alla rapportdatauppsättningsändringar kan inte uppdateras automatiskt i rappor
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Så här uppdaterar du en eller flera anpassade rapportlayouter  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rapportlayouter** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportlayouter** och välj sedan relaterad länk.  
 
 2.  På sidan **rapportlayouter**, om du vill uppdatera in en viss layout i listan, väljer du layouten från listan och sedan åtgärden **uppdatera layouten**. Eller, om du vill uppdatera alla standardrapportlayouter för företaget, klickar du på åtgärden **uppdatera alla layouter**.  
 
@@ -38,7 +36,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 ## <a name="to-test-custom-report-layout-updates"></a>Så här testar du uppdateringar för en anpassade rapportlayout  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
 
 2.  På sidan **Val av rapportlayout** väljer du åtgärden **Testlayoutuppdateringar**.  
 

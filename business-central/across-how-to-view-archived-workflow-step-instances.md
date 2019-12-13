@@ -1,8 +1,6 @@
 ---
 title: Så här visar du arkiverade instanser för arbetsflödessteg | Microsoft Docs
 description: Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ec36ab8e884ee7f97b2bde8885bed895a81e09f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6797d407b2bb307e963b35ca8d8165982864b98
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305146"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881054"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visa arkiverade instanser för arbetsflödessteg
 Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.  
@@ -25,12 +23,12 @@ Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade i
  På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Så här visar du arkiverade instanser för arbetsflödessteg  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflöden** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflöden** och välj sedan relaterad länk.  
 2.  Öppna arbetsflödet som du vill visa alla arkiverade arbetsflödessteginstanser för.  
 3.  På sidan **Arbetsflöde** väljer du åtgärden **Arkiverade instanser för arbetsflödessteg**.  
 
     Sidan **Arkiverade instanser för arbetsflödessteg** öppnas med arkiverade instanser för arbetsflödessteg för det valda arbetsflödet.  
-4.  Alternativt kan du välja ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och gå till **Arkiverade instanser för arbetsflödessteg** och välj sedan relaterad länk.  
+4.  Alternativt kan du välja ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Arkiverade instanser för arbetsflödessteg** och välj sedan relaterad länk.  
 
 Sidan **Arkiverade instanser för arbetsflödessteg** öppnas och visar alla arkiverade instanser för arbetsflödessteg. I fältet **Arbetsflödeskod** kan du se vilket arbetsflöde den arkiverade instansen för arbetsflödessteg tillhörde.  
 

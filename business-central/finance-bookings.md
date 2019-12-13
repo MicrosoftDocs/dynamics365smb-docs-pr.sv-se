@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4dd32dee8a670a5774de3b9c4afe8367cc44d0fb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 924876abbe532384d568c6c260b22397f98a40ad
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302570"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879902"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365fin_mdmd"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 Om företaget använder appen Bookings i Office 365  kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
@@ -42,4 +42,4 @@ Stöd för faktureringsmöten från Bookings är enklare än det fullständiga a
 [Ekonomi](finance.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  

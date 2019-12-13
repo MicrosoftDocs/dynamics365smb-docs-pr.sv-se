@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du Operationsföljder | Microsoft Docs
 description: En verksamhetsföljd innehåller standarddata som samlar processkraven för en viss producerad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.orderverksamhetsföljd**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aa03051a02309944c66d3fdf89de12627af8c4bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79875b770dba5ef7b074bd3b7c52858f37951c25
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314102"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883292"
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
 Tillverkningsföretag använder verksamhetsföljder för att visa produktionsprocessen.
@@ -32,7 +30,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Så här skapar du en verksamhetsföljd  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **verksamhetsföljder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  I fältet **Typ**, markera **Seriell** för att beräkna produktionsverksamhetsföljden efter det värde som anges i fältet **Operationsnr**. .   
@@ -63,7 +61,7 @@ Du kan skapa verksamhetsföljdslänkar för att koppla ihop komponenter med spec
 
 En annan viktig fördel är att länkade komponenter och operationer visas i en logisk processtruktur när du använder sidan **Produktionsjournal** för bokföring av utdata och förbrukning.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **verksamhetsföljder** och välj sedan relaterad länk.  
 2.  Öppna verksamhetsföljden som innehåller operationen du vill länka.  
 
     Se till att verksamhetsföljden har statusen är **Under utveckling**.  
@@ -94,7 +92,7 @@ De markerade komponenterna länkas till de markerade operationerna när du skapa
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Tilldela personal, verktyg och kvalitetsmått för verksamhetsföljdsuppgifter.
 Om du behöver personal med kvalifikationer, specialkunskaper eller särskild behörighet för en operation kan du tilldela sådan personal till operationen. Dessutom kan du tilldela åtgärden med verktyg och kvalitet. Nedan beskrivs hur du tilldelar personal: Momentet är liknande för andra typer av åtgärdsinformation.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **verksamhetsföljder** och välj sedan relaterad länk.  
 2.  Öppna relevant verksamhetsföljd.  
 3.  På snabbfliken **rader** markerar du raden som du vill behandla och klickar på åtgärden **personal**.  
 4.  Fyll i fälten på sidan **Operationsföljd personal**.  
@@ -103,7 +101,7 @@ Om du behöver personal med kvalifikationer, specialkunskaper eller särskild be
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Så här skapar du nya versioner av verksamhetsföljder  
 Med versionsprincipen kan du hantera flera versioner av en verksamhetsföljd. Strukturen på verksamhetsföljdsversionen motsvarar strukturen på verksamhetsföljden som består av huvud och rader. Den grundläggande skillnaden definieras av startdatumet.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Operationsföljder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **verksamhetsföljder** och välj sedan relaterad länk.  
 2.  Markera verksamhetsföljden som ska kopieras och klicka på åtgärden **versioner**.  
 3. På sidan **verksamhetsföljdversioner** väljer du åtgärden **Ny**.
 4. Fyll i fälten om det behövs.
@@ -123,6 +121,6 @@ Versionens giltighetstid anges i fältet **Startdatum**.
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planerad](production-planning.md)   
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

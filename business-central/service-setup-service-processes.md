@@ -1,8 +1,6 @@
 ---
 title: Ställa in Servicehanteringsprocesser | Microsoft Docs
 description: Lär dig hur du ställer in processer som hjälper dig att se till att kunden är nöjd med din kundservice.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315858"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877141"
 ---
 # <a name="configure-service-processes"></a>Konfigurera serviceprocesser
 Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
@@ -29,7 +27,7 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 * Nummerserierna som ska användas för servicerelaterade dokument och artiklar.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se även  

@@ -1,8 +1,6 @@
 ---
 title: Fördelningsstatus och reparationsstatus | Microsoft Docs
 description: Lär dig mer om sambandet mellan reparationsstatus för serviceartiklar och fördelningsstatus för fördelningsposterna för dessa.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d63aaf615a8611e6c0bfb640469253aef27ca453
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316242"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882812"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
 Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  

@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du Baskalender | Microsoft Docs
 description: Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e643adf2f66cd1e8d49d0d3b943b92ba749cccf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c9c4b89122f9c8b905a864d39a559b7214ee7c5c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305482"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881222"
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Baskalender** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Baskalender** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fältet **Kod**.  
 4. Välj åtgärden **Bibehåll baskalenderändringar**.
@@ -66,7 +64,7 @@ I en baskalender visas exempelvis alla lördagar normalt som lediga dagar, medan
 
 I proceduren nedan används fallet med lagerstället som exempel: Lägg märke till att du i det här skedet redan har fördelat en baskalender till lagerstället.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.
 2. Öppna den plats som du vill uppdatera och välj sedan fältet **anpassad kalender**. Observera att en kalender måste markeras i fältet **Baskalenderkod**.
 3. På sidan **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
 4. I **Anpassa kalenderändringar** lägger du till rader för anpassade kalendertransaktioner.
@@ -102,7 +100,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 -   På kortet **Lagerställe** tilldelas baskalendern på snabbfliken **Lager**.  
 -   På sidan **Speditörer** fördelats baskalendern på sidan **Speditörsservice**.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  
 3.  På Snabbfliken **Leverans**, i fältet **Baskalenderkod**, markera den baskalender som du vill tilldela.  
 
@@ -117,5 +115,5 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

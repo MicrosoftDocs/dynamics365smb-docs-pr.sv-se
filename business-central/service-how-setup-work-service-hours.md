@@ -1,8 +1,6 @@
 ---
 title: Ställa in arbetstimmar och servicetider | Microsoft Docs
 description: Du kan ange servicearbetstider i företaget. Programmet använder dessa servicetider för att beräkna ett svarsdatum med tid för serviceorder och offerter och då svarstidsvarningar skickas ut.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311770"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877285"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Ställa in arbetstimmar och tjänstetider
 Ett tjänstehanteringssystem spårar vanligtvis resurstid och serviceorderstatus för prognostisering av arbetsbelastning och servicebehov. [!INCLUDE[d365fin](includes/d365fin_md.md)] har inbyggda verktyg som du kan anpassa om du vill registrera den här typen av information.  
@@ -29,7 +27,7 @@ När du arbetar på en serviceorder kan du uppdatera deras status, så att du ka
 ## <a name="to-set-up-default-service-hours"></a>Så här skapar du standard servicetider  
 Du kan använda sidan **Standard servicetider** för att definiera vilka servicearbetstider som gäller på företaget. Programmet använder dessa servicetider för att beräkna ett svarsdatum med tid för serviceorder och offerter och då svarstidsvarningar skickas ut. Standardservicetiden för servicekontrakt används automatiskt om du inte angett särskilda servicetider för ett kontrakt.  
   
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **standardservicetider** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Standard servicetider** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +36,7 @@ Du kan använda sidan **Standard servicetider** för att definiera vilka service
 ## <a name="to-set-up-work-hour-templates"></a>Så här skapar du arbetstidsmallar
 Du kan använda sidan **Arbetstidsmallar** för att skapa mallar som innehåller företagets vanligaste arbetstider. Du kan t.ex. skapa mallar för heltidstekniker och deltidstekniker. Använd arbetstidsmallar när du lägger till kapacitet i resurser.  
   
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetstidsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetstidsmallar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +47,7 @@ Du använder sidan **Servicekalender** när du lägger upp servicetid för kunde
   
 Om du inte skapar en specifik servicekalender för ett servicekontrakt, används standardtjänstkalendern i stället.  
   
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekontrakt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekontrakt** och välj sedan relaterad länk.  
 2. Öppna servicekontraktet du vill ställa in särskilda servicetimmar för och välj **Servicetimmar**.  
 4. Om du vill lägga upp en servicekalender baserat på en standardtjänstkalender, väljer du åtgärden **Kopiera standardtjänsttider**.  
 5. Redigera fälten i servicekalendertransaktionerna. Infoga eller ta bort transaktioner för att konfigurera servicekalendern för kontraktet. Observera att fälten **Dag**, **Starttid** och **Sluttid** måste anges för varje rad.  

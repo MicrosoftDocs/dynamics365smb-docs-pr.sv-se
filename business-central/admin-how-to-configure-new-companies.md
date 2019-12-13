@@ -1,8 +1,6 @@
 ---
 title: Så här konfigurerar du nya företag | Microsoft Docs
 description: Du kan konfigurera och anpassa ett nytt företag som du har skapat. Om du vill finjustera implementeringen fortsätter du i tre faser för att slutföra konfigurationen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3169663fd764bf4f7c9c6dc8895b152fdca19bd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304570"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878587"
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
 Om du vill konfigurera ett nytt företag i din lösningsimplementering följer du vanligtvis tre faser. I den första fasen importerar du ett konfigurationspaket som är en .rapidstart-fil med konfigurationsinformation. I den andra fasen ändrar du konfigurationsinformationen och tillämpar den sedan i det nya företaget. I slutfasen granskar du och rättar eventuella fel.  
@@ -28,15 +26,15 @@ Följande förfaranden förutsätter att du har initialiserat och öppnat ditt n
 
 ## <a name="to-import-a-configuration-package"></a>Så importerar du ett konfigurationspaket  
 1. Öppna det nya företaget i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 3. Välj åtgärden **Importera paket**.  
 4. Navigera till den plats där du har sparat .rapidstart-konfigurationspaketet och välj sedan knappen **Öppna**.  
-5. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk. Ange information om företaget på företagsinformationskortet. Ta med information som till exempel bankdetaljer. Du kan även ange en logotyp för företaget.  
+5. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företagsinformation** och välj sedan relaterad länk. Ange information om företaget på företagsinformationskortet. Ta med information som till exempel bankdetaljer. Du kan även ange en logotyp för företaget.  
 
 Alla tabeller som du har tilldelat för att ta med i det nya företaget importeras. I det här läget kan du koppla paketdata till databasen eller justera och ändra tabelldata för att uppfylla kundens specifikationer.  
 
 ## <a name="to-apply-package-data"></a>Så här kopplar du paketdata  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
 2. Välj en tabell som du vill modifiera data för, och välj sedan åtgärden **Koppla data**. Välj knappen **Ja** för att bekräfta kopplingen.
 3. Återgå till sidan **Konfig. kalkylblad** och välj åtgärden **Databasdata** för att bekräfta att datan nu finns i databasen och att kopplingen har lyckats.  
 
@@ -44,7 +42,7 @@ Alla tabeller som du har tilldelat för att ta med i det nya företaget importer
 >  När du har kopplat data kan du endast se dem i databasen. De finns inte längre i paketet.  
 
 ## <a name="to-modify-and-apply-package-data"></a>så här kan du ändra och koppla paketdata  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
 2. Välj en tabell som du vill modifiera data för, och välj sedan åtgärden **Paketera data**.  
 3. På sidan **Konfig. paketposter** gör du dina ändringar. Du kan till exempel ta bort alternativ som inte används.  
 4. Välj åtgärden **Koppla data** och sedan knappen **OK**.  
@@ -53,7 +51,7 @@ Alla tabeller som du har tilldelat för att ta med i det nya företaget importer
 ## <a name="to-locate-and-identify-a-configuration-error"></a>så här kan du hitta och identifiera ett konfigurationsfel  
 Det finns vissa typer av fel som kan uppstå när du kopplar data till en databas. Det vanligaste felet är inte att ta med alla relaterade tabeller som behövs. Du kan åtgärda felen i konfigurationskalkylbladet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Markera det paket som du vill granska och välj åtgärden **Redigera**.  
 
     Tabeller som innehåller fel markeras. Antalet paketfel visas i fältet **Antal paketfel**.  
@@ -62,7 +60,7 @@ Det finns vissa typer av fel som kan uppstå när du kopplar data till en databa
 
 ### <a name="to-fix-an-error"></a>Så här kan du lösa ett fel  
 1. Öppna företaget som baseras på ditt konfigurationspaket.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
 3. Korrigera fel genom att exempelvis lägga till saknade relaterade tabeller i kalkylbladet.  
 4. Lägg till tabellerna i ett befintligt konfigurationspaket eller skapa ett nytt paket som innehåller endast de nya tabellerna. För mer information, se [Förbereda ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md).  
 5. Öppna det nya företaget som du använder konfigurationen för igen.  

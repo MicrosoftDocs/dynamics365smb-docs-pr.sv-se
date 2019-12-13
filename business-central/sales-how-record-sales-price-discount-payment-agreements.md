@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9814da8c8a29c29e5bfee5da85f6d9b522a03e9d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 51c2260f4c8b5251cc466f8969921ee6cad92c1d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312154"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883028"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
 De olika pris- och rabattavtalen som gäller när du säljer till olika kunder måste definieras så att de överenskomna reglerna och värdena tillämpas på de försäljningsdokument som du skapar för kunden.
@@ -37,23 +37,23 @@ Eftersom försäljningsradrabatter och försäljningspriser baseras på en kombi
 > Om du inte vill att en artikel någonsin ska säljas till rabatterat pris, lämna bara rabattfält på artikelkortet tomt och inte ta med artikeln i någon inställning för radrabatt.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Så här skapar du försäljningspriser för en kund:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Priser.**.
 
-    Fältet **Förs.typ** är ifyllt med aktuell **kund** och fältet **Förs.kod** innehåller kundnumret.
+    På fältet **Försäljningspriser** förifylls fältet **Försäljningstyp** med **Kund** och fältet **Försäljningskod** förifylls med kundnumret.
 3. Fyll i fälten på den första raden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Så här skapar du försäljningsradrabatter för en kund
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter.**.
 
-    Fältet **Förs.typ** är ifyllt med aktuell **kund** och fältet **Förs.kod** innehåller kundnumret.
+    På fältet **försäljningsradrabatter** förifylls fältet **Försäljningstyp** med **Kund** och fältet **Försäljningskod** förifylls med kundnumret.
 3. Fyll i fälten på den första raden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja en speciell försäljningsradrabatt till kunden.
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Så här definierar du radrabatt för en kund
 När du har bestämt vilka kunder som är aktuella för fakturarabatter, skriver du fakturarabattkoderna på kundkorten och lägger upp villkoren för respektive kod.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Öppna kundkortet för en kund som är aktuell för fakturarabatter.
 3. Välj i fältet  **Fakturarabattkod** koden för den fakturarabatt som ska användas vid beräkning av fakturarabatter för kunden.
 
@@ -116,7 +116,7 @@ Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen d
 ## <a name="to-copy-sales-prices"></a>Så här kopierar du försäljningspriser  
 Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**.  batch-jobb. Du hittar en åtgärd för batch-jobbet på sidan **Försäljningsprisförslag**.    
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningspris ändringsformulär** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningspriskalkylark** och välj sedan relaterad länk.  
 2.  Välj **Föreslå förs.pris i ändringsformulär** .  
 3.  På snabbfliken **Förs.priser** fyller du i fälten **Förs.typ** och **Förs.kod** för de försäljningspriser som du vill kopiera.  
 4.  I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
@@ -129,7 +129,7 @@ Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds för
 ## <a name="to-bulk-update-item-prices"></a>Så här uppdaterar du flera artikelpriser samtidigt   
 Om du vill uppdatera priser i bulk, till exempel ökar alla priser med vissa procentsats måste du köra **Föreslå artikelpris i förslag.**  batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.     
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningspris ändringsformulär** och välj sedan relaterad länk.   
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningspriskalkylark** och välj sedan relaterad länk.   
 2.  Välj **Föreslå artikelpris i förslag** .   
 3.  På snabbfliken **Artikel** fyller du i fältet **Artikelnr.** eller **Lagerbokföringsmall** eller andra fält med de ursprungliga artikelpriser som du vill uppdatera.   
 4.  I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.

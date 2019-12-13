@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649722"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879138"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
 
 ## <a name="getting-the-add-in"></a>Skaffa tillägget
@@ -26,9 +27,13 @@ Det är lätt att komma igång med tillägget [!INCLUDE[d365fin](includes/d365fi
 När du sedan öppnar Outlook visas ett e-postmeddelanden från *Dynamics 365 Business Central-administratören*. De nya tilläggen läggs till på Outlook-menyfliken och i webbläsaren, kan du se tillägget [!INCLUDE[prodshort](includes/prodshort.md)] omedelbart ovanför e-postmeddelandets brödtext. Tillägget uppdateras regelbundet och du får ett meddelande att det finns en ny version för dig i Outlook.  
 
 > [!TIP]
-> Om du använder det nya Outlook i en webbläsare, sedan kan [!INCLUDE [prodshort](includes/prodshort.md)] tilläggsprogram vara dolda under **fler åtgärder**.
+> Om du använder det nya Outlook i webben, sedan kan [!INCLUDE [prodshort](includes/prodshort.md)] tilläggsprogram vara dolda under **fler åtgärder**. Om du ofta använder tillägget kan du fästa det så att det alltid visas direkt. Mer information finns i [använda tilläggsprogram i Outlook på webben](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Om du arbetar med mer än ett [!INCLUDE [prodshort](includes/prodshort.md)]-företag kan du enkelt växla mellan företag i Outlook.
+Om du arbetar med mer än ett [!INCLUDE [prodshort](includes/prodshort.md)]-företag kan du enkelt växla mellan företag i Outlook. I åtgärdsfältet för tillägg, välj **Fler åtgärder**, så kan du se alternativet för att växla mellan företag.  
+
+<!--TEMP-->
+> [!NOTE]
+> Växla mellan företag kräver [!INCLUDE [prodshort](includes/prodshort.md)] 2019 utgivningsplan 2 eller senare som meddelats i [utgivningsplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Så bör du kontrollera att du har en Office 365-prenumeration som innehåller e-post och låter dig distribuera tillägg. Om du vill testa tillägget i alla fall kan du [prova Office 365 gratis](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE [
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Minsta krav för Outlook](product-requirements.md#outlook)  
-[Använda tillägg i Outlook på Internet](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Använda tillägg i Outlook på Internet](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

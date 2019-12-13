@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315666"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882260"
 ---
 # <a name="copy-and-paste-faq"></a>Vanliga frågor om Kopiera och klistra in
 Du kan kopiera en eller flera rader (poster) i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post). Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS).
@@ -38,7 +38,7 @@ Om du vill kopiera en rad, markerar du den och trycker du på Ctrl + C.
 
 Om du vill kopiera fler rader kan du:
 - Tryck på Ctrl och klicka på en ny rad eller tryck på Skift + klicka för att markera raden och alla rader mellan. Se [kortkommandon](keyboard-shortcuts.md#CopyRows) för flera kombinationer av mus och tangentbord för att markera rader.
-- Välj ![Visa fler alternativ](media/show-more-options-icon.png "ikonen Visa fler alternativ") i den första kolumnen, välj **markera flera**, markera kryssrutan bredvid varje rad som du vill kopiera och tryck på Ctrl + C.
+- Välj ![Visa fler alternativ](media/show-more-options-icon.png "Ikonen Visa fler alternativ") i den första kolumnen, välj **markera flera**, markera kryssrutan bredvid varje rad som du vill kopiera och tryck på Ctrl + C.
 
 ## <a name="how-do-i-paste-rows"></a>Hur klistrar man in rader?
 Markera en tom rad, som är i fokus på en cell, och tryck sedan på Crtl + V.
@@ -56,7 +56,7 @@ Ja. Detta klistras in som en snyggt formaterad tabell som bevarar indrag, numeri
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>I vilken lista kan jag kopiera och klistra in rader?
 Du kan kopiera rader i alla typer av lista som innehåller kalkylblad, faktaboxar eller lista som är inbäddad på en sida (till exempel rader på en försäljningsorder). För att klistra in rader måste listan vara redigerbar.
 
-På vissa sidor kan utformningen göra att du inte kan klistra in rader. Kontakta administratören eller programutvecklare för att ändra den [redigerbar egenskap](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på sidan eller [PasteIsValid egenskap](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i källtabellen.
+På vissa sidor kan utformningen göra att du inte kan klistra in rader. Kontakta administratören eller programutvecklare för att ändra den [redigerbar egenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på sidan eller [PasteIsValid egenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i källtabellen.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>På vilka klienter finns kopiera och klistra in?
 Kopiera och klistra in är tillgängliga i webbläsaren eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen för Windows-10.

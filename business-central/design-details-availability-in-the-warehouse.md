@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Disposition i distributionslagret | Microsoft Docs
 description: Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cf793197ad607071df22aacb2fb98f96ac54597
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303802"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880622"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
 Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.  
@@ -49,7 +47,7 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 
  Följande diagram visar de olika elementen i beräkningen.  
 
- ![Plockas med reservation överlappad](media/design_details_warehouse_management_availability_2.png "Plockas med reservation överlappad")  
+ ![Tillgänglig för plockning med reservationsöverlappning](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
 
 ## <a name="quantity-available-to-reserve"></a>Disponibelt antal att reservera  
  Eftersom begreppen för lagerplatsinnehåll och reservation finns till samtidigt, måste antalet artiklar som är disponibla att reservera justeras mot fördelningar till utgående distributionslagerdokument.  
@@ -74,7 +72,7 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 
  Följande diagram visar de olika elementen i beräkningen.  
 
- ![Tillgänglig att reservera per lagerställe fördelningar](media/design_details_warehouse_management_availability_3.png "Tillgänglig att reservera per lagerställe fördelningar")  
+ ![Tillgänglig för reservering per lagerställefördelning](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

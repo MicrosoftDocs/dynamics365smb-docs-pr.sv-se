@@ -1,25 +1,23 @@
 ---
 title: Importera och exportera en rapport och dokumentlayout för | Microsoft Docs
 description: Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553824"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881972"
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a>Så här importerar och exporterar du en anpassad rapport eller dokumentlayout
+# <a name="import-and-export-custom-report-layouts"></a>Så här importerar och exporterar du en anpassad rapportlayout
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  
 
 > [!IMPORTANT]  
@@ -27,7 +25,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Så här exporterar du en rapportlayout till en fil  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
 
 2.  Markera raden för rapporten som innehåller den anpassade rapportlayouten som du vill exportera och välj sedan åtgärden **Anpassa layouter**.  
 
@@ -41,7 +39,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
      En Word-rapportlayoutfil måste ha filtypstillägget .docx. En RDLC-rapportlayoutfil måste ha filtypstillägget .rdlc eller .rdl.  
 
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.  
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
 
 3.  Markera raden för rapporten som du vill importera rapportlayouten till och välj sedan åtgärden **Anpassa layouter**.  
 

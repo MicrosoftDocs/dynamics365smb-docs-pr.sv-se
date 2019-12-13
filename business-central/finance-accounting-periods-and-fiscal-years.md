@@ -1,8 +1,6 @@
 ---
 title: Arbeta med bokföringsperioder och räkenskapsår | Microsoft Docs
 description: Lär dig hur du arbetar med bokföringsperioder för att definiera när företaget rapporterar resultat.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302626"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879854"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeta med bokföringsperioder och räkenskapsår
 Bokföringsperioder som även kallas rapporteringsperioder, är perioder som ett företag eller en organisation rapporterar resultat, exempelvis genom att generera deras resultat- eller balansräkning. Bokföringsperioder avser vanligtvis företagets räkenskapsår, som kan innehålla flera bokföringsperioder, till exempel månader eller kvartal.
@@ -34,7 +32,7 @@ Du kan skapa bokföringsperioder samtidigt, med hjälp av batch-jobbet **skapa r
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Så här skapar du flera redovisningsperioder samtidigt
 Använd batch-jobbet **skapa räkenskapsår** om du vill dela upp ett räkenskapsår i lika långa perioder.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Skapa år**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. I fältet **Startdatum** anger du det datum när räkenskapsåret börjar.  
 4. I fältet **Antal perioder** ange antalet bokföringsperioder som räkenskapsåret ska innehålla. Det kan finnas upp till 365 perioder per år.  
@@ -44,7 +42,7 @@ Använd batch-jobbet **skapa räkenskapsår** om du vill dela upp ett räkenskap
 ### <a name="how-to-create-accounting-periods-manually"></a>Så här skapar du flera redovisningsperioder manuellt
 Om redovisningsperioder för räkenskapsåret har olika varaktighet såsom 4-4-5-kalendern som används i detaljhandeln kan du manuellt ställa in den.  
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
 2. I fältet **Startdatum** anger du det datum när räkenskapsåret börjar. Fältet **Namn** visar namnet på månaden.  
 3. Markera kryssrutan **Nytt räkenskapsår** för att indikera att detta är den första perioden under året. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att använda denna period för att bestämma vilka perioder som avslutas vid årets slut.
 4. Upprepa steg 2 och 3 för varje återstående period.  
@@ -55,7 +53,7 @@ Avsluta räkenskapsåret är en av åtgärderna för att avsluta böckerna. Efte
 > [!NOTE]  
 >  Du måste alltid ha minst ett oavslutat räkenskapsår. När du avslutar ett år, försäkra dig om att ett nytt år har skapats. Notera även att efter att du avslutat ett år kan du inte ändra startdatumet för det följande året.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Bokföringsperioder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Avsluta år**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokför transaktioner till ett avslutat räkenskapsår.

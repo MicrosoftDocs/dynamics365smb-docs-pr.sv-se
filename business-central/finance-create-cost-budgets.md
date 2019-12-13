@@ -1,8 +1,6 @@
 ---
 title: Skapa kostnadsbudgetar | Microsoft Docs
 description: Det här avsnittet innehåller en översikt över var du skapar och analyserar kostnadsbudgetar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306418"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879830"
 ---
 # <a name="creating-cost-budgets"></a>Skapa kostnadsbudgetar
 Budgetering för kostnadsredovisning liknar budgetering i redovisningen. En kostnadsbudget skapas baserat på kostnadstyper, precis som en budget för redovisningen skapas baserat på redovisningskonton.  

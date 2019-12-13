@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: edupont
-ms.openlocfilehash: a22fe178668892472b05bcb554989dce0cc3d46d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 830c12f64c3701b583cf9569f85c67224941f77f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300815"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881246"
 ---
 # <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 
-En lista med de marknader som för närvarande stöds finns i [International tillgänglighet för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
+En fullständig lista över de marknader som stöds för närvarande finns i [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Lokal funktionalitet
 Välj lämplig länk om du vill ha information om den lokala funktionaliteten för varje land:
@@ -51,10 +51,11 @@ Välj lämplig länk om du vill ha information om den lokala funktionaliteten f�
 |        | Nya Zeeland | [Lokal funktionalitet för Nya Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Övriga länder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är tillgänglig även på andra marknader via lokaliseringsappar. Om en Microsoft-partner har skapat en lokaliseringsapp för ditt land hittar du den i [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] är tillgänglig även på andra marknader via lokaliseringsappar. Om en Microsoft-partner har skapat en lokaliseringsapp för ditt land hittar du den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  
 [Regelefterlevnad](compliance/compliance-overview.md)  
-[Internationella tillgängligheten för Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Internationella tillgängligheten för Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

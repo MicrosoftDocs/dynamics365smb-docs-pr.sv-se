@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316839"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881996"
 ---
 # <a name="list-views-faq"></a>Vanliga frågor om listvyer
 I det här avsnittet besvaras frågor som våra erfarna användare ofta ställer på att arbeta med listvyer och spara filter.  
@@ -58,7 +58,7 @@ Vissa systemvyer kan ha unika layouter för kolumnerna i listan. De kan t.ex. ar
 ### <a name="what-does-the-show-system-filters-link-do"></a>Vad gör länken Visa systemfilter?
 På vissa listsidor visas filterrutan **Visa systemfilter** längst ned i filterrutan när sidan innehåller filter som anges av systemet. Dessa speciella filter används vanligtvis för att visa poster som baseras på den aktuella kontexten, till exempel när en lista med order ska filtreras för en specifik kund.
 
-Systemfilter anges av utvecklare som använder filtergrupp 0. Teknisk information om systemfilter finns i [Filtergruppfunktion](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Systemfilter anges av utvecklare som använder filtergrupp 0. Teknisk information om systemfilter finns i [Filtergruppmetod](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Det finns flera vyer på sidan, men jag skapade dem inte. Varifrån kom de?
 De vyer som visas i en lista är en kombination av dina personliga vyer tillsammans med systemvyer. Systemvyer kan komma från affärsprogrammet, från tillägg eller kan vara rollspecifika om listan har anpassats för din roll.

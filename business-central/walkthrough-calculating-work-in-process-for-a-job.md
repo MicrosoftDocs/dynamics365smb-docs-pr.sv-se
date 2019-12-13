@@ -1,8 +1,6 @@
 ---
 title: 'Genomgång: Beräkna produkter i arbete för ett projekt | Microsoft Docs'
 description: Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med förbrukningen av resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98ecc7dad5857d36ca662d1b35d4e1d066e8f851
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ba3bb79978d9635239183e7bbfc14722951b222
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314874"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876997"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Genomgång: Beräkna produkter i arbete för ett projekt
 
@@ -62,7 +60,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 ### <a name="to-calculate-wip"></a>Så här beräknar du PIA  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
 2.  I listan **Projekt** väljer du projektet **Hjortfält** och väljer sedan åtgärden **redigera**. Projektkortet öppnas i redigeringsläge.  
 
      PIA kan beräknas baserat på metoderna Kostnadsvärde, Förs.värde, Försäljningskostnader, Färdigställningsgrad eller Slutfört kontrakt. I det här exemplet använder CRONUS kostnadsvärdemetoden.  
@@ -94,7 +92,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 ### <a name="to-review-wip-warnings"></a>Så här kan du granska PIA-varningar  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Cockpit för PIA för projekt** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **cockpit för PIA för projekt** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hjortfält** och välj sedan åtgärden **Visa varningar**.  
 3.  På sidan **Projekt - PIA-varningar** granskar du varningen som är kopplad till projektet.  
 

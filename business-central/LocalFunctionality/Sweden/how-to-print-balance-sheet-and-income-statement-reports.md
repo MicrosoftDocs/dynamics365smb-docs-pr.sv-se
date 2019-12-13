@@ -1,8 +1,6 @@
 ---
 title: Så här skriver du ut rapporterna Balansräkning och Resultaträkning
 description: Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9286eaa2237050e55018f31f13dc56b766588fa4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 32ae74372c72b23da9975f255361b05d8ecb3379
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301068"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881323"
 ---
 # <a name="print-balance-sheet-and-income-statement-reports"></a>Skriv ut rapporterna Balansräkning och Resultaträkning
 Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter. I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital. I rapporten **Resultaträkning** visas intäkter och kostnader.  
 
 ## <a name="to-print-a-balance-sheet-report"></a>Så här skriver du ut en balansräkningsrapport  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Balansräkning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **balansräkning** och välj sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
 3.  Markera kryssrutan **Visa alla konton** på snabbfliken **Alternativ** om du vill inkludera konton utan saldon.  
 4.  Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.  
 
 ## <a name="to-print-an-income-statement-report"></a>Så här skriver du ut en resultaträkningsrapport  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "ikonen Söka efter sida eller rapport"), ange **Resultaträkning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Resultaträkning** och välj sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
 3.  Markera kryssrutan **Visa alla konton** på snabbfliken **Alternativ** om du vill inkludera konton utan saldon.  
 4.  Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.  

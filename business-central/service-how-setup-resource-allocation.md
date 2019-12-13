@@ -1,8 +1,6 @@
 ---
 title: Så här ställer du in resursfördelningar | Microsoft Docs
 description: Lär dig hur systemet kan hjälpa dig tilldela någon som har de kvalifikationer som krävs för att tillhandahålla tjänster.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ee97797c9dabab188f1e6a2bbf2cb1f9846e7321
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f12e81a76712b8fa7704f3819b942ee0ba9773
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316170"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877453"
 ---
 # <a name="set-up-resource-allocation"></a>Så här skapar du resursfördelningar
 För att säkerställa att en serviceuppgift utförs är det viktigt att hitta en resurs som är kvalificerad att göra arbetet. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] så att det är enkelt att allokera någon som har rätt kunskaper för projektet. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kallas detta _resursfördelning_. Du kan fördela resurser utifrån deras kunskaper, tillgänglighet, eller om de finns i samma servicezon som kunden. 
@@ -29,29 +27,29 @@ Om du vill använda resursfördelning, måste du ställa in:
 * Om du vill visa resursernas kunskaper och zoner och om du vill visa en varning om någon väljer icke-kvalificerade resurser eller resurser som inte finns i kundzonen.  
 
 ## <a name="to-set-up-skills"></a>Så här ställer du in kvalifikationer
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **kvalifikationer** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **kvalifikationer** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Du tilldelar kvalifikationer till serviceartiklar och resurser.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceartiklar** eller **Resurser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **tjänsteartiklar** eller **resurser** och välj sedan relaterad länk.  
 2. Öppna kortet för den serviceartikel eller resurs och välj något av följande:  
   
     * För serviceartiklar, välj **Resurskvalifikationer**.  
     * För resurser, välj **kvalifikationer**.  
 
 ## <a name="to-set-up-zones"></a>Så här skapar du zoner:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **zoner** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **zoner** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Så här tilldelar du zoner till kunder och resurser 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** eller **Resurser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **kunder** eller **resurser** och välj sedan relaterad länk.  
 2. Öppna kortet för den serviceartikel eller resurs och välj något av följande:  
   
     * För kunder, väljer du en zon i fältet **Servicezonskod**.  
     * För resurser, väljer du åtgärden **servicezoner**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Om du vill ange vad som ska visas när en resurs har valts
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar** och välj sedan relaterad länk. 
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstinställningar** och välj sedan relaterad länk. 
 2. I fältet **Resurskvalifikationsförbr**, välj ett av alternativen som beskrivs i följande tabell.  
   
     |**Alternativ**|**Beskrivning**|  
@@ -63,14 +61,14 @@ Om du vill använda resursfördelning, måste du ställa in:
 ## <a name="to-update-resource-capacity"></a>Så här uppdaterar du resurskapacitet:  
 Du kan behöva ändra kapaciteten för resurser.  
   
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Resurskapacitet** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Resurskapacitet** och välj sedan relaterad länk.  
 2. Välj resursen och välj sedan åtgärd **Ange kapacitet**.  
 3. Gör önskade ändringar och klicka på **uppdatera kapacitet**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Uppdatera kunskaper för artiklar, serviceartiklar eller serviceartikelgrupper
 Om du vill ändra de kvalifikationskoder som har tilldelats till artiklar, till exempel från **PC** till **PCS**, gör du det för en artikel, serviceartikel eller för alla artiklar i en serviceartikelgrupp.  
   
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** eller **Serviceartiklar**, eller **Serviceartikelgrupp** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till **Artiklar** eller **Tjänsteartiklar** eller **Tjänstartikelgrupp** och välj sedan relaterad länk.  
 2. Välj enheten som ska uppdateras och välj sedan åtgärd **Resurskvalifikationer**.  
 3. På den rad där den kod som ska ändras finns, väljer du önskad kvalifikationskod i fältet **Kvalifikationskod**.  
 4.  Om artikeln har associerade serviceartiklar öppnas en dialogruta med två alternativ:  
@@ -82,6 +80,6 @@ Om du vill ändra de kvalifikationskoder som har tilldelats till artiklar, till 
 [Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
 [Ställa in arbetstimmar och tjänstetider](service-how-setup-work-service-hours.md)  
 [Konfigurera felrapportering](service-how-setup-fault-reporting.md)  
-[Skapa koder för standardtjänst](service-how-setup-service-coding.md)  
+[Skapa koder för standardtjänster](service-how-setup-service-coding.md)  
  
 

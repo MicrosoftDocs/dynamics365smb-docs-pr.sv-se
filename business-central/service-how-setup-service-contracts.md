@@ -1,8 +1,6 @@
 ---
 title: Konfigurera servicekontrakt | Microsoft Docs
 description: Så här skapar du servicekontrakt
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 785a1f813956fa769d55b9bd71544613ca463b5b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316146"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877357"
 ---
 # <a name="set-up-service-contracts"></a>Skapa servicekontrakt
 Innan du kan arbeta med kontrakt, måste du ställa in följande: 
@@ -28,19 +26,19 @@ Innan du kan arbeta med kontrakt, måste du ställa in följande:
 * **Kundmallar** låter dig skapa serviceofferter för kontakter eller potentiella kunder som inte är registrerade som kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Så här skapar du en servicekontraktsgrupp  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekontraktgrupper** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekontraktsgrupper** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markera kryssrutan **Endast rabatt på kont.order** om du vill att kontrakts- eller servicerabatter endast ska gälla för kontraktserviceorder, t.ex. underhåll.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Så här skapar du servicekontraktskontogrupper  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serv.kontrakt redov.konton** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serv.kontrakt redov.konton** och välj sedan relaterad länk.  
 2. Skapa en ny servicekontraktskontomall.   
 3. Fyll i fälten **Kod** och **Beskrivning**. Dessa fält beskriver servicekontogruppen.  
 4. Fyll i fältet  **Ej förutbetalt kontrakt**. Det här fältet innehåller redovisningskontonumret för det konto som inte är förutbetalt.  
 5. Fyll i fältet **Ej förutbetalt kontrakt**. Det här fältet innehåller redovisningskontonumret för det konto som inte är förutbetalt.  
 
 ## <a name="to-set-up-a-contract-template"></a>Så här skapar du en kontraktsmall  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekontraktmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekontraktsmallar** och välj sedan relaterad länk.  
 2. Skapa en ny servicekontraktsmall.  
 3. I fältet **Nr.** Skriv numret på den artikel som har beställts i kontraktmallen.  
   
@@ -50,7 +48,7 @@ Innan du kan arbeta med kontrakt, måste du ställa in följande:
 5. Välj åtgärden **Servicerabatter** om du vill lägga till kontraktsrabatter.  
 
 ## <a name="to-set-up-a-customer-template"></a>Så här skapar du en kundmall  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kundmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kundmallar** och välj sedan relaterad länk.  
 2. Skapa ett nytt kundmallskort.  
 3. Skriv en kod och en beskrivning av kundmallen på snabbfliken **Allmänt** i fälten **Kod** respektive **Beskrivning**. 
 4. Om du vill definiera sökvillkor fyller du i de andra fälten, till exempel **Lands-/regionkod**, **Distriktskod** och **Språkkod**.  

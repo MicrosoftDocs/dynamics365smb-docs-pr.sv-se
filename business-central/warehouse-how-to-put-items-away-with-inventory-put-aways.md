@@ -1,8 +1,6 @@
 ---
 title: 'Så här: Införa artiklar med lagerartikelinförsel | Microsoft Docs'
 description: När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det ankommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en ankommande överföringsorder eller en produktionsorder vars utflöde är klart för artikelinförsel.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaf527802d9b49f84e0c4261d4658f01382efa45
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 35305a5adddf178748811dc66bbf5ed6047d77a1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313886"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881708"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det ankommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en ankommande överföringsorder, montering eller en produktionsorder vars utflöde är klart för artikelinförsel.  
@@ -31,11 +29,11 @@ Du kan skapa en lagerartikelinförsel på tre sätt:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Så här begär du en lagerinförsel genom att släppa källdokumentet
 För försäljningsorder, inköpsreturorder och ingående överföringsorder och montering skapar du distributionslagerkravet genom att släppa ordern. Nedan beskrivs hur du gör detta från en inköpsorder.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
 2. Markera den inköpsorder som du vill släppa och välj sedan åtgärden **Släpp**.  
 
     För produktionsorder skapar du distributionslagerkravet genom att skapa ett ankommande krav från den släppta produktionsordern.  
-3.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Släppt produktionsorder** och välj sedan relaterad länk.  
+3.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Släppt produktionsorder** och välj sedan relaterad länk.  
 4. Välj åtgärden **Skapa ankommande dist.lagerkalkylark**.  
 
 > [!NOTE]  
@@ -45,7 +43,7 @@ När distributionslagerkravet har skapats kan någon som arbetar i distributions
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
 Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel baserat på släppta källdokument.   
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerinförsel** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinförsel** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **Källdokument** markerar du den typ av källdokument som du lägger ifrån dig.  
 4. I fältet **Ursprungsnr** markerar du källdokumentet.  
@@ -58,7 +56,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel ba
 3. Välj knappen **OK**. En ny lagerinförsel har skapats.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa lagerinförsel/plockning** och välj sedan relaterad länk.  
 2.  På snabbfliken **Dist.lagerkrav** i beställningssidan använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer.  
 3.  Välj fältet **Skapa lagerinförsel** på kryssrutan **Alternativ**.
 4.  Välj knappen **OK**. Anger numret för den bokförda artikelinförseln i lagret.

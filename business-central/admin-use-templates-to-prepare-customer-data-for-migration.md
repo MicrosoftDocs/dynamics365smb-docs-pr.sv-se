@@ -1,8 +1,6 @@
 ---
 title: Förbereda migrering av kunddata | Microsoft Docs
 description: När du har importerat och kopplat inställningsdatan i den nya databasen, kan du börja migrera kundens befintliga huvuddata, till exempel artikel- och kundnummer samt namn. För att se till att dessa data, skapas snabbt och exakt i det nya företaget, måste du använda mallar för att strukturera data.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307779"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896091"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Förbereda migrering av kunddata
 När du har importerat och kopplat inställningsdatan i den nya databasen, kan du börja migrera kundens befintliga huvuddata, till exempel artikel- och kundnummer samt namn. För att se till att dessa data, skapas snabbt och exakt i det nya företaget, måste du använda mallar för att strukturera data.  
@@ -34,9 +32,12 @@ Du kan dock skapa en mall struktur för, och koppla dem till valfri tabell i [!I
 > [!TIP]  
 >  Du kan också använda datamallar för dagliga operationer för att skapa nya poster som baseras på mallar. Dessa datamallar fungerar bara för de huvuddata tabellerna som stöds. Mer information finns i exempelvis [Registrera nya artiklar](inventory-how-register-new-items.md).  
 
-När du importerar kunddata från en fil, på samma sätt som för objekt, hämtas obligatoriska fältdata från den länkade datamallen. När du skapar en ny artikel anger du endast allmän information som namn, beskrivning och pris, och hämtar resten av obligatoriska fältdata från en vald datamall.  
+När du importerar kunddata från en fil, på samma sätt som för objekt, hämtas obligatoriska fältdata från den länkade datamallen. När du skapar en ny artikel anger du endast allmän information som namn, beskrivning och pris, och hämtar resten av obligatoriska fältdata från en vald datamall.
 
 När du skapar en ny huvuddatapost, till exempel ett kundkort, är vissa fält obligatoriska och måste fyllas i. Du kan gruppera de flesta obligatoriska fält, till exempel bokföringsgrupper och betalningsvillkor, för att skapa huvuddata registrerar enklare och stabilare. Du kan till exempel gruppera obligatoriska fält för tabell 18, **Kund**, som **Inrikes**, **Utrikes**eller **Exportera** typer.
+
+> [!NOTE]
+> Fält av BLOB-typen kan inte exporteras/importeras med Excel.
 
 ## <a name="to-select-a-data-template"></a>Så här väljer du en datamall
 När du väljer en befintlig datamall måste du utvärderar om de mallar som du skapat för det nya företaget är tillräckliga för kunden. Granska fälten och värdena för att bestämma vilka mallar som är lämpligt för ett nytt företag.  
@@ -44,7 +45,7 @@ När du väljer en befintlig datamall måste du utvärderar om de mallar som du 
 > [!TIP]  
 >  Med dessa datamallar kan du också snabbt skapa nya poster. Använd dem för snabbare och mer korrekt dataskapande. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
 2. På sidan **Konfigurationsmallar** väljer du en datamall i listan och sedan åtgärden **Redigera**.  
 
 Om standardmallarna inte uppfyller behoven kan du skapa nya mallar eller lägga till fält i en befintlig mall. Om standardmallarna är tillräckliga, kan du använda dem för att skapa transaktioner som baseras på huvuddatamallar.
@@ -89,7 +90,7 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 ## <a name="to-export-to-a-template-in-excel"></a>För att exportera till en mall i Excel
 Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsformulär** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
 2. Lägg till en tabell i listan eller välj en befintlig tabell. Mer information finns i [Administrera företagskonfigurationer i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definiera fälten från tabellen som ska ingå i mallen.
 4. Välj åtgärden **Exportera till mall**.
@@ -114,11 +115,11 @@ Du kan använda strukturen av data som finns i datamallarna för att konvertera 
 
 Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa en post från en datamall med samma procedur.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
 2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se [Att skapa en datamall](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Välj åtgärden **Skapa instans**. Ett artikelkort skapas.  
 4. Välj knappen **OK**.  
-5. För att granska de nya artikelkorten, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
+5. Om du vill granska det nya artikelkortet väljer du ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 6. Öppna det nya artikelkortet.  
 7. Expandera olika snabbflikar och verifiera att informationen skapas rätt på dem.  
 

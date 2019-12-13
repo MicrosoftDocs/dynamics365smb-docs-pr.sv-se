@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du förskottsfakturor | Microsoft Docs
 description: Mer information om hur du hanterar situationer där du eller leverantören kräver förskottsbetalning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5841329a2e369be081c2728edf1837e85859f38e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ee10367990ebb0e60879ac885ad03072dd877c2a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302146"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879734"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 Om du vill att dina kunder ska betala innan du levererar en order till dem eller om en leverantör kräver att du betalar innan de levererar en order till dig, kan du använda funktionen för förskottsbetalning.  
@@ -27,7 +25,7 @@ När du har skapat en försäljnings- eller inköpsorder kan du skapa en försko
 I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en försäljningsorder. Momenten är liknande för en inköpsorder.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2. Skapa en ny försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 
     På snabbfliken **Förskottsbetalning** fylls fältet **Förskottsbetalning %** fylls i automatiskt om det finns en standardprocentandel för förskottsbetalning på kundkortet. Du kan ändra innehållet i fältet. Procentandelen för förskottsbetalning kopieras bara från huvudet till de rader där standardprocentandelen inte kopieras från artikeln.  

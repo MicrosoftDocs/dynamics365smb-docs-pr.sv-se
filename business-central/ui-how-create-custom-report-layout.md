@@ -3,23 +3,23 @@ title: Så här skapar och ändrar du en anpassad layout för rapport eller doku
 description: Lär dig hur du kan skapa egna anpassade layouter för att personligt anpassa utseendet på rapporten när den visas, skrivs ut eller sparas.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311050"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882044"
 ---
-# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Så här skapar och ändrar du en anpassad rapport eller dokumentlayout
+# <a name="create-and-modify-custom-report-layouts"></a>Skapa och ändra anpassade rapportlayouter
 Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter. Du kan skapa egna anpassade layouter som du kan använda för att ändra utseendet på rapporten när den visas, skrivs ut eller sparas. Du kan skapa flera anpassade rapportlayouter för samma rapport, och sedan byta layout som används av en rapport efter behov.
 
 > [!NOTE]  
@@ -27,8 +27,10 @@ Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Wo
 
 Om du vill skapa en anpassad layout kan du antingen skapa en kopia av en befintlig anpassad layout eller lägga till en ny anpassad layout, som baseras i de flesta fall på en inbyggd layout. När du lägger till en ny anpassad layout kan du välja att lägga till en RDLC-rapportlayout, Word-rapportlayout eller både och. Den nya anpassade layouten baseras automatiskt på den inbyggda layouten för rapporten, om en är tillgänglig. Om det inte finns någon inbyggd layout för typen, skapas en ny tom layout som du måste ändra och utforma från noll. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).  
 
+När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att ange att valda layouter ska användas för de dokument som du skapar för kunden eller leverantören i fråga. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
+
 ## <a name="to-create-a-custom-layout"></a>Så här skapar du en anpassad layout
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Val av rapportlayout** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.
 
     På sidan **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företagsnamn** högst upp på sidan.
 2. Ange fältet **Företag** till företaget som du vill skapa rapportlayouten i.
@@ -68,7 +70,7 @@ Om du vill ändra en rapportlayout måste du först exportera rapportlayouten so
 
 5. I dialogrutan **Importera** väljer du **Välj** för att hitta och välja dokumentet och väljer sedan **Öppna**.
 
-##  <a name="MakeChangesToLayout"></a> Så här gör du ändringar i en Word-rapportlayout  
+##  <a name="MakeChangesToLayout"></a> Skapa och ändra anpassade rapportlayouter  
 Du kan göra allmänna formaterings- och layoutändringar, t.ex ändra textteckensnittet, lägga till och ändra en tabell eller ta bort ett datafält, genom att använda de grundläggande redigeringsfunktionerna i Word.
 
 Om du designar en Word-rapportlayout från noll eller lägger till nya datafält, starta då genom att lägga till en tabell som innehåller rader och kolumner som kommer att innehålla datafälten.
@@ -78,12 +80,12 @@ Om du designar en Word-rapportlayout från noll eller lägger till nya datafält
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inbäddade teckensnitt i Word-ayouter för konsistens
 
-För att säkerställa att rapporterna alltid visas och skrivs ut med planerade teckensnitt, oavsett om en användare öppnar eller skriver ut rapporter, kan du bädda in teckensnitt i Word-dokumentet. Men tänk på att inbäddade teckensnitt kan öka storleken på de Word-filerna väsentligt. Mer information om inbäddade teckensnitt i Word finns i [inbäddade teckensnitt i Word, PowerPoint eller Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+För att säkerställa att rapporterna alltid visas och skrivs ut med planerade teckensnitt, oavsett om en användare öppnar eller skriver ut rapporter, kan du bädda in teckensnitt i Word-dokumentet. Men tänk på att inbäddade teckensnitt kan öka storleken på de Word-filerna väsentligt. Mer information om inbäddade teckensnitt i Word finns i [inbäddade teckensnitt i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="RemoveField"></a> Ta bort rubrik- och datafält i Word-layouter  
  Rubrik- och datafält för en rapport finns i innehållskontroller i Word. Efterföljande diagram illustrerar en innehållskontroll när den har valts i Word-dokumentet.  
 
- ![Innehållskontroll för fält i Word-rapportlayout](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Innehållskontroll för fält i Word-rapportlayouter](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
  Namnet på rubriken eller datafältet visas i innehållskontrollen. I exemplet är fältnamnet CompanyAddr1.  
 

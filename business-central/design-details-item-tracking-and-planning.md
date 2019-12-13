@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Artikelspårning och planering | Microsoft Docs
 description: Eftersom de lagras i reservationssystemet koordineras artikelspårningsnummer helt med orderspårningsposter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303354"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880262"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designdetaljer: Artikelkoppling och planering
 Eftersom de lagras i reservationssystemet koordineras artikelspårningsnummer helt med orderspårningsposter. Det betyder att artiklar med orderspårningsposter kan tilldelas artikelspårningsnummer. Artiklar som har artikelspårningsnummer kan bli orderspårningsposter. Mer information finns i [Designdetaljer: Design av artikelspårning](design-details-item-tracking-design.md).

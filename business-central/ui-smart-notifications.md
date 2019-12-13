@@ -1,24 +1,23 @@
 ---
 title: Arbeta med smarta meddelanden och ange när du ser den | Microsoft Docs
 description: Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/29/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6e78a03e17348545805d0be889b62a2cb8187197
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4839de7b4deff107d8a1644367e28216eb8a789e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315018"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881948"
 ---
 # <a name="manage-notifications"></a>Hantera meddelanden
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hjälper dig att arbeta mer smart genom att meddela dig om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Dessa meddelanden visas som diskreta tips i kontexten för uppgiften som du gör, och du kan välja att ignorera meddelandet eller visa detaljer om utskick.  
 
 Om du väljer att visa detaljer för ett meddelande, kan du vidta vill att lösa problemet, som till exempel kontakta kunden, köpa mer lager och så vidare. Det är du som väljer vad som ska göras och [!INCLUDE[d365fin](includes/d365fin_md.md)] ger dig råd och rekommendationer.  
@@ -26,15 +25,18 @@ Om du väljer att visa detaljer för ett meddelande, kan du vidta vill att lösa
 Meddelandena hjälper otränade användare att slutföra obekanta uppgifter och minskar inte produktiviteten för den mer tränade användaren.  
 
 ## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Aktivera eller inaktivera meddelanden och kontrollera när de skickas
+
 När du först börjar med [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiveras alla meddelanden, men du kan aktivera dem eller inaktivera dem, till exempel om du inte är intresserad av en viss händelse eller status.  
 
 Dessutom låter dig vissa meddelanden ange de villkor enligt vilka de ska skickas. Exempelvis om du vill få ett meddelande när lagret är slut, men endast för de artiklar du vill köpa från en viss leverantör.  
 
 Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för dig.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Mina meddelanden** och välj sedan relaterad länk.
-2. Om du vill aktivera och inaktivera meddelanden markerar eller avmarkerar du kryssrutan **aktiverad**.
-3. Ange villkor som ska utlösa meddelanden genom att välja länken **Visa filterdetaljer** och fyll sedan i fälten.  
+1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj åtgärden **Mina inställningar**.  
+2. På sidan **Mina inställningar** i fältet **meddelanden**, välj *Ändra när jag får meddelanden.* länk.  
+3. Aktivera eller inaktivera ett meddelande på sidan som visas genom att markera eller avmarkera kryssrutan **aktiverad**.  
+4. Ange villkor som ska utlösa meddelanden genom att välja länken **Visa filterdetaljer** och fyll sedan i fälten.  
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

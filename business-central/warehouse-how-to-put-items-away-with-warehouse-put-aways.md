@@ -1,8 +1,6 @@
 ---
 title: 'Så här: Införa artiklar med dist.lager artikelinförsel | Microsoft Docs'
 description: När lagerstället kräver både inleverans- och artikelinförselbearbetning för distributionslagret använder du funktionen för distributionslagerartikelinförseldokumenten för att styra hur artiklar införs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 17743791d7694754f8b8eb97f6792a94b68176d2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f9c1e144e5574e04d1d5baec039d3f358839631e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310258"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881660"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället kräver både inleverans- och artikelinförselbearbetning för distributionslagret använder du funktionen för distributionslagerartikelinförseldokumenten för att styra hur artiklar införs.  
@@ -29,7 +27,7 @@ Beroende på hur lagret har ställts in görs raderna antingen tillgängliga fö
 Förutom standardsätten att skapa artikelinförslar i distributionslagret, som beskrivs i det här avsnittet, kan du skapa en artikelinförsel från den relaterade bokförda distributionslagerinleveransen. Detta är användbart om har tagit bort artikelinförselrader, eller om du använder dirigerad artikelinförsel och plockning och har bestämt dig för att inte använda artikelinförselkalkylarket, kan du skapa eller på nytt skapa artikelinförselanvisningar för bokförda inleveransrader.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Så här för du in artiklar utan dirigerad artikelinförsel och plockning  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförslar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelinförslar** och välj sedan relaterad länk.  
 2.  Öppna dist.lager artikelinförsel som är klara att hantera.  
 
     Du kan sortera Artikelinförselrader efter flera villkor, till exempel efter artikel, hyllnummer eller förfallodatum, och på så sätt optimera artikelinförselprocessen.  
@@ -37,7 +35,7 @@ Förutom standardsätten att skapa artikelinförslar i distributionslagret, som 
 4.  När du är klar och alla artiklarna har förts in klickar du på åtgärden **Registrera artikelinförsel** för att registrera artikelinförseln och göra artiklarna tillgängliga för plockning.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Så här för du in artiklar med dirigerad artikelinförsel och plockning  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförslar** och välj sedan relaterad länk.
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelinförslar** och välj sedan relaterad länk.
     Om instruktioner för artikelinförseln skapats visas en lagerartikelinförsel.  
 2.  Öppna Dist.lager artikelinförsel som du vill arbeta med.  
 3.  Om distributionslagret kräver det anger du ditt användar-ID på snabbfliken **Allmänt** när du börjar arbeta med en särskild artikelinförsel.  
@@ -65,7 +63,7 @@ Lagerplatsordningen beaktas när fler än en lagerplats matchar villkoren i arti
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Att skapa en artikelinförsel från en bokförd inleveransen  
  Om du använder både bearbetning av artikelinförsel och inleverans för lagerstället, måste du ta bort artikelinförselrader. Om du använder dirigerad artikelinförsel och plockning och har bestämt dig för att inte använda artikelinförselkalkylarket, kan du  skapa eller på nytt skapa artikelinförselanvisningar för bokförda inleveransrader.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda dist.lager inleveranser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda dist.lager inleveranser** och välj sedan relaterad länk.  
 2.  Välj en bokförd inleverans som kan behöva föras in.  
 3.  Välj åtgärden **Kort**.  
 

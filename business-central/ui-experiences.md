@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775337"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882164"
 ---
 # <a name="change-which-features-are-displayed"></a>Ändra vilka funktioner som visas
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är utformat för att hjälpa dig att driva företaget oavsett storlek och komplexitet. I produktens kärna finns viktiga funktioner, till exempel ekonomisk rapportering, försäljning, inköp och lagerhantering. När affärs komplexiteten ökar kan du t.ex. aktivera funktioner för produktion och tjänsthantering.
@@ -40,10 +40,10 @@ Innan du definierar ett företags upplevelseinställning definierar du användar
 Inställningen **Upplevelse** gäller för alla användare i ett företag, men varje användare kan anpassa sin egen upplevelse ytterligare genom att ändra sidlayouter och innehåll. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivera Premium-funktioner när du har uppgraderat en Plan
-Användare som är tilldelade till planer i Office 365 administratörscentret i samband med det allmänna arbetet som Business Central användare skapar. Mer information finns i [Lägg till användare till Office 365 för företag](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
+Användare som är tilldelade till planer i Microsoft 365 administratörscentret i samband med det allmänna arbetet som Business Central användare skapar. Mer information finns i [Lägga till användare individuellt eller i bulk till Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Uppdatera planändringar i användargrupper
-När du har gjort en ändring i planer för användare i Office 365 administratörscentret, såsom tilldelat premiumplanen till flera användare, måste du visa ändringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+När du har gjort en ändring i planer för användare i Microsoft 365 administratörscentret, såsom tilldelat premiumplanen till flera användare, måste du visa ändringarna i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Logga in som en administratör.
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.

@@ -1,8 +1,6 @@
 ---
 title: Plocka artiklar | Microsoft Docs
 description: Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa [inställningarna](../configure-warehouse-processes.md) är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med enbart hantering av order för order i en eller flera aktiviteter och vidare till avancerade konfigurationer där alla lageraktiviteter måste utföras i ett dirigerat arbetsflöde.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 23c01374b7b044c8f497126ef6409bf27b80dffe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3922c9696c7b0a06e49c0bfc505343bdfb58b231
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313838"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881516"
 ---
 # <a name="pick-items"></a>Plocka artiklar
 Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplex det är kan sträcka sig från inga lagerkonfigurationer, till grundläggande lagerstyrning med hantering av order för order i en eller flera aktiviteter samt avancerade konfigurationer där alla lageraktiviteter måste utförs i ett dirigerat arbetsflöde. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).

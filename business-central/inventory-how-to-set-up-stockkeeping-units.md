@@ -1,8 +1,6 @@
 ---
 title: Så här konfigurerar du lagerställeenheter | Microsoft Docs
 description: Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c8ffde6f15bc50af691151ad652bfc5332f1c9f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ae8e8011d336f9cbc5c217bc2c715bd733cfb756
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309778"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878283"
 ---
 # <a name="set-up-stockkeeping-units"></a>Ställa in lagerställeenheter
 Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.  
@@ -26,7 +24,7 @@ Du kan använda lagerställeenheter för att registrera artikelinformation som r
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Så här skapar du lagerställeenheter  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerställeenheter** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerställeenheter** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten på kortet. Följande fält är obligatoriska: **Artikelnr**, **Lagerställekod**och/eller **Variantkod**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

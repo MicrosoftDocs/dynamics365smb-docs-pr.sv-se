@@ -1,8 +1,6 @@
 ---
 title: 'Så här: Tilldela standardlagerplatser till artiklar | Microsoft Docs'
 description: Om du använder lagerplatser för ett lagerställe blir det mycket enklare för dig att leverera, inleverera och flytta artiklar om du tilldelar dem standardlagerplatser. När en artikel tilldelas en standardlagerplats kommer denna lagerplats att föreslås varje gång du påbörjar en transaktion för artikeln.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5183ce89e13b7d8aa33d3a32ebbe462cb024e9f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9a6efce014d3332a5dbb2f92a50c591c0c82eac
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310426"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881852"
 ---
 # <a name="assign-default-bins-to-items"></a>Tilldela standardlagerplatser till artiklar
 Om du använder lagerplatser för ett lagerställe blir det mycket enklare för dig att leverera, inleverera och flytta artiklar om du tilldelar dem standardlagerplatser. När en artikel tilldelas en standardlagerplats kommer denna lagerplats att föreslås varje gång du påbörjar en transaktion för artikeln. Standardlagerplatser definieras på sidan **Lagerplatsinnehåll**.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>Så här tilldelar du en standardlagerplats till en artikel
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatsinnehålluppl förslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerplatsinnehålluppl förslag** och välj sedan relaterad länk.  
 2.  Fyll i lagerplatskoden och information om artiklar för respektive lagerplats som du vill ange som standard för en artikel. Se till att välja **Standard** här fältet.  
 3.  Välj åtgärden **Skapa lagerplatsinnehåll**. Din artikel tilldelas nu standardlagerplatser.  
 
@@ -32,7 +30,7 @@ Om du använder lagerplatser för ett lagerställe blir det mycket enklare för 
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>Så här ändrar du standardlagerplatser en artikel  
 Ibland kan det bli nödvändigt att ändra fördelningen av standardlagerplats för en viss artikel, eller tilldela en ny artikel en standardlagerplats.    
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplatsinnehåll** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplatsinnehåll** och välj sedan relaterad länk.  
 2.  Välj tillämplig lagerställekod i fältet **Lagerställefilter**.  
 3.  Sök efter aktuell post för standardlagerplatsinnehåll för artikeln och avmarkera kryssrutan **Standardlagerplats**.  
 4.  Sök efter raden för lagerplatsinnehåll för den lagerplats som du vill använda som ny standardlagerplats. Markera kryssrutan **Standardlagerplats**.  

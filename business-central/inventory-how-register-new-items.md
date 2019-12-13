@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 521ebb4ec1a1687ea4263f8f181dc32c69f2ad63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309893"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878347"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 Artiklar, bland andra produkter, utgör basen för ditt arbete, varorna eller tjänster som du handlar med. Varje artiklar måste registreras som ett artikelkort.
@@ -34,10 +34,12 @@ Artiklar som du erbjuder dina kunder men som du inte vill hantera i ditt system,
 > [!NOTE]  
 > Om artikelmallar finns för olika artikeltyper, visas en sida när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
 
-I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan också skapa nya artikelkort genom att kopiera befintliga artiklar. Mer information finns i [kopiera befintliga objekt om du vill skapa nya objekt](inventory-how-copy-items.md).
+I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan också skapa nya artikelkort genom att kopiera befintliga artiklar. Mer information finns i [kopiera befintliga objekt om du vill skapa nya objekt](inventory-how-copy-items.md).<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 2. På sidan **Artiklar** väljer du åtgärden **Ny**.
 
     Om endast en artikelmall finns, då öppnas ett nytt artikelkort med fält ifyllda med information från mallen.
@@ -50,7 +52,7 @@ I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan 
 >
 > Om du använder **Genomsnitt** beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att på sidan **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
-På snabbfliken **Pris och bokföring** ser du specialpriser eller rabatter som du beviljar för artikeln om vissa villkor uppfylls, till exempel kund, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
+Du kan visa eller redigera specialpriser eller rabatter som du beviljar för artikeln om vissa kriterier uppfylls, till exempel kund, lägsta partistorlek eller slutdatum Det gör du genom att välja åtgärderna **ange särskilda priser** eller **ange särskilda rabatter**. Varje rad på, t.ex. sidan **försäljningspriser**, representerar ett specialpris. Varje kolumn representerar ett kriterium som måste användas för att ge kunden det särskilda pris som du anger i fältet **enhetspris** på sidan **försäljningspriser**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Artikeln är nu registrerad, och artikelkortet är klart att användas i försäljningsdokument.
 
@@ -68,7 +70,7 @@ Artikelmallen läggs till listan över artikelmallar, så att du kan använda de
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Så här lägger du upp flera leverantörer för artiklar  
 Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t.ex. priser, ledtid och rabatter.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 2.  Välj relevant artikel och välj sedan åtgärden **Artikel**.  
 3.  Välj åtgärden **Leverantörer**.  
 4.  Välj fältet **Leverantörsnr** och välj sedan leverantör som du vill lägga upp för artikeln.  
@@ -79,7 +81,7 @@ Leverantörer visas nu på sidan **Artikelleverantörskatalog** som du kan öppn
 
 ## <a name="see-also"></a>Se även
 [Skapa nummerserier](ui-create-number-series.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

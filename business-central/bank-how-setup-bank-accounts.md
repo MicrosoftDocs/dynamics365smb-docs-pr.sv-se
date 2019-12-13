@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 07274a495ba7047fafaf31a94225ac29b05aabb4
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0e6d9bb39e36ca127ab9d64eb045ab4c64b91d30
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692782"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880742"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Vhpl]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl]
 
 ## <a name="to-set-up-bank-accounts"></a>Så här skapar du bankkonton
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.

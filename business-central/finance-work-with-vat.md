@@ -1,8 +1,6 @@
 ---
 title: Så här arbetar du med moms på försäljning och inköp | Microsoft Docs
 description: Det här avsnittet beskriver hur du utför uppgifter som att rätta bokförd moms i EU-länder/regioner, där varje försäljnings- och inköptransaktion är momspliktiga. Det här avsnittet beskriver hur.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e9e8ecf2c53a168fe0dee28a8e9dce8b2db11fa4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554188"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882452"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -95,14 +93,14 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurera inköp för bokföring av fakturor med specificerad importmoms  
 1. Skapa ett leverantörskort för den importavdelning som skickar importmomsfakturan till dig. **Gen. rörelsebokföringsmall** och **Moms rörelsebokföringsmall** måste ställas in på samma sätt som redovisningskontot för importmomsen.  
 2. Skapa en **produktbokföringsmall** för importmomsen och skapa **produktbokf.mall för standardmoms** för den kopplade **produktbokföringsmallen** för importmomsen.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
 4. Välj redovisningskontot för importmoms och välj sedan åtgärden **Redigera**.  
 5. På snabbfliken **Bokföring**  i fältet **Produktbokföringsmall** för importmomsen. [!INCLUDE[d365fin](includes/d365fin_md.md)] fyller automatiskt i **Moms, produktbokföringsmall**.  
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 7. Skapa en kombination av **Gen. rörelsebokföringsmall** för skattemyndigheterna och **Produktbokföringsmall** för importmoms. Välj importmervärdeskattredovisningskontot för den här nya kombinationen i fältet **Inköpskonto**.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Så här skapar du en ny faktura för leverantören när du har slutfört inställningen  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
 2. Skapa en ny inköpsfaktura.  
 3. I fältet **Inköpsleverantörsnr** markerar du leverantören och klickar på **OK**.  
 4. I inköpsraden, i fältet **Typ** välj **Redovisningskonto**, och i fältet **Nr.** markera redovisningskontot för importmoms.  
@@ -114,7 +112,7 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 När du säljer varor till en kund i ett annat EU-land/region, måste du skicka kunden ett leveransintyg som kunden måste signera och returnera till dig. Följande tillvägagångssätt används för att behandla leveransintyg för försäljningsutleveranser, men samma moment gäller för serviceleveranser av artiklar och returutleveranser till leverantörer.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Så här visar du information om leveransintyg  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. Välj **Information om leveransintyg**.  
 4. Som standard, om den momsbokföringsmall som har ställts in för kunden har kryssrutan **Leveransintyg krävs** markerad, så är fältet **Status** angett till **Obligatoriskt**. Du kan uppdatera fältet för att visa om intyget har tagits emot från kunden.  
@@ -133,7 +131,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
     >  Du kan granska och skriva ut dokumentet. När du väljer **Skriv ut leveransintyg** och skriver ut dokumentet, väljs kryssrutan **Utskrivet** automatiskt. Dessutom, om den inte redan har angetts, uppdateras statusen för intyget till **Obligatoriskt**. Du inkluderar det utskrivna intyget med utleveransen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Så här skriver du ut ett leveransintyg  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. Välj **Skriv ut leveransintyg**.  
 
@@ -151,7 +149,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 8. Du måste skicka det utskrivna leveransintyget till kunden för signatur.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Så här uppdaterar du statusen för ett leveransintyg för en utleverans  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. I fältet **Status** väljer du önskat alternativ.  
 
@@ -164,7 +162,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 Om du vill visa en grupp av certifikat startar du från på sidan **Leveransintyg** och uppdaterar sedan information om status för utestående intyg när du tar emot dem från kunderna. Det kan vara användbart när du vill söka efter alla intyg som har en viss status, till exempel **Obligatoriskt**, för vilka du vill uppdatera statusen till **Ej inlevererat**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Så här uppdaterar du statusen för en grupp med leveransintyg  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leveransintyg** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **leveransintyg** och välj sedan relaterad länk.  
 2. Filtrera fältet **Status** fältet till värdet som du vill ha för att skapa listan över intyg som du vill hantera.  
 3. Om du vill uppdatera information om status, Välj **Redigera lista**.  
 4. I fältet **Status** väljer du önskat alternativ.  

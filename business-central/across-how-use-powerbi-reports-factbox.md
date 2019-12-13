@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8acad8d0be760f567902587acada49ab68e740f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304941"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879433"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visa listdata i Power BI-rapporter i Business Central
 
 [!INCLUDE[prodlong](includes/prodlong.md)] innehåller ett faktaboxkontrollelement på flera viktiga listsidor som ger ytterligare information om data i listan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter som ska visas i kontrollen, men det finns några regler som gäller när du skapar rapporter för att se till att de ger önskat beteende.  
 
 > [!NOTE]  
-> Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Du måste också hämta [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) för att skapa egna rapporter. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md).  
+> Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Du måste också hämta [Power BI Desktop](https://powerbi.microsoft.com/desktop/) för att skapa egna rapporter. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatauppsättning
 När du skapar rapporten i Power BI Desktop, anger du datakällan eller webbtjänsten som innehåller de data som är relaterade till listan som du vill associera med rapporten. Om du vill skapa en rapport för försäljningslistan ser du till att datauppsättningen innehåller information om försäljning.  

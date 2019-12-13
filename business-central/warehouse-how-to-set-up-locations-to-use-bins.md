@@ -1,8 +1,6 @@
 ---
 title: Så här ställer du in lagerställen att använda lagerplatser | Microsoft Docs
 description: Lagerplatser representerar den grundläggande lagerstrukturen och används för att lägga förslag om artiklarnas specifika placering av artiklar. När du har skapat lagerplatserna kan du definiera det innehåll som du vill placera på respektive lagerplats, eller så kan lagerplatsen fungera som en flytande lagerplats utan att något särskilt innehåll har angetts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f2d7ecc163737c103c91b2a28a6a8072fad89279
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a77e72df87778b965978e938c05ad2b7b6e773ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310186"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881588"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Registrera lagerställen för att använda lagerplatser
 Lagerplatser representerar den grundläggande lagerstrukturen och används för att lägga förslag om artiklarnas specifika placering av artiklar. När du har skapat lagerplatserna kan du definiera det innehåll som du vill placera på respektive lagerplats, eller så kan lagerplatsen fungera som en flytande lagerplats utan att något särskilt innehåll har angetts.  
@@ -28,7 +26,7 @@ Om du vill använda lagerplatsfunktionerna på ett lagerställe måste du först
 >  Innan du kan ange lagerplatskoder på lagerställekortet, måste lagerplatskoderna skapas. Mer information finns i [Skapa lagerplatser](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Så här lägger du upp ett lagerställe för att använda lagerplatser  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
 2.  Välj lagerstället där du vill använda lagerplatser.  
 3.  Välj åtgärden **Redigera**.  
 4.  Markera fältet **Lagerplats ska finnas** på kryssrutan **Dist.lager**.  
@@ -47,7 +45,7 @@ Diagrammet visar hur **Lagerplatskod** på produktionsorderkomponentraderna fyll
 
 ## <a name="see-also"></a>Se även
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

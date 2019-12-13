@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301714"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879495"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  
@@ -56,7 +56,7 @@ För att hjälpa dig att komma igång, finns vissa konto- och kassaflödeinstall
 Du anger dessa inställningar genom att söka efter **kassaflödeskonton**, väljer länken och fyller sedan i fälten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Upprepa stegen för **Kassaflödesinställningar**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurera kassaflödesprognoser.
-Diagrammet **kassaflödesprognos** använder kassaflödeskonton, kassaflödesinställningar för kassaflödesprognoser. Vissa tillhandahålls, men du kan ställa in egna med hjälp av en assisterade konfigurationsguiden. Guiden hjälper dig att ange saker som till exempel hur ofta du uppdaterar prognosen, kontona som du vill basera den på, information om när du betalar skatter och om du ska använda [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
+Diagrammet **kassaflödesprognos** använder kassaflödeskonton, kassaflödesinställningar för kassaflödesprognoser. Vissa tillhandahålls, men du kan ställa in egna med hjälp av en assisterade konfigurationsguiden. Guiden hjälper dig att ange saker som till exempel hur ofta du uppdaterar prognosen, kontona som du vill basera den på, information om när du betalar skatter och om du ska använda [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
 Kassaflödesprognoser kan använda Azure AI för att inkludera dokument med förfallodatum senare. Resultatet blir en mer omfattande prognos. Anslutningen till Azure AI redan ställts in åt dig. Du måste aktivera den. När du loggar in i [!INCLUDE[d365fin](includes/d365fin_md.md)], visas ett meddelande i en blå stapel och innehåller en länk till standardinställning för kassaflödesinställningen. Meddelandet visas endast en gång. Om du stänger den och bestämmer dig för att aktivera Azure AI använder du den assisterade inställningsguiden eller en manuell process.  
 
@@ -67,14 +67,14 @@ Så här använder du guiden för assisterad konfiguration:
 
 1. I rollcentret Revisor, under diagrammet **kassaflödesprognos** väljer du åtgärden **Öppna assisterad konfiguration**.  
 2. Fyll i fälten som behövs i varje steg i guiden.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesprognos** och välj sedan relaterad länk.
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesprognos** och välj sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 Så här använder du en manuell process:  
 
 1. I rollcentret revisor söker du **Kassaflödesinställningar**, och väljer sedan relaterad länk.  
 2. Expandera snabbfliken **Azure AI** och markera sedan kryssrutan **Azure AI aktiverad**.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesprognos** och välj sedan relaterad länk.
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesprognos** och välj sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
+6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
 7. Expandera snabbfliken **Azure AI** och fyll i fälten.  
 
 ## <a name="see-also"></a>Se även

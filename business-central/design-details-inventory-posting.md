@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Lagerbokföring | Microsoft Docs
 description: Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför två transaktioner av olika typer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71ee3624868f546ec7b45f5177dcc61acc5b7a21
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303408"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880310"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
 Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför två transaktioner av olika typer.  
@@ -33,7 +31,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
  Med regelbundna intervall bokförs värdetransaktioner som skapas i inventeringen i redovisningen för att stämma av de två redovisningarna för ekonomisk kontroll. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Transaktionsflöde vid avstämning av lagret med redovisning](media/design_details_inventory_costing_1_entry_flow.png "Transaktionsflöde vid avstämning av lagret med redovisning")  
+ ![Transaktionsflöde vid avstämning av lager med redovisning](media/design_details_inventory_costing_1_entry_flow.png "Transaktionsflöde vid avstämning av lager med redovisning")  
 
 ## <a name="example"></a>Exempel  
  Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artikelkopplingstransaktioner skapas i redovisningstransaktioner.  

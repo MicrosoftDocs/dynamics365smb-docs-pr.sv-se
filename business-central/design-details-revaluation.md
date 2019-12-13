@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Omvärdering | Microsoft Docs
 description: Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c60dddbf5e559fbbcf7990cd4a5cc62da2459e63
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303034"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880046"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
 Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.  
@@ -41,7 +39,7 @@ Eftersom omvärderingen kan göras vilket datum som helst, måste du ha regler f
 ### <a name="example"></a>Exempel  
 Följande exempel visar när en PIA-artikel övergår till att bli en del av lagret. Följande exempel baseras på produktionen av en kedja med 150 länkar.  
 
-![PIA lager och omvärdering](media/design_details_inventory_costing_10_revaluation_wip.png "PIA lager och omvärdering")  
+![PIA - omvärdering av lager](media/design_details_inventory_costing_10_revaluation_wip.png "PIA - omvärdering av lager")  
 
 **1Q**: Användaren bokför de inköpta länkarna som inlevererade. Följande tabell visar den resulterande artikeltransaktionen.  
 

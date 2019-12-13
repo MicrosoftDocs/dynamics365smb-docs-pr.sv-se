@@ -1,8 +1,6 @@
 ---
 title: Planera plockningar i kalkylarket | Microsoft Docs
 description: Om distributionslagret kräver både plocknings- och utleveransbearbetning kan du välja att raderna i utleveransdokument inte automatiskt ska omvandlas till plockningsinstruktioner, utan i stället göras tillgängliga i plockningskalkylarket.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7b1b8f2fd422fd137950b0a83bd14431e843c67e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313958"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881732"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planera plockningar i kalkylark
 Om distributionslagret kräver både plocknings- och utleveransbearbetning kan du välja att raderna i utleveransdokument inte automatiskt ska omvandlas till plockningsinstruktioner, utan i stället göras tillgängliga i plockningskalkylarket.  
@@ -39,11 +37,11 @@ Om du sorterar efter förfallodatum kan du välja att ta bort alla rader i kalky
 >  Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för montering eller produktion i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Så här planerar du plockningar i kalkylarket  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Plockningsförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Hämta kalkylark** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument**.  
 3.  Välj de utleveranser som du vill förbereda en plockning för. Du kan nu sortera raderna i viss mån, men den sortering som du gör här överförs inte till plockningsinstruktionen. Du kan också ta bort en del rader för att skapa en effektivare plockning. Om det till exempel finns rader med artiklar på lagerplatser för direktutleveranser kanske du vill skapa en plockning för alla rader som är kopplade till dessa. Artiklarna för direktutleverans utlevereras, tillsammans med övriga artiklar i utleveransen, och lagerplatserna för direktutleveranser får därmed plats för fler inkommande artiklar.  
 4.  Välj åtgärden **Skapa plockning** och fyll i sidan för begäran om **Skapa plockning**. De plockningsrader som du skapar ordnas enligt den sortering som du väljer här. Du kan till exempel skapa en plockning för varje zon och sortera raderna efter lagerplatsordning i varje plockning.  
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Plockningar** och välj sedan relaterad länk. Sidan **Plockningar** öppnas.  
+5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plockningar** och välj sedan relaterad länk. Sidan **Plockningar** öppnas.  
 6.  Nu kan du visa den plockningsfördelning som du just skapade genom att välja plockningen med det högsta numret.  
 7.  I plockningen kan du fortfarande modifiera det tilldelade användar-ID:t och hur raderna sorteras om det behövs.  
 8.  Välj åtgärden **Skriv ut** när du vill skriva ut instruktioner.  

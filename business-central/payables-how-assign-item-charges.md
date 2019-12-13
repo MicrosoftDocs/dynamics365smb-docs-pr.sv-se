@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 054e6bd734227786c8f9702ffdbb15d06e987f88
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313714"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878144"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.
@@ -37,17 +37,22 @@ För både inköps- och försäljningsdokument, kan du tilldela en artikelomkost
 > [!NOTE]  
 >   Du kan tilldela artikelomkostnader till order, fakturor och kreditnotor för försäljning och inköp. I följande procedurer beskrivs hur du arbetar med artikelomkostnader för en inköpsfaktura. Stegen är liknande för alla andra ingående och utgående dokument.
 
+## <a name="example"></a>Exempel
+Det här videoklippet visar hur du hanterar ytterligare leveranskostnader som en del av lagerkostnad.
+<br><br>  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
+
 ## <a name="to-set-up-item-charge-numbers"></a>Så här skapar du artikelomkostnadsnummer
 Artikelomkostnadsnummer används för att skilja mellan olika typer av artikelomkostnader som används för inköpsdokument i företaget.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelomkostnader** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **artikelomkostnader** och välj sedan relaterad länk.
 2. På sidan **Artikelomkostnader** väljer du åtgärden **Ny** åtgärder för att skapa en ny rad.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader direkt till inköpsfakturan för artikeln
 Om du vet artikelomkostnaderna vid den tidpunkten när du bokför en inköpsfaktura för artikeln, följer du nedanstående instruktioner.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.
 2. Skapa en ny inköpsfaktura. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 3. Kontrollera att inköpsfakturan har en eller flera rader av typen artikel.
 4. På en ny rad , i fältet **Typ** väljer du **Omkostnad (artikel)**.

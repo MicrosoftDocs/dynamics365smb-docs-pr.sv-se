@@ -1,8 +1,6 @@
 ---
 title: Så här säljer du en artikel som monterats mot kundorder | Microsoft Docs
 description: Om artikeln är inställd på  montering mot kundorder förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ba9a219b769d353ae9a01649500c60a1cb88c3ed
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 464600e473034d5b70745d4c4d94c9a49311ed3b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304091"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880790"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
 Om det i fältet **Monteringsmetod** på en monteringsartikels artikelkort står **Montering mot kundorder** förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.  
@@ -31,7 +29,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 >  I följande procedur ingår inte standardstegen för försäljningsorder före det steg där du anger artikeln för montering mot kundorder på försäljningsorderraden.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Så här säljer du en artikel som monterats mot kundorder  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Skapa en försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 3.  I fältet **Nr.** anger du en artikel som lagts upp för montering mot kundorder.  
 4.  I fältet **Lagerställekod** anger du från vilket lagerställe som artikeln ska säljas. Monteringsprocessen genomförs där.  
@@ -62,6 +60,6 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 ## <a name="see-also"></a>Se även  
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

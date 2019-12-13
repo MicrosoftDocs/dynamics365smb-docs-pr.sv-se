@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Artikelspårning | Microsoft Docs
 description: Det här avsnittet innehåller en översikt av designinformation för artikelspårning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b263abf09a3d74bbac4f8b94c4dde61644702bfc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303202"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878539"
 ---
 # <a name="design-details-item-tracking"></a>Designdetaljer: Objektspårning
 Eftersom varuflödet i dagens försörjningskedja blir mer och mer komplicerat, är möjligheten att hålla reda på artiklar och allt viktigare för de inblandade företagen. Övervaka en artikels transaktionsflöde är en lagkrav i företag för medicinsk och kemisk leverans, men andra företag kan vilja övervaka produkter med garantier eller utgångsdatum av kundserviceanledningar.  

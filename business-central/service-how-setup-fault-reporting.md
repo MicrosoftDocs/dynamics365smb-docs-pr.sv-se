@@ -1,8 +1,6 @@
 ---
 title: Ställa in felrapportering i tjänstehantering | Microsoft Docs
 description: 'Så här: Skapa felrapportering'
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c3d770f1ee6e0c50439f5d0a4591c463b91631a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26e8e5dcd7ca3e69a3f7fbdfbe8c93d866cbce7d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316194"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882937"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurera felrapportering
 Felrapportering låter dig upprätta standarder för att registrera felinformation för serviceartiklar. Exempelvis kan du ange problemet, vilka problem som uppstår, orsaken till problemet och hur du löser det.  
@@ -25,7 +23,7 @@ Felrapportering låter dig upprätta standarder för att registrera felinformati
 Felkoder identifierar de olika serviceartikelfelen eller de åtgärder som vidtas för serviceartiklar. Beroende på felrapporteringsnivån på företaget kanske du måste skapa feltypskoder och symptomkoder innan du skapar felkoder. Felområden identifierar fel hos serviceartiklar. Felorsakskoder identifierar orsaken till serviceartikelfel och vid behov utesluter garanti- och kontraktsrabatter. Du kanske till exempel vill utesluta garanti- och kontraktsrabatt om kunden är ansvarig för felet på serviceartikeln. Du kan tilldela felorsakskoder för serviceorder. Mer information finns i [Så här arbetar du med tjänsteuppgifter](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Ange övergripandenivå av felrapportering som ska användas
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstinställningar** och välj sedan relaterad länk.
 2. I fältet **Felrapporteringsnivå**, välj ett av alternativen som beskrivs i följande tabell.  
 
     |**Felnivå**|**Beskrivning**|  
@@ -41,7 +39,7 @@ När du gör inställningar för felhantering kan du också ange vilka reparatio
 <!--this needs to go in a working with topic-->
  Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem på sidan **Fel-/åtgärdssambandskoder**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Infoga fel-/åtgårdssambandskoder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Infoga fel-/åtgårdssambandskoder** och välj sedan relaterad länk.  
 2. Ange datum för att definiera den period som du vill inkludera i batch-jobbet.  
 3. Markera kryssrutan **Relation baserad på serviceartikelgrupp** om du vill att relationen ska grupperas efter serviceartikelgrupp.  
 4. Markera kryssrutan **Bibehåll manuellt infogade poster** om du vill behålla uppgifterna som du redan har infogat manuellt i fönstret **Fel- och åtgärdssamband koder**.  

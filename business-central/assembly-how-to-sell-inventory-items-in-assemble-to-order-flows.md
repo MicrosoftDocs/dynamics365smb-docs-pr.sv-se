@@ -1,8 +1,6 @@
 ---
 title: Så här säljer du lagerartiklar i flöde för montering mot kundorder | Microsoft Docs
 description: Om artikeln är inställd för kort med montering mot kundorder förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98d5b9e7efb4d195512010d9c18f875c946bcef7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53118269f151ec0768f80151613afbbf36d8d075
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307666"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880814"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sälja lagerartiklar i flöden för montering mot kundorder
 Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot kundorder** förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md). Men om en del av försäljningsorderantalet redan är tillgängligt i lagret kan du minska monteringsordersantalet genom att ändra i fältet **Antal att montera mot kundorder** på försäljningsorderraden.  
@@ -35,7 +33,7 @@ Liknande funktioner finns tillgängliga när du säljer monteringsartiklar från
 I den här proceduren ersätter du antalet för montering mot kundorder med lagerantal på en försäljningsorderrad. I momenten ingår att undersöka tillgänglighet, dra av det aktuella antalet från kopplad monteringsorder, och sedan reservera den totala lagerkvantiteten så att den plockas och levereras för ordern.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Så här säljer du lagerartiklar i flöde för montering mot kundorder  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Skapa en försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 3.  Ange det efterfrågade antalet på en försäljningsorderrad för en artikel för montering mot kundorder i fältet **Antal**.  
 4.  Fastställ om hela, eller något av, det efterfrågade antalet är tillgängligt i faktaboxen **Försäljningsraddetaljer**.  
@@ -54,6 +52,6 @@ I den här proceduren ersätter du antalet för montering mot kundorder med lage
 [Monteringshantering](assembly-assemble-items.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

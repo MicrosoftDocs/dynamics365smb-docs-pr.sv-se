@@ -1,8 +1,6 @@
 ---
 title: Ta bort och koppla om artikeltransaktioner | Microsoft Docs
 description: Du kan visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554140"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882701"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -43,7 +41,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
     - I följande fall kan ingen koppling utföras i kopplingsformuläret: Om det inte finns tillräckligt med antal i lager för kopplingen, utförs ingen koppling i kopplingsformuläret när användaren försöker att koppla en transaktion för en lagerminskning utan artikelspårningsinformation till en transaktion för en lagerökning med artikelspårningsinformation.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kopplingsformulär** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kopplingsformulär** och välj sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Ange filter på Snabbfliken **Allmänt** för att göra det enklare att hitta den artikeltransaktion för vilken kopplingen ska ändras.  
 4.  Välj aktuell artikeltransaktion och klicka på åtgärden **Kopplade transaktioner**. Sidan **Visa kopplade transaktioner – Kopplade transaktioner** öppnas och visar de artikeltransaktioner som för närvarande är kopplade till den valda transaktionen.  
@@ -59,7 +57,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 >  **Det går inte att utföra åtgärden eftersom kopplingar för transaktionerna för artikel <item> har tagits bort i Kopplingsformuläret av användaren <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kopplingsformulär** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kopplingsformulär** och välj sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Om du vill koppla om transaktioner som togs bort sedan förslaget öppnades markerar du den artikeltransaktionspost som du vill koppla om, och väljer sedan åtgärden **Omkoppla**.  
 

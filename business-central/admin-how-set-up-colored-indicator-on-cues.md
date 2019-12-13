@@ -1,8 +1,6 @@
 ---
 title: Ange färgindikatorer för att anpassa visuella signaler om en stack-ikons aktivitet för företaget eller enskilda användare | Microsoft Docs
 description: Som administratör kan du skapa stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3c6cfb1c012a2991477a874f9611460c0bd8e4d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6d9cecac1a7e1ac0c65542ee4e2928ac2a27412f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308170"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880958"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Skapa en färglagd indikator på stack-ikoner för företaget eller enskilda användare
 Som administratör kan du skapa stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.  
@@ -29,7 +27,7 @@ Från sidan **Inställning av stack-ikon** ställer du in indikatorer för alla 
 För att ställa in indikatorn, anger du upp till två tröskelvärden som definierar tre intervall av datavärden (låg, medel och hög) som du kan koppla en annan färg (eller stil).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Så här ställer du in kulörta indikatorer på stack-ikoner  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställning av stack-ikon** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställning av stack-ikon** och välj sedan relaterad länk.  
   
      Sidan **Inställning av stack-ikon** visas. Sidan anger indikatorerna som närvarande är inställda på stack-ikoner. Indikatorer som gäller för alla användare i företaget har ett tomt **Användarnamn**-fält. Indikatorer som är kopplade till en viss användare innehåller användarens namn i **Användarnamn**-fältet.  
   

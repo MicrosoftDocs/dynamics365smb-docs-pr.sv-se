@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Centrala koncept i planeringssystemet| Microsoft Docs
 description: Planeringsfunktionerna ingår i ett batch-jobb som först väljer alla relevanta artiklar och planeringsperiod, och som sedan föreslår möjliga åtgärder som användaren kan vidta baserat på rådande tillgång/efterfrågan och artiklarnas planeringsparametrar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303754"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880598"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
@@ -70,11 +68,11 @@ Planeringssystemet hanterar hela mönstret för tillgång-efterfrågan via alla 
 
 Dynamisk orderspårning skapar länkar mellan efterfrågan och tillgång när data anges, i den ordning som de inkommer. Det kan leda till en viss oordning i prioriteringar. Exempelvis kan en försäljningsorder som har angetts först, med förfallodatum nästa månad, kopplas till tillgången i lager, medan nästa försäljningsorder som förfaller imorgon kan orsaka ett åtgärdsmeddelande att skapa en ny inköpsorder för att täcka den, som illustreras nedan.  
 
-![Exempel på orderspårning i leveransplanering 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exempel på orderspårning i leveransplanering 1")  
+![Exempel på orderspårning vid leveransplanering 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exempel på orderspårning vid leveransplanering 1")  
 
 Som motsats hanterar planeringssystemet all efterfrågan och tillgång för en viss artikel, i prioriterad ordning enligt förfallodatum och ordertyper, d.v.s., enligt first-needed/first-served. Den tar bort alla orderspårninglänkar som skapades dynamiskt och återställer dem enligt förfallodatumsprioritet. När planeringssystemet har körts har det löst alla obalanser mellan tillgång och efterfrågan, som illustreras nedan för samma data.  
 
-![Exempel på orderspårning i leveransplanering 2](media/NAV_APP_supply_planning_1_planning_graph.png "Exempel på orderspårning i leveransplanering 2")  
+![Exempel på orderspårning vid leveransplanering 2](media/NAV_APP_supply_planning_1_planning_graph.png "Exempel på orderspårning vid leveransplanering 2")  
 
 Efter planeringskörningen återstår inga åtgärdsmeddelanden i tabellen Åtgärdsmeddelandetrans. eftersom de har ersatts med de föreslagna åtgärderna i planeringsförslaget  
 

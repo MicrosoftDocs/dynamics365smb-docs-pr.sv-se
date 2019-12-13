@@ -1,8 +1,6 @@
 ---
 title: Definiera och fördela kostnader | Microsoft Docs
 description: Kostnadsfördelning flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Du kan definiera valfritt antal fördelningar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306394"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879806"
 ---
 # <a name="defining-and-allocating-costs"></a>Definiera och fördela kostnader
 Kostnadsfördelning flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Du kan definiera valfritt antal fördelningar. Varje fördelning består av:  
@@ -40,7 +38,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Fördelningskällan bestämmer vilka kostnader som ska fördelas. Fördelningsmålen bestämmer vart kostnaderna ska fördelas.  
 
 ### <a name="to-set-up-cost-allocations"></a>Så här lägger du upp kostnadsfördelningar  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kostnadsfördelning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kostnadsfördelning** och välj sedan relaterad länk.  
 2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Redigera**.  
 3.  Ange ett ID för fördelningskällan i fältet **ID**.  
 4.  Definiera en nivå som ett tal mellan 1 och 99 i fältet **Nivå**. Fördelningsbokföringen följer ordningen på nivåerna.  
@@ -84,7 +82,7 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Så här definierar du fördelningskällan PROD-kostnadsstället på snabbfliken Allmänt  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kostnadsfördelning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kostnadsfördelning** och välj sedan relaterad länk.  
 2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
 3.  I fältet **ID**, tryck på Retur eller ange ett id.  
 4.  Ange **1** i fältet **Nivå**.  
@@ -121,7 +119,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Så här definierar du dynamisk fördelning beräknad på sålda artiklar under föregående år  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kostnadsfördelningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kostnadsfördelning** och välj sedan relaterad länk.  
 2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
 3.  I fältet **ID**, tryck på Retur eller ange ett id.  
 4.  Ange **1** i fältet **Nivå**.  

@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du Tjänsteorder | Microsoft Docs
 description: Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311722"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877333"
 ---
 # <a name="create-service-orders"></a>Skapa tjänsteorder
 Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.  
@@ -25,7 +23,7 @@ Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger in
 När du skapar en serviceorder, behöver du bara fylla i några fält. En del fält är valfria och många fylls i automatiskt, när du fyller i fälten.  
 
 ## <a name="to-create-a-service-order"></a>Så här skapar du en serviceorder    
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Skapa en ny serviceorder.  
 3. I fältet **Nr.** anger du ett nummer för serviceordern.  
 
@@ -40,7 +38,7 @@ När du skapar en serviceorder, behöver du bara fylla i några fält. En del f�
 ## <a name="to-create-a-service-order-from-a-contract"></a>Så här skapar du en serviceorder från ett kontrakt  
 Du kan automatiskt skapa serviceorder för underhåll av serviceartiklar baserat på ett servicekontrakt.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Skapa kontraktsserviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa kontraktsserviceorder** och välj sedan relaterad länk.  
 2. På snabbfliken **Servicekontraktshuvud** anger du de filter som du vill koppla.  
 3. Gå till snabbfliken **Alternativ** och fyll i fälten **Startdatum** och **Slutdatum** med startdatum och slutdatum för den period du vill skapa kontraktserviceorder för. I batch-jobbet skapas serviceorder som omfattar serviceartiklar i servicekontrakt med nästa planerade servicedatum inom den här perioden.  
 
@@ -54,14 +52,14 @@ När en kund har accepterat en serviceoffert kan du omvandla den till en service
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] En sökning görs efter  för alla serviceartiklar i serviceofferten som har statusen **Aktiv**. Om sådana fördelningstransaktioner hittas ändras deras fördelningsstatus till **Omfördelning nödvändig**. När du omfördelar serviceartiklarna på serviceordern ändras status för de fördelningstransaktioner som är registrerade för offerten till **Avslutad**.   
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Servicekontraktsofferter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekontraktsofferter** och välj sedan relaterad länk.  
 2. Välj den serviceoffert som du vill omvandla till en serviceorder.  
 3. Välj åtgärden **Skapa order**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Så här kontrollerar du artikeldisposition för en eller flera order  
 Du kan kontrollera om en artikel som du behöver för att uppfylla en order finns i lager. Om inte kan du se när artikeln finns i lager. Dessutom, om en artikel är disponibel att reservera kan du reservera den för att se till att den är tillgänglig för dig. Du kan kontrollera tillgängligheten för en viss order eller för alla order.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Beordringstavla** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Beordringstavla** och välj sedan relaterad länk.  
 2. Gör något av följande:  
 
     * Välj ordningen för en viss order och välj åtgärden **Behovsöversikt**.  
@@ -81,7 +79,7 @@ Om du behöver vara säker på att en artikel är tillgänglig för en serviceor
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Så här infogar du standardtjänstrader:  
 Om du har ställt in standardtjänstkoder och tilldelat dem till serviceartikelgrupper kan du infoga de standardrader som är kopplade till standardtjänstkoderna i servicedokument. Mer information finns i [Skapa en standardtjänstekod](service-how-setup-service-coding.md).   
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstorder** och välj sedan relaterad länk.  
 2. Skapa en ny serviceorder.  
 3. Fyll i fälten om det behövs.  
 4. Fyll i serviceartikelraderna med den obligatoriska informationen.  
@@ -99,7 +97,7 @@ Vanligtvis tas en order bort från programmet när den har fakturerats helt. Nä
 
 Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern inte har bokförts från själva serviceordern, utan från sidan **Servicefaktura**, gäller följande. Då kan du behöva ta bort fakturerade order som inte har tagits bort. Du kan göra detta genom att köra batch-jobbet **Ta bort fakturerade serviceorder**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort fakturerade serviceorder** och välj sedan relaterad länk. Sidan för batch-jobbsbegäran **Ta bort fakturerade serviceorder** öppnas.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort fakturerade serviceorder** och välj sedan relaterad länk. Sidan för batch-jobbsbegäran **Ta bort fakturerade serviceorder** öppnas.  
 2. För att ange vilka order som ska tas bort kan du ställa in filter i fälten **Nr.**, **Kundnr.**, and **Faktureringskundnr.** .  
 3. Välj **OK**.  
 

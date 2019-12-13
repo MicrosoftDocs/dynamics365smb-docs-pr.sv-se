@@ -1,8 +1,6 @@
 ---
 title: 'Designdetaljer: Avstämning med redovisningen | Microsoft Docs'
 description: Det här avsnittet beskriver avstämning med redovisningen när du bokför lagertransaktioner, till exempel försäljningsutleveranser, produktionsutflöde eller negativa justeringar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306826"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880070"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
 När lagertransaktioner bokförs till exempel utleveranser, produktionsutflöde eller negativa justeringar registreras antals- och värdeändringarna i lagret i artikeltransaktionerna respektive värdetransaktionerna. Nästa steg i processen går ut på att bokföra lagervärdena på redovisningens lagerkonton.  
@@ -87,13 +85,13 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
         ![Resultat av försäljningsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultat av försäljningsbokföring till huvudbokskonton")  
 5. Användaren bokför förbrukning av 150 länkar, som är antalet länkar som används för att producera en kedja. (Förbrukning, material)  
 
-    ![Resultat av materialbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_material.png "Resultat av materialbokföring till huvudbokskonton")  
+    ![Resultatet av materialbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_material.png "Resultatet av materialbokföring till huvudbokskonton")  
 6. Produktionsgruppen använde 60 minuter för att producera kedjan. Användaren bokför konverteringskostnaden. (Förbrukning, Kapacitet)  
 
     1. Direkta kostnader bokförs. (Förbrukning, Kapacitet)  
     2. Indirekta kostnader beräknas och bokförs. (Förbrukning, Kapacitet)  
 
-        ![Resultat av kapacitetsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultat av kapacitetsbokföring till huvudbokskonton")  
+        ![Resultatet av kapacitetsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultatet av kapacitetsbokföring till huvudbokskonton")  
 7. Användaren bokför förväntade kostnaden för en kedja. (Utflöde)  
 8. Användaren avslutar produktionsordern och kör batch-jobbet **Justera kost. - artikel trans**. (Utflöde)  
 
@@ -102,7 +100,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
     3. Den indirekta kostnaden (omkostnader) överförs från kontot för indirekt kostnad till lagerkontot. (Utflöde)  
     4. Det resulterar i ett avvikelsebelopp på BVA 157,00. Varianser beräknas endast för standardkostnadobjekt. (Utflöde)  
 
-        ![Resultat av bokföring av utflöde till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_output.png "Resultat av bokföring av utflöde till huvudbokskonton")  
+        ![Resultatet av utgående bokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_output.png "Resultatet av utgående bokföring till huvudbokskonton")  
 
         > [!NOTE]  
         >  För enkelhets skull visas bara ett varianskonto. I verkligheten finns fem olika konton:  
@@ -115,7 +113,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
 
 9. Användaren omvärderar kedjan från BVA 150,00 till BVA 140,00. (Justering/Omvärdering/Avrundning/Överföring)  
 
-    ![Resultat av justeringsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultat av justeringsbokföring till huvudbokskonton")  
+    ![Resultatet av justeringsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultatet av justeringsbokföring till huvudbokskonton")  
 
 För mer information om sambandet mellan kontotyperna och de olika typerna av värden, se [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md).  
 

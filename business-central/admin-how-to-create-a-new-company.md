@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du ett nytt företag | Microsoft Docs
 description: Tabeller och sidor skapas i syfte att kunna använda RapidStart Services, men de innehåller inga data.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 697613b170d3d7c2db33ab91acd660f2d09ddea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bbd845f7974ce2d0b6ade27d290e1173fad42f37
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304594"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878895"
 ---
 # <a name="create-a-new-company"></a>Skapa ett nytt företag
 Innan du kan använda RapidStart Services för [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[d365fin](includes/d365fin_md.md)] men det inte finns några data i dem.
@@ -28,7 +26,7 @@ Exempelkonfigurationspaket, inklusive lands-/regionspecifika filer, ingår i dem
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Om du vill använda exempelkonfigurationspaket BASICCONFIG  
 1. Öppna företaget CRONUS Sverige AB. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 3. Välj paketet BASICCONFIG i listan och välj sedan åtgärden **Exportera paket**.  
 
 Använd följande procedur för att skapa ett nytt företag och använd BASICCONFIG-paketet som en del av processen.  

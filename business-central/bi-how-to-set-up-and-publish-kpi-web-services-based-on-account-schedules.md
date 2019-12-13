@@ -1,8 +1,6 @@
 ---
 title: Skapa och publicera KPI-webbtjänster för kontouppställningar | Microsoft Docs
 description: Det här avsnittet beskriver hur du visar kontouppställningen KPI-data baserat på specifika kontouppställningar.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 84cb09cbe7291ae0bd57997f5f23d04bd22cb898
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95089c696457662737bc524a095b674a5b9a83d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303922"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878563"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar
 På sidan **Installation av webbtjänst för KPI för kontouppställning** kan du konfigurera hur du visar kontouppställnings-kpi-data och vilka specifika kontouppställningar som du vill basera KPI-erna på. När du väljer knappen **Publicera webbtjänst** läggs det angivna kontouppställning-kpi-data till listan över publicerade webbtjänster på sidan **Webbtjänster**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Så här: Skapar och publicerar du en KPI-webbtjänst som är baserad på kontouppställningar  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Installation av webbtjänst för KPI för kontouppställning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **KPI Web Service kontouppställningsinställning** och välj sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  
 
     |Fält|Beskrivning|  
@@ -55,5 +53,5 @@ På sidan **Installation av webbtjänst för KPI för kontouppställning** kan d
 [Affärsstöd](bi.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Redovisningen och kontoplanen](finance-general-ledger.md)  
+redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

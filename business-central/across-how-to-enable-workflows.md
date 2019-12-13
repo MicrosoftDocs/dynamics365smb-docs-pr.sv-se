@@ -1,8 +1,6 @@
 ---
 title: Så här aktiverar du arbetsflöden | Microsoft Docs
 description: När du har skapat ett arbetsflöde och du vet att det är redo att startas måste du aktivera arbetsflödet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305410"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881150"
 ---
 # <a name="enable-workflows"></a>Så här aktiverar du arbetsflöden
 När du har skapat ett arbetsflöde och du vet att det är redo att startas måste du aktivera arbetsflödet.  
@@ -25,7 +23,7 @@ När du har skapat ett arbetsflöde och du vet att det är redo att startas mås
  På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Så här aktiverar du ett arbetsflöde  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Arbetsflöden** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflöden** och välj sedan relaterad länk.  
 2.  Öppna arbetsflödet du vill aktivera.  
 3.  På sidan **Arbetsflöde**, välj kryssrutan **Aktiv**.  
 

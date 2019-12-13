@@ -1,8 +1,6 @@
 ---
 title: Ställa in arbetsflöden | Microsoft Docs
 description: Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dd399a74f4f5f08dab9b3abe86cac6844ab8efbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304786"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879361"
 ---
 # <a name="setting-up-workflows"></a>Konfigurera arbetsflöden
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).  
@@ -36,7 +34,7 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 |Konfigurera arbetsflödesanvändare som ingår i godkännandearbetsflöden.|[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)|  
 |Ange hur arbetsflödesanvändare får meddelanden om arbetsflödessteg, inklusive godkännandebegäranden.|[Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)|  
 |Ange om användare ska meddelas per e-post eller anteckning och hur ofta meddelanden ska kunna skickas.|[Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Anpassa innehållet i e-postmeddelanden genom att ändra rapporten 1320, e-postmeddelanden.|[Så här skapar och ändrar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)|  
+|Anpassa innehållet i e-postmeddelanden genom att ändra rapporten 1320, e-postmeddelanden.|[Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)|  
 |Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Konfigurera e-post](admin-how-setup-email.md)|
 |Ange de olika stegen för ett arbetsflöde genom att koppla arbetsflödeshändelser till arbetsflödessvar.|[Skapa arbetsflöden](across-how-to-create-workflows.md)|  
 |Använd arbetsflödesmallar till att skapa nya arbetsflöden|[Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)|  

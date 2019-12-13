@@ -4,31 +4,26 @@ description: Lär dig mer om funktioner och arbetsscenarier i Business Central, 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2019
+ms.date: 11/14/2019
 ms.author: edupont
-ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: addf7e03759809bd487d87271625f6df60293031
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313594"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878077"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet. För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.  
 
-När du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]-förhandsgranskningen har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa egna försäljningsdokument, eller skapa ett bankkonto.  
+För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
+
+När du har registrerat dig för [!INCLUDE [prodshort](includes/prodshort.md)] har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa nya försäljningsdokument, eller skapa ett bankkonto. Om du däremot vill använda [!INCLUDE [prodshort](includes/prodshort.md)] för att köra företaget måste du kontakta en [!INCLUDE [prodshort](includes/prodshort.md)] återförsäljare och köpa en prenumeration. Mer information om utvärderingsversioner och prenumerationer finns i [utvärderingsversion och prenumerationer](across-preview.md).  
 
 ## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. I demonstrationsföretaget förklarar visuella handböcker grundläggande funktioner och hjälper dig att testa dagliga uppgifter som t.ex. att skapa en försäljningsfaktura och visa en rapport. Om du lämnar en assistent, till exempel för att utforska [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hand, men sedan vill återvända till den, går du tillbaka till startsidan för Rollcenter och startar genomgången Komma igång. Kontakta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner om du vill ha mer hjälp.  
 
-> [!TIP]  
-> Du kan återgå till ett Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
-
-För några snabba tips, se:  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. För några snabba tips, se:  
 
 * [Söka efter](ui-search.md)  
 * [Söka, filtrera och sortera listor](ui-enter-criteria-filters.md)  
@@ -36,46 +31,34 @@ För några snabba tips, se:
 
 Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
+> [!TIP]  
+> Du kan alltid återgå till ett Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
+
+I demonstrationsföretaget innehåller rollerna affärschef och revisor en komma igång-panel och produktvideo-panel. Båda panelerna öppnar sidor där du kan välja mellan olika videoklipp, så att du kan komma igång med olika aspekter av [!INCLUDE [prodshort](includes/prodshort.md)]. Du hittar fler videoklipp på vår YouTube-kanal. Mer information finns i [besök vårt videobibliotek](across-videos.md). Du kan också söka efter eLearning-innehåll för basversionen av [!INCLUDE [prodshort](includes/prodshort.md)] på [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Kontakta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner om du vill ha mer hjälp.  
+
 När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md).
 
-Innan du kan börja använda funktionen måste vissa inställningar göras. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Tänk på att vissa installationssteg kan utföras automatiskt med hjälp av installationsguider.
+Innan du kan börja använda funktionen måste vissa inställningar göras. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!TIP]
+> Vissa installationssteg kan utföras automatiskt med hjälp av installationsguider.
 
 En översikt över aktuell kapacitet och det som kommer, ta en titt på viktig information i [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
-Du kan också söka efter eLearning-innehåll på [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
-
 ## <a name="the-role-centers"></a>Rollcenter
-Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Ikonen Inställningar för rollcenter") i det övre högra hörnet, **Mina inställningar** och sedan det Rollcenter du vill utforska. Logga in igen för att göra ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
+Sidan Rollcenter baseras på en rollcentrerad design som ger dig snabb åtkomst till verksamhetsprocessen och de kunskapsverktyg som du behöver för att utföra ditt arbete. Exempelvis kan en revisor övervaka betalningar och godkännanden och visa diagram över finansiell prestanda. Ta reda på vad den aktuella rollen ger åtkomst till med rollutforskaren. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md). Välj olika Rollcenter genom att välja ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") i det övre högra hörnet, välj **Mina inställningar** och sedan det Rollcenter du vill utforska. Du loggas ut automatiskt och tillämpar ändringen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
-Varje Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterade konfigurationsguider som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningssidorna där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Vissa sidor för Rollcenter tillhandahåller knappen **Inställningar och tillägg**. Här har du tillgång till en lista över assisterade konfigurationsguider som hjälper dig att komma igång genom att ställa in markerade områden snabbt. Om ett område inte omfattas av en assisterad konfiguration, väljer du åtgärden **Manuell inställning** för att få åtkomst till inställningssidorna där du kan fylla i fält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-> [!NOTE]  
->   Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du Essential-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
-
-På sidan **Assisterad konfiguration** hittar du följande i **Vital**-upplevelsen:
-
-| Assisterad konfiguration | Description |
-| --- | --- |
-| Migrera affärsdata |Du kan importera dina befintliga företagdata till exempel kunder, leverantörer och artiklar från Excel eller Quickbooks. |
-| Konfigurera mitt företag |Skapar ett nytt provföretag där du kan ange data och testa [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du igenom Komma igång-turen är detta förmodligen redan **Slutfört**. |
-| Konfigurera kassaflödesprognos |Ställer in kassaflödesprognosdiagrammet så att du kan visa beräknad föflyttning av likvida medel somgår in och ut ur företag. Diagrammet är tillgänglig på **Rollcentret Revisor**. |
-| Konfigurera arbetsflöden för godkännande |Ställ in förmågan att automatiskt meddela en godkännare när en användare försöker att skapa eller ändra vissa värden i dokument, journalrader eller kort, till exempel ett belopp över en angiven gräns. |
-| Konfigurera arbetsflöde för kundgodkännande |Ställer in förmågan att skapa arbetsflöden för godkännande som automatiskt meddelar en godkännare när en användare försöker skapa eller ändra ett kundkort. |
-| Konfigurera e-post |Gör dig klar för att skicka e-postmeddelande direkt från, till exempel försäljningsorder, eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-| Konfigurera e-postloggning |Ställ in kapaciteten att logga e-post i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att följa upp på interaktioner. |
-| Konfigurera Outlook för [!INCLUDE[d365fin](includes/d365fin_md.md)] |Ställs in förmågan att använda och starta [!INCLUDE[d365fin](includes/d365fin_md.md)] från Outlook. |
-| Konfigurera rapportering |Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t.ex. |
-| Konfigurera ett arbetsflöde för artikelgodkännande |Konfigurerar möjligheten att skicka ett meddelande till en godkännare när en användare ändrar eller skapar ett objekt. |
-| Konfigurera arbetsflöde för godkännande av utbetalningsjournal |Konfigurerar förmågan att skicka ett meddelande till en godkännare när en användare skickar utbetalningsjournalrader för godkännande. |
-| Ställa in Business Central-connector för Microsoft Dynamics |Ställer in en anslutning till Dynamics 365 Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
-| Ställa in omsättningsskatt |Låter dig komma igång med standardmomsgrupper och tilldela momsområdeskoder som du kan tilldela till kunder och leverantörer för att automatiskt beräkna omsättningsskatt i försäljningar eller inköpsdokument. |
+> [!NOTE]
+> Listan över installationer, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du Essential-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Testar saker i ditt företag
 Funderar du på att prenumerera? Du kan enkelt byta från demonstrationsföretaget och skapa och arbeta i ett eget. Det här är ett bra sätt att starta mot en prenumeration. Det finns inställningar för ekonomi. Du behöver bara skapa eller importera kunder, leverantörer och produkter och tjänster som du säljer. Därefter är det dags att bokföra fakturor och använda business intelligence-verktyg för att analysera verksamheten. Du kan använda ditt företag gratis under en provperiod på 30 dagar. Om du prenumererar på [!INCLUDE[d365fin](includes/d365fin_md.md)] under den tiden är du redan igång. Du kan fortsätta med det arbete som du utfört under provperioden.  
 
 Om du vill skapa ett företag för att testa saker går du till menyn **Mina inställningar** i det övre högra hörnet och ändrar företag till **mitt företag**. Logga ut från [!INCLUDE[d365fin](includes/d365fin_md.md)] och logga sedan in igen för att ändringen ska börja gälla. En assisterade konfigurationsguide hjälper dig att ange grundläggande information om företaget. När detta är klart kan du utforska rollcentret och hitta åtgärden **Assisterad konfiguration**.  
 
-Du kan också söka efter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här](https://www.microsoft.com/en-us/solution-providers/search).  
+Du kan också kontakta en Dynamics 365 återförsäljningspartner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
 
 ## <a name="getting-answers-to-questions"></a>Få svar på frågor
 
@@ -86,12 +69,13 @@ Alla fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] beskrivs i knappbeskriv
 Om du har fler frågor rekommenderas att du frågar gruppen eller kontaktar din återförsäljare. Mer information finns i [Vart vänder jag mig om jag har frågor?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## <a name="ready-to-subscribe"></a>Vill du börja prenumerera?
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [här ](https://www.microsoft.com/en-us/solution-providers/search). Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du tänker prenumerera måste du kontakta en Dynamics 365 återförsäljningspartner. Mer information finns i avsnittet [Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner) och [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer](across-preview.md).  
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
-Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](/dynamics365/)-länk i den blå banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 Business Central webbplats](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](/dynamics365/)-länk i den svarta banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 Business Central webbplats](https://dynamics.microsoft.com/business-central/overview/).  
 
-Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] och har sömlös integrering med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Välkommen till Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
+<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-also"></a>Se även
 
@@ -100,9 +84,11 @@ Om du är en revisor kan du registrera dig för [!INCLUDE[d365acc_long](includes
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som min företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobila enhet](install-mobile-app.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer](across-preview.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
-[Dynamics 365-dokumentation](/dynamics365/)  
+[Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)
+[Dynamics 365 dokumentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Viktig information](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

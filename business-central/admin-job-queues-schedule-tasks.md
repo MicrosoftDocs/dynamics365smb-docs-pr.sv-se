@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308410"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879208"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 Med jobbköer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Du kanske till exempel vill köra rapporten **Säljare försäljningsstatistik** varje vecka, för att spåra försäljningen per säljare under en vecka, eller så kanske du vill köra kodenheten **E-postkö för bearbetningstjänst** dagligen, för att vara säker på att aktuella e-postmeddelanden till kunder angående deras serviceorder skickas ut i tid.
@@ -33,12 +33,12 @@ Detta åstadkommer du genom att ställa in jobbkön till att köra olika batch-b
 
 Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. Momenten är liknande för inköp och en service.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
 2. På sidan **Försäljningsinställningar** markerar du kryssrutan **Bokför med jobbkö**.
 3. Välj fältet **Kategorikod för jobbkö** och välj kategorin **FÖRSBOKF** för att filtrera till jobbkötransaktioner för bokföring av försäljningsorder.
 
     Ett jobbköobjekt, codeunit 88 **försäljningspost via jobbkö**, har skapats. Fortsätt med att aktivera den på sidan **jobbkötransaktioner**.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **jobbkötransaktioner** och välj sedan relaterad länk.
+4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.
 5. På sidan **jobbkötransaktioner** väljer du åtgärden **ny**.
 6. I fältet **objekttyp som ska köras** väljer du **Codeunit**.  
 7. I fältet **Objekt-ID som ska köras** väljer du 88, **försäljningspost via jobbkö**.
@@ -56,7 +56,7 @@ Om du även vill skriva ut försäljningsdokument när de är bokförda, markera
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Skapa en jobbkötransaktion för batchbokföring av försäljningsorder
 I följande procedur beskrivs hur du ställer in rapporten **batch-bokföra försäljningsorder** till att automatiskt bokföra släppta försäljningsorder klockan 16:00 på veckodagar.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **jobbkötransaktioner** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **objekttyp som ska köras** väljer du **Rapport**.  
 4. I fältet **Objekt-ID som ska köras** väljer du 296, **Batch-bokför förs.order**.
@@ -85,7 +85,7 @@ När ett projekt har slutförts korrekt, tas det bort från listan över jobbkö
 Data som skapas när en jobbkö körs lagras i databasen, så att du kan felsöka jobbköfel.
 
 ### <a name="to-view-status-for-any-job"></a>Så här visar du status för ett projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **jobbkötransaktioner** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.
 2. På sidan **jobbkötransaktioner** väljer du en jobbkötransaktion, och väljer sedan åtgärden **loggposter**.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Så här visar du status från ett försäljnings- eller inköpsdokument
@@ -111,6 +111,9 @@ När en jobbkö aktiveras manuellt, körs den med autentiseringsuppgifterna för
 
 ## <a name="using-job-queues-effectively"></a>Använda jobbköer effektivt  
 Jobbkötransaktionsposten har flera fält för att överföra parametrar till en kodmodul som du har angett ska köras med en jobbkö. Det innebär att även kodenheter, som ska köras via jobbkön, måste anges med jobbkötransaktionsposten som en parameter i utlösaren **OnRun**. Det hjälper till att ge ytterligare en nivå av säkerhet, eftersom det hindrar användare från att köra slumpmässiga kodmoduler via jobbkön. Om användaren måste överföra parametrar till en rapport, är det enda sättet att göra det att låta rapportkörningen ingå i en kodmodul, som sedan analyserar inparametrarna och anger dem i rapporten, innan den körs.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Schemalägga synkronisering mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]
+Om du har integrerat [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] kan du använda jobbkön för att schemalägga när du vill synkronisera data för de poster som du har kopplat till de två affärsprogrammen. Beroende på riktningen och reglerna som du har definierat för integrationen kan du också skapa nya poster i mål appen för att matcha dem i källan med synkroniseringsjobb. Om t.ex. en säljare skapar en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)] kan synkroniseringsschemat skapa kontakten för den kopplade säljaren i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
 ## <a name="see-also"></a>Se även  
 [Administration](admin-setup-and-administration.md)  

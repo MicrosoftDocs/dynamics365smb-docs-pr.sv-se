@@ -1,8 +1,6 @@
 ---
 title: Redovisa kostnader | Microsoft Docs
 description: Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c4a9b0477f566e10dd1aac3b8a02c86877c227f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302073"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882596"
 ---
 # <a name="accounting-for-costs"></a>Redovisa kostnader
 Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.  

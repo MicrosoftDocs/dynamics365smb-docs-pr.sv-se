@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - ankommande distributionslagerflöde | Microsoft Docs
 description: Det ankommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303490"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880445"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Ankommande distributionslagerflöde
 Det ankommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.  
@@ -53,7 +51,7 @@ I metoderna A, B och C kombineras inleverans och artikelinförsel i ett steg nä
 ## <a name="basic-warehouse-configurations"></a>Grundläggande distributionslagerkonfiguration  
 Följande diagram visar de ankommande distibutionslagerflödena efter dokumenttyp i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
-![Ankommande flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_inbound_basic_flow.png "Ankommande flöde i grundläggande lagerkonfigurationer")  
+![Ingående flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_inbound_basic_flow.png "Ingående flöde i grundläggande lagerkonfigurationer")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Släpp källdokument / skapa lagerartikelinförsel  
 När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t.ex. en inköpsorder eller en ankommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret. Användaren kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerplatser och antal som ska hanteras.  
@@ -72,7 +70,7 @@ Positiva artikeltransaktioner skapas, distributionslagertransaktioner skapas och
 ## <a name="advanced-warehouse-configurations"></a>Avancerad distributionslagerkonfiguration  
 Följande diagram visar de ankommande distibutionslagerflödet efter dokumenttyp i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
-![Ankommande flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_inbound_advanced_flow.png "Ankommande flöde i avancerade lagerkonfigurationer")  
+![Ingående flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_inbound_advanced_flow.png "Ingående flöde i avancerade lagerkonfigurationer")  
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument  
 När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t.ex. en inköpsorder eller en ankommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret.  

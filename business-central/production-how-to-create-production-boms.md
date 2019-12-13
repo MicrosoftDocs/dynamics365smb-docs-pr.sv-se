@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du en produktionstruktur | Microsoft Docs
 description: En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: edb5cec5d9cf4872dc105828055a555819d4fd33
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553752"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878005"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
 En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
@@ -30,7 +28,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Skapa en ny produktionsstruktur.  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Prod.struktur** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Prod.struktur** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Ställ in värdet i fältet **Status** till **Ny** eller **Under utveckling** om du vill redigera strukturen. Aktivera den genom att ställa in fältet **Status** till **Godkänd**.  
@@ -57,7 +55,7 @@ Nya versioner av produktionsstrukturer används till exempel när en artikel ers
 
 Startdatum anger början av en versions giltighetsperiod. I alla andra fall är startdatumet ett filtreringskriterium för beräkningar och utvärderingar. Prod.strukturversionen gäller tills nästa versions giltighetsstartdatum infaller.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Prod.struktur** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Prod.struktur** och välj sedan relaterad länk.  
 2.  Markera produktionsstrukturen som ska kopieras och klicka på åtgärden **versioner**.  
 3.  Välj åtgärden **Ny**.  
 4. Fyll i fälten om det behövs.
@@ -96,6 +94,6 @@ I en produktionsstruktur behövs sjuttio metalldelar med dimensionerna längd = 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planerad](production-planning.md)   
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

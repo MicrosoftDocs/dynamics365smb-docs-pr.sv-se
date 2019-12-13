@@ -1,8 +1,6 @@
 ---
 title: Spärra försäljning till kunders artiklar från försäljning eller inköp
 description: I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1b055e5101b99f0b0e1b69169d5c9f2f7e21d09
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316626"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883000"
 ---
 # <a name="block-customers"></a>Spärra kunder
 Du kan spärra en kund, till exempel på grund av ett insolvensförfarande, så att kunden inte kan läggas till försäljningsdokument, eller så att inga transaktioner kan bokföras för kunden.
@@ -34,7 +32,7 @@ De olika spärrningsalternativen beskrivs i tabellen nedan.
 |**Allt**|Ingen transaktion tillåts för den här kunden, inklusive betalningar.|  
 
 ## <a name="to-block-a-customer"></a>Om du vill spärra en kund  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Välj en kund och välj sedan åtgärden **Redigera**.
 3. Fyll i fältet **spärrad** med något av alternativen ovan.
 

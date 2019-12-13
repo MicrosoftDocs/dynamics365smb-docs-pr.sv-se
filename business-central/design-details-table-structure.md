@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Tabellstruktur | Microsoft Docs
 description: För att förstå hur lagringen och bokföringen av dimensionstransaktioner har omdesignats är det viktigt att förstå tabellstrukturen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b086cba8dc152b8e847380e0e6ae70b3e69d0c39
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1f8067071f1c27baaab5a467fbf2751ffc7d3d2b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306778"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880022"
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
 För att förstå hur dimensionstransaktioner lagras och bokförs är det viktigt att förstå tabellstrukturen.  
