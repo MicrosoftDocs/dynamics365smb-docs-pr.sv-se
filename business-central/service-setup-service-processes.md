@@ -1,8 +1,6 @@
 ---
 title: Ställa in Servicehanteringsprocesser | Microsoft Docs
 description: Lär dig hur du ställer in processer som hjälper dig att se till att kunden är nöjd med din kundservice.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,30 +10,30 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315858"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877141"
 ---
-# <a name="configure-service-processes"></a><span data-ttu-id="760b5-103">Konfigurera serviceprocesser</span><span class="sxs-lookup"><span data-stu-id="760b5-103">Configure Service Processes</span></span>
-<span data-ttu-id="760b5-104">Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:</span><span class="sxs-lookup"><span data-stu-id="760b5-104">The following are some examples of the settings that you can apply to service management processes:</span></span>  
+# <a name="configure-service-processes"></a><span data-ttu-id="88a57-103">Konfigurera serviceprocesser</span><span class="sxs-lookup"><span data-stu-id="88a57-103">Configure Service Processes</span></span>
+<span data-ttu-id="88a57-104">Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:</span><span class="sxs-lookup"><span data-stu-id="88a57-104">The following are some examples of the settings that you can apply to service management processes:</span></span>  
   
-* <span data-ttu-id="760b5-105">En del allmänna inställningar för olika processer, till exempel varningar, nästa serviceberäkningar för serviceartiklar, bedöma uppstartskostnader, felrapporteringsnivån och så vidare.</span><span class="sxs-lookup"><span data-stu-id="760b5-105">Some overall settings for various processes, such as warnings, next service calculations for service items, the starting fee to assess, the fault reporting level to use, and so on.</span></span>  
-* <span data-ttu-id="760b5-106">Typerna av information som en tekniker måste ange på servicedokument.</span><span class="sxs-lookup"><span data-stu-id="760b5-106">The types if information that a technician must enter on service documents.</span></span> <span data-ttu-id="760b5-107">Du kan till exempel kräva att de anger vilken typ av order, start och/eller slutdatum för arbete och vilken typ av arbete som har utförts.</span><span class="sxs-lookup"><span data-stu-id="760b5-107">For example, you can require them to specify the type of order, the start and/or end dates for the work, and the type of work that was done.</span></span>  
-* <span data-ttu-id="760b5-108">Vissa standardinställningar för svarstider och garantier.</span><span class="sxs-lookup"><span data-stu-id="760b5-108">Some default settings for response times and warranties.</span></span> <span data-ttu-id="760b5-109">Dessa omfattar en standardsvarstiden för att starta tjänsten, rabattsatser för garanti för reservdelar och arbete och hur länge garantierna gäller.</span><span class="sxs-lookup"><span data-stu-id="760b5-109">These include a default response time for starting service, warranty discount percentages for parts and labor, and how long warranties are valid for.</span></span>  
-* <span data-ttu-id="760b5-110">Inställningar för kontrakt, till exempel det maximala antalet dagar som du kan använda för serviceorder om du använder orsakskoder när ett kontrakt har annullerats, standardtexter beskrivningar av kontrakt och kontraktvärden.</span><span class="sxs-lookup"><span data-stu-id="760b5-110">Settings for contracts, such as the maximum number of days that you can use for contract service orders, whether to use reason codes when a contract is canceled, standard texts for contract descriptions, and contract values.</span></span>  
-* <span data-ttu-id="760b5-111">Nummerserierna som ska användas för servicerelaterade dokument och artiklar.</span><span class="sxs-lookup"><span data-stu-id="760b5-111">The number sequences to use for service-related documents and items.</span></span>  
+* <span data-ttu-id="88a57-105">En del allmänna inställningar för olika processer, till exempel varningar, nästa serviceberäkningar för serviceartiklar, bedöma uppstartskostnader, felrapporteringsnivån och så vidare.</span><span class="sxs-lookup"><span data-stu-id="88a57-105">Some overall settings for various processes, such as warnings, next service calculations for service items, the starting fee to assess, the fault reporting level to use, and so on.</span></span>  
+* <span data-ttu-id="88a57-106">Typerna av information som en tekniker måste ange på servicedokument.</span><span class="sxs-lookup"><span data-stu-id="88a57-106">The types if information that a technician must enter on service documents.</span></span> <span data-ttu-id="88a57-107">Du kan till exempel kräva att de anger vilken typ av order, start och/eller slutdatum för arbete och vilken typ av arbete som har utförts.</span><span class="sxs-lookup"><span data-stu-id="88a57-107">For example, you can require them to specify the type of order, the start and/or end dates for the work, and the type of work that was done.</span></span>  
+* <span data-ttu-id="88a57-108">Vissa standardinställningar för svarstider och garantier.</span><span class="sxs-lookup"><span data-stu-id="88a57-108">Some default settings for response times and warranties.</span></span> <span data-ttu-id="88a57-109">Dessa omfattar en standardsvarstiden för att starta tjänsten, rabattsatser för garanti för reservdelar och arbete och hur länge garantierna gäller.</span><span class="sxs-lookup"><span data-stu-id="88a57-109">These include a default response time for starting service, warranty discount percentages for parts and labor, and how long warranties are valid for.</span></span>  
+* <span data-ttu-id="88a57-110">Inställningar för kontrakt, till exempel det maximala antalet dagar som du kan använda för serviceorder om du använder orsakskoder när ett kontrakt har annullerats, standardtexter beskrivningar av kontrakt och kontraktvärden.</span><span class="sxs-lookup"><span data-stu-id="88a57-110">Settings for contracts, such as the maximum number of days that you can use for contract service orders, whether to use reason codes when a contract is canceled, standard texts for contract descriptions, and contract values.</span></span>  
+* <span data-ttu-id="88a57-111">Nummerserierna som ska användas för servicerelaterade dokument och artiklar.</span><span class="sxs-lookup"><span data-stu-id="88a57-111">The number sequences to use for service-related documents and items.</span></span>  
 
-## <a name="to-enter-general-and-mandatory-settings"></a><span data-ttu-id="760b5-112">Så här anger du allmänna och obligatoriska inställningar</span><span class="sxs-lookup"><span data-stu-id="760b5-112">To enter general and mandatory settings</span></span>
-1. <span data-ttu-id="760b5-113">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="760b5-113">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="760b5-114">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="760b5-114">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-enter-general-and-mandatory-settings"></a><span data-ttu-id="88a57-112">Så här anger du allmänna och obligatoriska inställningar</span><span class="sxs-lookup"><span data-stu-id="88a57-112">To enter general and mandatory settings</span></span>
+1. <span data-ttu-id="88a57-113">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstinställningar** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="88a57-113">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="88a57-114">Fyll i fälten om det behövs.</span><span class="sxs-lookup"><span data-stu-id="88a57-114">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a><span data-ttu-id="760b5-115">Se även</span><span class="sxs-lookup"><span data-stu-id="760b5-115">See Also</span></span>  
-[<span data-ttu-id="760b5-116">Konfigurera felrapportering</span><span class="sxs-lookup"><span data-stu-id="760b5-116">Set Up Fault Reporting</span></span>](service-how-setup-fault-reporting.md)  
-[<span data-ttu-id="760b5-117">Så här skapar du resursfördelningar</span><span class="sxs-lookup"><span data-stu-id="760b5-117">Set Up Resource Allocation</span></span>](service-how-setup-resource-allocation.md)  
-[<span data-ttu-id="760b5-118">Skapa koder för standardtjänster</span><span class="sxs-lookup"><span data-stu-id="760b5-118">Set Up Codes for Standard Services</span></span>](service-how-setup-service-coding.md)  
-[<span data-ttu-id="760b5-119">Registrera alternativa kostnader för tjänster</span><span class="sxs-lookup"><span data-stu-id="760b5-119">Set Up Additional Costs for Services</span></span>](service-how-setup-service-costs-pricing.md)  
-[<span data-ttu-id="760b5-120">Ställa in felsökning</span><span class="sxs-lookup"><span data-stu-id="760b5-120">Set Up Troubleshooting</span></span>](service-how-setup-troubleshooting.md)  
-[<span data-ttu-id="760b5-121">Servicehantering</span><span class="sxs-lookup"><span data-stu-id="760b5-121">Service Management</span></span>](service-service.md)  
+## <a name="see-also"></a><span data-ttu-id="88a57-115">Se även</span><span class="sxs-lookup"><span data-stu-id="88a57-115">See Also</span></span>  
+[<span data-ttu-id="88a57-116">Konfigurera felrapportering</span><span class="sxs-lookup"><span data-stu-id="88a57-116">Set Up Fault Reporting</span></span>](service-how-setup-fault-reporting.md)  
+[<span data-ttu-id="88a57-117">Så här skapar du resursfördelningar</span><span class="sxs-lookup"><span data-stu-id="88a57-117">Set Up Resource Allocation</span></span>](service-how-setup-resource-allocation.md)  
+[<span data-ttu-id="88a57-118">Skapa koder för standardtjänster</span><span class="sxs-lookup"><span data-stu-id="88a57-118">Set Up Codes for Standard Services</span></span>](service-how-setup-service-coding.md)  
+[<span data-ttu-id="88a57-119">Registrera alternativa kostnader för tjänster</span><span class="sxs-lookup"><span data-stu-id="88a57-119">Set Up Additional Costs for Services</span></span>](service-how-setup-service-costs-pricing.md)  
+[<span data-ttu-id="88a57-120">Ställa in felsökning</span><span class="sxs-lookup"><span data-stu-id="88a57-120">Set Up Troubleshooting</span></span>](service-how-setup-troubleshooting.md)  
+[<span data-ttu-id="88a57-121">Servicehantering</span><span class="sxs-lookup"><span data-stu-id="88a57-121">Service Management</span></span>](service-service.md)  

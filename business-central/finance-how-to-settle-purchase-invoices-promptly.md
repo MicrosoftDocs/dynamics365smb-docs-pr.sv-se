@@ -1,8 +1,6 @@
 ---
 title: Så här gör du för att snabbt betala inköpsfakturor | Microsoft Docs
 description: Om du vill betala leverantören kontant eller med check kan all nödvändig bokföring göras när du bokför fakturan.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,28 +10,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7392ec07c59974869dce6c1e8172eb48701e1d26
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554020"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879686"
 ---
-# <a name="settle-purchase-invoices-promptly"></a><span data-ttu-id="4d158-103">Betala inköpsfakturor snabbt</span><span class="sxs-lookup"><span data-stu-id="4d158-103">Settle Purchase Invoices Promptly</span></span>
-<span data-ttu-id="4d158-104">Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.</span><span class="sxs-lookup"><span data-stu-id="4d158-104">If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.</span></span>  
+# <a name="settle-purchase-invoices-promptly"></a><span data-ttu-id="38efc-103">Betala inköpsfakturor snabbt</span><span class="sxs-lookup"><span data-stu-id="38efc-103">Settle Purchase Invoices Promptly</span></span>
+<span data-ttu-id="38efc-104">Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.</span><span class="sxs-lookup"><span data-stu-id="38efc-104">If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.</span></span>  
 
-### <a name="to-settle-purchase-invoices-promptly"></a><span data-ttu-id="4d158-105">Så här gör du för att snabbt betala inköpsfakturor:</span><span class="sxs-lookup"><span data-stu-id="4d158-105">To settle purchase invoices promptly</span></span>  
-1. <span data-ttu-id="4d158-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="4d158-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="4d158-107">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="4d158-107">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="4d158-108">Ange numret på redovisningskassakontot eller bankkontot i fältet **Motkonto** om du vill betala kontant eller via banköverföring .</span><span class="sxs-lookup"><span data-stu-id="4d158-108">To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.</span></span>  
+### <a name="to-settle-purchase-invoices-promptly"></a><span data-ttu-id="38efc-105">Så här gör du för att snabbt betala inköpsfakturor:</span><span class="sxs-lookup"><span data-stu-id="38efc-105">To settle purchase invoices promptly</span></span>  
+1. <span data-ttu-id="38efc-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="38efc-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="38efc-107">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="38efc-107">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="38efc-108">Ange numret på redovisningskassakontot eller bankkontot i fältet **Motkonto** om du vill betala kontant eller via banköverföring .</span><span class="sxs-lookup"><span data-stu-id="38efc-108">To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.</span></span>  
 
 > [!IMPORTANT]  
->  <span data-ttu-id="4d158-109">Fälten **Motkontotyp** och **Motkonto** ingår inte i standardlayouten för fakturahuvudet.</span><span class="sxs-lookup"><span data-stu-id="4d158-109">The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header.</span></span> <span data-ttu-id="4d158-110">Infoga fälten med hjälp av designfunktionerna innan du bokför betalningen av en faktura.</span><span class="sxs-lookup"><span data-stu-id="4d158-110">In order to post the payment of an invoice, you must first insert them with the design facilities.</span></span>  
+>  <span data-ttu-id="38efc-109">Fälten **Motkontotyp** och **Motkonto** ingår inte i standardlayouten för fakturahuvudet.</span><span class="sxs-lookup"><span data-stu-id="38efc-109">The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header.</span></span> <span data-ttu-id="38efc-110">Infoga fälten med hjälp av designfunktionerna innan du bokför betalningen av en faktura.</span><span class="sxs-lookup"><span data-stu-id="38efc-110">In order to post the payment of an invoice, you must first insert them with the design facilities.</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="4d158-111">Om du ofta betalar inköpsfakturor kontant kan det vara praktiskt att definiera ett särskilt betalningssätt för ett motkonto och ange detta i fältet **Betalningssätt** på leverantörskortet.</span><span class="sxs-lookup"><span data-stu-id="4d158-111">If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card.</span></span> <span data-ttu-id="4d158-112">Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura.</span><span class="sxs-lookup"><span data-stu-id="4d158-112">The balancing account number is inserted automatically on the invoice header every time you create a new invoice.</span></span>  
+>  <span data-ttu-id="38efc-111">Om du ofta betalar inköpsfakturor kontant kan det vara praktiskt att definiera ett särskilt betalningssätt för ett motkonto och ange detta i fältet **Betalningssätt** på leverantörskortet.</span><span class="sxs-lookup"><span data-stu-id="38efc-111">If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card.</span></span> <span data-ttu-id="38efc-112">Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura.</span><span class="sxs-lookup"><span data-stu-id="38efc-112">The balancing account number is inserted automatically on the invoice header every time you create a new invoice.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="4d158-113">Se även</span><span class="sxs-lookup"><span data-stu-id="4d158-113">See Also</span></span>  
-[<span data-ttu-id="4d158-114">Hantera Leverantörsreskontra</span><span class="sxs-lookup"><span data-stu-id="4d158-114">Managing Payables</span></span>](payables-manage-payables.md)  
-[<span data-ttu-id="4d158-115">Inköp</span><span class="sxs-lookup"><span data-stu-id="4d158-115">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="4d158-116">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4d158-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="38efc-113">Se även</span><span class="sxs-lookup"><span data-stu-id="38efc-113">See Also</span></span>  
+[<span data-ttu-id="38efc-114">Hantera Leverantörsreskontra</span><span class="sxs-lookup"><span data-stu-id="38efc-114">Managing Payables</span></span>](payables-manage-payables.md)  
+[<span data-ttu-id="38efc-115">Inköp</span><span class="sxs-lookup"><span data-stu-id="38efc-115">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="38efc-116">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="38efc-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
