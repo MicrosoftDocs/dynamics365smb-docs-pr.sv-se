@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306322"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808583"
 ---
 # <a name="select-a-check-layout"></a>Välj en checklayout
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
@@ -23,7 +23,7 @@ Du kan designa dina checkar så att de uppfyller de normer som fastställts av d
 Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska checkbildformat i antingen check-checktalong-check-format eller checktalong-checktalong-check-format.
 
 ## <a name="to-select-a-check-layout"></a>Välj en checklayout genom att
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rapportval - bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval - bankkonto** och välj sedan relaterad länk.
 2. På sidan **Rapportval - bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
@@ -36,10 +36,10 @@ Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska c
 
 När du har upprättat checklayouter, kan du skriva ut checkar från sidan **utbetalningsjournal**. Mer information finns i [Arbeta med checkar](payables-how-work-checks.md).
 
-Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integration. Mer information finns i [så här skapar du och ändrar en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md).
+Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integration. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se även
-[Så här skapar och ändrar du en anpassad rapport eller dokumentlayout](ui-how-create-custom-report-layout.md)  
+[Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Hantera bankkonton](bank-manage-bank-accounts.md)   
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  

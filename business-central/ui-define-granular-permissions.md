@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774729"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809354"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 Med säkerhetssystemet [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och IT-proffs för [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Innan du tilldelar behörigheter till användare och användargrupper måste du ange vem som kan logga in genom att skapa användare enligt licensen såsom definierats i Office 365 administrationscenter. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
+Innan du tilldelar behörigheter till användare och användargrupper måste du ange vem som kan logga in genom att skapa användare enligt licensen såsom definierats i Microsoft 365 administrationscenter. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det två behörighetsnivåer för databasobjekt:
 - De övergripande behörigheterna enligt licensen, som också kallas för berättigandet.

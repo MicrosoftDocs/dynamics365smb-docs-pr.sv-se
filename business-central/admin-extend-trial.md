@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/01/2019
+ms.date: 11/14/2019
 ms.author: bholtorf
-ms.openlocfilehash: bce2f8ec50fa836be87c0f1bd77a28e44b208167
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: 6468ab23e570066bfdc052461ff49f4ae3c03ad5
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764630"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808895"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 Det är viktigt att fatta rätt beslut när du väljer ett affärsprogram och vi vet att det kan ta tid att utforska alla hörnen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du behöver mer tid för att slutföra utvärderingen kan du utöka utvärderingsperioden själv i ytterligare 30 dagar. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett meddelande när du loggar in. Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden. De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden.
@@ -31,6 +31,7 @@ Om den första utvärderingsperioden på 30 dagar har gått ut kan du utöka de
 2. I meddelandet överst i arbetsytan väljer du **utöka utvärderingsperioden**.
 
 ## <a name="see-also"></a>Se även
+
 [Skapa nya företag](about-new-company.md)  
-[Tillgång till förhandsgranskning](across-preview.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer](across-preview.md)  
 [Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)  

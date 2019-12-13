@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311482"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832365"
 ---
 # <a name="setting-up-included365finincludesd365fin_mdmd"></a>Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar företagets behov.
@@ -46,8 +46,8 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 |Överför information för kunder, leverantörer, lager och bankkonton från ett annat system i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)|
 |Använd tillägget Business Central Outlook för att se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.|[Använda Business Central som din företagsinkorg i Outlook](admin-outlook.md)|
 |Få insyn i Business Central-data med hjälp av Power BI och Business Central-innehållspaket.|[Aktivera affärsdata för Power BI](admin-powerbi.md)|
-|Använd Business Central-data som en del av ett arbetsflöde i Microsoft Flow.|[Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)|
-|Gör din Business Central-data tillgänglig som underlag för datakälla i PowerApps.|[Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Använd Business Central-data som en del av ett arbetsflöde i Power Automate.|[Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)|
+|Gör din Business Central-data tillgänglig som underlag för datakälla i Power Apps.|[Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Använd särskilda Quickbooks migreringsguider.|[Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)|
 |Komma åt Business Central-data från en mobil enhet.|[Få Business Central på din mobila enhet](install-mobile-app.md)|
 |Bulkfakturera avtalade tider som skapats i Bookings.|[Bulkfakturera för Microsoft Bookings](finance-bookings.md)|
