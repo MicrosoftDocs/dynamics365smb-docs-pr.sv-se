@@ -5,6 +5,15 @@
 ## [Minsta krav](product-requirements.md)
 ## [Vanliga frågor och svar](across-faq.md)
 ## [Resurser för hjälp och support](product-help-and-support.md)
+## [Gör dig redo för affärer](ui-get-ready-business.md)
+## [Översikt över affärsfunktioner](across-business-functionality.md)
+## [Din åtkomst till intelligent moln med Business Central](about-intelligent-cloud.md)
+## [Besök vårt videobibliotek](across-videos.md)
+## Utvärderingsversioner och prenumerationer
+### [Översikt](across-preview.md)
+### [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)
+### [Utöka din utvärderingsversion](admin-extend-trial.md)
+### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ## Söka efter utbildning
 ### [Utbildningskatalog](readiness/readiness-learning-catalog.md)
 ### [Utbildningskatalog för företagets beslutsfattare](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Utbildningskatalog för funktionskonsulter](readiness/readiness-learning-functional-consultants.md)
 ### [Utbildningskatalog för förförsäljning](readiness/readiness-learning-presales.md)
 ### [Utbildningskatalog för försäljning](readiness/readiness-learning-sales.md)
-
-## [Gör dig redo för affärer](ui-get-ready-business.md)
-## [Översikt över affärsfunktioner](across-business-functionality.md)
-## [Utvärderingsversioner och prenumerationer](across-preview.md)
-### [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)
-### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
-## [Din åtkomst till intelligent moln med Business Central](about-intelligent-cloud.md)
-## [Besök vårt videobibliotek](across-videos.md)
 ## Återförsäljare och partners
 ### [Bli en återförsäljare](product-sell.md)
 ### [Utöka Business Central](about-develop-extensions.md)
@@ -225,7 +226,7 @@
 ### [Använda Business Central som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)
 ## ANvända Power Automate med Business Central
 ### [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
-## Använda Power Apps med Business Central
+## ANvända Power Apps med Business Central
 ### [Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)
 ## [Få Business Central på din mobila enhet](install-mobile-app.md)
@@ -314,7 +315,7 @@
 #### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uppdatera valutakurser](finance-how-update-currencies.md)
 #### [Fältmappning vid import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Fältmappning vid export av betalningsfiler via bankdatakonverteringstjänst](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Fältmappning för tillägget AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administration
 ## [Översikt](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Konfigurera en anslutning till Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Ändra tabellmappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)
 ### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Så här granskar och kopplar du betalningar manuellt efter automatisk koppling](receivables-how-review-apply-payments-auto-application.md)
 #### [Så här stämmer du av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Definiera regler för automatisk koppling av betalningar](receivables-how-set-up-payment-application-rules.md)
 ### [Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md)
 ### [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md)
 ### [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)
 ### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
-### [Spärra kunder](receivables-how-block-customers.md)
+### [Spärra leverantörer](payables-how-block-vendors.md)
 ### [Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)
 ### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md)
 ### [Korrigera förskottsbetalningar](finance-how-to-correct-prepayments.md)
 
-## Hantera bankkonton
+## Stämma av bankkonton
 ### [Översikt](bank-manage-bank-accounts.md)
+### [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md)
 ### [Koppla utbetalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md)  
-### [Överföra banktillgångar](bank-how-transfer-bank-funds.md)
 
 ## Hantera koncerninterna transaktioner
 ### [Översikt](intercompany-manage.md)
@@ -499,6 +500,7 @@
 ## [Analysera transaktioner i företaget](finance-analyze-cash-flow.md)
 ## [Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)
+## [Överföra banktillgångar](bank-how-transfer-bank-funds.md)
 ## [Revisorlösningar i Business Central](finance-accounting.md)
 
 # Affärsstöd
@@ -924,10 +926,29 @@
 
 ## Tjeckien
 ### [Översikt](LocalFunctionality/Czech/czech-local-functionality.md)
+### Grundläggande ekonomi  
+#### [Ekonomi](LocalFunctionality/Czech/finance.md)
+#### [Bokslutsåtgärder](LocalFunctionality/Czech/year-close-operations.md)
+#### [Koppling av redovisningstransaktioner](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Uppdatera valutakurs](LocalFunctionality/Czech/exchange-rate-update.md)
 ### Moms
+#### [Ekonomi - moms](LocalFunctionality/Czech/finance-vat.md)
 #### [Rapport för momskontroll](LocalFunctionality/Czech/vat-control-report.md)
+### Anläggningstillgångar
+#### [Anläggningstillgångar](LocalFunctionality/Czech/fixed-assets.md)
 ### Bankverksamhet och betalningar
+#### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
+#### [Kassahantering](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registrering av försäljning (EET)](LocalFunctionality/Czech/eet.md)
+#### [Förskott](LocalFunctionality/Czech/advances.md)
+### Leverantörsreskontra och kundreskontra
+#### [Leverantörsreskontra och kundreskontra](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Lager
+#### [Lager](LocalFunctionality/Czech/inventory.md)
+### Allmänt
+#### [Utökad användarkontroll](LocalFunctionality/Czech/general.md)
+#### [Bästa praxis](LocalFunctionality/Czech/best-practices.md)
 
 ## Danmark
 ### [Översikt](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Mexiko
 ### [Översikt](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Moms
+#### [Ställa in och generera DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexikansk omsättningsskatt](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Ställa in importavgift och ingående moms](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Ställ in tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Ange externa dokumentnummer](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Skriv ut rapporter för direkt försäljning och inköpsinformation](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## USA
 ### [Översikt](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="Så här skapar du förskottsfakturor" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="Så här korrigerar du förskottsbetalningar" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Hantera bankkonton" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Stämma av bankkonton" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Koppla utbetalningar automatiskt och stämma av bankkonton" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="Så här stämmer du av bankkonton separat" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Så här stämmer du av bankkonton" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="Så här överför du banktillgångar" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Hantera koncerninterna transaktioner" Page="intercompany-manage.html">
