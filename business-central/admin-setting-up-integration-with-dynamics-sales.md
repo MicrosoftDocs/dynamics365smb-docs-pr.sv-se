@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879029"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910569"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Ställa in konton för integrering med Dynamics 365 Sales
 Den här artikeln innehåller en översikt över hur du ställer in de konton som behövs för att integrera [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ Du måste skapa ett dedikerat användarkonto i din Office 365-prenumeration som 
 > Använd inte administratörskontot för [!INCLUDE[crm_md](includes/crm_md.md)] för synkronisering. Om du gör det bryts synkroniseringen.
 > Dessutom, för att undvika konstant synkronisering synkroniseras inte ändringar av integreringsanvändarkontot. <!--What changes would this account make?--> När anslutningen har upprättats bör du ange åtkomstläget för användarkontot för integration i icke-interaktivt läge i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [skapa ett icke-interaktivt användarkonto](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-sales-people"></a>Ställa in konton för säljare
+## <a name="setting-up-accounts-for-salespeople"></a>Skapa konton för säljare
 Du måste skapa användarkonton i [!INCLUDE[crm_md](includes/crm_md.md)] för säljare från [!INCLUDE[d365fin](includes/d365fin_md.md)]. För att göra detta enklare erbjuder Microsoft 365 administratörscenter en Excel-mall som du kan använda. På sidan **aktiva användare** väljer du **Mer** och sedan **Importera flera användare**. Välj **Hämta en CSV-fil med endast rubriker** och ange sedan ange information om säljarna. För att se ett exempel väljer du **Hämta en CSV-fil med rubriker och exempelanvändarinformation**. När du har angett information om användarna är nästa steg i importprocessen att tilldela användarlicenser till Dynamics 365 Customer Engagement-planen.  
 
 När du har importerat användarna och tilldelat dem licenser för Dynamics 365 Customer Engagement måste du tilldela användare till rollen **säljare** i [!INCLUDE[crm_md](includes/crm_md.md)].

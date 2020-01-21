@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692734"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910401"
 ---
 # <a name="setting-up-banking"></a>Ställa in bank
 Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.
@@ -31,7 +31,7 @@ Om du vill använda elektroniska banktjänster för att importera kontoutdrag oc
 | Konfigurera en extern tjänst som låter dig exportera dina betalningar till banken för bearbetning och importera kontoutdrag som bankfiler för betalningskoppling och bankkontoavstämning. |[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Se även
-[Hantera bankkonton](bank-manage-bank-accounts.md)  
+[Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

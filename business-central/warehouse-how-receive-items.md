@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d007c3a9433807f75e667e130c0b79355a4a051a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 273da0c35e6c4ca376f38ceede1568f5df5b4b15
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876755"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953089"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 När artiklarna tas emot i ett distributionslager som har ställts in för distributionslagerinleveransen kan du bara registrera inleveransen med relaterade dokument, till exempel en inköpsorder, en försäljningsreturorder eller en order för ankommande överföringar.
@@ -75,9 +75,11 @@ Om du inte använder artikelinförsel för distributionslagret utan i stället a
 >   
 >  Om du använder dirigerad artikelinförsel och plockning i ditt lagerställe används artikelinförselmallarna för att beräkna den bästa platsen för artiklarna. Detta skrivs sedan ut på artikelinförselinstruktionen.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

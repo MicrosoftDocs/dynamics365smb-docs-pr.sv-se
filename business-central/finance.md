@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301546"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911101"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
@@ -31,7 +31,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Koppla inkommande utbetalningar, stämma av bankkonton under betalningskoppling och kräva in utestående saldon. |[Hantera kundreskontra](receivables-manage-receivables.md) |
 | Göra utbetalningar, koppla utgående betalningar och arbeta med checkar. |[Hantera Leverantörsreskontra](payables-manage-payables.md) |
 |Gör så att kunderna skickar betalning innan du levererar till dem eller skickar betalning till dina leverantörer innan de levererar till dig.|[Fakturera förskottsbetalningar](finance-invoice-prepayments.md)|
-| Stämma av bankkonton och överföra pengar mellan bankkonton. |[Hantera bankkonton](bank-manage-bank-accounts.md) |
+| Stämma av bankkonton och överföra pengar mellan bankkonton. |[Jämka bankkonton](bank-manage-bank-accounts.md) |
 |Ställa in koncerninterna partners och bearbeta transaktioner, manuellt eller automatiskt mellan juridiska personer inom samma företag.|[Hantera koncerninterna transaktioner](intercompany-manage.md)|
 |Analysera kostnaderna för att driva ditt företag genom att fördela faktiska budgeterade kostnader för drift, avdelningar, produkter och projekt till kostnadscenter.|[Redovisa kostnader](finance-manage-cost-accounting.md)|
 |hantera lager- och produktionskostnader, rapportera kostnader och stämma av kostnader med redovisningen.|[Hantera lagerkostnader](finance-manage-inventory-costs.md)|

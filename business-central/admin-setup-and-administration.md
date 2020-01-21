@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808871"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953569"
 ---
 # <a name="administration"></a>Administration
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
@@ -33,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |**Om du vill**|**Se**|  
 |------------|-------------|  
-|Ange vem som kan logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att skapa användare i Microsoft 365 administrationscenter enligt produktlicenserna.|[Skapa användare enligt licenser](ui-how-users-permissions.md)| 
+|Ange vem som kan logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att skapa användare i Microsoft 365 administrationscenter enligt produktlicenserna.|[Skapa användare enligt licenser](ui-how-users-permissions.md)|
 |Tilldela behörigheter till användare, ändra behörighetsuppsättningar och gruppera användare för enkel behörighetshantering.|[Tilldela behörigheter till användare och grupper](ui-how-users-permissions.md)|
 |Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Hantera profiler](admin-users-profiles-roles.md)|
 |Klassificera datakänslighetsnivåer för fält så att du kan svara på begäranden från datasubjekt som rör deras personuppgifter.|[Klassificera datakänslighet](admin-classifying-data-sensitivity.md)|
@@ -47,6 +47,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Kryptera data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-server genom att skapa nya eller importera befintliga krypteringsnycklar som du aktiverar på servern.|[Hantera datakryptering](admin-manage-data-encryption.md)|
 |Ansluta Dynamics 365 Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Affärsfunktion](across-business-functionality.md)  

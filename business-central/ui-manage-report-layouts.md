@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/13/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809382"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953209"
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
 En rapportlayout kontrollerar rapportens format och innehåll, som vilka datafält i en rapportdatauppsättning som visas i rapporten och hur de ordnas, textstil, bilder och mycket annat. Från [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ändra vilken layout som används på en rapport, skapa en ny layout eller ändra befintliga layouter.
@@ -57,6 +57,8 @@ De allmänna designbegreppen för Word- och RDLC-layouter är mycket lika varand
 Processen för att skapa Word-rapportlayouter och RDLC-rapportlayouter i rapporter är densamma. Den huvudsakliga skillnaden är det sätt som du ändrar layouterna. Word-rapportlayouter är oftast lättare att skapa och ändra än RDLC-rapportlayouter, eftersom du kan använda Word. RDLC-rapportlayouter ändras genom att använda SQL Server Report Builder som är till för mer avancerade användare.
 
 Information om hur du ändrar vilken layout som ska användas finns i [Ändra aktuell layout](ui-how-change-layout-currently-used-report.md)
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Uppdatera anpassade rapportlayouter](ui-update-report-layouts.md)  

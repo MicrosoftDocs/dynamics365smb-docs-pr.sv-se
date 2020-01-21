@@ -1,1 +1,2 @@
-Detta är en funktion för tidiga versionen som vi fortfarande arbetar med. Funktionerna och innehållet på den här sidan kan komma att ändras.
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](d365acc_long_md.md)] är för närvarande i allmän förhandsgranskning på ett begränsat antal marknader. Funktionaliteten samt innehållet på denna sida ska ses som en tidig version som vi ännu arbetar.

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5ea488bc03ffa64b0d6c4b5c1466ddf01ca52ab1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314970"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953905"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -104,7 +104,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 >   Följande procedur gäller för artikeljournalen, men informationen kan också tillämpas på redovisningsjournalen.
 
 ### <a name="to-save-a-standard-journal"></a>Så här sparar du som en standardjournal
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.
 2. Mata på en eller flera journalrader.
 3. Markera de journalrader som du vill återanvända.
 4. Välj åtgärden **Spara som standardjournal**.
@@ -119,7 +119,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 När du har sparat standardartikeljournalen visas sidan Artikeljournal så att du kan fortsätta att bokföra den, samtidigt som du vet att den lätt kan återskapas nästa gång du bokför samma eller likartade rader.
 
 ### <a name="to-reuse-a-standard-journal"></a>Så här återanvänder du standardjournaler
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.
 2. Välj åtgärden **Få standardjournal**.
 
     Sidan Standardartikeljournaler visas med koder och beskrivningar för alla befintliga standardartikeljournaler.
@@ -153,10 +153,12 @@ Alla omnumreringen av verifikationsnummer skall respektera relaterade tillämpni
 
 Följande procedur är baserad på sidan **Redovisningsjournal**, men gäller för alla andra journaler som baseras på den redovisningsjournalen, t.ex. sidan **Utbetalningsjournal**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan relaterad länk.
 2. När du är klar att bokföra journalraderna väljer du **Numrera om dokumentnummer**.
 
 Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. När dokument numreras kan du fortsätta att bokföra journalen.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-journals-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  

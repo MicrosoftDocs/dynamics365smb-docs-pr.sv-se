@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302562"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952583"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysera finansiella rapporter i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du se KPI: er och få en översikt över företagets ekonomiska status. Du kan också öppna listor i Excel och analysera data där. Men du kan också exportera ekonomiska bokslut som balansräkningen eller resultaträkningen till Excel, analysera data och skriva ut rapporterna.  
@@ -41,8 +41,10 @@ Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse inkluderar ett tillä
 
 Med tillägget, kan du uppdatera data från [!INCLUDE[d365fin](includes/d365fin_md.md)], och du kan skicka ändringar till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Däremot inaktiveras sjkuta tillbaka till databasen för ekonomiska Excel-rapporterna i listan ovan.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Huvudbok och kontolista](finance-general-ledger.md)  
 [Arbeta med Business Central](ui-work-product.md)  

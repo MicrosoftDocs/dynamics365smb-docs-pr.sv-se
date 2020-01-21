@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879495"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953713"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  
@@ -28,6 +28,9 @@ Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du
 * **Kassaflödesprognoser**  
 
 Det här avsnittet beskriver var informationen i diagrammen kommer från och, vid behov, vad du gör om du vill börja använda diagrammen.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Kassacykeln och diagram för inkomster och utgifter
 Diamgrammen **Kassacykel** och **inkomster och utgifter** är klara, beroende på kontoplan och kontouppställningar. Kontona är var informationen kommer från och kontouppställningar beräknar förhållandet mellan försäljning och kundfordringar. Vissa konton och kontouppställningar tillhandahålls. Du kan använda dem som de är, ändra dem och lägga till nya. Om du lägger till redovisningskonton i kontoplanen, till exempel genom att importera dem från QuickBooks, behöver du mappa till kontona på sidan **kontouppställningar** för följande Kontouppställningsnamn:  
@@ -90,6 +93,8 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
 6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
 7. Expandera snabbfliken **Azure AI** och fyll i fälten.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  

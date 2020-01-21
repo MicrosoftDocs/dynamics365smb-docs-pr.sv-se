@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810819"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910838"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du fylla i fälten på sidan SMTP-postinställning.
@@ -30,7 +30,7 @@ Du kan antingen skapa e-post skapar du manuellt som nedan eller också kan du f�
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Om du använder ett konto som kräver tvåfaktorautentisering måste lösenordet som du anger fältet **Lösenord** vara samma som du använder för Office 365-prenumerationen och det måste vara av typen **applösenord**. Mer information finns i [hantera applösenord för tvåstegsverifiering](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Om du använder ett konto som kräver tvåfaktorautentisering måste lösenordet som du anger fältet **Lösenord** vara samma som du använder för Office 365-prenumerationen och det måste vara av typen **applösenord**. Mer information finns i [hantera applösenord för tvåstegsverifiering](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Du kan också välja åtgärden **Använd Office 365-serverinställningar** för att infoga information som redan har definierats för din Office 365-prenumeration.
 4. När alla fälten är korrekt ifyllda, väljer du åtgärden **Testa e-postinställningar**.
 5. När testet lyckas stänger du sidan.
@@ -51,7 +51,7 @@ Nedan följer exempel på hur skicka och skicka för ombud används i [!INCLUDE[
 2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **SMTP-postinställningar** och välj sedan relaterad länk.
 3. I fältet **Skicka som** anger du ersättningsadressen.
 4. Kopiera eller anteckna adressen i fältet **användar-ID**.
-5. I **administrationscenter för Exchange** hittar du postlådan som ska användas som ersättningsadress och anger sedan adressen från fältet **Användar-ID** i **Skicka som**. Mer information finns i [Hantera behörigheter förmottagare](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. I **administrationscenter för Exchange** hittar du postlådan som ska användas som ersättningsadress och anger sedan adressen från fältet **Användar-ID** i **Skicka som**. Mer information finns i [Använd EAC för att tilldela behörighet till enskilda mailboxar](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Så här använder du ersättningsadressen i arbetsflöde för godkännande
 1. I [!INCLUDE[d365fin](includes/d365fin_md.md)] välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **SMTP-postinställningar** och välj sedan relaterad länk.

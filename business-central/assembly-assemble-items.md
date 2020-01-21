@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878943"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953881"
 ---
 # <a name="assembly-management"></a>Monteringshantering
 För att hantera företag som levererar till produkter till kunder genom att slå ihop komponenter i enkla processer utan behov av produktionsfunktionen, innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] funktionen för att sammanställa artiklar som integreras med befintliga funktioner, till exempel försäljning, planering, reservationer och lagerhantering.  
@@ -46,9 +46,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Lära dig mer om skillnaden mellan monteringsstrukturer och produktionsstrukturer och de berörda bearbeta skillnaderna.|[Arbeta med strukturer](inventory-how-work-BOMs.md)|
 |Lära dig hur tillverkningsförbrukning och utflöde hanteras, när du bokför monteringsorder och utifrån hur artikel och resurskostnaderna är behandlats och biztalk-dokumenten distribueras till redovisningen.|[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)|  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

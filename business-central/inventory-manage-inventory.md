@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1cbcc28483179929f64f182bdad3f5fab36603f7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79a640a01dbd0c1ca82b5190e690a4ff71a136a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309538"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952704"
 ---
 # <a name="inventory"></a>Lagersaldo
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
@@ -27,6 +27,8 @@ För att öka en översikt av artiklar och för att söka efter dem kan du kateg
 
 > [!NOTE]
 > Den fysiska hanteringen av artiklar kallas lageraktiviteter. Mer information finns i [Lagerhantering](warehouse-manage-warehouse.md).
+
+Planeringen av artiklars uppfyllande av efterfrågan omfattas av funktionen för materielplanering. Mer information finns i [Planering](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Lageravstämning
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen. Mer information finns i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
@@ -51,6 +53,8 @@ När du bokför lagertransaktioner, till exempel försäljningsutleveranser, ink
 |Sök var serie- eller partinummer har använts i dess försörjningskedja, till exempel i återkallningssituationer.|[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)|
 |Spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.|[Spärra artiklar](inventory-how-block-items.md)|
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
+
+
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

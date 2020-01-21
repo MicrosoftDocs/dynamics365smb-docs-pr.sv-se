@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b93073c8d8c6ad639d27644719c4c5b40cda6fe
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882596"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952656"
 ---
 # <a name="accounting-for-costs"></a>Redovisa kostnader
 Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.  
@@ -28,8 +28,9 @@ Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att 
 |Överföra redovisningstransaktioner till kostnadstransaktioner|[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)|  
 |Fördela kostnader.|[Definiera och fördela kostnader](finance-define-and-allocate-costs.md)|  
 |Lära dig att skapa kostnadsbudgetar.|[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)|
-|Avbryta kostnadstransaktioner från journaler för kostnadsbudget.|[Ta bort kostnadsbudgettransaktioner](finance-how-to-delete-cost-budget-entries.md)| 
+|Avbryta kostnadstransaktioner från journaler för kostnadsbudget.|[Ta bort kostnadsbudgettransaktioner](finance-how-to-delete-cost-budget-entries.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-cost-accounting-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även  
 [Ekonomi](finance.md)  

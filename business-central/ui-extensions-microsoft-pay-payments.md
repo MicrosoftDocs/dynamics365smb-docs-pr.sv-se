@@ -9,16 +9,27 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8dc710cb95e82e535a1ee694f3aeb510be0a03b5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
+ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311170"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943289"
 ---
 # <a name="the-microsoft-pay-extension"></a>Tillägget Microsoft Pay
+
+> [!IMPORTANT]
+> Från och med den 8 februari 2020 kommer ändringar i Microsoft Pay-tjänsten att påverka Microsoft Pay-tillägget i Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. På grund av ändringarna kommer **Betala nu**-betallänkarna som Microsoft Pay-tillägget genererar för fakturor i [!INCLUDE[d365fin](includes/d365fin_md.md)] inte att öppna Microsoft Pay efter den 8 februari. Kunder som använder tillägget bör ändra sina inställningar för betaltjänster och istället börja använda PayPal-tillägget.<br /></br>
+>
+> Från och med den 8 januari kommer vi att visa en avisering i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Meddelandet kommer att innehålla en länk till de inställningar som du behöver ändra och till mer information. Efter den 8 februari kommer Microsoft Pay-tillägget inte längre att vara tillgängligt i [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+>
+> Ändringarna påverkar följande versioner av Business Central:
+> - Microsoft Dynamics 365 Business Central oktober 2018
+> - Microsoft Dynamics 365 Business Central april 2019
+> - Microsoft Dynamics 365 Business Central 2019, utgivningsplan 2
+
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leverans- och betalningstjänster. Tjänsten Microsoft Pay hjälper dig att öka din kundservice.
 
 Tillägget Microsoft Pay lägger till en Microsoft Pay-länk till ditt försäljningsdokument så att kunder lätt kan betala med Microsoft Pay. Därefter kan du skicka dokument med e-post för att ge bättre kundservice och minska den tid det tar för kundens betalningar att komma till ditt bankkonto.

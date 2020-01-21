@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9aec5c57c66ce39bc9d314dc257e2a801ed961ea
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307546"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952752"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data. Bakom XBRL-projektet för global ekonomisk rapportering står ett stort antal ERP-programvaruföretag och internationella revisionsbyråer. Målet med projektet är att tillhandahålla en standard för enhetlig rapportering av ekonomisk information för banker, investerare och statliga myndigheter. Sådan affärsrapportering kan inkludera följande:  
@@ -66,7 +66,7 @@ När du har importerat eller uppdaterat taxonomin måste schemaraderna förses m
 
 Du lägger upp XBRL-rader genom att koppla data i taxonomin till data i redovisningen.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
 2.  Välj en taxonomi i listan på sidan **XBRL-taxonomier**.  
 3.  Välj åtgärden **Rader**.  
 4.  Markera en rad och fyll i fälten.   
@@ -83,7 +83,7 @@ Du lägger upp XBRL-rader genom att koppla data i taxonomin till data i redovisn
  ## <a name="to-import-an-xbrl-taxonomy"></a>Så här importerar du XBRL-taxonomier  
 Det första du måste göra när du arbetar med XBRL-funktionerna är att importera taxonomin till företagets databas. En taxonomi består av ett eller flera scheman och länkbaser. När du har importerat ett eller flera scheman och länkbaser och kopplat länkbaserna till schemat, kan du lägga upp raderna och koppla redovisningskontona i kontoplanen till lämpliga taxonomirader.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
 2.  På sidan **XBRL-taxonomier** skapa en ny rad och ange namnet och en beskrivning av taxonomin.  
 3.  Välj åtgärden **Scheman** och infoga beskrivningen av schemat.  
 4.  Importera schemat, på sidan **XBRL-scheman** väljer du åtgärden **Importera** och väljer sedan en mapp och XSD-fil. Välj **OK**.  
@@ -97,13 +97,15 @@ Det första du måste göra när du arbetar med XBRL-funktionerna är att import
 ## <a name="to-update-an-xbrl-taxonomy"></a>Så här uppdaterar du en XBRL-taxonomi  
 När en taxonomi ändras måste du uppdatera den aktuella taxonomin i enlighet därmed. Orsaken till uppdateringen kan vara ett ändrat schema, en ändrad länkbas eller en ny länkbas. När du har uppdaterat taxonomin behöver du bara koppla ihop raderna för de ändrade eller nya raderna.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
 2.  På sidan **XBRL-taxonomier** väljer du åtgärden **Scheman**.  
 3.  Om du vill uppdatera ett schema väljer du schemat och väljer sedan åtgärden **Importera**.  
 4.  Välj åtgärden **Länkbaser** när du vill uppdatera eller lägga till en ny länkbas.  
 5.  Välj lämplig länkbas eller tryck på Ctrl+N för att skapa en ny rad, välja länkbastyp och sedan skriva in en beskrivning.  
 6.  Importera länkbasen genom att välja åtgärden **importera**.  
 7.  Välj **Ja** när du vill koppla länkbasen till schemat.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)    

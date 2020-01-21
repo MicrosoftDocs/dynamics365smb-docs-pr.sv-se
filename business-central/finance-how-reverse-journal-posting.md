@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2019
+ms.date: 12/16/2019
 ms.author: sgroespe
-ms.openlocfilehash: 808459f9c77d797c58a5956a5641c97bc398734e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 416ca6f99dec55a9eb0c9a70e9974d2e7bcb348c
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306232"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910450"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Återföra journalbokningar och ångra inleveranser/utleveranser
 För att kunna återföra (ångra) en felaktig bokföring markerar du posten och skapar en korrigeringspost (transaktioner som är identiska med den ursprungliga transaktionen, men har ett motsatt tecken i beloppsfältet) med samma dokumentnummer och bokföringsdatum som den ursprungliga posten automatiskt. När du har återfört en post måste du skapa en korrekt post.
 
 Du kan endast återföra poster som har bokförts från en redovisningsjournalrad. En transaktion kan endast återföras en gång.
 
-Om du vill ångra en bokföring av inleverans eller utleverans innan de bokförs som fakturerade kan du använda funktionen **ångra** i det bokförda dokumentet. Du kan ångra kvantiteter av typen **artikel**.
+Om du vill ångra en bokföring av inleverans eller utleverans innan de bokförs som fakturerade kan du använda funktionen **ångra** i det bokförda dokumentet. Du kan ångra kvantiteter av typen **Artikel** och **Resurs**.
 
 Om du har bokfört fel negativt antal, till exempel om en inköpsorder med fel antal artiklar och bokfört den som inlevererad men inte fakturerad, kan du ångra bokföringen.
 
@@ -32,24 +32,27 @@ Om du har bokfört fel positivt antal, till exempel en utleverans eller en inkö
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Att återföra bokföringen av en redovisningstransaktion journal
 Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur baseras sidan **redovisningstransaktioner**.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningstransaktioner** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsposter** och välj sedan relaterad länk.
 2. Markera den transaktion som du vill återföra och välj sedan åtgärden **återföringstransaktion**. Observera att det måste komma från en journalbokföring.
 3. På sidan **Återför transaktionsposter** väljer du önskad post och klickar på åtgärden **Återför**.
 4. Välj knappen **Ja** på bekräftelsemeddelandet.
 
+> [!NOTE]
+> Du kan inte ångra transaktioner som har bokförts med information från ett projekt eller som har realiserade vinster och förluster inom samma transaktion.
+
 ## <a name="to-post-a-negative-entry"></a>Bokföra en negativ transaktion  
 Använd fältet **Korrigering** för att bokföra en negativ debet istället för en kredit, eller för att bokföra en negativ kredit istället för en debet för ett konto. För att uppfylla juridiska krav visas detta fält som standard i alla journaler. Fälten **Debetbelopp** och **Kreditbelopp** innehåller både ursprungstransaktionen och den korrigerade transaktionen. Dessa fält påverkar inte kontosaldot.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler** och välj sedan relaterad länk.  
+1.  Välj ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan relaterad länk.  
 2.  Välj önskat batch-namn i fältet **Batch-namn**.  
 3.  Ange information i relevanta fält.  
 4.  På journalraden som du vill aktivera för negativa poster väljer du kryssrutan **Korrigering**.  
 5.  Välj åtgärden **Bokför** och välj sedan knappen **Ja** för att bokföra journalen.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Så här ångrar du ett bokfört antal i en bokförd inköspleverans  
-Nedan beskrivs hur du återställer en bokförd inleverans. Momenten är liknande för bokförda utleveranser.
+Nedan beskrivs hur du återställer en bokförd inleverans eller bokförda resurser. Momenten är liknande för bokförda utleveranser.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda inköpsinleveranser** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda inköpsleveranser** och välj sedan relaterad länk.  
 2.  Öppna den bokförda inleveransen som du vill ångra.  
 3.  Markera de rader som du vill ångra.  
 4.  Välj åtgärden **Ångra inleverans**.
@@ -59,9 +62,9 @@ En rättningsrad infogas under den valda inleveransraden. Om antalet har inlever
 Fälten **Inlevererat antal** och **Inlevrd. antal ej faktrd.** på den relaterade inköpsordern är nollställda.
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Så här ångrar du ett bokfört antal i bokförda returleveranser
-Nedan beskrivs hur du återställer en bokförd returutleverans och sedan bokför inköpsreturen med en ny kvantitet.
+Nedan beskrivs hur du återställer en bokförd returutleverans av artiklar eller resurser och sedan bokför inköpsreturen med en ny kvantitet. Momenten är liknande för bokförda returinleveranser.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda returutleveranser** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda returutleveranser** och välj sedan relaterad länk.  
 2.  Öppna den bokförda returutleveranser som du vill ångra.
 3. Markera de rader som du vill ångra.  
 
@@ -72,7 +75,7 @@ Nedan beskrivs hur du återställer en bokförd returutleverans och sedan bokfö
     Gå nu tillbaka till inköpsreturordern som är klar att bokföras.  
 
 5.  Observera antalet i fältet **Returordernr** på sidan **Returordernr**. .  
-6.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsreturorder** och välj sedan relaterad länk.  
+6.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsreturordrar** och välj sedan relaterad länk.  
 7.  Öppna returordern i fråga och välj åtgärden **öppna igen**.  
 8.  Korrigera värdet i fältet **Antal** och bokför inköpsreturordern igen.  
 

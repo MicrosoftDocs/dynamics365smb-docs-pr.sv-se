@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315114"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953353"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
@@ -37,14 +37,14 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Anpassa en sida via banderollen **Anpassa**
 1. Öppna sidan du vill anpassa.
-2. I det övre högra hörnet väljer du ikonen ![inställningar](media/ui-experience/settings_icon_small.png "ikonen inställningar för rollcenter") och sedan åtgärden **anpassa**.
+2. I det övre högra hörnet väljer du ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
 
     Banderollen **Anpassa** visas längst upp och anger därmed att du kan börja göra ändringar.
 
     > [!NOTE]
     > Använd Ctrl + klicka på en instruktion om den markeras av pilspetsen om du vill navigera under anpassningen.
 
-    Om du ser ![anpassa lås](media/personalization-lock-icon.png "anpassa lås") eller ![anpassning spärrad](media/personalization-blocked-icon.png "anpassning spärrad") i banderollen kan du inte anpassa sidan. Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).
+    Om du ser ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås") eller ![Anpassning spärrad](media/personalization-blocked-icon.png "Anpassning spärrad") å¨banderollen kan du inte anpassa sidan. Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).
 
 3. För att lägga till ett fält, välj åtgärden **+ Fält**.
 4. I fönstret **Lägg till fält till en sida** drar och släpper du ett fält i önskad position på sidan.
@@ -56,7 +56,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 
 |Vad vill du göra|Hur du gör det.|Anmärkningar|
 |----|------------|-------|
-|Flytta någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Peka var som helst på vad du vill flytta och dra den till dess nya position. Positionen anges med antingen en tjock vågrät eller lodrät linje.<br /><br />![Det går inte att flytta ikonen hit](media/personalization-cannot-move-here.png "anpassa läge - det går inte att flytta ikonen hit") anger att du inte kan flytta elementet till den angivna positionen.|Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.<br /><br />Visa [Anpassa åtgärder](ui-personalization-user.md#Actions) för mer information om vanpassningsåtgärder. |
+|Flytta någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Peka var som helst på vad du vill flytta och dra den till dess nya position. Positionen anges med antingen en tjock vågrät eller lodrät linje.<br /><br />Ikonen ![Kan inte flytta hit](media/personalization-cannot-move-here.png "Anpassningsläge - konen kan inte flytta hit") anger att du inte kan flytta elementet till vald position.|Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.<br /><br />Visa [Anpassa åtgärder](ui-personalization-user.md#Actions) för mer information om vanpassningsåtgärder. |
 |Göm någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Välj pilen och välj <b>Dölj</b>.|Elementet är nedtonat när du arbetar i anpassa läge. I fältet du döljer visas också i rubriken på snabbfliken när snabbfliken komprimeras, visas fältet inte längre.|
 |Visa dolda åtgärder och fält.|För ett nedtonat (dolt) element väljer du pilspets och väljer sedan <b>Visa</b>|Det dolda elementet visas igen.|
 |Lägga till ett fält eller kolumn|I banderollen <b>anpassa</b>, välj åtgärd <b>+ fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan.<br /><br />Om du vill lägga till ett fält, drar du det från fönstret till den position där du vill ha den. Positionen anges med antingen en tjock vågrät eller lodrät linje.|Varje sida innehåller en fördefinierad uppsättning fält som kan visas. Använd den här proceduren för att lägga till fält eller kolumner som inte har visats tidigare eller för att visa fält som du har dolt.|
@@ -115,6 +115,8 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
 - Ändringarna börjar gälla i alla dina rollcenter. Till exempel om du gör en ändring i kundlistan när rollcentret har angetts till Chef visas dessutom ändringen ipå sidan **Kunder** när rollcentret anges till Försäljningsorderhandläggare.
 - Ändringar av en sida i rutan börjar gälla på sidan var den än visas.  
 - Du kan bara lägga till fält och kolumner från en fördefinierad lista som baseras på sidan. Du kan inte skapa nya.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  

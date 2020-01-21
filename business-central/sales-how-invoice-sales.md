@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ccc909b56e3d1d1d48915470b819be2c91c92b9b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4bc122f2d1dc34f4c36fb74d0d6875f3d82c991a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312202"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953425"
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
@@ -39,7 +39,7 @@ Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** f
 Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
 
 ## <a name="to-create-a-sales-invoice"></a>Så här skapar du en försäljningsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
    Andra fält på sidan **Försäljningsfaktura** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
@@ -104,10 +104,12 @@ I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller 
 
 Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsfakturan. Mer information finns i [Skapa kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesinvoicing-customers-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Bulkfakturering från Microsoft Bookings i Business Central ](finance-bookings.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

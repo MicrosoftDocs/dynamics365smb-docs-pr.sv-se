@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798529"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953689"
 ---
 # <a name="set-up-value-added-tax"></a>Ställa in moms
 Konsumenter och företag betalar moms när de köper varor eller tjänster. Momsbeloppet att betala kan variera beroende på flera faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] ställer du in moms för att ange de satser som ska användas för beräkning av momsbelopp baserat på följande:
@@ -37,7 +37,8 @@ Vi rekommenderar att du använder den assisterade konfigurationsguiden för att 
 
 Så här startar du den assisterade konfigurationsguiden:
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Assisterad konfiguration**.  
-2. Välj **Ställa in moms**.
+2. Välj **Ställ in moms** och slutför stegen.
+3. När du har slutfört den assisterade konfigurationen går du till sidan **Bokföringsinställning för moms** och kontrollerar om du behöver fylla i ytterligare fält enligt din lokala landsversion. Mer information finns i [Lokala funktioner i Business Central](about-localization.md).  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Så här skapar du momsregistreringsnummer för land / region
 För att garantera att användaren anger ett giltigt momsregistreringsnummer kan du ange format för momsregistreringsnummer som används i de länder eller regioner där du bedriver verksamhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] visar ett felmeddelande när någon gör fel eller använder ett format som är felaktigt för landet / regionen.
@@ -269,7 +270,10 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 > [!IMPORTANT]  
 >  När konverteringen är klar markeras fältet **konverterad** i tabellen **Ändringsloggtransaktion för momssats** och **konverteras datum** i den **Ändringsloggtransaktion för momssats** fylls i med konverteringsdatumet.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även  
-[Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  
+[Ställa in orealiserad mervärdesskatt (moms)](finance-setup-unrealized-vat.md)      
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
+[Lokal funktionalitet i Business Central](about-localization.md)

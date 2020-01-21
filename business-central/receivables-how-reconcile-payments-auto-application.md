@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 121212f41d5dadff53a10f828c88279865828788
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316578"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911053"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Stämma av betalningar genom att använda automatisk koppling
 Sidan **Betalningsavstämningsjournal** anger betalningar, antingen inkommande eller utgående, som har registrerats som transaktioner på ditt onlinebankkonto och som du kan koppla till deras motsvarande öppna kund-, leverantör- och bankkontotransaktioner. Raderna i journalen fylls i genom att importera kontoutdraget från banken som en bankfeed eller fil.
@@ -33,7 +33,7 @@ Med åtgärden **Mappa text till konto** kan du skapa mappningar mellan text på
 
 Liknande funktioner finns för att stämma av överskottbelopp på Betalningsavstämningsjournaler på en ad hoc-basis. Mer information finns i [Stämma av betalningar som inte kan kopplas](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
-Du använder funktionen **Koppla automatiskt**, antingen automatiskt när du importerar en bankfil eller feed med betalningstransaktioner eller när du aktiverar den, för att koppla betalningar till deras motsvarande öppna transaktioner vid en matchning av text på en bankutdragsrad (journalrad) med text i en eller flera öppna transaktioner.
+Du använder funktionen **Koppla automatiskt**, antingen automatiskt när du importerar en bankfil eller feed med betalningstransaktioner eller när du aktiverar den, för att koppla betalningar till deras motsvarande öppna transaktioner vid en matchning av text på en bankutdragsrad (journalrad) med text i en eller flera öppna transaktioner. Mer information finns i [Konfigurera regler för automatiska betalningskopplingar](receivables-how-set-up-payment-application-rules.md).
 
 På journalrader där en betalning har kopplats automatiskt till en eller flera öppna transaktioner har fältet **Matchningssäkerhet** ett värde mellan Låg och Hög som anger kvaliteten för de data som matchar dem som den föreslagna betalningskopplingen baseras på. Dessutom fylls fälten **Kontotyp** och **Kontonr.** med information om den kund eller leverantör som betalningen gäller. Om du har ställt in en text-till-konto-mappning kan den automatiska kopplingen ge ett matchningssäkerhetsvärde på **Hög – text-till-konto-mappning**.
 
@@ -43,7 +43,7 @@ För varje journalrad som representerar en betalning på sidan **Betalningsavst�
 > Du kan starta banktransaktionsimporten samtidigt som du öppnar sidan **Betalningsavstämningjournal** för en befintlig betalningsavstämningjournal på sidan **Betalningsavstämningjournaler**. Följande procedurer beskriver hur du importerar banktransaktioner till sidan **Betalningsavstämningsjournal** när du har skapat en ny journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Så här stämmer du av betalningar genom att använda automatisk koppling
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
 2. Om du vill arbeta i en ny betalningsavstämningsjournal väljer du åtgärden **Ny journal**.
 3. På sidan **Betalningsbankkontolista** väljer du det bankkonto som du vill stämma av betalningar för och väljer sedan knappen **OK**.
    Sidan **Betalningsavstämningsjournal** öppnas förberett för det valda bankkontot.
@@ -63,7 +63,7 @@ För varje journalrad som representerar en betalning på sidan **Betalningsavst�
 10. När du tycker att alla betalningar på journalraderna har kopplats eller angetts till direktbokföring korrekt, väljer du åtgärden **Bokför** och väljer sedan ett av följande alternativ:
 
     - **Bokföra betalningar och stämma av bankkonton** - om du vill bokföra betalningar som tillämpas och stänga de relaterade bankkontotransaktionerna som avstämts.
-    - **Bokför endast betalningar** - om du bara vill bokföra betalningar som används, men låta de relaterade bankkontotransaktionerna vara öppna. Det krävs att du stämmer av bankkontot separat till exempel: Mer information finns i [stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md).
+    - **Bokför endast betalningar** - om du bara vill bokföra betalningar som används, men låta de relaterade bankkontotransaktionerna vara öppna. Det krävs att du stämmer av bankkontot separat, till exempel: Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).
     - **Testrapport** - om du vill granska resultatet av bokföringen innan du bokför. Rapporten **bankkontoutdrag** öppnas och visar samma fält som längst ned på sidan **avstämning av betalningsjournal**.
 
 När du bokför betalningsavstämningsjournalen stängs de kopplade transaktionsnotorna och de relaterade kund-, leverantörs- eller redovisningskontona uppdateras. För betalningar på journalrader som baseras på text-till-konto-mappning uppdateras de angivna kund-, leverantörs- och redovisningskontona. För alla journalrader skapas bankkontotransaktioner. Eventuella öppna bankkontotransaktioner som relateras till kopplade kund- eller leverantörsreskontratransaktionerna kommer att avslutas när du väljer åtgärden **Bokför betalningar och stäm av bankkonton**. Detta betyder att bankkontot stäms av automatiskt för betalningar som du bokför med journalen.
@@ -71,7 +71,7 @@ När du bokför betalningsavstämningsjournalen stängs de kopplade transaktions
 Du kan jämföra värdet i fältet **Saldo på bankkonto efter bokföring** tillsammans med värdet i fältet **Kontoutdragets slutsaldo** för att spåra när bankkontot har stämts av baserat på betalningar som du bokför.
 
 > [!NOTE]  
->   Om du inte vill stämma av bankkontot från **Betalningsavstämningsjournal** måste du använda sidan **Bankkontoavstämning**. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md).
+>   Om du inte vill stämma av bankkontot från **Betalningsavstämningsjournal** måste du använda sidan **Bankkontoavstämning**. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  

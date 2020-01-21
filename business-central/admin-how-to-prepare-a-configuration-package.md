@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879256"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910618"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 När du konfigurerar ett nytt företag identifieras och hanteras tabellrelationer. Data importeras och kopplas i rätt ordning. Måttabeller importeras också, om de ingår i konfigurationspaketet. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Om du vill hjälpa kunden att använda konfigurationspaketet kan du lägga till ett frågeformulär eller en uppsättning frågeformulär i paketet. Frågeformuläret kan hjälpa till kunden att förstå de olika inställningsalternativen. Frågeformulär skapas vanligtvis för de större inställningstabellerna där en kund kan kräva ytterligare vägledning om hur han/hon väljer en lämplig inställning. Mer information finns i [Samla inställningsvärden för kund](admin-gather-customer-setup-values.md).
 
-Kontrollera att du är på implementerings-rollcentret för RapidStart Services. Mer information finns i [Använd implementerings-rollcentret för RapidStart Services](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Innan du skapar ett konfigurationspaket
+Det finns några saker att tänka på innan du skapar ett konfigurationspaket, detta eftersom de påverkar dig eller din kunds möjlighet att importera det. 
 
-> [!IMPORTANT]  
->  När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
->   
->  Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
+### <a name="tables-that-contain-posted-entries"></a>Register som innehåller bokförda transaktioner
+Du kan inte importera data till register som innehåller bokförda transaktioner, till exempel registren för kund-, leverantörs- och artikeltransaktioner, så du bör inte inkludera dessa data i konfigurationspaketet. Du kan lägga till poster i dessa register när du har importerat konfigurationspaketet med hjälp av journaler för att bokföra transaktionerna. Mer information finns i [Bokföra dokument och journaler](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Licensiering
+Din licens måste innehålla de register som du uppdaterar. Om du är osäker kan sidan **Konfigurationsförslag** hjälpa till. Om din licens innehåller registret markeras kryssrutan **Licensierat register**.  
+
+### <a name="permissions"></a>Behörigheter
+Processen för att skapa och importera ett konfigurationspaket innebär följande gällande behörigheter för alla tabeller i paketet: 
+
+* Användaren som exporterar data för konfigurationspaketet måste inneha behörigheten **Läs**.
+* Användaren som importerar konfigurationspaketet måste inneha behörigheterna **Infoga** och **Ändra**.
+
+### <a name="database-schema"></a>Databasschema
+När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
+
+Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
 
 ## <a name="to-create-a-configuration-package"></a>Så här skapar du ett konfigurationspaket  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  

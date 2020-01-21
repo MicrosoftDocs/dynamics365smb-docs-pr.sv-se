@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2495292a967d81cd64694d3a238399e964c1d94f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d0f65eeb44b6a9a2608c05f6b7c71f989a0b9386
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316722"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953521"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrera speciella inköpspriser och rabatter
 De olika pris- och rabattavtalen som gäller när artiklar köps in från olika leverantörer måste definieras så att de överenskomna reglerna och värdena används i de inköpsdokument som du skapar för leverantören.
@@ -34,7 +34,7 @@ När det gäller rabatter kan du ställa in och använda två olika typer av ink
 Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av artikel och leverantör kan du också ställa in den här konfigurationen på det artikelkort där reglerna och värdena har definierats. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Om du vill definiera ett speciellt inköpspris för en leverantör
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Priser.**.
 
     Fältet **Inköpstyp** är förifyllt med **leverantör** och fältet **inköpskod** är förifyllt med leverantörsnumret.
@@ -42,7 +42,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 4. Fyll i en rad för varje kombination för vilken leverantören beviljar dig en inköpsradrabatt.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Om du vill definiera en radrabatt för en leverantör
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Radrabatter.**.
 
     Fältet **Inköpstyp** är förifyllt med **leverantör** och fältet **inköpskod** är förifyllt med leverantörsnumret.
@@ -52,7 +52,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Så här definierar du radrabatt för en leverantör
 När dina leverantörer har informerat dig om vilka fakturarabatter som de beviljar, skriver du fakturarabattkoderna på leverantörskorten och lägger upp villkoren för respektive kod.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna leverantörskortet för en leverantör som är aktuell för fakturarabatter.
 3. Välj i fältet  **Fakturarabattkod** koden för den fakturarabatt som ska användas vid beräkning av fakturarabatter för leverantören.
 
@@ -73,7 +73,7 @@ När du bokför en inköpsfaktura som innehåller en eller flera rabatter kan du
 
 Innan du kan göra detta måste du redan ha definierat de nödvändiga kontona för bokföring av rabattbelopp i kontoplanen. Du måste också kontrollera att du har angett rätt kontonummer i bokföringsinställningarna i fälten **Inköpsradrabatt** och **Inköpsfakturarabatt**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsinställningar** och välj sedan relaterad länk.
 2. I fältet **Rabattbokföring** väljer du en av följande principer för bokföring av rabatter.
 
 |**Princip för rabattbokföring**|**Fakturarabatt**|**Radrabatt**|  
@@ -120,6 +120,8 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
     - Finns det krav på valuta i pris-/ rabattavtalet som är uppfyllda? I så fall infogas det lägsta priset och den högsta radrabatten för den valutan, även om de skulle ge ett bättre pris i BVA. Om det inte finns några pris-/rabattavtal för den angivna valutakoden infogar [!INCLUDE[d365fin](includes/d365fin_md.md)] det lägsta priset och den högsta radrabatten i BVA.
 
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesset-up-prices-discounts-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  

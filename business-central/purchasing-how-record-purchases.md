@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 078313bb3f437734b6e52f51b6d6512ebf09f1df
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0e91b685f6a8926322ab338b3c060fdac1ff8982
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881432"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954147"
 ---
 # <a name="record-purchases"></a>Registrera inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor eller inköpsorder också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor eller order bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
@@ -35,7 +35,7 @@ Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** f
 
 Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende på om leverantören redan har registrerats.
 <br><br>  
-  
+
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## <a name="to-create-a-purchase-invoice"></a>Skapa en inköpsfaktura
@@ -79,6 +79,8 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 13. Välj **Bokför** när du tar emot de beställda artiklarna eller tjänster.
 
 Inköpet visas nu i lager och ekonomiska transaktioner, och leverantörsbetalning aktiveras. Inköpsfakturan tas bort från listan över inköpsfakturor och ersätts med ett nytt dokument i listan över bokförda inköpsfakturor.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocessing-invoices-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  

@@ -8,28 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 830c12f64c3701b583cf9569f85c67224941f77f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881246"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952896"
 ---
-# <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="local-functionality-in-includeprodlongincludesprodlongmd"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 
 En fullständig lista över de marknader som stöds för närvarande finns i [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Lokal funktionalitet
+
 Välj lämplig länk om du vill ha information om den lokala funktionaliteten för varje land:
 
 | Region | Land | Mer information |
 | --- | --- |--- |
 | Europa |  | |
 |        | Österrike | [Lokal funktionalitet för Österrike](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgien |  [Lokal funktionalitet för Belgien](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgien | [Lokal funktionalitet för Belgien](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Tjeckien | [Lokal tjeckisk funktionalitet](localfunctionality/czech/czech-local-functionality.md) |
 |        | Danmark | [Lokal funktionalitet för Danmark](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Tyskland | [Lokal funktionalitet för Tyskland](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Lokal funktionalitet för Finland](localfunctionality/finland/finland-local-functionality.md) |

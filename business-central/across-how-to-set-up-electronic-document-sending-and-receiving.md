@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f5727e241d40e362e17d727d924a829f9b0c4ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305242"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952920"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurera utskick och mottagning av elektroniska dokument
 Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande\-fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som kan tas emot och konverteras till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag.  
@@ -135,6 +135,8 @@ Avsnittet innehåller följande procedurer:
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
     |**Redovisningskonto för rader utan artikel**|Anger det redovisningskonto som infogas automatiskt på inköpsrader, som skapas från elektroniska dokument när den inkommande dokumentraden inte innehåller en identifierbar artikel. Inkommande dokumentrader som inte har ett EAN- eller leverantörens artikelnummer konverteras till en inköpsorder av typen **redovisningskonto**, och **nr.** på inköpsraden innehåller det konto som du väljer i den **Redovisningskonto för rader utan artikel**.<br /><br /> Om du lämnar fältet **Redovisningskonto för rader utan artikel** tomt, och det inkommande dokumentet har rader utan identifierbara artiklar, kommer inköpsdokumentet inte att skapas. Ett felmeddelande visas med instruktion om att du måste fylla i fältet **Redovisningskonto för rader utan artikel** innan du kan slutföra uppgiften.|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även  
 [Utbyta data elektroniskt.](across-data-exchange.md)   

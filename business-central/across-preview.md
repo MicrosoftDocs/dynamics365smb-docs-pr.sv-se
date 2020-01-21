@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879409"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942996"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer
 
@@ -29,7 +29,7 @@ Om det uppstår problem kan sidan [Vanliga frågor](across-faq.md) hjälpa dig a
 
 ### <a name="try-out-your-own-company"></a>Prova ditt eget företag
 
-Om du vill testa [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag så att du kan importera egna data.  
+Om du vill testa [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Den assisterade konfigurationen **Konfigurera mitt företag** kan hjälpa dig att ange specifik grundläggande information om ditt företag. Du kan också importera data från din befintliga verksamhetslösning så att du kan utvärdera [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data.  
 
 Om 30 dagar inte räcker för att du ska kunna bestämma dig, kan du förlänga utvärderingsperioden. Mer information finns i [Behöver du mer tid för att bestämma om du ska prenumerera?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljning
 
 ## <a name="getting-started-with-sandboxes"></a>Komma igång med begränsat läge
 
-Miljöer i begränsat läge kan vara ett sätt för dig att öva med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan se ett begränsat läge som en produktionsfri miljö som du kan använda utöver din produktionsinstans av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Miljöer i begränsat läge kan vara ett sätt för dig att öva med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan se ett begränsat läge som en produktionsfri miljö som du kan använda utöver din produktionsinstans av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du till exempel vill genomgå den kostnadsfria onlineutbildningen från [Microsoft Learn](/learn/browse/?products=dynamics-business-central) kan din administratör skapa en miljö med begränsat läge så att du och dina kollegor kan öva där snarare än i produktionsmiljön.  
 
-Ett begränsat läge låter dig skapa och testa tillägg och utveckla nya funktioner i syfte att anpassa tjänsten utan att påverka data och inställningar för produktionsmiljö. Om du till exempel vill ta med gratis onlineutbildning från [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kan du skapa en miljö med begränsat läge och öva där snarare än i produktionsmiljön.  
+Om du är utvecklare låter ett begränsat läge dig skapa och testa tillägg och utveckla nya funktioner i syfte att anpassa tjänsten utan att påverka data och inställningar för din produktionsmiljö.  
 
-Just nu kan alla kunder använda ett begränsat läge. Läs mer om hur du kommer igång med ett begränsat läge i, [Skapa miljö med begränsat läge](across-how-create-sandbox-environment.md).  
+Just nu kan alla kunder använda en miljö med begränsat läge, inklusive organisationer som har anmält sig till en utvärderingsversion. Läs mer om hur du kommer igång med ett begränsat läge i, [Skapa miljö med begränsat läge](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Begränsat läge som skapats så här innehåller demonstrationsdata för det fiktiva företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Se även
 
 [Komma igång](product-get-started.md)  
+[Utöka din utvärderingsversion](admin-extend-trial.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
 [Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)  

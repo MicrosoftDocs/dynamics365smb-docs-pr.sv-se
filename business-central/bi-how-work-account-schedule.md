@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 23027c809571512c99d75860c108aa4a23ca5477
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307570"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953833"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram i Rollcentret, till exempel diagram för kassaflöde och i rapporter såsom resultaträknings- och balansräkningsrapporter.
@@ -45,7 +45,7 @@ Kontouppställningar i standardversionen av [!INCLUDE[d365fin](includes/d365fin_
 
 Sidan **Kontouppställning översikt** är där du kan förhandsgranska den finansiella rapport som definieras i kontouppställningen. I det följande är det viktigt att förstå att det du ställer in som kontouppställningsrader och kolumner bara kan visas och godkännas på sidan **Kontouppställning översikt** som du öppnar från en kontouppställning genom att välja åtgärden **översikt**. Själva sidan **kontouppställning** är endast inställningsområde.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontouppställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.  
 2. På sidan **Kontouppställningar** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.
 3. Alternativt väljer du åtgärden **Kopiera kontouppställning** fyller du i de två fälten och väljer sedan knappen **OK**.
 4. Fyll i fälten om det behövs. I fältet **Standardkolumnlayout** väljer du en befintlig layout. Du kan redigera den senare om du vill.
@@ -77,7 +77,7 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser  
 Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t.ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontouppställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
 3. Välj åtgärden **Redigera kontouppställning** för att skapa en kontouppställningsrad för att beräkna den summa som procentsatserna ska baseras på .  
 4. Infoga en rad direkt ovanför den första raden för vilken du vill visa en procentsats.  
@@ -89,7 +89,7 @@ Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsa
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Så här skapar du kontouppställningar med översikter  
 Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontouppställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
 3. Välj åtgärden **Redigera kontouppställning**.  
 4. På sidan **Kontouppställning** väljer du önskat kontouppställningsnamn i fältet **Namn**.
@@ -192,10 +192,11 @@ Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel
 > [!NOTE]
 > Det är inte alltid transparent som perioder som du jämför eftersom du kan ange ett filter för en rapport som omfattar andra datum än de bokföringsperioder som återspeglas i data i kontoplanen. Exempelvis kan du skapa kontouppställningar som du vill jämföra denna period med samma period föregående år, så att du kan ange **Filter för jämförande period** till *-1FY*. Sedan kan du köra rapporten 28 februari och ange datumfilter till januari och februari. Som ett resultat jämför kontouppställningen januari och februari i år med januari föregående år, vilket är den enda avslutade bokföringsperioden av de två för föregående år.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Huvudbok och kontolista](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

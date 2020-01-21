@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878587"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910814"
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
 Om du vill konfigurera ett nytt företag i din lösningsimplementering följer du vanligtvis tre faser. I den första fasen importerar du ett konfigurationspaket som är en .rapidstart-fil med konfigurationsinformation. I den andra fasen ändrar du konfigurationsinformationen och tillämpar den sedan i det nya företaget. I slutfasen granskar du och rättar eventuella fel.  
 
 Följande procedur förutsätter att du har skapat och sparat ett konfigurationspaket. För mer information, se [Förbereda ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md).  
 
-Följande förfaranden förutsätter att du har initialiserat och öppnat ditt nya företag, samt att du använder implementerings-rollcentret för RapidStart Services.
+Följande förfaranden förutsätter att du har initialiserat och öppnat ditt nya företag, samt att du använder rollcentret för administration.
+
+## <a name="before-you-import-a-configuration-package"></a>Innan du importerar ett konfigurationspaket
+Innan du importerar ett konfigurationspaket är det en bra idé att kontrollera att följande påståenden är sanna. Annars kommer du eller din kund inte att kunna importera konfigurationspaketet.
+
+* Din licens innehåller de register som du uppdaterar. Om du är osäker kan **Konfigurationskalkylarket** hjälpa till. Om din licens innehåller registren har kryssrutan **Licensierad register** markerats.  
+* Den användare som importerar konfigurationspaketet har gällande behörigheter för Infoga och Ändra för alla register som paketet kommer att uppdatera. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Så importerar du ett konfigurationspaket  
 1. Öppna det nya företaget i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  

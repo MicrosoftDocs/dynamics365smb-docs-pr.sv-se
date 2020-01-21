@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879289"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910742"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Konfigurera en anslutning till Dynamics 365 Sales
-Om du vill integrera med [!INCLUDE[crm_md](includes/crm_md.md)] måste du göra en koppling mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]
+I det här avsnittet beskrivs hur du upprättar en anslutning mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Innan du börjar
-Innan du börjar ansluta apparna, finns det några delar av information som är användbar för att ha redo:  
+Innan du skapar anslutningen finns det lite information du bör ha tillhanda:  
 
-* En URL för din [!INCLUDE[crm_md](includes/crm_md.md)]-app. Ett snabbt sätt att hämta URL:en är att öppna [!INCLUDE[crm_md](includes/crm_md.md)] och kopiera URL-adressen och klistra in den i fältet **Dynamics 365 Sales-URL** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] korrigerar layouten.  
+* En URL för din [!INCLUDE[crm_md](includes/crm_md.md)]-app. Ett snabbt sätt att hämta URL:en är att öppna [!INCLUDE[crm_md](includes/crm_md.md)], kopiera URL-adressen och klistra in den i fältet **Dynamics 365 Sales-URL** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] korrigerar layouten.  
 * Användarnamn och lösenord för ett användarkonto används endast för integrering.  
 * Användarnamn och lösenord för det konto som har administratörsbehörigheter.  
 

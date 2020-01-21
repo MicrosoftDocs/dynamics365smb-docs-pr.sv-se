@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/08/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0f4cf7026ad3a12262c8e88b9360bcac3ac079b3
-ms.sourcegitcommit: cf36611ca187bb2996a514e9ff395086cd6b3275
+ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "2566974"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954193"
 ---
 # <a name="purchasing"></a>Inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
@@ -45,6 +45,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lär dig hur [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknas när du måste beställa en artikel för ett visst datum.|[Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)|
 |Lösa problem när det finns två eller flera poster för samma leverantör.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 |Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathspurchase-items-services-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  

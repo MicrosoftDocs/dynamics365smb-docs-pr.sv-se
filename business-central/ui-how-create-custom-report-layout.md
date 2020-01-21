@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882044"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953233"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Skapa och ändra anpassade rapportlayouter
 Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter. Du kan skapa egna anpassade layouter som du kan använda för att ändra utseendet på rapporten när den visas, skrivs ut eller sparas. Du kan skapa flera anpassade rapportlayouter för samma rapport, och sedan byta layout som används av en rapport efter behov.
@@ -100,8 +100,7 @@ För att säkerställa att rapporterna alltid visas och skrivs ut med planerade 
 ### <a name="adding-data-fields"></a>Lägga till datafält
 Lägga till datafält från en -rapportdatauppsättning är mer avancerat och kräver viss kunskap om rapportdatauppsättningen. Information om att lägga till fält för data, etiketter, data och bilder finns i [Lägga till fält till en Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
-###
-
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  

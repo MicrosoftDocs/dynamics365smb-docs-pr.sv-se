@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 11/27/2019
+ms.date: 01/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 51c2260f4c8b5251cc466f8969921ee6cad92c1d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883028"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953377"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
 De olika pris- och rabattavtalen som gäller när du säljer till olika kunder måste definieras så att de överenskomna reglerna och värdena tillämpas på de försäljningsdokument som du skapar för kunden.
@@ -89,7 +89,9 @@ Du kan koppla rabattsatser till särskilda fakturabelopp på sidan **Kundfaktura
 Förutom (eller i stället för) en procentuell rabatt kan du koppla en faktureringsavgift till ett särskilt fakturabelopp.  
 
 > [!TIP]  
->  Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det enklare att se vilka kunder som kan kopplas till samma fakturarabattsida. Ju färre sidor som behöver definieras, ju snabbare går det att ange basinformationen.  
+>  Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det enklare att se vilka kunder som kan kopplas till samma fakturarabattsida. Ju färre sidor som behöver definieras, ju snabbare går det att ange basinformationen.
+
+Mer information om rabatter i Sales finns i [Ställa in rabatter för dina kunder](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
 
 ## <a name="best-price-calculation"></a>Bästa prisberäkning
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader.
@@ -139,6 +141,8 @@ Om du vill uppdatera priser i bulk, till exempel ökar alla priser med vissa pro
 
 > [!NOTE]   
 >  Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Förs.priser**, kan du använda batch-jobbet **Implementera prisändring** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** på sidan **Försäljningspris ändringsformulär**.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesmanage-sales-prices-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Konfigurera försäljning](sales-setup-sales.md)  

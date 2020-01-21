@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 842aaeeb5665e8e02ef6873dd2210e03e415aade
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310786"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953977"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
 Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan följande bokföringsfunktioner:
@@ -44,6 +44,8 @@ Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut
 När bokföringen är slutförd tas de bokförda försäljningsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidorna som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktion**, **Bokförda försäljningsutleveranser** och **Bokförda försäljningsfakturor**.  
 
 Du kan redigera vissa fält i bokförda försäljningsdokument, till exempel fältet **Godsupplysningsnr**. . Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

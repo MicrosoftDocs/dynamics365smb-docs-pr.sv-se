@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306243"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953785"
 ---
-# <a name="report-vat-to-a-tax-authority"></a>Rapportera moms till skattemyndigheterna
+# <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region.
 
 Du kan använda följande rapporter:
@@ -25,7 +25,7 @@ Du kan använda följande rapporter:
 * **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
 * Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder i alla länder som använder moms.
 
-Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att visa momstransaktioner, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **momstransaktioner** och välj sedan relaterad länk.
+Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Momstransaktioner** och välj sedan relaterad länk för att visa momstransaktioner.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten med EU-försäljningslista
 I Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder i inom Europeiska unionen (EU) lämna in en elektronisk version av rapporten i XML-format via webbplatserna Her Majesty's Revenue och Customs. EG-försäljningslisterapporten fungerar bara för länder inom EU.
@@ -55,19 +55,19 @@ För momsreturen kan du ange transaktionerna som ska inkluderas:
 
 Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du ansluta [!INCLUDE[d365fin](includes/d365fin_md.md)] till den skattemyndighetens webbplats. Detta kräver att du upprättar ett konto med skattemyndigheten. Om du har ett konto kan du aktivera en service-anslutning som finns i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anslutningar till tjänst** och välj sedan lämplig länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceanslutningar** och välj sedan korrekt länk.
 2. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >   Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Så här ställer du in momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konfigurera momsrapport** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för momsrapport** och välj sedan relaterad länk.  
 2. Om du vill låta användarna ändra och skicka om rapporten, väljer du kryssrutan **ändra skickade rapporter**.  
 3. Välj nummerserien som ska användas för varje rapport.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Förbereda och skicka en momsrapport
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **EU-försäljningslista** eller **Momsretur** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **EU-försäljningslista** eller **Momsretur** och välj sedan relaterad länk.  
 2. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om du vill generera innehållet i rapporten, väljer du åtgärden **Föreslå rader**.  
 
@@ -110,6 +110,8 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 
 > [!Note]
 > När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2017** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  

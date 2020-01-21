@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/22/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879138"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953026"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 
@@ -69,6 +69,8 @@ I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte 
 ## <a name="using-other-email-accounts"></a>Använda andra e-postkonton
 
 Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE [prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE [prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i [vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) och [funktioner som kräver särskilda omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

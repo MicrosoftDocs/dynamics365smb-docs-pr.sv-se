@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66cdbd317d448d42ce46bf6a1d05c78432ffaeee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316674"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954011"
 ---
 # <a name="setting-up-purchasing"></a>Ställa in inköp
 Innan du kan hantera inköpsprocesser måste du konfigurera reglerna och värdena som definierar företagets inköpspolicyer.
@@ -34,6 +34,8 @@ Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i av
 | Ange de olika rabatterna och specialpriserna som leverantörerna beviljar dig beroende på artikel, kvantitet och/eller datum |[Registrera inköpspris, rabatt och betalningsavtal](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritera leverantörer |[Prioritera leverantörer](purchasing-how-prioritize-vendors.md) |
 | Konfigurera inköpare |[Konfigurera inköpare](purchasing-how-setup-purchasers.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  

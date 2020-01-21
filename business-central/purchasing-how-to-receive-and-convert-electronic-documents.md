@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8571e0cbaa7104d6db8fc29ca11530a2c42464de
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553872"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953497"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
 Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -41,7 +41,7 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inkommande dokument** och välj sedan relaterad länk.  
 
 2.  Välj raden för den inkommande dokumentposten som representerar en ny inkommande elektronisk faktura och välj åtgärden **Redigera**.  
 
@@ -56,6 +56,8 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder m
      En inköpsfaktura skapas i [!INCLUDE[d365fin](includes/d365fin_md.md)] baserat på informationen i det elektroniska dokumentet.  
 
      Eventuella valideringfel som vanligtvis beror på fel eller saknade huvuddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], visas på snabbfliken **Felmeddelanden**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

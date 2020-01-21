@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809354"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943215"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 Med säkerhetssystemet [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och IT-proffs för [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ I alla fält av typen de fem åtkomst **läsbehörighet**, **infoga behörighet*
 |Alternativ|Description|Rankning|
 |------|-----------|
 |**Ja**|Användaren kan utföra åtgärden på det aktuella objektet.|Högsta|
-|**Indirekt**|Användaren kan utföra åtgärden på det aktuella objektet, men endast via ett annat relaterat objekt som användaren har fullständig åtkomst till.|Andra högsta|
+|**Indirekt**|Användaren kan utföra åtgärden på det aktuella objektet, men endast via ett annat relaterat objekt som användaren har fullständig åtkomst till. Mer information om indirekta behörigheter finns i [Behörighetsegenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i Hjälp för utvecklare och IT-proffs|Andra högsta|
 |**Tomt**|Användaren kan inte utföra åtgärden på det aktuella objektet.|Lägsta|
 
 ### <a name="example---indirect-permission"></a>Exempel - Indirekt behörighet

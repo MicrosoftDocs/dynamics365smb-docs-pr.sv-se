@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879112"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952993"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
 
@@ -164,7 +164,7 @@ Inget Power BI-konto har angetts. För att du ska kunna använda ett giltigt Pow
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelande: det finns inga aktiverade rapporter. Visa en lista med rapporter du kan visa med Välj rapport.
 
-Det här meddelandet visas om det inte gick att distribuera standard rapporten till din Power BI-arbetsyta, eller rapporten har distribuerats, men inte uppdaterades. Om detta inträffar navigerar du till rapporten i din Power BI-arbetsyta, välj **datauppsättning**, **inställningar** och uppdaterar sedan inloggningsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till Business Central och väljer rapporten manuellt på sidan **Välj rapporter**. 
+Det här meddelandet visas om det inte gick att distribuera standard rapporten till din Power BI-arbetsyta, eller rapporten har distribuerats, men inte uppdaterades. Om detta inträffar navigerar du till rapporten i din Power BI-arbetsyta, välj **datauppsättning**, **inställningar** och uppdaterar sedan inloggningsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till Business Central och väljer rapporten manuellt på sidan **Välj rapporter**.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Du behöver en Power BI Pro-licens för att installera [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
 
@@ -174,7 +174,7 @@ Power BI-appar kan endast installeras av användare som har en Power BI Pro-lice
 
 Det här felet indikerar att den andra parametern är ogiltig.
 
-- Den angivna miljöparametern matchar inte någon befintlig [!INCLUDE [prodshort](includes/prodshort.md)]-produktions- eller sandbox-miljö. 
+- Den angivna miljöparametern matchar inte någon befintlig [!INCLUDE [prodshort](includes/prodshort.md)]-produktions- eller sandbox-miljö.
 - Den angivna företagsparametern matchar inte några befintliga [!INCLUDE [prodshort](includes/prodshort.md)]-företag. Kontrollera företagsnamnet på sidan **företag** i [!INCLUDE [prodshort](includes/prodshort.md)].
 - Vid anslutning till [!INCLUDE [prodshort](includes/prodshort.md)] lokal. Du har angett en ogiltig URL. Du kan kontrollera URL på sidan **webbtjänster** i [!INCLUDE [prodshort](includes/prodshort.md)]  
 - En port är inte öppen för att tillåta begäran att gå igenom brandväggen.
@@ -203,6 +203,8 @@ När Power BI-appen har installerats och dina data visas i Power BI kan det hän
 
 I Power BI-appen visas endast data från [!INCLUDE [prodshort](includes/prodshort.md)]-företaget som definierades när Power BI-appen installerades. Data från ytterligare företag kan läggas till i rapporterna genom att lägga till nya frågor som använder olika företag som datakälla.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se även
 
 [Power BI för konsumenter](/power-bi/consumer/end-user-consumer)  
@@ -214,7 +216,7 @@ Dokumentation om [Power BI](/power-bi/)
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Med hjälp av [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

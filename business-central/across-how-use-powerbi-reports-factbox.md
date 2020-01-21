@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 52788bda7cdc9c0c8b1bd3c2540400ae4973a3f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879433"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952824"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visa listdata i Power BI-rapporter i Business Central
 
@@ -70,9 +70,11 @@ Det här avsnittet beskriver en lösning för de vanligaste problemen som kan up
 
 Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten och uppdatera sedan listsidan.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se även
 
-[Aktivera affärsdata för Power BI](admin-powerbi.md)  
+[Aktivera dina affärsdata för Power BI](admin-powerbi.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Komma igång](product-get-started.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

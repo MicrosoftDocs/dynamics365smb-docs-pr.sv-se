@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302362"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953809"
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
 Om du vill kan du använda flera olika budgetar för samma tidsperioder genom att skapa budgetar med separata namn. Först definierar du budgetnamnet och matar in budgetsiffrorna. Budgetnamnet infogas sedan i alla budgettransaktioner du skapar.  
@@ -29,7 +29,7 @@ Budgetar spelar en viktig roll i business intelligence, exempelvis i bokslut som
 I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. (Mer information finns i [Skapa kostnadsbudgetar](finance-create-cost-budgets.md).)    
 
 ## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Redovisningsbudgetar** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsbudgetar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj åtgärden **Redigera budget**.
 4. Högst upp på sidan **Budget** fyller du i fälten för att definiera vad som ska visas.  
@@ -48,10 +48,12 @@ För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten
 > [!NOTE]
 > Kontoplanen som redovisningsbudgetarna baseras på, har rader för kontotypen Rubrik som innehåller där summan av raderna under. När du exporterar en redovisningsbudget exporteras data på alla rader oavsett kontotypen. Men endast data på rader med kontotypen Bokföring kan importera data igen. I enlighet med detta: <br /><br /> **När du importerar en redovisningsbudget tas alla värden som fanns på Rubrikrader bort.** <br /><br /> Detta är för att undvika fel summor när du har importerat data som har skapats eller redigerats i Excel.<br /><br /> **Scenario**: du vet att nya budgeterade lönkostnader ska vara BVA 1 200 000. Du vill att budget för löneavdelningen för tre specifika rader (av kontotypen Bokföring) för heltidsanställda, deltidsanställda och timanställda. De tre raderna grupperas under rubrikraden Löner.<br /><br />Du anger 1 200 000 på rubrikraden, exporterar budget till Excel och skickar sedan den till löneavdelningen och ber dem distribuera BVA 1 200 000.<br /><br /> Löneavdelningen fördelar beloppet på tre bokföringskonton. När du importerar tillbaka till redovisningsbudget fylls de tre kontona i med den nya Excel-informationen och summerar till BVA 1 200 000 och rubrikraden är tom.
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se även
 [Exportera affärsdata till Excel](about-export-data.md)  
 [Ekonomi](finance.md)  
 [Affärsstöd](bi.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Huvudbok och kontolista](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

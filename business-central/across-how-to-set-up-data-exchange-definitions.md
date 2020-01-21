@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305266"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952945"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
 Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
@@ -111,6 +111,9 @@ Beskrivs i följande procedurer.
 >  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Så här mappar du kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> Ibland är värdena i de fält som du vill mappa olika. I ett företagsprogram är till exempel språkkoden för USA "USA", men i det andra är det "US". Det innebär att du måste omvandla värdet när du utbyter data. Detta sker genom omvandlingsregler som du definierar för fälten. Mer information finns i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. På snabbfliken **Raddefinitioner** markerar du raden som du vill mappa kolumner till fält för och väljer sedan **Fältmappning**. Sidan **Datautbytesmappning** öppnas.  
 2. På snabbfliken **Allmänt** anger du mappningskonfigurationen genom att fylla i fälten enligit beskrivningen i följande tabell.  
 
@@ -138,9 +141,44 @@ Beskrivs i följande procedurer.
 
 Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Skapa SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md), [Skapa SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md) och [Utför betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-När du har skapat definitionem för datautbyte för en viss datafil kan du exportera definitionen för datautbyte som en XML-fil som kan användas för att snabbt kan importera datafilen i fråga. Detta beskrivs i följande procedur. Beskriv i följande procedur.  
+### <a name="transformation-rules"></a>Omvandlingsregler
+Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera**och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Så här exporterar du en definition för datautbyte som en XML-fil som andra ska använda  
+|Alternativ|Beskrivning|
+|---------|---------|
+|**Versaler**|Skriv alla bokstäver i versaler.|
+|**Gemener**|Skriv alla bokstäver som gemener.|
+|**Huvudärende**|Skriv första bokstaven i varje ord i versaler.|
+|**Trimma**|Ta bort tomma mellanslag före och efter värdet.|
+|**Delsträng**|Omvandla en viss del av ett värde. Om du vill ange var du vill starta omvandlingen väljer du antingen **Startposition** eller **Starttext**. Startpositionen är ett tal som representerar det första tecknet som ska omvandlas. Starttexten är bokstaven omedelbart före bokstaven som ska ersättas. Om du vill börja med den första bokstaven i värdet använder du en startposition i stället. Om du vill ange var du vill stoppa omvandlingen väljer du aningen **Längd**, som är antalet tecken som ska ersättas, eller den **avslutande texten**, som är tecknet direkt efter det sista tecknet som ska omvandlas.|
+|**Byt ut**|Hitta ett värde och ersätt det med ett annat. Detta är användbart för att ersätta enkla värden, till exempel ett visst ord.|
+|**Reguljärt uttryck - Ersätt**|Använd ett reguljärt uttryck som en del av en sök-och ersätt-åtgärd. Detta är användbart för att ersätta flera, eller kanske mer komplexa, värden.|
+|**Ta bort icke-alfanumeriska tecken**|Ta bort tecken som inte är bokstäver eller siffror, till exempel symboler eller specialtecken.|
+|**Datumformatering**|Ange hur datum ska visas. Du kan till exempel omvandla DD-MM-ÅÅÅÅ till ÅÅÅÅ-MM-DD.|
+|**Decimalformat**|Definiera regler för decimalplacering och avrundningsprecision.|
+|**Matchning - reguljärt uttryck**|Använd ett reguljärt uttryck för att hitta ett eller flera värden. Detta liknar alternativen för **Delsträng** och **Reguljärt uttryck - Byt ut**.|
+|**Anpassat**|Detta är ett avancerat alternativ som kräver hjälp från en utvecklare. Det möjliggör en integrationshändelse som du kan prenumerera på om du vill använda din egen omvandlingskod. Om du är utvecklare och vill använda det här alternativet läser du [exemplet](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) nedan.|
+|**Format för datum och tid**|Definiera hur du vill visa aktuellt datum och tid på dagen.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Tips för utvecklare: exempel på det anpassade alternativet
+I följande exempel visas hur du implementerar din egen omvandlingskod.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+När du har definierat dina regler kan du testa dem. I avsnittet **Test** anger du ett exempel på ett värde som du vill omvandla och kontrollerar sedan resultaten.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Så här exporterar du en definition för datautbyte som en XML-fil som andra ska använda
+När du har skapat definitionen för datautbyte för en viss datafil kan du exportera definitionen för datautbyte som en XML-fil du kan importera. Beskriv i följande procedur.  
+
 1. I rutan **Sök** anger du **Definitioner för datautbyte** och väljer sedan relaterad länk.  
 2. Välj den definition för datautbyte som du vill exportera.  
 3. Välj åtgärden **Exportera datautbytesdefinition**.  

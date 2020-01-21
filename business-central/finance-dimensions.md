@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302386"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952632"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -56,7 +56,7 @@ När dimensioner och värden som har konfigurerats kan du definiera globala och 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Konfigurera standarddimensioner för kunder, leverantörer och andra konton
 Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopieras till journal eller dokument när du ange numret på en rad, men du kan ta bort eller ändra koden på raden om det behövs. Du kan också göra en dimension obligatorisk för att bokföra en transaktion med en viss typ av konto.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dimensioner** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dimensioner** och välj sedan relaterad länk.  
 2.  På sidan **Dimensioner** väljer du relevant dimension och sedan åtgärden **Standarddim. för kontotyp**.  
 4.  Fyll i en rad för varje ny standarddimension du vill ange. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopiera
 ### <a name="to-set-up-default-dimension-priorities"></a>Så här anger du standarddimensionsprioritet  
 Olika kontotyper, t.ex. ett kundkonto och ett artikelkonto, kan ha olika definierade standarddimensioner. Detta kan resultera i att flera standarddimensioner för en dimension föreslås för en transaktion. Du kan undvika att den här typen av konflikter uppstår genom att använda prioritetsregler för de olika källorna.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Standard dimensionsprioritet** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Förvalda dimensionsprioriteter** och välj sedan relaterad länk.  
 2.  På sidan **Standard dimensionsprioritet** i fältet **Källkod** anger du ursprungskoden för den transaktionstabell som standarddimensionsprioriteten.  
 3.  Fyll i en rad för varje standarddimensionsprioritet du vill ha för den valda ursprungskoden.
 4.  Upprepa proceduren för varje ursprungskod du vill ange standarddimensionsprioritet för.  
@@ -83,7 +83,7 @@ Olika kontotyper, t.ex. ett kundkonto och ett artikelkonto, kan ha olika definie
 ### <a name="to-set-up-dimension-combinations"></a>Så här definierar du dimensionskombinationer  
 Du kan förhindra att transaktioner bokförs med oförenliga eller irrelevanta dimensioner genom att spärra eller begränsa vissa kombinationer av två dimensioner. En spärrad dimensionskombination innebär att du inte kan bokföra båda dimensionerna i samma transaktion, oberoende av dimensionsvärdena. En begränsad dimensionskombination innebär att du kan bokföra båda dimensionerna i samma transaktion, men endast för vissa kombinationer av dimensionsvärden.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dimensionskombinationer** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dimensionskombinationer** och välj sedan relaterad länk.  
 2.  På sidan **Dimensionskombinationer** och välj något av följande alternativ i fönstret  
 
     |Fält|Description|
@@ -111,11 +111,11 @@ Globala och genvägsdimensioner kan användas som filter var som helst i [!INCLU
 > [!Note]
 > När du lägger till eller ändrar en global eller genvägsdimension loggas du automatiskt ut och in igen så att det nya värdet förbereds för användning i hela programmet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.
 2. Fyll i fälten på snabbfliken **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Ändra globala dimensioner
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ändra globala dimensioner** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ändra globala dimensioner** och välj sedan relaterad länk.
 2. Hovra över åtgärder och på den sidan om du vill lära dig om att ändra globala dimensioner respektive genvägsdimensioner.
 
 ### <a name="example-of-dimension-setup"></a>Exempel på dimensionsinställningarna
@@ -181,7 +181,7 @@ Globala dimensioner är alltid \-definierade och namngivna utifrån företaget. 
 
 Du kan se om det finns globala dimensioner för transaktionerna på en transaktionssida. De två globala dimensionerna skiljer sig från övriga dimensioner eftersom de kan användas som filter var som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
 2.  På sidan **Kontoplan** väljer du åtgärden **Redovisningstransaktioner**.  
 3.  Om du bara vill visa relevanta transaktioner definierar du ett eller flera filter på sidan.  
 4.  Om du vill visa alla dimensioner för en transaktion markerar du transaktionen väljer sedan åtgärden **Dimensioner**.  
@@ -208,6 +208,8 @@ När du bokför dokument eller journalrader som innehåller dimensioner kan olik
 |Fel dimensionsvärdekod för standarddimensionen när fältet **värdebokföring** innehåller **Samma kod**|-Välj %1 %2 för %3 %4.<br />-Välj %1 %2 för %3 %4 till %5 %6.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ange krävt dimensionsvärde för dimensionen som är i konflikt i dimensionsuppsättningen.|
 |Icke-tomt dimensionsvärdekod för tomma standarddimensionen när fältet **värdebokföring** innehåller **Samma kod**|-%1 %2 måste vara tom.<br />-%1 %2 måste vara tom för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ange en icke tom dimensionsvärdekod för dimensionen som är i konflikt i dimensionsuppsättningen.|
 |Oväntat dimensionsvärde för standarddimensionen när fältet **värdebokföring** innehåller **Ingen kod**|-%1 %2 får inte tas med.<br />.%1 %2 får inte tas med för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ta bort raden i konflikt från dimensionsuppsättningen.|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

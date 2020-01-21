@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 11/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695053"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953953"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -62,6 +62,8 @@ Funktionen **Berätta vad du vill göra** söker inte efter data som till exempe
 
 ## <a name="questions"></a>Frågor?
 Vi har visat Berätta för mig för ett antal intressenter, noterat de frågor som de har gemensamt och använt våra anteckningar till en lista av vanliga frågor. Om du är intresserad, se [Vanliga frågor Berätta ](ui-search-faq.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Arbeta med Business Central](ui-work-product.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3ff7d711e7a8f7bfe7acf44c8cd648dcb7a591e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304859"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952872"
 ---
 # <a name="incoming-documents"></a>Inkommande dokument
 Vissa affärstransaktioner registreras inte i [!INCLUDE[d365fin](includes/d365fin_md.md)] från början. I stället kommer ett externt affärsdokument till ditt företag som en e-postbilaga eller papperskopia som du skannar för att spara. Det här är typiskt för inköp där sådana inkommande dokument representerar betalningkvitton för kostnader eller små inköp.
@@ -43,6 +43,8 @@ Processen för inkommande dokument består av följande huvudaktiviteter:
 | --- | --- |
 | Ställa in funktionen för inkommande dokument och konfigurera OCR-tjänsten. |[Ställa in inkommande dokument](across-how-setup-income-documents.md) |
 | Skapa inkommande dokumentposter, koppla filer, använda OCR för att omvandla PDF-filer till elektroniska dokument, omvänd elektroniska dokument till dokumentposter, granska inkommande dokumentposter bokförda för försäljnings- och inköpsdokument. |[Bearbeta inkommande dokument](across-process-income-documents.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  

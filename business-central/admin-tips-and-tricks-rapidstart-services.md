@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878992"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918172"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tips och råd: RapidStart Services
 När du konfigurerar företag som använder RapidStart Services finns några tips och trick som du kan använda för att implementeringen ska gå smidigt.  
@@ -30,10 +30,10 @@ Som hjälp vid processen att fylla i ett konfigurationsfrågeformulär bör du �
 Vi rekommenderar att du använder datamigreringsverktygen som tillhandahålls för att migrera journaltransaktioner. Annars, om du använder batch-jobbet för att skapa journalrader, har det en begränsad omfattning och skapar endast pre-standardfält i en journal. Resten av journalen måste sedan avslutas manuellt.  
 
 ## <a name="migrating-transactions"></a>Migrera transaktioner  
-Vi rekommenderar att du migrerar ingående balanser i följande ordning.  
+Vi rekommenderar att du migrerar ingående balanser i följande ordning. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Migrera redovisningen av ingående balanser utan att använda underredovisningarna för redovisningskonto. Använd specifika motkonton för ingående balanser, en inställning för varje underredovisning. Skapa motkonteringskontona för att aktivera direkt bokföring.  
-2.  Migrera öppna kundreskontratransaktioner.  
+2.  Migrera öppna kundreskontratransaktioner.  <!--work on these-->
 3.  Migrera öppna artikeltransaktioner.  
 4.  Migrera öppna anläggningstillgångstransaktioner.  
 

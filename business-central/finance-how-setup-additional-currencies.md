@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2f7376909b2627c61456c9d7a8e9c1a81d20427
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306178"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953737"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
@@ -48,7 +48,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Så här anger du redovisningskonton för bokföring av valutakursjusteringar  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Valutor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Valutor** och välj sedan relaterad länk.  
 2. På sidan **Valutor** fyller du i följande fält för alternativ rapporteringsvaluta.  
 
 |Fält|Description|  
@@ -64,7 +64,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 För varje redovisningskonto måste du ange hur redovisningsbelopp för det kontot ska justeras för valutakursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Ange kursjusteringsmetod för alla redovisningskonton  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
 2. På sidan **Kontoplan** väljer du relevant konto och sedan åtgärden **Redigera**.  
 3. På sidan **Redovisningskontokort** väljer du relevant metod i fältet **Valutakursjustering**.  
 
@@ -81,7 +81,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 4.  Stäng sidan **Redovisningskontokort**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Så här anger du kursjusteringsmetod för momstransaktioner  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du relevant metod i fältet **Moms valutakursjustering**.  
 3. Om du bokför i en alternativ rapporteringsvaluta kan du ange i fältet **Moms valutakursjustering** hur de konton som ställts in för momsbokföring på sidan **Moms bokföringsinställning** ska justeras för kursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 
@@ -96,7 +96,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
     |**Justera belopp alt. valuta**|Alternativ rapporteringsvaluta justeras för alla kursvinster eller kursförluster. Alla kursvinster eller kursförluster bokförs på redovisningskontot i fältet **Alt. valuta belopp** och på de konton du har angett för vinster eller förluster i fälten **Kursvinst konstaterad redov** och **Kursförlust konstaterad redov** på sidan **Valutor**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Så här aktiverar du den alternativa rapporteringsvalutan.  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du fältet **Alternativ rapporteringsvaluta** och välj den alternativa valuta du vill rapportera i.  
 3. När du lämnar fältet visar [!INCLUDE[d365fin](includes/d365fin_md.md)] ett bekräftelsemeddelande som beskriver effekterna när du väljer (och aktiverar) den alternativa rapporteringsvalutan.  
 4. Välj **ja** för att bekräfta att du vill aktivera valutan.  
@@ -120,6 +120,8 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 
 > [!NOTE]  
 >  Fältet **Alt. rapporteringsvaluta** kommer bara att vara aktivt när du har valt **OK** i batch-jobbet **Just. alt. rapporteringsvaluta**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Uppdatera valutakurser](finance-how-update-currencies.md)  

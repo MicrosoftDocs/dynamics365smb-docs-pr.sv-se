@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1fcf6032b7084f0893d7a9ffa24c68b9ecb55c5f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a6404d39723df3d6c0d14ab7ff2bae783222dc67
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877525"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910981"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
@@ -25,8 +25,10 @@ Kunderna är källan till din inkomst. Du måste registrera varje kund som du s�
 Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskoder som du kan välja mellan, när du fyller i kundkort. Mer information finns i [Konfigurera försäljning](sales-setup-sales.md).
 
 > [!NOTE]  
->   Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.
-<br><br>
+>   Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.  
+<br><br>  
+<br><br>  
+  
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort

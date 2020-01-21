@@ -1,8 +1,6 @@
 ---
 title: Kontrollera automatiskt tillämpade betalningar och koppla betalningar manuellt | Microsoft Docs
 description: När betalningen kopplas automatiskt, kan du granska alla poster för en betalning och manuellt återställa dem som använts felaktigt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e87b4c4c22c83f482fcc777eac95df72acbb9eb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 25bc9b8525eb3f690677bf37696ec6a69afa8605
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316530"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911029"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Så här granskar och kopplar du betalningar manuellt efter automatisk koppling
 För varje journalrad som representerar en betalning på sidan **Betalningsavstämningsjournal** kan du öppna sidan **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information om automatisk koppling finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
@@ -39,7 +37,7 @@ Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hante
 >   Du kan bara koppla en betalning till ett konto. Om du vill dela kopplingen på flera öppna transaktioner, till exempel för att koppla en klumpsummabetalning måste de öppna transaktionerna vara för samma konto. Mer information finns i moment 7 och 8 i proceduren i det här avsnittet.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Så här granskar och kopplar du betalningar efter automatisk koppling
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
 2. Öppna betalningsavstämningsjournalen för ett bankkonto som du vill stämma av betalningar för. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. På sidan **Betalningsavstämningsjournal** väljer du en betalning som du vill granska eller manuellt koppla till en eller flera öppna transaktioner, och väljer sedan åtgärden**Koppla manuellt**.
 4. Välj kryssrutan **Kopplat** på raden för den öppna transaktion som du vill koppla betalningen till.

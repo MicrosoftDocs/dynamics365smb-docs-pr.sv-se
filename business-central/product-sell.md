@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883341"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918148"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Bli en återförsäljare av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expandera affärsmöjligheten med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,10 +26,7 @@ Om du specialiserar dig på molnlösningar, Office 365, SharePoint, branschlösn
 
 ## <a name="get-started"></a>Kom igång
 
-Programmet ”redo att köra” är ett sätt att få information som en [!INCLUDE [prodshort](includes/prodshort.md)] återförsäljare. Du kan också kontakta Microsoft Office i ditt land eller region. För mer information om vilka resurser som är tillgängliga via programmet ”redo att köra”, se [aka.ms/readytogo](https://aka.ms/readytogo). Få mer information om hur du blir en återförsäljare på [sälja olika lösningar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Registrera dig för en utvärderingsversion på [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-) och skicka feedback till [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Programmet ”redo att köra” är ett sätt att få information som en [!INCLUDE [prodshort](includes/prodshort.md)] återförsäljare. Du kan också kontakta Microsofts kontor i ditt land eller din region. För mer information om de resurser som finns tillgängliga för dig genom "Ready to Go"-programmet, se [aka.ms/readytogo](https://aka.ms/readytogo), [Återförsälj andra lösningar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) och [Kom igång som återförsäljare](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Se även
 

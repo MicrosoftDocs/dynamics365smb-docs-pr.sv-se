@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/06/2019
+ms.date: 12/10/2019
 ms.author: solsen
-ms.openlocfilehash: 0f8f0f85df89c1d71fc3e114ebd902f2aa85f802
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896115"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910642"
 ---
 # <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Skapa en miljö för begränsat läge i [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -74,13 +74,13 @@ I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du k
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="to-enable-the-advanced-user-experience"></a>Aktivera avancerade användare
-Det går att aktivera och prova avancerade (alla) funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett begränsat läge för innehavare genom att ange fältet **upplevelse** på sidan **företagsinformation**.
+Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation**.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-När du har aktiverat den avancerade funktionen i en begränsad innehavare kan få du tillgång till alla vanliga profiler (roller) och rollcenter. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten.
+När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

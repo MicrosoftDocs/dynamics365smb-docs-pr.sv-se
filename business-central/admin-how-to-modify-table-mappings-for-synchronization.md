@@ -1,6 +1,6 @@
 ---
-title: Ändra tabellmappningar för synkronisering | Microsoft Docs
-description: Lär dig ändra den registermappning som används vid synkronisering av data mellan Business Central och Dynamics 365 Sales.
+title: Mappa registren och fälten som ska synkroniseras | Microsoft docs
+description: Läs om hur du kartlägger register och fält för synkronisering av data mellan Business Central och Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2019
+ms.date: 12/18/2019
 ms.author: bholtorf
-ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 371bd80c04917495ea1b35f214d10d716ed5f9ad
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308084"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943119"
 ---
-# <a name="modify-table-mappings-for-synchronization"></a>Ändra tabellmappningar för synkronisering
-En integrationstabellmappning länkar en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)] till en integrationstabell för [!INCLUDE[crm_md](includes/crm_md.md)]-enheten. För varje enhet i [!INCLUDE[crm_md](includes/crm_md.md)] som du vill synkronisera med motsvarande data i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste det finnas en motsvarande integrationstabellmappning. En integrationstabellmappning innehåller flera inställningar som låter dig styra hur posterna i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet synkroniseras av motsvarande integrationssynkroniseringsjobb.  
+# <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
+Grunden för att synkronisera data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[crm_md](includes/crm_md.md)] är att mappa registren och fälten som innehåller data med varandra. Mappning sker via integreringsregister. 
+
+## <a name="mapping-integration-tables"></a>Integreringsregister för mappning
+En integreringsregister är en register i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen som representerar en enhet, exempelvis konto, i [!INCLUDE[crm_md](includes/crm_md.md)]. Integreringsregisteren innehåller fält som motsvarar fält i registeren för enheten [!INCLUDE[crm_md](includes/crm_md.md)]. Till exempel ansluter integreringsregisteren Konto till enheten Konton i [!INCLUDE[crm_md](includes/crm_md.md)]. För varje enhet i [!INCLUDE[crm_md](includes/crm_md.md)] som du vill synkronisera med data i [!INCLUDE[d365fin](includes/d365fin_md.md)]] måste det finnas en mappning för integreringsregister.
+
+När du skapar anslutningen mellan programmen ställer [!INCLUDE[d365fin](includes/d365fin_md.md)] in vissa standardmappningar för register och fält. Om du vill kan du ändra registermappningarna. Mer information finns i [Standardinställd försäljningsenhetsmappningar för synkronisering](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization). Om du har ändrat standardmappningarna och vill återställa ändringarna går du till sidan **Anslutningsinställningar för Dynamics 365** och väljer **Använd standardinställningar för synkronisering**.
+
+> [!Note]
+> Om du använder en lokal version av [!INCLUDE[d365fin](includes/d365fin_md.md)] lagras mappningarna för integreringsregister i registeren 5335 för registermappningar för integrering, och kan visas och ändras från sidan 5335 för registermappningar för integrering. Komplexa mappningar och synkroniseringsregler definieras i codeunit 5341. 
+
+### <a name="synchronization-rules"></a>Synkroniseringsregler
+En mappning av integreringsregister innehåller också regler som styr hur synkroniseringsjobb för integrering synkroniserar poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-register och en enhet i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+
+## <a name="mapping-integration-fields"></a>Mappa integreringsfält
+Att mappa register är bara det första steget. Du måste också mappa fälten i registren. Mappning av integreringsfält länkar fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]-register med motsvarande fält i [!INCLUDE[crm_md](includes/crm_md.md)] och avgör om data ska synkroniseras i respektive register. Den standardregistermappning som [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhandahåller innehåller fältmappningar, men du kan ändra dessa om du vill. Mer information finns i [Visa enhetsmappningar](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
+
+> [!Note]
+> Om du använder en lokal version av [!INCLUDE[d365fin](includes/d365fin_md.md)] definieras mappningar av integreringsfält i register 5336 Mappning av integreringsfält.
+
+## <a name="coupling-records"></a>Kopplingsposter
+Kopplingen länkar poster i [!INCLUDE[crm_md](includes/crm_md.md)] med poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Till exempel är konton i [!INCLUDE[crm_md](includes/crm_md.md)] vanligtvis kopplade till kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kopplingsposter ger följande fördelar:
+
+* Det möjliggör synkroniseringen.
+* Användare kan öppna poster i en företagsapp från den andra. Detta kräver att [!INCLUDE[d365fin](includes/d365fin_md.md)]-integreringslösningen installeras i [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Kopplingar kan ställas in automatiskt genom att använda synkroniseringsjobb, eller manuellt genom att redigera posten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Synkronisera data i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md) och [Koppla och synkronisera poster manuellt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## <a name="filtering-records"></a>Filtrera poster  
- Om du inte vill synkronisera alla poster för en specifik [!INCLUDE[crm_md](includes/crm_md.md)]-enhet eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell, kan du ställa in filter för att begränsa posterna som synkroniseras. Du ställer in filtren på sidan **Tabellmappningar för integrering**.  
+Om du inte vill synkronisera alla poster för en specifik [!INCLUDE[crm_md](includes/crm_md.md)]-enhet eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell, kan du ställa in filter för att begränsa posterna som synkroniseras. Du ställer in filtren på sidan **Tabellmappningar för integrering**.  
 
 #### <a name="to-filter-records-for-synchronization"></a>Om du vill filtrera poster för synkronisering  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
 
 2.  För att filtrera [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster anger du fältet **Tabellfilter**.  
 
@@ -36,7 +61,7 @@ En integrationstabellmappning länkar en tabell i [!INCLUDE[d365fin](includes/d3
  Till exempel använder synkroniseringsjobbet SÄLJARE – Dynamics 365 Sales tabellmappningen SÄLJARE. Synkroniseringsjobbet kopierar informationen [!INCLUDE[crm_md](includes/crm_md.md)]från användarposter till säljarposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du skapar tabellmappningen för att skapa nya poster, för varje användare i [!INCLUDE[crm_md](includes/crm_md.md)] som inte redan är kopplad till en säljare i [!INCLUDE[d365fin](includes/d365fin_md.md)], skapas en ny säljarpost i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Så här skapar du nya poster under synkroniseringen  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
 
 2.  Rensa fältet i tabellmappningposten i fältet **Synka endast kopplade poster**.  
 
@@ -52,7 +77,7 @@ Om du installerar standardsynkroniseringsinstallationen, för det mesta, skapas 
 -   **CRMACCOUNT** skapar och synkroniserar nya konton i baserat på ett konto i [!INCLUDE[crm_md](includes/crm_md.md)] baserat på ett konto i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Ange konfigurationsmallar på en tabellmappning  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tabellmappningar för integrering** och välj sedan relaterad länk.
 
 2.  I tabellmappningposten i listan anger du fältet **Mallkod för tabellkonfig.** till konfigurationsmallen som ska användas för nya poster i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

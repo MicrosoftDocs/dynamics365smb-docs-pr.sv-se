@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304023"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910426"
 ---
 # <a name="transfer-bank-funds"></a>Överföra banktillgångar
-Ibland kan du behöva överföra ett belopp från ett bankkonto till ett annat. För att göra detta måste du bokföra en transaktion i redovisningsjournalen. Uppgiften varierar beroende på om bankkontona använder samma valuta eller olika valutor.
+Du kan ibland komma att behöva överföra ett belopp från ett bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] till ett annat. För att göra detta måste du bokföra en transaktion på sidan **Redovisningsjournal**. Uppgiften varierar beroende på om bankkontona använder samma valuta eller olika valutor.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Så här bokför du en överföring mellan bankkonton med samma valutakod
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournal** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournal** och välj sedan relaterad länk.
 2. Fyll i fälten **Bokföringsdatum** och **Verifikationsnr** på en .
 3. Ange **Bankkonto** i fältet **Kontotyp**.
 4. I fältet **Kontonr** väljer du det bankkonto som du vill överföra pengarna från.
@@ -36,7 +36,7 @@ Ibland kan du behöva överföra ett belopp från ett bankkonto till ett annat. 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Så här bokför du överföringar mellan bankkonton med olika valutakoder
 För att överföra pengar mellan bankkonton som använder olika valutor måste du bokföra två redovisningsjournalrader.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournal** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournal** och välj sedan relaterad länk.
 2. Skapa två journalrader och fyll i fälten **Bokföringsdatum** och **Verifikationsnr**.
 3. På den första journalraden anger du **Bankkonto** i fältet **Typ**.
 4. I fältet **Kontonr** väljer du det bankkonto som du vill överföra pengarna från.
@@ -54,7 +54,7 @@ För att överföra pengar mellan bankkonton som använder olika valutor måste 
 13. Bokför journalen.
 
 ## <a name="see-also"></a>Se även
-[Hantera bankkonton](bank-manage-bank-accounts.md)  
+[Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

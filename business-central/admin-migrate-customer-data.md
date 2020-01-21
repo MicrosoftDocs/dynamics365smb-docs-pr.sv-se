@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896211"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918220"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
@@ -31,13 +31,13 @@ När du skapar ett nytt företag, kan du importera företagsinställningar för 
 > [!NOTE]  
 >  Du kan inte byta namn på en fil som inte redan är ett RapidStart Services konfigurationspaket som en .rapidstart-konfigurationspaketfil och sedan försöka importera den. Om du försöker att göra det, kommer du att få ett felmeddelande.  
 
-Kontrollera att du är på implementerings-rollcentret för RapidStart Services innan du börjar.
+Innan du börjar måste du kontrollera att du har behörighet att köra RapidStart Services-objekten. Du kan till exempel ha behörighetsuppsättningen SUPER eller vara en intern eller delegerad administratör. Vi rekommenderar också att du är på ett Rollcenter med länkar till RapidStart Services, till exempel Rollcenter för administration. Mer information finns i [Att ändra rollen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
->   
+> När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
+>
 >  Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte.
->   
+>
 > Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
 
 1. Öppna det nya företaget.  
@@ -56,7 +56,11 @@ Kontrollera att du är på implementerings-rollcentret för RapidStart Services 
 Om urvalet av tabeller inte uppfyller dina behov, kan du skapa en eller flera nya datamigreringsfiler. Om filerna är tillräckliga kan du fortsätta datamigreringen med hjälp av Excel- eller XML-filer.
 
 ## <a name="to-create-a-data-migration-file"></a>Så här skapar du en datamigreringsfil
-Du kan skapa nya datamigreringsfiler och anpassa dem för att stödja din verksamhet. Notera att en fil endast kan användas för att migrera ett fält som har egenskapsuppsättningen **FieldClass** inställd på **Normal**.  
+
+Du kan skapa nya datamigreringsfiler och anpassa dem för att stödja din verksamhet.  
+
+> [!TIP]
+> En fil kan dock endast användas för att migrera ett fält som har egenskapsuppsättningen **FieldClass** inställd på **Normal**.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för att flytta data och välj sedan åtgärden **Hämta tabeller**. Sidan **Hämta pakettabell** öppnas.  

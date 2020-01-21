@@ -10,19 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798505"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953665"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
-För att komma igång snabbare innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer för de flesta ekonomiska processer. Om du behöver ändra konfigurationen så att de passar din verksamhet kan du fortsätta direkt. Från Rollcenter kan du exempelvis använda en assisterad konfigurationsguide som hjälper dig att konfigurera momssatsen för din plats.  
+Innan du kan börja driva ditt företag måste du ange regler och standardvärden för hur du vill hantera finansprocesser för det företaget. Du börjar med att skapa det viktigaste för företagets redovisningsposter - kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.
 
-Det finns dock några saker som du måste konfigurera själv. Om du till exempel vill använda dimensioner som grund för business intelligence.  
+Vissa ekonomiinställningar kan göras automatiskt med assisterade konfigurationsguider, och vissa måste göras manuellt. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
+
+Med hjälp av dimensioner kan du lägga till olika typer av information för respektive transaktion. Du kan konfigurera ditt företags grundläggande dimensioner, till exempel projekt och avdelningar. Senare kan du lägga till fler dimensioner efter behov, och du kan skapa tillfälliga dimensioner som ska användas under en begränsad tidsperiod, till exempel i samband med en försäljningskampanj. Mer information finns i [Arbeta med](finance-dimensions.md).
+
+Många av inställningsuppgifterna måste genomföras innan du kan börja registrera ekonomiska transaktioner, men du kan ändra de flesta inställningar vid en senare tidpunkt. Vissa uppgifter är valfria, till exempel behöver du bara ställa in koncerninterna bokningar och konsolideringar om du arbetar med flera företag. Andra uppgifter, som att ange vilken period som bokföringen kan göras under, kanske måste upprepas regelbundet.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
@@ -46,9 +50,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Ställa in Intrastat-rapporten och skicka rapporten till en myndighet | [Skapa och rapportera Intrastat](finance-how-setup-report-intrastat.md)|
 |Se till att en transaktion i en redovisningsjournal allokeras till flera olika konton när journalen bokförs, antingen efter kvantitet, procent eller belopp.|[Så här använder du fördelningsnycklar i redovisningsjournaler](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
-[Hantera bankkonton](bank-manage-bank-accounts.md)  
+[Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  

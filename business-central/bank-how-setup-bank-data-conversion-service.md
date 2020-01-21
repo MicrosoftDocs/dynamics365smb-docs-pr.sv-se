@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0ff91eff703f7f490a3c47cd515523f7fca0316e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692758"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911293"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
@@ -62,5 +62,5 @@ Du har nu registrerat dig för tjänsten bankdatakonvertering. Fortsätt för at
 
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  
-[Hantera bankkonton](bank-manage-bank-accounts.md)  
+[Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

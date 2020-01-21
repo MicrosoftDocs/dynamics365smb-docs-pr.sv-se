@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879361"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910910"
 ---
 # <a name="setting-up-workflows"></a>Konfigurera arbetsflöden
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).  
@@ -41,6 +41,12 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 |Dela arbetsflöden med andra [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)|  
 |Se information om hur du konfigurerar ett arbetsflöde för godkännande av försäljningsdokument genom att följa en procedur från slutpunkt till slutpunkt.|[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Lägg till stöd för ett affärsscenario som kräver nya arbetsflödeshändelser eller svar genom att anpassa applikationskoden.|[Genomgång: Implementera nya arbetsflödeshändelser och svar](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+
+## <a name="example-of-an-approval-workflow"></a>Exempel på ett arbetsflöde för godkännande
+Den här videon visar hur du ställer in ett arbetsflöde som kräver att någon begär någon annans godkännande innan de kan ändra information om en befintlig kund eller skapa en ny kund.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
 
 ## <a name="see-also"></a>Se även  
  [Använda arbetsflöden](across-use-workflows.md)   

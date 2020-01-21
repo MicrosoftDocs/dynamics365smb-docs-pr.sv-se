@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774849"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911128"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 |Esc|Stäng den aktuella sidan eller listrutan.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
+|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. Detta språkstöds. Tryck till exempel på J i Tyskland för att aktivera knappen **Ja**.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
@@ -141,6 +142,7 @@ Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och do
 |Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |
 |Alt+Shift+N |Stäng en sida och öppna en ny för att skapa en ny post. På samma sätt som om du markerar åtgärden **OK och Nytt**. |
 |Alt+Shift+W |Öppna aktuellt kort eller dokument i ett nytt fönster. Mer information finns i [multikörning på flera sidor.](ui-enter-data.md#multitasking-across-multiple-pages)|
+|Ctrl+Enter|Spara och stäng sidan.|
 |Ctrl+Nedpil|Öppna nästa post för en enhet.|
 |Ctrl+Uppil |Öppna föregående post för en enhet.|
 |Ctrl+Ins |Infoga en ny rad i ett dokument|
@@ -173,7 +175,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Ctrl+Nedpil<br />(Cmd+nedpil)|Flytta till nästa vecka, samma dag i veckan.|
 |Enter|Välj fokuserat datum.|
 |Ctrl+End<br />(Cmd+End)|Stäng kalendern och ta bort aktuellt datum.|
-|Esc|Stäng kalendern utan markering, behåll aktuellt datum.|
+|Esc|Stäng kalendern utan markering, och behåll aktuellt datum.|
 |Page Down|Flytta till nästa månad|
 |Page Up|Flytta till föregående månad|  
 

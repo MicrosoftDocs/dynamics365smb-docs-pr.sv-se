@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e6d9bb39e36ca127ab9d64eb045ab4c64b91d30
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ae6b75ee39f2e06c55dc1f498c7a0be113c045d3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880742"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910694"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar.<br><br>  
@@ -30,7 +30,7 @@ Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att h
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton separat](bank-how-reconcile-bank-accounts-separately.md). Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterad inställningsguide **Migrera affärsdata**. Mer information finns i [Komma igång](product-get-started.md).
+> Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md). Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterad inställningsguide **Migrera affärsdata**. Mer information finns i [Komma igång](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
 Fälten på snabbfliken **Överför** på sidan **Bankkontokort** är relaterade till import och export av bankfeeds och filer. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) och [Konfigurera Envestnet Yodlee Bank Feeds-tjänsten](bank-how-setup-bank-statement-service.md).
@@ -53,5 +53,5 @@ Fälten på snabbfliken **Överför** på sidan **Leveraqntörsbankkontokort** �
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Ställa in bokföringsmallar](finance-posting-groups.md)  
-[Hantera bankkonton](bank-manage-bank-accounts.md)  
+[Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

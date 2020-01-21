@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649794"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953285"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
@@ -23,7 +23,10 @@ I faktaboxen för de flesta kort och dokument kan du bifoga filer, lägga till l
 
 Om du vill visa eller ändra dessa kopplade informationstyper måste du först öppna fliken **bifogade filer** i faktaboxen. Numret bakom flikens rubrik visar hur många bifogade filer, länkar eller anteckningar som finns för kortet eller dokumentet.
 
-Bilagor, länkar och anteckningar förblir kopplade till ett kort eller dokument, till exempel från en pågående försäljningsorder till en bokförd försäljningsfaktura. Observera emellertid att ingen av de bifogade filerna skrivs ut från systemet, till exempel vid utskrift eller när filen sparas i en fil.
+Bilagor, länkar och anteckningar förblir kopplade till ett kort eller dokument, till exempel från en pågående försäljningsorder till en bokförd försäljningsfaktura. Ingen av de bifogade filtyperna skrivs emellertid ut från systemet, till exempel vid utskrift eller vid sparande i fil.
+
+> [!NOTE]
+> När du delvis levererar och fakturerar en försäljningsorder eller en inköpsorder, kopplas den bifogade filen endast till den slutgiltiga fakturan för ordern. På samma sätt, när du fakturerar med hjälp av funktionen för uppskov, kopplas den bifogade filen endast till redovisningstransaktionerna för dokumentet, men inte till periodiseringsposter.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Så här bifogar du en fil till en inköpsfaktura
 Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till ett kort eller dokument. Detta är användbart om du t.ex. vill lagra en leverantörs faktura som en PDF-fil på den relaterade inköpsfakturan i [!INCLUDE[d365fin](includes/d365fin_md.md)]i.

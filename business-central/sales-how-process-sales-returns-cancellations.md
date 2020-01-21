@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 249c38574c2f5ff1babc17df25bf33679a6b6764
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316410"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954014"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.
@@ -48,7 +48,7 @@ För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet 
 Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Skapa en ny försäljningskreditnota från en bokförd försäljningsfaktura.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförd försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
 2. På sidan **Bokförda försäljningsfakturor** väljer du den bokförda försäljningsfakturan som du vill återföra och väljer sedan åtgärden **Skapa korrigerande kreditnota**.
 
     Försäljningskreditnotans huvud innehåller information från den bokförda försäljningsfakturan. Du kan redigera detta, till exempel med ny information som behövs för returavtalet.  
@@ -70,7 +70,7 @@ Dialogrutan **Bekräftelse för bokför och utskick** öppnas och visar kundens 
 De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återförs nu, och en betalningsåterbetalning kan skapas för kunden. Försäljningskreditnotan tas bort och ersätts med ett nytt dokument i listan över bokförda försäljningskreditnotor.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Skapa en ny försäljningskreditnota genom att kopiera en bokförd försäljningsfaktura.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningskreditnotor** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningskreditnota** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom försäljningskreditnota.
 3. Ange namnet på en befintlig kund i fältet **Kund**.
 4. Välj åtgärden **kopiera dokument**.
@@ -81,7 +81,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 9. Slutför försäljningskreditnotan enligt vad som förklaras i [Att skapa en försäljningskreditnota från en bokförd försäljningsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsreturorder** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsreturordrar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.  
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält.
 4. På snabbfliken **rader** fyller du i raderna manuellt eller kopierar information från andra dokument för att fylla i raderna automatiskt:
@@ -161,7 +161,7 @@ När du bokför försäljningsreturordern läggs återlagringsavgiften till det 
 Du kan skicka en kreditnota med ett prisavdrag till en kund om de varor som levererats till kunden är skadade eller om artiklarna inte levererades i tid.  
 Du kan bokföra det reducerade priset som en artikelomkostnad i en kreditnota eller en returorder och koppla den till den bokförda leveransen. Följande tabell beskriver en försäljningskreditnota, men samma steg gäller för en försäljningsreturorder.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningskreditnotor** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningskreditnotor** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom försäljningskreditnota.
 3. Fyll i kreditnotahuvudet med information om den kund som ska erhålla förs.tillägget.  
 4. På snabbfliken **Rader** i fältet **Typ** markerar du **Debitering (artikel)**.  
@@ -184,7 +184,7 @@ Om du vill kombinera inleveranser måste kryssrutan **Samlingsfakturering** mark
 
 ### <a name="to-manually-combine-return-receipts"></a>Så här kombinerar du returinleveranser manuellt  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningskreditnota** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningskreditnota** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält.  
 4. Välj åtgärden **Hämta returinleveransrader**.  
@@ -200,7 +200,7 @@ Om du vill kombinera inleveranser måste kryssrutan **Samlingsfakturering** mark
 ### <a name="to-automatically-combine-return-receipts"></a>Så här kombinerar du returinleveranser automatiskt  
 Du kan ange att returinleveranser ska kombineras automatiskt och dessutom välja att bokföra kreditnotor automatiskt med hjälp av funktionen **Samlingsreturnering**.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Samlingsreturnering** och välj sedan relaterad länk.
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kombinera returinleverans** och välj sedan relaterad länk.
 2. På sidan **Samlingsreturnering** fyller du i fälten för att välja relevanta returinleveranser.
 3. Markera kryssrutan **Bokför kreditnotor**. I annat fall måste du manuellt bokföra de resulterande inköpskreditnotorna.
 4.  Välj knappen **OK**.  
@@ -209,11 +209,13 @@ Du kan ange att returinleveranser ska kombineras automatiskt och dessutom välja
 När du fakturerar returinleveranser på det här sättet finns de returorder som returinleveranserna bokfördes från kvar, även om de har tagits emot och fakturerats i sin helhet.  
 
 När returinleveranser har kombinerats på en kreditnota och bokförts, skapas en bokförd försäljningskreditnota för de krediterade raderna. Innehållet i fältet **Fakturerat antal** på den ursprungliga förs.returordern uppdateras utifrån det fakturerade antalet.   
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort fakturerade försäljningsreturorder** och välj sedan relaterad länk.  
+1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort fakturerade försäljningsreturordrar** och välj sedan länken.  
 2.  Fälten **Serienr** . vilka returorder som ska tas bort.  
 3.  Välj **OK**.  
 
 Du kan också ta bort enskilda försäljningsreturorder manuellt.   
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
