@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943239"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030058"
 ---
 # <a name="create-users-according-to-licenses"></a>Skapa användare enligt licenser
 Nedan beskrivs hur du som administratör skapar användare och definierar vem som kan logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] och vilka grundläggande rättigheter olika användartyper har enligt licenserna.
@@ -61,7 +61,7 @@ Ibland kan du behöva ändra licensen som tilldelats en användare. Om du till e
 1. Ändra licensen i Microsoft 365 administrationscenter. Mer information finns i [Lägga till användare individuellt eller i bulk till Office 365](https://aka.ms/CreateOffice365Users)
 2. Logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] som administratör.
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
-4. Alternativt kan du på sidan **Användare** välja åtgärden **Uppdatera all användargrupper**.
+4. På sidan **Användare**, välj åtgärden **Återställ användarens standardanvändargrupper**.
 
 Användarna flyttas till rätt användargrupp och behörighetsuppsättningarna uppdateras. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -87,7 +87,7 @@ Om du ändrar användaren i Office 365 i efterhand och du behöver synkronisera 
 ## <a name="the-device-license"></a>Enhetslicensen
 Med enhetslicensen för Dynamics 365 Business Central kan flera användare använda en enhet som licensieras med enhetslicensen i syfte att driva en kassaenhet, en bärbar butiksenhet eller en lagerenhet. Mer information finns i [licensieringsguiden för Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
 
-Enhetslicensen implementeras som en samtidig användarmodell. När du har köpt X antal enhetslicenser kan upp till X antal användare från den utsedda grupp som kallas Dynamics 365 Business Central-enhetsanvändare* logga in samtidigt.
+Enhetslicensen implementeras som en samtidig användarmodell. När du har köpt X antal enhetslicenser kan upp till X antal användare från den utsedda grupp som kallas Dynamics 365 Business Central-enhetsanvändare logga in samtidigt.
 
 Företagets Office 365-administratör eller Microsoft-partner ska skapa den utsedda enhetsgruppen och lägga till enhetsanvändare som medlemmar i den gruppen. De kan göra detta i [administratörscentret för Microsoft 365](https://admin.microsoft.com/) eller på [Azure Portal](https://portal.azure.com/).
 

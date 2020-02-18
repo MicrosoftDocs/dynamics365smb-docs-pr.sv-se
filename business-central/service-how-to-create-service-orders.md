@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877333"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030106"
 ---
 # <a name="create-service-orders"></a>Skapa tjänsteorder
 Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.  
@@ -27,11 +27,11 @@ När du skapar en serviceorder, behöver du bara fylla i några fält. En del f�
 2. Skapa en ny serviceorder.  
 3. I fältet **Nr.** anger du ett nummer för serviceordern.  
 
-     Om du har angett nummerserier för serviceorder på sidan **Serviceinställningar** trycker du på Retur, så väljs nästa tillgängliga serviceordernummer.  
+     Om du har angett nummerserier för serviceorder på sidan **Konfigurera servicehantering** trycker du på Retur, så väljs nästa tillgängliga serviceordernummer.  
 
 4. I fältet **Kundnr.** välj relevant kund i listan. Relevanta fält för kunden fylls då i automatiskt med information från tabellen **Kund**.  
 
-5. Beroende på inställningarna på snabbfliken **Obligatoriska fält** om ska finnas på sidan **Serviceinställningar** kanske du måste fylla i fältet **Tjänsteordertyp** på fältet **Säljarkod**.  
+5. Beroende på inställningarna på snabbfliken **Obligatoriska fält** om ska finnas på sidan **Konfigurera servicehantering** kanske du måste fylla i fältet **Tjänsteordertyp** på fältet **Säljarkod**.  
 6. Det är frivilligt att fylla i övriga fält.  
 7. Registrera serviceartikelraderna.  
 
@@ -43,9 +43,11 @@ Du kan automatiskt skapa serviceorder för underhåll av serviceartiklar baserat
 3. Gå till snabbfliken **Alternativ** och fyll i fälten **Startdatum** och **Slutdatum** med startdatum och slutdatum för den period du vill skapa kontraktserviceorder för. I batch-jobbet skapas serviceorder som omfattar serviceartiklar i servicekontrakt med nästa planerade servicedatum inom den här perioden.  
 
     > [!NOTE]  
-    >  Det finns en gräns för det maximala antalet dagar du kan använda som datumintervall när du kör batch-jobbet. Du anger den här gränsen i fältet **Kontrakt serv.order max. dagar** på sidan **Serviceinställningar**.  
+    >  Det finns en gräns för det maximala antalet dagar du kan använda som datumintervall när du kör batch-jobbet. Du anger den här gränsen i fältet **Kontrakt serv.order max. dagar** på sidan **Konfigurera servicehantering**.  
 
 4. I fältet **Åtgärd** klickar du på **Skapa serviceorder**.  
+    > [!NOTE]  
+    >  Du kan inte skapa order med flera serviceartiklar om du ställer in fältet **En serv.artikelrad per order** på sidan **Konfigurera servicehantering**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Så här omvandlar du serviceofferter till serviceorder
 När en kund har accepterat en serviceoffert kan du omvandla den till en serviceorder. Offerten tas bort från fönstret och en ny serviceorder skapas med samma beskrivning som serviceofferten. Svarsdatum och svarstid räknas om för serviceordern och dess status anges som **Förestående**. Reparationsstatus för serviceartiklarna i ordern ändras till **Initial**.  

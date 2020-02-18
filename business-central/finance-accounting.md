@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943044"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991862"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
@@ -42,7 +42,7 @@ Vi har gjort det lätt för dig att bjuda in en extern revisor. Öppna bara sida
 > 
 > Denna uppgift kräver åtkomst för att hantera användare och licenser i Azure Active Directory och användaren som skickar den här inbjudan måste därför tilldelas rollen **Global administratör** eller **Användaradministratör** i administratörscenter för Office 365. Mer information finns i [Om administratörsroller](/office365/admin/add-users/about-admin-roles) i Office 365 administratörsinnehållet.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Lägga till din revisor i Office 365 via Azure Portal"
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Lägga till din revisor i Office 365 via Azure Portal
 
 Om din administratör eller återförsäljarpartner inte vill använda guiden **Bjud in extern revisor** kan de lägga till en extern användare i Azure-portalen och tilldela denna användare licensen som extern revisor. Mer information finns i [Snabbstart: Lägg till gästanvändare i din katalog i Azure Portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

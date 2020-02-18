@@ -8,44 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692686"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999837"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
-Du kan använda ramverket för dataintegration för att utbyta affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
+Du kan använda ramverket för dataintegration för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
-## <a name="electronic-documents"></a>Elektroniska dokument
-Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som du kan ta emot och konvertera till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)] . Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag. Om du vill tillhandahålla stöd för andra elektroniska dokumentformat måste du skapa nya datumutbytesdefinitioner med hjälp av ramverket för datautbyte.  
+I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] används ramverket för dataintegration i funktioner, till exempel elektroniska dokument, import/export av bankfiler och valutakursuppdateringar. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
 
-Från PDF- eller bildfiler som representerar inkommande dokument kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du gör för elektroniska PEPPOL-dokument. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från sidan **Inkommande dokument**. Efter några sekunder får du tillbaka filen tillbaka som en elektronisk faktura som kan omvandlas till en inköpsfaktura för leverantören. Om du skicka filen till OCR-tjänsten via e-post, skapas en ny inkommande dokumentpost automatiskt när du får tillbaka det elektroniskt dokument.  
-
-Om du vill skicka exempelvis en försäljningsfaktura som ett elektroniskt PEPPOL-dokument väljer du **Elektroniskt dokument** i dialogrutan **Bokför och skicka**. Härifrån kan du också ange kundens dokument för standardprofil för dokumentutskick. Först måste du skapa olika huvuddata, som företagsinformation, kunder, artiklar och enheter. De används för att identifiera dina affärspartner och artiklar vid konvertering av data i fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] till element i den utgående dokumentfilen. Datakonverteringen och utskicket av PEPPOL-försäljningsfakturan utförs av dedikerade kodenheter och XMLports som representeras av det elektroniska dokumentformatet **PEPPOL**.  
-
-Om du exempelvis vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan **Inkommande dokument** för att konvertera det till en inköpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan antingen konfigurera jobbköfunktionen för regelbunden behandling av sådana filer eller starta processen manuellt. Först måste du skapa olika huvuddata, som företagsinformation, leverantörer, artiklar och enheter. De används för att identifiera dina affärspartner och artiklar när du konverterar data i element i den inkommande dokumentfilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mottagningen och datakonverteringen av PEPPOL-fakturan utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **PEPPOL – Faktura**.  
-
- Om du vill ta emot, till exempel, en faktura som ett elektroniskt OCR-dokument, behandlar du det som när du tar emot ett elektroniskt PEPPOL-dokument. Mottagningen och konverteringen av elektroniska dokument från OCR utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **OCR – Faktura**.  
-
-## <a name="bank-files"></a>Bankfiler  
-Filformaten för utbyte av bankdata med ERP-system varierar beroende på leverantören av filen och på landet eller regionen. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import och export av SEPA-bankfiler (Single Euro Payments Area) och med tillägget AMC Banking 365 Fundamentals kan du ansluta till en tjänst för bankdatakonvertering som tillhandahålls av extern leverantör, AMC Consult. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.  
-
-Om du vill exportera SEPA-krediteringsöverföringar väljer du knappen **Exportera betalningar till fil** på sidan **Betalningsjournal** och överför sedan filen för att bearbeta betalningarna i din bank. Först måste du skapa olika huvuddata, som bankkonto, leverantörer och betalningssätt. Datakonverteringen och exporten av SEPA-bankdata utförs av en dedikerad codeunit och XMLport som representeras i bankexport-/importinställningarna för **SEPA-kreditöverföring**. Du kan också konfigurera tillägget AMC Banking 365 Fundamentals för att utföra exporten som representeras av datautbytesdefinitionen **Bankdatakonverteringstjänst – kreditöverföring**.  
-
-Om du vill exportera instruktioner för SEPA-direktdebitering väljer du knappen **Exportera autogirofil** på sidan **Samlingar med autogiro** och skickar dem sedan till din bank för automatisk inkassering av de relevanta kundbetalningarna. Först måste du skapa bankkonton, kunder, fullmakter för autogiro och betalningssätt. Datakonverteringen och exporten av SEPA-bankdata utförs av en dedikerad codeunit och XMLport som representeras i bankexport/-importinställningarna för **SEPA Autogiro**.  
-
-Om du vill importera SEPA-bankutdrag väljer du knappen Importera bankutdrag på sidan **Betalningsavstämningsjournal** och **Bankkontoavstämning** och fortsätter sedan med att koppla varje bankutdragspost till betalningar eller bankkontoposter, manuellt eller automatiskt. Först måste du konfigurera bankkonton. Importen och datakonverteringen av SEPA-bankdata utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **SEPA AMT**. Du kan också konfigurera tillägget AMC Banking 365 Fundamentals för att utföra importen som representeras av datautbytesdefinitionen **Bankdatakonverteringstjänst – bankkontoutdrag**.  
-
-Dessutom stöder de lokala versionerna av [!INCLUDE[d365fin](includes/d365fin_md.md)] olika andra filformat för att importera och exportera bankdata, lönetransaktioner och andra data. För mer information, se hjälpavsnittet “lokala funktioner” i din landsversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] .  
-
-## <a name="currency-exchange-rates"></a>Valutakurser  
-Du kan ställa in en extern tjänst för kontinuerlig uppdatering av aktuella valutakurser. Tjänsten, som tillhandahåller valutakurser, aktiveras av en datautbytesdefinition. Därför är sidan **Inställning valutakursuppdatering** en kondenserad vy av sidan **Data Exchange definitionen** för definitionen av datautbytet i fråga.  
-
-För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställningen genom att ladda den relaterade XML-schemafilen på sidan **Visningsprogram för XML-schema**. Här väljer du dataelementen som du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)] och sedan initialiserar du antingen en definition för datautbyte eller genererar en XMLport.  
+Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 

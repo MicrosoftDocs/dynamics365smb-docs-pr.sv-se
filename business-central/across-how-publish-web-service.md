@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: edupont
-ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305702"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030250"
 ---
 # <a name="publish-a-web-service"></a>Publicera en webbtjänst
 
@@ -28,7 +28,7 @@ Följande Moment beskriver hur du skapar och publicerar en webbtjänst.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Så här Skapa och publicera en webbtjänst  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Webbtjänster** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Webbtjänster** och välj sedan relaterad länk.  
 2. Välj **Nytt** på sidan **Webbtjänster**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -52,8 +52,8 @@ När du publicerar en webbtjänst, är den tillgänglig för externa parter. Du 
     > [!div class="mx-tdBreakAll"]
     > |Typ|Syntax|Exempel|
     > |----------------|------|-------|
-    > |SOAP |https://api.businesscentral.dynamics.com/*version*/*innehavare*/WS/*CompanyName*/*enhet*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*innehavare*/ODataV4/Company('*CompanyName*')/*enhet*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Företagsnamnsfältet är skiftlägeskänsligt.|
+    > |SOAP|https://api.businesscentral.dynamics.com/*version*/*klientorganisation*/Produktion/WS/*CompanyName*/*entitet*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
+    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*klientorganisation*/Produktion/ODataV4/företag('*CompanyName*')/*entitet*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Företagsnamnsfältet är skiftlägeskänsligt.|
 
 2. Granska informationen som visas i webbläsaren. Kontrollera att du kan visa namnet på webbtjänsten som du har skapat.  
 

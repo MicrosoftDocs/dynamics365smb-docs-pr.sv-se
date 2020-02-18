@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878203"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991790"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -76,7 +76,7 @@ Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omf
 Uppdateringar av fält för försäljningsorderhuvud, till exempel senaste utleveransdatum eller begärt leveransdatum som har mappats i FÖRSÄLJNINGSORDER-ORDER **Tabellmappningar för integrering** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Periodisk synkronisering som baseras på FÖRSÄLJNINGSORDERORDER i **Tabellmappningar för integrering** fungerar bara när integration av försäljningsorder har aktiverats. Mer information finns i [Ansluten till Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Enbart försäljningsorder som skapats från försäljningsorder som har skickats i [!INCLUDE[crm_md](includes/crm_md.md)] synkroniseras. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodisk synkronisering som baseras på FÖRSÄLJNINGSORDERORDER i **Tabellmappningar för integrering** fungerar bara när integration av försäljningsorder har aktiverats. Mer information finns i [Anslut till Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Enbart försäljningsorder som skapats från försäljningsorder som har skickats i [!INCLUDE[crm_md](includes/crm_md.md)] synkroniseras. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

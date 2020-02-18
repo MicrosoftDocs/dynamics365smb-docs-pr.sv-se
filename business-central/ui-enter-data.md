@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311386"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992096"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -55,7 +55,7 @@ Nedan finns användbar information om hur du använder snabbinmatning.
 
 Om du vill ändra vilka fält som ska inkluderas eller exkluderas i snabbinmatning på en sida, kan du använda anpassning.
 
-1. Starta anpassning genom att välja ikonen ![inställningar](media/ui-experience/settings_icon_small.png "ikonen inställningar för rollcenter") och sedan åtgärden **anpassa**.
+1. Starta anpassning genom att välja ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
 2. Välj ett fält som du vill ändra, eller i listor, väljer du motsvarande kolumnrubrik eller väljer antingen **inkludera i snabbinmatning** eller **exkludera snabbinmatning**.
 
 Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
@@ -98,20 +98,21 @@ Detta är speciellt viktigt när du arbetar med stora radposter och snabb datare
 
 ### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
-För att fokusera på radartiklar väljer du var som helst i radartikeldelen och välj ![ikonen Fokusläge](media/focus-mode.png "ikonen Fokusläge") i övre högra hörnet eller tryck på Ctrl + Shift + F12.
+För att fokusera på radartiklar väljer du var som helst i radartikeldelen och välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") i övre högra hörnet eller tryck på Ctrl+Shift+F12.
 
-Om du vill växla tillbaka till normal vy, väljer ![ikonen Fokusläge](media/focus-mode.png "ikonen Fokusläge") eller tryck på Ctrl + Shift + F12 igen.
+Om du vill växla tillbaka till normal vy, välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") eller tryck på Ctrl+Shift+F12 igen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
 När du arbetar med flera uppgifter samtidigt eller när du hanterar avbrott för den aktuella uppgiften, t.ex. genom att ta inkommande samtal, kan du öppna ett kort eller en dokument sida i ett nytt fönster. På så sätt kan du hålla ett fönster öppet för en pågående aktivitet när du startar eller slutför en annan aktivitet i ett eller flera andra fönster.
 
-Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
 
 > [!NOTE]
-> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![öppna nytt fönster](media/open-new-window-icon.png "öppna nytt fönster").
+> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster").
 
 > [!NOTE]
-> Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Samma sak kan hända i andra webbläsare, till exempel Firefox. Mer information finns i [Inställningar för blockering av popup-fönster i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning
 

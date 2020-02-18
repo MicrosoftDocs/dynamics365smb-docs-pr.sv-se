@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881198"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991838"
 ---
 # <a name="create-workflows"></a>Skapa arbetsflöden
 Du kan skapa arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
@@ -59,7 +59,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
         |**Meddela avsändare**|Ange om den som har fått godkännandet ska meddelas i stället för mottagaren om godkännandeförfrågan. Om du markerar kryssrutan inaktiveras fältet **Mottagarens användar-ID** eftersom den som skickar godkännandet kommer att meddelas i stället. Namnet på arbetsflödessvar ändras enligt detta till **skapa ett meddelande för &lt;avsändaren&gt;**. Om kryssrutan inte är markerad kan namnet på arbetsflödetssvar **skapa ett meddelande för &lt;användaren&gt;**.
         |**Mottagarens användar-ID**|Ange den användare som meddelande ska skickas till. Obs! Alternativet är bara tillgängligt för arbetsflödesvar med en platshållare för en specifik användare. För arbetsflödesvar utan platshållare för användare definieras meddelandemottagaren vanligtvis av inställningen av godkännandeanvändare.|  
         |**Transaktionstyp för meddelande**|Anger om arbetsflödesmeddelandet utlöses av en poständring, en begäran om godkännande eller en data som har passerats.|
-        |**Målsida för länk**|Ange en annan sida i [!INCLUDE[d365fin](includes/d365fin_md.md)] som länken i meddelandet öppnar i stället för standardsidan.|  
+        |**Målsida för länk**|Ange en annan sida i [!INCLUDE[d365fin](includes/d365fin_md.md)] som länken i meddelandet öppnar i stället för standardsidan.<br /><br />Observera att sidan måste ha samma källtabell som posten.|  
         |**Anpassad länk**|Ange URL-adressen till en länk som läggs till i meddelandet utöver länken till sidan i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa en godkännandebegäran.  
 
@@ -91,7 +91,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 >  Aktivera inte ett arbetsflöde förrän du vet att arbetsflödet är avslutat och att relevanta arbetsflödessteg kan startas.  
 
 > [!TIP]  
->  För att visa relationer mellan tabeller som används i arbetsflöden, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "TBerätta vad du vill göra) och ange **arbetsflöde – tabellrelationer**.  
+>  För att visa relationer mellan tabeller som används i arbetsflöden, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **arbetsflöde – tabellrelationer**.  
 
 ## <a name="see-also"></a>Se även  
 [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)   

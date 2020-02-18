@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883388"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999934"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
@@ -51,18 +51,18 @@ Detta kan anges i produktionsinställningarna om du vill filtrera prognos efter 
 
 ## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **efterfrågeprognos** och välj sedan relaterad länk.  
-2.  På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
-3.  Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.  
-4.  Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska efterfrågeprognostransaktionerna.  
-5.  Ange ett **datumfilter** om du vill begränsa mängden information som visas.  
-6.  Gå till snabbfliken **Matris för efterfrågeprognos** och ange prognosantalet för **Försäljningsartikel** eller **Komponent** för olika perioder.  
-7.  Gå till snabbfliken **Matrisalternativ** och ange tidsintervallet i fältet **Visa per** för att ändra perioden som visas i respektive kolumn. Du kan välja mellan följande intervall: **Dag**, **Vecka**, **Månad**, **Kvartal**, **År** eller **Bokföringsperiod** som ställs in i Ekonomihantering.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **efterfrågeprognos** och välj sedan relaterad länk.  
+2. På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
+3. Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.
+4. I fältet **Visa efter** för att ändra perioden som visas i varje kolumn. Du kan välja mellan följande intervall: **Dag**, **Vecka**, **Månad**, **Kvartal**, **År** eller **Bokföringsperiod** som ställs in i ditt ekonomiområde.    
 
-    > [!NOTE]  
-    >  Det kan vara värt att fundera på vilket tidsintervall du vill använda för framtida prognoser så att tidsintervallen är konsekventa. När du anger ett prognosantal börjar detta prognosantal att gälla på den första dagen i det tidsintervall som du väljer. Om du till exempel väljer månad som tidsintervall, anger du prognosantalet på den första dagen i månaden. Om du väljer kvartal, anger du antalet på den första dagen i den första månaden i kvartalet.  
+> [!NOTE]  
+>  Det kan vara värt att fundera på vilket tidsintervall du vill använda för framtida prognoser så att tidsintervallen är konsekventa. När du anger ett prognosantal börjar detta prognosantal att gälla på den första dagen i det tidsintervall som du väljer. Om du till exempel väljer månad som tidsintervall, anger du prognosantalet på den första dagen i månaden. Om du väljer kvartal, anger du antalet på den första dagen i den första månaden i kvartalet.
 
-8.  I fältet **Visa som** väljer du hur prognosantalet ska visas för tidsintervallet. Om du väljer **Nettoförändring** visas nettoförändringen i saldot för tidsintervallet. Om du väljer **Saldo t.o.m. datum** visar sidan saldot per den sista dagen i tidsintervallet.  
+5. I fältet **Visa som** väljer du hur prognosantalet ska visas för tidsintervallet. Om du väljer **Nettoförändring** visas nettoförändringen i saldot för tidsintervallet. Om du väljer **Saldo t.o.m. datum** visar sidan saldot per den sista dagen i tidsintervallet.  
+6. Gå till fältet **Prognostyp** och markera **Försäljningsartikel**, **Komponent** eller **Både och**. Om du väljer **Försäljningsartikel** eller **Komponent** kan du redigera antalet utifrån period. Om du väljer **Både och** kan du inte redigera antalet, men du kan klicka på listpilen och granska efterfrågeprognostransaktionerna.  
+7. Ange ett **datumfilter** om du vill begränsa mängden information som visas.  
+8. På snabbfliken **Matris för efterfrågeprognos** anger du prognostiserade kvantiteter genom att skriva in en kvantitet i cellen som representerar en artikel på ett visst datum eller en viss period. Observera att uppslagsknappen i tomma celler öppnar en tom sida som anger att du måste ange ett värde manuellt.   
 
 > [!NOTE]  
 >  Du kan också redigera en befintlig prognos. På sidan **Matris för efterfrågeprognos** väljer du åtgärden **Kopiera efterfrågeprognos** och fyller i sidan **efterfrågeprognos** med en befintlig prognos. Du kan sedan redigera antalet.  

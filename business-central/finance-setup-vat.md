@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953689"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030154"
 ---
 # <a name="set-up-value-added-tax"></a>Ställa in moms
 Konsumenter och företag betalar moms när de köper varor eller tjänster. Momsbeloppet att betala kan variera beroende på flera faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] ställer du in moms för att ange de satser som ska användas för beräkning av momsbelopp baserat på följande:
@@ -116,28 +116,6 @@ I följande avsnitt beskrivs hur du tilldelar momsbokföringsmallar till enskild
 * På kortet **Resurs** expanderar du snabbfliken **Fakturering**.  
 3. Välj produktbokföringsmallen med moms.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Ställa in momsrapportmallar och momsrapportnamn
-Skattemyndigheterna kan och ändrar sina krav för bokföring av moms. Momsrapportmallar och momsrapportnamn kan hjälpa dig att förbereda dig inför kommande ändringar och göra övergången till de nya kraven smidigare. Du kan använda momsrapportmallar för att definiera vilka fält som ska tas med i momsrapporten, som i sin tur definierar beräkningarna, och du kan skapa en ny momsrapportmall när kraven ändras. Exempelvis en mall kan beräkna moms för detta år baserat på nuvarande krac och en annan kan beräkna moms baserat på kraven för nästa år. Mallar är också ett sätt att hålla en historik med momsrapportformat, till exempel så att du kan se tillbaka för att se hur du beräknar moms i föregående år.
-
-## <a name="to-define-a-vat-statements"></a>Definiera momsrapporter
-Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd period (t.ex. ett kvartal).
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Momsrapporter** och välj sedan relaterad länk.  
-2. Välj fältet **namn** och välj sedan **nytt** på sidan **Momsrapportnamn**.
-3. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> Du kan filtrera informationen som utdraget innehåller, beroende på vad du väljer fältet **typ**. **Kontosummering** är användbar när du vill att moms från ett visst konto.
-**Momstrans.summering** får moms från konton som är kopplade till markeringar i fälten **Typ av bokföring**, **Moms rörelsebokf.mall**, och/eller **Moms, produktbokföringsmall**. **Radsummering** kan du skriva in ett värde eller snabb filterkriterierna i fältet **Radsummering**. Mer information om sökning och filtrering finns i [Söka, filtrera och sortera data](ui-enter-criteria-filters.md). **Beskrivning** används ofta för att lägga till en anteckning i uttrycket. Exempelvis kan du använda den som en rubrik när du har använt radsummering.
-
-## <a name="to-preview-the-vat-statement"></a>Förhandsgranska momsrapporten
-När du har definierat en momsrapport kan förhandsgranska du den och kontrollera att det uppfyller dina behov.
-
-1. Välj **förhandsgranskning**.
-2. Du begränsar rapporten till en viss period genom att ange ett datumfilter. För mer information om hur du anpassar sidan så att datumfiltret visas,, se [Söka, filtrera och sortera data](ui-enter-criteria-filters.md).
-3. Du kan välja flera olika alternativ för att definiera vilken typ av momstransaktioner som ska tas med i rapporten.
-4. På de rader där fältet **Typ** innehåller **Momstrans.summering** kan du visa en lista över momstransaktioner genom att välja beloppet i fältet **Kolumnbelopp**.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Skapa satser som förklarar momsbefrielse eller icke-standardiserade momssatser
 Du konfigurerar en momsklausul som beskriver information om vilken typ av moms som tillämpas. Informationen kan krävas av Myndighetsregleringar. När du registrerar en momsklausul och associera den med en momsbokföringsinställning, visas momsklausulen på alla utskrivna försäljningsdokument som använder momsbokföringsinställningsmallen.
 
@@ -178,24 +156,6 @@ Så här anger du koder för importmoms:
 5. I fältet **Momsberäkningstyp**väljer du **enbart moms**.  
 6. Ange det redovisningskonto som ska användas för att bokföra importmoms i fältet **Ingående moms**. Alla andra konton är valfria.  
 
-## <a name="to-verify-vat-registration-numbers"></a>Kontrollera momsregistreringsnummer
-Det är viktigt att momsregistreringsnummer för kunder, leverantörer och kontakter är giltiga. Till exempel ändrar företag sin skatteskuldstatus och i vissa länder kan skattemyndigheterna be dig lämna rapporter som t.ex. EG-försäljningslisterapport som anger de momsregistreringsnummer som du använder när du gör affärer.
-
-Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spara dig det steget och låter dig använda VIES-tjänsten för verifiering och spåra momsregistreringsnummer för kunder, leverantörer och kontakter direkt från kund-, leverantörs- och kontaktkort. Tjänsten i [!INCLUDE[d365fin](includes/d365fin_md.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig på sidan **Anslutningar till tjänst**, och du kan börja använda den direkt. Registrering behövs inte och tjänsten är gratis.
-
-> [!Note]
-> Om du vill aktivera valideringstjänsten för EU momsreg.nr. måste du ha administratörsrättigheter.
-
-När du använder vår tjänst registrerar vi en historik över momsregistreringsnummer och kontroller för varje kund, leverantör eller kontakt i **momsregistreringslogga**, så att du enkelt kan spåra dem. Loggen är unik för varje kund. Loggen är användbar för att verifierat att det aktuella momsregistreringsnumret är korrekt. När du verifierar ett momsregistreringsnummer kommer kolumnen **begär ID** i loggen att visa att du har vidtagit åtgärder.
-
-Du kan se momsregistreringsloggen på kund-, leverantör- eller kontaktkorten på snabbfliken **fakturering** genom att välja sökknappen i **Momsregistreringsnr.**  
-
-Tjänsten kan också spara tid när du skapar en kund eller leverantör. Om du känner till kundens momsregistreringsnummer kan du ange det i fältet **Momsregistreringsnr** på korten för kunden eller leverantören, och vi ska fylla i kundens namn åt dig. Vissa länder har dessutom företagsadresser i ett strukturerat format. I dessa länder fyller vi även i addressen.  
-
-Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
-
-* Den här tjänsten använder http-protokoll, vilket betyder att data som har överförts via tjänsten inte har krypteras.  
-* Det kan uppstå avbrott för den här tjänsten som inte Microsoft ansvarar för. Tjänsten är en del av ett omfattande EU-nätverk av nationella register för moms.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Använda omvänd moms för handel mellan länder/regioner inom EU
 En del företag måste använda omvänd moms när de handlar med andra företag. Regeln gäller för inköp från länder/regioner inom EU och försäljning till länder/regioner inom EU.  
@@ -219,61 +179,16 @@ När du bokför en försäljning till en kund i ett annat land eller en annan re
 ## <a name="understanding-vat-rounding-for-documents"></a>Förstå momsavrundning för dokument
 Belopp i dokument som ännu inte har bokförts avrundas och visas på ett sätt som motsvarar den slutliga avrundningen av belopp som faktiskt bokförs. Moms beräknas för ett färdigt dokument, vilket innebär att moms som beräknas baseras på summan av alla rader med samma moms-id i dokumentet.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Förstå konverteringen av momssatsen  
-Verktyget för momsändring utför momssatskonvertering för huvuddata, journaler och order på olika sätt. De valda huvuddata och journalerna uppdateras med den nya allmänna produktbokföringsmallen eller produktbokföringsmallen för moms. Om en order har levererats helt eller delvis, kommer de levererade artiklarna behålla den aktuella produktbokföringsmallen eller produktbokföringsmallen för moms. En ny orderrad skapas för de olevererade artiklarna och uppdateras för att stämma med den nuvarande och nya momsen eller allmänna produktbokföringsmallen. Dessutom ska artikelomkostnadsfördelningar, reservationer och artikelspårningsinformation uppdateras.  
 
-Det finns dock några saker som inte räknar om verktyget:
 
-* Försäljnings- eller inköpsorder och fakturor där leveranser har bokförts. Dessa dokumentet bokförs med hjälp av den aktuella momssatsen.  
-* Dokument som har bokförda förskottsfakturor. Du har till exempel gjort eller tagit emot förskottsbetalningar för fakturor som inte har slutförts innan du använder ändringsverktyget för momssats. I det här fallet blir det en differens mellan momsen som har förfallit och momsen som har betalats i förskottsbetalningar när fakturan har slutförts. Ändringsverktyget för momssats hoppar över dessa dokument och du måste uppdatera dem manuellt.  
-* Direktleveranser eller specialorder  
-* Försäljnings- eller inköpsorder med lagerintegration om de är delvis levererade eller mottagna.  
-* Servicekontrakt  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Så här förbereder du konverteringar av momssatser  
-Innan du skapar ändringsverktyget för momssats, måste du göra följande förberedelser.
-
-* Om du har transaktioner som används olika satser måste de delas upp i olika grupper, antingen genom att skapa nya redovisningskonton för varje sats eller genom att använda datafilter för att gruppera transaktioner efter sats.  
-* Om du skapar nya redovisningskonton, måste du skapa nya generella bokföringsmallar.  
-* Om du vill reducera antalet dokumentet som konverteras, bokför så många dokument som möjligt och minska ej bokförda dokument till en minimum.  
-* Säkerhetskopiera data.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Så här ställer du in ändringsverktyget för momssats  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för ändring av momssats** och välj sedan relaterad länk.  
-2. På snabbflikarna **Huvuddata**, **Journaler** och **Dokument**, välj en bokföringsmall i alternativlistan för nödvändiga fält.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Så här skapar du konvertering av produktbokföringsmallar  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för ändring av momssats** och välj sedan relaterad länk.  
-2. På sidan **Inställningar för ändring av momssats** väljer du åtgärden **Moms prod.bokf.mall, konv.** eller **Produktbokföringsmall, konv**.  
-3. I fältet  **Från kod**, ange den aktuella bokföringsmallen.  
-4. I fältet **Till kod** anger du den nya bokföringsgruppen.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Utföra konvertering för ändring av momssats  
-Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen för moms. Du utför moms och generella bokföringsmallkonverteringar för att ändra momssatser och underhålla exakt momsrapportering. Beroende på inställningen görs följande ändringar:  
-
-* Moms- och bokföringsmallar konverteras.  
-* Ändringar genomförs i redovisningskonton, kunder, leverantörer, öppna dokument, journalrader, o.s.v.  
-
-> [!IMPORTANT]  
->  Innan du utför konverteringen av momssats, kan du testa konverteringen. Följ instruktionerna nedan för att göra det, men du måste avmarkera **utför konvertering** och **Ändringsverktyget för momssats har slutförts**. Under testkonverteringen avmarkerades fältet **konverterad** i tabellen **Ändringsloggtransaktion för momssats** och fältet **konverteras datum** i tabellen **Ändringsloggtransaktion för momssats** är tom. Välj **Ändringsloggtransaktion för momssats** för att visa resultatet av testkonverteringen. Kontrollera varje transaktion, innan du utför konverteringen. Kontrollera särskilt transaktioner som använder en gammal momssats.     
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ändring av momssats** och väljer sedan länken **Inställningar för ändring av momssats**.  
-2. Kontrollera att du har ställt in konverteringen för momsproduktbokföringsmall eller produktbokföringsmall.  
-3. Markera kryssrutan **utför konvertering**.  
-
-    > [!IMPORTANT]  
-    >  Avmarkera kryssrutan **Ändringsverktyget för momssats har slutförts**. Kryssrutan markeras automatiskt, när konverteringen av momssats slutförs.  
-
-4. Välj åtgärden **Konvertera**.  
-5. Välj åtgärden **Ändringsloggtransaktion för momssats** för att visa resultatet av konverteringen.  
-
-> [!IMPORTANT]  
->  När konverteringen är klar markeras fältet **konverterad** i tabellen **Ändringsloggtransaktion för momssats** och **konverteras datum** i den **Ändringsloggtransaktion för momssats** fylls i med konverteringsdatumet.  
+## <a name="see-also"></a>Se även
+[Ställa in momsrapportmallar och momsrapportnamn](finance-how-setup-vat-statement.md)   
+[Ställa in orealiserad mervärdesskatt (moms)](finance-setup-unrealized-vat.md)      
+[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)      
+[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)    
+[Arbeta med ändringsverktyget för momssats](finance-how-use-vat-rate-change-tool.md)    
+[Kontrollera momsregistreringsnummer](finance-how-validate-vat-registration-number.md)  
+[Lokal funktionalitet i Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Se även  
-[Ställa in orealiserad mervärdesskatt (moms)](finance-setup-unrealized-vat.md)      
-[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
-[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-[Lokal funktionalitet i Business Central](about-localization.md)

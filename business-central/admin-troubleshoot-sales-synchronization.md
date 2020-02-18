@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304273"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991814"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Felsöka synkroniseringsfel
 Det finns många rörliga delar som används för att integrera [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] och ibland kan det bli fel. I det här avsnittet beskrivs några vanliga fel som uppstår och du får tips om hur du åtgärdar dem.
@@ -37,6 +37,16 @@ Du måste lösa felen manuellt, men det finns ett par sätt på vilka sidan kan 
 
 * Fälten **Källa** och **mål** kan innehålla länkar till posten där felet hittades. Klicka på länken för att öppna posten och undersöka felet.  
 * Åtgärderna **Ta bort transaktioner som är äldre än 7 dagar** och **Ta alla transaktioner** rensar listan. Vanligtvis använder du dessa åtgärder när du har löst orsaken till ett fel som påverkar många poster. Var försiktig. De här åtgärderna kan ta bort fel som fortfarande är relevanta.
+
+Ibland kan tidsstämplar för poster orsaka konflikter. Tabellen "CRM-integreringspost" behåller tidsstämplarna "Senast synkad ändrad den" och "Senast synkad CRM ändrad den" för den senaste integrationen som gjordes i båda riktningarna för en post. Dessa tidsstämplar jämförs med tidsstämplar på Business Central- och Sales-poster. I Business Central finns tidstämpeln i tabellen Integrationspost.
+
+Du kan filtrera efter poster som ska synkroniseras genom att jämföra posttidsstämplar i tabellen "Tabellmappning för integrering" i fälten "Synk. ändrad i filter" och "Synk. int.tabell, ändrad i filter".
+
+Konfliktfelmeddelandet "Det går inte att uppdatera kundposten eftersom den har ett senare ändringsdatum än kontoposten" eller "Det går inte att uppdatera kontoposten eftersom den har ett senare ändringsdatum än kundposten" kan inträffa om en post har en tidstämpel som större än IntegrationTableMapping."Synk. ändrad i filter" men den inte är senare än tidsstämpeln på försäljningsintegrationsposten. Det innebär att källposten har synkroniserats manuellt, inte av jobbkötransaktionen. 
+
+Konflikten beror på att målposten också har ändrats – postens tidsstämpel är senare än tidsstämpeln för försäljningsintegrationsposten. Målkontrollen sker bara för dubbelriktade tabeller. 
+
+De här posterna flyttas nu till sidan "Hoppade över Synkronisera poster" som du öppnar från sidan för Microsoft Dynamics-anslutningsinställningar i Business Central. Där kan du ange vilka ändringar som ska behållas och sedan synkronisera posterna igen.
 
 ## <a name="see-also"></a>Se även
 [Integrera med [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  

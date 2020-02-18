@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 79fe847cdfaef12c16ce972ec20f3213f0af352a
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692830"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999717"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurera datautbyte
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Dessutom måste du ställa in relaterade områden, till exempel kunder som du skickar elektroniska fakturor till, eller tillägget AMC Banking 365 Fundamentals om du använder den externa tjänstleverantören för att konvertera dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
@@ -40,6 +40,5 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 
 ## <a name="see-also"></a>Se även  
 [Utbyta data elektroniskt](across-data-exchange.md).  
-[Utbyta data](across-exchange-data.md)   
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954014"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991934"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.
@@ -32,6 +32,9 @@ Förutom den ursprungliga bokförda försäljningsfakturan kan du koppla försä
 Du kan skicka den bokförda försäljningskreditnotan till kunden för att bekräfta returen eller avbryt och att meddela att det relaterade värdet ska ersättas, till exempel när artiklar returneras.
 
 Bokföringen av kreditnota återställer även eventuella kostnader som har tilldelats det bokförda dokumentet så att artikelns värdetransaktioner är samma som innan artikelkostnaden har tilldelats.
+
+> [!NOTE]
+> De bokföringsaspekter som gäller för försäljningsreturer, till exempel betalningar till kunder som återbetalning, betraktas som bokföringsarbete och beskrivs inte här. Mer information finns i [Hantera leverantörsskulder](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Lagerkostnad
 Om du vill behålla rätt lagervärdering vill du vanligtvis föra tillbaka de returnerade artiklarna i lagret till den styckkostnad som de såldes för, inte till deras aktuella styckkostnad. I programmet kallas detta för exakt kostnadsåterföring.
@@ -220,5 +223,6 @@ Du kan också ta bort enskilda försäljningsreturorder manuellt.
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
+[Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

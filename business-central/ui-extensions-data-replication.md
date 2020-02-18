@@ -1,37 +1,37 @@
 ---
-title: Business Central intelligent moln-tillägg | Microsoft Docs
-description: Använd detta tillägg för datareplikering för att skapa en molnkopia av dina data så att du är ansluten till intelligent moln.
-author: edupont04
-manager: edupont
+title: Business Central Intelligent moln-tillägg för molnmigrering | Microsoft Docs
+description: Använd tilläggen för molnmigrering för att migrera lokala data till Business Central online. Dessa tillägg flyttar dina lokala data till molnet så att du kan använda Business Central online med befintliga data.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311314"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999601"
 ---
 # <a name="intelligent-cloud-extensions"></a>Tilläggen intelligent moln
 
-Detta tillägg kommer att ansluta dina data från [!INCLUDE [prodshort](includes/prodshort.md)] lokalt med [!INCLUDE [prodshort](includes/prodshort.md)] online för intelligenta insikter.  
+Det här tillägget ansluter dina data från lokal [!INCLUDE [prodshort](includes/prodshort.md)] med [!INCLUDE [prodshort](includes/prodshort.md)] online för att migrera dina lösningar till molnet.  
 
-Om du använder någon av produkterna som stöds på plats kan du konfigurera du intelligenta molnmiljön utifrån ett produktspecifikt tillägg. När din intelligenta moln-miljö har konfigurerats kan du kan replikera data från din lokala lösning på din [!INCLUDE[prodshort](includes/prodshort.md)] klientorganisationen i molnet. Detta gör att du kan utnyttja vad molnet har att erbjuda ditt företag till fullo, till exempel bättre insyn i verksamheten, artificiell intelligens, åtkomst av flera enheter och åtkomst när som helst, var som helst.  
+Om du använder någon av de lokala produkterna som stöds kan du konfigurera den intelligenta molnmiljön utifrån ett produktspecifikt tillägg. När din molnmiljö har konfigurerats kan du kan migrera data från din lokala lösning till [!INCLUDE[prodshort](includes/prodshort.md)]. Detta gör att du kan utnyttja vad molnet har att erbjuda ditt företag till fullo, till exempel bättre insyn i verksamheten, artificiell intelligens, åtkomst av flera enheter och åtkomst när som helst, var som helst.  
 
 ## <a name="business-central-on-premises"></a>Business Central lokalt
-Om du använder en lokal distribution av [!INCLUDE[prodshort](includes/prodshort.md)], skaffa tillägget **Intelligent moln-bas** och tillägget **Business Central intelligent moln** och kör sedan assisterad inställningsguide för **Konfiguration av intelligent moln**.  
+Om du använder en lokal distribution av [!INCLUDE[prodshort](includes/prodshort.md)], skaffa tillägget **Intelligent moln-bas** och tillägget **Business Central Intelligent moln** och kör sedan guiden assisterad konfiguration för **Konfiguration av molnmigrering**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
-Om du använder Dynamics GP får du tillägget **intelligent moln-bas**, tillägget **Dynamics GP datamigrering** och **Dynamics GP intelligent moln** och och kör sedan assisterad inställningsguide för **Konfiguration av intelligent moln**.  
+Om du använder Dynamics GP, skaffa **Tillägget Intelligent moln-bas** och tillägget **Dynamics GP Intelligent moln** och kör sedan den assisterade konfigurationsguiden **Konfiguration av molnmigrering**.  
 
-## <a name="dynamics-nav"></a>Dynamics NAV
-Om du använder en lokal distribution av Dynamics NAV, skaffa tillägget **Intelligent moln-bas** och tillägget **Dynamics NAV Intelligent moln** och kör sedan assisterad inställningsguide för **Konfiguration av intelligent moln**.  
+## <a name="dynamics-sl"></a>Dynamics SL
+Om du använder Dynamics SL, skaffa **Tillägget Intelligent moln-bas**, tillägget **Microsoft Dynamics SL Intelligent moln** och tillägget **Microsoft Dynamics SL SmartLists för historik** och kör sedan den assisterade konfigurationsguiden **Konfiguration av molnmigrering**.  
 
 ## <a name="see-also"></a>Se även
 

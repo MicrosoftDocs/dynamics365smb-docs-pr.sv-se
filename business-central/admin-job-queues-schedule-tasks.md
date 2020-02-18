@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879208"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999789"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 Med jobbköer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Du kanske till exempel vill köra rapporten **Säljare försäljningsstatistik** varje vecka, för att spåra försäljningen per säljare under en vecka, eller så kanske du vill köra kodenheten **E-postkö för bearbetningstjänst** dagligen, för att vara säker på att aktuella e-postmeddelanden till kunder angående deras serviceorder skickas ut i tid.
@@ -31,6 +31,11 @@ Detta åstadkommer du genom att ställa in jobbkön till att köra olika batch-b
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder bokföring i bakgrunden för alla försäljnings-, inköps- och servicedokument.
 
+> [!NOTE]
+> Vissa jobb ändrar samma data och bör inte köras samtidigt på grund av att det kan orsaka konflikter. Bakgrundsjobb för försäljningsdokument kommer till exempel att försöka ändra samma data på samma gång. Jobbkökategorier förhindrar dessa typer av konflikter genom att säkerställa att ett annat jobb som tillhör samma jobbkö inte körs förrän det är klart. Till exempel väntar ett jobb som tillhör en försäljningsjobbkökategori tills alla andra relaterade försäljningsjobb är klara. Du anger en kategori för jobbkö på snabbfliken **Bakgrundsbokföring** på sidan **Försäljningsinställningar**. 
+> 
+> I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns jobbkökategorier för försäljnings-, inköps- och redovisningsbokföring. Du bör alltid ange en av dessa, eller en som du själv skapar. Om du upplever fel på grund av konflikter kan du lägga upp en kategori för all bakgrundsbokföring av försäljning, inköp och redovisning.
+
 Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. Momenten är liknande för inköp och en service.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
@@ -41,7 +46,7 @@ Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. Mo
 4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.
 5. På sidan **jobbkötransaktioner** väljer du åtgärden **ny**.
 6. I fältet **objekttyp som ska köras** väljer du **Codeunit**.  
-7. I fältet **Objekt-ID som ska köras** väljer du 88, **försäljningspost via jobbkö**.
+7. I fältet **Objekt-ID som ska köras** väljer du **88**. I fälten Beskrivning och Objektnamn att köra visas försäljningsbokföring via jobbkö.
 
     Inga andra fält som är relevanta för det här scenariot.
 8. Välj åtgärden **Ställ in status till klar**.

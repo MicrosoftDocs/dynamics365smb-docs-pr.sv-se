@@ -1,6 +1,6 @@
 ---
 title: Migrera Data från Dynamics GP med tillägget Data Migration | Microsoft Docs
-description: Använda tillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP till Business Central.
+description: Använd tillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP till Business Central.
 documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311290"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992151"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Tillägget Dynamics GP datamigrering 
 Detta tillägg gör det enkelt att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP [!INCLUDE[prodshort](includes/prodshort.md)]. Om ditt företag använder Dynamics GP i dag, kan du exportera nödvändiga poster och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[prodshort](includes/prodshort.md)]. Tillägget Migrering fungerar för alla versioner av Microsoft Dynamics GP. Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  Det här tillägget kommer att vara inaktuellt i 15.3-uppdateringen. Vi rekommenderar användare som vill migrera från Dynamics GP att börja använda guiden **molnmigrering** i stället. Tillägget **Molnmigrerin** har stabilare funktionalitet och tar mer data till Business Central från Dynamics GP.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportera data från Dynamics GP
 Du måste ha exporterat några av dina befintliga kunder, leverantörer, lagerartiklar och redovisningskonton med hjälp av funktionen dataexport i Dynamics GP. Du kan välja följande typer när du väljer data som ska exporteras:
