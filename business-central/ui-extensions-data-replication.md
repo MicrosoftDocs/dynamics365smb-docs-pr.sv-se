@@ -1,39 +1,39 @@
 ---
-title: Business Central intelligent moln-tillägg | Microsoft Docs
-description: Använd detta tillägg för datareplikering för att skapa en molnkopia av dina data så att du är ansluten till intelligent moln.
-author: edupont04
-manager: edupont
+title: Business Central Intelligent moln-tillägg för molnmigrering | Microsoft Docs
+description: Använd tilläggen för molnmigrering för att migrera lokala data till Business Central online. Dessa tillägg flyttar dina lokala data till molnet så att du kan använda Business Central online med befintliga data.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311314"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999601"
 ---
-# <a name="intelligent-cloud-extensions"></a><span data-ttu-id="465cf-103">Tilläggen intelligent moln</span><span class="sxs-lookup"><span data-stu-id="465cf-103">Intelligent Cloud Extensions</span></span>
+# <a name="intelligent-cloud-extensions"></a><span data-ttu-id="48a8d-104">Tilläggen intelligent moln</span><span class="sxs-lookup"><span data-stu-id="48a8d-104">Intelligent Cloud Extensions</span></span>
 
-<span data-ttu-id="465cf-104">Detta tillägg kommer att ansluta dina data från [!INCLUDE [prodshort](includes/prodshort.md)] lokalt med [!INCLUDE [prodshort](includes/prodshort.md)] online för intelligenta insikter.</span><span class="sxs-lookup"><span data-stu-id="465cf-104">This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent insights.</span></span>  
+<span data-ttu-id="48a8d-105">Det här tillägget ansluter dina data från lokal [!INCLUDE [prodshort](includes/prodshort.md)] med [!INCLUDE [prodshort](includes/prodshort.md)] online för att migrera dina lösningar till molnet.</span><span class="sxs-lookup"><span data-stu-id="48a8d-105">This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.</span></span>  
 
-<span data-ttu-id="465cf-105">Om du använder någon av produkterna som stöds på plats kan du konfigurera du intelligenta molnmiljön utifrån ett produktspecifikt tillägg.</span><span class="sxs-lookup"><span data-stu-id="465cf-105">If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension.</span></span><span data-ttu-id="465cf-106"> När din intelligenta moln-miljö har konfigurerats kan du kan replikera data från din lokala lösning på din [!INCLUDE[prodshort](includes/prodshort.md)] klientorganisationen i molnet.</span><span class="sxs-lookup"><span data-stu-id="465cf-106"> Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="465cf-107">Detta gör att du kan utnyttja vad molnet har att erbjuda ditt företag till fullo, till exempel bättre insyn i verksamheten, artificiell intelligens, åtkomst av flera enheter och åtkomst när som helst, var som helst.</span><span class="sxs-lookup"><span data-stu-id="465cf-107">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
+<span data-ttu-id="48a8d-106">Om du använder någon av de lokala produkterna som stöds kan du konfigurera den intelligenta molnmiljön utifrån ett produktspecifikt tillägg.</span><span class="sxs-lookup"><span data-stu-id="48a8d-106">If you are using one of the supported on-premises products, you can configure your cloud environment based on a product-specific extension.</span></span><span data-ttu-id="48a8d-107"> När din molnmiljö har konfigurerats kan du kan migrera data från din lokala lösning till [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="48a8d-107"> Once your cloud environment is configured, you will be able to migrate data from your on-premises solution to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span> <span data-ttu-id="48a8d-108">Detta gör att du kan utnyttja vad molnet har att erbjuda ditt företag till fullo, till exempel bättre insyn i verksamheten, artificiell intelligens, åtkomst av flera enheter och åtkomst när som helst, var som helst.</span><span class="sxs-lookup"><span data-stu-id="48a8d-108">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
 
-## <a name="business-central-on-premises"></a><span data-ttu-id="465cf-108">Business Central lokalt</span><span class="sxs-lookup"><span data-stu-id="465cf-108">Business Central on-premises</span></span>
-<span data-ttu-id="465cf-109">Om du använder en lokal distribution av [!INCLUDE[prodshort](includes/prodshort.md)], skaffa tillägget **Intelligent moln-bas** och tillägget **Business Central intelligent moln** och kör sedan assisterad inställningsguide för **Konfiguration av intelligent moln**.</span><span class="sxs-lookup"><span data-stu-id="465cf-109">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="business-central-on-premises"></a><span data-ttu-id="48a8d-109">Business Central lokalt</span><span class="sxs-lookup"><span data-stu-id="48a8d-109">Business Central on-premises</span></span>
+<span data-ttu-id="48a8d-110">Om du använder en lokal distribution av [!INCLUDE[prodshort](includes/prodshort.md)], skaffa tillägget **Intelligent moln-bas** och tillägget **Business Central Intelligent moln** och kör sedan guiden assisterad konfiguration för **Konfiguration av molnmigrering**.</span><span class="sxs-lookup"><span data-stu-id="48a8d-110">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="dynamics-gp"></a><span data-ttu-id="465cf-110">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="465cf-110">Dynamics GP</span></span>
-<span data-ttu-id="465cf-111">Om du använder Dynamics GP får du tillägget **intelligent moln-bas**, tillägget **Dynamics GP datamigrering** och **Dynamics GP intelligent moln** och och kör sedan assisterad inställningsguide för **Konfiguration av intelligent moln**.</span><span class="sxs-lookup"><span data-stu-id="465cf-111">If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="dynamics-gp"></a><span data-ttu-id="48a8d-111">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="48a8d-111">Dynamics GP</span></span>
+<span data-ttu-id="48a8d-112">Om du använder Dynamics GP, skaffa **Tillägget Intelligent moln-bas** och tillägget **Dynamics GP Intelligent moln** och kör sedan den assisterade konfigurationsguiden **Konfiguration av molnmigrering**.</span><span class="sxs-lookup"><span data-stu-id="48a8d-112">If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** extension and the **Dynamics GP Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="dynamics-nav"></a><span data-ttu-id="465cf-112">Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="465cf-112">Dynamics NAV</span></span>
-<span data-ttu-id="465cf-113">Om du använder en lokal distribution av Dynamics NAV, skaffa tillägget **Intelligent moln-bas** och tillägget **Dynamics NAV Intelligent moln** och kör sedan assisterad inställningsguide för **Konfiguration av intelligent moln**.</span><span class="sxs-lookup"><span data-stu-id="465cf-113">If you are using Dynamics NAV, get the **Intelligent Cloud Base Extension** extension and the **Dynamics NAV Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.</span></span>  
+## <a name="dynamics-sl"></a><span data-ttu-id="48a8d-113">Dynamics SL</span><span class="sxs-lookup"><span data-stu-id="48a8d-113">Dynamics SL</span></span>
+<span data-ttu-id="48a8d-114">Om du använder Dynamics SL, skaffa **Tillägget Intelligent moln-bas**, tillägget **Microsoft Dynamics SL Intelligent moln** och tillägget **Microsoft Dynamics SL SmartLists för historik** och kör sedan den assisterade konfigurationsguiden **Konfiguration av molnmigrering**.</span><span class="sxs-lookup"><span data-stu-id="48a8d-114">If you are using Dynamics SL, get the **Intelligent Cloud Base Extension** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History Smartlists** extension, and then run the **Cloud Migration Setup** assisted setup guide.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="465cf-114">Se även</span><span class="sxs-lookup"><span data-stu-id="465cf-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48a8d-115">Se även</span><span class="sxs-lookup"><span data-stu-id="48a8d-115">See Also</span></span>
 
-[<span data-ttu-id="465cf-115">Intelligenta insikter</span><span class="sxs-lookup"><span data-stu-id="465cf-115">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="465cf-116">Tillägget intelligent moln-bas</span><span class="sxs-lookup"><span data-stu-id="465cf-116">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
+[<span data-ttu-id="48a8d-116">Intelligenta insikter</span><span class="sxs-lookup"><span data-stu-id="48a8d-116">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="48a8d-117">Tillägget intelligent moln-bas</span><span class="sxs-lookup"><span data-stu-id="48a8d-117">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
