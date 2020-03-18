@@ -44,7 +44,7 @@
     </Node>
     <Node Name="" DisplayName="Ställa in bank" Page="bank-setup-banking.html">
       <Node Name="" DisplayName="Så här skapar du bankkonton" Page="bank-how-setup-bank-accounts.html"/>
-      <Node Name="" DisplayName="Så här ställer du in tjänsten bankdatakonvertering" Page="bank-how-setup-bank-data-conversion-service.html"/>
+      <Node Name="" DisplayName="Så här konfigurerar du tillägget AMC Banking 365 Fundamentals" Page="bank-how-setup-bank-data-conversion-service.html"/>
     </Node>
     <Node Name="" DisplayName="Konfigurera försäljning" Page="sales-setup-sales.html">
       <Node Name="" DisplayName="Så här registrerar du nya kunder" Page="sales-how-register-new-customers.html"/>

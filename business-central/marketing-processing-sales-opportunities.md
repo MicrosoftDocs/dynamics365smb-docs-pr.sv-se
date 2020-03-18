@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308804"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076593"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
@@ -27,9 +27,9 @@ De befintliga försäljningsmöjligheterna finns på sidan **Affärsmöjlighetsl
 
 | Visa affärsmöjligheter för | Då |
 | --- | --- |
-| Alla säljare och kontakter |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Affärsmöjlighetslista** och välj sedan relaterad länk. |
-| En viss säljare |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Säljare** och välj sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
-| En viss kontakt |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
+| Alla säljare och kontakter |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk. |
+| En viss säljare |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Säljare** och välj sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
+| En viss kontakt |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
 
 Var och en av dessa uppgifter öppnar sidan **Affärsmöjlighetslista**.
 
@@ -50,7 +50,7 @@ Du kan skapa försäljningsofferter för kontakter som inte är registrerade som
 2. Fyll i relevanta fält.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Skapa försäljningsorder för affärsmöjligheter
-Du kan skapa order från förs.offerter som du har skapat för affärsmöjligheter. Innan du kan skapa försäljningsorder till kontakterna måste du ska kontakten som en kund. Mer information finns i [Skapa en företagskontakt från kund, leverantör eller bankkonto från en kontakt](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Du kan skapa order från förs.offerter som du har skapat för affärsmöjligheter. Innan du kan skapa försäljningsorder till kontakterna måste du ska kontakten som en kund. Mer information finns i [Skapa kontakter](marketing-create-contact-companies.md).
 
 1. Sök efter den affärsmöjligheten som du har skapat en försäljningsoffert för på sidan **Affärsmöjlighetslista**.
 2. Välj åtgärden **Skapa försäljningsoffert**. Sidan **Förs.offert** öppnas och visar den förs.offert som du har tilldelat affärsmöjligheten.
@@ -65,7 +65,7 @@ Om du vill ta bort avslutade affärsmöjligheter från sidan **Affärsmöjlighet
 
 Gör följande steg om du vill ta bort avslutade affärsmöjligheter med batch-jobbet **Ta bort avslutade affärsmöjligheter**:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Ta bort affärsmöjligheter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort affärsmöjligheter** och välj sedan relaterad länk.
 2. I avsnittet **Affärsmöjlighet** ställer du in de filter som anger den avslutade affärsmöjligheten som ska tas bort.
 3. Välj **OK**.
 

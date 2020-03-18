@@ -1,20 +1,20 @@
 ---
 title: Utbildningskatalog för funktionskonsulter
-description: Utbildningskatalog för funktionskonsulter
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+description: Hitta alla tillgänglig utbildning för Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: a9c0ba279a61bb2c09fbc221c4f1772229fe52e2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: fa3ec715fdf018ff73a9560c1aa32167cdf11764
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767827"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097557"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Utbildningskatalog för funktionskonsulter
+
+Är du implementeringsexpert för en företagsdomän?
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov. 
 

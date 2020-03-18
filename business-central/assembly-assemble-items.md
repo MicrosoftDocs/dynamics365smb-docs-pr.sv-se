@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953881"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097726"
 ---
 # <a name="assembly-management"></a>Monteringshantering
 För att hantera företag som levererar till produkter till kunder genom att slå ihop komponenter i enkla processer utan behov av produktionsfunktionen, innehåller [!INCLUDE[d365fin](includes/d365fin_md.md)] funktionen för att sammanställa artiklar som integreras med befintliga funktioner, till exempel försäljning, planering, reservationer och lagerhantering.  
 
  En monteringsartikel definieras som en säljbar artiklar som innehåller en monteringsstruktur. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
- Monteringsorder är den interna order, som en produktionsorder, som används för att hantera monteringsprocessen och för att koppla försäljningskraven med relevanta lageraktiviteter. Monteringsorder skiljer sig från andra ordertyper, eftersom de avser både förbrukning och utflöde, när de bokförs. Monteringsorderhuvudet reagerar på samma sätt som en orderrad, och monteringsorderrader reagerar på samma sätt som förbrukningsjournalrader.  
+ Monteringsorder är den interna order, som en produktionsorder, som används för att hantera monteringsprocessen och för att koppla försäljningskraven med relevanta lageraktiviteter. Monteringsorder skiljer sig från andra ordertyper, eftersom de avser både förbrukning och utflöde, när de bokförs. Monteringsorderhuvudet reagerar på samma sätt till en utflödesjournalrad och monteringsorderrader reagerar på samma sätt som förbrukningsjournalrader.  
 
  För att stödja en just-i-tid-lagerstrategi och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleveransen gör att försäljningsorderhandläggare kan anpassa monteringsartikeln löpande, ge löfte om leveransdatum enligt komponentdisposition och att bokföra utflödet och utleveransen av monterade artiklar direkt monterad utifrån försäljningsorder gränssnitt. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Lära dig mer om skillnaden mellan monteringsstrukturer och produktionsstrukturer och de berörda bearbeta skillnaderna.|[Arbeta med strukturer](inventory-how-work-BOMs.md)|
 |Lära dig hur tillverkningsförbrukning och utflöde hanteras, när du bokför monteringsorder och utifrån hur artikel och resurskostnaderna är behandlats och biztalk-dokumenten distribueras till redovisningen.|[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  

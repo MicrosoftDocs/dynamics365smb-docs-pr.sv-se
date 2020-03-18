@@ -1,21 +1,20 @@
 ---
 title: Utbildningskatalog för utvecklare
-description: Utbildningskatalog för utvecklare
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/19/2019
+description: Hitta alla tillgängliga verktyg för Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.reviewer: margoc
-ms.author: solsen
-ms.openlocfilehash: cdca386a3feb505364152b831d3e105b94db6c43
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.author: v-lshann
+ms.openlocfilehash: 05c2f4426f8d84f5e478a7ca7f63bd6ab64eeb6a
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832245"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097846"
 ---
-# <a name="developer-learning-catalog"></a>Utbildningskatalog för utvecklare
+# <a name="developers-learning-catalog"></a>Utbildningskatalog för utvecklare
+
+Behöver du skriva kod för att kunna integrera med andra datakällor, utöka funktionaliteten hos kärnsystemet eller bygga ett komplicerat program?
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov. 
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880598"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076520"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
@@ -46,7 +46,7 @@ All efterfrågan och tillgång före startdatumet för planeringsperioden anses 
 
 Med andra ord antas att planen för det tidigare har körts enligt den angivna planen.  
 
-Mer information finns i [Designdetaljer: Hantera order före planeringsstartdatumet](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Mer information finns i [Hantera order före planeringsstartdatumet](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk orderspårning (pegging)  
 Dynamisk orderspårning, med sitt samtidiga skapande av åtgärdsmeddelanden i planeringsförslaget, är inte en del av leveransplaneringssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den här funktionen länkar, i realtid, behovet och det antal som kan täcka det när en ny efterfrågan eller tillgång registreras eller ändras.  
@@ -76,7 +76,7 @@ Som motsats hanterar planeringssystemet all efterfrågan och tillgång för en v
 
 Efter planeringskörningen återstår inga åtgärdsmeddelanden i tabellen Åtgärdsmeddelandetrans. eftersom de har ersatts med de föreslagna åtgärderna i planeringsförslaget  
 
-Mer information finns i länkarna för orderspårning under planering i [Designdetaljer: Balansera tillgång och efterfrågan](design-details-balancing-supply-with-demand.md).  
+Mer information finns i länkarna för orderspårning under planering i [Balansera tillgång och efterfrågan](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Sekvens och prioritet i planering  
 När du upprättar en plan är sekvensen med beräkningarna viktig för att få jobbet gjort inom en rimlig tidsram. Dessutom spelar prioriteringen av krav och resurser en viktig roll för att få de bästa resultatet.  
@@ -90,7 +90,7 @@ I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel 
 
 Figurerna visar i vilken följd systemet gör förslag för leveransorder på högsta nivån och om användaren godkänner dessa kalkylark, även för alla artiklar på lägre nivå.  
 
-Mer information om produktionsavvägningar finns i [Designdetaljer: Läsa in lagerprofilerna](design-details-loading-the-inventory-profiles.md).  
+Mer information om produktionsavvägningar finns i [Läsa in lagerprofilerna](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Lagerställen/Prioritet för överföringsnivå  
 Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivån och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. I det här fallet måste planeringsparametrarna anges per artikel och även per lagerställe.  
@@ -106,14 +106,14 @@ Mer information finns i [Designdetaljer: Planerade överföringar](design-detail
 ### <a name="order-priority"></a>Orderprioritet  
 Inom en given lagerställeenhet representerar det begärda eller tillgängliga datumet den högsta prioriteten. Dagens efterfrågan ska hanteras före kommande dagars efterfrågan. Men förutom någon typ av prioritet, sorteras de olika tillgångs- och efterfråganstyperna enligt affärsbetydelse för att bestämma vilken efterfrågan som ska uppfyllas innan en annan efterfrågan uppfylls. På tillförselsidan avgör orderprioriteten vilken tillgångskälla som ska kopplas innan du kopplar andra tillgångskällor.  
 
-Mer information finns i [Designdetaljer: prioritera order](design-details-prioritizing-orders.md)  
+Mer information finns i [Prioritera order](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Efterfrågeprognoser och avropsorder  
 Både prognoser och avropsorder representerar förutsedd efterfrågan. Avropsorder, som täcker en kunds påtänkta inköp under en viss tidsperiod, fungerar för att minska osäkerheten i den allmänna prognosen. Avropsorder är en kundspecifik prognos utöver för den ospecificerade prognosen som illustreras under.  
 
 ![Planera med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planera med prognoser")  
 
-Mer information finns i avsnittet ”Prognosefterfrågan minskas genom försäljningsorder” i [Designdetaljer: Läsa in lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Mer information finns i avsnittet ”Prognosefterfrågan minskas genom försäljningsorder” i [Läsa in lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Planeringsfördelning  
 Alla artiklar ska planeras för, men det finns ingen anledning att beräkna en plan för en artikel om det inte har skett någon ändring i efterfråge- eller tillgångsmönstret sedan senaste gången som en plan beräknades.  
@@ -171,9 +171,9 @@ Serie-/partinumrerade artiklar utan specifik artikelspårningsinställning kan h
 
 Efterfrågan med serie-/partinummer, specifika eller icke-specifika, anses högprioriterade och är därför undantagna från den frysta zonen, vilket betyder att de ska ingå i planering även om de förfaller före planeringsstartdatumet.  
 
-Mer information finns i avsnittet "Serie-/partinummer läses in efter specifikationsnivå" i [Designdetaljer: Läsa in lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Mer information finns i avsnittet "Serie-/partinummer läses in efter specifikationsnivå" i [Läsa in lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Mer information om hur planeringssystemet balanserar attribut finns i "Serie-/partinummer och order-till-order-länkar är undantagna från den frysta zonen" i [Designdetaljer: Hantera ordrar före startdatum för planering](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Mer information om hur planeringssystemet balanserar attribut finns i [Serie-/partinummer och Order-till-order-länkar är undantagna från den frysta zonen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Order-till-Order-länkar  
 Order-till-order-anskaffning betyder att en artikel köps in, monteras eller produceras för att exklusivt täcka en viss efterfrågan. Vanligtvis gäller det A-artiklar och motiveringen för att välja den här metoden kan vara att efterfrågan är ovanlig, ledtiden är oansenlig eller de obligatoriska attributen varierar.  
@@ -223,14 +223,14 @@ Varningen för nödsituation visas i två olika situationer:
 -   När lagret är negativt på startdatumet för planeringen.  
 -   När det finns antedaterade försörjnings- eller behovshändelser.  
 
-Om lagernivån för en artikel är negativ på startdatumet för planeringen föreslår systemet en nödleverans för det negativa antalet med leverans på startdatumet för planeringen. I varningstexten anges startdatumet och antalet i nödordern. Mer information finns i [Designdetaljer: Hantera planerat negativt lager](design-details-handling-projected-negative-inventory.md).  
+Om lagernivån för en artikel är negativ på startdatumet för planeringen föreslår systemet en nödleverans för det negativa antalet med leverans på startdatumet för planeringen. I varningstexten anges startdatumet och antalet i nödordern. Mer information finns i [Hantera planerat negativt lager](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Eventuella dokumentrader med förfallodatum före startdatumet för planeringen konsolideras i en nödleveransorder för artikeln med leverans på startdatumet för planeringen.  
 
 ### <a name="exception"></a>Undantag  
 Undantagsvarningen visas om det planerade disponibla lagret sjunker under nivån för säkerhetslagret. Planeringssystemet föreslår en leveransorder för att uppfylla behovet på förfallodatumet. I varningstexten framgår vilket antal som gäller för artikelns säkerhetslager och det datum då det understigs.  
 
-Att bryta säkerhetslagrets nivå betraktas som ett undantag eftersom det inte bör inträffa om beställningspunkten har ställts in korrekt. Mer information finns i [Designdetaljer: Ombeställningspunktens roll](design-details-the-role-of-the-reorder-point.md).  
+Att bryta säkerhetslagrets nivå betraktas som ett undantag eftersom det inte bör inträffa om beställningspunkten har ställts in korrekt. Mer information finns i [Ombeställningspunktens roll](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 I allmänhet garanterar exceptionella orderförslag att planerat tillgängligt lager aldrig är lägre än säkerhetslagernivån. Detta innebär dock att det föreslagna antalet bara täcker säkerhetslager, utan att överväga planeringsparametrarna. Dock i alla scenarier ska orderändringsfält övervägas.  
 
@@ -242,7 +242,7 @@ Den här varningen visas i tre olika situationer:
 
 -   Startdatumet för planeringen ligger tidigare än arbetsdatumet.  
 -   Planeringsraden föreslår att en släppt inköps- eller produktionsorder ändras.  
--   Det planerade lagret överstiger överflödesnivån på förfallodatumet. Mer information finns i [Designdetaljer: Hålla sig under överflödesnivån](design-details-staying-under-the-overflow-level.md).  
+-   Det planerade lagret överstiger överflödesnivån på förfallodatumet. Mer information finns i [Hålla sig under överflödesnivån](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  Vid planering av rader med varningar är fältet **Acceptera åtgärdsmeddelande** inte markerat, eftersom planeraren förväntas att undersöka dessa rader innan planen utförs.  

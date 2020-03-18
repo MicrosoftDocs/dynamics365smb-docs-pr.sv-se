@@ -7,40 +7,40 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
+ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ff91eff703f7f490a3c47cd515523f7fca0316e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: c59f51b0ff1651a6f7cf2a1b347684f179bbda53
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911293"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076812"
 ---
-# <a name="set-up-the-bank-data-conversion-service"></a>Ställa in konverteringstjänsten för bankdata
-En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas i [!INCLUDE[d365fin](includes/d365fin_md.md)] för Bankdatakonverteringstjänsten.
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurera tillägget AMC Banking 365 Fundamentals
+En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta kallas [!INCLUDE[d365fin](includes/d365fin_md.md)] för tillägget AMC Banking 365 Fundamentals.
 
-Du kan exportera betalningsrader från sidan **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](payables-how-export-payments-bank-file.md).
+Du kan exportera betalningsrader från sidan **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-Du kan importera bankutdragsfiler på sidan **Betalningsavstämningsjournal** med hjälp av bankdatakonverteringstjänsten för att konvertera en fil som du får från banken till en dataström som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan importera bankutdragsfiler på sidan **Betalningsavstämningsjournal** med hjälp av tillägget AMC Banking 365 Fundamentals för att konvertera en fil som du får från banken till en dataström som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Som ett alternativ till att importera bankutdrag med bankdatakonverteringstjänsten kan du använda tjänsten Envestnet Yodlee Bank Feeds. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Som ett alternativ till att importera bankutdrag med AMC Banking 365 Fundamentals du använda Envestnet Yodlee Bank Feeds-tjänsten. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Om du vill importera eller exportera bankfiler måste du ställa in ditt eget bankkonto och dina leverantörers bankkonton. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
-> Bankdatakonverteringstjänsten kan ha en gräns för antal rader som kan exporteras i en fil. Du får ett felmeddelande om gränsen överskrids. Vi rekommenderar att kontoutdragsfiler inte innehåller fler än 1 000 rader eftersom behandlingstiden i bankdatakonverteringstjänsten annars kan öka markant.
+> Tillägg AMC Banking 365 Fundamentals kan ha en gräns för antal rader som kan exporteras i en fil. Du får ett felmeddelande om gränsen överskrids. Vi rekommenderar att kontoutdragsfiler inte innehåller fler än 1 000 rader eftersom behandlingstiden i tillägg AMC Banking 365 Fundamentals annars kan öka markant.
 
-## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Så här registrerar du ditt företag för tjänsten bankdatakonvertering.
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Så här registrerar du ditt företag för tillägget AMC Banking 365 Fundamentals
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceinställningar för bankdatakonv.** och välj sedan relaterad länk.  
-2. Sidan **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tjänsten för bankdatakonvertering.
+2. Sidan **Serviceinställningar för bankdatakonv.** öppnas med tre fält förifyllda med relevanta URL-adresser till leverantören av tillägg AMC Banking 365 Fundamentals.
 
     > [!NOTE]  
-    >   I CRONUS demodatabas har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för bankdatakonverteringen.
+    >   I CRONUS demodatabas har fälten Användarnamn och Lösenord fyllts i förväg med information om demonstrationsinloggningen, som du ska ersätta med företaget faktiska information när du registrerar dig för AMC Banking 365 Fundamentals.
 3. I fältet **URL för registrering** väljer du webbläsarknappen för att öppna tjänstleverantörens inloggningssida.  
 4. På bankdatatjänstleverantörens registreringssida anger du användarnamnet och lösenord för ditt företags prenumeration på tjänsten, och slutför sedan inloggningen enligt tjänstleverantörens anvisningar.
 
-    Ditt företag är nu registrerat för tjänsten bankdatakonvertering. Fortsätt med att ange användarnamnet och lösenordet som du har angett för tjänsten i de relaterade inställningsfälten i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Ditt företag är nu registrerat för tillägget AMC Banking 365 Fundamentals. Fortsätt med att ange användarnamnet och lösenordet som du har angett för tjänsten i de relaterade inställningsfälten i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 5. På sidan **Serviceinställningar för bankdatakonv.** i fältet **Användarnamn** anger du samma värde som du har angett som inloggningsnamn på tjänstleverantörens sida i steg 4.
 6. I fältet **Lösenord** anger du samma värde som du angav i fältet **Lösenord** på tjänstleverantörens sida i steg 4.
@@ -58,7 +58,7 @@ Listan över bankdataformat som stöds av tillägget AMC Banking 365 Fundamental
 > [!NOTE]  
 >   Uppdatering av bankdataformat som stöds inträffar också när du väljer eller anger ett värde i fältet **Banknamn – Datakonvertering** på bankkontot.
 
-Du har nu registrerat dig för tjänsten bankdatakonvertering. Fortsätt för att visa inloggningsinformationen på varje bankkonto som ska användas tjänsten.
+Du är nu registrerad för tillägget AMC Banking 365 Fundamentals. Fortsätt för att visa inloggningsinformationen på varje bankkonto som ska användas tjänsten.
 
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554452"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076689"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använda XML-scheman för att förbereda dataintegrationsdefinitioner
 Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet på sidan **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initialisera antingen en definition för datautbyte eller en XMLport.  
@@ -40,7 +40,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 1.  Se till att den relevanta XML-schemafilen är tillgänglig. Filnamnstillägget är .xsd.  
 
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XML-scheman** och välj sedan relaterad länk.  
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
 
 3.  Välj åtgärden **Ny**.  
 
@@ -62,7 +62,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Så här markerar eller avmarkerar du noder i ett XML-schema  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Visningsprogram för XML-schema** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-schemavisare** och välj sedan relaterad länk.  
 
 2.  Fyll i fälten i huvudet enligt beskrivningen i följande tabell.  
 
@@ -100,7 +100,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XML-scheman** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
 
 2.  Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 
@@ -115,7 +115,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Så här skapar du en XMLport som baseras på ett XML-schema  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **XML-scheman** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
 
 2.  Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 
@@ -129,6 +129,6 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ## <a name="see-also"></a>Se även  
 [Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
-[Exportera betalningar till en bankfil](payables-how-export-payments-bank-file.md)   
+[Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
 [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)

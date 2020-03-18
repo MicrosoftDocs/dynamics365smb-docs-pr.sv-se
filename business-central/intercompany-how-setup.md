@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 02/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6f44cfc8dc5eb3591aadd520a4ec58086d5f823
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d284783f389ea8e60027d02cc225b16c44b9d03
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300097"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097678"
 ---
 # <a name="set-up-intercompany"></a>Koncerninterna inställningar
 Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
@@ -27,16 +27,16 @@ Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda
 Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i [Ange resurser](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Så här konfigurerar du företag för koncerninterna transaktioner.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Företagsinformation** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företagsinformation** och välj sedan relaterad länk.  
 2. På sidan **företagsinformation** fyller du i fälten **Koncernintern partnerkod**, **Typ av koncernintern inkorg**. och **Uppgifter om koncernintern inkorg**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>För att konfigurera koncerninterna partners
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna partner** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna partner** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Koncerninterna partners** fyller du i fälten efter behov.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Så här ställer du in koncerninterna leverantörer och koncerninterna kunder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Du kan också komma åt leverantören från fältet **Leverantörsnr** på sidan **Koncerninterna partners**.
 3. Öppna kortet för en leverantör som är en koncernintern partner. Mer information finns i [Registrera nya leverantörer](purchasing-how-register-new-vendors.md).
 4. I fältet **Koncernintern partnerkod** markerar du den relevanta koncernintern partnerkoden.
@@ -50,19 +50,19 @@ Om ditt företag är moderbolaget och har den definierande koncerninterna kontop
 Om ditt företag är ett dotterbolag och du har fått en XML-fil med den gemensamma koncerninterna kontoplanen följer du proceduren: [Att importera den koncerninterna kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Så här konfigurerar du den definierande koncerninterna kontoplanen
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konc.int. kontoplan** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konc.int. kontoplan**, och välj sedan relaterad länk.
 2. På sidan **Konc.int. kontoplan Accounts** anger du varje konto på en rad på sidan.  
 3. Om den koncerninterna kontoplanen ska vara identisk med eller likna den vanliga kontoplanen kan du fylla i sidan automatiskt genom att välja åtgärden **Kopiera från kontoplan**. Du kan redigera de nya raderna efter behov.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Så här exporterar du en koncernintern kontoplan:
 För att din koncerninterna partner ska kunna importera den definierande kontoplanen måste du exportera den till en fil.      
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konc.int. kontoplan** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konc.int. kontoplan**, och välj sedan relaterad länk.
 2. På sidan **Konc.int. kontoplan** kan du välja åtgärden **Exportera** och sedan välja knappen **Spara**.
 3. Ange filnamnet och sökvägen där du vill spara XML-filen och välj sedan knappen **Spara**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Så här importerar du den koncerninterna kontoplanen  
 När det finns en fil för den definierande koncerninterna kontoplanen, kan koncerninterna partnerföretag importera den för att säkerställa att de har samma konton.  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konc.int. kontoplan** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konc.int. kontoplan**, och välj sedan relaterad länk.  
 2. På sidan **Konc.int. kontoplan** kan du välja åtgärden **Importera**.  
 3. Välj filnamnet och sökvägen till XML-filen och välj sedan knappen **Öppna**.  
 
@@ -73,7 +73,7 @@ När du har definierat eller importerat den koncerninterna kontoplanen som du oc
 
 Om kontona i den koncerninterna kontoplanen har samma nummer som motsvarande konton i kontoplanen kan du koppla kontona automatiskt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Konc.int. kontoplan** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konc.int. kontoplan**, och välj sedan relaterad länk.  
 2. Markera de rader som du vill koppla automatiskt och välj sedan åtgärden **Koppla till konto med samma nummer**.  
 3. För varje koncerninternt redovisningskonto som inte har kopplats automatiskt fyller du i fältet **Koppla till redovisningskontonr**.  
 
@@ -82,7 +82,7 @@ När du skapar en koncernintern försäljnings- eller inköpsrad som du ska skic
 
 När du anger ett redovisningskonto i fältet **Balanskontonr** på en koncernintern rad med **Koncernintern partner** i fältet **Kontotyp** fylls fältet **Redov. konto för konc.int. partner**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontolista**, och välj sedan relaterad länk.  
 2. På raden för ett konto som används för koncerninterna transaktioner i fältet **Std.kontonr. konc.int. part.** anger det koncerninterna redovisningskonto som partnern ska bokföra på när du bokför till redovisningskontot på den raden.  
 3. Upprepa steg 2 för varje konto som du ofta anger i fältet **Balanskontonr** på en rad i en koncernintern journal eller i ett koncerninternt dokument.
 
@@ -94,7 +94,7 @@ Om ditt företag är moderbolaget och har den definierande uppsättningen koncer
 Om företaget är ett dotterbolaget och du får en XML-fil med de koncerninterna dimensioner som ska användas som gemensam referens i koncernen följder du proceduren: [Importera koncerninterna dimensioner](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Definiera koncerninterna dimensioner
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna dimensioner** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna dimensioner** och välj sedan relaterad länk.  
 2. På sidan **Koncerninterna dimensioner** anger du varje dimension på en rad.
 
     Om de koncerninterna dimensionerna ska vara identiska med eller likna företagets dimensioner kan du fylla i sidan automatiskt genom att använda funktionen **Kopiera från dimensioner** och sedan redigera de resulterande raderna.  
@@ -103,7 +103,7 @@ Om företaget är ett dotterbolaget och du får en XML-fil med de koncerninterna
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Så här importerar du koncerninterna dimensioner  
 När det finns en fil för den definierande koncerninterna dimensionerna, kan koncerninterna partnerföretag importera den för att säkerställa att de har samma dimensioner.  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna dimensioner** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna dimensioner** och välj sedan relaterad länk.  
 2. På sidan **Koncerninterna dimensioner** kan du välja åtgärden **Importera**.  
 3. Ange filnamnet och sökvägen till XML-filen och välj sedan knappen **Öppna**.  
 
@@ -114,14 +114,16 @@ När du har definierat eller importerat dimensionerna som du och de koncerninter
 
 Om några av de koncerninterna dimensionerna har samma koder som motsvarande dimensioner i företagets lista över dimensioner kan du låta dimensionerna kopplas automatiskt och sedan kan du koppla kontona automatiskt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Koncerninterna dimensioner** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna dimensioner** och välj sedan relaterad länk.
 2. På sidan **konc. int. dimensioner** markerar du de rader som du vill koppla automatiskt och väljer sedan åtgärden **Koppla till dimension med samma kod**.
 3. Fyll i fältet **Koppla till dimensionskod** för varje koncernintern dimension som inte har kopplats automatiskt.
+
+    Du måste kanske lägga till fältet i vyn. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 4. Välj åtgärden **Konc. int. dimensionsvärden**.
 5. På sidan **Konc. int. dimensionsvärden** fyller du i fältet **Koppla till dimensionsvärdekod**.
 
     Fortsätt att koppla dimensioner till koncerninterna dimensioner på liknande sätt.
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dimensioner** och välj sedan relaterad länk.
+6. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dimensioner** och välj sedan relaterad länk.
 7. På sidan **konc. int. dimensioner** markerar du de rader som du vill koppla automatiskt och väljer sedan åtgärden **Koppla till konc.int. dimension med samma kod**.
 8. För varje koncernintern dimension som inte har kopplats automatiskt fyller du i fältet **Koppla t konc.int. dim.v.kod**.
 9. Välj åtgärden **Dimensionsvärden**.

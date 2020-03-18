@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5f9301541e73b4137f6c241a18e2f25c4009fc76
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a35dc8fb1bd6725d4c1f62d387408234f7419b74
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314298"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076979"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrera betalningar och återbetalningar i betalningsjournalen
 
@@ -33,11 +33,11 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 
 - Skriva ut checkar och skicka betalningar elektroniskt till banken
 
-    Förutom registrering att betalning har gjort kan du också använda sidan **betalningsjournal** till att skapa betalningen för vidare behandling av din bank. Mer information finns i [Göra checkbetalningar](payables-how-work-checks.md) och [Göra elektroniska betalningar](payables-how-export-payments-bank-file.md).  
+    Förutom registrering att betalning har gjort kan du också använda sidan **betalningsjournal** till att skapa betalningen för vidare behandling av din bank. Mer information finns i [Göra checkbetalningar](payables-how-work-checks.md) och [Göra elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Göra betalningar i betalningsjournal
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsjournal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
 2. Öppna den journal som ska användas för betalningar.
 3. Om du vet vem som ska betala eller återbetalas, fyll i fälten manuellt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Du kan också koppla betalningen till den relaterade fakturan eller kreditnotan, välj fältet **gäller för ver.nr** på sidan **Koppla leverantörstrans**, välj relevant faktura eller kreditnota och tryck på knappen **OK**.
@@ -50,7 +50,7 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 
 ## <a name="see-also"></a>Se även
 [Gör checkbetalning](payables-how-work-checks.md)  
-[Gör elektroniska betalningar](payables-how-export-payments-bank-file.md)  
+[Gör elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Exportera en Positive Pay-fil](finance-how-positive-pay.md)  

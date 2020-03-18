@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878443"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076955"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden
 Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.  
@@ -80,7 +80,7 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 
 -   En produktionsorder med flera nivåer där fältet **Produktionsprincip** för de berörda överordnade och underordnade artiklarna anges till **Tillverka-Mot-Order**. Planeringssystemet skapar reservationer mellan överordnad produktionsorder och underliggande produktionsorder för att se till att de behandlas tillsammans. Sådant reservationsbindning åsidosätter artikelns standardmetod för värdering och koppling.  
 
--   En produktion, en montering eller inköpsorder där fältet **Partiformningsmetod** för den berörda artikeln anges till **Inköpsorder**. Planeringssystemet skapar reservationer mellan efterfrågan och den planerade tillgången för att se till att den aktuella tillgången skapas. Mer information finns i [Designdetaljer: Order](design-details-order.md).  
+-   En produktion, en montering eller inköpsorder där fältet **Partiformningsmetod** för den berörda artikeln anges till **Inköpsorder**. Planeringssystemet skapar reservationer mellan efterfrågan och den planerade tillgången för att se till att den aktuella tillgången skapas. För mer information, se [Order](design-details-handling-reordering-policies.md#order).  
 
 -   En produktionsorder som skapats från en försäljningsorder med funktionen **Försäljningsorderplanering** länkas till försäljningsordern med en automatisk reservation.  
 

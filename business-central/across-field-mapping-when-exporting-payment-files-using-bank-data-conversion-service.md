@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692634"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076737"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med tillägget AMC Banking 365 Fundamentals
 När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals visas de data som du exporterar till tjänstleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om tillägget AMC Banking 365 Fundamentals finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -71,4 +71,4 @@ I följande tabell visas de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)
 [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
-[Gör betalningar med tjänsten för bankdatakonvertering eller SEPA Kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

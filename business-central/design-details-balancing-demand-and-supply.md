@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882956"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076418"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  
@@ -66,7 +66,7 @@ Om det ursprungliga tillgängliga lagret är lägre än noll föreslår planerin
 ## <a name="loading-the-inventory-profiles"></a>Läsa in lagerprofiler
 För att sortera ut de många källorna till efterfrågan och tillgång ordnar planeringssystemet dem på två tidslinjer som kallas lagerprofiler.  
 
-De normala typerna av efterfrågan och tillgång med förfallodatum på eller efter planeringsstartdatumet laddas i varje lagerprofil. När de laddas sorteras de olika efterfrågan- och tillgångstyperna enligt allmänna prioriteringar, till exempel förfallodatum, lågnivåkoder, lagerställe och variant. Dessutom kopplas orderprioriteter till de olika typerna för att se till att den viktigaste efterfrågan uppfylls först. Mer information finns i [Designdetaljer: prioritera order](design-details-prioritizing-orders.md)  
+De normala typerna av efterfrågan och tillgång med förfallodatum på eller efter planeringsstartdatumet laddas i varje lagerprofil. När de laddas sorteras de olika efterfrågan- och tillgångstyperna enligt allmänna prioriteringar, till exempel förfallodatum, lågnivåkoder, lagerställe och variant. Dessutom kopplas orderprioriteter till de olika typerna för att se till att den viktigaste efterfrågan uppfylls först. Mer information finns i [Prioritera order](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Som nämndes tidigare kan efterfrågan kan även vara negativ. Det betyder att den ska hanteras som tillgång, men till skillnad från de vanliga typerna av tillgång anses negativ efterfrågan vara fast tillgång. Planeringssystemet tar hänsyn till det, men föreslår inga ändringar.  
 

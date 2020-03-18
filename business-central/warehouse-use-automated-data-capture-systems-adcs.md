@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832341"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097798"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystems)
 
 > [!NOTE]
-> I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerar ADCS endast i installationer på plats. En Microsoft-partner kan dock få det att fungera i online-distribution med hjälp av Power Apps eller liknande.
+> Med hjälp av ADCS-lösningen (Automated Data Capture System) ger en väg [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kommunicera med handburna enheter via webbtjänster. Du måste arbeta med en Microsoft-partner som kan tillhandahålla länken mellan webbtjänsten och den specifika handhållen enheten. 
 
 Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering. ADCS inbegriper vanligen streckkod.
 
@@ -32,7 +32,23 @@ Baserat på behovsnivån i lagret definierar du den mängd information som ska v
 - Textinformation.  
 - Meddelanden som innehåller bekräftelser eller fel om aktiviteter som utförts och registrerats av handenheter användaren.
 
-Mer information finns i [Konfigurera ett automatiserat dataregistreringssystem](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjälpen för utvecklare och IT-proffs.
+## <a name="to-enable-web-services-for-adcs"></a>Så här aktiverar du webbtjänster för ADCS
+Om du vill använda det automatiska datainsamlingssystemet måste du aktivera ADCS-webbtjänst.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>För att aktivera och publicera ADCS-webbtjänsten  
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Webbtjänster** och välj sedan relaterad länk.
+2. Välj åtgärden **Ny**.  
+3. På sidan **webbtjänster** anger du följande information på en ny rad:  
+
+    |Fält|Värde|  
+    |---------------------------------|-----------|  
+    |**Objekttyp**|Kodmodul|  
+    |**Objekt-ID**|7714|  
+    |**Tjänstnamn**|ADCS **viktigt:** du måste namnge tjänsten **ADCS**.|  
+
+5. Markera kryssrutan **Publicerat**.  
+6. Välj **OK**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Så här konfigurerar ett lager att använda ADCS  
 Om du ska använda ADCS måste du ange vilka distributionslagerplatser som använder teknologin.  
@@ -79,7 +95,8 @@ Du kan lägga till användare som en användare av ett ADCS (Automatiskt datains
 ## <a name="to-create-and-customize-miniforms"></a>Så här: Skapa och anpassa Miniformulär
 Du använder miniformulär som beskriver den information som du vill presentera på en handenheter. Du kan till exempel skapa miniformulär för att hantera lageraktiviteten att plocka artiklar. När du har skapat en miniformulär, kan du lägga till funktioner för den vanliga åtgärder för en användare med handenheter, till exempel flytta uppåt eller en rad.  
 
-För att använda eller ändra funktionen i en miniformulärfunktion måste du skapa en ny kodmodul eller ändra befintliga för att utföra lämplig åtgärd eller svar. Du kan få mer information om ADCS-funktioner genom att undersöka kodmoduler till exempel 7705, d.v.s det kodenheten för inloggningar funktioner. Kodmodul 7705 visas hur en miniformulär av korttyp arbetar.  
+> [!NOTE] 
+> För att använda eller ändra funktionen i en miniformulärfunktion måste du skapa en ny kodmodul för fältet **Hantera codeunit** för att utföra lämplig åtgärd eller svar. Du kan lära dig mer om ADCS-funktioner genom att undersöka codeunit, till exempel 7705, 7706, 7712 och 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Så här skapar du en miniformulär för ADCS  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Miniformulär** och välj sedan relaterad länk.  
@@ -92,29 +109,15 @@ För att använda eller ändra funktionen i en miniformulärfunktion måste du s
 
 När du har skapat en miniformulär, nästa steg är att skapa operationer och att koppla funktioner för olika tangentbord indata.  
 
-### <a name="to-add-support-for-a-function-key"></a>Om du vill lägga till stöd för en funktionstangent  
-1.  Lägga till koden som liknar följande exempel, till the.xsl-filen för tilläggsprogrammet. Det skapar en operation för **F6** tangent. Tangentsekvensinformation kan erhållas från tillverkaren enhet.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, öppna tabell 7702 och lägg till en kod som representerar den nya tangenten. Skapa en tangent som heter **F6** i det här exemplet.  
-3.  Lägga till C/AL-koden till den aktuella operationen på miniformulärspecifika Codeunit för att hantera funktionen primärnyckel.  
-
 ### <a name="to-customize-miniform-functions"></a>Om du vill anpassa miniformulärfunktioner  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Miniformulär** och välj sedan relaterad länk.  
 2.  Välj ett miniformulär från listan, välj åtgärden **Redigera**.  
 3.  Välj åtgärden **Funktioner**.  
 4.  I listrutan **Funktionskod** väljer du en kod för att representera en funktion som du vill koppla till miniformuläret. Du kan till exempel välja ESC, som associerar funktionen med att trycka på ESC-tangenten.  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, redigera koden för fältet **Hantera kodmodul** om du vill skapa eller ändra kod för att utföra lämplig åtgärd eller svar.
-
-Mer information finns i [Konfigurera ett automatiserat dataregistreringssystem](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjälpen för utvecklare och IT-proffs.
-
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

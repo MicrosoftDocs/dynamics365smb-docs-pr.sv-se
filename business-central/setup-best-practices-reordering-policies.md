@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882236"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076444"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
 **Partiformningsmetod**-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.  
@@ -43,10 +43,6 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
 
 ## <a name="see-also"></a>Se även  
  [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)   
- [Designdetaljer: Partiformningsmetoder](design-details-reordering-policies.md)   
- [Designdetaljer: Order](design-details-order.md)   
- [Designdetaljer: Parti-för-parti](design-details-lot-for-lot.md)   
- [Designdetaljer: Fast orderkvantitet](design-details-fixed-reorder-qty.md)   
- [Designdetaljer: Maximalt antal](design-details-maximum-qty.md)   
+ [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
