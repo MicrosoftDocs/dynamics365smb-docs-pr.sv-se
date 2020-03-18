@@ -47,7 +47,7 @@
 ### [Anpassa din arbetsyta](ui-personalization-user.md)
 ### [Varför är en sida låst för anpassning?](ui-personalization-locked.md)
 ### [Spara och anpassa listvyer](ui-views.md)
-### [Lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md)
+### [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)
 ### [Visa listor på olika sätt](across-display-lists-different-views.md)
 ## Skriva ut rapporter och köra batch-jobb och XMLports
 ### [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Uppdatera anpassade rapportlayouter](ui-update-report-layouts.md)
 ### [Definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md)
 ### [Lägga till fält i en Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
+### [Tillgängliga teckensnitt](ui-fonts.md)
 ## Använda kortkommandon
 ### [Hjälpmedel och kortkommandon](ui-accessibility.md)
 ### [Kortkommandon](keyboard-shortcuts.md)
@@ -297,8 +298,7 @@
 #### [Ställa in inkommande dokument](across-how-setup-income-documents.md)
 #### [Uppdatera valutakurser](finance-how-update-currencies.md)
 #### [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Ställa in SEPA-kreditöverföring](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Konfigurera SEPA autogiro](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Ställa in bankutdragstjänsten](bank-how-setup-bank-statement-service.md)
 #### [Skapa bankkonton](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md)
 #### [Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Skapa tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-#### [Exportera betalningar till en bankfil](payables-how-export-payments-bank-file.md)
-#### [Göra betalningar med tjänsten för bankdatakonvertering eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uppdatera valutakurser](finance-how-update-currencies.md)
 #### [Fältmappning vid import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Registrera betalningar och återbetalningar](payables-how-post-payments-refunds.md)
 #### [Betalningsförslag för lev.](payables-how-suggest-vendor-payments.md)
 #### [Gör checkbetalning](payables-how-work-checks.md)
-#### [Göra betalningar med tjänsten för bankdatakonvertering eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Betala inköpsfakturor snabbt](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Exportera en Positive Pay-fil](finance-how-positive-pay.md)
 ### Koppla utbetalningar automatiskt och stämma av bankkonton
@@ -918,7 +918,6 @@
 #### [Ställa in importavgift och ingående moms](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Bankverksamhet och betalningar
 #### [Skapa depositioner](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Hantera kundinformation för kreditnota](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Gör elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allmänt
 #### [Skriva ut felsökningsrapporter](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Island
 ### [Översikt](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### Moms
-#### [Isländska momsregler för villkorliga rabatter](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Skriv ut information om momssammanfattning på dokument](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Särskilda utdata och rapporter för skattemyndigheten](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektronisk fakturering
@@ -1459,7 +1457,6 @@
 #### [Stämma av bankkonton](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Gör elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allmänt
-#### [Så här hanterar du kundinformation för kreditnota](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Skriva ut felsökningsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Skicka regelnotifieringar](submit-regulatory-alerts.md)
 # Regelefterlevnad
