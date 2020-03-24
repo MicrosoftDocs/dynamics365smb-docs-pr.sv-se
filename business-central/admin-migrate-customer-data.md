@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918220"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097702"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
@@ -31,7 +31,7 @@ När du skapar ett nytt företag, kan du importera företagsinställningar för 
 > [!NOTE]  
 >  Du kan inte byta namn på en fil som inte redan är ett RapidStart Services konfigurationspaket som en .rapidstart-konfigurationspaketfil och sedan försöka importera den. Om du försöker att göra det, kommer du att få ett felmeddelande.  
 
-Innan du börjar måste du kontrollera att du har behörighet att köra RapidStart Services-objekten. Du kan till exempel ha behörighetsuppsättningen SUPER eller vara en intern eller delegerad administratör. Vi rekommenderar också att du är på ett Rollcenter med länkar till RapidStart Services, till exempel Rollcenter för administration. Mer information finns i [Att ändra rollen](ui-change-basic-settings.md#to-change-the-role).  
+Innan du börjar måste du kontrollera att du har behörighet att köra RapidStart Services-objekten. Du kan till exempel ha behörighetsgrupperna SUPER eller D365 RAPIDSTART. Vi rekommenderar också att du är på ett Rollcenter med länkar till RapidStart Services, till exempel Rollcenter för administration. Mer information finns i [Att ändra rollen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
@@ -116,7 +116,7 @@ Följande exempel visar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] implemen
 2. Lägg till ytterligare tabeller i paketet, till exempel **Kund** och **Leveratör**. Dessa båda tabeller refererar till tabell **Säljare/köpare** via fälten **Säljarkod** och **Köparkod**.  
 3. När du kopplar data beaktas även den mappning du angav för fältet **Kod** i tabellen **Säljare/köpare** vid bearbetningen av fälten **Säljarkod** och **Köparkod**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Så här lägger du till ytterligare värden i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Så här lägger du till ytterligare värden i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj tabellen som du vill lägga till ytterligare värden i, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 3. Välj kryssrutan som du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  
