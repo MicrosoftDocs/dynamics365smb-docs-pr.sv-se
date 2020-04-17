@@ -1,6 +1,6 @@
 ---
 title: Definiera en säljare | Microsoft Docs
-description: Du kan ställa in en identifierare för varje säljare, så att du kan övervaka prestanda för en enskild och tilldela en säljare till en kontakt.
+description: Du kan ställa in en identifierare för respektive säljare så att du kan övervaka individuell prestanda och tilldela säljare till en kontakt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e1e53372298462356e6d48dab0e973262abadeb3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877573"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193857"
 ---
-# <a name="set-up-salespeople"></a><span data-ttu-id="1c7fc-103">Skapa säljare</span><span class="sxs-lookup"><span data-stu-id="1c7fc-103">Set Up Salespeople</span></span>
-<span data-ttu-id="1c7fc-104">Många företag har behov av att följa en individuell anställds prestationer som en grund för att beräkna provision eller bonus.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-104">Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus.</span></span> <span data-ttu-id="1c7fc-105">Visa till exempel **säljareprovisionsrapporten**.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-105">See, for example, the **Salesperson Commissions** report.</span></span> <span data-ttu-id="1c7fc-106">Ett företag kan också vilja knyta en säljare till var och en av sina kontakter.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-106">A company may also want to assign a salesperson to each of their contacts.</span></span>
+# <a name="set-up-salespeople"></a><span data-ttu-id="ebf3c-103">Skapa säljare</span><span class="sxs-lookup"><span data-stu-id="ebf3c-103">Set Up Salespeople</span></span>
+<span data-ttu-id="ebf3c-104">Många företag har behov av att följa en individuell anställds prestationer som en grund för att beräkna provision eller bonus.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-104">Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus.</span></span> <span data-ttu-id="ebf3c-105">Visa till exempel **säljareprovisionsrapporten**.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-105">See, for example, the **Salesperson Commissions** report.</span></span> <span data-ttu-id="ebf3c-106">Ett företag kan också vilja knyta en säljare till var och en av sina kontakter.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-106">A company may also want to assign a salesperson to each of their contacts.</span></span>
 
-<span data-ttu-id="1c7fc-107">När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i fältet **Säljarkod** för alla relevanta transaktioner, t.ex redovisningskonto, kund, leverantör, och kampanjkort.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-107">When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards.</span></span> <span data-ttu-id="1c7fc-108">När du sedan bokför eller registrerar fakturor, kreditnotor, journalrader, räntefakturor och så vidare, överförs säljarekoden till de resulterande transaktionerna.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-108">Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.</span></span>
+<span data-ttu-id="ebf3c-107">När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i fältet **Säljarkod** för alla relevanta transaktioner, t.ex redovisningskonto, kund, leverantör, och kampanjkort.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-107">When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards.</span></span> <span data-ttu-id="ebf3c-108">När du sedan bokför eller registrerar fakturor, kreditnotor, journalrader, räntefakturor och så vidare, överförs säljarekoden till de resulterande transaktionerna.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-108">Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.</span></span>
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## <a name="to-set-up-a-salesperson-code"></a><span data-ttu-id="1c7fc-109">Så här skapar du en säljarkod</span><span class="sxs-lookup"><span data-stu-id="1c7fc-109">To set up a salesperson code</span></span>
-1. <span data-ttu-id="1c7fc-110">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Säljare** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
-2. <span data-ttu-id="1c7fc-111">På sidan **Säljare** väljer du åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-111">On the **Salespeople** page, choose the **New** action.</span></span>
+## <a name="to-set-up-a-salesperson-code"></a><span data-ttu-id="ebf3c-109">Så här skapar du en säljarkod</span><span class="sxs-lookup"><span data-stu-id="ebf3c-109">To set up a salesperson code</span></span>
+1. <span data-ttu-id="ebf3c-110">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Säljare** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ebf3c-111">På sidan **Säljare** väljer du åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-111">On the **Salespeople** page, choose the **New** action.</span></span>
 
-<span data-ttu-id="1c7fc-112">Du kan använda säljare i olika relationshanterings- och marknadsföringsarbeten.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-112">You can use salespeople in various relationship management and marketing work.</span></span> <span data-ttu-id="1c7fc-113">Du kan till exempel tilldela aktiviteter till säljare, så att uppgifterna registreras i affärsmöjligheter som tilldelats säljaren.</span><span class="sxs-lookup"><span data-stu-id="1c7fc-113">For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to.</span></span> <span data-ttu-id="1c7fc-114">För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="1c7fc-114">For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
+<span data-ttu-id="ebf3c-112">Du kan använda säljare i olika relationshanterings- och marknadsföringsarbeten.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-112">You can use salespeople in various relationship management and marketing work.</span></span> <span data-ttu-id="ebf3c-113">Du kan till exempel tilldela aktiviteter till säljare, så att uppgifterna registreras i affärsmöjligheter som tilldelats säljaren.</span><span class="sxs-lookup"><span data-stu-id="ebf3c-113">For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to.</span></span> <span data-ttu-id="ebf3c-114">För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="ebf3c-114">For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1c7fc-115">Se även</span><span class="sxs-lookup"><span data-stu-id="1c7fc-115">See Also</span></span>
-[<span data-ttu-id="1c7fc-116">Konfigurera försäljning</span><span class="sxs-lookup"><span data-stu-id="1c7fc-116">Setting Up Sales</span></span>](sales-setup-sales.md)  
-[<span data-ttu-id="1c7fc-117">Försäljning</span><span class="sxs-lookup"><span data-stu-id="1c7fc-117">Sales</span></span>](sales-manage-sales.md)  
-<span data-ttu-id="1c7fc-118">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1c7fc-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="ebf3c-115">Se även</span><span class="sxs-lookup"><span data-stu-id="ebf3c-115">See Also</span></span>
+[<span data-ttu-id="ebf3c-116">Konfigurera försäljning</span><span class="sxs-lookup"><span data-stu-id="ebf3c-116">Setting Up Sales</span></span>](sales-setup-sales.md)  
+[<span data-ttu-id="ebf3c-117">Försäljning</span><span class="sxs-lookup"><span data-stu-id="ebf3c-117">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="ebf3c-118">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ebf3c-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

@@ -8,28 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cfa08ce37ae548997e0c7a16c812f57076e345bf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0ffec6928f68d1430c2d68f49196ff5eaf2babed
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883172"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191433"
 ---
-# <a name="view-load-on-work-and-machine-centers"></a><span data-ttu-id="4c9c2-103">Så här visar du beläggning på produktions- och maskingrupper</span><span class="sxs-lookup"><span data-stu-id="4c9c2-103">View Load on Work and Machine Centers</span></span>
-<span data-ttu-id="4c9c2-104">På sidorna **produktionsgruppkort** och **maskingruppkort** kan du se beläggningen på fabriken till följd av planerade och släppta produktionsorder.</span><span class="sxs-lookup"><span data-stu-id="4c9c2-104">In the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.</span></span>    
+# <a name="view-load-on-work-and-machine-centers"></a><span data-ttu-id="6375a-103">Så här visar du beläggning på produktions- och maskingrupper</span><span class="sxs-lookup"><span data-stu-id="6375a-103">View Load on Work and Machine Centers</span></span>
+<span data-ttu-id="6375a-104">På sidorna **produktionsgruppkort** och **maskingruppkort** kan du se beläggningen på fabriken till följd av planerade och släppta produktionsorder.</span><span class="sxs-lookup"><span data-stu-id="6375a-104">In the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.</span></span>    
 
-## <a name="to-view-the-load-on-work-centers"></a><span data-ttu-id="4c9c2-105">Så här visar du produktionsgruppsbeläggningen</span><span class="sxs-lookup"><span data-stu-id="4c9c2-105">To view the load on work centers</span></span>  
-1.  <span data-ttu-id="4c9c2-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **produktionsgrupper** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="4c9c2-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="4c9c2-107">Öppna relevant **produktionsgrupp**kort i listan och klicka på åtgärden **beläggning**.</span><span class="sxs-lookup"><span data-stu-id="4c9c2-107">Open the relevant **Work Center** card from the list, and then choose the **Load** action.</span></span>  
+## <a name="to-view-the-load-on-work-centers"></a><span data-ttu-id="6375a-105">Så här visar du produktionsgruppsbeläggningen</span><span class="sxs-lookup"><span data-stu-id="6375a-105">To view the load on work centers</span></span>  
+1.  <span data-ttu-id="6375a-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **produktionsgrupper** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="6375a-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6375a-107">Öppna relevant **produktionsgrupp**kort i listan och klicka på åtgärden **beläggning**.</span><span class="sxs-lookup"><span data-stu-id="6375a-107">Open the relevant **Work Center** card from the list, and then choose the **Load** action.</span></span>  
 
-<span data-ttu-id="4c9c2-108">Använd fälten **Visa efter** och **Visa som** på snabbfliken **Alternativ** för att välja lämplig period.</span><span class="sxs-lookup"><span data-stu-id="4c9c2-108">Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.</span></span>  
+<span data-ttu-id="6375a-108">Använd fälten **Visa efter** och **Visa som** på snabbfliken **Alternativ** för att välja lämplig period.</span><span class="sxs-lookup"><span data-stu-id="6375a-108">Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="4c9c2-109">Se även</span><span class="sxs-lookup"><span data-stu-id="4c9c2-109">See Also</span></span>  
-<span data-ttu-id="4c9c2-110">[Produktion](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="4c9c2-110">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="4c9c2-111">Ställa in Produktion</span><span class="sxs-lookup"><span data-stu-id="4c9c2-111">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="4c9c2-112">[Planerad](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="4c9c2-112">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="4c9c2-113">Lager</span><span class="sxs-lookup"><span data-stu-id="4c9c2-113">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="4c9c2-114">Inköp</span><span class="sxs-lookup"><span data-stu-id="4c9c2-114">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="4c9c2-115">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4c9c2-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="6375a-109">Se även</span><span class="sxs-lookup"><span data-stu-id="6375a-109">See Also</span></span>  
+<span data-ttu-id="6375a-110">[Produktion](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="6375a-110">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="6375a-111">Ställa in Produktion</span><span class="sxs-lookup"><span data-stu-id="6375a-111">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="6375a-112">[Planerad](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="6375a-112">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="6375a-113">Lager</span><span class="sxs-lookup"><span data-stu-id="6375a-113">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="6375a-114">Inköp</span><span class="sxs-lookup"><span data-stu-id="6375a-114">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="6375a-115">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6375a-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

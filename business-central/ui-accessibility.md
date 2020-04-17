@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311458"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192129"
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="420ee-103">Hjälpmedel och kortkommandon</span><span class="sxs-lookup"><span data-stu-id="420ee-103">Accessibility and Keyboard Shortcuts</span></span>
-<span data-ttu-id="420ee-104">Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgängligt för användare med funktionshinder.</span><span class="sxs-lookup"><span data-stu-id="420ee-104">This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="420ee-105">stöder följande hjälpmedelsfunktioner:</span><span class="sxs-lookup"><span data-stu-id="420ee-105">supports the following accessibility features:</span></span>  
+# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="7a2d0-103">Hjälpmedel och kortkommandon</span><span class="sxs-lookup"><span data-stu-id="7a2d0-103">Accessibility and Keyboard Shortcuts</span></span>
+<span data-ttu-id="7a2d0-104">Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgängligt för användare med funktionshinder.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-104">This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="7a2d0-105">stöder följande hjälpmedelsfunktioner:</span><span class="sxs-lookup"><span data-stu-id="7a2d0-105">supports the following accessibility features:</span></span>  
 
--   <span data-ttu-id="420ee-106">Kortkommandon</span><span class="sxs-lookup"><span data-stu-id="420ee-106">Keyboard shortcuts</span></span>
+-   <span data-ttu-id="7a2d0-106">Kortkommandon</span><span class="sxs-lookup"><span data-stu-id="7a2d0-106">Keyboard shortcuts</span></span>
 
-    <span data-ttu-id="420ee-107">Mer information finns i [Kortkommandon](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="420ee-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
+    <span data-ttu-id="7a2d0-107">Mer information finns i [Kortkommandon](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="7a2d0-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
 
--   <span data-ttu-id="420ee-108">Navigering</span><span class="sxs-lookup"><span data-stu-id="420ee-108">Navigation</span></span>  
+-   <span data-ttu-id="7a2d0-108">Navigering</span><span class="sxs-lookup"><span data-stu-id="7a2d0-108">Navigation</span></span>  
 
--   <span data-ttu-id="420ee-109">Rubriker</span><span class="sxs-lookup"><span data-stu-id="420ee-109">Headings</span></span>  
+-   <span data-ttu-id="7a2d0-109">Rubriker</span><span class="sxs-lookup"><span data-stu-id="7a2d0-109">Headings</span></span>  
 
--   <span data-ttu-id="420ee-110">Alternativ text för bilder och länkar</span><span class="sxs-lookup"><span data-stu-id="420ee-110">Alternative text for images and links</span></span>  
+-   <span data-ttu-id="7a2d0-110">Alternativ text för bilder och länkar</span><span class="sxs-lookup"><span data-stu-id="7a2d0-110">Alternative text for images and links</span></span>  
 
--   <span data-ttu-id="420ee-111">Stöd för vanliga hjälpmedel</span><span class="sxs-lookup"><span data-stu-id="420ee-111">Support for common assistive technologies</span></span>  
+-   <span data-ttu-id="7a2d0-111">Stöd för vanliga hjälpmedel</span><span class="sxs-lookup"><span data-stu-id="7a2d0-111">Support for common assistive technologies</span></span>  
 
 <!-- moved to separate article
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
@@ -48,24 +48,24 @@ ms.locfileid: "2311458"
 
 -->
 
-##  <a name="Navigation"></a> <span data-ttu-id="420ee-112">Navigering</span><span class="sxs-lookup"><span data-stu-id="420ee-112">Navigation</span></span>  
- <span data-ttu-id="420ee-113">Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet.</span><span class="sxs-lookup"><span data-stu-id="420ee-113">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="420ee-114">Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare.</span><span class="sxs-lookup"><span data-stu-id="420ee-114">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="420ee-115">Tryck på Shift+Tabb för att flytta bakåt.</span><span class="sxs-lookup"><span data-stu-id="420ee-115">Press Shift+Tab to move backward.</span></span>  
+##  <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="7a2d0-112">Navigering</span><span class="sxs-lookup"><span data-stu-id="7a2d0-112">Navigation</span></span>  
+ <span data-ttu-id="7a2d0-113">Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-113">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="7a2d0-114">Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-114">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="7a2d0-115">Tryck på Shift+Tabb för att flytta bakåt.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-115">Press Shift+Tab to move backward.</span></span>  
 
- <span data-ttu-id="420ee-116">Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.</span><span class="sxs-lookup"><span data-stu-id="420ee-116">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
+ <span data-ttu-id="7a2d0-116">Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-116">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
 
-##  <a name="Headings"></a> <span data-ttu-id="420ee-117">Rubriker</span><span class="sxs-lookup"><span data-stu-id="420ee-117">Headings</span></span>  
- <span data-ttu-id="420ee-118">HTML-källan för [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll.</span><span class="sxs-lookup"><span data-stu-id="420ee-118">The HTML source for [!INCLUDE[d365fin](includes/d365fin_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="420ee-119">På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen.</span><span class="sxs-lookup"><span data-stu-id="420ee-119">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="420ee-120">Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).</span><span class="sxs-lookup"><span data-stu-id="420ee-120">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
+##  <a name="headings"></a><a name="Headings"></a> <span data-ttu-id="7a2d0-117">Rubriker</span><span class="sxs-lookup"><span data-stu-id="7a2d0-117">Headings</span></span>  
+ <span data-ttu-id="7a2d0-118">HTML-källan för [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-118">The HTML source for [!INCLUDE[d365fin](includes/d365fin_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="7a2d0-119">På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-119">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="7a2d0-120">Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).</span><span class="sxs-lookup"><span data-stu-id="7a2d0-120">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
 
-##  <a name="Images"></a> <span data-ttu-id="420ee-121">Bilder och länkar</span><span class="sxs-lookup"><span data-stu-id="420ee-121">Image and Links</span></span>  
- <span data-ttu-id="420ee-122">En beskrivande text för bilder anges med attributet ALT i IMG-taggen.</span><span class="sxs-lookup"><span data-stu-id="420ee-122">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="420ee-123">En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.</span><span class="sxs-lookup"><span data-stu-id="420ee-123">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
+##  <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="7a2d0-121">Bilder och länkar</span><span class="sxs-lookup"><span data-stu-id="7a2d0-121">Image and Links</span></span>  
+ <span data-ttu-id="7a2d0-122">En beskrivande text för bilder anges med attributet ALT i IMG-taggen.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-122">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="7a2d0-123">En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-123">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
 
-##  <a name="AssistiveTech"></a> <span data-ttu-id="420ee-124">Hjälpmedel</span><span class="sxs-lookup"><span data-stu-id="420ee-124">Assistive Technologies</span></span>  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="420ee-125">stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning.</span><span class="sxs-lookup"><span data-stu-id="420ee-125">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="420ee-126">Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.</span><span class="sxs-lookup"><span data-stu-id="420ee-126">Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.</span></span>  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="7a2d0-124">Hjälpmedel</span><span class="sxs-lookup"><span data-stu-id="7a2d0-124">Assistive Technologies</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="7a2d0-125">stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-125">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="7a2d0-126">Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.</span><span class="sxs-lookup"><span data-stu-id="7a2d0-126">Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.</span></span>  
 
-## <a name="for-more-accessibility-information"></a><span data-ttu-id="420ee-127">Mer information om hjälpmedel</span><span class="sxs-lookup"><span data-stu-id="420ee-127">For more accessibility information</span></span>  
-<span data-ttu-id="420ee-128">Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="420ee-128">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
+## <a name="for-more-accessibility-information"></a><span data-ttu-id="7a2d0-127">Mer information om hjälpmedel</span><span class="sxs-lookup"><span data-stu-id="7a2d0-127">For more accessibility information</span></span>  
+<span data-ttu-id="7a2d0-128">Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="7a2d0-128">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="420ee-129">Se även</span><span class="sxs-lookup"><span data-stu-id="420ee-129">See Also</span></span>
-[<span data-ttu-id="420ee-130">Komma igång</span><span class="sxs-lookup"><span data-stu-id="420ee-130">Getting Started</span></span>](product-get-started.md)  
-<span data-ttu-id="420ee-131">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="420ee-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="420ee-132">Vanliga frågor och svar</span><span class="sxs-lookup"><span data-stu-id="420ee-132">Frequently Asked Questions</span></span>](across-faq.md)  
+## <a name="see-also"></a><span data-ttu-id="7a2d0-129">Se även</span><span class="sxs-lookup"><span data-stu-id="7a2d0-129">See Also</span></span>
+[<span data-ttu-id="7a2d0-130">Komma igång</span><span class="sxs-lookup"><span data-stu-id="7a2d0-130">Getting Started</span></span>](product-get-started.md)  
+<span data-ttu-id="7a2d0-131">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7a2d0-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="7a2d0-132">Vanliga frågor och svar</span><span class="sxs-lookup"><span data-stu-id="7a2d0-132">Frequently Asked Questions</span></span>](across-faq.md)  
