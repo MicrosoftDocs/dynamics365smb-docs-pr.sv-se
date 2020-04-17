@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1510884fb8a590bebc4967cbdf48cbf03727a307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 82ccc7bc9fc9aa09c9b403f9d5a31bfa25355e3e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305314"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188234"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurera en tjänst för dokumentutbyte
 Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Konfigurera en dokumentväxlingstjänst  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceinställningar för dok.väx.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för dokumentöverföring** och välj sedan tillhörande länk.  
 2. Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
@@ -42,4 +42,4 @@ Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med 
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
-[Utbyta data elektroniskt](across-data-exchange.md).
+[Utbyta data elektroniskt](across-data-exchange.md)

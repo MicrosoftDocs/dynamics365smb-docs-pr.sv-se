@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dadaea1805f682ac05d2394f33022e9a1e6500c0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dbcadecf7648a1ddd6d41d968dcdf26d78b79001
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302922"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184538"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
 Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller olika nivåer av komplexitet, enligt definitionen av licensbehörigheter i de offererade partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerplatsen definieras av licensen. Dessutom ska kopplingsobjekten i licensen styra vilka användargränssnittsdokument som ska användas för de distributionslageraktiviteter som stöds.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d20dc2ba62a5b13042fe864963f1d483c383563f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952583"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183986"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysera finansiella rapporter i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du se KPI: er och få en översikt över företagets ekonomiska status. Du kan också öppna listor i Excel och analysera data där. Men du kan också exportera ekonomiska bokslut som balansräkningen eller resultaträkningen till Excel, analysera data och skriva ut rapporterna.  
@@ -36,12 +36,12 @@ Anta att du vill expandera ämneslistan till kassaflödet. Du kan öppna rapport
 
 I Excel kan se du en flik där data placeras automatiskt i det första kalkylbladet. Alla data som har exporterats finns också i andra kalkylblad om du skulle behöva. Du kan skriva ut rapporten direkt eller ändra det tills du har översikten och den information som du vill använda. Använd [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-tillägg för att ytterligare filtrera och analysera data.  
 
-## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Excel tillägg
+## <a name="the-d365fin-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Excel tillägg
 Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse inkluderar ett tillägg för Excel. Beroende på din prenumeration loggas du in automatiskt eller anger samma inloggningsinformation som används för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Med tillägget, kan du uppdatera data från [!INCLUDE[d365fin](includes/d365fin_md.md)], och du kan skicka ändringar till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Däremot inaktiveras sjkuta tillbaka till databasen för ekonomiska Excel-rapporterna i listan ovan.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  

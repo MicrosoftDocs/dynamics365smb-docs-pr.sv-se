@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 62fc3227c02656713afa1f890f7ea8acbce524be
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952776"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183530"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 Alla företag i Europeiska unionen måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. I programmet kallas detta för intrastatrapportering. Du använder sidan **Intrastatjournal** när du vill fylla i periodiska intrastatrapporter.  
@@ -121,7 +121,7 @@ Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny jour
 2. Om du vill visa alternativen väljer du fältet **Journalnamn**.  
 3. Välj journalerna som tas bort, och välj sedan knappen **Ta bort**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ekonomihantering](finance.md)

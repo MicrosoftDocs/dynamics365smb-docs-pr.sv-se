@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953785"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183890"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region.
@@ -61,7 +61,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
     > [!NOTE]  
     >   Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Så här ställer du in momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-d365fin"></a>Så här ställer du in momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för momsrapport** och välj sedan relaterad länk.  
 2. Om du vill låta användarna ändra och skicka om rapporten, väljer du kryssrutan **ändra skickade rapporter**.  
 3. Välj nummerserien som ska användas för varje rapport.  
@@ -111,7 +111,7 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 > [!Note]
 > När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2017** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  

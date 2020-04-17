@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7bd02b7d802faa3b0766d6689eaa223ba3e3573a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 18ed3b77ffa369d4d9f3bd66ea54b81adb0c88e3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316458"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191817"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Aktivera kundbetalningar via betalningstjänster
 Som alternativ till att samla utbetalningar via banköverföring eller kreditkort, kan dina kunder betala via sina konton med betalningstjänster som t.ex. Microsoft Pay, PayPal eller WorldPay.  
@@ -24,8 +24,8 @@ När du har aktiverat en betalningstjänst i [!INCLUDE[d365fin](includes/d365fin
 
 Tilläggen Microsoft Pay, PayPal Payments Standard och WorldPay Payments Standard är installerade i [!INCLUDE[d365fin](includes/d365fin_md.md)] och klara att aktiveras.  
 
-## <a name="to-enable-a-payment-service-in-included365finincludesd365fin_mdmd"></a>Så här aktiverar du en betalningstjänst i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningstjänster** och välj sedan relaterad länk.  
+## <a name="to-enable-a-payment-service-in-d365fin"></a>Så här aktiverar du en betalningstjänst i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningstjänster** och välj sedan tillhörande länk.  
 2. På sidan **Betalningstjänst** väljer du åtgärden **Ny**.  
 3. Välj betalningstjänsten och stäng sedan sidan.  
 4. På sidan **Betalningstjänst** väljer du åtgärden **Installation**.  
@@ -33,7 +33,7 @@ Tilläggen Microsoft Pay, PayPal Payments Standard och WorldPay Payments Standar
 6. Stäng sidan.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Välja en betalningstjänst för en försäljningsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2. Öppna den försäljningsfaktura som du vill betala med hjälp av betalningstjänsten.  
 3. I fältet **Betalningtjänst** väljer du betalningtjänsten.  
 

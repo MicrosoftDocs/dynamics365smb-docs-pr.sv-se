@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 35305a5adddf178748811dc66bbf5ed6047d77a1
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 439072c09555c7781632c5933ab563caf432c270
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881708"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192849"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det ankommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en ankommande överföringsorder, montering eller en produktionsorder vars utflöde är klart för artikelinförsel.  

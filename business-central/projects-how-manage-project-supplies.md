@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 676658e869d0310fac71dda592c892994dac0edc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 78a11b0c20f8ef6c1c190f38cc5dcfcee918c8e2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312850"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191241"
 ---
 # <a name="manage-job-supplies"></a>Hantera projektleveranser
 Att hantera projektleveranser av artiklar, tjänster och utgifter är en viktig del och aspekt av allt projektgenomförande. Du kan använda lagerantal eller göra projektspecifika inköp med hjälp av inköpsorder eller inköpsfakturor. Ett servicejobb för en dator kan till exempel kräva en ny hårddisk. Du skapar då en inköpsfaktura för att köpa en ny hårddisk och registrerar det i projektet.
@@ -27,7 +27,7 @@ Om inköpsprocessen inte kräver att den fysiska transaktionen registreras separ
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Köpa artiklar eller tjänster till ett projekt
 Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa produkter till ett projekt. Samma steg gäller när du använder en inköpsorder.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
 2. Välj åtgärden **Ny** och fyll i fälten efter behov. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 3. I fälten **Projektnr.** och **Projektaktivitetsnr.** väljer du informationen för det projekt som du vill köpa artiklar eller tjänster för. Använda funktionen **Välj kolumner** om fältet inte visas. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
@@ -35,7 +35,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
 4. Välj åtgärden **Bokföra**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Visa värdet på inköp till ett projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.
 2. Öppna ett relevant projektkort.
 
     På snabbfliken **Uppgifter** visar fältet **Utestående order** det totala utestående beloppet, i lokal valuta, för lagerartiklar och tjänster för inköpsdokument för projektaktivitetsraden.  
@@ -46,7 +46,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
 ## <a name="to-post-a-job-related-expense"></a>Så här bokför du en projektrelaterad utgift
 Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du använda sidan **Projektredovisningsjournal** för att bokföra dem direkt till det relevanta projektkontot.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektredovisningsjournaler** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektredovisningsjournaler** och välj sedan tillhörande länk.  
 2. Skapa en ny rad och registrera information om utgiften, bland annat information i fälten **Projektnr** och **Projektaktivitetsnr**.  
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 

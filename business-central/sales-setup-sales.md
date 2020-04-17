@@ -1,8 +1,6 @@
 ---
 title: Översikt över proceduren för att konfigurera försäljningsprocesser | Microsoft Docs
 description: Innehåller information om hur du definierar regler och värden för att definiera dina försäljningspolicyer och -processer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9bfdfa6d4abf49f163fd9478e4c0c59dda069abd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953401"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194745"
 ---
 # <a name="setting-up-sales"></a>Konfigurera försäljning
 Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.
@@ -40,7 +38,7 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 |Definiera de olika Incoterms som du erbjuder till kunder eller som leverantören erbjuder dig.|[Så här definierar du leveransmetoder](sales-how-set-up-shipment-methods.md)|
 |Ange information om de olika transportleverantörerna som du använder, bland annat en länk till deras godsupplysningstjänst.|[Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

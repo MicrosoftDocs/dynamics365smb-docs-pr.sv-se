@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 4c43429e4436400dc9e3b991b9ccca59a439372a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881407"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191889"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Hantera sparade inställningar för rapporter och batch-jobb
 När användaren kör en rapport visas vanligtvis en sida där han eller hon kan välja alternativ och ange filter för att ändra den data som inkluderas i den genererade rapporten. Denna sida kallas sidan för förfrågan. En rapport kan omfatta en eller flera *sparade(e) inställning(ar)* som användarna kan tillämpa på rapporten från sidan för förfrågan. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. Mer information finns i [Använda sparade inställningar](ui-work-report.md#SavedSettings).

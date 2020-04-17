@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c078195f25d28b517a25b23cbb22c78bfb4e9ec4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315690"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192081"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
@@ -47,7 +47,7 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|
 |Registrera externa dokument inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|
-| Ställ in datautbytesdefinitioner för att skicka och ta emot elektroniska dokument. |[Utbyta data elektroniskt](across-data-exchange.md). |
+| Ställ in datautbytesdefinitioner för att skicka och ta emot elektroniska dokument. |[Utbyta data elektroniskt](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ac7fc5f7b3a7d4510ccf75002ca720eaae47e77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2dd4dfa75f5ff8fc127da1e6981b3a23641362f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312922"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191289"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
@@ -30,7 +30,7 @@ Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specif
 ## <a name="to-create-a-job-card"></a>Så här skapar du ett projektkort.
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om du vill ange projektet med information om andra projekt väljer du åtgärden **Kopiera projekt**, fyller i fälten efter behov och väljer sedan knappen **OK**.
 
@@ -40,7 +40,7 @@ Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektpla
 ## <a name="to-create-tasks-for-a-job"></a>Skapa aktiviteter för ett projekt
 En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du gör detta genom att lägga till nya rader i snabbfliken **Uppgifter** på sidan **Projektkort**, en aktivitet per rad. Varje projekt måste ha minst en aktivitet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.
 2. Öppna projektkortet för ett relevant projekt.
 3. På snabbfliken **Uppgifter** fyller du i fälten efter behov på en ny rad.
 4. Om du vill dra in uppgifter och skapa en hierarki väljer du åtgärden **Uppgifter** och sedan väljer du åtgärden **Indrag för projektaktiviteter**.
@@ -60,7 +60,7 @@ En projektplaneringsrad kan ha en av följande typer.
 
 **Obs**. När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt. T.ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs- och artikelkort.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.
 2. Öppna ett relevant projektkort.
 3. Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.  
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.

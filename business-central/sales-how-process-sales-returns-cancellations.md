@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991934"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193593"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.
@@ -44,7 +44,7 @@ Två funktioner finns för att fördela exakt kostnadsåterföring automatiskt.
 |Funktion|Description|  
 |------------------|---------------------------------------|  
 |Funktionen **Hämta bokförda dokumentrader som ska återföras** på sidan **Försäljningsreturorder**|Kopiera rader för en eller flera bokförda dokument som ska återföras till försäljningsreturorden. Mer information finns i avsnittet [Att skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|Funktionen **Kopiera dokument** på sidan **Försäljningskreditnota** och **Försäljningsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad på sidan **Försäljningsinställningar**.|
+|Funktionen **Kopiera från dokument** på sidorna **Försäljningskreditnota** och **Försäljningsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad på sidan **Försäljningsinställningar**.|
 
 För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet **Koppla från artikellöpnr** på alla typer av rader för returdokument och välj sedan numret på den ursprungliga försäljningstransaktionen. Då länkas försäljningskreditnota till den ursprungliga försäljningstransaktionen och säkerställs att artikeln värderas till ursprunglig styckkostnad.
 
@@ -76,7 +76,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningskreditnota** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom försäljningskreditnota.
 3. Ange namnet på en befintlig kund i fältet **Kund**.
-4. Välj åtgärden **kopiera dokument**.
+4. Välj åtgärden **Kopiera från dokument**.
 5. På sidan **Kopiera försäljningsdokument** i fältet **Dokumenttyp** väljer du **Bokförd faktura**.
 6. Välj fältet **Dokumentnr** för att öppna sidan **Bokförda försäljningsfakturor** och välj den bokförda försäljningsfakturan som innehåller rader som du vill återföra.
 7. Markera kryssrutan **Beräkna om rader** om du vill att de kopierade bokförda försäljningsfakturaraderna ska uppdateras med ändringar av artikelpris och styckkostnad sedan fakturan bokfördes.
@@ -90,7 +90,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 4. På snabbfliken **rader** fyller du i raderna manuellt eller kopierar information från andra dokument för att fylla i raderna automatiskt:
 
     - Du kan använda funktionen **Hämta bokförda dokumentrader som ska återföras** för att kopiera en eller flera bokförda dokumentrader från ett eller flera bokförda dokument. Den här funktionen återför alltid de exakta kostnaderna från den bokförda dokumentraden. Funktionen beskrivs i följande steg.    
-    - Du kan använda funktionen **Kopiera dokument** för att kopiera ett befintligt dokument till returordern. Använd den här funktionen för att kopiera hela dokumentet. Det kan antingen röra sig om ett bokfört dokument eller ett dokument som inte har bokförts ännu. Du kan bara aktivera exakt kostnadsåterföring när kryssrutan **Kräv exakt kost.återföring** är markerad på sidan **Försäljningsinställningar**.  
+    - Du kan använda funktionen **Kopiera från dokument** för att kopiera ett befintligt dokument till returordern. Använd den här funktionen för att kopiera hela dokumentet. Det kan antingen röra sig om ett bokfört dokument eller ett dokument som inte har bokförts ännu. Du kan bara aktivera exakt kostnadsåterföring när kryssrutan **Kräv exakt kost.återföring** är markerad på sidan **Försäljningsinställningar**.  
 
 5. Välj åtgärden **Hämta bokförda dokumentrader som ska återföras**.
 6. Högst upp på sidan **Bokförda försäljningsdokumentrader** markerar du kryssrutan **Visa endast rader som kan återföras** om du bara vill visa rader med antal som ännu inte har returnerats. Exempel: om antalet på en bokförd försäljningsfaktura redan har returnerats kanske du inte vill returnera antalet i ett nytt försäljningsreturdokument.
@@ -218,7 +218,7 @@ När returinleveranser har kombinerats på en kreditnota och bokförts, skapas e
 
 Du kan också ta bort enskilda försäljningsreturorder manuellt.   
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

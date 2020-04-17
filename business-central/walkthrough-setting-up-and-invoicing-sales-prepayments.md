@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95e361d2c7e6901e4650a02b4e30df86bf6b3e45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554626"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193401"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
@@ -67,7 +67,7 @@ Förskottsbetalningar är betalningar som faktureras och bokförs för en förs�
 I följande procedurer beskrivs hur Phyllis uppgifter ska utföras:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Så här lägger du upp nummerserier för förskottsbetalningar  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsinställningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.  
 2.  På sidan **Försäljningsinställningar** expanderar du snabbfliken **Numrering**.  
 3.  Kontrollera att nummerserien för bokförda förskottsfakturor i fältet **Försk.fakt.nr.serie (bokförd)** är samma som för bokförda försäljningsfakturor (**Fakturanr-serie (bokförd)**) och att nummerserien för bokförda förskottskreditnotor (**Försk.kredit.nr.serie (bokförd)**) är samma som för bokförda kreditnotor (**Kreditnotenr-serie (bokförd)**).  
 
@@ -81,11 +81,11 @@ Phyllis kräver att kunden 20000 ska faktureras 30 % i förskott för alla order
 Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 1100. Kunden 20000 har dålig betalningshistorik. Därför kan kräver hon 40 % i förskottsbetalning från kund 20000 för artikel 1100. I följande exempel visas hur du lägger upp procentuella standardvärden för förskottsbetalningar.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Så här tilldelar du kunder och artiklar procentuella standardvärden för förskottsbetalningar  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
 2.  Öppna kortet för kund 20000 (Selangorian).
 3.  I fältet **Förskottsbetalning %** anger du **30**.  
 4.  Välj **OK** för att stänga kundkortet.  
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.  
+5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.  
 6.  Öppna kort för kund 1100.
 7.  Välj åtgärden **procentandelar, förskottsbetalning**.  
 8.  Fyll i de två raderna på sidan **Procentandelar, förskottsbetalning för försäljning** enligt nedan:  
@@ -101,7 +101,7 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 110
 9. Stäng alla sidor.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Så här kan du skriva in ett konto för utgående förskottsbetalningar i bokföringsinställningarna  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2.  Markera raden där fältet **Gen. rörelsebokföringsmall** anges till **EXPORTERA** och fältet **Produktbokföringsmall** anges till **DETALJ** och välj sedan åtgärden **Redigera**.  
 3.  På sidan **Bokföringsinställningskort** i fältet **Förskottsbet.konto, försäljning** anger du det relevanta kontot.  
 4.  Välj **OK**.  
@@ -114,7 +114,7 @@ Kunden ber att kunna få betala 35 %, vilket Susan går med på. Därför ändra
 Susan skapar en förskottsfaktura och skickar den till kunden.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Så här skapar du en försäljningsorder med förskottsbetalning  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  I fältet **Förs.kundnr.** välj **20000**.  
 5.  Acceptera varningen för förfallet saldo som visas.  
@@ -176,7 +176,7 @@ Kunden betalar förskottsfakturan och Arnie, som arbetar på bokföringsavdelnin
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Så här bokför du betalningar mot förskottsfakturor  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inbetalningsjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inbetalningsjournaler** och välj sedan tillhörande länk.  
 2.  Fyll i journalraden med följande information.  
 
     |Fältnamn|Skriv in|  
@@ -205,7 +205,7 @@ Nu har Arnie blivit informerad om att artiklarna på ordern har levererats och a
 
 Arnie kan visa historiken för att kontrollera att försäljningfakturan har skapats som avsett.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförd försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
 
 ## <a name="next-steps"></a>Gå vidare  
 Den här genomgången har gått igenom hur du konfigurerar [!INCLUDE[d365fin](includes/d365fin_md.md)] att hantera förskottsbetalningar. Du har lärt dig hur man lägger upp standardvärden för procentuell förskottsbetalning för kunder och artiklar, och du har också använt olika metoder för att beräkna förskottsbetalningar för en order. Du har provat att tilldela en order ett fullständigt förskottsbelopp och du har låtit beräkna förskottsbeloppet som en procentuell del av hela ordern.  

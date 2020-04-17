@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e4c3b60bca16e1f1e72e728d02b07ded11cada09
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0ddc987b1dd27cf2379b128aa735a78bacb868da
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692590"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188642"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  SEPA CAMT-standarden har lokala varianter. Därför kanske du måste ändra den generiska definitionen av datautbytet representeras av koden **SEPA CAMT** på sidan **Definitioner för bokföringsbyte** för att anpassa den till en lokal variation av standarden. Följande tabeller visar element-till-fält-mappning för tabellerna 81, 273 och 274 i SEPA CAMT-implementeringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- Information om att skapa och justera en dataintegrationsdefinition finns i [Ställa in dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Information om att skapa och justera en dataintegreringsdefinition finns i [Ställa in dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 ## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT-datamappning till fält i tabellen Redovisningsjournal (81)  
 
@@ -60,7 +60,7 @@ ms.locfileid: "2692590"
  Element i noden **Ntry** som importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)] men inte är kopplade till vissa fält lagras i tabellen **Def.kod för bokföringsbyt** table. Användare kan visa dessa element från **Betalningsavstämningsjournal**, **Betalningskoppling**, och **bankkontoavstämning** genom att välja åtgärden **Information om bankutdragsrad**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
-[Utbyta data elektroniskt](across-data-exchange.md).  
+[Utbyta data elektroniskt](across-data-exchange.md)  
 [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  

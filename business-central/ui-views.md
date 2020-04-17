@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316816"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189417"
 ---
 # <a name="save-and-personalize-list-views"></a>Spara och anpassa listvyer
 När du har angett ett filter för en lista och du vill behålla filtret för senare kan du spara det som en vy. Mer information om filtrerings listor finns i [ange filter för listor](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,7 +24,7 @@ Om det finns vyer visas gruppen **vyer** högst upp i filterrutan. Vyer är vari
 
 ## <a name="to-save-a-view"></a>För att spara en vy
 1. Öppna vilken listsida som helst.
-2. Välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan.
+2. Välj ![Ikonen Filterruta](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan.
 3. Ange ett eller flera nya filter. Mer information finns i [Ange filter på listor](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. När du har angett filtren väljer du ikonen ![Spara vy](media/save_view_icon.png "Spara vy").
 
@@ -35,7 +35,7 @@ Om det finns vyer visas gruppen **vyer** högst upp i filterrutan. Vyer är vari
 Om du inte ger det ett namn får namnet **Alla (kopia)**.
 
 ## <a name="to-rename-or-remove-a-view"></a>Så här byter du namn på eller tar bort en vy
-1. Välj den för vyn som för närvarande visar listan ![Visa fler alternativ](media/show-more-options-icon.png "Visa fler alternativ") för att se vilka alternativ som är tillgängliga.
+1. För vyn som för närvarande visar listan väljer du ikonen ![Visa fler alternativ](media/show-more-options-icon.png "Visa fler alternativ") om du vil se tillgängliga alternativ.
 2. Välj antingen **Byt namn** eller **Ta bort**.
 
 ## <a name="managing-many-views"></a>Hantera många vyer

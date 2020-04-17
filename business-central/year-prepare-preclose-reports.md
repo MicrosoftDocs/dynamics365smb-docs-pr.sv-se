@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dbd14c11d726aae802d5008c681eeb9ffcd55438
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314334"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191697"
 ---
 # <a name="using-pre-closing-reports"></a>Använda rapporter före bokslut
 Det finns flera standardrapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period. Du kan till exempel använda rapporten **Kund - råbalans** för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum.
@@ -35,7 +35,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 | skriva ut en råbalansrapport med saldon och nettoförändringar för redovisningskonton. |Råbalans |
 | skriva ut en råbalans för ett konsoliderat företag. |Konsoliderad råbalans |
 
-För att se en rapport, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och anger namnet som visas på tabellen och väljer sedan relaterad länk.
+Om du vill se en rapport väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger namnet som visas i tabellen och väljer sedan tillhörande länk.
 
 ## <a name="see-also"></a>Se även
 [Avsluta år och perioder](year-close-years-periods.md)  

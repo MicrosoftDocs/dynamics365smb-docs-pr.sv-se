@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a8db87b7dd365123a21633e4905d56dd13bf7b40
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316434"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193617"
 ---
 # <a name="make-sales-quotes"></a>Gör försäljningsofferter
 Du kan skapa en försäljningsoffert för att erbjuda en kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -26,7 +26,7 @@ Medan du förhandlar med kunden kan du ändra och skicka försäljningsofferten 
 Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
 
 ## <a name="to-create-a-sales-quote"></a>Så här skapar du en försäljningsoffert
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäljningsofferter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **försäljningsofferter** och välj sedan tillhörande länk.
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
    Andra fält på sidan **Försäljningsoffert** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
@@ -80,5 +80,5 @@ Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Skicka dokument som e-post](ui-how-send-documents-email.md)  
+[Skicka dokument som e-transaktion](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

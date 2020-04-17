@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b5129e4e9ddfe60d969e705d62e023716cde5b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33543ffddf286fd2e224b74768adb5d00046078b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311146"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189753"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Tillägget QuickBooks datamigrering
 Detta tillägg gör det enkelt att migrera kunder, leverantörer, artiklar och konton från QuickBooks till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om ditt företag använder QuickBooks i dag, kan du exportera nödvändig information och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ För att hämta data från QuickBooks desktop-programmet måste du hämta Micros
 > För närvarande fungerar verktyget för dataexportering bara med QuickBooks 2017 och 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Hitta tillägget QuickBooks datamigrering
-Tillägget QuickBooks datamigrering är installerat och klart som en integrerad del av guiden för assisterad konfiguration av datamigrering. Om du är redo att börja nu och har exporterat dina data från QuickBooks, välj ikonen![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Assisterad konfiguration** och välj sedan relaterad länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.  
+Tillägget QuickBooks datamigrering är installerat och klart som en integrerad del av guiden för assisterad konfiguration av datamigrering. If youOm du är redo att börja nu och har exporterat dina data från QuickBooks väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Assisterad konfiguration** och väljer sedan tillhörande länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
 När du har migrerat data har transaktionerna statusen ej bokförda, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till sidan försäljningsfakturor. Om du vill gå igenom journaler, går du till sidan betalningsjournaler.
@@ -63,5 +63,5 @@ Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och e
 Kontrollera de ingående saldona för konton i redovisningen. QuickBooks sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
 ## <a name="see-also"></a>Se även
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943215"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194481"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 Med säkerhetssystemet [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och IT-proffs för [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -130,18 +130,18 @@ en användare kan till exempel har behörighet att köra Codeunit 80, försäljn
 Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Skapa eller ändra behörigheter genom att registrera dina åtgärder
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Behörighetsuppsättningar** och välj sedan relaterad länk.
-2.  Alternativt kan du i sidan **Användare** välja åtgärden **Behörighetsuppsättningar**.
-3.  På sida **Behörighetsuppsättningar** väljer du åtgärden **Ny**.
-4.  Fyll i fälten på en ny rad efter behov.
-5.  Välj åtgärden **Behörigheter**.
-6.  På sidan **behörigheter** väljer åtgärden **postbehörigheter** och välj sedan åtgärden **startar**.
+1.    Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Behörighetsuppsättningar** och välj sedan relaterad länk.
+2.    Alternativt kan du i sidan **Användare** välja åtgärden **Behörighetsuppsättningar**.
+3.    På sida **Behörighetsuppsättningar** väljer du åtgärden **Ny**.
+4.    Fyll i fälten på en ny rad efter behov.
+5.    Välj åtgärden **Behörigheter**.
+6.    På sidan **behörigheter** väljer åtgärden **postbehörigheter** och välj sedan åtgärden **startar**.
 
     Detta startar en registreringsprocess som fångar alla dina åtgärder i användargränssnittet.
-7.  Gå till olika sidor och aktiviteter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
-8.  Om du vill avsluta registreringen går du tillbaka till sidan **behörigheter** och väljer åtgärden **stoppa**.
-9.  Välj knappen **Ja** om du vill lägga till registrerade behörigheter till den nya behörighetsuppsättningen.
-10. För varje objekt i den registrerade listan anger du om användarna ska kunna infoga, ändra eller ta bort poster i de registrerade tabellerna.
+7.    Gå till olika sidor och aktiviteter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
+8.    Om du vill avsluta registreringen går du tillbaka till sidan **behörigheter** och väljer åtgärden **stoppa**.
+9.    Välj knappen **Ja** om du vill lägga till registrerade behörigheter till den nya behörighetsuppsättningen.
+10.    För varje objekt i den registrerade listan anger du om användarna ska kunna infoga, ändra eller ta bort poster i de registrerade tabellerna.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Säkerhetsfilter – begränsa användarens åtkomst till specifika poster i en tabell
 För postnivåsäkerhet i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. Det innebär att användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i hjälpen för utvecklare och IT-proffs.
@@ -204,5 +204,4 @@ Administratörer kan definiera tidsperioder som anger när användare kan bokfö
 [Gör dig redo för affärer](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Lägg till användare till Office 365 for business](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central licensieringsguide](https://aka.ms/BusinessCentralLicensing)  
 [Säkerhet och skydd i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjälpen för utvecklare och IT-proffs

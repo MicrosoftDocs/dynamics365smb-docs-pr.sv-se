@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/12/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 644a4a64fa80ff98a073f28393fd0b8bb0e6ad54
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 5d70097cb570217cd4a7be0538474252c31ef46e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3072037"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194649"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Förse en sida eller rapport med ett bokmärke på ditt rollcenter
 Med hjälp av bokmärkesikonen kan du lägga till en åtgärd som öppnar en sida eller rapport från navigeringsmenyn i rollcentret. På så sätt kan du snabbt nå ditt favoritinnehåll eller dina affärsuppgifter. Du lägger till bokmärket från målsidan eller rapport vilket innebär skärmen som du vill att länken i rollcentret ska öppnas på.

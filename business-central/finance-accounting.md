@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991862"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184034"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
 
 ## <a name="accountant-role-center"></a>Rollcentret Revisor
@@ -25,7 +25,7 @@ Rollcentret är en instrumentpanel med aktivitetpaneler sida som visar nyckeltal
 
 Om du precis har börjat använda [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du köra videoförteckning direkt från ditt rollcenter. Du kan också starta en **komma igång** som pekar ut viktiga områden.  
 
-## <a name="inviteaccountant"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Bjud in din externa revisorn till [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Om du använder en extern revisor för att hantera böcker och redovisning kan din administratör bjuda in dem till ditt [!INCLUDE[d365fin](includes/d365fin_md.md)] så att de kan arbeta tillsammans med dig på räkenskapsårets data. [!INCLUDE[d365fin](includes/d365fin_md.md)] omfattar tre licenser av typen extern revisor. Mer information om licenser finns i [Licensieringsguiden för Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 När din revisorn har fått tillgång till din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan de använda rollcenter **revisorn** som ger enkel åtkomst till de mest relevanta sidor för att kunna arbeta.  
@@ -61,7 +61,7 @@ Om din administratör eller återförsäljarpartner inte vill använda guiden **
 
 Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>För att ge din revisor åtkomst till ditt [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>För att ge din revisor åtkomst till ditt [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. I den Azure-portalen, på den nyligen tillagda användaren, väljer du **Profil** och sedan **Redigera**
 2. Uppdatera fältet **Användningsplats** till det aktuella landet och välj sedan **Spara**.
@@ -73,7 +73,7 @@ Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE [
 
 Om det lyckas tilldelas licensen till gästanvändaren och gästkontot skapas.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Importera den nya användaren till [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importera den nya användaren till [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst till ditt Active Directory. Därefter måste du ge dem åtkomst till rätt företag i [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst ti
 2. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.  
 3. Välj åtgärden **Skaffa nya användare från Office 365**.
 
-Detta importerar användarkontot som du skapade i Azure-portalen till företaget. Mer information finns i [S¨här lägger du till en användare i Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+Detta importerar användarkontot som du skapade i Azure-portalen till företaget. Mer information finns i [S¨här lägger du till en användare i Business Central](ui-how-users-permissions.md#adduser).  
 
 Om du vill ge åtkomst till flera företag måste du logga in på respektive företag och upprepa den här processen. Du kan också uppdatera behörighetsgrupperna för revisorns användarprofil i [!INCLUDE [prodshort](includes/prodshort.md)], till exempel tilldela dem användargruppen *D365 Bus Premium*. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
@@ -98,7 +98,7 @@ Om du är en revisor med flera klienter, använd [!INCLUDE[d365acc_long](include
 
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)  

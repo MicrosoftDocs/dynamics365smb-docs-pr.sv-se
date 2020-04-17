@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ef6300121695a0c8836df58e31848024c87deb75
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be626aaf9184711bb101c50382f4b85ec394b1ca
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879064"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186698"
 ---
 # <a name="set-up-company-configuration"></a>Ställa in företagskonfiguration
 Implementeringsprocessen börjar med Microsoft-partnern. Partnern är ansvarig för att tänka igenom konfigurationdetaljerna och för att skapa ett paket som en kund enkelt kan använda. Innan du skapar ett nytt företag bör du planera hur det ska konfigureras. Du måste beakta grundläggande inställningsdata och vilka slags data din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning kräver. Samla sedan ihop all denna information i konfigurationspaket.

@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 9cc15893963672f14aef33b8bd35560957a826ea
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030202"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183914"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
 Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.  
 
- Först ställer du in exportformat för bankfilen som används av din bank för att utföra en autogiro. Sedan ställer du in kundens betalningsmetod. Till sist ställ in medgivande för autogiro att återspegla ditt avtal med kunden för att samla in sina betalningar under en viss avtalsperiod.  
+ Först ställer du in exportformat för bankfilen som används av din bank för att utföra en autogiro. Därefter ställer du in kundens betalningssätt. Till sist ställ in medgivande för autogiro att återspegla ditt avtal med kunden för att samla in sina betalningar under en viss avtalsperiod.  
 
- För instruktioner till banken för att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto, skapa en autogiroinsamlingpost som innehåller information om bankkonton, de berörda försäljningsfakturorna och medgivande för autogiro. Sedan kan du exportera en XML-fil som baseras på samlingstransaktionen som du skickar till din bank för bearbetning. Alla betalningar som inte kunde behandlas meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
+ Om du vill instruera banken för att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto skapar du en autogiroinsamlingpost som innehåller information om bankkonton, berörda försäljningsfakturor och medgivande för autogiro. Sedan kan du exportera en XML-fil som baseras på samlingstransaktionen som du skickar till din bank för bearbetning. Alla betalningar som inte kunde behandlas meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
 
  Du kan ställa in standardiserade kundförsäljningskoder med metoden för autogirobetalning och obligatorisk information. Du kan sedan använda batch-jobbet **Skapa standard kundfakturor** för att generera flera försäljningsfakturor med direktdebiteringsinformationen ifylld automatiskt. Detta kan göras manuellt eller automatiskt enligt betalningens förfallodatum.  
 
@@ -32,17 +32,17 @@ Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto 
 >  För att samla in betalningar med hjälp av SEPA Autogiro måste valutan på försäljningsfakturan vara EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
-Från sidan **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto enligt formatet SEPA Autogiro.
+Från sidan **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto enligt formatet för SEPA-autogiro.
 
 > [!NOTE]
 > Den globala versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder endast formatet SEPA Autogiro. I versionen för Sverige kan andra format för elektronisk betalning vara tillgängliga. Se under **Lokal funktionalitet** i innehållsförteckningen.  
 
-Om du vill aktivera export av bankfilformat som inte stöds från början i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurera en datautbytesdefinition med ramverket för datautbyte. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+Om du vill aktivera export av bankfilformat som inte stöds från början i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurera en datautbytesdefinition med ramverket för datautbyte. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera instruktioner om autogiro i formatet SEPA-autogiro måste du utföra följande inställningssteg:  
 
-* Ställ in exportformat för bankfilen som används av din bank för att utföra en autogiroinsamling från kundens bankkonto till ditt bankkonto.  
-* Ställ in kundens betalningsmetod.  
+* Ställ in exportformat för bankfilen i syfte att instruera din bank att utföra en autogiroinsamling från kundens bankkonto till ditt bankkonto.  
+* Ställ in kundens betalningssätt.  
 * Ställ in medgivande för autogiro att återspegla ditt avtal med kunden för att samla in sina betalningar under en viss avtalsperiod.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Så här ställer du in ditt bankkonto för SEPA-autogiro  
@@ -50,7 +50,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 2. Öppna det bankkonto som du vill använda för autogiro.  
 3. På snabbfliken **Överföring**, i fältet **Exp.format för SEPA-autogiro**, välj alternativet för SEPA-autogiro.  
 
-### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Ange kundens betalningsmetod för SEPA-autogiro  
+### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>För att ställa in kundens betalningssätt för SEPA-autogiro  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **betalningssätt** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Så här anger du betalningssätt. Fyll i de specifika fälten för autogiro\-enligt beskrivningen i följande tabell.  
@@ -58,7 +58,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Autogiro**|Ange om betalningsmetoden används för SEPA-autogiroinsamling.|  
-    |**Betalningsvillkorskod för autogiro**|Ange betalningsvillkor, till exempel Betala inte, som visas på försäljningsfakturor som betalas med SEPA-autogiro för att visa kunden att betalningen kommer att samlas in automatiskt. Du kan även lämna fältet tomt.|  
+    |**Betalningsvillkorskod för autogiro**|Ange betalningsvillkor, till exempel BETALA INTE, som visas på försäljningsfakturor som betalas med SEPA-autogiro i syfte att visa kunden att betalningen kommer att överföras automatiskt. Du kan även lämna fältet tomt.|  
 
     > [!NOTE]  
     >  Ange inte ett värde i fältet **Motkonto.**  
@@ -92,7 +92,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
  Medgivande för autogiro infogas automatiskt i fältet **Medgivande-ID för autogiro** när du skapar en försäljningsfaktura för den kund som du valde i steg 2. Mer information finns i [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md).
 
 ## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil
- För instruktioner till banken för att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto, skapa en autogiroinsamling som innehåller information om kundens bankkonto, de berörda försäljningsfakturorna och medgivande för autogiro. Från direktdebitering-insamlingsposten som skapas kan du sedan exportera en XML-fil som du skickar eller överför till din elektroniska bank för bearbetning. Alla betalningar som inte kunde behandlas av banken meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
+ Om du vill instruera banken att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto skapar du en autogirobetalning som innehåller information om kundens bankkonto, berörda försäljningsfakturor och medgivande för autogiro. Från direktdebitering-insamlingsposten som skapas kan du sedan exportera en XML-fil som du skickar eller överför till din elektroniska bank för bearbetning. Alla betalningar som inte kunde behandlas av banken meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
 
  > [!NOTE]  
  >  För att samla in betalningar med hjälp av SEPA Autogiro måste valutan på försäljningsfakturan vara EURO.  
@@ -110,7 +110,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
      |**Partnertyp**|Anger om direktdebitering-insamlingen görs för kunder som är av typen **företag** eller **person**.|  
      |**Endast kunder med giltigt medgivande**|Ange om en autogiroinsamling skapas för kunder som har ett giltigt medgivande för autogiro. **Obs!**  En autogiroinsamling skapas även om fältet **Medgivande-ID för autogiro** inte fylls på försäljningsfakturan.|  
      |**Endast fakturor med giltigt medgivande**|Ange om en autogirering skapas för försäljningsfakturor endast om ett giltigt autogiromedgivande väljs i fältet **Medgivande-id för autogiro** på försäljningsfakturan.|  
-     |**Bankkontonr.**|Ange vilka av företagets bankkonton som den insamlade betalningen ska överföras till från kundens bankkonto.|  
+     |**Bankkontonr.**|Ange vilka av ditt företags bankkonton som den insamlade betalningen ska överföras till från kundens bankkonto.|  
      |**Bankkontonamn**|Anger namnet på det bankkonto som du väljer i **Bankkontonr** fält. Detta fält fylls i automatiskt.|  
 
  4. Välj knappen **OK**.  
@@ -137,7 +137,7 @@ En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller 
 
       Relaterade direktdebitering-insamlingen är stängd.  
 
- Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, som på sidan **Betalningsregistrering** eller också kan du bokföra de relaterade betalningsinleveranser direkt från sidan **Transaktioner för samlingar med autogiro**. Mer information finns i [Bokför betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
+ Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, som på sidan **Betalningsregistrering** eller också kan du bokföra de relaterade betalningsinleveranser direkt från sidan **Transaktioner för samlingar med autogiro**. Mer information finns i [kräva in betalningar med SEPA direktdebitering](finance-collect-payments-with-sepa-direct-debit.md).
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>Bokföra betalningsinleveranser för SEPA Autogiro
  När en direkt autogiroinsamling framgångsrikt bearbetas av din bank, kan du fortsätta att bokföra mottagandet av betalningen för de berörda försäljningsfakturorna. För mer information, se [Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  

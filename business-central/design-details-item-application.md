@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303514"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185162"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 När du bokför en lagertransaktion registreras antalsbokföringen i artikeltransaktionerna, och värdebokföringen i värdetransaktionerna. Mer information finns i [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)  
@@ -189,7 +189,7 @@ Följande tabell visar effekten av den exakta kostnadsåterföringen på artikel
 När du kör batchjobbet **Justera kostnader - artikeltrans** vidarebefordras den ökade kostnaden för inköpstransaktionen, på grund av artikelomkostnaden, till försäljningstransaktionen (löpnummer 2). Försäljningsposten flyttar sedan fram den ökade kostnaden till försäljningskredittransaktionen (löpnummer 3). Det sista resultatet är att kostnaden återförs korrekt.  
 
 > [!NOTE]  
->  Om det aktuella arbetet innehåller returer eller kreditnotor och om **Kräv exakt kost.återföring** har angetts i **inköpsinställningarna** eller **försäljningsinställningarna** på ett lämpligt sätt [!INCLUDE[d365fin](includes/d365fin_md.md)], fylls de här fälten automatiskt i när funktionen **Kopiera dokument används**. Om funktionen **Hämta bokförda dokumentrader som ska återföras** används fylls de här fälten alltid i automatiskt.  
+>  Om du arbetar med returer eller kreditnotor och har konfigurerat fältet **Kräv exakt kostnadsåterföring** på antigen sidan **Inköpsinställningar** eller sidan **Försäljningsinställningar** (beroende på situation) kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt att fylla i respektive inmatningsfält när du använder funktionen **Kopiera från dokument**. Om funktionen **Hämta bokförda dokumentrader som ska återföras** används fylls de här fälten alltid i automatiskt.  
 
 > [!NOTE]  
 >  Om en transaktion med en fast koppling bokförs och om artikeltransaktionen som kopplingen ska utföras till är stängd, d.v.s. om det återstående antalet är noll, återställs den gamla kopplingen automatiskt i programmet och artikeltransaktionen kopplas om med den angivna fasta kopplingen.  

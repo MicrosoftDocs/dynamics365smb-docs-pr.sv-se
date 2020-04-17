@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953545"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193992"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandla inköpsreturer eller annulleringar
 Om du vill returnera artiklar till leverantören eller annullera tjänster som du har köpt, kan du skapa och bokföra en inköpskreditnota som anger begärd ändring med hänsyn till den ursprungliga inköpfakturan. Du kan skapa inköpskreditnotan direkt från den bokförda inköpsfakturan med rätt fakturainformation, eller skapa en ny inköpskreditnota med kopierad fakturainformation.
@@ -43,7 +43,7 @@ Två funktioner finns för att fördela exakt kostnadsåterföring automatiskt.
 |Funktion|Description|  
 |------------------|---------------------------------------|  
 |Funktionen **Hämta bokförda dokumentrader som ska återföras** på sidan **Inköpsreturorder**|Kopiera rader för en eller flera bokförda dokument som ska återföras till inköpsreturorden. Mer information finns i avsnittet [Att skapa en inköpsreturorder baserat på minst ett bokfört inköpsdokument](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|Funktionen **Kopiera dokument** på sidorna **inköpskreditnota** och **inköpsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad på sidan **Inköpsinställningar**.|
+|Funktionen **Kopiera från dokument** på sidorna **Inköpskreditnota** och **Inköpsreturorder**|Kopierar både huvudet och raderna av ett bokfört dokument som ska återföras.<br /><br /> Kräver att kryssrutan **exakt kostnadsåterföring** är markerad på sidan **Inköpsinställningar**.|
 
 För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet **Koppla från artikellöpnr** på alla typer av rader för returdokument och välj sedan numret på den ursprungliga inköpstransaktionen. Då länkas inköpskreditnota eller inköpsreturorder till den ursprungliga inköpstransaktionen och säkerställs att artikeln värderas till ursprunglig styckkostnad.
 
@@ -73,7 +73,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 1. Välj ![glödlampeikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpskreditnota** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom inköpskreditnota.
 3. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
-4. Välj åtgärden **kopiera dokument**.
+4. Välj åtgärden **Kopiera från dokument**.
 5. På sidan **Kopiera inköpsdokument** i fältet **Dokumenttyp** väljer du **Bokförd faktura**.
 6. Välj fältet **Dokumentnr** för att öppna sidan **Bokförda inköpsfakturor** och välj den bokförda inköpsfakturan som innehåller rader som du vill återföra.
 7. Markera kryssrutan **Beräkna om rader** om du vill att de kopierade bokförda inköpsfakturaraderna ska uppdateras med ändringar av artikelpris och styckkostnad sedan fakturan bokfördes.
@@ -87,7 +87,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 4. På snabbfliken **rader** fyller du i raderna manuellt eller kopierar information från andra dokument för att fylla i raderna automatiskt:
 
     - Du kan använda funktionen **Hämta bokförda dokumentrader som ska återföras** för att kopiera en eller flera bokförda dokumentrader från ett eller flera bokförda dokument. Den här funktionen återför alltid de exakta kostnaderna från den bokförda dokumentraden. Funktionen beskrivs i följande steg.    
-    - Du kan använda funktionen **Kopiera dokument** för att kopiera ett befintligt dokument till returordern. Använd den här funktionen för att kopiera hela dokumentet. Det kan antingen röra sig om ett bokfört dokument eller ett dokument som inte har bokförts ännu. Du kan bara aktivera exakt kostnadsåterföring när kryssrutan **Kräv exakt kost.återföring** är markerad på sidan **Försäljningsinställningar**.  
+    - Du kan använda funktionen **Kopiera från dokument** för att kopiera ett befintligt dokument till returordern. Använd den här funktionen för att kopiera hela dokumentet. Det kan antingen röra sig om ett bokfört dokument eller ett dokument som inte har bokförts ännu. Du kan bara aktivera exakt kostnadsåterföring när kryssrutan **Kräv exakt kost.återföring** är markerad på sidan **Försäljningsinställningar**.  
 
 4. Välj åtgärden **Hämta bokförda dokumentrader som ska återföras**.
 5. Högst upp på sidan **Bokförda inköpsdokumentrader** markerar du kryssrutan **Visa endast rader som kan återföras** om du bara vill visa rader med antal som ännu inte har returnerats. Exempel: om antalet på en bokförd inköpsfaktura redan har returnerats kanske du inte vill inkludera antalet i ett nytt inköpsreturdokument.
@@ -181,7 +181,7 @@ När returutleveranser kombineras på en kreditnota och sedan bokförs skapas en
 2.  Fyll i fälten på efter behov och välj sedan knappen **OK**.  
 3.  Du kan också ta bort enskilda inköpsreturorder manuellt.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  

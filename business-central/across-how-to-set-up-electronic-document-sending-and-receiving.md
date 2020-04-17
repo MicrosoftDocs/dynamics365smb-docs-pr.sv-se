@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952920"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188138"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurera utskick och mottagning av elektroniska dokument
 Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande\-fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som kan tas emot och konverteras till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag.  
@@ -122,7 +122,7 @@ Avsnittet innehåller följande procedurer:
 
 ### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Så här väljer du datautbytesdefinitionen PEPPOL - Faktura för mottagning av elektroniska dokument  
 1. I rutan **Sök**, ange **Inkommande dokument** och välj sedan relaterad länk.  
-2. Välj fältet **Typ av dataintegration** och sedan **PEPPOLINVOICE** på raden för elektroniskt dokument som du vill ta emot och konvertera.  
+2. Välj fältet **Typ av dataintegrering** och sedan **PEPPOLINVOICE** på raden för elektroniskt dokument som du vill ta emot och konvertera.  
 
      Om dokument som ska tas emot är en kreditnota väljer du **PEPPOLCREDITMEMO**.  
 
@@ -136,7 +136,7 @@ Avsnittet innehåller följande procedurer:
     |---------------------------------|---------------------------------------|  
     |**Redovisningskonto för rader utan artikel**|Anger det redovisningskonto som infogas automatiskt på inköpsrader, som skapas från elektroniska dokument när den inkommande dokumentraden inte innehåller en identifierbar artikel. Inkommande dokumentrader som inte har ett EAN- eller leverantörens artikelnummer konverteras till en inköpsorder av typen **redovisningskonto**, och **nr.** på inköpsraden innehåller det konto som du väljer i den **Redovisningskonto för rader utan artikel**.<br /><br /> Om du lämnar fältet **Redovisningskonto för rader utan artikel** tomt, och det inkommande dokumentet har rader utan identifierbara artiklar, kommer inköpsdokumentet inte att skapas. Ett felmeddelande visas med instruktion om att du måste fylla i fältet **Redovisningskonto för rader utan artikel** innan du kan slutföra uppgiften.|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även  
 [Utbyta data elektroniskt.](across-data-exchange.md)   

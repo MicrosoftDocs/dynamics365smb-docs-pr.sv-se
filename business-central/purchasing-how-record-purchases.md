@@ -1,6 +1,6 @@
 ---
 title: Skapa en inköpsfaktura och registrera inköp | Microsoft Docs
-description: Beskriver hur du köper lager- och serviceartiklar genom att skapa och bokföra inköpsfakturor eller order.
+description: Beskriver hur du köper lager, icke-lagerartiklar eller andra resurser genom att skapa och bokföra inköpsfakturor eller order.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,51 +9,59 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0e91b685f6a8926322ab338b3c060fdac1ff8982
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c6a71c5d9bbd6e5aa8d3fe5ec833ef5ede237ef0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954147"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192705"
 ---
 # <a name="record-purchases"></a>Registrera inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor eller inköpsorder också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor eller order bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
 
-> [!NOTE]  
->   Du måste använda inköpsorder om din inköpsprocess kräver att du t.ex. kan registrera delleveranser av en orderkvantitet eftersom hela kvantiteten inte var tillgänglig hos leverantören. Om du säljer artiklar genom att leverera direkt från din leverantör till kunden, som en direktleverans, måste du även använda inköpsorder. För mer information finns i [Utföra direktleveranser](sales-how-drop-shipment.md). I alla andra aspekter fungerar inköpsorder på samma sätt som inköpsfakturor. Följande procedur är baserad på en inköpsfaktura. Momenten är liknande för en inköpsorder.
+Förutom att köpa fysiska artiklar (artikeltypen **Lager**), som påverkar lagervärderingen, kan du köpa tjänster som representeras av tidsenheter. Du kan göra detta med antingen artikeltypen **Service** eller med radtypen **Resurs**.
 
-När du tar emot lagerartiklarna, eller när den inköpta tjänsten avslutas, bokför du inköpsfaktura eller order för att uppdatera lager och finansiella transaktioner och för att aktivera betalning till leverantören utifrån betalningsvillkoren. Mer information finns i [Gör betalningar](payables-make-payments.md).
+> [!NOTE]  
+> Du måste använda inköpsorder om din inköpsprocess kräver att du t.ex. kan registrera delleveranser av en orderkvantitet eftersom hela kvantiteten inte var tillgänglig hos leverantören. Om du säljer artiklar genom att leverera direkt från din leverantör till kunden, som en direktleverans, måste du även använda inköpsorder. För mer information finns i [Utföra direktleveranser](sales-how-drop-shipment.md). I alla andra aspekter fungerar inköpsorder på samma sätt som inköpsfakturor. Följande procedur är baserad på en inköpsfaktura. Momenten är liknande för en inköpsorder.
+
+När du tar emot lagerartiklarna, eller när den inköpta tjänsten avslutas, bokför du inköpsfakturan eller ordern för att uppdatera lager och finansiella transaktioner, samt för att aktivera betalning till leverantören utifrån betalningsvillkoren. Mer information finns i [Bokföra inköp](ui-post-purchases.md) och [Utföra betalningar](payables-make-payments.md).
 
 > [!CAUTION]  
->   Bokför inte en inköpsfaktura förrän du tar emot artiklarna och vet slutkostnaden för inköpet, inklusive eventuella extrakostnader. Annars kan lagervärdet och vinstsiffrorna ha oriktiga resultat.
+> Bokför inte en inköpsfaktura för fysiska artiklar förrän du tar emot artiklarna och vet slutkostnaden för inköpet, inklusive eventuella extrakostnader. Annars kan lagervärdet och vinstsiffrorna ha oriktiga resultat.
 
-Det är enkelt att korrigera eller annullera en bokförd inköpsfaktura innan du betalar leverantören. Det är användbart om du vill rätta till ett skrivfel eller om du vill ändra inköpet tidigt i orderprocessen. Mer information finns i [Korrigera eller annullera obetalda inköpssfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Om du redan har betalt för artiklarna på den bokförda inköpsfakturan, måste du skapa en inköpskreditnota för att återföra köpet. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
+Det är enkelt att korrigera eller annullera en bokförd inköpsfaktura innan du betalar leverantören. Det är användbart om du vill rätta till ett skrivfel eller om du vill ändra inköpet tidigt i orderprocessen. Mer information finns i [Korrigera eller annullera obetalda inköpssfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Om du redan har betalt för artiklar eller tjänster på den bokförda inköpsfakturan måste du skapa en inköpskreditnota för att återföra köpet. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
 
 Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** för att ange om artikeln är en fysisk inventeringsenhet, en arbetstidsenhet eller en fysisk enhet som inte hålls i inventeringen. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md). Inköpsfakturaprocessen är samma för alla tre artikeltyper.
+
+> [!NOTE]
+> Med inköpsradtypen **Resurs** kan du också köpa externa resurser, till exempel i syfte att fakturera en leverantör för utfört arbete. Mer information finns i [Ange resurser](projects-how-setup-resources.md).<br /><br />
+> Om du vill använda en inköpt resurs kan du komma att behöva ange resursens kapacitet och tilldela denna manuellt till ett projekt. När du köper en resurs skapas reskontratransaktion - reskontratransaktioner för resurs spåras emellertid inte för mängd och värde på samma sätt som för exempelvis artiklar. Om antals- och värdespårning krävs kan du använda andra radartikeltyper.
 
 Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende på om leverantören redan har registrerats.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ## <a name="to-create-a-purchase-invoice"></a>Skapa en inköpsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
+Nedan beskrivs hur du skapar en inköpsfaktura. Momenten är liknande för en inköpsorder. Den största skillnaden är att inköpsorder har ytterligare fält och åtgärder för fysisk hantering av artiklar.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
 2. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
 
     Andra fält på sidan **Inköpsfaktura** fylls nu i med standardinformation om den valda leverantören. Om leverantören inte är registrerad, gör så här:
 3. Ange namnet på en ny leverantör i fältet **leverantör**.
 4. Välj knappen **ja** i dialogrutan om registrering av den nya leverantören.
 5. Välj en mall det nya leverantörskortet ska baseras på sidan **Välj en mall för en ny leverantör** och välj sedan knappen **OK**.
-6. Ett nytt leverantörskort öppnas med förifylld information från den markerade leverantörsmallen. Fältet **Namn** förifylls med nya leverantörens namn som du har angett på inköpsfakturan.
+6. Ett nytt leverantörskort öppnas med förifylld information från den markerade leverantörsmallen. Fältet **Namn** förifylls med de nya leverantörsnamn som du har angett på inköpsfakturan.
 7. Fortsätt att fylla de återstående fälten på leverantörskortet. Mer information finns i [Registrera nya leverantörer](purchasing-how-register-new-vendors.md).  
 8. Välj **OK** för att gå tillbaka till sidan **Inköpsfaktura**, när du har slutfört leverantörskortet.
 
     Flera fält på sidan **Inköpsfaktura** är ifyllda med information som du har angett på det nya leverantörskortet.
 9. På sidan **Inköpsfaktura** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    Fortsätt med att fylla inköpsfakturaraderna med lagerförda artiklar eller tjänster som du har köpt från leverantören.
+    Fortsätt nu med att fylla inköpsfakturaraderna med artiklar eller resurser som du har köpt från leverantören.
 
     > [!NOTE]  
     >   Om du har ställt in återkommande inköpsrader för leverantöre, till exempel en månatlig återanskaffningsorder, kan du infoga dessa rader på fakturan, genom att välja knappen **Hämta återkommande inköpsrader**.
@@ -61,7 +69,7 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 11. Ange hur många artiklar som ska införskaffas i fältet **Antal**.
 
     > [!NOTE]  
-    >   För artiklar av typen **Tjänst** är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden.
+    >   För artiklar av typen **Tjänst** och för rader av typen **Resurs** är mängden en tidsenhet som exempelvis timmar, i enlighet med vad som anges i fältet **Enhetskod** på raden.
 
     Fältet **Radbelopp** uppdateras och visar värdet i fältet **Inköpspris** multiplicerat med värdet i fältet **Kvantitet**.
 
@@ -78,13 +86,15 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
     >   Om du har ställt in fakturarabatter för leverantören, då infogas det angivna procentsatsvärdet automatiskt i fältet **Leverantörsfakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Fakturarabattbelopp**.
 13. Välj **Bokför** när du tar emot de beställda artiklarna eller tjänster.
 
-Inköpet visas nu i lager och ekonomiska transaktioner, och leverantörsbetalning aktiveras. Inköpsfakturan tas bort från listan över inköpsfakturor och ersätts med ett nytt dokument i listan över bokförda inköpsfakturor.
+Inköpet visas nu i lager, resurstransaktioner och ekonomiska transaktioner, och leverantörsbetalningen aktiveras. Inköpsfakturan tas bort från listan över inköpsfakturor och ersätts med ett nytt dokument i listan över bokförda inköpsfakturor.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocessing-invoices-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
+[Konfigurera resurser](projects-how-setup-resources.md)  
+[Bokföra inköp](ui-post-purchases.md)  
 [Begär offerter](purchasing-how-request-quotes.md)  
 [Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  

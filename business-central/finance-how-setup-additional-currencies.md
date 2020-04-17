@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953737"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183554"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
@@ -121,7 +121,7 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 > [!NOTE]  
 >  Fältet **Alt. rapporteringsvaluta** kommer bara att vara aktivt när du har valt **OK** i batch-jobbet **Just. alt. rapporteringsvaluta**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Uppdatera valutakurser](finance-how-update-currencies.md)  

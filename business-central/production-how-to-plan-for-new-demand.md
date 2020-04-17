@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 35bfe02e9c6c215127a5ad59f0a40f668e6b0f52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883220"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191649"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planera ny behovsorder efter order
 Den här planeringsuppgiften kan utföras på sidan **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder.  

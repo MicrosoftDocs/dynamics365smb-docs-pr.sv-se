@@ -9,28 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7e1ef15d8076aa0a17978de5418f39a2de8a1ac0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881270"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188954"
 ---
-# <a name="extending-included365finincludesd365fin_mdmd"></a>Utökning av [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-d365fin"></a>Utökning av [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] är ett verksamhetssystem som hjälper företag att ansluta sin ekonomi, försäljning, service och åtgärder för att anpassa affärsprocesserna, öka kundkontakter och fatta bättre beslut. [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i molnet och över flera olika enheter, som alltid är aktuella. Med den här moderna företagsplattformen du kan snabbt och enkelt anpassa, utöka och skapa program så att de passar dina behov, med liten eller ingen kodutveckling.  
 
 Det finns många fördelar med att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en plattform för programverktyg, vilket omfattar:
 
 * Kom igång utan problem via en integrerad inledande upplevelse
-* Använd Microsofts gå till marknadstjänsterna
+* Använd Microsofts tjänster för marknadsintroduktion
 * Anpassa din sida för applista
 * Ansluta direkt till beslutsfattare och nå fler kunder
 * Förbättra affärsvärdet och öka affärens storlek med befintliga och nya kunder
 * Uppnå mer med en plattform som ger en modern upplevelse och erbjuder skalning  
 * Skaffa tillförlitlig information om dina listors prestanda via molnpartnerportalen eller publiceringsprocessen för Office-program
-* Samla intelligent business-program som t.ex. Power Apps, Power Automate, Power BI, Azure AI och mycket mer  
+* Paketera ihop med intelligenta affärsappar som exempelvis Power Apps, Power Automate, Power BI, Azure AI med flera  
 
 Ta dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjänster till Microsoft AppSource som:
 
@@ -39,11 +39,11 @@ Ta dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjänster till Microsoft App
 
 Ny utvecklingsverktyg för att du ska kunna skapa tillägg för [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare. Om du vill bekanta dig med de nya verktygen och lära dig mer om tillägg 2.0 kan du ta en titt på [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Sök efter information om program- och konsulttjänster som finns på [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
+Sök efter information om program- och konsulttjänster som finns på [Microsoft AppSource](https://appsource.microsoft.com/marketplace/consulting-services?country=US&page=1&product=dynamics-365%3Bdynamics-365-business-central).
 
-För att snabbt komma igång för företagsanvändare har Microsoft lagt till en katalog av konsulttjänsterbjudanden för lösningar som baseras på [!INCLUDE[prodshort](includes/prodshort.md)]Power BI och Power Apps till AppSource. Mer information om [konsulttjänster](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
+För att snabbt komma igång för företagsanvändare har Microsoft lagt till en katalog av konsulttjänsterbjudanden för lösningar som baseras på [!INCLUDE[prodshort](includes/prodshort.md)], Power BI och Power Apps till AppSource. Mer information om [konsulttjänster](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Välja vilka tjänster att erbjuda med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-d365fin"></a>Välja vilka tjänster att erbjuda med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Integrera en 3:e parts lösning
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller många API:er som är klara att använda för [ansluta appar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) så att integreringen mellan din tjänst och [!INCLUDE[d365fin](includes/d365fin_md.md)] blir sömlös. Du kan samla dina tjänster med en [!INCLUDE[d365fin](includes/d365fin_md.md)] och ge dina kunder en integrerad upplevelse. Mer information om [integrera en 3:e parts lösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -58,7 +58,7 @@ Utöka miljön och möjligheten för [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Följ lokala regleringsmöjligheter genom att utveckla för [!INCLUDE[d365fin](includes/d365fin_md.md)], som anpassar funktionsområden till kraven på den lokala marknaden tillsammans med [Dynamics 365 översättningstjänst](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Justera de grundläggande funktionerna i lokala krav och utöka befintliga funktioner om du vill konkurrera på den lokala marknaden. Mer information om [utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Lösning för återförsäljare
-Eftersom alla företag är unika, med [anpassa klientorganisationer](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), kan du matcha hur du arbetar med dina effektiva processer, din terminologi och hur dina anställda eller avdelningar ansluter och samarbetar. Dessutom kan du sälja och justera [!INCLUDE[d365fin](includes/d365fin_md.md)] till dina kunders individuella behov genom att tillhandahålla [konsulttjänster](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Eller använd Power Apps, Power Automate och Power BI för att skapa [anpassade arbetsflöden](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), appar och affärsinsiktsrapporter utan att behöva skriva kod. Mer information om [Dynamics 365 återförsäljare (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Eftersom alla företag är unika, med [anpassa klientorganisationer](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), kan du matcha hur du arbetar med dina effektiva processer, din terminologi och hur dina anställda eller avdelningar ansluter och samarbetar. Dessutom kan du sälja och justera [!INCLUDE[d365fin](includes/d365fin_md.md)] till dina kunders individuella behov genom att tillhandahålla [konsulttjänster](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Du kan också använda Power Apps, Power Automate och Power BI för att skapa [anpassade arbetsflöden](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), appar och rapporter med affärsinsikter utan att behöva skriva någon kod. Mer information om [Dynamics 365 återförsäljare (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
 ## <a name="where-do-i-learn-more"></a>Var får jag mer information?
 Välj länkarna nedan om du vill veta mer om Microsoft AppSource konsulttjänsterbjudanden:
@@ -76,7 +76,7 @@ Redo att köra-programmet är utformat för att ge dig stöd avseende ditt [!INC
 
 Mer information om hur du skapar ett [!INCLUDE[d365fin](includes/d365fin_md.md)]-erbjudande finns i [Redo att köra-programmet](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) information. Om du har frågor eller kommentarer om **Redo att köra**-programmets erbjudande kan du [Kontakta oss](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]Tillägg från Microsoft
+## <a name="d365fin-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]Tillägg från Microsoft
 Den korrekta versionen av produkten innehåller allt fler tillägg som utvecklats av Microsoft. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
 
 ## <a name="see-also"></a>Se även

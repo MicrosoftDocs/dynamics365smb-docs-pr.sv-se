@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97e0a8743cc9c86f37432c0b7d6cd5351883176b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312778"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191187"
 ---
 # <a name="set-up-jobs"></a>Konfigurera projekt
 
@@ -22,7 +22,7 @@ Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar 
 För varje jobb, anger du de individuella de projektkorten med information om priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektinställningar** och välj sedan tillhörande länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -44,13 +44,13 @@ Om kryssrutan **Använd förbrukningslänk som standard** är markerad och proje
 >  
 > Om projektförbrukningsspårning *inte* är aktiverad, antingen på sidan **Projektinställningar** eller på det individuella projektet och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
-1. Välj ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Projektinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Projektinställningar** och välj sedan tillhörande länk.
 2. Markera kryssrutan **Använd förbrukningslänk som standard**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Så här anger du priser för projektresurser
 Du kan lägga upp särskilda resurspriser för ett projekt. Du använder sidan **Resurspriser för projekt** om du vill göra detta.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Resurs**.
 3. På sidan **Resurspriser för projekt** fyller du i fälten efter behov.
 
@@ -64,7 +64,7 @@ Värdet i fältet **Enhetspris** för resursen kommer att användas i projektjou
 ## <a name="to-set-up-prices-for-job-items"></a>Så här anger du priser för projektartiklar
 Du kan lägga upp särskilda artikelpriser för ett projekt. Använd sidan **Artikelpriser för projekt** om du vill göra detta.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Artikel**.
 3. På sidan **Artikelpriser för projekt** fyller du i fälten efter behov.
 
@@ -78,7 +78,7 @@ Värdet i fältet **Enhetspris** för artikeln kommer att användas i projektpla
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Så här lägger du upp priser för redovisningskonton för projekt
 Du kan lägga upp specifika priser för redovisningskostnader för ett projekt. Du använder sidan **Redov.kontopriser för projekt** för att göra detta.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Redovisningskonto**.  
 3. På sidan **Redov.kontopriser för projekt** fyller du i fälten efter behov.
 
@@ -92,7 +92,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 > [!NOTE]  
 >   Nödvändiga konton i kontoplanen måste registreras innan du registrerar bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektbokföringsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektbokföringsmallar** och välj sedan tillhörande länk.  
 2. Välj åtgärden **Ny** och fyll sedan i kontofälten enligt instruktionerna i följande tabell.  
 
 | Kontofält | Beskrivning |

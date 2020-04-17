@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d720fa95873b1ec48f54797a59a209539045ed66
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879854"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184058"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeta med bokföringsperioder och räkenskapsår
 Bokföringsperioder som även kallas rapporteringsperioder, är perioder som ett företag eller en organisation rapporterar resultat, exempelvis genom att generera deras resultat- eller balansräkning. Bokföringsperioder avser vanligtvis företagets räkenskapsår, som kan innehålla flera bokföringsperioder, till exempel månader eller kvartal.

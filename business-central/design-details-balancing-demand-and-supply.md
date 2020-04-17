@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076418"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185714"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  
@@ -99,7 +99,7 @@ Under balanseringen ser planeringssystemet tillgång med serie-/partinummer som 
 
 En annan anledning till att serie-/partinumrerad tillgång är inflexibel är att serie-/partinummer vanligtvis tilldelas så sent i processen att det skulle vara förvirrande om ändringar föreslås.  
 
-Motkonteringen av serienummer/partinummer respekterar inte [Fryst zon](design-details-dealing-with-orders-before-the-planning-starting-date.md). Om att efterfrågan och tillgång är inte är synkroniserade föreslår planeringssystemet ändringar eller förslår nya order oberoende av startdatumet för planeringen.  
+Balanseringen av serienummer/partinummer beaktar inte *fryst zon*. Om att efterfrågan och tillgång är inte är synkroniserade föreslår planeringssystemet ändringar eller förslår nya order oberoende av startdatumet för planeringen.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-till-order-länkar bryts aldrig  
 När du planerar en order-till-order-artikel får den länkade tillgången inte användas för någon annan efterfrågan än vad den ursprungligen ämnades för. Den länkade efterfrågan ska inte täckas av någon annan slumpmässig leverans, även om den för närvarande är tillgänglig vad gäller tid och antal. Exempelvis kan en monteringsorder som är kopplad till en försäljningsorder i ett scenario för montering mot kundorder inte användas för täcka annan efterfrågan.  
@@ -117,7 +117,7 @@ Denna motkontering påverkar också tidsplanen. Den begränsade horisonten som a
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Komponentbehov läses in enligt produktionsorderändringar  
 När du arbetar med produktionsorder måste planeringssystemet övervaka de nödvändiga komponenterna innan du laddar dem i begäranprofilen. Komponentrader som skapas från en ändrad produktionsorder ersätter de från den ursprungliga beställningen. Detta säkerställer att planeringssystemet etablerar att planeringsrader för komponentbehov aldrig kopieras.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Säkerhetslager kan förbrukas  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Säkerhetslager kan förbrukas  
 Antalet i säkerhetslager är primärt en efterfråganstyp och laddas därför i lagerprofilen på planeringsstartdatumet.  
 
 Säkerhetslager är en lagerkvantitet som läggs undan för att kompensera för osäkerheter i efterfrågan under påfyllningledtiden. Den kan förbrukas om det är nödvändigt att ta från den för att uppfylla en efterfrågan. När detta sker kommer planeringssystemet att se till att säkerhetslagret snabbt ersätts genom att föreslå en leveransgsorder för att fylla på säkerhetslagret. Den här planeringsraden visar en ikon för en undantagsvarning som indikerar att säkerhetslagret delvis eller helt förbrukats och måste fyllas på genom en undantagsorder för det saknade antalet.  
@@ -285,7 +285,7 @@ För att minska databasåtkomsten när du hanterar produktionsorder kan planerin
 * Inkludera verksamhetsföljd: den planerade verksamhetsföljden läggs ut inklusive beräkning av start- och slutdatum och tidpunkter. Det är fordrande i termer av databasåtkomster. För att fastställa slut- och förfallodatum kan det vara nödvändigt att beräkna detta även om tillförselhändelsen inte har stängts (om det gäller framåtplanering).  
 * Ta med strukturexpansion: det kan vänta tills precis före tillgångshändelsen är avslutad.  
 
-Detta slutför beskrivningarna av hur efterfrågan och tillgång laddas, prioriteras och balanseras av planeringssystemet. I integration med den här tillgångsplaneringsaktiviteten måste systemet se till att önskad lagernivå för varje planerad artikel upprätthålls enligt dess partiformningsmetoder.
+Detta slutför beskrivningarna av hur efterfrågan och tillgång laddas, prioriteras och balanseras av planeringssystemet. I integrering med den här tillgångsplaneringsaktiviteten måste systemet se till att önskad lagernivå för varje planerad artikel upprätthålls enligt dess partiformningsmetoder.
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   

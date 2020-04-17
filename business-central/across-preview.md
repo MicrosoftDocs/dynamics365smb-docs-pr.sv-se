@@ -6,41 +6,45 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 9acd4840c9e7c2f4aa2a8f5087b2f58708ca7cb0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2942996"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187754"
 ---
-# <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer
+# <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i allt fler länder över hela världen. Om du vill veta mer om [!INCLUDE [prodshort](includes/prodshort.md)] kan du registrera dig för en kostnadsfri utvärderingsversion. När du är klar kan du prata med en återförsäljare om hur du skaffar abonnemang.  
 
+Om du inte redan samarbetar med en partner, se [Hur hittar jag en återförsäljarpartner?](across-faq.md#findpartner).  
+
 ## <a name="getting-started-with-a-trial"></a>Komma igång med en utvärderingsversion
 
-Du kan registrera dig för en kostnadsfri utvärderingsversion [här](https://go.microsoft.com/fwlink/?linkid=847861). Beroende på ditt land eller din region innehåller utvärderingsversionen de språk och den funktionalitet som krävs för ditt land eller din region. Mer information finns i avsnittet [ändra språk och nationella inställningar](about-locale-language.md).  
+Du kan registrera dig för en kostnadsfri utvärderingsversion [här](https://go.microsoft.com/fwlink/?linkid=847861). Vi rekommenderar att du samarbetar med [en återförsäljarpartner](across-faq.md#findpartner) för att hjälpa organisationen att komma igång med [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en komma igång-sida med länkar till videoklipp som hjälper dig att komma igång. Mer information finns i [Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
+Beroende på ditt land eller din region innehåller utvärderingsversionen de språk och den funktionalitet som krävs för ditt land eller din region. Mer information finns i avsnittet [ändra språk och nationella inställningar](about-locale-language.md).  
 
-Om det uppstår problem kan sidan [Vanliga frågor](across-faq.md) hjälpa dig att besvara vissa av dina frågor. Om du inte kunde registrera dig för utvärderingsversionen kan sidan [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md) hjälpa dig. Du kan också kontakta en [partner](across-faq.md#findpartner) och be denne att skapa en kostnadsfri utvärderingsversion.  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Komma igång-sida med länkar till videoklipp som hjälper dig att komma igång. Mer information finns i [Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
+
+Om det uppstår problem kan sidan [Vanliga frågor](across-faq.md) hjälpa dig att besvara vissa av dina frågor. Om du inte kan registrera dig för utvärderingsversionen kan sidan [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md) hjälpa dig. Du kan också kontakta en [partner](across-faq.md#findpartner) och be denne att skapa en kostnadsfriutvärderings version eller annan typ av förhandsgranskning av [!INCLUDE [prodshort](includes/prodshort.md)] åt dig.  
 
 ### <a name="try-out-your-own-company"></a>Prova ditt eget företag
 
-Om du vill testa [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Den assisterade konfigurationen **Konfigurera mitt företag** kan hjälpa dig att ange specifik grundläggande information om ditt företag. Du kan också importera data från din befintliga verksamhetslösning så att du kan utvärdera [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data.  
+Om du vill testa [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Den assisterade konfigurationen **Konfigurera mitt företag** kan hjälpa dig att ange specifik grundläggande information om ditt företag. Du kan också importera data från din befintliga verksamhetslösning så att du kan utvärdera [!INCLUDE [prodshort](includes/prodshort.md)] med dina egna data. Vi rekommenderar emellertid att du inte använder en gratis testversion för att hjälpa dig att driva ditt företag. Kontakta [en återförsäljarpartner](across-faq.md#findpartner) för att lära dig mer om hur du kommer igång med [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 Om 30 dagar inte räcker för att du ska kunna bestämma dig, kan du förlänga utvärderingsperioden. Mer information finns i [Behöver du mer tid för att bestämma om du ska prenumerera?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-include-prodshortincludesprodshortmd"></a>Ställa in företaget i [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="setting-up-your-company-in-prodshort"></a>Ställa in företaget i [!INCLUDE [prodshort](includes/prodshort.md)]
 
-För att hjälpa dig att upprätta ditt företag visar sidan **Assisterad konfiguration** de assisterade konfigurationsguider som hjälper dig. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider, till exempel följande:
+För att hjälpa dig att upprätta ditt företag visar sidan **Assisterad konfiguration** de assisterade konfigurationsguider som hjälper dig. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider enligt illustrerat i följande tabell:
 
 | Assisterad konfiguration | Beskrivning |
 | -------------- | ----------- |
 | Konfigurera mitt företag |Skapar ett nytt provföretag där du kan ange data och testa [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-| Konfigurera arbetsflöden för godkännande |Ställ in förmågan att automatiskt meddela en godkännare när en användare försöker att skapa eller ändra vissa värden i dokument, journalrader eller kort, till exempel ett belopp över en angiven gräns. |
+| Konfigurera arbetsflöden för godkännande |Ställer in möjligheten att automatiskt meddela en godkännare när en användare försöker skapa eller ändra vissa värden i dokument, journalrader eller kort. Du kan till exempel ställa in godkännande av belopp som överstiger en angiven gräns. |
 | Konfigurera e-post |Gör dig klar för att skicka e-postmeddelande direkt från, till exempel försäljningsorder, eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Ställ in din företagsinkorg i Outlook |Gör dig redo att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. |
 | Migrera affärsdata |Du kan importera dina befintliga företagdata till exempel kunder, leverantörer och artiklar från Excel eller Quickbooks. |
@@ -53,18 +57,18 @@ För att hjälpa dig att upprätta ditt företag visar sidan **Assisterad konfig
 | Konfigurera rapporteringsinformation|Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t.ex. |
 | Bjud in extern revisor |Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till dina [!INCLUDE [prodshort](includes/prodshort.md)] så att de kan arbeta med dig med räkenskapsårets informationen. |
 
-Sidan **Assisterad konfiguration** kan innehålla andra poster. När du går igenom en inställning markeras den som **slutförd**. Du kan lägga upp ytterligare områden i företaget genom att använda manuell inställning. Mer information finns i [Skapa [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Sidan **Assisterad konfiguration** kan innehålla andra poster. När du går igenom en inställning markeras inställningen som **Slutförd**. Du kan lägga upp ytterligare områden i företaget genom att använda manuell inställning. Mer information finns i [Skapa [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-### <a name="resetting-your-includeprodshortincludesprodshortmd-trial-experience"></a>Återställa din [!INCLUDE[prodshort](includes/prodshort.md)]-utvärderingsmiljö
+### <a name="resetting-your-prodshort-trial-experience"></a>Återställa din [!INCLUDE[prodshort](includes/prodshort.md)]-utvärderingsmiljö
 
-Om du har lagt till data till [!INCLUDE[prodshort](includes/prodshort.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt utvärderingsföretag och sedan ta bort det första företaget. Om du öppnar sidan **företag** och väljer **Ny**, kan guiden för assisterad konfiguration **Skapa nytt företag** hjälpa dig att konfigurera ett nytt utvärderingsföretag med hjälp av exempeldata. Du kan också skapa en kopia av det aktuella företaget, logga ut och sedan logga in på det nya företaget.  
+Om du har lagt till data till [!INCLUDE[prodshort](includes/prodshort.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt utvärderingsföretag och sedan ta bort det första företaget. Öppna sidan **Företag** och välj sedan **Ny** för att starta den assisterade konfigurationsguiden **Skapa nytt företag**. Med hjälp av guiden kan du skapa ett nytt utvärderingsföretag med exempeldata. Du kan också skapa en kopia av det aktuella företaget, logga ut och sedan logga in på det nya företaget.  
 
 > [!IMPORTANT]
 > När du delar [!INCLUDE [prodshort](includes/prodshort.md)] med andra personer från organisationen, bör du kontrollera att de andra personerna inte är inloggade när du tar bort företaget.  
 
 ## <a name="getting-started-with-a-subscription"></a>Komma igång med en prenumeration
 
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE [prodshort](includes/prodshort.md)] för att passa ditt företag, till exempel importera data från det tidigare systemet och lägga till funktioner, till exempel appar från [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE [prodshort](includes/prodshort.md)] för att passa ditt företag, inklusive att importera data från ditt tidigare system. Du kan också anpassa [!INCLUDE [prodshort](includes/prodshort.md)] genom att lägga till program från [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
 
 [!INCLUDE [prodshort](includes/prodshort.md)] Online använder Office 365. Om ditt företag använder en annan typ av e-postinstallation, kan partnern hjälpa dig att bestämma hur du ska migrera eller om du bör använda [!INCLUDE [prodshort](includes/prodshort.md)] lokalt.  
 
@@ -72,7 +76,7 @@ Du kan även kontakta [[!INCLUDE[d365fin](includes/d365fin_md.md)]-försäljning
 
 ## <a name="getting-started-with-sandboxes"></a>Komma igång med begränsat läge
 
-Miljöer i begränsat läge kan vara ett sätt för dig att öva med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan se ett begränsat läge som en produktionsfri miljö som du kan använda utöver din produktionsinstans av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du till exempel vill genomgå den kostnadsfria onlineutbildningen från [Microsoft Learn](/learn/browse/?products=dynamics-business-central) kan din administratör skapa en miljö med begränsat läge så att du och dina kollegor kan öva där snarare än i produktionsmiljön.  
+Miljöer i begränsat läge kan vara ett sätt för dig att öva med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Betrakta ett begränsat läge som en produktionsfri miljö som du kan använda utöver din [!INCLUDE[d365fin](includes/d365fin_md.md)]-produktionsinstans. Om du till exempel vill genomgå den kostnadsfria onlineutbildningen från [Microsoft Learn](/learn/browse/?products=dynamics-business-central) kan din administratör [skapa en miljö med begränsat läge](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) så att du och dina kollegor kan öva där snarare än i produktionsmiljön.  
 
 Om du är utvecklare låter ett begränsat läge dig skapa och testa tillägg och utveckla nya funktioner i syfte att anpassa tjänsten utan att påverka data och inställningar för din produktionsmiljö.  
 
@@ -83,16 +87,6 @@ Just nu kan alla kunder använda en miljö med begränsat läge, inklusive organ
 
 Administratören för din [!INCLUDE [prodshort](includes/prodshort.md)] och din återförsäljningspartner kan skapa ytterligare miljöer i administrationscentret. Mer information finns i [Administrationscenter för Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-<!-- As a partner, you can provide customers with trials based on already existing functionality, customizations, and previews of future capabilities. With previews like this, you can try and provide feedback about upcoming capabilities.  -->
-
-<!--To get started with a preview, go to [this page](https://go.microsoft.com/fwlink/?linkid=866045) and provide your work email address. To learn more about [!INCLUDE[d365fin](includes/d365fin_md.md)] and the capabilities it offers, refer to the documentation here on this site.-->
-<!--
-### Building New Solutions and Intellectual Property
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).-->
-
 ## <a name="see-also"></a>Se även
 
 [Komma igång](product-get-started.md)  
@@ -102,6 +96,8 @@ For example, you can use an API to build a connected app to exchange data betwee
 [Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)  
 [Välj Dynamics 365 Business Central utveckling av miljö för begränsat läge](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
-  
+[Förlänga testversioner (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
+[Kom igång som återförsäljare av Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+[Förbereda demonstrationsmiljöer (som partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

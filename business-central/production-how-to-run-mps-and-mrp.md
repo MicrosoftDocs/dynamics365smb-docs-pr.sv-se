@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9a9ba92be649c8272822c3c332c6c4c330910df8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b82f92c03aeee11b663d7888c79f4cc78f2c7fc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883196"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191505"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov och produktionsplan
 Begreppen "Skapa inköpsförslageringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.  

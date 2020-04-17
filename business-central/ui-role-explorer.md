@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774801"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195369"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
@@ -27,7 +27,9 @@ Du kan öppna rullutforskaren från rollcentret och alla listsidor och från fö
 - I ditt rollcenter eller valfri listsida, välj knappen ![Menyknapp](media/ui_menu_button.png "Menyknapp") till höger om navigeringsfältet, eller tryck på Skift+F12.
 - I fönstret **Berätta för mig**, välj åtgärden **utforska** längst ned.
 
-Om du vill få en översikt över de affärsfunktioner som är tillgängliga för alla andra roller, utöver din egen, väljer du åtgärden **Utforska alla** på sedan som presenterar rollutforskaren.
+Välj åtgärden **Sök** högst upp i rollutforskaren för att snabbt hitta funktionsnamn som innehåller en viss term.
+
+Välj åtgärden **Utforska alla** högst upp upp i rollutforskaren för att få en översikt över samtliga företagsfunktioner som finns tillgängliga för samtliga roller, inklusive din egen.
 
 > [!NOTE]
 > Endast rollcenteråtgärder för profiler där kryssrutan **Visa i rollutforskaren** är markerad visas i den utökade versionen av rollutforskaren (visas med åtgärden **Utforska alla**). Mer information finns i [Hantera profiler](admin-users-profiles-roles.md).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 95089c696457662737bc524a095b674a5b9a83d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5483c827c9e59b29b7e3f4756ec50ba5977ce923
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878563"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186050"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar
 På sidan **Installation av webbtjänst för KPI för kontouppställning** kan du konfigurera hur du visar kontouppställnings-kpi-data och vilka specifika kontouppställningar som du vill basera KPI-erna på. När du väljer knappen **Publicera webbtjänst** läggs det angivna kontouppställning-kpi-data till listan över publicerade webbtjänster på sidan **Webbtjänster**.  
@@ -53,5 +53,5 @@ På sidan **Installation av webbtjänst för KPI för kontouppställning** kan d
 [Affärsstöd](bi.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-redovisning[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

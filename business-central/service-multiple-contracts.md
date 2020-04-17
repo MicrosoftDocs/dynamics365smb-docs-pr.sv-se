@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877189"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192537"
 ---
 # <a name="multiple-contracts"></a>Flera kontrakt
 Beroende på dina servicenivåavtal med en kund kan du bli tvungen att hantera en serviceartikel på fler än ett servicekontrakt.  
@@ -38,7 +38,7 @@ Du kan manuellt skapa ett servicekontrakt eller en kontraktsoffert för servicea
 När du lägger till en serviceartikel på en kontraktsrad som är registrerad i andra servicekontrakt eller kontraktsofferter, visas ett varningsmeddelande med texten att serviceartikeln redan tillhör ett eller flera servicekontrakt eller kontraktsofferter. Om du bekräftar meddelandet kommer all relevant serviceartikelinformation att kopieras till en ny kontraktsrad.  
   
 ## <a name="copying-documents"></a>Kopiera dokument  
-Du kan automatiskt skapa ett servicekontrakt eller en kontraktsoffert för serviceartiklar som redan har registrerats i andra servicekontrakt eller kontraktsofferter med hjälp av åtgärden **Kopiera dokument**.  
+Du kan automatiskt skapa ett servicekontrakt eller en kontraktsoffert för serviceartiklar som redan har registrerats i andra servicekontrakt eller kontraktsofferter med hjälp av åtgärden **Kopiera från dokument**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Skapa serviceorder för flera kontrakt  
 Du kan skapa en serviceorder manuellt för en serviceartikel som är registrerad i flera aktiva kontrakt. Ett servicekontrakt är aktivt när det är signerat och inte utgånget.  

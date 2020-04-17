@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c8eba304746125e9262ebfff95cfd2379eec08c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cdf14002e28b777441a803fc7804fdac8afe5b77
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311338"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194337"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
@@ -102,7 +102,7 @@ Den största filstorleken som du kan överföra till [!INCLUDE[d365fin](includes
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)], välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Datamigrering** och välj sedan **Datamigrering**.  
+2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Datamigrering** och väljer sedan **Datamigrering**.  
 3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.

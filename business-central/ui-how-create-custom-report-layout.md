@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953233"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189969"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Skapa och ändra anpassade rapportlayouter
 Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter. Du kan skapa egna anpassade layouter som du kan använda för att ändra utseendet på rapporten när den visas, skrivs ut eller sparas. Du kan skapa flera anpassade rapportlayouter för samma rapport, och sedan byta layout som används av en rapport efter behov.
@@ -51,7 +51,7 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 
 Den anpassade layouten har skapats. Du kan nu ändra den anpassade layouten efter behov.
 
-## <a name="ModifyCustomLayout"></a>Ändra en anpassad layout
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Ändra en anpassad layout
 Om du vill ändra en rapportlayout måste du först exportera rapportlayouten som en fil till en plats på din dator eller nätverk, och sedan öppna det exporterade dokumentet och göra ändringarna. När du är klar med ändringarna importerar du rapportlayouten.
 
 ### <a name="to-modify-a-custom-layout"></a>Ändra en anpassad layout
@@ -70,7 +70,7 @@ Om du vill ändra en rapportlayout måste du först exportera rapportlayouten so
 
 5. I dialogrutan **Importera** väljer du **Välj** för att hitta och välja dokumentet och väljer sedan **Öppna**.
 
-##  <a name="MakeChangesToLayout"></a> Skapa och ändra anpassade rapportlayouter  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Skapa och ändra anpassade rapportlayouter  
 Du kan göra allmänna formaterings- och layoutändringar, t.ex ändra textteckensnittet, lägga till och ändra en tabell eller ta bort ett datafält, genom att använda de grundläggande redigeringsfunktionerna i Word.
 
 Om du designar en Word-rapportlayout från noll eller lägger till nya datafält, starta då genom att lägga till en tabell som innehåller rader och kolumner som kommer att innehålla datafälten.
@@ -82,7 +82,7 @@ Om du designar en Word-rapportlayout från noll eller lägger till nya datafält
 
 För att säkerställa att rapporterna alltid visas och skrivs ut med planerade teckensnitt, oavsett om en användare öppnar eller skriver ut rapporter, kan du bädda in teckensnitt i Word-dokumentet. Men tänk på att inbäddade teckensnitt kan öka storleken på de Word-filerna väsentligt. Mer information om inbäddade teckensnitt i Word finns i [inbäddade teckensnitt i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Ta bort rubrik- och datafält i Word-layouter  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Ta bort rubrik- och datafält i Word-layouter  
  Rubrik- och datafält för en rapport finns i innehållskontroller i Word. Efterföljande diagram illustrerar en innehållskontroll när den har valts i Word-dokumentet.  
 
  ![Innehållskontroll för fält i Word-rapportlayouter](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -100,7 +100,7 @@ För att säkerställa att rapporterna alltid visas och skrivs ut med planerade 
 ### <a name="adding-data-fields"></a>Lägga till datafält
 Lägga till datafält från en -rapportdatauppsättning är mer avancerat och kräver viss kunskap om rapportdatauppsättningen. Information om att lägga till fält för data, etiketter, data och bilder finns i [Lägga till fält till en Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81e6dc7fbeef043387d2e78ab549def4dc2d5e6b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c26a10e7597731ccafdd88f99f8e7dd2fda644b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882284"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192310"
 ---
 # <a name="setting-up-service-management"></a>Ställa in tjänstehantering
 Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)], finns det saker som du kan ställa in. T.ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  

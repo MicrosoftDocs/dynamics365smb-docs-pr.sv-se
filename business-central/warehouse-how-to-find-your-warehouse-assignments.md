@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7952276992b28ec5c1c90da10634867ef7b7a35c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fa9fd11847a2da603288ce406722eb765cecc3a0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881756"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193137"
 ---
 # <a name="find-your-warehouse-assignments"></a>Hitta distributionslagerfördelningar
 Öppna kortsidan för ett valt artikel, för att hitta distributionslagren uppgifter. Om distributionslagerinstruktioner har skapats visas rader för att ta och placera, och du kan börja arbeta med en tilldelning. I vissa distributionslager kan chefen ha gett särskilda instruktioner till respektive anställd. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/25/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2896bfc5cafed679bd54dced6c7726a1c49859de
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 3d0d1234a6459b153a436ed2dfe9a3a2f667ab89
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992030"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192753"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigera eller annullera obetalda inköpsfakturor
 Du kan korrigera eller annullera en bokförd inköpsfaktura. Det är användbart om du vill rätta till ett skrivfel eller om du vill ändra inköpet tidigt i orderprocessen.
@@ -24,7 +24,7 @@ Om du redan har betalt för produkter på den bokförda inköpsfakturan kan du i
 
 På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller knappen **Avbryt**. När du uppdaterar eller avbryter en bokförd inköpsfaktura gäller den korrigerande inköpskreditnotan för alla redovisnings- och inventeringstransaktioner som skapades när den ursprungliga inköpsfakturan bokfördes. Det återför den bokförda inköpsfakturan i dina ekonomiska transaktioner och lämnar bokförd korrigering av inköpskreditnota för din verifieringskedja. I det följande beskrivs användningen av **Korrigera** och **Avbryt**.
 <br><br>
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Korrigera en bokförd inköpsfaktura
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  

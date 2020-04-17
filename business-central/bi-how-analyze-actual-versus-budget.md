@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6773f03a436d1a65eace851abb1e886bdccee55f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 32680efab7168ade5c8feca4cb69a37687da708b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953857"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186122"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysera faktiska belopp kontra budgeterade belopp
 Som en del av att samla in, analysera och dela dina företagsdata, kan du visa faktiska belopp och budgeterade belopp för alla konton och för flera perioder.
@@ -64,7 +64,7 @@ I stället för att visa de faktiska och budgeterade beloppen för alla konton u
 3. Högst upp på sidan fyller du i fälten för att definiera vad som ska visas.   
 4. Välj fältet om du vill visa en specifikation av ett visat belopp.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

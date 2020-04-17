@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 56e225ba1de59f596bc9fd54f924d1ca783d3599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 846d01c98baabb8744b537292e3d8547cd3886b2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302236"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184106"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivera koppling av kundreskontratransaktioner till olika valutor
 Om en valuta används vid inköp från en leverantör och en annan vid betalning kan du koppla betalningen till inköpet.
@@ -27,7 +27,7 @@ Om du säljer i en valuta och får betalt i en annan kan du koppla betalningen t
 Efterföljande proceduren beskriver hur du ställer in detta för leverantörsreskontratransaktioner på sidan **Inköpsinställningar**. Denna inställning liknar den för kundreskontratransaktioner på sidan **Försäljningsinställningar**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Så här aktiverar du koppling av leverantörsreskontratransaktioner i olika valutor
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsinställningar** och välj sedan relaterad länk.
 2. I fältet **Koppling mellan valutor** markerar du ett av följande alternativ.
 
 | Alternativ | Beskrivning |
@@ -42,9 +42,9 @@ Om du kopplar transaktioner till olika valutor måste du ange de redovisningskon
 > [!NOTE]  
 >  Du måste skapa redovisningskonton innan du slutför uppgiften. Mer information finns i [Förstå redovisning och kontoplan](finance-general-ledger.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kundbokföringsmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kundbokföringsmallar** och välj sedan relaterad länk.  
 2. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörsbokföringsmallar** och välj sedan relaterad länk.  
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantörsbokföringsmallar** och välj sedan tillhörande länk.  
 4. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
 
 ## <a name="see-also"></a>Se även

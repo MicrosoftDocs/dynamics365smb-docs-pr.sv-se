@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f09ff8999629f2fbb3378174823dc4eec478e8d0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0af922e2af27cc810b3ba77207c271b8f6a4a22f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881558"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195978"
 ---
 # <a name="warehouse-management"></a>Lagerstyrning
 Efter att varor har inlevererats och innan varor har levererats, sker en serie interna lageraktiviteter som säkerställer ett effektivt flöde genom lagerstället och strukturerar och underhåller företagets lager.
 
 Vanliga lageraktiviteter omfattar artikelinförsel, att flytta artiklar inom eller mellan lagerställen och att plocka artiklar från montering, produktion eller utleverans. Montera artiklar för försäljning eller lager måste även ta hänsyn till lageraktiviteter, men dessa klassificeras på annat håll. Mer information finns i [Monteringshantering](assembly-assemble-items.md).  
 
-I stora lager kan dessa olika uppgifter hanteras av olika avdelningar och integrationen hanteras med ett dirigerat arbetsflöde. I enklare installationer är dessa flöden mindre formaliserade, och lageraktiviteterna utförs med så kallad lagerinförsel och lagerplockning. Mer information om grundläggande och avancerade konfigurationer finns i [Designdetaljer: översikt över distributionslager](design-details-warehouse-overview.md).
+I stora lager kan dessa olika uppgifter hanteras av olika avdelningar och integreringen hanteras med ett dirigerat arbetsflöde. I enklare installationer är dessa flöden mindre formaliserade, och lageraktiviteterna utförs med så kallad lagerinförsel och lagerplockning. Mer information om grundläggande och avancerade konfigurationer finns i [Designdetaljer: översikt över distributionslager](design-details-warehouse-overview.md).
 
 Innan du kan utföra lageraktiviteter måste du ange systemet för relevanta komplexiteten i distributionslagerprocessen. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
 
@@ -30,9 +30,9 @@ Lagerrelaterade uppgifter för inventering, justering och gruppering av artiklar
 
  I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
-|**Om du vill**|**Gå till**|  
+|**Om du vill**|**Se**|  
 |------------|-------------|  
-|Registrera inleveransen av artiklar på lagerställen, antingen med en inköpsorder, under enkla lagerställekonfigurationer, eller med en lagerinleverans. Vid halv- eller helautomatisk distributionslagerprocess på plats.|[Ta emot artiklar](warehouse-how-receive-items.md)|
+|Registrera inleveransen av artiklar (inklusive överinleveranser) på lagerställen, antingen enbart med en inköpsorder (i förenklade lagerställekonfigurationer) eller med en lagerinleverans (vid halv- eller helautomatisk distributionslagerprocess på plats).|[Ta emot artiklar](warehouse-how-receive-items.md)|
 |Hoppa över artikelinförseln och välj processer för att påskynda en artikel direkt från produktion till levereras.|[Beräkna direktutleverans av artiklar](warehouse-how-to-cross-dock-items.md)|    
 |Införa artiklar som har inlevererats från inköp, returer, överföringar eller produktionsutflöde enligt den konfigurerade distributionslagerprocessen.|[Införa utflöde från artiklar](warehouse-put-away-items.md)|
 |Flytta artiklar mellan lagerplatser i distributionslagret.|[Flytta artiklar](warehouse-move-items.md)|

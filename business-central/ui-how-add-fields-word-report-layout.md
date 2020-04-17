@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877021"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193931"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -23,7 +23,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
 > [!NOTE]  
 >  Du kan inte ändra inbyggda rapportlayouter<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Så här öppnar du den anpassade XML-delen för rapporten i Word  
+##  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Så här öppnar du den anpassade XML-delen för rapporten i Word  
   
 1.  Öppna sedan Word-rapportlayoutdokumentet i Word, om inte redan har öppnats.  
   

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3f6c42be6f979d2677cb8da57d3c5843d992089a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d97b2cc8070da10de51da1ee43acb9ede4bb5601
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952728"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186074"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
 Inom ekonomisk analys är en dimension data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Dimensioner kan användas på transaktioner i journaler, dokument och budgetar. Termen dimension används för att beskriva hur analyser utförs. Ett exempel på en tvådimensionell analys är försäljning per område. Om du använder fler än två dimensioner när du skapar en transaktion kan du utföra mer komplexa analyser, exempelvis försäljning per försäljningskampanj per kundgrupp per område. Mer information finns i [Arbeta med](finance-dimensions.md).
@@ -74,7 +74,7 @@ Nedanstående procedur beskriver hur du uppdaterar en analysvy från sidan **Ana
 > [!NOTE]  
 >   Om du vill uppdatera några eller alla analysvyer samtidigt måste du använda batchjobbet **Uppdatera analysvyer**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

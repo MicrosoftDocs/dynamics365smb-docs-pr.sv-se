@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910642"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188570"
 ---
-# <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Skapa en miljö för begränsat läge i [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Skapa en miljö för begränsat läge i [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Med [!INCLUDE [prodshort](includes/prodshort.md)] kan du enkelt skapa en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller företagsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
 
@@ -26,7 +26,7 @@ Administratören kan skapa miljö för begränsat läge i [administrationscenter
 > [!NOTE]
 > Tekniskt sett skiljer sig miljöer i begränsat läge mycket från produktionsmiljöer, även om administratören skapar ett begränsat läge som omfattar produktionsdata. Du kan inte använda begränsat läge för benchmarking och du kan exempelvis inte begära en databasexport. Om du vill skapa ett begränsat läge för benchmark-hantering kan administratören skapa en dedikerad produktionsmiljö i administrationscentret. Mer information finns i [Typer av miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-include-prodshortincludesprodshortmd"></a>Skapa miljö för begränsat läge i din [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Skapa miljö för begränsat läge i din [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Logga in i din instans för produktionsmiljö i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

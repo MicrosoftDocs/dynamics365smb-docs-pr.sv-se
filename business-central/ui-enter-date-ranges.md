@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315594"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194409"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
@@ -38,7 +38,7 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Ange datum
 
-I ett datumfält kan du ange ett datum med standardformat för din region. Olika områden kan använda olika avgränsare mellan dagar, månader och år. Exempelvis vissa regioner använder bindestreck (åååå-mm-dd) och andra använda snedstreck (åååå/mm/dd). Du kan använda alla avgränsare, även blanksteg och datumet ändras automatiskt till att använda avgränsare som matchar din region.
+I ett datumfält kan du ange ett datum med standardformat för din region. Olika områden kan använda olika avgränsare mellan dagar, månader och år. Exempelvis använder vissa regioner bindestreck (åååå-mm-dd) och andra snedstreck (åååå/mm/dd). Du kan använda alla avgränsare, även blanksteg och datumet ändras automatiskt till att använda avgränsare som matchar din region.
 
 Observera att formatet som datum visas på utskrivna rapporter eller e-postade dokument påverkas inte av dina personliga inställningar av region.
 
@@ -48,7 +48,7 @@ Om du vill arbeta mer effektivt med datum och tider, använd någon av de metode
 
 Ett fält som visar en kalenderikon kan anges med hjälp av kalenderdatumväljaren. Om du vill visa kalenderdatumväljaren, aktivera kalenderikonen eller tryck på kortkommandot Ctrl + Home i fältet.
 
-![Datumfält](media/ui-date-field.png "Exempel på ett datumfält")
+![Datumfält](media/ui-date-field.png "Exempel på datumfält")
 
 Se även [Kortkommandon i kalenderdatumväljaren](keyboard-shortcuts.md#calendarshortcuts)
 
@@ -78,7 +78,7 @@ Ange ordet for idag på det språk som anges i inställningen **språk** som ska
 
 Om du vill filtrera efter en viss redovisningsperiod i ett datumfält skriver du in p eller ordet period, följt av ett nummer som identifierar bokföringsperioden som p2 eller period4. Bokföringsperioden är i förhållande till räkenskapsåret för det aktuella arbetsdatumet som angetts i ditt rollcenter. Om arbetsdatumet är till exempel **20-03-21**, då är p1, eller bara p filter på den första perioden på räkenskapsåret 2020 (såsom 20-01-01..20-01-31). p15 filter för femtonde bokföringsperioden från början av år 2020 (såsom 21-03-01..21-03-31).
 
-Bokföringsperioder definieras på sidan **Bokföringsperioder**. Om du vill visa eller ändra bokföringsperioderna, öppna sidan [här ](https://businesscentral.dynamics.com/?page=100).
+Bokföringsperioder definieras på sidan **Bokföringsperioder**. Om du vill visa eller ändra bokföringsperioderna, öppna sidan [här](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Aktuellt arbetsdatum
 
@@ -121,7 +121,7 @@ Följande tabell innehåller exempel på datum med alla format. Det förutsätte
 |t 23|Tisdag av vecka 23 arbetsdatumets år|
 |t-1|Tisdag av vecka 1 arbetsdatumets år|
 
-##  <a name="BKMK_SettingDateRanges"></a> Inställningsintervall
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Inställningsintervall
 
 I listor, summor och rapporter kan du ange filter för datum, tid och datum och tid som innehåller ett startvärde och ett slutvärde om du endast vill visa de data som finns inom intervallet. Standardregler gäller för hur du kan ange datumintervall.
 
@@ -323,13 +323,13 @@ I följande tabell visas några exempel på kombinationer av datum/tid. Regionin
 
 |**Format**      |**Tolkning**      |
 |---------------|------------------------|
-|08-01-2016 05:48:12 PM|2016-01-08 17:48:12|
-|131202 132455|2002-12-13 13:24:55|
-|1-12-02 10|2002-12-01 10:00:00|
-|1.12.02 5|2002-12-01 05:00:00|
-|1.12.02|2002-12-01 00:00:00|
-|11 12|arbetsdatum år-arbetsdatum månad-11 12:00:00|
-|1112 12|arbetsdatum år-12-11 12:00:00|
+|08-01-2016 05:48:12 PM|08\-01\-2016 17:48:12|
+|131202 132455|13\-12\-2002 13:24:55|
+|1-12-02 10|01\-12\-2002 10:00:00|
+|1.12.02 5|01\-12\-2002 05:00:00|
+|1.12.02|01\-12\-2002 00:00:00|
+|11 12|11\-arbetsdatum månad\-arbetsdatum år 12:00:00|
+|1112 12|11\-12\-arbetsdatum år 12:00:00|
 |d eller dagens datum|dagens datum 00:00:00|
 |d 10:30|dagens datum 10:30:00|
 |d 03:03:03|dagens datum 03:03:03|
@@ -368,4 +368,4 @@ Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
-[Ange villkor i filter](ui-enter-criteria-filters.md)  
+[Ange villkor i filter ](ui-enter-criteria-filters.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310978"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195585"
 ---
 # <a name="send-documents-by-email"></a>Skicka dokument som e-post
 För att meddela innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder, kan du använda funktionen Rapportlayout för att definiera dokumentspecifikt innehåll som infogas i e-postbrödtexter automatiskt. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
@@ -32,7 +32,7 @@ Om fältet **E-posta** på sidan **Skicka dokument till** anges till **Ja (fråg
 Efterföljande procedur beskriver hur du ställer in rapporten **Försäljning - faktura** att användas för dokumentspecifika e-postbrödtexter, när du e-postar bokförda försäljningsfakturor.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Rapportval, försäljning** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval, försäljning** och välj sedan tillhörande länk.
 2. På sidan **Rapportval, försäljning** i fältet **Användning** väljer du **Faktura**.
 3. På en ny rad i fältet **Rappport-ID** väljer du t.ex. standardrapport 1306.
 4. Markera kryssrutan **Använd för e-postbrödtex**.
@@ -48,7 +48,7 @@ Nu när du till exempel väljer åtgärden **Skicka** på sidan **Bokförd förs
 Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktura som ett e-postmeddelande med dokumentet bifogat som en PDF-fil och med dokumentspecifik e-postbrödtext.
 
 ## <a name="to-send-documents-by-email"></a>Så här skickar du dokument som e-post
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförd försäljningsfakturor** och välj sedan relaterad länk.
+1. Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.
 2. Markera den relevanta bokförda försäljningsfakturan och välj åtgärden **Skicka**. Sidan **Skicka dokument till** öppnas.
 3. I fältet **E-post** väljer du **Ja (fråga efter inställningar)**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
 4. Välj knappen **OK**. Sidan **Skicka e-post** öppnas.

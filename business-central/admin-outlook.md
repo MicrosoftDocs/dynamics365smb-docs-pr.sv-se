@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953026"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186910"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 
@@ -35,7 +35,7 @@ Om du arbetar med mer än ett [!INCLUDE [prodshort](includes/prodshort.md)]-för
 > [!NOTE]
 > Växla mellan företag kräver [!INCLUDE [prodshort](includes/prodshort.md)] 2019 utgivningsplan 2 eller senare som meddelats i [utgivningsplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Så bör du kontrollera att du har en Office 365-prenumeration som innehåller e-post och låter dig distribuera tillägg. Om du vill testa tillägget i alla fall kan du [prova Office 365 gratis](https://products.office.com/try).  
+Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Du måste därför kontrollera att du har en Office 365-prenumeration som omfattar e-transaktion och som låter dig distribuera tillägg. Om du ändå vill testa tillägget kan du [prova Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Använda tillägget Information om kontakt
 Anta att du får ett e-postmeddelande från en kund som vill ha en offert för vissa artiklar. Direkt i Outlook kan du öppna tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] som känner igen avsändaren som en kund, och öppnar kundkortet för hans företag. Från denna instrumentbräda kan du se översiktsinformation för kunden samt bläddra ned för mer detaljer för särskilda dokument. Du kan också studera kundens försäljninghistorik. Om det är en ny kontakt kan du skapa den som en kund i [!INCLUDE[d365fin](includes/d365fin_md.md)] utan att lämna Outlook.  
@@ -68,9 +68,9 @@ I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte 
 
 ## <a name="using-other-email-accounts"></a>Använda andra e-postkonton
 
-Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE [prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE [prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i [vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) och [funktioner som kräver särskilda omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE [prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE [prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i [vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) och [funktioner som kräver särskilda omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/20/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991982"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190689"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 Betalningshanteringen består i att kontrollera om kunderna betalar i tid. Om kunderna har förfallna betalningar, kan du börja med att skicka kundkontoutdragsrapporten som betalningspåminnelse. Alternativt kan du skicka betalningspåminnelser.
@@ -263,7 +263,7 @@ När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetrans
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Transaktioner**.
 3. På sidan **Kundreskontratransaktioner** markerar du raden med den transaktion som du vill visa betalningspåminnelsetransaktionerna för och väljer sedan åtgärden **Bet.påminnelse-/räntetrans.**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  

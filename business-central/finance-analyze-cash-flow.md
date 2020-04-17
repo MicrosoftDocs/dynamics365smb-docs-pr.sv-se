@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3e66c2d6beb24c82fcd314caeac00f3c7b20412a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953161"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184010"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
 Som de säger - kontanter är det som styr. Diagrammen i rollcentret Revisor ger en inblick som hjälper dig att ta beslut om vad du ska göra med dina kontanter.  
@@ -49,7 +49,7 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 2. Välj en kassaflödesprognos och välj sedan åtgärden **kassaflödeskalkylblad**.  
 3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå kalkylarksrader**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ställa in Finance](finance-setup-finance.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e13ca8290c4f9036c96b7aed8ab42c43142b4e47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954193"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190929"
 ---
 # <a name="purchasing"></a>Inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
@@ -46,7 +46,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Lösa problem när det finns två eller flera poster för samma leverantör.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 |Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathspurchase-items-services-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6522d2ab515cc32144b2860038f7c71dcd4b53e9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315906"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192465"
 ---
 # <a name="service-posting"></a>Servicebokföring
 Funktionen för servicebokföring gör att du kan behandla dokumenten mer effektivt och upprätthålla en bra service till kunderna. Du kan skapa och uppdatera bokförda dokument och skapa transaktioner i modulen Service och i andra moduler så att informationen alltid är korrekt uppdaterad.  
@@ -49,7 +49,7 @@ När du bokför en servicefaktura, en serviceleverans eller en servicekreditnota
 
 I proceduren nedan används en bokförd servicefaktura som exempel, men samma procedur kan koppla till den bokförda serviceleveransen och bokförda kreditnotor.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförd servicefaktura** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda servicefakturor** och välj sedan tillhörande länk.  
 2. Öppna den bokförda servicefaktura som du vill visa.  
 3. Om du vill få en översikt över den bokförda fakturan, väljer du åtgärden **statistik**.  
 

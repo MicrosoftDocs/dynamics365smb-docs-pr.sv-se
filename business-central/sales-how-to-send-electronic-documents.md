@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 10547ee8f8a9e760721e12746fc25031001e7330
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 110c81bdf6de02e16a1e1185028f6b803290f3d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954112"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192671"
 ---
 # <a name="send-electronic-documents"></a>Skicka elektroniska dokument
 Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster En leverantör av dokumentväxlingstjänster skickar dokument elektroniskt mellan handelspartners. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.  
@@ -49,13 +49,13 @@ Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder u
     > [!NOTE]  
     >  Du kan även skicka en bokförd försäljningsfaktura som ett elektroniskt dokument. Proceduren är samma som har beskrivits i det här avsnittet för icke-bokförda försäljningsdokument. På sidan **Bokförd försäljningsfaktura** väljer du åtgärden **Aktivitetslogg** för att visa status för det elektroniska dokumentet. Mer information finns i **Aktivitetslogg**  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md)  
 [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Konfigurera en tjänst för dokumentutbyte](across-how-to-set-up-a-document-exchange-service.md)  
-[Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
-[Utbyta data elektroniskt](across-data-exchange.md).  
+[Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
+[Utbyta data elektroniskt](across-data-exchange.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992096"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194433"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -29,7 +29,7 @@ Det finns flera kortkommandon som gör att du kan arbeta ”utan mus” och snab
 
 Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I den här artikeln beskrivs några genvägar.
 
-## <a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
 
 Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t.ex. på kortsidorna) och i listor (rader och kolumner). Det är bra när återkommande textinmatningsuppgifter utförs som behöver skapa flera poster i taget, till exempel en uppsättning försäljningsorder eller registrering av nya artiklar.
 
@@ -86,11 +86,11 @@ Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](ui-co
 
 ## <a name="filtering-line-items"></a>Filtrera radposter
 
-För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura och filtrerar radposter för att visa alla radposter som har en enskild rabatt på mer än 5 % eller ett filter för att visa endast cykeltillbehör med "proffs" i namnet.
 
-## <a name="Focus"></a>Fokusera på radartiklar
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusera på radartiklar
 
 När du arbetar med dokument som innehåller en del av en radartikel, t.ex. en försäljningsorder eller fakturasida, kan du växla vyn så att endast radartiklarna fokuseras. Radobjektsdelen expanderas sedan så att den upptar ganska mycket på hela arbetsytan och döljer andra delar av sidan utom åtgärdsområdet högst upp. Detta ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem.
 
@@ -113,6 +113,11 @@ Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster välj
 > [!NOTE]
 > Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Samma sak kan hända i andra webbläsare, till exempel Firefox. Mer information finns i [Inställningar för blockering av popup-fönster i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Ett ytterligare sätt att multitaska är att öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] i två eller flera webbläsarflikar. När du gör detta bör du skapa en ny flik och sedan kopiera/klistra in URL-adressen för den ursprungliga fliken på den nya fliken. Då skapas en ny session.   
+
+> [!NOTE]
+> Använd inte funktionen **Kopiera** i webbläsaren för att skapa den nya fliken eftersom detta kan medföra att åtgärder på en flik blockerar åtgärder på andra flikar då dessa ingår i samma session.
 
 ## <a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning
 
@@ -150,7 +155,7 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
 ### <a name="entering-dates"></a>Ange datum
 
-För datumfält kan du antingen använda dataväljaren som låter dig välja ett datum från en kalender eller så kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
+För datumfält kan du antingen använda dataväljaren som låter dig välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
 För manuell datainmatning kan du skriva in två, fyra, sex eller åtta siffror.  
 

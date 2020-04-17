@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 74df58ca34ce38c74ece42d5c2a990ca97b7a220
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030106"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189897"
 ---
 # <a name="create-service-orders"></a>Skapa tjänsteorder
 Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.  

@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832365"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194673"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar företagets behov.
+# <a name="setting-up-prodshort"></a>Ställa in [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov.
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
-Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).
-
-> [!NOTE]
-> Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Via menyn ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) kan du komma åt assisterade konfigurationsguider som hjälper dig att konfigurera specifika och lägga till funktioner i [!INCLUDE[prodshort](includes/prodshort.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).
 
 Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver den assisterade inställningsguiden. Nedan anges några av de funktioner som du kan ställa in manuellt.
 
@@ -56,6 +54,9 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 |Konfigurera och tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.|[Skapa baskalendrar](across-how-to-assign-base-calendars.md)|  
 
 Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Administration](admin-setup-and-administration.md).  
+
+> [!NOTE]
+> Som administratör kan du skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services som är ett verktyg utformat för att förkorta distributionstider, förbättra implementeringskvaliteten, införa en upprepningsbar implementeringsmetod samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Se även
 

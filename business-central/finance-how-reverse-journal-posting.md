@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 38c836609a4e896b9fb71d0195f1d3c05d1cf081
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999861"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183578"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Återföra journalbokningar och ångra inleveranser/utleveranser
 För att kunna återföra (ångra) en felaktig bokföring markerar du posten och skapar en korrigeringspost (transaktioner som är identiska med den ursprungliga transaktionen, men har ett motsatt tecken i beloppsfältet) med samma dokumentnummer och bokföringsdatum som den ursprungliga posten automatiskt. När du har återfört en post måste du skapa en korrekt post.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: 8d99976a5a7940cf43506503ca8d625109f540b8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896091"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186530"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Förbereda migrering av kunddata
 När du har importerat och kopplat inställningsdatan i den nya databasen, kan du börja migrera kundens befintliga huvuddata, till exempel artikel- och kundnummer samt namn. För att se till att dessa data, skapas snabbt och exakt i det nya företaget, måste du använda mallar för att strukturera data.  

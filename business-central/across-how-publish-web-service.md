@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 04af1a52bb0a2e14a2775efe6e3a6ccf77441d29
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030250"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188498"
 ---
 # <a name="publish-a-web-service"></a>Publicera en webbtjänst
 
-Webbtjänster är en enklare sätt att göra applikationfunktioner tillgängliga för en mängd olika externa system och användare. [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal objekt som visas som webbtjänster som standard på grund av integrationen med andra Microsoft-tjänster, men du kan också lägga till andra webbtjänster.  
+Webbtjänster är en enklare sätt att göra applikationfunktioner tillgängliga för en mängd olika externa system och användare. [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal objekt som visas som webbtjänster som standard på grund av integreringen med andra Microsoft-tjänster, men du kan också lägga till andra webbtjänster.  
 
 Du skapar en webbtjänst på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten. Sedan måste Du publicerar webbtjänsten för att göra den tillgänglig att serva förfrågningar över nätverket. Användare kan upptäcka webbtjänster, genom att styra en webbläsare på serverplatsen och begär en lista över tillgängliga tjänster. När du publicerar en webbtjänst, blir den direkt tillgänglig i nätverket för autentiserade användare. Alla behöriga användare kan komma åt metadata för webbtjänster, men endast användare, som har tillräcklig behörighet kan komma åt faktiska data.
 

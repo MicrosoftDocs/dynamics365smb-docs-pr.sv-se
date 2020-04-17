@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952632"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183794"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -209,7 +209,7 @@ När du bokför dokument eller journalrader som innehåller dimensioner kan olik
 |Icke-tomt dimensionsvärdekod för tomma standarddimensionen när fältet **värdebokföring** innehåller **Samma kod**|-%1 %2 måste vara tom.<br />-%1 %2 måste vara tom för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ange en icke tom dimensionsvärdekod för dimensionen som är i konflikt i dimensionsuppsättningen.|
 |Oväntat dimensionsvärde för standarddimensionen när fältet **värdebokföring** innehåller **Ingen kod**|-%1 %2 får inte tas med.<br />.%1 %2 får inte tas med för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ta bort raden i konflikt från dimensionsuppsättningen.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Affärsstöd](bi.md)  

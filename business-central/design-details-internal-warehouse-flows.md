@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880358"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185330"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interna distributionslagerflöden
 Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras på plockning av komponenter och införsel av slutartiklar för monterings- eller produktionsorder och ad hoc-transporter, till exempel lagerplatspåfyllningar, utan relation till källdokument. Omfattningen och typen av de berörda aktiviteterna varierar mellan grundläggande och avancerad lagerstyrning.  
@@ -68,7 +68,7 @@ Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras
 ### <a name="flows-to-and-from-production"></a>Flöden till och från produktion  
  Den huvudsakliga integreringen mellan produktionsorder och avancerade lageraktiviteter representeras av kan du välja ut produktionskomponenter, på sidan **Distributionslagerplockning** och sidan **Plockningskalkylark**, och möjligheten att införa producerade artiklar via sidan **Dist.lager intern art.införsel**.  
 
- En annan integrationspunkt i produktionen finns på sidan **Dist.lager transport** tillsammans med sidan Transportkalkylark som du kan använda för att placera komponenter och ta producerade artiklar för släppta produktionsorder.  
+ En annan integreringspunkt i produktionen finns på sidan **Dist.lager transport** tillsammans med sidan Transportkalkylark som du kan använda för att placera komponenter och ta producerade artiklar för släppta produktionsorder.  
 
  Fälten **Till prod.-lagerplats - kod**, **Från prod.lagerplats - kod** och **Öppen prod.lagerplats kod** på lagerställekortet eller maskin-/produktionsgruppkorten definierar standardflöden till och från produktionsområden.  
 

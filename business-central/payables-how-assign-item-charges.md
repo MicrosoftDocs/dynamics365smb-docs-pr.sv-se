@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2d9228b213d540a6aed034964fbeaa2bd6f49b57
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878144"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190329"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.
@@ -40,7 +40,7 @@ För både inköps- och försäljningsdokument, kan du tilldela en artikelomkost
 ## <a name="example"></a>Exempel
 Det här videoklippet visar hur du hanterar ytterligare leveranskostnader som en del av lagerkostnad.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Så här skapar du artikelomkostnadsnummer
 Artikelomkostnadsnummer används för att skilja mellan olika typer av artikelomkostnader som används för inköpsdokument i företaget.

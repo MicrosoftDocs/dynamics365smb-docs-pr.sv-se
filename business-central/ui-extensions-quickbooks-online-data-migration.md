@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bbfbb187ff533a2c786d0a5b4aa26a20518f760b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315426"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189729"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Tillägget QuickBooks Online datamigrering
 Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -50,7 +50,7 @@ Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett ska
 ## <a name="how-do-i-start-using-the-extension"></a>Hur börjar jag använda tillägget?
 Komma igång enkelt. Allt du behöver göra är att köra den assisterade guiden **datamigrering**. Så här gör du:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Assisterad konfiguration** och välj sedan **Migrera affärsdata**.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Assisterad konfiguration** och sedan **Migrera affärsdata**.
 2. Följ instruktionerna i varje steg i guiden assisterad konfiguration.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
@@ -63,5 +63,5 @@ Det finns några saker som du bör göra:
 * Kontrollera de ingående saldona för konton i redovisningen. QuickBooks Online sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
 ## <a name="see-also"></a>Se även
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  

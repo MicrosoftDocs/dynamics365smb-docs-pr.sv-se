@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac6b41d9fe03968531b7d99e534055b6a9955f57
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 24dc65182bba549f624f8a66e7eecb1341f1aee1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030298"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192801"
 ---
 # <a name="understanding-wip-methods"></a>Förstå PIA-metoder
 Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig.

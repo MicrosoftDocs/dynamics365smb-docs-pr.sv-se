@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 91414ebfe6ac77da2dfc521c9d9cf1e500be8539
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: daca27c051c8bdefe9a0424bca4699446ee9c84f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300455"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188606"
 ---
 # <a name="create-incoming-document-records"></a>Skapa inkommande dokumentposter
 På sidan **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
@@ -29,7 +29,7 @@ Innan du kan använda funktionen för inkommande dokument måste du utföra de n
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Så här Godkänn eller avvisa ett inkommande dokument.
 Om du inte vill att användare ska skapa fakturor eller redovisningsjournalrader från inkommande dokumentposter om inte dokumenten har godkänts först kan du konfigurera godkännare som måste godkänna transaktionerna innan de kan behandlas.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Markera raden med dokumentet som du vill godkänna eller avvisa, och välj sedan åtgärden **godkänna** eller **avvisa**.
 
 Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** på den inkommande dokumentraden. Användaren som ansvarar för att skapa t.ex inköpsfakturor kan fortsätta med att bearbeta transaktionen.
@@ -57,7 +57,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
     Bilden har bifogats till den inkommande dokumentposten.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Så här skapar du en inkommande dokumentpost manuellt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inkommande dokument** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Välj åtgärden **Skapa från fil**.  
 3. Välj en fil och välj sedan **Öppna** på sidan **Infoga fil**. Filen kopplas automatiskt.
 4. Välj alternativt åtgärden **Ny**.

@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e75274a4fd42bb379f99a94c27c6fb21e25bc836
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ba92d4f6b749024a647867a3aadd0a3bd1a639b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301075"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189152"
 ---
 # <a name="set-up-automatic-account-posting-groups"></a>Ställ in automatiska kontobokföringsmallar
 Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  
 
 ## <a name="to-set-up-automatic-account-posting-groups"></a>Så här ställer du in automatiska kontobokföringsmallar  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Söka efter sida eller rapport"), ange **Automatkontering** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Automatkontering** och välj sedan tillhörande länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  
 

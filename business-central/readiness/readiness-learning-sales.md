@@ -2,15 +2,15 @@
 title: Utbildningskatalog för partnerförsäljning och marknadsföring
 description: Hitta alla tillgänglig utbildning för Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 0e5dd14a9d7da8ea6dc25623f15338ace7d11e80
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 6c9a8952a5f0bc0144665eedd92f5c8c2384a344
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097629"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190745"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Utbildningskatalog för partnerförsäljning och marknadsföring
 
@@ -18,7 +18,7 @@ ms.locfileid: "3097629"
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov.  
 
-## Affärsvärde<a name="busvalue"></a>
+## <a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
 
 | Innehåll                                                                          | Beskrivning                                                                                                                                                                                                                                                                                              | Format                                | Längd              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -26,7 +26,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna                                                                                                                                                                                                                                                        | Webbplats                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion.                                                                                                                                                                                                | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
-## Komma igång<a name="get-started"></a>
+## <a name="getting-started"></a>Komma igång<a name="get-started"></a>
 
 | Innehåll                                                                                                                             | Beskrivning                                                                                                                                                                                                                                                                                               | Format                                | Längd              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -35,7 +35,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Arbeta som ett proffs med data i Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.                                                                                                           | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
 | [Business Central YouTube-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-landningssida för Dynamics 365 Business Central-videor                                                                                                                                                                                                                                             | YouTube-videor                        |                     |
 
-## Affärsvärde<a name="busvalue"></a>
+## <a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
 
 | Innehåll                                                                          | Beskrivning                                                                                                                                                                                                                                                                                               | Format                                | Längd              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -43,7 +43,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna                                                                                                                                                                                                                                                        | Webbplats                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion.                                                                                                                                                                                                | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
-## Utveckla företaget<a name="grow"></a>
+## <a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
 
 | Innehåll                                                                                                                               | Beskrivning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Format                                | Längd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

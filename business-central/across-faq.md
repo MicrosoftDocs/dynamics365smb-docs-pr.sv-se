@@ -5,24 +5,24 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/12/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910934"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188690"
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
 Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och använda utvärderingsversion, köpa en prenumeration och använda [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också lära dig hur du får teknisk support.  
 
-## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Är [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgänglig i mitt land?
+## <a name="is-d365fin-available-in-my-country"></a>Är [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgänglig i mitt land?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgänglig på ett begränsat antal marknader, men nya länder tillkommer varje kvartal via lokalisering av Microsoft eller dess partner. Mer information finns i avsnittet [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (finns endast på engelska).  
 
-## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Hur får jag [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>Hur får jag [!INCLUDE [prodshort](includes/prodshort.md)]?
 
 Du kan registrera dig för en kostnadsfri utvärderingsversion för att utforska [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)]Om du vill ha mer tid för att utforska, [kan du utöka utvärderingsperioden](#can-i-extend-my-30-day-new-company-trial-period).  
 
@@ -35,9 +35,9 @@ Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hit
 
 På startsidan för gruppen hittar du även länkar till vår bloggar där det finns också tips och råd. Mer information finns i [Microsoft Dynamics 365 Business Central på Dynamics 365-blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) och den äldre [Dynamics 365 Business Central bloggen](https://community.dynamics.com/business/b/financials).  
 
-Slutligen kan du kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)] återförsäljare. Mer information finns i avsnittet [Hur får jag teknisk support?](across-faq.md#how-do-i-get-technical-support-for-) och [Hur hittar jag en återförsäljningspartner?](#findpartner).  
+Slutligen kan du kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)] återförsäljare. Mer information finns i avsnittet [Hur får jag teknisk support?](across-faq.md#hdigetsupport) och [Hur hittar jag en återförsäljningspartner?](#findpartner).  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-d365fin"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Har du läst om en ny funktion i viktig information eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] har uppgraderats till den senaste versionen ännu. Du kan kontrollera vilken version din [!INCLUDE[d365fin](includes/d365fin_md.md)] baseras på, på sidan [Hjälp och support](product-help-and-support.md).  
 
 Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.  
@@ -45,14 +45,14 @@ Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördrö
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Finns det skillnader mellan en lokal distribution och molnversionen av Business Central?
 Ja. Vissa molnbaserade funktioner kan köras i vissa fall och andra stöds inte alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kan jag få utbildning i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="can-i-get-training-in-d365fin"></a>Kan jag få utbildning i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft Learn-webbplatsen](/learn/browse/?products=dynamics-business-central). Mer information finns i [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md). Du kan också be din återförsäljare om ytterligare utbildningar. Om du inte vet vem det är, se avsnittet [Hur jag hittar en återförsäljningspartner?](#findpartner).  
 
 Mer information om utbildning om Dynamics 365 som tillhandahålls från Microsoft finns på sidan [Microsoft Dynamics 365- utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 Ytterligare innehåll tillhandahålls av [!INCLUDE [prodshort](includes/prodshort.md)]-communityn, t.ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hur får jag teknisk support för [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Hur får jag teknisk support för [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] säljs via partners och du bör kontakta din återförsäljare för att få hjälp med tekniska problem. Om din [!INCLUDE[d365fin](includes/d365fin_md.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  
 
@@ -65,8 +65,7 @@ Om upplevelseinställningen på sidan **företagsinformation** anges till **vikt
 
 Det finns ingen *Spara*-knapp på sidor som i andra program som du kanske är bekant med. I [!INCLUDE[d365fin](includes/d365fin_md.md)] sparas ändringar du gör i ett fält automatiskt när du flyttar till nästa fält eller stänger sidan, förutsatt att det inte finns några fel. När du ändrar i ett fält och flyttar till ett annat fält, visas texten **Sparar** i övre högra hörnet på sidan, som snabbt ändras till **Sparad** om inga fel uppstår. Om det uppstår ett fel, ändras texten till **Inte sparad**.
 
-
-## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Vilken e-postadress kan jag använda med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Vilken e-postadress kan jag använda med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kräver att du använder en e-postadress från ditt arbete eller skola för att registrera dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  
 
 Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola. Mer information finns i [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md).  
@@ -80,10 +79,10 @@ Om du loggar in med ett konto som inte är ett Office 365-arbetskonto (t.ex. joe
 
 Om du inte har en Office 365-prenumeration och du inte vill köpa en och sedan, när du registrerar dig, etablerar vi en ny Azure Active Directory-innehavare automatiskt så att du kan komma åt Azure-portalen där du har tillgång till avancerade administratörsverktyg.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Vad handlar integrationen med Office 365 om?
+## <a name="what-is-the-integration-with-office-365-about"></a>Vad handlar integreringen med Office 365 om?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online är helt integrerad med Office 365 så att du kan navigera fritt mellan Office 365-programmen och [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av programmarstartbilden. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du t.ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](admin-outlook.md).  
 
-## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jag förlänga min ”nytt företag”-utvärderingsperiod på 30 dagar?
+## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jag förlänga min 30 dagar långa utvärderingsperiod för nytt företag?
 Ja. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett meddelande när du loggar in. Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden. De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden. Du kan förlänga utvärderingsperiod en gång själv. Därefter kan en Microsoft-partner förlänga den i ytterligare 30 dagar. Mer information finns i [Förlänga utvärderingsperioden](admin-extend-trial.md).
 
 > [!NOTE]
@@ -91,7 +90,7 @@ Ja. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett med
 
 Mer information om att hitta en partner finns i [Hur hittar jag efter en återförsäljningspartner?](#findpartner).  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Vår administratör har flyttat mig till ett annat plan för att ge mig en annan roll, men jag ser fortfarande samma startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-d365fin"></a>Vår administratör har flyttat mig till ett annat plan för att ge mig en annan roll, men jag ser fortfarande samma startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Detta är lite komplicerat, men det verkar som om administratören inte ändrade din tilldelade roll och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)] av vilken typ av plan (licens) du har - detta bestämmer dina behörigheter och din tilldelade roll och din standardstartsida. Du kan ändra din nuvarande roll manuellt i Mina inställningar men om du har ändrat till ett annat plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jag avbryta min prenumeration?
@@ -100,7 +99,7 @@ Ja men, beroende på hur du registrerade dig på [!INCLUDE[d365fin](includes/d36
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan jag använda autentisering på flera plan?
 Visst. Om du gör det, kanske du måste ha ett applösenord för att kunna skicka e-postmeddelanden. Applösenord ger en app eller en enhet åtkomst till ditt e-postkonto. Stegen för att få ett applösenord varierar beroende på din e-postleverantör. Mer information finns i hjälpen från leverantören. Till exempel om du använder Outlook, se [skapa ett applösenord för Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
-## <a name="findpartner"></a>Hur hittar jag en återförsäljningspartner?
+## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hur hittar jag en återförsäljningspartner?
 
 [!INCLUDE [prodshort](includes/prodshort.md)] säljs och genomförs via ett globalt nätverk av Dynamics 365-partner med branschkunskap. Kontakta en partner för detaljerad utvärdering, konsulttjänster och ytterligare prissättning. Mer information finns i avsnittet **prissättning** på sidan [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 

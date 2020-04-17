@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 85f7feccd0eefa7c709ce077a8b01b049fc675c8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c292a7bdaaa94a457a98a478e38a90d60639abf1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954063"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190713"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Koppla utbetalningar automatiskt och stämma av bankkonton
 Du måste regelbundet stämma av dina bankkonton, kundfordringskonton och konton för leverantörsreskontra genom att koppla betalningar som är registrerade i banken till dessas motsvarande öppna (obetalda) fakturor och kreditnotor eller andra öppna transaktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,7 +42,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Koppla text på betalningar till specifika kund-, leverantörs- eller redovisningskonton för att alltid bokföra återkommande inbetalningar eller kostnader på dessa konton när det inte finns dokument att applicera dem på. |[Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Ange reglerna som styr hur betalningar/banktransaktioner automatiskt ska kopplas till sina relaterade öppna transaktioner när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**.|[Definiera regler för automatisk koppling av betalningar](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesuse-journals-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md)  

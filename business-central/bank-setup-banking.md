@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: ea9b5753e159d16b1e0348053ea71816934cbe43
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910401"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186170"
 ---
 # <a name="setting-up-banking"></a>Ställa in bank
 Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.

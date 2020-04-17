@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882189"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194457"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista eller i en rapport eller XMLport. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -69,7 +69,7 @@ I tabellen nedan finns några exempel som förklarar hur du kan använda söknin
 > [!TIP]
 > Du kan trycka på **F3** för att aktivera och avaktivera sökrutan. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Filtrering
+## <a name="filtering"></a><a name="filtering"></a>Filtrering
 Filtrering ger ett mer avancerat och flexibelt sätt att kontrollera vilka poster som ska visas i en lista eller inkludera en rapport eller XMLport. Det finns två stora skillnader mellan sökning och filtrering, enligt beskrivningen i följande tabell.
 
 || **Sökning** | **Filtrering** |
@@ -132,7 +132,7 @@ Kolumner som redan har filter som indikeras av ikonen ![filterikon](media/ui-sea
 > [!TIP]
 > Sök och analysera dina data snabbare genom att använda kombinationer av kortkommandon. Exempelvis markerar du ett fält, använder **Skift + Alt + F3** om du vill lägga till fältet i filterrutan, använder **Ctrl + Retur** om du vill återgå till raderna, markerar ett annat fält och använder **Alt + F3** för att filtrera det värdet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filterkriterier och symboler
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filterkriterier och symboler
 När du anger kriterier kan du använda alla siffror och bokstäver som du normalt kan använda i fältet. Dessutom kan du använda specialtecken (eller operatorer) som du vill filtrera resultatet ytterligare. I tabellen nedan visas de symboler som kan användas i filter. För datum och tid kan du också se [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md) för mer detaljerad information.
 
 > [!IMPORTANT]  
@@ -231,7 +231,7 @@ I följande avsnitt beskrivs hur du använder olika operatorer.
 |`..1299|1400..`|Ta med poster med nummer mindre än eller lika med 1299 och nummer större än eller lika med 1400 (d.v.s. alla nummer utom 1300 t.o.m. 1399)|  
 |`>50&<100`|Ta med poster med nummer större än 50 och mindre än 100 (d.v.s. nummer fr.o.m. 51 t.o.m. 99)|  
 
-### <a name="FilterTokens"> </a>Filtertoken
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Filtertoken
 När du anger filterkriterier kan du även skriva ord som har en speciell betydelse som kallas filtertoken. När du har angett tokenordet, ersätts ordet med värden som det representerar. Detta gör filtreringen enklare genom att minska behovet av att gå till andra sidor för att söka efter värden som du vill lägga till i filtret. Tabellerna nedan beskriver några av de token som du kan skriva som filterkriterier.
 
 > [!TIP]

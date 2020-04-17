@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a64b2fc63cd969afbf93bb380592b11e9ad16bc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31c119958b12701f6e5e18d21ea4b48246255042
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312010"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194793"
 ---
 # <a name="create-special-orders"></a>Skapa specialorder
 Du kan skapa en specialorder för en specifik katalogartikel som inte finns i lagret och som ska levereras till en specifik kund. Leverantören levererar artikeln till distributionslagret så att du sedan kan leverera den till kunden, som en enskild leverans eller tillsammans med andra artiklar på en annan order.  
@@ -25,12 +25,12 @@ Specialorder anger att inköps- och försäljningsordern är länkade för att s
 Innan den här funktionen kan användas måste de kund-, leverantörs- och artikelkort som behövs för ordern läggas upp.  
 
 ## <a name="to-create-a-special-order"></a>Så här skapar du en specialorder  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Skapa och fyll i  försäljningsorder för artikeln. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3.  Fyll i försäljningsraden på snabbfliken **Rader** . I fältet **Inköpskod**, välj en inköpskod som har fältet **Specialorder** markerat.
 
     Därefter måste du skapa en inköpsorder från ett inköpsförslag.  
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsförslag** och välj sedan relaterad länk.  
+4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rekvisitionskalkylark** och välj sedan tillhörande länk.  
 5. Välj åtgärden **Specialorder** och väljer sedan åtgärden **Hämta förs.order**.  
 6.  På sidan **Hämta förs.order** visar resultat där **Verifikationsnr** är numret på försäljningsordern. Välj **OK**. En inköpskalkylarksrad skapas för artikeln.  
 7.  På inköpskalkylarksraden, i fältet **Åtgärdsmeddelande**, väljer du **Ny**.  

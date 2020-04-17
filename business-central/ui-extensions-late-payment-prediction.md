@@ -8,33 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315513"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194169"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
 
-## <a name="what-are-predictions-based-on"></a>Vad baseras förutsägelser på?  
-Tillägget för prediktion om sen betalning använder en prediktiv modell som vi har utvecklat i Azure Machine Learning Studio och utbildat genom att använda data som representerar ett antal små och medelstora företag. Även om vi redan har utbildat och utvärderat den kommer vår prediktiva modell fortsätta att lära sig av dina data. Ju mer du använder modellen och ju mer data du matar den med, desto mer exakta blir förutsägelserna. Som standard utvärderar tillägget modellen och uppdateras förutsägelser varje vecka. Du kan emellertid uppdatera förutsägelser när som helst genom att välja åtgärden **Uppdatera prediktion** på sidan **Kundreskontratransaktioner**.  
-
-> [!Note]
-> Vi använder lite av din bearbetningstid varje vecka när vi utvärderar modellen och uppdaterar dina prediktioner. Förutom att manuellt uppdatera dina prediktioner finns det andra åtgärder som förbrukar bearbetningstid, t.ex. när du utbildar modellen (som du kan göra om du nyligen har lagt till data) och när du utvärderar modellen (som tittar på modellens kvalitet).
-
 ## <a name="getting-started"></a>Komma igång
-Tillägget är gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)] och vi erbjuder en prenumeration på Azure Machine Learning. Prenumerationen har 30 minuters bearbetningstid per månad. Om du behöver tid kan du skapa din egna prediktiva modell och använda den i stället. Mer information finns i avsnittet _Bygga din egen prediktiva modell_ senare i det här avsnittet.  
 
 När du öppnar ett bokfört försäljningsdokument, visas ett meddelande längst upp på sidan. Om du vill använda tillägget för prediktion om sen betalning kan du ansluta dig genom att välja **Aktivera** i meddelandet. Alternativt kan konfigurera tillägget manuellt. Om du till exempel ångrar att du avfärdat meddelandet.  
 
 Om du vill aktivera tillägget manuellt följer du dessa steg:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Anslutningar till tjänst** och välj sedan relaterad länk.  
-2. Välj alternativet **Inställningar för prediktion om sen betalning** och fyll sedan i fälten efter behov.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
+2. Fyll i fälten om det behövs.
+
+> [!Note]
+> Om du väljer att aktivera tillägget manuellt bör du tänka på att [!INCLUDE[d365fin](includes/d365fin_md.md)] inte tillåter detta om modellens kvalitet är låg. Modellkvaliteten anger hur exakta modellens prediktioner kan antas vara. Flera faktorer kan påverka kvaliteten på en modell. Till exempel kanske datamängden är otillräcklig, eller också innehöll inte datan tillräcklig variation. Du kan visa kvaliteten på den modell som du för närvarande använder på sidan **Inställningar för prediktion om sen betalning**. Du kan också ange ett lägsta tröskelvärde för modellkvalitet.   
 
 ## <a name="viewing-all-payment-predictions"></a>Visa alla betalningsprediktioner
 Om du aktiverar tillägget visas panelen **Betalningen förutsägs vara försenad** i rollcentret för **chef**. Panelen visar antalet betalningar som förutsägs vara försenade och låter dig öppna sidan **Kundreskontratransaktioner** där du kan gå på djupet med de bokförda fakturorna. Det finns tre kolumner att ta hänsyn till:  
@@ -44,7 +40,7 @@ Om du aktiverar tillägget visas panelen **Betalningen förutsägs vara försena
 * **Prediktionssäkerhet %** - visar den faktiska procentsatsen bakom säkerhetsgraden. Den här kolumnen visas inte som standard, men du kan lägga till den om du vill. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 > [!Tip]
-> Sidan Kundreskontratransaktioner visar också en faktabox till höger. När du granskar prediktioner kan informationen i avsnittet **kunddetaljer** vara till hjälp. När du väljer fakturan i listan visar i avsnittet information om kunden. Den låter dig också vidta omedelbara åtgärder. Om en kund t.ex. tappar sin plånbok kan du öppna kundkortet från faktaboxen och spärra kunden för framtida försäljning.  
+> Sidan Kundreskontratransaktioner visar också en faktabox till höger. När du granskar prediktioner kan informationen i avsnittet **kunddetaljer** vara till hjälp. När du väljer fakturan i listan visar i avsnittet information om kunden. Du kan även vidta omedelbara åtgärder. Om en kund t.ex. tappar sin plånbok kan du öppna kundkortet från faktaboxen och spärra kunden för framtida försäljning.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Visa Betalningsprediktion för ett visst försäljningsdokument
 Du kan också förutsäga sena betalningar i förväg. På sidorna **försäljningsofferter**, **försäljningsorder** och **försäljningsfakturor** kan du använda åtgärden **förutsäga betalning** för att generera en prediktion för det försäljning dokument som du visar.
@@ -52,21 +48,64 @@ Du kan också förutsäga sena betalningar i förväg. På sidorna **försäljni
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
-## <a name="building-your-own-predictive-model"></a>Skapa din egen prediktiva modell
-Är du intereserad av att skapa din egen prediktiva modell? Du kan använda Azure Machine Learning Studio för att bygga din egen prediktiva modell och använda den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill använda egna modeller, måste du prenumerera på Azure Machine Learning. Mer information finns i [Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765).  
+## <a name="design-details"></a>Designinformation
+Microsoft distribuerar och driver ett antal prediktiva webbtjänster i alla regioner där [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgängligt. Åtkomsten till dessa webbtjänster ingår i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i Licensieringsguiden för Microsoft Dynamics 365 Business Central. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
-Vi tillhandahåller emellertid ett enklare sätt att skapa och använda din egen prediktiva modell. Du kan dela data från fakturor med våra [förebyggande försök för Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) i Azure Machine Learning och låt vårt försök skapa och utbilda en prediktiv modell utifrån informationen vid ett senare tillfälle. För att dela dina data, på sidan **Inställningar för prediktion om sen betalning** väljer du åtgärden **Skapa min modell**. Därefter kommer prediktioner att baseras på din modell och dina data, inte våra.  
+Webbtjänsterna fungerar i tre olika lägen:
+- Träningsmodell. Webbtjänsten tränar modellen baserat på den angivna datamängden.
+- Utvärderingsmodell. Webbtjänsten kontrollerar huruvida modellen returnerar pålitliga data för den angivna datauppsättningen.
+- Förutsägelse. Webbtjänsten applicerar modellen på den angivna datauppsättningen i syfte att skapa en förutsägelse.
 
+Dessa webbtjänster är tillståndslösa, vilket innebär att de endast använder data för att beräkna förutsägelser vid behov. Inga data lagras. 
+
+> [!NOTE]  
+>   Du kan använda din egen prediktiva webbtjänst i stället för vår. Mer information finns i [Skapa och använda din egen webbtjänst för prediktioner om sen betalning](#AnchorText). 
+
+### <a name="data-required-to-train-and-evaluate-the-model"></a>Uppgifter som krävs för att utbilda och utvärdera modellen 
+För varje **Kundreskontratransaktion** med en relaterad **bokförd försäljningsfaktura**:
+- Belopp (BVA) inkl. moms
+- Betalningsvillkoren i dagar beräknas som **Förfallodatum** minus **Bokföringsdatum**.
+- Om det finns en tillämpad kreditnota. 
+
+Dessutom har transaktionen berikats med sammanlagda data från andra fakturor som hör till samma kund. Detta omfattar följande:
+
+- Totalt antal betalda fakturor och dessas belopp
+- Totalt antal fakturor som betalats för sent, samt dessas belopp
+- Totalt antal utestående fakturor och dessas belopp
+- Totalt antal utestående fakturor som redan försenats, samt dessas belopp
+- Genomsnittlig försening i dagar
+- Förhållande: antal sent betalda/betalda fakturor
+- Förhållande: belopp för sent betalda/betalda fakturor
+- Förhållande: antal utestående sena/utestående fakturor
+- Förhållande: belopp utestående sena/utestående fakturor
 > [!Note]
->   Kvaliteten på modellen är viktig. När vårt prediktiva försök använder dina data för att utbilda en modell bestämmer det kvalitetsvärdet för modellen för i procent. Modellkvaliteten anger hur exakt modellens prediktioner kan antas vara. Flera faktorer kan påverka kvaliteten på en modell. Till exempel kanske dessa faktorer är att det inte fanns tillräckligt med data eller data eller att data inte innehöll tillräcklig variation. Du kan visa kvaliteten på den modell som du för närvarande använder på sidan **Inställningar för prediktion om sen betalning**. Du kan också ange ett lägsta tröskelvärde för modellkvalitet. Modeller med kvalitetsvärde under tröskelvärdet kommer inte att ge prediktioner.  
+> Informationen om kunden ingår inte i datauppsättningen.
 
-### <a name="to-use-your-model-instead-of-ours"></a>Du använder din modell istället för vår  
-Om du skapar en egen modell i Azure Machine Learning Studio utan att använda verktyg i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du ange dina autentiseringsuppgifter så att [!INCLUDE[d365fin](includes/d365fin_md.md)] har åtkomst till modellen. Detta kan göras med ett par steg:
+### <a name="standard-model-and-my-model"></a>Standardmodell och min modell
+Tillägget för prediktion om sen betalning innehåller en prediktiv modell som utvecklas genom att använda data som representerar ett antal små och medelstora företag. När du börjar bokföra fakturor och tar emot betalningar kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att utvärdera huruvida standard modellen passar ditt affärsflöde. 
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Inställningar för prediktion om sen betalning** och välj sedan relaterad länk.  
-2. Markera kryssrutan **Använd Min Azure prenumeration**.  
-3. I fältet **Vald modell**, välj **Min modell**.  
-4. På snabbfliken **mina autentiseringsuppgifter för modell**, ange API-URL och API-nyckel för din modell.  
+Om det verkar som om dina processer inte matchar standardmodellen kan du ändå använda tillägget, men du måste då skaffa mer information. Bara fortsätt använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!Note]
+> Vi använder lite av din bearbetningstid varje vecka när vi utvärderar modellen och uppdaterar modellen. 
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kör utbildning och utvärdering automatiskt när det finns tillräckligt med betalda och sena fakturor, men du kan också köra det manuellt när du vill.
+
+#### <a name="to-train-and-use-your-model"></a>Att träna och använda din modell
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
+2. I fältet **Vald modell**, välj **Min modell**.
+3. Välj åtgärden **Skapa min modell** för att träna modellen på dina data.  
+
+## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Skapa och använda din egen webbtjänst för prediktioner om sen betalning
+Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän modell med namnet **Prognosexperiment för Dynamics 365 Business Central**. Den här förebyggande modellen finns online i Azure AI-galleriet. För att använda modellen gör du följande:  
+
+1. Öppna en webbläsare och gå du till [Azure AI-galleriet](https://go.microsoft.com/fwlink/?linkid=2086310)  
+2. Sök efter **Prognosexperiment för Dynamics 365 Business Central** och öppna sedan modellen i Azure Machine Learning Studio.  
+3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
+4. Kör modellen och publicera den som en webbtjänst.  
+5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
+6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
+7. Markera kryssrutan **Använd Min Azure prenumeration**.
+8. På snabbfliken **mina autentiseringsuppgifter för modell**, ange API-URL och API-nyckel för din modell.  .  
 
 ## <a name="see-also"></a>Se även  
 [Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765)  

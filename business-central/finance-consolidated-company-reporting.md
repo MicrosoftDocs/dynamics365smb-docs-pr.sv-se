@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302482"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183866"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
 Om du har fler än ett företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan rapporten Konsoliderad råbalans i rollcentret Revisor ge dig en översikt av hela verksamheten.  
@@ -54,7 +54,7 @@ Om du behöver mer avancerade inställningar för en konsolidering kan du konfig
 [!INCLUDE[d365fin](includes/d365fin_md.md)] låter dig lägga upp en lista över företag som ska konsolideras, verifiera redovisningsinformation innan du konsoliderar den, importera filer och generera konsolideringsrapporter.  
 
 1. Logga in på det konsoliderade företaget.
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Affärsenheter** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
 3. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!IMPORTANT]
@@ -65,7 +65,7 @@ Om en utländsk valuta används för koncernföretaget måste du ange vilken val
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Så här förbereder du redovisningskonton för konsolidering
 Om kontoplanen i affärsenheten skiljer sig från det konsoliderade företaget måste du förbereda redovisningskonton för konsolidering. Du kan ange vilka konton som ska bokföra debet- och kreditbelopp och metoden du använder för att översätta valutor i det konsoliderade företaget. Detta är till exempel användbart om du kör rapporten ofta.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontolista**, och välj sedan relaterad länk.  
 2. Öppna kortet för kontot och fyll sedan i fälten på snabbfliken **konsolidering**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Så här anger du valutakurs för konsolidering
@@ -84,7 +84,7 @@ Följande tabell beskriver valutakursmetoderna som du kan använda för konton.
 
 Om du vill ange valutakurs för affärsenheter gör du följande:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Affärsenheter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
 2. På sidan **Affärsenhetslista** väljer du affärsenhet och sedan åtgärden **Genomsnittskurs (manuell)**.   
 3. På sidan **Ändra valutakurser** har innehållet i fältet **Relationsvalutakurs** kopierats från tabellen **Valutakurs**, men det går att ändra värdet. Stäng sidan.  
 4. Välj åtgärden **Slutkurs**.  
@@ -110,7 +110,7 @@ Om du bara äger en del av ett företag kan inkludera en procentandel av varje t
 Du kan testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[d365fin](includes/d365fin_md.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Du måste åtgärda felen innan du kan köra rapporten. Du kan testa en databas, eller om du importerar data från en XML-fil kan du testa filen.   
 
 1. Öppna det konsoliderade företaget.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Affärsenheter** och välj sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
 3. Gör något av följande:  
 
     * Testa en fil genom att välja åtgärden **testa fil**, ange namnet på filen och välj sedan **Skriv ut**.  

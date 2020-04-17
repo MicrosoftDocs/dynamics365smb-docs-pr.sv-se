@@ -10,26 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a6404d39723df3d6c0d14ab7ff2bae783222dc67
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0bdc559f04064e2b4d49ef4ed7a8759c68be3579
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910981"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194049"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
 
 Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskoder som du kan välja mellan, när du fyller i kundkort. Mer information finns i [Konfigurera försäljning](sales-setup-sales.md).
 
-> [!NOTE]  
->   Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.  
-<br><br>  
-<br><br>  
-  
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
+
+> [!NOTE]  
+> Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.  
 
 ## <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  

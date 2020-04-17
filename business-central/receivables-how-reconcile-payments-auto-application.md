@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: c0acef518c6333061aa9c321b91c47aa1da8df2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911053"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191994"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Stämma av betalningar genom att använda automatisk koppling
 Sidan **Betalningsavstämningsjournal** anger betalningar, antingen inkommande eller utgående, som har registrerats som transaktioner på ditt onlinebankkonto och som du kan koppla till deras motsvarande öppna kund-, leverantör- och bankkontotransaktioner. Raderna i journalen fylls i genom att importera kontoutdraget från banken som en bankfeed eller fil.

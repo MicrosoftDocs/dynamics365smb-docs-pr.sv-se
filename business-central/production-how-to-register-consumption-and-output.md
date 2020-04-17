@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b063017340724dbe689ceb38463c889a50ffb46
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877909"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190449"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  

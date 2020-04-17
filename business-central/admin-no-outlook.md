@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b876c4c9328705bc37e552d646fe3aed78e5617d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 62e7b1ff9ce3ab96a38068849819859e29ebf4ab
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307906"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186845"
 ---
 # <a name="using-business-central-without-outlook"></a>Använda Business Central utan Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Office 365 och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integrering med Office 365 och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
 
 ## <a name="sending-email"></a>Skicka e-post
 Du kan skicka dokument som till exempel fakturor som e-post med ditt företags e-postadress. Från ditt Rollcenter kan du använda en assisterad konfigurationsguide som hjälper dig att konfigurera e-post. Om du inte använder ett e-postkonto i Office 365 måste du ange teknisk information om e-postservern. Om du inte har den tillgängliga informationen, kontaktar du din IT-support.  

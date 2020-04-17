@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc7faefc01399ae8db1d0763bc6ec91745b7b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314898"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195297"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
 En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment, eller en grupp med kontakter, med hjälp av filter i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -62,7 +62,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-set-up-a-campaign"></a>Så här lägger du upp en kampanj  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Kampanjer** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kampanjer** och välj sedan tillhörande länk.  
 2.  Välj åtgärden **nytt** för att skapa en ny kampanj. På kampanjkortet trycker du på retur för att ett kampanjnummer automatiskt ska infogas.  
 3.  I fältet **Beskrivning** anger du en beskrivning av kampanjen, till exempel **FUTURUS-mässa**.  
 4.  Välj fältet **Statuskod** och en statuskod från listan som öppnas på sidan **Kampanjstatus**.  
@@ -148,11 +148,11 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 9. Bilagorna skickas. När processen är klar för väljer du knappen **OK** för meddelandet som anger att segmentet har loggats.  
 
-     Breven skrivs ut automatiskt och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan flyttas till listan över loggade segment. För att se den listan, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Loggade segment** och välj sedan relaterad länk.  
+     Breven skrivs ut automatiskt och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan flyttas till listan över loggade segment. För att visa den listan, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Loggade segment** och välj sedan tillhörande länk.  
 
 10. När segmentet har loggats registreras varje brev som skickas som en interaktion, som du kan visa i loggen.  
 
-     Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Interaktionslogg** och välj sedan relaterad länk. Det finns en transaktion för varje skickat brev.  
+     Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Interaktionslogg** och välj sedan tillhörande länk. Det finns en transaktion för varje skickat brev.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Så här skickar du ett e-postmeddelande till en kontakt  
 
@@ -165,7 +165,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 7.  Markera kryssrutan **Skapa uppföljningssegment**.  
 8.  Välj knappen **OK**.  
 
-     Breven skickas automatiskt med e-post och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan sparas i listan över loggade segment. För att se den listan, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Loggade segment** och välj sedan relaterad länk.  
+     Breven skickas automatiskt med e-post och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan sparas i listan över loggade segment. För att visa den listan, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Loggade segment** och välj sedan tillhörande länk.  
 
 ## <a name="registering-campaign-responses"></a>Registrera kampanjsvar  
  Under de närmaste veckorna svarar de potentiella kunderna på brevet. Marknadsföringschefen vill hålla ordning på svaren och registrerar korrespondensen.  

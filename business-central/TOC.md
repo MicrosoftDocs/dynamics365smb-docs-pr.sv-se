@@ -28,7 +28,7 @@
 
 # Arbeta med Business Central
 ## [Översikt](ui-work-product.md)
-## [Utskriftsversion av översiktsblad](ui-work-product.md)
+## [Utskriftsversion av översiktsblad](ui-work-product.md#cheatsheet)
 ## [Söka efter sidor och information med berätta](ui-search.md)
 ## [Söka efter sidor med rollutforskaren](ui-role-explorer.md)
 ## [Vanliga frågor om Berätta](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md)
 ## [Ändra grundinställningar](ui-change-basic-settings.md)
 ## [Hantera meddelanden](ui-smart-notifications.md)
+## [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Anpassa Business Central
 ### [Anpassa din arbetsyta](ui-personalization-user.md)
 ### [Varför är en sida låst för anpassning?](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Visa listor på olika sätt](across-display-lists-different-views.md)
 ## Skriva ut rapporter och köra batch-jobb och XMLports
 ### [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)
-### [Ange skrivarval för rapporter](ui-specify-printer-selection-reports.md)
+### [Ställa in skrivare](ui-specify-printer-selection-reports.md)
 ### [Så här schemalägger du en rapportkörning](ui-work-report.md#ScheduleReport)
 ### [Hantera sparade inställningar för rapporter och batch-jobb](reports-saving-reusing-settings.md)
 ### [Visa testrapporter före bokföring](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Ställa in bokföringsmallar](finance-posting-groups.md)
 ### [Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)
 ### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)
+### [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)
 ### [Ställa in moms](finance-setup-vat.md)
 ### [Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)
 ### [Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -303,7 +304,7 @@
 #### [Ställa in bankutdragstjänsten](bank-how-setup-bank-statement-service.md)
 #### [Skapa bankkonton](bank-how-setup-bank-accounts.md)
 #### [Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-#### [Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
+#### [Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 ### Utbyta data
 #### [Översikt](across-exchange-data.md)
 #### [Skicka elektroniska dokument](sales-how-to-send-electronic-documents.md)
@@ -322,6 +323,7 @@
 ## [Skapa användare enligt licenser](ui-how-users-permissions.md)
 ## [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)
 ## [Hantera profiler](admin-users-profiles-roles.md)
+## [Ställa in skrivare](ui-specify-printer-selection-reports.md)
 ## [Klassificera datakänslighet](admin-classifying-data-sensitivity.md)
 ## [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)
 ## [Skapa nya företag](about-new-company.md)
@@ -365,15 +367,19 @@
 #### [UK - GetAddress.io för postnummer i Storbritannien](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
-## Integration med Dynamics 365 Sales
+## Integrering med Dynamics 365 Sales
 ### [Översikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Konfigurera en anslutning till Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integrera med Common Data Service
+### [Översikt](admin-common-data-service.md)
+### [Modeller för dataägarskap](admin-cds-company-concept.md)
+### [Ställa in konton för integrering med Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Anslut till Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synkroniserar Business Central och Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)
 ### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finans
 ## [Översikt](finance.md)
@@ -511,6 +517,7 @@
 ## [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
 ## [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)
 ## [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)
+## [Hantera åtkomstmetod för databas](admin-data-access-intent.md)
 
 # FÖRS
 ## [Översikt](sales-manage-sales.md)
@@ -1068,7 +1075,7 @@
 ### Elektronisk fakturering
 #### [Krav för elektronisk fakturering: Utfärda en kopiafaktura](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### Allmänt  
-#### [Mappa IRS-nummer till kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md).  
+#### [Mappa IRS-nummer till kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Ta bort bokförda fakturor och kreditnotor](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ## Italien
@@ -1162,7 +1169,7 @@
 #### [Redigera dokumentbelopp på inköpsfakturor och kreditnotor](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 #### [Ställ in validering av inköpsbelopp](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 ### Allmänt
-#### [CMR-anteckningar](LocalFunctionality/Netherlands/cmr-notes.md):
+#### [CMR-anteckningar](LocalFunctionality/Netherlands/cmr-notes.md)
 #### [Nederländska postnummer](LocalFunctionality/Netherlands/dutch-post-codes.md)
 #### [Importera postnummer](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Importera uppdateringar av postnummer](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
@@ -1390,7 +1397,7 @@
 #### [Schweizisk moms](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Momssatser för Schweiz](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Bankverksamhet och betalningar
-#### QR-kod för schweiziska betalningsdokument
+#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Stäng en LSV-samling](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Exportera betalningar med LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importera ESR-betalningar](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

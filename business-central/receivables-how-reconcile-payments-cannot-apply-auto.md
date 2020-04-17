@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64e2ce149a51466ff458e914f7365026ccb6c3ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95209af5fad9d673ca74a785e821ec1324636edf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316554"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191999"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Så här stämmer du av betalningar som inte kan kopplas automatiskt
 Du måste ibland hantera betalningar till ditt bankkonto som inte kan kopplas till en relaterad öppen kund, leverantör eller bankkontotransaktion. Anledningar kan vara att det inte finns något dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] som betalningen kan kopplas till, eller det relaterade dokumentet i [!INCLUDE[d365fin](includes/d365fin_md.md)] har ett annat belopp än transaktionbeloppet, tex på grund av valutakursen. På sidan **Betalningavstämningjournal** visas inte alla transaktionsbelopp för betalningar som inte kopplats ännu i fältet **Skillnad** inklusive belopp, som inte kan användas på grund av anledningarna ovan.
@@ -31,7 +31,7 @@ Om du vill avstämma sådana betalningar kan du välja knappen **Överför diffe
 >   Liknande funktioner finns för att definiera automatisk avstämning återkommande betalningar som inte kan användas till relaterade öppna kund-, leverantörs- eller bankkontotransaktioner. Mer information finns i [Mappa text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Så här stämmer du av betalningar som inte kan kopplas automatiskt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsavstämningsjournaler** och välj sedan relaterad länk.
 2. Öppna en betalningsavstämningsjournal. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. Välj **Överför differens till konto**. Sidan **Överför differens till konto** öppnas.
 4. I fältet **Kontotyp** anger du typen av konto som betalningsbeloppet bokförs på.

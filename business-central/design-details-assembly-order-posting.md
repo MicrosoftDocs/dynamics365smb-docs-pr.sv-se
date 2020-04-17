@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4a64e6bf09914ebd24e7d00ac54a286a33cd2026
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2c90a6b4a122c9a224e26ef57a03a7f6c981177f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880646"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185810"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
 Monteringsorderbokföring baserad på samma principer som när du bokför de liknande aktiviteterna försäljningsorder och produktionförbrukning/utflöde. Principerna kombineras genom att monteringsorder har sitt eget användargränssnitt för bokföring, liknande det för försäljningsorder, medan den faktiska transaktionsbokföringen sker i bakgrunden som direkta artikel- och resursjournalbokföringar, som det för produktionsförbrukning, utflöde och kapacitet.  

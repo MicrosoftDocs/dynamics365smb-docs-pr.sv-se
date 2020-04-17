@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071988"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195393"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
@@ -35,7 +35,7 @@ Du kan enkelt ändra storlek på kolumnerna i alla listor genom att dra gränsen
 
 Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden på ditt konto och du ser inte vilken enhet du loggar in på.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Anpassa en sida via banderollen **Anpassa**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>För at börja anpassa en sida via banderollen **Anpassa**
 1. Öppna sidan du vill anpassa.
 2. I det övre högra hörnet väljer du ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
 
@@ -52,7 +52,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 6. Välj elementet och välj sedan antingen **Flytta**, **Ta bort**, **Dölj**, **Visa**, **Visa under "Visa mer"**, **Visa vid komprimerad**, **Visa alltid**, **Ställ in/rensa låst ruta** eller **Inkludera/exkludera från snabbinmatning**, beroende på typ och tillstånd för elementet i användargränssnittet. Mer information finns i [Vad du kan anpassa](#What).
 7. När du är klar med att ändra layouten på en eller flera sidor, välj knappen **Klar** på banderollen **Anpassa**.
 
-## <a name="What"></a>Detta kan du anpassa
+## <a name="what-you-can-personalize"></a><a name="What"></a>Detta kan du anpassa
 
 |Vad vill du göra|Hur du gör det.|Anmärkningar|
 |----|------------|-------|
@@ -67,9 +67,10 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 |Ordna om och ta bort vyer som representerar filtrerade listor.|Välj pilspetsen bredvid en vy och välj sedan **flytta**, **ta bort**, eller **dölj**.|Se [Spara och anpassa listvyer](ui-views.md)|  
 |Lägg till en ny åtgärd på en sida eller rapport i rollcentret.|Välj ikonen bokmärke på sida för rapportförfrågan, sida i rapporten eller berätta för mig-fönstret.|Se [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Anpassa åtgärder
 
-Anpassning låter dig bestämma vilka åtgärder som ska visas i åtgärdsfältet och rollcenter och var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper. Anpassa åtgärdsfältet utförs ungefär på samma sätt som med andra element i användargränssnittet. Vad du kan göra med en åtgärd eller grupp beror emellertid på var den åtgärden eller gruppen finns. Det bästa sättet att ta reda på detta är att arbetar i anpassat läge och låta pilarna guida dig.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Anpassa åtgärder
+
+Anpassning låter dig bestämma vilka åtgärder som ska visas i navigerings- och åtgärdsfälten och i rollcenter, samt var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper. Anpassning av navigerings- och åtgärdsfältet utförs ungefär på samma sätt som med andra element i användargränssnittet. Vad du kan göra med en åtgärd eller grupp beror emellertid på var den åtgärden eller gruppen finns. Det bästa sättet att ta reda på detta är att arbetar i anpassat läge och låta pilarna guida dig.
 
 Det finns ett par termer som du bör känna till för att bättre förstå åtgärdsanpassning: *åtgärdsgrupp* och *prioriterad kategori*.  
 
@@ -87,9 +88,9 @@ När du vill visa eller dölja en åtgärd definierar alternativen under pilspet
 
 |Alternativ|Vad den gör|
 |------|------------
-|**Ta bort**|Det här alternativet visas om den valda åtgärden visas någon annanstans i åtgärdsfältet. Om du väljer det här alternativet tar du bort åtgärden från den valda platsen så att den inte längre visas. Åtgärden eller åtgärdsgruppen sparas på andra platser. |
-|**Dölj**|Det här alternativet visas om åtgärden eller grupp inte finns någon annanstans i åtgärdsfältet. Liksom **ta bort**, om du väljer det här alternativet kommer åtgärden eller åtgärdsgruppen att försvinna från åtgärdsfältet. Men i anpassningsläget visas åtgärd eller åtgärdsgrupp fortfarande på den aktuella positionen förutom att det verkar dämpat.|
-|**Visa**|Det här alternativet visas om åtgärden eller åtgärdsgruppen är tidigare dolda (är nedtonade). Om du väljer detta alternativet kommer åtgärden eller åtgärdsgruppen att visas på åtgärdsfältet.|
+|**Ta bort**|Detta alternativ visas om den valda åtgärden visas någon annanstans i navigerings- eller åtgärdsfältet. Om du väljer det här alternativet tar du bort åtgärden från den valda platsen så att den inte längre visas. Åtgärden eller åtgärdsgruppen sparas på andra platser. |
+|**Dölj**|Det här alternativet visas om åtgärden eller åtgärdsgruppen inte finns någon annanstans i navigerings- eller åtgärdsfältet. Liksom alternativet **Ta bort** får detta alternativ åtgärden eller åtgärdsgruppen att försvinna från navigerings- eller åtgärdsfältet. Men i anpassningsläget visas åtgärd eller åtgärdsgrupp fortfarande på den aktuella positionen förutom att det verkar dämpat.|
+|**Visa**|Det här alternativet visas om åtgärden eller åtgärdsgruppen är tidigare dolda (är nedtonade). Om du väljer detta alternativ kommer åtgärden eller åtgärdsgruppen att visas på navigerings- eller åtgärdsfältet.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Flytta åtgärder och åtgärdsgrupper
 Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontell linje mellan två åtgärder eller en gräns runt en åtgärdsgrupp. Följande begränsningar förekommer:
@@ -100,6 +101,18 @@ Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontel
 1. Om du vill flytta en åtgärd eller en åtgärdsgrupp, dra och släpp den till önskad position, precis som med fält och kolumner.
 2. Om du vill flytta en åtgärd eller åtgärdsgrupp till en åtgärdsgrupp som är tom, dra åtgärden eller åtgärdsgruppen till den nya gruppen och släpp den i rutan **släpp åtgärd här**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Anpassa delar
+
+Delar är områden på en sida som vanligtvis består av flera fält, diagram eller annat innehåll, och som kan identifieras med en färgad kantlinje när du fokuserar på delen. Startvyn för ett rollcenter har till exempel flera delar. På grund av deras väldefinierade gränser kan du anpassa hela delen samt dess innehåll.
+
+- Om du vill flytta en del drar och släpper du den på önskad plats. En färgad linje indikerar giltiga positioner på skärmen. Faktaboxar kan t.ex. bara placeras bredvid andra faktaboxar i rutan Faktabox.
+- Du kan dölja en del genom att välja alternativet **Dölj** under pilspetsen.
+- När du börjar anpassa eller navigerar till en ny sida visas alla delar som för tillfället är dolda på sidan med särskiljande visuella effekter för att visa att de är dolda. Du kan visa en del genom att välja alternativet **Visa** under pilspetsen.
+
+Du kan ta bort alla anpassningsändringar du har utfört i en enskild del genom att välja alternativet **Radera anpassning** under delens pilspets. När du rensar anpassningen för en viss del påverkar detta bara ändringar i innehållet i just den delen, inte delens placering eller synlighet på sidan.  
+
+
 ## <a name="to-clear-personalization"></a>Rensa anpassning
 Vid något tillfälle kanske du vill ångra några eller alla anpassningsändringar som du har gjort på sidan.
 
@@ -109,9 +122,9 @@ Vid något tillfälle kanske du vill ångra några eller alla anpassningsändrin
 |Alternativ|Vad den gör|
 |------|------------
 |**Endast navigeringsmeny**|Alla anpassningar som du har gjort i navigeringsmenyn som delas i rollcentret och andra sidor raderas. Här ingår alla nya åtgärder som har lagts till som bokmärken och eventuella ändringar av länkar och grupper på menyn.|  
-|**Endast åtgärder**|Rensar alla personanpassningsändringar som du har gjort i åtgärdsfältet på den här sidan.|
-|**Endast fält, kolumner och delar**|Rensar alla personanpassningsändringar som du har gjort på sidan förutom de på åtgärdsfältet. Här ingår ändringar av fält, kolumner, delar och paneler. |
-|**Alla**|Rensar alla personanpassningsändringar som du har gjort så att sidan ser ut som den gjorde från början. Här ingår ändringar av åtgärdsfält, fält, kolumner, delar och paneler.|
+|**Endast åtgärder**|Rensar alla personanpassningsändringar som du någonsin har gjort i navigerings- eller åtgärdsfältet på sidan.|
+|**Endast fält, kolumner och delar**|Rensar alla personanpassningsändringar som du någonsin har gjort på sidan förutom de i navigerings- eller åtgärdsfältet. Här ingår ändringar av fält, kolumner, delar och paneler. |
+|**Alla**|Rensar alla personanpassningsändringar som du har gjort så att sidan ser ut som den gjorde från början. Detta omfattar ändringar i navigerings- eller åtgärdsfält, fält, kolumner, delar och paneler.|
 
 ## <a name="additional-points-of-interest"></a>Ytterligare punkter av intresse
 Här följer några tips som hjälper dig att bättre förstå anpassning.

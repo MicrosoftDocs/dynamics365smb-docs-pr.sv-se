@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 095be47e556f82cdf3cffa379217f6a5239e6fff
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300677"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188767"
 ---
 # <a name="business-functionality"></a>Affärsfunktion
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas.
@@ -39,7 +39,7 @@ ms.locfileid: "2300677"
 |Säkerställ ett effektivt flöde av varorna som tas emot och levereras.|[Lagerstyrning](warehouse-manage-warehouse.md)|
 |Planera servicesamtal och lägg upp serviceorder. Spåra reservdelar och tillbehör.|[Servicehantering](service-service.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|
-|Aktivera möjlighet för användare att utbyta data med externa källor under dagliga uppgifter, till exempel skicka/ta emot elektroniska dokument, importera/exporterar bankfiler och uppdatera valutakurser.|[Utbyta data elektroniskt](across-data-exchange.md).|
+|Aktivera möjlighet för användare att utbyta data med externa källor under dagliga uppgifter, till exempel skicka/ta emot elektroniska dokument, importera/exporterar bankfiler och uppdatera valutakurser.|[Utbyta data elektroniskt](across-data-exchange.md)|
 |Registrera externa dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 
 ## <a name="see-also"></a>Se även

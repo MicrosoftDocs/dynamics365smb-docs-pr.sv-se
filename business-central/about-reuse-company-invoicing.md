@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Office 365
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 354babea367b80cdb0eae4078f6111d44583df9e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b04da7a7fa6d831646c6af9f0606afa90dc00bd6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300767"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188858"
 ---
-# <a name="using-the-same-office-365-account-in-included365finincludesd365fin_long_mdmd-and-microsoft-invoicing"></a>Använda samma Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
+# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Använda samma Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
 När du registrerar dig för en provversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du loggar in i Office-portalen kommer du i samtliga fall att se en flik som heter **Microsoft Invoicing** och klicka på den. Detta ingår i Office 365 Business Premium-prenumerationen, så det är inte alla som får se fliken i Office-Portalen.  
 
 Om du öppnar Microsoft Invoicing visas ett meddelande om att du inte har åtkomst till Microsoft Invoicing eftersom ditt konto används i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,9 +31,9 @@ Du måste därför logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] och 
 
 ### <a name="to-rename-your-company"></a>Byta namn på ditt företag
 1. Logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "ikonen för inställningar för rollcenter"), och välj **Mina inställningar**.
+2. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan **Mina inställningar**.
 3. I fältet **företag** väljer du ett annat företag.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Företag** och välj sedan relaterad länk.  
+4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företag** och välj sedan tillhörande länk.  
 5. På sidan **Företag** väljer du knappen **Redigera lista**.  
 6. Byt namn på posten *Mitt företag* till något annat.  
 

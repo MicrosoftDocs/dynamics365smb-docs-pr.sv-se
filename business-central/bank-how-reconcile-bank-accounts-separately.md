@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d3656c81a6964a01632865b6163be9ec0365de8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e53c1f7b0b2af4a94579863197ec7348c9b6ff18
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952800"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186314"
 ---
 # <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
 Du utför bankavstämning för att se till att dina olika affärstransaktioner och utgifter återspeglas korrekt i företagets böcker. Du gör detta genom att jämföra och matcha poster i dina interna bankkonton med banktransaktioner på din bank och sedan bokföra saldona på dina interna bankkonton för att göra summorna tillgängliga för ekonomichefer. Bankavstämning är också ett praktiskt sätt att upptäcka och lösa problem med saknade betalningar och bokföringsfel.
@@ -111,7 +111,7 @@ Ibland kan det hända att ett kontoutdrag från banken innehåller belopp som mo
 5. Uppdatera eller öppna sidan **Bankkontoavstämning** igen. Den nya transaktionen ska visas i fönstret **Bankkontotransaktioner**.
 6. Matcha kontoutdragraden till bankkontotransaktionen, antingen manuellt eller automatiskt.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbank-reconciliation-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Jämka bankkonton](bank-manage-bank-accounts.md)  

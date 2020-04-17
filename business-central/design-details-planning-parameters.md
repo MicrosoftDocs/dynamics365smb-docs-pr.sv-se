@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 37dfdf4805e5d11f2ede11f8b0454407debe9940
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306970"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184898"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -80,7 +80,7 @@ För att få en rationell tillförselplan finjusterar en planerare planeringspar
 
 Tidsplaneringen av omplaneringsperioden, utjämningsperiod och partiackumuleringsperioden baseras på ett leveransdatum. Tidsenheten baseras på planeringsstartdatumet, som visas i följande illustration.  
 
-![Tidsenhetelement](media/supply_planning_5_time_bucket_elements.png "Tidsenhetelement")  
+![Tidsenhetselement](media/supply_planning_5_time_bucket_elements.png "Tidsenhetselement")  
 
 I följande exempel representerar de svarta pilarna befintlig tillgång (upp) och efterfrågan (ned). Röda, gröna och orange pilar är planeringsförslag.  
 
@@ -90,7 +90,7 @@ I följande exempel representerar de svarta pilarna befintlig tillgång (upp) oc
 
 **Exempel 2**: Det ändrade datumet ligger i omplaneringsperioden, vilket innebär att den befintliga leveransen planeras om. En ny tillgång föreslås för att täcka behovet utanför partiackumuleringsperioden.  
 
-![Omplaneringsperiod, partiackumuleringsperiod och omplanera](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanera")  
+![Omplaneringsperiod, partiackumuleringsperiod och omplanering](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanering")  
 
 **Exempel 3**: Det finns en efterfrågan i utjämningsperioden och tillgångsantalet i partiackumuleringsperioden matchar tillgångsantalet. Nästa behov har inte täckts och en ny tillgång föreslås.  
 

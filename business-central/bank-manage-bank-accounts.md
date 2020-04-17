@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 01/10/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0d1a38468f5d07a1170027bc728ba16996f2b782
-ms.sourcegitcommit: 2f741f442226b8be74586e355f283f365e43220f
+ms.openlocfilehash: 050519c77f7c1dca5dd451a57ac47f71b4803a91
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947243"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186194"
 ---
 # <a name="reconciling-bank-accounts"></a>Stämma av bankkonton
 En bankavstämning bör slutföras med jämna mellanrum för alla dina bankkonton för att säkerställa att företagets kassaregister är korrekta. Du gör detta genom att jämföra och matcha poster i dina interna bankkonton med banktransaktioner på din bank och sedan bokföra saldona på dina interna bankkonton för att göra summorna tillgängliga för ekonomichefer. Bankavstämning är också ett praktiskt sätt att upptäcka och lösa problem med saknade betalningar och bokföringsfel.
@@ -36,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Du kan stämma av bankkonton som en separat aktivitet på sidan **Bankkontoavstämning**. |[Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md) |
 | Stämma av bankkonton i samband med betalningsbehandling på sidan **Betalningsavstämningsjournal**. |[Tillämpa betalningar automatiskt och jämka bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreconcile-bank-accounts-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  

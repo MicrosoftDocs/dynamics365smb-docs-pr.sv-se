@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f8c2ce255e9dac1fd7d832afb310ca0ae80e47ec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 828a6e91a55786603b019e29e49d0e14bf4f57f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308297"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187586"
 ---
 # <a name="define-user-tasks"></a>Definiera användarens uppgifter
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du skapa uppgifter som påminner dig om arbetet som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.  
@@ -25,7 +25,7 @@ Sidan **användaruppgifter** visar alla uppgifter och du kan enkelt skapa och ti
 
 Du kan till exempel skapa en uppgift för dig själv för att visa alla bokförda försäljningsfakturor. Om så är fallet kan du länka uppgiften till sidan 143, bokförda försäljningsfakturor.  
 
-![Exempel på en användaruppgift](media/across-user-tasks/sample-user-task.png "exempel på en användaruppgift")
+![Exempel på en användaruppgift](media/across-user-tasks/sample-user-task.png "Exempel på en användaruppgift")
 
 > [!TIP]  
 >  Använd sökfunktionen i fältet **Sida** fält och använd fältet **Sök efter sidan eller rapporten** för att hitta sidan du vill ha. Mer information finns i [söka efter en sida eller rapport](ui-search.md).  

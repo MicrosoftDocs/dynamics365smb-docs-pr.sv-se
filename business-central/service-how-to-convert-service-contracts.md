@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ed1f0d928299a1f72b40be6e7fe1ac1567c4906c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554794"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194937"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du servicekontrakt som innehåller momsbelopp
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
@@ -29,7 +29,7 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 >  För det här exemplet måste du ändra arbetsdatum till 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Så här korrigerar du en faktura för ett förskottsbetalt servicekontrakt  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontraktshantering** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontraktshantering** och välj sedan tillhörande länk.  
 2. Välj **Servicekontrakt** under **Listor**.  
 3. Skapa ett nytt förutbetalt servicekontrakt. Ange startdatumet **01.01.2017** och fakturaperiodåret för kunden **20000**.  
 4. Om du vill signera kontraktet väljer du åtgärden **Underteckna kontrakt**.  

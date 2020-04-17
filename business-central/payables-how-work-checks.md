@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa250a4125e54025075e85c3ed7c621a361f87b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313666"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190233"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
@@ -37,7 +37,7 @@ Du kan skriva ut upp till 10 fakturor på en sida för en checktalong. Om en che
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Betala en leverantörsfaktura med datorcheck
 Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetalning till en kund med check.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsjournal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
 2. Fyll i utbetalningsjournalraderna. Mer information finns i [Registrera betalningar och återbetalningar](payables-how-post-payments-refunds.md).
 3. I fältet **Kod för betalningssätt** väljer du **Check.**
 4. I fältet **Bankbetalningstyp** väljer du **Datorcheck.**
@@ -61,7 +61,7 @@ Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom at
 ## <a name="to-void-checks"></a>Så här makulerar du checkar:
 När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från de resulterande banktransaktionerna.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan tillhörande länk.
 2. Välj det relevanta bankkontot och välj åtgärden **Redigerat** och välj sedan åtgärden **checktransaktioner**.
 3. På sidan **checktransaktioner** väljer du åtgärden **Makuler check**.
 4. Markera kryssrutan **Makulera endast check**.
@@ -69,7 +69,7 @@ När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från d
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Om du vill visa en sammanfattning av bokförda checkar
 Om du vill granska bokförda checkar, till exempel för att kontrollera flera kontroller som betalas till en leverantör, kan du använda rapporten **bankkonto - checkinformation**.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bankkonto - checkdetaljer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonto – kontrollera information** och välj sedan tillhörande länk.
 2. Ställa in filter som relevanta och välj sedan knappen **förhandsgranskning**.
 
 ## <a name="see-also"></a>Se även

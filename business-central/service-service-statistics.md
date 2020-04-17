@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877165"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192393"
 ---
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
 Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   

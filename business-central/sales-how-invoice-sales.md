@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4bc122f2d1dc34f4c36fb74d0d6875f3d82c991a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9e485f2051cb045db6f106377521973a45546ad7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953425"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193665"
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
@@ -104,7 +104,7 @@ I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller 
 
 Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsfakturan. Mer information finns i [Skapa kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesinvoicing-customers-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

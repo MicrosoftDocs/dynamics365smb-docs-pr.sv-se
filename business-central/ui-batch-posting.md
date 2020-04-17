@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 15b0afcf04ad279000de227523f977fdb695fe01
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316793"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192105"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokföra flera dokument på samma gång
 I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för direkt bokföring eller för batch-bokföring enligt ett schema, t.ex. i slutet av dagen. Detta kan vara användbart om endast en ansvarig kan bokföra dokument som skapats av andra användare eller undvika problem med system prestanda vid bokföring under arbetstid.
@@ -23,7 +23,7 @@ I stället för att bokföra enskilda dokument var för sig kan du välja flera 
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Så här bokför du flera inköpsorder direkt
 I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är liknande för alla ingående och utgående dokument.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
 2. På sidan **inköpsorder** går du vidare för att välja alla order som ska bokföras:
 3. I fältet **Nr.** väljer du de tre lodräta punkterna för att öppna snabbmenyn och sedan väljer du åtgärden **Välj fler**.
 4. Markera kryssrutan för alla rader som motsvarar order som du vill bokföra samtidigt.
@@ -36,7 +36,7 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknan
 > [!NOTE]
 > Batch-bokföring av dokument sker i bakgrunden enligt definitionen i en jobbkötransaktion, som måste ställas in först. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan tillhörande länk.  
 2. På sidan **inköpsorder** går du vidare för att välja alla order som ska bokföras:
 3. I fältet **Nr.** väljer du de tre lodräta punkterna för att öppna snabbmenyn och sedan väljer du åtgärden **Välj fler**.
 4. Markera kryssrutan för alla rader som motsvarar order som du vill bokföra samtidigt.

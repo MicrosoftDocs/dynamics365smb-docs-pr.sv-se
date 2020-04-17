@@ -1,6 +1,6 @@
 ---
 title: Definiera en säljare | Microsoft Docs
-description: Du kan ställa in en identifierare för varje säljare, så att du kan övervaka prestanda för en enskild och tilldela en säljare till en kontakt.
+description: Du kan ställa in en identifierare för respektive säljare så att du kan övervaka individuell prestanda och tilldela säljare till en kontakt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e1e53372298462356e6d48dab0e973262abadeb3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877573"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193857"
 ---
 # <a name="set-up-salespeople"></a>Skapa säljare
 Många företag har behov av att följa en individuell anställds prestationer som en grund för att beräkna provision eller bonus. Visa till exempel **säljareprovisionsrapporten**. Ett företag kan också vilja knyta en säljare till var och en av sina kontakter.
 
 När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i fältet **Säljarkod** för alla relevanta transaktioner, t.ex redovisningskonto, kund, leverantör, och kampanjkort. När du sedan bokför eller registrerar fakturor, kreditnotor, journalrader, räntefakturor och så vidare, överförs säljarekoden till de resulterande transaktionerna.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Så här skapar du en säljarkod
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Säljare** och välj sedan relaterad länk.

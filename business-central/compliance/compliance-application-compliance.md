@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc55e2ec51285f540c117983af51704f7059abd9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303883"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185978"
 ---
 # <a name="application-compliance"></a>Programmets regelefterlevnad
 Innehållet anger information om programmet regelefterlevnad i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)], som internationella finansiella rapporteringsstandarder, lokal funktionalitet, GDPR med mera. Förtroende i ett verksamhetssystem är nyckeln till att driva en effektiv verksamhet. Med Business Central kan företag anpassa affärsprocesserna och samtidigt konsekvent och kostnadseffektivt uppfylla ökade reglerings- och rapporteringskrav.
@@ -68,7 +68,7 @@ Leverera integrerad information, justerade processer och lättanvända verktyg f
 ### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Snabbt följa begäranden för identifiering och rapporteringskrav
 - Spara tid genom att skapa standardrapporter som använder gemensamma företagsparametrar och kriterier för att tillfredsställa vanliga rapporteringsbehov, från ordersummeringar till ålder på kundreskontra.
 - Utföra komplexa granskningar med grundläggande eller avancerade affärsanalysfunktioner.
-- Skapa anpassade rapporter och visas i produkten och genom integration med Microsoft PowerBI.
+- Skapa anpassade rapporter och visas i produkten och genom integrering med Microsoft PowerBI.
 - Hastighetsöverföring av finansiell information till kunder, aktieägarna, myndigheter och allmänheten med XML-baserade XBRL-dokument som stöder utbyte av ekonomisk information mellan olika program och tekniker, inklusive Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjälper till att rensa granskningshistorik

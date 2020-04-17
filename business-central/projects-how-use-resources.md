@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d637a21a795db46554a45c688bf7ad081533e4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c91caed8fb682af4c754aef83801083a714d4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312706"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193815"
 ---
 # <a name="use-resources-for-jobs"></a>Använda resurser för projekt
 Du registrerar förbrukning av resurser i projektjournalen för att hålla reda på kostnader, priser och de specifika projekttyper som är kopplade till projekt. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
+
+> [!NOTE]
+> Du kan också köpa externa resurser om du t.ex. vill fakturera en leverantör för levererat arbete. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
 Du kan även bokföra förbrukningen av en resurs i en resursjournal eller projektjournal. Transaktioner bokförda i resursjournaler påverkar inte redovisningen.
 
@@ -28,14 +31,14 @@ Du kan även bokföra förbrukningen av en resurs i en resursjournal eller proje
 Du tilldelar resurser till projekt genom att skapa planeringsrader för projektet. Mer information finns i [Skapa projekt](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Registrera resursförbrukning för ett projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Projektjournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.
 2. Öppna den relevanta projektjournalen och fyll sedan i fälten som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
 ## <a name="to-adjust-resource-prices"></a>Justera resurspriser
 Om du vill ändra kostnader eller priser för många resurser på en gång kan du använda ett batch-jobb .  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Justera resurskostnader/priser** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Justera resurskostnad/pris** och välj sedan tillhörande länk.
 2. Fyll i fälten på en rad efter behov och välj sedan knappen **OK**.
 
 > [!NOTE]  
@@ -44,7 +47,7 @@ Om du vill ändra kostnader eller priser för många resurser på en gång kan d
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Så här får du förslag till resursprisändringar enligt befintliga alternativa priser:
 Om du redan har skapat alternativa priser för några resurser kan du använda batch-jobbet för att skapa flera alternativa resurspriser.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Resursprisändringar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Ändringar i resurspris** och välj sedan tillhörande länk.
 2. Välj åtgärden **Föreslå res.prisändring (pris)** och fyll sedan i fälten efter behov.
 3. Välj knappen **OK**.  
 4. När batch-jobbet har avslutats visar sidan **Resursprisändringar** resultatet av batch-jobbet.
@@ -52,7 +55,7 @@ Om du redan har skapat alternativa priser för några resurser kan du använda b
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Så här får du förslag till resursprisändringar enligt standardpriser
 Om du vill skapa flera alternativa resurspriser baserat på standardpriserna på resurskorten kan du använda ett batch-jobb .  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Resursprisändringar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Ändringar i resurspris** och välj sedan tillhörande länk.
 2. Välj åtgärden **Föreslå res.prisändring (res)** och fyll sedan i fälten efter behov.  
 3. Välj **OK**.  
 4. När batch-jobbet har avslutats öppnar du sidan **Resursprisändringar** för att visa resultatet av batch-jobbet.
@@ -60,7 +63,7 @@ Om du vill skapa flera alternativa resurspriser baserat på standardpriserna på
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Så här får du förslag till resursprisändringar baserat på alternativa priser
 Om du redan har skapat alternativa priser för några resurser kan du använda batch-jobbet för att skapa flera alternativa resurspriser.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Föreslå res.prisändring (pris)** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Föreslå res.prisändring (pris)** och välj sedan tillhörande länk.  
 2. Fyll i fälten om det behövs.
 3. Välj **OK**.  
 4. När batch-jobbet har avslutats öppnar du sidan **Resursprisändringar** för att visa resultatet av batch-jobbet.

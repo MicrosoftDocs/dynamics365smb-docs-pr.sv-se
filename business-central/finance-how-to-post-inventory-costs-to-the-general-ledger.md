@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eed219bb8bc6401c0f2bbc5cab7600fe1bfc3d53
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ce4b573500967e6981fa2cba9b306324f2f43339
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306082"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183362"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Stämma av lagerkostnader med redovisningen
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen.
@@ -26,7 +26,7 @@ Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokför
 Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade avgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Bokföra lagerkostnader manuellt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och gå till **Bokför lagerkostnad i redov.** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Publicera lagerkostnad i redovisning** och välj sedan tillhörande länk.
 2. Bokför lagerkostnader i redovisningen manuellt genom att köra batch-jobbet. När det här batch-jobbet körs skapas redovisningstransaktioner utifrån värdetransaktioner. Det går att bokföra transaktionerna så att de sammanfattas per bokföringsmall.
 
 > [!NOTE]  

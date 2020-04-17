@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692710"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189027"
 ---
 # <a name="changing-language-and-locale"></a>Byta språk och plats
 
@@ -44,7 +44,7 @@ Om du vill ändra språkvariant går du till sidan **Mina inställningar**. Mer 
 
 På sidan **Hjälp och support** kan du se den version av [!INCLUDE [prodshort](includes/prodshort.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Språk för [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälpen
+## <a name="languages-of-the-d365fin-help"></a>Språk för [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälpen
 Innehållet i hjälpen för grundläggande funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] publicerar på webbplatsen Microsoft Docs och finns på flera olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska.
 
 ### <a name="how-do-i-change-the-language"></a>Hur ändrar jag språket?

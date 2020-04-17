@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881924"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189273"
 ---
 # <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
 Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.  

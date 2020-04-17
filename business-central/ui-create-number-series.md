@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd86c129f2c6161860505a1127c3160e1e2da8ad
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: c695c595e8fa78de48aba2e96852c2aead2b489c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030082"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194553"
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
@@ -82,7 +82,7 @@ Om du har definierat mer än en nummerseriekod för samma typ av allmän informa
 
 När du hädanefter definierar något för vilket ett nummer krävs kan du använda sambanden som har skapats för att välja bland de kopplade nummerserierna.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesnumber-series-trail-codes-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

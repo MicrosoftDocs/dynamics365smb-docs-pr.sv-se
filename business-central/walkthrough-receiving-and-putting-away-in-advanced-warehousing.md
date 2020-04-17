@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4027fd2d7ce3e514aa451279c8800453ba62711b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553898"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195657"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer
 
@@ -58,7 +58,7 @@ För att kunna utföra den här genomgången behöver du:
 -   CRONUS Sverige Ab installerad.  
 -   Om du vill Ange dig själv som distributionslagerpersonal på lagerstället VIT följer du de här stegen:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan relaterad länk.  
 2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
@@ -71,7 +71,7 @@ Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden
 
 ### <a name="to-review-the-location-setup"></a>Om du vill granska lagerställekonfigurationen  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan tillhörande länk.  
 2.  Öppna lagerställekortet VIT.  
 3.  Observera på snabbfliken **Dist.lager** att kryssrutan **dirigerad artikelinförsel och plockning** är markerad.  
 
@@ -86,7 +86,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 
 ### <a name="to-create-the-purchase-orders"></a>Så här Skapa inköpsorder  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan tillhörande länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en inköpsorder för leverantör 10000 på arbetsdatumet (23 januari) med följande inköpsorderrader.  
 
@@ -117,7 +117,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 På sidan **Dist.lager inleverans** kan du hantera flera inkommande order för källdokument, t.ex en inköpsorder.  
 
 ### <a name="to-receive-the-items"></a>Så här inlevererar du artiklarna  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj åtgärden **Filter för att hämta urspr.dok.**.  
@@ -135,7 +135,7 @@ På sidan **Dist.lager inleverans** kan du hantera flera inkommande order för k
 På sidan **Dist.lager artikelinförsel** kan du hantera artikelinförslar för ett specifikt distributionslagerinleveransdokument som täcker flera källdokument. Som alla dist.lageraktivitetdokument representeras varje artikel på dist.lager artikelinförsel av en taganderad och en platsrad. I följande procedur är lagerplatskoden på hämtningsraderna standardlagerplatsen för inleveranser vid lagerställe VIT, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Så här för du in artiklarna  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförslar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelinförslar** och välj sedan tillhörande länk.  
 2.  Välj det enda distributionslagerinförseldokumentet i listan, och välj sedan åtgärden **Redigera**.  
 
     Distributionslagerinförseldokumentet öppnas med totalt åtta Ta- eller Placerarader för de fyra inköpsorderrader.

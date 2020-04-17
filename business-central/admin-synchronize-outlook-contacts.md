@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Office 365
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5690d09423deab5d56b848688f82061c7765e02c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f7cf42a003e68d68bf29a3623e9573f6e33eed4b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879025"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186626"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook
 Du kan visa samma kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som visas i Outlook om du ställer in synkronisering av kontakter. Till exempel om du är en säljare kan du göra vissa av ändringar i Outlook och en del av arbetet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om kontakterna är desamma på båda platser, är ditt arbete enklare.  

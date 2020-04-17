@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd0206c0ceb9a2e559f3fb4e391877e158800cd4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 08e8f00a73b6c03978d8c00b23f36e3f510c43d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312754"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191145"
 ---
 # <a name="set-up-resources"></a>Konfigurera resurser
 Du måste lägga upp resurser och relaterade kostnader och priser för att hantera resursaktiviteter på rätt sätt. Projektrelaterade priser, rabatter och kostnadsfaktorregler är definierade på projektkortet. Du kan specificera kostnader och priser för enskilda resurser, resursgrupper eller alla tillgängliga resurser i företaget.
@@ -26,24 +26,28 @@ När resurser är förbrukade eller sålda i ett projekt hämtas associerade pri
 
 Du kan ange standardbeloppet per timme när resursen skapas. Om du till exempel använder en viss maskin för ett projekt i 5 timmar beräknas projektet baserat på beloppet per timme.
 
+> [!NOTE]
+> Du kan också köpa externa resurser om du t. ex. vill fakturera en leverantör för levererat arbete. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).<br /><br />
+> I så fall rekommenderas du att namnge eller gruppera sådana externa resurser i syfte att ange deras syfte så att de inte förväxlas med de interna resurserna.
+
 ## <a name="to-set-up-a-resource"></a>Så här skapar du resurser
 Skapa ett kort för varje resurs som du vill använda i projekt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resurser** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Så här skapar du en resursgrupp
 Du kan kombinera flera resurser i en resursgrupp. All kapacitet och budget i resursgrupperna samlas från de individuella resurserna. Det är också möjligt att skriva in resursgruppskapacitet, antingen oberoende av de samlade värdena eller som tillägg till dem.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resursgrupper** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resursgrupper** och välj sedan tillhörande länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Ställa in kapaciteten för en resurs
 För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras kapacitet först ställas in som tillgänglig tid per period i arbetskalendern. Denna inställning används när du fyller i projektplaneringsrader som innehåller resursen. Mer information finns i [Skapa projekt](projects-how-create-jobs.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resurser** och välj sedan relaterad länk.
 2. Öppna det relevanta resurskortet och välj sedan åtgärden **Resurskapacitet**.
 3. På sidan **Resurskapacitet** ställer du i fältet **Visa per** in periodlängden, exempelvis **Dag**, som visas i kolumnerna på **Matris för resurskapacitet** på snabbfliken.
 4. För varje resurs på en rad anger du för respektive period i kolumnerna hur många timmar som resursen är tillgänglig.
@@ -55,7 +59,7 @@ För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras 
 ## <a name="to-set-up-alternate-resource-costs"></a>Så här skapar du alternativa resurskostnader
 Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kostnader för varje resurs. Om t.ex. en anställd har en annan timpenning för övertidsarbete kan du registrera en resurskostnad för denna övertidskostnad. Den alternativa kostnad som du skapar för resursen har företräde framför kostnaden på resurskortet när du använder resursen i resursjournalen.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resurser** och välj sedan relaterad länk.  
 2. Välj den resurs för det som du vill skapa en eller flera alternativa kostnader för och välj sedan åtgärden **Kostnader**.  
 3. På sidan **Resurskostnader** fyller du i fälten på en rad efter behov.  
 4. Upprepa steg 3 för varje alternativ kostadsresurs som du vill skapa.
@@ -65,7 +69,7 @@ Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kos
 ## <a name="to-set-up-alternate-resource-prices"></a>Så här skapar du alternativa resurspriser
 Förutom priset som anges på resurskortet, kan du registrera alternativa priser för varje resurs. Dessa alternativa priser kan vara villkorliga. De kan bero på om resursen används med ett särskilt projekt eller en särskild arbetstyp.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Resurser** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resurser** och välj sedan relaterad länk.
 2. Välj den resurs för det som du vill skapa en eller flera alternativa priser för och välj sedan åtgärden **Priser**.
 3. På sidan **Resurspriser** fyller du i fälten på en rad efter behov.
 4. Upprepa steg 3 för varje alternativt resurspris som du vill skapa.

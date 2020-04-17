@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/20/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ef1d5d9743842d9d5aba28d3bb4ad62d7359f301
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 54c5aac9f6ed940df2b0b8e10735310c67bf13f3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077370"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193521"
 ---
 # <a name="available-fonts"></a>Tillgängliga teckensnitt
 Online-versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att genererar rapporter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.

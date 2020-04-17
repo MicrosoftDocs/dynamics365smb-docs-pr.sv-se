@@ -1,6 +1,6 @@
 ---
 title: Konfigurera föredragna metoder för att skicka försäljningsdokument | Microsoft Docs
-description: Beskriver hur du ställer in varje kunds standardmetod för att skicka dokument, till exempel, e-post, PDF, elektroniska dokument och så vidare.
+description: Beskriver hur du ställer in respektive kunds standardmetod för att skicka dokument, till exempel e-transaktion, PDF, elektroniska dokument och så vidare.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 32a7a00dc5d348fe6d177986dd0d966fca885528
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911173"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193972"
 ---
 # <a name="set-up-document-sending-profiles"></a>Skapa dokumentutskicksprofiler
 Du kan skapa varje kund med en föredragen metod för att skicka försäljningsdokument så att du inte behöver välja alternativ varje gång som du väljer åtgärden **Bokför och skicka**.
@@ -27,7 +27,7 @@ På sidan **Dokumentutskicksprofiler** konfigurerar du olika utskicksprofiler so
 När du väljer åtgärden **Bokför och skicka** i ett försäljningsdokument visar dialogrutan **Bekräftelse för bokför och utskick** den utskicksprofil som använts, antingen den som angetts för kunden eller standardinställningen för alla kunder. I dialogrutan kan du ändra utskicksprofilen för det specifika försäljningsdokumentet. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Så här konfigurerar du en dokumentutskicksprofil
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dokumentutskicksprofiler** och välj sedan relaterad länk.

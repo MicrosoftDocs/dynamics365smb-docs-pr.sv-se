@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553800"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191457"
 ---
 # <a name="subcontract-manufacturing"></a>Lägga ut legotillverkning för produktion
 Legotillverkningsvalda operationer till leverantör är vanligt i många tillverkningsföretag. Legotillverkning kan vara sällan förekommande eller en integrerad del i alla produktionsprocesser.
@@ -52,7 +52,7 @@ Sidan **Legotillverkningskalkylark** fungerar som **Planeringsförslag** genom a
 >  Endast produktionsorder med statusen **Släppt** kan kommas åt och användas från ett legotillverkningskalkylark.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Beräkna legotillverkningskalkylark  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Legotillverkningsförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Legotillverkningsförslag** och välj sedan tillhörande länk.  
 2.  Om du vill beräkna kalkylarket väljer du åtgärden **Beräkna kalkylark**.  
 3.  På sidan **Beräkna utlego** ställer du in filter för de operationerna eller produktionsgrupperna där de utförs för att beräkna endast relevanta produktionsorder.  
 4.  Välj knappen **OK**.  
@@ -60,7 +60,7 @@ Sidan **Legotillverkningskalkylark** fungerar som **Planeringsförslag** genom a
     Granska raderna på sidan **legotillverkningsförslag**. Informationen i det här förslaget kommer från produktionsordern och operationsföljdsraderna för produktionsordern, och skickas vidare till inköpsordern när den skapas. Du kan ta bort en rad i legotillverkningsförslaget utan att påverka den ursprungliga informationen, precis som med andra förslag. Informationen visas på nytt nästa gång du kör funktionen **Beräkna utlego**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Så här skapar du en inköpsorder för underkontrakt  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Legotillverkningsförslag** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Legotillverkningsförslag** och välj sedan tillhörande länk.  
 2.  Välj den **Verkställ åtgärdsmeddelande** åtgärd.  
 3.  Markera fältet **Skriv ut inköpsorder** om du vill skriva inköpsordern när den skapas.  
 4.  Välj knappen **OK**.  
@@ -80,7 +80,7 @@ När inköpsordern bokförs som inlevererad bokförs en utflödesjournalrad auto
 >  För att undvika att förväntade utdata för en produktionsorder bokförs när legotillverkningsinköp tas emot, kontrollera att legotillverkningsoperationen inte är den sista. Alternativt infogar du en ny sista åtgärd för det sista utflödesantalet.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Så här bokför du en inköpsorder för underkontrakt:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsreturordrar** och välj sedan tillhörande länk.  
 2.  Öppna den inköpsorder som skapades från legotillverkningskalkylarket.  
 
     På inköpsorderraderna ser du samma information som i kalkylarket. Fälten **Prod. Ordernr**, **Prod. Radnr**, **Operationsnr**, och **Prod.gruppsnr** fylls i automatiskt med information från den ursprungliga produktionsordern.  
@@ -100,6 +100,6 @@ När inköpsordern faktureras bokförs inköpskostnaden för inköpsordern i pro
 [Produktion](production-manage-manufacturing.md)    
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)      
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

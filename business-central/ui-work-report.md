@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 709e444d185e6950d6367036db622b30c8062f25
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2bafaa9f4bda392309a76470df5290857327e59c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310618"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189297"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeta med rapporter och batch-jobb och XML-portar
 En rapport samlar in information som baseras på en viss uppsättning villkor och ordnar och visar informationen i ett format som är lätt att läsa och kan skrivas ut och sparas som en fil. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
@@ -25,18 +25,18 @@ Batchjobb och XMLports gör mer eller mindre detsamma som rapporter, men i syfte
 > [!NOTE]
 > Det här avsnittet avser huvudsakligen ”rapport”, men liknande information gäller för batch-jobb och XMLports.
 
-Rapporter finns i fältet **rapporter** på markerade sidor eller du kan använda sökning ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn.
+Rapporter finns i liken **Rapporter** på valda sidor. Du kan också använda sökfunktionen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn.
 
 ## <a name="specifying-the-data-to-include-in-reports"></a>Ange data att inkludera i rapporter
 När du öppnar en rapport visas vanligtvis en sidan för förfrågan om batch-jobb, eller XMLport där du kan ange olika alternativ och filter som avgör vad som inkluderas i rapporten.
 
-Du kan ange att filter ska vara mer eller mindre på samma sätt som du anger filter för listor. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#-filtering).
+Du kan ange att filter ska vara mer eller mindre på samma sätt som du anger filter för listor. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 > [!Caution]
 > Avsnittet **Filtrera lista efter** på sidan för begäran innehåller en allmän filtreringsfunktion för rapporter. Dessa filter är valfria.<br /><br /> Vissa rapporter ignorerar dessa filter, vilket innebär att oavsett vilka filter som anges i avsnittet **Filtrera lista efter** är rapportens resultat detsamma. Det går inte att skapa en lista vars fält ignoreras i vilka rapporter, så du måste experimentera med filtren om du använder dem.<br /><br />
 **Exempel**: när du använder batch-jobbet **Skapa betalningspåminnelser**, ett filter för fältet **Kundreskontratransaktioner** i **Senast utskickad bet.påm.nivå** kommer att ignoreras eftersom filter är fasta för det batch-jobbet.
 
-## <a name="SavedSettings"></a>Använda sparade inställningar
+## <a name="using-saved-settings"></a><a name="SavedSettings"></a>Använda sparade inställningar
 Sidan för begäran kan innehålla avsnittet **sparade inställningar** som innehåller en eller flera poster i rutan **Använd standardvärde från**. En sparad inställning är i princip en förinställd grupp inställningar och filter som du kan tillämpa på rapporten innan du förhandsgranskar eller skickar rapporten till en fil. Posten vid namn **Senast använda alternativ och filter** med sparade inställningar är alltid tillgänglig. Den här posten anger rapporten till att använda alternativ och filter som användes när du använde rapporten.
 
 Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. När du har angett rutan **Använd standardvärde från** till en sparad inställning kan du ändrar valfria alternativ och filter innan du förhandsgranskar eller sparar rapporten. Utförda ändringar sparas inte i de post för sparad ändring som du valde, utan sparas i stället i transaktionen **Senast använda alternativ och filter**.
@@ -63,13 +63,22 @@ Välj knappen **förhandsgranska** om du vill visa rapporten. Använd menyraden 
 ## <a name="saving-a-report"></a>Spara rapporten
 Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument genom att välja knappen **skicka till**, och sedan göra ditt val.
 
-## <a name="ScheduleReport"></a> Schemalägga en rapportkörning
+## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Schemalägga en rapportkörning
 Du kan schemalägga eller köra batch-jobb för rapport att köras vid ett visst datum och tider. Planerade rapporter och batch-jobb anges i jobbkön och behandlas vid den planerade tid, på liknande sätt som andra jobb. Du väljer alternativet **schema** när du har valt knappen **skicka till** och sedan skriver du in information om t.ex. skrivare, tid och datum. Rapporten läggs sedan till jobbkön och körs vid den angivna tidpunkten. När rapporten behandlas tas artikeln bort från jobbkön. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 Du kan välja att spara den behandlade rapporten till en fil, t.ex en Excel-, Word- eller PDF-fil, skriva ut den till en viss skrivare eller bara behandlar rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till området **Rapportinkorg** i ditt Rollcenter, där du kan visa den.
 
-## <a name="PrintReport"></a>Skriva ut en rapport
-Du kan skriva ut en rapport från knappen **Utskrift** på alternativsidan som visas när du öppnar rapporten eller på menyraden i förhandsgranskningen.  
+## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriva ut en rapport
+Du kan skriva ut en rapport genom att välja knappen **Skriv ut** på sidan för rapportbegäran eller på menyraden på sidan **Förhandsgranska**.
+
+Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
+
+Om en molnskrivare inte har installerats eller konfigurerats, eller om en installerad skrivare havererar, kommer utskriften att ske via webbläsarens standardalternativ för utskrift. Detta anges med det här värdet i fältet **Skrivare** på sidan för rapportförfrågan: *(ingen, hanteras av webbläsaren)*.
+
+På sidan **Utskriftshantering** kan du se vilka skrivare som är inställda. Mer information finns i [Ställa in skrivare](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> Du kan inte ändra fältet **Skrivare** på sidan för rapportförfrågan. Om du vill använda en annan skrivare måste du välja den på sidan **Utskriftshantering**.
 
 ### <a name="printing-reports-in-thai"></a>Skriva ut rapporter på thailändska
 För den thailändska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] kan knappen **utskrift** inte skriva ut rapporter på rätt sätt på grund av begränsningar i tjänsten som genererar den utskrivbara PDF-filen. I stället kan du öppna rapporten i Word och spara den som utskrivbar PDF.  
@@ -80,7 +89,7 @@ Du kan också be administratören att skapa en layout för en Word-rapport för 
 En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Om du vill växla till en annan layout, se [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md). Om du vill anpassa rapportens layout, se [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se även
-[Ange skrivarval för rapporter](ui-specify-printer-selection-reports.md)  
+[Ställa in skrivare](ui-specify-printer-selection-reports.md)  
 [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)  
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

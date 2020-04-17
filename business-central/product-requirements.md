@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911245"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190089"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimikrav för att använda Business Central
 Innan du öppnar [!INCLUDE [prodshort](includes/prodshort.md)] online, bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
@@ -30,13 +30,13 @@ Innan du öppnar [!INCLUDE [prodshort](includes/prodshort.md)] online, bör du k
 
 ### <a name="other-supported-browsers"></a>Andra webbläsare som stöds
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad att användas med Internet Explorer 11 (build 11.0.9600.17239) för Windows 10 (32-bit och 64-bit versions). Vi rekommenderar att du uppgraderar till senaste versionen av Internet Explorer som stöds i din version av Windows. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad att användas med Internet Explorer 11 (build 11.0.9600.17239) för Windows 10 (32-bit och 64-bit versions). Vi rekommenderar att du uppgraderar till senaste versionen av Internet Explorer som stöds i din version av Windows. Du kan också köra nya Edge och fortfarande komma åt webbplatser som kräver Internet Explorer. Mer information finns i [Microsoft Edge-dokumentationen](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobila enheter
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för Windows kan installeras på enheter med minst 1 GB RAM-minne och Windows 10 Home, Pro, Enterprise, eller Education (32- och 64-bitars versioner).  
 **iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för iPad och iPhone kräver iOS 10.0 eller senare.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för Android surfplatta och Android telefon kan installeras på enheter med minst 1GB av RAM och Android 6.0 eller högre.  
-**Enhetens storlek:** [!INCLUDE[d365fin](includes/d365fin_md.md)] som stöds på smartphones med ett lägsta skärmstorlek på 4” och surfplattor med en lägsta skärmstorlek på 7”.  
+**Enhetens storlek:** [!INCLUDE[d365fin](includes/d365fin_md.md)] stöds på smartphones med minsta skärmstorlek på 4 tum och surfplattor med minsta skärmstorlek på 7 tum.  
 
 ## <a name="outlook"></a>Outlook
 **Outlook-program:** För att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din företagsinkorg i Outlook, behöver du Outlook 2016 eller senare, Outlook i en webbläsare, Outlook för iPhone, Outlook för iPad eller Outlook för Android. Organisationen måste också använda Office 365. Du kan inte använda [!INCLUDE [prodshort](includes/prodshort.md)] online som inkorgen för företaget i Outlook om din organisation använder en Exchange Server lokalt.  

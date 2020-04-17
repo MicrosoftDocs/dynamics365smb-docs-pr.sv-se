@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 6f73978c381075175d80c14c8aaaf2d66cb60ade
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910910"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188162"
 ---
 # <a name="setting-up-workflows"></a>Konfigurera arbetsflöden
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).  
@@ -46,7 +46,7 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 Den här videon visar hur du ställer in ett arbetsflöde som kräver att någon begär någon annans godkännande innan de kan ändra information om en befintlig kund eller skapa en ny kund.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
 ## <a name="see-also"></a>Se även  
  [Använda arbetsflöden](across-use-workflows.md)   

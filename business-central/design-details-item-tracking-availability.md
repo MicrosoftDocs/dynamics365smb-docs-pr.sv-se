@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8e44eb5c81babccd88443b50a209cfec891e8cc7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 628d72c030d26b8de1f7341ea0ebbb0289b02ae5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880214"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185090"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetaljer: Disposition av artikelspårning
 Sidorna **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynamisk dispositionsinformationen för serie-/partinummer. Avsikten med detta är att öka transparensen för användare på avgående dokument, t.ex. försäljningsorder, genom att visa dem vilka serienummer eller hur många enheter av partinumret som för närvarande tilldelas på andra öppna dokument. Det minskar osäkerhet som orsakas av dubbel fördelning, och gör att orderhandläggarna kan känna sig säkra på att artikelspårningsnumren och datumen som utlovas på försäljningsorder som inte har bokförts kan uppfyllas. Mer information finns i [Designdetaljer: Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md).  

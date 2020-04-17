@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ed544486af6949932814bf97d99293f1ef17ee2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303586"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185522"
 ---
 # <a name="dimension-set-entries-overview"></a>Översikt över dimensionsuppsättningstransaktioner
 I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ Följande exempel visar när en dimensionsuppsättning som har tre dimensionsupp
 ## <a name="dimension-set-entries"></a>Dimensionsuppsättningstrans.  
 Dimensionsuppsättningar lagras i tabellen **Dimensionsuppsättnings transaktion** som dimensionsuppsättningstransaktioner med samma dimensionsuppsättnings-ID.  
 
-![Flöde av dimensionsuppsättningstransaktioner](media/dimensionentrynav7.png "Flöde av dimensionsuppsättningstransaktioner")  
+![Flöde för dimensionsuppsättningstransaktioner](media/dimensionentrynav7.png "Flöde för dimensionsuppsättningstransaktioner")  
 
 När du skapar en ny journalrad, dokumenthuvud eller dokumentrad kan du ange en kombination av dimensionsvärden. I stället för att uttryckligen lagra varje dimensionsvärde i databasen tilldelas ett dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden för att specificera dimensionsuppsättningen.  
 

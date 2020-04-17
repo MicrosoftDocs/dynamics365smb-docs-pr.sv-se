@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076788"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188186"
 ---
-# <a name="set-up-data-exchange-definitions"></a>Skapa dataintegrationsdefinitioner
+# <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
 Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
-Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet [Så här beskriver du formateringen av rader och kolumner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet [Så här beskriver du formateringen av rader och kolumner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Mer information finns i [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Du skapar normalt definitioner för datautbyte på sidan **datautbytesdefinitioner**. Men när du skapat en datautbytesdefinitioner för tjänsten med uppdatering av valutakurser startar du processen på den förenklade sidan **Inställning valutakursuppdatering**.  
 
@@ -84,7 +84,7 @@ Beskrivs i följande procedurer.
 
 5. Upprepa moment 4 för att skapa en rad för varje typ av fildata som du vill exportera.  
 
-     Sedan beskriver du formateringen av kolumner i datafilen genom att fylla i fälten på snabbfliken **Kolumndefinitioner** så som beskrivs i följande tabell. Du kan använda strukturfilen, till exempel en XSD-fil, för att datafilen ska autofylla snabbfliken med de relevanta elementen. Mer information finns i [Använda XML-scheman för att förbereda dataintegrationsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Sedan beskriver du formateringen av kolumner i datafilen genom att fylla i fälten på snabbfliken **Kolumndefinitioner** så som beskrivs i följande tabell. Du kan använda strukturfilen, till exempel en XSD-fil, för att datafilen ska autofylla snabbfliken med de relevanta elementen. Mer information finns i [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Välj **Hämta filstruktur**på snabbfliken **Kolumndefinitioner**.  
 7. På sidan **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan knappen **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
@@ -139,7 +139,7 @@ Beskrivs i följande procedurer.
     |**Målfältsrubrik**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange namnet på fältet i måltabellen som värdet i fältet **Kolumnrubrik** mappas till när du använder en cachelagringstabell för dataimport.|  
     |**Valfri**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange om mappningen ska hoppas över när fältet är tomt. Om du inte markerar den här kryssrutan så inträffar ett exportfel om fältet är tomt.|  
 
-Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Ställa in SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md) och [Utför betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Ställa in SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Erhålla betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md) och [Utföra betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Omvandlingsregler
 Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera**och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
@@ -157,7 +157,7 @@ Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandli
 |**Datumformatering**|Ange hur datum ska visas. Du kan till exempel omvandla DD-MM-ÅÅÅÅ till ÅÅÅÅ-MM-DD.|
 |**Decimalformat**|Definiera regler för decimalplacering och avrundningsprecision.|
 |**Matchning - reguljärt uttryck**|Använd ett reguljärt uttryck för att hitta ett eller flera värden. Detta liknar alternativen för **Delsträng** och **Reguljärt uttryck - Byt ut**.|
-|**Anpassat**|Detta är ett avancerat alternativ som kräver hjälp från en utvecklare. Det möjliggör en integrationshändelse som du kan prenumerera på om du vill använda din egen omvandlingskod. Om du är utvecklare och vill använda det här alternativet kan du läsa avsnittet "tips för utvecklare: exempel på det anpassade alternativet" nedan.|
+|**Anpassat**|Detta är ett avancerat alternativ som kräver hjälp från en utvecklare. Det möjliggör en integreringshändelse som du kan prenumerera på om du vill använda din egen omvandlingskod. Om du är utvecklare och vill använda det här alternativet kan du läsa avsnittet "tips för utvecklare: exempel på det anpassade alternativet" nedan.|
 |**Format för datum och tid**|Definiera hur du vill visa aktuellt datum och tid på dagen.|
 
 #### <a name="tip-for-developers-example-of-the-custom-option"></a>Tips för utvecklare: exempel på det anpassade alternativet

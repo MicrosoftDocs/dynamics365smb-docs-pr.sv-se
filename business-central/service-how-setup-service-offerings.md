@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2f6d9b02e3364d34339ea7176c08fdff7de5eb90
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877261"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195081"
 ---
 # <a name="set-up-service-offerings"></a>Skapa tjänsteerbjudanden
 När du gör inställningarna i tjänstehanteringen måste du bestämma vilken service du erbjuder kunderna och schemalägga denna service. Service är en typ av arbete som utförs av en eller flera resurser åt kunden. Service kan till exempel vara en typ av datorreparation. En serviceartikel är den utrustning eller artikel som behöver servas, till exempel datorn som måste repareras. Du kan ställa in service som en del av en grupp relaterade reparations- eller underhållsartiklar.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076495"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194073"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 Gör snabba, felfria betalninger genom att exportera filer som är specifikt formaterade för utbyte med din leverantör eller bank. Filerna påskyndar processerna för betalning och avstämning och undviker fel som kan inträffa när du manuellt anger information på en bankwebbplats.  
@@ -101,5 +101,4 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 ## <a name="see-also"></a>Se även
 [Anpassning av Business Central för [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
-[Så här bokför du betalningsinleveranser för SEPA Autogiro](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

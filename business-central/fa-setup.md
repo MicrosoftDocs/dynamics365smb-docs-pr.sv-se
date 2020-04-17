@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9bc15c216edf295ecf6c04da2f30db8097ddfe31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306514"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184178"
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
@@ -29,7 +29,7 @@ I tabellen nedan finns länkar till mer information. När du har skapat detta ka
 > [!NOTE]  
 >   Du kan bokföra anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder sidan **Anl.tillg. redovisningsjournal**.  
 
-När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integration** på sidan **Avskrivningsregelkort**, sedan kommer sidan **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
+När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integrering** på sidan **Avskrivningsregelkort**, sedan kommer sidan **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 

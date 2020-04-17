@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac6390df7f278edfcceae435e7a00bc5897bc6e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b08100c6a24681485ce3ec76f71751d69b131d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314418"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195905"
 ---
 # <a name="allocate-costs-and-income"></a>Fördela kostnader och intäkter
 Du kan fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras enligt tre olika metoder:
@@ -32,7 +32,7 @@ I följande procedurer beskrivs hur du förbereder att fördela kostnader i en �
 
 ## <a name="to-set-up-allocation-keys"></a>Så här skapar du fördelningsnycklar
 Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Återkommande redov.journal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande redovisningsjournal** och välj sedan tillhörande länk.
 2. Välj fältet **Journalnamn** för att öppna sidan **redovisningsjournaler**.
 3. Du kan antingen ändra fördelningar på en befintlig journal i listan eller skapa en ny journal med fördelningar.
    * För att skapa en y journal väljer du åtgärden **Ny** och går vidare till nästa steg för att skapa en ny journal.
@@ -46,8 +46,8 @@ Du kan fördela en transaktion i en återkommande redovisningsjournal på flera 
 10. Välj **OK** för att återgå till sidan **Återkommande redov.journal** fönstret, när du har angett fördelningsraderna. Fältet **Fördelat belopp (USD)** är ifyllt och matchar fältet **Belopp**.
 11. Bokför journalen.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>För att ändra en fördelningsnyckel som redan har angetts.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Återkommande redov.journal** och välj sedan relaterad länk.
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>För att ändra en fördelningsnyckel som redan har ställts in
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande redovisningsjournal** och välj sedan tillhörande länk.
 2. Välj journalen med fördelningen på sidan **Återkommande redov.journal**.
 3. Välj raden med fördelningen och välj sedan åtgärden **fördelningar**.
 4. Fyll i de relevanta fälten och välj sedan knappen **OK**.

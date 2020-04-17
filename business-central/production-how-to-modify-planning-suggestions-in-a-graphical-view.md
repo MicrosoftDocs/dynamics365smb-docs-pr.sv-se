@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 51c52da767fb9c192fbadbdfe68df8c36b17fb2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877933"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190425"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
 En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt.

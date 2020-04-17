@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 01/01/2019
+ms.date: 04/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881996"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189321"
 ---
 # <a name="list-views-faq"></a>Vanliga frågor om listvyer
 I det här avsnittet besvaras frågor som våra erfarna användare ofta ställer på att arbeta med listvyer och spara filter.  

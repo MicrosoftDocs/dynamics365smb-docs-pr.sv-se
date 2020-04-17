@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311458"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192129"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och kortkommandon
 Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgängligt för användare med funktionshinder. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder följande hjälpmedelsfunktioner:  
@@ -48,18 +48,18 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
 
 -->
 
-##  <a name="Navigation"></a> Navigering  
+##  <a name="navigation"></a><a name="Navigation"></a> Navigering  
  Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet. Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare. Tryck på Shift+Tabb för att flytta bakåt.  
 
  Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.  
 
-##  <a name="Headings"></a> Rubriker  
+##  <a name="headings"></a><a name="Headings"></a> Rubriker  
  HTML-källan för [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  
 
-##  <a name="Images"></a> Bilder och länkar  
+##  <a name="image-and-links"></a><a name="Images"></a> Bilder och länkar  
  En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
 
-##  <a name="AssistiveTech"></a> Hjälpmedel  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjälpmedel  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
 
 ## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel  

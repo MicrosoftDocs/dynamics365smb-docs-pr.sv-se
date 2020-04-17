@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953317"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194601"
 ---
 # <a name="change-basic-settings"></a>Ändra grundinställningar
 
 PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
-## <a name="role-center"></a> Rollcenter
+## <a name="role-center"></a><a name="role-center"></a> Rollcenter
 Rollcentret representerar startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
 
 -   Längst upp låter navigeringen dig växla mellan kunder, leverantörer, artiklar och andra viktiga listor med information. På samma sätt kan du starta aktiviteter, såsom skapa en ny försäljningsfaktura direkt från Rollcentret.
@@ -34,7 +34,7 @@ Standardrollen är **Chef**, men du kan välja en annan roll för att använda e
 2. På sidan **Mina inställningar** i fältet **Roll** väljer du den roll du vill använda som standard. Välj till exempel **Revisor**.
 3. Välj **OK**.
 
-## <a name="company"></a>Företag
+## <a name="company"></a><a name="company"></a>Företag
 Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
 
 Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du kan skapa ett nytt företag med egna data. Mer information finns i [Skapa nya företag](about-new-company.md).
@@ -42,7 +42,7 @@ Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du k
 ## <a name="to-change-the-company-name"></a>Så här ändrar du företagsnamnet
 Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en åtgärd som du kan välja att gå tillbaka till rollcentret. Du kan ändra det här namnet på sidan **företagsinformation**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företagsinformation** och välj sedan relaterad länk.
+1. Välj ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Företagsinformation**.
 2. Ange det nya företagsnamnet i fältet **Namn**.
 3. Lämna sidan. Systemet startas om och det nya företaget visas i det övre vänstra hörnet.
 
@@ -55,7 +55,7 @@ Du kan lägga till en anpassad bricka i det övre högra hörnet, som du kan vä
 > [!NOTE]
 > Om en företagsbricka definieras kan du inte ändra företagsnamnet enligt beskrivningen i [så här ändrar du företagsnamnet](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Arbetsdatum
+## <a name="work-date"></a><a name="work-date"></a>Arbetsdatum
 Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra dagens datum.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ När arbetsdatumet inte infaller på dagens datum visas två typer av indikatore
 - Om du avmarkerar påminnelsen visas arbetsdatumet i titeln på sidan.  
 --> Om arbetsdatumet inte anges för den aktuella dagen (idag) visas sedan på alla sidor där du kan redigera data föregående arbetsdatum i det övre vänstra hörnet på sidan.
 
-## <a name="region"></a> Region
+## <a name="region"></a><a name="region"></a> Region
 
 Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
 
-## <a name="language"></a> Språk
+## <a name="language"></a><a name="language"></a> Språk
 Ändra displayspråk. Det här fältet visas bara om det finns flera språk att välja mellan.
 
 Startspråket bestäms antingen av administratören eller i webbläsaren när du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det språk som du anger används för alla enheter som du loggar in från, till exempel en telefon eller surfplatta.
 
+Ytterligare språk för [!INCLUDE[prodshort](includes/prodshort.md)] kan installeras från AppSource. Även om alla visningsspråk som stöds visas i listan måste administratören installera relevant språkapp i klientorganisationen innan användarna kan växla till det nya språket i [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Ändra när jag får meddelanden
 Välj den här länken för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Mer information finns i [Hantera meddelanden](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Skapa nya företag](about-new-company.md)  

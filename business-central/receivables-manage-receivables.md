@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 387b8269e5da978c25c1c5436f5a737fa055a78c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954166"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191913"
 ---
 # <a name="managing-receivables"></a>Hantera kundreskontra
 En vanlig steg i alla finansiella takter är att stämma av bankkonton, som kräver att du kopplar inkommande betalningar till kund- eller leverantörsreskontratransaktioner för att stänga försäljningsfakturor och inköpskreditnotor när de betalas.
@@ -50,7 +50,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Förutsäga när betalningar görs sent för försäljningsdokument. | [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  

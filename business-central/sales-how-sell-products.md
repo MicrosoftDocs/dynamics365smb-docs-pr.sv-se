@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 76fc6081cf1dd27cc1e8f6c3611e60cb0ef7d37f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fefafc1ca8ac7f5cd9862ff741a0f0fd9fec7ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312106"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194025"
 ---
 # <a name="sell-products"></a>Sälja produkter
 Du kan skapa en försäljningsorder eller försäljningsfaktura för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
@@ -42,7 +42,7 @@ Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** f
 Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
 
 ## <a name="to-create-a-sales-order"></a>Så här skapar du försäljningsorder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
     Andra fält på sidan **Försäljningsorder** fylls nu i med standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
@@ -128,6 +128,6 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Skicka dokument som e-post](ui-how-send-documents-email.md)  
+[Lager](inventory-manage-inventory.md)  
+[Skicka dokument som e-transaktion](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

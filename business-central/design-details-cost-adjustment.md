@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79633ad4488a5fbe9df372331c54dd3a0e15f929
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 85f8de1a0e3aadbf55fb8c4292aeb1e216817a23
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303682"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185642"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
 Huvudsyftet med kostnadsjustering är att flytta fram kostnadsändringar från kostnadskällor till kostnadsmottagare, enligt en artikels värderingsprincip, för att leverera rätt lagervärdering.  
@@ -63,7 +63,7 @@ Den här identifieringsfunktionen används i konverteringsscenarion, produktion 
 
 Ordernivåfunktionen används för att identifiera justeringar i monteringsbokföring. Följande grafik visar strukturen för justeringstransaktionen:  
 
-![Flöde av transaktioner i kostnadsjustering](media/design_details_assembly_posting_3.png "Flöde av transaktioner i kostnadsjustering")  
+![Postflöde för kostnadsjustering](media/design_details_assembly_posting_3.png "Postflöde för kostnadsjustering")  
 
 Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953285"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193890"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
@@ -34,7 +34,7 @@ Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till 
 > [!NOTE]
 > Filer som bifogas med funktionen inkommande dokument finns inte på fliken **bifogade filer**. Mer information finns i [inkommande dokument](across-income-documents.md).
 
-Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument och kort som stöds.
+Följande procedur är baserad på en inköpsfaktura. Stegen är liknande för alla andra dokument och kort som stöds.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.
 2. Öppna försäljningsorder som du vill bifoga en fil till.
@@ -44,6 +44,16 @@ Följande procedur är baserad på en försäljningsorder. Stegen är liknande f
 5. Markera en fil varifrån som helst och välj sedan knappen **öppna**.
 
 Filen är nu bifogad inköpsfakturan.
+
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Så här sparar du ett dokument som en bifogad PDF-fil
+När du behöver spara ett dokument som en fil kan du använda åtgärden **Bifoga som PDF** för att överföra det aktuella dokumentinnehållet som en PDF-fil som är kopplad till faktaboxen för dokumentet. Detta är användbart exempelvis när dokument följer flera steg i en procedur, t.ex. ett arbetsflöde för försäljning eller godkännande, och du vill referera till en utskrift av föregående steg.
+
+Följande procedur är baserad på en försäljningsorder. Stegen är liknande för samtliga dokument som stöds.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
+2. Markera en försäljningsorder och välj åtgärden **Bifoga som PDF**.
+
+En PDF-fil med det aktuella innehållet på försäljningsordern läggs till på fliken **Bilagor** i faktaboxen. 
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Att lägga till länk från ett artikelkort
 Du kan lägga till en länk från ett kort eller dokument till en URL eller sökväg. Detta är användbart om du t.ex. vill koppla ett artikelkort till leverantörens artikelkatalog.

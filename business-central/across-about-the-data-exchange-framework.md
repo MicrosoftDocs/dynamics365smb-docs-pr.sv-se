@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/30/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 18611cf98d8299900d2f517d2899404341933a80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076713"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188810"
 ---
 # <a name="about-the-data-exchange-framework"></a>Om ramverket för datautbyte
-Du kan använda ramverket för dataintegration för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
+Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
 Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Exempelvis varierar formatet på filer för utbyte av data i bankfiler, elektroniska dokument, valutakurser och annat med ERP-system beroende på leverantören av datafilen eller strömmen och på land/region. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika bankfilformat och datatjänststandarder. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.
 
  Följande diagram visar arkitekturen för ramverket för datautbyte.  
 
- ![Ramverk för dataintegration &#45; Importera](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Ramverk för dataintegrering &#45; Importera](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Ramverk för dataintegration &#45; Exportera](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Ramverk för dataintegrering &#45; Exportera](media/across-data-exchange/dataexchangeframework_export.png)  
 
  ## <a name="electronic-documents"></a>Elektroniska dokument
  Som alternativ till att e-posta en filbilaga kan du skicka och ta emot elektroniska affärsdokument. Med elektroniska dokument menas en standarduppfyllande fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som du kan ta emot och konvertera till en inköpsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)] . Utbytet av elektroniska dokument mellan två handelspartners utförs av en extern leverantör av dokumentväxlingstjänster. Den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster är förkonfigurerad och klar att ställa in för ditt företag. Om du vill tillhandahålla stöd för andra elektroniska dokumentformat måste du skapa nya datumutbytesdefinitioner med hjälp av ramverket för datautbyte.  
@@ -56,7 +56,7 @@ Som administratör eller Microsoft-partner kan du använda ramverket i nya integ
  För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställningen genom att ladda den relaterade XML-schemafilen på sidan **Visningsprogram för XML-schema**. Här väljer du dataelementen som du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)] och sedan initialiserar du antingen en definition för datautbyte eller genererar en XMLport.
 
 ## <a name="see-also"></a>Se även  
-[Utbyta data elektroniskt](across-data-exchange.md).  
+[Utbyta data elektroniskt](across-data-exchange.md)  
 [Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Inkommande dokument](across-income-documents.md)  

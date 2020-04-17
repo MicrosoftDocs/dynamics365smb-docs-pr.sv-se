@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 223f91bbefbb15a5ab1a576c84ace007c6b76075
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8944c01f032444b98efaf482c00d198127570c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314030"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193089"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytta artiklar ad hoc i grundläggande lagerkonfigurationer
 Ibland kan du behöva flytta artiklar mellan interna lagerplatser, inte inleverans eller utleveranslagerplatser, utan en viss efterfrågan från ett källdokument. Du kan utföra dessa ad hoc-transporter, till exempel, kan du ordna om distributionslagret, för att få artiklarna till område, eller flytta ytterligare artiklar till och från en produktionsområde utan ett systemsamband med produktionsorderkälldokumentet.  
@@ -29,7 +29,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
 >  I avancerad lagerkonfiguration, dvs lagerställen som använder **Dirigerad art.inf. och plock.** inställningsfältet använder du **Transportkalkylark** sidan eller **Intern Dist.lager plockning** eller **Intern Dist.lager art.införsel** för flytta artiklar som är ad hoc mellan lagerplatser.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Så här flyttar du artiklar som en internförflyttning  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Interntransport** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Internförflyttning** och välj sedan tillhörande länk.  
 2.  Fyll i fältet **Nr** på snabbfliken **Allmänt** . Fyll Nr fälten, antingen genom att lämna fältet eller genom att välja **AssistEdit** för att välja nummer i nummerserien.  
 3.  I **Lagerställekod** fältet, ange det lagerställe där transporten ska utföras.  
 
@@ -58,7 +58,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Så här flyttar du artiklar med artikelgrupperingsjournalen
 Du kan registrera flyttning av objekt genom att gruppera de lagerplatskoder som finns i stället för att använda dokument för distributionslagertransport. Mer information finns i [Inventera, justera och gruppera om lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).   
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelgrupp.journal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelgrupperingsjnl** och välj sedan tillhörande länk.  
 2.  Definiera vilka lagerplatser som du vill flytta artiklar till och från på varje journalrad, genom att fylla i **Lagerplatskod** och **Ny lagerplatskod** fältet.  
 
     1.  Om du vill flytta hela innehållet från en lagerplats till en annan lagerplats väljer du åtgärden **Hämta lagerplatsinnehåll**.  

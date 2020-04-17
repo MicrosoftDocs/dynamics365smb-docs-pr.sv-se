@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 02/20/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: df141f15eda20b1c3ce17e12e726f79a20532915
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097750"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183674"
 ---
 # <a name="select-a-check-layout"></a>Välj en checklayout
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
@@ -36,7 +36,7 @@ Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska c
 
 När du har upprättat checklayouter, kan du skriva ut checkar från sidan **utbetalningsjournal**. Mer information finns i [Arbeta med checkar](payables-how-work-checks.md).
 
-Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integration. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
+Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integrering. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Använda MICR och säkerhetsteckensnitt
 Online-versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.

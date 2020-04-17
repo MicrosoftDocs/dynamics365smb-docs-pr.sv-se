@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd4f9ea57e0c21cd5398830bbcdddecf68e9c4c0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff621150cca478f56edd113832e2253d73f7698c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314802"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195705"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
@@ -58,14 +58,14 @@ För att kunna utföra den här genomgången behöver du:
 -   CRONUS Sverige Ab installerad.  
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
-    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan tillhörande länk.  
     2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
     3.  Ange SILVER i fältet **Lagerställekod**.  
     4.  Välj fältet **Standard**.  
 
 -   Gör artikeln LS-81 tillgänglig på platsen SILVER, genom att följa nedanstående steg:  
 
-    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikeljournaler** och välj sedan relaterad länk.  
+    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
     2.  Öppna standardjournalen och skapa sedan två artikeljournalrader med följande information om arbetsdatumet (23 januari).  
 
         |Transaktionstyp|Artikelnummer|Platskod|Lagerplatskod|Antal|  
@@ -82,7 +82,7 @@ Ellen, lagerchefen i CRONUS, ställer in lagret SILVER för grundläggande plock
 Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
 
 ### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet SILVER.  
 3.  Markera kryssrutan **Begär plockning**.  
 
@@ -90,7 +90,7 @@ Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden
 Försäljningsorder är den vanligaste typen för utgående källdokumentet.  
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en försäljningsorder för kund 10000 på arbetsdatumet (23 januari) med följande försäljningsorderrad.  
 
@@ -108,7 +108,7 @@ Försäljningsorder är den vanligaste typen för utgående källdokumentet.
 På sidan **Lagerplockning** kan du hantera alla utgående distributionslageraktiviteter för ett särskilt källdokument, t.ex en försäljningsorder.  
 
 ### <a name="to-pick-and-ship-items"></a>Plocka och utleverera artiklar så här  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerplockningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplockning** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Välj fältet **Källdokument** och sedan **Försäljningsorder**.  
 4.  Välj fältet **Ursprungsnr.**, markera raden för försäljningen till kund 10000 och välj sedan knappen **OK**.  

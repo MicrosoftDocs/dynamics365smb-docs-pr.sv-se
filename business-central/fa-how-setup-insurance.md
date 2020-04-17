@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7151f1415e87be4775966ad9727cd0ba00b041ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a7dfc768ff3de49a79c77ec187a7da40817764b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306586"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184250"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Skapa försäkring för anläggningstillgångar
 Om du vill hantera täckning av försäkring för anläggningstillgångar måste du först ange en viss allmän försäkringsinformation och ett försäkringskort per brev.
@@ -25,32 +25,32 @@ Om du vill hantera täckning av försäkring för anläggningstillgångar måste
 ## <a name="to-set-up-general-insurance-information"></a>Så här anger du allmän försäkringsinformation
 Om du vill använda den här funktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du ange viss allmän information.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställningar i anl.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar i anl.** och välj sedan tillhörande länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Så här skapar du försäkringstyper
 Du kan gruppera dina försäkringsbrev i kategorier, t.ex. stöldförsäkring och brandförsäkring. Försäkringstyperna används på försäkringskortet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkringstyper** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringstyper** och välj sedan tillhörande länk.  
 2. Fyll i fälten om det behövs.
 
 ## <a name="to-set-up-insurance-cards"></a>Så här skapar du försäkringskort
 Du kan lagra information om varje försäkringsbrev på försäkringskortet.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkring** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkring** och välj sedan tillhörande länk.  
 2. På sidan **Försäkring** väljer du åtgärden **Ny** åtgärder för att skapa ett nytt försäkringskort.  
 3. Fyll i fälten om det behövs.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Så här skapar du journalmallar för försäkringar
 [!INCLUDE[d365fin](includes/d365fin_md.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar sidan **Försäkringsjournal**. Du kan dessutom skapa ytterligare mallar. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkringsjournalmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringsjournalmallar** och välj sedan tillhörande länk.  
 2. Fyll i fälten om det behövs.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Så här skapar du försäkringsjournaler
 Du kan skapa journaler i en försäkringsjournalmall. Värdena i journalen används som standardvärden om du inte fyller i fälten på journalraderna. Mer information finns i [Arbeta medSkapa redovisningsjournaler](ui-work-general-journals.md)  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Försäkringsjournalmallar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringsjournalmallar** och välj sedan tillhörande länk.  
 2. Välj en försäkringsjournalmall och välj sedan åtgärden **Journaler**.
 3. På sidan **Försäkringsjournaler** fyller du i fälten efter behov.
 

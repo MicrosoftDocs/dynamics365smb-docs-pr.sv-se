@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315138"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195729"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Varför är en sida låst för anpassning?
 
-Det finns två villkor som hindrar dig från att anpassa en sida. Antingen är sidan låst (som indikeras av ![anpassa lås](media/personalization-lock-icon.png "anpassa lås")) eller spärrad (som indikeras av ![anpassning spärrad](media/personalization-blocked-icon.png "anpassning spärrad")).
+Det finns två villkor som hindrar dig från att anpassa en sida. Antingen är sidan låst (vilket indikeras av ikonen ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås")) eller spärrad (vilket indikeras av ikonen ![Anpassning spärrad](media/personalization-blocked-icon.png "Anpassning spärrad")).
 
 ## <a name="locked-from-personalizing"></a>Låst för att anpassa
 
-Om det finns en ikon ![anpassa lås](media/personalization-lock-icon.png "anpassa lås") i banderollen **anpassa** när du öppnar en sida, betyder det att du för tillfället inte kan göra några fler anpassningsändringar på sidan.
+Om det finns en ikon ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås") i banderollen **Anpassa** när du öppnar en sida, betyder det att du för tillfället inte kan göra några fler anpassningsändringar på sidan.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +38,7 @@ Det finnas två orsaker till detta:
 
 ### <a name="unlocking-the-page"></a>Låsa upp sidan
 
-Om du vill låsa upp en sida och fortsätta anpassa den, välj ![anpassa lås](media/personalization-lock-icon.png "anpassa lås") och sedan åtgärden **lås upp**.  
+Om du vill låsa upp en sida och fortsätta anpassa den väljer du ikonen ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås") och sedan åtgärden **Lås upp**.  
 
 Innan du låser upp sidan, ska du tänka på följande:
 
@@ -48,7 +48,7 @@ Innan du låser upp sidan, ska du tänka på följande:
 
 ## <a name="blocked-from-personalizing"></a>Blockerad från att anpassa
 
-Om det finns en ikon för ![anpassning spärrad](media/personalization-blocked-icon.png "anpassning spärrad") i banderollen **anpassning** innebär detta att du blockeras från att göra alla anpassningar till sidan.
+Om det finns en ikon för ![Anpassning spärrad](media/personalization-blocked-icon.png "Anpassning spärrad") i banderollen **Anpassning** innebär detta att du spärras från att utgöra några anpassningar på sidan.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

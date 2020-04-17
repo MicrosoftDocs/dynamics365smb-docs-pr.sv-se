@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d59462f89e8268bdb9def8c455388ccddcea3ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e40f53543b094233c896e627ecfe6eb056e3d20
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310858"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195480"
 ---
-# <a name="letting-included365finincludesd365fin_mdmd-suggest-values"></a>Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden
+# <a name="letting-d365fin-suggest-values"></a>Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjälpa dig att avsluta uppgifter som är snabbare och korrektare genom att fylla i fält eller färdigställa rader med data som du annars måste annars beräkna och ange själv. Även om sådana automatiska datainmatningar inte alltid är korrekta kan du ändra den efteråt om du vill.
 
 Funktionen som matar in fältvärden åt dig, erbjuds vanligtvis för uppgifter där du anger stora volymer av transaktionsdata och vill undvika fel och spara tid. Det här avsnittet innehåller ett urval av sådana funktioner. Mer avsnitt ska läggas till i framtida uppdateringar av [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -25,7 +25,7 @@ Funktionen som matar in fältvärden åt dig, erbjuds vanligtvis för uppgifter 
 Om du till exempel vill ange redovisningsjournalrader för åtskilliga kostnader som alla måste bokföras till samma bankkontot, kan du när du varje gång anger en ny journalrad för en kostnad, låta fältet **Belopp** på bankkontoraden uppdateras automatiskt till beloppet som balanserar kostnaderna. Mer information om att arbeta med redovisningsjournaler finns i [arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Om du vill ha fältet **Belopp** på balanserande redovisningsjournalrader fyllas i automatiskt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan tillhörande länk.
 2. På raden för din föredragna redovisningsjournal väljer kryssrutan **Föreslå saldobelopp**.
 3. Öppna redovisningsjournalen och fortsätt att registrera och bokföra transaktioner med den beskrivna funktionen för automatisk bokföring av ett fältvärde.       
 
@@ -37,7 +37,7 @@ Sidan **Betalningsregistrering** visar utestående inkommande betalningar som ra
 Dina huvudåtgärder på sidan är att fylla i kryssrutan **Utförd betalning** och fältet **Tillbaka datum**. Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] att automatiskt ange arbetsdatum i fältet **Tillbaka datum** när du markerar kryssrutan **Utförd betalning**.
 
 ### <a name="to-have-the-date-received-field-on-the-payment-registration-page-filled-automatically"></a>Att ha fältet **Fyll i Tillbaka datum automatiskt** på sidan **Betalningregistrering** ifyllt automatiskt.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inställning av betalningsregistrering** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för betalningsregistrering** och välj sedan tillhörande länk.
 2. Markera kryssrutan **Fyll i Tillbaka datum automatiskt**.
 3. Öppna sidan **Betalningsregistrering** och fortsätt behandla inkommande kundbetalningar med hjälp av den beskrivna funktionen för automatisk bokföring av ett fältvärde.
 

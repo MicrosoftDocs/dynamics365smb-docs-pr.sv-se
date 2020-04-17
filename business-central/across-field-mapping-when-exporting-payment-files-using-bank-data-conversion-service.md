@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076737"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188666"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med tillägget AMC Banking 365 Fundamentals
 När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals visas de data som du exporterar till tjänstleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om tillägget AMC Banking 365 Fundamentals finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  

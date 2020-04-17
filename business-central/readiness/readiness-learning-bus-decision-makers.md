@@ -2,15 +2,15 @@
 title: Utbildningskatalog för företagets beslutsfattare
 description: Utbildningskatalog för företagets beslutsfattare
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097581"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190881"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Utbildningskatalog för företagets beslutsfattare
 
@@ -18,13 +18,13 @@ Bestämmer du om du vill investera i ny teknik?
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov.  
 
-## Affärsvärde<a name="busvalue"></a>
+## <a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
 
 | Innehåll                                                                 | Beskrivning                                                                                                | Format                                | Längd     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion. | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter |
 
-## Komma igång<a name="get-started"></a>
+## <a name="getting-started"></a>Komma igång<a name="get-started"></a>
 
 | Innehåll                                                                                                                             | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

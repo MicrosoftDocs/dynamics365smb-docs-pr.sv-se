@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 11/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 48f540bd1f8de19ab6ae0284febf6c9c87ababdb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695125"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188906"
 ---
-# <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="creating-new-companies-in-d365fin"></a>Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt: gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="creating-a-new-company"></a>Skapa ett nytt företag

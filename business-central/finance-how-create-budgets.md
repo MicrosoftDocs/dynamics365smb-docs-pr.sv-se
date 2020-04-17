@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953809"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183722"
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
 Om du vill kan du använda flera olika budgetar för samma tidsperioder genom att skapa budgetar med separata namn. Först definierar du budgetnamnet och matar in budgetsiffrorna. Budgetnamnet infogas sedan i alla budgettransaktioner du skapar.  
@@ -48,7 +48,7 @@ För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten
 > [!NOTE]
 > Kontoplanen som redovisningsbudgetarna baseras på, har rader för kontotypen Rubrik som innehåller där summan av raderna under. När du exporterar en redovisningsbudget exporteras data på alla rader oavsett kontotypen. Men endast data på rader med kontotypen Bokföring kan importera data igen. I enlighet med detta: <br /><br /> **När du importerar en redovisningsbudget tas alla värden som fanns på Rubrikrader bort.** <br /><br /> Detta är för att undvika fel summor när du har importerat data som har skapats eller redigerats i Excel.<br /><br /> **Scenario**: du vet att nya budgeterade lönkostnader ska vara BVA 1 200 000. Du vill att budget för löneavdelningen för tre specifika rader (av kontotypen Bokföring) för heltidsanställda, deltidsanställda och timanställda. De tre raderna grupperas under rubrikraden Löner.<br /><br />Du anger 1 200 000 på rubrikraden, exporterar budget till Excel och skickar sedan den till löneavdelningen och ber dem distribuera BVA 1 200 000.<br /><br /> Löneavdelningen fördelar beloppet på tre bokföringskonton. När du importerar tillbaka till redovisningsbudget fylls de tre kontona i med den nya Excel-informationen och summerar till BVA 1 200 000 och rubrikraden är tom.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Exportera affärsdata till Excel](about-export-data.md)  

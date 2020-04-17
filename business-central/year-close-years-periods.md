@@ -1,8 +1,6 @@
 ---
 title: Avsluta bokföringsperioder och räkenskapsår | Microsoft Docs
 description: Ger en översikt över om du vill avsluta ett räkenskapsår eller en bokföringsperiod, till exempel att se till att dokument och journaler är bokförda och verifiering av banksaldon.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 03b9778be1da2897cd1dcb12eeecd87bc905dd65
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953137"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195809"
 ---
 # <a name="closing-years-and-periods"></a>Avsluta år och perioder
+
 Vid slutet av ett räkenskapsår finns ett antal administrativa uppgifter som du måste utföra, som t.ex. att se till att alla dokument och journaler är bokförda och se till att valutadata är aktuell och avsluta böckerna mm. De faktiska uppgifterna beror på ditt företag.
 
 Följande tabell innehåller en översikt över uppgifter som du vanligtvis utför för att avsluta ett år och en period.
@@ -36,10 +35,11 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 | Avsluta bokföringsperioder och räkenskapsår, föra över resultaträkningssaldon till balansräkningskonton och bokföra årsavslutstransaktion för årsslut. |[Avsluta böcker](year-close-books.md) |
 | skriva ut rapporter som kan vara till hjälp när du skapar ekonomirapporter. |[Förbereda årsbokslutsrapporter](year-prepare-close-statement.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesclose-fiscal-year-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
-[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
+
+[Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7effb54187a0b59a175b5fe19265e6fb32bbc295
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b42fb9d04d626dcd46eda1a07c79f610dc5c8c51
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880910"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186434"
 ---
 # <a name="assemble-items"></a>Montera Artiklar
 Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering** så är standard metoden för att tillhandahålla artikeln att sammanställa den av definierade komponenter, eventuellt med en angiven resurs.  

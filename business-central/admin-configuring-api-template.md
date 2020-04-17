@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: af06336996a901c73927d6b060ab530aa4573f54
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304666"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187394"
 ---
 # <a name="configuring-api-templates"></a>Konfigurera API-mallar
 API-bibliotek för [!INCLUDE[d365fin_md](includes/d365fin_md.md)] ger en förenklad representation av de underliggande enheterna. Alla egenskaper i programmet är inte tillgängliga via den associerade API. Sidan **API-inställningar** låter dig definiera mallar som används för att fylla i tomma egenskaper på en enhet när du skapar en POST-åtgärd via API. 
@@ -31,7 +31,7 @@ Om du vill använda mallar med API-biblioteket, måste du först ställa in och 
 
 Om du vill tilldela en mall till en API måste du gå igenom följande steg.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **API-inställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **API-inställningar** och välj sedan tillhörande länk.
 2. Välja **nytt**, och välj sedan värdet **Order** för posten.  
 Om det finns mer än en mall som har valts för en API (Sid-ID), tillämpas mallarna i den ordning som definieras i kolumnen **Order**.   
 När varje mall används, används bara fältvärden som definieras i mallen för fält som inte redan har ett värde som definierats, antingen uttryckligen i API eller i en tidigare använd mall i ordern. 

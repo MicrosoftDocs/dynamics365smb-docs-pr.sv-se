@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 04d43437a6b16ed88c638c81de30729c33276df7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953449"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191937"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 På sidan **Regler för betalningskoppling** ställer du in regler som styr hur betalningstext (på en banktransaktion) automatiskt matchas med text på öppna transaktioner i följande två processer:
@@ -81,7 +81,7 @@ Följande register visar vilka betalningskopplingsregler som har ställts in i d
 | Lågt              | 4        | Nej                    | Nej                             | En matchning                      |
 | Lågt              | 5        | Nej                    | Nej                             | Flera matchningar               |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreconciliation-journals-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  

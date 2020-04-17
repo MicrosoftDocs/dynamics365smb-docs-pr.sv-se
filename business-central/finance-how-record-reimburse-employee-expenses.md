@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 825658d88ea38a3c0c93d77c760707ae086f796f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306203"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184082"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skapa och återbetala de anställdas utgifter
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder transaktioner för medarbetare på samma sätt som för leverantörer. Därför finns medarbetares bokföringsmallar för att vara säker på att medarbetares transaktioner bokförs i relevanta konton i redovisningen.
@@ -29,7 +29,7 @@ Om medarbetare lägger ut sina egna pengar under affärsaktiviteter, kan du bokf
 
 ## <a name="to-record-an-employees-expense"></a>Om du vill registrera en anställd utgifter
 Du bokför anställdas utgifter på sidan **redovisningsjournal**.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan tillhörande länk.
 2. Öppna relevant buntnamn för redovisningsjournalen. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 3. Fyll i fälten på en ny journalrad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -43,7 +43,7 @@ Du bokför anställdas utgifter på sidan **redovisningsjournal**.
 
 ## <a name="to-reimburse-an-employee"></a>Återbetala en medarbetare
 Du återbetalar en medarbetare genom att bokföra betalningar till dennes bankkonto på sidan **betalningsjournal**.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsjournal** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
 2. Öppna relevant buntnamn för utbetalningsjournal. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 3. Fyll i fälten om det behövs. Mer information finns i [Gör betalningar](payables-make-payments.md).
 4. Du kan också välja **föreslå betalning för medarbetare** för att automatiskt infoga journalrader för väntande medarbetare återbetalningar.

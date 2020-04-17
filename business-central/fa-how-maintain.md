@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 062680e12d3ad7b1d1f0e769f921f2579cdee43f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fe0820b7dfcf3cc47bc437b340443cbe05aa4a4c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306610"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184418"
 ---
 # <a name="maintain-fixed-assets"></a>Underhålla anläggningstillgångar
 Underhållskostnaderna är rutinmässiga periodiska kostnader som utförs för att bevara värdet på en anläggningstillgång. Till skillnad från kapitalförbättringar ökar de inte värden.
@@ -29,15 +29,15 @@ Indexering används för att anpassa värden till den allmänna prisnivån. Du k
 ## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Om du vill registrera underhållsarbete på en anläggningstillgång
 Varje gång som underhåll har utförts, exempelvis ett servicebesök kan du registrera detta för den aktuella anläggningstillgången på sidan **Underhållsregistrering**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anläggningstillgångar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan tillhörande länk.  
 2. Markera den anläggningstillgång som du vill registrera underhåll för och välj sedan åtgärden **Underhållsregistreringar**.
 3. På sidan **Underhållsregistreringar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Att bokföra underhållskostnader från en redovisningsjournalen för anläggningstillgångar.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Avskrivningsregellista** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista för avskrivningsregel** och väljer sedan tillhörande länk.  
 2. Markera den avskrivningsregel som är tilldelad anläggningstillgången och välj sedan åtgärden **Redigera**.
 3. På sidan **Avskrivningsregelkort** ser du till att kryssrutan **Underhåll** inte är markerad. Detta säkerställer att underhållskostnader inte bokförs till redovisningen.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 5. Skapa en första journalrad och fyll i fälten efter behov.
 6. Välj **Anskaffningskostnad** i fältet **Underhåll**.
 7. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av underhåll.
@@ -49,14 +49,14 @@ Varje gång som underhåll har utförts, exempelvis ett servicebesök kan du reg
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Så här följer du upp servicebesök för anläggningstillgångar
 Du kan skriva ut rapporten **Underhåll – nästa service** om du vill se vilka tillgångar som du har bokat in ett servicebesök för. Du kan även använda den här rapporten när du uppdaterar fältet **Nästa servicedatum** på anläggningstillgångskortet.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Underhåll, nästa service** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Underhåll, nästa service** och välj sedan tillhörande länk.  
 2. Fyll i fälten **Startdatum** och **Slutdatum**.  
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
 ## <a name="to-monitor-maintenance-costs"></a>Så här övervakar du underhållskostnader:
 Du kan se underhållskostnaderna när du visar statistiken för en anläggningstillgång.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den anläggningstillgång som du vill visa underhållskostnader för välj sedan åtgärden **Avskrivningsregler**.
 3. På sidan **Avskrivningsregler för anl.tillg.** väljer du relevant avskrivningsregel för anläggningstillgång åtgärden **Statistik**.
 4. På sidan **Anl.tillg.statistik** väljer du fältet **Underhåll**.
@@ -66,21 +66,21 @@ Sidan **Underhållstransaktioner** öppnas och visar de poster som utgör belopp
 ## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Om du vill visa eller skriva ut underhållskostnader för åtskilliga anläggningstillgångar
 I rapporten **Underhållsanalys** kan du välja om du vill visa underhåll baaserat på en, två eller tre underhållskoder för ett angivet datum eller en angiven period. Du kan se summan för alla de markerade tillgångarna eller summan för varje tillgång.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Underhållsanalys** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Underhållsanalys** och välj sedan tillhörande länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
 ## <a name="to-view-maintenance-ledger-entries"></a>Så här visar du underhållstransaktioner
 Du kan också studera underhållskostnader genom att visa underhållstransaktionerna.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den fasta anläggningstillgång som du vill visa transaktioner för välj sedan åtgärden **Avskrivningsregler**.
 3. På sidan **Avskrivningsregler för anl.tillg.** väljer du relevant avskrivningsregel för anläggningstillgång åtgärden **Underhållstransaktioner**.
 
 ## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Om du vill visa eller skriva ut underhållstransaktioner för åtskilliga anläggningstillgångar
 I rapporten **Underhåll - Uppgifter** kan du visa eller skriva ut underhållstransaktioner för en eller flera anläggningstillgångar.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Underhållsdetaljer** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Underhållsinformation** och välj sedan tillhörande länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 

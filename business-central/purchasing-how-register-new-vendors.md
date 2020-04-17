@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e780967fda8e5c4e8b3a1f2e5e3ed3a05418507d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883100"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191049"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 Leverantörer erbjuder produkter som du säljer. Varje leverantör som du har köpt av måste registreras som ett leverantörskort.
@@ -30,7 +30,7 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 >   Om leverantörsmallar finns för olika leverantörstyper, visas en sida när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="to-create-a-new-vendor-card"></a>Skapa ett nytt leverantörskort.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.  

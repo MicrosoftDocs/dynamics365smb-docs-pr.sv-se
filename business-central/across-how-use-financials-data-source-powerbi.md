@@ -8,41 +8,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4f140303f037ea4a914cba1ded44fd453bcdfabb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952848"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187898"
 ---
-# <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Använda [!INCLUDE [prodlong](includes/prodlong.md)] som Power BI-datakälla för att skapa rapporter
+# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Använda [!INCLUDE [prodlong](includes/prodlong.md)] som Power BI-datakälla för att skapa rapporter
 
 Gör din [!INCLUDE[prodlong](includes/prodlong.md)]-data tillgänglig som datakälla i Power BI och bygga kraftfulla rapporter av din verksamhets status.  
 
-Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Dessutom kan du hämta [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Mer information finns i [snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
+Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Du måste även ladda ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Mer information finns i [snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop"></a>Att lägga till [!INCLUDE[prodshort](includes/prodshort.md)] som datakälla i Power BI Desktop.
+## <a name="to-add-prodshort-as-a-data-source-in-power-bi-desktop"></a>Att lägga till [!INCLUDE[prodshort](includes/prodshort.md)] som datakälla i Power BI Desktop.
 
 1. I Power BI Desktop i den vänstra navigeringsrutan väljer du **hämta data**.
 2. I fönstret **Hämta data** väljer du **onlinetjänster**, väljer **Microsoft Dynamics 365 Business Central** och sedan knappen **Anslut**.
-3. Power BI visar en guide som vägleder dig genom anslutningsprocessen. Du uppmanas då att logga in på [!INCLUDE [prodshort](includes/prodshort.md)]. Välj **Logga in** och välj det konto som du vill logga in som. Detta bör vara samma konto som du loggar in i [!INCLUDE [prodshort](includes/prodshort.md)] med.
-4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljöer, -företag och -datakällor. Dessa datakällor motsvarar alla de webbtjänster som du har publicerat från respektive klientorganisation/företag i [!INCLUDE [prodshort](includes/prodshort.md)].
-5. Du kan också skapa en ny webbtjänst-URL i [!INCLUDE [prodshort](includes/prodshort.md)] med hjälp av åtgärden **skapa datauppsättning** på sidan **webbtjänster** med hjälp av den assisterade inställningsguiden **Ställa in rapportering**  eller genom att välja åtgärden **redigera i Excel** i någon lista.
-6. Ange de data som du vill lägga till i din datamodell och välj knappen **Läs in**.
-7. Upprepa stegen för att lägga till ytterligare [!INCLUDE [prodshort](includes/prodshort.md)] eller andra data till Power BI-datamodellen.
+3. Power BI isar en guide som vägleder dig genom anslutningsprocessen, inklusive hur du loggar in på [!INCLUDE [prodshort](includes/prodshort.md)]. Välj **Logga in** och välj sedan det aktuella kontot. Använd samma konto som du loggar in i [!INCLUDE [prodshort](includes/prodshort.md)] med.
+4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljöer, -företag och -datakällor. Dessa datakällor motsvarar samtliga de webbtjänster som du har publicerat från [!INCLUDE [prodshort](includes/prodshort.md)].
+
+    Du kan också skapa en ny URL för webbtjänst i [!INCLUDE [prodshort](includes/prodshort.md)] istället. Välj någon av följande metoder:
+
+      - Använd åtgärden **Skapa datauppsättning** på sidan **Webbtjänster**
+      - Använd den assisterade konfigurationsguiden **Ställa in rapportering**
+      - Välj åtgärden **Redigera i Excel** i alla listor
+
+5. Ange de data som du vill lägga till i din datamodell och välj knappen **Läs in**.
+6. Upprepa stegen för att lägga till ytterligare [!INCLUDE [prodshort](includes/prodshort.md)] eller andra data till Power BI-datamodellen.
 
 > [!NOTE]  
 > När du har anslutit till [!INCLUDE [prodshort](includes/prodshort.md)] kommer du inte att uppmanas att logga in på nytt.
 
-När data har lästs in kommer den att visas i den högra navigeringen på sidan. Nu har du lyckats ansluta till dina [!INCLUDE [prodshort](includes/prodshort.md)]-data och är redo att börja skapa Power BI-rapporten.  
+När datan har lästs in kan du se den i den högra navigeringen på sidan. Du har nu lyckats ansluta till dina [!INCLUDE [prodshort](includes/prodshort.md)]-data, och du kan nu börja skapa din Power BI-rapport.  
 
 Innan du skapar rapporten bör du importera [!INCLUDE [prodshort](includes/prodshort.md)]-temafilen.  Temafilen skapar en färgpalett så att du kan skapa rapporter med samma färger som [!INCLUDE [prodshort](includes/prodshort.md)]-appar utan att behöva definiera anpassade färger för varje bild.
 
-Mer information finns i [Power BI dokumentation](/power-bi/consumer/power-bi-consumer-landing/).
+Mer information finns i [Power BI dokumentation](/power-bi/consumer/).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

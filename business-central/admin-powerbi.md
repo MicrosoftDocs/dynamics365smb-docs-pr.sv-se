@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952993"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186893"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivera affärsdata för Power BI
 
@@ -25,18 +25,15 @@ Att få insikter om dina [!INCLUDE[prodshort](includes/prodshort.md)]-data är e
 Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power BI. Dessutom måste du hämta [Power BI Desktop](https://powerbi.microsoft.com/desktop/) om du vill skapa dina egna Power BI-rapporter. Power BI -appar kräver behörighet till de tabeller som data ska hämtas ifrån. Mer information om kraven beskrivs nedan.  
 
 > [!IMPORTANT]
-> De Power BI-appar som beskrivs i den här artikeln har utformats för att använda Azure Active Directory som verifieringsmekanism om inget annat anges. Om du vill installera en Power BI- app måste du också ha en Power BI Pro-licens.  När Power BI-appen installerats kan det delas med användare med valfri licenstyp.
+> De Power BI-appar som beskrivs i den här artikeln har utformats för att använda Azure Active Directory som verifieringsmekanism om inget annat anges. Du behöver också en [Power BI Pro-licens](/power-bi/service-features-license-type) för att dela ditt innehåll – liksom även de personer som du delar innehållet med behöver – i annat fall måste innehållet förvaras på en arbetsyta med [Premium-kapacitet.](/power-bi/service-premium-what-is). Mer information finns i [Olika sätt att dela ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] har publicerat följande appar för Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (lokal) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (lokal) - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] (lokal) - Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>Använda [!INCLUDE [prodshort](includes/prodshort.md)]-instrumentpanelerna i Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Använda [!INCLUDE [prodshort](includes/prodshort.md)]-instrumentpanelerna i Power BI
 
 Varje app ger rapporter som du kan söka i:
 
@@ -81,7 +78,7 @@ Apparna har utformats för att fungera med data från alla företag som du har i
 - [Välj en panel](/power-bi/service-dashboard-tiles) för att öppna den underliggande rapporten.  
 - Som standard är din datauppsättning inte schemalagd att uppdateras. Du kan ändra uppdateringsschema eller försöka uppdatera på begäran med **uppdatera nu**. Mer information finns i [konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI i [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI i [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Din startsida i [!INCLUDE [prodshort](includes/prodshort.md)] kan innehålla ett Power BI kontrollelement som kan konfigureras så att det visar Power BI rapporter på din startsida.
 
@@ -164,11 +161,11 @@ Inget Power BI-konto har angetts. För att du ska kunna använda ett giltigt Pow
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelande: det finns inga aktiverade rapporter. Visa en lista med rapporter du kan visa med Välj rapport.
 
-Det här meddelandet visas om det inte gick att distribuera standard rapporten till din Power BI-arbetsyta, eller rapporten har distribuerats, men inte uppdaterades. Om detta inträffar navigerar du till rapporten i din Power BI-arbetsyta, välj **datauppsättning**, **inställningar** och uppdaterar sedan inloggningsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till Business Central och väljer rapporten manuellt på sidan **Välj rapporter**.
+Det här meddelandet visas om det inte gick att distribuera standard rapporten till din Power BI-arbetsyta, eller rapporten har distribuerats, men inte uppdaterades. Om detta inträffar navigerar du till rapporten i din Power BI-arbetsyta, väljer **Datauppsättning**, **Inställningar** och uppdaterar sedan autentiseringsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till Business Central och väljer rapporten manuellt på sidan **Välj rapporter**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Du behöver en Power BI Pro-licens för att installera [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du behöver en Power BI Pro-licens för att installera [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
 
-Power BI-appar kan endast installeras av användare som har en Power BI Pro-licens. När Power BI-appen installerats kan du dela den med användare som inte har en Power BI Pro-licens.  
+Du behöver en [Power BI Pro-licens](/power-bi/service-features-license-type) för att dela ditt innehåll – liksom även de personer som du delar innehållet med behöver – i annat fall måste innehållet förvaras på en arbetsyta med [Premium-kapacitet.](/power-bi/service-premium-what-is). Mer information finns i [Olika sätt att dela ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidering misslyckades. Se till att alla parametrar är giltiga"
 
@@ -179,9 +176,9 @@ Det här felet indikerar att den andra parametern är ogiltig.
 - Vid anslutning till [!INCLUDE [prodshort](includes/prodshort.md)] lokal. Du har angett en ogiltig URL. Du kan kontrollera URL på sidan **webbtjänster** i [!INCLUDE [prodshort](includes/prodshort.md)]  
 - En port är inte öppen för att tillåta begäran att gå igenom brandväggen.
 
-### <a name="login-failed"></a>Inloggningen misslyckades
+### <a name="cannot-sign-in"></a>Kan inte logga in
 
-Om du får felet Inloggningen misslyckades när du har loggat med dina [!INCLUDE [prodshort](includes/prodshort.md)] användarautentiseringsuppgifter upplever du förmodligen något av följande problem:
+Om du får felet "Inloggningen misslyckades" när du försöker logga in med dina [!INCLUDE [prodshort](includes/prodshort.md)]-användarautentiseringsuppgifter, upplever du förmodligen något av följande problem:
 
 - Kontot som du använder har inte behörighet att hämta [!INCLUDE [prodshort](includes/prodshort.md)]-data från ditt konto. Kontrollera att du har behörighet för de data som krävs i [!INCLUDE [prodshort](includes/prodshort.md)] och försök igen.
 - Du har valt en annan autentiseringstyp än grundläggande vid anslutning till [!INCLUDE [prodshort](includes/prodshort.md)] lokalt.
@@ -203,14 +200,14 @@ När Power BI-appen har installerats och dina data visas i Power BI kan det hän
 
 I Power BI-appen visas endast data från [!INCLUDE [prodshort](includes/prodshort.md)]-företaget som definierades när Power BI-appen installerades. Data från ytterligare företag kan läggas till i rapporterna genom att lägga till nya frågor som använder olika företag som datakälla.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 
 [Power BI för konsumenter](/power-bi/consumer/end-user-consumer)  
 [Det "nya utseendet" på Power BI-tjänsten](/power-bi/service-new-look)  
 [Snabbstart: Ansluta till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-Dokumentation om [Power BI](/power-bi/)  
+[Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
 [Komma igång](product-get-started.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  

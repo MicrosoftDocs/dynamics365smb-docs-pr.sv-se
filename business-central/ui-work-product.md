@@ -1,38 +1,41 @@
 ---
 title: Arbeta med allmänna funktioner i Business Centra | Microsoft Docs
 description: Beskriver de allmänna funktioner som du använder för att arbeta med data i Business Central, till exempel för att ange värden, sortera data och ändra vyer.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953929"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189350"
 ---
-# <a name="working-with-included365finincludesd365fin_mdmd"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-d365fin"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
 Du kan t.ex. justera storleken och positionen på alla sidor, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
+
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips och råd
 
 > [!TIP]
 > Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
 >
 > [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
-> [!NOTE]
-> Förutom de allmänna användargränssnittsfunktionerna som beskrivs i det här avsnittet kan du använda andra allmänna funktioner som är mer affärsrelaterade. Mer information finns i [Allmänna affärsfunktioner](ui-across-business-areas.md).
+## <a name="links-to-learn-more"></a>Länkar till mer information
 
 I tabellen nedan anges några av de grundläggande funktioner med länkar till avsnitten där de beskrivs.
 
-| Till | Gå till |
+> [!NOTE]
+> Förutom de allmänna användargränssnittsfunktionerna som beskrivs i det här avsnittet kan du använda andra allmänna funktioner som är mer affärsrelaterade. Mer information finns i [Allmänna affärsfunktioner](ui-across-business-areas.md).
+
+| Till  | Gå till |
 | --- | --- |
 |Söka efter en viss sida, rapport, åtgärd, hjälpavsnitt eller partnertillägget. |[Söka efter sidor och information med berätta](ui-search.md) |
 |Få en översikt över sidorna för din roll och för andra roller och navigera till sidor.|[Söka efter sidor med rollutforskaren](ui-role-explorer.md)|
@@ -56,11 +59,22 @@ Här följer en kort video om hur du navigerar i [!INCLUDE[d365fin](includes/d36
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="choosing-a-desktop-browser"></a>Välja en webbläsare för skrivbordet
+
+[!INCLUDE[prodshort](includes/prodshort.md)] stöder flera webbläsare som vardera erbjuder en mängd olika funktioner och möjligheter. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) och webbläsare för [Business Central lokalt](https://go.microsoft.com/fwlink/?linkid=2110719).
+
+- Undvik äldre webbläsare som exempelvis Internet Explorer och byt istället till en av våra rekommenderade moderna webbläsare, till exempel [nya Microsoft Edge](https://www.microsoft.com/edge/).  
+
+    Internet Explorer stöds fortfarande, men eftersom den nya webbläsaren Edge nu är tillgänglig för Windows Server ser vi en alltmer krympande användning för Internet Explorer. Du kan också få [en pilotversion av Edge i IE-läge](https://www.microsoft.com/edge/business). Mer information finns i [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+- Se till att din webbläsare alltid har uppdaterats till den senaste versionen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
+
 [Komma igång](product-get-started.md)  
 [Ställa in Business Central](setup.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+[Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

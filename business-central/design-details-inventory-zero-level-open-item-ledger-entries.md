@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303361"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185210"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kända problem med artikelkopplingar
 Denna artikel adresserar problem där lagernivån är noll fastän öppna artikeltransaktioner finns i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 
  I följande diagram visas hur mängdtillämpningar skapas.  
 
-![Flöde av kostnadsjustering från inköp till försäljning](media/helene/TechArticleInventoryZero2.png "Flöde av kostnadsjustering från inköp till försäljning")
+![Kostnadsjusteringsflöde från inköp till försäljning](media/helene/TechArticleInventoryZero2.png "Kostnadsjusteringsflöde från inköp till försäljning")
 
  Observera att artikeltransaktion 1 ovan (inköp) är både artikelns leverantör och kostnadskälla för den kopplade artikeltransaktionen, Artikeltransaktion 2 (försäljning).  
 
@@ -78,7 +78,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  I följande diagram illustreras kostnadsflödet.  
 
-![Flöde av kostnadsjustering från försäljning till försäljningsreturor](media/helene/TechArticleInventoryZero4.png "Flöde av kostnadsjustering från försäljning till försäljningsreturor")
+![Kostnadsjusteringsflöde från försäljning till försäljningsretur](media/helene/TechArticleInventoryZero4.png "Kostnadsjusteringsflöde från försäljning till försäljningsretur")
 
  Observera ovan att kostnaden vidarebefordras till artikeltransaktion 2 (försäljning), därefter till artikeltransaktion 3 (försäljningsreturorder), och slutligen till artikeltransaktion 4 (försäljning 2).  
 
@@ -91,7 +91,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  I följande diagram illustreras hur artikeltillämpningar görs i respektive fall.  
 
-![Flödet av kostnadsjustering går i båda riktningarna](media/helene/TechArticleInventoryZero6.png "Flödet av kostnadsjustering går i båda riktningarna")  
+![Kostnadsjusteringsflödet skickas i båda riktningarna](media/helene/TechArticleInventoryZero6.png "Kostnadsjusteringsflödet skickas i båda riktningarna")  
 
  Observera ovan att en kostnadsansökan görs (representerat av de blå pilarna) så att artikeltransaktion 2 (försäljningsreturorder) tilldelas samma kostnader som den artikeltransaktion som den återför, artikeltransaktion 1 (försäljning 1). En antalskoppling (som representeras av röda pilar) görs emellertid inte.  
 

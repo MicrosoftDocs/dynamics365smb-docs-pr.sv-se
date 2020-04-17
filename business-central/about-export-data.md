@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1583c17b63df4c4db37eec20ab204ef235d47512
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952969"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188978"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
 Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
@@ -66,7 +66,7 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 > [!NOTE]  
 >   Om du har ställt in flera företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du exportera aktuella data från båda företagen.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  

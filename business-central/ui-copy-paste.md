@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aca14f68e0e1923addbc1cf61926ff5078d6b078
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882260"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194577"
 ---
 # <a name="copy-and-paste-faq"></a>Vanliga frågor om Kopiera och klistra in
 Du kan kopiera en eller flera rader (poster) i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post). Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS).

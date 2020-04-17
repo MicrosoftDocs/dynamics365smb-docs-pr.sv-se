@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 01/10/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952896"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188882"
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prodlong"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 

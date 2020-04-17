@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 41fabf67e34813323da0fd0b2acb32a904abeea9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5e8aa5a7baaf8ef8ce6d0352bbfd8cd01c77e01d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878779"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188450"
 ---
 # <a name="archive-documents"></a>Arkivera dokument
 Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och avropsorder, till exempel för att spara en kopia av dokumentet för senare användning. Du kan arkivera ett försäljnings- eller inköpsdokument flera gånger och spara en annan arkiverad version varje gång.
 
 För arkiverade dokument där originalet finns och inte har bokförts, kan du använda funktionen **återställa** för att skriva över originalet med den arkiverade versionen av dokumentet. Detta är praktiskt om du behöver återställa innehållet i ett dokument till ett tidigare tillstånd.
 
-För arkiverade dokument där originalet tas bort kan du återanvända innehållet genom att kopiera informationen, till exempel endast med funktionen **Kopiera dokument**.   
+För arkiverade dokument där originalet tagits bort kan du endast återanvända innehållet genom att kopiera informationen, till exempel med funktionen **Kopiera från dokument**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Så här ställer du in automatisk dokumentarkivering  
 Du kan ställa in automatisk arkivering av försäljnings- och inköpsorder, offerter, avropsorder och returorder innan du tar bort dokument.

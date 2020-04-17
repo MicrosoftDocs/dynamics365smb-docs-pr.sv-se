@@ -8,28 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/30/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 14cb131f79abaf2e23c0396188ff53a40cf4b9da
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999837"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188834"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
-Du kan använda ramverket för dataintegration för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
+Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
-I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] används ramverket för dataintegration i funktioner, till exempel elektroniska dokument, import/export av bankfiler och valutakursuppdateringar. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
+I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] används ramverket för dataintegrering i funktioner, till exempel elektroniska dokument, import/export av bankfiler och valutakursuppdateringar. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
 
-Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
+Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 |Om du vill|Gå till|  
 |--------|---------|  
 |Lär dig hur den ramverket för datautbyte fungerar.|[Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)|  
-|Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegrationsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
+|Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegreringsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
 |Använd definitioner för datautbyte och skicka PEPPOL-fakturor, ta emot PEPPOL-fakturor, importera bankkontoutdrag och exportera bankbetalningfiler.|[Utbyta data](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Se även  

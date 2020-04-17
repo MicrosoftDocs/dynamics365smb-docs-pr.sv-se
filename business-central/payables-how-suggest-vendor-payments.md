@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 86e1d6740b50fcdf1649c3f1ed0de0116e487e0b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4f146894489cd1292558916068758e4b3c9c15fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314270"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190257"
 ---
 # <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
 På sidan **Betalningsjournal** kan du använda batch-jobbet **Föreslå leverantörsbetalning** för att föreslå betalningsrader. Rader för saker som t.ex. betalningar som förfaller snart eller betalningar där en kassarabatt finns tillgänglig föreslås utifrån dina inställningar.
@@ -34,7 +34,7 @@ För att dra full nytta av betalningsförslagen, måste du prioritera leverantö
     * Öppna leverantörstransaktioner som är berättigade till kassarabatter, ordnade efter leverantörsnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Om du vill använda funktionen Betalningsförslag för lev.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Betalningsjournal** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.  
 2. Öppna den relevanta journalen och välj sedan åtgärden **Betalningsförslag för lev.**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Välj **OK**.  

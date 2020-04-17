@@ -1,8 +1,6 @@
 ---
 title: Avsluta bokföringsperioder för räkenskapsåret | Microsoft Docs
 description: Beskriver hur du avslutar bokföringsperioder som utgör räkenskapsåret.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ba6cd85d50f9d2b4d98fb45cbd38bcc57e08e3a2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a696f45446f93dba2dedb0976ff646dd6e4b12b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313814"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195881"
 ---
 # <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
 
 ## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokföringsperioder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsperiod** och välj sedan tillhörande länk.
 2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
     Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.
@@ -39,7 +37,8 @@ Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras f
 När ett räkenskapsår har avslutats måste resultatkontona avslutas och årets resultat flyttas över till ett konto i balansräkningen. Du kan göra samma sak varje gång du bokför på det avslutade räkenskapsåret.
 
 ## <a name="see-also"></a>Se även
+
 [Avsluta böcker](year-close-books.md)  
 [Bokför årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
-[Så här öppnar du ett nytt räkenskapsår:](finance-how-open-new-fiscal-year.md)  
+[Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c7e6d53d2d600c9a46fb99f82fc52383759f5435
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ab8b53ec5f913e07b80cc04a44805d77b10ffe86
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879238"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187130"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
 Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.  

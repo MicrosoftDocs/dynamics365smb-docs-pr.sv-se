@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832028"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187946"
 ---
-# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>Använda [!INCLUDE[prodshort](includes/prodshort.md)] i ett automatiskt arbetsflöde
+# <a name="using-prodshort-in-an-automated-workflow"></a>Använda [!INCLUDE[prodshort](includes/prodshort.md)] i ett automatiskt arbetsflöde
 
 Du kan använda din [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del av ett arbetsflöde i Microsoft Power Automate.
 
@@ -28,7 +28,7 @@ Du kan använda din [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del
 > [!NOTE]  
 > Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] och med Power Automate.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>Att lägga till [!INCLUDE[prodshort](includes/prodshort.md)] som datakälla i Power Automate.
+## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>Att lägga till [!INCLUDE[prodshort](includes/prodshort.md)] som datakälla i Power Automate.
 
 1. I webbläsaren, går du till [flow.microsoft.com](https://flow.microsoft.com), och loggar in.
 2. Välj **Mina flöden** från menyn längst upp på sidan.

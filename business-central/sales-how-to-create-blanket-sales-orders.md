@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316362"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194841"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.
@@ -29,20 +29,21 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 > [!NOTE]
 > Inköpsavropsorder fungerar på samma sätt som en försäljningsavropsorder. Den här dokumentationen visar endast försäljningsavropsorder.
 
-## <a name="to-create-a-blanket-sales-order"></a>Så här skapar du en avropsorder  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Förs.avropsorder** och välj sedan relaterad länk.  
+## <a name="to-create-a-blanket-sales-order"></a>Så här skapar du en avropsorder
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avropsorder, försäljning** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Låt fältet **Orderdatum** vara tomt. När separata försäljningsorder skapas från avropsordern anges orderdatum för försäljningsordern som det aktuella arbetsdatumet.
-5. På snabbfliken **Rader** skapar du separata rader för varje utleverans. Om kunden t.ex. beställer 1 000 enheter jämnt fördelade över fyra veckor skapar du fyra separata rader med 250 enheter på varje rad.   
+4. Låt fältet **Orderdatum** vara tomt. När separata försäljningsorder skapas från avropsordern anges orderdatum för försäljningsordern som det aktuella arbetsdatumet.
+5. På snabbfliken **Rader** skapar du separata rader för varje utleverans. Om kunden t.ex. beställer 1 000 enheter jämnt fördelade över fyra veckor skapar du fyra separata rader med 250 enheter på varje rad.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Så här skapar du en försäljningsorder från en avropsorder  
 
-1.  Om du vill skapa en order för någon av raderna i försäljningsavropsorder tar du bort antalet i fältet **Levereras antal** för alla de rader som du INTE vill leverera just nu.  
-2.  När du vill börja skapa order väljer du åtgärden **Skapa order** och väljer sedan **Ja**. Du får ett meddelande om att avropsordern har tilldelats ett ordernummer. Observera att avropsordern inte har tagits bort.  
-3.  Välj knappen **OK**.  
-4.  På snabbfliken **Rad** väljer du åtgärden **Ej bokförda rader** och sedan väljer du åtgärden **Order**.  
-5.  På sidan **Försäljningsrader** väljer du önskad försäljningsorde, väljer åtgärden **Rad** och väljer sedan åtgärden **Visa dokument** action.  
+1. Om du vill skapa en order för någon av raderna i försäljningsavropsorder tar du bort antalet i fältet **Levereras antal** för alla de rader som du INTE vill leverera just nu.  
+2. När du vill börja skapa order väljer du åtgärden **Skapa order** och väljer sedan **Ja**. Du får ett meddelande om att avropsordern har tilldelats ett ordernummer. Observera att avropsordern inte har tagits bort.  
+3. Välj knappen **OK**.  
+4. På snabbfliken **Rad** väljer du åtgärden **Ej bokförda rader** och sedan väljer du åtgärden **Order**.  
+5. På sidan **Försäljningsrader** väljer du önskad försäljningsorde, väljer åtgärden **Rad** och väljer sedan åtgärden **Visa dokument** action.  
 
 Följande gäller försäljningsorder, när de har skapats från försäljningsavropsorder:  
 
@@ -58,7 +59,7 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Så här visar du status för en avropsorder  
 Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik för försäljningsavropsorder**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån försäljningsavropsorder.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Förs.avropsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avropsorder, försäljning** och välj sedan relaterad länk.  
 2.  Markera en försäljningsavropsorder och välj åtgärden **statistik**.  
 3.  På sidan **Statistik för försäljningsavropsorder** på snabbfliken **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
 
@@ -70,7 +71,7 @@ Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik f�
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader   
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Förs.avropsorder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avropsorder, försäljning** och välj sedan tillhörande länk.
 2. Öppna den avropsorder för försäljning som du vill visa.
 3. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** ocgh sedan **Ej bokförda rader**. Välj något av följande alternativ:  
 

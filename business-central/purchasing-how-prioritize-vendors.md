@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 538a6f4b1ead61afde223391441bf097f3c26f77
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cede9a43bb66d314640e0e28443c63c925fd575a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877597"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192729"
 ---
 # <a name="prioritize-vendors"></a>Prioritera leverantörer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] används för att ta fram olika betalningsförslag, t.ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 
 Först måste du prioritera leverantörerna genom att tilldela nummer till dem.
 <br><br>
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Så här prioriterar du leverantörer:
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.

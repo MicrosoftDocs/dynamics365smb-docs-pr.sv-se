@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999789"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196693"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 Med jobbköer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Du kanske till exempel vill köra rapporten **Säljare försäljningsstatistik** varje vecka, för att spåra försäljningen per säljare under en vecka, eller så kanske du vill köra kodenheten **E-postkö för bearbetningstjänst** dagligen, för att vara säker på att aktuella e-postmeddelanden till kunder angående deras serviceorder skickas ut i tid.
@@ -117,8 +117,8 @@ När en jobbkö aktiveras manuellt, körs den med autentiseringsuppgifterna för
 ## <a name="using-job-queues-effectively"></a>Använda jobbköer effektivt  
 Jobbkötransaktionsposten har flera fält för att överföra parametrar till en kodmodul som du har angett ska köras med en jobbkö. Det innebär att även kodenheter, som ska köras via jobbkön, måste anges med jobbkötransaktionsposten som en parameter i utlösaren **OnRun**. Det hjälper till att ge ytterligare en nivå av säkerhet, eftersom det hindrar användare från att köra slumpmässiga kodmoduler via jobbkön. Om användaren måste överföra parametrar till en rapport, är det enda sättet att göra det att låta rapportkörningen ingå i en kodmodul, som sedan analyserar inparametrarna och anger dem i rapporten, innan den körs.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Schemalägga synkronisering mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]
-Om du har integrerat [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] kan du använda jobbkön för att schemalägga när du vill synkronisera data för de poster som du har kopplat till de två affärsprogrammen. Beroende på riktningen och reglerna som du har definierat för integrationen kan du också skapa nya poster i mål appen för att matcha dem i källan med synkroniseringsjobb. Om t.ex. en säljare skapar en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)] kan synkroniseringsschemat skapa kontakten för den kopplade säljaren i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Schemalägga synkronisering mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Om du har integrerat [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[d365fin](includes/cds_long_md.md)] kan du använda jobbkön för att schemalägga när du vill synkronisera data för de poster som du har kopplat till de två affärsprogrammen. Beroende på riktningen och reglerna som du har definierat för integreringen kan du också skapa nya poster i mål appen för att matcha dem i källan med synkroniseringsjobb. Om t.ex. en säljare skapar en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)] kan synkroniseringsschemat skapa kontakten för den kopplade säljaren i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
 ## <a name="see-also"></a>Se även  
 [Administration](admin-setup-and-administration.md)  

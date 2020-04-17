@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 74d161636d9110fcc366733245951e3044662e80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953257"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193826"
 ---
 # <a name="change-the-current-report-layout"></a>Ändra aktuell rapportlayout
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
@@ -55,7 +55,7 @@ Namnet på den valda anpassade layouten visas nu i fältet **Anpassad layoutbesk
 
 Du kan nu gå till kund- och leverantörskorten för att ange vilka layouter som ska användas för olika dokument som du har för kunden eller leverantören i fråga, t.ex. orderbekräftelser eller betalningspåminnelser. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
