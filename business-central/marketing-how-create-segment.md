@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 81ad24b93bc217694f7be608c966e8b69e8330bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 779ff0a12611606e70d0a310b260a8e20031f628
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309106"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181508"
 ---
 # <a name="create-segments"></a>Skapa segment
 Du kan skapa segment för att kunna välja en grupp av kontakter, exempelvis om du vill skapa en interaktion som involverar flera kontakter såsom direktreklam.
 
 ## <a name="to-create-a-segment"></a>Skapa segment så här
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Segment** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Segment** och välj sedan tillhörande länk.
 2. Välj åtgärden **Ny**.
 3. I avsnittet **Allmänt** i **Nr.** -fältet, skriv numret på den artikel som har beställts i fältet.
 

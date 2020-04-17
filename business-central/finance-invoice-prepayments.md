@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953761"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183114"
 ---
 # <a name="invoicing-prepayments"></a>Fakturera förskottsbetalningar
 Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan till exempel kräva en deposition innan du tillverkar artiklar mot order eller också kan du kräva betalning innan du levererar artiklar till en kund. Med hjälp av funktionen för förskottsbetalning kan du fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.  
@@ -30,7 +30,7 @@ Förskottsbetalningar är betalningar som faktureras och bokförs för en förs�
 |skapa en order, justera förskottsbetalningsbeloppen och skicka ut en faktura för förskottsbetalningsbeloppen.|[Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md)|  
 |skicka ut en ytterligare förskottsfaktura, antingen för ytterligare artiklar eller för en ytterligare deposition på den ursprungliga ordern, eller skicka ut en kreditnota för förskottsbetalning.|[Korrigera förskottsbetalningar](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även  
 [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 156e36af1110bcf153ed00b16eb041f28a5c3168
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308962"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181394"
 ---
 # <a name="record-interactions-with-contacts"></a>Spela in interaktioner med kontakter
 Ställ in ditt program att registrera interaktioner består av dessa uppgifter:
@@ -50,7 +50,7 @@ På den här sidan kan du:
 * Visa interaktionens status.
 * Markera interaktioner som makulerade.
 
-Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort avbrutna interaktionsloggtrans**.
+Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Radera makulerade rader i interaktionsloggen**, välj tillhörande länk och ange sedan informationen.
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  

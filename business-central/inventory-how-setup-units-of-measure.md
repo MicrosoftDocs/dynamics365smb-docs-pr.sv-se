@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 672ddb851b14accf4df3f88bbc0badd775319a68
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f8ddba0ba5507d205e5e8fdf6f04007ac1060462
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309802"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182066"
 ---
 # <a name="set-up-item-units-of-measure"></a>Ställa in måttenheter för artikel
 Du kan ange flera enheter för en artikel, så att du kan tilldela enheter till artikeln för efterföljande avsikter:
@@ -28,7 +28,7 @@ Du kan ange flera enheter för en artikel, så att du kan tilldela enheter till 
 Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa en produktionsorder som använder enheten för produktionsbatch för att beräkna rätt antal komponenter under batch-jobbet **Uppdatera produktionsorder**. Ett exempel på beräkning med en enhet för produktionsbatch är när tillverkade artiklar lagerförs styckvis, men tillverkas tonvis. Mer information finns i [Arbeta med måttenheter för produktionbatch](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
 
 ## <a name="to-set-up-a-unit-of-measure"></a>Så här ställer du in en enhet
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
 2. Öppna kortet för artikeln som du vill ange alternativa enheter för.
 3. Välj åtgärden **Enheter**. Sidan **Artikelenheter** visas.
 4. Om fältet **Basmåttenhet** är ifyllt på artikelkortet har denna måttenhet redan ställts in.
@@ -42,7 +42,7 @@ Nu kan du använda de alternativa enheter för inköp, produktion och försäljn
 ## <a name="to-set-up-unit-of-measure-translations"></a>Så här skapar du enhetsöversättningar
 När du säljer varor till utländska kunder, kan det hända att du vill ange enheten på kundens eget språk. Det kan du göra om du har skapat de enhetsöversättningar som behövs.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Enheter** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Måttenheter** och välj sedan tillhörande länk.
 2. Välj den kod som du vill skapa översättningar för och välj sedan åtgärden **Översättningar**.
 3. I fältet **Språkkod** klickar du på listpilen om du vill visa en lista över tillgängliga språkkoder. Markera den språkkod som du vill ange en översättning för och klicka sedan på OK så kopieras koden till fältet.
 4. Skriv den aktuella texten i fältet **Beskrivning**.
@@ -51,7 +51,7 @@ När du säljer varor till utländska kunder, kan det hända att du vill ange en
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Så här anger du en standardenhet för en enhetskod för försäljnings- och inköpstransaktioner
 Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du ange särskilda enheter för inköp och försäljning. För att du ska kunna göra det, måste du ha skapat sidan **Artikelenheter**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
 2. Bläddra fram till det artikelkort där du vill ange en standardenhetskod för försäljning eller inköp.
 3. För försäljning: På Snabbfliken **Fakturering**, i fältet **Måttenhet för försäljning**, öppna sidan **Måttenheter för artikel**.
 4. För inköp: På snabbfliken **Återanskaffning** i fältet **Måttenhet för inköp** öppnar du sidan **Måttenheter för artikel**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882701"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183338"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -28,7 +28,7 @@ Följande scenariot kan till exempel kräva att du återställ ett program eller
 - En felaktig fast koppling har gjorts.
 - En artikel måste returneras som en försäljning redan har kopplats till.
 
-Om möjligt, använda ett dokument för att koppla en artikeltransaktion. Till exempel om du måste göra en inköpsretur för en artikel som en försäljning redan har kopplats till, kan du koppla genom att skapa och bokföra inköpsreturdokumentet, med hjälp av rätt koppling i **Koppla till artikellöpnr** fältet på inköpsreturen raden. Du kan använda **Hämta bokförda dokumentrader som ska återföras** eller **Kopiera dokument** funktion i inköpsreturdokumentet för att göra det lättare. När du bokför dokumentet, återtillämpas artikeltransaktionen automatiskt. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
+Om möjligt, använda ett dokument för att koppla en artikeltransaktion. Till exempel om du måste göra en inköpsretur för en artikel som en försäljning redan har kopplats till, kan du koppla genom att skapa och bokföra inköpsreturdokumentet, med hjälp av rätt koppling i **Koppla till artikellöpnr** fältet på inköpsreturen raden. För att underlätta kan du använda funktionen **Hämta bokförda dokumentrader som ska återföras** eller **Kopiera från dokument** i inköpsreturdokumentet. När du bokför dokumentet, återtillämpas artikeltransaktionen automatiskt. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
 
 Om du inte kan använda ett dokument för att koppla, som när du behöver rätta en fast koppling, använder du sidan **Kopplingsformulär** för att korrigera ett program.
 

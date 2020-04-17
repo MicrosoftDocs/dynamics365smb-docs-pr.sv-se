@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 65087f044c410f41ace0a218d810675e19c856d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3c860ac8fec0e9a3cdf697ee59789d55387e5dc1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309418"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181682"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Automatiskt registrering av interaktioner med kontakter
 Du kan ställa in programmet att automatiskt registrera interaktioner för försäljning, inköp och servicedokument, omslagsblad, e-post, telefonsamtal som till exempel:
@@ -29,7 +29,7 @@ Du kan ställa in programmet att automatiskt registrera interaktioner för förs
 * Ringa till kontakterna om du har TAPI-anpassad telefon och rätt installering.
 
 För att definiera automatisk registrering av dessa interaktioner anger du interaktionsmallar för dessa dokument och åtgärder, genom att använda sidan **Interaktionsmall inställningar**.  
-För att öppna sidan **Interaktionsmall inställningar**, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Interaktionsmall inställningar** och välj sedan relaterad länk.
+För att öppna sidan **Mallinställningar för interaktion** väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Mallinställningar för interaktion** och väljer sedan tillhörande länk.
 
 ## <a name="see-also"></a>Se även
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  

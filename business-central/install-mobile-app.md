@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef36a7c26b6d0fafb272989ccfc77fc4e54bf9e4
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953617"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182498"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobila enhet
 Komma åt [!INCLUDE[d365fin](includes/d365fin_md.md)] från en mobil enhet. Du kan navigera genom dina affärsdata, använda funktioner som till exempel skicka till Excel eller Office 365, visa aktuella diagram och KPI-er, e-posta försäljningsofferter och fakturor och ta och bifoga bilder med din kamera. Följ stegen nedan för att hämta programmet och komma igång.
@@ -29,7 +29,7 @@ Komma åt [!INCLUDE[d365fin](includes/d365fin_md.md)] från en mobil enhet. Du k
 
 Du bör nu ha tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)] och kunna visa och redigera data.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Komma igång](product-get-started.md)  

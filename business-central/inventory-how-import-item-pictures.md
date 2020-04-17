@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cfb80821177c0860413526b5bc529fa1bdeedf7b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8478a6fc2a4860f2cd5a2b5a01d6680fbaea3130
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309852"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182186"
 ---
 # <a name="import-multiple-item-pictures"></a>Importera flera artikelbilder
 Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan **Importera artikelbilder** för att hantera vilka artikelbilder som ska importeras.
@@ -35,7 +35,7 @@ Alla vanliga filformat stöds.
 2. Samla alla filer i ZIP-filen. Till exempel i Windows Explorer, markerar du filerna och väljer **skicka till**, **komprimerad mapp**.     
 
 ## <a name="to-import-item-pictures"></a>För att importera artikelbilder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Lagerinställningar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinställningar** och välj sedan relaterad länk.
 2. Välj åtgärden **Importera artikelbilder**.
 3. I fältet **Välj en ZIP-fil** markerar du relevant ZIP-mapp och väljer sedan knappen **öppna**.
 

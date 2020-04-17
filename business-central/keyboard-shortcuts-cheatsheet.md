@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aa8433735f1f09d71e4597485abfd4d48e2292ea
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 4686f509f81ba31e3215687630cc14f0a6e45402
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991958"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181733"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon - endast dator
 
 #### <a name="general"></a>Allmänt
 |||  
 |-|-|
-|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+O<br />Alt+Q<br />Alt+Upp<br />Alt+nedpil<br />Alt+T<br />Alt+Shift+W<br />Ctrl+Ins<br />Ctrl-radera<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl + klicka<br />Shift+F12<br />F5/Ctrl+F5<br />Tabb/Shift+Tabb<br />|Visa och dölj rutan Faktabox<br />Skapa en ny post<br />Stäng en nyligen skapad post och skapa en ny<br />Lägg till en ny anteckning för den valda posten<br />Öppna **Berätta**<br />Öppna knappbeskrivning eller valideringsfel<br />Öppna en listruta eller ett uppslag<br />Öppna sidan **Mina inställningar**.<br />Öppna aktuellt kort eller dokument i ett nytt fönster<br />Infoga en ny rad i ett dokument<br />Ta bort raden i ett dokument, en journal eller ett förslag<br />Maximera radartikeldelen på en dokumentsida<br />Öppna hjälpen för sidan<br />Navigera vid anpassning<br />Öppna rollutforskaren, en funktionsöversikt<br />Uppdatera/läs in sidan.<br />Flytta fokus till nästa/föregående element|
+|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+O<br />Alt+Q<br />Alt+Upp<br />Alt+nedpil<br />Alt+T<br />Alt+Shift+W<br />Ctrl+Ins<br />Ctrl-radera<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl + klicka<br />Shift+F12<br />F5/Ctrl+F5<br />Tabb/Shift+Tabb<br />F6/Shift+F6<br />|Visa och dölj rutan Faktabox<br />Skapa en ny post<br />Stäng en nyligen skapad post och skapa en ny<br />Lägg till en ny anteckning för den valda posten<br />Öppna **Berätta**<br />Öppna knappbeskrivning eller valideringsfel<br />Öppna en listruta eller ett uppslag<br />Öppna sidan **Mina inställningar**.<br />Öppna aktuellt kort eller dokument i ett nytt fönster<br />Infoga en ny rad i ett dokument<br />Ta bort raden i ett dokument, en journal eller ett förslag<br />Maximera radartikeldelen på en dokumentsida<br />Öppna hjälpen för sidan<br />Navigera vid anpassning<br />Öppna rollutforskaren, en funktionsöversikt<br />Uppdatera/läs in sidan.<br />Flytta fokus till nästa/föregående element<br />Flytta till nästa snabbflik/del|
 
 #### <a name="navigate--select-rows"></a>Navigera och markera rader
 |||
@@ -37,7 +37,7 @@ ms.locfileid: "2991958"
 #### <a name="search-filter--sort"></a>Sök, filtrera och sortera
 |||
 |-|-|
-|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Flytta till nästa snabbflik<br />Sortera kolumn i stigande eller fallande ordning.<br />Växla sökning<br />Växla filterrutan; fokusera på fältfilter<br />Växla filterrutan; fokusera på totala filter<br />Filtrera efter markerade cellvärdet<br />Lägg till filter i markerat fält fält<br />Återställ filter|
+|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Sortera kolumn i stigande eller fallande ordning.<br />Växla sökning<br />Växla filterrutan; fokusera på fältfilter<br />Växla filterrutan; fokusera på totala filter<br />Filtrera efter markerade cellvärdet<br />Lägg till filter i markerat fält fält<br />Återställ filter|
 
 #### <a name="quick-entry"></a>Snabbinmatning
 |||

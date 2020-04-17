@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: andregu
-ms.openlocfilehash: 0fe23bb6b1d4ce6fbf73a1978a66f6d47b8e78fe
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 76c6f8902e9661f4f4dbbbf70487a53bf286edb2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992244"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183170"
 ---
 # <a name="use-the-vat-rate-change-tool"></a>Använda ändringsverktyget för momssats
 
@@ -27,7 +27,7 @@ Det finns några saker som verktyget inte konverterar:
 * Försäljnings- eller inköpsorder och fakturor där leveranser har bokförts. Dessa dokumentet bokförs med hjälp av den aktuella momssatsen.  
 * Dokument som har bokförda förskottsfakturor. Du har till exempel gjort eller tagit emot förskottsbetalningar för fakturor som inte har slutförts innan du använder ändringsverktyget för momssats. I det här fallet blir det en differens mellan momsen som har förfallit och momsen som har betalats i förskottsbetalningar när fakturan har slutförts. Ändringsverktyget för momssats hoppar över dessa dokument och du måste uppdatera dem manuellt.  
 * Direktleveranser eller specialorder  
-* Försäljnings- eller inköpsorder med lagerintegration om de är delvis levererade eller mottagna.  
+* Försäljnings- eller inköpsorder med lagerintegrering om de är delvis levererade eller mottagna.  
 * Servicekontrakt  
 
 ### <a name="to-prepare-vat-rate-change-conversions"></a>Så här förbereder du konverteringar av momssatser  
