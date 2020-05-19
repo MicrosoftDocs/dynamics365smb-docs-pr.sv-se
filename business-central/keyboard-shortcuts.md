@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181754"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262220"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -33,18 +33,19 @@ Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer 
 > [!NOTE]
 > Kortkommandona som beskrivs här gäller amerikansk tangentbordslayout. Tangentlayouten på andra tangentbord kanske inte exakt motsvarar tangenterna på ett amerikanskt tangentbord.
 
-De flesta kortkommandona är desamma oavsett om operativ systemet är Windows eller macOS. Vissa kortkommandon är emellertid olika för macOS. Dessa anges med hakparenteser i följande avsnitt.
+De flesta kortkommandona är desamma oavsett om operativ systemet är Windows eller macOS. Vissa kortkommandon är emellertid olika för macOS. Dessa genvägar anges med hakparenteser i följande avsnitt.
 
 > [!NOTE]
 > Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] bokför F9 ett dokument och CTRL + F7 visar de ekonomiska transaktionerna för en post. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
-I följande tabell beskrivs kortkommandon för navigering och åtkomst till olika delar av en sida, till exempel åtgärder, listrutor, sökningar och mycket mer. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
+I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t.ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |----------------|-----------|
 |Alt+nedpil|Öppna en listruta eller leta upp ett värde för ett fält.|    
 |Alt+Uppil|Visa knappbeskrivning för ett fält eller en kolumnrubrik i en tabell. Om det finns valideringsfel för fältet, trycker du på ”Alt + Uppil” för att visa innehålla valideringsfelet. Tryck på ”Esc” eller ”Alt + Uppil” för att stänga knappbeskrivningen.|
+|F2|Växla för att växla mellan att markera hela fältets värde eller att placera markören på slutet av fältets värde.|
 |Alt+F2|Visa och dölj rutan Faktabox|
 |Alt+Shift+F2|Växla mellan **detaljer** och **bifogade filer** i rutan faktabox.|
 |Alt+O|Lägg till en ny anteckning för den valda posten även om rutan faktabox inte är öppen.|
@@ -61,12 +62,12 @@ I följande tabell beskrivs kortkommandon för navigering och åtkomst till olik
 |Ctrl+F12|Växla mellan breda och smala vyn.|
 |Ctrl + klicka|Navigera under anpassa personligt eller anpassa när åtgärden markeras med en pilspets. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).|  
 |Ctrl+F5|Läs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
-|F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd detta för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
+|F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd denna nyckel för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
 |Skriv in|Aktivera eller nå elementet eller kontrollen som är i fokus.|
 |Esc|Stäng den aktuella sidan eller listrutan.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
-|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. Detta språkstöds. Tryck till exempel på J i Tyskland för att aktivera knappen **Ja**.|
+|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. De faktiska nycklarna kan variera beroende på vilket språk som anges i **Mina inställningar**. Du kan t.ex. trycka på J för att aktivera **Ja**-knappen när du använder tyska språket.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
@@ -112,7 +113,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 |Skift+klicka|Utöka radmarkeringen så att den rad som du klickar på och samtliga där emellan inkluderas.<br /><br />Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + uppåtpil/nedpil för att utöka ditt val.|Ej tillämpbart.|
 |Ctrl+Uppil<br />(Ctrl+Cmd+uppil)|Flytta fokus till raden ovanför och behåll den aktuella raden som har valts.|Ej tillämpbart.|
 |Ctrl+Nedpil<br />(Ctrl+Cmd+nedpil)|Flytta fokus till raden nedanför och behåll den aktuella raden som har valts.|Ej tillämpbart.|
-|Ctrl+Blanksteg<br />(Ctrl + Cmd + blanksteg )|Utöka radmarkeringen så att den markerade raden inkluderas.<br /><br />Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + nedpil för att utöka ditt val.|Ej tillämpbart.|
+|Ctrl+Blanksteg<br />(Ctrl + Cmd + blanksteg)|Utöka radmarkeringen så att den markerade raden inkluderas.<br /><br />Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + nedpil för att utöka ditt val.|Ej tillämpbart.|
 |Ctrl+A|Markera alla rader.|Ej tillämpbart.|
 |Ctrl+C<br />(Cmd+C)|Kopiera de markerade raderna till Urklipp.|Ja, men endast för en enstaka markerad panel.|
 |Ctrl+V<br />(Cmd+V)|Klistra in de markerade raderna från Urklipp till den aktuella sidan eller ett externt dokument såsom Microsoft Excel eller Outlook e-post. Du kan bara göra detta i redigerbara listor.|Ej tillämpbart.|
@@ -127,8 +128,8 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |-----------------|-------|
 |F3|Växlar sökrutan.<ul><li>Aktivera sökrutan så att du kan börja skriva söktexten.</li><li>Om sökrutan redan är aktiverad, återgår F3 till listan utan att radera söktexten.</li><ul>|
-|Shift+F3|Öppna och stäng filterrutan.<ul><li> Om filterrutan inte är öppen kan du öppna den med Skift + F3 och visar åtgärden **+ Filter** enligt **Filtrera lista efter**, vilket gör att du bara behöver trycka på RETUR för att börja lägga till ett fältfilter.</li><li>Om filterrutan redan är öppen stängs den med SKIFT + F3 men rensar inte alla filter som du har lagt till.</li></ul>|
-|Ctrl+Shift+F3|Öppna och stäng filterrutan.<ul><li> Om filterrutan inte är öppen kan du öppna den med Ctrl + Skift + F3 och visar åtgärden **+ Filter** enligt **Filtrera summa efter**, vilket gör att du bara behöver trycka på RETUR för att börja lägga till ett summeringsfilter.</li><li>Om filterrutan redan är öppen stängs den med Ctrl + Skift + F3 men rensar inte alla filter som du har lagt till.</li></ul>  |
+|Shift+F3|Öppna och stäng filterrutan.<ul><li> Om filterrutan inte är öppen öppnar du Skift + F3 det och fokuserar på åtgärden **+ filter** under **filterlistan**. Du kan sedan bara trycka på retur när du vill börja lägga till ett fältfilter.</li><li>Om filterrutan redan är öppen stängs den med SKIFT + F3 men rensar inte alla filter som du har lagt till.</li></ul>|
+|Ctrl+Shift+F3|Öppna och stäng filterrutan.<ul><li> Om filterrutan inte är öppen öppnar du Ctrl + Skift + F3 det och fokuserar på åtgärden **+ filter** under **Filtrera summa efter**. Du kan sedan bara trycka på retur när du vill börja lägga till ett summeringsfilter.</li><li>Om filterrutan redan är öppen stängs den med Ctrl + Skift + F3 men rensar inte alla filter som du har lagt till.</li></ul>  |
 |Alt+F3|Aktivera/inaktivera filtreringen till det valda värdet.<ul><li>Använder ett kolumnfilter på det markerade filtervärdet i listan. Detta är detsamma som att välja **filtrera på det här värdet** från en kolumnrubrik. Den öppnar filterrutan, ställer in filter till det valda värdet när fokus är på en cell i listan.</li><li>Om kolumnen redan är filtrerad rensar Alt + F3 filtret på den kolumnen.</li></ul> |
 |Shift+Alt+F3|Öppna filterfönstret och lägg till ett filter för den markerade kolumnen i listan. Fokus är på det nya filterfältet som börjar skriva filterkriterierna direkt.<br /><br /> Detta innebär att välja **Filter** från kolumnrubriken.<br /><br />Om det redan finns ett filter i fältet, läggs ett nytt filter till. |
 |Ctrl+Shift+Alt+F3|Återställ filter. Detta är detsamma som att välja **Återställ filter** i filterrutan och kopplar det till fält och totala filter.<br /><br /> Filter återgår till standardfilter för den aktuella vyn. Om den aktuella vyn är **alla** motsvarar detta att återvända till en ofiltrerad vy med alla poster. |

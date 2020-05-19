@@ -70,6 +70,7 @@
 ### [Hjälpmedel och kortkommandon](ui-accessibility.md)
 ### [Kortkommandon](keyboard-shortcuts.md)
 ### [Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)
+## [Felsökning: komma åt kamera och plats](ui-troubleshooting-camera-location.md)
 
 # Ställa in Business Central
 ## [Översikt](setup.md)
@@ -82,6 +83,7 @@
 ### [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)
 ### [Ställa in moms](finance-setup-vat.md)
 ### [Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)
+### [Ställa in ursprungskoder och orsakskoder för granskningshistorik](finance-setup-trail-codes.md)
 ### [Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Ställa in en alternativ rapporteringsvaluta.](finance-how-setup-additional-currencies.md)
 ### [Uppdatera valutakurser](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Hantera datakryptering](admin-manage-data-encryption.md)
 ## [Utöka din utvärderingsversion](admin-extend-trial.md)
 ## [Kontrollera sidor](across-inspect-page.md)
+## [Visa databaslås](admin-view-database-locks.md)
+## [Visa tabellinformation](admin-view-table-information.md)
 ## [Skapa en miljö för begränsat läge](across-how-create-sandbox-environment.md)
+## [Aktivera nya funktioner i förväg](admin-feature-management.md)
 ## Anpassa Business Central
 ### [Översikt](ui-customizing-overview.md)
 ### [Anpassa sidor för profiler](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Gör försäljningsofferter](sales-how-make-offers.md)
 ## [Fakturaförsäljning](sales-how-invoice-sales.md)
 ## [Sälja produkter](sales-how-sell-products.md)
+## [Skriv ut plocklistan](sales-how-print-picking-list.md)
 ## [Bokföra försäljning](ui-post-sales.md)
 ## [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)
 ## [Skapa direktleveranser](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)
 ## [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)
 ## [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)
-## [Ändra planeringsförslag i en grafisk vy](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Monteringshantering
 ## [Översikt](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australien
 ### [Översikt](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Moms
-#### [Moms](LocalFunctionality/Australia/tax.md)
+#### [Översikt](LocalFunctionality/Australia/tax.md)
 #### [Visa källskatt](LocalFunctionality/Australia/withholding-tax.md)
 #### [Ställ in källskatt](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Ställ in intäktstyper för källskatt](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Skriv ut periodiska momsrapporter](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Ställ in statistiknummer för Belgien](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgiska Intrastat-rapporter](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Ställ in Intrastat-etableringsnummer](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Ställ in Intrastat-etableringsnummer](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Skriva ut Intrastat-formulärrapport](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Ställ in deklarationstyper](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Exportera tredje parts deklarationer från Intrastat](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [Ställ in OCR-betalningar](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Importera och bokföra OCR-betalningar](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Skriva ut en OCR-journaltestrapport](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Grundläggande ekonomi    
+### Grundläggande ekonomi
 #### [Tillämpa redovisningstransaktioner i stängda perioder](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Allmänt
 #### [Återkommande order](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Lager
 #### [Schweizisk lagerhantering](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Skriva ut en Lager plockningslista från en försäljningsorder](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Allmänt    
+### Allmänt
 #### [Importera schweiziska postnummer](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Schweiziska inköpsdokument och försäljningsorder](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

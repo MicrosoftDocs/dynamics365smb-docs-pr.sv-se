@@ -9,23 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: d54a75372fb60a9a7d5903182ced3ff45f1b0848
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f65503bf00afbe03c542bb486b32b4c18de7c198
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187370"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339904"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 Det är viktigt att fatta rätt beslut när du väljer ett affärsprogram och vi vet att det kan ta tid att utforska alla hörnen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du behöver mer tid för att slutföra utvärderingen kan du förlänga utvärderingsperioden själv i ytterligare 30 dagar. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett varningsmeddelande när du loggar in. Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden. De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden.
 
-Utöka utvärderingsperioden själv är en engångsföreteelse. Du kan inte utöka den två gånger, åtminstone inte själv. Om du redan har utökat perioden kan din Microsoft-partner utöka den åt dig igen. Det är en engångsföreteelse. Om du inte redan arbetar med en partner, se [Hur hittar jag en återförsäljarpartner?](across-faq.md#findpartner).  
+Utöka utvärderingsperioden själv är en engångsföreteelse. Du kan inte utöka den två gånger, åtminstone inte själv. Om du redan har utökat perioden kan din Microsoft-partner utöka den åt dig igen. Det är en engångsföreteelse. Om du inte redan samarbetar med en partner, se [Hur hittar jag en återförsäljarpartner?](across-faq.md#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Så här utökar du utvärderingsperioden
 
-1. Logga in på [!INCLUDE[prodshort](includes/prodshort.md)].
+1. Logga in på [!INCLUDE[prodshort](includes/prodshort.md)] på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
     Logga in med det e-postkonto som du använde när du registrerade dig för testversionen.  
 
@@ -34,13 +34,17 @@ Utöka utvärderingsperioden själv är en engångsföreteelse. Du kan inte utö
 
     Om du har avvisat meddelandet måste du logga ut och sedan logga in igen.
 
-Om företaget har upprättat en återförsäljarrelation med en partner kan dessa logga in på ditt [!INCLUDE [prodshort](includes/prodshort.md)] som en delegerad administratör och köra samma guide för **förlängd testversion**. De kan också kontakta Microsoft Support för att förlänga testversionen en tredje gång. Mer information finns i [Utöka testversion (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
-
 ## <a name="what-happens-if-my-trial-period-is-expired"></a>Vad händer om min utvärderingsperiod är slut?
 
 Om den första utvärderingsperioden på 30 dagar har löpt ut kan du själv förlänga den enligt ovanstående beskrivning och köra på som vanligt. Logga bara in på demonstrationsföretaget och starta guiden **utöka försöksperioden** från meddelandet.  
 
-Om du har skapat ditt företag kan du logga ut och sedan logga in igen med inloggningsuppgifterna för företaget. Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[d365fin](includes/d365fin_md.md)] inom 90 dagar och fortsätta att arbeta i det företag som du har skapat. Vi tar bort företaget och raderar dina data efter 90 dagar.  
+Om du har skapat ditt företag kan du logga ut och sedan logga in igen med inloggningsuppgifterna för företaget.  
+
+Om företaget har upprättat en återförsäljarrelation med en partner kan dessa logga in på ditt [!INCLUDE [prodshort](includes/prodshort.md)] som en delegerad administratör och köra samma guide för **förlängd testversion**. Mer information finns i [Utöka testversion (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+
+Efter det andra tillägget som har gett ditt företag upp till 90 dagar per prov måste du emellertid prenumerera på [!INCLUDE [prodshort](includes/prodshort.md)] eller överge [!INCLUDE [prodshort](includes/prodshort.md)]. Om du väljer att inte fortsätta rekommenderar vi att du exporterar data som du använder i ditt företag.
+
+Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[prodshort](includes/prodshort.md)] inom 90 dagar och fortsätta att arbeta i det företag som du har skapat. 90 dagar efter det att den utökade provperioden gått ut kommer vi att ta bort företaget och data om du inte prenumererar.  
 
 ## <a name="see-also"></a>Se även
 

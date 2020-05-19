@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190641"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324348"
 ---
 # <a name="setting-up-manufacturing"></a>Ställa in Produktion
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t.ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
@@ -24,11 +24,14 @@ I systemet representeras operatörer och maskiner som maskingrupper, vilka i sin
 
 När du har lagt upp produktion kan du planera och utföra produktionsorder. Mer information finns i [Planering](production-planning.md) och [Produktion](production-manage-manufacturing.md).  
 
+
+
  I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Konfigurera produktionsfunktionerna, till exempel definiera arbetstimmar för en fabrik eller välja planeringsprinciper.|Sidan **Produktionsinställningar**.|  
+|Konfigurera produktionsfunktionerna, till exempel definiera arbetstimmar för en fabrik eller välja planeringsparametrar.|Sidan **Produktionsinställningar**.|
+|PÅ fliken **planering** på sidan **produktionsinställningar** kan du ange globala planeringsparametrar som åsidosätter parametrar som är inställda på enskilda artikelkort.|[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)|
 |Definiera en standardarbetsvecka i modulen Produktion med start- och sluttider för varje arbetsdag samt tillhörande arbetsskiften.|[Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)|  
 |Organisera fasta värden och krav för produktionsresurser som t.ex. produktionsgrupper eller maskingrupper till att styra deras tillverkningsutflöde i maskingruppen.|[Ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)|
 |Ordna produktionsoperationer i krävd ordningen och tilldela dem till produktions- eller maskingrupper med nödvändiga arbetstider.|[Skapa verksamhetsföljder](production-how-to-create-routings.md)|

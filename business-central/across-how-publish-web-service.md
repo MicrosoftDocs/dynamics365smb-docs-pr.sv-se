@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.author: edupont
-ms.openlocfilehash: 04af1a52bb0a2e14a2775efe6e3a6ccf77441d29
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188498"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324084"
 ---
 # <a name="publish-a-web-service"></a>Publicera en webbtjänst
 
@@ -40,8 +40,8 @@ Följande Moment beskriver hur du skapar och publicerar en webbtjänst.
 
 När du publicerar webbtjänsten kan du, i fälten **OData-URL** och **SOAP-URL**, se URL som genereras för webbtjänsten. Du kan testa webbtjänsten omedelbart, genom att välja länkarna i de fälten **OData-URL** och **SOAP-URL**. Om du vill kan du kopiera värdet i fältet och spara det för senare användning.  
 
-> [!IMPORTANT]
-> För kodenheter som har publicerats som en SOAP-webbtjänst, måste de metoder som visas i kodenheten vara markerade med `[External]` i koden.
+> [!NOTE]
+> Om de objekt som du visar som webbtjänster inte får vara åtkomliga från [!INCLUDE [prodshort](includes/prodshort.md)] online, måste du markera de metoder som visas i koden som `[Scope('OnPrem')]`. Mer information finns i [attributet Omfattning](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 När du publicerar en webbtjänst, är den tillgänglig för externa parter. Du kan kontrollera tillgängligheten för den webbtjänsten, genom att använda en webbläsare, eller så kan du välja länken i fälten **OData-URL** och **SOAP-URL** på sidan **Webbtjänster**. Följande tillvägagångssätt visar hur du kan kontrollera tillgängligheten av webbtjänsten för senare användning.  
 
@@ -52,8 +52,8 @@ När du publicerar en webbtjänst, är den tillgänglig för externa parter. Du 
     > [!div class="mx-tdBreakAll"]
     > |Typ|Syntax|Exempel|
     > |----------------|------|-------|
-    > |SOAP|https://api.businesscentral.dynamics.com/*version*/*klientorganisation*/Produktion/WS/*CompanyName*/*entitet*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
-    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*klientorganisation*/Produktion/ODataV4/företag('*CompanyName*')/*entitet*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Företagsnamnsfältet är skiftlägeskänsligt.|
+    > |SOAP|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/` |`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*`|`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Företagsnamnsfältet är skiftlägeskänsligt.|
 
 2. Granska informationen som visas i webbläsaren. Kontrollera att du kan visa namnet på webbtjänsten som du har skapat.  
 

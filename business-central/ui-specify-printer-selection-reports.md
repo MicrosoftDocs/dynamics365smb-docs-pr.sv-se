@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189489"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272092"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
@@ -27,6 +27,9 @@ Om en molnskrivare inte har installerats eller konfigurerats, eller om en instal
 På sidan **Utskriftshantering** kan du se vilka skrivare som är inställda. När du har skapat en eller flera skrivare kan du öppna sidan **Skrivarhantering** och ange vilka specifika rapporter som ska skrivas ut för ditt användarkonto.
 
 När du har skapat en skrivare och tilldelat denna till specifika rapporter kan du skriva ut en rapport genom att välja knappen **Skriv ut** på sidan för rapportbegäran. Mer information finns i [Skriva ut en rapport](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Ändra storlek på utskriftsjobb
+Molnutskrift är utformat för dokument av rimligt storlek. De flesta molntjänster, inklusive PrintNode och HP ePrint, har en gräns på 10 MB per jobb. Om du behöver skriva ut större rapporter måste du kanske dela upp dem i flera utskrifter.
 
 ## <a name="to-set-up-a-printer"></a>Så här ställer du in en skrivare
 På sidan **Skrivarhantering** kan du se de skrivare som har konfigurerats, och du kan även öppna sidan **Inställningar** för respektive skrivare i syfte att redigera en befintlig konfiguration eller installera en ny skrivare.

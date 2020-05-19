@@ -1,8 +1,6 @@
 ---
 title: Mer information om redovisning och kontoplanen | Microsoft Docs
 description: Beskriver redovisningen, kontoplanen och kontokategorierna.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: ce221fed4704a278e7227affe13516303613c9cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183770"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372549"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Så här fungerar i redovisningen och kontoplanen
+
 Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som alla redovisningstransaktioner bokförs på. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Redovisningsinställning och bokföringingsinställning
+
 Inställningarna för redovisningen är kärnan i ekonomiska processer eftersom den definierar hur du bokför data.  
 
 På sidan **Redovisningsinställningar** anger du hur du vill hantera vissa bokföringsfrågor i företaget som t.ex.:  
@@ -33,7 +33,11 @@ På sidan **Redovisningsinställningar** anger du hur du vill hantera vissa bokf
 
 På liknande sätt p sidan **Bokföringsinställningar** anger du hur du vill ange kombinationer av allmän bokföringsmallar och allmäna produktbokföringsmallar. Bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. Du fyller i en rad för varje kombination av rörelse- och produktbokföringsmall. Mer information finns i [Inställning av bokföringsmall](finance-posting-groups.md).  
 
+> [!TIP]
+> Sidan **redovisningsinställning** innehåller allmänna fält och fält som är specifika för ditt land eller din region. Om du är osäker på innebörden av ett fält föreslår vi att du arbetar med revisorn för att avgöra om det är relevant för organisationen.  
+
 ## <a name="the-chart-of-accounts"></a>Kontoplanen
+
 Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra sådant som:  
 
 * Visa rapporter som visar transaktioner och saldon.  
@@ -45,6 +49,7 @@ Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra såda
 Du kan lägga till, ändra eller ta bort konton i redovisningen. Men för att undvika avvikelser bör du inte ta bort ett redovisningskonto om dess data används i kontoplanen.  
 
 ## <a name="account-categories"></a>Kontokategorier
+
 Med kontokategorier kan du mappa redovisningskonton till kategorier som en anpassning av strukturen på din redovisning.  
 
 Sidan **Redovisningskontokategorier** visar de kategorierna och delkategorierna och redovisningskontona som har tilldelats dem. Du kan skapa nya delkategorier och tilldela de kategorierna till befintliga konton.  
@@ -62,6 +67,7 @@ Till exempel har det standardinställda saldo vid kontoavstämning en enkelt tra
 Nästa gång du har genererat kontouppställningar kommer saldot visa ett totalt saldo för kontanter och två rader med saldon för handkassa och checkräkningskontot.  
 
 ## <a name="see-also"></a>Se även
+
 [Ekonomi](finance.md)  
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
 [Affärsstöd](bi.md)  

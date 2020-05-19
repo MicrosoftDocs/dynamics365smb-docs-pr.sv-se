@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183050"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262244"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
-Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
+Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t.ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
 
 Du kan använda betalningstolerans så att alla utestående belopp anger ett maximum som medger betalningstolerans. Om betalningstoleransen uppfylls analyseras betalningsbeloppet. Om beloppet är en underbetalning stängs det utestående beloppet helt av underbetalningen. En detaljerad redovisningstransaktion har bokförts på betalningstransaktionen så att det inte finns något belopp kvar på fakturaposten. Om beloppet är en överbetalning bokförs en ny detaljerad reskontratransaktion på betalningstransaktionen så att det inte finns något belopp kvar på betalningstransaktionen.
 
@@ -36,7 +36,10 @@ Du kan välja att visa ett varningsmeddelande som baseras på olika toleranssitu
 - Den första varningstexten gäller betalningsrabattoleransen. Du får information om att du kan godkänna en sen kassarabatt. Du kan sedan välja att godkänna toleransen för rabattdatumet.  
 - Den andra varningstexten gäller betalningstoleransen. Du informeras om att alla transaktioner kan stängas eftersom skillnaden ligger inom den totala betalningstoleransen för transaktionerna. Du kan sedan välja att godkänna toleransen för betalningsbeloppet.
 
-Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> Om du aktiverar varningsmeddelandet kan du välja hur betalningar som ligger inom toleransen ska behandlas. Om du inte aktiverar meddelandet och en toleransnivå anges kommer fakturor med belopp inom toleransen automatiskt att stängas och du kan inte välja att lämna det återstående beloppet. 
+
+Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Så här lägger du upp toleranser  
 Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktura även om betalningen inte täcker hela fakturabeloppet, oavsett om det beror på att förfallodatumet för kassarabatten har passerats, att varorna har dragits av eller att ett mindre fel har begåtts. Det gäller även återbetalningar och kreditnotor.  
@@ -67,7 +70,7 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.    
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
-2. På sidan **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att avmarkera kryssrutan.  
+2. På sidan **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att stänga av växlingen.  
 
 > [!NOTE]  
 >  Standardalternativet för sidan **Betal.tolerans varning** är **Lämna saldo som återstående belopp**. Standardalternativet för sidan **Kassarabattolerans varning** är **Acceptera inte sen kassarabatt**.

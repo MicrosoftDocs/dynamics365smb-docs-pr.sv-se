@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190689"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262124"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 Betalningshanteringen består i att kontrollera om kunderna betalar i tid. Om kunderna har förfallna betalningar, kan du börja med att skicka kundkontoutdragsrapporten som betalningspåminnelse. Alternativt kan du skicka betalningspåminnelser.
@@ -123,11 +123,12 @@ På sidan **påminnelse** kan du fylla i snabbfliken **allmännt** manuellt och 
 4. Välj åtgärden **Föreslå betalningspåminnelserader**.
 5. I batch-jobbet **Föreslå betalningspåminnelserader** fyller du i fälten för att definiera hur och till vem som betalningspåminnelserna skapas.
 6. Markera kryssrutan **Inkludera stoppade transaktioner** om du vill att betalningspåminnelserna ska innehålla förfallna öppna transaktioner som är stoppade.
+7. Markera kryssrutan **Endast transaktioner med förfallna belopp** om du vill att påminnelserna endast ska innehålla förfallna öppna transaktioner. Endast fakturor och betalningar visas som de här transaktionerna för vilka kundens betalningar kan vara försenade.
 
     > [!Important]
-    > Öppna transaktioner som är stoppade infogas, oavsett inställningen i kryssrutan Endast transaktioner med förfallna belopp.
+    > Öppna transaktioner som är stoppade infogas, oavsett inställningen i kryssrutan **Endast transaktioner med förfallna belopp**.
 
-7. Välj **OK**.
+8. Välj **OK**.
 
 ## <a name="to-replace-reminder-texts"></a>Så här ersätter du betalningspåminnelsetexter  
 Du kan bestämma vilken text som ska visas på betalningspåminnelsen på flera olika sätt. I vissa fall kan det hända att du vill ersätta de inledande och avslutande texterna som definierats för den aktuella nivån med texter från en annan nivå.

@@ -8,63 +8,101 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194433"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262148"
 ---
 # <a name="entering-data"></a>Ange data
 
-Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. Dessa allmänna funktioner för dataregistrering beskrivs i den här artikeln.  
+Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. Dessa grundläggande principer och avancerade funktioner för dataregistrering beskrivs i den här artikeln.  
 
 I exemplen nedan används demonstrationsdata.
 
+## <a name="working-with-editable-fields"></a>Arbeta med redigerbara fält
+Fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan innehålla olika redigerbara data, t.ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
+
+Vissa redigerbara fält innehåller en väljare som du kan använda för att ange ett värde.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Plockare**        |**Så här kan du ange ett värde**|
+|------------------|------------------------------------|
+|Datumväljare       |Den här väljaren visar en kalender som baseras på de aktuella nationella inställningarna. Du kan välja ett enstaka datum.|
+|Listruta          |Listrutor ger dig möjlighet att välja fasta värden eller referera till poster från en annan tabell|
+|Växel eller kryssruta|Vissa fält ger ett enkelt alternativ med värdena *Ja* eller *Nej*. Växeln används för att ange det här värdet och visas alltid som en kryssrutor i listor|
+|Assist redigera       |Vissa fält tillhandahåller anpassade väljare som passar för att söka efter och välja det bästa värdet för fältet, till exempel popup-fönster.|
+
+
+### <a name="modifying-a-field-value"></a>Ändra ett fältvärde
+
+Om du vill ändra värdet i ett fält måste du först ställa in fokus på det fältet. Du ställer in fokus genom att göra följande:
+
+- Använd **Tabb**-nyckel. Åtgärden markerar hela värdet.
+- Vänsterklicka på musen eller på en liknande indataenhet. Med den här instruktionen kan du bara markera hela fältvärdet om fältet finns i en lista.  
+
+När du interagerar med fält i användargränssnittet prioriterar [!INCLUDE[d365fin](includes/d365fin_md.md)] normalt hela fältvärdet så att det blir enklare att ersätta värdet.
+
+När hela fältvärdet är markerat:
+- Ersätt värdet genom att bara ange ett nytt värde. Om fältet innehåller en väljare kan du aktivera det med hjälp av kortkommandot **Alt + nedpil**.
+- Använd **Ta bort** eller **Backsteg** för att rensa värdet.
+
+Tryck på **F2** för att växla mellan att markera hela fältets värde eller att placera markören efter fältets värde. Om du placerar markören i slutet av värdet blir det enklare att lägga till det befintliga värdet.
+
+När markören visas i slutet av fältvärdet:
+- Lägg till värdet genom att bara skriva.
+- Använd nyckel **Start**, **Slut**, **Vänsterpil** och **Högerpil** för att flytta markören i värdet. Om du redigerar ett fält i en lista, trycker du på **vänsterpilen** igen när markören är i början av värdet så aktiveras föregående fält. På samma sätt kan du trycka på **högerpilen** igen när markören är i slutet av värdet för att ge fokus till nästa fält.
+
+> [!NOTE]
+> När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t.ex. nästa fält.  
+
+
 ## <a name="keyboard-shortcuts"></a>Kortkommandon
 
-Det finns flera kortkommandon som gör att du kan arbeta ”utan mus” och snabba på din datainmatning, särskilt med storskaliga och återkommande textinmatningsuppgifter.
+Det finns flera kortkommandon som du kan använda för att arbeta med musen och snabba upp din datainmatning. Dessa kortkommandon är särskilt användbara när du vill ha stora och repetitiva uppgifter.
 
-Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I den här artikeln beskrivs några genvägar.
+Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I den här artikeln beskrivs några kortkommandon.
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
 
-Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t.ex. på kortsidorna) och i listor (rader och kolumner). Det är bra när återkommande textinmatningsuppgifter utförs som behöver skapa flera poster i taget, till exempel en uppsättning försäljningsorder eller registrering av nya artiklar.
+Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t.ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
 
-Du kanske redan känner till att använda Tabb-tangenten för att gå från ett fält på en sida till nästa redigerbara fält. Nackdelen med att använda Tabb-tangenten är att det alltid går sekventiellt till nästa fält. <!-- even if the field is non-editable or seldom filled it in.-->Snabbinmatning låter dig ändra den här sökvägen. Med snabbinmatning använder du Retur-knappen för att navigera i de fält som du är intresserad av, hoppar över skrivskyddade fält och fält som du vanligtvis inte fyller i. Du kanske redan har upptäckt denna funktion på vissa sidor. Detta beror på att programmet redan anger vilka fält som ska inkluderas när du trycker på Retur och vilka som ska hoppas över. Du kan anpassa snabbinmatning genom att anpassa arbetsytan och optimera hur du anger data på varje sida.
+Du kan använda Tabb-tangenten för att gå från ett fält på en sida till nästa redigerbara fält. Nackdelen med att använda Tabb-tangenten är att det alltid går sekventiellt till nästa fält. <!-- even if the field is non-editable or seldom filled it in.-->Snabbinmatning låter dig ändra den här sökvägen. Med snabbinmatning gör att du kan använda returtangenten för att navigera genom enbart de fält som du är intresserad av. Snabbinmatning hoppar över icke redigerbara fält och fält som du vanligtvis inte fyller i. Du kanske redan har upptäckt denna funktion på vissa sidor. Detta beteende beror på att fälten som ska inkluderas när du trycker på retur och vilka som ska hoppas över har fördefinierats. Du kan anpassa snabbinmatning genom att anpassa arbetsytan och optimera hur du anger data på varje sida.
 
 ### <a name="how-quick-entry-works"></a>Hur snabbinmatning fungerar
 
-Varje fält kan markeras som antingen *inkluderas i snabbinmatning* eller *exkluderas från snabbinmatning*. Som inkluderas i snabbinmatning inkluderas i sökvägen när du trycker på Retur. fält som exkluderas från snabbinmatning kommer inte att göra detta.
+Varje fält kan markeras som antingen *inkluderas i snabbinmatning* eller *exkluderas från snabbinmatning*. Fält som inkluderas i snabbinmatning infogas i sökvägen när du trycker på retur. Fält som utesluts från snabbinmatning kommer inte.
 
 När du är klar med att ange data i ett fält trycker du bara på Retur för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på Shift + Retur. Mer information om genvägar finns i [kortkommandon för snabbinmatning för fält](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips och råd
-Nedan finns användbar information om hur du använder snabbinmatning.
+
+Listan nedan ger användbar information om hur du använder snabbinmatning.
 
 - Den är tillgänglig för alla fält som kan redigeras.
 - Den fungerar även i kolumner och rader.
-- Den hindrar inte från att komma åt andra element på en sida, till exempel åtgärder. Dessa är tillgängliga genom att använda Tabb och Shift + Tabb.  
-- Snabbflikarna behöver inte expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det tilldelade fältet.
+- Den hindrar inte från att komma åt andra element på en sida, till exempel åtgärder. Dessa element är tillgängliga genom att använda Tabb och Shift + Tabb.  
+- Det är inte nödvändigt att snabbflikar expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det valda fältet. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer ihåg att snabbfliken ska expanderas nästa gång du besöker sidan.  
 - Snabbinmatning fungerar oavsett om fälten är obligatoriska. Så det är en bra idé att kontrollera att obligatoriska fält är inkluderade i snabbinmatning.
 - Som standard inkluderas de flesta fält i snabbinmatning. Så i början kommer uppgiften troligen att utesluta fält från snabbinmatning.
 
 ### <a name="to-change-quick-entry-fields"></a>Så här ändrar du snabbinmatningsfält
 
-Om du vill ändra vilka fält som ska inkluderas eller exkluderas i snabbinmatning på en sida, kan du använda anpassning.
+Om du vill ställa in snabbinmatning för fält använder du anpassning.
 
 1. Starta anpassning genom att välja ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
-2. Välj ett fält som du vill ändra, eller i listor, väljer du motsvarande kolumnrubrik eller väljer antingen **inkludera i snabbinmatning** eller **exkludera snabbinmatning**.
+2. Markera ett fält som du vill ändra. Markera motsvarande kolumnrubrik i listor. Välj sedan antingen **Inkludera i snabbinmatning** eller **Exkludera från snabbinmatning**.
 
 Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Obligatoriska fält
 
-När du anger data på sidor markeras vissa fält med en röd asterisk. Den röda asterisken betyder att fältet måste fyllas för att slutföra en viss process som använder fältet, till exempel bokföra en transaktion som använder värdet i fältet.  
+När du anger data på sidor markeras vissa fält med en röd asterisk. Den röda asterisken innebär att fältet måste fyllas i för att slutföra en viss operation. Ett exempel är när du bokför en transaktion som använder värdet i fältet.  
 
-Även om fältet innehåller en asterisk tvingas du inte att fylla u fältet innan du fortsätter till andra fält eller avslutar sidan. Den röda asterisken fungerar endast som en påminnelse att du kommer att spärras från att slutföra en viss process.  
+Även om ett fält är obligatoriskt tvingas du inte fylla i fältet innan du fortsätter till andra fält eller stänger sidan. Den röda asterisken fungerar endast som en påminnelse att du kommer att spärras från att slutföra en viss process.  
 
 ## <a name="finding-data-as-you-type"></a>Söka efter data allt eftersom du skriver
 
@@ -78,7 +116,7 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
 
-Du kan kopiera en eller flera rader i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post). Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS).
+Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på en sida. Klistra sedan in det du kopierade på samma sida, en annan sida eller ett externt dokument. Du kan t.ex. klistra in Microsoft Excel eller Outlook-e-post. Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL+V eller cmd+V i macOS.
 
 I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden, tryck bara på F8.
 
@@ -88,13 +126,13 @@ Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](ui-co
 
 För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
-Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura och filtrerar radposter för att visa alla radposter som har en enskild rabatt på mer än 5 % eller ett filter för att visa endast cykeltillbehör med "proffs" i namnet.
+Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura. Sedan kan du filtrera radartiklarna så att de visar alla radartiklar som har en individuell rabatt på över 5 %. Du kan också filtrera fram cykel tillbehör med "pro" i namnet.
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusera på radartiklar
 
-När du arbetar med dokument som innehåller en del av en radartikel, t.ex. en försäljningsorder eller fakturasida, kan du växla vyn så att endast radartiklarna fokuseras. Radobjektsdelen expanderas sedan så att den upptar ganska mycket på hela arbetsytan och döljer andra delar av sidan utom åtgärdsområdet högst upp. Detta ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem.
+När du arbetar med dokument som innehåller en del av en radartikel, kan du växla vyn så att endast radartiklarna fokuseras. Exempel på dokument är försäljningsorder och faktura. Radartikeldelen expanderas så att den upptar nästan hela arbetsytan. Den döljer andra delar av sidan utom området åtgärder högst upp. Denna layout ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem.
 
-Detta är speciellt viktigt när du arbetar med stora radposter och snabb dataregistrering önskas. En annan fördel är den även ger avancerade filtreringsfunktioner, precis som i andra listor, så bläddra och söka igenom radposter blir ännu enklare.
+Du får särskilt fördelar när du arbetar med stora radartikellistor och du vill ange data snabbt. Den här funktionen ger även avancerad filtreringskapacitet. På samma sätt som i andra listor blir det ännu enklare att bläddra och söka igenom radobjekt.
 
 ### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
@@ -103,8 +141,18 @@ För att fokusera på radartiklar väljer du var som helst i radartikeldelen och
 Om du vill växla tillbaka till normal vy, välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") eller tryck på Ctrl+Shift+F12 igen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
-När du arbetar med flera uppgifter samtidigt eller när du hanterar avbrott för den aktuella uppgiften, t.ex. genom att ta inkommande samtal, kan du öppna ett kort eller en dokument sida i ett nytt fönster. På så sätt kan du hålla ett fönster öppet för en pågående aktivitet när du startar eller slutför en annan aktivitet i ett eller flera andra fönster.
 
+Du kan öppna ett kort eller en dokument sida i ett nytt fönster. När du öppnar ett nytt fönster kan du:
+
+- Arbeta med flera uppgifter samtidigt
+- Hantera avbrott för den aktuella uppgiften, t.ex. inkommande samtal.
+- Håll ett fönster öppet för en pågående uppgift medan du startar eller slutför en annan uppgift i fönster.
+
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
+
+<!--
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+-->
 Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
 
 > [!NOTE]
@@ -155,17 +203,17 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
 ### <a name="entering-dates"></a>Ange datum
 
-För datumfält kan du antingen använda dataväljaren som låter dig välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
+Du kan antingen använda datumväljaren för att välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
 För manuell datainmatning kan du skriva in två, fyra, sex eller åtta siffror.  
 
--   Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.  
+-   Två siffror tolkas som dagen. Månad och år läggs till i arbetsdagens datum.  
 
--   Om du skriver in fyra siffror tolkas de som dagen och månaden. Programmet lägger till året från arbetsdatumet.  
+-   Fyra siffror tolkas som dag och månad. År läggs till i arbetsdagens datum.  
 
--   Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.  
+-   Om det datum du vill använda ligger inom intervallet 1930-01-01 till 2029-12-31 anger du året med två siffror. Ange annars året med fyra siffror.  
 
-Du kan också skriva ett datum som en veckodag följt av veckonumret och (valfritt) ett år (exempelvis Mån25, eller mån25 betyder måndagen i vecka 25).  
+Du kan också ange ett datum som en veckodag följt av ett veckonummer. Du kan också ange ett år. Till exempel Mån25 eller mån25 betyder måndag vecka 25.  
 
 I stället för att skriva in ett visst datum kan du skriva in någon av dessa koder.  
 
@@ -224,6 +272,7 @@ Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en
 |ti 03:03:03|tisdag i innevarande vecka 03:03:03|  
 
 ## <a name="entering-duration"></a>Ange varaktighet
+
 Du anger varaktigheten som en siffra följd av en enhet.  
 
 Här följer några exempel.  

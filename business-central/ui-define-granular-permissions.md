@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194481"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324036"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 Med säkerhetssystemet [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och IT-proffs för [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ Du kan också använda en kopieringsfunktion för att snabbt kopiera alla behör
 
 Den nya behörighetsuppsättningen innehåller alla behörigheter för de kopierade grupp, läggs till som en ny rad på sidan **behörighetsuppsättningen**. Nu kan du ändra behörigheten i den nya behörighetsuppsättningen. Notera att raderna sorteras i bokstavsordning inom varje typ.
 
+### <a name="to-export-and-import-a-permission-set"></a>Så här exporterar och importerar du en behörighetsgrupp
+Om du snabbt vill ställa in behörigheter kan du importera behörighetsgrupper som du har exporterat från en annan [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehavare.
+
+I miljöer med flera innehavare importeras en behörighetsgrupp till en särskild innehavare, d.v.s. omfattningen av importen är "klientorganisation".
+
+1. I klientorganisation 1, på **Behörighetsuppsättningar** Välj raden eller linjerna för behörighetsuppsättningarna att exportera och välj sedan **Exportera behörighetsuppsättning**.
+
+    En XML-fil skapas i mappen ladda ned på datorn. Som standard kallas det "Export Permission Sets.xml"
+
+2. I klientorganisation 2, på sidan **behörighetsuppsättning** välj åtgärden **Importera behörighetsuppsättning**.
+3. På dialogrutesidan **Importera behörighetsuppsättningar**, överväg om du vill slå ihop befintliga behörighetsuppsättningar med några nya behörighetsuppsättningar i xml-filen.
+
+    Om du markerar kryssrutan **Uppdatera befintliga behörigheter** kommer befintliga behörighetsuppsättningar med samma namn som de som finns i xml-filen att slås samman med de importerade behörighetsuppsättningarna.
+
+    Om du inte markerar kryssrutan **Uppdatera befintliga behörigheter** kommer behörighetsuppsättningar med samma namn som de som finns i xml-filen att hoppas över under import. I så fall får du ett meddelande om behörighetsuppsättningar som hoppas över.
+
+4. Från dialogrutesidan **Import** hitta och välj den xml-fil som ska importeras och välj sedan åtgärden **Öppna**.
+
+Behörighetsgrupperna importeras.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Skapa eller ändra behörigheter manuellt
 Denna procedur förklarar hur man lägger till eller redigerar behörigheter manuellt. Du kan också få behörigheter genererade automatiskt utifrån dina åtgärder i användargränssnittet. Mer information finns i [Skapa eller ändra behörigheter genom att registrera dina åtgärder](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -188,6 +208,9 @@ I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en 
 3. På sidan **Behörighetsuppsättning efter användargrupp** markerar du kryssrutan **[användarnamn]** på en rad för den relevanta behörighetsuppsättningen för att tilldela uppsättningen till användargruppen.
 4. Markera kryssrutan **Alla användargrupper** om du vill tilldela behörighetsuppsättningen till alla användargrupper.
 
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Ta bort föråldrade behörigheter från alla behörighetsgrupper
+1. På sidan **Behörighetsuppsättningar**, välj åtgärden **Ta bort inaktuella behörigheter**.
+
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare
 Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
 
@@ -201,7 +224,7 @@ Administratörer kan definiera tidsperioder som anger när användare kan bokfö
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
-[Gör dig redo för affärer](ui-get-ready-business.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Lägg till användare till Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Säkerhet och skydd i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjälpen för utvecklare och IT-proffs

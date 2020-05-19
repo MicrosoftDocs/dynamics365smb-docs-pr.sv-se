@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195393"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262196"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
@@ -66,7 +66,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 |Hoppa över ett fält när du trycker på Retur.|Välj pilen bredvid fältet eller kolumnrubriken i en lista och välj **utesluta från snabbinmatning**. <br /><br /> Om du inte ser detta alternativ anges redan fältet till att hoppas över. I det här fallet väljer du att hoppa över fältet **Inkludera i snabbinmatning**. |Se [Påskynda datainmatning med snabbinmatning](ui-enter-data.md#QuickEntry)|
 |Ordna om och ta bort vyer som representerar filtrerade listor.|Välj pilspetsen bredvid en vy och välj sedan **flytta**, **ta bort**, eller **dölj**.|Se [Spara och anpassa listvyer](ui-views.md)|  
 |Lägg till en ny åtgärd på en sida eller rapport i rollcentret.|Välj ikonen bokmärke på sida för rapportförfrågan, sida i rapporten eller berätta för mig-fönstret.|Se [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)|
-
+|Starta alltid en lista som visad eller dold|Klicka på knappen expandera alla eller dölj alla i det övre vänstra hörnet i listan, eller välj åtgärderna Expandera alla eller Dölj alla på menyn i den första kolumnen. |Gäller för komprimerbara hierarkinivåer|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Anpassa åtgärder
 

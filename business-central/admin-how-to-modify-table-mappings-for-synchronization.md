@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: d8377e5042ac647386e1b3b02e1f97d2e14eb3ae
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196525"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271996"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 Grunden för att synkronisera data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[d365fin](includes/cds_long_md.md)] är att mappa registren och fälten som innehåller data med varandra. Mappning sker via integreringsregister. 
 
 ## <a name="mapping-integration-tables"></a>Integreringsregister för mappning
-En integreringsregister är en register i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen som representerar en enhet, exempelvis konto, i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Integreringsregisteren innehåller fält som motsvarar fält i registeren för enheten [!INCLUDE[d365fin](includes/cds_long_md.md)]. Till exempel ansluter integreringsregisteren Konto till enheten Konton i [!INCLUDE[d365fin](includes/cds_long_md.md)]. För varje enhet i [!INCLUDE[d365fin](includes/cds_long_md.md)] som du vill synkronisera med data i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste det finnas en mappning för integreringsregister.
+En integreringsregister är en register i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen som representerar en enhet, exempelvis konto, i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integreringsregisteren innehåller fält som motsvarar fält i registeren för enheten [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Till exempel ansluter integreringsregisteren Konto till enheten Konton i [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. För varje enhet i [!INCLUDE [cds_short_md](includes/cds_short_md.md)] som du vill synkronisera med data i [!INCLUDE[prodshort](includes/prodshort.md)] måste det finnas en mappning för integreringsregister.
 
 När du skapar anslutningen mellan programmen ställer [!INCLUDE[d365fin](includes/d365fin_md.md)] in vissa standardmappningar för register och fält. Om du vill kan du ändra registermappningarna. Mer information finns i [Standardinställd enhetsmappning för synkronisering](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Om du har ändrat standardmappningarna och vill återställa ändringarna går du till sidan **Anslutningsinställningar för [!INCLUDE[d365fin](includes/cds_long_md.md)]** och väljer **Använd standardinställningar för synkronisering**.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196901"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324060"
 ---
 # <a name="data-ownership-models"></a>Modeller för dataägarskap
 [!INCLUDE[d365fin](includes/cds_long_md.md)] kräver att du anger en ägare till de data du lagrar. Mer information finns i [Enhetsägarskap](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) i Power Apps-dokumentationen. När du ställer in integreringen mellan [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du välja en av två ägarskapsmodeller för transaktioner som synkroniseras:
@@ -34,6 +34,9 @@ Eftersom affärsenheterna saknar legala eller affärsmässiga konsekvenser kan d
 * Vi skapar en standardaffärsenhet som har samma namn som företaget. Till exempel CRONUS International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Vi skapar ett separat ägarteam med samma namn som företaget, och associerar det med affärsenheten. Teamnamnet föregås av "BCI -". Till exempel BCI - CRONUS International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Poster som skapas och synkroniseras till [!INCLUDE[d365fin](includes/cds_long_md.md)] tilldelas teamet "BCI Owner", som är länkat till affärsenheten.
+
+> [!NOTE]
+> Om du byter namn på ett företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] uppdateras inte namnen på företaget, verksamheten och teamet som du skapar automatiskt i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Eftersom endast företags-ID:t används för integration påverkas inte synkroniseringen. Om du vill att namnen ska matcha måste du uppdatera företaget, affärsenheten och teamet i [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 I följande bild visas ett exempel på dessa datainställningar i [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Synkroniseringen bestämmer vilka team som ska äga transaktioner. Detta styrs a
 > [!NOTE]
 > Posterna blir skrivskyddade när ett företag har lagts till och sparats, så se till att välja rätt företag.
 
-### <a name="choosing-a-different-business-unit"></a>Välja en annan affärsenhet
-Du kan ändra valet av affärsenhet. Om du väljer en annan enhet, till exempel en som du har skapat tidigare i DCS, behåller den sitt ursprungliga namn. Detta innebär att den inte kommer att få ett suffix med företags-ID:t. Vi kommer att skapa ett team som använder namnkonventionen.
+## <a name="choosing-a-different-business-unit"></a>Välja en annan affärsenhet
+Du kan ändra affärsenhetsvalet om du använder gruppägandemodellen. Om du använder ägarskapsmodellen för person är standardaffärsenheten alltid markerad. 
+
+Om du väljer en annan affärsenhet, till exempel en som du har skapat tidigare i [!INCLUDE[d365fin](includes/cds_long_md.md)], behåller den sitt ursprungliga namn. Detta innebär att den inte kommer att få ett suffix med företags-ID:t. Vi kommer att skapa ett team som använder namnkonventionen.
+
+När du ändrar en affärsenhet kan du bara välja de affärsenheter som finns på en nivå under huvudaffärsenheten.
 
 ## <a name="person-ownership"></a>Personligt ägarskap
-Om du väljer ägandeskapsmodellen Personlig måste du ange respektive säljare som ska äga nya transaktioner. Affärsenheten och teamet skapas på det sätt som beskrivs i föregående avsnitt.  
+Om du väljer ägandeskapsmodellen Personlig måste du ange respektive säljare som ska äga nya transaktioner. Affärsenheten och teamet skapas på det sätt som beskrivs i avsnittet [Gruppägarskap](admin-cds-company-concept.md#team-ownership) section.
+
+Standardaffärsenheten används när ägandemodellen person väljs och du kan inte välja en annan affärsenhet. Teamet som är kopplat till standardaffärsenheten kommer att äga poster för vanliga entiteter, till exempel produktentitet, som inte är relaterade till vissa säljare.
 
 ## <a name="see-also"></a>Se även
 [Om [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

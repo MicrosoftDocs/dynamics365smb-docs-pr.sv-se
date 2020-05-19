@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184034"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372622"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
@@ -40,7 +40,7 @@ Vi har gjort det lätt för dig att bjuda in en extern revisor. Öppna bara sida
 > [!IMPORTANT]  
 > Revisorns e-postadress måste vara en arbetsadress som baseras på ett Azure Active Directory. Om revisorn har en annan typ av e-post kan inte inbjudan skickas. 
 > 
-> Denna uppgift kräver åtkomst för att hantera användare och licenser i Azure Active Directory och användaren som skickar den här inbjudan måste därför tilldelas rollen **Global administratör** eller **Användaradministratör** i administratörscenter för Office 365. Mer information finns i [Om administratörsroller](/office365/admin/add-users/about-admin-roles) i Office 365 administratörsinnehållet.  
+> Denna uppgift kräver åtkomst för att hantera användare och licenser i Azure Active Directory och användaren som skickar den här inbjudan måste därför tilldelas rollen **Global administratör** eller **Användaradministratör** i administratörscenter för Microsoft 365. Mer information finns i [Om administratörsroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365 administratörsinnehållet.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Lägga till din revisor i Office 365 via Azure Portal
 

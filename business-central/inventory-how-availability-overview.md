@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182330"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324252"
 ---
 # <a name="view-the-availability-of-items"></a>Visa artikeldisposition
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
@@ -80,9 +80,9 @@ Du kan visa disposition för alla artiklar på alla lägerställen på sidan **A
 3. Välj värdet i fältet **Lagersaldo** för att visa de artikeltransaktioner som utgör värdet.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>För att visa tillgängligheten för en artikel med dess användning i monterings- eller produktionsstrukturer
-Om en artikel finns i monterings- eller produktionsstrukturer, antingen som en överordnad artikel eller en komponent kan du se hur många enheter av den som krävs på sidan **Artikeldisposition per strukturnivå**. Sidan visar hur många av en överordnad det går att producera baserat på dispositionen av underordnade artiklar på underliggande rader. Ett objekt som har en monterings- eller produktionsstruktur visas på sidan som en komprimerbar rad. Du kan expandera raden för att visa underliggande komponenter och underenheter på låg-nivå med egna strukturer.
+Om en artikel är en del av monterings- eller produktionsstrukturer, antingen som en överordnad artikel eller en komponent kan du se hur många enheter av den som krävs på sidan **Artikeldisposition per strukturnivå**. Sidan visar hur många av en överordnad artikel går det att producera baserat på dispositionen av underordnade artiklar på underliggande rader. Ett objekt som har en monterings- eller produktionsstruktur visas på sidan som en komprimerbar rad. Du kan expandera raden för att visa underliggande komponenter och underenheter på låg-nivå med egna strukturer.
 
-Du kan använda sidan för att se om du kan uppfylla en försäljningsorder för en artikel på ett angivet datum genom att se den aktuella tillgängligheten och antal av komponenterna. Du kan också använda sidan för att identifiera flaskhalsar i relaterade strukturer.
+Du kan till exempel använda sidan för att bestämma om du kan uppfylla en försäljningsorder för en artikel på ett angivet datum genom att se den aktuella tillgängligheten och antal av komponenterna. Du kan också använda sidan för att identifiera flaskhalsar i relaterade strukturer.
 
 På varje rad på sidan för både den överordnade artikeln och underartiklar visas tillgänglighetssiffror i följande nyckelfält. Du kan använda dessa siffror som löfte om hur många enheter av en överordnad artikel du kan tillhandahålla om du startar den relaterade monteringen.
 
@@ -99,8 +99,11 @@ Sidan **Artikeldisposition per strukturnivå** visar information för artikeln p
 
 Fältet **Flaskhals** anger vilken artikel i strukturen som begränsar dig från att kunna producera ett större antal än antalet som visas i fältet **Kan skapa toppartikel**. En flaskhalsartikel kan till exempel vara en inköpt komponent med ett förväntat inleveransdatum som är för sent för att skapa fler enheter av toppartikeln per datumet i fältet **Behövs den**.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Så här visar du en artikels disposition efter dess måttenhet
-På sidan **Visa artikelns disposition per enhet** visas en artikels disposition uppdelad i olika enheter som den lagras i.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Så här visar du en artikels disposition efter dess måttenhet
+På sidan **Visa artikelns disposition per enhet** visar tillgängligheten för ett objekt i de måttenheter som det lagras i.
+
+> [!NOTE]  
+> Om du vill hålla informationen korrekt måste du konvertera artikelenheter. Om du t.ex. köper en artikel i en enhet, till exempel rutor, och du säljer artiklar i en annan enhet, t.ex. stycken, måste du använda en artikeljournal för att konvertera enheterna eller "uppackade" artiklar. Du kan använda en negativ journalrad för justeringsartikel för att minska lagret i enheten för inköp, t.ex. rutor och en positiv justering för att öka lagret i enheten för försäljning, till exempel styck. 
 
 ## <a name="assembly-availability-page"></a>Sidan Monteringsdisposition
 Fönstret **Monteringsdisposition** visar detaljerade dispositionsinformation för monteringsartikeln. Den öppnar:

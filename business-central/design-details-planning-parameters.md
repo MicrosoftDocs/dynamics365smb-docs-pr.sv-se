@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184898"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272044"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -77,6 +77,8 @@ För att få en rationell tillförselplan finjusterar en planerare planeringspar
 |**Omplaneringsperiod**|Detta fält används för att bestämma om åtgärdsmeddelande ska ändra tidpunkten för en befintlig order eller avbryta den och skapa en ny order. Den befintliga ordern omplaneras i en omplaneringsperiod före den aktuella leveransen och till en omplaneringsperiod efter den aktuella leveransen.|  
 |**Partiackumuleringsperiod**|Med partiformningsmetoden Parti-för-parti används detta fält för att ackumulera flera leveransbehov till en leveransorder. Från den första planerade tillgången samlas alla tillgångsbehov i den följande partiackumuleringsperioden i en tillgång, som placeras på datumet för den första tillgången. Efterfrågan utanför partiackumuleringsperioden omfattas inte av den här leveransen.|  
 |**Utjämningsperiod**|Detta fält används för att undvika mindre omplanering av befintlig leverans ut i tid. Ändringar från leveransdatum till en utjämningsperiod från leveransdatum skapar inga åtgärdsmeddelanden.<br /><br /> Den max. avvikelseperioden anger en tidsperiod då du inte vill att planeringssystemet ska föreslå omplanering av befintliga leveransorder framåt. Den begränsar antal obetydliga omplaneringsförslag för befintliga leveranser till ett senare datum om det omplanerade datumet ligger inom den maximala avvikelseperioden.<br /><br /> Som ett resultat kommer en positiv delta mellan det föreslagna nya leveransdatumet och det ursprungliga leveransdatumet alltid att vara större än den utjämningsperioden.|  
+> [!NOTE]
+> Med partiformningsmetoden Parti-för-part måste värdet i fältet **partiackumuleringsperiod** vara lika med eller större än värdet i fältet **utjämningsperiod**. Annars minskas utjämningsperioden automatiskt under planeringsrutinen så att den stämmer med partiackumuleringsperioden.  
 
 Tidsplaneringen av omplaneringsperioden, utjämningsperiod och partiackumuleringsperioden baseras på ett leveransdatum. Tidsenheten baseras på planeringsstartdatumet, som visas i följande illustration.  
 

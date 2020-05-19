@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183794"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262172"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -106,7 +106,8 @@ Du kan förhindra att transaktioner bokförs med oförenliga eller irrelevanta d
 Globala och genvägsdimensioner kan användas som filter var som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)], däribland i rapporter, batch-jobb och analysaktiviteter. Globala och genvägsdimensioner är alltid tillgängliga som ska läggas till direkt utan att du först öppnar sidan **dimensioner**. På journal- och dokumentrader kan du välja globala dimensioner respektive genvägsdimensioner i ett fält på raden. Du kan också ställa in två globala dimensioner och åtta genvägsdimensioner. Välj de dimensioner som du oftast använder.
 
 > [!Important]  
-> Om du ändrar en global eller genvägsdimension krävs att alla transaktioner som har bokförts med dimensionen har uppdaterats. Du kan utföra den här aktiviteten med funktionen **ändra globala dimensioner**, men det kan ta lång tid och kan påverka prestanda. Välj därför globala och genvägsdimensioner noga så att du inte behöver ändra dem senare.
+> Om du ändrar en global eller genvägsdimension krävs att alla transaktioner som har bokförts med dimensionen har uppdaterats. Du kan utföra den här aktiviteten med funktionen **ändra globala dimensioner**, men det kan ta lång tid och kan påverka prestanda och tabeller kan vara låsta under uppdateringen. Välj därför globala och genvägsdimensioner noga så att du inte behöver ändra dem senare. <br /><br />
+> Mer information finns i [Att ändra globala dimensioner](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > När du lägger till eller ändrar en global eller genvägsdimension loggas du automatiskt ut och in igen så att det nya värdet förbereds för användning i hela programmet.
@@ -115,8 +116,24 @@ Globala och genvägsdimensioner kan användas som filter var som helst i [!INCLU
 2. Fyll i fälten på snabbfliken **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Ändra globala dimensioner
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ändra globala dimensioner** och välj sedan relaterad länk.
-2. Hovra över åtgärder och på den sidan om du vill lära dig om att ändra globala dimensioner respektive genvägsdimensioner.
+När du ändrar en global eller genvägsdimension uppdateras alla aktuella transaktioner som har bokförts med dimensionen. Eftersom den här metoden kan vara tids krävande och påverka prestanda kan två olika lägen anpassas till databasens storlek.  
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.
+2. Välj åtgärden **Ändra globala dimensioner**.
+3. Längst upp på sidan väljer du ett av följande alternativ för att definiera i vilket läge batch-jobbet ska köras.
+
+    |Alternativ|Beskrivning|
+    |-|-|
+    |**Sekventiell**|(Standard) Hela dimensionsändringen utförs i en transaktion med alla poster tillbaka till de dimensioner de hade före ändringen.<br /><br />Det här alternativet rekommenderas om företaget innehåller relativt få bokförda transaktioner där det tar kortast möjliga tid att slutföra. Med den här metoden låses flera tabeller och andra användare blockeras tills den är klar. Observera att det kan hända att det inte går att utföra alla processer i det här läget i stora databaser. Använd i så fall alternativet **parallellt**.|
+    |**Parallell**|(MArkera kryssrutan **Parallell bearbetning**.) Dimensionsändringen utförs som flera bakgrundssessioner och operationen delas upp i flera transaktioner.<br /><br />Det här alternativet rekommenderas för stora databaser eller företag med många bokförda poster där det tar den kortaste tiden att slutföra. Observera att uppdateringsförfarandet inte startar om det finns mer än en aktiv databassession.|  
+
+4. I fälten **Global dimension 1 kod** och/eller **Global dimension 2 kod** anger du de nya dimensionerna. De aktuella dimensionerna visas i grått bakom fälten.
+5. Om du har valt läget **sekventiell**, välj åtgärden **Starta**.
+6. Om du har valt läget **parallell**, välj åtgärden **förbered**.
+
+    Fliken **loggtransaktioner** fylls med information om de dimensioner som kommer att ändras.
+7. Logga ut från [!INCLUDE[d365fin](includes/d365fin_md.md)] och logga sedan in igen.
+8. Välj åtgärden **Starta** för att starta den parallella bearbetningen av dimensionsändringarna.
 
 ### <a name="example-of-dimension-setup"></a>Exempel på dimensionsinställningarna
 Anta att ditt företag vill spåra transaktioner utifrån organisationens struktur och geografiska platser. För att göra detta kan du ange två dimensioner på sidan **Dimensioner**:

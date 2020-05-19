@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196393"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333914"
 ---
 # <a name="managing-database-access-intent"></a>Hantera åtkomstmetod för databas 
 
@@ -29,7 +29,7 @@ När objekt körs bestämmer databasens åtkomstmetod huruvida en skrivskyddad k
 
 Sidan **Metodlista för databasåtkomst** kan du åsidosätta den fördefinierade metoden för databasåtkomst för objekt när de körs.
 
-Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*. Mer information om avläsning och metoder för dataåtkomst i [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i [Använda Läsningsskalning för bättre prestanda](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) i [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälp för utvecklare och IT-proffs.
+Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*. Mer information om avläsning och metoder för dataåtkomst i [!INCLUDE[prodshort](includes/prodshort.md)] finns i [Använda Läsningsskalning för bättre prestanda](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prodshort](includes/prodshort.md)]-hjälp för utvecklare och administration.
 
 ## <a name="to-change-the-database-access-intent"></a>Så här ändrar du åtkomstmetod för databaser
 

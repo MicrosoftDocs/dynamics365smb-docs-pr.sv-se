@@ -2,15 +2,15 @@
 title: Utbildningskatalog för affärsanvändare
 description: Hitta alla tillgänglig utbildning för Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190857"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271948"
 ---
 # <a name="business-users-learning-catalog"></a>Utbildningskatalog för affärsanvändare
 
@@ -33,7 +33,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Använda kostnadsredovisning i Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Behöver du använda kostnadsredovisning i företaget? Med hjälp av den här utbildningsvägen kan du komma igång med kostnadsredovisning i Business Central. I den beskrivs konfiguration av kostnadsredovisnings, hur du skapar huvuddata för kostnadsredovisning, hur du överför transaktioner och fördelar kostnader till en grupp med konton.   | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 16 minuter |
 | [Använda journaler i Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Behöver du skapa och bokföra journaltransaktioner i Business Central? Då är den här utbildningsvägen för dig. Skapa redovisningsjournalmallar, skapa journaltransaktioner med återkommande transaktioner och bokföringstransaktioner – allt beskrivs i modulerna i den här utbildningsvägen.                  | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 1 minut   |
 | [Stämma av bankkonton i Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Vill du ta reda på hur du stämmer av bankkonton i Business Central? Bankavstämningsfunktionen och avstämningsjournalerna diskuteras i den här utbildningsvägen.                                                                                                                           | Kostnadsfri online-utbildningsväg i egen takt | 1 timme 3 minuter   |
-| [Använda flera valutor i Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbetar du med flera valutor? Om du gör det kommer den här utbildningsvägen att hjälpa dig att förstå de steg som du behöver utföra för att skapa och använda flera valutor, behandla betalningar och fakturor i olika valutor och justera valutakurser vid behov.                                             | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter  |
+| [Använda flera valutor i Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbetar du med flera valutor? Om du gör det kommer den här utbildningsvägen att hjälpa dig att förstå de steg som du behöver utföra för att skapa och använda flera valutor, behandla betalningar och fakturor i olika valutor och justera valutakurser vid behov.                                             | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter  |
 | [Skapa ekonomiska rapporter i Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Är du ansvarig för att generera ekonomiska rapporter från Business Central? I den här utbildningsvägen beskrivs hur du skapar budgetar och använder kontouppställningar, dimensioner och eXtensible Business Reporting Language (XBRL) för att skapa de ekonomiska rapporter som normalt krävs för de flesta företag. | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 44 minuter |
 | [Utföra ekonomiska periodiska aktiviteter i Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Ansvarar du för processerna för period- och årsbokslut? Slutför den här modulen som beskriver hur du skickar påminnelser och räntefakturor till kunder. Den behandlar även Intrastat-bearbetning och rapportering och att avsluta ett räkenskapsår.                                                     | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 3 minuter  |
 ## <a name="trade"></a>Handel<a name="trade"></a>

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188978"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333890"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
 Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
@@ -64,7 +64,14 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 * Säljare  
 
 > [!NOTE]  
->   Om du har ställt in flera företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du exportera aktuella data från båda företagen.
+> Om du har ställt in flera företag i [!INCLUDE[prodshort](includes/prodshort.md)] måste du exportera aktuella data från båda företagen.
+
+> [!NOTE]
+> Du måste ha minst en av följande behörigheter för att kunna öppna eller redigera data i Excel:
+>    - Behörighetsgrupp *D365 Excel-export åtgärd*  
+>    - Systembehörighet 6110 *Tillåt åtgärd exportera till Excel*.  
+
+Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

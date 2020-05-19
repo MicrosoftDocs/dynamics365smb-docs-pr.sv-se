@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c19f527f4d9c06aa28212e7519fee67c6dfd042b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3897602d405f13b5de4a1bc401cc409cb5ef58ec
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192232"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271900"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Skapa metodtips: konfiguration av global planering
 Snabbfliken **Planering** på sidan **Produktionsinställningar** innehåller flera fält som definierar globala regler för leveransplanering.  
@@ -28,7 +28,7 @@ Snabbfliken **Planering** på sidan **Produktionsinställningar** innehåller fl
 |Komponenter vid lagerställe|Om artiklar inte definieras som lagerställeenheter, välj lagerställekoden för huvudlager.|Detta gäller också om du bara använder inköpskalkylarket.|  
 |Tom överflödesnivå|Välj **Tillåt standardberäkningen** om du flyttar från Microsoft Dynamics NAV 5.0 eller tidigare.|Använd endast om du vill tillåta några eller alla artiklarna att gå över beställningspunkten.|  
 |Standard för utjämningsperiod|Ställ in mellan 1D och 5D.<br /><br /> Ange en längre peridod i [!INCLUDE[d365fin](includes/d365fin_md.md)] om du är ny i planering.|När användare är mer förtrogna med de olika orsakerna till åtgärdsmeddelanden, förkorta dämpningsperioden om du vill tillåta fler ändringsförslag.|  
-|Max. avvikelsekvantitet|Ange mellan 5 och 20 procent av artikelns partistorlek.||  
+|Max. avvikelsekvantitet %|Ange mellan 5 och 20 procent av artikelns partistorlek.||  
 
 ## <a name="see-also"></a>Se även  
  [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)   
