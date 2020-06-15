@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182618"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410753"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
@@ -45,6 +45,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Tilldela extra kostnader, till exempel frakt- och fysisk hantering som förekommer vid handel med artiklar så att kostnaderna återspeglas i lagervärderingen. |[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md) |
 |Bokföra anställdas privata utgifter för affärsrelaterade aktiviteter och återbetala anställda genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Känner igen intäkter och kostnader i andra perioder än när transaktionerna bokfördes. |[Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)|
+| Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter. |[Återkommande (prenumeration) intäkter](finance-recurring-invoicing.md)|
 |Lär dig använda ytterligare valutor och uppdatera valutakurser automatiskt. |[Uppdatera valutakurser](finance-how-update-currencies.md)|
 | Importera löntransaktioner från ditt lönesystem till redovisningen. |[Importera lönetransaktioner](finance-how-import-payroll-transactions.md)|
 |Använda funktioner för att beräkna moms (VAT) för försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till skattemyndigheterna.|[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)|

@@ -1,24 +1,22 @@
 ---
 title: Konfigurera dokumentspecifikt e-postinnehåll | Microsoft Docs
 description: Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 25b0d2b85d267f6a85afeed662a26daa0d32c5ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 05/13/2020
+ms.author: edupont
+ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195585"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402512"
 ---
 # <a name="send-documents-by-email"></a>Skicka dokument som e-post
+
 För att meddela innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder, kan du använda funktionen Rapportlayout för att definiera dokumentspecifikt innehåll som infogas i e-postbrödtexter automatiskt. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
 
 Om du vill aktivera e-post i [!INCLUDE[d365fin](includes/d365fin_md.md)] startar du den assisterade inställningsguiden för **Konfigurera e-post** i ditt rollcenter.
@@ -32,6 +30,7 @@ Om fältet **E-posta** på sidan **Skicka dokument till** anges till **Ja (fråg
 Efterföljande procedur beskriver hur du ställer in rapporten **Försäljning - faktura** att användas för dokumentspecifika e-postbrödtexter, när du e-postar bokförda försäljningsfakturor.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval, försäljning** och välj sedan tillhörande länk.
 2. På sidan **Rapportval, försäljning** i fältet **Användning** väljer du **Faktura**.
 3. På en ny rad i fältet **Rappport-ID** väljer du t.ex. standardrapport 1306.
@@ -48,6 +47,7 @@ Nu när du till exempel väljer åtgärden **Skicka** på sidan **Bokförd förs
 Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktura som ett e-postmeddelande med dokumentet bifogat som en PDF-fil och med dokumentspecifik e-postbrödtext.
 
 ## <a name="to-send-documents-by-email"></a>Så här skickar du dokument som e-post
+
 1. Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.
 2. Markera den relevanta bokförda försäljningsfakturan och välj åtgärden **Skicka**. Sidan **Skicka dokument till** öppnas.
 3. I fältet **E-post** väljer du **Ja (fråga efter inställningar)**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
@@ -61,9 +61,16 @@ Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktu
 9. Välj knappen **OK** för att skicka e-postmeddelandet.
 
 > [!NOTE]  
->   Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
+> Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
+
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
+
+Vissa dokument i [!INCLUDE [prodshort](includes/prodshort.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Fältet uppdateras också om du inte skriver ut dokumentet utan istället skickar det via e-post. Fältet uppdateras även om du inte skickar dokumentet, till exempel när organisationen inte har konfigurerat e-post eller när den kontakt som du vill skicka dokumentet till inte har någon angiven e-postadress. Vad [!INCLUDE [prodshort](includes/prodshort.md)] anbelangar skrivs dokumentet ut i samtliga scenarier, detta eftersom en PDF-fil genereras.  
+
+Användaren kanske inte ser den genererade filen, men det är därför som fältet uppdateras.
 
 ## <a name="see-also"></a>Se även
+
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Konfigurera e-post](admin-how-setup-email.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  

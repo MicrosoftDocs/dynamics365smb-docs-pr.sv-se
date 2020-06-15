@@ -1,8 +1,6 @@
 ---
 title: Skapa en försäljningsfaktura för att fakturera ett projekt | Microsoft Docs
 description: Beskriver hur du kan fakturera kunder för projektutgifter allt eftersom projektet fortskrider.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2020
+ms.date: 05/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 277e5e6cb212202f930ed49012184aa67a23d03f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191265"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402492"
 ---
 # <a name="invoice-jobs"></a>Fakturera projekt
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.
@@ -28,19 +26,24 @@ Under projektet kan projektkostnade från resursförbrukning, material och proje
 Du kan fakturera hela projektet från sidan **Projektaktivitetsrader** eller fakturera endast valda fakturerbara rader på sidan **Planeringsrader**. Faktureringen kan göras när projektet har slutförts eller allt eftersom projektet fortlöper enligt ett faktureringsschema.
 
 > [!NOTE]  
->   Om du väljer **Fakturerbart** i fältet **Projektradtyp** på inköpsdokumentet för projektrelaterade inköp, skapas projektplaneringsrader som är klara att faktureras till kunden. Mer information finns i [Hantera projektleveranser](projects-how-manage-project-supplies.md).
+> Om du väljer **Fakturerbart** i fältet **Projektradtyp** på inköpsdokumentet för projektrelaterade inköp, skapas projektplaneringsrader som är klara att faktureras till kunden. Mer information finns i [Hantera projektleveranser](projects-how-manage-project-supplies.md).
 
-## <a name="to-create-and-post-a-job-sales-invoice"></a>Så här skapar och bokför du en försäljningsfaktura för ett projekt
+## <a name="to-create-multiple-job-sales-invoices"></a>Så här skapar du flera försäljningsfakturor för projekt
 Du kan skapa en faktura för ett projekt för en eller flera projektaktiviteter för en kund, antingen när det arbete som ska faktureras har slutförts eller när datumet för fakturering, som är baserat på ett faktureringsschema, har infallit.
 
-Från sidan **Projekt** kan du fakturera en kund genom att välja projekt och sedan välja åtgärden **Skapa jobbförsäljningsfaktura**. Efterföljande procedur visar hur du kan använda ett batch-jobb för att fakturera flera projekt.  
+Efterföljande procedur visar hur du kan använda ett batch-jobb för att fakturera flera projekt.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa försäljningsfaktura för jobb** och välj sedan tillhörande länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ange filter om du vill begränsa de projekt som ska bearbetas av batch-jobbet.
 4. Klicka på **OK** för att skapa fakturorna.  
 
-## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Så här skapar du flera projektförsäljningsfakturor från projektplaneringsrader
+Du kan granska och bokföra skapade fakturor i fönstret **Försäljningsfakturor**.
+
+> [!NOTE]
+> Du kan även fakturera en kund genom att välja jobbet och sedan åtgärden **Skapa försäljningsfaktura för projekt**. 
+
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Så här skapar och publicerar du en försäljningsfaktura för projekt från projektplaneringsrader
 Du kan skapa en faktura från projektplaneringsrader och då ange antal av artikeln, resursen eller redovisningskontot som du vill fakturera.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.
@@ -50,11 +53,9 @@ Du kan skapa en faktura från projektplaneringsrader och då ange antal av artik
 5. Välj åtgärden **Skapa försäljningsfaktura**.
 6. På sidan **Projekt - Skapa förs.faktura** anger du bokföringsdatum och om du vill skapa en ny faktura eller koppla denna faktura till en befintlig.
 7. Välj **OK**.  
-
-    På projektplaneringsradens fält **Antal överfört till faktura** kan du se antalet.
 8. På sidan **Projektplaneringsrader** väljer du åtgärden **Försäljningsfakturor/kreditnotor**.
 
-    Sidan **Försäljningsfaktura** öppnas och visar antalet som du har överfört till fakturan.  
+    Sidan **Försäljningsfaktura** öppnas och visar antalet som du har överfört till fakturan.
 9. Gör ytterligare ändringar och välj sedan åtgärden **Bokför**.
 
 > [!NOTE]  

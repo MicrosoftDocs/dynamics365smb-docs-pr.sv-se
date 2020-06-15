@@ -8,21 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5303974c1f7e9c4b2386980c949b67df7d60f457
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189921"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402531"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Skapa tjänstefakturor eller kreditnotor
-Enkel fakturering av serviceorder är en nyckelfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan när som helst skicka en faktura till kunden, eller skapa fakturor med regelbundna intervall.  
-  
-Om du vill skapa en faktura direkt använder du sidan **Servicekontrakt**. Du kan också göra inställningar i systemet så att en servicetekniker på fältet kan skapa en faktura för service som inte kopplas till ett kontrakt eller en order.  
+Enkel fakturering av serviceorder är en nyckelfunktion i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan också konfigurera [!INCLUDE[prodshort](includes/prodshort.md)] så att en servicetekniker på fältet kan skapa en faktura för en tjänst som inte är kopplad till ett kontrakt eller en order. Du kan också ställa in [!INCLUDE[prodshort](includes/prodshort.md)] så att du regelbundet fakturerar servicekontrakt. Faktureringsperioden för respektive kontrakt anger hur ofta du skickar ut den.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Fakturera ett servicekontrakt från servicekontraktsidan   
+## <a name="to-invoice-several-service-contracts"></a>Så här fakturerar du servicekontrakt
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa servicekontraktsfakturor** och välj sedan relaterad länk.  
 2. Ange de filter som du vill använda.  
 3. I fältet **Bokföringsdatum** anger du det datum som du vill använda som bokföringsdatum på servicefakturorna.  
@@ -30,9 +29,17 @@ Om du vill skapa en faktura direkt använder du sidan **Servicekontrakt**. Du ka
 5. Markera **Skapa fakturor** i fältet **Åtgärd**.  
 6. Skapa servicefakturor genom att klicka på **OK**.  
   
-  > [!NOTE]  
-  >  Det går inte att skapa servicefakturor för servicekontrakt om fältvärdet för **Ändra status** anges till **Öppen**.  
+Du kan också fakturera ett servicekontrakt direkt från sidan **Servicekontrakt** om nästa fakturadatum på kontraktet infaller tidigare än arbetsdagen.
+
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Fakturera ett servicekontrakt från servicekontraktsidan   
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekontrakt** och välj sedan relaterad länk.  
+2. Välj det servicekontrakt du vill fakturera och öppna kontraktskortet.  
+3. Välj åtgärden **Skapa servicekontrakt**. 
+4. Skapa servicefakturor genom att klicka på **Ja**.  
   
+  > [!NOTE]  
+  > Det går inte att skapa servicefakturor för servicekontrakt om fältvärdet för **Ändra status** anges till **Öppen**.  
+
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Så här bokför du förbrukning från en serviceorder  
 *Nedan beskrivs hur du definierar den del av en service som du debiterar kunden för.  
 
@@ -42,9 +49,9 @@ Om du vill skapa en faktura direkt använder du sidan **Servicekontrakt**. Du ka
 4. Hitta transaktionerna och ange de antal som du debiterar kunden för i fältet **Ant. att fakturera**.  
   
    > [!NOTE]  
-   >  Du kan fakturera kunden helt eller delvis för en registrerad service. Om du väljer att fakturera kunden helt måste värdet i fältet **Ant. att fakturera** vara lika med värdet i fältet **Antal**. Observera att du kan bokföra en fullständig faktura tillsammans med en fullständig leverans, och att du kan bokföra en fullständig faktura för en redan bokförd fullständig leverans som inte har fakturerats eller förbrukats tidigare.  
-   >   
-   >  När du bokför en delfaktura kan du ange antalet att fakturera på två olika sätt. Om du ska bokföra service med alternativet **Leverera och fakturera** måste värdet i fältet **Ant. att fakturera** vara lika med värdet i fältet  **Ant. att utleverera**. Om du vill fakturera en redan bokförd leverans får antalet att fakturera inte vara större än värdet i fältet **Utlevererat antal**.  
+   > Du kan fakturera kunden helt eller delvis för en registrerad service. Om du väljer att fakturera kunden helt måste värdet i fältet **Ant. att fakturera** vara lika med värdet i fältet **Antal**. Observera att du kan bokföra en fullständig faktura tillsammans med en fullständig leverans, och att du kan bokföra en fullständig faktura för en redan bokförd fullständig leverans som inte har fakturerats eller förbrukats tidigare.  
+   >  
+   > När du bokför en delfaktura kan du ange antalet att fakturera på två olika sätt. Om du ska bokföra service med alternativet **Leverera och fakturera** måste värdet i fältet **Ant. att fakturera** vara lika med värdet i fältet  **Ant. att utleverera**. Om du vill fakturera en redan bokförd leverans får antalet att fakturera inte vara större än värdet i fältet **Utlevererat antal**.  
   
 5. Välj **Bokför**, och sedan antingen **faktura** eller **leverera och fakturera**. Mer information om dessa alternativ finns i [Bokföra i Servicehantering](service-service-posting.md).  
   
@@ -70,7 +77,7 @@ När du bokför en serviceorder med alternativet **Fakturera** eller **Leverera 
 6. Fyll i fältet **Dokumentdatum**. Det datum du anger här visas på den utskrivna fakturan och används för att beräkna förfallodatum.  
 7. Fyll i serviceraderna för fakturan. Fyll i fälten **Typ**, **Nr** och **Antal** för att registrera de artiklar, resurser och kostnader som har använts för service. 
 
-## <a name="to-invoice-posted-shipment-lines"></a>Så här fakturerar du bokförda utleveransrader  
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Så här skapar du en faktura som kombinerar bokförda leveransrader från en eller flera serviceorder 
 Du kan behöva skapa en servicefaktura för den service som redan har levererats från en eller flera serviceorder, men inte fakturerats eller förbrukats. Du kan fylla i fakturaraderna automatiskt med de valda bokförda utleveransraderna för en specifik kund.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicefakturor** och välj sedan relaterad länk.  
@@ -79,14 +86,6 @@ Du kan behöva skapa en servicefaktura för den service som redan har levererats
 4. Bokför servicefakturan.  
   
  Den bokförda servicefakturan skapas samtidigt som motsvarande transaktioner. De tidigare bokförda utleveransdokumenten uppdateras med de fakturerade antalen och de relevanta antalen på serviceraderna i källorderna.  
-
-## <a name="to-create-a-combined-invoice"></a>Så här skapar du en kombinerad faktura  
-Med den här proceduren kan du fakturera kunden för tjänster som har levererats på flera olika serviceorder. Fakturarader skapas för artiklar, resurstimmar eller kostnader som redan har levererats från olika serviceorder men som inte har fakturerats än.  
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicefakturor** och välj sedan relaterad länk.  
-2. Fyll i fälten på den första raden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Välj åtgärden **Hämta utleveransrader**. Sidan **Hämta serviceutleveransrader** visar alla utlevererade rader som inte har fakturerats för den angivna kunden.  
-4. Välj rader att fakturera och välj **OK** för att lägga till serviceutleveransraderna i fakturan.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Så här skapar du servicekreditnotor  
 En servicekreditnota används vanligtvis när en kund returnerar en artikel, men du kan också använda en servicekreditnota för att kompensera en kund eller för att korrigera en felaktig faktura.  

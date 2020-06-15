@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195057"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402568"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.  
@@ -30,7 +30,7 @@ Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoff
 6. Beroende på om rutan i fältet **Tillåt ej balanserade belopp** är markerad eller inte, använder du antingen manuell eller automatisk distribution av differensen för det årliga differensbeloppet. Detta medför att kontraktsraderna uppdateras på ett sätt så att fältet **Beräknat årligt belopp** är lika med det nya årliga beloppet.  
 
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Fördela skillnaden mellan nya och beräknade årliga belopp
-Om du  ändrar det årliga beloppet för servicekontraktet eller kontraktsofferten kan du bli tvungen att distribuera differensen mellan de nya och beräknade årliga beloppen på kontraktsraderna. Det finns tre sätt att fördela belopp:
+Om du ändrar det årliga beloppet för ett servicekontrakt eller en kontraktsoffert kan du bli tvungen att distribuera differensen mellan de nya och beräknade årliga beloppen på kontraktsraderna. Det finns tre sätt att fördela belopp:
 
 * Jämn fördelning  
 * Fördelning baserad på radbelopp  
@@ -80,45 +80,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
     * Radrabatt % = Radrabatt / Radvärde × 100  
     * TB = Radbelopp – Radkostnad  
 
-### <a name="distribution-based-on-line-amount"></a>Fördelning baserad på radbelopp
-Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferten kan du bli tvungen att distribuera differensen mellan de nya och beräknade årliga beloppen på kontraktsraderna. Distribution beräknad på radbelopp är en automatisk metod som du kan använda om du vill ha en jämn fördelning av differensen mellan de nya och de beräknade årliga beloppen mellan radbeloppen på kontraktsraderna. Distributionen görs i proportion till radbeloppsandelarna av det beräknade årliga beloppet. Följande lista med distributionsprocedursteg för varje kontraktsrad beskriver huvuddragen för den här metoden:  
-
-1. Procentuell radbeloppsandel beräknas på följande sätt: innehållet i fältet **Radbelopp** divideras med värdena i fältet **Beräknat årligt belopp** på alla kontraktsrader.  
-2. Värdet i fältet **Radbelopp** uppdateras genom ett tillägg av differensen mellan nytt och beräknat årligt belopp, som multipliceras med den procentuella radbeloppsandelen.  
-3. Innehållet i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** uppdateras utifrån det nya värdet i fältet **Radrabattbelopp** på följande sätt:  
-
-    * Radrabatt = Radvärde - Radbelopp.  
-    * Radrabatt % = Radrabatt / Radvärde × 100  
-    * TB = Radbelopp – Radkostnad  
-
 Upprepa stegen för varje kontraktsrad.  
-
-#### <a name="example"></a>Exempel  
-Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicekontraktet som innehåller tre kontraktsrader med dylik information.  
-
-|Artikel|Radkostnad|Radvärde|Radrabatt %|Radrabattbelopp|Radbelopp|TB|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Artikel 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Artikel 2|20,00|23,00|Ingen|0,00|55,10|3,00|  
-|Artikel 3|24,00|27,00|3,00|0,81|112,70|2,19|  
-
-Fältvärdet för **Årligt belopp** är lika med innehållet i fältet **Beräknat årligt belopp** som alltid har angetts till summan av radbeloppen. I det här fallet är det lika med följande: 16,49 + 23,00 + 26,19 = 65,68.  
-
-Om du ändrar **Årligt belopp** till 60, beräknas procentuella TG för varje kontraktsrad:  
-
-* Artikel 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
-* Artikel 2 –5.1 / (5 + 5,1 +12,7) = 0,2237  
-* Artikel 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
-
-Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp +  skillnaden mellan nya och beräknade årliga belopp ×  Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** med hjälp av formlerna i den process som beskrivs ovan.  
-
-Slutligen innehåller kontraktsraderna följande information.  
-
-|Artikel|Radkostnad|Radvärde|Radrabatt %|Radrabattbelopp|Radbelopp|TB|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Artikel 1|15,00|17,00|11,41|1,94|15,06|0,06|  
-|Artikel 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Artikel 3|24.00|27.00|11.37|3.07|23.93|–0,07|  -   Radrabatt % = Radrabatt / Radvärde × 100  
 
 #### <a name="example"></a>Exempel  
 Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicekontraktet som innehåller tre kontraktsrader med dylik information.  

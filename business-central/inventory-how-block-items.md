@@ -1,6 +1,6 @@
 ---
 title: Spärra artiklar för försäljning eller inköp
-description: I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften.
+description: Du kan förhindra att en artikel används, t.ex. i försäljnings- eller inköpsdokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c453a10f30d2a45f6d4641bda8b24ee3659b1a32
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 467b43b14f1905018c2a26a06c15abc5a0a17e99
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182306"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410650"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Spärra artiklar för försäljning eller inköp
-Du kan spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.  
+Du kan spärra en artikel så att den inte kan registreras på rader i försäljnings- eller inköpsdokument, och du kan även spärra den från att publiceras i en transaktion. Detta kan till exempel vara användbart när en artikel har en känd defekt. Om någon väljer en spärrad artikel i ett försäljnings- eller inköpsdokument kommer ett meddelande att informera dem om att artikeln är spärrad.
 
-I följande tabell visas vad som händer när artiklar spärras.  
+I följande tabell beskrivs vad som händer när artiklar spärras.  
 
-|Alternativ|Description|  
+|Alternativ|Beskrivning|  
 |--------------------|------------|  
 |**Spärrad för försäljning**|Du kan inte registrera artikeln i ett försäljningsdokument eller en artikeljournal för försäljning.|  
 |**Spärrad för inköp**|Du kan inte registrera artikeln i ett inköpsdokument, en artikeljournal för inköp eller i planeringsprocesser för inköp.|  
@@ -34,24 +34,16 @@ I följande tabell visas vad som händer när artiklar spärras.
 När du använder funktionen **Kopiera från dokument** för att skapa nya dokument som bygger på befintliga dokument får du ett meddelande om något av artiklarna på källdokumentraderna är blockerat. De spärrade dokumentraderna tas inte med i det nya dokumentet och ett meddelande visar en översikt över alla dokumentrader som har spärrats i källdokumentet.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Så här spärrar du en artikel så att den inte kan registreras på försäljningsrader  
-
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 2.  Välj den artikel som du vill spärra och markera sedan kryssrutan **Spärrad för försäljning**.  
 
-Om du försöker registrera artikeln i ett försäljningsdokument eller på en journalrad visas ett felmeddelande om att artikeln är spärrad.
-
 ## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Så här spärrar du en artikel så att den inte kan registreras på inköpsrader  
-
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 2.  Välj den artikel som du vill spärra och markera sedan kryssrutan **Spärrad för inköp**.  
 
-Om du försöker registrera artikeln i ett inköpsdokument eller på en journalrad visas ett felmeddelande om att artikeln är spärrad.
-
 ## <a name="to-block-an-item-from-being-posted"></a>Så här spärrar du en artikel så att den inte kan bokföras
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
 2. Välj den artikel som du vill spärra och markera sedan kryssrutan **Spärrad**.
-
-Om du försöker bokföra någon typ av transaktion för artikeln visas ett felmeddelande om att artikeln är spärrad.
 
 ## <a name="see-also"></a>Se även  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

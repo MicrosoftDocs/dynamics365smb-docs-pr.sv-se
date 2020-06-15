@@ -318,7 +318,7 @@
 #### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uppdatera valutakurser](finance-how-update-currencies.md)
 #### [Fältmappning vid import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Fältmappning för tillägget AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Fältmappning för AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administration
 ## [Översikt](admin-setup-and-administration.md)
@@ -364,7 +364,7 @@
 #### [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 #### [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
 #### [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
-#### [Tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
 #### [DK - Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -544,6 +544,7 @@
 ## [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)
 ## [Skapa en prognos](production-how-to-create-a-forecast.md)
 ## [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)
+## [Arbeta med återkommande intäkter](finance-recurring-invoicing.md)
 
 # Inköp
 ## [Översikt](purchasing-manage-purchasing.md)

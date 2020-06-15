@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15f88c2ab05914db71820d45c6326af36235a9d2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1cf5c08f00565bbaea914405397f340cd281fcef
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193545"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428353"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
 Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
@@ -24,6 +24,9 @@ Du kan ändra [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att installera t
 > [!NOTE]
 > Om du vill installera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i användargruppen D365 Tilläggshant. eller så måste du ha behörighetsuppsättningen D365 Tilläggshant. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.<br /><br />
 Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
+
+> [!IMPORTANT]  
+> Överföring av tillägg per innehavare och installation av AppSource-tillägg stöds inte via sidan **Tilläggshantering** för lokala installationer.
 
 När du först startar först [!INCLUDE[d365fin](includes/d365fin_md.md)], har du dessutom några tillägg installerade. Med tiden kommer fler tillägg att göras tillgängliga till dig, och du kan då välja om du vill använda tillägg eller inte.
 
@@ -69,7 +72,7 @@ Microsoft ger även följande tillägg:
 * [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
 * [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [Tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+* [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)
 * [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
 * [DK - Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - momsfilformat](ui-extensions-tax-file-formats-dk.md)

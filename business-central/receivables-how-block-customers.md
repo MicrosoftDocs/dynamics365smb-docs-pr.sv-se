@@ -1,6 +1,6 @@
 ---
-title: Spärra försäljning till kunders artiklar från försäljning eller inköp
-description: I Business Central kan en artikel markeras som spärrad för försäljning, spärrad för inköp eller spärrad för alla syften.
+title: Så här spärrar du försäljning till kunder
+description: Om det behövs kan du spärra en kund från att ingå i försäljningsdokument och andra försäljningstransaktioner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 832963169f4c81d65b105ca71722435554d8e262
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7cc82ab0aaf28b355117571d0d2cc5869141693f
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193761"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410722"
 ---
 # <a name="block-customers"></a>Spärra kunder
 Du kan spärra en kund, till exempel på grund av ett insolvensförfarande, så att kunden inte kan läggas till försäljningsdokument, eller så att inga transaktioner kan bokföras för kunden.
 
 Förutom att spärra en kund, kan du ange ingående transaktioner för en kund som spärrade i samband med påminnelser. Mer information finns i [Så här kräver du in utestående saldon](receivables-collect-outstanding-balances.md).   
 
-De olika spärrningsalternativen beskrivs i tabellen nedan.  
+Följande tabell anger alternativen för att spärra kunder.  
 
-|Alternativ|Description|  
+|Alternativ|Beskrivning|  
 |--------------------|------------|  
 |**Tomt**|Transaktioner tillåts för den här kunden.|
 |**Leverera**|Det går inte att skapa nya order eller nya leveranser för den här kunden. Befintliga leveranser som inte ännu har fakturerats kan faktureras.|  
-|**Fakturera**|Det går inte att skapa nya order, nya leveranser eller nya fakturor för den här kunden. Befintliga leveranser som inte ännu har fakturerats kan inte faktureras.|  
-|**Allt**|Ingen transaktion tillåts för den här kunden, inklusive betalningar.|  
+|**Fakturera**|Det går inte att skapa nya order, nya leveranser eller nya fakturor för den här kunden. Befintliga leveranser som inte ännu har fakturerats kan inte faktureras. Du kan fortfarande skicka påminnelser och räntefakturor till kunden.|  
+|**Alla**|Ingen transaktion tillåts för den här kunden, inklusive betalningar.|  
 
 ## <a name="to-block-a-customer"></a>Om du vill spärra en kund  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Välj en kund och välj sedan åtgärden **Redigera**.
-3. Fyll i fältet **spärrad** med något av alternativen ovan.
+3. I fältet **Spärrad** anger du vad som ska blockeras i enlighet med beskrivningen i tabellen ovan.
 
 ## <a name="see-also"></a>Se även  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
