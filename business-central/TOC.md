@@ -38,10 +38,11 @@
 ## [Vanliga frågor om Kopiera och klistra in](ui-copy-paste.md)
 ## [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)
 ## [Identifiera obligatoriska fält](ui-mandatory-fields.md)
-## [Byta språk och plats](about-locale-language.md)
+## [Byta språk och region](about-locale-language.md)
 ## [Visa och redigera i Excel](across-work-with-excel.md)
 ## [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md)
 ## [Ändra grundinställningar](ui-change-basic-settings.md)
+## [Byta till ett annat företag eller annan miljö](ui-organization-switch.md)
 ## [Hantera meddelanden](ui-smart-notifications.md)
 ## [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Anpassa Business Central
@@ -128,7 +129,7 @@
 ### [Registrera nya artiklar](inventory-how-register-new-items.md)
 ### [Kopiera befintliga artiklar till Skapa nya artiklar](inventory-how-copy-items.md)
 ### [Om artikeltyper](inventory-about-item-types.md)
-### [Ställa in måttenheter för artikel](inventory-how-setup-units-of-measure.md)
+### [Ställa in måttenheter](inventory-how-setup-units-of-measure.md)
 ### [Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Kategorisera artiklar](inventory-how-categorize-items.md)
 ### [Importera flera artikelbilder](inventory-how-import-item-pictures.md)
@@ -216,7 +217,7 @@
 #### [Kopiera data till nya företag](admin-how-to-copy-data-to-new-companies.md)
 #### [Skapa ingående saldon för journalen](admin-how-to-create-journal-opening-balances.md)
 ### [Samla in kundinställningsdata](admin-gather-customer-setup-values.md)
-### [Förbereda migrering av kunddata](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Förbereda migrering av kunddata med mallar](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrera kunddata](admin-migrate-customer-data.md)
 ### [Så här skapar du anpassade konfigurationspaket för företag](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -325,6 +326,7 @@
 ## [Skapa användare enligt licenser](ui-how-users-permissions.md)
 ## [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)
 ## [Hantera profiler](admin-users-profiles-roles.md)
+## [Hantera användarinställningar och inställningar](admin-manage-user-settings-preferences.md)
 ## [Ställa in skrivare](ui-specify-printer-selection-reports.md)
 ## [Klassificera datakänslighet](admin-classifying-data-sensitivity.md)
 ## [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)
@@ -348,7 +350,6 @@
 ### [Skapa en färglagd indikator på stack-ikoner](admin-how-set-up-colored-indicator-on-cues.md)
 ### Anpassa med tillägg
 #### [Översikt](ui-extensions.md)
-#### [Anpassa med tillägg](ui-extensions.md)
 #### [Revisorportal för Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian löner](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)
@@ -384,7 +385,6 @@
 ### [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)
 ### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finans
 ## [Översikt](finance.md)
@@ -508,6 +508,7 @@
 ## [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)
 ## [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)
 ## [Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)
+## [Hantera momssatsändringar](finance-how-use-vat-rate-change-tool.md)
 ## [Analysera transaktioner i företaget](finance-analyze-cash-flow.md)
 ## [Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)
@@ -626,7 +627,6 @@
 ### [Skapa affärsmöjligheter](marketing-how-create-opportunities.md)
 ### [Spåra utbyten av e-postmeddelanden](marketing-set-up-email-logging.md)
 ### [Behandla försäljningsmöjligheter](marketing-processing-sales-opportunities.md)
-### [Konfigurera e-postloggning](marketing-set-up-email-logging.md)
 ## [Använda profilfrågeformulär för att klassificera affärskontakter](marketing-create-contact-profile-questionnaire.md)
 ## [Med hjälp av Dynamics 365 for Sales från Business Central](marketing-integrate-dynamicscrm.md)
 ### [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -768,6 +768,7 @@
 ## Designdetaljer: Lagerkalkylering
 ### [Översikt](design-details-inventory-costing.md)
 ### [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
+### [Designinformation: ändra värderingsprinciper för artiklar](design-details-changing-costing-methods.md)
 ### [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 ### [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
@@ -1404,7 +1405,7 @@
 #### [Schweizisk moms](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Momssatser för Schweiz](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Bankverksamhet och betalningar
-#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [QR-fakturahantering](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Stäng en LSV-samling](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Exportera betalningar med LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importera ESR-betalningar](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
