@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9094d2f77dff8372ece8bd5a5b434f63042d3adc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 464a1b7b06e4d656e8542655ab307ba0108425c4
+ms.sourcegitcommit: 836b232d0149f9732884c9f44d53928725a8759d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186650"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3506311"
 ---
 # <a name="administration"></a>Administration
+
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
 
 Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt. [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett antal assisterade installationer som hjälper dig att ställa in grundläggande information. Mer information finns i [Ställa in Business Central](setup.md).
@@ -29,13 +30,14 @@ En superanvändare eller administratör kan konfigurera ramverket för datautbyt
 > [!NOTE]
 > Du kan skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 |**Om du vill**|**Se**|  
 |------------|-------------|  
 |Ange vem som kan logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att skapa användare i Microsoft 365 administrationscenter enligt produktlicenserna.|[Skapa användare enligt licenser](ui-how-users-permissions.md)|
 |Tilldela behörigheter till användare, ändra behörighetsuppsättningar och gruppera användare för enkel behörighetshantering.|[Tilldela behörigheter till användare och grupper](ui-how-users-permissions.md)|
 |Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Hantera profiler](admin-users-profiles-roles.md)|
+|Hantera användarinställningar, till exempel företag, roll, språk, region och tidszon.|[Användarinställningar](admin-manage-user-settings-preferences.md)|
 |Ställa in skrivare och ange vilka rapporter som ska skrivas ut på vilka skrivare.|[Ställa in skrivare](ui-specify-printer-selection-reports.md)|
 |Klassificera datakänslighetsnivåer för fält så att du kan svara på begäranden från datasubjekt som rör deras personuppgifter.|[Klassificera datakänslighet](admin-classifying-data-sensitivity.md)|
 |Svara på begäranden från datasubjekt som berör deras personuppgifter.|[Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)|
@@ -48,13 +50,16 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Kryptera data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-server genom att skapa nya eller importera befintliga krypteringsnycklar som du aktiverar på servern.|[Hantera datakryptering](admin-manage-data-encryption.md)|
 |Ansluta Dynamics 365 Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+|Övervaka användning och felsök sessioner.|[Miljötelemetri i Business Central administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Hantera användarsessioner, inklusive att avbryta en session om användaren är blockerad.|[Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
+
 [Affärsfunktion](across-business-functionality.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Komma igång](product-get-started.md)    
+[Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

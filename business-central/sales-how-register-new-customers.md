@@ -1,8 +1,6 @@
 ---
 title: Skapa ett kundkort för att registrera en ny kund | Microsoft Docs
 description: Beskriver hur du skapar ett kundkort för att registrera information om varje ny kund eller klienten som du säljer till.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324276"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503979"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
+
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
 
 Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskoder som du kan välja mellan, när du fyller i kundkort. Mer information finns i [Konfigurera försäljning](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Lägga till nya kunder
+
+För att registrera en ny kund måste du fylla i ett kundkort. Du kan upprätta mallar för olika kundprofiler eller lägga till kunder utan mallar.  
+
 > [!NOTE]  
 > Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.  
 
-## <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
+### <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
 2. På sidan **Kunder** väljer du åtgärden **Ny**.
 
@@ -44,12 +48,10 @@ På snabbfliken **Försäljningspriser** ser du specialpriser eller rabatter som
 
 Kunden är nu registrerad, och kundkortet är klart att användas i försäljningsdokument.
 
-### <a name="deleting-customer-cards"></a>Ta bort kundkort
-Om du har bokfört en transaktion för en kund kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort kundkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.
+Om du vill använda detta kundkort som en mall när du skapar nya kundkort, så fortsätt med att spara den som en mall. Mer information finns i följande avsnitt:  
 
-Om du vill använda detta kundkort som en mall när du skapar nya kundkort, så fortsätt med att spara den som en mall. Mer information finns i följande avsnitt:
+### <a name="to-save-the-customer-card-as-a-template"></a>Om du vill spara kundkortet som en mall
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Om du vill spara kundkortet som en mall
 1. På sidan **Kundkort** väljer du åtgärden **Spara som mall**. Sidan **Kundmall** öppnas och visar kundkortet som mall.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Sidan **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för kunden.
@@ -58,10 +60,15 @@ Om du vill använda detta kundkort som en mall när du skapar nya kundkort, så 
 
 Kundmallen läggs till listan över kundmallar, så att du kan använda det för att skapa nya kundkort.
 
+## <a name="deleting-customer-cards"></a>Ta bort kundkort
+
+Om du har bokfört en transaktion för en kund kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort kundkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.  
+
 ## <a name="see-also"></a>Se även
+
 [Definiera betalningssätt](finance-payment-methods.md)  
 [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)  
 [Skapa nummerserier](ui-create-number-series.md)  
-[Försäljning](sales-manage-sales.md)    
-[Konfigurera försäljning](sales-setup-sales.md)    
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Försäljning](sales-manage-sales.md)  
+[Konfigurera försäljning](sales-setup-sales.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

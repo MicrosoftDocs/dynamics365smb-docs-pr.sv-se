@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187442"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528418"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Avbryta prenumerationen eller ta bort [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett 
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt Office 365-miljö
 
-Om ditt företagprenumererar på [!INCLUDE [prodshort](includes/prodshort.md)] men inte längre vill ha åtkomst, måste du be administratören eller din Dynamics 365 återförsäljningspartner att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt Office 365 användarkonto. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och företaget fortsätter prenumerationen, kommer dina medarbetare fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
+Om ditt företagprenumererar på [!INCLUDE[prodshort](includes/prodshort.md)] men inte längre vill ha åtkomst, måste du be administratören eller din Dynamics 365 återförsäljningspartner att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt Office 365 användarkonto. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och företaget fortsätter prenumerationen, kommer dina medarbetare fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
 
 Om ditt företag vill avsluta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Dynamics 365 återförsäljningspartner ta bort den betalda prenumerationen från företagets konto. Mer information finns i [Administration av Business Central online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innehållet för utvecklare och IT-proffs.  
 

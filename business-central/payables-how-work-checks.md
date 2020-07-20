@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190233"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503804"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
+
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
 
 I följande procedur beskrivs hur du betalar en leverantör med en datorcheck som kontrolleras genom att koppla betalningen till relevant faktura, skriver ut checken och sedan bokför betalningen som betald. Detta ger positiva leverantörsreskontratransaktioner, som gäller för negativa banktransaktioner och fysiska kontroller för bearbetning i banken.
@@ -30,7 +31,8 @@ Du kan betala med två typer av checkar. För båda typerna måste fälten **mot
 > [!NOTE]  
 > Om du vill vara säker på att banken bara godkänner validerade checkar och belopp kan du skicka en fil som innehåller information om leverantör, check ch betalning. Mer information finns i [Exportera en Positive Pay-fil](finance-how-positive-pay.md).
 
-Skrivaren måste vara korrekt inställd med checkformulären, och du måste definiera vilken checklayout som ska användas. Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Skrivaren måste vara korrekt inställd med checkformulären, och du måste definiera vilken checklayout som ska användas. Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md). Du kan också skicka checken som en PDF-fil, t.ex.  
 
 Du kan skriva ut upp till 10 fakturor på en sida för en checktalong. Om en check är kopplad till fler än 10 fakturor, när du skriver ut en checktalong annullerar vi checken på den första sidan och skriver ut order ANNULLERAD på checken. Sedan skriver vi ut en påminnelse på fakturorna och det totala checkbeloppet på andra sidan.
 
@@ -43,7 +45,7 @@ Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetal
 4. I fältet **Bankbetalningstyp** väljer du **Datorcheck.**
 5. Välj åtgärden **Skriv ut check**.
 6. På sidan **Kontrollera** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Välj knappen **skicka till**, välj alternativet **PDF-dokument**, och välj sedan **OK**-knappen.
+7. Om skrivaren är konfigurerad för utskrift av checkar klickar du på knappen **Skriv ut**. Välj annars knappen **skicka till**, välj alternativet **PDF-dokument**, och välj sedan **OK**-knappen och skriv sedan ut PDF-dokumentet.
 
     Numera du kan föra fysiska checkar till banken för bearbetning. Fortsätt att bokföra betalningen som tillämpas för leverantören och därmed betald i systemet.
 8. Välj åtgärden **Bokföra**.

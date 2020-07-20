@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339952"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528619"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
 
-En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt. Men stöds inte för närvarande i [!INCLUDE [prodshort](includes/prodshort.md)].  
+En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt. Men stöds inte för närvarande i [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 

@@ -1,7 +1,7 @@
 ---
 title: Designdetaljer - Värderingsprinciper | Microsoft Docs
-description: Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
-author: SorenGP
+description: Det här ämnet beskriver hur värderingsprincipen påverkar hur faktiska eller budgeterade värden aktiveras och används i kostnadsberäkningen.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 66ae7f2bb4c8a8cc6705be9c4b0fdd183eecd3e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185594"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496681"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
 Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.

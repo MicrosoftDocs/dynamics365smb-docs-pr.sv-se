@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183554"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528844"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
@@ -103,7 +103,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 5. Batch-jobbet **Justera alt. rapporteringsvaluta** öppnas.
 
     Detta batch-jobb omvandlar BVA-belopp för befintliga transaktioner till alternativ rapporteringsvaluta. I batch-jobbet används en standardkurs som har kopierats från den valutakurs som är giltig på arbetsdatumet på sidan **Valutakurser**. Restbelopp som uppstår vid omräkning av BVA till alternativ rapporteringsvaluta bokförs på de konton för restvinster och restförluster som har angetts på sidan **Valutor**. Bokföringsdatumet och verifikationsnumret för dessa verifikationer är samma som för den ursprungliga redovisningstransaktionen. När alla dessa resttransaktioner är bokförda bokförs en avrundningstransaktion vid avslutsdatumet för varje avslutat år på kontot för balanserad vinst eller förlust. Detta görs för att den utgående balansen på intäktskontona för varje avslutat år är 0 för både BVA och den alternativa rapporteringsvalutan.
-6. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Klicka på **OK** för att köra batchjobbet.  
 
 När du har kört det här batch-jobbet visas beloppen för följande befintliga transaktioner både i BVA och i den alternativa rapporteringsvalutan:  

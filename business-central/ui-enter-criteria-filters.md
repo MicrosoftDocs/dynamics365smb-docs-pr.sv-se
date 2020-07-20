@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194457"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529119"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista eller i en rapport eller XMLport. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
@@ -68,6 +68,9 @@ I tabellen nedan finns några exempel som förklarar hur du kan använda söknin
 
 > [!TIP]
 > Du kan trycka på **F3** för att aktivera och avaktivera sökrutan. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Sökningen matchar inte värden i bilder, BLOB-fält, FlowFilter, FlowFields och andra fält som inte ingår i en tabell. 
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrering
 Filtrering ger ett mer avancerat och flexibelt sätt att kontrollera vilka poster som ska visas i en lista eller inkludera en rapport eller XMLport. Det finns två stora skillnader mellan sökning och filtrering, enligt beskrivningen i följande tabell.

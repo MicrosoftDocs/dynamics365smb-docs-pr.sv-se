@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262172"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528894"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Du kan använda dimensioner för att göra det enklare att analysera dokument såsom försäljningsorder. Dimensioner är attribut och värden som kategoriserar transaktioner så att du kan spåra och analysera dem. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -113,7 +113,7 @@ Globala och genvägsdimensioner kan användas som filter var som helst i [!INCLU
 > När du lägger till eller ändrar en global eller genvägsdimension loggas du automatiskt ut och in igen så att det nya värdet förbereds för användning i hela programmet.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.
-2. Fyll i fälten på snabbfliken **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll i fälten på snabbfliken **Dimensioner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Ändra globala dimensioner
 När du ändrar en global eller genvägsdimension uppdateras alla aktuella transaktioner som har bokförts med dimensionen. Eftersom den här metoden kan vara tids krävande och påverka prestanda kan två olika lägen anpassas till databasens storlek.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 89a99080723ee57270583ee2f277250d767b8dde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1b914c3c1c5e640894f1ee48639c547421c27be4
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181946"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484040"
 ---
 # <a name="use-item-cross-references"></a>Använd artikeltvärreferenser
 Om du har skapat en tvärreferens mellan den artikelbeskrivning som du använder för en artikel och den beskrivning som används för leverantören som levererar den artikeln och leverantörens artikelbeskrivning infogas automatiskt på inköpsdokument för en leverantör när du fyller i fältet **Tvärreferensnr** . Samma sak gäller för kundens artikelnummer i försäljningsdokument.
@@ -25,12 +25,17 @@ Om du har skapat en tvärreferens mellan den artikelbeskrivning som du använder
 I följande procedurer beskrivs hur du använder artikelns tvärreferens på inköpssidan. Momenten är liknande för försäljningssidan.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Så här skapar du en artikeltvärreferens för en leverantörs artikelbeskrivning
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill skapa en korsreferens till för den artikelbeskrivning som leverantören använder för artikeln.
 3. Välj åtgärd **tvärreferenser**.
+
+     Om du inte hittar åtgärden **artikeltvärreferenser** väljer du om du vill visa fler alternativ och sedan söka efter den under **navigera**, **artikel**.
+  
 4. På en ny rad på sidan **Artikel tvärreferenstrans**, fyll i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Ange leverantörens artikelbeskrivning på en inköpsorder
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
 2. Skapa en inköpsorder för leverantören som du ställer in en artikeltvärreferens för ovan.
 3. Skapa en inköpsorderrad för artikeln som du ställer in en artikeltvärreferens för ovan.

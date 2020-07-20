@@ -8,21 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 692eb7c5856e7c80f8ab047882539276e1829e45
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324324"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534777"
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
+
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
 
 Det finns två situationer där du måste använda en försäljningsorder i stället för en faktura:  
 
 * Om du behöver skicka en del av en orderkvantitet, till exempel eftersom den fullständiga kvantiteten inte är tillgänglig.  
+* Om du levererar produkter efter att du har bokfört motsvarande fakturor.
 * Om du säljer artiklar som leverantören levererar direkt till kunden, kallat direktleverans. För mer information finns i [Utföra direktleveranser](sales-how-drop-shipment.md).  
 
 I alla andra aspekter fungerar försäljningsorder och försäljningsfakturor på samma sätt. Mer information finns i [Sälja produkter](sales-how-sell-products.md).

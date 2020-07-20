@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402459"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528191"
 ---
 # <a name="publish-a-web-service"></a>Publicera en webbtjänst
 
@@ -39,7 +39,7 @@ Följande Moment beskriver hur du skapar och publicerar en webbtjänst.
 När du publicerar webbtjänsten kan du, i fälten **OData-URL** och **SOAP-URL**, se URL som genereras för webbtjänsten. Du kan testa webbtjänsten omedelbart, genom att välja länkarna i de fälten **OData-URL** och **SOAP-URL**. Om du vill kan du kopiera värdet i fältet och spara det för senare användning.  
 
 > [!NOTE]
-> Om de objekt som du visar som webbtjänster inte får vara åtkomliga från [!INCLUDE [prodshort](includes/prodshort.md)] online, måste du markera de metoder som visas i koden som `[Scope('OnPrem')]`. Mer information finns i [attributet Omfattning](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Om de objekt som du visar som webbtjänster inte får vara åtkomliga från [!INCLUDE[prodshort](includes/prodshort.md)] online, måste du markera de metoder som visas i koden som `[Scope('OnPrem')]`. Mer information finns i [attributet Omfattning](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 När du publicerar en webbtjänst, är den tillgänglig för externa parter. Du kan kontrollera tillgängligheten för den webbtjänsten, genom att använda en webbläsare, eller så kan du välja länken i fälten **OData-URL** och **SOAP-URL** på sidan **Webbtjänster**. Följande tillvägagångssätt visar hur du kan kontrollera tillgängligheten av webbtjänsten för senare användning.  
 

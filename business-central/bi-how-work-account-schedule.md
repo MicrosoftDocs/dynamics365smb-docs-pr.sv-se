@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186026"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528944"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram i Rollcentret, till exempel diagram för kassaflöde och i rapporter såsom resultaträknings- och balansräkningsrapporter.
@@ -71,7 +71,7 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 > En utskriven/granskad/sparad version av en kontouppställning kan visa maximalt fem kolumner. Om kontouppställningen endast är avsedd för analys på sidan **Kontouppställning översikt** kan du skapa så många kolumner du vill.
 
 1. På sidan **kontouppställningar**, välj relevant kontouppställning och välj sedan åtgärden **Redigera inställning av kolumnlayout**.
-2. På sidan **kolumnlayouter** skapar du en rad för varje kolumn av ekonomiska data som visas i den finansiella rapporten. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På sidan **kolumnlayouter** skapar du en rad för varje kolumn av ekonomiska data som visas i den finansiella rapporten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Välj knappen **OK**.
 4. Öppna sidan **Kontouppställning översikt** med jämna mellanrum för att kontrollera att den nya kolumnlayouten fungerar korrekt.
 

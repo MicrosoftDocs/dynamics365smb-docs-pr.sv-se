@@ -8,24 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183890"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528216"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
-Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region.
+Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region. 
 
 Du kan använda följande rapporter:
 
 * **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
-* Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder i alla länder som använder moms.
+* Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.
 
 Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Momstransaktioner** och välj sedan relaterad länk för att visa momstransaktioner.
+
+> [!NOTE]
+> Varje [!INCLUDE[d365fin](includes/d365fin_md.md)] miljö är avsedd att hantera lagstadgad rapportering i ett enda land. Den nederländska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] hanterar momsrapportering i Nederländerna men inte i andra länder. På samma sätt hanterar USA-versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] 1099 rapportering i USA och saknar stöd för att åberopa momsrapportering i andra länder, såvida det inte har gjorts av ett tillägg som levererats av vårt partner ekosystem eller en kundspecifik kodändring.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten med EU-försäljningslista
 I Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder i inom Europeiska unionen (EU) lämna in en elektronisk version av rapporten i XML-format via webbplatserna Her Majesty's Revenue och Customs. EG-försäljningslisterapporten fungerar bara för länder inom EU.
@@ -59,7 +62,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
 2. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
+    > Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
 ## <a name="to-set-up-vat-reports-in-d365fin"></a>Så här ställer du in momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för momsrapport** och välj sedan relaterad länk.  
@@ -76,7 +79,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
 4. När du validerar och förbereder rapporten för att skicka den, välj åtgärden **Frisläpp**.  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar att rapporten har ställts in korrekt. Om valideringen misslyckas visas felen i **Fel och varningar** så att du kan göra lämpliga ändringar. Vanligtvis om en inställning som saknas i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klicka på meddelandet för att öppna sidan som innehåller informationen som du vill korrigera.  
 5. Om du vill skicka rapporten, väljer du åtgärden **skicka**.  
 
 När du skickar rapporten, övervakar [!INCLUDE[d365fin](includes/d365fin_md.md)] tjänsten och håller reda på dina meddelanden. Fältet **Status** indikerar var rapporten finns i processen. Till exempel när myndigheterna bearbetar rapporten, ändras rapportens status till **lyckades**. Om fel hittas i rapporten som du har skickat in till skattemyndigheten visar status för rapporten **misslyckad**. Du kan visa fel under **fel och varningar**, rätta till dem och sedan skicka rapporten igen. Om du vill visa en lista över alla EG-försäljningslisterapporter, går du till sidan **EG försäljningsrapporter**.  

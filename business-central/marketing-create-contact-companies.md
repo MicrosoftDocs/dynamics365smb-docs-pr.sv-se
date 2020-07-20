@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181610"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528443"
 ---
 # <a name="create-contacts"></a>Skapa kontakter
 Du kan regelbundet träffa personer från andra företag som kan utvecklas till affärsrelationer, till exempel en kundrelation. När en ny kontakt skapas måste så mycket information som möjligt registreras på ett kontaktkort så att kommunikationen kan fortsätta.
@@ -37,7 +37,7 @@ Funktionen är densamma för båda typerna, med undantag för att alternativen f
 3. I fältet **Nr.** anger du ett nummer för kontakten.
 
     Om du har definierat en nummerserie för kontakter på sidan **Affärsstödsinställning** kan du i stället trycka på Retur för att infoga nästa tillgängliga kontaktnummer automatiskt.  
-5. Fyll i återstående fält om det behövs. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fyll i återstående fält om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Skapa en kontakt av en kund, en leverantör eller ett bankkonto så här
 Om du har kunder, leverantörer och bankkonton som du vill skapa kontaktkort för, använd batch-jobben **skapa kontakter från** för att skapa kontakter baserat på befintliga uppgifter. När du skapar en kontakt på detta sätt, synkroniseras kontaktinformationen efteråt med den relaterade kunden, leverantören eller bankkontotinformationen. Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

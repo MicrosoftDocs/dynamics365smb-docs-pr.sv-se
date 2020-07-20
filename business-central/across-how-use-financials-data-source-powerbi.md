@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f140303f037ea4a914cba1ded44fd453bcdfabb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b42437f0759ecb6d977797b31222bfa2b88cdb13
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187898"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528468"
 ---
-# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Använda [!INCLUDE [prodlong](includes/prodlong.md)] som Power BI-datakälla för att skapa rapporter
+# <a name="using-prodlong-as-power-bi-data-source-for-building-reports"></a>Använda [!INCLUDE[prodlong](includes/prodlong.md)] som Power BI-datakälla för att skapa rapporter
 
 Gör din [!INCLUDE[prodlong](includes/prodlong.md)]-data tillgänglig som datakälla i Power BI och bygga kraftfulla rapporter av din verksamhets status.  
 
@@ -27,24 +27,24 @@ Du måste ha ett giltigt konto med [!INCLUDE[prodshort](includes/prodshort.md)] 
 
 1. I Power BI Desktop i den vänstra navigeringsrutan väljer du **hämta data**.
 2. I fönstret **Hämta data** väljer du **onlinetjänster**, väljer **Microsoft Dynamics 365 Business Central** och sedan knappen **Anslut**.
-3. Power BI isar en guide som vägleder dig genom anslutningsprocessen, inklusive hur du loggar in på [!INCLUDE [prodshort](includes/prodshort.md)]. Välj **Logga in** och välj sedan det aktuella kontot. Använd samma konto som du loggar in i [!INCLUDE [prodshort](includes/prodshort.md)] med.
-4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljöer, -företag och -datakällor. Dessa datakällor motsvarar samtliga de webbtjänster som du har publicerat från [!INCLUDE [prodshort](includes/prodshort.md)].
+3. Power BI isar en guide som vägleder dig genom anslutningsprocessen, inklusive hur du loggar in på [!INCLUDE[prodshort](includes/prodshort.md)]. Välj **Logga in** och välj sedan det aktuella kontot. Använd samma konto som du loggar in i [!INCLUDE[prodshort](includes/prodshort.md)] med.
+4. Välj knappen **Anslut** för att fortsätta. Power BI-guiden visar en lista över Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljöer, -företag och -datakällor. Dessa datakällor motsvarar samtliga de webbtjänster som du har publicerat från [!INCLUDE[prodshort](includes/prodshort.md)].
 
-    Du kan också skapa en ny URL för webbtjänst i [!INCLUDE [prodshort](includes/prodshort.md)] istället. Välj någon av följande metoder:
+    Du kan också skapa en ny URL för webbtjänst i [!INCLUDE[prodshort](includes/prodshort.md)] istället. Välj någon av följande metoder:
 
       - Använd åtgärden **Skapa datauppsättning** på sidan **Webbtjänster**
       - Använd den assisterade konfigurationsguiden **Ställa in rapportering**
       - Välj åtgärden **Redigera i Excel** i alla listor
 
 5. Ange de data som du vill lägga till i din datamodell och välj knappen **Läs in**.
-6. Upprepa stegen för att lägga till ytterligare [!INCLUDE [prodshort](includes/prodshort.md)] eller andra data till Power BI-datamodellen.
+6. Upprepa stegen för att lägga till ytterligare [!INCLUDE[prodshort](includes/prodshort.md)] eller andra data till Power BI-datamodellen.
 
 > [!NOTE]  
-> När du har anslutit till [!INCLUDE [prodshort](includes/prodshort.md)] kommer du inte att uppmanas att logga in på nytt.
+> När du har anslutit till [!INCLUDE[prodshort](includes/prodshort.md)] kommer du inte att uppmanas att logga in på nytt.
 
-När datan har lästs in kan du se den i den högra navigeringen på sidan. Du har nu lyckats ansluta till dina [!INCLUDE [prodshort](includes/prodshort.md)]-data, och du kan nu börja skapa din Power BI-rapport.  
+När datan har lästs in kan du se den i den högra navigeringen på sidan. Du har nu lyckats ansluta till dina [!INCLUDE[prodshort](includes/prodshort.md)]-data, och du kan nu börja skapa din Power BI-rapport.  
 
-Innan du skapar rapporten bör du importera [!INCLUDE [prodshort](includes/prodshort.md)]-temafilen.  Temafilen skapar en färgpalett så att du kan skapa rapporter med samma färger som [!INCLUDE [prodshort](includes/prodshort.md)]-appar utan att behöva definiera anpassade färger för varje bild.
+Innan du skapar rapporten bör du importera [!INCLUDE[prodshort](includes/prodshort.md)]-temafilen.  Temafilen skapar en färgpalett så att du kan skapa rapporter med samma färger som [!INCLUDE[prodshort](includes/prodshort.md)]-appar utan att behöva definiera anpassade färger för varje bild.
 
 Mer information finns i [Power BI dokumentation](/power-bi/consumer/).
 

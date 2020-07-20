@@ -1,7 +1,7 @@
 ---
 title: Förstå montering mot kundorder och montering mot lager | Microsoft Docs
 description: Monteringsartiklar kan anges genom att sammanföra dem när de beställs eller genom att montering att finnas i lagret tills de behov från en försäljningsorder.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186818"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496806"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
@@ -70,7 +70,7 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Ett exempel på varför du vill ändra kvantiteten så att montera, är att du ska delvis bokföra utleveransen av lagersaldot, innan monteringsutflöde kan levereras.  
 
- Följande förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i en kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
+ Följande tabell förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i en kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
 
 ||Försäljningsorderrad|Monteringsorderhuvud|  
 |-|----------------------|---------------------------|  

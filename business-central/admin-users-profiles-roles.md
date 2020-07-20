@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186506"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528519"
 ---
 # <a name="manage-profiles"></a>Hantera profiler
+
 Alla användare av [!INCLUDE[d365fin](includes/d365fin_md.md)] tilldelas en profil som motsvarar affärsrollen, den avdelning de arbetar i eller någon annan kategorisering. Med hjälp av profiler kan administratörer definiera och hantera centralt olika typer av användare som kan se och arbeta i användargränssnittet så att de kan utföra affärsuppgifter på ett effektivt sätt.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ Du kan ta bort anpassningar som en eller flera användare har gjort på vissa si
 
 2. Markera raden för den sidanpassning som du vill radera och välj sedan åtgärden **Radera**.
 
-Användaren kommer att se ändringarna nästa gång de loggar in.    
+Användaren kommer att se ändringarna nästa gång de loggar in.  
 
 Du kan också ta bort individuella sidanpassningar för en profil. Mer information finns i [Så här tar du bort alla anpassningar för en viss sida för en profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Hantera användarsessioner
+
+Som administratör av [!INCLUDE[prodshort](includes/prodshort.md)] online kan du hantera användarsessioner i administrationscentret. Mer information finns i [Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsinnehållet.  
+
+För [!INCLUDE[prodshort](includes/prodshort.md)] lokal kan du t.ex. hantera sessioner med SQL Server Management Studio. mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>Se även  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  

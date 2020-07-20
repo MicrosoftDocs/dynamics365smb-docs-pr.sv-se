@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36405d80a021e6d3675a20c0283421c49aabd23b
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191097"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499572"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Använda tidrapporter för projekt
+
 Du använder batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Du måste ha behörighet för att kunna skapa tidrapporter.
 
 Du kan kopiera och använda dina projektplaneringsrader i en tidrapport. På så sätt får du bara ange informationen på ett ställe och radinformationen är alltid korrekt.
@@ -27,16 +28,16 @@ När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i d
 Innan du kan använda tidrapporter måste du ställa in allmän information och ange en administratör och en eller flera godkännare av tidrapporter. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Så här skapar du en tidrapport
+
 Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tidsrapporter** och välj sedan relaterad länk.
 2. På sidan **Tidrapporter** väljer du åtgärden **Skapa tidrapporter**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Fälten **Andvänd tidrapport** och **Användar-ID för tidrapportens ägare** måste fyllas i på kortet för resursen på tidrapporten.
-
-1. Välj knappen **OK**.  
+    > [!NOTE]  
+    > Fälten **Andvänd tidrapport** och **Användar-ID för tidrapportens ägare** måste fyllas i på kortet för resursen på tidrapporten.
+4. Välj knappen **OK**.  
 
 På sidan **Tidrapportlista** kan du visa tidrapporter som du har skapat.
 

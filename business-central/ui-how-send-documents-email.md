@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402512"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527991"
 ---
 # <a name="send-documents-by-email"></a>Skicka dokument som e-post
 
@@ -65,7 +65,7 @@ Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktu
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
 
-Vissa dokument i [!INCLUDE [prodshort](includes/prodshort.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Fältet uppdateras också om du inte skriver ut dokumentet utan istället skickar det via e-post. Fältet uppdateras även om du inte skickar dokumentet, till exempel när organisationen inte har konfigurerat e-post eller när den kontakt som du vill skicka dokumentet till inte har någon angiven e-postadress. Vad [!INCLUDE [prodshort](includes/prodshort.md)] anbelangar skrivs dokumentet ut i samtliga scenarier, detta eftersom en PDF-fil genereras.  
+Vissa dokument i [!INCLUDE[prodshort](includes/prodshort.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Fältet uppdateras också om du inte skriver ut dokumentet utan istället skickar det via e-post. Fältet uppdateras även om du inte skickar dokumentet, till exempel när organisationen inte har konfigurerat e-post eller när den kontakt som du vill skicka dokumentet till inte har någon angiven e-postadress. Vad [!INCLUDE[prodshort](includes/prodshort.md)] anbelangar skrivs dokumentet ut i samtliga scenarier, detta eftersom en PDF-fil genereras.  
 
 Användaren kanske inte ser den genererade filen, men det är därför som fältet uppdateras.
 

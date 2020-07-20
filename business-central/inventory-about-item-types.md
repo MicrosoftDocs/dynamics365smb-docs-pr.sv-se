@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ab3da8450586928a02d17ccce14c704ed6d7c8fe
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182402"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454302"
 ---
 # <a name="about-item-types"></a>Om artikeltyper
 I fältet **Typ** på sidan **artikelkort** kan du ange vilken artikel som används för din verksamhet och hur den hanteras i systemet. Det finns tre alternativ:
@@ -37,14 +37,20 @@ De tre artikeltyperna stödjer följande funktioner.
 |Artikeltyp|FÖRS|Inköp|Projektförbrukning |Serviceförbrukning|Monteringsförbrukning|Produktion Förbrukning|Monteringsutflöde|Produktionsutflöde|Platsöverföring|Fysisk räkning|Omvärdering av lager|Lagerkostnad|Artikelspårning|Reservation|Lagerstyrning|Planering|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Lagersaldo|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
-|Inte i lager|Ja|Ja|Ja|Ja|Ja|Ja|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
-|Service|Ja|Ja|Ja|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
+|Inte i lager|Ja|Ja|Ja|Ja|Ja|Ja|Nr|Nr|Nr|Nr|Nr|Nr|Nej|Nej|Nej|Nej|
+|Service|Ja|Ja|Ja|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|
 
-> [!NOTE]
-> Artiklar som du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem kan ställas in som katalogartiklar. Katalogartiklar ska inte förväxlas med vanliga artiklar av typen Inte i lager. Mer information finns i [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).
+## <a name="costing-methods-for-types-of-items"></a>Värderingsprinciper för olika typer av artiklar
+När du publicerar lagertransaktioner registreras kvantitets- och värdeförändringarna i varulagret i artikeltransaktioner och värdetransaktioner. 
 
-> [!NOTE]
-> Kundernas artiklar som du utför service på, till exempel en skrivare kallas för serviceartiklar. Serviceartiklar har inget att göra med vanliga eller katalogartiklar. Men servicekomponenter kan dock vara vanliga artiklar. Mer information finns i [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md).
+För lager artiklar anges kostnaden i fältet **Kost.belopp (aktuellt)** på sidan **Värdetransaktioner** och när den stäms av mot redovisningen kommer kostnaden att visas i fältet **Kostnad bokförd i redov.**. Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
+
+För artiklar som inte finns i lager och serviceartiklar registreras kostnaden i fältet **Kostnadsbelopp (ej-lagerförd)** på sidan **Värdetransaktioner**. För icke-lager och serviceartiklar anges kostnaden på försäljnings-, monterings- och produktionsdokument och journaler. Standardkostnaden kan anges i **Styckkostnad** på sidorna **Artikelkortet** och **Lagerställeenhet**. Kostnader för dessa typer av artiklar stäms inte av mot redovisningen. 
+
+## <a name="catalog-and-service-items"></a>Katalog- och serviceartiklar
+Artiklar som du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem kan ställas in som katalogartiklar. Katalogartiklar ska inte förväxlas med vanliga artiklar av typen Inte i lager. Mer information finns i [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).
+
+Kundernas artiklar som du utför service på, till exempel en skrivare kallas för serviceartiklar. Serviceartiklar har inget att göra med vanliga eller katalogartiklar. Men servicekomponenter kan dock vara vanliga artiklar. Mer information finns i [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md).
 
 ## <a name="see-also"></a>Se även
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

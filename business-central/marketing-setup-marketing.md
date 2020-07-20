@@ -1,8 +1,6 @@
 ---
 title: Ställ in Marknadsföring och Kontakthanteringsinformation | Microsoft Docs
 description: Du kan ställa in marknadsföring och kontakthantering i Business Central för att optimera relationer med potentiella kunder eller kunder och förbättra kampanjer och erbjudanden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31d0b10e3876b82d07c90daad381f2cf73e45ee4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8fb9975508cccaeb0f5a0dec4d6e43db4df9fc14
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181226"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529144"
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
+
 Innan du sätter igång med att arbeta med kontakter och marknadsföringsräntor, är det några beslut och steg som du måste vidta för att ange hur marknadsföringsområdet hanterar vissa aspekter av kontakterna. Du kan till exempel bestämma om du ska synkronisera kontaktkort med kund-, leverantörs- och bankkontokort, hur nummerserier definieras eller vilken standardhälsningsfras som ska användas när ni skriver till kontakterna.
 
 Att hantera kontakter och ha en strategi för att identifiera, attrahera och behålla kunder optimerar din verksamhet och ökar kundnöjdheten. Med ett bra kontakthanteringssystem blir det också enklare att skapa och upprätthålla relationer med kunderna. Kommunikation är nyckeln till dessa relationer. Att kunna skräddarsy kommunikationen med potentiella och befintliga kunder, leverantörer och affärspartners utifrån deras behov är nödvändigt för att ett företag ska lyckas. Ett första steg är att lägga upp en strategi och definiera hur företaget ska använda kontaktinformationen. Den här information används av många olika grupper i företaget, så ett ändamålsenligt system gör det enklare för alla att bli mer effektiva.
@@ -48,7 +47,7 @@ Mer information finns i [automatiskt registrera interaktioner med kontakter](mar
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synkronisera kontakter med kunder och fler
 För att synkronisera kontaktkort med kund-, leverantörs- och bankkontokort måste du välja affärsrelationskod för kunderna, leverantörerna och bankkontona. Du kan exempelvis bara koppla kontakter till befintliga kunder om du har valt en affärsrelationskod för kunder på sidan **Marknadsföringsinställningar**.
 
-Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
+Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tilldela en nummerserie för kontakter och affärsmöjligheter
 Du kan ange nummerserier för kontakter, kampanjemöjligheterer, segment och affärsmöjligheter. Om du har angett nummerserie för kontakter, kan du när du skapar en kontakt trycka på  RETUR i fältet Nr på kontaktkortet. på kontaktkortet så skriver programmet in nästa lediga kontaktnummer automatiskt.

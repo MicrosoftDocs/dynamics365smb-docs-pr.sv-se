@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: solsen
-ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188570"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535440"
 ---
-# <a name="creating-a-sandbox-environment-in-prodshort"></a>Skapa en miljö för begränsat läge i [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Skapa en miljö för begränsat läge i [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Med [!INCLUDE [prodshort](includes/prodshort.md)] kan du enkelt skapa en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller företagsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
+Med [!INCLUDE[prodshort](includes/prodshort.md)] kan du enkelt skapa en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller företagsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
 
-Administratören kan skapa miljö för begränsat läge i [administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men om du snabbt vill testa något kan du skapa en miljö för begränsat läge från insidan [!INCLUDE [prodshort](includes/prodshort.md)].  
+Administratören kan skapa miljö för begränsat läge i [administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men om du snabbt vill testa något kan du skapa en miljö för begränsat läge från insidan [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > Tekniskt sett skiljer sig miljöer i begränsat läge mycket från produktionsmiljöer, även om administratören skapar ett begränsat läge som omfattar produktionsdata. Du kan inte använda begränsat läge för benchmarking och du kan exempelvis inte begära en databasexport. Om du vill skapa ett begränsat läge för benchmark-hantering kan administratören skapa en dedikerad produktionsmiljö i administrationscentret. Mer information finns i [Typer av miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Skapa miljö för begränsat läge i din [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Skapa miljö för begränsat läge i din [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Logga in i din instans för produktionsmiljö i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -67,22 +67,31 @@ En administratör kan begränsa eller även spärra åtkomsten för vissa använ
 
 Miljön i begränsat läge är inte minst användbar eftersom den innehåller ett par praktiska funktioner.
 
+### <a name="to-enable-the-advanced-user-experience"></a>Aktivera avancerade användare
+
+Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]  i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation** till *Premium*. Leta upp sidan **företagsinformation** i menyn :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="ikonen Inställningar"::: menu.  
+
+När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
+
+### <a name="to-enable-complete-sample-data"></a>Så här aktiverar du fullständiga exempeldata
+
+I miljön med begränsat läge kan du också skapa ett nytt företag med alternativet **Avancerad utvärdering - fullständig exempeldata** så att du kan ta utbildning eller steg genom att göra en genomgång som kräver ytterligare exempeldata, till exempel [genomgång: ta emot och föra in i grundläggande konfiguration av distributionslager](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+
+#### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Så här skapar du ett företag med fullständiga exempeldata i ett begränsat läge
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företag** och välj sedan tillhörande länk.  
+2. Välj åtgärden **Ny** och välj sedan **Skapa nytt företag**.  
+3. På sidan **Assisterad konfiguration för att skapa ett företag** välj **Nästa**.  
+4. Ange ett namn på det nya företaget och sedan i fältet **Välj data och konfiguration för att komma igång** välj **Avancerad utvärdering - fullständig exempeldata**.  
+5. Följ resten av instruktionerna i assisterad konfiguration.  
+
+När assisterad konfiguration är klar kan du börja utforska det nya företaget med de fullständiga exempeldata. Mer information finns i [Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+
 ### <a name="designer"></a>Designer
 
 I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du kan aktivera designer genom att välja ikonen ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) på en sida eller genom att välja menyalternativet **design** på inställningsmenyn ![inställningar](media/ui-experience/settings_icon_small.png).
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-### <a name="to-enable-the-advanced-user-experience"></a>Aktivera avancerade användare
-Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation**.
-
-<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
-
-<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
-
-När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
-
-<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 ## <a name="see-also"></a>Se även
 

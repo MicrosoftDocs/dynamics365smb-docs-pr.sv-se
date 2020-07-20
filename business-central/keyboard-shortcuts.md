@@ -1,33 +1,34 @@
 ---
 title: Kortkommandon
 description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/26/2020
+ms.author: bholtorf
+ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262220"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528494"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
+
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
 
 En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast dator)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> Om du vill visa en grafisk vy över de mest använda kortkommandona väljer du följande bild och hämtar PDF-filen.
->
-> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> Om du vill visa en grafisk vy över de mest använda kortkommandona väljer du följande bild och hämtar PDF-filen.  
+> [ ![Ikon för PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som öppnar en PDF-fil")
 
 ## <a name="overview"></a>Översikt
+
 Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida. De stöds av de flesta webbläsare, beteendet kan dock variera något.
 
 > [!NOTE]
@@ -39,11 +40,12 @@ De flesta kortkommandona är desamma oavsett om operativ systemet är Windows e
 > Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] bokför F9 ett dokument och CTRL + F7 visar de ekonomiska transaktionerna för en post. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
+
 I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t.ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|----------------|-----------|
-|Alt+nedpil|Öppna en listruta eller leta upp ett värde för ett fält.|    
+|--------------------------------|----------|
+|Alt+nedpil|Öppna en listruta eller leta upp ett värde för ett fält.|
 |Alt+Uppil|Visa knappbeskrivning för ett fält eller en kolumnrubrik i en tabell. Om det finns valideringsfel för fältet, trycker du på ”Alt + Uppil” för att visa innehålla valideringsfelet. Tryck på ”Esc” eller ”Alt + Uppil” för att stänga knappbeskrivningen.|
 |F2|Växla för att växla mellan att markera hela fältets värde eller att placera markören på slutet av fältets värde.|
 |Alt+F2|Visa och dölj rutan Faktabox|
@@ -79,16 +81,17 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 ### <a name="general"></a>Allmänt
 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista|För att göra detta som en panelvisning |
-|-----------------|-------|-------|
+|--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortera markerad kolumn i stigande eller fallande ordning.|Ej tillämpbart.|
 |Alt+N|Infoga en ny rad i en redigerbar lista, till exempel sidan **redovisningsbudgetar**.|Samma.|
 |Shift+F10 |Öppna en meny med alternativ som är tillgängliga för den markerade raden.|Samma.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
+
 Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prodshort](includes/prodshort.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Home<br />(Fn+Ctrl+vänsterpil)|Markera den första raden i listan. Fokus är kvar i samma kolumn.|Flytta till första panelen i den första raden. |
 |Ctrl+End<br />(Fn+Ctrl+högerpil)|Markera den sista raden i listan. Fokus är kvar i samma kolumn.|Flytta till den sista panelen i den sista raden.|
 |Hem<br />(Fn+vänsterpil)|Flytta till första fältet i raden.|Flytta till första panelen i raden.|
@@ -104,11 +107,10 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 |Tabb|I en redigerbar lista, flytta till samma rad till höger i samma fält.|Ej tillämpbart.||
 |Skift+Tabb|I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
 
-
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Välja kopiera och klistra in
 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl + klicka<br />(Cmd + klicka)|Utöka radmarkeringen så att den rad som du klickar på inkluderas.|Ej tillämpbart.|
 |Skift+klicka|Utöka radmarkeringen så att den rad som du klickar på och samtliga där emellan inkluderas.<br /><br />Du kan använda detta när du har använt Ctrl + uppåtpil eller Ctrl + uppåtpil/nedpil för att utöka ditt val.|Ej tillämpbart.|
 |Ctrl+Uppil<br />(Ctrl+Cmd+uppil)|Flytta fokus till raden ovanför och behåll den aktuella raden som har valts.|Ej tillämpbart.|
@@ -126,7 +128,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 ### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Söka och filtrera listor
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|-----------------|-------|
+|--------------------------------|----------|
 |F3|Växlar sökrutan.<ul><li>Aktivera sökrutan så att du kan börja skriva söktexten.</li><li>Om sökrutan redan är aktiverad, återgår F3 till listan utan att radera söktexten.</li><ul>|
 |Shift+F3|Öppna och stäng filterrutan.<ul><li> Om filterrutan inte är öppen öppnar du Skift + F3 det och fokuserar på åtgärden **+ filter** under **filterlistan**. Du kan sedan bara trycka på retur när du vill börja lägga till ett fältfilter.</li><li>Om filterrutan redan är öppen stängs den med SKIFT + F3 men rensar inte alla filter som du har lagt till.</li></ul>|
 |Ctrl+Shift+F3|Öppna och stäng filterrutan.<ul><li> Om filterrutan inte är öppen öppnar du Ctrl + Skift + F3 det och fokuserar på åtgärden **+ filter** under **Filtrera summa efter**. Du kan sedan bara trycka på retur när du vill börja lägga till ett summeringsfilter.</li><li>Om filterrutan redan är öppen stängs den med Ctrl + Skift + F3 men rensar inte alla filter som du har lagt till.</li></ul>  |
@@ -140,7 +142,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och dokumentsidor t.ex. **försäljningsorder** för att visa och ändra poster.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|----------------|-----------|
+|--------------------------------|----------|
 |Alt+F6|Växla dölj/expandera för den aktuella snabbfliken eller delen (underordnad sida).|
 |Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |
 |Alt+Shift+N |Stäng en sida och öppna en ny för att skapa en ny post. På samma sätt som om du markerar åtgärden **OK och Nytt**. |
@@ -159,7 +161,7 @@ Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och do
 Följande kortkommandon gäller funktionen snabbinmatning på kort, dokument och listsidor. På listor kan inte genvägar användas när listan är i panelvyn. Mer information om snabbinmatnings finns i [påskynda datainmatning med snabbinmatning](ui-enter-data.md#QuickEntry).
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|Anmärkningar|
-|-----------------|-------|-------|
+|--------------------------------|----------|-------|
 |Skriv in|Bekräfta värdet i nuvarande fält och gå till nästa snabbinmatningsfält.||
 |Shift+Enter|Bekräfta värdet i nuvarande fält och gå till föregående snabbinmatningsfält.||
 |Ctrl+Shift+Enter|Bekräfta värdet i nuvarande kolumn och gå till nästa snabbinmatningsfält utanför listan.<br /><br />Detta kortkommando gäller för inbäddade listor på en sida, till exempel radartiklar på en försäljningsorder. På så sätt kan du snabbt komma ut ur listan och fortsätta skriva in data i övriga fält på sidan.|
@@ -169,7 +171,7 @@ Följande kortkommandon gäller funktionen snabbinmatning på kort, dokument och
 När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|-----------------|-------|
+|--------------------------------|----------|
 |Ctrl+Home|Öppna kalendern om stängd. **Obs**! detta fungerar inte om datumfältet är i ett rutnät, där Ctrl + start går till den första raden.|
 |Ctrl+Home<br />(Cmd+Start)|Flytta till aktuell månad, aktuell dag.|
 |Ctrl+Vänsterpil<br />(Cmd+Vänsterpil)|Flytta till föregående dag.|
@@ -184,14 +186,14 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Kortkommandon i datumfält
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|-----------------|-------|
+|--------------------------------|----------|
 |d|Ange aktuellt datum. "I" betyder "i dag".|
 |a|Ange arbetsdatum. Mer information finns i [Arbetsdatum](ui-change-basic-settings.md#work-date)|
 
 ## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Kortkommandon i Förhandsgranska rapport
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|-----------------|-------|
+|--------------------------------|----------|
 |Nedpil|Rulla nedåt på sidan.|  
 |Uppil|Rulla uppåt på sidan.|
 |CTRL+0 (noll)<br />(Cmd+0)|Passar in hela sidan på sidan. |
@@ -203,6 +205,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Page Up<br />(Fn+uppåtpil)|Gå till föregående sida i rapporten.|
 
 ## <a name="see-also"></a>Se även
+
 [Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)  
 [Hjälpmedelsfunktioner](ui-accessibility.md)  
 [Komma igång](product-get-started.md)  

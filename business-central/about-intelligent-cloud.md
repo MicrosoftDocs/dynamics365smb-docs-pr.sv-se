@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188930"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528869"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligenta insikter med [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ Som användare av [!INCLUDE[prodshort](includes/prodshort.md)] online har du ful
 
 Om du är intresserad av [!INCLUDE[prodshort](includes/prodshort.md)] kan du registrera dig online, eller så kan du arbeta med en partner för att distribuera [!INCLUDE[prodshort](includes/prodshort.md)] lokalt med maskinvara av eget val. Du kan sedan bestämma dig för att få intelligenta insikter genom att ansluta till en klientorganisation i molnet. Som ett resultat kommer data från din lokalt distribuerade [!INCLUDE[prodshort](includes/prodshort.md)] att replikeras till molnet för scenarier med intelligent moln.  
 
-Anslutning till intelligent moln från en lokal lösning kräver att administratören anger information om databasen. De verktyg som används för att ansluta lokal distribution till [!INCLUDE [prodshort](includes/prodshort.md)] online är desamma som också används för migrering från lokala platser till online. Mer information finns i [migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet för [!INCLUDE[prodshort](includes/prodshort.md)].  
+Anslutning till intelligent moln från en lokal lösning kräver att administratören anger information om databasen. De verktyg som används för att ansluta lokal distribution till [!INCLUDE[prodshort](includes/prodshort.md)] online är desamma som också används för migrering från lokala platser till online. Mer information finns i [migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet för [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Visa insikter för intelligent moln i [!INCLUDE[prodshort](includes/prodshort.md)] Online
 

@@ -1,8 +1,6 @@
 ---
-title: Ställa in Yodlee Bank Feeds | Microsoft Docs
+title: Konfigurera Yodlee bankfeeder
 description: Du kan konvertera betalningsinformation till vilket dataformat som som krävs av din bank och aktivera exporten eller importen av Bankfilerna.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 39e31cad30c1e55c651abd818a52ea8b0a6941cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6de088c47fda309d5c4d2832ffe4199cd5331bf8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186242"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503398"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Skapa tjänsten Envestnet Yodlee Bank Feeds
+
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> På grund av det nya direktivet om betalningstjänster i Europa (PSD2), efter den 14 september 2019, kan du inte längre automatiskt importera bankutdrag från banker i Storbritannien till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vi undersöker möjligheten att erbjuda denna funktion igen i framtiden.
+> På grund av direktivet om betalningstjänster i Europa (PSD2), efter den 14 september 2019, kan du inte längre automatiskt importera bankutdrag från banker i Storbritannien till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vi undersöker möjligheten att erbjuda denna funktion igen i framtiden.
 
 > [!NOTE]
-> Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen på plats, måste du skaffa ett cobrand-konto från Envestnet Yodlee.<br /><br />
+> Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen lokalt måste du skaffa ett konto från Envestnet och du måste lägga till kod som kan integreras med Yodlee API.
+>
 > Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA och Kanada.
 > Endast banker som finns i dessa länder stöds även om banker från andra länder kan visas i bankvalsfönstret Envestnet Yodlee Bank Feeds i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

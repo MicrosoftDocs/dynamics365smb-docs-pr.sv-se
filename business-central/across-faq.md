@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188690"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528091"
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
@@ -22,13 +22,13 @@ Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och anv
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgänglig på ett begränsat antal marknader, men nya länder tillkommer varje kvartal via lokalisering av Microsoft eller dess partner. Mer information finns i avsnittet [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (finns endast på engelska).  
 
-## <a name="how-do-i-get-prodshort"></a>Hur får jag [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>Hur får jag [!INCLUDE[prodshort](includes/prodshort.md)]?
 
-Du kan registrera dig för en kostnadsfri utvärderingsversion för att utforska [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)]Om du vill ha mer tid för att utforska, [kan du utöka utvärderingsperioden](#can-i-extend-my-30-day-new-company-trial-period).  
+Du kan registrera dig för en kostnadsfri utvärderingsversion för att utforska [!INCLUDE[prodshort](includes/prodshort.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)]Om du vill ha mer tid för att utforska, [kan du utöka utvärderingsperioden](#can-i-extend-my-30-day-new-company-trial-period).  
 
-För att hjälpa dig att göra dig redo för affärer, kan du i [!INCLUDE [prodshort](includes/prodshort.md)] starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
+För att hjälpa dig att göra dig redo för affärer, kan du i [!INCLUDE[prodshort](includes/prodshort.md)] starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
 
-När du är redo att köpa [!INCLUDE [prodshort](includes/prodshort.md)], hittar du en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](#findpartner).  
+När du är redo att köpa [!INCLUDE[prodshort](includes/prodshort.md)], hittar du en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Vart vänder jag mig om jag har frågor?
 Om du har frågor om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du inte hittar svar på i denna dokumentation, kan du fråga communityn för Business Central. Mer information finns i [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business).  
@@ -50,7 +50,7 @@ Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft Lea
 
 Mer information om utbildning om Dynamics 365 som tillhandahålls från Microsoft finns på sidan [Microsoft Dynamics 365- utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
-Ytterligare innehåll tillhandahålls av [!INCLUDE [prodshort](includes/prodshort.md)]-communityn, t.ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  
+Ytterligare innehåll tillhandahålls av [!INCLUDE[prodshort](includes/prodshort.md)]-communityn, t.ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  
 
 ## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Hur får jag teknisk support för [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -101,18 +101,26 @@ Visst. Om du gör det, kanske du måste ha ett applösenord för att kunna skick
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hur hittar jag en återförsäljningspartner?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] säljs och genomförs via ett globalt nätverk av Dynamics 365-partner med branschkunskap. Kontakta en partner för detaljerad utvärdering, konsulttjänster och ytterligare prissättning. Mer information finns i avsnittet **prissättning** på sidan [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+[!INCLUDE[prodshort](includes/prodshort.md)] säljs och genomförs via ett globalt nätverk av Dynamics 365-partner med branschkunskap. Kontakta en partner för detaljerad utvärdering, konsulttjänster och ytterligare prissättning. Mer information finns i avsnittet **prissättning** på sidan [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
-När du är redo att köpa [!INCLUDE [prodshort](includes/prodshort.md)], hittar du en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan också söka efter lösningar och tjänster från partners i [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+När du är redo att köpa [!INCLUDE[prodshort](includes/prodshort.md)], hittar du en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan också söka efter lösningar och tjänster från partners i [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 Om du vill ha vägledning från Microsoft kontaktar du [Microsofts säljteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Din återförsäljningspartner hanterar också teknisk support åt dig. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).
+Din återförsäljningspartner hanterar också teknisk support åt dig. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Varför är ny information inte tillgänglig på mitt språk?
+
+På webbplatsen docs.microsoft.com publiceras information om affärsfunktioner på ett antal språk. Innehållet redigeras på engelska och publiceras på URL:er med *en-US* som språkkod. När ny information publiceras på engelska skickas den ut för översättning till de språk som stöds. Det innebär att du inte kommer att kunna läsa det nya innehållet på ditt eget språk förrän om upp till fyra veckor.  
+
+Vi förstår problemen som det kan orsaka, och uppmanar användarna att söka efter vad de söker på engelska om de inte kan hitta dem på eget språk.  
 
 ## <a name="is-the-windows-client-supported"></a>Stöds Windows-klienten?
+
 I de första versionerna av [!INCLUDE[prodshort](includes/prodshort.md)] lokalt inkluderades en installerad klient som härletts från Microsoft Dynamics NAV. Från och med 2019 utgivningsplan 2 kommer den äldre komponenten, som "Windows-klienten", inte längre att vara tillgänglig för [!INCLUDE[prodshort](includes/prodshort.md)]. Mer information finns i [Frågor och svar om Windows Client och Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Se även
+
 [Komma igång](product-get-started.md)  
 [Vanliga frågor om Berätta](ui-search-faq.md)  
 [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  

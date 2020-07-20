@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186098"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496831"
 ---
 #  <a name="create-analysis-reports"></a>Skapa analysrapporter
 Försäljningschefer behöver regelbundet analysera omsättning, bruttovinst och andra viktiga indikatorer på försäljningen. Inköpare är mer intresserade av dynamiken i inköpsvolymer, leverantörens kapacitet och inköpspriser. Logistik- och lagerchefer behöver i sin tur information om lageromsättning, analyser av lagerrörelser och statistik över lagervärdet.  
@@ -41,9 +41,9 @@ Sedan kan du lägga upp kolumner så här:
 - Försäljning i procent av förra månaden  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Lägga upp rad- och kolumnlayout  
- På sidan **Analysrapport** kan du visa olika rad- och kolumnlayouter efter vad du har lagt upp. Du lägger upp rader eller radmallar på sidan **Analysradmallar**. På denna sida kan du definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner på sidan **Analyskolumnmallar**. På den här sidan kan du definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. På sidan **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  
+ På sidan **Analysrapport** kan du visa olika rad- och kolumnlayouter enligt de rader eller rader som du har angett på sidan **analysradmallar**. Du kan definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner på sidan **Analyskolumnmallar**. Du kan definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. På sidan **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  
 
-Baserat på de rader och kolumner du har lagt upp sammanställs resultatet i rapporten i fönstret **Analysrapport** med hjälp av en matrissida som kan se ut så här:  
+Baserat på de rader och kolumner du har lagt upp sammanställs [!INCLUDE[d365fin](includes/d365fin_md.md)] resultatet i rapporten på sidan **Analysrapport** som följande tabell.  
 
 | |Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
 |-|-|-|-|  

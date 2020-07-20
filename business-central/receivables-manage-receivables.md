@@ -1,8 +1,6 @@
 ---
 title: Översikt över uppgifter för hantering kundreskontra | Microsoft Docs
 description: Innehåller information om hur du hanterar kundreskontra och kopplar betalningar till kund- eller leverantörstransaktioner.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191913"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484217"
 ---
 # <a name="managing-receivables"></a>Hantera kundreskontra
+
 En vanlig steg i alla finansiella takter är att stämma av bankkonton, som kräver att du kopplar inkommande betalningar till kund- eller leverantörsreskontratransaktioner för att stänga försäljningsfakturor och inköpskreditnotor när de betalas.
 
 Även om de flesta kunder i B2B-miljöer betalar ett tag efter leverans lämnar bokförda försäljningsfakturor öppna för kundreskontraavdelningen att stänga (koppla) när betalningen tas emot, vissa försäljningsfakturor kan betalas direkt, till exempel med PayPal. Sådana fakturor tillämpas omedelbart som betalda när de bokförs och därför visas de inte som betalningar som ska behandlas i KR. Mer information finns i t.ex. [Fakturera försäljning](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ Det finns andra sidor där du kan koppla betalningar eller stämma av bankkonton
 * Sidan **Betalningsregistrering** där du kan tillämpa och manuellt kontrollera checkbetalningar som tas emot som kontanter, check eller banktransaktion mot en skapad lista över obetalda försäljningsdokument. Observera att den här funktionen endast är tillgänglig för försäljningsdokument. Du kan inte använda utgående betalningar här, och du kan inte stämma av bankkonton.
 * Sidan **Inbetalningsjournal** där du kan manuellt bokföra kvitton till relevant redovisning, kund eller annat konto, genom att ange en betalningsrad. Du kan antingen använda kvittot eller återbetalningen till en eller flera öppna transaktioner, innan du bokför inbetalningsjournalen, eller från kundtransaktionerna. Här kan du inte stämma av bankkonton.
 
-Sidorna **Betalningsavstämningsjournal** och **Bankkontoavstämning** använder automatisk matchningslogik som du kan ställa in på sidan **Regler för betalningskoppling**. Mer information finns i [Konfigurera regler för automatiska betalningskopplingar](receivables-how-set-up-payment-application-rules.md).
+Sidan **Betalningsavstämningsjournal** använder automatisk matchningslogik som du kan ställa in på sidan **Regler för betalningskoppling**. Mer information finns i [Konfigurera regler för automatiska betalningskopplingar](receivables-how-set-up-payment-application-rules.md).  
 
 Andra aspekter av hanteringen av kundfordringar är att kräva in utestående saldon, inklusive ränta och betalningspåminnelser och att konfigurera bankkonton så att kundernas betalningarna dras från kontot automatiskt.
 

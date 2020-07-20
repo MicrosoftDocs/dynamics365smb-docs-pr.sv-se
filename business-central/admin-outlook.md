@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186910"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529269"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 
@@ -27,13 +27,13 @@ Det är lätt att komma igång med tillägget [!INCLUDE[d365fin](includes/d365fi
 När du sedan öppnar Outlook visas ett e-postmeddelanden från *Dynamics 365 Business Central-administratören*. De nya tilläggen läggs till på Outlook-menyfliken och i webbläsaren, kan du se tillägget [!INCLUDE[prodshort](includes/prodshort.md)] omedelbart ovanför e-postmeddelandets brödtext. Tillägget uppdateras regelbundet och du får ett meddelande att det finns en ny version för dig i Outlook.  
 
 > [!TIP]
-> Om du använder det nya Outlook i webben, sedan kan [!INCLUDE [prodshort](includes/prodshort.md)] tilläggsprogram vara dolda under **fler åtgärder**. Om du ofta använder tillägget kan du fästa det så att det alltid visas direkt. Mer information finns i [använda tilläggsprogram i Outlook på webben](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Om du använder det nya Outlook i webben, sedan kan [!INCLUDE[prodshort](includes/prodshort.md)] tilläggsprogram vara dolda under **fler åtgärder**. Om du ofta använder tillägget kan du fästa det så att det alltid visas direkt. Mer information finns i [använda tilläggsprogram i Outlook på webben](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Om du arbetar med mer än ett [!INCLUDE [prodshort](includes/prodshort.md)]-företag kan du enkelt växla mellan företag i Outlook. I åtgärdsfältet för tillägg, välj **Fler åtgärder**, så kan du se alternativet för att växla mellan företag.  
+Om du arbetar med mer än ett [!INCLUDE[prodshort](includes/prodshort.md)]-företag kan du enkelt växla mellan företag i Outlook. I åtgärdsfältet för tillägg, välj **Fler åtgärder**, så kan du se alternativet för att växla mellan företag.  
 
 <!--TEMP-->
 > [!NOTE]
-> Växla mellan företag kräver [!INCLUDE [prodshort](includes/prodshort.md)] 2019 utgivningsplan 2 eller senare som meddelats i [utgivningsplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Växla mellan företag kräver [!INCLUDE[prodshort](includes/prodshort.md)] 2019 utgivningsplan 2 eller senare som meddelats i [utgivningsplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Du måste därför kontrollera att du har en Office 365-prenumeration som omfattar e-transaktion och som låter dig distribuera tillägg. Om du ändå vill testa tillägget kan du [prova Office 365 gratis](https://products.office.com/try).  
 
@@ -68,7 +68,7 @@ I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte 
 
 ## <a name="using-other-email-accounts"></a>Använda andra e-postkonton
 
-Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE [prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE [prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i [vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) och [funktioner som kräver särskilda omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE[prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE[prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i [vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) och [funktioner som kräver särskilda omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

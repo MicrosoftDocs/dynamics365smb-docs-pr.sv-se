@@ -1,7 +1,6 @@
 ---
 title: Skapa ett e-postkonto i Business Central | Microsoft Docs
 description: Beskriver hur du använder företagets SMTP-server för att skicka och ta emot e-postmeddelanden inom Business Central, alternativt hur du använder e-postserverinställningarna som skapats med Office 365-prenumerationen.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187274"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528393"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
+
 För att skicka och ta emot e-postmeddelanden inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du fylla i fälten på sidan **SMTP-postinställning**.
 
 I stället för att ange information för SMTP-server manuellt kan du använda funktionen **Använd Office 365-serverinställningar** för att mata in information från din Office 365-prenumeration.
@@ -26,6 +26,7 @@ I stället för att ange information för SMTP-server manuellt kan du använda f
 Du kan antingen skapa e-post skapar du manuellt som nedan eller också kan du få hjälp med hjälp av assisterad inställningsguide för **e-post**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurera e-post
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **SMTP-postinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Du kan antingen skapa e-post skapar du manuellt som nedan eller också kan du f�
 5. När testet lyckas stänger du sidan.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Använda en ersättningsavsändaradress i utgående e-postmeddelanden
+
 Alla utgående e-postmeddelanden från [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att använda standardadressen för det konto som du har angett på sidan SMTP-e-postinställning, som beskrivs ovan. Du kan emellertid använda funktionerna **Skicka som** eller **Skicka på uppdrag av** på Exchange-servern för att ändra avsändaradressen för utgående meddelanden. [!INCLUDE[d365fin](includes/d365fin_md.md)] använder standardkontot för att autentisera till Exchange, men kommer antingen att ersätta avsändarens adress med den som du anger eller ändra den med "för".
 
 Nedan följer exempel på hur skicka och skicka för ombud används i [!INCLUDE[d365fin](includes/d365fin_md.md)].:
@@ -54,6 +56,7 @@ Nedan följer exempel på hur skicka och skicka för ombud används i [!INCLUDE[
 5. I **administrationscenter för Exchange** hittar du postlådan som ska användas som ersättningsadress och anger sedan adressen från fältet **Användar-ID** i **Skicka som**. Mer information finns i [Använd EAC för att tilldela behörighet till enskilda mailboxar](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Så här använder du ersättningsadressen i arbetsflöde för godkännande
+
 1. I [!INCLUDE[d365fin](includes/d365fin_md.md)] välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **SMTP-postinställningar** och välj sedan relaterad länk.
 2. Kopiera eller anteckna adressen i fältet **användar-ID**.
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.
@@ -64,13 +67,20 @@ Nedan följer exempel på hur skicka och skicka för ombud används i [!INCLUDE[
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] avgör vilken adress som ska visas i följande ordning: <br><br> 1. Adressen som anges i fältet **e-post** på sidan **Användarinställningar för godkännande** för meddelanden i ett arbetsflöde. <br> 2. Adressen som anges i fältet **skicka som** på sidan **SMTP-postinställningar**. <br> 3. Adressen som anges i fältet **Användar-ID** på sidan **SMTP-postinställningar**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera gemensamma mappar och regler för e-postloggning i Exchange Online
+
+Få ut mer av kommunikationen mellan säljare och dina befintliga eller potentiella kunder genom att följa upp e-postutbyten och sedan omvandla dem till olika affärsmöjligheter. För mer information, se [Spåra utbyte av e-postmeddelanden mellan säljare och kontakter](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Därefter ansluter du [!INCLUDE[prodshort](includes/prodshort.md)] med Exchange Online. För mer information, se [Spåra utbyte av e-postmeddelanden mellan säljare och kontakter](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Se även
 
 [Delade postlådor i Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Skicka dokument som e-post](ui-how-send-documents-email.md)  
+[Skicka dokument via e-post](ui-how-send-documents-email.md)  
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på min mobila enhet](install-mobile-app.md)

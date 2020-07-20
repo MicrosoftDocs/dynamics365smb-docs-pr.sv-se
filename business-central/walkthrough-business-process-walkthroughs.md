@@ -8,22 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189273"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527814"
 ---
 # <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
+
 Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.  
 
  Genomgångarna beskriver fullständiga scenarier som ska utföras från början till slut för att ge så stor nytta som möjligt. Många bygger på demonstrationer i [!INCLUDE[d365fin](includes/d365fin_md.md)] och där kan du prova på procedurerna själv, i din egen takt.  
 
 > [!NOTE]
-> Några av genomgångarna använder demonstrationsdata som inte är tillgänglig i det vanliga CRONUS-företaget. För dessa genomgångar måste du utföra stegen i ett företag skapat från alternativet **Fullständig utvärdering - fullständig exempeldata** som är tillgängliga i begränsat läge. Mer information finns i [Skapa en miljö för begränsat lägel](across-how-create-sandbox-environment.md).
+> Några av genomgångarna kräver exempeldata som inte är tillgänglig i det standarddemonstrationsföretaget i [!INCLUDE[prodshort](includes/prodshort.md)]. För mer information, se [Så här skapar du ett företag med fullständiga exempeldata i ett begränsat läge](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Till|Gå till|  
 |--------|---------|  
@@ -41,6 +42,7 @@ Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utför
 |Utföra defekthantering. **Kräver fullständiga exempeldata**|[Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

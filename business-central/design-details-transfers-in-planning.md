@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5940319c254c97040c3f3b15fc540ed9cfecda5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6016feb4a65fe869d2c29c107afc19dd7756b011
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184665"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503650"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
 Överföringsorder är också en källa till tillgång när de arbetar på nivån med lagerställeenheter. När du använder flera lagerställen (distributionslager) kan återanskaffningssystemet för lagerställeenheter ställas in till Överföring, vilket anger att lagerstället fylls på genom att varor överförs från ett annat lagerställe. I en sådan situation med flera distributionslager kan företag ha en kedja av överföringar där tillgång till lagerställe GRÖN överförs från GUL, och tillgång till GUL överförs från RÖD och så vidare. I början av kedjan finns återanskaffningssystemet Prod.order eller Inköp.  

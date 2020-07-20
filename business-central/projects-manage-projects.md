@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190017"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529044"
 ---
 # <a name="project-management"></a>Projekthantering
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utföra vanliga projekthanteringsuppgifter som t.ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
@@ -36,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 ## <a name="get-started-with-projects"></a>Komma igång med projekt
 
-Projekthantering är komplicerad i sig och att lära dig hur du skapar projekt och hanterar resurser i arbete i ett nytt verktyg kan vara en annan komplikation. För att komma igång med projekthantering i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en videofilm om hur du skapar projekt](https://www.youtube.com/watch?v=VqaPWr7BWmw) på kanalen [!INCLUDE [prodshort](includes/prodshort.md)]YouTube.  
+Projekthantering är komplicerad i sig och att lära dig hur du skapar projekt och hanterar resurser i arbete i ett nytt verktyg kan vara en annan komplikation. För att komma igång med projekthantering i [!INCLUDE[prodshort](includes/prodshort.md)] kan du se [en videofilm om hur du skapar projekt](https://www.youtube.com/watch?v=VqaPWr7BWmw) på kanalen [!INCLUDE[prodshort](includes/prodshort.md)]YouTube.  
 
 ## <a name="see-also"></a>Se även
 

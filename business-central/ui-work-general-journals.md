@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 424951481336855c5142016dbc9409c96c51dbf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 37a69940d6b449a779a6bf8fb9d9729c99aa9ea4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189366"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454437"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -41,6 +41,9 @@ För varje journalmall kan du skapa din egen personliga journal som en journal. 
 
 > [!TIP]  
 > Om du väljer kryssrutan **Föreslå saldobelopp** på raden för din journal på sidan **Redovisningsjournaler** kommer fältet **Belopp** till exempel, redovisningsjournalrader för samma verifikationsnummer automatiskt att fyllas i med värdet som krävs för att hantera dokumentet. Mer information finns i [Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden](ui-let-system-suggest-values.md).
+
+> [!TIP]
+> Om du vill lägga till eller ta bort fält i journaler använder du den **personliga** banderollen. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Förstå Huvudkonton och motkonton
 Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjournaler** fylls motkontot i automatiskt när du fyller i fältet **Kontonr**. Annars fyller du i både fältet **Kontonr** och fältet **Motkonto** manuellt. Ett positivt belopp i fältet **Belopp** debiteras på huvudkontot och krediteras på motkontot. Ett negativt belopp krediteras på huvudkontot och debiteras på motkontot.
@@ -161,8 +164,15 @@ Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnu
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
+
 [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
 [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)  
 [Fördela kostnader och intäkter](year-allocate-costs-income.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+[Omvärdera lagret i omvärderingsjournalen](inventory-how-revalue-inventory.md)  
+[Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md)  
+[Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md)  
+[Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md)  
+[Arbeta med koncerninterna dokument och journaler](intercompany-how-work-documents-journals.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187514"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534603"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visa och redigera i Excel från Business Central
 
@@ -30,7 +30,7 @@ Med sidor som visar en lista över poster i rader och kolumner som en lista öve
 - Den här åtgärden fungerar både i Windows och macOS.
 
 > [!NOTE]
-> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är åtgärden **Öppna i Excel** tillgänglig som standard. Om du däremot ställer in [!INCLUDE [prodshort](includes/prodshort.md)] lokalt för redigering av data i Excel, ersätts åtgärden **Öppna i Excel** av åtgärden **Redigera i Excel**.
+> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är åtgärden **Öppna i Excel** tillgänglig som standard. Om du däremot ställer in [!INCLUDE[prodshort](includes/prodshort.md)] lokalt för redigering av data i Excel, ersätts åtgärden **Öppna i Excel** av åtgärden **Redigera i Excel**.
 
 ## <a name="edit-in-excel"></a>Redigera i Excel
 
@@ -40,15 +40,15 @@ Med sidor som visar en lista över poster i rader och kolumner som en lista öve
 
 - Det fungerar endast i Windows. inte macOS.
 
-- Du kan växla företaget som du arbetar med. Det gör du genom att välja ikonen **Alternativ** ![Inställningar för Excel-tillägg](media/cogwheel.png "Alternativ för Excel-tillägg") i Excel-tilläggsfönstret och sedan markera företaget i fältet **Företag**. 
+- Du kan växla företaget som du arbetar med. Det gör du genom att välja ikonen **Alternativ** ![Inställningar för Excel-tillägg](media/cogwheel.png "Alternativ för Excel-tillägg") i Excel-tilläggsfönstret och sedan markera företaget i fältet **Företag**.  
 
     > [!IMPORTANT]
     > Kontrollera att fältet **Miljö** fältet inte är tomt när du byter företag. Om så är fallet gör du det till ett av de tillgängliga alternativen, annars kommer tillägget inte att fungera korrekt.  
 
-Excel-tillägget har förbättrats i 2019 års utgivningsplan, våg 2. Mer information finns i [Förbättringar av Excel-integrering](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+Om du gör ändringar i tillägget måste du ladda det på nytt för att kunna uppdatera anslutningen. Om du vill läsa in på nytt använder du ![menyn tilläggsprogram för Excel](media/excel-addin-menu.png "Meny Excel tillägg") i det övre högra hörnet i tillägget.
 
 > [!NOTE]
-> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är åtgärden **Redigera i Excel** endast tillgänglig om Excel-tillägget har konfigurerats av administratören, och det är då endast tillgängligt för webbklienten. För administratörer, om du vill veta hur du installerar Excel-tillägg, se [Ställa in Excel-tillägget för redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt.
+> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt är åtgärden **Redigera i Excel** endast tillgänglig om Excel-tillägget har konfigurerats av administratören, och det är då endast tillgängligt för webbklienten. För administratörer, om du vill veta hur du installerar Excel-tillägg, se [Ställa in Excel-tillägget för redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
 ### <a name="see-the-differences-between-the-options"></a>Se skillnaden mellan alternativen
 <br><br>  
@@ -58,4 +58,6 @@ Excel-tillägget har förbättrats i 2019 års utgivningsplan, våg 2. Mer infor
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med Business Central](ui-work-product.md)  
+[Förbättringar av Excel-integrering i 2019 utgivningsplan, våg 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

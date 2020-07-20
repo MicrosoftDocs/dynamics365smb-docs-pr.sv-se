@@ -1,8 +1,6 @@
 ---
 title: Använda tillägget C5 Data-migrering | Microsoft Docs
 description: Använda det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: bholtorf
-ms.openlocfilehash: cdf14002e28b777441a803fc7804fdac8afe5b77
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d94fd19194eb47b421e99c81ac8bd588543510e5
+ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194337"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3486377"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
+
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 
 > [!Note]
@@ -28,7 +27,8 @@ Det här tillägget gör det enkelt att flytta över kunder, leverantörer, arti
 ## <a name="what-data-is-migrated"></a>Vilka data överförs?
 Följande data överförs för respektive enhet:
 
-**Kunder**
+### <a name="customers"></a>Kunder
+
 * Kontakter  
 * Plats
 * Land
@@ -46,7 +46,8 @@ Om du flyttar konton, flyttas även följande uppgifter:
 * Redovisningsjournaler
 * Öppna kundreskontratransaktioner (kundreskontratransaktioner)
 
-**Leverantör**
+### <a name="vendors"></a>Leverantör
+
 * Kontakter
 * Plats
 * Land
@@ -64,7 +65,8 @@ Om du flyttar konton, flyttas även följande uppgifter:
 * Redovisningsjournaler
 * Öppna transaktioner (leverantörsreskonstratransaktioner)
 
-**Artiklar**
+### <a name="items"></a>Artiklar
+
 * Plats
 * Land
 * Artikeldimensioner (avdelning, center, ändamål)
@@ -88,7 +90,8 @@ Om du flyttar konton, flyttas även följande uppgifter:
 > [!Note]
 > Om det finns öppna transaktioner med utländska valutor flyttas även valutakurserna för dessa valutor. Andra valutakurser överförs inte.
 
-**Kontoplan**  
+### <a name="chart-of-accounts"></a>Kontoplan
+
 * Standarddimensioner: avdelning, kostnadsställe, ändamål  
 * Historiska redovisningstransaktioner  
 
@@ -96,9 +99,11 @@ Om du flyttar konton, flyttas även följande uppgifter:
 > Historiska redovisningstransaktioner hanteras på olika sätt. När du migrerar data ställer du in en parameter för **aktuell period**. Den här parametern anger hur du behandlar redovisningstransaktioner. Transaktioner efter detta datum migreras individuellt. Transaktioner före det här datumet läggs samman per konto och flyttas över som ett enstaka belopp. Låt oss anta att det finns transaktioner i 2015, 2016, 2017, 2018, och du anger 01 januari 2017 i fältet Aktuell period. För varje konto samlas belopp för transaktioner på eller före den 31 december 2106 i en enda redovisningsjournalrad för varje redovisningskonto. Alla transaktioner efter detta datum migreras individuellt.
 
 ## <a name="file-size-requirements"></a>Storlekskraven i filen
+
 Den största filstorleken som du kan överföra till [!INCLUDE[d365fin](includes/d365fin_md.md)] är 150 MB. Om filen du exporterar från C5 är större än detta kan du flytta över data i flera filer. Till exempel exportera en eller två typer av enheter från C5, såsom kunder och leverantörer, till en fil och sedan exportera objekt till en annan fil och så vidare. Du kan importera filer var för sig i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="to-migrate-data"></a>Migrera data
+
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
@@ -106,12 +111,14 @@ Det är bara några steg för att exportera data från C5 och importera den i [!
 3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.
+
 Använd sidan **översikt över datamigrering** för att övervaka flyttningen. På sidan visas information som till exempel antal enheter som migreringen omfattar, flyttning och antalet artiklar som har överförts och om de lyckades. Den visar antalet fel, låter dig ta reda på vad som orsakade problemet och, när det är möjligt, gör det enkelt att gå till enheten för att lösa problemen. Mer information finns i nästa avsnitt i den här artikeln.  
 
 > [!Note]
 > Medan du väntar på resultat från migreringen, måste du uppdatera sidan för att visa resultatet.
 
 ## <a name="how-to-avoid-double-posting"></a>Undvika dubbel bokföring
+
 För att undvika dubbel bokföring i redovisningen används följande balansräkningskonton för öppna transaktioner:  
 
 * För leverantörer använder vi A/P-konto från leverantörsbokföringsmallen.  
@@ -119,6 +126,7 @@ För att undvika dubbel bokföring i redovisningen används följande balansräk
 * För artiklar skapar vi en bokföringsinställning där kontot för lagerjusteringar är det konto som anges som lagerkontot i fönstret Lagerbokföringsinställning.  
 
 ## <a name="correcting-errors"></a>Felkorrigering
+
 Om något går fel och ett fel uppstår kommer fältet **Status** att visa **Slutförd med fel** och fältet **Antal fel** visar hur många. Om du vill visa en lista över felen, öppnar du sidan **migreringsfel** genom att välja:  
 
 * Numret i fältet **antal fel** för enheten.  
@@ -135,18 +143,21 @@ När du har korrigerat ett eller flera fel kan du välja **Migrera** för att en
 > Om du har artiklar som ingår i en struktur kan du behöva migrera flera gånger om det ursprungliga objektet inte skapas innan alla varianter som refererar till den. Om en artikelvariant skapas först blir kan referensen till det ursprungliga objektet orsaka ett felmeddelande.  
 
 ## <a name="verifying-data-after-migrating"></a>Kontrollera data efter migrering
+
 Ett sätt att kontrollera att informationen överförs på rätt sätt är att titta på följande sidor i C5 och [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Batch-jobb som ska användas |
-|-----|-----|-----|
+|---------------------------|--------------------------------------------|------------------|
 |Kundtransaktioner| Redovisningsjournaler| CUSTMIGR |
 |Leverantörstransaktioner| Redovisningsjournaler| VENDMIGR|
 |Artikeltransaktioner| Artikeljournaler| ITEMMIGR |
 |Redovisningstransaktioner| Redovisningsjournaler| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Stoppa datamigrering
+
 Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**. Om du gör det kommer alla väntande migreringar också stoppas.
 
 ## <a name="see-also"></a>Se även
+
 [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
-[Komma igång](product-get-started.md)
+[Komma igång](product-get-started.md)  

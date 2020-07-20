@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187946"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528994"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Använda [!INCLUDE[prodshort](includes/prodshort.md)] i ett automatiskt arbetsflöde
 
@@ -55,7 +55,7 @@ Du kan använda din [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del
     > [!NOTE]
     > [!INCLUDE[prodshort](includes/prodshort.md)]-anslutaren för Power Automate stöder flera produktions- och miljöer med begränsat läge. Om du inte har skapat flera produktionsmiljöer med begränsat läge **Produktion** är de enda tillgängliga alternativ som du kan välja.  
 
-    Nu har du lyckats ansluta till dina Business Central [!INCLUDE [prodshort](includes/prodshort.md)]-data och är redo att börja skapa ditt flöde.
+    Nu har du lyckats ansluta till dina Business Central [!INCLUDE[prodshort](includes/prodshort.md)]-data och är redo att börja skapa ditt flöde.
 
 9. För att skapa från en mall väljer du alternativet **Starta från en mall**.
 10. Sök efter **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-mallar.

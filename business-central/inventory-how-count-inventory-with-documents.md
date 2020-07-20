@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182210"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529069"
 ---
 # <a name="count-inventory-using-documents"></a>Beräkna lager med hjälp av dokument
 Du kan göra en fysisk inventering av artiklar med hjälp av inventeringsorder och inventeringsregistreringsdokument. Sidan **inventeringsorder** används för att ordna de fullständiga inventeringar, till exempel en per lagerställe. Sidan **registrering av fysiskt lager** används för att kommunicera och samla in faktiska inventeringen av artiklar. Du kan skapa flera inspelningar av en order, till exempel för att fördela grupper av artiklar till olika medarbetare.
@@ -40,7 +40,7 @@ Om du vill skapa inventeringsorderrader kan du använda funktionen **beräkna ra
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringsorder** och välj sedan tillhörande länk.
 2. Välj åtgärden **Ny**.
-3. Fyll i de fält som krävs på snabbfliken **Allmänt**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i de fält som krävs på snabbfliken **Allmänt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Beräkna rader**.
 5. Välj alternativ om det behövs.
 6. Ange filter, till exempel för att endast ta med en delmängd av artiklar som ska beräknas med den första registreringen.

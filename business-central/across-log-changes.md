@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187724"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528819"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
 
@@ -40,7 +40,7 @@ När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av d
 
 ## <a name="working-with-activity-logs"></a>Arbeta med aktivitetsloggar
 
-På vissa sidor i [!INCLUDE [prodshort](includes/prodshort.md)] kan du visa en aktivitetslogg som visar status och eventuella fel från filer som du exporterar från eller importerar till [!INCLUDE [prodshort](includes/prodshort.md)].  
+På vissa sidor i [!INCLUDE[prodshort](includes/prodshort.md)] kan du visa en aktivitetslogg som visar status och eventuella fel från filer som du exporterar från eller importerar till [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Informationen visas i fönstret **Aktivitetslogg** enligt kontexten den öppnas från. Du kan öppna fönstret från sidan **Inställning av dokumentutbytestjänst**, **Inkommande dokument**, **Bokförd försäljningsfaktura** och **Bokförd försäljningskreditnota**. Du kan tömma listan över loggposter eller bara rensa listan över poster som är äldre än 7 dagar.  
 

@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190161"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528744"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.  
 
 För att hjälpa dig med prenumerationen, hitta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
 
-När du har registrerat dig för [!INCLUDE [prodshort](includes/prodshort.md)] har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa nya försäljningsdokument, eller skapa ett bankkonto. Om du däremot vill använda [!INCLUDE [prodshort](includes/prodshort.md)] för att köra företaget måste du kontakta en [!INCLUDE [prodshort](includes/prodshort.md)] återförsäljare och köpa en prenumeration. Mer information om utvärderingsversioner och prenumerationer finns i [utvärderingsversion och prenumerationer](across-preview.md).  
+När du har registrerat dig för [!INCLUDE[prodshort](includes/prodshort.md)] har du tillgång till ett demonstrationsföretag. Demonstrationsföretaget innehåller provdata, men du kan skapa nya försäljningsdokument, eller skapa ett bankkonto. Om du däremot vill använda [!INCLUDE[prodshort](includes/prodshort.md)] för att köra företaget måste du kontakta en [!INCLUDE[prodshort](includes/prodshort.md)] återförsäljare och köpa en prenumeration. Mer information om utvärderingsversioner och prenumerationer finns i [utvärderingsversion och prenumerationer](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Bekanta dig med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ Mer information finns i [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]]
 > [!TIP]  
 > Du kan alltid återgå till ett Rollcenter genom att välja företagsnamnet i det övre vänstra hörnet.
 
-I demonstrationsföretaget innehåller rollerna affärschef och revisor en komma igång-panel och produktvideo-panel. Båda panelerna öppnar sidor där du kan välja mellan olika videoklipp, så att du kan komma igång med olika aspekter av [!INCLUDE [prodshort](includes/prodshort.md)]. Du hittar fler videoklipp på vår YouTube-kanal. Mer information finns i [besök vårt videobibliotek](across-videos.md). Du kan också söka efter eLearning-innehåll för basversionen av [!INCLUDE [prodshort](includes/prodshort.md)] på [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Kontakta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner om du vill ha mer hjälp.  
+I demonstrationsföretaget innehåller rollerna affärschef och revisor en komma igång-panel och produktvideo-panel. Båda panelerna öppnar sidor där du kan välja mellan olika videoklipp, så att du kan komma igång med olika aspekter av [!INCLUDE[prodshort](includes/prodshort.md)]. Du hittar fler videoklipp på vår YouTube-kanal. Mer information finns i [besök vårt videobibliotek](across-videos.md). Du kan också söka efter eLearning-innehåll för basversionen av [!INCLUDE[prodshort](includes/prodshort.md)] på [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Kontakta en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner om du vill ha mer hjälp.  
 
 När du är redo att sätta igång och vill titta på några av de verksamhetsprocesser som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer, se då [Verksamhetsfunktioner](across-business-functionality.md).
 

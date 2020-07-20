@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189350"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496730"
 ---
 # <a name="working-with-d365fin"></a>Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
@@ -26,7 +26,7 @@ Du kan t.ex. justera storleken och positionen på alla sidor, utöka bredden på
 > [!TIP]
 > Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Ikon för PDF-filen](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som öppnar en PDF-fil")
 
 ## <a name="links-to-learn-more"></a>Länkar till mer information
 

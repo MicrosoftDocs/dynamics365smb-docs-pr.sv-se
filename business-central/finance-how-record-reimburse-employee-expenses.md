@@ -1,8 +1,6 @@
 ---
 title: Registrera och ersätta anställdas affärsrelaterad utgifter | Microsoft Docs
 description: Bokför anställdas utgifter med redovisningsjournalen för den anställdas konto och bokför senare en betalning till den anställdes bankkonto för att ersätta för affärsrelaterade utgifter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d2ba275d747ced6f4c3adbd642f45d5ed33d8d1
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184082"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503525"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skapa och återbetala de anställdas utgifter
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder transaktioner för medarbetare på samma sätt som för leverantörer. Därför finns medarbetares bokföringsmallar för att vara säker på att medarbetares transaktioner bokförs i relevanta konton i redovisningen.
 
 > [!NOTE]  
 > Medarbetartransaktioner kan bokföras i den lokala valutan. Återbetalning till anställda stödjer inte kassarabatter och betalningstoleranser.
 
-Om medarbetare lägger ut sina egna pengar under affärsaktiviteter, kan du bokföra kostnader för den anställde. Du kan sedan ersätta den anställde genom att göra en betalning till den anställdes bankkonto på liknande sätt som när du betalar till leverantörer.
+Om medarbetare lägger ut sina egna pengar under affärsaktiviteter, kan du bokföra kostnader för den anställde. Du kan sedan ersätta den anställde genom att göra en betalning till den anställdes bankkonto på liknande sätt som när du betalar till leverantörer.  
+
+> [!TIP]
+> I den här artikeln beskrivs hur du registrerar kostnader i böckerna och hur du återbetalar den anställde. Din organisation kan ha en portal eller app där anställda kan skicka sina utgiftsrapporter.
 
 ## <a name="to-record-an-employees-expense"></a>Om du vill registrera en anställd utgifter
 Du bokför anställdas utgifter på sidan **redovisningsjournal**.

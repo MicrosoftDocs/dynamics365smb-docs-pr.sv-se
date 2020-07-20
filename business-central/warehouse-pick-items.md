@@ -1,6 +1,6 @@
 ---
 title: Plocka artiklar | Microsoft Docs
-description: Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa [inställningarna](../configure-warehouse-processes.md) är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med enbart hantering av order för order i en eller flera aktiviteter och vidare till avancerade konfigurationer där alla lageraktiviteter måste utföras i ett dirigerat arbetsflöde.
+description: Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplexa inställningarna är kan sträcka sig från inga lagerfunktioner, till grundläggande lagerkonfigurationer med enbart hantering av order för order i en eller flera aktiviteter och vidare till avancerade konfigurationer där alla lageraktiviteter måste utföras i ett dirigerat arbetsflöde.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4b7f183c36c739f4dcb92b901639de6ebe8af97f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a19496eafcacb3a2c021d78da5e5b7130300154a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196070"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529294"
 ---
 # <a name="pick-items"></a>Plocka artiklar
+
 Lageraktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplex det är kan sträcka sig från inga lagerkonfigurationer, till grundläggande lagerstyrning med hantering av order för order i en eller flera aktiviteter samt avancerade konfigurationer där alla lageraktiviteter måste utförs i ett dirigerat arbetsflöde. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
 
 Om du vill organisera och registrera plockningsaktiviteter med distributionslagerdokument, markerar du fältet **Begär plockning** på lagerställekortet. Det indikerar att artiklar som ska plockas för ett utgående källdokument, ska hanteras via, och kontrolleras av systemet. Ett utgående källdokument kan vara en försäljningsorder, en inköpsreturorder, en utgående överföringsorder, en serviceorder eller en produktionsorder med komponenter som ska plockas.

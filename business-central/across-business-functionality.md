@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188767"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499522"
 ---
 # <a name="business-functionality"></a>Affärsfunktion
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas.
@@ -43,6 +43,8 @@ ms.locfileid: "3188767"
 |Registrera externa dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 
 ## <a name="see-also"></a>Se även
+
+[Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
 [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Komma igång](product-get-started.md)  

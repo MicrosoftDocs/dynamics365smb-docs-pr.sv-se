@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413649"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528116"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Revisorupplevelse i Financials [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
@@ -54,14 +54,14 @@ Om din administratör eller återförsäljarpartner inte vill använda guiden **
 4. Välj **Ny gästanvändare**.
 5. På sidan **Ny användare** väljer du **Bjud in användare** och lägger sedan till information om din externa revisor.  
 
-   Du kan också inkludera ett personligt välkomstmeddelande till revisorer för att låta dessa veta att du lägger till dem i ditt [!INCLUDE [prodshort](includes/prodshort.md)].
+   Du kan också inkludera ett personligt välkomstmeddelande till revisorer för att låta dessa veta att du lägger till dem i ditt [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Välj **Bjud in** för att skicka inbjudan automatiskt. Ett meddelande visas uppe till höger med meddelandet **Användaren har bjudits in**. 
 7. När du har skickat inbjudan läggs användarkontot automatiskt till i katalogen som en gäst.
 
-Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE [prodshort](includes/prodshort.md)].
+Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE[prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>För att ge din revisor åtkomst till ditt [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>För att ge din revisor åtkomst till ditt [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. I den Azure-portalen, på den nyligen tillagda användaren, väljer du **Profil** och sedan **Redigera**
 2. Uppdatera fältet **Användningsplats** till det aktuella landet och välj sedan **Spara**.
@@ -73,26 +73,26 @@ Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE [
 
 Om det lyckas tilldelas licensen till gästanvändaren och gästkontot skapas.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importera den nya användaren till [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importera den nya användaren till [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst till ditt Active Directory. Därefter måste du ge dem åtkomst till rätt företag i [!INCLUDE [prodshort](includes/prodshort.md)].
+Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst till ditt Active Directory. Därefter måste du ge dem åtkomst till rätt företag i [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Så här lägger du till revisorn till rätt företag
 
-1. Öppna det [!INCLUDE [prodshort](includes/prodshort.md)]-företag som du vill ge revisorn åtkomst till på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Öppna det [!INCLUDE[prodshort](includes/prodshort.md)]-företag som du vill ge revisorn åtkomst till på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.  
 3. Välj åtgärden **Skaffa nya användare från Office 365**.
 
 Detta importerar användarkontot som du skapade i Azure-portalen till företaget. Mer information finns i [S¨här lägger du till en användare i Business Central](ui-how-users-permissions.md#adduser).  
 
-Om du vill ge åtkomst till flera företag måste du logga in på respektive företag och upprepa den här processen. Du kan också uppdatera behörighetsgrupperna för revisorns användarprofil i [!INCLUDE [prodshort](includes/prodshort.md)], till exempel tilldela dem användargruppen *D365 Bus Premium*. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
+Om du vill ge åtkomst till flera företag måste du logga in på respektive företag och upprepa den här processen. Du kan också uppdatera behörighetsgrupperna för revisorns användarprofil i [!INCLUDE[prodshort](includes/prodshort.md)], till exempel tilldela dem användargruppen *D365 Bus Premium*. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Se även
 

@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190113"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528769"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nyheter i Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 Du kan alltid hänvisa till viktig information om du vill ha en översikt över nya och kommande funktioner. I dokumentationen kan du sedan söka efter avsnitt som du kan använda för att lära dig mer om nya och befintliga funktioner i [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -30,7 +30,7 @@ Information om alla tillägg som erbjuds av [!INCLUDE[d365fin](includes/d365fin_
 
 Vi talar om nya funktioner i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/), till exempel när de blir tillgängliga och om det finns några saker.  
 
-För partnercommunityn publicerar vi information på [ Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen för partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) och i hjälpen för [utvecklare och IT-proffs[!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+För partnercommunityn publicerar vi information på [ Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen för partner](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) och i hjälpen för [utvecklare och IT-proffs[!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Se även
 

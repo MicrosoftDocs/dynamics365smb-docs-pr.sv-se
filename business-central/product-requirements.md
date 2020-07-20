@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372598"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528719"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimikrav för att använda Business Central
-Innan du öppnar [!INCLUDE [prodshort](includes/prodshort.md)] online, bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
+Innan du öppnar [!INCLUDE[prodshort](includes/prodshort.md)] online, bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
 
 ## <a name="browsers"></a>Webbläsare
 
@@ -40,7 +40,7 @@ Innan du öppnar [!INCLUDE [prodshort](includes/prodshort.md)] online, bör du k
 **Enhetens storlek:** [!INCLUDE[d365fin](includes/d365fin_md.md)] stöds på smartphones med minsta skärmstorlek på 4 tum och surfplattor med minsta skärmstorlek på 7 tum.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-program:** För att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din företagsinkorg i Outlook, behöver du Outlook 2016 eller senare, Outlook i en webbläsare, Outlook för iPhone, Outlook för iPad eller Outlook för Android. Organisationen måste också använda Office 365. Du kan inte använda [!INCLUDE [prodshort](includes/prodshort.md)] online som inkorgen för företaget i Outlook om din organisation använder en Exchange Server lokalt.  
+**Outlook-program:** För att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din företagsinkorg i Outlook, behöver du Outlook 2016 eller senare, Outlook i en webbläsare, Outlook för iPhone, Outlook för iPad eller Outlook för Android. Organisationen måste också använda Office 365. Du kan inte använda [!INCLUDE[prodshort](includes/prodshort.md)] online som inkorgen för företaget i Outlook om din organisation använder en Exchange Server lokalt.  
 **Webbläsare:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] som din företagsinkorg i Outlook i en webbläsare, kräver tilläggsprogrammet att datorn kör någon av de angivna webbläsarna i listan över webbläsare som stöds tidigare i artikeln.  
 **Plattformar:** När du använder [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In i Outlook för iPhone, Outlook för iPad och Outlook för Android, kräver tilläggsprogrammet att den mobila enheten kör någon av de angivna mobila enheter som stöds för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
