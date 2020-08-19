@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528091"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611590"
 ---
 # <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
 Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och använda utvärderingsversion, köpa en prenumeration och använda [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också lära dig hur du får teknisk support.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Är [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgänglig i mitt land?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Är [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgänglig i mitt land/min region?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgänglig på ett begränsat antal marknader, men nya länder tillkommer varje kvartal via lokalisering av Microsoft eller dess partner. Mer information finns i avsnittet [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (finns endast på engelska).  
 
@@ -108,6 +108,10 @@ När du är redo att köpa [!INCLUDE[prodshort](includes/prodshort.md)], hittar 
 Om du vill ha vägledning från Microsoft kontaktar du [Microsofts säljteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Din återförsäljningspartner hanterar också teknisk support åt dig. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Var hittar jag radnumret?
+
+Dokument som försäljningsorder och inköpsfakturor består av huvud och rader. Varje rad har ett nummer som [!INCLUDE [prodshort](includes/prodshort.md)] använder för att identifiera den aktuella raden. På grund av detta kan du se en varning eller ett felmeddelande om att något är fel i radnummer 1000. I standardversionen av [!INCLUDE [prodshort](includes/prodshort.md)] är radnumren dolda. Om du vill se radnumren måste du anpassa den aktuella sidan och lägga till **Radnr** . Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Varför är ny information inte tillgänglig på mitt språk?
 

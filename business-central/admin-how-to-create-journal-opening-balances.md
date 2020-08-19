@@ -8,29 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c42e87db1e0dd792d9b4444db3cfe5d1a05ed48
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5360b3a8a72387cda8d0e640562a118ca1f20ff4
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187154"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577132"
 ---
 # <a name="create-journal-opening-balances"></a>Skapa ingående saldon för journalen
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller flera batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nytt konfigurerat företag. Det är enkelt att överföra dessa data för kundjournalen, leverantörsjournalen, artikeljournalen och redovisningsjournalen.
 
 Det första steget är att skapa ett konfigurationspaket som innehåller inställningstabeller för dessa journaler. I följande procedur förutsätts att detta steg har utförts. Mer information finns i [Skapa redovisningsjournaler](admin-set-up-company-configuration.md). Denna procedur beskriver de efterföljande stegen, bland annat koppling av paketet som tillhandahålls av en partner.  
 
 Innan du börjar rekommenderar vi att du använder administreringssidan för Rollcenter, detta då denna ger rätt sammanhang för ditt konfigurationsarbete. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Så här kan du koppla transaktionerna i en journal till ett nytt företag  
+## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Så här kan du koppla transaktionerna i en journal till ett nytt företag
+
 1. Konfigurera ett nytt företag och koppla ett konfigurationspaket till det. Mer information finns i [Konfigurera ett företag med RapidStart-guiden](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     Det nya företaget innehåller inte information om IB till journalen.  
 
 2. Öppna konfigurationskalkylarket och importera befintliga data om kunder, artiklar, leverantörer och redovisningen. Mer information finns också i  [Så här migrerar du kunddata](admin-migrate-customer-data.md).  
-3. Välj exempelvis åtgärden **Skapa kontojournalrader för redovisning**.  
+
+    Nu finns det huvuddata på plats. Sedan lägger du till ingående saldo. Följande steg beskriver hur du skapar journalrader för redovisningskonton, men samma gäller för att skapa journalrader för kunder, leverantörer och artiklar.  
+3. Välj åtgärden **Skapa kontojournalrader för redovisning**.  
 4. Fyll i snabbfliken **Alternativ** och ange filter efter behov. Skriv till exempel ett namn i fältet **Journalmall**.  
 5. Välj knappen **OK**. Posterna är nu i journalen, men beloppen är tomma.  
 6. Exportera journaltabellen till Excel och ange bokförings- och motkontoinformationen manuellt från bakåtkompatibla data.
@@ -39,7 +43,11 @@ Innan du börjar rekommenderar vi att du använder administreringssidan för Rol
 9. Granska informationen och välj sedan åtgärden **Bokför**.  
 10. Upprepa stegen för att importera och bokföra alla ingående saldon.  
 
-## <a name="see-also"></a>Se även  
+> [!TIP]
+> Du kan använda samma batch-jobb för att lägga till ingående saldo när du registrerar en ny kund eller leverantör som du har gjort affärer med tidigare men inte registrerat i [!INCLUDE [prodshort](includes/prodshort.md)]. Sök bara efter den relevanta uppgiften och välj sedan önskad länk.
+
+## <a name="see-also"></a>Se även
+
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Administration](admin-setup-and-administration.md)
+[Administration](admin-setup-and-administration.md)  

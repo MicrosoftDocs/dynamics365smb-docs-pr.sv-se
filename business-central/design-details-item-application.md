@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185162"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617633"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
+
 När du bokför en lagertransaktion registreras antalsbokföringen i artikeltransaktionerna, och värdebokföringen i värdetransaktionerna. Mer information finns i [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)  
 
 Dessutom skapas en artikelkoppling för att koppla kostnadsmottagare till sin kostnadskälla för att skapa kostnadsspedition enligt värderingsprincipen. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).  
@@ -34,21 +35,21 @@ Artikelkopplingar kan utföras på följande sätt.
 |Metod|Description|Kopplingstyp|  
 |------------|---------------------------------------|----------------------|  
 |Automatiskt|Uppstår som allmän kostnadsspedition enligt värderingsprincipen|Antalskoppling|  
-|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr** eller genom att använda en funktion, till exempel **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
+|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr**, eller genom att använda en funktion som **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
 
 Om du gör antalskopplingar eller kostnadskopplingar beror på lagertransaktionens riktning, och om en artikelkoppling utförs automatiskt eller fast, i samband med specifika processer.  
 
 Efterföljande tabell visar, baserat på de centrala kopplingsfälten på lagertransaktionsrader, hur kostnader flödar beroende på transaktionsriktningen. Det innebär även när och varför artikelkopplingen är av typen antal eller kostnad.  
 
-||Koppla till fältet Artikeltrans.|Koppla från fältet Artikeltrans.|  
+|-|Koppla till fältet Artikeltrans.|Koppla från fältet Artikeltrans.|  
 |-|--------------------------------|----------------------------------|  
 |Koppling för avgående transaktion|Den avgående transaktionen drar kostnaden från den öppna ankommande transaktionen.<br /><br /> **Antalskoppling**|Stöds inte|  
 |Koppling för ankommande transaktion|Den ankommande transaktionen trycker kostnaden på den öppna avgående transaktionen.<br /><br /> Den ankommande transaktionen är kostnadskällan.<br /><br /> **Antalskoppling**|Den ankommande transaktionen drar kostnaden från den avgående transaktionen. **Obs!**  När du gör den fast kopplingen hanteras ankommande transaktioner som en försäljningsretur. Därför förblir den kopplade avgående transaktionen öppen. <br /><br /> Den ankommande transaktionen är INTE kostnadskällan.<br /><br /> **Kostnadskoppling**|  
 
 > [!IMPORTANT]  
->  En försäljningsretur anses INTE vara en kostnadskälla när den är fast kopplad.  
->   
->  Försäljningsposten förblir öppen tills den verkliga källan bokförs.  
+> En försäljningsretur anses INTE vara en kostnadskälla när den är fast kopplad.  
+>
+> Försäljningsposten förblir öppen tills den verkliga källan bokförs.  
 
 I en artikelkopplingstransaktion registreras följande information.  
 
@@ -206,7 +207,7 @@ Följande exempel, som visas hur överföringstransaktioner används, baseras p�
 
 Följande tabell visar effekten av den överföringen på artikelns värdetransaktioner.  
 
-|Bokföringsdatum|Artikeltransaktionstyp|Platskod|Antal|Kost.belopp (aktuellt)|Löpnr|  
+|Bokföringsdatum|Artikeltransaktionstyp|Lagerställekod|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Inköp|BLÅ|1|10.00|1|  
 |01-01-20|Inköp|BLÅ|1|20.00|2|  
@@ -221,7 +222,7 @@ Följande exempel, som visar hur överföringstransaktioner används, baseras p�
 
 Följande tabell visar effekten av den överföringen på artikelns värdetransaktioner.  
 
-|Bokföringsdatum|Artikeltransaktionstyp|Platskod|Antal|Kost.belopp (aktuellt)|Löpnr|  
+|Bokföringsdatum|Artikeltransaktionstyp|Lagerställekod|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Inköp|BLÅ|1|10.00|1|  
 |02-01-20|Överföring|BLÅ|-1|10,00|2|  

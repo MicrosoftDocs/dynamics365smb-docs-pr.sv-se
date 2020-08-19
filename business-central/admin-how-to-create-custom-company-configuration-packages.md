@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187178"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666853"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Så här skapar du anpassade konfigurationspaket för företag
 När verksamheten växer, kommer du antagligen att behöva förlita dig på en uppsättning företagstyper som du använder med de flesta av dina kunder. Du kan rationalisera implementeringsprocessen genom att omvandla dessa typer till företagskonfigurationspaket som är tillgängliga för återanvändning.  
@@ -38,6 +38,11 @@ En annan metod är att skapa ett paket som innehåller tabellerna för definitio
 -   Lagerbokföringsinställning  
 
 För att se en komplett lista över inställningstabeller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Manuell inställning** och välj sedan relaterad länk.  
+
+> [!IMPORTANT]
+> Var försiktig om du väljer tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t.ex. innehålla fälten "Fält 1" och "Fält 1 %".
+>
+> XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t.ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Så här skapar du ett anpassat konfigurationspaket för företag  
 1.  Skapa ett nytt företag. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).  

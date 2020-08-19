@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496806"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617942"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
@@ -36,7 +36,7 @@ Du använder vanligtvis *montering mot kundorder* för de artiklar som du inte v
 
 I montering mot kundorderprocessen är artikel satt samman som svar på en försäljningsorder och med ett ett-till-ett-länk mellan monteringsorder och försäljningsorder.  
 
-När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader, som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda sidan **Montering mot kundorderrader** för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
+När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda sidan **Montering mot kundorderrader** för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Även om detta inte är en del av standard processen, kan du sälja lagerkvantiteten med antalet för montering mot kundorder. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -72,7 +72,7 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Följande tabell förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i en kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
 
-||Försäljningsorderrad|Monteringsorderhuvud|  
+|-|Försäljningsorderrad|Monteringsorderhuvud|  
 |-|----------------------|---------------------------|  
 ||**Antal**|**Ant. att utleverera**|**Antal att montera mot kundorder**|**Utlevererat antal**|**Antal**|**Antal att montera**|**Monterad kvantitet**|**Återstående antal**|  
 |Initial|10|7|7|0|7|7|0|7|  

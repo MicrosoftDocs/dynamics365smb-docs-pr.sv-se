@@ -10,15 +10,17 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aabbba7c6cf5aa84797369c8fefad1ef79fa805f
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182498"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666828"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobila enhet
 Komma åt [!INCLUDE[d365fin](includes/d365fin_md.md)] från en mobil enhet. Du kan navigera genom dina affärsdata, använda funktioner som till exempel skicka till Excel eller Office 365, visa aktuella diagram och KPI-er, e-posta försäljningsofferter och fakturor och ta och bifoga bilder med din kamera. Följ stegen nedan för att hämta programmet och komma igång.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje]
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>För att få programmet på en mobil enhet.
 1. Installera appen [!INCLUDE[d365fin](includes/d365fin_md.md)] på den mobila enheten genom att hämta programmet från Windows Store, App Store, eller Google Play.  

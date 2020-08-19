@@ -1,8 +1,6 @@
 ---
 title: Arbeta med inkommande dokument | Microsoft Docs
 description: Du kan hantera inkommande externa företagsdokument, som till exempel betalningsinleveranser eller PDF-filer, hantera OCR-uppgifter och konvertera filer till elektroniska dokument och poster.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0c0c71de9b560f94427c26ffed944a8155639028
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187802"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676875"
 ---
 # <a name="incoming-documents"></a>Inkommande dokument
+
 Vissa affärstransaktioner registreras inte i [!INCLUDE[d365fin](includes/d365fin_md.md)] från början. I stället kommer ett externt affärsdokument till ditt företag som en e-postbilaga eller papperskopia som du skannar för att spara. Det här är typiskt för inköp där sådana inkommande dokument representerar betalningkvitton för kostnader eller små inköp.
 
-Från PDF eller bildfiler som representerar inkommande dokument kan du låta en extern OCR-tjänst (Optical Character Recognition) generera elektroniska dokument som därefter kan konverteras till dokumentposter inne i "[!INCLUDE[d365fin](includes/d365fin_md.md)]".
+Från PDF eller bildfiler som representerar inkommande dokument kan du låta en extern OCR-tjänst (Optical Character Recognition) generera elektroniska dokument som därefter kan konverteras till dokumentposter inne i "[!INCLUDE[d365fin](includes/d365fin_md.md)]". Välj ett servicepaket som passar din organisation och/eller ditt land/din region. Du kan också skapa transaktioner manuellt för att visa de externa dokumenten.  
 
 På sidan **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
 
@@ -47,5 +46,6 @@ Processen för inkommande dokument består av följande huvudaktiviteter:
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
+
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

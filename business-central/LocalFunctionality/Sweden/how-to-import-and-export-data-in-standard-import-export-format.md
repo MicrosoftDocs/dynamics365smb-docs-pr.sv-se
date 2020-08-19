@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4236cbe6daa4bbd35a0143444b133f8978cc2cab
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a5663ef4d4521be4591d9fd0e8e6ce456403c8b4
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189158"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676756"
 ---
 # <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 ## <a name="to-import-data-in-sie-format"></a>Så här importerar du data i SIE-format  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **SIE-import** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](../../media/ui-search/search_small.png "Berätta vad du vill göra"), ange **SIE-import** och välj sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
@@ -38,7 +38,7 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 
 ## <a name="to-export-data-in-sie-format"></a>Så här exporterar du data i SIE-format  
 
-1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **SIE-export** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](../../media/ui-search/search_small.png "Berätta vad du vill göra"), ange **SIE-export** och välj sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 

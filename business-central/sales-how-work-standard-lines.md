@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402565"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577182"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Skapa återkommande försäljnings- och inköpsrader
 Om du ofta behöver skapa försäljnings- och inköpsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande försäljning och inköpsdokument, till exempel för återkommande påfyllningsorder.  
@@ -31,6 +31,8 @@ I följande procedur visas hur du arbetar med in standardförsäljningsrader på
 
 > [!NOTE]
 > Du kan inte definiera priser på återkommande standardförsäljningsrader eftersom priser, rabatter och så vidare beräknas på de faktiska försäljningsdokumenten när du infogar återkommande standardförsäljningsrader.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Så här tilldelar du återkommande försäljningsrader till kunder
 

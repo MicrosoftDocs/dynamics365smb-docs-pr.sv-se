@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/05/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: fc311badfb682bdedb37139bba5618ab60c1d988
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339976"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577157"
 ---
 # <a name="planning"></a>Planering
+
 De produktionsoperationer som krävs för att omvandla inflöde till färdiga varor måste planeras varje dag eller varje vecka beroende på vad det är för produkt och vilka volymer det handlar om. [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder funktioner för att leverera mot förväntat och faktiskt behov från försäljning, montering och produktion samt för distributionsplanering med lagerställeenheter och lageröverföringar.
 
 > [!NOTE]
-> Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är sidan **planeringsförslag**.<br /><br />
+> Det här avsnittet beskriver främst planering för de bolag som deltar i produktionen eller monteringshantering där den resulterande leveransorder kan vara tillverkning, montering, överföring eller inköpsorder. Det huvudsakliga gränssnittet för den här planeringen är sidan **planeringsförslag**.
+>
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder också leveransplanering för grossistföretag där de resulterande leveransordrarna endast kan vara överföring och inköpsorder. Huvudsakliga gränssnittet för den här planeringen är sidan **inköpskalkylark** som indirekt beskrivs i det här avsnittet eftersom de flesta funktioner gäller för båda kalkylark.
 
 Planering kan ses som det som krävs för att förbereda leveransorder i inköps-, monterings- eller produktionsavdelningar för att uppfylla efterfrågan på försäljning och slutartikel. Mer information finns i [Inköp](purchasing-manage-purchasing.md), [monteringshantering](assembly-assemble-items.md) och [Produktion](production-manage-manufacturing.md).
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
@@ -38,7 +40,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Skapa en projektproduktionsorder direkt från en försäljningsorder med flera rader så att den representerar ett produktionsprojekt.|[Planera projektorder](production-how-to-plan-project-orders.md)|
 |Använd sidan **Orderplanering** för att manuellt planera för försäljnings- eller produktionsbehovet på en strukturnivå i taget.|[Planera ny behovsorder efter order](production-how-to-plan-for-new-demand.md)|
 |Använd sidan **planeringsförslag** för att köra både Prod.program och Nettobehov för att automatiskt skapa en hög eller detaljerad försörjningsplan på alla artikelnivåer.|[Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)|
-|Köra inköpskalkylarket för att automatiskt skapa en detaljerad försörjningsplan för att täcka behovet av artiklar som endast kan återanskaffas via inköp eller överföring.|Sidan **Inköpskalkylark**|  
+|Använd sidan **Inköpskalkylark** för att automatiskt skapa en detaljerad försörjningsplan för att täcka behovet av artiklar som endast kan återanskaffas via inköp eller överföring.|[Inköpskalkylark](production-about-planning-functionality.md#requisition-worksheet)|  
 |initialisera eller uppdatera en produktionsorder som grovplanerade operationer i produktionsplanen.|[Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)|
 |Omberäkna produktions- eller maksingruppkalender på grund av planeringsändringar.|[Så här beräknar du en produktionsgruppkalender](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden.|[Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)|

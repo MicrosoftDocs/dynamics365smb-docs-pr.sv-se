@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529119"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619437"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
+
 Det finns några saker som du kan göra som hjälper dig att söka, hitta och begränsa poster i en lista eller i en rapport eller XMLport. Dessa inkluderar sortering, sökning och filtrering. Du kan använda några eller alla av dessa samtidigt för att snabbt söka efter och analysera data.
 
-För rapporter och XMLport kan du ange filter som på listor för att begränsa vilka data som ska tas med i rapporten XMLport, men du kan inte sortera och söka.
+För rapporter och XMLportar kan du, som på listor, ange filter för att begränsa vilka data som ska tas med i rapporten XMLport, men du kan inte sortera och söka.
 
 > [!TIP]
 > När du visar data sida vid sida kan du söka och använda enkel filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som vänster listpil") om du vill visa posterna som en lista.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Sortering
+
 Med hjälp av sorteringsfunktionen kan du snabbt få en överblick över dina data. Om t.ex. har många kunder kan du sortera dem efter **Kundnr.**, **Kundbokföringsmall**, **Valutakod**, **Lands-/regionkod**, eller **Momsregistreringsnr.** för att få den översikt som du behöver.
 
 Om du vill sortera en lista, kan du välja en kolumn rubriktexten för att växla mellan stigande och fallande ordning, eller välja listpilen i kolumnrubriken och välj **stigande** eller **fallande**.  
 
 > [!NOTE]  
->   Sortering stöds inte på bilder, BLOB-fält, Flowfilter och fält som inte tillhör samma tabell.  
+> Sortering stöds inte på bilder, BLOB-fält, Flowfilter och fält som inte tillhör samma tabell.  
 
 ## <a name="searching"></a>Sökning
+
 <!--## Searching by using the Quick Filter -->
 Högst upp på varje listsida finns åtgärden ![Söklistikon](media/ui-search/search-list.png "Ikon för Söklista") **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
 
 Sök genom att bara markera åtgärden **Sök** och skriv den text som du vill söka efter i rutan. Du kan ange bokstäver, siffror och andra symboler.
 
 ### <a name="fine-tuning-the-search"></a>Finjustera sökningen
+
 Vanligtvis försöker sökningen matcha text i alla fält. Den skiljer inte mellan versaler och gemener (d.v.s. skiftlägeskänslig) och matchar texten som placeras var som helst i fältet i början, slutet eller i mitten.
 
 Men du kan göra en mer exakt sökning med hjälp av specialtecken.
@@ -70,9 +74,10 @@ I tabellen nedan finns några exempel som förklarar hur du kan använda söknin
 > Du kan trycka på **F3** för att aktivera och avaktivera sökrutan. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> Sökningen matchar inte värden i bilder, BLOB-fält, FlowFilter, FlowFields och andra fält som inte ingår i en tabell. 
+> Sökningen matchar inte värden i bilder, BLOB-fält, FlowFilter, FlowFields och andra fält som inte ingår i en tabell.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrering
+
 Filtrering ger ett mer avancerat och flexibelt sätt att kontrollera vilka poster som ska visas i en lista eller inkludera en rapport eller XMLport. Det finns två stora skillnader mellan sökning och filtrering, enligt beskrivningen i följande tabell.
 
 || **Sökning** | **Filtrering** |
@@ -85,6 +90,7 @@ Filtrering låter dig visa poster för specifika konton eller kunder, datum, bel
 För listor visas filtren i ett filterfönster som visas till vänster om listan när du aktiverar den. För rapporter, batch-jobb och XMLport-kolumner visas filtren direkt på sidan för begäran.
 
 ### <a name="filtering-with-option-fields"></a>Filtrera med alternativfält
+
 För "vanliga fält som innehåller data, inställningsdatum eller affärsdata kan du ange filter både genom att markera data och ange filtervärden, och du kan använda symboler för att definiera avancerade filterkriterier. Mer information finns i [Ange filtervillkor](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 För fält av typen **alternativ**kan du bara ange ett filter genom att välja ett eller flera alternativ i en listruta med tillgängliga alternativ. Ett exempel på ett alternativfält är fältet **status** på sidan **försäljningsorder**.
@@ -93,6 +99,7 @@ För fält av typen **alternativ**kan du bara ange ett filter genom att välja e
 > När du väljer flera alternativ som filtervärde definieras relationen mellan alternativen som *ELLER*. Om du till exempel markerar både kryssrutan **öppna** och **släppta** i fältet **status** på sidan **försäljningsorder** betyder det att försäljningsorder som antingen är öppna eller släppta visas.
 
 ### <a name="setting-filters-on-lists"></a>Ange filter för listor
+
 I listor anger du filter genom att använda filterrutan. Om du vill visa filterrutan för en lista väljer du listpilen bredvid sidans namn och väljer sedan åtgärden **Visa filterruta**. Du kan också trycka på **Shift+F3**.
 
 Om du vill visa filterrutan för en kolumn på en lista väljer du listpilen bredvid och väljer sedan åtgärden **Filter**. Du kan också trycka på **Shift+F3**. Filterrutan öppnas och den markerade kolumnen visas som ett filterfält i avsnittet **Filtrera lista efter**.
@@ -119,6 +126,7 @@ Filterrutan visar en lista över aktuella filter för en lista och gör att du k
 Du kan ställa in ett enkelt filter direkt på en lista i med hjälp av filterrutan, nämligen ett filter som visar endast poster med samma värde som i den markerade cellen. Välj en cell på listan, välj listpilen bredvid och väljer sedan åtgärden **Filtrera på det här värdet**. Du kan också trycka på **Alt+F3**.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Ange filter i rapporter, batch-jobb och XMLport
+
 För rapporter och XMLport-kolumner visas filtren direkt på sidan för begäran. På sidan för begäran visas de filter som används senast enligt ditt val i fältet **Använd standardvärden från**. Mer information finns i [Använda sparade inställningar](ui-work-report.md#SavedSettings).
 
 I huvudavsnittet **filter** visas de standardfilterfält som du använder för att avgränsa vilka poster som ska ingå i rapporten or XMLport. Du kan lägga till ett filter genom att välja åtgärden **+ Filter** och sedan ange namnet på det fält som du vill filtrera efter eller välja ett fält från den nedrullningsbara listan.
@@ -126,6 +134,7 @@ I huvudavsnittet **filter** visas de standardfilterfält som du använder för a
 I avsnittet **Filtrera summor efter** kan du justera olika dimensioner som påverkar beräkningarna i rapporten eller XMLport. Du kan lägga till ett filter genom att välja åtgärden **+ Filter** och sedan ange namnet på det fält som du vill filtrera efter eller välja ett fält från den nedrullningsbara listan.
 
 ## <a name="entering-filter-criteria"></a>Ange villkor i filter
+
 Både i filterrutan och på sidan för förfrågan anger du filterkriterier i rutan under filterfältet.
 
 Typen av filterfält som du vill filtrera avgör vilka kriterier du kan ange. Till exempel kommer filtrering av ett fält som har fasta värden bara låta dig välja mellan dessa värden. Mer information om särskilda filtersymboler finns i [Filterkriterier](#FilterCriteria) och [Filtertoken](#FilterTokens).
@@ -136,10 +145,11 @@ Kolumner som redan har filter som indikeras av ikonen ![filterikon](media/ui-sea
 > Sök och analysera dina data snabbare genom att använda kombinationer av kortkommandon. Exempelvis markerar du ett fält, använder **Skift + Alt + F3** om du vill lägga till fältet i filterrutan, använder **Ctrl + Retur** om du vill återgå till raderna, markerar ett annat fält och använder **Alt + F3** för att filtrera det värdet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filterkriterier och symboler
+
 När du anger kriterier kan du använda alla siffror och bokstäver som du normalt kan använda i fältet. Dessutom kan du använda specialtecken (eller operatorer) som du vill filtrera resultatet ytterligare. I tabellen nedan visas de symboler som kan användas i filter. För datum och tid kan du också se [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md) för mer detaljerad information.
 
 > [!IMPORTANT]  
->  Det kan finnas fall där fältvärdena innehåller dessa symboler och du vill filtrera efter de. Genom att ibland behöva du inkludera det filteruttryck som innehåller symbolen med citattecken (”). Om du exempelvis vill filtrera poster som börjar med texten till exempel *S&R* är filteruttrycket `'S&R*'`.
+> Det kan finnas fall där fältvärdena innehåller dessa symboler och du vill filtrera efter de. Genom att ibland behöva du inkludera det filteruttryck som innehåller symbolen med citattecken (”). Om du exempelvis vill filtrera poster som börjar med texten till exempel *S&R* är filteruttrycket `'S&R*'`.
 
 I följande avsnitt beskrivs hur du använder olika operatorer.
 
@@ -273,6 +283,7 @@ Använd `%myvendors` i fältet leverantörs**nr** om du vill visa alla poster f�
 |`%myvendors`|Leverantörer i **mina leverantörer** i rollcentret. |  
 
 ## <a name="see-also"></a>Se även
+
 [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
 [Spara och anpassa listvyer](ui-views.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

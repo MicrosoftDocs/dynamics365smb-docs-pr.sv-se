@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262196"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666953"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
@@ -27,6 +27,11 @@ Du kan göra olika ändringar, som att flytta och dölja fält, kolumner och åt
 > [!NOTE]
 > Administratörer kan utföra samma layoutändringar när användare kan anpassa arbetsytan för en profil som tilldelas flera användare. Mer information finns i [Anpassa sidor för roller](ui-personalization-manage.md).<br /><br />
 Administratörer kan också åsidosätta eller inaktivera användarnas anpassning och de kan definiera vilka funktioner som till och med är tillgängliga för användare att se i alla eller specifika företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Video: översikt
+I följande video visas några av de sätt som du kan anpassa ditt rollcenter på.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>För att ändra bredden på en kolumn
 Du kan enkelt ändra storlek på kolumnerna i alla listor genom att dra gränsen mellan två kolumner till vänster eller höger.

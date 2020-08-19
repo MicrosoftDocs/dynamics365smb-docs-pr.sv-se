@@ -1,5 +1,5 @@
 ---
-title: 'Använda automatisk koppling för att stämma av betalningar | Microsoft Docs '
+title: Definiera regler för automatisk koppling av betalningar
 description: På regelsidan för Betalningskoppling anger du regler som styr hur betalningar/banktransaktioner automatiskt ska kopplas till sina relaterade öppna transaktioner när du använder funktionen Koppla automatiskt på sidan Betalningsavstämningsjournal.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191937"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617579"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
+
 På sidan **Regler för betalningskoppling** ställer du in regler som styr hur betalningstext (på en banktransaktion) automatiskt matchas med text på öppna transaktioner i följande två processer:
+
 - Koppla automatiskt betalningar till deras relaterade öppna (obetalda) fakturor, kreditnotor eller andra transaktioner när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 - Matcha automatiskt banktransaktioner med deras relaterade, interna bankkontotransaktioner när du väljer åtgärden **Matcha automatiskt** på sidan **Kontoavstämning**. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).

@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189849"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666878"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Tillägget Envestnet Yodlee Bank Feeds
 För att snabbt avstämma utbetalningar som gjorts till dina bankkonton, låter dig Envestnet Yodlee Bank Feeds länka ditt systembankkonto till ditt onlinebankkonto. Det betyder att det senaste kontoutdraget automatiskt eller manuellt matas in i din avstämningsjournal och ser till att du alltid behandlar de senaste utbetalningarna med minsta risk för fel.
@@ -40,6 +40,9 @@ Tjänsten Envestnet Yodlee Bank Feeds ger följande fördelar:
 * Tillåter aktuell information om banktransaktioner inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Stöder manuella samt automatiska bankfeeder.
 * Aktiverar utkontraktering av utbetalningxavstämning till en revisor genom att ge åtkomst till kontoutdrag.
+
+## <a name="available-bank-feeds"></a>Tillgängliga bankflöden
+Du kan kontrollera om en bank stöds genom att ställa in och ansluta till tjänsten Envestnet Yodlee Bank Feeds. Banken kommer att visas i listan om den stöds av Envestnet Yodlee.
 
 Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 

@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 52312113328aadb82a1149ecf03b3e870ae3c288
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f6ce4c0c304fc8255789ec91fb3a00ba78170d6d
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194865"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666928"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
 Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
 
- Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha fyllt i minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. Om du vill kombinera utleveranser måste du markera kryssrutan **Samlingsfakturering** på snabbfliken **Leverans** på **Kund**-kortet.  
+Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha skapat minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
 3. I fältet **Förs.kundnr.** Ange den kund som ska få fakturan för de levererade artiklarna, i fältet.  
 4. På snabbfliken **Rader** klickar du på åtgärden **Hämta utleveransrader**.  
@@ -36,10 +36,12 @@ Om du vill fakturera mer än en leverans åt gången kan du använda funktionen 
 7. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] väljer endast de försäljningsorder där **Kombinera leveranser** har valts. 
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kombinera leveranser** och välj sedan relaterad länk. Sidan för begäran om batch-jobb öppnas.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markera kryssrutan **Bokför fakturor**.  
-4.  Välj knappen **OK**.  
+4. Välj **OK**.  
 
 > [!NOTE]  
 >  Fakturorna måste bokföras manuellt om du inte har markerat kryssrutan **Bokför fakturor** för batch-jobbet.  

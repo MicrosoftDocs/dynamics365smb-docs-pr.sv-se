@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496831"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617685"
 ---
 #  <a name="create-analysis-reports"></a>Skapa analysrapporter
 Försäljningschefer behöver regelbundet analysera omsättning, bruttovinst och andra viktiga indikatorer på försäljningen. Inköpare är mer intresserade av dynamiken i inköpsvolymer, leverantörens kapacitet och inköpspriser. Logistik- och lagerchefer behöver i sin tur information om lageromsättning, analyser av lagerrörelser och statistik över lagervärdet.  
@@ -45,7 +45,7 @@ Sedan kan du lägga upp kolumner så här:
 
 Baserat på de rader och kolumner du har lagt upp sammanställs [!INCLUDE[d365fin](includes/d365fin_md.md)] resultatet i rapporten på sidan **Analysrapport** som följande tabell.  
 
-| |Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
+|- |Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
 |-|-|-|-|  
 |Datorer| | | |  
 |Bildskärmar| | | |  

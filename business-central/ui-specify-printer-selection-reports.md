@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272092"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549873"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
@@ -55,7 +55,11 @@ Om du använder tillägget för e-postskrivare skickas alla eller vissa utskrift
 Du måste vidta alla nödvändiga sekretessåtgärder, inklusive att se till lösningen för e-postutskrift har korrekt konfigurerade behörigheter, sekretessinställningar och lagringsmetoder. Det är ditt ansvar att skapa en korrekt, verifierad och fungerande e-postadress. Mer information finns i [Microsofts sekretesspolicy](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>För att välja vilka skrivare som ska skriva ut vilka rapporter
+
 På sidan **Skrivarhantering** kan du för ditt användarkonto ange vilka rapporter som ska skrivas ut av vilken skrivare. Detta är användbart om du arbetar med olika rapporter som kräver olika skrivare på grund av sin placering i företaget eller deras utskriftskapacitet.
+
+> [!IMPORTANT]
+> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt kan sidan **Skrivarval** endast användas för skrivare som definieras av skrivartillägg. Det kan inte användas för lokala skrivare.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skrivarhantering** och välj sedan relaterad länk. Du kan också välja sidan **Skrivarhantering** och sedan välja åtgärden **Skrivarhantering**.
 2. Välj åtgärden **Ny** om du vill lägga till ett Skrivarhantering för en specifik rapport.

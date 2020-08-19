@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185114"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617552"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
+
 Samtidigt användning av reservation och specifik artikelspårning är ovanlig, eftersom de båda skapar en koppling mellan tillgång och efterfrågan. Förutom i situationer där en kund eller en produktionsplanerare begär ett visst parti, är det sällan meningsfullt att reservera lagerartiklar som har redan artikelspårningsnummer för viss koppling. Även om det är möjligt att reservera artiklar som kräver särskild artikelspårning, krävs särskilda funktioner för att undvika konflikter mellan orderhandläggare som begär samma spårade artiklar.  
   
 Begreppet Sen bindning säkerställer att en icke-specifik reservation av serienummer eller partinummer förblir löst kopplad till bokföringen. Vid bokföringstiden kan reservationsystemet blanda om icke-specifika reservationer för att se till att fasta kopplingar är möjliga för det serie- eller partinummer som faktiskt plockas. Under tiden görs serie- eller partinumret tillgängligt för specifik reservation i andra dokument som begär just det serie- eller partinumret.  
@@ -25,7 +26,7 @@ Begreppet Sen bindning säkerställer att en icke-specifik reservation av serien
 En icke-specifik reservation är en där användaren inte att bry sig om vilken specifik artikel som plockas, och en specifik reservation är en där användaren att bryr sig.  
   
 > [!NOTE]  
->  Funktionen Sen bindning gäller endast för artiklar som ställs in med specifik artikelspårning och den gäller endast för reservationer mot lager, inte mot den ankommande leveransorder.  
+> Funktionen Sen bindning gäller endast för artiklar som ställs in med specifik artikelspårning och den gäller endast för reservationer mot lager, inte mot den ankommande leveransorder.  
   
 Reservation av artikelspårningsnummer är uppdelad i två kategorier, som visas i följande tabell.  
   
@@ -36,11 +37,9 @@ Reservation av artikelspårningsnummer är uppdelad i två kategorier, som visas
   
 Den huvudsakliga skillnaden mellan specifika och icke-specifika reservationer definieras av förekomsten av serie- eller partinummer på efterfråganssidan, så som visas i följande tabell.  
   
-||||  
-|-|-|-|  
-||**Tillgång**|**Efterfrågan**|  
+|<!--blank -->|**Tillgång**|**Efterfrågan**|  
 |**Specifik**|Serie- eller partinummer.|Serie- eller partinummer.|  
-|**Icke-specifik**|Serie- eller partinummer.|Inget serie- eller partinummer|  
+|**Icke-specifik**|Serie- eller partinummer.|Inget serie- eller partinummer.|  
   
 När du reserverar lagerkvantiteter från en avgående dokumentrad för en artikel som har artikelspårningsnummer tilldelade och är inställd för särskild artikelspårning, leder sidan **Reservation** dig via olika arbetsflöden beroende på vad du behöver för serie- eller partinumren.  
   

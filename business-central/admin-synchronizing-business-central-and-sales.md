@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484115"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617710"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synkroniserar data i Business Central med Common Data Service
+
 När du integrerar [!INCLUDE[d365fin](includes/cds_long_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du bestämma om du vill synkronisera data i valda fält för i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (till exempel kunder, kontakter och säljare) med motsvarande poster i [!INCLUDE[d365fin](includes/cds_long_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på vilken typ av post kan du synkronisera data från [!INCLUDE[d365fin](includes/cds_long_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synkronisering använder följande element:
@@ -42,13 +43,13 @@ Enheter i [!INCLUDE[d365fin](includes/cds_long_md.md)] till exempel konton, är 
 
 I följande tabell visas standardmappningen mellan enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] som [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller.
 
-|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synkroniseringsriktning|Standardfilter|
-|-------------------------------------------|-----|-------------------------|--------------|
-|Säljare/Inköpare|Användare|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] kontaktfilter: **Status** är **Nej**, **Licensierad användare** är **Ja**, integreringsanvändarläge är **Nej**|
-|Kund|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] kontofilter: **Relationstyp** är **Kund** och **Status** är **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)] filter: **Spärrad** är tom (kunden är inte spärrad).|
-|Leverantör|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] kontofilter: **Relationstyp** är **Leverantör** och **Status** är **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)] filter: **Spärrad** är tom (leverantör är inte spärrad).|
-|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Typen** är **Person** och kontakten har tilldelats till ett företag. [!INCLUDE[d365fin](includes/cds_long_md.md)] kontaktfilter: Kontakten har tilldelats till ett företag och överordnad kundtyp är **Konto**|
-|Valuta|Transaktionsvaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
+| [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synkroniseringsriktning | Standardfilter |
+|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
+| Säljare/Inköpare | Användare | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] kontaktfilter: **Status** är **Nej**, **Licensierad användare** är **Ja**, integreringsanvändarläge är **Nej** |
+| Kund | Konto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] kontofilter: **Relationstyp** är **Kund** och **Status** är **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)] filter: **Spärrad** är tom (kunden är inte spärrad). |
+| Leverantör | Konto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] kontofilter: **Relationstyp** är **Leverantör** och **Status** är **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)] filter: **Spärrad** är tom (leverantör är inte spärrad). |
+| Kontakt | Kontakt | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Typen** är **Person** och kontakten har tilldelats till ett företag. [!INCLUDE[d365fin](includes/cds_long_md.md)] kontaktfilter: Kontakten har tilldelats till ett företag och överordnad kundtyp är **Konto** |
+| Valuta | Transaktionsvaluta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Tips för administratörer: Visa entitetsmappningar

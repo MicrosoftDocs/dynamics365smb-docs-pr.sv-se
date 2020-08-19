@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496681"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617917"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
+
 Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitali
 
 Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
-|Värderingsprincip|Beskrivning|Används när|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt FIFO-regeln.<br /><br /> I lagervärdering antas det att de första artiklarna in i lagret säljs först.|I affärsmiljöer där produktkostnaden är stabil.<br /><br /> (När priser stiger visar balansräkningen ett högre värde. Det betyder att skatteskuler ökar, men kreditpoängen och förmåga att låna kontant ökar.)<br /><br /> För artiklar med ett begränsat hållbarhetstid, eftersom de äldsta varorna måste säljas innan deras hållbarhetstid passerat.|  
-|LIFO (Sist in, först ut)|En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt LIFO-regeln.<br /><br /> I lagervärdering antas det att de senaste artiklarna in i lagret säljs först.|Tillåts inte i många länder/regioner, eftersom det kan användas för att dölja vinst.<br /><br /> (När priser vill stiger, minskas värdet på resultaträkningen. Det betyder att skatteskulder minskar, men din förmåga att låna kontant försämras.)|  
-|Genomsnitt|En artikels styckkostnad beräknas enligt den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp.<br /><br /> För lagervärdering förutsätts att alla lagerartiklar säljs samtidigt.|I affärsmiljöer där produktkostnaden inte är stabil.<br /><br /> När lager travas eller blandas samman och inte kan åtskiljas, till exempel kemikalier.|  
-|Specifik|En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten.|I produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> För artiklar som lyder under regler.<br /><br /> För artiklar med serienummer.|  
-|Standard|En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden.|När kostnadskontroll är kritisk.<br /><br /> I upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> När det finns funktion och personal som underhåller standarder.|  
+| Värderingsprincip | Beskrivning | Används när |
+|--|--|--|
+| FIFO | En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt FIFO-regeln.<br /><br /> I lagervärdering antas det att de första artiklarna in i lagret säljs först. | I affärsmiljöer där produktkostnaden är stabil.<br /><br /> (När priser stiger visar balansräkningen ett högre värde. Det betyder att skatteskuler ökar, men kreditpoängen och förmåga att låna kontant ökar.)<br /><br /> För artiklar med ett begränsat hållbarhetstid, eftersom de äldsta varorna måste säljas innan deras hållbarhetstid passerat. |
+| LIFO (Sist in, först ut) | En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt LIFO-regeln.<br /><br /> I lagervärdering antas det att de senaste artiklarna in i lagret säljs först. | Tillåts inte i många länder/regioner, eftersom det kan användas för att dölja vinst.<br /><br /> (När priser vill stiger, minskas värdet på resultaträkningen. Det betyder att skatteskulder minskar, men din förmåga att låna kontant försämras.) |
+| Genomsnitt | En artikels styckkostnad beräknas enligt den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp.<br /><br /> För lagervärdering förutsätts att alla lagerartiklar säljs samtidigt. | I affärsmiljöer där produktkostnaden inte är stabil.<br /><br /> När lager travas eller blandas samman och inte kan åtskiljas, till exempel kemikalier. |
+| Specifik | En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten. | I produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> För artiklar som lyder under regler.<br /><br /> För artiklar med serienummer. |
+| Standard | En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden. | När kostnadskontroll är kritisk.<br /><br /> I upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> När det finns funktion och personal som underhåller standarder. |
 
  Följande bild visar hur kostnader flödar via lagret för varje värderingsprincip.  
 
@@ -40,7 +41,7 @@ Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
  Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
 
-||FIFO|Genomsnitt|Standard|Specifik|  
+|<!--blank -->|FIFO|Genomsnitt|Standard|Specifik|  
 |-|----------|-------------|--------------|--------------|  
 |Allmänna egenskaper|Enkelt att förstå|Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Enkelt att använda men kräver kvalificerat underhåll.|Kräver artikelspårning på både ankommande och avgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|  
 |Koppling/justering|Koppling håller reda på **det återstående antalet**.<br /><br /> Justering vidarebefordrar kostnader enligt antalskoppling.|Koppling håller reda på **återstående antal**.<br /><br /> Kostnader beräknas och speditioneras per **värderingsdatum**.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Alla kopplingar är fasta.|  

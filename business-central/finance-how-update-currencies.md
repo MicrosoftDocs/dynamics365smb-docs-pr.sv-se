@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b0ec8e5a23b387c52998369e440462613b7cc1fe
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183194"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666903"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan använda och rapportera ekonomiska siffror i fler än en valuta. Du måste ange en kod för varje valuta du använder om du köper eller säljer i andra valutor än din lokala valuta, har tillgångar eller skulder i andra valutor eller registrerar transaktioner i olika valutor.
@@ -56,6 +56,9 @@ Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig up
 2. Välj åtgärden **Ny**.
 3. På sidan **Valutakurstjänster** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj kryssrutan **aktiverad** om du vill aktivera tjänsten.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Så här uppdaterar du valutakurser från en tjänst
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Valutor** och välj sedan relaterad länk.

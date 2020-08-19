@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191457"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677314"
 ---
 # <a name="subcontract-manufacturing"></a>Lägga ut legotillverkning för produktion
 Legotillverkningsvalda operationer till leverantör är vanligt i många tillverkningsföretag. Legotillverkning kan vara sällan förekommande eller en integrerad del i alla produktionsprocesser.
@@ -71,13 +71,6 @@ Den kalkylarksrad som användes för att skapa en inköpsorder tas bort från ka
 
 ## <a name="posting-subcontract-purchase-orders"></a>Bokföra inköpsorder för underkontrakt  
 När du har skapat inköpsorder för underkontrakt kan du bokföra dessa. När ordern tas emot bokförs en kapacitetstransaktion i produktionsordern och när ordern faktureras bokförs den direkta kostnaden för inköpsordern i produktionsordern.  
-
-När inköpsordern bokförs som inlevererad bokförs en utflödesjournalrad automatiskt för produktionsordern. Detta gäller endast om legotillverkningsoperationen, är den sista operationen i verksamhetsföljden för produktionsordern.  
-
-> [!CAUTION]  
->  Bokföra utflöde automatiskt för en pågående produktionsorder när underleverantörsartiklar tas emot kanske inte är önskvärt. Anledningar för det kan vara att det förväntade utflödeantalet som bokförs kan skilja sig från det faktiska antalet och att bokföringsdatumet för det automatiska utflödet är missvisande.  
->   
->  För att undvika att förväntade utdata för en produktionsorder bokförs när legotillverkningsinköp tas emot, kontrollera att legotillverkningsoperationen inte är den sista. Alternativt infogar du en ny sista åtgärd för det sista utflödesantalet.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Så här bokför du en inköpsorder för underkontrakt:  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsreturordrar** och välj sedan tillhörande länk.  

@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/22/2020
 ms.author: edupont
-ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 783e93fd4b9c33a249556b75bc880daff0afd24b
+ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528944"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617344"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
+
 Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram i Rollcentret, till exempel diagram för kassaflöde och i rapporter såsom resultaträknings- och balansräkningsrapporter.
 
-Du öppnar dessa två rapporter, till exempel med åtgärden **finansiella rapporter** på Business Manager och rollcenter för redovisare.   
+Du öppnar dessa två rapporter, till exempel med åtgärden **finansiella rapporter** på Business Manager och rollcenter för redovisare.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller några exempel på kontouppställningar som du kan använda direkt eller så kan du ange egna rader och kolumner för att jämföra siffrorna. Du kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Du kan skapa så många anpassade finansiella rapporter som du önskar.  
 
 Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna. Detta kräver att budgetar som skapas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
 ## <a name="account-schedules"></a>Kontouppställningar
+
 Kontouppställningar används för att ordna kontona i kontoplanen på ett sätt som passar presentation av information om dem. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. En av huvudfunktionerna hos en kontouppställning är att tillhandahålla en plats för beräkningar som inte kan göras direkt i kontoplanen, till exempel beräkningar av deltotaler för kontogrupper, vilka kan inkluderas i nya totaler som sedan i sin tur kan användas i andra totaler. Användare kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan redovisningstransaktionerna och redovisningsbudgettransaktioner filtreras, till exempel efter nettoförändring eller debetbelopp.
 
 Du kan även jämföra två eller flera kontouppställningar och kolumnlayouter med hjälp av formler. Den här typen av jämförelse ger dig möjlighet att:
@@ -36,13 +38,16 @@ Du kan även jämföra två eller flera kontouppställningar och kolumnlayouter 
 * Skapa olika rapportlayouter och skriva ut rapporterna med de aktuella siffrorna.
 
 ## <a name="gl-account-categories"></a>Redovisningskontokategorier
+
 Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat din kontokategorier på sidan **Redovisningskontokategorier** och du väljer åtgärden **Skapa kontouppställningar** uppdateras de underliggande kontouppställningarna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel rapport för **kontoavstämning** kommer nya summor och underposter att läggas till, baserat på ändringarna.
 
 > [!NOTE]
-> Konto kategorierna på den högsta nivån, till exempel noden **skulder**, är fasta och du kan inte lägga till egna. Du kan emellertid ta bort och lägga till kontokategorier på lägre nivåer och ändra deras struktur för att definiera hur det relaterade kontouppställningen ska visas i rapporter.<br /><br />
+> Konto kategorierna på den högsta nivån, till exempel noden **skulder**, är fasta och du kan inte lägga till egna. Du kan emellertid ta bort och lägga till kontokategorier på lägre nivåer och ändra deras struktur för att definiera hur det relaterade kontouppställningen ska visas i rapporter.
+>
 > Du bör skapa och strukturera egna redovisningskonto kategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t.ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**.
 
-## <a name="to-create-a-new-account-schedule"></a>Så här skapar du nya kontouppställningar:  
+## <a name="to-create-a-new-account-schedule"></a>Så här skapar du nya kontouppställningar:
+
 Du använder kontouppställningar för att analysera siffror för redovisningskonton eller jämföra redovisningstransaktioner med redovisningsbudgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
 
 Kontouppställningar i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] utgör grunden för de ekonomiska standardrapporter, som kanske inte passar ditt företag. Du kan snabbt skapa dina egna finansiella rapporter, du kan starta genom att kopiera en befintlig kontouppställning. Se punkt 3 nedan.
@@ -65,6 +70,7 @@ Sidan **Kontouppställning översikt** är där du kan förhandsgranska den fina
 Du har nu definierat basen för kontouppställningen, raderna för ekonomiska data som ska visas och en befintlig layout för kolumner för att visa data på rader per olika parametrar. Om standardkolumnlayouten som du valde i steg 4 inte passar dina önskemål, följ proceduren nedan.
 
 ### <a name="to-edit-a-column-layout"></a>Så här redigerar du en kolumnlayout
+
 För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t.ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år.
 
 > [!NOTE]
@@ -78,7 +84,8 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 > [!NOTE]
 > Kolumnerna som du anger på varje rad representerar kolumnerna 3 och uppåt på sidan **Kontouppställning översikt**. De två första kolumnerna **Radnr** och **beskrivning** korrigeras.  
 
-### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser  
+### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser
+
 Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t.ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
@@ -90,7 +97,8 @@ Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsa
 7. Fyll i fälten på raden på följande sätt: I fältet **kolumntyp** väljer **formeln**. I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av %. Om till exempel kolumn N innehåller nettoförändringen anger du **N%**.  
 8. Upprepa steg 4-7 för varje grupp av kolumner som du vill dela upp per procentsats.
 
-## <a name="to-set-up-account-schedules-with-overviews"></a>Så här skapar du kontouppställningar med översikter  
+## <a name="to-set-up-account-schedules-with-overviews"></a>Så här skapar du kontouppställningar med översikter
+
 Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
@@ -108,97 +116,43 @@ Du kan använda en kontouppställning för att skapa en rapport där redovisning
 Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.  
 
 ## <a name="comparing-accounting-periods-using-period-formulas"></a>Jämföra bokföringsperioder med hjälp av periodformler
-Din kontouppställning kan jämföra resultaten av olika bokföringsperioder, till exempel den här månaden eller samma månad förra året. För att göra detta lägger du till en kolumn med fältet **Formel jämförelseperiod** fält och anger sedan fältet till en periodformel.  
 
-En bokföringsperiod måste inte matcha kalendern, men varje räkenskapsår måste ha lika många bokföringsperioder, även om perioderna kan vara olika långa.   
+Din kontouppställning kan jämföra resultaten av olika bokföringsperioder, till exempel den här månaden eller samma månad förra året. Det gör du genom att öppna sidan **Kolumnlayout** och anpassa den genom att lägga till fältet **Formel jämförelseperiod** som en kolumn. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md). Du kan sedan ange att fältet ska vara en periodformel.  
+
+En bokföringsperiod måste inte matcha kalendern, men varje räkenskapsår måste ha lika många bokföringsperioder, även om perioderna kan vara olika långa.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] använder periodformeln för att beräkna beloppet från jämförelseperioden i förhållande till perioden som representeras av datumfiltret i en rapportbegäran. Jämförelseperioden baseras på perioden för startdatumet i datumfiltret. Följande förkortningar för perioder används:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Förkortning</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>P</p></td>
-<td><p>Period</p></td>
-</tr>
-<tr class="even">
-<td><p>SP</p></td>
-<td><p>Sista perioden i ett räkenskapsår, halvår eller kvartal.</p></td>
-</tr>
-<tr class="odd">
-<td><p>CP</p></td>
-<td><p>Aktuell period under räkenskapsåret, halvår eller kvartal.</p></td>
-</tr>
-<tr class="even">
-<td><p>RÅ</p></td>
-<td><p>Räkenskapsåret. Till exempel RÅ[1..3] anger det första kvartalet under aktuellt räkenskapsår.</p></td>
-</tr>
-</tbody>
-</table>
+| Förkortning | Beskrivning                                                                           |
+| ------------ | ------------------------------------------------------------------------------------- |
+| P            | Period                                                                                |
+| SP           | Sista perioden i ett räkenskapsår, halvår eller kvartal.                                   |
+| CP           | Aktuell period under räkenskapsåret, halvåret eller kvartalet. Använd CP i formler för att ange den period som formeln ska börja eller sluta med. Till exempel anger RÅ\[1..CP\] tiden från början av det aktuella räkenskapsåret till den aktuella perioden.|
+| RÅ           | Räkenskapsåret. Till exempel anger RÅ\[1..3\] det första kvartalet av det aktuella räkenskapsåret. |
 
 Exempel på formler:
 
+| Formel         | Beskrivning                                                                                     |
+| --------------- | ----------------------------------------------------------------------------------------------- |
+| \<Blank\>       | Aktuell period                                                                                  |
+| \-1P            | Föregående period                                                                                 |
+| \-1RÅ\[1..LP\]  | Hela föregående räkenskapsåret                                                                     |
+| \-1RÅ           | Aktuell period i föregående räkenskapsår                                                          |
+| \-1RÅ\[1..3\]   | Första kvartalet i föregående räkenskapsår                                                           |
+| \-1RÅ\[1..CP\]  | Från början av föregående räkenskapsår till och med aktuell period i föregående räkenskapsår, inklusive båda perioderna |
+| \-1RÅ\[CP..LP\] | Från aktuell period i föregående räkenskapsår till och med sista perioden i föregående räkenskapsår, inklusive båda perioderna   |
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Formel</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>&lt;Tomt&gt;</p></td>
-<td><p>Aktuell period</p></td>
-</tr>
-<tr class="even">
-<td><p>-1P</p></td>
-<td><p>Föregående period</p></td>
-</tr>
-<tr class="odd">
-<td><p>-1RÅ[1..SP]</p></td>
-<td><p>Hela föregående räkenskapsåret</p></td>
-</tr>
-<tr class="even">
-<td><p>-1RÅ</p></td>
-<td><p>Aktuell period i föregående räkenskapsår</p></td>
-</tr>
-<tr class="odd">
-<td><p>-1RÅ[1..3]</p></td>
-<td><p>Första kvartalet i föregående räkenskapsår</p></td>
-</tr>
-<tr class="even">
-<td><p>-1RÅ[1..LP]</p></td>
-<td><p>Från början på föregående räkenskapsår till och med aktuell period i föregående räkenskapsår</p></td>
-</tr>
-<tr class="odd">
-<td><p>-1RÅ[LP..SP]</p></td>
-<td><p>Från aktuell period i föregående räkenskapsår till och med sista perioden i föregående räkenskapsår</p></td>
-</tr>
-</tbody>
-</table>
-
-Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel i fältet **Jämförelse datumformel**.
+Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel i fältet **Jämförelse datumformel**. Om fältet till exempel har värdet -1å, jämförs [!INCLUDE [prodshort](includes/prodshort.md)] med samma period 1 år tidigare.
 
 > [!NOTE]
-> Det är inte alltid transparent som perioder som du jämför eftersom du kan ange ett filter för en rapport som omfattar andra datum än de bokföringsperioder som återspeglas i data i kontoplanen. Exempelvis kan du skapa kontouppställningar som du vill jämföra denna period med samma period föregående år, så att du kan ange **Filter för jämförande period** till *-1FY*. Sedan kan du köra rapporten 28 februari och ange datumfilter till januari och februari. Som ett resultat jämför kontouppställningen januari och februari i år med januari föregående år, vilket är den enda avslutade bokföringsperioden av de två för föregående år.  
+> Det är inte alltid transparent som perioder som du jämför eftersom du kan ange ett filter för en rapport som omfattar andra datum än de bokföringsperioder som återspeglas i data i kontoplanen. Exempelvis kan du skapa kontouppställningar som du vill jämföra denna period med samma period föregående år, så att du kan ange **Formel jämförelseperiod** till *-1RÅ*. Sedan kan du köra rapporten 28 februari och ange datumfilter till januari och februari. Som ett resultat jämför kontouppställningen januari och februari i år med januari föregående år, vilket är den enda avslutade bokföringsperioden av de två för föregående år.  
+
+Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
+
 [Affärsstöd](bi.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182786"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611673"
 ---
 # <a name="set-up-value-added-tax"></a>Ställa in moms
+
 Konsumenter och företag betalar moms när de köper varor eller tjänster. Momsbeloppet att betala kan variera beroende på flera faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] ställer du in moms för att ange de satser som ska användas för beräkning av momsbelopp baserat på följande:
 
 * Vem du säljer till  
@@ -28,22 +29,26 @@ Konsumenter och företag betalar moms när de köper varor eller tjänster. Moms
 Du kan ställa in momsberäkningar manuellt, men det kan vara svårt och tidsödande. Om du vill göra det enklare, finns det en assisterade konfigurationsguid med namnet **momsinställning** som hjälper dig med stegen. Vi rekommenderar att du använder den assisterade konfigurationsguiden för att ställa in momsen.
 
 > [!NOTE]  
->   Du kan endast använda guiden om du har skapat ett Mitt företag och inte har bokfört transaktioner som inkluderar moms. Annars skulle vara mycket emkelt att använda olika momssatser av misstag, och göra felaktiga momsrapporter.  
+> Du kan endast använda guiden om du har skapat ett Mitt företag och inte har bokfört transaktioner som inkluderar moms. Annars skulle vara mycket emkelt att använda olika momssatser av misstag, och göra felaktiga momsrapporter.  
 
 Om du vill ställa in momsberäkningar själv eller bara vill ha information om varje steg innehåller i det här avsnittet beskrivningar av varje steg.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Använd den assisterade konfigurationsguiden för att ställa in momsen (rekommenderat).
+
 Vi rekommenderar att du använder den assisterade konfigurationsguiden för att ställa in momsen i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Så här startar du den assisterade konfigurationsguiden:
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Assisterad konfiguration**.  
 2. Välj **Ställ in moms** och slutför stegen.
-3. När du har slutfört den assisterade konfigurationen går du till sidan **Bokföringsinställning för moms** och kontrollerar om du behöver fylla i ytterligare fält enligt din lokala landsversion. Mer information finns i [Lokala funktioner i Business Central](about-localization.md).  
+3. När du har slutfört den assisterade konfigurationen går du till sidan **Bokföringsinställning för moms** och kontrollerar om du behöver fylla i ytterligare fält enligt de lokala kraven för din version av [!INCLUDE [prodshort](includes/prodshort.md)]. Mer information finns i [Lokala funktioner i Business Central](about-localization.md).  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Så här skapar du momsregistreringsnummer för land / region
+
 För att garantera att användaren anger ett giltigt momsregistreringsnummer kan du ange format för momsregistreringsnummer som används i de länder eller regioner där du bedriver verksamhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] visar ett felmeddelande när någon gör fel eller använder ett format som är felaktigt för landet / regionen.
 
 Om du vill skapa momsregistreringsnummer, gör då så här:
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Länder/regioner**.
 2. Välj land eller region, och välj sedan åtgärden **Format för momsreg.nr.**.
 3. I fältet **Format** anger du formatet genom att ange ett eller flera av följande tecken:  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184202"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666803"
 ---
 # <a name="fixed-assets"></a>Anläggningstillgångar
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
@@ -47,6 +47,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Beräkna avskrivningar, bokföra avskrivningar och analysera avskrivningar i rapporter om anläggningstillgångar. |[Så här skriver du av eller amorterar anläggningstillgångar](fa-how-depreciate-amortize.md) |
 | bokföra avyttringstransaktioner, visa avyttringstransaktioner och bokföra delvisa avyttringar. |[Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md) |
 | Hanter budgetar för anläggningstillgångar, budgeterar anskaffningskostnader, budgeterar avyttringar av anläggningstillgångar och budgeterar avskrivning. |[Hantera budgetar för anläggningstillgångar](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Video: översikt
+I följande video beskrivs grunderna för anläggningstillgångar.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Se även
 [Ställa in anläggningstillgångar](fa-setup.md)  

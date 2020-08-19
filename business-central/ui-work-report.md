@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454335"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549898"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeta med rapporter och batch-jobb och XML-portar
 
@@ -50,7 +50,7 @@ Att använda sparade inställningar är ett snabbt och säkert sätt att på ett
 
 ## <a name="previewing-a-report"></a>Förhandsgranska en rapport
 
-Välj knappen **förhandsgranska** om du vill visa rapporten. Använd menyraden i förhandsgranskningen av rapporten när du vill:
+Tryck på knappen **Förhandsgranska** för att visa rapporten på sidan för rapportförfrågan. Använd menyraden i förhandsgranskningen av rapporten när du vill:
 
 - Flytta mellan sidor
 - Zooma in och ut
@@ -77,19 +77,34 @@ När du schemalägger en rapport som ska köras kan du ange att den måste köra
 Du kan välja att spara den behandlade rapporten till en fil, t.ex en Excel-, Word- eller PDF-fil, skriva ut den till en viss skrivare eller bara behandlar rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till området **Rapportinkorg** i ditt Rollcenter, där du kan visa den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriva ut en rapport
-Du kan skriva ut en rapport genom att välja knappen **Skriv ut** på sidan för rapportbegäran eller på menyraden på sidan **Förhandsgranska**.
 
-Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
+Du skriver ut en rapport genom att trycka på knappen **Skriv ut** på sidan för rapportförfrågan eller på menyraden på sidan **Förhandsgranska**.
 
-Om en molnskrivare inte har installerats eller konfigurerats, eller om en installerad skrivare havererar, kommer utskriften att ske via webbläsarens standardalternativ för utskrift. Detta anges med det här värdet i fältet **Skrivare** på sidan för rapportförfrågan: *(ingen, hanteras av webbläsaren)*.
+### <a name="printer-selection"></a>Skrivarval
 
-På sidan **Utskriftshantering** kan du se vilka skrivare som är inställda. Mer information finns i [Ställa in skrivare](ui-specify-printer-selection-reports.md).
+Rapporten skrivs ut från den skrivare som visas i fältet **Vald skrivare** på sidan för rapportförfrågan. Du kan inte ändra skrivare från den här sidan.
+
+Den valda skrivaren anges antingen på sidan **Skrivarval** eller så är det standardskrivaren som anges på sidan **Skrivarhantering**. Om du vill använda en annan skrivare läser du [Konfigurera skrivare](ui-specify-printer-selection-reports.md).
+
+Om ingen skrivare anges på sidan **Skrivarval** eller om du anger standardskrivare på sidan **Skrivarhantering** används funktionen webbläsarutskrift. I det här fallet visas **Webbläsare** i fältet **Vald skrivare** på sidan för rapportförfrågan. 
+
+### <a name="browser-printing"></a>Webbläsarutskrift
+
+Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till din dator. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
+
+Om en molnskrivare inte har installerats eller konfigurerats, eller om en installerad skrivare havererar, kommer utskriften att ske via webbläsarens standardalternativ för utskrift.
 
 > [!NOTE]
-> Du kan inte ändra fältet **Skrivare** på sidan för rapportförfrågan. Om du vill använda en annan skrivare måste du välja den på sidan **Utskriftshantering**.
+> Alternativen för webbläsarutskrift fungerar oberoende av [!INCLUDE[prodshort](includes/prodshort.md)]. Så skrivarinställningar som kan ha skapats från skrivare i [!INCLUDE[prodshort](includes/prodshort.md)] överförs inte till alternativen för webbläsarutskrift.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Skriva ut rapporter på thailändska
-För den thailändska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] kan knappen **utskrift** inte skriva ut rapporter på rätt sätt på grund av begränsningar i tjänsten som genererar den utskrivbara PDF-filen. I stället kan du öppna rapporten i Word och spara den som utskrivbar PDF.  
+För den thailändska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] kan knappen **Skriv ut** inte skriva ut rapporter på rätt sätt på grund av begränsningar i tjänsten som genererar den utskrivbara PDF-filen. I stället kan du öppna rapporten i Word och spara den som utskrivbar PDF.  
 
 Du kan också be administratören att skapa en layout för en Word-rapport för de mest använda rapporterna. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).  
 

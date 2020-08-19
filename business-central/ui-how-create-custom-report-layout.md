@@ -1,8 +1,6 @@
 ---
 title: Så här skapar och ändrar du en anpassad layout för rapport eller dokument | Microsoft Docs
 description: Lär dig hur du kan skapa egna anpassade layouter för att personligt anpassa utseendet på rapporten när den visas, skrivs ut eller sparas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 07/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e9ae739ba106ef8431c054d69a06f96ffec69217
+ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189969"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617319"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Skapa och ändra anpassade rapportlayouter
+
 Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter. Du kan skapa egna anpassade layouter som du kan använda för att ändra utseendet på rapporten när den visas, skrivs ut eller sparas. Du kan skapa flera anpassade rapportlayouter för samma rapport, och sedan byta layout som används av en rapport efter behov.
 
 > [!NOTE]  
->   I [!INCLUDE[d365fin](includes/d365fin_md.md)], omfattar termen "rapporter" även externa dokument som t.ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
+> I [!INCLUDE[d365fin](includes/d365fin_md.md)], omfattar termen "rapporter" även externa dokument som t.ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
 
 Om du vill skapa en anpassad layout kan du antingen skapa en kopia av en befintlig anpassad layout eller lägga till en ny anpassad layout, som baseras i de flesta fall på en inbyggd layout. När du lägger till en ny anpassad layout kan du välja att lägga till en RDLC-rapportlayout, Word-rapportlayout eller både och. Den nya anpassade layouten baseras automatiskt på den inbyggda layouten för rapporten, om en är tillgänglig. Om det inte finns någon inbyggd layout för typen, skapas en ny tom layout som du måste ändra och utforma från noll. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).  
+
+> [!TIP]
+> Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Mer information finns i [Förbereda ekonomiska rapporter med kontouppställningar och kontokategorier](bi-how-work-account-schedule.md).
 
 När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att ange att valda layouter ska användas för de dokument som du skapar för kunden eller leverantören i fråga. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
 
 ## <a name="to-create-a-custom-layout"></a>Så här skapar du en anpassad layout
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.
 
     På sidan **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företagsnamn** högst upp på sidan.
@@ -52,9 +55,11 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 Den anpassade layouten har skapats. Du kan nu ändra den anpassade layouten efter behov.
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Ändra en anpassad layout
+
 Om du vill ändra en rapportlayout måste du först exportera rapportlayouten som en fil till en plats på din dator eller nätverk, och sedan öppna det exporterade dokumentet och göra ändringarna. När du är klar med ändringarna importerar du rapportlayouten.
 
 ### <a name="to-modify-a-custom-layout"></a>Ändra en anpassad layout
+
 1.  Du kan exportera en anpassad layout från sidan **anpassade rapportlayouter**. Om sidan inte redan är öppen, sök efter och öppna **Val av rapportlayout**, välj rapporten med layouten som du vill ändra och välj sedan åtgärden **Anpassade layouter**.  
 2.  På sidan **anpassade rapportlayouter** väljer du den layout som du vill ändra, anger **exportera layout**, och välj **spara** eller **Spara som** för att spara rapportlayouten till en plats på datorn eller i nätverket.  
 
@@ -70,19 +75,21 @@ Om du vill ändra en rapportlayout måste du först exportera rapportlayouten so
 
 5. I dialogrutan **Importera** väljer du **Välj** för att hitta och välja dokumentet och väljer sedan **Öppna**.
 
-##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Skapa och ändra anpassade rapportlayouter  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Skapa och ändra anpassade rapportlayouter
+
 Du kan göra allmänna formaterings- och layoutändringar, t.ex ändra textteckensnittet, lägga till och ändra en tabell eller ta bort ett datafält, genom att använda de grundläggande redigeringsfunktionerna i Word.
 
 Om du designar en Word-rapportlayout från noll eller lägger till nya datafält, starta då genom att lägga till en tabell som innehåller rader och kolumner som kommer att innehålla datafälten.
 
 > [!TIP]  
->  Visa tabellstödlinjerna så att du kan se gränserna mellan tabellceller. Kom ihåg att dölja stödlinjerna när du har redigerat klart. För att visa eller dölja tabellstödlinjer, välj tabellen och välj under **Visa stödlinjer** på fliken **Tabell** under **Layout**.
+> Visa tabellstödlinjerna så att du kan se gränserna mellan tabellceller. Kom ihåg att dölja stödlinjerna när du har redigerat klart. För att visa eller dölja tabellstödlinjer, välj tabellen och välj under **Visa stödlinjer** på fliken **Tabell** under **Layout**.
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inbäddade teckensnitt i Word-ayouter för konsistens
 
 För att säkerställa att rapporterna alltid visas och skrivs ut med planerade teckensnitt, oavsett om en användare öppnar eller skriver ut rapporter, kan du bädda in teckensnitt i Word-dokumentet. Men tänk på att inbäddade teckensnitt kan öka storleken på de Word-filerna väsentligt. Mer information om inbäddade teckensnitt i Word finns i [inbäddade teckensnitt i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Ta bort rubrik- och datafält i Word-layouter  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Ta bort rubrik- och datafält i Word-layouter
+
  Rubrik- och datafält för en rapport finns i innehållskontroller i Word. Efterföljande diagram illustrerar en innehållskontroll när den har valts i Word-dokumentet.  
 
  ![Innehållskontroll för fält i Word-rapportlayouter](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -91,20 +98,24 @@ För att säkerställa att rapporterna alltid visas och skrivs ut med planerade 
 
 ### <a name="to-remove-a-label-or-data-field"></a>Så här tar du bort en rubrik eller ett datafält  
 
-1.  Högerklicka på fältet som du vill ta bort och välj **Ta bort innehållskontroll**.  
+1. Högerklicka på fältet som du vill ta bort och välj **Ta bort innehållskontroll**.  
 
      Innehållskontrollen tas bort, men fältnamnet förblir som text.  
 
-2.  Ta bort den återstående texten efter behov.  
+2. Ta bort den återstående texten efter behov.  
 
 ### <a name="adding-data-fields"></a>Lägga till datafält
+
 Lägga till datafält från en -rapportdatauppsättning är mer avancerat och kräver viss kunskap om rapportdatauppsättningen. Information om att lägga till fält för data, etiketter, data och bilder finns i [Lägga till fält till en Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
+
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md)  
 [Så här importerar och exporterar du en anpassad rapport eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
+[Förbereda ekonomiska rapporter med kontouppställningar och kontokategorier](bi-how-work-account-schedule.md) 
+[Affärsstöd](bi.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

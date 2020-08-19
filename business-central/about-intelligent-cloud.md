@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528869"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577285"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligenta insikter med [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -49,6 +49,5 @@ När din Dynamics 365 återförsäljare har fått rätt licens för den lokala l
 ## <a name="see-also"></a>Se även
 
 [Välkommen till Business Central](index.md)  
-[Business Central Intelligent moln-tillägg](ui-extensions-intelligent-cloud.md)  
-[Tillägget Datareplikering](ui-extensions-data-replication.md)  
+[Intelligenta molntillägg för migrering av moln](ui-extensions-data-replication.md)  
 [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

@@ -1,7 +1,7 @@
 ---
 title: Förbereda ett konfigurationspaket | Microsoft Docs
 description: Lär dig nu att konfigurera ett RapidStart konfigurationspaket som kan hjälpa dig att skapa nya företag baserat på befintliga data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535978"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3667003"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 
@@ -30,6 +30,12 @@ Det finns några saker att tänka på innan du skapar ett konfigurationspaket, d
 ### <a name="tables-that-contain-posted-entries"></a>Register som innehåller bokförda transaktioner
 
 Du kan inte importera data till register som innehåller bokförda transaktioner, till exempel registren för kund-, leverantörs- och artikeltransaktioner, så du bör inte inkludera dessa data i konfigurationspaketet. Du kan lägga till poster i dessa register när du har importerat konfigurationspaketet med hjälp av journaler för att bokföra transaktionerna. Mer information finns i [Bokföra dokument och journaler](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Tabellnamn som innehåller specialtecken
+
+Var försiktig om du har tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t.ex. innehålla fälten "Fält 1" och "Fält 1 %".
+
+XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t.ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket. 
 
 ### <a name="licensing"></a>Licensiering
 
