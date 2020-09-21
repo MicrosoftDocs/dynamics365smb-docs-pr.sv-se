@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f14033311acdca8819d6dcb585195018ebea6c0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 12d867b9a0f16551641ab9e02efb546df8518aa1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192983"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779517"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plocka för produktion eller montering i avancerad distributionslagerkonfiguration
 I avancerad distributionslagerkonfiguration, där det har angetts att lagerstället ska använda plockning samt leverans, kan du välja plockkomponenter för produktion- och monteringsaktiviteter med sidan **Dist.lager plockning**.  

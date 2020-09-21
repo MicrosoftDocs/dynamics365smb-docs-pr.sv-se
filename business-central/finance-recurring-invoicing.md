@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410793"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693155"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeta med återkommande intäkter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -107,7 +107,7 @@ Mer information finns i [Återkommande order (Norge)](/localfunctionality/norway
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Återkommande intäkter och abonnemangsfakturering från andra leverantörer
 
-På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta tillägg för Business Central. Några tillägg ges ut av Microsoft, och andra tillägg ges ut av andra företag. Listan över tillägg från andra företag växer varje månad. Se därför till att hålla utkik efter [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) och skaffa appar som hjälper dig med ditt arbete i Business Central.  
+På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta tillägg för Business Central. Några tillägg ges ut av Microsoft, och andra tillägg ges ut av andra företag. Listan över tillägg från andra företag växer varje månad. Se därför till att hålla utkik efter [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) och skaffa appar som hjälper dig med ditt arbete i Business Central.  
 
 ## <a name="see-also"></a>Se även
 

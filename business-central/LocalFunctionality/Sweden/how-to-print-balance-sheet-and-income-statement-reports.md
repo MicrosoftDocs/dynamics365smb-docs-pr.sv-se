@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1b701a5bf0a1cb6ce28c6d1bc638549bd2b7b009
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 79124dc66c2a62b470c47aa62a50c713f128b841
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676750"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778234"
 ---
 # <a name="print-balance-sheet-and-income-statement-reports"></a>Skriv ut rapporterna Balansräkning och Resultaträkning
 Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter. I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital. I rapporten **Resultaträkning** visas intäkter och kostnader.  

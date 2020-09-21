@@ -227,9 +227,17 @@
 ### [Synkronisera med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Använda Business Central utan Outlook](admin-no-outlook.md)
 ## ANvända Power BI med Business Central
-### [Aktivera affärsdata för Power BI](admin-powerbi.md)
-### [Visa listdata i Power BI-rapporter i Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Använda Business Central som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)
+### [Introduktion](admin-powerbi.md)
+### Administratör
+#### [Integreringsöversikt](admin-powerbi-overview.md)
+#### [Aktivera Power BI-integrering](admin-powerbi-setup.md)
+### Designer
+#### [Komma igång med att skapa rapporter](across-how-use-financials-data-source-powerbi.md)
+#### [Skapa rapporter för att visa listdata](across-how-use-powerbi-reports-factbox.md)
+### Konsument
+#### [Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
+#### [Arbeta med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
 ## ANvända Power Automate med Business Central
 ### [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
 ## ANvända Power Apps med Business Central
@@ -424,8 +432,6 @@
 #### [Så här granskar och kopplar du betalningar manuellt efter automatisk koppling](receivables-how-review-apply-payments-auto-application.md)
 #### [Så här stämmer du av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md)
 ### [Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md)
 ### [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)
 ### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Skapa och exportera betalningshistorik](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Importera och stämma av bankutdrag](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Grundläggande ekonomi
-#### [Redovisning](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Använda och ta bort redovisningstransaktioner](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Nödvändiga beskrivningar i redovisningstransaktioner](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Inköp

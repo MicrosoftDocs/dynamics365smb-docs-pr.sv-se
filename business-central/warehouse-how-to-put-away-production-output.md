@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e0acb1a8c1710b0b096c461f14f817957e4ee3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c58a62b34a203503ea186af0d85dd76475356625
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192873"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779367"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
 Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  

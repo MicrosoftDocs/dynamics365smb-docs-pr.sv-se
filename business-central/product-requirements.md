@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528719"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731224"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimikrav för att använda Business Central
 Innan du öppnar [!INCLUDE[prodshort](includes/prodshort.md)] online, bör du kontrollera att datorn eller mobila enheter uppfyller eller överskrider det minsta systemkravet för produkten. Detta inlägg anger kraven.  
@@ -25,13 +25,16 @@ Innan du öppnar [!INCLUDE[prodshort](includes/prodshort.md)] online, bör du ko
 ### <a name="recommended-browsers"></a>Rekommenderade webbläsare
 
 **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] har utformats för att fungera med den aktuella versionen av den nya Microsoft Edge.  
-**Chrome för Windows och Firefox för Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] har utformats för att fungera med den aktuella versionen av dessa skrivbordswebbläsare.  
+**Chrome för Windows och Firefox för Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] har utformats för att fungera med den senaste versionen av dessa stationära webbläsare.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] har utformats för att fungera med den aktuella versionen av safari på macOS.  
 
 ### <a name="other-supported-browsers"></a>Andra webbläsare som stöds
 
 **Microsoft Edge äldre:** [!INCLUDE[d365fin](includes/d365fin_md.md)] har utformats för att fungera med den äldre versionen av Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] är utformad att användas med Internet Explorer 11 (build 11.0.9600.17239) för Windows 10 (32-bit och 64-bit versions). Vi rekommenderar att du uppgraderar till senaste versionen av Internet Explorer som stöds i din version av Windows. Du kan också köra nya Edge och fortfarande komma åt andra webbplatser som kräver Internet Explorer. Mer information finns i [Microsoft Edge-dokumentationen](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> Från och med april 2021 upphör stödet för Internet Explorer 11 och Edge Legacy. Vi rekommenderar att du byter till en av de rekommenderade, moderna webbläsarna så fort som möjligt.
 
 ## <a name="mobile-devices"></a>Mobila enheter
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] för Windows kan installeras på enheter med minst 1 GB RAM-minne och Windows 10 Home, Pro, Enterprise, eller Education (32- och 64-bitars versioner).  

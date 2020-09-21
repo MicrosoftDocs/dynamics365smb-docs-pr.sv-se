@@ -7,19 +7,24 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182834"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701871"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Funktionen låter dig fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
 
 Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i redovisningen och ange nummerserier för förskottsbetalningsdokument. Du måste ange ett konto för förskottsbetalningar som relaterar till försäljning och ett konto för förskottsbetalningar som rör inköp. Du kan ange samma bokföringskonton som ska användas för alla förskottsbetalningar som är kopplade till alla rörelsebokföringsmallar eller produktbokföringsmallar, eller så kan du ange specifika konton för särskilda bokföringsmallar för försäljning respektive inköp. Detta beror på ditt företags behov av att följa upp förskottsbetalningar.  
 
-Du kan ange procentandelen av radbeloppet som ska faktureras som förskottsbetalning, för en kund eller leverantör, för alla artiklar eller valda artiklar. När du har gjort de nödvändiga inställningarna kan du skapa förskottsfakturor från försäljnings- och inköpsorder. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Till exempel, en totalsumma för hela ordern.  
+Du kan ange procentandelen av radbeloppet som ska faktureras som förskottsbetalning, för en kund eller leverantör, för alla artiklar eller valda artiklar. När du har gjort de nödvändiga inställningarna kan du skapa förskottsfakturor från försäljnings- och inköpsorder. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Du kan till exempel ange ett totalt belopp för hela ordern.  
+
+> [!NOTE]
+> Vi rekommenderar att du inte använder en procentandel för förskottsbetalning på 100 % i följande fall:
+> * Om du befinner dig i Nordamerika: På grund av sättet att beräkna skatter kan en procentandel för förskottsbetalning på 100 % förorsaka problem med förskottsinbetalningsfakturor.
+> * Om du drar av en rabatt från fakturan manuellt (gäller samtliga regioner): En procentandel för förskottsbetalning på 100 % kommer inte automatiskt att lämna kvar ett belopp från vilket rabatten kan dras. 
 
 Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har mottagit varan eller tjänsten måste du lägga upp redovisningskonton för förskottsbetalningarna tills slutfakturan är bokförd. Förskottsbet. för försäljning måste registreras på ett skuldkonto tills artiklarna är levererade. Förskottsbet. för inköp måste registreras på ett tillgångskonto tills artiklarna är levererade. Du måste dessutom skapa ett separat redovisningskonto för varje moms-ID.  
 

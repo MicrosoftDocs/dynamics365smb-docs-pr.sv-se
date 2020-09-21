@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b1c91caed8fb682af4c754aef83801083a714d4f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ac15e8f84efba5a46e3d5fc3d0d07f9dceed666a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193815"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778850"
 ---
 # <a name="use-resources-for-jobs"></a>Använda resurser för projekt
 Du registrerar förbrukning av resurser i projektjournalen för att hålla reda på kostnader, priser och de specifika projekttyper som är kopplade till projekt. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).

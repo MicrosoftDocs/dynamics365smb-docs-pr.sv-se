@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196900"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693030"
 ---
 # <a name="handling-missing-option-values"></a>Hantera alternativvärden som saknas
 [!INCLUDE[d365fin](includes/cds_long_md.md)] innehåller bara tre alternativuppsättningsfält som innehåller alternati värden som du kan mappa till [!INCLUDE[d365fin](includes/d365fin_md.md)]-fält av alternativtyp<!-- Option type, not enum? @Onat can you vertify this? --> för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, de saknade alternativen läggs till i relaterad [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och läggs till systemtabellen **CDS-alternativmappning** för att hanteras manuellt senare. Du kan t.ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen. I det här avsnittet beskrivs hur det fungerar.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > Du måste använda samma alternativ-ID-värden från [!INCLUDE[d365fin](includes/cds_long_md.md)] när du utökar [!INCLUDE[d365fin](includes/d365fin_md.md)]-uppräkningen. I annat fall misslyckas synkroniseringen.
+
+> [!IMPORTANT]  
+> Använd inte symbolen "," i Enum-värden och -texter. Detta stöds för närvarande inte av [!INCLUDE[d365fin](includes/d365fin_md.md)]-körningen.
 
 > [!NOTE]
 > De första tio tecknen i de nya alternativvärdenas namn och rubriker måste vara unika. Exempel: två alternativ med namnet "Överför 20 arbetsdagar" och "Överför 20 kalenderdagar" orsakar ett fel eftersom båda har samma första tio tecken, "Överföring 2". Namnge dem, till exempel "TRF20 WD" och "TRF20 CD".

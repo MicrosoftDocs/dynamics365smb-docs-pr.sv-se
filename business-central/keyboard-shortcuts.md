@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528494"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765952"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -166,7 +166,7 @@ Följande kortkommandon gäller funktionen snabbinmatning på kort, dokument och
 |Shift+Enter|Bekräfta värdet i nuvarande fält och gå till föregående snabbinmatningsfält.||
 |Ctrl+Shift+Enter|Bekräfta värdet i nuvarande kolumn och gå till nästa snabbinmatningsfält utanför listan.<br /><br />Detta kortkommando gäller för inbäddade listor på en sida, till exempel radartiklar på en försäljningsorder. På så sätt kan du snabbt komma ut ur listan och fortsätta skriva in data i övriga fält på sidan.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Kortkommandon i kalendern (datumväljare)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Kortkommandon i kalendern (datumväljare)
 
 När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
 
@@ -185,12 +185,13 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Page Up|Flytta till föregående månad|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Kortkommandon i datumfält
+
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
 |d|Ange aktuellt datum. "I" betyder "i dag".|
 |a|Ange arbetsdatum. Mer information finns i [Arbetsdatum](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Kortkommandon i Förhandsgranska rapport
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Kortkommandon i Förhandsgranska rapport
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|

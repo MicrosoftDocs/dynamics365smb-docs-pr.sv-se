@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
+ms.date: 08/18/2020
 ms.author: bholtorf
-ms.openlocfilehash: dbee0561f2baa52484df1fbebf8e4875dd3f7245
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 5e2713904cc53620188c1c63ba51079bd8fa3123
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542723"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701769"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring
 
@@ -79,8 +79,6 @@ Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalni
 1. I rutan **Sök**, ange **Betalningssätt** och välj sedan relaterad länk.  
 2. På sidan **Betalningsmetoder** väljer du det betalningssätt som används att exportera betalningar från och väljer sedan fältet **Definition för bet.exportrad**.  
 3. På sidan **Definition för bet.exportrad** väljer du den kod som du har angett i fältet **Kod** på snabbfliken **Definitioner för rad** i steg 4 i avsnittet ”Beskriva layouten för rader och kolumner i filen” i förfarandet [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
-
-Medgivande för autogiro infogas automatiskt i fältet **Medgivande-ID för autogiro** när du skapar en försäljningsfaktura för den kund som du valde i steg 2. Mer information finns i [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md).  
 
 ## <a name="preparing-the-payment-journal"></a>Förbereda utbetalningsjournalen
 

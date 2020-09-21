@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/09/2020
-ms.author: sgroespe
-ms.openlocfilehash: c3c8c9d86430e6ecb3ffcde790c48882b01a06c5
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.author: edupont
+ms.openlocfilehash: 68dc411de3192b4ea21f13575b914b67e862f880
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454264"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777881"
 ---
 # <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503804"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777992"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 
@@ -47,7 +47,7 @@ Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetal
 6. På sidan **Kontrollera** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Om skrivaren är konfigurerad för utskrift av checkar klickar du på knappen **Skriv ut**. Välj annars knappen **skicka till**, välj alternativet **PDF-dokument**, och välj sedan **OK**-knappen och skriv sedan ut PDF-dokumentet.
 
-    Numera du kan föra fysiska checkar till banken för bearbetning. Fortsätt att bokföra betalningen som tillämpas för leverantören och därmed betald i systemet.
+    De fysiska checkerna kan numera skickas vidare till leverantörerna för bearbetning. Fortsätt att bokföra betalningen som tillämpas för leverantören och därmed betald i systemet.
 8. Välj åtgärden **Bokföra**.
 
 Fullständigt kopplade leverantörsreskontratransaktioner och bankkontotransaktioner skapas.
@@ -61,7 +61,11 @@ Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom at
 1. På sidan **Betalningsjournal** väljer du **Makulera check** och sedan väljer du checken som ska annulleras.
 
 ## <a name="to-void-checks"></a>Så här makulerar du checkar:
+
 När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från de resulterande banktransaktionerna.
+
+> [!IMPORTANT]
+> Om checken tillämpas på en faktura, se då till att först avlägsna tillämpningen av checken så att fakturan kan återbetalas, och gör sedan checken ogiltig. Om checken skrivits ut men inte betalat någon faktura väljer du **Ogiltigförklara endast check** enligt beskrivet i detta avsnitt.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan tillhörande länk.
 2. Välj det relevanta bankkontot och välj åtgärden **Redigerat** och välj sedan åtgärden **checktransaktioner**.

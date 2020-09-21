@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a5663ef4d4521be4591d9fd0e8e6ce456403c8b4
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 8ffaa84ce02382a1cdfcc01b3ecb8dc8b4504502
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676756"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778236"
 ---
 # <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  

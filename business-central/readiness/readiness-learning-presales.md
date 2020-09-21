@@ -4,13 +4,13 @@ description: Hitta alla tillgänglig utbildning för Business Central.
 author: loreleishannonmsft
 ms.date: 08/10/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 547d02d6a1fb76ae5f3ad64feb265b69edf0bf64
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: margoc
+ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676827"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779173"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Utbildningskatalog för partner förförsäljning
 
@@ -77,4 +77,4 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Demo: kundgodkännande processen - sommaren 2019](https://youtu.be/_Oyj6DBAuPI) | Koppla Craig när han visar en grundläggande affärsprocesser för att registrera en ny kund. | YouTube-video | 3 minuter 24 sekunder |
 | [Demo: konsolidera företag - sommaren 2019](https://youtu.be/A4SExgt7wV4) | Koppla Craig medan han visar dig konsolidera företag som använder med Business Central. | YouTube-video | 2 minuter 15 sekunder |
 | [Demo: automatisera leverantörsskulder - sommaren 2019](https://youtu.be/RB3_7UTpEjo) | Koppla Craig så som han visar dig på ett sätt att automatisera leverantörsskulder processer med hjälp av Business Central. | YouTube-video | 3 minuter 51 sekunder |
-| [Demo: Skapa ett nytt företag](https://youtu.be/ZHg4UXTOEp8) | Följ Craig när han visar dig hur du lägger upp ett nytt företag med hjälp av Business Central | YouTube-video | 4 minuter 48 sekunder |
+| [Demo: Skapa ett nytt företag](https://youtu.be/ZHg4UXTOEp8) | Låt nu Craig visa dig hur du konfigurerar ett nytt företag med hjälp av Business Central. | YouTube-video | 4 minuter 48 sekunder |
