@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e0f55d52c866dbe6a9738dbec374c7a20af63b56
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189393"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781116"
 ---
 # <a name="update-custom-report-layouts"></a>Uppdatera anpassade rapportlayouter
 Ibland kan du behöva uppdatera en anpassad rapportlayout som används i en rapport. Det krävs när en designändring har skett för rapportens datauppsättning, till exempel att ett fält som används i layouten har tagits bort från rapportdatauppsättningen. Om en rapportlayout kräver att uppdatering kommer du att få ett felmeddelande när du försöker att förhandsgranska, skriva ut eller spara rapporten.  

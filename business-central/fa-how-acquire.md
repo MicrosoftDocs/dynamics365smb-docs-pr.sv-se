@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e5d1d56f4035311e3c90d3dba9d4e8d49df48d25
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 79416d72d8ded71025270b4408e8425e0be2c827
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184562"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781166"
 ---
 # <a name="acquire-fixed-assets"></a>Skaffa anläggningstillgångar
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. En avskrivningsregel måste ställas in och tilldelas till varje anläggningstillgång, innan du kan anskaffa den.

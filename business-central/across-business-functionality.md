@@ -1,5 +1,5 @@
 ---
-title: Affärsfunktion som stöds av Business Central | Microsoft Docs
+title: Affärsfunktioner som stöds av Business Central
 description: Innehåller en översikt över de funktioner och avdelningar som stöds av moduler, till exempel ekonomi, lager och projekthantering
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499522"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780767"
 ---
 # <a name="business-functionality"></a>Affärsfunktion
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas.

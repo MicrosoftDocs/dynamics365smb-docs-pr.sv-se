@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193593"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780916"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.

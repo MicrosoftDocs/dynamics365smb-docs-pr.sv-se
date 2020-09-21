@@ -1,6 +1,6 @@
 ---
 title: Fältmappning för export av bankbetalningsfiler | Microsoft Docs
-description: När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals visas de data som du exporterar till tjänstleverantören.
+description: När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,19 +9,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 06747ec283cb4b64f23433fbb81eea4a62e1f832
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188666"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780691"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med tillägget AMC Banking 365 Fundamentals
-När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals visas de data som du exporterar till tjänstleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om tillägget AMC Banking 365 Fundamentals finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
+När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använd AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  När du exporterar betalningsfiler med hjälp av tillägget AMC Banking 365 Fundamentals kommer vissa av dina affärsdata att bli exponerade för tjänstleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer vissa av dina affärsdata att visas för tjänsteleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
 I följande tabell visas de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan exportera data från.  
 
@@ -65,10 +65,10 @@ I följande tabell visas de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 |Avsändarbankens postnr|Postnr|Bankkonto|Det postnummer för avsändarens bankkonto som anges på bankkontokortet|  
 |Redovisningsjournalmall|Mallnamn för journal|Redovisningsjournalrad|Redovisningsjournalens mall som används för betalningsraden|  
 |Redovisningsjournalnamn|Journalnamn|Redovisningsjournalrad|Redovisningsjournalens batchnamn som används för betalningsraden|  
-|Avsändarbankens namn – datakonv.|Banknamn – datakonvertering|Bankkonto|Avsändarens bankkontonamn som begärs av tillägget AMC Banking 365 Fundamentals och anges på bankkontokortet|  
+|Avsändarbankens namn – datakonv.|Banknamn – datakonvertering|Bankkonto|Namnet på sändarens bankkonto som begärs av AMC Banking 365 Fundamentals-tillägget och anges på bankens kontokort|  
 
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
-[Utbyta data elektroniskt](across-data-exchange.md)
-[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
-[Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Byta data elektroniskt](across-data-exchange.md)
+[med hjälp av AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
+[Göra betalningar med AMC Banking 365 Fundamentals-tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

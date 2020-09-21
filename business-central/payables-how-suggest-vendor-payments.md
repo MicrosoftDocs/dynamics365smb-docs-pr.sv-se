@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4f146894489cd1292558916068758e4b3c9c15fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9ffac3e4a7f1275cdd9975f18de0b4c7222d646c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190257"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779991"
 ---
 # <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
 På sidan **Betalningsjournal** kan du använda batch-jobbet **Föreslå leverantörsbetalning** för att föreslå betalningsrader. Rader för saker som t.ex. betalningar som förfaller snart eller betalningar där en kassarabatt finns tillgänglig föreslås utifrån dina inställningar.

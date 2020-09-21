@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 285752074585eef8378f54b0f8dfa0d11b913a50
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 29aa67a3b892b07139975cf805ce33960b22bdab
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182450"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780166"
 ---
 # <a name="set-up-intercompany"></a>Koncerninterna inställningar
 Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
 
 Du måste också ställa in en koncernintern partnerkod för varje partnerföretag som godtas av alla företag, och sedan tilldela dem till kundkort respektive leverantörskort genom att fylla i fältet **koncernintern partnerkod**.  
 
-Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Artikelkrossreferens**: För att mappa dina artiklars nummer till dina koncerninterna partners beskrivningar av artiklarna öppnar du kortet för varje artikel och väljer sedan åtgärden **Krossreferens** för att ställa in korsreferenser mellan dina artikelbeskrivningar och leverantörens.  
+Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Korsreferens för objekt** för att mappa dina objektsnummer med dina koncerninterna partnerbeskrivningar för objekten, öppna kortet för respektive objekt och sedan välja åtgärden **Korsreferenser** för att konfigurera korsreferenser mellan dina artikelbeskrivningar och den koncerninterna partnerns. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md). 
 
 Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i [Ange resurser](projects-how-setup-resources.md).
 
@@ -34,6 +34,9 @@ Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna partner** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Koncerninterna partners** fyller du i fälten efter behov.
+
+> [!NOTE]
+> I [!INCLUDE[d365fin](includes/d365fin_md.md)] online kan du inte använda filplats för att överföra transaktioner till dina partners eftersom [!INCLUDE[d365fin](includes/d365fin_md.md)] inte har åtkomst till ditt lokala nätverk. Om du väljer **Filplats** i fältet **Överföringstyp** kommer fältet **Mappsökväg** inte att vara tillgängligt. Filen kommer istället att laddas ned till mappen Hämtningar på din dator. Du kan sedan skicka filen till någon i partnerföretaget, exempelvis via e-post. För en mer direkt process rekommenderar vi att du väljer **E-postmeddelande** istället.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Så här ställer du in koncerninterna leverantörer och koncerninterna kunder
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.

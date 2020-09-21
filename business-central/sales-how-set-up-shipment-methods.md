@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc4864f27490a9cef7d3401f67c8ef177a5c7ef3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 117af16fe6536f8db49eb3066e7e06a88450897f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193894"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780866"
 ---
 # <a name="set-up-shipment-methods"></a>Så här definierar du leveransmetoder
 Leveransmetoder, även kallade incoterms är ofta beroende av vilka artiklar, kunder eller leverantörer som avses. Om kunden t.ex. bor på en ö kan han eller hon välja att få artiklarna levererade per flyg eller båt. Vissa kunder kan kräva leverans nästa dag. En del kanske vill plocka upp ordern. På kund- och leverantörskorten kan du ange vilken typ av leverans som önskas.

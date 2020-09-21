@@ -9,18 +9,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2954fd3146b81f6511cec64f228714445b5fc486
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f299c9c38211b4dc265402b4079fe283e318113c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188714"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780716"
 ---
 # <a name="exchanging-data"></a>Utbyta data
 Du kan utbyta data mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och externa filer eller strömmar i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.  
 
-Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta datafilerna eller strömmarna. Dessutom måste du ställa in relaterade områden, till exempel kunder som du skickar elektroniska fakturor till, och tillägget AMC Banking 365 Fundamentals om du distribuerar bankfilskonverteringar till en extern tjänsteleverantör. Mer information finns i [Konfigurera datautbyte](across-set-up-data-exchange.md).  
+Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta datafilerna eller strömmarna. Du måste dessutom konfigurera relaterade områden, exempelvis de kunder som du skickar elektroniska fakturor till, samt AMC Banking 365 Fundamentals-tillägget om du distribuerar bankfilskonverteringar till en extern tjänsteleverantör. Mer information finns i [Konfigurera datautbyte](across-set-up-data-exchange.md).  
 
  I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
@@ -35,10 +35,10 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Be din bank att överföra betalningsbeloppen från kunders bankkonton till företagets konto enligt inställningarna för SEPA-autogiro.|[Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Använd en tjänstleverantör av valutakurser för att uppdatera sidan **valutor**.|[Uppdatera valutakurser](finance-how-update-currencies.md)|  
 |Visa vilka filelement som mappas till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] när du importerar SEPA CAMT-kontoutdragsfiler.|[Fältmappning vid import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)|  
-|Visa vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] som mappas till filelement när betalningsfiler exporteras med tillägget AMC Banking 365 Fundamentals.|[Fältmappning vid export av betalningsfiler med tillägget AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
+|Visa vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] som mappas till filelement när du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget.|[Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Se även  
-[Konfigurera datautbyte](across-set-up-data-exchange.md)  
+[Konfigurera databyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)   
 [Registrera inköp](purchasing-how-record-purchases.md)  

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fcb76f9f5cddba76983ff8d3dcbb92a2c08d09b5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4d3258bdc7781b6160bcb3a73a73358c2cac313f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193209"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779717"
 ---
 # <a name="create-bins"></a>Skapa lagerplatser
 Det effektivaste sättet att skapa lagerplatserna i distributionslagret på är att generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerplatserna automatiskt.  

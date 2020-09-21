@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c73fd564211dd93a7c6f668e1753227811544074
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f789c5caf0f59b1fdf3b3b10d42210152f32dc97
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193641"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781666"
 ---
 # <a name="merge-duplicate-records"></a>Slå samman dubblettposter
 När olika användare skapar nya kunder, leverantörer eller kontaktkort med tiden eller nya poster skapas automatiskt vid migrering kan kund, leverantör eller kontakt visas på system med mer än en post. I så fall kan du använda sidan **slå samman dubletter** från kortet för den post som du vill behålla. Den här sidan innehåller en översikt över dubbla fältvärden och innehåller funktioner för att välja vilka värden som ska behållas eller ignoreras när du slår samman två poster i en.

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7e2b7dbc00d096f32f4ec3d04b5c6f775c355598
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 922b1a83a7c89585de7d7f8b280058ecdc449ad8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196217"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780292"
 ---
 # <a name="create-bin-contents"></a>Skapa lagerplatsinnehåll
 När du har skapat lagerplatserna kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerplatsen ska fyllas med en viss artikel. Du kan göra detta manuellt på sidan **lagerplatsinnehåll** eller automatiskt med sidan **skapa lagerplatsinnehåll i kalkylarket**.

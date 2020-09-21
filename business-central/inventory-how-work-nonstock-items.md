@@ -10,19 +10,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4db83e4d2e3efffc1523fe3eadb65a14b431027
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181850"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781041"
 ---
 # <a name="work-with-catalog-items"></a>Arbeta med katalogartiklar
 Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du inte vill hantera i ditt system, tills du börjar sälja dem. När du vill börja hantera sådana artiklar i ditt system, kan du konvertera dem till vanliga artikelkort på två sätt.
 
 * Från ett kort för katalogartikel skapar skapar du ett nytt lagerkort baserat på en mall.
-* Från en försäljningsorderrad av typen **Artikel** med ett tomt fält ***Nr** väljer du en katalogartikel. Ett artikelkort skapas sedan automatiskt för katalogartikeln.
+* Från en försäljningsorderrad av typen **Artikel** med ett tomt fält **Nr** väljer du en katalogartikel. Ett artikelkort skapas sedan automatiskt för katalogartikeln.
 
 > [!NOTE]  
 > Du kan inte välja en katalogartikel från sidan **Försäljningsfaktura**.<br /><br />

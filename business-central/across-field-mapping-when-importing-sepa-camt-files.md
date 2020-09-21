@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0ddc987b1dd27cf2379b128aa735a78bacb868da
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 32e9ea2c4902a579a36134d1ac69ca4b1c06de8f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188642"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780641"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -59,8 +59,8 @@ ms.locfileid: "3188642"
 
  Element i noden **Ntry** som importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)] men inte är kopplade till vissa fält lagras i tabellen **Def.kod för bokföringsbyt** table. Användare kan visa dessa element från **Betalningsavstämningsjournal**, **Betalningskoppling**, och **bankkontoavstämning** genom att välja åtgärden **Information om bankutdragsrad**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Se även  
-[Konfigurera datautbyte](across-set-up-data-exchange.md)  
+[Konfigurera databyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  
-[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
-[Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
+[Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  

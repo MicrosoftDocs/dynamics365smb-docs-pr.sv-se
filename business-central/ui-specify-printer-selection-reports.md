@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
-ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
+ms.author: edupont
+ms.openlocfilehash: 4bf794dd423a2049887eb1a4fe725a091fdbd190
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3549873"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781191"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
