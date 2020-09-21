@@ -11,29 +11,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d17575523f74ceb4cb11fb7756fff56135d50966
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 86f8a20a2d42b7b84f062ddce702930d89bcbd75
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182546"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777622"
 ---
-# <a name="manage-human-resources"></a><span data-ttu-id="19a9c-103">Administrera personal</span><span class="sxs-lookup"><span data-stu-id="19a9c-103">Manage Human Resources</span></span>
-<span data-ttu-id="19a9c-104">I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hålla detaljerade register över dina anställda.</span><span class="sxs-lookup"><span data-stu-id="19a9c-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="19a9c-105">Du kan registrera och underhålla personalinformation, till exempel anställningskontrakt, konfidentiell information, kompetenser och kontakter.</span><span class="sxs-lookup"><span data-stu-id="19a9c-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
+# <a name="manage-human-resources"></a><span data-ttu-id="9ff9c-103">Administrera personal</span><span class="sxs-lookup"><span data-stu-id="9ff9c-103">Manage Human Resources</span></span>
+<span data-ttu-id="9ff9c-104">I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hålla detaljerade register över dina anställda.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="9ff9c-105">Du kan registrera och underhålla personalinformation, till exempel anställningskontrakt, konfidentiell information, kompetenser och kontakter.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
 
-<span data-ttu-id="19a9c-106">Du kan även registrera de anställdas frånvaro i syfte att analysera registrerad frånvaro vid behov.</span><span class="sxs-lookup"><span data-stu-id="19a9c-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
+<span data-ttu-id="9ff9c-106">Du kan även registrera de anställdas frånvaro i syfte att analysera registrerad frånvaro vid behov.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
 
-<span data-ttu-id="19a9c-107">För att du ska kunna använda funktionen Personal måste du först lägga upp information om din personal och annan grundläggande information.</span><span class="sxs-lookup"><span data-stu-id="19a9c-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="19a9c-108">Du kan därefter koppla olika koder till en anställd i syfte att filtrera information för specifika anställda.</span><span class="sxs-lookup"><span data-stu-id="19a9c-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
+<span data-ttu-id="9ff9c-107">För att du ska kunna använda funktionen Personal måste du först lägga upp information om din personal och annan grundläggande information.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-107">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="9ff9c-108">Du kan därefter koppla olika koder till en anställd i syfte att filtrera information för specifika anställda.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-108">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
 
-<span data-ttu-id="19a9c-109">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="19a9c-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="9ff9c-109">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="19a9c-110">Om du vill</span><span class="sxs-lookup"><span data-stu-id="19a9c-110">To</span></span> | <span data-ttu-id="19a9c-111">Gå till</span><span class="sxs-lookup"><span data-stu-id="19a9c-111">See</span></span> |
+| <span data-ttu-id="9ff9c-110">Om du vill</span><span class="sxs-lookup"><span data-stu-id="9ff9c-110">To</span></span> | <span data-ttu-id="9ff9c-111">Gå till</span><span class="sxs-lookup"><span data-stu-id="9ff9c-111">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="19a9c-112">Registrera nya anställda, redigera poster för nuvarande anställda och bifoga relaterad information, till exempel avtal och artiklar.</span><span class="sxs-lookup"><span data-stu-id="19a9c-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="19a9c-113">Registrera personal</span><span class="sxs-lookup"><span data-stu-id="19a9c-113">Register Employees</span></span>](hr-how-register-employees.md) |
-| <span data-ttu-id="19a9c-114">Registrera anställdas frånvaro och visa frånvarostatistik genom olika filter.</span><span class="sxs-lookup"><span data-stu-id="19a9c-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="19a9c-115">Hantera personalfrånvaro</span><span class="sxs-lookup"><span data-stu-id="19a9c-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
+| <span data-ttu-id="9ff9c-112">Registrera nya anställda, redigera poster för nuvarande anställda och bifoga relaterad information, till exempel avtal och artiklar.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-112">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="9ff9c-113">Registrera personal</span><span class="sxs-lookup"><span data-stu-id="9ff9c-113">Register Employees</span></span>](hr-how-register-employees.md) |
+| <span data-ttu-id="9ff9c-114">Registrera anställdas frånvaro och visa frånvarostatistik genom olika filter.</span><span class="sxs-lookup"><span data-stu-id="9ff9c-114">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="9ff9c-115">Hantera personalfrånvaro</span><span class="sxs-lookup"><span data-stu-id="9ff9c-115">Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><span data-ttu-id="19a9c-116">Se även</span><span class="sxs-lookup"><span data-stu-id="19a9c-116">See Also</span></span>
-[<span data-ttu-id="19a9c-117">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="19a9c-117">Finance</span></span>](finance.md)  
-<span data-ttu-id="19a9c-118">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="19a9c-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="19a9c-119">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="19a9c-119">Change Which Features are Displayed</span></span>](ui-experiences.md)        
+## <a name="see-also"></a><span data-ttu-id="9ff9c-116">Se även</span><span class="sxs-lookup"><span data-stu-id="9ff9c-116">See Also</span></span>
+[<span data-ttu-id="9ff9c-117">Ekonomi</span><span class="sxs-lookup"><span data-stu-id="9ff9c-117">Finance</span></span>](finance.md)  
+<span data-ttu-id="9ff9c-118">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9ff9c-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="9ff9c-119">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="9ff9c-119">Change Which Features are Displayed</span></span>](ui-experiences.md)        
