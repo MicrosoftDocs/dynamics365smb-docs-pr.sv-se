@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194601"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782449"
 ---
 # <a name="change-basic-settings"></a>Ändra grundinställningar
 
@@ -67,10 +67,11 @@ Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som at
 ### <a name="work-date-indication"></a>Indikering av arbetsdatum
 När arbetsdatumet inte infaller på dagens datum visas två typer av indikatorer på sidor som kan redigeras och där arbetsdatumet är så viktigt:
 
-- En påminnelse visas högst upp på sidan som anger vad arbetsdagens datum är. Betalnings påminnelsen innehåller en direkt länk till inställningen arbetsdatum på sidan **mina inställningar** så att du kan ändra datumet om du vill. Du kan också välja att stänga påminnelsen för resten av sessionen. Om du inte ändrar arbetsdatumet till "idag" visas påminnelsen nästa gång du loggar in.
+* En påminnelse visas högst upp på sidan som anger vad arbetsdagens datum är. Betalnings påminnelsen innehåller en direkt länk till inställningen arbetsdatum på sidan **mina inställningar** så att du kan ändra datumet om du vill. Du kan också välja att stänga påminnelsen för resten av sessionen. Om du inte ändrar arbetsdatumet till "idag" visas påminnelsen nästa gång du loggar in.
 
-- Om du avmarkerar påminnelsen visas arbetsdatumet i titeln på sidan.  
---> Om arbetsdatumet inte anges för den aktuella dagen (idag) visas sedan på alla sidor där du kan redigera data föregående arbetsdatum i det övre vänstra hörnet på sidan.
+* Om du avmarkerar påminnelsen visas arbetsdatumet i titeln på sidan.  
+
+Om arbetsdatumet inte anges för den aktuella dagen (idag) visas sedan på alla sidor där du kan redigera data föregående arbetsdatum i det övre vänstra hörnet på sidan.
 
 ## <a name="region"></a><a name="region"></a> Region
 

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.author: edupont
+ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577384"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781991"
 ---
 # <a name="track-document-lines"></a>Spåra dokumentrader
 Du kan visa dokument som är kopplade till försäljningsorderrader och inköpsorderrader, inklusive arkiverade orderrader. Relaterade dokument som du kan följa upp inkluderar offerter, transporter, inleveranser och avropsorder. Detta hjälper dig att identifiera dokument som används för att bearbeta order.  

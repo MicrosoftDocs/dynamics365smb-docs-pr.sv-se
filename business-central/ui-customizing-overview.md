@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 84f4e6e0cab2080260ec02f3493ce8ca2769b290
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5cc03c8b5fb11ecc0a34d83b1ea6dfaeae791e9d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194529"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782399"
 ---
 # <a name="customize-business-central"></a>Anpassa Business Central
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
@@ -31,7 +31,7 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 |Aktivera färger i rollcenter för att markera betydelse.|Konfigurera stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på värdena i stack-ikonerna.|Alla användare i ett visst företag.|[Skapa en färglagd indikator på stack-ikoner](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installera ett tillägg|Tillägg är som små program som lägger till funktioner, ändrar beteende, ger tillgång till nya onlinetjänster med mera. Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard.|Alla användare i alla företag.|[Anpassa med tillägg](ui-extensions.md)|
 > [!NOTE]
-> Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[d365fin](includes/d365fin_md.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i
+> Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[d365fin](includes/d365fin_md.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

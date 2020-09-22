@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192105"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782524"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokföra flera dokument på samma gång
+
 I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för direkt bokföring eller för batch-bokföring enligt ett schema, t.ex. i slutet av dagen. Detta kan vara användbart om endast en ansvarig kan bokföra dokument som skapats av andra användare eller undvika problem med system prestanda vid bokföring under arbetstid.
 
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Så här bokför du flera inköpsorder direkt
+
 I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är liknande för alla ingående och utgående dokument.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
@@ -31,10 +33,11 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är
 6. Välj knappen **Ja** på bekräftelsemeddelandet.
 
 ## <a name="to-batch-post-multiple-purchase-orders"></a>Så här bokför du flera inköpsorder
+
 I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknande för alla inköps- och försäljningsdokument där åtgärden **batch-bokföring** är tillgänglig.
 
 > [!NOTE]
-> Batch-bokföring av dokument sker i bakgrunden enligt definitionen i en jobbkötransaktion, som måste ställas in först. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
+> Masspublicering av dokument sker i bakgrunden. [!INCLUDE [prodshort](includes/prodshort.md)] online omfattar standardjobb för bakgrundsinlägg och masspublicering. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan tillhörande länk.  
 2. På sidan **inköpsorder** går du vidare för att välja alla order som ska bokföras:
@@ -42,10 +45,6 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknan
 4. Markera kryssrutan för alla rader som motsvarar order som du vill bokföra samtidigt.
 5. Välj åtgärden **bokföra** och välj sedan åtgärden **Bokför batch-jobb**.
 6. På sidan **Batch-bokför inköpsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!NOTE]
-    > Om du vill skriva ut relaterade rapporter vid bokföring, t.ex. **orderbekräftelse** för försäljningsorder markerar du kryssrutan **Skriv ut**.<br /><br /> I fältet **Rapportutdatatyp** på sidan **Försäljningsinställningar** eller **Inköpsinställningar** kan du ange om rapporten ska skrivas ut eller matas ut som PDF.<br /><br /> Tänk också på att direkt utskrift till en vald skrivare endast är möjlig vid lokala installationer.
-
 7. Välj **OK**.
 8. Om du vill visa potentiella problem som uppstod vid batch-bokföring av dokument öppnar du fönstret **registrera felmeddelande**.
 
@@ -54,6 +53,7 @@ Inköpsordern läggs nu till i en dedikerad jobbkötransaktion som definierar n�
 Om du väljer **PDF** i fältet **Rapportutdatatyp**, kommer bokförda inköpsorder vara tillgängliga i delen **rapportinkorg** i rollcentret.
 
 ## <a name="see-also"></a>Se även
+
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  
 [Redigera bokförda dokument](across-edit-posted-document.md)  
