@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c8a1fb9e6491eb70d71ba86381c5925f939addf2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188186"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785552"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
 Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
@@ -124,7 +124,7 @@ Beskrivs i följande procedurer.
     |**Namn**|Ange ett namn på mapningsinställningen.|  
     |**Förmappningskodenhet**|Ange den kodenhet som förbereder mappningen mellan fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] och externa data.|  
     |**Mappningskodenhet**|Ange den kodenhet som används för att mappa specifika kolumner eller XML-dataelement till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Eftermappningskodenhet**|Ange den kodenhet som slutför mappningen mellan fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] och externa data. **Obs!** När du använder funktionen AMC Banking 365 Fundamentals omvandlar codeunit exporterade data från [!INCLUDE[d365fin](includes/d365fin_md.md)] till ett generisk format som är klart att exportera. För import konverterar kodenheten externa data till ett format som är klart att importera till [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Eftermappningskodenhet**|Ange den kodenhet som slutför mappningen mellan fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] och externa data. **OBS!**  När du använder tilläggsfunktionen AMC Banking 365 Fundamentals konverterar kodenheten exporterade data från [!INCLUDE[d365fin](includes/d365fin_md.md)] till ett standardformat som är redo för export. För import konverterar kodenheten externa data till ett format som är klart att importera till [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  På Snabbfliken **Fältmappning** anger du vilka kolumner som mappas mot vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att fylla i fälten som beskrivs i följande tabell.  
 
@@ -139,7 +139,7 @@ Beskrivs i följande procedurer.
     |**Målfältsrubrik**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange namnet på fältet i måltabellen som värdet i fältet **Kolumnrubrik** mappas till när du använder en cachelagringstabell för dataimport.|  
     |**Valfri**|Visas endast när kryssrutan **Använd som cachelagringstabell** är markerad.<br /><br /> Ange om mappningen ska hoppas över när fältet är tomt. Om du inte markerar den här kryssrutan så inträffar ett exportfel om fältet är tomt.|  
 
-Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Ställa in SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Erhålla betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md) och [Utföra betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera skickande och mottagande av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Konfigurera SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md) samt [Betala med AMC Banking 365 Fundamentals -tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Omvandlingsregler
 Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera**och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
@@ -196,7 +196,7 @@ När du har skapat definitionen för datautbyte för en viss datafil kan du expo
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
-[Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)  
+[Göra betalningar med AMC Banking 365 Fundamentals-tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  

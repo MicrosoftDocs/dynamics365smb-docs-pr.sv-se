@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 56190be2caf1c31cf7c78d1a452d03ba7deea58e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1d8d32239ae464702bb2d41babf720c2f85e17e6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187490"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785727"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Koppla konfigurationen till nya företag
 När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering. Du använder konfigurationspaketet med ett nytt tomt företag.  

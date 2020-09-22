@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262148"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785452"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -203,7 +203,7 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
 ### <a name="entering-dates"></a>Ange datum
 
-Du kan antingen använda datumväljaren för att välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
+Du kan antingen använda dataväljaren för att välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
 För manuell datainmatning kan du skriva in två, fyra, sex eller åtta siffror.  
 
