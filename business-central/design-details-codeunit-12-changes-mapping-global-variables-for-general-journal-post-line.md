@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3872d131bdc60f0284acb109f65b832b6ced2fc5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0a7dadf797d190dff2c63bf406820304acc4bad0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185666"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788102"
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Ändringar i kodmodul 12: Mappa globala variabler för bokföring av rad i redovisningsjournalen
 Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  

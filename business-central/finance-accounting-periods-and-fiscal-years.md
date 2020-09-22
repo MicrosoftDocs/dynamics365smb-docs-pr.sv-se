@@ -8,28 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 09/09/2020
 ms.author: bholtorf
-ms.openlocfilehash: d720fa95873b1ec48f54797a59a209539045ed66
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0cbfbf6730a62b1c0f0e743362075a2085cf3813
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184058"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788452"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeta med bokföringsperioder och räkenskapsår
+
 Bokföringsperioder som även kallas rapporteringsperioder, är perioder som ett företag eller en organisation rapporterar resultat, exempelvis genom att generera deras resultat- eller balansräkning. Bokföringsperioder avser vanligtvis företagets räkenskapsår, som kan innehålla flera bokföringsperioder, till exempel månader eller kvartal.
 
-För många företag sammanfaller räkenskapsåret inte med kalenderåret. Till exempel slutar räkenskapsåret den 30 juni i stället för den 31 december. För nyskapade företag kan räkenskapsåret vara längre än tolv månader. 
+För många företag sammanfaller räkenskapsåret inte med kalenderåret. Till exempel slutar räkenskapsåret den 30 juni i stället för den 31 december. För nyskapade företag kan räkenskapsåret vara längre än tolv månader.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kräver endast bokföringsperioder om du vill avsluta en resultaträkning eller köra aktiviteter för datakomprimering. 
 
 Du kan använda bokföringsperioder vid rapportering. Till exempel när du granskar bokförda transaktioner på sidan **Saldo/budget** där rapporteringsintervallet kan anges. Ett av alternativen du kan ange för att rapportera efter bokföringsperiod. Du kan också skapa en kontouppställning som jämför resultaten för olika perioder.
 
 ## <a name="creating-a-new-fiscal-year"></a>Skapa ett nytt räkenskapsår
-Du kan skapa bokföringsperioder samtidigt, med hjälp av batch-jobbet **skapa räkenskapsår** eller manuellt.
+
+Du kan skapa redovisningsperioder i bulk genom att använda batchjobbet **Skapa räkenskapsår**, eller också skapa dem manuellt.
 
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Så här skapar du flera redovisningsperioder samtidigt
+
 Använd batch-jobbet **skapa räkenskapsår** om du vill dela upp ett räkenskapsår i lika långa perioder.  
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
@@ -40,6 +43,7 @@ Använd batch-jobbet **skapa räkenskapsår** om du vill dela upp ett räkenskap
 6. Välj **OK**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Så här skapar du flera redovisningsperioder manuellt
+
 Om redovisningsperioder för räkenskapsåret har olika varaktighet såsom 4-4-5-kalendern som används i detaljhandeln kan du manuellt ställa in den.  
   
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
@@ -48,24 +52,21 @@ Om redovisningsperioder för räkenskapsåret har olika varaktighet såsom 4-4-5
 4. Upprepa steg 2 och 3 för varje återstående period.  
 
 ## <a name="closing-a-fiscal-year"></a>Avsluta ett räkenskapsår
+
 Avsluta räkenskapsåret är en av åtgärderna för att avsluta böckerna. Efter att du avslutar ett räkenskapsår markeras kryssrutorna **Avslutat** och **Låst datum** för samtliga perioder i året. Du kan inte öppna ett år igen eller avmarkera kryssrutorna.
 
 > [!NOTE]  
->  Du måste alltid ha minst ett oavslutat räkenskapsår. När du avslutar ett år, försäkra dig om att ett nytt år har skapats. Notera även att efter att du avslutat ett år kan du inte ändra startdatumet för det följande året.
+> Du måste alltid ha minst ett oavslutat räkenskapsår. När du avslutar ett år, försäkra dig om att ett nytt år har skapats. Notera även att efter att du avslutat ett år kan du inte ändra startdatumet för det följande året.
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Avsluta år**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokför transaktioner till ett avslutat räkenskapsår.
+
 Även om ett räkenskapsår har avslutats kan du fortfarande bokföra redovisningstransaktioner på året. När du gör det markeras transaktionerna som bokförda på ett avslutat räkenskapsår och kryssrutan **Föregående års transaktion** markeras. Som standard visas inte kryssrutan på sidan, men du kan lägga till den. Nästa steg är att avsluta resultaträkningskontona och överföra årets resultat till ett konto i balansräkningen. Upprepa dessa steg varje gång du bokför transaktioner i ett avslutat räkenskapsår.
 
 ## <a name="see-also"></a>Se även
+
 [Avsluta böckerna](year-close-books.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Så här: Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
-  
-
-
-
-
-

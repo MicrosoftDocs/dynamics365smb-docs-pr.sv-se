@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 872e451302ffa3f6dcebe55886b2af943424bba7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185690"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788127"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  

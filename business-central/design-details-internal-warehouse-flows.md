@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9bdb3313a9dc0a2b2c233aeba5a566b844f90f47
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185330"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787802"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interna distributionslagerflöden
 Flödet av artiklar mellan lagerplatser på ett företags lagerställe centreras på plockning av komponenter och införsel av slutartiklar för monterings- eller produktionsorder och ad hoc-transporter, till exempel lagerplatspåfyllningar, utan relation till källdokument. Omfattningen och typen av de berörda aktiviteterna varierar mellan grundläggande och avancerad lagerstyrning.  

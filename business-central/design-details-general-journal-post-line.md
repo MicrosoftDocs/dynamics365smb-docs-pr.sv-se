@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1a8654b53dec476b175101a4d9c08f15ab3d6d6f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4186a97957e48b6d36c478d0280374cce0fbfc76
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185378"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787877"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetaljer: Bokföring av rad i redovisningsjournalen
 Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används för att designa om funktionen för bokföring av rader i redovisningsjournalen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Revideringen gör kodmodul 12 enklare och mer stabil. Dokumentationen börjar med att beskriva begreppsmässiga översikter av revideringen. Sedan förklaras den tekniska arkitekturen för att visa de ändringar som revideringen medför.  

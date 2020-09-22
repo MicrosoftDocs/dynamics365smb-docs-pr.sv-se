@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542673"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786602"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 
@@ -32,7 +32,8 @@ Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är likna
 3. Ange hur många enheter som har inlevererats i fältet **Inlevereras antal**.
 
   > [!NOTE]
-  > Om den mottagna mängden överstiger den som beställts på inköpsordern per fältet **Mängd** och leverantören har konfigurerats för att tillåta överinleveranser, använder du fältet **Överinleverans** för att hantera överskjutande mängd. Mer information finns i [Så här tar du emot fler artiklar än vad som beställts](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Om mottagen kvantitet överstiger den som angetts i fältet **Kvantitet** på inköpsordern, och om leverantören har godkänt överskridande inleveranser, kan du använda fältet **Överskr. inleverans** för att hantera överskottet. Mer information finns i [Så här tar du emot fler artiklar än vad som beställts](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Välj åtgärden **Bokföra**.
 
   Värdet i fältet **Inlevererat antal** uppdateras i enlighet därmed. Om detta är en delinleverans och värdet är lägre än värdet i fältet **antal**.

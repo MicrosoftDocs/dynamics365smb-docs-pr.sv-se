@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: a14f3da6a919f4e5a8066a4205ceb71f2dcee505
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185570"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788027"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetaljer: Efterfrågan vid tomt lagerställe
 När en användare skapar en begärandehändelse, till exempel en försäljningsorderrad, låter programmet användaren ibland ange en lagerställekod och andra gånger inte, det vill säga ett tomt lagerställe.
