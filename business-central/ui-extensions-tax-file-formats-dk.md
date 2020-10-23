@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5dfc1b44b9852a573e76b5593a38eb99a2503b36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dced6a3ae539e795c9207acd7eb7873798e570ab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189633"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923451"
 ---
-# <a name="the-tax-file-formats-dk-extension"></a><span data-ttu-id="37112-103">Tillägget för skattefilformat (DK)</span><span class="sxs-lookup"><span data-stu-id="37112-103">The Tax File Formats (DK) Extension</span></span>
-<span data-ttu-id="37112-104">Om du handlar med företag eller interna filialer eller dotterbolag i andra EU-länder måste du rapportera information om aktiviteterna till SKAT och för Danmark statistik.</span><span class="sxs-lookup"><span data-stu-id="37112-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="37112-105">Om du använder funktionerna för moms- och Intrastat-rapportering i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du med det här tillägget kontrollera att filen som du exporterar är kompatibel med kraven från dessa organisationer.</span><span class="sxs-lookup"><span data-stu-id="37112-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="37112-106">Tillägget lägger till kodmoduler för exportfil för MS-ECSL-rapport och Intrastat-exportradöverföring till din momskonfiguration så att du kan exportera data i det nya formatet direkt.</span><span class="sxs-lookup"><span data-stu-id="37112-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
+# <a name="the-tax-file-formats-dk-extension"></a><span data-ttu-id="70ffc-103">Tillägget för skattefilformat (DK)</span><span class="sxs-lookup"><span data-stu-id="70ffc-103">The Tax File Formats (DK) Extension</span></span>
+<span data-ttu-id="70ffc-104">Om du handlar med företag eller interna filialer eller dotterbolag i andra EU-länder måste du rapportera information om aktiviteterna till SKAT och för Danmark statistik.</span><span class="sxs-lookup"><span data-stu-id="70ffc-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="70ffc-105">Om du använder funktionerna för moms- och Intrastat-rapportering i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du med det här tillägget kontrollera att filen som du exporterar är kompatibel med kraven från dessa organisationer.</span><span class="sxs-lookup"><span data-stu-id="70ffc-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="70ffc-106">Tillägget lägger till kodmoduler för exportfil för MS-ECSL-rapport och Intrastat-exportradöverföring till din momskonfiguration så att du kan exportera data i det nya formatet direkt.</span><span class="sxs-lookup"><span data-stu-id="70ffc-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
 
-<span data-ttu-id="37112-107">Tillägget är gratis, du måste bara installera det.</span><span class="sxs-lookup"><span data-stu-id="37112-107">The extension is free, you just need to install it.</span></span>
+<span data-ttu-id="70ffc-107">Tillägget är gratis, du måste bara installera det.</span><span class="sxs-lookup"><span data-stu-id="70ffc-107">The extension is free, you just need to install it.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="37112-108">Se även</span><span class="sxs-lookup"><span data-stu-id="37112-108">See Also</span></span>
-[<span data-ttu-id="37112-109">Anpassa Business Central med tillägg</span><span class="sxs-lookup"><span data-stu-id="37112-109">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)
+## <a name="see-also"></a><span data-ttu-id="70ffc-108">Se även</span><span class="sxs-lookup"><span data-stu-id="70ffc-108">See Also</span></span>
+[<span data-ttu-id="70ffc-109">Anpassa Business Central med tillägg</span><span class="sxs-lookup"><span data-stu-id="70ffc-109">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)

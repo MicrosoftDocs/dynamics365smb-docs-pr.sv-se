@@ -10,43 +10,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 805439e0cc50fe0b9dc3132050eb7c7041ffe7a7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785952"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923776"
 ---
-# <a name="set-up-locations"></a><span data-ttu-id="c4bc1-103">Konfigurera platser</span><span class="sxs-lookup"><span data-stu-id="c4bc1-103">Set Up Locations</span></span>
-<span data-ttu-id="c4bc1-104">Om du köper, lagrar eller säljer artiklar på mer än en plats eller ett lager, måste du ställa in varje plats med ett lagerställeskort och definiera överföringsflöden.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-104">If you buy, store, or sell items at more than one place or warehouse, you must set each location up with a location card and define transfer routes.</span></span>
+# <a name="set-up-locations"></a><span data-ttu-id="2c898-103">Konfigurera platser</span><span class="sxs-lookup"><span data-stu-id="2c898-103">Set Up Locations</span></span>
+<span data-ttu-id="2c898-104">Om du köper, lagrar eller säljer artiklar på mer än en plats eller ett lager, måste du ställa in varje plats med ett lagerställeskort och definiera överföringsflöden.</span><span class="sxs-lookup"><span data-stu-id="2c898-104">If you buy, store, or sell items at more than one place or warehouse, you must set each location up with a location card and define transfer routes.</span></span>
 
-<span data-ttu-id="c4bc1-105">Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition per lagerställe och överföra lager mellan olika lagerställen.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-105">You can then create document lines for a specific location, view availability by location, and transfer inventory between locations.</span></span> <span data-ttu-id="c4bc1-106">Mer information finns i [Administrera projekt](inventory-manage-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="c4bc1-106">For more information, see [Manage Inventory](inventory-manage-inventory.md).</span></span>
+<span data-ttu-id="2c898-105">Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition per lagerställe och överföra lager mellan olika lagerställen.</span><span class="sxs-lookup"><span data-stu-id="2c898-105">You can then create document lines for a specific location, view availability by location, and transfer inventory between locations.</span></span> <span data-ttu-id="2c898-106">Mer information finns i [Administrera projekt](inventory-manage-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="2c898-106">For more information, see [Manage Inventory](inventory-manage-inventory.md).</span></span>
 <br><br>  
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="to-create-a-location-card"></a><span data-ttu-id="c4bc1-107">Skapa ett nytt lagerställeskort</span><span class="sxs-lookup"><span data-stu-id="c4bc1-107">To create a location card</span></span>
-1. <span data-ttu-id="c4bc1-108">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.</span></span>
-2. <span data-ttu-id="c4bc1-109">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-109">Choose the **New** action.</span></span>
-3. <span data-ttu-id="c4bc1-110">På sidan **Lagerställekort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-110">On the **Location Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. <span data-ttu-id="c4bc1-111">Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-111">Repeat steps 2 and 3 for every location where you want to keep inventory.</span></span>
+## <a name="to-create-a-location-card"></a><span data-ttu-id="2c898-107">Skapa ett nytt lagerställeskort</span><span class="sxs-lookup"><span data-stu-id="2c898-107">To create a location card</span></span>
+1. <span data-ttu-id="2c898-108">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="2c898-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2c898-109">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="2c898-109">Choose the **New** action.</span></span>
+3. <span data-ttu-id="2c898-110">På sidan **Lagerställekort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="2c898-110">On the **Location Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="2c898-111">Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.</span><span class="sxs-lookup"><span data-stu-id="2c898-111">Repeat steps 2 and 3 for every location where you want to keep inventory.</span></span>
 
 > [!NOTE]  
-> <span data-ttu-id="c4bc1-112">Många fält på lagerställekortet hänvisar till hanteringen av artiklar i ingående och utgående lagerprocesser.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-112">Many fields on the location card refer to the handling of items in inbound and outbound warehouse processes.</span></span> <span data-ttu-id="c4bc1-113">Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).</span><span class="sxs-lookup"><span data-stu-id="c4bc1-113">For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).</span></span>
+> <span data-ttu-id="2c898-112">Många fält på lagerställekortet hänvisar till hanteringen av artiklar i ingående och utgående lagerprocesser.</span><span class="sxs-lookup"><span data-stu-id="2c898-112">Many fields on the location card refer to the handling of items in inbound and outbound warehouse processes.</span></span> <span data-ttu-id="2c898-113">Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).</span><span class="sxs-lookup"><span data-stu-id="2c898-113">For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).</span></span>
 
-## <a name="to-create-a-transfer-route"></a><span data-ttu-id="c4bc1-114">Så här skapar du ett överföringsflöde</span><span class="sxs-lookup"><span data-stu-id="c4bc1-114">To create a transfer route</span></span>
-1. <span data-ttu-id="c4bc1-115">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överföringsflöden** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.</span></span>
-2. <span data-ttu-id="c4bc1-116">Alternativt kan du på sidan **Lagerställekort** välja åtgärden **Överföringsflöden**.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-116">Alternatively, from any **Location Card** page, choose the **Transfer Routes** action.</span></span>
-3. <span data-ttu-id="c4bc1-117">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-117">Choose the **New** action.</span></span>
-4. <span data-ttu-id="c4bc1-118">På sidan **Lagerställekort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-118">On the **Location Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-create-a-transfer-route"></a><span data-ttu-id="2c898-114">Så här skapar du ett överföringsflöde</span><span class="sxs-lookup"><span data-stu-id="2c898-114">To create a transfer route</span></span>
+1. <span data-ttu-id="2c898-115">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överföringsflöden** och välj sedan relaterad länk.</span><span class="sxs-lookup"><span data-stu-id="2c898-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2c898-116">Alternativt kan du på sidan **Lagerställekort** välja åtgärden **Överföringsflöden**.</span><span class="sxs-lookup"><span data-stu-id="2c898-116">Alternatively, from any **Location Card** page, choose the **Transfer Routes** action.</span></span>
+3. <span data-ttu-id="2c898-117">Välj åtgärden **Ny**.</span><span class="sxs-lookup"><span data-stu-id="2c898-117">Choose the **New** action.</span></span>
+4. <span data-ttu-id="2c898-118">På sidan **Lagerställekort** fyller du i fälten efter behov.</span><span class="sxs-lookup"><span data-stu-id="2c898-118">On the **Location Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-<span data-ttu-id="c4bc1-119">Du kan nu överföra lagerartiklar mellan två lagerställen.</span><span class="sxs-lookup"><span data-stu-id="c4bc1-119">You can now transfer inventory items between two locations.</span></span> <span data-ttu-id="c4bc1-120">Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).</span><span class="sxs-lookup"><span data-stu-id="c4bc1-120">For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).</span></span>    
+<span data-ttu-id="2c898-119">Du kan nu överföra lagerartiklar mellan två lagerställen.</span><span class="sxs-lookup"><span data-stu-id="2c898-119">You can now transfer inventory items between two locations.</span></span> <span data-ttu-id="2c898-120">Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).</span><span class="sxs-lookup"><span data-stu-id="2c898-120">For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).</span></span>    
 
-## <a name="see-also"></a><span data-ttu-id="c4bc1-121">Se även</span><span class="sxs-lookup"><span data-stu-id="c4bc1-121">See Also</span></span>
-[<span data-ttu-id="c4bc1-122">Hantera lager</span><span class="sxs-lookup"><span data-stu-id="c4bc1-122">Manage Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="c4bc1-123">[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  </span><span class="sxs-lookup"><span data-stu-id="c4bc1-123">[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  </span></span>  
-<span data-ttu-id="c4bc1-124">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c4bc1-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="c4bc1-125">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="c4bc1-125">Change Which Features are Displayed</span></span>](ui-experiences.md)  
-[<span data-ttu-id="c4bc1-126">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="c4bc1-126">General Business Functionality</span></span>](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="2c898-121">Se även</span><span class="sxs-lookup"><span data-stu-id="2c898-121">See Also</span></span>
+[<span data-ttu-id="2c898-122">Hantera lager</span><span class="sxs-lookup"><span data-stu-id="2c898-122">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="2c898-123">[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  </span><span class="sxs-lookup"><span data-stu-id="2c898-123">[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  </span></span>  
+<span data-ttu-id="2c898-124">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2c898-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="2c898-125">Ändra vilka funktioner som visas</span><span class="sxs-lookup"><span data-stu-id="2c898-125">Change Which Features are Displayed</span></span>](ui-experiences.md)  
+[<span data-ttu-id="2c898-126">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="2c898-126">General Business Functionality</span></span>](ui-across-business-areas.md)
