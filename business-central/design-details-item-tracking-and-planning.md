@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f2711b50e4cc1fd0f79e8c35a3843783ff14327
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787652"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927003"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designdetaljer: Artikelkoppling och planering
 Eftersom de lagras i reservationssystemet koordineras artikelspårningsnummer helt med orderspårningsposter. Det betyder att artiklar med orderspårningsposter kan tilldelas artikelspårningsnummer. Artiklar som har artikelspårningsnummer kan bli orderspårningsposter. Mer information finns i [Designdetaljer: Design av artikelspårning](design-details-item-tracking-design.md).

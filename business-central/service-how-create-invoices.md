@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402531"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925844"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Skapa tjänstefakturor eller kreditnotor
 Enkel fakturering av serviceorder är en nyckelfunktion i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan också konfigurera [!INCLUDE[prodshort](includes/prodshort.md)] så att en servicetekniker på fältet kan skapa en faktura för en tjänst som inte är kopplad till ett kontrakt eller en order. Du kan också ställa in [!INCLUDE[prodshort](includes/prodshort.md)] så att du regelbundet fakturerar servicekontrakt. Faktureringsperioden för respektive kontrakt anger hur ofta du skickar ut den.
@@ -41,7 +41,7 @@ Du kan också fakturera ett servicekontrakt direkt från sidan **Servicekontrakt
   > Det går inte att skapa servicefakturor för servicekontrakt om fältvärdet för **Ändra status** anges till **Öppen**.  
 
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Så här bokför du förbrukning från en serviceorder  
-*Nedan beskrivs hur du definierar den del av en service som du debiterar kunden för.  
+Nedan beskrivs hur du definierar den del av en service som du debiterar kunden för.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Välj serviceorder som du vill fakturera och öppna orderkortet.  

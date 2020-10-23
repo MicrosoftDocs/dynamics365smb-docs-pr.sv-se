@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196549"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922398"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Felsöka synkroniseringsfel
 Det finns många rörliga delar som används för att integrera [!INCLUDE[d365fin](includes/d365fin_md.md)] med Common Data Service och ibland kan det bli fel. I det här avsnittet beskrivs några vanliga fel som uppstår och du får tips om hur du åtgärdar dem.
@@ -50,6 +50,9 @@ Konfliktfelmeddelandet "Det går inte att uppdatera kundposten eftersom den har 
 Konflikten beror på att målposten också har ändrats – postens tidsstämpel är senare än tidsstämpeln för försäljningsintegreringsposten. Målkontrollen sker bara för dubbelriktade tabeller. 
 
 De här posterna flyttas nu till sidan "Hoppade över Synkronisera poster" som du öppnar från sidan för Microsoft Dynamics-anslutningsinställningar i Business Central. Där kan du ange vilka ändringar som ska behållas och sedan synkronisera posterna igen.
+
+## <a name="remove-couplings-between-records"></a>Ta bort kopplingar mellan poster
+När något går fel i integrationen och du behöver ta bort kopplingen mellan poster för att sluta synkronisera dem, kan du göra det för en eller flera poster i taget. På sidan **Tabellmappningar för integrering** kan du välja **Bortkoppling** och sedan **Ta bort koppling**. Du kan också, på sidan **Synkroniseringsfel av kopplade data**, välja fel och sedan **Ta bort kopplingar**. 
 
 ## <a name="see-also"></a>Se även
 [Integrera med Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

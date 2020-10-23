@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f4681a6355868b384532192a32d1e40af34eb86
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4e7d6380465eed64a7086b9348e1a2261555a024
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785314"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913894"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
 Om det i fältet **Monteringsmetod** på en monteringsartikels artikelkort står **Montering mot kundorder** förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.  

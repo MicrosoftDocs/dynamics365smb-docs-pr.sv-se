@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191697"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923126"
 ---
 # <a name="using-pre-closing-reports"></a>Använda rapporter före bokslut
 Det finns flera standardrapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period. Du kan till exempel använda rapporten **Kund - råbalans** för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum.

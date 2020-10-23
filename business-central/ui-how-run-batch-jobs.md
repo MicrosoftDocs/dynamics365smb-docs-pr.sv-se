@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: c54edd1e907c27aca719898319f69f98c0a0a068
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7c9d67168308491daef838e91c5a1b84645b222a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195609"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920428"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Kör batch-jobb och XML-portar
 Ett batch-jobb i är en rutin som bearbetar data i omgångar, till exempel batch-jobbet **Justera valutakurser**. Det finns batch-jobb som utför regelbundna redovisningsaktiviteter, som till exempel att stänga resultaträkningen i slutet av ett räkenskapsår. Många batch-jobb utför beräkningsarbetet, t.ex beräkning av dröjsmålsränta, valutakursjustering och beräkning av styckkostnaden.

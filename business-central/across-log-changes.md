@@ -8,41 +8,69 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 1497051beebd01839dfc4b4fe2dce6b46977eef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528819"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922673"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
+En vanlig utmaning i många affärshanteringsprogram är att undvika oönskade ändringar i data. Det kan vara allt från ett felaktigt kundtelefonnummer till en felaktig bokföring i redovisningen. I det här avsnittet beskrivs möjligheterna att ta reda på vad som har förändrats, vem som ändrat det och när ändringen gjordes.
 
-Du kan aktivera ändringsloggen i [!INCLUDE[d365fin](includes/d365fin_md.md)] så att du får en historik över aktiviteter. Loggen är baserad på ändringar av data i tabeller som du spårar. På sidan **Poster i ändringslogg** sorteras poster kronologiskt och visar de ändringar som har gjorts i fälten i de angivna posterna. I ändringsloggen samlas alla ändringar som gjorts i tabellen.
+## <a name="about-the-change-log"></a>Om ändringsloggen 
+Med ändringsloggen kan du spåra alla direkta ändringar som användare gör av data i databasen. Du måste ange vad du vill att systemet ska logga för varje tabell och fält och därefter måste du aktivera ändringsloggen.  
+
+Ändringsloggen är baserad på ändringar av data i tabeller som du spårar. På sidan **Poster i ändringslogg** sorteras poster kronologiskt och visar alla ändringar som har gjorts av värden i fälten i de tabeller du anger.
 
 > [!Important]
-> En användares ändringar visas inte i **ändringsloggtransaktioner** förrän sessionen har startats om, vilket sker i följande fall:
+> Ändringar visas endast i **Poster i ändringslogg** när användarens session har startats om, vilket inträffar på följande sätt:
 <br />
 > * Sessionen har upphört att gälla och har uppdaterats.
 > * Användaren valde ett annat företag eller rollcenter.
 > * Den användaren har loggat ut och in igen.
 
-## <a name="working-with-the-change-log"></a>Arbeta med ändringsloggen
-
-Ett vanligt problem i många ekonomisystem är att ta reda på var fel och ändringar av data har sina ursprung. Det kan vara allt från ett felaktigt kundtelefonnummer till en felaktig bokföring i redovisningen. Med ändringsloggen kan du spåra alla direkta ändringar som användare gör av data i databasen. Du måste ange vad du vill att systemet ska logga för varje tabell och fält och därefter måste du aktivera ändringsloggen.  
-
+### <a name="working-with-the-change-log"></a>Arbeta med ändringsloggen
 Du aktiverar och avaktiverar ändringsloggen på sidan **Ändringslogg inställning**. När en användare aktiverar eller inaktiverar ändringsloggen, loggas denna aktivitet så du kan alltid se vilken användare som har inaktiverat respektive återaktiverat ändringsloggen.
 
 På sidan **Ändringslogginställningar** om du väljer åtgärden **Tabeller** kan du ange vilka tabeller som du vill spåra ändringar för och vilka ändringar som ska spåras. [!INCLUDE[d365fin](includes/d365fin_md.md)] spårar även nummer av systemtabeller.
 
+> [!NOTE]
+> Du kan övervaka specifika fält för ändringar, till exempel fält som innehåller känslig information, genom att skapa fältövervakning. Om du gör undviks redundans genom att tabellen som innehåller fältet inte är tillgänglig för konfigurationen av ändringslogg. Mer information finns i [Övervaka känsliga fält](across-log-changes.md#monitoring-sensitive-fields).
+
 När du har skapat ändringsloggen och aktiverat den, och gjort en ändring av data, kan du visa och filtrera ändringen på sidan **Ändringslogg transaktioner**. Om du vill ta bort transaktioner kan du göra det på sidan **ta bort ändringsloggtransaktioner**, där du kan ange filter baserat på datum och tider.  
 
-## <a name="working-with-activity-logs"></a>Arbeta med aktivitetsloggar
+## <a name="about-activity-logs"></a>Om aktivitetsloggar
+På vissa sidor i [!INCLUDE [prodshort](includes/prodshort.md)] kan du visa en aktivitetslogg som visar status och eventuella fel från filer som du exporterar från eller importerar till [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-På vissa sidor i [!INCLUDE[prodshort](includes/prodshort.md)] kan du visa en aktivitetslogg som visar status och eventuella fel från filer som du exporterar från eller importerar till [!INCLUDE[prodshort](includes/prodshort.md)].  
+### <a name="working-with-activity-logs"></a>Arbeta med aktivitetsloggar
+Informationen visas på sidan **Aktivitetslogg** enligt kontexten den öppnas från. Du kan till exempel öppna sidan från sidorna **Inställning av dokumentutbytestjänst**, **Inkommande dokument**, **Bokförd försäljningsfaktura** och **Bokförd försäljningskreditnota**. Du kan tömma listan över loggposter eller bara rensa listan över poster som är äldre än sju dagar.  
 
-Informationen visas i fönstret **Aktivitetslogg** enligt kontexten den öppnas från. Du kan öppna fönstret från sidan **Inställning av dokumentutbytestjänst**, **Inkommande dokument**, **Bokförd försäljningsfaktura** och **Bokförd försäljningskreditnota**. Du kan tömma listan över loggposter eller bara rensa listan över poster som är äldre än 7 dagar.  
+## <a name="monitoring-sensitive-fields"></a>Övervaka känsliga fält
+Att hålla känslig information säker och privat är en grundläggande angelägenhet för de flesta företag. Om du vill lägga till ett säkerhetsskikt kan du övervaka viktiga fält och meddelas via e-post när någon ändrar ett värde. Du kanske till exempel vill få ett meddelande om någon ändrar IBAN-numret för ditt företag.
+
+> [!NOTE]
+> Om du vill skicka meddelanden via e-post måste du ställa in e-postfunktionen i [!INCLUDE[prodshort](includes/prodshort.md)]. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).
+
+### <a name="setting-up-field-monitoring"></a>Konfigurera fältövervakning
+Du kan använda guiden **Konfigurera övervakning av fältändringar** för assisterad konfiguration för att ange vilka fält du vill övervaka baserat på filterkriterier, till exempel klassificering av datakänslighet för fälten. Mer information finns i [Klassificera datakänslighet](admin-classifying-data-sensitivity.md). Med guiden kan du också ange vilken person som ska få ett e-postmeddelande när en ändring sker och vilket e-postkonto som ska användas för att skicka e-postmeddelandet. Du måste ange både användarmeddelandet och kontot som meddelandet ska skickas från. När du har slutfört guiden kan du hantera inställningarna för fältövervakning på sidan **Konfigurera fältövervakning**. 
+
+Med tiden kommer listan över poster på sidan **Poster i loggen med övervakade fält** att växa. Om du vill minska antalet poster kan du skapa en bevarandeprincip som tar bort poster efter en viss tidsperiod. Mer information finns i [Definiera bevarandeprinciper](admin-data-retention-policies.md).
+
+När du ställer in fältövervakning, eller ändrar någonting i inställningarna, skapas poster för dina ändringar. Du kan ange om du vill visa poster som är relaterade till övervakningsinställningarna genom att visa eller dölja dem. 
+
+Du kan hantera inställningar för fältövervakning, t.ex. om ett e-postmeddelande ska skickas eller om ändringar bara ska loggas, för varje fält på sidan **Kalkylark med övervakade fält**. Du kan också lägga till eller ta bort fält för övervakning på sidan.
+
+> [!NOTE]
+> När du har lagt till ett eller flera fält och startat övervakning måste du logga ut från [!INCLUDE[prodshort](includes/prodshort.md)] och logga in igen för att tillämpa inställningarna.
+
+### <a name="working-with-field-monitoring"></a>Arbeta med fältövervakning
+Poster för alla ändrade värden för övervakade fält är tillgängliga på sidan **Poster i loggen med övervakade fält**. Exempelvis innehåller poster som t.ex. fältet som värdet ändrades för, det ursprungliga och det nya värdet och vem som gjorde ändringen och när de gjorde det. Om du vill granska en ändring ytterligare kan du välja ett värde för att öppna sidan där den gjordes. Om du vill se en lista över alla poster väljer du **Poster för fältändringar**.
+
+## <a name="defining-retention-policies"></a>Definiera bevarandeprinciper
+Du kan skapa bevarandeprinciper för att ta bort data som inte behövs i loggarna efter en tidsperiod som du anger. Till exempel kan antalet poster i en logg ökas med tiden. Genom att rensa bort gamla poster kan du göra det enklare att fokusera på nyare, och troligen mer relevanta, poster. Mer information finns i [Definiera bevarandeprinciper](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Se även
 [Ändra grundinställningar](ui-change-basic-settings.md)  
@@ -50,3 +78,4 @@ Informationen visas i fönstret **Aktivitetslogg** enligt kontexten den öppnas 
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)    
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Definiera bevarandeprinciper](admin-data-retention-policies.md)  

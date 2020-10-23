@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 07/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c6bbddbdc6dcfc75fc32ada91a5d6d6ec5bde1e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b3d45d4a058ea21adefafd13e640346e61a249d3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783080"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926878"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandla inköpsreturer eller annulleringar
 
@@ -50,7 +50,7 @@ Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Skapa en ny inköpskreditnota från en bokförd inköpsfaktura.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
 2. På sidan **Bokförda inköpsfakturor** väljer du den bokförda inköpsfakturan som du vill återföra och väljer sedan åtgärden **Skapa korrigerande kreditnota**.
 
     De flesta fält på inköpskreditnotans huvud fylls i med informationen från den bokförda inköpsfakturan. Du kan redigera alla fält, till exempel med ny information som behövs för returavtalet.
@@ -71,7 +71,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Skapa en ny inköpskreditnota genom att kopiera en bokförd inköpsfaktura.
 
-1. Välj ![glödlampeikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpskreditnota** och välj sedan relaterad länk.
+1. Välj ![glödlampeikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpskreditnota** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom inköpskreditnota.
 3. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
 4. Välj åtgärden **Kopiera från dokument**.
@@ -83,7 +83,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Att skapa en inköpsreturorder baserat på minst ett bokfört inköpsdokument.
 
-1. Välj ![glödlampeikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsreturordrar** och välj sedan relaterad länk.  
+1. Välj ![glödlampeikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsreturordrar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält.
 4. På snabbfliken **rader** fyller du i raderna manuellt eller kopierar information från andra dokument för att fylla i raderna automatiskt:
@@ -193,4 +193,5 @@ När returutleveranser kombineras på en kreditnota och sedan bokförs skapas en
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)  

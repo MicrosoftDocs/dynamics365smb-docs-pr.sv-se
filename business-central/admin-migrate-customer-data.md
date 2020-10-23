@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 33d5caec7086d12b9a2450fc36224987c5a97642
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e25082286f53c5b0458359d5f5c895b03c6f6bcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783532"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927128"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.

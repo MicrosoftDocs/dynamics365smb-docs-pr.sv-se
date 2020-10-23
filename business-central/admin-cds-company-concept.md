@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324060"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911667"
 ---
 # <a name="data-ownership-models"></a>Modeller för dataägarskap
 [!INCLUDE[d365fin](includes/cds_long_md.md)] kräver att du anger en ägare till de data du lagrar. Mer information finns i [Enhetsägarskap](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) i Power Apps-dokumentationen. När du ställer in integreringen mellan [!INCLUDE[d365fin](includes/cds_long_md.md)] och [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du välja en av två ägarskapsmodeller för transaktioner som synkroniseras:
@@ -70,6 +70,8 @@ När du ändrar en affärsenhet kan du bara välja de affärsenheter som finns p
 Om du väljer ägandeskapsmodellen Personlig måste du ange respektive säljare som ska äga nya transaktioner. Affärsenheten och teamet skapas på det sätt som beskrivs i avsnittet [Gruppägarskap](admin-cds-company-concept.md#team-ownership) section.
 
 Standardaffärsenheten används när ägandemodellen person väljs och du kan inte välja en annan affärsenhet. Teamet som är kopplat till standardaffärsenheten kommer att äga poster för vanliga entiteter, till exempel produktentitet, som inte är relaterade till vissa säljare.
+
+När du kopplar säljare i [!INCLUDE[d365fin](includes/d365fin_md.md)] till användare i [!INCLUDE[d365fin](includes/cds_long_md.md)], kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att lägga till användaren i standardteamet i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Du kan kontrollera att användare läggs till genom att titta i kolumnen **Standardteammedlem** på sidan **Användare – Common Data Service**. Om användaren inte läggs till kan du lägga till den manuellt genom att använda åtgärden **Lägg till kopplade användare i Team**. Mer information finns i [Synkronisera data i Business Central med Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Se även
 [Om [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0048d0e78084c939c9e2a707975598a171108cdc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6b69d64e67428cc4f1e7dc75e6267b2749e182c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183938"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913452"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-d365fin"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)] 
-Om företaget använder appen Bookings i Office 365  kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
+Om företaget använder appen Bokningar i Microsoft 365 kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
 
 ## <a name="connect-to-bookings"></a>Anslut till Bookings
 För att ansluta ditt [!INCLUDE[d365fin](includes/d365fin_md.md)] med Bookings, måste du ange ditt Bookings-företag, vad som ska synkroniseras med Bookings, hur ofta du vill synkronisera och vilka mallar du vill använda. Du kan ställa in informationen på sidan **Inställningar av Bookings-synkning** som du kan starta från sidan **Inställningar för Exchange-synkning** som du hittar genom [söka](ui-search.md).  

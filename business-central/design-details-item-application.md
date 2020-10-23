@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787677"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913669"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 
@@ -35,7 +35,7 @@ Artikelkopplingar kan utföras på följande sätt.
 |Metod|Description|Kopplingstyp|  
 |------------|---------------------------------------|----------------------|  
 |Automatiskt|Uppstår som allmän kostnadsspedition enligt värderingsprincipen|Antalskoppling|  
-|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr** eller genom att använda en funktion, till exempel **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
+|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr**, eller genom att använda en funktion som **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
 
 Om du gör antalskopplingar eller kostnadskopplingar beror på lagertransaktionens riktning, och om en artikelkoppling utförs automatiskt eller fast, i samband med specifika processer.  
 

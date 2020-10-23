@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32e9ea2c4902a579a36134d1ac69ca4b1c06de8f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780641"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918057"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -57,7 +57,11 @@ ms.locfileid: "3780641"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ostrukturerat|Text|Information som levereras så att du matcha/stämma av en transaktion med artiklarna som betalningen är avsedd att reglera, till exempel kommersiella fakturor i ett kundreskontrasystem, i en ostrukturerad form||6|Beskrivning|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Ytterligare information om transaktionen||16|Transaktionsinformation|  
 
- Element i noden **Ntry** som importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)] men inte är kopplade till vissa fält lagras i tabellen **Def.kod för bokföringsbyt** table. Användare kan visa dessa element från **Betalningsavstämningsjournal**, **Betalningskoppling**, och **bankkontoavstämning** genom att välja åtgärden **Information om bankutdragsrad**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).  
+ Element i noden **Ntry** som importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)] men inte är kopplade till vissa fält lagras i tabellen **Def.kod för bokföringsbyt** table. Användare kan visa dessa element från **Betalningsavstämningsjournal**, **Betalningskoppling**, och **bankkontoavstämning** genom att välja åtgärden **Information om bankutdragsrad**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> Vid import av CAMT-kontoutdrag [!INCLUDE[d365fin](includes/d365fin_md.md)] måste varje transaktion vara unik, vilket innebär att fältet **Transaktions-ID** som kommer från taggen *Stmt/Ntry/NtryDtls/TxDtls/ReFS/EndToEndId* i CAMT-filen måste vara unikt i den öppna bankkontoavstämningen. Om informationen inte finns ignorerar [!INCLUDE[d365fin](includes/d365fin_md.md)] betalningen. Om en tidigare bankavstämning på samma bankkonto bokfördes med samma transaktions-ID som för den aktuella importen, kommer den aktuella transaktionen inte att stämmas av automatiskt, men den kan fortfarande importeras.
+
 ## <a name="see-also"></a>Se även  
 [Konfigurera databyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  

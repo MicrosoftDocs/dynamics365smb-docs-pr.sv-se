@@ -1,23 +1,18 @@
 ---
 title: Anpassar sidor för roller | Microsoft Docs
 description: Lär dig mer om att anpassa användargränssnittet för en profil (roll) så att alla användare som är tilldelade den rollen ser en anpassad arbetsyta.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781341"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912077"
 ---
 # <a name="customize-pages-for-profiles"></a>Anpassa sidor för profiler
 Användare kan anpassa sidor som utgör deras arbetsyta efter eget behov. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
@@ -47,9 +42,12 @@ Sid anpassningen startar från **profilsidan (rollerna)** och administratörens 
 Anpassningen av sidorna har nu registrerats för profilen.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>För att visa alla anpassade sidor för en profil
+
 Du kan få en översikt över vilka sidor som är anpassade för en profil, t.ex. för planering som du vill anpassa ytterligare eller ta bort.
 
-- På sidan **Profil (roll)**, välj åtgärden **Anpassade sidor**.
+- På sidan **Profil (roll)**, välj åtgärden **Hantera anpassade sidor**.
+
+På sidan **Anpassade sidor** kan du ta bort anpassningar, och du kan felsöka genom att söka efter potentiella problem.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>För att radera anpassningar för en profil
 Du kan annullera alla anpassningar som du har gjort för en profil: Anpassningar som introduceras med ett tillägg och anpassningar som görs av en användare tas inte bort. Du kan ta bort alla anpassningar med en annan åtgärd. Mer information finns i [så här tar du bort alla anpassningar som görs av en användare](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -61,12 +59,13 @@ Layouten på sidorna för profilen återställs till standardlayouten.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Så här tar du bort anpassning av specifika sidor för en profil
 Du kan ta bort individuella sidanpassningar som du har gjort för en profil. Anpassningar som introduceras med ett tillägg och anpassningar som görs av en användare tas inte bort. Du kan ta bort specifika sidanpassningar med en annan åtgärd. Mer information finns i [Så här tar du bort alla anpassningar för en viss sida](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. På sidan **Profil (roll)**, välj åtgärden **Anpassade sidor**.
-2. På sidan **Profilanpassningar**, välj en eller flera rader för sidanpassningar som du vill radera och välj sedan åtgärden **Radera**.
+1. På sidan **Profil (roll)**, välj åtgärden **Hantera anpassade sidor**.
+2. På sidan **Anpassade sidor**, välj en eller flera rader för sidanpassningar som du vill radera och välj sedan åtgärden **Radera**.
 
 Layouten på de markerade sidorna justeras efter de ändringar som du har gjort.
 
 ## <a name="see-also"></a>Se även
+
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

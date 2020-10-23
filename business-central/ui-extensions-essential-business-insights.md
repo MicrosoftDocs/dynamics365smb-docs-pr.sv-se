@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ab06a76319897b1eef00ba57d5a1c2cba5773334
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 88aba42c6d30cb28020386f265150a0a8f201179
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194241"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915166"
 ---
 # <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  

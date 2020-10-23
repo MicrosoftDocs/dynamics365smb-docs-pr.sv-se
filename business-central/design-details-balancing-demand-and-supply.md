@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b039c15a3e55135576dfe6341248bde936d58093
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788152"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917557"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  

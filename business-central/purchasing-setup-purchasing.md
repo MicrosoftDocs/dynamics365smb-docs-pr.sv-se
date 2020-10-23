@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783283"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918743"
 ---
 # <a name="setting-up-purchasing"></a>Ställa in inköp
 Innan du kan hantera inköpsprocesser måste du konfigurera reglerna och värdena som definierar företagets inköpspolicyer.
@@ -32,6 +32,9 @@ Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i av
 | Ange de olika rabatterna och specialpriserna som leverantörerna beviljar dig beroende på artikel, kvantitet och/eller datum |[Registrera inköpspris, rabatt och betalningsavtal](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritera leverantörer |[Prioritera leverantörer](purchasing-how-prioritize-vendors.md) |
 | Konfigurera inköpare |[Konfigurera inköpare](purchasing-how-setup-purchasers.md) |
+
+> [!TIP]
+> Beroende på vilken geografisk plats det är kan vissa sidor innehålla fält som inte beskrivs i artiklarna som anges här eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

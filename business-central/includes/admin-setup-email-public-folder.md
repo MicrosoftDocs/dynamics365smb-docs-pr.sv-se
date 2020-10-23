@@ -2,19 +2,19 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 06/25/2020
+ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 8c5f4205128d52ec88f432cea7ece98e0310546d
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528016"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931277"
 ---
-Innan du kan konfigurera e-postloggning måste du förbereda Exchange Online med [offentliga mappar](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019). Det kan du göra i [administrationscenter för Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019) eller använda [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps).  
+Innan du kan konfigurera e-postloggning måste du förbereda Exchange Online med [offentliga mappar](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Det kan du göra i [administrationscenter för Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) eller använda [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
 > [!TIP]
-> Om du vill använda [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps) kan du hitta inspiration för hur du konfigurerar skriptet i ett exempelskript som vi publicerat på [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+> Om du vill använda [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) kan du hitta inspiration för hur du konfigurerar skriptet i ett exempelskript som vi publicerat på [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
 
 I följande lista beskrivs de viktigaste stegen med länkar för att få mer information.  
 
@@ -26,7 +26,7 @@ I följande lista beskrivs de viktigaste stegen med länkar för att få mer inf
   |Valda roller  |Gemensamma mappar            |
   |Valda medlemmar|E-postmeddelandet för användar kontot som Business Central använder för att köra e-postloggningsjobbet|
 
-  Mer information finns i [Hantera rollgrupper](/exchange/permissions/role-groups?view=exchserver-2019).
+  Mer information finns i [Hantera rollgrupper](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
 
 - Skapa en ny postmapp för allmän mapp baserad på informationen i följande tabell:
 
@@ -43,15 +43,15 @@ I följande lista beskrivs de viktigaste stegen med länkar för att få mer inf
     - ```\Email Logging\Queue\```
     - ```\Email Logging\Storage\```
 
-  Mer information finns i [Skapa en offentlig mapp](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019).
+  Mer information finns i [Skapa en offentlig mapp](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
 
 - Postaktivera den offentliga mappen *Kö*
 
-  Mer information finns i [postaktivera eller skicka e-post-inaktivera en offentlig mapp](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019)
+  Mer information finns i [postaktivera eller skicka e-post-inaktivera en offentlig mapp](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
 
 - Postaktivera utskick av e-post till den offentliga mappen *Kö* med Outlook eller Exchange Management Shell
 
-  Mer information finns i [tillåta anonyma användare att skicka e-post till en offentlig mapp i e-postfunktionen](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder)
+  Mer information finns i [tillåta anonyma användare att skicka e-post till en offentlig mapp i e-postfunktionen](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
 
 - Ange e-postloggning som ägare till både offentliga mappar *Kö* och *Lager* med Outlook eller Exchange Management Shell baserat på informationen i följande tabell:
 
@@ -69,7 +69,7 @@ I följande lista beskrivs de viktigaste stegen med länkar för att få mer inf
   |En regel för inkommande e-post |Logga e-post som skickats till den här organisationen|*Avsändaren* finns *utanför organisationen* och *mottagaren* finns *inne i organisationen*|Skicka hemlig kopia det e-postkonto som har angetts för den offentliga mappen *kö*|
   |En regel för utgående e-post | Logga e-post som skickats från den här organisationen |*Avsändaren* finns *inne i organisationen* och *mottagaren* finns *utanför organisationen*|Skicka hemlig kopia det e-postkonto som har angetts för den offentliga mappen *kö*|
   
-  Mer information finns i [Hantera postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) och [åtgärder för postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
+  Mer information finns i [Hantera postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) och [åtgärder för postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
 > Om du gör ändringar i Exchange Management Shell blir ändringarna synliga i Exchange Admin Center efter en fördröjning. Dessutom kommer de ändringar som gjorts i Exchange att vara tillgängliga [!INCLUDE[prodshort](prodshort.md)] efter en fördröjning.

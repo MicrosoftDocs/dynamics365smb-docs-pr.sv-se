@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0499ad80020293e73879061a7bc5f8dfdb3c043c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780116"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924034"
 ---
 # <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
 Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. När du använder koncerninterna funktioner kan du göra affärer med dina dotterbolag och interna partnerorganisationer på samma sätt som att arbeta med externa leverantörer och kunder. Du anger bara koncernintern information en gång i tillämpliga dokument. Du kan använda funktioner som du redan känner till, t.ex. hantering av leverantörsreskontra och kundreskontra. Genom att koppla funktioner för kontoplanen och dimensioner kan du försäkra dig om att informationen visas på rätt plats.  

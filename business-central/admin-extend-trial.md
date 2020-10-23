@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532625"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911536"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 
@@ -29,7 +29,7 @@ Utöka utvärderingsperioden själv är en engångsföreteelse. Du kan inte utö
 
     Logga in med det e-postkonto som du använde när du registrerade dig för testversionen.  
 
-    Om du har registrerat dig med ett e-postkonto från en [30-dagars testversion av Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial) måste du först förlänga din Office 365-testversion eller köpa en Office 365-prenumeration. Mer information finns i [Utöka din testversion för Office 365 för företag](/microsoft-365/commerce/extend-your-trial).
+    Om du har registrerat dig med ett e-postkonto från en [30-dagars testversion av Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) måste du först förlänga din Microsoft 365-testversion eller köpa en Microsoft 365-prenumeration. Mer information finns i [Utöka din testversion för Microsoft 365 för företag](/microsoft-365/commerce/extend-your-trial).
 2. I meddelandet överst i arbetsytan väljer du **utöka utvärderingsperioden**.
 
     Om du har avvisat meddelandet måste du logga ut och sedan logga in igen.

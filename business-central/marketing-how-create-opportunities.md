@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3edfe6ccf5c4f9a98aed1191b8279e2c5bb9670b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181538"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919319"
 ---
 # <a name="create-sales-opportunities"></a>Skapa affärsmöjligheter
 Du kan skapa möjligheter för de affärsmöjligheter som du har via dina kontakter. Alla affärsmöjligheter måste fördelas till en säljare eller inköpare och innefatta en kontakt.

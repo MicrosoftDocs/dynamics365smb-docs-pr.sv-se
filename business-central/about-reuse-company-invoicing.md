@@ -7,18 +7,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Office 365
-ms.date: 04/30/2020
+ms.search.keywords: Invoicing, Microsoft 365
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 90f5f913fdaa96b2d4c4a057cc675e3a9edcc95c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333866"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914445"
 ---
-# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Använda samma Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
-När du registrerar dig för en provversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ibland kan det hända att du har sett något som kallas **Microsoft Invoicing** och klickat på den. Det här var en app som ingick i Microsoft 365 Business Standard och tidigare kallades för Office 365 Business Premium-prenumeration, så det är inte alla som har sett den panelen i sin Office 365-erfarenhet.  
+# <a name="using-the-same-microsoft-365-account-in-d365fin-and-microsoft-invoicing"></a>Använda samma Microsoft 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
+När du registrerar dig för en provversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ibland kan det hända att du har sett något som kallas **Microsoft Invoicing** och klickat på den. Det här var en app som ingick i Microsoft 365 Business Standard och tidigare kallades för Microsoft 365 Business Premium-prenumeration, så det är inte alla som har sett den panelen i sin Microsoft 365-upplevelse.  
 
 Microsoft Invoicing är inte längre tillgängligt, men om du behöver logga in på fakturering för att hämta data kanske du får ett meddelande om att du inte kan komma åt Microsoft Invoicing eftersom ditt konto används i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

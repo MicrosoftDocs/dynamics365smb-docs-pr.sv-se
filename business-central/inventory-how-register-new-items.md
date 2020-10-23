@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782074"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923826"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
@@ -92,12 +92,19 @@ Leverantörer visas nu på sidan **Artikelleverantörskatalog** som du kan öppn
 
 ## <a name="deleting-item-cards"></a>Ta bort artikelkort
 
-Om du har bokfört en transaktion för en artikel kan du inte ta bort kortet eftersom transaktionerna kan behövas för lagervärdering eller revision. Om du vill ta bort artikelkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.
+Om du har bokfört en transaktion för en artikel kan du inte ta bort kortet eftersom transaktionerna kan behövas för lagervärdering eller revision. Om du vill ta bort artikelkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.  
+
+## <a name="manage-inventory-in-warehouses"></a>Hantera lager i distributionslager
+
+När du registrerar en ny artikel visas fält som är kopplade till hanteringen av distributionslager, särskilt på snabbfliken **Distributionslager**. Om organisationen inte använder funktionerna för hantering av distributionslager i [!INCLUDE [prodshort](includes/prodshort.md)] kan du ignorera dessa fält.  
+
+Om företaget senare konfigurerar hantering av distributionslager, måste du i de flesta fall gå tillbaka till varje befintlig artikel för att försäkra dig om att de har rätt information i de olika fälten så att lagerprocesserna kan köras som förväntat. Informationen kan omfatta fält som **Indelningskod för distributionslager** eller **Mallkod för artikelinförsel**. Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).  
 
 ## <a name="see-also"></a>Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Ställa in måttenheter](inventory-how-setup-units-of-measure.md)  
+[EU tull statistiknr](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Skapa nummerserier](ui-create-number-series.md)  
 [Ställa in bokföringsmallar](finance-posting-groups.md)  

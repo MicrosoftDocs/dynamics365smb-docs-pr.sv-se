@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528418"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927153"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Avbryta prenumerationen eller ta bort [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -25,13 +25,13 @@ Om du vill sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du av
 
 Om du har registrerat dig för en kostnadsfri test och inte vill fortsätta med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du avsluta kontot när som helst. Vi rekommenderar att du exporterar data innan du avslutar ditt konto. 
 
-Du måste be Office 365 administratören att ta bort provprenumerationen från ditt företagskonto i [Microsoft 365 administrationscenter](https://admin.microsoft.com/). 
+Du måste be Microsoft 365-administratören för att ta bort provprenumerationen från ditt företagskonto i [Microsoft 365-administrationscentret](https://admin.microsoft.com/). 
 
-Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Office 365 -företagskonto, har du inte en Office 365-administratör. Du måste i stället avbryta prenumerationen genom att kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] annulleringsteamet genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Informationen finns på sidan **hjälp och support**. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
+Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Microsoft 365-företagskonto, har du inte en Microsoft 365-administratör. Du måste i stället avbryta prenumerationen genom att kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] annulleringsteamet genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Informationen finns på sidan **hjälp och support**. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt Office 365-miljö
+## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från din Microsoft 365-miljö
 
-Om ditt företagprenumererar på [!INCLUDE[prodshort](includes/prodshort.md)] men inte längre vill ha åtkomst, måste du be administratören eller din Dynamics 365 återförsäljningspartner att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt Office 365 användarkonto. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och företaget fortsätter prenumerationen, kommer dina medarbetare fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
+Om ditt företag prenumererar på [!INCLUDE[prodshort](includes/prodshort.md)] men inte längre vill ha åtkomst, måste du be administratören eller din Dynamics 365-återförsäljningspartner att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt Microsoft 365-användarkonto. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och företaget fortsätter prenumerationen, kommer dina medarbetare fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
 
 Om ditt företag vill avsluta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Dynamics 365 återförsäljningspartner ta bort den betalda prenumerationen från företagets konto. Mer information finns i [Administration av Business Central online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innehållet för utvecklare och IT-proffs.  
 

@@ -4,38 +4,46 @@ description: I följande tabell beskrivs en serie uppgifter, med länkar till de
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a615e4b605267f12913dbcfee8e8a00e659369e4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780416"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910736"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Ställa in lagervärdering och lagerkostnad
-Om du vill se till att lagerkostnaderna registreras korrekt, ställer du in olika fält och sidor innan du gör artikeltransaktioner.
+
+Om du vill se till att lagerkostnaderna registreras korrekt, ställer du in olika fält och sidor innan du gör artikeltransaktioner. Vanligtvis väljer företag en specifik värderingsprincip och tillämpar den på lagerartiklar, till exempel för att hjälpa dem att spåra värdet av artiklar i lager.  
+
+> [!TIP]
+> En introduktion till kostnadsredovisning i [!INCLUDE [prodshort](includes/prodshort.md)] finns i [Om lagerkostnadsredovisning](finance-learn-about-costing.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-|**Om du vill**|**Gå till**|  
-|------------|-------------|  
-|ange en värderingsprincip för varje artikel för att styra hur dess ingående kostnad används för att fastställa lagervärde och kostnaden för sålda varor.|[Registrera nya artiklar](inventory-how-register-new-items.md)|  
+|**Om du vill**|**Se**|  
+|------------|-------------|
+|Ange en värderingsprincip som företaget använder som standard för att styra hur dess ingående kostnad används för att fastställa lagervärde och kostnaden för sålda varor.|[Ställa in allmän lagerinformation](inventory-how-setup-general.md)|  
+|Ange en värderingsprincip för enskilda artiklar om de kräver en annan värderingsprincip.|[Registrera nya artiklar](inventory-how-register-new-items.md)|  
 |se till att kostnaden automatiskt bokförs i redovisningen när en lagertransaktion bokförs.|Fältet **Automatisk kostnadsbokföring** på sidan **Lagerinställning**|  
 |se till att förväntade kostnader bokförs i redovisningen så att du från de interima redovisningskontona Fkan se en uppskattning av beloppen som förfaller till betalning och kostnaden för de köpta eller sålda artiklarna innan de faktiskt faktureras.|Fältet **Förväntad kost.bokf. i redov.** på sidan **Lagerinställning**|  
 |ställa in systemet till att automatiskt justera för alla kostnadsändringar varje gång du bokför lagertransaktioner.|[Justera artikelkostnader](inventory-how-adjust-item-costs.md)|  
-|definiera om genomsnittskostnaden ska beräknas endast per artikel eller per artikel för varje lagerställeenhet och för varje variant av artikeln.|Fältet **Genoms. kost.ber.typ** på sidan **Lagerinställningar**|  
+|Definiera om genomsnittskostnaden ska beräknas endast per artikel eller per artikel för varje lagerställeenhet och för varje variant av artikeln.|Fältet **Genoms. kost.ber.typ** på sidan **Lagerinställningar**|  
 |välja den tidsperiod som ska användas för att beräkna vägd genomsnittskostnad för de artiklar som du använder genomsnittsvärderingsprincipen för.|Fältet **Genomsnittskostnadsperiod** på sidan **Lagerinställningar**|  
 |definiera lagerperioder för att kontrollera lagervärde över tid genom att inaktivera transaktionsbokföring i avslutade lagerperioder.|[Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |se till att försäljningsreturer kopplas till den ursprungliga avgående transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Försäljning & kundreskontra**|  
 |se till att inköpsreturer kopplas till den ursprungliga ankommande transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Inköp & Leverantörsreskontra**|
 |ange avrundningsreglerna som ska användas när artikelpriser justeras eller föreslås och när standardkostnader justeras eller föreslås.|Sidan **Avrundningsmetod**|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
+[Ställa in allmän lagerinformation](inventory-how-setup-general.md)  
+[Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Lägga upp bästa praxis: Värderingsprincip](setup-best-practices-costing-method.md)  
+[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+[Designinformation: ändra värderingsprinciper för artiklar](design-details-changing-costing-methods.md)  
 [Arbeta med Business Central](ui-work-product.md)  
 [Ekonomi](finance.md)  

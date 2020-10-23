@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c185ab8fecc8f8d70dad7696a5fb5f67207717aa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196621"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924609"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visa status för en synkroniseringsjobb
 Anvönd sidan **Kopplade datasynkroniseringsfel** för att visa statusen för synkroniseringsjobb som körts för kopplade transaktioner i Common Data Service- eller [!INCLUDE[crm_md](includes/crm_md.md)]-integreringar. Det innehåller synkroniseringjobb som har körts från jobbkön- och manuella synkroniseringsjobb som kördes på poster från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan till exempel vara bra att visa deras status vid felsökning eftersom det ger dig tillgång till information om fel som rör sammankopplade poster. Dessa typer av fel orsakas vanligen av användaråtgärder, till exempel när:  
@@ -34,10 +34,13 @@ Anvönd sidan **Kopplade datasynkroniseringsfel** för att visa statusen för sy
 
 |Åtgärd|Beskrivning|
 |----|----|
-|**Ta bort koppling**|Tar bort kopplingen för posterna och synkroniserar dem inte längre. Om du vill fortsätta synkronisera posterna måste du koppla dem igen.|
-|**Försök igen**|För varje post där ett fel påträffas hoppas synkroniseringen över om du inte korrigerar ärendet manuellt. Ett nytt försök kommer att inkludera posten vid nästa synkronisering.|
-|**Synkronisera**|Programmet kommer att försöka lösa en konflikt där en post har ändrats i båda affärsprogramen. Du kan välja vilken version av posten som ska användas i båda apparna.|
+|**Ta bort koppling**|Tar bort kopplingen för posterna och synkroniserar dem inte längre. Om du vill starta om synkroniseringen måste du koppla dem igen. |
+|**Försök igen** och **Försök alla igen**|För varje post där ett fel påträffas hoppas synkroniseringen över om du inte korrigerar ärendet. Om du försöker igen kommer den valda posten att inkluderas i nästa synkronisering och **Försök alla igen** inkluderar alla posterna.|
+|**Synkronisera**|Programmet kommer att försöka lösa en konflikt där en post har ändrats i båda affärsprogramen. Du kan välja vilken version av posten som ska användas.|
 |**Återställa poster** och **ta bort poster**|Dessa är användbara när en transaktion har tagits bort i en av företagsapparna. Ta bort poster tar bort posten i appen där den fortfarande finns. Återskapa återskapar transaktionen i den affärsapp där den togs bort.|
+
+> [!NOTE]
+> Om du vill minska antalet konflikter som du behöver lösa kan du ställa in mappningarna för integreringstabellen så att de här åtgärderna tillämpas automatiskt. Mer information finns i [Mappning för integreringstabeller](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Så här visar du synkroniseringsloggen för specifika (manuellt synkroniserade) poster
 1. Öppna till exempel kund, artikel eller någon annan transaktion som synkroniserar data mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och Common Data Service eller [!INCLUDE[crm_md](includes/crm_md.md)].

@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du försäljningsavropsorder | Microsoft Docs
-description: Du kan använda avropsorder om en kund har avtalat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod.
+title: Arbeta med avropsorder, försäljning eller inköpsorder
+description: Du kan använda avropsorder om en kund har avtalat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Detsamma gäller för inköp.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2e5ed9ad2d85e011162eaf8706c41a0935a73e6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788981"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925928"
 ---
-# <a name="work-with-blanket-sales-orders"></a>Arbeta med försäljningsavropsorder
-En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeta med avropsorder, försäljning eller inköpsavropsorder
+
+En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund. På samma sätt använder du inköpsavropsorder för att hantera långsiktiga avtal mellan dig och leverantören.
 
 En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att de antal som anges på en avropsorder inte påverkar artikeldispositionen och därmed kan användas som ett förslag för övervakning, prognostisering och planering.
 
@@ -94,7 +95,8 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 
 ## <a name="see-also"></a>Se även
-[Försäljning](sales-manage-sales.md)
+
+[Försäljning](sales-manage-sales.md)  
 [Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

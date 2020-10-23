@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196741"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923701"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -69,14 +69,17 @@ Försäljningsorder som människor skickar i [!INCLUDE[crm_md](includes/crm_md.m
 Alternativt kan du manuellt konvertera skickade försäljningsorder från [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av åtgärden **skapa i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på sidan **försäljningsorder - Dynamics 365 for Sales**.
 På sådana försäljningsorder överförs fältet **Namn** på den ursprungliga ordern och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Detta fungerar även om den ursprungliga försäljningsordern innehåller produkter som ej är i register vilket avser artiklar eller resurser som inte är registrerade hos någon app. I så fall måste du fylla i fälten **Produkttyp ej i register** och **Produktnr ej i register** på sidan **Försäljningsinställningar** så att denna oregistrerade produktförsäljning mappas till ett angivet artikel-/resursnummer för ekonomisk analys.
+Detta fungerar även om den ursprungliga försäljningsordern innehåller produkter som ej är i register vilket avser artiklar eller resurser som inte är registrerade hos någon app. I så fall måste du fylla i fälten **Produkttyp ej i register** och **Produktnr ej i register** fält på sidan **Försäljningsinställningar** så att försäljning av oregistrerade produkter mappas till ett angivet artikel- eller resursnummer.
+
+> [!NOTE]
+> Du kan inte mappa produkter som ej är i register till en artikel eller resurs i [!INCLUDE[d365fin](includes/d365fin_md.md)] som är kopplad till en produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. För att tillåta produkter som ej är i register rekommenderar vi att du skapar en artikel eller resurs speciellt för det syftet och inte kopplar den till någon produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omfattande, skapas en ytterligare försäljningsorderrad av typen **Kommentar** för att hålla hela texten på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Uppdateringar av fält i försäljningsorderhuvud, till exempel fälten Senaste utleveransdatum eller Begärt leveransdatum som har mappats i FÖRSÄLJNINGSORDER-ORDER **Tabellmappningar för integrering** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Uppdateringar av fält i försäljningsorderhuvud, till exempel fälten Senaste utleveransdatum eller Begärt leveransdatum, som har mappats i integreringstabellmappningen **FÖRSÄLJNINGSORDER-ORDER** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodisk synkronisering som baseras på FÖRSÄLJNINGSORDERORDER i **Tabellmappningar för integrering** fungerar bara när integrering av försäljningsorder har aktiverats. Mer information finns i [Anslutningsinställningar på sidan Sales anslutningsinställningar](admin-prepare-dynamics-365-for-sales-for-integration.md). Enbart försäljningsorder som skapats från försäljningsorder som har skickats i [!INCLUDE[crm_md](includes/crm_md.md)] synkroniseras. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodisk synkronisering som baseras på integreringstabellmappningen **FÖRSÄLJNINGSORDER-ORDER** fungerar bara när integrering av försäljningsorder har aktiverats. Mer information finns i [Anslutningsinställningar på sidan Sales anslutningsinställningar](admin-prepare-dynamics-365-for-sales-for-integration.md). Enbart försäljningsorder som skapats från försäljningsorder som har skickats i [!INCLUDE[crm_md](includes/crm_md.md)] synkroniseras. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -86,6 +89,8 @@ Alternativt kan du manuellt konvertera aktivera försäljningsofferter från [!I
 På sådana försäljningsofferter överförs fältet **Namn** på den ursprungliga offerten och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Även fältet **gäller till** på offerten har överförts och mappats till fältet **offertens giltighetsdatum** på försäljningsoffert i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Försäljningsofferter gå igenom ändringar medan de är färdigställs. Både manuell och automatisk behandlingen av försäljningsofferter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ser du till att tidigare versioner av försäljningsofferterna arkiveras innan nya versioner av försäljningsofferter från [!INCLUDE[crm_md](includes/crm_md.md)].
+
+När du väljer **Process** i [!INCLUDE[d365fin](includes/d365fin_md.md)] för en offert som har tillståndet **Vunnen**, skapas en försäljningsorder i [!INCLUDE[d365fin](includes/d365fin_md.md)] endast om en motsvarande försäljningsorder skickas in i [!INCLUDE[crm_md](includes/crm_md.md)]. Annars släpps offerten endast i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om en motsvarande försäljningsorder skickas in i [!INCLUDE[crm_md](includes/crm_md.md)] senare och en försäljningsorder skapas från den, uppdateras **Offertnr** på försäljningsordern och offerten arkiveras.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Hantera bokförda försäljningsfakturor, kundbetalningar och statistik
 När försäljningsordern har uppfyllts skapas fakturor för den. När du fakturerar försäljningsorder kan du överföra bokförda försäljningsfakturor till [!INCLUDE[crm_md](includes/crm_md.md)] om du väljer kryssrutan **Skapa faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på sidan **bokförd försäljningsfaktura**. Bokförda fakturor överförs till [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **fakturerade**.

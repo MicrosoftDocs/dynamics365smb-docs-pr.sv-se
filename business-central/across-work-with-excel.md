@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.openlocfilehash: b25413c8f0479aaccfc67ae96f2870690f993dfa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534603"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927278"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visa och redigera i Excel från Business Central
 
@@ -59,5 +59,6 @@ Om du gör ändringar i tillägget måste du ladda det på nytt för att kunna u
 
 ## <a name="see-also"></a>Se även
 
+[Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeta med Business Central](ui-work-product.md)  
 [Förbättringar av Excel-integrering i 2019 utgivningsplan, våg 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

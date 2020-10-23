@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b44d728414e7b1b4b7d07807abbe4a1dc5769a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782680"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918518"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Så här importerar och exporterar du en anpassad rapportlayout
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 05/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66e5dd52eb01e8a396156d0c646a43916fdc0021
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: effed84c3f0d4c625192ac4d41dc2d9edf97c663
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783963"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921448"
 ---
 # <a name="invoice-jobs"></a>Fakturera projekt
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.

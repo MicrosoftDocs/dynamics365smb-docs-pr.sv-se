@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a54ed9896c6d9921d13f2a4c9c43ed1ba5b7eea
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784665"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921920"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Skapa avskrivning för anläggningstillgång
  Du kan använda olika avskrivningsmetoder när du förbereder redovisningsrapporter och självdeklarationer. Många större företag använder linjär avskrivning i redovisningsrapporterna eftersom de då i allmänhet kan rapportera större inkomster. Vad gäller självdeklaration använder många företag däremot en accelererad avskrivningsmetod, till exempel degressiv avskrivning. Du kan definiera avskrivningsmetoden för en tillgång med fältet **Avskrivningsmetod** på sidan **Anläggningstillgångskort**. Mer information om vad de olika metoderna gör finns i [Avskrivningsmetoder](fa-depreciation-methods.md).

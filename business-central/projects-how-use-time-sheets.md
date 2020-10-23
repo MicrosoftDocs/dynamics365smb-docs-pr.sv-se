@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780341"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921373"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Använda tidrapporter för projekt
 
@@ -113,6 +113,27 @@ När du har godkänt eller avvisat en tidrapport kan den inte ändras om den int
     >   Du kan endast öppna rader igen som har statusen **Godkänd**. Du kan inte öppna rader igen som har statusen **Avvisad**. Du kan inte öppna en tidrapport igen om den har bokförts.  
 3. På sidan **Tidsrapport** väljer du åtgärden **Öppna igen** och väljer sedan åtgärden **Alla skickade rader** för att öppna alla rader igen eller åtgärden **Enbart valda rader** för att endast öppna de rader igen som valts på sidan **Tidrapport**.
 4. Välj knappen **OK**. Statusen för tidrapportraden eller raderna ändras till **Skickat**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Visa och godkänna tidrapporter per projekt
+
+För ett projekt kan du ange en person som är ansvarig för projektet. Denna information är kopplad till tidrapportsrader och kan användas för att generera en lista över tidrapporter som en projektledare behöver granska och godkänna. Till exempel teamprojektledaren kan vara ansvarig för vissa projekt i företaget. I så fall bör ledaren utses som **Ansvarig person** på projektkortet. I den här vyn över tidrapportsinformation kan du visa projektuppgifterna som är kopplade till ett projekt och antalet använda timmar.
+
+> [!NOTE]
+> För att kunna godkänna tidrapporter i fönstret **Tidrapport för chef efter projekt** måste du först markera ett alternativ för **Tidrapport per projektgodkännande** i fönstret **Resursinställning**. Mer information finns i [Ange resurser](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Så här kan du godkänna eller avvisa en tidrapport per projekt
+
+1. I rutan **Sök**, ange **Tidrapporter för chef efter projekt** och välj sedan relaterad länk. Microsoft Dynamics NAV visar en lista över tidrapportsrader som är kopplade till de projekt som du har ansvar för.
+2. Under fliken **Hem** väljer du **Godkänn**. Välj **Alla** för att godkänna alla rader. Välj **Vald** om du vill godkänna endast valda rader.
+
+    > [!NOTE]
+    > Du kan endast godkänna tidrapporter som har statusen **Skickad**.
+
+3. För att tillhandahålla ytterligare information om godkännande eller avvisande väljer du en tidrapportsrad och, under fliken **Navigera**, väljer du **Kommentarer**. I fältet **Datum**, ange datum och skriv in en kommentar i fältet **Kommentar**.
+4. Välj **OK**.
+
+> [!NOTE]
+> När du har godkänt eller avvisat en tidrapportsrad efter projekt kan den inte öppnas igen eller ändras i fönstret **Tidrapport**.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Bokföra tidrapportsrader i en resursjournal
 När du har godkänt tidrapportsposter för en resurs, kan du bokföra dem i den aktuella resursjournalen.

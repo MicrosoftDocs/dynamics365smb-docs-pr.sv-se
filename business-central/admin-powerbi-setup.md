@@ -1,6 +1,6 @@
 ---
-title: Aktivera Power BI-integrering med Business Central| Microsoft Docs
-description: Det är enkelt att få insikter, affärsinformation och KPI:er från dina Business Central-data med Business Central-appar för Power BI.
+title: Aktivera Power BI-integrering med Business Central
+description: Lär dig hur du konfigurerar anslutningen till Power BI så att du kan få insikter, företagsinformation och KPI:er från Business Central-data med Business Central-program för Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697795"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927078"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Aktivera Power BI-integrering med [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Med [!INCLUDE[prodshort](includes/prodshort.md)] får användarna en gratis Powe
 
 |Power-licens|Visa rapporter|Skapa rapporter|Dela rapporter|Uppdatera rapporter| [!INCLUDE[prodshort](includes/prodshort.md)]-appar|
 |-------------|--------||
-|Power BI kostnadsfritt|![kontroll](media/check.png)|![kontroll](media/check.png)|(begränsat)|(begränsat)||
-|Power BI Pro|![kontroll](media/check.png)|![kontroll](media/check.png)|![kontroll](media/check.png)|(utökat)|![kontroll](media/check.png)|
+|Power BI kostnadsfritt|![en bock](media/check.png)|![en bock till](media/check.png)|(begränsat)|(begränsat)||
+|Power BI Pro|![ytterligare en bock](media/check.png)|![det är en bock](media/check.png)|![återigen en bock](media/check.png)|(utökat)|![sista bocken](media/check.png)|
 
 mer information finns i [Licensiera Power BI-tjänsten för användare i din organisation](/power-bi/admin/service-admin-licensing-organization) eller [Registrera dig för Power BI-tjänsten som privatperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

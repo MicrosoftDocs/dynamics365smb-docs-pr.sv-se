@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765952"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922875"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -144,6 +144,7 @@ Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och do
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
 |Alt+F6|Växla dölj/expandera för den aktuella snabbfliken eller delen (underordnad sida).|
+|Alt+G|Öppna sidan **Hitta transaktioner** för att söka efter transaktioner som hör till det bokförda dokumentet. Fungerar även på listor.|
 |Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |
 |Alt+Shift+N |Stäng en sida och öppna en ny för att skapa en ny post. På samma sätt som om du markerar åtgärden **OK och Nytt**. |
 |Alt+Shift+W |Öppna aktuellt kort eller dokument i ett nytt fönster. Mer information finns i [multikörning på flera sidor.](ui-enter-data.md#multitasking-across-multiple-pages)|
@@ -212,3 +213,4 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
+[Hitta transaktioner](ui-find-entries.md)  

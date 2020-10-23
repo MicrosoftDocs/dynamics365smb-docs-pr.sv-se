@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fdc407ef26d238ba54a2566cdd9003c29da2eeb3
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: d8140f71709208a271eff5c8de415b0e95736072
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196669"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911411"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Koppla och synkronisera poster manuellt
 I det här avsnittet beskrivs hur du kopplar en eller flera transaktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] med transaktioner i Common Data Service eller [!INCLUDE[crm_md](includes/crm_md.md)]. Koppling av poster låter dig visa Common Data Service information från [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Kopplingen låter dig också synkronisera data mellan posterna. Du kan koppla befintliga poster eller skapa och koppla nya poster.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788127"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917507"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
@@ -91,6 +91,14 @@ I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel 
 Figurerna visar i vilken följd systemet gör förslag för leveransorder på högsta nivån och om användaren godkänner dessa kalkylark, även för alla artiklar på lägre nivå.  
 
 Mer information om produktionsavvägningar finns i [Läsa in lagerprofilerna](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimera prestanda för beräkningar på låg nivå
+Beräkningar av kod på låg nivå kan påverka systemprestanda. Om du vill minska effekten kan du inaktivera **Dynamisk beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. När du gör det föreslår [!INCLUDE[d365fin](includes/d365fin_md.md)] att du skapar en post för återkommande jobbkö som uppdaterar koder på låg nivå dagligen. Du kan se till att jobbet kommer att köras utanför arbetstid genom att ange en starttid i fältet **Tidigaste startdatum/starttid**.
+
+Du kan också aktivera logik som påskyndar beräkningar av kod på låg nivå genom att välja **Optimera beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. 
+
+> [!IMPORTANT]
+> Om du väljer att optimera prestanda använder [!INCLUDE[d365fin](includes/d365fin_md.md)] nya beräkningsmetoder att fastställer koder på låg nivå. Om du har ett tillägg som är beroende av de händelser som används av de gamla beräkningarna kan tillägget sluta fungera.   
 
 ### <a name="locations--transfer-level-priority"></a>Lagerställen/Prioritet för överföringsnivå  
 Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivån och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. I det här fallet måste planeringsparametrarna anges per artikel och även per lagerställe.  

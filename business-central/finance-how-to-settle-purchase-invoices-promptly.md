@@ -1,37 +1,39 @@
 ---
-title: Så här gör du för att snabbt betala inköpsfakturor | Microsoft Docs
+title: Betala inköpsfakturor snabbt
 description: Om du vill betala leverantören kontant eller med check kan all nödvändig bokföring göras när du bokför fakturan.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec5723088553141c1f6df55ba8bac3303ee4e2bd
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bac023393d95623a2731ef1b2ada7d30b135063b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183266"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968365"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Betala inköpsfakturor snabbt
+
 Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.  
 
-### <a name="to-settle-purchase-invoices-promptly"></a>Så här gör du för att snabbt betala inköpsfakturor:  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
+> [!NOTE]  
+> Om du ofta betalar inköpsfakturor kontant, via check eller banöverföring, kan det vara praktiskt att definiera ett särskilt betalningssätt för ett balanskonto och ange detta i fältet **Betalningssätt** på leverantörskortet. Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura. Mer information finns i [Definiera betalningssätt](finance-payment-methods.md).  
+
+## <a name="to-settle-purchase-invoices-promptly"></a>Så här gör du för att snabbt betala inköpsfakturor:
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
 2. Välj åtgärden **Ny**.  
-3.  Ange numret på redovisningskassakontot eller bankkontot i fältet **Motkonto** om du vill betala kontant eller via banköverföring .  
+3. Ange numret på redovisningskassakontot eller bankkontot i fältet **Motkonto** om du vill betala kontant eller via banköverföring .  
 
 > [!IMPORTANT]  
->  Fälten **Motkontotyp** och **Motkonto** ingår inte i standardlayouten för fakturahuvudet. Infoga fälten med hjälp av designfunktionerna innan du bokför betalningen av en faktura. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md). 
+> Fälten **Motkontotyp** och **Motkonto** ingår inte i standardlayouten för fakturahuvudet. För att du ska kunna bokföra betalningen av en faktura måste du kontakta en Microsoft-partner som kan lägga till fälten via kod.  
+>
+> Denna anpassning krävs endast om du inte anger balanskonton för betalningssätten enligt beskrivningen ovan.
 
-> [!NOTE]  
->  Om du ofta betalar inköpsfakturor kontant kan det vara praktiskt att definiera ett särskilt betalningssätt för ett motkonto och ange detta i fältet **Betalningssätt** på leverantörskortet. Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura.  
+## <a name="see-also"></a>Se även
 
-## <a name="see-also"></a>Se även  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

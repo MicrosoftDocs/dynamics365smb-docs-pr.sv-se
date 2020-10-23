@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d4d7e1ce5da2a59e4a682746035684e76dd55eef
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 77a6d87d56475aa9e649ece545764f3f362d055b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535491"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914495"
 ---
 Människor stödjer ibland fler än ett företag och du behöver enkelt växla från ett företag till ett annat i [!INCLUDE [prodshort](prodshort.md)]. Ett företag kan till exempel ha försäljningskontor i städer och flera länder, så det har skapat en separat affärsenhet för varje kontor. De kontor som tillhör samma land upprättas som separata företag i en delad miljö. Andra kontor skapas som företag i olika miljöer eftersom de är geografiskt baserade i andra länder.  
 

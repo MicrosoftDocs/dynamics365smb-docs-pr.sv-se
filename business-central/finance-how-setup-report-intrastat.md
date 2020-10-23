@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183530"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920528"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 Alla företag i Europeiska unionen måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. I programmet kallas detta för intrastatrapportering. Du använder sidan **Intrastatjournal** när du vill fylla i periodiska intrastatrapporter.  
@@ -42,13 +42,13 @@ Batch-jobbet Intrastat inkluderar endast artikeltransaktioner, inte redovisnings
 
 Du kan exportera transaktionerna till en fil som du kan skicka till de intrastatmyndigheterna. Du kan även skriva ut en rapport, lägga till informationen manuellt i formulären från myndigheterna och sedan skicka informationen.
 
->  [!Note]
+> [!Note]
 > Vi rekommenderar att du skapar en intrastatjournal varje månad.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Mallar för intrastatjournal** och välj sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Mallar för intrastatjournal** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder.  
 3. För att skapa mallar, välj åtgärden **Journaler**.  
-4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder.  
+4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder. 
 
 > [!Note]
 > I fältet **statistikperiod** anger du statistikperioden med fyra siffror varav de första två siffrorna representerar året och följande två siffror motsvarar månaden. Skriv till exempel 1706 för juni 2017.
@@ -120,6 +120,12 @@ Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny jour
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Intrastatjournaler** och välj sedan relaterad länk.  
 2. Om du vill visa alternativen väljer du fältet **Journalnamn**.  
 3. Välj journalerna som tas bort, och välj sedan knappen **Ta bort**.  
+
+## <a name="tariff-numbers"></a>EU tull statistiknr
+
+I många länder fastställer tullen och skattemyndigheterna åttasiffriga koder för olika typer av artiklar. För att artikeltransaktioner ska innehålla nödvändig information när programmet importerar dem till intrastatjournalraden, måste du ha angett statistiknumret på sidan **EU tull statistiknr**. Ta reda på koderna för de artikeltyper som ditt företag handlar med och skriv in dem på sidan **EU tull statistiknr**.
+
+Lägg till alla koder du har användning för på sidan **EU tull statistiknr**. Du måste fylla i koderna på artikelkortet innan du börjar att bokföra. När du har lagt upp koderna anger du dem i fältet **EU tull statistiknr** på artikelkortet. Du måste även fylla i fältet **Nettovikt** på artikelkortet.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 

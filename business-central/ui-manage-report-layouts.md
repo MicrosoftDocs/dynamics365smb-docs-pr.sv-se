@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e1d0fe0a20051a5368fec193a12cfce5c907901
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: acc635cd13924fdb1aec95cc1267b02e5f6f0cf3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781391"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916024"
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
 En rapportlayout kontrollerar rapportens format och innehåll, som vilka datafält i en rapportdatauppsättning som visas i rapporten och hur de ordnas, textstil, bilder och mycket annat. Från [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ändra vilken layout som används på en rapport, skapa en ny layout eller ändra befintliga layouter.

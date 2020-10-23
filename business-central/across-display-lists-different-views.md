@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 702e5e565eb1b5efcbadf74dd3856e60186a1bf3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784263"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914391"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visa listor på olika sätt
 I högra hörnet i en lista i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta en ikon som gör att du kan välja hur listan med poster visas. En lista kan visas som detaljerade rader, vilket är idealiskt när du behöver arbeta med många fält eller redigera fält i listan. Du kan också växla till att visa poster som paneler, vilket är mer kompakt och visar mindre fält på den specifika posten. Denna är mycket användbar för att få en översikt över flera transaktioner och är i synnerhet användbar i mindre enheter, eftersom den är kompakt och enklare att klicka på.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8c055dcca0c529ff62e32efa00bff359466aaba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779817"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921078"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 Du använder bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar.<br><br>  
@@ -46,7 +46,7 @@ Fälten på snabbfliken **Överför** på sidan **Leveraqntörsbankkontokort** �
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna kortet för en leverantör vars bankkonto som du ska exportera betalningsbankfiler till.
-3. Välj **Navigera** och välj sedan åtgärden **Bankkonton**.
+3. Välj åtgärden **bankkonton**.
 4. Från **Bankkontolista leverantör**, välj relevant bankkonton eller lägg till ett nytt bankkonto.  
 5. På sidan **Leverantörsbankkontokort** på snabbfliken **Överför** fyller du sedan de fält som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

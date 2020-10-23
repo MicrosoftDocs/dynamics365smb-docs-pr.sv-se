@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219826af340d887b4856841b5600da4448190504
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785877"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916099"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
-Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna för artikelspårning och analys.  
+Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
 
- Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen i följande fall: när användaren vill få information om vilka kunder som tog emot produkter med ett visst partinummer eller när användaren vill få information om vilket parti en defekt komponent har sitt ursprung i.  
+Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen i följande fall: när användaren vill få information om vilka kunder som tog emot produkter med ett visst partinummer eller när användaren vill få information om vilket parti en defekt komponent har sitt ursprung i.  
 
  På sidan **Artikelspårning** kan du spåra framåt och bakåt i en serie bokförda lagertransaktioner efter serie- eller partinummer.  
 
- På sidan **Navigera** kan du inte se sekvensen av transaktioner, men du kan se alla transaktioner av serie- eller partinummer, både bokförda transaktioner och öppna transaktioner.  
+ På sidan **Hitta transaktioner** kan du inte se sekvensen av transaktioner, men du kan se alla transaktioner av serie- eller partinummer, både bokförda transaktioner och öppna transaktioner.  
 
- De två funktionerna kan användas tillsammans genom att överföra ett spårat serie- eller partinummer till sidan **Navigera** för att slutföra ett spårningsscenario. Mer information finns i [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md).  
+ De två funktionerna kan användas tillsammans genom att överföra ett spårat serie- eller partinummer till sidan **Hitta transaktioner** för att slutföra ett spårningsscenario. Mer information finns i [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Se spårade artiklar  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelspårning** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Artikelspårning** och välj sedan relaterad länk.  
 2.  I filterfälten längst upp på sidan ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
 3.  I fältet **Visa komponenter** väljer om ursprunget för artiklarnas komponenter dessutom ska visas. Dina alternativ i det här fältet är följande.  
 
@@ -57,11 +57,12 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 >   
 >  Välj **Gå till redan spårat** om du vill söka efter artikelspårningsrader där transaktionshistoriken redan har spårats. Den aktuella artikelspårnings raden är markerad, och alla underliggande rader expanderade.  
 
-## <a name="to-find-item-tracked-items-with-navigate"></a>Så här hittar du spårade artiklar med Analysera  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Så här hittar du spårade artiklar med Hitta transaktioner  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Navigera** och välj sedan relaterad länk.  
-2.  På Snabbfliken **Artikelspårning**, i fälten **Serienr** och **Partinr**, anger du artikelspårningsnumren som du vill spåra.  
-3.  Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Hitta transaktioner** och välj sedan relaterad länk.  
+2. Välj **Åtgärder** > **Sök efter** > **Sök efter artikelreferens**.
+3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
+4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 
 ## <a name="see-also"></a>Se även  
 [Lagersaldo](inventory-manage-inventory.md)  
@@ -69,4 +70,5 @@ Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d
 [Designdetaljer - artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
 [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)
+[Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)  
+[Hitta transaktioner](ui-find-entries.md)  

@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: feb0b6f8c90b55363e6eb4ef4f7c17afe4cbaaa3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cf2a64ef102dec16ad0df83e8c911e2b6c3bd88e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195441"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912127"
 ---
 # <a name="detecting-mandatory-fields"></a>Identifiera obligatoriska fält
 När du anger data på sidor i [!INCLUDE[d365fin](includes/d365fin_md.md)], markeras vissa fält med en röd asterisk. Den röda asterisken betyder att fältet måste fyllas för att slutföra en viss process som använder fältet, till exempel bokföra en transaktion som använder värdet i fältet.

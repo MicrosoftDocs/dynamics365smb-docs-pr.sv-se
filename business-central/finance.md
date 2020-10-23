@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410753"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970470"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
@@ -54,7 +54,12 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Övervaka kassaflödet till och från ditt företag. |[Analysera transaktioner i företaget](finance-analyze-cash-flow.md) |
 |Uppföljning och procedur från slutpunkt till slutpunkt om hur du använder kontouppställningar för att göra kassaflödesprognoser.|[Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeta med finansiella rapporter och översikter i Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
-|För mer information om hur du använder rollcentret Revisor, bjud in en extern revisor och använd Accountant Hub för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
+|För mer information om hur du använder rollcentret Revisor, bjud in en extern revisor och använd företagsnavet för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Ta en videorundtur
+I följande videoklipp beskrivs några av huvudfunktionerna för att hantera finanser. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Se även
 [Ställa in Finance](finance-setup-finance.md)  

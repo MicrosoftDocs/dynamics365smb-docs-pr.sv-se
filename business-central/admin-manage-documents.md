@@ -1,26 +1,24 @@
 ---
-title: Hantera, ta bort eller komprimera dokument | Microsoft Docs
-description: Behåll historiska data eller ta bort dessa.
+title: Hantera lagring genom att ta bort dokument eller komprimera data
+description: Lär dig hur du kan behålla historiska data genom att komprimera bokföringsposter eller hur du tar bort den.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 54cccb9df4daee3ad0811139dc2180d8a3072deb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186962"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911286"
 ---
-# <a name="manage-documents"></a>Hantera dokument
+# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hantera lagring genom att ta bort dokument eller komprimera data
+
 En central roll, till exempel programadministratören, måste regelbundet hantera historiska dokument genom att ta bort eller komprimera dem.  
 
 ## <a name="delete-documents"></a>Ta bort dokument
+
 I vissa fall kan det hända att du behöver ta bort fakturerade inköpsorder som inte raderats. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrolleras att borttagna inköpsorder har fakturerats helt. Du kan inte ta bort order som inte har fakturerats och inlevererats helt.  
 
 Returorder tas vanligtvis bort när de har fakturerats. När du bokför en faktura överförs den till sidan **Bokförd inköpskreditnota**. Om du har markerat kryssrutan **Returutleverans i kreditnota** på sidan **Inköpsinställningar** överförs fakturan till sidan **Bokförd returutleverans**. Du kan ta bort dokumenten med hjälp av batch-jobbet **Ta bort faktrd inköpsret.order**. Innan du tar bort, kontrollerar batch-jobbet om inköpsreturorder är helt levererade eller fakturerade.  
@@ -31,5 +29,61 @@ Fakturerade serviceorder tas vanligtvis bort när de har fakturerats helt. När 
 
 Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern inte har bokförts från själva serviceordern, utan från sidan **Servicefaktura**, gäller följande. Då kan du behöva ta bort fakturerade order som inte har tagits bort. Du kan göra detta genom att köra batch-jobbet **Ta bort fakturerade serviceorder**.  
 
-## <a name="see-also"></a>Se även  
+## <a name="compress-data-with-date-compression"></a>Komprimera data med datumkomprimering
+
+Du kan komprimera data i [!INCLUDE [prodshort](includes/prodshort.md)] så att du sparar utrymme i databasen, som i [!INCLUDE [prodshort](includes/prodshort.md)] online kan spara pengar. Komprimeringen baseras på datum och fungerar genom att flera gamla transaktioner kombineras till en ny. Du kan bara komprimera transaktioner som tillhör avslutade räkenskapsår och leverantörsreskontratransaktioner där fältet **Öppen** är inställt på *Nej*.  
+
+Leverantörsreskontratransaktioner från föregående räkenskapsår kan exempelvis komprimeras så att endast en kredittransaktion och en debettransaktion skapas per konto och månad. Den nya transaktionens belopp är summan av alla komprimerade transaktioner. Det datum som tilldelas är det första datumet i perioden som komprimerats, t.ex. den första dagen i månaden (om transaktionerna är komprimerade per månad). När komprimeringen är utförd kan du fortfarande se nettoförändringen för respektive konto under föregående räkenskapsår.
+
+Antalet transaktioner som skapas från en datumkomprimering beror på hur många filter du definierar, vilka fält som kombineras och hur lång period du väljer. Det kommer alltid att skapas åtminstone en transaktion. När batch-jobbet har slutförts visas resultatet på sidan **Datumkomprimeringsjournaler**.
+
+Du kan komprimera följande typer av data i [!INCLUDE [prodshort](includes/prodshort.md)] med hjälp av batch-jobb:
+
+* Bankkontotransaktioner
+
+  Efter komprimeringen med funktionen **Bibehåll fältinnehåll** kan du behålla innehållet i fälten **Dokumentnr, vår kontakt**, **Global dimension 1 kod** och **Global dimension 2 kod**.
+* Lev.reskontratransaktioner
+
+  Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
+
+  Med funktionen **Bibehåll fältinnehåll** kan du också bibehålla innehållet i följande fält: **Dokumentnr**, **Inköpsleverantörsnr**, **Inköparkod**, **Global dimension 1 kod** och **Global dimension 2 kod**.
+
+<!--* General ledger entries
+* Customer ledger entries-->
+<!--* Fixed asset ledger entries
+* G/L budget entries
+* VAT entries
+
+  After the compression the contents of the following fields are always retained: **Posting Date**, **Type**, **Closed**, **Gen. Bus. Posting Group**, **Gen. Prod. Posting Group**, **VAT Calculation Type**, **Base**, and **Amount**.
+
+  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Bill-to/Pay-to No.**, **EU 3-Party Trade**, **Country/Region Code**, and **Internal Ref. No.**.
+* Insurance ledger entries
+* Maintenance ledger entries
+* Resource ledger entries
+
+  After the compression, the contents of the following fields are retained: **Posting Date**, **Resource No.**, **Resource Group No.**, **Entry Type**, **Quantity**, **Total Cost**, **Total Price**, and **Chargeable**.
+
+  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Work Type Code**, **Job No.**, **Unit of Measure Code**, **Source Type**, **Source No.**. **Chargeable**, **
+* Warehouse entries
+
+  After the compression the contents of the following fields are always retained: **Registering Date**, **Location Code**, **Zone Code**, **Bin Code**, **Item No.**, **Quantity**, **Qty. (Base)**, **Bin Type Code**, **Entry Type**, **Variant Code**, **Qty. per Unit of Measure**, **Unit of Measure Code**, **Warranty Date**, **Expiration Date**, **Cubage**, and **Weight**.
+
+  With the **Retain Field Contents** facility, you can also retain the contents of the **Serial No.** and **Lot No.** fields. -->
+
+Antalet transaktioner som skapas från ett batch-jobb för datumkomprimering beror på hur många filter du definierar, vilka fält som kombineras och hur lång period du väljer. Det kommer alltid att skapas åtminstone en transaktion. 
+
+> [!WARNING]
+> Datumkomprimeringen tar bort transaktioner. Därför ska du alltid ta en säkerhetskopia av databasen innan du kör batch-jobbet.
+
+I följande tabell visas de fält på snabbfliken **Alternativ** som är tillgängliga för alla batch-jobb. Avsnittet **Bibehåll fältinnehåll** innehåller ytterligare fält som beskrivs ovan.
+
+|Fält  |Beskrivning  |
+|-------|-------------|
+|Startdatum     |Ange det första datum som ska ingå i datumkomprimeringen. Komprimeringen kommer att påverka alla transaktioner fr.o.m. det här datumet t.o.m. datumet i fältet Slutdatum.|
+|Slutdatum     |Skriv in det sista datumet som ska tas med i datumkomprimeringen. Komprimeringen kommer att påverka alla transaktioner fr.o.m. datumet i fältet Startdatum t.o.m. datumet som du anger här.|
+|Period |Välj längden på perioden vars transaktioner ska kombineras. Välj fältet för att se alternativen. Om du har valt perioden *Kvartal*, *Månad* eller *Vecka*, komprimeras bara transaktioner med samma bokföringsperiod.|
+|Bibehåll fältinnehåll     |Markera kryssrutorna om du vill bibehålla innehållet i vissa fält trots att transaktionerna komprimeras. Desto fler fält du väljer, desto mer detaljerade kommer de komprimerade transaktionerna att bli. Om du inte markerar några av dessa fält kommer batchjobbet att skapa en transaktion per dag, vecka eller annan period enligt perioden som du valde i fältet **Period**. |
+
+## <a name="see-also"></a>Se även
+
 [Administration](admin-setup-and-administration.md)  

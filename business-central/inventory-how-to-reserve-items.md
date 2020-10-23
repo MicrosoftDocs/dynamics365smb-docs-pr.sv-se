@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6196fa9f090e13a2ce9217b5bf008b345e65e608
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cd2ff853ba4e98115988b318663714ef4a842719
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785927"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919420"
 ---
 # <a name="reserve-items"></a>Reservera artiklar
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller ankommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 015084b999f7488339c98605018bff2bc9a4ded2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: ba79088bc386a856f1b3e7727f1f778ebabb7d51
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196717"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911336"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisera manuellt tabellmappning
 En integreringstabellmappning associerar en [!INCLUDE[d365fin](includes/d365fin_md.md)] tabell (posttyp), till exempel kund, med en [!INCLUDE[d365fin](includes/cds_long_md.md)] enhet, exempelvis ett konto. Synkronisera en mappning för integreringstabellen låter dig synkronisera data i alla poster i den [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell och [!INCLUDE[d365fin](includes/cds_long_md.md)]-enhet som används. Dessutom, beroende på konfigurationen av tabellmappningen, kan synkronisering skapa och koppla nya poster i destinationslösningen ej kopplade poster i källan.  

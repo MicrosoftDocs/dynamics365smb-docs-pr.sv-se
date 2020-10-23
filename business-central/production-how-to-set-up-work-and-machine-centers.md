@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784138"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910711"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
 
@@ -27,7 +27,10 @@ Olika maskingrupper kan kopplas till varje produktionsgrupp. En maskingrupp kan 
 
 En produktionsgrupps planerade kapacitet består av motsvarande maskingrupps disposition och ytterligare planerad produktionsgruppsdisposition. Den planerade dispositionen i produktionsavdelningen är alltså summan av alla motsvarande maskin- och produktionsgruppsdispositioner.  
 
-Dispositionen lagras i kalendertransaktioner. Innan du ställer in produktions- eller maskingrupper, måste du lägga upp fabrikskalendrar. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  
+Dispositionen lagras i kalendertransaktioner.  
+
+> [!IMPORTANT]
+> Innan du ställer in produktions- eller maskingrupper, måste du lägga upp fabrikskalendrar. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>Så här skapar du produktionsgrupper:
 

@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693030"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911681"
 ---
 # <a name="handling-missing-option-values"></a>Hantera alternativvärden som saknas
 [!INCLUDE[d365fin](includes/cds_long_md.md)] innehåller bara tre alternativuppsättningsfält som innehåller alternati värden som du kan mappa till [!INCLUDE[d365fin](includes/d365fin_md.md)]-fält av alternativtyp<!-- Option type, not enum? @Onat can you vertify this? --> för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, de saknade alternativen läggs till i relaterad [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och läggs till systemtabellen **CDS-alternativmappning** för att hanteras manuellt senare. Du kan t.ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen. I det här avsnittet beskrivs hur det fungerar.

@@ -1,5 +1,5 @@
 ---
-title: Använda Excel för att importera data till Business Central| Microsoft Docs
+title: Använda Excel för att importera data till Business Central
 description: Använd standardkonfigurationspaketet för att lägga till kundinformation i Excel och återimportera data till Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5f8ed744e6596e59789b1fa1857e124026ab63b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 143d40c1005b3ce6b54f9a2f5abc865b3d76b361
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187826"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924684"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
+
 När du registrerar dig på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du välja att skapa ett tomt företag så att du kan överföra din egen information och testa det nya [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget. Beroende på finanslösningen som används i din verksamhet idag, kan du överföra information om kunder, leverantörer, lager och bankkonton.  
 
 Från ditt Rollcenter kan du starta en guide för assisterad konfiguration som hjälper dig att överföra affärsdata från en Excel-fil eller andra format. Typen av filer som du kan överföra, beror på tilläggen som är tillgängliga. Du kan till exempel migrera data från QuickBooks, eftersom [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller ett tillägg som ska hantera omvandlingen från QuickBooks. Om du vill migrera data från andra finanslösningar, måste du antingen kontrollera om det finns ett tillägg för den lösningen eller importera från Excel.  
@@ -27,7 +28,7 @@ Från ditt Rollcenter kan du starta en guide för assisterad konfiguration som h
 Du kan importera huvuddata och vissa transaktionsdata från andra finansiella system baserat på standardkonfigurationspaketet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. På sidan **konfigurationspaket** kan du arbeta med paket för att importera och validera data innan du installerar paketet.  
 
 > [!TIP]  
-> Alternativt kan du använda guider för datamigrering för att importera data från QuickBooks eller Dynamics GP. Mer information finns i [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md) eller [Dynamics GP datamigrering](ui-extensions-dynamicsgp-data-migration.md).
+> Vi rekommenderar att du använder guider för datamigrering för att importera data från Dynamics GP, Dynamics NAV eller QuickBooks. Mer information finns i [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet, eller [QuickBooks-datamigrering](ui-extensions-quickbooks-data-migration.md).
 
 > [!NOTE]  
 > För större implementeringar kan du använda RapidStart Services för [!INCLUDE[d365fin](includes/d365fin_md.md)] som är ett omfattande verktyg för att skapa nya lösningar baserade på kundernas affärskrav och konfigurationsdata. RapidStart Services inkluderar även funktioner för import av affärsdata. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -81,8 +82,8 @@ Standardkonfigurationspaketet stöder följande tabeller:
 
 ## <a name="see-also"></a>Se även
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
-[Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 [Importera flera artikelbilder](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

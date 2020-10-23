@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 382328e88c828afbf4316eb1f9bab73f6a2b7f95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527941"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911386"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 Grunden för att synkronisera data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[d365fin](includes/cds_long_md.md)] är att mappa registren och fälten som innehåller data med varandra. Mappning sker via integreringsregister. 
@@ -30,6 +30,17 @@ När du skapar anslutningen mellan programmen ställer [!INCLUDE[d365fin](includ
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 En mappning av integreringsregister innehåller också regler som styr hur synkroniseringsjobb för integrering synkroniserar poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-register och en enhet i [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### <a name="strategies-for-auto-resolving-conflicts"></a>Strategier för att lösa konflikter automatiskt
+Datakonflikter kan lätt uppstå när affärsprogram utbyter data kontinuerligt. Någon kan t.ex. ta bort eller ändra en post i ett av programmen, eller i båda. Om du vill minska antalet konflikter som ska lösas manuellt, kan du ange lösningsstrategier så löser [!INCLUDE[d365fin](includes/d365fin_md.md)] konflikter automatiskt enligt reglerna i strategierna.
+
+Tabellmappningar för integrering innehåller regler som styr hur synkroniseringsjobb synkroniserar poster. På sidan **Tabellmappningar för integrering** i kolumnerna **Lös borttagningskonflikter** och **Lös uppdateringskonflikter** kan du ange hur [!INCLUDE[d365fin](includes/d365fin_md.md)] ska lösa konflikter som uppstår på grund av att poster togs bort i tabeller i det ena eller andra affärsprogrammet, eller uppdaterades i båda. 
+
+I kolumnen **Lös borttagningskonflikter** kan du välja att [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt återställer borttagna poster, tar bort kopplingen mellan posterna eller inte gör någonting. Om du inte gör någonting måste du lösa konflikter manuellt. 
+
+I kolumnen **Lös uppdateringskonflikter** kan du välja att [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt skickar datauppdateringar till integreringstabellen när data skickas till [!INCLUDE[d365fin](includes/cds_long_md.md)], eller att datauppdateringar ska hämtas från integreringstabellen när data hämtas från [!INCLUDE[d365fin](includes/cds_long_md.md)], eller att ingenting ska göras. Om du inte gör någonting måste du lösa konflikter manuellt.
+
+När du har angett strategin kan du, på sidan **Fel vid synkronisering av kopplade data**, välja åtgärden **Försök alla igen** för att lösa konflikter automatiskt. 
 
 ## <a name="mapping-integration-fields"></a>Mappa integreringsfält
 Att mappa register är bara det första steget. Du måste också mappa fälten i registren. Mappning av integreringsfält länkar fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]-register med motsvarande fält i [!INCLUDE[d365fin](includes/cds_long_md.md)] och avgör om data ska synkroniseras i respektive register. Den standardregistermappning som [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhandahåller innehåller fältmappningar, men du kan ändra dessa om du vill. Mer information finns i [Visa enhetsmappningar](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).

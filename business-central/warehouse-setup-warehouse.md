@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f061445c2b3e883bdc776bd0526d487aff592a26
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785527"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920226"
 ---
 # <a name="setting-up-warehouse-management"></a>Ställa in lagerstyrning
 Ett företags distributionsstrategi återspeglas i konfigurationen av dess lagerprocesser. Detta omfattar att definiera hur olika artiklar hanteras på olika lagerställen, till exempel graden av styrning av lagerplats och omfattningen av arbetsflödet som krävs mellan lageraktiviteterna.  

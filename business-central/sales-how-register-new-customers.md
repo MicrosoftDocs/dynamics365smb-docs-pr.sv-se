@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e25756cff974e0db835f5e3ed3247dff6d7624a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 67bae862e702bb2c0ca4798d9d3699b8419f823f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780890"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968443"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 
@@ -62,7 +62,7 @@ Kundmallen läggs till listan över kundmallar, så att du kan använda det för
 
 ## <a name="deleting-customer-cards"></a>Ta bort kundkort
 
-Om du har bokfört en transaktion för en kund kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort kundkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.  
+Om du har bokfört en transaktion för en kund kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort kundkort med transaktioner, kontaktar du din Microsoft-partner för att göra det via kod.  
 
 ## <a name="see-also"></a>Se även
 

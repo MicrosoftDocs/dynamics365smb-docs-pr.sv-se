@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e4fae5478cf872d280342de8ddc830f91aa68ec7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b981a0062c628f3ffe3b0de8eaf4c811a13632ec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786302"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916832"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner
 När du skickar ett betalningskvitto till, eller tar emot en återbetalning från, en leverantör måste du bestämma om du ska koppla betalningen eller återbetalningen till en eller flera öppna debet- eller kreditposter. Du kan ange det exakta beloppet som ska kopplas till betalningsinleveransen eller återbetalningen och därmed endast delvis koppla leverantörsreskontratransaktioner. Du måste koppla alla leverantörsreskontratransaktioner för att leverantörsstatistik och rapporter över kontoutdrag och ränteintäkter ska bli korrekta.

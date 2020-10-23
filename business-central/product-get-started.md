@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d040507dad53ad6e9ba5407dcf457e04afa751c7
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528744"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970444"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Komma igång med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.  
@@ -74,8 +74,6 @@ Varje gång du loggar in under provperioden, visas ett meddelande i ett blått f
 
 ## <a name="other-dynamics-365-apps"></a>Andra appar Dynamics 365
 Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365](/dynamics365/)-länk i den svarta banderollen längst upp på sidan. Det finns också mer på [Dynamics 365 Business Central webbplats](https://dynamics.microsoft.com/business-central/overview/).  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 

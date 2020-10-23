@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b5ec1e1be1cf39b2b1f0c55cefbedc259a0d41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781541"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916074"
 ---
 # <a name="set-up-contacts"></a>Ställa in kontakter
 När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
@@ -149,7 +149,7 @@ Värden i övertagna fält ersätter de standardvärden som du har angett. Om du
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisera kontakter med kunder, leverantörer och bankkonton
 För att synkronisera kontaktkort med länkade kund-, leverantörs- eller bankkontokort måste du fylla i motsvarande fält i avsnittet **Affärsrelationskod för** på snabbfliken **interaktioner** på sidan **Marknadsföringsinställning**.  
 
-Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Söka efter dubbelkontakter
 Du kan välja automatisk sökning efter kopior varje gång du skapar en kontakt eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior. Du ställer in detta på snabbfliken **Dubbletter** på sidan **Marknadsföringsinställning**

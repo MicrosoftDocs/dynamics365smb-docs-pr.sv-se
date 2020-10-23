@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786102"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922298"
 ---
 # <a name="manage-profiles"></a>Hantera profiler
 
@@ -67,7 +67,7 @@ På sidan **Mina inställningar** kan användare definiera grundläggande funkti
 Som administratör kan du definiera dessa inställningar för en profil och på så sätt tillämpa inställningarna för alla användare av den relaterade rollen.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Profiler (roller)** och välj sedan relaterad länk.
-2. Markera raden för den profil som du vill ändra användarinställningar för, välj åtgärden **Navigera** och välj sedan åtgärden **användaranpassningar**.
+2. Markera raden för den profil som du vill ändra användarinställningar för och välj åtgärden **Lista över användaranpassningar**.
 3. På sidan **användaranpassningar** öppnar du kortet för den användare vars inställningar du vill ändra.
 4. På sidan **användaranpassningskort** redigerar du fälten efter behov.
 
@@ -139,7 +139,7 @@ Du kan också ta bort individuella sidanpassningar för en profil. Mer informati
 
 Som administratör av [!INCLUDE[prodshort](includes/prodshort.md)] online kan du hantera användarsessioner i administrationscentret. Mer information finns i [Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsinnehållet.  
 
-För [!INCLUDE[prodshort](includes/prodshort.md)] lokal kan du t.ex. hantera sessioner med SQL Server Management Studio. mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+För [!INCLUDE[prodshort](includes/prodshort.md)] lokal kan du t.ex. hantera sessioner med SQL Server Management Studio. Mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Se även  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  

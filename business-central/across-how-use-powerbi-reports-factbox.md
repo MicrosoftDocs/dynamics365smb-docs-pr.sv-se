@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697704"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968391"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -36,15 +36,15 @@ Ange den datakälla som innehåller datan som är relaterad till listan. För at
 
 Om du vill uppdatera datan för vald post i listan lägger du till ett filter i rapporten. Detta filter måste omfatta ett fält för den datakälla som används som *primär nyckel*. Oftast är primärnyckeln för en lista **nr.** .
 
-Om du vill definiera ett filter för rapporten, markera primärnyckel i listan över tillgängliga fält och dra och släpp fältet i avsnittet **rapportfilter**. Filtret måste vara ett grundläggande rapportfilter. Det får inte vara ett sid-, visuellt eller avancerat filter. 
+Om du vill definiera ett filter för rapporten, markera primärnyckel i listan över tillgängliga fält och dra och släpp fältet i avsnittet **rapportfilter**. Filtret måste vara ett grundläggande rapportfilter som definierats för alla sidor. Det får inte vara ett sid-, visuellt eller avancerat filter.
 
-![Ange rapportfiltret för rapporten Försäljningsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Ange rapportfiltret för rapporten Försäljningsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Ställa in rapportens storlek och färg
 
 Storleken på rapporten måste anges till 325 x 310 pixlar. Denna storlek tillhandahåller rapportens korrekta dimensioner på det tillgängliga utrymmet för Power BI FactBox-kontrollen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill definiera storleken på rapporten, lägger du fokus utanför rapportens layoutområde och klickar på ikonen färgrulle.
 
-![Ange rapportens bredd och höjd för rapporten Försäljningsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![Ange rapportens bredd och höjd för rapporten Försäljningsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Du kan ändra bredd och höjd på rapporten genom att välja **anpassaval** i fältet **typ**.
 

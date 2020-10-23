@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922448"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synkroniserar data i Business Central med Common Data Service
 
@@ -42,6 +42,9 @@ När synkroniseringen har konfigurerats kan du koppla upp [!INCLUDE[d365fin](inc
 Enheter i [!INCLUDE[d365fin](includes/cds_long_md.md)] till exempel konton, är integrerade med motsvarande typer av enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] till exempel kunder. För att arbeta med [!INCLUDE[d365fin](includes/cds_long_md.md)] data anger du länkar som kallas kopplingar mellan enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 I följande tabell visas standardmappningen mellan enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[d365fin](includes/cds_long_md.md)] som [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller.
+
+> [!TIP]
+> Du kan återställa konfigurationsändringar som har gjorts i integrationstabellen och fältmappningarna till standardinställningarna genom att välja mappningarna och sedan välja **Använd standardinställning för synkronisering**.
 
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synkroniseringsriktning | Standardfilter |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|

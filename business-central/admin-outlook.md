@@ -1,28 +1,28 @@
 ---
 title: Använda Business Central med Outlook | Microsoft Docs
-description: Denna tjänst har långtgående integrering med Office 365 så att du kan hantera alla dina affärskontakter och din e-post till kunder och leverantörer direkt i Outlook.
+description: Denna tjänst har långtgående integrering med Microsoft 365 så att du kan hantera alla dina affärskontakter och din e-post till kunder och leverantörer direkt i Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 2167336c2fe4555a28d3d3eeaf4829d815d8fa04
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529269"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915741"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] innebär förmågan att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.  
 
 ## <a name="getting-the-add-in"></a>Skaffa tillägget
-Det är lätt att komma igång med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. I assisterade konfigurationen **Ställ in din företagsinkorg i Outlook** kan du ställa in anslutningen för dig själv och din organisation om din organisation använder Office 365. Ange ditt Office 365-användarnamn och lösenord om du uppmanas till det och tala om för oss om du vill få ett exempel på ett e-postmeddelande. Tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs sedan till automatiskt till Outlook. Mer information finns i [minimi kraven för Outlook](product-requirements.md#outlook)  
+Det är lätt att komma igång med tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] för Outlook. I den assisterade konfigurationen **Ställ in din företagsinkorg i Outlook** kan du ställa in anslutningen för dig själv och din organisation om din organisation använder Microsoft 365. Ange ditt Microsoft 365-användarnamn och lösenord om du uppmanas till det och tala om för oss om du vill få ett exempel på ett e-postmeddelande. Tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] läggs sedan till automatiskt till Outlook. Mer information finns i [minimi kraven för Outlook](product-requirements.md#outlook)  
 
 När du sedan öppnar Outlook visas ett e-postmeddelanden från *Dynamics 365 Business Central-administratören*. De nya tilläggen läggs till på Outlook-menyfliken och i webbläsaren, kan du se tillägget [!INCLUDE[prodshort](includes/prodshort.md)] omedelbart ovanför e-postmeddelandets brödtext. Tillägget uppdateras regelbundet och du får ett meddelande att det finns en ny version för dig i Outlook.  
 
@@ -35,7 +35,7 @@ Om du arbetar med mer än ett [!INCLUDE[prodshort](includes/prodshort.md)]-före
 > [!NOTE]
 > Växla mellan företag kräver [!INCLUDE[prodshort](includes/prodshort.md)] 2019 utgivningsplan 2 eller senare som meddelats i [utgivningsplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Vissa företag som använder Office 365 begränsar användarnas behörigheter att använda tillägg. Du måste därför kontrollera att du har en Office 365-prenumeration som omfattar e-transaktion och som låter dig distribuera tillägg. Om du ändå vill testa tillägget kan du [prova Office 365 gratis](https://products.office.com/try).  
+Vissa företag som använder Microsoft 365 begränsar användarnas behörigheter att använda tillägg. Du måste därför kontrollera att du har en Microsoft 365-prenumeration som omfattar e-post och som låter dig distribuera tillägg. Om du ändå vill testa tillägget kan du [prova Microsoft 365 gratis](https://www.microsoft.com/microsoft-365/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Använda tillägget Information om kontakt
 Anta att du får ett e-postmeddelande från en kund som vill ha en offert för vissa artiklar. Direkt i Outlook kan du öppna tilläggsprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] som känner igen avsändaren som en kund, och öppnar kundkortet för hans företag. Från denna instrumentbräda kan du se översiktsinformation för kunden samt bläddra ned för mer detaljer för särskilda dokument. Du kan också studera kundens försäljninghistorik. Om det är en ny kontakt kan du skapa den som en kund i [!INCLUDE[d365fin](includes/d365fin_md.md)] utan att lämna Outlook.  
@@ -60,15 +60,15 @@ I tilläggsprogrammet dokumentlänkar kan du, ändra och vidta åtgärder med do
 ## <a name="adding-the-add-ins-manually"></a>Lägga till tillägg manuellt
 Ibland kan tillägg inte läggas till automatiskt i Outlook. Även om du eller en arbetskamrat körde assisterad konfigurationsguide för företaget, kanske inte [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i Outlook. Om det här problemet uppstår, kan du lägga till tillägget [!INCLUDE[d365fin](includes/d365fin_md.md)] manuellt.  
 
-Först måste du kontrollera att du har tillgång till tillägg i Office 365-kontot. Öppna Outlook i webbläsaren, öppna ett meddelande, välj **Fler åtgärder** (...) högst upp i meddelandet och välj **Hämta tillägg** längst ned i listan. Då öppnas sidan **Tillägg för Outlook** där du kan aktivera [!INCLUDE[prodshort](includes/prodshort.md)] för Outlook. När du sedan går tillbaka till Outlook, bör [!INCLUDE[prodshort](includes/prodshort.md)] skrivas ut.  
+Först måste du kontrollera att du har tillgång till tillägg i Microsoft 365-kontot. Öppna Outlook i webbläsaren, öppna ett meddelande, välj **Fler åtgärder** (...) högst upp i meddelandet och välj **Hämta tillägg** längst ned i listan. Då öppnas sidan **Tillägg för Outlook** där du kan aktivera [!INCLUDE[prodshort](includes/prodshort.md)] för Outlook. När du sedan går tillbaka till Outlook, bör [!INCLUDE[prodshort](includes/prodshort.md)] skrivas ut.  
 
 På samma sätt i den stationära Outlook-klienten kan du kontrollera att [!INCLUDE[d365fin](includes/d365fin_md.md)] finns med på sidan **Hämta tillägg**.  
 
-I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte visas måste du hämta tilläggsmanifestfilerna. För mer information, kontakta Office 365-administratören.
+I båda fallen, om [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfarande inte visas måste du hämta tilläggsmanifestfilerna. För mer information, kontakta Microsoft 365-administratören.
 
 ## <a name="using-other-email-accounts"></a>Använda andra e-postkonton
 
-Tilläggen är avsedda att användas med Office 365. Om du använder [!INCLUDE[prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE[prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i [vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) och [funktioner som kräver särskilda omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Tilläggen är avsedda att användas med Microsoft 365. Om du använder [!INCLUDE[prodshort](includes/prodshort.md)] lokalt kan administratören avgöra om du kan använda [!INCLUDE[prodshort](includes/prodshort.md)] tilläggen i Outlook. Mer information finns i artiklarna [Vilken e-postadress kan jag använda med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) och [Funktioner som kräver specifika omständigheter](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) samt avsnittet [Varför fungerar inte Outlook-tillägget för mina användare?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i Vanliga frågor och svar i administratörsinnehållet.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

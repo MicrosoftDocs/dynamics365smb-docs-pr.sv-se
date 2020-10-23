@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529044"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926953"
 ---
 # <a name="project-management"></a>Projekthantering
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utföra vanliga projekthanteringsuppgifter som t.ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.

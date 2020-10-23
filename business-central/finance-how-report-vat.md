@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65331f8c60c57bd87e3a459012a9a5678d033790
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528216"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920582"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region. 

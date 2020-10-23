@@ -3,19 +3,19 @@ title: 'Felsökning: komma åt kamera och plats'
 description: I den här artikeln beskrivs felsökning av åtkomst till kamera och platsinformation i Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781141"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912027"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Felsökning: komma åt kamera och plats
 

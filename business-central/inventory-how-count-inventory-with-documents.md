@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ae40390d2aa095739154a635c0e4fdf77933e648
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ff2bd25a76da32ad680bc94cff8801ca5328ad00
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782124"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923851"
 ---
 # <a name="count-inventory-using-documents"></a>Beräkna lager med hjälp av dokument
 Du kan göra en fysisk inventering av artiklar med hjälp av inventeringsorder och inventeringsregistreringsdokument. Sidan **inventeringsorder** används för att ordna de fullständiga inventeringar, till exempel en per lagerställe. Sidan **registrering av fysiskt lager** används för att kommunicera och samla in faktiska inventeringen av artiklar. Du kan skapa flera inspelningar av en order, till exempel för att fördela grupper av artiklar till olika medarbetare.

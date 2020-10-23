@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617917"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927028"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
 
 Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
 
 > [!NOTE]
-> Du kan inte ändra värderingsprincipen för en artikel om det finns artikeltransaktioner för artikeln.<br /><br />
-> Information kommer snart att publiceras här om lösningar på hur du ändrar en värderingsprincip i särskilda situationer.
+> Du kan inte ändra värderingsprincipen för en artikel om det finns artikeltransaktioner för artikeln. Mer information finns i [Designinformation: ändra värderingsprincipen för artiklar](design-details-changing-costing-methods.md).
 
 Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -41,7 +40,7 @@ Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
  Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
 
-|<!--blank -->|FIFO|Genomsnitt|Standard|Specifik|  
+|Kategori|FIFO|Genomsnitt|Standard|Specifik|  
 |-|----------|-------------|--------------|--------------|  
 |Allmänna egenskaper|Enkelt att förstå|Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Enkelt att använda men kräver kvalificerat underhåll.|Kräver artikelspårning på både ankommande och avgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|  
 |Koppling/justering|Koppling håller reda på **det återstående antalet**.<br /><br /> Justering vidarebefordrar kostnader enligt antalskoppling.|Koppling håller reda på **återstående antal**.<br /><br /> Kostnader beräknas och speditioneras per **värderingsdatum**.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Alla kopplingar är fasta.|  

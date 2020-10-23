@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777597"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914115"
 ---
 # <a name="categorize-items"></a>Kategorisera artiklar
 
@@ -37,6 +37,8 @@ Om du vill söka artiklar efter egenskaper kan du tilldela objektattribut till a
 
 > [!NOTE]  
 > Artikelattribut som du tilldelar en artikelkategori, kommer automatiskt att gälla för den artikel som artikelkategorin tilldelats.
+
+Om du ändrar dig om en artikelkategori kan du ta bort den. Om en artikel redan har tilldelats måste du dock ta bort tilldelningen innan du kan ta bort artikelkategorin.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Så här tilldelar du en artikelkategori till en artikel
 

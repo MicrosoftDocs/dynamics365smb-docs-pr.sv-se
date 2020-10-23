@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766097"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970366"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
 
@@ -48,29 +48,29 @@ Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företa
 
 Microsoft ger även följande tillägg:
 
-* [Revisorportal för Business Central](ui-extensions-accountant-portal.md)  
-* [Ceridian löner](ui-extensions-ceridian-payroll.md) 
-* [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)   
-* [Image Analyzer](ui-extensions-image-analyzer.md) 
-* [Intelligent moln](ui-extensions-data-replication.md)    
+* [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)
+* [Ceridian löner](ui-extensions-ceridian-payroll.md)
+* [Företagsnav](ui-extensions-company-hub.md)  
+* [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)
+* [Image Analyzer](ui-extensions-image-analyzer.md)
+* [Intelligent moln](ui-extensions-data-replication.md)
 * [Intelligent molnbas](ui-extensions-intelligent-cloud.md)  
-* [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)   
-* [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md) 
-* [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md) 
-* [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)    
-* [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)  
-* [DK - Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK - momsfilformat](ui-extensions-tax-file-formats-dk.md) 
-* [UK - GetAddress.io för postnummer i Storbritannien](ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Skicka kundremissa](ui-extensions-send-remittance-advice.md) 
-* [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
+* [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)
+* [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
+* [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
+* [Momsgrupp](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
+* [DK - Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - momsfilformat](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io för postnummer i Storbritannien](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Avinstallera ett tillägg
 
@@ -80,8 +80,8 @@ Du avinstallerar ett tillägg på sidan **Tilläggshantering**. Om du avinstalle
 > Om du aktiverar kryssrutan **Ta bort tilläggsdata** visas en bekräftelsedialogruta där du väljer **OK**. När kryssrutan **Ta bort tilläggsdata** är aktiverad kan du avinstallera filtillägget, bekräfta att du vill avinstallera tillägget och ta bort datan. Denna åtgärd kan inte ångras.
 Vissa tillägg är obligatoriska. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.  
 
-
 ## <a name="see-also"></a>Se även
+
 [Utökning av Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)  
 [Skapa tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

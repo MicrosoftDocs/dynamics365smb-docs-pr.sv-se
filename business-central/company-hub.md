@@ -1,0 +1,95 @@
+---
+title: Hantera arbete i flera företag med företagsnavet
+description: Lär dig mer om företagsnavet i Dynamics 365 Business Central som du använder för att hantera ditt arbete över flera företag.
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords: accountant, accounting, financial report
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 7ed69f86a941a216ef948488d3756c06f298549d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.translationtype: HT
+ms.contentlocale: sv-SE
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927738"
+---
+# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Hantera arbete i flera företag med företagsnavet
+
+Vissa människor arbetar i flera företag i [!INCLUDE [prodshort](includes/prodshort.md)], medan andra också arbetar i mer än en organisation, till exempel externa revisorer, anställda och chefer hos företag med flera dotterbolag. För de här användarna, och många andra, fungerar företagsnavet som en landningssida för att hantera arbete i olika miljöer som de arbetar inom, mellan företag, miljöer och regioner.  
+
+Du kan komma åt företagsnavet genom att växla till rollen **Företagsnav** i Mina inställningar, eller genom att öppna sidan **Företagsnav** direkt. Du kan göra samma sak på båda ställena, men åtgärder placeras något annorlunda på menyerna.  
+
+## <a name="company-hub-home-page"></a>Företagetsnavets hemsida
+
+Om du använder rollen **Företagsnav** visas en lista på din hemsida över företag som du har tillgång till, bland annat information om KPI-data (nyckeltal) och länkar för att öppna respektive företag. Du kan anpassa instrumentpanelen att visa de datapunkter som du vill ska visas genom att lägga till eller ta bort kolumner. Du kanske vill visa moms som har förfallit till betalning, hur många öppna försäljningsdokument varje företag har eller antalet inköpsfakturor som förfaller nästa vecka. Du kan konfigurera vyn så att den passar dina behov. Om du har lagt till många företag kan du använda filter för att sortera vyn.  
+
+Välj åtgärden **Företagsnav** för att öppna företagsnavet, där du kan arbeta mer tätt med varje företag.  
+
+> [!TIP]
+> Om du vill komma åt ett visst företag i [!INCLUDE [prodshort](includes/prodshort.md)] väljer du namnet på företaget eller väljer menyobjektet **Gå till företag**. Du loggas in automatiskt på en ny flik i webbläsaren.
+
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Åtgärder för ett företag som anges i företagsnavet":::
+
+Du kan lägga till nya företag, till exempel när du skaffar en ny kund eller när företaget lägger till ett nytt dotterbolag. Mer information finns i avsnittet [Lägga till företag i företagsnavet](company-hub-add-company.md).  
+
+> [!TIP]
+> För att du ska kunna uppdatera informationen i företagsnavet måste du ha tillgång till data i de företag som data kommer från.
+
+<!--## Company details
+
+In the **Company Hub** page, you can see more information about each company by choosing the name of the company that you want to learn more about. This opens the **Company Details** pane, where you can see additional information, such as the following:  
+
+* Cash account balances  
+* Cash flow forecast  
+* Overdue purchase invoices  
+* Overdue sales invoices  
+
+> [!TIP]
+> You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
+
+Otherwise, close the details pane and continue to the next company.  -->
+
+## <a name="assigned-tasks"></a>Tilldelade uppgifter
+
+I [!INCLUDE [prodshort](includes/prodshort.md)] kan du tilldela uppgifter till dig själv och andra och andra kan tilldela uppgifter till dig. Företagsnavet ger dig en översikt över tilldelade uppgifter för varje företag och du öppnar en lista med alla tilldelade uppgifter genom att välja **Mina användaruppgifter** på sidan **Start**.  
+
+<!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
+
+### <a name="my-user-tasks"></a>Mina användaruppgifter
+
+Listan **Mina användaruppgifter** hjälper dig att prioritera din arbetsdag genom att visa mer information om uppgifter som har tilldelats på alla företag.  
+
+Du kan sortera efter förfallodatum, till exempel eller någon annan typ av data som hjälper dig att prioritera din dag. I listan visas alla uppgifter som har tilldelats dig som standard, men du kan ställa in filter för att endast visa uppgifter som är markerade med hög prioritet, till exempel.  
+
+Om du vill välja en uppgift, väljer du den bara från listan över väntande användaruppgifter. I menyfliken öppnar länken **Gå till uppgiftsobjekt** sidan där du kan utföra arbetet.  
+
+När du har slutfört en uppgift bara markerar du den som slutförd.  
+
+Mer information om företag och miljöer finns i avsnittet om [Miljölänkar](company-hub-add-company.md#environment-links).  
+
+## <a name="access-the-company-hub"></a>Komma åt företagsnavet
+
+För att få tillgång till företagsnavet måste du ha åtkomst via antingen användargruppen *D365 FÖRETAGSNAV* eller genom behörighetsuppsättningen *D365 FÖRETAGSNAV*. Du måste också ha åtkomst till de företag som finns i företagsnavet, vilket innebär att du måste vara användare i dessa företag. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).  
+
+> [!IMPORTANT]
+> Företagsnavet är en lista över hela företaget, så alla användare som beviljats åtkomst till företagsnavet kan se alla företag i sin egen [!INCLUDE [prodshort](includes/prodshort.md)]-klientorganisation och alla KPI:er för de företag som de har tillgång till.
+
+Om du inte hittar företagsnavet och du vet att du har beviljats åtkomst till det, kan du kontakta administratören om företagsnavet finns med på sidan **Tilläggshantering**. Mer information finns i [Anpassa Business Central med hjälp av tillägg](ui-extensions.md).  
+
+## <a name="set-up-the-company-hub"></a>Ställa in företagsnavet
+
+Om du vill börja använda företagsnavet måste du lägga till ett eller flera företag på instrumentpanelen. Mer information finns i avsnittet [Lägga till företag i företagsnavet](company-hub-add-company.md).  
+
+Men om du vill lägga till ett företag måste du ha åtkomst till en eller flera instanser av [!INCLUDE [prodshort](includes/prodshort.md)] utöver det företag som du använder för företagsnavet.  
+
+Om du till exempel är en revisor kan klienterna bjuda in dig till deras [!INCLUDE [prodshort](includes/prodshort.md)]. Mer information finns i [Bjud in din externa revisor till din Business Central](finance-accounting.md#inviteaccountant).  
+
+Administratörer kan använda samma guide för assisterad konfiguration för att lägga till dig till [!INCLUDE [prodshort](includes/prodshort.md)], eller så kan de lägga till dig på det aktuella Azure AD-kontot i Microsoft 365-administratörscentret. Mer information finns i [Hantera användare och grupper](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+
+## <a name="see-also"></a>Se även
+
+[Lägg till företag till företagsnavet](company-hub-add-company.md)  
+[Revisorlösningar i Business Central](finance-accounting.md)  
+[Företagsnavet för Business Central-tillägget](ui-extensions-company-hub.md)  
+[Ändra grundinställningar](ui-change-basic-settings.md)  

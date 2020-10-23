@@ -1,24 +1,25 @@
 ---
 title: Använda en redovisningsjournal för att bokföra direkt i redovisningen | Microsoft Docs
 description: Lär hur du använder journaler för att bokföra ekonomiska transaktioner på redovisningskonton och andra konton, till exempel bank- och leverantörskonton.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.search.keywords: journals, recurring, accrual
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 669985f08dd497ecec925eef126fff262067b947
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785252"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920703"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
-De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. Men du kan också bearbeta affärsaktiviteter, till exempel inköp, utbetalning och återbetalning av anställdas utgifter genom att bokföra journalrader i olika journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. Men du kan också bearbeta affärsaktiviteter, till exempel inköp, utbetalning, användning av återkommande journaler för att bokföra periodiseringar eller återbetalning av anställdas utgifter genom att bokföra journalrader i olika journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 De flesta journalerna baseras på *redovisningsjournalen* och du kan bearbeta alla transaktioner på sidan **redovisningsjournal**. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
 
@@ -44,6 +45,27 @@ För varje journalmall kan du skapa din egen personliga journal som en journal. 
 
 > [!TIP]
 > Om du vill lägga till eller ta bort fält i journaler använder du den **personliga** banderollen. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
+
+### <a name="validating-general-journal-batches"></a>Validera redovisningsjournaler
+För att förhindra fördröjningar vid bokföring kan du aktivera en bakgrundskontroll som meddelar dig när det finns ett misstag i den redovisningsjournal som du arbetar med så att du inte kan bokföra journalen. På sidan **Redovisningsjournal** kan du välja **Felkontroll i bakgrunden** om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] validerar finansiella journaler, till exempel redovisnings- eller utbetalningsjournaler, medan du arbetar med dem. 
+
+När du aktiverar valideringen visas faktaboxen **Journalkontroll** intill journalraderna, där ärenden visas på den aktuella raden och i hela partiet. Valideringen sker när du läser in en finansiell journal och väljer en annan journalrad. Panelen **Ärenden totalt** i faktaboxen visar det totala antalet ärenden som [!INCLUDE[d365fin](includes/d365fin_md.md)] hittade, och du kan välja att den öppnar en översikt över ärendena. 
+
+Du kan använda åtgärderna **Visa rader med ärenden** och **Visa alla rader** för att växla mellan journalrader som har eller inte har några ärenden. Den nya faktaboxen **Journalradsinformation** ger snabb överblick över och åtkomst till data från journalrader, till exempel redovisningskonto, kund eller leverantör, samt bokföringsinställningarna för specifika konton.     
+
+### <a name="reversing-journals-to-correct-mistakes"></a>Återföra journaler för att korrigera misstag
+När du arbetar med journaler som har många rader och något går fel, är det viktigt att du har ett enkelt sätt att korrigera misstag. På sidan **Bokförd redovisningsjournal** finns några åtgärder som kan hjälpa dig.
+
+* **Kopiera valda rader till journal** – Kopiera endast de rader som du väljer.
+* **Kopiera redovisningsjournal till journal** – Kopiera alla rader som tillhör samma bokförda redovisningsjournal.
+
+Med hjälp av dessa åtgärder kan du skapa en kopia av en rad i redovisningsjournal eller en batch och sedan ange följande:
+
+* Den journal som du kopierar raderna till
+* Om motsatta tecken (en journal som återförs)
+* Ett annat bokföringsdatum eller verifikationsnummer
+
+Om du vill tillåta att journaler kopieras till bokförda redovisningsjournaler går du till sidan **Redovisningsjournalmallar** och markerar kryssrutan **Kopiera till bokförda journalrader**. När du tillåter att användare kopierar bokförda redovisningsjournaler kan du, om så behövs, inaktivera kopiering av specifika journaler.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Förstå Huvudkonton och motkonton
 Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjournaler** fylls motkontot i automatiskt när du fyller i fältet **Kontonr**. Annars fyller du i både fältet **Kontonr** och fältet **Motkonto** manuellt. Ett positivt belopp i fältet **Belopp** debiteras på huvudkontot och krediteras på motkontot. Ett negativt belopp krediteras på huvudkontot och debiteras på motkontot.
@@ -99,6 +121,18 @@ Om den återkommande metoden i den återkommande journalen har angetts som **Sal
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Exempel: Fördela hyresinbetalningar på olika avdelningar
 Du betalar hyra varje månad, så du har skrivit in hyresbeloppet på kassakontot på en återkommande journalrad. På sidan **Fördelningar** kan du dela upp utgiften mellan ett flertal avdelningar (dimensionen Avdelning) i enlighet med det antal kvadratmeter som respektive avdelning tar i anspråk. Beräkningen grundas på procentandelen för fördelning på respektive rad. Du kan ange olika konton på olika fördelningsrader (om hyran också ska delas upp på flera konton) eller ange samma konto fast med olika dimensionsvärdekoder för dimensionen Avdelning på respektive rad.
+
+### <a name="reversal-date-calculation"></a>Beräkning av återföringsdatum
+När du använder återkommande redovisningsjournaler för att bokföra periodiseringar vid slutet av en period är det viktigt att du har full kontroll över återföringstransaktioner. På sidan **Återkommande redovisningsjournaler** kan du med hjälp av fältet **Beräkning av återföringsdatum** kontrollera det datum som återföringstransaktionerna ska bokföras när metoder för återkommande återförsel används.
+
+#### <a name="example"></a>Exempel
+Periodiseringar bokförs vanligtvis med metoderna Fast, Variabel eller Balansering på journalraden. Bokföringsdatumet för det bokförda beloppet på kontot på journalraden beräknas med den återkommande frekvensen. Bokföringsdatumet för mottransaktionen beräknas med hjälp av fältet **Beräkning av återföringsdatum** enligt följande:
+
+* Om fältet är tomt kommer mottransaktionen att bokföras nästa dag.
+* Om fältet innehåller en datumformel (t.ex. **5D** för fem dagar), bokförs mottransaktionen med ett bokföringsdatum beräknat med hjälp av beräkningen av återföringsdatum.
+
+> [!NOTE]
+> Som standard är fältet **Beräkning av återföringsdatum** inte tillgängligt på sidan **Återkommande redovisningsjournaler**. Om du vill använda fältet måste du lägga till det genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Arbeta med Standardjournaler
 När du har skapat journalrader som du vet att du förmodligen kommer att skapa igen, kan du spara dem som en standardjournal innan du bokför journalen. Den här funktionen gäller artikeljournaler och redovisningsjournaler.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2ca7c9d062ec4f6e6f30111b06e1899921e6405
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: befc5fc1c79f3cd24f5f1af9437aebab01b62945
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782954"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918869"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
 Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.<br><br>  

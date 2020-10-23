@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484267"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917782"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Ställa in konton för integrering med Common Data Service
 Den här artikeln innehåller en översikt över hur du ställer in de konton som behövs för att integrera [!INCLUDE[d365fin](includes/cds_long_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  

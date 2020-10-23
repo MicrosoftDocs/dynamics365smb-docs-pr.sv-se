@@ -1,6 +1,6 @@
 ---
 title: Genomgång av affärsprocesser | Microsoft Docs
-description: Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.
+description: Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788377"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923326"
 ---
 # <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
 
@@ -39,7 +39,8 @@ Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utför
 |Planera ett projekt, från start till slut. **Kräver fullständiga exempeldata**|[Genomgång: Hantera projekt med Projekt](walkthrough-managing-projects-with-jobs.md)|  
 |Rapport om kostnaderna för ett projekt. **Kräver fullständiga exempeldata**|[Genomgång: Beräkna produkter i arbete för ett projekt](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Plocka artiklar för utleverans i grundläggande lagerkonfigurationer. **Kräver fullständiga exempeldata**|[Genomgång: Plockning och leverans i grundläggande lagerkonfiguration](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Utföra defekthantering. **Kräver fullständiga exempeldata**|[Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)|  
+|Utföra defekthantering. **Kräver fullständiga exempeldata**|[Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)|
+|Exportera affärsdata för granskningsändamål i Tyskland.|[Genomgång: Exportera data för en Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Se även
 

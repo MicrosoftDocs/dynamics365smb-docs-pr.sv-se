@@ -1,8 +1,6 @@
 ---
 title: Skapa och hantera företagskontakter | Microsoft Docs
 description: Du kan ställa in alla externa enheter som du har affärsrelationer med (till exempel potentiella kunder, leverantörer och konsulter) för kontakter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e1c951a3eb0a8b519ac5c0f7c5112cb40272219
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779267"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922775"
 ---
 # <a name="managing-contacts"></a>Hantera kontakter
+
 Medarbetarna i ditt företag träffar regelbundet potentiella affärsrelationer som kan utvecklas till formella affärsrelationer. Alla sådana externa kontakter och deras detaljinformation bör registreras i systemet så att kommunikationen blir bättre och att de enkelt kan omvandlas till formella kund-, leverantörs -eller bankrelationer.
+
+Använd listan **Kontakter** för att hantera dina kontakter. Därifrån kan du skapa affärsmöjligheter och hantera andra interaktioner med enskilda kontakter. Du kan också visa statistik om en kontakt och du kan komma åt flera rapporter. Information om hur du söker rätt kontakt i listan finns i [Sortera, söka och filtrera](ui-enter-criteria-filters.md).  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
@@ -32,5 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Lösa problem när det finns två eller flera poster för samma kontakt.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Se även
+
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
+[Sortera, söka och filtrera](ui-enter-criteria-filters.md)  
 [Arbeta med Business Central](ui-work-product.md)  
