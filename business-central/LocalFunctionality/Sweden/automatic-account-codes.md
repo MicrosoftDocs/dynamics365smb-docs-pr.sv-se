@@ -1,8 +1,6 @@
 ---
-title: Automatiska kontokoder
-description: Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument.
-services: project-madeira
-documentationcenter: ''
+title: Automatiska kontokoder i den svenska versionen
+description: Du kan använda anpassade publiceringsgrupper för att automatisera återkommande transaktioner i journaler, säljdokument eller inköpsdokument i den svenska versionen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 920ab71fe5ac45d3799636c7004dc6a5c3a30e4c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: abe312545b277ac7e5752d273aec91a438d171bc
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783796"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931393"
 ---
-# <a name="automatic-account-codes"></a><span data-ttu-id="620d4-103">Automatiska kontokoder</span><span class="sxs-lookup"><span data-stu-id="620d4-103">Automatic Account Codes</span></span>
-<span data-ttu-id="620d4-104">Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument.</span><span class="sxs-lookup"><span data-stu-id="620d4-104">You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents.</span></span> <span data-ttu-id="620d4-105">Dessa bokföringsmallar kan du använda i hela [!INCLUDE[d365fin](../../includes/d365fin_md.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.</span><span class="sxs-lookup"><span data-stu-id="620d4-105">These posting groups can be used throughout [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to trigger automatic postings and allocations across different accounts or dimensions.</span></span>  
+# <a name="automatic-account-codes-in-the-swedish-version"></a><span data-ttu-id="f1e2e-103">Automatiska kontokoder i den svenska versionen</span><span class="sxs-lookup"><span data-stu-id="f1e2e-103">Automatic Account Codes in the Swedish Version</span></span>
 
-<span data-ttu-id="620d4-106">Automatiska kontokoder kan användas för att automatisera bokföring relaterad till omkostnader för lönelistan.</span><span class="sxs-lookup"><span data-stu-id="620d4-106">Automatic account codes can be used to automate postings related to payroll overhead.</span></span> <span data-ttu-id="620d4-107">Du kan till exempel använda automatiska kontokoder för att automatiskt bokföra en viss procentandel av den totala kostnaden för löner som omkostnader när den bokförs i slutet på månaden.</span><span class="sxs-lookup"><span data-stu-id="620d4-107">For example, when posting total salary expenses at the end of the month, you can use automatic account codes to assign a percentage of the total salary to automatically post as overhead expenses.</span></span>  
+[!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 
-<span data-ttu-id="620d4-108">Du kan även använda automatiska kontokoder för att automatiskt fördela kostnader eller intäkter på olika dimensioner.</span><span class="sxs-lookup"><span data-stu-id="620d4-108">You can also use automatic account codes to trigger cost or revenue allocations across different dimensions.</span></span> <span data-ttu-id="620d4-109">Du kan till exempel ställa in en automatisk kontogrupp för att fördela de totala kostnaderna på tre avdelningar när du bokför en faktura.</span><span class="sxs-lookup"><span data-stu-id="620d4-109">For example, you can set up an automatic account group to divide total expenses across three departments when posting an invoice.</span></span>  
+## <a name="see-also"></a><span data-ttu-id="f1e2e-104">Se även</span><span class="sxs-lookup"><span data-stu-id="f1e2e-104">See Also</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="620d4-110">Se även</span><span class="sxs-lookup"><span data-stu-id="620d4-110">See Also</span></span>  
- <span data-ttu-id="620d4-111">[Ställ in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md) </span><span class="sxs-lookup"><span data-stu-id="620d4-111">[Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md) </span></span>  
- [<span data-ttu-id="620d4-112">Ställa in bokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="620d4-112">Setting Up Posting Groups</span></span>](../../finance-posting-groups.md)  
- [<span data-ttu-id="620d4-113">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="620d4-113">Working with General Journals</span></span>](../../ui-work-general-journals.md)
+[<span data-ttu-id="f1e2e-105">Ställ in automatiska kontobokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="f1e2e-105">Set Up Automatic Account Posting Groups</span></span>](how-to-set-up-automatic-account-posting-groups.md)  
+[<span data-ttu-id="f1e2e-106">Ställa in bokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="f1e2e-106">Setting Up Posting Groups</span></span>](../../finance-posting-groups.md)  
+[<span data-ttu-id="f1e2e-107">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="f1e2e-107">Working with General Journals</span></span>](../../ui-work-general-journals.md)  
