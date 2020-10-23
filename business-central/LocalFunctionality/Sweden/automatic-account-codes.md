@@ -1,8 +1,6 @@
 ---
-title: Automatiska kontokoder
-description: Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument.
-services: project-madeira
-documentationcenter: ''
+title: Automatiska kontokoder i den svenska versionen
+description: Du kan använda anpassade publiceringsgrupper för att automatisera återkommande transaktioner i journaler, säljdokument eller inköpsdokument i den svenska versionen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 920ab71fe5ac45d3799636c7004dc6a5c3a30e4c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: abe312545b277ac7e5752d273aec91a438d171bc
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783796"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931393"
 ---
-# <a name="automatic-account-codes"></a>Automatiska kontokoder
-Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument. Dessa bokföringsmallar kan du använda i hela [!INCLUDE[d365fin](../../includes/d365fin_md.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.  
+# <a name="automatic-account-codes-in-the-swedish-version"></a>Automatiska kontokoder i den svenska versionen
 
-Automatiska kontokoder kan användas för att automatisera bokföring relaterad till omkostnader för lönelistan. Du kan till exempel använda automatiska kontokoder för att automatiskt bokföra en viss procentandel av den totala kostnaden för löner som omkostnader när den bokförs i slutet på månaden.  
+[!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 
-Du kan även använda automatiska kontokoder för att automatiskt fördela kostnader eller intäkter på olika dimensioner. Du kan till exempel ställa in en automatisk kontogrupp för att fördela de totala kostnaderna på tre avdelningar när du bokför en faktura.  
+## <a name="see-also"></a>Se även
 
-## <a name="see-also"></a>Se även  
- [Ställ in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)   
- [Ställa in bokföringsmallar](../../finance-posting-groups.md)  
- [Arbeta med redovisningsjournaler](../../ui-work-general-journals.md)
+[Ställ in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)  
+[Ställa in bokföringsmallar](../../finance-posting-groups.md)  
+[Arbeta med redovisningsjournaler](../../ui-work-general-journals.md)  

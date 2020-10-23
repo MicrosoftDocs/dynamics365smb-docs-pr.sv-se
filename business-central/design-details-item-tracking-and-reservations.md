@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787627"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922098"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
 
@@ -36,10 +36,11 @@ Reservation av artikelspårningsnummer är uppdelad i två kategorier, som visas
 |Icke-specifik|Du väljer inte ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t.ex. en försäljningsorder.<br /><br /> Detta är läge som läggs på en reservationstransaktion för serie- eller partinummer som inte har har valts specifikt. **Obs:** Efterfrågan har inte serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från ett valfritt parti för din försäljningsorder. En burk med blå färg från ett slumpmässigt serie- eller partinumret levereras till kunden.|  
   
 Den huvudsakliga skillnaden mellan specifika och icke-specifika reservationer definieras av förekomsten av serie- eller partinummer på efterfråganssidan, så som visas i följande tabell.  
-  
-|<!--blank -->|**Tillgång**|**Efterfrågan**|  
-|**Specifik**|Serie- eller partinummer.|Serie- eller partinummer.|  
-|**Icke-specifik**|Serie- eller partinummer.|Inget serie- eller partinummer.|  
+
+| Typ            | Tillgång                | Behov                   |
+|-----------------|-----------------------|--------------------------|
+| **Specifik**    | Serie- eller partinummer. | Serie- eller partinummer.    |
+| **Icke-specifik** | Serie- eller partinummer. | Inget serie- eller partinummer |
   
 När du reserverar lagerkvantiteter från en avgående dokumentrad för en artikel som har artikelspårningsnummer tilldelade och är inställd för särskild artikelspårning, leder sidan **Reservation** dig via olika arbetsflöden beroende på vad du behöver för serie- eller partinumren.  
   

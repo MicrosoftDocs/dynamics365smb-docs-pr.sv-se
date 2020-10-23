@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701998"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924634"
 ---
 # <a name="connect-to-common-data-service"></a>Anslut till Common Data Service
 
@@ -34,7 +34,7 @@ Det finns lite information du bör ha tillhanda innan du skapar anslutningen:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Ställ in en anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-För alla autentiseringstyper förutom Office 365-autentisering kan du ställa in anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Inställningar för CDS-anslutning**. För Office 365-autentisering rekommenderar vi att du använder den assisterade konfigurationsguiden **Inställningar för Common Data Service-anslutning**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
+För alla andra autentiseringstyper än Microsoft 365-autentisering konfigurerar du din anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Konfiguration av CDS-anslutning**. För Microsoft 365-autentisering rekommenderar vi att du använder konfigurationsguiden **Konfigurera Common Data Service-anslutning**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
 
 > [!IMPORTANT]
 > Under installationen av anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ombeds administratören att ge följande behörigheter till registrerad Azure-tillämpning [!INCLUDE[d365fin](includes/d365fin_md.md)] som heter integration för [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -70,7 +70,7 @@ I följande procedur beskrivs hur du konfigurerar anslutningen manuellt på sida
 
     |Fält|Beskrivning|
     |-----|-----|
-    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Användare måste mappa till CDS-användare**|Om du använder modellen för personägarskap anger du om [!INCLUDE[d365fin](includes/d365fin_md.md)]-användarkonton måste ha matchande användarkonton i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **Office 365 E-postadress för autentisering** av [!INCLUDE[d365fin](includes/d365fin_md.md)]-användaren måste vara samma som **Primär e-postadress** för [!INCLUDE[crm_md](includes/crm_md.md)]-användaren.<br /><br /> Om du anger värdet till **Ja** kommer [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare som inte har något matchande [!INCLUDE[crm_md](includes/crm_md.md)]-användarkonto inte ha [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data direkt från [!INCLUDE[d365fin](includes/d365fin_md.md)] utförs på [!INCLUDE[crm_md](includes/crm_md.md)]-användarkontots vägnar.<br /><br /> Om du anger värdet till **Nej** kommer alla [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare ha [!INCLUDE[crm_md](includes/crm_md.md)]--integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data gör på [!INCLUDE[crm_md](includes/crm_md.md)]-anslutningens (integration) vägnar.|
+    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Användare måste mappa till CDS-användare**|Om du använder modellen för personägarskap anger du om [!INCLUDE[d365fin](includes/d365fin_md.md)]-användarkonton måste ha matchande användarkonton i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **E-post för autentisering av Microsoft 365** för [!INCLUDE[d365fin](includes/d365fin_md.md)]-användaren måste stämma överens med den **primära e-posten** för [!INCLUDE[crm_md](includes/crm_md.md)]-användaren.<br /><br /> Om du anger värdet till **Ja** kommer [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare som inte har något matchande [!INCLUDE[crm_md](includes/crm_md.md)]-användarkonto inte ha [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data direkt från [!INCLUDE[d365fin](includes/d365fin_md.md)] utförs på [!INCLUDE[crm_md](includes/crm_md.md)]-användarkontots vägnar.<br /><br /> Om du anger värdet till **Nej** kommer alla [!INCLUDE[d365fin](includes/d365fin_md.md)]-användare ha [!INCLUDE[crm_md](includes/crm_md.md)]--integrationskapaciteter i användargränssnittet. Åtkomst till [!INCLUDE[crm_md](includes/crm_md.md)]-data gör på [!INCLUDE[crm_md](includes/crm_md.md)]-anslutningens (integration) vägnar.|
     |**Nuvarande Business Central-säljare mappas till en användare**|Anger om kontot har mappats till ett konto i [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Kontrollera anslutningsinställningarna genom att välja **Anslutning** och sedan **Testa anslutning**.  

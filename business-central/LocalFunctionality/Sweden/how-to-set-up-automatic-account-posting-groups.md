@@ -1,8 +1,6 @@
 ---
-title: Så här ställer du in automatiska kontobokföringsmallar
-description: Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.
-services: project-madeira
-documentationcenter: ''
+title: Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
+description: För att använda automatiska kontokoder måste du skapa en automatisk publiceringsgrupp för kontot i den svenska versionen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,42 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c36d24175dbee7eb282ffd3186cad4db5488786a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 457dfe4c194234d286f068c782b4c750d7a05326
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777883"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931415"
 ---
-# <a name="set-up-automatic-account-posting-groups"></a>Ställ in automatiska kontobokföringsmallar
-Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  
+# <a name="set-up-automatic-account-posting-groups-in-the-swedish-version"></a>Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
 
-## <a name="to-set-up-automatic-account-posting-groups"></a>Så här ställer du in automatiska kontobokföringsmallar  
+[!INCLUDE [automatic-account-posting-groups-setup](../includes/FISE/automatic-account-posting-groups-setup.md)]
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](../../media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Automatkontering** och välj sedan tillhörande länk.  
-2.  Välj åtgärden **Ny**.  
-3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  
+## <a name="see-also"></a>Se även
 
-    |Fält|Description|  
-    |-----------|-----------------|  
-    |**Nr**|Ange ett unikt alfanumeriskt nummer för den automatiska kontobokföringsmallen.|  
-    |**Beskrivning**|Ange en beskrivning av den automatiska kontobokföringsmallen.|  
-
-4.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Automatkonteringsrad**.  
-
-    |Fält|Description|  
-    |-----------|-----------------|  
-    |**Allokeringsprocent**|Ange procentandelen av ursprungsradbeloppet som ska fördelas.|  
-    |**Redovisningskontonr**|Ange numret på redovisningskontot som fördelningen ska bokföras på.|  
-
-    > [!NOTE]  
-    >  I fältet **Totalt saldo** summeras fältet **Allokeringsprocent** för de automatiska kontoraderna i en bokföringsmall. Om den totala fördelningsprocenten för en bokföringsmall inte blir noll visas ett felmeddelande när posten bokförs.  
-
-5.  Välj knappen **OK**.  
-
-## <a name="see-also"></a>Se även  
- [Automatiska kontokoder](automatic-account-codes.md)   
- [Ställa in bokföringsmallar](../../finance-posting-groups.md)  
- [Arbeta med redovisningsjournaler](../../ui-work-general-journals.md)
+[Automatiska kontokoder](automatic-account-codes.md)  
+[Ställa in bokföringsmallar](../../finance-posting-groups.md)  
+[Arbeta med redovisningsjournaler](../../ui-work-general-journals.md)  
