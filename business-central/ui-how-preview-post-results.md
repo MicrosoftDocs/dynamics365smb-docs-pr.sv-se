@@ -11,24 +11,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910186"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756898"
 ---
-# <a name="preview-posting-results"></a><span data-ttu-id="53c16-103">Förhandsgranska resultat</span><span class="sxs-lookup"><span data-stu-id="53c16-103">Preview Posting Results</span></span>
-<span data-ttu-id="53c16-104">På varje dokument eller journal som kan bokföras, kan du välja knappen **Förhandsgranska bokföring** för att förhandsgranska andra typer av transaktioner som ska skapas, när du bokför dokumentet eller journalen.</span><span class="sxs-lookup"><span data-stu-id="53c16-104">On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.</span></span>
+# <a name="preview-posting-results"></a><span data-ttu-id="4a8e9-103">Förhandsgranska resultat</span><span class="sxs-lookup"><span data-stu-id="4a8e9-103">Preview Posting Results</span></span>
+<span data-ttu-id="4a8e9-104">På varje dokument eller journal som kan bokföras, kan du välja knappen **Förhandsgranska bokföring** för att förhandsgranska andra typer av transaktioner som ska skapas, när du bokför dokumentet eller journalen.</span><span class="sxs-lookup"><span data-stu-id="4a8e9-104">On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.</span></span>
 
-## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a><span data-ttu-id="53c16-105">Om du vill granska redovisningstransaktioner som resulterar från bokföring av inköpsfaktura</span><span class="sxs-lookup"><span data-stu-id="53c16-105">To preview G/L entries that will result from posting a purchase invoice</span></span>
-1. <span data-ttu-id="53c16-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.</span><span class="sxs-lookup"><span data-stu-id="53c16-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>
-2. <span data-ttu-id="53c16-107">Skapa en inköpsfaktura.</span><span class="sxs-lookup"><span data-stu-id="53c16-107">Create a purchase invoice.</span></span> <span data-ttu-id="53c16-108">Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="53c16-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
-3. <span data-ttu-id="53c16-109">Välj **Förhandsgranska bokföring**.</span><span class="sxs-lookup"><span data-stu-id="53c16-109">Choose **Preview Posting**.</span></span>
-4. <span data-ttu-id="53c16-110">På sidan **Förhandsgranska bokföring** väljer du **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.</span><span class="sxs-lookup"><span data-stu-id="53c16-110">On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.</span></span>  
-   <span data-ttu-id="53c16-111">Sidan **Förhandsgranska redov.transaktioner** skapas när du bokför inköpsfakturan.</span><span class="sxs-lookup"><span data-stu-id="53c16-111">The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.</span></span>
+## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a><span data-ttu-id="4a8e9-105">Om du vill granska redovisningstransaktioner som resulterar från bokföring av inköpsfaktura</span><span class="sxs-lookup"><span data-stu-id="4a8e9-105">To preview G/L entries that will result from posting a purchase invoice</span></span>
+1. <span data-ttu-id="4a8e9-106">Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.</span><span class="sxs-lookup"><span data-stu-id="4a8e9-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4a8e9-107">Skapa en inköpsfaktura.</span><span class="sxs-lookup"><span data-stu-id="4a8e9-107">Create a purchase invoice.</span></span> <span data-ttu-id="4a8e9-108">Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="4a8e9-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+3. <span data-ttu-id="4a8e9-109">Välj **Förhandsgranska bokföring**.</span><span class="sxs-lookup"><span data-stu-id="4a8e9-109">Choose **Preview Posting**.</span></span>
+4. <span data-ttu-id="4a8e9-110">På sidan **Förhandsgranska bokföring** väljer du **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.</span><span class="sxs-lookup"><span data-stu-id="4a8e9-110">On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.</span></span>  
+   <span data-ttu-id="4a8e9-111">Sidan **Förhandsgranska redov.transaktioner** skapas när du bokför inköpsfakturan.</span><span class="sxs-lookup"><span data-stu-id="4a8e9-111">The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="53c16-112">Se även</span><span class="sxs-lookup"><span data-stu-id="53c16-112">See Also</span></span>
-[<span data-ttu-id="53c16-113">Bokför dokument och journaler</span><span class="sxs-lookup"><span data-stu-id="53c16-113">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="53c16-114">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="53c16-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="53c16-115">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="53c16-115">General Business Functionality</span></span>](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="4a8e9-112">Se även</span><span class="sxs-lookup"><span data-stu-id="4a8e9-112">See Also</span></span>
+[<span data-ttu-id="4a8e9-113">Bokför dokument och journaler</span><span class="sxs-lookup"><span data-stu-id="4a8e9-113">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="4a8e9-114">[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4a8e9-114">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="4a8e9-115">Allmänna affärsfunktioner</span><span class="sxs-lookup"><span data-stu-id="4a8e9-115">General Business Functionality</span></span>](ui-across-business-areas.md)

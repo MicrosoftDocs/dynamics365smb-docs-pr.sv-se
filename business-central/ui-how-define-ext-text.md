@@ -9,38 +9,38 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9e443a44135bbdaf75f6a064370983592797b10b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920453"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756923"
 ---
-# <a name="add-extended-text"></a><span data-ttu-id="a7fcc-103">Lägg till extratext</span><span class="sxs-lookup"><span data-stu-id="a7fcc-103">Add Extended Text</span></span>
+# <a name="add-extended-text"></a><span data-ttu-id="d7d12-103">Lägg till extratext</span><span class="sxs-lookup"><span data-stu-id="d7d12-103">Add Extended Text</span></span>
 
-<span data-ttu-id="a7fcc-104">Du kan utöka beskrivningen av artiklar, lagerhållningsenheter, redovisningskonton och resurser genom att lägga till extra rader som extratext.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-104">You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text.</span></span> <span data-ttu-id="a7fcc-105">Du kan också ange villkor för hur de extra raderna ska användas.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-105">You can also set up conditions for use of the extra lines.</span></span>  
+<span data-ttu-id="d7d12-104">Du kan utöka beskrivningen av artiklar, lagerhållningsenheter, redovisningskonton och resurser genom att lägga till extra rader som extratext.</span><span class="sxs-lookup"><span data-stu-id="d7d12-104">You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text.</span></span> <span data-ttu-id="d7d12-105">Du kan också ange villkor för hur de extra raderna ska användas.</span><span class="sxs-lookup"><span data-stu-id="d7d12-105">You can also set up conditions for use of the extra lines.</span></span>  
 
-<span data-ttu-id="a7fcc-106">I följande avsnitt beskrivs hur du lägger till extratext i en beskrivning av en artikel.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-106">The following section describes how to add extended text to a description of an item.</span></span> <span data-ttu-id="a7fcc-107">Men samma steg gäller för lager enheter, redovisningskonton och resurser.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-107">But the same steps apply to stock-keeping units, general ledger accounts, and resources.</span></span>  
+<span data-ttu-id="d7d12-106">I följande avsnitt beskrivs hur du lägger till extratext i en beskrivning av en artikel.</span><span class="sxs-lookup"><span data-stu-id="d7d12-106">The following section describes how to add extended text to a description of an item.</span></span> <span data-ttu-id="d7d12-107">Men samma steg gäller för lager enheter, redovisningskonton och resurser.</span><span class="sxs-lookup"><span data-stu-id="d7d12-107">But the same steps apply to stock-keeping units, general ledger accounts, and resources.</span></span>  
 
-## <a name="to-define-extended-text-for-an-description"></a><span data-ttu-id="a7fcc-108">Om du vill definiera extratexten för en beskrivning</span><span class="sxs-lookup"><span data-stu-id="a7fcc-108">To define extended text for an description</span></span>
+## <a name="to-define-extended-text-for-an-description"></a><span data-ttu-id="d7d12-108">Om du vill definiera extratexten för en beskrivning</span><span class="sxs-lookup"><span data-stu-id="d7d12-108">To define extended text for an description</span></span>
 
-1. <span data-ttu-id="a7fcc-109">Öppna kortet för en artikel som du vill lägga till extratext på, och välj sedan åtgärden **Extratext**.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-109">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
-2. <span data-ttu-id="a7fcc-110">Fyll i fälten **Kod** och **Beskrivning**.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-110">Fill in the **Code** and **Description** fields.</span></span>
-3. <span data-ttu-id="a7fcc-111">Välj **Ny**.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-111">Choose the **New**.</span></span>
-4. <span data-ttu-id="a7fcc-112">Fyll i fältet **Språkkod** eller markera kryssrutan **Alla språkkoder** om du vill använda språkkoder.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-112">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
-5. <span data-ttu-id="a7fcc-113">Fyll i fältet **Startdatum** och fältet **Slutdatum** om du vill begränsa den period under vilken extratexten ska användas.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-113">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
-6. <span data-ttu-id="a7fcc-114">I fältet **Text** anger du den extra texten.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-114">In the **Text** field, write the extended text.</span></span>
-7. <span data-ttu-id="a7fcc-115">Markera relevanta kryssrutor för dokumenttyperna där du vill att extratexten ska skrivas ut.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-115">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
-8. <span data-ttu-id="a7fcc-116">Stäng sidan.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-116">Close the page.</span></span>
+1. <span data-ttu-id="d7d12-109">Öppna kortet för en artikel som du vill lägga till extratext på, och välj sedan åtgärden **Extratext**.</span><span class="sxs-lookup"><span data-stu-id="d7d12-109">Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.</span></span>
+2. <span data-ttu-id="d7d12-110">Fyll i fälten **Kod** och **Beskrivning**.</span><span class="sxs-lookup"><span data-stu-id="d7d12-110">Fill in the **Code** and **Description** fields.</span></span>
+3. <span data-ttu-id="d7d12-111">Välj **Ny**.</span><span class="sxs-lookup"><span data-stu-id="d7d12-111">Choose the **New**.</span></span>
+4. <span data-ttu-id="d7d12-112">Fyll i fältet **Språkkod** eller markera kryssrutan **Alla språkkoder** om du vill använda språkkoder.</span><span class="sxs-lookup"><span data-stu-id="d7d12-112">Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.</span></span>
+5. <span data-ttu-id="d7d12-113">Fyll i fältet **Startdatum** och fältet **Slutdatum** om du vill begränsa den period under vilken extratexten ska användas.</span><span class="sxs-lookup"><span data-stu-id="d7d12-113">Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.</span></span>
+6. <span data-ttu-id="d7d12-114">I fältet **Text** anger du den extra texten.</span><span class="sxs-lookup"><span data-stu-id="d7d12-114">In the **Text** field, write the extended text.</span></span>
+7. <span data-ttu-id="d7d12-115">Markera relevanta kryssrutor för dokumenttyperna där du vill att extratexten ska skrivas ut.</span><span class="sxs-lookup"><span data-stu-id="d7d12-115">Select relevant check boxes for the document types where you want the extended text printed.</span></span>
+8. <span data-ttu-id="d7d12-116">Stäng sidan.</span><span class="sxs-lookup"><span data-stu-id="d7d12-116">Close the page.</span></span>
 
-<span data-ttu-id="a7fcc-117">Nu kan du lägga till den utökade texten i dokument.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-117">You can now add this extended text to documents.</span></span> <span data-ttu-id="a7fcc-118">I proceduren nedan beskrivs hur du lägger till extratext på en försäljningsorder, men samma steg gäller för andra dokument som du har angett för den extratext.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-118">The following procedure explains how to add extended text to a sales order, but the same steps apply to any other document that you specified for the extended text.</span></span>  
+<span data-ttu-id="d7d12-117">Nu kan du lägga till den utökade texten i dokument.</span><span class="sxs-lookup"><span data-stu-id="d7d12-117">You can now add this extended text to documents.</span></span> <span data-ttu-id="d7d12-118">I proceduren nedan beskrivs hur du lägger till extratext på en försäljningsorder, men samma steg gäller för andra dokument som du har angett för den extratext.</span><span class="sxs-lookup"><span data-stu-id="d7d12-118">The following procedure explains how to add extended text to a sales order, but the same steps apply to any other document that you specified for the extended text.</span></span>  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="a7fcc-119">För att lägga till en utökad artikeltext på en försäljningsorderrad.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-119">To add an extended item text on a sales order line</span></span>
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><span data-ttu-id="d7d12-119">För att lägga till en utökad artikeltext på en försäljningsorderrad.</span><span class="sxs-lookup"><span data-stu-id="d7d12-119">To add an extended item text on a sales order line</span></span>
 
-1. <span data-ttu-id="a7fcc-120">Öppna en försäljningsorder med en försäljningsrad för en artikel som har förlängd text som har definierats.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-120">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="a7fcc-121">Mer information finns i [Sälja produkter](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="a7fcc-121">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
-2. <span data-ttu-id="a7fcc-122">Markera den aktuella raden och välj sedan åtgärden **Infoga förl. text**.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-122">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
+1. <span data-ttu-id="d7d12-120">Öppna en försäljningsorder med en försäljningsrad för en artikel som har förlängd text som har definierats.</span><span class="sxs-lookup"><span data-stu-id="d7d12-120">Open a sales order with a sales line for an item that has extended text defined.</span></span> <span data-ttu-id="d7d12-121">Mer information finns i [Sälja produkter](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="d7d12-121">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+2. <span data-ttu-id="d7d12-122">Markera den aktuella raden och välj sedan åtgärden **Infoga förl. text**.</span><span class="sxs-lookup"><span data-stu-id="d7d12-122">Select the line in question, and then choose the **Insert Ext. Text** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a7fcc-123">Se även</span><span class="sxs-lookup"><span data-stu-id="a7fcc-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7d12-123">Se även</span><span class="sxs-lookup"><span data-stu-id="d7d12-123">See Also</span></span>
 
-[<span data-ttu-id="a7fcc-124">Ställa in lager</span><span class="sxs-lookup"><span data-stu-id="a7fcc-124">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="a7fcc-125">[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a7fcc-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="d7d12-124">Ställa in lager</span><span class="sxs-lookup"><span data-stu-id="d7d12-124">Setting Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="d7d12-125">[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d7d12-125">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
