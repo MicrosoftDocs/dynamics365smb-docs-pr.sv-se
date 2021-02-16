@@ -1,1 +1,1 @@
-<span data-ttu-id="7657c-101">Hämta [utbildning!](/learn/browse/?products=dynamics-business-central)</span><span class="sxs-lookup"><span data-stu-id="7657c-101">Get [training!](/learn/browse/?products=dynamics-business-central)</span></span>
+<span data-ttu-id="84758-101">Hämta [utbildning!](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)</span><span class="sxs-lookup"><span data-stu-id="84758-101">Get [training!](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)</span></span>

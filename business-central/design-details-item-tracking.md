@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Artikelspårning | Microsoft Docs
+title: Designdetaljer – Artikelspårning | Microsoft Docs
 description: Det här avsnittet innehåller en översikt av designinformation för artikelspårning.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a7fd3068cbcaeae1180781cd1377f0913406af4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917332"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751361"
 ---
-# <a name="design-details-item-tracking"></a><span data-ttu-id="b6df9-103">Designdetaljer: Objektspårning</span><span class="sxs-lookup"><span data-stu-id="b6df9-103">Design Details: Item Tracking</span></span>
-<span data-ttu-id="b6df9-104">Eftersom varuflödet i dagens försörjningskedja blir mer och mer komplicerat, är möjligheten att hålla reda på artiklar och allt viktigare för de inblandade företagen.</span><span class="sxs-lookup"><span data-stu-id="b6df9-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="b6df9-105">Övervaka en artikels transaktionsflöde är en lagkrav i företag för medicinsk och kemisk leverans, men andra företag kan vilja övervaka produkter med garantier eller utgångsdatum av kundserviceanledningar.</span><span class="sxs-lookup"><span data-stu-id="b6df9-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
+# <a name="design-details-item-tracking"></a><span data-ttu-id="f7e45-103">Designdetaljer: Objektspårning</span><span class="sxs-lookup"><span data-stu-id="f7e45-103">Design Details: Item Tracking</span></span>
+<span data-ttu-id="f7e45-104">Eftersom varuflödet i dagens försörjningskedja blir mer och mer komplicerat, är möjligheten att hålla reda på artiklar och allt viktigare för de inblandade företagen.</span><span class="sxs-lookup"><span data-stu-id="f7e45-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="f7e45-105">Övervaka en artikels transaktionsflöde är en lagkrav i företag för medicinsk och kemisk leverans, men andra företag kan vilja övervaka produkter med garantier eller utgångsdatum av kundserviceanledningar.</span><span class="sxs-lookup"><span data-stu-id="f7e45-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
 
-<span data-ttu-id="b6df9-106">Ett artikelspårningsystem bör ge ett företag en enkel hantering av serie- och partinummer med hänsyn till varje unik vara: när och var den inlevererades, var den lagras, när och var den såldes.</span><span class="sxs-lookup"><span data-stu-id="b6df9-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="b6df9-107">har gradvis utvidgat sin täckning av det här affärskravet och har idag funktioner för hela programmet och utgör en robust kärna att utveckla tillägg på.</span><span class="sxs-lookup"><span data-stu-id="b6df9-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
+<span data-ttu-id="f7e45-106">Ett artikelspårningsystem bör ge ett företag en enkel hantering av serie- och partinummer med hänsyn till varje unik vara: när och var den inlevererades, var den lagras, när och var den såldes.</span><span class="sxs-lookup"><span data-stu-id="f7e45-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="f7e45-107">har gradvis utvidgat sin täckning av det här affärskravet och har idag funktioner för hela programmet och utgör en robust kärna att utveckla tillägg på.</span><span class="sxs-lookup"><span data-stu-id="f7e45-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="b6df9-108">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="b6df9-108">In This Section</span></span>  
-[<span data-ttu-id="b6df9-109">Designdetaljer: Artikelkopplingsdesign</span><span class="sxs-lookup"><span data-stu-id="b6df9-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
-[<span data-ttu-id="b6df9-110">Designdetaljer: Bokföringsstruktur för artikelspårning</span><span class="sxs-lookup"><span data-stu-id="b6df9-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
-[<span data-ttu-id="b6df9-111">Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner</span><span class="sxs-lookup"><span data-stu-id="b6df9-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
-[<span data-ttu-id="b6df9-112">Designdetaljer - Sida för artikelspårningsrader</span><span class="sxs-lookup"><span data-stu-id="b6df9-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
-[<span data-ttu-id="b6df9-113">Designdetaljer: Disposition av artikelspårning</span><span class="sxs-lookup"><span data-stu-id="b6df9-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
-[<span data-ttu-id="b6df9-114">Designdetaljer: Artikelkoppling och planering</span><span class="sxs-lookup"><span data-stu-id="b6df9-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
-[<span data-ttu-id="b6df9-115">Designdetaljer: Artikelkoppling och reservationer</span><span class="sxs-lookup"><span data-stu-id="b6df9-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
-[<span data-ttu-id="b6df9-116">Designdetaljer: Artikelkoppling i distributionslagret</span><span class="sxs-lookup"><span data-stu-id="b6df9-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)
+## <a name="in-this-section"></a><span data-ttu-id="f7e45-108">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="f7e45-108">In This Section</span></span>  
+[<span data-ttu-id="f7e45-109">Designdetaljer: Artikelkopplingsdesign</span><span class="sxs-lookup"><span data-stu-id="f7e45-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
+[<span data-ttu-id="f7e45-110">Designdetaljer: Bokföringsstruktur för artikelspårning</span><span class="sxs-lookup"><span data-stu-id="f7e45-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
+[<span data-ttu-id="f7e45-111">Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner</span><span class="sxs-lookup"><span data-stu-id="f7e45-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
+[<span data-ttu-id="f7e45-112">Designdetaljer – Sida för artikelspårningsrader</span><span class="sxs-lookup"><span data-stu-id="f7e45-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
+[<span data-ttu-id="f7e45-113">Designdetaljer: Disposition av artikelspårning</span><span class="sxs-lookup"><span data-stu-id="f7e45-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
+[<span data-ttu-id="f7e45-114">Designdetaljer: Artikelkoppling och planering</span><span class="sxs-lookup"><span data-stu-id="f7e45-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
+[<span data-ttu-id="f7e45-115">Designdetaljer: Artikelkoppling och reservationer</span><span class="sxs-lookup"><span data-stu-id="f7e45-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
+[<span data-ttu-id="f7e45-116">Designdetaljer: Artikelkoppling i distributionslagret</span><span class="sxs-lookup"><span data-stu-id="f7e45-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)

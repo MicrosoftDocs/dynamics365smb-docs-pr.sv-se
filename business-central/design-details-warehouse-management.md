@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Lagerhantering | Microsoft Docs
+title: Designdetaljer – Lagerhantering | Microsoft Docs
 description: Det här avsnittet innehåller en översikt över design, begrepp och metoder som ligger bakom distributionshanteringsfunktionerna i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: affea21b7f6c6d59c609321d7bd3ceebfc6bedd1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920853"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749574"
 ---
-# <a name="design-details-warehouse-management"></a><span data-ttu-id="46d46-103">Designdetaljer: Lagerstyrning</span><span class="sxs-lookup"><span data-stu-id="46d46-103">Design Details: Warehouse Management</span></span>
-<span data-ttu-id="46d46-104">Denna dokumentation visar en översikt över begrepp och principer som används i lagerstyrningsfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="46d46-104">This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="46d46-105">Den förklarar designen bakom centrala lagerfunktioner och hur lagerstyrning integreras med andra funktioner i försörjningskedjan.</span><span class="sxs-lookup"><span data-stu-id="46d46-105">It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.</span></span>  
+# <a name="design-details-warehouse-management"></a><span data-ttu-id="491c7-103">Designdetaljer: Lagerstyrning</span><span class="sxs-lookup"><span data-stu-id="491c7-103">Design Details: Warehouse Management</span></span>
+<span data-ttu-id="491c7-104">Denna dokumentation visar en översikt över begrepp och principer som används i lagerstyrningsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="491c7-104">This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="491c7-105">Den förklarar designen bakom centrala lagerfunktioner och hur lagerstyrning integreras med andra funktioner i försörjningskedjan.</span><span class="sxs-lookup"><span data-stu-id="491c7-105">It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.</span></span>  
 
-<span data-ttu-id="46d46-106">För att skilja mellan de olika komplexitetsnivåerna i lagerstyrningen är dokumentationen uppdelad i två allmänna grupper, grundläggande och avancerad lagerkonfigurationer, som anges med avsnittsrubriker.</span><span class="sxs-lookup"><span data-stu-id="46d46-106">To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles.</span></span> <span data-ttu-id="46d46-107">Den här enkla differentieringen täcker olika komplexitetsnivåer som definieras av produktpartiklar och lagerplatsinställningar.</span><span class="sxs-lookup"><span data-stu-id="46d46-107">This simple differentiation covers different complexity levels as defined by product granules and location setup.</span></span> <span data-ttu-id="46d46-108">Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).</span><span class="sxs-lookup"><span data-stu-id="46d46-108">For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).</span></span>  
+<span data-ttu-id="491c7-106">För att skilja mellan de olika komplexitetsnivåerna i lagerstyrningen är dokumentationen uppdelad i två allmänna grupper, grundläggande och avancerad lagerkonfigurationer, som anges med avsnittsrubriker.</span><span class="sxs-lookup"><span data-stu-id="491c7-106">To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles.</span></span> <span data-ttu-id="491c7-107">Den här enkla differentieringen täcker olika komplexitetsnivåer som definieras av produktpartiklar och lagerplatsinställningar.</span><span class="sxs-lookup"><span data-stu-id="491c7-107">This simple differentiation covers different complexity levels as defined by product granules and location setup.</span></span> <span data-ttu-id="491c7-108">Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).</span><span class="sxs-lookup"><span data-stu-id="491c7-108">For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="46d46-109">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="46d46-109">In This Section</span></span>  
-[<span data-ttu-id="46d46-110">Designdetaljer: Översikt över distributionslager</span><span class="sxs-lookup"><span data-stu-id="46d46-110">Design Details: Warehouse Overview</span></span>](design-details-warehouse-overview.md)  
-[<span data-ttu-id="46d46-111">Designdetaljer: Lagerstyrningsinställningar</span><span class="sxs-lookup"><span data-stu-id="46d46-111">Design Details: Warehouse Setup</span></span>](design-details-warehouse-setup.md)  
-[<span data-ttu-id="46d46-112">Designdetaljer: Ankommande distributionslagerflöde</span><span class="sxs-lookup"><span data-stu-id="46d46-112">Design Details: Inbound Warehouse Flow</span></span>](design-details-inbound-warehouse-flow.md)  
-[<span data-ttu-id="46d46-113">Designdetaljer: Interna distributionslagerflöden</span><span class="sxs-lookup"><span data-stu-id="46d46-113">Design Details: Internal Warehouse Flows</span></span>](design-details-internal-warehouse-flows.md)  
-[<span data-ttu-id="46d46-114">Designdetaljer: Disposition i distributionslagret</span><span class="sxs-lookup"><span data-stu-id="46d46-114">Design Details: Availability in the Warehouse</span></span>](design-details-availability-in-the-warehouse.md)  
-[<span data-ttu-id="46d46-115">Designdetaljer: Avgående distributionslagerflöde</span><span class="sxs-lookup"><span data-stu-id="46d46-115">Design Details: Outbound Warehouse Flow</span></span>](design-details-outbound-warehouse-flow.md)  
-[<span data-ttu-id="46d46-116">Designdetaljer: Integrering med lager</span><span class="sxs-lookup"><span data-stu-id="46d46-116">Design Details: Integration with Inventory</span></span>](design-details-integration-with-inventory.md)
+## <a name="in-this-section"></a><span data-ttu-id="491c7-109">I det här avsnittet</span><span class="sxs-lookup"><span data-stu-id="491c7-109">In This Section</span></span>  
+[<span data-ttu-id="491c7-110">Designdetaljer: Översikt över distributionslager</span><span class="sxs-lookup"><span data-stu-id="491c7-110">Design Details: Warehouse Overview</span></span>](design-details-warehouse-overview.md)  
+[<span data-ttu-id="491c7-111">Designdetaljer: Lagerstyrningsinställningar</span><span class="sxs-lookup"><span data-stu-id="491c7-111">Design Details: Warehouse Setup</span></span>](design-details-warehouse-setup.md)  
+[<span data-ttu-id="491c7-112">Designdetaljer: inkommande distributionslagerflöde</span><span class="sxs-lookup"><span data-stu-id="491c7-112">Design Details: Inbound Warehouse Flow</span></span>](design-details-inbound-warehouse-flow.md)  
+[<span data-ttu-id="491c7-113">Designdetaljer: Interna distributionslagerflöden</span><span class="sxs-lookup"><span data-stu-id="491c7-113">Design Details: Internal Warehouse Flows</span></span>](design-details-internal-warehouse-flows.md)  
+[<span data-ttu-id="491c7-114">Designdetaljer: Disposition i distributionslagret</span><span class="sxs-lookup"><span data-stu-id="491c7-114">Design Details: Availability in the Warehouse</span></span>](design-details-availability-in-the-warehouse.md)  
+[<span data-ttu-id="491c7-115">Designdetaljer: utgående distributionslagerflöde</span><span class="sxs-lookup"><span data-stu-id="491c7-115">Design Details: Outbound Warehouse Flow</span></span>](design-details-outbound-warehouse-flow.md)  
+[<span data-ttu-id="491c7-116">Designdetaljer: Integrering med lager</span><span class="sxs-lookup"><span data-stu-id="491c7-116">Design Details: Integration with Inventory</span></span>](design-details-integration-with-inventory.md)
