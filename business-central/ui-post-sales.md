@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910136"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760323"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
 
@@ -25,9 +25,10 @@ Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan fö
 * **Bokför och nytt**
 * **Bokför och skicka**
 * **Förhandsgranska bokföring**
-* **Fakturautkast**
-* **Proformafaktura**
+* **Bokför batch-jobb**
 * **Testa rapport**
+
+> [OBS!] För försäljningsorder kan du även visa alternativ som är relaterade till funktionen för förskottsbetalning. Mer information finns i [Fakturera förskottsbetalningar](finance-invoice-prepayments.md). 
 
 När du har fyllt i alla raderna och skrivit in all information på försäljningsordern kan du bokföra den. Här skapas en leverans och en faktura.
 
@@ -62,4 +63,4 @@ Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md)  
 [Söka efter sidor och information med berätta](ui-search.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

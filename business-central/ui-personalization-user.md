@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925578"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756773"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
@@ -61,7 +61,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 
 |Vad vill du göra|Hur du gör det.|Anmärkningar|
 |----|------------|-------|
-|Flytta någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Peka var som helst på vad du vill flytta och dra den till dess nya position. Positionen anges med antingen en tjock vågrät eller lodrät linje.<br /><br />Ikonen ![Kan inte flytta hit](media/personalization-cannot-move-here.png "Anpassningsläge - konen kan inte flytta hit") anger att du inte kan flytta elementet till vald position.|Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.<br /><br />Visa [Anpassa åtgärder](ui-personalization-user.md#Actions) för mer information om vanpassningsåtgärder. |
+|Flytta någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Peka var som helst på vad du vill flytta och dra den till dess nya position. Positionen anges med antingen en tjock vågrät eller lodrät linje.<br /><br />Ikonen ![Kan inte flytta hit](media/personalization-cannot-move-here.png "Anpassningsläge – konen kan inte flytta hit") anger att du inte kan flytta elementet till vald position.|Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.<br /><br />Visa [Anpassa åtgärder](ui-personalization-user.md#Actions) för mer information om vanpassningsåtgärder. |
 |Göm någonting, precis som fält, kolumn i listan, panel, åtgärd eller del|Välj pilen och välj <b>Dölj</b>.|Elementet är nedtonat när du arbetar i anpassa läge. I fältet du döljer visas också i rubriken på snabbfliken när snabbfliken komprimeras, visas fältet inte längre.|
 |Visa dolda åtgärder och delar.|För ett nedtonat (dolt) element väljer du pilspets och väljer sedan <b>Visa</b>|Det dolda elementet visas igen.|
 |Lägga till ett fält eller kolumn|I banderollen <b>anpassa</b>, välj åtgärd <b>+ fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger. Den visar de fält som du kan lägga till på sidan.<br /><br />Om du vill lägga till ett fält, drar du det från fönstret till den position där du vill ha den. Positionen anges med antingen en tjock vågrät eller lodrät linje.|Varje sida innehåller en fördefinierad uppsättning fält som kan visas. Använd den här proceduren för att lägga till fält eller kolumner som inte har visats tidigare eller för att visa fält som du har dolt.|
@@ -143,6 +143,6 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
 
 ## <a name="see-also"></a>Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

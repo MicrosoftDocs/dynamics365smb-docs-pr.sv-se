@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef457ddf93e2634345c809b241e15acc94d0593e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911727"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755798"
 ---
 # <a name="pick-items"></a>Plocka artiklar
 
@@ -34,7 +34,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |**Om du vill**|**Gå till**|
 |------------|-------------|  
-|Bokföra utleveransen av artiklar direkt på det avgående orderdokumentet eftersom det inte finns några lagerfunktioner. (Fungerar på samma sätt för en försäljningsorder, en utgående överföringsorder och returutleveranser.)|[Leverera artiklar](warehouse-how-ship-items.md)|  
+|Bokföra utleveransen av artiklar direkt på det utgående orderdokumentet eftersom det inte finns några lagerfunktioner. (Fungerar på samma sätt för en försäljningsorder, en utgående överföringsorder och returutleveranser.)|[Leverera artiklar](warehouse-how-ship-items.md)|  
 |Plocka artiklar order för order och bokföra utleveransen i samma aktivitet, i en grundläggande lagerkonfiguration.|[Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Plocka artiklar för flera order i en avancerad lagerkonfiguration.|[Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
 |Plocka komponenter för produktion eller montering i en grundläggande lagerkonfiguration.|[Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md)|
@@ -42,7 +42,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Planera optimerade plockinstruktioner för ett antal utleveranser i stället för att låta lagerarbetare agera direkt på bokförda utleveranser.|[Planera plockningar i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Plocka artiklar tekniskt för ett visst syfte, till exempel en produktionsenhet som behöver extra komponenter, så att artiklarna inte lämnar distributionslagret tekniskt.|[Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Förstå hur du automatiskt plockar artiklar enligt deras utgångsdatum, till exempel ömtåliga varor.|[Plockning med FEFO](warehouse-picking-by-fefo.md)|
-|En plockningsrad delas upp i flera rader, till exempel eftersom det inte finns tillräckligt många artiklar som ska tas från den bestämda lagerplatsen.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
+|En plockningsrad delas upp i flera rader, till exempel eftersom det inte finns tillräckligt många artiklar som ska tas från den bestämda lagerstället.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Få direkt tillgång till plockningar som tilldelats dig som lagerarbetare.|[Hitta distributionslagerfördelningar](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Se även  
@@ -51,4 +51,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

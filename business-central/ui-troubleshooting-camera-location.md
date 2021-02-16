@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912027"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760222"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Felsökning: komma åt kamera och plats
 
-Det kan uppstå problem när du försöker komma åt kamera och platsinformation för en enhet [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan hitta möjliga orsaker till det här problemet och hur du kan undvika dem i listan nedan.
+Det kan uppstå problem när du försöker komma åt kamera och platsinformation för en enhet [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan hitta möjliga orsaker till det här problemet och hur du kan undvika dem i listan nedan.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Enheten måste ha kamera och platsfunktioner
 
@@ -29,11 +29,11 @@ Om enheten har funktioner för kamera och plats, men det fortfarande uppstår pr
 
 ## <a name="access-permissions-not-enabled"></a>Åtkomstbehörighet är inte aktiverad
 
-Du måste aktivera allmän åtkomst till kamera och plats från enhetens sekretessinställningar och uttryckligen ge behörighet till [!INCLUDE[prodshort](includes/prodshort.md)] för åtkomst till dem. Om du till exempel vill visa eller ändra behörigheter för en enhet som körs på Windows går du till **Inställningar**, väljer **Sekretess** och sedan **Appbehörigheter**. 
+Du måste aktivera allmän åtkomst till kamera och plats från enhetens sekretessinställningar och uttryckligen ge behörighet till [!INCLUDE[prod_short](includes/prod_short.md)] för åtkomst till dem. Om du till exempel vill visa eller ändra behörigheter för en enhet som körs på Windows går du till **Inställningar**, väljer **Sekretess** och sedan **Appbehörigheter**. 
 
-För mobila enheter måste du ge den mobila appen åtkomstbehörighet för kamera och plats till [!INCLUDE[prodshort](includes/prodshort.md)] mobilapp. Om du vill göra det för en iOS-enhet går du till **inställningar**, väljer **sekretess** och sedan **kamera** eller **plats**. För Android enheter går du till **Inställningar**, välj **Appar och meddelanden**, **Avancerat**, **Behörighetshanteraren** och **Kamera** eller **Plats**.
+För mobila enheter måste du ge den mobila appen åtkomstbehörighet för kamera och plats till [!INCLUDE[prod_short](includes/prod_short.md)] mobilapp. Om du vill göra det för en iOS-enhet går du till **inställningar**, väljer **sekretess** och sedan **kamera** eller **plats**. För Android enheter går du till **Inställningar**, välj **Appar och meddelanden**, **Avancerat**, **Behörighetshanteraren** och **Kamera** eller **Plats**.
 
-Om du använder [!INCLUDE[prodshort](includes/prodshort.md)] i en webbläsare måste du också ge [!INCLUDE[prodshort](includes/prodshort.md)] webbplatsbehörighet att komma åt kameran eller platsinformationen. Om du vill visa eller ändra webbplatsbehörighet i Microsoft Edge webbläsaren, gå till **Inställningar**, välj **Webbplatsbehörigheter** och **Kamera** eller **Plats**. Observera att detta kan vara annorlunda i andra webbläsare.
+Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] i en webbläsare måste du också ge [!INCLUDE[prod_short](includes/prod_short.md)] webbplatsbehörighet att komma åt kameran eller platsinformationen. Om du vill visa eller ändra webbplatsbehörighet i Microsoft Edge webbläsaren, gå till **Inställningar**, välj **Webbplatsbehörigheter** och **Kamera** eller **Plats**. Observera att detta kan vara annorlunda i andra webbläsare.
 
 Som standard dyker enheten eller webbläsaren upp en begäran om åtkomst till dessa funktioner när användaren aktiverar dem för första gången.
 
@@ -49,7 +49,7 @@ Det enda undantaget anknyter till `http://localhost` används i utvecklings- och
 
 ## <a name="working-with-virtualization-technologies"></a>Arbeta med virtualiseringsteknik
 
-När du ansluter till [!INCLUDE[prodshort](includes/prodshort.md)] via fjärrskrivbord eller en annan virtualisering kanske inte åtkomsten till kameran eller platsen är tillgänglig. Använd i så fall det fysiska systemet i stället.
+När du ansluter till [!INCLUDE[prod_short](includes/prod_short.md)] via fjärrskrivbord eller en annan virtualisering kanske inte åtkomsten till kameran eller platsen är tillgänglig. Använd i så fall det fysiska systemet i stället.
 
 ## <a name="antivirus-software"></a>Antivirusprogram
 Vissa antivirusprogram blockerar som standardåtkomst till kameran och platsen. Kom ihåg att kontrollera inställningarna för antivirusprogrammet.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f9fb4a2574c93c60f0bfbcaeeff86676393555d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44a11933488ef6f7c6a8b007bdd9ae9049a5b3bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926853"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758523"
 ---
 # <a name="purchase-items-for-a-sale"></a>Köpa artiklar för en försäljning
 Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvantiteter som krävs av försäljningen från försäljningsorder och fakturor. Du kan använda två olika funktioner beroende på dokumenttypen.
@@ -69,4 +69,4 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

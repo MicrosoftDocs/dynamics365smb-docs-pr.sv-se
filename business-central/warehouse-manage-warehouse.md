@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc4daea0a139a99249c708a4c32795708277c99c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eef51c7fe686b9cfa2383930cf7daef3ef3d6f02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911752"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755873"
 ---
 # <a name="warehouse-management"></a>Lagerstyrning
 Efter att varor har inlevererats och innan varor har levererats, sker en serie interna lageraktiviteter som säkerställer ett effektivt flöde genom lagerstället och strukturerar och underhåller företagets lager.
@@ -35,7 +35,7 @@ Lagerrelaterade uppgifter för inventering, justering och gruppering av artiklar
 |Registrera inleveransen av artiklar (inklusive överinleveranser) på lagerställen, antingen enbart med en inköpsorder (i förenklade lagerställekonfigurationer) eller med en lagerinleverans (vid halv- eller helautomatisk distributionslagerprocess på plats).|[Ta emot artiklar](warehouse-how-receive-items.md)|
 |Hoppa över artikelinförseln och välj processer för att påskynda en artikel direkt från produktion till levereras.|[Beräkna direktutleverans av artiklar](warehouse-how-to-cross-dock-items.md)|    
 |Införa artiklar som har inlevererats från inköp, returer, överföringar eller produktionsutflöde enligt den konfigurerade distributionslagerprocessen.|[Införa utflöde från artiklar](warehouse-put-away-items.md)|
-|Flytta artiklar mellan lagerplatser i distributionslagret.|[Flytta artiklar](warehouse-move-items.md)|
+|Flytta artiklar mellan lagerställen i distributionslagret.|[Flytta artiklar](warehouse-move-items.md)|
 |Plocka artiklar som ska levereras, överföras eller förbrukas vid montering eller produktion, enligt den konfigurerade distributionslagerprocessen.|[Plocka artiklar](warehouse-pick-items.md)|
 |Registrera utleverans av artiklar från lagerställen, antingen med en försäljningsorder, under enkla lagerställekonfigurationer, eller med en lagerutleverans. Vid halv- eller helautomatisk distributionslagerprocess på plats.|[Leverera artiklar](warehouse-how-ship-items.md)|  
 
@@ -44,6 +44,6 @@ Lagerrelaterade uppgifter för inventering, justering och gruppering av artiklar
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

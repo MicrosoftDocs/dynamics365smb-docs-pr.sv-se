@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915341"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758648"
 ---
 # <a name="set-up-jobs"></a>Konfigurera projekt
 
-Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar i [!INCLUDE[prodshort](includes/prodshort.md)]. På sidan **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
+Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
 
 För varje jobb, anger du de individuella de projektkorten med information om priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
@@ -121,4 +121,4 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

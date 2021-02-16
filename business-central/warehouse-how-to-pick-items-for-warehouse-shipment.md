@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dedd89dfceeb17994ccc18b359d2b02eb086cc60
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910061"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756185"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
 När Lagerställe är inställt på att begära plockningsbearbetning så väl som utleveransbearbetning använder du plockningsdokumenten för att skapa och bearbeta plockningsinformationen innan du bokför Lagerutleveransen.  
@@ -44,15 +44,15 @@ Du kan också skapa dokument för dist.lager plockning med pushmetod från sidan
 2.  Om **Tilldelat användar-ID** är tomt, anger du ID för att identifiera själv om det behövs.  
 3.  Utför den faktiska plockning av artiklar.  
 
-    Om distributionslagret har konfigurerats att använda lagerplatser, då artikelns standardlagerplatser används för att föreslå var du vill hämta artiklar från. instruktionerna visas som två separata rader, minst en för varje åtgärdstyp, en för ta och en för placera.  
+    Om distributionslagret har konfigurerats att använda lagerställen, då artikelns standardlagerställen används för att föreslå var du vill hämta artiklar från. instruktionerna visas som två separata rader, minst en för varje åtgärdstyp, en för ta och en för placera.  
 
-    Om distributionslagret är inställt på dirigerad artikelinförsel och plockning, lagerplatsordningen används för att beräkna de bästa lagerplatserna som ska plockas från, och de lagerplatser föreslås på plockningsraderna. instruktionerna visas som två separata rader, minst en för varje åtgärdstyp, en för ta och en för placera.  
+    Om distributionslagret är inställt på dirigerad artikelinförsel och plockning, lagerplatsordningen används för att beräkna de bästa lagerställena som ska plockas från, och de lagerställen föreslås på plockningsraderna. instruktionerna visas som två separata rader, minst en för varje åtgärdstyp, en för ta och en för placera.  
 
-4.  När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerplatsen för utleveranser väljer du åtgärden **Registrera plockning**.  
+4.  När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerstället för utleveranser väljer du åtgärden **Registrera plockning**.  
 
 Den person som ansvarar för utleverans kan nu få artiklarna till ett leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, på sidan **Dist.lager utleverans**. Mer information finns i [Leverera artiklar](warehouse-how-ship-items.md).   
 
-Förutom plockning för källdokument, som beskrivs i det här avsnittet, kan du ta och placera artiklar mellan lagerplatser, utan att referera till källdokument. Mer information finns i [Plocka och föra in utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+Förutom plockning för källdokument, som beskrivs i det här avsnittet, kan du ta och placera artiklar mellan lagerställen, utan att referera till källdokument. Mer information finns i [Plocka och föra in utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Hantera artiklar för montering mot kundorder i distributionslagerutleveranser
 I montering mot kundorder-scenarier är fältet **Ant. att utleverera** på distributionslagerutleveransrader använt för att notera hur många enheter som monteras. Det angivna antalet bokförs sedan som monteringsutflöde när distributionslagerutleveransen bokförs.
@@ -79,4 +79,4 @@ När distributionslagerutleveransen har bokförts uppdateras olika fält på fö
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

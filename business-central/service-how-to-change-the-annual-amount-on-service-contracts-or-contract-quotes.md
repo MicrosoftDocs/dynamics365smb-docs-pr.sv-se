@@ -1,5 +1,5 @@
 ---
-title: Så här ändrar du det årliga beloppet på servicekontrakt eller kontraktsofferter | Microsoft Docs
+title: Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 description: Du kan ändra beloppet som ska faktureras per år för servicekontraktet eller kontraktsofferten.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62a571ea35f70b26ac37aa23256d5af7b8e5320e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925728"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013902"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.  
@@ -42,7 +42,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 1. Differensen mellan de nya värdena i fälten **Årligt belopp** och **Beräknat årligt belopp** divideras med antalet kontraktsrader på servicekontraktet eller på kontraktsofferten.  
 2. Värdet i fältet **Radbelopp** uppdateras med värdet från den föregående operationen.  
 3. Innehållet i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** uppdateras med det nya värdet i fältet **Radrabatt** på följande sätt:   
-    * Radrabatt = Radvärde - Radbelopp.  
+    * Radrabatt = Radvärde – Radbelopp.  
     * Radrabatt % = Radrabatt / Radvärde × 100.  
     * TB = Radbelopp – Radkostnad  
 
@@ -59,7 +59,7 @@ Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicek
 
 Fältvärdet för **Årligt belopp** är lika med innehållet i fältet **Beräknat årligt belopp** som alltid har angetts till summan av radbeloppen. I det här fallet är det lika med följande: 40 + 45 + 63 = 148.  
 
-Om du ändrar **Årligt belopp** till 139, beräknas det belopp som ska läggas till i varje **Radbelopp**-fält. Detta belopp beräknas genom att subtrahera **Beräknat årligt belopp** från det nya värdet i fältet **Årligt belopp** dividerat med antalet kontraktsrader i servicekontraktet. I det här fallet är det lika med följande: (139 - 148) / 3 = -3. Sedan läggs den senast beräknade siffran till i värdet för varje **Radbelopp**-fält och värdena i fälten **Radrabatt %**, **Radrabatt** och **Vinst** uppdateras med hjälp av formlerna i de steg som beskrivs ovan.  
+Om du ändrar **Årligt belopp** till 139, beräknas det belopp som ska läggas till i varje **Radbelopp**-fält. Detta belopp beräknas genom att subtrahera **Beräknat årligt belopp** från det nya värdet i fältet **Årligt belopp** dividerat med antalet kontraktsrader i servicekontraktet. I det här fallet är det lika med följande: (139 – 148) / 3 = -3. Sedan läggs den senast beräknade siffran till i värdet för varje **Radbelopp**-fält och värdena i fälten **Radrabatt %**, **Radrabatt** och **Vinst** uppdateras med hjälp av formlerna i de steg som beskrivs ovan.  
 
 Slutligen innehåller kontraktsraderna följande information.  
 
@@ -76,7 +76,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 2. Värdet i fältet **Radbelopp** uppdateras genom ett tillägg av differensen mellan nytt och beräknat årligt belopp, som multipliceras med den procentuella radbeloppsandelen.  
 3. Innehållet i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** uppdateras utifrån det nya värdet i fältet **Radrabattbelopp** på följande sätt:  
 
-    * Radrabatt = Radvärde - Radbelopp.  
+    * Radrabatt = Radvärde – Radbelopp.  
     * Radrabatt % = Radrabatt / Radvärde × 100  
     * TB = Radbelopp – Radkostnad  
 
@@ -116,7 +116,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 2. Värdet i fältet **Radbelopp** uppdateras genom ett tillägg av differensen mellan nytt och beräknat årligt belopp, som multipliceras med den procentuella TB-andelen.  
 3. Innehållet i fälten Radrabattbelopp, Radrabatt % och Vinst uppdateras med det nya värdet i fältet **Radbelopp** på följande sätt:  
 
-    * Radrabatt = Radvärde - Radbelopp.  
+    * Radrabatt = Radvärde – Radbelopp.  
     * Radrabatt % = Radrabatt / Radvärde × 100  
     * TB = Radbelopp – Radkostnad  
 

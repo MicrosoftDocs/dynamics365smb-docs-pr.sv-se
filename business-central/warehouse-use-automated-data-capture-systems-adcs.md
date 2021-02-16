@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925353"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755723"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystems)
 
 > [!NOTE]
-> Med hjälp av ADCS-lösningen (Automated Data Capture System) ger en väg [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kommunicera med handburna enheter via webbtjänster. Du måste arbeta med en Microsoft-partner som kan tillhandahålla länken mellan webbtjänsten och den specifika handhållen enheten. 
+> Med hjälp av ADCS-lösningen (Automated Data Capture System) ger en väg [!INCLUDE[prod_short](includes/prod_short.md)] kan du kommunicera med handburna enheter via webbtjänster. Du måste arbeta med en Microsoft-partner som kan tillhandahålla länken mellan webbtjänsten och den specifika handhållen enheten. 
 
 Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering. ADCS inbegriper vanligen streckkod.
 
@@ -28,7 +28,7 @@ Om du ska använda ADCS måste du ge varje artikel i distributionslagret en arti
 
 Baserat på behovsnivån i lagret definierar du den mängd information som ska visas i miniformulärinställningarna för den aktuella handenheten. Följande är exempel information som du kan visa:  
 
-- Data från tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)], till exempel en lista över plockningsdokument som användaren kan välja från.  
+- Data från tabeller i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel en lista över plockningsdokument som användaren kan välja från.  
 - Textinformation.  
 - Meddelanden som innehåller bekräftelser eller fel om aktiviteter som utförts och registrerats av handenheter användaren.
 
@@ -51,7 +51,7 @@ Om du vill använda det automatiska datainsamlingssystemet måste du aktivera AD
 6. Välj **OK**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Så här konfigurerar ett lager att använda ADCS  
-Om du ska använda ADCS måste du ange vilka distributionslagerplatser som använder teknologin.  
+Om du ska använda ADCS måste du ange vilka distributionslagerställen som använder teknologin.  
 
 > [!NOTE]  
 >  Vi rekommenderar att du inte ställer in ett distributionslager som ska använda ADCS, om distributionslagret dessutom har en lagerplats kapacitetsprincip.
@@ -121,4 +121,4 @@ När du har skapat en miniformulär, nästa steg är att skapa operationer och a
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

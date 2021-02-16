@@ -10,33 +10,36 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918494"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035762"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
 
-|Metod|Ankommande behandling|Lagerplatser|Plockningar|Utleveranser|Nivå av komplexitet (Se [Designdetaljer: Lagerstyrningsinställning](design-details-warehouse-setup.md))|  
+|Metod|inkommande behandling|Lagerställen|Plockningar|Utleveranser|Nivå av komplexitet (Se [Designdetaljer: Lagerstyrningsinställning](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Bokföra plockning och utleverans från orderraden|INTER|||2|  
 |B|Bokföra plockning och utleverans från ett lagerplockningdokument||X||3|  
 |L|Bokföra plockning och utleverans från ett distributionslagerutleveransdokument|||X|6-4-5|  
 |D|Bokföra plockning från ett distributionslagerplockningdokument och bokföra leveransen från ett distributionslagerutleveransdokument||INTER|INTER|6-4-5|  
 
-Mer information finns i [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md).  
+Mer information finns i [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md).  
 
 Efterföljande genomgången visar metod B i föregående tabellen.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="about-this-walkthrough"></a>Om den här genomgången
 
-För grundläggande lagerkonfigurationer där lagerstället har konfigurerats att kräva plockningsbearbetning men inte leveransbearbetning, använder du sidan **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina avgående källdokument. Det utgående källdokumentet kan vara en försäljningsorder, inköpsreturorder, utgående överföringsorder eller produktionsorder med komponentbehov.  
+För grundläggande lagerkonfigurationer där lagerstället har konfigurerats att kräva plockningsbearbetning men inte leveransbearbetning, använder du sidan **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina utgående källdokument. Det utgående källdokumentet kan vara en försäljningsorder, inköpsreturorder, utgående överföringsorder eller produktionsorder med komponentbehov.  
 
 I den här genomgången tas följande aktiviteter upp:  
 
@@ -45,6 +48,9 @@ I den här genomgången tas följande aktiviteter upp:
 - Släppa försäljningsordern för lagerhantering.  
 - Skapa en lagerplockning som baseras på ett släppt källdokument.  
 - Registrering av lagerrörelsen från lagret och samtidigt bokföra försäljningsutleveransen för källförsäljningsorder.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Roller
 
@@ -58,7 +64,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 
 För att kunna utföra den här genomgången behöver du:  
 
-- För [!INCLUDE[prodshort](includes/prodshort.md)] online är detta ett företag som bygger på den **Avancerade utvärderingen av utvärdering - fullständiga exempeldata** i en begränsad miljö. För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, CRONUS International Ltd. installerat.  
+- För [!INCLUDE[prod_short](includes/prod_short.md)] online är detta ett företag som bygger på den **Avancerade utvärderingen av utvärdering – fullständiga exempeldata** i en begränsad miljö. För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, CRONUS International Ltd. installerat.  
 - Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
   1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan tillhörande länk.  
@@ -71,7 +77,7 @@ För att kunna utföra den här genomgången behöver du:
   1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
   2. Öppna standardjournalen och skapa sedan två artikeljournalrader med följande information om arbetsdatumet (23 januari).  
 
-        |Transaktionstyp|Artikelnummer|Lagerställekod|Lagerplatskod|Antal|  
+        |Transaktionstyp|Artikelnummer|Lagerställekod|Lagerställeskod|Antal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
         |Positiv antalsjust.|LS-81|SILVER|S-01-0001|20|  
         |Positiv antalsjust.|LS-81|SILVER|S-01-0002|20|  
@@ -80,7 +86,7 @@ För att kunna utföra den här genomgången behöver du:
 
 ## <a name="story"></a>Situation
 
-Ellen, lagerchefen i CRONUS, ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerplatserna där LS-81 lagras.  
+Ellen, lagerchefen i CRONUS, ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerställena där LS-81 lagras.  
 
 ## <a name="setting-up-the-location"></a>Lägger upp lagerstället
 
@@ -131,7 +137,7 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
     Alternativt, ange 10 respektive 20 i fältet **Ant. att hantera** på de två lagerplockningsraderna.  
 6. Välj åtgärden **bokför**, välj **leverera**, och välj sedan **OK**-knappen.  
 
-    De 30 högtalarna har nu registrerats som plockade från lagerplatser S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
+    De 30 högtalarna har nu registrerats som plockade från lagerställen S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
 
 ## <a name="see-also"></a>Se även
 
@@ -141,6 +147,6 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
 [Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md)  
 [Flytta artiklar ad hoc i grundläggande lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
-[Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
+[Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925453"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756373"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
@@ -50,7 +50,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 
 För att kunna utföra den här genomgången behöver du:  
 
-- Företaget [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- Företaget [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Du kan skapa nya artiklar och ett antal affärstransaktioner genom att följa stegen i [Förbereda exempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Situation
@@ -261,13 +261,13 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 ## <a name="tracing-from-origin-to-usage"></a>Spåra från ursprung till förbrukning  
  Kvalitetskontrollanten har fastställt att de defekta racercykelramarna kommer från PARTI1. Nu måste han/hon leta reda på eventuella andra racercyklar som innehåller ramar från det defekta partiet så att dessa cyklar kan stoppas eller återkallas.  
 
- Ett sätt att förbereda den här spårningsuppgiften på sidan **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt - från rad**.  
+ Ett sätt att förbereda den här spårningsuppgiften på sidan **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt – från rad**.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Så här hittar du all förbrukning som använder det defekta partiet  
 
-1.  På sidan **Artikelspårning** markerar du inleveransraden (den sista spårningsraden), klickar på **Spåra motsatt - från rad**.  
+1.  På sidan **Artikelspårning** markerar du inleveransraden (den sista spårningsraden), klickar på **Spåra motsatt – från rad**.  
 
-    Spårningsresultatet kommer nu att baseras på filtren på spårningsraden för inleveransen, PARTI1 och artikel 2000, och resultatet kommer att baseras på spårningsmetoden **Ursprung - Förbrukning**.  
+    Spårningsresultatet kommer nu att baseras på filtren på spårningsraden för inleveransen, PARTI1 och artikel 2000, och resultatet kommer att baseras på spårningsmetoden **Ursprung – Förbrukning**.  
 
     Fortsätt och expandera alla spårningsrader om du vill visa en översikt över all förbrukning av artikeln 2000 med PARTI1.  
 

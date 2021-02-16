@@ -1,6 +1,6 @@
 ---
-title: Använda företagsnavet | Microsoft Docs
-description: Ger information om tillägget Företagsnav.
+title: Använda företagsnavet
+description: Tillhandahåller information om tillägget för företagsnav som du kan använda för att hantera ditt arbete över flera företag i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c7304e170ecb6f71c3d0c85a80bff7c14a268f54
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ec59a17d9a3a32e1c17cf6670f69bcc4077993aa
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927733"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014131"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Tillägget Företagsnav för Business Central
 
-Det här programmet förser en instrumentpanel med sammanfattningsdata för varje företag som användaren har tillgång till via alla [!INCLUDE [prodshort](includes/prodshort.md)] online, t.ex. många klienter för en revisor. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen så att användarna kan.
+Det här programmet förser en instrumentpanel med sammanfattningsdata för varje företag som användaren har tillgång till via alla [!INCLUDE [prod_short](includes/prod_short.md)] online, t.ex. många klienter för en revisor. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen så att användarna kan.
 
 Instrumentpanelen innehåller ett mycket specialiserat rollcenter för en bättre överblick över ditt arbete.
 
@@ -27,7 +27,7 @@ När du installerar tillägget kan du få information i ett exempel företag. Du
 
 ## <a name="installing-the-extension"></a>Installerar tillägg
 
-När du installerar tillägget i din [!INCLUDE [prodshort](includes/prodshort.md)] kommer du att tillfrågas om du vill använda den nu. Om du gör det måste du logga ut och logga in igen eftersom tillägget ersätter ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.
+När du installerar tillägget i din [!INCLUDE [prod_short](includes/prod_short.md)] kommer du att tillfrågas om du vill använda den nu. Om du gör det måste du logga ut och logga in igen eftersom tillägget ersätter ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.
 
 ## <a name="see-also"></a>Se även
 

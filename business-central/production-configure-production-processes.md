@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29bb70d54c4e5bb1dbc366a8f566e8247f4117ef
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915416"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759448"
 ---
 # <a name="setting-up-manufacturing"></a>Ställa in Produktion
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t.ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
@@ -46,4 +46,4 @@ När du har lagt upp produktion kan du planera och utföra produktionsorder. Mer
 [Planerad](production-planning.md)   
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

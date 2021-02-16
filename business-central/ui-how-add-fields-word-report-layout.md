@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915016"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756998"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -35,7 +35,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
 3.  På fliken **Utvecklare** väljer du **XML-mappningsruta**.  
   
-4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för LÄGG TILL INKLUDERA<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> rapporten som vanligen är sist i listan. Namnet på den anpassade XML-delen har följande format:  
+4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för LÄGG TILL INKLUDERA<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> rapporten som vanligen är sist i listan. Namnet på den anpassade XML-delen har följande format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
  Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storleksändras automatiskt i förhållande för att passa gränsen för innehållskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från LÄGG TILL INKLUDERA<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> klient  
+>  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från LÄGG TILL INKLUDERA<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> klient  
   
 #### <a name="to-add-an-image"></a>Så här lägger du till en bild  
   
@@ -99,8 +99,8 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Rubrik|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-namnområdespecifikation. `<reportname>` är det namn som har tilldelats rapporten. `<id>` är det ID som har tilldelats rapporten.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Innehåller alla rubriker för rapporten.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Etikettelement som är relaterade till kolumner har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Etikett element ha formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Etiketter anges i alfabetisk ordning.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Dataobjekt och kolumner på högsta nivå. Kolumner anges i alfabetisk ordning.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Innehåller alla rubriker för rapporten.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Etikettelement som är relaterade till kolumner har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Etikett element ha formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Etiketter anges i alfabetisk ordning.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Dataobjekt och kolumner på högsta nivå. Kolumner anges i alfabetisk ordning.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataobjekt och kolumner som är inbäddade i dataobjektet på högsta nivå. Kolumner anges i alfabetisk ordning under respektive dataobjekt.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Bokslutselement.|  
   
@@ -119,7 +119,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
   
 -   För rubriker är den faktiska texten som visas i den genererade rapporten värdet på egenskapen **Rubrik** för fältet i dataobjekttabellen (om rubriken är kopplad till kolumnen i rapportdatauppsättningen) eller en rubrik i rapportrubrikdesignern (om rubriken inte är kopplad till en kolumn i datauppsättningen).  
   
--   Rubrikens språk som visas när du kör rapporten beror på språkinställningen för rapportobjektet. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
+-   Rubrikens språk som visas när du kör rapporten beror på språkinställningen för rapportobjektet.  
   
 ## <a name="see-also"></a>Se även  
  [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   

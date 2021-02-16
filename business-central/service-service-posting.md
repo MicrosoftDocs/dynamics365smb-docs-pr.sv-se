@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 158a117202054524aa8014787c813f1cea70681a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913127"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757798"
 ---
 # <a name="service-posting"></a>Servicebokföring
 Funktionen för servicebokföring gör att du kan behandla dokumenten mer effektivt och upprätthålla en bra service till kunderna. Du kan skapa och uppdatera bokförda dokument och skapa transaktioner i modulen Service och i andra moduler så att informationen alltid är korrekt uppdaterad.  
@@ -26,7 +26,7 @@ Funktionen för servicebokföring gör att du kan behandla dokumenten mer effekt
 >  I ett lagerställe som inte har konfigurerats med krav på lagerhantering, utför du bokföringsåtgärder direkt från sidan **Servicerader**. I lagerställen som omfattar lagerhantering utförs de beskrivna bokföringsåtgärderna, utom förbrukning, indirekt via varierande lagerleveransfunktioner beroende på konfiguration. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Leverera  
-Med det här leveransalternativet kan du registrera alla relevanta artiklar och tidpunkter som har angetts på raderna i en serviceorder efter att servicen har slutförts. En bokförd utleverans skapas och uppdateringar sker i modulen Lager och i andra moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att visa att artiklarna har tagits från lagret och skickats till kunden. Mer specifikt skapas artikeltransaktioner, värdetransaktioner, servicetransaktioner och garantitransaktioner.  
+Med det här leveransalternativet kan du registrera alla relevanta artiklar och tidpunkter som har angetts på raderna i en serviceorder efter att servicen har slutförts. En bokförd utleverans skapas och uppdateringar sker i modulen Lager och i andra moduler i [!INCLUDE[prod_short](includes/prod_short.md)] för att visa att artiklarna har tagits från lagret och skickats till kunden. Mer specifikt skapas artikeltransaktioner, värdetransaktioner, servicetransaktioner och garantitransaktioner.  
 
 Om lagerstället kräver distributionslagerhantering sker leverans och flytt av serviceradartiklar av artiklar på samma sätt som för övriga källdokument. Den enda skillnaden är att serviceradartiklar kan förbrukas antingen externt eller internt, vilket kräver två olika släppfunktioner.
 

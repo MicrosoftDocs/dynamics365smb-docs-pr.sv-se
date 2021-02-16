@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915066"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817060"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
@@ -30,14 +30,14 @@ Om du vill aktivera tillägget manuellt följer du dessa steg:
 2. Fyll i fälten om det behövs.
 
 > [!Note]
-> Om du väljer att aktivera tillägget manuellt bör du tänka på att [!INCLUDE[d365fin](includes/d365fin_md.md)] inte tillåter detta om modellens kvalitet är låg. Modellkvaliteten anger hur exakta modellens prediktioner kan antas vara. Flera faktorer kan påverka kvaliteten på en modell. Till exempel kanske datamängden är otillräcklig, eller också innehöll inte datan tillräcklig variation. Du kan visa kvaliteten på den modell som du för närvarande använder på sidan **Inställningar för prediktion om sen betalning**. Du kan också ange ett lägsta tröskelvärde för modellkvalitet.   
+> Om du väljer att aktivera tillägget manuellt bör du tänka på att [!INCLUDE[prod_short](includes/prod_short.md)] inte tillåter detta om modellens kvalitet är låg. Modellkvaliteten anger hur exakta modellens prediktioner kan antas vara. Flera faktorer kan påverka kvaliteten på en modell. Till exempel kanske datamängden är otillräcklig, eller också innehöll inte datan tillräcklig variation. Du kan visa kvaliteten på den modell som du för närvarande använder på sidan **Inställningar för prediktion om sen betalning**. Du kan också ange ett lägsta tröskelvärde för modellkvalitet.   
 
 ## <a name="viewing-all-payment-predictions"></a>Visa alla betalningsprediktioner
 Om du aktiverar tillägget visas panelen **Betalningen förutsägs vara försenad** i rollcentret för **chef**. Panelen visar antalet betalningar som förutsägs vara försenade och låter dig öppna sidan **Kundreskontratransaktioner** där du kan gå på djupet med de bokförda fakturorna. Det finns tre kolumner att ta hänsyn till:  
 
-* **Sen betalning** - anger om betalningen av fakturan förutsägs vara försenad.
-* **Prediktionssäkerhet** - anger hur tillförlitlig bör anse att prediktionen är. **Hög** innebär att prediktionen är minst 90 % säker, **mellan** ligger mellan 80 % och 90 % och **låg** är lägre än 80 %.
-* **Prediktionssäkerhet %** - visar den faktiska procentsatsen bakom säkerhetsgraden. Den här kolumnen visas inte som standard, men du kan lägga till den om du vill. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
+* **Sen betalning** – anger om betalningen av fakturan förutsägs vara försenad.
+* **Prediktionssäkerhet** – anger hur tillförlitlig bör anse att prediktionen är. **Hög** innebär att prediktionen är minst 90 % säker, **mellan** ligger mellan 80 % och 90 % och **låg** är lägre än 80 %.
+* **Prediktionssäkerhet %** – visar den faktiska procentsatsen bakom säkerhetsgraden. Den här kolumnen visas inte som standard, men du kan lägga till den om du vill. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 > [!Tip]
 > Sidan Kundreskontratransaktioner visar också en faktabox till höger. När du granskar prediktioner kan informationen i avsnittet **kunddetaljer** vara till hjälp. När du väljer fakturan i listan visar i avsnittet information om kunden. Du kan även vidta omedelbara åtgärder. Om en kund t.ex. tappar sin plånbok kan du öppna kundkortet från faktaboxen och spärra kunden för framtida försäljning.  
@@ -49,7 +49,7 @@ Du kan också förutsäga sena betalningar i förväg. På sidorna **försäljni
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## <a name="design-details"></a>Designinformation
-Microsoft distribuerar och driver ett antal prediktiva webbtjänster i alla regioner där [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgängligt. Åtkomsten till dessa webbtjänster ingår i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i Licensieringsguiden för Microsoft Dynamics 365 Business Central. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
+Microsoft distribuerar och driver ett antal prediktiva webbtjänster i alla regioner där [!INCLUDE[prod_short](includes/prod_short.md)] finns tillgängligt. Åtkomsten till dessa webbtjänster ingår i din [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Mer information finns i Licensieringsguiden för Microsoft Dynamics 365 Business Central. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
 Webbtjänsterna fungerar i tre olika lägen:
 - Träningsmodell. Webbtjänsten tränar modellen baserat på den angivna datamängden.
@@ -82,13 +82,13 @@ Dessutom har transaktionen berikats med sammanlagda data från andra fakturor so
 > Informationen om kunden ingår inte i datauppsättningen.
 
 ### <a name="standard-model-and-my-model"></a>Standardmodell och min modell
-Tillägget för prediktion om sen betalning innehåller en prediktiv modell som utvecklas genom att använda data som representerar ett antal små och medelstora företag. När du börjar bokföra fakturor och tar emot betalningar kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att utvärdera huruvida standard modellen passar ditt affärsflöde. 
+Tillägget för prediktion om sen betalning innehåller en prediktiv modell som utvecklas genom att använda data som representerar ett antal små och medelstora företag. När du börjar bokföra fakturor och tar emot betalningar kommer [!INCLUDE[prod_short](includes/prod_short.md)] att utvärdera huruvida standard modellen passar ditt affärsflöde. 
 
-Om det verkar som om dina processer inte matchar standardmodellen kan du ändå använda tillägget, men du måste då skaffa mer information. Bara fortsätt använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Om det verkar som om dina processer inte matchar standardmodellen kan du ändå använda tillägget, men du måste då skaffa mer information. Bara fortsätt använda [!INCLUDE[prod_short](includes/prod_short.md)].
 > [!Note]
 > Vi använder lite av din bearbetningstid varje vecka när vi utvärderar modellen och uppdaterar modellen. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kör utbildning och utvärdering automatiskt när det finns tillräckligt med betalda och sena fakturor, men du kan också köra det manuellt när du vill.
+[!INCLUDE[prod_short](includes/prod_short.md)] kör utbildning och utvärdering automatiskt när det finns tillräckligt med betalda och sena fakturor, men du kan också köra det manuellt när du vill.
 
 #### <a name="to-train-and-use-your-model"></a>Att träna och använda din modell
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
@@ -110,4 +110,4 @@ Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän
 ## <a name="see-also"></a>Se även  
 [Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Anpassa Business Central med tillägg](ui-extensions.md)  
-[Välkommen till [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  

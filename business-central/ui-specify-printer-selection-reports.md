@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915999"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760298"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
-Eftersom [!INCLUDE[prodshort](includes/prodshort.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
+Eftersom [!INCLUDE[prod_short](includes/prod_short.md)] är en molntjänst kan den inte nå lokala skrivare som är anslutna till användarnas datorer. Den kan emellertid ansluta till molnbaserade skrivare. I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] har en molnskrivare med namnet **E-postskrivare** installerats som ett tillägg och är klar att användas efter den ursprungliga installationen.
 
 Om en molnskrivare inte har installerats eller konfigurerats, eller om en installerad skrivare havererar, kommer utskriften att ske via webbläsarens standardalternativ för utskrift. Detta anges med det här värdet i fältet **Skrivare** på sidan för rapportförfrågan: *(ingen, hanteras av webbläsaren)*.
 
@@ -59,7 +59,7 @@ Du måste vidta alla nödvändiga sekretessåtgärder, inklusive att se till lö
 På sidan **Skrivarhantering** kan du för ditt användarkonto ange vilka rapporter som ska skrivas ut av vilken skrivare. Detta är användbart om du arbetar med olika rapporter som kräver olika skrivare på grund av sin placering i företaget eller deras utskriftskapacitet.
 
 > [!IMPORTANT]
-> För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt kan sidan **Skrivarval** endast användas för skrivare som definieras av skrivartillägg. Det kan inte användas för lokala skrivare.
+> För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan sidan **Skrivarval** endast användas för skrivare som definieras av skrivartillägg. Det kan inte användas för lokala skrivare.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skrivarhantering** och välj sedan relaterad länk. Du kan också välja sidan **Skrivarhantering** och sedan välja åtgärden **Skrivarhantering**.
 2. Välj åtgärden **Ny** om du vill lägga till ett Skrivarhantering för en specifik rapport.
@@ -88,6 +88,6 @@ Du eller administratören kan också använda sidan **Skrivarhantering** för at
 
 ## <a name="see-also"></a>Se även
 [Skriva ut en rapport](ui-work-report.md#PrintReport)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kör batchjobb](ui-how-run-batch-jobs.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  

@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912477"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757373"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
+[!INCLUDE[prod_short](includes/prod_long.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollera inställningarna för region och språk
 Sidan **Mina inställningar** anger **Region** och **Språk** du använder i programmet. Dessa inställningar påverkar hur du anger datum och tid.
@@ -30,7 +30,7 @@ Sidan **Mina inställningar** anger **Region** och **Språk** du använder i pro
 -   För datummönster som omfattar ord måste språket för de ord som du använder stämma överens med **språk**-inställningen.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] använder det gregorianska kalendersystemet.
+> [!INCLUDE[prod_short](includes/prod_long.md)] använder det gregorianska kalendersystemet.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Du bör vara medveten om att millisekunder ska tolkas som decimala systemet. Så
 
 Du kan inte använda 24:00 som midnatt eller välja ett värde som är större än 24:00.
 
-Ordet för ”tid” på det språk som används av [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utvärderas till aktuell tid på din dator eller mobil enhet. Du kan skriva in alla ord, från början, såsomt eller TIM.
+Ordet för ”tid” på det språk som används av [!INCLUDE[prod_short](includes/prod_long.md)] utvärderas till aktuell tid på din dator eller mobil enhet. Du kan skriva in alla ord, från början, såsomt eller TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Ange kombinerade datum och tider
 När du anger datum och tid som datum och tid som kombineras till ett enda fält, måste du ange ett blanksteg mellan datumet och tiden. Datumdelen kan bara innehålla blanksteg i form av officiella datumavgränsare för din regionsinställning. Tiden kan innehålla blanksteg runt AM/PM-indikatorn.
@@ -366,6 +366,6 @@ Om du vill veta vilken enhet som används i ett varaktighetsfält kan du ange en
 Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
 
 ## <a name="see-also"></a>Se även
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
 [Ange villkor i filter ](ui-enter-criteria-filters.md)  

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b45b4c109d33773ead4e920d5692a615faa7a366
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916782"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759598"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrera betalningar och återbetalningar i betalningsjournalen
 
 På sidan **Betalningsjournal** registrerar du betalningar du gör till leverantörer och återbetalningar som du gör till kunder. När du bokför en utbetalningsjournalrad registreras det betalda beloppet för det angivna bankkontot. Du måste sedan vidta åtgärder för att utföra den faktiska överföringen pengar från relaterat bankkonto.  
 
-Betalningsjournalen är en redovisningsjournal som är optimerad för att göra betalningar. Du kan snabbt skapa rader manuellt, låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå leverantörsbetalningar och du kan koppla betalningen till bokförda dokument. Även om du gör betalningar måste du ange ett positivt belopp i fältet **dokumentbelopp**. Beroende på dokumenttyp för journalraden omvandlas detta belopp till ett negativt belopp i de underliggande transaktionerna. På så sätt går det snabbare att lägga till journalraderna manuellt. Om du föredrar att ange negativa belopp kan du anpassa betalningsjournalen för att visa fältet **belopp** i stället.  
+Betalningsjournalen är en redovisningsjournal som är optimerad för att göra betalningar. Du kan snabbt skapa rader manuellt, låta [!INCLUDE[prod_short](includes/prod_short.md)] föreslå leverantörsbetalningar och du kan koppla betalningen till bokförda dokument. Även om du gör betalningar måste du ange ett positivt belopp i fältet **dokumentbelopp**. Beroende på dokumenttyp för journalraden omvandlas detta belopp till ett negativt belopp i de underliggande transaktionerna. På så sätt går det snabbare att lägga till journalraderna manuellt. Om du föredrar att ange negativa belopp kan du anpassa betalningsjournalen för att visa fältet **belopp** i stället.  
 
 - Koppla betalningar till fakturor eller kreditnotor
 
@@ -56,4 +56,4 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 [Exportera en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Anpassa din arbetsyta](ui-personalization-user.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

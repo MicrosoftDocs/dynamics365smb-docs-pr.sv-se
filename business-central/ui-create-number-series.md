@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75a841fd2d6bf8321f15bb0a6fe88d41bf152308
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912652"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757623"
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
@@ -26,7 +26,7 @@ För varje företag som du lägger upp måste du tilldela unika ID-koder till ex
 Om du vill tillåta luckor i vissa nummerserier ska du först samråda med revisorn eller redovisningschefen och se till att du följer de juridiska kraven i ditt land/din region. Mer information finns i [Luckor i nummerserier](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
->   Vi rekommenderar att du använder samma nummerserie som du ser på sidan **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
+>   Vi rekommenderar att du använder samma nummerserie som du ser på sidan **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[prod_short](includes/prod_short.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
 
 Du skapar ett numreringssystem genom att skapa en eller flera koder för varje typ av huvuddata eller dokument. Du kan till exempel skapa en kod för numrering av kunder, en annan för numrering av försäljningsfakturor och en annan för numrering av dokument i redovisningsjournaler. När du har skapat en kod måste du ställa in minst en nummerserierad. Nummerserieraden innehåller information som första och sista nummer i serien och startdatum. Du kan registrera flera nummerserierader per nummerseriekod, med olika startdatum på varje rad. Nummerserierna används löpande, med början på respektive startdatum.
 
@@ -35,7 +35,7 @@ Du ställer normalt in nummerserier till att automatiskt infoga nästa nummer p�
 Om du vill använda mer än en nummerseriekod för en typ av huvuddata, till exempel om du vill använda olika nummerserier för olika kategorier med artiklar, kan du använda nummerseriesamband.
 
 ## <a name="gaps-in-number-series"></a>Luckor i nummerserier
-Alla poster som du skapar i [!INCLUDE[d365fin](includes/d365fin_md.md)] är inte ekonomiska transaktioner som måste använda sekventiell numrering. Kundkort, försäljningsofferter och lageraktiviteter är exempel på poster som tilldelas ett nummer från en nummerserie, men som inte omfattas av finansiell granskning och/eller kan tas bort. För en sådan nummerserie kan du markera kryssrutan **Tillåt luckor i nummer** på sidan **Nr-serier rader**. Den här inställningen kan också ändras efter att nummerserien skapats. För mer information, se [Så här skapar du en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
+Alla poster som du skapar i [!INCLUDE[prod_short](includes/prod_short.md)] är inte ekonomiska transaktioner som måste använda sekventiell numrering. Kundkort, försäljningsofferter och lageraktiviteter är exempel på poster som tilldelas ett nummer från en nummerserie, men som inte omfattas av finansiell granskning och/eller kan tas bort. För en sådan nummerserie kan du markera kryssrutan **Tillåt luckor i nummer** på sidan **Nr-serier rader**. Den här inställningen kan också ändras efter att nummerserien skapats. För mer information, se [Så här skapar du en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Fältet Nr. på Dokument och kort
 På försäljnings-, inköps- och överföringsdokument och alla kort kan **Nr.** fyllas i automatiskt (från en nummerserie) eller manuellt, och kan även ställas in att vara osynligt.
@@ -85,5 +85,5 @@ När du hädanefter definierar något för vilket ett nummer krävs kan du anvä
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
-[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

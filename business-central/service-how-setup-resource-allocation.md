@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910336"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757998"
 ---
 # <a name="set-up-resource-allocation"></a>Så här skapar du resursfördelningar
-För att säkerställa att en serviceuppgift utförs är det viktigt att hitta en resurs som är kvalificerad att göra arbetet. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] så att det är enkelt att allokera någon som har rätt kunskaper för projektet. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kallas detta _resursfördelning_. Du kan fördela resurser utifrån deras kunskaper, tillgänglighet, eller om de finns i samma servicezon som kunden. 
+För att säkerställa att en serviceuppgift utförs är det viktigt att hitta en resurs som är kvalificerad att göra arbetet. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] så att det är enkelt att allokera någon som har rätt kunskaper för projektet. I [!INCLUDE[prod_short](includes/prod_short.md)] kallas detta _resursfördelning_. Du kan fördela resurser utifrån deras kunskaper, tillgänglighet, eller om de finns i samma servicezon som kunden. 
 
 Om du vill använda resursfördelning, måste du ställa in:  
   
@@ -49,7 +49,7 @@ Om du vill använda resursfördelning, måste du ställa in:
     * För resurser, väljer du åtgärden **servicezoner**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Om du vill ange vad som ska visas när en resurs har valts
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstinställningar** och välj sedan relaterad länk. 
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurera servicehantering** och välj sedan relaterad länk. 
 2. I fältet **Resurskvalifikationsförbr**, välj ett av alternativen som beskrivs i följande tabell.  
   
     |**Alternativ**|**Beskrivning**|  

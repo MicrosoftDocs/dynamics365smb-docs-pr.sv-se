@@ -1,5 +1,5 @@
 ---
-title: Så här skapar du en efterfrågeprognos | Microsoft Docs
+title: Så här skapar du en efterfrågeprognos
 description: Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913277"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013698"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
 
-Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings - och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings - och produktionsorder. Alternativet *Komponent* på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en försäljningsartikel, nettoberäknas endast försäljningsorder för prognosen. Om den är för komponenter, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
+Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings – och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings – och produktionsorder. Alternativet *Komponent* på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en försäljningsartikel, nettoberäknas endast försäljningsorder för prognosen. Om den är för komponenter, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
 
 Med prognoser kan företaget skapa hypotetiska scenarier och på ett kostnadseffektivt sätt planera för och tillgodose behov. Exakt och korrekt prognostisering kan vara avgörande för nivån av kundtillfredsställelse med hänsyn till orderlöften och punktliga leveranser.  
 
@@ -47,7 +47,41 @@ Komponentprognosen ska vara lika med eller mindre än det prognostiserade antale
  Prognosperioden är giltig från startdatumet fram till det datum då nästa prognos börjar. Det här tidsintervallet ger dig flera alternativ för att infoga behov på ett särskilt datum i en period. Du rekommenderas därför att inte ändra prognosperiodens omfattning om du inte vill flytta alla prognostransaktioner till startdatumet för den här perioden.  
 
 ## <a name="forecast-by-locations"></a>Prognos efter lagerställen  
-Detta kan anges i produktionsinställningarna om du vill filtrera prognos efter lagerställe när en plan beräknas. Observera dock att den övergripande prognosen kanske inte är representativ om du granskar lagerställebaserade prognoser var för sig.
+
+På sidan **Produktionsinställningar** kan anges hur du bör hantera de lagerställen som definieras i prognoser när du beräknar en plan. 
+
+### <a name="use-forecast-by-locations"></a>Använd prognos efter lagerställen
+
+Om du väljer fältet **Använd prognos efter lagerställe** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att följa de lagerställekoder som anges för respektive post för efterfrågeprognos och beräkna den återstående prognosen för respektive lagerställe.  
+
+Överväg följande exempel: Ditt företag köper och säljer artiklar på två lagerställen: ÖST och VÄST. För båda lagerställen har du konfigurerat en omorganisationspolicy för parti-till-parti. Du skapar en prognos för de två lagerställena:
+
+- 10 enheter för lagerplats ÖST
+- 4 enheter för lagerplats VÄST
+
+Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe VÄST. Planeringssystemet föreslår att du gör följande:
+
+- Återanskaffning av 10 enheter för lagerställe ÖST, baserat på data från prognosen.  
+- Återanskaffning av 12 enheter för lager ställe VÄST, baserat på försäljningsorder. De fyra delar som angavs i prognosen förbrukas helt med det faktiska behov som anges i försäljningsordern. Mer information finns i [Prognostiserad efterfrågan minskas av försäljningsorder](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Om platsbaserade prognoser visas separat kanske den övergripande prognosen inte är representativ.
+
+### <a name="do-not-use-forecast-by-locations"></a>Använd inte prognos efter lagerställen
+Om du avaktiverar **Använd prognos efter plats** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att ignorera platskoder som anges för respektive behovsprognospost och samla prognoserna till en prognos för tomma platser.  
+
+Överväg följande exempel: Ditt företag köper och säljer artiklar på två lagerställen: ÖST och VÄST. För båda lagerställen har du konfigurerat en omorganisationspolicy för parti-till-parti. Du skapar en prognos för de två lagerställena:
+
+- 10 enheter för lagerplats ÖST
+- 4 enheter för lagerplats VÄST
+
+Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe VÄST. Planeringssystemet föreslår att du gör följande:
+
+- Återanskaffning av 12 enheter för lagerställe VÄST, baserat på försäljningsordern. 
+- Återanskaffning av två delar för tom plats. De 10 och fyra delar som angavs i prognosen förbrukas delvis av det faktiska behov som anges i försäljningsordern. [!INCLUDE[prod_short](includes/prod_short.md)] ignorerade de lagerställekoder som har angetts av användaren och använder en tom plats i stället.
+
+> [!NOTE]  
+>  Du kan ange ett filter efter lagerställen, men det kan hända att de platsbaserade resultaten inte matchar planeringsresultaten utan filter.
 
 ## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
 
@@ -74,4 +108,4 @@ Detta kan anges i produktionsinställningarna om du vill filtrera prognos efter 
 [Inköp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

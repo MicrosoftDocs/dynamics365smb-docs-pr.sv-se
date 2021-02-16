@@ -10,22 +10,24 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989468"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046434"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Installera [!INCLUDE [prodshort](includes/prodshort.md)]-appen för Microsoft Teams
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-I den här artikeln lär du dig hur du installerar [!INCLUDE [prodshort](includes/prodshort.md)]-appen för [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Appen är tillgänglig på Team-marknaden, och du kan använda den med appen Team för webben, stationära enheter eller mobila enheter.
+I den här artikeln lär du dig hur du installerar [!INCLUDE [prod_short](includes/prod_short.md)]-appen för [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Appen är tillgänglig på Team-marknaden, och du kan använda den med appen Team för webben, stationära enheter eller mobila enheter.
 
 ## <a name="prerequisites"></a>Förutsättningar
 
-- Organisationens principer måste tillåta att du installerar appar i Microsoft Teams.
+- Åtkomst till den stationära Teams-appen eller Teams i webbläsaren. Du kan inte installera [!INCLUDE [prod_short](includes/prod_short.md)] med hjälp av Teams-mobilappen.
+
+- Organisationens policyer måste tillåta att du installerar appar i Microsoft Teams.
 
 ## <a name="add-the-business-central-app-to-teams"></a>Lägg till Business Central-appen i Team
 
@@ -58,7 +60,8 @@ Du är nu redo att använda appen i Team för att dela Business Central-data. Me
 ## <a name="see-also"></a>Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
-[Utveckling för Team-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Komma igång](product-get-started.md)  
+[Vanliga frågor och Svar om Teams](teams-faq.md)  
+[Felsöka Teams](admin-teams-troubleshooting.md)  
+[Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

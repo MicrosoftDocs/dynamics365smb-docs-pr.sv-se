@@ -1,5 +1,5 @@
 ---
-title: Så här skapar du en produktionstruktur | Microsoft Docs
+title: Så här skapar du nya produktionsstrukturer
 description: En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919294"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838488"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
+
 En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer även monteringsstrukturer Du använder monteringsorder för att slutboka artiklar från komponenter i en enkel sätt, som kan utföras av en eller flera grundläggande resurser, som inte är maskin- eller produktionsgrupper, eller utan något resurser. Det kan exempelvis vara en monteringsprocess att välja två som vinflaska och en kaffesäck och sedan packa dem som presentartiklar. Mer information finns i [Monteringsstrukturer eller produktionsstrukturer](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] stödjer även monteringsstrukturer Du använder monteringsorder för att slutboka artiklar från komponenter i en enkel sätt, som kan utföras av en eller flera grundläggande resurser, som inte är maskin- eller produktionsgrupper, eller utan något resurser. Det kan exempelvis vara en monteringsprocess att välja två som vinflaska och en kaffesäck och sedan packa dem som presentartiklar. Mer information finns i [Monteringsstrukturer eller produktionsstrukturer](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Innan du kan skapa en verksamhetsföljd måste följande vara på plats:  
 
@@ -48,7 +49,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 12.  Nu kan du koppla den nya produktionsstrukturen till kortet för den aktuella överordnade artikeln. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Om du vill beräkna om standardkostnaden för artikeln från artikelkortet, välj **Produktion** och sedan **Ber. standardkostnad**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Om du vill beräkna om artikelns standardkostnad från artikelkortet väljer du åtgärden **Tillverkning** och sedan åtgärden **Ber. standardkostnad**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Så här skapar du nya versioner av produktionsstrukturer
 Nya versioner av produktionsstrukturer används till exempel när en artikel ersätts av en annan artikel, eller när en kund begär en specialversion av en produkt. Med versionsprincipen kan olika versioner av en produktionsstruktur hanteras. Strukturen i produktionsstrukturversionen motsvarar strukturen i produktionsstrukturen. Den största skillnaden är versionernas giltighetstid. Giltigheten definieras av startdatum.  
@@ -80,11 +81,11 @@ Kolumnerna Beräkningsformel, Längd, Bredd, Djup och Vikt visas inte eftersom d
 
 Relationen i en enskild komponent definieras av en beräkningsformel. Följande uppgifter kan ingå i beräkningsformeln:  
 
--  **Tom** - Utan hänsyn till dimensioner. (Antal = Antal per.)  
--  **Längd** - Antal = Antal per * Längd  
--  **Längd x bredd** - Antal = Antal per * Längd x bredd  
--  **Längd x bredd x djup** - Antal = Antal per x Längd x bredd x djup  
--  **Vikt** - Antal = Antal per x vikt  
+-  **Tom** – Utan hänsyn till dimensioner. (Antal = Antal per.)  
+-  **Längd** – Antal = Antal per * Längd  
+-  **Längd x bredd** – Antal = Antal per * Längd x bredd  
+-  **Längd x bredd x djup** – Antal = Antal per x Längd x bredd x djup  
+-  **Vikt** – Antal = Antal per x vikt  
 
 ### <a name="example"></a>Exempel  
 I en produktionsstruktur behövs sjuttio metalldelar med dimensionerna längd = 0,20 m och bredd = 0,15 m. Värdena anges så här: Beräkningsformel = längd * bredd, längd = 20, bredd = 15, antal per = 70. Antalet anges som Antal per * längd * bredd, d.v.s. Antal = 70 * 0,20 m * 0,15 m = 2,1 m2.  
@@ -96,4 +97,4 @@ I en produktionsstruktur behövs sjuttio metalldelar med dimensionerna längd = 
 [Planerad](production-planning.md)   
 [Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

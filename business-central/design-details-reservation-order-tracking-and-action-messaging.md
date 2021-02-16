@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Reservation, orderspårning och åtgärdsmeddelanden | Microsoft Docs
+title: Designdetaljer – Reservation, orderspårning och åtgärdsmeddelanden | Microsoft Docs
 description: Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99c7410e31291213486d8843ba125359615c1477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87646a26a3cd962478fe36082b76c2843a620570
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911061"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035462"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden
 Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.  
@@ -29,17 +29,20 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 
  Reservationsystemet utgör även strukturella grunden för artikelspårningsystemet. Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-tracking.md).  
 
- För mer information om hur reservationssystemet fungerar finns i vitboken "Tabellen Reservationstransaktion" i [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
+ <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="reservation"></a>Reservation  
- En reservation är en fast koppling som ansluter en viss efterfrågan och tillgång till varandra. Den här länken påverkar direkt den efterföljande lagertransaktionen och säkerställer rätt koppling av artikeltransaktioner för kostnadsskäl. En reservation åsidosätter standardvärderingsprincipen för en artikel. Mer information finns i “Designdetaljer: Värderingsprinciper”.  
+ En reservation är en fast koppling som ansluter en viss efterfrågan och tillgång till varandra. Den här länken påverkar direkt den efterföljande lagertransaktionen och säkerställer rätt koppling av artikeltransaktioner för kostnadsskäl. En reservation åsidosätter standardvärderingsprincipen för en artikel. Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-tracking.md).  
 
  Sidan **Reservation** kan nås från alla orderrader av både tillgångs- och efterfråganstyp. På den här sidan kan du ange vilka efterfråganstransaktioner eller tillgångstransaktioner att skapa en reservationslänk till. Reservationen består av ett par poster som har samma löpnummer. En post har ett negativt tecken och pekar på efterfrågan. Den andra posten har ett plustecken och pekar mot tillgången. Dessa transaktioner lagras i tabellen **Reservationstransaktion** med statusvärdet **Reservation**. Användaren kan visa alla reservationer på sidan **Reservationstransaktioner**.  
 
 ### <a name="offsetting-in-reservations"></a>Motkontering i reservationer  
  Reservationer görs mot tillgängligt antal artiklar. Artikeldispositionen beräknas i grundläggande villkor enligt följande:  
 
- disponibelt antal = lager + planenliga inleveranser - bruttobehov  
+ disponibelt antal = lager + planenliga inleveranser – bruttobehov  
 
  Följande tabell visar detaljerna för ordernätverksenheterna som ingår i dispositionsberäkningen.  
 
@@ -78,7 +81,7 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 
  Dessutom reserveras artiklar automatiskt av olika planeringsfunktioner för att hålla ett behov kopplat till en viss tillgång. Orderspårningposterna för sådana planeringslänkar innehåller **Reservation** i fältet **Reservationsstatus** i tabellen **Reservationstransaktion**. Automatiska reservationer skapas i följande situationer:  
 
--   En produktionsorder med flera nivåer där fältet **Produktionsprincip** för de berörda överordnade och underordnade artiklarna anges till **Tillverka-Mot-Order**. Planeringssystemet skapar reservationer mellan överordnad produktionsorder och underliggande produktionsorder för att se till att de behandlas tillsammans. Sådant reservationsbindning åsidosätter artikelns standardmetod för värdering och koppling.  
+-   En produktionsorder med flera nivåer där fältet **Produktionsprincip** för de berörda överordnade och underordnade artiklarna anges till **Tillverka-Mot-Order**. Planeringssystemet skapar reservationer mellan överordnad produktionsorder och underliggande produktionsorder för att se till att de behandlas tillsammans. Sådan reservationsbindning åsidosätter artikelns standardmetod för värdering och koppling.  
 
 -   En produktion, en montering eller inköpsorder där fältet **Partiformningsmetod** för den berörda artikeln anges till **Inköpsorder**. Planeringssystemet skapar reservationer mellan efterfrågan och den planerade tillgången för att se till att den aktuella tillgången skapas. För mer information, se [Order](design-details-handling-reordering-policies.md#order).  
 
@@ -86,11 +89,11 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 
 -   En monteringsorder skapas automatiskt för en försäljningsorderrad för att uppfylla antalet i fältet **($ T_37_900 Qty. to Assemble to Order $)**. Den automatiska reservationen länkar försäljningsbegäran och monteringtillförseln, så att försäljningsorderhandläggare kan anpassa och lova monteringsartikeln direkt till kunden. Dessutom länkar reservationen monteringsutflöde på försäljningsorderraden till utleveransaktiviteten som uppfyller kundordern.  
 
- Om det gäller tillgång eller efterfrågan som inte har fördelats tilldelar planeringssystemet automatiskt en reservationsstatus av typen **Överskott**. Detta kan bero på en efterfrågan på grund av ett prognostiserat antal eller användarangivna planeringsparametrar. Det är legitimt överskott som programmet känner igen, och det ger inte upphov till åtgärdsmeddelanden. Överskott kan också vara äkta, överflödig tillgång eller efterfrågan som inte har spårats. Detta är en indikation på obalans i ordernätverket som gör att systemet skickar åtgärdsmeddelanden. Observera att ett åtgärdsmeddelande som föreslår en ändring i antal alltid refererar till typen **Överskott**. Mer information finns i avsnittet "Exempel: Orderspårning i försäljningar, produktion och överföringar" i det här avsnittet.  
+ Om det gäller tillgång eller efterfrågan som inte har fördelats tilldelar planeringssystemet automatiskt en reservationsstatus av typen **Överskott**. Detta kan bero på en efterfrågan på grund av ett prognostiserat antal eller användarangivna planeringsparametrar. Det är legitimt överskott som programmet känner igen, och det ger inte upphov till åtgärdsmeddelanden. Överskott kan också vara äkta, överflödig tillgång eller efterfrågan som inte har spårats. Detta är en indikation på obalans i ordernätverket som gör att systemet skickar åtgärdsmeddelanden. Observera att ett åtgärdsmeddelande som föreslår en ändring i antal alltid refererar till typen **Överskott**. Mer information finns i avsnittet "Exempel: Orderspårning inom försäljning, produktion och överföring" i detta ämne.  
 
  Automatiska reservationer som upprättas under planeringskörningen hanteras på följande sätt:  
 
--   De kopplas mot artikelantal som ingår i dispositionsberäkningarna, liksom manuella reservationer. Mer information finns i avsnittet “Motkonteringar i reservationer” i den här artikeln.  
+-   De kopplas mot artikelantal som ingår i dispositionsberäkningarna, liksom manuella reservationer. Mer information finns i avsnittet “Motkonteringar i reservationer” i detta ämne.  
 
 -   De tas med och ändras eventuellt i följande planeringskörningar, i motsats till manuellt reserverade artiklar.  
 
@@ -106,14 +109,14 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 ### <a name="the-order-network"></a>Ordernätverket  
  Orderspårningsystemet baseras på principen att ordernätverket alltid måste vara i ett balanserat tillstånd där varje efterfrågan som kommer in i systemet räknas av mot en motsvarande tillgång och vice versa. Systemet gör det genom att identifiera logiska länkar mellan alla efterfrågans- och tillgångstransaktioner i ordernätverket.  
 
- Principen betyder att en ändring i efterfrågan leder till en motsvarande obalans på tillfråganssidan av ordernätverket. En ändring i tillgång leder till en motsvarande obalans på efterfråganssidan av ordernätverket. I verkligheten är ordernätverket i ett tillstånd av konstant förändring när användare anger, ändrar och tar bort beställningar. Orderspårningsprocesser beställer dynamiskt och reagerar på varje ändring vid den tidpunkt då den kommer in i systemet och blir en del av ordernätverket. Så snart som nya orderspårningposter skapas, är ordernätverket balanserat, men endast tills nästa ändring inträffar.  
+ Principen betyder att en ändring i efterfrågan leder till motsvarande obalans på tillgångssidan av ordernätverket. En ändring i tillgång leder till en motsvarande obalans på efterfråganssidan av ordernätverket. I verkligheten är ordernätverket i ett tillstånd av konstant förändring när användare anger, ändrar och tar bort beställningar. Orderspårningsprocesser beställer dynamiskt och reagerar på varje ändring vid den tidpunkt då den kommer in i systemet och blir en del av ordernätverket. Så snart som nya orderspårningposter skapas, är ordernätverket balanserat, men endast tills nästa ändring inträffar.  
 
- Om du vill öka översikten över beräkningar i planeringssystemet visar sidan **Ej spårade planeringselement** antal som inte spårats, och som representerar skillnaden i antal mellan det kända behovet och den föreslagna tillförseln. Varje rad på sidan refererar till orsaken för överskottsantalet, till exempel **Avropsorder**, **Säkerhetslagernivå**, **Fast orderkvantitet**, **Min. partistorlek**, **Avrundning**eller **Dämpare**.  
+ Om du vill öka översikten över beräkningar i planeringssystemet visar sidan **Ej spårade planeringselement** antal som inte spårats, och som representerar skillnaden i antal mellan det kända behovet och den föreslagna tillförseln. Varje rad på sidan refererar till orsaken för överskottsantalet, till exempel **Avropsorder**, **Säkerhetslagernivå**, **Fast orderkvantitet**, **Min. partistorlek**, **Avrundning** eller **Dämpare**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Motkontering i orderspårning  
  I motsats till reservationer, som kan bara utföras mot tillgängliga artikelantal, är orderspårning möjlig mot alla ordernätverksenheter som ingår i beräkningen av nettobehov i planeringssystemet. Nettobehoven beräknas enligt följande:  
 
- nettobehoven = bruttobehov + beställningspunkt - planenliga inleveranser - planerade inleveranser - planerat tillgängligt saldo  
+ nettobehoven = bruttobehov + beställningspunkt – planenliga inleveranser – planerade inleveranser – planerat tillgängligt saldo  
 
 > [!NOTE]  
 >  Efterfrågan som är kopplad till prognoser eller planeringsparametrar inte är orderspårad.  
@@ -123,19 +126,19 @@ Reservationsystemet är omfattande och innehåller de korrelativa och parallella
 
  Anta att följande data finns för två artiklar som har angetts för orderspårning.  
 
-|Artikel 1|Name|“Komponent”|
+|Artikel 1|Name|"Komponent"|
 |-|-|-|
-||Disposition|100 enheter i lagerställe RÖD<br /><br />- 30 enheter av LOTA<br />- 70 enheter av LOTB|  
-|Artikel 2|Name|“Tillverkad artikel”|
-||Prod.struktur|1 ant. per av "Komponent”|  
-||Behov|Försäljning för 100 enheter vid lagerställe BLÅ|  
+||Disposition|100 enheter i lagerställe VÄST<br /><br />- 30 enheter av LOTA<br />- 70 enheter av LOTB|  
+|Artikel 2|Name|“Producerad artikel”|
+||Prod.struktur|1 ant. av "Komponent”|  
+||Behov|Försäljning av 100 enheter på lagerställe ÖST|  
 ||Tillgång|Släppta produktionsorder (som skapas med funktionen **Försäljningsorderplanering** för försäljningen av 100 enheter)|  
 
 På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** värdet **RÖD**.
 
  Följande orderspårningstransaktioner finns i tabellen **Reservationstransaktion** baserat på data i tabellen.  
 
- ![Orderspårningstransaktionerna i tabellen Reservationstransaktion](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Första exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Löpnummer 8 och 9  
  För komponentbehovet för PARTIA och PARTIB skapas orderspårningslänkar från efterfrågan i tabell 5407, **Prod.orderkomponent** till tillgången i tabell 32, **Artikeltransaktion**. Fältet **Reservationsstatus** innehåller **Spårning** för att ange att dessa transaktioner är dynamiska orderspårninglänkar mellan tillgång och efterfrågan.  
@@ -144,16 +147,16 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 >  Fältet **Partinr** är tomt på behovsraderna, eftersom partinumren inte har specificerats på komponentraderna för den släppta produktionsordern.  
 
 ### <a name="entry-numbers-10"></a>Löpnummer 10  
- Från försäljningsbegäran i tabell 37, **Försäljningsrad**, skapas en orderspårningslänk till leveransen i tabell 5406, **Prod.orderrad**. Fältet **Reservationsstatus** innehåller **Reservation** och fältet **Bindning** innehåller **Order-till-order**. Det beror på att den släppta produktionsordern genererats specifikt för försäljningsordern och måste förbli kopplad, till skillnad från orderspårninglänkar med reservationsstatusen **Spårning**, som skapas och ändras dynamiskt. Mer information finns i avsnittet “Automatiska reservationer” i den här artikeln.  
+ Från försäljningsbegäran i tabell 37, **Försäljningsrad**, skapas en orderspårningslänk till leveransen i tabell 5406, **Prod.orderrad**. Fältet **Reservationsstatus** innehåller **Reservation** och fältet **Bindning** innehåller **Order-till-order**. Det beror på att den släppta produktionsordern genererats specifikt för försäljningsordern och måste förbli kopplad, till skillnad från orderspårninglänkar med reservationsstatusen **Spårning**, som skapas och ändras dynamiskt. Mer information finns i avsnittet “Automatiska reservationer” i detta ämne.  
 
- I det här skedet i scenariet överförs de 100 enheterna i PARTIA och PARTIB till lagerställe BLÅ av en överföringsorder.  
+ I det här skedet av scenariet överförs de 100 enheterna i PARTIA och PARTIB till lagerställe ÖST genom en överföringsorder.  
 
 > [!NOTE]  
 >  Endast överföringsorderleveransen bokförs i det här läget, inte inleveransen.  
 
  Nu finns följande orderspårningsposter i tabellen **Reservationstransaktion**.  
 
- ![Orderspårningstransaktionerna i tabellen Reservationstransaktion](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Andra exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Löpnummer 8 och 9  
  Orderspårningstransaktioner för de två partierna av komponenten visar att efterfrågan i tabell 5407 ändras från reservationsstatusen **Spårning** till **Överskott**. Anledningen är att tillgång som de var kopplade till tidigare, i tabell 32, har använts av utleveransen på överföringsordern.  
@@ -163,29 +166,29 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 ### <a name="entry-numbers-12-to-16"></a>Löpnummer 12 till 16  
  Eftersom de två partierna för komponenten bokförs på överföringsordern som levererade men inte inlevererade, är alla relaterade positiva orderspårningstransaktioner av reservationstypen **Överskott**, vilket anger att de inte är kopplade till några behov. För varje partinummer är en transaktion knuten till tabell 5741, **Överföringsrad**, och en transaktion är knuten till artikeltransaktionen på transitlagerstället där artiklarna finns nu.  
 
- I det här skedet i scenariet bokförs överföringsordern för komponenterna från lagerställe BLÅ till RÖD som inlevererad.  
+ I det här skedet av scenariet bokförs överföringsordern för komponenterna från lagerställe ÖST till VÄST som inlevererad.  
 
- Nu finns följande orderspårningsposter i tabellen **Reservationstransaktion**.  
+ Nu finns följande orderspårningsposter i registret **Reservationstransaktion**.  
 
- ![Orderspårningstransaktionerna i tabellen Reservationstransaktion](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Tredje exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- Orderspårningsposterna är nu liknande till den första punkten i scenariet, före överföringsordern har bokförts som endast utlevererad, förutom att transaktioner för komponenten nu har reservationstatus **Överskott**. Det beror på att komponentbehovet fortfarande finns vid lagerställe RÖD och att visar att fältet **Lagerställekod** på produktionsorderkomponentraderna innehåller **RÖD** som det har ställts in i aktivering i inställningsfältet **Komponenter vid lagerställe**. Leveransen som har tilldelats det här behovet har överförts till lagerställe BLÅ och inte kan nu spåra fullständigt om inte komponentbehovet på produktionsorderraden ändras till lagerställe BLÅ.  
+ Orderspårningsposterna är nu liknande till den första punkten i scenariet, före överföringsordern har bokförts som endast utlevererad, förutom att transaktioner för komponenten nu har reservationstatus **Överskott**. Detta beror på att komponentbehovet fortfarande finns vid lagerställe VÄST och visar att fältet **Lagerställekod** på produktionsorderkomponentraden innehåller **VÄST** enligt inställt i konfigurationsfältet **Komponenter vid lagerställe**. Leveransen som har tilldelats detta behov har överförts till lagerställe ÖST och kan nu inte spåras fullständigt om inte komponentbehovet på produktionsorderraden ändras till lagerställe ÖST.  
 
- I det här skedet i scenariet anges **Lagerställekod** på produktionsorderraden till **BLÅ**. På sidan **Artikelspårningsrader** tilldelas dessutom de 30 enheterna i PARTIA och de 70 enheterna i PARTIB till produktionsorderraden.  
+ I det här skedet i scenariet anges **Lagerställekod** på produktionsorderraden som **ÖST**. På sidan **Artikelspårningsrader** tilldelas dessutom de 30 enheterna i PARTIA och de 70 enheterna i PARTIB till produktionsorderraden.  
 
- Nu finns följande orderspårningsposter i tabellen **Reservationstransaktion**.  
+ Nu finns följande orderspårningsposter i registret **Reservationstransaktion**.  
 
- ![Orderspårningstransaktionerna i tabellen Reservationstransaktion](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Fjärde exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Löpnummer 21 och 22  
- Eftersom komponentbehovet har ändrats till lagerställe BLÅ och tillgången är tillgänglig som artikeltransaktioner vid lagerställe BLÅ, är alla orderspårningposter för de två partinumren nu fullständigt spårade, vilket anges av reservationsstatusen **Spårning**.  
+ Eftersom komponentbehovet har ändrats till lagerställe ÖST och tillgången finns tillgänglig som artikeltransaktioner vid lagerställe ÖST, är alla orderspårningsposter för de två partinumren nu fullständigt spårade, vilket anges av reservationsstatusen **Spårning**.  
 
  Fältet **Partinr** fylls nu på i orderspårningstransaktionen för tabell 5407, eftersom partinummer har tilldelats produktionsorderkomponentraderna.  
 
- Fler exempel på orderspårningstransaktioner i tabellen **Reservationstransaktion** finns i vitboken "Tabellen Reservationstransaktion" i [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (kräver inloggning).
+ Fler exempel på orderspårningstransaktioner i registret **Reservationstransaktion** finns i dokumentet "Registret Reservationstransaktion" i [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (kräver inloggning).
 
 ## <a name="action-messaging"></a>Åtgärdsmeddelanden  
- När orderspårningsystemet identifierar en obalans i ordernätverket skapar det automatiskt ett åtgärdsmeddelande för att meddela användaren. Åtgärdsmeddelanden är systemgenererade uppmaningar till användaren som anger detaljerna för obalansen och förslag på hur du återställer balansen i ordernätverket. De visas som planeringsrader på sidan **Planeringsförslag** när du väljer **Hämta åtgärdsmeddelanden**. Dessutom visas åtgärdsmeddelanden på planeringsrader som skapas med planeringskörningen för att återspegla planeringssystemets förslag på hur du återställer saldo i ordernätverket. I båda fallen körs förslagen i ordernätverket när du väljer **Verkställ åtgärdsmeddelanden**.  
+ När orderspårningsystemet identifierar en obalans i ordernätverket skapar det automatiskt ett åtgärdsmeddelande för att meddela användaren. Åtgärdsmeddelanden är systemgenererade uppmaningar till användaren som anger detaljerna för obalansen och förslag på hur du återställer balansen i ordernätverket. De visas som planeringsrader på sidan **Planeringsförslag** när du väljer **Hämta åtgärdsmeddelanden**. Dessutom visas åtgärdsmeddelanden på planeringsrader som skapas genom planeringskörningen för att återspegla planeringssystemets förslag på hur du återställer balansen i ordernätverket. I båda fallen körs förslagen i ordernätverket när du väljer **Verkställ åtgärdsmeddelanden**.  
 
  Ett åtgärdsmeddelande gäller en strukturnivå åt gången. Om användaren acceptera åtgärdsmeddelandet, kan det ge upphov till ytterligare åtgärdsmeddelanden på nästa strukturnivå.  
 

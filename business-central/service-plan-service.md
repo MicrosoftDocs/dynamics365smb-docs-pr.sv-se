@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915266"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757848"
 ---
 # <a name="planning-services"></a>Planera service
-Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
+Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
+[!INCLUDE[prod_short](includes/prod_short.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
   
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
   

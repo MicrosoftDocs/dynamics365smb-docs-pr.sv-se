@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912327"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757498"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 
@@ -53,7 +53,7 @@ Det finns några steg för att komma igång.
 
 Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokföringsmall** och en **Leverantörsbokföringsmall**. Inställningen av Land/Region måste för leverantören vara Danmark (DK). Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="to-allow-prod_short-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
 2. På sidan **Redigera betalningsjournal**, välj journalen **Bank**.  
@@ -61,7 +61,7 @@ Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokför
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Ange betalningssätt för en leverantör
 
-I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [!INCLUDE[d365fin](includes/d365fin_md.md)] stödjer.
+I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [!INCLUDE[prod_short](includes/prod_short.md)] stödjer.
 
 |Kombination|Typ 01 | Typ 04 | Typ 71 | Typ 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 4. I fältet **betalningsreferens** anger du det 15-siffriga numret på leverantörens faktura.  
 
     > [!Tip]
-    > Du behöver bara lägga till de senaste 11 siffrorna. [!INCLUDE[d365fin](includes/d365fin_md.md)] lägger till fyra nollor i början av numret.  
+    > Du behöver bara lägga till de senaste 11 siffrorna. [!INCLUDE[prod_short](includes/prod_short.md)] lägger till fyra nollor i början av numret.  
 
 5. Bokföra fakturan
 
@@ -105,6 +105,6 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 
 ## <a name="see-also"></a>Se även
 
-[Anpassning av Business Central för [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Anpassning av Business Central för [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

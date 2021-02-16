@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbb343b77db3fed933d0c243d36b4707f979fe8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81f43ef3f021ef0d348eb14abdffdfda2b3d85fc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926602"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758399"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 
@@ -29,7 +29,7 @@ Från kundkortet kan du skapa en rapport med den kundens transaktioner med dig. 
 
 ### <a name="to-send-the-customer-statement-report"></a>Om du vill skicka kundkontoutdragsrapporten.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kundutlåtande** och välj sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kundutlåtande** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I **Utdataalternativ** väljer du hur rapporten ska skickas till kunden.
 
@@ -38,7 +38,7 @@ Från kundkortet kan du skapa en rapport med den kundens transaktioner med dig. 
 
 ## <a name="reminders"></a>Påminnelser
 
-Innan du kan skapa betalningspåminnelser måste du ange betalningspåminnelsevillkor och tilldela dem till dina kunder. Varje betalningspåminnelse fördefinierar betalningspåminnelsenivåer. Varje betalningspåminnelsenivå inkluderar regler om när en betalningspåminnelse ska skickas ut, till exempel hur många dagar efter fakturans förfallodatum eller datumet för den föregående betalningspåminnelsen. Innehållet på sidan **Räntevillkor** avgör om ränta beräknas på betalningspåminnelsen.  
+Innan du kan skapa betalningspåminnelser måste du ange betalningspåminnelsevillkor och tilldela dem till dina kunder. Mer information finns i [Ange villkor och nivåer för påminnelser](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Innehållet på sidan **Räntevillkor** avgör huruvida ränta beräknas på påminnelsen.  
 
 Du kan regelbundet köra batch-jobbet **Skapa betalningspåminnelser** för att skapa betalningspåminnelser för alla kunder med förfallna saldon eller också kan du manuellt skapa en betalningspåminnelse för en specifik kund och sedan låta raderna beräknas och fyllas i automatiskt.  
 
@@ -47,58 +47,6 @@ När du skapat betalningspåminnelserna kan du ändra dem. Texten som visas i b�
 För kundreskontratransaktioner med fältet **Stoppad** ifyllt får du inga uppmaningar om att skapa betalningspåminnelser. Men om en betalningspåminnelse skapas med en annan transaktion som bas, kommer en förfallen transaktion som markerats Stoppad också att inkluderas i betalningspåminnelsen. Ränta beräknas inte på rader med den här typen av transaktioner.
 
 När du har skapat betalningspåminnelser och gjort nödvändiga ändringar kan du antingen skriva ut testrapporter eller skicka ut påminnelserna, vanligtvis som e-post.
-
-### <a name="to-set-up-reminder-terms"></a>Så här ställer du in betalningspåminnelsevillkor
-
-Om en betalning förfaller måste du bestämma när och hur betalningspåminnelsen ska skickas till kunden i fråga. Dessutom kanske du vill debitera kundens konto för ränta eller avgifter. Du kan ange valfritt antal villkor för betalningspåminnelser. För varje påminnelsevillkorskod kan du definiera valfritt antal betalningspåminnelsenivåer.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningspåminnelsevillkor** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs.  
-3. Om du vill använda fler än en uppsättning villkor, anger du en kod för varje kombination.
-
-### <a name="to-set-up-reminder-levels"></a>Så här ställer du in nivåer för betalningspåminnelser
-
-Första gången en betalningspåminnelse skapas för en kund används inställningen från nivå 1. När betalningspåminnelsen skickas ut registreras nivånumret på betalningspåminnelsetransaktionerna som skapas och kopplas till de enskilda kundreskontratransaktionerna. Om kunden måste påminnas igen kontrolleras alla betalningspåminnelsetransaktioner som är kopplade till öppna kundreskontratransaktioner så att det högsta nivånumret hittas. Villkoren från nästa nivånummer används sedan för den nya betalningspåminnelsen.
-
-Om du skapar fler betalningspåminnelser än du har definierat nivåer för, används villkoren för den högsta nivån. Du kan skapa så många betalningspåminnelser som fältet **Max. antal påminnelser** i betalningspåminnelsevillkoren tillåter.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningspåminnelsevillkor** och välj sedan relaterad länk.  
-2. På sidan **betalningspåminnelsevillkor** och välj raden med de villkor som du vill ange nivåer för och klicka sedan på åtgärden **Nivåer**.  
-3. Fyll i fälten om det behövs.  
-
-    För varje betalningspåminnelsenivå kan du ange särskilda villkor, vilka kan inkludera ytterligare avgifter i både BVA och i utländsk valuta. Du kan definiera många räntefaktureringsavgifter i utländsk valuta för respektive kod på sidan **Betalningspåminnelsevillkor**.
-4. Välj åtgärden **Valutor**.
-5. På sidan **Valutor för betalpåm.nivå** kan du definiera för varje betalningspåminnelsekod och motsvarande nivånummer en valutakod och en tilläggsavgift.
-
-    > [!NOTE]  
-    > När du skapar räntefakturor i utländsk valuta används de villkor för utländsk valuta som definieras här för att skapa betalningspåminnelser. Om det inte finns några betalningsvillkor definierade för utländsk valuta används de villkor för BVA som angetts på sidan **Betalningspåminnelsenivåer** och omvandlas till relevant valuta.
-
-    För varje betalningspåminnelsenivå kan du ange text som ska infogas före (**Inledande text**) eller efter (**Avslutande text**) transaktionerna i betalningspåminnelsen.
-
-6. Välj åtgärden **inledande text** eller **avslutande text** och fyll i på sidan **betalningspåminnelsetext**.
-7. Om du vill infoga relaterade värden i den resulterande betalningspåminnelsetexten, anger du följande platshållare i **Text**-fältet.  
-
-|Platshållare|Värde|  
-|-----------------|-----------|  
-|%1|Innehållet i fältet **Dokumentdatum** i betalningspåminnelsens huvud|  
-|%2|Innehållet i fältet **Förfallodatum** i betalningspåminnelsens huvud|  
-|%3|Innehållet i fältet **Räntesats** på de relaterade räntevillkor|  
-|%4|Innehållet i fältet **Återstående belopp** i betalningspåminnelsens huvud|  
-|%5|Innehållet i fältet **Räntebelopp** i betalningspåminnelsens huvud|  
-|%6|Innehållet i fältet **Avgift** i betalningspåminnelsens huvud|  
-|%7|Påminnelsens totalbelopp.|  
-|%8|Innehållet i fältet **Betalningspåminnelsenivå** i betalningspåminnelsens huvud|  
-|%9|Innehållet i fältet **Valutakod** i betalningspåminnelsens huvud|  
-|%10|Innehållet i fältet **Bokföringsdatum** i betalningspåminnelsens huvud|  
-|%11|Företagsnamnet|  
-|%12|Innehållet i fältet **Avgift per rad** i betalningspåminnelsens huvud|  
-
-Om du skriver exempelvis **du är skyldig %9 %7 som förfaller %2.**, innehåller den resulterande betalningspåminnelsen följande text: **du är skyldig 1 200,50 som förfaller 2014-02-02**.
-
-> [!NOTE]
-> Förfallodatumet beräknas enligt den formel du anger. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).
-
-När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
 
 ### <a name="to-create-a-reminder-automatically"></a>Så här skapar du en betalningspåminnelse automatiskt
 
@@ -174,58 +122,16 @@ Om en kund inte har betalat på förfallodatumet kan du låta beräkna dröjsmå
 > [!NOTE]  
 > Du använder räntefakturor för att beräkna dröjsmålsränta och informera dina kunder om dröjsmålsräntor utan att påminna dem om förfallna betalningar. Ett alternativ är att du i stället beräknar ränta på förfallna betalningar när du skapar betalningspåminnelser.  
 
+Innan du kan skapa räntefakturor måste du ange villkoren. Mer information finns i [Konfigurera räntevillkor](finance-setup-finance-charges.md).  
+
 Du kan manuellt skapa en räntefaktura för en enskild kund och fylla i raderna automatiskt. Som Alternativt kan du använda funktionsjobbet **Skapa räntefakturor** för att skapa räntefakturor för alla eller valda kunder med förfallna betalningar.  
 
 När du skapat räntefakturorna kan du ändra dem. Texten som visas i början och i slutet av räntefakturan bestäms av räntevillkoren och visas i kolumnen **Beskrivning** på raderna. Om ett beräknat belopp har infogats automatiskt i den inledande eller avslutande texten justeras inte texten om du tar bort rader. Då måste du använda funktionen **Uppdatera räntefakturatext**.  
 
 När du har skapat räntefakturor och gjort eventuella ändringar kan du antingen skriva ut testrapporter eller skicka ut räntefakturorna, vanligtvis som e-post.
 
-### <a name="to-set-up-finance-charge-terms"></a>Ange räntevillkoren
+### <a name="to-create-a-finance-charge-memo-manually"></a>Så här skapar du en räntefaktura manuellt
 
-Du måste upprätta en kod, som representerar respektive beräkningssätt av dröjsmålsränta. Sedan kan du ange den här koden i fältet **Räntevillkorskod** på kundkorten.
-
-Dröjsmålsräntor kan antingen beräknas med metoden genomsnittligt saldo per dag eller metoden förfallet saldo.
-
-* Metod för förfallet saldo
-
-    Räntan innebär helt enkelt en procentandel av det förfallna beloppet:  
-    *Metod för förfallet saldo* - *Räntefaktura* = *Förfallet belopp* x *(ränta / 100)*
-
-*   Metod för genomsnittligt saldo per dag
-
-    Hur många dagar som har passerat sedan betalningen förföll beaktas:  
-    *Metod för genomsnittligt saldo per dag* - *Räntefaktura* = *Förfallet belopp* x *(antal dagar försenat / ränteperiod)* x *(ränta/100)*
-
-Dessutom är varje kod i tabellen Räntevillkor kopplad till en undertabell, nämligen Räntetext. För respektive uppsättning av räntevillkor kan du definiera en inledande och/eller avslutande text som kan tas med i räntefakturan.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Räntevillkor** och välj sedan relaterad länk.  
-2. Fyll i fälten om det behövs.
-3. Om du vill använda fler än en uppsättning räntevillkor, anger du en kod för varje kombination.
-
-    För varje räntevillkor kan du ange särskilda villkor, vilka kan inkludera ytterligare avgifter i både BVA och i utländsk valuta. Du kan definiera många räntefaktureringsavgifter i utländsk valuta för respektive kod på sidan **räntevillkor**.
-4. Välj åtgärden **Valutor**.
-5. På sidan **Valutor för räntevillkor** ange för varje villkor en valutakod och en tilläggsavgift.
-
-    > [!NOTE]  
-    > När du skapar dröjsmålsränta i utländsk valuta används de villkor som angett här för att skapa räntefakturor. Om det inte finns några sådana villkor definierade används de dröjsmålsräntevillkor för BVA som angetts på sidan **Räntevillkor** och omvandlas till relevant valuta.
-
-    För varje räntevillkor kan du ange text som ska infogas före (**Inledande text**) eller efter (**Avslutande text**) transaktionerna i räntefakturan.  
-6. Välj åtgärden **inledande text** eller **avslutande text** och fyll i på sidan **Räntetext**.
-7. Om du vill infoga relaterade värden i den resulterande Räntetext, anger du följande platshållare i **Text**-fältet.
-
-|Platshållare|Värde|  
-|-----------------|-----------|  
-|%1|Innehållet i fältet **Dokumentdatum** i räntefakturans huvud|  
-|%2|Innehållet i fältet **Förfallodatum** i räntefakturans huvud|  
-|%3|Innehållet i fältet **Räntesats** på de relaterade räntevillkor|  
-|%4|Innehållet i fältet **Återstående belopp** i räntefakturans huvud|  
-|%5|Innehållet i fältet **Räntebelopp** i räntefakturans huvud|  
-|%6|Innehållet i fältet **Avgift** i räntefakturans huvud|  
-|%7|Påminnelsens totalbelopp.|  
-|%8|Innehållet i fältet **Valutakod** i räntefakturans huvud|  
-|%9|Innehållet i fältet **Bokföringsdatum** i räntefakturans huvud|  
-
-### <a name="to-create-a-finance-charge-memo-manually"></a>Så här skapar du en räntefaktura manuellt  
 En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuellt och ange att raderna ska fyllas i automatiskt, eller så kan du välja att automatiskt skapa räntefakturor för alla kunder.
 
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Räntefakturor** och välj sedan relaterad länk.  
@@ -286,6 +192,8 @@ När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så
 
 ## <a name="see-also"></a>Se även
 
+[Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)  
+[Konfigurera räntevillkor](finance-setup-finance-charges.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

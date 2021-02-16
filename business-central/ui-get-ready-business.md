@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912193"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816985"
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
 
-Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 För att hjälpa dig att göra dig redo för affärer, kan du besöka sidan **Assisterad konfiguration** där du kan starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. För att få åtkomst till sidan väljer du helt enkelt ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Assisterad konfiguration**.
 
@@ -27,7 +27,7 @@ För att hjälpa dig att göra dig redo för affärer, kan du besöka sidan **As
 
 När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av andra assisterade konfigurationsguide på listan.
 
-Om ett område inte omfattas av en assisterad konfiguration väljer du ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Avancerade inställningar**. I **Avancerade inställningar** ger avsnittet **Manuell inställning** åtkomst till inställningar för sidor där du kan fylla i inställningsfält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Om ett område inte omfattas av en assisterad konfiguration väljer du ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Avancerade inställningar**. I **Avancerade inställningar** ger avsnittet **Manuell inställning** åtkomst till inställningar för sidor där du kan fylla i inställningsfält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > Listan över assisterade konfigurationsguider, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör.
@@ -49,7 +49,7 @@ Använd pilarna för att minska en del av sidan och för att få mer plats för 
 
 ## <a name="company-information"></a>Företagsinformation
 
-Under **företaginställningar** kan du visa och redigera in inställningsinformation om det aktuella företaget. Mycket av detta fylldes i om du slutförde den assisterade installationen **Konfigurera företag** när du regsitrerade dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill ändra företaglogotypen, kontaktinformation, bankinställningarna eller information om fältet, kan du göra det från denna sida.  
+Under **företaginställningar** kan du visa och redigera in inställningsinformation om det aktuella företaget. Mycket av detta fylldes i om du slutförde den assisterade installationen **Konfigurera företag** när du regsitrerade dig för [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill ändra företaglogotypen, kontaktinformation, bankinställningarna eller information om fältet, kan du göra det från denna sida.  
 
 ## <a name="adding-users-and-permissions"></a>Lägga till användare och behörigheter
 
@@ -59,7 +59,7 @@ När användare skapas i Microsoft 365 kan de importeras till sidan **Användare
 
 ## <a name="getting-help"></a>Få hjälp
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hitta knappbeskrivningar som kan hjälpa dig genom de olika affärsprocesserna. För varje knappbeskrivning väljer du länken **Läs mer** för att öppna hjälpen för den aktuella sidan. Använd CTRL + F1 på tangentbordet för att öppna hjälpen för sidan i fråga på alla sidor. Frågetecknet i det övre högra hörnet öppnar sidan **Hjälp och support** och gå till produkthjälpen därifrån.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du hitta knappbeskrivningar som kan hjälpa dig genom de olika affärsprocesserna. För varje knappbeskrivning väljer du länken **Läs mer** för att öppna hjälpen för den aktuella sidan. Använd CTRL + F1 på tangentbordet för att öppna hjälpen för sidan i fråga på alla sidor. Frågetecknet i det övre högra hörnet öppnar sidan **Hjälp och support** och gå till produkthjälpen därifrån.
 
 ## <a name="next-steps"></a>Gå vidare
 
@@ -68,9 +68,9 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 ## <a name="see-also"></a>Se även
 
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Utvärderingsversioner och prenumerationer](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer](across-preview.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

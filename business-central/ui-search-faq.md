@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914891"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760248"
 ---
 # <a name="tell-me-faq"></a>Vanliga frågor om Berätta
 I det här avsnittet besvaras frågor som våra erfarna användare ofta frågar om funktionen berätta för mig.
@@ -32,7 +32,7 @@ Om användaren inte har AccessByPermissions visas inte åtgärder. Sidor och rap
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Vad gör att detta skiljer sig från vad som tidigare var känt som Sidsökning?
 Sidsökning har utvecklats till Berätta för att hjälpa dig att få jobbet gjort fortare. Sidsökning kan bara hjälpa dig att navigera till sidor och rapporter. På teknisk nivå baseras Berätta inte längre på äldre MenuSuite-begrepp.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Du kan använda lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omfattar detta Berätta?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Du kan använda lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Omfattar detta Berätta?
 Du kan använda Berätta i den lokala webbklienten för att hitta åtgärder, sidor och rapporter, men inte dokumentation eller appar och konsulttjänster i AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Är Berätta tillgänglig för alla formfaktorer?

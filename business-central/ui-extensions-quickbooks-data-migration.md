@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912277"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757123"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Tillägget QuickBooks datamigrering
 
-Detta tillägg gör det enkelt att migrera kunder, leverantörer, artiklar och konton från QuickBooks till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om ditt företag använder QuickBooks i dag, kan du exportera nödvändig information och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Detta tillägg gör det enkelt att migrera kunder, leverantörer, artiklar och konton från QuickBooks till [!INCLUDE[prod_short](includes/prod_short.md)]. Om ditt företag använder QuickBooks i dag, kan du exportera nödvändig information och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[prod_short](includes/prod_short.md)].  
 Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Data från QuickBooks Desktop
@@ -50,7 +50,7 @@ En viktig del av är att ange konton för att migrera transaktionerna till. Det 
 Business Central kräver att redovisningskonton har tilldelade kontonummer. Kontrollera att nummer tilldelas till kontona i QuickBooks.
 Transaktioner i QuickBooks måste ha skattebelopp, du ställer in ett skattekonto för din skattemyndighet i Business Central innan du kan bokföra transaktioner.
 
-För att hämta data från QuickBooks desktop-programmet måste du hämta Microsofts verktyg för dataexportering.  Instruktioner för verktyget finns i datamigreringsguiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verktyget ansluter dig till QuickBooks-programmet och exporterar tillämpliga data till en .zip-fil.  
+För att hämta data från QuickBooks desktop-programmet måste du hämta Microsofts verktyg för dataexportering.  Instruktioner för verktyget finns i datamigreringsguiden i [!INCLUDE[prod_short](includes/prod_short.md)]. Verktyget ansluter dig till QuickBooks-programmet och exporterar tillämpliga data till en .zip-fil.  
 
 > [!NOTE]
 > För närvarande fungerar verktyget för dataexportering bara med QuickBooks 2017 och 2018.
@@ -69,4 +69,4 @@ Kontrollera de ingående saldona för konton i redovisningen. QuickBooks sparar 
 ## <a name="see-also"></a>Se även
 
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  

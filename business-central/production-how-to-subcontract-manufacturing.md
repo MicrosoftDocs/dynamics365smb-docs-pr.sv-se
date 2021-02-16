@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915391"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758973"
 ---
 # <a name="subcontract-manufacturing"></a>Lägga ut legotillverkning för produktion
 Legotillverkningsvalda operationer till leverantör är vanligt i många tillverkningsföretag. Legotillverkning kan vara sällan förekommande eller en integrerad del i alla produktionsprocesser.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ger flera verktyg som kan användas för att hantera legotillverkning:  
+[!INCLUDE[prod_short](includes/prod_short.md)] ger flera verktyg som kan användas för att hantera legotillverkning:  
 
 - Produktionsgrupper med tilldelad leverantör: Med den här funktionen kan du upprätta en produktionsgrupp som är associerad med en leverantör (underleverantör). Detta kallas för en produktionsgrupp för legotillverkning. Du kan ange en produktionsgrupp för legotillverkning i en operationsföljd, vilket gör att du på ett enkelt sätt kan bearbeta legoaktiviteten. Dessutom kan kostnaden för operationen anges på operationsföljdsnivå eller produktionsgruppsnivå.  
 - Produktionsgrupper kostnadsbaserade på enheter eller tid: Med den här funktionen kan du ange om kostnaderna som är associerade med produktionsgruppen baseras på produktionstiden eller en fast kostnad per enhet. Även om underleverantörer oftast använder en fast kostnad per enhet för att debitera kostnaden för tjänsten, kan båda alternativ hanteras i programmet (produktionstid och fast kostnad per enhet).  
@@ -95,4 +95,4 @@ När inköpsordern faktureras bokförs inköpskostnaden för inköpsordern i pro
 [Planerad](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

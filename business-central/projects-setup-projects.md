@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb76950dcf84a49ed2644a7db19827999579d24b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918969"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758572"
 ---
 # <a name="setting-up-project-management"></a>Ställa in projekthantering
-Innan du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
+Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
 
 Sedan kan du skapa projekt och schemaresurser för projekt samt hantera budgetar och spåra maskintimmar och anställdas arbetstimmar med tidrapporter. Mer information finns i [Hantera projekt](projects-manage-projects.md).  
 
@@ -38,4 +38,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

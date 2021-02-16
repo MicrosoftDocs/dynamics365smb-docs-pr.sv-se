@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923301"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760073"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 
@@ -68,7 +68,7 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna i proj
 -   Skapa exempeldata med hjälp av stegen i följande avsnitt.  
 
 ## <a name="story"></a>Situation  
-Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash är projektchef på CRONUS. Han använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Han brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Han upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiverar kopiering av projektet och delbetalningar.
+Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash är projektchef på CRONUS. Han använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Han brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Han upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar kopiering av projektet och delbetalningar.
 
  Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av det dagliga arbetet. Hon registrerar sitt eget arbete samt arbete som utförts av tekniker i varje aktivitet. Hon registrerar artiklarna som de har använt, och de kostnader som har uppstått.  
 
@@ -239,7 +239,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
 2.  På sidan **Projektjournal**, i fältet **Journalnamn**, öppnar du listan **Projektjournaler**. Välj projektjournalen **Tricia**.  
 3.  Välj åtgärden **Ber. återstående förbrukning**.  
-4.  Välj fältet **Projektnr** och välj relevant projektnummer, vanligtvis projekt J00010, på sidan **Projekt - Beräkna återstående förbrukning** på snabbfliken **Projektaktivitet**.  
+4.  Välj fältet **Projektnr** och välj relevant projektnummer, vanligtvis projekt J00010, på sidan **Projekt – Beräkna återstående förbrukning** på snabbfliken **Projektaktivitet**.  
 5.  På snabbfliken **Alternativ** skriver du **J00001** i fältet **Dokumentnr**. Det gör det enklare att senare söka efter bokföringen.  
 6.  Ange dagens datum som bokföringsdatum.  
 7.  Välj **OK**. Alla rader som föreslagits utifrån de planeringsrader som Prakash skapade för projektjournalen genereras.  
@@ -325,7 +325,7 @@ När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 2
      Några dagar senare arbetar Tricia ytterligare 10 timmar på projektet. Hon har nu arbetat totalt 35 timmar. Eftersom avtalet gäller för 30 timmar med kunden debiteras kunden endast 5 av dessa timmar. Tricia ska manuellt lägga till dessa extra fem timmar som hon arbetade i schemat.  
 
 4.  På sidan **Projektjournal** väljer du åtgärden **Ber. återstående förbrukning**.  
-5.  På sidan **Projekt - Beräkna återstående förbrukning** anger du följande information på snabbfliken **Alternativ**:  
+5.  På sidan **Projekt – Beräkna återstående förbrukning** anger du följande information på snabbfliken **Alternativ**:  
 
     -   **Verifikationsnr**: **J00003**  
     -   **Bokföringsdatum**: **(dagens datum)**  
@@ -429,10 +429,10 @@ Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader f�
 
     |Rad|Projektaktivitetsnr|Description|Typ av projektaktivitet|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |1|1000|Betalning - handpenning|Bokföring|  
+    |1|1000|Betalning – handpenning|Bokföring|  
     |2|2000|Användning|Bokföring|  
-    |3|3000|Betalning - halvvägs|Bokföring|  
-    |4|4000|Betalning - slutförande|Bokföring|  
+    |3|3000|Betalning – halvvägs|Bokföring|  
+    |4|4000|Betalning – slutförande|Bokföring|  
 
 5.  På sidan **Projektaktivitetsrader** väljer du uppgift 1000 och väljer sedan åtgärden **Projektplaneringsrader**.  
 6.  Skapa en planeringsrad med följande information:  
@@ -480,7 +480,7 @@ Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader f�
 3.  Välj åtgärden **Skapa försäljningsfaktura/kreditnota**. På försäljningsfakturan ser du att det bara är handpenningen som ingår i fakturan. Du kan nu skicka fakturan till kunden enligt överenskommelse.  
 
 ## <a name="next-steps"></a>Gå vidare  
- Den här genomgången har handlat om några av de grundläggande stegen när man arbetar med projekt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du har lärt dig hur du skapar ett nytt projekt, hur du kopierar ett projekt och hur du hanterar betalningar. Du har också sett en demonstration av hur du kan följa upp timmar och skapa fakturor.  
+ Den här genomgången har handlat om några av de grundläggande stegen när man arbetar med projekt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lärt dig hur du skapar ett nytt projekt, hur du kopierar ett projekt och hur du hanterar betalningar. Du har också sett en demonstration av hur du kan följa upp timmar och skapa fakturor.  
 
 ## <a name="see-also"></a>Se även  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader f�
  [Använda resurser](projects-how-use-resources.md)   
  [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)   
  [Fakturera projekt](projects-how-invoice-jobs.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

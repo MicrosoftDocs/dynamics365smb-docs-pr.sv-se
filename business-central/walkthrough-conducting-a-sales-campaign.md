@@ -1,6 +1,6 @@
 ---
 title: 'Genomgång: Genomföra en försäljningskampanj | Microsoft Docs'
-description: En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment - eller en grupp med kontakter - med hjälp av filter i Business Central.
+description: En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment – eller en grupp med kontakter – med hjälp av filter i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914841"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760117"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
-En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment, eller en grupp med kontakter, med hjälp av filter i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment, eller en grupp med kontakter, med hjälp av filter i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Du använder dessa funktioner i Försäljning och marknadsföring för att noggrant planera dina marknadsaktiviteter och hantera dina aktiviteter med kontakter och kunder. Du kan skapa kampanjer och lägga upp segment för utskick och andra typer av aktiviteter med dina kontakter och eventuella kunder.  
 
@@ -42,7 +42,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 -   Marknadsföringsassistent  
 
 ## <a name="prerequisites"></a>Förutsättningar  
- Innan du kan utföra aktiviteterna i den här genomgången måste du installera [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Innan du kan utföra aktiviteterna i den här genomgången måste du installera [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Situation  
  Marknadsföringschefen på försäljningsavdelningen hos CRONUS är ansvarig för planering och genomförande av kampanjer. Han fattar också beslut om vilka mässor som företaget ska delta i och utvärderar hur kampanjerna går.  
@@ -100,7 +100,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Så här tar du bort kontakter från segmentet  
 
-1.  På sidan **Segment** väljer du åtgärden **Kontakter** och väljer sedan åtgärden **Reducera kontakter** för att öppna sidan **Ta bort kontakter - minska**.  
+1.  På sidan **Segment** väljer du åtgärden **Kontakter** och väljer sedan åtgärden **Reducera kontakter** för att öppna sidan **Ta bort kontakter – minska**.  
 2.  På snabbfliken **Affärsrelation** väljer du filtret **PROS** i **Affärsrelationskod** och väljer sedan knappen **OK**.  
 
      Sidan **Segment** innehåller nu en reducerad lista med kontakter och i fältet **Antal rader** kan du se det antal kontakter som uppfyller de nya kriterierna.  
@@ -198,4 +198,4 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 ## <a name="see-also"></a>Se även  
 [Kundhantering](marketing-relationship-management.md)  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

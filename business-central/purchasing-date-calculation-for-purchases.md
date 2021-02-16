@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918902"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758598"
 ---
 # <a name="date-calculation-for-purchases"></a>Datumberäkning för inköp
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknas automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] beräknas automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning.  
 
 Om du anger ett begärt inleveransdatum i en inköpsorderhuvud, är det beräknade orderdatumet det datum då ordern måste placeras för inleverans av artiklarna på datumet som du valde. Då beräknas datumet då artiklarna är tillgängliga för plockning och visas i fältet **Förväntat inleveransdatum**.  
 
@@ -30,7 +30,7 @@ Om inget begärt inleveransdatum anges används orderdatumet på raden som utgå
 Om ett begärt inleveransdatum angetts på inköpsorderraden används detta datum som utgångspunkt i följande beräkningar:  
 
 - begärt inleveransdatum – ledtidsberäkning = orderdatum  
-- begärt inleveransdatum + ankommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
+- begärt inleveransdatum + inkommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
 
 Om du angett ett begärt inleveransdatum i inköpsorderhuvudet kopieras detta datum till motsvarande fält på alla raderna. Du kan ändra datumet på raderna eller ta bort datumet på raden.  
 
@@ -42,7 +42,7 @@ Om du angett ett begärt inleveransdatum i inköpsorderhuvudet kopieras detta da
 Om du skriver in en inköpsorderrad utan ett begärt leveransdatum fylls fältet **Orderdatum** i automatiskt med datumet i fältet **Orderdatum** i inköpshuvudet. Detta datum är antingen det datum du angett eller arbetsdatumet. Därefter utförs följande datumberäkningar för inköpsorderraden, med utgångspunkt från orderdatumet:  
 
 - orderdatum + ledtidsberäkning = planerat inleveransdatum.  
-- planerat inleveransdatum + ankommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
+- planerat inleveransdatum + inkommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
 
 Om du ändrar orderdatumet på raden, t.ex. om artiklarna inte är tillgängliga hos leverantören förrän vid ett senare datum, beräknas de aktuella datumen automatiskt om på raden.  
 
@@ -50,7 +50,7 @@ Om du ändrar orderdatumet i huvudet kopieras detta datum till fältet **Orderda
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standardvärden för ledtidsberäkning
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] använder värdet från fältet **Ledtidsberäknin** på inköpsorderraden för att beräkna ordern och förväntade inleveransdatum.  
+[!INCLUDE[prod_short](includes/prod_short.md)] använder värdet från fältet **Ledtidsberäknin** på inköpsorderraden för att beräkna ordern och förväntade inleveransdatum.  
 
 Du kan ange värdet på raden manuellt eller låta programmet använda värden som har definierats på leverantörskortet, artikekortet, lagerställets enhetkort eller i artikelleverantörens katalog.
 Ledtidsvärdet på leverantörskortet används dock endast om ingen ledtid har angetts på artikelkortet, lagerställets enhetkort eller i artikelleverantörens katalog för artikeln. Detta är också den eskalerade prioritetsordningen för dessa värden. Om alla anges har ledtiden från leverantörskortet lägst prioritet och ledtiden från artikelleverantörens katalog högst prioritet.  
@@ -59,4 +59,4 @@ Ledtidsvärdet på leverantörskortet används dock endast om ingen ledtid har a
 
 [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)   
 [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

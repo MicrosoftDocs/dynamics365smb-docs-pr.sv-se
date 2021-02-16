@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914816"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756423"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan kräva en deposition innan du tillverkar artiklar mot order eller så kan du kräva betalning innan du levererar artiklar till en kund. Använd funktionen i för förskottsbetalning i [!INCLUDE[d365fin](includes/d365fin_md.md)] för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.  
+Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan kräva en deposition innan du tillverkar artiklar mot order eller så kan du kräva betalning innan du levererar artiklar till en kund. Använd funktionen i för förskottsbetalning i [!INCLUDE[prod_short](includes/prod_short.md)] för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.  
 
  Förskottsbetalningskrav kan definieras för en kund eller leverantör för alla artiklar eller valda artiklar. När du har gjort de nödvändiga inställningarna kan du generera förskottsfakturor från försäljnings- och inköpsorder för det beräknade förskottsbeloppet. Du ändra standardbeloppen på fakturan om det behövs. Du kan till exempel skicka ytterligare förskottsfakturor om ytterligare artiklar läggs till i ordern.  
 
@@ -43,7 +43,7 @@ Förskottsbetalningar är betalningar som faktureras och bokförs för en förs�
 -   Kundreskontraadministratör (Arnie)  
 
 ## <a name="story"></a>Situation  
- Phyllis är redovisningschef. Hon fattar beslut om vilka kunder som måste betala en deposition innan artiklar tillverkas eller levereras. Phyllis lägger upp [!INCLUDE[d365fin](includes/d365fin_md.md)] för att beräkna förskottsbetalningar automatiskt.  
+ Phyllis är redovisningschef. Hon fattar beslut om vilka kunder som måste betala en deposition innan artiklar tillverkas eller levereras. Phyllis lägger upp [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna förskottsbetalningar automatiskt.  
 
  Susan är försäljningsorderhandläggare. När en kund ringer in en order registrerar hon ordern i systemet medan kunden är i telefon. På så sätt kan hon verifiera priser och betalningsvillkor med kunden omedelbart, och hon kan göra justeringar i ordern medan hon förhandlar med kunden.  
 
@@ -208,14 +208,14 @@ Arnie kan visa historiken för att kontrollera att försäljningfakturan har ska
 1. Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
 
 ## <a name="next-steps"></a>Gå vidare  
-Den här genomgången har gått igenom hur du konfigurerar [!INCLUDE[d365fin](includes/d365fin_md.md)] att hantera förskottsbetalningar. Du har lärt dig hur man lägger upp standardvärden för procentuell förskottsbetalning för kunder och artiklar, och du har också använt olika metoder för att beräkna förskottsbetalningar för en order. Du har provat att tilldela en order ett fullständigt förskottsbelopp och du har låtit beräkna förskottsbeloppet som en procentuell del av hela ordern.  
+Den här genomgången har gått igenom hur du konfigurerar [!INCLUDE[prod_short](includes/prod_short.md)] att hantera förskottsbetalningar. Du har lärt dig hur man lägger upp standardvärden för procentuell förskottsbetalning för kunder och artiklar, och du har också använt olika metoder för att beräkna förskottsbetalningar för en order. Du har provat att tilldela en order ett fullständigt förskottsbelopp och du har låtit beräkna förskottsbeloppet som en procentuell del av hela ordern.  
 
 Du har också bokfört en förskottsfaktura, skapat en andra förskottsfaktura när ordern har ändrats och bokfört slutfakturan för det återstående beloppet.  
 
-Förskottsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] gör det enkelt att lägga upp och använda förskottsregler för kunder och artiklar och det gör att du kan bokföra varje betalning mot en faktura.  
+Förskottsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] gör det enkelt att lägga upp och använda förskottsregler för kunder och artiklar och det gör att du kan bokföra varje betalning mot en faktura.  
 
 ## <a name="see-also"></a>Se även  
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)

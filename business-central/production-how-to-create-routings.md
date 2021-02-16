@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922700"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759348"
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
 
@@ -46,8 +46,8 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 9. I fältet **Operationsföljdslänkkod** anger du en kod för att ansluta komponenten till en särskild operation. För mer information, se [Så här skapar du operationsföljdslänk](production-how-to-create-routings.md#to-create-routing-links).
 10. I fälten **Bearbetningstid** och **Omställningstid** anger du processtiderna som krävs för att genomföra operationen.
 
-    > [!NOTE]
-    > Omställningstiden beräknas per produktionsorder, och bearbetningstiden beräknas per producerad artikel.  
+     > [!NOTE]
+     > Omställningstiden beräknas per produktionsorder, och bearbetningstiden beräknas per producerad artikel.  
 
 11. I fältet **Samtidiga kapaciteter**, ange hur många enheter av den markerade resursen som används för att utföra operationen. Till exempel halveras körtiden om två personer tilldelas till en förpackningsoperation.  
 12. Fortsätt att fylla i rader för alla operationer som krävs för att producera den aktuella artikeln.  
@@ -129,4 +129,4 @@ Versionens giltighetstid anges i fältet **Startdatum**.
 [Planerad](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

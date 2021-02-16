@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916707"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759573"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 
-Du kan skicka elektroniska och manuella checkar i [!INCLUDE[d365fin](includes/d365fin_md.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
+Du kan skicka elektroniska och manuella checkar i [!INCLUDE[prod_short](includes/prod_short.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
 
 I följande procedur beskrivs hur du betalar en leverantör med en datorcheck som kontrolleras genom att koppla betalningen till relevant faktura, skriver ut checken och sedan bokför betalningen som betald. Detta ger positiva leverantörsreskontratransaktioner, som gäller för negativa banktransaktioner och fysiska kontroller för bearbetning i banken.
 
@@ -74,7 +74,7 @@ När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från d
 5. Välj knappen **OK**.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Om du vill visa en sammanfattning av bokförda checkar
-Om du vill granska bokförda checkar, till exempel för att kontrollera flera kontroller som betalas till en leverantör, kan du använda rapporten **bankkonto - checkinformation**.
+Om du vill granska bokförda checkar, till exempel för att kontrollera flera kontroller som betalas till en leverantör, kan du använda rapporten **bankkonto – checkinformation**.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonto – kontrollera information** och välj sedan tillhörande länk.
 2. Ställa in filter som relevanta och välj sedan knappen **förhandsgranskning**.
 
@@ -83,4 +83,4 @@ Om du vill granska bokförda checkar, till exempel för att kontrollera flera ko
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Exportera en Positive Pay-fil](finance-how-positive-pay.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

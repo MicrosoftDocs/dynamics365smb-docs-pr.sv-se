@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Centrala koncept i planeringssystemet| Microsoft Docs
+title: Designdetaljer – Centrala koncept i planeringssystemet| Microsoft Docs
 description: Planeringsfunktionerna ingår i ett batch-jobb som först väljer alla relevanta artiklar och planeringsperiod, och som sedan föreslår möjliga åtgärder som användaren kan vidta baserat på rådande tillgång/efterfrågan och artiklarnas planeringsparametrar.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917507"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013635"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
@@ -24,7 +24,7 @@ Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta art
 
 Planeraren i ett företag, till exempel en inköpare eller en produktionsplanerare antas vara användaren i planeringssystemet. Planeringssystemet hjälper användaren genom att utföra de omfattande men ganska rättframma beräkningarna av en plan. Användaren kan sedan koncentrera sig på att lösa svårare problem, till exempel när saker är annorlunda än vanligt.  
 
-Planeringssystemet drivs av förväntad och faktisk kundefterfrågan, till exempel prognoser och försäljningsorder. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder för användaren att vidta för eventuell leverans från leverantörer, monterings- eller produktionsavdelningar, eller överföringar från andra distributionslager. De föreslagna åtgärderna kan vara att skapa nya leveransorder, till exempel inköps - eller produktionsorder. Om det redan finns leveransorder kan de föreslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
+Planeringssystemet drivs av förväntad och faktisk kundefterfrågan, till exempel prognoser och försäljningsorder. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder för användaren att vidta för eventuell leverans från leverantörer, monterings- eller produktionsavdelningar, eller överföringar från andra distributionslager. De föreslagna åtgärderna kan vara att skapa nya leveransorder, till exempel inköps – eller produktionsorder. Om det redan finns leveransorder kan de föreslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
 
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om efterfrågan minskas får du i planeringssystemet ett förslag om att användaren ska skjuta upp, minska antalet eller annullera befintliga leveransorder.  
 
@@ -49,7 +49,7 @@ Med andra ord antas att planen för det tidigare har körts enligt den angivna p
 Mer information finns i [Hantera order före planeringsstartdatumet](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk orderspårning (pegging)  
-Dynamisk orderspårning, med sitt samtidiga skapande av åtgärdsmeddelanden i planeringsförslaget, är inte en del av leveransplaneringssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den här funktionen länkar, i realtid, behovet och det antal som kan täcka det när en ny efterfrågan eller tillgång registreras eller ändras.  
+Dynamisk orderspårning, med sitt samtidiga skapande av åtgärdsmeddelanden i planeringsförslaget, är inte en del av leveransplaneringssystemet i [!INCLUDE[prod_short](includes/prod_short.md)]. Den här funktionen länkar, i realtid, behovet och det antal som kan täcka det när en ny efterfrågan eller tillgång registreras eller ändras.  
 
 Till exempel om användaren anger eller ändrar en försäljningsorder söker det dynamiska orderspårningsystemet omedelbart efter en lämplig tillgång för att täcka efterfrågan. Det kan vara från lager eller från en förväntad leveransorder (t.ex en inköpsorder eller produktionsorder). När en tillförselkälla hittas skapar systemet en länk mellan tillgång och efterfrågan och visar den i skrivskyddade sidor som nås från de berörda dokumentraderna. När lämplig efterfrågan inte kan hittas skapar det dynamiska orderspårningsystemet åtgärdsmeddelanden i planeringsförslaget med tillförselplankalkylark som återspeglar dynamiskt saldo. Den dynamiska orderspårningsystemet har ett grundläggande planeringssystem som kan vara till hjälp både för planeraren och andra roller i den interna försörjningskedjan.  
 
@@ -76,29 +76,29 @@ Som motsats hanterar planeringssystemet all efterfrågan och tillgång för en v
 
 Efter planeringskörningen återstår inga åtgärdsmeddelanden i tabellen Åtgärdsmeddelandetrans. eftersom de har ersatts med de föreslagna åtgärderna i planeringsförslaget  
 
-Mer information finns i länkarna för orderspårning under planering i [Balansera tillgång och efterfrågan](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+Mer information finns i [Orderspårningslänkar genom planering](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Sekvens och prioritet i planering  
 När du upprättar en plan är sekvensen med beräkningarna viktig för att få jobbet gjort inom en rimlig tidsram. Dessutom spelar prioriteringen av krav och resurser en viktig roll för att få de bästa resultatet.  
 
-Planeringssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)] efterfrågestyrt. Artiklar på hög nivå ska planeras före artiklar på låg nivå, eftersom planen för artiklar på hög nivå artiklar kan generera ytterligare efterfrågan för artiklarna på låg nivå. Det innebär till exempel att återförsäljningslagerställen ska planeras innan distributionscenter planeras, eftersom planen för ett återförsäljningslagerställe kan innehålla ytterligare efterfrågan från distributionscentret. På en detaljerad saldonivå betyder det också att en försäljningsorder inte ska aktivera en ny leveransorder om en redan släppt leveransorder kan täcka försäljningsordern. På samma sätt ska en tillgång med ett specifikt partinummer inte fördelas för att täcka en generisk efterfrågan om en annan efterfrågan kräver det specifika partiet.  
+Planeringssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] efterfrågestyrt. Artiklar på hög nivå ska planeras före artiklar på låg nivå, eftersom planen för artiklar på hög nivå artiklar kan generera ytterligare efterfrågan för artiklarna på låg nivå. Det innebär till exempel att återförsäljningslagerställen ska planeras innan distributionscenter planeras, eftersom planen för ett återförsäljningslagerställe kan innehålla ytterligare efterfrågan från distributionscentret. På en detaljerad saldonivå betyder det också att en försäljningsorder inte ska aktivera en ny leveransorder om en redan släppt leveransorder kan täcka försäljningsordern. På samma sätt ska en tillgång med ett specifikt partinummer inte fördelas för att täcka en generisk efterfrågan om en annan efterfrågan kräver det specifika partiet.  
 
 ### <a name="item-priority--low-level-code"></a>Artikelprioritet / lågnivå kod  
 I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel i härledd efterfrågan på komponenter som ingår i den färdiga artikeln. Strukturer kontrollerar komponentstrukturen och kan omfatta flera nivåer av halvfärdiga artiklar. När du planerar en artikel på en nivå skapar det härledd efterfrågan på komponenter på nästa nivå, och så vidare. Det leder till slut till en härledd efterfrågan på inköpta artiklar. Därför planerar planeringssystemet för artiklar i den ordning som de är rankade i den totala strukturhierarkin, och börjar med färdiga säljbara artiklar på högsta nivån och fortsätter nedåt via produktstrukturen till artiklarna för lägre nivå (enligt lägsta-nivå-koden).  
 
 ![Planera för strukturlistor](media/NAV_APP_supply_planning_1_BOM_planning.png "Planera för strukturlistor")  
 
-Figurerna visar i vilken följd systemet gör förslag för leveransorder på högsta nivån och om användaren godkänner dessa kalkylark, även för alla artiklar på lägre nivå.  
+Figurerna visar i vilken följd systemet ger förslag för leveransorder på högsta nivå och – förutsatt att användaren godkänner dessa förslag – även för alla artiklar på lägre nivå.  
 
 Mer information om produktionsavvägningar finns i [Läsa in lagerprofilerna](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Optimera prestanda för beräkningar på låg nivå
-Beräkningar av kod på låg nivå kan påverka systemprestanda. Om du vill minska effekten kan du inaktivera **Dynamisk beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. När du gör det föreslår [!INCLUDE[d365fin](includes/d365fin_md.md)] att du skapar en post för återkommande jobbkö som uppdaterar koder på låg nivå dagligen. Du kan se till att jobbet kommer att köras utanför arbetstid genom att ange en starttid i fältet **Tidigaste startdatum/starttid**.
+Beräkningar av kod på låg nivå kan påverka systemprestanda. Om du vill minska effekten kan du inaktivera **Dynamisk beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. När du gör det föreslår [!INCLUDE[prod_short](includes/prod_short.md)] att du skapar en post för återkommande jobbkö som uppdaterar koder på låg nivå dagligen. Du kan se till att jobbet kommer att köras utanför arbetstid genom att ange en starttid i fältet **Tidigaste startdatum/starttid**.
 
 Du kan också aktivera logik som påskyndar beräkningar av kod på låg nivå genom att välja **Optimera beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. 
 
 > [!IMPORTANT]
-> Om du väljer att optimera prestanda använder [!INCLUDE[d365fin](includes/d365fin_md.md)] nya beräkningsmetoder att fastställer koder på låg nivå. Om du har ett tillägg som är beroende av de händelser som används av de gamla beräkningarna kan tillägget sluta fungera.   
+> Om du väljer att optimera prestanda använder [!INCLUDE[prod_short](includes/prod_short.md)] nya beräkningsmetoder att fastställer koder på låg nivå. Om du har ett tillägg som är beroende av de händelser som används av de gamla beräkningarna kan tillägget sluta fungera.   
 
 ### <a name="locations--transfer-level-priority"></a>Lagerställen/Prioritet för överföringsnivå  
 Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivån och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. I det här fallet måste planeringsparametrarna anges per artikel och även per lagerställe.  
@@ -121,7 +121,7 @@ Både prognoser och avropsorder representerar förutsedd efterfrågan. Avropsord
 
 ![Planera med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planera med prognoser")  
 
-Mer information finns i avsnittet ”Prognosefterfrågan minskas genom försäljningsorder” i [Läsa in lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Mer information finns i [Prognostiserad efterfrågan minskas av försäljningsorder](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Planeringsfördelning  
 Alla artiklar ska planeras för, men det finns ingen anledning att beräkna en plan för en artikel om det inte har skett någon ändring i efterfråge- eller tillgångsmönstret sedan senaste gången som en plan beräknades.  
@@ -136,12 +136,12 @@ Anledningen för att välja artikel för planeringen är en fråga om systempres
 
 Den fullständiga listan över anledningar för att tilldela en artikel för planering finns i [Designdetaljer: Tabell för planeringsfördelning](design-details-planning-assignment-table.md).  
 
-Planeringsalternativen i [!INCLUDE[d365fin](includes/d365fin_md.md)] är:  
+Planeringsalternativen i [!INCLUDE[prod_short](includes/prod_short.md)] är:  
 
 -   Beräkna fullständig plan – Beräknar alla valda artiklar oavsett om det är nödvändigt eller inte.  
 -   Beräkna nettoförändringplan – Beräknar endast de valda artiklar som har någon ändring i efterfråge-/tillgångssmönstret, och därför har tilldelats för planering.  
 
-Vissa användare tror att nettoförändringsplaneringen ska utföras i farten, till exempel när försäljningsorder anges. Det kan vara förvirrande eftersom dynamisk orderspårning och åtgärdsmeddelanden också beräknas i farten. Dessutom erbjuder [!INCLUDE[d365fin](includes/d365fin_md.md)] realtidstillgänglig Disponibel att lova-kontroll, som ger popup-varningar när du anger försäljningsorder om behovet inte kan uppfyllas enligt den aktuella finns leveransplaneringen.  
+Vissa användare tror att nettoförändringsplaneringen ska utföras i farten, till exempel när försäljningsorder anges. Det kan vara förvirrande eftersom dynamisk orderspårning och åtgärdsmeddelanden också beräknas i farten. Dessutom erbjuder [!INCLUDE[prod_short](includes/prod_short.md)] realtidstillgänglig Disponibel att lova-kontroll, som ger popup-varningar när du anger försäljningsorder om behovet inte kan uppfyllas enligt den aktuella finns leveransplaneringen.  
 
 Utöver dessa fall planerar planeringssystemet endast för de artiklar som användaren har förberett med lämpliga planeringsparametrar. Annars antas det att användaren planerar artiklarna manuellt eller halvautomatiskt genom att använda funktionen Orderplanering.  
 
@@ -179,7 +179,7 @@ Serie-/partinumrerade artiklar utan specifik artikelspårningsinställning kan h
 
 Efterfrågan med serie-/partinummer, specifika eller icke-specifika, anses högprioriterade och är därför undantagna från den frysta zonen, vilket betyder att de ska ingå i planering även om de förfaller före planeringsstartdatumet.  
 
-Mer information finns i avsnittet "Serie-/partinummer läses in efter specifikationsnivå" i [Läsa in lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Mer information finns i [Serie-/partinummer läses in efter specifikationsnivå](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Mer information om hur planeringssystemet balanserar attribut finns i [Serie-/partinummer och Order-till-order-länkar är undantagna från den frysta zonen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -215,7 +215,7 @@ För mer information, se [Designdetaljer: Reservation, orderspårning och åtgä
 ## <a name="warnings"></a>Varningar  
 Den första kolumnen i planeringsförslaget är avsedd för varningsfälten. I det här fältet kommer alla planeringsrader som skapats för en ovanlig situation att ha en varningsikon, som användaren kan klicka på för att få mer information.  
 
-Tillgången på planeringsrader med varningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Systemet kan dock konfigurerar för att följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i beskrivningen av alternativen för batch-jobbet **Skapa inköpsförslag - Planeringsförslag** respektive batchjobbet **Inköpskalkylarket Skapa inköpsförslag - inköpskalkylark** .  
+Tillgången på planeringsrader med varningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Systemet kan dock konfigurerar för att följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i beskrivningen av alternativen för batch-jobbet **Skapa inköpsförslag – Planeringsförslag** respektive batchjobbet **Inköpskalkylarket Skapa inköpsförslag – inköpskalkylark** .  
 
 Varningsinformationen visas på sidan **Ej spårade planeringselement** som är också användas för att visa orderspårningslänkar till icke orderrelaterade nätverkstyper. Följande typer av varningar förekommer:  
 
@@ -270,13 +270,13 @@ Fältet kan ställas in manuellt av användaren, men i vissa fall ställs det in
 Mer information om hur detta fält används finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Orderplanering  
-Det grundläggande leveransplaneringsverktyget som representeras av sidan **Orderplanering** har utformats för manuellt beslutsfattande. Den beaktar inte några planeringsparametrar och diskuteras därför inte vidare i det här dokumentet. Se hjälpen i [!INCLUDE[d365fin](includes/d365fin_md.md)] för mer information om funktionen Orderplanering.  
+Det grundläggande leveransplaneringsverktyget som representeras av sidan **Orderplanering** har utformats för manuellt beslutsfattande. Den beaktar inte några planeringsparametrar och diskuteras därför inte vidare i det här dokumentet. Mer information finns i [Planera för ny behovsorder efter order](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Orderplanering bör inte användas om företaget redan använder planering eller inköpskalkylark. Leveransorder som skapas från sidan **Orderplanering** kan ändras eller tas bort under den automatiska planeringskörningen. Detta beror på att den automatiska planeringskörningen använder planeringsparametrarna och dessa kanske inte beaktas av användaren som skapade den manuella planen på sidan Orderplanering.  
 
 ##  <a name="finite-loading"></a>Bestämd beläggning  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] är ett ERP-system av standardtyp, inget avsändningssystem eller kontrollsystem för butiksgolv. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.  
+[!INCLUDE[prod_short](includes/prod_short.md)] är ett ERP-system av standardtyp, inget avsändningssystem eller kontrollsystem för butiksgolv. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.  
 
 Det påtänkta användningen av funktionen Kap.begränsning för resurs är 1): om du vill undvika överbelastning av specifika resurser och 2): om du vill säkerställa att ingen kapacitet blir ej fördelad om den kan öka produktionstiden för en produktionsorder. Funktionen har inga anläggningar eller alternativ om du vill prioritera eller optimera operationer, vilket man kan förvänta sig i ett avsändningssystem. Det kan ge en grov uppskattning av kapaciteten som är praktisk för att identifiera flaskhalsar och undvika att överlasta resurser.  
 
@@ -287,7 +287,7 @@ När du ska planera med kapacitetsbegränsade resurser ser systemet till att ing
 
 Dämpartid kan läggas till i resurser för att minimera åtgärdsdelning. Det gör att systemet kan schemalägga laddning till den sista möjliga dagen genom att överskrida den kritiska beläggningsprocenten något om det kan minska antalet operationer som delas.  
 
-Detta slutför översikten över centrala koncept för leveransplanering i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Följande avsnitt utforskar dessa begrepp närmare och placerar dem i kontexten av kärnplaneringsprocedurerna, balansering av efterfrågan och tillgång samt hanteringen av partiformningsmetoder.  
+Detta slutför översikten över centrala koncept för leveransplanering i [!INCLUDE[prod_short](includes/prod_short.md)]. Följande avsnitt utforskar dessa begrepp närmare och placerar dem i kontexten av kärnplaneringsprocedurerna, balansering av efterfrågan och tillgång samt hanteringen av partiformningsmetoder.  
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)   

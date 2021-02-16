@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926403"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758348"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
@@ -47,34 +47,34 @@ Utöver matchningsvillkoret gäller följande för tecknet för betalningsbelopp
 |-|-|
 |**Matchningssäkerhet**|Anger hur mycket du förlitar dig på kopplingsregeln som du definierar på raden. <br /></br>Ett värde som du anger i det här fältet visas i fältet **Matchningssäkerhet** på sidan **Betalningsavstämningsjournal** enligt kvaliteten på den automatiska betalningskopplingen på journalraden.|
 |**Prioritet**|Anger prioriteten för kopplingsregeln i förhållande till andra kopplingsregler som är definierade som rader på sidan **Regler för betalningskopplingar**. 1 motsvarar den högsta prioriteten.|
-|**Matchad relaterad part**|Anger hur mycket information om kunden eller leverantören på betalningsavstämningsjournalraden - till exempel adress, ort och bankkontonummer - som måste matcha information om den öppna transaktionen för att kopplingsregeln ska användas för att automatiskt koppla betalningen till den öppna transaktionen.|
+|**Matchad relaterad part**|Anger hur mycket information om kunden eller leverantören på betalningsavstämningsjournalraden – till exempel adress, ort och bankkontonummer – som måste matcha information om den öppna transaktionen för att kopplingsregeln ska användas för att automatiskt koppla betalningen till den öppna transaktionen.|
 |**Matchat dok.nr/externt dok.nr**|Anger om texten på raden i betalningsavstämningsjournalen måste matcha värdet i fältet **Dokumentnr.** eller fältet **Externt dokumentnr.** i den öppna transaktionen innan kopplingsregeln kan användas för att automatiskt koppla betalningen till den öppna transaktionen.|
 |**Matchat belopp inkl. tolerans**|Anger hur många transaktioner för en kund eller leverantör som måste överensstämma med beloppet inklusive betalningstolerans innan kopplingsregeln används för att automatiskt koppla en betalning till den öppna transaktionen.|
 
-Följande register visar vilka betalningskopplingsregler som har ställts in i den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Följande register visar vilka betalningskopplingsregler som har ställts in i den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> Betalningskopplingsreglerna kan vara olika i din implementering av [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Betalningskopplingsreglerna kan vara olika i din implementering av [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Matchningssäkerhet | Prioritet | Matchad relaterad part | Dok.nr/externt dok.nr. Matchningar | Matchat belopp inkl. tolerans |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
-| Högt             | 1        | Helt                 | Ja - Flera                 | En matchning                      |
-| Högt             | 2        | Helt                 | Ja - Flera                 | Flera matchningar               |
+| Högt             | 1        | Helt                 | Ja – Flera                 | En matchning                      |
+| Högt             | 2        | Helt                 | Ja – Flera                 | Flera matchningar               |
 | Högt             | 3        | Helt                 | Ja                            | En matchning                      |
 | Högt             | 4        | Helt                 | Ja                            | Flera matchningar               |
-| Högt             | 5        | Delvis             | Ja - Flera                 | En matchning                      |
-| Högt             | 6        | Delvis             | Ja - Flera                 | Flera matchningar               |
+| Högt             | 5        | Delvis             | Ja – Flera                 | En matchning                      |
+| Högt             | 6        | Delvis             | Ja – Flera                 | Flera matchningar               |
 | Högt             | 7        | Delvis             | Ja                            | En matchning                      |
 | Högt             | 8        | Helt                 | Nej                             | En matchning                      |
-| Högt             | 9        | Nej                    | Ja - Flera                 | En matchning                      |
-| Högt             | 10       | Nej                    | Ja - Flera                 | Flera matchningar               |
-| Medium           | 1        | Helt                 | Ja - Flera                 | Beaktas inte                 |
+| Högt             | 9        | Nej                    | Ja – Flera                 | En matchning                      |
+| Högt             | 10       | Nej                    | Ja – Flera                 | Flera matchningar               |
+| Medium           | 1        | Helt                 | Ja – Flera                 | Beaktas inte                 |
 | Medium           | 2        | Helt                 | Ja                            | Beaktas inte                 |
 | Medium           | 3        | Helt                 | Nej                             | Flera matchningar               |
-| Medium           | 4        | Delvis             | Ja - Flera                 | Beaktas inte                 |
+| Medium           | 4        | Delvis             | Ja – Flera                 | Beaktas inte                 |
 | Medium           | 5        | Delvis             | Ja                            | Beaktas inte                 |
 | Medium           | 6        | Nej                    | Ja                            | En matchning                      |
-| Medium           | 7        | Nej                    | Ja - Flera                   | Beaktas inte                 |
+| Medium           | 7        | Nej                    | Ja – Flera                   | Beaktas inte                 |
 | Medium           | 8        | Delvis             | Nej                             | En matchning                      |
 | Medium           | 9        | Nej                    | Ja                            | Beaktas inte                 |
 | Lågt              | 1        | Helt                 | Nej                             | Inga matchningar                     |
@@ -89,4 +89,4 @@ Följande register visar vilka betalningskopplingsregler som har ställts in i d
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

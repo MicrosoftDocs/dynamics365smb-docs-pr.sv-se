@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7c9d67168308491daef838e91c5a1b84645b222a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04ae13561f44d544d38b04e3a881a0e707b441b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920428"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760523"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Kör batch-jobb och XML-portar
 Ett batch-jobb i är en rutin som bearbetar data i omgångar, till exempel batch-jobbet **Justera valutakurser**. Det finns batch-jobb som utför regelbundna redovisningsaktiviteter, som till exempel att stänga resultaträkningen i slutet av ett räkenskapsår. Många batch-jobb utför beräkningsarbetet, t.ex beräkning av dröjsmålsränta, valutakursjustering och beräkning av styckkostnaden.
@@ -35,4 +35,4 @@ Du kan schemalägga när ett batchjobb körs. Mer information finns i [Använda 
 ## <a name="see-also"></a>Se även
 [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
 [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

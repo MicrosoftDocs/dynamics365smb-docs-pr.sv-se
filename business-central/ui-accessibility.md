@@ -8,33 +8,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: edupont
-ms.openlocfilehash: 69b1dccc88750dca2e2f406554db34357bd8d6db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5636f4b449a944e6b4d67e3dcae9f4c6657e5e06
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757723"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och kortkommandon
-Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgängligt för användare med funktionshinder. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder följande hjälpmedelsfunktioner:  
 
--   Kortkommandon
+Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[prod_short](includes/prod_short.md)] tillgängligt för användare med funktionshinder. [!INCLUDE[prod_short](includes/prod_short.md)] stöder följande hjälpmedelsfunktioner:  
+
+- Kortkommandon
 
     Mer information finns i [Kortkommandon](keyboard-shortcuts.md).
 
--   Navigering  
+- Navigering  
 
--   Rubriker  
+- Rubriker  
 
--   Alternativ text för bilder och länkar  
+- Alternativ text för bilder och länkar  
 
--   Stöd för vanliga hjälpmedel  
+- Stöd för vanliga hjälpmedel  
+
+- Använd kortkommandon för att zooma in och ut på vilken sida som helst
 
 <!-- moved to separate article
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+ [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
 |To do this|Press|  
 |----------------|-----------|  
@@ -48,24 +51,33 @@ Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d
 
 -->
 
-##  <a name="navigation"></a><a name="Navigation"></a> Navigering  
- Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet. Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare. Tryck på Shift+Tabb för att flytta bakåt.  
+## <a name="navigation"></a><a name="Navigation"></a> Navigering  
+ Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[prod_short](includes/prod_short.md)]-sidor och -rapporter med hjälp av tangentbordet. Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare. Tryck på Shift+Tabb för att flytta bakåt.  
 
  Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.  
 
-##  <a name="headings"></a><a name="Headings"></a> Rubriker  
- HTML-källan för [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  
+## <a name="headings-in-content"></a><a name="Headings"></a> Rubriker i innehåll
+ 
+ HTML-källan för [!INCLUDE[prod_short](includes/prod_short.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  
 
-##  <a name="image-and-links"></a><a name="Images"></a> Bilder och länkar  
+## <a name="image-and-links"></a><a name="Images"></a> Bilder och länkar
+
  En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
 
-##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjälpmedel  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
+## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjälpmedel
 
-## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel  
+[!INCLUDE[prod_short](includes/prod_short.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor.  
+
+## <a name="zoom"></a><a name="zoom"></a> Zooma
+
+I de flesta webbläsare används vanliga kortkommandon för att zooma in och ut på den aktuella sidan. Dessa kortkommandon är inte specifika för [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerar när du använder [!INCLUDE [prod_short](includes/prod_short.md)] i en webbläsare. En lista över vilka kortkommandon som stöds finns i [Kortkommandon för att zooma in och ut](keyboard-shortcuts.md#zoomshortcuts).  
+
+## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel
+
 Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Se även
+
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  

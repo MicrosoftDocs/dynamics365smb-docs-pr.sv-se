@@ -10,20 +10,20 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1c4e33593cd7d0084d3c41a22a865160411ef01f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 064f7fd7f0737263234b7324c298e513ef91e9c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923501"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757473"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Tillägget QuickBooks Online datamigrering
 
-Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[prod_short](includes/prod_short.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Vilka data kan jag importera från QuickBooks Online?
 
-Du kan importera följande data från QuickBooks Online till [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Du kan importera följande data från QuickBooks Online till [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Kunder
 * Leverantör
@@ -46,9 +46,9 @@ En viktig del av är att ange konton för att migrera transaktionerna till. Det 
 * Köp av varor eller tjänster från en leverantör.  
 * Justeringar i redovisningen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kräver att redovisningskonton har tilldelade kontonummer. Kontrollera att nummer tilldelas till kontona i QuickBooks Online.
+[!INCLUDE[prod_short](includes/prod_short.md)] kräver att redovisningskonton har tilldelade kontonummer. Kontrollera att nummer tilldelas till kontona i QuickBooks Online.
 
-Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett skattekonto för din skattemyndighet i [!INCLUDE[d365fin](includes/d365fin_md.md)] innan du kan bokföra transaktioner.
+Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett skattekonto för din skattemyndighet i [!INCLUDE[prod_short](includes/prod_short.md)] innan du kan bokföra transaktioner.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Hur börjar jag använda tillägget?
 
@@ -63,11 +63,11 @@ När du har migrerat data har transaktionerna statusen **ej bokförda**, så att
 
 Det finns några saker som du bör göra:
 
-* Om transaktionerna i QuickBooks Online har markerade eller rabatterade belopp måste du manuellt lägga till beloppen till de relaterade transaktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] innan du bokför dem.
+* Om transaktionerna i QuickBooks Online har markerade eller rabatterade belopp måste du manuellt lägga till beloppen till de relaterade transaktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] innan du bokför dem.
 * Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och en produktbokföringsmall till bokföringsinställningar så att du kan bokföra moms.
 * Kontrollera de ingående saldona för konton i redovisningen. QuickBooks Online sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
 ## <a name="see-also"></a>Se även
 
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  

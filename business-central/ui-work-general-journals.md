@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920703"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760107"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
-De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. Men du kan också bearbeta affärsaktiviteter, till exempel inköp, utbetalning, användning av återkommande journaler för att bokföra periodiseringar eller återbetalning av anställdas utgifter genom att bokföra journalrader i olika journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. Men du kan också bearbeta affärsaktiviteter, till exempel inköp, utbetalning, användning av återkommande journaler för att bokföra periodiseringar eller återbetalning av anställdas utgifter genom att bokföra journalrader i olika journaler i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De flesta journalerna baseras på *redovisningsjournalen* och du kan bearbeta alla transaktioner på sidan **redovisningsjournal**. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Det finns flera redovisningsjournalmallar. Varje journalmall representeras av en
 För varje journalmall kan du skapa din egen personliga journal som en journal. Du kan till exempel ange din egen journal för betalningsjournalen som har din personliga layout och inställningar. Följande tips är ett exempel på hur du anpassar en journal.
 
 > [!TIP]  
-> Om du väljer kryssrutan **Föreslå saldobelopp** på raden för din journal på sidan **Redovisningsjournaler** kommer fältet **Belopp** till exempel, redovisningsjournalrader för samma verifikationsnummer automatiskt att fyllas i med värdet som krävs för att hantera dokumentet. Mer information finns i [Låta [!INCLUDE[d365fin](includes/d365fin_md.md)] föreslå värden](ui-let-system-suggest-values.md).
+> Om du väljer kryssrutan **Föreslå saldobelopp** på raden för din journal på sidan **Redovisningsjournaler** kommer fältet **Belopp** till exempel, redovisningsjournalrader för samma verifikationsnummer automatiskt att fyllas i med värdet som krävs för att hantera dokumentet. Mer information finns i [Låta [!INCLUDE[prod_short](includes/prod_short.md)] föreslå värden](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Om du vill lägga till eller ta bort fält i journaler använder du den **personliga** banderollen. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Validera redovisningsjournaler
-För att förhindra fördröjningar vid bokföring kan du aktivera en bakgrundskontroll som meddelar dig när det finns ett misstag i den redovisningsjournal som du arbetar med så att du inte kan bokföra journalen. På sidan **Redovisningsjournal** kan du välja **Felkontroll i bakgrunden** om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] validerar finansiella journaler, till exempel redovisnings- eller utbetalningsjournaler, medan du arbetar med dem. 
+För att förhindra fördröjningar vid bokföring kan du aktivera en bakgrundskontroll som meddelar dig när det finns ett misstag i den redovisningsjournal som du arbetar med så att du inte kan bokföra journalen. På sidan **Redovisningsjournal** kan du välja **Felkontroll i bakgrunden** om du vill att [!INCLUDE[prod_short](includes/prod_short.md)] validerar finansiella journaler, till exempel redovisnings- eller utbetalningsjournaler, medan du arbetar med dem. 
 
-När du aktiverar valideringen visas faktaboxen **Journalkontroll** intill journalraderna, där ärenden visas på den aktuella raden och i hela partiet. Valideringen sker när du läser in en finansiell journal och väljer en annan journalrad. Panelen **Ärenden totalt** i faktaboxen visar det totala antalet ärenden som [!INCLUDE[d365fin](includes/d365fin_md.md)] hittade, och du kan välja att den öppnar en översikt över ärendena. 
+När du aktiverar valideringen visas faktaboxen **Journalkontroll** intill journalraderna, där ärenden visas på den aktuella raden och i hela partiet. Valideringen sker när du läser in en finansiell journal och väljer en annan journalrad. Panelen **Ärenden totalt** i faktaboxen visar det totala antalet ärenden som [!INCLUDE[prod_short](includes/prod_short.md)] hittade, och du kan välja att den öppnar en översikt över ärendena. 
 
 Du kan använda åtgärderna **Visa rader med ärenden** och **Visa alla rader** för att växla mellan journalrader som har eller inte har några ärenden. Den nya faktaboxen **Journalradsinformation** ger snabb överblick över och åtkomst till data från journalrader, till exempel redovisningskonto, kund eller leverantör, samt bokföringsinställningarna för specifika konton.     
 
@@ -101,7 +101,7 @@ Om journalraden måste bokföras varje månad skriver du "1M". Varje gång du ha
 
 Om du vill bokföra en transaktion till den sista dagen i varje månad kan du göra på något av följande sätt:
 
-- Bokför den första transaktionen på den sista dagen i en månad genom att ange 1D+1M-1D (1 dag + 1 månad - 1 dag). Med den här formeln beräknas bokföringsdatumet korrekt oberoende av antalet dagar i månaden.
+- Bokför den första transaktionen på den sista dagen i en månad genom att ange 1D+1M-1D (1 dag + 1 månad – 1 dag). Med den här formeln beräknas bokföringsdatumet korrekt oberoende av antalet dagar i månaden.
 
 - Bokför den första transaktionen på en valfri dag i månaden genom att ange 1M+LM. Med en här formeln inträffar bokföringsdatumet efter en hel månad + den löpande månadens återstående dagar.
 
@@ -203,7 +203,7 @@ Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnu
 [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)  
 [Fördela kostnader och intäkter](year-allocate-costs-income.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Omvärdera lagret i omvärderingsjournalen](inventory-how-revalue-inventory.md)  
 [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md)  

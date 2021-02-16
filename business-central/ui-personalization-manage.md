@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912077"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760348"
 ---
 # <a name="customize-pages-for-profiles"></a>Anpassa sidor för profiler
 Användare kan anpassa sidor som utgör deras arbetsyta efter eget behov. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
@@ -29,7 +29,7 @@ Sid anpassningen startar från **profilsidan (rollerna)** och administratörens 
 2. Markera raden för den profil du vill anpassa sidor för och välj sedan åtgärden **Redigera**.
 3. Välj åtgärden **anpassa sidor**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] öppnas på en ny flik i webbläsaren för den valda profilen med banderollen **anpassar** aktiverad. Banderollen **anpassar** ger användarna samma funktioner som banderollen **Anpassa personligt** som är tillgänglig för användare.
+    [!INCLUDE[prod_short](includes/prod_short.md)] öppnas på en ny flik i webbläsaren för den valda profilen med banderollen **anpassar** aktiverad. Banderollen **anpassar** ger användarna samma funktioner som banderollen **Anpassa personligt** som är tillgänglig för användare.
 
 4. Anpassa sidor enligt de behov som gäller för den aktuella rollen eller avdelningen på samma sätt som en användare gör när du anpassar. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
@@ -70,4 +70,4 @@ Layouten på de markerade sidorna justeras efter de ändringar som du har gjort.
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

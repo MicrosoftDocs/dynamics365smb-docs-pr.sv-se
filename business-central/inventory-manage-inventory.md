@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921773"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755473"
 ---
 # <a name="inventory"></a>Lagersaldo
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
@@ -33,7 +33,11 @@ Planeringen av artiklars uppfyllande av efterfrågan omfattas av funktionen för
 ## <a name="inventory-reconciliation"></a>Lageravstämning
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen. Mer information finns i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade avgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).
+Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade utgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).  
+
+## <a name="related-tasks"></a>Närliggande uppgifter
+
+I följande tabell beskrivs relaterade uppgifter.
 
 |Till |Gå till |
 |---|----|
@@ -48,19 +52,19 @@ När du bokför lagertransaktioner, till exempel försäljningsutleveranser, ink
 |Överför lagerartiklar mellan lagerställen med överföringsorder, för att hantera lageraktiviteter, eller med artikelgrupperingsjournalen.|[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)|
 |Reservera lager eller inkommande artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder.|[Reservera artiklar](inventory-how-to-reserve-items.md)|
 |Ställa in en leverantörs eller kundens egen beskrivning för ett objekt så att du enkelt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
-|Tilldela serienummer/partinummer till några ankommande eller avgående dokument- eller journalrader, till exempel för att spåra objekt vid återkallning.|[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)|
+|Tilldela serienummer/partinummer till några inkommande eller utgående dokument- eller journalrader, till exempel för att spåra objekt vid återkallning.|[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)|
 |Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
 |Sök var serie- eller partinummer har använts i dess försörjningskedja, till exempel i återkallningssituationer.|[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)|
 |Spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.|[Spärra artiklar](inventory-how-block-items.md)|
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
+|Använd resurser med särskilda kompetenser för olika tjänster och serviceartiklar.|[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)|
 
+## <a name="see-also"></a>Se även
 
-
-## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Försäljning](sales-manage-sales.md)    
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Allmänna affärsfunktioner](ui-across-business-areas.md)
+[Försäljning](sales-manage-sales.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Allmänna affärsfunktioner](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

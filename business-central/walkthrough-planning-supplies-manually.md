@@ -1,5 +1,5 @@
 ---
-title: Genomgång - Planera leveranser manuellt | Microsoft Docs
+title: Genomgång – Planera leveranser manuellt | Microsoft Docs
 description: Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918469"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035637"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
 
@@ -38,10 +38,10 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 -   Försäljningsorderhandläggare  
 
 ## <a name="prerequisites"></a>Förutsättningar  
- Innan du påbörjar genomgången måste du installera [!INCLUDE[d365fin](includes/d365fin_md.md)]. Följande ändringar måste göras i databasen:  
+ Innan du påbörjar genomgången måste du installera [!INCLUDE[prod_short](includes/prod_short.md)]. Följande ändringar måste göras i databasen:  
 
 -   Ta bort alla befintliga försäljningsorder på cyklar.  
--   Skapa en försäljningsorder på tio cyklar på lagerstället BLÅ.  
+-   Skapa en försäljningsorder för tio cyklar på lagerstället ÖST.  
 -   Ta bort alla planerade och fast planerade produktionsorder. Ta inte bort påbörjade order med transaktioner som redan har bokförts.  
 
  En regel är att de data som föreslås i genomgången ska användas eftersom dessa data har alla nödvändiga poster.  
@@ -142,13 +142,13 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
      Artikelns definierade återanskaffningssystem och standardleverantör visas.  
 
     > [!NOTE]  
-    >  Längst ned på sidan finns fyra informationsfält. I fältet **Tidigast disponibelt den** syns det att de tio delar som behövs kommer att vara disponibla, genom en ankommande leveransorder, nio dagar senare än det aktuella förfallodatumet. Om det är för sent för kunden innehåller fältet **Disponibelt för överföring** tretton enheter av samma artikel på ett annat lagerställe. Det betyder att du behöver planera för artikeltillgången.  
+    >  Längst ned på sidan finns fyra informationsfält. I fältet **Tidigast disponibelt den** syns det att de tio delar som behövs kommer att vara disponibla, genom en inkommande leveransorder, nio dagar senare än det aktuella förfallodatumet. Om det är för sent för kunden innehåller fältet **Disponibelt för överföring** tretton enheter av samma artikel på ett annat lagerställe. Det betyder att du behöver planera för artikeltillgången.  
 
 3.  Välj fältet **Disponibelt för överföring** för att öppna sidan **Hämta alternativ leverans**.  
 4.  Välj knappen **OK** för att boka de tio artiklar som är tillgängliga.  
 
     > [!NOTE]  
-    >  På behovsraden har det föreslagna inköpet bytts ut mot en överföring från lagerstället GRÖN. Med funktionen **Skapa order** skapas en överföringsorder från GRÖN till det lagerställe där behovet finns. Fältet **Ersättningar finns** fungerar på samma sätt.  
+    >  På behovsraden har det föreslagna inköpet bytts ut mot en överföring från lagerställe PRIMÄR. Med funktionen **Skapa order** skapas en överföringsorder från PRIMÄR till det lagerställe där behovet finns. Fältet **Ersättningar finns** fungerar på samma sätt.  
 
 5.  Välj åtgärden **Skapa order**. Sidan **Skapa leveransorder** öppnas.  
 6.  På snabbfliken **Orderplanering**, i fältet **Skapa order för** väljer du alternativet **Aktiv order**.  
@@ -182,7 +182,7 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 ### <a name="to-plan-a-specific-production-order"></a>Så här planerar du en särskild produktionsorder  
 
 1.  Öppna produktionsordern **101001** på tio cyklar som du precis har skapat med funktionen **Skapa order**.  
-2.  Öppna sidan **Prod.order - komponenter** för att kontrollera att den extra klockan återges i produktionsordern.  
+2.  Öppna sidan **Prod.order – komponenter** för att kontrollera att den extra klockan återges i produktionsordern.  
 3.  Välj åtgärden **Planerad**.  
 
      Sidan **Orderplanering** öppnas i en vy som är alltid filtrerad efter specifika produktionsbehov. Det går inte att göra ändringar i fönstret. Du måste beräkna en plan innan du kan se ytterligare behov.  

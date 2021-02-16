@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - artikelkoppling | Microsoft Docs
+title: Designdetaljer – artikelkoppling | Microsoft Docs
 description: Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913669"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035488"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 
@@ -23,19 +23,19 @@ När du bokför en lagertransaktion registreras antalsbokföringen i artikeltran
 
 Dessutom skapas en artikelkoppling för att koppla kostnadsmottagare till sin kostnadskälla för att skapa kostnadsspedition enligt värderingsprincipen. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gör två typer av artikelkopplingar.  
+[!INCLUDE[prod_short](includes/prod_short.md)] gör två typer av artikelkopplingar.  
 
 |Kopplingstyp|Description|  
 |----------------------|---------------------------------------|  
 |Antalskoppling|Skapat för alla lagertransaktioner|  
-|Kostnadskoppling|Skapat för ankommande transaktioner tillsammans med en antalskoppling som ett resultat av användarinteraktion i specialprocesser.|  
+|Kostnadskoppling|Skapat för inkommande transaktioner tillsammans med en antalskoppling som ett resultat av användarinteraktion i specialprocesser.|  
 
 Artikelkopplingar kan utföras på följande sätt.  
 
 |Metod|Description|Kopplingstyp|  
 |------------|---------------------------------------|----------------------|  
 |Automatiskt|Uppstår som allmän kostnadsspedition enligt värderingsprincipen|Antalskoppling|  
-|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr**, eller genom att använda en funktion som **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
+|Fast|Gjort av användaren när:<br /><br /> -   Bearbeta returer<br />-   Bokföringskorrigeringar<br />-   Ångra bokförda antal<br />-   Skapa direktleveranser **Obs!**  Fast koppling kan göras antingen manuellt, genom att ange ett löpnummer i fältet **Koppla från artikellöpnr**, eller genom att använda en funktion som **Hämta bokförda dokumentrader som ska återföras**.|Antalskoppling<br /><br /> Kostnadskoppling **Obs!**  Kostnadskopplingen uppstår endast i inkommande transaktioner där fältet **Koppla från artikellöpnr** fylls för att skapa en fast koppling. Visa nästa tabell.|  
 
 Om du gör antalskopplingar eller kostnadskopplingar beror på lagertransaktionens riktning, och om en artikelkoppling utförs automatiskt eller fast, i samband med specifika processer.  
 
@@ -43,8 +43,8 @@ Efterföljande tabell visar, baserat på de centrala kopplingsfälten på lagert
 
 |-|Koppla till fältet Artikeltrans.|Koppla från fältet Artikeltrans.|  
 |-|--------------------------------|----------------------------------|  
-|Koppling för avgående transaktion|Den avgående transaktionen drar kostnaden från den öppna ankommande transaktionen.<br /><br /> **Antalskoppling**|Stöds inte|  
-|Koppling för ankommande transaktion|Den ankommande transaktionen trycker kostnaden på den öppna avgående transaktionen.<br /><br /> Den ankommande transaktionen är kostnadskällan.<br /><br /> **Antalskoppling**|Den ankommande transaktionen drar kostnaden från den avgående transaktionen. **Obs!**  När du gör den fast kopplingen hanteras ankommande transaktioner som en försäljningsretur. Därför förblir den kopplade avgående transaktionen öppen. <br /><br /> Den ankommande transaktionen är INTE kostnadskällan.<br /><br /> **Kostnadskoppling**|  
+|Koppling för utgående transaktion|Den utgående transaktionen drar kostnaden från den öppna inkommande transaktionen.<br /><br /> **Antalskoppling**|Stöds inte|  
+|Koppling för inkommande transaktion|Den inkommande transaktionen trycker kostnaden på den öppna utgående transaktionen.<br /><br /> Den inkommande transaktionen är kostnadskällan.<br /><br /> **Antalskoppling**|Den inkommande transaktionen drar kostnaden från den utgående transaktionen. **Obs!**  När du gör den fast kopplingen hanteras inkommande transaktioner som en försäljningsretur. Därför förblir den kopplade utgående transaktionen öppen. <br /><br /> Den inkommande transaktionen är INTE kostnadskällan.<br /><br /> **Kostnadskoppling**|  
 
 > [!IMPORTANT]  
 > En försäljningsretur anses INTE vara en kostnadskälla när den är fast kopplad.  
@@ -56,18 +56,18 @@ I en artikelkopplingstransaktion registreras följande information.
 |Fält|Description|  
 |---------------------------------|---------------------------------------|  
 |**Artikeltrans.löpnr**|Artikeltransaktionens nummer för transaktionen som den här kopplingstransaktionen skapas för.|  
-|**Ankommande artikeltrans.nr.**|Artikeltransaktionens nummer för lagerökningen som transaktionen ska kopplas till om det är tillämpbart.|  
-|**Avgående artikeltrans.nr.**|Artikeltransaktionens nummer för lagerminskningen som transaktionen ska kopplas till om det är tillämpbart.|  
+|**inkommande artikeltrans.nr.**|Artikeltransaktionens nummer för lagerökningen som transaktionen ska kopplas till om det är tillämpbart.|  
+|**utgående artikeltrans.nr.**|Artikeltransaktionens nummer för lagerminskningen som transaktionen ska kopplas till om det är tillämpbart.|  
 |**Antal**|Antalet som kopplas.|  
 |**Bokföringsdatum**|Transaktionens bokföringsdatum.|  
 
 ## <a name="inventory-increase"></a>Lagerökning  
-När en lagerökning bokförs registreras en enkel artikelkopplingstransaktion utan koppling till avgående transaktion.  
+När en lagerökning bokförs registreras en enkel artikelkopplingstransaktion utan koppling till utgående transaktion.  
 
 ### <a name="example"></a>Exempel  
 Följande tabell visar den artikeltransaktion som skapas när du bokför en inleverans på 10 enheter.  
 
-|Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
+|Bokföringsdatum|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
@@ -81,7 +81,7 @@ Följande exempel visar artikelkopplingstransaktionen som skapas när en utlever
 
 Följande tabell visar de två artikelkopplingstransaktionerna som är resultatet av lagerökningen och lagerminskningen.  
 
-|Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
+|Bokföringsdatum|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
@@ -89,7 +89,7 @@ Följande tabell visar de två artikelkopplingstransaktionerna som är resultate
 ## <a name="fixed-application"></a>Fast koppling  
 När kostnaden för en lagerökning ska kopplas till en specifik lagerminskning (eller vice versa) skapas en fast koppling. Den fasta kopplingen påverkar transaktionernas återstående antal, men den fasta kopplingen återför också den exakt kostnaden för den ursprungliga transaktionen som kopplingen utförs till, eller från.  
 
-Om en fast koppling ska skapas använder du fältet **Koppla till artikellöpnr** eller **Koppla från artikellöpnr** på dokumentraderna anger du artikeltransaktionen som transaktionsraden ska kopplas till, eller från. En fast koppling kan till exempel utföras när en kostnadskoppling skapas som anger att en försäljningsretur ska kopplas till en specifik utleverans, så att kostnaden för utleveransen kan återföras. I det här fallet ignorerar [!INCLUDE[d365fin](includes/d365fin_md.md)] värderingsprincipen i programmet och lagerminskningen, eller lagerökningen för en försäljningsretur, kopplas till den angivna artikeltransaktionen. Fördelen med fasta kopplingar är att kostnaden för den ursprungliga transaktionen överförs till den nya transaktionen.  
+Om en fast koppling ska skapas använder du fältet **Koppla till artikellöpnr** eller **Koppla från artikellöpnr** på dokumentraderna anger du artikeltransaktionen som transaktionsraden ska kopplas till, eller från. En fast koppling kan till exempel utföras när en kostnadskoppling skapas som anger att en försäljningsretur ska kopplas till en specifik utleverans, så att kostnaden för utleveransen kan återföras. I det här fallet ignorerar [!INCLUDE[prod_short](includes/prod_short.md)] värderingsprincipen i programmet och lagerminskningen, eller lagerökningen för en försäljningsretur, kopplas till den angivna artikeltransaktionen. Fördelen med fasta kopplingar är att kostnaden för den ursprungliga transaktionen överförs till den nya transaktionen.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Exempel – Fast koppling i inköpsretur  
 Följande exempel, som visar effekten av fast koppling på en inköpsretur av en artikel som använder FIFO-värderingsprincipen, baseras på följande scenariot:  
@@ -110,7 +110,7 @@ Eftersom en fast koppling skapas från inköpsreturen till den andra inköpstran
 
 Följande tabell visar den artikelkopplingstransaktion som härrör från den fasta kopplingen.  
 
-|Bokföringsdatum|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
+|Bokföringsdatum|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-06-20|2|3|10|3|  
 
@@ -120,12 +120,14 @@ Kostnaden för det andra inköpet, 20,00 BVA, överförs då på ett korrekt sä
 Följande exempel, som visar effekten av fast koppling, baseras på följande scenario för en artikel som använder värderingsprincipen Genomsnitt:  
 
 1. I löpnummer 1 och 2 bokför användaren två inköpsfakturor. Den andra fakturan har den felaktiga direkta styckkostnaden BVA 1 000,00.  
-2. I löpnummer 3 bokför användaren en inköpskreditnota med en fast koppling som kopplas till inköpstransaktionen med fel direkt styckkostnad. Summan av fältet **Kostnadsbelopp (aktuellt)** för de två fast kopplade värdetransaktionerna blir 0,00  
+2. I transaktion nummer 3 bokför användaren en inköpskreditnota med en fast koppling kopplad till inköpstransaktionen med fel direkt styckkostnad. Summan av fältet **Kostnadsbelopp (aktuellt)** för de två fast kopplade värdetransaktionerna blir 0,00  
 3. I löpnummer 4 bokför användaren en annan inköpsfaktura med rätt direkt styckkostnad på BVA 100,00  
 4. I löpnummer 5 bokför användaren en försäljningsfaktura.  
 5. Lagerantalet är 0, och lagervärdet är också 0,00  
 
 Följande tabell visar resultatet av scenariot på artikelns värdetransaktioner.  
+
+I följande tabell visas resultatet av scenariot för artikelns värdetransaktioner när bokföringen är klar och kostnadsjustering har körts.
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla till artikellöpnr|Genomsnittligt|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -187,10 +189,10 @@ Följande tabell visar effekten av den exakta kostnadsåterföringen på artikel
 |03-01-20|Försäljning (kreditnota)|1|1100.00|2|3|3|  
 |04-01-20|(Artikelomkostnad)|1|100.00||1|4|  
 
-När du kör batchjobbet **Justera kostnader - artikeltrans** vidarebefordras den ökade kostnaden för inköpstransaktionen, på grund av artikelomkostnaden, till försäljningstransaktionen (löpnummer 2). Försäljningsposten flyttar sedan fram den ökade kostnaden till försäljningskredittransaktionen (löpnummer 3). Det sista resultatet är att kostnaden återförs korrekt.  
+När du kör batchjobbet **Justera kostnader – artikeltrans** vidarebefordras den ökade kostnaden för inköpstransaktionen, på grund av artikelomkostnaden, till försäljningstransaktionen (löpnummer 2). Försäljningsposten flyttar sedan fram den ökade kostnaden till försäljningskredittransaktionen (löpnummer 3). Det sista resultatet är att kostnaden återförs korrekt.  
 
 > [!NOTE]  
->  Om du arbetar med returer eller kreditnotor och har konfigurerat fältet **Kräv exakt kostnadsåterföring** på antigen sidan **Inköpsinställningar** eller sidan **Försäljningsinställningar** (beroende på situation) kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt att fylla i respektive inmatningsfält när du använder funktionen **Kopiera från dokument**. Om funktionen **Hämta bokförda dokumentrader som ska återföras** används fylls de här fälten alltid i automatiskt.  
+>  Om du arbetar med returer eller kreditnotor och har konfigurerat fältet **Kräv exakt kostnadsåterföring** på antigen sidan **Inköpsinställningar** eller sidan **Försäljningsinställningar** (beroende på situation) kommer [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt att fylla i respektive inmatningsfält när du använder funktionen **Kopiera från dokument**. Om funktionen **Hämta bokförda dokumentrader som ska återföras** används fylls de här fälten alltid i automatiskt.  
 
 > [!NOTE]  
 >  Om en transaktion med en fast koppling bokförs och om artikeltransaktionen som kopplingen ska utföras till är stängd, d.v.s. om det återstående antalet är noll, återställs den gamla kopplingen automatiskt i programmet och artikeltransaktionen kopplas om med den angivna fasta kopplingen.  
@@ -203,30 +205,30 @@ Följande exempel, som visas hur överföringstransaktioner används, baseras p�
 
 1. Användaren köper artikeln till en kostnad av BVA 10,00.  
 2. Användaren köper artikeln igen till en kostnad av BVA 20,00.  
-3. Användaren överför artikeln från lagerställe BLÅ till RÖD.  
+3. Användaren överför artikeln från lagerställe ÖST till VÄST.  
 
 Följande tabell visar effekten av den överföringen på artikelns värdetransaktioner.  
 
 |Bokföringsdatum|Artikeltransaktionstyp|Lagerställekod|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|BLÅ|1|10.00|1|  
-|01-01-20|Inköp|BLÅ|1|20.00|2|  
-|02-01-20|Överföring:|BLÅ|-1|15,00|3|  
-|02-01-20|Överföring:|RÖD|1|15,00|4|  
+|01-01-20|Inköp|ÖST|1|10,00|1|  
+|01-01-20|Inköp|ÖST|1|20,00|2|  
+|02-01-20|Överföring:|ÖST|-1|15,00|3|  
+|02-01-20|Överföring:|VÄST|1|15,00|4|  
 
 ### <a name="example--standard-costing-method"></a>Exempel – Värderingsprincip Standard  
 Följande exempel, som visar hur överföringstransaktioner används, baseras på följande scenario för en artikel som använder värderingsprincipen Standard och genomsnittskostnadsperioden Dag.  
 
 1. Användaren köper artikeln till en standardkostnad på BVA 10,00.  
-2. Användaren överför artiklar från lagerställe BLÅ till lagerställe RÖD med en standardkostnad på BVA 12,00.  
+2. Användaren överför artiklar från lagerställe ÖST till lagerställe VÄST till en standardkostnad uppgående till BVA 12,00.  
 
 Följande tabell visar effekten av den överföringen på artikelns värdetransaktioner.  
 
 |Bokföringsdatum|Artikeltransaktionstyp|Lagerställekod|Antal|Kost.belopp (aktuellt)|Löpnr|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|BLÅ|1|10.00|1|  
-|02-01-20|Överföring|BLÅ|-1|10,00|2|  
-|02-01-20|Överföring:|RÖD|1|10,00|3|  
+|01-01-20|Inköp|ÖST|1|10,00|1|  
+|02-01-20|Överföring:|ÖST|-1|10,00|2|  
+|02-01-20|Överföring:|VÄST|1|10,00|3|  
 
 Eftersom värdet för den ursprungliga lagerökningen är BVA 10,00, värderas överföringen till den kostnaden, och inte till BVA 12,00.  
 
@@ -238,7 +240,7 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 * Du vill åsidosätta kopplingen som skapas automatiskt när du bokför, enligt artikelns värderingsprincip.  
 * Du måste returnera en artikel som en försäljning redan har kopplats till manuellt, utan att använda funktionen **Hämta bokförda dokumentrader som ska återföras**, och du måste därför ångra kopplingen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en funktionen för analysering och rättning av artikelkopplingar. Detta arbete utförs på sidan **Kopplingsformulär**.  
+[!INCLUDE[prod_short](includes/prod_short.md)] erbjuder en funktionen för analysering och rättning av artikelkopplingar. Detta arbete utförs på sidan **Kopplingsformulär**.  
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -248,4 +250,4 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

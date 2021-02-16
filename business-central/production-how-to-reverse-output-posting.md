@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b33b0642d8cee6e26edeeece47c8fceb72c2bfa1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed275469dd172af43ceb96b85d5ac0aa99e96a2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921573"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759048"
 ---
 # <a name="reverse-output-posting"></a>Återföra bokföring av utflöde
 Det finns tillfällen när bokföring av utflöde måste återföras. Ett exempel på detta är om det inträffar ett informationsregistreringsfel och ett felaktigt utflödesbelopp bokförs i en produktionsorder.  
@@ -34,4 +34,4 @@ Transaktionerna i utflödesjournalen bokförs som en positiv justering i artikel
  [Planerad](production-planning.md)      
  [Lager](inventory-manage-inventory.md)  
  [Inköp](purchasing-manage-purchasing.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

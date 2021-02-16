@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a8233ec0ce59e5ce784a00f983b0666b9989255
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910036"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759648"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället kräver både inleverans- och artikelinförselbearbetning för distributionslagret använder du funktionen för distributionslagerartikelinförseldokumenten för att styra hur artiklar införs.  
 
-När du bokför en lagerinleverans uppdateras källdokumenten automatiskt, t.ex. inköpsorder, ankommande överföring eller försäljningsreturorder, varefter inlevererat antal bokförs i artikelregistret och raderna om de inlevererade artiklarna skickas till artikelinförselfunktionen i lagret. Om du använder intern artikelinförsel och plockning kan den interna artikelinförseln också skapa rader för artikelinförsel.  
+När du bokför en lagerinleverans uppdateras källdokumenten automatiskt, t.ex. inköpsorder, inkommande överföring eller försäljningsreturorder, varefter inlevererat antal bokförs i artikelregistret och raderna om de inlevererade artiklarna skickas till artikelinförselfunktionen i lagret. Om du använder intern artikelinförsel och plockning kan den interna artikelinförseln också skapa rader för artikelinförsel.  
 
 Beroende på hur lagret har ställts in görs raderna antingen tillgängliga för artikelinförselkalkylarket eller så används de för att skapa instruktioner för artikelinförsel direkt. Mer information finns i [Planera artikelinförsel i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
@@ -44,19 +44,19 @@ Förutom standardsätten att skapa artikelinförslar i distributionslagret, som 
     Observera att varje inleveransrad har omvandlats till minst två rader i lagerartikelinförseln:  
 
     -   Den första raden, med **Ta** i fältet **Åtgärdstyp**, anger var artiklarna finns i inleveransområdet. Du kan inte ändra zon- och lagerplatsfältet på den här raden.  
-    -   Nästa rad, med **Plats för** i **Åtgärdstyp** fältet, anger var du måste placera artiklarna i lagret. Om distributionslagret har fått ett stort antal artiklar på en enda inleveransrad, kanske de måste föras in på flera lagerplatser, så det finns en Plats rad för varje lagerplats.  
+    -   Nästa rad, med **Plats för** i **Åtgärdstyp** fältet, anger var du måste placera artiklarna i lagret. Om distributionslagret har fått ett stort antal artiklar på en enda inleveransrad, kanske de måste föras in på flera lagerställen, så det finns en Plats rad för varje lagerplats.  
 
         Om raderna för Ta och Placera för varje inleveransrad inte visas direkt efter varandra och det är så du vill att de ska visas, kan du sortera raderna genom att välja **Artikel** i fältet **Sorteringsmetod** på snabbfliken **Allmänt**.  
 
-        Om lagrets fysiska struktur återspeglar lagerplatsernas ordning kan du använda sorteringsmetoden **Lagerplatsordning** för att förbereda en artikelinförsel, som minimerar antalet steg i lagerprocessen.  
+        Om lagrets fysiska struktur återspeglar lagerställenas ordning kan du använda sorteringsmetoden **Lagerplatsordning** för att förbereda en artikelinförsel, som minimerar antalet steg i lagerprocessen.  
 
-5.  När du har placerat alla artiklarna på lagerplatser enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
+5.  När du har placerat alla artiklarna på lagerställen enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
 
 Vid lagerställen som är inställt på dirigerad artikelinförsel och plockning, följande inställningar är nödvändig för den process som beskrivs ovan:  
 
 - En artikelinförselmall skapas. Mer information finns i [Skapa artikelinförselsmallar](warehouse-how-to-set-up-put-away-templates.md).  
 - vikten, volymen och särskilda lagerkrav för artikeln eller lagerställeenheten definieras. Mer information finns i Bruttovikt.  
-- lagerplatsernas kapacitet, typ och prioritet. Mer information finns i Lagerplatsordning.  
+- lagerställenas kapacitet, typ och prioritet. Mer information finns i Lagerplatsordning.  
 
 Lagerplatsordningen beaktas när fler än en lagerplats matchar villkoren i artikelinförselmallen. Om både villkoren i artikelinförselmallen och lagerplatsordningen är samma för fler än en lagerplats väljs den lagerplats som har högst nummer.
 
@@ -78,4 +78,4 @@ Lagerplatsordningen beaktas när fler än en lagerplats matchar villkoren i arti
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

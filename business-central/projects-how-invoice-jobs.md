@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: effed84c3f0d4c625192ac4d41dc2d9edf97c663
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 368b0b1edf1105045a365d8d5ac523c88955ad8a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921448"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758748"
 ---
 # <a name="invoice-jobs"></a>Fakturera projekt
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.
@@ -51,7 +51,7 @@ Du kan skapa en faktura från projektplaneringsrader och då ange antal av artik
 3. Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.  
 4. Gå till fältet **Antal att överföra till faktura** på en projektplaneringsrad och ange antal av artikeln, resursen, typen av redovisningskonto som du vill fakturera.  
 5. Välj åtgärden **Skapa försäljningsfaktura**.
-6. På sidan **Projekt - Skapa förs.faktura** anger du bokföringsdatum och om du vill skapa en ny faktura eller koppla denna faktura till en befintlig.
+6. På sidan **Projekt – Skapa förs.faktura** anger du bokföringsdatum och om du vill skapa en ny faktura eller koppla denna faktura till en befintlig.
 7. Välj **OK**.  
 8. På sidan **Projektplaneringsrader** väljer du åtgärden **Försäljningsfakturor/kreditnotor**.
 
@@ -69,11 +69,11 @@ När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen o
 3. Markera **Slutförd** i fältet **Status** .
 4. Följ hjälpstegen steg för att beräkna och bokföra PIA. Följ alternativt steg 5 och 6 för att göra det manuellt.  
 5. Välj åtgärden **Beräkna PIA**.
-6. På sidan **Projekt - Beräkna PIA** fyller du i fälten efter behov.  
+6. På sidan **Projekt – Beräkna PIA** fyller du i fälten efter behov.  
 
      De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.  
-7. Välj åtgärden **Projekt - Bokför PIA i redovisning**.
-8. På sidan **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.  
+7. Välj åtgärden **Projekt – Bokför PIA i redovisning**.
+8. På sidan **Projekt – Bokför PIA i redovisning** fyller du i fälten efter behov.  
 
      De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.
 
@@ -82,4 +82,4 @@ När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen o
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

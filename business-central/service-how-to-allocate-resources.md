@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 29c97a2fbb8fab50d9d433f4c73d840846e32b95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925778"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757972"
 ---
 # <a name="allocate-resources"></a>Så här tilldelar du resurser
-Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att tilldela rätt personer till rätt uppgifter. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
+Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att tilldela rätt personer till rätt uppgifter. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
 
 Du kan fördela resurser (till exempel tekniker) med hjälp av **Beordringstavla**, eller från en serviceorder. Du kan använda resursdisposition för att fördela resurser som ska utföra serviceuppgifterna i order eller offerter.
 

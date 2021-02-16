@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915316"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757873"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokföra tjänsteorder och kreditnotor
 När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt.  
@@ -85,7 +85,7 @@ Nedan beskrivs hur du bokför artiklar, resurstimmar och/eller kostnader som har
 Nu bokförs servicen som delvis eller helt förbrukad, beroende på värdet i fältet **Ant. att förbruka**. Motsvarande transaktioner skapas också. Dessutom uppdateras alla tidigare bokförda serviceleveransdokument kronologiskt med de förbrukade antalen. Alla relevanta antal uppdateras på serviceraden/-raderna på ordern.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Så här bokför du utleveranser från serviceorder  
-När du har angett detaljerad information för en service kan du justera och bokföra antalen artiklar som använts, tidsåtgång och uppkomna kostnader. Detta innebär att nödvändiga ändringar utförs via [!INCLUDE[d365fin](includes/d365fin_md.md)] så att du kan se det nya läget i lagret och aktuell status av behandlingen av den specifika ordern.  
+När du har angett detaljerad information för en service kan du justera och bokföra antalen artiklar som använts, tidsåtgång och uppkomna kostnader. Detta innebär att nödvändiga ändringar utförs via [!INCLUDE[prod_short](includes/prod_short.md)] så att du kan se det nya läget i lagret och aktuell status av behandlingen av den specifika ordern.  
 
 I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar på lagerställen som inte kräver lagerhantering.  
 
@@ -97,7 +97,7 @@ I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar p�
 
 4. Välj åtgärden **Bokföra**. Välj knappen **Leverera** på sidan som visas.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
+[!INCLUDE[prod_short](includes/prod_short.md)] skapar transaktioner (i garantireskontra, artikeltransaktioner, servicereskontra eller redovisning), skapar bokförda serviceleveransdokumentet och alla relevanta fält på serviceraderna i serviceordern uppdateras.  
 
 Om lagerstället kräver distributionslagerhantering sker leverans och flytt av serviceradartiklar på samma sätt som övriga källdokument. Den enda skillnaden är att serviceradartiklar kan förbrukas antingen externt eller internt och därför kräver två olika släppfunktioner.  
 

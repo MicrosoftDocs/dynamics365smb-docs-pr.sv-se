@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d669df714e6fdba9f8faa8f3b2029f1988c8af5e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c109e9dca32e83ace97b773be97da8e463af5f0e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915366"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758773"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
@@ -73,4 +73,4 @@ En projektplaneringsrad kan ha en av följande typer.
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918419"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035512"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 
@@ -31,13 +31,13 @@ När antalet för montering mot kundorder är klar för utleverans i grundlägga
 I den här genomgången tas följande aktiviteter upp:  
 
 ### <a name="setting-up-assembly-items"></a>Ställa in monteringsartiklar  
-Monteringsartiklar karakteriseras av sitt återanskaffningssystem och sin monteringsstruktur. Artikelns monteringsmetod kan vara antingen montering mot kundorder (ATO) eller tillverkning mot lager (ATS). I detta avsnitt omfattas följande uppgifter:  
+Monteringsartiklar karakteriseras av sitt återanskaffningssystem och sin monteringsstruktur. Artikelns monteringsmetod kan vara antingen montering mot kundorder (ATO) eller montering mot lager (ATS). I detta avsnitt omfattas följande uppgifter:  
 
 -   Inställning av lämpligt återanskaffningssystem och monteringsmetod för ett nytt monteringsartikelkort.  
 -   Skapa en monteringsstruktur som anger monteringskomponenterna och resursen som ingår i monteringsartikeln.  
 
 ### <a name="selling-customized-assembly-items"></a>Sälja anpassade monteringsartiklar  
-Med [!INCLUDE[d365fin](includes/d365fin_md.md)] blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
+Med [!INCLUDE[prod_short](includes/prod_short.md)] blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
 
 -   Skapa en ren ATO-försäljningsorderrad där hela kvantiteten är inaktiverad och måste monteras före leverans.  
 -   Anpassa ATO-objekt.  
@@ -79,7 +79,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 ## <a name="prerequisites"></a>Förutsättningar  
 Innan du kan utföra aktiviteterna i den här genomgången måste du göra följande  
 
--   Installera [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Installera [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Ange dig själv som distributionslageranvändare på lagerstället WHITE i följande steg:  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan relaterad länk.  
@@ -87,17 +87,20 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:  
 
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet för lagerstället WHITE.  
-3.  På snabbfliken **lagerplatser** anger du **V-10-0001** i fältet **Till monteringsplats - kod**.  
+3.  På snabbfliken **lagerställen** anger du **V-10-0001** i fältet **Till monteringsplats – kod**.  
 
-    Genom att ange denna lagerplatskod som förhindrar plockning är alla monteringsorderrader redo att ta emot komponenter på lagerplatsen.  
+    Genom att ange denna lagerställeskod som förhindrar plockning är alla monteringsorderrader redo att ta emot komponenter på lagerstället.  
 
-4.  I fältet **Från monteringsplats - kod** anger du **V-01-0001**.  
+4.  I fältet **Från monteringsplats – kod** anger du **V-01-0001**.  
 
-    När du anger den här lagerplatsen för plockning överförs alla färdiga monteringsartiklar till lagerplatsen.  
+    När du anger den här lagerstället för plockning överförs alla färdiga monteringsartiklar till lagerstället.  
 
 Ta bort standardledtiden för interna processer genom att följa dessa steg:  
 
@@ -109,7 +112,7 @@ Skapa lagret för monteringskomponenter genom att följa [förbereda exempeldata
 ## <a name="story"></a>Situation  
 Den 23 januari tar försäljningsorderhandläggaren Susan en beställning från The Device Shop på tre enheter av sats B, som är ett ATO-objekt. Alla tre enheterna anpassas och måste innehålla det kraftiga grafikkortet och ett extra RAM-block. Skivenheterna uppgraderas till DWD, eftersom CD-enheterna är inte är tillgängliga. Susan vet att enheterna kan monteras omedelbart, så hon lämnar föreslag på leveransdatum den 23 januari.  
 
-Samtidigt beställer kunden femton enheter av sats A med en särskild beställning av fem anpassade enheter som innehåller den kraftiga grafikkortet. Även om sats A typiskt är montering mot lager, kombinerar orderhandläggaren försäljningsradantalen för att sälja tio enheter från materiel och montera fem enheter anpassade till beställningen. De tio enheter av sats A är inte tillgängliga och måste först levereras till lagret med en monteringsorder i enlighet med artikelns monteringsmetod. Susan får veta av monteringsavdelningen att enheterna i sats A inte kan slutföras under veckan. Hon anger utleveransdatum för den andra försäljningsorderraden, för den blandade ATO- och lagerkvantiteten, som 27 januari och informerar kunden att 15 enheter av sats A levereras fyra dagar senare än de tre enheterna av sats B. För att signalera till leveransavdelningen att den här försäljningsordern kräver montering skapar Susan ett distributionslagerutleveransdokument från försäljningsordern.  
+Samtidigt beställer kunden femton enheter av sats A med en särskild beställning av fem anpassade enheter som innehåller den kraftiga grafikkortet. Även om sats A typiskt är montering mot lager, kombinerar orderhandläggaren försäljningsradantalen för att sälja tio enheter från materiel och montera fem enheter anpassade till beställningen. De tio enheterna av sats A är inte tillgängliga och måste först levereras till lagret med en monteringsorder i enlighet med artikelns monteringsmetod. Susan får veta av monteringsavdelningen att enheterna i sats A inte kan slutföras under veckan. Hon anger utleveransdatum för den andra försäljningsorderraden, för den blandade ATO- och lagerkvantiteten, som 27 januari och informerar kunden att 15 enheter av sats A levereras fyra dagar senare än de tre enheterna av sats B. För att signalera till leveransavdelningen att den här försäljningsordern kräver montering skapar Susan ett distributionslagerutleveransdokument från försäljningsordern.  
 
 Planeraren Eduardo kör planeringsförslaget och skapar en monteringsorder på tio standardenheter av sats A med en internt förfallodatum den 27 januari.  
 
@@ -139,7 +142,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 2.  Välj fältet **Journalnamn** och välj sedan standardjournalen.  
 3.  Skapa positiva lagerjusteringar på lagerstället WHITE på arbetsdatumet, den 23 januari, genom att ange följande information.  
 
-    |**Artikelnr**|**Zonkod**|**Lagerplatskod**|**Antal**|  
+    |**Artikelnr**|**Zonkod**|**Lagerställeskod**|**Antal**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
     |80001|PLOCKNING|D-01-0001|20|  
     |80005|PLOCKNING|D-01-0001|20|  
@@ -329,7 +332,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Läs felmeddelandet som förklarar varför det här fältet endast kan fyllas i via fältet **Ant. att utleverera** på den relaterade leveransen.  
 
-    Fältet **Antal att montera** kan redigeras för situationer där du inte vill skicka delvisa lagerkvantiteter i stället för montering av flera enheter mot order. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
+    Fältet **Antal att montera** kan redigeras för situationer där du inte vill skicka delvisa lagerkvantiteter i stället för montering av flera enheter mot order. Mer information finns i avsnittet "Kombinationsscenarion" i [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 12. Stäng sidan **monteringsorder** och återgå till sidan **distributionslagerutleverans**.  
 13. På utleveransraden för tre enheter av sats B i **Ant. att utleverera** anger du **3**.  
@@ -439,5 +442,5 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
  [Montera Artiklar](assembly-how-to-assemble-items.md)   
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)   
  [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)   
- [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
+ [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
  [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)

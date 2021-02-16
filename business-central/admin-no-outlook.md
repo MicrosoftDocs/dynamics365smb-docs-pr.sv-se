@@ -1,7 +1,6 @@
 ---
-title: Använda Business Central utan Outlook | Microsoft Docs
-description: Du kan använda Business Central som företagsinkorg i Outlook eftersom det är integrerat med Microsoft 365, men du kan även arbeta utan Outlook i en webbläsare eller på en mobil enhet.
-documentationcenter: ''
+title: Använda Business Central utan Outlook
+description: Om du inte har Outlook kan du inte använda Business Central som företagsinkorg i Outlook – du kan däremot arbeta i en webbläsare eller på en mobil enhet.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,15 +10,15 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40e2130c1142c29b01ba3ba8b04598fabe9feb3e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 273db30e18628d5114d7bad3f498e574e74a407e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927103"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068341"
 ---
 # <a name="using-business-central-without-outlook"></a>Använda Business Central utan Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har djup integration med Microsoft 365, och du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)] i webbläsaren eller på en mobil enhet.  
+[!INCLUDE[prod_short](includes/prod_short.md)] har djup integration med Microsoft 365, och du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[prod_short](includes/prod_short.md)] i webbläsaren eller på en mobil enhet.  
 
 ## <a name="sending-email"></a>Skicka e-post
 Du kan skicka dokument som till exempel fakturor som e-post med ditt företags e-postadress. Från ditt Rollcenter kan du använda en assisterad konfigurationsguide som hjälper dig att konfigurera e-post. Om du inte använder ett e-postkonto i Microsoft 365 måste du ange teknisk information om e-postservern. Om du inte har den tillgängliga informationen, kontaktar du din IT-support.  

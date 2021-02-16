@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912677"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757648"
 ---
 # <a name="change-basic-settings"></a>Ändra grundinställningar
 
-PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
+PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[prod_short](includes/prod_short.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Rollcenter
 Rollcentret representerar startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
@@ -35,7 +35,7 @@ Standardrollen är **Chef**, men du kan välja en annan roll för att använda e
 3. Välj **OK**.
 
 ## <a name="company"></a><a name="company"></a>Företag
-Ett företag fungerar som en behållare för data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
+Ett företag fungerar som en behållare för data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
 
 Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du kan skapa ett nytt företag med egna data. Mer information finns i [Skapa nya företag](about-new-company.md).
 
@@ -80,9 +80,9 @@ Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller
 ## <a name="language"></a><a name="language"></a> Språk
 Ändra displayspråk. Det här fältet visas bara om det finns flera språk att välja mellan.
 
-Startspråket bestäms antingen av administratören eller i webbläsaren när du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det språk som du anger används för alla enheter som du loggar in från, till exempel en telefon eller surfplatta.
+Startspråket bestäms antingen av administratören eller i webbläsaren när du registrerar dig för [!INCLUDE[prod_short](includes/prod_short.md)]. Det språk som du anger används för alla enheter som du loggar in från, till exempel en telefon eller surfplatta.
 
-Ytterligare språk för [!INCLUDE[prodshort](includes/prodshort.md)] kan installeras från AppSource. Även om alla visningsspråk som stöds visas i listan måste administratören installera relevant språkapp i klientorganisationen innan användarna kan växla till det nya språket i [!INCLUDE[prodshort](includes/prodshort.md)].  
+Ytterligare språk för [!INCLUDE[prod_short](includes/prod_short.md)] kan installeras från AppSource. Även om alla visningsspråk som stöds visas i listan måste administratören installera relevant språkapp i klientorganisationen innan användarna kan växla till det nya språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-when-i-receive-notifications"></a>Ändra när jag får meddelanden
 Välj den här länken för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Mer information finns i [Hantera meddelanden](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Välj den här länken för att visa eller ändra meddelandena som du får om vi
 
 ## <a name="see-also"></a>Se även
 [Skapa nya företag](about-new-company.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

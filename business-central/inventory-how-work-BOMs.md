@@ -1,21 +1,20 @@
 ---
-title: Så här arbetar du med strukturer för att hantera komponenter | Microsoft Docs
+title: Så här arbetar du med strukturlistor för att hantera komponenter
 description: Du kan skapa en monteringsstruktur eller produktionsstruktur för att ange vilka komponenter eller resurser som krävs för att sätta ihop artiklarna som strukturen representerar.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919394"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838463"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeta med strukturer
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras eller tillverkas av resurser eller maskin resurserna från komponenter. En monteringsstruktur kan också användas för att sälja en överordnad artikel som byggsatser bestående av dess komponenter.
@@ -89,11 +88,15 @@ Alla fält på försäljningsfakturaraden för den monterade artikeln avmarkeras
 > Rapporten **Plockningslista efter order** ändras också till att endast visa komponenter. Det innebär att lagerarbetaren kan plocka den överordnade artikeln, monteringsartikeln, inte kommer att se den i plockningslistan. Mer information finns i [skriva ut plockningslistan](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Beräkna standardkostnaden för monteringsartikel
-Du beräknar styckkostnaden för en monteringsartikel genom att summera styckkostnaden för varje komponent och resurs i artikelns monteringsstruktur.
+
+Du beräknar styckkostnaden för en monteringsartikel genom att summera styckkostnaden för respektive komponent och resurs i artikelns monteringsstruktur.
 
 Du kan även beräkna och uppdatera standardkostnaden för en eller flera artiklar på sidan **Standardkostnadsformulär**. För mer information, se [Uppdateras standardkostnader](finance-how-to-update-standard-costs.md).  
 
-Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda styckkostnaderna för komponenterna, inklusive andra monterinhsstrukturer och resurser.
+Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda styckkostnaderna för komponenterna, inklusive andra monterinhsstrukturer och resurser.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. Välj ikonen **Söka efter sida eller rapport** i det övre högra hörnet, gå till **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för monteringsartikeln. (Sidan **Monteringsstruktur** på sidan **artiklar** innehåller **Ja**.)
@@ -114,4 +117,4 @@ Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komp
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Visa artikeldisposition](inventory-how-availability-overview.md)     
 [Lager](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

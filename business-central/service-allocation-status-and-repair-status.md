@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910411"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757948"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
 Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  
@@ -38,7 +38,7 @@ När du omvandlar en serviceoffert till en serviceorder uppdateras serviceordern
 * En sökning görs efter fördelningstransaktioner för alla serviceartiklar i serviceordern som har statusen **Aktiv**. Om sådana fördelningsposter hittas ändras deras fördelningsstatus från **Aktiv** till **Omfördelning nödvändig**.  
   
 ## <a name="canceling-allocations"></a>Rätta fördelningar  
-När du avbryter fördelningen av en serviceartikel uppdaterar [!INCLUDE[d365fin](includes/d365fin_md.md)] fördelningsstatusen för motsvarande fördelningspost från **Aktiv** till **Omfördelning nödvändig**.
+När du avbryter fördelningen av en serviceartikel uppdaterar [!INCLUDE[prod_short](includes/prod_short.md)] fördelningsstatusen för motsvarande fördelningspost från **Aktiv** till **Omfördelning nödvändig**.
 
 Reparationsstatus uppdateras för serviceartikeln i fördelningsposten så här:  
   

@@ -8,12 +8,12 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912802"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817262"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
 
@@ -25,7 +25,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
     Du visas de projekt som du har tillgång till
 
-2. Välj projektet **regleringsnotifieringar - globalt**
+2. Välj projektet **regleringsnotifieringar – globalt**
 
     Då öppnas projektet och en mängd olika saker som rör projektet visas.
 
@@ -74,9 +74,9 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
 ## <a name="see-also"></a>Se även
 
-[Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Byta språk och plats](about-locale-language.md)  
 [Komma igång](product-get-started.md)  
 [Välkommen till Business Central](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

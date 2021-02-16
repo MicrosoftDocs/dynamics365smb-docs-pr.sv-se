@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923017"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024468"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
-Innan du kan börja driva ditt företag måste du ange regler och standardvärden för hur du vill hantera finansprocesser för det företaget. Du börjar med att skapa det viktigaste för företagets redovisningsposter - kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.
+Innan du kan börja driva ditt företag måste du ange regler och standardvärden för hur du vill hantera finansprocesser för det företaget. Du börjar med att skapa det viktigaste för företagets redovisningsposter – kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.
 
 Vissa ekonomiinställningar kan göras automatiskt med assisterade konfigurationsguider, och vissa måste göras manuellt. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
 
@@ -28,13 +28,15 @@ Många av inställningsuppgifterna måste genomföras innan du kan börja regist
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-| Om du vill | Gå till |
+| Till | Gå till |
 | --- | --- |
-| Välj hur du betalar leverantörerna. |[Definiera betalningssätt](finance-payment-methods.md) |
+| Ange hur du vill att kunderna ska betala och hur du vill betala leverantörerna. |[Konfigurera betalsätt](finance-payment-methods.md) |
+| Ange betalningsvillkor för att hantera förfallodatum och beräkna eventuella kassarabatter.|[Ställa in betalningsvillkor](finance-payment-terms.md) |
 | Ange bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. |[Ställa in bokföringsmallar](finance-posting-groups.md)|
 |Skapa kontouppställningar och definiera kategorier för att definiera innehållet i ekonomiska tabeller och rapporter som rapporterna balansräkning och resultaträkning.|[Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ställa in räkenskapsperioder. |[Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md) |
+|Ange villkor för betalningspåminnelse för att hjälpa dig att få in förfallna betalningar.|[Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)|
 | Definiera hur du rapporterar belopp för moms som du har lagrat för försäljning till skattemyndigheterna. |[Ställa in moms](finance-setup-vat.md)|
 |Förbereda att hantera orealiserad moms i samband med kontantbaserade redovisningsmetoder.|[Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)|
 | Ange funktioner för försäljning och inköp till att hantera betalningar i utländsk valuta.|[Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -48,6 +50,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Ställa in Intrastat-rapporten och skicka rapporten till en myndighet | [Skapa och rapportera Intrastat](finance-how-setup-report-intrastat.md)|
 |Se till att en transaktion i en redovisningsjournal allokeras till flera olika konton när journalen bokförs, antingen efter kvantitet, procent eller belopp.|[Så här använder du fördelningsnycklar i redovisningsjournaler](ui-how-use-allocation-keys-general-journals.md)|
 |Ställ in ursprungskoder och uppföljningskoder som kan användas för att spåra granskningshistorik|[Ställa in ursprungskoder och orsakskoder för granskningshistorik](finance-setup-trail-codes.md)|
+|Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Beroende på vilken geografisk plats det är kan vissa sidor innehålla fält som inte beskrivs i artiklarna som anges här eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -61,6 +64,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

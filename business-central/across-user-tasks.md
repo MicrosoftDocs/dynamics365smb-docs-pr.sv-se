@@ -1,6 +1,6 @@
 ---
-title: Tilldela och hantera uppgifter | Microsoft Docs
-description: Lär dig hur du tilldelar uppgifter till användare, till exempel din revisor, i Business Central.
+title: Tilldela och hantera uppgifter
+description: Lär dig hur du tilldelar uppgifter till användare i Business Central – till exempel din revisor – samt hur du hämtar och slutför uppgifter.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922623"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068388"
 ---
 # <a name="define-user-tasks"></a>Definiera användarens uppgifter
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du skapa uppgifter som påminner dig om arbetet som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du skapa uppgifter som påminner dig om arbetet som ska utföras. Du kan skapa uppgifter åt dig själv, men du kan också tilldela uppgifter till andra eller tilldela en uppgift för någon annan i organisationen.  
 
 ## <a name="managing-user-tasks"></a>Hantera användaruppgifter
 
-Sidan **användaruppgifter** visar alla uppgifter och du kan enkelt skapa och tilldela nya uppgifter. När du skapar en uppgift kan du ange start- och förfallodatum och du kan lägga till en länk till sidan eller rapporten i [!INCLUDE[d365fin](includes/d365fin_md.md)] där användaren måste göra arbetet.  
+Sidan **användaruppgifter** visar alla uppgifter och du kan enkelt skapa och tilldela nya uppgifter. När du skapar en uppgift kan du ange start- och förfallodatum och du kan lägga till en länk till sidan eller rapporten i [!INCLUDE[prod_short](includes/prod_short.md)] där användaren måste göra arbetet.  
 
 Du kan till exempel skapa en uppgift för dig själv eller en medarbetare för att visa alla bokförda försäljningsfakturor. Om så är fallet kan du länka uppgiften till sidan 143, **Bokförda försäljningsfakturor**. På följande skärmbild skapar någon en uppgift för MeganB för att granska de bokförda försäljningsfakturorna.  
 
@@ -47,4 +47,4 @@ Om du vill ta bort flera eller vissa användaruppgifter kan du använda rapporte
 ## <a name="see-also"></a>Se även
 
 [Sök efter sida eller rapport](ui-search.md)  
-[Revisorupplevelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Revisorupplevelse i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

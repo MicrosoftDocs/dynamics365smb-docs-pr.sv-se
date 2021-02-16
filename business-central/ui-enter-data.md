@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912502"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840259"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -24,7 +24,7 @@ Det finns många allmänna funktioner som hjälper dig att ange data lättare, s
 I exemplen nedan används demonstrationsdata.
 
 ## <a name="working-with-editable-fields"></a>Arbeta med redigerbara fält
-Fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan innehålla olika redigerbara data, t.ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
+Fält i [!INCLUDE[prod_short](includes/prod_short.md)] kan innehålla olika redigerbara data, t.ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
 
 Vissa redigerbara fält innehåller en väljare som du kan använda för att ange ett värde.  
 
@@ -44,7 +44,7 @@ Om du vill ändra värdet i ett fält måste du först ställa in fokus på det 
 - Använd **Tabb**-nyckel. Åtgärden markerar hela värdet.
 - Vänsterklicka på musen eller på en liknande indataenhet. Med den här instruktionen kan du bara markera hela fältvärdet om fältet finns i en lista.  
 
-När du interagerar med fält i användargränssnittet prioriterar [!INCLUDE[d365fin](includes/d365fin_md.md)] normalt hela fältvärdet så att det blir enklare att ersätta värdet.
+När du interagerar med fält i användargränssnittet prioriterar [!INCLUDE[prod_short](includes/prod_short.md)] normalt hela fältvärdet så att det blir enklare att ersätta värdet.
 
 När hela fältvärdet är markerat:
 - Ersätt värdet genom att bara ange ett nytt värde. Om fältet innehåller en väljare kan du aktivera det med hjälp av kortkommandot **Alt + nedpil**.
@@ -85,7 +85,7 @@ Listan nedan ger användbar information om hur du använder snabbinmatning.
 - Den är tillgänglig för alla fält som kan redigeras.
 - Den fungerar även i kolumner och rader.
 - Den hindrar inte från att komma åt andra element på en sida, till exempel åtgärder. Dessa element är tillgängliga genom att använda Tabb och Shift + Tabb.  
-- Det är inte nödvändigt att snabbflikar expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det valda fältet. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer ihåg att snabbfliken ska expanderas nästa gång du besöker sidan.  
+- Det är inte nödvändigt att snabbflikar expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det valda fältet. [!INCLUDE[prod_short](includes/prod_short.md)] kommer ihåg att snabbfliken ska expanderas nästa gång du besöker sidan.  
 - Snabbinmatning fungerar oavsett om fälten är obligatoriska. Så det är en bra idé att kontrollera att obligatoriska fält är inkluderade i snabbinmatning.
 - Som standard inkluderas de flesta fält i snabbinmatning. Så i början kommer uppgiften troligen att utesluta fält från snabbinmatning.
 
@@ -120,7 +120,7 @@ Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på e
 
 I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden, tryck bara på F8.
 
-Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](ui-copy-paste.md).
+Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrera radposter
 
@@ -162,7 +162,7 @@ Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster välj
 > Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Samma sak kan hända i andra webbläsare, till exempel Firefox. Mer information finns i [Inställningar för blockering av popup-fönster i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Ett ytterligare sätt att multitaska är att öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] i två eller flera webbläsarflikar. När du gör detta bör du skapa en ny flik och sedan kopiera/klistra in URL-adressen för den ursprungliga fliken på den nya fliken. Då skapas en ny session.   
+Ett ytterligare sätt att multitaska är att öppna [!INCLUDE[prod_short](includes/prod_short.md)] i två eller flera webbläsarflikar. När du gör detta bör du skapa en ny flik och sedan kopiera/klistra in URL-adressen för den ursprungliga fliken på den nya fliken. Då skapas en ny session.   
 
 > [!NOTE]
 > Använd inte funktionen **Kopiera** i webbläsaren för att skapa den nya fliken eftersom detta kan medföra att åtgärder på en flik blockerar åtgärder på andra flikar då dessa ingår i samma session.
@@ -294,4 +294,4 @@ Här följer några exempel.
 
 ## <a name="see-also"></a>Se även  
  [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

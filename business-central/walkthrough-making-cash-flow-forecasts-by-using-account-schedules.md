@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914791"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756547"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar
 Den här genomgången beskriver hur du kan använda kontouppställningar för att göra kassaflödesprognoser. Kontouppställningar utför beräkningar som inte kan göras direkt i kontoplaner för kassaflöden. I kontouppställningar kan du skapa delsummor för kassainflöden och utbetalningar. Dessa delsummor kan inkluderas i nya totaler som kan användas vid kassaflödesprognoser.  
@@ -32,7 +32,7 @@ I den här genomgången tas följande aktiviteter upp:
 ### <a name="prerequisites"></a>Förutsättningar  
 För att kunna utföra den här genomgången behöver du:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installerad.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] installerad.  
 - Kassaflödeskalkylarksraderna är bokförda.  
 
 ## <a name="roles"></a>Roller  
@@ -89,4 +89,4 @@ Nu kan Ken koppla kolumnlayouten till kontouppställningsnamnet.
 ## <a name="see-also"></a>Se även  
  [Arbeta med kontouppställningar](bi-how-work-account-schedule.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910186"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756898"
 ---
 # <a name="preview-posting-results"></a>Förhandsgranska resultat
 På varje dokument eller journal som kan bokföras, kan du välja knappen **Förhandsgranska bokföring** för att förhandsgranska andra typer av transaktioner som ska skapas, när du bokför dokumentet eller journalen.
@@ -30,5 +30,5 @@ På varje dokument eller journal som kan bokföras, kan du välja knappen **För
 
 ## <a name="see-also"></a>Se även
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)

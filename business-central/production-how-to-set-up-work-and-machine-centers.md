@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910711"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817287"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
 
@@ -66,13 +66,16 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
     För att kunna övervaka kapacitetsförbrukningen kontinuerligt måste du först ange en mätmetod. Enheterna som du anger är grundläggande enheter. Exempelvis mäts bearbetningstiden i timmar och minuter.
 
     > [!NOTE]  
-    > Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar - inte 8 (arbetstimmar).
+    > Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar – inte 8 (arbetstimmar).
 
-13. I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. (Om din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**.)  
+13. I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. (Om din [!INCLUDE[prod_short](includes/prod_short.md)]-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**.)  
 14. I fältet **Effektivitet** anger du den procentandel av förväntade standardutdata som faktiskt uppnås av produktionsgruppen. Genom att ange **100** kan du ange att produktionsgruppens faktiska utdata är samma som standardutdata.  
 15. Markera kryssrutan **Konsoliderad kalender** om du också använder maskingrupper. På så sätt uppsummeras kalendertransaktioner maskingruppkalender.  
 16. I fältet **Fabrikskalenderkod** väljer du en fabrikskalender. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  
-17. I fältet **Kötid** anger du ett tidsintervall som måste gå innan tilldelat arbete kan påbörjas i produktionsgruppen. Observera att värdet för Kötid läggs till utöver andra icke-produktiva tidselement som till exempel Väntetid och Transporttid, som du kan ange på verksamhetsföljdrader som använder produktionsgruppen.  
+17. I fältet **Kötid** anger du ett tidsintervall som måste gå innan tilldelat arbete kan påbörjas i produktionsgruppen. 
+
+> [!NOTE]
+> Använd kötider för att tillhandahålla en buffert mellan den tidpunkt då en komponent anländer till en maskin eller en produktionsgrupp och när operationen verkligen startar. Exempelvis levereras en del till en maskingrupp kl. 10:00, men det tar en timme att montera den på maskinen, varför åtgärden inte påbörjas förrän kl. 11:00. För att redovisa för den timmen är kötiden en timme. Värdet i fältet **Kötid** på en maskin eller i en produktionsgrupp, plus summan av värdena i **Konfigurationstid**, **Bearbetningstid**, **Väntetid** och **Transporttid** på artikelns verksamhetsföljdrad kombineras i syfte att tillhandahålla artikelns produktionsledtid. På så sätt får du exakta totala produktionstider.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Exempel – Olika maskingrupper kan kopplas till en produktionsgrupp
 
@@ -88,7 +91,7 @@ Om produktionsgruppernas kapacitet inte ska läggas till i den totala kapacitete
 
 Du måste skapa produktionsresurser som du anser är kritiska och markera dem för att acceptera en bestämd beläggning i stället för den obestämda beläggning som är standard och som andra produktionsresurser accepterar. Ett kapacitetsbegränsad resurs kan vara en produktions- eller maskingrupp som du har identifierat som en flaskhals och för vilken du vill skapa en begränsad (bestämd) beläggning.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har inte stöd för detaljerad fabrikskontroll. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.
+[!INCLUDE[prod_short](includes/prod_short.md)] har inte stöd för detaljerad fabrikskontroll. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.
 
 På sidan **kapacitetsbegränsade resurser** kan du göra inställningar som undviker överbelastning av specifika resurser och säkerställa att ingen kapacitet blir ej fördelad om den kan öka produktionstiden för en produktionsorder. I fältet **Dämpare (% totalkapacitet)** kan du lägga till dämpartiden för resurser för att minimera åtgärdsdelning. Det gör att systemet kan schemalägga laddning till den sista möjliga dagen genom att överskrida den kritiska beläggningsprocenten något om det kan minska antalet operationer som delas.
 
@@ -111,4 +114,4 @@ När du ska planera med kapacitetsbegränsade resurser ser systemet till att ing
 [Planerad](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

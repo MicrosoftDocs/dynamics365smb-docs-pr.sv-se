@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914916"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756699"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
 
-Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför kan du också använda rollutforskaren som ett sätt att navigera i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför kan du också använda rollutforskaren som ett sätt att navigera i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Du kan öppna rullutforskaren från rollcentret och alla listsidor och från fönstret **Berätta**.
 
 - I ditt rollcenter eller valfri listsida, välj knappen ![Menyknapp](media/ui_menu_button.png "Menyknapp") till höger om navigeringsfältet, eller tryck på Skift+F12.
-- I fönstret **Berätta för mig**, välj åtgärden **utforska** längst ned.
+- I fönstret **Berätta**, välj åtgärden **utforska** längst ned.
 
 Välj åtgärden **Sök** högst upp i rollutforskaren för att snabbt hitta funktionsnamn som innehåller en viss term.
 
@@ -44,4 +44,4 @@ De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionern
 ## <a name="see-also"></a>Se även
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923326"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760138"
 ---
 # <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
 
 Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.  
 
- Genomgångarna beskriver fullständiga scenarier som ska utföras från början till slut för att ge så stor nytta som möjligt. Många bygger på demonstrationer i [!INCLUDE[d365fin](includes/d365fin_md.md)] och där kan du prova på procedurerna själv, i din egen takt.  
+ Genomgångarna beskriver fullständiga scenarier som ska utföras från början till slut för att ge så stor nytta som möjligt. Många bygger på demonstrationer i [!INCLUDE[prod_short](includes/prod_short.md)] och där kan du prova på procedurerna själv, i din egen takt.  
 
 > [!NOTE]
-> Några av genomgångarna kräver exempeldata som inte är tillgänglig i det standarddemonstrationsföretaget i [!INCLUDE[prodshort](includes/prodshort.md)]. För mer information, se [Så här skapar du ett företag med fullständiga exempeldata i ett begränsat läge](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Några av genomgångarna kräver exempeldata som inte är tillgänglig i det standarddemonstrationsföretaget i [!INCLUDE[prod_short](includes/prod_short.md)]. För mer information, se [Så här skapar du ett företag med fullständiga exempeldata i ett begränsat läge](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Till|Gå till|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utför
 
 ## <a name="see-also"></a>Se även
 
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

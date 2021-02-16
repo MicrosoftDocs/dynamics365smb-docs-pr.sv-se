@@ -1,5 +1,5 @@
 ---
-title: Översikt över uppgifter för inställning av Business Central | Microsoft Docs
+title: Översikt över uppgifter för inställning av Business Central
 description: Innehåller information om att konfigurera, initialisera och konfigurera Business Central för att passa just dina behov.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2020
+ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: 0f33f59975973d8b585c97b53a3801e8706346fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32003217f6ffdeb5c5aad0fdc0fd3648a3ef5863
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912827"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024425"
 ---
-# <a name="setting-up-prodshort"></a>Ställa in [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="setting-up-prod_short"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodshort](includes/prodshort.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov.
+[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov.
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
-Via menyn ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) kan du komma åt assisterade konfigurationsguider som hjälper dig att konfigurera specifika och lägga till funktioner i [!INCLUDE[prodshort](includes/prodshort.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).
+Via menyn ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) kan du komma åt assisterade konfigurationsguider som hjälper dig att konfigurera specifika och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).
 
 Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver den assisterade inställningsguiden. Nedan anges några av de funktioner som du kan ställa in manuellt.
 
@@ -34,6 +34,7 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 | Konfigurera reglerna och värdena som definierar företagets försäljningspolicyer, registrera nya kunder och ställa in hur du kommunicerar med kunderna. |[Konfigurera försäljning](sales-setup-sales.md) |
 | Konfigurera de regler och värden som kan styra företagets inköp, registrera nya leverantörer och prioritera leverantörerna för betalningshantering. |[Ställa in inköp](purchasing-setup-purchasing.md) |
 | Konfigurera reglerna och värdena som definierar företagets lagerpolicyer, ställa in lagerställen om du vill hålla lager på flera distributionslager och kategorisera artiklar för att förbättra sökning och sortering. |[Ställa in lager](inventory-setup-inventory.md) |
+|Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 | Ställa in hur du ställer in resurser och tidrapporter och projekt för att hantera projekt. |[Ställa in projekthantering](projects-setup-projects.md) |
 | Konfigurera hur du försäkrar, underhåller och skriver av anläggningstillgångar och hur du registrerar kostnader för anläggningstillgångar i företagets redovisning. |[Ställa in anläggningstillgångar](fa-setup.md) |
 |Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in lagerstyrning](warehouse-setup-warehouse.md)|
@@ -41,7 +42,7 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 |Standardtjänster, symptom och felkoder och skapa serviceartiklar, resurser och dokumentation som behövs för att tillhandahålla service till kunder.|[Ställa in tjänstehantering](service-setup-service.md)|
 |Läs om bästa praxis för att konfigurera artiklar för lagerkostnad och leveransplanering.|[Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)|
 |Förbättra kvalitet på implementeringen och minska driftsättningstiden med hjälp av en uppsättning verktyg för att skapa ett nytt företag med hjälp av guider, mallar, kalkylblad och frågeformulär för kunden.|[Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
-|Överför information för kunder, leverantörer, lager och bankkonton från ett annat system i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)|
+|Överför information för kunder, leverantörer, lager och bankkonton från ett annat system i [!INCLUDE[prod_short](includes/prod_short.md)]|[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)|
 |Använd tillägget Business Central Outlook för att se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.|[Använda Business Central som din företagsinkorg i Outlook](admin-outlook.md)|
 |Få insyn i Business Central-data med hjälp av Power BI och Business Central-innehållspaket.|[Aktivera affärsdata för Power BI](admin-powerbi.md)|
 |Använd Business Central-data som en del av ett arbetsflöde i Power Automate.|[Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)|
@@ -49,14 +50,14 @@ Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan
 |Använd särskilda Quickbooks migreringsguider.|[Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)|
 |Komma åt Business Central-data från en mobil enhet.|[Få Business Central på din mobila enhet](install-mobile-app.md)|
 |Bulkfakturera avtalade tider som skapats i Bookings.|[Bulkfakturera för Microsoft Bookings](finance-bookings.md)|
-|Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration](admin-how-setup-email.md)|
+|Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[prod_short](includes/prod_short.md)]| [Konfigurera e-post manuellt eller med hjälp av assisterad konfiguration](admin-how-setup-email.md)|
 | Skapa unika identifieringskoder för poster, som till exempel kort, dokument och journalrader, för att spåra dem i systemet. |[Skapa nummerserier](ui-create-number-series.md) |
-|Konfigurera och tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.|[Skapa baskalendrar](across-how-to-assign-base-calendars.md)|  
+|Konfigurera och tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.|[Skapa baskalendrar](across-how-to-assign-base-calendars.md)|
 
-Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-prenumeration. Mer information finns i [Administration](admin-setup-and-administration.md).  
+Vissa områden kräver att du är administratör i din [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Mer information finns i [Administration](admin-setup-and-administration.md).  
 
 > [!NOTE]
-> Som administratör kan du skapa ett nytt företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services som är ett verktyg utformat för att förkorta distributionstider, förbättra implementeringskvaliteten, införa en upprepningsbar implementeringsmetod samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Som administratör kan du skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services som är ett verktyg utformat för att förkorta distributionstider, förbättra implementeringskvaliteten, införa en upprepningsbar implementeringsmetod samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Se även
 
@@ -70,8 +71,8 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[d365fin](includ
 [Monteringshantering](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Komma igång](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4073ccccd36f6ec62804a5c1bd1881fb4d7a167d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 845b552141f5637893bb0f0041b3247bce023c5f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926803"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758498"
 ---
 # <a name="record-purchases"></a>Registrera inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor eller inköpsorder också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor eller order bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
@@ -37,7 +37,7 @@ Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** f
 
 > [!NOTE]
 > Med inköpsradtypen **Resurs** kan du också köpa externa resurser, till exempel i syfte att fakturera en leverantör för utfört arbete. Mer information finns i [Ange resurser](projects-how-setup-resources.md).<br /><br />
-> Om du vill använda en inköpt resurs kan du komma att behöva ange resursens kapacitet och tilldela denna manuellt till ett projekt. När du köper en resurs skapas reskontratransaktion - reskontratransaktioner för resurs spåras emellertid inte för mängd och värde på samma sätt som för exempelvis artiklar. Om antals- och värdespårning krävs kan du använda andra radartikeltyper.
+> Om du vill använda en inköpt resurs kan du komma att behöva ange resursens kapacitet och tilldela denna manuellt till ett projekt. När du köper en resurs skapas reskontratransaktion – reskontratransaktioner för resurs spåras emellertid inte för mängd och värde på samma sätt som för exempelvis artiklar. Om antals- och värdespårning krävs kan du använda andra radartikeltyper.
 
 Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende på om leverantören redan har registrerats.
 <br><br>  
@@ -99,4 +99,4 @@ Inköpet visas nu i lager, resurstransaktioner och ekonomiska transaktioner, och
 [Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Förbereda direktutleveranser](sales-how-drop-shipment.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

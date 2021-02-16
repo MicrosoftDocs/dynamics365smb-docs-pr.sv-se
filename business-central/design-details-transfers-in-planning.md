@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Överföringar i planering | Microsoft Docs
+title: Designdetaljer – Överföringar i planering | Microsoft Docs
 description: Det här avsnittet beskriver hur du använder överföringsorder som en tillgång när du planerar lagernivåer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920903"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035587"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
 Överföringsorder är också en källa till tillgång när de arbetar på nivån med lagerställeenheter. När du använder flera lagerställen (distributionslager) kan återanskaffningssystemet för lagerställeenheter ställas in till Överföring, vilket anger att lagerstället fylls på genom att varor överförs från ett annat lagerställe. I en sådan situation med flera distributionslager kan företag ha en kedja av överföringar där tillgång till lagerställe GRÖN överförs från GUL, och tillgång till GUL överförs från RÖD och så vidare. I början av kedjan finns återanskaffningssystemet Prod.order eller Inköp.  
 
 ![Exempel på överföringsflöde](media/nav_app_supply_planning_7_transfers1.png "Exempel på överföringsflöde")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 När du jämför situationen när en leveransorder återförs direkt mot en begäranorder med en situation där försäljningsordern levereras via en kedja av lagerställeenhetsöverföringar, är det uppenbart att planeringsuppgiften i den senare situationen kan bli mycket komplex. Om efterfrågan ändras kan det orsaka en dominoeffekt genom kedjan, eftersom alla överföringsorder plus inköps-/produktionsorder i den motsatta änden av kedjan måste ändras för att återställa balansen mellan efterfrågan och tillgång.  
 
@@ -29,7 +32,7 @@ När du jämför situationen när en leveransorder återförs direkt mot en beg�
 ## <a name="why-is-transfer-a-special-case"></a>Varför är överföring ett specialfall?  
 En överföringsorder liknar andra order i programmet. Men bakom kulisserna det är mycket annorlunda.  
 
-En vanlig aspekt som gör att överföringar i planeringen skiljer sig från inköps- och produktionsorder är att en överföringsrad representerar efterfrågan och tillgång samtidigt. Den avgående del som skickas från den gamla lagerstället, är efterfrågan. Den ankommande delen som ska inlevereras till det nya lagerstället, är tillgång på det lagerstället.  
+En vanlig aspekt som gör att överföringar i planeringen skiljer sig från inköps- och produktionsorder är att en överföringsrad representerar efterfrågan och tillgång samtidigt. Den utgående del som skickas från den gamla lagerstället, är efterfrågan. Den inkommande delen som ska inlevereras till det nya lagerstället, är tillgång på det lagerstället.  
 
 ![Innehåll på sidan överföringsorder](media/nav_app_supply_planning_7_transfers3.png "Innehåll på sidan överföringsorder")  
 
@@ -79,9 +82,9 @@ Om fler överföringar till en viss lagerställe finns kommer det första överf
 ## <a name="changing-quantity-with-reservations"></a>Ändra antal med reservationer  
 När du ändrar antal på befintlig leverans, beaktar planeringssystemet reservationer på så sätt att det reserverade antalet representerar den lägre gränsen för hur mycket tillgången kan minskas.  
 
-När antalet ändras på en befintlig överföringsorderrad ska du tänka på att den lägre gränsen definieras som det högsta reserverade antalet för den avgående och ankommande överföringsraden.  
+När antalet ändras på en befintlig överföringsorderrad ska du tänka på att den lägre gränsen definieras som det högsta reserverade antalet för den utgående och inkommande överföringsraden.  
 
-Om t.ex en överföringsorderrad med 117 enheter har reserverats mot en försäljningsrad med 46 och en inköpsrad med 24, är det inte möjligt att minska överföringsraden nedanför 46 enheter även om det kan utgöra överskjutande tillgång på den ankommande sidan.  
+Om t.ex en överföringsorderrad med 117 enheter har reserverats mot en försäljningsrad med 46 och en inköpsrad med 24, är det inte möjligt att minska överföringsraden nedanför 46 enheter även om det kan utgöra överskjutande tillgång på den inkommande sidan.  
 
 ![Reservationer i överföringsplanering](media/nav_app_supply_planning_7_transfers8.png "Reservationer i överföringsplanering")  
 
@@ -109,9 +112,9 @@ När förfallodatumet beräknas för en överföringsorder beaktas olika typer a
 
 Ledtiderna som är aktiva när en överföringsorder planeras är:  
 
-* Avgående lagerhanteringstid  
+* utgående lagerhanteringstid  
 * Leveranstid  
-* Ankommande lagerhanteringstid  
+* inkommande lagerhanteringstid  
 * På planeringsraden används följande fält för att ge information om beräkningen.  
 * Överföringsutleveransdatum  
 * Startdatum  
@@ -120,7 +123,7 @@ Ledtiderna som är aktiva när en överföringsorder planeras är:
 
 Utleveransdatumet på överföringsraden visas i överföringsutleveransdatumfältet, och inleveransdatum på överföringsraden ska i förfallodatumfältet.  
 
-Start - och slutdatum ska användas för att beskriva den faktiska transportperioden.  
+Start – och slutdatum ska användas för att beskriva den faktiska transportperioden.  
 
 Följande illustration visar tolkningen av startdatum-tid och slutdatum-tid på planeringsrader som hör till överföringsorder.  
 
@@ -128,25 +131,25 @@ Följande illustration visar tolkningen av startdatum-tid och slutdatum-tid på 
 
 I det här exemplet betyder det att:  
 
-* Utleveransdatum +  Avgående hantering =  Startdatum  
+* Utleveransdatum +  utgående hantering =  Startdatum  
 * Startdatum + Leveranstid = Slutdatum  
-* Slutdatum + Ankommande hanteringstid = Inleveransdatum  
+* Slutdatum + inkommande hanteringstid = Inleveransdatum  
 
 ## <a name="safety-lead-time"></a>Säkerhetsledtid  
 Fältet Standard säkerhetsledtid på sidan Produktionsinställningar och det relaterade fältet Säkerhetsledtid på artikelkortet ska inte beaktas vid beräkningen av en överföringsorder. Emellertid påverkar säkerhetsledtiden fortfarande den totala planeringen så som den påverkar återanskaffningsordern (inköp eller produktion) i början av överföringskedjan när artiklarna placeras på lagerstället som de ska överföras från.  
 
 ![Element på förfallodatumet för överföringen](media/nav_app_supply_planning_7_transfers14.png "Element på förfallodatumet för överföringen")  
 
-På produktionsorderraden är Slutdatum + Säkerhetsledtid + Ankommande Dist.lag. hanteringstid = Förfallodatum.  
+På produktionsorderraden är Slutdatum + Säkerhetsledtid + inkommande Dist.lag. hanteringstid = Förfallodatum.  
 
-På inköpsorderraden är Planerat inleveransdatum + Säkerhetsledtid + Ankommande Lagerhanteringstid = Förväntat inleveransdatum.  
+På inköpsorderraden är Planerat inleveransdatum + Säkerhetsledtid + inkommande Lagerhanteringstid = Förväntat inleveransdatum.  
 
 ## <a name="reschedule"></a>Omplanera  
-När du planerar om en befintlig överföringsrad måste planeringssystemet söka efter den avgående artikeln och ändra datum och tid på den. Det är viktigt att observera att om ledtid har definierats kommer det uppstå en lucka mellan utleveransen och inleveransen. Som nämndes kan ledtid bestå av fler element, till exempel transporttid och lagerhanteringstid. På en tidslinje kommer planeringssystemet att flytta till bakåt i tid medan den balanserar elementen.  
+När du planerar om en befintlig överföringsrad måste planeringssystemet söka efter den utgående artikeln och ändra datum och tid på den. Det är viktigt att observera att om ledtid har definierats kommer det uppstå en lucka mellan utleveransen och inleveransen. Som nämndes kan ledtid bestå av fler element, till exempel transporttid och lagerhanteringstid. På en tidslinje kommer planeringssystemet att flytta till bakåt i tid medan den balanserar elementen.  
 
 ![Ändrar förfallodatum i överföringsplanering](media/nav_app_supply_planning_7_transfers15.png "Ändrar förfallodatum i överföringsplanering")  
 
-När du ändrar förfallodatumet på en överföringsrad måste därför ledtiden beräknas för att uppdatera den avgående sidan av överföringen.  
+När du ändrar förfallodatumet på en överföringsrad måste därför ledtiden beräknas för att uppdatera den utgående sidan av överföringen.  
 
 ## <a name="seriallot-numbers-in-transfer-chains"></a>Serie-/partinummer i överföringskedjor  
 Om efterfrågan har serie-/partinummer och planeringsmotorn körs, kommer den att skapa några direkt skapade överföringsorder. Se Artikelattribut för mer information om begreppet. Om däremot serie-/partinummer tas bort från efterfrågan kommer de skapade överföringsorderna i kedjan fortfarande att ha serie-/artikelnummer och ignoreras därför av planeringen (inte tas bort).  
