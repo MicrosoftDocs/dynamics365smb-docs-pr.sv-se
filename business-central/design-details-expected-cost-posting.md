@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Bokföring av förväntad kostnad | Microsoft Docs
+title: Designdetaljer – Bokföring av förväntad kostnad | Microsoft Docs
 description: Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22e01f8b22c7f222674ff43090a27f5466dd8387
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911136"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751636"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokföring av förväntad kostnad
 Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.  
@@ -77,7 +77,7 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Lagerkontoredovisning (interim)|5530|95.00|4|  
 |01-15-20|Lager (interim)|2131|-95.00|3|  
-|01-15-20|Direkt kostnad kopplad - konto|7291|-100|6|  
+|01-15-20|Direkt kostnad kopplad – konto|7291|-100|6|  
 |01-15-20|Lagerkonto|2130|100|5|  
 
 ## <a name="see-also"></a>Se även
@@ -88,4 +88,4 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
  [Designdetaljer: Varians](design-details-variance.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

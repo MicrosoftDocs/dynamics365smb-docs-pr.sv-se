@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917532"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751737"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designinformation: ändra värderingsprinciper för artiklar
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du inte ändra en värderingsprincip för en artikel när du har inkluderat artikeln i en transaktion. När du till exempel har köpt eller sålt artikeln. Om en felaktig värderingsprincip har tilldelats till artikeln eller artiklarna kanske du inte upptäcker problemet förrän du gör din ekonomiska rapportering.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du inte ändra en värderingsprincip för en artikel när du har inkluderat artikeln i en transaktion. När du till exempel har köpt eller sålt artikeln. Om en felaktig värderingsprincip har tilldelats till artikeln eller artiklarna kanske du inte upptäcker problemet förrän du gör din ekonomiska rapportering.
 
 I det här avsnittet beskrivs hur du löser problemet. Den rekommenderade metoden är att ersätta artikeln med den felaktiga värderingsprincipen med en ny artikel och använda en monteringsorder för att överföra lagret från den gamla artikeln till det nya.
 
@@ -33,9 +33,9 @@ I det här avsnittet beskrivs hur du löser problemet. Den rekommenderade metode
 
 Värderingsprinciper kontrollerar kostnadsberäkningar när varor köps, tas emot i lager och säljs. Värderingsprinciper påverkar tidpunkten för de belopp som registrerats för KSV och som påverkar bruttovinsten. Det är det här flödet som beräknar KSV. Kostnaden för sålda varor (KSV) och intäkter används för att bestämma bruttovinst enligt följande:
 
-*bruttovinst* = *intäkt - COGS*
+*bruttovinst* = *intäkt – COGS*
 
-När du lägger upp lagerartiklar måste du tilldela en värderingsprincip. Metoden kan variera från affärsverksamhet till företag och från artikel till artikel så att det är viktigt att välja rätt namn. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder följande värderingsprinciper:
+När du lägger upp lagerartiklar måste du tilldela en värderingsprincip. Metoden kan variera från affärsverksamhet till företag och från artikel till artikel så att det är viktigt att välja rätt namn. [!INCLUDE[prod_short](includes/prod_short.md)] stöder följande värderingsprinciper:
 
 * Genomsnitt
 * FIFO
@@ -60,7 +60,7 @@ I det här avsnittet beskrivs följande steg för att ändra värderingsprincipe
 
 ### <a name="define-a-default-costing-method"></a>Definiera standardvärderingsprincip
 
-För att undvika framtida misstag kan du ange en värderingsprincip som är standard för nya artiklar. När någon skapar en ny artikel [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer den att föreslå standard värderingsprincipen. Du anger standardmetoden i fältet **Standardvärderingsprincip** på sidan **Lagerinställning**. 
+För att undvika framtida misstag kan du ange en värderingsprincip som är standard för nya artiklar. När någon skapar en ny artikel [!INCLUDE[prod_short](includes/prod_short.md)] kommer den att föreslå standard värderingsprincipen. Du anger standardmetoden i fältet **Standardvärderingsprincip** på sidan **Lagerinställning**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identifiera de artiklar som du vill ändra värderingsprincipen för och numrera om dem
 
@@ -84,8 +84,8 @@ Om du vill göra de nya objekten fullt användbara måste du manuellt kopiera vi
 |     |Standardjournaler         |Kontrollera om standardjournalerna refererar till den ursprungliga artikeln och överför dessa data till den nya artikeln vid behov. Informationen finns i standardjournalerna, som är tillgängliga i artikeljournalen.          |
 |FÖRS     |Procentandelar, förskottsbetalning för försäljning         | Kontrollera om några procentandelar, förskottsbetalning för försäljning har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Försäljning** och **Procentandelar, förskottsbetalning**.        |
 |Inköp     |Procentandelar, förskottsbetalning för inköp         |Kontrollera om några procentandelar, förskottsbetalning för inköp har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Inköps** och **Procentandelar, förskottsbetalning**.                 |
-|Dist.lager     |Lagerplatsinnehåll         |Granska det lagerplatsinnehåll som har definierats för den ursprungliga artikeln. Om kolumner så som min. Antal max. Antal, standard och dedikerade har registrerats individuellt måste du skapa lagerplatsinnehåll manuellt för den nya artikeln. Om så inte är fallet krävs ingen åtgärd. [!INCLUDE[d365fin](includes/d365fin_md.md)] underhåller posterna när du registrerar distributionslagerdokument och journaler.|
-|Projekt     |Projektpriser         |Kontrollera om projektpriser har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Informationen finns på sidan **Projektkort** i delen **Projektinformation – Projektdetaljer - antal priser** i **rutan Faktabox**.         |
+|Dist.lager     |Lagerställesinnehåll         |Granska det lagerställesinnehåll som har definierats för den ursprungliga artikeln. Om kolumner så som min. Antal max. Antal, standard och dedikerade har registrerats individuellt måste du skapa lagerställesinnehåll manuellt för den nya artikeln. Om så inte är fallet krävs ingen åtgärd. [!INCLUDE[prod_short](includes/prod_short.md)] underhåller posterna när du registrerar distributionslagerdokument och journaler.|
+|Projekt     |Projektpriser         |Kontrollera om projektpriser har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Informationen finns på sidan **Projektkort** i delen **Projektinformation – Projektdetaljer – antal priser** i **rutan Faktabox**.         |
 |Service     |Serviceresurskvalifikation         |Kontrollera om serviceresurskvalifikation har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa resurs kvalifikationer använder du åtgärden **Resurskvalifikation** på sidan **Artikelkort**.          |
 |     |Serviceartikelkomponenter         |Kontrollera om komponenter har definierats för den ursprungliga serviceartikeln och överför dessa data till den nya artikeln. Om du vill visa serviceartikel komponenter på **Artikelkort** använder åtgärden **Serviceartikel** för att öppna listan över relaterade service artiklar och sedan välja **Komponent**.          |
 |Produktion     |Artikelstrukturer         |Kontrollera om det finns några produktionsstrukturer som innehåller den ursprungliga artikeln och ersätt det med den nya artikeln. Om du vill ersätta det ursprungliga artikel **Produktionsstruktur** väljer åtgärden **Byt ut artikel i prod.struktur**.         |
@@ -99,7 +99,7 @@ Om du vill göra de nya objekten fullt användbara måste du manuellt kopiera vi
 > [!NOTE]
 > I det här steget beaktas inte antal som ingår i order som inte har levererats. Mer information finns i [Hantera lagerkvantiteter som har allokerats till behov](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
 
-Använd en inventeringsjournal för att producera en lista över antalet i lagret. Beroende på inställningen för distributionslagerplatsen använder du något av följande:
+Använd en inventeringsjournal för att producera en lista över antalet i lagret. Beroende på inställningen för distributionslagerstället använder du något av följande:
 
 * Inventeringsjournaler
 * Dist.lager. Inventeringsjournaler
@@ -121,7 +121,7 @@ När du skapar monteringsorder använder du informationen från fältet inventer
 |Variantkod     |Samma som i inventeringsjournalen.          |
 |Lagerställekod     |Samma som i inventeringsjournalen.         |
 |Enhetskod     |Samma som i inventeringsjournalen.         |
-|Lagerplatskod     |Samma som i inventeringsjournalen.         |
+|Lagerställeskod     |Samma som i inventeringsjournalen.         |
 
 #### <a name="lines"></a>Rader
 
@@ -169,7 +169,7 @@ När lagret för den ursprungliga artikeln är noll, kan du spärra artikeln fö
 
 ## <a name="summary"></a>Översikt
 
-Att ändra värderingsprincipen för artiklar som har använts i transaktioner är en bearbetning och inte en standard åtgärd i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan använda de steg som beskrivs i det här avsnittet som en mall för proceduren.
+Att ändra värderingsprincipen för artiklar som har använts i transaktioner är en bearbetning och inte en standard åtgärd i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan använda de steg som beskrivs i det här avsnittet som en mall för proceduren.
 
 Det kan ta lång tid att utföra flera manuella åtgärder. Men att ta sig tid att slutföra det kommer att minimera inverkan av misstag i din redovisning.
 

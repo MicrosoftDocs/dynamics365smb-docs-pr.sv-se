@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095d939d247a419d2adba16f9d3f61c8afb70e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7583837e515a4fd5fb415fe1b482512e7edf6b5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911361"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754010"
 ---
 # <a name="create-a-new-company"></a>Skapa ett nytt företag
-Innan du kan använda RapidStart Services för [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[d365fin](includes/d365fin_md.md)] men det inte finns några data i dem.
+Innan du kan använda RapidStart Services för [!INCLUDE[prod_short](includes/prod_short.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[prod_short](includes/prod_short.md)] men det inte finns några data i dem.
 
 Du kan dessutom tillämpa specifika inställningsdata till företaget, när du har initialiserat det. Information finns i ett konfigurationspaket, en .rapidstart-fil, med innehållet i ett komprimerat format.  
 
@@ -32,13 +32,13 @@ Exempelkonfigurationspaket, inklusive lands-/regionspecifika filer, ingår i dem
 Använd följande procedur för att skapa ett nytt företag och använd BASICCONFIG-paketet som en del av processen.  
 
 ## <a name="to-create-a-new-company"></a>Så här skapar du ett nytt företag:  
-1. Skapa ett nytt företag. Mer information finns i [Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
+1. Skapa ett nytt företag. Mer information finns i [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
 2. Du kan nu importera implementerings-rollcentret för RapidStart Services och importera det konfigurationspaket som du har exporterat från företaget CRONUS Sverige AB.
 
-När du har skapat ett nytt företag, fylls vissa tabeller i automatiskt, även om ingen företagsmall kopplas. Du kan till exempel granska standardkoderna för att bokföra och gruppera transaktioner på sidan **Källkod**. Om du anger en lokal version av [!INCLUDE[d365fin](includes/d365fin_md.md)], ska du granska den här tabellen och överväga alla lokala språkproblem.
+När du har skapat ett nytt företag, fylls vissa tabeller i automatiskt, även om ingen företagsmall kopplas. Du kan till exempel granska standardkoderna för att bokföra och gruppera transaktioner på sidan **Källkod**. Om du anger en lokal version av [!INCLUDE[prod_short](includes/prod_short.md)], ska du granska den här tabellen och överväga alla lokala språkproblem.
 
 ## <a name="about-data-tables"></a>Om datatabeller
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-datatabeller finns i två grundläggande typer: Huvud och Inställningar. När du vill lägga upp en företagskonfiguration kan du använda dessa typer för att fokusera din konfigurationstrategi.  
+[!INCLUDE[prod_short](includes/prod_short.md)]-datatabeller finns i två grundläggande typer: Huvud och Inställningar. När du vill lägga upp en företagskonfiguration kan du använda dessa typer för att fokusera din konfigurationstrategi.  
 
 ### <a name="master-data-tables"></a>Huvuddatatabeller  
 I följande tabell visas exempel på huvuddatatabeller. När du initialiserar ett nytt företag är de här tabellerna tomma.  
@@ -61,7 +61,7 @@ I följande tabell visas exempel på inställningsdatatabeller där du registrer
 |312|Inköpsinställningar|  
 |313|Lagerinställningar|  
 
-Förutom inställningsdatatabeller har [!INCLUDE[d365fin](includes/d365fin_md.md)] också inställningsdatatabeller som anger grundläggande information om företaget och dess affärsprocesser. I följande tabell visas några av dessa.  
+Förutom inställningsdatatabeller har [!INCLUDE[prod_short](includes/prod_short.md)] också inställningsdatatabeller som anger grundläggande information om företaget och dess affärsprocesser. I följande tabell visas några av dessa.  
 
 |Tabellnr.|Tabellnamn|  
 |-------------------|--------------------|  

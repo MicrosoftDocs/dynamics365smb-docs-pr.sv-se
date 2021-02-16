@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
 ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 5d97ae36511286e46124c7b9e3392ea1807de2e7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5e09c2a07a3259cd44d13b58765f1d522c46d409
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911511"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754009"
 ---
 # <a name="enabling-upcoming-features-ahead-of-time"></a>Aktivera kommande funktioner i förväg
 
 En del nya funktioner kan aktiveras i förväg så att du kan dra nytta av dem så tidigt som möjligt. Aktivering av funktioner tidigt ger dig tid att testa och förbereda organisationen för ändring.
 
-När Microsoft släpper funktioner eller funktioner för funktionsdesign som en del av mindre uppdateringar aktiveras vissa funktioner inte direkt. Administratörer kan aktivera varje funktion från sidan **funktionshantering**. När en funktion har aktiverats blir den tillgänglig för alla användare i den miljön, oavsett hur de kommer till [!INCLUDE[prodshort](includes/prodshort.md)]. Funktioner kan vara avstängda på ett säkert sätt. Dessa funktioner är bara valfria för en stund.
+När Microsoft släpper funktioner eller funktioner för funktionsdesign som en del av mindre uppdateringar aktiveras vissa funktioner inte direkt. Administratörer kan aktivera varje funktion från sidan **funktionshantering**. När en funktion har aktiverats blir den tillgänglig för alla användare i den miljön, oavsett hur de kommer till [!INCLUDE[prod_short](includes/prod_short.md)]. Funktioner kan vara avstängda på ett säkert sätt. Dessa funktioner är bara valfria för en stund.
 
 Läs mer om [funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 

@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer - Lagervärdering | Microsoft Docs
-description: Lagervärdering XE är fastställandet av kostnaden som tilldelats en lagerartikel, som uttryckt i följande ekvation.
+title: Designdetaljer – Lagervärdering | Microsoft Docs
+description: Lagervärdering är beräkningen av kostnaden för en lagerartikel.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad2698338f717541665cc5b53f6196c02f694562
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913694"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751436"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetaljer: Lagervärdering
-Lagervärdering XE är fastställandet av kostnaden som tilldelats en lagerartikel, som uttryckt i följande ekvation.  
+Lagervärdering är fastställandet av kostnaden som tilldelats en lagerartikel, enligt uttryckt i följande ekvation.  
 
 Slutlager = startlager + nettoinköp – kostnaden för sålda varor  
 
-Beräkningen av lagervärderingen använder fältet **Kost.belopp (aktuellt)** i värdetransaktionerna för artikeln. Transaktionerna klassificeras efter transaktionstypen XE "transaktionstyp" som motsvarar kostnadskomponenter, direkt kostnad, indirekt kostnad, avvikelse, omvärdering och avrundning. Mer information finns i [Designdetaljer: kostnadskomponenter](design-details-cost-components.md).  
+Beräkningen av lagervärderingen använder fältet **Kost.belopp (aktuellt)** i värdetransaktionerna för artikeln. Transaktionerna klassificeras efter transaktionstypen som motsvarar kostnadskomponenter, direkt kostnad, indirekt kostnad, avvikelse, omvärdering och avrundning. Mer information finns i [Designdetaljer: kostnadskomponenter](design-details-cost-components.md).  
 
-Transaktioner har kopplats mot varandra, antingen av fasta kopplingar XE "koppling; fast" eller enligt det allmänna antagandet om kostnadsflöde som definieras av värderingsprincipen XE "princip; kostnad" XE "kostnadsprincip" En transaktion med lagerminskning kan kopplas till flera ökningar med olika bokföringsdatum och eventuellt olika anskaffningskostnader XE "anskaffningskostnader". Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md). Därför baseras beräkningen av lagervärdet  XE "Lagervärde" för ett givet datum på summan av positiva och negativa värdetransaktioner.  
+Transaktioner har kopplats mot varandra, antingen av fasta kopplingar eller enligt det allmänna antagandet om kostnadsflöde som definieras av värderingsprincipen. En transaktion med lagerminskning kan kopplas till flera ökningar med olika bokföringsdatum och eventuellt olika anskaffningskostnader. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md). Därför baseras beräkningen av lagervärdet för ett givet datum på summan av positiva och negativa värdetransaktioner.  
 
-## <a name="inventory-valuation-report"></a>Lagervärdering - rapport  
+## <a name="inventory-valuation-report"></a>Lagervärdering – rapport  
 För att beräkna lagervärdet i rapporten **Lagervärdering** börjar rapporten med att beräkna värdet för artikelns lager på ett visst startdatum. Det lägger till värdet av lagerökningar och subtraherar sedan värdet av lagerminskningar upp till ett visst slutdatum. Slutresultatet är lagervärdet på slutdatumet. Rapporten beräknar dessa värden genom att summera värdena i fältet **Kost.belopp (aktuellt)** i värdetransaktionerna, med hjälp av bokföringsdatum som filter.  
 
 I den utskrivna rapporten visas alltid faktiska belopp, d.v.s. kostnaden för transaktioner som har bokförts som fakturerade. Om du markerar fältet Ta med förväntad kostnad på snabbfliken Alternativ visas även den förväntade kostnaden för transaktioner som har bokförts som inlevererade eller utlevererade.  
@@ -37,7 +37,7 @@ I den utskrivna rapporten visas alltid faktiska belopp, d.v.s. kostnaden för tr
 > [!IMPORTANT]  
 >  Beloppen i kolumnerna **Värde** i rapporten baseras på bokföringsdatumet för transaktioner för en artikel.  
 
-## <a name="inventory-valuation---wip-report"></a>Lagervärdering - PIA-rapport  
+## <a name="inventory-valuation---wip-report"></a>Lagervärdering – PIA-rapport  
 Ett produktionsföretag måste bestämma värdet av tre typer av lager:  
 
 * Råmateriallager  
@@ -50,7 +50,7 @@ Värdet i PIA-lagret bestäms av efterföljande ekvation:
 
 När det gäller inköpt lager utgör värdetransaktioner grunden för lagervärderingen. Beräkningen görs med hjälp av värdena i fältet **Kost.belopp (aktuellt)** för artikel- och kapacitetvärdetransaktionerna som är kopplade till en produktionsorder.  
 
-Avsikten med PIA-lagervärderingen är att fastställa värdet för artiklarna vars tillverkning ännu inte har slutförts på ett givet datum. Därför baseras PIA-lagervärdet på de värdetransaktioner som är kopplade till förbrukningen och kapacitetstransaktionerna. Förbrukningstransaktioner måste vara helt fakturerade vid datumet för värderingen. Därför visar rapporten **Lagervärdering - PIA** kostnaderna som representerar PIA-lagervärdet i två kategorier: förbrukning och kapacitet.  
+Avsikten med PIA-lagervärderingen är att fastställa värdet för artiklarna vars tillverkning ännu inte har slutförts på ett givet datum. Därför baseras PIA-lagervärdet på de värdetransaktioner som är kopplade till förbrukningen och kapacitetstransaktionerna. Förbrukningstransaktioner måste vara helt fakturerade vid datumet för värderingen. Därför visar rapporten **Lagervärdering – PIA** kostnaderna som representerar PIA-lagervärdet i två kategorier: förbrukning och kapacitet.  
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)   
@@ -58,4 +58,4 @@ Avsikten med PIA-lagervärderingen är att fastställa värdet för artiklarna v
 [Designdetaljer: Bokföring av produktionsorder](design-details-production-order-posting.md)
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

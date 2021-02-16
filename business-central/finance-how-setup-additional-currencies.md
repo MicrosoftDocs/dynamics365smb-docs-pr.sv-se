@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920553"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746897"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
 
-Din redovisning ställs in för att använda den lokala valutan (BVA) men du kan ställa in en annan valuta med en tilldelad aktuell valutakurs. Genom att ange en andra valuta som en så kallad alternativ rapporteringsvaluta kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t.ex. momstransaktioner.
+Din redovisning ställs in för att använda den lokala valutan (BVA) men du kan ställa in en annan valuta med en tilldelad aktuell valutakurs. Genom att ange en andra valuta som en så kallad alternativ rapporteringsvaluta kommer [!INCLUDE[prod_short](includes/prod_short.md)] registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t.ex. momstransaktioner.
 
 > [!Warning]
 > Funktionen Alt. rapporteringsvaluta bör inte användas som underlag vid omräkning av ekonomirapporter. Verktyget kan inte användas för att utföra omräkningar av ekonomirapporter för utländska dotterbolag som en del i en företagskonsolidering. Den alternativa rapporteringsvalutan kan endast användas för att förbereda rapporter i en annan valuta på ett sådant sätt som om den valutan var företagets lokala valuta.
@@ -59,7 +59,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 |**Restförluster**|Det redovisningskonto där restbelopp som är förluster kommer att bokföras, om du bokför i redovisningsmodulen i både BVA och i en alternativ rapporteringsvaluta.|
 
 > [!NOTE]  
->  Restbelopp kan uppstå när debet- och kreditbelopp som har konverterats i [!INCLUDE[d365fin](includes/d365fin_md.md)] från BVA till en alternativ rapporteringsvaluta avrundas.  
+>  Restbelopp kan uppstå när debet- och kreditbelopp som har konverterats i [!INCLUDE[prod_short](includes/prod_short.md)] från BVA till en alternativ rapporteringsvaluta avrundas.  
 
 För varje redovisningskonto måste du ange hur redovisningsbelopp för det kontot ska justeras för valutakursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 
@@ -98,7 +98,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 ### <a name="to-activate-the-additional-reporting-currency"></a>Så här aktiverar du den alternativa rapporteringsvalutan.  
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du fältet **Alternativ rapporteringsvaluta** och välj den alternativa valuta du vill rapportera i.  
-3. När du lämnar fältet visar [!INCLUDE[d365fin](includes/d365fin_md.md)] ett bekräftelsemeddelande som beskriver effekterna när du väljer (och aktiverar) den alternativa rapporteringsvalutan.  
+3. När du lämnar fältet visar [!INCLUDE[prod_short](includes/prod_short.md)] ett bekräftelsemeddelande som beskriver effekterna när du väljer (och aktiverar) den alternativa rapporteringsvalutan.  
 4. Välj **ja** för att bekräfta att du vill aktivera valutan.  
 5. Batch-jobbet **Justera alt. rapporteringsvaluta** öppnas.
 
@@ -126,4 +126,4 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 ## <a name="see-also"></a>Se även
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

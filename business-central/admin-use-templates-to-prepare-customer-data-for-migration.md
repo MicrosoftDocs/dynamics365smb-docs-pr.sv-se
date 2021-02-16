@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922348"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745922"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Förbereda migrering av kunddata med mallar
 
@@ -28,14 +28,14 @@ Vanligtvis skapar du datamallar för följande huvuddatatabeller:
 - **Artikel**  
 - **Leverantör**  
 
-Du kan dock skapa en mall struktur för, och koppla dem till valfri tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan dock skapa en mall struktur för, och koppla dem till valfri tabell i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > Du kan också använda datamallar för dagliga operationer för att skapa nya poster som baseras på mallar. Dessa datamallar fungerar bara för de huvuddata tabellerna som stöds. Mer information finns i exempelvis [Registrera nya artiklar](inventory-how-register-new-items.md).  
 
 När du importerar kunddata från en fil, på samma sätt som för objekt, hämtas obligatoriska fältdata från den länkade datamallen. När du skapar en ny artikel anger du endast allmän information som namn, beskrivning och pris, och hämtar resten av obligatoriska fältdata från en vald datamall.
 
-När du skapar en ny huvuddatapost, till exempel ett kundkort, är vissa fält obligatoriska och måste fyllas i. Du kan gruppera de flesta obligatoriska fält, till exempel bokföringsgrupper och betalningsvillkor, för att skapa huvuddata registrerar enklare och stabilare. Du kan till exempel gruppera obligatoriska fält för tabell 18, **Kund**, som **Inrikes**, **Utrikes**eller **Exportera** typer.
+När du skapar en ny huvuddatapost, till exempel ett kundkort, är vissa fält obligatoriska och måste fyllas i. Du kan gruppera de flesta obligatoriska fält, till exempel bokföringsgrupper och betalningsvillkor, för att skapa huvuddata registrerar enklare och stabilare. Du kan till exempel gruppera obligatoriska fält för tabell 18, **Kund**, som **Inrikes**, **Utrikes** eller **Exportera** typer.
 
 > [!NOTE]
 > Fält av BLOB-typen kan inte exporteras/importeras med Excel.
@@ -87,7 +87,7 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 3. I fältet **Standardvärde** anger du ett lämpligt värde. I vissa fall kan du behöva använda ett värde som inte finns tillgängligt i databasen. I så fall kan du markera kryssrutan **Hoppa över relationskontroll** för att göra det möjligt att applicera data utan fel.
 
     > [!TIP]  
-    > Eftersom fältet **Standardvärde** inte har ett uppslag till motsvarande [!INCLUDE[d365fin](includes/d365fin_md.md)]-fältalternativ kopierar och klistrar du in det värde som du vill ha från den relaterade sidan till mallen.
+    > Eftersom fältet **Standardvärde** inte har ett uppslag till motsvarande [!INCLUDE[prod_short](includes/prod_short.md)]-fältalternativ kopierar och klistrar du in det värde som du vill ha från den relaterade sidan till mallen.
 
 4. Markera kryssrutan **obligatorisk** om användare måste fylla i det aktuella området.
 
@@ -98,7 +98,7 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 
 ## <a name="to-export-to-a-template-in-excel"></a>För att exportera till en mall i Excel
 
-Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
 2. Lägg till en tabell i listan eller välj en befintlig tabell. Mer information finns i [Administrera företagskonfigurationer i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ När du kopplar data från en mall i Excel till en undertabell som även har en 
 En transaktion med data som kopplas på det här sättet är fullständig eftersom den består av data som har angetts av användaren i Excel plus standardvärden som anges i konfigurationsmallen.
 
 > [!NOTE]
-> Om data i tabellerna i konfigurations paketet innehåller datum, till exempel bokföringsdatum på fakturor, tas datumen med i den tidszon som anges i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Om data i tabellerna i konfigurations paketet innehåller datum, till exempel bokföringsdatum på fakturor, tas datumen med i den tidszon som anges i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Så här skapar du en post från en konfigurationsmall
 
@@ -140,7 +140,7 @@ Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Så här använder du en konfigurationsdatamall på en post
 
-Du kan koppla en datamall till valfri post, som finns i [!INCLUDE[d365fin](includes/d365fin_md.md)] och använda den här metoden för att ändra en transaktion. Men när du gör det, skriver du över befintliga värden i transaktionen med de i mallen. Därför bör du vara försiktig när du kopplar en mall till befintliga poster.
+Du kan koppla en datamall till valfri post, som finns i [!INCLUDE[prod_short](includes/prod_short.md)] och använda den här metoden för att ändra en transaktion. Men när du gör det, skriver du över befintliga värden i transaktionen med de i mallen. Därför bör du vara försiktig när du kopplar en mall till befintliga poster.
 
 > [!WARNING]  
 > Funktionen **Koppla mall** skriver över befintliga data i en post. Om den här funktionen används i huvuddataflytt, kommer den att skriva över importerade data när du skapar poster.

@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922875"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746122"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
-Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
+Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast dator)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer 
 De flesta kortkommandona är desamma oavsett om operativ systemet är Windows eller macOS. Vissa kortkommandon är emellertid olika för macOS. Dessa genvägar anges med hakparenteser i följande avsnitt.
 
 > [!NOTE]
-> Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] bokför F9 ett dokument och CTRL + F7 visar de ekonomiska transaktionerna för en post. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
+> Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] bokför F9 exempelvis ett dokument och CTRL + F7 visar redovisningstransaktionerna för en post när du öppnar posten i ett kort. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
 
@@ -63,7 +63,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Ctrl+F1|Öppna Business Central-hjälpen för sidan.|
 |Ctrl+F12|Växla mellan breda och smala vyn.|
 |Ctrl + klicka|Navigera under anpassa personligt eller anpassa när åtgärden markeras med en pilspets. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).|  
-|Ctrl+F5|Läs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
+|Ctrl+F5|Läs [!INCLUDE[prod_short](includes/prod_short.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
 |F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd denna nyckel för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
 |Skriv in|Aktivera eller nå elementet eller kontrollen som är i fokus.|
 |Esc|Stäng den aktuella sidan eller listrutan.|
@@ -88,7 +88,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
 
-Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prodshort](includes/prodshort.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
+Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
 
 |Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Page Down<br />(Fn+Nedpil)|Gå till nästa sida i rapporten.|
 |Page Up<br />(Fn+uppåtpil)|Gå till föregående sida i rapporten.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Kortkommandon för zoomning in och ut
+
+|Tryck på dessa tangenter|Om du vill|
+|--------------------------------|----------|
+|Ctrl + plustecken (+)|Zooma in den aktuella sidan.|  
+|Ctrl + minustecken (-)|Zooma ut på den aktuella sidan.|  
+|Ctrl+0|Zooma in eller ut till 100 % på den aktuella sidan.|  
+
 ## <a name="see-also"></a>Se även
 
-[Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)  
+[Snabbguide för kortkommandon – endast dator](keyboard-shortcuts-cheatsheet.md)  
 [Hjälpmedelsfunktioner](ui-accessibility.md)  
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
 [Hitta transaktioner](ui-find-entries.md)  

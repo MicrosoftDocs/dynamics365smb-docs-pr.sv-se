@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75c3c6a59e951052f59f4100688ace92af16b50f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922975"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750236"
 ---
 # <a name="register-employees"></a>Registrera personal
 För att använda personalfunktionen måste du först registrera varje enskild anställd genom att skapa ett kort för all grundläggande, arbetsrelaterad information.
@@ -59,5 +59,5 @@ Du kan använda alternativa adresser för att hålla reda på var de anställda 
 ## <a name="see-also"></a>Se även
 [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)

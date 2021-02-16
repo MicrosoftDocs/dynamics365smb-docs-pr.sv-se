@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922523"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752731"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 
@@ -56,14 +56,14 @@ Du kan importera ett konfigurationspaket som har exporterats från en databas oc
 
 ## <a name="to-create-a-configuration-package"></a>Så här skapar du ett konfigurationspaket
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i övriga fält på snabbfliken **Allmänt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Om du vill utesluta konfigurationsfrågeformulären, konfigurationsmallarna och konfigurationskalkylarkstabellerna från paketet markerar du kryssrutan **Uteslut konfigurationstabeller**. Annars kommer de här tabellerna att läggas till listan över pakettabeller automatiskt när du exporterar paketet.  
 5. Välj åtgärden **Hämta tabeller**. Sidan **Hämta pakettabell** öppnas.  
 6. Välj fältet **Markera tabeller**. Sidan **Konfigurationsurval** öppnas.  
 7. Välj åtgärden **Markera allt** för att lägga till alla tabeller i paketet, eller markera kryssrutan **Vald** för varje tabell i listan som du vill lägga till.
-8. Välj **OK**. Antalet tabeller som du har valt visas i fältet **Markera tabeller**. Ange ytterligare alternativ och välj sedan knappen **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller som läggs till på raderna på sidan **konfiguration. Paket**.  
+8. Välj **OK**. Antalet tabeller som du har valt visas i fältet **Markera tabeller**. Ange ytterligare alternativ och välj sedan knappen **OK**. [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller som läggs till på raderna på sidan **konfiguration. Paket**.  
 
     > [!NOTE]  
     >  Du kan också göra detta i konfigurationskalkylarket. Markera tabellerna som du vill ta med i paketet och välj sedan åtgärden **Tilldela paket**.
@@ -107,7 +107,7 @@ Du kan spara filen med ett namn som är meningsfullt för dig, men du kan inte �
 
 När du har skapat ett paket som uppfyller de flesta av behoven kan du använda det som en grund för att skapa liknande paket. Det kan påskynda implementeringstiden och gör det lättare att upprepa RapidStart Services.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj ett paket i listan och välj sedan åtgärden **Kopiera paket**.  
 3. I fältet **Kod för nytt paket** anger du en kod för det nya paketet.  
 4. Markera kryssrutan **Kopiera data** om du också vill kopiera databasdata från det befintliga paketet.  
@@ -117,7 +117,7 @@ När du har skapat ett paket som uppfyller de flesta av behoven kan du använda 
 
 Använd konfigurationskalkylarket för att samla ihop och kategorisera information som du vill använda för att konfigurera ett nytt företag, och ordna tabellerna på ett logiskt sätt. Formateringen i kalkylarket baseras på en enkel hierarki: områden innehåller grupper, som i sin tur innehåller tabeller. Områden och grupper är valfria, men nödvändiga om du vill kunna se en översikt över konfigurationsprocessen i rollcentret för RapidStart Services.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
 2. Välj **Område** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 3. Välj **Grupp** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 4. Välj **Tabell** i fältet **Radtyp**. Välj tabellen som du vill ta med i kalkylarket i fältet **Tabell-ID**.  
@@ -151,7 +151,7 @@ När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa 
 2. Identifiera tabellerna med data som du vill visa eller anpassa i konfigurationskalkylarket.  
 
     > [!NOTE]  
-    >  Se till att varje tabell tilldelats ett sid-ID. Som standarden [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell fylls detta värdet i automatiskt. För anpassade tabeller måste du ange ID.
+    >  Se till att varje tabell tilldelats ett sid-ID. Som standarden [!INCLUDE[prod_short](includes/prod_short.md)]-tabell fylls detta värdet i automatiskt. För anpassade tabeller måste du ange ID.
 
 3. Välj åtgärden **Databasdata**. Sidan för den relaterade sidan öppnas.
 4. Granska den tillgängliga informationen. Ändra den efter behov genom att ta bort transaktioner som inte är relevanta eller lägga till nya.  
@@ -174,3 +174,4 @@ När du har kontrollerat och testat alla inställningar kan du fortsätta med at
 [Ställa in företagskonfiguration](admin-set-up-company-configuration.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
+[Analysera telemetri för spårning av konfigurationspaket](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

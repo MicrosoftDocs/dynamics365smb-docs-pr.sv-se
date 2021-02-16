@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dee2521faf6d76ffb36a426361b7f326073770cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cde6af59068954f8404b18fbce5e4c388d3c7a2c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917257"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749324"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
@@ -71,7 +71,7 @@ Avskrivningsprocentsatsen beräknas som:
 
 *P = (total avskrivning × 100) / avskrivningsbas*
 
-*Avskrivningsbelopp = (P/100) × (extra anskaffningskostnad - återanskaffningsvärde)*  
+*Avskrivningsbelopp = (P/100) × (extra anskaffningskostnad – återanskaffningsvärde)*  
 
 Kom ihåg att markera kryssrutan **Avskr. till anl. bokf.datum** på fakturan, redovisningsjournalen för anläggningstillgångar eller anläggningstillgångsjournalraderna så att avskrivningen beräknas från det senaste bokföringsdatumet för anläggningstillgången till bokföringsdatumet för den tillkommande anskaffningskostnaden.
 
@@ -88,7 +88,7 @@ Om du har markerat kryssrutan **Avskr. till anl. bokf.datum** med ett "x" på fa
 
 15 avskrivningsdagar (från 00-09-01 till 00-09-15) beräknas så här:
 
-*bokföringsvärde x antal avskrivningsdagar/återstående antal avskrivningsdagar = (4800 - 100) x 15 / 1410 = 50*
+*bokföringsvärde x antal avskrivningsdagar/återstående antal avskrivningsdagar = (4800 – 100) x 15 / 1410 = 50*
 
 Om du har markerat kryssrutan **Avskr. anskaffningskostnad** med ett "x" på fakturan innan du bokför transaktionen utförs följande beräkning:  
 
@@ -110,7 +110,7 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 
 *Återstående livslängd är 3 år, 10 månader och 15 dagar = 1395 dagar*  
 
-*Bokföringsvärdet är (4800 + 480 - 100 - 15) = 5165*
+*Bokföringsvärdet är (4800 + 480 – 100 – 15) = 5165*
 
 *Avskrivningsbeloppet för september 2000: 5165 x 15 / 1395 = 55,54*  
 
@@ -121,4 +121,4 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

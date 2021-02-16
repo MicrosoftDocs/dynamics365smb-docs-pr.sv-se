@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925803"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748110"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Registrera prissättning och alternativa kostnader för tjänster
-Med prissättningsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du göra inställningar i och anpassa programmet så att du tillämpar och justerar priser för serviceartiklar, reparationer och order. Dessa beslut om prissättning överförs sedan till faktureringsprocessen.  
+Med prissättningsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] kan du göra inställningar i och anpassa programmet så att du tillämpar och justerar priser för serviceartiklar, reparationer och order. Dessa beslut om prissättning överförs sedan till faktureringsprocessen.  
   
 Om det behövs kan du skapa prisgrupper och mappa dem till specifika tidsperioder, kunder eller valutor. Du kan lägga upp fast, minsta eller högsta pris beroende på servicekontrakten som du har med kunderna. När du har justerat priserna kan du visa och godkänna ändringarna innan du sparar dem i redovisningen.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d672b28dda7c586bd68412fbbb89fb8e33cba1b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913869"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747322"
 ---
 # <a name="undo-assembly-posting"></a>Ångra monteringsboking
 Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas till, eller eftersom den inte borde både ha bokförts allts och därför måste återställas.
@@ -28,9 +28,9 @@ När du återställer delvis bokförda monteringsorder, påverkas alla antalfäl
 
 Om du skapar om eller återställer monteringsorder, följande villkor måste gälla för monteringsartikeln som tillverkades i den ursprungliga bokföring:  
 
--   Den återstår ändå finnas i lager, d.v.s, det är inte sålt eller förbrukat av avgående transaktioner.  
+-   Den återstår ändå finnas i lager, d.v.s, det är inte sålt eller förbrukat av utgående transaktioner.  
 -   Det får inte reserveras.  
--   Det måste finnas på lagerplatsen som den tillverkades till.  
+-   Det måste finnas på lagerstället som den tillverkades till.  
 
 Dessutom kan befintliga monteringsorder endast återställs, om antalet rader och sekvensen av rader på den ursprungliga monteringsorder inte ändras.  
 
@@ -60,4 +60,4 @@ Fältet **Återförd** på monteringsorderhuvudet ändras till **Ja**. Montering
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

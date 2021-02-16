@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a053692e9e58dc7b64962c8d117e8cec832fd8fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927303"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752955"
 ---
 # <a name="visit-our-video-library"></a>Besök vårt videobibliotek
 
 Vi vet att vissa människor föredrar att titta på innehåll i stället för att läsa det. Därför skapar vi korta, lättåtkomliga videor som antingen är fristående eller kompletterar vår användarhjälp.  
 
-Om du inte har använt [!INCLUDE[d365fin](includes/d365fin_md.md)] tidigare kan du starta introduktionsvideoklippen från Välkomstsidan som visas. Om du redan arbetar i [!INCLUDE[d365fin](includes/d365fin_md.md)] når du biblioteket från rollcentren **Chef** och **Revisor** genom att välja panelen **Produktvider**.  
+Om du inte har använt [!INCLUDE[prod_short](includes/prod_short.md)] tidigare kan du starta introduktionsvideoklippen från Välkomstsidan som visas. Om du redan arbetar i [!INCLUDE[prod_short](includes/prod_short.md)] når du biblioteket från rollcentren **Chef** och **Revisor** genom att välja panelen **Produktvider**.  
 
-Du kan också visa våra ”så här”-videor och mycket annat innehåll på YouTube-spellistan som vi har skapat för [!INCLUDE[d365fin](includes/d365fin_md.md)]. Titta på videoklippen nu genom att [klicka här](https://go.microsoft.com/fwlink/?linkid=851533).
+Du kan också visa våra ”så här”-videor och mycket annat innehåll på YouTube-spellistan som vi har skapat för [!INCLUDE[prod_short](includes/prod_short.md)]. Titta på videoklippen nu genom att [klicka här](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Filmer i biblioteket visas i en ram som kan verka lite mindre. Välj ikonen med dubbelpil längst upp till höger om du vill göra ramen större. Därefter visas videor i ramen större tills du gör den mindre igen.

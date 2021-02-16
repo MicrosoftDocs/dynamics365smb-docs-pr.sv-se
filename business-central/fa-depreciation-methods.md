@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1278b344efef1df243d4f82e9d463f8faf9a259
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c6f349d7a77078536b7a61e14b5dcd4169ba0f9b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920803"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749499"
 ---
 # <a name="depreciation-methods"></a>Avskrivningsmetoder
 Det finns åtta avskrivningsmetoder att tillgå:  
@@ -48,7 +48,7 @@ När du använder den linjära metoden måste du ange ett av följande alternati
 ### <a name="depreciation-period"></a>Avskrivningsperiod
 Om du anger en avskrivningsperiod (antal avskrivningsår, antal avskrivningsmånader eller slutdatum för avskrivningen) används den här formeln vid beräkning av avskrivningsbeloppet:  
 
-*Avskrivningsbelopp = ((Bokföringsvärde - Återanskaffningsvärde) × Antal avskrivningsdagar) / Återstående avskrivningsdagar*  
+*Avskrivningsbelopp = ((Bokföringsvärde – Återanskaffningsvärde) × Antal avskrivningsdagar) / Återstående avskrivningsdagar*  
 
 De återstående avskrivningsdagarna beräknas som antalet avskrivningsdagar minus antalet dagar mellan avskrivningens startdatum och den senaste anläggningstillgångstransaktionens datum.  
 
@@ -155,10 +155,10 @@ Avskrivningsvärdena är:
 
 | Datum | Beräkning |
 | --- | --- |
-| 10-06-30 |DA = 100 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 13 397,46 |
-| 10-12-31 |DA = 86 602,54 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 11 602,54 |
-| 11-06-30 |DA = 75 000,00 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 10 048,09 |
-| 11-12-31 |DA = 64 951,91 x (1 - (1 - 0,25)<sup> 0,5<sup>) = 8 701,91 |
+| 10-06-30 |DA = 100 000,00 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 13 397,46 |
+| 10-12-31 |DA = 86 602,54 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 11 602,54 |
+| 11-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 10 048,09 |
+| 11-12-31 |DA = 64 951,91 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 8 701,91 |
 
 ## <a name="db1sl-depreciation"></a>DB1/SL Avskrivning
 DEG1/LIN är en förkortning av Degressiv 1 och Linjär. Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
@@ -235,7 +235,7 @@ På sidan **Avskrivning tabellkort** kan du skapa användardefinierad avskrivnin
 2. På sidan **Avskrivning tabellista** väljer du åtgärden **Ny**.  
 3. På sidan **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="example---user-defined-depreciation"></a>Exempel - Användardefinierad avskrivning
+### <a name="example---user-defined-depreciation"></a>Exempel – Användardefinierad avskrivning
 Du kan använda en avskrivningsmetod som gör det möjligt att av skatteskäl skriva av tillgångar snabbare.  
 
 Du ska av skatteskäl använda följande avskrivningsgrad för en anläggningstillgång med en livslängd på tre år:  
@@ -356,4 +356,4 @@ När du registrerar en transaktion i B1 i redovisningsjournalen för anläggning
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

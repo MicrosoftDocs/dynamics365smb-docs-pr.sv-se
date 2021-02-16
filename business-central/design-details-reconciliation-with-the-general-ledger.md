@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917282"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751236"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
 När lagertransaktioner bokförs till exempel utleveranser, produktionsutflöde eller negativa justeringar registreras antals- och värdeändringarna i lagret i artikeltransaktionerna respektive värdetransaktionerna. Nästa steg i processen går ut på att bokföra lagervärdena på redovisningens lagerkonton.  
@@ -93,7 +93,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
 
         ![Resultatet av kapacitetsbokföring till huvudbokskonton](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultatet av kapacitetsbokföring till huvudbokskonton")  
 7. Användaren bokför förväntade kostnaden för en kedja. (Utflöde)  
-8. Användaren avslutar produktionsordern och kör batch-jobbet **Justera kost. - artikel trans**. (Utflöde)  
+8. Användaren avslutar produktionsordern och kör batch-jobbet **Justera kost. – artikel trans**. (Utflöde)  
 
     1. Interimskontona rensas. (Utflöde)  
     2. Den direkta kostnaden överförs från PIA-kontot till lagerkontot. (Utflöde)  
@@ -123,4 +123,4 @@ För mer information om sambandet mellan kontotyperna och de olika typerna av v�
 [Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md)
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

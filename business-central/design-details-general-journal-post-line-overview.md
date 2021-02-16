@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911111"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751611"
 ---
 # <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen
 Kodmodul 12, **Redovisningsjnl – bokför rad**, är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas. Den här kodmodulen används även för alla operationer av typen Verkställ, Ta bort och Återför.  
   
-Kodmodulen har förbättrats i varje utgåva under de senaste tio åren, men dess grundläggande arkitektur har förblivit nästan oförändrad. Kodmodulen blev mycket stor, med ungefär 7 600 kodrader. I den här versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] har arkitekturen ändrats och kodmodulen har gjorts enklare och mer stabil. Denna dokumentation introducerar ändringarna och tillhandahåller information som du kanske behöver för en uppgradering.  
+Kodmodulen har förbättrats i varje utgåva under de senaste tio åren, men dess grundläggande arkitektur har förblivit nästan oförändrad. Kodmodulen blev mycket stor, med ungefär 7 600 kodrader. I den här versionen av [!INCLUDE[prod_short](includes/prod_short.md)] har arkitekturen ändrats och kodmodulen har gjorts enklare och mer stabil. Denna dokumentation introducerar ändringarna och tillhandahåller information som du kanske behöver för en uppgradering.  
   
 ## <a name="old-architecture"></a>Gammal arkitektur  
 Den gamla arkitekturen hade följande funktioner:  
@@ -34,7 +34,7 @@ Den gamla arkitekturen hade följande funktioner:
 * Bokföring, Koppla, Ta bort, Återför, Kassarabatt och Tolerans samt Valutakursjustering har sammanförts i kodmodul 12 med hjälp av en lång lista över globala variabler.  
   
 ### <a name="new-architecture"></a>Ny arkitektur  
-Kodmodul 12 i [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller följande förbättringar:  
+Kodmodul 12 i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller följande förbättringar:  
   
 * Kodmodul 12 har omstrukturerats till mindre procedurer (alla mindre än 100 kodrader).  
 * Standardiserade mönster för sökning efter redovisningskonton har implementeras genom att använda hjälpfunktioner från bokföringsmalltabeller.  

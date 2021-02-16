@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5bbf87d8241d57c40c028a06d7af6269c5af6d6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84c10ffa100607c2f2dfca361de83361f8441928
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910611"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748924"
 ---
 # <a name="record-usage-for-jobs"></a>Registrera förbrukning för projekt
 
@@ -40,7 +40,7 @@ Efterföljande procedurer beskriver hur du registrerar verkligt (fakturerbart), 
 
     > [!TIP]
     > Om du kommer att lägga till fler projekt planeringsrader för projektet måste du vänta med det här steget tills du har lagt till alla projektplaneringsrader.
-6. På sidan **Projekt - Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. På sidan **Projekt – Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Välj åtgärden **Öppna projektjournal**.  
 8. På sidan **Projektjournal** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
 9. På sidan **Projektplaneringsrader** granskar du den registrerade förbrukningen genom att observera fälten **Antal**, **Återstående antal** och **Antal att överföra till journal**.  
@@ -60,7 +60,7 @@ I nästa uppgift registrerar du också förbrukning, men för en projektplanerin
 
     > [!TIP]
     > Om du kommer att lägga till fler projekt planeringsrader för projektet måste du vänta med det här steget tills du har lagt till alla projektplaneringsrader.
-6. På sidan **Projekt - Överför till förs.faktura** fyller du i fälten efter behov och väljer sedan knappen **OK**.
+6. På sidan **Projekt – Överför till förs.faktura** fyller du i fälten efter behov och väljer sedan knappen **OK**.
 7. Granska den registrerade förbrukningen, genom att observera fälten **Antal**, **Antal att fakturera**, **Antal att överföra till faktura** och om försäljningsfakturan överförs, fältet **Antal fakturerat**.
 8. Upprepa steg 3 till 7 om du vill registrera extra förbrukning.  
 9. Om du vill granska en relaterad bokförd försäljningsfaktura, välj **Försäljningsfakturor/kreditnotor**.  
@@ -75,17 +75,17 @@ När du är klar att bokföra ekonomisk information för projektet, måste du sk
 2. Välj relevant öppet projekt och välj sedan åtgärden **Projektplaneringsrader**.  
 3. På sidan **Projektplaneringsrader** på en relevant projektplaneringsrad i fältet **Antal att överföra till journal** anger du det antal som du vill överföra till en projektjournal.  
 4. Välj åtgärden **Skapa projektjournalrader**.
-5. På sidan **Projekt - Överför projektplaneringsrad** fyller du i fält efter behov.  
+5. På sidan **Projekt – Överför projektplaneringsrad** fyller du i fält efter behov.  
 6. Välj knappen **OK**. Projektjournalrader skapas.
 7. Om du vill validera överföringen öppnar du den relevanta projektjournalen och kontrollerar transaktionerna.  
-8. Välj åtgärden**Bokför** när projektjournalraderna har slutförts.  
+8. Välj åtgärden **Bokför** när projektjournalraderna har slutförts.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Så här skapar du projektjournalrader manuellt
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
 2. Välj relevant projektjournalnamn i fältet **Journalnamn**.  
 3. Ange dokumentnummer, projektnumret, projektaktivitetsnummer, typ och antal av typen som förbrukas, på en ny rad.  
-4. Välj åtgärden**Bokför** när projektjournalraderna har slutförts.  
+4. Välj åtgärden **Bokför** när projektjournalraderna har slutförts.  
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Granska planeringsrader för en projekttransaktion
 
@@ -103,4 +103,4 @@ När du har bokfört projektjournalrader kan du se de planeringsrader som är ko
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923926"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746797"
 ---
 # <a name="managing-vat-rate-changes"></a>Hantera momssatsändringar
 
-Momssatser kan ändras beroende på lokal lagstiftning. Alla ändringar av moms påverkar data i [!INCLUDE[d365fin](includes/d365fin_md.md)] oavsett om momssatsen sänks, höjs eller tas bort. Moms kopplas till många olika enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)], till exempel kunder, leverantörer, artiklar, resurser, artikelomkostnader och redovisningskonton. Ändringar i momssatser sker vanligtvis vid ett visst datum, från vilket ställe du måste ha ändrat momsinställningarna, bokföringsmallarna o.s.v. för att se till att nya försäljningsorder och inköpsorder skapas med den nya momssatsen.
+Momssatser kan ändras beroende på lokal lagstiftning. Alla ändringar av moms påverkar data i [!INCLUDE[prod_short](includes/prod_short.md)] oavsett om momssatsen sänks, höjs eller tas bort. Moms kopplas till många olika enheter i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel kunder, leverantörer, artiklar, resurser, artikelomkostnader och redovisningskonton. Ändringar i momssatser sker vanligtvis vid ett visst datum, från vilket ställe du måste ha ändrat momsinställningarna, bokföringsmallarna o.s.v. för att se till att nya försäljningsorder och inköpsorder skapas med den nya momssatsen.
 
 ## <a name="changing-vat-rates"></a>Ändra momssatser
 

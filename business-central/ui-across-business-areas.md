@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912752"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747700"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
 
 För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t.ex. att definiera extratext för dokumentrader och organisera kopplade affärsuppgifter i arbetsflöden.
 
@@ -50,7 +50,7 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 | Ställ in datautbytesdefinitioner för att skicka och ta emot elektroniska dokument. |[Utbyta data elektroniskt](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se även
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

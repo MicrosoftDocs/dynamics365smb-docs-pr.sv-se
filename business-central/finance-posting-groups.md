@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e04dcccfde480ca72d09c65608c309eba09aa6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910836"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746672"
 ---
 # <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
 Bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
 
 Bokföringsmallar omfattas av tre paraplyer:  
 
-* Allmänt - definiera vem du säljer till och köper från, och vad du säljer och vad du köper. Du kan också slå ihop mallar om du vill ange bland annat resultatkontona att bokföra till eller använda mallar för att filtrera rapporter.  
-* Specifik - Använda försäljningsdokument istället för att bokföra direkt till redovisningen. När du skapar transaktioner i kundreskontra används motsvarande transaktioner i redovisningen.  
+* Allmänt – definiera vem du säljer till och köper från, och vad du säljer och vad du köper. Du kan också slå ihop mallar om du vill ange bland annat resultatkontona att bokföra till eller använda mallar för att filtrera rapporter.  
+* Specifik – Använda försäljningsdokument istället för att bokföra direkt till redovisningen. När du skapar transaktioner i kundreskontra används motsvarande transaktioner i redovisningen.  
 * Skatt – definiera skatteprocentsatser och beräkningstyper som gäller för vem du säljer till och köper från, och vad du säljer och vad du köper.
 
 I följande tabeller beskrivs bokföringsmallarna under varje paraply.  
@@ -70,7 +70,7 @@ När du skapar ett försäljningsdokument använder försäljningshuvud kundkort
 * Bokföringen av lager (balansräkning) bestäms av lagerbokföringsmallen.  
 * Bokföringen av kostnad för sålda varor (resultaträkning) bestäms av kombinationen av generell rörelsebokföringsmall och generell produktbokföringsmall.  
 
-Inställningen avgör när bokföring sker. När är exempelvis timing påverkas av periodiska aktiviteter, som till exempel bokföra lagerkostnad eller justera kost. - artikeltrans.
+Inställningen avgör när bokföring sker. När är exempelvis timing påverkas av periodiska aktiviteter, som till exempel bokföra lagerkostnad eller justera kost. – artikeltrans.
 
 ## <a name="copying-posting-setup-lines"></a>Kopiera bokföringsinställningsrader
 Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du på sidan Bokföringsinställningar. Detta kan innebära att många inmatningar måste göras för att lägga upp bokföringsinställningar för företaget. Det kan finnas många olika kombinationer av rörelse- och produktbokföringsmallar, men olika kombinationer kan fortfarande bokföras till samma redovisningskonton. Om du vill begränsa andelen manuell inmatning kopierar du redovisningskontona från en befintlig rad på sidan **Generella bokföringsinställningar**.
@@ -78,4 +78,4 @@ Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du p�
 ## <a name="see-also"></a>Se även
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

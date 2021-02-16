@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b24fe2373e8f6fd71008a5d155e985d2aaa460f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924084"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746622"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
-Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
+Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
 Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. Du kan t.ex. behöva korrigera ett bokfört belopp om du upptäcker att en leverantör använder en annan avrundningsmetod.
 
@@ -26,7 +26,7 @@ Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. D
 Du kan beräkna och visa momsbelopp i försäljnings- och inköpsdokument på olika sätt beroende på vilken typ av kund eller leverantör som du handlar med. Du kan också åsidosätta det momsbelopp som har beräknats för att matcha det momsbelopp som har beräknats av leverantören för en given transaktion.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Enhetspris och radbelopp inklusive/exklusive moms på försäljningsdokument  
-När du väljer ett artikelnummer i fältet **Nr**. i ett försäljningsdokument fyller även [!INCLUDE[d365fin](includes/d365fin_md.md)] i fältet **Enhetspris**. Enhetspriset kommer antingen från kortet **Artikel** eller från artikelpriserna för artikeln och kunden. [!INCLUDE[d365fin](includes/d365fin_md.md)]beräknar **Radbelopp** när du anger en kvantitet för raden.  
+När du väljer ett artikelnummer i fältet **Nr**. i ett försäljningsdokument fyller även [!INCLUDE[prod_short](includes/prod_short.md)] i fältet **Enhetspris**. Enhetspriset kommer antingen från kortet **Artikel** eller från artikelpriserna för artikeln och kunden. [!INCLUDE[prod_short](includes/prod_short.md)]beräknar **Radbelopp** när du anger en kvantitet för raden.  
 
 Om du säljer till återförsäljare kan du vilja att priserna på försäljningsdokument inkluderar moms. Gör detta genom att markera kryssrutan **Priser inkl. moms** på dokumentet.  
 
@@ -66,10 +66,10 @@ Nedan beskrivs hur du aktiverar manuella momsändringar för försäljningsdokum
 4. Redigera fältet **Momsbelopp**.   
 
 > [!NOTE]  
-> Det totala momsbeloppet för fakturan visas på raderna grupperade per moms-ID. Du kan justera beloppet i fältet **Momsbelopp**på raderna för varje moms-ID. När du ändrar fältet **Momsbelopp** utförs en kontroll för att undersöka att du inte har ändrat momsen med mer än det belopp som du har angett som maximal tillåten differens. Om beloppet ligger utanför intervallet i **Max. tillåten momsdifferens** visas en varning som anger den maximala tillåtna differensen. Du kommer inte att kunna fortsätta förrän beloppet justeras inom godkända parametrar. Klicka på **OK** och ange ett annat **Momsbelopp** som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen fördelas momsen proportionellt över dokumentraderna som har samma moms-ID.  
+> Det totala momsbeloppet för fakturan visas på raderna grupperade per moms-ID. Du kan justera beloppet i fältet **Momsbelopp** på raderna för varje moms-ID. När du ändrar fältet **Momsbelopp** utförs en kontroll för att undersöka att du inte har ändrat momsen med mer än det belopp som du har angett som maximal tillåten differens. Om beloppet ligger utanför intervallet i **Max. tillåten momsdifferens** visas en varning som anger den maximala tillåtna differensen. Du kommer inte att kunna fortsätta förrän beloppet justeras inom godkända parametrar. Klicka på **OK** och ange ett annat **Momsbelopp** som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen fördelas momsen proportionellt över dokumentraderna som har samma moms-ID.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Manuell momsberäkning med hjälp av journaler  
-Du kan också justera momsbelopp i redovisnings-, försäljnings- och inköpsjournaler. Detta kan vara nödvändigt när du anger en leverantörsfaktura i journalen och det förekommer en differens mellan det momsbeloppet som [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknade och momsbeloppet på den leverantörsfaktura du har tagit emot.  
+Du kan också justera momsbelopp i redovisnings-, försäljnings- och inköpsjournaler. Detta kan vara nödvändigt när du anger en leverantörsfaktura i journalen och det förekommer en differens mellan det momsbeloppet som [!INCLUDE[prod_short](includes/prod_short.md)] beräknade och momsbeloppet på den leverantörsfaktura du har tagit emot.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Så här ställer du in systemet för manuell momsregistrering i redovisningsjournaler
 Du måste utföra följande steg innan du kan ange moms manuellt i en redovisningsjournal.  
@@ -82,10 +82,10 @@ Du måste utföra följande steg innan du kan ange moms manuellt i en försäljn
 
 1. På sidan **Inköpsinställningar** markerar du kryssrutan **Tillåt momsdifferens**.  
 2. Upprepa steg 1 för sidan **Försäljningsinställningar**.
-3. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
+3. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[prod_short](includes/prod_short.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
 
     > [!NOTE]  
-    > Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[d365fin](includes/d365fin_md.md)] differensen i fältet **Momsdifferens**.  
+    > Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[prod_short](includes/prod_short.md)] differensen i fältet **Momsdifferens**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Bokföra du importmoms med inköpsfakturor
 I stället för att använda journaler för att bokföra en importmomsfaktura, kan du använda en inköpsfaktura.  
@@ -95,7 +95,7 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 2. Skapa en **produktbokföringsmall** för importmomsen och skapa **produktbokf.mall för standardmoms** för den kopplade **produktbokföringsmallen** för importmomsen.  
 3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
 4. Välj redovisningskontot för importmoms och välj sedan åtgärden **Redigera**.  
-5. På snabbfliken **Bokföring**  i fältet **Produktbokföringsmall** för importmomsen. [!INCLUDE[d365fin](includes/d365fin_md.md)] fyller automatiskt i **Moms, produktbokföringsmall**.  
+5. På snabbfliken **Bokföring**  i fältet **Produktbokföringsmall** för importmomsen. [!INCLUDE[prod_short](includes/prod_short.md)] fyller automatiskt i **Moms, produktbokföringsmall**.  
 6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 7. Skapa en kombination av **Gen. rörelsebokföringsmall** för skattemyndigheterna och **Produktbokföringsmall** för importmoms. Välj importmervärdeskattredovisningskontot för den här nya kombinationen i fältet **Inköpskonto**.  
 
@@ -118,9 +118,9 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 4. Som standard, om den momsbokföringsmall som har ställts in för kunden har kryssrutan **Leveransintyg krävs** markerad, så är fältet **Status** angett till **Obligatoriskt**. Du kan uppdatera fältet för att visa om intyget har tagits emot från kunden.  
 
     > [!Note]  
-    >  Om inställningen av momsbokföringsmallen inte har kryssrutan **Leveransintyg krävs** markerad skapas en post, och fältet **Status** får värdet **Ej tillämpbart**. Du kan uppdatera fältet för att visa rätt information om status. Du kan manuellt ändra statusen från **Ej tillämpbart** till **Obligatoriskt**och från **Obligatoriskt** till **Ej tillämpbart** efter behov.  
+    >  Om inställningen av momsbokföringsmallen inte har kryssrutan **Leveransintyg krävs** markerad skapas en post, och fältet **Status** får värdet **Ej tillämpbart**. Du kan uppdatera fältet för att visa rätt information om status. Du kan manuellt ändra statusen från **Ej tillämpbart** till **Obligatoriskt** och från **Obligatoriskt** till **Ej tillämpbart** efter behov.  
 
-   När du uppdaterar fältet **Status** till **Obligatoriskt**, **Inlevererat**eller **Ej inlevererat**, skapas ett certifikat.  
+   När du uppdaterar fältet **Status** till **Obligatoriskt**, **Inlevererat** eller **Ej inlevererat**, skapas ett certifikat.  
 
     > [!TIP]  
     >  Du kan använda sidan **Leveransintyg** för att få en vy över alla bokförda utleveranser som ett leveransintyg har skapats för.  
@@ -139,7 +139,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
     >  Alternativt kan du skriva ut ett intyg från fönstret **Leveransintyg**.  
 
 4. Välj kryssrutan **Utskriftsradinformation** om du vill inkludera information från raderna i utleveransdokumentet på leveransintyget.  
-5. Välj kryssrutan **Skapa leveransintyg om de inte redan skapats** om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska skapa intyg för bokförda leveranser som inte har något vid utförandet. När du markerar kryssrutan upprättas nya certifikat för alla bokförda utleveranser som inte har intyg i det valda intervallet  
+5. Välj kryssrutan **Skapa leveransintyg om de inte redan skapats** om du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska skapa intyg för bokförda leveranser som inte har något vid utförandet. När du markerar kryssrutan upprättas nya certifikat för alla bokförda utleveranser som inte har intyg i det valda intervallet  
 6. Som standard gäller filterinställningarna för utleveransdokumentet som du har valt. Fyll i information om filter för att välja ett visst leveransintyg som du vill skriva ut.  
 7. På sidan **Leveransintyg** väljer du åtgärden **Skriv utPrint** för att skriva ut rapporten eller välja åtgärden **Förhandsgranska** för att visa den på skärmen.  
 
@@ -155,7 +155,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 
    Om kunden har returnerat det undertecknade leveransintyget väljer du **Inlevererat**. Fältet **Inleveransdatum** uppdateras. Som standard anges inleveransdatumet till aktuellt arbetsdatum.  
 
-   Du kan ändra datumet för att visa datumet då du fick kundens signerade leveransintyg. Du kan också lägga till en länk till det undertecknade intyget med hjälp av standardkoppling för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   Du kan ändra datumet för att visa datumet då du fick kundens signerade leveransintyg. Du kan också lägga till en länk till det undertecknade intyget med hjälp av standardkoppling för [!INCLUDE[prod_short](includes/prod_short.md)].  
 
    Om kunden inte returnerar det undertecknade leveransintyget väljer du **Ej inlevererad**. Du måste sedan skicka kunden en ny faktura som omfattar moms, eftersom den ursprungliga fakturan inte kommer att accepteras av skattemyndigheten.  
 
@@ -169,7 +169,7 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 
    Om kunden har returnerat det undertecknade leveransintyget väljer du **Inlevererat**. Fältet **Inleveransdatum** uppdateras. Som standard anges inleveransdatumet till aktuellt arbetsdatum.  
 
-   Du kan ändra datumet för att visa datumet då du fick det signerade leveransintyget. Du kan också lägga till en länk till det undertecknade intyget med hjälp av standarddokumentkoppling för [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   Du kan ändra datumet för att visa datumet då du fick det signerade leveransintyget. Du kan också lägga till en länk till det undertecknade intyget med hjälp av standarddokumentkoppling för [!INCLUDE[prod_short](includes/prod_short.md)].  
 
     > [!NOTE]  
     >  Du kan inte skapa ett nytt leveransintyg på sidan **Leveransintyg** när du navigerar till den med den här proceduren. Om du vill skapa ett intyg för en leverans som inte var inställd för att kräva en öppnar du den bokförda försäljningsutleveransen och använder någon av de två procedurer som beskrivs ovan:  

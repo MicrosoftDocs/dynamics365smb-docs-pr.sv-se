@@ -10,29 +10,29 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0058fd8aa684fd12392e641dda3bbb0ee6862134
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914620"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753698"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
-Om du vill arbeta med data från [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
+Om du vill arbeta med data från [!INCLUDE[prod_short](includes/prod_short.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
 
 ## <a name="opening-lists-in-excel"></a>Öppna listor i Excel
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
 
 > [!NOTE]
-> Använd det här alternativet om du inte vill ändra och publicera ändringarna till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> Använd det här alternativet om du inte vill ändra och publicera ändringarna till [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Alla listor inkluderar ett antal kolumner och exportering till Excel inkluderar alla kolumner i den aktuella vyn. Om du vill lägga till eller ta bort kolumner innan du öppnar listan i Excel öppnar du bara snabbmenyn för en kolumn och anger sedan vilka kolumner som du vill visa. Denna lista över kolumner är olika för de flesta listor och återspeglar strukturen i databasen där data lagras. Om du inte vet vilken typ av data som en viss kolumn, kan du lägga till den i din vy och sedan bestämma dig för om du vill ta bort den igen.  
 
 ### <a name="edit-data-in-excel"></a>Redigera data i Excel
-Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-upplevelse omfattar ett tillägg för Excel som låter dig redigera data i Excel. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
+Din [!INCLUDE[prod_short](includes/prod_short.md)]-upplevelse omfattar ett tillägg för Excel som låter dig redigera data i Excel. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exportera data till andra finanssystem
-Om du vill avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.  
+Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.  
 
 Du kan självklart exportera alla sidor, men det kan vara mer än vad du verkligen behöver. Så överväg att exportera följande viktiga sidor och kom ihåg att lägga till alla kolumner som beskrivits tidigare:  
 
@@ -64,7 +64,7 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 * Säljare  
 
 > [!NOTE]  
-> Om du har ställt in flera företag i [!INCLUDE[prodshort](includes/prodshort.md)] måste du exportera aktuella data från båda företagen.
+> Om du har ställt in flera företag i [!INCLUDE[prod_short](includes/prod_short.md)] måste du exportera aktuella data från båda företagen.
 
 > [!NOTE]
 > Du måste ha minst en av följande behörigheter för att kunna öppna eller redigera data i Excel:
@@ -76,9 +76,9 @@ Mer information finns i avsnittet [Så här får du en översikt en användares 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
-[Avbryta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
+[Avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Ekonomi](finance.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

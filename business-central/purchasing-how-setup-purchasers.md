@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: befc5fc1c79f3cd24f5f1af9437aebab01b62945
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ac4f7d716d9b8603617c32d219c8149aa58fc11e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918869"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748699"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
 Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.<br><br>  
@@ -37,4 +37,4 @@ Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och ti
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,17 +11,17 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3a9bdba3d416610b7b137e16f20a4497b834beec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d680d80dca8fae08ef4ecf5d88c97f983b47167
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921103"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754273"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Om du byter från en QuickBooks-app till Dynamics 365 Business Central
-Allt fler företag ändrar från ekonomiappar som t.ex. QuickBooks Desktop och QuickBooks Online som är utformade för startups och andra mindre företag till [!INCLUDE[d365fin](includes/d365fin_md.md)], som också stöder större, komplexare organisationer. 
+Allt fler företag ändrar från ekonomiappar som t.ex. QuickBooks Desktop och QuickBooks Online som är utformade för startups och andra mindre företag till [!INCLUDE[prod_short](includes/prod_short.md)], som också stöder större, komplexare organisationer. 
 
-När de flyttar vill företag vanligtvis ta med sina affärsdata så att de inte måste börja om från början. För att överföra data erbjuder [!INCLUDE[d365fin](includes/d365fin_md.md)] inbyggda tillägg som migrerar data, till exempel kunder, leverantörer, lagerartiklar och redovisningskonton. Följande tillägg är installerade och klara som en integrerad del av guiden för assisterad konfiguration av **Datamigrering**:
+När de flyttar vill företag vanligtvis ta med sina affärsdata så att de inte måste börja om från början. För att överföra data erbjuder [!INCLUDE[prod_short](includes/prod_short.md)] inbyggda tillägg som migrerar data, till exempel kunder, leverantörer, lagerartiklar och redovisningskonton. Följande tillägg är installerade och klara som en integrerad del av guiden för assisterad konfiguration av **Datamigrering**:
 
 * QuickBooks datamigrering 
 * QuickBooks Online Datamigrering

@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917607"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752011"
 ---
 # <a name="application-compliance"></a>Programmets regelefterlevnad
 
-Innehållet anger information om programmet regelefterlevnad i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)], som internationella finansiella rapporteringsstandarder, lokal funktionalitet, GDPR med mera. Förtroende i ett verksamhetssystem är nyckeln till att driva en effektiv verksamhet. Med Business Central kan företag anpassa affärsprocesserna och samtidigt konsekvent och kostnadseffektivt uppfylla ökade reglerings- och rapporteringskrav.
+Innehållet anger information om programmet regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)], som internationella finansiella rapporteringsstandarder, lokal funktionalitet, GDPR med mera. Förtroende i ett verksamhetssystem är nyckeln till att driva en effektiv verksamhet. Med Business Central kan företag anpassa affärsprocesserna och samtidigt konsekvent och kostnadseffektivt uppfylla ökade reglerings- och rapporteringskrav.
 
 ## <a name="data-privacy"></a>Datasekretess
 
@@ -108,5 +108,5 @@ Microsoft bygger lokaliserade versioner av Business Central för ett begränsat 
 [Tjänstens regelefterlevnad](compliance-service-compliance.md)  
 [Intyg](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

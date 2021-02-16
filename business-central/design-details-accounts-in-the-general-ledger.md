@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Konton i redovisningen | Microsoft Docs
+title: Designdetaljer – Konton i redovisningen | Microsoft Docs
 description: Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922173"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751886"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konton i redovisningen
 Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
@@ -90,7 +90,7 @@ Följande tabell visar hur beloppen att bokföra i redovisningen beräknas för 
 
 |Kostnadstyp|Beräkning|  
 |---------------|-----------------|  
-|Faktisk kostnad|Kost.belopp (aktuellt) - kostnad bokförd i redovisningen.|  
+|Faktisk kostnad|Kost.belopp (aktuellt) – kostnad bokförd i redovisningen.|  
 |Förväntad kostnad|Kost.belopp (förväntat) – Förväntad kost. bokf. i redov.|  
 
 ## <a name="see-also"></a>Se även  
@@ -99,4 +99,4 @@ Följande tabell visar hur beloppen att bokföra i redovisningen beräknas för 
  [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

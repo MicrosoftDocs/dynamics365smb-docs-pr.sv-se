@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923726"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746272"
 ---
 # <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
-När du skapar en inställning [!INCLUDE [prodshort](includes/prodshort.md)] anger du allmänna måttenheter på sidan **enhet**. När du sedan registrerar nya artiklar anger du basenheten på **artikelkortet**. Du kan också lägga till enheter senare.  
+När du skapar en inställning [!INCLUDE [prod_short](includes/prod_short.md)] anger du allmänna måttenheter på sidan **enhet**. När du sedan registrerar nya artiklar anger du basenheten på **artikelkortet**. Du kan också lägga till enheter senare.  
 
 Du kan ange flera enheter för en artikel, så att du kan tilldela enheter till artikeln för efterföljande avsikter:
 
@@ -50,9 +50,9 @@ När du registrerar en ny artikel kan du välja basenheten från listan över en
 5. Välj åtgärden **Ny**. En ny tom rad infogas.
 6. Ange namnet på enheten i fältet **Kod**. Du kan också välja fältet om du vill välja mellan de enhetskoder som finns i databasen.
 7. I fältet **Antal per måttenhet** anger du hur många enheter av basmåttenheten som den nya måttenheten innehåller.
-8. Du kan även i fälten **Höjd**, **Bredd**, **Längd** och **Vikt** anger du exakt information om storleken på en enhet så att antalet enheter så att [!INCLUDE [prodshort](includes/prodshort.md)] antalet enheter som ryms per lagerplats kan beräknas. Fältet **Kubik** beräknas automatiskt utifrån **Höjd**, **Bredd** och **Längd**.
+8. Du kan även i fälten **Höjd**, **Bredd**, **Längd** och **Vikt** anger du exakt information om storleken på en enhet så att antalet enheter så att [!INCLUDE [prod_short](includes/prod_short.md)] antalet enheter som ryms per lagerplats kan beräknas. Fältet **Kubik** beräknas automatiskt utifrån **Höjd**, **Bredd** och **Längd**.
 
-    Om något av fälten innehåller ett annat värde än 0, används den här åtgärden vid alla processer som inbegriper placering av artiklar på lagerplatser: artikelinförsel, transporter, inleveranser, utleveranser, plockningar och justeringar. [!INCLUDE [prodshort](includes/prodshort.md)] kontrollerar summan av varje fysiskt mått på föremål som tas bort och objekten som redan finns i papperskorgen mot den maximala volym som lagerplatsen kan inrymma, enligt de kapacitetsregler som du har angett på lagerställekortet. Med andra ord måste du använda samma enhetsmått för varje dimension över alla måttenheter, användningspriser eller pund för vikt, t.ex.
+    Om något av fälten innehåller ett annat värde än 0, används den här åtgärden vid alla processer som inbegriper placering av artiklar på lagerställen: artikelinförsel, transporter, inleveranser, utleveranser, plockningar och justeringar. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerar summan av varje fysiskt mått på föremål som tas bort och objekten som redan finns i papperskorgen mot den maximala volym som lagerstället kan inrymma, enligt de kapacitetsregler som du har angett på lagerställekortet. Med andra ord måste du använda samma enhetsmått för varje dimension över alla måttenheter, användningspriser eller pund för vikt, t.ex.
 9. Upprepa steg 5 till 7 för att lägga upp alla alternativa enheter som du vill använda i olika processer för artikeln.
 
     I fältet **basenhet** längst ned i fönstret, kan du visa eller ändra artikelns basenhet. Du kan också ändra basenhet i fältet **basenhet** på artikelkortet. På sidan **måttenheter för artikel** måste basenheten ha värdet **1** i fältet **Antal per måttenhet**.
@@ -86,4 +86,4 @@ Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du 
 [Hantera lager](inventory-manage-inventory.md)  
 [Hantera inköp](purchasing-manage-purchasing.md)  
 [Hantera försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

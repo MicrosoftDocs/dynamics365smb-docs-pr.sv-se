@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913202"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747999"
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller sidan **Serviceuppgifter** där du får en översikt över alla serviceartiklar som behöver åtgärdas. Du kan se det som en instrumentbräda för service - se vilka order som väntar på att åtgärdas, söka efter och registrera reservdelar och hålla lagret uppdaterat.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] innehåller sidan **Serviceuppgifter** där du får en översikt över alla serviceartiklar som behöver åtgärdas. Du kan se det som en instrumentbräda för service – se vilka order som väntar på att åtgärdas, söka efter och registrera reservdelar och hålla lagret uppdaterat.  
 
-Om du vill spåra ändringar och få en grafisk översikt över serviceverksamheten, kan du med statistikverktygen i [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt skapa en snabb analys i diagramformat.  
+Om du vill spåra ändringar och få en grafisk översikt över serviceverksamheten, kan du med statistikverktygen i [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt skapa en snabb analys i diagramformat.  
 
 ## <a name="to-work-on-a-service-task"></a>Så här arbetar du med serviceuppgifter  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **tjänsteuppgifter** och välj sedan relaterad länk.

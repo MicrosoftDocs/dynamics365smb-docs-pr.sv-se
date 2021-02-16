@@ -4,14 +4,14 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dcc7ea1905a778a7829669b5ed4de8157fc8e1b1
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 152ffcbda66c7ff9733f80ce413a877c577cdebf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959669"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749662"
 ---
-Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument. Dessa bokföringsmallar kan du använda i hela [!INCLUDE[d365fin](../../../includes/d365fin_md.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.  
+Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument. Dessa bokföringsmallar kan du använda i hela [!INCLUDE[prod_short](../../../includes/prod_short.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.  
 
 Automatiska kontokoder kan användas för att automatisera bokföring relaterad till omkostnader för lönelistan. Du kan till exempel använda automatiska kontokoder för att automatiskt bokföra en viss procentandel av den totala kostnaden för löner som omkostnader när den bokförs i slutet på månaden.  
 

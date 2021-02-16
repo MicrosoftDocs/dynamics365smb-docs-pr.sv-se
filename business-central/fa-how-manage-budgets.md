@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75b7363ca6ee2c940f245fea4d62cf83611c43dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5388ec2846a7560a6aa09db8e584702180ad247c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915616"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749349"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Hantera budgetar för anläggningstillgångar
 Du kan skapa budgeterade anläggningstillgångar. På så sätt kan du t.ex. inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.  
 
-Om du vill förbereda den budgeterade resultaträkningen, balansräkningen och likviditetsbudgeten måste du ha tillgång till information om framtida investeringar, avyttringar och avskrivning av anläggningstillgångar. Den här informationen får du i rapporten **Anl.tillg. - planerat värde**. Innan du skriver ut rapporten måste du förbereda budgeten.  
+Om du vill förbereda den budgeterade resultaträkningen, balansräkningen och likviditetsbudgeten måste du ha tillgång till information om framtida investeringar, avyttringar och avskrivning av anläggningstillgångar. Den här informationen får du i rapporten **Anl.tillg. – planerat värde**. Innan du skriver ut rapporten måste du förbereda budgeten.  
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>För att budgetera anskaffningskostnaden för en anläggningstillgång
 När du förbereder en budget måste du skapa anläggningstillgångskort för de anläggningstillgångar som du avser att införskaffa i framtiden. De budgeterade anläggningstillgångarna ställs in som vanliga anläggningstillgångar, men de måste ställas in för att inte bokföras i redovisningen.
@@ -42,14 +42,14 @@ Om du planerar att sälja tillgångar under budgetperioden kan du föra in uppgi
 3. På sidan **Avskrivningsregler för anl.tillg.**, fyll i fälten **Planerat avyttringsdatum** och **Planerad avyttringsintäkt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Så här visar du planerade avyttringsvärden
-Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förlusten kan du använda rapporten **Anl. - planerat värde**.
+Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förlusten kan du använda rapporten **Anl. – planerat värde**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anl. – planerat värde** och välj sedan tillhörande länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
 ## <a name="to-budget-depreciation"></a>Så här budgeterar du avskrivning
-Du kan använda rapporten **Anl.tillg. - planerat värde** för att beräkna framtida avskrivning. I rapporten visas bokföringsvärdet och den ackumulerade avskrivningen vid inledningen av den angivna perioden, ändringar under perioden och bokföringsvärde och ackumulerad avskrivning vid slutet av den angivna perioden.
+Du kan använda rapporten **Anl.tillg. – planerat värde** för att beräkna framtida avskrivning. I rapporten visas bokföringsvärdet och den ackumulerade avskrivningen vid inledningen av den angivna perioden, ändringar under perioden och bokföringsvärde och ackumulerad avskrivning vid slutet av den angivna perioden.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planerat värde för anläggningstillgång** och välj sedan tillhörande länk.
 2. Fyll i fälten om det behövs.
@@ -62,4 +62,4 @@ Du kan använda rapporten **Anl.tillg. - planerat värde** för att beräkna fra
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Värderingsprinciper | Microsoft Docs
+title: Designdetaljer – Värderingsprinciper | Microsoft Docs
 description: Det här ämnet beskriver hur värderingsprincipen påverkar hur faktiska eller budgeterade värden aktiveras och används i kostnadsberäkningen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927028"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751711"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
 
@@ -24,7 +24,7 @@ Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitali
 > [!NOTE]
 > Du kan inte ändra värderingsprincipen för en artikel om det finns artikeltransaktioner för artikeln. Mer information finns i [Designinformation: ändra värderingsprincipen för artiklar](design-details-changing-costing-methods.md).
 
-Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Följande metoder stöds i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Värderingsprincip | Beskrivning | Används när |
 |--|--|--|
@@ -42,7 +42,7 @@ Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
 |Kategori|FIFO|Genomsnitt|Standard|Specifik|  
 |-|----------|-------------|--------------|--------------|  
-|Allmänna egenskaper|Enkelt att förstå|Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Enkelt att använda men kräver kvalificerat underhåll.|Kräver artikelspårning på både ankommande och avgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|  
+|Allmänna egenskaper|Enkelt att förstå|Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Enkelt att använda men kräver kvalificerat underhåll.|Kräver artikelspårning på både inkommande och utgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|  
 |Koppling/justering|Koppling håller reda på **det återstående antalet**.<br /><br /> Justering vidarebefordrar kostnader enligt antalskoppling.|Koppling håller reda på **återstående antal**.<br /><br /> Kostnader beräknas och speditioneras per **värderingsdatum**.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Alla kopplingar är fasta.|  
 |Omvärdering|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan endast utföras per artikel.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|  
 |Diverse|Om du bakåtdaterar en lagerminskning kopplas befintliga transaktioner INTE om för att ge ett korrekt FIFO-kostnadsflöde.|Om du bakåtdaterar en lagerökning eller lagerminskning beräknas genomsnittskostnaden om och alla transaktioner som påverkas justeras.<br /><br /> Om du ändrar perioden eller beräkningstypen måste alla påverkade transaktioner justeras.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|  
@@ -163,4 +163,4 @@ Följande metoder stöds i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
  [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

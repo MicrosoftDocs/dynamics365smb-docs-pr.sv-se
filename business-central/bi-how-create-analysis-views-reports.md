@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913819"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752211"
 ---
 #  <a name="create-analysis-reports"></a>Skapa analysrapporter
 Försäljningschefer behöver regelbundet analysera omsättning, bruttovinst och andra viktiga indikatorer på försäljningen. Inköpare är mer intresserade av dynamiken i inköpsvolymer, leverantörens kapacitet och inköpspriser. Logistik- och lagerchefer behöver i sin tur information om lageromsättning, analyser av lagerrörelser och statistik över lagervärdet.  
@@ -43,7 +43,7 @@ Sedan kan du lägga upp kolumner så här:
 ## <a name="setting-up-line-and-column-layouts"></a>Lägga upp rad- och kolumnlayout  
  På sidan **Analysrapport** kan du visa olika rad- och kolumnlayouter enligt de rader eller rader som du har angett på sidan **analysradmallar**. Du kan definiera namnet på rapporten och vilka objekt som ska visas på raderna i rapporten. Du lägger upp kolumner på sidan **Analyskolumnmallar**. Du kan definiera namnet på kolumnmallen och de analysparametrar som du vill visa i rapporten som kolumner. På sidan **Analyskolumnmallar** representerar varje rad en kolumn i rapporten. Observera att analysraderna och analyskolumnerna är oberoende av varandra.  
 
-Baserat på de rader och kolumner du har lagt upp sammanställs [!INCLUDE[d365fin](includes/d365fin_md.md)] resultatet i rapporten på sidan **Analysrapport** som följande tabell.  
+Baserat på de rader och kolumner du har lagt upp sammanställs [!INCLUDE[prod_short](includes/prod_short.md)] resultatet i rapporten på sidan **Analysrapport** som följande tabell.  
 
 |- |Försäljning innevarande månad|Försäljning förra månaden|Försäljning förra månaden %|  
 |-|-|-|-|  
@@ -105,4 +105,4 @@ Du använder analysrapporter för att analysera försäljningsdynamiken efter ny
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Huvudbok och kontolista](finance-general-ledger.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

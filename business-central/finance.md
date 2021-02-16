@@ -1,8 +1,6 @@
 ---
-title: Ekonomihantering | Microsoft Docs
-description: Få mer information om uppgifterna för att ställa in Finance i ditt företag som passar alla behov av redovisning, granskning eller bokföring.
-services: project-madeira
-documentationcenter: ''
+title: Ekonomihantering
+description: Läs om hur Business Central stöder dina behov av ekonomisk förvaltning, redovisning, revision samt bokföring.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970470"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750286"
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 
 Standardinställningkonfigurationen innehåller en kontoplan och standardbokföringsmallar som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.  
 
@@ -57,18 +56,20 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |För mer information om hur du använder rollcentret Revisor, bjud in en extern revisor och använd företagsnavet för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Ta en videorundtur
+
 I följande videoklipp beskrivs några av huvudfunktionerna för att hantera finanser. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Se även
+
 [Ställa in Finance](finance-setup-finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Stänga räkenskapsperioder](year-close-years-periods.md)  
-[Hantera projekt](projects-manage-projects.md)    
+[Hantera projekt](projects-manage-projects.md)  
 [Importera data från andra finanssystem](across-import-data-configuration-packages.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

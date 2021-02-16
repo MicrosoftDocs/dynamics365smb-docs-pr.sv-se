@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917082"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746997"
 ---
 # <a name="select-a-check-layout"></a>Välj en checklayout
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
@@ -23,8 +23,8 @@ Du kan designa dina checkar så att de uppfyller de normer som fastställts av d
 Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska checkbildformat i antingen check-checktalong-check-format eller checktalong-checktalong-check-format.
 
 ## <a name="to-select-a-check-layout"></a>Välj en checklayout genom att
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval - bankkonto** och välj sedan relaterad länk.
-2. På sidan **Rapportval - bankkonto** i fältet **Användning** väljer du **Check**.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval – bankkonto** och välj sedan relaterad länk.
+2. På sidan **Rapportval – bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
 | Rapport-ID | Rapportnamn | Beskrivning |
@@ -39,15 +39,15 @@ När du har upprättat checklayouter, kan du skriva ut checkar från sidan **utb
 Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integrering. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Använda MICR och säkerhetsteckensnitt
-Online-versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
+Online-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
 
 > [!Important]
-> MICR och kontrollera säkerhetsteckensnitt i Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] licensieras i ett teckensnittspaket från IDAutomation.com, Inc. Dessa produkter får endast användas som en del av och i samband med Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR och kontrollera säkerhetsteckensnitt i Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] licensieras i ett teckensnittspaket från IDAutomation.com, Inc. Dessa produkter får endast användas som en del av och i samband med Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 I uppdatering 15.3 och nyare installeras magnetiskt bläcktecken igenkänningsteckensnitt (MICR) och de kan användas. Både E-13B och CMC-7 standarden stöds. Förutom MICR-teckensnitt finns speciella säkerhetsteckensnitt som du kan använda för att skapa text, namn, belopp och valutasymboler, euro, pund och yen som du kan manipulera med när en kontroll har skrivits ut.
 
 > [!NOTE]
-> Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljön.
+> Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[prod_short](includes/prod_short.md)]-miljön.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B specifikationer
 I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
@@ -60,7 +60,7 @@ I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnit
 Den fullständiga specifikationen av MICR E-13B teckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 specifikationer
-Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ I följande avsnitt sammanfattas specifikationerna för kontrollera säkerhetste
 
 Den fullständiga specifikationen av kontrollera säkerhetsteckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/security-fonts/).
 
-Det finns också teckensnitt för andra syften i [!INCLUDE[prodshort](includes/prodshort.md)]. Mer information finns i [tillgängliga teckensnitt](ui-fonts.md)
+Det finns också teckensnitt för andra syften i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [tillgängliga teckensnitt](ui-fonts.md)
 
 ## <a name="see-also"></a>Se även
 [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Det finns också teckensnitt för andra syften i [!INCLUDE[prodshort](includes/p
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Stämma av bankkonton](bank-manage-bank-accounts.md)   
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  
-[Arbeta med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914220"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750361"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Ställa in ursprungskoder och orsakskoder för granskningshistorik
 
@@ -29,7 +29,7 @@ Ibland behöver du se hur en viss transaktion uppstod, t.ex. om den har sitt urs
 
 Bokföring av journaler, order, fakturor eller kreditnotor, och körningar av olika batch-jobb, skapar transaktioner i räkenskaperna. Fönstret **Ursprungskodinställningar** innehåller flera snabbflikar, en för varje modul. Varje snabbflik innehåller ursprungskoder som gäller för den modulen.
 
-När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t.ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner**för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t.ex.
+När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t.ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner** för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t.ex.
 
 ### <a name="to-define-source-codes"></a>Så här definierar du ursprungskoder
 
@@ -94,6 +94,6 @@ När fakturan bokförs kopieras uppföljningskoden till alla redovisnings-, kund
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
-[Arbeta med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

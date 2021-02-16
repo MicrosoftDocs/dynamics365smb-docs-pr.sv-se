@@ -10,19 +10,19 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912366"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747599"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 
-Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
+Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 
 > [!Note]
-> Företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] får inte innehålla några data. Dessutom, när du har startat en flyttning ska du inte skapa kunder, leverantörer, artiklar eller konton förrän migreringen har slutförts.
+> Företag i [!INCLUDE[prod_short](includes/prod_short.md)] får inte innehålla några data. Dessutom, när du har startat en flyttning ska du inte skapa kunder, leverantörer, artiklar eller konton förrän migreringen har slutförts.
 
 ## <a name="what-data-is-migrated"></a>Vilka data överförs?
 Följande data överförs för respektive enhet:
@@ -100,14 +100,14 @@ Om du flyttar konton, flyttas även följande uppgifter:
 
 ## <a name="file-size-requirements"></a>Storlekskraven i filen
 
-Den största filstorleken som du kan överföra till [!INCLUDE[d365fin](includes/d365fin_md.md)] är 150 MB. Om filen du exporterar från C5 är större än detta kan du flytta över data i flera filer. Till exempel exportera en eller två typer av enheter från C5, såsom kunder och leverantörer, till en fil och sedan exportera objekt till en annan fil och så vidare. Du kan importera filer var för sig i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Den största filstorleken som du kan överföra till [!INCLUDE[prod_short](includes/prod_short.md)] är 150 MB. Om filen du exporterar från C5 är större än detta kan du flytta över data i flera filer. Till exempel exportera en eller två typer av enheter från C5, såsom kunder och leverantörer, till en fil och sedan exportera objekt till en annan fil och så vidare. Du kan importera filer var för sig i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-migrate-data"></a>Migrera data
 
-Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Datamigrering** och väljer sedan **Datamigrering**.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Datamigrering** och väljer sedan **Datamigrering**.  
 3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.
@@ -144,7 +144,7 @@ När du har korrigerat ett eller flera fel kan du välja **Migrera** för att en
 
 ## <a name="verifying-data-after-migrating"></a>Kontrollera data efter migrering
 
-Ett sätt att kontrollera att informationen överförs på rätt sätt är att titta på följande sidor i C5 och [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ett sätt att kontrollera att informationen överförs på rätt sätt är att titta på följande sidor i C5 och [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Batch-jobb som ska användas |
 |---------------------------|------------------------------|------------------|
@@ -159,5 +159,5 @@ Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**
 
 ## <a name="see-also"></a>Se även
 
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Komma igång](product-get-started.md)  

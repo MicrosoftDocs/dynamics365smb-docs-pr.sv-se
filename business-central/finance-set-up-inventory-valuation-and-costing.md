@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910736"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750461"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Ställa in lagervärdering och lagerkostnad
 
 Om du vill se till att lagerkostnaderna registreras korrekt, ställer du in olika fält och sidor innan du gör artikeltransaktioner. Vanligtvis väljer företag en specifik värderingsprincip och tillämpar den på lagerartiklar, till exempel för att hjälpa dem att spåra värdet av artiklar i lager.  
 
 > [!TIP]
-> En introduktion till kostnadsredovisning i [!INCLUDE [prodshort](includes/prodshort.md)] finns i [Om lagerkostnadsredovisning](finance-learn-about-costing.md).
+> En introduktion till kostnadsredovisning i [!INCLUDE [prod_short](includes/prod_short.md)] finns i [Om lagerkostnadsredovisning](finance-learn-about-costing.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
@@ -33,8 +33,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Definiera om genomsnittskostnaden ska beräknas endast per artikel eller per artikel för varje lagerställeenhet och för varje variant av artikeln.|Fältet **Genoms. kost.ber.typ** på sidan **Lagerinställningar**|  
 |välja den tidsperiod som ska användas för att beräkna vägd genomsnittskostnad för de artiklar som du använder genomsnittsvärderingsprincipen för.|Fältet **Genomsnittskostnadsperiod** på sidan **Lagerinställningar**|  
 |definiera lagerperioder för att kontrollera lagervärde över tid genom att inaktivera transaktionsbokföring i avslutade lagerperioder.|[Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
-|se till att försäljningsreturer kopplas till den ursprungliga avgående transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Försäljning & kundreskontra**|  
-|se till att inköpsreturer kopplas till den ursprungliga ankommande transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Inköp & Leverantörsreskontra**|
+|se till att försäljningsreturer kopplas till den ursprungliga utgående transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Försäljning & kundreskontra**|  
+|se till att inköpsreturer kopplas till den ursprungliga inkommande transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Inköp & Leverantörsreskontra**|
 |ange avrundningsreglerna som ska användas när artikelpriser justeras eller föreslås och när standardkostnader justeras eller föreslås.|Sidan **Avrundningsmetod**|  
 
 ## <a name="see-also"></a>Se även

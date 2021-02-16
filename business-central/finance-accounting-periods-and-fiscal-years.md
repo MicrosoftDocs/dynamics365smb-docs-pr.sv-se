@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ae13b3c24e73f9b73335291b2911f16d6acf29d0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916249"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751111"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeta med bokföringsperioder och räkenskapsår
 
@@ -23,7 +23,7 @@ Bokföringsperioder som även kallas rapporteringsperioder, är perioder som ett
 
 För många företag sammanfaller räkenskapsåret inte med kalenderåret. Till exempel slutar räkenskapsåret den 30 juni i stället för den 31 december. För nyskapade företag kan räkenskapsåret vara längre än tolv månader.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kräver endast bokföringsperioder om du vill avsluta en resultaträkning eller köra aktiviteter för datakomprimering. 
+[!INCLUDE[prod_short](includes/prod_short.md)] kräver endast bokföringsperioder om du vill avsluta en resultaträkning eller köra aktiviteter för datakomprimering. 
 
 Du kan använda bokföringsperioder vid rapportering. Till exempel när du granskar bokförda transaktioner på sidan **Saldo/budget** där rapporteringsintervallet kan anges. Ett av alternativen du kan ange för att rapportera efter bokföringsperiod. Du kan också skapa en kontouppställning som jämför resultaten för olika perioder.
 
@@ -48,7 +48,7 @@ Om redovisningsperioder för räkenskapsåret har olika varaktighet såsom 4-4-5
   
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
 2. I fältet **Startdatum** anger du det datum när räkenskapsåret börjar. Fältet **Namn** visar namnet på månaden.  
-3. Markera kryssrutan **Nytt räkenskapsår** för att indikera att detta är den första perioden under året. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att använda denna period för att bestämma vilka perioder som avslutas vid årets slut.
+3. Markera kryssrutan **Nytt räkenskapsår** för att indikera att detta är den första perioden under året. [!INCLUDE[prod_short](includes/prod_short.md)] kommer att använda denna period för att bestämma vilka perioder som avslutas vid årets slut.
 4. Upprepa steg 2 och 3 för varje återstående period.  
 
 ## <a name="closing-a-fiscal-year"></a>Avsluta ett räkenskapsår

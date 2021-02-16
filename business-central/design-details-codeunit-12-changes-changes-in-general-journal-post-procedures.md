@@ -1,6 +1,6 @@
 ---
-title: 'Designdetaljer - Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen | Microsoft Docs'
-description: Följande ändringar har genomförts i den här versionen av Business Central.
+title: Ändringar i bokföringsprocedurer i redovisningsjournalen i Codeunit 12
+description: I tidigare versioner ändrades codeunit 12 för att hjälpa till att förbättra prestandan i bokföringen från redovisningsjournalen. Läs om ändringarna i bokföringsprocedurer i den här artikeln.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 99df25e15422755b66ec5b8be7388c9677f7b374
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1ec373b6c7226d6b2548f2b29f326dcd9c6a459
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917482"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367915"
 ---
-# <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen
-Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="historical-changes-to-codeunit-12-changes-in-general-journal-post-procedures"></a>Tidigare ändringar i Codeunit 12: ändringar i bokföringsprocedurer i redovisningsjournalen
+
+Följande ändringar har implementerats i olika versioner av [!INCLUDE [navnow_md](includes/navnow_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Kommentar**|  
 |----------------------------------------|----------------------------------------|-----------------|  

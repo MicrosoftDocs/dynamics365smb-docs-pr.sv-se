@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912527"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747798"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 
-Med säkerhetssystemet [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och IT-proffs för [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Med säkerhetssystemet [!INCLUDE[prod_short](includes/prod_short.md)] kan du kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och IT-proffs för [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Innan du tilldelar behörigheter till användare och användargrupper måste du ange vem som kan logga in genom att skapa användare enligt licensen såsom definierats i Microsoft 365 administrationscenter. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det två behörighetsnivåer för databasobjekt:
+I [!INCLUDE[prod_short](includes/prod_short.md)] finns det två behörighetsnivåer för databasobjekt:
 
 - De övergripande behörigheterna enligt licensen, som också kallas för berättigandet.
-- Mer detaljerad behörighet som tilldelades inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)]i.
+- Mer detaljerad behörighet som tilldelades inifrån [!INCLUDE[prod_short](includes/prod_short.md)]i.
 
 För att göra det enklare att hantera behörigheter för flera användare kan du ordna dem i användargrupper och därmed tilldela eller ändra en behörighetsuppsättning för många användare med en åtgärd. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > En ytterligare metod för att definiera vilka funktioner en användare har åtkomst till är att ställa in fältet **Upplevelse** på sidan **Företagsinformation**. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 >
-> Du kan också ange vad användare ska se i användargränssnittet och hur de interagerar med deras tillåtna funktioner via sidor. Du gör detta genom profiler som du tilldelar olika typer av användare enligt deras jobbroll eller avdelning. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md) och [anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> Du kan också ange vad användare ska se i användargränssnittet och hur de interagerar med deras tillåtna funktioner via sidor. Du gör detta genom profiler som du tilldelar olika typer av användare enligt deras jobbroll eller avdelning. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md) och [anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Så här tilldelar behörighetsuppsättningar till användare
 
-En behörighetsuppsättning är en samling behörigheter för specifika databasobjekt. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[d365fin](includes/d365fin_md.md)].
+En behörighetsuppsättning är en samling behörigheter för specifika databasobjekt. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[prod_short](includes/prod_short.md)].
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning innehåller ett antal fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av lösningsleverantören. Du kan också lägga till nya behörighetsuppsättningar som är skräddarsydda efter företagets behov. Mer information finns i avsnittet [Att skapa eller redigera en behörighetsuppsättning](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-lösning innehåller ett antal fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av lösningsleverantören. Du kan också lägga till nya behörighetsuppsättningar som är skräddarsydda efter företagets behov. Mer information finns i avsnittet [Att skapa eller redigera en behörighetsuppsättning](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Om du inte vill begränsa en användares behörighet mer än vad som har definierats av licensen kan du tilldela en särskild behörighetsuppsättning som kallas SUPER för användaren. Den här behörighetsuppsättningen gör att användaren kan komma åt alla objekt som anges i licensen.
@@ -97,7 +97,7 @@ Eventuella behörighetsuppsättningar som redan har tilldelats till användaren 
 Behörighetsuppsättningar fungerar som behållare med behörigheter så att du enkelt kan hantera flera behörigheter i en post.
 
 > [!NOTE]  
-> En [!INCLUDE[d365fin](includes/d365fin_md.md)]-lösning innehåller vanligtvis ett antal fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av programvaruleverantören. Dessa behörighetsuppsättningar är av typen **System** eller **Tillägg**. Du kan inte skapa eller redigera sådana behörighetsuppsättningar eller behörigheter i dem. Du kan emellertid kopiera dem för att definiera egna behörighetsuppsättningar och behörigheter.
+> En [!INCLUDE[prod_short](includes/prod_short.md)]-lösning innehåller vanligtvis ett antal fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av programvaruleverantören. Dessa behörighetsuppsättningar är av typen **System** eller **Tillägg**. Du kan inte skapa eller redigera sådana behörighetsuppsättningar eller behörigheter i dem. Du kan emellertid kopiera dem för att definiera egna behörighetsuppsättningar och behörigheter.
 >
 > Behörighetsuppsättningar som användaren skapar från nya eller som kopior, är av typen **Användardefinierade** och kan redigeras.
 
@@ -122,7 +122,7 @@ Den nya behörighetsuppsättningen innehåller alla behörigheter för de kopier
 
 ### <a name="to-export-and-import-a-permission-set"></a>Så här exporterar och importerar du en behörighetsgrupp
 
-Om du snabbt vill ställa in behörigheter kan du importera behörighetsgrupper som du har exporterat från en annan [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehavare.
+Om du snabbt vill ställa in behörigheter kan du importera behörighetsgrupper som du har exporterat från en annan [!INCLUDE[prod_short](includes/prod_short.md)]-innehavare.
 
 I miljöer med flera innehavare importeras en behörighetsgrupp till en särskild innehavare, d.v.s. omfattningen av importen är "klientorganisation".
 
@@ -159,10 +159,10 @@ I alla fält av typen de fem åtkomst **läsbehörighet**, **infoga behörighet*
 |**Indirekt**|Användaren kan utföra åtgärden på det aktuella objektet, men endast via ett annat relaterat objekt som användaren har fullständig åtkomst till. Mer information om indirekta behörigheter finns i [Behörighetsegenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i Hjälp för utvecklare och IT-proffs|Andra högsta|
 |**Tomt**|Användaren kan inte utföra åtgärden på det aktuella objektet.|Lägsta|
 
-### <a name="example---indirect-permission"></a>Exempel - Indirekt behörighet
+### <a name="example---indirect-permission"></a>Exempel – Indirekt behörighet
 
 Du kan tilldela en indirekt behörighet för att använda en objekt endast via en annan objekt.
-en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[d365fin](includes/d365fin_md.md)] om användaren har behörighet att ändra tabellen inköpsrad.  Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
+en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[prod_short](includes/prod_short.md)] om användaren har behörighet att ändra tabellen inköpsrad.  Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
 
 Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
 
@@ -176,14 +176,14 @@ Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad
 6. På sidan **behörigheter** väljer åtgärden **postbehörigheter** och välj sedan åtgärden **startar**.
 
     Detta startar en registreringsprocess som fångar alla dina åtgärder i användargränssnittet.
-7. Gå till olika sidor och aktiviteter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
+7. Gå till olika sidor och aktiviteter i [!INCLUDE[prod_short](includes/prod_short.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
 8. Om du vill avsluta registreringen går du tillbaka till sidan **behörigheter** och väljer åtgärden **stoppa**.
 9. Välj knappen **Ja** om du vill lägga till registrerade behörigheter till den nya behörighetsuppsättningen.
 10. För varje objekt i den registrerade listan anger du om användarna ska kunna infoga, ändra eller ta bort poster i de registrerade tabellerna.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Säkerhetsfilter – begränsa användarens åtkomst till specifika poster i en tabell
 
-För postnivåsäkerhet i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. Det innebär att användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i hjälpen för utvecklare och IT-proffs.
+För postnivåsäkerhet i [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. Det innebär att användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i hjälpen för utvecklare och IT-proffs.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Hantera behörigheter via användargrupper
 
@@ -245,12 +245,20 @@ Administratörer kan definiera tidsperioder som anger när användare kan bokfö
 3. I den **Användar-ID** anger du ID för en användare, och väljer fältet för att se alla aktuella Windows-användare i systemet.
 4. Fyll i fälten om det behövs.
 
+
+## <a name="viewing-permission-changes-telemetry"></a>Visa telemetri över behörighetsförändringar 
+
+Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] skicka ändringar som har gjorts i behörighet för en Application Insights-resurs i Microsoft Azure. Med hjälp av Azure Monitor kan du sedan skapa rapporter och aviseringar för insamlade data. Mer information finns i följande artiklar i [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen för utvecklare och IT-proffs:
+
+- [Övervaka och analysera telemetri – Aaktivera Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Analysera telemetri för fältövervakning](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## <a name="see-also"></a>Se även
 
 [Skapa användare enligt licenser](ui-how-users-permissions.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Lägga till användare i Microsoft 365 för företag](https://aka.ms/CreateOffice365Users)  

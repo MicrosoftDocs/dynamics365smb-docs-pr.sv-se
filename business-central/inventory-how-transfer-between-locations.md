@@ -1,5 +1,5 @@
 ---
-title: Så här överför du artiklar mellan olika distributionslagerplatser | Microsoft Docs
+title: Så här överför du artiklar mellan olika distributionslagerställen | Microsoft Docs
 description: Beskriver hur du flytta lager från en plats eller ett lagerställe till en annan med grupperingsjournalen eller med överföringsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79dfe973780269480285bac6aca380461b1ab403
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f406a44a3d786c06ea1ac1e61d5b51bb97b67f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913302"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746147"
 ---
 # <a name="transfer-inventory-between-locations"></a>Överföra lager mellan olika lagerställen
 Du kan överföra lagerartiklar mellan olika lägerställen genom att skapa överföringsorder. Du kan även använda artikelgrupperingsjournalen.
 
-Med överföringsorder kan du leverera en utgående överföring från ett lagerställe och ta emot den ankommande överföringen på det andra lagerstället. Detta gör det möjligt att administrera relevanta lageraktiviteter, och ger en större trygghet att lagerkvantiteterna uppdateras på rätt sätt.
+Med överföringsorder kan du leverera en utgående överföring från ett lagerställe och ta emot den inkommande överföringen på det andra lagerstället. Detta gör det möjligt att administrera relevanta lageraktiviteter, och ger en större trygghet att lagerkvantiteterna uppdateras på rätt sätt.
 
 Med grupperingsjournalen fyller du helt enkelt i fälten **Lagerställeskod** och **Ny Lagerställeskod**. När du bokför journalen, justeras artikeltransaktionerna på berörda lägerställen. På så sätt administreras inga lageraktiviteter.
 
@@ -39,7 +39,7 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
     När du fyller i fältet **Speditörsservice** beräknas datum för inleverans till det aktuella lagerstället genom att speditörens leveranstid tillförs utleveransdatumet.
 
 3. Om du vill fylla i raderna anger du dem manuellt eller väljer ett av följande alternativ under åtgärdsfönstret **funktioner**:
-    - Välj åtgärden **Hämta lagerplatsinnehåll** om du vill välja befintliga artiklar från en viss lagerplats på lagerstället.
+    - Välj åtgärden **Hämta lagerställesinnehåll** om du vill välja befintliga artiklar från en viss lagerplats på lagerstället.
     - Välj **Hämta inleveransrader** för att välja artiklar som precis har anlänt till det lagerställe där överföringen sker.   
 
     Som lagerarbetare på utleveranslagerstället fortsätter du med att leverera artiklarna.
@@ -63,6 +63,6 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 ## <a name="see-also"></a>Se även
 [Hantera lager](inventory-manage-inventory.md)  
 [Konfigurera platser](inventory-how-setup-locations.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)

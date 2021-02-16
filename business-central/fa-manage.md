@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920628"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747247"
 ---
 # <a name="fixed-assets"></a>Anläggningstillgångar
-Genom funktionerna för anläggningstillgångar i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
+Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
 
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. Sedan kan du börja anskaffa, underhålla och sälja anläggningstillgångarna. Du kan även skapa budgeterade tillgångar. På så sätt kan du inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.
 
-För att hålla reda på avskrivningar av anläggningstillgångar och andra ekonomiska transaktioner relaterade till anläggningstillgångar skapar du en eller flera avskrivningsregler för varje anläggningstillgång i företaget. Avskrivning görs genom att köra en rapport för att beräkna periodiska avskrivningar och genom att fylla i en journal med de resulterande transaktionerna som är klara att bokföras. [!INCLUDE[d365fin](includes/d365fin_md.md)] ger stöd för flera avskrivningmetoder. Mer information finns i [Avskrivningsmetoder](fa-depreciation-methods.md). Du kan ställa in åtskilliga avskrivningsregler per anläggningstillgång för olika syften, till exempel en för skattrapportering och en annan för rapportering.
+För att hålla reda på avskrivningar av anläggningstillgångar och andra ekonomiska transaktioner relaterade till anläggningstillgångar skapar du en eller flera avskrivningsregler för varje anläggningstillgång i företaget. Avskrivning görs genom att köra en rapport för att beräkna periodiska avskrivningar och genom att fylla i en journal med de resulterande transaktionerna som är klara att bokföras. [!INCLUDE[prod_short](includes/prod_short.md)] ger stöd för flera avskrivningmetoder. Mer information finns i [Avskrivningsmetoder](fa-depreciation-methods.md). Du kan ställa in åtskilliga avskrivningsregler per anläggningstillgång för olika syften, till exempel en för skattrapportering och en annan för rapportering.
 
 För varje tillgång kan du registrera underhållskostnader och nästa servicedatum. Det kan vara viktigt att hålla reda på underhållsutgifter för budgetändamål och för att kunna ta beslut om en anläggningstillgång ska ersättas.
 
@@ -58,7 +58,7 @@ I följande video beskrivs grunderna för anläggningstillgångar.
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

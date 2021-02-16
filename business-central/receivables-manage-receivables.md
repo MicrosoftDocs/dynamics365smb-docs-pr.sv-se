@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3dc4baf66b2ad01cece291f633698ec524d2c000
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926378"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748499"
 ---
 # <a name="managing-receivables"></a>Hantera kundreskontra
 
@@ -23,7 +23,7 @@ En vanlig steg i alla finansiella takter är att stämma av bankkonton, som krä
 
 Även om de flesta kunder i B2B-miljöer betalar ett tag efter leverans lämnar bokförda försäljningsfakturor öppna för kundreskontraavdelningen att stänga (koppla) när betalningen tas emot, vissa försäljningsfakturor kan betalas direkt, till exempel med PayPal. Sådana fakturor tillämpas omedelbart som betalda när de bokförs och därför visas de inte som betalningar som ska behandlas i KR. Mer information finns i t.ex. [Fakturera försäljning](sales-how-invoice-sales.md).  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] är ett av de snabbaste sätten att registrera betalningar från sidan **Betalningsavstämningsjournal** genom att importera en kontoutdragsfil feed. Betalningarna används för att öppna leverantörs- eller kundreskontratransaktioner baserat på datamatchningar mellan betalningstexten och transaktionsinformation. Du kan granska och ändra matchningrana innan du bokför journalen och avsluta bankkontotransaktioner för transaktioner när du bokför journalen. Bankkontot avstäms när alla utbetalningar kopplas.
+I [!INCLUDE[prod_short](includes/prod_short.md)] är ett av de snabbaste sätten att registrera betalningar från sidan **Betalningsavstämningsjournal** genom att importera en kontoutdragsfil feed. Betalningarna används för att öppna leverantörs- eller kundreskontratransaktioner baserat på datamatchningar mellan betalningstexten och transaktionsinformation. Du kan granska och ändra matchningrana innan du bokför journalen och avsluta bankkontotransaktioner för transaktioner när du bokför journalen. Bankkontot avstäms när alla utbetalningar kopplas.
 
 Det finns andra sidor där du kan koppla betalningar eller stämma av bankkonton:
 
@@ -45,7 +45,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | påminna kunder om förfallna belopp, beräkna dröjsmålsränta och hantera kundreskontra. |[Kräva in utestående saldon](receivables-collect-outstanding-balances.md) |
 |Med kundens samtycke kan du endast samla in betalningar direkt från kundens bankkonto i valutan Euro.|[Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)|
 |Spärra en kund som förs in i dokument eller från bokföring, till exempel på grund av att ett insolvensförfarande.|[Spärra kunder](receivables-how-block-customers.md)|
-|Säkerställ att du vet kostnaden för levererade artiklar genom att tilldela extra artikelkostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer efter försäljning.|[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Förutsäga när betalningar görs sent för försäljningsdokument. | [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md) |
 
@@ -54,7 +53,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

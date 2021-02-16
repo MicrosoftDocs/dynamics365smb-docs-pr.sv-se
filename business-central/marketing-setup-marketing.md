@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921698"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749761"
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
 
@@ -40,7 +40,7 @@ Värden i övertagna fält ersätter de standardvärden som du har angett. Om du
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatiskt registrerade interaktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan automatiskt återges som interaktioner (till exempel order, fakturor, inleveranser och så vidare) liksom e-post, telefonsamtal och meddelanden.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan automatiskt återges som interaktioner (till exempel order, fakturor, inleveranser och så vidare) liksom e-post, telefonsamtal och meddelanden.
 
 Mer information finns i [automatiskt registrera interaktioner med kontakter](marketing-auto-record-interactions.md).
 
@@ -59,4 +59,4 @@ Du kan välja automatisk sökning efter kopior varje gång du skapar ett kontakt
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

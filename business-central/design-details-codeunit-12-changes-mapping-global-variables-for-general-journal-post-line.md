@@ -1,6 +1,6 @@
 ---
-title: 'Designdetaljer: Ändringar i kodmodul 12: Mappa globala variabler för bokföring av rad i redovisningsjournalen | Microsoft Docs'
-description: Följande ändringar har genomförts i den här versionen av Business Central.
+title: Förändringar i mappning av globala variabler för bokföring i Codeunit 12
+description: I tidigare versioner ändrades codeunit 12 för att hjälpa till att förbättra prestandan i bokföringen från redovisningsjournalen. Läs om ändringarna i de globala variablerna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 513518f7e76fcdbb43563d225c683a8bd97e5e4e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917457"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367765"
 ---
-# <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Ändringar i kodmodul 12: Mappa globala variabler för bokföring av rad i redovisningsjournalen
-Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Historiska ändringar i Codeunit 12: Mappa globala variabler för bokföringsrad i redovisningsjournal
+
+Följande ändringar har implementerats i olika versioner av [!INCLUDE [navnow_md](includes/navnow_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Kommentar**|  
 |----------------------------------------|----------------------------------------|-----------------|  
@@ -108,4 +109,4 @@ Följande ändringar har genomförts i den här versionen av [!INCLUDE[d365fin](
 ||CrCardTransactionEntryNo@1013 : Integer;|Monterade|  
 
 ## <a name="see-also"></a>Se även  
- [Designdetaljer - Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+ [Designdetaljer – Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)

@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911286"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753873"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hantera lagring genom att ta bort dokument eller komprimera data
 
 En central roll, till exempel programadministratören, måste regelbundet hantera historiska dokument genom att ta bort eller komprimera dem.  
 
+> [!TIP]
+> Information om andra sätt att minska mängden data som lagras i en databas finns i [Minska mängden data som lagras i Business Central-databaser](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i hjälpen för utvecklare och IT-proffs.
+
 ## <a name="delete-documents"></a>Ta bort dokument
 
-I vissa fall kan det hända att du behöver ta bort fakturerade inköpsorder som inte raderats. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrolleras att borttagna inköpsorder har fakturerats helt. Du kan inte ta bort order som inte har fakturerats och inlevererats helt.  
+I vissa fall kan det hända att du behöver ta bort fakturerade inköpsorder som inte raderats. I [!INCLUDE[prod_short](includes/prod_short.md)] kontrolleras att borttagna inköpsorder har fakturerats helt. Du kan inte ta bort order som inte har fakturerats och inlevererats helt.  
 
 Returorder tas vanligtvis bort när de har fakturerats. När du bokför en faktura överförs den till sidan **Bokförd inköpskreditnota**. Om du har markerat kryssrutan **Returutleverans i kreditnota** på sidan **Inköpsinställningar** överförs fakturan till sidan **Bokförd returutleverans**. Du kan ta bort dokumenten med hjälp av batch-jobbet **Ta bort faktrd inköpsret.order**. Innan du tar bort, kontrollerar batch-jobbet om inköpsreturorder är helt levererade eller fakturerade.  
 
@@ -31,13 +34,13 @@ Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern int
 
 ## <a name="compress-data-with-date-compression"></a>Komprimera data med datumkomprimering
 
-Du kan komprimera data i [!INCLUDE [prodshort](includes/prodshort.md)] så att du sparar utrymme i databasen, som i [!INCLUDE [prodshort](includes/prodshort.md)] online kan spara pengar. Komprimeringen baseras på datum och fungerar genom att flera gamla transaktioner kombineras till en ny. Du kan bara komprimera transaktioner som tillhör avslutade räkenskapsår och leverantörsreskontratransaktioner där fältet **Öppen** är inställt på *Nej*.  
+Du kan komprimera data i [!INCLUDE [prod_short](includes/prod_short.md)] så att du sparar utrymme i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online kan spara pengar. Komprimeringen baseras på datum och fungerar genom att flera gamla transaktioner kombineras till en ny. Du kan bara komprimera transaktioner som tillhör avslutade räkenskapsår och leverantörsreskontratransaktioner där fältet **Öppen** är inställt på *Nej*.  
 
 Leverantörsreskontratransaktioner från föregående räkenskapsår kan exempelvis komprimeras så att endast en kredittransaktion och en debettransaktion skapas per konto och månad. Den nya transaktionens belopp är summan av alla komprimerade transaktioner. Det datum som tilldelas är det första datumet i perioden som komprimerats, t.ex. den första dagen i månaden (om transaktionerna är komprimerade per månad). När komprimeringen är utförd kan du fortfarande se nettoförändringen för respektive konto under föregående räkenskapsår.
 
 Antalet transaktioner som skapas från en datumkomprimering beror på hur många filter du definierar, vilka fält som kombineras och hur lång period du väljer. Det kommer alltid att skapas åtminstone en transaktion. När batch-jobbet har slutförts visas resultatet på sidan **Datumkomprimeringsjournaler**.
 
-Du kan komprimera följande typer av data i [!INCLUDE [prodshort](includes/prodshort.md)] med hjälp av batch-jobb:
+Du kan komprimera följande typer av data i [!INCLUDE [prod_short](includes/prod_short.md)] med hjälp av batch-jobb:
 
 * Bankkontotransaktioner
 
@@ -47,6 +50,9 @@ Du kan komprimera följande typer av data i [!INCLUDE [prodshort](includes/prods
   Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
 
   Med funktionen **Bibehåll fältinnehåll** kan du också bibehålla innehållet i följande fält: **Dokumentnr**, **Inköpsleverantörsnr**, **Inköparkod**, **Global dimension 1 kod** och **Global dimension 2 kod**.
+
+> [!NOTE]
+> När du har kört datumkomprimeringen är alla konton i redovisningen låsta. Du kan till exempel inte koppla leverantörs- eller bankredovisningstransaktioner för några konton under den period för vilken datumen komprimeras.
 
 <!--* General ledger entries
 * Customer ledger entries-->

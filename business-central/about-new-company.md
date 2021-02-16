@@ -10,37 +10,37 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 891718f35c2d2edfe4e4956a2de4124d77749b2b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7724afe2cbc8872fe71f881e436f175668d09a9e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914537"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753598"
 ---
-# <a name="creating-new-companies-in-d365fin"></a>Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="creating-new-companies-in-prod_short"></a>Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt: gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I [!INCLUDE[prod_short](includes/prod_short.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[prod_short](includes/prod_short.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt: gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)] beroende på dina affärsbehov. När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="creating-a-new-company"></a>Skapa ett nytt företag
 
-Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du använda den assisterade inställningsguiden **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** på sidan **Mina inställningar**.  
+Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda den assisterade inställningsguiden **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** på sidan **Mina inställningar**.  
 
 I installationsguiden finns tre mallar och ett tomt alternativ:
 
-- **Utvärdering - exempeldata**  
+- **Utvärdering – exempeldata**  
     Detta skapar ett företag som liknar demonstrationsföretaget med exempeldata och inställningsdata.  
-- **Produktion - endast inställningsdata**  
+- **Produktion – endast inställningsdata**  
     Detta skapar ett företag som liknar **Mitt företag** med inställningsdata, men utan exempeldata.
-- **Avancerad utvärdering - fullständiga exempeldata** Detta skapar ett företag med inställningar och fullständig exempeldata för alla funktioner, till exempel produktion och service.
-- **Skapa ny - Inga data**  
+- **Avancerad utvärdering – fullständiga exempeldata** Detta skapar ett företag med inställningar och fullständig exempeldata för alla funktioner, till exempel produktion och service.
+- **Skapa ny – Inga data**  
     Detta skapar ett tomt företag utan inställningsdata.  
 
-Om du vill komma igång snabbt med ett nytt företag väljer du **Produktion - endast inställningsdata** och importerar sedan dina egna affärsdata, till exempel kunder, artiklar och leverantörer. Välj mallen **Nytt** om du vill ställa in allt från början. Om så är fallet kan du använda den assisterade konfigurationen **Företagsinställningar** som hjälper dig att komma igång med grundläggande inställningsdata.  
+Om du vill komma igång snabbt med ett nytt företag väljer du **Produktion – endast inställningsdata** och importerar sedan dina egna affärsdata, till exempel kunder, artiklar och leverantörer. Välj mallen **Nytt** om du vill ställa in allt från början. Om så är fallet kan du använda den assisterade konfigurationen **Företagsinställningar** som hjälper dig att komma igång med grundläggande inställningsdata.  
 
 > [!NOTE]  
-> När du skapar ett nytt företag tar detnågra minuter innan du kan öppna det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inställningsstatus på sidan **Företag** visas när det nya företaget är redo för dig. Sedan kan du växla till det nya företaget med hjälp av **Mina inställningar**.  
+> När du skapar ett nytt företag tar detnågra minuter innan du kan öppna det i [!INCLUDE[prod_short](includes/prod_short.md)]. Inställningsstatus på sidan **Företag** visas när det nya företaget är redo för dig. Sedan kan du växla till det nya företaget med hjälp av **Mina inställningar**.  
 
-Du kan skapa valfritt antal nya företag under en utvärderingsversion på 30 dagar, men de kan bara användas under utvärderingsperioden. Kontakta din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner för mer information.  
+Du kan skapa valfritt antal nya företag under en utvärderingsversion på 30 dagar, men de kan bara användas under utvärderingsperioden. Kontakta din [!INCLUDE[prod_short](includes/prod_short.md)]-partner för mer information.  
 
 ## <a name="copying-a-company"></a>Kopiera ett företag
 
@@ -51,22 +51,29 @@ På sidan **Företag** kan du använda åtgärden **Kopiera** för att skapa ett
 
 ## <a name="company-setup"></a>Företagsinställning
 
-När du loggar in på ett nytt företag körs guiden **företagsinställningar** automatiskt och hjälper dig att komma igång. Du kommer att få information om företaget, till exempel adress, bankuppgifter och lagervärderingsprincip. Vi ber om denna information eftersom den används som grund för många områden i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du sedan inte måste konfigurera manuellt senare.  
+När du loggar in på ett nytt företag körs guiden **företagsinställningar** automatiskt och hjälper dig att komma igång. Du kommer att få information om företaget, till exempel adress, bankuppgifter och lagervärderingsprincip. Vi ber om denna information eftersom den används som grund för många områden i [!INCLUDE[prod_short](includes/prod_short.md)] som du sedan inte måste konfigurera manuellt senare.  
 
 Till exempel din företagsadress ingår i fakturor och andra dokument, din bankinformation används i betalningar och värderingsprincipen används för att beräkna priser och även lagervärdering.  
 
-När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t.ex. kunder och leverantörer. Mer information finns i [Skapa [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t.ex. kunder och leverantörer. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Företag och miljöer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Mer information finns i [byta till ett annat företag eller annan miljö](ui-organization-switch.md).  
+Mer information finns i [byta till ett annat företag eller annan miljö](ui-organization-switch.md). 
+
+## <a name="changing-a-companys-name"></a>Ändra ett företags namn
+
+När ett företag har skapats kan du inte ändra namnet. Du kan emellertid ändra dess **Visningsnamn**, d.v.s. den text som ska visas för företaget i hela programmet.  
+
+> [!TIP]
+> Du kan byta namn på ett företag om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 
 ## <a name="see-also"></a>Se även
 
 [Anpassa Business Central](ui-customizing-overview.md)  
-[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Komma igång](product-get-started.md)  

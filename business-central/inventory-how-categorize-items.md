@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3959392048f4c130e6564160f9b2c6f5956ece8c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914115"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746247"
 ---
 # <a name="categorize-items"></a>Kategorisera artiklar
 
@@ -29,7 +29,7 @@ Om du vill söka artiklar efter egenskaper kan du tilldela objektattribut till a
 ## <a name="to-create-an-item-category"></a>Så här skapar du ett artikelkategori
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelkategorier** och välj sedan relaterad länk.
 2. På sidan **Artikelkategorier** väljer du åtgärden **Ny**.
-3. På sidan**Artikelkategori** på snabbfliken **Allmänt** fyller du sedan de fält som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På sidan **Artikelkategori** på snabbfliken **Allmänt** fyller du sedan de fält som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. På snabbfliken **Attribut** anger du ett artikelattribut för artikelkategorin. Mer information finns i avsnittet [Att tilldela attribut till artikelattribut](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
 
 > [!NOTE]  
@@ -55,4 +55,4 @@ Om du ändrar dig om en artikelkategori kan du ta bort den. Om en artikel redan 
 [Arbeta med artikelattribut](inventory-how-work-item-attributes.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

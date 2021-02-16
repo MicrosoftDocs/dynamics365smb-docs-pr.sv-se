@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918082"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753373"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
 När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använd AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-ti
 > [!CAUTION]  
 >  När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer vissa av dina affärsdata att visas för tjänsteleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-I följande tabell visas de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan exportera data från.  
+I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan exportera data från.  
 
 |Mappat fält|Fält i tabell|Bord|Beskrivning|  
 |------------------|--------------------|-----------|---------------------------------------|  

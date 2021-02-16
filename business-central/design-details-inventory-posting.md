@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Lagerbokföring | Microsoft Docs
+title: Designdetaljer – Lagerbokföring | Microsoft Docs
 description: Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför två transaktioner av olika typer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913719"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751461"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
 
@@ -55,7 +55,7 @@ Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artike
 
 ### <a name="item-application-entries-1"></a>Kopplingstransaktioner för artikel (1)
 
-|Löpnr|Artikeltrans.löpnr|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|  
+|Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
 |1|1|1|0|10|  
 
@@ -75,7 +75,7 @@ Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artike
 
 ### <a name="item-application-entries-2"></a>Kopplingstransaktioner för artikel (2)
 
-|Löpnr|Artikeltrans.löpnr|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|  
+|Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
 |2|2|1|2|-10|  
 
@@ -98,7 +98,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------|-----------|------------------------|------|---------|  
 |01-01-20|[Lagerkonto]|2130|70,00|1|  
-|01-01-20|[Direkt kostnad kopplad - konto]|7291|-70.00|2|  
+|01-01-20|[Direkt kostnad kopplad – konto]|7291|-70.00|2|  
 |01-01-20|[Lagerkonto]|2130|10,00|3|  
 |07.01.01|[Omkostnader kopplade, konto]|7292|-10.00|4|  
 |01-15-20|[Lagerkonto]|2130|-80.00|5|  
@@ -124,7 +124,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 
 ## <a name="assembly-and-production-posting"></a>Montering- och produktionsbokföring
 
-Kapacitets - och resurstransaktioner representerar den tid som bokförs som förbrukad i produktionen eller monteringen. Dessa bearbetningskostnader bokförs som värdetransaktioner i redovisningen tillsammans med relevanta materialkostnader i en liknande struktur som den som beskrivs för artikeltransaktioner i det här avsnittet.  
+Kapacitets – och resurstransaktioner representerar den tid som bokförs som förbrukad i produktionen eller monteringen. Dessa bearbetningskostnader bokförs som värdetransaktioner i redovisningen tillsammans med relevanta materialkostnader i en liknande struktur som den som beskrivs för artikeltransaktioner i det här avsnittet.  
 
 Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 
@@ -134,4 +134,4 @@ Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-d
  [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)  
  [Designdetaljer: Kostnadskomponenter](design-details-cost-components.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927735"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750986"
 ---
 # <a name="set-up-company-consolidation"></a>Ställa in företagskonsolidering
 
@@ -33,7 +33,7 @@ Det finns två sätt att ställa in konsolideringen beroende på hur komplicerat
 Om din konsolidering är enkel, till exempel eftersom du äger de koncernföretag som ska konsolideras helt, kommer den assisterade konfigurationen **Företagskonsolidering** att hjälpa dig med följande steg:
 
 * Välj om du vill skapa ett nytt konsoliderat företag eller om du vill konsolidera data i ett företag som du har skapat för konsolideringen. Företaget bör inte innehålla transaktioner.
-* Förhandsgranska resultatet. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifierar att huvuddata och transaktioner kan överföras till det konsoliderade företaget.
+* Förhandsgranska resultatet. [!INCLUDE[prod_short](includes/prod_short.md)] verifierar att huvuddata och transaktioner kan överföras till det konsoliderade företaget.
 
 Så här använder du den assisterade konfigurationsguiden:
 
@@ -70,7 +70,7 @@ I följande lista visas de viktigaste aspekterna av det konsoliderade företaget
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Lägg till affärsenheter
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] låter dig lägga upp en lista över affärsenheter som ska konsolideras, verifiera redovisningsinformation innan du konsoliderar dem, importera filer och generera konsolideringsrapporter.  
+[!INCLUDE[prod_short](includes/prod_short.md)] låter dig lägga upp en lista över affärsenheter som ska konsolideras, verifiera redovisningsinformation innan du konsoliderar dem, importera filer och generera konsolideringsrapporter.  
 
 1. Logga in på det konsoliderade företaget.
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
@@ -88,7 +88,7 @@ Kontoplanen för ett företag som ska konsolideras måste innehålla konton för
 
 Om kontoplanen i affärsenheten skiljer sig från det konsoliderade företaget måste du förbereda redovisningskonton för konsolidering. Du kan ange vilka konton som ska bokföra debet- och kreditbelopp och metoden du använder för att översätta valutor i det konsoliderade företaget. Detta är till exempel användbart om du kör rapporten ofta.
 
-1. I varje affärsenhets [!INCLUDE [prodshort](includes/prodshort.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), öppnar **Kontoplan** och väljer sedan den relevanta länken.  
+1. I varje affärsenhets [!INCLUDE [prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), öppnar **Kontoplan** och väljer sedan den relevanta länken.  
 2. Öppna kortet för kontot och fyll sedan i fälten på snabbfliken **konsolidering**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Ange valutakurs för konsolidering
@@ -136,5 +136,5 @@ Om du bara äger en del av ett företag kan inkludera en procentandel av varje t
 
 [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportera affärsdata till Excel](about-export-data.md)

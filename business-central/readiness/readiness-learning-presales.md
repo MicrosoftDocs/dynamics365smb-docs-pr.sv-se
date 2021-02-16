@@ -1,20 +1,20 @@
 ---
 title: Utbildningskatalog för partner förförsäljning
-description: Hitta alla tillgänglig utbildning för Business Central.
+description: Hitta all tillgänglig utbildning för Business Central-konsulter inom förförsäljning.
 author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 740a40ba53d85f13d694a80ad3fc5e63edfe9587
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44ecc04fa02d8c7cee78984b2f5542742efd91fe
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926678"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367590"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Utbildningskatalog för partner förförsäljning
 
-Är du ansvarig för att demonstrera viktiga funktioner för kunderna? 
+Är du ansvarig för att demonstrera viktiga funktioner för kunderna? 
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov. 
 
@@ -48,33 +48,34 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365: 2019 års utgivningsplan, våg 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Dynamics 365 utgivningsplan (tidigare viktig information) för 2019-version våg 2 beskriver alla nya funktioner som släpps från oktober 2019 till och med mars 2020. | Webbplats och nedladdningsbara whitepaper  |                       |
 
-## <a name="demo"></a>Demo<a name="demo"></a>
+<!--## Demo<a name="demo"></a>
 
-| Innehåll                                                                                                                                                           | Beskrivning                                                                                                                                                                                                                                                     | Format                           | Längd                   |
+| Content                                                                                                                                                           | Description                                                                                                                                                                                                                                                     | Format                           | Length                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
-| [The Sales Demo Playbook (Part 1 of 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)   | Tjugo förkonfigurerade, skriptbaserade demoscener som byggts runt Business Central. Välj mellan fullständiga genomklickningsinstruktioner (nedladdning 1) och assistans utan genomklickning (nedladdning 2).|  Ladda ned    | | 
-| [The Sales Demo Playbook (Part 2 of 2)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)|  Tjugo förkonfigurerade, skriptbaserade demoscener som byggts runt Business Central. Välj mellan fullständiga genomklickningsinstruktioner (nedladdning 1) och assistans utan genomklickning (nedladdning 2).| Ladda ned | |
-| [Demo: Säljaren - sommar 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Följ Craig när han visar dig hur säljarens roll fungerar och uppträder i Business Central. | YouTube-video | 5 minuter 45 sekunder |
-| [Demo: försäljningschef - sommar 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Följ Craig när han visar dig hur försäljningschefens roll fungerar och uppträder i Business Central. | YouTube-video | 6 minuter 44 sekunder |
-| [Demo: projektledare - sommar 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Följ Craig när han visar dig hur projektledarens roll fungerar och uppträder i Business Central. | YouTube-video | 5 minuter 25 sekunder |
-| [Demo: Ägaren - sommar 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Följ Craig när han visar dig hur ägarens roll fungerar och uppträder i Business Central. | YouTube-video | 10 minuter 32 sekunder |
-| [Demo: marknadschefen - sommar 2019](https://youtu.be/iEtUbitWz4o) | Följ Craig när han visar dig hur marknadsföringschefens roll fungerar och uppträder i Business Central. | YouTube-video | 7 minuter 40 sekunder |
-| [Demo: Den externa revisorn - sommar 2019](https://youtu.be/qegEAAEiQ0M) | Följ Craig när han visar dig hur den externa revisorns roll fungerar och uppträder i Business Central. | YouTube-video | 2 minuter 46 sekunder |
-| [Demo: bokföringsansvarig - sommar 2019](https://youtu.be/aOE3ZwP1ieE) | Följ Craig när han visar dig hur den bokföringsansvariges roll fungerar och uppträder i Business Central. | YouTube-video | 7 minuter 42 sekunder |
-| [Demo: Revisorn - sommar 2019](https://youtu.be/EGY-DtMcfK8) | Följ Craig när han visar dig hur revisorns roll fungerar och uppträder i Business Central. | YouTube-video | 10 minuter 17 sekunder |
-| [Demo: stämma av bank - sommaren 2019](https://youtu.be/BKtiLmgiuyA) | Gå med Craig när han visar dig hur du stämmer av bankkonton. | YouTube-video | 4 minuter 15 sekunder |
-| [Demo: offert till kontant via Sales och Business Central - sommar 2019](https://youtu.be/WsL9OOkVG_Y)  |Följ Craig när han visar dig hur "offert till kontant" via Sales fungerar när du använder med Business Central. | YouTube-video |5 minuter 59 sekunder |
-| [Demo: offert till kontant via Outlook - sommar 2019](https://youtu.be/U6y6Pneriu8) |Följ Craig när han visar dig hur "offert till kontant" fungerar i Microsoft Outlook.| YouTube | -video|    6 minuter 28 sekunder |
-| [Demo: producera produktionsorder - sommaren 2019](https://youtu.be/ML_Zx_lqAHQ) | Koppla Craig så som han visar hur du använder producera produktionsorder i Business Central. | YouTube-video | 6 minuter 24 sekunder |
-| [Demo: Procure-to-Pay - sommar 2019](https://youtu.be/KOKW-EeEe4w) | Följ Craig när han visar dig hur processen "procure-to-pay" fungerar i Business Central. | YouTube-video | 5 minuter 26 sekunder |
-| [Demo: order till kontant - sommaren 2019](https://youtu.be/K1SgJnXAyQU) |Anslut Craig som han visar en mycket vanlig affärsmetod som kallas "order till kontant".  |YouTube-video  |4 minuter 44 sekunder |
-| [Demo: affärsmöjlighet till offert i Business Central - sommar 2019](https://youtu.be/ot9_FvvULIc) | Koppla Craig så som han visar dig funktionerna för affärsmöjlighetshantering i Business Central, samtidigt som de visar affärsmöjlighetens gemensamma affärsprocesser för offert. | YouTube-video | 3 minuter 31 sekunder |
-| [Demo: hantera ditt lager – sommaren 2019](https://youtu.be/spc_EPIf9fU) | Följ Craig när han visar hur du hanterar lagret. | YouTube-video | 6 minuter 23 sekunder |
-| [Demo: Tillverka-Mot-Lager - sommaren 2019](https://youtu.be/C_WHURQ98-k)|    Koppla Craig medan han visar dig hur du utför lager med Business Central.  |YouTube-video| 4 minuter 42 sekunder |
-| [Demo: Koncerninterna transaktioner - sommar 2019](https://youtu.be/MOaToa2AXyg) | Följ Craig när han visar dig transaktioner mellan företag. | YouTube-video | 4 minuter 09 sekunder |
-| [Demo: Ange en försäljningsorder från mobilenhet - sommar 2019](https://youtu.be/c4Lhs-q0hbw) | Följ Craig när han visar dig hur du kan registrera en försäljningsorder från en mobil enhet. | YouTube-video | 3 minuter |
-| [Demo: Direktleverans av försäljningsorder - sommar 2019](https://youtu.be/Jmv2gn1qzoQ)    |Koppla Craig så som det visar sig att du släpper försäljningsorder processer i Business Central.  |YouTube-video  |4 minuter 14 sekunder |
-| [Demo: kundgodkännande processen - sommaren 2019](https://youtu.be/_Oyj6DBAuPI) | Koppla Craig när han visar en grundläggande affärsprocesser för att registrera en ny kund. | YouTube-video | 3 minuter 24 sekunder |
-| [Demo: konsolidera företag - sommaren 2019](https://youtu.be/A4SExgt7wV4) | Koppla Craig medan han visar dig konsolidera företag som använder med Business Central. | YouTube-video | 2 minuter 15 sekunder |
-| [Demo: automatisera leverantörsskulder - sommaren 2019](https://youtu.be/RB3_7UTpEjo) | Koppla Craig så som han visar dig på ett sätt att automatisera leverantörsskulder processer med hjälp av Business Central. | YouTube-video | 3 minuter 51 sekunder |
-| [Demo: Skapa ett nytt företag](https://youtu.be/ZHg4UXTOEp8) | Låt nu Craig visa dig hur du konfigurerar ett nytt företag med hjälp av Business Central. | YouTube-video | 4 minuter 48 sekunder |
+| [The Sales Demo Playbook (Part 1 of 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)    | Twenty pre-configured, scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|    Download    | |    
+| [The Sales Demo Playbook (Part 2 of 2)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)|    Twenty pre-configured scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|    Download | |
+| [Demo: The Sales Representative- Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Representative works and behaves in Business Central. | YouTube video | 5 minutes 45 seconds |
+| [Demo: The Sales Manager - Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Manager works and behaves in Business Central. | YouTube video | 6 minutes 44 seconds |
+| [Demo: The Project Manager - Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role Project Manager works and behaves in Business Central. | YouTube video | 5 minutes 25 seconds |
+| [Demo: The Owner - Summer 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Join Craig as he shows you how the role Owner works and behaves in Business Central. | YouTube video | 10 minutes 32 seconds |
+| [Demo: The Marketing Manager - Summer 2019](https://youtu.be/iEtUbitWz4o) | Join Craig as he shows you how the role of the Marketing Manager works and behaves in Business Central. | YouTube video | 7 minutes 40 seconds |
+| [Demo: The External Accountant - Summer 2019](https://youtu.be/qegEAAEiQ0M) | Join Craig as he shows you how the role of the External Accountant works and behaves in Business Central. | YouTube video | 2 minutes 46 seconds |
+| [Demo: The Bookkeeper - Summer 2019](https://youtu.be/aOE3ZwP1ieE) | Join Craig as he shows you how the role of the Bookkeeper works and behaves in Business Central. | YouTube video | 7 minutes 42 seconds |
+| [Demo: The Accountant - Summer 2019](https://youtu.be/EGY-DtMcfK8) | Join Craig as he shows you how the role of the Accountant works and behaves in Business Central. | YouTube video | 10 minutes 17 seconds |
+| [Demo: Reconcile Bank - Summer 2019](https://youtu.be/BKtiLmgiuyA) | Join Craig as he shows you how reconcile bank accounts. | YouTube video | 4 minutes 15 seconds |
+| [Demo: Quote to Cash via Sales and Business Central - Summer 2019](https://youtu.be/WsL9OOkVG_Y)    |Join Craig as he shows you how Quote to Cash works via Sales and Business Central. | YouTube video    |5 minutees 59 seconds |
+| [Demo: Quote to Cash via Outlook - Summer 2019](https://youtu.be/U6y6Pneriu8)    |Join Craig as he shows you how Quote to Cash works all from within Microsoft Outlook.|    YouTube | video|    6 minutes 28 seconds |
+| [Demo: Produce Production Order - Summer 2019](https://youtu.be/ML_Zx_lqAHQ) | Join Craig as he shows you how use produce production orders in Business Central. | YouTube video | 6 minutes 24 seconds |
+| [Demo: Procure to Pay - Summer 2019](https://youtu.be/KOKW-EeEe4w) | Join Craig as he shows you how use Procure to Pay in Business Central. | YouTube video | 5 minutes 26 seconds |
+| [Demo: Order to Cash - Summer 2019](https://youtu.be/K1SgJnXAyQU)    |Join Craig as he shows you a very common business process called "order to cash".    |YouTube video    |4 minutes 44 seconds |
+| [Demo: Opportunity to Quote in Business Central - Summer 2019](https://youtu.be/ot9_FvvULIc) | Join Craig as he show you the opportunity management features in Business Central while demonstrate the common business process of opportunity to quote. | YouTube video | 3 minutes 31 seconds |
+| [Demo: Manage Your Inventory - Summer 2019](https://youtu.be/spc_EPIf9fU) | Join Craig as he shows you how to manage your inventory. | YouTube video | 6 minutes 23 seconds |
+| [Demo: Make to Stock - Summer 2019](https://youtu.be/C_WHURQ98-k)|    Join Craig as he shows you how to perform make to stock with Business Central.    |YouTube video|    4 minutes 42 seconds |
+| [Demo: Intercompany Transactions - Summer 2019](https://youtu.be/MOaToa2AXyg) | Join Craig as he shows you how to do transactions between companies. | YouTube video | 4 minutes 09 seconds |
+| [Demo: Enter a Sales Order via Mobile Device - Summer 2019](https://youtu.be/c4Lhs-q0hbw) | Join Craig as he shows you how to enter a sales order via a mobile device. | YouTube video | 3 minutes |
+| [Demo: Drop Ship Sales Orders - Summer 2019](https://youtu.be/Jmv2gn1qzoQ)    |Join Craig as he shows you the drop ship sales order process in Business Central.    |YouTube video    |4 minutes 14 seconds |
+| [Demo: Customer Approval Process - Summer 2019](https://youtu.be/_Oyj6DBAuPI) | Join Craig as he shows a basic business process of onboarding a new customer. | YouTube video | 3 minutes 24 seconds |
+| [Demo: Consolidating Companies - Summer 2019](https://youtu.be/A4SExgt7wV4) | Join Craig as he shows you how to consolidate companies using Business Central. | YouTube video | 2 minutes 15 seconds |
+| [Demo: Automate Accounts Payable - Summer 2019](https://youtu.be/RB3_7UTpEjo) | Join Craig as he shows you one way in which you can automate accounts payable process using Business Central. | YouTube video | 3 minutes 51 seconds |
+| [Demo: Setting up a new company](https://youtu.be/ZHg4UXTOEp8) | Join Craig as he shows you how to set up a new company using Business Central | YouTube video | 4 minutes 48 seconds |
+-->

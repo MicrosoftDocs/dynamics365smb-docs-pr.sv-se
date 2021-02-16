@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910886"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750536"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t.ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
@@ -33,7 +33,7 @@ Denna regel gäller även när du vill bestämma om du vill visa varningar när 
 
 Du kan välja att visa ett varningsmeddelande som baseras på olika toleranssituationer.  
 
-- Den första varningstexten gäller betalningsrabattoleransen. Du får information om att du kan godkänna en sen kassarabatt. Du kan sedan välja att godkänna toleransen för rabattdatumet.  
+- Den första varningstexten gäller kassarabattoleransen. Du får information om att du kan godkänna en sen kassarabatt. Du kan sedan välja att godkänna toleransen för rabattdatumet.  
 - Den andra varningstexten gäller betalningstoleransen. Du informeras om att alla transaktioner kan stängas eftersom skillnaden ligger inom den totala betalningstoleransen för transaktionerna. Du kan sedan välja att godkänna toleransen för betalningsbeloppet.
 
 > [!NOTE]
@@ -58,14 +58,14 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 11. P sidan **Ändra betalningstolerans** genom att fylla i fälten **Betalningstolerans %** och **Max.belopp betalningstolerans** samt välja **OK**.
 
 > [!IMPORTANT]  
->  Du har nu lagt upp toleransen för basvalutan. Om du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska hantera tolerans för betalningar, kreditnotor och återbetalningar i en utländsk valuta ska hanteras måste du köra batch-jobbet **Ändra betalningstolerans** med ett värde i fältet **Valutakod**.  
+>  Du har nu lagt upp toleransen för basvalutan. Om du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska hantera tolerans för betalningar, kreditnotor och återbetalningar i en utländsk valuta ska hanteras måste du köra batch-jobbet **Ändra betalningstolerans** med ett värde i fältet **Valutakod**.  
 
 > [!NOTE]  
 >  Om du vill visa ett varningsmeddelande när du bokför en kopplad transaktion inom toleransen måste du aktivera betalningstoleransvarningen. Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i [Spärra betalningstolerans för kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  När du lägger upp toleransen kontrollerar [!INCLUDE[d365fin](includes/d365fin_md.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
+>  När du lägger upp toleransen kontrollerar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.    
@@ -84,7 +84,7 @@ Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleran
 > [!NOTE]  
 >  Om det finns öppna transaktioner för kunden eller leverantören tillfrågas du om du vill ta bort betalningstoleransen från transaktioner som är öppna för tillfället.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exempel 1 - toleransberäkningar för enstaka dokument
+## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exempel 1 – toleransberäkningar för enstaka dokument
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer.  
 
 Sidan **redovisning** innehåller följande inställningar:
@@ -153,7 +153,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exempel 2 -  toleransberäkningar för flera dokument
+## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exempel 2 – toleransberäkningar för flera dokument
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer. Exemplen gäller bara de scenarier som resulterar i att alla poster i programmet stängs.  
 
 Sidan **redovisning** innehåller följande inställningar:
@@ -164,8 +164,8 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 
 - **A**  I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför som tolerans) i en faktura.  
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt i en faktura.  
-- **C** - I det här fallet har användaren kopplat på varningen och valt att tillåta sen kassarabatt på den första fakturan men inte på den andra.  
-- **D** - I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt på den första fakturan men däremot på den andra.  
+- **C** – I det här fallet har användaren kopplat på varningen och valt att tillåta sen kassarabatt på den första fakturan men inte på den andra.  
+- **D** – I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt på den första fakturan men däremot på den andra.  
 
 |—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
@@ -208,7 +208,7 @@ I relation till scenariot ovan kan betalningsintervallen illustreras på följan
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 1](media/multiplePmtTolRules(Pre1503).gif "Toleransregler för flera betalningar 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Multipla regler för betalningstolerans 1a":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -219,7 +219,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Toleransregler för flera betalningar 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Toleransregler för flera betalningar 2":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -230,7 +230,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Toleransregler för flera betalningar 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Toleransregler för flera betalningar 3":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -241,7 +241,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Toleransregler för flera betalningar 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Toleransregler för flera betalningar 4":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -252,7 +252,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för flera betalningar 5](media/multiplePmtTolRules(Post0122).gif "Toleransregler för flera betalningar 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Toleransregler för flera betalningar 5":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -262,4 +262,4 @@ normala kopplingsregler
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

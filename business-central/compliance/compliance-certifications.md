@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 55ed4b00a4d4140a625f914e148a51d83170fbd7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b7dbdaa20391723ec91811c3cce4226b224a4aa5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921028"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751986"
 ---
 # <a name="certifications"></a>Intyg
 
-Det här innehållet anger information om certifieringar i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Det här innehållet anger information om certifieringar i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 ## <a name="countryregion-specific-certifications-and-accreditations"></a>Lands-/regionspecifika certifieringar och ackrediteringar
 
@@ -45,4 +45,4 @@ Business Central som molntjänst har uppnått certifieringar som ISO 27001 med m
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
 [Tjänstens regelefterlevnad](compliance-service-compliance.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

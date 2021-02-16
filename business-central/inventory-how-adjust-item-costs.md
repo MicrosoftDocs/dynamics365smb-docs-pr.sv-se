@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 70fb5f5e1670dfbee3d8313099924321368f4e81
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914170"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750162"
 ---
 # <a name="adjust-item-costs"></a>Justera artikelkostnader
 Kostnaden för en artikel (lagervärde) som du köper och senare säljer kan ändras under dess livstid, eftersom till exempel en fraktkostnad läggs till dess inköpkostnad när du har sålt artikeln. Kostnadsjustering är speciellt relevant i situationer där du säljer varor, innan du fakturerar inköpet av dessa varor. För att alltid ha rätt lagervärde måste artikelkostnader därför regelbundet justeras. Detta säkerställer att försäljnings- och vinststatistiken är aktuell och ekonomiska KPI-er är korrekta. Mer information finns i [Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md).
 
 Som regel beräknas värdet i fältet **Styckkostnad** på artikelkortet enligt standardkostnaden för artiklar där värderingsprincipen Standard används. För artiklar där någon annan värderingsprincip används, beräknas värdet baserat på beräkningen av lagersaldot (fakturerade kostnader och förväntade kostnader) dividerat med lagersaldot. Mer information finns i avsnittet [Förstå Styckkost. beräkningstyp](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] justera artikelkostnaderna automatiskt varje gång en lagertransaktion uppstår till exempel när bokföring av en faktura för en artikel.
+I [!INCLUDE[prod_short](includes/prod_short.md)] justera artikelkostnaderna automatiskt varje gång en lagertransaktion uppstår till exempel när bokföring av en faktura för en artikel.
 
 Du kan också använda en funktion för att justera kostnaderna för en eller flera artiklar. Detta är användbart när du vet att artikelkostnader har ändrats av andra orsaker än artikeltransaktioner.
 
@@ -34,11 +34,11 @@ Om du använder en FIFO-kostnadsmetod är artikelns enhetskostnad det verkliga v
 
 Om du använder metoden Genomsnittskostnad beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. För artiklar som avänder den här värderingsprincipen kan du välja fältet **Styckkostnad** på artikelkortet för att visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
-Funktionen Kostnadsjustering bearbetar endast värdetransaktioner som inte ännu har justerats. Om en funktion påträffas där ankommande kostnader behöver flyttas fram till kopplade avgående kostnader, görs detta genom att nya justeringsvärdetransaktioner skapas som baseras på informationen i de ursprungliga värdetransaktionerna, men som innehåller justeringsbeloppet. Funktionen Kostnadsjustering använder bokföringsdatumet för den ursprungliga värdetransaktionen om inte det datumet infaller i en avslutad lagerperiod. Om så är fallet används startdatumet för nästa öppna lagerperiod. Om lagerperioder inte används definieras datumet i fältet **Tillåt bokföring fr.o.m.** på sidan **Redovisningsinställningar** när justeringstransaktionerna bokförs.
+Funktionen Kostnadsjustering bearbetar endast värdetransaktioner som inte ännu har justerats. Om en funktion påträffas där inkommande kostnader behöver flyttas fram till kopplade utgående kostnader, görs detta genom att nya justeringsvärdetransaktioner skapas som baseras på informationen i de ursprungliga värdetransaktionerna, men som innehåller justeringsbeloppet. Funktionen Kostnadsjustering använder bokföringsdatumet för den ursprungliga värdetransaktionen om inte det datumet infaller i en avslutad lagerperiod. Om så är fallet används startdatumet för nästa öppna lagerperiod. Om lagerperioder inte används definieras datumet i fältet **Tillåt bokföring fr.o.m.** på sidan **Redovisningsinställningar** när justeringstransaktionerna bokförs.
 
 ## <a name="to-adjust-item-costs-manually"></a>Så här justerar du artikelkostnader manuellt
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Justera kostnad – artikeltransaktioner** och välj sedan tillhörande länk.
-2. På sidan **Justera kost. - artikeltrans** kan du ange vilka artiklar som du vill justera kostnader för.
+2. På sidan **Justera kost. – artikeltrans** kan du ange vilka artiklar som du vill justera kostnader för.
 3. Välj knappen **OK**.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Så här gör du generella ändringar i inköpspris
@@ -60,10 +60,10 @@ Som regel beräknas värdet i fältet **Styckkostnad** på artikelkortet enligt 
 ## <a name="unit-cost-calculation-for-purchases"></a>Beräkna styckkostnad vid inköp  
  När du köper in artiklar kopieras alltid värdet i fältet **Senaste direkt kostnad** på artikelkortet till fältet **Inköpspris** på en inköpsrad eller till raden A-pris på en artikeljournalrad.  
 
- Ditt val i fältet **Värderingsprincip** påverkar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad** på raderna.  
+ Ditt val i fältet **Värderingsprincip** påverkar hur [!INCLUDE[prod_short](includes/prod_short.md)] beräknar innehållet i fältet **Styckkostnad** på raderna.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Värderingsprincip FIFO, LIFO, Serienr eller Genomsnitt  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar innehållet i fältet **Styckkostnad (BVA)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:  
+ [!INCLUDE[prod_short](includes/prod_short.md)] beräknar innehållet i fältet **Styckkostnad (BVA)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:  
 
  Styckkostnad (BVA) = (Inköpspris – (Rabattbelopp/Antal)) x (1 + Indirekt kostnad %/100) + Overheadkostnad  
 
@@ -78,11 +78,11 @@ Som regel beräknas värdet i fältet **Styckkostnad** på artikelkortet enligt 
 ## <a name="unit-cost-calculation-for-sales"></a>Beräkning av styckkostnad vid försäljning  
  När du säljer artiklar, kopieras styckkostnaden från fältet Styckkostnad på artikelkortet till försäljnings- eller artikeljournalraden.  
 
- När du bokför, kopieras styckkostnaden till en rad på försäljningsfakturan. Styckkostnaden visas på artikelns transaktionslista. [!INCLUDE[d365fin](includes/d365fin_md.md)] använder styckkostnaden från källdokumentraden för att beräkna innehållet i **Kost.belopp (aktuellt)** eller, om tillämpligt, fältet **Kost.belopp(förväntat)** oavsett vilken värderingsprincip som används för artikeln.  
+ När du bokför, kopieras styckkostnaden till en rad på försäljningsfakturan. Styckkostnaden visas på artikelns transaktionslista. [!INCLUDE[prod_short](includes/prod_short.md)] använder styckkostnaden från källdokumentraden för att beräkna innehållet i **Kost.belopp (aktuellt)** eller, om tillämpligt, fältet **Kost.belopp(förväntat)** oavsett vilken värderingsprincip som används för artikeln.  
 
 ## <a name="see-also"></a>Se även
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

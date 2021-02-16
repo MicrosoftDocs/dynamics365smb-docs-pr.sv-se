@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: feeb8913f54b003d003caf1363194cbcf1a7a2b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925011"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749049"
 ---
 # <a name="about-production-orders"></a>Om produktionsorder
 Produktionsorder används för att hantera omvandlingen av inköpt material till producerade artiklar. Produktionsorder dirigerar arbete via olika produktions- eller maskingrupper i fabriken.  
@@ -140,7 +140,7 @@ Fördelen med automatisk bokföring är att det i stor utsträckning minskar reg
 - Bokföring bakåt efter operation  
 - Bokföra hela ordern bakåt  
 
-#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisk rapportering - Bokför hela ordern framåt  
+#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisk rapportering – Bokför hela ordern framåt  
 Om du bokför hela produktionen framåt när arbetet börjar, är beteendet hos programmet liknande det vid manuell förbrukning. Den största skillnaden är att förbrukningen sker automatiskt.  
 
 - Hela innehållet i produktionsstrukturen förbrukas och dras ifrån lagret när den släppta produktionsordern uppdateras.  
@@ -155,7 +155,7 @@ Bokföra en hel order framåt kan användas i produktionsmiljöer med:
 -   Ett lågt antal operationer  
 -   Hög komponentförbrukning i tidiga operationer  
 
-#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering - Bokföring framåt efter operation  
+#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering – Bokföring framåt efter operation  
 Med bokföring efter operation, kan du dra av lager under en särskild operation i operationsföljden för den överordnade artikeln. Material kopplas till operationsföljden med hjälp av operationsföljdslänkkoder, som motsvarar de operationsföljdslänkkoder som tillämpas på komponenter i produktionsstrukturen.  
 
 Bokföring sker när operationen som har samma kod till verksamhetsföljdlänken startas. Startad betyder att någon aktivitet registreras i utflödesjournalen för operationen. Och den aktiviteten kanske är att omställningstiden anges.  
@@ -166,7 +166,7 @@ Den här metoden är lämpligast när det finns många operationer och vissa kom
 
 Material kan förbrukas under operationer genom att använda operationsföljdslänkkoder. Vissa komponenter kanske inte används förrän i de sista monteringsoperationerna och ska inte tas ut ur lagret förrän det är dags.  
 
-#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering - Bokföring bakåt efter operation  
+#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering – Bokföring bakåt efter operation  
 När du använder metoden Bokföring bakåt efter operation, registreras förbrukning när operationen har bokförts i utflödesjournalen.  
 
 Fördelen med den här metoden är att antalet överordnade delar som slutförts i operationen är känt.  
@@ -175,7 +175,7 @@ Material i produktionsstrukturen kopplas till operationsföljdsposterna med hjä
 
 Bokföringsbeloppet gäller för det antal per montering som har angetts i produktionsstrukturen multiplicerat med antalet överordnade artiklar som bokfördes som utflödeantal i operationen. Detta antal kanske inte stämmer överens med det förväntade antalet.  
 
-#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisk rapportering - Bokför hela ordern bakåt  
+#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisk rapportering – Bokför hela ordern bakåt  
 Operationsföljdslänkkoder används inte för den här rapporteringsmetoden.  
 
 Inga komponenter plockas förrän statusen för den släppta produktionsordern ändras till *Färdig*. Bokföringsbeloppet är det antal per montering som anges i produktionsstrukturen multiplicerat med antalet överordnade artiklar som slutfördes och överfördes till lagret.  
@@ -214,7 +214,7 @@ Produktionsjournalen innehåller en enkel vy och ger dig möjlighet att:
 - Koppla faktiska data för operationen till standardkostnadsförslag i operationsföljden och komponentraderna i produktionsordern.  
 - Bokföra och skriva ut en översikt över registrerade operationsdata för produktionsordern.  
 
-Med produktionsjournalen kan du utföra många av de funktionerna som du kan med förbruknings- och utflödesjournalen. Dimensioner, artikelspårning och lagerplatsinnehåll hanteras på samma sätt som i förbruknings- och utflödesjournalen.  
+Med produktionsjournalen kan du utföra många av de funktionerna som du kan med förbruknings- och utflödesjournalen. Dimensioner, artikelspårning och lagerställesinnehåll hanteras på samma sätt som i förbruknings- och utflödesjournalen.  
 
 Produktionsjournalen skiljer sig från förbruknings- och utflödesjournalerna på följande sätt:  
 
@@ -234,4 +234,4 @@ I produktionsjournalen bokförs förbrukningsantal som negativa artikeltransakti
 [Planerad](production-planning.md)      
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

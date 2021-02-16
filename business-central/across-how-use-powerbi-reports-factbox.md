@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968391"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754473"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] omfattar ett FactBox-styrelement på ett antal viktiga listsidor som ger ytterligare insikt i listdatan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter och visa dessa i denna kontroll. Det finns emellertid några regler som måste följas för att rapporterna ska fungera som förväntat.  
+[!INCLUDE[prod_long](includes/prod_long.md)] omfattar ett FactBox-styrelement på ett antal viktiga listsidor som ger ytterligare insikt i listdatan. När du flyttar mellan rader i listan uppdateras rapporten och filtrerats för den valda transaktionen. Du kan skapa anpassade rapporter och visa dessa i denna kontroll. Det finns emellertid några regler som måste följas för att rapporterna ska fungera som förväntat.  
 
 ## <a name="prerequisites"></a>Förutsättningar
 
 - Ett Power BI-konto.
 - Power BI Desktop.
 
-Mer information om hur du kommer igång finns i [Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).
+Mer information om hur du kommer igång finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md).
 
 ## <a name="defining-the-report-data-set"></a>Definiera rapportens datauppsättning
 
@@ -42,7 +42,7 @@ Om du vill definiera ett filter för rapporten, markera primärnyckel i listan �
 
 ## <a name="setting-the-report-size-and-color"></a>Ställa in rapportens storlek och färg
 
-Storleken på rapporten måste anges till 325 x 310 pixlar. Denna storlek tillhandahåller rapportens korrekta dimensioner på det tillgängliga utrymmet för Power BI FactBox-kontrollen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du vill definiera storleken på rapporten, lägger du fokus utanför rapportens layoutområde och klickar på ikonen färgrulle.
+Storleken på rapporten måste anges till 325 x 310 pixlar. Denna storlek tillhandahåller rapportens korrekta dimensioner på det tillgängliga utrymmet för Power BI FactBox-kontrollen i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill definiera storleken på rapporten, lägger du fokus utanför rapportens layoutområde och klickar på ikonen färgrulle.
 
 ![Ange rapportens bredd och höjd för rapporten Försäljningsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Du kan skapa en rapport med flera sidor med Power BI. För rapporter som visas m
 
 Ge rapporten ett namn som innehåller namnet på den listsida som är kopplad till rapporten. Om rapporten exempelvis avser listsidan **Leverantör** ska du inkludera ordet *leverantör* någonstans i namnet.  
 
-Denna namngivningskonvention är inget krav. Den underlättar emellertid valet av rapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. När valsidan för rapporter öppnas från en listsida filtreras den automatiskt baserat på sidans namn. Denna filtrering sker i syfte att begränsa den rapport som visas. Användare som vill få en komplett lista över de rapporter som finns tillgängliga i Power BI kan rensa filtret.  
+Denna namngivningskonvention är inget krav. Den underlättar emellertid valet av rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]. När valsidan för rapporter öppnas från en listsida filtreras den automatiskt baserat på sidans namn. Denna filtrering sker i syfte att begränsa den rapport som visas. Användare som vill få en komplett lista över de rapporter som finns tillgängliga i Power BI kan rensa filtret.  
 
 ## <a name="fixing-problems"></a>Åtgärda problem
 
@@ -85,7 +85,7 @@ Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten 
 ## <a name="see-also"></a>Se även
 
 [Aktivera dina affärsdata för Power BI](admin-powerbi.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Komma igång](product-get-started.md)  
-[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Ekonomi](finance.md)  

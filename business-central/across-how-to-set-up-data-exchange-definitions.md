@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6abdb25db5567a49e394b3f13f257e3a97cf1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921178"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754698"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
-Du kan konfigurera [!INCLUDE[d365fin](includes/d365fin_md.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
+Du kan konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
 Som förberedelsen för att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet [Så här beskriver du formateringen av rader och kolumner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Mer information finns i [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -37,7 +37,7 @@ I det här avsnittet beskrivs följande procedurer:
 Två uppgifter måste utföras för att skapa en definition för datautbyte:  
 
 1. Sidan **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen.  
-2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Beskrivs i följande procedurer.  
 
@@ -55,7 +55,7 @@ Beskrivs i följande procedurer.
     |**Namn**|Ange ett namn på definitionen för datautbyte.|  
     |**Filtyp**|Ange vilken typ av fil definitionen för datautbytet används för. Du kan välja mellan fyra filtyper:<br /><br /> -   **XML**: Överlappande strängar med innehåll och pålägg omgivna av taggar som anger funktionen.<br />-   **Variabel text**: Transaktioner har variabel längd och avskiljs av ett tecken, t.ex. komma eller semikolon\-. Kallas även *avgränsad fil*.<br />-   **Fast text**: Transaktioner har samma längd, med hjälp av utfyllnadstecken, och varje transaktion uttrycks på en egen rad. Kallas även *fil med fast bredd*.<br />- **Json**: överlappande innehållsträngar i JavaScript.|  
     |**Radtyp**|Ange vilken typ av affärsaktivitet definitionen för datautbyte används till, till exempel **Betalningsexport**.|  
-    |**Kodenhet för datahantering**|Ange den kodenhet som överför data till och från tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Kodenhet för datahantering**|Ange den kodenhet som överför data till och från tabeller i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Kodenhet för validering**|Ange den kodenhet som används för att verifiera data mot fördefinierade affärsregler.|  
     |**Kodenhet för läsning/skrivning**|Ange den kodenhet som behandlar importerade data före mappningen och exporterade data efter mappningen.|  
     |**Läsning/skrivning XMLport**|Anger den XMLport genom vilken en importerad datafil eller tjänst skickas in före mappning och genom vilken exporterade data skickas ut när de skrivs till en datafil eller tjänst efter mappning.|  
@@ -86,7 +86,7 @@ Beskrivs i följande procedurer.
 
      Sedan beskriver du formateringen av kolumner i datafilen genom att fylla i fälten på snabbfliken **Kolumndefinitioner** så som beskrivs i följande tabell. Du kan använda strukturfilen, till exempel en XSD-fil, för att datafilen ska autofylla snabbfliken med de relevanta elementen. Mer information finns i [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-6. Välj **Hämta filstruktur**på snabbfliken **Kolumndefinitioner**.  
+6. Välj **Hämta filstruktur** på snabbfliken **Kolumndefinitioner**.  
 7. På sidan **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan knappen **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
 8. Redigera eller fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Kolumndefinitioner**.  
 
@@ -95,7 +95,7 @@ Beskrivs i följande procedurer.
     |**Kolumnnr**|Ange numret som återspeglar kolumnens position på raden i filen.<br /><br /> För XML-filer anger du numret som återspeglar typen av element i filen som innehåller data.|  
     |**Namn**|Ange namnet på kolumnen.<br /><br /> För XML-filer anger du de pålägg som markerar att data ska utbytas.|  
     |**Datatyp**|Ange om data som ska utbytas är av typen **Text**, **Datum** eller **Decimal**.|  
-    |**Dataformat**|Ange formatet för data, om det finns något. Till exempel **MM-dd-åååå** om datatypen är **Datum**. **Obs:**  Ange dataformatet enligt [!INCLUDE[d365fin](includes/d365fin_md.md)] för export. Ange dataformatet enligt .NET Framework för import. Mer information finns i [Standarddatum och tidsformatsträngar](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Dataformat**|Ange formatet för data, om det finns något. Till exempel **MM-dd-åååå** om datatypen är **Datum**. **Obs:**  Ange dataformatet enligt [!INCLUDE[prod_short](includes/prod_short.md)] för export. Ange dataformatet enligt .NET Framework för import. Mer information finns i [Standarddatum och tidsformatsträngar](https://go.microsoft.com/fwlink/?LinkID=323466).|  
     |**Dataformateringskultur**|Ange kulturen för dataformatet, om det finns någon. Exempelvis **en-US** om datatypen är **Decimal** för att säkerställa att komma används som tusentalsseparator enligt USA-formatet. Mer information finns i [Standarddatum och tidsformatsträngar](https://go.microsoft.com/fwlink/?LinkID=323466). **Obs:**  Fältet är endast relevant för import.|  
     |**Längd**|Ange längden på raden med fast bredd som innehåller kolumnen om datafilen är av typen **Fast Text**.|  
     |**Beskrivning**|Ange en beskrivning av kolumnen, för information.|  
@@ -103,14 +103,14 @@ Beskrivs i följande procedurer.
     |**Identifierare för negativt tecken**|Ange värdet som används i datafilen för att identifiera negativa belopp, i datafiler som inte kan innehålla negativt tecken. Detta ID används sedan för att återföra de identifierade beloppen till negativt tecken vid import. **Obs:**  Fältet är endast relevant för import.|  
     |**Konstant**|Ange data som du vill exportera i den här kolumnen, till exempel ytterligare information om betalningstypen. **Obs:**  Fältet är endast relevant för export.|  
 
-9. Upprepa moment 8 för varje kolumn eller XML-element i datafilen som har data som du vill att utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+9. Upprepa moment 8 för varje kolumn eller XML-element i datafilen som har data som du vill att utbyta med [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- Nästa steget i att skapa en definition för datautbyte är att avgöra vilka kolumner eller XML-element i datafilöversikten som ska mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Nästa steget i att skapa en definition för datautbyte är att avgöra vilka kolumner eller XML-element i datafilöversikten som ska mappas till vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
->  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[prod_short](includes/prod_short.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Så här mappar du kolumner i datafilen till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>Så här mappar du kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
 > Ibland är värdena i de fält som du vill mappa olika. I ett företagsprogram är till exempel språkkoden för USA "USA", men i det andra är det "US". Det innebär att du måste omvandla värdet när du utbyter data. Detta sker genom omvandlingsregler som du definierar för fälten. Mer information finns i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -120,13 +120,13 @@ Beskrivs i följande procedurer.
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Tabell-ID**|Ange tabellen som innehåller fälten som data utbyts till eller från enligt mappningen.|  
-    |**Använd som cachelagringstabell**|Ange att tabellen som du väljer i fältet **Tabell-ID** är en cachelagringstabell där importerade data lagras innan de mappas till måltabellen.<br /><br /> Du kan använda den här cachelagringstabellen när definitionen för datautbyte används för att importera och konvertera elektroniska dokument, till exempel från leverantörsfakturor till inköpsfakturor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).|  
+    |**Använd som cachelagringstabell**|Ange att tabellen som du väljer i fältet **Tabell-ID** är en cachelagringstabell där importerade data lagras innan de mappas till måltabellen.<br /><br /> Du kan använda den här cachelagringstabellen när definitionen för datautbyte används för att importera och konvertera elektroniska dokument, till exempel från leverantörsfakturor till inköpsfakturor i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).|  
     |**Namn**|Ange ett namn på mapningsinställningen.|  
-    |**Förmappningskodenhet**|Ange den kodenhet som förbereder mappningen mellan fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] och externa data.|  
-    |**Mappningskodenhet**|Ange den kodenhet som används för att mappa specifika kolumner eller XML-dataelement till fält i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Eftermappningskodenhet**|Ange den kodenhet som slutför mappningen mellan fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] och externa data. **OBS!**  När du använder tilläggsfunktionen AMC Banking 365 Fundamentals konverterar kodenheten exporterade data från [!INCLUDE[d365fin](includes/d365fin_md.md)] till ett standardformat som är redo för export. För import konverterar kodenheten externa data till ett format som är klart att importera till [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Förmappningskodenhet**|Ange den kodenhet som förbereder mappningen mellan fält i [!INCLUDE[prod_short](includes/prod_short.md)] och externa data.|  
+    |**Mappningskodenhet**|Ange den kodenhet som används för att mappa specifika kolumner eller XML-dataelement till fält i [!INCLUDE[prod_short](includes/prod_short.md)].|  
+    |**Eftermappningskodenhet**|Ange den kodenhet som slutför mappningen mellan fält i [!INCLUDE[prod_short](includes/prod_short.md)] och externa data. **OBS!**  När du använder tilläggsfunktionen AMC Banking 365 Fundamentals konverterar kodenheten exporterade data från [!INCLUDE[prod_short](includes/prod_short.md)] till ett standardformat som är redo för export. För import konverterar kodenheten externa data till ett format som är klart att importera till [!INCLUDE[prod_short](includes/prod_short.md)].|  
 
-3.  På Snabbfliken **Fältmappning** anger du vilka kolumner som mappas mot vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att fylla i fälten som beskrivs i följande tabell.  
+3.  På Snabbfliken **Fältmappning** anger du vilka kolumner som mappas mot vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)] genom att fylla i fälten som beskrivs i följande tabell.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
@@ -142,7 +142,7 @@ Beskrivs i följande procedurer.
 Definitionen för datautbyte är nu klar att aktiveras för användare. Mer information finns i [Konfigurera skickande och mottagande av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Konfigurera SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md) samt [Betala med AMC Banking 365 Fundamentals -tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Omvandlingsregler
-Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera**och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
+Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera** och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
 
 |Alternativ|Beskrivning|
 |---------|---------|
@@ -152,11 +152,11 @@ Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandli
 |**Trimma**|Ta bort tomma mellanslag före och efter värdet.|
 |**Delsträng**|Omvandla en viss del av ett värde. Om du vill ange var du vill starta omvandlingen väljer du antingen **Startposition** eller **Starttext**. Startpositionen är ett tal som representerar det första tecknet som ska omvandlas. Starttexten är bokstaven omedelbart före bokstaven som ska ersättas. Om du vill börja med den första bokstaven i värdet använder du en startposition i stället. Om du vill ange var du vill stoppa omvandlingen väljer du aningen **Längd**, som är antalet tecken som ska ersättas, eller den **avslutande texten**, som är tecknet direkt efter det sista tecknet som ska omvandlas.|
 |**Byt ut**|Hitta ett värde och ersätt det med ett annat. Detta är användbart för att ersätta enkla värden, till exempel ett visst ord.|
-|**Reguljärt uttryck - Ersätt**|Använd ett reguljärt uttryck som en del av en sök-och ersätt-åtgärd. Detta är användbart för att ersätta flera, eller kanske mer komplexa, värden.|
+|**Reguljärt uttryck – Ersätt**|Använd ett reguljärt uttryck som en del av en sök-och ersätt-åtgärd. Detta är användbart för att ersätta flera, eller kanske mer komplexa, värden.|
 |**Ta bort icke-alfanumeriska tecken**|Ta bort tecken som inte är bokstäver eller siffror, till exempel symboler eller specialtecken.|
 |**Datumformatering**|Ange hur datum ska visas. Du kan till exempel omvandla DD-MM-ÅÅÅÅ till ÅÅÅÅ-MM-DD.|
 |**Decimalformat**|Definiera regler för decimalplacering och avrundningsprecision.|
-|**Matchning - reguljärt uttryck**|Använd ett reguljärt uttryck för att hitta ett eller flera värden. Detta liknar alternativen för **Delsträng** och **Reguljärt uttryck - Byt ut**.|
+|**Matchning – reguljärt uttryck**|Använd ett reguljärt uttryck för att hitta ett eller flera värden. Detta liknar alternativen för **Delsträng** och **Reguljärt uttryck – Byt ut**.|
 |**Anpassat**|Detta är ett avancerat alternativ som kräver hjälp från en utvecklare. Det möjliggör en integreringshändelse som du kan prenumerera på om du vill använda din egen omvandlingskod. Om du är utvecklare och vill använda det här alternativet kan du läsa avsnittet "tips för utvecklare: exempel på det anpassade alternativet" nedan.|
 |**Format för datum och tid**|Definiera hur du vill visa aktuellt datum och tid på dagen.|
 

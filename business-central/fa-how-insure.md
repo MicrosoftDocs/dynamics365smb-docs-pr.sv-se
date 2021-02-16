@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2ffddd60158a328916b891f0730c1f25684b04a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920678"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749399"
 ---
 # <a name="insure-fixed-assets"></a>Försäkra anläggningstillgångar
 En försäkringsbrev för en anläggningstillgång representeras av ett försäkringskort. Du kan koppla en anläggningstillgång till en försäkringspolicy eller flera anläggningstillgångar till en försäkringspolicy.
@@ -49,7 +49,7 @@ Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manue
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringsjournaler** och välj sedan tillhörande länk.  
 2. Öppna den relevanta journalen och fyll i journalraderna som behövs.  
-3. För att skapa flera anläggningstillgångar till ett försäkringsbrev skapar du journalrader med samma värdet i fältet**Försäkringsnr.** och olika värden i fältet **Anl.nr**.  
+3. För att skapa flera anläggningstillgångar till ett försäkringsbrev skapar du journalrader med samma värdet i fältet **Försäkringsnr.** och olika värden i fältet **Anl.nr**.  
 4. Välj åtgärden **Bokföra**.  
 
     > [!NOTE]  
@@ -70,7 +70,7 @@ Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera v�
 5. Öppna relevant försäkringsjournal, granska de skapade värdena och bokför dem i försäkringstransaktionerna.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Att bevaka försäkringsskydd
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ger dedikerade rapporter och statistiksidor för användning vid analys av försäkringsbrev och om anläggningstillgångarna är över- eller underförsäkrade.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ger dedikerade rapporter och statistiksidor för användning vid analys av försäkringsbrev och om anläggningstillgångarna är över- eller underförsäkrade.  
 
 ### <a name="overview-of-insurance-policies"></a>Översikt över försäkringsbrev
 Få en översikt över försäkringsbreven genom att skriva ut rapporten **Försäkringslista** rapport. Rapporten visar alla försäkringsbrev och de viktigaste fälten på försäkringskortet visas.  
@@ -118,4 +118,4 @@ Anläggningstillgången kommer att frigöras från det felaktiga försäkringsbr
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

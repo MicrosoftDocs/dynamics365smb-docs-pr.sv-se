@@ -11,16 +11,16 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d02740b0f4c73b96be9268cfdf5e4c3de157d5d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23a0c72775dbddc89a81105de3b2ed79d1f09432
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924534"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753776"
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-prodshort"></a>Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prod_short](includes/prod_short.md)]
 
-I denna artikel lär du dig mer om olika aspekter av Power BI-integreringen med [!INCLUDE[prodshort](includes/prodshort.md)] i syfte att hjälpa dig förstå dess implementering och användning.
+I denna artikel lär du dig mer om olika aspekter av Power BI-integreringen med [!INCLUDE[prod_short](includes/prod_short.md)] i syfte att hjälpa dig förstå dess implementering och användning.
 
 ## <a name="components"></a>Komponenter
 
@@ -30,39 +30,39 @@ Följande tabell beskriver de större komponenter som är involverade i Power BI
 |---------|-----------|
 |Power BI|En molnbaserad tjänst för att lagra och hantera rapporter.|
 |Power BI Desktop|Ett auktoriseringsverktyg för att skapa rapporter och instrumentpaneler som dessutom gör det möjligt för dig att köra rapporter. Det finns tillgängligt som kostnadsfri nedladdning från Microsoft Store oh installeras lokalt.|
-|[!INCLUDE[prodshort](includes/prodshort.md)]|Online- eller lokal lösning med anslutningsprogram synliga för Power BI och möjlighet för att bädda in en Power BI-del.|
+|[!INCLUDE[prod_short](includes/prod_short.md)]|Online- eller lokal lösning med anslutningsprogram synliga för Power BI och möjlighet för att bädda in en Power BI-del.|
 
 ## <a name="whats-available-from-the-start"></a>Vad finns tillgängligt från början?
 
 Följande tabell beskriver tillgängliga funktioner.
 
-|Funktion|[!INCLUDE[prodshort](includes/prodshort.md)]-support online eller lokalt|
+|Funktion|[!INCLUDE[prod_short](includes/prod_short.md)]-support online eller lokalt|
 |-------|---------------------|
 |Power BI-anslutningsprogram|Båda. Olika anslutningsprogram för online och lokalt. Samma anslutningsprogram används för Power BI Desktop och Power BI Service |
-|Inbäddad upplevelse för att visa en specifik rapport inuti en FactBox i [!INCLUDE[prodshort](includes/prodshort.md)]|Båda. Kräver konfigurering för att visa rapporter för lokala versioner.|
-|Hantering av Power BI-rapporter från [!INCLUDE[prodshort](includes/prodshort.md)]|Online|
+|Inbäddad upplevelse för att visa en specifik rapport inuti en FactBox i [!INCLUDE[prod_short](includes/prod_short.md)]|Båda. Kräver konfigurering för att visa rapporter för lokala versioner.|
+|Hantering av Power BI-rapporter från [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Power BI-standardrapporter om rollcentran som distribuerats till Power BI|Online|
 |Power BI-appar i Microsoft AppSource|Online.|
 
 ## <a name="architecture"></a>Arkitektur
 
-[!INCLUDE[prodshort](includes/prodshort.md)] integreras med Power BI via ett anslutningsprogram som använder OData. Datakällan för Power BI-rapporter anges som OData-webbtjänster.
+[!INCLUDE[prod_short](includes/prod_short.md)] integreras med Power BI via ett anslutningsprogram som använder OData. Datakällan för Power BI-rapporter anges som OData-webbtjänster.
 
 ![Power BI-arkitektur för integrering med Business Central](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Allmänt flöde
 
-Följande diagram illustrerar det grundläggande arbetsflödet för användare när [!INCLUDE[prodshort](includes/prodshort.md)] ansluts till Power BI.
+Följande diagram illustrerar det grundläggande arbetsflödet för användare när [!INCLUDE[prod_short](includes/prod_short.md)] ansluts till Power BI.
 
 ![Power BI-arbetsflöde för integrering med Business Central](./media/power-bi-flow.png)
 
 1. Användare registrerar sig för ett Power BI-konto.
-2. Användare ansluter till Power BI från [!INCLUDE[prodshort](includes/prodshort.md)].
-3. [!INCLUDE[prodshort](includes/prodshort.md)] bekräftar licensen.
-4. [!INCLUDE[prodshort](includes/prodshort.md)] distribuerar standardrapporter till Power BI-tjänsten. Detta steg sker enbart för [!INCLUDE[prodshort](includes/prodshort.md)] online.
-5. [!INCLUDE[prodshort](includes/prodshort.md)] gör rapporter i Power BI tillgängliga för val i [!INCLUDE[prodshort](includes/prodshort.md)]. Standardrapporter visas automatiskt i Power BI-delar.
+2. Användare ansluter till Power BI från [!INCLUDE[prod_short](includes/prod_short.md)].
+3. [!INCLUDE[prod_short](includes/prod_short.md)] bekräftar licensen.
+4. [!INCLUDE[prod_short](includes/prod_short.md)] distribuerar standardrapporter till Power BI-tjänsten. Detta steg sker enbart för [!INCLUDE[prod_short](includes/prod_short.md)] online.
+5. [!INCLUDE[prod_short](includes/prod_short.md)] gör rapporter i Power BI tillgängliga för val i [!INCLUDE[prod_short](includes/prod_short.md)]. Standardrapporter visas automatiskt i Power BI-delar.
 6. Användaren skapar en rapport i Power BI Desktop.
-7. Användaren publicerar rapporten i Power BI-tjänsten. Rapporterna blir därefter tillgängliga för urval i [!INCLUDE[prodshort](includes/prodshort.md)].
+7. Användaren publicerar rapporten i Power BI-tjänsten. Rapporterna blir därefter tillgängliga för urval i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -76,9 +76,9 @@ Följande diagram illustrerar det grundläggande arbetsflödet för användare n
 [Affärsstöd](bi.md)  
 [Komma igång](product-get-started.md)  
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

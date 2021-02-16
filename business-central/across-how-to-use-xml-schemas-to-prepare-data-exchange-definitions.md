@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 78aa941b8b886ed37dbed0d83a35d13b0e427421
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924959"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754623"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använd XML-scheman för att förbereda definitioner för databyten
 
-Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför detta arbete på sidan **XML-schemavisning** genom att ladda XML-schemafilen, välja tillhörande dataelement samt därefter initialisera en definition för databyte.  
+Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[prod_short](includes/prod_short.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[prod_short](includes/prod_short.md)]. Du utför detta arbete på sidan **XML-schemavisning** genom att ladda XML-schemafilen, välja tillhörande dataelement samt därefter initialisera en definition för databyte.  
 
- När du har definierat vilka dataelement som sa inkluderas baserat på XML-schemat kan du använda åtgärden **Generera definition för databyte** för att initialisera en definition för databyte baserat på valda dataelement som du sedan slutför i ramverket för databyten. Det skapar en post på sidan **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ När du har definierat vilka dataelement som sa inkluderas baserat på XML-schemat kan du använda åtgärden **Generera definition för databyte** för att initialisera en definition för databyte baserat på valda dataelement som du sedan slutför i ramverket för databyten. Det skapar en post på sidan **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
  Det här avsnittet innehåller följande procedurer:  
 
@@ -103,7 +103,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 4. På sidan **Öppna XML-schemavisare** väljer du åtgärden **Generera datautbytesdefinition**.  
 
- Datautbytesdefinitionen skapas på sidan **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Datautbytesdefinitionen skapas på sidan **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 > Du kan också använda funktionen **Hämta filstruktur** från sidan **Definitioner för bokföringsbyte** som använder funktionen på sidan **Visningsprogram för XML-schema** för att autofylla snabbfliken **Kolumndefinitioner**.  

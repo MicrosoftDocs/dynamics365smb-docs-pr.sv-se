@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Omvärdering | Microsoft Docs
+title: Designdetaljer – Omvärdering | Microsoft Docs
 description: Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911011"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751211"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
 Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] stöds följande flexibilitet för omvärdering:  
+I [!INCLUDE[prod_short](includes/prod_short.md)] stöds följande flexibilitet för omvärdering:  
 
 -   Det antal som kan omvärderas kan beräknas för vissa datum, även bakåt i tid.  
 -   För artiklar som använder värderingsprincipen Standard tas förväntade kostnadstransaktioner med i omvärderingen.  
@@ -39,7 +39,7 @@ Eftersom omvärderingen kan göras vilket datum som helst, måste du ha regler f
 ### <a name="example"></a>Exempel  
 Följande exempel visar när en PIA-artikel övergår till att bli en del av lagret. Följande exempel baseras på produktionen av en kedja med 150 länkar.  
 
-![PIA - omvärdering av lager](media/design_details_inventory_costing_10_revaluation_wip.png "PIA - omvärdering av lager")  
+![PIA – omvärdering av lager](media/design_details_inventory_costing_10_revaluation_wip.png "PIA – omvärdering av lager")  
 
 **1Q**: Användaren bokför de inköpta länkarna som inlevererade. Följande tabell visar den resulterande artikeltransaktionen.  
 
@@ -76,7 +76,7 @@ Värderingsdatum anges till datumet för förbrukningsbokföringen (02-01-20), s
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|KEDJA|Utflöde|1|3|  
 
-**3V**: Användare kör batch-jobbet **Justera kost. - artikeltran.** som bokför kedjan som fakturerad för att ange att all materialförbrukning har förbrukats helt. Från en ekonomisk synvinkel är länkarna inte längre en del av PIA-lagret när utflödet faktureras och justeras fullständigt. Följande tabell visar de resulterande värdetransaktionerna.  
+**3V**: Användare kör batch-jobbet **Justera kost. – artikeltran.** som bokför kedjan som fakturerad för att ange att all materialförbrukning har förbrukats helt. Från en ekonomisk synvinkel är länkarna inte längre en del av PIA-lagret när utflödet faktureras och justeras fullständigt. Följande tabell visar de resulterande värdetransaktionerna.  
 
 |Bokföringsdatum|Transaktionstyp|Värderingsdatum|Kost.belopp (aktuellt)|Artikeltrans.löpnr|Löpnr|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -85,12 +85,12 @@ Värderingsdatum anges till datumet för förbrukningsbokföringen (02-01-20), s
 |02-15-20|Inköpskostnad|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Förväntade kostnader i omvärdering  
-Det antal som kan omvärderas XE "antal som kan omvärderas" XE "Antal;kan omvärderas" beräknas som summan av antalet XE "antal" för fullständigt fakturerade XE "faktura" artikeltransaktioner XE "artikeltransaktion" med bokföringsdatum samtidigt som eller tidigare än datumet för omvärderingen XE "omvärdering". Det betyder att när vissa artiklar har inlevererats/levererats men inte fakturerats kan deras lagervärde inte beräknas XE "Lagervärde". Artiklar som använder värderingsprincipen Standard begränsas inte i detta avseende. XE ”värde”  
+Det antal som kan omvärderas beräknas som summan av antalet för fullständigt fakturerade artikeltransaktioner med ett bokföringsdatum som är lika med eller tidigare än omvärderingsdatumet. Det betyder att när vissa artiklar har inlevererats/levererats men inte fakturerats kan deras lagervärde inte beräknas. Artiklar som använder värderingsprincipen Standard begränsas inte i detta avseende.  
 
 > [!NOTE]  
->  En annan typ av förväntad kostnad som kan omvärderas är PIA-lagret, enligt vissa regler. Mer information finns i avsnittet “PIA Lager - omvärdering” i den här artikeln.  
+>  En annan typ av förväntad kostnad som kan omvärderas är PIA-lagret, enligt vissa regler. Mer information finns i [Omvärdera PIA-lager](design-details-revaluation.md#wip-inventory-revaluation).  
 
-När du beräknar det omvärderingsbara antalet för artiklar som använder värderingsprincipen Standard, tas artikeltransaktioner med som inte har fakturerats helt och ingår i beräkningen. Dessa transaktioner omvärderas sedan när du bokför omvärderingen. När du fakturerar den omvärderade transaktionen skapas följande värdetransaktioner:  
+När du beräknar det omvärderingsbara antalet för artiklar som använder värderingsprincipen Standard, tas artikeltransaktioner som inte har fakturerats helt och hållet med i beräkningen. Dessa transaktioner omvärderas sedan när du bokför omvärderingen. När du fakturerar den omvärderade transaktionen skapas följande värdetransaktioner:  
 
 -   Den vanliga fakturerade värdetransaktionen med transaktionstypen **Direkt kostnad**. Kostnadsbeloppet för den här transaktionen är den direkta kostnaden från källraden.  
 -   En värdetransaktion med transaktionstypen **Varians**. Den här transaktionen registrerar skillnaden mellan det fakturerade kostnaden och den omvärderade standardkostnaden.  
@@ -114,9 +114,9 @@ Följande tabell visar de resulterande värdetransaktionerna.
 |2.|01-20-20|Omvärdering|01-20-20|150.00|0,00|1|2|  
 |3.a.|01-15-20|Inköpskostnad|01-15-20|-300.00|0,00|1|3|  
 |3.b.|01-15-20|Omvärdering|01-20-20|-150.00|0,00|1|4|  
-|3.c.|01-15-20|Varians|01-15-20|0,00|450.00|1|5|  
+|3.c.|01-15-20|Varians|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Fastställa om en lagerminskning påverkas av omvärderingen  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Fastställa huruvida en lagerminskning påverkas av omvärderingen  
 Datumet för bokföringen eller omvärderingen används för att bestämma om en lagerminskning påverkas av en omvärdering.  
 
 Följande tabell visar de villkor som används för en artikel som inte använder värderingsprincipen Genomsnitt.  
@@ -141,7 +141,7 @@ Följande exempel, som visar omvärdering av en artikel som använder FIFO-värd
 6.  Den 02-01-20 bokför användaren en försäljning på 1 enhet.  
 7.  Den 03-01-20 bokför användaren en försäljning på 1 enhet.  
 8.  Den 04-01-20 bokför användaren en försäljning på 1 enhet.  
-9. Användaren kör batch-jobbet  **Justera kost. - artikeltrans.**  
+9. Användaren kör batch-jobbet  **Justera kost. – artikeltrans.**  
 
 Följande tabell visar de resulterande värdetransaktionerna.  
 
@@ -160,25 +160,25 @@ Följande tabell visar de resulterande värdetransaktionerna.
 |K|04-01-20|Försäljning|04-01-20|-1|-10.00|7|8|  
 ||04-01-20|Försäljning|04-01-20|-1|2,00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>PIA - Omvärdering av lager  
+## <a name="wip-inventory-revaluation"></a>PIA – Omvärdering av lager  
 Omvärdering av PIA-lagret betyder omvärdering av komponenter som är registrerade som en del av PIA-lagret vid tidpunkten för omvärdering.  
 
-Med det i åtanke är det viktigt att skapa regler för när en artikel anses vara en del av PIA-lagret från en ekonomisk synvinkel. I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns följande regler:  
+Med det i åtanke är det viktigt att skapa regler för när en artikel anses vara en del av PIA-lagret från en ekonomisk synvinkel. I [!INCLUDE[prod_short](includes/prod_short.md)] finns följande regler:  
 
 -   En inhandlad komponent blir en del av råmateriallagret från tidpunkten då ett inköp bokförs som fakturerat.  
--   Den inköpta/detaljmonterade komponenten ingår i PIA-lagret från tidpunkten då dess förbrukning bokförs i samband med en produktionsorder.  
+-   En inköpt/detaljmonterad komponent ingår i PIA-lagret från tidpunkten då dess förbrukning bokförs i samband med en produktionsorder.  
 -   En inköpt/detaljmonterad komponent ingår i PIA-lagret tills en produktionsorder (tillverkad artikel) faktureras.  
 
-Sättet som värderingsdatumet för värdetransaktionen av förbrukning har angetts följer samma regler som för icke-PIA-lager. Mer information finns i avsnittet "Fastställa om en lagerminskning påverkas av omvärderingen" i det här avsnittet.  
+Sättet som värderingsdatumet för värdetransaktionen av förbrukning har angetts följer samma regler som för icke-PIA-lager. Mer information finns i [Fastställa om en lagerminskning påverkas av en omvärdering](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 PIA-lagret kan omvärderas förutsatt att omvärderingdatumet inte är tidigare än bokföringsdatumet för motsvarande artikeltransaktioner av typen Förbrukning, och förutsatt att motsvarande produktionsorder inte har fakturerats ännu.  
 
 > [!CAUTION]  
->  Rapporten **Lagervärdering - PIA** visar värdet för bokförda produktionsordertransaktioner och kan därför vara lite förvirrande för PIA-artiklar som har omvärderats.  
+>  Rapporten **Lagervärdering – PIA** visar värdet för bokförda produktionsordertransaktioner och kan därför vara lite förvirrande för PIA-artiklar som har omvärderats.  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)   
  [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

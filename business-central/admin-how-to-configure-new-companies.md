@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917907"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752706"
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
 Om du vill konfigurera ett nytt företag i din lösningsimplementering följer du vanligtvis tre faser. I den första fasen importerar du ett konfigurationspaket som är en .rapidstart-fil med konfigurationsinformation. I den andra fasen ändrar du konfigurationsinformationen och tillämpar den sedan i det nya företaget. I slutfasen granskar du och rättar eventuella fel.  
@@ -31,7 +31,7 @@ Innan du importerar ett konfigurationspaket är det en bra idé att kontrollera 
 * Den användare som importerar konfigurationspaketet har gällande behörigheter för Infoga och Ändra för alla register som paketet kommer att uppdatera. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Så importerar du ett konfigurationspaket  
-1. Öppna det nya företaget i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
+1. Öppna det nya företaget i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 3. Välj åtgärden **Importera paket**.  
 4. Navigera till den plats där du har sparat .rapidstart-konfigurationspaketet och välj sedan knappen **Öppna**.  

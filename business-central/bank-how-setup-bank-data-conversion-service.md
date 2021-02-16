@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7021b09fd113ec87ff8d155fff24b31ca497bc42
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924459"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752411"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurera AMC Banking 365 Fundamentals-tillägget
-En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I [!INCLUDE[d365fin](includes/d365fin_md.md)] betecknas detta som tillägget AMC Banking 365 Fundamentals.
+En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[prod_short](includes/prod_short.md)]. I [!INCLUDE[prod_short](includes/prod_short.md)] betecknas detta som tillägget AMC Banking 365 Fundamentals.
 
 Du kan exportera betalningsrader från sidan **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-Du kan importera bankutdragsfiler till sidan **Betalningsavstämningsjournal** genom att använda AMC Banking 365 Fundamentals-tillägget för att konvertera en fil erhåller från din bank till ett dataflöde som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan importera bankutdragsfiler till sidan **Betalningsavstämningsjournal** genom att använda AMC Banking 365 Fundamentals-tillägget för att konvertera en fil erhåller från din bank till ett dataflöde som [!INCLUDE[prod_short](includes/prod_short.md)] kan importera. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Som ett alternativ till att importera bankutlåtanden med AMC Banking 365 Fundamentals-tillägget kan du istället använda tjänsten Envestnet Yodlee Bank Feeds. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -40,7 +40,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 3. I fältet **URL för registrering** väljer du webbläsarknappen för att öppna tjänstleverantörens inloggningssida.  
 4. På bankdatatjänstleverantörens registreringssida anger du användarnamnet och lösenord för ditt företags prenumeration på tjänsten, och slutför sedan inloggningen enligt tjänstleverantörens anvisningar.
 
-    Ditt företag har nu registrerats för AMC Banking 365 Fundamentals-tillägget. Fortsätt med att ange användarnamnet och lösenordet som du har angett för tjänsten i de relaterade inställningsfälten i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Ditt företag har nu registrerats för AMC Banking 365 Fundamentals-tillägget. Fortsätt med att ange användarnamnet och lösenordet som du har angett för tjänsten i de relaterade inställningsfälten i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 5. På sidan **Serviceinställningar för bankdatakonv.** i fältet **Användarnamn** anger du samma värde som du har angett som inloggningsnamn på tjänstleverantörens sida i steg 4.
 6. I fältet **Lösenord** anger du samma värde som du angav i fältet **Lösenord** på tjänstleverantörens sida i steg 4.
@@ -63,4 +63,4 @@ Du har nu registrerat dig för AMC Banking 365 Fundamentals-tillägget. Fortsät
 ## <a name="see-also"></a>Se även
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

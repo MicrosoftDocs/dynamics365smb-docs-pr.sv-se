@@ -7,16 +7,16 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922298"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745994"
 ---
 # <a name="manage-profiles"></a>Hantera profiler
 
-Alla användare av [!INCLUDE[d365fin](includes/d365fin_md.md)] tilldelas en profil som motsvarar affärsrollen, den avdelning de arbetar i eller någon annan kategorisering. Med hjälp av profiler kan administratörer definiera och hantera centralt olika typer av användare som kan se och arbeta i användargränssnittet så att de kan utföra affärsuppgifter på ett effektivt sätt.
+Alla användare av [!INCLUDE[prod_short](includes/prod_short.md)] tilldelas en profil som motsvarar affärsrollen, den avdelning de arbetar i eller någon annan kategorisering. Med hjälp av profiler kan administratörer definiera och hantera centralt olika typer av användare som kan se och arbeta i användargränssnittet så att de kan utföra affärsuppgifter på ett effektivt sätt.
 
 > [!NOTE]
 > En typisk företagsanvändning är en roll. En profil har därför namnet *profil (roll)* i användargränssnittet.
@@ -81,14 +81,14 @@ När en profil skapas kan du markera olika kryssrutor som definierar om, var och
     - **Visa i rollutforskaren** om du vill ange om åtgärder till affärsfunktioner som ingår i profilen ska visas i den utökade vyn av rollutforskaren, en översikt över funktioner. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>För att exportera profiler
-Du kan exportera profiler från [!INCLUDE[d365fin](includes/d365fin_md.md)], t.ex. återanvända dem i en annan innehavare. Profilerna exporteras till en zip-fil som innehåller .al-filer som kan återanvändas för att utveckla tillägg. Mer information finns i [Använda klienten för att skapa profiler och sidanpassningar](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Du kan exportera profiler från [!INCLUDE[prod_short](includes/prod_short.md)], t.ex. återanvända dem i en annan innehavare. Profilerna exporteras till en zip-fil som innehåller .al-filer som kan återanvändas för att utveckla tillägg. Mer information finns i [Använda klienten för att skapa profiler och sidanpassningar](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * På sidan **Profiler (roller)**, välj åtgärden **Exportera profiler**.
 
 En zip-fil med .al-filerna för alla profiler exporteras.
 
 ## <a name="to-import-profiles"></a>För att importera profiler
-Du kan importera profiler som har exporterats från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stegen är mer eller mindre motsatsen till de olika stegen för att exportera profiler. Mer information finns i [För att exportera profiler](admin-users-profiles-roles.md#to-export-profiles).
+Du kan importera profiler som har exporterats från [!INCLUDE[prod_short](includes/prod_short.md)]. Stegen är mer eller mindre motsatsen till de olika stegen för att exportera profiler. Mer information finns i [För att exportera profiler](admin-users-profiles-roles.md#to-export-profiles).
 
 1. På sidan **Profiler (roller)**, välj åtgärden **Importera profiler**.
 2. Följ stegen i guiden **Importera profiler**.
@@ -127,7 +127,7 @@ Du kan ta bort anpassningar som en eller flera användare har gjort på vissa si
     Sidan **Anpassningar av användarsidan** visar alla sidor som har anpassats och användaren som de tillhör.
 
     > [!Note]
-    > Ett kryss i fätet **Äldre anpassning** anger att anpassningen har skett i en äldre version av [!INCLUDE[d365fin](includes/d365fin_md.md)], som hanterade anpassningen på ett annat sätt. Användare som försöker anpassa dessa sidor hindras från att göra detta såvida de inte väljer att låsa upp sidan. Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).
+    > Ett kryss i fätet **Äldre anpassning** anger att anpassningen har skett i en äldre version av [!INCLUDE[prod_short](includes/prod_short.md)], som hanterade anpassningen på ett annat sätt. Användare som försöker anpassa dessa sidor hindras från att göra detta såvida de inte väljer att låsa upp sidan. Mer information finns i [Anledningen till att anpassningen är låst för en sida](ui-personalization-locked.md).
 
 2. Markera raden för den sidanpassning som du vill radera och välj sedan åtgärden **Radera**.
 
@@ -137,9 +137,9 @@ Du kan också ta bort individuella sidanpassningar för en profil. Mer informati
 
 ## <a name="managing-user-sessions"></a>Hantera användarsessioner
 
-Som administratör av [!INCLUDE[prodshort](includes/prodshort.md)] online kan du hantera användarsessioner i administrationscentret. Mer information finns i [Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsinnehållet.  
+Som administratör av [!INCLUDE[prod_short](includes/prod_short.md)] online kan du hantera användarsessioner i administrationscentret. Mer information finns i [Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsinnehållet.  
 
-För [!INCLUDE[prodshort](includes/prodshort.md)] lokal kan du t.ex. hantera sessioner med SQL Server Management Studio. Mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server).  
+För [!INCLUDE[prod_short](includes/prod_short.md)] lokal kan du t.ex. hantera sessioner med SQL Server Management Studio. Mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Se även  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  

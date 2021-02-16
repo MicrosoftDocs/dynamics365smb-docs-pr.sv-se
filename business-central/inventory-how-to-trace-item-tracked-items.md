@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21eff2a2c52dfabb3788bb06d1d2f684c34441ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916099"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750011"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
@@ -67,8 +67,8 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 ## <a name="see-also"></a>Se även  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Detaljer: Artikelspårning](design-details-item-tracking.md)
-[Designdetaljer - artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
+[Designdetaljer – artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)  
 [Hitta transaktioner](ui-find-entries.md)  

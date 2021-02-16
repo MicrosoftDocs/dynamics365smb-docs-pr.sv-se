@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d167d55196f651ea3b6286ba969829042fabefaf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925878"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747949"
 ---
 # <a name="set-up-a-loaner-program"></a>Lägga upp program för låneartiklar
-Ibland måste du förse en kund med en låneartikel medan reparationen pågår. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du skapa ett låneartikelprogram, låna ut artiklar till dina kunder och spåra inleverans när kunderna lämnar tillbaka artiklarna. Du kan dessutom lägga till kommentarer om låneartiklar på två sätt:  
+Ibland måste du förse en kund med en låneartikel medan reparationen pågår. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du skapa ett låneartikelprogram, låna ut artiklar till dina kunder och spåra inleverans när kunderna lämnar tillbaka artiklarna. Du kan dessutom lägga till kommentarer om låneartiklar på två sätt:  
   
 * Skriva en notering eller kommentar om själva låneartikeln.  
 * Skriva en notering för en serviceartikel om behovet av en låneartikel.  

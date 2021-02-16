@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6fcaf1594408a80cc9731abca1906082d311bb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b6400b304c24dff6cb0aa29bdfb5463340c466c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916350"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754823"
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
@@ -47,10 +47,10 @@ En baskalender som definierats för leverantörer eller lagerställe inverkar p�
 |Beräkningsriktning|Leverantörskalender har definierats|Leverantörskalender har inte definierats|
 |---------------------|-----------------------|---------------------------|
 |Framåt|planerat inleveransdatum = orderdatum + leverantörsledtid (per leverantörskalendern och avrundat till nästa arbetsdag först i leverantörskalendern och sedan i lagerställekalendern)|planerat inleveransdatum = orderdatum + ( leverantörsledtid per lagerställekalendern)|
-|Bakåt|orderdatum = + planerat inleveransdatum - leverantörsledtid (per leverantörskalendern och avrundat till föregående arbetsdag först i leverantörskalendern och sedan i lagerställekalendern)|orderdatum = planerat inleveransdatum - leverantörsledtid (per lagerställekalendern)|
+|Bakåt|orderdatum = + planerat inleveransdatum – leverantörsledtid (per leverantörskalendern och avrundat till föregående arbetsdag först i leverantörskalendern och sedan i lagerställekalendern)|orderdatum = planerat inleveransdatum – leverantörsledtid (per lagerställekalendern)|
 
 > [!NOTE]
-> Förutom Ledtidsberäkningen som påverkar det planerade inleveransdatumet och Orderdatum, vilket visas i tabellen ovan distributionslagerhanteringstid och säkerhetsledtid läggas till i formlerna till värdet i fältet **förväntat inleveransdatum** följande: planerat inleveransdatum + Säkerhetsledtid + Ankommande lagerhanteringstid = Förväntat inleveransdatum.
+> Förutom Ledtidsberäkningen som påverkar det planerade inleveransdatumet och Orderdatum, vilket visas i tabellen ovan distributionslagerhanteringstid och säkerhetsledtid läggas till i formlerna till värdet i fältet **förväntat inleveransdatum** följande: planerat inleveransdatum + Säkerhetsledtid + inkommande lagerhanteringstid = Förväntat inleveransdatum.
 
 > [!Important]
 > Om ditt lagerställe använder en helt annan kalender än den leverantörerna använder är det viktigt att du lägger upp specifika kalendrar för leverantörerna för att beräkna bästa möjliga leverantörsledtider. Om du vill veta hur du ställer in leverantörskalendrar, se avsnittet [Så här tilldelar du en baskalender](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
@@ -116,4 +116,4 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 [Inköp](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

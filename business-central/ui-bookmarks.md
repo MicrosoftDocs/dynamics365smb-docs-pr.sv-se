@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912702"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747724"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Förse en sida eller rapport med ett bokmärke på ditt rollcenter
 Med hjälp av bokmärkesikonen kan du lägga till en åtgärd som öppnar en sida eller rapport från navigeringsmenyn i rollcentret. På så sätt kan du snabbt nå ditt favoritinnehåll eller dina affärsuppgifter. Du lägger till bokmärket från målsidan eller rapport vilket innebär skärmen som du vill att länken i rollcentret ska öppnas på.
@@ -81,6 +81,6 @@ När du lägger till en ny åtgärd kommer all översatt text som var tillgängl
 
 ## <a name="see-also"></a>Se även
 [Anpassa din arbetsyta](ui-personalization-user.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8f272b73f7cc5940f2e0b845c62fd28395b6923
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 26782d211d205bb5414c5bd423ccf240f70f197e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926328"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748474"
 ---
 # <a name="date-calculation-for-sales"></a>Datumberäkning för försäljning
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknas automatiskt tidigast möjliga leveransdatum för en artikel på en försäljningsorderrad.
+I [!INCLUDE[prod_short](includes/prod_short.md)] beräknas automatiskt tidigast möjliga leveransdatum för en artikel på en försäljningsorderrad.
 
 Om kunden har begärt ett särskilt leveransdatum beräknas det datum då artiklarna måste vara tillgängliga för plockning så att varorna faktiskt ska kunna levereras på angiven dag.
 
@@ -27,8 +27,8 @@ Om inget bestämt leveransdatum begärts beräknas det datum då artiklarna kan 
 ## <a name="calculating-a-requested-delivery-date"></a>Beräkna ett begärt leveransdatum
 Om du anger ett begärt leveransdatum på försäljningsorderraden blir detta datum utgångspunkt för följande beräkningar.
 
-- begärt leveransdatum - leveranstid = planerat utleveransdatum
-- planerat utleveransdatum - avgående lagerhanteringstid = utleveransdatum
+- begärt leveransdatum – leveranstid = planerat utleveransdatum
+- planerat utleveransdatum – utgående lagerhanteringstid = utleveransdatum
 
 Om artiklarna kan plockas på utleveransdatumet kan försäljningsprocessen fortsätta. Annars visas en varning om slut på lager.
 
@@ -38,11 +38,11 @@ Om artiklarna kan plockas på utleveransdatumet kan försäljningsprocessen fort
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Beräkna tidigaste möjliga leveransdatum
 Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, eller om det begärda leveransdatumet inte kan godtas, beräknas det tidigaste datum då artiklarna är tillgängliga. Detta datum anges automatiskt i fältet Leveransdatum på raden. Det datum då du planerar att utleverera artiklarna liksom det datum då varorna kan levereras till kunden beräknas med hjälp av följande formler.
 
-- planerat utleveransdatum + avgående lagerhanteringstid = planerat utleveransdatum
+- planerat utleveransdatum + utgående lagerhanteringstid = planerat utleveransdatum
 - planerat utleveransdatum +- leveranstid = planerat leveransdatum
 
 
 ## <a name="see-also"></a>Se även  
  [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)   
  [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

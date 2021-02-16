@@ -10,37 +10,37 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7c5954bfd8b8186638c3a696d355fdeb4b7c9d59
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924434"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752386"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Skapa tjänsten Envestnet Yodlee Bank Feeds
 
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> På grund av direktivet om betalningstjänster i Europa (PSD2), efter den 14 september 2019, kan du inte längre automatiskt importera bankutdrag från banker i Storbritannien till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vi undersöker möjligheten att erbjuda denna funktion igen i framtiden.
+> På grund av direktivet om betalningstjänster i Europa (PSD2), efter den 14 september 2019, kan du inte längre automatiskt importera bankutdrag från banker i Storbritannien till [!INCLUDE[prod_short](includes/prod_short.md)]. Vi undersöker möjligheten att erbjuda denna funktion igen i framtiden.
 
 > [!NOTE]
 > Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen lokalt måste du skaffa ett konto från Envestnet och du måste lägga till kod som kan integreras med Yodlee API.
 >
 > Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA och Kanada.
-> Endast banker som finns i dessa länder stöds även om banker från andra länder kan visas i bankvalsfönstret Envestnet Yodlee Bank Feeds i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Endast banker som finns i dessa länder stöds även om banker från andra länder kan visas i bankvalsfönstret Envestnet Yodlee Bank Feeds i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > Kontakta Microsoft-supporten om du behöver teknisk hjälp med Envestnet Yodlee-funktionen. Kontakta inte Envestnet Yodlee. Mer information finns i [konfigurera teknisk support för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support)
 
-Tjänsten Envestnet Yodlee Bank Feeds har installerats som ett tillägg till [!INCLUDE[d365fin](includes/d365fin_md.md)] online och är klar att aktiveras i de länder som stöds. Mer information finns i [Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md).
+Tjänsten Envestnet Yodlee Bank Feeds har installerats som ett tillägg till [!INCLUDE[prod_short](includes/prod_short.md)] online och är klar att aktiveras i de länder som stöds. Mer information finns i [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md).
 
 När du har aktiverat bankfeedtjänsten måste du länka det involverade bankkontot till det onlinebankkonto som feeden ska komma från. Du länkar bankkonton till onlinebankkonton i följande olika scenarier:
 
-* Det finns inget bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] för ditt onlinebankkonto. Därför skapar du bankkontot genom att länka från onlinebankkontot.
-* Det finns ett bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du vill länka till ett onlinebankkonto.
+* Det finns inget bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] för ditt onlinebankkonto. Därför skapar du bankkontot genom att länka från onlinebankkontot.
+* Det finns ett bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)], som du vill länka till ett onlinebankkonto.
 * Ett länkat bankkonto måste länkas av eftersom du vill sluta använda bankfeedtjänsten för kontot.
-* Onlinebankkonton har ändrat och du vill uppdatera informationen om bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Onlinebankkonton har ändrat och du vill uppdatera informationen om bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att automatiskt importera nya kontoutdrag till sidan **Betalningsavstämningsjournal** varannan timme. Transaktioner för utbetalningar som redan har bokförts som kopplade och/eller avstämda på sidan **Betalningsavstämningsjournal** kommer inte att importeras. Mer information finns i avsnittet “Att aktivera automatisk import av kontoutdrag”.
 
@@ -66,22 +66,22 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 3. På sidan **Länka till onlinebankkonto** i rutan **Länka konto** använd Sökfunktionen för att hitta banken där du har ett eller flera onlinebankkonton.
 4. Välj bankens namn. Rutan **Inloggning** öppnas.
 5. Ange användarnamnet och lösenordet som du använder för att logga in på onlinebanken och tryck sedan på knappen **Nästa**.  
-6. Bankfeedtjänsten förbereder dig på att länka det första onlinebankkontot på den angivna banken till ett nytt bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+6. Bankfeedtjänsten förbereder dig på att länka det första onlinebankkontot på den angivna banken till ett nytt bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)].
 
     > [!NOTE]  
-    > Om du har fler än ett onlinebankkonto på banken, måste du skapa ytterligare bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)] för dem. Se steg 8 till 10.  
+    > Om du har fler än ett onlinebankkonto på banken, måste du skapa ytterligare bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] för dem. Se steg 8 till 10.  
 
     När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Siffran inom parentes visar hur många online bankkonton som länkades.  
 7. Välj knappen **OK**.
 
     Om du bara länkar ett onlinebankkonto, öppnas sidan **bankkontokort** och visar namnet på onlinebankkontot. I det här fallet är bankkontolänkninguppgiften slutförd. Allt som återstår är att skapa bankkontot. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
-    Om fler än ett bankkonto länkades kommer sidan **Länkning av bankkonto** att öppnas med det ytterligare onlinebankkonton som inte ännu är länkade till bankkonton i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I detta fall, följ nästa steg.  
+    Om fler än ett bankkonto länkades kommer sidan **Länkning av bankkonto** att öppnas med det ytterligare onlinebankkonton som inte ännu är länkade till bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)]. I detta fall, följ nästa steg.  
 8. På sidan **Länkning av bankkonto** väljer du raden för ett onlinebankkonto och väljer sedan åtgärden **Länka till nytt bankkonto**.  
 
     Sidan **Bankkontokort** för ett nytt bankkonto kommer att öppnas och visar namnet på den detta bankkonto.
 
-    Om ett bankkonto redan finns i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vill länka det ytterligare onlinebankkontot till, följer du nästa steg.  
+    Om ett bankkonto redan finns i [!INCLUDE[prod_short](includes/prod_short.md)] som du vill länka det ytterligare onlinebankkontot till, följer du nästa steg.  
 9. På sidan **Länkning av bankkonto** väljer du raden för ett onlinebankkonto och väljer sedan åtgärden **Länka till befintligt bankkonto**.
 10. På sidan **Bankkontolista** väljer du det bankkonto som du vill länka till och väljer sedan knappen **OK**.
 
@@ -91,7 +91,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 3. Välj bankens namn. Rutan **Inloggning** öppnas.
 4. Ange användarnamnet och lösenordet som du använder för att logga in på onlinebanken och tryck sedan på knappen **Nästa**.  
 
-    Bankfeedtjänsten förbereder dig på att länka ditt bankkontot bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] till det relaterade onlinebankkontot.  
+    Bankfeedtjänsten förbereder dig på att länka ditt bankkontot bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] till det relaterade onlinebankkontot.  
 
     När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Om banken har mer än ett bankkonto kan endast det bankkonto som du valde i steg 2 länkas.  
 5. Välj knappen **OK**.
@@ -129,5 +129,5 @@ Varje timme kommer sidan **Betalningsavstämningsjournal** att visa alla nya utb
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Tillämpa betalningar automatiskt och jämka bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg ](ui-extensions.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

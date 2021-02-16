@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e64ee514f8b837f2c9e1114511122bcf6e160a64
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923050"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746572"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  
@@ -61,7 +61,7 @@ Du anger dessa inställningar genom att söka efter **kassaflödeskonton**, väl
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurera kassaflödesprognoser.
 Diagrammet **kassaflödesprognos** använder kassaflödeskonton, kassaflödesinställningar för kassaflödesprognoser. Vissa tillhandahålls, men du kan ställa in egna med hjälp av en assisterade konfigurationsguiden. Guiden hjälper dig att ange saker som till exempel hur ofta du uppdaterar prognosen, kontona som du vill basera den på, information om när du betalar skatter och om du ska använda [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Kassaflödesprognoser kan använda Azure AI för att förutsäga framtida dokument. Resultatet blir en mer omfattande prognos. Anslutningen till Azure AI redan ställts in åt dig. Du måste aktivera den. När du loggar in i [!INCLUDE[d365fin](includes/d365fin_md.md)], visas ett meddelande i en blå stapel och innehåller en länk till standardinställning för kassaflödesinställningen. Meddelandet visas endast en gång. Om du stänger den och bestämmer dig för att aktivera Azure AI använder du den assisterade inställningsguiden eller en manuell process.  
+Kassaflödesprognoser kan använda Azure AI för att förutsäga framtida dokument. Resultatet blir en mer omfattande prognos. Anslutningen till Azure AI redan ställts in åt dig. Du måste aktivera den. När du loggar in i [!INCLUDE[prod_short](includes/prod_short.md)], visas ett meddelande i en blå stapel och innehåller en länk till standardinställning för kassaflödesinställningen. Meddelandet visas endast en gång. Om du stänger den och bestämmer dig för att aktivera Azure AI använder du den assisterade inställningsguiden eller en manuell process.  
 
 > [!NOTE]  
 >   Du kan alternativt använda förebyggande webbtjänsten. Mer information finns i [skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser](#AnchorText).  
@@ -84,7 +84,7 @@ Så här använder du en manuell process:
 >   Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Azure AI inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  
 
 ## <a name="design-details"></a>Designinformation
-Prenumerationer på [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar åtkomst till ett flertal prediktiva webbtjänster i alla regioner där [!INCLUDE[d365fin](includes/d365fin_md.md)] finns tillgängligt. Mer information finns i Licensieringsguiden för Microsoft Dynamics 365 Business Central. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Prenumerationer på [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar åtkomst till ett flertal prediktiva webbtjänster i alla regioner där [!INCLUDE[prod_short](includes/prod_short.md)] finns tillgängligt. Mer information finns i Licensieringsguiden för Microsoft Dynamics 365 Business Central. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Dessa webbtjänster är tillståndslösa, vilket innebär att de endast använder data för att beräkna förutsägelser vid behov. Inga data lagras.
 
@@ -99,21 +99,21 @@ Fälten **Förfallodatum** och **Belopp (BVA)** på sidan **Transaktioner för k
 - Dokumenttypen är Faktura eller Kreditnota.
 - Förfallodatumet infaller mellan det datum som beräknas baserat på värdena i fälten **Historiska perioder** och **Periodtyp** på sidan **Inställningar för kassaflöde** och arbetsdatum.
 
-Innan du använder den förutsägbara webb-tjänsten komprimerar [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Förfallodatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
+Innan du använder den förutsägbara webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Förfallodatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
 #### <a name="payables"></a>Leverantörsreskontra:
 Fälten **Förfallodatum** och **Belopp (BVA)** på sidan **Transaktioner för leverantörsreskontra**, där:
 - Dokumenttypen är "Faktura" eller "Kreditnota".
 - Förfallodatumet infaller mellan det datum som beräknas baserat på värdena i fälten **Historiska perioder** och **Periodtyp** på sidan **Inställningar för kassaflöde** och arbetsdatum.
 
-Innan du använder den förutsägbara webb-tjänsten komprimerar [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Förfallodatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
+Innan du använder den förutsägbara webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Förfallodatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
 #### <a name="tax"></a>Moms:
 Fälten **Dokumentdatum** och **Belopp** på sidan **Transaktioner för moms**, där:
 - Dokumenttypen är Försäljning".
 - Dokumentdatumet infaller mellan det datum som beräknas baserat på värdena i fälten **Historiska perioder** och **Periodtyp** på sidan **Inställningar för kassaflöde** och arbetsdatum.
 
-Innan du använder den förutsägbara webb-tjänsten komprimerar [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Dokumentdatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
+Innan du använder den förutsägbara webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Dokumentdatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser
 Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän modell kallad **Prognosmodell för Microsoft Business Central**. Den här förebyggande modellen finns online i Azure AI-galleriet. För att använda modellen gör du följande:  
@@ -131,4 +131,4 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 ## <a name="see-also"></a>Se även
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

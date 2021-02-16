@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910761"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746647"
 ---
 # <a name="setting-up-cost-accounting"></a>Ställa in kostnadsredovisning
 Innan du börjar arbeta med kostnadsredovisning, måste du utföra inställningsuppgifter.
@@ -61,9 +61,9 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
 1.  Markera om du vill att planen över kostnadstyper automatiskt ska uppdateras när kontoplanen ändras på sidan **Inställningar för kostnadsredovisning**.  
 2.  I fältet **Justera redovisningskonto** kan du välja något av följande alternativ.  
 
-- **Ingen justering** - Ingen motsvarande ändring görs i planen över kostnadstyper när du ändrar kontoplanen.  
-- **Automatisk** - Det görs en motsvarande ändring i planen över kostnadstyper när du ändrar kontoplanen.  
-- **Fråga** - Ett meddelande visas och frågar om du vill göra en motsvarande ändring i planen över kostnadstyper när du ändrar kontoplanen.
+- **Ingen justering** – Ingen motsvarande ändring görs i planen över kostnadstyper när du ändrar kontoplanen.  
+- **Automatisk** – Det görs en motsvarande ändring i planen över kostnadstyper när du ändrar kontoplanen.  
+- **Fråga** – Ett meddelande visas och frågar om du vill göra en motsvarande ändring i planen över kostnadstyper när du ändrar kontoplanen.
 
 ## <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definiera relationen mellan kostnadstyper och redovisningskonton
 Relationen mellan kostnadstypen och redovisningskontot skapas i kostnadstypen och i redovisningskontot.  
@@ -87,8 +87,8 @@ Det finns en många till en-relation mellan kostnadstyper och redovisningskonton
 En kostnadstyp kan inte ha en koppling till redovisningskonton, om ett av följande villkor gäller:  
 
 * Konton för rörelseredovisning, till exempel Beräkna ränta och avskrivning, tar endast kostnader från rörelseredovisningen.  
-* Hjälpkostnadstyper, till exempel kostnadstyper 9901, 9902 och 9903 i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)] används som kredit- och debetkonton för fördelningar.  
-* Hjälpkontot 9920 i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller faktiska periodiseringar som visar skillnaden mellan kostnader och utgifterna från redovisningen.
+* Hjälpkostnadstyper, till exempel kostnadstyper 9901, 9902 och 9903 i databasen [!INCLUDE[prod_short](includes/prod_short.md)] används som kredit- och debetkonton för fördelningar.  
+* Hjälpkontot 9920 i databasen [!INCLUDE[prod_short](includes/prod_short.md)] innehåller faktiska periodiseringar som visar skillnaden mellan kostnader och utgifterna från redovisningen.
 
 ## <a name="setting-up-cost-centers"></a>Lägga upp kostnadsställen
 Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Planen för kostnadsställen liknar dimensionsinformationen för redovisningen. Du kan definiera planen för kostnadsställen på följande sätt:  
@@ -157,7 +157,7 @@ Du kan lägga upp och underhålla kostnadsbärare antingen i kortet **Kort för 
 >  Om du har angett definitioner i fälten **Summa från/till** för **Till-summa** för kostnadsbärare innan du kör indragsfunktionen måste du ange dessa igen. Funktionen ersätter värdena i alla fält för **slutsummor**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definiera kostnadsställen och kostnadsbärare för kontoplanen
-Du kan automatiskt överföra kostnads- och intäktstransaktioner från redovisningen till kostnadsredovisningen antingen för varje redovisningsbokföring eller med ett batch-jobb. När du gör överföringen överför, [!INCLUDE[d365fin](includes/d365fin_md.md)] endast de transaktioner som redan är länkade till ett kostnadsställe eller en kostnadsbärare. Om du vill skapa en meningsfullt överföring måste du kontrollera att kostnadsställena och kostnadsbärarna definierats korrekt.  
+Du kan automatiskt överföra kostnads- och intäktstransaktioner från redovisningen till kostnadsredovisningen antingen för varje redovisningsbokföring eller med ett batch-jobb. När du gör överföringen överför, [!INCLUDE[prod_short](includes/prod_short.md)] endast de transaktioner som redan är länkade till ett kostnadsställe eller en kostnadsbärare. Om du vill skapa en meningsfullt överföring måste du kontrollera att kostnadsställena och kostnadsbärarna definierats korrekt.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Ange standarddimensionsvärden för redovisningskonton  
 För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **Standarddimension**. Följande exempel visar hur du anger att det alltid ska finnas ett kostnadsställe för avdelningen, men aldrig är en kostnadsbärare för ett projekt när du bokför på ett redovisningskonto.  
@@ -182,4 +182,4 @@ För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
 [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
 [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

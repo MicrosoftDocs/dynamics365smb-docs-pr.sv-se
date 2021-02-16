@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd2d5e39edb82ebf8720b4ad98f490fa851ed2b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7e50370c73085f3e0e86e3956a1b3c5a07390094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921848"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746422"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
 Alla koncerninterna transaktioner som du tar emot elektroniskt från dina koncerninterna partner visas i den koncerninterna inkorgen.  
@@ -72,7 +72,7 @@ När koncerninterna partner skickar koncerninterna transaktioner hamnar de i den
 3. På sidan **Slutför konc.int. inkorgsåtg.** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj knappen **OK**.  
 
-Rader som du har behandlats med åtgärden**acceptera** kommer dokument eller journalrader att skapas i företaget. Öppna varje dokument eller journal, gör nödvändiga ändringar och bokför.  
+Rader som du har behandlats med åtgärden **acceptera** kommer dokument eller journalrader att skapas i företaget. Öppna varje dokument eller journal, gör nödvändiga ändringar och bokför.  
 
 Rader som du har behandlats med åtgärden **returnera till partner** ska flyttas till utkorgen från där du kan sedan skicka dem till partnern.
 
@@ -104,4 +104,4 @@ Den här proceduren beskriver hur du återskapar inkorgstransaktioner, men det f
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8343a4169c127abdcee18a0a2e15cbc5f6b2b7c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: faa5b0f7ffc30d0f575f9b6e61d925f9606b4581
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924109"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750661"
 ---
 # <a name="update-standard-costs"></a>Uppdatera standardkostnader
 Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln. Processen består typiskt av följande fyra steg:  
@@ -29,7 +29,7 @@ Du måste regelbundet uppdatera standardkostnader för komponenter och överför
 
 Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).  
 ## <a name="to-update-standard-costs"></a>Uppdatera standardkostnader  
-1.  Kör batch-jobbet **Justera kost. - artikeltrans.**  
+1.  Kör batch-jobbet **Justera kost. – artikeltrans.**  
 2.  Kör batch-jobbet **Bokför lagerkostnad i redov.**  
 3.  Öppna **Standardkostnadsformulär** och använd en eller flera av följande funktioner:  
 
@@ -46,4 +46,4 @@ Mer information finns i [Om att beräkna standardkostnad](finance-about-calculat
  [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)   
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md) [Finans](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

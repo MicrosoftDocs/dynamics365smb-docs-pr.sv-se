@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910161"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748024"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Ställa in arbetstimmar och tjänstetider
-Ett tjänstehanteringssystem spårar vanligtvis resurstid och serviceorderstatus för prognostisering av arbetsbelastning och servicebehov. [!INCLUDE[d365fin](includes/d365fin_md.md)] har inbyggda verktyg som du kan anpassa om du vill registrera den här typen av information.  
+Ett tjänstehanteringssystem spårar vanligtvis resurstid och serviceorderstatus för prognostisering av arbetsbelastning och servicebehov. [!INCLUDE[prod_short](includes/prod_short.md)] har inbyggda verktyg som du kan anpassa om du vill registrera den här typen av information.  
   
 När du har ställt in standardtjänsttid för företaget kan du beräkna svarstid för serviceorder eller skicka varningar eller aviseringar när servicesamtal kommer in. Aviseringsfunktionen implementeras tillsammans med projektschemat.   
   

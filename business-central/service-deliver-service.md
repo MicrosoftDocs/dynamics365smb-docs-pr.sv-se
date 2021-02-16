@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910386"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748061"
 ---
 # <a name="delivering-service"></a>Leverera service
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
   
 Ett annat sätt att granska väntande serviceorder är att använda sidan **Serviceuppgifter**. I den här vyn över dina serviceåtaganden kan du se var någonstans i arbetsflödet som en order befinner sig och ändra status så att den återspeglar kontakterna med kunden.  
   
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
-Ett tjänstehanteringsprogram måste kunna hantera kunders serviceförfrågningar. Denna förfrågan omvandlas vanligtvis till en serviceorder. [!INCLUDE[d365fin](includes/d365fin_md.md)] ger verktyg för att skapa en order både som ett direkt svar på en kundfråga eller som en del i kontraktsprocess, om programmet har ställts in på det sättet.  
+Ett tjänstehanteringsprogram måste kunna hantera kunders serviceförfrågningar. Denna förfrågan omvandlas vanligtvis till en serviceorder. [!INCLUDE[prod_short](includes/prod_short.md)] ger verktyg för att skapa en order både som ett direkt svar på en kundfråga eller som en del i kontraktsprocess, om programmet har ställts in på det sättet.  
   
 Om det behövs kan du hantera ett låneartikelprogram för kunderna. Du kan också bestämma en prisstruktur, placera servicepriserbjudanden i logiska grupper och skapa prisjusteringar.  
   

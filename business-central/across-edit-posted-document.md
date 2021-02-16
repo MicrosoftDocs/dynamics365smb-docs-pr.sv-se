@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 870b629ea5f4cae25d81f5348b5d616508cb91c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753448"
 ---
 # <a name="edit-posted-documents"></a>Redigera bokförda dokument
 
@@ -43,7 +43,7 @@ Här följer en beskrivning av hur du redigerar en bokförd försäljningsutleve
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.
 2. Markera dokumentet som du vill redigera och välj åtgärden **Uppdatera dokument**. Du kan också öppna dokumentet och välja åtgärden.
-3. På sidan **Bokförd försäljningsutleverans - Uppdatera** redigerar du fältet för **Godsupplysningsnr** till exempel.
+3. På sidan **Bokförd försäljningsutleverans – Uppdatera** redigerar du fältet för **Godsupplysningsnr** till exempel.
 4. Välj **OK**.
 
 Den bokförda försäljningsutleveransen uppdateras.
@@ -53,4 +53,4 @@ Den bokförda försäljningsutleveransen uppdateras.
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

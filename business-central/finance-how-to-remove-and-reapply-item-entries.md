@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915591"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750686"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -36,7 +36,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 > Ta hänsyn till följande viktiga punkter i arbetet med kopplingsformulär:
     - Du bör inte lämna bortkopplade kopplingstransaktioner för långa perioder, eftersom andra användare inte kan behandla artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger sidan **Kopplingsformulär**. Användare som försöker utföra åtgärder som omfattar en kopplingstransaktion som tagits bort manuellt, får felmeddelande följande: ”Du inte kan utföra den här åtgärden, eftersom transaktioner för artiklar XXX tagits bort i kopplingsformuläret av användaren XXX. ”
     - Omkopplingen av artikeltransaktionerna bör göras utanför normal arbetstid, så att eventuella konflikter med användare som bokför transaktioner med samma artiklar kan undvikas.
-    - När kopplingsformuläret stängs utför [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll för att säkerställa att alla transaktioner har kopplats. Om en antalskoppling till exempel tas bort utan att någon ny koppling skapas, skapas en ny koppling när kopplingsformuläret stängs. På så sätt förblir kostnaden intakt. Observera dock att ingen ny fast koppling skapas automatiskt i programmet när kalkylarket stängs, om en fast koppling har tagits bort. Detta måste göras manuellt genom att skapa en ny koppling i kalkylarket.
+    - När kopplingsformuläret stängs utför [!INCLUDE[prod_short](includes/prod_short.md)] en kontroll för att säkerställa att alla transaktioner har kopplats. Om en antalskoppling till exempel tas bort utan att någon ny koppling skapas, skapas en ny koppling när kopplingsformuläret stängs. På så sätt förblir kostnaden intakt. Observera dock att ingen ny fast koppling skapas automatiskt i programmet när kalkylarket stängs, om en fast koppling har tagits bort. Detta måste göras manuellt genom att skapa en ny koppling i kalkylarket.
     - Det går att ta bort kopplingar från mer än en transaktion åt gången i kopplingsformuläret. Det går däremot inte att skapa en koppling för mer än en transaktion åt gången, eftersom kopplingen påverkar uppsättningen transaktioner som kan kopplas.
     - I följande fall kan ingen koppling utföras i kopplingsformuläret: Om det inte finns tillräckligt med antal i lager för kopplingen, utförs ingen koppling i kopplingsformuläret när användaren försöker att koppla en transaktion för en lagerminskning utan artikelspårningsinformation till en transaktion för en lagerökning med artikelspårningsinformation.
 
@@ -70,11 +70,11 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 
     > [!NOTE]  
     >  Om du valt att göra en koppling utan att veta om att kopplingen medför att en oändlig loop skapas i kostnadsjusteringsprocessen utförs inte kopplingen du föreslagit. Det här kan ske när de ursprungliga transaktionerna har genererat ett negativt lager. Kopplingen utförs inte. Därför måste du välja en annan transaktion för kopplingen.  
-6.  Om fältet **Automatisk kostnadsjustering** har värdet **Alltid** i **Lagerinställningar**, körs batch-jobbet för kostnadsjustering automatiskt i programmet när en omkoppling har gjorts. Kör annars batch-jobbet **Justera kost. - artikeltrans** för att säkerställa att samtliga kostnader är aktuella.  
+6.  Om fältet **Automatisk kostnadsjustering** har värdet **Alltid** i **Lagerinställningar**, körs batch-jobbet för kostnadsjustering automatiskt i programmet när en omkoppling har gjorts. Kör annars batch-jobbet **Justera kost. – artikeltrans** för att säkerställa att samtliga kostnader är aktuella.  
 
 ## <a name="see-also"></a>Se även  
 [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

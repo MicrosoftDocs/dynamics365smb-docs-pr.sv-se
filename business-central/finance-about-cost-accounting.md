@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8628953230b27ae84ee363d41c43873c81cb11c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1e65f73e0c876cd19750d88144e93c1157268e28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919565"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751061"
 ---
 # <a name="about-cost-accounting"></a>Om kostnadsredovisning
 Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera:  
@@ -37,7 +37,7 @@ Kostnadsredovisning har följande huvudkomponenter:
 
 Diagrammet beskriver arbetsflödet för kostnadsredovisning.  
 
-![Kostnadsredovisning - översikt](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kostnadsredovisning – översikt](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostnadstyper, kostnadsställen och kostnadsbärare  
 Du definierar kostnadstyper, kostnadsställen och kostnadsbärare för att analysera vad kostnaderna är, var kostnader kommer ifrån och vem som ska bära kostnaderna.  
@@ -72,4 +72,4 @@ De flesta rapporter och statistik baseras på de bokförda kostnadstransaktioner
  [Redovisa kostnader](finance-manage-cost-accounting.md)  
  [Ekonomi](finance.md)   
  [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

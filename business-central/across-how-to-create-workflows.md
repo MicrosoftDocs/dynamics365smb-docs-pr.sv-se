@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915891"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754798"
 ---
 # <a name="create-workflows"></a>Skapa arbetsflöden
 Du kan skapa arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
 På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar med svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
 
-När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den generiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden för arbetsflödesmallar som läggas till av Microsoft har prefixet ”MS-”, till exempel "MS-PIW”. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
+När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Koden för arbetsflödesmallar som läggas till av Microsoft har prefixet ”MS-”, till exempel "MS-PIW”. Mer information finns i [Skapa arbetsflöden genom att använda arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte stöds måste en Microsoft-partner implementera dem genom att anpassa applikationskoden.  
 
@@ -46,7 +46,7 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
     Om arbetsflödeshändelsen är ändringen av ett visst fält i en post, då öppnas sidan **Händelsevillkor** med alternativ för att markera fältet och typen av ändring.  
 
     1.  Så här anger du en fältändring för händelsen: i sidan **Händelsevillkor**, i fältet **Fält**, markerar du det fält som ska ändras.  
-    2.  Välj antingen **Minskad**, **Ökad**eller **Ändrad** i fältet **Operatör**.  
+    2.  Välj antingen **Minskad**, **Ökad** eller **Ändrad** i fältet **Operator**.  
 9. I fältet **Sedan svar** anger du svaret som ska följa när arbetsflödeshändelsen inträffar.  
 
      När du väljer fältet öppnas sidan **Arbetsflödessvar** där du kan välja mellan alla arbetsflödessvar som finns och ange svarsalternativ för det valda svaret.  
@@ -59,8 +59,8 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
         |**Meddela avsändare**|Ange om den som har fått godkännandet ska meddelas i stället för mottagaren om godkännandeförfrågan. Om du markerar kryssrutan inaktiveras fältet **Mottagarens användar-ID** eftersom den som skickar godkännandet kommer att meddelas i stället. Namnet på arbetsflödessvar ändras enligt detta till **skapa ett meddelande för &lt;avsändaren&gt;**. Om kryssrutan inte är markerad kan namnet på arbetsflödetssvar **skapa ett meddelande för &lt;användaren&gt;**.
         |**Mottagarens användar-ID**|Ange den användare som meddelande ska skickas till. Obs! Alternativet är bara tillgängligt för arbetsflödesvar med en platshållare för en specifik användare. För arbetsflödesvar utan platshållare för användare definieras meddelandemottagaren vanligtvis av inställningen av godkännandeanvändare.|  
         |**Transaktionstyp för meddelande**|Anger om arbetsflödesmeddelandet utlöses av en poständring, en begäran om godkännande eller en data som har passerats.|
-        |**Målsida för länk**|Ange en annan sida i [!INCLUDE[d365fin](includes/d365fin_md.md)] som länken i meddelandet öppnar i stället för standardsidan.<br /><br />Observera att sidan måste ha samma källtabell som posten.|  
-        |**Anpassad länk**|Ange URL-adressen till en länk som läggs till i meddelandet utöver länken till sidan i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Målsida för länk**|Ange en annan sida i [!INCLUDE[prod_short](includes/prod_short.md)] som länken i meddelandet öppnar i stället för standardsidan.<br /><br />Observera att sidan måste ha samma källtabell som posten.|  
+        |**Anpassad länk**|Ange URL-adressen till en länk som läggs till i meddelandet utöver länken till sidan i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa en godkännandebegäran.  
 
         |Fält|Description|  

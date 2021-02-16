@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915491"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750136"
 ---
 # <a name="set-up-intercompany"></a>Koncerninterna inställningar
+
 Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
 
 Du måste också ställa in en koncernintern partnerkod för varje partnerföretag som godtas av alla företag, och sedan tilldela dem till kundkort respektive leverantörskort genom att fylla i fältet **koncernintern partnerkod**.  
@@ -36,7 +37,7 @@ Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår 
 3. På sidan **Koncerninterna partners** fyller du i fälten efter behov.
 
 > [!NOTE]
-> I [!INCLUDE[d365fin](includes/d365fin_md.md)] online kan du inte använda filplats för att överföra transaktioner till dina partners eftersom [!INCLUDE[d365fin](includes/d365fin_md.md)] inte har åtkomst till ditt lokala nätverk. Om du väljer **Filplats** i fältet **Överföringstyp** kommer fältet **Mappsökväg** inte att vara tillgängligt. Filen kommer istället att laddas ned till mappen Hämtningar på din dator. Du kan sedan skicka filen till någon i partnerföretaget, exempelvis via e-post. För en mer direkt process rekommenderar vi att du väljer **E-postmeddelande** istället.
+> I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du inte använda filplats för att överföra transaktioner till dina partners eftersom [!INCLUDE[prod_short](includes/prod_short.md)] inte har åtkomst till ditt lokala nätverk. Om du väljer **Filplats** i fältet **Överföringstyp** kommer fältet **Mappsökväg** inte att vara tillgängligt. Filen kommer istället att laddas ned till mappen Hämtningar på din dator. Du kan sedan skicka filen till någon i partnerföretaget, exempelvis via e-post. För en mer direkt process rekommenderar vi att du väljer **E-postmeddelande** istället.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Så här ställer du in koncerninterna leverantörer och koncerninterna kunder
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
@@ -90,7 +91,11 @@ När du anger ett redovisningskonto i fältet **Balanskontonr** på en koncernin
 3. Upprepa steg 2 för varje konto som du ofta anger i fältet **Balanskontonr** på en rad i en koncernintern journal eller i ett koncerninternt dokument.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Så här ställer du in koncerninterna dimensioner
+
 Om du och dina koncerninterna partner vill kunna utbyta transaktioner med tillhörande dimensioner måste ni komma överrens om de dimensioner som ni alla kommer att använda. Koncernens moderbolag kan till exempel skapa en förenklad version av sin uppsättning dimensioner, exportera de som koncerninterna dimensioner till en XML-fil och distribuera den till företagen i koncernen. Varje dotterbolag importerar sedan XML-filen till sidan **Koncerninterna dimensioner** och kopplar de koncerninterna dimensionerna till dimensionerna i deras egen **Dimensions**-sida.  
+
+> [!NOTE]
+> Varje företag i [!INCLUDE [prod_short](includes/prod_short.md)] måste mappa dimensioner till koncerninterna dimensioner för utgående dokument, samt mappa koncerninterna dimensioner till sina egna dimensioner för inkommande dokument. Denna mappning hjälper till att säkerställa konsekvensen i de olika företagen. Mer information finns i avsnittet [Mappa koncerninterna dimensioner till företagets dimensioner](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Om ditt företag är moderbolaget och har den definierande uppsättningen koncerninterna dimensioner som koncernen ska använda som en gemensam referens följer du proceduren: [Definiera koncerninterna dimensioner](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ När det finns en fil för den definierande koncerninterna dimensionerna, kan ko
 Raderna på sidan **Konc.int. dimensioner** och på sidan **Konc.int. dimensionsvärden** importeras.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Så här kopplar du koncerninterna dimensioner till företagets dimensioner
-När du har definierat eller importerat dimensionerna som du och de koncerninterna partnerna har kommit överens om att använda, måste du koppla varje koncernintern dimension till någon av företagets dimensioner och tvärtom. På sidan **Konc.int. dimensioner** anger du hur de koncerninterna dimensionerna i inkommande transaktioner ska översättas till dimensioner från företagets lista över dimensioner. På sidan **Dimension** anger du hur företagets dimensioner ska översättas till koncerninterna dimensioner i utgående transaktioner.
+När du har definierat eller importerat dimensionerna som du och de koncerninterna partnerna har kommit överens om att använda, måste du koppla varje koncernintern dimension till någon av företagets dimensioner och tvärtom. På sidan **Koncerninterna dimensioner** anger du hur koncerninterna dimensioner i *inkommande transaktioner* ska översättas till dimensioner från företagets lista över dimensioner. På sidan **Dimensioner** anger du hur företagets dimensioner ska översättas till koncerninterna dimensioner i *utgående transaktioner*.
 
-Om några av de koncerninterna dimensionerna har samma koder som motsvarande dimensioner i företagets lista över dimensioner kan du låta dimensionerna kopplas automatiskt och sedan kan du koppla kontona automatiskt.
+Om några av de koncerninterna dimensionerna har samma koder som motsvarande dimensioner i företagets lista över dimensioner kan du låta dimensionerna kopplas automatiskt och sedan kan du koppla kontona automatiskt.  
+
+I följande steg mappar du först koncerninterna dimensioner till dimensioner för inkommande dokument på sidan **Koncerninterna dimensioner**. Därefter mappar du dimensioner till koncerninterna dimensioner för utgående dokument på sidan **Dimensioner**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna dimensioner** och välj sedan relaterad länk.
 2. På sidan **konc. int. dimensioner** markerar du de rader som du vill koppla automatiskt och väljer sedan åtgärden **Koppla till dimension med samma kod**.
@@ -133,8 +140,9 @@ Om några av de koncerninterna dimensionerna har samma koder som motsvarande dim
 10. På sidan **Konc. int. dimensionsvärden** fyller du i fältet **Koppla till konc.int. dimensionsvärdekod**.
 
 ## <a name="see-also"></a>Se även
+
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

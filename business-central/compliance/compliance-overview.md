@@ -12,16 +12,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 7fb48d888153e9ad77666abf4ca09f6cb429772d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e0ffc9680d421a0b39f00eae577c80206de639b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921003"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751961"
 ---
 # <a name="compliance"></a>Regelefterlevnad
 
-Det här innehållet anger information om regelefterlevnad i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Det här innehållet anger information om regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 Regelefterlevnad är ett ämne med ökat intresse och genom utvecklingen av Business Central har vi sett till att produkten bemyndigar kunder och partners på bred nivå och att inte införa blockeringar med avseende på regelefterlevnad. Däremot Business Central innehåller funktioner och bygger på en plattform som gör det enkelt för kunder i enlighet med regelefterlevnad och andra bestämmelser.
 
@@ -34,4 +34,4 @@ I det här avsnittet kan du läsa mer om vår metod för regelefterlevnad ur per
 |Visa information om olika certifieringar relaterade till Business Central. Här hittar du information om allmänna certifieringar och landsspecifika certifikat.|[Intyg](compliance-certifications.md)|  
 |Lär dig mer om villkor för servicenivåavtal och andra villkor för servicen|[Tjänstvillkor](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

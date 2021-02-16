@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924273"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751411"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kända problem med artikelkopplingar
-Denna artikel adresserar problem där lagernivån är noll fastän öppna artikeltransaktioner finns i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Denna artikel adresserar problem där lagernivån är noll fastän öppna artikeltransaktioner finns i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Artikeln börjar med att lista vanliga symptom på problemet, följt av grunderna för artikelkoppling för att ge stöd åt de beskrivna orsakerna till detta problem. I slutet av artikeln finns en problemlösning med syfte att adressera sådana öppna artikeltransaktioner.  
 
@@ -27,7 +27,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 
 -   Följande meddelande visas när du försöker stänga en lagerperiod: ”Lagret kan inte stängas eftersom lagersaldot är negativt för en eller flera artiklar.”  
 
--   En bokföringssituation för artikeltransaktioner där både en avgående artikeltransaktion och dess relaterade, ankommande artikeltransaktion är öppna.  
+-   En bokföringssituation för artikeltransaktioner där både en utgående artikeltransaktion och dess relaterade, inkommande artikeltransaktion är öppna.  
 
      Se följande exempel på en situation med en artikeltransaktion.  
 
@@ -39,9 +39,9 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 ## <a name="basics-of-item-application"></a>Grunderna för artikelkoppling  
  En artikelkopplingstransaktion skapas för varje lagertransaktion avsedd att koppla kostnadsmottagaren till kostnadskällan så att kostnaden kan vidarebefordras enligt värderingsprincipen. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md).  
 
--   Artikelkopplingstransaktionen skapas för en ankommande artikeltransaktionen när artikeltransaktionen skapas.  
+-   Artikelkopplingstransaktionen skapas för en inkommande artikeltransaktionen när artikeltransaktionen skapas.  
 
--   För en artikelkopplingstransaktion skapas artikelkopplingstransaktionen när artikeltransaktionen bokförs, OM det finns en öppen ankommande artikeltransaktion med en disponibel kvantitet att tillgå. Om det inte finns några öppna ankommande artikeltransaktioner att tillgå förblir den avgående artikeltransaktionen öppen tills en ankommande artikeltransaktion att tillgå bokförs.  
+-   För en artikelkopplingstransaktion skapas artikelkopplingstransaktionen när artikeltransaktionen bokförs, OM det finns en öppen inkommande artikeltransaktion med en disponibel kvantitet att tillgå. Om det inte finns några öppna inkommande artikeltransaktioner att tillgå förblir den utgående artikeltransaktionen öppen tills en inkommande artikeltransaktion att tillgå bokförs.  
 
  Det finns två typer av artikelkopplingar:  
 
@@ -59,10 +59,10 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
  Observera att artikeltransaktion 1 ovan (inköp) är både artikelns leverantör och kostnadskälla för den kopplade artikeltransaktionen, Artikeltransaktion 2 (försäljning).  
 
 > [!NOTE]  
->  Om den avgående artikeltransaktionen värderas via genomsnittskostnaden är tillämpad ankommande artikeltransaktion inte unik kostnadskälla. Den spelar bara en roll för beräkningen av genomsnittskostnaden för perioden.  
+>  Om den utgående artikeltransaktionen värderas via genomsnittskostnaden är tillämpad inkommande artikeltransaktion inte unik kostnadskälla. Den spelar bara en roll för beräkningen av genomsnittskostnaden för perioden.  
 
 ### <a name="cost-application"></a>Kost.koppling  
-Kostnadskopplingar skapas endast för ankommande transaktioner där fältet **Koppla från artikellöpnr** fylls i för att skapa en fast koppling. Detta inträffar vanligen i samband med en försäljningskreditnota eller ett annullerat utleveransscenario. Kostnadskopplingen innebär att artikeln återinträder i lagret till samma kostnad som när den levererades.  
+Kostnadskopplingar skapas endast för inkommande transaktioner där fältet **Koppla från artikellöpnr** fylls i för att skapa en fast koppling. Detta inträffar vanligen i samband med en försäljningskreditnota eller ett annullerat utleveransscenario. Kostnadskopplingen innebär att artikeln återinträder i lagret till samma kostnad som när den levererades.  
 
 I följande diagram visas hur kostnadstillämpningar skapas.  
 
@@ -71,7 +71,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 |333|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
 |334|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|1|10|1|1|Ja|  
 
- Observera ovan att den ankommande artikeltransaktionen 3 (försäljningsreturorder) är en kostnadsmottagare för den ursprungliga avgående artikeltransaktionen 2 (försäljning).  
+ Observera ovan att den inkommande artikeltransaktionen 3 (försäljningsreturorder) är en kostnadsmottagare för den ursprungliga utgående artikeltransaktionen 2 (försäljning).  
 
 ## <a name="illustration-of-a-basic-cost-flow"></a>Bild av ett grundläggande kostnadsflöde  
  Anta ett fullständigt kostnadsflöde där en artikel inlevereras, levereras och faktureras, returneras med exakt\-kostnadsåterföring, och sedan skickas igen.  
@@ -106,7 +106,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  För scenario 2, identifiera problemet på något av följande sätt:  
 
--   Sök efter en öppen utgående artikeltransaktion och en ankommande artikeltransaktionen med samma nummer i fältet **Dokumentnr.**, och Ja i fältet **Korrigering**. Se följande exempel på en sådan situation med en artikeltransaktion.  
+-   Sök efter en öppen utgående artikeltransaktion och en inkommande artikeltransaktionen med samma nummer i fältet **Dokumentnr.**, och Ja i fältet **Korrigering**. Se följande exempel på en sådan situation med en artikeltransaktion.  
 
 |Löpnr|Bokföringsdatum|Transaktionstyp|Dokumenttyp|Dokumentnummer|Artikelnummer|Platskod|Antal|Kost.belopp (aktuellt)|Fakturerat antal|Återstående antal|Öppna|Rättningstransaktion|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
@@ -126,16 +126,16 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
 3.  Analysera artikelkopplingstransaktionen, med hänsyn tagen till följande:  
 
-     Om fältet **Avgående artikeltrans.nr** fylls i för en ankommande artikeltransaktion (positiv kvantitet) innebär det att den ankommande artikeltransaktionen är kostnadsmottagare för den avgående artikeltransaktionen.  
+     Om fältet **utgående artikeltrans.nr** fylls i för en inkommande artikeltransaktion (positiv kvantitet) innebär det att den inkommande artikeltransaktionen är kostnadsmottagare för den utgående artikeltransaktionen.  
 
      Se följande exempel på en situation med en artikeltillämpning.  
 
-     |Löpnr|Artikeltrans.löpnr|Ankommande artikeltrans.nr|Avgående artikeltrans.nr|Antal|Bokföringsdatum|Kost.koppling|  
+     |Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|Bokföringsdatum|Kost.koppling|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|2018-01-28|Ja|  
 <!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
- Observera ovan att ankommande artikeltransaktion 334 är kostnader som har kopplats till avgående artikeltransaktion 333.  
+ Observera ovan att inkommande artikeltransaktion 334 är kostnader som har kopplats till utgående artikeltransaktion 333.  
 
 ## <a name="workaround-for-the-issue"></a>Åtgärda problemet  
  På sidan **Artikeljournal** bokför du följande rader för den aktuella artikeln:  
@@ -144,7 +144,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
 -   En negativ justering med samma kvantitet.  
 
-     Den här justeringen balanserar lagerökningen som orsakas av den positiva justeringen och stänger den öppna ankommande artikeltransaktionen.  
+     Den här justeringen balanserar lagerökningen som orsakas av den positiva justeringen och stänger den öppna inkommande artikeltransaktionen.  
 
  Resultatet blir att lagret är noll och alla artikeltransaktioner har avslutats.  
 

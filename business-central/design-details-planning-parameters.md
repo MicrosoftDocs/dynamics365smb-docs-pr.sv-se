@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer - Planeringsparametrar | Microsoft Docs
+title: Designdetaljer – Planeringsparametrar | Microsoft Docs
 description: I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b041eb6c573c9f50b09eb741ee2ceead154f8161
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921998"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751286"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
-I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Det sätt som planeringssystemet styr artikeltillgång bestäms av olika inställningar på artikelkortet eller lagerställeenheten, och inställningar i produktionskonfigurationen. Följande tabell visar hur parametrarna används för planering.  
 

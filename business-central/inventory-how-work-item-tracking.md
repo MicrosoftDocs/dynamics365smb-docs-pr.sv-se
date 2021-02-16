@@ -1,6 +1,6 @@
 ---
 title: Tilldela serienummer och partinummer till artiklar för spårning | Microsoft Docs
-description: Du kan lägga till serie- och partinummer till alla avgående och ankommande dokument och visa de bokförda artikelspårningstransaktionerna i de associerade artikeltransaktionerna.
+description: Du kan lägga till serie- och partinummer till alla utgående och inkommande dokument och visa de bokförda artikelspårningstransaktionerna i de associerade artikeltransaktionerna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921873"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746097"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeta med serienummer och partinummer
-Du kan tilldela serie- och partinummer till alla avgående och ankommande dokument och visa de bokförda artikelspårningstransaktionerna i de associerade artikeltransaktionerna. Du utför arbetet på sidan **Artikelspårningsrader** som du öppnar från ett inkommande eller utgående dokument.
+Du kan tilldela serie- och partinummer till alla utgående och inkommande dokument och visa de bokförda artikelspårningstransaktionerna i de associerade artikeltransaktionerna. Du utför arbetet på sidan **Artikelspårningsrader** som du öppnar från ett inkommande eller utgående dokument.
 
 I matrisen med antalsfält längst upp på fönstret **Artikelspårningsrader** visas antalen och summorna för artikelspårningsnummer som anges på raderna i fönstret. Antalen måste stämma överens med antalen på dokumentraden, som anges med 0 i fälten **Odefinierad**.
 
@@ -27,20 +27,20 @@ För att ge bättre prestanda samlas tillgänglighetsinformationen på sidan **A
 Artiklar med serienr eller partinr som kan spåras, antingen framåt eller bakåt i en försörjningskedja. Detta är användbart för allmän kvalitetssäkring och återkallade produkter. Mer information finns i [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Så här plockar du specifika serie-/partinummer i distributionslagret
-Avgående hantering av serie- eller partinummer är en vanlig uppgift i olika lagerprocesser.  
+utgående hantering av serie- eller partinummer är en vanlig uppgift i olika lagerprocesser.  
 
-I vissa processer har inte lagerartiklarna serie- eller partinummer och lagerarbetaren måste tilldela nya under den avgående hantering, vanligtvis från en fördefinierade nummerserier.
+I vissa processer har inte lagerartiklarna serie- eller partinummer och lagerarbetaren måste tilldela nya under den utgående hantering, vanligtvis från en fördefinierade nummerserier.
 
-I enkla processer har lagerartiklarna redan serie- eller partinummer, t.ex. tilldelade under införsel, och dessa nummer överförs automatiskt via alla avgående lageraktiviteter utan interaktioner av lagerarbetare.
+I enkla processer har lagerartiklarna redan serie- eller partinummer, t.ex. tilldelade under införsel, och dessa nummer överförs automatiskt via alla utgående lageraktiviteter utan interaktioner av lagerarbetare.
 
-I vissa situationer i lager med serie - eller partinummer definieras specifika serie- eller partinummer i källdokumentet, till exempel försäljningsorder, som lagerarbetaren måste respektera under den avgående lagerhanteringen. Det kan bero på att kunden valde ett visst parti under orderprocessen. När lagerplockningen eller dokumentet för dist.lager plockning skapas från ett utgående källdokument där serie- eller partinummer redan är definierade, är alla fält på sidan **Artikelspårningsrader** under lagerplockningen skrivskyddade, utom fältet **Ant. att hantera**. I detta fall anger lagerplockningsraderna artikelspårningsnumren på enskilda ta- och placerarader. Kvantiteten är redan uppdelad på unika kombinationer av serienummer eller partinummer eftersom de artikelspårningsnummer som ska levereras är specificerade på försäljningsordern.  
+I vissa situationer i lager med serie – eller partinummer definieras specifika serie- eller partinummer i källdokumentet, till exempel försäljningsorder, som lagerarbetaren måste respektera under den utgående lagerhanteringen. Det kan bero på att kunden valde ett visst parti under orderprocessen. När lagerplockningen eller dokumentet för dist.lager plockning skapas från ett utgående källdokument där serie- eller partinummer redan är definierade, är alla fält på sidan **Artikelspårningsrader** under lagerplockningen skrivskyddade, utom fältet **Ant. att hantera**. I detta fall anger lagerplockningsraderna artikelspårningsnumren på enskilda ta- och placerarader. Kvantiteten är redan uppdelad på unika kombinationer av serienummer eller partinummer eftersom de artikelspårningsnummer som ska levereras är specificerade på försäljningsordern.  
 
 ## <a name="item-tracking-availability"></a>Disposition av artikelspårning
-När du arbetar med parti- eller serienummer beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] dispositionsinformationen för parti- och serienumren på de olika artikelspårningssidorna. På så sätt kan du visa hur mycket av ett parti- eller serienummer som för närvarande används i andra dokument. Det minskar fel och osäkerhet som orsakas av dubbla fördelningar.
+När du arbetar med parti- eller serienummer beräknar [!INCLUDE[prod_short](includes/prod_short.md)] dispositionsinformationen för parti- och serienumren på de olika artikelspårningssidorna. På så sätt kan du visa hur mycket av ett parti- eller serienummer som för närvarande används i andra dokument. Det minskar fel och osäkerhet som orsakas av dubbla fördelningar.
 
 På sidan **Artikelspårningsrader** visas en varningsikon i fälten **Disposition, partinr** eller **Disposition, serienr** om en del av eller hela antalet som har valts redan används i andra dokument eller om parti- eller serienumret inte är disponibelt.
 
-På sidorna **partinummer-/serienummerlista**, **partinummer-/serienummerdisposition** och **Artikelspårning - Markera transaktioner** finns information om hur stor del av en artikels antal som utnyttjas. Följande information inkluderas.
+På sidorna **partinummer-/serienummerlista**, **partinummer-/serienummerdisposition** och **Artikelspårning – Markera transaktioner** finns information om hur stor del av en artikels antal som utnyttjas. Följande information inkluderas.
 
 |Fält|Description|
 |-----|-----------|  
@@ -61,9 +61,9 @@ Artikelspårningskoden reflekterar ett företags olika regler i samband med anv�
 4. På snabbflikarna **Serienr** och **Partinr** definieras principer för artikelspårning efter serie- respektive partinummer.  
 
 > [!NOTE]  
->  Om du vill spåra specifika artiklar eller specifika partier under hela sin livstid, måste du välja fälten **SN specifik spårning** och **Parti specifik spårning** respektive. Därför när du arbetar med en avgående enhet av en artikel till den här artikelspårningskoden måste du alltid ange vilket befintligt serienummer eller vilket befintligt partinummer som ska hanteras. Detta innebär att när en enhet av artikeln säljs, måste den kopplas till en specifik grupp med serienummer i lagret eller ett specifikt partinummer i lagret. Det serienummer eller partinummer som är kopplat till artikeln vid införseln i lagret måste således vara oförändrat för artikeltypen vid utförseln ur lagret.
+>  Om du vill spåra specifika artiklar eller specifika partier under hela sin livstid, måste du välja fälten **SN specifik spårning** och **Parti specifik spårning** respektive. Därför när du arbetar med en utgående enhet av en artikel till den här artikelspårningskoden måste du alltid ange vilket befintligt serienummer eller vilket befintligt partinummer som ska hanteras. Detta innebär att när en enhet av artikeln säljs, måste den kopplas till en specifik grupp med serienummer i lagret eller ett specifikt partinummer i lagret. Det serienummer eller partinummer som är kopplat till artikeln vid införseln i lagret måste således vara oförändrat för artikeltypen vid utförseln ur lagret.
 
-Eftersom det här inställningsfältet omfattar alla möjliga transaktioner med artikeln, markeras även de enskilda fälten för ankommande/avgående. Dessa individuella fält för ankommande/avgående har emellertid inget att göra med kopplingar i lagret, utan definierar bara företagets arbetsflöde i fråga om när artikelspårningsnummer ska kopplas.  
+Eftersom det här inställningsfältet omfattar alla möjliga transaktioner med artikeln, markeras även de enskilda fälten för inkommande/utgående. Dessa individuella fält för inkommande/utgående har emellertid inget att göra med kopplingar i lagret, utan definierar bara företagets arbetsflöde i fråga om när artikelspårningsnummer ska kopplas.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Så här skapar du utgångsregler för serie-/partinummer  
 För vissa artiklar kanske du vill definiera särskilda förfallodatum och -regler i artikelspårningskoden. På så sätt kan du hålla reda på när olika serie-/partinummer går ut.
@@ -89,30 +89,8 @@ För vissa artiklar kanske du vill definiera specifika garantier i artikelspårn
     |**Garanti datumformel**|Anger garantins sista dag för artikeln.|  
     |**Garantidatum ska anges.**|Anger att du manuellt måste ange ett garantidatum på artikelspårningsraden.|  
 
-## <a name="to-record-serial-or-lot-number-information"></a>Så här registrerar du information om serie- eller partinummer  
-Om du behöver koppla särskild information till ett visst artikelspårningsnummer, till exempel för kvalitetssäkring, kan du göra det på ett informationskort för serienummer eller partinummer.
-
-1. Öppna ett dokument som har serie-/partinummer tilldelas.
-2. Öppna sidan **Artikelspårningsrader** för dokumentet.
-3. Välj till exempel åtgärden **serienr. informationskort**.  
-
-    Fälten **Serienr** och **Partinr** fylls i på förhand med information från artikelspårningsraden.  
-4. Ange kortfattad information i fältet **Beskrivning**, t.ex. om villkoret för artikeln.  
-5. Välj åtgärden **Kommentar** för att skapa en separat kommentarspost.  
-6. Markera kryssrutan **Spärrad** om du vill utesluta serie- eller partinummer från alla transaktioner.  
-
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Så här ändras befintlig information om serie-/partinummer  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
-2. Markera en artikel som har en artikelspårningskod och serienr eller partinr information.
-3. Från sidan **artikelkort** väljer du åtgärden **transaktioner** och väljer **transaktioner**.
-4. Välj fältet **Partinr** , eller **Serienr**. Om information för artikelspårningsnumret finns öppnas sidan **Lista med partinr.information** eller **Lista med serienr.information**.  
-5. Välj ett kort och välj sedan åtgärden **Partinrinfo.kort/Serienr informationskort**.  
-6. Ändra den korta beskrivningstexten, kommentarsposten eller fältet **Spärrad**.  
-
-Du kan inte ändra serie- eller partinummer eller antal. För att kunna göra det måste du gruppera artikeltransaktionen i fråga. Mer information finns i [Omgruppera parti- eller serienummer](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
-
-## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Så här tilldelar du serie-/partinummer vid ankommande transaktioner  
-Ibland vill man i ett företag kunna spåra artiklar från det ögonblick då de ankommer till företaget. I detta fall utgör ofta inköpsordern det centrala dokumentet, även om du kan hantera artikelspårning från vilket ankommande dokument som helst och visa dokumentets bokförda transaktioner i de associerade artikeltransaktionerna.  
+## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Så här tilldelar du serie-/partinummer vid inkommande transaktioner  
+Ibland vill man i ett företag kunna spåra artiklar från det ögonblick då de ankommer till företaget. I detta fall utgör ofta inköpsordern det centrala dokumentet, även om du kan hantera artikelspårning från vilket inkommande dokument som helst och visa dokumentets bokförda transaktioner i de associerade artikeltransaktionerna.  
 
 De exakta reglerna för hantering av artikelspårningsnummer i företaget avgörs av inställningarna för sidan **Artikelspårning kodkort**.  
 
@@ -125,7 +103,7 @@ De exakta reglerna för hantering av artikelspårningsnummer i företaget avgör
     Du kan tilldela serie- eller partinummer på följande sätt:  
 
     -   Automatiskt, genom att välja **Tilldela serienr** eller **Tilldela partinr** så att serie-/partinummer tilldelas utifrån fördefinierade nummerserier.  
-    -   Automatiskt, genom att välja **Skapa anpassat SN** så att serie-/partinummer tilldelas utifrån nummerserier som du specifikt definierar för de ankommande artiklarna.  
+    -   Automatiskt, genom att välja **Skapa anpassat SN** så att serie-/partinummer tilldelas utifrån nummerserier som du specifikt definierar för de inkommande artiklarna.  
     -   Manuellt, genom att ange serie- eller partinummer direkt, t.ex. leverantörens nummer.  
     -   Manuellt, genom att ange ett särskilt nummer för varje artikelenhet.  
 
@@ -144,11 +122,11 @@ I matrisen med antalsfält i huvudet visas dynamiskt antalen och summorna för d
 
 När dokumentet bokförs överförs artikelspårningstransaktionerna till de associerade artikeltransaktionerna.
 
-## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Så här tilldelar du serie- eller partinummer vid avgående transaktioner  
+## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Så här tilldelar du serie- eller partinummer vid utgående transaktioner  
 Det finns två sätt att lägga till serie- och partinummer på utgående transaktioner:  
 
--   Välja bland befintliga serie- eller partinummer. Detta gäller om artikelspårningsnummer redan har tilldelats vid en ankommande transaktion. För mer information, se [Så här väljer du bland befintliga serie-/partinummer](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers)
--   Tilldela nya serie- eller partinummer vid avgående transaktioner. Detta gäller om artikelspårningsnummer inte ska tilldelas till artiklar förrän de säljs och är klara för utleverans.  
+-   Välja bland befintliga serie- eller partinummer. Detta gäller om artikelspårningsnummer redan har tilldelats vid en inkommande transaktion. För mer information, se [Så här väljer du bland befintliga serie-/partinummer](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers)
+-   Tilldela nya serie- eller partinummer vid utgående transaktioner. Detta gäller om artikelspårningsnummer inte ska tilldelas till artiklar förrän de säljs och är klara för utleverans.  
 
 De olika reglerna för artikelspårningsnummer anges på sidan **Artikelspårning kodkort**.  
 
@@ -162,7 +140,7 @@ De olika reglerna för artikelspårningsnummer anges på sidan **Artikelspårnin
     -   Automatiskt, baserat på parametrar du definierar särskilt för den utgående artikeln: Välj åtgärden **Skapa anpassat SN**.  
     -   Manuellt, genom att ange serie- eller partinummer oberoende av nummerserierna.  
 
-2.  Tilldela ett serienummer automatiskt genom att välja **Tilldela serienr**för den här proceduren  
+2.  Tilldela ett serienummer automatiskt genom att välja **Tilldela serienr** för den här proceduren  
 
     Fältet **Antal att skapa** innehåller radantalet som standard, men detta går att ändra.  
 3.  Markera fältet **Skapa nytt partinr** för att ordna in de nya serienumren i ett annat parti.  
@@ -173,21 +151,21 @@ I matrisen med antalsfält längst upp visas dynamiskt antalen och summorna för
 När dokumentet bokförs överförs artikelspårningstransaktionerna till de associerade artikeltransaktionerna.  
 
 ## <a name="to-select-from-existing-serial-or-lot-numbers"></a>Så här väljer du bland befintliga serie-/partinummer  
-Vanligtvis måste redan befintliga parti- eller serienummer i lagret väljas för artiklarna som kräver artikelspårning. Denna regel gäller även när avgående transaktioner skapas, d.v.s. när artiklarna tas bort ur lagret.  
+Vanligtvis måste redan befintliga parti- eller serienummer i lagret väljas för artiklarna som kräver artikelspårning. Denna regel gäller även när utgående transaktioner skapas, d.v.s. när artiklarna tas bort ur lagret.  
 
  De exakta reglerna för hantering av artikelspårningsnummer i företaget avgörs av inställningarna för tabellen **Artikelspårningskod**.  
 
 > [!NOTE]  
 >  För att kunna hantera artikelspårningsnummer i distributionslageraktiviteter måste artikeln läggas upp med SN/Parti dist.lager spårning. Det är det som anger vilka regler som ska gälla för serienummer och partinummer i distributionslagret.
 
-1.  I avgående dokument ska den rad markeras som serie- eller partinummer ska väljas för.  
+1.  I utgående dokument ska den rad markeras som serie- eller partinummer ska väljas för.  
 2.  På snabbfliken **Rader**, välj åtgärden **Åtgärder**, **Rad** eller **Artikel** och sedan åtgärden **Artikelspårningsrader**.  
 3.  På sidan **Artikelspårningsrader** finns det tre alternativ för att ange parti- eller serienummer:  
 
     -   Välj fältet **Partinr** eller **Serienr** och välj sedan ett nummer på sidan **Artikelspårning sammandrag**.  
-    -   Välj åtgärden **Välj transaktioner**. På sidan **Markera transaktioner** visas alla parti - eller serienummer tillsammans med den tillgängliga informationen.
+    -   Välj åtgärden **Välj transaktioner**. På sidan **Markera transaktioner** visas alla parti – eller serienummer tillsammans med den tillgängliga informationen.
 
-4. I fältet **Valt antal** anger du antalet av varje parti - eller serienummer som du vill använda.   
+4. I fältet **Valt antal** anger du antalet av varje parti – eller serienummer som du vill använda.   
 5. Klicka på **OK** så överförs den valda artikelspårningsinformationen till sidan **Artikelspårningsrader**.  
 6. Ange eller skanna in artikelspårningsnumret.
 
@@ -203,7 +181,7 @@ Rutinerna för hantering av serie- och partinummer som överförs mellan olika l
  De exakta reglerna för hantering av artikelspårningsnummer i företaget avgörs av inställningarna för tabellen  **Artikelspårningskod**.    
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överföringsorder** och välj sedan tillhörande länk.  
 2.  Öppna den order som du vill bearbeta. På snabbfliken **Rader** välj åtgärden **Rad**, **Artikelspårningsrader** och sedan **Utleverans**.  
-3.  På sidan **Artikelspårningsrader** tilldelar eller väljer du serie-/partinummer för eventuella övriga avgående artikeltransaktioner.  
+3.  På sidan **Artikelspårningsrader** tilldelar eller väljer du serie-/partinummer för eventuella övriga utgående artikeltransaktioner.  
 
     Vid hanteringen av serie- och partinummer för överföringsartiklar, har artiklarna vanligtvis redan tilldelats nummer. Förloppet består därför oftast bara av att du väljer bland befintliga serie- eller partinummer.  
 
@@ -214,11 +192,11 @@ Sidan **Artikelspårningsrader** är skrivskyddat under överföringen.
 ## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Så här hanterar du serie- och partinummer när du hämtar inleveransrader från en inköpsfaktura  
 När du använder funktionen för att hämta bokförd inleverans, eller utleveransrader från relaterade fakturor eller kreditnotor, överförs artikelspårningsrader i distributionslagerdokumenten automatiskt. Men de behandlas på ett speciellt sätt.
 
-Funktionen stöder följande processer för ankommande:  
+Funktionen stöder följande processer för inkommande:  
 -   **Hämta inleveransrader** – från en inköpsfaktura.  
 -   **Hämta returleveransrader** – från en inköpskreditnota.  
 
-Funktionen stöder följande processer för avgående:  
+Funktionen stöder följande processer för utgående:  
 -   **Hämta leveransrader** – från en försäljningsfaktura eller kombinerade utleveranser.  
 -   **Hämta returinleveransrader** – från en försäljningskreditnota.  
 
@@ -236,6 +214,34 @@ I de här situationerna kopieras befintliga artikelspårningsrader automatiskt t
 
 Innehållet i fälten **Serienr** Och **Partinr** går inte att redigera. Du kan dock ta bort hela rader eller ändra kvantiteten så att den stämmer med de ändringar som görs av ursprungsraden.  
 
+## <a name="to-record-serial-or-lot-number-information"></a>Så här registrerar du information om serie- eller partinummer  
+Om du behöver koppla särskild information till ett visst artikelspårningsnummer, till exempel för kvalitetssäkring, kan du göra det på ett informationskort för serienummer eller partinummer.
+
+1. Öppna ett dokument som har serie-/partinummer tilldelas.
+2. Öppna sidan **Artikelspårningsrader** för dokumentet.
+3. Välj till exempel åtgärden **serienr. informationskort**.  
+
+    Fälten **Serienr** och **Partinr** fylls i på förhand med information från artikelspårningsraden.  
+4. Ange kortfattad information i fältet **Beskrivning**, t.ex. om villkoret för artikeln.  
+5. Välj åtgärden **Kommentar** för att skapa en separat kommentarspost.  
+6. Markera kryssrutan **Spärrad** om du vill utesluta serie- eller partinummer från alla transaktioner.  
+
+Om du skapar serienummer i bulk med hjälp av åtgärderna **Skapa anpassat SN** eller **Tilldela serien.** kan du aktivera **Skapa SN-information**, så kommer ett informationskort att skapas för respektive spårningsrad.
+
+Alternativt kan du skapa ett informationskort när du bokför journaler eller dokument: på sidan **Artikelspårningskod** aktiverar du alternativen för **Skapa SN-info. vid bokföring** eller **Skapa SN-info. vid bokföring**. 
+
+Du kan ändra skapade serie- eller partiinformationskort senare.
+
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>Så här ändras befintlig information om serie-/partinummer  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+2. Markera en artikel som har en artikelspårningskod och serienr eller partinr information.
+3. Från sidan **artikelkort** väljer du åtgärden **transaktioner** och väljer **transaktioner**.
+4. Välj fältet **Partinr** , eller **Serienr**. Om information för artikelspårningsnumret finns öppnas sidan **Lista med partinr.information** eller **Lista med serienr.information**.  
+5. Välj ett kort och välj sedan åtgärden **Partinrinfo.kort/Serienr informationskort**.  
+6. Ändra den korta beskrivningstexten, kommentarsposten eller fältet **Spärrad**.  
+
+Du kan inte ändra serie- eller partinummer eller antal. För att kunna göra det måste du gruppera artikeltransaktionen i fråga. Mer information finns i [Omgruppera parti- eller serienummer](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Gruppera parti- eller serienummer  
 Att gruppera artikelspårningen för en artikel innebär att ett parti- eller serienummer ändras till ett nytt parti- eller serienummer eller att utgångsdatumet ändras till ett nytt utgångsdatum. Vid arbete med partier går det även att koppla flera partier till ett enda. De här aktiviteterna utförs med hjälp av artikelgrupperingsjournalen.
 
@@ -246,7 +252,7 @@ Att gruppera artikelspårningen för en artikel innebär att ett parti- eller se
 5.  Om ett nytt artikelspårningsnummer behöver anges kan fälten **Nytt serienr** eller **Nytt partinr** användas. Det går även att koppla ett eller flera partier till ett nytt parti eller ett befintligt parti.  
 
     > [!NOTE]  
-    >  Observera att när utgångsdatum grupperas föreslås artiklarna med de tidigaste utgångsdatumen för de avgående transaktionerna först. Mer information finns i [Plocka enligt FEFO](warehouse-picking-by-fefo.md).  
+    >  Observera att när utgångsdatum grupperas föreslås artiklarna med de tidigaste utgångsdatumen för de utgående transaktionerna först. Mer information finns i [Plocka enligt FEFO](warehouse-picking-by-fefo.md).  
 
 5.  Om ett nytt utgångsdatum behöver anges för serie- eller partinumret kan fältet **Nytt utgångsdatum** användas.  
 
@@ -266,6 +272,6 @@ Att gruppera artikelspårningen för en artikel innebär att ett parti- eller se
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)   
 [Lagersaldo](inventory-manage-inventory.md)  
 [Detaljer: Artikelspårning](design-details-item-tracking.md)
-[Designdetaljer - artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
+[Designdetaljer – artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

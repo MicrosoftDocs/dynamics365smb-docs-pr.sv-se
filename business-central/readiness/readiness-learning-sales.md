@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926653"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367965"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Utbildningskatalog för partnerförsäljning och marknadsföring
 
@@ -39,11 +39,10 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 
 | Innehåll   | Beskrivning        | Format                                | Längd                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central – engagerande konversationer med potentiella kunder (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Endast partner) Följ Errol Schoenfish, chef för produktmarknadsföring, när han pratar om hur man har övertygande samtal med potentiella kunder i Microsoft Dynamics 365 Business Central.   | Video    | 11 minuter 15 sekunder |
-| [Sök efter kundberättelser](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Hitta kundreferensberättelser för Dynamics 365 Business Central på [https://customer.microsoft.com](https://customer.microsoft.com).  | Webbplats |                       |
+| [Dynamics 365 Business Central – engagerande konversationer med potentiella kunder (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Endast partner) Följ Errol Schoenfish, dåvarande chef för produktmarknadsföring, när han pratar om hur man för övertygande samtal med potentiella kunder i Microsoft Dynamics 365 Business Central.   | Video    | 11 minuter 15 sekunder |
 | [Cloud Solution Provider-program](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Endast partner) Om Cloud Solution Provider-programmet     | Webbplats |                       |
 | [Marknadsföring i en molnbaserad värld](https://mbspartner.microsoft.com/OSS/Topic/19) | (Endast partner) Beskriver hur du ska optimera marknadsföringsrutinerna och justera dina marknadsprinciper för en molnbaserad värld är en primär faktor för att bestämma om organisationen ska gå framåt eller inte. I den här serien med videoklipp och resurser får du bästa metoder för marknadsföring, vägledning för innehållsskapande, pragmatiska tips och användbara verktyg för att använda marknadsföringsprinciper för molnet för att öka efterfrågan på dina lösningar. | Ämnessida | 35 minuter |
-| [Cloud Solution Provider-program – sälja efterfrågade molnlösningar](https://docs.microsoft.com/partner-center/csp-overview)  | Med hjälp av det här Cloud Solution Provider-programmet (CSP) kan du göra mer än att sälja licenser och bli mer engagerad i kundens verksamhet.   | Webbplats      |                       |
+| [Cloud Solution Provider-program – sälja efterfrågade molnlösningar](https://docs.microsoft.com/partner-center/csp-overview)  | Med hjälp av detta Cloud Solution Provider-program (CSP) kan du göra mer än att sälja licenser och bli mer engagerad i kundens verksamhet.   | Webbplats      |                       |
 | [Cloud Solution Provider-program – jämför partnersupportprogram](https://partner.microsoft.com/support/partnersupport) | Titta på det här videoklippet för att se hur du kan välja rätt partnersupportplan för ditt företag. Sedan visas en jämförelse sida vid sida.    | Webbplats                               |                       |
-| [Cloud SureStep-accelererad försäljning](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Endast partner) Den accelererade försäljningsprocessen Cloud SureStep är byggd kring den moderna köparens behov och försöker utlösa en känslomässig, erfarenhetsdriven strategisk tändande gnista tidigt i försäljningsprocessen. I den här serien med videoklipp och resurser beskrivs en preskriptiv försäljningsprocess som har utformats speciellt för att motverka den traditionella resursintensiva, "demo-orienterade" lösningsförsäljningen som oftast leder till mycket anpassade produktdemonstrationer, komplexa försäljningscykler och långa implementerings projekt. I resursbiblioteket finns ett antal anpassningsbara mallar som du kan använda för att skapa en egen uppsättning försäljningstillgångar som stöd för snabbare försäljning. | Webbplats     |                       |
-| [Tillägg till spelboken för övergångspartner (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Detta tillägg till spelboken för övergångspartner tillhandahåller viss uppdaterad och ny vägledning för partners som vill säkra sin befintliga kundbas från konkurrens och SaaS-nykomlingar  | PowerPoint-bildspel | 15 bilder |
+| [Cloud SureStep-accelererad försäljning](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Endast partner) Den accelererade försäljningsprocessen Cloud SureStep är byggd kring den moderna köparens behov och försöker utlösa en känslomässig, erfarenhetsdriven strategisk tändande gnista tidigt i försäljningsprocessen. I den här serien med videoklipp och resurser beskrivs en preskriptiv försäljningsprocess som har utformats speciellt för att motverka den traditionella resursintensiva, "demo-orienterade" lösningsförsäljningen, som oftast leder till mycket anpassade produktdemonstrationer, komplexa försäljningscykler och långa implementeringsprojekt. I resursbiblioteket finns ett antal anpassningsbara mallar som du kan använda för att skapa en egen uppsättning försäljningstillgångar som stöd för snabbare försäljning. | Webbplats     |                       |
+| [Tillägg till spelboken för övergångspartner (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Detta tillägg till spelboken för övergångspartner tillhandahåller viss uppdaterad och ny vägledning för partners som vill säkra sin befintliga kundbas från konkurrens och SaaS-nykomlingar  | PowerPoint-bildspel | 15 bilder |
