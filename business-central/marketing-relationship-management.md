@@ -35,3 +35,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Bearbeta inkommande leads genom att skapa affärsmöjligheter och koppla dem till säljare så att du kan följa upp presumtiv försäljning.|[Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)|
 |Skapa marknadsföringsplaner för att identifiera, attrahera och bibehålla kunderna.|[Hantera marknadsföringskampanjer](marketing-campaigns.md)|
 |Använd Dynamics 365 Sales för Customer Engagement och du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda Business Central för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.|[Integrering med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

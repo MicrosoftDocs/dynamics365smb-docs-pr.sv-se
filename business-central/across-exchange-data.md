@@ -44,3 +44,6 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

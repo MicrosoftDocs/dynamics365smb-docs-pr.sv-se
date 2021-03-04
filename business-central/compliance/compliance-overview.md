@@ -35,3 +35,6 @@ I det här avsnittet kan du läsa mer om vår metod för regelefterlevnad ur per
 |Lär dig mer om villkor för servicenivåavtal och andra villkor för servicen|[Tjänstvillkor](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

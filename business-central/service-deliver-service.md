@@ -46,3 +46,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Planera service](service-plan-service.md)  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Hantera projekt](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

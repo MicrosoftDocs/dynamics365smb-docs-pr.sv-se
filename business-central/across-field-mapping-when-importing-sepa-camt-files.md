@@ -68,3 +68,6 @@ ms.locfileid: "4753348"
 [Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
 [Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

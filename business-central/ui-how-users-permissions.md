@@ -157,3 +157,6 @@ Vid lokala distributioner kan administratören skapa, redigera och ta bort anvä
 [Administration](admin-setup-and-administration.md)  
 [Lägga till användare i Microsoft 365 för företag](https://aka.ms/CreateOffice365Users)  
 [Säkerhet och skydd i Business Central (administrationsinnehåll)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

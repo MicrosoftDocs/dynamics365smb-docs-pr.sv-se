@@ -150,3 +150,6 @@ Slutligen innehåller kontraktsraderna följande information.
 ## <a name="see-also"></a>Se även  
 [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

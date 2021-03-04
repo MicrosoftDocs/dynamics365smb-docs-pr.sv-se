@@ -64,3 +64,6 @@ Du har nu registrerat dig för AMC Banking 365 Fundamentals-tillägget. Fortsät
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

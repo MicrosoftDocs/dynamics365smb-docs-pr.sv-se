@@ -64,3 +64,6 @@ Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **
 [Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md)  
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

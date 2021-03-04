@@ -39,3 +39,5 @@ Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funk
   
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

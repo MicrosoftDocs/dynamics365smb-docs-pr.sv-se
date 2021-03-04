@@ -37,3 +37,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Leverera service](service-deliver-service.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

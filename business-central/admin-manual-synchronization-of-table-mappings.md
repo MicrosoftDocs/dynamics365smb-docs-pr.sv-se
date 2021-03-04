@@ -85,3 +85,6 @@ Använd sidan **Registermappningar för integrering** för att köra ett synkron
 ## <a name="see-also"></a>Se även  
 [Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

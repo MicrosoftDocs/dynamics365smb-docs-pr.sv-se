@@ -64,3 +64,6 @@ För att ställa in indikatorn, anger du upp till två tröskelvärden som defin
     |**Underordnad**|Grått|  
 
 ## <a name="see-also"></a>Se även
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

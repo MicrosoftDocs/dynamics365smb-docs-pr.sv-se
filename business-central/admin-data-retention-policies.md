@@ -105,3 +105,5 @@ När en utvecklare har lagt till tabeller i listan kan en administratör inklude
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
 [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

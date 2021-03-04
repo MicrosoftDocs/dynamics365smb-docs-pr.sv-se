@@ -115,3 +115,6 @@ När momsgruppsrepresentantens momsretur har skickats till myndigheterna för he
 ## <a name="see-also"></a>Se även
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Ställa in moms](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

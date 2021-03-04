@@ -93,3 +93,6 @@ Mer information finns i [Så här konfigurerar du bakgrundsbokföring med jobbk�
 [Ställa in Business Central](setup.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Analysera spårningstelemetri för livscykel för jobbkö](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

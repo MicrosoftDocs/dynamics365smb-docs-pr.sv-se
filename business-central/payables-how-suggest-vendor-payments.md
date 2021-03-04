@@ -57,3 +57,6 @@ Du kan även skapa betalningsrader manuellt genom att använda förfallodatum f�
 [Göra betalningar](payables-make-payments.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

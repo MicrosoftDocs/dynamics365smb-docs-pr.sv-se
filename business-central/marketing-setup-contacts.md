@@ -161,3 +161,6 @@ När du har hittat dubbelkontakter kan du använda sidan **Koppla dubblett** fö
 [Skapa kontakter](marketing-create-contact-companies.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

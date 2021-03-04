@@ -48,3 +48,5 @@ Lagerledningsmodulen och lagermodulen interagerar med varandra i inventeringsjou
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)   
  [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

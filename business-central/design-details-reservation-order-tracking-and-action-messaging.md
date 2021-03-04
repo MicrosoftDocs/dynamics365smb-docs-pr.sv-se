@@ -233,3 +233,6 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

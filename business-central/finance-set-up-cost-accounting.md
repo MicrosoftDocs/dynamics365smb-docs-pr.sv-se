@@ -183,3 +183,6 @@ För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **
 [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
 [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

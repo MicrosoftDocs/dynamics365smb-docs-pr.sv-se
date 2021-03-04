@@ -200,3 +200,6 @@ Du kan arkivera servicekontrakt och kontraktsofferter när som helst för att re
 [Skapa servicekontrakt](service-how-setup-service-contracts.md)  
 [Servicehantering](service-service.md)  
 [Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

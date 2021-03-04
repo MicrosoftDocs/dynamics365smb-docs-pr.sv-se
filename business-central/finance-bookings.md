@@ -43,3 +43,6 @@ Stöd för faktureringsmöten från Bookings är enklare än det fullständiga a
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

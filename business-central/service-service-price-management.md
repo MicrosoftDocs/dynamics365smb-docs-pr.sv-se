@@ -67,3 +67,6 @@ Beräkningarna beskrivs i tabellen nedan.
 ## <a name="see-also"></a>Se även  
 [Registrera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -92,3 +92,5 @@ Affärsscenariot stöds med funktionen Sen bindning som möjliggör fast kopplin
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

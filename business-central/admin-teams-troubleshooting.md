@@ -125,3 +125,6 @@ Mer information om hur språk fungerar mellan Teams och [!INCLUDE [prod_short](i
 [Utveckling för Team-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

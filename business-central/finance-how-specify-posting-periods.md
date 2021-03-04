@@ -34,3 +34,6 @@ Använd bokföringsperioder för att ange om användare kan bokföra i redovisni
 [Ekonomi](finance.md)  
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

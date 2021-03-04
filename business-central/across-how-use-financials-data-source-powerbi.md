@@ -138,3 +138,6 @@ Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och a
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Ekonomi](finance.md)  
 [Snabbstart: Ansluta till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

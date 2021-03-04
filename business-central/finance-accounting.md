@@ -109,3 +109,6 @@ Om du vill ge åtkomst till flera företag måste du logga in på respektive fö
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

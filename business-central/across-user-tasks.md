@@ -48,3 +48,6 @@ Om du vill ta bort flera eller vissa användaruppgifter kan du använda rapporte
 
 [Sök efter sida eller rapport](ui-search.md)  
 [Revisorupplevelse i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

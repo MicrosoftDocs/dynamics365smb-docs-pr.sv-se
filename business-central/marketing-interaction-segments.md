@@ -52,3 +52,6 @@ På sidan **Segmentlogg** kan du skapa ett nytt segment som innehåller ett uppf
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

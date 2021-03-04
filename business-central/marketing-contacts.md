@@ -37,3 +37,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Sortera, söka och filtrera](ui-enter-criteria-filters.md)  
 [Arbeta med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

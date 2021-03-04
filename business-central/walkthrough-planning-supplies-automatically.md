@@ -267,3 +267,6 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
  [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

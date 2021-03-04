@@ -112,3 +112,6 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

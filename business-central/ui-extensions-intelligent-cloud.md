@@ -29,3 +29,6 @@ När anslutningen har kon figurerats kan du migrera data eller hantera datarepli
 [Intelligenta insikter](about-intelligent-cloud.md)  
 [Köra verktyget för molnmigrering](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligenta molntillägg för migrering av moln](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

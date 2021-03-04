@@ -32,3 +32,5 @@ Reglerna för att registrera data på sidan **Artikelspårningsrader** stöder �
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ När du har skapat ett arbetsflöde och du vet att det är redo att startas mås
  [Använda arbetsflöden](across-use-workflows.md)   
  [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Arbetsflöde](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

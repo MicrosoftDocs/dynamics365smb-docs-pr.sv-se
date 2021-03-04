@@ -41,3 +41,6 @@ Följande procedur beskriver hur du begränsar inköpsorder från att bokföras 
 ## <a name="see-also"></a>Se även  
 [Skapa arbetsflöden](across-how-to-create-workflows.md)   
 [Arbetsflöde](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

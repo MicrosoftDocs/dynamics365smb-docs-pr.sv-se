@@ -50,3 +50,6 @@ Ikonen för bokmärket visas inte i fönstret berätta för mig när anpassninga
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Söka efter sidor med rollutforskaren](ui-role-explorer.md)  
 [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

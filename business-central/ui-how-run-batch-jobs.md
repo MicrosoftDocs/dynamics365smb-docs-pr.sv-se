@@ -36,3 +36,6 @@ Du kan schemalägga när ett batchjobb körs. Mer information finns i [Använda 
 [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
 [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

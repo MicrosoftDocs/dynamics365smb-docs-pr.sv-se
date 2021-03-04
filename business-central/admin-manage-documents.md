@@ -93,3 +93,6 @@ I följande tabell visas de fält på snabbfliken **Alternativ** som är tillgä
 ## <a name="see-also"></a>Se även
 
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

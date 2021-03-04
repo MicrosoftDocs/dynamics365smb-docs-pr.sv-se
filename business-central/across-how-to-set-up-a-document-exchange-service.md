@@ -43,3 +43,6 @@ Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med 
 ## <a name="see-also"></a>Se även  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

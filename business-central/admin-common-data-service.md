@@ -67,3 +67,6 @@ Under anslutningsinstallationen skapas integreringsregistermappningar som behöv
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -29,3 +29,6 @@ Du kan skicka dokument som till exempel fakturor som e-post med ditt företags e
 [Använda Business Central som en företagsinkorg i Outlook](admin-outlook.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

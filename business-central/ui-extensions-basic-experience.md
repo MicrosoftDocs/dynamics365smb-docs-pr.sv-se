@@ -51,3 +51,5 @@ Ta med dina Dynamics C5-data. När din Microsoft-partner har installerat Basic E
 
 ## <a name="see-also"></a>Se även
 [Tillägget C5 Datamigrering ](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

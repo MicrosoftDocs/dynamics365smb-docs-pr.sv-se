@@ -103,3 +103,6 @@ Om ditt företagsscenario kräver arbetsflödehändelser eller svar som inte st�
 [Konfigurera arbetsflöden](across-set-up-workflows.md)   
 [Använda arbetsflöden](across-use-workflows.md)   
 [Arbetsflöde](across-workflow.md)      
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Ställa in systemet för att registrera interaktioner. |[Ställa in kontakter](marketing-setup-contacts.md) |
 |Skapa interaktioner för att registrera all interaktion och kommunikation som du har med dina kontakter och segment, till exempel e-posta.|[Så här skapar du interaktioner på kontakter och segment](marketing-how-create-interactions.md)|
 |Ställa in systemet för att automatiskt registrera interaktioner för försäljnings-, inköps- och servicedokument, till exempel när en dokumenterad skapas, bokförs eller skrivs ut.|[Automatiskt registrering av interaktioner med kontakter](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

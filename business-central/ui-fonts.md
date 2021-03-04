@@ -52,3 +52,6 @@ Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Välj en checklayout](finance-how-define-check-layouts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

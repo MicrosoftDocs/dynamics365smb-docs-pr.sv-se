@@ -228,3 +228,6 @@ Du kan också ta bort enskilda försäljningsreturorder manuellt.
 [Skicka dokument via e-post](ui-how-send-documents-email.md)  
 [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -145,3 +145,6 @@ För [!INCLUDE[prod_short](includes/prod_short.md)] lokal kan du t.ex. hantera s
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
 [Anpassa din arbetsyta](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

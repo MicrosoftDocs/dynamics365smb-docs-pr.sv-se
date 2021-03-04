@@ -37,3 +37,6 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 [Registrera alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
 [Ställa in felsökning](service-how-setup-troubleshooting.md)  
 [Servicehantering](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Ledtidsvärdet på leverantörskortet används dock endast om ingen ledtid har a
 [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)   
 [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Nu kan du lägga till den utökade texten i dokument. I proceduren nedan beskriv
 
 [Ställa in lager](inventory-setup-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

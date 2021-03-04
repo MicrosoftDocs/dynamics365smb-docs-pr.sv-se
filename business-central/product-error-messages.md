@@ -42,3 +42,6 @@ Om du är administratör eller superanvändare kan du hjälpa andra genom att s�
 [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Komma igång](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

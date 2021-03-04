@@ -59,3 +59,6 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 [Konfigurera e-post](admin-how-setup-email.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbetsflöde](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

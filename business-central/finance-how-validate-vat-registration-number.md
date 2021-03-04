@@ -49,3 +49,6 @@ Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

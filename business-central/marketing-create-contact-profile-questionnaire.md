@@ -158,3 +158,6 @@ När du tilldelar en kontakt profilfrågeformulär som innehåller denna fråga 
 
 ## <a name="see-also"></a>Se även
 [Skapar kontakter](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Du kan också visa våra ”så här”-videor och mycket annat innehåll på Yo
 
 [Komma igång](product-get-started.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

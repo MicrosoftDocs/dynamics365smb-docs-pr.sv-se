@@ -39,3 +39,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Hantera kontakter](marketing-contacts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

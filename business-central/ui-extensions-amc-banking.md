@@ -87,3 +87,6 @@ När du använder det här tillägget kan du bara exportera data på **Utbetalni
 ## <a name="see-also"></a>Se även
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Komma igång](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

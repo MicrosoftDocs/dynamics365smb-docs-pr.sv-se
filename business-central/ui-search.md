@@ -68,3 +68,6 @@ Vi har visat Berätta för ett antal intressenter, noterat de frågor som de har
 ## <a name="see-also"></a>Se även
 [Arbeta med Business Central](ui-work-product.md)  
 [Lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

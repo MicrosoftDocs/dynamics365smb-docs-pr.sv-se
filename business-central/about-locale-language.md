@@ -61,3 +61,6 @@ Det är enkelt – bläddra längst ned på sidan och välj symbolen med en jord
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Komma igång](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

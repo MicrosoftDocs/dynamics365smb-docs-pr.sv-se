@@ -58,3 +58,6 @@ Kundernas artiklar som du utför service på, till exempel en skrivare kallas f�
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

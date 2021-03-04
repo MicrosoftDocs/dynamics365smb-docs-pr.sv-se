@@ -40,3 +40,6 @@ Följande tabell anger alternativen för att spärra kunder.
 [Registrera nya kunder](sales-how-register-new-customers.md)  
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

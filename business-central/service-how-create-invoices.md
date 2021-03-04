@@ -99,3 +99,6 @@ En servicekreditnota används vanligtvis när en kund returnerar en artikel, men
 [Så här bokför du fakturor](service-how-to-post-service-orders.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicebokföring](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

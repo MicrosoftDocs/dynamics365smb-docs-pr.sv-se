@@ -76,3 +76,6 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[prod_short](inc
 [Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

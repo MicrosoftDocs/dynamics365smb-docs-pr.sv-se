@@ -36,3 +36,6 @@ När du har använt batch-jobbet **Avslut av resultatkonton** för att generera 
 [Avsluta böcker](year-close-books.md)  
 [Avslut av resultatkonton](year-close-income-statement.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

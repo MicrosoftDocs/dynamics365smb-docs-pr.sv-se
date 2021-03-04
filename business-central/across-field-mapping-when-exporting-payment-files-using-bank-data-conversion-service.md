@@ -72,3 +72,6 @@ I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md
 [Byta data elektroniskt](across-data-exchange.md)
 [med hjälp av AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
 [Göra betalningar med AMC Banking 365 Fundamentals-tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

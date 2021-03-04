@@ -45,3 +45,6 @@ Tilläggen Microsoft Pay, PayPal Payments Standard och WorldPay Payments Standar
 [Försäljning](sales-manage-sales.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

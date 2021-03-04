@@ -33,3 +33,6 @@ Bakåtdaterade transaktioner eller kostnadsjusteringar påverkar ofta saldon och
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lager och kostnadskalkylering](design-details-inventory-costing.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md) [Ekonomi](finance.md)  
  [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

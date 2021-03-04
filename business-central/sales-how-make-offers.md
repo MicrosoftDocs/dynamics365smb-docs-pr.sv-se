@@ -82,3 +82,6 @@ Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skicka dokument som e-transaktion](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

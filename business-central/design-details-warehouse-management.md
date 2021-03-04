@@ -30,3 +30,6 @@ För att skilja mellan de olika komplexitetsnivåerna i lagerstyrningen är doku
 [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
 [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

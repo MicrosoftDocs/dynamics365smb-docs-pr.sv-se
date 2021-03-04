@@ -87,3 +87,6 @@ Värdena beskrivs i tabellen nedan.
 [Försäljning](sales-manage-sales.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

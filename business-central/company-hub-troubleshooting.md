@@ -50,3 +50,6 @@ Om du har lagt till ett företag men det inte visas i listan kan du också anvä
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Lägg till företag till företagsnavet](company-hub-add-company.md)  
 [Revisorlösningar i Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

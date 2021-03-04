@@ -291,3 +291,6 @@ Detta slutför beskrivningarna av hur efterfrågan och tillgång laddas, priorit
  [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

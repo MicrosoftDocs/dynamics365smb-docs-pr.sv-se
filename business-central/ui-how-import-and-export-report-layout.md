@@ -55,3 +55,6 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
  [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
  [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
  [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

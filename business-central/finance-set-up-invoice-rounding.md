@@ -63,3 +63,6 @@ För att se till att försäljnings- och inköpsfakturor avrundas automatiskt ak
 ## <a name="see-also"></a>Se även  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

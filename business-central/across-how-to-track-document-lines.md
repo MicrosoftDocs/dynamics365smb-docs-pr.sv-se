@@ -35,3 +35,6 @@ Följande förfarande beskriver hur du spårar via en försäljningsorderrad. St
 [Försäljning](sales-manage-sales.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -219,3 +219,6 @@ Förskottsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] gör det
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

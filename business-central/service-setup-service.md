@@ -44,3 +44,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även
 [Servicehantering](service-service.md)  
 [Komma igång](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

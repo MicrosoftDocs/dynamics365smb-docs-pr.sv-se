@@ -68,3 +68,6 @@ I **Utkorgen för e-post** finns de e-postmeddelanden som du har sparat som utka
 [Konfigurera e-post](admin-how-setup-email.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Du eller administratören kan också använda sidan **Skrivarhantering** för at
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kör batchjobb](ui-how-run-batch-jobs.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

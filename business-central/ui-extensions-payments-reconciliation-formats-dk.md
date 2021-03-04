@@ -108,3 +108,6 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 [Anpassning av Business Central för [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

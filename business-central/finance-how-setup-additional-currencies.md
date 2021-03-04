@@ -127,3 +127,6 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

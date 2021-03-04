@@ -62,3 +62,6 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöde
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Vanliga frågor och svar om elektronisk fakturering](faq-electronic-invoicing.yml)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

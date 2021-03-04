@@ -64,3 +64,6 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 [Försäljning](sales-manage-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

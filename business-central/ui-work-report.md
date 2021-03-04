@@ -163,3 +163,6 @@ Fälten under **Avancerat** anger begränsningar för den genererade rapporten f
 [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)  
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

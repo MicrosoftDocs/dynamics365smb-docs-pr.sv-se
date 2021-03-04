@@ -76,3 +76,6 @@ När du har gjort ett val anger du relevant sökningsinformation i fälten läng
 [Arbeta med Business Central](ui-work-product.md)  
 [Lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md)  
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

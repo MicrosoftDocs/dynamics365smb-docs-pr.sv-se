@@ -29,3 +29,6 @@ Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna so
 
 ## <a name="see-also"></a>Se även  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

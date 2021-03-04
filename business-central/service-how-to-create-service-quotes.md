@@ -40,3 +40,5 @@ Du kan använda en serviceoffert som preliminärt utkast för en serviceorder oc
 [Arbeta med tjänsteuppgifter](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

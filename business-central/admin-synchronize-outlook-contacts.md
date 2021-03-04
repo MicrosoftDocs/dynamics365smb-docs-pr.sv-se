@@ -54,3 +54,6 @@ I Outlook visas kontakter från [!INCLUDE[prod_short](includes/prod_short.md)] i
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Använda kontakter (personer) i Outlook på Internet](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

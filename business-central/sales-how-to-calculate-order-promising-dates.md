@@ -145,3 +145,6 @@ Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som
 [Försäljning](sales-manage-sales.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

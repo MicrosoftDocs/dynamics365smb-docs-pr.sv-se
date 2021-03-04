@@ -30,3 +30,6 @@ EU trepartshandel sker när du tar emot en inköpsfaktura från en kund som finn
 ## <a name="see-also"></a>Se även  
  [Rapportera moms till skattemyndigheterna](../../finance-how-report-vat.md)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

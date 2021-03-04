@@ -60,3 +60,6 @@ Du kan välja automatisk sökning efter kopior varje gång du skapar ett kontakt
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

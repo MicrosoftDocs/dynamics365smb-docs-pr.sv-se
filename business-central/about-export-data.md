@@ -82,3 +82,6 @@ Mer information finns i avsnittet [Så här får du en översikt en användares 
 [Ekonomi](finance.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

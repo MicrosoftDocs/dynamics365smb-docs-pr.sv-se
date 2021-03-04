@@ -81,3 +81,6 @@ När leverantören har levererat artiklarna kan du bokföra försäljningsordern
 [Försäljning](sales-manage-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du sna
 
 [Administrationscenter för Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

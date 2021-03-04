@@ -148,3 +148,6 @@ På sidan **Lagerinförsel** kan du hantera alla ingående distributionslagerakt
  [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

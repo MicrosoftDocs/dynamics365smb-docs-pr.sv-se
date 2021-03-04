@@ -69,3 +69,6 @@ När lagerperioden har stängts en gång går det inte längre att ta bort den. 
 [Ekonomi](finance.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

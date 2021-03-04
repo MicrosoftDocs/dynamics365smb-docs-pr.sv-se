@@ -31,3 +31,6 @@ Den förklarar hur planeringssystemet fungerar och hur du justerar algoritmerna 
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
 [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ När något går fel i integrationen och du behöver ta bort kopplingen mellan p
 [Ställ in en anslutning till Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Visa status för en synkronisering](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

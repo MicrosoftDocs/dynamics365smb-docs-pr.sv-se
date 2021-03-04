@@ -25,3 +25,6 @@ Läs mer om [funktionshantering](/dynamics365/business-central/dev-itpro/adminis
 ## <a name="see-also"></a>Se även
 
 [Nya och planerade funktioner](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell,
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)  
 [Ställa in Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

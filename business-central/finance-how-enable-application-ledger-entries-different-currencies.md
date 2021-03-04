@@ -51,3 +51,6 @@ Om du kopplar transaktioner till olika valutor måste du ange de redovisningskon
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

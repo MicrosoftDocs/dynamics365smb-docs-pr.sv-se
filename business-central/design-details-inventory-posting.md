@@ -135,3 +135,6 @@ Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-d
  [Designdetaljer: Kostnadskomponenter](design-details-cost-components.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

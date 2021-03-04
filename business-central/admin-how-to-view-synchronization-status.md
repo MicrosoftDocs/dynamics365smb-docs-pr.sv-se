@@ -55,3 +55,6 @@ Anvönd sidan **Kopplade datasynkroniseringsfel** för att visa statusen för sy
 ## <a name="see-also"></a>Se även  
 [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Använda Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ De olika spärrningsalternativen för leverantörer beskrivs i registeren nedan.
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Göra betalningar](payables-make-payments.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

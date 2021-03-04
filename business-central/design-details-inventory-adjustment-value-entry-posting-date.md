@@ -365,3 +365,6 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

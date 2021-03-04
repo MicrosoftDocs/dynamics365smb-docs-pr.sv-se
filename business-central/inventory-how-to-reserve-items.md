@@ -99,3 +99,6 @@ Följande procedur är baserad på en försäljningsorder.
 [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

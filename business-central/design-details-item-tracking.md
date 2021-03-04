@@ -31,3 +31,6 @@ Ett artikelspårningsystem bör ge ett företag en enkel hantering av serie- och
 [Designdetaljer: Artikelkoppling och planering](design-details-item-tracking-and-planning.md)  
 [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Designdetaljer: Artikelkoppling i distributionslagret](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

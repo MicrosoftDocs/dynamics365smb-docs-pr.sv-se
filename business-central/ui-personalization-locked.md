@@ -59,3 +59,6 @@ Orsaken till detta är att det rollcenter eller den roll som för närvarande ä
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

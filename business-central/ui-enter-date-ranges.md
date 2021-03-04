@@ -369,3 +369,6 @@ Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
 [Arbeta med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
 [Ange villkor i filter ](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

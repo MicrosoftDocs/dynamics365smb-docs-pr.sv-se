@@ -71,3 +71,6 @@ Det finns några saker som du bör göra:
 
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

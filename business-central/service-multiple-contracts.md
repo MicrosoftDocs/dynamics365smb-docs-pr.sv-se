@@ -46,3 +46,6 @@ Du kan skapa en serviceorder manuellt för en serviceartikel som är registrerad
 ## <a name="see-also"></a>Se även  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Skapa tjänsteorder](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

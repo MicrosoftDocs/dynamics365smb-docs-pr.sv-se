@@ -27,3 +27,6 @@ Mer information finns i [kryptering av data i Dynamics 365 Business Central](/dy
 
 ## <a name="see-also"></a>Se även  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

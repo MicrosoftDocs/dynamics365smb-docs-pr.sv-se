@@ -40,3 +40,6 @@ Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](ht
 [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

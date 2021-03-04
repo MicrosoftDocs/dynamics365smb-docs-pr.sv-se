@@ -85,3 +85,6 @@ Nedan beskrivs hur du återställer en bokförd returutleverans av artiklar elle
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

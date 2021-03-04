@@ -98,3 +98,6 @@ Följande avsnitt innehåller viktig information som du kan använda för att ko
 [Introduktion till docs.microsoft.com (det ursprungliga blogginlägget)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

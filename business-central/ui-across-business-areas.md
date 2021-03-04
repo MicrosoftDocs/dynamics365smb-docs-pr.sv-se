@@ -54,3 +54,6 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

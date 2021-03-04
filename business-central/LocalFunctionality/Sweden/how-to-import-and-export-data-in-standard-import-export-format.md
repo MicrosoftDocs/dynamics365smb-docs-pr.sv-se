@@ -56,3 +56,6 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 ## <a name="see-also"></a>Se även  
  [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

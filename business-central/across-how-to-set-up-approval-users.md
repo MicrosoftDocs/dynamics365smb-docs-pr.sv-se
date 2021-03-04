@@ -63,3 +63,6 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
 [Konfigurera arbetsflöden](across-set-up-workflows.md)   
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Arbetsflöde](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

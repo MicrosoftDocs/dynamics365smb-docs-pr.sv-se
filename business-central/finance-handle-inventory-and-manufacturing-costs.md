@@ -38,3 +38,6 @@ Många av funktionerna inom kostnadskalkylering utförs i underliggande processe
 ## <a name="see-also"></a>Se även  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)
 [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

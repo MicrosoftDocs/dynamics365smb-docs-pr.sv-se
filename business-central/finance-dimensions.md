@@ -234,3 +234,6 @@ När du bokför dokument eller journalrader som innehåller dimensioner kan olik
 [Ekonomi](finance.md)  
 [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

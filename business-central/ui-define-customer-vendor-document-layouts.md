@@ -62,3 +62,6 @@ E-postadressen till kontakten infogas nu på dokumentets layouttabell så att f�
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

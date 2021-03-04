@@ -123,3 +123,6 @@ Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du ö
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

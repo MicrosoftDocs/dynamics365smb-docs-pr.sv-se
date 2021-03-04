@@ -24,3 +24,6 @@ Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna f�
 [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)  
 [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

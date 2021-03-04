@@ -94,3 +94,6 @@ Administratörer kan använda samma guide för assisterad konfiguration för att
 [Revisorlösningar i Business Central](finance-accounting.md)  
 [Företagsnavet för Business Central-tillägget](ui-extensions-company-hub.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

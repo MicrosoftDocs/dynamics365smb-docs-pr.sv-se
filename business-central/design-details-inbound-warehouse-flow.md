@@ -110,3 +110,6 @@ Distributionslagertransaktioner skapas och artikelinförselraderna tas bort om d
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

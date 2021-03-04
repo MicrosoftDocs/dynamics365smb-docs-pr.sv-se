@@ -42,3 +42,6 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

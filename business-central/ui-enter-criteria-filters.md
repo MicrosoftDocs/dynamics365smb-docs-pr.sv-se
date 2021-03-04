@@ -307,3 +307,6 @@ Använd `%myvendors` i fältet leverantörs **nr** om du vill visa alla poster f
 [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
 [Spara och anpassa listvyer](ui-views.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

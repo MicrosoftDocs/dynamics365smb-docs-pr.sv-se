@@ -56,3 +56,6 @@ Via sidan **Rapportinställningar** kan du:
 
 ## <a name="see-also"></a>Se även
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

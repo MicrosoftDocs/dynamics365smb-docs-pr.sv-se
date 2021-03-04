@@ -56,3 +56,6 @@ Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://g
 [Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)  
 [Förlänga testversioner (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Kom igång som återförsäljare av Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

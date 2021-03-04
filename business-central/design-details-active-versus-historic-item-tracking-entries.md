@@ -62,3 +62,6 @@ När delar av ett dokumentradantal bokförs överförs endast det aktuella antal
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Objektspårning](design-details-item-tracking.md)   
  [Designdetaljer - Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

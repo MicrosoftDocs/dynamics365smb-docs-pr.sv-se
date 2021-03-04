@@ -50,3 +50,6 @@ Om du vill använda konton för orealiserad moms, gör du så här:
 
 ## <a name="see-also"></a>Se även
 [Ställa in orealiserad moms](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

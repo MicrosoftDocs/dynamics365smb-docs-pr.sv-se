@@ -34,3 +34,6 @@ När du installerar tillägget i din [!INCLUDE [prod_short](includes/prod_short.
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Revisorlösningar i Business Central ](finance-accounting.md)  
 [Ekonomi](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

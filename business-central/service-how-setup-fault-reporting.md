@@ -47,3 +47,6 @@ När du gör inställningar för felhantering kan du också ange vilka reparatio
 ## <a name="see-also"></a>Se även
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

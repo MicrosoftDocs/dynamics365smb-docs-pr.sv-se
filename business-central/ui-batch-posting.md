@@ -126,3 +126,6 @@ Säljordrar som befinner sig inom ramarna för definierade filter kommer nu att 
 [Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

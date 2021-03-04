@@ -126,3 +126,6 @@ När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa 
 [Ställa in företagskonfiguration](admin-set-up-company-configuration.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

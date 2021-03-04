@@ -57,3 +57,6 @@ Vissa antivirusprogram blockerar som standardåtkomst till kameran och platsen. 
 ## <a name="see-also"></a>Se även
 [Implementera kameran i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementera platsen i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

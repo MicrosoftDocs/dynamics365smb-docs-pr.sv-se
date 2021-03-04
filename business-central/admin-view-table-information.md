@@ -40,3 +40,6 @@ I följande tabell beskrivs de olika tabellerna som anges:
 
 [Kontrollera sidor](across-inspect-page.md)  
 [Prestandaartiklar för utvecklare](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

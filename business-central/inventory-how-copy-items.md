@@ -39,3 +39,6 @@ När du lägger till ett nytt objekt, för att spara tid, kan du använda funkti
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in lager](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Om du vill se en rapport väljer du ikonen ![Glödlampa som öppnar funktionen B
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Affärsstöd](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

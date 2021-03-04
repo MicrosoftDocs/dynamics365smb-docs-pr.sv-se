@@ -63,3 +63,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

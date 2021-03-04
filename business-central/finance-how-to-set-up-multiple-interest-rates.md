@@ -36,3 +36,6 @@ När du skickar ut en räntefaktura, visar fakturan dröjsmålsräntan med flera
 ## <a name="see-also"></a>Se även  
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Ställa in Finance](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

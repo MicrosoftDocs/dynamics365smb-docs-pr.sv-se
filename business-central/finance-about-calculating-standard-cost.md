@@ -105,3 +105,6 @@ Processen för att uppdatera eller att beräkna standardkostnader består vanlig
  [Arbeta med strukturer](inventory-how-work-BOMs.md)   
  [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)   
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

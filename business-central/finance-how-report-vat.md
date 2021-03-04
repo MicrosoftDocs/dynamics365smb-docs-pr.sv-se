@@ -121,3 +121,6 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

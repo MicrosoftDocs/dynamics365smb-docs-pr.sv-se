@@ -197,3 +197,6 @@ Belopp i dokument som ännu inte har bokförts avrundas och visas på ett sätt 
 [Lokal funktionalitet i Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

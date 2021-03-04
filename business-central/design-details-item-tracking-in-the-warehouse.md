@@ -31,3 +31,6 @@ Däremot beaktar reservationssystemet distributionslageraktiviteter när det ber
 [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
 [Designdetaljer - Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
 [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

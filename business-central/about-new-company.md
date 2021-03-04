@@ -77,3 +77,6 @@ När ett företag har skapats kan du inte ändra namnet. Du kan emellertid ändr
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Komma igång](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

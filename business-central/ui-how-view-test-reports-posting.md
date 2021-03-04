@@ -34,3 +34,6 @@ Alla delar av inköpsfakturan testas och resultatet presenteras i en rapport. Om
 ## <a name="see-also"></a>Se även
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

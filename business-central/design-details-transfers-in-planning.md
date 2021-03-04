@@ -169,3 +169,6 @@ Om efterfr책gan 채ndras fr책n 27 till 22 kommer systemet att minska antalet ned�
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Balansera efterfr책gan och tillg책ng](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

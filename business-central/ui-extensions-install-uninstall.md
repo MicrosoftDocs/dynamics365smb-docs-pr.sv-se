@@ -92,3 +92,6 @@ Vissa tillägg är obligatoriska. Du kan inte avinstallera dem från sidan för 
 [Komma igång](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

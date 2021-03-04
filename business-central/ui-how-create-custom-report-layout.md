@@ -119,3 +119,6 @@ Lägga till datafält från en -rapportdatauppsättning är mer avancerat och kr
 [Förbereda ekonomiska rapporter med kontouppställningar och kontokategorier](bi-how-work-account-schedule.md) 
 [Affärsstöd](bi.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

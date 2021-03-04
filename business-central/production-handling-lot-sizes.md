@@ -52,3 +52,6 @@ För leveransplanering fungerar partistorleksinställningen på artiklar med **S
 [Arbeta med måttenheter för produktionsbatch](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Skapa flöden](production-how-to-create-routings.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

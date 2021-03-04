@@ -199,3 +199,6 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 [Kundhantering](marketing-relationship-management.md)  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

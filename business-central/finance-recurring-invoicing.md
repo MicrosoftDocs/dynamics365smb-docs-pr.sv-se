@@ -121,3 +121,6 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta ti
 [Efterfrågeprognoser och avropsorder](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)  
 [Återkommande order (Norge)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

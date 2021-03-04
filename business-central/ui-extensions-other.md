@@ -27,3 +27,6 @@ Listan över tillägg från andra företag växer varje månad. Så håll utkik 
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Komma igång](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

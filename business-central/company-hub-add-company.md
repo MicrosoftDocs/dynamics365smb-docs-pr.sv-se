@@ -47,3 +47,6 @@ När du har lagt till dina miljöer visas företagen automatiskt. Om du vet att 
 
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

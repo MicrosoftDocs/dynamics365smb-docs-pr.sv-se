@@ -38,3 +38,6 @@ För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste d
 [Ekonomi](finance.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

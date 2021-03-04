@@ -42,3 +42,6 @@ Alla arbetsflödesmallar som du skapar med Power Automate läggs till i listan �
 [Inköp](purchasing-manage-purchasing.md)  
 [Hantera projekt](projects-manage-projects.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

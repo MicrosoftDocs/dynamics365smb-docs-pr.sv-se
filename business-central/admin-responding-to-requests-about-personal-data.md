@@ -62,3 +62,6 @@ Om en kontaktperson ålder understiger åldern för juridiskt godkännande enlig
 [Exportera dina affärsdata till Excel](about-export-data.md)  
 [Logga ändringar](across-log-changes.md)  
 [Registrerades begäran för GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

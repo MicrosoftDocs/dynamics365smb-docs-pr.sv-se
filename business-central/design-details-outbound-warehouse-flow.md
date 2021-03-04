@@ -134,3 +134,6 @@ Dessutom finns följande interna källdokument som fungerar som utgående källo
 ## <a name="see-also"></a>Se även
 
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

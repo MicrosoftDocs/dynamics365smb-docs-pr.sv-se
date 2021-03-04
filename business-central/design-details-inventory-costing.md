@@ -41,3 +41,6 @@ Lagervärdering, kallas även kostnadshantering, används vid registrering och r
 [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)  
 [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)  
 [Designdetaljer: Omvärdering](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

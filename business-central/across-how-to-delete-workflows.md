@@ -40,3 +40,6 @@ Om du är säker på att ett arbetsflöde inte längre används kan du ta bort d
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)   
  [Arbetsflöde](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

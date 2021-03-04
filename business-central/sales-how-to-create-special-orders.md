@@ -49,3 +49,6 @@ En inköpsorder som skapas som en specialorder för en försäljningsorder respe
 [Skapa direktleveranser](sales-how-drop-shipment.md)   
 [Designdetaljer: Partiformningsmetoder](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

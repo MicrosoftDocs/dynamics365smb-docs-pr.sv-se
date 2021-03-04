@@ -35,3 +35,6 @@ Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att
  [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

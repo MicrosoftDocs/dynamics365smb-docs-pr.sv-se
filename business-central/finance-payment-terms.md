@@ -47,3 +47,6 @@ När du har ställt in betalningsvillkoren tilldelar du dem till kunder och leve
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

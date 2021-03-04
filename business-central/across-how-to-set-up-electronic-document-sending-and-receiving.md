@@ -149,3 +149,6 @@ Avsnittet innehåller följande procedurer:
 [Utbyta data elektroniskt.](across-data-exchange.md)   
 [Fakturaförsäljning](sales-how-invoice-sales.md)   
 [Registrera inköp](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

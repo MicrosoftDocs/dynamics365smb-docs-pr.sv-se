@@ -68,3 +68,6 @@ Information om hur du ändrar vilken layout som ska användas finns i [Ändra ak
 [Skicka dokument som e-post](ui-how-send-documents-email.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ För att förhindra luckor i kostnadsbudgettransaktionerna och kostnadsjournalst
 [Redovisa kostnader](finance-manage-cost-accounting.md)
 [Skapa kostnadsbudgetar](finance-create-cost-budgets.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

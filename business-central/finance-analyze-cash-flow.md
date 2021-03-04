@@ -55,3 +55,6 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -29,3 +29,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
   
 ## <a name="see-also"></a>Se även  
 [Ställa in tjänstehantering](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

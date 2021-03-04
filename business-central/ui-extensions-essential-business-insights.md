@@ -38,3 +38,6 @@ I följande tabell beskrivs den information som detta tillägg ger respektive ro
 
 ## <a name="see-also"></a>Se även
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

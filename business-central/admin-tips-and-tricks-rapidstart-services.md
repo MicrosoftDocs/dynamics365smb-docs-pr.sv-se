@@ -50,3 +50,6 @@ När du använder konfigurationspaket för att migrera data separerar du datan i
 
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

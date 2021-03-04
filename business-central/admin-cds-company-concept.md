@@ -77,3 +77,5 @@ När du kopplar säljare i [!INCLUDE[prod_short](includes/prod_short.md)] till a
 
 ## <a name="see-also"></a>Se även
 [Om [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

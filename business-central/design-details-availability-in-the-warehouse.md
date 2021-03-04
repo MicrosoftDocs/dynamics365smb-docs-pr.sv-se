@@ -77,3 +77,6 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
  [Visa artikeldisposition](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

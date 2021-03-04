@@ -100,3 +100,6 @@ Till exempel letar jobbkötransaktionen VALUTA som standard synkroniserar valuto
 [Synkronisera manuellt registermappning](admin-manual-synchronization-of-table-mappings.md)  
 [Schemalägga en synkronisering mellan Business Central och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Om integrering Dynamics 365 Business Central med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

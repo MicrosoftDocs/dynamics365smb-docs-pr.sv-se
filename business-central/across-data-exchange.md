@@ -39,3 +39,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Utbyta data](across-exchange-data.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ I proceduren nedan används en bokförd servicefaktura som exempel, men samma pr
 ## <a name="see-also"></a>Se även  
 [Bokför tjänsteorder](service-how-to-post-service-orders.md)   
 [Skapa tjänsteorder](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

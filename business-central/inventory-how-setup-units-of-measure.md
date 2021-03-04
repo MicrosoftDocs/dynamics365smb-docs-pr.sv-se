@@ -87,3 +87,6 @@ Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du 
 [Hantera inköp](purchasing-manage-purchasing.md)  
 [Hantera försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

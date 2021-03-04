@@ -150,3 +150,6 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
 [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

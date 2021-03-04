@@ -46,3 +46,6 @@ Kodmodul 12 i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller följan
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)   
 [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

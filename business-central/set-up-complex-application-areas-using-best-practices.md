@@ -35,3 +35,6 @@ Det är viktigt att ange rätt inställningsvärden från början för att en ny
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

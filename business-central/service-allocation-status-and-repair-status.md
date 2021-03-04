@@ -70,3 +70,6 @@ En ny fördelningspost skapas som innehåller den nya resursen med statusen **Ak
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

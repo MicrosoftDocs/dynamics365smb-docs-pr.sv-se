@@ -93,3 +93,6 @@ Välj den här länken för att visa eller ändra meddelandena som du får om vi
 [Skapa nya företag](about-new-company.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för d
 ## <a name="see-also"></a>Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

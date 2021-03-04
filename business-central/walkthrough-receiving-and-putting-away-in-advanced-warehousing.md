@@ -161,3 +161,6 @@ På sidan **Dist.lager artikelinförsel** kan du hantera artikelinförslar för 
  [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
  [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -182,3 +182,6 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 ## <a name="see-also"></a>Se även  
 [Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)   
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

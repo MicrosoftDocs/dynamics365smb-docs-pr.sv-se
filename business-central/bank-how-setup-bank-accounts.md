@@ -56,3 +56,6 @@ Fälten på snabbfliken **Överför** på sidan **Leveraqntörsbankkontokort** �
 [Ställa in bokföringsmallar](finance-posting-groups.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

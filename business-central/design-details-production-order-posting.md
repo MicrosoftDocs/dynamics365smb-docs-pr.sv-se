@@ -110,3 +110,6 @@ I standardkostnadmiljöer baseras värderingen av en produktionsorder på följa
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

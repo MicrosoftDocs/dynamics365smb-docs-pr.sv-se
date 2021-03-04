@@ -56,3 +56,5 @@ Innan du kan arbeta med kontrakt, måste du ställa in följande:
 
 ## <a name="see-also"></a>Se även
 [Ställa in tjänstehantering](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

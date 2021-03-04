@@ -37,3 +37,6 @@ Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska
 ## <a name="see-also"></a>Se även  
  [Arbeta med rapporter och batch-jobb och XMLports](../../ui-work-report.md)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

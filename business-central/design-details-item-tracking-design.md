@@ -45,3 +45,6 @@ Mer information finns i [Designdetaljer: Bokföringsstruktur för artikelspårni
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

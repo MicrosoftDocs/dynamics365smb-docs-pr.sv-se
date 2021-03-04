@@ -39,3 +39,6 @@ Om du är intresserad av vilka erbjudanden för regelefterlevnad som Microsoft h
 [Intyg](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

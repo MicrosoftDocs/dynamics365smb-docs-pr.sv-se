@@ -68,3 +68,6 @@ Följande procedur baseras på ett kundkort. Momenten är liknande för en lever
 [Försäljning](sales-manage-sales.md)  
 [Ställa in kontakter](marketing-setup-contacts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

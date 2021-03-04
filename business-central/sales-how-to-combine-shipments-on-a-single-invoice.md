@@ -62,3 +62,6 @@ Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel försäljn
 ## <a name="see-also"></a>Se även  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

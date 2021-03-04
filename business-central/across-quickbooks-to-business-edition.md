@@ -37,3 +37,6 @@ Om du är redo att börja nu, välj ikonen ![Glödlampa som öppnar funktionen B
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Anpassa Business Central med tillägg](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

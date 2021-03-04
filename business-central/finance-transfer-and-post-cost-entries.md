@@ -101,3 +101,6 @@ I tabellen **Bokförd journal för kostnad** skapar [!INCLUDE[prod_short](includ
  [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)   
  [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)   
  [Redovisa kostnader](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

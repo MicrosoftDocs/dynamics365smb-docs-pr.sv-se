@@ -38,3 +38,6 @@ Inköpsofferten tas bort från databasen. En inköpsfaktura eller försäljnings
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Skicka dokument som e-transaktion](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Du kan visa mappningen mellan register i [!INCLUDE[prod_short](includes/cds_long
 [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

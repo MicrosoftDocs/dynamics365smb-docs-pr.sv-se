@@ -232,3 +232,6 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 ## <a name="see-also"></a>Se även  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
  [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

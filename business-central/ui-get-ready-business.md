@@ -74,3 +74,6 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 [Resurser för hjälp och support](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

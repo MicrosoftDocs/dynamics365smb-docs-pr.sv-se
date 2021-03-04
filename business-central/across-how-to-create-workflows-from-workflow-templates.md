@@ -45,3 +45,6 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)   
  [Arbetsflöde](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

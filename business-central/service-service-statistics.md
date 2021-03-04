@@ -112,3 +112,6 @@ Du kan använda sidan **Statistik för servicekreditnota** för att visa en stat
 [Skapa tjänsteorder](service-how-to-create-service-orders.md)   
 [Skapa tjänsteartiklar](service-how-to-create-service-items.md)   
 [Planera service](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

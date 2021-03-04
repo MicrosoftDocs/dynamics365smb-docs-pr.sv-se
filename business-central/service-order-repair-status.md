@@ -52,3 +52,6 @@ Upprepa dessa stegen för respektive reparationsstatusalternativ som du vill ska
 
 [Serviceorderstatus och reparationsstatus](service-service-order-status-and-repair-status.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

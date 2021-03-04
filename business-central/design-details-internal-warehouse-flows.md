@@ -118,3 +118,6 @@ Flödet av artiklar mellan lagerställen på ett företags lagerställe centrera
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

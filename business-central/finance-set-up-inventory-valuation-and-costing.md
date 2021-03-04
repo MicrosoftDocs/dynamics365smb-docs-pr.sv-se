@@ -47,3 +47,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Designinformation: ändra värderingsprinciper för artiklar](design-details-changing-costing-methods.md)  
 [Arbeta med Business Central](ui-work-product.md)  
 [Ekonomi](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

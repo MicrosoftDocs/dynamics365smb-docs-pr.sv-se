@@ -39,3 +39,6 @@ Nedan beskrivs hur du lägger till en kommentar för ett artikelkort. Momentet �
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

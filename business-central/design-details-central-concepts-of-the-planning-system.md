@@ -295,3 +295,6 @@ Detta slutför översikten över centrala koncept för leveransplanering i [!INC
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

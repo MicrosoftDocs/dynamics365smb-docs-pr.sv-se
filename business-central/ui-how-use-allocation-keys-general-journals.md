@@ -47,3 +47,6 @@ Du kan fördela en transaktion i en redovisningsjournal på flera olika konton n
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

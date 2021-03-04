@@ -125,3 +125,6 @@ Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom a
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Bulkfakturering från Microsoft Bookings i Business Central ](finance-bookings.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

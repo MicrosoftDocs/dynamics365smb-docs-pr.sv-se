@@ -39,3 +39,6 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 [Konfigurera arbetsflöden](across-set-up-workflows.md)   
 [Arbetsflöde](across-workflow.md)   
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

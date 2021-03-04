@@ -93,3 +93,6 @@ Det finns också teckensnitt för andra syften i [!INCLUDE[prod_short](includes/
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

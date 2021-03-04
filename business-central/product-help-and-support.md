@@ -141,3 +141,6 @@ Värden docs.microsoft.com har både innehåll för andra produkter och andra ty
 [Business Central utvecklare och administration](/dynamics365/business-central/dev-itpro/)  
 [Resurser för hjälp och support för partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

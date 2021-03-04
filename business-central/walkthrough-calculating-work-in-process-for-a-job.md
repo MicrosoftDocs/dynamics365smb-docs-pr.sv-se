@@ -164,3 +164,6 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
  [Förstå PIA-metoder](projects-understanding-wip.md)   
  [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

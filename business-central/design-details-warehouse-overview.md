@@ -79,3 +79,6 @@ För att anpassas till de ekonomiska begreppen för inköp och försäljningar r
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

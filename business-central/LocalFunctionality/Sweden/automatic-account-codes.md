@@ -26,3 +26,6 @@ ms.locfileid: "3931393"
 [Ställ in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)  
 [Ställa in bokföringsmallar](../../finance-posting-groups.md)  
 [Arbeta med redovisningsjournaler](../../ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

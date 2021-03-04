@@ -110,3 +110,6 @@ Microsoft bygger lokaliserade versioner av Business Central för ett begränsat 
 
  ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

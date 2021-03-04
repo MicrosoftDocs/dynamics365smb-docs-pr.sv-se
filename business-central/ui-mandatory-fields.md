@@ -30,3 +30,6 @@ På sidan **Artikelkort** visas den röda asterisken i fälten **Beskrivning** o
 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

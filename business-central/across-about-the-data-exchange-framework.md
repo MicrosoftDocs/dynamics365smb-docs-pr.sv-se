@@ -66,3 +66,6 @@ För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställnin
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

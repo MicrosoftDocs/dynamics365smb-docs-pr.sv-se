@@ -151,3 +151,6 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: artikelkoppling](design-details-item-application.md)   
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

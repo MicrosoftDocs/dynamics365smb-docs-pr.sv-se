@@ -132,3 +132,6 @@ Nedan beskrivs hur du bokför leveransen direkt från en serviceorder i lagerst�
 ## <a name="see-also"></a>Se även  
 [Bokföra tjänstehantering](service-service-posting.md)  
 [Skapa en tjänsteorder](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

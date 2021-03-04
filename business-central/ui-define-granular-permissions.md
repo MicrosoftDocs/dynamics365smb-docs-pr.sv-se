@@ -263,3 +263,6 @@ Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] skicka ändringar so
 [Administration](admin-setup-and-administration.md)  
 [Lägga till användare i Microsoft 365 för företag](https://aka.ms/CreateOffice365Users)  
 [Säkerhet och skydd i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjälpen för utvecklare och IT-proffs
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

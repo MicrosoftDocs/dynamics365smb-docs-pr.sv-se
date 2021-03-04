@@ -58,3 +58,6 @@ Om du inte skapar en specifik servicekalender för ett servicekontrakt, används
 [Förstå fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Förstå serviceorderstatus och reparationsstatus](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

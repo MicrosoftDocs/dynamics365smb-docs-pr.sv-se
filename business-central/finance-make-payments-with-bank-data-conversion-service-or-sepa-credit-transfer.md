@@ -158,3 +158,6 @@ Bokför betalningarna när den elektroniska betalningen har behandlats utan prob
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

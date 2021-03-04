@@ -132,3 +132,6 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

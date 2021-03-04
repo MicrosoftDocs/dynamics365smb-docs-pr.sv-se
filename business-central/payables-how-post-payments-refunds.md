@@ -57,3 +57,6 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

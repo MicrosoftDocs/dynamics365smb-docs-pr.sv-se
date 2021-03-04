@@ -49,3 +49,5 @@ Definierad mall kopplas till en ny post som skapas via API och bara om de villko
 [Slutpunkter för API:er](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

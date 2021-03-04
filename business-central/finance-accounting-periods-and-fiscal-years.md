@@ -70,3 +70,6 @@ Avsluta räkenskapsåret är en av åtgärderna för att avsluta böckerna. Efte
 [Avsluta böckerna](year-close-books.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Så här: Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Koncernintern
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Avsluta böcker](year-close-books.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Nu kan Ken koppla kolumnlayouten till kontouppställningsnamnet.
  [Arbeta med kontouppställningar](bi-how-work-account-schedule.md)   
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

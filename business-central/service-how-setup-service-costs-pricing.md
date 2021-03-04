@@ -65,3 +65,6 @@ När du arbetar med serviceartiklar och serviceorder kanske du behöver registre
 ## <a name="see-also"></a>Se även
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

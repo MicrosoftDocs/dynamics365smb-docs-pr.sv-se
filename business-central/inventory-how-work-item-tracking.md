@@ -275,3 +275,6 @@ Att gruppera artikelspårningen för en artikel innebär att ett parti- eller se
 [Designdetaljer – artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

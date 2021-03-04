@@ -60,3 +60,6 @@ På Microsoft lyssnar vi ständigt på feedback från våra olika användargrupp
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Söka efter sidor med rollutforskaren](ui-role-explorer.md)  
 [Komma igång](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

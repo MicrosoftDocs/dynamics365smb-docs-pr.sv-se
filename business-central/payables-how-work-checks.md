@@ -84,3 +84,6 @@ Om du vill granska bokförda checkar, till exempel för att kontrollera flera ko
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Exportera en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

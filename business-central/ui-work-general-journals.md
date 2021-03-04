@@ -210,3 +210,6 @@ Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnu
 [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md)  
 [Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner](payables-how-apply-purchase-transactions-manually.md)  
 [Arbeta med koncerninterna dokument och journaler](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

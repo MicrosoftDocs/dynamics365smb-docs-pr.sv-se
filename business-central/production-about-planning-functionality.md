@@ -170,3 +170,6 @@ Information om hur du planerar lagerställen och överföringar finns i [Planera
 [Inköp](purchasing-manage-purchasing.md)  
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

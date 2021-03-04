@@ -51,3 +51,6 @@ När din Dynamics 365 återförsäljare har fått rätt licens för den lokala l
 [Välkommen till Business Central](index.md)  
 [Intelligenta molntillägg för migrering av moln](ui-extensions-data-replication.md)  
 [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

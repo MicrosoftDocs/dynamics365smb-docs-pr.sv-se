@@ -49,3 +49,6 @@ Du kan också lägga till betalningsvillkor i betalsättet. Mer information finn
 [Ställa in betalningsvillkor](finance-payment-terms.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -222,3 +222,6 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  
 [Hitta transaktioner](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

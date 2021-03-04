@@ -63,3 +63,6 @@ Du kan lägga upp servicehyllor som hjälper till att identifiera där du lagrar
 ## <a name="see-also"></a>Se även
 [Skapa koder för standardtjänst](service-how-setup-service-coding.md)   
 [Ställa in felsökning](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

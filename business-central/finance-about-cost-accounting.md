@@ -73,3 +73,6 @@ De flesta rapporter och statistik baseras på de bokförda kostnadstransaktioner
  [Ekonomi](finance.md)   
  [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

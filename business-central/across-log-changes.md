@@ -88,3 +88,5 @@ Du kan skapa bevarandeprinciper för att ta bort data som inte behövs i loggarn
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definiera bevarandeprinciper](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

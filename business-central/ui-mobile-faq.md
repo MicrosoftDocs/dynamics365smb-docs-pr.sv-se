@@ -67,3 +67,6 @@ Ja det kan du. Sätten att logga in skiljer sig något åt – det är allt. Mer
 
 [Få Business Central på din mobila enhet](install-mobile-app.md)  
 [Installera appen Business Central för Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

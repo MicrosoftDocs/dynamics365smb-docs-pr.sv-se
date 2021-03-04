@@ -305,3 +305,6 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 [Hitta transaktioner](ui-find-entries.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

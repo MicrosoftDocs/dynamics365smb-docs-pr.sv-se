@@ -118,3 +118,6 @@ Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komp
 [Visa artikeldisposition](inventory-how-availability-overview.md)     
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

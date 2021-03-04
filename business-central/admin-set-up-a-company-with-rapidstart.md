@@ -49,3 +49,6 @@ Du kan använda följande komponenter för att snabba på inställningen av ditt
 [Administration](admin-setup-and-administration.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

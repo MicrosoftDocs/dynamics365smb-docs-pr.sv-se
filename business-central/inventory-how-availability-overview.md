@@ -129,3 +129,6 @@ Om en eller flera monteringskomponenter inte är tillgänglig, visas det i **Mö
 [Sälja produkter](sales-how-sell-products.md)      
 [Arbeta med Business Central](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

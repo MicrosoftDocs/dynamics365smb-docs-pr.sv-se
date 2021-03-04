@@ -182,3 +182,6 @@ Vi rekommenderar följande:
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Översikt](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

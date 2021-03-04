@@ -54,3 +54,6 @@ Om du har markerat kryssrutan **Skapa uppföljningssegment** skapas automatiskt 
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

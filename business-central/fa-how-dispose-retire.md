@@ -59,3 +59,6 @@ Sidan **Redovisningstransaktioner** öppnas där du kan visa de transaktioner so
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Hitta transaktioner](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

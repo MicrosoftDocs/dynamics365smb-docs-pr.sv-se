@@ -45,3 +45,6 @@ De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionern
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -489,3 +489,6 @@ Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader f�
  [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)   
  [Fakturera projekt](projects-how-invoice-jobs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

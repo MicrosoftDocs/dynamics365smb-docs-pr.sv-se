@@ -123,3 +123,6 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
   
 ## <a name="see-also"></a>Se även  
  [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

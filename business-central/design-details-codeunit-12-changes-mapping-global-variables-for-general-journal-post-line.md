@@ -110,3 +110,6 @@ Följande ändringar har implementerats i olika versioner av [!INCLUDE [navnow_m
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer – Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

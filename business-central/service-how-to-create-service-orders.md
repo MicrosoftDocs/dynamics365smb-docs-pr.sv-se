@@ -110,3 +110,6 @@ Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern int
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Arbeta med tjänsteuppgifter](service-how-to-work-on-service-tasks.md)  
 [Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

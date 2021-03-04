@@ -46,3 +46,6 @@ Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, el
  [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)   
  [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

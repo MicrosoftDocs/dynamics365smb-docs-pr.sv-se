@@ -28,3 +28,5 @@ I gränssnittstrukturen för bokföring i [!INCLUDE[prod_short](includes/prod_sh
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

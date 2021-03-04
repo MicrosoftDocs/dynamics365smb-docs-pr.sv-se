@@ -51,3 +51,6 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
  [Om kostnadsredovisning](finance-about-cost-accounting.md)   
  [Redovisa kostnader](finance-manage-cost-accounting.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

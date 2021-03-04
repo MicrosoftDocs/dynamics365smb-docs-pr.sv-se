@@ -62,3 +62,6 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

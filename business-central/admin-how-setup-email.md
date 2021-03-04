@@ -199,3 +199,6 @@ När du har registrerat ditt program i Azure Portal använder du den assisterade
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på min mobila enhet](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

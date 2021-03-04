@@ -41,3 +41,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställ in status för serviceorder och reparationer](service-order-repair-status.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

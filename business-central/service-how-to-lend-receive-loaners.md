@@ -46,3 +46,6 @@ Du kan använda sidan **Servicekommentarsblad Allmänt** för att registrera kom
   
 ## <a name="see-also"></a>Se även  
 [Lägga upp program för låneartiklar](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

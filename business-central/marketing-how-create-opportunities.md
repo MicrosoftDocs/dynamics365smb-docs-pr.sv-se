@@ -46,3 +46,6 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ På sidorna **Rapporturval - Försäljning** och **Rapporturval - Inköp** hjäl
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md)  
 [Ställa in skrivare](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten 
 [Komma igång](product-get-started.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Ekonomi](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

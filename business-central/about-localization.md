@@ -64,3 +64,6 @@ Välj lämplig länk om du vill ha information om den lokala funktionaliteten f�
 [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationella tillgängligheten för Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

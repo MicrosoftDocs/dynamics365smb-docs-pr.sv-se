@@ -130,3 +130,6 @@ Om ett affärsscenario kräver en arbetsflödehändelse eller ett svar som inte 
 [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)  
 [Arbetsflöde](across-workflow.md)  
 [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

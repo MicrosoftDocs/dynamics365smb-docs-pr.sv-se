@@ -79,3 +79,6 @@ Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du p�
 [Redovisningen och kontoplanen](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

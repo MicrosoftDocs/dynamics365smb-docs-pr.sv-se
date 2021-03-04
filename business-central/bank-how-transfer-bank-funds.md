@@ -58,3 +58,6 @@ För att överföra pengar mellan bankkonton som använder olika valutor måste 
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

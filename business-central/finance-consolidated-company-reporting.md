@@ -120,3 +120,6 @@ De exporterade posterna innehåller följande fält: **Kontonr**, **Bokföringsd
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportera affärsdata till Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

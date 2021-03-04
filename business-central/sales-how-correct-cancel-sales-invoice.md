@@ -74,3 +74,6 @@ Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprung
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skicka dokument via e-post](ui-how-send-documents-email.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

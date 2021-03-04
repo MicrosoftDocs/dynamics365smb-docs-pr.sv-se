@@ -100,3 +100,6 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 [Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

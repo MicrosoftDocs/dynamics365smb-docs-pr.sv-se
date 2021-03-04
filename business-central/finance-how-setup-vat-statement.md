@@ -51,3 +51,6 @@ När du har definierat en momsrapport kan förhandsgranska du den och kontroller
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

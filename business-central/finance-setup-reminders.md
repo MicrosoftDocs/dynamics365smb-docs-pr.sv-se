@@ -103,3 +103,6 @@ När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och t
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Konfigurera räntevillkor](finance-setup-finance-charges.md)  
 [Ställa in Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

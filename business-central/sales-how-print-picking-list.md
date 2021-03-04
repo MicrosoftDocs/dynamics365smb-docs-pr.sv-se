@@ -39,3 +39,6 @@ Du kan också spara plockningslistan som ett dokument, t.ex. skicka till någon 
 [Lager](inventory-manage-inventory.md)  
 [Plocka artiklar](warehouse-pick-items.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

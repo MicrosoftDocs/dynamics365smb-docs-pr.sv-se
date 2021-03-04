@@ -70,3 +70,6 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

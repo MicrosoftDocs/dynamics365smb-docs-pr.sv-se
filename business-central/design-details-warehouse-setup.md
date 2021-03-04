@@ -141,3 +141,6 @@ Artikelinförselmallen kan tilldelas en artikel och till ett lagerställe. Artik
 
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)   
 [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

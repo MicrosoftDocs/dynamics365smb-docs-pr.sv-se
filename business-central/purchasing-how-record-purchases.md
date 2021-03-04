@@ -100,3 +100,6 @@ Inköpet visas nu i lager, resurstransaktioner och ekonomiska transaktioner, och
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Förbereda direktutleveranser](sales-how-drop-shipment.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

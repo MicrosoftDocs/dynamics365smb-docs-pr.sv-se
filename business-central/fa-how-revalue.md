@@ -122,3 +122,6 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 [Ekonomi](finance.md)  
 [Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

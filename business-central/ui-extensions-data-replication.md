@@ -45,3 +45,6 @@ Om du använder Dynamics SL, skaffa tillägget **Intelligent moln-bas**, tilläg
 
 [Intelligenta insikter](about-intelligent-cloud.md)  
 [Tillägget intelligent moln-bas](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

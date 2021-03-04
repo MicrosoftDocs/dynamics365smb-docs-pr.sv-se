@@ -66,3 +66,6 @@ När du konfigurerar användare i godkännandearbetsflöden måste du ange hur o
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

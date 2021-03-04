@@ -50,3 +50,6 @@ Kalkylbladet Dataklassificering låter dig göra saker som exempelvis:
 ## <a name="see-also"></a>Se även
 
 [Klassificering av Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

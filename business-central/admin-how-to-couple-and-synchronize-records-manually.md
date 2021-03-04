@@ -59,3 +59,6 @@ Du kan koppla bort en eller flera poster från listsidor eller sidan **Kopplade 
 
 ## <a name="see-also"></a>Se även  
 [Använda Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

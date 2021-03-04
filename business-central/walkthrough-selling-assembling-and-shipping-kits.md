@@ -444,3 +444,6 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
  [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
  [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

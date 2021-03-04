@@ -48,3 +48,5 @@ Kodenhet 22 går i en loop via artikelspårningsnumren och delar upp bokföringe
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)   
 [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

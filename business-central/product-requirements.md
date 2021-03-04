@@ -79,3 +79,6 @@ Om du vill distribuera Business Central lokalt bör du kontrollera systemkraven.
 
 [Komma igång](product-get-started.md)  
 [Systemkrav för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

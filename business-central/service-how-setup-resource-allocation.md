@@ -83,3 +83,6 @@ Om du vill ändra de kvalifikationskoder som har tilldelats till artiklar, till 
 [Skapa koder för standardtjänster](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

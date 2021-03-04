@@ -47,3 +47,6 @@ För att överföra arbetsflöden till andra [!INCLUDE[prod_short](includes/prod
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)   
  [Arbetsflöde](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

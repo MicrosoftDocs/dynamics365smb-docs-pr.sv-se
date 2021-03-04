@@ -61,3 +61,6 @@ Du kan använda alternativa adresser för att hålla reda på var de anställda 
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

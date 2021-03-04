@@ -88,3 +88,6 @@ Mer information finns i [Power Automate dokumentation](/power-automate/getting-s
 [Användarinställningar för godkännande](across-how-to-set-up-approval-users.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Ekonomi](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

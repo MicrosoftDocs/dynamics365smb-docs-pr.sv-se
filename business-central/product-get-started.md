@@ -93,3 +93,6 @@ Gå till information om andra Dynamics 365-appar genom att välja [Dynamics 365]
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

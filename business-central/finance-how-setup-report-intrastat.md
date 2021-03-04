@@ -131,3 +131,6 @@ Lägg till alla koder du har användning för på sidan **EU tull statistiknr**.
 
 ## <a name="see-also"></a>Se även
 [Ekonomihantering](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

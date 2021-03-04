@@ -159,3 +159,6 @@ Om nästa bankavstämning du gör är för augusti bör du överväga att ändra
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Definiera regler för automatisk koppling av betalningar](receivables-how-set-up-payment-application-rules.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

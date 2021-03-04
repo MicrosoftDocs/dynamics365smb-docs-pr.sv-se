@@ -46,3 +46,6 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

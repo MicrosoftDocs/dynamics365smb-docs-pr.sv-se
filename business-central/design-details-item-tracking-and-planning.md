@@ -56,3 +56,6 @@ Mer information finns i [Designdetaljer: Balansera efterfrågan och tillgång](d
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)  
 [Hitta transaktioner](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

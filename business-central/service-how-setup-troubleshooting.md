@@ -30,3 +30,5 @@ Du kan ställa in felsökningsriktlinjer som hjälper tekniker att lösa problem
 
 ## <a name="see-also"></a>Se även
 [Servicehantering](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

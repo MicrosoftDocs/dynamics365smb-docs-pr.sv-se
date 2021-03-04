@@ -146,3 +146,5 @@ Tabellen **Betalningsvillkor** i [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 ## <a name="see-also"></a>Se även
 [Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

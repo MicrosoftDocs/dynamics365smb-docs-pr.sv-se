@@ -191,3 +191,6 @@ Följande ändringar har implementerats i olika versioner av [!INCLUDE [navnow_m
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Ändringar i kodmodul 12: Mappa globala variabler för bokföring av rad i redovisningsjournalen](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

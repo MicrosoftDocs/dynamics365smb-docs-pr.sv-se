@@ -143,3 +143,6 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
  [Redovisa kostnader](finance-manage-cost-accounting.md)   
  [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
  [Om kostnadsredovisning](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

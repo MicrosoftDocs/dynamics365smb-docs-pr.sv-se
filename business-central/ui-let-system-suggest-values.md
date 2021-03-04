@@ -44,3 +44,6 @@ Dina huvudåtgärder på sidan är att fylla i kryssrutan **Utförd betalning** 
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ekonomi](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

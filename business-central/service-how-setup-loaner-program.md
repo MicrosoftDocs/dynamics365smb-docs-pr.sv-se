@@ -35,3 +35,6 @@ Ibland måste du förse en kund med en låneartikel medan reparationen pågår. 
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Leverera service](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

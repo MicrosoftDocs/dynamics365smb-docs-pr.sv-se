@@ -78,3 +78,6 @@ Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senast
 [Ställa in en alternativ rapporteringsvaluta.](finance-how-setup-additional-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

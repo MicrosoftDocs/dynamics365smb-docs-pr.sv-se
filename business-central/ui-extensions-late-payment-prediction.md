@@ -111,3 +111,6 @@ Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän
 [Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Anpassa Business Central med tillägg](ui-extensions.md)  
 [Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

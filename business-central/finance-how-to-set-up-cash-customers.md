@@ -39,3 +39,6 @@ Det går inte att skapa fakturor utan kundnummer. Det gäller även vid kontantf
 [Registrera nya kunder](sales-how-register-new-customers.md)    
 [Ekonomi](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

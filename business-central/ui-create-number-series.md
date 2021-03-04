@@ -87,3 +87,6 @@ När du hädanefter definierar något för vilket ett nummer krävs kan du anvä
 ## <a name="see-also"></a>Se även
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

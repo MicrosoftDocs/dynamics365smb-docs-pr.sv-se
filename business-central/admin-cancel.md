@@ -46,3 +46,6 @@ Om du vill dölja [!INCLUDE[prod_short](includes/prod_short.md)] från din progr
 [Exportera affärsdata till Excel](about-export-data.md)  
 [Microsoft 365 administratörscenter](https://admin.microsoft.com/)  
 [Hur lång tid är testperioden och hur avbryter jag?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

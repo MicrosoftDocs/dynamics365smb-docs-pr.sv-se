@@ -66,3 +66,6 @@ I det här kalkylarket kan du arbeta med flera lagerställesinnehållsrader för
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

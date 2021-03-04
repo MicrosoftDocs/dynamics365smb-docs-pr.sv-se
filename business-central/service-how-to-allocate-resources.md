@@ -143,3 +143,6 @@ Du kan avbryta resursfördelningar för serviceuppgifter utan att omfördela upp
 ## <a name="see-also"></a>Se även
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

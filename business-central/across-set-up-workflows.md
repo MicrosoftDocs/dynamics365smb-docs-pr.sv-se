@@ -53,3 +53,6 @@ Den här videon visar hur du ställer in ett arbetsflöde som kräver att någon
  [Arbetsflöde](across-workflow.md)   
  [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

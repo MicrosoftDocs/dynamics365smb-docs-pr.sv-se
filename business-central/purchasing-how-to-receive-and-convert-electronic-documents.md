@@ -65,3 +65,6 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöde
 [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Utbyta data elektroniskt.](across-data-exchange.md)   
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

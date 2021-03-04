@@ -46,3 +46,6 @@ I följande procedur beskrivs hur du avslutar sådana transaktioner genom att ut
 [Ställa in lagervärdering och lagerkostnad](finance-set-up-inventory-valuation-and-costing.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

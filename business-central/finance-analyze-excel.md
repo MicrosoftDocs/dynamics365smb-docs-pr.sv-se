@@ -56,3 +56,6 @@ Med tillägget, kan du uppdatera data från [!INCLUDE [prod_short](includes/prod
 [Ställa in Finance](finance-setup-finance.md)  
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Arbeta med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

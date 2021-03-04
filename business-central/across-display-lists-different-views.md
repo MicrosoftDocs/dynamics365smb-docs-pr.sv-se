@@ -30,3 +30,6 @@ Du kan importera artikelbilder, antingen en i taget eller för flera artiklar sa
 ## <a name="see-also"></a>Se även
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

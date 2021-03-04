@@ -71,3 +71,6 @@ Nästa gång du har genererat kontouppställningar kommer saldot visa ett totalt
 [Ekonomi](finance.md)  
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
 [Affärsstöd](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

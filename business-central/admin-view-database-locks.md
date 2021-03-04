@@ -33,3 +33,6 @@ Mer information om hur du låser databasen finns i [Övervaka databaslås](/dyna
 ## <a name="see-also"></a>Se även
 
 [Övervaka databaslås](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

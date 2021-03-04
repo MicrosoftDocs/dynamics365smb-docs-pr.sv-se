@@ -158,3 +158,6 @@ Standardvärdena från den valda kundmallen förs in på kundkortet.
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

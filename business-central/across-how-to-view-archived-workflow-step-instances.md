@@ -40,3 +40,6 @@ Sidan **Arkiverade instanser för arbetsflödessteg** öppnas och visar alla ark
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
  [Använda arbetsflöden](across-use-workflows.md)   
  [Arbetsflöde](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

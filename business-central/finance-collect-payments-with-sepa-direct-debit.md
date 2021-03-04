@@ -162,3 +162,6 @@ En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller 
 ## <a name="see-also"></a>Se även  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Servicehantering](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

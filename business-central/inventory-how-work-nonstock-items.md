@@ -73,3 +73,6 @@ Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer 
 [Skapa specialorder](sales-how-to-create-special-orders.md)|  
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

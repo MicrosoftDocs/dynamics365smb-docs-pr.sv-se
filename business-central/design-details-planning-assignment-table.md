@@ -67,3 +67,6 @@ När att prod.program eller ett nettobehov beräknas gäller inga begränsningar
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)   
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

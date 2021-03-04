@@ -107,3 +107,6 @@ När en serviceartikel har reparerats kan du ange både felkoden och åtgärdsko
 [Så här ställer du in felrapporteringsnivån](service-how-setup-fault-reporting.md)
 [fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)  
 [Servicebokföring](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

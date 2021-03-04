@@ -62,3 +62,6 @@ Om du gör ändringar i tillägget måste du ladda det på nytt för att uppdate
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeta med Business Central](ui-work-product.md)  
 [Förbättringar av Excel-integrering i 2019 utgivningsplan, våg 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
