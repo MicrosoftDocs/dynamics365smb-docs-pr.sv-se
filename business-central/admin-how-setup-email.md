@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752756"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470443"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan göra detta enklare genom att ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan också skapa rapportlayout som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 
 |Tillägg  |Beskrivning  |Exempel på när du kan använda  |
 |---------|---------|---------|
-|**Microsoft 365**|Alla skickar e-post från en delad postlåda i Exchange Online.|När alla meddelanden kommer från samma avdelning, t. ex. genom att din försäljningsorganisation skickar meddelanden från ett sales@cronus.com-konto. Detta innebär att du måste skapa en delad postlåda i administrationscentret för Office 365. Mer information finns i [Delade postlådor](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Alla skickar e-post från en delad postlåda i Exchange Online.|När alla meddelanden kommer från samma avdelning, t. ex. genom att din försäljningsorganisation skickar meddelanden från ett sales@cronus.com-konto. Detta innebär att du måste skapa en delad postlåda i administrationscentret för Office 365. Mer information finns i [Delade postlådor](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktuell användare**|Alla skickar e-post från det konto som de använde för att logga in på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillåt kommunikation från enskilda konton.|
 |**Annat (SMTP)**|Använd SMTP-protokoll för att skicka e-post.|Tillåt kommunikation via din SMTP-e-postserver. |
 
@@ -47,7 +47,7 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Äldre SMTP-inställningar och tillägget för e-post/SMTP-anslutning
-Om du redan använder [!INCLUDE[prod_short](includes/prod_short.md)] och har konfigurerat e-post via den äldre SMTP-konfigurationen kan du fortsätta att använda din konfiguration parallellt med tillägget för e-post/SMTP-anslutning. När vi uppdaterar din [!INCLUDE[prod_short](includes/prod_short.md)] till nästa version kommer vi att kopiera de äldre SMTP-inställningarna till tillägget för e-post/SMTP-anslutning. När du är klar kan administratören aktivera de förbättrade e-postfunktionerna, så kan du börja använda tillägget för e-post/SMTP-anslutning. Mer information finns i [Om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Det finns emellertid ingen synkronisering mellan anslutningstillägget för SMTP och de äldre inställningarna. Om du ändrar SMTP-inställningarna i tillägget bör du utföra samma ändringar i den äldre SMTP-konfigurationen eller vice versa.
+Om du redan använder [!INCLUDE[prod_short](includes/prod_short.md)] och har konfigurerat e-post via den äldre SMTP-konfigurationen kan du fortsätta att använda din konfiguration parallellt med tillägget för e-post/SMTP-anslutning. När vi uppdaterar din [!INCLUDE[prod_short](includes/prod_short.md)] till nästa version kommer vi att kopiera de äldre SMTP-inställningarna till tillägget för e-post/SMTP-anslutning. När du är klar kan administratören aktivera de förbättrade e-postfunktionerna, så kan du börja använda tillägget för e-post/SMTP-anslutning. Mer information finns i [Om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Det finns emellertid ingen synkronisering mellan anslutningstillägget för SMTP och de äldre inställningarna. Om du ändrar SMTP-inställningarna i tillägget bör du utföra samma ändringar i den äldre SMTP-konfigurationen eller vice versa.
 
 > [!NOTE]
 > Om du har anpassningar som är beroende av den äldre SMTP-funktionen för e-post finns det en chans att något kommer att gå fel med dina anpassningar om du börjar använda e-posttillägg. Vi rekommenderar att du installerar och testar tilläggen innan du aktiverar funktionsväxeln för förbättrade e-postfunktioner.
@@ -87,7 +87,7 @@ Du kan använda rapporter för att inkludera nyckelinformation från försäljni
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval, försäljning** och välj sedan tillhörande länk.
 2. På sidan **Rapportval, försäljning** i fältet **Användning** väljer du **Faktura**.
-3. På en ny rad i fältet **Rappport-ID** väljer du t.ex. standardrapport 1306.
+3. På en ny rad i fältet **Rappport-ID** väljer du t. ex. standardrapport 1306.
 4. Markera kryssrutan **Använd för e-postbrödtex**.
 5. Välj fältet **Layoutkod för brödtext i e-post** och välj sedan en layout från den nedrullningsbara listan.
 
@@ -157,7 +157,7 @@ De steg som ingår när du registrerar [!INCLUDE[prod_short](includes/prod_short
 > * Omdirigerings-URI (valfritt)
 > * Klienthemlighet
 
-Allmänna riktlinjer om hur du registrerar en app finns i [Snabbstart: Registrera en app med Microsofts identitetsplattform](/azure/active-directory/develop/quickstart-register-app.md). 
+Allmänna riktlinjer om hur du registrerar en app finns i [Snabbstart: Registrera en app med Microsofts identitetsplattform](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till dina app-registrering
 När du har registrerat ditt program i Azure Portal använder du den assisterade konfigurationen **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.

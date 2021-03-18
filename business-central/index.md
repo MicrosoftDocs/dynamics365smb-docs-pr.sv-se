@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 965171f23fb774ecfd865c1004cb9a224015ea21
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 836c3957f43d4b2d6ccb5e10bf8ef5efa3ba1177
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817212"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493209"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -32,7 +32,7 @@ Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på 
 Du kan också [besöka vårt videobibliotek](across-videos.md) eller börja med utbildningsvägen [Kom igång med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Om inget annat anges visar innehållet på den Docs.microsoft.com webbplatsen den senaste versionen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [vanliga frågor och svar](across-faq.md).
+> Om inget annat anges visar innehållet på [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/)-webbplatsen den senaste [!INCLUDE[prod_short](includes/prod_short.md)]-versionen online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [vanliga frågor och svar](across-faq.md).
 
 Följande avsnitt innehåller viktig information som du kan använda för att komma igång med [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -69,6 +69,10 @@ Följande avsnitt innehåller viktig information som du kan använda för att ko
 - [Utveckling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler och riktlinjer för AL-kod](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## <a name="learn"></a>Läs mer
+
+Hitta gratis e-utbildningsinnehåll på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 ## <a name="community-resources"></a>Gruppresurser
 

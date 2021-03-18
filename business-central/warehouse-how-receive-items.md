@@ -3,19 +3,19 @@ title: Så här inlevererar du artiklar | Microsoft Docs
 description: När artiklar tas emot i ett distributionslager som använder inleveransbearbetning måste du hämta raderna för det släppta källdokument som utlöste inleveransen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4ec09a0b265672aae22746a9b0e233e028d50bde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393505"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 
@@ -88,7 +88,7 @@ Om du inte använder artikelinförsel för distributionslagret utan i stället a
 
 ## <a name="to-receive-more-items-than-ordered"></a>Så här tar du emot fler artiklar än vad som beställts
 
-När du tar emot fler varor än vad du har beställt vill du kanske ta emot dem i stället för att annullera inleveransen. Det kan t.ex. vara billigare att behålla överskottet på lagret än att returnera det, eller så kan du erbjuda en rabatt för att behålla det.
+När du tar emot fler varor än vad du har beställt vill du kanske ta emot dem i stället för att annullera inleveransen. Det kan t. ex. vara billigare att behålla överskottet på lagret än att returnera det, eller så kan du erbjuda en rabatt för att behålla det.
 
 ### <a name="to-set-up-over-receipts"></a>Så här lägger du upp överinleveranser
 
