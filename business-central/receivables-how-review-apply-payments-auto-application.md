@@ -3,21 +3,21 @@ title: Kontrollera automatiskt tillämpade betalningar och koppla betalningar ma
 description: När betalningen kopplas automatiskt, kan du granska alla poster för en betalning och manuellt återställa dem som använts felaktigt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 363062b9811d5fc97f98b30994f348834c4bf784
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392680"
 ---
-# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Så här granskar och kopplar du betalningar manuellt efter automatisk koppling
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Granska och koppla betalningar manuellt efter automatisk koppling
 För varje journalrad som representerar en betalning på sidan **Betalningsavstämningsjournal** kan du öppna sidan **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information om automatisk koppling finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -41,7 +41,7 @@ Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hante
 2. Öppna betalningsavstämningsjournalen för ett bankkonto som du vill stämma av betalningar för. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. På sidan **Betalningsavstämningsjournal** väljer du en betalning som du vill granska eller manuellt koppla till en eller flera öppna transaktioner, och väljer sedan åtgärden **Koppla manuellt**.
 4. Välj kryssrutan **Kopplat** på raden för den öppna transaktion som du vill koppla betalningen till.
-5. Betalningsbeloppet, som visas även i fältet **Transaktionsbelopp** på sidan **Betalningskoppling** infogas i fältet **Kopplade belopp** men du kan ändra fältet, t.ex. om du vill koppla beloppet till flera öppna transaktioner.
+5. Betalningsbeloppet, som visas även i fältet **Transaktionsbelopp** på sidan **Betalningskoppling** infogas i fältet **Kopplade belopp** men du kan ändra fältet, t. ex. om du vill koppla beloppet till flera öppna transaktioner.
 6. Om du vill koppla en del av det betalda beloppet till en annan öppen transaktion för kontot, till exempel för att koppla klumpsummabetalning, markera kryssrutan **Kopplad** för raden. Det kopplade beloppet dras automatiskt av från transaktionsbeloppet för att motsvara distributionen på de två öppna transaktionerna.
 7. Skapa en ny rad under raden för samma konto för att koppla en del av en betalning till en eller flera öppna transaktioner som inte finns i databasen. I fältet **Kopplat belopp** anger du beloppet som ska kopplas på nya raden och justerar sedan fältet **Kopplat belopp** på den befintliga raden.
 8. Upprepa moment 5, 6 eller 7 för andra öppna transaktioner som du vill koppla en del av eller hela betalningsbeloppet till.

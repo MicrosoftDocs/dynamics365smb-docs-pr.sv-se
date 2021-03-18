@@ -3,19 +3,19 @@ title: Förändringar i mappning av globala variabler för bokföring i Codeunit
 description: I tidigare versioner ändrades codeunit 12 för att hjälpa till att förbättra prestandan i bokföringen från redovisningsjournalen. Läs om ändringarna i de globala variablerna.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: bb041e7be2a0c644d1c19e34b892bd9480123734
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367765"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390530"
 ---
 # <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Historiska ändringar i Codeunit 12: Mappa globala variabler för bokföringsrad i redovisningsjournal
 

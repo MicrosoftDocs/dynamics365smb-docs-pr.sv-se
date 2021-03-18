@@ -5,21 +5,21 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cab7487290a945a8b105afe89c73322eba42668e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393830"
 ---
 # <a name="view-test-reports-before-posting"></a>Visa testrapporter före bokföring
-När du vill bokföra ett dokument, t.ex. en beställning, faktura eller kreditnota, kan du testa dokumentet för att försäkra dig om att inga valutauppgifter finns som kan spärra bokföringen.
+När du vill bokföra ett dokument, t. ex. en beställning, faktura eller kreditnota, kan du testa dokumentet för att försäkra dig om att inga valutauppgifter finns som kan spärra bokföringen.
 
 > [!NOTE]  
 >   Följande procedur handlar om testning innan du bokför ett inköpsdokument. Funktionen fungerar på samma sätt för försäljningsdokument.

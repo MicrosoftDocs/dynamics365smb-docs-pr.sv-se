@@ -3,19 +3,19 @@ title: Översikt över aktiviteterna som avslutar böckerna | Microsoft Docs
 description: Mer information om hur du avslutar böckerna för ett räkenskapsår eller en period och vad som händer när du avslutar i slutet av året.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ae841ec6f4b5a511304d792bf90b6bcaec9e1fb2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755648"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392180"
 ---
 # <a name="closing-the-books"></a>Avsluta böckerna
 När du försäkrat dig om att alla dina räkenskaper är uppdaterade och du fördelat kostnader och intäkter, kan du avsluta böckerna för ett räkenskapsår eller en period.
@@ -47,7 +47,7 @@ Processen för att avsluta boken innehåller dessa huvuduppgifter:
 ## <a name="what-happens-when-you-close"></a>Vad som händer när du avslutar
 När du avslutar i slutet av året flyttas intäkterna från beräknade intäkter till kontot Balanserad vinst eller förlust. Räkenskapsåret markeras också som "avslutat", och alla efterföljande transaktioner för det avslutade året markeras som "föregående års transaktioner".
 
-Sedan genereras en årsavslutstransaktion, men transaktionen bokförs inte automatiskt. Du har möjlighet att göra motkonteringar på kontot för eget kapital, vilket innebär att du kan bestämma hur du ska allokera bokföringsposten. Om företaget t.ex. har flera divisioner kan du låta en enskild årsavslutstransaktion genereras för alla divisionerna och du kan sedan göra en motkontering för varje divisions konto för eget kapital.
+Sedan genereras en årsavslutstransaktion, men transaktionen bokförs inte automatiskt. Du har möjlighet att göra motkonteringar på kontot för eget kapital, vilket innebär att du kan bestämma hur du ska allokera bokföringsposten. Om företaget t. ex. har flera divisioner kan du låta en enskild årsavslutstransaktion genereras för alla divisionerna och du kan sedan göra en motkontering för varje divisions konto för eget kapital.
 
 Du kan bokföra i ett föregående räkenskapsår även efter att resultatkontona har avslutats om du kör batch-jobbet Avslut av resultatkonton igen efteråt.
 

@@ -3,19 +3,19 @@ title: Definiera regler för automatisk koppling av betalningar
 description: På regelsidan för Betalningskoppling anger du regler som styr hur betalningar/banktransaktioner automatiskt ska kopplas till sina relaterade öppna transaktioner när du använder funktionen Koppla automatiskt på sidan Betalningsavstämningsjournal.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392605"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
@@ -48,10 +48,11 @@ Utöver matchningsvillkoret gäller följande för tecknet för betalningsbelopp
 |**Matchningssäkerhet**|Anger hur mycket du förlitar dig på kopplingsregeln som du definierar på raden. <br /></br>Ett värde som du anger i det här fältet visas i fältet **Matchningssäkerhet** på sidan **Betalningsavstämningsjournal** enligt kvaliteten på den automatiska betalningskopplingen på journalraden.|
 |**Prioritet**|Anger prioriteten för kopplingsregeln i förhållande till andra kopplingsregler som är definierade som rader på sidan **Regler för betalningskopplingar**. 1 motsvarar den högsta prioriteten.|
 |**Matchad relaterad part**|Anger hur mycket information om kunden eller leverantören på betalningsavstämningsjournalraden – till exempel adress, ort och bankkontonummer – som måste matcha information om den öppna transaktionen för att kopplingsregeln ska användas för att automatiskt koppla betalningen till den öppna transaktionen.|
-|**Matchat dok.nr/externt dok.nr**|Anger om texten på raden i betalningsavstämningsjournalen måste matcha värdet i fältet **Dokumentnr.** eller fältet **Externt dokumentnr.** i den öppna transaktionen innan kopplingsregeln kan användas för att automatiskt koppla betalningen till den öppna transaktionen.|
+|**Matchat dok.nr/externt dok.nr**|Anger huruvida texten på raden i betalningsavstämningsjournalen måste matcha värdet i fältet **Dokumentnr.** eller fältet **Externt dokumentnr.** i den öppna transaktionen innan kopplingsregeln kan användas för att automatiskt koppla betalningen till den öppna transaktionen.|
 |**Matchat belopp inkl. tolerans**|Anger hur många transaktioner för en kund eller leverantör som måste överensstämma med beloppet inklusive betalningstolerans innan kopplingsregeln används för att automatiskt koppla en betalning till den öppna transaktionen.|
+|**Granskning krävs**|Anger om det automatiska betalningsprogrammet rekommenderas för manuell granskning av användaren före bokföring. Om du väljer fältet **Rader att granska** på sidan **Betalningskopplingsjournal** startar du en guidad upplevelse där du enkelt kan granska flera ansökningar i en sekvens på sidan **Granskning av betalningskoppling**.|
 
-Följande register visar vilka betalningskopplingsregler som har ställts in i den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)].
+I följande tabell beskrivs standardreglerna för betalningsansökan i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
 > Betalningskopplingsreglerna kan vara olika i din implementering av [!INCLUDE[prod_short](includes/prod_short.md)].

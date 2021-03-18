@@ -3,19 +3,19 @@ title: Ansluta till Microsoft Dataverse | Microsoft Docs
 description: Du kan integrera andra appar med Business Central via Microsoft Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: e0713de255aabc599fbc80cf29f1bfa618a29003
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 47a042f1825eca548ecbf08c6901e5af26cbeb43
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753923"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573407"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,9 +26,12 @@ I det här avsnittet beskrivs hur du upprättar en anslutning mellan [!INCLUDE[p
 
 Det finns lite information du bör ha tillhanda innan du skapar anslutningen:  
 
-* Webbadressen (URL) till den [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljö du vill ansluta till. Om du använder den **assisterade konfigurationsguiden för Common Data Service** för att skapa anslutningen kommer vi att upptäcka dina miljöer, men du kan också ange URL:en till en annan miljö i din klientorganisation.  
+* Webbadressen (URL) till den [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljö du vill ansluta till. Om du använder den **assisterade konfigurationsguiden för Dataverse** för att skapa anslutningen kommer vi att upptäcka dina miljöer, men du kan också ange URL:en till en annan miljö i din klientorganisation.  
 * Användarnamn och lösenord för ett konto som har administratörsbehörigheter i [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Om du har en lokal [!INCLUDE[prod_short](includes/prod_short.md)], 2020 års utgivningscykel 1, version 16.5, läs då artikeln [Vissa kända problem](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Du måste slutföra den beskrivna lösningen innan du kan skapa anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
+> [!IMPORTANT]
+> Din [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljö får inte vara i administrationsläge. Administrationsläget gör att anslutningen misslyckas eftersom integreringsanvändarkontot för anslutningen inte har administratörsbehörighet. Mer information finns i [Administrationsläge](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Här beskrivs proceduren för onlineversionen av [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -36,19 +39,19 @@ Det finns lite information du bör ha tillhanda innan du skapar anslutningen:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Ställ in en anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-För alla andra autentiseringstyper än Microsoft 365-autentisering konfigurerar du din anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Konfiguration av anslutning till Common Data Service**. För Microsoft 365-autentisering rekommenderar vi att du använder den assisterade konfigurationsguiden **Konfiguration av anslutning till Common Data Service**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
+För alla andra autentiseringstyper än Microsoft 365-autentisering konfigurerar du din anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Konfiguration av anslutning till Dataverse**. För Microsoft 365-autentisering rekommenderar vi att du använder den assisterade konfigurationsguiden **Konfiguration av anslutning till Dataverse**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
 
 > [!IMPORTANT]
 > Under installationen av anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ombeds administratören att ge följande behörigheter till en registrerad Azure-tillämpning kallad [!INCLUDE[prod_short](includes/prod_short.md)]-integration för [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
 >
-> * **Åtkomst [!INCLUDE[cds_long_md](includes/cds_long_md.md)] som du** behöver [!INCLUDE[prod_short](includes/prod_short.md)] kan du, för administratörens räkning, automatiskt skapa icke-interaktiva [!INCLUDE[prod_short](includes/prod_short.md)] integrationsprogramanvändare, tilldela användaren säkerhetsroller och distribuera [!INCLUDE[prod_short](includes/prod_short.md)] bas-CD-lösning för integrering till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Den här behörigheten används endast en gång vid upprättandet av anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
+> * Behörigheten **Öppna [!INCLUDE[cds_long_md](includes/cds_long_md.md)] som dig själv** krävs, varför [!INCLUDE[prod_short](includes/prod_short.md)] för administratörens räkning automatiskt kan skapa icke-interaktiva, icke-licensierade [!INCLUDE[prod_short](includes/prod_short.md)]-integrationsprogramanvändare, tilldela användaren säkerhetsroller samt distribuera [!INCLUDE[prod_short](includes/prod_short.md)]-integreringslösningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Den här behörigheten används endast en gång vid upprättandet av anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 > * **Ha fullständig åtkomst till Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]** behörighet krävs så att automatiskt skapade [!INCLUDE[prod_short](includes/prod_short.md)] integrationsprogramanvändare kan komma åt [!INCLUDE[prod_short](includes/prod_short.md)] data som ska synkroniseras.  
 > * **Logga in och läsa din profil** behörighet krävs för att verifiera användarloggning i själva verket har säkerhetsrollen systemadministratör tilldelad i [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 >
 > Genom att ge tillstånd till organisationen, är det administratören som omnämns det registrerade Azure-programmet som kallas [!INCLUDE[prod_short](includes/prod_short.md)] integration för [!INCLUDE[cds_long_md](includes/cds_long_md.md)] att synkronisera data med hjälp av automatiskt skapade [!INCLUDE[prod_short](includes/prod_short.md)] användarensreferenser för integrationsprogram.
 
-### <a name="to-use-the-common-data-service-connection-setup-assisted-setup-guide"></a>Så här använder du den assisterade guiden Konfiguration av anslutning till Common Data Service
-Guiden Konfiguration av anslutning till Common Data Service kan göra det enklare att ansluta programmen, och kan till och med hjälpa dig att köra en första synkronisering. Om du väljer att köra inledande synkronisering kommer [!INCLUDE[prod_short](includes/prod_short.md)] att granska data i båda program rekommendationer för hur man tar sig an en inledande synkronisering. Rekommendationerna beskrivs i tabellen nedan.
+### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Så här använder du den assisterade guiden Konfiguration av anslutning till Dataverse
+Guiden Konfiguration av anslutning till Dataverse kan göra det enklare att ansluta programmen, och kan till och med hjälpa dig att köra en första synkronisering. Om du väljer att köra inledande synkronisering kommer [!INCLUDE[prod_short](includes/prod_short.md)] att granska data i båda program rekommendationer för hur man tar sig an en inledande synkronisering. Rekommendationerna beskrivs i tabellen nedan.
 
 |Rekommendation  |Beskrivning  |
 |---------|---------|
@@ -60,7 +63,7 @@ Guiden Konfiguration av anslutning till Common Data Service kan göra det enklar
 > Vanligtvis använder du bara fullständig synkronisering när du integrerar programmen för första gången, och endast ett program innehåller data. Fullständig synkronisering kan vara användbar i en demonstrationsmiljö eftersom den automatiskt skapar och kopplar poster i respektive program, vilket gör det möjligt att snabbare börja arbeta med synkroniserade data. Du bör dock bara köra fullständig synkronisering om du vill ha en rad i [!INCLUDE[prod_short](includes/prod_short.md)] för respektive rad i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] för registermappningarna. Annars kan resultatet bli dubblettposter.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Assisterad konfiguration** och välj sedan relaterad länk.
-2. Välj **ställa in Dataverse-anslutning** för att starta guiden för assisterad konfiguration.
+2. Välj **Skapa en anslutning till Microsoft Dataverse** för att starta den assisterade konfigurationsguiden.
 3. Fyll i fälten om det behövs.
 
 > [!NOTE]
@@ -68,9 +71,9 @@ Guiden Konfiguration av anslutning till Common Data Service kan göra det enklar
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Om du vill skapa eller hantera anslutningen manuellt
 
-I följande procedur beskrivs hur du konfigurerar anslutningen manuellt på sidan **Konfiguration av anslutning till Common Data Service**. Detta är sidan där du hanterar inställningar för integrering.
+I följande procedur beskrivs hur du konfigurerar anslutningen manuellt på sidan **Konfiguration av anslutning till Dataverse**. Detta är sidan där du hanterar inställningar för integrering.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anslutningsinställningar för Common Data Service** och välj sedan tillhörande länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anslutningsinställningar för Dataverse** och välj sedan tillhörande länk.
 2. Ange följande information om anslutningen från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Fält|Beskrivning|
@@ -105,16 +108,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="connecting-on-premises-versions"></a>Ansluta lokala versioner
 
-Om du vill ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] måste du ange viss information på **Common Data Service anslutningsinställningar**.
+Om du vill ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] måste du ange viss information på **Dataverse anslutningsinställningar**.
 
 Om du vill ansluta med ett Azure Active Directory (Azure AD)-konto måste du registrera ett program i Azure AD och ange program-ID, nyckelvalvhemlighet och URL för omdirigering som ska användas. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Du måste ställa in installationen för att använda HTTPS. Mer information finns i [Konfigurera SSL för att skydda anslutningen till Business Central webbklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Om du konfigurerar servern så att den har en annan startsida kan du alltid ändra URL-adressen. Klientens hemlighet kommer att sparas som en krypterad sträng i databasen.  
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Dataverse
 
-Följande åtgärder förutsätter att du använder Azure AD för att hantera identiteter och åtkomst. Mer information om hur du registrerar ett program i Azure AD finns i [Snabbstart: Registrera ett program med Microsoft idtable-plattformen](/azure/active-directory/develop/quickstart-register-app). Om du inte använder Azure AD, se [Använda en annan tjänst för Idtable och och åtkomsthantering](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-idtable-and-access-management-service).  
+Följande åtgärder förutsätter att du använder Azure AD för att hantera identiteter och åtkomst. Mer information om hur du registrerar ett program i Azure AD finns i [snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). Om du inte använder Azure AD, se [använda en annan identitets- och åtkomsthanteringstjänst](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
 
 1. I Azure Portal, under **Hantera** i navigeringsrutan välj **autentisering**.  
-2. Under **omdirigerings-URL**, lägger du till den omdirigerings-URL som föreslås på sidan **Inställningar för Common Data Service-anslutning** i [!INCLUDE[prod_short](includes/prod_short.md)].
+2. Under **omdirigerings-URL**, lägger du till den omdirigerings-URL som föreslås på sidan **Inställningar för Dataverse-anslutning** i [!INCLUDE[prod_short](includes/prod_short.md)].
 3. Under **Hantera**, välj **API-behörigheter**.
 4. Under **konfigurerade behörigheter** väljer du **Lägg till en behörighet** och lägger sedan till delegerade behörigheter på fliken **Microsoft API:er** på följande sätt:
     * För Business Central lägger du till **Financials.ReadWrite.All** behörighet.
@@ -123,23 +126,23 @@ Följande åtgärder förutsätter att du använder Azure AD för att hantera id
     > [!NOTE]
     > Namnet på Dynamics CRM API kan ändras.
 
-5. Under **Hantera**, välj **Certifikat och hemligheter** och skapa sedan en ny hemlighet för ditt program. Du kommer att använda hemligheten i [!INCLUDE[prod_short](includes/prod_short.md)] i fältet **klienthemlighet** på sidan **inställningar för Common Data Service-anslutning**, eller lagra i en skyddad lagringsenhet och tillhandahålla den i en händelseprenumerant enligt beskrivningen ovan.
-6. Välj **Översikt** och leta sedan reda på **App (klient-ID)**-värdet. Det här är klient-ID:t för ditt program. Du måste ange den på sidan **inställningar för Common Data Service-anslutning** i fältet **klient-ID** eller lagra den på ett säkert lagringsutrymme och tillhandahålla den i en händelseprenumeration.
-7. I [!INCLUDE[prod_short](includes/prod_short.md)], på sidan **inställningar av Common Data Service-anslutning** i fältet **Miljö-URL** anger du URL för din [!INCLUDE[cds_long_md](includes/cds_long_md.md)] miljö.
+5. Under **Hantera**, välj **Certifikat och hemligheter** och skapa sedan en ny hemlighet för ditt program. Du kommer att använda hemligheten i [!INCLUDE[prod_short](includes/prod_short.md)] i fältet **klienthemlighet** på sidan **inställningar för Dataverse-anslutning**, eller lagra i en skyddad lagringsenhet och tillhandahålla den i en händelseprenumerant enligt beskrivningen ovan.
+6. Välj **Översikt** och leta sedan reda på **App (klient-ID)**-värdet. Det här är klient-ID:t för ditt program. Du måste ange den på sidan **inställningar för Dataverse-anslutning** i fältet **klient-ID** eller lagra den på ett säkert lagringsutrymme och tillhandahålla den i en händelseprenumeration.
+7. I [!INCLUDE[prod_short](includes/prod_short.md)], på sidan **inställningar av Dataverse-anslutning** i fältet **Miljö-URL** anger du URL för din [!INCLUDE[cds_long_md](includes/cds_long_md.md)] miljö.
 8. För att aktivera anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)], aktivera växlingen **Aktiverad**.
 9. Logga in med ditt administratörskonto för Azure Active Directory (det här kontot måste ha en giltig licens för [!INCLUDE[cds_long_md](includes/cds_long_md.md)] och vara administratör i din [!INCLUDE[cds_long_md](includes/cds_long_md.md)] miljö). När du har loggat in kommer du att uppmanas att tillåta att ditt registrerade program loggar in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på ditt företags vägnar. Du måste ange ett medgivande för att slutföra installationen.
 
    > [!NOTE]
    > Om du inte uppmanas att logga in med ditt administratörskonto beror det förmodligen på att popup-fönster blockeras. Du kan logga in med popup-fönster från `https://login.microsoftonline.com`.
 
-#### <a name="using-another-idtable-and-access-management-service"></a>Använda en annan tjänst för Idtable och åtkomsthantering
+#### <a name="using-another-identity-and-access-management-service"></a>Använda en annan identitets- och åtkomsthanteringstjänst
 
 Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten vid körning genom att prenumerera på händelserna OnGetCDSConnectionClientId och OnGetCDSConnectionClientSecret i codeunit 7201 "CD-integrering impl."
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Koppla bort från [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anslutningsinställningar för Common Data Service** och välj sedan tillhörande länk.
-2. På sidan **Konfiguration av anslutning till Common Data Service** stänger du av reglaget **Aktiverad**.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anslutningsinställningar för Dataverse** och välj sedan tillhörande länk.
+2. På sidan **Konfiguration av anslutning till Dataverse** stänger du av reglaget **Aktiverad**.  
 
 ## <a name="see-also"></a>Se även
 

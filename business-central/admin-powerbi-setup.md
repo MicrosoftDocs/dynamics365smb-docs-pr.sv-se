@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dd0974c20f8c038fcc0cac27c9ef165b2aadcd36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 17e41dd44dd4f7f99eabd4904d5ebd7c48d9964d
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752506"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492987"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivera Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -36,26 +36,33 @@ mer information finns i [Licensiera Power BI-tjänsten för användare i din org
 
 I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/prod_short.md)]-distribution i syfte att integrera med Power BI.
 
-1. OData-webbtjänster och ODataV4-slutpunkten har aktiverats.
+1. Konfigurera antingen NavUserPassword- eller Azure Active Directory-autentisering för distributionen.
+
+    Power BI-integrering stöder inte Windows-autentisering.  
+
+2. Aktivera OData-webbtjänster och ODataV4-slutpunkten.
 
     OData-webtjänsten måste vara aktiverad på [!INCLUDE[server](includes/server.md)] och OData-porten öppen i brandväggen. Mer information finns i [Konfigurera Business Central Server – OData-webbtjänster](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#ODataServices).
-    
+
     Den lokala servern måste kunna nås via Internet.
 
-2. [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonton har åtkomstnyckel till webbtjänster.
+3. Ge [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonton en åtkomstnyckel till webbtjänster.
 
-    En åtkomstnyckel för webbtjänst krävs för att visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI. Du kan tilldela en åtkomstnyckel för webbtjänst till respektive användarkonto. Alternativt kan du skapa ett specifikt konto med en åtkomstnyckel för webbtjänst som samtliga användare kan använda. Mer information finns i [Autentisering för webbtjänster](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+    En åtkomstnyckel för webbtjänst krävs endast för att visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI. Du kan tilldela en åtkomstnyckel för webbtjänst till respektive användarkonto. Alternativt kan du skapa ett specifikt konto med en åtkomstnyckel för webbtjänst som samtliga användare kan använda. Mer information finns i [Autentisering för webbtjänster](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
 
-3. NavUserPassword eller Azure Active Directory-autentisering konfigureras.
+4. Skapa en kopplingsregistrering för [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
 
-4. För att Power BI-rapporter som har bäddats in på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor ska kunna visas måste ett program registreras för [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
-
-    Det registrerade programmet behöver behörighet för Power BI-tjänster. Mer information finns i [Registrera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt i Azure AD för integrering med andra tjänster](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Om du vill visa Power BI-rapporter på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor måste ett program registreras för [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure Det registrerade programmet behöver behörighet till Power BI-tjänster. Mer information finns i [Registrera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt i Azure AD för integrering med andra tjänster](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > Om din distribution använder NavUserPassword-autentisering kommer [!INCLUDE[prod_short](includes/prod_short.md)] att ansluta till samma Power BI-tjänst för samtliga användare. Du ange detta tjänstekonto som ett led i att registrera programmet. Med Azure AD-autentisering kan [!INCLUDE[prod_short](includes/prod_short.md)] ansluta till den Power BI-tjänst som är kopplad till de enskilda användarkontona.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
+5. Skapa den första anslutningen från Business Central till Power BI.
+
+    Innan slutanvändare kan använda Power BI i [!INCLUDE[prod_short](includes/prod_short.md)] måste en Azure-programadministratör ge sitt samtycke till Power BI-tjänsten.
+
+    Om du vill skapa den första anslutningen öppnar du [!INCLUDE[prod_short](includes/prod_short.md)] och kör **Kom igång med Power BI** från rollcentret. Denna åtgärd leder dig genom samtyckesprocessen och kontrollerar din Power BI-licens. När du uppmanas att göra så, loggar du in med ett Azure-administratörskonto. Mer information finns i [Anslut till Power BI - endast en gång](across-working-with-powerbi.md#connect).
 
 ## <a name="publish-data-as-web-services"></a>Publicera data som webbtjänster
 
@@ -65,9 +72,6 @@ Mer information om publicering av webbtjänster finns i [Publicera en webbtjäns
 
 > [!TIP]
 > Om du vill få veta mer om vad du kan göra för att säkerställa en maximal webbtjänstprestanda – ur ett Business Central server-perspektiv (slutpunkten) samt ur ett konsumentperspektiv (klienten), läs då [Skapa effektiva webbtjänster](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
-
-
-
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

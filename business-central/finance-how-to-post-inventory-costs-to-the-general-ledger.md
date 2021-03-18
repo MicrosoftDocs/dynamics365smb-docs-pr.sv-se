@@ -4,19 +4,19 @@ description: I slutet av bokföringsperioden varje månad, år eller annat – m
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a96a4eebc97ecefc43487af3e31fc3216724c527
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746822"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387355"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Stämma av lagerkostnader med redovisningen
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen.
@@ -57,7 +57,7 @@ I kolumnen **Redovisningssumma** visas beloppen (i fetstil) för varje redovisni
 
 Kolumnen **Differens** representerar differensen mellan fälten **Redovisningssumma** och **Summa**.
 
-Högst upp på sidan **Avstämning lager – redovisning** kan du ange filter för att t.ex. begränsa den tidsperiod som du vill hämta information om.
+Högst upp på sidan **Avstämning lager – redovisning** kan du ange filter för att t. ex. begränsa den tidsperiod som du vill hämta information om.
 
 Om du markerar fältet **Visa varning** och om det finns avvikelser mellan lagersummor och redovisningssummor, visas meddelanden i fältet **Varning** för rutnätet som förklarar avvikelsen. Om du väljer fältet Varning får du mer information om vad varningen betyder.
 

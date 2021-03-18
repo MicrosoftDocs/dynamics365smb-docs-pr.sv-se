@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6f2afbb51d295add6752df89311212d60bbe3dc
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 974c2b79bbef32b302a12b89ab3064334e3b1410
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014050"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386230"
 ---
 # <a name="getting-started-with-prod_long"></a>Komma igång med [!INCLUDE[prod_long](includes/prod_long.md)]
 [!INCLUDE[prod_short](includes/prod_short.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. Det är enkelt att registrera dig och du kan migrera befintliga affärsdata från ditt bakåtkompatibla systemet.  

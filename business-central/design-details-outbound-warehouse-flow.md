@@ -3,19 +3,19 @@ title: Designdetaljer – utgående distributionslagerflöde | Microsoft Docs
 description: Det utgående artikelflödet i distributionslagret inleds med en förfrågan från utsläppta källdokument att ta artiklarna ut från distributionslagerstället, antingen för att levereras till en extern part eller till en annan företagplats. Från lagringsområdet utförs lageraktiviteter på olika komplexitetsnivåer för att få ut artiklarna till utleveransställena.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 13902c650606ef7a4464b367283abc9d610b9e4c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751311"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390855"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: utgående distributionslagerflöde
 
@@ -58,7 +58,7 @@ Dessutom finns följande interna källdokument som fungerar som utgående källo
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Släpp källdokumentet/skapa lagerplockning eller transport
 
- När en användare som är ansvarig för källdokument, t.ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerställena. Användaren kan också skapa lagerplocknings- eller transportdokument för de individuella orderraderna, med en push-metod, baserat på vissa lagerställen och antal att hantera.  
+ När en användare som är ansvarig för källdokument, t. ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerställena. Användaren kan också skapa lagerplocknings- eller transportdokument för de individuella orderraderna, med en push-metod, baserat på vissa lagerställen och antal att hantera.  
 
 > [!NOTE]  
 > Lagerförflyttningar används för att flytta artiklar till interna verksamhetsområden i grundläggande lagerkonfigurationer, baserat på källdokument eller på ad hoc-bas.  
@@ -85,7 +85,7 @@ Dessutom finns följande interna källdokument som fungerar som utgående källo
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument
 
- När en användare som är ansvarig för källdokument, t.ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerställena.  
+ När en användare som är ansvarig för källdokument, t. ex. en försäljningsorderhandläggare eller en produktionsplanerare, är redo för den utgående lageraktiviteten släpper han eller hon källdokumentet för att signalera till lagerpersonalen att sålda artiklar eller komponenter kan plockas och placeras i de angivna lagerställena.  
 
 ### <a name="2-create-outbound-request-2"></a>2: Skapa utgående rekvisition (2)
 

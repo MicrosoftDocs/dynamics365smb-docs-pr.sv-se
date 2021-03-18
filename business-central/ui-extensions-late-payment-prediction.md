@@ -3,19 +3,19 @@ title: Förutsäga sen betalning för försäljningsdokument | Microsoft Docs
 description: Använda vår prediktiva modell för att förutsäga om en faktura kommer att betalas i tid eller inte.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817060"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386855"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
@@ -40,7 +40,7 @@ Om du aktiverar tillägget visas panelen **Betalningen förutsägs vara försena
 * **Prediktionssäkerhet %** – visar den faktiska procentsatsen bakom säkerhetsgraden. Den här kolumnen visas inte som standard, men du kan lägga till den om du vill. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 > [!Tip]
-> Sidan Kundreskontratransaktioner visar också en faktabox till höger. När du granskar prediktioner kan informationen i avsnittet **kunddetaljer** vara till hjälp. När du väljer fakturan i listan visar i avsnittet information om kunden. Du kan även vidta omedelbara åtgärder. Om en kund t.ex. tappar sin plånbok kan du öppna kundkortet från faktaboxen och spärra kunden för framtida försäljning.  
+> Sidan Kundreskontratransaktioner visar också en faktabox till höger. När du granskar prediktioner kan informationen i avsnittet **kunddetaljer** vara till hjälp. När du väljer fakturan i listan visar i avsnittet information om kunden. Du kan även vidta omedelbara åtgärder. Om en kund t. ex. tappar sin plånbok kan du öppna kundkortet från faktaboxen och spärra kunden för framtida försäljning.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Visa Betalningsprediktion för ett visst försäljningsdokument
 Du kan också förutsäga sena betalningar i förväg. På sidorna **försäljningsofferter**, **försäljningsorder** och **försäljningsfakturor** kan du använda åtgärden **förutsäga betalning** för att generera en prediktion för det försäljning dokument som du visar.

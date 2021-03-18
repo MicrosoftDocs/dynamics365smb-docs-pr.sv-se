@@ -3,19 +3,19 @@ title: Så här säljer du en artikel som monterats mot kundorder | Microsoft Do
 description: Om artikeln är inställd på  montering mot kundorder förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99111bce195e4436aac597cc4eb2e5f8f3ef77cd
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 54d7a5526a916e426d8e915e3b44dc2af16f2dba
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386580"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
 Om det i fältet **Monteringsmetod** på en monteringsartikels artikelkort står **Montering mot kundorder** förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.  
@@ -40,7 +40,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 
     En monteringsorder skapas nu automatiskt och länkas till försäljningsorderraden. Förfallodatumet för monteringsordern synkroniseras med utleveransdatumet på försäljningsorderraden.  
 
-    Antalet som ska säljas kopieras till fältet **Antal att montera mot kundorder**. Med denna artikelinställning förväntas hela antalet på försäljningsraden monteras mot kundorder. Du kan minska antalet för montering mot kundorder, t.ex. om du vet att vissa artiklar redan är tillgängliga. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+    Antalet som ska säljas kopieras till fältet **Antal att montera mot kundorder**. Med denna artikelinställning förväntas hela antalet på försäljningsraden monteras mot kundorder. Du kan minska antalet för montering mot kundorder, t. ex. om du vet att vissa artiklar redan är tillgängliga. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Om du vill återspegla att kunden vill ha ytterligare en artikel i en monterad artikel, väljer du på snabbfliken **Rader**, sedan åtgärden **Rad**, åtgärden **Montering mot kundorder** och väljer sdan åtgärden **Montering mot kundorderrader** om du vill visa och ändra standardkomponenterna för montering. Alternativt kan du välja fältet **Antal att montera mot kundorder**.  
 7.  Skapa en ny rad av typen **Artikel** för det begärda ytterligare innehållet för den monterade artikeln på sidan **Montering mot kundorderrader**. Raden representerar en extra komponent för montering.  
@@ -48,11 +48,11 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
     Du kan också anpassa ordern genom att öka antalet av en standardartikel i den monterade artikeln. Du kan göra det om du ökar värdet i fältet **Antal per** på den specifika monteringsorderraden.  
 
     > [!NOTE]  
-    >  Sidan **Montering mot kundorderrader** innehåller bara de grundläggande fält som en säljare förväntas använda för att anpassa komponentlistan, lägga till artikelspårningsnummer eller lösa problem med komponenttillgänglighet. Om du vill se mer information om monteringsorder, t.ex. startdatum, ska du välja åtgärden **Visa dokument**. Då öppnas en fullständig vy av monteringsordern som är kopplad till försäljningsorderraden. Du kan inte ändra innehållet av de flesta fält på monteringsorderhuvudet, och du kan inte bokföra monteringsutflöde därifrån, eftersom du måste använda leveransbokföring av försäljningsorderraden.  
+    >  Sidan **Montering mot kundorderrader** innehåller bara de grundläggande fält som en säljare förväntas använda för att anpassa komponentlistan, lägga till artikelspårningsnummer eller lösa problem med komponenttillgänglighet. Om du vill se mer information om monteringsorder, t. ex. startdatum, ska du välja åtgärden **Visa dokument**. Då öppnas en fullständig vy av monteringsordern som är kopplad till försäljningsorderraden. Du kan inte ändra innehållet av de flesta fält på monteringsorderhuvudet, och du kan inte bokföra monteringsutflöde därifrån, eftersom du måste använda leveransbokföring av försäljningsorderraden.  
     >   
     >  På huvudet av de kopplade monteringsorderna kan bara fältet **Startdatum** ändras så att det snabbt gör det möjligt för monteringsarbetare att ange ett datum som är tidigare än förfallodatumet, när de ska påbörja processen. Alla fält på raderna i den kopplade monteringsordern kan ändras så att lagerarbetare kan ange förbrukningssiffror under processen.  
 
-8.  Granska och svara på problem med komponenttillgänglighet. Du kan t.ex. välja en tillgänglig ersättningsartikel eller upprätta ett senare förfallodatum.  
+8.  Granska och svara på problem med komponenttillgänglighet. Du kan t. ex. välja en tillgänglig ersättningsartikel eller upprätta ett senare förfallodatum.  
 9. Stäng sidan **Montering mot kundorderrader**. Den kopplade monteringsordern är nu redo att börja montera de anpassade artiklarna efter förfallodatum.  
 10. I försäljningsordern väljer du åtgärden **Släpp** om du vill meddela monteringsavdelningen att monteringsprocessen kan börja.  
 11. I monteringsavdelningen ska du utföra de steg av montering av de artiklar som säljs i den här proceduren. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md).  

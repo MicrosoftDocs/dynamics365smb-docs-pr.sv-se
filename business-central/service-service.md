@@ -3,19 +3,19 @@ title: Servicehantering | Microsoft Docs
 description: Lär dig att använda funktioner som fungerar som stöd för verkstäder och fältservice.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 39d294af0e304568ea073f34a63bdca61eb046f7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391205"
 ---
 # <a name="service-management"></a>Servicehantering
 > [!NOTE]

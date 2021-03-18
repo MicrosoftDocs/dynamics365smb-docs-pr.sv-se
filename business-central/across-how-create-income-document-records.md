@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 637bb7ae6a757681ab0ada1b61ba0ec303a9cb97
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753298"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384755"
 ---
 # <a name="create-incoming-document-records"></a>Skapa inkommande dokumentposter
 På sidan **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
@@ -41,7 +41,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 1. Välj panelen **Skapa inkommande dokument från kamera** i appfältet och gå sedan till steg 4.
 2. Välj annars alternativknappen på appfältet, välj **Inkommande dokument** och välj sedan **Alla**.
 3. På sidan **Inkommande dokument** väljer du ellipsknappen och sedan **Skapa från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
-4. Ta ett foto av ett dokument, t.ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
+4. Ta ett foto av ett dokument, t. ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
 
     En ny inkommande dokumentpost skapas med bilden bifogad.
 
@@ -52,7 +52,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 1. Välj alternativknappen på appfältet, välj **Inkommande dokument** och välj sedan **Alla**.
 2. Öppna kortet för en befintlig inkommande dokumentpost.
 3. På sidan **Inkommande dokument** väljer du ellipsknappen och sedan **Bifoga fil från kamera**. Kameran på Tablet PC:n eller telefonen aktiveras.
-4. Ta ett foto av ett dokument, t.ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
+4. Ta ett foto av ett dokument, t. ex. ett inköpskvitto, som du vill bearbeta som ett inkommande dokument, och välj sedan knappen **OK** .
 
     Bilden har bifogats till den inkommande dokumentposten.
 

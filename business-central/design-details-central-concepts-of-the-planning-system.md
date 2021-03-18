@@ -3,19 +3,19 @@ title: Designdetaljer – Centrala koncept i planeringssystemet| Microsoft Docs
 description: Planeringsfunktionerna ingår i ett batch-jobb som först väljer alla relevanta artiklar och planeringsperiod, och som sedan föreslår möjliga åtgärder som användaren kan vidta baserat på rådande tillgång/efterfrågan och artiklarnas planeringsparametrar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: ff18b81f71c8d4877c42f614c5ef485a43b2b494
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013635"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390680"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
@@ -64,7 +64,7 @@ I företaget med ett lågt artikelflöde och mindre avancerade produktstrukturer
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamisk orderspårning kontra planeringssystemet  
 Vid en snabb överblick kan det vara svårt att skilja mellan planeringssystemet och dynamisk orderspårning. Båda funktionerna visar utdata i planeringsförslaget genom att föreslå åtgärder som planeraren bör vidta. Dock skiljer sig sättet som utflödet produceras.  
 
-Planeringssystemet hanterar hela mönstret för tillgång-efterfrågan via alla nivåer av strukturhierarkin i tidslinjen, medan dynamisk orderspårning endast hanterar läget för ordern som aktiverade den. När tillgång och efterfrågan balanseras, skapar planeringssystemet länkar i användaraktiverat grupperingsläge, medan dynamisk orderspårning skapar länkarna automatiskt i farten, oavsett när användaren anger ett behov eller en leverans i programmet, t.ex. försäljningsorder eller inköpsorder.  
+Planeringssystemet hanterar hela mönstret för tillgång-efterfrågan via alla nivåer av strukturhierarkin i tidslinjen, medan dynamisk orderspårning endast hanterar läget för ordern som aktiverade den. När tillgång och efterfrågan balanseras, skapar planeringssystemet länkar i användaraktiverat grupperingsläge, medan dynamisk orderspårning skapar länkarna automatiskt i farten, oavsett när användaren anger ett behov eller en leverans i programmet, t. ex. försäljningsorder eller inköpsorder.  
 
 Dynamisk orderspårning skapar länkar mellan efterfrågan och tillgång när data anges, i den ordning som de inkommer. Det kan leda till en viss oordning i prioriteringar. Exempelvis kan en försäljningsorder som har angetts först, med förfallodatum nästa månad, kopplas till tillgången i lager, medan nästa försäljningsorder som förfaller imorgon kan orsaka ett åtgärdsmeddelande att skapa en ny inköpsorder för att täcka den, som illustreras nedan.  
 

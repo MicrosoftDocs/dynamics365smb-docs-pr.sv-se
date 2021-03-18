@@ -3,19 +3,19 @@ title: Kortkommandon
 description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746122"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470493"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -41,7 +41,7 @@ De flesta kortkommandona är desamma oavsett om operativ systemet är Windows e
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
 
-I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t.ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
+I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t. ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
@@ -56,9 +56,8 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför Alt + F9 ett dokument och skapar ett nytt.|
 |Alt+T|Öppna sidan **Mina inställningar**.|
 |Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit") button. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
-|Shift+F12|Öppna rollutforskaren, en funktionsöversikt. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
-|Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t.ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
+|Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t. ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|
 |Ctrl+F1|Öppna Business Central-hjälpen för sidan.|
 |Ctrl+F12|Växla mellan breda och smala vyn.|
@@ -69,7 +68,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Esc|Stäng den aktuella sidan eller listrutan.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
-|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. De faktiska nycklarna kan variera beroende på vilket språk som anges i **Mina inställningar**. Du kan t.ex. trycka på J för att aktivera **Ja**-knappen när du använder tyska språket.|
+|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. De faktiska nycklarna kan variera beroende på vilket språk som anges i **Mina inställningar**. Du kan t. ex. trycka på J för att aktivera **Ja**-knappen när du använder tyska språket.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
@@ -139,7 +138,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Kortkommandon i kort och dokument
 
-Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och dokumentsidor t.ex. **försäljningsorder** för att visa och ändra poster.
+Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och dokumentsidor t. ex. **försäljningsorder** för att visa och ändra poster.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
@@ -213,6 +212,18 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Ctrl + plustecken (+)|Zooma in den aktuella sidan.|  
 |Ctrl + minustecken (-)|Zooma ut på den aktuella sidan.|  
 |Ctrl+0|Zooma in eller ut till 100 % på den aktuella sidan.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Kortkommandon för rollutforskaren
+
+Rollutforskaren ger dig en översikt över och snabb åtkomst till alla affärsfunktioner som är tillgängliga för din roll. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
+
+|Tryck på dessa tangenter<br />(i macOS)|Om du vill|
+|--------------------------------|----------|
+|Shift+F12|Öppna rollutforskaren.|
+|F3|Öppna rutan **Sök** i rollutforskaren om du vill hitta funktioner baserade på ett visst sökord eller en viss term.|
+|F3 eller Ctrl + Nedåtpil|Flyttar fokus till nästa funna funktion i rollutforskaren. F3 flyttar fokus till rutan **Sök** efter den senast funna funktionen.|
+|Shift F3 eller Ctrl + Uppåtpil|Flytta fokus till föregående funna funktion i rollutforskaren.|
+|Ctrl+Shift|Visa eller dölj alla undernoder - utöver noder på översta nivån - när du väljer åtgärden **Visa** eller **Dölj**.|
 
 ## <a name="see-also"></a>Se även
 

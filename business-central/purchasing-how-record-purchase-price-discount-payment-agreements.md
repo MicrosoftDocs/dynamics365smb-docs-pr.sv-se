@@ -1,23 +1,26 @@
 ---
 title: Ställ in särskilda och alternativa priser och rabatter för leverantörer | Microsoft Docs
 description: Du kan definiera olika eller alternativa priser och rabattavtal och koppla dem till inköpsdokument för leverantörer.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.author: bholtorf
+ms.openlocfilehash: f1c036b33d80d3f8a4f7b45e38b823631b93fc53
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748775"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476751"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrera speciella inköpspriser och rabatter
+> [!NOTE]
+> I 2020 års utgivningscykel 2 släppte vi effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
 De olika pris- och rabattavtalen som gäller när artiklar köps in från olika leverantörer måste definieras så att de överenskomna reglerna och värdena används i de inköpsdokument som du skapar för leverantören.
 
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[prod_short](includes/prod_short.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader. Mer information finns i [bästa prisberäkning](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
@@ -34,12 +37,26 @@ När det gäller rabatter kan du ställa in och använda två olika typer av ink
 Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av artikel och leverantör kan du också ställa in den här konfigurationen på det artikelkort där reglerna och värdena har definierats. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Om du vill definiera ett speciellt inköpspris för en leverantör
+
+#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)  
+
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Priser.**.
-
-    Fältet **Inköpstyp** är förifyllt med **leverantör** och fältet **inköpskod** är förifyllt med leverantörsnumret.
-3. Fyll i fälten på den första raden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fyll i en rad för varje kombination för vilken leverantören beviljar dig en inköpsradrabatt.
+
+#### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
+2. Välj leverantör och sedan åtgärden **Försäljningsprislistor**. 
+3. Välj **Ny** för att skapa en ny inköpsprislista.
+4. På snabbflikarna **Allmänt** och **Moms** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Om du vill lägga till objekt i listan gör du något av följande:
+   * Om du vill lägga till många objekt väljer du **Föreslå rader** och anger sedan filtervillkor för att ange vilka typer av objekt som ska läggas till. Du kan också ange ytterligare inställningar för de artiklar som är specifika för prislistan. Du kan ändra dessa senare vid behov.
+   * Om du vill kopiera artiklar från en annan prislista väljer du **Kopiera rader** och väljer sedan den prislista som ska kopieras.
+   * Om du vill lägga till artiklar manuellt väljer du fältet **Produkttyp** och den produkttyp som prislistan är avsedd för. Beroende på dina val fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Om du vill börja använda prislistan går du till fältet **Status** och väljer **Aktiv**.
+
+---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Om du vill definiera en radrabatt för en leverantör
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.

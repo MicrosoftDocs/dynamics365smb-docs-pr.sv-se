@@ -3,15 +3,15 @@ title: Hantera lagring genom att ta bort dokument eller komprimera data
 description: Lär dig hur du kan behålla historiska data genom att komprimera bokföringsposter eller hur du tar bort den.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753873"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493053"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hantera lagring genom att ta bort dokument eller komprimera data
 
@@ -36,7 +36,7 @@ Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern int
 
 Du kan komprimera data i [!INCLUDE [prod_short](includes/prod_short.md)] så att du sparar utrymme i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online kan spara pengar. Komprimeringen baseras på datum och fungerar genom att flera gamla transaktioner kombineras till en ny. Du kan bara komprimera transaktioner som tillhör avslutade räkenskapsår och leverantörsreskontratransaktioner där fältet **Öppen** är inställt på *Nej*.  
 
-Leverantörsreskontratransaktioner från föregående räkenskapsår kan exempelvis komprimeras så att endast en kredittransaktion och en debettransaktion skapas per konto och månad. Den nya transaktionens belopp är summan av alla komprimerade transaktioner. Det datum som tilldelas är det första datumet i perioden som komprimerats, t.ex. den första dagen i månaden (om transaktionerna är komprimerade per månad). När komprimeringen är utförd kan du fortfarande se nettoförändringen för respektive konto under föregående räkenskapsår.
+Leverantörsreskontratransaktioner från föregående räkenskapsår kan exempelvis komprimeras så att endast en kredittransaktion och en debettransaktion skapas per konto och månad. Den nya transaktionens belopp är summan av alla komprimerade transaktioner. Det datum som tilldelas är det första datumet i perioden som komprimerats, t. ex. den första dagen i månaden (om transaktionerna är komprimerade per månad). När komprimeringen är utförd kan du fortfarande se nettoförändringen för respektive konto under föregående räkenskapsår.
 
 Antalet transaktioner som skapas från en datumkomprimering beror på hur många filter du definierar, vilka fält som kombineras och hur lång period du väljer. Det kommer alltid att skapas åtminstone en transaktion. När batch-jobbet har slutförts visas resultatet på sidan **Datumkomprimeringsjournaler**.
 
@@ -47,7 +47,13 @@ Du kan komprimera följande typer av data i [!INCLUDE [prod_short](includes/prod
   Efter komprimeringen med funktionen **Bibehåll fältinnehåll** kan du behålla innehållet i fälten **Dokumentnr, vår kontakt**, **Global dimension 1 kod** och **Global dimension 2 kod**.
 * Lev.reskontratransaktioner
 
-  Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
+> [!NOTE]
+> Komprimerade transaktioner för kunder, leverantörer, bank och underredovisning för anläggningstillgångar bokförs något annorlunda än vid standardbokföring. Detta är att minska antalet nya redovisningstransaktioner som skapas av datumkomprimering och är särskilt viktigt när du behåller information som dimensioner och dokumentnummer. Datumkomprimering skapar nya poster enligt följande:
+>* På sidan **Redovisningstransaktioner** skapas nya transaktioner med nya transaktionsnummer för de komprimerade transaktionerna. Fältet **Beskrivning** innehåller **Komprimeringsdatum** så att de komprimerade transaktionerna är lätta att identifiera. 
+>* På redovisningssidor, till exempel **Kundreskontratransaktioner**, skapas en eller flera transaktioner med nya transaktionsnummer. 
+> Bokföringsprocessen skapar luckor i nummerserien för transaktioner på sidan **Redovisningstransaktioner**. Dessa nummer tilldelas endast transaktionerna på redovisningssidorna. Det nummerintervall som har tilldelats transaktionerna finns på sidan **Bokförd redovisningsjournal** i fälten **Från transaktion nr.** och **Till transaktrionsnr.**. 
+
+Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
 
   Med funktionen **Bibehåll fältinnehåll** kan du också bibehålla innehållet i följande fält: **Dokumentnr**, **Inköpsleverantörsnr**, **Inköparkod**, **Global dimension 1 kod** och **Global dimension 2 kod**.
 

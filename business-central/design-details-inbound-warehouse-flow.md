@@ -3,19 +3,19 @@ title: Designdetaljer – inkommande distributionslagerflöde | Microsoft Docs
 description: Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4ab1b8a7dce90f2bb2122f1f77c04da2ff795aa8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390030"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: inkommande distributionslagerflöde
 Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.  
@@ -54,7 +54,7 @@ Följande diagram visar de inkommande distibutionslagerflödena efter dokumentty
 ![Ingående flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_inbound_basic_flow.png "Ingående flöde i grundläggande lagerkonfigurationer")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Släpp källdokument / skapa lagerartikelinförsel  
-När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t.ex. en inköpsorder eller en inkommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret. Användaren kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerställen och antal som ska hanteras.  
+När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t. ex. en inköpsorder eller en inkommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret. Användaren kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerställen och antal som ska hanteras.  
 
 ### <a name="2-create-inbound-request"></a>2: Skapa inkommande rekvisition  
 När det inkommande källdokumentet släpps skapas en inkommande distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  
@@ -73,7 +73,7 @@ Följande diagram visar de inkommande distibutionslagerflödet efter dokumenttyp
 ![Ingående flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_inbound_advanced_flow.png "Ingående flöde i avancerade lagerkonfigurationer")  
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument  
-När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t.ex. en inköpsorder eller en inkommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret.  
+När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t. ex. en inköpsorder eller en inkommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret.  
 
 ### <a name="2-create-inbound-request"></a>2: Skapa inkommande rekvisition  
 När det inkommande källdokumentet släpps skapas en inkommande distributionslagerförfrågan automatiskt. Den innehåller referenser till källdokumenttypen och numret och kan inte ses av användaren.  

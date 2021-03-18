@@ -3,19 +3,19 @@ title: Så här skapar du arbetsflödesanvändare | Microsoft Docs
 description: Innan du kan skapa arbetsflöden måste du ställa in de användare som ska ingå i arbetsflödena. Det behövs för att ange till exempel vem som ska ta emot en notering för att agera på ett arbetsflödessteg.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87cba590a76c1b14d97351b4b0fd2f2f64d49705
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 79c8057211f872ff18be32b1acd143a1a51d4f4a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921128"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384280"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 

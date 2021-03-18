@@ -3,19 +3,19 @@ title: Så här skapar du en efterfrågeprognos
 description: Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 3dc598158edcc6d81b5989536bb3a4e6fd4181bc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390451"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
@@ -25,7 +25,7 @@ Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov s
 Med prognoser kan företaget skapa hypotetiska scenarier och på ett kostnadseffektivt sätt planera för och tillgodose behov. Exakt och korrekt prognostisering kan vara avgörande för nivån av kundtillfredsställelse med hänsyn till orderlöften och punktliga leveranser.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Försäljningsprognoser och produktionsprognoser  
-Funktionen för produktionsprognos kan användas för att skapa försäljnings- eller produktionsprognoser, i olika kombinationer eller var för sig. De flesta företag som tillverkar mot order har t.ex. inga färdiga varor i lager eftersom varje artikel tillverkas när den beställs. Det är viktigt att kunna förutse order (försäljningsprognos) för att få en rimlig genomloppstid på de färdiga varorna (produktionsprognos). Komponentdelar med långa leveranstider kan t.ex. försena produktionen om dessa inte har beställts eller finns i lager.  
+Funktionen för produktionsprognos kan användas för att skapa försäljnings- eller produktionsprognoser, i olika kombinationer eller var för sig. De flesta företag som tillverkar mot order har t. ex. inga färdiga varor i lager eftersom varje artikel tillverkas när den beställs. Det är viktigt att kunna förutse order (försäljningsprognos) för att få en rimlig genomloppstid på de färdiga varorna (produktionsprognos). Komponentdelar med långa leveranstider kan t. ex. försena produktionen om dessa inte har beställts eller finns i lager.  
 
 -   Försäljningsprognosen är försäljningsavdelningens bästa gissning om vad som kommer att säljas i framtiden, och anges efter artikel och period. Försäljningsprognoser lämpar sig inte alltid för produktion.  
 -   Produktionsprognosen är produktionsplanerarens bedömning av hur många slutartiklar och härledda delprodukter som ska produceras under en viss period för att uppfylla försäljningsprognosen.  
@@ -39,7 +39,7 @@ Prognosen består av ett antal poster som motsvarar artikelnummer, prognosdatum 
 Du måste ange en prognos av typen *Försäljningsartikel*, *Komponent* eller *Både och*. Prognostypen *Försäljningsartikel* används för försäljningsprognoser. Produktionsprognosen skapas med hjälp av typen *Komponent*. Prognostypen *Både och* används endast för att ge planeraren en översikt över både försäljnings- och produktionsprognosen. Prognostransaktioner kan inte redigeras med det här alternativet. När du anger prognostyperna här, kan du använda samma kalkylblad för att ange försäljningsprognosen som du använder för att ange en produktionsprognos, och använda samma blad för att visa båda prognoser samtidigt. Observera att dessa olika indata (försäljning och produktion) bearbetas olika i systemet vid beräkning av planering, beroende på artikel-, tillverknings- och produktionsinställningarna.  
 
 ## <a name="component-forecast"></a>Komponentprognos  
-Komponentprognosen kan ses som en alternativ prognos med hänsyn till en överordnad artikel. Detta kan t.ex. vara användbart om planeraren kan uppskatta behovet av en komponent.  
+Komponentprognosen kan ses som en alternativ prognos med hänsyn till en överordnad artikel. Detta kan t. ex. vara användbart om planeraren kan uppskatta behovet av en komponent.  
 
 Komponentprognosen ska vara lika med eller mindre än det prognostiserade antalet försäljningsartiklar eftersom komponentprognosen är utformad för att definiera alternativ för en överordnad artikel. Om komponentprognosen är större än prognosen för försäljningsartikeln behandlas skillnaden mellan dessa två typer av prognoser som oberoende behov.  
 

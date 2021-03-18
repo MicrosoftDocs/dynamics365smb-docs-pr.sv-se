@@ -3,19 +3,19 @@ title: 'Genomgång: Hantera projekt med Projekt | Microsoft Docs'
 description: Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9215e5307ee26bc9ab47f0ea0c1143fe274e83e5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391755"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 
@@ -100,7 +100,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-create-a-job-journal-batch"></a>Skapa en ny journal  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2.  På sidan **Journalnamn** i fönstret **Projektjournal**. Sidan **Projektjournaler** öppnas.  
 3.  Välj åtgärden **Ny** för att skapa en rad med följande information:  
 
@@ -115,7 +115,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-set-up-a-job"></a>Så här lägger du upp ett projekt:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt kort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 
@@ -236,7 +236,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-calculate-remaining-usage"></a>Så här beräknar du återstående förbrukning  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2.  På sidan **Projektjournal**, i fältet **Journalnamn**, öppnar du listan **Projektjournaler**. Välj projektjournalen **Tricia**.  
 3.  Välj åtgärden **Ber. återstående förbrukning**.  
 4.  Välj fältet **Projektnr** och välj relevant projektnummer, vanligtvis projekt J00010, på sidan **Projekt – Beräkna återstående förbrukning** på snabbfliken **Projektaktivitet**.  
@@ -253,7 +253,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Så här skapar du en projektförsäljningsfaktura  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj det projekt som du skapade tidigare och klicka på åtgärd **Skapa försäljningsfaktura för projekt**.  
 3.  På snabbfliken **Projektaktivitet** rensar du alla filter för **Projektaktivitetsnr** för att kunna fakturera projektet. I fältet **Nr** väljer du önskat projekt.  
 4.  På snabbfliken **Alternativ** fyller du i bokföringsdatumet och anger om du vill skapa en faktura per aktivitet eller en enda faktura för samtliga aktiviteter.  
@@ -277,7 +277,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-open-the-statistics-page"></a>Så här öppnar du sidan Statistik  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Statistik**. Du kan granska detaljerad information om projektets priser, kostnader och vinster i både lokala och utländska valutor.  
 3.  Välj **Stäng** för att stänga sidan **Projektstatistik**.  
 
@@ -286,7 +286,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Så här hanterar du fast prissättning i projekt  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Markera projektnummer **Nyström** och välj sedan åtgärd **Projektaktivitetsrader**.  
 3.  Markera rad 1120 och i fältet **Planerat (totalkostnad)** högerklickar du på beloppet och väljer **Specificera**.  
 
@@ -308,7 +308,7 @@ När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 2
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Så här registrerar du timmar i projektjournalen  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2.  På den nya raden anger du följande information:  
 
     -   **Typ av rad**: **(tom)**  
@@ -369,7 +369,7 @@ I kontraktets totalpris finns endast de ursprungligen kontrakterade 30 timmarna 
 
 ### <a name="to-copy-a-job"></a>Så här kopierar du ett projekt  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt projekt. Ange följande information:  
 
     -   **Beskrivning**: **Inreda tio konferensrum**  
@@ -404,7 +404,7 @@ Genom att jämföra priser, projektaktivitetsrader och projektplaneringsrader f�
 4.  På snabbfliken **Bokföring**, i fältet **Produktbokföringsmall** väljer du **DIV**. Stäng sidan.  
 5.  På sidan **Kontoplan** väljer du **Nr 6630, projektbetalning**, och välj **Indrag av kontoplan**. Välj **Ja** för att bekräfta.  
 
- Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och ställer in möjlighet till delbetalningar. På projektaktivitetsraderna kan du skapa särskilda rader avsedda för delbetalningarna. Allt arbete som slutförs i projektet och läggs till i planen registreras på förbrukningsraderna. För varje ny betalningsaktivitetsrad på planeringsraderna är radtypen Kontrakt, vilket innebär att kunden ska faktureras. Registrera en ny rad för handpenningen. På förbrukningsraden kan du ange information om de artiklar och resurser som har förbrukats i projektet och som utökar planen, t.ex. arbetstid och artiklar som används i projektet.  
+ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och ställer in möjlighet till delbetalningar. På projektaktivitetsraderna kan du skapa särskilda rader avsedda för delbetalningarna. Allt arbete som slutförs i projektet och läggs till i planen registreras på förbrukningsraderna. För varje ny betalningsaktivitetsrad på planeringsraderna är radtypen Kontrakt, vilket innebär att kunden ska faktureras. Registrera en ny rad för handpenningen. På förbrukningsraden kan du ange information om de artiklar och resurser som har förbrukats i projektet och som utökar planen, t. ex. arbetstid och artiklar som används i projektet.  
 
 ### <a name="to-make-a-payment-by-installment"></a>Så här gör du en delbetalning  
 

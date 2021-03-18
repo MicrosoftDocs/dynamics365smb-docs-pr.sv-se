@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754348"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470368"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
 En vanlig utmaning i många affärshanteringsprogram är att undvika oönskade ändringar i data. Det kan vara allt från ett felaktigt kundtelefonnummer till en felaktig bokföring i redovisningen. I det här avsnittet beskrivs möjligheterna att ta reda på vad som har förändrats, vem som ändrat det och när ändringen gjordes.
 
 ## <a name="about-the-change-log"></a>Om ändringsloggen 
 Med ändringsloggen kan du spåra alla direkta ändringar som användare gör av data i databasen. Du måste ange vad du vill att systemet ska logga för varje tabell och fält och därefter måste du aktivera ändringsloggen.  
+
+Spårningsändringarna kan påverka prestanda, vilket kan ta tid och öka databasens storlek, vilket kostar pengar. För att minska dessa kostnader bör du tänka på följande:
+- Var noggrann när du väljer tabeller och åtgärder.
+- Lägg inte till transaktioner och bokförda dokument. Prioritera i stället systemfält som Skapades av och Skapades den.
+- Använd inte spårningstypen Alla fält. Välj i stället Vissa fält och spåra bara de viktigaste fälten.
 
 Ändringsloggen är baserad på ändringar av data i tabeller som du spårar. På sidan **Poster i ändringslogg** sorteras poster kronologiskt och visar alla ändringar som har gjorts av värden i fälten i de tabeller du anger.
 
@@ -61,14 +66,14 @@ Med tiden kommer listan över poster på sidan **Poster i loggen med övervakade
 
 När du ställer in fältövervakning, eller ändrar någonting i inställningarna, skapas poster för dina ändringar. Du kan ange om du vill visa poster som är relaterade till övervakningsinställningarna genom att visa eller dölja dem. 
 
-Du kan hantera inställningar för fältövervakning, t.ex. om ett e-postmeddelande ska skickas eller om ändringar bara ska loggas, för varje fält på sidan **Kalkylark med övervakade fält**. Du kan också lägga till eller ta bort fält för övervakning på sidan.
+Du kan hantera inställningar för fältövervakning, t. ex. om ett e-postmeddelande ska skickas eller om ändringar bara ska loggas, för varje fält på sidan **Kalkylark med övervakade fält**. Du kan också lägga till eller ta bort fält för övervakning på sidan.
 
 > [!NOTE]
 > När du har lagt till ett eller flera fält och startat övervakning måste du logga ut från [!INCLUDE[prod_short](includes/prod_short.md)] och logga in igen för att tillämpa inställningarna.
 
 ### <a name="working-with-field-monitoring"></a>Arbeta med fältövervakning
 
-Poster för alla ändrade värden för övervakade fält är tillgängliga på sidan **Poster i loggen med övervakade fält**. Exempelvis innehåller poster som t.ex. fältet som värdet ändrades för, det ursprungliga och det nya värdet och vem som gjorde ändringen och när de gjorde det. Om du vill granska en ändring ytterligare kan du välja ett värde för att öppna sidan där den gjordes. Om du vill se en lista över alla poster väljer du **Poster för fältändringar**.
+Poster för alla ändrade värden för övervakade fält är tillgängliga på sidan **Poster i loggen med övervakade fält**. Exempelvis innehåller poster som t. ex. fältet som värdet ändrades för, det ursprungliga och det nya värdet och vem som gjorde ändringen och när de gjorde det. Om du vill granska en ändring ytterligare kan du välja ett värde för att öppna sidan där den gjordes. Om du vill se en lista över alla poster väljer du **Poster för fältändringar**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Visa telemetri för fältövervakning 
 

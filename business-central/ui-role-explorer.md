@@ -3,19 +3,19 @@ title: Utforska och bläddra i sidor per roll | Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756699"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470318"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
@@ -39,7 +39,9 @@ De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionern
 
 - Om du vill expandera eller komprimera en nod väljer du noden. Detta gäller noder på den översta nivån och undernoder.
 - Om du vill expandera/komprimera alla noder på översta nivån på sidan väljer du åtgärden **Expandera** eller **Komprimera** i det övre högra hörnet.
-- Om du vill expandera en nod på den översta nivån och alla underordnade noder, trycker du på tangenterna Ctrl + Skift samtidigt som du väljer åtgärden **Expandera** eller **Komprimera** i det övre högra hörnet.
+- Så här expanderar/komprimerar du alla noder på översta nivån och alla undernoder under denna:
+    - Tryck på Ctrl+Skift medan du väljer åtgärden **Expandera** eller **Dölj** i det övre högra hörnet.
+    - Välj **...** i det övre högra hörnet och sedan åtgärden **Expandera alla** eller **Dölj alla**.
 
 ## <a name="see-also"></a>Se även
 [Söka efter sidor och information med berätta](ui-search.md)  

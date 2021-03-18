@@ -3,16 +3,16 @@ title: Hjälp och support
 description: Hitta produkthjälpen, råd, felsökningstips och hjälp och lär dig få teknisk support för Business Central.
 author: edupont04
 ms.reviewer: na
-ms.topic: article
+ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: c9933f8cc76c4a5fa4853b522acded97daf46ac6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e750221d18c2c4164fb87b575f8f4412392db250
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388505"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -89,13 +89,13 @@ Webbplatsen docs.microsoft.com är standardplatsen för att lära sig mer om oli
 
 ### <a name="content-on-the-site"></a>Innehåll på webbplatsen
 
-Det innehåll som Microsoft publicerar under användarhjälpens koncept *Läs mer* är delvis avsett för att besvara de frågor som användargränssnittet inte kan besvara, t.ex. om sidan passar in i det större arbetsflödet, eller vad som kommer härnäst, eller vad som kommer att vara ett alternativ osv. I produkten kan du komma åt innehållet antingen via länken *Läs mer* i knapp beskrivningar eller genom att använda kortkommandot *Ctrl + F1*.  
+Det innehåll som Microsoft publicerar under användarhjälpens koncept *Läs mer* är delvis avsett för att besvara de frågor som användargränssnittet inte kan besvara, t. ex. om sidan passar in i det större arbetsflödet, eller vad som kommer härnäst, eller vad som kommer att vara ett alternativ osv. I produkten kan du komma åt innehållet antingen via länken *Läs mer* i knapp beskrivningar eller genom att använda kortkommandot *Ctrl + F1*.  
 
-Navigeringspanelen till vänster, innehållsförteckningen, grupperar artiklar efter affärsområde. Du kan t.ex. läsa artikel [inköpsartiklar för en försäljning](purchasing-how-purchase-products-sale.md) och sedan visar innehållsförteckningen att det finns en artikel som kallas [korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Båda artiklarna finns i gruppen *inköp*, som buntar artiklar som är relaterade till modulen inköp i [!INCLUDE [prod_short](includes/prod_short.md)].  
+Navigeringspanelen till vänster, innehållsförteckningen, grupperar artiklar efter affärsområde. Du kan t. ex. läsa artikel [inköpsartiklar för en försäljning](purchasing-how-purchase-products-sale.md) och sedan visar innehållsförteckningen att det finns en artikel som kallas [korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Båda artiklarna finns i gruppen *inköp*, som buntar artiklar som är relaterade till modulen inköp i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Innehållsförteckningen innehåller en grupp med innehåll som beskriver lokala funktioner för de länder som Microsoft stöder. Om ditt land inte finns med i listan, beror det förmodligen på att ditt land är lokaliserat av en partner. För mer information, se [Tillgänglighet för land/region och språk som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-I det lokala funktionsinnehållet beskrivs möjligheterna i [!INCLUDE [prod_short](includes/prod_short.md)] som kan hjälpa dig att bli kompatibla på de marknader som stöds, t.ex. momsrapporter och andra rapporter. I vissa fall är skillnaden mellan standardversionen och den landsspecifika versionen osynlig för användarna. I andra fall måste användarna ställa in rapportering eller elektronisk fakturering på ett visst sätt. Om du inte hittar en beskrivning av en viss knapp eller åtgärd i standardavsnittet av innehållet på den docs.microsoft.com webbplatsen kan du förhoppnings vis hitta den i avsnittet *lokala funktioner*.  
+I det lokala funktionsinnehållet beskrivs möjligheterna i [!INCLUDE [prod_short](includes/prod_short.md)] som kan hjälpa dig att bli kompatibla på de marknader som stöds, t. ex. momsrapporter och andra rapporter. I vissa fall är skillnaden mellan standardversionen och den landsspecifika versionen osynlig för användarna. I andra fall måste användarna ställa in rapportering eller elektronisk fakturering på ett visst sätt. Om du inte hittar en beskrivning av en viss knapp eller åtgärd i standardavsnittet av innehållet på den docs.microsoft.com webbplatsen kan du förhoppnings vis hitta den i avsnittet *lokala funktioner*.  
 
 ### <a name="finding-other-content"></a>Söka efter annat innehåll
 
@@ -103,9 +103,9 @@ Om du använder en artikel som inte svarar på din fråga kan du söka efter ann
 
 - Använd fältet **filtrera efter rubrik** i innehållsförteckningen till vänster på webbplatsen
 
-  På så sätt kan du filtrera efter ord som används i titlarna på de olika artiklarna. Skriv t.ex. *faktura* och välj sedan en av de erbjudna länkarna, t.ex. [inställning av fakturaavrundning](finance-set-up-invoice-rounding.md) eller [skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).  
+  På så sätt kan du filtrera efter ord som används i titlarna på de olika artiklarna. Skriv t. ex. *faktura* och välj sedan en av de erbjudna länkarna, t. ex. [inställning av fakturaavrundning](finance-set-up-invoice-rounding.md) eller [skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).  
 
-  Under varje länk kan du se var i artikeln som innehållsförteckningen finns. På så sätt kan du enkelt se om artikeln finns i inköpsavsnittet eller i avsnittet för den australiska funktionaliteten, t.ex.  
+  Under varje länk kan du se var i artikeln som innehållsförteckningen finns. På så sätt kan du enkelt se om artikeln finns i inköpsavsnittet eller i avsnittet för den australiska funktionaliteten, t. ex.  
 - Använd **Sök**-fältet i det övre högra hörnet på webbplatsen
 
   På så sätt kan du söka efter valfria termer. Webbplatsen söker då igenom allt innehåll för den termen eller det aktuella uttrycket. Sök efter en *faktura* igen och bläddra igenom listan med hundratals artiklar i [!INCLUDE [prod_short](includes/prod_short.md)] innehållet som använder ordet någonstans i texten.  
@@ -118,7 +118,7 @@ Du kan ändra språket genom att ändra URL-adressen, eller så kan du använda 
 
 Innehållet redigeras på engelska och publiceras på URL:er med *en-US* som språkkod. När ny information publiceras på engelska skickas den ut för översättning till de språk som stöds. I vissa fall kan du inte läsa det nya innehållet på ditt eget språk i upp till fyra veckor, men i de flesta fall tar det bara en vecka eller två. Du kan alltid visa den senaste informationen genom att växla språk till *en-US*.  
 
-Innehållsförteckningen översätts för varje språk, men innehållet i avsnittet *lokal funktionalitet* är på engelska, utom för det land som motsvarar det aktuella språket. I den danska versionen av docs.microsoft.com webbplatsen (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) kan du t.ex. se posterna för den australiska lokala funktionaliteten på danska i innehållsförteckningen, men artiklarna är på engelska. Endast artiklarna för danska, lokala funktioner omvandlas till danska.  
+Innehållsförteckningen översätts för varje språk, men innehållet i avsnittet *lokal funktionalitet* är på engelska, utom för det land som motsvarar det aktuella språket. I den danska versionen av docs.microsoft.com webbplatsen (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) kan du t. ex. se posterna för den australiska lokala funktionaliteten på danska i innehållsförteckningen, men artiklarna är på engelska. Endast artiklarna för danska, lokala funktioner omvandlas till danska.  
 
 ### <a name="providing-feedback"></a>Ge återkoppling
 
@@ -131,7 +131,7 @@ Vi välkomnar dina bidrag, både som pull-förfrågningar med förslag eller än
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Navigera till andra delar av webbplatsen
 
-Värden docs.microsoft.com har både innehåll för andra produkter och andra typer av innehåll. Använd de länkar som finns högst upp på webbplatsen för att gå till [Lär](/learn/) webbplatsen eller [Dynamics 365 utgivningsplaner](/dynamics365/release-plans/). Du kan t.ex. hitta en länk till webbplatsen [Dynamics 365 Community](https://community.dynamics.com/).  
+Värden docs.microsoft.com har både innehåll för andra produkter och andra typer av innehåll. Använd de länkar som finns högst upp på webbplatsen för att gå till [Lär](/learn/) webbplatsen eller [Dynamics 365 utgivningsplaner](/dynamics365/release-plans/). Du kan t. ex. hitta en länk till webbplatsen [Dynamics 365 Community](https://community.dynamics.com/).  
 
 ## <a name="see-also"></a>Se även
 

@@ -3,19 +3,19 @@ title: Designdetaljer – Planeringsparametrar | Microsoft Docs
 description: I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b041eb6c573c9f50b09eb741ee2ceead154f8161
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 10a1e22092e8e18e5b1a71f7d2aa90f0ad2879a9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390805"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  

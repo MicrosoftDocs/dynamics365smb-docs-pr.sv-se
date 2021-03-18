@@ -3,19 +3,19 @@ title: Designdetaljer – Lagerbokföring | Microsoft Docs
 description: Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför två transaktioner av olika typer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 29f4bf5ba4315f6d7a19ba7cf3efd4186a2c5573
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389905"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
 
@@ -38,7 +38,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
 Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artikelkopplingstransaktioner skapas i redovisningstransaktioner.  
 
- Du bokför en inköpsorder som har inlevererats och fakturerats för 10 artiklar med en direkt enhetskostnad på BVA 7 och en omkostnad på BVA 1. Bokföringsdatumet är 20-01-01. Följande transaktioner upprättas.  
+ Du bokför en inköpsorder som har inlevererats och fakturerats för 10 artiklar med en direkt styckkostnad på BVA 7 och en omkostnad på BVA 1. Bokföringsdatumet är 20-01-01. Följande transaktioner upprättas.  
 
 ### <a name="item-ledger-entries-1"></a>Artikeltransaktioner (1)
 

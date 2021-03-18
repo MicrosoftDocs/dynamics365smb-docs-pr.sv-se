@@ -3,19 +3,19 @@ title: Tjänsteorderstatus och reparationsstatus
 description: Fältet Status på sidan Serviceorder och serviceartikelns reparationsstatus som visas i fältet Reparationsstatuskod på sidan Serviceorder har ett visst samband i modulen Servicehantering Serviceorderstatus visar reparationsstatus för alla serviceartiklar i serviceordern.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: 9bbe3a4263250a7d06bfffa2019114eba72a31ca
-ms.sourcegitcommit: 2d2dfb6c3eca1322835f0167dc7dab614346972e
+ms.openlocfilehash: b9095cbfd1b8a55f525f0a3c4dcfad6cf56fc449
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4038624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386830"
 ---
 # <a name="service-order-status-and-repair-status"></a>Tjänsteorderstatus och reparationsstatus
 
@@ -88,7 +88,7 @@ En typisk fördelning av prioritetsnivå kan se ut så här:
 * Stoppad – medellåg  
 * Färdig – låg  
 
-Om t.ex. en serviceartikel har reparationsstatus **Initial**, länkad till serviceorderstatus **Förestående**, en annan har **På gång**, länkad till servicestatus **På gång**, och en tredje har **Beställt reservdelar**, länkad till servicestatus **Stoppad**, blir den resulterande serviceorderstatus **På gång** eftersom den har högst prioritet.  
+Om t. ex. en serviceartikel har reparationsstatus **Initial**, länkad till serviceorderstatus **Förestående**, en annan har **På gång**, länkad till servicestatus **På gång**, och en tredje har **Beställt reservdelar**, länkad till servicestatus **Stoppad**, blir den resulterande serviceorderstatus **På gång** eftersom den har högst prioritet.  
 
 ## <a name="see-also"></a>Se även
 

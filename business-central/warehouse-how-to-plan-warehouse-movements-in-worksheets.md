@@ -3,19 +3,19 @@ title: 'Så här: Planera lagertransporter i kalkylark | Microsoft Docs'
 description: Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ae0386c4fc2e3ac216d4228c94e7447a808cf50
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6522341caa0ce0477b43ebce01ddb6ea2db1a9bd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756123"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391055"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planera lagertransporter i kalkylark
 Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner.  

@@ -3,19 +3,19 @@ title: Så här lägger du till fält i en Word-rapportlayout | Microsoft Docs
 description: Beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756998"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393888"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -73,7 +73,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
     3.  Upprepa steg a och b för varje fält.  
   
 ## <a name="adding-image-fields"></a>Lägga till bildfält  
- En rapportdatauppsättning kan omfatta ett fält som innehåller en bild, t.ex. ett företagslogotyp eller en bild av en artikel. Om du vill lägga till en bild från rapportdatauppsättningen infogar du en **Bild**-innehållskontroll.  
+ En rapportdatauppsättning kan omfatta ett fält som innehåller en bild, t. ex. ett företagslogotyp eller en bild av en artikel. Om du vill lägga till en bild från rapportdatauppsättningen infogar du en **Bild**-innehållskontroll.  
   
  Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storleksändras automatiskt i förhållande för att passa gränsen för innehållskontrollen.  
   

@@ -3,19 +3,19 @@ title: Så här ställer du in låneartiklar | Microsoft Docs
 description: Du kan skapa låneartiklar som du kan låna ut till kunder för att ersätta serviceartiklar medan de är på service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: af92f9476189107fced0ff73e92c07d1a09be25a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392105"
 ---
 # <a name="set-up-a-loaner-program"></a>Lägga upp program för låneartiklar
 Ibland måste du förse en kund med en låneartikel medan reparationen pågår. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du skapa ett låneartikelprogram, låna ut artiklar till dina kunder och spåra inleverans när kunderna lämnar tillbaka artiklarna. Du kan dessutom lägga till kommentarer om låneartiklar på två sätt:  

@@ -3,24 +3,24 @@ title: 'Så här: Införa artiklar med dist.lager artikelinförsel | Microsoft D
 description: När lagerstället kräver både inleverans- och artikelinförselbearbetning för distributionslagret använder du funktionen för distributionslagerartikelinförseldokumenten för att styra hur artiklar införs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a8233ec0ce59e5ce784a00f983b0666b9989255
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2c5ba64769a98b5adfa3e71cc8c06b50a5ef1968
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759648"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391930"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället kräver både inleverans- och artikelinförselbearbetning för distributionslagret använder du funktionen för distributionslagerartikelinförseldokumenten för att styra hur artiklar införs.  
 
-När du bokför en lagerinleverans uppdateras källdokumenten automatiskt, t.ex. inköpsorder, inkommande överföring eller försäljningsreturorder, varefter inlevererat antal bokförs i artikelregistret och raderna om de inlevererade artiklarna skickas till artikelinförselfunktionen i lagret. Om du använder intern artikelinförsel och plockning kan den interna artikelinförseln också skapa rader för artikelinförsel.  
+När du bokför en lagerinleverans uppdateras källdokumenten automatiskt, t. ex. inköpsorder, inkommande överföring eller försäljningsreturorder, varefter inlevererat antal bokförs i artikelregistret och raderna om de inlevererade artiklarna skickas till artikelinförselfunktionen i lagret. Om du använder intern artikelinförsel och plockning kan den interna artikelinförseln också skapa rader för artikelinförsel.  
 
 Beroende på hur lagret har ställts in görs raderna antingen tillgängliga för artikelinförselkalkylarket eller så används de för att skapa instruktioner för artikelinförsel direkt. Mer information finns i [Planera artikelinförsel i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 

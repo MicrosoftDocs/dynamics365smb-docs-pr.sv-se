@@ -3,26 +3,26 @@ title: Synkronisera Business Central och Dataverse | Microsoft Docs
 description: Lär dig mer om att synkronisera data mellan Business Central och Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 94f969f4d96f31b3b6843614e1bd99790a22307d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755198"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385330"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Schemalägga en synkronisering mellan Business Central och Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Du kan synkronisera [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på schemalagda intervall, genom att ställa in projekt i jobbkön. Synkroniseringjobben synkroniserar data i [!INCLUDE[prod_short](includes/prod_short.md)]-poster och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-poster som har kopplats ihop tidigare. Eller för poster som inte redan är kopplade, beroende på synkroniseringsriktningen och reglerna, kan synkroniseringjobben skapa och koppla nya poster i målsystemet. 
 
-Det finns flera synkroniseringsprojekt som är tillgängliga förinstallerade. Jobben körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
+Det finns flera synkroniseringsprojekt som är tillgängliga förinstallerade. Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 1. VALUTA – Common Data Service-synkroniseringsjobb.
 2. LEVERANTÖR – Common Data Service-synkroniseringsjobb.
@@ -36,7 +36,7 @@ Du kan visa jobb på sidan **jobbkötransaktioner**. Mer information finns i [An
 
 I följande tabell beskrivs standardsynkroniseringjobben för [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
-| Jobbkötransaktion | Beskrivning | Riktning | Registermappning för integrering | Standardfrekvens för synkronisering (minuter) | Standardväntetid för inaktivitet (minuter) |
+| Projektkötransaktion | Beskrivning | Riktning | Registermappning för integrering | Standardfrekvens för synkronisering (minuter) | Standardväntetid för inaktivitet (minuter) |
 |--|--|--|--|--|--|--|
 | KONTAKT – Common Data Service synkroniseringsjobb | Synkroniserar [!INCLUDE[cds_long_md](includes/cds_long_md.md)] kontakter med [!INCLUDE[prod_short](includes/prod_short.md)] kontakter. | Dubbelriktad | KONTAKT | 30 | 720 <br>(12 timmar) |
 | VALUTA – Common Data Service synkroniseringsjobb | Synkroniserar [!INCLUDE[cds_long_md](includes/cds_long_md.md)] transaktionsvalutor med [!INCLUDE[prod_short](includes/prod_short.md)]-valutor. | Från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] | VALUTA | 30 | 720 <br> (12 tim) |

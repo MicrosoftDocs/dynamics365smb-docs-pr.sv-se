@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2c6c8a8515192640625fff5cda58f62d19d4d37
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2785550b59e79d3bbda3a59422aabd7adac94c6e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393855"
 ---
 # <a name="change-the-current-report-layout"></a>Ändra aktuell rapportlayout
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
@@ -53,7 +53,7 @@ Alla layouter för anpassade rapporter som finns för rapportmallar i ett föret
 
 Namnet på den valda anpassade layouten visas nu i fältet **Anpassad layoutbeskrivning** kommer att användas nästa gång rapporten eller dokumentet förhandsgranskas, skrivs ut eller skickas.
 
-Du kan nu gå till kund- och leverantörskorten för att ange vilka layouter som ska användas för olika dokument som du har för kunden eller leverantören i fråga, t.ex. orderbekräftelser eller betalningspåminnelser. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
+Du kan nu gå till kund- och leverantörskorten för att ange vilka layouter som ska användas för olika dokument som du har för kunden eller leverantören i fråga, t. ex. orderbekräftelser eller betalningspåminnelser. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

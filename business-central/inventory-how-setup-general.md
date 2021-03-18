@@ -3,19 +3,19 @@ title: Definiera allmänna lagerinställningar
 description: Beskriver hur du definierar den allmänna lagerinställningen så att du kan hantera distributionslagret och lagret.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3ecf8d206e50244c19a820bdb67d2992cbefe36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 10344ae85edc8a63dcff1a5a5927bf2d19045810
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746372"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389405"
 ---
 # <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
 
@@ -31,7 +31,7 @@ Detaljerad information om kostnadsfälten, **Automatisk kostnadsbokföring**, **
 Om du vill ange en inkommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret på sidan **Lagerinställning** och för lagerstället. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Reglaget **Automatisk kostnadsjustering** är aktiverat som standard för att säkerställa att lagervärden alltid är korrekta i redovisningen, vilket i sin tur innebär att försäljnings- och vinststatistik är aktuell. Kostnadsändringar från inkommande transaktioner, t.ex. de för inköp eller produktionsutflöde tilldelas relaterade utgående transaktioner, t.ex. försäljningar eller överföringar. Detta är användbart för nya [!INCLUDE[prod_short](includes/prod_short.md)]-kunder och mindre företag med relativt låga lagertransaktionsnivåer. När företaget växer och lagernivåerna ökar kan detta emellertid sakta ner systemets prestanda. Om du vill förhindra att prestandan vid bokföringen försämras väljer du ett tidsalternativ för att definiera hur långt tillbaka i tiden från arbetsdatumet som en inkommande transaktion kan inträffa för att eventuellt utlösa justeringar av relaterade utgående värdetransaktioner. Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans.
+> Reglaget **Automatisk kostnadsjustering** är aktiverat som standard för att säkerställa att lagervärden alltid är korrekta i redovisningen, vilket i sin tur innebär att försäljnings- och vinststatistik är aktuell. Kostnadsändringar från inkommande transaktioner, t. ex. de för inköp eller produktionsutflöde tilldelas relaterade utgående transaktioner, t. ex. försäljningar eller överföringar. Detta är användbart för nya [!INCLUDE[prod_short](includes/prod_short.md)]-kunder och mindre företag med relativt låga lagertransaktionsnivåer. När företaget växer och lagernivåerna ökar kan detta emellertid sakta ner systemets prestanda. Om du vill förhindra att prestandan vid bokföringen försämras väljer du ett tidsalternativ för att definiera hur långt tillbaka i tiden från arbetsdatumet som en inkommande transaktion kan inträffa för att eventuellt utlösa justeringar av relaterade utgående värdetransaktioner. Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans.
 
 ## <a name="see-also"></a>Se även
 [Lagerinställning](inventory-setup-inventory.md)  

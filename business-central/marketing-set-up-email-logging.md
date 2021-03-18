@@ -3,19 +3,19 @@ title: Ställa in e-postloggning | Microsoft Docs
 description: Lär dig hur du kan omvandla e-postinteraktioner mellan säljare och kunder till verkliga affärsmöjligheter.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749811"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470343"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 
@@ -65,7 +65,7 @@ Följande åtgärder förutsätter att du använder Azure Active Directory för 
     > Om du inte anger omdirigerings-URL:en kan du göra det senare genom att välja **Lägg till en plattform** och sedan välja **Webb** för att lägga till webb-appen och omdirigeringsadressen. 
 
 3. Under **Hantera** väljer du **Manifest**.
-4. Leta reda på egenskapen **requiredResourceAccess** i manifestet och lägg till följande kod i hakparenteserna ([]) för att lägga till de behörigheter som krävs. Mer information finns i [Registrera ditt program](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Leta reda på egenskapen **requiredResourceAccess** i manifestet och lägg till följande kod i hakparenteserna ([]) för att lägga till de behörigheter som krävs. Mer information finns i [Registrera ditt program](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

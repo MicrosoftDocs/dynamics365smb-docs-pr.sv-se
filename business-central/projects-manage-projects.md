@@ -3,20 +3,20 @@ title: Projektaktiviteter som använder resurser och tidrapporter | Microsoft Do
 description: Beskriver hur du använder resurser och tidrapporter och projekt för att hantera projekt.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: dc0425dddc02a20f074aee26a96bf4161ed212ca
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748849"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388324"
 ---
 # <a name="project-management"></a>Projekthantering
-I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utföra vanliga projekthanteringsuppgifter som t.ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utföra vanliga projekthanteringsuppgifter som t. ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
 
 Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt. Mer information finns i [Ställa in Projekthantering](projects-setup-projects.md).  
 

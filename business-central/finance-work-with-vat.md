@@ -3,24 +3,27 @@ title: Så här arbetar du med moms på försäljning och inköp | Microsoft Doc
 description: Det här avsnittet beskriver hur du utför uppgifter som att rätta bokförd moms i EU-länder/regioner, där varje försäljnings- och inköptransaktion är momspliktiga. Det här avsnittet beskriver hur.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746622"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493098"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
-Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. Du kan t.ex. behöva korrigera ett bokfört belopp om du upptäcker att en leverantör använder en annan avrundningsmetod.
+Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. Du kan t. ex. behöva korrigera ett bokfört belopp om du upptäcker att en leverantör använder en annan avrundningsmetod.  
+
+> [!TIP]
+> Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] validera momsregistreringsnummer och annan företagsinformation när du skapar eller uppdaterar dokument. Mer information finns i [validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Beräkna och visa momsbelopp i försäljnings- och inköpsdokument  
 Du kan beräkna och visa momsbelopp i försäljnings- och inköpsdokument på olika sätt beroende på vilken typ av kund eller leverantör som du handlar med. Du kan också åsidosätta det momsbelopp som har beräknats för att matcha det momsbelopp som har beräknats av leverantören för en given transaktion.  
@@ -47,7 +50,7 @@ Följande tabell innehåller en översikt över hur enhetsprisbeloppen för ett 
 |Markering|Markering|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris inkl. moms**.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuellt korrigera momsbelopp i försäljnings- och inköpsdokument  
-Det går att göra korrigeringar av bokförda momstransaktioner. Detta gör det möjligt att ändra de totala försäljnings- eller inköpsmomsbeloppen utan att ändra nettobeloppet. Detta kan vara nödvändigt om t.ex. en leverantör skickar en faktura med felberäknad moms.  
+Det går att göra korrigeringar av bokförda momstransaktioner. Detta gör det möjligt att ändra de totala försäljnings- eller inköpsmomsbeloppen utan att ändra nettobeloppet. Detta kan vara nödvändigt om t. ex. en leverantör skickar en faktura med felberäknad moms.  
 
 Även om du har ställt in en eller flera kombinationer för hantering av importmoms, måste du skapa minst en produktbokföringsmall för moms. Du kan till exempel ge det namnet **KORREKT** för korrigeringssyfte, om du inte kan använda samma redovisningskonto i **Ingående moms** på momsbokföringsinställningsraden. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
@@ -93,14 +96,14 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurera inköp för bokföring av fakturor med specificerad importmoms  
 1. Skapa ett leverantörskort för den importavdelning som skickar importmomsfakturan till dig. **Gen. rörelsebokföringsmall** och **Moms rörelsebokföringsmall** måste ställas in på samma sätt som redovisningskontot för importmomsen.  
 2. Skapa en **produktbokföringsmall** för importmomsen och skapa **produktbokf.mall för standardmoms** för den kopplade **produktbokföringsmallen** för importmomsen.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
+3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
 4. Välj redovisningskontot för importmoms och välj sedan åtgärden **Redigera**.  
 5. På snabbfliken **Bokföring**  i fältet **Produktbokföringsmall** för importmomsen. [!INCLUDE[prod_short](includes/prod_short.md)] fyller automatiskt i **Moms, produktbokföringsmall**.  
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 7. Skapa en kombination av **Gen. rörelsebokföringsmall** för skattemyndigheterna och **Produktbokföringsmall** för importmoms. Välj importmervärdeskattredovisningskontot för den här nya kombinationen i fältet **Inköpskonto**.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Så här skapar du en ny faktura för leverantören när du har slutfört inställningen  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.  
 2. Skapa en ny inköpsfaktura.  
 3. I fältet **Inköpsleverantörsnr** markerar du leverantören och klickar på **OK**.  
 4. I inköpsraden, i fältet **Typ** välj **Redovisningskonto**, och i fältet **Nr.** markera redovisningskontot för importmoms.  
@@ -173,15 +176,16 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 
     > [!NOTE]  
     >  Du kan inte skapa ett nytt leveransintyg på sidan **Leveransintyg** när du navigerar till den med den här proceduren. Om du vill skapa ett intyg för en leverans som inte var inställd för att kräva en öppnar du den bokförda försäljningsutleveransen och använder någon av de två procedurer som beskrivs ovan:  
-    >   
+    >
     > * Så här skapar du manuellt ett leveransintyg  
     > * Så här skriver du ut ett leveransintyg.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även  
-[Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)   
-[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)   
+## <a name="see-also"></a>Se även
 
+[Förbereda beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
+[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
+[Validera ett momsregistreringsnummer](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

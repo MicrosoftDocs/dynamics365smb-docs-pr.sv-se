@@ -3,19 +3,19 @@ title: Terminologi i kostnadsredovisning | Microsoft Docs
 description: I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ad6c208383aa5a92b3d4abf9132b4f2eb4654195
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0b6c9507878d7a508821426012cc9a54cab5919a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746505"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392830"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
 I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.  
@@ -26,8 +26,8 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
 |**Term**|**Definition**|  
 |--------------|--------------------|  
 |Fördelningsnyckel|Fördelningsnyckeln utgör basen som används för att fördela kostnader. Det är vanligtvis ett antal, till exempel kvadratmeter, antal anställda eller använda man-timmar. Exempelvis två avdelningar med 20 respektive 10 anställda som delar på lunchrumskostnaderna. Kostnaderna fördelas mellan avdelningarna genom att använda en fördelningsnyckel som representerar antalet anställda. Två tredjedelar av kostnaderna fördelas på den första avdelning och en tredjedel fördelas på den andra avdelningen.|  
-|Fördelningskälla|Fördelningskällan bestämmer vilka kostnader som fördelas. Fördelningar definieras i tabeller för fördelningskällor och fördelningsmål. Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Alla kostnader för uppvärmning som är en fördelningskälla kan t.ex. fördelas på kostnadsställena för verkstaden, produktionen och säljavdelningen, som i sin tur är fördelningsmål.|  
-|Fördelningsmål|Fördelningsmålen bestämmer vart kostnaderna fördelas. Fördelningar definieras i tabeller för fördelningskällor och fördelningsmål. Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Alla kostnader för uppvärmning som är en fördelningskälla kan t.ex. fördelas på kostnadsställena för verkstaden, produktionen och säljavdelningen, som i sin tur är fördelningsmål.|  
+|Fördelningskälla|Fördelningskällan bestämmer vilka kostnader som fördelas. Fördelningar definieras i tabeller för fördelningskällor och fördelningsmål. Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Alla kostnader för uppvärmning som är en fördelningskälla kan t. ex. fördelas på kostnadsställena för verkstaden, produktionen och säljavdelningen, som i sin tur är fördelningsmål.|  
+|Fördelningsmål|Fördelningsmålen bestämmer vart kostnaderna fördelas. Fördelningar definieras i tabeller för fördelningskällor och fördelningsmål. Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Alla kostnader för uppvärmning som är en fördelningskälla kan t. ex. fördelas på kostnadsställena för verkstaden, produktionen och säljavdelningen, som i sin tur är fördelningsmål.|  
 |Kostnadsredovisning|I kostnadsredovisning registreras faktiska kostnader för drift, processer, avdelningar eller produkter. De här kostnaderna fördelas på kostnadsställen och kostnadsbärare, genom att använda olika kostnadsfördelningsmetoder. Chefer använder statistik och rapporter, till exempel kostnadsfördelningsblad och vinstanalys, för att fatta beslut och reducera kostnader. Kostnadsredovisningen hämtar data från redovisningen, men de fungerar oberoende av varandra. Därför påverkar transaktioner som har bokförts i kostnadsredovisningen inte data i redovisningen.|  
 |Kostnadstyp|Planen för kostnadstyper har samma funktion som kontoplanen för redovisningskonton. De struktureras ofta på liknande sätt. Därför är det möjligt att överföra kontoplanen för redovisningen till planen för kostnadstyper och sedan att ändra den. Kontoplanen för kostnadstyper kan även skapas från början.|  
 |Kostnadsställe|Kostnadsställen är oftast avdelningar och resultatenheter som ansvarar för kostnader och intäkter. Kostnadsställen kan synkroniseras med dimensioner i redovisningen. Det är också möjligt att lägga till nya kostnadsställen som definierar egna sorteringar med delsumma.|  

@@ -5,25 +5,25 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c753e38566971c044da3337f0f35f1609bd489c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 48d7615ec32424400133c9dbf6b63c46d450f019
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748874"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388380"
 ---
 # <a name="use-resources-for-jobs"></a>Använda resurser för projekt
 Du registrerar förbrukning av resurser i projektjournalen för att hålla reda på kostnader, priser och de specifika projekttyper som är kopplade till projekt. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
 > [!NOTE]
-> Du kan också köpa externa resurser om du t.ex. vill fakturera en leverantör för levererat arbete. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
+> Du kan också köpa externa resurser om du t. ex. vill fakturera en leverantör för levererat arbete. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
 Du kan även bokföra förbrukningen av en resurs i en resursjournal eller projektjournal. Transaktioner bokförda i resursjournaler påverkar inte redovisningen.
 
@@ -31,7 +31,7 @@ Du kan även bokföra förbrukningen av en resurs i en resursjournal eller proje
 Du tilldelar resurser till projekt genom att skapa planeringsrader för projektet. Mer information finns i [Skapa projekt](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Registrera resursförbrukning för ett projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.
 2. Öppna den relevanta projektjournalen och fyll sedan i fälten som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 

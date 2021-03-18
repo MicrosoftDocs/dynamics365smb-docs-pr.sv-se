@@ -3,19 +3,19 @@ title: Översikt över bokföring av rad i redovisningsjournalen | Microsoft Doc
 description: Detta avsnitt introducerar ändringar i Kodmodul 12, **Gen. Jnl.-Post Line**, som utgör det huvudsakliga programobjektet för redovisningstransaktioner och är den enda plats där transaktioner för redovisning, moms samt kund- och leverantörsreskontra kan föras in.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7ed6c60ddf1be51bbbc14eb8384cdc4ac05337ac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751611"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390230"
 ---
 # <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen
 Kodmodul 12, **Redovisningsjnl – bokför rad**, är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas. Den här kodmodulen används även för alla operationer av typen Verkställ, Ta bort och Återför.  
@@ -26,7 +26,7 @@ Kodmodulen har förbättrats i varje utgåva under de senaste tio åren, men des
 Den gamla arkitekturen hade följande funktioner:  
   
 * Tidigare använder globala variabler i stor utsträckning, vilket ökade risken för dolda fel på grund av variabler med fel omfång.  
-* Många långa procedurer (med mer än 100 kodrader) som även hade hög cyklomatisk komplexitet (t.ex. många kapslade instruktioner som CASE, REPEAT och IF) användes, vilket gjorde koden mycket svår att läsa och underhålla.  
+* Många långa procedurer (med mer än 100 kodrader) som även hade hög cyklomatisk komplexitet (t. ex. många kapslade instruktioner som CASE, REPEAT och IF) användes, vilket gjorde koden mycket svår att läsa och underhålla.  
 * Flera procedurer som endast användes lokalt och endast var avsedda att användas lokalt var inte markerade som lokala.  
 * De flesta procedurer hade inga parametrar och använde globala variabler. Vissa använda parametrar och åsidosatta globala variabler med lokaler.  
 * Kodmönster för sökning av redovisningskonton och skapande av redovisnings- och momstransaktioner standardiserades inte och varierade mellan olika platser. Det fanns dessutom mycket koddubbletter och bruten symmetri mellan kund- och leverantörskoden.  

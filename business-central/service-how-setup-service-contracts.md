@@ -3,19 +3,19 @@ title: Konfigurera servicekontrakt | Microsoft Docs
 description: Så här skapar du servicekontrakt
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e89b2257db6d1c07fb08011c7188855799485264
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757923"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391730"
 ---
 # <a name="set-up-service-contracts"></a>Skapa servicekontrakt
 Innan du kan arbeta med kontrakt, måste du ställa in följande: 
@@ -28,7 +28,7 @@ Innan du kan arbeta med kontrakt, måste du ställa in följande:
 ## <a name="to-set-up-a-service-contract-group"></a>Så här skapar du en servicekontraktsgrupp  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekontraktsgrupper** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Markera kryssrutan **Endast rabatt på kont.order** om du vill att kontrakts- eller servicerabatter endast ska gälla för kontraktserviceorder, t.ex. underhåll.  
+3. Markera kryssrutan **Endast rabatt på kont.order** om du vill att kontrakts- eller servicerabatter endast ska gälla för kontraktserviceorder, t. ex. underhåll.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Så här skapar du servicekontraktskontogrupper  
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serv.kontrakt redov.konton** och välj sedan relaterad länk.  

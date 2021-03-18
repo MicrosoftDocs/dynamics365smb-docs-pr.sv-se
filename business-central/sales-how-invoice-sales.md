@@ -3,19 +3,19 @@ title: Skapa en försäljningsfaktura eller försäljningsorder
 description: Beskriver hur du skapar en pantförskrivning eller försäljningsfaktura eller försäljningsorder för att registrera ditt avtal med en kund om att sälja eller handla med produkter som omfattas av särskilda villkor.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/21/2021
+ms.date: 01/25/2021
 ms.author: edupont
-ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 625259457528ed79b863604e65a55ff63a879ec3
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035412"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470418"
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
 
@@ -38,37 +38,41 @@ Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, 
 
 Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** för att ange om artikeln är en fysisk inventeringsenhet, en arbetstidsenhet eller en fysisk enhet som inte hålls i inventeringen. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md). Försäljningsfakturaprocessen är samma för alla tre artikeltyper.
 
-Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
+Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende på om kunden redan har registrerats. Se steg 2 i följande procedur.
 
 ## <a name="to-create-a-sales-invoice"></a>Så här skapar du en försäljningsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
-   Andra fält på sidan **Försäljningsfaktura** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
-3. Ange namnet på en ny kund i fältet **Kund**.
-4. Välj knappen **ja** i dialogrutan om registrering av den nya kunden.
-5. Välj en mall det nya kundkortet ska baseras på sidan **Välj en mall för en ny kund** och välj sedan knappen **OK**.
-6. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
-7. Välj **OK** för att gå tillbaka till sidan **Förs.faktura**, när du har slutfört kundkortet.
+    Andra fält på sidan **Försäljningsfaktura** innehåller standardinformation om den valda kunden.  
+
+    Om kunden inte är registrerad, gör så här:
+
+    1. Ange namnet på en ny kund i fältet **Kund**.
+    2. Välj knappen **ja** i dialogrutan om registrering av den nya kunden.
+    3. Välj en mall det nya kundkortet ska baseras på sidan **Välj en mall för en ny kund** och välj sedan knappen **OK**.
+    4. Ett nytt kundkort visar information från den markerade kundmallen. Fyll i resterande fält. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
+    5. Välj **OK** för att gå tillbaka till sidan **Förs.faktura**, när du har slutfört kundkortet.
 
    Flera fält i försäljningsfakturahuvudet är nu ifyllda med information som du har angett på det nya kundkortet.  
-8. På sidan **Inkommande dokument** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På sidan **Inkommande dokument** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Om du tillåter att kunden betalar direkt, till exempel via kontanter eller PayPal, fyll sedan i fältet **betalningssätt**. Betalningen registreras sedan när du bokför försäljningsfakturan som fakturerad. Om du väljer kontant registreras betalning på ett angivet motkonto.
 
-    Du är nu klar att fylla i försäljningsfakturaraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.   
+    Du är nu klar att fylla i försäljningsfakturaraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.  
 
     Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
-9. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
-10. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **Typ**.
+4. På snabbfliken **rader** i fältet **typ** väljer du vilken typ av produkt, kostnad eller transaktion som du vill bokföra för kunden med försäljningsraden.
+5. I fältet **Nr.** väljer du en post som ska bokföras enligt värdet i fältet **Typ**.
 
     Du lämnar fältet **Nr.** tomt i följande fall:
 
     * Om raden är avsedd för en kommentar. Skriv kommentaren i fältet **Beskrivning**.
     * Om raden är avsedd för en katalogartikel. Välj åtgärden **Markera katalogartiklar**. Mer information finns i [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).
 
-11. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
+6. I fältet **Antal** anger du hur många enheter av produkt, kostnad eller transaktion som registreras på raden för kunden.  
 
     > [!NOTE]  
     > Om artikeln är av typen **Tjänst**, eller fältet **Typ** innehåller **Resurs**, är kvantiteten en tidsenhet, till exempel timmar, enligt fältet **Enhetskod** på raden. Mer information finns i [Ställa in måttenheter](inventory-how-setup-units-of-measure.md).
@@ -76,19 +80,21 @@ Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende p
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 
     Pris- och radbeloppen visas med eller utan omsättningsskatt beroende på vad du valde i fältet **Priser inkl. moms** på kundkortet.  
-12. Om du vill ge en rabatt kan du ange ett procenttal i fältet **radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
+7. Om du vill ge en rabatt på försäljningsraden anger du ett procenttal i fältet **Radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
 
-    Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Upprepa moment 9 till 12 för varje produkt som du vill fakturera kunden för.  
+    Om du har ställt in särskilda artikelpriser på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om prisvillkoren uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
+8. Upprepa moment 9 till 12 för varje produkt som du vill fakturera kunden för.  
 
     Fälten för summor under raderna uppdateras automatiskt när du skapar eller ändrar rader för att visa de belopp som ska bokföras i redovisningen.
 
     > [!NOTE]
-    > I sällsynta fall kan de bokförda beloppen avvika från vad som visas i fälten för summor. Det beror vanligtvis på att du avrundar beräkningar när det gäller moms.<br /><br />Om du vill kontrollera vilka belopp som faktiskt bokförs, kan du använda sidan **Statistik** sidan som tar hänsyn till de avrundade beräkningarna. Om du väljer åtgärden **Släpp** kommer fälten för summor dessutom att uppdateras så att de omfattar de avrundade beräkningarna.
-14. I fältet **Fakturarabatt** anger du ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.
+    > I sällsynta fall kan de bokförda beloppen avvika från vad som visas i fälten för summor. Det beror vanligtvis på att du avrundar beräkningar när det gäller moms.
+    >
+    > Om du vill kontrollera vilka belopp som faktiskt bokförs, kan du använda sidan **Statistik** sidan som tar hänsyn till de avrundade beräkningarna. Om du väljer åtgärden **Släpp** kommer fälten för summor dessutom att uppdateras så att de omfattar de avrundade beräkningarna.
+9. I fältet **Fakturarabatt** anger du (valfritt) ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.
 
     Om du har ställt in fakturarabatter för kunden, då infogas det angivna procentsatsvärdet automatiskt i fältet **Fakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Inv. Rabattbelopp exkl. moms**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
-15. När försäljningsfakturaraderna slutförda väljer du åtgärden **Bokföra och skicka**.  
+10. När försäljningsfakturaraderna slutförda väljer du åtgärden **Bokföra och skicka**.  
 
 Dialogrutan **Bokför och skicka bekräftelse** visar kundens standardmetod för mottagning av dokument. Du kan ändra utskicksmetoden genom att välja sökknappen för fältet **Skicka dokument till**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
 

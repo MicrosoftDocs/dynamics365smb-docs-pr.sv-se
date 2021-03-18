@@ -3,19 +3,19 @@ title: Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs
 description: För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att alla behov ska uppfyllas av tillräcklig försörjning och leverans har en funktion för att förstå hur planeringssystemet fungerar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8f09c843397c7b3fa0a24bc90f5799a157fa883
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388730"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  
@@ -28,7 +28,7 @@ För att förstå hur planeringssystemet fungerar är det nödvändigt att förs
 ## <a name="demand-and-supply"></a>Tillgång och efterfrågan
  Efterfrågan är den gemensamma termen som vanligtvis används för alla typer av bruttobehov, t.ex försäljningsorder och komponentbehov från en produktionsorder. Dessutom tillåter programmet mer tekniska typer av efterfrågan, till exempel negativt lagersaldo och inköpsreturer.  
 
-  Tillgång är den term som vanligtvis används för alla typer av positivt eller ankommande antal, t.ex. inköpsöverföringar, monteringsöverföringar, produktionsöverföringar och ankommande överföringar. Dessutom kan en försäljningsretur också representera tillgång.  
+  Tillgång är den term som vanligtvis används för alla typer av positivt eller ankommande antal, t. ex. inköpsöverföringar, monteringsöverföringar, produktionsöverföringar och ankommande överföringar. Dessutom kan en försäljningsretur också representera tillgång.  
 
   För att sortera ut de många källorna till efterfrågan och tillgång ordnar planeringssystemet dem på två tidslinjer som kallas lagerprofiler. En profil innehåller efterfråganshändelser och den andra innehåller motsvarande tillgångshändelser. Varje händelse representerar en ordernätverksenhet, till exempel en försäljningsorderrad, en artikeltransaktion eller en produktionsorderrad.  
 
@@ -131,7 +131,7 @@ En användare måste definiera en giltig prognosperiod. Datumet på det prognost
 
 Prognosen för perioder före planeringsperioden används inte, oavsett om den förbrukades eller inte. Den första prognossiffran av intresse är antingen datumet på eller det närmaste datumet före planeringsstartdatumet.  
 
-Prognosen kan användas för icke härledd efterfrågan, t.ex. försäljningsorder, eller härledd efterfrågan, t.ex. produktionsorderkomponenter (modul-prognos). En artikel kan ha båda typerna av prognos. Under planeringen sker förbrukningen separat, först för härledd efterfrågan och sedan för icke härledd efterfrågan.  
+Prognosen kan användas för icke härledd efterfrågan, t. ex. försäljningsorder, eller härledd efterfrågan, t. ex. produktionsorderkomponenter (modul-prognos). En artikel kan ha båda typerna av prognos. Under planeringen sker förbrukningen separat, först för härledd efterfrågan och sedan för icke härledd efterfrågan.  
 
 ### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Avropsorderbegäran minskas med försäljningsorder  
 Prognostisering kompletteras av avropsorder som ett sätt att ange framtida efterfrågan från en specifik kund. Som med den (ospecificerade) prognosen bör de faktiska försäljningarna förbruka den förutsedda efterfrågan, och det återstående antalet ska ingå i lagerprofilen för efterfrågan. Förbrukningen minskar inte avropsordern.  

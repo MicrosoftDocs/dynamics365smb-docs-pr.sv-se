@@ -3,19 +3,19 @@ title: Skapa ekonomiska rapporter med hjälp av kontouppställningar
 description: Beskriver hur du kan använda kontouppställningar för att skapa olika vyer och rapporten för att analysera ekonomisk prestandadata.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 58bc5001400a1a6ed03f5780a71b2f1ab96c43bc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 584a3aa295ab3ec59a6f6a1e34017d0f9a67bc5c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752161"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389230"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 
@@ -44,7 +44,7 @@ Du kan använda kontokategorier för att ändra layout på din redovisning. När
 > [!NOTE]
 > Konto kategorierna på den högsta nivån, till exempel noden **skulder**, är fasta och du kan inte lägga till egna. Du kan emellertid ta bort och lägga till kontokategorier på lägre nivåer och ändra deras struktur för att definiera hur det relaterade kontouppställningen ska visas i rapporter.
 >
-> Du bör skapa och strukturera egna redovisningskonto kategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t.ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**.
+> Du bör skapa och strukturera egna redovisningskonto kategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t. ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**.
 
 ## <a name="to-create-a-new-account-schedule"></a>Så här skapar du nya kontouppställningar:
 
@@ -59,7 +59,7 @@ Sidan **Kontouppställning översikt** är där du kan förhandsgranska den fina
 3. Alternativt väljer du åtgärden **Kopiera kontouppställning** fyller du i de två fälten och väljer sedan knappen **OK**.
 4. Fyll i fälten om det behövs. I fältet **Standardkolumnlayout** väljer du en befintlig layout. Du kan redigera den senare om du vill.
 
-    Du kan använda kolumnlayouter för att definiera kolumner för olika parametrar som ekonomiska data på raderna visas. Du kan t.ex. utforma en kolumn för att jämföra nettoförändringen för samma period innevarande och föregående år med fyra kolumner. Mer information finns i avsnittet [Att redigera en kolumnlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Du kan använda kolumnlayouter för att definiera kolumner för olika parametrar som ekonomiska data på raderna visas. Du kan t. ex. utforma en kolumn för att jämföra nettoförändringen för samma period innevarande och föregående år med fyra kolumner. Mer information finns i avsnittet [Att redigera en kolumnlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Välj åtgärden **Redigera kontouppställning**.
 6. Skapa en rad för varje ekonomisk element som du vill ska visas i rapporten, till exempel en rad för omsättningstillgångar och en annan rad för anläggningstillgångar. För inspiration, se befintliga kontouppställningar i demonstrationsföretaget CRONUS.
@@ -71,7 +71,7 @@ Du har nu definierat basen för kontouppställningen, raderna för ekonomiska da
 
 ### <a name="to-edit-a-column-layout"></a>Så här redigerar du en kolumnlayout
 
-För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t.ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år.
+För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t. ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år.
 
 > [!NOTE]
 > En utskriven/granskad/sparad version av en kontouppställning kan visa maximalt fem kolumner. Om kontouppställningen endast är avsedd för analys på sidan **Kontouppställning översikt** kan du skapa så många kolumner du vill.
@@ -86,7 +86,7 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser
 
-Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t.ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
+Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t. ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  

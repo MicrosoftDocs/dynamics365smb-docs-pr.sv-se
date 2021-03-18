@@ -1,21 +1,21 @@
 ---
 title: Spärra artiklar för försäljning eller inköp
-description: Du kan förhindra att en artikel används, t.ex. i försäljnings- eller inköpsdokument.
+description: Du kan förhindra att en artikel används, t. ex. i försäljnings- eller inköpsdokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f958600a47daa12a665975d6c41e214fca7cf5ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87628f1983e0bafda9119ef3729dbb142c761b1a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393130"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Spärra artiklar för försäljning eller inköp
 Du kan spärra en artikel så att den inte kan registreras på rader i försäljnings- eller inköpsdokument, och du kan även spärra den från att publiceras i en transaktion. Detta kan till exempel vara användbart när en artikel har en känd defekt. Om någon väljer en spärrad artikel i ett försäljnings- eller inköpsdokument kommer ett meddelande att informera dem om att artikeln är spärrad.

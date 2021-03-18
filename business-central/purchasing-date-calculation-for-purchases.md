@@ -3,19 +3,19 @@ title: Datum för beräkning av inköp | Microsoft Docs
 description: Programmet beräknar automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 03cdb942a088b27be5c89843da4a958d0e13f843
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758598"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388280"
 ---
 # <a name="date-calculation-for-purchases"></a>Datumberäkning för inköp
 
@@ -44,7 +44,7 @@ Om du skriver in en inköpsorderrad utan ett begärt leveransdatum fylls fältet
 - orderdatum + ledtidsberäkning = planerat inleveransdatum.  
 - planerat inleveransdatum + inkommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
 
-Om du ändrar orderdatumet på raden, t.ex. om artiklarna inte är tillgängliga hos leverantören förrän vid ett senare datum, beräknas de aktuella datumen automatiskt om på raden.  
+Om du ändrar orderdatumet på raden, t. ex. om artiklarna inte är tillgängliga hos leverantören förrän vid ett senare datum, beräknas de aktuella datumen automatiskt om på raden.  
 
 Om du ändrar orderdatumet i huvudet kopieras detta datum till fältet **Orderdatum** på samtliga rader, varefter alla relaterade datumfält beräknas om.  
 

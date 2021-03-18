@@ -3,19 +3,19 @@ title: Arbeta med avropsorder, försäljning eller inköpsorder
 description: Du kan använda avropsorder om en kund har avtalat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Detsamma gäller för inköp.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1308f662073a915e8b6053d080926afaa9cc37af
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: dca254fd842739db798c763087fe94217061bbcf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383056"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeta med avropsorder, försäljning eller inköpsavropsorder
 
@@ -36,7 +36,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Låt fältet **Orderdatum** vara tomt. När separata försäljningsorder skapas från avropsordern anges orderdatum för försäljningsordern som det aktuella arbetsdatumet.
-5. På snabbfliken **Rader** skapar du separata rader för varje utleverans. Om kunden t.ex. beställer 1 000 enheter jämnt fördelade över fyra veckor skapar du fyra separata rader med 250 enheter på varje rad.  
+5. På snabbfliken **Rader** skapar du separata rader för varje utleverans. Om kunden t. ex. beställer 1 000 enheter jämnt fördelade över fyra veckor skapar du fyra separata rader med 250 enheter på varje rad.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Så här skapar du en försäljningsorder från en avropsorder  
 

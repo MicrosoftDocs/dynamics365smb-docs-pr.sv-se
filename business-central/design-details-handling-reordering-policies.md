@@ -3,19 +3,19 @@ title: Designdetaljer - Hantera partiformningsmetoder | Microsoft Docs
 description: Översikt över aktiviteter för att definiera en ombeställningsmetod inom leveransplanering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922248"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390055"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Hantera partiformningsmetoder
 För att en artikel ska ingå i leveransplanering måste en ombeställningsmetod definieras. Följande fyra partiformningsmetoder finns:  
@@ -60,7 +60,7 @@ Som angavs tidigare beräknas den planerade lagernivån i början av planeringsp
 ### <a name="determining-the-projected-inventory-level"></a>Fastställa den planerade lagernivån  
 Följande sekvens beskriver hur den planerade lagernivån fastställs:  
 
-* När en tillförselhändelse, t.ex. en inköpsorder har planerats fullständigt kommer det att öka det planerade lagret på förfallodatumet.  
+* När en tillförselhändelse, t. ex. en inköpsorder har planerats fullständigt kommer det att öka det planerade lagret på förfallodatumet.  
 * När en begäranhändelse har blivit fullständigt uppfylld kommer den inte att minska det planerade lagret direkt. I stället bokförs en minska-påminnelse, vilket är en intern post som innehåller datumet och antalet som läggs till i det planerade lagret.  
 * När en efterföljande tillförselhändelse planeras och placeras på tidslinjen, utforskas de bokförda minska-påminnelserna en och en fram tills det planerade datumet för leveransen, medan det planerade lagret uppdateras. Under processen kan beställningspunktsnivån för den interna ökningspåminnelsen ha nåtts eller passerats.  
 * Om en ny leveransorder introduceras kontrollerar systemet om den har angetts före den aktuella tillgången. Om det är det, blir den nya tillgången aktuell tillgång och balanseringsproceduren börjar om.  

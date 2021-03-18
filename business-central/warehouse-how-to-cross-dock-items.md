@@ -3,19 +3,19 @@ title: Så här direktutlevererar du artiklar | Microsoft Docs
 description: Direktutleveransfunktionen är tillgänglig om lagerstället kräver inleverans- och artikelinförselbearbetning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 125d8e152f2bc745b248b3418849cc87422a4982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759848"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391630"
 ---
 # <a name="cross-dock-items"></a>Beräkna direktutleverans av artiklar
 Direktutleveransfunktionen är tillgänglig om lagerstället kräver inleverans- och artikelinförselbearbetning.  
@@ -79,7 +79,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
     Du vill visa källdokumentrader som kräver artikeln innan du bokför Inleveransen.  
 3.  Välj åtgärden **Beräkna direktutleverans**.  
 
-    PÅ sidan **Direktutleveransmöjligheter** visas de viktigaste detaljerna om raderna som begär artikeln, t.ex. dokumenttyp, begärt antal och förfallodatum. Med hjälp av den här informationen kan du enklare bestämma hur mycket som ska direktutlevereras, var artiklarna ska placeras i området för direktutleveranser och hur de ska grupperas.  
+    PÅ sidan **Direktutleveransmöjligheter** visas de viktigaste detaljerna om raderna som begär artikeln, t. ex. dokumenttyp, begärt antal och förfallodatum. Med hjälp av den här informationen kan du enklare bestämma hur mycket som ska direktutlevereras, var artiklarna ska placeras i området för direktutleveranser och hur de ska grupperas.  
 
 4.  Välj **Autofyll Ant. för direktutlevns** för att visa hur antalen på inleveransraderna har beräknats. När du ändrar antalet artiklar i **Ant. för direktutlevns** på varje rad uppdateras beräkningen när du ändrar. Detta innebär dock inte att artiklarna som föreslås för direktutleverans kommer att inkluderas i utleveransen eller på produktionsordern i fråga, eftersom dessa modifikationer endast utförs i testsyfte. Processen kan emellertid ge viktig information i de fall flera enheter är inbegripna.  
 5.  Om du vill reservera en kvantitet av artikeln för en viss orderrad placerar du markören på raden och väljer sedan åtgärden **Reservera**. På sidan **Reservation** kan du nu reservera tillgänglig kvantitet av artikeln för den ordern. Reservationen är som andra reservationer och har ingen högre prioritet för att den skapades med direktutleverans. Mer information finns i [Reservera artiklar](inventory-how-to-reserve-items.md).   

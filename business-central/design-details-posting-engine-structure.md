@@ -3,24 +3,24 @@ title: Designdetaljer - Bokföringsmotorstruktur | Microsoft Docs
 description: Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funktioner i bokföringsmotorn för att förbereda och infoga redovisningstransaktioner och momstransaktionsposter. Bokföringsmotorn är också ansvarig för att skapa en registrering av redovisningen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 65bfc7be13fe47d221dff75d5895aeb38af6db26
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d4ae3fc68fed690ea5179623df3382a1804aaa4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921973"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390745"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Bokföringsmotorstruktur
 Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funktioner i bokföringsmotorn för att förbereda och infoga redovisningstransaktioner och momstransaktionsposter. Bokföringsmotorn är också ansvarig för att skapa en registrering av redovisningen.  
   
- Funktionerna i följande tabell tillhandahåller ett standardramverk för att utforma bokföringsprocedurer (t.ex. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry och Reverse) samt exklusiv åtkomst till tabell 17, redovisningstransaktion.  
+ Funktionerna i följande tabell tillhandahåller ett standardramverk för att utforma bokföringsprocedurer (t. ex. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry och Reverse) samt exklusiv åtkomst till tabell 17, redovisningstransaktion.  
   
 |Routine|Description|  
 |-------------|---------------------------------------|  

@@ -3,19 +3,19 @@ title: Hantera åtkomstmetoden för databas i Business Central | Microsoft-dokum
 description: Ändra åtkomstmetoden för databaser för rapporter, API-sidor och frågor.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6d79f5b2851df85ea9f19faeeb941eccfd1b397b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 502add82d2f70f6ffd13ae04f7eb6d214105fb63
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752831"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378604"
 ---
 # <a name="managing-database-access-intent"></a>Hantera åtkomstmetod för databas 
 
@@ -23,7 +23,7 @@ Som Super-användare eller administratör kan du ändra åtkomstmetoden för dat
 
 ## <a name="overview"></a>Översikt
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureras för att använda skrivskyddade kopior av den primära (skrivskyddade) databasen. Användning av en databaskopia minskar belastningen på den primära databasen. I vissa fall förbättras också prestandan när du visar data på klienten. Kopior är fördelaktiga för objekt, t.ex. rapporter, frågor och API-sidor, som används för att enbart visa (men inte ändra) data.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureras för att använda skrivskyddade kopior av den primära (skrivskyddade) databasen. Användning av en databaskopia minskar belastningen på den primära databasen. I vissa fall förbättras också prestandan när du visar data på klienten. Kopior är fördelaktiga för objekt, t. ex. rapporter, frågor och API-sidor, som används för att enbart visa (men inte ändra) data.
 
 När objekt körs bestämmer databasens åtkomstmetod huruvida en skrivskyddad kopia ska användas, om någon finns tillgänglig, eller om den primära databasen ska användas. Rapporter, API-sidor och frågor utvecklas med en fördefinierad metod för databasåtkomst (se [egenskapen DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 

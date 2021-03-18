@@ -3,19 +3,19 @@ title: Om ramverket för datautbyte | Microsoft Docs
 description: Formatet på filer för utbyte av data i bankfiler, elektroniska dokument, valutakurser och annat med ERP-system varierar beroende på leverantören av datafilen eller strömmen och på land/region.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebb1ae7fb775bc215933b81374309dbf4a047621
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fc01b4a0d04cf21ae2ede3a3a98aa928446fa4d1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753548"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385005"
 ---
 # <a name="about-the-data-exchange-framework"></a>Om ramverket för datautbyte
 

@@ -3,16 +3,16 @@ title: Hantera användare och roller | Microsoft Docs
 description: Lär dig hantera användare och rollcenter i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 630ddd66ee0655c4447d0a39df6be22daed6f13b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745994"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387505"
 ---
 # <a name="manage-profiles"></a>Hantera profiler
 
@@ -81,7 +81,7 @@ När en profil skapas kan du markera olika kryssrutor som definierar om, var och
     - **Visa i rollutforskaren** om du vill ange om åtgärder till affärsfunktioner som ingår i profilen ska visas i den utökade vyn av rollutforskaren, en översikt över funktioner. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>För att exportera profiler
-Du kan exportera profiler från [!INCLUDE[prod_short](includes/prod_short.md)], t.ex. återanvända dem i en annan innehavare. Profilerna exporteras till en zip-fil som innehåller .al-filer som kan återanvändas för att utveckla tillägg. Mer information finns i [Använda klienten för att skapa profiler och sidanpassningar](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Du kan exportera profiler från [!INCLUDE[prod_short](includes/prod_short.md)], t. ex. återanvända dem i en annan innehavare. Profilerna exporteras till en zip-fil som innehåller .al-filer som kan återanvändas för att utveckla tillägg. Mer information finns i [Använda klienten för att skapa profiler och sidanpassningar](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * På sidan **Profiler (roller)**, välj åtgärden **Exportera profiler**.
 
@@ -106,7 +106,7 @@ Du kan ta bort en profil genom att klicka på åtgärden **Ta bort** på sidan *
 - Du kan bara ta bort en profil i taget.
 
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Ta bort alla anpassningar som användaren har gjort
-Du kan ta bort alla ändringar som användaren gjort på sidor som utgör arbetsytan. Detta kan t.ex. vara användbart om en anställd har ändrat roll och inte längre behöver anpassningarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
+Du kan ta bort alla ändringar som användaren gjort på sidor som utgör arbetsytan. Detta kan t. ex. vara användbart om en anställd har ändrat roll och inte längre behöver anpassningarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användaranpassningar** och välj sedan relaterad länk.
 
@@ -120,7 +120,7 @@ Användaren kommer att se ändringarna nästa gång de loggar in.
 Du kan också ta bort alla sidanpassningar för en profil. Mer information finns i [Så här tar du bort alla anpassningar för en profil](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Så här tar du bort anpassningar för specifika sidor
-Du kan ta bort anpassningar som en eller flera användare har gjort på vissa sidor som utgör arbetsytan. Detta kan t.ex. vara användbart om en ändrad affärsprocedur innebär att en anpassning inte längre får användas av användarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
+Du kan ta bort anpassningar som en eller flera användare har gjort på vissa sidor som utgör arbetsytan. Detta kan t. ex. vara användbart om en ändrad affärsprocedur innebär att en anpassning inte längre får användas av användarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anpassningar av användarsidan** och välj sedan relaterad länk.
 
@@ -139,7 +139,7 @@ Du kan också ta bort individuella sidanpassningar för en profil. Mer informati
 
 Som administratör av [!INCLUDE[prod_short](includes/prod_short.md)] online kan du hantera användarsessioner i administrationscentret. Mer information finns i [Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsinnehållet.  
 
-För [!INCLUDE[prod_short](includes/prod_short.md)] lokal kan du t.ex. hantera sessioner med SQL Server Management Studio. Mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server).  
+För [!INCLUDE[prod_short](includes/prod_short.md)] lokal kan du t. ex. hantera sessioner med SQL Server Management Studio. Mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Se även  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  

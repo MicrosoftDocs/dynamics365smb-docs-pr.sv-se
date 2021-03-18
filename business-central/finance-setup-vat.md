@@ -1,23 +1,23 @@
 ---
-title: Om att ställa in moms | Microsoft Docs
+title: Ställa in moms
 description: Se till att du korrekt beräknar, bokför och rapporterar om moms för försäljning och inköp.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e0ce2d6c5a2d524cf150bc6e3b50f243fe42b4d9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 744fdc3748867324a1b9ba88746896956db9c221
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750336"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493070"
 ---
-# <a name="set-up-value-added-tax"></a>Ställa in moms
+# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
 Konsumenter och företag betalar moms när de köper varor eller tjänster. Momsbeloppet att betala kan variera beroende på flera faktorer. I [!INCLUDE[prod_short](includes/prod_short.md)] ställer du in moms för att ange de satser som ska användas för beräkning av momsbelopp baserat på följande:
 
@@ -63,7 +63,7 @@ Om du vill skapa momsregistreringsnummer, gör då så här:
 ## <a name="to-set-up-vat-business-posting-groups"></a>Så här skapar du rörelsebokföringsmallar för moms
 Rörelsebokföringsmallar för moms representerar de marknader där du gör affärer med kunder och leverantörer och definierar hur moms beräknas och bokförs på varje marknad. Exempel på momsrörelsebokföringsmallar är **Inhemsk** och **Europeiska unionen (EU)**.  
 
-Använd koder som är lätta att komma ihåg och som beskriver rörelsebokföringsmallen som t.ex. **EU**, **Icke-EU** eller **Inhemsk**. Koden måste vara unik. Du kan ställa in så många koder som du vill, men du kan inte använda samma kod mer än en gång i en tabell.
+Använd koder som är lätta att komma ihåg och som beskriver rörelsebokföringsmallen som t. ex. **EU**, **Icke-EU** eller **Inhemsk**. Koden måste vara unik. Du kan ställa in så många koder som du vill, men du kan inte använda samma kod mer än en gång i en tabell.
 
 Om du vill konfigurera rörelsebokföringsmall för moms, gör du följande steg:
 
@@ -126,7 +126,7 @@ Du konfigurerar en momsklausul som beskriver information om vilken typ av moms s
 
 Om det behövs kan du också ange hur man konverterar momsklausuler till andra språk. När du sedan skapar och skriver ut ett försäljningsdokument som innehåller ett moms-ID, kommer dokumentet att ta med den översatta momsklausulen. Den språkkod som anges på kundkortet bestämmer språket.
 
-När icke-standardmässiga momssatser används i olika typer av dokument, t.ex. fakturor eller kreditnotor, behöver företagen vanligtvis inkludera en undantagstext (momsklausul) som anger varför en reducerad momssats eller noll-momssats har beräknats. Du kan definiera olika momsklausuler som ska ingå i affärsdokumenten per dokumenttyp, t.ex. faktura eller kreditnota. Det gör du på sidan **Momsklausuler per dokumenttyp**.
+När icke-standardmässiga momssatser används i olika typer av dokument, t. ex. fakturor eller kreditnotor, behöver företagen vanligtvis inkludera en undantagstext (momsklausul) som anger varför en reducerad momssats eller noll-momssats har beräknats. Du kan definiera olika momsklausuler som ska ingå i affärsdokumenten per dokumenttyp, t. ex. faktura eller kreditnota. Det gör du på sidan **Momsklausuler per dokumenttyp**.
 
 Du kan ändra eller ta bort en momsklausul och dina ändringar kommer visas i en generarad rapporten. [!INCLUDE[prod_short](includes/prod_short.md)] sparar dock ingen historik över ändringen. I rapporten skrivs momsklausulbeskrivningarna ut, och visas för alla rader i rapporten tillsammans med momsbeloppet och nettobeloppet. Om en momsklausul inte har angetts för alla rader på försäljningsdokumentet, utelämnas hela avsnittet, när rapporten skrivs ut.
 

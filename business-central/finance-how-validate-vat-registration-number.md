@@ -1,38 +1,38 @@
 ---
 title: Validera momsregistreringsnummer
-description: Låt Business Central använda VIES-tjänsten för att validera momsregistrerings nummer automatiskt.
-author: kielkenny
+description: Låt Business Central validera momsregistreringsnummer och annan företagsinformation för dina kontakter, kunder och leverantörer, baserat på EU:s VIES-valideringstjänst för momsnummer.
+author: andregu
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.date: 02/25/2021
 ms.author: andregu
-ms.openlocfilehash: 80e955e96a64c5a0bd91d0a72297b32d67ff4ab6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 867ae5e726de5f2f78e4862a2d8c55dbc3d43ca0
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750567"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492923"
 ---
 # <a name="validate-vat-registration-numbers"></a>Validera momsregistreringsnummer
 
-Det är viktigt att momsregistreringsnummer för kunder, leverantörer och kontakter är giltiga. Till exempel ändrar företag sin skatteskuldstatus och i vissa länder kan skattemyndigheterna be dig lämna rapporter som t.ex. EG-försäljningslisterapport som anger de momsregistreringsnummer som du använder när du gör affärer.
+Det är viktigt att dina momsregistreringsnummer för kunder, leverantörer och kontakter är giltiga om du använder [!INCLUDE [prod_short](includes/prod_short.md)] i ett land som använder moms. Till exempel ändrar företag ibland sin skatteskuldstatus, och i vissa länder kan skattemyndigheterna be dig att lämna in rapporter, t. ex. rapporten **EC försäljningslista**, som anger de momsregistreringsnummer som du använder när du bedriver din verksamhet.
 
-Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE[prod_short](includes/prod_short.md)] kan spara dig det steget och låter dig använda VIES-tjänsten för verifiering och spåra momsregistreringsnummer för kunder, leverantörer och kontakter direkt från kund-, leverantörs- och kontaktkort. Tjänsten i [!INCLUDE[prod_short](includes/prod_short.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig på sidan **Anslutningar till tjänst**, och du kan börja använda den direkt. Registrering behövs inte och tjänsten är gratis.
+Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE [prod_short](includes/prod_short.md)] kan bespara dig det steget, och låter dig använda VIES-tjänsten för att verifiera och spåra momsregistreringsnummer och annan företagsinformation för kunder, leverantörer och kontakter. Tjänsten i [!INCLUDE [prod_short](includes/prod_short.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig på sidan **Anslutningar till tjänst**, och du kan börja använda den direkt. Serviceanslutningen är kostnadsfri, och ytterligare registrering behövs inte.
 
-## <a name="to-verify-vat-registration-numbers"></a>Kontrollera momsregistreringsnummer
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Konfigurera tjänsten för att verifiera momsregistreringsnummer automatiskt
 
-För att aktivera **Valideringstjänst för EU momsreg.nr.** öppnar du posten på sidan **Anslutning till tjänst**. Fältet **Tjänstslutpunkt** ska redan vara ifyllt. Om så inte är fallet kan du använda åtgärden **Ställ in standardslutpunkt**. Ange sedan fältet **Aktiverad** och du är redo att sätta igång.
+För att aktivera **Valideringstjänst för EU-momsreg.nr.** öppnar du posten på sidan **Anslutning till tjänst**. Om fältet **Tjänsteslutpunkt** inte redan är ifyllt använder du åtgärden **Ange standardslutpunkt**. Ange sedan fältet **Aktiverad**, och du är redo att sätta igång.  
 
-> [!NOTE]
-> Om du vill aktivera valideringstjänsten för EU momsreg.nr. måste du ha administratörsrättigheter.
+> [!IMPORTANT]
+> Du måste ha administratörsrättigheter för att kunna aktivera valideringstjänsten.
+
+Du kan också skapa mallar för de typer av momsrelaterade data som du vill att tjänsten också ska kontrollera. Mer information finns i avsnittet [Valideringsmallar](#validation-templates).
 
 När du använder vår tjänst registrerar vi en historik över momsregistreringsnummer och kontroller för varje kund, leverantör eller kontakt i **momsregistreringslogga**, så att du enkelt kan spåra dem. Loggen är unik för varje kund. Loggen är användbar för att verifierat att det aktuella momsregistreringsnumret är korrekt. När du verifierar ett momsregistreringsnummer kommer kolumnen **begär ID** i loggen att visa att du har vidtagit åtgärder.
 
 Du kan se momsregistreringsloggen på kund-, leverantör- eller kontaktkorten på snabbfliken **fakturering** genom att välja sökknappen i **Momsregistreringsnr.**  
-
-Tjänsten kan också spara tid när du skapar en kund eller leverantör. Om du känner till kundens momsregistreringsnummer kan du ange det i fältet **Momsregistreringsnr** på korten för kunden eller leverantören, och vi ska fylla i kundens namn åt dig. Vissa länder har dessutom företagsadresser i ett strukturerat format. I dessa länder fyller vi även i addressen.  
 
 Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
 
@@ -41,6 +41,19 @@ Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
 
 > [!IMPORTANT]
 > Det är ditt ansvar att kontrollera att alla data är giltiga. Ibland returneras data med fel av tjänsten VIES momsnummervalidering. Om valideringen misslyckas validerar du momsregistreringsnumren på [webbplatsen](https://ec.europa.eu/taxation_customs/vies/), skriver ut resultatet eller sparar det på en delad plats och lägger sedan till länken till posten för kunden, leverantören eller kontakten. För mer information, se [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md).
+
+## <a name="validation-templates"></a>Valideringsmallar
+
+[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
+
+Du kan använda VIES-tjänsten för att även kontrollera annan företagsinformation, till exempel adressen, samt momsregistreringsnumret. På sidan **Valideringsmallar för momsregistreringsnr.** skapar du en post för varje land som du vill få ytterligare validering för, och anger sedan den information som du vill få validerad automatiskt.  
+
+Lägg till exempel till en post för Spanien där du vill få validering för namn, gata, ort och postnummer, och sedan ytterligare en post för Tyskland, där du bara vill ha validering för exempelvis postnummer. På sidan **Konfigurering av EU:s valideringstjänst för momsregistreringsnr.** anger du sedan standardmallen.  
+
+> [!NOTE]
+> Se alltid till att standardmallen fungerar för dina behov. Du kan ändra standardvärdet så att det matchar dina behov, till exempel för att hämta validering för alla fält eller inga fält.
+
+Nästa gång du anger ett momsregistreringsnummer validerar tjänsten numret och eventuella ytterligare data som bestäms av valideringsmallarna. Om de angivna värdena skiljer sig från de värden som returneras av tjänsten visas informationen på sidan **Valideringsinformation** där du kan acceptera eller återställa värdena.  
 
 ## <a name="see-also"></a>Se även
 

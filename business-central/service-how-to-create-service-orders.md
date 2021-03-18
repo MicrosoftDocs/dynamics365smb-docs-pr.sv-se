@@ -3,19 +3,19 @@ title: Så här skapar du Tjänsteorder | Microsoft Docs
 description: Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 62ee83919140b89402ddefdca9eb79a08ea91269
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748049"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390330"
 ---
 # <a name="create-service-orders"></a>Skapa tjänsteorder
 Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.  
@@ -67,7 +67,7 @@ Du kan kontrollera om en artikel som du behöver för att uppfylla en order finn
     * Välj ordningen för en viss order och välj åtgärden **Behovsöversikt**.  
     * Välj för alla order **visa dokument**. Sidan **Serviceorder** öppnas.  
 
-3. Expandera artikelgruppen och visa information om tillgänglig kvantitet av artikeln på sidan **Behovsöversikt**. Du kan t.ex. se hur många artiklar som finns i lager. Du kan också se om och när en artikel blir tillgänglig, om den är restnoterad, dvs. ursprungstyp = inköp eller om den har reserverats.
+3. Expandera artikelgruppen och visa information om tillgänglig kvantitet av artikeln på sidan **Behovsöversikt**. Du kan t. ex. se hur många artiklar som finns i lager. Du kan också se om och när en artikel blir tillgänglig, om den är restnoterad, dvs. ursprungstyp = inköp eller om den har reserverats.
 
 ## <a name="to-reserve-an-item-for-a-service-order"></a>Så här reserverar du artiklar för serviceorder
 Om du behöver vara säker på att en artikel är tillgänglig för en serviceorder kan du reservera artikeln.

@@ -3,16 +3,16 @@ title: Vanliga frågor och svar om att använda Business Central
 description: Svar på vanliga frågor om hur du registrerar dig för eller köper Business Central, förlänger en utvärderingsversion, avbryter en prenumeration och söker efter utbildning och annan support.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014031"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498568"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Vanliga frågor om att använda Business Central
 
@@ -40,7 +40,9 @@ Slutligen kan du kontakta din [!INCLUDE[prod_short](includes/prod_short.md)] åt
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Varför hittar jag inte den här funktionen i min [!INCLUDE[prod_short](includes/prod_short.md)]?
 Har du läst om en ny funktion i viktig information eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[prod_short](includes/prod_short.md)] har uppgraderats till den senaste versionen ännu. Du kan kontrollera vilken version din [!INCLUDE[prod_short](includes/prod_short.md)] baseras på, på sidan [Hjälp och support](product-help-and-support.md).  
 
-Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource.  
+Detta gäller både [!INCLUDE [prod_short](includes/prod_short.md)] online och lokalt.  
+
+Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource. Detta gäller [!INCLUDE [prod_short](includes/prod_short.md)] endast online.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Finns det skillnader mellan en lokal distribution och molnversionen av Business Central?
 Ja. Vissa molnbaserade funktioner kan köras i vissa fall och andra stöds inte alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -50,7 +52,7 @@ Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft Lea
 
 Mer information om utbildning om Dynamics 365 som tillhandahålls från Microsoft finns på sidan [Microsoft Dynamics 365- utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
-Ytterligare innehåll tillhandahålls av [!INCLUDE[prod_short](includes/prod_short.md)]-communityn, t.ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  
+Ytterligare innehåll tillhandahålls av [!INCLUDE[prod_short](includes/prod_short.md)]-communityn, t. ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  
 
 ## <a name="how-do-i-get-technical-support-for-prod_short"></a><a name="hdigetsupport"></a>Hur får jag teknisk support för [!INCLUDE[prod_short](includes/prod_short.md)]?
 
@@ -65,8 +67,9 @@ Om upplevelseinställningen på sidan **företagsinformation** anges till **vikt
 
 Det finns ingen *Spara*-knapp på sidor som i andra program som du kanske är bekant med. I [!INCLUDE[prod_short](includes/prod_short.md)] sparas ändringar du gör i ett fält automatiskt när du flyttar till nästa fält eller stänger sidan, förutsatt att det inte finns några fel. När du ändrar i ett fält och flyttar till ett annat fält, visas texten **Sparar** i övre högra hörnet på sidan, som snabbt ändras till **Sparad** om inga fel uppstår. Om det uppstår ett fel, ändras texten till **Inte sparad**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Vilken e-postadress kan jag använda med [!INCLUDE[prod_short](includes/prod_short.md)]?
-[!INCLUDE[prod_short](includes/prod_short.md)] kräver att du använder en e-postadress från ditt arbete eller skola för att registrera dig. [!INCLUDE[prod_short](includes/prod_short.md)] har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Vilken e-postadress kan jag använda med [!INCLUDE[prod_short](includes/prod_short.md)] online?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online kräver att du använder en e-postadress från ditt arbete eller din skola för att registrera dig. [!INCLUDE[prod_short](includes/prod_short.md)] online har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  
 
 Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola. Mer information finns i [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md).  
 
@@ -80,7 +83,7 @@ Om du loggar in med ett konto som inte är ett Microsoft 365-arbetskonto (exempe
 Om du inte har någon Microsoft 365-prenumeration och inte hell vill köpa en sådan kommer vi senare – i samband med att du registrerar dig – att tillhandahålla dig en ny Azure Active Directory-klientorganisation automatiskt så att du kan komma åt Azure-portalen där du har tillgång till avancerade administratörsverktyg.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Vad handlar integrationen med Microsoft 365 om?
-[!INCLUDE[prod_short](includes/prod_short.md)] online är helt integrerad med Microsoft 365, så att du kan navigera fritt mellan Microsoft 365-programmen och [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av programmarstartbilden. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du t.ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook](admin-outlook.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] online är helt integrerad med Microsoft 365, så att du kan navigera fritt mellan Microsoft 365-programmen och [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av programmarstartbilden. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du t. ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jag förlänga min 30 dagar långa utvärderingsperiod för nytt företag?
 Ja. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett meddelande när du loggar in. Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden. De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden. Du kan förlänga utvärderingsperiod en gång själv. Därefter kan en Microsoft-partner förlänga den i ytterligare 30 dagar. Mer information finns i [Förlänga utvärderingsperioden](admin-extend-trial.md).
@@ -147,6 +150,5 @@ I de första versionerna av [!INCLUDE[prod_short](includes/prod_short.md)] lokal
 [Vanliga frågor om utvecklar- och ITPros-upplevelser](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

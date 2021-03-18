@@ -3,19 +3,19 @@ title: Så här anger du data i Business Central | Microsoft Docs
 description: Lär dig mer om allmänna funktioner som hjälper dig att ange data i fälten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840259"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393305"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -24,7 +24,7 @@ Det finns många allmänna funktioner som hjälper dig att ange data lättare, s
 I exemplen nedan används demonstrationsdata.
 
 ## <a name="working-with-editable-fields"></a>Arbeta med redigerbara fält
-Fält i [!INCLUDE[prod_short](includes/prod_short.md)] kan innehålla olika redigerbara data, t.ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
+Fält i [!INCLUDE[prod_short](includes/prod_short.md)] kan innehålla olika redigerbara data, t. ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
 
 Vissa redigerbara fält innehåller en väljare som du kan använda för att ange ett värde.  
 
@@ -57,7 +57,7 @@ När markören visas i slutet av fältvärdet:
 - Använd nyckel **Start**, **Slut**, **Vänsterpil** och **Högerpil** för att flytta markören i värdet. Om du redigerar ett fält i en lista, trycker du på **vänsterpilen** igen när markören är i början av värdet så aktiveras föregående fält. På samma sätt kan du trycka på **högerpilen** igen när markören är i slutet av värdet för att ge fokus till nästa fält.
 
 > [!NOTE]
-> När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t.ex. nästa fält.  
+> När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t. ex. nästa fält.  
 
 
 ## <a name="keyboard-shortcuts"></a>Kortkommandon
@@ -68,7 +68,7 @@ Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I d
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
 
-Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t.ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
+Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t. ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
 
 Du kan använda Tabb-tangenten för att gå från ett fält på en sida till nästa redigerbara fält. Nackdelen med att använda Tabb-tangenten är att det alltid går sekventiellt till nästa fält. <!-- even if the field is non-editable or seldom filled it in.-->Snabbinmatning låter dig ändra den här sökvägen. Med snabbinmatning gör att du kan använda returtangenten för att navigera genom enbart de fält som du är intresserad av. Snabbinmatning hoppar över icke redigerbara fält och fält som du vanligtvis inte fyller i. Du kanske redan har upptäckt denna funktion på vissa sidor. Detta beteende beror på att fälten som ska inkluderas när du trycker på retur och vilka som ska hoppas över har fördefinierats. Du kan anpassa snabbinmatning genom att anpassa arbetsytan och optimera hur du anger data på varje sida.
 
@@ -116,7 +116,7 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
 
-Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på en sida. Klistra sedan in det du kopierade på samma sida, en annan sida eller ett externt dokument. Du kan t.ex. klistra in Microsoft Excel eller Outlook-e-post. Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL+V eller cmd+V i macOS.
+Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på en sida. Klistra sedan in det du kopierade på samma sida, en annan sida eller ett externt dokument. Du kan t. ex. klistra in Microsoft Excel eller Outlook-e-post. Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL+V eller cmd+V i macOS.
 
 I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden, tryck bara på F8.
 
@@ -145,7 +145,7 @@ Om du vill växla tillbaka till normal vy, välj ![ikonen Fokusläge](media/focu
 Du kan öppna ett kort eller en dokument sida i ett nytt fönster. När du öppnar ett nytt fönster kan du:
 
 - Arbeta med flera uppgifter samtidigt
-- Hantera avbrott för den aktuella uppgiften, t.ex. inkommande samtal.
+- Hantera avbrott för den aktuella uppgiften, t. ex. inkommande samtal.
 - Håll ett fönster öppet för en pågående uppgift medan du startar eller slutför en annan uppgift i fönster.
 
 Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.

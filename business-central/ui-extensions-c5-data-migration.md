@@ -1,21 +1,21 @@
 ---
 title: Använda tillägget C5 Data-migrering | Microsoft Docs
-description: Använda det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central.
+description: Använd det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d3d39cc721f5157487fbe55f799a5a462a2be10
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386180"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 
@@ -132,7 +132,7 @@ Om något går fel och ett fel uppstår kommer fältet **Status** att visa **Slu
 * Numret i fältet **antal fel** för enheten.  
 * Enheten och åtgärden **Visa fel**.  
 
-På sidan **migreringsfel**, om du vill korrigera ett fel kan du välja ett felmeddelande och sedan välja **redigera post** för att visa de migrerade data för enheten. Om du har flera fel att fixa kan du välja **reparera flera fel** för att redigera poster i en lista. Du behöver öppna enskilda poster om felet orsakades av en relaterad post. Om t.ex. en leverantör inte vill migrera om en e-postadress för en av deras kontakter har ett felaktigt format.
+På sidan **migreringsfel**, om du vill korrigera ett fel kan du välja ett felmeddelande och sedan välja **redigera post** för att visa de migrerade data för enheten. Om du har flera fel att fixa kan du välja **reparera flera fel** för att redigera poster i en lista. Du behöver öppna enskilda poster om felet orsakades av en relaterad post. Om t. ex. en leverantör inte vill migrera om en e-postadress för en av deras kontakter har ett felaktigt format.
 
 När du har korrigerat ett eller flera fel kan du välja **Migrera** för att endast överföra de enheter som har fastställts, utan att behöva starta om flyttningen helt.  
 

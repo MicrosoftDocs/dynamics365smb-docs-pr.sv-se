@@ -3,26 +3,26 @@ title: Så här skapar och ändrar du en anpassad layout för rapport eller doku
 description: Lär dig hur du kan skapa egna anpassade layouter för att personligt anpassa utseendet på rapporten när den visas, skrivs ut eller sparas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5a8267813a37af08dd057e4c67a04237cd350b54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c20e8dc0df5eaf851ad90eac15b1af0af76700d6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760548"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385830"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Skapa och ändra anpassade rapportlayouter
 
 Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter. Du kan skapa egna anpassade layouter som du kan använda för att ändra utseendet på rapporten när den visas, skrivs ut eller sparas. Du kan skapa flera anpassade rapportlayouter för samma rapport, och sedan byta layout som används av en rapport efter behov.
 
 > [!NOTE]  
-> I [!INCLUDE[prod_short](includes/prod_short.md)], omfattar termen "rapporter" även externa dokument som t.ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
+> I [!INCLUDE[prod_short](includes/prod_short.md)], omfattar termen "rapporter" även externa dokument som t. ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
 
 Om du vill skapa en anpassad layout kan du antingen skapa en kopia av en befintlig anpassad layout eller lägga till en ny anpassad layout, som baseras i de flesta fall på en inbyggd layout. När du lägger till en ny anpassad layout kan du välja att lägga till en RDLC-rapportlayout, Word-rapportlayout eller både och. Den nya anpassade layouten baseras automatiskt på den inbyggda layouten för rapporten, om en är tillgänglig. Om det inte finns någon inbyggd layout för typen, skapas en ny tom layout som du måste ändra och utforma från noll. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).  
 

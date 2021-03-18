@@ -3,16 +3,16 @@ title: Anpassar sidor för roller | Microsoft Docs
 description: Lär dig mer om att anpassa användargränssnittet för en profil (roll) så att alla användare som är tilldelade den rollen ser en anpassad arbetsyta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7588c74db57022e9e1fced9262408d0dd37e1181
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389255"
 ---
 # <a name="customize-pages-for-profiles"></a>Anpassa sidor för profiler
 Användare kan anpassa sidor som utgör deras arbetsyta efter eget behov. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
@@ -43,7 +43,7 @@ Anpassningen av sidorna har nu registrerats för profilen.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>För att visa alla anpassade sidor för en profil
 
-Du kan få en översikt över vilka sidor som är anpassade för en profil, t.ex. för planering som du vill anpassa ytterligare eller ta bort.
+Du kan få en översikt över vilka sidor som är anpassade för en profil, t. ex. för planering som du vill anpassa ytterligare eller ta bort.
 
 - På sidan **Profil (roll)**, välj åtgärden **Hantera anpassade sidor**.
 

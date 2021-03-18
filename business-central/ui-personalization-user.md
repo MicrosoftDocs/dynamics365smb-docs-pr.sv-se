@@ -3,26 +3,26 @@ title: Anpassa sidor | Microsoft Docs
 description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 083692ce38e9403705c6d683afb58a17dbecec90
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393805"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
 
 Du kan anpassa alla typer av sidor, inklusive sidan rollcenter. Mer information om rollcenter finns i [rollcenter.](ui-change-basic-settings.md#role-center)
 
-Du kan göra olika ändringar, som att flytta och dölja fält, kolumner och åtgärder och hela delar och lägga till nya fält och mer beroende på vilken typ av sida och den innehåller. De flesta typer av anpassning måste göras med att först aktivera banderollen **Anpassa**, men mycket enkla ändringar, t.ex. kolumnbredden kan utföras direkt på vilken lista som helst.
+Du kan göra olika ändringar, som att flytta och dölja fält, kolumner och åtgärder och hela delar och lägga till nya fält och mer beroende på vilken typ av sida och den innehåller. De flesta typer av anpassning måste göras med att först aktivera banderollen **Anpassa**, men mycket enkla ändringar, t. ex. kolumnbredden kan utföras direkt på vilken lista som helst.
 
 > [!NOTE]
 > Administratörer kan utföra samma layoutändringar när användare kan anpassa arbetsytan för en profil som tilldelas flera användare. Mer information finns i [Anpassa sidor för roller](ui-personalization-manage.md).<br /><br />
@@ -53,7 +53,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 
 3. För att lägga till ett fält, välj åtgärden **+ Fält**.
 4. I fönstret **Lägg till fält till en sida** drar och släpper du ett fält i önskad position på sidan.
-5. Om du vill ändra ett element i användargränssnittet pekar du på elementet, t.ex. en åtgärd, ett fält eller en del. Elementet markeras omedelbart med en pilspets eller en kantlinje.
+5. Om du vill ändra ett element i användargränssnittet pekar du på elementet, t. ex. en åtgärd, ett fält eller en del. Elementet markeras omedelbart med en pilspets eller en kantlinje.
 6. Välj elementet och välj sedan antingen **Flytta**, **Ta bort**, **Dölj**, **Visa**, **Visa under "Visa mer"**, **Visa vid komprimerad**, **Visa alltid**, **Ställ in/rensa låst ruta** eller **Inkludera/exkludera från snabbinmatning**, beroende på typ och tillstånd för elementet i användargränssnittet. Mer information finns i [Vad du kan anpassa](#What).
 7. När du är klar med att ändra layouten på en eller flera sidor, välj knappen **Klar** på banderollen **Anpassa**.
 
@@ -84,7 +84,7 @@ En *åtgärdsgrupp* är ett element som kan expanderas för att visa andra åtg�
 En *prioriterad kategori* är en grupp före den lodräta linjen `|` i åtgärdsfältet. Kategorierna omfattar vanligtvis de mest använda åtgärderna så att du snabbt kan hitta dem. På sidan **Försäljningsorder** kan **Order**, **Släpp** och  **Bokför** prioriterade kategorier.
 
 > [!NOTE]
-> Du kan inte anpassa åtgärdsfältet som visas i delar på sidan (t.ex. delen försäljningsrader på sida **försäljningsorder**).
+> Du kan inte anpassa åtgärdsfältet som visas i delar på sidan (t. ex. delen försäljningsrader på sida **försäljningsorder**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Om du vill ta bort, dölja och visa åtgärder och åtgärdsgrupper
 När du vill visa eller dölja en åtgärd definierar alternativen under pilspetsen vad som kan göras beroende på åtgärdens tillstånd.
@@ -111,7 +111,7 @@ Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontel
 
 Delar är områden på en sida som vanligtvis består av flera fält, diagram eller annat innehåll, och som kan identifieras med en färgad kantlinje när du fokuserar på delen. Startvyn för ett rollcenter har till exempel flera delar. På grund av deras väldefinierade gränser kan du anpassa hela delen samt dess innehåll.
 
-- Om du vill flytta en del drar och släpper du den på önskad plats. En färgad linje indikerar giltiga positioner på skärmen. Faktaboxar kan t.ex. bara placeras bredvid andra faktaboxar i rutan Faktabox.
+- Om du vill flytta en del drar och släpper du den på önskad plats. En färgad linje indikerar giltiga positioner på skärmen. Faktaboxar kan t. ex. bara placeras bredvid andra faktaboxar i rutan Faktabox.
 - Du kan dölja en del genom att välja alternativet **Dölj** under pilspetsen.
 - När du börjar anpassa eller navigerar till en ny sida visas alla delar som för tillfället är dolda på sidan med särskiljande visuella effekter för att visa att de är dolda. Du kan visa en del genom att välja alternativet **Visa** under pilspetsen.
 

@@ -3,19 +3,19 @@ title: Bokföra försäljningsdokument | Microsoft Docs
 description: Lära dig olika bokföringsfunktioner för att bokföra försäljningsdokument och hur du kan uppdatera bokförda dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760323"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392055"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
 
@@ -28,7 +28,7 @@ Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan fö
 * **Bokför batch-jobb**
 * **Testa rapport**
 
-> [OBS!] För försäljningsorder kan du även visa alternativ som är relaterade till funktionen för förskottsbetalning. Mer information finns i [Fakturera förskottsbetalningar](finance-invoice-prepayments.md). 
+> [!OBS] För försäljningsorder kan du även visa alternativ som är relaterade till funktionen för förskottsbetalning. Mer information finns i [Fakturera förskottsbetalningar](finance-invoice-prepayments.md). 
 
 När du har fyllt i alla raderna och skrivit in all information på försäljningsordern kan du bokföra den. Här skapas en leverans och en faktura.
 
@@ -45,7 +45,7 @@ Du kan antingen bokföra eller bokföra och skicka. Om du väljer att bokföra o
 
 ## <a name="viewing-ledger-entries"></a>Visa reskontratransaktioner
 
-När bokföringen är slutförd tas de bokförda försäljningsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidorna som innehåller bokförda transaktioner, t.ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktion**, **Bokförda försäljningsutleveranser** och **Bokförda försäljningsfakturor**.  
+När bokföringen är slutförd tas de bokförda försäljningsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidorna som innehåller bokförda transaktioner, t. ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktion**, **Bokförda försäljningsutleveranser** och **Bokförda försäljningsfakturor**.  
 
 I de flesta fall kan du öppna reskontratransaktioner från det berörda kortet eller dokumentet. Välj till exempel åtgärden **Reskontratransaktioner** på sidan **Kundkort**.
 

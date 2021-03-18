@@ -3,19 +3,19 @@ title: Inventera, justera och gruppera lager | Microsoft Docs
 description: Beskriver hur du utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i artikeltransaktionerna och distributionslagertransaktionerna.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: 67058cf067b8ef647c01bfad79151516a6167a6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391280"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Inventera, justera och gruppera lager med hjälp av journaler
 Minst en gång per räkenskapsår måste du utföra en inventering (d.v.s. räkna alla artiklar i lagret) för att se om det antal som är registrerat i databasen är samma som det antal som verkligen finns i lagret. När det faktiska antalet är känt, måste det bokföras i redovisningen som en del av lagervärderingen för periodslutet.
@@ -126,7 +126,7 @@ Du kan utföra cyklisk inventering på något av följande sätt beroende på la
 -   Om lagerstället är inställt på dirigerad artikelinförsel och plockning (avancerad distributionslagerkonfiguration) använder du först sidan **Dist.lager inventeringsjournal** fönstret, och sedan använder du sidan **Artikeljournal** för att köra **Beräkna dist.lager justering**-funktionen.  
 
 ### <a name="to-set-up-counting-periods"></a>Så här ställer du in cykliska inventeringsperioder
-En inventering utförs vanligtvis regelbundet, t.ex. varje månad, kvartal eller år. Du kan välja vilken cykliska inventeringsperiod som är nödvändiga.
+En inventering utförs vanligtvis regelbundet, t. ex. varje månad, kvartal eller år. Du kan välja vilken cykliska inventeringsperiod som är nödvändiga.
 
 Du ställer in de cykliska inventeringsperioder som du vill använda och därefter fördelar du en till varje artikel. När du utför en inventering och använder **Beräkna cyklisk inventeringsperiod** i inventeringsjournalen, skapas rader för artiklarna automatiskt.
 

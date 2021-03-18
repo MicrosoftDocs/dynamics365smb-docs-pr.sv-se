@@ -4,19 +4,19 @@ description: Det här innehållet anger information om programmets regelefterlev
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4351729859f4a104e5c9a3c50e1ce79b6408b37b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752011"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389530"
 ---
 # <a name="application-compliance"></a>Programmets regelefterlevnad
 
@@ -66,7 +66,7 @@ Leverera integrerad information, justerade processer och lättanvända verktyg f
 ### <a name="improve-information-validity"></a>Förbättra giltigheten av information
 
 - Konfigurera datafält för att endast acceptera informationen i dess rätta format, såsom rätt antal decimaler eller alfanumeriska mönster.
-- Försäkra dig om att informationen är komplett med programkontroller, t.ex. att kräva att ett leverantörsfakturanummer anges innan en inköpsorder kan bokföras.
+- Försäkra dig om att informationen är komplett med programkontroller, t. ex. att kräva att ett leverantörsfakturanummer anges innan en inköpsorder kan bokföras.
 - Minska risken för felaktig information eller obehörig åtkomst och skydda känslig information för åtkomst till information som baseras på jobbroll.
 - Neka åtkomst, ge skrivskyddad åtkomst eller fullständig åtkomst för att användarna ska kunna lägga till, redigera eller ta bort information.
 - Identifiera enkelt och eliminera skillnader med en avstämningsfunktion som hämtar aktuellt bankkonto och aktuell transaktionsinformation och jämför detta med poster i redovisningen.

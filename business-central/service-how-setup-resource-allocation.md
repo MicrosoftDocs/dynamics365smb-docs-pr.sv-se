@@ -3,19 +3,19 @@ title: Så här ställer du in resursfördelningar | Microsoft Docs
 description: Lär dig hur systemet kan hjälpa dig tilldela någon som har de kvalifikationer som krävs för att tillhandahålla tjänster.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6cd246809d6b05f87c131c584267551938f74810
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757998"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392530"
 ---
 # <a name="set-up-resource-allocation"></a>Så här skapar du resursfördelningar
 För att säkerställa att en serviceuppgift utförs är det viktigt att hitta en resurs som är kvalificerad att göra arbetet. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] så att det är enkelt att allokera någon som har rätt kunskaper för projektet. I [!INCLUDE[prod_short](includes/prod_short.md)] kallas detta _resursfördelning_. Du kan fördela resurser utifrån deras kunskaper, tillgänglighet, eller om de finns i samma servicezon som kunden. 
@@ -23,7 +23,7 @@ För att säkerställa att en serviceuppgift utförs är det viktigt att hitta e
 Om du vill använda resursfördelning, måste du ställa in:  
   
 * De kunskaper som krävs för att reparera och underhålla serviceartiklar. Du tilldelar dem till serviceartiklar och resurser.  
-* Geografiska områden, kallade zoner som anges för din marknad. Det kan t.ex. vara öst, väst, mittregion o.s.v. Du tilldelar dessa till kunder och resurser.  
+* Geografiska områden, kallade zoner som anges för din marknad. Det kan t. ex. vara öst, väst, mittregion o.s.v. Du tilldelar dessa till kunder och resurser.  
 * Om du vill visa resursernas kunskaper och zoner och om du vill visa en varning om någon väljer icke-kvalificerade resurser eller resurser som inte finns i kundzonen.  
 
 ## <a name="to-set-up-skills"></a>Så här ställer du in kvalifikationer

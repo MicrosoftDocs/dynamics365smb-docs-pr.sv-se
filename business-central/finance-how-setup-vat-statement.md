@@ -3,19 +3,19 @@ title: Ställa in en momsrapport | Microsoft Docs
 description: Ställa in en momsrapport
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05c186b87935efa4a0adbafb6f3096f0dd26abae
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913644"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389055"
 ---
 # <a name="set-up-a-vat-statement"></a>Ställa in en momsrapport
 
@@ -23,7 +23,7 @@ ms.locfileid: "3913644"
 Skattemyndigheterna kan och ändrar sina krav för bokföring av moms. Momsrapportmallar och momsrapportnamn kan hjälpa dig att förbereda dig inför kommande ändringar och göra övergången till de nya kraven smidigare. Du kan använda momsrapportmallar när du vill ställa in olika rapporter när du väljer att skriva ut rapporten. Varje momsrapportmall kan ha flera momsrapportnamn som i sin tur definierar beräkningarna, och du kan skapa ett nytt momsrapportnamn när behov ändras. Exempelvis kan ett namn beräkna moms för detta år baserat på nuvarande krav och en annan kan beräkna moms baserat på kraven för nästa år. Namn är också ett sätt att hålla en historik med momsrapportformat, till exempel så att du kan se tillbaka för att se hur du beräknar moms i föregående år.
 
 ## <a name="to-define-a-vat-statements"></a>Definiera momsrapporter
-Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd period (t.ex. ett kvartal).
+Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd period (t. ex. ett kvartal).
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Momsrapporter** och välj sedan relaterad länk.  
 2. Välj fältet **namn** och välj sedan **nytt** på sidan **Momsrapportnamn**.

@@ -3,22 +3,22 @@ title: Ställa in tjänstehantering | Microsoft Docs
 description: Översikt över aktiviteter om du vill ställa in tjänstehantering som passar hur ditt företag hanterar tjänster.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fdb540fa5fbbf91da2b59f71b3523fd5c702c3bd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747899"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391380"
 ---
 # <a name="setting-up-service-management"></a>Ställa in tjänstehantering
-Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)], finns det saker som du kan ställa in. T.ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
+Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)], finns det saker som du kan ställa in. t. ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
 
 När du gör inställningarna i tjänstehanteringen måste du bestämma vilken service du erbjuder kunderna och schemalägga denna service. Service är en typ av arbete som utförs av en eller flera resurser åt kunden. Service kan till exempel vara en typ av datorreparation. En serviceartikel är den utrustning eller artikel som behöver servas, till exempel datorn som måste repareras. Du kan ställa in service som en del av en grupp relaterade reparations- eller underhållsartiklar.  
   

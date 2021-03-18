@@ -3,19 +3,19 @@ title: Designdetaljer – Lager och kostnadskalkylering | Microsoft Docs
 description: Dokumentationen ger en detaljerad teknisk inblick i de begrepp och principer som används i lagervärderingsfunktionerna i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97aa9dc23397403b74fc8f1c65d302733ab3301c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a14c2a81a6aa36ce57384decb9342660297f9a84
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751486"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389930"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
 Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)].  

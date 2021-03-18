@@ -4,19 +4,19 @@ description: Du kan samarbeta med andra företag för att skapa en momsgrupp och
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757048"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498593"
 ---
 # <a name="the-vat-group-management-extension"></a>Tillägget Momsgruppshantering
 
@@ -91,7 +91,7 @@ Konfigurera momsgruppsmedlemmen genom att starta guiden för assisterad konfigur
 11. När du har angett de olika fälten väljer du **Nästa** och anger sedan de autentiseringsuppgifter som tillhandahölls av momsgruppens representant.
 12. Välj den momsrapportkonfiguration som du använder när du rapporterar moms till myndigheter i ditt land.
 
-  I Storbritannien skulle t.ex. momsrapportkonfigurationen ställas in så att den rapporterar moms till HMRC. Tillägget Momsgruppshantering kopierar den här inställningen, men ersätter den inskickade codeunit med en som stöder inlämning till momsgruppens representant i stället för skattemyndigheterna. Denna codeunit tillhandahålls av Microsoft. Välj **Nästa** när du är klar.
+  I Storbritannien skulle t. ex. momsrapportkonfigurationen ställas in så att den rapporterar moms till HMRC. Tillägget Momsgruppshantering kopierar den här inställningen, men ersätter den inskickade codeunit med en som stöder inlämning till momsgruppens representant i stället för skattemyndigheterna. Denna codeunit tillhandahålls av Microsoft. Välj **Nästa** när du är klar.
 
 ## <a name="using-the-vat-group-management-features"></a>Använda funktionerna för momsgruppshantering
 
@@ -111,6 +111,9 @@ När momsgruppsrepresentantens momsretur har skickats till myndigheterna för he
 
 > [!NOTE]
 > Momsgruppsmedlemmar kan korrigera inskickade momsreturer så länge som grupprepresentanten inte har släppt momsreturen för gruppen. Om du vill göra en korrigering måste momsgruppsmedlemmen skapa en ny momsretur för momsreturperioden och skicka den till momsgruppens representant. På momsgruppsrepresentantens sida kommer den senaste momsreturen att inkluderas på sidan **Momsretur**. 
+
+> [!IMPORTANT]
+> Funktionen momsgrupp stöds endast på de marknader där [!INCLUDE[prod_short](includes/prod_short.md)] använder en momsram som består av momsreturer och perioder för momsreturer. Du kan inte använda momsgrupper på andra marknader som har andra implementeringar av lokal momsrapportering, till exempel Österrike, Tyskland, Italien, Spanien och Schweiz. 
 
 ## <a name="see-also"></a>Se även
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  

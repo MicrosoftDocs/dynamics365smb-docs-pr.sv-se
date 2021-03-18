@@ -3,19 +3,19 @@ title: Utfärda, Skriv ut, Avbryt och Makulera checkar | Microsoft Docs
 description: Beskriver hur du utfärdar checkar med utbetalningsjournalen, skriver ut checkar och annullerar checkar eller granskar checktransaktioner i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 137e22e8eb4e426a84d7a84b772ec2ad5d55cbcc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387830"
 ---
 # <a name="make-check-payments"></a>Gör checkbetalningar
 
@@ -32,7 +32,7 @@ Du kan betala med två typer av checkar. För båda typerna måste fälten **mot
 > Om du vill vara säker på att banken bara godkänner validerade checkar och belopp kan du skicka en fil som innehåller information om leverantör, check ch betalning. Mer information finns i [Exportera en Positive Pay-fil](finance-how-positive-pay.md).
 
 > [!IMPORTANT]
-> Skrivaren måste vara korrekt inställd med checkformulären, och du måste definiera vilken checklayout som ska användas. Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md). Du kan också skicka checken som en PDF-fil, t.ex.  
+> Skrivaren måste vara korrekt inställd med checkformulären, och du måste definiera vilken checklayout som ska användas. Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md). Du kan också skicka checken som en PDF-fil, t. ex.  
 
 Du kan skriva ut upp till 10 fakturor på en sida för en checktalong. Om en check är kopplad till fler än 10 fakturor, när du skriver ut en checktalong annullerar vi checken på den första sidan och skriver ut order ANNULLERAD på checken. Sedan skriver vi ut en påminnelse på fakturorna och det totala checkbeloppet på andra sidan.
 

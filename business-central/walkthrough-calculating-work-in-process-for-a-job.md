@@ -3,19 +3,19 @@ title: 'Genomgång: Beräkna produkter i arbete för ett projekt | Microsoft Doc
 description: Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med förbrukningen av resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b176defcbe250e6f6bdc26e85aacb8ba8f12d3bb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392355"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Genomgång: Beräkna produkter i arbete för ett projekt
 
@@ -60,7 +60,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 ### <a name="to-calculate-wip"></a>Så här beräknar du PIA  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2.  I listan **Projekt** väljer du projektet **Hjortfält** och väljer sedan åtgärden **redigera**. Projektkortet öppnas i redigeringsläge.  
 
      PIA kan beräknas baserat på metoderna Kostnadsvärde, Förs.värde, Försäljningskostnader, Färdigställningsgrad eller Slutfört kontrakt. I det här exemplet använder CRONUS kostnadsvärdemetoden.  

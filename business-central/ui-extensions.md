@@ -3,28 +3,28 @@ title: Installera tillägg för att anpassa Business Central
 description: Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera tillägg.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 03/02/2021
 ms.author: edupont
-ms.openlocfilehash: fa72fad5899fab4830bf6c0956eaf99b6c773a53
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757023"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493284"
 ---
-# <a name="customizing-business-central-using-extensions"></a>Anpassa Business Central med tillägg
+# <a name="customizing-business-central-online-using-extensions"></a>Anpassa Business Central Online med hjälp av tillägg
 
-Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
+Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] online genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
 
 > [!NOTE]
-> Om du vill installera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i användargruppen D365 Tilläggshant. eller så måste du ha behörighetsuppsättningen D365 Tilläggshant. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
+> Om du vill installera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i användargruppen D365 EXTENSION MGT, eller också måste du ha behörighetsuppsättningen D365 EXTENSION MGT. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
 
 Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
 > [!IMPORTANT]  
-> Överföring av tillägg per innehavare och installation av AppSource-tillägg stöds inte via sidan **Tilläggshantering** för lokala installationer.
+> Överföring av tillägg per innehavare och installation av AppSource-tillägg stöds inte via sidan **Tilläggshantering** för lokala installationer. Du kan inte installera AppSource-tillägg lokalt, inklusive i Docker-baserade distributioner.
 
 När du först startar först [!INCLUDE[prod_short](includes/prod_short.md)], har du dessutom några tillägg installerade. Med tiden kommer fler tillägg att göras tillgängliga till dig, och du kan då välja om du vill använda tillägg eller inte.
 
@@ -37,7 +37,7 @@ Du hanterar tilläggen på sidan **Tilläggshantering**. Du kan öppna den här 
 > Om du tror att du borde ha åtkomst till ett tillägg, men dess funktioner inte går att hitta kontrollerar du sidan **tilläggshantering** om tillägget inte finns, kan du installera det enligt vad som beskrivs i följande avsnitt.  
 
 > [!NOTE]  
-> Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av e-postkonto som du använder för [!INCLUDE[prod_short](includes/prod_short.md)]. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
+> Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av det e-postkonto som du använder för [!INCLUDE[prod_short](includes/prod_short.md)] online. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
 
 Du kan också komma till marknadsplatsen från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se tilläggen som installeras för närvarande, och du kan öppna sidan **tilläggmarknadsplatsen** som visar tilläggen för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -77,7 +77,7 @@ Microsoft ger även följande tillägg:
 * [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> Tillägg är inte tillgängliga i AppSource så snart vi meddelar en uppdatering. Du kan hålla utkik efter tillägg i [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> Du kan hålla utkik efter nya tillägg från Microsoft och andra leverantörer på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Se även
 

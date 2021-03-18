@@ -1,30 +1,29 @@
 ---
-title: Skapa avskrivning för anläggningstillgångar | Microsoft Docs
+title: Skapa avskrivning för anläggningstillgångar
 description: Du kan ange i en avskrivningsregel hur anläggningstillgångar ska skrivas av eller skrivas ned.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749275"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493234"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Skapa avskrivning för anläggningstillgång
- Du kan använda olika avskrivningsmetoder när du förbereder redovisningsrapporter och självdeklarationer. Många större företag använder linjär avskrivning i redovisningsrapporterna eftersom de då i allmänhet kan rapportera större inkomster. Vad gäller självdeklaration använder många företag däremot en accelererad avskrivningsmetod, till exempel degressiv avskrivning. Du kan definiera avskrivningsmetoden för en tillgång med fältet **Avskrivningsmetod** på sidan **Anläggningstillgångskort**. Mer information om vad de olika metoderna gör finns i [Avskrivningsmetoder](fa-depreciation-methods.md).
 
- I avskrivningsregler definierar du olika sätt som avskrivning måste beräknas för olika anläggningstillgångar. I varje regel kan du ange enskilda avskrivningsvillkor. Du kan t.ex. ange att en anläggningstillgång ska avskrivas under loppet av tre år i en regel och under loppet av fem år i en annan.
+Du kan använda olika avskrivningsmetoder när du förbereder redovisningsrapporter och självdeklarationer. Många större företag använder linjär avskrivning i redovisningsrapporterna eftersom de då i allmänhet kan rapportera större inkomster. Vad gäller självdeklaration använder många företag däremot en accelererad avskrivningsmetod, till exempel degressiv avskrivning. Du kan definiera avskrivningsmetoden för en tillgång med fältet **Avskrivningsmetod** på sidan **Anläggningstillgångskort**. Mer information om vad de olika metoderna gör finns i [Avskrivningsmetoder](fa-depreciation-methods.md).
 
- Efter att du har skapat de avskrivningsregler som behövs måste du koppla en eller flera avskrivningsregler till varje anläggningstillgång. En avskrivningsregel som tilldelats en anläggningstillgång kallas för anläggningstillgångens avskrivningsregel. Du kan skapa valfritt antal avskrivningsregler för en anläggningstillgång. 
+Du skapar avskrivningsregler där du definierar de olika sätt på vilka avskrivning måste beräknas för olika typer av anläggningstillgångar. Varje avskrivningsregel anger enskilda avskrivningsvillkor. Du kan t. ex. ange att en anläggningstillgång ska avskrivas under loppet av tre år i en regel och under loppet av fem år i en annan.
+
+Efter att du har skapat de avskrivningsregler som behövs måste du koppla en eller flera avskrivningsregler till varje anläggningstillgång. En avskrivningsregel som tilldelats en anläggningstillgång kallas för anläggningstillgångens avskrivningsregel. Du kan skapa valfritt antal avskrivningsregler för en anläggningstillgång.  
 
 ## <a name="to-create-a-depreciation-book"></a>Att skapa en avskrivningsregel
+
 I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgång ska skrivas av. Om du vill använda olika avskrivningsmetoder kan du skapa flera avskrivningsregler.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avskrivningsregler** och välj sedan relaterad länk.
@@ -32,9 +31,14 @@ I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgå
 3. På sidan **Avskrivningsregelkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Du kan bokföra in anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller på sidan **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Följ nästa steg för att definiera vilken journaltyp som används för de olika anläggningstillgångaktiviteterna som standard.
+    > Du kan bokföra in anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller på sidan **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Följ nästa steg för att definiera vilken journaltyp som används för de olika anläggningstillgångaktiviteterna som standard.
 4. På snabbfliken **Integrering** markerar du kryssrutan för varje anläggningstillgångsaktivitet vars transaktioner du vill bokföra med hjälp av sidan **Anl.tillg. redovisningsjournal**.
 5. Upprepa steg 2 till och med 4 för varje avskrivningmetod eller bokföringsmetod som du vill tilldela till anläggningstillgångar som en avskrivningsregel.
+
+> [!IMPORTANT]
+> Välj fältet **Använd avrundning i periodisk avskr.** om du vill avrunda de beräknade periodiska avskrivningsbeloppen till heltal. Om företaget till exempel också använder fakturaavrundning till heltal på sidan **Redovisningsinställningar** kan avrundning även avskrivningsbelopp till heltal bidra till transparens.
+
+Om du till exempel avyttrar en anläggningstillgång där avskrivningsregeln inte anger avrundning men företagets redovisningsinställningar kräver avrundning, visas ett felmeddelande om att ett belopp måste avrundas på en redovisningstransaktion när du avyttrar anläggningstillgången.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Att tilldela en avskrivningsregel till en anläggningstillgång.
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.

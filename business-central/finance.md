@@ -3,19 +3,19 @@ title: Ekonomihantering
 description: Läs om hur Business Central stöder dina behov av ekonomisk förvaltning, redovisning, revision samt bokföring.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: dc4482d9ff60c0fdb9f9a285de5910ca4d844ad2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382510"
 ---
 # <a name="finance"></a>Finans
 

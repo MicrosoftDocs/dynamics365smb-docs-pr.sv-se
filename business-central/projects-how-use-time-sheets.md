@@ -3,19 +3,19 @@ title: Arbeta med Tidrapporter för projekt | Microsoft Docs
 description: Beskriver hur du skapar en tidrapport för ett projekt, kopierar rader till ordern, definierar arbetstyper, fyller i tidrapporten och skickar den för godkännande.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b53768d7a7757f3f3e186e5d241b318a71c770b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 42357da17222bf6500667bfdf160124e245d6bb0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758623"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388354"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Använda tidrapporter för projekt
 
@@ -54,7 +54,7 @@ Du kan definiera arbetstypen för alla tidrapportrader för projekt. På detta s
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tidsrapporter** och välj sedan relaterad länk.   
 2. Öppna relevant tidrapport.
 3. Välj fältet **Beskrivning**.  
-4. På sidan **Jobbdetalj för tidrapportsrad** väljer du fältet **Arbetstypkod** och väljer sedan arbetstyp från listan som t.ex. **Mil**.  
+4. På sidan **Projektdetalj för tidrapportsrad** väljer du fältet **Arbetstypkod** och väljer sedan arbetstyp från listan som t. ex. **Mil**.  
 5. Om inga arbetstyper finns, väljer du åtgärden **Ny**.
 6. På sidan **Arbetstyper** fyller du i fälten efter behov.
 7. Upprepa steg 4 för att tilldela den nya arbetstypen till tidrapporten.
@@ -85,7 +85,7 @@ Tidrapportsregistrering spåras i timmar, som är standardbasmåttenheten för r
 6. För att ändra informationen på en rad som har angetts som **Skickad** väljer du raden och väljer sedan åtgärden **Öppna igen**.
 
     > [!NOTE]  
-    >   En chef kan avvisa en tidrapportrad som skickas in för godkännande. Om en rad t.ex. har statusen **Avvisad** kan du göra ändringar av raden och sedan välja **Skicka** igen.  
+    >   En chef kan avvisa en tidrapportrad som skickas in för godkännande. Om en rad t. ex. har statusen **Avvisad** kan du göra ändringar av raden och sedan välja **Skicka** igen.  
 7. Välj **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Så här kan du godkänna eller avvisa en tidrapport

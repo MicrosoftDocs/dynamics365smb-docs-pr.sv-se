@@ -3,26 +3,26 @@ title: Vanliga frågor om listvyer
 description: Detaljerad information om hur du sparar filter som listvyer.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: f39e20a9b4dae7e84c491d6d28308133f4691c05
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 17d7c909865bc077097ba4299e07ed2dd9cedb22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392480"
 ---
 # <a name="list-views-faq"></a>Vanliga frågor om listvyer
 I den här artikeln besvaras frågor som våra erfarna användare ofta ställer om att arbeta med listvyer och spara filter.  
 
 ### <a name="how-do-views-handle-expressions"></a>Hur hanterar vyer uttryck?
 
-När du sparar en vy som innehåller filter med uttryck (t.ex. datumintervall, operatorer, nyckelord eller filterspecifikationer) sparas endast uttrycket &mdash; inte resultatvärdena. Om du till exempel sparar en vy som filtrerar efter fältet **Skapat datum** med uttrycket `-1W..today` kommer detta alltid att leda till att poster relaterade till aktuellt datum hittas, även när vyn öppnas först nästa månad.
+När du sparar en vy som innehåller filter med uttryck (t. ex. datumintervall, operatorer, nyckelord eller filterspecifikationer) sparas endast uttrycket &mdash; inte resultatvärdena. Om du till exempel sparar en vy som filtrerar efter fältet **Skapat datum** med uttrycket `-1W..today` kommer detta alltid att leda till att poster relaterade till aktuellt datum hittas, även när vyn öppnas först nästa månad.
 
 ### <a name="where-are-list-views-saved"></a>Var sparas listvyer?
 
@@ -70,7 +70,7 @@ Nr Fönstret **Berätta** visar endast sökresultat för sidan, men du är bara 
 
 Alla vyer på en listsida delar en gemensam kolumnlayout. Layouten innehåller de kolumner som visas, dessas inställningar för sekvens, bredd, låst ruta och snabbinmatning. Om du anpassar en kolumnlayout påverkas även andra vyer som delar samma layout på listsidan.
 
-Vissa systemvyer kan ha unika layouter för kolumnerna i listan. De kan t.ex. arrangera om kolumner så att endast de kolumner som är mest relevanta för den vyn visas. Du kan identifiera vilka vyer som har unik layout genom att välja ikonen ![Visa fler alternativ](media/show-more-options-icon.png "Visa fler alternativ") och observera att kryssrutan **Delad layout** inte är markerad. Som användare kan du anpassa kolumnlayouten för en vy med unik layout utan att påverka andra vyer på listsidan. Endast utvecklare kan definiera en unik kolumnlayout för en vy som ursprungligen har en delad layout.
+Vissa systemvyer kan ha unika layouter för kolumnerna i listan. De kan t. ex. arrangera om kolumner så att endast de kolumner som är mest relevanta för den vyn visas. Du kan identifiera vilka vyer som har unik layout genom att välja ikonen ![Visa fler alternativ](media/show-more-options-icon.png "Visa fler alternativ") och observera att kryssrutan **Delad layout** inte är markerad. Som användare kan du anpassa kolumnlayouten för en vy med unik layout utan att påverka andra vyer på listsidan. Endast utvecklare kan definiera en unik kolumnlayout för en vy som ursprungligen har en delad layout.
 
 ### <a name="what-does-the-show-system-filters-link-do"></a>Vad gör länken Visa systemfilter?
 
@@ -108,7 +108,7 @@ När du sparar en ny vy eller byter namn på en befintlig vy måste du ange ett 
 
 ### <a name="do-views-with-expressions-work-in-all-languages"></a>Fungerar vyer med uttryck på alla språk?
 
-Uttryck som bara använder symboler, t.ex. `|` eller `..` betraktas som säkra för användare att komma åt på alla språk. Alla vyer med uttryck som innehåller bokstäver, nyckelord eller filter-token fungerar bara för det språk de har skapats på.
+Uttryck som bara använder symboler, t. ex. `|` eller `..` betraktas som säkra för användare att komma åt på alla språk. Alla vyer med uttryck som innehåller bokstäver, nyckelord eller filter-token fungerar bara för det språk de har skapats på.
 
 ### <a name="see-also"></a>Se även
 

@@ -1,21 +1,21 @@
 ---
-title: Skapa ett kundkort för att registrera en ny kund | Microsoft Docs
+title: Registrera nya kunder genom att skapa ett kundkort
 description: Beskriver hur du skapar ett kundkort för att registrera information om varje ny kund eller klienten som du säljer till.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748325"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573432"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 
@@ -34,7 +34,7 @@ För att registrera en ny kund måste du fylla i ett kundkort. Du kan upprätta 
 
 ### <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
 2. På sidan **Kunder** väljer du åtgärden **Ny**.
 
     Om endast en kundmall finns, då öppnas ett nytt kundkort med fält ifyllda med information från mallen.
@@ -64,6 +64,29 @@ Kundmallen läggs till listan över kundmallar, så att du kan använda det för
 
 Om du har bokfört en transaktion för en kund kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort kundkort med transaktioner, kontaktar du din Microsoft-partner för att göra det via kod.  
 
+## <a name="managing-credit-limits"></a>Hantera kreditlimits
+
+Kreditlimits, saldobelopp och betalningsvillkor det möjligt för [!INCLUDE [prod_short](includes/prod_short.md)] att utfärda en kreditvarning och en varning om förfallet saldo när du registrerar en försäljningsorder.  Dessutom kan du använda funktionerna för betalningspåminnelsevillkor och räntevillkor för att fakturera ränta och/eller ytterligare avgifter.  
+
+Fältet **Kreditgräns** på ett kundkort anger det maximala belopp som du tillåter kunden att överskrida betalningssaldot med innan varningar utfärdas. När du sedan anger information i journaler, offerter, order och fakturor testar [!INCLUDE [prod_short](includes/prod_short.md)] försäljningshuvudet och enskilda försäljningsrader för att se om kreditlimiten har överskridits.
+
+Du kan bokföra även om kreditlimiten överskrids. Om fältet är tomt finns det ingen kreditlimit för kunden.  
+
+Du kan välja att inte ha varningar som talar om för dig att kundens kreditlimit har överskridits, och du kan ange vilka typer av varningar du vill se.
+
+### <a name="to-specify-credit-limit-warnings"></a>Så här anger du varningar om kreditlimit
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
+
+2. På snabbfliken **Allmänt**, i fältet **Kreditvarningar**, väljer du relevant alternativ enligt beskrivet i följande tabell:
+
+    |Alternativ| Beskrivning|
+    |------|------------|
+    |**Båda varningar**| Både fältet **Kreditlimit** och fältet **Förfallet saldo** på kundkortet är markerade, och en varning visas om kunden har överskridit sin kreditlimit eller om kunden har en förfallen skuld.|
+    |**Kreditlimit**|Värdet i fältet **Credit Limit** på kundkortet jämförs med kundens saldo, och en varning visas om kundsaldot överskrider detta belopp.|
+    |**Förfallet saldo**|Fältet **Förfallet saldo** på kundens kort markeras, och en varning visas om kunden har ett förfallet saldo.|
+    |**Ingen varning**|Inga varningar visas om kundens status.|
+
 ## <a name="see-also"></a>Se även
 
 [Definiera betalningssätt](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Om du har bokfört en transaktion för en kund kan du inte ta bort kortet efters
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

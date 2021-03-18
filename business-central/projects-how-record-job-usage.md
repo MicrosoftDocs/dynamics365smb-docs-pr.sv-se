@@ -3,19 +3,19 @@ title: Registrera fakturerbara timmar och budgeterad förbrukning av jobbresurs 
 description: Beskriver hur du registrerar förbrukning eller användning av artiklar eller resurser i ett projekt för att underlätta projekthantering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84c10ffa100607c2f2dfca361de83361f8441928
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4db09a8e9b0801b0c642329c2e75ab26ffa1de64
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389330"
 ---
 # <a name="record-usage-for-jobs"></a>Registrera förbrukning för projekt
 
@@ -50,7 +50,7 @@ Efterföljande procedurer beskriver hur du registrerar verkligt (fakturerbart), 
 
 I nästa uppgift registrerar du också förbrukning, men för en projektplaneringsrad av typen **Fakturerbart**. I det här fallet faktureras vanligtvis förbrukningen, men du kan även överföra den till en journal. Men om du gör det skapas en projektplaneringsrad av typen **Budget** för att matcha fakturerbar rad. Mer information finns i [Hantera projektbudget](projects-how-manage-budgets.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.
 2. Välj relevant projekt och välj sedan åtgärden **Projektplaneringsrader**.  
 3. Välj en projektplaneringsrad av typen **Fakturerbart**, som du vill registrera förbrukning för.
 4. Gå till fältet **Antal att överföra till faktura** och ange hur stort antal som ska överföras. Standardkvantiteten är samma värde som du angav i fältet **Antal**.
@@ -71,7 +71,7 @@ I nästa uppgift registrerar du också förbrukning, men för en projektplanerin
 
 När du är klar att bokföra ekonomisk information för projektet, måste du skapa projektjournalrader som du kan bokföra.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobb** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant öppet projekt och välj sedan åtgärden **Projektplaneringsrader**.  
 3. På sidan **Projektplaneringsrader** på en relevant projektplaneringsrad i fältet **Antal att överföra till journal** anger du det antal som du vill överföra till en projektjournal.  
 4. Välj åtgärden **Skapa projektjournalrader**.
@@ -82,7 +82,7 @@ När du är klar att bokföra ekonomisk information för projektet, måste du sk
 
 ## <a name="to-create-job-journal-lines-manually"></a>Så här skapar du projektjournalrader manuellt
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2. Välj relevant projektjournalnamn i fältet **Journalnamn**.  
 3. Ange dokumentnummer, projektnumret, projektaktivitetsnummer, typ och antal av typen som förbrukas, på en ny rad.  
 4. Välj åtgärden **Bokför** när projektjournalraderna har slutförts.  
@@ -94,7 +94,7 @@ När du har bokfört projektjournalrader kan du se de planeringsrader som är ko
 > [!NOTE]  
 > Detta kräver att kryssrutan **Använd förbrukningslänk som standard** har valts för projektet, eller är standardinställningen för alla projekt i organisationen. Mer information finns i [Skapa projekt](projects-how-setup-jobs.md).  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Jobbjournaler** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
 2. Välj en relevant projektjournal och välj sedan åtgärden **Transaktioner**.  
 3. På sidan **Projekttransaktioner** väljer du åtgärden **Visa kopplade projektplaneringsrader**.
 

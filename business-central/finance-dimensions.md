@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 443eb397af946e1a7b512a87619a921c6cb9f918
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 1cb323b374077261ef01591df51b410702681657
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386555"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -44,7 +44,7 @@ En dimensionsuppsättning en är en unik kombination av dimensionsvärden. Den l
 När du skapar en journalrad, dokumenthuvud eller dokumentrad kan du ange en kombination av dimensionsvärden. I stället för att uttryckligen lagra varje dimensionsvärde i databasen tilldelas ett dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden för att specificera dimensionsuppsättningen.  
 
 ## <a name="setting-up-dimensions"></a>Lägga upp dimensioner
-Du kan ange de dimensioner och dimensionsvärden för att kategorisera journaler och dokument, till exempel försäljningsorder och inköpsorder. Du ställer in dimensioner på sidan **Dimensioner** där du skapar en rad för varje dimension som t.ex. *Projekt*, *Avdelning*, *Område* och *Säljare*.
+Du kan ange de dimensioner och dimensionsvärden för att kategorisera journaler och dokument, till exempel försäljningsorder och inköpsorder. Du ställer in dimensioner på sidan **Dimensioner** där du skapar en rad för varje dimension som t. ex. *Projekt*, *Avdelning*, *Område* och *Säljare*.
 
 Du kan också ställa in värden för dimensioner. Värden kan till exempel vara avdelningarna i företaget. Dimensionsvärden kan anges i en hierarkisk struktur som liknar kontoplanen, så att data kan brytas ned i olika detaljeringsgrader och delmängder av dimensionsvärden kan räknas samman. Du kan definiera så många dimensioner och dimensionsvärden som behövs och alla i företaget kan använda dem.
 
@@ -70,7 +70,7 @@ Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopiera
 >  Om ett konto måste ha en annan dimension än den standarddimension som definierats för kontotypen måste en standarddimension anges för kontot. På så sätt ersätter standarddimensionen för kontot standarddimensionen för kontotypen.  
 
 ### <a name="to-set-up-default-dimension-priorities"></a>Så här anger du standarddimensionsprioritet  
-Olika kontotyper, t.ex. ett kundkonto och ett artikelkonto, kan ha olika definierade standarddimensioner. Detta kan resultera i att flera standarddimensioner för en dimension föreslås för en transaktion. Du kan undvika att den här typen av konflikter uppstår genom att använda prioritetsregler för de olika källorna.  
+Olika kontotyper, t. ex. ett kundkonto och ett artikelkonto, kan ha olika definierade standarddimensioner. Detta kan resultera i att flera standarddimensioner för en dimension föreslås för en transaktion. Du kan undvika att den här typen av konflikter uppstår genom att använda prioritetsregler för de olika källorna.  
 
 1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Förvalda dimensionsprioriteter** och välj sedan relaterad länk.  
 2.  På sidan **Standard dimensionsprioritet** i fältet **Källkod** anger du ursprungskoden för den transaktionstabell som standarddimensionsprioriteten.  
@@ -188,7 +188,7 @@ Sidan **Standarddimensioner: Flera** innehåller följande fält:
 |**Bokförs med**|Visar antingen en enstaka bokföringsregel eller termen (Konflikt). Om en bokföringsregel visas i fältet har alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om termen (Konflikt) visas i fältet har inte alla markerade konton samma bokföringsregel för ett dimensionsvärde. Om du väljer fältet Bokförs med kan du visa en lista över bokföringsregler. Om du markerar en bokföringsregel tillämpas den på alla markerade konton.|
 
 ## <a name="using-dimensions"></a>Använda dimensioner
-I ett dokument som t.ex. en försäljningsorder kan du lägga till dimensionsinformation för både en individuell dokumentrad och själva dokument. T.ex. på sidan **Försäljningsorder** kan du ange dimensionsvärden för de två första genvägsdimensionerna på den individuella försäljningsraden och du kan lägga till ytterligare dimensionsinformation om du väljer knappen **Dimensioner**.  
+I ett dokument som t. ex. en försäljningsorder kan du lägga till dimensionsinformation för både en individuell dokumentrad och själva dokument. t. ex. på sidan **Försäljningsorder** kan du ange dimensionsvärden för de två första genvägsdimensionerna på den individuella försäljningsraden och du kan lägga till ytterligare dimensionsinformation om du väljer knappen **Dimensioner**.  
 
 Om du istället arbetar med en journal kan du lägga till dimensionsinformation i en transaktion om du har lagt upp genvägsdimensioner som fält direkt på journalraderna.  
 
