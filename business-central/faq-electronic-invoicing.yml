@@ -2,18 +2,12 @@
 metadata:
   title: Vanliga frågor och svar om elektronisk fakturering
   description: Få svar om tjänsten för dokumentutbyten och versioner som stöds av PEPPOL.
-  author: sorenfriisalexandersen
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: e-invoicing, PEPPOL, NemHandel
-  ms.date: 01/05/2021
-  ms.author: edupont
-  ms.openlocfilehash: 5fd42d8165e4f10e0c09d7efcfc021eb42a74ea8
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: a71f81306cffb6b223d39b3104fcbb33ad4ab7ff
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013773"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181810"
 title: Vanliga frågor och svar om elektronisk fakturering
 summary: "Den inbyggda tjänsten för dokumentutbyten skickar elektroniska fakturor till TradeShift, en tjänsteleverantör som vidarebefordrar elektroniska fakturor till PEPPOL- eller NemHandel-mottagare. Tjänsten stöder däremot ett begränsat antal versioner.   \n\nDessa Vanliga frågor och svar besvarar några av de viktigaste frågorna om elektronisk fakturering.  \n"
 sections:
