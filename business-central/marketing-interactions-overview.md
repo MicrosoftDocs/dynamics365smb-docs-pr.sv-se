@@ -5,29 +5,32 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d11b1298e55eb6d034ee173df70ad77478f4c1d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e43337204ae3e3c5e5d51d0b8ba5bd7612e386b8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755373"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391405"
 ---
-# <a name="managing-interactions"></a><span data-ttu-id="71766-104">Hantera interaktioner</span><span class="sxs-lookup"><span data-stu-id="71766-104">Managing Interactions</span></span>
-<span data-ttu-id="71766-105">I [!INCLUDE[prod_short](includes/prod_short.md)] är interaktioner all slags kommunikation mellan företaget och dina kontakter.</span><span class="sxs-lookup"><span data-stu-id="71766-105">In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="71766-106">Exempelvis kommunikation kan ske via e-post, brev, telefon, möten och så vidare.</span><span class="sxs-lookup"><span data-stu-id="71766-106">For example, communications can be email, letter, telephone, meetings, and so on.</span></span>
+# <a name="managing-interactions"></a><span data-ttu-id="9a177-104">Hantera interaktioner</span><span class="sxs-lookup"><span data-stu-id="9a177-104">Managing Interactions</span></span>
+<span data-ttu-id="9a177-105">I [!INCLUDE[prod_short](includes/prod_short.md)] är interaktioner all slags kommunikation mellan företaget och dina kontakter.</span><span class="sxs-lookup"><span data-stu-id="9a177-105">In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="9a177-106">Exempelvis kommunikation kan ske via e-post, brev, telefon, möten och så vidare.</span><span class="sxs-lookup"><span data-stu-id="9a177-106">For example, communications can be email, letter, telephone, meetings, and so on.</span></span>
 
-<span data-ttu-id="71766-107">Du kan registrera alla interaktioner som du har med kontakterna för att hålla reda på vilka försäljnings- och marknadsföringsåtgärder som du har riktat mot dem och för att förbättra dina kommande affärsinteraktioner med dem.</span><span class="sxs-lookup"><span data-stu-id="71766-107">You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span>
+<span data-ttu-id="9a177-107">Du kan registrera alla interaktioner som du har med kontakterna för att hålla reda på vilka försäljnings- och marknadsföringsåtgärder som du har riktat mot dem och för att förbättra dina kommande affärsinteraktioner med dem.</span><span class="sxs-lookup"><span data-stu-id="9a177-107">You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span>
 
-<span data-ttu-id="71766-108">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="71766-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="9a177-108">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="9a177-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="71766-109">Till</span><span class="sxs-lookup"><span data-stu-id="71766-109">To</span></span> | <span data-ttu-id="71766-110">Gå till</span><span class="sxs-lookup"><span data-stu-id="71766-110">See</span></span> |
+| <span data-ttu-id="9a177-109">Till</span><span class="sxs-lookup"><span data-stu-id="9a177-109">To</span></span> | <span data-ttu-id="9a177-110">Gå till</span><span class="sxs-lookup"><span data-stu-id="9a177-110">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="71766-111">Ställa in systemet för att registrera interaktioner.</span><span class="sxs-lookup"><span data-stu-id="71766-111">Set up your system to record interactions.</span></span> |[<span data-ttu-id="71766-112">Ställa in kontakter</span><span class="sxs-lookup"><span data-stu-id="71766-112">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
-|<span data-ttu-id="71766-113">Skapa interaktioner för att registrera all interaktion och kommunikation som du har med dina kontakter och segment, till exempel e-posta.</span><span class="sxs-lookup"><span data-stu-id="71766-113">Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing.</span></span>|[<span data-ttu-id="71766-114">Så här skapar du interaktioner på kontakter och segment</span><span class="sxs-lookup"><span data-stu-id="71766-114">Create Interactions on Contacts and Segments</span></span>](marketing-how-create-interactions.md)|
-|<span data-ttu-id="71766-115">Ställa in systemet för att automatiskt registrera interaktioner för försäljnings-, inköps- och servicedokument, till exempel när en dokumenterad skapas, bokförs eller skrivs ut.</span><span class="sxs-lookup"><span data-stu-id="71766-115">Set up your system to automatically record interactions for sales, purchase, and service documents, such as when a documented is created, posted, or printed.</span></span>|[<span data-ttu-id="71766-116">Automatiskt registrering av interaktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="71766-116">Automatically Record Interactions with Contacts</span></span>](marketing-auto-record-interactions.md)|
+| <span data-ttu-id="9a177-111">Ställa in systemet för att registrera interaktioner.</span><span class="sxs-lookup"><span data-stu-id="9a177-111">Set up your system to record interactions.</span></span> |[<span data-ttu-id="9a177-112">Ställa in kontakter</span><span class="sxs-lookup"><span data-stu-id="9a177-112">Set Up Contacts</span></span>](marketing-setup-contacts.md) |
+|<span data-ttu-id="9a177-113">Skapa interaktioner för att registrera all interaktion och kommunikation som du har med dina kontakter och segment, till exempel e-posta.</span><span class="sxs-lookup"><span data-stu-id="9a177-113">Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing.</span></span>|[<span data-ttu-id="9a177-114">Så här skapar du interaktioner på kontakter och segment</span><span class="sxs-lookup"><span data-stu-id="9a177-114">Create Interactions on Contacts and Segments</span></span>](marketing-how-create-interactions.md)|
+|<span data-ttu-id="9a177-115">Ställa in systemet för att automatiskt registrera interaktioner för försäljnings-, inköps- och servicedokument, till exempel när en dokumenterad skapas, bokförs eller skrivs ut.</span><span class="sxs-lookup"><span data-stu-id="9a177-115">Set up your system to automatically record interactions for sales, purchase, and service documents, such as when a documented is created, posted, or printed.</span></span>|[<span data-ttu-id="9a177-116">Automatiskt registrering av interaktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="9a177-116">Automatically Record Interactions with Contacts</span></span>](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
